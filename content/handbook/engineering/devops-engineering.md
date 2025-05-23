@@ -111,7 +111,7 @@ The DevOps department is comprised of:
 
 ### Promotion Process
 
-Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), DevOps utilizes a process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/). The goal of this promotion projection and review is to:
+Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/), DevOps utilizes a process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/). The goal of this promotion projection and review is to:
 
 - Promote the right people at the right time
 - Maintain a high bar for promotions
@@ -119,7 +119,7 @@ Aligned with the [company-wide promotion cadence](/handbook/people-group/promoti
 - Ensure alignment with overall company [promotion rate](/handbook/people-group/people-success-performance-indicators/#promotion-rate)
 - Add another layer of review to reduce bias in the promotion process
 
-DevOps adheres to the company-wide quarterly timeline outlined [here](/handbook/people-group/promotions-transfers/#promotions-process--timeline) as our SSOT.
+DevOps adheres to the company-wide quarterly timeline outlined [here](/handbook/people-group/promotions-transfers/) as our SSOT.
 
 **The DevOps Department has an additional formal step built in to our promotion process beyond what the company is currently adhering to through our peer review process**. Ahead of the commencement of the [Calibration](/handbook/people-group/promotions-transfers/#calibration) stage of our process, all promotion documents should be peer reviewed by a Senior Manager or Director. The due date to complete the peer review is _before_ the scheduled Calibration session.
 
@@ -164,7 +164,7 @@ Talent Assessment Process guidelines specific for the DevOps Department is docum
 
 ### How we hire contractors
 
-In [this handbook page](processes/hiring-contractors.html) we document the process that the development department follows, including planning budget, candidate sourcing, interview process, contracting and onboarding.
+In [this handbook page](/handbook/engineering/development/processes/hiring-contractors) we document the process that the development department follows, including planning budget, candidate sourcing, interview process, contracting and onboarding.
 
 ## How We Work
 
@@ -210,12 +210,6 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 1. The development groups who introduce or consume the dependency of concern (e.g. gems, libs, base images, etc.) are responsible for resolving vulnerabilities detected against the dependency.
 2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
 3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
-
-### DevOps Headcount planning
-
-DevOps's headcount planning follows the Engineering [headcount planning](/handbook/engineering/#headcount-planning) and [long term profitability targets](/handbook/engineering/#long-term-profitability-targets). Development headcount is a percentage of overall engineering headcount.
-
-We follow normal span of control both for our managers and directors of [4 to 10](/handbook/company/structure/#management-group). Our sub-departments and teams match as closely as we can to the [Product Hierarchy](/handbook/product/categories/#hierarchy) to best map 1:1 to [Product Managers](/handbook/product/).
 
 ### Daily Duties for Engineering Directors
 
@@ -339,7 +333,7 @@ When DevOps collaborates with Support it provides invaluable insight into how cu
 - Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
 - Reference documentation in your responses and make updates to GitLab documentation when needed.
 - Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
-- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team)
+- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)
 
 ### Incident Management
 
