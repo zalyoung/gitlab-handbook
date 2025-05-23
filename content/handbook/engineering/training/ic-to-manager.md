@@ -104,7 +104,7 @@ Currently as an Individual Contributor, your day to day tasks probably do not in
 ### Background
 
 At GitLab, there are a number of ICs that are interested in learning and growing into a Management role.
-A [number of resources](/handbook/engineering/development/dev/training/ic-to-manager/) have [been assembled](https://gitlab.com/gitlab-org/ci-cd/package-stage/package/-/issues/15) to aid in the process of understanding the manager role and to gain the experience required to take it on.
+A [number of resources](/handbook/engineering/training/ic-to-manager/) have [been assembled](https://gitlab.com/gitlab-org/ci-cd/package-stage/package/-/issues/15) to aid in the process of understanding the manager role and to gain the experience required to take it on.
 While resources are valuable in their own right, having an experienced Manager as a mentor can help guide ICs and provide practical advice and background. These Manager-mentors can aid the IC and shed light on what areas of Management they could focus on and what they can do practically at present to skill-up.
 
 ### Structure
