@@ -22,7 +22,7 @@ At GitLab we see **CREDIT** everywhere, it is in our 360 Feedback, Annual and Mi
 
 We are experts in working remotely, so our handbook is the best resource for this area.
 
-* [Remote Work Foundations](/handbook/company/culture/all-remote/remote-certification/#remote-work-foundation-certification-criteria) (Handbook)
+* [Remote Work Foundations](/handbook/company/culture/all-remote/remote-certification) (Handbook)
 
 ## Feedback
 
