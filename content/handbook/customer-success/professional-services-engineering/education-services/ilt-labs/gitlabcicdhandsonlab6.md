@@ -70,16 +70,16 @@ build go:
   rules:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
 
-release job:
-  stage: release
-  image: registry.gitlab.com/gitlab-org/release-cli:latest
-  script:
-    - echo "Generating the latest release!"
-  release: 
-    tag_name: 'v0.$CI_PIPELINE_IID'
-    description: 'The latest release!'
-  rules:
-    - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
+  release job:
+    stage: release
+    image: registry.gitlab.com/gitlab-org/release-cli:latest
+    script:
+      - echo "Generating the latest release!"
+    release: 
+      tag_name: 'v0.$CI_PIPELINE_IID'
+      description: 'The latest release!'
+    rules:
+      - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
 
 deploy app:
   stage: deploy

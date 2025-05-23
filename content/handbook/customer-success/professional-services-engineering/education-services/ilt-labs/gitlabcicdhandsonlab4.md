@@ -73,11 +73,6 @@ This will now make the project a CI/CD Catalog project. Any templates in the *te
 1. In the `.gitlab-ci.yml` file, add the following code snippet.
 
 ```yaml
-workflow:
-  rules:
-    - if: '$CI_COMMIT_TAG'
-      when: never
-    - when: always
 stages:
   - release
 release component:
@@ -88,6 +83,8 @@ release component:
   release: 
     tag_name: 'v0.$CI_PIPELINE_IID.0'
     description: 'The latest component release.'
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
 ```
 
 This code looks similar to our release component we made in a similar lab, but there is one key difference- component releases require a release format in semantic versioning (MAJOR.MINOR.PATCH). We use the PATCH version to differentiate between each commit.
