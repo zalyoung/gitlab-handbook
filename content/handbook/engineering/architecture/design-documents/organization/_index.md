@@ -299,9 +299,10 @@ From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/is
 
 Based on this analysis we expect to see similar behavior when rolling out Organizations.
 
-## Decision Log
+## Decisions
 
 - 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
+- [001: Organization context resolution](decisions/001_organization_context_resolution.md)
 
 ## Links
 
