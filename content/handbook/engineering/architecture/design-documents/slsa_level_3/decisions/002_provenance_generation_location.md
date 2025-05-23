@@ -19,7 +19,7 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 **Pros:**
 
 - Already implemented.
-- Could captures files read and commands executed by the `script`.
+- Could captures files read and written by the build job.
 - Easy setup, enabled by a single CI/CD variable.
 
 **Blockers:**
@@ -30,7 +30,7 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 
 **Pros:**
 
-- Could captures files read and commands executed by the `script`.
+- Could captures files read and written by the build job.
 
 **Cons:**
 
@@ -129,13 +129,18 @@ If needed, provenance generation can be handled by background jobs to further mi
 
 ### Negative
 
-- Limited ability to capture detailed build environment information (commands executed, files read/written).
+- Cannot track files read by the build job.
+Tracking these files would make it possible to generate the `resolvedDependencies` field.
+However, SLSA L3 requirements state that completeness of that field is best effort.
+- Cannot track files written by the build job.
+Tracking these fiels would make it possible to generate the `byProducts` field.
+However, this field isn't required.
 
 ### Future Considerations
 
 - The signing of provenance statements is being addressed separately in issue [#537060](https://gitlab.com/gitlab-org/gitlab/-/issues/537060)
-- Future enhancements may explore ways to capture more detailed build environment information,
-potentially through integration with the runner while maintaining the control plane requirement.
+- Future enhancements may explore ways to capture `resolvedDependencies` and `byProducts`,
+potentially through integration with the runner while still generating the provenance in the control plane.
 
 ## Related Links
 
