@@ -48,7 +48,7 @@ Read more about the topic area from the links below:
 - [Product Stage Direction - ModelOps](/handbook/engineering/ai/data-science/modelops)
 - [Draft Group Direction - MLOps](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/direction/modelops/mlops/index.html.md.erb)
 - [Group Direction - AI Model Validation](https://about.gitlab.com/direction/ai-powered/ai_model_validation/)
-- [AI Model Validation Group](/handbook/engineering/development/data-science/ai-powered/)
+- [AI Model Validation Group](/handbook/engineering/ai/data-science/ai-powered/)
 
 ### Related GitLab projects
 
@@ -56,7 +56,7 @@ Read more about the topic area from the links below:
   - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
 - [Tanuki-Stan](https://gitlab.com/gitlab-org/ml-ops/tanuki-stan)
 - [UnReview](/handbook/engineering/ai/data-science/ai-powered/model-validation/projects/unreview/)
-  - [Architecture Diagram](/handbook/engineering/development/data-science/appliedml/projects/unreview/#architecture)
+  - [Architecture Diagram](/handbook/engineering/ai/data-science/appliedml/projects/unreview/#architecture)
 
 ### Related ML Slack channels
 

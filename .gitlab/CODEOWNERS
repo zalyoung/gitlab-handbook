@@ -134,7 +134,6 @@
 /content/handbook/engineering/devops/dev/plan/knowledge.md @vshushlin
 /content/handbook/engineering/devops/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/devops/dev/plan/project-management.md @donaldcook
-/content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
 /content/handbook/engineering/development/fulfillment/ @jeromezng @courtmeddaugh
 /content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez
 /content/handbook/engineering/development/fulfillment/provision.md @rhardarson @ppalanikumar
@@ -167,6 +166,7 @@
 /content/handbook/engineering/development/sec/security-risk-management/security-insights @nmccorrison
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
+/content/handbook/engineering/training/ic-to-manager.md @dsatcher
 /content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
