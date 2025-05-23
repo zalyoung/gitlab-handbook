@@ -166,6 +166,11 @@ To find all logs where the HTTP response status code is in the [4xx client error
 
 An investigation may lead to a complex collection of filters at play, it can be useful to temporarily disable a filter to change the view of logs.
 
+To temporarily disable a filter, click the text of the filter to get a menu of options, and select `Temporarily disable.` 
+![Filter menu showing Temporarily disable option](/static/images/support/workflows/assets/Dedicated_logs_temp_disable_filter.png "Temporarily diasble")
+
+To re-enable a filter, click the text of the filter and select `Re-enable.` 
+![Filter menu showing Re-enable option](/static/images/support/workflows/assets/Dedicated_logs_re-enable_filter.png "Re-enable")
 
 ### Examples
 
