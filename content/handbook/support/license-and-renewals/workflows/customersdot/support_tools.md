@@ -22,6 +22,8 @@ There are different tabs for namespace control.
 
 > **Important**: Please double check and take note of the Additional computes minutes and Storage **BEFORE** and **AFTER** making the change.
 
+View the namespace as an admin, [using the API](https://docs.gitlab.com/api/namespaces/), or with the [Zendesk Super App](/handbook/security/customer-support-operations/docs/zendesk/apps/#gitlab-super-app)
+
 #### Set extra CI minutes
 
 Allows setting additional compute minutes to a customer namespace to the value specified in the `New minutes total` field.
