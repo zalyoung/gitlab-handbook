@@ -48,15 +48,17 @@ Working this way means our team members are expected to quickly deliver the mini
 While this can be a challenging practice to adopt at first, it's liberating to be able to make mistakes, get feedback quickly, and course correct to reach a better outcome, faster.
 
 As our company and the industry continue to grow, you'll have the freedom to change and constantly evolve everything from your schedule and your workspace to your job description and your skills.
+
 ## Culture at GitLab
+
 Culture at GitLab is composed of three things.
 
 1. [GitLab Values](/handbook/values/)
 1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication](all-remote/informal-communication/). We also build trust by [effectively collaborating](/handbook/values/#dont-let-each-other-fail) with others.
 1. Work style (how we work). This is defined and articulated in our [communication guide](/handbook/communication/) and [handbook usage guide](/handbook/about/handbook-usage/).
 
-
 ## Other pages related to culture
+
 1. [Internal Feedback](/handbook/company/culture/internal-feedback/)
 1. [Diversity, Inclusion and Belonging](inclusion/)
-1. [Talent Brand](https://handbook.gitlab.com/handbook/people-group/employment-branding/)
+1. [Talent Brand](/handbook/people-group/employment-branding/)
