@@ -428,12 +428,10 @@ Details:
 
 Exit Criteria:
 
-- Framework to sync clusterwide tables to all cells.
-- Following clusterwide tables are synced: `application_settings`, `plans`, `plan_limits`, `licenses`
-- All clusterwide tables that needs to be synced to all cells are identified, and marked as such in `db/docs`
+- Clusterwide settings can be synchronized per ring.
+- Cells secrets are kept the same across all cells.
+- Validation and regression testing for cells is setup.
 - Production fixtures are seeded including an admin user with an initial organization.
-- `ActiveRecord::Encryption` is the new default encryption framework (and supported by `TokenAuthenticatable`).
-- Personal access tokens and Runner tokens are migrated to use `ActiveRecord::Encryption`
 
 Before/After:
 
