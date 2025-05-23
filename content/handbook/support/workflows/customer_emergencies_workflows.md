@@ -444,7 +444,7 @@ A customer may be blocked because of a license expiring or neglecting to apply a
    - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
    - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
 1. In the ticket, apply the `Trial Subscription - Exclusions Sign Off` macro and send the generated message to the customer. Do not proceed further until the customer has provided a **written** response confirming they understand the trial subscription exclusions.
-1. Access the [CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#where-the-tools-is-located) use the [`Trial changes (SaaS)`](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#update) option to resolve the situation.
+1. Access the `CustomersDot Support Admin Tools` use the `Trial changes (SaaS)` option to resolve the situation.
     - Search for the namespace ID.
     - Select the pencil icon to edit the trial.
     - Select the Plan the customer had initially purchased, or use `Ultimate` if you do not have this information.
