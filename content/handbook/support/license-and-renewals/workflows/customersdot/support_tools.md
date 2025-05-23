@@ -26,7 +26,7 @@ There are different tabs for namespace control.
 
 Allows setting additional compute minutes to a customer namespace to the value specified in the `New minutes total` field.
 
-> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the Manage GitLab Plan and Trials option which will change the *usage quota* to match a paid plan quota for the duration of the trial. We have an [open issue 13063](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/13063) to allow edit monthly quotas for trial plan.
+> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the Manage GitLab Plan and Trials option which will change the *usage quota* to match a paid plan quota for the duration of the trial. We have an [open issue 13063](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/13063) to allow editing monthly quotas for trial plan.
 
 The form has three required fields:
 
