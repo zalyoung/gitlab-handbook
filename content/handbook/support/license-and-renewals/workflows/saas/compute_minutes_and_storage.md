@@ -10,12 +10,6 @@ From time to time, you may need to grant additional compute minutes to a namespa
 *without* affecting the namespace's usual monthly quota.
 
 <details>
-<summary>Mechanizer</summary>
-
-Use the <a href="/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#set-compute-minutes-to-namespace">Set compute minutes to namespace</a> workflow, which uses the Zendesk Mechanizer app.
-</details>
-
-<details>
 <summary>Using GitLab.com ChatOps</summary>
 
 View the <a href="/handbook/support/workflows/chatops/#setting-additional-minutes-quota-for-a-namespace">
@@ -23,24 +17,18 @@ Support ChatOps documentation</a> for more information.
 </details>
 
 <details>
-<summary>Using the Cdot [Namespace controls SaaS / Set extra CI minutes](https://customers.gitlab.com/admin/saas_full_order/set_extra_ci_minutes) tab. </summary>
+<summary>CustomersDot Support Admin Tools</summary>
 
-The form has two required fields:
-
-- Namespace: The customer namespace as it appears in the URL. (for example: gitlab-silver)
-- Extra minutes: The value of compute minutes. (Note: This will **set** the Additional unit to the provided number so please note the namespace existing state of Additional units before making the change.)
+Use the CustomersDot Support Admin Tools / [Set extra CI minutes](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#set-extra-ci-minutes) workflow.
 
 </details>
 
 ## Adding storage
 
 <details>
-<summary>Using the Cdot [Namespace controls SaaS / Set additional storage](https://customers.gitlab.com/admin/saas_full_order/add_storage) tab. </summary>
+<summary>CustomersDot Support Admin Tools</summary>
 
-The form has two required fields:
-
-- Namespace: The customer namespace as it appears in the URL. (for example: gitlab-silver)
-- Extra storage (MiB): Additional space to add in MB (GB * 1024, for example: 10 GB = 10240)
+Use the CustomersDot Support Admin Tools / [Set additional storage](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#set-additional-storage) workflow.
 
 </details>
 
@@ -71,7 +59,7 @@ the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel
   - `Total compute minutes = Their current compute minutes + (2 x sum of compute minutes for all failed jobs)`
   1. Request Manager Approval to `Restore Compute Minutes as an act of goodwill` to the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel in Slack
   1. MANAGERS: Acknowledge in Slack and post approval via internal note in the ticket.
-  1. After Approval is provided in ticket, restore the compute minutes using the [Zendesk Mechanizer app: Set compute minutes to namespace workflow](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#set-compute-minutes-to-namespace)
+  1. After Approval is provided in ticket, restore the compute minutes using the [CustomersDot Support Admin Tools / Set extra CI minutes](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#set-extra-ci-minutes)
 - This will provide recovery of the compute minutes lost, with an additional amount in recognition of the inconvenience caused to the customer.
 
 - ([Example Ticket 1](https://gitlab.zendesk.com/agent/tickets/294974)
@@ -88,9 +76,9 @@ the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel
 
 ### Purchased compute minutes are not associated with customer's group
 
-To transfer compute minutes from a user's personal namespace to a group namespace, use the [Force Association option in the ZD Mechanizer App](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#force-associate).
+To transfer compute minutes from a user's personal namespace to a group namespace, use the [CustomersDot Support Admin Tools / Namespace control (SaaS) / Force Associate](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#force-associate).
 
-**If the Mechanizer does not work**, you will need to request a refund for the customer.  In this case:
+**If the force association does not work**, you will need to request a refund for the customer.  In this case:
 
 - Confirm that the compute minutes *are* associated with the user's personal namespace.
 - Verify that the compute minutes associated with the personal namespace have not been consumed. You can check this under Usage Quotas in the users personal profile.  Note: If compute minutes are assigned to a personal namespace with no project or pipeline, this page will show `0/Not supported minutes has been consumed.`
@@ -124,9 +112,9 @@ The following process will remove the restrictions for using compute minutes for
 
 ### Steps
 
-#### Using Mechanizer ZD App
+#### Using CustomersDot Support Admin Tools
 
-Use the [Enable compute minutes via ZD Mechanizer app](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#enable-compute-minutes).
+Use the [Bypassing credit card validation for pipeline execution via CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#bypassing-credit-card-validation-for-pipeline-execution).
 
 #### Using customerDot Console
 
