@@ -68,11 +68,11 @@ We should:
 
 ### Product with a Customer Focus
 
-We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-breadth-and-stability).
+We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-and-stability).
 
 ### Usability
 
-Millions of customers use GitLab, so UX improvements can have a huge collective impact across all of these individuals. We support this effort both in the product development as well as in our architecture. This includes continued conversion of [Pajamas components](/handbook/engineering/ux/pajamas-design-system/) in order to continue to improve the performance experienced by users.
+Millions of customers use GitLab, so UX improvements can have a huge collective impact across all of these individuals. We support this effort both in the product development as well as in our architecture. This includes continued conversion of [Pajamas components](/handbook/product/ux/pajamas-design-system/) in order to continue to improve the performance experienced by users.
 
 Development team members should also constantly suggest and investigate how to improve the overall user experience of the product. These can range from enhancing performance (actual and perceived), suggesting new technologies, solving user experience issues efficiently, etc.
 
@@ -316,14 +316,6 @@ The shared services and components below are extracted from the GitLab [product 
 ## Learning Resources
 
 For a list of resources and information on our GitLab Learn channel for DevOps, consult [this page](/handbook/engineering/development/training/).
-
-### Global Prioritization
-
-Execution of a Global prioritization can take many forms.  This is worked with both Product and Engineering Leadership engaged.  Either party can activate a proposal in this area.  The options available and when to use them are the following:
-
-- [Rapid action](/handbook/product/product-processes/#rapid-action) - use when reassignment isn't necessary, the epic can have several issues assigned to multiple teams
-- [Borrow](/handbook/product/product-processes/#borrow) - use when a temporary assignment to a team is required to help resolve an issue/epic
-- [Realignment](/handbook/people-group/promotions-transfers/#realignment-of-team-members-impacting-multiple-teams) - use when a permanent assignment to a team is required to resolve ongoing challenges
 
 ### Email alias and roll-up
 
