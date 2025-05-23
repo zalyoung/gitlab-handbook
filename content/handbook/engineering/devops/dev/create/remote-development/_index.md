@@ -7,7 +7,7 @@ description: >-
 
 ## Overview
 
-The group is part of [Create Stage](/handbook/engineering/devops/dev/create/) in the [Dev Sub-department](/handbook/engineering/development/dev/). We focus on two [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Workspace` and the `Web IDE`.
+The group is part of [Create Stage](/handbook/engineering/devops/dev/create/) in the [Dev Sub-department](/handbook/engineering/devops/dev/). We focus on two [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Workspace` and the `Web IDE`.
 
 ### 🤴 Group Principles
 
@@ -61,9 +61,9 @@ Please use the confidential issues below to capture all customer engagements for
 - [Web IDE Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/474518)
 - [Workspaces Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/473627)
 
-These epics are meant for internal team members only. If you are a user wanting to provide feedback, see [Capturing User Feedback](#️-capturing-user-feedback).
+These epics are meant for internal team members only. If you are a user wanting to provide feedback, see [Capturing User Feedback](#️capturing-user-feedback).
 
-### 🗣️ Capturing User Feedback
+### Capturing User Feedback
 
 We highly value user feedback! Please use the epics below to capture feedback and insights for the two feature categories:
 

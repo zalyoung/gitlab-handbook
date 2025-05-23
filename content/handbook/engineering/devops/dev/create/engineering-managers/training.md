@@ -23,7 +23,7 @@ Engineering Managers can live our CREDIT values.
 
 We are experts in working remotely, so our handbook is the best resource for this area.
 
-- [Remote Work Foundations](/handbook/company/culture/all-remote/remote-certification/#remote-work-foundation-certification-criteria) (Handbook)
+- [Remote Work Foundations](/handbook/company/culture/all-remote/remote-certification) (Handbook)
 - [How to Manage a Remote Team](https://www.coursera.org/learn/remote-team-management)
 
 ## Feedback

@@ -66,7 +66,7 @@ If there is an area you are interested in learning more about, please reach out 
 - [Professional Development](/handbook/engineering/devops/dev/create/engineers/professional-development/)
 - [Recommended Books](/handbook/engineering/devops/dev/create/engineers/books/)
 - [Training Materials](/handbook/engineering/training/)
-- [Transitioning from an Individual Contributor to a Manager](/handbook/engineering/development/dev/training/ic-to-manager)
+- [Transitioning from an Individual Contributor to a Manager](/handbook/engineering/training/ic-to-manager)
 - [Skip-level Meetings](/handbook/engineering/devops/dev/create/engineers/skip-level/)
 - [Iteration](/handbook/engineering/devops/dev/create/engineers/iteration/)
 

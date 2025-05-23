@@ -20,7 +20,7 @@ The Create Engineering Managers lead by example.  This page shares how the EMs l
 - Participation in Working Groups
 - Regularly Review Dashboards
 - Host Team Retrospectives
-- Continuously refine and improve team processes based on feedback from Retrospectives, [Skip Level Meetings](/handbook/engineering/devops/dev/create/engineers/skip-level/), 1-1's, 360 Feedback and [Employee Engagement Surveys](/handbook/engineering/devops/dev/create/engineers/engagement-survey/)
+- Continuously refine and improve team processes based on feedback from Retrospectives, [Skip Level Meetings](/handbook/engineering/devops/dev/create/engineers/skip-level/), 1-1's, 360 Feedback and Employee Engagement Surveys
 - Support Team Members in their Employee Development
 
 ## Efficiency
