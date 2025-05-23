@@ -50,7 +50,7 @@ Additionally to our main team's slack channels, each extension/project we work o
 
 Editor extensions systems host features and modules owned by different groups.
 
-The [Ownership and Boundaries](/handbook/engineering/development/dev/create/editor-extensions/ownership/) page provides clarity and a clear expectation between all parties who author/maintain features in our systems.
+The [Ownership and Boundaries](/handbook/engineering/ai/editor-extensions/ownership/) page provides clarity and a clear expectation between all parties who author/maintain features in our systems.
 
 ## Group processes
 

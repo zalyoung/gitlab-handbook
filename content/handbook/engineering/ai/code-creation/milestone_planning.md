@@ -33,7 +33,7 @@ _List the specific conditions that must be met for this issue to be considered c
 ## Issue Refinement
 
 The goal of issue refinement is to have engineers review issues to ensure they are ready for development and provide lightweight estimates.
-Use the [template checklist](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#refinement-template) in the next section as a guideline.
+Use the [template checklist](/handbook/engineering/ai/code-creation/milestone_planning/#refinement-template) in the next section as a guideline.
 
 1. Initial Labeling:
     - When a new issue is created or identified as a potential priority, it should be labeled with "workflow::refinement"
@@ -79,7 +79,7 @@ While refining an issue, copy the below template into a comment and work through
 - [ ] Identified dependencies or blockers (if any)
 - [ ] Considered if the issue should be broken down into smaller tasks
   - [ ] Created child issues if needed (link them here)
-- [ ] Assigned a weight using [issue estimation](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#issues-estimation)
+- [ ] Assigned a weight using [issue estimation](/handbook/engineering/ai/code-creation/milestone_planning/#issues-estimation)
 
 /weight X
 /label ~"workflow::ready for development"

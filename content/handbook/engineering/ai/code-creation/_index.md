@@ -18,7 +18,7 @@ Features/capabilities Code Creation owns today:
 - Code suggestions: completion + generation
 - Code-related slash commands: `/explain`, `/refactor`, `/tests`, `/fix` 
 - Repository X-Ray
-- Code suggestions context (e.g. open tabs) - partnered with [Create:Editor Extensions Group](/handbook/engineering/development/dev/create/editor-extensions/)
+- Code suggestions context (e.g. open tabs) - partnered with [Create:Editor Extensions Group](/handbook/engineering/ai/editor-extensions/)
 
 Code Creation is also responsible for evaluations for each of these features which includes:
 
@@ -30,8 +30,8 @@ Code Creation is also responsible for evaluations for each of these features whi
 
 One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
 
-- [Code Suggestions Engineering Overview](/handbook/engineering/development/dev/create/code-creation/engineering_overview/) - Handbook technical overview of Code Suggestions
-- [Code Suggestions Guide](/handbook/engineering/development/dev/create/code-creation/code-suggestions-guide/) - Handbook development guide for engineers
+- [Code Suggestions Engineering Overview](/handbook/engineering/ai/code-creation/engineering_overview/) - Handbook technical overview of Code Suggestions
+- [Code Suggestions Guide](/handbook/engineering/ai/code-creation/code-suggestions-guide/) - Handbook development guide for engineers
 - [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start/) - GitLab Documentation
 - [Difference between Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
 - [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
@@ -107,7 +107,7 @@ Here are other groups within GitLab that we work closely with:
 
 ### Create Stage
 
-- [Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)
+- [Editor Extensions](/handbook/engineering/ai/editor-extensions/)
   - Collaborate on Code suggestions context (e.g. open tabs)
 
 ### AI Powered Stage
@@ -142,7 +142,7 @@ All of our meetings are recorded and uploaded to the [Code Creation YouTube Play
 
 ### Milestone Planning
 
-See the [Code Creation Milestone Planning](/handbook/engineering/development/dev/create/code-creation/milestone_planning/) for more information on the milestone planning process.
+See the [Code Creation Milestone Planning](/handbook/engineering/ai/code-creation/milestone_planning/) for more information on the milestone planning process.
 
 ### Weekly Status Updates
 
