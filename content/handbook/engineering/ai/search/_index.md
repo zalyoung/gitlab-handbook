@@ -40,7 +40,7 @@ The following members of other functional teams are our stable counterparts:
 
 ## Shared Responsibilities
 
-The Global Search team shares responsibilites with the AI Framework team in the area of ![Retrieval Augmented Generation](/handbook/engineering/ai/search/rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
+The Global Search team shares responsibilites with the AI Framework team in the area of ![Retrieval Augmented Generation](/images/handbook/engineering/ai/search/rag_ownership_framwework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
 
 ## Advanced Search data stores and interfaces today
 
