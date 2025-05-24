@@ -54,7 +54,7 @@ The Verify Pipeline teams focused on the following Engineering-led initiatives, 
 ### FY23
 
 The Verify stage focused on reliability and scalability of GitLab CI, which was critical for the availability of gitlab.com.  This included addressing database performance, security vulnerabilities, performance improvements and relevant technical debt.
-This ensured GitLab remained secure, compliant and performant, with our SaaS offering that was able to maintain [SLAs of gitlab.com](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
+This ensured GitLab remained secure, compliant and performant, with our SaaS offering that was able to maintain [SLAs of gitlab.com](/handbook/engineering/monitoring/#gitlabcom-service-availability).
 
 ## Mission
 
@@ -110,7 +110,7 @@ A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework,
 
 ### Developer Onboarding in Verify
 
-Welcome to the team! Whether you're joining GitLab as a new hire, transferring internally, or ramping up on the CI domain knowledge to tackle issues in our area, you'll be assigned an [onboarding/shadowing buddy](/handbook/company/culture/all-remote/onboarding/#how-to-onboard-new-hires-remotely) so you can have someone to work with as you're getting familiarized with our codebase, our tech stack and general development processes on your Verify team.
+Welcome to the team! Whether you're joining GitLab as a new hire, transferring internally, or ramping up on the CI domain knowledge to tackle issues in our area, you'll be assigned an [onboarding/shadowing buddy](/handbook/company/culture/all-remote/onboarding) so you can have someone to work with as you're getting familiarized with our codebase, our tech stack and general development processes on your Verify team.
 
 Read over this page as a starting point and feel free to set up regular sync or async conversations with your buddy. We recommend setting up weekly touch points, at a minimum, and joining our regular team syncs to learn more about how we work. (Reach out to our Engineering Managers for an invite to those recurring meetings). Please also schedule a few coffee chats to meet some members of our team. You will be assigned a team specific developer onboarding issue (For example, [Pipeline Execution Developer onboarding checklist](https://gitlab.com/gitlab-org/ci-cd/onboarding/-/blob/master/.gitlab/issue_templates/verify-pipeline-execution_developer-onboarding.md)) for you to go through. It contains admin tasks to complete (as a new team member, if relevant), and also links to technical documentation, meeting agendas, and recordings.
 
@@ -164,7 +164,7 @@ These updates are an opportunity for the engineer to add detail to the status an
 
 ### Merge Requests in Verify
 
-In the Verify stage, we value [MR Rate](/handbook/product/groups/product-analysis/engineering/dashboards/#merge-request-rate) as a shared performance indicator for team collaboration, iteration, customer results. The entire team is responsible for iterative scope in issues. This starts with product management creating a clear problem statement connected to user insights. UX then adds interaction specifications and acceptance criteria to then be considered and weighed by the engineering team. Teams are encouraged to iterate on scope so as to delivery the [smallest thing possible](/handbook/values/#iteration).
+In the Verify stage, we value [MR Rate](/handbook/product/groups/product-analysis/engineering/metrics/#merge-request-rates-mr-rates) as a shared performance indicator for team collaboration, iteration, customer results. The entire team is responsible for iterative scope in issues. This starts with product management creating a clear problem statement connected to user insights. UX then adds interaction specifications and acceptance criteria to then be considered and weighed by the engineering team. Teams are encouraged to iterate on scope so as to delivery the [smallest thing possible](/handbook/values/#iteration).
 
 By considering MR Rate as a measure of throughput, product management is focused on creating decomposed pieces of scope to improve the user experience. This encourages the UX and engineering teammates to provide simpler ways to solve the same problem, ultimately improving the throughput of the entire team.
 
@@ -192,7 +192,7 @@ Some of the noted benefits include reduced time spent in sync meetings, allowing
 
 ### Current (2022 onward)
 
-As of June 2022, async issue updates are created weekly at the stage level and for each of the groups within the stage, following the [Ops section process of async updates](/handbook/engineering/devops/ops/#weekly-async-updates-no-status-in-meetings).  Contributions will be added by Principal+ Engineers, Engineering Managers, and the Senior Engineering Manager of the Verify stage.
+As of June 2022, async issue updates are created weekly at the stage level and for each of the groups within the stage, following the [Ops section process of async updates](/handbook/engineering/devops/ops#async-updates-no-status-in-meetings).  Contributions will be added by Principal+ Engineers, Engineering Managers, and the Senior Engineering Manager of the Verify stage.
 
 ### 2020-2021
 
