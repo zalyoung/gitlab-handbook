@@ -154,8 +154,6 @@ Create provides tools that support the beginning of the DevOps Life Cycle. Sourc
 
 - [Performance indicators internal handbook page](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/)  The Create : Gitaly Group primarily uses the Performance Indicators Internal Handbook Page to guide decisions
 
-- [Handbook page containing engineering analytics dashboards](/handbook/engineering/devops/dev/create/engineering-managers/dashboards/)  Used by Create Stage Engineering Managers
-
 **Helpful video resources**
 
 Must be logged into GitLab Unfiltered account
