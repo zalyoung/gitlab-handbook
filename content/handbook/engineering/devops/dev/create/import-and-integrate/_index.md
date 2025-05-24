@@ -71,7 +71,7 @@ workflow labels on their issues up to date, either by manually assigning the new
 label, or by dragging the issue from one column on the board to the next.
 
 Once an engineer starts working an issue, they mark it with the `workflow::"in
-dev"` label as the starting point and continue [updating the issue throughout development](/handbook/engineering/workflow/#updating-issues-throughout-development).
+dev"` label as the starting point and continue updating the issue throughout development.
 The process primarily follows the guideline:
 
 ``` mermaid

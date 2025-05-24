@@ -235,7 +235,7 @@ The following is a non exhaustive list of daily duties for engineering directors
     1. [Performance board](https://gitlab.com/groups/gitlab-org/-/boards/1233204)
 1. [Infrastructure Development Escalations](/handbook/engineering/workflow/#infradev)
     1. Triage new issues, enhance Issue details and ensure appropriate handling based on priority and severity
-    1. Sync discussions for infradev Issues are part of the [GitLab SaaS Weekly Meeting](/handbook/engineering/infrastructure/#gitlab-saas-infrastructure)
+    1. Sync discussions for infradev Issues are part of the [GitLab SaaS Weekly Meeting](/handbook/engineering/infrastructure)
     1. [Agenda document](https://docs.google.com/document/d/1fLQQBKt0mShmTk_mJ-BmBM6OFjal63-AH7yKSbMg6_s/edit#)
     1. [Infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev)
 1. Holiday Emergency Contact Rotations
@@ -309,7 +309,7 @@ The shared services and components below are extracted from the GitLab [product 
 
 ## Learning Resources
 
-For a list of resources and information on our GitLab Learn channel for DevOps, consult [this page](/handbook/engineering/development/training/).
+For a list of resources and information on our GitLab Learn channel for DevOps, consult [this page](/handbook/engineering/training/).
 
 ### Email alias and roll-up
 
@@ -337,8 +337,8 @@ When DevOps collaborates with Support it provides invaluable insight into how cu
 
 ### Incident Management
 
-Team members in [some job families](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/#introduction) contribute to incident management directly through an on-call schedule for Incident Managers.
-Team members should [complete onboarding](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/#how-does-someone-onboard-into-the-incident-manager-rotation) so they can be added to the schedule when needed.
+Team members in [some job families](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding) contribute to incident management directly through an on-call schedule for Incident Managers.
+Team members should [complete onboarding](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding) so they can be added to the schedule when needed.
 These [frequently asked questions](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/#frequently-asked-questions) cover exemptions and changing shifts.
 
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/) process
