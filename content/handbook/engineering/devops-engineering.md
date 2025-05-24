@@ -346,8 +346,8 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 ### DevOps Escalation Process
 
-- [General information](/handbook/development/processes/Infra-Dev-Escalation/)
-- [Process outline](handbook/development/processes/Infra-Dev-Escalation/process)
+- [General information](/handbook/development/processes/infra-dev-escalation/)
+- [Process outline](/handbook/development/processes/infra-dev-escalation/process)
 
 ### Reducing the impact of far-reaching work
 
