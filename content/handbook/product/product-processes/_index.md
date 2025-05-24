@@ -296,8 +296,8 @@ solution. Reduce it to its simplest form (see above) and only ship that.
 ### Prioritization
 
 See the [Cross-Functional Prioritization page](/handbook/product/cross-functional-prioritization) for more information.
-Prioritization Framework
-#### 
+
+#### Prioritization Framework
 
 {{% include "includes/master-prioritization-list.md" %}}
 
