@@ -44,6 +44,8 @@ The ESA also promotes partner Delivery teams to get trained and certified to pro
 
 ## Ecosystem Solutions Architecture Engagement Model
 
+This [reference](/handbook/solutions-architects/processes/partners_content_categorisation.md) was created for GitLab Partners Solutions Architects to standardise content categorisation and governance in HighSpot.
+
 ### Developing Partner Champions
 
 The Ecosystem SA goal is to effectively enable an entire ecosystem of associated services, platform, technology, and transaction partners.  We cannot do this unless we develop [GitLab Partner Champions](/handbook/resellers/partner-champions-program/) within our partner community.  Selling and services relationships are personal.  We don't “enable partners."  We develop champions who can share and scale our reach delivering simple messages that unlock services and consumption.  This effort requires focus and achieves scale.
@@ -61,6 +63,8 @@ In terms of key responsibilities, the Ecosystem SA is responsible for supporting
 - Content Curation: Sources and curates content with Partner Enablement team that is easy to find and use, and helps meet the goals of GitLab and its partners.
 
 ### TODO Working with Services Partners
+
+### GitLab Partners Content Categorisation & Governance
 
 ### MBO Guidelines
 
