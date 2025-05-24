@@ -10,13 +10,13 @@ We are running with some limited capacity in the recruiting team and we are aski
 
 ## Hiring Process
 
-The process for Ops is a mix of the current [hiring manager (HM) tasks](/handbook/hiring/talent-acquisition-framework/hiring-manager/) and the [talent acquisition (TA) tasks](/handbook/hiring/talent-acquisition-framework/req-overview/).  We use [Evergreen Requisitions](/handbook/hiring/talent-acquisition-framework/req-creation/#evergreen-requisitions) as a single pipeline for inbound applications to similar roles. In addition, each hiring manager will use a separate Greenhouse requisition for their specific role. The Evergreen Req will be used in conjunction with the team-specific req to track candidates end to end through the hiring process.
+The process for Ops is a mix of the current [hiring manager (HM) tasks](/handbook/hiring/talent-acquisition-framework/hiring-manager/) and the [talent acquisition (TA) tasks](/handbook/hiring/talent-acquisition-framework/req-overview/).  We use [Evergreen Requisitions](/handbook/hiring/talent-acquisition-framework/evergreen-requisitions) as a single pipeline for inbound applications to similar roles. In addition, each hiring manager will use a separate Greenhouse requisition for their specific role. The Evergreen Req will be used in conjunction with the team-specific req to track candidates end to end through the hiring process.
 
 ### Step 1. Identify hiring need
 
 [Identify hiring need](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-1hm-identifying-hiring-need)
 
-1. Work with Product Manager as they are [DRI of headcount planning](/handbook/engineering/#headcount-planning), Finance, and Talent Acquisition to [include vacancy in the hiring plan](/handbook/finance/financial-planning-and-analysis/#hiring-plan-process).
+1. Work with Product Manager as they are DRI of headcount planning, Finance, and Talent Acquisition to [include vacancy in the hiring plan](/handbook/finance/financial-planning-and-analysis/#hiring-plan-process).
 1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family-dri-hiring-manager)
 
 ### Step 2. Kickoff
@@ -63,14 +63,14 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
 
 In addition to reviewing candidates in the Evergreen req, you may also wish to do sourcing for your team-specific role. The main purpose of sourcing is to **Identify and engage top talent.**
 
-1. Get a [recruiter LinkedIn account](/handbook/hiring/sourcing/#upgrading-your-linkedin-account) and setup
+1. Get a [recruiter LinkedIn account](/handbook/hiring/sourcing/#for-gitlab-hiring-managers-and-team-members) and setup
 1. Setup LinkedIn for sourcing, for example:
     1. Create your own templates
     1. Create projects for each of your open positions or make sure you are invited to
 1. Search for candidates
-    1. If you are getting support from a sourcer, follow the steps to [review inbound applications](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-4hm-optional-source-candidates-andor-review-inbound-applications)
+    1. If you are getting support from a sourcer, follow the steps to [review inbound applications](/handbook/hiring/talent-acquisition-framework/hiring-manager/)
 1. Reach Out. Consider using the templates listed in the resources. Make sure to ask for contact details of the prospect, you will need this in the next step.
-1. [Add prospects to your team-specific requisition in Greenhouse](/handbook/hiring/talent-acquisition-framework/req-overview/#step-4-indentify--engage-top-talent-prospects). In the prospect's `profile`, click in the three dots, and click on `export to ATS`.
+1. [Add prospects to your team-specific requisition in Greenhouse](/handbook/hiring/talent-acquisition-framework/req-overview/). In the prospect's `profile`, click in the three dots, and click on `export to ATS`.
 1. After importing to Greenhouse, edit the profile (under Details tab, there is an edit button) to include the email and any other contact information. This is important because Greenhouse automatically sends an email to the candidate when is moved from prospect to candidate to fill a form which includes the CV to be uploaded there.
 
 **Resources**:
@@ -95,11 +95,11 @@ To speed up scheduling screening calls, integrate Calendly with Greenhouse follo
 
 ### Step 7. Continuous check-in
 
-[Continuous check-in](/handbook/hiring/talent-acquisition-framework/req-overview/#step-5-weekly-check-in-issue)
+[Continuous check-in](/handbook/hiring/talent-acquisition-framework/req-overview/)
 
 ### Step 8. Schedule interviews
 
-You have two options to [Schedule interviews](/handbook/hiring/talent-acquisition-framework/req-overview/#team-interview). You can either:
+You have two options to [Schedule interviews](/handbook/hiring/talent-acquisition-framework/req-overview). You can either:
 
 1. Tag TA on the candidates profile and they will organize everything
 2. Start the process yourself. To do this:
@@ -114,19 +114,19 @@ You have two options to [Schedule interviews](/handbook/hiring/talent-acquisitio
 
 ### Step 10. Complete feedback
 
-[Complete feedback](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-5hm-hiring-team-to-complete-feedback-in-greenhouse). Ideally the feedback is submitted within 1-2 business days of the interview.
+[Complete feedback](/handbook/hiring/talent-acquisition-framework/hiring-manager). Ideally the feedback is submitted within 1-2 business days of the interview.
 If you're unable to submit it within that timeframe, please reach out to the Hiring Manager and/or Recruiter with any early evaluation and when they can expect your feedback by.
 
 **Note:** There are times when candidates who may not be a good fit in one role could be an ideal fit in another role. In those cases, please note that to the recruiter or share in Slack (i.e. [#ops-hiring](https://gitlab.slack.com/archives/C03E8N0S3LM), [#dev-hiring-mgmt](https://gitlab.slack.com/archives/G01G3E1FZ6Y), etc.) as it may be helpful for other hiring managers to be aware of to evaluate these candidates.
 
 ### Step 11. References
 
-1. [Request references](/handbook/hiring/talent-acquisition-framework/req-overview/#step-7-references-and-background-check)
-1. [Complete references](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-6hm-complete-references)
+1. [Request references](/handbook/hiring/talent-acquisition-framework/req-overview/#step-6-references)
+1. [Complete references](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-7hm-complete-references)
 
 ### Step 12. Justification
 
-1. Hiring Manager to complete [Justification](/handbook/hiring/talent-acquisition-framework/req-overview/#step-7-justification-engineering-only) scorecard.
+1. Hiring Manager to complete [Justification](/handbook/hiring/talent-acquisition-framework/req-overview/) scorecard.
 1. Justification scorecard will be reviewed by Director of Ops (or a delegate) for these criteria (see [Engineering Hiring Process README](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/blob/master/Engineering/README.md) for additional detail):
     1. ⭐️ Two "Strong Yes" scorecard ratings minimum.
     1. All must-haves assessed and positive.  These should be checked in the Justification scorecard.  The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback.  They are _not_ an average of scores given by the interview panel.
