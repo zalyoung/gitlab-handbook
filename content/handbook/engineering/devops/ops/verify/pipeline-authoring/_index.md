@@ -174,7 +174,7 @@ The table below briefly outlines the objectives and key details of regular team 
 
 ### Cross-functional prioritisation
 
-UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/devops/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
+UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. 
 
 ### Design Collaboration
 

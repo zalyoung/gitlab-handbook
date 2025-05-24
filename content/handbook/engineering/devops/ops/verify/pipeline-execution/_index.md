@@ -294,7 +294,7 @@ For those new to the team, these links may be helpful in learning more about the
 
 ### Cross-functional prioritisation
 
-The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/devops/ops/verify/pipeline-execution/#merged-merge-request-types) which shows the % of MRs that are [bugs](https://gitlab.com/groups/gitlab-org/-/boards/4439443?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Abug) vs [maintenance](https://gitlab.com/groups/gitlab-org/-/boards/4439961?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Amaintenance) vs [features](https://gitlab.com/groups/gitlab-org/-/boards/4440070?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Afeature) to ensure the team's efforts are properly aligned to the prioritisation.
+The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. 
 
 ## How We Work
 
@@ -725,7 +725,7 @@ lists some ways we work to deliver tests in a painless and efficient way.
 
 #### Plan ahead
 
-We aim to define needed tests early with [Quad-planning](/handbook/engineering/devops/ops/verify/pipeline-authoring/#quad-planning).
+We aim to define needed tests early with Quad-planning.
 All the testing should be defined before the implementation starts and all parties should agree on:
 
 - What type of test coverage is needed.
@@ -738,7 +738,7 @@ All the testing should be defined before the implementation starts and all parti
 
 When writing a new feature, we might need to write new E2E specs. In Pipeline Execution, we prefer
 to add E2E tests in separate MRs, the same way we prefer frontend and backend MRs to be separate.
-During [Quad-planning](/handbook/engineering/devops/ops/verify/pipeline-authoring/#quad-planning), it is essential
+During Quad-planning, it is essential
 to determine whether that separate MR is required for the feature to ship or not. Given that we use feature flags for all
 new features, it is quite easy to work in separate MRs and turn on the flag when the team feels the feature has enough coverage
 for production use. A typical full stack feature can therefore involve multiple backend MRs, then frontend MRs, and finally
