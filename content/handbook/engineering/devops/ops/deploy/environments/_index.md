@@ -135,7 +135,7 @@ Twice a milestone, on Tuesday we hold a milestone check up meeting, where we eit
 ### Team issue tracker
 
 - We use [team issues tracker](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/general/-/issues) for internal discussions such as: milestone planning issues, events planning, etc...
-- We also use a [special project](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/info/-/issues) for [Ops Section Async Updates](engineering/devops/ops/#async-updates-no-status-in-meetings).
+- We also use a [special project](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/info/-/issues) for [Ops Section Async Updates](/handbook/engineering/devops/ops/#async-updates-no-status-in-meetings).
 - These issues are [public by default](/handbook/values/#public-by-default), but can be confidential.
 
 ### Issue refinement
@@ -182,7 +182,7 @@ This board contains all the necessary columns to track the workflow of the team,
 
 All the columns are prioritised top to bottom.
 
-Once a team memeber self-assigns an issue on the Milestone Board, issue labels should follow the [Engineering Workflow](/handbook/engineering/workflow/#updating-issues-throughout-development).
+Once a team memeber self-assigns an issue on the Milestone Board, issue labels should follow the Engineering Workflow.
 
 For Merge Requests, it's up to the author and the project they are contributing to, to decide if they want to use these `~workflow::` labels. It is not required to use them or keep them synced up with the Issue labels.
 
@@ -219,7 +219,7 @@ Weights are not set in stone. We do our best to get it right during refinement, 
 
 By giving a weight 1 to an issue, we're saying "we can't benefit from this issue being broken down into smaller units of shippable work."
 
-Anything 5 or larger should be broken down, these should not be `ready for development`. We would likely turn a 5 into an epic, into a research and implementation issue or a [technical discovery](TBD).
+Anything 5 or larger should be broken down, these should not be `ready for development`. We would likely turn a 5 into an epic, into a research and implementation issue or a technical discovery.
 
 Occasionally, a proof-of-concept (POC) is necessary to determine a feasible technical path. When one is required, the engineer will create a POC issue that contains the context of the research to be conducted along with the goals of the POC. This
 issue will be scheduled for work before any further breakdown of tasks is performed. Once the technical path is clear, the engineer can proceed to weight the issue and/or break down the issue further to guide implementation. Every POC issues should contain a list of questions we want to answer, the definition of done should include the answers and suggested next steps.

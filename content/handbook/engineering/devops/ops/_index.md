@@ -28,7 +28,6 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 
 - [CI Section Direction](https://about.gitlab.com/direction/ci/)
 - [CD Section Direction](https://about.gitlab.com/direction/delivery/)
-- [Observability Direction](direction/analytics/observability/)
 
 ## Slack channels
 
@@ -117,7 +116,7 @@ Planning processes followed by teams in the Sub-department:
 
 ### Forced Priority planning/scheduling
 
-Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
+Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#prioritization-framework) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
 
 With this in mind, here's a process that groups are encouraged to use and iterate on in the event that they don't have an existing approach or are falling behind on SLA/SLOs.
 
@@ -213,7 +212,7 @@ We have limited capacity in the recruiting team so hiring managers are experimen
 
 ### Creating OKRs
 
-- Target a 70% completion rate for OKRs so that we are setting goals ambitiously. They should be challenging enough that [accomplishing 100% is a stretch goal,since GitLab considers OKRs to be stretch goals by default](/handbook/company/okrs/#okrs-are-stretch-goals-by-default).
+- Target a 70% completion rate for OKRs so that we are setting goals ambitiously. They should be challenging enough that [accomplishing 100% is a stretch goal,since GitLab considers OKRs to be stretch goals by default](/handbook/company/okrs/).
 - If your OKRs are associated with any specific types of issues, consider reviewing the [prioritization framework](/handbook/product/product-processes/#prioritization), and align with your team on your OKRs priority relative to one another (for example, OKRs with issues with "forced prioritization") and be clear on planning of the associated work over the quarter.
 - Ensure Key Results (KRs) are measurable, by specifying a number (% or unit) as the target. Be clear on the starting number, and the expected end result (e.g. `from x to y`).
 - Ideally create no more than 9 KRs per quarter, ideally with approximately 3 KR per objective.
@@ -241,7 +240,7 @@ For projects that span many milestones we are experimenting with additional proj
 
 Key projects will be listed in the table below:
 
-| Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                         | [Tech Leads](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role)                  |
+| Project Name                                  | DRI                         | [Tech Leads](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role)                  |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------| --------------------------- |
 | CI Data Partitioning                          | [Project plan](/handbook/engineering/devops/ops/verify/pipeline-execution/project-plans/ci-data-partitioning/)                                   | Caroline Simpson            | Marius Bobin                |
 | CI Primary Key Conversion                     | [Project plan](/handbook/engineering/devops/ops/verify/pipeline-execution/project-plans/ci-pk-conversion/)                                       | Drew Stachon / Caroline Simpson | Tianwen Chen            |
@@ -249,7 +248,7 @@ Key projects will be listed in the table below:
 | CI Secrets Management                         | [Project plan](/handbook/engineering/devops/ops/project-plans/secrets-manager/)                                                                  | Scott Hampton               | Albert Salim                |
 | Cluster Web Terminal                          | [Project plan](/handbook/engineering/devops/ops/project-plans/cluster-web-terminal/)                                                             | Nicolò Maria Mezzopera      |                             |
 | Kubernetes Dashboard                          | [Project plan](/handbook/engineering/devops/ops/project-plans/k8s-dashboard/)                                                                    | Nicolò Maria Mezzopera      |                             |
-| Autoscaling for GitLab Runner                 | [Project Plan](/handbook/engineering/devops/ops/verify/runner/project-plans/#autoscaling-provider-for-gitLab-runner-to-replace-docker-machine)   | Nicole Williams             |                             |
+| Autoscaling for GitLab Runner                 | [Project Plan](/handbook/engineering/devops/ops/verify/runner/project-plans/#autoscaling-provider-for-gitlab-runner-to-replace-docker-machine)   | Nicole Williams             |                             |
 | Dedicated SaaS Runners For GitLab Dedicated   | [Project Plan](/handbook/engineering/devops/ops/verify/runner/project-plans/#dedicated-saas-runners-for-gitlab-dedicated)                        | Nicole Williams             |                             |
 | CI Steps                                      | [Project plan](/handbook/engineering/devops/ops/verify/project-plans/ci-steps/)                                                                  | Kamil Trzciński / Cheryl Li | Joe Burnett              |
 
@@ -259,7 +258,7 @@ Key projects will be listed in the table below:
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| --------------------------| ------- |
 | CI/CD Catalog                                 | [Project plan](/handbook/engineering/devops/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Laura Montemayor and Avielle Wolfe | FY25-Q1 |
 | Merge Train Improvements (Fast-Foward Support)| [Project plan](/handbook/engineering/devops/ops/verify/pipeline-execution/project-plans/merge-trains/) | Caroline Simpson | Allison Browne, Hordur Yngvason | FY24-Q4 |
-| O11y Distributed Tracing | [Project plan](/handbook/engineering/devops/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | | FY24-Q4 |
+| O11y Distributed Tracing | | Nicholas Klick | | FY24-Q4 |
 | GCP Secrets Integration | [Project plan](/handbook/engineering/devops/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | Albert Salim | FY24-Q4 |
 
 ### Key Project Planning
@@ -389,7 +388,7 @@ The content of these updates varies by individual and role:
 
 We are piloting a process to make coordinating with the Support team on customer escalations more efficient.
 
-See [How to Use GitLab.com to Formally Request Help from the GitLab Ops Development Team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-ops-development-team) for process details.
+See [How to Use GitLab.com to Formally Request Help from the GitLab Ops Development Team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) for process details.
 
 If you encounter an Ops-related customer escalation, that seems to have a high
 [customer priority](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points),
