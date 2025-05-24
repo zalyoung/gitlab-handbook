@@ -61,7 +61,7 @@ Please use the confidential issues below to capture all customer engagements for
 - [Web IDE Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/474518)
 - [Workspaces Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/473627)
 
-These epics are meant for internal team members only. If you are a user wanting to provide feedback, see [Capturing User Feedback](#️capturing-user-feedback).
+These epics are meant for internal team members only. If you are a user wanting to provide feedback, see Capturing User Feedback.
 
 ### Capturing User Feedback
 

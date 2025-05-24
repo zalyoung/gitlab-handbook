@@ -378,7 +378,7 @@ When Development collaborates with Support it provides invaluable insight into h
 - Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
 - Reference documentation in your responses and make updates to GitLab documentation when needed.
 - Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
-- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team)
+- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)
 
 ### Incident Management
 

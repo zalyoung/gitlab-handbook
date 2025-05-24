@@ -388,7 +388,7 @@ The content of these updates varies by individual and role:
 
 We are piloting a process to make coordinating with the Support team on customer escalations more efficient.
 
-See [How to Use GitLab.com to Formally Request Help from the GitLab Ops Development Team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) for process details.
+See [How to Use GitLab.com to Formally Request Help from the GitLab Ops Development Team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team) for process details.
 
 If you encounter an Ops-related customer escalation, that seems to have a high
 [customer priority](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points),

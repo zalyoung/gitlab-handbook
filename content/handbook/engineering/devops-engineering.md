@@ -333,7 +333,7 @@ When DevOps collaborates with Support it provides invaluable insight into how cu
 - Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
 - Reference documentation in your responses and make updates to GitLab documentation when needed.
 - Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
-- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)
+- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help#how-to-formally-request-help-from-the-gitlab-development-team)
 
 ### Incident Management
 
@@ -346,8 +346,8 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 ### DevOps Escalation Process
 
-- [General information](/handbook/development/processes/infra-dev-escalation/)
-- [Process outline](/handbook/development/processes/infra-dev-escalation/process)
+- [General information](handbook/engineering/development/processes/infra-dev-escalation/)
+- [Process outline](/handbook/engineering/development/processes/infra-dev-escalation/process)
 
 ### Reducing the impact of far-reaching work
 
