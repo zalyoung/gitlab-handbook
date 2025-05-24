@@ -88,7 +88,7 @@ flowchart LR
 
 ### 3. Data Offloading
 
-By default, all data should have a data retention policy. Any data that needs to
+By default, all data should have a [data retention policy](data_retention). Any data that needs to
  be kept around must have a strategy to offload to cheaper storage.
 
 - **Tiered Storage Strategy**:
