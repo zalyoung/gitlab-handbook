@@ -68,7 +68,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Limiting the impact of far-reaching work](/handbook/engineering/devops-engineering/#reducing-the-impact-of-far-reaching-work)
+[Limiting the impact of far-reaching work](/handbook/engineering/devops/#reducing-the-impact-of-far-reaching-work)
 
 ## Overview of Risk Mapping
 
