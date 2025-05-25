@@ -110,8 +110,8 @@
 /content/handbook/engineering/architecture/ @ayufan @grzesiek @glopezfernandez @andrewn @nicholasklick @DylanGriffith @theoretick @shekharpatnaik @stanhu @fabiopitino @tkuah @ntepluhina @jessieay @vitallium
 
 ^[Eng-Development-department]
-/content/handbook/engineering/devops-engineering.md @m_gill
-/content/handbook/engineering/ai-engineering.md @timzallmann
+/content/handbook/engineering/devops/ @m_gill
+/content/handbook/engineering/ai/ @timzallmann
 /content/handbook/engineering/development/ @timzallmann @dsatcher @m_gill @jeromezng
 /content/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
 /content/handbook/engineering/data-engineering/analytics/monitor/platform-insights.md @dennis @nicholasklick
