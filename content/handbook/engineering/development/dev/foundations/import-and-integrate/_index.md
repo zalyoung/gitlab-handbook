@@ -33,6 +33,12 @@ The following people are permanent members of the group:
 
 {{< engineering/stable-counterparts role="Foundations:Import and Integrate" >}}
 
+## Cross-group shared ownership and boundaries
+
+The Import and Integrate team shares ownership of parts of the codebase with other groups and teams. These are outlined in these pages:
+
+- [Source Code Management + Import and Integrate](/handbook/engineering/development/dev/create/source-code/backend/ownership-import/)
+
 ## Metrics
 
 Our Engineering Metrics Dashboards can be found [here](/handbook/product/groups/product-analysis/engineering/dashboards/#dashboards).
