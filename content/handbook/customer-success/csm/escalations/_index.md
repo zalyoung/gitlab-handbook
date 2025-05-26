@@ -101,8 +101,8 @@ The following steps are to be taken by the escalation DRI:
 __Immediately__
 
 1. Open or review the [CS Help request](#cs-help-request)
-    a. If a CSM is the DRI, open the CS Help - Escalation Support case
-    b. If a regional CSE leader is the DRI, review the CS Help - Escational Support case that was opened by an AE, RM, SA, or other GitLab employee who identified the escalation.
+    1. If a CSM is the DRI, open the CS Help - Escalation Support case
+    1. If a regional CSE leader is the DRI, review the CS Help - Escational Support case that was opened by an AE, RM, SA, or other GitLab employee who identified the escalation.
 1. Create a [slack channel](#temporary-slack-channel) to facilitate communication internally at GitLab during the escalation.
 1. [Identify Escalation DRI and immediate asks](#identify-escalation-dri-and-immediate-asks)
 1. Ensure that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`.
