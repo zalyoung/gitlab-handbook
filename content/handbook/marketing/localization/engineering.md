@@ -207,21 +207,21 @@ We use the following scoped labels to track Argo engineering work performed by S
 
 Argo serves as GitLab's centralized localization technology and management infrastructure, encompassing:
 
-- **Request Management System**: centralized intake and tracking of localization requests across all GitLab content types, both manual or automatic via integrations
-- **Translation Management System integrations**: automated connections between GitLab systems and commercial TMS platforms (Phrase, TranslationOS, Contentful, etc.)
-- **[Argo GitLab Agent](https://gitlab.com/gitlab-com/localization/argo-gitlab-agent)**: a purpose-built microservice / component of the Argo ecosystenm for specialized localization-frelated tasks, such as translatabkle file pre- / post-processing, etc.
-- **[Argo-GitLab Integration](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration) aka [GitLab Translation Service](/handbook/engineering/architecture/design-documents/gitlab_translation_service/)**: direct integrations with GitLab projects, merge request workflows, and CI/CD pipelines
+* **Request Management System**: centralized intake and tracking of localization requests across all GitLab content types, both manual or automatic via integrations
+* **Translation Management System integrations**: automated connections between GitLab systems and commercial TMS platforms (Phrase, TranslationOS, Contentful, etc.)
+* **[Argo GitLab Agent](https://gitlab.com/gitlab-com/localization/argo-gitlab-agent)**: a purpose-built microservice / component of the Argo ecosystenm for specialized localization-frelated tasks, such as translatabkle file pre- / post-processing, etc.
+* **[Argo-GitLab Integration](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration) aka [GitLab Translation Service](/handbook/engineering/architecture/design-documents/gitlab_translation_service/)**: direct integrations with GitLab projects, merge request workflows, and CI/CD pipelines
 
 ### Argo engineering board
 
 The [Argo Eevelopment board](https://gitlab.com/groups/gitlab-com/localization/-/boards/9354744?label_name[]=Argo-Engineering) board displays all issues with `Argo-Engineering` labels and provides visibility into:
-- Current development work in progress by Spartan Software
-- Completed enhancements ready for deployment via relevant [milestones](https://gitlab.com/groups/gitlab-com/localization/-/milestones)
-- Planned Argo system improvements and integrations
+* Current development work in progress by Spartan Software
+* Completed enhancements ready for deployment via relevant [milestones](https://gitlab.com/groups/gitlab-com/localization/-/milestones)
+* Planned Argo system improvements and integrations
 
 ### Communication channels
 
-- `#spartan-software`: Direct communication channel with Spartan Software engineering team
+`#spartan-software`: Direct communication channel with Spartan Software engineering team
 
 Technical coordination occurs through GitLab issues tagged with appropriate Argo-Engineering labels
 
