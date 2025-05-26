@@ -150,16 +150,16 @@ stateDiagram-v2
 **Phase 1: Add new columns and indices**
 
 ```ruby
-class AddStateToNamespaces < Gitlab::Database::Migration[2.2]
+class AddStateToNamespaces < Gitlab::Database::Migration[2.3]
   milestone '18.1'
   disable_ddl_transaction!
 
   def change
-    add_column :namespaces, :state, :smallint, default: 0
+    add_column :namespaces, :state, :smallint
   end
 end
 
-class AddStateMetadataToNamespaceDetails < Gitlab::Database::Migration[2.2]
+class AddStateMetadataToNamespaceDetails < Gitlab::Database::Migration[2.3]
   milestone '18.1'
   disable_ddl_transaction!
 
@@ -307,6 +307,7 @@ module Namespaces::Stateful
       [:deletion_in_progress, :transfer_in_progress].include?(state)
     end
   end
+
   def change_state!(new_state, changed_by_user:, inherited_from_namespace: nil)
     state = new_state
 
@@ -322,7 +323,6 @@ module Namespaces::Stateful
   def state_metadata
     namespace_details&.state_metadata || {}
   end
-  
 end
 ```
 
@@ -334,7 +334,6 @@ Introduce `namespace_state_updates` table to track all state transitions:
 class NamespaceStateUpdate < ApplicationRecord
   belongs_to :namespace
 end
-### Service Layer
 
 **Unified State Management Service:**
 
@@ -371,6 +370,7 @@ class Namespaces::StateManagementService
 
     update_descendants_state(new_state)
   end
+
   def update_descendants_state(state)
     NamespaceDescendantsStateUpdateWorker.perform_async(namespace_id: @namespace.id, current_user_id: @current_user.id, state: state)
   end
