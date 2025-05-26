@@ -107,22 +107,22 @@ flowchart TD
     end
     
     %% Relationships between components with labeled edges
-    Runner -->|"0 Request job payload<br>with proof of identity"| RailsBackend
-    RailsBackend -->|"0.1 Return job payload"| Runner
+    Runner -->|"Request job payload<br>with proof of identity"| RailsBackend
+    RailsBackend -->|"Return job payload"| Runner
     Runner -->|"Executes"| BuildJob
-    BuildJob -->|"1 Upload"| Artifacts
-    BuildJob -->|"2 Request Dependencies"| VirtualRegistry
-    VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
+    BuildJob -->|"Upload"| Artifacts
+    BuildJob -->|"Request Dependencies"| VirtualRegistry
+    VirtualRegistry <-->|"Fetch/Track"| Dependencies
     
     %% Phase 1 flow for early implementation
-    VirtualRegistry -->|"4 Provide Dependency Data"| RailsBackend
-    RailsBackend <-->|"8 Query job parameters"| DB
+    VirtualRegistry -->|"Provide Dependency Data"| RailsBackend
+    RailsBackend <-->|"Query job parameters"| DB
     
-    RailsBackend -->|"9 Send Provenance<br>Statement"| GlgoService
+    RailsBackend -->|"Send Provenance<br>Statement"| GlgoService
     GlgoService -.->|"Future Integration"| ExternalKMS
-    GlgoService -->|"10 Return Signed<br>Attestation"| RailsBackend
-    GlgoService -->|"11 Publish Attestation<br>Digest"| Rekor
-    RailsBackend -->|"12 Upload"| PermanentAttestation
+    GlgoService -->|"Return Signed<br>Attestation"| RailsBackend
+    GlgoService -->|"Publish Attestation<br>Digest"| Rekor
+    RailsBackend -->|"Upload"| PermanentAttestation
     
     %% Apply styles
     class FutureWork phaseStyle
