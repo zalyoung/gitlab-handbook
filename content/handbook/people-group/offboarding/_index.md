@@ -54,6 +54,9 @@ Team Members located in Japan who are resigning need to complete [this resignati
 
 Team Members located in Singapore who are resigning and are **not** Singapore citizens need to complete a Letter of Undertaking [document](https://docs.google.com/document/d/1l4Iq6atvXzq6Gt_DdiWfv3DwvshTOoEYZv8baMq_HKo/edit?usp=sharing) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner. Please download or make a copy of the document in order to complete.
 
+##### UAE
+Team members the the PEO/EOR on UAE work visa's who resign, completes their contract, or changes jobs, their visa must be cancelled by the company regardless of whether they leave the UAE. Team member's with dependents must first either cancel dependent visas (if dependents are leaving the UAE) or place them on hold (if dependents are staying) - this is managed by the team member as the dependent visa sponsor. The PEO/EOR company handles the mandatory work visa cancellation process through MOHRE (for labor card) and GDRFA (for residence visa), which takes 1-3 working days. Team members have 30 days after cancellation to leave the UAE or obtain a new visa. Failure to cancel properly may result in re-entry bans, overstaying fines, and complications with final payroll and health insurance processing.
+
 ### Termination
 
 1. **Manager:** If your team member completes a resignation in Workday, you will receive a prompt in your Workday inbox to terminate the team member by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) If a resignation was not submitted, you should initiate the termination by going to the departing team member's Workday Profile and selecting `Actions` followed by `Job Change` and finally `Terminate Employee`).
