@@ -60,8 +60,8 @@
 /handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
 
 # Source Code team pages move - remove 2025-05-11
-/handbook/engineering/devops/dev/create/source-code-be/ /handbook/engineering/devops/dev/create/source-code/backend/ 301
-/handbook/engineering/devops/dev/create/create-source-code-fe/ /handbook/engineering/devops/dev/create/source-code/frontend/ 301
+/handbook/engineering/development/dev/create/source-code-be/ /handbook/engineering/devops/dev/create/source-code/backend/ 301
+/handbook/engineering/development/dev/create/create-source-code-fe/ /handbook/engineering/devops/dev/create/source-code/frontend/ 301
 
 # Old red team handbook - remove 2025-05-11
 /handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
