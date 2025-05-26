@@ -84,7 +84,7 @@ Introduce a centralized namespace state management system with the following com
 | State ID | State Name | Description |
 |----------|------------|-------------|
 | 0 | active | Normal operational state |
-| 1 | archived | Archived but recoverable |  
+| 1 | archived | Archived but recoverable |
 | 2 | deletion_scheduled | Marked for deletion with grace period |
 | 3 | deletion_in_progress | Currently being deleted |
 | 4 | transfer_in_progress | Currently being transferred |
