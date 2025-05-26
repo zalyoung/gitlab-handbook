@@ -209,7 +209,7 @@ Argo serves as GitLab's centralized localization technology and management infra
 
 * **Request Management System**: centralized intake and tracking of localization requests across all GitLab content types, both manual or automatic via integrations
 * **Translation Management System integrations**: automated connections between GitLab systems and commercial TMS platforms (Phrase, TranslationOS, Contentful, etc.)
-* **[Argo GitLab Agent](https://gitlab.com/gitlab-com/localization/argo-gitlab-agent)**: a purpose-built microservice / component of the Argo ecosystenm for specialized localization-frelated tasks, such as translatabkle file pre- / post-processing, etc.
+* **[Argo GitLab Agent](https://gitlab.com/gitlab-com/localization/argo-gitlab-agent)**: a purpose-built microservice / component of the Argo ecosystenm for specialized localization-related tasks, such as translatable file pre- / post-processing, etc.
 * **[Argo-GitLab Integration](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration) aka [GitLab Translation Service](/handbook/engineering/architecture/design-documents/gitlab_translation_service/)**: direct integrations with GitLab projects, merge request workflows, and CI/CD pipelines
 
 ### Argo engineering board
