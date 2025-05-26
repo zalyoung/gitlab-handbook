@@ -196,7 +196,6 @@ Returning from time off can be overwhelming and daunting. You should work with y
 There are five departments within the Engineering Division:
 
 - [Core Development Department](/handbook/engineering/core-development/)
-- [Expansion Development Department](/handbook/engineering/expansion-development/)
 - [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
