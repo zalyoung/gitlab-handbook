@@ -41,7 +41,7 @@ The DRI for the escalation is determined by evaluating these options in order:
 
 1. If the escalation is related to an ongoing Professional Services project, the Professional Services Project Manager will be the DRI of the escalation.
 1. If the escalation is NOT related to an ongoing Professional Services project and there is a CSM assigned to the account, the CSM will be the DRI.
-1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the regional CSE leader will be DRI, with CSEs providing technical support as needed. 
+1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the regional CSE leader will be DRI, with CSEs providing technical support as needed.
 
 ```mermaid
 flowchart TD;
@@ -101,8 +101,8 @@ The following steps are to be taken by the escalation DRI:
 __Immediately__
 
 1. Open or review the [CS Help request](#cs-help-request)
-    1. If a CSM is the DRI, open the CS Help - Escalation Support case
-    1. If a regional CSE leader is the DRI, review the CS Help - Escational Support case that was opened by an AE, RM, SA, or other GitLab employee who identified the escalation.
+      1. If a CSM is the DRI, open the CS Help - Escalation Support case
+      1. If a regional CSE leader is the DRI, review the CS Help - Escalation Support case that was opened by an AE, RM, SA, or other GitLab employee who identified the escalation.
 1. Create a [slack channel](#temporary-slack-channel) to facilitate communication internally at GitLab during the escalation.
 1. [Identify Escalation DRI and immediate asks](#identify-escalation-dri-and-immediate-asks)
 1. Ensure that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`.
@@ -144,7 +144,7 @@ If an [Escalation (For Non Professional Services Projects)](#escalation-for-non-
 1. Click "Create case"
 1. Complete other fields in the opened case: Customer Escalation Slack channel, Customer Collaboration project, Customer meeting notes, Escalation Exit criteria. At this time, you can also edit any of the fields initially filled out when opening the case.
 
-For a CSM Managed account, the Case Owner will be be the assigned CSM. For a CSE account, the Case Owner will be the regional CSE leader.
+For a CSM Managed account, the Case Owner will be the assigned CSM. For a CSE account, the Case Owner will be the regional CSE leader.
 
 The Salesforce case will create a Gainsight CTA for that particular customer, which can be found in the Gainsight Cockpit. A sync between Salesforce and Gainsight happens every 2 hours. Once the Gainsight CTA is created, the Case Owner will receive Gainsight notifications to complete required tasks. Data is bidirectional between Salesforce and Gainsight, so changes can be made in either tool. However, all escalation updates must be made in the Gainsight CTA by adding Timeline entries of type "Health Update" (which is the same Timeline entry type used for Red Accounts management).
 
@@ -203,7 +203,7 @@ The `#escalated_customers` channel is for awareness only and is not intended to 
 
 The DRI owns the functions as outlined here:
 
-- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel. 
+- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel.
 - Update the temporary escalation slack channel daily, at minimum
 - The escalation progress should also be communicated to the customer on a regular basis - expectation is 3 or more times a week depending on the situation.
 
@@ -270,7 +270,7 @@ Occasionally, customers will require a product leader to act as a stable counter
 
 ## CSE's role in Escalations
 
-If necessary, a regional CSE leader will assign a CSE for support on an escalation via a [CSE Help Request](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process). The CSE should work with the regional CSE leader to determine next steps, but otherwise treat the request as any other CSE Help Request.
+If necessary, a regional CSE leader will assign a CSE for support on an escalation by creating a [CSE Help Request](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) in SFDC. The CSE should work with the regional CSE leader to determine next steps, but otherwise treat the request as any other CSE Help Request.
 
 ## Related Links
 
