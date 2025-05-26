@@ -334,6 +334,7 @@ Introduce `namespace_state_updates` table to track all state transitions:
 class NamespaceStateUpdate < ApplicationRecord
   belongs_to :namespace
 end
+```
 
 **Unified State Management Service:**
 
@@ -418,6 +419,8 @@ module Namespaces
     end
   end
 end
+```
+
 ### Migration Strategy
 
 **Iteration 1: Infrastructure Setup**
