@@ -120,11 +120,11 @@
 /content/handbook/engineering/ai/search/ @changzhengliu
 /content/handbook/engineering/ai/code-creation/ @mnohr @jordanjanes
 /content/handbook/engineering/ai/editor-extensions/ @dashaadu @kisha.mavryck
-/content/handbook/engineering/ai/data-science/ai-powered/ai-framework @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/custom-models @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/duo-chat @juan-silva @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/duo-workflow @bastirehm @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/model-validation @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/ai-framework/ @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/custom-models/ @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/duo-chat/ @juan-silva @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/duo-workflow/ @bastirehm @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/model-validation/ @timzallmann
 /content/handbook/engineering/ai/data-science/modelops/ @timzallmann
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/devops/dev/ @m_gill
