@@ -85,7 +85,7 @@ flowchart TD
     subgraph BuildEnvironment["Build Environment"]
         Runner["Runner"]
         BuildJob["CI/CD Build Job"]
-        Artifacts["Build Artifacts"]
+        Artifacts["Job Artifacts"]
     end
     subgraph FutureWork["Dependency tracking"]
         VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
@@ -110,16 +110,12 @@ flowchart TD
     Runner -->|"0 Request job payload<br>with proof of identity"| RailsBackend
     RailsBackend -->|"0.1 Return job payload"| Runner
     Runner -->|"Executes"| BuildJob
-    CIConfig -->|"Configuration"| BuildJob
     BuildJob -->|"1 Upload"| Artifacts
     BuildJob -->|"2 Request Dependencies"| VirtualRegistry
     VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
     
     %% Phase 1 flow for early implementation
     VirtualRegistry -->|"4 Provide Dependency Data"| RailsBackend
-    Artifacts -->|"5 Artifact Storage"| ProvenanceSigner
-    ProvenanceSigner -->|"Store"| TempSignedAttestation
-    ProvenanceSigner -->|"6 Pass Artifact"| RailsBackend
     RailsBackend <-->|"8 Query job parameters"| DB
     
     RailsBackend -->|"9 Send Provenance<br>Statement"| GlgoService
@@ -131,7 +127,6 @@ flowchart TD
     %% Apply styles
     class FutureWork phaseStyle
     class Phase4 phaseStyle
-    class CIConfig,BuildJob,Runner componentStyle
     class Artifacts,DB,Dependencies storageStyle
     class VirtualRegistry,GlgoService serviceStyle
     class ProvenanceSigner,TempSignedAttestation,PermanentAttestation,Rekor,ExternalKMS signatureStyle
