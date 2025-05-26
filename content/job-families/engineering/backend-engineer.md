@@ -323,7 +323,7 @@ Verify backend engineers are primarily focused on improving the Continuous Integ
 - Work with the Product Manager and Engineering Manager to carefully assess technical feasibility of feature requests
 - Deliver proof-of-concept proposals to help guide technical discussions
 - Identify ways to deliver complex technical projects in an iterative fashion
-- Take [ownership](/handbook/engineering/development/ops/verify/#mission) of what we build, focusing on stability and availability.
+- Take [ownership](/handbook/engineering/devops/ops/verify/#mission) of what we build, focusing on stability and availability.
 
 ### CI/CD
 
