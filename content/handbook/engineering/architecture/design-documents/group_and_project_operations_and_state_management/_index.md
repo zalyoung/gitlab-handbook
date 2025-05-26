@@ -30,7 +30,7 @@ Groups and Projects currently have inconsistent state management implementations
 - No consistency between group and project state management
 - State in descendants is sometimes inferred from ancestors inconsistently
 - No state history tracking - impossible to know when a group/project was archived, then unarchived
-- Different data models for similar operations (e.g., `group_deletion_schedules` vs `projects.marked_for_deletion_at`)
+- Different data models for similar operations (for example `group_deletion_schedules` vs `projects.marked_for_deletion_at`)
 - Performance issues with long-running synchronous operations (99.95th percentile: group transfer 51s, project transfer 27s)
 
 **Business Impact:**
