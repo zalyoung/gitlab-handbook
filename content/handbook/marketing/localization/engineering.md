@@ -226,4 +226,4 @@ The [Argo Development board](https://gitlab.com/groups/gitlab-com/localization/-
 
 Technical coordination occurs through GitLab issues tagged with appropriate Argo-Engineering labels
 
-This partnership enables the Localization team to maintain sophisticated translation infrastructure while focusing internal engineering team on core localizability, feature dwevelopment and enhancments for marketing website, GitLab product documentation, and GitLab product.
+This partnership enables the Localization team to maintain sophisticated translation infrastructure while focusing internal engineering team on core localizability, feature development and enhancements for marketing website, GitLab product documentation, and GitLab product.
