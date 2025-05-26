@@ -268,14 +268,6 @@ Stage channels (prefixed with `s_`) correspond to stages within sub-departments.
 - **[`#s_enablement`](https://gitlab.slack.com/archives/s_enablement)**: For the [Enablement stage](/handbook/product/categories/#enablement-stage).
 - **[`#s_create`](https://gitlab.slack.com/archives/s_create)**: For the [Create stage](/handbook/product/categories/#create-stage).
 
-#### Sub-Department Channels (sd_)
-
-Sub-department channels (prefixed with `sd_`) correspond to sub-departments within departments.
-
-**Example**
-
-- **[`#sd_dev_engineering`](https://gitlab.slack.com/archives/sd_dev_engineering)**: For the [Engineering Dev sub-department](/handbook/engineering/development/dev/).
-
 #### Social Groups
 
 In addition to weekly company group calls that bring us together, GitLab has Social Slack Groups. Social Groups are Slack channels that bring team members together around common interests, hobbies, and lifestyles. Think tennis club, gaming, shell collectors, movie buffs, faith groups, football. You can see a list of Social Slack Groups and their tags below. Feel free to join any that resonate with you. This is a non-exhaustive list, but if you don't see a group you'd love to see on the list, reach out to our diversity, inclusion and belonging team and we'd love to explore your idea.
