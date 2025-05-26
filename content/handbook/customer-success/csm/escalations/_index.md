@@ -98,8 +98,6 @@ The following steps are to be taken by the escalation DRI:
 
 ### Opening the Escalation
 
-
-
 __Immediately__
 
 1. Open or review the [CS Help request](#cs-help-request)
@@ -108,7 +106,6 @@ __Immediately__
 1. Create a [slack channel](#temporary-slack-channel) to facilitate communication internally at GitLab during the escalation.
 1. [Identify Escalation DRI and immediate asks](#identify-escalation-dri-and-immediate-asks)
 1. Ensure that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`.
-
 
 __Within 24 hours__
 
@@ -167,6 +164,7 @@ During the internal cadence, be sure to note any changes in exit criteria or DRI
 Make sure you write down the initial ask & needs (to initially make progress) in this escalation, as clearly as possible and add a [bookmark](https://support.google.com/docs/answer/45893?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccreate-a-bookmark) to it. You can link to it in the initial message within the [escalation slack channel](#temporary-slack-channel) channel. As mentioned, be as specific as possible, as the GitLab exec / management team needs to understand the escalation exit criteria.
 
 For example:
+
 - Required skills (Remote EMEA Timezone)
 - Ability to analyze production logs
 - Familiarity with large-scale production architecture for GitLab
@@ -272,7 +270,7 @@ Occasionally, customers will require a product leader to act as a stable counter
 
 ## CSE's role in Escalations
 
-If necessary, a regional CSE leader will assign a CSE for support on an escalation via a [CSE Help Request](https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process). The CSE should work with the regional CSE leader to determine next steps, but otherwise treat the request as any other CSE Help Request.
+If necessary, a regional CSE leader will assign a CSE for support on an escalation via a [CSE Help Request](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process). The CSE should work with the regional CSE leader to determine next steps, but otherwise treat the request as any other CSE Help Request.
 
 ## Related Links
 
