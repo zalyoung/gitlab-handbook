@@ -214,7 +214,7 @@ Argo serves as GitLab's centralized localization technology and management infra
 
 ### Argo engineering board
 
-The [Argo Eevelopment board](https://gitlab.com/groups/gitlab-com/localization/-/boards/9354744?label_name[]=Argo-Engineering) board displays all issues with `Argo-Engineering` labels and provides visibility into:
+The [Argo Development board](https://gitlab.com/groups/gitlab-com/localization/-/boards/9354744?label_name[]=Argo-Engineering) board displays all issues with `Argo-Engineering` labels and provides visibility into:
 
 * Current development work in progress by Spartan Software
 * Completed enhancements ready for deployment via relevant [milestones](https://gitlab.com/groups/gitlab-com/localization/-/milestones)
