@@ -64,10 +64,12 @@ Introduce a centralized namespace state management system with the following com
 ### Core State Model
 
 **New Attributes:**
+
 - `namespaces.state_id` (SMALLINT) - Primary state identifier
 - `namespace_details.state_metadata` (JSONB) - Associated metadata
 
 **State Metadata Structure:**
+
 ```json
 {
   "last_updated_at": "2025-05-26T10:00:00Z",
@@ -265,7 +267,7 @@ end
 
 **Unified REST API Endpoints:**
 
-```
+```shell
 GET /api/v4/namespaces/:id/state
 PUT /api/v4/namespaces/:id/state
 GET /api/v4/namespaces/:id/state/history
@@ -356,13 +358,17 @@ enum NamespaceState {
 ## Risks and Mitigations
 
 **Risk: Data Migration Complexity**
+
 - *Mitigation:* Iterative approach with rollback capabilities, extensive testing
 
 **Risk: Performance Impact During Migration**
+
 - *Mitigation:* Background migrations, feature flags, monitoring
 
 **Risk: API Breaking Changes**
+
 - *Mitigation:* Maintain backward compatibility, versioned APIs
 
 **Risk: State Consistency Issues**
+
 - *Mitigation:* Bidirectional synchronization during transition, validation checks
