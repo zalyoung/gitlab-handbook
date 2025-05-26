@@ -26,7 +26,7 @@ Groups and Projects currently have inconsistent state management implementations
 **Current Issues:**
 
 - No consistency in group state management
-- No consistency in project state management  
+- No consistency in project state management
 - No consistency between group and project state management
 - State in descendants is sometimes inferred from ancestors inconsistently
 - No state history tracking - impossible to know when a group/project was archived, then unarchived
