@@ -10,9 +10,35 @@ This does not apply for `Incident` type issues. Please see our [incident workflo
 
 {{% /alert %}}
 
-The work to be done on an issue largely depends on the _stage_ the issue is in. Please note the _assignee_ on an issue will change _frequently_ as it moves from stage to stage.
+## Working Issues
+
+Following _Triage_, issues will scheduled into iterations and assigned out. So long as you're the assignee, you're the DRI for:
+
+- Making progress through the stages
+- Coordinating with others when you're blocked or unsure of what to do next
+- Making weekly updates to issues assigned to you
+
+### Weekly updates
+
+Every week, on your last work day (for example, Friday) review your assigned issues and:
+
+- post a brief update
+- update the health status of the issue.
+- update the stage, if appropriate. For example, if the issue is "Blocked" make sure that's the current stage.
+
+For convenience, there is a [Customer Support Ops Team group comment template](https://gitlab.com/groups/gitlab-com/gl-security/corp/cust-support-ops/-/comment_templates) called "Issue Status Update" that has all of the components.
+
+Generally, your comment should outline:
+
+- The current progress you've made: include tasks completed, what you're working on, or even the % of the work you've completed.
+- Your plan going forward: what next steps you'll take (and when), and when you estimate to finish.
+- If there is any support you need, for example if you are blocked and need something from another team.
+
+These will are reviewed each week and used to generate the required [weekly slack updates for teams in Security](/handbook/security/#division-department-and-team-updates).
 
 ## Stages
+
+The work to be done on an issue largely depends on the _stage_ the issue is in. Please note the _assignee_ on an issue will change _frequently_ as it moves from stage to stage.
 
 A standard stage progression (ignoring rejections) for an issue (ignoring the `Blocked` stage), will look like this:
 
