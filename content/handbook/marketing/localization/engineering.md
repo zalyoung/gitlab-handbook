@@ -222,7 +222,7 @@ The [Argo Development board](https://gitlab.com/groups/gitlab-com/localization/-
 
 ### Communication channels
 
-`#spartan-software`: Direct communication channel with Spartan Software engineering team
+`#spartan-software`: Direct slack communication channel with Spartan Software engineering team
 
 Technical coordination occurs through GitLab issues tagged with appropriate Argo-Engineering labels
 
