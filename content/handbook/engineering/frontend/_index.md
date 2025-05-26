@@ -4,11 +4,9 @@ title: "Frontend Group"
 
 ## Teams
 
-- [Configure](/handbook/engineering/development/ops/configure/)
 - [Create](/handbook/engineering/frontend/create/)
-- [Manage](/handbook/engineering/frontend/manage/)
 - [Monitor](/handbook/engineering/frontend/monitor/)
-- [Plan](/handbook/engineering/development/dev/plan/)
+- [Plan](/handbook/engineering/devops/dev/plan/)
 - [Secure](/handbook/engineering/development/sec/secure/)
 - [Verify and Release](/handbook/engineering/frontend/verify-release/)
 
