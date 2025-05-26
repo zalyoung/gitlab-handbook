@@ -114,13 +114,6 @@ We've identified increased risks from malicious actors attempting to gain employ
 
 Our Talent Acquisition team is partnering with Security to address these threats through:
 
-##### 1. Historical Candidate Review
-
-- Security is analyzing applicant data from 2023 onward
-- Checking names, email addresses, and phone numbers against known threat indicators
-
-##### 2. Preventative Measures
-
 - Working with the Digital Experience team to implement website-level filtering
 - Creating spam logic to block submissions from suspicious email addresses and IP addresses
 
