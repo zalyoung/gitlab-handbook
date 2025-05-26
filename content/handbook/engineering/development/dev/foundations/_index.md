@@ -1,26 +1,66 @@
 ---
 title: Foundations Stage
-description: The Foundations stage deals with cross functional work from the design system, to importers, to the navigation.
+description: The responsibilities of this stage are described by the [Foundations product category](/handbook/product/categories/#foundations-stage). Foundations is [made up of multiple groups](/handbook/product/categories/#core-platform-section), each with their own features and areas of responsibility, noted last on this page.
 ---
 
-## About
+## Core Focuses
 
-The responsibilities of this stage are described by the [Foundations product category](/handbook/product/categories/#foundations-stage).
-Foundations is made up of multiple groups, each with their own features and areas of responsibility, noted last on this page.
+- Elevate all features to enterprise-grade quality through consistent design system adoption, rigorous cross-deployment testing, and maintaining the reliability standards necessary to fulfill our 99.9% SLA commitments.
+- Create a seamless, scalable migration experience for enterprises by optimizing migration pathways (speed, friction), providing clear visibility into migration progress, and reducing manual intervention requirements.
+- Drive operational excellence by optimizing developer workflows, analyzing maintenance burdens, and continuously improving development processes to deliver maximum value with the most efficiency.
 
-* I have a question. Who do I ask?
+### Key Priorities (In Order)
 
-In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#foundations-stage).
+1. Enterprise-grade completeness 
+1. Design System Adoption
+1. Personalized Homepage
+1. Efficiency in migrations
 
-GitLab team members can also use [#s_foundations](https://gitlab.slack.com/messages/CBFCUM0RX).
+### Areas of opportunity
 
-## How we work
+- Experience features as Professional Services, the Dedicated team, or customers do to close quality gaps
+- Track user adoption and usage to understand maintenance burden or high priority areas to address
+- Identify components that aren't using the standard Design System and prioritize updates
+- Maintain a [4-quarter technical roadmap](https://data-science-foundations-roadmap-e4062b.gitlab.io/stages/foundations) that anticipates future scale needs
+- 
+- 
+- 
+- 
 
-* In accordance with our [GitLab values](/handbook/values/).
-* Transparently: nearly everything is public, we record/livestream meetings whenever possible.
-* We get a chance to work on the things we want to work on.
-* Everyone can contribute; no silos.
-  * The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
+### User Journeys
+
+- **Critical to Homepage and Navigation:**
+  - User needs to quickly resume work across multiple projects or groups
+  - User wants to see all their active work items in one place without navigating through multiple pages
+
+- **Critical to Import & Integrate:**
+  - Large-Scale Enterprise needs to migrate multiple projects/groups from another platform (GitHub, Bitbucket) or GitLab instance
+  - Enterprise team member wants to perform migrations at scale with minimal manual intervention
+  - Enterprise team member requires visibility into migration progress and success/failure status
+  - Enterprise team member wants to map contributors from source system to appropriate users in destination system
+
+- **Critical to Personal Productivity:**
+  - User needs to identify and prioritize items requiring immediate attention
+
+- **Personal Productivity:**
+  - User needs to process multiple notifications efficiently without switching contexts
+  - User wants to reduce the "noise" by pruning unnecessary notifications
+  - User needs to control which events generate notifications
+
+- **Critical to Design System:**
+  - User needs a consistent and accessible user experience
+  - Designer needs to efficiently implement interfaces and support multiple color modes with components and design tokens
+  - Developer needs to efficiently implement interfaces and support multiple color modes with components and utility classes
+  - Maintainer needs to ensure quality of interfaces through compliance with design system
+
+### Standards of Quality and Completeness
+
+- Systems must meet enterprise SLA expectations for availability and performance as measured by [99.9% Error Budget](#metrics)
+- Features should work consistently across all deployment types (SaaS, Self-hosted, Dedicated)
+- All new and existing features should follow the [GitLab Design System](https://design.gitlab.com/)
+- Instrumentation should be standardized for aggregation with metrics
+- Removing areas of technical burden / maintenance
+- Optimizing areas of high impact
 
 ## OKRs
 
@@ -31,8 +71,8 @@ For a list of active OKRs, [check the OKR project](https://gitlab.com/gitlab-com
 The direction and strategy for Foundations is documented on [https://about.gitlab.com/direction/foundations/](https://about.gitlab.com/direction/foundations/). This page (and the category direction
 pages under the "Categories" header) is the single source of truth on where we're going and why.
 
-* Direction pages should be reviewed regularly by Product. When updating these pages, please CC the relevant group to keep your teammates informed.
-* Product should make sure that their groups understand the direction and have an opportunity to contribute to it. Consider a monthly direction AMA for your group to field questions.
+- Direction pages should be reviewed regularly by Product. When updating these pages, please CC the relevant group to keep your teammates informed.
+- Product should make sure that their groups understand the direction and have an opportunity to contribute to it. Consider a monthly direction AMA for your group to field questions.
 
 ## Career Development
 
@@ -65,16 +105,8 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Shared calendars
 
-1. Foundations: Important Dates - Use this calendar for stage-wide reminders (OKR due dates, promotion cycles, talent assessment timelines, regular holiday preparations)
-   * To add this calendar to your Google Calendar, use this calendar ID `c_kvfbp2t8edtgm4rjialus0834g@group.calendar.google.com`
-1. Foundations Shared - Use this calendar for recurring group level reminders and meetings (Release kickoff, milestone planning, social calls)
-   * To add the shared calendar to your Google Calendar, please use this [link](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV9rOWYyN2lqamExaGoxNzZvbmNuMWU4cXF2a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) (GitLab internal).
-   * To add a meeting to the shared calendar, please add [the link in this document](https://docs.google.com/document/d/1IxGuORI-vfVd6irNdUwpnOBZDWALWzOqhQzC9E39ixQ/edit) to the event.
-
-* To add a new member to the shared calendar
-  * Click "Settings and Sharing" in the kebab menu when mousing over "Foundations Shared" in your Google Calendar sidebar under "My calendars".
-  * Scroll to the "Share with specific people" section of the settings area. Click "Add people" and add the new member with "Make changes and manage sharing".
-* For a more detailed walkthrough, have a look at a quick [video walkthrough](https://www.youtube.com/watch?v=TmcPuuljf1w)
+1. Foundations: Important Dates - Use this calendar for stage-wide reminders (OKR due dates, promotion cycles, talent assessment timelines, regular holiday preparations). To add this calendar to your Google Calendar, use this calendar ID `c_kvfbp2t8edtgm4rjialus0834g@group.calendar.google.com`.
+1. Foundations Shared - Use this calendar for recurring group level reminders and meetings (Release kickoff, milestone planning, social calls). To add this calendar to your Google Calendar, use this calendar ID `gitlab.com_k9f27ijja1hj176oncn1e8qqvk@group.calendar.google.com`.
 
 ## Skip Levels
 
