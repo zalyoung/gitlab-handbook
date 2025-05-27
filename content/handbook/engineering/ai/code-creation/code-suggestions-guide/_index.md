@@ -1,12 +1,12 @@
 ---
-title: "Create:Code Creation: Code Suggestions Guide"
+title: "Code Creation: Code Suggestions Guide"
 ---
 
 ## Introduction
 
 This document contains Code Suggestions development guidelines for engineers.
 
-For an overview of Code Suggestions, please refer to [Create:Code Creation Group engineering guide](../engineering_overview.md)
+For an overview of Code Suggestions, please refer to [Code Creation Group engineering guide](../engineering_overview.md)
 
 ## Supporting new AI models
 

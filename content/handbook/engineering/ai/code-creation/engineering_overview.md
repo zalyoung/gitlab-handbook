@@ -1,5 +1,5 @@
 ---
-title: "Create:Code Creation Group engineering overview"
+title: "Code Creation Group engineering overview"
 ---
 
 ## Introduction
