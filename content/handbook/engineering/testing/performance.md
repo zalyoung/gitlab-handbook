@@ -6,65 +6,53 @@ title: Performance Testing at GitLab
 
 Performance Testing is a broad discipline that includes various approaches to evaluate a system's performance characteristics. Load Testing, while often considered synonymous with Performance Testing is one of many approaches to Performance Testing. There are other approaches that do not involve load and enable Shifting Left and Right Performance Testing.
 
-## Shift Performance Testing Left and Right
+```mermaid
+flowchart TD
+  START((Start))
+  GPT[[GitLab Performance Toolkit]]
+  GBPT[[GitLab Browser Performance Toolkit]]
+  CPT[[Component Performance Testing]]
+  UNIT[Unit test frameworks]
+  BUILT{Is the code\nstill being written}
+  CODE{Can this be\ntested as part of a\nMR pipeline}
+  UI{Is this UI affecting}
+  ENV{Is server performance\nthe main concern?}
 
-Performance testing is not limited to the final stages of development or to load testing scenarios. It can and should be integrated throughout the entire software development lifecycle, from early stages (shift left) to production monitoring (shift right). This comprehensive approach allows teams to gain a holistic understanding of their system's performance characteristics. It can also be done on all [testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) not waiting for a full component or system to be ready for testing.
+  START --> BUILT
+  BUILT -- no --> CODE
+  BUILT -- yes --> UNIT
 
-Shifting left in performance testing involves:
+  CODE -- yes --> UI
+  CODE -- no --> ENV
 
-1. Early-stage performance considerations:
-    * Unit Testing: Utilizing performance-focused gems and frameworks during development.
-    * Profiling: Analyzing code execution, memory usage, and CPU utilization from the outset.
-    * Database Performance Testing: Assessing query performance and data access patterns early in development.
-2. Continuous performance awareness:
-    * Instrumenting Existing Tests: Capturing performance metrics from regular test runs.
-    * Observability Testing: Leveraging monitoring tools to identify performance trends before they become issues.
-    * Contract Testing: Defining and testing performance expectations at system boundaries.
+  UI -- yes --> GBPT
+  UI -- no --> CPT
 
-Shifting right involves:
+  ENV -- yes --> GPT
+  ENV -- no --> UI
 
-1. Production-level performance evaluation:
-    * Load Testing: Simulating real-world usage scenarios to understand system behavior under various loads.
-    * Stress Testing: Pushing the system beyond normal capacity to identify breaking points.
-    * Soak Testing: Evaluating performance over extended periods of continuous load.
-2. Ongoing performance monitoring:
-    * Real-time Observability: Continuously monitoring production systems for performance anomalies.
-    * User-centric Performance Metrics: Gathering and analyzing performance data from actual user interactions.
+  classDef decision fill:##f5f7f6,stroke:#333,stroke-width:1px,rx:5px;
+  classDef tool fill:#F28C6B,stroke:#333,stroke-width:1px,color:white,rx:5px;
+  classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
 
-By combining both left-shifted and right-shifted approaches, teams can create feedback loops that:
+  class UI,ENV,CODE,BUILT decision;
+  class GBPT,CPT,GPT tool;
+  class START start;
+```
 
-* Identify potential performance issues earlier in the development cycle.
-* Continuously validate and improve performance throughout the application lifecycle.
-* Gain insights into real-world performance characteristics and user experiences.
-* Create a culture of performance awareness across development, operations, and business teams.
+#### System Level Load Testing
 
-It's important to note that performance results from one testing level may not directly translate to another. For example, a code change that improves a unit test runtime by one second will probably not result in a one-second improvement in production. However, these metrics serve as valuable indicators in a fast feedback loop, helping teams quickly identify potential performance impacts of code changes.
+Existing performance testing includes:
 
-### Unit Testing
+* [Reference Architecture server performance testing](../infrastructure-platforms/gitlab-delivery/framework/reference-architecture-validation-testing.md)
+* [Browser performance testing](browser-performance-testing.md)
+* [Gitlab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
 
-At the unit test level, we have several gems included in GitLab that can be used to test performance during development that we can use to get feedback before the code is finalized:
+This testing is predominately run against our Reference Architectures, but can be run against a live environment, but caution should be applied when running against shared environments as this can notably impact any results.
 
-* [derailed_benchmarks](https://github.com/zombocom/derailed_benchmarks)
-* [benchmark-memory](https://github.com/michaelherold/benchmark-memory)
-* [benchmark-ips](https://github.com/evanphx/benchmark-ips)
+#### Component Level Load Testing
 
-We also have [rspec-benchmark](https://github.com/piotrmurach/rspec-benchmark) so we can specifically test for performance results in rspec.
-
-### Observability Testing
-
-Observability testing is described in [it's own page](observability_performance.md)
-
-### Instrumenting Existing Testing
-
-We run a large number of tests on a regular basis, by capturing performance results from these runs, we can drive improvements. We can do this in a couple ways:
-
-1. Capturing performance results from the tests (i.e. duration a test took to run) and compare it between runs. The performance results would not be directly mappable to production but can show a performance change.
-2. Adding tests that specifically look for performance impacts, prime examples are in the [unit testing](#unit-testing) section.
-3. Using the [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) to analyze performance as you are manually testing GitLab.
-
-### Contract Testing
-
-[Contract testing](https://docs.pact.io/) is the concept of adding a test on boundry of each system (or subsystem) that defines how it interacts with other systems. These contracts can include functional (data format, endpoints available,...) and performance (response time, throttling,...) assertions.
+We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
 
 ### Profiling
 
@@ -110,19 +98,6 @@ Load testing in the cloud presents a number of challenges:
 * A poorly designed Stress Test will predominantly determine that autoscaling functions as contracted
   * This is better maintained by an SLA with the vendor
 
-#### System Level Load Testing
-
-Existing performance testing includes:
-
-* [Reference Architecture server performance testing](../infrastructure-platforms/gitlab-delivery/framework/reference-architecture-validation-testing.md)
-* [Browser performance testing](browser-performance-testing.md)
-
-This testing is predominately run against our Reference Architectures, but can be run against a live environment, but caution should be applied when running against shared environments as this can notably impact any results.
-
-#### Component Level Load Testing
-
-We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
-
 ## References
 
 ### External References
@@ -167,3 +142,41 @@ We can run load tests on specific sub components. This can be a subsystem (like 
 | [Cells Performance Dashboard](https://dashboards.gitlab.net/d/cells-main/cells3a-cells-performance?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-ops&var-environment=gprd) | First pass at creating an Observability Performance Dashboard in Grafana |
 | [Platform Triage Dashboard](https://dashboards.gitlab.net/d/general-triage/general3a-platform-triage?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-gprd&var-environment=gprd&var-stage=main) | the home page dashboard for our grafana, a common starting point for investigating performance in our Observability |
 | [Merge Request Performance Guidelines](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html) | Merge Request Performance Guidelines |
+
+
+
+#### Future
+
+## Shift Performance Testing Left and Right
+
+Performance testing is not limited to the final stages of development or to load testing scenarios. It can and should be integrated throughout the entire software development lifecycle, from early stages (shift left) to production monitoring (shift right). This comprehensive approach allows teams to gain a holistic understanding of their system's performance characteristics. It can also be done on all [testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) not waiting for a full component or system to be ready for testing.
+
+Shifting left in performance testing involves:
+
+1. Early-stage performance considerations:
+    * Unit Testing: Utilizing performance-focused gems and frameworks during development.
+    * Profiling: Analyzing code execution, memory usage, and CPU utilization from the outset.
+    * Database Performance Testing: Assessing query performance and data access patterns early in development.
+2. Continuous performance awareness:
+    * Instrumenting Existing Tests: Capturing performance metrics from regular test runs.
+    * Observability Testing: Leveraging monitoring tools to identify performance trends before they become issues.
+    * Contract Testing: Defining and testing performance expectations at system boundaries.
+
+Shifting right involves:
+
+1. Production-level performance evaluation:
+    * Load Testing: Simulating real-world usage scenarios to understand system behavior under various loads.
+    * Stress Testing: Pushing the system beyond normal capacity to identify breaking points.
+    * Soak Testing: Evaluating performance over extended periods of continuous load.
+2. Ongoing performance monitoring:
+    * Real-time Observability: Continuously monitoring production systems for performance anomalies.
+    * User-centric Performance Metrics: Gathering and analyzing performance data from actual user interactions.
+
+By combining both left-shifted and right-shifted approaches, teams can create feedback loops that:
+
+* Identify potential performance issues earlier in the development cycle.
+* Continuously validate and improve performance throughout the application lifecycle.
+* Gain insights into real-world performance characteristics and user experiences.
+* Create a culture of performance awareness across development, operations, and business teams.
+
+It's important to note that performance results from one testing level may not directly translate to another. For example, a code change that improves a unit test runtime by one second will probably not result in a one-second improvement in production. However, these metrics serve as valuable indicators in a fast feedback loop, helping teams quickly identify potential performance impacts of code changes.
