@@ -7,7 +7,7 @@ title: Performance Testing at GitLab
 Performance Testing is a broad discipline that includes various approaches to evaluate a system's performance characteristics. Load Testing, while often considered synonymous with Performance Testing is one of many approaches to Performance Testing. There are other approaches that do not involve load and enable Shifting Left and Right Performance Testing.
 
 ```mermaid
-flowchart TD
+flowchart LR
   START((Start))
   GPT[[GitLab Performance Tool]]
   GBPT[[GitLab Browser Performance Tool]]
