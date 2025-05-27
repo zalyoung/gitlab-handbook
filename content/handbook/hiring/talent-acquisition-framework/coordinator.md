@@ -953,7 +953,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 1. Click the "+" icon on the left hand side of the gray bar
 1. Add personal information of new hire to required fields
     - Legal Last Name
-    - Legal First Nae 
+    - Legal First Name
     - Email
     - Contact Number
     - To Country
