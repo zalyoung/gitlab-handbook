@@ -5,7 +5,7 @@ description: "Provides platform systems and operational interfaces that enable r
 
 ## Mission
 
-The Runners Platform team is responsible for developing and maintaining a fully operational, manageable, and maintainable Runners offering across all GitLab platforms. We focus on the core technology underpinning GitLab's runner infrastructure, including GitLab-hosted runners (SaaS), Hosted runners for Dedicated, and [Hosted runners for Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/infrastructure/runner/).
+The Runners Platform team is responsible for developing and maintaining a fully operational, manageable, and maintainable Runners offering across all GitLab platforms. We focus on the core technology underpinning GitLab's runner infrastructure, including hosted runners for GitLab.com, Hosted runners for Dedicated, and are compatible with [Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/infrastructure/runner/).
 
 Our mission is to provide an operational foundation with appropriate management interfaces and controls that enable reliable, scalable CI/CD execution while collaborating closely with the Runners application team to deliver features essential for smooth operations and successful product launches.
 
