@@ -17,10 +17,11 @@ The features we work with are listed on the [Features by Group Page](/handbook/p
 
 **Engineering Manager & Engineers**
 
-Engineering Manager: [@m_gill](https://gitlab.com/m_gill)
+Engineering Manager: [@timzallmann](https://gitlab.com/timzallmann)
+
 Acting Manager: [@eduardobonet](https://gitlab.com/eduardobonet)
 
-{{< team-by-manager-slug manager="m_gill" team="AI-Powered:Custom Models" >}}
+{{< team-by-manager-slug manager="tim-z" team="AI-powered:Custom Models" >}}
 
 **Product, Design & Quality**
 
