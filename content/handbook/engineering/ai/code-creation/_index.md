@@ -1,6 +1,6 @@
 ---
-title: "Create:Code Creation Group"
-description: The Create:Code Creation Group is responsible for all product categories that fall under the Code Creation group of the Create stage.
+title: "Code Creation Group"
+description: The Code Creation Group is responsible for all product categories that fall under the Code Creation group of the AI Engineering organization.
 ---
 
 ## Team Vision
@@ -18,7 +18,7 @@ Features/capabilities Code Creation owns today:
 - Code suggestions: completion + generation
 - Code-related slash commands: `/explain`, `/refactor`, `/tests`, `/fix` 
 - Repository X-Ray
-- Code suggestions context (e.g. open tabs) - partnered with [Create:Editor Extensions Group](/handbook/engineering/ai/editor-extensions/)
+- Code suggestions context (e.g. open tabs) - partnered with [Editor Extensions Group](/handbook/engineering/ai/editor-extensions/)
 
 Code Creation is also responsible for evaluations for each of these features which includes:
 
@@ -28,7 +28,7 @@ Code Creation is also responsible for evaluations for each of these features whi
 
 ## About Code Suggestions
 
-One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
+One of the main features we work on in the Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
 
 - [Code Suggestions Engineering Overview](/handbook/engineering/ai/code-creation/engineering_overview/) - Handbook technical overview of Code Suggestions
 - [Code Suggestions Guide](/handbook/engineering/ai/code-creation/code-suggestions-guide/) - Handbook development guide for engineers
@@ -77,8 +77,8 @@ Use this information to connect with the Code Creation group:
 - [Planning Issues](https://gitlab.com/gitlab-org/create-stage/-/issues/?sort=due_date&state=opened&label_name%5B%5D=group%3A%3Acode%20creation&label_name%5B%5D=Planning%20Issue&first_page_size=20)
 - [OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=devops%3A%3Acreate&label_name%5B%5D=group%3A%3Acode%20creation&first_page_size=20)
 - [Workflow Board](https://gitlab.com/groups/gitlab-org/-/boards/5998095)
-- [Reliability](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=section%3A%3Adev&label_name[]=devops%3A%3Acreate&label_name[]=group%3A%3Acode%20creation)
-- [Security](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=devops%3A%3Acreate&label_name%5B%5D=group%3A%3Acode%20creation&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&first_page_size=20)
+- [Reliability](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?label_name[]=group%3A%3Acode%20creation)
+- [Security](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Acode%20creation&first_page_size=20)
 - [InfraDev Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=devops%3A%3Acreate&label_name%5B%5D=infradev&label_name%5B%5D=group%3A%3Acode%20creation&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&amp;not%5Blabel_name%5D%5B%5D=severity%3A%3A4&first_page_size=200)
 
 ## Team Members
@@ -105,13 +105,10 @@ The following members of other functional teams are our stable counterparts:
 
 Here are other groups within GitLab that we work closely with:
 
-### Create Stage
+### AI Engineering
 
 - [Editor Extensions](/handbook/engineering/ai/editor-extensions/)
   - Collaborate on Code suggestions context (e.g. open tabs)
-
-### AI Powered Stage
-
 - [AI Powered Stage](/handbook/engineering/ai/data-science/ai-powered)
 - [AI Framework](/handbook/engineering/ai/data-science/ai-powered/ai-framework/)
   - Collaborate on datasets for evaluations
@@ -119,15 +116,12 @@ Here are other groups within GitLab that we work closely with:
 - [Custom Models](/handbook/engineering/ai/data-science/ai-powered/custom-models/)
 - [Duo Chat](/handbook/engineering/ai/data-science/ai-powered/duo-chat/)
   - Collaborate on code related slash commands: `/explain`, `/refactor`, `/tests`, `/fix`
-
-### ModelOps Stage
-
 - [ModelOps Stage](/handbook/engineering/ai/data-science/modelops/)
 - [MLOps](/handbook/engineering/ai/data-science/modelops/mlops/)
 
 ## Engineering Onboarding
 
-To help get started as a developer with the Create:Code Creation team, we have created an
+To help get started as a developer with the Code Creation team, we have created an
 [onboarding issue template](https://gitlab.com/gitlab-com/create-stage/code-creation/team-tasks/-/issues/new?issuable_template=developer_onboarding).
 
 ## Group Processes
