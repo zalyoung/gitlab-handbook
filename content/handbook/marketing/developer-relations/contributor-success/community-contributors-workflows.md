@@ -24,8 +24,6 @@ See guidance on [seeking wider community contributions](/handbook/marketing/deve
 
 ### Community issues workflow manual process
 
-See the [partial issue triage checklist](/handbook/product-development/issue-triage/#partial-triage-checklist).
-
 ## Merge Requests
 
 Wider community merge requests are MRs opened by a person that's not present on <https://about.gitlab.com/company/team/> (excluding any bot, service account users or individual contractors).
