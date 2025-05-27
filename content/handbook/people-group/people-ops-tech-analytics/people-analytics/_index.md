@@ -24,7 +24,7 @@ People Analytics uses data-driven insights to improve talent decisions and workf
 
 ## Tools & Resources
 
-**Primary Tools:**
+### Primary Tools
 
 - **Tableau** - Data visualization, dashboards, and ad-hoc analysis
 - **RStudio/R** - Statistical modeling and data cleaning. Learn more in our  [Rstudio handbook page](/handbook/enterprise-data/platform/rstudio/)
@@ -32,7 +32,7 @@ People Analytics uses data-driven insights to improve talent decisions and workf
 - **Culture Amp** - Employee surveys and assessments
 - **Google Sheets** - Stakeholder-specific solutions when needed
 
-**Key Resources:**
+### People Analytics Handbook Contents
 
 - [People Analytics Data Guide](data-guide.md) - Data models and metric definitions
 - [People Data Governance](/handbook/people-group/people-ops-tech-analytics/people-analytics/data-governance/) - Data quality and compliance
@@ -52,11 +52,11 @@ GitLab's commitment to transparency and efficiency extends to our data governanc
 
 This governance framework ensures that data remains consistent, reliable, and easy to work with while protecting sensitive information. For detailed information about our data governance processes, see our [Data Governance handbook page](data-governance.md).
 
-## Getting Started
+## Working With Us
 
 Submit requests and ideas using issue templates in the [People Analytics project](https://gitlab.com/gitlab-com/people-group/people-analytics/general/).
 
-**External Resources:**
+## External Resources
 
 - [Wharton People Analytics](https://wpa.wharton.upenn.edu/) - Annual conference and research
 - [AIHR People Analytics](https://www.aihr.com/blog/people-analytics-resource-library/) - HR and analytics resources
