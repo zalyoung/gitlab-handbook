@@ -391,7 +391,9 @@ We've identified these phases for this initiative:
 
 ## Decision Registry
 
-<!-- @todo: do we have any discussions that defined requirements to link here? -->
+1. Use EAV data model to store custom field values. The main advantage is referential integrity and type validation.
+2. Custom fields should not depend on custom work item types. We should be able to create custom fields on the existing default types.
+3. Limit configuration to root namespaces. Configuration applies to all subgroups and descendant projects. Configuration of custom fields for subgroups is planned for future iterations.
 
 ## Resources
 
