@@ -268,7 +268,6 @@ module Namespaces::Stateful
   extend ActiveSupport::Concern
   included do
     has_many :namespace_state_updates, dependent: :delete_all
-    
     STATES = {
       active: 0,
       archived: 1,
