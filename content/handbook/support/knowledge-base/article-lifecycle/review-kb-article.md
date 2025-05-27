@@ -20,6 +20,7 @@ Technical Reviewers can find content needing review by going to the [Manage Arti
 1. Review and save appropriate Section, Labels and Content tags under "Placement". For external facing articles, ensure the audience is “Visible To Everyone”
 
 ## Publishing an article
+
 Only [listed Knowledge Champions](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0) (Technical Reviewers) will have permissions to **Publish** a knowledge article.
 
 Once the review is complete, update the status to "Publish".
