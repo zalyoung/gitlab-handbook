@@ -56,7 +56,7 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
 - If you add any meetings to calendar directly, tick the box "Attendees can modify" so EBA can change if necessary
 - Working blocks on the calendar are OK and can be moved to prioritize other meeting requests, team members should check in with the EBA to request a meeting using the meeting request requirements as a guideline
 - External meeting requests (with those outside of GitLab): email EBA and VP / Sr. Leadership and loop them in with external parties. EBA will then schedule directly with external parties.
-- For internal meeting requesting please contact EBA, include the following in your slack/email:
+- For internal meeting requesting please tag the EBA on #eba-team slack channel, include the following in your slack/email:
   - Must have/optional attendees
   - Urgency/ Desired timeframe: in the next two days, in the next week or two, etc
   - Duration: 25 mins, 50 mins, etc.
