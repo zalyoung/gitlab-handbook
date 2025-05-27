@@ -1,11 +1,11 @@
 ---
 title: Workflow Catalog Group
-description: "The Workflow Catalog group is focused on developing Workflow Catalog, a catalogue of AI Agents, tools, and workflows that can be created, curated, and shared across organizations, groups, and projects."
+description: "The Workflow Catalog group is focused on developing Workflow Catalog, a catalog of AI Agents, tools, and workflows that can be created, curated, and shared across organizations, groups, and projects."
 ---
 
 ## Vision
 
-The Workflow Catalog group is focused on developing Workflow Catalog, a catalogue of AI Agents, tools, and workflows that can be created, curated, and shared across organizations, groups, and projects.
+The Workflow Catalog group is focused on developing Workflow Catalog, a catalog of AI Agents, tools, and workflows that can be created, curated, and shared across organizations, groups, and projects.
 
 ### Team Members
 
