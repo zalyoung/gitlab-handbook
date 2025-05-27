@@ -5,27 +5,26 @@ description: Secure Design & Development Team Services Overview
 <!-- markdownlint-disable MD052 -->
 Last updated: May 8, 2025
 
-### The Secure Design & Development Team works with GitLab engineers and product teams to *anticipate and prevent* the introduction of vulnerabilities during design and development. 
+## Secure Design & Development Team Services Overview
 
-Our responsibility includes four of the five Secure Developer Experience (SDX) pillars. SDX is a developer UX centered approach to traditional DevSecOps practices. 
+The Secure Design & Development Team works with GitLab engineers and product teams to *anticipate and prevent* the introduction of vulnerabilities during design and development.
+
+Our responsibility includes four of the five Secure Developer Experience (SDX) pillars. SDX is a developer UX centered approach to traditional DevSecOps practices.
 
 - **SDX: Learn**: security training, governance, policy, documentation, and standards.
-
 - **SDX: Design**: [threat modeling](/handbook/security/product-security/application-security/threat-modeling/_index.md), feature design guidance and consultation, and [design reviews](/handbook/security/product-security/application-security/appsec-reviews.md).
-
 - **SDX: Code**: static analysis, software component analysis and supply chain security, use of approved tools and methodologies in development, deprecation of unsafe functions, etc.
-
 - **SDX: Verify**: dynamic analysis testing, penetration testing, remediation of critical vulnerabilities, and [final security reviews](/handbook/security/product-security/application-security/appsec-reviews.md) prior to release.
 
 ## Helpful Quicklinks
 
-- [**Application Security Reviews**](/handbook/security/product-security/application-security/appsec-reviews/)
-- [**Application Security Stable Counterparts**](/handbook/security/product-security/application-security/stable-counterparts/)
-- [**Threat modeling**](~/content/handbook/security/product-security/application-security/threat-modeling/_index.md)
-- **Backlog reviews:** When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
-- [**GitLab AppSec Inventory**](/handbook/product/ux/navigation/inventory/)
-- [**Responding to customers security scanners review requests**](/handbook/security/product-security/application-security/responding-customers-scan-review-requests/)
-- [**Root Cause Analysis for Critical Vulnerabilities**](/handbook/security/root-cause-analysis)
+- [**Application Security Reviews**](../appsec-reviews.md)
+- [**Application Security Stable Counterparts**](../stable-counterparts.md)
+- [**Threat modeling**](../threat-modeling/_index.md)
+- **Backlog reviews:** When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](../vulnerability-management.md) for more details.
+- [**GitLab AppSec Inventory**](../inventory.md)
+- [**Responding to customers security scanners review requests**](../responding-customers-scan-review-requests.md)
+- [**Root Cause Analysis for Critical Vulnerabilities**](../../../root-cause-analysis.md)
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
 

@@ -3,19 +3,19 @@ title: "Application Security Operations"
 description: Application Security Team Operations home page
 ---
 <!-- markdownlint-disable MD052 -->
-Last updated: May 8, 2025
+Last updated: May 27, 2025
 
 The [**Application Security Subdepartment**](/handbook/security/product-security/application-security) is made up of two teams, the [**Secure Development and Design Team**](/handbook/security/product-security/application-security/appsec-operations/SDD-services) and the [**Product Security Incident Response Team (PSIRT)**](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services). These two teams work together to anticipate and prevent the introduction of vulnerabilities during design and development, as well as identify, assess, and respond to security vulnerabilities discovered in GitLab products and services.
 
 ## Helpful Quicklinks for GitLab Engineers
 
-- [**Application Security Reviews**](/handbook/security/product-security/application-security/appsec-reviews/)
-- [**Application Security Stable Counterparts**](/handbook/security/product-security/application-security/stable-counterparts/)
-- [**Threat modeling**](~/content/handbook/security/product-security/application-security/threat-modeling/_index.md)
-- **Backlog reviews:** When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
-- [**GitLab AppSec Inventory**](/handbook/product/ux/navigation/inventory/)
-- [**Responding to customers security scanners review requests**](/handbook/security/product-security/application-security/responding-customers-scan-review-requests/)
-- [**Root Cause Analysis for Critical Vulnerabilities**](/handbook/security/root-cause-analysis)
+- [**Application Security Reviews**](../appsec-reviews.md)
+- [**Application Security Stable Counterparts**](../stable-counterparts.md)
+- [**Threat modeling**](../threat-modeling/_index.md)
+- **Backlog reviews:** When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](../vulnerability-management.md) for more details.
+- [**GitLab AppSec Inventory**](../inventory.md)
+- [**Responding to customers security scanners review requests**](../responding-customers-scan-review-requests.md)
+- [**Root Cause Analysis for Critical Vulnerabilities**](../../../root-cause-analysis.md)
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
 
@@ -31,9 +31,9 @@ Projects without the expected configurations can be found in the [inventory viol
 
 ## Useful resources for AppSec engineers
 
-[**Application Security Engineer Runbooks**](runbooks)
+[**Application Security Engineer Runbooks**](../runbooks/)
 
-[**Application Security Engineer Job Families**](/job-families/security/application-security)
+[**Application Security Engineer Job Families**](../../../../../../content/job-families/security/application-security.md)
 
 ### PTO
 
