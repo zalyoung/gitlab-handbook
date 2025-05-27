@@ -18,6 +18,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
    1. Click on the new Issue
    1. If unassigned, assign it to yourself or the responsible CES on the right-side toolbar
    1. Read the Issue message
+   1. Labeling - each issue will need to be labeled with at least one appropriate label.
    1. If you need to respond to the "email" by adding comments to the issue, be sure to enter comments as you would an email to the candidate. Always assume that a candidate could be included in any email.
    1. If no action is needed and the issue has been solved, you may close it. Do not close issues until you have resolved the problem you are solving.
 
