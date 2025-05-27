@@ -50,7 +50,7 @@ We are equally responsible to ensure our team members are supported in their Git
 |  | Create an inclusive environment and foster DIB values within the team |
 |  | Participate in [Support Weekly Meetings](/handbook/support/#weekly-meetings) |
 |  | Build strong working relationships with your colleagues in Support leadership through [informal communication](/handbook/company/culture/all-remote/informal-communication/) |
-|  | [Conduct weekly 1:1s](#conducting-weekly-11-meetings) with each direct report |
+|  | [Conduct weekly 1:1s](#conducting-weekly-1-1-meetings) with each direct report |
 |  | Recommend projects, training, and leadership roles for your direct reports |
 |  | [Support your direct reports](/handbook/support/support-stable-counterparts#expectations-from-managers) who are [Support Stable Counterparts](/handbook/support/#support-stable-counterparts) or [Cross-functional non-product counterparts](/handbook/support/#cross-functional-non-product-counterparts) |
 |  | Ensure regular professional/career development for each direct report |
@@ -88,7 +88,7 @@ Important Slack channels:
 1. `#managers`
 1. `#eng-managers`
 
-### Conducting weekly 1:1 meetings
+### Conducting weekly 1:1 meetings {#conducting-weekly-1-1-meetings}
 
 Weekly 1:1 meetings are a crucial part of Remote Culture at GitLab. Refer to the [Support Engineer Responsibilities page](/handbook/support/support-engineer-responsibilities) to understand what your team members are aiming to achieve.
 
