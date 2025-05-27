@@ -102,17 +102,17 @@ Generally, tests will run inside of the test stage of a CI/CD process.
 
 1. Create a job in the test stage that runs the tests we created for ArrayUtils.
 
-    *Coding Challenge:*
+{{% details summary="What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax, or click here for the solution."%}}
 
-    What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax.
+*Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
 
-    *Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
+```yaml
+test go:
+  stage: test
+  script: go test array/ArrayUtils
+```
 
-    ```yaml
-    test go:
-      stage: test
-      script: go test array/ArrayUtils
-    ```
+{{% /details %}}
 
 1. After adding these changes, select **Commit changes**.
 
@@ -122,8 +122,7 @@ Note that when we add the test stage, it automatically precedes our other stages
 
 ## Task C. Creating a failable job
 
-*Coding Challenge:*
-What would we add to our job configuration to define this behavior? Write the syntax.
+{{% details summary="*Coding Challenge:* What would we add to our job configuration to define this behavior? Write the syntax, or click here for the solution."%}}
 
 *Answer:* To allow a job to fail, you can add the `allow_failure` attribute to a job. If you have not done so yet, add `allow_failure: true` to your `test go` job. The job should look like the code below.
 
@@ -133,6 +132,8 @@ test go:
   script: go test array/ArrayUtils
   allow_failure: true
 ```
+
+{{% /details %}}
 
 1. To test this out, try adding a new test that will always fail. If you are unsure on how to write the test, edit your `ArrayUtils_test.go` file and copy the code below.
 
