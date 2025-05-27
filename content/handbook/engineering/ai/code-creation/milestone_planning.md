@@ -1,5 +1,5 @@
 ---
-title: "Create:Code Creation Group Milestone Planning"
+title: "Code Creation Group Milestone Planning"
 ---
 
 At GitLab and on the Code Creation team, we believe in a structured yet flexible approach to milestone planning to ensure that our engineering and product teams are aligned, focused, and able to deliver high-quality work efficiently. This page outlines our process for planning and preparing for milestones.
