@@ -40,15 +40,18 @@ flowchart TD
   class START start;
 ```
 
-#### System Level Load Testing
+#### Server-side Performance Testing
 
 Existing performance testing includes:
 
-* [Browser performance testing](browser-performance-testing.md)
 * [Gitlab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
 * [Reference Architecture server performance testing](../infrastructure-platforms/gitlab-delivery/framework/reference-architecture-validation-testing.md)
 
 This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
+
+#### Client-side Performance Testing
+
+* [Browser performance testing](browser-performance-testing.md)
 
 #### Component Performance Testing
 
