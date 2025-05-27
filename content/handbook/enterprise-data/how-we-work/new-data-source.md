@@ -170,6 +170,23 @@ graph LR
 
 Custom development is a solution designed and developed by the GitLab Data Team. Examples of this are the current PGP and the Zuora Rev Pro extraction.
 
+##### Periodically full refreshes (automatically)
+
+There are several examples where data is not fully replicated in Snowflake. This occurs due to various reasons such as:
+
+- Cursor fields not being updated.
+- (Hard) deletes not being captured.
+
+As a result, we need to perform full refreshes of certain tables periodically. Especially with SaaS tools like Fivetran and Stitch, there are limited possibilities to schedule regular full refreshes (e.g., once per month) for specific tables. The basic solution is manually triggering a full refresh, which varies in difficulty depending on the connector. When manual refreshes need to happen frequently or in an automated way, we should consider alternative approaches.
+
+Alternative Loading Methods: 
+
+- Bypass Stitch or Fivetran's limitations by using Snowflake share (if it doesn't have the same limitations).
+- Custom Pipeline: Build a custom data pipeline that allows for scheduled full refreshes.
+- Upstream Governance: Explore data governance improvements in upstream systems to address the root causes of replication issues.
+
+Each approach involves different trade-offs in terms of development effort, maintenance requirements, and flexibility for our specific use cases.
+
 #### Access request
 
 Although it could be helpful to already provide the Data Team access to the source system, its not mandatory to raise an Access Request right now.
@@ -228,7 +245,7 @@ When extracting new data towards Snowflake and the data source is not listed or 
 
 ## Personal data
 
-Extracting [Personal Data](/handbook/legal/privacy/#:~:text=DPIAs%20here.-,Personal%20Data,-Any%20data%2C%20individually) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
+Extracting [Personal Data](/handbook/legal/privacy/#privacy-terms) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
 
 Please note that "pseudonymized" data is still Personal Data under privacy legislation.
 
