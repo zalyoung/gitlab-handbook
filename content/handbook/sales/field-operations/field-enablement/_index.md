@@ -11,7 +11,7 @@ To be a recognized partner who contributes to field & partner business outcomes.
 
 We envision a Field organization that has easy and intuitive access to the information and resources needed to sell effectively, and that is inspired and motivated to be a part of the GitLab team through experiences that drive meaningful connections and engagement.
 
-### Key Tenets of Field Enablement in FY24 (our ways of working)
+### Key Tenets of Field Enablement in FY26 (our ways of working)
 
 1. **Operate with Efficiency & Scale**
    1. Minimize FE team task redundancy, improve program processes & rhythm, and build shared enablement services.
@@ -37,27 +37,24 @@ We envision a Field organization that has easy and intuitive access to the infor
 
 | **Name** | **Title** | **Role** |
 | ------ | ------ | ------ |
-| Ali Shahrazad  | Sr. Director, Field Enablement | Mgr |
-| Kelley Shirazi | Director, Global Sales and Customer Success Enablement | Mgr |
+| Aileen Lu | Chief of Staff, CRO | Mgr |
 | Monica Gomez | Director, Enablement Operations | Mgr |
-| Steve Wilson | Sr. Manager, Product Enablenent | IC |
-| Emelie Rodriguez | Staff Program Manager, GTM Enablement | IC |
 | Shannon Thompson | Sr. Field Communications Manager | IC |
 | Pallavi Daliparthi | Staff Program Manager, Customer Success / Solutions Architect Enablement | IC |
 | Cristian Enache | Staff Program Manager, EMEA Field Enablement | IC |
-| Jess Stetson | Staff Program Manager, AMER Field Enablement | IC |
+| Jess Stetson | Staff Program Manager, AMER, APJ, and PubSec Field Enablement | IC |
 | John Blevins | Sr. Program Manager, Onboarding & Continuing Education | IC |
 | Joshua Jones | Sr. Program Manager, Partner Enablement | IC |
-| Omnia Radwan | Associate Program Manager, Customer Success / Solutions Architect Enablement | IC |
-| Tess Dutton | Program Manager, Field Enablement Content | IC |
+| Tess Dutton | Sr. Program Manager, GTM Enablement, Field Content | IC |
 | Emily Hiett | Field Communications Manager | IC |
+
 
 ### How We Measure Success
 
 The Field Enablement and Communications teams track and measure success in three main areas:
 
 1. **Quarterly OKRs:** The Field Enablement Leadership Team prioritizes quarterly OKRs that support the goals of the CRO organization. Status on current progress of Field Enablement OKRs can be found within the [GitLab Objective and Key Results Project](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2867).
-1. **Quarterly Readouts:** We collate the key results of each quarter in executive summary decks that include overall team achievements and program-specific accomplishments. Current fiscal year readouts can be found below.
+1. **Quarterly Readouts:** We collate the key results of each quarter in executive summary decks that include overall team achievements and program-specific accomplishments. Previous fiscal year readouts can be found below.
    1. [Q1 FY24 Field Enablement Results](https://docs.google.com/presentation/d/1Y3pfN0vgYaKCrshnXBGjsBTq6KPYKD5_Jl0jvVRT_g0/edit)
    1. Q2 FY 24 Field Enablement Results (TBA)
    1. Q3 FY24 Field Enablement Results (TBA)
