@@ -31,11 +31,12 @@ Here are some links to get us started:
 
 ## Team Meetings
 
-1. **Workflow Catalog: Group Meeting**
-   * Every Tuesday at 05:30 UTC and 09:00 UTC
-   * This meeting serves as a general sync meeting to bring up any current issues and blockers.
-   * It's held twice in one day to allow APAC and EMEA to attend
-   * Meetings are recorded and optional
+### Workflow Catalog: Group Meeting**
+
+* **Time**: Every Tuesday at 05:30 UTC and 09:00 UTC. It's held twice in one day to allow APAC and EMEA to attend.
+* **Purpose**: This meeting serves as a general sync meeting to bring up any current issues and blockers.
+* **Agenda**: [Google Doc (internal only)](https://docs.google.com/document/d/19zrzqN37ZVwwEJ9iYhy4QBsUzVN0Hd1j1yn8J0v4dqE)
+* **Recordings**: [Google Drive (internal only)](https://drive.google.com/drive/folders/1I9s96jg9knqOwDLabhn9100H-MsvG2ne)
 
 ## Communication
 
