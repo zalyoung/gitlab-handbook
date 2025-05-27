@@ -162,7 +162,7 @@ All asynchronous operations must provide:
 - State transition to appropriate `_in_progress` state
 - Immediate acknowledgment of the successful request and ongoing operation
 - Progress indicators where technically feasible
-- Completion notifications through appropriate channels (Activity, Notification center, Email)
+- Completion notifications through appropriate channels (activity, notification center, email)
 - Comprehensive error handling with user-facing error messages
 - Rollback capabilities for failed operations
 
