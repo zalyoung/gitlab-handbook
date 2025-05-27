@@ -9,8 +9,8 @@ Performance Testing is a broad discipline that includes various approaches to ev
 ```mermaid
 flowchart TD
   START((Start))
-  GPT[[GitLab Performance Toolkit]]
-  GBPT[[GitLab Browser Performance Toolkit]]
+  GPT[[GitLab Performance Tool]]
+  GBPT[[GitLab Browser Performance Tool]]
   CPT[[Component Performance Testing]]
   UNIT[Unit test frameworks]
   BUILT{Is the code\nstill being written}
@@ -38,6 +38,10 @@ flowchart TD
   class UI,ENV,CODE,BUILT decision;
   class GBPT,CPT,GPT tool;
   class START start;
+
+  click GPT "#system-level-load-testing"
+  click GPT "#system-level-load-testing"
+  click CPT "#componet-performance-testing"
 ```
 
 #### System Level Load Testing
