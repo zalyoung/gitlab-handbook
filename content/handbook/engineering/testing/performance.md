@@ -41,7 +41,7 @@ flowchart TD
 
   click GPT "#system-level-load-testing"
   click GBPT "#client-side-performance-testing"
-  click CPT "#componet-performance-testing"
+  click CPT "#component-performance-testing"
 ```
 
 #### Server-side Performance Testing
