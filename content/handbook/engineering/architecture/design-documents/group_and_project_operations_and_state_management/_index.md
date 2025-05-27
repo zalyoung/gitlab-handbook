@@ -283,7 +283,7 @@ module Namespaces::Stateful
       event :archive do
         transition [:active] => :archived
       end
-  
+
       event :ancestor_archive do
         transition [:active, :archived, :deletion_scheduled, :ancestor_deletion_scheduled] => :ancestor_archived
       end
@@ -291,7 +291,7 @@ module Namespaces::Stateful
       event :unarchive do
         transition [:archived, :ancestor_archived] => :active
       end
-  
+
       event :schedule_deletion do
         transition [:active, :archived] => :deletion_scheduled
       end
@@ -307,15 +307,15 @@ module Namespaces::Stateful
       event :deletion_start do
         transition [:deletion_scheduled, :ancestor_deletion_scheduled] => :deletion_in_progress
       end
-  
+
       event :transfer_start do
         transition active: :transfer_in_progress
       end
-  
+
       event :transfer_done do
         transition transfer_in_progress: :active
       end
-  
+
       after_transition any => any do |namespace|
         namespace.run_after_commit do
           namespace_state_updates.create!(from_state: state_was, to_state: state, metadata: state_metadata)
