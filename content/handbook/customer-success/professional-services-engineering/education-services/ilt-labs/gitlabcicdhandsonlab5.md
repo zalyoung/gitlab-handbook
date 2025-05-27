@@ -87,11 +87,30 @@ Your new SSH key variable will now be accessible during any CI/CD jobs you run i
         - chmod 700 ~/.ssh
     ```
 
-1. Finally, we can add a simple SSH command to test if the connection is working.
+1. We can add a simple SSH command to test if the connection is working.
 
 ```yaml
 deploy app:
   stage: deploy
+  script: 
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_INVALID_KEY"
+    - ssh-add "$SSH_INVALID_KEY"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+    - ssh root@$ip 'ls /'
+```
+
+1. Finally, we will add in an `environment` keyword to enable us to track the deployment environment.
+
+```yaml
+deploy app:
+  stage: deploy
+  environment:
+    name: Production
+    url: "https://$ip"
   script: 
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)
