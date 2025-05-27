@@ -515,23 +515,6 @@ PUT /api/v4/namespaces/:id/state
 GET /api/v4/namespaces/:id/state/history
 ```
 
-**GraphQL Schema:**
-
-```graphql
-type Namespace {
-  state: NamespaceState!
-  stateHistory: [NamespaceStateUpdate!]!
-}
-
-enum NamespaceState {
-  ACTIVE
-  ARCHIVED
-  DELETION_SCHEDULED
-  DELETION_IN_PROGRESS
-  TRANSFER_IN_PROGRESS
-}
-```
-
 ## Alternative Solutions
 
 ### Alternative 1: Separate State Tables per Type
