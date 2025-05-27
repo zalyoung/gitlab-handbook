@@ -341,7 +341,7 @@ graph BT
 
 ```mermaid
 graph TD
-    subgraph "Ready for Migration - Already Fully Isolated"
+    subgraph "Before Migration"
         TLG1["Top-level Group A<br/>Fully Isolated"]
 
         subgraph "Dedicated Users"
@@ -377,7 +377,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "Migration Complete - Now an Organization"
+    subgraph "After Migration"
         ORG1["Organization A<br/>Fully Isolated"]
 
         subgraph "Same Users (No Changes Needed)"
@@ -415,7 +415,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "Resource Isolated State - Users Shared Across Groups"
+    subgraph "Before Migration"
         TLG1["Top-level Group A<br/>Resource Isolated"]
         TLG2["Top-level Group B<br/>Resource Isolated"]
 
@@ -461,7 +461,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "Fully Isolated State - Dedicated Users Per Group"
+    subgraph "After Migration"
         TLG1_NEW["Top-level Group A<br/>Fully Isolated"]
         TLG2_NEW["Top-level Group B<br/>Fully Isolated"]
 
@@ -511,7 +511,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "Cross-Organization User Dependencies"
+    subgraph "Before Migration"
         ORG1["Organization A<br/>Resource Isolated"]
         ORG2["Organization B<br/>Resource Isolated"]
 
@@ -556,7 +556,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "Organizations Now Fully Isolated"
+    subgraph "After Migration"
         ORG1["Organization A<br/>Fully Isolated"]
         ORG2["Organization B<br/>Fully Isolated"]
 
@@ -605,7 +605,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "Complex Resource Entanglements"
+    subgraph "Before Migration"
         TLG1["Top-level Group A<br/>Not Isolated"]
         TLG2["Top-level Group B<br/>Not Isolated"]
 
@@ -648,7 +648,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "Resources Now Separated"
+    subgraph "After Migration"
         TLG1["Top-level Group A<br/>Resource Isolated"]
         TLG2["Top-level Group B<br/>Resource Isolated"]
 
