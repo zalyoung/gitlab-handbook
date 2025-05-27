@@ -6,7 +6,7 @@ job: "Engineering Manager, Code Creation"
 
 ## Matt Nohr's README
 
-I'm an Engineering Manager at GitLab for the [Code Creation](/handbook/engineering/development/dev/create/code-creation/) team.
+I'm an Engineering Manager at GitLab for the [Code Creation](/handbook/engineering/ai/code-creation/) team.
 
 I've previously worked on these teams at GitLab:
 

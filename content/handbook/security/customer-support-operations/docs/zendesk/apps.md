@@ -141,9 +141,11 @@ App information:
 
 ### Mechanizer
 
+Please use [CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools) instead of the app at this time.
+
 <sup>*Introduced via [support-team-meta#4208](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4208)*</sup>
 
-This app incorporates [Mechanizer](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer) into Zendesk.
+This app incorporates Mechanizer into Zendesk.
 
 App information:
 

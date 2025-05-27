@@ -23,3 +23,18 @@ For more information and live tracking, please visit the [hackathon page](https:
 ### Collaboration Opportuntites
 
 Contributor Success welcomes new ideas/themes for the hackathon. Please reach out to us on `#contributor-success` on Slack for internal discussion.
+
+### Experiments and results
+
+#### April 2025 Hackathon
+
+Bug bash bonus prize:
+
+- 250 credit bonus to the contributor who merged the most `type::bug` merge requests
+- Credits were in addition to other hackathon prizes
+- Bonus was advertized on all external hackathon announcements.
+- Bonus was not advertized on contributors.gitlab.com.
+
+Results:
+
+- No material change in the number of participants or bugs resolved. 

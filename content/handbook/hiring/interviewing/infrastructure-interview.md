@@ -68,7 +68,7 @@ The technical interview will require a GitLab account, if you are not yet famili
 While not necessary for the interview, the following links will help you to understand a bit more about the responsibilities of the Infrastructure team:
 
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
-- [Change Management](/handbook/engineering/infrastructure/change-management/)
+- [Change Management](/handbook/engineering/infrastructure-platforms/change-management/)
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Infrastructure Runbooks](https://gitlab.com/gitlab-com/runbooks)
 - [Production Readiness](/handbook/engineering/infrastructure/production/readiness/)

@@ -51,16 +51,20 @@ For Engineering, please see [Engineering Mobility Principles](/handbook/engineer
 
 ## Promotion Philosophy
 
+Our promotion philosophy goes beyond traditional "climbing the ladder" thinking. We recognize that growth happens in multiple dimensions—both vertically (moving up levels) and laterally (expanding skills and impact)—creating a career "lattice" that offers diverse paths to development and success.
+
 Our promotion philosophy comprises core pillars surrounding the approach and process alignment to our values.
 
 ### Pillars
 
-- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level](/handbook/company/structure/#job-frameworks) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
-- Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
-- When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
-- All in-line promotions at GitLab require a [promotion document](#promotion-document). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
-- We encourage team members to live our [efficiency value](/handbook/values/#efficiency), be a [manager of one](/handbook/values/#managers-of-one), and take ownership of their promotion document in partnership with their manager.
-- We calibrate planned promotions on a twice per year basis to ensure an equitable review, and through this process track metrics that help us understand if our promotions are occurring at a healthy and fair rate.
+- Performance First: Promotions reflect your current performance, not just potential. For an in-line promotion, you should already be consistently operating at the level described in the next [job framework](/handbook/company/structure/#job-frameworks) before being promoted. While you'd typically become eligible for promotion to the next level in your job family after twelve months in your current role, remember that broadening your skills laterally is equally valuable to your growth journey.
+- Growth Partnership: Your career development is a collaborative effort between you and your manager. We encourage regular conversations about your aspirations—whether that means moving up the ladder or expanding across the lattice. Your manager is there to help identify opportunities that align with your goals, whether that's deepening expertise in your current area or branching out to develop complementary skills and experiences.
+- Holistic Evaluation: When considering promotions, we look at both your readiness and the business opportunity. We value team members who take on broader responsibilities and expand their impact horizontally, not just those looking to climb vertically.
+- Transparent Process: All in-line promotions at GitLab require a [promotion document](#promotion-document). This [transparency](/handbook/values/#transparency) ensures everyone understands the basis for advancement, whether it's vertical progression or recognition of significant lateral growth and expanded capabilities.
+- Self-Ownership: We encourage you to live our [efficiency value](/handbook/values/#efficiency) by being a [manager of one](/handbook/values/#managers-of-one) and taking ownership of your promotion document, working in partnership with your manager. This applies whether you're seeking vertical advancement or recognition for broadening your skills and impact.
+- Equitable Calibration: We calibrate planned promotions twice yearly to ensure fair and consistent review. Through this process, we track metrics to understand if our promotions—both vertical and lateral—are occurring at a healthy and equitable rate across the organization.
+
+By embracing both the ladder (vertical growth) and lattice (lateral expansion) in our promotion philosophy, we create space for diverse career paths that recognize the many ways you can grow and contribute at GitLab.
 
 ### Values Alignment
 
@@ -81,7 +85,7 @@ Most promotions are processed through our twice per year Promotion Calibrations,
 
 At GitLab, we promote on a twice per year basis. There are three core stages to the promotion process: Planning, Calibration, and Processing.
 
-The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-development-fy24-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
+The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-dev-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
 
 | Stage | Purpose |
 | ---------- | ----- |
@@ -488,7 +492,7 @@ This section describes the approval chain after the People Business Partner subm
 
 #### Job Change Letter
 
-1. For [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) a job change letter may be required, as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
+1. For [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) a job change letter may be required, as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
 1. Review the [Signature requirements per country](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) and process the job change letter accordingly. Please note not all entities and country locations require Job Change Letters (for example team members in the US will not receive a Job Change Letter).
 1. Make a copy of the applicable Job Change Letter template and enter all applicable information based on the Workday request and add the applicable [Signatory](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) or [Company Signature Stamp](https://docs.google.com/document/d/1RWkI7zuFIUkW_sh1TmYii6e8zNOmz9USUoEr1wBIBpQ/edit?usp=sharing). The effective date is as follows:
     - For sales personnel with a variable change, the effective date is always the 1st of the month regardless of their entity.
@@ -660,7 +664,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 1. Audit all job change requests and ensure the changes are captured in the Payroll tracker.
 1. In case of `Job Title Specialty` change requests, managers will reach out to the People Connect Team [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) to have a team members `Speciality` updated in Workday.
-    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: <https://handbook.gitlab.com/handbook/engineering/development/dev/foundations/search/> or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments)).
+    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: <https://handbook.gitlab.com/handbook/engineering/ai/search/> or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments)).
 
 ## Department Transfers
 

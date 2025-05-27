@@ -173,3 +173,15 @@ First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the 
 | Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/) |
 
 This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27).
+
+##### How to build a quick Review app for a product documentation Translation MR
+
+Building a review app means pointing the Hugo application to the correct branch which contains those changes. 
+Here's a step by step process on how you can achieve this:
+
+1. Go into [main-development products.yaml](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main-development/data/products.yaml)
+2. Find the project and edit the `default_branch` field to match the Translation MR’s branch
+3. Save the edits to a new branch and create a new MR titled “Draft: Review of <Translation MR Name>”
+4. Update MR’s description to specify what the MR is for and why. Link any related issues, merge requests, or external resources such as an Argo request URL
+5. Add a list of URLs to check in the review app
+6. Once the pipeline completes, you can access the review app through the "View App" button
