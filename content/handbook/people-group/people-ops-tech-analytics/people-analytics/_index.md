@@ -7,15 +7,20 @@ description: "GitLab People Analytics Team Handbook Page"
 
 People Analytics uses data-driven insights to improve talent decisions and workforce processes at GitLab. We're part of the People Strategy team, helping inform People Group decisions at all organizational levels through reporting, data solutions, and statistical analysis.
 
+## People Analytics Team Members
+
+- [Adrian Perez](/handbook/company/team/#aperez349): [Sr. Manager, People Analytics](/job-families/people-group/people-systems-and-analytics/#senior-manager-people-analytics)
+- [Shane McCormack](/handbook/company/team/#mccormack514): [Staff Analyst, People Analytics](/job-families/people-group/people-systems-and-analytics/#staff-analyst-people-analytics)
+
 ## What We Do
 
 **Our Mission:** Provide data insights to inform People decisions across GitLab by collecting and analyzing organizational, people, and talent data to improve business outcomes.
 
 **Key Objectives:**
 
-- **Reporting Solutions** - Automated People metrics dashboards for stakeholders (People Business Partners, Talent Acquisition, Leadership)
-- **Data Solutions** - Scalable data models built with the Data Team to support reporting and analytics
-- **Analytical Solutions** - Statistical analysis (clustering, regression, survival analysis) to drive business insights
+- **Reporting Solutions** - Work with stakeholders to develop automated reporting solutions that deliver relevant People metrics efficently and accurately
+- **Data Solutions** - Collaborate with the [Data Team](/handbook/enterprise-data/) to build scalable data models to support reporting and analytics
+- **Analytical Solutions** - Apply advanced statistical techniques (clustering, regression, survival analysis) to generate actionable insights and data-informed decisions for People Group and leadership throughout GitLab
 
 ## Tools & Resources
 
@@ -36,14 +41,16 @@ People Analytics uses data-driven insights to improve talent decisions and workf
 
 ## Data Governance & Security
 
-We maintain strict data governance through collaboration with People and Legal teams, ensuring we only access authorized data. Our process includes identity verification and stakeholder approval for all data requests, with anonymization of sensitive data whenever possible.
+GitLab's commitment to transparency and efficiency extends to our data governance framework. The People Analytics team collaborates closely with People and Legal teams to ensure we only access data we are authorized to use. Our process includes access verification and stakeholder approval for all data requests, maintaining strict compliance with applicable laws and regulations.
 
-**Key Principles:**
+**Core Governance Principles:**
 
-- People Group daily work stays in source systems
-- Data warehouse used only for "up and out" organizational reporting
-- Minimize sensitive data in warehouse; anonymize when possible
-- Track data access "cradle to grave" to understand risk
+- **Source System Priority** - People Group daily operations remain in ther source systems to maintain data integrity and workflow efficiency
+- **Strategic Data Warehousing** - Our data warehouse, built on technologies like [dbt](/handbook/enterprise-data/platform/dbt-guide/) and [Snowflake](/handbook/enterprise-data/platform/snowflake/) is reserved for "up and out" organizational reporting and analytics
+- **Data Minimization** - We only bring in the data needed in reporting and anonymize information whenever possible to protect individual privacy
+- **Comprehensive Tracking** - We track data from source system to all downstream systems to understand and mitigate risk throughout the data lifecycle
+
+This governance framework ensures that data remains consistent, reliable, and easy to work with while protecting sensitive information. For detailed information about our data governance processes, see our [Data Governance handbook page](data-governance.md).
 
 ## Getting Started
 
