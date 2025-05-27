@@ -1,15 +1,15 @@
 ---
-title: Staff Internal Audit & Compliance Analyst
+title: IT Staff Auditor
 description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational, finance, and internal controls with a specialty in IT risk and security
 ---
 
 The position is additionally responsible for identifying and assisting in documenting existing internal controls, new internal controls, and establishing an internal monitoring function to audit the company's compliance with such internal controls. The position will have a key role in assessing and providing recommendations to the company's compliance with the requirements of the Sarbanes-Oxley Act of 2002 (SOX), and treatment of IT and security risks.
 
-The Staff Internal Audit & SOX Compliance Analyst reports to the Senior Internal Audit Manager, IT and Security.
+The IT Staff Auditor reports to the Director, IT Audit.
 
 ### Job Grade
 
-The Staff Internal Audit & SOX Compliance Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The IT Staff Auditor is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -27,7 +27,7 @@ The Staff Internal Audit & SOX Compliance Analyst is a [grade 8](/handbook/total
 - Excellent verbal and written communication skills with the ability to interact effectively with all levels of management
 - Demonstrated problem-solving abilities with customer service orientation
 - Self-starter and flexible team player
-Ability to work in a fast-paced environment with changing processes and procedures
+- Ability to work in a fast-paced environment with changing processes and procedures
 - Strong project management abilities
 - Must have advanced SOX compliance experience and be knowledgeable with the following financial cycles: Record to Report, Order to Cash, Hire to Retire, Procure to Pay, and ITGCs
 - Comprehension of internal auditing standards, SOX, COSO and risk-assessment practices.
@@ -35,8 +35,8 @@ Ability to work in a fast-paced environment with changing processes and procedur
 - Degree in Accounting, Business or Finance required
 - Technical auditing skills and corporate-level audit experience required
 - 5+ years of experience in SOX/internal audit preferred, of which at least 3 years of SOX experience required
-CA/CPA/CIA/ certification preferred
-CISA/CISSP/IT Audit certification preferred
+- CA/CPA/CIA/ certification preferred
+- CISA/CISSP/IT Audit certification preferred
 - Ability to use GitLab
 
 ### Hiring Process
