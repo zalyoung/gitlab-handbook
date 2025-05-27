@@ -39,6 +39,16 @@ People Analytics uses data-driven insights to improve talent decisions and workf
 - [People Analytics Tableau Dashboard Overview](/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - Common dashboards and usage
 - [People Analytics Survey Support](/handbook/people-group/people-ops-tech-analytics/people-analytics/survey-support/) - Culture Amp survey administration
 
+### External Resources
+
+- [Wharton People Analytics](https://wpa.wharton.upenn.edu/) - Annual conference and research
+- [AIHR People Analytics](https://www.aihr.com/blog/people-analytics-resource-library/) - HR and analytics resources
+- [HR Predictive Analytics](https://www.koganpage.com/hr-learning-development/predictive-hr-analytics-9781398615656) - Textbook with practical examples
+- [Google re:Work](https://rework.withgoogle.com/en/subjects/people-analytics) - Introductory resources
+- [Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/index.html) - Keith McNulty's open-source book of regression modeling with examples in R and Python
+- [Handbook of Graphs and Networks in People Analytics](https://ona-book.org/index.html) - Keith McNulty's open-source book for Organizational Network Analysis
+- [The Fundamentals of People Analytics](https://link.springer.com/content/pdf/10.1007/978-3-031-28674-2.pdf?pdf=button) - Craig Starbuck's open-source book with examples of statistical analyses commonly used by People Analytics teams with examples in R
+
 ## Data Governance & Security
 
 GitLab's commitment to transparency and efficiency extends to our data governance framework. The People Analytics team collaborates closely with People and Legal teams to ensure we only access data we are authorized to use. Our process includes access verification and stakeholder approval for all data requests, maintaining strict compliance with applicable laws and regulations.
@@ -55,13 +65,3 @@ This governance framework ensures that data remains consistent, reliable, and ea
 ## Working With Us
 
 Submit requests and ideas using issue templates in the [People Analytics project](https://gitlab.com/gitlab-com/people-group/people-analytics/general/).
-
-## External Resources
-
-- [Wharton People Analytics](https://wpa.wharton.upenn.edu/) - Annual conference and research
-- [AIHR People Analytics](https://www.aihr.com/blog/people-analytics-resource-library/) - HR and analytics resources
-- [HR Predictive Analytics](https://www.koganpage.com/hr-learning-development/predictive-hr-analytics-9781398615656) - Textbook with practical examples
-- [Google re:Work](https://rework.withgoogle.com/en/subjects/people-analytics) - Introductory resources
-- [Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/index.html) - Keith McNulty's open-source book of regression modeling with examples in R and Python
-- [Handbook of Graphs and Networks in People Analytics](https://ona-book.org/index.html) - Keith McNulty's open-source book for Organizational Network Analysis
-- [The Fundamentals of People Analytics](https://link.springer.com/content/pdf/10.1007/978-3-031-28674-2.pdf?pdf=button) - Craig Starbuck's open-source book with examples of statistical analyses commonly used by People Analytics teams with examples in R
