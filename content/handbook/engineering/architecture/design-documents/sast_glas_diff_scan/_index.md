@@ -27,7 +27,7 @@ Full security scans can be time-consuming, especially for large codebases. By fo
 - Reduce GLAS scan time for MRs
 - Clearly indicate in the **Security Widget** and **Security Pipeline tab** that the scan is diff-based
 - Ensure fixed vulnerabilities are **not displayed** in the **Security Widget**, and clearly explain the reasoning to the user
-- Target release in 18.2
+- Target release in 18.3
 
 ### Non-Goals
 
