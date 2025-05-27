@@ -172,7 +172,7 @@ Based on current performance metrics:
 
 - Group transfers (P99.95: 51s) - Priority 1
 - Project transfers (P99.95: 27s) - Priority 1
-- [Upcoming group archival](https://gitlab.com/groups/gitlab-org/-/epics/15019)
+- [Upcoming group archiving](https://gitlab.com/groups/gitlab-org/-/epics/15019)
 
 ## Design and implementation details
 
