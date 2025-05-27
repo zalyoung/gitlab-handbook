@@ -103,7 +103,7 @@ These are changes with high impact or high risk. If a change is going to cause d
 #### Approval
 
 1. Ensure there is Due Date set on the issue and to the [GitLab Production](https://calendar.google.com/calendar/embed?src=gitlab.com_si2ach70eb1j65cnu040m3alq0%40group.calendar.google.com) calendar.
-1. Changes which include downtime must be pre-communicated to users. Follow the guidance for [Communicating a change that requires downtime](/handbook/engineering/infrastructure/change-management/#communicating-a-change-that-requires-downtime-maintenance-window)
+1. Changes which include downtime must be pre-communicated to users. Follow the guidance for [Communicating a change that requires downtime](/handbook/engineering/infrastructure-platforms/change-management/#communicating-a-change-that-requires-downtime-maintenance-window)
 1. All the database changes related should have a review by a DBRE.
 1. Have the change approved by Infrastructure management at the Sr. Manager level or above by obtaining the `manager_approved` label on the Change Request issue. Mention `@gitlab-org/saas-platforms/inframanagers` to request approval and provide visbility to all SaaS Platforms infrastructure managers.
 1. Identify the Engineer On-Call (EOC) scheduled for the time of the change and make them aware the change plan.
@@ -133,7 +133,7 @@ These are changes that are not expected to cause downtime in Production, but whi
 #### Approval
 
 1. Ensure there is a Due Date to the issue and an event to the [GitLab Production](https://calendar.google.com/calendar/embed?src=gitlab.com_si2ach70eb1j65cnu040m3alq0%40group.calendar.google.com) calendar.
-1. Changes which include downtime must be pre-communicated to users. Follow the guidance for [Communicating a change that requires downtime](/handbook/engineering/infrastructure/change-management/#communicating-a-change-that-requires-downtime-maintenance-window)
+1. Changes which include downtime must be pre-communicated to users. Follow the guidance for [Communicating a change that requires downtime](/handbook/engineering/infrastructure-platforms/change-management/#communicating-a-change-that-requires-downtime-maintenance-window)
 1. All the database changes related should have a review by a DBRE.
 1. Have the change approved by Infrastructure management at the manager level or above by obtaining the `manager_approved` label on the Change Request issue. Mention `@gitlab-org/saas-platforms/inframanagers` to request approval and provide visbility to all SaaS Platforms infrastructure managers.
 1. Identify the Engineer On-Call (EOC) scheduled for the time of the change and review the plan with them.
@@ -285,13 +285,13 @@ Soft PCLs prohibit infrastructure changes with a criticality level of 2 or highe
 
 During the soft PCL, code deployments to canary are allowed since we have tools to control canary impact. Production deployments, without the explicit execution of post-deployment migrations, are allowed in coordination with the EOC. High criticality code deployments that include the need to execute post-deployment migrations are allowed in case of emergency and with EOC approval.
 
-During the soft PCL, feature flags can be conditionally toggled, depending on their criticality, as described in the [guidelines about feature flags and the Change Management Process](/handbook/engineering/infrastructure/change-management#feature-flags-and-the-change-management-process). Feature flags that do not require a change management issue can be toggled by engineers. In case of a change management issue being required, follow guidelines for change management process described on this page.
+During the soft PCL, feature flags can be conditionally toggled, depending on their criticality, as described in the [guidelines about feature flags and the Change Management Process](/handbook/engineering/infrastructure-platforms/change-management#feature-flags-and-the-change-management-process). Feature flags that do not require a change management issue can be toggled by engineers. In case of a change management issue being required, follow guidelines for change management process described on this page.
 
 ### Hard PCL
 
-In addition to all of the restrictions in the Soft PCL, Hard PCLs include code deploys and infrastructure changes for every criticality level (see [change severities](/handbook/engineering/infrastructure/change-management/#change-severities)).
+In addition to all of the restrictions in the Soft PCL, Hard PCLs include code deploys and infrastructure changes for every criticality level (see [change criticalities](/handbook/engineering/infrastructure-platforms/change-management/#change-criticalities)).
 
-In case of an active S1/S2 incident, the EOC should interact with the Incident Manager On Call prior to making any decision. It is at EOC and Incident Manager On Call discretion to make a decision on whether a change should be approved and executed. If the change is approved, Incident Manager On Call should inform the [Infrastructure Leadership Escalation](/handbook/engineering/infrastructure/incident-management/#infrastructure-leadership-escalation) of this decision (who will inform the executive team as necessary).
+In case of an active S1/S2 incident, the EOC should interact with the Incident Manager On Call prior to making any decision. It is at EOC and Incident Manager On Call discretion to make a decision on whether a change should be approved and executed. If the change is approved, Incident Manager On Call should inform the [Infrastructure Leadership Escalation](/handbook/engineering/infrastructure/incident-management/#infrastructure-leader) of this decision (who will inform the executive team as necessary).
 
 During some multi-day PCL periods it will be preferred to exempt specific changes from the PCL.  Each of these must have an associated issue providing clear justification for the exemption and have the approval of the Sr. Director of Infrastructure Platforms or their designee.
 
@@ -337,7 +337,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
-| Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
+| Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |
 
 ## Feature Flags and the Change Management Process
