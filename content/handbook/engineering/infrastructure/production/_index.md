@@ -40,7 +40,7 @@ Functional queues track team workloads (`infrastructure`, `security`, etc) and a
 
 The `production` queue tracks events in production, namely:
 
-- [changes](/handbook/engineering/infrastructure/change-management/)
+- [changes](/handbook/engineering/infrastructure-platforms/change-management/)
 - [incidents](/handbook/engineering/infrastructure/incident-management/)
 - deltas (exceptions) -- still need to do handbook write up
 
@@ -59,7 +59,7 @@ For the on-call SRE, every event that pages (where an event may be a group of re
 All direct or indirect changes to authentication and authorization mechanisms used by GitLab Inc. by customers or employees require additional review and approval by a member of at least one of following teams:
 
 - [production team](/handbook/engineering/infrastructure/production/) member
-- [security team](/security/)  member
+- [security team](https://about.gitlab.com/security/)  member
 - developer from a different team that is staff level or higher
 
 This process is enforced for the following repositories where the approval is mandatory using
@@ -87,7 +87,7 @@ Type labels are very important. They define what kind of issue this is. Every is
 
 |       Label        | Description                                                                                                             |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------|
-|      `~Change`     | Represents a Change on infrastructure please check details on : [Change](/handbook/engineering/infrastructure/change-management/)                             |
+|      `~Change`     | Represents a Change on infrastructure please check details on : [Change](/handbook/engineering/infrastructure-platforms/change-management/)                             |
 |     `~Incident`    | Represents a Incident on infrastructure please check details on : [Incident](/handbook/engineering/infrastructure/incident-management/)                           |
 |     `~Database`    | Label for problems related to database                                                                                  |
 |     `~Security`    | Label for problems related to security                                                                                  |

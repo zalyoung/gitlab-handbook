@@ -21,7 +21,7 @@ Quick navigation to some of our other pages.
 
 | **Page** | **Description** |
 |---|---|
-| [Career Mobility](/handbook/people-group/engineering/career-mobility) | Our automation flow on how we streamile on processes. |
+| [Organization Change](/handbook/people-group/engineering/organization-change) | Our automation flow on how we streamile on processes. |
 | [Employment Issues](/handbook/people-group/engineering/employment-issues) | Information regarding our onboarding and offboarding issue automations. |
 | [Nominator Bot](/handbook/people-group/engineering/nominatorbot) | Information regarding our custom Slack app, how to use it, FAQ's, and engineer guides. |
 | [Offboarding](/handbook/people-group/engineering/offboarding) | Our `offboarding` automation flow and everything you may need to know regarding this. |
@@ -146,15 +146,15 @@ We've build several automations and tools to support our People Group. In the fo
 ### Team member's employment
 
 - [Onboarding Automations](/handbook/people-group/engineering/onboarding)
-- [Career Mobility Automations](/handbook/people-group/engineering/career-mobility)
+- [Organization Change Automations](/handbook/people-group/engineering/organization-change)
 - [Offboarding Automations](/handbook/people-group/engineering/offboarding)
 
 ### Supportive tools for People Group
 
-- [Nominator Bot]({{< ref "nominatorbot" >}})
+- [Nominator Bot](/handbook/people-group/engineering/nominatorbot/)
 - [Compensation Calculator](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/)
 - [Inclusive Language Check on Job Families](/handbook/hiring/job-families/#inclusive-language-check)
-- [People Ops Internal Handbook]({{< ref "pops-internal-handbook" >}})
+- [People Ops Internal Handbook](/handbook/people-group/engineering/pops-internal-handbook/)
 
 ### Uncategorized
 

@@ -17,54 +17,19 @@ The GitLab Product team includes team members at various levels of [Product Mana
 
 ## Product Leaders
 
-All Managers and above in the Product function are considered product leaders. They can be referenced using the `@gl-product-leadership` handle. This document describes important leadership concepts specific to the product management team. See also our page on [general GitLab leadership guidance](/handbook/leadership/).
+All Directors and above in the Product function are considered Product Leaders. They can be referenced using the `@gl-product-leadership` handle. This document describes important leadership concepts specific to the product management team. See also our page on [general GitLab leadership guidance](/handbook/leadership/).
 
 ### Product Leadership Team Structure
 
-Product team members who report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) are members of the Product Leadership Team.
+Product team members that are Director+ and report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a permanent basis are members of the Product Leadership Team (PLT). Team members reporting to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a temporary basis and/or that are not Director+ are PLT observers. PLT observers have the opportunity to be temporarily part of the PLT meetings and activities but may not be permanent members. PLT observers may not be included in all PLT activities.
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
-
-## Product Monthly Kick-Off Host Rotation
-
-The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is hosted by a member of [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) on a monthly rotation. See below for the schedule:
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-09-18 | Hillary Benson | [16.5 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12732) |
-| 2023-10-16 | Justin Farris | [16.6 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12796) |
-| 2023-11-16 | Mike Flouton | [16.7 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12859) |
-| 2023-12-18 | Hillary Benson | [16.8 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12955) |
-| 2024-01-18 | Omar Fernandez | [16.9 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13036) |
-| 2024-02-16 | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
-| 2024-03-18 | Justin Farris | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212) |
-| 2024-04-18 | Hillary Benson | [17.0 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13279) |
-| 2024-05-20 | Steve Evangelista | [17.1 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13349) |
-| 2024-06-18 | Mike Flouton | [17.2 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13455) |
-| 2024-07-18 | Justin Farris | [17.3 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13519) |
-| 2024-08-19 | Hillary Benson | [17.4 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13573) |
-| 2024-09-18 | Jackie Porter | [17.5 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13636) |
-| 2024-10-17 | Steve Evangelista | [17.6 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13688) |
-| 2024-11-18 | Hillary Benson | [17.7 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13748) |
-| 2024-12-18 | Justin Farris |[17.8 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13796) |
-
-## Product Key Review Leader Rotation
-
-The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-11-15 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12863 |
-| 2024-02-21 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/13121 |
-| 2024-06-17 | Justin Farris | -- |
-| 2024-XX-XX | Mike Flouton | -- |
-| 2024-XX-XX | Hillary Benson | -- |
 
 ## Product Group Conversation Leader Rotation
 
 The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
 
-For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/#additional-consideration-for-functional-presentations)
+For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/)
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
@@ -83,10 +48,8 @@ Below you'll find the ReadMe's for our Product Division leaders who manage teams
 
 - [David DeSanto's README](https://gitlab.com/david)
 - [Justin Farris's README](https://gitlab.com/justinfarris)
-- [Kevin Chu's README](https://gitlab.com/kbychu/README)
 - [Sarah Waldner's README](https://gitlab.com/sarahwaldner/README)
 - [Jackie Porter's README](https://gitlab.com/jreporter/read-me)
-- [Omar Fernandez's README](https://gitlab.com/ofernandez2)
 
 ## Product Manager/Leader Collaboration
 
@@ -100,7 +63,7 @@ expectations the leader should have in working with PMs, but is not intended
 to be hard and fast rules that take the place of having a strong working relationship
 and prioritizing things effectively together.
 
-**Note** - This is intended as a supplement to the [product director](job-families/product/product-management-leadership/) or [group manager of product](/job-families/product/product-management-leadership/#group-manager-product-gmp)
+**Note** - This is intended as a supplement to the [product director](/job-families/product/product-management-leadership/) or [group manager of product](/job-families/product/product-management-leadership/#group-manager-product-gmp)
 job descriptions with specific focus on the interaction between PMs and their managers.
 General job responsibilities can be found at that link.
 
@@ -144,5 +107,5 @@ recommended as a great approach that works particularly well with PMs.
 - Prioritize hiring, being sure to include PMs (and EMs/team members) who will work
 with the new person in the process.
 - Provide structure and motivation for needed organizational changes (being more
-[data-driven](/handbook/product/#data-driven-work),
+[data-driven](/handbook/product/product-principles/#data-driven-work),
 telling stories, providing time for expansive thinking).

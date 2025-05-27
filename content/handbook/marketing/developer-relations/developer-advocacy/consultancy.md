@@ -40,7 +40,7 @@ Developer Advocates are encouraged to help with
 - Best practice resources, demos, product tours, and use cases (see [content library](/handbook/marketing/developer-relations/developer-advocacy/content/#content-library))
 - Support field teams in Slack ([#ai-field-strategy](https://gitlab.enterprise.slack.com/archives/C051SLP8WNB), [#ai-sme-request](https://gitlab.enterprise.slack.com/archives/C05CWJ93WM7), [#ai-field-technical](https://gitlab.enterprise.slack.com/archives/C053WFAK56U)).
 
-Collaboration for customer workshops is important. [Solution Architects](/handbook/solutions-architects/) lead the [Proof of Value (PoV) workshops for GitLab Duo and AI](/handbook/solutions-architects/tools-and-resources/pov/ai/). They get help building the workshop outline from the [SA Demo Architects](/handbook/solutions-architects/demo-architect/) and [Customer Success Management team](/handbook/customer-success/). Developer Advocates are encouraged to help with programming workshops, IDE setup and troubleshooting, and generally sharing best practices as a developer with customer's (engineering) teams.
+Collaboration for customer workshops is important. [Solution Architects](/handbook/solutions-architects/) lead the [Proof of Value (PoV) workshops for GitLab Duo and AI](/handbook/solutions-architects/tools-and-resources/pov/ai/). They get help building the workshop outline from the [SA Demo Architects](/handbook/solutions-architects/center-of-excellence/demo-architecture/) and [Customer Success Management team](/handbook/customer-success/). Developer Advocates are encouraged to help with programming workshops, IDE setup and troubleshooting, and generally sharing best practices as a developer with customer's (engineering) teams.
 
 Customer feedback can inspire bug reports, feature proposals, documentation updates, blog tutorials, demo stories and much more. Make sure to always listen and take notes during customer engagements.
 
@@ -69,4 +69,4 @@ Goal: Enable data scientists and [MLOps](https://about.gitlab.com/direction/mode
 
 Recent customer workshop examples are available in [this pre-filtered issue list](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=DA-Type%3A%3AConsulting&search=mlops&first_page_size=20) (internal).
 
-SME DRI: @warias
+SME DRI: @waarias

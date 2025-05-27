@@ -343,11 +343,11 @@ When creating a new project, all settings should be left to the default options,
          /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"
          ```
 
-When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements) for more details.
+When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](/handbook/security/standards/gitlab_projects_baseline_requirements) for more details.
 
 ## Performance Indicators
 
-- [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/)
+- [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
 ### Dashboards
@@ -481,7 +481,7 @@ The backlog for these issues can viewed at [Sec Security Tooling - issue](https:
 
 ### Communicating changes that may break tests
 
-Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then #quality on slack or the [triage DRI](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) dependent on severity.
+Ping the DRI for quality assigned to Secure. You can find the person on the [team page](/handbook/engineering/development/sec/secure/#team-members). If they are unavailable, then `#s_developer_experience` on Slack or the [triage DRI](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) dependent on severity.
 
 ## Section Retrospectives
 

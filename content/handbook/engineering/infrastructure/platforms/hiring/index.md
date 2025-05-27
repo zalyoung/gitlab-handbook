@@ -1,11 +1,11 @@
 ---
-title: "The Infrastructure SaaS Platforms Hiring Process"
-description: "The Infrastructure SaaS Platforms group hiring process and resources"
+title: "The Infrastructure Platforms Hiring Process"
+description: "The Infrastructure Platforms group hiring process and resources"
 ---
 
-## Hiring in SaaS Platforms
+## Hiring in Platforms
 
-Every eligible SaaS Platforms engineering team member should be qualified to conduct interviews:
+Every eligible Platforms engineering team member should be qualified to conduct interviews:
 
 * All ICs should be qualified to conduct technical interviews up to and including their level
 * All ICs at senior level or above should be qualified to conduct peer interviews

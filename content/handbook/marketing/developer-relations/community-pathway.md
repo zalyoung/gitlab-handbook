@@ -64,8 +64,6 @@ Ensuring everyone can contribute requires a conscious effort to ensure the commu
   * [Developer Evangelism](/handbook/marketing/developer-relations/developer-advocacy/)
   * [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
   * [StartUps Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
-* Meetups and evangelism
-  * [Evangelist Program](/handbook/marketing/developer-relations/evangelist-program/)
 * [GitLab Diversity Scholarship program](https://about.gitlab.com/community/sponsorship/)
 
 #### Education Program at GitLab

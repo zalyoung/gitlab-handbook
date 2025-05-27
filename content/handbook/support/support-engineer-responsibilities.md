@@ -303,7 +303,7 @@ Reducing future customer problems is an important part of being a Support Engine
 
 You are encouraged to [update documentation](/handbook/support/workflows/improving-documentation) regularly. This helps prevent ticket creation by improving the information available for customers to use in solving problems without contacting us.
 
-[Creating blog posts](/handbook/marketing/blog/unfiltered/) and other publicly available knowledge that is accessible by search engines is valuable to help prevent ticket creation.
+[Creating blog posts](/handbook/marketing/blog/) and other publicly available knowledge that is accessible by search engines is valuable to help prevent ticket creation.
 
 We [summarize Support team contributions](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues?label_name%5B%5D=Support%20Team%20Contributions) every week using a bot.
 
@@ -348,7 +348,7 @@ As an extension of [keeping up to date on GitLab](#keep-up-to-date-on-gitlab-and
 
 For major releases, typically a manager will organize the [Support Stable Counterparts](/handbook/support/#support-stable-counterpart) to review the planned changes.
 
-Between major releases, product or development may request our assistance [to contact specific users](/handbook/support/internal-support/#gitlab-changes-and-contacting-users), which are handled by a [group of volunteers within Support](https://gitlab.com/groups/gitlab-com/support/readiness/-/group_members?with_inherited_permissions=exclude).
+Between major releases, product or development may request our assistance [to contact specific users](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes), which are handled by a [group of volunteers within Support](https://gitlab.com/groups/gitlab-com/support/readiness/-/group_members?with_inherited_permissions=exclude).
 
 Each month, Support also organizes a [Release Review Party](https://drive.google.com/drive/u/0/search?q=Release%20Review%20-%20Support%20Team) (GitLab Internal only) to go over, demonstrate, and talk about new features or changes.
 

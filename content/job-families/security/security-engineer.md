@@ -385,23 +385,80 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 ### Security Architect
 
-This role reports directly to the CISO. Generally we would see this specialty to be filled at the Distinguished level. Distinguished engineers and Fellows have the widest sphere of influence and responsibility at the individual contributor level and as such may be asked to focus on high impacting focus areas. The security architect is a highly technical role responsible for planning, designing, testing, implementing and maintaining security strategy and solutions across the entire GitLab ecosystem. More specifically the responsibilities of this role include:
+Security Architects are responsible for the identification, assessment, prioritization, and reduction of systemic risks associated with the GitLab product and architecture. They lead the development and execution of the security strategy, roadmap, and standards to address complex security challenges across the GitLab ecosystem.
 
-- Define key architectural patterns, engineering practices and standards and drive them across the organization.
-- Work closely with other teams to develop and promote security architectures to protect microservices, serverless, containers, application development and operations practices
-- Maintain a deep understanding and application of security concepts at a technical level.
-- Responsible for providing security guidance to other team members in their design, implementation and support of new cloud architecture and automation technologies, as well as updates and maintenance of existing cloud and automation systems
-- Advocate, document and define security architecture vision from a strategic perspective, including internal and external platforms, tools, and systems
-- Contributes to the security of enterprise data and systems by developing enterprise information security solutions.
-- Creates and updates a view of IT assets, related attack surfaces, and threat actors to illustrate the flow of data and associated security threats.
-- Research, design, and develop new enterprise technologies, architectures, and security products that will support security requirements for the enterprise and its customers, business partners, and vendors.
-- Drive deep architectural discussions in a collaborative fashion to ensure solutions are designed for successful, automated deployment in the cloud, vendor, and on prem environments
-- Assist in the development of security technology roadmaps and end-of-life technology plans.
-- Contribute to, interpret, and disseminate information security policies, standards, and promote awareness of these artifacts to technical component owners.
-- Ensure compliance to information security practices & standards to reduce the likelihood of breaches, audit findings, regulatory, and legal liabilities
-- Analyzes business impact and exposure based on emerging security threats, vulnerabilities, and risks and contributes to the development and maintenance of information security architecture.
-- Engages with security specialists and other functional area architects to ensure adequate enterprise security solutions are in place to sufficiently mitigate identified risks, and to meet business objectives and regulatory requirements.
-- Responds to escalated cybersecurity issues for enterprise systems; facilitates advanced diagnosis and troubleshooting when necessary.
+Security Architects report to the Director of Security Platforms and Architecture within the Product Security Department. As Staff+ Security Engineers, they have a wide sphere of influence and responsibility, and they maximize their impact by working through and with others.
+
+Responsibilities
+
+- Lead the development and execution of the security strategy and roadmap to address complex security challenges at scale
+- Develop expert-level knowledge of GitLab’s platform architecture and perform comprehensive risk identification, assessment, and prioritization
+- Work cross-organizationally to create remediation plans for key security risks in the Product Security Risk Register
+- Lead the security architecture and design work for strategic initiatives, providing clear direction to cross-functional teams
+- Conduct security architecture reviews for large strategic projects
+- Drive continuous improvement of security architecture practices and patterns across the organization
+- Develop and communicate security standards to proactively enable teams to make sound security decisions and establish clear expectations for secure software delivery
+- Cultivate strong relationships across Product and Engineering to maintain visibility into major initiatives and drive security outcomes
+- Anticipate emerging security challenges and propose proactive architectural solutions
+- Provide expert guidance and mentorship to security engineers across the division
+
+Requirements
+
+- Demonstrated ability to translate complex security concepts into clear, actionable recommendations
+- Proven track record of driving complex security initiatives through cross-functional collaboration and influence
+- Deep expertise in risk assessment, secure system design, and threat modeling
+- Extensive experience securing modern application architectures and/or cloud platforms (AWS/Azure/GCP)
+- Strong understanding of DevSecOps practices and secure software delivery
+
+Nice to have
+
+- Demonstrated ability to quantify risk, develop metrics, and/or develop Key Risk Indicators for Product Security
+- Expertise in emerging technology, like AI
+- Understanding of security certifications, frameworks, and standards, like FedRAMP, ISO 27001, SOC 2, PCI-DSS, etc.
+
+### Product Security Risk & Metrics 
+
+A Product Security Risk & Metrics Engineer combines specialized focus on product security risk and metrics engineering. This position develops specialized Key Risk Indicators (KRIs), designs data collection systems, and creates visualizations that demonstrate security posture improvements, measure Product Security teams' strategic and operational effectiveness, and drive data-informed security decisions. This engineer also manages the Product Security Risk Register and drives cross-functional alignment among Security, Engineering, and Product stakeholders to ensure buy-in and commitment to risk reduction initiatives.
+
+The ideal candidate combines product security expertise, data analysis expertise, and strong stakeholder management skills to build frameworks that enhance visibility, prioritization, and progress tracking of our product security initiatives.
+
+Responsibilities:
+
+- Create and maintain Key Risk Indicators (KRIs) specifically designed to measure, monitor, and communicate product security risk levels
+- Engineer tracking systems and data visualizations that monitor remediation progress and provide visibility into risk reduction initiatives
+- Apply data analysis techniques to identify trends and patterns in product security risk data to inform proactive risk management
+- Design and implement robust metrics collection systems that accurately measure both strategic and operational effectiveness for all Product Security teams
+- Build and maintain the operational systems for the Product Security Risk Register, focusing on efficient workflows and data collection
+- Manage operational cadences including the monthly risk review process and action item tracking workflows
+- Facilitate cross-team collaboration to ensure risk reduction efforts are properly coordinated and tracked
+- Drive cross-functional alignment between Security, Engineering, Product, and other stakeholders to ensure buy-in and commitment to risk reduction initiatives
+- Work alongside the Security Risk Team to ensure product-specific risk tracking aligns with broader operational and enterprise risk management programs while maintaining distinct focus areas
+- Serve as the central coordinator for the Product Security Risk Register operations, related metrics collection, and stakeholder reporting within the Security Architecture team
+
+Requirements:
+
+- 5+ years of experience in product security, DevSecOps, security risk management, data analytics, or related technical roles
+- Demonstrated understanding of secure development practices and product security risks
+- Proven experience developing and implementing security metrics, KRIs, and risk dashboards that drive organizational outcomes 
+- Proven ability to translate complex security concepts into actionable data and visualizations
+- Proficiency with data visualization and analysis tools (e.g., Tableau, Power BI, or similar)
+- Proficiency in designing workflows and scalable labeling systems in development ticketing systems like GitLab, Jira, Asana, etc. 
+- Strong analytical skills with ability to collect, organize, and derive insights from complex data sets
+- Proven ability to manage cross-functional stakeholders, drive consensus, and navigate competing priorities
+- Excellent written and verbal communication skills with the ability to present complex data in accessible formats
+
+Nice-to-Have Qualifications:
+
+- Experience working directly with product and engineering teams on security initiatives
+- Familiarity with GitLab and its DevSecOps capabilities
+- Prior experience specifically with security risk registers or vulnerability management programs
+- Prior experience with threat modeling, security reviews, or pentesting
+- Experience with automation and scripting for data collection and reporting
+- Security certifications such as CISSP, CISM, CRISC, CRM, etc.
+- Project management certifications like PMP
+- Experience with risk assessment methodologies and frameworks such as NIST RMF, FAIR, ISO 31000, etc.
+- Knowledge of compliance frameworks such as FedRAMP, SOC 2, ISO 27001, PCI-DSS, TISAX, etc.
+- Experience working in a rapidly scaling technology company
 
 ## Security Engineer Hiring Process
 

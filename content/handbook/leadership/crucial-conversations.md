@@ -5,8 +5,6 @@ description: "GitLab's strategies for being an effective leader during crucial c
 
 Any synchronous or asynchronous engagement with team members may turn into a crucial conversation. At GitLab, we can develop the skills of sensing the tone of an async or sync conversation to uncover potential pain-points, risks, blockers, etc for team members. We need to find a way to create [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/#introduction) for our people. Using a 1-1 can be a great way to gain context on a situation a team member is facing and hold a crucial conversation.
 
-Team members can take a [crucial conversations training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/) led by the Learning and Development team.
-
 What is a Crucial Conversation: According to the [book](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328/), a conversation to be crucial is that the results of it could have a huge impact on the quality of your life. A conversation involving a promotion, performance, debate between coworkers, etc. In short crucial conversations are discussions between two or more people where:
 
 1. Stakes are high
@@ -35,7 +33,7 @@ At GitLab, there can be many instances where a crucial conversation is needed. W
 1. **Make It Safe:** Nothing kills dialogue faster than fear. When you make it safe, you can talk about almost anything and people will listen. If you spot safety risks as they happen, you can step out of the conversation, build safety, and then find a way to dialogue about almost anything.
 1. **Master Your Stories:** Learn to exert influence over your feelings by slowing down the storytelling process, take a step back, and retrace your path to action one element at a time.
 
-These are just a few strategies outlined in the Crucial Conversation book. We [highly recommend reading it](/handbook/leadership/#books) for leading teams at GitLab. Team members can also sign up to take our in-house [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/).
+These are just a few strategies outlined in the Crucial Conversation book. We [highly recommend reading it](/handbook/leadership/#books) for leading teams at GitLab.
 
 ## How Crucial Conversations align with GitLab Values
 
@@ -90,7 +88,7 @@ There are many different influencing strategies and in this section we are going
 
 Having crucial conversations via a Zoom call might be more difficult than having the conversation in person. These strategies are meant to identify what makes having crucial conversations in an all-remote environment challenging and things we can try to make the conversations more effective.
 
-1. Pre-populate your [1:1 meeting agenda]({{< ref "1-1" >}}) so that everyone can come prepared to have meaningful conversations. The ability to prepare ensures that everyone in the conversation knows the topics that will be discussed and can prepare in advance.
+1. Pre-populate your [1:1 meeting agenda](/handbook/leadership/1-1/) so that everyone can come prepared to have meaningful conversations. The ability to prepare ensures that everyone in the conversation knows the topics that will be discussed and can prepare in advance.
 1. In a video call, we might miss out on key body language markers that are more apparent when having conversations in person. Focus on the body language queues we can see. Does someone who typically uses video have their video off, or does someone turn their video off suddenly? Does the person seem to be looking away or looking down, avoiding the screen?
 1. If an async conversation is starting to get heated and is veering away from productive dialogue, move to a synchronous call to increase safety.
 1. Async conversations make it easier for us to hold off a response until emotions cool off, preventing a fight or flight response. This can be helpful in some cases but watch out for its detriments. It's important to speak up about projects or conversations that make you feel upset or unheard.
@@ -139,7 +137,6 @@ During the Manager Challenge Program, we asked GitLab Managers what they had to 
 
 Below are additional resources on influencing and leadership for you to review.
 
-- [Team Members: Take the Crucial Conversations Training at GitLab](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 - [What Great Leaders Know about Influence](https://www.forbes.com/sites/rebeccanewton/2016/07/27/six-steps-to-increase-your-influence/#5609705a1edd)
 - [Influencing Skills: A Key to Leadership Success!](https://www.linkedin.com/pulse/influencing-skills-key-leadership-success-marcia-zidle-ms-bcc/)
 - [Influencing Others: A Key Leadership Skill](https://www.ginaabudi.com/influencing-others-a-key-leadership-skill/)

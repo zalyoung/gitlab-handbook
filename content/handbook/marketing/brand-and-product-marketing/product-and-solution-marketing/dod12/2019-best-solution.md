@@ -14,7 +14,7 @@ GitLab fundamentally changes the way development, security, and ops teams collab
 
 DevOps toolchains are often complex, fragile, and expensive to maintain. Teams are further slowed by hand-offs and re-work. Across toolchains in a company, teams can be siloed by DevOps software that was supposed to help eliminate siloes.
 
-GitLab customers can have SCM, CI, security, and more in one browser window. They can minimize integrations and get back to releasing great software. GitLab CI and CD are truly continuous, speeding up releases and revenues. With one user experience, one permission model, and one conversation from portfolio management to production monitoring, companywide gains include visibility, collaboration, and speed — making good on the promise of DevOps.
+GitLab customers can have SCM, CI, security, and more in one browser window. They can minimize integrations and get back to releasing great software. GitLab CI and CD are truly continuous, speeding up releases and revenues. With one user experience, one permission model, and one conversation from portfolio management to production monitoring, company-wide gains include visibility, collaboration, and speed — making good on the promise of DevOps.
 
 ### A partner like no other
 
@@ -56,10 +56,10 @@ GitLab is a 2-time Gartner Peer Insights "Customers Choice" award winner, recent
 
 #### Analysts
 
-GitLab's unique breadth in DevOps has enabled us to enjoy similarly [broad coverage across analysts' categories and reports](/analysts/). A few highlights across the DevOps lifecycle include:
+GitLab's unique breadth in DevOps has enabled us to enjoy similarly [broad coverage across analysts' categories and reports](https://about.gitlab.com/analysts/). A few highlights across the DevOps lifecycle include:
 
 - [GitLab named 'Visionary' in Gartner's 2019 Enterprise Agile Planning Tool Magic Quadrant](https://about.gitlab.com/blog/2019/05/22/gitlab-identified-by-gartner-as-eapt-visionary/)
-- [Forrester named GitLab a leader in 2019 Wave for Cloud-Native Continuous Integration Tools](/analysts/forrester-cloudci19/)
+- [Forrester named GitLab a leader in 2019 Wave for Cloud-Native Continuous Integration Tools](https://about.gitlab.com/analysts/forrester-cloudci19/)
 - [Forrester recognized GitLab as a Challenger in 2019 Wave for Software Composition Analysis](https://about.gitlab.com/blog/2019/04/12/gitlab-is-an-sca-contender/)
 
 ### GitLab's vision

@@ -33,7 +33,7 @@ This onboarding still adheres to the sentiments of [self directed and continuous
 
 ### Support and our Single Source of Truth
 
-Since GitLab is a [handbook first](/handbook/company/culture/all-remote/handbook-first-documentation/) organization, the answer to any question you may have particularly throughout your first thirty days should be documented and readily available as this is our [Single Source of Truth (SSoT)](/handbook/values/#single-source-of-truth).
+Since GitLab is a [handbook first](/handbook/company/culture/all-remote/handbook-first/) organization, the answer to any question you may have particularly throughout your first thirty days should be documented and readily available as this is our [Single Source of Truth (SSoT)](/handbook/values/#single-source-of-truth).
 
 If you are unable to find the information you are looking for, please be sure to reach out to your Manager; Onboarding Buddy; People Connect Team member or the Field Enablement team for support by tagging them in the comments section of this [SA onboarding feedback issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2635). If you need to troubleshoot specific issues with tools, you can add a screenshot of the issue directly in the comment to help them diagnose the problem.
 
@@ -201,9 +201,9 @@ In order to be considered as having graduated from your role based onboarding jo
 In addition to onboarding enablement, continuous enablement will be available to you via micro-learning, job aids, just-in-time learning, and webinars.
 
 - [Customer Success Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/) is a biweekly webinar for the Customer Success and Solutions Architect teams on various technical topics
-- [Field Enablement Spotlight](/content/handbook.gitlab.com/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions take place weekly and cover topics relevant to the field
+- [Field Enablement Spotlight](/handbook/customer-success/csm/workshops/) sessions take place weekly and cover topics relevant to the field
 
-In additon to the above resources, you will also have access to [O'Reilly](https://learning.oreilly.com/home/), a learning platform accessible via Okta SSO.
+In addition to the above resources, you will also have access to [O'Reilly](https://learning.oreilly.com/home/), a learning platform accessible via Okta SSO.
 
 ## Feedback
 

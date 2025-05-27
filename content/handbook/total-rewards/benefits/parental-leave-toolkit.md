@@ -41,7 +41,7 @@ Some situations require a team member to start their leave immediately. Hearing 
 1. For anyone coming back to work there can be high levels of uncertainty on what to expect when they return; remember their time away was not a vacation. It is important that you set aside time on your calendar to connect with them on their first day back at work.
     - Check-in with them, see how they are feeling about the transition, and what support they may need from you.
 1. Make them feel welcome on their first day back and prepare/consider a small welcome back gift (flowers, small gift, sign/card from the team, etc.)
-1. Review the [Return from Leave]({{< ref "general-and-entity-benefits#returning-from-parental-leave" >}}) section below to prepare for your team member's first day/week back at work.
+1. Review the [Return from Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#returning-from-parental-leave) section below to prepare for your team member's first day/week back at work.
 1. Reach out welcoming them back. Share what they can expect on their first day back, and that you'll plan on meeting with them first thing on their first day back.
     - We want your team member to see a friendly face on their first day back, and feel comfortable as they return to work.
 
@@ -144,10 +144,10 @@ A nice way to celebrate a team member's new addition to their family is by hosti
 
 ## Team Member Tool Kit
 
-- Review our [parental leave benefits/policy]({{< ref "general-and-entity-benefits#parental-leave" >}})
+- Review our [parental leave benefits/policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
 - Slack channel to connect with other parents — `#intheparenthood` ([Join Slack channel](https://gitlab.slack.com/app_redirect?channel=intheparenthood) - *for GitLab team members only*)
-- Read the handbook section on [returning from parental leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) with tips for the transition back to work
-- Consider participating in the [**Your 4th Trimester program**]({{< ref "general-and-entity-benefits#return-to-work-resources" >}}), a 90-day coaching program to help parents transition back to work.
+- Read the handbook section on [returning from parental leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) with tips for the transition back to work
+- Consider participating in the [**Your 4th Trimester program**](/handbook/total-rewards/benefits/general-and-entity-benefits/#return-to-work-resources), a 90-day coaching program to help parents transition back to work.
 - Read [GitLab's guide to parenting as a remote worker](/handbook/company/culture/all-remote/parenting/)
 - Consider reaching out to a [Parental Leave Reentry Buddy](#parental-leave-reentry-buddies)
 - Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Do it All`:

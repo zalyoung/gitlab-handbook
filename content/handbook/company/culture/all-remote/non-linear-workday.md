@@ -44,7 +44,7 @@ Perhaps the most useful approach to describing a non-linear workday is to share 
 
 - By 3:00 PM, Darren and his family ski back to the car, refreshed after an exhilarating day. Given that they're departing the mountain before rush hour has any impact on traffic, they're back to their rental apartment by 3:30 PM.
 
-- After a shower and an early dinner, Darren logs back on to work at 4:30 PM, enthused to tackle ongoing projects and help move issues forward. But first, he shares a few photos he grabbed while skiing — something that is encouraged when you operate in a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture) and measure people on [impact, not activity](/handbook/company/culture/all-remote/remote-values/#results). Though working remotely with hundreds of colleagues across six continents, this deliberate approach to [informal communication](informal-communication/) creates personal bonds that are, in many ways, deeper than those formed in-office.
+- After a shower and an early dinner, Darren logs back on to work at 4:30 PM, enthused to tackle ongoing projects and help move issues forward. But first, he shares a few photos he grabbed while skiing — something that is encouraged when you operate in a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture) and measure people on [impact, not activity](remote-values/#results). Though working remotely with hundreds of colleagues across six continents, this deliberate approach to [informal communication](informal-communication/) creates personal bonds that are, in many ways, deeper than those formed in-office.
 
 - Because it's winter in Montana, it's fairly dark outside by 5:00 PM. Darren has maximized his daylight hours, and has time-shifted his working day to primarily occur during darkness. Given that he would likely be indoors during this time anyway, it's more conducive to work. There is no pull to leave and explore the outdoors when it is dark. Instead, it is an ideal time to work, despite the fact that resuming your work day while most others are ending theirs is incongruent with the conventional definition of routine.
 
@@ -84,7 +84,7 @@ Remote decouples routine from responsibility. Employees who enjoy being a [manag
 
 ### Juggling time zones
 
-Depending on where you and your teammates are primarily based, it may be a struggle to communicate well with others in a [different time zone](asynchronous/#asynchronous-work-is-more-inclusive).
+Depending on where you and your teammates are primarily based, it may be a struggle to communicate well with others in a [different time zone](asynchronous/#3-asynchronous-work-is-more-inclusive).
 
 ### Staying organized
 
@@ -168,7 +168,7 @@ The example detailed here would not have been possible without a few realities a
 
 - The company must work [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), such that all meaningful takeaways from conversations are documented in their proper place, around the clock.
 - The company must embrace [asynchronous workflows](asynchronous/) (including [tools like GitLab](https://about.gitlab.com/stages-devops-lifecycle/) as well as processes) in a deliberate, intentional, and thorough way.
-- The company must support a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture), which measures team members on [impact rather than activity](/handbook/company/culture/all-remote/remote-values/#results). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
+- The company must support a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture), which measures team members on [impact rather than activity](remote-values/#results). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
 - A personal dedication to being a [manager of one](/handbook/values/#managers-of-one), able to focus on the right tasks while working from a foreign environment.
 - An understanding that not every single day will look like this. Even masters of non-linear workdays recognize that some days are less amenable to midday excursions than others. Rather than being sour about that, embrace the thrill of it being possible at all, and put effort into structuring your upcoming schedule in a way that allows for such days. As a manager of one, you have to take control over (and be accountable for) your schedule. Otherwise, other forces of the world and work will control it for you.
 
@@ -178,7 +178,7 @@ In December of 2021, the Learning and Development team hosted [Dr. Krystal Wilki
 
  The obvious question when discussing such examples is this: "How do you leave work during a time when [meetings](meetings/) are most likely to be scheduled?"
 
-The not-so-obvious answer is: Create a workplace culture where meetings are a last resort, and ensure that unavoidable meetings can be [contributed to asynchronously](meetings/#have-an-agenda).
+The not-so-obvious answer is: Create a workplace culture where meetings are a last resort, and ensure that unavoidable meetings can be [contributed to asynchronously](meetings/#4-all-meetings-must-have-an-agenda).
 
 It bears repeating that not every single day will present itself as a natural, meeting-free day. However, the more intentional your company is about ruthlessly minimizing meetings, [separating decision gathering from decision making](management/#separating-decision-gathering-from-decision-making), and insisting that all work begin where it eventually needs to end up (e.g. in a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues/) or [merge request](https://about.gitlab.com/blog/2019/12/19/future-merge-requests-realtime-collab/), the more feasible it will be. You'll also realize benefits on the [mental health](mental-health/) front.
 
@@ -218,7 +218,7 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

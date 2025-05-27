@@ -122,7 +122,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
   - Read the [Handbook](/handbook/sales/)
   - Read the [Strategic Account Executive (Enterprise) Role Description](/job-families/sales/enterprise-account-executive/)
   - Read the [Account Executive (Mid-Market) Role Description](/job-families/sales/account-executive/)
-  - Read the [Customer Advocate (SMB) Role Description](/job-families/sales/smb-customer-advocate/)
+  - Read the [Customer Advocate (SMB) Role Description](/job-families/sales/smb-account-executive/)
   - Read the [Sales Development Representative Role Description](/job-families/marketing/sales-development-representative/)
 - **Solutions Architects (Material - Handbook - 15 minutes)**
   - GitLab's Solutions Architects (SAs) are trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements.

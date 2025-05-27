@@ -40,7 +40,7 @@ The TableauConMan tool is developed in house to assist in automating several asp
 
 ## User Management
 
-- **Main Site:** For the main site team members login using Okta.
+- **Main Site:** For the main site team members login using Okta. An Okta - Lumos integration manages Tableau Access Requests which includes review and approvals (performed automatically via Slack), and automated Provisioning and Deprovisioning. This also includes an automated deprovisioning due to inactivity for 90+ days.
 
 - **Public Site:** For the public site users login directly and do not use Okta.  The number of non viewer licenses on this site is limited so any active administration on the site should be done with the Analytics Service Account.
 

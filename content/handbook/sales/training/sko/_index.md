@@ -28,4 +28,4 @@ We will achieve this by creating an event that is:
 
 ## Sales Kickoff Planning
 
-For more information about the Sales Kickoff planning core team and process, see the [Sales Kickoff Planning](/handbook/sales/training/sko/SKO-planning/) page.
+For more information about the Sales Kickoff planning core team and process, see the [Sales Kickoff Planning](/handbook/sales/training/sko/sko-planning/) page.

@@ -689,17 +689,11 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $20,000
 
-#### Mid-Market Service Attach Opportunity Criteria
+#### Success Tiers Attach  
 
-IF:
+In FY26, we implemented a sales policy around the attachment of Success Tiers. For policy details, please read more on the dedicated Success Tiers HighSpot page [here](https://gitlab.highspot.com/items/661452f930a6998673c6d54b?lfrm=srp.0).
 
-1. Order Type 2.0 = `1. New - First Order`
-2. Net ARR >= `$20,000`
-3. Stamped Sales Segment = `Mid-Market`
-
-THEN:
-
-1. Minimum Professional Services Amount to Attach: $15,000
+Have questions? Please ping the [#success-tiers](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) Slack channel.
 
 #### Service Attach Quoting Process
 

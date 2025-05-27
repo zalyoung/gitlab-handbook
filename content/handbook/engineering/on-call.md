@@ -21,14 +21,14 @@ If you're a GitLab team member looking for help with a security problem, please 
 - Because GitLab is an asynchronous workflow company, @mentions of On-Call individuals in Slack will be treated like normal messages, and no SLA for response will be associated with them.
 - Provide support to the release managers in the release process.
 - As noted in the [main handbook](/handbook/people-group/paid-time-off/), after being on-call, make sure that you take time off. Being available for issues and outages can be taxing, even if you had no pages.  Resting after your on-call shift is critical for preventing burnout. Be sure to inform your team of the time you plan to take for time off.
-  - Team members in Australia should review the [Australia time in lieu policy]({{< ref "pty-benefits-australia" >}}).
+  - Team members in Australia should review the [Australia time in lieu policy](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/).
 - During on-call duties, it is the team member's responsibility to act in compliance with local rules and regulations. If ever in doubt, please reach out to your manager and/or [aligned People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division).
 
 ## Customer Emergency On-Call Rotation
 
 - We do 7 days of 8-hour shifts in a follow-the-sun style, based on your location.
 - After 10 minutes, if the alert has not been acknowledged, support management is alerted. After a further 5 minutes, *everyone* on the customer on-call rotation is alerted.
-- All tickets that are raised as emergencies will receive [the emergency SLA](https://about.gitlab.com/support/#priority-support). The on-call engineer's first action will be to [determine if the situation qualifies as an emergency]({{< ref "customer_emergencies_workflows#determine-if-the-situation-qualifies-as-an-emergency" >}}) and work with the customer to find the best path forward.
+- All tickets that are raised as emergencies will receive [the emergency SLA](https://about.gitlab.com/support/#priority-support). The on-call engineer's first action will be to [determine if the situation qualifies as an emergency](/handbook/support/workflows/customer_emergencies_workflows#determine-if-the-situation-qualifies-as-an-emergency) and work with the customer to find the best path forward.
 - After 30 minutes, if the customer has not responded to our initial contact with them, let them know that the emergency ticket will be closed and that you are opening a normal priority ticket on their behalf. Also let them know that they are welcome to open a new emergency ticket if necessary.
 - You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty. You can also opt to [subscribe to your on-call schedule](https://support.pagerduty.com/main/docs/schedules-in-apps#export-only-your-on-call-shifts), which is updated daily.
 - After each shift, *if* there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
@@ -73,11 +73,15 @@ In addition to incident management responsibilities, the EOC also is responsible
 - Development engineers do 4-hour shifts.
 - Engineering managers do monthly shifts as scheduling coordinators.
 - Check out [process description and on-call workflow](/handbook/engineering/development/processes/infra-dev-escalation/process/) when escalating GitLab.com operational issue(s).
-- Check out more detail for [general information](/handbook/engineering/development/processes/Infra-Dev-Escalation/) of the escalation process.
+- Check out more detail for [general information](/handbook/engineering/development/processes/infra-dev-escalation/) of the escalation process.
 
 ### Gitaly Engineer On-Call
 
 For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#on-call-rotation)
+
+### DBO On-Call
+
+For more details, see the [DBO escalation process](/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process)
 
 ## Security Team On-Call Rotation
 
@@ -88,7 +92,7 @@ For more details, see the [team page](/handbook/engineering/infrastructure-platf
 - You can view the [Security Operations schedule](https://gitlab.pagerduty.com/schedules#PYZC2CG) on PagerDuty.
 - When on-call, prioritize work that will make the on-call better (that includes building projects, systems, adding metrics, removing noisy alerts). Much like the Production team, we strive to have nothing to do when being on-call, and to have meaningful alerts and pages. The only way of achieving this is by investing time in trying to automate ourselves out of a job.
 - The main expectation when on-call is triaging the urgency of a page - if the security of GitLab is at risk, do your best to understand the issue and coordinate an adequate response. If you don't know what to do, engage the Security manager on-call to help you out.
-- More information is available in the [Security Operations On-Call Guide](/handbook/security/security-operations/secops-oncall/) and the [Security Incident Response Guide]({{< ref "sec-incident-response" >}}).
+- More information is available in the [Security Operations On-Call Guide](/handbook/security/security-operations/secops-oncall/) and the [Security Incident Response Guide](/handbook/security/security-operations/sirt/sec-incident-response/).
 
 ### Security Managers
 
@@ -98,13 +102,13 @@ For more details, see the [team page](/handbook/engineering/infrastructure-platf
 - The Security Manager on-call is responsible to engage alternative/backup SecOps Engineers in the event the primary is unavailable.
 - In the event of a high-impact security incident to GitLab, the Security Manager on-call will be engaged to assist with cross-team/department coordination.
 
-## Test Platform Team On-Call Rotation
+## Developer Experience Stage On-Call Rotation
 
-- Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation) page.
+- Developer Experience's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/testing/oncall-rotation/) page.
 - The rotation is on a weekly basis across 3 timezones (APAC, EMEA, AMER) and triage activities happen during each team member's working hours.
 - This on-call rotation is to ensure accurate and stable test pipeline results that directly affects our continuous release process.
-- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) page.
-- The schedule and roster is defined on our [schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) page.
+- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/testing/end-to-end-pipeline-monitoring/) page.
+- The schedule and roster is defined on our [schedule](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) page.
 
 ## PagerDuty
 

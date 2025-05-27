@@ -12,16 +12,21 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-- **Leslie Mendonca - Director, CRM Systems** GitLab handle: [lmendonca2](https://gitlab.com/lmendonca2) Slack handle: Leslie Mendonca
-- **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan] (https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
-- **Kiran B - Senior IT Enterprise Applications Engineer** GitLab handle: [kiranbsalesforce] (https://gitlab.com/kiranbsalesforce) Slack handle: @Kiran
+- **Kiran Chinthapalli - Director, CRM Systems**
+- **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan](https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
 - **Analissa "Ana" Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
+- **Andie Wheeler - IT Enterprise Applications Administrator** GitLab handle:[alwheel](https://gitlab.com/alwheel) Slack handle: @Andie Wheeler
 - **Brett Latham - Senior Business Systems Administrator** GitLab handle: [Dlatham](https://gitlab.com/Dlatham) Slack handle: @Brett Latham
 - **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
 - **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
 - **Pooja Chowdary Nayidi - IT Enterprise Applications Administrator** GitLab handle: [pnayidi](https://gitlab.com/pnayidi) Slack handle: @Pooja Chowdary Nayidi
+- **Korben Carreno - Manager, CRM Systems** GitLab handle: [kcarreno](https://gitlab.com/kcarreno) Slack handle: @Korben
+- **Christian Böhme - IT Enterprise Applications Engineer** GitLab handle: [chrisboehme](https://gitlab.com/chrisboehme) Slack handle: @Christian Böhme
+- **Deepak Kumar - IT Enterprise Applications Engineer** GitLab handle: [dkumarGitlab](https://gitlab.com/dkumarGitlab) Slack handle: @Deepak Kumar
+- **Devansh Devansh - IT Enterprise Applications Engineer** GitLab handle: [DDevansh](https://gitlab.com/DDevansh) Slack handle: @Devansh
+- **Harshit Bhandari - IT Enterprise Applications Engineer** GitLab handle: [hbhandari3](https://gitlab.com/hbhandari3) Slack handle: @Harshit
 
 ## Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
 
@@ -229,8 +234,8 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
-  - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
-  - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
+  - ["Start less, finish more"](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/#starting-new-work)
+  - ["Reduce Issue Churn"](/handbook/engineering/devops/ops/verify/runner)
 
 ### Steps to getting help from Sales Systems
 
@@ -272,29 +277,34 @@ The Business DRI should sign off after validating the provided solution works as
 
 Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department
 
-| Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
-|-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Operations                |
-| Territory Management        | Director, Sales Operations                  | Senior Director, Sales Operations                |
-| Partner Operations          | Sales Operations                            | Sales Operations                                 |
-| Customer Success Operations | Senior Director, CS Strategy & Operations   | VP of Field Operations                           |
-| Sales Operations            | Director, Sales Operations                  | Senior Director, Sales Operations                |
-| Deal Desk                   | Sr. Director, Deal Desk                     | Senior Director, Sales Operations                |
-| Professional Services       | Director, Professional Services             | VP of Professional Services & Education          |
-| Marketing Operations        | Director, Marketing Operations              | Senior Director, Marketing Strategy & Platforms  |
-| Sales Dev Operations        | Director, Sales Development Operations      | VP, Sales Development                            |
-| Sales Compensation          | Director, Sales Commissions                 | Senior Director, Sales Operations                |
-| Legal                       | Legal Compliance and Ethics                 | Senior Director, Legal, Corporate and Compliance |
-| Sales Systems               | Senior Manager, Sales Systems               | Senior Director, Enterprise Applications         |
-| Fulfillment                 | Director of Product, Fulfillment            | VP, Product Management                           |
+| Team / Lane                 | Main Approver                                                                                  | Backup Approver                                  |
+|-----------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Quote To Cash               | Director, Quote to Cash                                                                        | Senior Director, Sales Operations                |
+| Territory Management        | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
+| Ecosystems                  | Director, Sales Operations                                                                     | Senior Manager, Global Ecosystem Specialists     |
+| Customer Success Operations | Senior Director, CS Strategy & Operations                                                      | VP, Field Operations                             |
+| Sales Operations            | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
+| Deal Desk                   | Sr. Director, Deal Desk                                                                        | Senior Director, Sales Operations                |
+| Professional Services       | Director, Professional Services                                                                | VP, Professional Services & Education            |
+| Marketing Operations        | Director, Marketing Operations                                                                 | Senior Director, Marketing Strategy & Platforms  |
+| Sales Dev Operations        | Director, Sales Development Operations                                                         | VP, Sales Development                            |
+| Sales Compensation          | Director, Sales Commissions                                                                    | Senior Director, Sales Operations                |
+| Legal                       | Director, Legal Compliance and Ethics                                                          | VP, Legal                                        |
+| Sales Systems               | Senior Manager, Sales Systems                                                                  | Senior Director, Enterprise Applications         |
+| Fulfillment                 | Group Manager, Fulfillment                                                                     | VP, Product Management                           |
+| Data                        | Director, Data Analytics                                                                       | VP, Data & Analytics                             |
 
 #### [Systems Owner] Systems Owner Sign-off
 
 Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
 
-| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
-|-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
+| Main Approver                                         | Backup Approver                                                       |
+|-------------------------------------------------------|-----------------------------------------------------------------------|
+| Sheela Viswanathan - Senior Manager, Sales Systems    | Nabitha Rao - VP, IT                                                  |
+| Korben Carreno - Manager, CRM Systems                 | Raul Pavon - Director Enterprise architecture and Applications        |
+| Kiran Chinthapalli - Director, CRM Systems            | Nishanth Sekhar - Director, Enterprise Applications (Lead to Cash)    |
+|                                                       | Monali Bhide - Manager, IT Enterprise Applications Engineering        |
+|                                                       | Pratik Gupta - Manager, IT Enterprise Applications Engineering        |
 
 #### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 

@@ -42,11 +42,11 @@ In areas where defined working hours are required by the role or client, great r
 
 ### 3. Is most communication about work done asynchronously?
 
-There are [valid reasons](asynchronous/#best-practices-guidelines-and-async-feature-set) to work synchronously. Communicating *about work* is best done asynchronously. This includes status updates, FYIs, process documentation (e.g. how to [alert your security team about a suspected phishing attempt](/handbook/security#what-to-do-if-you-suspect-an-email-is-a-phishing-attack)). It also includes *meeting about a meeting*.
+There are [valid reasons](asynchronous/#best-practices-guidelines-and-async-feature-set) to work synchronously. Communicating *about work* is best done asynchronously. This includes status updates, FYIs, process documentation (e.g. how to [alert your security team about a suspected phishing attempt](/handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack)). It also includes *meeting about a meeting*.
 
 Prerequisites for this to work well are below.
 
-1. Leveraging a single tool to funnel communication about work (e.g. [GitLab](/handbook/product/gitlab-the-product), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com))
+1. Leveraging a single tool to funnel communication about work (e.g. [GitLab](/handbook/product/categories/gitlab-the-product/), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com))
 1. Documented [communication guidelines](/handbook/communication/) on how and where to communicate about work
 1. Executive commitment to [transparency](/handbook/values/#transparency)
 
@@ -58,7 +58,7 @@ It's not enough to have core values documented on a company website. Each core v
 
 ### 5. Does every functional department surface work in a single tool with company-wide visibility?
 
-Different company functions may require different tools to drive results. For example, a Design team may use MURAL, Figma, and Photoshop, while a Marketing Operations team leverages tools like Salesforce and Marketo. Great remote organizations leverage a single tool (e.g. [GitLab](/handbook/product/gitlab-the-product), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com)) to surface work that is happening in department-specific tools. By surfacing ongoing work, via links or other documentation, this central tool acts as organizational glue. It enables a distributed team to discover what other teams are working toward with clicks instead of meetings. This intentional transparency fosters alignment, purpose, and enables feedback to occur earlier.
+Different company functions may require different tools to drive results. For example, a Design team may use MURAL, Figma, and Photoshop, while a Marketing Operations team leverages tools like Salesforce and Marketo. Great remote organizations leverage a single tool (e.g. [GitLab](/handbook/product/categories/gitlab-the-product/), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com)) to surface work that is happening in department-specific tools. By surfacing ongoing work, via links or other documentation, this central tool acts as organizational glue. It enables a distributed team to discover what other teams are working toward with clicks instead of meetings. This intentional transparency fosters alignment, purpose, and enables feedback to occur earlier.
 
 ### 6. Does your organization work handbook-first?
 
@@ -76,21 +76,21 @@ Absent [communication guidelines](/handbook/communication/), colocated organizat
 
 ### 9. Does each team member call/collaborate with their own equipment?
 
-A [hybrid call](meetings/#avoid-hybrid-calls) is one that has a mix of participants in the same physical room, together with others who are remote. Hybrid calls should be avoided, as it's better to have everyone on a level playing field for communication and discussion. If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room.
+A [hybrid call](meetings/#7-avoid-hybrid-calls) is one that has a mix of participants in the same physical room, together with others who are remote. Hybrid calls should be avoided, as it's better to have everyone on a level playing field for communication and discussion. If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room.
 
 ### 10. Do you have a documented and defined in-person strategy?
 
-Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](/handbook/company/culture/all-remote/remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](in-person/), even if they're optional for team members.
+Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](in-person/), even if they're optional for team members.
 
 Quarterly or bi-annual retreats, annual company-wide gatherings, in-person onboarding cohorts, and budgets for ad hoc in-person moments are just a few examples. Great remote organizations recognize that people do not need to spend hours each day commuting to see one another every 24 hours, but budgeting for *strategic* in-person gatherings are useful for bolstering culture and building rapport.
 
 ### 11. Do you hire, praise, and promote on values alignment and results?
 
-Great remote organizations actively work against [proximity bias](https://web.archive.org/web/20230603111443/https://www.protocol.com/workplace/proximity-bias-hybrid-work) by utilizing praise and promotion tactics rooted in [values alignment](/handbook/values/#culture-fit-is-a-bad-excuse). A boring solution to encourage this is the use of a [promotion document](/handbook/people-group/promotions-transfers#general-promotion-document-template) which requires a manager detail how an individual has exemplified company values.
+Great remote organizations actively work against [proximity bias](https://web.archive.org/web/20230603111443/https://www.protocol.com/workplace/proximity-bias-hybrid-work) by utilizing praise and promotion tactics rooted in [values alignment](/handbook/values/#culture-fit-is-a-bad-excuse). A boring solution to encourage this is the use of a [promotion document](/handbook/people-group/promotions-transfers/#promotion-document) which requires a manager detail how an individual has exemplified company values.
 
 ### 12. Do you fund individual workspaces and reimburse for out-of-home office use?
 
-Great remote organizations recognize that there are more than two places to work. While "the office" and "home" are two options, the third space is vast. Platforms such as [Codi](https://www.codi.com), [Gable](https://www.gable.to), and [Switchyards](https://switchyards.com) exist to support these arrangements. Enabling team members to [submit for reimbursement](/handbook/finance/expenses#-coworking-or-external-office--space) for coworking or external office space indicates that an organization is so sure of its remote-first workflows that it is comfortable empowering people to work from a variety of spaces.
+Great remote organizations recognize that there are more than two places to work. While "the office" and "home" are two options, the third space is vast. Platforms such as [Codi](https://www.codi.com), [Gable](https://www.gable.to), and [Switchyards](https://switchyards.com) exist to support these arrangements. Enabling team members to [submit for reimbursement](/handbook/finance/expenses/#co-working-space) for coworking or external office space indicates that an organization is so sure of its remote-first workflows that it is comfortable empowering people to work from a variety of spaces.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -98,7 +98,7 @@ Great remote organizations recognize that there are more than two places to work
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

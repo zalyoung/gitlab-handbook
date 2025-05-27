@@ -90,7 +90,7 @@ Limiting your company's recruiting pipeline to a certain geographic region, or s
 
 Not only does this create a less [inclusive](/handbook/company/culture/inclusion/) hiring process which reaches a less diverse set of candidates, it forces your organization to compete primarily on the basis of [salary](https://www.lhh.com/us/en/insights/2024-salary-guide/).
 
-1. You're able to hire great people [no matter where they live]({{< ref "handbook/people-group/employment-solutions#country-hiring-guidelines" >}}).
+1. You're able to hire great people [no matter where they live](/handbook/people-group/employment-solutions#country-hiring-guidelines).
    - GitLab has a truly global footprint, with team members in [65+ countries](/handbook/company/team).
 1. Employees are [more productive with fewer distractions](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr/), so long as leadership is supportive in equipping teams with the requisite tools, structure, and culture to thrive.
    - For example, GitLab has a KPI of [65 tickets closed per support staff per month](/handbook/support/performance-indicators#average-daily-tickets-closed-per-support-team-member).
@@ -153,7 +153,7 @@ Employees are [more productive with fewer distractions](https://about.gitlab.com
 
 ## Challenges to consider before embracing remote work
 
-Despite [all-remote having many advantages](benefits/), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we've outlined [potential drawbacks and solutions to these challenges here](drawbacks/).
+Despite [all-remote having many advantages](remote-benefits/), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we've outlined [potential drawbacks and solutions to these challenges here](drawbacks/).
 
 ## Which is right for your organization?
 
@@ -193,7 +193,7 @@ Click around to learn more about what "all-remote" really means, [how it works a
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

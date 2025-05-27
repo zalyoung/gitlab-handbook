@@ -69,14 +69,15 @@ In September 2021, the Company's board of directors and its stockholders approve
 1. Must be actively employed at the beginning of the Offering Period to enroll
 1. Must be actively employed on the last date of the Purchase Period to be able to purchase
 1. Eligible ESPP GitLab Entities
-   - Canada Corp (Canada)
-   - GmbH (Germany)
-   - BV (Netherlands/Belgium/Finland)
-   - Inc. & Federal (United States)
-   - Ltd (United Kingdom)
-   - PTY Ltd (Australia/New Zealand)
-   - Ireland Ltd (Ireland) - as of 2023-06-01
-   - BV (Finland)  - as of 2023-06-01
+   - GITLAB CANADA CORP. (Canada)
+   - GitLab GmbH (Germany)
+   - GitLab B.V. (Netherlands/Belgium/Finland)
+   - GitLab Inc. (US)
+   - GitLab Federal, LLC (US)
+   - GitLab UK Limited (United Kingdom)
+   - GITLAB PTY LTD (Australia/New Zealand)
+   - GITLAB IRELAND LIMITED (Ireland)
+   - Gitlab France S.A.S. (France)  - as of 2025-06-01
 
 ### Changing Contribution Amounts
 
@@ -182,13 +183,27 @@ If you would like to purchase GTLB shares, this must be done through your E*TRAD
 
 ## Questions about your stock plan or retail account
 
-### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908)
+### E-TRADE Team Member Education Sessions
+
+Equity 101: What You Need to Know About Your GitLab Restricted Stock Units (RSUs)
+
+- [U.S. Session](https://event.on24.com/wcc/r/4817306/66F275B4A35533D70C449F856A68855A)
+- [Non U.S. Session](https://event.on24.com/wcc/r/4817304/5BC09EC01FAD3764137335C6AB4B8E8F)
+- [Deck](https://www.morganstanley.com/cs/pdf/U-S-EQUITY-101-GTLB-2025.pdf) with U.S. and Non U.S. materials attached
+
+### E-TRADE Securities Customer Service
+
+- US Contact 12 a.m. Monday to 11:59 p.m. Friday ET  Closed holidays  (800-838-0908)
+- Non-US local country contact phone numbers are found [here](https://us.etrade.com/e/t/home/contactus_esp)
+
+**Customer Service can assist with**
 
 - Activating your account
 - Navigating the Stock Plan section of etrade.com
 - Finding tax information
 - Disbursing cash from and depositing cash to your brokerage account
 - Buying and selling securities in your brokerage account
+- Questions on the portal 
 
 ### Option Expiration
 

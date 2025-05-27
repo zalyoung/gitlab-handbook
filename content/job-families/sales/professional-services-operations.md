@@ -371,7 +371,7 @@ Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compen
 
 ## Performance Indicator
 
-- [CSAT](/handbook/support/support-ops/#customer-satisfaction-survey-csat ) >8.0/10
+- [CSAT](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/) >8.0/10
 - [Project Margin](/handbook/customer-success/professional-services-engineering/#long-term-profitability-targets ) > 20% for assigned projects
 - Successfully manage the quarterly Education Services revenue forecast within a 5% margin
 
@@ -384,7 +384,7 @@ Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compen
 Candidates can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Qualified candidates for the Professional Services Project Manager will receive a short questionnaire.
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with a member of our Recruiting team.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with a member of our Recruiting team.
 - Next, candidates will be invited to schedule a first interview with our Director of Customer Success.
 - For the Professional Services Project Manager role, candidates will be invited to schedule an interview with a Customer Success peer and may be asked to participate in a demo of a live install of GitLab.
 - For the Federal Professional Services Project Manager role, candidates will be invited to schedule interviews with members of the Customer Success team and our Federal Regional Sales Director.

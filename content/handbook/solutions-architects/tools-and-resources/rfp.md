@@ -80,3 +80,7 @@ The customer may ask for a description of the CI process or other complex proces
 - If specific requirements are expected to be answered by the response, add notations to the requirement number being met within the text of the response: Example, "GitLab's SAST scanner will analyze your source code for known vulnerabilities (Req 1.a.1)"
 - Use customer terminology wherever possible
 - Include relevant customer use cases whenever possible
+
+### Links to Completed RFPs
+
+For Gitlab Team members, please see [list here](https://internal.gitlab.com/handbook/solutions-architecture/rfp/).

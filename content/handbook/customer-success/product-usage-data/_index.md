@@ -122,4 +122,4 @@ The collection and use of operational data will governed in accordance with the 
 - [Product Usage in Gainsight FAQ Guide](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
 - [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html)
 - [Analytics Instrumentation Overview](/handbook/product/product-processes/analytics-instrumentation-guide/) (details on operational data)
-- [Email Marketing Data Mart](/handbook/enterprise-data/data-catalog/email-data-mart/)
+- [Email Marketing Data Mart](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/email-data-mart/)

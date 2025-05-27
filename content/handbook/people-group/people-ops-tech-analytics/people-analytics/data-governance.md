@@ -20,7 +20,7 @@ Data security is essential to protect the privacy and confidentiality of team me
 
 ### Data Ownership
 
-Data ownership involves defining roles and responsibilities for managing data. It includes identifying data stewards and data custodians and defining their responsibilities for managing data. At GitLab, we use the [Data Champion program](/handbook/enterprise-data/direction/data-champion/) as a way to share data ownership between the Functional Teams, in this case the People Analytics team, and the central Data Team.
+Data ownership involves defining roles and responsibilities for managing data. It includes identifying data stewards and data custodians and defining their responsibilities for managing data. At GitLab, we use the [hub and spoke model](/handbook/enterprise-data/#how-data-teams-work-together) as a way to share data ownership between the Functional Teams, in this case the People Analytics team, and the central Data Team.
 
 ### Data Retention
 
@@ -65,7 +65,7 @@ When these fields are loaded into the warehouse, the Data Team uses a [type 1 or
 
 ### Access to People Data in Business Intelligence Software
 
-As part of our [self-service data program](/handbook/enterprise-data/direction/self-service/), all GitLab team members have access to all pre-built dashboards in Sisense. People Data is considered sensitive and it is therefore not readily available in Sisense by default. You can read more about this topic in our [Data Storage section](/handbook/enterprise-data/platform/#data-storage).
+As part of our data program,  GitLab team members can have access to pre-built dashboards in Sisense. People Data is considered sensitive and it is therefore not readily available in Tableau by default. You can read more about this topic in our [Data Storage section](/handbook/enterprise-data/platform/#data-storage).
 
 However, in the current business landscape, data is the key to unlock insights and make informed decisions. The same principle applies to people data, where people analytics plays a critical role in driving organizational success.
 

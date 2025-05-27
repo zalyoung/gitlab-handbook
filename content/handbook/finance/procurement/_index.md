@@ -54,7 +54,7 @@ All vendors must adhere to the [GitLab Partner Code of Ethics](/handbook/legal/p
 
 Depending on the amount of spend, Procurement will assist or lead in negotiating the pricing and commercial terms of the contract.
 
-Depending on the types of data shared with the vendor, Privacy and Security will need to complete a review of the vendor. Depending on nature of vendor's services and/or whether the vendor has been recommended to us, the Ethics and Compliance team will need to complete an anticorruption/antibribery review and, potentially, recommend additional measures to mitigate that risk. 
+Depending on the types of data shared with the vendor, Privacy and Security will need to complete a review of the vendor. Depending on nature of vendor's services and/or whether the vendor has been recommended to us, the Ethics and Compliance team will need to complete an anticorruption/antibribery review and, potentially, recommend additional measures to mitigate that risk.
 
 For more information on these requirements and steps, see the [Review Steps, Timeline, and Considerations section](#review-steps-timeline-and-considerations)
 
@@ -143,6 +143,10 @@ Depending on a few factors of your purchase, there are different ways to engage 
    1. $25K - $100K: Business led quick-bid, 2 vendor bids required
    1. Under $25K: no bid required
 
+### Hiring a Contingent Worker?
+
+If you're hiring a contingent worker, please read GitLab's [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/), which provides comprehensive guidelines on engaging with different types of contingent workers. The policy outlines three main categories: Staff Augmentation Workers (agency-provided temporary resources), Consultancy Services (third-party professional services), and Independent Contractors (used by exception only). You'll find detailed information about each worker type's characteristics, duration limits, country hiring guidelines, contractor extension processes, and background screening requirements. This policy is designed to help team members understand when and how to properly engage contingent workers while mitigating classification risks.
+
 ### Review Steps, Timeline, and Considerations
 
 Requests can take 5 days to 3+ weeks for processing depending on a number of factors that will impact the time for review of a Purchase Request including, but not limited to:
@@ -157,8 +161,8 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 #### 1. Sanctions Screening (Ethics & Compliance): 30 minutes - 3+ Days, if required
 
-- Use the vendor’s complete name in your Zip request, as this will be the basis for sanctions screening which automatically happens in our sanctions screening tool, Risk Rate. Incomplete names (e.g., "EY Germany" rather than "Ernst and Young GmbH") may result in false positives and unnecessary delay. 
-- If Risk Rate detects no matches between the vendor and applicable sanctions lists AND the vendor is not located in a high-risk country, the vendor will be auto-approved. If Risk Rate detects a potential match or is located in a high risk country, the vendor may require escalation to and manual review by GitLab's Trade Compliance Counsel. 
+- Use the vendor’s complete name in your Zip request, as this will be the basis for sanctions screening which automatically happens in our sanctions screening tool, Risk Rate. Incomplete names (e.g., "EY Germany" rather than "Ernst and Young GmbH") may result in false positives and unnecessary delay.
+- If Risk Rate detects no matches between the vendor and applicable sanctions lists AND the vendor is not located in a high-risk country, the vendor will be auto-approved. If Risk Rate detects a potential match or is located in a high risk country, the vendor may require escalation to and manual review by GitLab's Trade Compliance Counsel.
 - Include the vendor’s website or LinkedIn page in the relevant Zip field, in advance, to help counsel evaluate the match more quickly.
 
 #### 2.A. Buyer Review (Procurement): 2 days
@@ -224,14 +228,14 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 #### 4.D. Compliance Review: 4-14 Days
 
-- The first page of the Zip request includes anticorruption gating question (e.g., will the vendor interact with government agencies on our behalf, was this vendor recommended by a government official, etc.). If the answer to any of these questions is “yes,” the Ethics & Compliance team must consider whether the vendor presents unacceptably high compliance risk. 
-- To do this, the Ethics & Compliance team will conduct additional due diligence, which may, in part, consist of sending a questionnaire directly to the vendor. This questionnaire asks about the vendor’s ownership and history with applicable regulatory agencies, to better understand the risk, and asks whether the vendor has an anticorruption program in place, to understand whether the vendor has already taken measures to mitigate that risk. Turnaround time largely depends on the vendor's responsiveness. 
-- When risk is present, the Ethics & Compliance team will consider whether anything can be done to mitigate that risk. Risk mitigation could, for example, consist of additional provisions in the vendor agreement. 
+- The first page of the Zip request includes anticorruption gating question (e.g., will the vendor interact with government agencies on our behalf, was this vendor recommended by a government official, etc.). If the answer to any of these questions is “yes,” the Ethics & Compliance team must consider whether the vendor presents unacceptably high compliance risk.
+- To do this, the Ethics & Compliance team will conduct additional due diligence, which may, in part, consist of sending a questionnaire directly to the vendor. This questionnaire asks about the vendor’s ownership and history with applicable regulatory agencies, to better understand the risk, and asks whether the vendor has an anticorruption program in place, to understand whether the vendor has already taken measures to mitigate that risk. Turnaround time largely depends on the vendor's responsiveness.
+- When risk is present, the Ethics & Compliance team will consider whether anything can be done to mitigate that risk. Risk mitigation could, for example, consist of additional provisions in the vendor agreement.
 
 #### 4.E. PeopleOps Review: 1-4 Days
 
 - PeopleOps serve as reviewers on all professional services requisitions to determine if a background screening is necessary.
-- Per GitLab's [People Policies](/handbook/people-policies/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
+- Per GitLab's [People Policies](/handbook/people-group/contracts-probation-periods/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
 - A background screening can be requested by opening an issue in the [Lifecycle Management](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) project by using the `background_check_request` template.
 - Approval will occur once proof of a completed or an initiated background screening has been shared or once the contractor has submitted their background screening for processing.
 - The Sr. Background Check Specialist will only follow up if a result of concern returns on the background screening.
@@ -373,7 +377,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 - [Uploading Third Party Contracts to ContractWorks](/handbook/legal/vendor-contract-filing-process/)
 - [Company Information](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) - general information about each legal entity of the company
 - [Trademark](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines) - information regarding the usage of GitLab's trademark
-- [Authorization Matrix]({{< ref "authorization-matrix" >}}) - the authority matrix for spending and binding the company and the process for signing legal documents
+- [Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) - the authority matrix for spending and binding the company and the process for signing legal documents
 
 #### Other Services
 

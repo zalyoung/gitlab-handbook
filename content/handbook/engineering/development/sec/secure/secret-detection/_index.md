@@ -31,7 +31,7 @@ Below are the steps to add the calendar to Time Off by Deel:
 
 ## How We Work
 
-The Secret Detection group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development-flow/), however there are some notable differences in
+The Secret Detection group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development/product-development-flow/), however there are some notable differences in
 how we seek to deliver software. The engineering team predominantly concerns itself with the delivery of software, which is the portion of the workflow states where
 we deviate the most. What follows is how we manage the handoff from product management to engineering to deliver software.
 
@@ -60,7 +60,7 @@ use these labels to filter issues meant for us on our issue boards. They are als
 
 #### Refinement
 
-We have recently experimented with a new refinement process when refining the issues for the [Pre-receive SD beta/.com epic](https://gitlab.com/groups/gitlab-org/-/epics/12729). This process draws a lot of inspiration from other sections/stages but also aligns with the current [Secure Engineering Refinement](/handbook/engineering/development/sec/secure/workflow).
+We have recently experimented with a [new refinement process](/handbook/engineering/development/sec/secure/planning/#refinement) when refining the issues for the [Secret Push Protection Beta epic](https://gitlab.com/groups/gitlab-org/-/epics/12729). This process draws a lot of inspiration from other sections/stages but also aligns with the current [Secure Engineering Refinement](/handbook/engineering/development/sec/secure/planning).
 
 Following a set of [discussions and feedback](https://gitlab.com/gitlab-org/secure/general/-/issues/306) of said process, we have decided to make the improved refinement process a part of our software delivery workflow.
 

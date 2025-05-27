@@ -97,14 +97,11 @@ volunteer contributors.
 
 ### Working on GitLab EE (developer licenses)
 
-GitLab EE requires a license key to be used.
+GitLab EE requires an active license key.
 
-Team members should file a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting
-"Request a team member license" from the drop down options.
+GitLab team members can follow [these instructions](/handbook/support/internal-support/#gitlab-plan-or-license-for-team-members) to acquire or renew a license.
 
 Wider community members should contact the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows#contributing-to-the-gitlab-enterprise-edition-ee).
-
-[Learn more about working with licensing and subscriptions internally.](/handbook/support/internal-support/)
 
 ### Ruby Gems
 

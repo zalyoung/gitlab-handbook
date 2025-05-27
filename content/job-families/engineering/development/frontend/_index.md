@@ -105,7 +105,7 @@ The Senior Frontend Engineer role extends the [Frontend Engineer](#requirements)
 
 ---
 
-A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/career-development#engineering) for more detail.
+A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/careers/) for more detail.
 
 **Note:** Staff and above positions at GitLab are more of a role than just a "level". We prefer to bring people in as Senior and let the team elevate them to Staff due to an outstanding work history within GitLab.
 
@@ -133,7 +133,7 @@ The Staff Frontend Engineer role extends the [Senior Frontend Engineer](#senior-
 Candidates for a Frontend Engineering position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Selected candidates will be invited to complete a short written assessment.
-- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with either a Frontend Engineer or a Frontend Hiring Manager
 - Next, candidates will be invited to schedule a 45 minute behavioral interview with a Frontend Hiring Manager
 - Candidates will then be invited to schedule a 60 minute interview with a Director of Engineering

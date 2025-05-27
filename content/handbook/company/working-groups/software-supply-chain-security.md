@@ -26,7 +26,7 @@ At a high level, this working group plans on making it possible for signing to h
 
 Some of these links may provide useful background for the working group:
 
-- [SLSA framework requirements](https://slsa.dev/spec/v0.1/requirements)
+- [SLSA framework requirements](https://slsa.dev/spec/v1.0/requirements)
 - [OpenSSF's SLSA verifier](https://github.com/slsa-framework/slsa-verifier)
 - [Sigstore Cosign project](https://github.com/sigstore/cosign)
 - [Sigstore Fulcio project](https://github.com/sigstore/fulcio)
@@ -84,7 +84,7 @@ What we acheived:
 
 A prioritized list of work will be tracked here after an engineering DRI has been identified.
 
-{{< product-priorities/software-supply-chain-security-wg >}}
+{{< product/product-priorities software-supply-chain-security-wg >}}
 
 This list is a WIP and we are still working to add a list of prioritized Epics to deliver on the rest of the exit criteria for the group.
 

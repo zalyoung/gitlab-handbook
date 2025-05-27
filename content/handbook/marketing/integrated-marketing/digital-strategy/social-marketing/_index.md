@@ -426,9 +426,9 @@ Each campaign/theme executed on the Instagram Brand Channel should include hasht
 
 </details>
 
-### YouTube <a name="youtube"></a>
+### YouTube
 
-The social media team does not manage GitLab's YouTube presence. Please reach out to [the digital production team](/handbook/marketing/brand-and-product-marketing/content/digital-production/).
+The social media team does not manage GitLab's YouTube presence. Please reach out to Brand Video Team using the #brand_video Slack channel.
 
 ## Social Media Design
 

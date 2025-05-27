@@ -7,15 +7,15 @@ description: Basic process on troubleshooting Service Desk within GitLab.com.
 
 ## Overview
 
-Users can experience various issues while utilizing [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/). This guide walks through troubleshooting when an email does not generate a Service Desk issue.
+Users can experience various issues while utilizing [Service Desk](https://docs.gitlab.com/user/project/service_desk/). This guide walks through troubleshooting when an email does not generate a Service Desk issue.
 
 See also, the [Service Desk runbook doc](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/service_desk).
 
 ## Troubleshooting Steps
 
 1. When an issue related to Service Desk is received, verify with the customer these common occurrences are not applicable:
-    1. [Attachments cannot be over 100MiB](https://docs.gitlab.com/ee/user/gitlab_com/index.html#account-and-limit-settings)
-    1. [Emails with `Auto-Submitted` or `X-Autoreply` in the header are ignored](https://docs.gitlab.com/ee/administration/incoming_email.html#rejected-headers)
+    1. [Attachments cannot be over 100MiB](https://docs.gitlab.com/user/gitlab_com/#account-and-limit-settings)
+    1. [Emails with `Auto-Submitted` or `X-Autoreply` in the header are ignored](https://docs.gitlab.com/administration/incoming_email/#rejected-headers)
     1. See the [Participants in Service Desk](https://gitlab.com/groups/gitlab-org/-/epics/3758) epic for known limitations.
 
 1. If known issues above are not the cause, request the following from the user:

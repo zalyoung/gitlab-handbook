@@ -111,7 +111,7 @@ All FY22 Marketing budgets are loaded into Allocadia. Please refer to the [Alloc
 - <b>[Prescriptive Buyer Journey](/handbook/marketing/prescriptive-buyer-journeys/)</b>: content aligned to buyer journey stages, leveraged in email nurture, digital marketing, and more
 - <b>[Project Compass](/handbook/marketing/plan-fy22/#project-compass)</b>:
 - <b>[LAM](/handbook/sales/sales-term-glossary/)</b>: Landed Addressable Market; annual revenue opportunity of the entirety of GitLab's market within our current customer base
-- <b>[ICP](/handbook/marketing/account-based-marketing/ideal-customer-profile/)</b>: Ideal Customer Profile; description of our "perfect" customer company, taking into consideration firmographic, environmental and additional factors to develop our focus list of highest value accounts
+- <b>ICP</b>: Ideal Customer Profile; description of our "perfect" customer company, taking into consideration firmographic, environmental and additional factors to develop our focus list of highest value accounts
 - **FIT Score**: a mathematical representation of how well a prospective customer fits within your ICP (ideal customer profile)
 
 ## GTM Motions {#gtm-motions}

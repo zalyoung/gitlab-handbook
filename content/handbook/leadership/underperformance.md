@@ -100,7 +100,7 @@ The expectation is that all team members are provided coaching and feedback prio
 
 ## Coaching
 
-[Coaching]({{< ref "coaching" >}}) is the preferred option to deal with underperformance and is the first step in addressing performance issues.
+[Coaching](/handbook/leadership/coaching/) is the preferred option to deal with underperformance and is the first step in addressing performance issues.
 
 Managers are expected to address performance concerns (skill-based or will-based) in a timely manner. Managers should address concerns verbally during one-on-one meetings or in impromptu private coaching sessions with their team members. These conversations must be documented by the manager and shared with the team member so that both have access  to the record of the discussion and are in alignment on where improvements need to be made and within a specified timeframe. Documentation should be brief (a few key bullet points or a paragraph), and will normally be sent via email to the team member following the verbal discussion. See the example coaching email below:
 

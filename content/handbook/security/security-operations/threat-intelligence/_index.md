@@ -95,8 +95,9 @@ RFIs allow GitLab team members to request our help in analyzing threats and maki
 
 Some examples where an RFI can provide value:
 
-- Investigating active security incidents
+- Investigating active security incidents and exposure to third-party breaches
 - Decisions on product security features and functionality
+- Helping draft threat-informed communications about GitLab security decisions
 - Third-party vendor and product evaluations
 
 Supporting S1 incidents will always take priority over all other work.
@@ -151,3 +152,4 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 ## Additional Resources
 
 - [Threat Intelligence Templates](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates): Public template repository for reports, RFIs, etc.
+- [Annual Threat Intelligence Reports](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence/threat-intelligence-resources/awesome-annual-security-reports): Internal mirror of publicly-available annual threat intelligence reports - team members can subscribe for updates.

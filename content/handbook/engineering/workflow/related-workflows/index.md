@@ -12,7 +12,7 @@ The diagram below shows how these processes interact with one another. Links to 
 ## Links
 
 1. [Feature Change Lock (FCL)](/handbook/engineering/#feature-change-locks)
-1. [Production Change Lock (PCL)](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl)
+1. [Production Change Lock (PCL)](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl)
 1. [Error budgets](/handbook/engineering/error-budgets/)
 1. [Capacity planning](/handbook/engineering/infrastructure/capacity-planning/)
 1. [Rapid actions](/handbook/product/product-processes/#rapid-action)

@@ -34,7 +34,7 @@ Title the issue `Full Name, System(s), Role` using the details of the person req
 **Step 2. Access Request**
 
 1. Remove or add lines for the systems you need access to. **Make sure to follow the format from the template (also included below)**. Be as specific as possible with the access you are requesting by adding the role, vault, group, channel or project you are requesting access to.
-1. If administrative access is being granted, add the label admin-access. Request the least amount of access you need as per the [least privilege review](/handbook/security/security-and-technology-policies/access-management-policy/#principle-of-least-privilege) and explain why you need access in the rationale section.
+1. If administrative access is being granted, add the label admin-access. Request the least amount of access you need as per the [least privilege review](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests) and explain why you need access in the rationale section.
 1. If the request involves access to systems owned by the Infrastructure team (according to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), mention `@gitlab-com/gl-infra/managers` and ask them to approve by adding the ~InfrastructureApproved label.
 
    ```text
@@ -80,7 +80,7 @@ After the Exception Length, you will be required to submit another Exception Req
 1. Title issue "Shared Account Request, Role, System(s)" using your information.
 1. Fill out the `User Details` section and **remove or add lines** as needed.
 1. **Add lines** for the system(s) you need access to so only the ones you want are left in the issue. **Do not check them off.**
-   - *Request the least amount of access you need as per the [least privilege review](/handbook/security/security-and-technology-policies/access-management-policy/#principle-of-least-privilege) and explain why you need access in the rationale section and name the role you are requesting. Be specific.*
+   - *Request the least amount of access you need as per the [least privilege review](https://internal.gitlab.com/handbook/security/access-management-standard/#least-privilege-reviews-for-access-requests) and explain why you need access in the rationale section and name the role you are requesting. Be specific.*
 1. If you are the manager of this person, add the labels `AR-Approval::Manager Approved` and `ready for provisioning` to the issue; if you are the one asking for access, then you have to assign to *your* manager for approval and they must add the labels `AR-Approval::Manager Approved` and `ready for provisioning`.
 1. After approval, then YOU MUST **assign the issue to the system provisioner** [listed in the tech stack.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 1. Close the issue when it's complete.
@@ -120,9 +120,9 @@ While this application automation will take place in Okta, "true" system provisi
 
 ---
 
-### Slack, Google Groups, 1Password Vaults or Groups Access Requests
+### Google Groups, 1Password Vaults or Groups Access Requests
 
-*You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
+*You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=googlegroup_1Passwordgroupvault) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
 
 {{% panel header="**Instructions**" header-bg="success" %}}
 

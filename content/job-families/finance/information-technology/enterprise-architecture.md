@@ -217,8 +217,8 @@ Extends the Principal Architect requirements:
 
 ### Performance Indicators
 
-- [Evaluating System or Process Efficiency](/handbook/business-technology/metrics/#evaluating-system-or-process-efficiency)
-- [Average Merge Request](/handbook/business-technology/metrics/#average-merge-request)
+- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
+- [Average Merge Request](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-merge-request)
 - Evaluating health of integrations
 - Number of integrations implemented that increase the efficiency of the company
 - Total hours saved by improving systems integrations
@@ -231,7 +231,7 @@ Any IT team member can explore lateral career moves within the broader IT job fa
 
 ## Hiring Process
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Second round interviews will involve interviews with 2 SMEs in the Business and or IT Team.
 - Third round interview is with the Senior Director, Enterprise Applications.
 - At the final stage candidates will meet with the VP of IT.

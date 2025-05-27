@@ -27,7 +27,7 @@ available or can be available, then work alongside the on-call engineer to
 stabilize the customer's situation. This may involve *any* of the following:
 
 - Taking over as
-  [DRI](/handbook/people-group/directly-responsible-individuals.html) for the emergency
+  [DRI](/handbook/people-group/directly-responsible-individuals/) for the emergency
 - Shadowing the emergency for some amount of time
 - Troubleshooting the emergency in Slack, asynchronously
 - Providing the on-call engineer with important information that will help them

@@ -25,11 +25,11 @@ Only these key spokespersons, and any spokespersons explicitly designated as suc
 
 #### WHAT IS MATERIAL NON-PUBLIC INFORMATION?
 
-For a definition of "material non-public information," please see the Company's [Insider Trading Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk).
+For a definition of "material non-public information," please see the Company's [Insider Trading Policy](https://drive.google.com/file/d/1yK4-L3nCEjVi14UwFfp9LNJzJNQdvvLB/view?usp=sharing).
 
 #### YOUR COMMUNICATIONS ABOUT THE COMPANY
 
-As part of your position at the Company, you may communicate with our customers, vendors, suppliers, partners or other third parties.  It is important for you to understand your responsibility to avoid commenting on sensitive business matters and to avoid making any unauthorized disclosure of material non-public information. Please also review our [Insider Trading Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk) for additional information.
+As part of your position at the Company, you may communicate with our customers, vendors, suppliers, partners or other third parties.  It is important for you to understand your responsibility to avoid commenting on sensitive business matters and to avoid making any unauthorized disclosure of material non-public information. Please also review our [Insider Trading Policy](https://drive.google.com/file/d/1yK4-L3nCEjVi14UwFfp9LNJzJNQdvvLB/view?usp=sharing) for additional information.
 
 **Press**
 

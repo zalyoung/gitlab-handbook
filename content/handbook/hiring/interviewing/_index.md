@@ -5,7 +5,7 @@ description: "Learn more about the tools required to prepare you for interviewin
 
 As an interviewer, you play a significant part in creating a seamless, candidate-centered experience for all applicants here at GitLab. Keeping an up-to-date calendar and setting up your specific interviewer preferences is essential to help reduce interview cancellations or declines and the need for rescheduling. This page will provide links and examples on how to adjust your calendar and interviewer preferences as well. We urge you to visit this Handbook page for a deeper understanding of how GitLab candidates are moved through the interview process. DRI: Candidate Experience Team
 
-To provide you with the knowledge and skills necessary to conduct effective and equitable interviews and to make informed hiring decisions, please visit this [handbook page]({{< ref "conducting-a-gitlab-interview" >}}).
+To provide you with the knowledge and skills necessary to conduct effective and equitable interviews and to make informed hiring decisions, please visit this [handbook page](/handbook/hiring/conducting-a-gitlab-interview/).
 
 ## Inclusive Interviewing
 
@@ -61,6 +61,6 @@ You can also use this function to update the following:
 
 ## Greenhouse
 
-Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse through [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit and AR to have this added.
+Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse through [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit an AR to have this added.
 
 Once CES schedules you for an interview, you will have access to the candidates interview kit and be able to submit your scorecard/feedback after the interview concludes. Interviewers can find a scorecard link on their Greenhouse dashboard for any upcoming or past interviews.

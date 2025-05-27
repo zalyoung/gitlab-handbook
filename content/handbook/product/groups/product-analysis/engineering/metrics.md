@@ -1,5 +1,6 @@
 ---
 title: "Engineering Metrics"
+description: Overview of key Engineering Productivity metrics
 ---
 
 ## Engineering Analytics Dashboard Inventory
@@ -23,7 +24,7 @@ To help our teams work better and faster, we track specific metrics that measure
 #### What’s Included?
 
 * Our metrics includes all MRs affecting the product.
-* The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
+* The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). 
 
 By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement.
 
@@ -65,7 +66,7 @@ Merge Request (MR) Rate is a measure of productivity and efficiency. The numerat
 
 You can use [this MR Rate troubleshooting dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/MergeRequestRates) to check the number of team members that are counted each month. If the monthly team member count is less than expected, refer to the table to see which team member is missing.
 
-To update the job title speciality field, please refer to the guidelines listed [here](/handbook/people-group/promotions-transfers/#for-people-connect-processing-job-information-change-requests) and [here](/handbook/people-group/promotions-transfers/#job-title-specialty-changes).
+To update the job title speciality field, please refer to the guidelines listed [here](/handbook/people-group/promotions-transfers/#job-title-specialty-changes)
 
 #### What It Means
 
@@ -111,6 +112,18 @@ For these departments, the MR rate is calculated as the **number of MRs authored
     * Unlike Development, these departments don’t have group labels that clearly indicate which MRs belong to them. Using authored MRs ensures we’re accurately capturing their work.
   * Focuses on Team-Specific Contributions:
     * This approach highlights the contributions of team members within the department, providing a clearer picture of their productivity.
+
+### Review Rates
+
+[Tableau Link](https://10az.online.tableau.com/#/site/gitlab/views/AverageReviewTime/ReviewStatsbyUser)
+
+#### What It Means
+
+Review rates measures the number of code reviews a team member completes within a specific timeframe. While merge request rate tracks how many changes are integrated into the codebase and it is an important productivity measurement, review rate is another important productivity metric and it keeps the records of reviews a team member provides. Data team maintains a table of review activities on merge requests. A review is counted as long as the code review was conducted no matter whether the team member remained in the `Reviewers` list or not.
+
+#### Why It Matters
+
+Code review often takes significant amount of time and it's a critical step of moving merge requests to completion. Counting review rates recognizes the contribution of reviwers and encourages team members to provide thorough code reviews which in turn ensures our product quality.
 
 ### Mean Time to Merge (MTTM)
 
@@ -163,7 +176,7 @@ The 3 types (Bug, Feature & Maintenance) is key to our report to industry analys
 If these labels are missing, it will be tracked in the `undefined` bucket instead.
 The Engineering Manager for each team is ultimately responsible for ensuring that these labels are set correctly. If you do not feel the purpose of this issue matches one of the types, you may apply the `~type::ignore` label to exclude it from type tracking metrics and future prompts, this can be good for issues marked `~Planning Issue`.
 
-Classifying work types may require context. All work to deliver a feature with security, performance and quality meeting the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#mr-merge) should be classified as feature work. For example if you are anticipating the performance needs of a feature and implement an application limit as part of the introduction of that feature it should be classified as `feature:addition`. If you discovered an issue scaling an existing feature and implemented an application limit that issue would likely start as a bug and the associated MR would be classified as `bug:performance`.
+Classifying work types may require context. All work to deliver a feature with security, performance and quality meeting the [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#mr-merge) should be classified as feature work. For example if you are anticipating the performance needs of a feature and implement an application limit as part of the introduction of that feature it should be classified as `feature:addition`. If you discovered an issue scaling an existing feature and implemented an application limit that issue would likely start as a bug and the associated MR would be classified as `bug:performance`.
 
 #### More examples of classifications
 
@@ -177,6 +190,8 @@ Below are additional examples to guide you when questions arise about classifyin
 * `~"type::bug"`
   * Missing functionality that was part of original acceptance criteria
 * `~"type::maintenance"`
+  * Infrastructure scaling initiatives that do not involve direct
+    customer-facing updates
   * Upgrade of a dependency
   * Bumping a version without code changes
   * Docs only update
@@ -258,22 +273,3 @@ The current list of projects are identified in the [`gitlab-data/analytics`](htt
 |-----------------|------|
 | GitLab.com      | [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv) |
 | ops.gitlab.net  | [`projects_part_of_product_ops.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product_ops.csv) |
-
-### Updating the list of projects
-
-The guidelines for inclusion in the `is_part_of_product` lists are:
-
-* Included with the product as a part of a GitLab Omnibus or Cloud Native installation
-* Support product development efforts
-* Support the delivery and release process to GitLab SaaS
-
-Follow these steps to request a new project to be tracked:
-
-1. Create a merge request to the GitLab.com or ops.gitlab.net project list from above.
-2. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#members) Engineering Manager.
-3. The Manager of the Engineering Productivity team will work with the Product Data Insights Team to determine the changes to MR Rate metrics and provide validation for the projects. To check the impact to MR rate, utilize the [MR Rate Change Impact chart](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/MRRateChangeImpact) by adding the relevant project IDs to the filter. This view shows how MR rate will increase by adding the projects to the [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv) file.
-4. The Manager of the Engineering Productivity team is the DRI to approve and merge the list of projects.
-
-There is no need to remove archived projects from the `is_part_of_product` list. Removal of projects will remove historical merge requests from metrics and reduce Merge Request rates.
-
-Please reach out to a member of the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#members) if more assistance is needed.

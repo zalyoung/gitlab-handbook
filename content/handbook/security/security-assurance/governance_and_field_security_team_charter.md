@@ -1,22 +1,18 @@
 ---
-title: "Governance and Field Security Team Charter"
-description: "Governance and Field Security Team Charter"
+title: "Security Enablement Team Charter"
 ---
 
 ## Team Charter
 
 ### Mission
 
-The mission of the Governance and Field Security team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
+The mission of the Security Enablement team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
 
 ### Roles and responsibilities
 
-Please refer to the following roles and responsibilities for Governance and Field Security team members:
+Please refer to the following roles and responsibilities for Security Enablement team members. All three specialties (Governance, Field Security, Sec. Assurance Automation) can be found under each job grade:
 
-[Goverance team member roles and responsibilities](/job-families/security/security-assurance-job-family)
-{.h4}
-
-[Field Security team member roles and responsibilities](/job-families/security/security-assurance-job-family)
+[Security Assurance team member roles and responsibilities](/job-families/security/security-assurance-job-family/)
 {.h4}
 
 ## High Level Core Competencies
@@ -47,10 +43,10 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 - Breaking complex requests into smaller manageable components
 - Deployment of new Security Assurance technologies and integration with existing technologies
 
-### Internal Security Evangelism
+### Policies and Awareness
 
-- Policy and procedure management
-- Security awareness and training for internal team members
+- Policy and standard management
+- Security awareness and role-specific training for internal team members
 
 ### Compliance Monitoring and Oversight
 
@@ -59,7 +55,8 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 
 ### Metrics
 
-- Development and maintenance of department-level metrics for Governance and Field Security and cross-functional Security Assurance teams
+- Development and maintenance of department-level metrics for Security Enablement and cross-functional Security Assurance teams.
+- The Security Enablement team serves as the technical DRI for creating data sources that feed department-level metrics for all Security Assurance teams.
 
 ## Program goals
 
@@ -75,14 +72,16 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 - Develop role based security training for high risk team members
 - Maintain awareness of existing and new regulatory and compliance requirements, and feed that information to relevant teams for triage and action
 - Develop and maintain a holistic set of policies and procedures to support regulatory, compliance, and operational requirements
-- Improve the effectiveness and efficiency of existing and new processes through automation.
-- Automate compliance controls and compliance control monitoring processes
-- Reduce the amount of time consumed by manual tasks.
 
 ### Automation
 
 - Reduce manual efforts through automation and simplification of new and existing processes
-- Streamline and enhance Security Assurance tooling through native and custom built integrations
+- Streamline and enhance Security Assurance tooling through native and custom built integrations and products
+- Improve the effectiveness and efficiency of existing and new processes through automation
+- Champion an engineering mindset for Assurance processes and programs
+- Automate compliance controls and compliance control monitoring processes
+- Reduce the amount of time consumed by manual tasks.
+- Drive AI adoption and integration into team workflows
 
 ## Program scope
 
@@ -93,6 +92,10 @@ The scope of the Field Security program is company-wide. Field Security collabor
 ### Governance
 
 The scope of the Governance program is company-wide. Governance collaborates with all cross-functional teams to support security awareness, internal security evangelism, automation, policy and procedure management, and compliance monitoring and oversight activities.
+
+### Automation
+
+The scope of the Automation program is primarily Assurance, with impacts company-wide as Security Assurance works across the company. Automation collaborates with cross-functional teams to develop automated solutions to increase security efficiency, accuracy, and scope for all other Assurance programs.
 
 ## Strengths and skills
 
@@ -110,4 +113,12 @@ The scope of the Governance program is company-wide. Governance collaborates wit
 - Technical acumen
 - Analytical acumen
 - Attention to diverse audiences
+- Effective communication skills
+
+### Automation
+
+- Technical acumen
+- Analytical acumen
+- Growth and efficiency mindset approach to problems
+- Cross-program relationships identification and integration
 - Effective communication skills

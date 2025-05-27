@@ -50,9 +50,19 @@ The GitLab team member of the Activity Location will receive a notification requ
 
 The GitLab team member must use the links below to review the MDF request submission, however, you can only approve or deny directly from the email notification.
 
-Should you want to review all your requests, [see section](/handbook/marketing/marketing-operations/impartner/#prm-mdf).
+Should you want to review all your requests, [see section](/handbook/marketing/marketing-operations/impartner/#prm-mdf-view).
 
-Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you’ll need to create an issue request for support from MktgOps.
+Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you'll need to create an issue request for support from MktgOps.
+
+#### MDF Request Status
+
+The MDF Request Status can be found in the MDF Request Details section.
+
+- Open - when partner submits Request
+- Approved - when Request is approved
+- Closed - when Request and Claim are completed
+- Denied - when Request is denied
+- Canceled - when Request is canceled
 
 ### Step 3 - MDF Claim Submission
 
@@ -70,33 +80,24 @@ Once submitted, the Partner will receive a confirmation email indicating that th
 
 ### Step 4 - Check Attachments and Claim Approval
 
-When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are infact the right attachment.
+When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are in-fact the right attachment.
 
-- If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
-- If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
+- If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` (under the MDF Claim Details section) with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
+- If all attachments are received and looks good, the GitLab team member will update the `Approval Status` to `Denied` or `Approved` (under the Claim section).
 
-## Cancelled MDF Request
+#### MDF Claim Status
 
-When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been cancelled. If Partners try to submit a Claim, it will automatically be rejected.
+The MDF Claim Status you are to used is under the Claims section, called `Approval Status`.
 
-## MFB MDF Request Form
+- Open - when partner submits Claim
+- Approved - when POP is approved
+- Denied - when POP is denied
 
-We can make edits to the form, which is built using  the Module Form Builder (MFB). This dynamic page is editable by GitLab by anyone with the correct permissions in PRM.
+## Canceled MDF Request
 
-1. From the PRM, you will want to access the CMS editor using the red pen icon on the top right.
-2. Click on the hamburger menu in the top left of the page and select `Edit Forms`.
-3. Under the Select a Module to Edit section choose `SFDC - Marketing Development Funds`.
-4. Select the MDF forms, you wish to update. You can edit the following form:
+When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been canceled. If Partners try to submit a Claim, it will automatically be rejected.
 
-      - Create - Funds Request
-      - Edit - Funds Request
-      - Create - Funds Request - Funds Claim
-      - Edit - Funds Request - Fund Claim.
-
-5. When you've clicked any of the MDF forms, you will be able to add, remove and update the form fields and layout.
-6. Save and Publish.
-
-## PRM MDF 
+## PRM MDF View
 
 To access your MDF request, go to PRM, and retrieve the `MDF` tab. If you do not see it, go to the `More` tab, there you'll be able to see the hidden tabs.
 
@@ -109,18 +110,27 @@ Should you wish to have a customized view, following the instructions below.
 1. Update the Name to "My Pending Requests"
 1. Set Visibility: "Private - can only be seen by me"
 1. In Manage Filters, Click on `+Add`
-          
-      1. Field: `Activity Location - Region`
+     
+      1. Field: `Channel Marketing Manager - Name`
       1. Operator: `equals`
       1. Type: `Value`
-      1. Value: Select the region that applies to you
-      
+      1. Value: Select your name
+
 1. In Column Configuration, add any additional fields.
 1. Save and repeat for the other statuses - Approved and Denied.
 
+## MDF Dashboard Access
+
+Partner needs to be granted access to the MDF dashboard. To do so, they must be an Authorized partner and MDF administrator.
+
+To update the user to an MDF administrator:
+
+1. Go to the user profile and select edit
+1. In the Delegated Administrative Privileges section, check `MDF Administrator` under Administrative Privileges
+
 ## PRM - Salesforce Integration
 
-The intergration from PRM to Salesforce is customizable per object.
+The integration from PRM to Salesforce is customizable per object.
 
 - Impartner `Lead` is mapped to SFDC `Lead`
 - Impartner `MDF Request` is mapped to SFDC `Funds Request`

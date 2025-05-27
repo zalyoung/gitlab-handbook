@@ -17,7 +17,7 @@ The Platform group manages the [Platform category](/handbook/product/categories/
 
 ## Stable counterparts
 
-{{< stable-counterparts manager="Manager, Fulfillment:Fulfillment Platform" role="(?i)Fulfillment Platform|(?i)Fulfillment section" >}}
+{{< engineering/stable-counterparts manager="Manager, Fulfillment:Fulfillment Platform" role="(?i)Fulfillment Platform|(?i)Fulfillment section" >}}
 
 ## Performance indicators
 
@@ -37,7 +37,7 @@ The Platform group manages the [Platform category](/handbook/product/categories/
   {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
 {{< /tableau >}}
 
-You can find the centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
+You can find the centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 For Product Performance Indicators please visit the [internal handbook](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/).
 

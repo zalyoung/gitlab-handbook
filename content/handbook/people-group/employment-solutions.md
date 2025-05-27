@@ -12,7 +12,7 @@ The GitLab team has members in countries and regions all over the world and from
 
 All of our roles are remote, however, some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions applicants may have about location after starting the recruiting process.
 
-In the past GitLab would hire in any country except those we had already determined were not feasible due to certain restrictions. At present, we are focussing our hiring in countries where we have an [entity]({{< ref "employment-solutions#gitlab-entities-and-branches" >}}) or a [PEO]({{< ref "employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch" >}}), that do not carry any hiring restrictions. More details can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under country hiring status.
+In the past GitLab would hire in any country except those we had already determined were not feasible due to certain restrictions. At present, we are focussing our hiring in countries where we have an [entity](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) or a [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch), that do not carry any hiring restrictions. More details can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under country hiring status.
 
 Compared with our former approach of hiring contractors in any country and later planning to implement an entity/PEO, we see four instant benefits with this approach:
 
@@ -23,7 +23,7 @@ Compared with our former approach of hiring contractors in any country and later
 
 We can consider an exception to hire outside of these countries through the use of a PEO for future team members when supported by business needs, on a case-by-case basis. This approach enables a scalable solution from the onset and allows us to continue to hire diverse global talent whilst providing a consistent and positive team member experience. This approach will require a formal business need justification and will be addressed on a case-by-case basis.
 
-Countries that do not have an entity/scalable PEO will be converted as part of our [country conversion process]({{< ref "employment-solutions#country-conversions" >}}).
+Countries that do not have an entity/scalable PEO will be converted as part of our [country conversion process](/handbook/people-group/employment-solutions/#country-conversions).
 
 ## Team Member Types at GitLab
 
@@ -34,12 +34,11 @@ Countries that do not have an entity/scalable PEO will be converted as part of o
 | Contractor : C2C | Cont-C2C | Non-US |
 | Employee : PEO | Emp-PEO | Non-US |
 | Contractor : PEO | Cont-PEO | Non-US |
-| Consultant | Cons-US | US Only |
 | Intern | Intern | Global |
 
 - C2C means Company to Company
 - IND means Independent
-- For more information on Consultants/Independent Contractors (those that are **US-based only**), please review the [Procurement](/handbook/finance/procurement/) handbook page.
+- For more information on Contingent Workers, please review the please review the [Procurement](/handbook/finance/procurement/) handbook page.
 
 ## Team Member Types by Country
 
@@ -81,7 +80,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 
 |     Country    |  Agreement Type(s) |  Hiring Partner  | Entity to Invoice (for AP only) | Pay Frequency | Paid By | Currency paid in | Workday Profile (Y/N) | Scalable PEO (Y/N) | Open for hiring (Y/N) |
 |:--------------:|:------------------:|:----------------:|:-------------------------------:|:-------------:|:-------:|:----------------:|:---------------------:|:------------------:|:---------------------:|
-|    Austria *   | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
+|    Austria *   | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       14      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
 |     Chile *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        CLP       |           Y           |          Y         |           Y           |
 |  Costa Rica *  | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        USD       |           Y           |          Y         |           Y           |
 |     India *    | Employed via a PEO |   Global Upside  |           GitLab IT BV          |       12      |   PEO   |        INR       |           Y           |          Y         |           Y           |

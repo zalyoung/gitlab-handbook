@@ -24,7 +24,7 @@ Managing remotely is much like managing in-person, but there are certain traits 
 
 ### Self-awareness
 
-Self-awareness is critical for relationship building and trust, particularly in an all-remote setting. The reality is that people prefer to learn, and to be managed, differently. GitLab's CEO goes so far as to [publicize his communication preferences](/handbook/ceo#communication) and [flaws](/handbook/ceo#flaws), which requires a high degree of self-awareness, a [low level of shame](/handbook/values/#low-level-of-shame), and a penchant for [transparency](/handbook/values/#transparency).
+Self-awareness is critical for relationship building and trust, particularly in an all-remote setting. The reality is that people prefer to learn, and to be managed, differently. GitLab's CEO goes so far as to publicize his communication preferences](/handbook/ceo/), which requires a high degree of self-awareness, a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding), and a penchant for [transparency](/handbook/values/#transparency).
 
 Self-aware managers will be open with reports on their learning and communication preferences, enabling those who report to them to interact without ambiguity.
 
@@ -36,7 +36,7 @@ What a manager perceives as proactively working to keep a project on track can b
 
 Empathy and [kindness](/handbook/values/#kindness) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication](effective-communication/) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
 
-GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#ownership), and act as a [manager of one](/handbook/values/#managers-of-one).
+GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#have-ownership--accountability), and act as a [manager of one](/handbook/values/#managers-of-one).
 
 For a greater understanding of the importance of empathy in a manager, read [GitLab's guide to combating burnout, isolation, and anxiety](mental-health/).
 
@@ -54,7 +54,7 @@ In sum, remote managers should operate from a standpoint of [wanting others to s
 
 Managers are often stretched for time. A critical, though common, mistake is to assume that you can earn back time by not communicating in full to one's direct reports. Great remote managers will devote time to [writing things down](/handbook/values/#write-things-down). GitLab's [handbook-first approach](/handbook/about/handbook-usage/#why-handbook-first) to documentation encourages managers to contextualize thoughts in text.
 
-Transmitting expectations, updates, and feedback through text is highly respectful. It enables a direct report to ingest information at their own pace, and it removes margin for misinterpretation. Written words are more easily [questioned](/handbook/values/#anyone-and-anything-can-be-questioned), thereby creating a more direct path to absolute truth and understanding.
+Transmitting expectations, updates, and feedback through text is highly respectful. It enables a direct report to ingest information at their own pace, and it removes margin for misinterpretation. Written words are more easily [questioned](/handbook/values/#challenger-mindset), thereby creating a more direct path to absolute truth and understanding.
 
 ### Builds Trust
 
@@ -64,7 +64,7 @@ A remote leader must be intuitive and able to adapt to the preferences of their 
 
 Being a remote manager means building a support system for your team, while at the same time striking a balance to hold them accountable. Building trust and maintaining transparency, frequent and open communication, and ensuring a safe working environment are critical skills.
 
-Use weekly [1-1 meetings]({{< ref "1-1" >}}) to discuss business topics, challenges, and focus areas to build trust. Managers can supplement formal meetings with [coffee chats](informal-communication/#coffee-chats) where no business is discussed. Listening and sharing during these discussions can facilitate more open conversations. Consider structuring team meetings with a social component where team members can share the personal side of themselves.
+Use weekly [1-1 meetings](/handbook/leadership/1-1/) to discuss business topics, challenges, and focus areas to build trust. Managers can supplement formal meetings with [coffee chats](informal-communication/#coffee-chats) where no business is discussed. Listening and sharing during these discussions can facilitate more open conversations. Consider structuring team meetings with a social component where team members can share the personal side of themselves.
 
 ## Tips for being a great remote manager
 
@@ -182,20 +182,20 @@ Despite its many [advantages](remote-benefits/), all-remote work isn't for every
 The first month in a remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/).
 
 - To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications](informal-communication/).
-- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#social-calls), and [incentivizing in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members are several of the ways in which GitLab accomplishes this.
+- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#team-days-and-social-calls), and [incentivizing in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members are several of the ways in which GitLab accomplishes this.
 
 ### Feeling left out
 
 Remote settings can cause a breakdown in communication skills if organizations aren't deliberate about creating ways for their people to stay connected.
 
 - All-remote companies should default to asynchronous communication to combat feelings of being left out of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews) that are open to all.
 
 ### Overworking
 
 It can be hard to separate personal and work life. It's important to model and encourage boundaries.
 
-- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
+- [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s](/handbook/leadership/1-1/).
   - All-remote companies should consider putting focus on [impact (as opposed to activity)](/handbook/values/#measure-impact-not-activity). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
   - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout), and to be mindful of the last time a team member [took time off from work](/handbook/people-group/paid-time-off/#paid-time-off).
 
@@ -203,7 +203,7 @@ It can be hard to separate personal and work life. It's important to model and e
 
 ## The importance of video chats
 
-Not only do we get to know our coworkers better by seeing them in real time during video chats or Zoom [calls]({{< ref "tools-and-tips#zoom" >}}), we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
+Not only do we get to know our coworkers better by seeing them in real time during video chats or Zoom [calls](/handbook/tools-and-tips/#zoom), we also get to know their pets and families too. This visual engagement helps us relate to each other on a more personal level, so when we meet in person, we already know each other. In fact, when our team members meet face-to-face for the first time, the most surprising factor is usually each person's height.
 
 ## Manage process
 
@@ -268,7 +268,7 @@ Great remote managers will proactively ask about one's [career goals](/handbook/
 
 [Research from Headlamp](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/) shows that 82% of workers said they would be more engaged in their work if their managers regularly discussed their career aspirations but only 16% of employees reported having those conversations on a regular basis. By having [regular conversations about career advancement](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/#chapter5) with your remote team, you can build a more connected and engaged workforce.
 
-GitLab favors more frequent conversations on this topic — even during [routine 1-1 conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) — as opposed to waiting until an annual review cycle.
+GitLab favors more frequent conversations on this topic — even during [routine 1-1 conversations](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1) — as opposed to waiting until an annual review cycle.
 
 ## Remove roadblocks to improve productivity
 
@@ -314,31 +314,6 @@ However, it *is* conceivable that a remote leader would manage a colocated third
 This arrangement is best addressed when colocated members adopt [remote-first communication and workflow practices](how-to-work-remote-first/). Managing these teams may require additional coaching to use tools like Zoom and Slack in place of in-person communication, even if it feels unnatural, in order to treat everyone as equally as possible.
 
 For example, if you're leading a synchronous meeting with colocated reports, ask that each person [use their own](how-to-work-remote-first/#everyone-must-use-their-own-webcam-no-hybrid-calls) webcam and microphone, and that all [documented discussion](handbook-first/) occur in a shared document.
-
-## What GitLab managers say about what it means to be a leader
-
-GitLab runs a quarterly [Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/) program to enable our people leaders with the skills to manage remote teams. We asked managers:
-
-> In your own definition, what does it mean to be leader and manager at GitLab? My job as a manager is to...
-
-Here's what they had to say:
-
-1. "First and for most my job is to be there for my people - to be their advocate for their career and coach them through various processes at GitLab. As a leader, I am here to make these processes as frictionless as possible. Continuously improving and sharpening our organization as well as the ability to retain talent should be a priority for all managers, and it becomes a big part of leadership when you have to stand up and enforce our values when it's difficult to do so or charge through ambiguity."
-1. "My job as a manager is to support and direct my team. Support can mean coaching (on specific tasks or projects, or career path), listening, and guiding our processes towards results. Direct can mean working with the team cross-functionally to define goals & results (what does success look like?) and what actions we take to get there, reinforcing our values and how we apply them, as well as implementing and refining processes to remove roadblocks and reduce friction."
-1. "My job as a manager is to create a safe space for the team to thrive in. To support each team member in achieving their own goals and to make our team shines as a whole. As long as it is fun and rewarding to wake up and come to work, each person will be able to feel safe at work while also having fun."
-1. "Assist in getting things out of the teams' way so they can work effectively. I also want to be looking out for the next "me". I want to make sure team members are happy with what they are doing and where they are doing it.  If there's another challenge or even a new position that someone wants to try for, I want to be encouraging of that effort and help them any way I can."
-1. "First, it means being both a citizen of and ambassador for GitLab. The core values matter and my actions should be a reflection of them. Second, we (GitLab) have done an admirable job providing async/remote analogs to all the signals and support we can find in an office-based environment."
-1. "My job as a manager is to support the growth, development, and understanding of my team. It is to mentor each team member to reach and exceed their goals."
-1. "My job as a manager is to be a network builder by thinking strategically, understanding and communicating the overall company direction, and aligning people's sense of purpose with where GitLab is going. To support my team by shifting my attention to what's more pressing to them, individually."
-1. "To be a leader at GitLab is upholding our values and sharing vision. I believe most people at GitLab are inspired by the direction their career is going and the direction the company is going. If I can tie their daily tasks and work to a vision that is helping propel something at GitLab forward they will feel valued in their work."
-1. "I need to share the direction that we need to head in our team, through regular course corrections and cadences. This helps the team select what they feel will best contribute and own part of the strategy."
-1. "Help team members reveal and believe in themselves.  Because humans are amazing creatures, I don't believe in a fully-formed & complete sales professional nor do I think anyone is delivering at their highest capability, yet.  My job is to help them identify the "governors" in place (most often their own) and remove them with a menu of my belief in them, and me helping to reset their own expectations of what they can achieve."
-
-## GitLab Knowledge Assessment: Being a great remote manager
-
-Anyone can test their knowledge on Being a great remote manager by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfx9CcEag4ZxiNtYAkUJJ9fzKYg51qEYkcpHRVZNaNxjOJVRA/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public/). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
-
-{{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 

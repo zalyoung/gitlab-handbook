@@ -19,14 +19,12 @@ When a new ticket comes in and there is an organization attach to this ticket,
 there will be a Zendesk automation trigger
 ([Ticket::Internal Comment::Organization Info](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/-/blob/master/triggers/active/Automation%20Stage/Post%20internal%20note%20about%20Organization%20info.yaml))
 that puts an internal comment to the ticket. This internal comment will include
-[organization notes](/handbook/support/readiness/operations/docs/zendesk/organizations/)
-if it exists. These organization notes are saved within Zendesk, visible to
+organization notes if it exists. These organization notes are saved within Zendesk, visible to
 agents only, not to end-users.
 
 During your work on the ticket, if you have additional information worth noting
 about the organization, you can add them by following the
-[editing organizations](/handbook/support/readiness/operations/docs/zendesk/organizations#editing-organization-fields-in-zendesk)
-procedure.
+[editing organizations](/handbook/support/workflows/working-on-zendesk-content.md).
 
 You may also consider updating the [Customer Collaboration Projects](/handbook/customer-success/csm/customer-collaboration-project/)
 [within GitLab.com](#within-gitlabcom) describe below.

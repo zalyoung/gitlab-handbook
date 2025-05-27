@@ -20,6 +20,12 @@ Customer data is stored in the following locations:
 1. The CustomersDot database, which manages subscriptions and purchases
 1. Git repositories
 
+## Not in Scope
+
+1. Customer Data stored in the Redis cache
+   1. Data queued for processing
+   1. Sessions and other cached data
+
 ## Roles & Responsibilities
 
 | Role                      | Responsibility                                                                 |
@@ -76,7 +82,6 @@ Exceptions to this policy will be managed in accordance with the [Information Se
 
 ## References
 
-- [Information Security Policy](/handbook/security)
-- [Records Retention & Disposal](/handbook/security/records-retention-deletion/)
+- [Records Retention & Disposal](/handbook/security/standards/records-retention-deletion/)
 - [Disaster Recovery runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/disaster-recovery)
 - [GameDays](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/gameday.md)

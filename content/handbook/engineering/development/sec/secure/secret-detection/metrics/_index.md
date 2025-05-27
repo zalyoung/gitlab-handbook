@@ -246,7 +246,7 @@ and haven't worked through the Tableau-hosted courses, you have some options for
 help:
 
 1. For help in creating Tableau dashboards and visualizations, the
-[Product Data Insights (PDI) team](/handbook/product/product-analysis) has an issue
+[Product Data Insights (PDI) team](/handbook/product/groups/product-analysis/) has an issue
 [intake process](/handbook/product/groups/product-analysis/#issue-intake) where you can request their help.
 1. For specific questions on your Tableau worksheet or
 dashboard, you can reach out to the PDI team on their slack channels:

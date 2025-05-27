@@ -18,20 +18,6 @@ The Director, Engineering is a [grade 10](/handbook/total-rewards/compensation/c
 - Drive high throughput
 - Standardize the development process where needed, allow local differences where advantageous
 
-## Requirements
-
-- Excellent communication skills
-- Expert hiring manager skills and experience
-- Experience managing managers, and a strong people management philosophy for both managers and engineers.
-- Track record of structuring, staffing, and maintaining a high-performing organization that is resourced appropriately and cost-effectively.
-- Ability to coordinate complex technical projects that span multiple teams, while providing high-level progress updates in clear, business-friendly terms.
-- Ability to develop long-term technical roadmaps and broker architectural decisions across teams.
-- Experience prioritizing technical debt at the organizational level, identifying risks, and balancing short-term delivery with long-term system health.
-- Expertise in agile methodologies, with a focus on optimizing overall organizational velocity and execution against business goals.
-- Demonstrate longevity at, at least, one recent job
-- Ability to be successful managing at a remote-only company
-- Humble, servant leader
-
 ## Levels
 
 - Senior Engineering Manager
@@ -50,7 +36,7 @@ The Director, Engineering is a [grade 10](/handbook/total-rewards/compensation/c
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a VP of Development
 - Next, candidates will be invited to schedule a 45 minute second interview with a Director, Engineering
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team
