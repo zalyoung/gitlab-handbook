@@ -114,7 +114,7 @@ and other times where GitLab Team Member availability is substantially reduced.
 Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs.
 Therefore, we have introduced a mechanism called Production Change Lock (PCL) to GitLab Dedicated.
 
-The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl) for GitLab.com,
+The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl) for GitLab.com,
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
@@ -131,7 +131,7 @@ The following dates are currently scheduled PCLs.
 
 Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
 
-As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
+As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
 
 ##### Hard PCL
 
