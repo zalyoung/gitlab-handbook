@@ -940,7 +940,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required
 1. The Candidate Experience Specialist will check if there is a probationary period.
-1. Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/) and check the candidate’s country
+1. Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate’s country
 1. Select the duration of the probationary period (if any) in the “Offer Details” dropdown. If there isn’t one, select “N/A” in that field
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed
 1. If the contract is indefinite, select “Indefinite” from the dropdown in “Offer Details”
@@ -964,7 +964,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
     - Projected End Date (if contract is fixed)
 1. Add CES name and contact information to the Signatory fields
 1. To "Line Manager" fields, add the hiring manager's information
-1. Use the information on [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/) to add employee & employer notice periods as well as probation period
+1. Use the information on [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) to add employee & employer notice periods as well as probation period
 1. Add benefits information:
     - Medical Benefits: Use Country guide information located in CES Repository to complete the two fields
     - Employment Retirement Insurance: Use Country guide information located in CES Repository. If nothing is noted in the guide for the country, select “Not Applicable”
