@@ -127,7 +127,74 @@ A work item type can have at most `10` custom fields assigned to it.
 
 #### Database Schema
 
-<!-- @todo -->
+##### For custom field configuration
+
+```mermaid
+erDiagram
+    namespaces ||--o{ custom_fields : ""
+    custom_fields o|--o{ custom_field_select_options : ""
+    work_item_types ||--o{ work_item_type_custom_fields : ""
+    custom_fields }|--|{ work_item_type_custom_fields : ""
+    custom_fields {
+      int id
+      int namespace_id
+      string name
+      enum field_type
+      timestamp archived_at
+    }
+    custom_field_select_options {
+      int id
+      int namespace_id
+      int custom_field_id
+      string value
+    }
+    work_item_type_custom_fields {
+      int id
+      int namespace_id
+      int custom_field_id
+      int work_item_type_id
+    }
+```
+
+Notes:
+
+- `field_type` can be select, multi-select, numeric, text, etc..
+- `custom_field_select_options` is used to store the options for select / multi-select types
+- This is decoupled from work item widget definitions so that it is easier to add to the default types and so it can be reused for MRs and custom objects in the future.
+
+##### For storing work item custom field values
+
+```mermaid
+erDiagram
+    work_items ||--o{ work_item_select_field_values : ""
+    work_items ||--o{ work_item_numeric_field_values : ""
+    work_items ||--o{ work_item_text_field_values : ""
+    work_item_select_field_values {
+      int id
+      int namespace_id
+      int work_item_id
+      int custom_field_id
+      int custom_field_options_id
+    }
+    work_item_numeric_field_values {
+      int id
+      int namespace_id
+      int work_item_id
+      int custom_field_id
+      numeric value
+    }
+    work_item_text_field_values {
+      int id
+      int namespace_id
+      int work_item_id
+      int custom_field_id
+      text value
+    }
+```
+
+Notes:
+
+- Each custom field type uses its own table so that we can have foreign keys to maintain referential integrity.
 
 #### Models and Associations
 
