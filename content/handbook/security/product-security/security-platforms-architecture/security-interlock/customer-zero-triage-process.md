@@ -17,6 +17,7 @@ Triagers may choose to either subscribe to the `C0Workflow::Backlog` label or pe
     - **If Not**: Tag the requestor and key contacts in a comment and ask them clarifying questions. Apply the label `C0::Waiting on Requestor` to the Issue manually or by moving it to the next column on the [issue board](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/boards/9306316) (internal only). Ask that they tag you directly when they've provided the additional information so you can re-review and follow the next steps.
 1. Once you have determined there is sufficient information in the Issue, you need to determine which team(s) are best suited to provide the appropriate feedback. If you are unsure which teams' feedback is required, ask in #product-security-department-only. 
 1. Once you have determined the appropriate team(s), take the following steps:
+
     | Team | Steps |
     | ------- | ------- |
     | AppSec | Apply the label `Application Security Team`. Also tag `@gitlab-com/gl-security/product-security/appsec` and ask them to incorporate into their milestone planning | 
