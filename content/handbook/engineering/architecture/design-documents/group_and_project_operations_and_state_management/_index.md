@@ -330,7 +330,7 @@ module Namespaces::Stateful
       state :transfer_in_progress, value: STATES[:transfer_in_progress]
     end
   end
-  
+
   class_methods do
     def non_inheritable_state?(state)
       [:deletion_in_progress, :transfer_in_progress].include?(state)
