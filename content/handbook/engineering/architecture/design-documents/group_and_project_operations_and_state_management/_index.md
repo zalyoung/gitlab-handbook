@@ -338,6 +338,13 @@ module Namespaces::Stateful
     end
   end
 
+
+  class_methods do
+    def non_inheritable_state?(state)
+      [:deletion_in_progress, :transfer_in_progress].include?(state)
+    end
+  end
+
   def change_state!(new_state, changed_by_user:, inherited_from_namespace: nil)
     state = new_state
 
@@ -349,7 +356,7 @@ module Namespaces::Stateful
 
     save!
   end
-  
+
   def state_metadata
     namespace_details&.state_metadata || {}
   end
@@ -375,7 +382,7 @@ class Namespaces::StateManagementService
     @current_user = current_user
     @inherited_from_namespace = inherited_from_namespace
   end
-  
+
   def execute!(new_state)
     final_state =
       case new_state
@@ -390,9 +397,9 @@ class Namespaces::StateManagementService
 
     update_state!(final_state)
   end
-  
+
   private
-  
+
   def update_state!(new_state)
     @namespace.change_state!(new_state, changed_by_user: @current_user, inherited_from_namespace: @inherited_from_namespace)
 
@@ -416,17 +423,17 @@ end
 module Namespaces
   class NamespaceDescendantsStateUpdateWorker
     include ApplicationWorker
-  
+
     data_consistency :always
-  
+
     sidekiq_options retry: 3
     include ExceptionBacktrace
-  
+
     INTERVAL = 2.seconds.to_i
-  
+
     feature_category :groups_and_projects
     idempotent!
-  
+
     def perform(namespace_id:, current_user_id:, state:)
       namespace = Namespace.find_by_id(namespace_id)
       return unless namespace
@@ -435,10 +442,10 @@ module Namespaces
       return unless state == namespace.state
 
       current_user = User.find_by_id(current_user_id)
-  
+
       # rubocop: disable CodeReuse/ActiveRecord
       descendants = namespace.descendants # rubocop: disable CodeReuse/ActiveRecord
-      descendants.find_each(batch_size: 100).with_index do |descendant, index|  
+      descendants.find_each(batch_size: 100).with_index do |descendant, index|
         with_context(namespace: descendant) do
           Namespaces::StateManagementService
             .new(descendant, current_user, inherited_from_namespace: namespace)
