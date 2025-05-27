@@ -93,7 +93,7 @@ Here the DRI will gather the needed information from the request (if required) a
 
 - If the request aligns with something on the support roadmap and seems congruent with the intention, then no approval required
 - If the request aligns with something on the support roadmap but is not congruent with the intention, then the DRI needs to ask for one of the following:
-  - The support roadmpa be updated
+  - The support roadmap be updated
   - Support leadership approval be documented on the request
 - If the request does not align with something on the support roadmap, then the DRI needs to ask for an appropriate level of approval from support leadership based on:
   - the amount of work

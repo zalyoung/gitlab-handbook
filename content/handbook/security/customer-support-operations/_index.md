@@ -58,7 +58,7 @@ Customer Support Operations will then determine if all needed approvals are pres
 
 - If the request aligns with something on the support roadmap and seems congruent with the intention, then no approval required
 - If the request aligns with something on the support roadmap but is not congruent with the intention, then we will ask for one of the following:
-  - The support roadmpa be updated
+  - The support roadmap be updated
   - Support leadership approval be documented on the request
 - If the request does not align with something on the support roadmap, then we will ask for an appropriate level of approval from support leadership based on:
   - the amount of work
