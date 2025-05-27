@@ -85,7 +85,7 @@ Introduce a centralized namespace state management system and asynchronous opera
 | State Integer | State Name | Description |
 |----------|------------|-------------|
 | 0 | active | Normal operational state |
-| 1 | archived | Archived but recoverable |  
+| 1 | archived | Archived but recoverable |
 | 2 | ancestor_archived | An ancestor of this namespace is archived |
 | 3 | deletion_scheduled | Marked for deletion with a grace period |
 | 4 | ancestor_deletion_scheduled | An ancestor of this namespace is marked for deletion with a grace period |
