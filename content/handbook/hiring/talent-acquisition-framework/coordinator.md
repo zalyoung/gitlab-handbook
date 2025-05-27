@@ -940,7 +940,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required
 1. The Candidate Experience Specialist will check if there is a probationary period.
-1. Go to [Probationary Periods for Team Members Employed by a PEO](https://handbook.gitlab.com/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate’s country
+1. Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate’s country
 1. Select the duration of the probationary period (if any) in the “Offer Details” dropdown. If there isn’t one, select “N/A” in that field
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed
 1. If the contract is indefinite, select “Indefinite” from the dropdown in “Offer Details”
@@ -964,7 +964,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
     - Projected End Date (if contract is fixed)
 1. Add CES name and contact information to the Signatory fields
 1. To "Line Manager" fields, add the hiring manager's information
-1. Use the information on [Probationary Periods for Team Members Employed by a PEO](https://handbook.gitlab.com/handbook/people-group/contracts-probation-periods/#probation-period) to add employee & employer notice periods as well as probation period
+1. Use the information on [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) to add employee & employer notice periods as well as probation period
 1. Add benefits information:
     - Medical Benefits: Use Country guide information located in CES Repository to complete the two fields
     - Employment Retirement Insurance: Use Country guide information located in CES Repository. If nothing is noted in the guide for the country, select “Not Applicable”
@@ -973,7 +973,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 1. GX Compensation
     - Monthly Basic Salary: Enter the number “1” (you are not expected to calculate this). Add the candidate’s annual salary to the additional notes section, making sure to include the currency
     - Local currency: Click the down arrow next to field and search for the country. You can also view the currency in the candidate’s greenhouse offer.
-1. If you have all the details populated,  check the “Form complete?” box and select “Yes” in the “Submit to start onboarding process” field(or Save and Submit Later if you are missing data)
+1. If you have all the details populated,  click Initiate New Employee (or Save and Submit Later if you are missing data)
 1. GX will then review the details and compose the employee’s contract. They will then email ces@gitlab.com when it is complete and ask us to review. You will need to log into the GX platform FIRST, and then click the link in the email sent by GX
 1. Review all details of the contract to confirm accuracy
     - If there are items missing, you have the ability to write feedback notes and send back to GX. Click the drop down and select “REJECT - the following changes are required” and submit
