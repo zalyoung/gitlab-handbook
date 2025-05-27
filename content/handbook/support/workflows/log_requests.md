@@ -59,7 +59,7 @@ such as a log request, needs to be delivered compressed and password protected t
 
 - The password should be a random string of at least 10+ characters including numbers, lower and upper case letters.
 - The password protected file should be attached to the ZenDesk ticket, and the password needs to be sent separately through your email account directly to the customer's email address.
-  - Use the command `zip -er [TicketNumber].zip filename` to encrypt the file or other encryption tool.
+  - Use the command `zip -er [TicketNumber].zip filename` or other encryption tool to encrypt the file.
   - Use 1Password to generate the random secure password for the encryption.
 - Once the customer had successfully received and opened the files you should delete the pulled data from your computer and the email from your mailbox.
 
