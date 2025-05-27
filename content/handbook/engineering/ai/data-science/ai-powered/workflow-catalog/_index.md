@@ -29,9 +29,11 @@ Here are some links to get us started:
 
 ## Team Meetings
 
-1. **Workflow Catalog: Meeting**
-   * **When:** Every Tuesday, 07:00 UTC
-   * **What:** This meeting serves as a general sync meeting to bring up any current issues and blockers.
+1. **Workflow Catalog: Group Meeting**
+   * Every Tuesday at 05:30 UTC and 09:00 UTC
+   * This meeting serves as a general sync meeting to bring up any current issues and blockers.
+   * It's held twice in one day to allow APAC and EMEA to attend
+   * Meetings are recorded and optional
 
 ## Communication
 
