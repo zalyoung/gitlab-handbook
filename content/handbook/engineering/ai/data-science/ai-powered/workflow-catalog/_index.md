@@ -13,12 +13,19 @@ The Workflow Catalog group is focused on developing Workflow Catalog, a catalog 
 
 {{< team-by-manager-slug "sam-beckham" >}}
 
-## How to reach us
+## How to Reach Us
 
 Depending on the context here are the most appropriate ways to reach out to the Workflow Catalog group:
 
 * Slack Channel: `#g_workflow_catalog`
 * GitLab group `@gitlab-org/ai-powered/workflow-catalog/engineering` (just engineers)
+
+## How We Work
+
+We're just getting started and will be defining how we work as we settle in to the new team.
+Here are some links to get us started:
+
+* [Issue board](https://gitlab.com/groups/gitlab-org/-/boards/3871464)
 
 ## Team Meetings
 
