@@ -10,7 +10,6 @@ Learning today goes way beyond self-paced content, far passed webinars, leaps ab
 
 Consider this page your LevelUp information highway. Over the coming weeks, you'll see updates, announcements, and rollout plans here.
 
-
 ## What's the difference between LevelUp and GitLab University?
 
 With the launch of this new technology solution, it's important to note that LevelUp and GitLab University our now **two completely separate platforms**, each with a different purpose and audience. GitLab University is used for customer education, whereas LevelUp is designed to support team member learning and professional development.
@@ -113,7 +112,6 @@ Remember, SmartCards created within a Pathway will only be discoverable in that 
 Watch the video below for a walkthrough on how to create Smartcards:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tDtdp3OdFDQ?si=WcxaZNeInM1nwC4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 #### Smartcard Thumbnails
 
