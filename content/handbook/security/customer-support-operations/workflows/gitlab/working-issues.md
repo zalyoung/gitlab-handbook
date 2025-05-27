@@ -115,7 +115,7 @@ This stage is skipped if it is a `Administrative` type issue
 {{% /alert %}}
 
 - Stage DRI: Jason
-  - Purpose:
+- Purpose:
   - to determine technical validity/feasibility of request
   - to determine if more information is needed before it can move to next stage
   - to generate a gameplan
