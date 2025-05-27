@@ -208,7 +208,7 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-1. To help store the deployment info, we want to store the server info an environment. We can do this with the `environment` keyword. Above the `before_script` keyword, put the following info:
+1. To help store the deployment info, we want to store the server info in a GitLab environment. We can do this with the `environment` keyword. Above the `before_script` keyword, put the following info:
 
 ```yaml
 environment:
