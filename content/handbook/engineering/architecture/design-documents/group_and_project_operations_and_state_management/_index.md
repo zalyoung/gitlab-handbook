@@ -104,7 +104,7 @@ stateDiagram-v2
     ads: ancestor_deletion_scheduled
     dip: deletion_in_progress
     tip: transfer_in_progress
-    [*] --> ac    
+    [*] --> ac
     note right of ac
         Permanent state until human action
     end note
