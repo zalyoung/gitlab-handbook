@@ -194,8 +194,7 @@ configuration errors. By maintaining a consistent interface, we ensure that
 teams can easily understand and extend their configurations as needed.
 
 Security will be a priority in our design, with pre-configured security settings
-aligned with GitLab's requirements built into the modules. This includes [WAF
-rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
+aligned with GitLab's requirements built into the modules. This includes [WAF rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
 application patterns and rate limiting configurations to prevent abuse. By
 establishing secure defaults, we ensure that all Cloudflare implementations
 maintain a baseline level of security.
