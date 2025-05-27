@@ -36,13 +36,11 @@ Vulnerability Resolution is enabled for a specific set of CWEs documented at [Su
 
 The list of CWEs presents itself in two locations to the code:
 
-1. Database field on vulnerability records
-   - `has_vulnerability_resolution` is used for Vulnerability Report (filtering/display). This field is populated via a background migration
+1. Database field on vulnerability records `has_vulnerability_resolution`
+   - Vulnerability Report (filtering/display). This field is populated upon ([ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb))
+   - Vulnerabilitiy Details (availability of "Resolve with AI")
 1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
-   - Vulnerabilitiy Details (availability of "Resolve with AI") until https://gitlab.com/gitlab-org/gitlab/-/issues/499978 is complete.
-   - Pipeline findings, as the database field has not yet been populated.
-
-Both of these locations (including docs) need to be updated each time the CWE list is amended. See this ([example issue](https://gitlab.com/gitlab-org/gitlab/-/issues/534307)) of prior work.
+   - Pipeline findings (MR) use this list as finding records are not fully ingested to include the DB field.
 
 ### Dashboard to see logs
 
