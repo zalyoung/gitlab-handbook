@@ -217,6 +217,17 @@ Each team categorizes risk based on their domain-specific score:
 
 ## 3: Review Process by Team and Risk Level
 
+### Security Review Priority
+
+Priority of a Security review is determined by taking into account [roadmap priority](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process/#labels-guide) of the feature (`Interlock Priority::P1`,
+`Interlock Priority::P2`, `Interlock Priority::P3`) and the feature [risk score](#risk-categorization)
+
+|#| (Risk score) <br>Critical | High | Medium | Low |
+| ------ | ------ | ------ |--|--|
+| (Roadmap priority) <br> P1     |  Review-Priority:1      |    Review-Priority:2    |Review-Priority:3 | Self-Service|
+|    P2   |  Review-Priority:2      |   Review-Priority:3     |Review-Priority:4 | Self-Service|
+|     P3   |  Review-Priority:3      |  Review-Priority:4      | Review-Priority:4|Self-Service |
+
 ### Secure Design and Development Review Process
 
 DRI: SD&D Team
