@@ -102,10 +102,11 @@ unified approach will create a single point for implementing generic security
 improvements, compliance updates, and feature enhancements across our Cloudflare
 Infrastructure as Code estate. This enables faster response to security threats,
 streamlined compliance management, and more efficient feature rollouts. This can
-be seen with the move to using the `cloudflare-waf-rules` module for WAF rules
-and rate limit configuration. Iterating on and expanding this approach will
-allow us to support more Cloudflare functionality and improve our ability to
-support configuration of our edge network.
+be seen with the move to using the
+[`cloudflare-waf-rules`](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules)
+module for WAF rules and rate limit configuration. Iterating on and expanding
+this approach will allow us to support more Cloudflare functionality and improve
+our ability to support configuration of our edge network.
 
 While teams using direct Terraform resource configurations have addressed their
 specific use cases, the emergence of multiple implementation patterns creates an
@@ -179,8 +180,8 @@ time.
 
 ### Core Components
 
-The proposed solution centers around a hierarchical module structure that
-provides a main entry-point module for common use cases with sensible
+The proposed solution centers around a hierarchical Terraform module structure
+that provides a main entry-point module for common use cases with sensible
 defaults. This will be complemented by specialized sub-modules for teams that
 need finer control over specific aspects of their Cloudflare
 configuration. Additionally, we will create data-only modules to provide
@@ -193,10 +194,11 @@ configuration errors. By maintaining a consistent interface, we ensure that
 teams can easily understand and extend their configurations as needed.
 
 Security will be a priority in our design, with pre-configured security settings
-aligned with GitLab's requirements built into the modules. This includes WAF
-rule sets optimized for common GitLab application patterns and rate limiting
-configurations to prevent abuse. By establishing secure defaults, we ensure that
-all Cloudflare implementations maintain a baseline level of security.
+aligned with GitLab's requirements built into the modules. This includes [WAF
+rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
+application patterns and rate limiting configurations to prevent abuse. By
+establishing secure defaults, we ensure that all Cloudflare implementations
+maintain a baseline level of security.
 
 Comprehensive documentation will be a critical component of this initiative. We
 will provide usage examples for common scenarios, clear guidance on extending
@@ -273,19 +275,25 @@ extensibility.
 ### Module Relationships
 
 ```mermaid
+%%{
+  init: {
+    'themeVariables': {
+      'lineColor': 'black'
+    }
+  }
+}%%
+
 flowchart TD
     %% Individual teams at the top
     user1["🌐 DNS Team<br/>Simple Setup"]
     user2["🛡️ Security Team<br/>Custom WAF Rules"]
     user3["⚙️ Platform Team<br/>Advanced Multi-Service"]
-
     %% Main entry point module
     subgraph entry-module[" 🚪 Entry Point Module "]
         cloudflare[cloudflare]
         cf-data[cloudflare/data]
         cloudflare --> cf-data
     end
-
     %% Functional modules layer
     subgraph functional-layer[" ⚡ Functional Modules "]
         direction LR
@@ -295,12 +303,10 @@ flowchart TD
         cf-rates[cloudflare/rate-limits]
         cf-waf[cloudflare/waf]
     end
-
     %% Detailed WAF module (separate for clarity)
     subgraph waf-detail[" 🔍 WAF Module Details "]
         direction TB
         waf-data[cloudflare/waf/data]
-
         subgraph waf-rulesets[" 📋 Rulesets "]
             direction LR
             waf-default[default]
@@ -311,7 +317,6 @@ flowchart TD
         end
         waf-data --> waf-rulesets
     end
-
     %% User to entry point connections
     user1 --> cloudflare
     user2 --> cloudflare
@@ -319,28 +324,19 @@ flowchart TD
     user3 --> cf-waf
     user3 --> waf-data
     user3 --> cf-rates
-
     %% Entry point to functional modules
-    cloudflare --> cf-dns
-    cloudflare --> cf-workers
-    cloudflare --> cf-logging
-    cloudflare --> cf-rates
-    cloudflare --> cf-waf
-
+    cloudflare --> functional-layer
     %% Data flow connections
     cf-data --> waf-data
     cf-waf -.-> waf-data
-
     %% Cross-dependencies
     cf-workers --> cf-dns
-
     %% Accessible styling
     classDef teamStyle fill:#2563eb,stroke:#ffffff,stroke-width:3px,color:#ffffff
     classDef entryStyle fill:#7c3aed,stroke:#ffffff,stroke-width:3px,color:#ffffff
     classDef functionalStyle fill:#059669,stroke:#ffffff,stroke-width:3px,color:#ffffff
     classDef dataStyle fill:#dc2626,stroke:#ffffff,stroke-width:3px,color:#ffffff
     classDef rulesetStyle fill:#f59e0b,stroke:#ffffff,stroke-width:3px,color:#ffffff
-
     class user1,user2,user3 teamStyle
     class entry-module,cloudflare,cf-data entryStyle
     class functional-layer,cf-dns,cf-workers,cf-logging,cf-rates,cf-waf functionalStyle
@@ -379,11 +375,13 @@ Continuing with the current approach of custom implementations per team would
 have several advantages and disadvantages:
 
 **Pros:**
+
 - Teams maintain complete control over their configurations
 - No upfront investment required
 - Faster implementation for teams with immediate needs
 
 **Cons:**
+
 - Inconsistent security and compliance practices
 - Duplicate effort across teams
 - Higher risk of configuration drift over time
@@ -395,13 +393,15 @@ An alternative approach would be to fully centralize Cloudflare configuration
 management within a single repository.
 
 **Pros:**
+
 - Maximum standardization and control
 - Consistent security posture
 - Single point of maintenance
 - Simplified compliance auditing
 
 **Cons:**
-- Reduced flexibility for teams with unique requirements
+
+- Reduced maintainability for teams with unique requirements
 - Creates bottleneck for changes on the maintaining team
 - Does not foster self-service culture
 - May slow down teams with time-sensitive requirements
