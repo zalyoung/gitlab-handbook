@@ -5,7 +5,7 @@ description: Application Security Team Operations home page
 <!-- markdownlint-disable MD052 -->
 Last updated: May 27, 2025
 
-The [**Application Security Subdepartment**](/handbook/security/product-security/application-security) is made up of two teams, the [**Secure Development and Design Team**](/handbook/security/product-security/application-security/appsec-operations/SDD-services) and the [**Product Security Incident Response Team (PSIRT)**](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services). These two teams work together to anticipate and prevent the introduction of vulnerabilities during design and development, as well as identify, assess, and respond to security vulnerabilities discovered in GitLab products and services.
+The [**Application Security Subdepartment**](../../application-security/) is made up of two teams, the [**Secure Development and Design Team**](./sdd-services.md) and the [**Product Security Incident Response Team (PSIRT)**](./psirt-services.md). These two teams work together to anticipate and prevent the introduction of vulnerabilities during design and development, as well as identify, assess, and respond to security vulnerabilities discovered in GitLab products and services.
 
 ## Helpful Quicklinks for GitLab Engineers
 
@@ -17,15 +17,15 @@ The [**Application Security Subdepartment**](/handbook/security/product-security
 - [**Responding to customers security scanners review requests**](../responding-customers-scan-review-requests.md)
 - [**Root Cause Analysis for Critical Vulnerabilities**](../../../root-cause-analysis.md)
 
-Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
+Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities](../reproducible-vulnerabilities.md).
 
-Learn how GitLab is implementing [Reproducible Builds](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
+Learn how GitLab is implementing [Reproducible Builds](../reproducible-builds.md) for our build processes.
 
-Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
+Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](../application-security-automation-monitoring.md)
 
 ### GitLab Secure Tools coverage
 
-As part of our [dogfooding effort](/handbook/product/product-processes/dogfooding-for-r-d/), [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](/handbook/security/product-security/application-security/inventory/#policies)). This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
+As part of our [dogfooding effort](/handbook/product/product-processes/dogfooding-for-r-d/), [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](../inventory.md#policies). This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
 
 Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/issues) (internal link).
 
