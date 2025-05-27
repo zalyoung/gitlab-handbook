@@ -214,10 +214,10 @@ Don't display surprise when people say they don't know something, as it is impor
 ##### Collaboration is not consensus
 
 When collaborating, it is always important to stay above radar and work [transparently](#transparency), but collaboration is [not consensus](/handbook/leadership/making-decisions/) and disagreement is part of collaboration.
-You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?"
+You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?".
 You don't have to wait for people to provide input, if you did ask them.
 You don't need to have everyone agreeing to the same thing - they can [disagree, commit, and advocate](#disagree-and-commit). [Two-way doors decisions](#make-two-way-door-decisions) can be reversed as part of [disagree, commit, and advocate](#disagree-and-commit), while one-way door decisions benefit from more input. Recognize these reversible two-way door decisions for when less input is required to iterate faster.
-We believe in permissionless innovation—you don't need to involve people, but everyone can contribute.
+We believe in permissionless innovation — you don't need to involve people, but everyone can contribute.
 This is core to how we [iterate](#iteration), since we want smaller teams moving quickly rather than large teams achieving consensus slowly.
 
 ##### Collaboration Competency
