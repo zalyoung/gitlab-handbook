@@ -19,7 +19,7 @@ We envision a unified, robust runners platform that delivers consistent, reliabl
 
 The Runners Platform team focuses on:
 
-1. Creating systems for managing and scaling the SaaS shared runners infrastructure
+1. Creating systems for managing and scaling the GitLab-hosted runners infrastructure
 2. Creating systems to optimize runner performance and resource utilization
 3. Building platform-level enhancements to improve runner service reliability and availability
 4. Collaborating with product teams to ensure runner features meet operational and production readiness requirements
