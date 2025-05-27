@@ -225,7 +225,7 @@ We encourage performance improvements to be broken down. Improve where we can an
 
 #### UX bugs
 
-Some UX-related issues are known to impact our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/). We particularily target issues *with* the label `bug::ux`. These issues will have a severity label applied and they follow the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) for `type::bug` issues.
+Some UX-related issues are known to impact our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/). We particularily target issues *with* the label `bug::ux`. These issues will have a severity label applied and they follow the [severity](/handbook/product-development/issue-triage/#severity) and [SLOs](/handbook/product-development/issue-triage/#severity-slos) for `type::bug` issues.
 
 #### Deferred UX
 
@@ -245,7 +245,7 @@ In order to define an issue as a "transient bug," use the `~"bug::transient"` la
 
 ### Infradev Issues
 
-An issue may have an `infradev` label attached to it, which means it subscribes to a dedicated process to related to SaaS availability and reliability, as detailed in the [Infradev Engineering Workflow](/handbook/engineering/workflow/#infradev). These issues follow the established [severity SLOs for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+An issue may have an `infradev` label attached to it, which means it subscribes to a dedicated process to related to SaaS availability and reliability, as detailed in the [Infradev Engineering Workflow](/handbook/engineering/workflow/#infradev). These issues follow the established [severity SLOs for bugs](/handbook/product-development/issue-triage/#severity-slos).
 
 ### Limit Related Bugs
 
@@ -262,7 +262,7 @@ Severity should be assessed using the following table:
 | `~"severity::3"` | Absence of this limit has a negative impact on ability to manage cost, performance, or availability |
 | `~"severity::4"` | A limit could be applied, but it's absences does not pose availability risk |
 
-These issues follow the established [severity SLOs for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+These issues follow the established [severity SLOs for bugs](/handbook/product-development/issue-triage/#severity-slos).
 
 ## Triaging Issues
 
@@ -345,7 +345,7 @@ As you work through the triage, exercise your judgement to decide when it is tim
 
 As the DRI you should consider take additional steps to ensure the continued support of the affected area. This may involve putting forward proposals for the creation of new platform groups that can take the ongoing responsibility and technical strategy for the components in question. This of course does not preclude the need to take immediate action on the issue assigned to your group.
 
-If as a result of the triage process a group is identified as qualified and willing to take ownership on a permanent basis, product and engineering leaders should officially document the type of ownership model and the team in the [shared services components](/handbook/engineering/development/#shared-services-and-components) section of the Development handbook. Multiple groups may permanently share ownership of the same component if deemed appropriate.
+If as a result of the triage process a group is identified as qualified and willing to take ownership on a permanent basis, product and engineering leaders should officially document the type of ownership model. Multiple groups may permanently share ownership of the same component if deemed appropriate.
 
 It is important to keep in mind that throughout this process, as a leader in your group, you are deemed the initial Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) until the issue is resolved or someone else agrees to take over. Simply removing your group label without further triage conversations with other groups is not an acceptable or helpful action to take in this process. This aligns with our value of [Results: global optimization](/handbook/values/#efficiency-for-the-right-group).
 
