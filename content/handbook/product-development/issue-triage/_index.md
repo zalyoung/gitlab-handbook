@@ -12,26 +12,6 @@ Any GitLab team-member can triage issues. Keeping the number of un-triaged issue
 The [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) own the issue triage process, but there is no capacity to manually triage issues without a group label at present.
 We rely on a combination of self and [AI triage](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/c003f65c94ff55a6b43c0b5c8c8ac0173618c0a5/policies/stages/report/untriaged-issues.yml).
 
-### Partial Triage checklist
-
-- Issue is spam:
-  - [Report the issue](https://docs.gitlab.com/ee/user/report_abuse.html#report-abuse-from-an-issue).
-  - Make the issue confidential.
-  - Post a link to the issue in the `#abuse` slack channel.
-- Issue is request for help:
-  - Post the [support message](#support-issue-message) and close the issue.
-  - Alternatively, ask for more information and apply the ~"awaiting feedback" label.
-- Issue is [duplicate](#duplicates):
-  - Post the [duplicate message](#duplicate-issue-message).
-  - Call the `/duplicate` action to create the link to the original and close the issue.
-- Assign a [type label](#type-labels).
-  - If it is unclear whether the issue is a bug or a support request, tag the PM/EM for the [group](#group-labels) and ask for their opinion.
-- `~"type::bug"`: assign a [severity label](#severity).
-  - If ~"severity::1" or ~"severity::2": mention the PM/EM from the [group](#group-labels)
-- Assign a [group label](#group-labels).
-  - If there is no suitable group label: assign a [stage ("devops") label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels).
-- Optionally tag relevant [domain experts](/handbook/company/structure/#expert).
-
 ## Complete Triage
 
 An issue is considered completely triaged when all of the following criteria are met:
