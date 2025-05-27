@@ -504,16 +504,6 @@ end
 - Caching for frequently accessed state information
 - Database indexes on `state` and related columns
 
-### API Consistency
-
-**Unified REST API Endpoints:**
-
-```shell
-GET /api/v4/namespaces/:id/state
-PUT /api/v4/namespaces/:id/state
-GET /api/v4/namespaces/:id/state/history
-```
-
 ## Alternative Solutions
 
 ### Alternative 1: Separate State Tables per Type
