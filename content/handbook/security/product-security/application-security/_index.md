@@ -3,7 +3,7 @@ title: "Application Security"
 description: Application Security home page
 ---
 <!-- markdownlint-disable MD052 -->
-Last updated: May 8, 2025
+Last updated: May 27, 2025
 
 ## Application Security Mission
 
@@ -82,12 +82,12 @@ In FY26, our key focus areas are:
 - Establish [Product Security Incident Response Team (PSIRT)](./appsec-operations/psirt-services.md)
 - Expand [Security Design & Development](./appsec-operations/sdd-services.md) team services at scale
 
-**Support [Company](/handbook.gitlab.com/handbook/company/strategy/) and [Division](/handbook.gitlab.com/handbook/security/) Priorities:**
+**Support [Company](../../../company/strategy.md) and [Division](../../../security/) Priorities:**
 
 - Authorization & Authentication
 - AI Security & Safety
 - Supply Chain security
-- [Security Interlock](/handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/security-interlock/)
+- [Security Interlock](../security-platforms-architecture/security-interlock/)
 
 ## FY26 Metrics
 
