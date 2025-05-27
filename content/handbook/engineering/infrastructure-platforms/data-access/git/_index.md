@@ -258,3 +258,94 @@ $ base=$(git merge-base origin/master topic)
 ## Rebase the topic branch onto origin/master
 $ ./shears.sh --merging --onto origin/master $base
 ```
+
+### Iteration
+
+The Git mailing list is commonly perceived as daunting due to the fair amount of
+bikeshedding and criticism you will often receive as response to a patch series.
+This is not a bad thing though: if used correctly, this feedback mechanism can
+be used as a tool to help yourself evaluate ideas and avoid design issues. For
+this mechanism to work though it is important to iterate on patch series:
+
+- Avoid perfectionism, especially with larger patch series before sending them
+  to the mailing list. The chance is high that you will receive feedback that
+  requires you to reconsider basic design ideas, and that would cause a lot of
+  the time you have spent with polishing to be lost.
+- You do not need to have all answers before sending a patch series to the
+  mailing list. Instead, it is fine to explicitly highlight areas that you are
+  unsure about and ask for feedback there.
+
+For these mechanisms to work to your benefit you need to engage with the
+extended community:
+
+- You should send a new version of a patch series at most a couple of days
+  after having received feedback. This ensures that discussions on the
+  previous version thereof are still fresh in the minds. Furthermore, patch
+  series that show a lot of activity are likely to draw more attention from
+  other contributors, as well.
+- Respond to feedback that you have received as fast as possible. A fast
+  exchange is a prerequisite for a fruitful discussion and ensures that you
+  keep momentum.
+- On the other hand, it shouldn't be necessary to respond to every small typo
+  correction in case you will send out the next version soon anyway. If it will
+  take a while before you send the next version though it is nice to acknowledge
+  nits, but mention that you will hold off sending a new version of the series
+  until you got more feedback.
+- Consider the viewpoint of the other person and be ready to disagree and
+  commit. Do not ignore feedback that you have received, as that will lead to
+  frustration and a decreased likelihood for that person to review your future
+  patch series.
+
+### Build trust by being a good citizen
+
+As with most open source projects, the foundations of the Git community are
+built on trust. This is only natural: while companies can exert control over
+the direction of a project as well as on who is working on them, open source
+projects have to rely on intrinsic motivation of individual contributors.
+
+This motivation may easily change though based on individuals having less free
+time or because companies refocus their efforts. The consequence may be that
+large projects are never finished. As such, being trusted and dependable is
+quite important in the Git community as it allows you to tackle larger projects.
+
+Unfortunately, trust is a resource that takes significant time to build. It is a
+limiting factor to what developers can achieve. This is a key difference with
+other GitLab-controlled projects: you cannot just add an engineer to the Git
+team and expect them to land large projects. These people will first have to
+spend some time with the Git community to demonstrate their expertise.
+
+Next to advancing the state of Git itself, there are a couple of other important
+measures to help build trust:
+
+- Review patch series from other individual contributors not part of GitLab's
+  Git team, even when those are outside of GitLab's current focus area. This
+  helps you build better relationships with them, and as reviewers are scarce
+  it also helps the Git community.
+- Critically review patch series from fellow team members on the Git mailing
+  list. We should demonstrate that we hold each other accountable, as well,
+  instead of just rubber-stamping our patch series.
+- Engage in general discussions and bug reports.
+- Take responsibility of the codebase. If you see something that could be
+  improved, it may be a good idea to address it. On the one hand this ensures
+  that the Git codebase improves over time. On the other hand it is another
+  good mechanism to get the goodwill of the community.
+- Keep your promises. If you say that you will follow up on a specific item,
+  e.g. as part of a review, then you should keep that promise. This shows
+  other community members that you are dependable and allows you to tackle
+  larger problems that may require multiple steps.
+- Be consistent with your presence on the Git mailing list. If you are being
+  copied on mails it is very likely that you should have a look and reply. This
+  gives others the feeling that you are dependable as a subject matter expert.
+
+### Transparency
+
+One large benefit that GitLab has over other code forges that participate in Git
+development is that most of our planning and coding happens in the open. This
+allows us to be much more open about why we want to implement certain features
+in Git, as well.
+
+In general, it is thus recommended to be very explicit about the specific issue
+that we face and how a patch series would address that issue. We can directly
+link to supporting code and issues in Gitaly to give more context. We may also
+share information about specific metrics, unless there is any kind of customer
+data involved.
