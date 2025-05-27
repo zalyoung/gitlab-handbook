@@ -15,7 +15,7 @@ toc_hide: true
 
 ## Summary
 
-This blueprint proposes a unified state management and tracking system for GitLab namespaces (groups and projects).
+This blueprint proposes a unified state management and tracking system for GitLab namespaces (groups and projects), as well as guidelines on making state-related operations asynchronous.
 Currently, groups and projects implement state management (deletion, archival, transfer) as separate features with inconsistent data representations and no historical tracking.
 The proposed solution introduces a centralized state management system using `namespaces.state` and `namespace_details.state_metadata` to provide consistent state tracking, metadata storage, and historical records across all namespace types.
 
@@ -29,16 +29,17 @@ Groups and Projects currently have inconsistent state management implementations
 - No consistency in project state management
 - No consistency between group and project state management
 - State in descendants is sometimes inferred from ancestors inconsistently
-- No state history tracking - impossible to know when a group/project was archived, then unarchived
-- Different data models for similar operations (for example `group_deletion_schedules` vs `projects.marked_for_deletion_at`)
+- No state history tracking. For instance, it's impossible to know when a project was archived, then unarchived, or when a group was transferred from another namespace
+- Different data models for similar operations (for example `group_deletion_schedules` vs `projects.marked_for_deletion_at` to track the "scheduled for deletion" state)
 - Performance issues with long-running synchronous operations (99.95th percentile: group transfer 51s, project transfer 27s)
 
 **Business Impact:**
 
-- Poor user experience due to inconsistent behavior
+- Poor user experience due to inconsistent behavior and bugs
+- Poor user experience due to performance bottlenecks causing timeouts
+- Increased load on the Support and Engineering teams to resolve operations that failed due to timeouts or bugs
 - Difficulty in auditing and compliance
-- Performance bottlenecks causing timeouts
-- Maintenance overhead from duplicated code
+- Maintenance overhead from duplicated and inconsistent code
 
 ### Goals
 
@@ -59,7 +60,7 @@ Groups and Projects currently have inconsistent state management implementations
 
 ## Proposal
 
-Introduce a centralized namespace state management system with the following components:
+Introduce a centralized namespace state management system and asynchronous operation guidelines.
 
 ### Core State Model
 
@@ -142,6 +143,36 @@ stateDiagram-v2
     ac --> [*]
     dip --> [*]
 ```
+
+### Asynchronous operation guidelines
+
+Operations must be asynchronous if they meet any of the following criteria:
+
+- P99.95 performance exceeds 10 seconds
+- Operation involves cascading changes to descendants
+- Operation requires external service calls or integrations
+- Operation involves bulk database writes, deletes, or migrations
+- Risk of creating database locks that affect concurrent operations
+- Memory-intensive operations that could impact system resources
+
+#### Implementation requirements
+
+All asynchronous operations must provide:
+
+- State transition to appropriate `_in_progress` state
+- Immediate acknowledgment of the successful request and ongoing operation
+- Progress indicators where technically feasible
+- Completion notifications through appropriate channels (Activity, Notification center, Email)
+- Comprehensive error handling with user-facing error messages
+- Rollback capabilities for failed operations
+
+#### Current operations requiring async implementation
+
+Based on current performance metrics:
+
+- Group transfers (P99.95: 51s) - Priority 1
+- Project transfers (P99.95: 27s) - Priority 1
+- [Upcoming group archival](https://gitlab.com/groups/gitlab-org/-/epics/15019)
 
 ## Design and implementation details
 
