@@ -25,7 +25,9 @@ Depending on the context here are the most appropriate ways to reach out to the 
 We're just getting started and will be defining how we work as we settle in to the new team.
 Here are some links to get us started:
 
-* [Issue board](https://gitlab.com/groups/gitlab-org/-/boards/3871464)
+* [Issue board](https://gitlab.com/groups/gitlab-org/-/boards/3871464): For all in-flight issues
+* [Team tasks](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks): For all non-product related team issues
+* [Async updates](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues/?label_name%5B%5D=async%20update)
 
 ## Team Meetings
 
