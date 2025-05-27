@@ -22,7 +22,12 @@ For web requests the current organization will be determined in the following or
 
 The current Organization will be the parent Organization for the resource requested.
 
-For example `/groups/abc-group`, `/-/organizations/my-organization`
+For example:
+
+- `/groups/abc-group`: The organization will be `organizationA` since
+  `abc-group` belongs to `organizationA`
+- `/-/organizations/my-organization`: The organization will be
+  `my-organization`.
 
 ### Header Field
 
@@ -34,9 +39,9 @@ For example `/groups/abc-group`, `/-/organizations/my-organization`
 
 - User's last accessed organization stored in session
 - Used for generic pages without explicit resource context
-- Defaults to User's [home organization when no context is available
+- Defaults to User's home organization when no context is available
 
-The session variable will assist to disambiguate on pages such as `/explore` and will reduce the roadmap to dog fooding.
+The session variable will assist to disambiguate on pages such as `/explore` and will reduce the roadmap to dogfooding.
 We don't consider session variable usage a long term solution because it will break browser tab usage, and HTTP GET requests won't be idempotent breaking bookmarks and sharing of links.
 Features that depend on the session variable will be considered incomplete until they are scoped appropriately.
 
