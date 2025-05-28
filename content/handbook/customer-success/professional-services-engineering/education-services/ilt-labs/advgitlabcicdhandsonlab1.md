@@ -89,7 +89,7 @@ Let's take a look at how this is structured:
     ```yml
         script:
           - ssh root@$ip 'gitlab-runner unregister --all-runners'
-          - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"GITLAB_RUNNER_TOKEN"
+          - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"$GITLAB_RUNNER_TOKEN"
     ```
 
    > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
