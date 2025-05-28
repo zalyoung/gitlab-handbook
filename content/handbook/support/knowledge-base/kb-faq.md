@@ -52,8 +52,7 @@ Yes! A list of available training resources is available on the Knowledge Base t
 ### How do I become a Knowledge Champion/Technical Reviewer?
 
 Review the [Technical Reviewers responsibilities](_index.md#technical-reviewers-knowledge-champions) before committing to the role.
-
-Please talk with your manager, and let them know you wish to become a knowledge champion.
+ - Technical Reviewers are designated by their Managers. If you wish to become a technial reviewer, please reach out to your manager. Your manager will work with the Knowledge Management DRI.
 
 Contact {{< member-by-name "Kirsty Allen" >}} to get added to the Technical Reviewer list.
 
@@ -64,6 +63,7 @@ View the permission in the [Roles and Permissions section](../knowledge-base/#ro
 ### Who can Approve & Publish my article?
 
 [Technical Reviewers](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0) will approve and publish articles.
+- Technical Reviewers are designated by their Managers. If you are not able to locate a technical reviewer, Please use the [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk) channel for help  (ask for a reviewer to assist)
 
 ### Can I use the "Request Article" feature in the Knowledge section?
 
