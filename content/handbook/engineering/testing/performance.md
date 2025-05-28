@@ -20,9 +20,9 @@ flowchart LR
   PROFILE[[Profiling tools]]
 
   SPECS{writing tests?}
-  BUILT{Is the code\nstill being written}
-  UI{Is the UX the main concern?}
-  ENV{Is server performance\nthe main concern?}
+  BUILT{code still\nbeing written?}
+  UI{UX the main concern?}
+  ENV{server performance\nthe main concern?}
   COMPONENT{Testing a\ncomponent?}
 
   START --> BUILT
