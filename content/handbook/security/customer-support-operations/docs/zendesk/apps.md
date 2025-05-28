@@ -384,7 +384,8 @@ You can choose from two pre-defined prompts:
 - Summarize conversation
 - Suggest KB article
 
-or define up to two custom prompts.\
+or define up to two custom prompts.
+
 For each custom prompt, you configure:
 
 - Title: this is shown in the prompt dropdown list
@@ -403,7 +404,7 @@ Once you've received a reply, you can choose:
 
 When you send the initial prompt, a fresh conversation is always started, so there is no need to instruct Duo Chat to forget previous conversations.
 
-The conversations you have with Duo Chat also show up in the GitLab Duo Chat history on e.g. GitLab.com as `ZenDuo <ticket#> <prompt>.\
+The conversations you have with Duo Chat also show up in the GitLab Duo Chat history on e.g. GitLab.com as `ZenDuo <ticket#> <prompt>`.
 You can use this history to look up previous conversations, or continue on an old conversation.
 
 App information:
@@ -525,7 +526,8 @@ You can choose from two pre-defined prompts:
 - Summarize conversation
 - Suggest KB article
 
-or define up to two custom prompts.\
+or define up to two custom prompts.
+
 For each custom prompt, you configure:
 
 - Title: this is shown in the prompt dropdown list
@@ -544,7 +546,7 @@ Once you've received a reply, you can choose:
 
 When you send the initial prompt, a fresh conversation is always started, so there is no need to instruct Duo Chat to forget previous conversations.
 
-The conversations you have with Duo Chat also show up in the GitLab Duo Chat history on e.g. GitLab.com as `ZenDuo <ticket#> <prompt>.\
+The conversations you have with Duo Chat also show up in the GitLab Duo Chat history on e.g. GitLab.com as `ZenDuo <ticket#> <prompt>`.
 You can use this history to look up previous conversations, or continue on an old conversation.
 
 App information:
