@@ -12,7 +12,7 @@ Below, we detail each component's role in this ecosystem, describe the flow of d
 
 ## Code Suggestions Technical Overview
 
-In most general sense Code Suggestions follow the sequence as described on the diagram below
+Code Suggestions generally follow the sequence described in the following diagram.
 
 ```mermaid
 sequenceDiagram
