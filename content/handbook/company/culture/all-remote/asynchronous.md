@@ -229,7 +229,6 @@ Here are some tried-and-true apps and cloud tools that facilitate asynchronous c
 - [Yac](https://www.yac.com/)
 - [Friday HQ](https://friday.app/)
 - [GitLab](https://about.gitlab.com/solutions/devops-platform/)
-- [Almanac](https://almanac.io/)
 - [Tettra](https://tettra.com/)
 - [Slab](https://slab.com/)
 - [Twist](https://twist.com/)
