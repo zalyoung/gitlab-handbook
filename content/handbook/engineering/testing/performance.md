@@ -16,18 +16,14 @@ flowchart LR
   PROFILE[[Profiling tools]]
   SPECS{writing tests?}
   BUILT{Is the code\nstill being written}
-  CODE{Can this be\ntested as part of a\nMR pipeline}
   UI{Is this UI affecting}
   ENV{Is server performance\nthe main concern?}
 
   START --> BUILT
-  BUILT -- no --> CODE
+  BUILT -- no --> ENV
   BUILT -- yes --> SPECS
   SPECS -- yes --> UNIT
   SPECS -- no --> PROFILE
-
-  CODE -- yes --> UI
-  CODE -- no --> ENV
 
   UI -- yes --> GBPT
   UI -- no --> CPT
