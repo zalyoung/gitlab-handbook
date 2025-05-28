@@ -59,11 +59,13 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
     - **Confidentiality**: Create private epics for internal use if you have a public facing project.
 
-    - **Label**: Apply labels to your epic, which are metadata tags that can be used to sort and filter your epics.
+    - **Labels**: Apply labels to your epic, which are metadata tags that can be used to sort and filter your epics.
 
-    - **Start Date** and **Due Date**: Schedule your epics around project milestones.
+    - **Dates**: Schedule your epics to be at a fixed start and due date, or have the epics inherit their state and end dates from the issues associated with them. You can also let the epic progress over time, without a fixed end date.
 
     - **Color**: Customize the display color of the epic when used in roadmap timeline bars. Look at the **GitLab.org** group's Roadmap in Task A for an example.
+
+    - **Parent**: This enables you to list another epic as a parent of this epic. This helps you keep your hierarchy clear and makes it easy to see which epics are related.
 
 ## Task C: Create a child epic
 

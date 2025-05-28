@@ -16,7 +16,7 @@ Several GitLab teams collaborate to provide support for ARM:
 1. [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) manages the ARM runner provider
    and issues with build pipelines.
 1. [Developer Relations team](/handbook/marketing/developer-relations/) and support teams answer questions and provide community assistance in the forums.
-1. [Verify CI](/handbook/engineering/development/ops/verify/) would help build packages for ARM runners.
+1. [Verify CI](/handbook/engineering/devops/ops/verify/) would help build packages for ARM runners.
 
 ## Failure Notifications
 

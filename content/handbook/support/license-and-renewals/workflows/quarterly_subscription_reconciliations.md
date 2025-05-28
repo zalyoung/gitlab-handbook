@@ -74,8 +74,7 @@ If no approval is located in the linked chatter, or the SFDC case, inform the re
 
 If approvals are given for resetting `Max Seats`, you can use:
 
-- CustomersDot Admin tooling located under [Namespace controls (Saas)](https://customers.gitlab.com/admin/saas_full_order) -> `Reset max seats`
-- the ZenDesk Mechanizer App > [Max Seats tool](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#set-max-seats)
+- CustomersDot Support Admin Tools > [Reset Max Seats](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#reset-max-seats)
 - console access (last resort)
 
 Document the action in the relevant ticket, or in an [internal-request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Use the **GitLab Support Internal Requests for Global customers** request option, and **Reset max seats for QSR** for the internal request type. In the case where QSR is approved for refund, approval for `Max seats` reset is still needed.

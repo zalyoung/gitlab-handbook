@@ -254,7 +254,7 @@ Brainstorming Sessions Doc (Internal): https://docs.google.com/document/d/179JL5
 
 #### Resources
 
-* [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
+* [How to triage a QA test pipeline failure](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/)
 * [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
 * [GitLab QA README](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 * [GitLab QA Scenarios](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md)

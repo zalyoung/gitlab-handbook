@@ -219,7 +219,7 @@ Each issue should have labels and field values to satisfy the triage bot policie
 | CS-Status | `CS-Status::On Track` | Issue is progressing as expected |
 | CS-Status | `CS-Status::Watchpoint` | Issue is running behind and needs re-alignment on objective timeline between DRI team |
 | CS-Status | `CS-Status::Concern` | Issue has signficant obstacles that jeopardize completion by due date and require leadership assistance |
-| CS-Status | `CS-Status::Proposed` | Objective or initiatves has been proposed to CS leadership but not yet approved |
+| CS-Status | `CS-Status::Proposed` | Issue has been proposed to CS leadership but not yet approved |
 | CS-Status | `CS-Status::Not Started` | Issue has been identified but work has not yet begun |
 | CS-Status | `CS-Status::On Hold` | Issue is temporarily paused |
 | CS-Status | `CS-Status::Closed Success` | Issue has been successfully completed |
@@ -239,8 +239,9 @@ Each issue should have labels and field values to satisfy the triage bot policie
 | CS-Team | `CS-Team::RM` | Renewal Manager team |
 | CS-Team | `CS-Team::Tech-Touch` | Tech-Touch (Digital Experience) team |
 | CS-Team | `CS-Team:: Onboarding` | Onboarding team |
-| LT Sponsorship | CSLT::[Name] | CS leadership team member sponsoring objective or initiative |
-| XLT DRI | CSXLT::[Name] | CS manager responible for objective or initiative  |
+| LT Sponsorship | `CSLT::[Name]` | CS Director+ who is sponsoring OKR or initiative |
+| XLT DRI | `CSXLT::[Name]` | CS Manager who is DRI for OKR or initiative  |
+| XLT DRI | `CSXLT::N/A` | For use when a CS Director+ is the DRI rather than a CS Manager |
 
 ## OKR Schedule
 

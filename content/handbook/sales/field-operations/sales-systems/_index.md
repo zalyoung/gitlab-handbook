@@ -235,7 +235,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
   - ["Start less, finish more"](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/#starting-new-work)
-  - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
+  - ["Reduce Issue Churn"](/handbook/engineering/devops/ops/verify/runner)
 
 ### Steps to getting help from Sales Systems
 
@@ -298,9 +298,13 @@ Business Process Owner pertaining to the team should provide signoff. The signof
 
 Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
 
-| Main Approver               |Backup Approver                                                | Backup Approver                                                |
-|-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Sheela Viswanathan - Senior Manager, Sales Systems, Korben Carreno - Manager, CRM Systems  | Kiran Chinthapalli - Director, CRM Systems | Nabitha Rao - VP, IT  |
+| Main Approver                                         | Backup Approver                                                       |
+|-------------------------------------------------------|-----------------------------------------------------------------------|
+| Sheela Viswanathan - Senior Manager, Sales Systems    | Nabitha Rao - VP, IT                                                  |
+| Korben Carreno - Manager, CRM Systems                 | Raul Pavon - Director Enterprise architecture and Applications        |
+| Kiran Chinthapalli - Director, CRM Systems            | Nishanth Sekhar - Director, Enterprise Applications (Lead to Cash)    |
+|                                                       | Monali Bhide - Manager, IT Enterprise Applications Engineering        |
+|                                                       | Pratik Gupta - Manager, IT Enterprise Applications Engineering        |
 
 #### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 

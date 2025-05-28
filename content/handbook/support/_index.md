@@ -355,6 +355,7 @@ The following private channels are permanent fixtures in support. Usage estimate
 | `#spt_hiring-mgmt` | Managers+, Recruiting, Finance | Used for coordinating offers and discussing hiring specifics that can be shared in the public channel | 1-2 threads per week |
 | `#fy23_support_promotions` | Managers+, People Business Partner | Used for coordinating and planning promotions in FY23 | 0 threads per week, mostly informational |
 | `#spt_leadership_internal` | Managers+, Staff+ | Private version of `#support_leadership`, used for sensitive topics where Staff and Managers are the appropriate audience | rarely used |
+| `#spt_staff_internal` | Staff+ | Used for sensitive topics that are applicable to Staff Engineers that aren't appropriate for public channels | rarely used |
 
 Before starting a new private channel, ask yourself *Why **can't** everyone contribute here?* Appropriate answers might be:
 
@@ -659,6 +660,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [License & Renewals](/handbook/support/license-and-renewals/)
 - [Advanced Topics](/handbook/support/advanced-topics/)
 - [Browser extensions](/handbook/support/browser-extensions)
+- [AI and Support Work](/handbook/support/ai)
 
 ### Documentation
 

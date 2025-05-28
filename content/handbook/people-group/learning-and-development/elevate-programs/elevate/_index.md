@@ -33,7 +33,7 @@ In Elevate, participants will:
 
 Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module. The session dates will be updated for the next cohort beginning in May soon.
 
-![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviews.png)
+![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviewsv2.png)
 
 All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place. If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 

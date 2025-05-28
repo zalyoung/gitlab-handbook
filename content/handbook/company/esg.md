@@ -1,5 +1,5 @@
 ---
-title: GitLab Environmental, Social, and Governance
+title: GitLab Environmental, Social, and Governance (ESG)
 description: "An overview of corporate sustainability at GitLab."
 ---
 
@@ -406,7 +406,7 @@ Our [Privacy Statement](https://about.gitlab.com/privacy/) provides details on h
 
 The [Privacy Team](/handbook/legal/privacy/) (part of GitLab’s Legal and Corporate Affairs Team) provides support and guidance to uphold consistent business processes around the protection of personal data. Privacy Team members collaborate cross-functionally and serve as advocates to ensure that the data privacy practices of GitLab meet the needs of our cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
 
-The GitLab [Data Classification Standard](/handbook/security/data-classification-standard/) defines data categories and provides a matrix of security and privacy controls for the purposes of determining the level of protection to be applied to GitLab data throughout its lifecycle.
+The GitLab [Data Classification Standard](/handbook/security/standards/data-classification-standard/) defines data categories and provides a matrix of security and privacy controls for the purposes of determining the level of protection to be applied to GitLab data throughout its lifecycle.
 
 As part of our commitment to privacy, GitLab ensures that, where appropriate, projects and personal data processing activities are subject to Privacy Reviews and a [Data Protection Impact Assessment](/handbook/legal/privacy/dpia/) (DPIA) as key components of a ‘Privacy by Design’ approach.
 

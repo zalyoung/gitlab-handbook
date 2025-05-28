@@ -84,7 +84,7 @@ All artifacts from an investigation must be handled per the [Artifact Handling a
 
 Assigning severity to an incident isn't an exact science and it takes some rational concepts mixed with past experiences and gut feelings to decide how bad a situation may be. When considering severity, look at:
 
-- The type of data involved and how it's classified using the [Data Classification Policy](/handbook/security/data-classification-standard/)
+- The type of data involved and how it's classified using the [Data Classification Policy](/handbook/security/standards/data-classification-standard/)
   - Was this data leaked or disclosed to parties who should not have visibility to it?
   - Has the data been modified in our records? (either confirmed or believed to be)
 - Was a user or service account taken over?
@@ -117,7 +117,7 @@ Characteristics of an incident requiring escalation include but are not limited 
 - Incidents involving criminal activity or that may require the involvement of law enforcement
 - Incidents involving key personnel such as executive leadership
 
-Often a security incident may revolve around a particular GitLab feature where coordination with the respective engineering team is required to gather in-depth understanding of implementation or mitigation. The EM/PM for those teams should be looped in and depending on the severity of the issue (Severity 1 or Severity 2) consider setting up follow the sun coverage from the engineering counterparts. This will allow for quick remediation or engineering assistance as situation may evolve on security incident. 
+Often a security incident may revolve around a particular GitLab feature where coordination with the respective engineering team is required to gather in-depth understanding of implementation or mitigation. The EM/PM for those teams should be looped in and depending on the severity of the issue (Severity 1 or Severity 2) consider setting up follow the sun coverage from the engineering counterparts. This will allow for quick remediation or engineering assistance as situation may evolve on security incident.
 
 If applicable, coordinate the incident response with [business contingency activities](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/).
 

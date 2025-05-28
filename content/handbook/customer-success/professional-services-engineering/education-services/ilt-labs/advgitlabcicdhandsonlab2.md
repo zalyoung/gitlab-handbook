@@ -17,7 +17,7 @@ The objectives for this lab are:
 
 To start, let’s create a basic `Node.js` application to use for demonstration of pipeline builds.
 
-1. Navigate to your ILT group.
+1. Navigate to your ILT group, named "My Test Group - <your-username>".
 
 1. Select **New project**.
 
@@ -156,7 +156,7 @@ To demonstrate the concepts of caching, let’s introduce some testing into our 
 
 1. Commit your `linearsearch.test.js` file.
 
-Next, we will create a `.gitlab-ci.yml` file to define our tests.
+  Next, we will create a `.gitlab-ci.yml` file to define our tests.
 
 1. Navigate to the project repository.
 
@@ -174,11 +174,13 @@ Next, we will create a `.gitlab-ci.yml` file to define our tests.
       image: node:latest
         
     test binarysearch:
+      stage: test
       script:
         - npm install jest
         - node_modules/.bin/jest binarysearch.test.js
 
     test linearsearch:
+      stage: test
       script:
         - npm install jest
         - node_modules/.bin/jest linearsearch.test.js

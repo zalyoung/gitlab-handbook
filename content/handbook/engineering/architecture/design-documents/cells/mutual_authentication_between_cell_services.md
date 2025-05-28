@@ -6,9 +6,11 @@ authors: [ "@daveyleach", "@tkhandelwal3" ]
 coach: "@sxuereb"
 approvers: [ "@andrewn", "@glopezfernandez" ]
 owning-stage: "~devops::tenant scale"
-participating-stages: []
+dris: ["daveyleach", "@tkhandelwal3"]
 toc_hide: true
 ---
+
+{{< engineering/design-document-header >}}
 
 ## Pre-Reads
 
@@ -256,6 +258,49 @@ We chose mTLS as our primary mechanism for both authentication and authorization
 - If an attacker gains Remote Code Execution (RCE) on a pod, they could access certificates and keys stored on the filesystem. This is an inherent limitation, as RCE generally compromises all security boundaries within the pod.
 - The design focuses on preventing unauthorized service-to-service communication in scenarios where an attacker has limited access to manipulate network requests but not full system access.
 - Certificate rotation and proper secret management help mitigate risks associated with potential certificate compromise.
+
+### Certificate Lifecycle Management
+
+#### Certificate TTLs
+
+Certificate Time-To-Live (TTL) values are configured according to industry best practices and our internal security requirements. The following TTL values have been established for our PKI infrastructure ([discussed in detail here](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues/335)):
+
+| Certificate Type | TTL |
+| --------------- | --- |
+| Root CA | 10 years |
+| Intermediate/Subordinate CA | 5 years |
+| End-entity certificates | 13 months |
+
+These TTL values strike a balance between security requirements (limiting exposure time of compromised certificates) and operational overhead (frequency of rotation).
+
+#### Certificate Rotation
+
+To ensure continuous operation without interruption, certificates are proactively rotated before expiration:
+
+- **Intermediate CA certificates**: Rotated 90 days before expiry, aligned with the [Internal TLS blueprint](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/internal_tls.html).
+- **End-entity certificates**: Rotated 60 days before expiry.
+
+The rotation of intermediate and end-entity certificates is automated through the [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor), which handles the provisioning and rotation of these certificates as implemented in:
+
+- [End-entity certificate rotation](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/blob/7003562f05ead918fa236f5d7810030f248c14ea/aws/onboard/modules/gitlab-inter-pod-tls-certs/main.tf#L17)
+- [Intermediate certificate rotation](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/blob/7003562f05ead918fa236f5d7810030f248c14ea/aws/onboard/modules/intermediate-internal-cert/cert.tf#L18)
+
+##### Root CA Rotation
+
+Root CA rotation requires more careful orchestration. The rotation is performed every 5 years (or as needed) following Google Cloud's CA rotation best practices outlined in the [Certificate Authority Service documentation](https://cloud.google.com/certificate-authority-service/docs/managing-ca-rotation).
+
+The Root CA rotation process is summarized as follows:
+
+1. Identify the CA pool containing the existing Root CA that is due to expire.
+2. Create a new CA in the same CA pool in STAGED state.
+3. Change the state of the new CA to ENABLED, enabling certificate issuance from both old and new CAs.
+4. Update the Trust Store configuration on the Server (Topology Service) to accept requests authenticated with certificates issued by the new CA.
+5. Update the [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) to use the new Root CA for provisioning new Intermediate CA certificates.
+6. Change the state of the old CA to DISABLED, preventing new certificate issuance while maintaining trust.
+7. Wait until all clients have stopped using certificates issued from the old CA (either by waiting for maximum certificate lifetime or by monitoring client certificate usage).
+8. Delete the old CA once all intermediate certificates have been issued using the new CA.
+
+This carefully orchestrated process ensures zero downtime during Root CA rotation while maintaining the security integrity of the PKI infrastructure.
 
 ### DNS Resolution for mTLS Server Communication
 

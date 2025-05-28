@@ -70,7 +70,7 @@ Support Engineers looking to configure a Self-Managed instance should review our
 
 ### Sharing logs
 
-To share the current state of your log search, be sure to use  `Share > Get Links > Copy Link`. Copying the URL directly will fail to load your search when other users attempt to use it. Since it is encoded, your search parameters will not be included in the URL.
+To share the current state of your log search, follow Elastic's [log sharing](https://www.elastic.co/docs/explore-analyze/report-and-share#share-a-direct-link) documentation. Copying the URL directly will fail to load your search when other users attempt to use it. Since it is encoded, your search parameters will not be included in the URL.
 
 ### Dashboards
 

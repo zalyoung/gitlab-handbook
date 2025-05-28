@@ -61,7 +61,7 @@ You can learn more about issues and metadata in the [documentation](https://docs
 
 1. Click your **Backend services** issue. You realize that, considering the scope of this initiative, this issue would be better suited as an epic, with each To-Do in the description as a separate issue in the epic.
 
-1. To promote this issue to an epic, use the `/promote` quick action in the issue's comment field, then click **Comment**.
+1. To promote this issue to an epic, use the `/promote` quick action in the issue's comment field, then click **Comment**. If [the new look for issues](https://docs.gitlab.com/user/project/issues/issue_work_items/) is enabled, use `/promote_to epic` quick action instead.
 
    > A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the descriptions or comments of issues, epics, merge requests, and commits. For more information about quick actions, click [here](https://docs.gitlab.com/ee/user/project/quick_actions.html).
    >

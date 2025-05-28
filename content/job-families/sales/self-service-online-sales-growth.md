@@ -43,6 +43,36 @@ The Senior Analyst, Global Digital SMB is a [grade 7](/handbook/total-rewards/co
 - Experience analyzing CRM data (e.g. Salesforce) and web tracking (e.g. Google Analytics)
 - Self-motivated and self-managing, with strong organizational skills
 
+## Manager, Global Digital SMB Monetization
+
+### Job Grade
+
+The Manager, Global Digital SMB Monetization is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- Lead GitLab's Free-to-Paid and Trial conversion strategy, driving measurable growth in both new Annual Recurring Revenue (nARR) and customer logo acquisition.
+- Own and optimize the journey from initial sign-up through purchase, continuously improving conversion rates through data-driven experimentation.
+- Drive cross-functional initiatives with Marketing, Sales, and Growth Product teams to develop and execute conversion optimization strategies.
+- Build and maintain comprehensive analytics dashboards to monitor Free/Trial business health, presenting key insights to stakeholders.
+- Prioritize and manage the product experience backlog based on quantitative data analysis and qualitative feedback from customers and field teams.
+- Develop detailed customer personas and identify high-value customer segments to inform targeted growth initiatives.
+- Partner with the Data team to create and implement data-driven sales plays, leveraging product usage metrics and intent signals to improve conversion rates.
+
+### Requirements
+
+- Talent for identifying and prioritizing work based on key business outcomes
+- Strong analytical skills and structured thinking. You know how to turn data from disparate sources into a vision for what we should do
+- Strong presentation and storytelling skills
+- Comfortable with ambiguity, high visibility, and being the directly responsible individual for the self-service business
+- Resourcefulness to get things done cross-functionally
+- Ability to use tools such as Salesforce, Google Analytics, Excel, and BI tools to pull data and manipulate accordingly as needed to drive tactics and projects
+- Great project management skills. Ability to pull together disparate requirements, get agreement on priorities, communicate clearly and drive timelines
+- Familiarity with sales & marketing funnel reporting and industry KPIs, such as website sessions, MQLs, pipeline, and bookings
+- Ability to explain prioritization methodology when competing priorities appear
+- Operational execution and troubleshooting by identifying issues as they surface; proposing and executing changes to fix root causes
+- Willingness to learn and use GitLab
+
 ## Manager, Global Digital SMB
 
 ### Job Grade

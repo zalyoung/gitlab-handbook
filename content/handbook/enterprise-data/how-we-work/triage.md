@@ -94,7 +94,8 @@ The Data Platform triager is responsible for resolving problems with our data pl
 - During the assigned triage week the Data Platform Team member will focused on (in priority order):
   - Incoming incidents
   - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
-  - New issues
+  - New issues: Every issue that comes in during a team member's triage week must be [resolved](/handbook/enterprise-data/how-we-work/triage.md#new-issue-triaging-for-the-data-platform-team).
+    - A new issue is defined as an issue with no assignee and the workflow label `triage`. [This issue list](https://gitlab.com/groups/gitlab-data/-/issues/?sort=updated_desc&state=opened&assignee_id=None&label_name%5B%5D=Team%3A%3AData%20Platform&label_name%5B%5D=workflow%3A%3A1%20-%20triage&first_page_size=100) tracks these items.
   - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
     - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
     - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
@@ -138,6 +139,40 @@ The Triager:
 The Central Data Team triager will create [an issue in the Data Team project](https://gitlab.com/gitlab-data/analytics/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=&issuable_template=Data%20Triage). Task and duties are stated in the issue template.
 
 [Read](/handbook/enterprise-data/how-we-work/triage/) the FAQ and common issues.
+
+#### New issue triaging for the Data Platform Team
+
+Every issue that comes in during a Data Platform Team member's triage week must be resolved as follows:
+
+1. All issues are assigned to triager as starting point. 
+1. All issues are `triaged`, `validated` and `refined` - following the defined [workflow (criteria)](/handbook/enterprise-data/how-we-work/#workflow-summary). If the triager cannot prepare it adequately:
+   - Assign to a team member with domain expertise, OR
+   - Assign to Director Data Platform if appropriate expertise is unknown
+1. If an issue is **1-2** [issue points](/handbook/enterprise-data/how-we-work/#issue-pointing) they will fully implement the solution. This means moving with through all workflow stages up until `workflow::6 - review`) 
+1. If an issue is **3 or more** issue points, the issue will be labelled as `workflow::4 - ready to develop`. 
+   - If an issue is not urgent. Triager unassignes themselves and issue has been placed in the backlog.  
+   - If an issue is urgent. Triage alligns with a team member on assignment or assigns to Director Data Platform. 
+
+```mermaid
+flowchart TD
+    A[New Issue] --> B[Assign issue to themself]
+    B --> C[workflow::1 - triage]
+    C --> D[workflow::2 - validation]
+    D --> E[workflow::3 - refinement]
+    F[Assign to other Team Member or Data Platform Team Lead ]
+    C -->|If unable to perform| F
+    D -->|If unable to perform| F
+    E -->|If unable to perform| F
+    E -->G{Can complete}
+    G -->|No and urgent| F
+    G -->|No not urgent| H[workflow::4 - ready to develop]
+    G -->|Yes| J[workflow::5 - development]
+    J -->K[workflow::6 - review]
+    U[Unassign]
+    F-->U
+    H-->U
+    K-->U
+```
 
 ### Incident
 
@@ -433,7 +468,7 @@ When got an error for model `version_usage_data_unpacked` and error looks like:
 
 The root cause of this issue is when new metrics are introduced in an upstream model - and this model (along with model `version_usage_data_unpacked_intermediate`) try to pivot values to columns. Without full refresh, this will not happen under the pipeline.
 
-Full refresh required as per instructions from [dbt models full refresh](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh).
+Full refresh required as per instructions from [dbt models full refresh - internal handbook](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh).
 
 An example for this failure is the issue: **[#11524 (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/11524)**
 
