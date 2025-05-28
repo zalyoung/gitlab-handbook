@@ -12,7 +12,9 @@ flowchart LR
   GPT[[GitLab Performance Tool]]
   GBPT[[GitLab Browser Performance Tool]]
   CPT[[Component Performance Testing]]
-  UNIT[Unit test frameworks]
+  UNIT[[Perf tests in Unit Tests]]
+  PROFILE[[Profiling tools]]
+  SPECS{writing tests?}
   BUILT{Is the code\nstill being written}
   CODE{Can this be\ntested as part of a\nMR pipeline}
   UI{Is this UI affecting}
@@ -20,7 +22,9 @@ flowchart LR
 
   START --> BUILT
   BUILT -- no --> CODE
-  BUILT -- yes --> UNIT
+  BUILT -- yes --> SPECS
+  SPECS -- yes --> UNIT
+  SPECS -- no --> PROFILE
 
   CODE -- yes --> UI
   CODE -- no --> ENV
@@ -36,12 +40,13 @@ flowchart LR
   classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
 
   class UI,ENV,CODE,BUILT decision;
-  class GBPT,CPT,GPT tool;
+  class GBPT,CPT,GPT,PROFILE,UNIT tool;
   class START start;
 
   click GPT "#system-level-load-testing"
   click GBPT "#client-side-performance-testing"
   click CPT "#component-performance-testing"
+  click PROFILE "#profiling"
 ```
 
 #### Server-side Performance Testing
