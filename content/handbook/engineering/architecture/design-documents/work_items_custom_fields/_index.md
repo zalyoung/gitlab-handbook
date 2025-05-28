@@ -200,10 +200,10 @@ Notes:
 
 The custom fields system is implemented with the following key models:
 
-- `CustomField`: Stores the field definition, including name, type, and work item types linked to
-- `CustomFieldSelectOption`: Stores options for single-select and multi-select fields
-- `WorkItemTypeCustomField`: Links custom fields to work item types
-- `TextFieldValue`, `NumberFieldValue`, `SelectFieldValue`: Store field values for specific work items
+- `Issuables::CustomField`: Stores the field definition, including name and field type
+- `Issuables::CustomFieldSelectOption`: Stores options for single-select and multi-select fields
+- `WorkItems::TypeCustomField`: Links custom fields to work item types
+- `WorkItems::TextFieldValue`, `WorkItems::NumberFieldValue`, `WorkItems::SelectFieldValue`: Store field values for specific work items
 
 #### Custom Fields Widget
 
@@ -222,7 +222,7 @@ The feature uses the existing work items GraphQL API by extending the work item 
 
 To retrieve metadata about available fields, we can query the widget definitions endpoint, specifying both the work item type and namespace context.
 
-Here's an example of the GraphQL query to fetch all the custom fields from a group:
+Here's an example of the GraphQL query to fetch all the custom fields from a top-level group:
 
 ```graphql
 query groupCustomFields($fullPath: ID!, $active: Boolean!) {
@@ -312,9 +312,28 @@ Variables example:
 - To create, edit, archive and unarchive a custom field, you must have at least the Maintainer role for the group.
 - To set custom field values for a work item, you must have at least the Planner role for the work item’s project or group. If you have the Guest role, you can set custom fields only when creating a work item.
 
+#### Managing Custom Fields
+
+On the top-level group settings page, users can configure custom fields to make them available for work items in that group, its subgroups, and projects.
+
+On that page, you can also define for which work item type you want that custom field to be related. Once a custom field is created and linked to a work item type, it should be visible on that work item type page.
+
+To learn how to manage a top-level group's custom fields, check the [guide](https://docs.gitlab.com/user/work_items/custom_fields/#configure-custom-fields-for-a-group).
+
+##### Archiving Custom Fields
+
+Rather than deleting custom fields, we support archiving them to preserve historical data. When a field is archived:
+
+1. It is marked with an `archived_at` timestamp
+2. It no longer appears in the field selection UI
+3. It's no longer available for new work items
+4. Existing field values are preserved for historical reference
+
+Fields can be unarchived to make them available again. To learn how to archive or unarchive custom fields, check the [guide](https://docs.gitlab.com/user/work_items/custom_fields/#archive-a-custom-field).
+
 #### Filtering by Custom Fields
 
-User can filter work items by custom field values on group and project list pages. This is implemented in some using the existing search and filter capabilities, with extensions for custom field types:
+Users can filter work items by custom field values on group and project list pages. This is implemented in some using the existing search and filter capabilities, with extensions for custom field types:
 
 - Text fields: Search for work items with specific text content
 - Number fields: Filter by numeric value
@@ -328,17 +347,6 @@ Filtering currently available on the following pages:
 - Project/Issues list ([Example](https://gitlab.com/gitlab-org/gitlab/-/issues))
 - Project/Issues boards ([Example](https://gitlab.com/gitlab-org/gitlab/-/boards))
 
-#### Archiving Custom Fields
-
-Rather than deleting custom fields, we support archiving them to preserve historical data. When a field is archived:
-
-1. It is marked with an `archived_at` timestamp
-2. It no longer appears in the field selection UI
-3. It's no longer available for new work items
-4. Existing field values are preserved for historical reference
-
-Fields can be unarchived to make them available again.
-
 ### Feature Flags and Licensed Feature
 
 We used the feature flag `custom_fields_feature` throughout the development of this feature. The feature flag was removed in GitLab 18.0 when the feature became generally available.
@@ -349,7 +357,7 @@ Since the feature is only available in Premium and Ultimate tier, we consider it
 
 We've identified these phases for this initiative:
 
-#### Phase 1: Core Functionality and basic fields (GitLab 17.11)
+#### MVC1: Core Functionality and basic fields (GitLab 17.11)
 
 - Implement the database schema for custom fields
 - Create the GraphQL API for managing custom fields
@@ -363,13 +371,11 @@ We've identified these phases for this initiative:
 - System notes for custom field changes
 - Removal of the feature flag, making the feature generally available
 
-#### Phase 2 and 3 (TBD)
+#### Next iterations
 
-- Phase 1 enhancements
-- Additional field types (date, user, etc.)
-- Enable updating custom fields via quick action
-- Conditional fields based on other field values
-- and more
+- MVC1 enhancements
+- MVC2 initial plan: Date custom fields, enable updating custom fields via quick action and other enhancements ([Epic](https://gitlab.com/groups/gitlab-org/-/epics/16332))
+- MVC 3 initial plan: Smart fields based on existing GitLab objects as field values ([Epic](https://gitlab.com/groups/gitlab-org/-/epics/16333))
 
 ## Alternative Solutions
 
@@ -394,11 +400,14 @@ We've identified these phases for this initiative:
 1. Use EAV data model to store custom field values. The main advantage is referential integrity and type validation.
 2. Custom fields should not depend on custom work item types. We should be able to create custom fields on the existing default types.
 3. Limit configuration to root namespaces. Configuration applies to all subgroups and descendant projects. Configuration of custom fields for subgroups is planned for future iterations.
+4. Initial custom field types: Select field, number and text input
+5. Rather than deleting custom fields, we decided to support archiving them to preserve historical data.
+6. Custom fields filtering was not added to the epics board due to prioritization. It should work by default once the epics board is updated to use work items.
 
 ## Resources
 
 1. [Top level epic for this initiative (#235)](https://gitlab.com/groups/gitlab-org/-/epics/235)
-2. [Custom fields documentation](https://docs.gitlab.com/ee/user/work_items/custom_fields.html)
+2. [Custom fields guide](https://docs.gitlab.com/ee/user/work_items/custom_fields.html)
 3. [GitLab 17.11 release announcement](https://about.gitlab.com/releases/2025/04/17/gitlab-17-11-released/)
 
 ## Team
