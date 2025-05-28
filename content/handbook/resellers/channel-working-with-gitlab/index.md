@@ -168,6 +168,10 @@ Service Attached Registrations that do not qualify for approval for the rebate p
 - GitLab PS subcontracting engagements
 - Education/Training services
 
+#### Returned
+- Returned to the partner for more information
+
+
 ##### Quote to Order
 
 Authorized partners who have achieved at least Open Status may request a quote and transact with GitLab.
