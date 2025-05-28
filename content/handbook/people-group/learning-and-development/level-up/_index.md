@@ -4,16 +4,11 @@ title: LevelUp
 
 ## Leveling Up LevelUp
 
-Get ready for **HUGE** changes coming to learning technology for GitLab team members! We are upgrading the technology solution that powers Level Up to better support the pace, demand, complexity, and CULTURE of GitLab. This overhaul will allow team members to engage around learning in a COMPLETELY different way. 
+We're currently rolling out a new platform for LevelUp to better support the pace, demand, complexity, and culture of GitLab. This overhaul will allow team members to engage around learning in a completely different way, that links in with Talent, career pathing, project opportunities, and more.
 
 Learning today goes way beyond self-paced content, far passed webinars, leaps above documents; learning is much much more. And GitLab's new "**LevelUp**" (integrated talent EXPERIENCE platform) will show you just how dynamic learning, growth, skills development, and performance can go. 
 
 Consider this page your LevelUp information highway. Over the coming weeks, you'll see updates, announcements, and rollout plans here.
-
-{{< gdoc >}}
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUJWcpfq-Y_4C7qOIMAT11wJX0n5pAfuKUp9xnQZvuyrESb87_ZISah83q42b4bo-HHOxMnHvNRJSH/embed?start=false&loop=false&delayms=60000"
-frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-{{</ gdoc >}}
 
 ## What's the difference between LevelUp and GitLab University?
 
@@ -45,7 +40,7 @@ The new Cornerstone Talent Experience Platform (TXP) offers significant improvem
 
 ## Timeline
 
-Initial launch is planned for the engineering teams in late March 2025, with details on company-wide rollout to follow.
+The system is currently live for our engineering and security divisions, details on the company wide rollout to follow, but all team members will have access by the end of Q2. 
 
 ## FAQs
 
@@ -75,6 +70,10 @@ Initial launch is planned for the engineering teams in late March 2025, with det
 ## Platform Guide
 
 Read on below to learn about the functionality in LevelUp, including terminology, and guides to specific features.
+
+Watch the video below for more information on the content hierachy in LevelUp:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z4QpE-Mb-nE?si=Ig0hzrIdIW0RWLJn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Smartcards
 
@@ -109,6 +108,10 @@ Creating a SmartCard is simple and allows you to share valuable learning content
 - Quality Over Quantity: Focus on sharing truly valuable content that addresses specific learning needs
 
 Remember, SmartCards created within a Pathway will only be discoverable in that Pathway, while SmartCards created independently can be discovered and used across the platform.
+
+Watch the video below for a walkthrough on how to create Smartcards:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tDtdp3OdFDQ?si=WcxaZNeInM1nwC4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Smartcard Thumbnails
 
@@ -145,6 +148,8 @@ A Pathway is a collection of SmartCards organized as a learning sequence. Here's
 - Consider ending with next steps or related Pathways
 
 > **Note:** By default, all users can create SmartCards, but if you're interested in putting a Pathway together, please open an access request to be a course author in LevelUp, and assign it to @jallen16, who can uplift your access permissions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mu_hRz69i0c?si=G3F2ukQzroGDHdAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Journeys
 

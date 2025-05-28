@@ -18,6 +18,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
    1. Click on the new Issue
    1. If unassigned, assign it to yourself or the responsible CES on the right-side toolbar
    1. Read the Issue message
+   1. Labeling - each issue will need to be labeled with at least one appropriate label.
    1. If you need to respond to the "email" by adding comments to the issue, be sure to enter comments as you would an email to the candidate. Always assume that a candidate could be included in any email.
    1. If no action is needed and the issue has been solved, you may close it. Do not close issues until you have resolved the problem you are solving.
 
@@ -777,21 +778,6 @@ JCLs should be treated like contracts, where RSUs are only features in US ones a
     - This ensures that the contract goes to the GitLab signatory to sign first, as well as the recruiter for a Cc and once signed by them it will go to the People Experience for an update of records.
 1. Then click "Done".
 1. When the JCL is signed, ensure that you merge profiles before Hiring to avoid creating duplicate profile
-
-## Germany Job Change Letters
-
-1. Confirm that the start date is either on the 1st or 16th of the month. For Sales or Sales Development, the start date should be the 1st. This is for payroll purposes and does not need to be on a business day.
-1. CES will send the "German Job Change Letter step 1" template email via Greenhouse.
-1. Follow the Job Change Letter process above to send via Docusign.
-1. Download a copy of the unsigned JCL on your desktop.
-1. Open the saved unsigned contract in Google Drive and replace Signatory's name with "GitLab Signatory". Save the contract as a PDF format.
-1. To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - To (recipients) : Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-    - Subject line : Please Send Physical Job Change Letter for "Name of the team member"
-    - Body of the email : Expand the Text expander snippet "GCtogermancounsel"
-    - Attachment : CES to attach the unsigned PDF JCL
-1. In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the "email the "candidate name" function, select the template "German Job Change Letter already sent to counsel".
-1. Once the candidate has confirmed that they have received the physical JCL in mail, CES will send the email template "German Job Change Letter step 2" to the candidate and close out the issue.
 
 ## Contractor Conversions
 
