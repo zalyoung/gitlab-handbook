@@ -8,8 +8,7 @@ Performance Testing is a broad discipline that includes various approaches to ev
 
 ```mermaid
 flowchart LR
-  subgraph kit "Performance Testing Kit"
-    style kit fill:#f0f8ff,stroke:#4a90e2,stroke-width:2px,color:#333
+  subgraph "Performance Testing Kit"
     GPT[[GitLab Performance Tool]]
     GBPT[[GitLab Browser Performance Tool]]
     CPT[[Component Performance Testing]]
