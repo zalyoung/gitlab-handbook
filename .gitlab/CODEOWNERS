@@ -110,47 +110,43 @@
 /content/handbook/engineering/architecture/ @ayufan @grzesiek @glopezfernandez @andrewn @nicholasklick @DylanGriffith @theoretick @shekharpatnaik @stanhu @fabiopitino @tkuah @ntepluhina @jessieay @vitallium
 
 ^[Eng-Development-department]
-/content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
-/content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng
-/content/handbook/engineering/development/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
-/content/handbook/engineering/development/analytics/monitor/platform-insights.md @dennis @nicholasklick
-/content/handbook/engineering/development/analytics/monitor/optimize.md @dennis @blabuschagne
-/content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
-/content/handbook/engineering/development/data-science/ai-powered/ai-framework @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/custom-models @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/duo-workflow @bastirehm @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
-/content/handbook/engineering/development/data-science/modelops/ @m_gill
+/content/handbook/engineering/devops/ @m_gill
+/content/handbook/engineering/ai/ @timzallmann
+/content/handbook/engineering/development/ @timzallmann @dsatcher @m_gill @jeromezng
+/content/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
+/content/handbook/engineering/data-engineering/analytics/monitor/platform-insights.md @dennis @nicholasklick
+/content/handbook/engineering/data-engineering/analytics/monitor/optimize.md @dennis @blabuschagne
+/content/handbook/engineering/ai/data-science/ @timzallmann 
+/content/handbook/engineering/ai/search/ @changzhengliu
+/content/handbook/engineering/ai/code-creation/ @mnohr @jordanjanes
+/content/handbook/engineering/ai/editor-extensions/ @dashaadu @kisha.mavryck
+/content/handbook/engineering/ai/data-science/ai-powered/ai-framework/ @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/custom-models/ @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/duo-chat/ @juan-silva @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/duo-workflow/ @bastirehm @timzallmann
+/content/handbook/engineering/ai/data-science/ai-powered/model-validation/ @timzallmann
+/content/handbook/engineering/ai/data-science/modelops/ @timzallmann
 /content/handbook/engineering/development/database.md @alexives
-/content/handbook/engineering/development/dev/ @timzallmann
-/content/handbook/engineering/development/dev/create/ @dsatcher
-/content/handbook/engineering/development/dev/create/code-creation/ @mnohr @jordanjanes
-/content/handbook/engineering/development/dev/create/editor-extensions/ @dashaadu @kisha.mavryck
-/content/handbook/engineering/development/dev/create/remote-development/ @adebayo_a
-/content/handbook/engineering/development/dev/foundations/ @m_gill @samdbeckham @wortschi
-/content/handbook/engineering/development/dev/foundations/design-system @samdbeckham
-/content/handbook/engineering/development/dev/foundations/import-and-integrate/ @wortschi
-/content/handbook/engineering/development/dev/foundations/personal-productivity @samdbeckham
-/content/handbook/engineering/development/dev/foundations/search/ @changzhengliu
-/content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
-/content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
-/content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
-/content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
-/content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
+/content/handbook/engineering/devops/dev/ @m_gill
+/content/handbook/engineering/devops/dev/create/ @dsatcher
+/content/handbook/engineering/devops/dev/create/remote-development/ @adebayo_a
+/content/handbook/engineering/devops/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
+/content/handbook/engineering/devops/dev/plan/knowledge.md @vshushlin
+/content/handbook/engineering/devops/dev/plan/product-planning.md @kushalpandya
+/content/handbook/engineering/devops/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/fulfillment/ @jeromezng @courtmeddaugh
 /content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez
 /content/handbook/engineering/development/fulfillment/provision.md @rhardarson @ppalanikumar
 /content/handbook/engineering/development/fulfillment/utilization/ @kkolpakova @courtmeddaugh
 /content/handbook/engineering/development/growth/ @kniechajewicz
-/content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
-/content/handbook/engineering/development/ops/deploy/ @nmezzopera
-/content/handbook/engineering/development/ops/package/ @crystalpoole
-/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams @nmezzopera
-/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @nmezzopera
-/content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
-/content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
-/content/handbook/engineering/development/ops/verify/ci-platform/ @cheryl.li @drew
+/content/handbook/engineering/devops/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
+/content/handbook/engineering/devops/ops/deploy/ @nmezzopera
+/content/handbook/engineering/devops/ops/package/ @crystalpoole
+/content/handbook/engineering/devops/ops/verify/ @cheryl.li @nicolewilliams @nmezzopera
+/content/handbook/engineering/devops/ops/verify/pipeline-authoring/ @nmezzopera
+/content/handbook/engineering/devops/ops/verify/pipeline-execution/ @cheryl.li
+/content/handbook/engineering/devops/ops/verify/runner/ @nicolewilliams
+/content/handbook/engineering/devops/ops/verify/ci-platform/ @cheryl.li @drew
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
 /content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @jayswain @nrosandich @fcatteau @mmishaev
@@ -170,18 +166,19 @@
 /content/handbook/engineering/development/sec/security-risk-management/security-insights @nmccorrison
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
+/content/handbook/engineering/training/ic-to-manager.md @dsatcher
 /content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
-/content/handbook/engineering/development/dev/create/code-review/ @phikai @andr3 @francoisrose @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/code-review/backend/ @francoisrose @phikai @kerrizor @marc_shaw @dskim_gitlab @garyh @patrickbajao @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/code-review/ @phikai @andr3 @francoisrose @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/code-review/backend/ @francoisrose @phikai @kerrizor @marc_shaw @dskim_gitlab @garyh @patrickbajao @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
 
 # CODEOWNER approvals are required for Source Code to support dogfooding approvals
 [Eng-SourceCode]
-/content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer

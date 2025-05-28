@@ -94,7 +94,7 @@ The Senior Legal Counsel is a [Grade 7](/handbook/total-rewards/compensation/com
 
 ### Senior Legal Counsel, Litigation Job Grade
 
-The Legal Counsel, Litigation is a [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Sr. Director, of Legal Risk Management and Dispute Resolution](/job-families/legal-and-corporate-affairs/risk-management-dispute-resolution/#senior-director-of-legal-risk-management--dispute-resolution)
+The Senior Legal Counsel, Litigation is a [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Sr. Director, of Legal Risk Management and Dispute Resolution](/job-families/legal-and-corporate-affairs/risk-management-dispute-resolution/#senior-director-of-legal-risk-management--dispute-resolution)
 
 ### Senior Legal Counsel, Litigation Responsibilities
 
