@@ -208,7 +208,15 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://{your-server-ip} (Can be found in the Variables section of your group under `$ip`) to see the results!
+1. To help store the deployment info, we want to store the server info in a GitLab environment. We can do this with the `environment` keyword. Above the `before_script` keyword, put the following info:
+
+```yaml
+environment:
+  name: prod
+  url: http://$ip:80
+```
+
+1. After the pipeline has successfully completed, you can navigate to **Deploy > Environments** , and see your environment has been deployed. Click on the **Open** button to access your newly deployed application.
 
 ## Lab Guide Complete
 
