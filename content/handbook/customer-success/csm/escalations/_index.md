@@ -270,7 +270,7 @@ Occasionally, customers will require a product leader to act as a stable counter
 
 ## CSE's role in Escalations
 
-If necessary, a regional CSE leader will assign a CSE for support on an escalation by creating a [CSE Help Request](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) in SFDC. The CSE should work with the regional CSE leader to determine next steps, but otherwise treat the request as any other CSE Help Request.
+If necessary, a regional CSE leader will request a CSE to support on an escalation. The CSE should work with the regional CSE leader to determine next steps. 
 
 ## Related Links
 
