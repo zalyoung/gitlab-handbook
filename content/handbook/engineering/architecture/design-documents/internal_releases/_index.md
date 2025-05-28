@@ -53,7 +53,7 @@ and self-managed remediation processes.
 
 * Internal releases: New private release strategy to remediate GitLab SaaS single tenant instances within [specific SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 * GitLab SaaS single tenant instances: SaaS instances managed by GitLab, Inc. At the moment limited to [GitLab Dedicated](https://about.gitlab.com/dedicated/).
-* High-severity issues: Bugs or security vulnerabilities defined as ~"severity::1" having an impact on [availability](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability), [functionality](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) or [critical for security](/handbook/security/product-security/vulnerability-management/sla/) on GitLab SaaS single tenant instances.
+* High-severity issues: Bugs or security vulnerabilities defined as ~"severity::1" having an impact on [availability](/handbook/product-development/issue-triage/#availability), [functionality](/handbook/product-development/issue-triage/#severity) or [critical for security](/handbook/security/product-security/vulnerability-management/sla/) on GitLab SaaS single tenant instances.
 * [Patch release](/handbook/engineering/releases/patch-releases) or self managed release: A semver versioned package backporting bug and security fixes based on the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html).
 * [Monthly release](/handbook/engineering/releases/#self-managed-overview): A semver versioned package containing features and bug fixes deployed to GitLab.com
 * [Auto-deploy](/handbook/engineering/deployments-and-releases/deployments/): GitLab process to deploy application changes to GitLab.com
