@@ -370,6 +370,15 @@ version. Additionally, we will create internal knowledge base articles for
 GitLab-specific implementations, addressing unique requirements and
 considerations for our environment.
 
+Additionally, each module will contain user and operator documentation on it's
+usage.  The common entrypoint will also provide an entrypoint for a
+documentation site that can be hosted on GitLab pages for internal customers.
+This will source the documentation from each module and compile all relevant
+documentation into a single source of truth for internal customers and operators
+to use as a reference.  This approach provides additional benefits, including
+aligning documentation with changes made to modules. This ensures that we can
+keep documentation updated alongside code changes made to the modules.
+
 ## Alternative Solutions
 
 ### Continue with Custom Implementations Per Team
