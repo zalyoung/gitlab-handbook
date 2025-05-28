@@ -73,3 +73,7 @@ Please use the [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mz
 ### What labels can I add?
 
 There are pre-populated labels to choose from, or create your own relevant to the article. Please avoid creating new labels without consulting with {{< member-by-name "Kirsty Allen" >}}.
+
+### How do I add internal notes to a knowledge article?
+
+Use the markdown editor in the knowledge article.  Add a comment using the comment out syntax (example <! adding notes that are not seen externally>). Commments will not be visiblle to the end user. For a visual see slide in the [knowledge slide here](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g34b9665e659_7_23#slide=id.g34b9665e659_7_23)
