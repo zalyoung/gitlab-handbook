@@ -30,7 +30,7 @@ The following teams are available through HelpLab:
 - [People Technology and Analytics](/job-families/people-group/people-systems-and-analytics/)
 - [Team Member Relations](/handbook/people-group/team-member-relations/)
 - [Absence Management](/handbook/people-policies/leave-of-absence/) & [Paid Time Off](/handbook/people-group/paid-time-off/)
-- [Stock Admin](/handbook/job-families/finance/accounting-operations/stock-administrator/)
+- [Stock Admin](/handbook/job-families/finance/accounting-operations/)
 - [Expenses](/handbook/finance/expenses/)
 - [Payroll (US & Non-US)](/handbook/finance/payroll/)
 - [CorpSec End User Services](/handbook/it/end-user-services/)
