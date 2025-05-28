@@ -112,7 +112,7 @@ Our sustainable procurement program includes the following initiatives:
 * Annual emissions survey to request data from suppliers in an effort to improve the accuracy of our footprint
 * Use strategic business reviews to understand key barriers suppliers face when measuring and reporting their emissions
 * Provide resources and training to suppliers on how to measure and reduce their greenhouse gas emissions
-* Provide resources and training to team members responsible for supplier selection on our new expectations of suppliers, alignef with applicable laws.
+* Provide resources and training to team members responsible for supplier selection on our new expectations of suppliers, aligned with applicable laws.
 
 We look forward to sharing updates on this new initiative.
 
