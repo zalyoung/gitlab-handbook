@@ -8,14 +8,13 @@ Performance Testing is a broad discipline that includes various approaches to ev
 
 ```mermaid
 flowchart LR
-  START((Start))
-
-  subgraph "Performace Testing Kit"
+  subgraph "Performance Testing Kit"
     GPT[[GitLab Performance Tool]]
     GBPT[[GitLab Browser Performance Tool]]
     CPT[[Component Performance Testing]]
   end
 
+  START((Start))
   UNIT[[Perf tests in Unit Tests]]
   PROFILE[[Profiling tools]]
 
@@ -40,6 +39,7 @@ flowchart LR
   ENV -- yes --> GPT
   ENV -- no --> UI
 
+  %% Class definition
   classDef decision fill:#f5f7f6,stroke:#333,stroke-width:1px,rx:5px;
   classDef tool fill:#F28C6B,stroke:#333,stroke-width:1px,color:white,rx:5px;
   classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
@@ -48,10 +48,21 @@ flowchart LR
   class GBPT,CPT,GPT,PROFILE,UNIT tool;
   class START start;
 
-  click GPT "#system-level-load-testing" "load testing tool"
-  click GBPT "#client-side-performance-testing"
-  click CPT "#component-performance-testing"
-  click PROFILE "#profiling"
+  %% Tool tooltips with links
+  click GPT "#system-level-load-testing" "GitLab Performance Tool - Load testing for GitLab instances and reference architectures"
+  click GBPT "#client-side-performance-testing" "Browser performance testing using SiteSpeed.io to measure user-facing performance"
+  click CPT "#component-performance-testing" "Load testing for specific subsystems or components like Gitaly"
+  click PROFILE "#profiling" "Ruby profiling tools: ruby-prof, stackprof, memory_profiler, rbspy, and others"
+
+  %% Decision node tooltips
+  click BUILT "javascript:void(0)" "Is the code/feature still under active development? Use early-stage performance tools if yes."
+  click SPECS "javascript:void(0)" "Are you writing new test specifications or adding performance assertions to existing tests?"
+  click UI "javascript:void(0)" "Are you primarily testing user-facing performance like page load times and UI responsiveness?"
+  click ENV "javascript:void(0)" "Are you testing server-side performance like API response times, database queries, or system throughput?"
+  click COMPONENT "javascript:void(0)" "Are you testing an isolated component or subsystem rather than the full GitLab application?"
+
+  %% Unit testing tooltip
+  click UNIT "javascript:void(0)" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
 ```
 
 ### Server-side Performance Testing
