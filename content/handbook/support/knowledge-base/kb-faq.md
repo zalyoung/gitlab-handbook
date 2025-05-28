@@ -27,7 +27,7 @@ Best Practices:
 - Have Clear instructions (Bullet Points, Pictures, Details)
 - Create the article based on the user context.
 - Write for Audience. How will they read it (their words).
-- Use Keywords (labels) for Search.
+- Use Keywords (Content tags) for Search. Search terms pull from Content Tags, Titles and Description of Knowledge articles 
 - Include Steps for work around, and troubleshooting.
 - Include Support information for further help if needed.
 
