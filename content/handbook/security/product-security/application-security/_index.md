@@ -18,12 +18,12 @@ The Application Security subdepartment provides operational application of DevSe
 We organize our work into five pillars that emphasize Developer UX in the context of traditional DevSecOps programs. We call this the Secure Developer eXperience, or SDX.
 
 - **SDX: Learn**: security training, governance, policy, documentation, and standards.
-- **SDX: Design**: [threat modeling](./threat-modeling/_index.md), feature design guidance and consultation, and [design reviews](./appsec-reviews.md).
+- **SDX: Design**: [threat modeling](threat-modeling/_index.md), feature design guidance and consultation, and [design reviews](appsec-reviews.md).
 - **SDX: Code**: static analysis, software component analysis and supply chain security, use of approved tools and methodologies in development, deprecation of unsafe functions, etc.
-- **SDX: Verify**: dynamic analysis testing, penetration testing, remediation of critical vulnerabilities, and [final security reviews](./appsec-reviews.md) prior to release.
+- **SDX: Verify**: dynamic analysis testing, penetration testing, remediation of critical vulnerabilities, and [final security reviews](appsec-reviews.md) prior to release.
 - **SDX: Maintain**: establishment of an incident response plan, managing [Coordinated Vulnerability Disclosure](https://about.gitlab.com/security/disclosure/), [bug bounty program administration](https://hackerone.com/gitlab?type=team), and critical product security incident response [release](https://about.gitlab.com/releases/categories/releases/) and post-release operations.
 
-The Application Security sub-department includes two teams, the [*Secure Design & Development Team*](./appsec-operations/sdd-services.md) and the [*Product Security Incident Response Team (PSIRT)*](./appsec-operations/psirt-services.md).
+The Application Security sub-department includes two teams, the [*Secure Design & Development Team*](appsec-operations/sdd-services.md) and the [*Product Security Incident Response Team (PSIRT)*](appsec-operations/psirt-services.md).
 
 ### Shared Accountabilities & Collaborations
 
@@ -31,7 +31,7 @@ The Application Security team partners with several other teams across the Secur
 
 #### Supply Chain Security
 
-Application Security's accountability is shared by both [SD&D](./appsec-operations/sdd-services.md) and [PSIRT](./appsec-operations/psirt-services.md). Additional Product Security teams involved in Supply Chain Security include [Security Platforms & Architecture](../security-platforms-architecture/), [Vulnerability Management](./vulnerability-management.md), and [Infrastructure Security](../infrastructure-security/).
+Application Security's accountability is shared by both [SD&D](appsec-operations/sdd-services.md) and [PSIRT](appsec-operations/psirt-services.md). Additional Product Security teams involved in Supply Chain Security include [Security Platforms & Architecture](../security-platforms-architecture/), [Vulnerability Management](vulnerability-management.md), and [Infrastructure Security](../infrastructure-security/).
 
 #### Dogfooding
 
@@ -39,22 +39,22 @@ Application Security's accountability is to use GitLab security products in our 
 
 #### Vulnerability Management
 
-The Application Security Team's accountability is shared by both [SD&D](./appsec-operations/sdd-services.md) and [PSIRT](./appsec-operations/psirt-services.md). The [Vulnerability Management](../vulnerability-management/) is DRI for Vuln Mgmt tooling development and implementation
+The Application Security Team's accountability is shared by both [SD&D](appsec-operations/sdd-services.md) and [PSIRT](appsec-operations/psirt-services.md). The [Vulnerability Management](../vulnerability-management/) is DRI for Vuln Management tooling development and implementation.
 
 #### Secure by design
 
-The Secure Design and Development Team's accountability is feature focused, assessing threats through [Threat Modeling](./threat-modeling/_index.md) and [feature design reviews](./appsec-reviews.md). (SDX: Design). The [Security Platforms & Architecture team](../security-platforms-architecture/) is DRI for Threat Modeling strategy company-wide, while AppSec is a critical stakeholder in this strategy.
+The Secure Design and Development Team's accountability is feature focused, assessing threats through [Threat Modeling](threat-modeling/_index.md) and [feature design reviews](appsec-reviews.md). (SDX: Design). The [Security Platforms & Architecture team](../security-platforms-architecture/) is DRI for Threat Modeling strategy company-wide, while AppSec is a critical stakeholder in this strategy.
 
 #### Security Response
 
-The [Product Security Incident Response Team's](./appsec-operations/psirt-services.md) accountability is to triage and technically assesses critical and exploitable vulnerabilities, determine company and customer risk, and coordinate external communications regarding these issues.  PSIRT has several partners across the company including:
+The [Product Security Incident Response Team's](appsec-operations/psirt-services.md) accountability is to triage and technically assesses critical and exploitable vulnerabilities, determine company and customer risk, and coordinate external communications regarding these issues.  PSIRT has several partners across the company including:
 
 - [Security Operations](../../security-operations/) is DRI for Incident Command and Threat Detection (IOCs, TTPs)
 - [Security Research](../../product-security/security-platforms-architecture/security-research/) is a key partner on exploitability and POC development
 - [PR and Communications](../../../security/external-security-communications-procedure.md)
 - [Legal](../../../legal/)
 - [Delivery](../../../engineering/infrastructure-platforms/gitlab-delivery/delivery/)
-- [Customer Suport](../../../security/customer-support-operations/)
+- [Customer Support](../../../security/customer-support-operations/)
 
 ## Out of Scope
 
@@ -79,8 +79,8 @@ In FY26, our key focus areas are:
 
 **Organizational Upleveling:**
 
-- Establish [Product Security Incident Response Team (PSIRT)](./appsec-operations/psirt-services.md)
-- Expand [Security Design & Development](./appsec-operations/sdd-services.md) team services at scale
+- Establish [Product Security Incident Response Team (PSIRT)](appsec-operations/psirt-services.md)
+- Expand [Security Design & Development](appsec-operations/sdd-services.md) team services at scale
 
 **Support [Company](../../../company/strategy.md) and [Division](../../../security/) Priorities:**
 

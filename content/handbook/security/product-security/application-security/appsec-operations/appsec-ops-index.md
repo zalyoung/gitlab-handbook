@@ -5,7 +5,7 @@ description: Application Security Team Operations home page
 <!-- markdownlint-disable MD052 -->
 Last updated: May 27, 2025
 
-The [**Application Security Subdepartment**](../../application-security/) is made up of two teams, the [**Secure Development and Design Team**](./sdd-services.md) and the [**Product Security Incident Response Team (PSIRT)**](./psirt-services.md). These two teams work together to anticipate and prevent the introduction of vulnerabilities during design and development, as well as identify, assess, and respond to security vulnerabilities discovered in GitLab products and services.
+The [**Application Security Subdepartment**](../../application-security/) is made up of two teams, the [**Secure Development and Design Team**](sdd-services.md) and the [**Product Security Incident Response Team (PSIRT)**](psirt-services.md). These two teams work together to anticipate and prevent the introduction of vulnerabilities during design and development, as well as identify, assess, and respond to security vulnerabilities discovered in GitLab products and services.
 
 ## Helpful Quicklinks for GitLab Engineers
 
@@ -52,7 +52,7 @@ AppSec team members should add any important information related to the work the
 - [Bug bounty council search](https://gitlab.com/gitlab-com/gl-security/engineering/-/issues?label_name%5B%5D=Bug+Bounty+Council)
 - [Upcoming patch release](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=upcoming+security+release)
 - [GitLab Project Security dashboard](https://gitlab.com/gitlab-org/gitlab/-/security/dashboard/?project_id=278964&scope=dismissed&page=1&days=90)
-- [Security issue board that tracks ongoing issues (hackerone and others)](https://gitlab.com/groups/gitlab-org/-/boards/1216545?label_name[]=security)
+- [Security issue board that tracks ongoing issues (HackerOne and others)](https://gitlab.com/groups/gitlab-org/-/boards/1216545?label_name[]=security)
 - [The latest releases](https://gitlab.com/gitlab-org/gitlab/-/tags)
 - [Overview of a project member permissions](https://gitlab.com/help/user/permissions)
 - [The DevOps stages and their different groups](/handbook/product/categories/). This page contains information on the development teams, their areas of focus, and their team members as well as the AppSec stable counterparts. It is used to assign issues to the stable counterparts.
