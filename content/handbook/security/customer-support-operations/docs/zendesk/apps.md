@@ -380,11 +380,13 @@ App information:
 The ZenDuo application enables Duo Chat to work with Zendesk tickets.
 
 You can choose from two pre-defined prompts:
+
 - Summarize conversation
 - Suggest KB article
 
 or define up to two custom prompts.\
 For each custom prompt, you configure:
+
 - Title: this is shown in the prompt dropdown list
 - Button: the text shown on the action button
 - Prompt: the actual prompt. Use the `<<ticket-content>>` placeholder, which will be replaced by the ticket content. 
@@ -394,6 +396,7 @@ When you run a prompt, the application will send the ticket content (excluding f
 Note that large tickets have to be sent in multiple parts, so it can take a while before Duo Chat replies.
 
 Once you've received a reply, you can choose:
+
 - Copy to clipboard: copy the complete conversation (prompts and replies) to the clipboard.
 - Chat: continue the conversation with Duo Chat.
 - Done: hide the conversation, and be ready to start a new one.
@@ -518,11 +521,13 @@ App information:
 The ZenDuo application enables Duo Chat to work with Zendesk tickets.
 
 You can choose from two pre-defined prompts:
+
 - Summarize conversation
 - Suggest KB article
 
 or define up to two custom prompts.\
 For each custom prompt, you configure:
+
 - Title: this is shown in the prompt dropdown list
 - Button: the text shown on the action button
 - Prompt: the actual prompt. Use the `<<ticket-content>>` placeholder, which will be replaced by the ticket content. 
@@ -532,6 +537,7 @@ When you run a prompt, the application will send the ticket content (excluding f
 Note that large tickets have to be sent in multiple parts, so it can take a while before Duo Chat replies.
 
 Once you've received a reply, you can choose:
+
 - Copy to clipboard: copy the complete conversation (prompts and replies) to the clipboard.
 - Chat: continue the conversation with Duo Chat.
 - Done: hide the conversation, and be ready to start a new one.
