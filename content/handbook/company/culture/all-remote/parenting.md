@@ -47,7 +47,7 @@ At GitLab, we prioritize healthy work-life balance in each of these areas:
 - [combating isolation and burnout](mental-health/#what-are-the-signs-of-remote-work-burnout)
 - [focus on mental health](being-a-great-remote-manager/)
 - [create healthy work/life balance](mental-health/#rest-and-time-off-are-productive)
-- [more working, less meeting](meetings/#make-meeting-attendance-optional)
+- [more working, less meeting](meetings/#1-make-meeting-attendance-optional)
 
 ## Q: How do I manage my work remotely with kids?
 

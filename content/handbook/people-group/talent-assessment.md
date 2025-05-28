@@ -142,7 +142,7 @@ Performance against Job Family responsibilities, requirements, performance indic
   - Example: [Software Engineer in Test](/job-families/engineering/software-engineer-in-test#performance-indicators)
 - *(if applicable)* [Functional Competencies](/handbook/people-group/competencies/#functional-competencies)
 
-For management roles, please also review and consider the [levels](/handbook/company/structure/#levels) outlined in the Organizational Structure.
+For management roles, please also review and consider the [levels](/handbook/company/structure/#layers) outlined in the Organizational Structure.
 
 #### GitLab Competencies
 
@@ -406,11 +406,11 @@ Aligned with the [timeline](#timeline), managers can see final assessments for e
 
 ## Promotions or Transfers During Assessment Cycle
 
-The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Please note, that a "transfer" constitutes as a change to one or multiple of the following things: job family, department, division, or job grade. A change in job title specialty and manager alone would not constitute as a transfer. 
+The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Please note, that a "transfer" constitutes as a change to one or multiple of the following things: job family, department, division, or job grade. A change in job title specialty and manager alone would not constitute as a transfer.
 
 Guidelines are as follows:
 
-1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** For example, if a Senior Manager is promoted to Director on 2024-11-02, they would be assessed as `Too New to Rate` for the Talent Assessment cycle. 
+1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** For example, if a Senior Manager is promoted to Director on 2024-11-02, they would be assessed as `Too New to Rate` for the Talent Assessment cycle.
 1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.** For example, if a Senior Manager is promoted to Director on 2024-09-15, they would be assessed based on the new Director-level role for the Talent Assessment cycle.
 1. **Exception for FY25 Talent Assessment Cycle**: Due to the transition of our promotion cycles, team members who receive a promotion effective in the FY26 Q1 (Feb 1) cycle, will receive a talent assessment rating that is reflective of their full FY25 performance, and not be classed as TNTR for this talent assessment cycle. For example, if a Senior Manager is promoted to Director effective 2025-02-01, their Talent Assessment should reflect their Senior Manager level to ensure we are capturing a full year of Performance and Growth Potential feedback.
 
@@ -571,11 +571,11 @@ Any of these factors can influence a team member's performance. Be prepared with
 
 You may be able to gather insights from your manager or cross functional stakeholders who have worked closely with the team member in the performance period. You may have access to the recent 360 feedback for each of your team members, as well as their talent assessment from last year to help inform your thinking. If you haven't already, it's important to ask the team member to share their own perspective on their accomplishments prior to you taking the role, so you are well prepared for the discussion of your assessment.
 
-**A team member recently moved to be my direct report, however for the majority of the performance year, they reported to another manager. Are there options to delegate or re-assign the manager evaluation to their previous manager?** 
+**A team member recently moved to be my direct report, however for the majority of the performance year, they reported to another manager. Are there options to delegate or re-assign the manager evaluation to their previous manager?**
 
 As a manager, you can delegate the manager evaluation to another manager in your direct management chain. If your team member moved from another manager in another organization, you should collaborate with the previous manager to write the review with their input. The previous manager can leverage the Talent Assessment [google template](https://docs.google.com/document/d/1bdGDq85nY3uLRFLrmKV5RDyQpGkPmnvGAI1pN_RRNto/edit) to capture their feedback and provide it back to you so that you can enter it into Workday. As the new manager, you will be responsible for the calibration of team members in your management chain at the time of calibration. You should also ensure your communication of the final talent assessment is done in a joint conversation with the previous manager, you as the new manager and your team member.
 
-This would be a great opportunity to ensure a formal transition and knowledge of performance and feedback takes place between previous manager and new manager. Please enter a HelpLab request if you have any questions about your specific scenario. 
+This would be a great opportunity to ensure a formal transition and knowledge of performance and feedback takes place between previous manager and new manager. Please enter a HelpLab request if you have any questions about your specific scenario.
 
 **My team member does not agree with their placement in performance and growth potential. How should I approach this?**
 
@@ -765,7 +765,7 @@ We exclude team members rated "TNTR" when we calculate our Key Talent distributi
 Below are a few examples to help managers think through Key Talent designations as they relate to Performance and Growth Potential:
 
 1. A team member that has a performance assessment of "Exceeding" is not automatically indentified as Key Talent. Perhaps they are doing exceptionally well in their role, but the impact on business performance may not be significant enough to meet the definition above.
-1. A team member that is new to the role due to recent promotion and rated "TNTR" could be identified as Key Talent if they are ramping successfully in their role and have a high impact on the ability for the company to achieve results. 
+1. A team member that is new to the role due to recent promotion and rated "TNTR" could be identified as Key Talent if they are ramping successfully in their role and have a high impact on the ability for the company to achieve results.
 
 *Note: Intentionally hoarding knowledge is in direct conflict with our [transparency value](/handbook/values/#transparency) and is viewed as a performance issue as we measure performance based on alignment with our values.*
 
@@ -813,7 +813,7 @@ We want to make sure we use engagement tools to retain Key Talent. A few of our 
 - **Learning & Development:** We want to support the growth of Key Talent and their competencies, skills, and knowledge by providing them with the tools they need and the opportunities to progress their own personal and professional development goals. As a people manager it's your priority to identify [L&D opportunities](/handbook/people-group/learning-and-development) for your team.
 - **Growth Opportunities:** As a people manager, it's important to have career conversations and identify growth opportunities with your team members. For Key Talent, it's especially important to discuss their motivation and ambitions. Growth opportunities can be both horizontal and vertical. Examples of growth opportunities are: expanding the scope within a team member's current role, a lateral move to a new role, or a promotion to the next level.
 - **Compensation:** At GitLab, compensation = cash + equity + benefits. We have a [market-based approach](/handbook/total-rewards/compensation/#market-based-approach) and differentiate pay based on performance. Our Annual Compensation Review Cycle and Annual Equity Refresh program allow us to differentiate compensation based on performance and for Key Talent.
-- **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to mitigate risk in the organization. 
+- **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to mitigate risk in the organization.
 
 **Note that being considered or designated as a key talent one year, does not mean or guarantee that a team member will be considered or designated as a key talent moving forward.**
 

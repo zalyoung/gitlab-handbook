@@ -39,7 +39,7 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We will update this page and the processes throughout the year.
 1. We'll review your pay as soon as your job-family or level factor changes.
 1. If we change our [SF benchmark](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark) for a job family without changing the requirements, we review the compensation both for existing team members and new hires. If the SF benchmark is changed together with the requirements this review might happen at the time of the change or in our yearly cycle.
-1. We offer [bonuses and incentives](/handbook/total-rewards/incentives/), but we don't offer ping pong tables or free lunches. We think it is more important to offer people flexibility and freedom. See the [Top 10 reasons to work for GitLab on our culture page](/handbook/company/culture/#advantages/).
+1. We offer [bonuses and incentives](/handbook/total-rewards/incentives/), but we don't offer ping pong tables or free lunches. We think it is more important to offer people flexibility and freedom. See the [Top 10 reasons to work for GitLab on our culture page](/handbook/company/culture/#advantages).
 1. We hire across the globe, but we're not location agnostic. Your timezone, the location factor in your region, and the vicinity to users, customers, and partners can all be factors. For example, we may favor one applicant over another because they live in a region with a lower location factor or because we need someone in that timezone.
 1. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission.
 1. Compensation decisions around level and experience levels and for functions not in the calculator are taken by the [Compensation Group](#compensation-group).
@@ -217,7 +217,7 @@ All [one-time bonuses](/handbook/total-rewards/incentives/) including Discretion
 
 ### Not paid in your local currency
 
-Team members contracted through CXC or IT BV may have the option to be paid in USD or EUR when there is volatility in their local currency. This change can be made only once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. 
+Team members contracted through CXC or IT BV may have the option to be paid in USD or EUR when there is volatility in their local currency. This change can be made only once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries.
 
 The conversion from local currency to USD or EUR will be calculated at the time of the update. All future salary adjustments will be based on the new currency amount, regardless of fluctuations in the local currency. This provides stable compensation for team members who opt into this arrangement.
 

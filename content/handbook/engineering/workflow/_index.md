@@ -543,8 +543,6 @@ All other important dates for a milestone are relative to the release date:
 - **Monday, 5 days before the milestone begins**:
   - Release scope is finalized. In-scope issues marked with milestone `%x.y`; label `~deliverable` applied.
   - Kickoff document is updated with relevant items to be included.
-- **Friday before the milestone begins**:
-  - [Group Kickoffs calls](/handbook/product/product-processes/#kickoff-meetings) recorded and uploaded.
 - **Monday immediately after the milestone begins**: ***Kick off!*** 📣
   - [Company Kickoff](#kickoff) call live streamed.
   - Development on milestone begins.
