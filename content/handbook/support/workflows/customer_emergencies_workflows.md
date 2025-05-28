@@ -41,6 +41,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 ### Emergencies
 
 Emergencies can be raised by GitLab customers by submitting reports on the [Emergency Support form](https://about.gitlab.com/support/#how-to-engage-emergency-support) for the following:
+
 - [Self-managed Emergencies](#handling-self-managed-emergencies)
 - [SaaS (GitLab.com) Emergencies](#saas-emergencies)
 - [Advanced or Signature Success Tier Emergencies](#supporting-247-coverage-for-customers-on-the-advanced-or-signature-success-tier----phase-1)
