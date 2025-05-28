@@ -120,7 +120,7 @@ In this task, you'll add a file with known vulnerabilities and see if SAST detec
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabfundamentalshandson).
 
 ## Suggestions?
 

@@ -102,7 +102,7 @@ Often, we use issues to represent smaller pieces of work that may be completed i
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabfundamentalshandson).
 
 ## Suggestions?
 
