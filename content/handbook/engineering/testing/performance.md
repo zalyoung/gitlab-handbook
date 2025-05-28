@@ -9,15 +9,21 @@ Performance Testing is a broad discipline that includes various approaches to ev
 ```mermaid
 flowchart LR
   START((Start))
-  GPT[[GitLab Performance Tool]]
-  GBPT[[GitLab Browser Performance Tool]]
-  CPT[[Component Performance Testing]]
+
+  subgraph "Performace Testing Kit"
+    GPT[[GitLab Performance Tool]]
+    GBPT[[GitLab Browser Performance Tool]]
+    CPT[[Component Performance Testing]]
+  end
+
   UNIT[[Perf tests in Unit Tests]]
   PROFILE[[Profiling tools]]
+
   SPECS{writing tests?}
   BUILT{Is the code\nstill being written}
-  UI{Is this UI affecting}
+  UI{Is the UX the main concern?}
   ENV{Is server performance\nthe main concern?}
+  COMPONENT{Testing a\ncomponent?}
 
   START --> BUILT
   BUILT -- no --> ENV
@@ -26,7 +32,10 @@ flowchart LR
   SPECS -- no --> PROFILE
 
   UI -- yes --> GBPT
-  UI -- no --> CPT
+  UI -- no --> COMPONENT
+
+  COMPONENT -- yes --> CPT
+  COMPONENT -- no --> GPT
 
   ENV -- yes --> GPT
   ENV -- no --> UI
