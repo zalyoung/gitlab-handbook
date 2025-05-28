@@ -7,11 +7,6 @@ GitLab believes in [Open Development](https://about.gitlab.com/blog/2015/12/16/i
 
 Any GitLab team-member can triage issues. Keeping the number of un-triaged issues low is essential for maintainability, and is our collective responsibility. Consider triaging a few issues around your other responsibilities, or scheduling some time for it on a regular basis.
 
-## Partial Triage
-
-The [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) own the issue triage process, but there is no capacity to manually triage issues without a group label at present.
-We rely on a combination of self and [AI triage](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/c003f65c94ff55a6b43c0b5c8c8ac0173618c0a5/policies/stages/report/untriaged-issues.yml).
-
 ## Complete Triage
 
 An issue is considered completely triaged when all of the following criteria are met:
