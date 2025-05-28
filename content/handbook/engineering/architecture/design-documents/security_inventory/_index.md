@@ -24,7 +24,7 @@ Implement a Security Inventory feature that provides project and group-level vis
 1. Maintain up-to-date analyzer status information at both project and namespace levels
 2. Pre-calculate namespace-level statistics to avoid costly aggregation operations
 3. Propagate changes up the hierarchy when updates occur
-4. Include a schedule alignment service to detect and correct data drift
+4. Include a recurring alignment service to detect and correct data drift
 
 
 ### Motivation
@@ -66,7 +66,6 @@ Access to the Security Inventory is limited to Owners and Maintainers of a given
 
 
 ### Design Details
-TO_ADD
 
 
 ##### Approach
@@ -78,7 +77,7 @@ TO_ADD
 
 2. **Data Collection**:
    - Update analyzer statuses based on detected security scanner executions in a post-pipeline execution step
-   - Calculate and store vulnerability statistics when new security findings are generated, when dismissing a finding, when moving a project/group, or when deleting a project/group
+   - Calculate and store vulnerability statistics when new vulnerabilities are generated, when changing the state of a vulnerability, when moving a project/group, or when deleting a project/group
 
 3. **Data Integrity**:
    - Implement a schedule alignment services to detect and correct data drift
@@ -111,13 +110,6 @@ TO_ADD
 5. **User Permissions**:
    - Show only projects and groups that the user has access to
    - Apply appropriate access controls for security information
-
-
-##### Workflow
-TO_ADD
-
-
-##### Auditing
 
 
 ##### Application Programmer Interfaces (APIs)
@@ -233,14 +225,3 @@ The system will utilize the following tables:
    );
    ```
 
-
-### Constraints
-TO_ADD
-
-
-### Security inventory workflow diagrams
-TO_ADD
-
-
-#### Security inventory definition
-TO_ADD
