@@ -44,11 +44,11 @@ flowchart LR
   classDef tool fill:#F28C6B,stroke:#333,stroke-width:1px,color:white,rx:5px;
   classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
 
-  class UI,ENV,BUILT,COMPONENT decision;
+  class UI,ENV,BUILT,COMPONENT,SPECS decision;
   class GBPT,CPT,GPT,PROFILE,UNIT tool;
   class START start;
 
-  click GPT "#system-level-load-testing"
+  click GPT "#system-level-load-testing" "load testing tool"
   click GBPT "#client-side-performance-testing"
   click CPT "#component-performance-testing"
   click PROFILE "#profiling"
