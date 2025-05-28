@@ -711,6 +711,12 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - Opportunity Closed Won status
     - All other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) are met
 
+### Additional Resources
+
+- Service Attached Enablement Deck
+- Service Attached Enablement Recording
+- Frequently Asked Questions 
+
 ### Additional Information
 
 - `PSP Engaged` on the software opportunity will automatically check when the linked `Service Attach Partner` is a Designated Professional Services Partner (PSP)
