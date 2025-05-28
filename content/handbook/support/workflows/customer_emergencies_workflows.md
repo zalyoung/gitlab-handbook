@@ -41,7 +41,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 ### Emergencies
 
 Emergencies can be raised by GitLab customers by submitting reports on the [Emergency Support form](https://about.gitlab.com/support/#how-to-engage-emergency-support) for the following:
-- [Self-managed Emergencies](#self-managed-emergencies)
+- [Self-managed Emergencies](#handling-self-managed-emergencies)
 - [SaaS (GitLab.com) Emergencies](#saas-emergencies)
 - [Advanced or Signature Success Tier Emergencies](#supporting-247-coverage-for-customers-on-the-advanced-or-signature-success-tier----phase-1)
 - [License Emergencies](#license-emergencies)
@@ -132,6 +132,7 @@ As the CEOC you will work with the customer along with other Support Engineers t
     1. Alternatively, use Zendesk search with the term `priority: urgent` to find the ticket.
 
 ### Stage 2: Evaluate
+
 1. Verify that the requester has an active subscription at Premium level or
    above, and is therefore entitled to emergency support. If they are not,
    lower the priority of the ticket and inform the customer kindly that their
@@ -141,6 +142,7 @@ As the CEOC you will work with the customer along with other Support Engineers t
 1. If the situation does not qualify as an emergency, work on [downgrading the emergency report](#handling-an-emergency-downgrade).
 
 ### Stage 3: Engage
+
 1. Offer a [call](#taking-an-emergency-customer-call) to the customer if appropriate to the reported situation. A SaaS emergency related to a public incident published on the status page, for example, would not warrant a call.
    - Example of self-managed emergency ticket which was resolved without a call: <https://gitlab.zendesk.com/agent/tickets/148028>
 1. Only Resolve the PagerDuty alert *after* you have contacted the customer. This means that you are actively handling the emergency now and will see it through.
@@ -156,6 +158,7 @@ As the CEOC you will work with the customer along with other Support Engineers t
 **NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
 ### Stage 4: Resolve
+
 1. Work with the customer on the call and identify the issue by:
     - Collecting logs and searching the errors.
     - Verifying configuration files.
