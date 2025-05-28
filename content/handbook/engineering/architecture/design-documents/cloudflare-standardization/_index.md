@@ -134,7 +134,7 @@ organizational consistency and security standards.
   preferred partner, Cloudflare
 - Establish consistent security and compliance standards across all Cloudflare
   implementations
-- Create a collaborative relationship where the Foundations team provides
+- Create a collaborative relationship where the module maintainers provide
   expertise and tooling while teams maintain ownership of their specific
   implementations
 - Deliver flexible and extensible modular configurations that accommodate both
@@ -143,6 +143,12 @@ organizational consistency and security standards.
   patterns
 - Establish a foundation for efficient upgrades and security improvements across
   all implementations
+- Centralized documentation for internal customers and operator audiences that
+  provides a single source of truth
+- Increase internal customer autonomy through thorough documentation, enabling
+  self-serve implementation and support
+- A defined process for interaction with the maintainer team for support not
+  detailed in our documentation
 
 ### Non-Goals
 
@@ -152,6 +158,7 @@ organizational consistency and security standards.
   foundational modules that teams can use to build their own solutions
 - Managing the day-to-day operations of each team's specific Cloudflare
   configurations
+  - This includes configuration changes and version upgrades of the modules
 - Replicating Cloudflare functionality within GitLab's product offerings
 
 ## Proposal
@@ -184,8 +191,9 @@ The proposed solution centers around a hierarchical Terraform module structure
 that provides a main entry-point module for common use cases with sensible
 defaults. This will be complemented by specialized sub-modules for teams that
 need finer control over specific aspects of their Cloudflare
-configuration. Additionally, we will create data-only modules to provide
-standardized configuration patterns that can be reused across implementations.
+configuration. Additionally, we will create data-only submodules for each module
+to provide standardized configuration patterns that can be reused across
+implementations.
 
 A key aspect of our approach is establishing a standardized interface for the
 same functionality across modules. This includes consistent variable naming and
@@ -250,10 +258,10 @@ teams with straightforward needs.
 
 Beneath the root module, we will implement several standalone modules that
 specialize in a specific Cloudflare functionality area. Examples include
-`cloudflare/dns` for DNS configuration, `cloudflare/waf` for Web Application
-Firewall configuration, and `cloudflare/rate-limits` for rate limiting
-rules. These specialized modules allow teams to focus on the specific Cloudflare
-features they need when more implementation flexibility is required.
+`cloudflare/dns` for DNS configuration, and `cloudflare/waf` for Web Application
+Firewall configuration. These specialized modules allow teams to focus on the
+specific Cloudflare features they need when more implementation flexibility is
+required.
 
 When we observe common configuration patterns emerging across implementations,
 we will document these use cases, and for very common instances we will develop
@@ -330,6 +338,25 @@ versions, and providing deprecation notices with transition periods when
 interfaces need to change. This approach will allow teams to upgrade their
 implementations with confidence, knowing that they won't experience unexpected
 breakages.
+
+We will be following [semantic versioning principles](https://semver.org/) for
+module releases.
+
+Specifically:
+
+- Major Version (*X*.y.z): Incremented when breaking interface changes are
+  released that require manual intervention for implementers
+- Minor Version (x.*Y*.z): Incremented when additional functionality is implementd
+  in the module that does not require manual intervention for implementers
+- Patch Version (x.y.*Z*): Incremented when non-functional changes (e.g. bug
+  fixes and doc updates) are released, that do not require manual intervention
+  for implementors
+
+These versions will be tagged in the repository related to the module, and
+released to our terraform module registry with the matching version.
+
+For any major version change, we *MUST* provide upgrade documentation for any
+manual interventions required for implementors.
 
 ### Documentation Strategy
 
