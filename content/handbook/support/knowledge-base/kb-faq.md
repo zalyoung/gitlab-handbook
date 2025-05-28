@@ -52,7 +52,6 @@ Yes! A list of available training resources is available on the Knowledge Base t
 ### How do I become a Knowledge Champion/Technical Reviewer?
 
 Review the [Technical Reviewers responsibilities](_index.md#technical-reviewers-knowledge-champions) before committing to the role.
-
  - Technical Reviewers are designated by their Managers. If you wish to become a technial reviewer, please reach out to your manager. Your manager will work with the Knowledge Management DRI.
 
 Contact {{< member-by-name "Kirsty Allen" >}} to get added to the Technical Reviewer list.
