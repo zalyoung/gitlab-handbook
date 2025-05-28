@@ -169,8 +169,8 @@ Service Attached Registrations that do not qualify for approval for the rebate p
 - Education/Training services
 
 #### Returned
-- Returned to the partner for more information
 
+- Returned to the partner for more information
 
 ##### Quote to Order
 
