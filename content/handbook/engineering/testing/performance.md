@@ -18,8 +18,8 @@ flowchart LR
   UNIT[[Perf tests in Unit Tests]]
   PROFILE[[Profiling tools]]
 
-  SPECS{writing tests?}
-  BUILT{code still\nbeing written?}
+  SPECS{Testing with\nnew unit tests?}
+  BUILT{Testing during\ndevelopment?}
   UI{Testing user-facing\nperformance?}
   ENV{Testing backend/API\nperformance?}
   COMPONENT{Testing component\nperformance?}
