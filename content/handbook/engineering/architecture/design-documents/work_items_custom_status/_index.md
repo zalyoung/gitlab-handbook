@@ -601,8 +601,7 @@ This section documents key architectural and implementation decisions made durin
 1. When the default open/closed/duplicate status of a lifecycle is changed, [it only affects new transitions and new item creations](https://gitlab.com/gitlab-org/gitlab/-/issues/498394#note_2450687886).
 1. [We decided on limits](https://gitlab.com/groups/gitlab-org/-/epics/17321#note_2451571648): max. `70` statuses and
    `50` lifecycles per namespace and `30` statuses per lifecycle.
-1. We'll [set default open/closed statuses for all items of supported work item types](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/187686#note_2456571060)
-   regardless of feature flag state and license.
+1. We'll set the statuses for all items of supported work item types only if the feature flag state and license are enabled.
 1. We'll [show the default open status as a preselected value on the work item create form](https://gitlab.com/gitlab-org/gitlab/-/issues/526531#note_2457132393).
 1. We'll be implementing work item [status badge and filters in legacy issues list](https://gitlab.com/gitlab-org/gitlab/-/work_items/508015#note_2461199237).
 1. [Expanding support to epics](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13402#note_2491127675), including the epic detail view, epic list view,
