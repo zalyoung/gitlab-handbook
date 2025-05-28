@@ -4,8 +4,6 @@ title: Elevate
 
 Elevate is a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
 
-**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
-
 Managers at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
 The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
@@ -33,11 +31,11 @@ In Elevate, participants will:
 
 ## How is the program structured?
 
-Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module.
+Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module. The session dates will be updated for the next cohort beginning in May soon.
 
-![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviews.png)
+![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviewsv2.png)
 
-All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place. If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 
 We ask that team members make an effort to attend the live sessions, and engage in them fully, with cameras on. This enhances the experience for other team members and fosters an environment which promotes more active engagement and discussion with the concepts being discussed.
 

@@ -25,7 +25,7 @@ The VP of UX is a [grade 12](/handbook/total-rewards/compensation/compensation-c
 - **UX initiatives:** Identify ways to elevate the GitLab product experience, manage initiatives to address those concerns, and track and communicate about progress.
 - **Coach UX leaders:** Help UX leaders grow their skills and leadership experience.
 - **Culture:** Foster an open and collaborative culture based on trust in the UX department, where everyone feels empowered to do their best work.
-- **Cross-product collaboration:** Ensure that UX is well-integrated into the [Product Development Flow](/handbook/product-development-flow/), and advocate for process changes that help product management, engineering, and UX work together to build a great experience.
+- **Cross-product collaboration:** Ensure that UX is well-integrated into the [Product Development Flow](/handbook/product-development/product-development-flow/), and advocate for process changes that help product management, engineering, and UX work together to build a great experience.
 - **Design system:** Define and promote design guidelines, best practices, and standards, and help to drive GitLab's [design system](https://design.gitlab.com/) forward at a strategic level.
 - **Research evangelism:** Work with product leadership to prioritize research efforts, so that we validate whether we're solving the right problems in the right ways.
 - **Democratize UX:** Ensure that Development is included in the UX process by offering the opportunity to participate in and understand the outcomes of user research, give early feedback on upcoming designs, and participate in design system strategy.
@@ -48,7 +48,7 @@ The VP of UX is a [grade 12](/handbook/total-rewards/compensation/compensation-c
 
 #### Interview Process
 
-- [Screening call](/handbook/hiring/#screening-call) with a recruiter.
+- [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter.
 - Interview with a manager on the UX Leadership team. In this interview, the interviewer will spend a lot of time trying to understand the experience you have leading managers, as well as what type of teams you have led and your management style. The interviewer will also be looking to understand how you define strategy, how you've handled conflict, and how you dealt with difficult situations in the past. Do be prepared to talk about your work, experience with Design Systems, and technical ability, too.
 - Interview with a director on the UX Leadership team. In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a large initiative you led the work on. We'll look to understand the size and structure of the team, the goals of the project, how you/the team approached research, how you used research to inform decisions, and how you collaborated with the wider team. Broadly, we want to hear how you identified what needed to be done and then guided your team to the end result.
 - Interview with VP of Product Management.
@@ -82,7 +82,7 @@ The VP of Product Management is a [grade 12](/handbook/total-rewards/compensatio
 - Align team with end-to-end product line vision and goals
 - Leverage portfolio product management techniques to ensure product investments are properly allocated across the end-to-end GitLab product
 - Partner effectively with Engineering, Design, and Product Marketing to ensure we validate, build, launch, and measure product experiences that customers love and value
-- Help refine and implement the GitLab [product development flow](/handbook/product-development-flow/), ensuring team members receive training and coaching required to work effectively within the system
+- Help refine and implement the GitLab [product development flow](/handbook/product-development/product-development-flow/), ensuring team members receive training and coaching required to work effectively within the system
 - Serve as a spokesperson for the end-to-end GitLab product internally and externally
 
 #### VP of Product Management - Requirements
@@ -169,7 +169,7 @@ The Senior Director of Product Management - Dev & Analytics is the PM DRI for th
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with the Chief Product Officer
 - Next, candidates will be invited to schedule a 45 minute second peer interview with a Product Director
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Product team

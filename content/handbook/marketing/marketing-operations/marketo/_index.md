@@ -107,7 +107,7 @@ Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1c
 
 Localized forms require special hidden fields to properly capture `Preferred Language`. Refer to [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10025) for detailed set-up instructions.
 
-If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then [request help](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
+If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/) and then [request help](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
 
 All forms should follow these guidelines:
 
@@ -345,7 +345,7 @@ A `lead score classification` is a 2-character score/designation meant to classi
 
 The Lead Classification Matrix and the Lead Classification Definitions Table [exist in Figma](https://www.figma.com/file/U4GBe693vvyyrXZnMGGjS7/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=PZBNGKUfGQo8Ocvn-1), if the handbook page ever becomes broken.
 
-![Lead Classification Matrix](/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
+![Lead Classification Matrix](/images/marketing/marketing-operations/marketo/lead_classification_matrix.png)
 
 #### How to use the Lead Classification Matrix and read the Lead Classification
 

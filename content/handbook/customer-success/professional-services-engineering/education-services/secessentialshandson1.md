@@ -45,7 +45,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
 
-### Task B. Create a Project
+## Task B. Create a Project
 
 1. Click the **Create blank project** tile.
 
@@ -66,20 +66,6 @@ Please take time to understand any code that you are asked to copy and paste in 
 1. Ensure that the **Enable Static Application Security Testing (SAST)** checkbox remains unchecked. For this lab, we will add the SAST functionality manually.
 
 1. Click **Create project**.
-
-## Task B. Turn Off Auto DevOps
-
-> By default, projects in some GitLab environments will enable Auto DevOps when no CI configuration file is found in a project. To avoid any conflicts between our CI/CD configuration and Auto DevOps, you should confirm that Auto DevOps is disabled in your project.
-
-1. In the left sidebar, navigate to **Settings > CI/CD**.
-
-1. Click on the **Expand** button next to Auto DevOps.
-
-1. Ensure that **Default to Auto DevOps pipeline** is unchecked.
-
-1. Click the **Save changes** button.
-
-1. In the left sidebar, navigate to **Code > Repository** to return to your code.
 
 ## Task C. Enable and Configure SAST
 
@@ -105,7 +91,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     - template: Security/SAST.gitlab-ci.yml
     ```
 
-    > It is also possible to configure SAST through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure SAST** button. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
+    > It is also possible to configure SAST through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Enable SAST** button. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
 
 1. Add a variables section to the end of your `.gitlab-ci.yml` file and set the `SAST_EXCLUDED_PATHS: venv/`.
 
@@ -118,9 +104,11 @@ Please take time to understand any code that you are asked to copy and paste in 
     >
     > As an example, Python projects often contain a `venv` directory that contains packages used by the project. Since this directory does not contain our own source code, we should exclude it from the SAST scan.
     >
-    > A full list of SAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/sast/#available-cicd-variables">documentation</a>.
+    > A full list of SAST variables can be found in the [documentation](https://docs.gitlab.com/user/application_security/sast/#available-cicd-variables).
 
-1. Add an appropriate commit message (ex. `Add SAST template to .gitlab-ci.yml`), set the **Target Branch** to `main`, then click the **Commit changes** button.
+1. Click the **Commit changes** button, add an appropriate commit message (ex. `Add SAST template to .gitlab-ci.yml`),  and ensure that the 'Commit to the current `main` branch option is selected.
+
+1. Click the **Commit changes** button.
 
 1. Once complete, you will have a `.gitlab-ci.yml` file that looks like this:
 
@@ -166,15 +154,15 @@ Please take time to understand any code that you are asked to copy and paste in 
     print("Application authentication was successful")
     ```
 
-1. Add an appropriate commit message (Ex. `Add prompt for server authentication`), set the target branch to `add_auth`.
+1. Click the **Commit changes** button, Add an appropriate commit message (Ex. `Add prompt for server authentication`), set the target branch to `add_auth`.
 
     > Setting the target branch to `add_auth` will create a new branch named `add_auth`, and open a merge request on the branch.
 
-1. Make sure that the **Start a new merge request with these changes** checkbox is checked.
+1. Make sure that the **Create a new merge request for this change** checkbox is checked.
 
 1. Click the **Commit changes** button.
 
-1. In the resulting merge request, set the name to `Add prompt for server authentication`, and leave all the fields as default.
+1. In the resulting merge request, set the name to `Add prompt for server authentication`, and leave the rest of the fields as default.
 
 1. Click the **Create merge request** button.
 
@@ -184,7 +172,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > You may need to refresh the page to see the new security scan section.
 
-1. In this example, the security scan will show 1 new high vulnerability. To view the details of the vulnerability report, click the **View all pipeline findings** button.
+1. In this example, the security scan will show 1 new high vulnerability. To view the details of the vulnerability report, click the **View all pipeline findings** option.
 
 ## Task E. Merge Request Vulnerability Report
 
@@ -225,7 +213,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     print("Application authentication was successful")
     ```
 
-1. Click the **Commit changes** button.
+1. Click the **Commit changes** button, then click the **Commit changes** again.
 
     > You may need to refresh the page to see the latest changes.
 
@@ -253,7 +241,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     - template: Security/Secret-Detection.gitlab-ci.yml
     ```
 
-    > It is also possible to configure Secret Detection through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure Secret Detection** button. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
+    > It is also possible to configure Secret Detection through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure with a merge request** button under **Pipeline Secret Detection**. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
 
 1. Configure Secret Detection to ignore the test directory by pasting this job definition at the end of `.gitlab-ci.yml`. The first line should have no indent.
 
@@ -265,7 +253,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > To configure Secret Detection to use non-default behavior, you can override the **secret_detection** job definition and add variables inside it.
     >
-    > A full list of Secret Detection variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/secret_detection/#available-cicd-variables">documentation</a>.
+    > A full list of Secret Detection variables can be found in the [documentation](https://docs.gitlab.com/user/application_security/secret_detection/pipeline/configure/#customize-analyzer-behavior).
 
 1. Your `.gitlab-ci.yml` file will now look like this.
 
@@ -307,9 +295,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 > When the security scanners find vulnerabilities, you need to keep track of whether they should be fixed or ignored. You do this by setting a vulnerability's **status**. There are several ways to do so, but in this lab you'll set status inside the Vulnerability Report.
 
-1. There is a vulnerability in the report with the description `RSA private key`. This vulnerability indicates that a RSA private key is written in our repository. By looking at the code, we can confirm that there is an RSA private key in the code.
-
-1. The second vulnerability, `GitLab Personal Access Token` implies that a GitLab token is present in the code. By looking at the code, we can confirm that this is true as well.
+1. There is a vulnerability in the report with the description `RSA private key`. This vulnerability indicates that a RSA private key is written in our repository. By looking at the code, we can confirm that there is an RSA private key in the code. The second vulnerability, `GitLab Personal Access Token` implies that a GitLab token is present in the code. By looking at the code, we can confirm that this is true as well.
 
 1. Since the vulnerabilities do exist in the code, click the checkbox next to each vulnerability. In the **Set status** dropdown, click **Confirm**. Click **Change status**.
 
@@ -323,11 +309,9 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Name the branch `fix-rsa`.
 
-1. Leave the **Create from** dropdown as the default value `main`.
+1. Leave the **Create from** dropdown as the default value `main`, and click the **Create branch** button.
 
-1. Click the **Create branch** button.
-
-1. You'll be returned to the **Files** page for the `fix-rsa` branch. Click the file `main.py`.
+1. You'll be returned to the **Repository** page for the `fix-rsa` branch. Click the file `main.py`.
 
 1. In the top right above the code, navigate to **Edit > Edit single file**.
 
@@ -359,9 +343,11 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the **Commit changes** button.
 
-1. At the top of the change confirmation page, click the **Create merge request** button.
+1. Make sure the **Commit to the current fix-rsa branch** option is selected, then click **Commit changes**.
 
-1. Leave all of the fields at their default values, then click the **Create merge request** button.
+1. Click the **Create merge request** button.
+
+1. Keep all the options as their default, and click **Create merge request**.
 
 1. On the merge request page, wait for the pipeline to complete.
 

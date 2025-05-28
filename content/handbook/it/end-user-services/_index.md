@@ -52,7 +52,7 @@ Please visit the GitLab Onboarding and machine management [handbook page](/handb
 
 #### GitLab Laptop Offboarding
 
-Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](/handbook/it/end-user-services/gitlab-laptop-offboarding/)
+Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/)
 
 #### Self-help and troubleshooting
 
@@ -64,7 +64,7 @@ New to GitLab and looking for some IT tips and tricks? This is the spot for you,
 
 #### Offboarding
 
-- Are you or a direct report leaving the company? Please reference the [Offboarding](/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
+- Are you or a direct report leaving the company? Please reference the [Offboarding](https://internal.gitlab.com/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> Automations
 
@@ -152,11 +152,17 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 
 - Senior IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
 
+- Senior IT Analyst Americas - Madison Spry, mspry@gitlab.com, @mspry_gl
+
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
+
+- IT Analyst APAC - Bryan Mathews, bmathews@gitlab.com, @bryannoel
 
 - IT Analyst EMEA - Bruno Ferreira, bferreira@gitlab.com, @bruno.n.ferreira
 
-- IT Analyst EMEA - Eoghan Dunne, edunne@gitlab.com, @edunne-gl
+- Senior IT Analyst EMEA - Eoghan Dunne, edunne@gitlab.com, @edunne-gl
+
+- IT Analyst EMEA - Laurie McClafferty, lmcclafferty@gitlab.com, @laurie.mcc
 
 - IT Global Logistics - Mic Rohr, mrohr@gitlab.com, @mic_rohr
 
@@ -170,8 +176,14 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 
 - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - AMER
 
+- Madison Spry - [appointment schedule](https://calendar.app.google/jZFyqNk5S6dFXq1r9) - AMER
+
 - Max Hirata - [appointment schedule](https://calendar.app.google/CMK6dKUN2otv1wsWA) - APAC
+
+- Bryan Mathews [appointment schedule](https://calendar.app.google/8Jg3QkeCUdmg4sqK8) - APAC
 
 - Bruno Ferreira - [appointment schedule](https://calendar.app.google/zKj8AH9c8VmAcYX48) - EMEA
 
 - Eoghan Dunne - [appointment schedule](https://calendar.app.google/BXECy3uLpUKdNbHe6) - EMEA
+
+- Laurie McClafferty - [appointment schedule](https://calendar.app.google/EjUYz5g67Ud8dVCz9) - EMEA

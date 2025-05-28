@@ -99,12 +99,12 @@ We have 24x5 coverage provided by [Helpdesk Support Analysts](/handbook/security
   - [Onboarding (Joiner) Provisioning (Baseline Entitlements) and User Support](/handbook/security/corporate/services/onboarding)
   - [Offboarding (Leaver) Deprovisioning](/handbook/security/corporate/services/offboarding)
   - [Service Accounts](/handbook/security/corporate/services/service-accounts)
-  - [Temporary Service Providers](/handbook/security/corporate/services/temporary-service-providers)
+  - [Temporary Service Providers](/handbook/security/corporate/services/temporary-users/)
 - [Infrastructure Management](/handbook/security/corporate/services/infrastructure)
   - [AWS](/handbook/security/corporate/systems/aws)
-  - [GCP](/handbook/security/corporate/systems/gcp)
+  - [GCP](/handbook/security/corporate/systems/google/cloud/)
 - [Laptops and Logistics](/handbook/security/corporate/services/laptops)
-- [Tech Support for Team Members](/handbook/security/corporate/services/support)
+- [Tech Support for Team Members](/handbook/security/corporate/services/helpdesk/)
   - [Account Password and 2FA Resets](/handbook/security/corporate/support/reset)
 
 **Please ask for assistance in the `#it_help` Slack channel.**

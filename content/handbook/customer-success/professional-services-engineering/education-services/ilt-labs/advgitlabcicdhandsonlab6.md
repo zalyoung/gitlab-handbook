@@ -21,37 +21,25 @@ For this task, we will be creating a web application to run in our review enviro
 
 1. Select **Edit > Edit in pipeline editor**.
 
-1. In your `install deps` job, add an install for express:
+1. When we add express code into our `index.js` file, our tests will no longer be able to run against `index.js`, since running this will create a webserver that waits for connections. For now, we will comment our tests out. To do this, place a `#` character in front of each line of the jobs as shown below:
 
     ```yml
-    install deps: &cachedef
-      stage: deps
-      script:
-        - npm install jest-junit
-        - npm install express
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+      #test binarysearch:
+      #  before_script:
+      #    - npm install -g jest
+      #  script:
+      #    - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+      #  <<: [*artifactdef, *cachedef]
+
+      #test linearsearch:
+      #  before_script:
+      #    - npm install -g jest
+      #  script:
+      #    - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+      #  <<: [*artifactdef, *cachedef]
     ```
-
-1. When we add express code into our `index.js` file, our tests will no longer be able to run against `index.js`, since running this will create a webserver that waits for connections. For now, we will comment our tests out. To do this, place a `.` character in front of each test job as shown below:
-
-    ```yml
-      .test binarysearch:
-        before_script:
-          - npm install -g jest
-        script:
-          - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-        <<: [*artifactdef, *cachedef]
-
-    .test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-      <<: [*artifactdef, *cachedef]
-    ```
+    
+    > A tip when commenting multiple lines is to select them all and press **ctrl + /** on Windows or **cmd + /** on Macs to toggle between commented / uncommented. 
 
 1. Select **Commit changes**.
 
@@ -77,56 +65,58 @@ For this task, we will be creating a web application to run in our review enviro
     })
     ```
 
+1. Commit your changes.
+
 After these changes, the `index.js` file should look like this:
 
   ```js
-    //A binary search will search a sorted list in log(n) time
-    module.exports.binarySearch = function binarySearch(arr, val) {
-        let start = 0;
-        let end = arr.length - 1;
-        while (start <= end) {
-            let mid = Math.floor((start + end) / 2);
-            if (arr[mid] === val) {
-                return mid;
-            }
-            if (val < arr[mid]) {
-                end = mid - 1;
-            } else {
-                start = mid + 1;
-            }
-        }
-        return -1;
-    }
+  //A binary search will search a sorted list in log(n) time
+  module.exports.binarySearch = function binarySearch(arr, val) {
+      let start = 0;
+      let end = arr.length - 1;
+      while (start <= end) {
+          let mid = Math.floor((start + end) / 2);
+          if (arr[mid] === val) {
+              return mid;
+          }
+          if (val < arr[mid]) {
+              end = mid - 1;
+          } else {
+              start = mid + 1;
+          }
+      }
+      return -1;
+  }
 
-    module.exports.linearSearch = function linearSearch(arr, val){
-      let index = 0;
-      let found = false;
-      while (!found && index < arr.length){
-        if (arr[index] == val){
-            found = true;
-        }else{
-          index += 1;
-        }
-        }
+  module.exports.linearSearch = function linearSearch(arr, val){
+    let index = 0;
+    let found = false;
+    while (!found && index < arr.length){
+      if (arr[index] == val){
+          found = true;
+      }else{
+        index += 1;
+      }
+      }
 
-        if (!found){
-            index = -1;
-        }
+      if (!found){
+          index = -1;
+      }
 
-      return index;
-    }
+    return index;
+  }
 
-    const express = require('express')
-    const app = express()
-    const port = 4001
+  const express = require('express')
+  const app = express()
+  const port = 4001
 
-    app.get('/', (req, res) => {
-      res.send('Hello World!')
-    })
+  app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
 
-    app.listen(port, () => {
-      console.log(`Example app listening on port ${port}`)
-    })
+  app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+  })
   ```
 
 ## Task B. Creating a Review App
@@ -149,7 +139,7 @@ After these changes, the `index.js` file should look like this:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     ```
 
-  > If for any reason GitLab does not display this script when clicking **Enable Review Apps**, just copy the reference script above to use.
+    > If for any reason GitLab does not display this script when clicking **Enable Review Apps**, just copy the reference script above to use.
 
 1. Navigate back to your code repository.
 

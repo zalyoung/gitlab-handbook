@@ -12,6 +12,10 @@ The mission of the generational understanding [TMAG](/handbook/company/culture/i
 - [Miles Russell](https://gitlab.com/mdrussell) - from earlier 1/3 of current workplace generations.
 - [Terri Chu](https://gitlab.com/terrichu) - from middle 1/3 of current workplace generations.
 
+## Executive sponsors
+
+- [Tim Zallmann](https://gitlab.com/timzallmann)
+
 ## How to Join
 
 - Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMAG. This will ensure you're added to upcoming TMAG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.

@@ -29,7 +29,7 @@ Requester must be a Group Owner of a pre-existing paid namespace.
 
 #### Free Users
 
-Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
+Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
 
 ### What we can provide
 
@@ -49,7 +49,7 @@ We can provide the following information:
 We cannot provide the following information:
 
 - Information about accounts or projects that the requester does not own.
-- Any information considered [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) that is not specifically about the individual requester. Also consider [the data covered under GDPR](/handbook/legal/privacy/privacy-laws#what-is-covered-by-the-gdpr).
+- Any information considered [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) that is not specifically about the individual requester. 
 - Any information that would disclose GitLab confidential information or processes.
 
 ### Sending logs and other Personal Data

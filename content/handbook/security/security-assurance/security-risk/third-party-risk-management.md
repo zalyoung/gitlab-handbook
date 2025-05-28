@@ -20,7 +20,7 @@ GitLab's Security Third Party Risk Management (TPRM) Program helps guard against
 GitLab's Security TPRM program involves three components which are integrated into our [Procurement](/handbook/finance/procurement/) processes:
 
 1. Performing due diligence to ensure the third party implements safeguards to enforce data privacy and security
-    - This activity is performed via our Security Assessment Process.
+    - This activity is performed via our Security Assessment Process. You can find an open source version of our TPRM Assessment Report template in our [Open Source Security Hub](https://gitlab.com/gitlab-security-oss/risk-mgmt/tprm-templates).
 1. [Contractually](/handbook/finance/procurement/#contracting) obligating the third party to implement these safeguards
 1. Monitoring third party safeguards and compliance with these contracted provisions
     - Certain high risk Third Parties are reviewed annually while those posing lower risk are reviewed at intervals defined further within this document.
@@ -81,7 +81,7 @@ See below for high level recommendations to leverage when evaluating professiona
 
 ### TPRM Assessment Requirements
 
-The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data](/handbook/security/data-classification-standard/). The below procedures are initiated during the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the approval windows defined below. **Misalignment with [TPRM's Minimum Security Standards](#third-party-minimum-security-standards) may result in denial of a vendor requisition or issuance of a Security Notice.** If a Security Notice was documented at the time of the previous assessment, inquiry will be performed prior to requisition approval to determine the current status of the identified deficiencies. Depending on the nature of the deficiency, a new TPRM assessment may be required. Any updates will be documented within the Security Notice Issue.
+The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data](/handbook/security/standards/data-classification-standard/). The below procedures are initiated during the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the approval windows defined below. **Misalignment with [TPRM's Minimum Security Standards](#third-party-minimum-security-standards) may result in denial of a vendor requisition or issuance of a Security Notice.** If a Security Notice was documented at the time of the previous assessment, inquiry will be performed prior to requisition approval to determine the current status of the identified deficiencies. Depending on the nature of the deficiency, a new TPRM assessment may be required. Any updates will be documented within the Security Notice Issue.
 
 | Data<br>Classification | Request | Supplemental<br>Questionnaire | Okta SSO? | New BIA /<br>Tech Stack Entry? | Bitsight<br>Review? | Evidence of PenTest<br>and BCP Testing |
 | ------ | ------ |------ |------ |------ |------ | ------ |
@@ -95,7 +95,7 @@ The following table defines the procedures followed by TPRM engineers for vendor
 
 ## Procedures
 
-Where GitLab controls, owns, or is otherwise responsible for data, the diagram below depicts TPRM procedures based on the [Data Classification](/handbook/security/data-classification-standard/) of data shared with the third party.
+Where GitLab controls, owns, or is otherwise responsible for data, the diagram below depicts TPRM procedures based on the [Data Classification](/handbook/security/standards/data-classification-standard/) of data shared with the third party.
 
 {{% details summary="(Expand to view chart)" %}}
 
@@ -177,7 +177,7 @@ graph TB
 
 TPRM procedures are guided by the vendor's Inherent and Residual Risk levels, which are determined based on the services provided and the nature of data shared. An understanding of these risks is crucial in making an informed business decision for leveraging a vendor.
 
-**Inherent Risk** is the vendor's baseline risk level before accounting for mitigating controls required by GitLab's Third Party Risk Management Program. GitLab uses the [sensitivity of the data exchanged with the vendor](/handbook/security/data-classification-standard/#data-classification-levels) to establish the baseline risk level, which dictates our [TPRM assessment requirements](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements)
+**Inherent Risk** is the vendor's baseline risk level before accounting for mitigating controls required by GitLab's Third Party Risk Management Program. GitLab uses the [sensitivity of the data exchanged with the vendor](/handbook/security/standards/data-classification-standard/#data-classification-levels) to establish the baseline risk level, which dictates our [TPRM assessment requirements](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements)
 
 |Inherent Risk Level|Data Classification|
 |:---------:|:--------------:|
@@ -214,7 +214,7 @@ Deficiencies commonly identified during our TPRM procedures are listed below:
 
 1. Lack of third-party Security attestation such as an ISO 27001, SOC2 Type 2
 1. Lack of background checks for employees and contractors
-1. Inability to integrate with [Okta](/handbook/it/okta/#what-is-okta)* (in alignment with [GitLab's Password Standard](/handbook/security/password-standard/#application-authentication-requirements))
+1. Inability to integrate with [Okta](/handbook/it/okta/#what-is-okta)* (in alignment with [GitLab's Password Standard](/handbook/security/standards/password-standard/#application-authentication-requirements))
    - If the Okta integration is not in place or not possible, native multi-factor authentication (MFA) capabilities can be a mitigating control.
 1. Systems lacking evidence of a recent penetration test
 1. Unresolved deficiencies documented within the penetration test with no apparent remediation plan or expected remediation date
@@ -277,7 +277,7 @@ Questions regarding CUECs can be directed to the #sec-assurance channel in Slack
 
 ### Standard Information Gathering (SIG) Questionnaire for Vendor Self Attestation
 
-The Security Risk Team leverages the [Standard Information Gathering (SIG)](https://sharedassessments.org/sig/) Questionnaire to gain a more in-depth understanding of a vendor's Security environment beyond what is attained by reviewing a Third-Party Attestation such as an ISO certification or SOC-2 report. A self-attestation such as a SIG questionnaire, or equivalent document such as a CAIQ, is required if an individual-use software vendor is unable to provide a valid SOC 2 Type 2 report or an ISO 27001 certificate along with its Statement of Applicability and ISMS scoping document. Red vendors or Orange SaaS vendors are required to provide a Third-Party Attestation as defined above. The SIG questionnaire is reviewed alongside the responses to our Security Questionnaire when assessing the maturity of a service organization's Security environment.
+A self-attestation such as a [SIG questionnaire](https://sharedassessments.org/sig/), or equivalent document such as a CAIQ, is required if an individual-use software vendor is unable to provide a valid SOC 2 Type 2 report or an ISO 27001 certificate along with its Statement of Applicability and ISMS scoping document. Red vendors or Orange SaaS vendors are required to provide a Third-Party Attestation as defined above. The SIG questionnaire is reviewed alongside the responses to our Security Questionnaire when assessing the maturity of a service organization's Security environment.
 
 Security Risk maintains multiple templated versions of the SIG questionnaire for use depending on the product or service being assessed, as some vendors may not have a SIG questionnaire or equivalent to provide. The SIG templates include instructions noting that we only require Inquiry responses within Columns D and E of the main questionnaire tab, as additional requests for information or documentation within the SIG are generally not required. Note that potential fringe cases *could* exist wherein professional discretion may dictate the necessity for additional documentation requests to supplement vendor responses. Further, professional discretion should be applied when making decisions as to which version of the SIG questionnaire should be sent. For cases in which the level of review required is unclear, engineers are encouraged to discuss with the @Security-Risk team in the #Sec-Assurance-Team channel to come to a decision considering factors such as the services offered, data exchanged and the outcome of previous assessments.
 
@@ -447,7 +447,7 @@ Engineers are advised to use professional judgment in determining the scope of c
 
 #### Third Party Application Integrations
 
-Integrations between systems within GitLab's environment are subject to the above-defined TPRM assessment procedures to obtain assurance over the security of data transmitted between each system. The Security Risk team will review the request to obtain an understanding of the data being shared. Application Integration Requests can be opened using the App Integrations issue template located [here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/third-party-vendor-security-management/-/issues/new?issue[title]=%5BSYSTEM%20A%5D%20to%20%5BSYSTEM%20B%5D%20Integration%20Request&issuable_template=TPRM%2520Application%2520Integration%2520Request). Be sure to update the title of the issue with the relevant system names.
+Integrations between systems within GitLab's environment are subject to the above-defined TPRM assessment procedures to obtain assurance over the security of data transmitted between each system. The Security Risk team will review the request to obtain an understanding of the data being shared. Application Integration Requests can be opened using the App Integrations issue template located [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issue%5Btitle%5D=%5BSystem%20Name%5D%20Integration%20Request&description_template=application_integration_request). Be sure to update the title of the issue with the relevant system names.
 
 The Application Integration Request process functions to allow visibility and oversight of systems interacting with each other in support of GitLab. This process also functions as a "soft gate" for the Security Risk team to identify and assess existing systems that have aged out of their approval window. Each system within the integration request is reviewed to determine whether an assessment has previously been completed to address the sensitivity of data being transmitted as a result of the proposed integration. New systems, or integrations resulting in increased sensitivity of data being transmitted to a system, will require a TPRM review be completed prior to approval of the request. If each system listed within the request has been previously assessed at any point in alignment with the data shared in the new integration, the request can be approved prior to additional review.
 
@@ -485,7 +485,7 @@ In specific instances, requirements for the performance or contents of TPRM revi
 ## References
 
 - [GCF Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
 - [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/)

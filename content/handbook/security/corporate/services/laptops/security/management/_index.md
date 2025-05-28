@@ -18,11 +18,11 @@ We have the ability to push and automatically install software packages, and mos
 
 All GitLab purchased laptops are enrolled in Jamf MDM during [onboarding](/handbook/security/corporate/services/laptops/onboarding) or laptop [refresh](/handbook/security/corporate/services/laptops/refresh).
 
-All GitLab laptops are [wiped](/handbook/security/corporate/services/laptops/wipe) in the event they are lost or compromised during a security incident, and before they are [donated](/handbook/security/corporate/services/laptops/donation), [recycled](/handbook/security/corporate/services/laptop/recycle), or replaced due to a [repair](/handbook/security/corporate/services/laptops/repair) or [refresh](/handbook/security/corporate/services/laptops/refresh) with or without a [buyback](/handbook/security/corporate/services/laptops/buyback).
+All GitLab laptops are [wiped](/handbook/security/corporate/services/laptops/wipe) in the event they are lost or compromised during a security incident, and before they are [donated](/handbook/security/corporate/services/laptops/donation), [recycled](/handbook/security/corporate/services/laptops/recycle/), or replaced due to a [repair](/handbook/security/corporate/services/laptops/repair) or [refresh](/handbook/security/corporate/services/laptops/refresh) with or without a [buyback](/handbook/security/corporate/services/laptops/buyback).
 
 Your personal laptop is not enrolled in Jamf, and cannot be used for accessing GitLab accounts or business data. If you have a (rare) use case for a second laptop, see the [laptop procurement](/handbook/security/corporate/services/laptops/procurement) page.
 
-- [DriveStrike (Linux) Handbook Page](/handbook/security/corporate/systems/drivestrike)
+- [DriveStrike (Linux) Handbook Page](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/)
 - [Jamf (Mac) Handbook Page](/handbook/security/corporate/systems/jamf)
 - [Jamf (Mac) Enrollment](/handbook/security/corporate/systems/jamf/setup)
 - [Laptop Services](/handbook/security/corporate/services/laptops)

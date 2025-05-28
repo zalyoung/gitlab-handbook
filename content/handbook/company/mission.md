@@ -36,7 +36,7 @@ work themselves. More than [3,000 people from the wider community](https://about
 We do this by having quality code, tests, documentation, popular frameworks,
 and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 and a dedicated [GitLab Design System](https://design.gitlab.com/).
-We use GitLab at GitLab Inc., we [dogfood](/handbook/product/product-processes/#dogfood-everything)
+We use GitLab at GitLab Inc., we [dogfood](/handbook/product/product-processes/dogfooding-for-r-d/)
 it and make it a tool we continue to love. We celebrate contributions by
 recognizing a Most Valuable Person (MVP) every month.
 We allow everyone to anticipate, propose, discuss, and contribute features by having everything on
@@ -77,7 +77,7 @@ Our mission is the way we realize [our purpose](/handbook/company/purpose/). By 
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 
-[Our purpose](/handbook/company/purpose/) is on the same 30 year cadence as our mission. [Our purpose](/handbook/company/purpose/) informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, progress for the items on our [cadence page](/handbook/company/cadence/) like [Yearlies](/handbook/company/yearlies/) creates progress for both our mission and [our purpose](/handbook/company/purpose/).
+[Our purpose](/handbook/company/purpose/) is on the same 30 year cadence as our mission. [Our purpose](/handbook/company/purpose/) informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, progress for the items on our [cadence page](/handbook/company/cadence/) creates progress for both our mission and [our purpose](/handbook/company/purpose/).
 
 ### Vision
 
@@ -100,7 +100,7 @@ This policy is in alignment with our mission, contributor and employee code-of-c
 - Our mission is to "enable everyone to contribute to and co-create the software that powers our world." This mission is in alignment with our open source roots and the [MIT license](https://en.wikipedia.org/wiki/MIT_License) our open source software is subject to. The MIT License is a free software license that allows users the freedom to run the program as they wish, for any purpose.
 - GitLab has a [contributor code of conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) for *how* to contribute to GitLab, but there are no restrictions on *who* can contribute to GitLab. We desire that everyone can contribute, as long as they abide by the code of conduct.
 - GitLab has a set of values for how GitLab team members strive to conduct themselves. We don't expect all companies to value collaboration, results, efficiency, diversity, inclusion and transparency in the same way we do. As an open company, "everyone can contribute" is our default and [transparency](/handbook/values/#transparency) is our check and balance. Transparency means our handbook, issues, merge requests and product roadmap are online for everyone to see and contribute to.
-- Related topic: At GitLab, we want to avoid an environment where people feel alienated for their religious or political opinions. Therefore, we encourage GitLab team members to refrain from taking positions on specific [religious or political issues](/handbook/values/#religion-and-politics-at-work) in public company forums (such as on the GitLab Contribute stage or Slack channels) because it is easy to alienate people that may have a minority opinion. It is acceptable to bring up these topics in social contexts such as coffee chats and real-life meetups with other coworkers, but always be aware of cultural sensitivities, exercise your best judgment, and make sure you stay within the boundaries of our [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). We always encourage [discussion and iteration](/handbook/values/#anyone-and-anything-can-be-questioned) on any company policy, including this one.
+- Related topic: At GitLab, we want to avoid an environment where people feel alienated for their religious or political opinions. Therefore, we encourage GitLab team members to refrain from taking positions on specific [religious or political issues](/handbook/values/#religion-and-politics-at-work) in public company forums (such as on the GitLab Contribute stage or Slack channels) because it is easy to alienate people that may have a minority opinion. It is acceptable to bring up these topics in social contexts such as coffee chats and real-life meetups with other coworkers, but always be aware of cultural sensitivities, exercise your best judgment, and make sure you stay within the boundaries of our [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). We always encourage [discussion and iteration](/handbook/values/#challenger-mindset) on any company policy, including this one.
 
 ## Mitigating Concerns
 

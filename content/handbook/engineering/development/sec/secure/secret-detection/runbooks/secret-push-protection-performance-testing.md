@@ -112,7 +112,7 @@ Steps to add a new `$GCP_ENV_PREFIX`:
 * Make sure to [configure other variables](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#environment-config-varsyml) like passwords/secrets when necessary (depends on the reference architecture but at least the `gitlab_root_password`, `postgres_password`, `gitaly_token` and `redis_password` will be required)
 * You will likely also have to update the `prefix`, `external_url` and uncomment a few lines like `gitlab_license_file`
 * Consult the [documentation](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#environment-config-varsyml) and other reference architecture files (e.g. [the one for 25k ref architecture](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/get-environments/ra-test-environments/-/blob/main/configs/reference_architectures/25k/ansible/inventory/vars.yml?ref_type=heads)) for other variables you may need to update
-* Acquire a new Ultimate license [following this process](/handbook/support/readiness/operations/docs/policies/team_member_licenses/)
+* Acquire a new Ultimate license [using the Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
 * Add the license file (without renaming it) to `/ansible/environments/$GCP_ENV_PREFIX/files`
 * From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)
 * Cd to the `ansible` directory

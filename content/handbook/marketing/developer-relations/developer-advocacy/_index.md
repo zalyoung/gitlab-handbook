@@ -82,7 +82,7 @@ We recognize these KPIs don't capture the impact of the diverse range of work th
 When we are reviewing opportunities or requests for support, we must be able to answer yes to each of these questions to move forward with the work:
 
 1. Will this work support, grow, and/or engage GitLab customers and community members?
-1. Is there a measurable impact against one of our team's KPIs? Because of GitLab's [global optimization subvalue](/handbook/values/#global-optimization), we'll also consider requests that influence a company KPI or contribute to progress on an OKR.
+1. Is there a measurable impact against one of our team's KPIs? Because of GitLab's [global optimization subvalue](/handbook/values/#efficiency-for-the-right-group), we'll also consider requests that influence a company KPI or contribute to progress on an OKR.
 1. Has an issue been created to define the work and assign a DRI?
 
 If the answer to any of the above questions is "no", we ask the requestor to take one of the following actions:

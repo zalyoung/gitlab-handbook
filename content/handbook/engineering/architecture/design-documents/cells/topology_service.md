@@ -139,10 +139,10 @@ flowchart TD
   A -->|6 bits| C[Reserved]
   A -->|57 bits| D[Sequence]
   D --> E{Legacy Cell?}
-  E --> |Yes|F[min: 1, max: 10^12 - 1]
-  E --> |"No (new cells)"| G{'QA' bucket?}
-  G --> |Yes| H[min: currentMaxId + 1, max: min + 10^9 - 1]
-  G --> |No| I[min: currentMaxId + 1, max: min + 10^11 - 1]
+  E --> |Yes| F[min = 1, max = 10^12 - 1]
+  E --> |"No (new cells)"| G[min = currentMaxId + 1, max >= min + 10^11]
+  G -.- N["min 100 billion IDs validation can be skipped for short-lived cells"]
+  style N fill:none
 ```
 
 - **Sign**: Always 0 for positive numbers.
@@ -153,67 +153,121 @@ flowchart TD
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
 - **Sequence**:
-  - Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
-  - Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
+  - Legacy cell gets the first trillion IDs and each new instance will get 100 billion IDs each. See the [Sequence Saturation](#sequence-saturation) section for how we arrived at this number.
+  - Excluding the legacy cell, this will support 1,441,141 cells (using 57 bits) in production.
 
 Example `config.toml` of Topology Service:
 
 ```toml
+env = "production"
+
 [[cells]]
 id = 1
 address = "legacy.gitlab.com"
-sequence_range = [1, 999999999999] # 1 trillion
-buckets = ["paid", "free"]
-status = "active"
+[[cells.sequence_ranges]]
+minval = 1
+maxval = 999999999999 # 1 trillion
 
 [[cells]]
 id = 2
 address = "cell-2-example.gitlab.com"
-sequence_range = [1000000000000, 1099999999999] # 100 billion
-buckets = ["paid", "free"]
-status = "active"
+session_prefix = "cell-2"
+[[cells.sequence_ranges]]
+minval = 1000000000000
+maxval = 1099999999999 # 100 billion
 
 [[cells]]
 id = 3
 address = "cells-3-test.gitlab.com"
-sequence_range = [1100000000000, 1100999999999] # 1 billion
-buckets = ["QA"]
-status = "active"
-
-[[cells]]
-id = 4
-address = "cells-4-example.gitlab.com"
-sequence_range = [1101000000000, 1200999999999] # 100 billion
-buckets = ["free"]
-status = "active"
+session_prefix = "cell-3"
+[[cells.sequence_ranges]]
+minval = 1100000000000
+maxval = 1199999999999 # 100 billion
 ```
 
-- Status:
-  - ready: Cell is not yet ready to accept traffic, but we hold a slot.
-  - online: Cell is accepting traffic and is part of cluster discovery.
-  - offline: Cell is valid but not accepting traffic and is still part of cluster discovery.
-  - removed: Cell is removed and will never be active again.
+```toml
+env = "staging"
 
-Once the cell gets `removed`, we will update `sequence_range` with the _maxval_ consumed by the cell.
-So that if a normal cell gets removed (decommissioned), new QA cells can get IDs from those unused IDs (if it's more than 1 billion).
+[[cells]]
+id = 2
+address = "cell-2.gitlab-cells.dev"
+session_prefix = "cell-2"
+minval = 1000000000000
+maxval = 1099999999999 # 100 billion
+
+[[cells]]
+id = 3
+address = "cell-3.gitlab-cells.dev"
+session_prefix = "cell-3"
+[[cells.sequence_ranges]]
+minval = 1100000000000
+maxval = 1101000000000
+skip_range_validation = true # For short lived cells, min 100 billion IDs validation can be skipped
+```
 
 ##### Sequence Saturation
 
-At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
-the legacy cell and new non-QA cells will have sufficient IDs to grow within their sequence_range.
+At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table).
 
-QA cells might need more IDs as they are given 1 billion IDs. Cells sequence data are monitored regularly,
-and TS can provide an additional 1 billion IDs (from currentMaxId) to the cell, if their consumption is over 99%.
+- With trillion IDs, this should allow the legacy cell to grow ~91 times.
+- Given the aim of cells architecture is to keep new instance's database growth in control, 100 billions IDs should give them enough space as well.
 
-[Issues#517296](https://gitlab.com/gitlab-org/gitlab/-/issues/517296) handles this.
+###### Bumping sequence range for saturating sequences
+
+This is a critical part for working of Gitlab.com, so we have introduced saturation monitoring for each sequence in [merge_requests/8630](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/8630).
+
+On finding saturating sequences, the range can be bumped by following the below process.
+
+1. Update TS config.toml to add an extra range to `cells.sequence_ranges` array.
+2. Run `gitlab:db:increase_sequences_range` rake in the particular cell, by passing saturating sequences names as the param.
+
+Example:
+
+1. Let's say `security_findings_id_seq` and `web_hook_logs_id_seq` of `cell-2` have reached the hard SLO (of 90%) on [pg_id_sequences](https://gitlab.com/gitlab-com/runbooks/-/blob/d1491099e52037cd23cc5d871b5c11dacce08888/libsonnet/saturation-monitoring/pg_id_sequences.libsonnet) monitoring.
+2. We have to update its `sequence_ranges` in the config.toml, with an extra range.
+
+   ```toml
+    env = "production"
+
+    [[cells]]
+    id = 1
+    address = "legacy.gitlab.com"
+    [[cells.sequence_ranges]]
+    minval = 1
+    maxval = 999999999999 # 1 trillion
+
+    [[cells]]
+    id = 2
+    address = "cell-2-example.gitlab.com"
+    session_prefix = "cell-2"
+    [[cells.sequence_ranges]]
+    minval = 1000000000000
+    maxval = 1099999999999 # 100 billion
+    [[cells.sequence_ranges]]
+    minval = 1200000000000
+    maxval = 1299999999999 # 100 billion
+
+    [[cells]]
+    id = 3
+    address = "cells-3-test.gitlab.com"
+    session_prefix = "cell-3"
+    [[cells.sequence_ranges]]
+    minval = 1100000000000
+    maxval = 1199999999999 # 100 billion
+   ```
+
+3. Open a CR to run `gitlab:db:increase_sequence_range['security_findings_id_seq', 'web_hook_logs_id_seq']` on the cell-2 instance.
+
+The above manual process is adopted as a boring solution, since this should occur very rare.
+And [Issue#540801](https://gitlab.com/gitlab-org/gitlab/-/issues/540801) will automate this process,
+by having a cron running within the cell, which will auto increment the sequence ranges when needed.
 
 NOTE:
 
 - The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
   - To support Cells 2.0 (i.e: allow moving organizations from
   Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
-  Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
-  and it is estimated to take around 12 months.
+  This effort is tracked in the epic [Convert all integer IDs to bigint in the primary cell (#15591)](https://gitlab.com/groups/gitlab-org/-/epics/15591).
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
@@ -639,16 +693,16 @@ sequenceDiagram
 The cons of using Spanners are:
 
 1. Vendor lock-in, our data will be hosted in a proprietary data.
-    - How to prevent this: Topology Service will use generic SQL.
+    - How to prevent this: Use generic SQL.
 1. Not self-managed friendly, when we want to have Topology Service available for self-managed customers.
-    - How to prevent this: Spanner supports PostgreSQL dialect.
+    - How to prevent this: Support actual PostgreSQL as well. We will run this for local development by default for developers.
 1. Brand new data store we need to learn to operate/develop with.
 
 ### GoogleSQL vs PostgreSQL dialects
 
 Spanner supports two dialects one called [GoogleSQL](https://cloud.google.com/spanner/docs/reference/standard-sql/overview) and [PostgreSQL](https://cloud.google.com/spanner/docs/reference/postgresql/overview).
-The dialect [doesn't change the performance characteristics of Spanner](https://cloud.google.com/spanner/docs/postgresql-interface#choose), it's mostly how the Database schemas and queries are written.
-Choosing a dialect is a one-way door decision, to change the dialect we'll have to go through a data migration process.
+It is claimed that both dialects [offer the same core features, performance, and scalability](https://cloud.google.com/spanner/docs/choose-googlesql-or-postgres).
+However, they should be treated as two different databases because the dialect has to be decided upfront when creating the database, and there's no way to change the dialect beside going through a [complex migration process](https://cloud.google.com/spanner/docs/migration-overview).
 
 We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanner](https://github.com/googleapis/go-sql-spanner) to connect to it, because:
 
@@ -656,6 +710,13 @@ We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanne
 1. GoogleSQL [data types](https://cloud.google.com/spanner/docs/reference/standard-sql/data-types) are narrower and don't allow to make mistakes for example choosing int32 because it only supports int64.
 1. New features seem to be released on GoogleSQL first, for example, <https://cloud.google.com/spanner/docs/ml>. We don't need this feature specifically, but it shows that new features support GoogleSQL first.
 1. A more clear split in the code when we are using Google Spanner or native PostgreSQL, and won't hit edge cases.
+
+We will not use `PostgreSQL` dialect but actual PostgreSQL for local development because:
+
+1. [`PGAdapter`](https://cloud.google.com/spanner/docs/pgadapter) only works with the `PostgreSQL` dialect based Spanner database, so we cannot use it against a `GoogleSQL` dialect based Spanner database.
+1. [`PostgreSQL` dialect](https://cloud.google.com/spanner/docs/reference/postgresql/overview) differs significantly from actual `PostgreSQL`. It is not a strict subset, so code written for the dialect might not work as expected on real `PostgreSQL`.
+1. Although actual `PostgreSQL` may not scale as well as `Spanner`, it is suitable for local development and likely sufficient for self-managed environments.
+1. Running emulated Spanner locally requires Docker or compatible container engine, which is not strictly required for all developers using GDK at the moment. [Emulated Spanner only stores data in memory](https://cloud.google.com/spanner/docs/emulator), all state, including data, schema, and configs, is lost on restart, which is not convenient and can cause data inconsistency with cells' own data. Developers can use it for developing and debugging the implementation for `GoogleSQL` dialect Spanner, but this cannot be the default for most developers especially for those who are not working on Topology service directly. On CI we run tests against both the actual PostgreSQL database and emulated `GoogleSQL` Spanner.
 
 Citations:
 

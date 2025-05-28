@@ -5,24 +5,19 @@ description: "Learn about the Developer Advocacy team's content library, and con
 
 The Developer Advocacy team creates content that can be used for campaigns, field enablement, product launch support, use case adoption, customer demos, and general learning and onboarding. All contents and activities the team participates in are tracked in issues following [team workflows](/handbook/marketing/developer-relations/developer-advocacy/workflow/).
 
+## Request content
+
+**Note**: If you need an updated or newly created content asset, please follow the [content request workflow](/handbook/marketing/developer-relations/content-request/#how-to-work-with-the-developer-advocate-team).
+
 ## Content Library
 
 You can search for relevant content on this handbook page, and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel.
 
 The following sections provide an overview of all content assets, and links to find them.
 
-### Request content
-
-**Note**: If you need an updated or newly created content asset, please follow the [content request workflow](/handbook/marketing/developer-relations/content-request/#how-to-work-with-the-developer-advocate-team).
-
 ### Highspot
 
 The team's content is distributed in the content platforms below, and in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd).
-
-### Product Adoption Initiatives
-
-- [FY25 GitLab Duo adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
-- [FY25 CI/CD adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466) (internal)
 
 ### Blog posts
 
@@ -81,9 +76,12 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
-| [GitLab Duo Workflow]( https://gitlab.navattic.com/duo-workflow) |  GitLab Duo | 2025-03-18 | @iganbaruch |
+| [GitLab Premium and Ultimate with Duo](https://gitlab.navattic.com/gitlab-premium-with-duo) |  GitLab Duo | 2025-05-18 | @iganbaruch |
+| [GitLab Duo with Amazon Q](https://gitlab.navattic.com/duo-with-q) |  GitLab Duo | 2025-04-23 | @iganbaruch |
+| [GitLab Duo Workflow](https://gitlab.navattic.com/duo-workflow) |  GitLab Duo | 2025-03-18 | @iganbaruch |
 | [GitLab Duo Self-Hosted](https://gitlab.navattic.com/gitlab-duo-self-hosted) |  GitLab Duo | 2025-02-13 | @iganbaruch |
 | [Compliance Frameworks](https://gitlab.navattic.com/compliance) | DevSecOps Platform | 2025-01-27 | @iganbaruch |
+| [Compliance Frameworks - Japanese](https://gitlab.navattic.com/compliance-ja) | DevSecOps Platform | 2025-05-27 | @iganbaruch |
 | [Idea to MR](https://gitlab.navattic.com/duo-q) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Java modernization](https://gitlab.navattic.com/duo-q-transform) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast) | DevSecOps Platform | 2024-09-22 | @iganbaruch |
@@ -111,7 +109,9 @@ While the [product tours](#product-tours) provide guided walkthroughs with navig
 
 Please search for the "[product name] tour - navigation guide" (ex: Advanced SAST tour - navigation guide) in Google Drive to find the step by step instructions to navigate through these tours.
 
-### YouTube playlists
+### Videos 
+
+#### YouTube playlists
 
 GitLab YouTube channel:
 
@@ -159,11 +159,11 @@ These golden talk slide decks provide storytelling for lightning talks at events
 
 These talks are maintained:
 
-| Title | Area | Focus | Last updated | DRI |
-|-------|------|-------|--------------|-----|
-| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | AI, GitLab Duo | Product use cases with Duo | 2024-09-24 | @dnsmichi |
-| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/gitlab-da/use-cases/ai/ai-research/talk-efficient-devsecops-workflows-with-a-little-help-from-ai) | AI, GitLab Duo | Generic use cases talk for public events (no product pitches) | 2024-09-30 | @dnsmichi |
-| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | CI/CD | Practical migration help | 2024-05-17 | @dnsmichi |
+| Title | Area | Focus | Resources | Last updated | DRI |
+|-------|------|-------|-----------|--------------|-----|
+| Efficient DevSecOps workflows with a little help from AI | AI, GitLab Duo | Product use cases with Duo | DACH Roadshow FY25 slides: [public](https://go.gitlab.com/JRFMG4), [internal](https://docs.google.com/presentation/d/1Pm8yT46jpcc3kY0PLZqZlG2slIiFyZiQPKFEgyqqstw/edit)  | 2024-11-14 | @dnsmichi |
+| Efficient DevSecOps workflows with a little help from AI | AI, GitLab Duo | Generic use cases talk for public events (no product pitches) | IT-Tage 2024 slides: [public](https://go.gitlab.com/YlLLnH), [internal](https://docs.google.com/presentation/d/17OufBjR-tOzZdgm-J9z8_6B7Gcz5Zypht1Q3ebV_Wro/edit), [GitLab project](https://gitlab.com/gitlab-da/use-cases/ai/ai-research/talk-efficient-devsecops-workflows-with-a-little-help-from-ai) | 2024-12-09 | @dnsmichi |
+| Efficient DevSecOps workflows with reusable CI/CD components | CI/CD | Practical migration help | Chemnitz Linux Days slides: [public](https://dnsmichi.click/cicdcomp-clt2025), [internal](https://docs.google.com/presentation/d/14D0bn9_OO0zO5trQCWIzghEIdnppqTst2mRVCMVpk-o/edit), and [recording](https://streaming.media.ccc.de/clt25/relive) | 2025-03-22 | @dnsmichi |
 
 ### Projects
 
@@ -171,15 +171,51 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ## Content Creation
 
-### Guideline and tips for creating GitLab tours with Navattic
+### Videos
 
-1. Keep the product tours concise, ideally consisting of 8 to 12 steps, each highly focused on delivering clear value. In contrast, demos in documentation may adopt a more instructional "how-to" approach with longer steps.
-1. Consider adding links to relevant blog posts or documentation within tooltips or modals to provide users with further context or resources.
-1. In the demo settings, under 'theme' select 'GitLab Branding [Navattic Team]'.
-1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
-1. Open your browser at 1680x1050 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
+When creating product demos for video, please consider taking the following steps in VS Code: 
 
-### Publishing Product Tours
+- Common resolution is 1920×1080 (16:9 aspect ratio) or 2880×1750 for screen recordings. 
+- If you're connected to a 4K monitor, capture from your laptop.
+- For social clips, consider square (1:1) for multi-platform compatibility or vertical (9:16).
+- Zoom (`cmd` + `+`) once or twice more than you think you need to
+- Simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
+- Additional guidance can be found in the internal handbook: [dev environments](https://internal.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/dev-environments)
+
+### Product Tours
+
+#### Guideline and tips for creating GitLab tours with Navattic
+
+1. **Keep it concise** – Product tours should ideally have **5 to 12 steps**, each focused on delivering clear value. Unlike tutorials, which tend to be instructional, product tours should be quick and engaging.
+2. **Provide context** – Add links to blog posts and documentation in pop-up dialogs to provide additional resources without cluttering the main content.
+3. **Apply GitLab branding** – In the theme settings, select **"GitLab Branding [Navattic Team]"** to ensure a consistent design.
+4. **Use the appropriate capture type** – Navattic supports two types of screen captures:
+   - **Web captures** (preferred) create an in-product experience.
+   - **Screenshots** should be used for non-web-based applications (e.g., IDEs).
+5. **Set the correct resolution** – When capturing in Chrome, set your browser to **1680x1050 (Full HD)**. You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to adjust the resolution.
+6. **Include a call to action** – The final step should feature a **CTA**, typically a **Free Trial** link.
+7. **Use Beacons to highlight elements** – Apply the **Highlight** appearance setting to emphasize key elements.
+8. **Enable keyboard navigation** – This features in the tour settings allows users to navigate the tour using arrow keys for a smoother experience.
+9. **Use Presenter Mode** – This feature hides pop-ups when necessary, ensuring a cleaner visual presentation.
+10. **Set pop-ups appropriately**:
+    - Use **Modals** with a **heavy backdrop** for the first and last steps.  
+    - Use **Tooltips** for intermediate steps, enabling the **Backdrop setting** when appropriate.
+11. In the Dialogs, please try using action-specific labels like "Commit," "Install," or "Submit" instead of "Next" to make users feel like they are actively engaging with the product.
+12. **Refer to available examples** – Review [existing product tours](#product-tours) to understand the preferred format.
+13. Before releasing any public facing product tour, request a review from the DA team.
+
+#### Requesting Access to Navattic
+
+If your team has special requirements for tours and you want to develop tours with Navattic yourself, we can help.
+
+- We can offer a **3-month trial license** to team members who request access and provide a **valid business justification** for using Navattic.
+- If a user actively utilizes the tool, we may **extend their access** or consider purchase additional licenses as needed.
+- If a user is not actively using the tool, their license may be **reassigned** to another team member.
+- To request access, open an [issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=other-activities)
+
+For questions or assistance, reach out to us in our team channel: [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B).
+
+#### Publishing Product Tours
 
 Product tours are published in the following locations:
 
@@ -189,7 +225,7 @@ Product tours are published in the following locations:
 
 Additionally, select tours may be featured on the website.
 
-## Contribute to product tours
+#### Contribute to product tours
 
 The Developer Advocacy team creates product tours to showcase key workflows and highlight new features, such as **Advanced SAST**, **GitLab Duo**, **Duo with Amazon Q**, [and more](#product-tours). The team is committed to building, reviewing, and publishing product tours to ensure a consistent and high-quality experience for our users and potential customers. You can also contribute by proposing additional tours and provide the content, script, and environment. Here is how you can collaborate with the Developer Advocacy team to create new product tours:
 
@@ -272,3 +308,8 @@ Content epic: <URL>
 
 Thanks a lot @HelpfulCoworker for editing this long read :handshake: :purple_heart:
 ```
+
+## Product Adoption Initiatives
+
+- [FY25 GitLab Duo adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
+- [FY25 CI/CD adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466) (internal)

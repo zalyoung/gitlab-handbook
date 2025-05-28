@@ -31,7 +31,7 @@ The following people are permanent members of the Cloud Connector group:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Senior Product Manager.*Cloud Connector|Core Platform.*Cloud Connector" manager-role="Backend Engineering Manager, Cloud Connector" >}}
+{{< engineering/stable-counterparts role="Senior Product Manager.*Cloud Connector|Core Platform.*Cloud Connector" manager-role="Backend Engineering Manager, Cloud Connector" >}}
 
 ## Meetings
 
@@ -57,7 +57,7 @@ We have three main boards for tracking our work (listed below).
 The Milestone board gives us a "big picture" view of issues planned in each milestone.
 
 [Cloud Connector: Build](https://gitlab.com/groups/gitlab-org/-/boards/2333522?label_name[]=cloud%20connector%3A%3Aactive&label_name[]=group%3A%3Acloud%20connector)
-The build board gives you an overview of the current state of work for `"group::cloud connector"`. These issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development-flow/#build-track). Issues are added to this board by adding the `cloud connector::active` and `"group::cloud connector"` labels. Issues in the `workflow::ready for development` column are ordered in priority order (top down). Team members use this column to select the next item to work on.
+The build board gives you an overview of the current state of work for `"group::cloud connector"`. These issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development/product-development-flow/#build-track). Issues are added to this board by adding the `cloud connector::active` and `"group::cloud connector"` labels. Issues in the `workflow::ready for development` column are ordered in priority order (top down). Team members use this column to select the next item to work on.
 
 [Cloud Connector: Validation](https://gitlab.com/groups/gitlab-org/-/boards/2334157?label_name[]=cloud%20connector%3A%3Avalidation&label_name[]=group%3A%3Acloud%20connector)
 The validation board is a queue for incoming issues for the Product Manager to review. A common scenario for the Cloud Connector group's validation board is when an issue is created that requires further definition before it can be prioritized. The issue typically states a big picture idea but is not yet detailed enough to take action. The Cloud Connector group will then go through a refinement process to break down the issue into actionable steps, create exit criteria and prioritize against ongoing efforts. If an issue becomes too large, it will be promoted to an epic and small sub-issues will be created.

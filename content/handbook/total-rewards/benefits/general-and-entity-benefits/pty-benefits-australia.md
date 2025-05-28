@@ -60,7 +60,7 @@ Starting on 2023-07-27, Australian team members will be able to review their pla
 
 #### Leavers
 
-For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member's health insurance reamins in place, with the full cost of cover being their responsiblity. BUPA's customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they're enrolled on.
+For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member’s health insurance remains in place, with the full cost of cover being their responsibility. BUPA’s customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they’re enrolled on.
 
 The Total Rewards team will inform BUPA of leaves on a monthly basis. 
 

@@ -24,9 +24,9 @@ See our [Onboarding Automation Flow](/handbook/people-group/engineering/onboardi
 
 See our [Offboarding Automation flow](/handbook/people-group/engineering/offboarding#automations) for more information on current offboarding automations.
 
-### Career Mobility issues
+### Organization Change issues
 
-See our [Career Mobility Automation Flow](/handbook/people-group/engineering/career-mobility#career-mobility-issue-creation) for more information on current Career Mobility automations and manual triggers.
+See our [Organization Change Automation Flow](/handbook/people-group/engineering/organization-change#organization-change-checklist-issue-creation) for more information on current Career Mobility automations and manual triggers.
 
 ### Epics
 

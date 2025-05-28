@@ -26,7 +26,7 @@ See [what to do when the ASE is unavailable](#when-the-ase-is-unavailable) and
 ### New emergency tickets
 
 Regardless of when an emergency request is submitted by an ASE's account,
-the [DRI](/handbook/people-group/directly-responsible-individuals.html)
+the [DRI](/handbook/people-group/directly-responsible-individuals/)
 for the emergency is the
 [on-call support engineer](../../../workflows/customer_emergencies_workflows/).
 The only process change is that the on-call support engineer
@@ -65,7 +65,7 @@ breach before the ASE gets online then that means
 
 When an ASE is planning time off, they will first find one or more
 other support engineers to take care of their accounts during their absence.
-The ASEs use their [PTO planning workflow](../ase-workflows-and-standards/planning-pto-as-ASE.html)
+The ASEs use their [PTO planning workflow](../ase-workflows-and-standards/planning-pto-as-ase.md)
 for arranging coverage. Here's what covering for an ASE means for you:
 
 - Balance your workload to make room for the potential work with

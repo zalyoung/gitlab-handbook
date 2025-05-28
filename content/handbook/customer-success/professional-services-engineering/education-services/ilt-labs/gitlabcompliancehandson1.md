@@ -43,4 +43,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request.

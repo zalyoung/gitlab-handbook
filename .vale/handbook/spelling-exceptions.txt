@@ -68,6 +68,7 @@ autoloaded
 autoloader
 autoloading
 automatable
+automations
 autoscale
 autoscaled
 autoscaler
@@ -116,6 +117,7 @@ blockquoted
 blockquotes
 blockquoting
 Bluesky
+Boardvantage
 boolean
 booleans
 bootcamp
@@ -220,6 +222,7 @@ Comerica
 commit's
 CommonMark
 Compa
+Compensia
 compilable
 composable
 composables
@@ -737,6 +740,7 @@ memoizes
 memoizing
 Memorystore
 mentee
+mentees
 mergeability
 mergeable
 metaprogramming
@@ -787,8 +791,10 @@ namespaces
 namespacing
 namespacings
 Nanoc
+Nasdaq
 NAT
 Navan
+Navattic
 Navia
 navigations
 negatable
@@ -893,6 +899,7 @@ Pipfiles
 Piwik
 Pizzatime
 plaintext
+plushies
 podcaster
 podcasters
 podman
@@ -906,7 +913,9 @@ Postgres
 postgres.ai
 PostgreSQL
 PQLs
+POVs
 Praefect's
+presales
 prebuild
 prebuilds
 precompile
@@ -969,11 +978,12 @@ Raspbian
 rbenv
 rbspy
 rbtrace
-Rclone
 RCEs
+Rclone
 Rdoc
 reachability
 readme
+readmes
 Realplayer
 rearchitecting
 reauthenticate
@@ -1160,6 +1170,7 @@ Sobelow
 Solargraph
 Solarized
 Sourcegraph
+sourcer
 SOWs
 Spamcheck
 spammable
@@ -1268,6 +1279,7 @@ Tesorio
 Thanos
 thoughtbot
 throughputs
+tiering
 Tiller
 timebox
 timeboxed
@@ -1275,6 +1287,7 @@ timeboxes
 timeboxing
 timecop
 timeframe
+timeframes
 timelog
 timelogs
 timesheet
@@ -1440,6 +1453,7 @@ unverified
 unverifies
 unverify
 unverifying
+unvested
 uploader
 uploaders
 upskilling
@@ -1477,6 +1491,7 @@ Vulnmapper
 waitlist
 walkthrough
 walkthroughs
+watercooler
 WebdriverIO
 Webex
 webpack

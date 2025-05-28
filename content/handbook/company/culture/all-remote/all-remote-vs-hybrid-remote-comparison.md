@@ -50,7 +50,7 @@ For deeper dives on this topic, read our guides below.
 | Freedom from demands for overperformance by in-office colleagues |            Yes             |                                         No |
 | Freedom from concerns of being overlooked, forgotten, or dehumanized by in-office [managers](being-a-great-remote-manager/) |            Yes             |                                         No |
 | Freedom (and likely reimbursement) to work in a "third space" (e.g. coworking center, [Codi](https://www.codi.com/), coffee shop, etc.) |            Yes             |                                    Depends |
-| Freedom from [subpar hybrid video calls](meetings/#avoid-hybrid-calls) where select participants are huddled in a physical room on one camera |            Yes             |                                         No |
+| Freedom from [subpar hybrid video calls](meetings/#7-avoid-hybrid-calls) where select participants are huddled in a physical room on one camera |            Yes             |                                         No |
 | Equal footing in [job interviews](interviews/) (e.g. no advantage/disadvantage from in-person interviews) |            Yes             |                                         No |
 | [Learning and development](learning-and-development/) is applicable to all team members, regardless of location |            Yes             |                                         No |
 | Career growth is not dependent on willingness/ability to transfer to in-person by default |            Yes             |                                         No |

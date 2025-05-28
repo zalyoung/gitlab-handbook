@@ -48,7 +48,7 @@ Additionally, PBPs support team member engagement in each division using sentime
 
 #### For more information
 
-1. [Organizational Design](/handbook/people-group/organizational-design/)
+1. [Organizational Design](/handbook/people-group/organizational-change-management/)
 1. GitLab Job Frameworks
 1. Team Member Engagement: [Engagement Survey](/handbook/people-group/engagement/#engagement-and-org-health-surveys-overview) analysis and action planning
 

@@ -25,10 +25,15 @@ Provide subscription access to additional CustomersDot user by creating billing 
 
 1. Verify the requestor's identity as outlined under [ownership verification](#ownership-verification).
 1. Ensure the requestor has a Customer record in [CustomersDot](https://customers.gitlab.com).
-1. Locate the CustomersDot billing account for the provided Zuora account.
-1. Navigate to the `Billing account memberships` section.
+1. Identify the CustomersDot billing account for the provided Zuora account, and
+   save the user and billing account names for use in upcoming steps.
+1. Navigate to the `Billing account memberships` section in the left navigation
+   area.
 1. Select the `+ Add new` action.
-1. Select the correct `CustomersDot` user and `CustomersDot billing account` for the new subscription management request. The CustomersDot user can be uniquely located by its `Email` and the billing_account by its `zuora_account_id`.
+1. Using the information you saved earlier, select the correct `CustomersDot`
+   user and `CustomersDot billing account` for the new subscription management
+   request. The CustomersDot user can be uniquely located by its `Email` and
+   the billing_account by its `zuora_account_id`.
 1. Click `Save`.
 1. Ensure the `Login activated` checkbox for the CustomersDot user is **checked**. If it is not, then [confirm the CustomersDot account login status](#confirm-the-customersdot-account-login-status).
 

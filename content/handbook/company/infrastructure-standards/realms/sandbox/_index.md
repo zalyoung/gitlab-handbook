@@ -43,7 +43,7 @@ This platform is powered by [HackyStack](https://gitlab.com/gitlab-com/infra-sta
 
 You can learn more in the [HackyStack High-Level Intro](https://docs.google.com/presentation/d/1kbaub1-ztxGCV7wAzhNWXsH5beIu_HAVGSBjr8-0qTw/edit#slide=id.gdfc093c5c0_0_11) presentation.
 
-The Sandbox Cloud is managed by the [IT Engineering](/handbook/business-technology/it/engineering) team. Please tag `Jeff Martin` in Slack with any questions.
+The Sandbox Cloud is managed by the [IT Engineering](/handbook/security/corporate/) team. Please tag `Jeff Martin` in Slack with any questions.
 
 ### How to Get Started
 
@@ -95,13 +95,13 @@ Self-service creation and IAM management is not available yet for end users in H
 
 ##### Product Related
 
-For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/data-classification-standard/#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](/handbook/engineering/infrastructure/team/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
+For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/standards/data-classification-standard/#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](/handbook/engineering/infrastructure/team/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
 
 Most environments are typically created in the [config-mgmt project](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) using the [Create a new environment](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/#creating-a-new-environment) instructions.
 
 You can learn more about GitLab.com SaaS on the [Production Architecture](/handbook/engineering/infrastructure/production/architecture/) handbook page.
 
-Any projects with [yellow or green](/handbook/security/data-classification-standard/#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](/handbook/infrastructure-standards) guidelines.
+Any projects with [yellow or green](/handbook/security/standards/data-classification-standard/#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](/handbook/infrastructure-standards) guidelines.
 
 ##### Business Related
 

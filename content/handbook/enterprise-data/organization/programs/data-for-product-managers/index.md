@@ -12,7 +12,7 @@ The user-facing end of GitLab's data stack consists of our BI Tool, Tableau, whi
 
 Here are some useful links that we recommend for you to bookmark:
 
-- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/): Helpful guides on how to use our data
+- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/): Helpful guides on how to use our data
 - [DBT documentation](https://dbt.gitlabdata.com/#!/overview): Data model documentation
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/): Service Ping metric definitions and metadata
 - [Service Ping documentation](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
@@ -189,7 +189,7 @@ Each data source comes with its own caveats, capabilities, and limitations. The 
 - Service Ping provides pre-aggregated counts of specific events/actions (aka metrics). We are unable to do any analysis at a more granular level (ex: user-level, project-level, etc) since the metrics are already aggregated.
 - Sending Service Ping is optional but defaults to being on.
   - You can see the percent of paid subscriptions that successfully send a ping every month on [this chart](https://10az.online.tableau.com/t/gitlab/views/PaidSubscriptionServicePingOpt-InRate/PaidSubscriptionServicePingOpt-InRate). We do not know about the opt-in rate of unlicensed (Core/Free) users but assume the same rate. Here is more [information](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/internal/-/issues/291#note_276741996) on why some installations block data from being sent.
-  - Since we do not receive pings from every customer, we apply an estimation in monthly reporting to fill in the gaps. You can read more about the estimation methodology in the internal handbook [here](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/xmau-analysis/estimation-xmau-algorithm/).
+  - Since we do not receive pings from every customer, we apply an estimation in monthly reporting to fill in the gaps. You can read more about the estimation methodology in the internal handbook [here](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/xmau-analysis/estimation-xmau-algorithm/).
 - Customers must adopt a version of GitLab with a metric instrumented in order to report the metric. For example, if a metric is added in 17.3, only customers on versions >= 17.3 will report the metric. This means that it can take months to have a sufficient number of customers reporting the metric.
   - You can track GitLab version adoption on [this dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2298821/views).
 - Pings are added to Snowflake daily. By the 2nd of the month all the data should be available from the previous month.

@@ -201,9 +201,9 @@ In order to be considered as having graduated from your role based onboarding jo
 In addition to onboarding enablement, continuous enablement will be available to you via micro-learning, job aids, just-in-time learning, and webinars.
 
 - [Customer Success Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/) is a biweekly webinar for the Customer Success and Solutions Architect teams on various technical topics
-- [Field Enablement Spotlight](/content/handbook.gitlab.com/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions take place weekly and cover topics relevant to the field
+- [Field Enablement Spotlight](/handbook/customer-success/csm/workshops/) sessions take place weekly and cover topics relevant to the field
 
-In additon to the above resources, you will also have access to [O'Reilly](https://learning.oreilly.com/home/), a learning platform accessible via Okta SSO.
+In addition to the above resources, you will also have access to [O'Reilly](https://learning.oreilly.com/home/), a learning platform accessible via Okta SSO.
 
 ## Feedback
 

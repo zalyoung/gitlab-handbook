@@ -72,12 +72,6 @@ graph TD
 
 Please open a new issue in [our team project](https://gitlab.com/gitlab-com/quality/engineering-analytics/-/issues/new) using the `on-boarding.md` template.
 
-## Key Reviews
-
-Key Reviews are meetings a department has with other GitLab team members to discuss any progress or updates related to KPIs & OKRs with the rest of the organization. More information can be found on the [Key Review Handbook Page](/handbook/company/key-review/)
-
-In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](/handbook/engineering/infrastructure/performance-indicators) is https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators.
-
 ### Performance Indicator DRI
 
 The Performance Indicator [DRI](/handbook/people-group/directly-responsible-individuals/) is an optional attribute in the PI page `.yml` file that specifies an individual as the DRI for a particular KPI/PI.
@@ -122,21 +116,12 @@ We assign the stable counterpart by Engineering Division's sub-departments. This
 | Security       | [Dani](https://gitlab.com/ddeng1)                                   | [Security PI Page](/handbook/security/performance-indicators)                           |
 | Support        | [Lily](https://gitlab.com/lmai1)                                    | [Support PI Page](/handbook/support/performance-indicators)                             |
 | Finance        | [Clément](https://gitlab.com/clem.lr)                               | [Finance PI Page](/handbook/finance/finance-team-performance-indicators/)               |
-| Incubation     | [Lily](https://gitlab.com/lmai1)                                    | [Incubation Page](/handbook/engineering/development/incubation/performance-indicators/) |
 
 Engineering analysts assigned to one area are experts in that area and may not have the knowledge depth in other areas. As such contributing cross-domain expertise will only be limited to Sisense charting and not beyond this data layer.
 
 ### Meetings and Scheduled Calls
 
 Aside from the below listed scheduled meetings, the team will also have scheduled 1:1s with other team members and their stable counterpart assignement's department head at a cadence of their choosing to discuss any topics that were not covered in normal status updates or other meetings.
-
-#### Engineering Key Reviews
-
-Each Engineering department has a monthly or bi-monthly [key review](/handbook/company/key-review/) where e-group goes over the department's metrics and can ask the department heads any general questions regarding the department's progress towards its goals. Analysts are expected to go to their stable counterpart's key meeting & participate if needed, & are encouraged to attend other department key reviews as time permits.
-
-- If stable counterpart department head has delegated you as DRI for a particular metric, provide updates during meeting for those metrics.
-- Support department heads in metric preparation ahead of reviews
-- Capture follow-up asks related to metrics from key review
 
 #### Recurring sync with stable counterparts
 

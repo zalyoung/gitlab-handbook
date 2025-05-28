@@ -66,6 +66,7 @@ The purpose of the advisory committee is to create cross-functional alignment on
 * Rendi Miller (Procurement)
 * James Shen (Finance)
 * Marin Jankovski (Infrastructure)
+* Taylor McCaslin (Product)
 
 ## ESG | Sustainability Programs
 
@@ -254,7 +255,6 @@ The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quar
 * Rendi Miller (Finance)
 * Emily Plotkin (Legal)
 * Kim Buncle (Legal)
-* Lauren Lopez (Legal)
 * Alisha Ward (Marketing)
 * Darwin Sanoy (Marketing)
 * Kristof Goossens (Marketing)

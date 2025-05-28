@@ -44,7 +44,7 @@ The Technical Instructional Designer is responsible for designing and developing
 
 ### Technical Instructional Designer (Intermediate)
 
-The Technical Instructional Designer (Intermediate) reports to the [Manager, Technical Instructional Designers](/manager-technical-instructional-designers).
+The Technical Instructional Designer (Intermediate) reports to the [Manager, Technical Instructional Designers](#manager-technical-instructional-designers).
 
 #### Job Grade
 
@@ -60,7 +60,7 @@ The Technical Instructional Designer (Intermediate) is a [grade 6](/handbook/tot
 
 ### Senior Technical Instructional Designer
 
-The Senior Technical Instructional Designer reports to the [Manager, Technical Instructional Designers](/manager-technical-instructional-designers).
+The Senior Technical Instructional Designer reports to the [Manager, Technical Instructional Designers](#manager-technical-instructional-designers).
 
 #### Job Grade
 

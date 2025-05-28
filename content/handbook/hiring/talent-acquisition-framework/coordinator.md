@@ -18,6 +18,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
    1. Click on the new Issue
    1. If unassigned, assign it to yourself or the responsible CES on the right-side toolbar
    1. Read the Issue message
+   1. Labeling - each issue will need to be labeled with at least one appropriate label.
    1. If you need to respond to the "email" by adding comments to the issue, be sure to enter comments as you would an email to the candidate. Always assume that a candidate could be included in any email.
    1. If no action is needed and the issue has been solved, you may close it. Do not close issues until you have resolved the problem you are solving.
 
@@ -107,7 +108,9 @@ If the candidate submits the form, all the CES team members will receive an emai
 4. Schedule the interview based on the recruiter’s scheduling request.
 5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
 6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
-7. Close the issue once the scheduling is completed.
+7. If CES receives a written request from a candidate for an accommodation not currently listed on our form, CES will notify TMR for advice and respond accordingly with how we can accommodate. CES will follow steps above to ensure interviewer is advised on how to proceed with the interview.
+8. CES will save email communication with candidate in the event they are hired. If so, CES will upload communications into the hires Workday profile.
+9. Close the issue once the scheduling is completed.
 
 #### ModernLoop
 
@@ -136,6 +139,16 @@ Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zend
 - For the interviewer invite, select the correct template from the dropdown list 
 - Review all details and then press 'Confirm and send' 
 - If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
+
+## How to schedule internal interviews
+
+- When receiving a scheduling task in ModernLoop from a recruiter for an internal candidate, confirm that the 'internal candidate' tag has been applied to the task.
+- If it is missing, add the "internal candidate" tag to the ModernLoop task yourself for tracking purposes.
+- Unlike with external candidates, recruiters do not request availability from internal candidates via email. Instead, they create a scheduling task for CES to arrange interviews directly, without waiting for candidate-submitted availability.
+- The recruiters will inform the candidate that CES will be making use of their GitLab calendar to schedule the interview.
+- CES should proceed directly to scheduling the calls without waiting for candidate availability submission. 
+- Access the Google Calendar to view both the interviewer's and internal team member's calendars in tandem. 
+- Once a suitable time slot has been identified, schedule the interview and send the internal candidate confirmation in ModernLoop.
 
 ## How to add or replace an interviewer for a scheduled interview
 
@@ -317,7 +330,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -380,8 +393,8 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
-| GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster|
+| GitLab BV, Netherlands | Marissa Farris, Jake Foster|
 | GitLab Canada Corp | Simon Mundy |
 | GitLab France S.A.S. | Jake Foster, Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
@@ -389,7 +402,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen. Backups: Jim Gladen & Simon Mundy |
 | GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors |
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
-| GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
+| GitLab IT BV | Marissa Farris, Jake Foster, Jack Connors |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
@@ -404,7 +417,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -766,21 +779,6 @@ JCLs should be treated like contracts, where RSUs are only features in US ones a
 1. Then click "Done".
 1. When the JCL is signed, ensure that you merge profiles before Hiring to avoid creating duplicate profile
 
-## Germany Job Change Letters
-
-1. Confirm that the start date is either on the 1st or 16th of the month. For Sales or Sales Development, the start date should be the 1st. This is for payroll purposes and does not need to be on a business day.
-1. CES will send the "German Job Change Letter step 1" template email via Greenhouse.
-1. Follow the Job Change Letter process above to send via Docusign.
-1. Download a copy of the unsigned JCL on your desktop.
-1. Open the saved unsigned contract in Google Drive and replace Signatory's name with "GitLab Signatory". Save the contract as a PDF format.
-1. To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - To (recipients) : Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-    - Subject line : Please Send Physical Job Change Letter for "Name of the team member"
-    - Body of the email : Expand the Text expander snippet "GCtogermancounsel"
-    - Attachment : CES to attach the unsigned PDF JCL
-1. In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the "email the "candidate name" function, select the template "German Job Change Letter already sent to counsel".
-1. Once the candidate has confirmed that they have received the physical JCL in mail, CES will send the email template "German Job Change Letter step 2" to the candidate and close out the issue.
-
 ## Contractor Conversions
 
 A contractor conversion is when a GitLab contractor is moving into a permanent position. Recruiters should communicate to their CES partner that a candidate is going through a contractor conversion process. You can confirm this by checking that the "source" says Contractor Conversion, which will show up on the requisition. CES team members will follow the same steps as a regular contract, however there are a few nuances to note:
@@ -809,7 +807,6 @@ The process for New Hires is as follows:
 1. The offer is made by the recruiter per the [hiring process](/handbook/hiring).
 1. If the date of birth is not filled out and cannot be found in a reference check form, the Candidate Experience Specialist can use the emails the email template Contract Info Request - the Netherlands from GreenHouse and send to the candidate.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
-1. The Candidate Experience Specialist will update the GreenHouse Offer Details with the Date of Birth when the new team member provides the necessary details and then generates the "IT BV Employee Temporary - the Netherlands" contract out of GreenHouse.
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
 1. Please note that you should *not* be running a criminal background check for the Netherlands, because they'll be doing a different process (Certificate of Good Conduct/VoGS) instead. Please select the Netherlands background check package which only includes employment verification and an extended global sanctions search.
 
@@ -1011,7 +1008,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, Sweden, Luxembourg and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 

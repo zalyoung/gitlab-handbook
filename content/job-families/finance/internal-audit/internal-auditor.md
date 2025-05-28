@@ -3,7 +3,7 @@ title: Internal Auditor
 description: The Internal Auditor is responsible for assisting the Internal Audit team in performing tasks such as creating data requests, performing testing of controls, document evidence of the testing, follow up with function owners for pending information requests, as directed.
 ---
 
-The Internal Auditor reports to the Senior Internal Audit Manager.
+The Internal Auditor reports to the Director of Audit.
 
 ### Job Grade
 

@@ -41,7 +41,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. A people leader hires a new team member that demonstrates our [CREDIT values](/handbook/values/).
 1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal](/handbook/values#make-a-proposal).
 1. A manager of one prioritizes well-being by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
-1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame).
+1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding).
 
 ## Interim and Acting Leadership
 
@@ -260,7 +260,7 @@ Building and maintaining high performance includes staying mindful of team well-
 
 ### Manager M-Team Groups
 
-M-teams are management support groups made up of 3 to 6 managers who are in timezones that allow for sync meetings among members. M-teams should set up a regular meeting on a cadence agreed by the members with the agenda being "what's challenging this week?". Decide who will facilitate and each person will get a chance to have their challenge discussed in the meeting. When it's your turn, you talk a little about what you're struggling with. M-groups agree to a level of [confidentiality](https://3plusinternational.com/2017/10/confidentiality-and-the-potential-loss-of-trust/) so that group members are willing to be vulnerable; vulnerability leads to trust and better outcomes for the group.
+M-teams are management support groups made up of 3 to 6 managers who are in timezones that allow for sync meetings among members. M-teams should set up a regular meeting on a cadence agreed by the members with the agenda being "what's challenging this week?". Decide who will facilitate and each person will get a chance to have their challenge discussed in the meeting. When it's your turn, you talk a little about what you're struggling with. M-groups agree to a level of [confidentiality](https://3plusinternational.com/confidentiality-and-the-potential-loss-of-trust/) so that group members are willing to be vulnerable; vulnerability leads to trust and better outcomes for the group.
 
 If you're interested in starting or joining an m-team meeting, reach out to other managers in the [#managers](https://gitlab.slack.com/archives/C5Z55R5J5) Slack channel.
 

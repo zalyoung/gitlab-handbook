@@ -96,7 +96,7 @@ The next step in the Product Manager - Marketing job family is not yet defined a
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, you can find their job title on our [team page](/handbook/company/team/).
 
-- Select candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Select candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 30 minute interview with our Director, Digital Experience.
 - Next, candidates will be invited to schedule a 30 minute technical interview with our Fullstack Engineer and a Frontend Engineer on the Marketing team.
 - Next, candidates will be invited to schedule a 30 minute interview with the Senior Director, Growth Marketing.

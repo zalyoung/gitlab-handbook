@@ -1,5 +1,5 @@
 ---
-title: "Tracked Jetbrains Issues"
+title: "Tracked JetBrains Issues"
 no_list: true
 ---
 
@@ -78,7 +78,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
   - Requires `# noinspection SqlResolve` or sometimes maybe `# noinspection RubyResolve` (e.g. if it's indirectly accessed via Rspec).
   - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-7813387.0-0> providing some information and requesting more info and follow-up
   - UPDATE 2024-01-06: JetBrains marked the issue resolved, but we are still seeing errors which seem related. See comment here:
-    https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-8744712.0-0  
+    https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-8744712.0-0
 
 ### RUBY-32287
 

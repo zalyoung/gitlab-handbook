@@ -18,7 +18,7 @@ If you’re buying something on behalf of GitLab (e.g. for a customer), see the 
 
 Don't see an item you're looking for? Submit requests for future items you'd like to see in the swag shop in [this issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-strategy/-/issues/432).
 
-_Note: [Brilliant](https://www.brilliantmade.com/) is our approved vendor for all swag orders. **Please do not work with other vendors outside of our approval process to print your own swag.** It's important that we all protect our brand integrity and avoid creating items that violate [brand standards](https://design.gitlab.com/)._
+_Note: [Brilliant](https://www.brilliantmade.com/) is our approved vendor for all swag orders. **Please do not work with other vendors outside of our approval process to print your own swag.** It's important that we all protect our brand integrity and avoid creating items that violate the [Brand Guidelines](https://design.gitlab.com/)._
 
 ### How to order swag  
 
@@ -128,12 +128,13 @@ Your Finance Business Partner will provide budget guidance and approval for all 
 |    Brand & Product Marketing, Sales Development, Developer Relations & Strategy    |    Riley OHara `@rohara2`    |
 |    Direct Sales    |    Kaitlyn Sarmento `@KSarmento`    |
 |    Alliances & Channel    |    Kaitlyn Sarmento `@KSarmento`    |
-|    CS, Pro Serv, and SA    |    Olivia Alexander `@oalexander`    |
+|    CS, Pro Serv, and SA    |    Robert Callam `@rcallam`    |
 |    RS&A    |    Robert Callam `@rcallam`    |
 |    Engineering    |    Jessica Smith `@JessSmith`    |
 |    Product & UX    |    Jessica Smith `@JessSmith`    |
 |    Security    |    Petra Foget `@pfoget`    |
-|    G&A (CFO, People, Legal)    |    Nyasha Tarinda `@ntarinda`    |
+|    G&A (CFO)    |   Petra Foget `@pfoget`    |
+|    G&A (People, Legal)    |   Cameron Smith `@cam.smith`    |
 
 #### Team-specific budget considerations
 

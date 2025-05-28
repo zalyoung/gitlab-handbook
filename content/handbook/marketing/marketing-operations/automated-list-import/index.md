@@ -101,7 +101,9 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 ## Data Cleaning Instructions
 
 {{% panel header="**Caution**" header-bg="danger" %}}
-DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE
+DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE. 
+
+The list upload spreadsheet includes a protected range on the header. Changes to the header may break the bot. All spreadsheet changes need to be through Marketing Ops, with the following individuals having edit access: Nikki, Bryce, Amy, Jameson, Mihai, Rob and Jenny
 {{% /panel %}}
 
 <details>
@@ -174,7 +176,7 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - Record ownership will be assigned using established lead routing, which is [controlled by Traction Complete](/handbook/marketing/marketing-operations/traction-lead-complete/)
 
-- In order to mark leads as `Opt-in = TRUE`, a record of the terms and conditions the leads agreed to upon having their data collected must be recorded. Check the `terms of service` wording has been recorded in the upload issue **before** opting in leads to receive marketing communications. No ToS, no `Opt-in`. Period. To find the appropriate language, refer to [Marketing Rules and Consent Language](/handbook/legal/marketing-collaboration/#marketing-rules-and-consent-language)
+- In order to mark leads as `Opt-in = TRUE`, a record of the terms and conditions the leads agreed to upon having their data collected must be recorded. Check the `terms of service` wording has been recorded in the upload issue **before** opting in leads to receive marketing communications. No ToS, no `Opt-in`. Period. To find the appropriate language, refer to [Marketing Rules and Consent Language](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language/)
 
 - If there are any records who have opted out of contact for any reason, define that on the spreadsheet by selecting `Opt-in = FALSE`
 
@@ -195,7 +197,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Country                | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Campaign Member Status | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | This will determine the status in the Marketo Program                                                                                                                                                                                                                   |
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
-| CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) |
+| CRM Partner ID         | No                                        | You can find setup instructions [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find setup instructions [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) |
 | Preferred Language | No | Must be written exactly: French, German, Japanese, Italian, Korean, Spanish, Portuguese. Other languages available [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8945). | Leave blank if value is English or unknown |
 | High Priority Reason? | No | High Priority Campaign <br> White Glove  | Only used if leads [need to appear in front of SDRs quickly due to some high propensity to purchase reason](/handbook/marketing/sales-development/#sdr-lead-views). Familiarize yourself with the [white glove](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows) process to determine if that dropdown should be used|
 
@@ -219,7 +221,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Argentina                                    | Prince Edward Island                 | Registered              |
 | Armenia                                      | Quebec                               | Attended                |
 | Aruba                                        | Saskatchewan                         | Attended On-Demand      |
-| Australia                                    | Yukon Territories                    | No Action               |
+| Australia                                    | Yukon                                | No Action               |
 | Austria                                      | Armed Forces Americas                | Downloaded              |
 | Azerbaijan                                   | Armed Forces Europe                  | Shipped                 |
 | Bahamas                                      | Alaska                               | Delivered               |

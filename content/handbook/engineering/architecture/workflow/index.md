@@ -354,3 +354,15 @@ architectural choices more quickly. If you are using an immutable architectural
 decisions log (ADRs) updating the design doc should not require a lot of effort.
 Alternatively you can archive a design doc if using it as documentation does not
 serve any meaningful purpose.
+
+### Design Document Status Definitions
+
+To provide clarity and consistency across the architecture workflow, the following statuses are used to indicate the current state of each design document:
+
+- `proposed`: The design has been drafted and is awaiting review or feedback. It has not yet been formally accepted.
+- `accepted`: The design has been reviewed and approved. Work may begin based on this design.
+- `ongoing`: Work based on the design is actively being implemented.
+- `implemented`: Work has been completed and the design has been fully implemented.
+- `rejected`: The design was reviewed but not accepted. It will not be implemented in its current form.
+
+These statuses help track the lifecycle of architectural designs and provide visibility into their current state.

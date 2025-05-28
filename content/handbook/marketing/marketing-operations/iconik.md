@@ -5,7 +5,7 @@ description: "Iconik is a hybrid cloud media management solution for digital pro
 
 ## About
 
-[Iconik](https://www.iconik.io/) is a media asset management and video collaboration platform used by the [digital production team](/handbook/marketing/brand-and-product-marketing/content/digital-production/) to manage video workflows, metadata, cloud storage, and collaboration.
+[Iconik](https://www.iconik.io/) is a media asset management and video collaboration platform used by the Brand Video Team to manage video workflows, metadata, cloud storage, and collaboration.
 
 ## Access
 

@@ -42,7 +42,7 @@ Bigger product feature contributions should follow GitLab
 [Iteration training](/handbook/engineering/development/onboarding/manager/#iteration-training) is available to coach on GitLab's value of iteration. This can be helpful to understand the expectations of GitLab product teams for feature iteration.
 
 Not every features can follow the same strategy, but the first strategy we
-try should be [crafting the minimal valuable change](/handbook/product/product-processes/#crafting-an-mvc), and for creating
+try should be [crafting the minimal valuable change](/handbook/product/product-processes/#writing-about-features), and for creating
 merge requests, always try to [keep merge requests small](/handbook/engineering/workflow/iteration/#how-to-keep-a-merge-request-small).
 
 In the above guidelines to keep merge requests small, we mentioned:
@@ -95,10 +95,10 @@ Contributions from [JiHu team members](https://gitlab.com/groups/gitlab-jh/jh-te
 1. Merge request is then set to 'ready' state by JiHu team.
 1. JiHu author will request a review using `@gitlab-bot request_review` to identify and work on merging the MR with a merge request coach
 1. The MR goes through our documented review process which includes:
-    1. [Code review by domain experts](#what-approvals-are-required)
-    1. Review from owners of specific code files. JiHu merge request author is responsible to mention team members from list of require approvals in the MR Approvals widget. Currently for the following area:
-        1. Authentication related code
-    1. [GitLab Security Review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
+   1. [Code review by domain experts](#what-approvals-are-required)
+   1. Review from owners of specific code files. JiHu merge request author is responsible to mention team members from list of require approvals in the MR Approvals widget. Currently for the following area:
+      1. Authentication related code
+   1. [GitLab Security Review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
 
 #### What approvals are required
 

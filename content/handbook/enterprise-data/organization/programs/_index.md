@@ -44,7 +44,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 Evaluation Design is the most complex part of the PoV.
 
 1. Decide how to test the technology versus defined requirements. Often, successfully testing data technologies requires simulating production workloads and constructing a 'Production Level SAFE Workload' is a key challenge in a Data PoV Project.
-     - No [Red Data](/handbook/security/data-classification-standard/#red) or [Orange Data](/handbook/security/data-classification-standard/#orange) is ever suitable for inclusion in a PoV.
+     - No [Red Data](/handbook/security/standards/data-classification-standard/#red) or [Orange Data](/handbook/security/standards/data-classification-standard/#orange) is ever suitable for inclusion in a PoV.
 
 ### Phase 4: Procurement
 
@@ -75,7 +75,7 @@ Evaluation Design is the most complex part of the PoV.
 | [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/) | Catalog of dashboards, data sets, and analytics projects |
 | [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/) | Information to help Product Managers |
 | [Data for Product Analysis](/handbook/product/groups/product-analysis/) | Information to help Product Analysts |
-| [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
+| [Analytics Instrumentation Group](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/) | Information covering the Analytics Instrumentation team |
 | [Data for Marketing Analysts](/handbook/marketing/inbound-marketing/search-marketing/analytics/) | Information to help Marketing Analysts |
 | [Data for Sales Analysts](/handbook/sales/field-operations/sales-strategy/) | Information to help Sales Analysts |
 | [Data Triage](/handbook/enterprise-data/how-we-work/triage/) | Daily process to ensure the data platform remains available for analytics. |

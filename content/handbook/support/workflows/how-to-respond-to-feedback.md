@@ -1,8 +1,8 @@
 ---
-title: Satisfaction (SSAT) review and responding (for Managers)
+title: Satisfaction (CES) review and responding (for Managers)
 category: Handling tickets
 subcategory: Writing responses and handling feedback
-description: Discusses the Support Team's Support Satisfaction review process, and actions which Managers take to respond to customer feedback
+description: Discusses the Support Team's Satisfaction (Customer Effort Score or CES) review process, and actions which Managers take to respond to customer feedback
 ---
 
 To understand the factors contributing to [Support Satisfaction](/handbook/support/performance-indicators/#support-satisfaction-ssat),
@@ -17,17 +17,31 @@ created in the [Feedback issue tracker](https://gitlab.com/gitlab-com/support/fe
 - Embargo tickets (ones containing the tag `com_embargo`)
 - Tickets with the organization `GitLab` or `DigitalOcean Support`
 
+## What the customer receives
+
+When a ticket is solved the customer receives an email inviting them to complete a survey by answering one simple question:
+
+- Thinking about your recent experience of creating and working on a ticket, how easy was it to work with GitLab Customer Support?
+
+Choice of rating range from Extremely Easy to Extremely Difficult with 5 intermediate options. The resulting feedback issue will identify these as ratings 7 down to 1
+
+An optional second question asks:
+
+- What would make working on a ticket with GitLab Customer Support easier?
+
+If the customer opts out of completing this section the resulting feedback issue will contain 'User did not leave a comment'
+
+Examples of forms are located [here](/handbook/security/customer-support-operations/docs/zendesk/ces/#ces-survey-form)
+
 ## Subscribing to Customer Feedback Issues
 
 ### By territory
 
-If you'd like to subscribe to SSATs submitted by customers from a certain
+If you'd like to subscribe to CESs submitted by customers from a certain
 territory, you can subscribe to the appropriate `OrganizationRegion` scoped
 label through the [Feedback project labels page](https://gitlab.com/gitlab-com/support/feedback/-/labels).
 
-These labels are applied based on organization information
-[synced to Zendesk](/handbook/support/readiness/operations/docs/zendesk/organizations/)
-from SFDC.
+These labels are applied based on organization information synced to Zendesk from SFDC.
 
 | Label   | Description |
 |---------|-------------|
@@ -44,12 +58,12 @@ The single source of truth for these definitions can be found in the [Go to Mark
 
 Each Support Engineering Manager is responsible for reviewing and actioning feedback for their reports. Issues will be directly assigned to managers, and should be addressed within 7 days.
 
-This SSAT data will be reviewed by Senior Leaders and presented in Monthly region reviews.
+This CES data will be reviewed by Senior Leaders and presented in Monthly region reviews.
 
-### SSAT
+### CES
 
-The manager of the person to whom a ticket is assigned is responsible for reviewing customer feedback on that ticket.Feedback issues
-[are assigned](/handbook/support/readiness/operations/docs/zendesk/ssat/) to the managers automatically. The manager receives email notification from GitLab and a To-Do item.
+The manager of the person to whom a ticket is assigned is responsible for reviewing customer feedback on that ticket. Feedback issues
+are assigned to the managers automatically. The manager receives email notification from GitLab and a To-Do item.
 
 ### Mid-ticket feedback
 
@@ -59,7 +73,7 @@ The manager of the person to whom a ticket is assigned is responsible for review
 
 Currently, the following methods create feedback issues for review:
 
-1. [Automatic email survey](/handbook/support/readiness/operations/docs/zendesk/ssat/) -- sent to customers when tickets are closed.
+1. Automatic email survey -- sent to customers when tickets are solved.
 1. Mid-ticket feedback link -- each Public Comment from a GitLab Support Engineer or Manager has a link to a form where a customer can provide feedback or request contact from a manager while the ticket is open (introduced in issue [2913](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/2913)).
    1. This feedback form creates issues in the customer feedback project, with a subject format of **Positive/Negative/Neutral feedback for ticket nnnnnn**, and is automatically assigned to the **Support Manager On-call** and the manager of the Support Engineer assigned to the ticket.
    1. If the feedback is negative, there is an option to request manager contact (within 48hrs Mon-Fri). If this option is chosen, a Slack notification is sent to the #support_ticket-attention-requests channel. The [**On Call Manager**](/handbook/support/workflows/support_manager-on-call#expectations-for-support-manager-on-call) should promptly follow the guidance in [Handling mid ticket feedback requesting manager contact during business hours](/handbook/support/workflows/support_manager-on-call#handling-mid-ticket-feedback-requesting-manager-contact-during-business-hours).
@@ -71,7 +85,7 @@ Currently, the following methods create feedback issues for review:
 Within 7 days, for each of your Support Engineers who receive feedback:
 
 1. You should have performed the triage work described in the handling
-["Good"](#handling-good-reviews) and ["Bad"](#handling-bad-reviews) sections
+["Good"](#handling-good-reviews---customer-effort-scores-56-or-7) and ["Bad"](#handling-bad-reviews---customer-effort-scores-123-or-4) sections
 for each feedback issue assigned to you.
 1. You should have initiated any customer or GitLab group contact.
 1. You should have closed all feedback issues assigned to you that have
@@ -87,7 +101,7 @@ issue within 7 days of its creation.
 
 Our [Feedback and Complaints handbook page](/handbook/support/workflows/feedbacks_and_complaints) provides general guidance on assessing and responding to feedback.
 
-## Handling "Good" Reviews
+## Handling "Good" Reviews - Customer Effort Scores 5,6 or 7
 
 For each feedback issue labeled "satisfaction::good":
 
@@ -123,7 +137,7 @@ When selecting additional feedback to share, you don't need to share every piece
 
 ### Formatting feedback in SWIR issue
 
-When adding the comment to the SSAT issue in the `support-week-in-review` tracker, feel free to use markdown formatting. If you wish to use headers (`#`) please
+When adding the comment to the CES issue in the `support-week-in-review` tracker, feel free to use markdown formatting. If you wish to use headers (`#`) please
 
 - use H4 (`####`) or lower
 - be aware that headers will be included in the table of contents in the issue
@@ -132,7 +146,7 @@ Generally, include the ticket number with a link to the ticket, the comment from
 
 ### Automatically collecting positive feedback
 
-The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/#populate_ssat) in the `support-week-in-review` tracker will automatically collect open issues labeled with `~"satisfaction::good"` and append a nicely formatted version to the open SSAT issue.
+The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/#populate_ssat) in the `support-week-in-review` tracker will automatically collect open issues labeled with `~"satisfaction::good"` and append a nicely formatted version to the open CES issue.
 
 To run this job:
 
@@ -140,7 +154,7 @@ To run this job:
 
 You can safely re-run this task as many times as you'd like as it will append to the issue.
 
-## Handling "Bad" Reviews
+## Handling "Bad" Reviews - Customer Effort Scores 1,2,3 or 4
 
 For feedback issues labeled "satisfaction::bad", click through to the ticket, and review it to determine the following:
 

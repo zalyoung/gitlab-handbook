@@ -15,7 +15,7 @@ Don't forget about the wider GitLab team member community, too. There are lots o
 | Slack Channel | Description |
 | ----- | ----- |
 | Social Slack Channels | A [HUGE list](/handbook/communication/chat/#social-groups) of social channels to join based on your interests - try #cooking, #gaming, #dog, #cats, #travel, or #music. Can't find a channel for your favorite hobby? Start one and post about it in #whats-happening-at-gitalb so others know to join! |
-| Team Member Resource Groups | These groups help team members build stronger internal and external connections; offer social, educational, and outreach activities; create development opportunities for future leaders; and increase engagement among team members. Find a list of TMRGs [here](/handbook/communication/team-member-resource-groups/). |
+| Team Member Resource Groups | These groups help team members build stronger internal and external connections; offer social, educational, and outreach activities; create development opportunities for future leaders; and increase engagement among team members. Find a list of TMRGs [here](/handbook/company/culture/inclusion/erg-guide/). |
 
 ## Priotizing your Development
 
@@ -38,7 +38,7 @@ Don't worry if you've not finished your Week 1 onboarding issue yet - keep worki
 - Begin working on initial assignments to apply your skills and contribute to the codebase
 - Shadow other teams or participate in pair programming sessions with experienced engineers
 - Attend customer or client meetings to gain a better understanding of user needs and business objectives
-  
+
 ### Training and Workshops
 
 The Talent Development team curates a robust schedule of training sessions, workshops, and lunch-and-learns to help you expand your technical skills and knowledge. These cover a wide range of topics, from new programming languages to agile methodologies.

@@ -7,13 +7,12 @@ description: >-
 
 ## On-call in GitLab Support
 
-There are five on-call rotations in Support:
+There are four on-call rotations in Support:
 
 - [Communications Manager on-call (CMOC)](/handbook/support/workflows/cmoc_workflows) - in which Support Engineers drive public communication in the incident management process during GitLab.com operational emergencies.
 - [Customer Emergencies on-call (CEOC)](/handbook/support/workflows/customer_emergencies_workflows)- in which Support Engineers respond to and coordinate the resolution of emergency reports from Self-managed and GitLab.com customers
 - [US Government Emergencies](/handbook/support/workflows/customer_emergencies_workflows#us-federal-on-call) - which is similar to Customer Emergencies, but has different hours and a US Citizen requirement to participate in
 - [Support Manager On-call (SMOC)](/handbook/support/workflows/support_manager-on-call) - in which Support Managers are an escalation point for issues raised by Support Engineers and GitLab team members and missed PagerDuty notifications
-- [Support Operations On-call](/handbook/support/workflows/support_operations-on-call) - in which Support Readiness team members who focus on our Operations are available to be paged if there's an operational emergency
 
 For customers that have [Priority Support](https://about.gitlab.com/support/#priority-support), the Support Engineering Team is on-call in these capacities and available to assist with emergencies. What constitutes an emergency is defined in our [definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact).
 
@@ -118,8 +117,6 @@ DRIs are free to use the spreadsheet to create the schedule in advance for up to
 ##### Schedule Changes
 
 To make changes to the PagerDuty schedule, create a support team meta issue to discuss the changes with the affected participants. Once you decide on what changes to make, mention the support operations team in the issue to request that they implement those changes.
-
-More details can be found in the Operations Team [Pagerduty change management documentation](/handbook/support/readiness/operations/docs/pagerduty/change_management/).
 
 #### Your first on-call shift
 

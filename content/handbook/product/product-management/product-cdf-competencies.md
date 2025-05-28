@@ -2,13 +2,13 @@
 title: Product Management CDF and Competencies
 ---
 
-On this page, you'll find an overview as well as links to helpful resources for evaluating a product manager's performance at GitLab. To better understand a product manager's responsiblities at GitLab, please visit [The Product Manager Role at GitLab](/handbook/product/product-manager-role/)
+On this page, you'll find an overview as well as links to helpful resources for evaluating a product manager's performance at GitLab. To better understand a product manager's responsiblities at GitLab, please visit [The Product Manager Role at GitLab](/handbook/product/product-management/product-manager-role/)
 
 ## Product Management Career Development Framework
 
 <kbd class="required">Required 🔎</kbd><br>
 <br>
-We track progress through the skills required to be a product manager at all levels via the Product Management Career Development Framework (CDF). The single source of truth for that framework is the table below but you can use this [CDF template](https://docs.google.com/document/d/1MT_Xks-oF-D-2R_N380h4Phg_9s7BbO0U8k0eP-u8EI/edit) to track your career development with your manager. We are transitioning the CDF to include the company-wide standard of evaluating performance per the [Performance/Growth Matrix](/handbook/people-group/talent-assessment/#the-performancepotential-matrix). In this model, performance will be considered in categories of Developing, Performing, and Exceeding, alongside evaluation of Developing, Growing, and Exceeding in [Growth Output](/handbook/people-group/talent-assessment/#growth-output) instead of using Growing, Learning, Thriving, and Expert categories of the [compa-ratio](/handbook/total-rewards/compensation/compensation-calculator/#compa-ratio).
+We track progress through the skills required to be a product manager at all levels via the Product Management Career Development Framework (CDF). The single source of truth for that framework is the table below but you can use this [CDF template](https://docs.google.com/document/d/1MT_Xks-oF-D-2R_N380h4Phg_9s7BbO0U8k0eP-u8EI/edit) to track your career development with your manager. We are transitioning the CDF to include the company-wide standard of evaluating performance per the [Performance/Growth Matrix](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix). In this model, performance will be considered in categories of Developing, Performing, and Exceeding, alongside evaluation of Developing, Growing, and Exceeding in [Growth Output](/handbook/people-group/talent-assessment/#growth-output) instead of using Growing, Learning, Thriving, and Expert categories of the [compa-ratio](/handbook/total-rewards/compensation/compensation-calculator/#compa-ratio).
 
 ---
 
@@ -224,7 +224,7 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 
 | [Group Manager](/job-families/product/product-management-leadership/) | [Director](/job-families/product/product-management-leadership/)| [Senior Director](/job-families/product/product-management-leadership/) | [VP](/job-families/product/product-management-leadership/) |
 | --- | --- | --- | --- |
-| Partners with GTM on assigned Use Cases. Establishes a deep understanding of competitive and emergent solutions. Leads acquisition and new investment business case creation. Capable of managing business results across a range of product domains. | Capable of making key pricing & packaging recommendations for section. Champions acquisition opportunities including business case creation. Proactively manages adoption funnels and performance indicators across stages. Identifies GTM opportunities and engages with leaders to capitalize on them for the section. | Contributes to pricing discussions across the portfolio and makes recommendations on strategy. Identifies and champions acquisition opportunities and provides coaching to direct reports on effective positioning and business case creation. Leads cross-section dialogue on product performance indicators and helps identify opportunities for cross-section partnership. Works with GTM and Customer success leadership to deliver on portfolio priorities. |  |
+| Partners with GTM on assigned Use Cases. Establishes a deep understanding of competitive and emergent solutions. Leads acquisition and new investment business case creation. Capable of managing business results across a range of product domains. | Colloaborates with pricing team to define pricing and packaging strategy for a secion. Champions acquisition opportunities including business case creation. Proactively manages adoption funnels and performance indicators across stages. Identifies GTM opportunities and engages with leaders to capitalize on them for the section. | Contributes to pricing discussions across the portfolio and makes recommendations on strategy. Identifies and champions acquisition opportunities and provides coaching to direct reports on effective positioning and business case creation. Leads cross-section dialogue on product performance indicators and helps identify opportunities for cross-section partnership. Works with GTM and Customer success leadership to deliver on portfolio priorities. |  |
 
 ### Thought Leadership
 
@@ -312,7 +312,7 @@ We expect product managers to be a leader at the following levels. When evaluati
 
 ### A framework for evaluating potential
 
-It can be challenging objectively evaluating product managers for categorization of Low, Medium and High potential as suggested in the [Performance/Potential Matrix](/handbook/people-group/talent-assessment/#the-performancepotential-matrix). Consider using the following framework to rank a PM's potential. Assign a ranking, 1 (Low) - 5 (High) to each attribute below. Add up the rankings for a total score. A score between 5-11 is low potential, 12-18 is medium potential, 19-25 is high potential.
+It can be challenging objectively evaluating product managers for categorization of Low, Medium and High potential as suggested in the [Performance/Potential Matrix](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix). Consider using the following framework to rank a PM's potential. Assign a ranking, 1 (Low) - 5 (High) to each attribute below. Add up the rankings for a total score. A score between 5-11 is low potential, 12-18 is medium potential, 19-25 is high potential.
 
 | Attribute                 | Reasoning |
 | ------------------------- | --------- |

@@ -42,7 +42,7 @@ Because this group works on components of the application that have a [far-reach
 
 #### Feature Flags
 
-1. Compliance merge requests use feature flags where it makes sense to reduce risk. We follow the [Feature Flag Lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/) as closely as possible. For extended or multi–merge request development, all work should remain behind a dedicated feature flag. This approach allows incremental changes to be merged safely, keeping incomplete functionality off for production users.
+1. Compliance merge requests use feature flags where it makes sense to reduce risk. We follow the [Feature Flag Lifecycle](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) as closely as possible. For extended or multi–merge request development, all work should remain behind a dedicated feature flag. This approach allows incremental changes to be merged safely, keeping incomplete functionality off for production users.
 
 1. If a feature flag is used, a [feature flag rollout plan](/handbook/engineering/development/processes/rollout-plans/) issue should be created and added to the appropriate epic. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
 
@@ -117,7 +117,7 @@ When you pick something to work on, please:
 ### Testing
 
 We aim to uphold [GitLab's principle of fostering an environment where Quality is everyone's responsibility](/handbook/engineering/development/principles/#quality).
-Testing is an essential part of our [product development workflow](/handbook/product-development-flow/) and
+Testing is an essential part of our [product development workflow](/handbook/product-development/product-development-flow/) and
 [code review process](https://docs.gitlab.com/ee/development/code_review.html#quality).
 
 Information regarding test coverage can be found via these issues/epics:
@@ -188,7 +188,7 @@ Intention of this is to:
 
 ### Development Flow
 
-We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary):
 
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
@@ -206,7 +206,7 @@ Generally speaking, issues are in one of two states:
 - Discovery/refinement (1-4): we're still answering questions that prevent us from starting development,
 - Implementation (6-9): an issue is waiting for an engineer to work on it, or is actively being built.
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ### Discovery/Refinement
 
@@ -315,10 +315,11 @@ If none of the above applies, then the issue is probably fine as-is! It's likely
 
 #### Verification
 
-The issue verification should be done by someone else other than the MR author. This decreases the case of defects getting into production and a different perspective to cover more test cases.
+The issue verification should be done by someone else other than the issue assignee. This decreases the case of defects getting into production and a different perspective to cover more test cases.
 
 The verification process is also about sharing knowledge of development between the rest of the group. In an all remote organisation it is easy to become siloed developing features even in the same team, and this attempts to help bridge this.
 
+- Before moving the issue to `workflow::verification`, the issue assignee must verify the changes on production themselves to make sure the feature is working as expected.
 - All MRs should have verification steps in the description. In the case where multiple MRs are created for an issue, the engineer who is assigned to the issue should add complete verification steps in the issue description or as a reply to the triage bot's comment.
 - When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email.
   - For ~`~type::bug`, `~type::feature`, or big changes the engineer should verify again once the change is available on .com/production and leave a comment summarizing the testing that was completed. Also provide a link to a project or page, if applicable.
@@ -407,7 +408,7 @@ The Compliance EM also contributes to issues in the [Software Supply Chain Secur
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Software Supply Chain Security.+Compliance" >}}
+{{< engineering/stable-counterparts role="Software Supply Chain Security.+Compliance" >}}
 
 ## Dashboards
 

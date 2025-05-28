@@ -42,7 +42,7 @@ Figma and Figjam are our primary design tool of choice. Refer to the [usage and 
 
 ## Product Design Workflow
 
-Product Designers adhere to the [Product Development flow](/handbook/product-development-flow/) in collaboration with stable counterparts. Key aspects include:
+Product Designers adhere to the [Product Development flow](/handbook/product-development/product-development-flow/) in collaboration with stable counterparts. Key aspects include:
 
 - [Planning and managing capacity](/handbook/product/ux/product-designer/capacity-management)
 - [Prioritization](/handbook/product/ux/product-designer/capacity-management/#priorities)
@@ -58,6 +58,7 @@ New GitLab Product Designers should refer to the [Product Designer Workflow hand
 ## Product Design Management Workflow
 
 - [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
+- [Product Design Manager Pairs](/handbook/product/ux/how-we-work/product-design-manager-pairs/)
 
 ## Learning and Development
 

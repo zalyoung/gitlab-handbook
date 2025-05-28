@@ -155,6 +155,6 @@ The toolkit above will be your main resource and contains things like a sequenci
 
 **[6Sense](/handbook/marketing/marketing-operations/6sense/)** is used by Sales Development who can show you relevant data related to your target prospects. It has a wealth of intent and propensity to buy data that is married with account engagement indicators to create a holistic intent mapping for each account.
 
-**[Conversica](/handbook/marketing/marketing-operations/conversica/)** is a conversational AI tool that helps enterprise marketing, sales, customer success, and finance teams attract, acquire and grow customers at scale across the customer revenue lifecycle. The AI Assistant works by engaging the prospect in a human-like conversation over email in an effort to further qualify the prospect.
+**Conversica** is a conversational AI tool that helps enterprise marketing, sales, customer success, and finance teams attract, acquire and grow customers at scale across the customer revenue lifecycle. The AI Assistant works by engaging the prospect in a human-like conversation over email in an effort to further qualify the prospect.
 
 **[Salesforce Inbox](https://www.salesforce.com/sales/engagement-platform/)** is a productivity tool to integrate Salesforce with emails. You may need to request access. View the [Associating emails to Salesforce handbook](/handbook/sales/prospect-engagement-best-practices/) page for more information on how to use Salesforce to track outreach.

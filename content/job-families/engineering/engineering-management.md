@@ -91,7 +91,7 @@ The Principal Engineer is a [grade 9](/handbook/total-rewards/compensation/compe
 
 ### Director, Engineering
 
-- The Director of Engineering role reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development).
+- The Director of Engineering role reports to the [Senior Director, Engineering](#senior-director-engineering).
 
 #### Director, Engineering Job Grade
 
@@ -154,15 +154,15 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 
 - Extends that of the [Principal Engineer](#principal-engineer) requirements
 
-### Senior Director, Development
+### Senior Director, Engineering
 
-*The Senior Director, Development reports to the [VP of Development](#vp-of-development).
+The Senior Director, Engineering reports to the [VP of Engineering](#vp-of-engineering).
 
-#### Senior Director, Development Job Grade
+#### Senior Director, Engineering Job Grade
 
-The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The  Senior Director, Engineering is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Director, Development Responsibilities
+#### Senior Director, Engineering Responsibilities
 
 - This role is defined by the functional area(s) the person manages
 - Extends that of the [Director, Engineering](#director-engineering) responsibilities
@@ -170,19 +170,21 @@ The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compen
 - Prioritization of hiring efforts to focus on areas of most need and quickly recruit top engineering talent
 - Motivate and communicate across multiple levels of their department
 - Have successful peer partnerships with other department leaders in Engineering, and cross-functionally (Product Management, sales, marketing, alliances, etc)
-- Provide a consistent/successful interface between Engineering Development and Product Management
+- Provide a consistent/successful interface between Engineering and Product Management
 - Development, measurement, and management of key metrics for functional area's performance
 - Drive high throughput
 - Standardize the development process where needed, allow local differences where advantages
 - Help shift the organization toward CD over time
+- Develop leadership skills within the organization and mentor other leaders
+- Develop strategies and new initiatives with their team to advance on an organizational and technical level both the department, the company and the product
 
-#### Senior Director, Development Requirements
+#### Senior Director, Engineering Requirements
 
 - Extends that of the [Director, Engineering](#director-engineering) requirements
 
 ### Senior Distinguished Engineer
 
-The Senior Distinguished Engineer reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development) or [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering) of their sub-department.
+The Senior Distinguished Engineer reports to the [Senior Director, Development](#senior-director-engineering) or [Director, Engineering](#director-engineering) of their sub-department.
 
 #### Senior Distinguished Engineer Job Grade
 
@@ -205,7 +207,7 @@ The Senior Distinguished Engineer is a [grade 11](/handbook/total-rewards/compen
 
 ### Engineering Fellow
 
-*The Engineering Fellow reports to the [VP of Development](#vp-of-development).
+*The Engineering Fellow reports to the [VP of Engineering](#vp-of-engineering).
 
 #### Engineering Fellow Job Grade
 
@@ -231,17 +233,17 @@ The Engineering Fellow is a [grade 12](/handbook/total-rewards/compensation/comp
 
 - Extends that of the [Distinguished Engineer](#distinguished-engineer) requirements
 
-### VP of Development
+### VP of Engineering
 
-The VP of Development reports to the [Chief Technology Officer](#chief-technology-officer).
+The VP of Engineering reports to the [Chief Technology Officer](#chief-technology-officer).
 
-#### VP of Development Job Grade
+#### VP of Engineering Job Grade
 
-The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The VP of Engineering is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### VP of Development Responsibilities
+#### VP of Engineering Responsibilities
 
-- Exends that of the [Senior Director, Development](#senior-director-development) responsibilities.  It expands the role to cover full functional and product capabilities at GitLab
+- Extends that of the [Senior Director, Engineering](#senior-director-engineering) responsibilities.  It expands the role to cover full functional and product capabilities at GitLab
 - Drive recruiting of a world class team at all levels
 - Help their (senior) directors, senior managers, managers, and engineers grow their skills and experience
 - Measure and improve the happiness of Engineering
@@ -252,13 +254,13 @@ The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compe
 - *Define* the agile project management process
 - *Be accountable for* product quality, security, and performance
 - Work across departments within engineering
-- Work closely with Senior leaders of Product Management to provide a consistent/successful interface between Engineering Development and Product Management
+- Work closely with Senior leaders of Product Management to provide a consistent/successful interface between Engineering and Product Management
 - Support constantly changing priorities between product features, availability, performance, security and reliability
 - Support process for incident management including quality control of RCAs
 
-#### VP of Development Requirements
+#### VP of Engineering Requirements
 
-- Exends that of the [Senior Director, Development](#senior-director-development) requirements
+- Extends that of the [Senior Director, Engineering](#senior-director-engineering) requirements
 
 ## Performance Indicators
 
@@ -275,7 +277,7 @@ For more details on the engineering career ladders, please review the [engineeri
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
 - Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team
@@ -321,7 +323,7 @@ The Chief Technology Officer is a [grade 12](/handbook/total-rewards/compensatio
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
 - Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team

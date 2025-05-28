@@ -12,7 +12,7 @@ Though the UX Researchers are not the only ones who conduct user research in Git
 
 ## Who is responsible for research project prioritization?
 
-UX Researchers at GitLab work on multiple stage groups and often across stages. The UX Researchers provide a point of view on prioritization of the areas they support (see [who's supporting which areas](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned)). Ultimately, Group Product Managers or Directors of Product make the final decisions on research project prioritization.
+UX Researchers at GitLab work on multiple stage groups and often across stages. The UX Researchers provide a point of view on prioritization of the areas they support (see [who's supporting which areas](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-team-members-are-assigned)). Ultimately, Group Product Managers or Directors of Product make the final decisions on research project prioritization.
 
 ## What is the cadence of UX Research global prioritization?
 
