@@ -127,6 +127,6 @@ You can engage with our team asynchronously by:
 
 - Using our Slack channel, `#community-programs`
 - Tagging us in account-related conversations on Salesforce
-- Using our Slack channel, `#gitlab-for-campuses` for questions regarding the [GitLab for Campuses](/handbook/marketing/developer-relations/community-programs/education-program/gitlab-for-campuses/) paid offering.
+- Using our Slack channel, `#gitlab-for-campuses` for questions regarding the [GitLab for Campuses](/handbook/sales/public-sector#gitlab-for-campuses) paid offering.
 
 We are also happy to meet with you for synchronous coffee chats or join you for meetings with customers.
