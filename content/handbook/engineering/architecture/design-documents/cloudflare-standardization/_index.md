@@ -274,14 +274,6 @@ extensibility.
 ### Module Relationships
 
 ```mermaid
-%%{
-  init: {
-    'themeVariables': {
-      'lineColor': 'black'
-    }
-  }
-}%%
-
 flowchart TD
     %% Individual teams at the top
     user1["🌐 DNS Team<br/>Simple Setup"]
@@ -299,7 +291,6 @@ flowchart TD
         cf-dns[cloudflare/dns]
         cf-workers[cloudflare/workers]
         cf-logging[cloudflare/logging]
-        cf-rates[cloudflare/rate-limits]
         cf-waf[cloudflare/waf]
     end
     %% Detailed WAF module (separate for clarity)
@@ -322,25 +313,11 @@ flowchart TD
     user2 --> cf-data
     user3 --> cf-waf
     user3 --> waf-data
-    user3 --> cf-rates
     %% Entry point to functional modules
     cloudflare --> functional-layer
     %% Data flow connections
     cf-data --> waf-data
     cf-waf -.-> waf-data
-    %% Cross-dependencies
-    cf-workers --> cf-dns
-    %% Accessible styling
-    classDef teamStyle fill:#2563eb,stroke:#ffffff,stroke-width:3px,color:#ffffff
-    classDef entryStyle fill:#7c3aed,stroke:#ffffff,stroke-width:3px,color:#ffffff
-    classDef functionalStyle fill:#059669,stroke:#ffffff,stroke-width:3px,color:#ffffff
-    classDef dataStyle fill:#dc2626,stroke:#ffffff,stroke-width:3px,color:#ffffff
-    classDef rulesetStyle fill:#f59e0b,stroke:#ffffff,stroke-width:3px,color:#ffffff
-    class user1,user2,user3 teamStyle
-    class entry-module,cloudflare,cf-data entryStyle
-    class functional-layer,cf-dns,cf-workers,cf-logging,cf-rates,cf-waf functionalStyle
-    class waf-detail,rate-detail,waf-data dataStyle
-    class waf-rulesets,waf-default,waf-gcs,waf-bots rulesetStyle
 ```
 
 ### Versioning and Compatibility
