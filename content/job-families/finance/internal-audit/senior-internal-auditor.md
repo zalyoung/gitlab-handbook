@@ -24,7 +24,7 @@ The Senior Internal Auditor is a [grade 7](/handbook/total-rewards/compensation/
 - Drafts audit reports including value-added observations
 - Follows up and monitors the progress of the implementation of recommendations
 - Develops and maintains effective working relationships with business and corporate functions
-- Supports the alignment of activities between the control functions (i.e. Compliance, Finance, External Auditors, etc.) to improve communications and efficiency of audit and risk management activities
+- Supports the alignment of activities between the control functions (for example; Compliance, Finance, External Auditors, etc.) to improve communications and efficiency of audit and risk management activities
 - Assists with quarterly and annual reporting to the Audit Committee, Board of Directors and Senior Management
 - Performs advisory engagements, investigations and special projects as assigned
 - Continually improves skills and competencies required for the position
@@ -48,17 +48,6 @@ The Senior Internal Auditor is a [grade 7](/handbook/total-rewards/compensation/
 - Ability to work effectively in a team environment, both within Internal Audit and across other departments
 - Must be able to work in US time zones mainly Pacific and Eastern time zones with the overlap of at least 4 hours
 - Ability to use GitLab
-
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-
-### Career Ladder
-
-The next step in the Senior Internal Auditor job family is to move to the [Manager, Internal Audit and SOX](/job-families/finance/internal-audit/#manager-internal-audit) job family.
 
 ### Hiring Process
 
