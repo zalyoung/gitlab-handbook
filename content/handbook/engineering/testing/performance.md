@@ -15,7 +15,7 @@ flowchart LR
   end
 
   START((Start))
-  UNIT[[Perf tests in Unit Tests]]
+  UNIT[[Performance checks in Unit Tests]]
   PROFILE[[Profiling tools]]
 
   SPECS{Testing with\nnew unit tests?}
