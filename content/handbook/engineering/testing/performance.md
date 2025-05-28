@@ -45,7 +45,7 @@ flowchart LR
   click PROFILE "#profiling"
 ```
 
-#### Server-side Performance Testing
+### Server-side Performance Testing
 
 Existing performance testing includes:
 
@@ -54,11 +54,11 @@ Existing performance testing includes:
 
 This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
 
-#### Client-side Performance Testing
+### Client-side Performance Testing
 
 * [Browser performance testing](browser-performance-testing.md)
 
-#### Component Performance Testing
+### Component Performance Testing
 
 We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
 
@@ -121,11 +121,9 @@ Some approaches to using these tools are detailed on the [profiling page](https:
 | [Platform Triage Dashboard](https://dashboards.gitlab.net/d/general-triage/general3a-platform-triage?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-gprd&var-environment=gprd&var-stage=main) | the home page dashboard for our grafana, a common starting point for investigating performance in our Observability |
 | [Merge Request Performance Guidelines](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html) | Merge Request Performance Guidelines |
 
+## Future
 
-
-#### Future
-
-## Shift Performance Testing Left and Right
+### Shift Performance Testing Left and Right
 
 Performance testing is not limited to the final stages of development or to load testing scenarios. It can and should be integrated throughout the entire software development lifecycle, from early stages (shift left) to production monitoring (shift right). This comprehensive approach allows teams to gain a holistic understanding of their system's performance characteristics. It can also be done on all [testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) not waiting for a full component or system to be ready for testing.
 
