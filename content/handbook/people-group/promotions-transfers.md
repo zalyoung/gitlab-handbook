@@ -42,6 +42,15 @@ For Engineering, please see [Engineering Mobility Principles](/handbook/engineer
 
 ### Promotions
 
+Promotions represent one of the most meaningful moments in a team member's career journey—a recognition of their growth, contributions, and potential. For managers, these conversations are among the most impactful you'll have as a leader, offering the opportunity to celebrate achievements and inspire continued excellence.
+The promotion cycle is designed to create a fair, transparent process that honors both individual aspirations and organizational needs. Whether you're a team member preparing to showcase your readiness for the next level or a manager guiding someone through this pivotal moment, your participation shapes not just careers, but our culture of growth and recognition.
+
+Throughout this process, remember that promotions are about more than titles and compensation—they're about recognizing potential, celebrating growth, and investing in GitLab's future. Whether the outcome is a promotion or developmental feedback for the next cycle, every conversation is an opportunity to strengthen relationships and inspire continued excellence.
+
+For questions or support throughout the promotion cycle, reach out to your People Business Partner (PBP) or the Talent Management & Development team.
+
+## Types of Promotions
+
 **In-Cycle Promotions:**  An in-cycle promotion is any individual that is within the same job family, and has a similar but increased job scope. A promotion is not necessarily defined with a new grade due to differences in job families. We would typically expect a team member to have been in position for at least twelve months prior to being promoted to the next level position within the same job family. This process does not require interview(s), does not create backfill headcount and occurs semi-annually through the calibrated promotion process or monthly for level 5 team members in the Sales Development job family. All in-cycle promotions are processed in **Workday and not in Greenhouse.**  
 
 **Internal Mobility Promotions:**  Internal Mobility promotions occur when a team member applies for an open position and accepts a role at a higher grade/job responsibilities when compared to their current role.  
@@ -57,12 +66,12 @@ Our promotion philosophy comprises core pillars surrounding the approach and pro
 
 ### Pillars
 
-- Performance First: Promotions reflect your current performance, not just potential. For an in-line promotion, you should already be consistently operating at the level described in the next [job framework](/handbook/company/structure/#job-frameworks) before being promoted. While you'd typically become eligible for promotion to the next level in your job family after twelve months in your current role, remember that broadening your skills laterally is equally valuable to your growth journey.
-- Growth Partnership: Your career development is a collaborative effort between you and your manager. We encourage regular conversations about your aspirations—whether that means moving up the ladder or expanding across the lattice. Your manager is there to help identify opportunities that align with your goals, whether that's deepening expertise in your current area or branching out to develop complementary skills and experiences.
-- Holistic Evaluation: When considering promotions, we look at both your readiness and the business opportunity. We value team members who take on broader responsibilities and expand their impact horizontally, not just those looking to climb vertically.
-- Transparent Process: All in-line promotions at GitLab require a [promotion document](#promotion-document). This [transparency](/handbook/values/#transparency) ensures everyone understands the basis for advancement, whether it's vertical progression or recognition of significant lateral growth and expanded capabilities.
-- Self-Ownership: We encourage you to live our [efficiency value](/handbook/values/#efficiency) by being a [manager of one](/handbook/values/#managers-of-one) and taking ownership of your promotion document, working in partnership with your manager. This applies whether you're seeking vertical advancement or recognition for broadening your skills and impact.
-- Equitable Calibration: We calibrate planned promotions twice yearly to ensure fair and consistent review. Through this process, we track metrics to understand if our promotions—both vertical and lateral—are occurring at a healthy and equitable rate across the organization.
+- **Performance First**: Promotions reflect your current performance, not just potential. For an in-line promotion, you should already be consistently operating at the level described in the next [job framework](/handbook/company/structure/#job-frameworks) before being promoted. While you'd typically become eligible for promotion to the next level in your job family after twelve months in your current role, remember that broadening your skills laterally is equally valuable to your growth journey.
+- **Growth Partnership**: Your career development is a collaborative effort between you and your manager. We encourage regular conversations about your aspirations—whether that means moving up the ladder or expanding across the lattice. Your manager is there to help identify opportunities that align with your goals, whether that's deepening expertise in your current area or branching out to develop complementary skills and experiences.
+- **Holistic Evaluation**: When considering promotions, we look at both your readiness and the business opportunity. We value team members who take on broader responsibilities and expand their impact horizontally, not just those looking to climb vertically.
+- **Transparent Process**: All in-line promotions at GitLab require a [promotion document](#promotion-document). This [transparency](/handbook/values/#transparency) ensures everyone understands the basis for advancement, whether it's vertical progression or recognition of significant lateral growth and expanded capabilities.
+- **Self-Ownership**: We encourage you to live our [efficiency value](/handbook/values/#efficiency) by being a [manager of one](/handbook/values/#managers-of-one) and taking ownership of your promotion document, working in partnership with your manager. This applies whether you're seeking vertical advancement or recognition for broadening your skills and impact.
+- **Equitable Calibration**: We calibrate planned promotions twice yearly to ensure fair and consistent review. Through this process, we track metrics to understand if our promotions—both vertical and lateral—are occurring at a healthy and equitable rate across the organization.
 
 By embracing both the ladder (vertical growth) and lattice (lateral expansion) in our promotion philosophy, we create space for diverse career paths that recognize the many ways you can grow and contribute at GitLab.
 
@@ -106,58 +115,38 @@ Sales Development promotions will be reviewed on a monthly basis.
 Below is the timeline for FY26:
 *Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite](/handbook/company/offsite/#schedule).*
 
-### FY26-Q1 (Feb 1)
-
-*Status:* In Progress
-
-- Planning: 2024-11-01 to 2024-12-01
-- Calibrations: 2024-12-02 to 2025-01-03
-- Workday input by Director+: 2025-01-09 to 2025-01-16
-- PBP + E-Group Leader approvals: 2025-01-17 to 2025-01-20
-- Workday Approvals: 2025-01-21 to 2025-01-24
-- Team member individual communication: 2025-01-27 to 2025-01-31 (after fully approved in Workday)
-- Effective date for promotions: 2025-02-01
-- After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
-
 ### FY26-Q4 (Nov 1)
 
-Status: Pending
+Below are the dates for the FY26-Q4 promotion cycle:
+- Aug 1-15: Team members prepare & submit [promotion document](https://docs.google.com/document/d/1oXH9HzdO8gjqdeosstQRC1Mqt_5lCaN1U2kaF9Av-Ec/edit?usp=sharing)
+- Aug 18-29: Managers review team member promotion document & conducts discussion with team member
+- Sep 1: ** DEADLINE ** - All manager promotion nominations must be submitted in Workday
+- Sep 2-30: Promotion calibration sessions and promotion approvals
+- Oct 3: Compensation grid opens in Workday (promotion approval required prior to opening process in Workday)
+- Oct 3-10: Dir+ enters compensation amount in grid
+- Oct 13-20:  eGroup / PBP comp approvals
+- Oct 21-27:  Final approvals + statement generation in Workday
+- Oct 28-31: Team member communication window
+- Nov 1: Promotions go live! 🎉
 
-- Planning:
-- Calibrations & Workday input by Director+:
-- PBP & E-Group leader approvals:
-- Workday Approvals: 2
-- Communication:
-- Effective date for promotions: 2025-11-01
-- After communicating 1:1 with individuals **on or after 2025-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+Note: All dates are subject to minor adjustments. Any changes will be communicated in advance.
+
+#### Manager Enablement Sessions (People Manager Pivotal Moments Series)
+As part of our new People Manager Pivotal Moments series, the Talent Management & Development team will host specialized sessions focusing on those critical interactions that define your effectiveness as a leader. To support the promotion cycle, these sessions will help managers gain confidence in handling any promotion conversation scenario that comes their way, transforming discussions into opportunities for building trust and driving development.
+
+- Enablement sessions will be available in August - session dates and sign-ups to come
 
 ### FY27-Q2 (May 1)
 
-Status: Pending
-
-- Planning:
-- Calibrations & Workday input by Director+:
-- PBP & E-Group leader approvals:
-- Workday Approvals: 2
-- Communication:
-- Effective date for promotions: 2026-05-01
-- After communicating 1:1 with individuals **on or after 2026-05-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+Status: Dates are to be determined and posted.  Check back!
 
 ### FY27-Q4 (Nov 1)
 
-Status: Pending
-
-- Planning:
-- Calibrations & Workday input by Director+:
-- PBP & E-Group leader approvals:
-- Workday Approvals: 2
-- Communication:
-- Effective date for promotions: 2026-11-01
-- After communicating 1:1 with individuals **on or after 2026-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+Status: Dates are to be determined and posted.  Check back!
 
 ## Planning
 
-FY26 Q1 Promotion **Planning** will be completed via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
+FY26 Q4 Promotion **Planning** will be completed via Workday to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure Workday is up to date before going into the Calibration phase.
 
 Once the Calibration phase by Division is complete, Directors and above will have the ability to enter promotion compensation recommendations into the [Workday planning grid](https://docs.google.com/document/d/1KwpFnZC5MFpCwS9ElqkSh0f1bdZ3l0Gp-B4lDdJwIg0/edit?usp=sharing). For specific Division calibration meeting timelines, please reach out to your People Business Partner.
 
