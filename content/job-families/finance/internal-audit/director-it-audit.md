@@ -38,28 +38,13 @@ The Director, IT Audit is a [grade 10](/handbook/total-rewards/compensation/comp
 - Excellent communication skills – written and oral
 - Project management experience including overseeing multiple projects simultaneously
 - Problem solving and client service skills
-- Strong understanding and appreciation of information technology (e.g., application development, cloud, network infrastructure, vulnerability management, cybersecurity, database and server security, access control, etc.)
+- Strong understanding and appreciation of information technology (for example; application development, cloud, network infrastructure, vulnerability management, cybersecurity, database and server security, access control, etc.)
 - Experience in influencing, persuading, and making pitches to senior leadership
 - Leadership qualities, including experience managing a team
 - Ability to work in US time zones mainly Pacific and Eastern time zones
 - Experience in the software industry is highly preferred.
 - Professional certifications like CISA, CISSP, CISM or similar preferred
 - Ability to use GitLab
-
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
-- Completing tasks and audits timely and efficiently
-- Utilizing Best Practices related to audit findings and recommendations.
-- Approval ratings based on surveys above 80% in the first year, moving to 90% in subsequent years.
-
-### Career Ladder
-
-The next step in the Internal Audit job family is to move to the [Internal Audit](/job-families/finance/internal-audit/) job family.
 
 ### Hiring Process
 
