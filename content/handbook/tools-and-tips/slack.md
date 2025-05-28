@@ -215,7 +215,6 @@ As a GitLab Team Member, you can view the active slackbots that we use in Slack,
 | `hey guys, hi guys, you guys, salesman, salesmen, businessman, businessmen` | Are you including people of multiple genders? Please consider using "everyone," "team," "y'all," or similar instead. You can read [more about inclusive language in our handbook](/handbook/values/#inclusive-language--pronouns) |
 | `on your toes, on anybody's toes` | It's probably okay.<br><br>As companies grow, their speed of decision making goes down since there are more people involved. We should counteract that [by having short toes](/handbook/values/#short-toes), and feel comfortable letting others contribute to our domain. |
 | `aggressive` | Did you mean ambitious? |
-| `gitlabber, gitlabbers` | The term `gitlabber` is a commonly misused term. Please use "GitLab team member" instead. You can [read more about this in our handbook](/handbook/communication/top-misused-terms/) |
 
 ## Security
 

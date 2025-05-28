@@ -541,15 +541,26 @@ If you would like to be a mentor in a certain area, please add the information t
 
 Some of individual contributors (without any direct reports) have manager in their title without a comma after it. These titles are not considered a people manager in our company structure nor salary calculator, examples are product manager, accounting manager, account manager, channel sales manager, technical account manager, field marketing managers, online marketing manager, and product marketing manager. People with manager and then a comma are a people manager in our company structure.
 
-### "Team", "team member", and "community" terminology
+### "Team", "team member", "GitLabber", and "community" terminology
 
 The term "team" is reserved for the smallest group. A team is defined as a manager and their reports. "Team" does not refer to a group or [department](/handbook/engineering/development/).
 
-We refer to all the people working for the company as "team members". This is a bit confusing, given that "team" refers to a small group, but we believe "team member" is preferable over all the alternatives we considered:
+We refer to all the people working for the company as "team members" or
+"GitLabbers". Historically we avoided "GitLabber" because we considered it to be
+applicable to the whole GitLab community, but it actually never gained any
+traction. Using "GitLabber" is very similar to:
+
+- "Googlers": people working at Google
+- "Metamates": people working at Meta
+- "Figmates": people working at Figma
+
+In the past we referred to people working at GitLab as "team members", even it
+might be a bit confusing, given that "team" refers to a small group. Using
+"GitLabber" or "team member" is preferable over all the alternatives we
+considered:
 
 1. We don't use the term "employees" because we have many contractors working for GitLab Inc.
 1. "Staff" appears on [our user profile if we work for GitLab Inc.](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/29480/diffs), but this is confusing because it's also an [engineering level](/job-families/engineering/backend-engineer/#staff-backend-engineer).
-1. "Gitlabbers" is no longer used, because it isn't inclusive of the wider community.
 1. We considered calling team members "Tanuki" (referring to our logo), but [it is confusing to refer to humans with an animal species](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24447/).
 
 GitLab is a project bigger than GitLab the company. It is really important that we see the community around GitLab as something that includes the people at the company. Therefore, when you use the term "community," you should be referring to all GitLab users and contributors - including team members.

@@ -16,13 +16,6 @@
 #
 
 - avoid:
-  - GitLabber
-  use_instead:
-  - GitLab team member
-  reason: \"GitLabber" includes both the GitLab community and people who work at GitLab. When you want to refer specifically to people who work at GitLab, [use "GitLab team member" instead](https://handbook.gitlab.com/handbook/company/structure/#team-team-member-and-community-terminology).
-  exclude_from_exports: false
-
-- avoid:
   - International
   - Rest of world
   use_instead:
@@ -71,7 +64,7 @@
 - avoid:
   - Employees
   use_instead:
-  - Team members
+  - GitLabbers
   reason: We have team members who are [contractors](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#contract-factor)
   exclude_from_exports: false
 
