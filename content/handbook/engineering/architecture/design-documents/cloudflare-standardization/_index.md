@@ -328,6 +328,112 @@ flowchart TD
     cf-waf -.-> waf-data
 ```
 
+#### Example Terraform configurations
+
+##### Entrypoint module illustration
+
+This example shows a minimal usage of the `cloudflare` common entrypoint module.
+
+Without overrides for additional options, this will configure the zone in
+Cloudflare, create a DNS `A` record, and configure default rulesets for WAF
+custom rules and rate limit rules.
+
+```terraform
+module "cloudflare" {
+    source = "path/to/entrypoint/module"
+
+    zone = {
+        domain = "example.gitlab.com"
+        plan = "free"
+    }
+
+    records = {
+        "a" = {
+            # Create an A record for test.example.gitlab.com
+            "test" = [
+                "::1"
+            ]
+        }
+    }
+}
+```
+
+This next example illustrates a detailed example of multiple configurations through
+the common entrypoint module.
+
+```terraform
+module "cloudflare_data" {
+    source = "path/to/entrypoint/module//data"
+
+    domain = "example.gitlab.com"
+}
+
+module "cloudflare" {
+    source = "path/to/entrypoint/module"
+
+    zone = {
+        domain = "example.gitlab.com"
+        plan = "free"
+    }
+
+    records = {
+        "a" = {
+            # Create an A record for test.example.gitlab.com
+            "test" = [
+                "::1"
+            ]
+        }
+    }
+
+    waf = {
+        custom = {
+            # Build a custom ruleset from predefined rulesets
+            #
+            # Without explicit configuration this would default to `module.data.waf.custom.rulesets.default`.
+            # This would provide the rules that we expect the majority of implementations to use as a base.
+            rules = concat(
+                module.data.waf.custom.rulesets.gcs,
+                module.data.waf.custom.rulesets.bots,
+            )
+        }
+        rate_limits = {
+            # Disable rate limits by overriding with an empty list
+            rules = []
+        }
+    }
+}
+```
+
+##### Custom WAF rule implementation
+
+This example illustrates the expected usage pattern for direct submodule usage,
+with a custom list of rules defined to override the default.
+
+`zone_id` and `domain` are provided here to allow us to modify the records, and
+generate rulesets that apply to the specified `domain` where required.  When
+used through the common entrypoint this is automated through the `zone` top
+level variable.
+
+```terraform
+module "waf_rulesets" {
+  source = "path/to/waf/module//data"
+
+  domain = "example.gitlab.com"
+}
+
+module "waf" {
+  source = "path/to/waf/module"
+
+  zone_id = "..."
+  domain = "example.gitlab.com"
+
+  rules = concat(
+    module.waf_rulesets.bots,
+    module.waf_rulesets.gcs
+  )
+}
+```
+
 ### Versioning and Compatibility
 
 To ensure stability and reliability for teams using our modules, we will
