@@ -21,9 +21,9 @@ flowchart LR
 
   SPECS{writing tests?}
   BUILT{code still\nbeing written?}
-  UI{UX the main concern?}
-  ENV{server performance\nthe main concern?}
-  COMPONENT{Testing a\ncomponent?}
+  UI{Testing user-facing\nperformance?}
+  ENV{Testing backend/API\nperformance?}
+  COMPONENT{Testing component\nperformance?}
 
   START --> BUILT
   BUILT -- no --> ENV
@@ -40,11 +40,11 @@ flowchart LR
   ENV -- yes --> GPT
   ENV -- no --> UI
 
-  classDef decision fill:##f5f7f6,stroke:#333,stroke-width:1px,rx:5px;
+  classDef decision fill:#f5f7f6,stroke:#333,stroke-width:1px,rx:5px;
   classDef tool fill:#F28C6B,stroke:#333,stroke-width:1px,color:white,rx:5px;
   classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
 
-  class UI,ENV,CODE,BUILT decision;
+  class UI,ENV,BUILT,COMPONENT decision;
   class GBPT,CPT,GPT,PROFILE,UNIT tool;
   class START start;
 
