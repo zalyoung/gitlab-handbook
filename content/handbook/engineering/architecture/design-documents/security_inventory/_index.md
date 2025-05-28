@@ -46,7 +46,6 @@ Access to the Security Inventory is limited to Owners and Maintainers of a given
 - Create a performant, scalable inventory system that works efficiently for GitLab's largest customers
 - Provide hierarchical visibility into security posture across groups, subgroups, and projects
 - Reduce the computational overhead by pre-calculating and efficiently storing security statistics
-- Minimize data drift through regular alignment checks
 
 
 ### Non-Goals
@@ -149,7 +148,6 @@ query GetGroupVulnerabilityStatisticsForProjects($fullpath: FULLPATH!) {
 
 ###### Analyzer Status APIs
 
-TO_ADD
 * AnalyzerGroupStatus
 * AnalyzerStatus
 
