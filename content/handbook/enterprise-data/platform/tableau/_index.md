@@ -667,8 +667,9 @@ Use this folder as your go-to spot for foundational Tableau materials supported 
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
 
-### Official Training Resources
+### Training Resources
 
+- [GitLab Tableau Explorer Training](https://drive.google.com/file/d/1Zkk8_xz4CeH7tSHVW4KlMWHzFYN3VZlK/view?usp=drive_link): This video training covers the Gitlab Environment and how to update Tableau dashboards and even publish your own. This video access does require you to be a GitLab team member for access.  
 - [Free Tableau Training](https://www.tableau.com/learn/training)
 - [Tableau eLearning - Training Portal](https://elearning.tableau.com/): eLearning from Tableau is available for users with the Creator or Explorer license type
   - Tableau eLearning access steps
