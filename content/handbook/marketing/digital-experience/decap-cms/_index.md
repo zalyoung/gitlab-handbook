@@ -108,3 +108,22 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
     }
 ```
 ````
+
+
+### Creating a blog post using the Web IDE
+
+1. Visit the project repository at https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com
+1. Click the `Code` button dropdown, and select `Open with Web IDE`
+1. Once open, navigate to the folder you'd like your blog post in
+    - For most, this will be in `content -> en-us -> blog`
+    - Localized blog posts can be found in the content/{{language-code}} folder, such as `content -> fr-fr -> blog`
+1. Add a new file by clicking the `Add file` button at the top of the sidebar pane. Be sure to name your file whatever the url of the blog post will be
+    - Alternatively, if you have an existing yaml file (i.e. from Argo), you can drag and drop the file directly into the folder of your choosing. Be sure to `right click -> rename` the file to match the English version
+1. From here, you can copy and paste an existing blog post yaml file and fill in your new values, or use the [blog MR template](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/blob/main/.gitlab/merge_request_templates/blog-post.md?ref_type=heads) to start from scratch
+    - Be sure to either upload your blog image inside [/public/images/blog/hero-images/](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/public/images/blog/hero-images?ref_type=heads), or copy a URL from Cloudinary
+1. Once you're happy with your post, you can create a merge request through the Web IDE by selecting the `Source Control` icon on the left sidebar, then click the dropdown beside the `Commit and push to main` button -> `Create a new branch and commit` (you won't be able to commit and push to `main` directly)
+    - Hit `Enter` to just use the default branch name
+    - Click the `Create MR` button that appears in the bottom corner
+1. Wait for the pipeline to run to view your review app
+
+For a video walkthrough, click [here](https://youtu.be/dN1XZjZmJP0). 
