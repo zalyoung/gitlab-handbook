@@ -213,7 +213,8 @@ Data Team Incidents can be reviewed in [Incident Overview page](https://gitlab.c
 | `workflow::1 - triage & validation` | Data Triager       | A new request has been created                       | A clear problem statement & business value statement and expected outcome are included in the issue, and appropriate labels (Priority, Champion, and Team) have been applied. The issue has a numerical weight applied by the Data Triager. If the work does not warrants development, a description for why the work won't be done will be added and the issue will be closed. |
 | `workflow::2 - waiting for prioritisation` | Data              | The issue is scoped, sized and warrants development. | There is bandwidth to pick up this work in the short term. |
 | `workflow::3 - refinement`        | Data, Business DRI | The issue is actively being refined         | The technical solution have enough detail and clarity that (another) developer (other than the one doing the validation) would be able to pick it up. |
-| `workflow::4 - ready to develop`  | Data               | The issue is fully scoped & refined                  | Work is picked up for development  | `workflow::5 - development`       | Data               | Development work has started                         | Item is actively being worked on.  |
+| `workflow::4 - ready to develop`  | Data               | The issue is fully scoped & refined                  | Work is picked up for development  |
+| `workflow::5 - development`       | Data               | Development work has started                         | Item is actively being worked on.  |
 | `workflow::6 - review` | Data, Business DRI | Development work is ready for, or currently, being reviewed | All work is completed. |
 | `workflow::X - blocked`           | Data, Business DRI | Issue needs intervention that assignee can't perform | Work is no longer blocked  |
 
