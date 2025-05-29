@@ -4,7 +4,7 @@ title: Triage Rotation
 
 Application Security team members are alphabetically assigned as the
 responsible individual (DRI) for incoming requests to the Application
-Security team, typically for a weekly or fortnighly period.
+Security team, typically for a weekly or fortnightly period.
 
 ### Who is on rotation?
 
@@ -62,4 +62,4 @@ Team members remain responsible for their own assigned reports.
 
 ### Triaging exposed secrets
 
-Exposure of information and secrets is handled a little differently to vulnerabilities, as there is nothing to patch and therefore no need for a GitLab Project Issue, CVSS, or CVE. When you're pinged during your rotation and you see a leaked secret, follow the process discribed on the [HackerOne runbook](/handbook/security/product-security/application-security/runbooks/hackerone-process/#triaging-exposed-secrets)
+Exposure of information and secrets is handled a little differently to vulnerabilities, as there is nothing to patch and therefore no need for a GitLab Project Issue, CVSS, or CVE. When you're pinged during your rotation and you see a leaked secret, follow the process described on the [HackerOne runbook](/handbook/security/product-security/application-security/runbooks/hackerone-process/#triaging-exposed-secrets)
