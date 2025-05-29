@@ -7,8 +7,8 @@ description: "Follow this process to obtain legal review of materials for intern
 
 When creating materials:
 
-- for [external](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Tips](/handbook/legal/external-materials-compliance-tips).
-- for [internal](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
+- for [external](#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Tips](/handbook/legal/external-materials-compliance-tips).
+- for [internal](#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
 
 ## When to use this process
 
@@ -78,10 +78,10 @@ Follow this process to obtain legal review of a **single piece of material**. A 
 
     ```markdown
     ## Materials to be reviewed
-    <!-- Link (for Google Docs) or upload (for other file types) the material for review here. -->
+     <!-- Link (for Google Docs) or upload (for other file types) the material for review here. -->
 
     ## Is this material for internal or external use?
-    <!-- Delete as appropriate, and refer to the definitions of `external use` and `internal use` in the Materials Legal Review Process. If there are plans to use the material, or any part of it, externally in the future, chose `external`. -->
+     <!-- Delete as appropriate, and refer to the definitions of `external use` and `internal use` in the Materials Legal Review Process. If there are plans to use the material, or any part of it, externally in the future, chose `external`. -->
     - external @sfriss @LeeFalc
     - internal @sfriss
 
