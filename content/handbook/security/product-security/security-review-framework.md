@@ -9,7 +9,7 @@ security review along with the type of review that needs to be conducted."
 This security review framework for Product Security teams at GitLab aims to establish a systematic approach to evaluating and reviewing features based on 
 appropriate security team engagement and risk assessment. The framework aims to balance security requirements with development velocity by directing 
 security resources where they can have the most impact. The process begins with team routing to identify whether Secure Design and Development and/or 
-Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teams automatically engaged 
+Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teams engaged when required. 
 for High or Critical risk scores.
 
 How the security review framework fits into the Security Review Process for Product Security is visualized in the 
@@ -134,7 +134,7 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 
 **Note:** Launch tier is different from GitLab tiers (Free/Premium/Ultimate). Launch tier indicates what kind of events/announcements will be accompanied 
 with the feature launch. Definitions can be found in 
-[this Google Sheet](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20).
+[this Google Sheet](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20)(Internal).
 
 ##### Past Security Issues (0-5) (To be filled by AppSec. Product team won’t be asked to fill this)
 
