@@ -17,4 +17,4 @@ Please see [GitLab IT Onboarding 101](/handbook/security/end-user-services/onboa
 
 ## Laptop Wipes
 
-To book an appointment with us to wipe a GitLab laptop as part of a hardware refresh or offboarding, please refer to our [Laptop Wipe (Factory Reset) Process](handbook/security/corporate/services/laptops/wipe/) page and reach out to us directly with any questions or concerns.
+To book an appointment with us to wipe a GitLab laptop as part of a hardware refresh or offboarding, please refer to our [Laptop Wipe (Factory Reset) Process](/handbook/security/corporate/services/laptops/wipe/) page and reach out to us directly with any questions or concerns.
