@@ -79,18 +79,26 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 **- GitLab Community Support:** When possible attend GitLab Champions regional social events (dinners, meetups, gatherings).
 
-## Internal Champion Approval and Onboarding
+## Internal Champion Program Processes
 
-### Champions Program Manager and Ecosystem Specialists
+### Champions Candidate Nomination and Onboarding
+
+**Champions Program Manager and Ecosystem Specialists**
 
 1. The Champions Nomination form will email the Champions Program Manager (Manager) and Partner Support for new nominees.
 1. A partner support case will automatically open for an Ecosystem Specialist to follow up on the status of the Nominee Approval with the Manager.
 1. The Manager will communicate internally to determine approval.  If granted, the Manager will request Partner Support set the "GitLab Champion" user field in the Partner Portal to "Approved"
 1. Once approval is set in the Partner Portal, the Manager will notify the Sponsor GitLab SA to begin onboarding the new Champion.
 
-### Sponsor GitLab SA
+**Sponsor GitLab SA**
 
 1. Invite the new Champion via email address to be a `Developer` member of the [https://gitlab.com/gitlab-partners-public/gitlab-champions](https://gitlab.com/gitlab-partners-public/gitlab-champions) group.
 1. Create an [onboarding issue in the champions project](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions/-/issues/new#) for the new Champion with the New_Champion_Onboarding template.
 1. Complete the `GitLab Sponsoring SA Tasks` section of the issue
 1. Work with the new gitLab Champion to complete the `Partner Champion Tasks` section of the issue
+
+### Posting Champions Call Recordings and Presentation
+
+1. After the regional Champions call, the GitLab ESA DRI for the session will post the Zoom recording on Highspot, tagging the file asset accordingly and as Champions asset
+2. Making sure all Violations are cleared, add the asset to the Champions Digital Room so it will be accessible on the partner portal
+3. Send a message to the Champions slack channel notifying everyone of the new asset.
