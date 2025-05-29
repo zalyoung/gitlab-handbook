@@ -109,7 +109,6 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 ```
 ````
 
-
 ### Creating a blog post using the Web IDE
 
 1. Visit the project repository at https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com
