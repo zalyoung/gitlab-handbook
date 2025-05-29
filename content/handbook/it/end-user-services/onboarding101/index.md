@@ -1,4 +1,5 @@
 ---
+layout: default
 [//] # title: "GitLab IT 101"
 ---
 

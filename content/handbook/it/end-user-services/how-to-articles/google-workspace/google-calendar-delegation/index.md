@@ -1,4 +1,5 @@
 ---
+layout: default
 [//] # title: "How To Use Google Calendar Delegate"
 ---
 
