@@ -221,9 +221,7 @@ The Data Team uses the [GitLab Triage gem](https://gitlab.com/gitlab-org/gitlab-
 Triagers use labels to identify and prioritize work within their domain. If you're unsure which labels to apply to an issue, just add the `clean-up::review` label and the team will help with proper labeling. This automation ensures that every issue includes the required scoped labels: `team`, `work category`, `champion`, and `workflow`. Labels like `Documentation`, `Iteration Planning`, and `Discussion` are excluded from this requirement.
 
 - **After 3 days**: If an issue is missing required labels, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning`. The comment includes instructions on how to ask for help using the `clean-up::review` label.
-
 - **After 14 days**: If the labels are still missing, the bot adds a reminder comment.
-
 - **After 30 days**: If there's still no update, the issue is automatically closed. The bot adds the `clean-up::close` label and a comment explaining why. Team members can reopen these issues at any time. To prevent future auto-closure, make sure to add the required labels.
 
 When a closed issue is reopened, the bot removes the `clean-up::close` label and checks for the required labels. If any are still missing, it adds `clean-up::warning` and includes a comment listing what's needed.
@@ -235,6 +233,7 @@ Once the correct labels are in place, the bot automatically removes any warning 
 The bot also helps manage stale issues. If an issue has been inactive for over 1 year, the bot flags it with a `stale::warning` label and adds a comment. Team members then have 7 days to take action. Issues labeled with `Documentation`, `Discussion`, or `stale::exempt` are not affected.
 
 When an issue is marked as stale, you can:
+
 - Update the issue to reset the timer
 - Add the `stale::exempt` label to keep it open
 - Let it close automatically after 7 days
@@ -245,7 +244,16 @@ Issues closed due to inactivity can be reopened at any time. Ideally, include a 
 
 ### Testing Policy Updates
 
-To test changes to the triage policy file, run the `dry-run:triage` CI job in your merge request. This job won’t take any real action but will print out what would happen if the updated policy were applied. You can review the logs to confirm the changes behave as expected.
+
+To test changes to the triage policy file, run the `dry-run:triage` CI job in the `Stage: Triage` of your merge request. This job will not make any actual changes but simulates the outcome of applying the policy file and prints what actions *would* be taken.
+
+> **Important:** A successful job (green check) only means the bot ran without errors. It does **not** mean your triage rules are correct or effective. You must open the job logs and carefully review the output to confirm that the rules match your expectations.
+
+The logs will show:
+
+- Which triage rules were triggered
+- How many issues matched each rule
+- What actions would be taken (like labels added, comments posted)
 
 ### End of day wrap-up
 
