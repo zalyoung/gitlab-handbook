@@ -8,7 +8,7 @@ Performance Testing is a broad discipline that includes various approaches to ev
 
 ```mermaid
 flowchart LR
-  subgraph "Performance Testing Kit"
+  subgraph PTK["Performance Testing Kit"]
     GPT[[GitLab Performance Tool]]
     GBPT[[GitLab Browser Performance Tool]]
     CPT[[Component Performance Testing]]
@@ -43,10 +43,12 @@ flowchart LR
   classDef decision fill:#f5f7f6,stroke:#333,stroke-width:1px,rx:5px;
   classDef tool fill:#F28C6B,stroke:#333,stroke-width:1px,color:white,rx:5px;
   classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
+  classDef kitStyle fill:#f0f8ff,stroke:#4a90e2,stroke-width:2px,color:#333;
 
   class UI,ENV,BUILT,COMPONENT,SPECS decision;
   class GBPT,CPT,GPT,PROFILE,UNIT tool;
   class START start;
+  class PTK kitStyle;
 
   %% Tool tooltips with links
   click GPT "#system-level-load-testing" "GitLab Performance Tool - Load testing for GitLab instances and reference architectures"
