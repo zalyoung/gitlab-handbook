@@ -9,7 +9,7 @@ When developing materials for external use, follow the [SAFE Framework](/handboo
 
 **Examples of common legal review feedback**
 
-- Refer to the [examples of common legal review feedback Google Doc](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/preview?tab=t.0).
+- Refer to the [Examples of common legal review feedback](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/preview?tab=t.0) document.
 
 **Compliance checklist**
 
