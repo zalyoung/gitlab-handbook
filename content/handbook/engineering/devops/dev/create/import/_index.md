@@ -1,30 +1,26 @@
 ---
-title: Import and Integrate Group
-description: The Import and Integrate facilitates migrations, third-party integrations, and API use.
+title: Import Group
+description: The Import Group facilitates migrations.
 ---
 
 ## About
 
-The Import and Integrate group is a part of the [Foundations Stage](/handbook/product/categories/#foundations-stage).
-The group supports the product
+The Import group is a part of the [Foundations Stage](/handbook/product/categories/#foundations-stage).
+The group supports the product by migrating between GitLab instances and from other providers.
 
-- by migrating between GitLab instances and from other providers
-- with 3rd party integrations and webhooks
-- by supporting foundational REST API GraphQL code.
-
-This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
+This page covers processes and information specific to the Import group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
 
 ## How to reach us
 
-To get in touch with the Import and Integrate group, it's best to create an
+To get in touch with the Import group, it's best to create an
 issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the
-`~"group::import and integrate"` label, along with any other [appropriate labels](#issue-labels). Then,
+`~"group::import"` label, along with any other [appropriate labels](#issue-labels). Then,
 feel free to ping the relevant Product Manager and/or Engineering Manager.
 
-For more urgent items, feel free to use the Slack Channel (internal): [#g_import_and_integrate](https://gitlab.slack.com/archives/g_import_and_integrate).
+For more urgent items, feel free to use the Slack Channel (internal): [#g_import](https://gitlab.slack.com/archives/g_import).
 
 Note that while we own the foundations of GitLab's APIs, the behaviour of most individual API endpoints is owned by
-other teams. Please check the [feature categorizatiob page](/handbook/product/categories/features/) to ensure your
+other teams. Please check the [feature categorization page](/handbook/product/categories/features/) to ensure your
 query is being directed to the correct group.
 
 ## Team Members
@@ -99,9 +95,9 @@ We should write at least one comment every week that the issue is not moving.
 
 ### Issue Boards
 
-The work for the Import and Integrate group can be tracked on the following issue boards:
+The work for the Import group can be tracked on the following issue boards:
 
-- [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
+- [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport)
 
 ### Issue Labels
 
@@ -112,7 +108,7 @@ All issues should have:
 - All of our section, stage and group labels:
   - `~"section::core platform"`
   - `~"devops::foundations"`
-  - `~"group::import and integrate"`
+  - `~"group::import"`
 - One or more of the category labels:
   - `~"Category:API"`
   - `~"Category:Importers"`
@@ -299,7 +295,7 @@ An [Application Security Review](/handbook/security/product-security/application
 This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags/)
 for use of feature flags. It applies to all flag types besides the [`ops` type](https://docs.gitlab.com/ee/development/feature_flags/#ops-type).
 
-Changes to Import and Integrate features often happen in high-traffic code paths and have
+Changes to Import features often happen in high-traffic code paths and have
 led to outages on GitLab.com in the past. Outages are often to do with resource contention that can
 be difficult to see ahead of time in code review or in QA testing.
 
@@ -369,7 +365,7 @@ We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc
 
 #### Per Milestone
 
-The Import and Integrate group conducts [milestone retrospectives in GitLab issues](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues). These include the engineers, UX, PM, and
+The Import group conducts [milestone retrospectives in GitLab issues](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues). These include the engineers, UX, PM, and
 all stable counterparts who have worked with that team during the milestone.
 
 Participation by our team members is highly encouraged for every milestone.
@@ -431,21 +427,21 @@ Below is an overview of topics that are overseen by a tech lead:
 
 ## Merge request roulette reviews
 
-When areas of the Import and Integrate codebase are changed, the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
-will recommend that the merge request is reviewed by an Import and Integrate team member. This will only happen when the merge request is
-authored by people outside of the Import and Integrate team. See [this example](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/74338#note_731247058) of how the review recommendation looks.
+When areas of the Import codebase are changed, the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)
+will recommend that the merge request is reviewed by an Import team member. This will only happen when the merge request is
+authored by people outside of the Import team. See [this example](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/74338#note_731247058) of how the review recommendation looks.
 
 The [reasoning](https://gitlab.com/gitlab-org/gitlab/-/issues/343486) behind these special recommendations
 is that other groups have some ownership of certain integrations or webhooks. Reviewing
 changes made by non-team members allows us to act as owners of foundational code and maintain
-a better quality of the Import and Integrate codebase.
+a better quality of the Import codebase.
 
 ### How roulette matches work
 
 File paths of changes in a merge request are matched against a
 [list of regular expressions](https://gitlab.com/gitlab-org/gitlab/-/blob/240d4c37c955878c224718e47f4d527bea250299/tooling/danger/project_helper.rb#L42-62).
 The roulette uses these hash values to recommend reviewer groups. For example, `:import_integrate_be` and
-`:import_and_integrate_fe` will recommend Import and Integrate backend and frontend reviews respectively. As the regex matches
+`:import_and_integrate_fe` will recommend Import backend and frontend reviews respectively. As the regex matches
 are [first match wins](https://gitlab.com/gitlab-org/gitlab/-/blob/54e182410219d1c77c5c6b2b7c88a6639f622cc6/tooling/danger/project_helper.rb#L18)
 and not cumulative, any other relevant reviewer groups like `:backend` or `:frontend` must also be included
 in each hash value.
@@ -490,7 +486,7 @@ This is a collection of links for monitoring our features.
 
 ### Grafana dashboards
 
-- [Import and Integrate group dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1) which contain:
+- [Import group dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1) which contain:
   - Links to various Kibana logs, filtered to our feature categories
   - Our [error budget](#error-budgets) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
@@ -503,7 +499,7 @@ This is a collection of links for monitoring our features.
 
 ### Kibana dashboards
 
-See a [list of all Import and Integrate Kibana dashboards](https://log.gprd.gitlab.net/app/dashboards#/list?s=tag:(group::import)&sort=title&sortdir=asc).
+See a [list of all Import Kibana dashboards](https://log.gprd.gitlab.net/app/dashboards#/list?s=tag:(group::import)&sort=title&sortdir=asc).
 
 Importer dashboards:
 
@@ -530,7 +526,7 @@ GitLab for Jira Cloud app workers:
 ### Error budgets
 
 GitLab uses [error budgets](/handbook/engineering/error-budgets/) to measure the availability and performance of our features.
-Each engineering group has its own budget spend. The current 28-day spend for the Import and Integrate team
+Each engineering group has its own budget spend. The current 28-day spend for the Import team
 shows in this [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-import_and_integrate/stage-groups-import-and-integrate-group-dashboard?orgId=1).
 
 Error budget spend happens when either of the following exceeds a certain threshold:
@@ -572,7 +568,7 @@ You can view data for feature usage in Tableau.
 
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues)
 - Our Slack channels
-  - Manage:Import and Integrate [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)
+  - Manage:Import [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)
   - Daily standups [#g_manage_import_and_integrate_daily](https://gitlab.slack.com/archives/C04UYQV7716)
 - Issue boards
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
