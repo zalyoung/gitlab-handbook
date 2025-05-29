@@ -239,14 +239,14 @@ Moving GLQL to the backend would provide the following advantages:
 - A simplified frontend implementation, with the backend as single source of truth
 - Queries can be executed closer to the data
 - Opportunity for optimisations at the backend level, such as increased concurrency of queries execution
-- Promotes GLQL from just a compiler to being a full platform, where you can ask a query and get the appropriate data back. Previously this responsibility lied with the consumer, but now GLQL would own it.
+- Promotes GLQL from just a compiler to being a full platform, where you can ask a query and get the appropriate data back. Previously this responsibility lay with the consumer, but now GLQL would own it.
 
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
 - Backend: Query parsing and full query execution against data sources
 - Frontend: Syntax validation and immediate feedback without query execution
 
-This is also inline with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
+This is also in line with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
 
 This standardized query system when built with an extended GLQL architecture and shift to the backend, will provide the foundation for a powerful and consistent data exploration experience across all GitLab data sources.
 
@@ -294,7 +294,7 @@ The interface should include the following main building blocks:
 
 This unified interface will integrate seamlessly with the standardized query system, leveraging GLQL's capabilities while presenting them in an accessible way to all users regardless of their technical expertise.
 
-Whilst the above are the main building block that we think are necessary to build the data exploration interface, proper UX research will be required to turn this into a proper design.
+Whilst the above are the main building blocks that we think are necessary to build the data exploration interface, proper UX research will be required to turn this into a proper design.
 
 <!--
 ## Design and implementation details
