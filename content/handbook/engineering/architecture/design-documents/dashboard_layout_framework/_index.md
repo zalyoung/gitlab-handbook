@@ -40,7 +40,7 @@ For long pages, consider creating a table of contents.
   - [Filters](#filters)
   - [Error handling](#error-handling)
 - [Getting started (TODO)](#getting-started)
-- [Migration strategies (TODO)](#migration-strategies)
+- [Migration existing dashboards](#migrating-existing-dashboards)
 
 ## Summary
 
@@ -198,6 +198,29 @@ For per-panel filters and panel-specific errors, we should use the panel error s
 
 _TODO: Add links to documentation, PoC MR, describe initial set up: https://gitlab.com/gitlab-org/gitlab/-/issues/541406_
 
-## Migration strategies
+## Migrating existing dashboards
 
-_TODO: Add migration strategies: https://gitlab.com/gitlab-org/gitlab/-/issues/541406_
+Migrating to the dashboard layout framework should be a simple enough process. Migration steps have been simplified by:
+
+- Supporting existing visualizations as long as they support responsive behaviors. Some minor changes may need to be made
+  to remove titles/descriptions that should be handled by the panel.
+- Not dictating where, or how, data is retrieved, including how filters should behave.
+- The dashboard layout component only requires the following properties:
+  - The dashboard `title`
+  - A list of `panels`
+    - Panel `title`
+    - Panel `id` (unique for each panel)
+    - Panel `gridAttributes` to place the panel within the grid
+      - Panel `width`
+      - Panel `height`
+      - Panel `xPos`
+      - Panel `yPos`
+
+The dashboard layout component supports additional properties, but these are not required. The new security dashboard
+is a good example of an existing dashboard being migrated: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191974.
+
+Testing this hypothesis, a [PoC](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191908) was created to test the
+feasibility of migrating existing analytics dashboards. The findings from this test, were that the dashboard layout
+component worked exactly as expected, and the analytics dashboards could be swapped immediately. However, the analytics
+dashboards make use of customization, which means we have refactoring work to do outside the immediate layout changes.
+This refactoring work will be completed as part of https://gitlab.com/gitlab-org/gitlab/-/issues/546201.
