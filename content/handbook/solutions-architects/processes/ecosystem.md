@@ -140,4 +140,4 @@ We have created Digital Rooms in Highspot with the Partner Enablement team that 
 
 ### Activity Tracking with Rattle
 
-Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity by using Rattle every week.  [Here is the main landing page](/handbook/solutions-architects/processes/activity-capture/activity-logging/#ecosystem-sa-activity-types) for ESA activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
+Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity by using Rattle every week.  [Here is the main landing page](/handbook/solutions-architects/processes/activity-capture/activity-logging) and scroll down to the Ecosystem SA Activities for activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
