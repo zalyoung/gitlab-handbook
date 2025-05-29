@@ -45,6 +45,7 @@ When a product team initiates a feature, they complete an initial triage to dete
 * Does this feature add or modify any core mechanisms related to authentication, authorization or cryptography? (Y/N)
 * Does this feature interact with third-party services? (Y/N)
 * Does this feature add a [new service component](https://docs.gitlab.com/development/adding_service_component/)? (Y/N)
+* Does this change have a have an indirect impact on core mechanisms related to authentication, authorization or cryptography ? (Y/N)
 
 #### Infrastructure Security Triggers
 
