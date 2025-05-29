@@ -7,12 +7,12 @@ description: "Runbook for the Security Team to triage and assign Customer Zero R
 
 When Customer Zero requests are created using our [request templates](../security-interlock/request-customer-zero-validation.md), they are automatically labeled with `C0Workflow::Backlog`, which makes them visible on [this issue board](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/boards/9306316) (internal only). 
 
-Triagers may choose to either subscribe to the `C0Workflow::Backlog` label or periodically monitor the board to identify new issues that need to be triaged.
+Triagers may choose to subscribe to the `C0Workflow::Backlog` label and/or periodically monitor the board to identify new issues that need to be triaged.
 
 ## How to Triage New Issues
 
-1. Select an issue that does NOT start with the prefix `DRAFT:`. Those issues are ones that submitters have started, but they still need to provide additional information before we review them. That's fine! We'd prefer to have visibility into what's coming anyway.
-1. Apply the label `C0Workflow::Initial Triage` to indicate that someone is already triaging this issue so no one duplicates your efforts. You can do this manually or by moving the Issue to the next column on the [issue board](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/boards/9306316) (internal only).
+1. Select an issue that does NOT start with the prefixes `DRAFT:` or `WIP:`. Those issues are ones that submitters have started, but they still need to provide additional information before we review them. That's fine! We'd prefer to have visibility into what's coming anyway.
+1. Apply the label `C0Workflow::Initial Triage` to indicate that someone is already triaging this issue so no one duplicates your efforts. You can do this manually or by moving the Issue to the next column on the [issue board](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/boards/9306316) (internal only). If your triage takes more than just a few minutes, assign the issue to yourself so this shows up in your TODOs and you don't lose track.
 1. Review the information provided in the Issue and determine if sufficient information has been provided for someone to work it. For example, are all of the key fields populated? Do you understand the feature and have all of the information you'd need to do a review? 
     - **If Not**: Tag the requestor and key contacts in a comment and ask them clarifying questions. Apply the label `C0::Waiting on Requestor` to the Issue manually or by moving it to the next column on the [issue board](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/boards/9306316) (internal only). Ask that they tag you directly when they've provided the additional information so you can re-review and follow the next steps.
 1. Once you have determined there is sufficient information in the Issue, you need to determine which team(s) are best suited to provide the appropriate feedback. If you are unsure which teams' feedback is required, ask in #product-security-department-only. 
