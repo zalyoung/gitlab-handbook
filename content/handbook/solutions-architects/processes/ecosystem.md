@@ -2,7 +2,7 @@
 title: Ecosystem SA Engagement Model
 ---
 
-# Engaging an Ecosystem Solutions Architect (ESA)
+# Engaging an Ecosystem Solutions Architect
 
 To request assistance from an ESA, you should reach out to the team in the **#ecosystem-solutions-architects** internal Slack channel. Mention any team member to start a 1:1 thread. Using this single work queue helps the team cover for each other and allows tracking issues to be created from the channel. Direct Messages (DMs) may be moved to this public channel.
 
@@ -26,7 +26,7 @@ Activation methods include self-serve resources, technical selling workshops, jo
 
 An ESA-driven Partner Activation Plan (PAP) is a crucial component of the overall business plan owned by the Ecosystem Sales Manager (ESM). This plan outlines the technical partnership's summary, current and future capability state, partner organization structure, activation strategies, and timelines.
 
-Overall, ESAs aim to transition partners from passive awareness to active participation and ultimately to leading high-value activities like partner-sourced revenue, deal registrations, and solution development. Success is defined by engagement outcomes, ranging from low-value activities like attending enablement sessions to high-value activities like developing third-party integrations and contributing code to GitLab.
+Overall, Ecosystem SAs aim to transition partners from passive awareness to active participation and ultimately to leading high-value activities like partner-sourced revenue, deal registrations, and solution development. Success is defined by engagement outcomes, ranging from low-value activities like attending enablement sessions to high-value activities like developing third-party integrations and contributing code to GitLab.
 
 When **working with Strategic Alliance Partners**, the Ecosystem SA acts as an influential technical representative from GitLab. This involves pre-sales activities, driving partner solutions, and joint GTM initiatives. Key responsibilities include Partner GTM activities like identifying market demand, engaging business leaders for proposal development, and working across partners to develop joint solutions and enablement. They serve as Subject Matter Experts, possessing both soft skills and hands-on technical depth. They are involved in Internal and External Evangelism of partner technology, success stories, and market trends. They contribute to GitLab Strategy formulation for both business and technical considerations. They also assist with Content Curation with the Partner Enablement team.
 
@@ -34,7 +34,7 @@ When **working with Strategic Alliance Partners**, the Ecosystem SA acts as an i
 
 On GitLab Sourced Opportunities, which are new opportunities sourced by a direct account team where a partner may be involved, the direct account SA owns the technical responsibility. The ESA is there to support the progression of the deal by enabling the aligned Partner account team to collaborate technically with the GitLab SA.
 
-On Partner Sourced Opportunities, where a partner sources a new opportunity, the ESA takes responsibility to enable the partner if they need assistance to progress the opportunity, even speaking directly to prospects to enable the partner on Discovery and Demo practices. The Ecosystem team encourages the partner to submit a Deal Registration. ESAs participate in direct customer engagements when the Partner needs support in the sales cycle and their account team is not ready to involve GitLab sales teams.
+On Partner Sourced Opportunities, where a partner sources a new opportunity, the Ecosystem SA takes responsibility to enable the partner if they need assistance to progress the opportunity, even speaking directly to prospects to enable the partner on Discovery and Demo practices. The Ecosystem team encourages the partner to submit a Deal Registration. Ecosystem SAs participate in direct customer engagements when the Partner needs support in the sales cycle and their account team is not ready to involve GitLab sales teams.
 
 ESAs seek to document all customer interactions and quickly hand off partner-aligned opportunities to Field SAs early in the sales cycle as possible to drive the opportunity with the partner and customer. The ESA will not retain primary opportunity responsibility beyond GitLab deal Stage 2 unless approved by both the Global Ecosystem SA Manager and the Regional SA Manager. This handoff process is a key point of integration with the Field SA team. ESAs can also provide backup to the Field SA community in support of partner-aligned opportunities.
 
@@ -42,11 +42,11 @@ ESAs seek to document all customer interactions and quickly hand off partner-ali
 
 The charter of the Global Ecosystem Team is to develop a partner ecosystem that can **scale the number and size of GitLab opportunities**, engage with customers for rapid and widespread adoption, and create GTM solutions driving mutual revenue growth. This indirect path to GitLab revenue necessitates an objectives-based compensation model for the team, including ESAs.
 
-**25% of the variable Bonus component** of ESA compensation is awarded based on the completion of quarterly SMART Objectives (MBOs). Approximately four quarterly SMART Objectives are assigned by the Ecosystem SA Manager to each ESA team member. These MBOs vary quarter over quarter within major themes to align with changing business needs. Payout is a single payment after the quarter concludes. The MBO payout evaluation is holistic, with different percentages awarded based on whether the team member does not meet (0%), meets some (75%), meets majority (100%), or exceeds majority (110%) of expectations.
+**25% of the variable Bonus component** of ESA compensation is awarded based on the completion of quarterly SMART Objectives. Approximately four quarterly SMART Objectives are assigned by the Ecosystem SA Manager to each Ecosystem team member. These objectives vary quarter over quarter within major themes to align with changing business needs. Payout is a single payment after the quarter concludes. The MBO payout evaluation is holistic, with different percentages awarded based on whether the team member does not meet (0%), meets some (75%), meets majority (100%), or exceeds majority (110%) of expectations.
 
 **MBO Categories for FY26** have been established. These categories include:
 
-* **Partner Activation:** Develop and implement Partner Activation Plans to systematically advance partner capability maturity, focusing on structured approaches aligned with Partner Business Plans from ESMs and directly supporting revenue/growth objectives.  
+* **Partner Activation:** Develop and implement Partner Activation Plans to systematically advance partner capability maturity, focusing on structured approaches aligned with Partner Business Plans from Ecosystem Sales Managers and directly supporting revenue/growth objectives.  
 * **Technical Sales Readiness:** Elevate partner technical sales capabilities through a structured program, aiming to generate qualified pipeline and revenue contribution. This involves developing standardized enablement materials, tracking conversion of enablement to partner-led opportunities, and supporting partners in landing Ultimate \+ Duo and Premium offers.  
 * **Partner Services Capability:** Accelerate customer onboarding and adoption by integrating partner services offerings into customer account relationships. Focus areas include partner attach rates, CAPs Program participation, subcontracting, greater coordination with GitLab Professional Services, and enabling partners to deliver high-quality implementation services.  
 * **Champions Program:** Leverage the GitLab Champions program to drive high-value technical investment and advocacy from partner technical resources. This includes driving participation in certification and advocacy programs, cultivating technical champions, and creating a network of GitLab experts across the partner ecosystem.
@@ -65,19 +65,19 @@ The GitLab Partner Champions program is described on [its own handbook page](/ha
 
 In general to maintain the program over time we seek to:
 
-1. Distribute Champions call responsibilities  
-2. Rationalize the active Champions participants  
-3. Implement expectations for Champions  
-4. Validate the value of the program to GitLab  
+1. Distribute Champions call responsibilities
+2. Rationalize the active Champions participants
+3. Implement expectations for Champions
+4. Validate the value of the program to GitLab
 5. Enable Champions collaboration and call session topics
 
 ## ESA Processes
 
 ### The Streamlined Portal for ESA Authored Content (SPEAC)
 
-Highspot is the content management system in use at GitLab.  Each major team at GitLab has access to two spots.  For the Global Ecosystems team, we control “Team Spot: Global Ecosystems,” and “Global Ecosystems.”  The Global Ecosystems spot is the internally public facing spot at GitLab and is curated and maintained by Partner Enablement and other leadership.  The Team Spot Global Ecosystems is the spot the Ecosystem SA team can leverage.
+Highspot is the content management system in use at GitLab.  Each major team at GitLab has access to two spots.  For the Global Ecosystems team, we control "Team Spot: Global Ecosystems" and "Global Ecosystems."  The Global Ecosystems spot is the internally public facing spot at GitLab and is curated and maintained by Partner Enablement and other leadership.  The Team Spot Global Ecosystems is the spot the Ecosystem SA team can leverage.
 
-For a video walkthrough of adding content to highspot, [watch this short 7.5 minute video](https://gitlab.highspot.com/items/67f00eaa1e91c735f53e920b?lfrm=shp.0).
+For a video walkthrough of adding content to Highspot, [watch this short 7.5 minute video](https://gitlab.highspot.com/items/67f00eaa1e91c735f53e920b?lfrm=shp.0).
 
 ```mermaid
 flowchart TD
@@ -131,14 +131,14 @@ So, while an initial upload of a content piece might be for GitLab Internal Only
 
 We have created Digital Rooms in Highspot with the Partner Enablement team that are shared through the Partner Portal for additional security:
 
-- GitLab Duo  
-- Duo with Q  
-- GitLab Dedicated  
-- Partner Enablement  
-- Building Pipelines Webinar  
-- Champions Program  
-- GitLab Platform (suggested to host free to Premium to Ultimate value messaging)
+* GitLab Duo
+* Duo with Q
+* GitLab Dedicated
+* Partner Enablement
+* Building Pipelines Webinar
+* Champions Program
+* GitLab Platform (suggested to host free to Premium to Ultimate value messaging)
 
 ### Activity Tracking with Rattle
 
-Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity via Rattle every week.  [Here is the main landing page](/handbook/solutions-architects/processes/activity-capture/activity-logging/#ecosystem-sa-activity-types) for ESA activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
+Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity by using Rattle every week.  [Here is the main landing page](/handbook/solutions-architects/processes/activity-capture/activity-logging/#ecosystem-sa-activity-types) for ESA activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
