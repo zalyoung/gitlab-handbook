@@ -42,6 +42,10 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
+# IT Group is moving to security - onboarding 101 location changed
+/handbook/it/end-user-services/onboarding101/ /handbook/security/end-user-services/onboarding101 301
+/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts/ /handbook/security/corporate/services/laptops/wipe/ 301
+
 # Delivery Group move in Infra platforms - remove 2025-04-20
 /handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
 /handbook/engineering/infrastructure/team/delivery/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/:splat 301
