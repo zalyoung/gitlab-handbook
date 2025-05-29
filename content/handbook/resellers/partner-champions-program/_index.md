@@ -13,6 +13,9 @@ The GitLab Partner Champions Program will empower, support, reward, and recogniz
 GitLab Champions enlists, supports, rewards, and recognizes members of the GitLab Partner community who make outstanding contributions to GitLab and our community around the globe .
 [Become a GitLab Champion](https://docs.google.com/forms/d/e/1FAIpQLSdLonA8F4Msz8wujNeOYKwkC0ohjUamgv4ZH3FNgC2MQHgBzA/viewform?subject=GitLab%20Heroes%20Application&body)
 
+
+
+
 ## GitLab Partner Champions Program Key Features
 
 **- Themed and Sponsored Community:** Designed with a distinctive GitLab theme and is financially supported by GitLab. It is led by Channels SAs in each region.
