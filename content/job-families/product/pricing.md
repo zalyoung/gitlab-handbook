@@ -158,6 +158,29 @@ Candidates for this position can expect the hiring process to follow the order b
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
+### Group Manager of Pricing
+The Group Manager of Pricing reports to the [VP of Product Monetization](/job-families/product/product-management-leadership/#senior-director-of-product-monetization)
+
+#### Group Manager of Pricing Responsibilities
+- Lead and manage the day-to-day operations of the pricing function including a small team of pricing managers and analysts. 
+- Collaborate with senior leadership, across R&D, GTM, and G&A to drive execution of pricing initiatives and projects.
+- Support decision-making around all aspects of the pricing model by providing research, analysis, and operational insights.
+- Coordinate cross-functional collaboration to implement complex pricing decisions and ensure smooth execution.
+- Ensure pricing and packaging projects are successfully delivered, including internal enablement, customer messaging, and product integration.
+- Conduct pricing-related research and analysis to test hypotheses and identify opportunities to optimize GitLab’s pricing model.
+- Implement ongoing pricing optimization plans in collaboration with internal stakeholders.
+- Partner closely with Fulfillment, Sales, Marketing, Legal, IT, and Finance to operationalize pricing and packaging changes.
+- Support the VP of Product Monetization and Product Leadership Team in broader strategy and execution.
+
+#### Group Manager of Pricing Requirements
+- 10+ years of overall experience, with 5+ years of pricing experience, including experience managing a team or leading major pricing initiatives.
+- Strong understanding of SaaS and/or self-managed deployment models and monetization strategies.
+- Demonstrated ability to drive cross-functional pricing and packaging projects and execute successfully.
+- Familiarity with pricing research methodologies (e.g., conjoint analysis, Van Westendorp).
+- Strong analytical skills and experience creating models to forecast the impact of pricing changes.
+- Experience conducting customer/market research including surveys and customer interviews to validate hypotheses.
+- Familiarity with mapping pricing packages to user personas, buyer personas, and market segments.
+
 ### Director of Pricing
 
 The Director of Pricing reports to the [VP of Product Monetization](/job-families/product/product-management-leadership/#senior-director-of-product-monetization)
