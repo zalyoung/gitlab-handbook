@@ -212,35 +212,24 @@ Depending on the nature and impact of the [incident](/handbook/enterprise-data/h
   - Timelines should be documented in the [timeline section](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) under the incident Subject/Header for use in retrospectives and other investigations.
   - When the incident is solved, an update is posted in Slack
 
-### Triage Bot
+### Stale Issue Management
 
-The Data Team uses the [GitLab Triage gem](https://gitlab.com/gitlab-org/gitlab-triage) to automate issue management and keep the analytics project organized. The triage policy for the analytics repo is defined in the [.triage-policies.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/.triage-policies.yml?ref_type=heads) file.
+The triage bot flags issues that haven’t had any activity in over a year to help keep the backlog manageable. When that happens, it adds the `stale::warning` label and posts a comment. From that point, the issue has 14 days before it is automatically closed unless someone takes action.
 
-### Label Enforcement 
+To prevent an issue from being closed, you can do one of the following:
 
-Triagers use labels to identify and prioritize work within their domain. If you're unsure which labels to apply to an issue, just add the `clean-up::review` label and the team will help with proper labeling. This automation ensures that every issue includes the required scoped labels: `team`, `work category`, `champion`, and `workflow`. Labels like `Documentation`, `Iteration Planning`, and `Discussion` are excluded from this requirement.
+- **Update the issue** and remove the `stale::warning` label
+- **Add the `stale::exempt` label** if the issue should remain open without needing regular updates
 
-- **After 3 days**: If an issue is missing required labels, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning`. The comment includes instructions on how to ask for help using the `clean-up::review` label.
-- **After 14 days**: If the labels are still missing, the bot adds a reminder comment.
-- **After 30 days**: If there's still no update, the issue is automatically closed. The bot adds the `clean-up::close` label and a comment explaining why. Team members can reopen these issues at any time. To prevent future auto-closure, make sure to add the required labels.
+Just adding a comment won't stop the process. The warning label needs to be removed or replaced with `stale::exempt`.
 
-When a closed issue is reopened, the bot removes the `clean-up::close` label and checks for the required labels. If any are still missing, it adds `clean-up::warning` and includes a comment listing what's needed.
+Here's how the timeline works:
 
-Once the correct labels are in place, the bot automatically removes any warning labels. This creates a self-maintaining system where issues either get labeled correctly or are closed for review.
+1. **After 1 year of inactivity**: The bot adds `stale::warning` and posts a comment
+2. **7 days later**: It adds `stale::7day_warning` as a final reminder
+3. **After another 7 days (14 since initial warning)**: The issue is closed and tagged with `stale::closed`
 
-### Managing Stale Issues
-
-The bot also helps manage stale issues. If an issue has been inactive for over 1 year, the bot flags it with a `stale::warning` label and adds a comment. Team members then have 7 days to take action. Issues labeled with `Documentation`, `Discussion`, or `stale::exempt` are not affected.
-
-When an issue is marked as stale, you can:
-
-- Update the issue to reset the timer
-- Add the `stale::exempt` label to keep it open
-- Let it close automatically after 7 days
-
-If no updates are made, the bot will close the issue, apply the `stale::closed` label, and remove the warning.
-
-Issues closed due to inactivity can be reopened at any time. Ideally, include a quick update to clarify the current status. Adding the `stale::exempt` label will prevent it from being auto-closed again in the future.
+Closed issues can be reopened at any time. Once reopened, make sure to update the issue or apply the `stale::exempt` label so it is not flagged again in the future.
 
 ### Testing Policy Updates
 
