@@ -14,7 +14,7 @@ The Ecosystem SA team is global. Ecosystem SAs are aligned with global and regio
 
 ## Ecosystem Solutions Architect: Role & Responsibilities
 
-The ESA's vision and strategy focus on increasing partner contribution to revenue, elevating services capability value, and fostering a commitment to invest with GitLab. This is achieved through "Partner Activation," which refines the previous "Partner Capability Journey" to focus on measurable outcomes benefitting GitLab, partners, and customers.
+The ESA's vision and strategy focus on increasing partner contribution to revenue, elevating services capability value, and fostering a commitment to invest with GitLab. This is achieved through "Partner Activation," which refines the previous "Partner Capability Journey" to focus on measurable outcomes benefiting GitLab, partners, and customers.
 
 The key activation pillars are:
 
@@ -61,7 +61,7 @@ A well 30-60-90 day  plan for partner onboarding is being developed in this [Onb
 
 ### DRIVE the Champions Program
 
-The GitLab Partner Champions program is described on [its own handbook page](https://handbook.gitlab.com/handbook/resellers/partner-champions-program/) which includes the overall vision of the program as well as the onboarding process for new Champions.  A collaboration group and project have been established at a [public group here](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions).
+The GitLab Partner Champions program is described on [its own handbook page](/handbook/resellers/partner-champions-program/) which includes the overall vision of the program as well as the onboarding process for new Champions.  A collaboration group and project have been established at a [public group here](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions).
 
 In general to maintain the program over time we seek to:
 
@@ -141,4 +141,4 @@ We have created Digital Rooms in Highspot with the Partner Enablement team that 
 
 ### Activity Tracking with Rattle
 
-Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity via Rattle every week.  [Here is the main landing page](https://handbook.gitlab.com/handbook/solutions-architects/processes/activity-capture/activity-logging/#ecosystem-sa-activity-types) for ESA activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
+Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity via Rattle every week.  [Here is the main landing page](/handbook/solutions-architects/processes/activity-capture/activity-logging/#ecosystem-sa-activity-types) for ESA activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
