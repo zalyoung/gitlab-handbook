@@ -2,7 +2,6 @@
 title: Ecosystem SA Engagement Model
 ---
 
-# Engaging an Ecosystem Solutions Architect
 
 To request assistance from an ESA, you should reach out to the team in the **#ecosystem-solutions-architects** internal Slack channel. Mention any team member to start a 1:1 thread. Using this single work queue helps the team cover for each other and allows tracking issues to be created from the channel. Direct Messages (DMs) may be moved to this public channel.
 
