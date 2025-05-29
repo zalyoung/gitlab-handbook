@@ -1,5 +1,5 @@
 ---
-title: "GitLab IT 101"
+[//] # title: "GitLab IT 101"
 ---
 
 ## Welcome To GitLab

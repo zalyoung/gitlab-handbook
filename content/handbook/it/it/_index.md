@@ -1,5 +1,5 @@
 ---
-title: "Information Technology (IT) Department"
+[//] # title: "Information Technology (IT) Department"
 description: "The IT department focuses on managing the framework of how GitLab procures, implements, integrates, secures, exports analytics, and supports our tech stack applications while providing strategic enablement and integration support for all departments and team members that allows us to scale efficiently, safely, and securely."
 ---
 

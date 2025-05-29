@@ -1,5 +1,5 @@
 ---
-title: "GitLab Laptop Management"
+[//] # title: "GitLab Laptop Management"
 controlled_document: true
 ---
 
