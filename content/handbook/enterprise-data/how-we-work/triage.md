@@ -234,7 +234,7 @@ The triage bot flags issues that haven’t had any activity in over a year to he
 
 To prevent an issue from being closed, you can do one of the following:
 
-- Update the issue and remove the `stale::warning` label
+- Leave a comment on the issue with an update on its current status, then remove the stale::warning label.
 - Add the `stale::exempt` label if the issue should remain open without needing regular updates
 
 **Just adding a comment won't stop the process**. The warning label needs to be removed or replaced with `stale::exempt`.
