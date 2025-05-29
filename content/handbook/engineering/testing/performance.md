@@ -82,7 +82,7 @@ This testing is predominately run against our Reference Architectures, but can b
 
 We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
 
-### Profiling
+### Profiling Tools
 
 We already use profiling tools (i.e. rubocop) in our pipelines to ensure that we meet coding guidelines and avoid common problematic patterns. Several performance focused ones that are in our codebase:
 
