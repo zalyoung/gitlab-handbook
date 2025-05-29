@@ -194,7 +194,7 @@ The proposed approach includes:
 
    Adding some of these capabilities to GLQL is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954.
 
-4. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources, such as charts:
+3. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources, such as charts:
 
    ```plaintext
    # Line chart display
@@ -210,9 +210,9 @@ The proposed approach includes:
 
    Some early explorations have been done in https://gitlab.com/gitlab-org/gitlab/-/issues/482782.
 
-5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, we need to expand that to fully support pagination.
+4. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, we need to expand that to fully support pagination.
 
-6. **Support querying data for multiple projects and groups** - Currently GLQL is limited to queries scoped to a single project or a single group. Fetching data from multiple projects would require executing separate queries and combine the results, while losing context, pagination and sorting. We need to expand that to support multiple groups and projects, so that users are allowed to access all data across their instance or organisation.
+5. **Support querying data for multiple projects and groups** - Currently GLQL is limited to queries scoped to a single project or a single group. Fetching data from multiple projects would require executing separate queries and combine the results, while losing context, pagination and sorting. We need to expand that to support multiple groups and projects, so that users are allowed to access all data across their instance or organisation.
 
 Lastly, adopting GLQL for dashboard data exploration could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
 
