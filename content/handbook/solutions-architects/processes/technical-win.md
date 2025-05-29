@@ -4,7 +4,7 @@ title: Technical Win
 
 ## SA Technical Win
 
-A **Technical Win** for a GitLab Solutions Architecture is more than just a successful demo. It's about achieving **technical validation and building profound confidence** within the customer's technical stakeholder group that GitLab is the **optimal and sustainable technical solution** to meet their specific needs, address their pain points, and align with their strategic technical roadmap.
+A **Technical Win** for a GitLab Solutions Architect is more than just a successful demo. It's about achieving **technical validation and building profound confidence** within the customer's technical stakeholder group that GitLab is the **optimal and sustainable technical solution** to meet their specific needs, address their pain points, and align with their strategic technical roadmap.
 
 ### Definition: Technical Win for GitLab Solutions Architecture
 
