@@ -42,7 +42,7 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
-# IT Group is moving to security - onboarding 101 location changed
+# IT Group is moving to security - onboarding 101 location changed -remove 2025-11-29
 /handbook/it/end-user-services/onboarding101/ /handbook/security/end-user-services/onboarding101 301
 /handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts/ /handbook/security/corporate/services/laptops/wipe/ 301
 
