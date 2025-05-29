@@ -1,6 +1,7 @@
 ---
-title: "Non-Disclosure Agreement Process"
-description: "How to send or request an NDA"
+aliases: /handbook/legal/NDA
+title: "Non-Disclosure Agreement(NDA) Process"
+description: "How to complete an NDA Request"
 ---
 
 - **Only team members with signature authority can execute agreements on behalf of GitLab, including Non-Disclosure Agreements (NDAs).**
