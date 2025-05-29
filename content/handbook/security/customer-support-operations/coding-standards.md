@@ -96,7 +96,7 @@ Always aim for high test coverage! When in doubt, test your code thoroughly!
     - `IID` is the issue's IID
     - Example:
       - For branch `jcolyer` is creating for the work of issue `https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/1963`, your branch name should be `jcolyer-support-ops-project-1963`
-  - The exception to this is branches for the ruby gems, which should always use the format `vXX.YY.ZZ`, where `XX.YY.ZZ` is the new semantic verions you are working on.
+  - The exception to this is branches for the ruby gems, which should always use the format `vXX.YY.ZZ`, where `XX.YY.ZZ` is the new semantic version you are working on.
 
 ## Use semantic versioning
 
@@ -123,7 +123,7 @@ To help you, here are some examples:
 
 ### Using semantic versioning when only two numeric values are allowed
 
-If you are working with something only allowed two numeric values (such as `1.01` or `9.8`), you would instead combine the definitions of `MINOR` and `PATCH` for the second value. This results in the needed format of `xx.yy` and allows you to maintain a close semblances to semantic versioning.
+If you are working with something only allowed two numeric values (such as `1.01` or `9.8`), you would instead combine the definitions of `MINOR` and `PATCH` for the second value. This results in the needed format of `xx.yy` and allows you to maintain a close semblance to semantic versioning.
 
 Thus, when increasing the version number, you should use the following to determine which number to increase:
 
@@ -141,7 +141,7 @@ To help you, here are some examples:
 
 ## Gem CHANGELOGs
 
-When working on ruby gems, you should maintain a `CHANGELOG.md` file. This should details the changes you are using. This will be used in the gem's documentation. While it can vary from gem to gem, a good format for an entry to use is:
+When working on ruby gems, you should maintain a `CHANGELOG.md` file. This should detail the changes you are using. This will be used in the gem's documentation. While it can vary from gem to gem, a good format for an entry to use is:
 
 ```markdown
 # vXX.YY.ZZ - YEAR-MONTH
