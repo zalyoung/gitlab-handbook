@@ -35,7 +35,7 @@ As with years past, team members in roles that require them to work on a date de
 - In the comments section, please note: "In lieu of Family and Friends Day on XXX".
 - This will route to your manager for approval.
 
-Contact the Absence Management team via HelpLab (People > Absence menu). 
+Contact the Absence Management team via HelpLab (People > Absence menu) if you need further assistance or have questions. 
 
 ## FY'25 Family and Friends Days
 
