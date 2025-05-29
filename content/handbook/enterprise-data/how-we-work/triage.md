@@ -244,7 +244,6 @@ Issues closed due to inactivity can be reopened at any time. Ideally, include a 
 
 ### Testing Policy Updates
 
-
 To test changes to the triage policy file, run the `dry-run:triage` CI job in the `Stage: Triage` of your merge request. This job will not make any actual changes but simulates the outcome of applying the policy file and prints what actions *would* be taken.
 
 > **Important:** A successful job (green check) only means the bot ran without errors. It does **not** mean your triage rules are correct or effective. You must open the job logs and carefully review the output to confirm that the rules match your expectations.
