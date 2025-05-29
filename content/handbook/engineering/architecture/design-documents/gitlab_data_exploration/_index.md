@@ -176,7 +176,7 @@ The proposed approach includes:
    fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
    ```
 
-3. **Improved querying capabilities** - Increase the query language power by adding support for:
+2. **Improved querying capabilities** - Increase the query language power by adding support for:
 
    - OR operators ( currently only AND supported )
    - Mathematical operators 
@@ -222,11 +222,12 @@ A critical architectural change is moving GLQL execution from the frontend to th
 
 Currently the GLQL compiler is only translating GLQL queries into GraphQL, and relies on the consumer to execute the query. This restricts GLQL capabilities as a language to the same limitations imposed by GraphQL, making it hard or not possible to implement features such as OR operators, aggregation or mathematical functions.
 
-In addition, given the inconsistent GraphQL schema for filters and data types, adding new data sources to GLQL is not straightforward and requires handling ad-hoc cases during the transpilation stage. This potentially makes it harder for team to onboard their data sources to GLQL, hence limiting its impact and usability.
+In addition, given the inconsistent GraphQL schema for filters and data types, adding new data sources to GLQL is not straightforward and requires handling ad-hoc cases during the transpilation stage. This potentially makes it harder for teams to onboard their data sources to GLQL, hence limiting its impact and usability.
 
-A possible solution to this is to move the GLQL compiler to the backend, and transpiling queries into an ad-hoc format, following a more consistent schema, that can we be used to query data directly through Rails finders, avoiding going down the GraphQL path altogher.
+A possible solution to this is to move the GLQL compiler to the backend, and transpiling queries into an ad-hoc format, following a more consistent schema, that can be used to query data directly through Rails finders, avoiding going down the GraphQL path altogether.
 
 Proof of concepts:
+
 - https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147
 - https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
 
@@ -322,17 +323,19 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
-
 ## Alternative Solutions
 
 1. Build a GLQL-powered data explorer, without moving it to backend.
+
    - Pros: no major architecture changes needed
-   - Cons: Adding support for more advanced queries (OR, aggregation, math expression) is hard or not possible because of GraphQL limitations. This will limit the usability of the language, and in turn of the data explorer.
+   - Cons: Adding support for more advanced queries (OR, aggregation, math expression) is hard or not possible because of GraphQL limitations. This will limit the usability of the language, and in turn of the data explorer
 
 2. Build a data explorer without GLQL, but just relying on a visual query builder
-   - Pros: no dependendency on GLQL, no major architecture changes needed
+
+   - Pros: no dependency on GLQL, no major architecture changes needed
    - Cons: Building a visual query builder that works for all data sources is not trivial because of schema and filtering differences, and will probably require ad-hoc frontend datasources adaptors to able to process queries for each data type
 
-3. Limit the scope of the data explorer, and just provide a set of prebuilt queries / visualisations, than can be used to create custom dashboards
-   - Pros: no dependendency on GLQL, no major architecture changes needed, no need to build a query builder that fit all cases
+3. Limit the scope of the data explorer, and just provide a set of prebuilt queries / visualisations, that can be used to create custom dashboards
+
+   - Pros: no dependency on GLQL, no major architecture changes needed, no need to build a query builder that fit all cases
    - Cons: Limited customisability 
