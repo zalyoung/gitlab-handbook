@@ -107,7 +107,7 @@ If the block or complaint is related to access from an embargoed country, use th
 
 Users may be blocked in order to comply with [PIPL regulations](https://en.wikipedia.org/wiki/Personal_Information_Protection_Law_of_the_People%27s_Republic_of_China). Users blocked in order to comply with the regulations will have an admin account annotation indicating that the user was blocked for PIPL compliance.
 
-More information and the support workflow for these accounts can be found in the [Internal Handbook](https://internal.gitlab.com/handbook/support/workflows/pipl-blocks/). 
+More information and the support workflow for these accounts can be found in the [Internal Handbook](https://internal.gitlab.com/handbook/support/workflows/pipl-blocks/).
 
 ### Professional Services migrations
 
