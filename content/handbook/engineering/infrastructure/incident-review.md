@@ -16,14 +16,14 @@ While continuous learning is the primary and paramount focus of these blameless 
 
 ## Template
 
-- The incident lead will open an incident review issue in the [Production Tracker using the incident_review template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=incident_review) via the Post-incident task assigned in the incident slack channel or incident issue dashboard.
+- The incident lead will open an incident review issue in the [Production Tracker using the incident_review template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new) via the Post-incident task assigned in the incident slack channel or incident issue dashboard.
 - Incident review template can be edited here: https://app.incident.io/gitlab/settings/post-mortem
 
 ## Responsibilities
 
-### EOC's or Review Requestor
+### Incident Lead or Review Requestor
 
-The EOC or review requestor is responsible for opening the review issue using the appropriate template and adding the initial metadata.  This includes:
+The Incident Lead or review requestor is responsible for opening the review issue using the appropriate template and adding the initial metadata.  This includes:
 
 - Setting the appropriate issue title
 - Setting the correct `Severity::*` label
@@ -55,7 +55,7 @@ _Both async and synchronous reviews can be requested by anyone by following the 
 
 Reviews are async by default.
 Synchronous reviews can also be valuable as a way to discuss improvements and brainstorm ideas in real-time.
-Before holding a synchronous review, the async review should be completed first. Instructions for initiating a synchronous review can be found on the [incident review issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/master/.gitlab/issue_templates/incident_review.md?ref_type=heads).
+Before holding a synchronous review, the async review should be completed first. Please post on the incident review issue to request a synchronous review.
 
 ## The criteria which triggers a review
 

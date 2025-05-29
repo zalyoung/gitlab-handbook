@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 GitLab Pages is an important component of the GitLab product. It is mostly
 being used to serve static content, and has a limited set of well defined

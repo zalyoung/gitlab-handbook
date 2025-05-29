@@ -47,7 +47,7 @@ A sample of questions to be answered by a Head of Remote Work:
 1. Who will be responsible for ensuring that newly-remote workers have healthy, ergonomic [workspaces](workspace/) at home?
 1. Who will ensure that [learning and development](learning-and-development/) principles address the challenges of remote [hiring](hiring/), remote [interviewing](interviews/), remote [onboarding](onboarding/), remote [management](management/), remote promotions, and beyond?
 1. Who will conduct an end-to-end process audit and provide structured replacements for remote-last workflows, such as a reliance on [synchronous meetings](meetings/) for consensus gathering and collaboration?
-1. Who will lead the reevaluation of company [values](/handbook/company/culture/all-remote/remote-values/), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
+1. Who will lead the reevaluation of company [values](remote-values/), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
 1. Who will put a travel strategy in place such that [in-person engagements](in-person/) become a core part of [building company culture](building-culture/)?
 1. Who will revise your company's talent acquisition strategy, creating a clear and concise answer to "What's your stance on workplace flexibility?"
 1. Who will build a visible [talent brand](/handbook/company/culture/#life-at-gitlab) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
@@ -154,7 +154,7 @@ Below are several recommended areas of study that will prepare you for a remote 
 
 At GitLab, we seek to open source our mastery of remote work in order to equip and empower the next generation of remote work leaders. We encourage those aspiring to fill remote work leadership roles to complete the coursework below and implement GitLab's proven practices into your current organization. In interviews, share completion of these courses and examples of implementing GitLab principles as a means to substantiate your mastery of remote work fundamentals.
 
-1. [GitLab's Remote Work Foundations Certification](/handbook/company/culture/all-remote/remote-certification/)
+1. [GitLab's Remote Work Foundations Certification](remote-certification/)
 1. [Remote Team Management](https://www.coursera.org/learn/remote-team-management) (hosted on Coursera)
 
 Prior to the COVID-19 pandemic, there was low supply and low demand for dedicated remote work leadership. In the midst of the pandemic, demand began to rise slowly, while supply remains low.
@@ -182,7 +182,7 @@ Study the links below. They point to various educational sections within the Git
 1. Organizational savvy and the ability to garner influence to positively impact the working lives of team members
 1. A native visionary and problem solver who seeks outside perspectives, tools, and workflows to continually evolve an organization's workplace design, culture, and strategy
 1. Propensity to form and foster interdepartmental relationships
-1. A default to working [transparently](/handbook/values/#transparency) and with a [low level of shame](/handbook/values/#low-level-of-shame) is vital given the extreme cross-functional nature of the role
+1. A default to working [transparently](/handbook/values/#transparency) and with a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) is vital given the extreme cross-functional nature of the role
 1. A sound advisor to other executives, guiding decisions through a global and inclusive lens
 1. Appreciation for [self-learning and self-service](self-service/)
 1. Appreciation for [documentation](handbook-first/) and knowledge taxomony/codification

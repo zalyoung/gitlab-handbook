@@ -87,11 +87,30 @@ Your new SSH key variable will now be accessible during any CI/CD jobs you run i
         - chmod 700 ~/.ssh
     ```
 
-1. Finally, we can add a simple SSH command to test if the connection is working.
+1. We can add a simple SSH command to test if the connection is working.
 
 ```yaml
 deploy app:
   stage: deploy
+  script: 
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_INVALID_KEY"
+    - ssh-add "$SSH_INVALID_KEY"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+    - ssh root@$ip 'ls /'
+```
+
+1. Finally, we will add in an `environment` keyword to enable us to track the deployment environment.
+
+```yaml
+deploy app:
+  stage: deploy
+  environment:
+    name: Production
+    url: "https://$ip"
   script: 
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)
@@ -150,6 +169,32 @@ To test if this fixes the error:
 1. Select **New pipeline**.
 
 1. Leave all values as default and select **New pipeline** again. You will now see the job complete successfully!
+
+## Task C. Clean Up Deploy Job
+
+Now that the job has been fixed, it is important to clean up the job so that the steps of the job are more clear. For example, we can move parts of the jobs from the `script` section to the `before_script` section.
+
+1. Let's move the steps from the `'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'` to `chmod 700 ~/.ssh` into a `before_script` section. That way, it is clear which parts of the job are for setup, and which are the actual tasks being performed.
+
+The deploy job should now look like this:
+
+```yaml
+deploy app:
+  stage: deploy
+  image: ubuntu:latest
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+    - ssh root@$ip 'ls /'
+```
+
+1. Run the pipeline to make sure the changes did not break anything in the pipeline.
 
 ## Lab Guide Complete
 

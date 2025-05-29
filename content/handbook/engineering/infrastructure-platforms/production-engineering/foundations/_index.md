@@ -144,6 +144,11 @@ We have Geekbot automated checkins on Mondays and Fridays in the [#g_foundations
 
 We have a quarterly async retro that aligns with the company fiscal quarters and OKRs. In addition to reflecting on our quarter in general, we take a set of actions to try the next quarter and revisit how successful they were in the next retro.
 
+#### FY26Q1 Actions
+
+- Define a KTLO/Backlog grooming process and try it out (see https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26338 for more details).
+- Documenting things is part of our definition of done (issues are not closed if there are relevant docs/runbooks/etc to be updated).
+
 ### Picking up work
 
 We have three buckets of work:
@@ -166,11 +171,7 @@ Different people are responsible for adding the `Foundations Build` label to iss
 - External requests - the Engineering manager or person on the [interrupt rotation](#interrupt-rotation) will add `Foundations Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations Build` label when new issues are opened.
 - KTLO - These issues will generally be added according to a general combination of due date/priority/severity/weight. Any team member should feel empowered to add KTLO issues to the board when they fit the criteria (prioritization makes sense based on the due date/priority/severity/weight).
 
-From here, people have options when looking for what's next:
-
-1. Pick up issues related to the project they are involved with
-1. Pick up KTLO work they are interested in or to create a break between other project work
-1. Help out with external requests if the interrupt rotation has higher volume on a given week
+Each team member is expected to have one KTLO issue ongoing at a time, treated as the next priority behind project work. Monthly we review which issues are a priority, based on what we need to do and what we want to improve. These issues will have the `Foundations Next` label to make them easily identifiable. 
 
 We trust everyone to be a [Manager of One](../../../../leadership/_index.md#managers-of-one) - owning not just their own work, but the team's work - taking responsibility to define their own workflow that provides the right balance of work for them to be most impactful to the team.
 
@@ -200,7 +201,7 @@ The team member on rotation is responsible for:
   - Minor updates should have their changelogs be reviewed before merging.
   - Major updates should be looked at closely to understand breaking changes before considering merging.
 - Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
-- Responding to any Access Requests that need Foundations provisioning.
+- Responding to any [Access Requests that need Foundations provisioning](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26626#open-access-requests).
 
 ### Project Management
 
@@ -264,7 +265,7 @@ Most issues for our team are tracked primarily in the [Production Engineering](h
 - A Foundations label that aligns with the bucket of work it fits best in: `Foundations::KTLO`, `Foundations::Requests`, `Foundations::Project Work`, ...
 
   > [!important]
-  > Access Requests issues must have the `Foundations::Requests` label.
+  > Access Requests issues use the `Foundations::Todo`, `Foundations::Doing` and `Foundations::Done` labels.
 
 - If there is a service label that is applicable, also apply that.
 

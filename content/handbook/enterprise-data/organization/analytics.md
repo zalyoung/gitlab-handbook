@@ -5,7 +5,7 @@ description: "GitLab Data Analytics Team Handbook"
 
 The mission of the Data Analytics team is to **maximize** the impact of business decisions and strategy with data solutions that are trusted and scalable.
 
-We do this by helping all GitLab teams move up the [**Data maturity**](https://internal.gitlab.com/handbook/enterprise-data/direction/#current-data-maturity) **by means of our** [**GitLab values**](/handbook/values/) and our [**Data Team Principles**](/handbook/enterprise-data/#data-team-principles).
+We do this by helping all GitLab teams move up the [**Data maturity**](https://internal.gitlab.com/handbook/enterprise-data/direction/#current-data-maturity) **by means of our** [**GitLab values**](/handbook/values/) and our [**Data Team Principles**](/handbook/enterprise-data/organization/principles/).
 
 ## Data Analytics Responsibilities
 
@@ -56,16 +56,6 @@ At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-f
     1. Data Products - Industry Benchmarks, Data APIs, Algorithms
     1. Data-Informed Process Improvements
     1. In-Product Insights
-
-## Short Term Direction
-
-Our short term goal for `FY21-2H` is to move GitLab up the [**Data maturity**](https://internal.gitlab.com/handbook/enterprise-data/direction/#current-data-maturity).
-
-To do this, the Data Analytics team will be:
-
-- operating in [Data Fusion teams](/handbook/enterprise-data/organization/#fusion-teams) towards the same business goals at the same pace
-- strengthening the [Data Analysis Process](/handbook/enterprise-data/organization/analytics/#data-analysis-process)
-- advancing GitLab's [Data Visualization](https://datavizcatalogue.com/) & [Data Storytelling](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#71f2f94852ad) skills
 
 ## Data Analysis Process
 

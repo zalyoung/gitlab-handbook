@@ -97,8 +97,8 @@ variables:
   HUGO_VERSION: '0.140.2'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   HUGOLINT_VERSION: '2.0.3'
-  MARKDOWNLINT_VERSION: '0.17.2'
-  VALE_VERSION: '3.9.4'
+  MARKDOWNLINT_VERSION: '0.18.1'
+  VALE_VERSION: '3.11.2'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
@@ -356,7 +356,6 @@ hugolint:
     - apk add jq curl
   script:
     - hugolint linkcheck --config .hugolint.yaml --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
-    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
     - |
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
@@ -371,7 +370,6 @@ hugolint:
     expire_in: 1 month
     paths:
       - linkcheck.json
-      - missinglinks.txt
       - new_broken_links.json
     reports:
       codequality: linkcheck.json

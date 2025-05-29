@@ -7,4 +7,4 @@ Each month a Product Manager will [lead the release post authorship](/handbook/m
 
 <!-- To update the list, see the relevant YAML file https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml -->
 
-{{< release-post-scheduling >}}
+{{< marketing/release-post-scheduling >}}

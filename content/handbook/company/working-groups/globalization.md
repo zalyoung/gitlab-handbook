@@ -46,11 +46,11 @@ Deliver cross-functional revenue globalization priority frameworks and committed
 | Member                | Orit Golowinski          | Director of Product, Dev                        |
 | Member                | Sarah Waldner            | GMP, Create                                     |
 | Member                | Tim Zallmann             | Sr Director, Engineering                        |
-| Member                | Pattie Egan              | VP, People Ops                                  |
+| Member                | TBC                      | VP, People Ops                                  |
 | Member                | Harley Devlin            | People Ops                                      |
 | Member                | Robert Allen             | VP Talent Acquisition                           |
 | Member                | Emily Plotkin            | Sr Director, Legal                              |
 | Member                | James Gladen             | VP, Tax                                         |
-| Member                | Craig Mestel             | VP, Finance & Business Technology               |
-| Member                | Urja Patel               | VP, Corporate Controller                        |
+| Member                | TBC                      | VP, Finance & Business Technology               |
+| Member                | TBC                      | VP, Corporate Controller                        |
 | Member                | Liz Petoskey             | Director, Strategy and Operations               |

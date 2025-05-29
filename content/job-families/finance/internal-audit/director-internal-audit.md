@@ -28,10 +28,10 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 
 ### Requirements
 
-*Subject matter expertise in auditing and enterprise risk management concepts (e.g., risk assessment/prioritization, process & internal controls, root cause analysis)
+*Subject matter expertise in auditing and enterprise risk management concepts (for example; risk assessment/prioritization, process & internal controls, root cause analysis)
 
-- Demonstrated strong professional judgment, critical thinking and written/oral communication skills (e.g., persuasion, influence, conflict resolution)
-- Experienced in leading teams leveraging data and analytical tools to solve business problems and in the audit lifecycle (e.g., audit plan development, risk assessment, engagement execution, reporting, findings management)
+- Demonstrated strong professional judgment, critical thinking and written/oral communication skills (for example; persuasion, influence, conflict resolution)
+- Experienced in leading teams leveraging data and analytical tools to solve business problems and in the audit lifecycle (for example audit plan development, risk assessment, engagement execution, reporting, findings management)
 - Experienced in leading, coaching and developing team members
 - Demonstrated ability to drive a clear vision for the team & manage and coordinate work across global teams
 - Creative approaches and solutions necessary to solve complex problems.
@@ -43,21 +43,6 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 - MBA, Bachelor's degree in accounting or related finance field. Chartered accountant (CA) or certified public accountant (CPA) desirable.
 - Certified internal auditor (CIA) or certified information systems auditor (CISA) preferred.
 - Ability to use GitLab
-
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
-- Completing tasks and audits timely and efficiently
-- Utilizing Best Practices related to audit findings and recommendations.
-- Approval ratings based on surveys above 80% in the first year, moving to 90% in subsequent years.
-
-### Career Ladder
-
-The next step in the Internal Audit job family is to move to the [Internal Audit](/job-families/finance/#internal-audit/) job family.
 
 ### Hiring Process
 

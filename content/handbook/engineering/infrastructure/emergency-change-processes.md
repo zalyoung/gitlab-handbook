@@ -15,7 +15,7 @@ The person on call can generally leverage emergency code patching, require a dep
 
 ### Change management
 
-In cases where a configuration or environment change is required in an emergency situation, the person on call will follow the [change management process](change-management.md). Any configuration change done on the underlying infrastructure will go through a regular Merge Request (MR) workflow where a configuration change is checked into source control.
+In cases where a configuration or environment change is required in an emergency situation, the person on call will follow the [change management process](/handbook/engineering/infrastructure-platforms/change-management/). Any configuration change done on the underlying infrastructure will go through a regular Merge Request (MR) workflow where a configuration change is checked into source control.
 
 Since time is the critical component in this type of situation, it is possible that the person on call will self approve the change in discussion with the other people in the emergency call. In this situation, the change issue will be logged after the emergency has been mitigated and the MR in question will be referenced. The MR will also be reviewed and approved by another team member if that was not the case during the mitigation attempt, after the fact.
 

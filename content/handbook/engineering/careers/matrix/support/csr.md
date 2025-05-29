@@ -18,7 +18,7 @@ title: "Support Career Framework: Customer Support Representative"
 
 ### Leadership Competencies
 
-{{% include "includes/engineering-careers/CSR-competency.md" %}}
+{{% include "includes/engineering-careers/csr-competency.md" %}}
 
 ### Technical Competencies
 

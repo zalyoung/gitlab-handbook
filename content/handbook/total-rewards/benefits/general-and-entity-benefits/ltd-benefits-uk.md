@@ -27,6 +27,8 @@ Please let the Total Rewards team know if you would like to join the scheme via 
 
 Team members who join the plan prior to the 24th of the month will have the BIK and deductions reported in full for that month, team members who join after the 24th of the will see deductions and BIK reporting begin the following month.
 
+If you wish to add/remove dependents after you have joined the AXA plan, please reach out to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com` confirming your dependent details (Full Name, DOB, and address).
+
 Please note that it can take 7 - 10 working days to receive a reply and confirmation from AXA PPP.
 
 ### Coverage Details
@@ -94,7 +96,9 @@ Life Insurance provides peace of mind for you and your loved ones with a tax-fre
 
 Team Members are automatically enrolled in to the pension benefit of **4x basic annual salary** up to the Free Cover Limit. Team Members with a base salary of £375,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover. Please see the [Life Insurance Policy User Guide](https://drive.google.com/file/d/1D7QXKKvVtafQFbBFD4mPuKqbi1mqBsLh/view?usp=sharing)
 
-To designate a beneficiary for this benefit, please complete the [Expression of Wish Form](https://docs.google.com/document/d/1L5PFNeeZPmC5CArxrm7YX8W4BwKzdLFo/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) and send the completed form to the Total Rewards Team.
+To designate a beneficiary for this benefit, please complete the [Expression of Wishes Form](https://docs.google.com/forms/d/e/1FAIpQLSdWOCht3imjJpcUhgyWuYmVMMlyf0COShqOal9xs74V_g-BqQ/viewform?usp=preview). The completed version will be sent to you via email, please ensure to sign and date it. Once fully completed, please [upload](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?tab=t.0) the form to your Workday profile `Document Category: Benefit Documents and Forms`.
+
+Unum Life Insurance policyholders have access to a range of support services including Cancer Assist — in-the-moment, personalised guidance from cancer experts Reframe. For more information see [Unum’s Life Wellbeing Checklist](https://drive.google.com/file/d/1TGOquhebJ8A37aBNkaiPch0r8-s7sMp_/view?usp=sharing)
 
 See additional details on the [Life Insurance Policy](https://drive.google.com/file/d/1wS3XP7C9N64iistpsYPUiD709nTkutvt/view?usp=sharing).
 
@@ -119,6 +123,8 @@ New Team Members should expect an enrollment email from Help@Hand the first week
 Income Protection provides financial support if you're unable to work due to illness or injury for a specified length of time, and aims to help you, your family and others who depend on the money you earn. GitLab's policy with Unum will help us to ensure you receive a percentage of your income if you can't work because of illness or injury. It also includes direct access to expert Vocational Rehabilitation Consultants who can support you while you're off and ease your return to work. See more details on the [Income Protection Policy](https://drive.google.com/file/d/1G-3vu-zO38OGAZNcZS9mc-DwCm9laOaC/view?usp=sharing). Please see the [Income Protection User Guide](https://drive.google.com/file/d/1GGLFrzJRUCD7OM41O4F7kNyCqkuBHsyt/view?usp=sharing)
 
 All team members (between age 16 and State Pension Age) are automatically enrolled in Income Protection of **66% of base salary up to the Free Cover Limit payable after you've been absent for 13 weeks** effective as of the date of hire. Employees with a base salary of £226,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover.
+
+Group Income Protection (GIP) from Unum provides a unique combination of expert wellbeing, absence management and in-house vocational rehabilitation services. Please see [GIP Wellbeing](https://drive.google.com/file/d/1OQrgdm-q57-lHiowX6tdww8SbF_sx9gV/view?usp=sharing). Checklist detailing Unum’s holistic suite of support services.
 
 Please reach out to Total Rewards for information on how to use your Income Protection benefit with Unum. Payments are made exactly like your salary, and tax and National Insurance contributions are deducted in the usual way. If you are absent due to illness or injury on the day your cover or an increase in cover is due to begin, you may not be eligible until you return to active work in your usual role.
 

@@ -27,6 +27,7 @@ These are scoped labels, meaning only one of them can ever be present on an issu
 | `Zapier` | The issue relates to Zapier |
 | `Calendly` | The issue relates to Calendly |
 | `Salesforce` | The issue relates to Salesforce |
+| `Workato` | The issue relates to Workato |
 
 ## Types of work labels
 

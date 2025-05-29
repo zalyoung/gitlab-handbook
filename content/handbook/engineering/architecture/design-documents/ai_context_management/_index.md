@@ -1,16 +1,16 @@
 ---
 title: AI Context Management
-status: proposed 
+status: proposed
 creation-date: "2023-06-03"
 authors: [ "@dmishunov" ]
-coach: "@jessieay"  
+coach: "@jessieay"
 approvers: ["@bvenker", "@dmishunov" ]
 owning-stage: "~devops::data-stores"
 participating-stages: ["~devops::ai-powered"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Glossary
 

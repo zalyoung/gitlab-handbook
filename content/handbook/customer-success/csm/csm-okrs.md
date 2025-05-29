@@ -105,7 +105,7 @@ This will have significant impacts on both GitLab and its customers:
 
 - **Epic:** Should indicate/tie an Issue back to a Strategic Objective / Pillar for CS
 
-- **Milestone:** Should be the fiscal quarter we are planning to deliver & close the work
+- **Milestone:** Should be the fiscal quarter we are planning to deliver & close the work. Milestones will be used to track both OKRs and non-OKR initiatives. OKRs should be defined in the OKR project within CSMERM and all non-OKR initiatives should be defined under the relevant team's subgroup.
 
 ## Process
 
@@ -189,14 +189,15 @@ Each policy contains rules for the resource set. These rules are contained withi
 
 | Missing Field | Example |
 | ------------- | ---- |
+| GitLab Department | `Customer Success` |
 | Issue Assignee | @csmname  |
 | CS-Priority Label | ~"CS-Priority::Top-5"  |
 | CS-Team Label | ~"CS-Team::CSM"   |
 | CS-Status Label  | ~"CS-Status::On Track"   |
 | CS-Region Label  | ~"CS-Region::AMER"   |
-| OKR label  | ~"OKR"  |
+| OKR/Initiative label  | ~"OKR"  |
 | LT Sponsorship label  | ~"CSLT::CS DIR NAME"  |
-| Milestone  | ~FYXX-QX  |
+| Milestone  | ~FYXXQX CS OKR |
 | XLT DRI label  | ~"CSXLT::MGR CS NAME"  |
 
 ## Completion and Review
@@ -213,34 +214,34 @@ Each issue should have labels and field values to satisfy the triage bot policie
 
 | Category | Label | Definition |
 | ------------- | ---- | -------------------------------------------------------- |
-| GitLab Department | Customer Success | Defines the relevant GitLab department as Customer Success for global OKR tracking |
-| OKR | OKR | Required label for tracking OKRs across GitLab |
-| Initiative | Initiative | Non-OKR initiative being tracked by CS org |
-| CS-Status | CS-Status::On Track | Issue is progressing as expected |
-| CS-Status | CS-Status::Watchpoint | Issue is running behind and needs re-alignment on objective timeline between DRI team |
-| CS-Status | CS-Status::Concern | Issue has signficant obstacles that jeopardize completion by due date and require leadership assistance |
-| CS-Status | CS-Status::Proposed | Objective or initiatves has been proposed to CS leadership but not yet approved |
-| CS-Status | CS-Status::Not Started | Issue has been identified but work has not yet begun |
-| CS-Status | CS-Status::On Hold | Issue is temporarily paused |
-| CS-Status | CS-Status::Closed Success | Issue has been successfully completed |
-| CS-Status | CS-Status::Closed Not A Priority | Issue was determined to be not be a priority and closed |
-| CS-Status | CS-Status::Ready for Review | Work on the issue is completed and is ready for signoff from leadership |
-| CS-Priority | CS-Priority::Top-5 | Top-5 OKR being tracked by CS leadership  |
-| CS-Priority | CS-Priority::High | OKR or initiative that significantly impact CS team objectives and metrics |
-| CS-Priority | CS-Priority::Medium | OKR or intiative that moderately impact CS team objectives and metrics |
-| CS-Priority | CS-Priority::Low | "Nice-to-have" OKR or intiative that would be beneficial but aren't critical |
-| CS-Region | CS-Region::Global | Organization-wide objective |
-| CS-Region | CS-Region::AMER | AMER specific objective |
-| CS-Region | CS-Region::EMEA | EMEA specific objective |
-| CS-Region | CS-Region::APAC | APAC specific objective |
-| CS-Team | CS-Team::CSM | Customer Success Manager team |
-| CS-Team | CS-Team::CSA | Customer Success Architect team |
-| CS-Team | CS-Team::On Demand (CSE) | Customer Success Engineer team |
-| CS-Team | CS-Team::RM | Renewal Manager team |
-| CS-Team | CS-Team::Tech-Touch | Tech-Touch (Digital Experience) team |
-| CS-Team | CS-Team:: Onboarding | Onboarding team |
-| LT Sponsorship | CSLT::[Name] | CS leadership team member sponsoring objective or initiative |
-| XLT DRI | CSXLT::[Name] | CS manager responible for objective or initiative  |
+| GitLab Department | `Customer Success` | Defines the relevant GitLab department as Customer Success for global OKR tracking |
+| OKR/Initiative | `OKR` or `Initiative` | Required label for tracking OKRs and non-OKR initiatives respectively across GitLab |
+| CS-Status | `CS-Status::On Track` | Issue is progressing as expected |
+| CS-Status | `CS-Status::Watchpoint` | Issue is running behind and needs re-alignment on objective timeline between DRI team |
+| CS-Status | `CS-Status::Concern` | Issue has signficant obstacles that jeopardize completion by due date and require leadership assistance |
+| CS-Status | `CS-Status::Proposed` | Issue has been proposed to CS leadership but not yet approved |
+| CS-Status | `CS-Status::Not Started` | Issue has been identified but work has not yet begun |
+| CS-Status | `CS-Status::On Hold` | Issue is temporarily paused |
+| CS-Status | `CS-Status::Closed Success` | Issue has been successfully completed |
+| CS-Status | `CS-Status::Closed Not A Priority` | Issue was determined to be not be a priority and closed |
+| CS-Status | `CS-Status::Ready for Review` | Work on the issue is completed and is ready for signoff from leadership |
+| CS-Priority | `CS-Priority::Top-5` | Top-5 OKR being tracked by CS leadership  |
+| CS-Priority | `CS-Priority::High` | OKR or initiative that significantly impact CS team objectives and metrics |
+| CS-Priority | `CS-Priority::Medium` | OKR or intiative that moderately impact CS team objectives and metrics |
+| CS-Priority | `CS-Priority::Low` | "Nice-to-have" OKR or intiative that would be beneficial but aren't critical |
+| CS-Region | `CS-Region::Global` | Organization-wide objective |
+| CS-Region | `CS-Region::AMER` | AMER specific objective |
+| CS-Region | `CS-Region::EMEA` | EMEA specific objective |
+| CS-Region | `CS-Region::APAC` | APAC specific objective |
+| CS-Team | `CS-Team::CSM` | Customer Success Manager team |
+| CS-Team | `CS-Team::CSA` | Customer Success Architect team |
+| CS-Team | `CS-Team::On Demand (CSE)` | Customer Success Engineer team |
+| CS-Team | `CS-Team::RM` | Renewal Manager team |
+| CS-Team | `CS-Team::Tech-Touch` | Tech-Touch (Digital Experience) team |
+| CS-Team | `CS-Team:: Onboarding` | Onboarding team |
+| LT Sponsorship | `CSLT::[Name]` | CS Director+ who is sponsoring OKR or initiative |
+| XLT DRI | `CSXLT::[Name]` | CS Manager who is DRI for OKR or initiative  |
+| XLT DRI | `CSXLT::N/A` | For use when a CS Director+ is the DRI rather than a CS Manager |
 
 ## OKR Schedule
 

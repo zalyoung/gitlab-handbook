@@ -109,6 +109,22 @@ For more information regarding confidentiality levels and compliancy, please vis
 
 [This feedback epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)/spreadsheet is only open to GitLab team members. FMMs and managers to keep details in this spreadsheet regarding both positive and negative experiences with various event vendors for team reference.
 
+## How Regional Marketing utilizes Claude 
+
+[Claude](/handbook/tools-and-tips/ai/claude/) is the GitLab-approved AI tool utilized across the company. Below are just a few ways in which Field Marketing integrates Claude into our day-to-day business processes. 
+
+- Venue searches ([example here](https://claude.ai/share/c7263ab2-1b2d-4645-a44c-d8bf006a4e17))
+- Lead list cleaning ([Asana project here](https://app.asana.com/1/306855239930259/project/1209517412144204/overview/1209517533381809))
+- Using Claude to evaluate [Tableau](/handbook/enterprise-data/platform/tableau/) reporting for better visibility into ROI and to provide new ideas for strategically implementing company initiatives into our regional event tactics 
+  - Claude can also be utilized to create a Markdown file of Tableau's data ([see example here](https://claude.ai/share/9f71d4b8-2f9b-496e-8de0-80915021304d)) to then be transferred to Google sheets for easier filtering and analysing 
+- Content creation for event asset copy, as well as general spelling and grammar checks 
+- Use Claude to pull specific information for executive roundtables to provide a structured summary based on company information and attendees (see below examples)
+  - Company Overview
+  - Persona Role
+  - Opinion on roundtable topic sourced from relevant articles on the web
+  - How GitLab aligns with companies' DevOps and AI strategies
+  - Give discussion points on data residency, AI regulations, and implementation
+
 ## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
 Field Marketing utilizes the below issue templates and epic codes for virtual events and other campaign tactics.
@@ -317,7 +333,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 ### Important Notes for FMMs
 
-- The FMM must fill in and `complete` the `FMC Checklist` and `Ecosystem Involvement` tasks before the FMC will be notified to move the project to WIP.
+- The FMM must fill in and `complete` the `FMC Checklist` task before the FMC will be notified to move the project to WIP.
 - Please always hit the `complete` button for each task, once the task is finished. We have many dependencies built into our Asana template and if you do not `complete` a task, the next steps will not be triggered for other team members.
 - Please add any appropriate sub-region or country tags to your project. NOTE: The main region categories (AMER, APAC, EMEA, PubSec) will be automatically associated. Many tags are already created in Asana, please utilize these tags and do not edit any existing tags.
   - If you need a new tag created, please request your tag in this [Tag Request Form](https://form.asana.com/?k=iROsm3N8LW4Wb8HY0PFxeQ&d=306855239930259).
@@ -577,12 +593,10 @@ It is the FMM's responsibility to not only ship assets to events, but to also en
 
 ### Warehouse Address
 
-AMER Warehouse
-Attn: GitLab AMER FM Store - c/o Kerry Phan
-Brilliant
-1605 S Waukegan Rd
-Waukegan, IL 60085
-415-980-4600.
+Brilliant Team, c/o Gitlab  
+1605 S Waukegan Rd  
+Waukegan, IL 60085  
+415-980-4600  
 
 ### Stickers
 
@@ -924,8 +938,9 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
 | AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
 | AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
-| [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` | |
-| Japan  | Shu Kawaguchi | `@skawaguchi1` | |
+| APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
+| APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
+| APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@ju` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Neha Pujari | `@npujari2` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA UK](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#field-marketing-uki](https://gitlab.slack.com/archives/C048KPPE1V1) |
@@ -1068,8 +1083,8 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER West Coast | Lisa Rom | Lisa Cartagena |
 | AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
 | AMER LATAM | Gabby Chorny | Rodrigo Rios |
-| APAC | Kate Baker | SJ Lim |
-| APAC - Japan | Shu Kawaguchi | Ryuichiro Shinoki |
+| APJ APAC | Kate Baker and Catherine Chien | SJ Lim |
+| APJ Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
 | EMEA Northern Europe | Neha Pujari| Aaron Burgess |
 | EMEA UK/I | Neha Pujari | Adam Woolford |

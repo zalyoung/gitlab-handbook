@@ -73,6 +73,20 @@ To add a secondary email to a support portal account, we need following informat
 
 When a ticket is using the incorrect form, agents will use the `General::Forms::Incorrect form used` macro. This will change the form to `Support Ops`, tag the ticket, and leave an internal note. From there, we are expected to review the ticket and determine the next steps.
 
-Your goal here is to move it to the correct form. Make sure you fill out _all_ ticket metadata possible.
+Your goal here is to move it to the correct form. Make sure you fill out _all_ ticket metadata possible. When reviewing the ticket metadata, ensure that you remove the assignee unless it's explicitly clear that it should remain with the current assignee. Tickets that remain assigned when moved between forms may be hidden from views and can cause tickets to breach their SLA.
 
-If the ticket stage is set to NRT, but it makes more sense to treat the ticket as a FRT ticket, change the ticket stage to that of FRY.
+If the ticket stage is set to NRT, but it makes more sense to treat the ticket as a FRT ticket, change the ticket stage to that of FRT.
+
+## Handling malicious users
+
+When a ticket arises containing potential malicious actions (hacking, phishing, abuse, etc.), we need to always treat it seriously.
+
+If, after a thorough investigation, it is determined to be malicious, take the following actions:
+
+- Suspend the user
+- Add a user note stating the ticket and reason
+- Add a rejection for the user's email [End-user settings](/handbook/security/customer-support-operations/docs/zendesk/end-users/#end-user-settings) Blocklist (e.g. `reject:alice@example.com`)
+- Close the ticket (via the API)
+- Delete any user sessions for the user in question (via the API)
+
+When in doubt, escalate the matter to your manager, a Customer Support Operations Fullstack Engineer, and/or the GitLab Secuirty team.

@@ -241,7 +241,7 @@ TODO
 
 Candidates for the Tax Accountant position can expect the hiring process to follow the order below:
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to attend a 45 minute interview with Director of Tax
 - Candidates will then be invited to attend a 30 minute interview with our Corporate Controller
 - Candidates will then be inbited to attend a 30 minute interview with Sr. External Accounting & Reporting Manager

@@ -13,9 +13,9 @@ For content for positioning the value of the tiers, how to price/quote the tiers
 
 ### Overview
 
-Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling a named Support Engineer, a Customer Success Architect (CSA) and Education services into a single SKU as an annual renewable service.
+Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support. We achieve this by bundling an [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/), [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/)/[Customer Success Manager (CSM)](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm-at-gitlab) and Education services into a single SKU as an annual renewable service.
 
-The [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer.  Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
+The [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer and is included with the Signature Tier. Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
 
 The [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/) is accountable for their customer's success through GitLab product adoption using well understood Best Practices.  CSA's bring deeper product knowledge and technical depth than the industries traditional CSM role.  With experience across many customers, they are experts at ensuring features are leveraged the right way for maximum value.   This customer experience has lead to development of best practice content and prescriptive road-maps.  This content is folded into the Success Tiers offerings as "Accelerators".
 
@@ -23,7 +23,68 @@ The [Customer Success Architect (CSA)](/job-families/sales/customer-success-arch
 
 Education Services included with Success Tiers encompasses 1 day of Instructor-led Training as well as a significant number of Training Certification Exam vouchers.   This enables us to partner the running of specific accelerators, aligned to training and certification, to ensure your team is ready and able to drive the cost benefits that GitLab brings.
 
-### Accelerators
+### Success Tier Customer Onboarding
+
+```mermaid
+graph LR
+    A[Order Form Received] --> B[<b>Welcome Email Sent</b><br><i>24hrs after resources identified</i>]
+    B --> C[<b>Internal Account Team Handover</b><br><i>within first week</i>]
+    C --> D[<b>Customer Kick-Off Call</b><br><i>within first 1 to 2 weeks</i>]
+    D --> E[<b>Accelerator Begins]
+```
+
+Note that you may be onboarding an account which is not net new. To ensure smooth collaboration and handover with the account team, it is advised to consult the responsibility matrix [issue](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/16)
+
+### Success Tier Customer Onboarding Artifacts
+
+1. Introduction Email
+   1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
+   2. Utilize the appropriate welcome email template - 
+      1. [Signature | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720d040d7ec85356346f#2)
+      2. [Advanced | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720f040d7ee3c8b160a1?lfrm=srp.2)
+      3. [Essentials | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe7212040d7ea6e1af7af0?lfrm=srp.6)
+   3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
+
+### Success Tier Customer Onboarding Activities
+
+1. Internal Kick-off Call
+   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.
+   2. The purpose of this call is to discuss the customer objectives between the account team and the CSM/A, which should identified prior to the Order Form being signed.
+      * Account Context & Technical Documentation Template
+         1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members.
+         2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
+            * Tip: you can organize a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
+         3. This template should help you structure and play back your understanding of the account to your SA/CS team, creating a foundation for discovery workshops and collaboration projects by capturing key business drivers, technical requirements, and stakeholder priorities in a standardized format that can be easily validated and expanded upon.
+
+2. Customer Kick-off Call
+   1. This will be scheduled within the first week of the agreement, subject to customer availability.
+   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations through email.
+   3. Utilize the appropriate kick-off deck & customize as needed (internal). 
+      1. [Signature | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe720b1d0a83d481b69449#1)
+         * [Demo](https://gitlab.highspot.com/items/680f8ee83cc2d050572efa00)
+      2. [Advanced | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7209be150cb32b8b47f2?lfrm=srp.9)
+         * [Demo](https://gitlab.highspot.com/items/680b978897caecb740bc6504)
+      3. [Essentials | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7205040d7eb57aaf784c?lfrm=srp.8)
+         * [Demo](https://gitlab.highspot.com/items/6812783bf1e7d50ea1f7888a)
+   4. Share the `.pdf` version post-call as well as immediate next steps, such as a sudiscovery workshop.
+
+3. Discovery Workshop
+   1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.
+   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.
+   3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.
+   4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).
+
+### Post Onboarding
+
+#### CSM Processes
+
+See [High-Level Responsibilities of a CSM](/handbook/customer-success/csm/#high-level-responsibilities-of-a-csm)
+
+#### CSA Processes
+
+We have CSA specific processes that go above and beyond the CSM role. It is expected that this is layered on top of the CSM processes and responsibilities.
+
+##### Accelerators
 
 Success Tiers include up to 4 Accelerators for the Signature tier and 2 for Advanced, that your [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) will deliver.
 
@@ -33,7 +94,7 @@ An Accelerator, depending on customer requirements and defined outcomes, will pu
 
 ![Accelerator Timeline](/images/customer-success/success-services/accelerator-timeline-graphic.png "Accelerator Timeline")
 
-#### Accelerator Content Modules
+###### Accelerator Content Modules
 
 | Category | Content Modules | Description | Outcome|
 |---|---|---|---|
@@ -58,56 +119,9 @@ An Accelerator, depending on customer requirements and defined outcomes, will pu
 |System administration|Managing Monorepos & Large Repositories |Addresses performance challenges in oversized repositories through comprehensive optimization of repository structure, Git LFS implementation, and CI/CD pipeline efficiency tailored to your specific environment and developer workflows.|Measurable improvements in repository performance with reduced clone and fetch times, optimized storage utilization, streamlined CI/CD pipeline execution, and sustainable maintenance procedures that enhance overall developer productivity and support continued repository growth.|
 |System administration|Optimizing Platform Resiliency |Enhances your GitLab platform's protection against cyber threats through structured implementation of security hardening, backup strategies, incident response planning, and policy controls tailored to your organization's critical digital assets.|By the end of this accelerator, you'll achieve a significantly more resilient GitLab environment with enhanced security monitoring, validated backup and recovery capabilities, documented incident response procedures, and implemented security policy controls that ensure business continuity and protection of your crown jewel repositories.|
 
-## CSA Processes
-
-We have CSA specific processes that go above and beyond the CSM role. It is expected that this is layered on top of the CSM processes and responsibilities.
-
-### Success Tier Customer Onboarding
-
-```mermaid
-graph LR
-    A[Order Form Received] --> B[<b>Welcome Email Sent</b><br><i>24hrs after resources identified</i>]
-    B --> C[<b>Internal Account Team Handover</b><br><i>within first week</i>]
-    C --> D[<b>Customer Kick-Off Call</b><br><i>within first 1 to 2 weeks</i>]
-    D --> E[<b>Accelerator Begins]
-```
-
-Note that you may be onboarding an account which is not net new. To ensure smooth collaboration and handover with the account team, it is advised to consult the responsibility matrix [issue](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/16)
-
-### Success Tier Customer Onboarding Artifacts
-
-0. Account Context & Technical Documentation Template
-   1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members..
-   2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
-   3. Tip: you can organize a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
-   4. This template should help you structure and play back your understanding of the account to your SA/CS team, creating a foundation for discovery workshops and collaboration projects by capturing key business drivers, technical requirements, and stakeholder priorities in a standardized format that can be easily validated and expanded upon.
-
-1. Introduction Email
-   1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
-   2. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
-   3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
-
-### Success Tier Customer Onboarding Activities
-
-1. Internal Kick-off Call
-   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.
-   2. Customer objectives identified prior to the Order Form being signed are to be documented by CSA and shared with the account team.
-
-2. Customer Kick-off Call
-   1. This will be scheduled within the first week of the agreement, subject to customer availability.
-   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations through email.
-   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal).
-   4. Share the `.pdf` version post-call as well as immediate next steps, such as a discovery workshop.
-
-3. Discovery Workshop
-   1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.
-   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.
-   3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.
-   4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).
-
 <br>
 
-## Recording Success Tier Timeline Activities in Gainsight
+### Recording Success Tier Timeline Activities in Gainsight
 
 Consistently recording key Success Tier activities in Gainsight is essential to our customer success operations. This documentation ensures that all team members follow standardized procedures when logging customer interactions.
 
@@ -121,7 +135,7 @@ Accurate activity tracking in Gainsight enables:
 
 By following these guidelines, we maintain a reliable system of record that supports both operational efficiency and strategic decision-making.
 
-### General Instructions (Applies to All Activities)
+#### General Instructions (Applies to All Activities)
 
 To record any activity in Gainsight, start by navigating to the customer's account taking you to their C360. Then, depending on the context of the activity:
 
@@ -141,9 +155,9 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 * **For general activities** (not related to a CTA or Success Plan):
    1. Click the Create button in the top right corner from anywhere in the account
 
-### Specific Activity Types
+##### Specific Activity Types
 
-#### Kick-off Call
+###### Kick-off Call
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
 2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown list.
@@ -151,7 +165,7 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 4. Fill out the remaining fields with all relevant information.
 5. Click **Log Activity** when finished.
 
-#### Accelerator
+###### Accelerator
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
 2. Once the Activity Timeline Entry form is open, select **CSA Engagement** from the Activity Type dropdown list.
@@ -159,7 +173,7 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 3. Fill out the remaining fields with all relevant information.
 4. Click **Log Activity** when finished.
 
-#### Workshop
+###### Workshop
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
 2. Once the Activity Timeline Entry form is open, select **Workshop** from the Activity Type dropdown list.
@@ -169,7 +183,7 @@ To record any activity in Gainsight, start by navigating to the customer's accou
       * Workshop topic
 4. Click **Log Activity** when finished.
 
-#### Executive Business Review (EBR)
+###### Executive Business Review (EBR)
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
 2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown list.

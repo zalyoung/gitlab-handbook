@@ -406,7 +406,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Member Significant Life Events and Team Member Gifts
 
 - Cash or cash equivalents, such as gift cards, are not allowed; Qualified gifts are capped at $125 per transaction.
-- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a gift.
+- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a [gift](/handbook/people-group/celebrations/#new-parent-swag).
 - Any People Manager can send a gift or flowers to any Team Member at GitLab to let them know they are thinking about them. Examples include:
   - A new Team Member recently purchased a new home and shared their news with others. A People Manager sends a "Home Sweet Home" doormat as a congratulatory gift.
   - While working a People Manager noticed a Team Member's children in the background of a Zoom call and surprised the kids with a new game.
@@ -625,9 +625,9 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
-**Global Upside, Remote.com and Papaya Global**
+**PEO Locations**
 
-- The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
+- The list of locations under a PEO can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 

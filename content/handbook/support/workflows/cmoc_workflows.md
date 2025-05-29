@@ -88,7 +88,7 @@ Use the following table as a **guideline**. If there aren't any material updates
 - *Some users are reporting connection issues to GitLab.com, we're working on it in: link*
 - Craft a draft of what you think is correct. Whenever possible use ["I intend to..." language](https://www.youtube.com/watch?v=7KnPjakwqeI) when communicating with the IM and EOC:
 
-  - *@IM - I'm going to post: "We've isolated the network problem to the APAC region and are working with Cloudflare support to get it resolved*.
+  - *@incident-manager - I'm going to post: "We've isolated the network problem to the APAC region and are working with Cloudflare support to get it resolved*.
   - *"In my next update I'm going to move the status to monitoring"*
 - Bias to action - you can post another update if there was an error in your last update.
 
@@ -182,6 +182,24 @@ A better response would be to assume that an action was requested, relay your in
 
 > **CMOC:** IM, acknowledged, I will draft an update for status.io and ping you in Slack for input.
 
+#### Identify Related GitLab Issue
+
+You may need to identify the related incident issue if it is to be shared with `status.io`.
+
+To identify the issue:
+
+- Click `Overview` found at the top of the Slack incident channel
+
+  ![Incident channel overview](/images/support/incident-channel-overview.png)
+
+- Open the related `incident.io` incident page
+
+  ![Incident IO Link](/images/support/incident-io-link.png)
+
+- The GitLab issue can be found on the right of the page
+
+  ![Incident IO Page](/images/support/incident-io-gitlab-link.png)
+
 #### Create Incident
 
 You can create an incident directly through the `status.io` website **OR** through Slack (provided by Woodhouse). It is recommended to use the `status.io` website directly as it permits further customization of the incident beyond what the Slack form allows. It is also easier to confirm that the incident was created properly when using the `status.io` website.
@@ -234,7 +252,7 @@ The CMOC now needs to notify internal stakeholders of the incident using the Inc
 This workflow, once used, will ask you to fill out a form with details of the incident and will then post those details to `#developer-relations` and `#customer-success`. This serves to notify those teams of the incident. To engage the workflow:
 
 1. Within the `#support_gitlab-com` channel, type `/` in the message box to bring up the list of available workflows and select the `Incident Notifier` workflow.
-1. Fill in the following details that are shared in the #incident-management channel
+1. Fill in the following details that are shared in the #incidents-dotcom channel
    - **Summary**: Brief summary, you can make it the same as the CMOC notice.
    - **Severity**: Select the same severity as the Incident.
    - **Production issue**: Link to the incident issue. eg: `https://gitlab.com/gitlab-com/gl-infra/production/-/issues/12345`
@@ -242,15 +260,7 @@ This workflow, once used, will ask you to fill out a form with details of the in
    - **Status Page**: Click on the incident to expland the full status page url. eg: `https://status.gitlab.com/pages/incident/xxxxxxxx/xxxxxxxx`
 1. Click `Submit`
 
-This will sumbit to both `#developer-relations` and `#customer-success` channels.
-
-#### Label Incident Issue
-
-1. Add the `~Incident-Comms::Status-Page` scoped label to the incident issue.
-
-It is important that we are able to differentiate incidents which included outbound status page and related notifications from those incidents which were deemed less impactful to our customers. This can be useful both in filtering for active incidents which include outbound notification as well as for after-incident reporting.
-
-Whenever a GitLab service incident includes the use of the status page, this should be identified on the incident issue in GitLab. See this, and other uses of this scoped label in the [Incident Management section of the handbook](/handbook/engineering/infrastructure/incident-management/#labeling).
+This will submit to both `#developer-relations` and `#customer-success` channels.
 
 #### Resolve the PagerDuty Page
 
@@ -486,7 +496,7 @@ Contact requests opened during a shift should by default be assigned to the Supp
 
 **NOTE:** When adding yourself to this rotation, be aware that adjusting the `Time Zone` field at the top of the page will adjust it for all users, not just yourself. Before you navigate away, please reset the timezone to UTC.
 
-The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC can fill out the [Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to get added to the rotation. Or, to shadow for a short span of days, they can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
+The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules/P1UHNJP) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC should speak to their manager to get added to the rotation. Or, to shadow for a short span of days, they can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
 
 > **Note About CMOC Shadowing**: When the CMOC shadow PagerDuty schedule is active the engineer will receive notifications and get paged the same way as when on the CMOC schedule. **Do not acknowledge or resolve any incidents when on the CMOC shadow schedule as this will stop any potential pages to the real CMOC!**
 

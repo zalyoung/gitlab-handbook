@@ -81,7 +81,7 @@ Multiple teams across the company contribute to learning and development of our 
 
 1. Education Services: Share customer & product training with team members on Level Up
 1. Talent Brand: Telling career growth stories
-1. People Operations: Measuring imapct of learning and development on team member engagement
+1. People Operations: Measuring impact of learning and development on team member engagement
 1. Select Department Subject Matter Experts: Legal, Compliance, and other specific courses
 
 ## Contact Us
@@ -144,7 +144,7 @@ If you want the wider L&D team to be aware of your MR, please apply the `ld-hand
 
 ### Tools
 
-The L&D team freqently uses the following tools for creating and communicating learning opportunities at GitLab.
+The L&D team frequently uses the following tools for creating and communicating learning opportunities at GitLab.
 
 | Tool | Purpose |
 | ----- | -------- |
@@ -206,11 +206,11 @@ Add learning objectives to the beginning of the content to state a clear trainin
 | Term | Definition | Duration |
 | ------ | ------ | ------ |
 | Training | The action of teaching a team member a particular skill or behavior | Varies |
-| Bite-sized learning | A short course to learn a skill. Bite-sized can be a compentent of training or a separate learning element (i.e. a video, a PDF cheat-sheet, an infographic) | Max 15 minutes, 5 to 10 minute average |
+| Bite-sized learning | A short course to learn a skill. Bite-sized can be a compontent of training or a separate learning element (i.e. a video, a PDF cheat-sheet, an infographic) | Max 15 minutes, 5 to 10 minute average |
 | Self-paced course | Learner has the control over the amount of material they want to consume and the duration of time needed to learn the new information. | Pre-defined by the designer (i.e. hours, days, etc.) |
 | Curriculum | A series of learning paths that comprise a course of study on a skill-based topic | Varies |
 | Certification | A certification indicates that an individual community member has acquired the knowledge, skills, and abilities required to perform a specific skill or job. Certifications include an examination process. | Varies |
-| Learning Path | A chosen route taken by a learner through a range of learning activities to build knowledge progressivley | Varies |
+| Learning Path | A chosen route taken by a learner through a range of learning activities to build knowledge progressively | Varies |
 
 ### Learning Delivery Methods - Definitions
 
@@ -219,7 +219,7 @@ Add learning objectives to the beginning of the content to state a clear trainin
 | Instructor-Led Training (ILT) | Practice of training and learning material between an instructor and learners. Face-to-face training (classroom training) | Varies |
 | Virtual Instructor-Led Training (VILT) | Training that is delivered in a virtual environment (i.e. training in Zoom)| 1 to 3 hours |
 | E-Learning | Learning based on traditional learning theories which takes place electronically, often via the Internet. | Varies |
-| Blended Learning | Training that uses multiple methods to teach the new information to learners. It can includ ILTs, self-paced materials, VILT sessions, etc. | Varies |
+| Blended Learning | Training that uses multiple methods to teach the new information to learners. It can include ILTs, self-paced materials, VILT sessions, etc. | Varies |
 | Webinar | A seminar conducted virtually to a large audience | 3+ hours |
 | Workshop | Hands-on or virtual demos, problem solving, tutorials where team members engage in discussion and activity on a particular subject | Varies |
 

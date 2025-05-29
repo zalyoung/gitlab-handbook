@@ -26,7 +26,7 @@ Also check: [VR troubleshooting guide](https://docs.gitlab.com/ee/user/applicati
 
 ### Dashboard to see logs
 
-1. [Production log dashboard](https://log.gprd.gitlab.net/app/r/s/Bfmiw) - shows request/response/error
+1. [Production log dashboard](https://log.gprd.gitlab.net/app/r/s/Ke9id) - shows request/response/error as well as p50/p90/p99 for the timings of the duo request
 1. [Staging log dashboard](https://nonprod-log.gitlab.net/app/r/s/2OKmz)
 
 ### Monitoring VR alerts

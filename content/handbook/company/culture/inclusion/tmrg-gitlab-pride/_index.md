@@ -3,6 +3,8 @@ title: "TMRG - GitLab Pride"
 description: "We are the GitLab Pride Team Member Resource Group (TMRG) founded in the fall of 2019. Learn more!"
 ---
 
+![GitLab Pride Tanuki Tab](/images/company/culture/inclusion/tmrg-gitlab-pride/tanuki-tab-pride.svg)
+
 This group strives to connect employees at GitLab that are part of the LGBTQ+ community, or are allies, with professional and personal opportunities to meet others, speak at events, and share their lived experiences to improve and strengthen our community.
 
 ## Mission
@@ -14,7 +16,6 @@ To ensure that GitLab is proactive in supporting, retaining, and recruiting from
 ### Leads
 
 - [Alex Hanselka](https://about.gitlab.com/company/team/#ahanselka)
-- [Andrew Chapman](https://about.gitlab.com/company/team/#andrwchapman)
 - [Kyle Yetter](https://about.gitlab.com/company/team/#kyetter)
 
 ### Executive Sponsor

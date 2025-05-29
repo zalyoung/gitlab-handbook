@@ -31,7 +31,7 @@ All-remote workers who are all-work all the time risk [loneliness](https://about
 
 ## Informal communication advantages and disadvantages
 
-While some people thrive on spending time to get to know others, others are annoyed by non-work-related texts and messages. Informal communication among diverse team members requires a high level of [empathy](/handbook/company/culture/all-remote/being-a-great-remote-manager/#empathy).
+While some people thrive on spending time to get to know others, others are annoyed by non-work-related texts and messages. Informal communication among diverse team members requires a high level of [empathy](being-a-great-remote-manager/#empathy).
 
 It's helpful to be transparent about your communication preferences so managers and teammates can know and respect your boundaries.
 
@@ -39,13 +39,13 @@ It's helpful to be transparent about your communication preferences so managers 
 
 > Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1270721630537277442)
 >
-> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://handbook.gitlab.com/handbook/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
+> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://handbook.gitlab.cominformal-communication/ which I'll summarize in this thread.
 
 ### Organize informal communication
 
 Informal team member communications, such as a chat about life outside of work, are necessary for building trust. Trust is essential for great business results and is a [foundational element of culture](/handbook/company/culture/#culture-at-gitlab). Many businesses invest heavily in offices and facilities, because they believe offices are necessary for informal communication.
 
-> During the pandemic, many businesses that were forced to work remotely discovered that productivity [increased](https://bfi.uchicago.edu/working-paper/why-working-from-home-will-stick). Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. GitLab solves this by allowing people to [rent and expense work space](/handbook/finance/expenses#-coworking-or-external-office--space). Another reason given is that people miss working from a central office with co-workers. I don't think that people miss the commute or the office furniture. They miss informal communication. Central offices are an expensive, inconvenient, and indirect way to facilitate informal communication. It is more efficient to directly organize informal communication.
+> During the pandemic, many businesses that were forced to work remotely discovered that productivity [increased](https://bfi.uchicago.edu/working-paper/why-working-from-home-will-stick). Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. GitLab solves this by allowing people to [rent and expense work space](/handbook/finance/expenses/#co-working-space). Another reason given is that people miss working from a central office with co-workers. I don't think that people miss the commute or the office furniture. They miss informal communication. Central offices are an expensive, inconvenient, and indirect way to facilitate informal communication. It is more efficient to directly organize informal communication.
 >
 > For example, every person who joins GitLab has to schedule at least 5 coffee chats during their onboarding. We also have Ask Me Anything meetings with senior leaders, Group calls organized by different groups/departments, and over 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in a physical office. You can connect with team members throughout the world and across departments through a coffee chat. You may not meet people outside of your own floor in an office setting. - *GitLab co-founder, Sid Sijbrandij*
 
@@ -349,7 +349,7 @@ If the Team DJ Zoom Room strikes a proverbial chord with your team, consider cre
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-Hosting an [AMA](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) is a great way for people to learn about others. While questions *can* be about work, these serve as an opportunity to ask funny and far-fetched questions that enable a more personal connection. It's particularly important to consider ongoing AMAs with executives. AMAs humanize leaders and remind teams that we are [all more alike than we are unalike](https://allpoetry.com/Human-Family).
+Hosting an [AMA](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews) is a great way for people to learn about others. While questions *can* be about work, these serve as an opportunity to ask funny and far-fetched questions that enable a more personal connection. It's particularly important to consider ongoing AMAs with executives. AMAs humanize leaders and remind teams that we are [all more alike than we are unalike](https://allpoetry.com/Human-Family).
 
 ## Celebrations and holidays
 

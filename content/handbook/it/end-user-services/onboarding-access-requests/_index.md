@@ -137,7 +137,7 @@ Any circumstance that falls outside of the listed exceptions or if GitLab IT dee
 
 GitLab approves and supports the use of Linux and Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Windows is not supported as a hardware laptop OS.
 
-Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/) page.
+Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/) page.
 
 The operating system choices have obviously affected the hardware selection process.
 
@@ -326,6 +326,7 @@ To provide proof of Full Disk Encryption, please do the following depending on t
 
 * Apple : Evidence is automatically gathered in Jamf. No user action necessary.
 * Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`
+  * You should see something limilar to `luks-xxxxx etc` or `crypt-rpool` or similar at the beginning of the output (`dmsetup ls`) . If you see `No devices found`, your disk is probably not fully encrypted, and you will need to re-install your OS and follow the encryption steps. If you don't ensure your disk is fully encrypted before you start saving data, you'll have to re-do this whole process in the future.
 
 ### Fleet Intelligence & Remote Lock/Wipe
 

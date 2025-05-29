@@ -54,15 +54,15 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
 - This benefit is not applicable if there is a separate life insurance policy as part of the [Entity Specific Benefits](#entity-benefits) package.
 - For all other GitLab team members, the following conditions apply:
   - The team member must be either an employee or direct contractor.
-  - The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of wishes](https://docs.google.com/document/d/19p4IN-msvs4H10teBessfPx-1wu8J7Vs67Es8iVLlL8/edit?usp=sharing) form. To do this:
-    - Copy the template to your Google Drive (File -> Make a copy), enter your information.
-    - Export to PDF (File > Download > PDF Document (.pdf)).
-    - To sign the document, you can use one of the following methods:
+  - The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of Wishes](https://docs.google.com/forms/d/e/1FAIpQLSdNSKQeWXrhG5hhYveF45wW-VmLz2a_Z7eNsk6XRQaAGtjZHQ/viewform?usp=preview) form. To do this:
+    - Complete the relevant fields in the Google form
+    - Once complete, a PDF version will be emailed to the team member
+    - Proceed with signing the document. To sign the document, you can use one of the following methods:
       - Print it, sign and digitize.
       - In macOS, use the native Preview app.
       - In Linux, use the Xournal app's pen tool to draw the signature.
       - Use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); Please beware that there are always security concerns with tools that require uploading personal data. So, you may want to do this as a last resort only.
-    - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?usp=sharing) is the job aid for quick reference.
+    - Upload to your Documents folder `Document Category: Benefit Documents and Forms` in Workday - [here](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?tab=t.0) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000](/handbook/total-rewards/compensation/#exchange-rates).
 
 ## HealthKick Well-being Platform & Discounts

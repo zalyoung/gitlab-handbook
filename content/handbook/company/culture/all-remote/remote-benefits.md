@@ -153,7 +153,7 @@ Employees are [more productive with fewer distractions](https://about.gitlab.com
 
 ## Challenges to consider before embracing remote work
 
-Despite [all-remote having many advantages](benefits/), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we've outlined [potential drawbacks and solutions to these challenges here](drawbacks/).
+Despite [all-remote having many advantages](remote-benefits/), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we've outlined [potential drawbacks and solutions to these challenges here](drawbacks/).
 
 ## Which is right for your organization?
 
@@ -193,7 +193,7 @@ Click around to learn more about what "all-remote" really means, [how it works a
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

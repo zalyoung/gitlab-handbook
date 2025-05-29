@@ -8,23 +8,24 @@ Teams can engage Signals Engineering by heading over to the #signals-engineering
 
 ## Our Vision
 
-Improve the effectiveness and overall coverage of GitLab's detection engineering program internally and for customers, identifying opportunities to reduce the mean time to detection creation for incidents, and partnering with the product team to drive security observability improvements in the GitLab product, corporate, cloud and identity infrastructure.
+Ensuring cybersecurity incidents never go undetected by building and maintaining a best in class signal development and detection engineering program. 
 
 ## Our Mission Statement
 
-Improve Detection Engineering
+Build and Mature A Best In Class Detection Engineering Program
 
-- Improving coverage & effectiveness of detections
+- Constantly tracking and pursuing KPI goals, including: Detection coverage, detection precision and sensitivity and time to detection
+- Building and maintaining automations with Threat Intelligence and the Red Team to programmatically evaluate detection capabilities and improve our threat resilience
 
-Reducing Time to Detection Creation
+Reducing Time to Detection
 
-- Improving depth and quality of incident detections
-- Reducing how long it takes to create quality detections
+- Improving detection context and quality
+- Reducing the time to detect through comprehensive detection coverage 
 
 Improving Security Observability
 
-- Partnering with product to improve GitLab security signals
-- Improving security signals in corporate, cloud, identity infrastructure
+- Partnering with the Product, Engineering and Infrastructure teams to improve GitLab security signals
+- Partnering with CorpSec and ProdSec to improve security signals in corporate, cloud, and identity infrastructure
 
 Providing Customer Value
 

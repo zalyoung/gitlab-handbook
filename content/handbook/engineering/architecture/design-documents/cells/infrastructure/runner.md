@@ -9,7 +9,7 @@ approvers: ["@josephburnett", "@tmaczukin", "@amknight", "@skarbek"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This blueprint describes the architecture and roadmap of the Runner service in a cellular architecture.
 

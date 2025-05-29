@@ -64,15 +64,23 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
     - **Epic:** Associates the issue with an epic.
 
-    - **Milestone:** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
-
     - **Labels:** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
+
+    - **Iteration:** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
+
+    - **Milestone:** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
 
     - **Weight:** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
 
-    - **Due date:** Use in issues to keep track of deadlines and make sure features are shipped on time.
+    - **Dates:** Use in issues to keep track of deadlines and make sure features are shipped on time.
 
-    - **Iteration:** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
+    - **Health status:** You can associate one of four predefined health status labels to your issue: `on track`, `needs attention`, `at risk`, or `needs review`.
+
+    - **Parent:** Connects an issue to an epic.
+
+    - **Time Tracking:** Use time tracking to estimate and measure your team’s work on an issue, or how much work is expected to be done to complete the issue.
+
+    - **Contacts:** Attach contacts to issues for additional collaboration, meeting follow-ups, or progress updates. This also adds the contact's avatar next to your issue.
 
 1. Click the **Create issue** button.
 
