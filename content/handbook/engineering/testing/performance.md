@@ -52,7 +52,7 @@ flowchart LR
   click GPT "#system-level-load-testing" "GitLab Performance Tool - Load testing for GitLab instances and reference architectures"
   click GBPT "#client-side-performance-testing" "Browser performance testing using SiteSpeed.io to measure user-facing performance"
   click CPT "#component-performance-testing" "Load testing for specific subsystems or components like Gitaly"
-  click PROFILE "#profiling" "Ruby profiling tools: ruby-prof, stackprof, memory_profiler, rbspy, and others"
+  click PROFILE "#profiling-tools" "Ruby profiling tools: ruby-prof, stackprof, memory_profiler, rbspy, and others"
 
   %% Decision node tooltips
   click BUILT "javascript:void(0)" "Is the code/feature still under active development? Use early-stage performance tools if yes."
