@@ -17,8 +17,8 @@ The ESA's vision and strategy focus on increasing partner contribution to revenu
 
 The key activation pillars are:
 
-* Contribution Activation: Qualifying use cases for GitLab, pitching value propositions and demos, and articulating ROI calculations. This leads to converting partner relationships into qualified pipeline and closed revenue.  
-* Commitment Activation: Creating differentiated service offerings, joint Go-To-Market (GTM) collateral and events, and co-creating contributions. This translates to transforming technical knowledge into artifacts demonstrating partner investment in GitLab.  
+* Contribution Activation: Qualifying use cases for GitLab, pitching value propositions and demos, and articulating ROI calculations. This leads to converting partner relationships into qualified pipeline and closed revenue.
+* Commitment Activation: Creating differentiated service offerings, joint Go-To-Market (GTM) collateral and events, and co-creating contributions. This translates to transforming technical knowledge into artifacts demonstrating partner investment in GitLab.
 * Capability Activation: Scaling GitLab Professional Services, facilitating customer use case adoption, and serving vertical markets. This elevates partner services competency to deliver successful customer implementations.
 
 Activation methods include self-serve resources, technical selling workshops, joint account planning, partner-led demos, Champions programs, service and solution development, certifications, and hands-on labs. Health is monitored through metrics such as deal registrations, win rates, revenue growth, the number of generated technical artifacts, service attach registrations, customer health scores, and expansion rates.
