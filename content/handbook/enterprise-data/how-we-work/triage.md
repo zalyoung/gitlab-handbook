@@ -214,21 +214,38 @@ Depending on the nature and impact of the [incident](/handbook/enterprise-data/h
 
 ### Triage Bot
 
-The Data Team leverages the [GitLab Triage Bot](https://gitlab.com/gitlab-org/gitlab-triage) to automate issue management and maintain project organization. The triage policy for the analytics repo is defined in the [.triage-policies.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/.triage-policies.yml?ref_type=heads) file.
+The Data Team uses the [GitLab Triage gem](https://gitlab.com/gitlab-org/gitlab-triage) to automate issue management and keep the analytics project organized. The triage policy for the analytics repo is defined in the [.triage-policies.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/.triage-policies.yml?ref_type=heads) file.
 
-Triagers rely on labels to identify and prioritize work within their domain. Team members who are unsure about which labels to apply can add the `clean-up::review` label to their issue, and the AE team will assist with proper labeling.
+### Label Enforcement 
 
-This automation helps maintain project hygiene by ensuring every issue has the required scoped labels: `team`, `priority`, `champion`, and `workflow`. The labels `Documentation`, `Iteration Planning`, and `Discussion` are excluded from these requirements.
+Triagers use labels to identify and prioritize work within their domain. If you're unsure which labels to apply to an issue, just add the `clean-up::review` label and the team will help with proper labeling. This automation ensures that every issue includes the required scoped labels: `team`, `work category`, `champion`, and `workflow`. Labels like `Documentation`, `Iteration Planning`, and `Discussion` are excluded from this requirement.
 
-The automated process begins three days after an issue is created. When required labels are missing, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning` labels. The comment includes instructions for requesting help through the `clean-up::review` label.
+- **After 3 days**: If an issue is missing required labels, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning`. The comment includes instructions on how to ask for help using the `clean-up::review` label.
 
-After 14 days, if the issue still lacks required labels, the bot adds a reminder comment to prompt action. Issues that remain unlabeled for 30 days will be automatically closed with a `clean-up::close` label and a comment explaining the closure. Team members can reopen these closed issues at any time and ensure they won't be auto-closed again by adding the required labels.
+- **After 14 days**: If the labels are still missing, the bot adds a reminder comment.
 
-When a previously closed issue is reopened, the bot automatically removes the `clean-up::close` label and checks for proper labeling. If required labels are still missing, it applies the `clean-up::warning` label and adds a comment explaining which labels are needed. This process ensures that reopened issues meet our labeling standards.
+- **After 30 days**: If there's still no update, the issue is automatically closed. The bot adds the `clean-up::close` label and a comment explaining why. Team members can reopen these issues at any time. To prevent future auto-closure, make sure to add the required labels.
 
-To help keep the project organized, the bot automatically removes warning labels once all required labels are properly applied to an issue. This creates a self-maintaining system where issues either progress through proper labeling or are eventually closed for review.
+When a closed issue is reopened, the bot removes the `clean-up::close` label and checks for the required labels. If any are still missing, it adds `clean-up::warning` and includes a comment listing what's needed.
 
-Changes to the triage bot policy file should be tested in the MR by running the "dry-run:triage" CI job and inspecting the log output.  This CI job is a dry-run, meaning it will not actually take any actions in the project but will print out what would happen if the policy was actually executed.
+Once the correct labels are in place, the bot automatically removes any warning labels. This creates a self-maintaining system where issues either get labeled correctly or are closed for review.
+
+### Managing Stale Issues
+
+The bot also helps manage stale issues. If an issue has been inactive for over 1 year, the bot flags it with a `stale::warning` label and adds a comment. Team members then have 7 days to take action. Issues labeled with `Documentation`, `Discussion`, or `stale::exempt` are not affected.
+
+When an issue is marked as stale, you can:
+- Update the issue to reset the timer
+- Add the `stale::exempt` label to keep it open
+- Let it close automatically after 7 days
+
+If no updates are made, the bot will close the issue, apply the `stale::closed` label, and remove the warning.
+
+Issues closed due to inactivity can be reopened at any time. Ideally, include a quick update to clarify the current status. Adding the `stale::exempt` label will prevent it from being auto-closed again in the future.
+
+### Testing Policy Updates
+
+To test changes to the triage policy file, run the `dry-run:triage` CI job in your merge request. This job won’t take any real action but will print out what would happen if the updated policy were applied. You can review the logs to confirm the changes behave as expected.
 
 ### End of day wrap-up
 
