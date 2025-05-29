@@ -7,8 +7,8 @@ description: "Follow this process to obtain legal review of materials for intern
 
 When creating materials:
 
-- for [external](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist).
-- for [internal](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
+- for [external](#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Tips](/handbook/legal/external-materials-compliance-tips).
+- for [internal](#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
 
 ## When to use this process
 
@@ -65,8 +65,8 @@ The Legal & Corporate Affairs Team aims to complete single material reviews with
 
 This process is divided into two tracks - follow the track which applies to your situation:
 
-- To obtain legal review of a single piece of material, follow [Track 1: Single material legal review process](./#track-1-single-material-legal-review-process).
-- To obtain legal review of multiple pieces of material, follow [Track 2: Multiple materials legal review process](./#track-2-multiple-materials-legal-review-process).
+- To obtain legal review of a single piece of material, follow [Track 1: Single material legal review process](#track-1-single-material-legal-review-process).
+- To obtain legal review of multiple pieces of material, follow [Track 2: Multiple materials legal review process](#track-2-multiple-materials-legal-review-process).
 
 ---
 
@@ -78,10 +78,10 @@ Follow this process to obtain legal review of a **single piece of material**. A 
 
     ```markdown
     ## Materials to be reviewed
-    <!-- Link (for Google Docs) or upload (for other file types) the material for review here. -->
+     <!-- Link (for Google Docs) or upload (for other file types) the material for review here. -->
 
     ## Is this material for internal or external use?
-    <!-- Delete as appropriate, and refer to the definitions of `external use` and `internal use` in the Materials Legal Review Process. If there are plans to use the material, or any part of it, externally in the future, chose `external`. -->
+     <!-- Delete as appropriate, and refer to the definitions of `external use` and `internal use` in the Materials Legal Review Process. If there are plans to use the material, or any part of it, externally in the future, chose `external`. -->
     - external @sfriss @LeeFalc
     - internal @sfriss
 
@@ -119,7 +119,7 @@ Follow this process to obtain legal review of a **single piece of material**. A 
    - Google Slides: add the link to the first slide.
    - PDFs: no link required.
 
-1. If the review request is subject to [mandatory review](./#mandatory-review) for a video not yet produced, review is required in respect of **both** (i) the slide deck, storyboard, and script (as appropriate, and in final form) before recording, **and** (ii) the final cut. Request review at each stage as set out in this process.
+1. If the review request is subject to [mandatory review](#mandatory-review) for a video not yet produced, review is required in respect of **both** (i) the slide deck, storyboard, and script (as appropriate, and in final form) before recording, **and** (ii) the final cut. Request review at each stage as set out in this process.
 
 1. The Legal & Corporate Affairs Team will review the material, making comments and requests for changes in the document, or an issue comment thread, and provide context for any requested changes in accordance with the [say why, not just what](/handbook/values/#say-why-not-just-what) operating principle.
 
@@ -152,4 +152,4 @@ Follow this process to obtain legal review of **multiple pieces of material** wi
 1. Once legal review is complete, a [Legal & Corporate Affairs Team member](/handbook/company/team/?department=legal-corporate-affairs) will tag the creator of the comment thread and comment `Legal review complete` in the relevant comment thread. Legal review is complete only once `Legal review complete` has been commented; comments like `SAFE review complete` and `IP review complete` **do not indicate review is complete**.
 1. If **any** changes are made to the material after legal review, another legal review is required. Tag the appropriate reviewers ([`@sfriss`](https://gitlab.com/srissmiller) for internal materials, and [`@sfriss`](https://gitlab.com/srissmiller) and [`@LeeFalc`](https://gitlab.com/LeeFalc) for external materials) in the issue comment created in step 2, requesting review of the amended material. As repeat reviews are inefficient, ensure materials are finalized before submitting for legal review.
 1. Once legal review of the amended material is complete, a [Legal & Corporate Affairs Team member](/handbook/company/team/?department=legal-corporate-affairs) will once again tag the issue creator and comment `Legal review complete` in the relevant comment thread.
-1. If the review request is subject to [mandatory review](./#mandatory-review) for a video not yet produced, review is required in respect of **both** the slide deck, storyboard and script (as appropriate) prior to recording **and** the final cut. Request review at each stage as set out in this process.
+1. If the review request is subject to [mandatory review](#mandatory-review) for a video not yet produced, review is required in respect of **both** the slide deck, storyboard and script (as appropriate) prior to recording **and** the final cut. Request review at each stage as set out in this process.
