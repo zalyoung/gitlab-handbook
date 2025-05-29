@@ -186,7 +186,7 @@ The errors should be located where the error occurred:
 
 - Entire dashboard - replace dashboard grid with the error message.
 - Global filters - show above the global filters unless the filter selection causes a
-specific error for a panel, in which case the error will appear within the panel error state.
+  specific error for a panel, in which case the error will appear within the panel error state.
 
 For per-panel filters and panel-specific errors, we should use the panel error state. The panel error state will:
 
@@ -196,7 +196,96 @@ For per-panel filters and panel-specific errors, we should use the panel error s
 
 ## Getting started
 
-_TODO: Add links to documentation, PoC MR, describe initial set up: https://gitlab.com/gitlab-org/gitlab/-/issues/541406_
+To begin using the dashboard layout component, you'll need a minimum of two things:
+
+- A dashboard title
+- Content to show in the dashboard panels
+- An idea as to where you'll be positioning the dashboard panels, and the size of each panel.
+
+A very simple example of this might be:
+
+```vue
+<script>
+import { __ } from '~/locale';
+import DashboardLayout from '~/vue_shared/components/customizable_dashboard/dashboard_layout.vue';
+// For a simpler panel implementation, use: import { GlDashboardPanel } from '@gitlab/ui';
+import PanelsBase from '~/vue_shared/components/customizable_dashboard/panels_base.vue';
+import SingleStat from 'ee/analytics/analytics_dashboards/components/visualizations/single_stat.vue';
+
+// This data would usually be provided by an API or HTML attribute
+const mockData = {
+  data: 70,
+  options: {
+    unit: 'percent',
+  },
+};
+
+export default {
+  components: {
+    DashboardLayout,
+    PanelsBase,
+    SingleStat,
+  },
+  data() {
+    return {
+      // The minimum properties required to have a functioning dashboard
+      dashboard: {
+        title: __('Mock dashboard'),
+        panels: [
+          {
+            id: 'panel-1',
+            title: __('First single stat'),
+            gridAttributes: {
+              // Position values are zero-indexed. Each number acts like an index rather than pixel positioning
+              width: 2,
+              height: 1,
+              yPos: 0,
+              xPos: 0,
+            },
+            // Added for testing purposes, not a standard panel attribute
+            mockData,
+          },
+          {
+            id: 'panel-2',
+            title: __('Second single stat'),
+            gridAttributes: {
+              width: 2,
+              height: 1,
+              yPos: 0,
+              xPos: 2,
+            },
+            mockData,
+          },
+        ],
+      },
+    };
+  },
+};
+</script>
+
+<template>
+  <dashboard-layout :config="dashboard">
+    <template #panel="{ panel }">
+      <!-- Rather than using v-bind, you could also specifically mention each component property -->
+      <panels-base v-bind="panel">
+        <template #body>
+          <single-stat v-bind="panel.mockData" />
+        </template>
+      </panels-base>
+    </template>
+  </dashboard-layout>
+</template>
+```
+
+This example renders two single stat visualizations side-by-side on the grid,
+with a size large enough to show the whole panel title.
+
+There are additional [dashboard layout properties](https://gitlab.com/gitlab-org/gitlab/blob/master/app/assets/javascripts/vue_shared/components/customizable_dashboard/dashboard_layout.vue#L14-14), [panel base properties](https://gitlab.com/gitlab-org/gitlab/blob/master/app/assets/javascripts/vue_shared/components/customizable_dashboard/panels_base.vue#L14-14), and [GlDashboardPanel properties](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs) which may be used
+in more advanced use-cases.
+
+You can see the more advanced use-case as part of the [Security Dashboard Upgrade epic](https://gitlab.com/groups/gitlab-org/-/epics/16517).
+
+_TODO: Add links to documentation: https://gitlab.com/gitlab-org/gitlab/-/issues/542164_
 
 ## Migrating existing dashboards
 
