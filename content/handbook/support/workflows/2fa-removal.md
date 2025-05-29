@@ -15,7 +15,7 @@ This workflow focuses on disabling [Two-factor Authentication](https://docs.gitl
 
 ### GitLab Team Members
 
-If the user is a GitLab team member, have them [contact IT Ops](/handbook/it/end-user-services/_index.md).
+If the user is a GitLab team member, have them [contact IT Ops](/handbook/security/end-user-services/_index.md).
 
 ## 2FA removal within GitLab
 

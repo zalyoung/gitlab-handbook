@@ -1,5 +1,6 @@
 ---
-title: "Okta FAQs"
+layout: default
+[//] # title: "Okta FAQs"
 ---
 
 Below are frequently asked questions about Okta and GitLab's implementation of it. If you have an additional question that is not listed here, please ask in #it_help.

@@ -1,5 +1,6 @@
 ---
-title: "Access Requests (AR) FAQs"
+layout: page
+[//] #title: "Access Requests (AR) FAQs"
 ---
 
 ## Need help?

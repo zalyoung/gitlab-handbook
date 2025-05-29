@@ -1,5 +1,6 @@
 ---
-title: "How To Use Google Drive Sharing"
+layout: default
+[//] # title: "How To Use Google Drive Sharing"
 ---
 
 ## Introduction

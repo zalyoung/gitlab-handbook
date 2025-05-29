@@ -12,12 +12,15 @@ Laptops must be wiped with [Jamf](/handbook/security/corporate/systems/jamf) for
 
 ## Schedule a Wipe
 
-| Region | IT Analysts    | Calendar Link                                                    |
-|--------|----------------|------------------------------------------------------------------|
-| APAC   | Max Hirata     | [Schedule a Call](https://calendar.app.google/CMK6dKUN2otv1wsWA) |
-| EMEA   | Bruno Ferreira | [Schedule a Call](https://calendar.app.google/zKj8AH9c8VmAcYX48) |
-| EMEA   | Eoghan Dunne   | [Schedule a Call](https://calendar.app.google/BXECy3uLpUKdNbHe6) |
-| AMER   | Alex Krusiec   | [Schedule a Call](https://calendar.app.google/xsTHAQWxHmT3tpr86) |
-| AMER   | Jeff Ford      | [Schedule a Call](https://calendar.app.google/Qc1wwN94q6RqEyGL9) |
-| AMER   | Jenny Wong     | [Schedule a Call](https://calendar.app.google/HJoCYkbf4XnApqSU6) |
-| AMER   | Mic Rohr       | [Schedule a Call](https://calendar.app.google/QrBCkxhvAxkhA36M8) |
+| Region | IT Analysts        | Calendar Link                                                    |
+|--------|--------------------|------------------------------------------------------------------|
+| APAC   | Bryan Mathews      | [Schedule a wipe](https://calendar.app.google/8Jg3QkeCUdmg4sqK8) |
+| APAC   | Max Hirata         | [Schedule a wipe](https://calendar.app.google/CMK6dKUN2otv1wsWA) |
+| EMEA   | Bruno Ferreira     | [Schedule a wipe](https://calendar.app.google/zKj8AH9c8VmAcYX48) |
+| EMEA   | Eoghan Dunne       | [Schedule a wipe](https://calendar.app.google/BXECy3uLpUKdNbHe6) |
+| EMEA   | Laurie McClafferty | [Schedule a wipe](https://calendar.app.google/EjUYz5g67Ud8dVCz9) |
+| AMER   | Alex Krusiec       | [Schedule a wipe](https://calendar.app.google/xsTHAQWxHmT3tpr86) |
+| AMER   | Jeff Ford          | [Schedule a wipe](https://calendar.app.google/Qc1wwN94q6RqEyGL9) |
+| AMER   | Jenny Wong         | [Schedule a wipe](https://calendar.app.google/HJoCYkbf4XnApqSU6) |
+| AMER   | Madison Spry       | [Schedule a wipe](https://calendar.app.google/jZFyqNk5S6dFXq1r9) |
+| AMER   | Mic Rohr           | [Schedule a wipe](https://calendar.app.google/QrBCkxhvAxkhA36M8) |

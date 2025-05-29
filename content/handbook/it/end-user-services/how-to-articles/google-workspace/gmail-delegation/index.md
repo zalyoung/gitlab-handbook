@@ -1,5 +1,6 @@
 ---
-title: "How To Use Gmail Delegate"
+layout: default
+[//] # title: "How To Use Gmail Delegate"
 ---
 
 ## Introduction

@@ -1,5 +1,6 @@
 ---
-title: "Okta"
+layout: default
+[//] # title: "Okta"
 ---
 
 ## What is Okta?

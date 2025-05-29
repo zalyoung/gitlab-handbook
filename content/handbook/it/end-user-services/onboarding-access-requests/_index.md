@@ -1,5 +1,6 @@
 ---
-title: "GitLab Laptop Management"
+layout: default
+[//] # title: "GitLab Laptop Management"
 controlled_document: true
 ---
 
