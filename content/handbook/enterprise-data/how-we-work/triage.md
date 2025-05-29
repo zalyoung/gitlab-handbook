@@ -212,16 +212,32 @@ Depending on the nature and impact of the [incident](/handbook/enterprise-data/h
   - Timelines should be documented in the [timeline section](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) under the incident Subject/Header for use in retrospectives and other investigations.
   - When the incident is solved, an update is posted in Slack
 
+### Triage Bot
+
+The Data Team uses the [GitLab Triage gem](https://gitlab.com/gitlab-org/gitlab-triage) to automate issue management and keep the analytics project organized. The triage policy for the analytics repo is defined in the [.triage-policies.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/.triage-policies.yml?ref_type=heads) file.
+
+### Label Enforcement 
+
+Triagers use labels to identify and prioritize work within their domain. If you're unsure which labels to apply to an issue, just add the `clean-up::review` label and the team will help with proper labeling. This automation ensures that every issue includes the required scoped labels: `team`, `work category`, `champion`, and `workflow`. Labels like `Documentation`, `Iteration Planning`, and `Discussion` are excluded from this requirement.
+
+- **After 3 days**: If an issue is missing required labels, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning`. The comment includes instructions on how to ask for help using the `clean-up::review` label.
+- **After 14 days**: If the labels are still missing, the bot adds a reminder comment.
+- **After 30 days**: If there's still no update, the issue is automatically closed. The bot adds the `clean-up::close` label and a comment explaining why. Team members can reopen these issues at any time. To prevent future auto-closure, make sure to add the required labels.
+
+When a closed issue is reopened, the bot removes the `clean-up::close` label and checks for the required labels. If any are still missing, it adds `clean-up::warning` and includes a comment listing what's needed.
+
+Once the correct labels are in place, the bot automatically removes any warning labels. This creates a self-maintaining system where issues either get labeled correctly or are closed for review.
+
 ### Stale Issue Management
 
 The triage bot flags issues that haven’t had any activity in over a year to help keep the backlog manageable. When that happens, it adds the `stale::warning` label and posts a comment. From that point, the issue has 14 days before it is automatically closed unless someone takes action.
 
 To prevent an issue from being closed, you can do one of the following:
 
-- **Update the issue** and remove the `stale::warning` label
-- **Add the `stale::exempt` label** if the issue should remain open without needing regular updates
+- Update the issue and remove the `stale::warning` label
+- Add the `stale::exempt` label if the issue should remain open without needing regular updates
 
-Just adding a comment won't stop the process. The warning label needs to be removed or replaced with `stale::exempt`.
+**Just adding a comment won't stop the process**. The warning label needs to be removed or replaced with `stale::exempt`.
 
 Here's how the timeline works:
 
