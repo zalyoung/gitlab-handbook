@@ -79,7 +79,7 @@ Given these obstacles, the working group recommends discontinuing the current ex
 
 #### Recommendation
 
-Despite discontinuing the Playwright experiment, the working group remains committed to enhancing our overall testing strategy. We propose the following recommendations to increase testing coverage and reduce flakiness within our existing Capybara/RSpec framework:
+With the conclusion of the Playwright experiment, the working group has closed. We propose the following recommendations to increase testing coverage and reduce flakiness within our existing Capybara/RSpec framework:
 
 1. Increase Test Coverage:
 
