@@ -102,13 +102,13 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 1. After the regional Champions call, the GitLab ESA DRI for the session will download the video file from zoom, and upload it to the [Team Spot: Global Ecosystems](https://gitlab.highspot.com/spots/66e3313c577f84375132109c) spot in Highspot.
 2. Resolve the Violates Policy warning by setting the following properties:
 
-- Description: YYYY-MM-DD - Region - Champions - <Title of the session>
-- Author: Yourself
-- Feedback owner: Yourself
-- Must be in these list groups:
-  - Field Motion: "Know"
-  - Region: Region where the session was hosted
-  - Asset Type: "Technical Webinar / Podcast"
+  - Description: YYYY-MM-DD - Region - Champions - Title of the session
+  - Author: Yourself
+  - Feedback owner: Yourself
+  - Must be in these list groups:
+    - Field Motion: "Know"
+    - Region: Region where the session was hosted
+    - Asset Type: "Technical Webinar / Podcast"
 
 3. Edit the [Partner Portal Page GitLab Champions](https://gitlab.highspot.com/engagement#pitches/663d451341369bcb3b9cce06/overview) Digital Room in Highspot and add the newly uploaded content item(s) in the section called "Meeting Archive".
 4. Send a message to the Champions slack channel notifying everyone of the new asset.
