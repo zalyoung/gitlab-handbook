@@ -79,7 +79,51 @@ Highspot is the content management system in use at GitLab.  Each major team at 
 
 For a video walkthrough of adding content to highspot, [watch this short 7.5 minute video](https://gitlab.highspot.com/items/67f00eaa1e91c735f53e920b?lfrm=shp.0).
 
-TODO: Add this mermaid workflow: [https://gitlab.com/gitlab-com/partners/ecosystem-sa-team/esa-team/-/issues/175\#note\_2435434878](https://gitlab.com/gitlab-com/partners/ecosystem-sa-team/esa-team/-/issues/175#note_2435434878) 
+```mermaid
+flowchart TD
+    subgraph "Content Creation"
+        note1["Identify the content item you want to store and share.<br/>Can be Google Docs, file uploads, or any URL."]
+        A1[Google Docs] --> A[Content]
+        A2[Google Slides] --> A
+        A3[GitLab Handbook] --> A
+        A4[GitLab Projects] --> A
+        A5[Zoom Recordings] --> A
+        A6[Web URLs] --> A
+    end
+
+    subgraph "Private Team Spot: Global Ecosystem"
+        note2["Upload your content to our private team spot<br/>to store and manage it.<br/>The Team Spot is private.<br/>Only ESAs can see the content here."]
+        A --> B[Create Asset in Team Spot: Global Ecosystems]
+        B --> C{Violate Policy?}
+        C -->|Yes| D[Add Required Metadata]
+        D --> C
+        C -->|No| F[Ready to Share from Private Team Spot]
+    end
+
+    subgraph "Content Distribution"
+        note3["Choose how to distribute your content<br/>to other GitLab team members,<br/>to specific external recipients,<br/>or into the Partner Portal."]
+        F --> G[Create a Pitch on Individual Content Item]
+        G --> H[Share Pitch Externally]
+        H --> I[Individual Asset Analytics]
+        F --> J[Add to External Digital Room]
+        J --> |One time iFrame setup| K[Digital Rooms visible in Partner Portal]
+        K --> L[Portal Page Analytics]
+        K --> I
+        F --> M[Bookmark to Public Highspots]
+        M --> N[Share Internally from Public Spot]
+        N --> I
+    end
+
+    classDef creation fill:#e1f5fe,stroke:#01579b
+    classDef management fill:#e8f5e9,stroke:#2e7d32
+    classDef distribution fill:#fff3e0,stroke:#e65100
+    classDef engagement fill:#f3e5f5,stroke:#6a1b9a
+
+    class A,A1,A2,A3,A4,A5,A6 creation
+    class B,C,D,E,F management
+    class K,H,N distribution
+    class G,J,M engagement
+```
 
 The strength of Highspot as a platform is that content can be remixed at any time in the future.  Also we can decide as a team what to share out through the Partner Portal.
 
