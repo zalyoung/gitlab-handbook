@@ -12,7 +12,25 @@ Secrets are credentials like API keys and passwords that should be kept unknown 
 
 > **Warning:** Masking a CI/CD variable is not a guaranteed way to prevent malicious users from accessing variable values. The masking feature is "best-effort" and there to help when a variable is accidentally revealed. To make variables more secure, consider using external secrets.
 
-Secret exposure from CI job logs can result in security incidents and may qualify for bug bounty payouts. When you print a masked variable using a script, the masking may not work as expected or may be circumvented depending on how it is called. External Secret Storage (ESS) fixes that by taking the storage of the sensitive variable out of the loop.
+## Why Protecting Secrets Like Personal Access Tokens (PATs) is Critical
+
+Personal Access Tokens, API keys, database credentials, and similar secrets act as digital keys to your organization's most valuable assets. When these secrets are leaked through CI logs or public commits, they become readily available to anyone with access to those files, including external contributors, former employees, or attackers who have gained access to your repositories.
+
+## How Bad Actors Exploit Leaked Secrets
+
+Once a malicious actor obtains leaked credentials, they can:
+
+- Access and exfiltrate sensitive data from databases, cloud storage, or internal APIs using leaked database credentials or API keys
+- Modify or delete critical code by using leaked Git tokens to push malicious commits, delete repositories, or access private repositories
+- Escalate privileges within your infrastructure by using service account tokens to access additional systems and resources
+- Deploy malicious code to production environments using deployment keys or cloud provider credentials
+- Access customer data through leaked application secrets or third-party service credentials
+- Conduct lateral movement within your network using leaked internal service credentials
+- Sell credentials on dark web markets for other attackers to exploit
+
+## Real-World Impact Scenarios
+
+Leaked secrets can lead to data breaches affecting customers, unauthorized cryptocurrency mining, supply chain attacks or complete compromise of your development and production environments.
 
 ## Best Practices for Secret Management
 
