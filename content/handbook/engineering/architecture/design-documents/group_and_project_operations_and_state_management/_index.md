@@ -507,7 +507,7 @@ end
 
 **Iteration 4: Backfill historical data**
 
-- Backfill `state` from legacy columns/tables, including inherited (i.e. `ancestor_*`) states
+- Backfill `state` from legacy columns/tables, including inherited states, such as `ancestor_*`
 - Data validation and cleanup
 
 **Iteration 5: Feature migration**
