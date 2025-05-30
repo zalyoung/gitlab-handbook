@@ -17,6 +17,14 @@ JiffleNow is an automated appointment scheduling of in-person, and virtual B2B m
 
 MOps provisioner: For `Requestor` role, you do not need to do anything in JiffleNow. Once Okta is provisioned, the user will have access to request meetings. If a person just needs access to reports and dashboards, you can add them as a `Requestor`, then toggle the Reports & Dashboard toggle on in their profile. For all other roles, you will add the person to the specific event they need access to with the correct role and engagement type. This will be outlined in the event request task in Asana.
 
+### When to use Jifflenow
+Jifflenow is not required for all events where there is meeting space. At this time, use of Jifflenow is recommended for the following scenarios (unless noted, all criteria must be met):
+
+1. There is at least one dedicated meeting space. Meeting at the booth does not meet this requirement, unless there is a separate enclosed meeting space in the booth.
+2. There will be one or more C-level executive taking meetings at the event.
+3. If there are no C-level exectives attending, there must be at least two other VP-level executives. However, if requirement 4 can be met, two Director+ executives can be set-up to take meetings. 
+4. A member of the EBA team must manage the executive schedules for this event and approve meetings in Jifflenow. Alternatively, another designated meeting manager can approve meetings in Jifflenow, but this will also require the meeting manager to manage the executive's schedule in the system and coordinate meeting times with them.
+
 ### Requesting an event in Jifflenow
 
 We use Jifflenow for events where we will have executive meetings. Please follow the instructions below to request creation of an event in Jifflenow.
