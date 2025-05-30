@@ -18,7 +18,7 @@ not need development documentation).
 
 ❌ indicates the service does meet even the Level 1 criteria
 
-{{% service-maturity-scores %}}
+{{% engineering/service-maturity-scores %}}
 
 ### Maturity detail by service
 
@@ -29,4 +29,4 @@ Key:
 * ➖ The criteria is skipped. Some maturity criteria make less sense for some services. For example, an infrastructure-facing service like Patroni is crucial to ops, but not related to our Development department, hence it does not require development guidelines.
 * ⚪ We don't measure the criteria yet.  See [https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/560](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/560) for progress
 
-{{% service-maturity-details %}}
+{{% engineering/service-maturity-details %}}

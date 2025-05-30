@@ -33,24 +33,27 @@ Candidates must:
 
 ### Rotation Schedule
 
-| Start Date | Shadow Name | Geo Preference (can be multiple) |
-|-------|---------|---------|
-| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR |
-| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | AMER |
-| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA |
-| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
-| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
-| FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA |
-| FY26 Q3 |  |  |
-| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |
-| FY27 Q1 |  |  |
-| FY27 Q2 |  |  |
+| Start Date | Shadow Name | Geo Preference (can be multiple) | Status |
+|-------|---------|---------|---------|
+| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR | Completed |
+| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | AMER | Completed |
+| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA | Scheduled |
+| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |  |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |  |
+| FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA |  |
+| FY26 Q2 | [Ted Gieschen](https://gitlab.com/tgieschen) | EMEA |  |
+| FY26 Q3 | [Hossam Hamdy](https://gitlab.com/HossamHamdy) | EMEA |  |
+| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |  |
+| FY27 Q1 |  |  |  |
+| FY27 Q2 |  |  |  |
 
 ## Program Preparation
 
 ### Confidentiality
 
-As a shadow, you'll have access to confidential information requiring compliance with the [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for the entire quarter. Even after the quarter is complete, the program's success depends on continually maintaining this trust beyond the duration of the shadow.
+As a shadow, you'll have access to confidential information. Specifically, if you chose to shadow an SA leader outside of your Geo (AMER, APJ, EMEA), you will require compliance with the [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for a period of time. Even after this period is complete, the program's success depends on continually maintaining this trust beyond the duration of the shadow. If you are shadowing an SA leader in your same Geo, there is no need to be added to grow through a specific [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y).
+
+:bulb: **NOTE:** the DI review process happens quarterly and DI access lasts at least a quarter (subject to Legal Team evaluation), so the SA Shadow will be added to the DI list for an entire quarter as a minimum. To make sure everything is done in transparency and respect of rules for Gitlab and GitLab employyes, the SA Manager will need to open an SA Shadow onboarding/offboarding issue using this [template](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/blob/main/.gitlab/issue_templates/SA%20Shadow%20template.md?ref_type=heads). The SA Shadown onboarding/offboarding issue has to be opened a quarter in advance from the SA joining the SA Leader Shadow program.
 
 ### Getting Ready for Your Shadowing Experience
 

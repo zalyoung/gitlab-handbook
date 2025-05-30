@@ -12,7 +12,13 @@ We leverage our versatile skill sets to drive positive outcomes for GitLab and o
 
 ### Commercial
 
-The [Commercial](/handbook/legal/commercial/) group supports GitLab’s go-to-market and procurement functions with knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company’s values.
+The GitLab Legal [Commercial](/handbook/legal/commercial/) team is responsible for all contracting matters at GitLab, including procurement, revenue, channel, technical, and alliances, while partnering with sales, technical, and business stakeholders to ensure alignment with GitLab contracting standards and efficient execution timelines. The team supports GitLab's go-to-market and procurement functions, providing knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company's values.
+
+Helpful links:
+
+- [Sales Guide | Collaborating with GitLab Legal](/handbook/legal/customer-negotiations/)
+- [Commercial Legal Internal Handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/)
+- [Highspot - GitLab Legal Hub](https://gitlab.highspot.com/items/64d69e83c17499125edb7063?lfrm=srp.0)
 
 ### Corporate & Compliance
 
@@ -24,15 +30,15 @@ The [Corporate Development](/handbook/acquisitions/) group conducts diligent and
 
 ### Employment
 
-The [Employment](/handbook/legal/employment-law/) group provides thoughtful, pragmatic recommendations to address complicated employment situations within the legal confines of the many jurisdictions in which GitLab team members reside.
+The Legal [Employment](/handbook/legal/employment-law/) team serves as a strategic partner across the organization, providing expert guidance and proactive legal solutions throughout the entire team member lifecycle.
 
 ### Environment, Social, and Governance (ESG)
 
 The [ESG](/handbook/legal/esg/) group works cross-functionally to integrate ESG considerations, ESG regulatory compliance, and responsible business practices as part of GitLab’s overarching mission to make our customers successful.
 
-### Privacy and Intellectual Property
+### Privacy, Product, and Intellectual Property
 
-The [Privacy](/handbook/legal/privacy/) and [Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
+The [Privacy](/handbook/legal/privacy/) and [Product and Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
 
 ### Risk Management and Dispute Resolution
 

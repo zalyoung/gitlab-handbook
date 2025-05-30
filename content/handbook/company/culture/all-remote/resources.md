@@ -306,10 +306,6 @@ Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitL
 - [Figma](https://www.figma.com/) - design collaboration
 - [CoScreen](https://www.coscreen.co/) - remote screen sharing
 
-#### Handbook and company-wide documentation
-
-- [Almanac](https://almanac.io/)
-
 #### Empathy, culture, and team-building
 
 - [Sike Insights Kona](https://www.heykona.com/) - team personality, mood, and morale insights
@@ -337,7 +333,7 @@ Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitL
 
 Remote work [enables](phases-of-remote-adaptation/) individuals and teams to create and contribute in places other than a home or conventional office. Many are familiar with [WeWork](https://www.wework.com/) and [Regus](https://www.regus.com/en-us), where a desk or office is available to rent. Post-COVID, leaders are recognizing the need to support the *third space* — a workplace that isn't one's home, and isn't an office.
 
-Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/finance/expenses/#coworking-or-external-office--space) as a matter of inclusivity and productivity. Not every home is amenable to remote work, and not everyone is comfortable working in a traditional office. These communal workspaces provide the energy and camaraderie of working in-person as a group, with the flexibility of being near one's home (and in turn, avoiding a commute).
+Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/finance/expenses/#co-working-space) as a matter of inclusivity and productivity. Not every home is amenable to remote work, and not everyone is comfortable working in a traditional office. These communal workspaces provide the energy and camaraderie of working in-person as a group, with the flexibility of being near one's home (and in turn, avoiding a commute).
 
 - [Codi](https://www.codi.com/) (residential coworking spaces in neighborhoods that matter to you)
 - [Switchyards](https://switchyards.com/) (neighborhood work clubs)

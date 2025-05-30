@@ -1,6 +1,6 @@
 ---
 title: Sales Development
-description: "The purpose of this page is to act as the homapage of the sales development org's handbook presence."
+description: "The purpose of this page is to act as the homepage of the sales development org's handbook presence."
 
 ---
 
@@ -35,7 +35,7 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 
 Please follow the table below to quickly find the most relevant place for what you're looking for. You can also use the searching method [explained here](/handbook/tools-and-tips/searching/) to increase your searching capabilities.
 
-Our handbook page has contributions from a diverse team. To help you efficienctly find answers, we highly suggest that you `cmnd+F` this page as a best searching practice.
+Our handbook page has contributions from a diverse team. To help you efficiently find answers, we highly suggest that you `cmd+F` this page as a best searching practice.
 
 Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers.
 
@@ -52,11 +52,11 @@ If you can't find what you're looking for please reach out to a member of the Sa
 
 | What is your role and ask? | How will the Sales Dev Org help |
 | ------ | ----- |
-| I am Field Marketer, and want to have people invited to my event | We typically work with the FM process outlined on the issue template called `FM-BDR-Collaboration-Template` that can be found [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new), but are always eager to collaborate in making your events more succesful, if your ask is not covered in the template linked above, please write to us on the #sales_dev_global slack channel and we'll jump in to assist. |
+| I am Field Marketer, and want to have people invited to my event | We typically work with the FM process outlined on the issue template called `FM-BDR-Collaboration-Template` that can be found [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new), but are always eager to collaborate in making your events more successful, if your ask is not covered in the template linked above, please write to us on the #sales_dev_global slack channel and we'll jump in to assist. |
 | I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/how-tos/#how-to-follow-our-fo-outbound-process). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
 | I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
 | I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/marketing-operations/groove/#groove-flows-creation) for creating new flows on Groove, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
-| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and next steps. |
+| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherence to qualification criteria and next steps. |
 
 ## Our Slack Channels
 
@@ -66,10 +66,9 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **Announcements - (SDR Ops/Enablement - Chris Wang)**| [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL) |
 | **SDR AMER and EMEA (Manager - Jonathan Rivat)**              | [`#sdr_amer_emea_inbound`](https://gitlab.enterprise.slack.com/archives/C077J5ANZ0T) |
 | **BDR AMER (Manager - Brian Tabbert)**            | [`#amer_bdr`](https://gitlab.enterprise.slack.com/archives/C06J0U9EC8L) |
-| **BDR COMM AMER (Manager - Charlotte Platt)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
+| **BDR COMM AMER (Interim Manager - Brian Tabbert)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENT AMER (Manager - Christie Park)** | [`#bdr_amer_ent`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
 | **BDR FINS & LATAM AMER (Manager - Ashley Dunn)**       | [`#bdr_amer_fins_latam`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
-| **BDR PUBSEC AMER (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00)|
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
 | **BDR ENTG EMEA NEUR UKI - (Manager - Fintan Harrington)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
@@ -80,7 +79,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 
 | Name                                                                    | Description                                                                   |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [Sales Development Issues](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues) | The list of all issues we curently have on our project.           |
+| [Sales Development Issues](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues) | The list of all issues we currently have on our project.           |
 | [Sales Dev Ops Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) | The main Kanban board we use to manage our operational projects, look here to see what we have in the pipeline. |
 | [Flow Creation Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104) | The board we manage all new, and in-flight, Groove Flows and messaging campaigns. |
 | [FM Collaboration Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5665082) | The board we use to communicate with the Field Marketing team to help support their events. |
@@ -130,6 +129,18 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [Global/Regional Sales Dev Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=2) | A Tableau dashboard that breaks down attainment in regions or teams, and current/previous Quarters. |
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 | [Global SDR Ops Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
+| [Global Activity KPI Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002KiDR2A0/view?queryScope=userFolders) | This dashboard visualises how each region is tracking against the weekly activity KPIs that we have. | 
+| [FM Events Follow-Up Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002FOwv2AG/view?queryScope=userFolders) | This dashboard shows the progress of leads associated to Field Marketing events. | 
+
+### Dashboard/Report Templates
+
+The list of dashboards below are templates that can be cloned and customized for each team. 
+
+| Name/Link                                                            | Description                                            |
+|-----------------------------------------------------------------------| ------ |
+| [BDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002JjZl2AK/view) | Dashboard template that covers all main functions of managing a BDR team. |
+| [Base BDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002MHPF/view) | Dashboard template that covers all main functions of managing the Base BDR team. |
+| [SDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | Dashboard template that covers all main functions of managing the inbound SDR team. |
 
 ## The pages we frequently use
 
@@ -138,9 +149,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
-| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/sales-development-tools/) | Tools and resources specifically designed for Sales Development teams and managers. |
 | [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
-| [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
 | [Sales Development Enablement Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrjbznnEEiCtxUfT8-OV6X8) | Playlist of enablement videos and how-tos for BDRs and SDRs. |
 | [Groove flow naming convention](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?gid=0#gid=0) | Document outlining the naming convention for Groove Flows. |
@@ -155,7 +164,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [Command of the Message](/handbook/sales/command-of-the-message/) | "Command of the Message" training and the GitLab value framework. |
 | [Most commonly used sales resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | Sales resources page. |
 | [Flash Field newsletter](/handbook/sales/field-communications/field-flash-newsletter/) | Learn more about the sales weekly newsletter. |
-| [GitLab Values](/handbook/values/#:~:text=GitLab's%20six%20core%20values%20are,other%20by%20assuming%20good%20intent.) | The guiding principles we try to live up to each day. |
+| [GitLab Values](/handbook/values/) | The guiding principles we try to live up to each day. |
 
 ## Our How-Tos for the Inbound and Outbound processes
 
@@ -355,10 +364,10 @@ Please follow the instructions on [the Groove handbook page here](/handbook/mark
 
 **Implement Measurement Clarity and Decision Velocity**
 
-By dogfooding GitLab we have a structured and simplified cadence of quantifying Flowe creation in terms of value and results without limiting agency.
+By dogfooding GitLab we have a structured and simplified cadence of quantifying Flow creation in terms of value and results without limiting agency.
 
 **Maintain Equal Contributions in a Shared Reality**
-By maintaing a Single Source of Truth (SSoT) we give the best possible forum for cross-functional collaboration with specific guidelines
+By maintaining a Single Source of Truth (SSoT) we give the best possible forum for cross-functional collaboration with specific guidelines
 
 **Important Note: Ramping BDRs**
 Ramping BDRs should only be using OB Flows from the Good and Testing collections. A ramping BDR can only create a Flow Creation Request if there is no Flows that fit their needs or strategy in our current library.
@@ -496,7 +505,7 @@ For each account that you want to investigate, start with SFDC to make sure that
 The importance of diligent manual research will lead to the below efficiencies:
 
 → Better use of time in the long-run by making sure accounts are indeed within your segment and territory, or are not duplicates. <br>
-→ Avoiding unecessary RoE conflicts by making sure there are no hidden parent accounts that would cause SAO ownership to be re-assigned to other segments in the future.
+→ Avoiding unnecessary RoE conflicts by making sure there are no hidden parent accounts that would cause SAO ownership to be re-assigned to other segments in the future.
 
 **1. To double-check the account on Salesforce:**
 
@@ -576,6 +585,9 @@ Team specific variants of these dashboard components will also be found on your 
 Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](/handbook/sales/field-operations/gtm-resources/#opportunities)
 
 As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the `LEAD, CONTACT, and OPPORTUNITY` objects in Salesforce. In order to obtain an SAO, you will need to have the `required information` filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
+The full walkthrough of how to create a SFDC opportunity is [listed here](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity). 
+
+Please note that, in addition to the main requirements listed on this link, the Sales Dev org memebers (both SDRs and BDRs) are expected to fullfill the `Initial Engagement Channel` as a mandatory qualification field, before being allowed to create an opportunity. 
 
 **When do I create an Opportunity?**
 
@@ -584,6 +596,9 @@ If you are scheduling time with an AE/SAE to speak to the prospect based on a qu
 
 1. **You have obtained a commitment/willigness from a prospect to discuss further.**
 If you have a meaningful two-way communication with a prospect, but have not had the required qualification criteria to move to the Sales team, you can create an opportunity under your name so that you better track your warm conversations. These opportunities may also be used for better collaboration with your team, as they can be reviewed and brain-stormed upon during team meetings.
+
+1. **If the lead is from a new account confirm their number of employees and HQ location for routing purposes**
+When you create an opportunity with a new account please confirm the number of employees and headquarters location of the account with the prospect. You can do this through email or in your call notes if you speak to them over the phone. The reason for this is to make sure the newly created contact and account are routed to the correct teams after you convert the lead. Please cross reference the employee count and hq location with one of our data tools (ZI, Cognism, Sales Nav) to make sure what the prospect said was accurate. If the employee count is around 200-300 people be extra dilligent as the new SMB to MM employee cut off is 250 employees. We do not want the Sales teams to have to debate whose opportunity it is. 
 
 **Who owns the opportunity at this point?**
 
@@ -683,7 +698,7 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 1. Ensure that relevant activity & products are attached.
 1. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
 1. For BDRs, ensure account was in AWA status
-ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
+ensuring that the [RoE](/handbook/marketing/sales-development/#frequently-asked-questions-faq-and-rules-of-engagement-roe) was followed
 1. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
 #### AUDIT PROCESS
@@ -763,7 +778,7 @@ Explore the main documentation [here](https://docs.google.com/document/d/1Y7qEq8
 The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here.](/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
 
 - Who gets involved while evaluating a tool at {{company}}?
-- Would you expect anyone to challenge your initiative, and if so can I help by connecting with anyonse else on your end?
+- Would you expect anyone to challenge your initiative, and if so can I help by connecting with anyone else on your end?
 - If you as a {{title}} wanted to purchase GitLab, what process internally would you have to follow, and how can we help you navigate it?
 - What challenges do you expect to face when trying to pitch this change internally? Who has a say in this and what do they care about the most?
 
@@ -884,7 +899,7 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 - Log Required SFDC fields and populate Notes field.
 - Unless there's a scheduling conflict for the BDR, attend Evaluation Orchestration Call and kick-off the call:
   - Summarize the BDR qualifying conversation by mentioning and verifying the before and after scenario of the prospect, as transcribed on the SAO notes.
-  - After prospect acknowledges that their internal situation have not changes inbetween BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
+  - After prospect acknowledges that their internal situation have not changes in between BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
 
 ##### 2. Joint IQM
 
@@ -1041,7 +1056,7 @@ description: This page walks you through all the tools we use in the Sales Dev o
 
 ## Sales Development Tools
 
-This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
+This page is to act as your guide to the many tools and best practices that the Sales Development Organization utilizes.
 
 ### Claude
 
@@ -1050,7 +1065,11 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 #### Claude Sales Dev BDR/SDR User Guide
 
 - [Prompt Library](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) - a place to find prompts the Sales Dev Org is currently using and collaborating on
-- [Example Claude Project](https://claude.ai/project/92974b9b-f70e-4d74-9288-20c443617e9c) - an example of how information can be stored to a pre-made Project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
+- [Business Development Prospecting Claude Project](https://claude.ai/project/92974b9b-f70e-4d74-9288-20c443617e9c) 
+- [AMER Calling Analysis Claude Project](https://claude.ai/project/0196022b-a414-7215-9cf0-22ec8e19f9aa) 
+- [EMEA Calling Analysis Claude Project](https://claude.ai/project/01961368-cd7e-7652-a1e3-3d2427367998)
+  - [Report Template for Calling Projects](https://gitlab.my.salesforce.com/00OPL00000Fy1Ws) 
+  - Above are some examples of how information can be stored to a pre-made project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
 
 **Limitations**
 
@@ -1197,7 +1216,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - We are actively working to remove irrelevant prospect titles from being created as part of the `UserGems - New Hires and Promotions` lead sources. If you notice any titles that you feel should not have been created because they're irrelevant to DevOps decision-making in that company, please feel free to use the #usergems-feedback Slack channel to let us know, and we'll work with our CSM to review them.
 - In the meantime, you can also mark these leads as Status `Disqualified` and Disqualified reason `No Authority`
 
-#### 3. When people leave or join accounts where we have open oppourtunities
+#### 3. When people leave or join accounts where we have open opportunities
 
 - While we are actively working to improve our back-end so that this cohort can be visible on our dashboards, like the use-cases above, we are relying on sending notifications only for these people. In the meantime, you can use the report here to gauge what prospects we have on [this list](https://gitlab.my.salesforce.com/00OPL000007z6XV). We are currently notifying:
   - The Sales team for people that joined or left a stage 3 or beyond opportunity.
@@ -1212,7 +1231,39 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 - These flows will automatically include AI generated customisation. Please review the [slides](https://docs.google.com/presentation/d/1LlIjaRjwVaTI5XbWkU2fIEhhq7rYthuPGh-aaNqJz2o/edit#slide=id.g2d902c263b1_0_581) or the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b) for a full walkthrough.
 - These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
 
+#### Gem-E Meeting Assistant
+
+As part of our Gem-E pilot, we are also trialling UserGems Meeting Assistant. The Assistant integrates with your calendar invitations and automatically pulls the contact information of people that are attending your call, but are not in our database yet.
+These people will be created as net new contacts and leads in SFDC, using the initial source `UserGems - Meeting Assistant`. They can be assigned to the existing account or opportunity that you are working on, so you can continue multi-threading the account that you are working on.
+
 ### Sales Dev Manager Resources
+
+#### Sales Dev Operations Team Regional Availability
+
+The Global Sales Dev Operations team has the office hours below, so that regional team members can know how to address internally. Please tag the DRI below in the `#sales_dev_global` slack channel to maintain our [shared reality](/teamops/shared-reality/) and other [GitLab TeamOps tenets.](https://about.gitlab.com/teamops/). 
+
+Please do feel free to reach out to anyone in the ops team based on their availability (Out Of Office etc), and your local time (ie. if you're in EMEA after hours and need someone ASAP, Ed in AMER can assist.)
+
+| Region / Timezone                     | Ops Team Member                                                                                                                                                                  |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AMER              | Ed Bao  |
+| EMEA / APJ              | Panos Rodopoulos (Ed Bao is complementary DRI for APJ)  |
+
+#### Sales Dev Operations Reccuring Team Visits
+
+The Sales Dev Ops team aims to visit each team's meeting once per month to be of assistance with anything operations related as required. Please find a [link to an issue that we use for planning and feedback here.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1275)
+
+#### Sales Dev Operations Working Sessions
+
+The Sales Dev Ops team also holds recurring weekly working sessions, with up to four participants per session. These sessions are aligned to the month's theme outlined above, and are designed to collaborate on key operational topics and initiatives. 
+ 
+#### Sales Dev Research Desk
+
+Our Sales Dev Ops team can help you with researching our suite of databases (Sales Nav, ZoomInfo, Cognism, 6Sense) to help you manage your actively worked account list. We typically focus on accounts that are not currently available to our database, but can help with other ideas that you may have. Please log an issue to our board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) using the template `BDR_Research_Request` 
+
+#### Sales Dev Housekeeping Issue
+
+The team has an issue where we consolidate our monthly to-dos (titled `Monthly Housekeeping`). In this issue there's also a section for any feedback that we gathered that month, so we can plan any next steps. If you'd like to add feedback directly please navigate to our [team's board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691), find this month's issue and log any feedback you have there. 
 
 #### Manager Tool Certification
 
@@ -1245,7 +1296,7 @@ To help structure your usage of the above, you can follow the steps below during
 | Clone the Action Needed Dashboard and edit each report to be exclusive to your team's names | Gives you a SSoT that you and your team can easily reference |
 | Review the dashboard with your team, and discuss how the data on it connect to the [BDR KPIs](/handbook/marketing/sales-development/#kpis-and-slas) | Allows you to understand your team's level of maturity and each team member's current level of alignment to existing processes |
 | Take note of any discrepancies or points of feedback from the team, either transcribe them to 1:1s for individual conversations or to the SDR Issue board for org-wide improvements | Enables you to filter between discrepancies that are caused because of a team member's lack of diligence that should be improved upon by the individual OR for discrepancies that were caused by an org-wide operational shortcoming that should be improved upon on a global scale. |
-| Set realistic expectations with the team about adherance to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
+| Set realistic expectations with the team about adherence to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
 
 #### 1:1 Account and Lead Level Dashboard Coaching guidance
 
@@ -1265,11 +1316,11 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 | 1:1 Account Dashboard | 13. Consider AE-ranked accounts. | **For accounts not in AWA:** <br> This report visualises accounts as per the ranking that the sales team manually gave them. They should be reviewed after the team member has reviewed intent-based tools. | The Sales team does not have access to the same data as us so their manual research can be used a good fallback report to cross-reference against the reports in the previous steps. |
 | 1:1 Account Dashboard | 14 and 15. Review individuals from not actively worked accounts | **For accounts not in AWA:** <br> These reports show individuals from non-actively worked accounts that either have been part of a marketing campaign, or show strong intent signals. | These individuals should be approcah as an indication that the account as a whole should be investigated for outbounding. |
 | 1:1 Account Dashboard | 16. Review individuals in flight. | **For accounts not in AWA:** <br> This report shows a breakdown of prospects currently on a Groove Flow. Should be reviewed for any further actions to be taken. | Consider whether adding more individuals to a flow for a particular account might make sense, or whether the individuals from the top prospect accounts should be getting additional outreach outside of the flow steps. |
-| 1:1 Account Dashboard | 17. Consider past Actively Worked Accounts. | **For accounts not in AWA:** <br> As a final check, this report should accounts that were previously outbounded for the territory, do any of them make sense in terms of re-engagement? | Outbound efforts typically take a long time to convert an account, and reviewing new intent data is a great practice to maintaing a good re-engagememt pipeline. |
+| 1:1 Account Dashboard | 17. Consider past Actively Worked Accounts. | **For accounts not in AWA:** <br> As a final check, this report should accounts that were previously outbounded for the territory, do any of them make sense in terms of re-engagement? | Outbound efforts typically take a long time to convert an account, and reviewing new intent data is a great practice to maintaining a good re-engagememt pipeline. |
 | Tableau Dashboard | Inbound Interest Dashboard | This dashboard is an intuitive way for BDRs to manually screen their database. It should be used as a complementary resource to the account-level dashboards above. | While the account-level dashboards are pre-made, and there to guide the thinking of team members in terms of account research, this Tableau dashboard allows a team member more flexibility into sorting through the database. They can use the filters to replicate the permutations of the account level reports in any way that they please. |
 | Tableau Self-Dashboard | Self-Managed Instances Dashboard | This dashboard allows BDRs to track and manage instances that are self-deployed by prospects or clients. | It helps BDRs understand how self-managed instances are performing and identify any potential opportunities to convert them into fully managed accounts or upsell additional services. |
 | Tableau Self-Dashboard | Self-Managed Instances Dashboard | This dashboard allows BDRs to track and manage instances that are self-deployed by prospects or clients. | It helps BDRs understand how self-managed instances are performing and identify any potential opportunities to convert them into fully managed accounts or upsell additional services. |
-| Prospect 360 | Prospect 360 Dashboard | [This dashboard](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/customer-intelligence/#prospect-360) consolidates data from key systems like Salesforce, 6Sense, Qualified, and Marketo, providing BDRs and SDRs with a starting point for account-level prospecting. It can sort-listed to identify accounts that| By offering a holistic view of account activities, including engagement history and lead/contact interactions, it helps teams identify and prioritize high-potential accounts for conversion. Watch the [Enablement Video (accessible through GitLab Unfiltered Account)](https://www.youtube.com/watch?v=iYnSiISeXYQ) for a comprehensive overview. |
+| Prospect 360 | Prospect 360 Dashboard | [This dashboard](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/customer-intelligence/#prospect-360) consolidates data from key systems like Salesforce, 6Sense, Qualified, and Marketo, providing BDRs and SDRs with a starting point for account-level prospecting. It can short-listed to identify accounts that| By offering a holistic view of account activities, including engagement history and lead/contact interactions, it helps teams identify and prioritize high-potential accounts for conversion. Watch the [Enablement Video (accessible through GitLab Unfiltered Account)](https://www.youtube.com/watch?v=iYnSiISeXYQ) for a comprehensive overview. |
 
 #### General Sales Development Leadership Resources
 
@@ -1736,6 +1787,8 @@ Announcement Channels
 | Expert    | - Timeframe: Months 4+ - Parameters: SDR is on full quota, leads are set at 100% in Traction, Qualified is on |
 | | - SDR is now able to create their own Groove Flows pending approval.               |
 
+- Managers can update MQL round robin pools in traction. PLease watch these videos on [managing your teams and mql round robin in traction](https://www.youtube.com/watch?v=45uJCxoiP1s) and [updating a reps availibility in traction](https://www.youtube.com/watch?v=TvuKYotFI-Q) 
+
 #### Sales Development Credit Matrix
 
 | Products Considered | Who | Order Type | Segment | Opportunities |
@@ -1873,8 +1926,8 @@ After a  formal warning is issued if the team member falls short of targets agai
 | Task                               | Details                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. Uphold Daily Activity Metrics   | - Adhere to the two hour MQL SLA                                                                                                                               |
-|                                    | - Complete a minimum of 50 omni-channel activities (calls, LinkedIn messages)                                                                                          |
-|                                    | - Maintain an average of 1.5 discovery meetings weekly                                                                                       |
+|                                    | - Complete a minimum of 50 omni-channel activities per day (calls should total 200 per week, made during `Golden Call` hours and LinkedIn/email messages to be personalised)                                                                                          |
+|                                    | - Maintain an minimum of 2 discovery meetings weekly                                                                                       |
 |                                    | - Work lead records within Salesforce by leveraging relevant Flows tags in Groove.                                                                                            |
 |                                    | - Use Business Intelligence platforms like ZoomInfo or LinkedIn to verify the validity of inbound lead datapoints. Take appropriate actions to clean up and assure accuracy and consistency of SFDC/Groove data.                              |
 |                                    | - Maintain SFDC data integrity by following the outbound workflow in researching and prospecting accounts.                                                                             |
@@ -1895,7 +1948,7 @@ The below apply for all inbound-related leads for both the SDR and BDR teams. Pl
 |-----------------------------|------------------------------------------------------------------------|
 | Response Time for leads            | - Net New MQLs: 2 work hours <br> - Inbound Responses: 8 work hours |
 | Low vs High Touch Groove Flow Usage    | - Over 70% of inbound leads enrolled to High Touch Flows.        |
-| Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
+| Inbound tasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |
 
 #### Outbound Account Management

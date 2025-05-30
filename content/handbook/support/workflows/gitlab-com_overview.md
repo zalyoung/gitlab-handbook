@@ -55,9 +55,12 @@ To share private information or take any action, [proof of account ownership is 
 Enterprise users belong to a group based on the `enterprise_group_id` user attribute.
 See the [enterprise users documentation page](https://docs.gitlab.com/user/enterprise_user/) for details on how this happens in GitLab.
 
-For the purposes of support, a user may still be considered an enterprise user when **all** of the following conditions are met:
+For **the purposes of support**, a user may still be considered an enterprise user when **both** of the following conditions are met:
 
-1. The user's primary email has a domain that is owned by the company of the paid group, *and*
+1. The user's primary email has a domain that is **owned** by the company of the paid group, this means **one** of the following is true:
+    - The WHOIS information on the domain matches the organization name
+    - The email domain matches the subscription holder in CDOT
+    - The email domain matches that of an Owner in the top-level namespace    
 1. The user account meets **one** of the following conditions:
     - was created 2021-02-01 or later.
     - has a SAML or SCIM identity tied to the organization's group.

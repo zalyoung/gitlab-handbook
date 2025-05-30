@@ -24,9 +24,18 @@ Family & Friends days will be automatically loaded into Workday by end of Q1FY26
 
 In countries where a Family & Friends day falls on a public holiday, team members are encouraged to [utilize their public holiday on another day](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit?usp=sharing), keeping in mind that the public holiday accrual balance needs to be used within the same calendar year.
 
+For example, if the Family & Friends day on 2025-12-26 is a public holiday in your country, create a new absence request in Workday for the public holiday on another day _within the same calendar year_, such as 2025-12-24, by selecting `Type of Absence > Time Offs > Public Holiday`, and add a note that you are using your public holiday on this day because 2025-12-26 is a public holiday in your location which falls on one of GitLab's Family & Friends days.
+
 - In Israel, Family & Friends days will be adjusted to 2025-12-28, 2025-12-29, 2025-12-30, and 2025-12-31.
 
-As with years past, team members in roles that require them to work on a date designated as a Family & Friends day can work with their manager to find an alternative day. Once you have identified which alternative day you’d like to have off, please [submit a request in HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=4d78f24d47c4069067429ee0026d43b2), including the approval from your manager. The alternative date should be within 30 days (before or after) of the scheduled Family & Friends day.
+As with years past, team members in roles that require them to work on a date designated as a Family & Friends day can work with their manager to find an alternative day. Team members in roles that require them to work on a date designated as a Family & Friends day will be able to request the alternative(s) day in Workday (or via the Workday link in Slack).
+
+- Choose a day that works best for your manager and your team. Please note: The alternative date should be within 30 days (before or after) of the scheduled Family & Friends day.
+- Log into Workday and request time off using the category "Time Off in Lieu", reason “Family and Friends Day”.
+- In the comments section, please note: "In lieu of Family and Friends Day on XXX".
+- This will route to your manager for approval.
+
+Contact the Absence Management team via HelpLab (People > Absence menu) if you need further assistance or have questions. 
 
 ## FY'25 Family and Friends Days
 

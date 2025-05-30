@@ -21,7 +21,7 @@ Globally, the narrative has neglected nuance, referencing the phenomenon as a gl
 
 It is neither remote work nor an experiment.
 
-Being forced to work from home during a pandemic restricts all but a handful of [remote work benefits](/handbook/company/culture/all-remote/remote-benefits/). Losing the commute and making synchronous [meetings](meetings/) more human are two perks which are felt, but the *heart* of remote work — the freedom to choose where you work, the ability to weave life into your work schedule, the opportunity to optimize your life for something other than proximity to an office — remains squashed.
+Being forced to work from home during a pandemic restricts all but a handful of [remote work benefits](remote-benefits/). Losing the commute and making synchronous [meetings](meetings/) more human are two perks which are felt, but the *heart* of remote work — the freedom to choose where you work, the ability to weave life into your work schedule, the opportunity to optimize your life for something other than proximity to an office — remains squashed.
 
 Particularly for leaders who survey their workforce to understand their perspective on remote work, be intentional about highlighting this reality. Make a concerted effort to untangle "remote work" from "crisis-induced work-from-home." In asking someone if they would prefer to remain remote forever, for example, it's important to clarify that *remote* is fundamentally different than *working from home while quarantined*. Many workers may need assistance to visualize a remote future which is liberating as opposed to isolating.
 
@@ -39,7 +39,7 @@ Executive assistants may take on a more significant role in the transition, func
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg)
 {style="max-width: 50%"}
 
-This will be rudimentary to start, and will serve as a [single source of truth](handbook-first/) for more pressing questions. Communicate this company-wide, and update it continually with DRIs for common questions around tools and access. This can start as a single company webpage or repository in [Notion](https://www.notion.com) or [Almanac](https://almanac.io), and will serve you well even after the current crisis subsides.
+This will be rudimentary to start, and will serve as a [single source of truth](handbook-first/) for more pressing questions. Communicate this company-wide, and update it continually with DRIs for common questions around tools and access. This can start as a single company webpage or repository in [Notion](https://www.notion.com) or similar tools, and will serve you well even after the current crisis subsides.
 
 [GitLab uses GitLab](gitlab-for-remote/) to build, sustain, and evolve its company handbook. GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
@@ -95,7 +95,7 @@ We recognize that many companies are in need of establishing baseline remote pri
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

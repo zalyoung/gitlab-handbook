@@ -32,7 +32,7 @@ GitLab's [onboarding process](onboarding/) is highly unique. Each new hire is as
 
 There is a stark lack of hand-holding. Those who prefer to be heavily guided may struggle with this, but acclimating is vital.
 
-This way of working permeates the GitLab [culture](/handbook/company/culture/all-remote/remote-values/), from a bias towards [asynchronous communication](management/#asynchronous), to maintaining a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding), to [being deliberate about scale](/handbook/values/#be-deliberate-about-scale).
+This way of working permeates the GitLab [culture](remote-values/), from a bias towards [asynchronous communication](management/#asynchronous), to maintaining a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding), to [being deliberate about scale](/handbook/values/#be-deliberate-about-scale).
 
 Through continual [iteration](/handbook/values/#iteration), the onboarding issue has become a comprehensive list. Those coming from colocated backgrounds may view this as overwhelming, or perhaps even unnecessary. GitLab would rather you be inundated with useful information to absorb at your own pace than be uninformed. It comes naturally when a company values [transparency](/handbook/values/#transparency).
 
@@ -73,7 +73,7 @@ For many companies, the frenetic pace of business creates a false sense of justi
 
 However, most employees are not empowered to shift an entire company culture to one that favors documentation. Thus, one typically builds a skillset of how and when to ask other humans in order to extract information vital to achieving their goals. They know it's a suboptimal approach, but may feel that they have no reasonable alternative. When you aren't given a [handbook](/handbook) that is regularly updated and reliably actionable, it feels odd to seek answers first in documentation.
 
-Humans tend to trust other humans more than words written in an online repository, which is why it's so vital to humanize a handbook by empowering [all members of a company to contribute](/handbook/company/strategy#why).
+Humans tend to trust other humans more than words written in an online repository, which is why it's so vital to humanize a handbook by empowering [all members of a company to contribute](/handbook/company/mission/#mission).
 
 ## Public over private
 

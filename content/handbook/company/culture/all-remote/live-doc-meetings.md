@@ -95,11 +95,11 @@ There are two ways to participate in a live doc meeting: either synchronously, l
 
 ## Q: When are live doc meetings held?
 
-Live doc meetings are usually held in the host's time zone. However, leaders should [rotate meetings to accommodate a more diverse array of time zones](asynchronous/#remove-time-zone-bias) as well as record them so that others can watch at a later time.
+Live doc meetings are usually held in the host's time zone. However, leaders should [rotate meetings to accommodate a more diverse array of time zones](asynchronous/#minimize-time-zone-bias) as well as record them so that others can watch at a later time.
 
 ## Q: Where are live doc meetings held?
 
-Live doc meetings can happen fully in-person, fully online, or a on hybrid call — which is a blend of both. It's best to have everyone on a level playing field for communication and discussion, so [hybrid calls should be avoided](meetings/#avoid-hybrid-calls). If a hybrid call is necessary, have participants use their own equipment (camera, headset, screen) to avoid audio problems from delays and feedback.
+Live doc meetings can happen fully in-person, fully online, or a on hybrid call — which is a blend of both. It's best to have everyone on a level playing field for communication and discussion, so [hybrid calls should be avoided](meetings/#7-avoid-hybrid-calls). If a hybrid call is necessary, have participants use their own equipment (camera, headset, screen) to avoid audio problems from delays and feedback.
 
 ---
 

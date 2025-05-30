@@ -13,9 +13,9 @@ The People Group works together to establish a high performance and results driv
 
 We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab's business results. We hire, promote, and recognize team members who best live our values.
 
-The People Group strategy is to set the [foundation for GitLab's 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
+The People Group strategy is aligned with [GitLab's Company Strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on supporting GitLab's ability to deliver on our FY26 Plan while setting the foundations to build a generational company.
 
-We've published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
+We've published more information about how this vision translates to strategy and for People Group members and GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1xTujbhXNB0UBPK9aLOZUODo13G2aQKdubJxSkhV_fXg/edit?usp=sharing).
 
 ## Connect with us
 
@@ -58,7 +58,7 @@ In the event a team member is in an unsafe situation due to a natural disaster, 
 
 ### How to Report Violations
 
-As stated in the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), we have a section related to reporting violations. GitLab has engaged Navex to provide EthicsPoint, a comprehensive and confidential reporting tool, an anonymous ethics hotline for all team members. The purpose of the service is to insure that any team member wishing to submit a report anonymously about conduct addressed in the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) can do so without the fear of retaliation.
+As stated in the [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf), we have a section related to reporting violations. GitLab has engaged Navex to provide EthicsPoint, a comprehensive and confidential reporting tool, an anonymous ethics hotline for all team members. The purpose of the service is to insure that any team member wishing to submit a report anonymously about conduct addressed in the [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf) can do so without the fear of retaliation.
 
 In addition to EthicsPoint, GitLab has engaged Lighthouse Services to provide an anonymous reporting hotline for all team members to submit reports regarding team member relations. Reports may cover but are not limited to the following topics: wrongful discharge or disciplinary action, [sexual harassment](/handbook/people-group/anti-harassment/#sexual-harassment), discrimination, conduct violations, alcohol and substance abuse, threats, improper conduct, violation of company policy.
 
@@ -155,7 +155,7 @@ Please note that the source of truth for role responsibilites is the job family 
 | -------------- | ----------------- |
 | [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
 | [Offboarding](/handbook/people-group/offboarding/offboarding_standards/) | Immediate action for involuntary & 24 hours for voluntary |
-| [Career Mobility](/handbook/people-group/promotions-transfers/#career-mobility-issue) | Within 24 hours |
+| [Organizational Changes](/handbook/people-group/promotions-transfers/#organization-change-checklist) | Within 3 days of effective date of change |
 | [Letters of Employment](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Employment Verification](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Anniversary Emails](/handbook/people-group/celebrations/#anniversary-gifts) | First day of the following month |

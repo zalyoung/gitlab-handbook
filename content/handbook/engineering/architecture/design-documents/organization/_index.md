@@ -4,14 +4,14 @@ status: ongoing
 creation-date: "2023-04-05"
 authors: [ "@lohrc", "@alexpooley" ]
 coach: "@ayufan"
-approvers: [ "@alexpooley", "@dorrino" ]
+approvers: [ "@alexpooley" ]
 owning-stage: "~devops::tenant scale"
 group: Organizations
 participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work in progress and represents the current state of the Organization design.
 
@@ -299,9 +299,10 @@ From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/is
 
 Based on this analysis we expect to see similar behavior when rolling out Organizations.
 
-## Decision Log
+## Decisions
 
 - 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
+- [001: Organization context resolution](decisions/001_organization_context_resolution.md)
 
 ## Links
 

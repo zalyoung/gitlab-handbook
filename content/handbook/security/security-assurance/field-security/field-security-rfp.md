@@ -17,7 +17,7 @@ The Field Security Team, Legal & Corporate Affairs, Field Ops and Sales have cre
 1. For questions related to Product, Security, Corporate, Privacy, Commercial Legal, and ESG which were not answered following the steps above, the Sales Team Member can open an Issue [here](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=RFP_Intake%20Form): **be sure to select the RFP Intake Issue Template**
 1. When filling out the **RFP Intake Issue Template** please do the following:
     - Select the box for the applicable Content Area(s); and
-    - Delete any Content Area elements that are not applicable.
+    - **Delete the Content Area rows that are not applicable** to prevent unnecessary notifications. Only the relevant DRIs should be tagged in the issue.
 1. RFP Intake Issues will be assigned to applicable DRIs.
 
 ## What Field Security Can't Do

@@ -161,7 +161,6 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q1 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: March
-1. Start [**Yearlies**](/handbook/company/yearlies/) (50 minutes)
 1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
 1. Non-product **Engineering** review, e.g. architecture, infrastructure
 
@@ -178,7 +177,6 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. E-Group Offsite and Board Meeting Month: September
 1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
 1. Go-to-market (**GTM**) learnings
-1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year (1.5 hrs)
 1. **Org** design
 
 **Q4 Offsite**
@@ -199,13 +197,11 @@ In addition to the topics from the [Topic Calendar](#offsite-topic-calendar) abo
     1. When a new person is added to the promotion or future promotion list, the sponsorship exec should provide a summary on the person, their contributions, and any areas to be addressed in advanced of the intended promotion window
 1. [Content Discussion](#content-choice) (30 minutes - 1 hour)
 1. Aligning on quarterly priorities (OKRs) (25 minutes)
-1. Review [**Yearlies**](/handbook/company/yearlies/#cadence) (25 minutes)
 
 ### Pre-offsite discussion topics
 
 These topics are discussed by E-Group before the offsite:
 
-1. Yearly and OKR progress. These will be reviewed in E-Group Weeklies and [Key Reviews](/handbook/company/key-review/).
 1. Planning discussions. These will be facilitated by the Finance Team. Many of them will occur during E-Group Weeklies.
 
 ### Collaborating with EBAs on the Offsite
@@ -226,7 +222,7 @@ One of the ways we do this is by asking participants to do prep work ahead of ti
 Examples of prep work include:
 
 - [Reading the content that was selected](#content-choice)
-- Executives working with their People Business Partners to prep the [Performance/Potential Matrix of their direct reports](/handbook/people-group/talent-assessment/#the-performancepotential-matrix)
+- Executives working with their People Business Partners to prep the [Performance/Potential Matrix of their direct reports](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix)
 - Executives working with their People Business Partners to prep any [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 - Reviewing any Section Direction Materials for reviews, such as the [Growth Section's Direction](/handbook/marketing/growth/)
 - Executives propose [draft Key Results for their functions](/handbook/company/okrs/#executives-propose-okrs-for-their-functions)
@@ -361,6 +357,6 @@ The offsite includes a 30 minute to 1 hour discussion on material chosen by the 
 
 We will share discussion highlights and takeaways in E-Group Offsite meeting notes that are shared with all team members. This also allows team members to engage in the conversation.
 
-Team Members may [expense](/handbook/finance/spending-company-money/#expense-policy) E-Group offsite material in the quarter that it is discussed.
+Team Members may [expense](/handbook/finance/expenses/) E-Group offsite material in the quarter that it is discussed.
 
 Material that the E-Group finds noteworthy should be added to the [Leadership Books](/handbook/leadership/#books).

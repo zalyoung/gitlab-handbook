@@ -27,8 +27,7 @@ The Community Programs team processes applications to [GitLab's community progra
 
 ### Application
 
-SheerID hosts applications for the GitLab for Open Education and GitLab for Open Source programs.
-SheerID therefore hosts and sends all communications (email and browser notifications) for these two programs.
+SheerID hosts applications and sends all communications (email and browser notifications) for the GitLab for Education Program.
 SheerID also provides [customer service](https://drive.google.com/file/d/13AW0BYt4HNFzGfM6iRuMtpjZ1J8tAXyI/view?usp=sharing) specific to GitLab.
 [MySheerID](https://my.sheerid.com/) is the customer portal for the verification system.
 The portal contains details on each application form, a reporting system, and account settings.
@@ -62,7 +61,7 @@ Additionally, note the following:
 
 ### Booking
 
-Successful applicants receive an email from SheerID.
+Successful applicants receive an email from SheerID or Customers Portal.
 This email contains a direct link to a program-specific page in the Customers Portal.
 These program-specific pages are *not* available directly in the GitLab Customers Portal; they are only accessible via links in success emails.
 See GitLab's internal handbook for links to these portals.

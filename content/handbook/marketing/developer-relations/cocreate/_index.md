@@ -19,10 +19,8 @@ To ensure effective use of this collaborative period, GitLab will **co-locate 1 
 ## GitLab Benefits
 
 - Increased trust and ownership from participating customers
-- Improved customer empathy for the participating engineer. 
+- Improved customer empathy for the participating engineer.
 - Continuous contributions to fuel our dual fly-wheel approach
-
-Please, note that the CoCreate program is not the next step to a promotion. It could (and should) still be added to a promotion document as a signal of strong orientation towards shipping results for customers.
 
 ## Getting Started
 
@@ -48,15 +46,15 @@ Identify areas that are of high priority to the customer together with the Solut
 1. **Enablement**: Upon identifying a viable opportunity and the right stakeholders, Developer Relations will conduct an interactive workshop to identify specific co-create opportunities and enable technically the customer's engineers to contribute to GitLab.
 1. **Collaborative Development**: GitLab's engineering team will take the lead in pairing engineers with the customer's team to support the development effort.
 
-## Nominate an Issue for CoCreate
+## Nominate an Issue for Co-Create
 
-Is there an issue that should be considered for the curated CoCreate [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue. 
+Is there an issue that should be considered for the curated Co-Create [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue.
 
 ## Resources
 
 - [Contribute to GitLab](https://about.gitlab.com/community/contribute/) - this webpage provides a high-level overview of the benefits related to contributing to GitLab's open-source community, as well as contribution guidelines and tutorials aimed at helping you better understand and visualize the process.
 - [Our stewardship of open source](/handbook/company/stewardship/#promises) - this webpage discusses GitLab's open-core business model and promises related to open-source stewardship.
-- [Frequently asked questions](https://about.gitlab.com/community/contribute/dco-cla/#frequently-asked-questions) - this webpage answers FAQs about contributing to GitLab.
+- [Navigating Project License Requirements](/handbook/marketing/developer-relations/cocreate/license-compatibility-guide) - A Compatibility Guide for Corporate Contributors.
 - [GitLab's Corporate Contributor Agreement](https://docs.google.com/document/d/1JZ495wMxsnUPIzZoBvAVtvnfbWiMNS4VYC_S2Er4K0s/edit) - this Agreement covers all contributions made on behalf of a corporate contributor by the corporation's authorized contributors. Please email [cla_managers@gitlab.com](mailto:cla_managers@gitlab.com) to start the process of signing this agreement.
 
 ## Internal Slack Channel

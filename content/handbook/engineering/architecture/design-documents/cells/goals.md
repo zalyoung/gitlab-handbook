@@ -348,8 +348,6 @@ A cluster is a collection of Cells.
 
 ![Term cluster](/images/engineering/architecture/design-documents/cells/diagrams/term-cluster.drawio.png)
 
-- A cluster holds cluster-wide metadata, for example: Users, Routes, Settings.
-
 Discouraged synonyms: Whale, GitLab Dedicated instance, instance
 
 ### Organizations

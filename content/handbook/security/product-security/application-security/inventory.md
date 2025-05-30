@@ -28,7 +28,7 @@ The following categories can be used to decorate the projects we want to monitor
 | `deploy` | Used to deploy GitLab.com |
 | `website` | Deployed to a website (URL will be required) |
 | `api/service` | |
-| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/data-classification-standard/) |
+| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/standards/data-classification-standard/) |
 | `3rdparty` | Interaction with 3rd parties |
 | `demo/test/poc` | |
 | `temporary` | Temporary projects (should be removed at some point) |
@@ -48,7 +48,7 @@ The following categories can be used to decorate the projects we want to monitor
 
 We apply several policies depending on the categories defined above. These policies, which include security requirements, are available [here](https://gitlab.com/gitlab-com/gl-security/product-security/gib/-/tree/main/policies) and in our (internal only) [inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory).
 
-They are used are controls for our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
+They are used are controls for our [GitLab Projects Baseline Requirements](/handbook/security/standards/gitlab_projects_baseline_requirements/).
 
 ### How to categorize projects
 

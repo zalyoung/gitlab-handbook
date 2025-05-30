@@ -12,6 +12,10 @@ When working on a GitLab Dedicated ticket, prioritize asking for information tha
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
 
+### Preprod deployments
+
+Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-preprod-deployments) to find links to Opensearch logs for a specific customer's Preprod environment, when applicable.
+
 ### Log requests older than 7 days
 
 If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
@@ -277,3 +281,7 @@ You can then filter by `correlation_id` only, to select the failed occurrence. T
 1. Fine-tune the results by adding more filters such as, Filter: `message` Operator: `is one of` Value: `elasticsearch` to see any logs with the term elasticsearch
 
 Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/integration/advanced_search/elasticsearch_troubleshooting/#last-resort-to-recreate-an-index) for potential next steps.
+
+#### Debug Hosted Runners for GitLab Dedicated
+
+To debug tickets about Hosted Runners for GitLab Dedicated, [verify that the customer is using Hosted Runners](./dedicated_runners.md#who-is-using-hosted-runners). Refer to the [Hosted Runners for GitLab Dedicated](./dedicated_runners.md#viewing-logs) documentation page to view OpenSearch filters you can use to filter these logs.

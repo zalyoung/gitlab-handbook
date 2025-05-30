@@ -24,7 +24,7 @@ As we execute on our strategy, it is important to use our financial targets as g
 1. Reach: go for a broad reach, no focus on business verticals or certain programming languages.
 1. Seed then nurture: [plant seeds and nurture the product to build out depth](#seed-then-nurture).
 1. Speed: ship every change in the next release to maximize responsiveness and learning.
-1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/people-group/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
+1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/people-group/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/all-remote/) is a large part of the solution.
 1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](https://about.gitlab.com/community/contribute/) to [improve the product together](/handbook/engineering/development/performance-indicators/#mr-rate).
 
 ### Seed then nurture
@@ -76,7 +76,7 @@ graph BT;
 | More Contributions | [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr) | Developer Relations and Engineering |
 | More Contributions | [Wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) | Developer Relations and Engineering |
 | More Features | [Merge Requests per release per engineer in product development](/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
-| More Revenue | [IACV](/handbook/sales/#incremental-annual-contract-value-iacv) vs. plan | Sales and Marketing |
+| More Revenue | IACV vs. plan | Sales and Marketing |
 
 ### Flywheel with two turbos
 

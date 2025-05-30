@@ -29,7 +29,7 @@ The following people are permanent members of the Growth:Acquisition team:
 
 We work directly with the following team members in the Growth:Acquisition group:
 
-{{< stable-counterparts role="Growth(.*)|Growth:Acquisition" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
+{{< engineering/stable-counterparts role="Growth(.*)|Growth:Acquisition" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
 
 ## How We Work
 

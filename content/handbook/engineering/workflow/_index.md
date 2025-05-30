@@ -571,7 +571,7 @@ All other important dates for a milestone are relative to the release date:
 - **On or around the Wednesday immediately following the release day**:
   - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
-  - Non-critical security patches are [released](/handbook/engineering/infrastructure/library/security-releases-development/).
+  - Non-critical security patches are [released](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/security-releases-development).
 
 Refer to [release post content reviews](/handbook/marketing/blog/release-posts/#content-reviews) for additional deadlines.
 
@@ -721,7 +721,7 @@ Not everything is urgent. See below for a non-exclusive list of things that are 
 ## Performance Refinement
 
 A bi-weekly performance refinement session is held by the Development and QE teams jointly to raise awareness and foster wider collaboration about high-impact performance issues.
-A high impact issue has a direct measurable impact on GitLab.com [service levels or error budgets](/handbook/engineering/infrastructure/library/service-levels-error-budgets/).
+A high impact issue has a direct measurable impact on GitLab.com [service levels or error budgets](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/service-levels-error-budgets).
 
 ### Scope
 
@@ -820,7 +820,7 @@ Triage of infradev Issues is desired to occur asynchronously. These points below
    1. Sometimes infradev issues will resolve on their own, or are resolved as a side-effect of an unrelated change.
    1. In the infradev issue description, provide a clear way of checking whether the problem still exists.
    1. Having a way of checking validity can save on a great deal of back-and-forth discussion between Infradev Triage participants including Engineering Managers, Directors and Product Managers and make space for other non-resolved issues to get scheduled sooner.
-   1. Ideally, provide a link to a Thanos query or an ELK query and clear instructions on how to interpret the results to determine whether the problem is still occurring. [Check the "Verfication" section in this issue as an example of this](https://gitlab.com/gitlab-org/gitaly/-/issues/3670#verification).
+   1. Ideally, provide a link to a Grafana query or an ELK query and clear instructions on how to interpret the results to determine whether the problem is still occurring. [Check the "Verfication" section in this issue as an example of this](https://gitlab.com/gitlab-org/gitaly/-/issues/3670#verification).
    1. Alternatively, provide clear instructions on how to recreate or validate the problem.
    1. If an issue has been resolved, use the following process:
       1. Reassign the issue back to the author, or an appropriate owner, requesting that they confirm the resolution, and close the issue  if they concur. If not, they should follow up with a note and unassign themselves.

@@ -113,6 +113,7 @@ Following the meeting, ensure completion of:
 - [ ] Documented prerequisites and dependencies
 - [ ] Prepared agenda for Customer Kickoff
 - [ ] Action items with clear ownership
+- [ ] Create Customer Slack channel and invite Customer Project team members. You can you use this AR as [template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/36997)
 
 > **💡 Tip:** Use this meeting to identify and address any expectation misalignment between GitLab and the Customer team before the broader kickoff meeting.
 
@@ -159,10 +160,24 @@ Present a comprehensive overview of:
 
 If you don't have ZenDesk light (Read-Only) access:
 
-1. Open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
-2. Request ZenDesk light access
+- For Zendesk Global
+  - See [Requesting a ZenDesk ‘Light Agent’ account](../../../../support/internal-support/#requesting-a-zendesk-light-agent-account)
+- For Zendesk US Government
+  1. Open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
+  1. Make sure the `System name` value is `Zendesk - US Federal, light agent access`
+  1. Assign to your manager
+  1. Once your manager approved (as per the AR instructions), they will ping the `Zendesk - US Federal` [tech_stack owner(s)](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
+     - Keep in mind you must have US citizenship to have this access
 
 ### Creating a Support Note
+
+{{% alert title="Note" color="danger" %}}
+
+The below information is solely for Zendesk Global. If the organization is on Zendesk US Government, please make a post in [#support_operations](https://gitlab.enterprise.slack.com/archives/C018ZGZAMPD) specifying you need to modify an organization note in Zendesk US Government, making sure to provide the Salesforce Account or Zendesk Organization link (do not state the name of the customer or any other sensitive information).
+
+Customer Support Operations (those with Zendesk US Government access) will work with you to get that completed.
+
+{{% /alert %}}
 
 #### Step 1: Find the Customer Organization
 

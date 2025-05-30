@@ -116,11 +116,11 @@ If an exception request is made to end a probation period early, this should be 
 
 ### Current Locations With Probationary Periods
 
-{{< entities-with-probation >}}
+{{< people-group/entities-with-probation >}}
 
 ### Locations without Probation Periods
 
-{{< entities-without-probation >}}
+{{< people-group/entities-without-probation >}}
 
 ## PIAA (Proprietary Information and Assignment Agreement)
 

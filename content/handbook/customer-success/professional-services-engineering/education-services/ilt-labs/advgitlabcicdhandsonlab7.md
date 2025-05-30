@@ -3,7 +3,7 @@ title: "GitLab Advanced CI/CD - Hands-On Lab: Deployment Strategies"
 description: "This Hands-On Guide walks you through the process of creating feature flags"
 ---
 
-The next step in your development process is to determine an appropriate deployment strategy for your application. Rolling out changes to all users at once is a risky strategy, since any errors will impact all of your users and potentially cause outages. To mitigate this, you can take advantage of GitLab’ deployment features. In this section, you will learn how to implement a feature flag in your application to allow for a gradual rollout of features.
+The next step in your development process is to determine an appropriate deployment strategy for your application. Rolling out changes to all users at once is a risky strategy, since any errors will impact all of your users and potentially cause outages. To mitigate this, you can take advantage of GitLab’s deployment features. In this section, you will learn how to implement a feature flag in your application to allow for a gradual rollout of features.
 
 > Estimated time to complete: 15 minutes
 
@@ -25,7 +25,7 @@ Follow these steps to set up and use a feature flag:
 
 1. For the name, input `test`. For the Type, select `Percent rollout`.
 
-1. Set the percentage to 50%, and set the **Based on select** to Random.
+1. Set the percentage to 50%, and set the **Based on** to Random.
 
 1. Select **Create feature flag**.
 
@@ -35,7 +35,7 @@ Follow these steps to set up and use a feature flag:
 
 1. Select **Edit > Edit in single file**.
 
-1. In your `index.js` file, remove all of your existing code and replace it with the following:
+1. In your `index.js` file, remove all of your existing code and replace it with the following, ensuring to replace **your-instance-url** and **your-instance-id** with the values your made a note of earlier:
 
     ```js
     const { initialize } = require('unleash-client');

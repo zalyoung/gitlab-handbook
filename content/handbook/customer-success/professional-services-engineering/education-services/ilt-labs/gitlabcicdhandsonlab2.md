@@ -20,7 +20,8 @@ With our build process complete, we can now start making changes to our code. Mo
 Workflow rules allow you to control when a pipeline runs. These rules give you control over the execution flow of your entire CI/CD pipeline. For example, consider our current `.gitlab-ci.yml` file:
 
 ```yml
-image: golang
+default:
+  image: golang
 
 stages:
   - build
@@ -162,7 +163,7 @@ To define a job that runs in a merge request, we will add a rules definition to 
 
     ```yml
       rules:
-        - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
+        - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
     ```
 
     > Make sure this is indented to the same level as the `script` keyword, 2 spaces.
@@ -179,7 +180,7 @@ To define a job that runs in a merge request, we will add a rules definition to 
         tag_name: 'v0.$CI_PIPELINE_IID'
         description: 'The latest release!'
       rules:
-        - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
+        - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
     ```
 
 1. With these changes made, select **Commit changes** to update your `.gitlab-ci.yml` file.

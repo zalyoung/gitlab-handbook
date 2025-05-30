@@ -9,18 +9,6 @@ description: "This Hands-On Guide walks you through creating metadata for issues
 
 To help you manage your issues, GitLab provides metadata for each issue. Metadata allows you to define details for an issue such as weight, and due dates. In this lab, you will learn how to view and manage issue metadata.
 
-- **Epic:** Associates the issue with an epic.
-
-- **Milestone:** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
-
-- **Labels:** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
-
-- **Weight:** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
-
-- **Due date:** Use in issues to keep track of deadlines and make sure features are shipped on time.
-
-- **Iteration:** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
-
 You can learn more about issues and metadata in the [documentation](https://docs.gitlab.com/ee/user/project/issues/).
 
 ## Task A. Set issue metadata

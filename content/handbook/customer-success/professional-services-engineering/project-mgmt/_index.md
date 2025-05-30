@@ -1,6 +1,6 @@
 ---
 title: "Professional Services Project Management"
-description: "The GitLab PMO & Delivery team accelerates Customer time to value through excellence in Professional Services Delivery. We work to deliver Projects within the agreed scope, timeline, and budget while embracing iteration to address evolving customer needs. Our success is measured by delivering solutions that enable customers to fully realize the benefits of GitLab products. You can find the list of PS Offerings [here](https://about.gitlab.com/services/)."
+description: "The GitLab PMO & Delivery team accelerates Customer time to value through excellence in Professional Services Delivery. Throughout the [PS Customer Journey](https://lucid.app/lucidchart/13d16253-7bba-4082-9b72-761c6105c7ed/edit?viewport_loc=-24156%2C-2407%2C3862%2C1831%2Cm-5o7ONTd-nK&invitationId=inv_6a3429e9-eb45-4a96-b300-dc11bd10ff35), we work to deliver Projects within the agreed scope, timeline, and budget while embracing iteration to address evolving customer needs. Our success is measured by delivering solutions that enable customers to fully realize the benefits of GitLab products. You can find the list of PS Offerings [here](https://about.gitlab.com/services/)."
 ---
 
 - [Project Initiate & Plan](#project-initiate--plan)
@@ -186,14 +186,16 @@ Project scope for Professional Services is the outline of the work required to d
 
    **Revenue Release FP Projects**
 
-   - Revenue is recognized upon receipt of customer acceptance or upon the completion of passive acceptance (according to the SOW terms).
-   - The PM sends a formal request for acceptance to the customer, copying the Operations Manager and Project Coordinator. The PM then updates the Billing/Revenue Milestone in Kantata.
-   - If passive acceptance is applicable, Day 1 is counted as the day the notification is sent, and business days are calculated from this date to determine when passive acceptance is complete.
+   - Revenue is recognized upon receipt of customer milestone acceptance or upon the completion of passive acceptance (according to the SOW terms).
+   - The PM makes a copy of the [Project Milestone/Closure document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit?tab=t.0) and attaches the document to the Customer for closure, copying Operations coordinator. The Customer can either sign the document itself or reply "approved".
+   - Once approved, The PM updates set the Milestone in Kantata to "complete".
+   - If passive acceptance is applicable per the SOW, the Customer has 5 business days to approve or deny before we can set the milestone to "complete". Day 1 is counted as the day the notification is sent.
 
    **Key Updates for Kantata**
 
-   - Sign-Off Sent: Update this custom field when the acceptance request email is sent.
-   - Sign-Off Received: Update this custom field when customer acceptance is received or passive acceptance is achieved. Attach the acceptance email (in PDF form) to the milestone.
+   - Within all respective Milestone tasks, complete the following:
+      - Sign-Off Sent: Update this custom field when the acceptance request email is sent.
+      - Sign-Off Received: Update this custom field when customer acceptance is received or passive acceptance is achieved. Attach the acceptance email (in PDF form) to the milestone.
    - Passive Acceptance Utilized: If passive acceptance is used, update this field accordingly.
    - For both acceptance scenarios, attach the acceptance email or milestone document to the milestone.
    - Update actual start/kickoff/end dates

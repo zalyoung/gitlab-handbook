@@ -29,6 +29,7 @@ GitLab holds the following registered patents:
 
 | Patent Number | Coverage Area |
 |---------------|---------------|
+| US 12,298,859 | Transactional Access to Resource Repositories |
 | US 12,229,549 | Scalable code testing and benchmarking |
 | US 11,983,091 | Adaptively generated program model |
 | US 11,868,482 | Vulnerability tracing using scope and offset |

@@ -214,10 +214,10 @@ Don't display surprise when people say they don't know something, as it is impor
 ##### Collaboration is not consensus
 
 When collaborating, it is always important to stay above radar and work [transparently](#transparency), but collaboration is [not consensus](/handbook/leadership/making-decisions/) and disagreement is part of collaboration.
-You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?"
+You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?".
 You don't have to wait for people to provide input, if you did ask them.
-You don't need to have everyone agreeing to the same thing - they can [disagree, commit, and disagree](#disagree-and-commit). [Two-way doors decisions](#make-two-way-door-decisions) can be reversed as part of [disagree, commit, and disagree](#disagree-and-commit), while one-way door decisions benefit from more input. Recognize these reversible two-way door decisions for when less input is required to iterate faster.
-We believe in permissionless innovation—you don't need to involve people, but everyone can contribute.
+You don't need to have everyone agreeing to the same thing - they can [disagree, commit, and advocate](#disagree-and-commit). [Two-way doors decisions](#make-two-way-door-decisions) can be reversed as part of [disagree, commit, and advocate](#disagree-and-commit), while one-way door decisions benefit from more input. Recognize these reversible two-way door decisions for when less input is required to iterate faster.
+We believe in permissionless innovation — you don't need to involve people, but everyone can contribute.
 This is core to how we [iterate](#iteration), since we want smaller teams moving quickly rather than large teams achieving consensus slowly.
 
 ##### Collaboration Competency
@@ -812,7 +812,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">EVP/CXO</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Champions the value of Diversity, Inclusion and Belonging into the company's strategy. They champion and sponsor internal and external D&amp;I initiatives. They speak to the importance of this value in company-wide meetings. They hold their leaders and other e group members accountable for upholding this value. They continuously seek ways to increase trust, psychological safety and inclusion across the broader company.</td>
     <td class="tg-0lax"  style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc>
-<li>Support current cross-functional <a href="/handbook/company/yearlies/#fy24-yearlies">Yearlies</a> initiative focused on continuing to build a diverse team of top talent that we retain and grow</li>
+<li>Support current cross-functional initiative focused on continuing to build a diverse team of top talent that we retain and grow</li>
 <li>Advocate and Integrate DIB into your organizational KPIs/OKRs, e.g.OKR: continue to build and grow a diverse workforce/organization</li>
 <li>Partner with the <a href="/handbook/company/culture/inclusion/">DIB Team</a> & <a href="/handbook/company/culture/inclusion/leadership-dib-council/">Leadership DIB Council</a> to establish an action plan for your departments & division</li>
 <li>Serve as a <a href="/handbook/company/culture/inclusion/erg-guide/">TMRG</a> executive sponsor</li>
