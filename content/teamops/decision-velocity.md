@@ -152,7 +152,6 @@ The [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_request
 
 GitLab's Recruitment Privacy Policy was updated. Rather than updating the policy behind closed doors, the [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/107652)  outlines the *why*. It provides context into how the change enables cross-functional groups to work more efficiently. The explanation of *why* enables more thoughtful conversation around a potentially polarizing topic (privacy).
 
-**Resource:** [Almanac's Guide to Asynchronous Communication](https://almanac.io/docs/guide-asynchronous-communication-18e32134c835a467b8dcb13b06a0aef0#:~:text=Asynchronous%20communication%20is%20the%20art,time%20your%20communique%20is%20sent.) (playbook)
 {{% /details %}}
 
 {{% details summary="Change management support for low-context communication" %}}

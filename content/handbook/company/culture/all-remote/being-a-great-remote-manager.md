@@ -225,7 +225,7 @@ Two, managers carve out more bandwidth in their day to focus, rather than re-ans
 
 It is the job of a manager to ensure a direct report has what they need to be successful on an ongoing basis. By [documenting](management/#scaling-by-documenting) processes, guides, solutions, how-tos, and policies, a manager is practicing [servant leadership](https://www.shrm.org/topics-tools/news/organizational-employee-development/art-servant-leadership) in a powerful way.
 
-If your company has yet to implement their own handbook, start now and start small. Don't be overwhelmed with the notion of building a complete handbook from the get-go; simply start with one process, then document the next, and so on. This is the power of [iteration](/handbook/values/#iteration). GitLab (the company) uses GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)) to build and maintain our public-facing [handbook](/handbook), and options from [Almanac](https://almanac.io/) and [Trainual](https://trainual.com/) are available as well.
+If your company has yet to implement their own handbook, start now and start small. Don't be overwhelmed with the notion of building a complete handbook from the get-go; simply start with one process, then document the next, and so on. This is the power of [iteration](/handbook/values/#iteration). GitLab (the company) uses GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)) to build and maintain our public-facing [handbook](/handbook), and options from other companies are available as well.
 
 In the event that a direct report asks a question that has yet to be documented, agree to document the eventual solution so that the work put forth in answering benefits a wider swath of people.
 

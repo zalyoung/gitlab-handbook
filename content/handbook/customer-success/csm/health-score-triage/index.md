@@ -107,21 +107,19 @@ These can then be discussed with the [Account Team](/handbook/customer-success/a
 
 #### Customer Health Update Format
 
-The Health Update description should follow the following format:
+The Health Update description should follow the format below. When logging the activity in Gainsight, this format can be auto-imported by clicking the "Apply Template" button on the Health Update activity. 
 
-1. Brief, high-level summary of the reason for the risk and what's needed to resolve the risk (1-2 sentences)
-1. Additional context & detail to amplify the summary, including reasons behind the cited risk driver, key people involved (customer and GitLab), and next steps being taken
-1. What's needed to mitigate the risk (where do we need to end up?)
-1. Date of the next call with the customer and/or expected date for the next update
-1. CSM Sentiment updated to reflect current health status (typically Red)
+1. What's at risk today? - 1-2 sentences describing the specific churn risk and key metrics/data points.
+1. What's the mitigation plan for risk? - 1-2 sentences outlining the key actions being taken to address the risk.
+1. Who owns the next step? - [Name and Role]
+1. What's the timeline of the next step? - [Specific date - MM/DD/YYYY]
 
 Here is a sample health update:
 
-> CUSTOMER X has risk of seat contraction due to under-utilization of licensed seats. We need top-down alignment with customer leadership and an agreed-upon plan to get more teams onto GitLab.
->
-> CUSTOMER X is actively using 75% of their licensed seats, though adoption of use cases within those users is strong. We have reached out to the decision maker for the customer on DevOps tools and have a meeting scheduled with that person for next week that includes all of the members of the GitLab account team. We will discuss the current adoption status, and other groups within their org we can engage to help their users get onto GitLab. In order to mitigate this risk we need alignment with the decision maker on next steps to engage with teams not yet on GitLab, and define a plan to get those users onboarded.
->
-> Following that discussion next week, I will add a Health Update with details from that discussion and next steps, as well as any asks we may have from other GitLab team members.
+> Risk: License utilization dropped to 35% with only 2 of 5 departments actively using the platform. Primary champion announced departure effective end of month.
+> Mitigation: Scheduling executive alignment call next week to identify new champion and launching targeted training for underutilized departments.
+> Owner: Jane Smith, CSM
+> Next Step Timeline: 06/15/2025
 
 This format is to satisfy a few requirements:
 

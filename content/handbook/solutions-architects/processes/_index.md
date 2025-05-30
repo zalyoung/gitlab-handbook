@@ -292,7 +292,7 @@ The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously 
 
 Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem/#engaging-an-ecosystem-solutions-architect) handbook page.
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem) handbook page.
 
 ### Subject Matter Expert Engagement Model
 
