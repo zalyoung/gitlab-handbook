@@ -67,7 +67,7 @@ This happens when a customer is a billing account manager of a separate billing 
 
 1. Follow the [ownership verification](#ownership-verification) process. 
 1. Follow [Remove a billing account membership workflow](#remove-a-billing-account-membership) to remove association from the contact's current billing account.
-1. Follow [Add subscription management contact workflow](#add-subscription-management-contact) to add association to the billing account where they were invited to.
+1. Follow [Add subscription management contact workflow](#add-subscription-management-contact) to associate the customer to the billing account to which they were invited.
 
 #### Error "Email has already been taken" reported
 
