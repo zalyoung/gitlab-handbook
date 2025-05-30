@@ -79,7 +79,7 @@ To be an effective ally it is important to understand some of the skills and beh
 1. Allies try to understand Perception vs. Reality
 1. Allies don't stop with their power they also leverage others powers of authority
 
-See our [Ally Resources Page]({{< ref "ally-resources" >}}) for more resources on being an ally.
+See our [Ally Resources Page](/handbook/communication/ally-resources/) for more resources on being an ally.
 
 ## Allyship & Empathy
 
@@ -214,7 +214,7 @@ Once completed you now have a safe group to discuss allyship with, either to get
 
 ## Ally Training
 
-We held a 50 minute [Live Learning](/handbook/people-group/learning-and-development#live-learning) Ally Training on 2020-01-28. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/18Qyn2mBJu0Loq3x_RT5bL2lnL-3YHvac1sQhmqqZNso/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1lGPImuahahjDejI5-9cNNCg-NMQJ4GCHO6n0fcntjs8/edit?usp=sharing).
+We held a 50 minute [Live Learning](/handbook/people-group/learning-and-development/#learning-delivery-methods---definitions) Ally Training on 2020-01-28. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/18Qyn2mBJu0Loq3x_RT5bL2lnL-3YHvac1sQhmqqZNso/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1lGPImuahahjDejI5-9cNNCg-NMQJ4GCHO6n0fcntjs8/edit?usp=sharing).
 
 {{< youtube "wwZeFjDc4zE" >}}
 
@@ -242,8 +242,8 @@ Allies familiarize themselves with GitLab's general DIB content
 
 - [Diversity, Inclusion & Belonging page](/handbook/company/culture/inclusion/)
 - [Gender and Sexual Orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity)
-- [DIB training resources]({{< ref "inclusion#diversity-inclusion--belonging-training-and-learning-opportunities" >}})
-- [Unconscious bias]({{< ref "unconscious-bias" >}})
+- [DIB training resources](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-learning--development)
+- [Unconscious bias](/handbook/company/culture/inclusion/unconscious-bias/)
 
 ## Ally Resources
 

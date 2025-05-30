@@ -21,6 +21,7 @@ addressable_markets.yml \
 categories.yml \
 currency_conversions.yml \
 data_assets.yml \
+data_warehouse_sources.yml \
 domain_expertise.yml \
 entity_mapper.yml \
 features.yml \

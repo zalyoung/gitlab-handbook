@@ -15,13 +15,13 @@ Sponsorship is defined as using your influence and/or power to advocate and posi
 - Giving advice on "presentation of self" to sponsee
 - Giving timely, honest feedback on skills, capabilities or experience gaps
 
-At GitLab a sponsorship program can be a way of rewarding and growing top performing GitLab team members. Alternatively, it can be used to increase representation or provide visibility to underrepresented groups at GitLab, which can be seen via the [Sales Sponsorship Program Pilot for Black Team Members]({{< ref "dib-sponsorship-program" >}}).
+At GitLab a sponsorship program can be a way of rewarding and growing top performing GitLab team members. Alternatively, it can be used to increase representation or provide visibility to underrepresented groups at GitLab, which can be seen via the [Sales Sponsorship Pilot Program](/handbook/company/culture/inclusion/dib-sponsorship/).
 
 This page outlines what sponsorship is and the pathway to creating a successful sponsorship program
 
 ### Mentorship
 
-Mentorship is defined in our [Mentoring handbook page:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
+Mentorship is defined in our [Mentoring handbook page:](/handbook/people-group/learning-and-development/mentor/) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
 
 [Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: "While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you."
 
@@ -65,7 +65,7 @@ The Executive Sponsorship Advocates are nominated senior leaders by the E-Group 
 
 **A sponsor at GitLab is:**
 
-- A Senior Leader at a minimum [job grade 10+]({{< ref "compensation-calculator#job-grades" >}}) and is not the sponsees direct manager.
+- A Senior Leader at a minimum [job grade 10+](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) and is not the sponsees direct manager.
   - The senior leader should be a People Manager or Manager of Managers
 - Must have been at GitLab for 6+ months
 - Be able to commit to the defined duration of the sponsorship program which will include

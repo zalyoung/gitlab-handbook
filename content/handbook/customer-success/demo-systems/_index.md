@@ -7,7 +7,7 @@ description: "The GitLab Demo Systems provide infrastructure for the GitLab Cust
 
 The GitLab Demo Systems provide infrastructure for the GitLab Customer Success, Marketing, Sales, and Training teams to demonstrate GitLab features, value propositions, and workflows in a variety of asynchronous and live capacities.
 
-The Demo Systems were originally architected by [Jeff Martin](https://gitlab.com/jeffersonmartin) starting in October 2019 when he was a Senior Demo Systems Engineer. Since Jeff moved to the IT team in June 2021, [Logan Stucker](https://gitlab.com/lfstucker) ([Demo Architecture](/handbook/solutions-architects/demo-architect/)) and [Scott Cosentino](https://gitlab.com/scottcosentinogitlab) ([GitLab University](https://university.gitlab.com)) have taken over as the primary maintainers of the Demo Systems, including supporting training instructors and students with [GitLab Learn Labs](https://gitlab.com/gitlab-learn-labs).
+The Demo Systems were originally architected by [Jeff Martin](https://gitlab.com/jeffersonmartin) starting in October 2019 when he was a Senior Demo Systems Engineer. Since Jeff moved to the IT team in June 2021, [Logan Stucker](https://gitlab.com/lfstucker) ([Demo Architecture](/handbook/solutions-architects/center-of-excellence/demo-architecture/)) and [Scott Cosentino](https://gitlab.com/scottcosentinogitlab) ([GitLab University](https://university.gitlab.com)) have taken over as the primary maintainers of the Demo Systems, including supporting training instructors and students with [GitLab Learn Labs](https://gitlab.com/gitlab-learn-labs).
 
 For questions about what demo sample projects are available or peer assistance with troubleshooting your failed pipeline job, please ask in the `#demo-architect-partners` Slack channel.
 
@@ -132,6 +132,10 @@ We keep our shared environment up-to-date with the latest versions to help showc
 
 For demo and sandbox use cases requiring an older version, you can deploy a GitLab instance in a container in the Container Sandbox or using Omnibus in the Compute Sandbox. We do not offer any data migration or parity configuration support.
 
+### GitLab Duo features
+
+GitLab Duo is enabled for the demo cloud environments. You may assign a seat to yourself & other users in the Admin settings.
+
 ## Tutorials
 
 - [Configuring GitLab with group-level Kubernetes cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/)
@@ -150,8 +154,6 @@ Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions
 These are the projects that make the Demo Systems possible behind the scenes. You are welcome to study and learn from any of our source code. Each project is classified as `Public` or `Private` depenending on the security risk of the source code or information contained within.
 
 ### Demo Systems v2 (Deprecated)
-
-Please refer to this Handbook page for the latest information related to Demo Projects & Demo Repositories  [Shared CS Demos](/handbook/solutions-architects/demo-architect/#shared-cs-demos).
 
 - `Public` Underlying Terraform Modules and Ansible Role
   - [terraform-modules](https://gitlab.com/gitlab-com/demo-systems/terraform-modules)

@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 Currently, we are showing all uploaded images 1:1, which is of course not ideal.
 To improve performance greatly, add image resizing to the backend. There are two

@@ -11,6 +11,13 @@ A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) f
 
 ## Issues
 
+### Contributor links
+
+To make it clear and easy for everyone to contribute, a [triage-ops processor](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/issue_summary.rb)
+adds contributor links to issues to enable customers/community members to label, close and assign themselves.
+
+GitLab team members can suppress these links by adding the `suppress-contributor-links` label.
+
 ### Labeling issues for community contributors
 
 See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).
@@ -66,7 +73,9 @@ More information on merge request coaches (including how to become a merge reque
 
 ## Contributing to the GitLab Enterprise Edition (EE)
 
-For community contributors to contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), they will need a license for EE. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
+### For community contributors
+
+To contribute to any of the paid features in [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), community contributors will need to add a license to their GDK. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
 
 Renewal of this license:
 
@@ -75,7 +84,42 @@ Renewal of this license:
 
 Contributors will need to create an request in this project to request their license: [Wider Community Contributor License Request](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/new?issuable_template=contributor_ee_license_request).
 
-(Internal link for GitLab team members) Upon evaluation of the contributor's request, a license request can be made using [this form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Make sure to follow the Zendesk Global Light Agent steps if you haven't already). The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license).
+### Processing Enterprise Edition (EE) License Requests
+
+To be completed by a GitLab team member:
+
+#### Prerequisites
+
+- Access to Zendesk support portal, requested via [Zendesk Global Light Agent form](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account).
+
+#### Process
+
+- Access the GitLab support [form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). (Internal link for team members only)
+- Select "GitLab L&R request for global customers" as the initial option
+- Choose "Wider community license" from the subsequent dropdown
+- Fill out the required fields provided in the request issue.
+  - Contact information: Use the requesting contributor's information
+- Other required fields:
+  - True-up: 0
+  - Priority of request: Low
+  - License type: Ultimate (unless otherwise specified)
+  - Expiration date:
+    - 90 days for new contributors
+    - 1 year for renewals
+  - Use Nick's email as approving manager if it is a 1 year renewal
+- In "What is the reason for the license being issued?" specify `Wider community contributor EE license request` and add a link to the license request issue.
+- Add a public comment to the request issue indicating the request has been submitted
+- The support form, when submitted, gives the user a link to the pipeline that "creates" the request in Zendesk. Save the link to this pipeline in an internal comment in case there are any issues that need investigating later.
+
+The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license) within 24 hours.
+
+#### Close
+
+After license is provisioned:
+
+- Add a public comment on the issue with confirmation that the license request has been provisioned
+- Add a confidential comment with a screenshot of the "Private Note" included in the email sent to you by support
+- Close the issue
 
 ## DCO and CLA Guidance
 
@@ -136,9 +180,9 @@ row at the bottom with the same structure.
 
 Caution: If an organization reaches the threshold it will be auto-enrolled in the program for receiving the review-time SLO.
 
-## GitLab MVP Selection Process
+## GitLab Notable Contributor Selection Process
 
-See [GitLab MVP Selection Process](/handbook/marketing/developer-relations/contributor-success/mvp-process).
+See [GitLab Notable Contributor Selection Process](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process).
 
 ## Contributor Thanks messages
 
@@ -288,7 +332,7 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Do it yourself](/handbook/values/#do-it-yourself)
 1. [Short toes](/handbook/values/#short-toes)
 1. [Collaboration is not consensus](/handbook/values/#collaboration-is-not-consensus)
-1. [Bias for action](/handbook/values/#bias-for-action)
+1. [Bias for action](/handbook/values/#operate-with-a-bias-for-action)
 1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)

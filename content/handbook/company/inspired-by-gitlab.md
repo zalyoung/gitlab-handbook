@@ -36,7 +36,7 @@ In this section we list the companies that have been inspired by GitLab with the
    - "Thanks Flexjob and GitLab for your time! Learning how to work efficiently on [all-remote] was really inspiring. We've learned a lot from your daily practices."
 1. [Upwork](https://www.linkedin.com/posts/haydenlbrown_skip-the-workacation-and-take-the-vacation-activity-6787399956862001152-3-rN)
    - "Skip the workacation and take the vacation! I totally +1 to GitLab's Darren M.'s comment that committing to our team's sanity starts with each of us creating boundaries, particularly in senior leadership. I have actively tried to publicize within my company to promote others to take time off, too."
-1. [Almanac](https://almanac.io/docs/almanac-handbook-5yyZ5TgtZJeCvH5B5WhHU5dwXezgEi6O)
+1. Almanac
    - "The Almanac team handbook is our company's operating system: a central doc repository of the principles, structures, and systems we use to run the company."
 1. [Tangram Visions](https://medium.com/tangram-visions/making-remote-work-work-with-gitlab-ffab5b0b6697)
    - "In particular, our engineering team has placed GitLab at the core of our remote workflow, because it reinforces our values and perspectives around working well remotely."
@@ -69,7 +69,7 @@ In this section we list the companies that have been inspired by GitLab with the
 1. [Vowel](https://twitter.com/franciscoferri/status/1346054673686523905)
    - "It's amazing what GitLab, Buffer, and Remote have done for the rest of the world by open sourcing how they operate remotely. I am convinced that in 10 years, we'll look back at these documents as a crucial step in the evolution of Remote Work."
 1. [Mighty](https://twitter.com/Suhail/status/1344662014937812994)
-   - "I've stolen this from GitLab, but I think you have to ensure a consistent experience where the people in an office aren't treated specially and you provide a [remote-first culture](/handbook/company/culture/all-remote/meetings/#avoid-hybrid-calls)."
+   - "I've stolen this from GitLab, but I think you have to ensure a consistent experience where the people in an office aren't treated specially and you provide a [remote-first culture](/handbook/company/culture/all-remote/meetings/#7-avoid-hybrid-calls)."
 1. [Journal](https://twitter.com/SamDeBrule/status/1372615291889451010)
    - "We couldn't have created the persona without examples from [@gitlab's handbook](/handbook/product/personas/#parker-product-manager)."
 1. [Aula](https://runekvist.substack.com/p/the-remote-work-bible)

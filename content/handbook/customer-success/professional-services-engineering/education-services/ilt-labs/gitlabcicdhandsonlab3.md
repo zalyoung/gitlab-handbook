@@ -2,6 +2,9 @@
 title: "GitLab CI/CD - Hands-On Lab: Configuring Pipeline Testing"
 description: "This Hands-On Guide demonstrates how to configure testing for a binary"
 ---
+
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Handling different test types (unit, integration, end to end)
@@ -20,9 +23,7 @@ Let’s introduce some code to test, as well as some unit tests for the code.
 
 1. Set the directory name to **ArrayUtils**.
 
-1. Make sure that **Start a new merge request with these changes** is toggled **Off**.
-
-1. Leave all other options as default and select **Create directory**.
+1. Make sure that **Commit to the current main branch** is selected, and click **Commit changes**.
 
 1. In the **ArrayUtils** directory, select **+ > New file**.
 
@@ -101,17 +102,17 @@ Generally, tests will run inside of the test stage of a CI/CD process.
 
 1. Create a job in the test stage that runs the tests we created for ArrayUtils.
 
-    *Coding Challenge:*
+{{% details summary="What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax, or click here for the solution."%}}
 
-    What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax.
+*Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
 
-    *Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
+```yaml
+test go:
+  stage: test
+  script: go test array/ArrayUtils
+```
 
-    ```yaml
-    test go:
-      stage: test
-      script: go test array/ArrayUtils
-    ```
+{{% /details %}}
 
 1. After adding these changes, select **Commit changes**.
 
@@ -121,8 +122,7 @@ Note that when we add the test stage, it automatically precedes our other stages
 
 ## Task C. Creating a failable job
 
-*Coding Challenge:*
-What would we add to our job configuration to define this behavior? Write the syntax.
+{{% details summary="*Coding Challenge:* What would we add to our job configuration to define this behavior? Write the syntax, or click here for the solution."%}}
 
 *Answer:* To allow a job to fail, you can add the `allow_failure` attribute to a job. If you have not done so yet, add `allow_failure: true` to your `test go` job. The job should look like the code below.
 
@@ -132,6 +132,8 @@ test go:
   script: go test array/ArrayUtils
   allow_failure: true
 ```
+
+{{% /details %}}
 
 1. To test this out, try adding a new test that will always fail. If you are unsure on how to write the test, edit your `ArrayUtils_test.go` file and copy the code below.
 
@@ -169,7 +171,7 @@ test go:
 
     In this example, the final test looks for a value that does not exist in the array, but expects it to find the value. This test will always fail as we are expecting the wrong result.
 
-1. Commit this code to main and observe the resulting pipeline.
+1. Select **Commit changes** and, commit the changes to a new branch called `failable-tests-branch`. Commit the code without a Merge Reuqest.
 
 1. Monitor the progress of your test job.
 
@@ -183,4 +185,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

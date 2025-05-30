@@ -1,6 +1,6 @@
 ---
 title: "Decision Velocity"
-summary: "Decisions are the fuel for high-performance teams. Conventional management philosophies often strive for consensus and avoid risk instead of developing a [bias for action](/handbook/values/#bias-for-action). This can result in slow decision-making. In TeamOps, success is correlated with **decision velocity**: the quantity of decisions made in a particular stretch of time (e.g. month, quarter) and the results that stem from faster progress."
+summary: "Decisions are the fuel for high-performance teams. Conventional management philosophies often strive for consensus and avoid risk instead of developing a [bias for action](/handbook/values/#operate-with-a-bias-for-action). This can result in slow decision-making. In TeamOps, success is correlated with **decision velocity**: the quantity of decisions made in a particular stretch of time (e.g. month, quarter) and the results that stem from faster progress."
 weight: 3
 canonical_path: "/teamops/decision-velocity/"
 images:
@@ -78,11 +78,11 @@ Giving agency begins in the most typical of places. Video calls are a natural pa
 
 As many decisions as possible should be made by the person doing the work (the [DRI](/teamops/equal-contributions/#directly-responsible-individual-dri)), not by their manager or their manager's manager. Fostering this kind of ownership can:
 
-- enhance [agency](/teamops/equal-contributions/#give-agency) by empowering people to directly and immediately make necessary changes to their work,
+- enhance [agency](#give-agency) by empowering people to directly and immediately make necessary changes to their work,
 - increase efficiency by eliminating delays while waiting for approval, and
 - free senior leaders from the burden of making decisions that stunt their own productivity.
 
-In the spirit of [iteration](/teamops/measurement-clarity/#iteration), TeamOps encourages executing a sub-optimal decision with full conviction—then returning to it later to improve upon it based on [post-decision feedback](/teamops/equal-contributions/#disagree-commit-and-disagree)—rather than executing on a full decision with sub-optimal conviction. Each project's DRI knows a project's moving parts and the impacts of a particular choice more than anyone else does; that person should be trusted with full accountability over it.
+In the spirit of [iteration](/handbook/values/#iteration), TeamOps encourages executing a sub-optimal decision with full conviction—then returning to it later to improve upon it based on [post-decision feedback](/teamops/measurement-clarity/#transparent-feedback)—rather than executing on a full decision with sub-optimal conviction. Each project's DRI knows a project's moving parts and the impacts of a particular choice more than anyone else does; that person should be trusted with full accountability over it.
 
 {{% details summary="Examples and resources for push decisions to the lowest possible level" %}}
 **Example:** [Updating Developer Advocate mentoring guidelines](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/107903)
@@ -104,9 +104,9 @@ A Senior Developer Advocate at GitLab recognized that many coaching and mentorin
 
 ## Bias for action
 
-A [bias for action](/handbook/values/#bias-for-action) accelerates ideation, collaboration, and execution better than alignment and consensus. This bias stems from the [agency](/teamops/equal-contributions/#give-agency) and [ownership](/teamops/decision-velocity/#push-decisions-to-the-lowest-possible-level) with which every individual is empowered in an organization practicing TeamOps. People can then use that autonomy to optimize their own proactivity, self-efficacy, and creativity. A team member operating in a conventional organizational context might feel compelled to ask "Should I?" A team member operating via TeamOps  can instead think "I will."
+A [bias for action](/handbook/values/#operate-with-a-bias-for-action) accelerates ideation, collaboration, and execution better than alignment and consensus. This bias stems from the [agency](#give-agency) and [ownership](/teamops/decision-velocity/#push-decisions-to-the-lowest-possible-level) with which every individual is empowered in an organization practicing TeamOps. People can then use that autonomy to optimize their own proactivity, self-efficacy, and creativity. A team member operating in a conventional organizational context might feel compelled to ask "Should I?" A team member operating via TeamOps  can instead think "I will."
 
-When facing decisions that may involve imperfect information or failures, having a bias for action ensures a more rapid pace of execution. This may require a greater organizational tolerance for mistakes and an appreciation for [two-way door decisions](/handbook/values/#make-two-way-door-decisions), which teams should discuss as part of their [shared reality](/teamops/shared-reality/#shared-reality) and their [collaboration guidelines](/teamops/decision-velocity/#collaboration-codification).
+When facing decisions that may involve imperfect information or failures, having a bias for action ensures a more rapid pace of execution. This may require a greater organizational tolerance for mistakes and an appreciation for [two-way door decisions](/handbook/values/#make-two-way-door-decisions), which teams should discuss as part of their [shared reality](/teamops/shared-reality/) and their [collaboration guidelines](/teamops/shared-reality/#collaboration-guidelines).
 
 {{% details summary="Examples and resources for bias for action" %}}
 **Example:** [Setting Internal Communication Guidelines for Standardized Tool Use](/handbook/communication/)
@@ -152,7 +152,6 @@ The [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_request
 
 GitLab's Recruitment Privacy Policy was updated. Rather than updating the policy behind closed doors, the [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/107652)  outlines the *why*. It provides context into how the change enables cross-functional groups to work more efficiently. The explanation of *why* enables more thoughtful conversation around a potentially polarizing topic (privacy).
 
-**Resource:** [Almanac's Guide to Asynchronous Communication](https://almanac.io/docs/guide-asynchronous-communication-18e32134c835a467b8dcb13b06a0aef0#:~:text=Asynchronous%20communication%20is%20the%20art,time%20your%20communique%20is%20sent.) (playbook)
 {{% /details %}}
 
 {{% details summary="Change management support for low-context communication" %}}

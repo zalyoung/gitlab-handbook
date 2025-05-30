@@ -10,7 +10,7 @@ participating-stages: ["~devops::verify", "~devops::package", "~devops::govern"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 GitLab and Google Cloud Platform (GCP) provide complementary tooling which we
 are integrating via our [partnership](https://about.gitlab.com/blog/2023/08/29/gitlab-google-partnership-s3c/).

@@ -108,7 +108,7 @@ we will need to put more work into building a simple solution.
 
 **Availability/Reliability**, **Quality**, **Security**, and **Performance** are the pillars for building reliable software. Reliability is our contract with our customers that say you can count on us to deliver an available and dependable product. Everyone in the organization has a role to play.
 
-Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana/), [Sentry](/handbook/support/workflows/sentry/), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) and [Quality](/handbook/engineering/quality/#mission) teams are the Subject Matter Experts supporting product development teams.
+Engineers, Product Managers, and Designers have the most direct influence over the reliability of the code through either planning, implementation, monitoring (e.g. [Kibana](/handbook/support/workflows/kibana/), [Sentry](/handbook/support/workflows/sentry/), Grafana and other [GitLab.com monitoring tools](/handbook/engineering/monitoring/#monitoring)), or prioritization of the work. Product and Engineering management monitors (e.g. [Error Budgets](/handbook/engineering/error-budgets/)) and measures the reliability of features and makes recommendations if necessary. Our focus on [learning and development](/handbook/people-group/learning-and-development/) will also ensure that teams have the tools and training required to build reliable software. The [Infrastructure](/handbook/engineering/infrastructure/#mission), [Application Security](/handbook/security/product-security/application-security/#application-security-mission), [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) and [Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience) teams are the Subject Matter Experts supporting product development teams.
 
 ## Velocity
 
@@ -246,7 +246,7 @@ For example, the following processes exist to reduce the risk and improve code q
 - [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
 - [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
 
-We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/development/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis/), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
+We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/devops/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis/), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
 
 Everyone can contribute by proposing new processes and improving upon existing processes.
 
@@ -283,7 +283,7 @@ In general, there is no need to change any behavior close to the self-managed re
 
 ### Dogfooding
 
-We [dogfood everything](/handbook/product/product-processes/#dogfood-everything). Based on our [product principles](/handbook/product/#product-principles), it is the Engineering division's responsibility to dogfood features or do the required discovery work to provide feedback to Product. It is Product's responsibility to prioritize improvements or rebuild functionality in GitLab.
+We [dogfood everything](/handbook/product/product-processes/dogfooding-for-r-d/). Based on our [product principles](/handbook/product/#product-principles), it is the Engineering division's responsibility to dogfood features or do the required discovery work to provide feedback to Product. It is Product's responsibility to prioritize improvements or rebuild functionality in GitLab.
 
 #### Dogfooding Antipatterns
 
@@ -293,7 +293,7 @@ product offers. Dogfooding is not:
 1. Building a bot outside of GitLab.
 1. Writing scripts that leverage the GitLab API (if the functionality is on our
 roadmap and could be shipped within the GitLab Project).
-1. Using a component of GitLab that is part of our [components](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) or [managed apps](https://docs.gitlab.com/ee/user/clusters/management_project_template.html).
+1. Using a component of GitLab that is not part of our [components](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) or [managed apps](https://docs.gitlab.com/ee/user/clusters/management_project_template.html).
 1. Using templates or repos that are not part of the default UI (having to type or copy-paste to add them).
 1. Not deprecating the non-GitLab product or part as you introduce the functionality in GitLab, we need to eat the dogfood, not just serve it.
 1. Using it for something that isn't crucial or essential.

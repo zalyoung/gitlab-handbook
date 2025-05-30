@@ -47,7 +47,7 @@ When asked during an [INSEAD](https://www.insead.edu/) case study interview (sho
 
 The handbook is focused on any content that GitLab team members need to do their job. For other content that might be useful, link to the other source.
 
-- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/ee/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)), not the Handbook, which is only for team members. Read more in the [Documentation](/handbook/product/ux/technical-writing/documentation/) section of the Handbook.
+- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/ee/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)), not the Handbook, which is only for team members.
 - For user facing company information, there's the main marketing [website](/handbook/marketing/digital-experience/), and the [blog](/handbook/marketing/blog/).
 - The handbook is for things concerning current and future GitLab team-members only. If something concerns users of GitLab, it should be documented in the [GitLab documentation](https://docs.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), the [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
@@ -100,7 +100,7 @@ See the [Searching GitLab like a pro](/handbook/tools-and-tips/searching/) page 
 
 1. After it is merged you can post this in the `#whats-happening-at-gitlab` slack channel if applicable. You can remind other people of this by asking "Can you please send a merge request for the handbook?"
 1. When substantially changing handbook layout, please leave a link to the specific page of the review app **that is directly affected by this MR**. Along with the link, include as much info as possible in the MR description. This will allow everyone to understand what is the purpose of the MR without looking at diffs.
-1. Keeping up with changes to the Handbook can be difficult, please follow the [commit subject guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#commit-messages-guidelines) with a particular focus on your merge request's title, to ensure someone reading the [Handbook Changelog](/handbook/about/changelog/) can quickly understand the MR's content.
+1. Keeping up with changes to the Handbook can be difficult, please follow the [commit subject guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#commit-messages-guidelines) with a particular focus on your merge request's title, to ensure someone can quickly understand the MR's content.
 1. Communicate process changes by linking to the **merged diff** (a commit that shows the changes before and after). If you are communicating a change for the purpose of discussion and feedback, it is ok to link to an **unmerged diff**. Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and it leads to outdated documentation. You can remind other people of this by asking "Can you please update the handbook first?"
 1. When feasible, introduce process changes iteratively. It is important that you contribute to the handbook by [making small merge requests](/handbook/values/#make-small-merge-requests). This will help gain adoption among the process's intended audience. We want to avoid significant process changes that are unnecessarily large, top-down, and disruptive. These types of process changes can disempower [DRIs](/handbook/people-group/directly-responsible-individuals/) and cause people to focus on process rather than results.
 1. Like everything else, our processes are always in flux. Everything is always in draft, and the initial version should be in the handbook, too. If you are proposing a change to the handbook, whenever possible, **skip the issue and submit a merge request**. (Proposing a change in a merge request is preferred over an issue description). Mention the people that are affected by the change in the merge request. In many cases, merge requests are easier to collaborate on since you can see the proposed changes.
@@ -229,11 +229,37 @@ More context on the technical reasons behind this:
 
 ### When to get approval
 
-Getting pinged to approve every small change to your page can be annoying, but someone changing a policy or procedure in the handbook without proper approval can have strong negative consequences. Use your best judgement on when to ask for approvals.
+Getting pinged to approve every small change to your page can be annoying, but
+someone changing a policy or procedure in the handbook without proper approval
+can have strong negative consequences. Use your best judgement on when to ask
+for approvals.
 
 Whenever reasonable, practice [responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). When you expect a page owner will appreciate your changes, go ahead and merge them without approval. Always ping the code owners with an @mention comment to inform them of the changes. They will be happy their page was made better and they didn't need to waste time reviewing and approving the change. In the event that something isn't an improvement, we practice [clean up over sign off](/handbook/values/#cleanup-over-sign-off).
 
-Whenever appropriate, such as publishing a previously internal-only document, get approval from the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) using the [approval feature](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html) before merging changes. Each page in the handbook shows the code owner listed under "Maintained by". The maintainer information and for list of groups that maintain a page, see the relevant [codeowners file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS). The page's code owner is the DRI for the page and has the final say for what appears in the handbook. When in doubt, get the DRI's permission before changing their page. Don't worry if the DRI is a C-level person. You can still assign your MRs to them, even if you are an individual contributor. This is because we prefer to [communicate directly](/handbook/communication/#communicate-directly).
+Whenever appropriate, such as publishing a previously internal-only document,
+get approval from the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) using the
+[approval feature](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html)
+before merging changes.
+
+#### Who can approve
+
+You can identify the owner of a handbook page by visiting the page on the web
+version of the handbook and viewing who is in the `Maintainers` section on the
+page being edited (on the right hand side of the page, which may be hidden on a
+smaller browser window).
+
+For some pages, the `Maintainers` section is empty. This is because the page is
+maintained by a group rather than individuals. To view which groups or
+individuals maintain a page, see the `CODEOWNERS` file of the relevant repository, such as [the handbook's `CODEOWNERS`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS).
+
+The page's code owners will also be visible when viewing the
+[approval section](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html) of the merge request.
+
+The page's code owner is the DRI for the page and has the final say for what
+appears in the handbook. When in doubt, get the DRI's permission before changing
+their page. Don't worry if the DRI is a C-level person. You can still assign
+your MRs to them, even if you are an individual contributor. This is because we
+prefer to [communicate directly](/handbook/communication/#communicate-directly).
 
 ### Have a peer review your changes
 

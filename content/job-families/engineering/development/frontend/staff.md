@@ -59,7 +59,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - Experience contributing to open source software
 - Domain knowledge relevant to the product stage you are looking to join (e.g. someone with CI/CD experience applying for the Verify & Release team)
 
-A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/career-development#engineering) for more detail.
+A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/careers/) for more detail.
 
 **Note:** Staff and above positions at GitLab are more of a role than just a "level". We prefer to bring people in as Senior and let the team elevate them to Staff due to an outstanding work history within GitLab.
 
@@ -84,7 +84,7 @@ The Staff Frontend Engineer is a [grade 8](/handbook/total-rewards/compensation/
 Candidates for a Frontend Engineering position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Selected candidates will be invited to complete a short written assessment.
-- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with either a Frontend Engineer or a Frontend Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute behavioral interview with an Engineering Manager
 - Candidates will then be invited to schedule a 60 minute interview with a Director of Engineering

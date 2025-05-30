@@ -195,4 +195,4 @@ Zuora Data to [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data/pl
 
 #### Zuora to NetSuite
 
-Zuora Revenue data is synced to NetSuite using the [Zuora Revenue to NetSuite Integration](/handbook/business-technology/enterprise-applications/integrations/wiki/integrations-list/zuora-revenue-to-netsuite/).
+Zuora Revenue data is synced to NetSuite using the [Zuora Revenue to NetSuite Integration](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/platypus/-/wikis/Integrations/Zuora-Revenue-to-Netsuite).

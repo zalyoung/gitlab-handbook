@@ -2,11 +2,11 @@
 title: Engineering Projects
 ---
 
-{{< projects-table >}}
+{{< engineering/projects-table >}}
 
 ---
 
-{{% projects-body %}}
+{{% engineering/projects-body %}}
 
 ---
 

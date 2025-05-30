@@ -144,7 +144,7 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 **Example:**
 
-1. [Git cheat sheet](/images/press/git-cheat-sheet.pdf)
+1. [Git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 1. [How GitLab accelerates workload deployments on AWS](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/uploads/59d1390557bb304e7401443c4e710c0f/gitlab-aws-ci_t-campaign-infographic-01.pdf)
 
 #### Topic page
@@ -165,7 +165,7 @@ Web articles are educational, informational content, designed to support topic p
 
 Case studies are in-depth customer stories that provide insight as to how GitLab has resolved significant software workflow problems for a company. The case study tells the story using quotes from customer interviews and straightforward metrics that broadly show the impact of adopting GitLab.
 
-[Case studies](https://about.gitlab.com/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#command-of-message-questions). The content team is responsible for writing the case study asset using [this template](https://docs.google.com/document/d/1UbhW2AEP7BfEZJGcp7w4LS6-W-xSeGET4K4NDr7bP0E/edit?usp=sharing), [publishing the case study](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#publishing-to-the-website) to the website, [adding the customer logo](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#adding-customer-logo-and-case-study-to-customers-grid) to the customer logo grid, and ensuring that the case study goes through proper social media and newsletter steps.
+[Case studies](https://about.gitlab.com/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/sales/command-of-the-message/). The content team is responsible for writing the case study asset using [this template](https://docs.google.com/document/d/1UbhW2AEP7BfEZJGcp7w4LS6-W-xSeGET4K4NDr7bP0E/edit?usp=sharing), [publishing the case study](/handbook/sales/command-of-the-message/) to the website, [adding the customer logo](/handbook/sales/command-of-the-message/) to the customer logo grid, and ensuring that the case study goes through proper social media and newsletter steps.
 
 **Examples:**
 

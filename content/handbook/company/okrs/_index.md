@@ -5,7 +5,6 @@ description: "An overview of how OKRs are done at GitLab."
 
 This page generally covers OKRs _at_ GitLab, including:
 
-1. [Company and function-level OKR expectations](#company-and-function-level-okr-expectations)
 1. [Considerations and guidance](#okrs-are-what-is-different)
 1. [OKR Process at GitLab](#okr-process-at-gitlab)
 1. [Maintaining the health status of OKRs](#maintaining-the-status-of-okrs)
@@ -13,16 +12,16 @@ This page generally covers OKRs _at_ GitLab, including:
 
 There is additional information on:
 
-1. What OKRs are, and general guidance on how to forumlate them, on [the general OKRs page](okrs-basics.md).
+1. What OKRs are, and general guidance on how to formulate them, on [the general OKRs page](okrs-basics.md).
 1. How to enter and organize OKRs in GitLab, on [the OKRs in GitLab page](okrs-in-gitlab.md).
 
 ## Overview
 
-[OKRs](okrs-basics.md) are quarterly objectives that help us achieve our [KPIs](../kpis.md), and [yearlies](../yearlies.md).
+[OKRs](okrs-basics.md) are quarterly objectives that help us achieve our [KPIs](../kpis.md).
 
 We do not use it to [give performance feedback](/handbook/people-group/360-feedback/) or as a [compensation review](/handbook/total-rewards/compensation/) for team members.
 
-The [E-Group](/handbook/company/structure/#e-group) does use it for their [Performance Enablement Reviews](/handbook/people-group/learning-and-development/career-development/#performance-enablement-review).
+The [E-Group](/handbook/company/structure/#e-group) does use it for their [Performance Enablement Reviews](/handbook/people-group/learning-and-development/career-development/#e-group-performance-enablement-review).
 
 The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) initiates and guides the OKR process.
 
@@ -31,27 +30,8 @@ The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-s
 Our OKR process and timelines are public and listed on the pages below.
 
 - [FY25-Q4 Active](/handbook/company/okrs/fy25-q4/)
-- [Previous OKRs](#okr-archive)
 
 OKRs are internal-only in line with guidance from the [SAFE framework](/handbook/legal/safe-framework/).
-
-## Company and function-level OKR expectations
-
-Company-level [Yearlies](/handbook/company/yearlies/) guide company-level Objectives and Key Results though company-level goals are revisited and set on a quarterly basis. At a minimum, each Function should inherit the company-level Objectives for their function-level Objectives and have 1-3 function level Key Results that supports company Objective and KR attainment each quarter.
-
-Individual functions and teams have discretion around how much they use OKRs beyond the Yearly cascade level.
-
-### Cadence
-
-OKRs are part of our company [cadence](/handbook/company/cadence/).
-
-Since OKRs create progress for our [Yearlies](/handbook/company/yearlies/), by achieving our quarterly priorities, we create progress for the rest of the items on the cadence page. By achieving our yearlies, we create progress to achieving our [strategy](/handbook/company/strategy/). Achieving our strategy is key to realizing our [vision](/handbook/company/vision/), [mission](/handbook/company/mission/), and eventually [purpose](/handbook/company/purpose/). In this way, OKRs are quarterly building blocks that create progress toward longer term goals.
-
-### Alignment
-
-OKRs are our quarterly priorities that create progress toward our [Yearlies](/handbook/company/yearlies/), which are our annual company goals. Since OKRs create progress for yearlies, OKRs are aligned to one of the yearlies.
-
-OKRs are directly aligned to yearlies and not directly aligned to one of the three pillars of the [three year strategy](/handbook/company/strategy/#three-year-strategy).
 
 ## OKRs are what is different
 
@@ -91,14 +71,14 @@ The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to t
 
 **In the first month of the fiscal quarter,** the Chief of Staff (CoS) to the CEO initiates the OKR process. The CoS works with the CEO will propose big themes and priorities for next quarter. Yearlies are consulted in the drafting process. The CoS to the CEO creates a Google Doc for E-Group alignment. This document is shared with E-Group in an [E-Group Weekly](/handbook/company/e-group-weekly/). E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
 
-**In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alignment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.  
+**In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alignment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.
 
 ### Executives propose OKRs for their functions
 
 Function objectives should cascade from one of the Company OKRs in GitLab.
 
 **3-4 weeks before** the start of the fiscal quarter, E-Group firms up KRs.
-**2-3 weeks before** the start of the fiscal quarter, during a designated block of time in an [E-Group Weekly](/company/e-group-weekly/), Executives propose OKRs for their functions. At a minimum, they should have 2-3 function KRs that cascade from each company-level objective. They may choose to have more OKRs for function management purposes and have discretion to what degree other goals are highlighted in this forum.
+**2-3 weeks before** the start of the fiscal quarter, during a designated block of time in an [E-Group Weekly](/handbook/company/e-group-weekly/), Executives propose OKRs for their functions. At a minimum, they should have 2-3 function KRs that cascade from each company-level objective. They may choose to have more OKRs for function management purposes and have discretion to what degree other goals are highlighted in this forum.
 
 After this meeting, as OKRS are finalized, functional OKRs should be posted in GitLab. This should be noted through a Slack message in the #okrs channel. The CEO and Chief of Staff to the CEO should be @ mentioned. The CEO will confirm sign-off on objectives by commenting directly on them. While the CEO is the DRI, this responsibility may be delegated to the CoS to the CEO. The CoS to the CEO will also post company OKRs in GitLab.
 
@@ -126,7 +106,7 @@ It is each team's responsibility to proactively identify dependencies in which t
 
 ### Documenting How to Achieve
 
-A dedicated session during an [E-Group Weekly](/company/e-group-weekly/) is the key the forum for introducing new function OKRs. During the draft review meeting, each function should share:
+A dedicated session during an [E-Group Weekly](/handbook/company/e-group-weekly/) is the key the forum for introducing new function OKRs. During the draft review meeting, each function should share:
 
 1. KRs that related to company-OKRs, including:
      1. CEO OKR that cascade from
@@ -172,7 +152,7 @@ In the event that a functional objective that is captured in GitLab needs to be 
 
 ## Format of OKR on the Handbook Page
 
-Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
+Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
 
 Functional leaders are responsible for updating their objectives and KRs in GitLab before review meetings.
 
@@ -214,35 +194,3 @@ See also [Tips for OKRs that are scoreable](okrs-basics.md#tips-for-okrs-that-ar
 
 Everyone is welcome to a suggestion to improve any OKR.
 To update please make a merge request and post a link to the MR in the #okrs channel in Slack and at-mention the Chief of Staff to the CEO. If commenting on a functional objective or KR, comment directly on the OKR in GitLab.
-
-## OKR Archive
-
-- [FY25-Q3](/handbook/company/okrs/fy25-q3/)
-- [FY25-Q2](/handbook/company/okrs/fy25-q2/)
-- [FY25-Q1](/handbook/company/okrs/fy25-q1/)
-- [FY24-Q4](/handbook/company/okrs/fy24-q4/)
-- [FY24-Q3](/handbook/company/okrs/fy24-q3/)
-- [FY24-Q2](/handbook/company/okrs/fy24-q2/)
-- [FY24-Q1](/handbook/company/okrs/fy24-q1/)
-- [FY23-Q4](/handbook/company/okrs/fy23-q4/)
-- [FY23-Q3](/handbook/company/okrs/fy23-q3/)
-- [FY23-Q2](/handbook/company/okrs/fy23-q2/)
-- [FY23-Q1](/handbook/company/okrs/fy23-q1/)
-- [FY22-Q4](/handbook/company/okrs/fy22-q4/)
-- [FY22-Q3](/handbook/company/okrs/fy22-q3/)
-- [FY22-Q2](/handbook/company/okrs/fy22-q2/)
-- [FY22-Q1](/handbook/company/okrs/fy22-q1/)
-- [FY21-Q4](/handbook/company/okrs/fy21-q4/)
-- [FY21-Q3](/handbook/company/okrs/fy21-q3/)
-- [FY21-Q2](/handbook/company/okrs/fy21-q2/)
-- [FY21-Q1](/handbook/company/okrs/fy21-q1/)
-- [FY20-Q4](/handbook/company/okrs/fy20-q4/)
-- [FY20-Q3](/handbook/company/okrs/fy20-q3/)
-- [FY20-Q2](/handbook/company/okrs/fy20-q2/)
-- [FY20-Q1](/handbook/company/okrs/fy20-q1/)
-- [CY18-Q4](/handbook/company/okrs/2018-q4/)
-- [CY18-Q3](/handbook/company/okrs/2018-q3/)
-- [CY18-Q2](/handbook/company/okrs/2018-q2/)
-- [CY18-Q1](/handbook/company/okrs/2018-q1/)
-- [CY17-Q4](/handbook/company/okrs/2017-q4/)
-- [CY17-Q3](/handbook/company/okrs/2017-q3/)

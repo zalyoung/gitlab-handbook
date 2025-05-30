@@ -11,7 +11,7 @@ UX research workshops are useful because they offer UX Researchers a way to coll
 
 ## Getting started
 
-This handbook page covers the main steps involved to conduct a UX research workshop. If you have any questions about this process, please contact your [UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned). They can assist with setting up and/or leading a UX research workshop for your team.
+This handbook page covers the main steps involved to conduct a UX research workshop. If you have any questions about this process, please contact your [UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-team-members-are-assigned). They can assist with setting up and/or leading a UX research workshop for your team.
 
 ## Step 1: Select a UX research workshop
 

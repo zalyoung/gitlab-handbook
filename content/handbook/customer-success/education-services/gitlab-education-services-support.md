@@ -59,8 +59,6 @@ In order to access Zapier, which is used for integrations and webhooks between s
 
 All Zaps associated with the Education Services Team are found within the following folder in [Zapier](https://zapier.com/app/zaps/folder/840205).
 
-Please see the following handbook page for [Zapier Training](/handbook/support/readiness/operations/docs/zapier/).
-
 ### Credly
 
 ---

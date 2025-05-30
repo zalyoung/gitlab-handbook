@@ -4,7 +4,7 @@ title: Field Marketing and Events
 
 ## Important to Know
 
-- If you are looking to work with a new service provider, review the policy for selecting new suppliers on the [Vendor Selection Process](/handbook/finance/procurement/vendor-selection-process/) page.
+- If you are looking to work with a new service provider, review the policy for selecting new suppliers on the [Vendor Selection Process](/handbook/finance/procurement/) page.
 - Do NOT agree to ANY business, legal, and or pricing prior to engaging the Procurement Team.
   - This ensures alignment across the multiple functions to make good-faith commitments to vendors and don't put our company in to possible risk.
 
@@ -17,7 +17,7 @@ title: Field Marketing and Events
     1. If this is an existing supplier (or once your new supplier is in the system) select "Write a request" in the upper right of your screen under the search bar.
     1. Enter the required Fields and "Add to Cart"
     1. Click on your Cart in the upper right, complete remaining fields. Be prepared to include the following:
-        - Whether or not the vendor will have access to [red and/or orange data]({{< ref "data-classification-standard#data-classification-levels" >}})
+        - Whether or not the vendor will have access to [red and/or orange data](/handbook/security/standards/data-classification-standard/#data-classification-levels)
         - All data and systems the vendor will have access to
             - Failure to complete this field will significantly delay the review and approval of your request.
         - Vendor's Security Contact Email (oftentimes this is different from the main contact. Providing the head of security contact info from the vendor's company will expedite the security review and avoid delays)

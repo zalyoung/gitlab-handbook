@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -42,33 +42,35 @@ This re-architecture project has several multifaceted objectives.
 
 As the list of goals above shows, there are a good number of desired outcomes we would like to see at the end of implementation. To reach these goals, we will break this work up into smaller iterations.
 
-1. [Phase one: Build Zuora Subscription Cache Models](#phase-one-build-zuora-subscription-cache-models)
+1. [Phase one: Build models for Zuora subscriptions local copy](#phase-one-build-models-for-zuora-subscriptions-local-copy)
 
-    The first iteration focuses on creating the foundation for the local cache for Zuora Subscription objects, including Rate Plans, Rate Plan Charges, and Rate Plan Charge Tiers, in CustomersDot. This involves creating the database tables and models for the cache resources.
+    The first iteration focuses on creating the foundation for the local copy for Zuora Subscription objects, including Rate Plans, Rate Plan Charges, and Rate Plan Charge Tiers, in CustomersDot. This involves creating the database tables and models for the local copy of resources.
 
     [Phase 1: Build Zuora Cache Models (&11751)](https://gitlab.com/groups/gitlab-org/-/epics/11751)
 
-1. [Phase two: Implement Zuora Cache Sync and Backfill](#phase-two-implement-zuora-cache-sync-and-backfill)
+1. [Phase two: Implement sync and backfill of Zuora subscriptions local copy](#phase-two-implement-sync-and-backfill-of-zuora-subscriptions-local-copy)
 
     The second iteration involves establishing a sync between Zuora and the newly introduced models. Additionally, existing Zuora Subscription data will need to be backfilled to ensure seamless integration and data consistency.
 
     [Phase 2: Implement Zuora Cache Sync and Backfill (&13630)](https://gitlab.com/groups/gitlab-org/-/epics/13630)
 
-1. [Phase three: Utilize Zuora Cache Models](#phase-three-utilize-zuora-cache-models)
+1. [Phase three: Utilize Zuora subscriptions local copy](#phase-three-utilize-zuora-subscriptions-local-copy)
 
-    In the third phase, the objective is to leverage the Zuora cache models introduced in phase one and synchronized in phase two. The focus will be on replacing any code in CustomersDot that currently makes read requests to Zuora for Subscription data with ActiveRecord queries. This shift should lead to a significant performance improvement.
+    In the third phase, the objective is to leverage the Zuora subscriptions local copy introduced in phase one and synchronized in phase two. The focus will be on replacing any code in CustomersDot that currently makes read requests to Zuora for Subscription data with ActiveRecord queries. This shift should lead to a significant performance improvement.
 
     [Phase 3: Utilize Zuora Cache Models (&11752)](https://gitlab.com/groups/gitlab-org/-/epics/11752)
 
 1. [Phase four: Transition from `Order` to `Subscription`](#phase-four-transition-from-order-to-subscription)
 
-    The next iteration focuses on transitioning away from the CustomersDot `Order` model to a new model for Subscription.
+    The next iteration focuses on trimming down the `Order` model and resolving data consistency issues.
 
     [Phase 4: Replace CDot Order with Subscription (&11753)](https://gitlab.com/groups/gitlab-org/-/epics/11753)
 
+- Note: The implementation of the local models doesn't match a traditional cache, as such it was decided to refer to them as local copy instead. The references to cache were updated accordingly, except the names of the completed and in progress issues.
+
 ## Design and implementation details
 
-### Phase one: Build Zuora Subscription Cache Models
+### Phase one: Build models for Zuora subscriptions local copy
 
 The first phase for this blueprint focuses on adding new models for caching Zuora Subscription data locally in CustomersDot. These local data models will allow CustomersDot to query the local database for Zuora Subscriptions. Currently, this requires querying directly to Zuora which can be problematic if Zuora is experiencing downtime. Zuora also has rate limits for API usage which we want to avoid as CustomersDot continues to scale.
 
@@ -188,24 +190,24 @@ erDiagram
 #### Notes
 
 - The namespace `Zuora` is already taken by the classes used to extend `IronBank` resource classes. These classes will be moved to the namespace `Zuora::Remote` to indicate these are intended to reach out to Zuora. This frees up the `Zuora` namespace to be used for other purposes in later Phases.
-- The new models related to Zuora cached data will be added to the namespace `Zuora::Local`. This has nice symmetry with `Zuora::Remote` and makes it clear which classes refer to the remote Zuora data source or the local data source.
+- The new models related to Zuora subscriptions local copy will be added to the namespace `Zuora::Local`. This has nice symmetry with `Zuora::Remote` and makes it clear which classes refer to the remote Zuora data source or the local data source.
 - All versions of Zuora Subscriptions will be stored in this table to be able to support display of current as well as future purchases when Zuora is down. One of the guiding principles from the Architecture Review meeting on 2023-08-06 was "Customers should be able to view and access what they purchased even if Zuora is down". Given that customers can make future-dated purchases, CustomersDot needs to store current and future versions of Subscriptions.
 - `zuora_id` would be the primary key given we want to avoid the field name `id` which is magical in ActiveRecord.
 - The timezone for Zuora Billing is configured as Pacific Time. Let's account for this timezone as we sync data from Zuora into CDot's cached models to allow for more accurate comparisons.
 
-### Phase two: Implement Zuora Cache Sync and Backfill
+### Phase two: Implement sync and backfill of Zuora subscriptions local copy
 
 The second phase for this blueprint focuses building the mechanisms to keep the local data in sync with Zuora and backfilling the existing data. Ideally, the local cache models would be read-only for most of the application to ensure the data stays in sync. Only the syncing mechanism would have the ability to write to these models.
 
 #### Keeping data in sync with Zuora
 
-CDot currently receives and processes `Order Processed` Zuora callouts for Order actions like `Update Product` ([full list](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/64c5d17bac38bef1156e9a15008cc7d2b9aa46a9/lib/zuora/order.rb#L26)). These callouts help to keep CustomersDot in sync with Zuora and trigger provisioning events. These callouts will be important to keeping `Zuora::Local::Subscription` and related cached models in sync with changes in Zuora.
+CDot currently receives and processes `Order Processed` Zuora callouts for Order actions like `Update Product` ([full list](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/64c5d17bac38bef1156e9a15008cc7d2b9aa46a9/lib/zuora/order.rb#L26)). These callouts help to keep CustomersDot in sync with Zuora and trigger provisioning events. These callouts will be important to keeping `Zuora::Local::Subscription` and related local models in sync with changes in Zuora.
 
-This existing callout would not be sufficient to cover all changes to a Zuora Subscription though. In particular, changes to custom fields may not be captured by these existing callouts. We will need to create custom events and callouts for any custom field cached in CustomersDot for any of these resources to ensure CDot is in sync with Zuora. This should only affect `Zuora::Local::Subscription` though as no custom fields are used by CustomersDot on any of the other proposed cached resources at this time.
+This existing callout would not be sufficient to cover all changes to a Zuora Subscription though. In particular, changes to custom fields may not be captured by these existing callouts. We will need to create custom events and callouts for any custom field in the Zuora subscriptions local copy in CustomersDot for any of these resources to ensure CDot is in sync with Zuora. This should only affect `Zuora::Local::Subscription` though as no custom fields are used by CustomersDot on any of the other proposed local resources at this time.
 
 #### Read only models
 
-Given the data stored in these new models are a copy of Zuora data, it will important to ensure these models are modified within the appropriate context, not throughout the application. We want a clear separation when a cached model can be in "write" mode versus "read-only" mode. This separation helps avoid writing to a cached model inappropriately or mistakenly. We considered different options as part of [this Spike issue](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/8511).
+Given the data stored in these new models are a copy of Zuora data, it will important to ensure these models are modified within the appropriate context, not throughout the application. We want a clear separation when a local copy of a resource can be in "write" mode versus "read-only" mode. This separation helps avoid writing to the local copy of a resource inappropriately or mistakenly. We considered different options as part of [this Spike issue](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/8511).
 
 We aligned on creating a concern, `ReadOnlyRecord`, that will prevent a save when included in an ActiveRecord model.
 
@@ -221,37 +223,106 @@ end
 
 - Attempting to save (e.g. create, update, or destroy) one of these models would raise an error (e.g. `ActiveRecord::ReadOnlyRecord: Subscription is marked as readonly`)
 - Even with this code, a record could still be deleted with `record.delete`. We could write a RuboCop rule for avoiding using delete (possibly even for just these ReadOnlyModels). We could also overwrite this method to raise an error as well.
-- Within certain namespaces like the Zuora cache sync service, we want access to a model that have write privileges.
+- Within certain namespaces like the Zuora subscriptions local copy sync service, we want access to a model that have write privileges.
 
-#### Rollout of Zuora Cache models
+#### Rollout of Zuora subscriptions local copy
 
-With the first iteration of introducing the cached Zuora data models, we will take an iterative approach to the rollout. There should be no impact to existing functionality as we build out the models, start populating the data through callouts, and backfill these models. Once this is in place, we will iteratively update existing features to use these cached data models instead of querying Zuora directly.
+With the first iteration of introducing the models for Zuora subscriptions local copy, we will take an iterative approach to the rollout. There should be no impact to existing functionality as we build out the models, start populating the data through callouts, and backfill these models. Once this is in place, we will iteratively update existing features to use the Zuora subscriptions local copy instead of querying Zuora directly.
 
-We will make this transition using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using these cache models. This will help us deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
+We will make this transition using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using Zuora subscriptions local copy. This will help us deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
 
-Testing can be performed before the cached models are used in the codebase to ensure data integrity of the cached models.
+Testing can be performed before Zuora subsctiptions local copy is used in the codebase to ensure data integrity of the models of subscriptions local copy.
 
-### Phase three: Utilize Zuora Cache Models
+### Phase three: Utilize Zuora subscriptions local copy
 
-This phase covers the third phase of work of the Orders re-architecture. In this phase, the focus will be utilizing the new Zuora cache data models introduced in phase one. Querying Zuora for Subscription data is fundamental to Customers so there are plenty of places that will need to be updated. In the places where CDot is reading from Zuora, it can be replaced by querying the local cache data models instead. This should result in a big performance boost by avoiding third party requests, particularly in components like the Seat Link Service.
+This phase covers the third phase of work of the Orders re-architecture. In this phase, the focus will be utilizing the new models for Zuora subscriptions local copy introduced in phase one. Querying Zuora for Subscription data is fundamental to Customers so there are plenty of places that will need to be updated. In the places where CDot is reading from Zuora, it can be replaced by querying the local copy instead. This should result in a big performance boost by avoiding third party requests, particularly in components like the Seat Link Service.
 
-This transition will be completed using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using these cache models. This will help to deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
+This transition will be completed using many small scoped feature flags, rather than one large feature flag to gate all of the new logic using these models for local copy. This will help to deliver more quickly and reduce the length with which feature flag logic is maintained and test cases are retained.
 
 ### Phase four: Transition from `Order` to `Subscription`
 
-The fourth phase for this blueprint focuses on transitioning away from the CustomersDot `Order` model to a new model for `Subscription`. This phase will consist of creating a new model for `Subscription`, supporting both models during the transition period, updating existing code to use `Subscription` and finally removing the `Order` model once it is no longer needed.
+The fourth phase for this blueprint focuses on trimming the `orders` table and resolving data consistency issues.
 
-Replacing the `Order` model with a `Subscription` model should address the goal of eliminating confusion around the `Order` model. The data stored in the CustomersDot `Order` model does not correspond to a Zuora Order. It more closely resembles a Zuora Subscription with some additional metadata about syncing with GitLab.com. The transition to a `Subscription` model, along with the local cache layer in phase one, should address the goal of better data accuracy and building trust in CustomersDot data.
+#### 1. Trimming `orders` table
+
+We want to go over the below attributes and evaluate if their functionality can be replaced with methods. If it is feasible, we should remove the column from the `orders` table and add a new method for it in `Order` model.
+
+- billing_account_id
+- product_rate_plan_id
+- subscription_id
+- start_date
+- end_date
+- quantity
+- amendment_type
+- source
+
+##### Current schema of orders table
+
+| Column                             | Action                            |
+| ---------------------------------- | --------------------------------- |
+| customer_id                        | Handle in trials data migration * |
+| product_rate_plan_id               | Evaluate and remove if feasible   |
+| subscription_id                    | Evaluate and remove if feasible   |
+| subscription_name                  | Keep                              |
+| start_date                         | Evaluate and remove if feasible   |
+| end_date                           | Evaluate and remove if feasible   |
+| quantity                           | Evaluate and remove if feasible   |
+| gl_namespace_id                    | Keep                              |
+| gl_namespace_name                  | Keep                              |
+| amendment_type                     | Evaluate and remove if feasible   |
+| trial                              | Handle in trials data migration * |
+| last_extra_ci_minutes_sync_at      | Keep                              |
+| zuora_account_id                   | Keep                              |
+| increased_billing_rate_notified_at | Keep                              |
+| reconciliation_accepted            | Keep                              |
+| source                             | Evaluate and remove if feasible   |
+| seat_overage_notified_at           | Keep                              |
+| auto_renew_error_notified_at       | Keep                              |
+| billing_account_id                 | Evaluate and remove if feasible   |
+| monthly_seat_digest_notified_on    | Keep                              |
+| source_gl_namespace_id             | Keep                              |
+| trial_type                         | Handle in trials data migration * |
+
+- Trials data migration is being done as part of https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/11047
+
+#### 2. Resolving data issues
+
+There should be only one order per subscription name, but there are a few duplicates present. These duplicates are created because of the current behavior when processing an `Order Processed` callout in CDot if the `zuora_account_id` changes for a Zuora Subscription.
+
+  1. The Billing Account Membership is updated to the new Billing Account for the CDot `Customer` matching the Sold To email address.
+  1. CDot attempts to find the CDot `Order` with the new `billing_account_id` and `subscription_name`.
+  1. If an `Order` isn't found matching this criteria, a new `Order` is created. This leads to two `Order` records for the same Zuora Subscription.
+
+This should be fixed and existing duplicates should be removed.
+
+To resolve existing duplicates we need to -
+
+  1. Determine which record to keep in case of duplicate, and add rake task to delete the appropriate data
+  1. Add unique db constraint and model validation for subscription_name + zuora account id
+
+Subscription related data such as `start_date`, `end_date`, `quantity`, `amendment_type` can be delegated to the latest subscription.
+
+To find the latest subscription you just need its name:
+
+- ID refers to a specific version
+- Name is common for all versions of a subscription
+
+The `zuora_subscription_id` could be set to the latest version on typical updates. Most of the data on `Order` is GitLab metadata (e.g. `last_extra_ci_minutes_sync_at`) so it wouldn't need to be updated.
+
+#### 3. Rename `Order` and/or `Subscription` (TBD)
+
+Renaming the `Order` model and `orders` table could eliminate confusion around the `Order` model. The data stored in the CustomersDot `Order` model does not correspond to a Zuora Order. As `Order` more closely resembles a Zuora Subscription with some additional metadata about syncing with GitLab.com, it could be renamed to `Subscription`.
+
+The rename of `Order` model is up for debate given a `Subscription` model already exists.
 
 #### Proposed DB schema
 
 ```mermaid
 erDiagram
-  Subscription ||--|{ "Zuora::Local::Subscription" : "has many"
+  Order ||--|{ "Zuora::Local::Subscription" : "has many"
 
-  Subscription {
+  Order {
     bigint id PK
-    bigint billing_account_id
     string(64) zuora_account_id
     string(64) zuora_subscription_id
     string zuora_subscription_name
@@ -276,44 +347,16 @@ erDiagram
 
 #### Notes
 
-- The name for this model is up for debate given a `Subscription` model already exists. The existing model could be renamed with the hope of eventually replacing it with the new model.
 - This model serves as a record of the Subscription that is modifiable by the CDot application, whereas the `Zuora::Local::Subscription` table below should be read-only.
-- `zuora_account_id` could be added as a convenience but could also be fetched via the `billing_account`.
 - There will be one `Subscription` record per actual subscription instead of a Subscription version.
   - This has the advantage of avoiding duplication of fields like `gitlab_namespace_id` or `last_extra_ci_minutes_sync_at`.
   - The `zuora_subscription_id` column could be removed or kept as a reference to the latest Zuora Subscription version.
 
-#### Keeping data in sync with Zuora
+##### Trial data
 
-The `Subscription` model should stay in sync with Zuora as subscriptions are created or updated. This model will be synced when we sync `Zuora::Local::Subscription` records, similar to how the cached models are synced when processing Zuora callouts as described in phase one. When saving a new version of a `Zuora::Local::Subscription`, an update could be made to the `Subscription` record with the matching `zuora_subscription_name`, or create a `Subscription` if one does not exist. The `zuora_subscription_id` would be set to the latest version on typical updates. Most of the data on `Subscription` is GitLab metadata (e.g. `last_extra_ci_minutes_sync_at`) so it wouldn't need to be updated.
+The CDot Order model contains paid subscription data, as well as trials data such as `customer_id`, `trial`, `trial_type`.
 
-The exception to this update rule are the `zuora_account_id` and `billing_account_id` attributes. Let's consider the current behavior when processing an `Order Processed` callout in CDot if the `zuora_account_id` changes for a Zuora Subscription:
-
-1. The Billing Account Membership is updated to the new Billing Account for the CDot `Customer` matching the Sold To email address.
-1. CDot attempts to find the CDot `Order` with the new `billing_account_id` and `subscription_name`.
-1. If an `Order` isn't found matching this criteria, a new `Order` is created. This leads to two `Order` records for the same Zuora Subscription.
-
-This scenario should be avoided for the new `Subscription` model. One `Subscription` should exist for a unique `Zuora::Local::Subscription` name. If the Zuora Subscription transfers Accounts, the `Subscription` should as well.
-
-#### Unknowns
-
-Several unknowns are outlined below. As we get further into implementation, these unknown should become clearer.
-
-##### Trial data in Subscription?
-
-The CDot `Order` model contains paid subscription data as well as trials. For `Subscription`, we could choose to continue to have paid subscription and trial data together in the same table, or break them into their own models.
-
-The `orders` table has fields for `customer_id` and `trial` which only really concern trials. Should these fields be added to the `Subscription` table? Should `Subscription` contain trial information if it doesn't exist in Zuora?
-
-If trial orders were broken out into their own table, these are the columns likely needed for a (SaaS) `trials` table:
-
-- `customer_id`
-- `product_rate_plan_id` (or rename to `plan_id` or use `plan_code`)
-- `quantity`
-- `start_date`
-- `end_date`
-- `gl_namespace_id`
-- `gl_namespace_name`
+New tables and models for trial data were added in [Build new trial structures](https://gitlab.com/gitlab-org/customers-gitlab-com/-/merge_requests/9422). The migration of the trials data to these new structures is being handled as part of [Move GitLab.com Trials to use new data structure](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/11047).
 
 ### Resources
 

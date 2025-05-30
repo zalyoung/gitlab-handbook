@@ -2,7 +2,7 @@
 title: CorpSec Team Directory
 ---
 
-The Corporate Security department provides tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.), and configuration management [engineering](/handbook/security/corporate/services/engineering) for the company-wide systems that we manage.
+The Corporate Security department provides tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.), and configuration management [engineering](/handbook/security/corporate/services/infrastructure/) for the company-wide systems that we manage.
 
 ## Team Directory
 

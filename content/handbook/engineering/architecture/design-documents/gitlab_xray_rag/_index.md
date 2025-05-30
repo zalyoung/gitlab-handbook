@@ -10,7 +10,7 @@ participating-stages: ["~devops::data stores"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 Group ~"group::global search" is leading effort to build [RAG at GitLab](../gitlab_rag/). Because this is a global effort, it is in the spirit of efficiency and collaboration values for ~"group::code creation" to join that effort and integrate [Repository X-Ray](https://gitlab.com/gitlab-org/code-creation/repository-x-ray#repository-x-ray) data into GitLab RAG. Doing so should not only result in more efficient resource allocation, but also enable other AI features to integrate and reuse Repository X-Ray data, for example users could ask questions to GitLab Duo Chat that could be answered with X-Ray report data.
 

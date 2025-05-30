@@ -55,7 +55,6 @@ In conventional organizations, multiple departments may maintain their own versi
 
 **Recommended TeamOps Partners:**
 
-- [Almanac](https://almanac.io/) (tool)
 - [Distribute Consulting](https://www.distributeconsulting.com/) (consultant)
 {{% /details %}}
 
@@ -81,7 +80,7 @@ This type of system scales with much less effort, and scalable leadership is eff
 
 ## Collaboration guidelines
 
-Many organizations are so focused on finalizing a decision that they neglect the critical precursor to a successful agreement: setting standards for ***how*** that decision will be made. TeamOps stresses intentionally designing, building, and reinforcing shared workstreams and collaboration environments through which decisions and projects flow. This helps align expectations, reinforce the [shared reality](/teamops/shared-reality/#shared-reality), and minimize unexpected barriers to success.
+Many organizations are so focused on finalizing a decision that they neglect the critical precursor to a successful agreement: setting standards for ***how*** that decision will be made. TeamOps stresses intentionally designing, building, and reinforcing shared workstreams and collaboration environments through which decisions and projects flow. This helps align expectations, reinforce the shared reality, and minimize unexpected barriers to success.
 
 When shared realities are based on effectively and efficiently sharing information, it means that communication practices need to be as aligned as possible. [Collaboration guidelines](/handbook/communication/) are the articulation and documentation of the cultural norms, software standards, and behavioral expectations that help standardize team member experience within an organization. These include details such as how company values are visible in workstreams, etiquette for various communication channels, organizational rituals, and guidelines for tool use. Codifying expectations facilitates more effective and universal collaboration, and helps ensure that miscommunication doesn't stall a decision or result.
 

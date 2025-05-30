@@ -1,10 +1,18 @@
 ---
-title: Laptop VPN Setup Guide
+title: NordLayer VPN Setup Guide
 ---
 
 ## Access Request
 
-Please open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and add `/label ~"corpsec-metric::ar"`.
+Please request access to NordLayer through the Okta portal using [Lumos](/handbook/security/corporate/systems/lumos/ar/). Follow these steps to submit your request for NordLayer:
+
+- Log in to the [Okta portal](https://gitlab.okta.com)
+- Search for and select the "Lumos" application
+- Select "NordLayer" from the available applications
+- Choose the specific permission that matches your needs, either "Public WiFi" or ["Dedicated Gateway"](#nordlayer-for-system-administration)
+- Lumos will automatically initiate the approval workflow and handle provisioning upon approval
+
+The system will guide you through any additional information required to complete your request. You'll receive notifications about the status of your request through email.
 
 ## NordLayer Installation
 
@@ -45,7 +53,7 @@ After your access request is provisioned, you will receive an email from `nordla
 
 ## Configuration
 
-We recommend you set NordLayer to auto-connect when using untrusted wi-fi (networks with no password or weak encryption):
+We recommend you set NordLayer to auto-connect when using untrusted WiFi (networks with no password or weak encryption):
 
 - MacOS:
 
@@ -67,3 +75,35 @@ We recommend you set NordLayer to auto-connect when using untrusted wi-fi (netwo
 
 1. Go to NordLayer preferences and select the **Auto-Connect** tab.
 1. Verify the Network listed under **Current Network** is your home network and select **Trust**.
+
+## NordLayer for System Administration
+
+NordLayer is also used for system administration purposes, providing secure access to internal systems and resources via dedicated IP addresses that are limited to certain GitLab Team Members. If you require acecss to these dedicated IP addresses, please request the access via [Lumos](/handbook/security/corporate/systems/lumos/ar/) and select `Permission:Dedicated Gateway`.
+
+Here are some key points about using NordLayer for system administration:
+
+1. Access Control: NordLayer allows for granular access control, ensuring that only system administrators can access specific resources.
+
+2. Multi-Factor Authentication: For enhanced security, NordLayer is implemented with Okta Device Trust Authentication policies.
+
+3. Secure Remote Access: System administrators can securely access internal systems from any location, enabling efficient remote work and incident response.
+
+4. Network Segmentation: NordLayer supports network segmentation, allowing administrators to isolate sensitive systems and limit potential security risks.
+
+5. Encrypted Communication: All traffic between the administrator's device and internal systems is encrypted, protecting sensitive data in transit.
+
+6. Centralized Management: The NordLayer admin panel provides a centralized interface for managing user access, monitoring connections, and configuring security policies.
+
+When using NordLayer for system administration, always follow GitLab's security best practices and ensure that you have the appropriate permissions before accessing any systems or data.
+
+Dedicated IP's are listed below for reference by Security teams or incident response.
+
+| Location | IP |
+| --- | --- |
+| GitLab - Los Angeles | 216.74.107.115 |
+| GitLab - New York | 146.70.186.59 |
+| GitLab - Atlanta | 205.234.251.167 |
+| GitLab - Belgium | 146.70.55.7 |
+| GitLab - Hungary | 217.138.192.12 |
+| GitLab - Japan | 146.70.138.86 |
+| GitLab - Australia | 88.216.59.30 |

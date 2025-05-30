@@ -18,7 +18,7 @@ The Caregiver TMRG provides a safe space for every GitLab team member to better 
 
 "There are only four kinds of people in this world: those who have been caregivers, those who are currently caregivers, those who will be caregivers and those who will need caregivers. Caregiving is universal." --  Rosalynn Carter, Former First Lady of the United States
 
-We have four main objectives for this TMRG:
+Main objectives for this TMRG:
 
 - Providing peer support to TMRG members through a safe space for learning and sharing lived experience.
 - Discussing issues faced by working parents and caregivers, providing insight into potential improvements, and offering support to prospective working parents caregivers.
@@ -32,14 +32,13 @@ We have four main objectives for this TMRG:
 
 ## Leads
 
-- [Jackie Porter](https://gitlab.com/jreporter)
 - [Gena Schawam](https://gitlab.com/gschwam) [Co-Lead]
-- Open
+- [Charlie Ablett](https://gitlab.com/cablett) [Co-Lead]
 - Open
 
 ## Executive Sponsors
 
-- [Wendy Barnes](https://gitlab.com/wendybarnes)
+- TBA
 
 ## How To Get Involved
 
@@ -58,8 +57,11 @@ Coming soon!
 
 ### Caregiver Resources at GitLab
 
-1. [Flexible PTO]({{< ref "general-and-entity-benefits#paid-time-off" >}})
-1. [Financial Wellness]({{< ref "general-and-entity-benefits#financial-wellness" >}})
-1. [Care Concierge Pilot]({{< ref "general-and-entity-benefits#financial-wellness" >}})
-1. [Family Planning]({{< ref "general-and-entity-benefits#fertility--family-planning" >}})
-1. [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}})
+1. [Flexible PTO](/handbook/total-rewards/benefits/general-and-entity-benefits/#paid-time-off)
+1. [Financial Wellness](/handbook/total-rewards/benefits/general-and-entity-benefits/#financial-wellness)
+1. [Care Concierge Pilot](/handbook/total-rewards/benefits/general-and-entity-benefits/#financial-wellness)
+1. [Family Planning](/handbook/total-rewards/benefits/general-and-entity-benefits/#fertility--family-planning)
+1. [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
+1. #caregivers-tmrg Slack channel
+1. #caregivers-of-neurodiversity Slack channel - for those caring for neurodiverse people
+1. #motherhood - for mothers (private channel)

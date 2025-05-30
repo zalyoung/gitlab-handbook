@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through common configurations for co
 
 In this lab we will analyze more complex merge processes, looking specifically at merge trains and merge conflicts. First, we will start with merge trains.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -19,7 +19,9 @@ In this lab we will analyze more complex merge processes, looking specifically a
 
 1. To enable a merge train in your project, in the left sidebar, select **Settings > Merge requests**.
 
-1. Under Merge options, click the options **Enable merged results pipeline**, **Pipelines must succeed**, and **Enable merge trains**.
+1. Under Merge options, click the options **Enable merged results pipeline** and **Enable merge trains**.
+
+1. Scrolling down the page slightly to the **Merge Checks** section, click the option **Pipelines must succeed**
 
 1. At the bottom of the section, select **Save changes**.
 
@@ -42,70 +44,75 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Add in the following rules to ensure jobs run on merge request pipelines:
 
-```yml
-workflow:
-      auto_cancel:
-        on_job_failure: all
-      rules:
-        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-```
-
-The current pipeline should look like this:
-
   ```yml
-    stages:
-      - deps
-      - test
-      
-    workflow:
-      auto_cancel:
-        on_job_failure: all
-      rules:
-        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-    default:
-      image: node:latest
-
-    .artifactdef: &artifactdef
-      artifacts:
-        when: always
-        reports:
-          junit: junit.xml
-
-    .install deps: &cachedef
-      stage: deps
-      script:
-        - npm install jest-junit
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
-
-    test binarysearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-      <<: [*artifactdef, *cachedef]
-
-    test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-      <<: [*artifactdef, *cachedef]
-      
-    pause:
-      stage: test
-      script:
-        - sleep 4m
+  workflow:
+    auto_cancel:
+      on_job_failure: all
+    rules:
+      - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   ```
 
-Adding this job will ensure that you have enough time to create two merge requests.
+1. Commit these changes. 
 
-To start, create your two merge requests. For the first merge request:
+  The current pipeline should look like this:
+
+  ```yml
+  stages:
+    - deps
+    - test
+    
+  workflow:
+    auto_cancel:
+      on_job_failure: all
+    rules:
+      - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+  default:
+    image: node:latest
+
+  .artifactdef: &artifactdef
+    artifacts:
+      when: always
+      reports:
+        junit: junit.xml
+
+  .cachedef: &cachedef
+    cache:
+      key: $CI_COMMIT_REF_SLUG
+      paths:
+        - node_modules
+      
+  install deps:
+    stage: deps
+    script:
+      - npm install jest jest-junit
+    <<: *cachedef
+
+  test binarysearch:
+    stage: test
+    script:
+      - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+    <<: [*artifactdef, *cachedef]
+
+  test linearsearch:
+    stage: test
+    script:
+      - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+    <<: [*artifactdef, *cachedef]
+    
+  pause:
+    stage: test
+    script:
+      - sleep 4m
+  ```
+
+1. Select **Commit changes** to update your `.gitlab-ci.yml` file.
+
+  Adding this job will ensure that you have enough time to create two merge requests.
+
+  To start, create your two merge requests. For the first merge request:
 
 1. Select **Code > Branches**.
 
@@ -121,7 +128,7 @@ To start, create your two merge requests. For the first merge request:
 
 1. Leave all options as default and select **Create merge request**.
 
-For the second merge request:
+  For the second merge request:
 
 1. Select **Code > Branches**.
 
@@ -137,7 +144,7 @@ For the second merge request:
 
 1. Leave all options as default and select **Create merge request**.
 
-Now that both merge requests have been created:
+  Now that both merge requests have been created:
 
 1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
@@ -167,32 +174,26 @@ When multiple users work on a project at the same time, merge conflicts are ofte
         reports:
           junit: junit.xml
 
-    .install deps: &cachedef
+    install deps: &cachedef
       stage: deps
       script:
-        - npm install jest-junit
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+        - npm install jest jest-junit
+      <<: *cachedef
 
     test binarysearch:
-      before_script:
-        - npm install -g jest
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
       <<: [*artifactdef, *cachedef]
 
     test linearsearch:
-      before_script:
-        - npm install -g jest
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
       <<: [*artifactdef, *cachedef]
-      
     ```
 
-Now, let’s create two merge requests that conflict:
+  Now, let’s create two merge requests that conflict:
 
 1. Select **Code > Branches**.
 
@@ -205,7 +206,7 @@ Now, let’s create two merge requests that conflict:
 1. Select the `index.js` file. At the top of the file, add a comment to describe the function. An example comment is below.
 
     ```js
-    // This method will create a binary search finding the value in lin log(n) time
+    // This method will create a binary search finding the value in list in log(n) time
     module.exports.binarySearch = function binarySearch(arr, val) { 
         let start = 0; 
         let end = arr.length - 1; 
@@ -258,13 +259,13 @@ Now, let’s create two merge requests that conflict:
 
 1. Commit this code to the branch and create a new merge request from it.
 
-1. Return to your `conflict` merge request and merge it into the repository.
+1. Return to your `conflict` merge request. Select the arrow next to the merge button then select merge immediately and merge it into the repository.
 
 1. After it merges, navigate to your `conflict-2` merge request. You will now see that the merge is blocked, stating *Merge conflicts must be resolved*.
 
 1. Select the option **Resolve conflicts**. You will have the option to select either using the code in the current merge request, or using the code in main.
 
-1. Select your preferred option, then select **Commit** to source branch.
+1. Select your preferred option, then select **Commit to source branch**.
 
 After doing this, you will now be able to merge your merge request.
 

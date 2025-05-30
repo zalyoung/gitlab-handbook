@@ -19,7 +19,7 @@ This TMRG is focused on 4 key areas of impact. We call them our pillars. Review 
 | ----- | ----- | ----- |
 | Awareness and Education | Increase awareness of the experience of TMRG members at GitLab and educate allies. | |
 | Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program](mentorship-program/) |
-| Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls](/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
+| Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls](/handbook/hiring/talent-acquisition-framework/coordinator/#reference-check-forms) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
 | Business Influence | Start and contribute to discusses that influence GitLab the business. | Surface burnout data to People Leadership |
 
 ## Leads
@@ -77,9 +77,9 @@ Join the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T0259
 
 ## Related Performance Indicators and Goals
 
-- [Women at GitLab]({{< ref "people-success-performance-indicators#diversity---women-at-gitlab" >}})
-- [GitLab Women in Management - 40% Goal]({{< ref "people-success-performance-indicators#diversity---women-in-management" >}})
-- [GitLab Women in Senior Leadership and Executive Roles]({{< ref "people-success-performance-indicators#diversity---women-in-senior-leadership-and-executive-roles" >}})
+- [Women at GitLab](/handbook/people-group/people-success-performance-indicators/#diversity---women-at-gitlab)
+- [GitLab Women in Management - 40% Goal](/handbook/people-group/people-success-performance-indicators/#diversity---women-in-management)
+- [GitLab Women in Senior Leadership and Executive Roles](/handbook/people-group/people-success-performance-indicators/#diversity---women-in-senior-leadership-and-executive-roles)
 
 ## Career Development Resources
 
@@ -91,8 +91,8 @@ If you have a resource you'd like to include, please open a merge request and co
 | ----- | ----- |
 | [Women at GitLab Mentorship Program](mentorship-program/) | FY22 Q2-Q3 program opportunity for mentorship at GitLab |
 | [WISE: Women in Sales Everywhere Memberships](https://www.womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://www.womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
-| [GitLab Internship for Learning]({{< ref "internship-for-learning" >}}) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
-| [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
+| [GitLab Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
+| [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
 | [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
 | [Women in the Workplace Study Webinar](https://web.archive.org/web/20220704095935/https://www.hracuity.com/webinar/leaninstudy-2020) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
 | [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers' deep discomfort over touting skills, experience adds to gender gap in promotions, pay |

@@ -17,7 +17,7 @@ We're also curating a growing list of remote communities, where remote leaders a
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Rodolphe (Remotive) discuss several remote work topics: favorite things about remote work, how to find/start/thrive in your first remote role, and the impact of the growing remote work community.*
 
-Working remotely is becoming more common globally, as supported by data in the [GitLab Remote Work Report](remote-work-report/). While all-remote and remote-first organizations still represent the minority, a variety of trends — from heightened rents in major cities to a greater emphasis on sustainability to a cultural desire to work and live where one is most fulfilled — have more people than ever [interested in this way of working](benefits/).
+Working remotely is becoming more common globally, as supported by data in the [GitLab Remote Work Report](remote-work-report/). While all-remote and remote-first organizations still represent the minority, a variety of trends — from heightened rents in major cities to a greater emphasis on sustainability to a cultural desire to work and live where one is most fulfilled — have more people than ever [interested in this way of working](remote-benefits/).
 
 Buffer's latest [State of Remote Work](https://buffer.com/state-of-remote-work/2020) shows that the overwhelming majority of those who work remotely would recommend it to others, while [new survey data from Owl Labs](https://resources.owllabs.com/blog/remote-work-statistics) collected from 23 countries and 6 continents found that over half of global companies now allow some form of remote work.
 
@@ -73,7 +73,6 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [easyDNS](https://easydns.com/), see why they decided to [go all-remote.](https://easydns.com/blog/2019/05/23/the-end-of-an-era-for-easydns/)
 1. [TaxJar](https://www.taxjar.com), read their [blog about building a remote-only culture](https://www.taxjar.com/about), their [benefits](https://www.taxjar.com/#open-positions), [core values](https://www.taxjar.com/about), and [hear what employees say about working there](https://www.comparably.com/companies/taxjar).
 1. [Animalz](https://www.animalz.co/), an agency providing content to B2B/SaaS organizations
-1. [Almanac](https://almanac.io/), see their [async collaboration norms](https://almanac.io/handbook/almanac-handbook-9SaCJX/async-collaboration-norms-almanac-nN7bF2BOfBRFJNBqwoj4uyRA91vFPLtT), [resources for leaders](https://get.almanac.io/blog) in a world without offices and [current open roles](https://almanac.io/careers).
 1. [Iterative](https://datachain.ai/), a company building open-source developer tools for machine learning
 1. [SearchApi](https://www.searchapi.io/), a remote-only company, see their [jobs page](https://www.searchapi.io/careers)
 
@@ -139,6 +138,7 @@ Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs s
 1. [People First Jobs](https://peoplefirstjobs.com/jobs)
 1. [Remote Tech Jobs](https://remotetechjobs.com/)
 1. [Close Sales Remote Job Board](https://www.close.com/careers)
+1. [Curaiz](https://www.curaiz.com)
 
 > "Getting promoted while working remotely really depends on how remote your company is. GitLab is a fully remote organization with over 700 folks around the world, so getting promoted wasn't difficult at all. In previous roles, I was the only person who worked remotely. In those cases, I felt very forgotten by my employer." - *Emilie L Schario, a Data Engineer at GitLab*
 
@@ -185,8 +185,8 @@ Each of these platforms support search via hashtag. Be aware that many results w
 1. `#telecommute`
 1. `#locationindependent`
 
-Working in an all-remote environment is unique. Be sure to read over the distinct [benefits]({{< ref "remote-benefits" >}}) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
+Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

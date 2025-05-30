@@ -62,7 +62,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Handbook Links
 
-- [Discovery Resources for Product Managers](/handbook/product/product-manager-role/learning-and-development)
+- [Discovery Resources for Product Managers](/handbook/product/product-management/learning-and-development/)
 
 ### LinkedIn Learning
 
@@ -78,7 +78,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Handbook Links
 
-- [JTBD Resources for Product Managers](/handbook/product/product-manager-role/learning-and-development)
+- [JTBD Resources for Product Managers](/handbook/product/product-management/learning-and-development/)
 
 ### Books
 

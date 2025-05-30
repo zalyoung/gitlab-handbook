@@ -42,7 +42,7 @@ Figma and Figjam are our primary design tool of choice. Refer to the [usage and 
 
 ## Product Design Workflow
 
-Product Designers adhere to the [Product Development flow](/handbook/product-development-flow/) in collaboration with stable counterparts. Key aspects include:
+Product Designers adhere to the [Product Development flow](/handbook/product-development/product-development-flow/) in collaboration with stable counterparts. Key aspects include:
 
 - [Planning and managing capacity](/handbook/product/ux/product-designer/capacity-management)
 - [Prioritization](/handbook/product/ux/product-designer/capacity-management/#priorities)
@@ -58,6 +58,7 @@ New GitLab Product Designers should refer to the [Product Designer Workflow hand
 ## Product Design Management Workflow
 
 - [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
+- [Product Design Manager Pairs](/handbook/product/ux/how-we-work/product-design-manager-pairs/)
 
 ## Learning and Development
 
@@ -76,7 +77,7 @@ Key Elements:
 - **Work in MRs, not issues:** Direct changes are made through Merge Requests (MRs), with comprehensive documentation and explanations.
 - **Length of rotation:** Pairings last 1-3 milestones, depending on what the pairing believes is appropriate. Multiple pairs can be working simultaneously on Beautifying our UI.
 - **Prioritization:** Participants coordinate with their managers to balance their involvement with regular responsiblities.
-- **Documentation:** All changes must be documentated, adhering to the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), and involving [relevant Technical Writers](/handbook/product/ux/technical-writing/#assignments).
+- **Documentation:** All changes must be documentated, adhering to the [Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done), and involving [relevant Technical Writers](/handbook/product/ux/technical-writing/#assignments).
 
 #### Volunteering and Participation
 

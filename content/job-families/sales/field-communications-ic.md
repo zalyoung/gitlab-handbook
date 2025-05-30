@@ -11,7 +11,7 @@ The Field Communications function is part of the Field Enablement team and is re
 
 ### Field Communications Specialist
 
-The Field Communications Specialist reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Field Communications Specialist reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Field Communications Specialist Job Grade
 
@@ -41,7 +41,7 @@ The Field Communications Specialist is a grade [5](/handbook/total-rewards/compe
 
 ### Field Communications Manager
 
-The Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Field Communications Manager Job Grade
 
@@ -77,7 +77,7 @@ The Field Communications Manager is a grade [6](/handbook/total-rewards/compensa
 
 ### Senior Field Communications Manager
 
-The Senior Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Senior Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Senior Field Communications Manager Job Grade
 
@@ -115,7 +115,7 @@ The Senior Field Communications Manager is a grade [7](/handbook/total-rewards/c
 
 ### Staff Field Communications Manager
 
-The Staff Field Communications Manager reports to the [Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).
+The Staff Field Communications Manager reports to the [Sr. Manager, Field Communications](/job-families/sales/field-communications-leadership/#manager-field-communications).
 
 #### Staff Field Communications Manager Job Grade
 
@@ -168,7 +168,7 @@ graph TD;
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will meet with members of the [GitLab Field Operations team](/handbook/company/team/?department=field-operations),
 - Then, candidates will meet with the Manager and/or Senior Manager of Field Communications,
 - Finally, candidates will meet with the VP of Field Operations.

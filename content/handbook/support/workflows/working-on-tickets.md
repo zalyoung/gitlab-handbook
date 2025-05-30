@@ -89,12 +89,12 @@ the customer's needs and streamline the resolution process:
 By following these steps, you ensure a structured approach to ticket handling
 that can save time and enhance customer satisfaction.
 
-## Contacting a Customer Success Manager (CSM) or Account Manager (AM)
+## Contacting the Customer Success or Account team
 
-Engage a CSM or AM for reasons such as discussing architecture, Professional
+Support can connect with the Customer and/or Account team for reasons such as discussing architecture, Professional
 Services, or support collaboration. If escalation is required, follow the
 designated workflow. If no CSM is available, contact the AM, identified in
-Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
+Zendesk as `Account Owner`. During FY26Q1 (Feb25-Apr25), APAC are participating in a pilot to reach the CSE (Customer Success engineer) for customers that are `TAM Scale` and don't have a dedicated CSM.  See below if you are in APAC. To involve a CSM or AM, use the following methods:
 
 1. Zendesk: Add the CSM/AM as a CC on the ticket, inform the customer, and add
    an internal note for context.
@@ -104,6 +104,28 @@ Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
      (#a_customerName-internal).
    - Post a message in a relevant support channel (`#support_leadership`,
      `#support_gitlab-com`, or `#support-self_managed`).
+
+### Pilot for CSE collaboration - APAC FY26Q2
+
+During Quarter 2 of FY26 (May - July 2025) the CSEs and APAC Support are participating in a pilot to reach out to CSEs for TAM Scale customers, similar to working with CSMs for larger customers.
+
+During this period, if you a Support Engineer in APAC and you are working on a ticket that would benefit from collaboration with the customer success team and the listed CSM in the meta details is `TAM Scale`, please follow the process below.  For more details or to share feedback, please refer to the [planning issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6489).
+
+1. Share the ticket in [#team-cse](https://gitlab.enterprise.slack.com/archives/C04FPTL837S) on Slack and ping `@Bernard Ng` for a CSE review (this is a known single point of failure which will be addressed in following iterations) and `@weimeng` for Support awareness.
+1. If necessary to meet SLA, send a response to the customer letting them know that you have initiated this.
+1. During the pilot, Bernard will respond to let you know if the CSE team can help.  If they can, the CSE team will provide a one-time use Calendly scheduling link for the customer to schedule a call. This scheduling link will be posted as an internal note in the Support ticket.
+1. Once received, send a reply to the customer, sharing the scheduling link.  You can use the following text as a starting point:
+
+    ```text
+    Thank you for writing in. Our Customer Success Engineering (CSE) team would love to speak to you regarding your proposal for <SUBJECT REQUESTED HERE>.
+
+    Please use the following link to schedule a call with the CSE team: <CALENDLY SCHEDULING LINK HERE>
+
+    Do let me know if you run into issues scheduling a call, we'll be happy to assist.
+    ```
+
+1. If the customer didn't have any other questions that need Supports input, the ticket can now be marked as Solved. Use a resolution of `Other`, and add the text `CSE Referral` in the description.
+1. If the discussion in the CSE channel results in the CSE advising they can not help with the ticket, continue to work it as a support ticket.
 
 ### Helping with a ticket that has an Assigned Support Engineer
 
@@ -115,21 +137,17 @@ customers, see [the ASE workflow](../enhanced-support-offerings/offering-assigne
 
 ### How many new tickets should I pick up each week?
 
-Each week, every Support Engineer should aim at least to meet, and preferably to
-exceed, [the appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticket-baseline)
+Each week, every Support Engineer should aim at least to meet, and preferably to exceed, [the appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticket-baseline)
 from the following list for the number of first responses:
 
 | Ticket type   | FRT goal   |
 | ------------- | ---------- |
-| Self-managed  | 6 tickets  |
-| SaaS          | 7 tickets  |
-| SaaS Accounts | 8 tickets  |
-| L&R           | 24 tickets |
+| Self-managed  | 5 tickets  |
+| SaaS          | 5 tickets  |
+| SaaS Accounts | 20 tickets  |
+| L&R           | 15 tickets |
 
-The aim is to ensure equitable ticket distribution among team members. These
-numbers are based on ticket volume, number of SEs, and average PTO (15%). We
-continuously monitor ticket volume and number of SEs to make sure the above
-guidelines are accurate.
+The goal is to ensure fair distribution of tickets across the team. Intermediate and senior engineers excluding those in core L&R and Associate SE roles are expected to develop as well-rounded contributors by consistently working on a balanced mix of SM, SaaS, and Dedicated tickets. These expectations are informed by overall ticket volume, team size, and an average PTO rate of 15%. We continuously monitor ticket volume and staffing levels to ensure these guidelines remain accurate and appropriate. For further details please review the [Support Engineer Performance Indicators FY26 issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6635#note_2498022715).
 
 #### What if I can't meet baseline?
 
@@ -205,7 +223,7 @@ Once you've found a new assignee:
 
 ### What if a customer has confirmed a ticket can be closed but the ticket has no assignee?
 
-While we should ensure that all tickets always have an assignee from FRT to,
+While we should ensure that all tickets always have an assignee from FRT to
 close, there are some scenarios where a ticket is ready to be closed but has no
 assignee. For example, a customer may open a ticket and inform us that they have
 resolved the issue before we send an FRT. In these scenarios:
@@ -233,8 +251,8 @@ support ticket.
 As detailed in the [Support General Policies](https://about.gitlab.com/support/general-policies/#we-handle-each-incident-within-a-single-support-ticket)
 it is GitLab policy to handle each individual incident, problem or issue within
 a single support ticket. If a situation arises where you need to open a new
-ticket on behalf of a customer, you **must** use the [Create new ticket plugin](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#:~:text=current%20plugins%20are%3A-,Create%20new%20ticket,-Allows%20an%20agent)
-within the [Zendesk Super App](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#zendesk-super-app)
+ticket on behalf of a customer, you **must** use the [Create new ticket plugin](/handbook/security/customer-support-operations/docs/zendesk/apps#zendesk-super-app)
+within the Zendesk Super App
 to ensure proper routing and SLA assignment:
 
 1. Within a ticket, navigate to the Zendesk Super App and select the Create new
@@ -252,3 +270,19 @@ to the newly created ticket.
 
 If you plan to immediately start working the ticket, please assign the ticket to
 yourself.
+
+### Can I use output from an LLM in ticket replies?
+
+While you can use a tool like GitLab Duo to help when researching and when writing a reply to a customer, there are a few important things to keep in mind:
+
+- Verify the information provided by the LLM to ensure that it is accurate using the docs and the source code or by checking with a human [subject matter expert](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
+  - You should pay special attention to making sure whether things like environment variables, configuration options, UI settings and documentation URLs actually exist
+  - You should double check that any bugs or feature availability identified aligns with the GitLab version/edition/tier/install method that the customer is using
+  - You should make sure that you can understand, can explain and have tested any commands or code snippets generated by an LLM and shared with a customer
+  - You should not send text from an LLM to a customer verbatim without _at least_ verifying it for technical accuracy first
+- Be mindful of GitLab's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) and the [kind of input](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/#input) you have in mind when selecting a tool
+  - When working with customer data, always consider whether you need to anonymize information before sharing with any LLM
+  - Take special care with customer screenshots, logs, and configuration files which may contain sensitive or identifying information
+- LLMs can be useful for refining and improving a response you have drafted to a customer (such as checking for clarity, completeness, and tone), however responsibility for the final response always lies with the Support Engineer, not the tool.
+
+Read the [General Purpose AI Tool Usage Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/) for additional guidance.

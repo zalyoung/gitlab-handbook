@@ -5,6 +5,18 @@ description: "Tableau at GitLab"
 
 This page describes the processes used to administer the Tableau sites managed by GitLab.  Additional run books, scripts, tools and repositories related to the processes will be referenced throughout this guide.
 
+## Tableau Administrator - Role and Objectives
+
+As Tableau Administrators, we serve as the foundation of our organization's data visualization and analytics infrastructure. Our mission is to empower teams with a secure, reliable, and user-friendly analytics environment that fosters data-driven decision-making. We bridge the gap between complex data systems and actionable business insights while upholding high standards of governance and promoting self-service analytics.
+
+### Our Five North Star Goals
+
+1. **Performance & Reliability:** Ensure a highly available Tableau environment with optimized dashboards and stable data connections for a seamless user experience.
+2. **Security & Governance:** Safeguard data integrity by maintaining security policies, ensuring appropriate access controls, and ensuring compliance with governance standards.
+3. **User Enablement & Adoption:** Drive engagement through training, support, and resources that empower users to confidently analyze and interpret data.
+4. **Standardization & Quality:** Establish and enforce best practices for data sources and visualizations to ensure consistency, accuracy, and trust in reporting.
+5. **Business Impact:** Deliver measurable value by aligning analytics initiatives with business objectives, tracking key metrics, and demonstrating how data-driven insights enhance decision-making and efficiency.
+
 ## Sites
 
 GitLab currently maintains three different Tableau sites for different purposes:
@@ -28,7 +40,7 @@ The TableauConMan tool is developed in house to assist in automating several asp
 
 ## User Management
 
-- **Main Site:** For the main site team members login using Okta.  For the team members to be able to see the login option in Okta they must be added to the  [`okta-tableau-users`](https://groups.google.com/a/gitlab.com/g/okta-tableau-users/members) google group. The specification file in the Data Team repository is used to review and track the changes to users on the main site.  Any changes to users should first be made in the file and reviewed before the changes are made on the site following the appropriate instruction in the users [runbook](https://gitlab.com/gitlab-data/runbooks/-/tree/main/tableau?ref_type=heads). A users group membership is managed using the TableauConMan tool, see Group Management for more details.
+- **Main Site:** For the main site team members login using Okta. An Okta - Lumos integration manages Tableau Access Requests which includes review and approvals (performed automatically via Slack), and automated Provisioning and Deprovisioning. This also includes an automated deprovisioning due to inactivity for 90+ days.
 
 - **Public Site:** For the public site users login directly and do not use Okta.  The number of non viewer licenses on this site is limited so any active administration on the site should be done with the Analytics Service Account.
 
@@ -36,7 +48,7 @@ The TableauConMan tool is developed in house to assist in automating several asp
 
 ## Group Management
 
-- **Main Site:** For the main site groups and group membership is managed using the TableauConMan tool.  To add or remove a group the appropriate changes should be made in the `groups` section of the specification file in the Data Team repository.  To add or remove members from a group, the group name should be added or removed from the `groups` list for the specific user.  Once the change has been reviewed and merged, the `tableau_provision_users` task in the [`tableau_workbook_migrate`](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/tableau_workbook_migrate.py) DAG will apply the changes.
+- **Main Site:** For the main site groups and group membership is managed via Okta with an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Tableau_Request).
 
 - **Public Site:** The groups for the public site are manually maintained.  The general instructions found in the groups [runbook](https://gitlab.com/gitlab-data/runbooks/-/tree/main/tableau?ref_type=heads) can be followed to modify groups or group membership.
 

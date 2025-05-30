@@ -7,7 +7,7 @@ The mission of the Data Platform team is to build a secure and trusted data plat
 
 ## Data Platform Responsibilities
 
-Of the [Data Team's Responsibilities](/handbook/enterprise-data/#responsibilities) the Data Platform team is directly responsible for:
+The Data Platform team is directly responsible for:
 
 - Integrating new data sources to enable analysis of subject areas, activities, and processes
 - Keeping the data sources running per established [Service Level Objectives and Tiers](/handbook/enterprise-data/platform/#data-sources)
@@ -18,7 +18,7 @@ Of the [Data Team's Responsibilities](/handbook/enterprise-data/#responsibilitie
 
 At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first). Any changes to our codebase or process should have a handbook MR created before the work is started or concurrently with the MR to change the code.
 
-For example: If we are adding a data source, we would first create the merge request to update our [the extract and load](/handbook/enterprise-data/platform/#extract-and-load) and [system diagram](/handbook/enterprise-data/platform/infrastructure/#system-diagram) sections of our handbook. This MR can be updated as the change is created and merged along with the change.
+For example: If we are adding a data source, we would first create the merge request to update our [the extract and load](/handbook/enterprise-data/platform/) and [system diagram](/handbook/enterprise-data/platform/) sections of our handbook. This MR can be updated as the change is created and merged along with the change.
 
 ## Data Platform Team knowledge sessions
 

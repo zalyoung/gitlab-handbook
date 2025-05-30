@@ -9,20 +9,37 @@ Please refer to [SA Manager Operating Rhythm Template](https://docs.google.com/s
 
 ## Managing the Business
 
+### FY26 Solutions Architecture leading KPIs
+
+[To align with the company objectives](https://docs.google.com/document/d/1ZLQA5aj--2gxkcGRI-MakRwE2tpGtbZl0DEA7BDAd4I), SA is targeting POV and SA Validated Tech Evaluation with rates (e.g., technical wins and not necessarily opportunity wins). 
+
+1. **CSPs created and reviewed with customer on 100% of [qualifying opportunities](/handbook/solutions-architects/sa-practices/customer-success-plan/#opportunity-thresholds-for-creating-and-reviewing-mutual-customer-success-plans)**
+2. **90% technical win rate for [SA Validated Technical Evaluations](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation)**
+3. **90% technical win rate for [Proof of Values](/handbook/solutions-architects/tools-and-resources/pov/)**
+
+ To hit these targets, SA leaders should ensure high quality data, inspect progress reqularly, drive team accountability, and iterate on our execution.  The following reports dashboards and are provided to assist with SA leaders.
+
+### Available Reports and Dashboards
+
+- [CQ Hygiene metrics dashboard](https://10az.online.tableau.com/#/site/gitlab/views/CommandPlanCompletionReviewsRLSenabled/HygieneMetrics-CQ?:iid=1) - contains CSP and CSP review percentages for open opportunities in the CQ.
+- [CSP Rates Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RolesResponsibilitesMetrics/CSPRates?:iid=1) - Provides CSP creation and reviews against our targets for all qualifying opportunities. 
+- [CSP Exceptions](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000EPfG62AL/view?queryScope=userFolders) - A list of opportunties with CSP exceptions and the associated reason for the current FY
+- [POV and SA Tech Eval Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/RolesResponsibilitesMetrics/POVsTechEvals?:iid=1) - Provides POV an tech eval win rates against targets, tracking hygiene, and other related information.
+- [Global Top Deal Review Sheet](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319) - Provides details for all opportunities over 100K Net ARR, including SA engagement information.  (AMER and EMEA also have their own versions of this sheet)
+- [SA Feasibility Rating - Operational Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000025nOj2AI/view?queryScope=userFolders) - Provides visibility into the adoption, trends, and other details of feasibility scoring.
+- [SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/workbooks/2924393/views) - Dynamic dashboards for exploring SA activity, account, first touch, and individual performance trends.
+- [SA Activity Dashboards (Legacy)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2105107/views) - Dynamic dashboards for exploring SA activity, opportunity, and individual performance trends.
+- [Rattle boards](https://board.gorattle.com/) are also availble to view and edit salesforce data in-grid.
+    
 ### Activity Review
 
-As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements.
+As part of the regular rhythm of business, it is important to review activities related to Prospect and Customer Engagements.  This ensure our data is adequate for driving our KPIs as well as deriving insights to improve our execution.
 
 ### Weekly
 
 1. **SA Next Steps and Next Step Date**: ensure during 1-1s that SAs complete and report on SA Next Steps on an opportunity. Are we on track with our technical strategy.
 SA Managers can also add comments (e.g., recognition, pattern matching, assists, questions, and data hygience coaching) and  gain insight from SA on next steps.
-2. **SA Activity Review**: Using the following, review [SA Activity Recordings](/handbook/solutions-architects/processes/activity-capture/activity-logging) for main opportunities. Ensure that AEs have not closed, or duplicated opportunities that SAs were recording activities against.
-
-   - Salesforce reporting,
-   - [Rattle Board](https://board.gorattle.com/),
-   - [Top Deals List](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319)
-   - [Tableau SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/views/SAQBRMetrics/SAActivities?:iid=1)
+2. **SA Activity Review**: Using the [available reports and dashboards](#available-reports-and-dashboards), review [SA Activity Recordings](/handbook/solutions-architects/processes/activity-capture/activity-logging) for main opportunities. Ensure that AEs have not closed, or duplicated opportunities that SAs were recording activities against.
 
 3. **Primary SA assignment**: For Strategic and Enterprise accounts, review list of Most likely opportunities for the quarter in Clari or SFDC, and ensure Primary Solution Architect Fields are not blank and are accurately assigned, especially as it enters Negotiation Stage.  Once it enters Closing Stage it is too late to change the Primay SA assignment for credit.
 4. **Technical Evaluations Review**: For Strategic and Enterprise accounts, review all opportunities in Stage 3 and ensure all Technical Evaluation fields are appropriately entered by team.
@@ -82,7 +99,7 @@ As a SA manager, the following is a summary of the operating rhythm when managin
 
 #### One-on-Ones
 
-As part of reviewing and supporting the team activities, SA Managers should meet with each team member weekly. This is imporant to build rapport and trust between manager and team member. With this is mind, SA Managers should add topics to the agenda and encourage team members to contributre to the agenda as well. One-on-Ones can be a great place to check on team member's health and workload, identify needs of individual team members, review top deals, and provide feedback and coaching. One-on-One meetings with direct team members should also follow the GitLab guidance outline [here](/handbook/company/culture/all-remote/live-doc-meetings/#notetaking-and-structure-during-the-meeting) and document discussions.
+As part of reviewing and supporting the team activities, SA Managers should meet with each team member weekly. This is imporant to build rapport and trust between manager and team member. With this is mind, SA Managers should add topics to the agenda and encourage team members to contributre to the agenda as well. One-on-Ones can be a great place to check on team member's health and workload, identify needs of individual team members, review top deals, and provide feedback and coaching. One-on-One meetings with direct team members should also follow the GitLab guidance outline [here](/handbook/leadership/1-1/) and document discussions.
 
 ### Monthly
 

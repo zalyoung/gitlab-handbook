@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Deploying Applications"
 description: "This Hands-On Guide demonstrates how to deploy applications in a pipeline"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Task A. Preparing Code
 
 First, let’s make some small adjustments to our code so that it runs as a web application:
@@ -30,7 +32,7 @@ func main() {
 }
 ```
 
-This application will listen on port 8080 for any requests to the "/" (root) endpoint. When it receives a request, it will print out the message *Hi there*.
+This application will listen on port 80 for any requests to the "/" (root) endpoint. When it receives a request, it will print out the message *Hi there*.
 
 To accommodate our new application type, we will modify our CI/CD process by removing the tests to run the application binary. These tests will no longer work, as they will cause the application to pause and wait for connections. Instead, we will deploy this application to a test server to be able to test our application. To start, your CI/CD file should look like this:
 
@@ -68,16 +70,30 @@ build go:
   rules:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
 
-release job:
-  stage: release
-  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  release job:
+    stage: release
+    image: registry.gitlab.com/gitlab-org/release-cli:latest
+    script:
+      - echo "Generating the latest release!"
+    release: 
+      tag_name: 'v0.$CI_PIPELINE_IID'
+      description: 'The latest release!'
+    rules:
+      - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
+deploy app:
+  stage: deploy
+  image: ubuntu:latest
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
   script:
-    - echo "Generating the latest release!"
-  release: 
-    tag_name: 'v0.$CI_PIPELINE_IID'
-    description: 'The latest release!'
-  rules:
-    - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
+    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+    - ssh root@$ip 'ls /'
 ```
 
 1. To ensure we have access to the build artifact in the deploy job, remove the run condition from the job:
@@ -169,7 +185,7 @@ Our code will need to move the array binary to the www directory, and move the s
 
 ```yaml
 deploy app:
-  stage: release
+  stage: deploy
   image: ubuntu:latest
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
@@ -192,7 +208,15 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://{your-server-ip} (Can be found in the Variables section of your group under $ip-address) to see the results!
+1. To help store the deployment info, we want to store the server info in a GitLab environment. We can do this with the `environment` keyword. Above the `before_script` keyword, put the following info:
+
+```yaml
+environment:
+  name: prod
+  url: http://$ip:80
+```
+
+1. After the pipeline has successfully completed, you can navigate to **Deploy > Environments** , and see your environment has been deployed. Click on the **Open** button to access your newly deployed application.
 
 ## Lab Guide Complete
 
@@ -200,4 +224,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

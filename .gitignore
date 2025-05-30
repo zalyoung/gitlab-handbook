@@ -5,7 +5,10 @@
 # git config --global core.excludesfile ~/.gitignore_global
 
 # System/Editors
+.gitkeep
+**/.gitkeep
 .DS_Store
+**/.DS_Store
 /.idea
 /.vscode
 /.nova
@@ -26,7 +29,11 @@
 # Scripts/Linting
 /scripts/issue_log
 handbook-codequality.json
+linkcheck.json
 markdownlint-cli2-codequality.json
+missinglinks.txt
+new_broken_links.json
+vale-codequality.json
 
 # Ignore new partials and shortcodes added to layout
 /layout/partials

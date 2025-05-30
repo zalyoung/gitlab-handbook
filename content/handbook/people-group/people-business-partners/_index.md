@@ -23,8 +23,8 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 
 | Contact | Division or Departments |
 |-------------------|-------------|
-| Anjali Kaufmann   | People Goup |
-| Anjali Kaufmann   | Legal and Corporate Affairs |
+| Carolyn Bednarz  | People Group |
+| Carolyn Bednarz  | Legal and Corporate Affairs |
 | Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
 | Tracy Lu | Sales - APJ|
 | Giuliana Lucchesi | Finance |
@@ -36,7 +36,7 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 | Kristina Bullock   |Chief of Staff to the CEO|
 | Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
 | Lauren Tepper     | Sales - AMER, Public Sector, Global Digital, Field Operations  |
-| Brandi McDonald | Marketing |
+| Brandi McDonald | Sales & Marketing |
 
 ## How to partner with PBPs to foster high performance in your team
 
@@ -48,7 +48,7 @@ Additionally, PBPs support team member engagement in each division using sentime
 
 #### For more information
 
-1. [Organizational Design](/handbook/people-group/organizational-design/)
+1. [Organizational Design](/handbook/people-group/organizational-change-management/)
 1. GitLab Job Frameworks
 1. Team Member Engagement: [Engagement Survey](/handbook/people-group/engagement/#engagement-and-org-health-surveys-overview) analysis and action planning
 

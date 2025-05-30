@@ -52,7 +52,7 @@ High-level account plans are often shared using a [strategic account plan templa
 
 ### Account reviews
 
-Initially, ASMs and CSM Managers may want or need to partner on scheduling and facilitating these reviews, but regular account reviews should eventually become part of an account team's normal operating rhythm. See [Coaching Account Planning for ASMs](/handbook/sales/account-planning/coaching/) for additional guidance.
+Initially, ASMs and CSM Managers may want or need to partner on scheduling and facilitating these reviews, but regular account reviews should eventually become part of an account team's normal operating rhythm. See [Coaching Account Planning for ASMs](/handbook/sales/account-planning/coaching-for-asms/) for additional guidance.
 
 Accounts reviews are conducted quarterly (or more frequently as needed) at various points in the quarter, usually over a 2-week period. The extended account team (AEs, SA, CSM, SDR) is encouraged to participate and contribute.
 
@@ -186,7 +186,5 @@ Start by encouraging them to create an [Individual Growth Plan](/handbook/people
 ## Manager development program
 
 Manager effectiveness is important to GitLab's continued ability to attract, develop, and retain key talent and deliver scalable, efficient growth. In response, the Corporate L&D, People, and Field Enablement teams collaborated to launch programs to equip managers with a foundational set of skills & practices for effectively managing remote teams across GitLab's field organization.
-
-**Manager Challenge:** [The Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/) addresses your specific needs to understand the qualities of a good leader and to master practical leadership styles that empower you to become a confident people leader. Effective leadership is grounded in your understanding of powerful interpersonal skills that inspire performance, communication, team member retention, and motivation to achieve results.
 
 **Field Manager Development Program:** Managers participate in a series of quarterly training & reinforcement exercises throughout each fiscal year. While there will be formal training elements, a large focus will be on social learning (learning from others) and practical, real-world application to convert knowledge to action. Learn more on the [Field Manager Development Program handbook page](/handbook/sales/field-manager-development/).

@@ -41,7 +41,7 @@ this workflow.
        functionality successfully, then add `Customer::Impact` and `UX`
 
 - For general guidance on adding comments and required labels for issues, please
-  see the [Working with issues workflow]({{< ref "working-with-issues#adding-comments-on-existing-issues" >}})
+  see the [Working with issues workflow](/handbook/support/workflows/working-with-issues/#adding-comments-on-existing-issues)
 - Fulfillment Product Management will decide the appropriate section and PM to
   which to assign each new issue
 - If you believe a high priority issue is not being addressed quickly enough,
@@ -238,4 +238,4 @@ of the children are. In this situation, we will:
 
 ### How to get help from the Fulfillment Section development team
 
-If you require technical assistance from any Fulfillment Development Section Sub Group for issues that are not bugs or feature requests, then you can use GitLab.com to create an issue and request help. The workflow for this process is documented in the following handbook section [How to Use GitLab.com to Formally Request Help from the GitLab Development Team](/handbook/support/workflows/how-to-get-help#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team).
+If you require technical assistance from any Fulfillment Development Section Sub Group for issues that are not bugs or feature requests, then you can use GitLab.com to create an issue and request help. The workflow for this process is documented in the following handbook section [How to Use GitLab.com to Formally Request Help from the GitLab Development Team](/handbook/support/workflows/how-to-get-help#how-to-formally-request-help-from-the-gitlab-development-team).

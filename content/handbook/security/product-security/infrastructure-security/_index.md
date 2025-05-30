@@ -40,7 +40,11 @@ Further details can be found in the [job family description](/job-families/secur
 <td><a href="/job-families/security/security-leadership#senior-manager-infrastructure-security">Senior Manager, Infrastructure Security</a></td>
 </tr>
 <tr>
-<td>Paulo Pontes Martins</td>
+<td>Dennis Salzmann</td>
+<td><a href="/job-families/security/security-leadership#senior-manager-infrastructure-security">Manager, Infrastructure Security</a></td>
+</tr>
+<tr>
+<td>Matt Morrison</td>
 <td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Staff Security Engineer, Infrastructure Security</a></td>
 </tr>
 <tr>
@@ -48,12 +52,20 @@ Further details can be found in the [job family description](/job-families/secur
 <td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Senior Security Engineer, Infrastructure Security</a></td>
 </tr>
 <tr>
-<td>Matt Morrison</td>
+<td>Uday Govindia</td>
 <td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Senior Security Engineer, Infrastructure Security</a></td>
 </tr>
 <tr>
-<td>Uday Govindia</td>
-<td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Senior Security Engineer, Infrastructure Security</a></td>
+<td>Lizzie Moratti</td>
+<td><a href="job-families/security/infrastructure-security/#infrastructure-security-engineer-intermediate">Intermediate Security Engineer, Infrastructure Security</a></td>
+</tr>
+<tr>
+<td>Justin Shields</td>
+<td><a href="job-families/security/infrastructure-security/#infrastructure-security-engineer-intermediate">Intermediate Security Engineer, Infrastructure Security</a></td>
+</tr>
+<tr>
+<td>Yang Lyu</td>
+<td><a href="job-families/security/infrastructure-security/#infrastructure-security-engineer-intermediate">Intermediate Security Engineer, Infrastructure Security</a></td>
 </tr>
 </tbody>
 </table>

@@ -19,7 +19,6 @@ Quota setting and Compensation Design are led by the Go-To-Market Planning & Ope
 - Jake Bielecki, VP, Field Operations
 - James Harrison, Sr. Director, Sales Operations
 - Alex Cohen, Sr. Director, GTM Planning & Operations
-- David Mack, GTM Planning & Operations Manager
 - Haseen Selim, Sr. Analyst, GTM Planning & Operations
 
 <BR>
