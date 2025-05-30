@@ -201,7 +201,7 @@ We will eventually need to identify manual and automated methods of unstitching 
 #### Top-level Group - Not Isolated
 
 - **Definition**: Resources and optionally Users span multiple top-level groups
-- **Implications**: Cannot be independently moved out of the same Organization. The network graph could be moved as a whole.
+- **Implications**: Cannot be independently moved out of the same Organization. The set of Top-level groups could be moved as a whole.
 
 ```text
 ┌────────────────────────────────────┐
