@@ -35,8 +35,10 @@ Currently, there are several challenges that a standardized YAML schema would ad
 - Without a well-defined schema, it's challenging to extend our rate limiting capabilities or add new types of limits while maintaining consistency.
 - There's no standardized way to validate that rate limit configurations are correct before deployment, increasing the risk of errors when making changes.
 - The lack of a schema makes it difficult to automatically generate documentation, leading to discrepancies between actual configurations and what's documented.
+  - This presents challenges during incidents, as can be hard to know if something is rate-limited, and how to change this rate limit if there is any.
+  - This is also a pain point for customers for whom it can be very difficult to understand if they are being rate-limited, and why.
 
-The YAML schema proposed in this document will provide a clear structure for defining rate limits that can be used across GitLab systems. It will establish conventions for critical attributes like limit thresholds, scope definitions, and enforcement actions.
+The YAML schema proposed in this document will provide a clear structure for defining rate limits that can be used across GitLab systems. It will establish conventions for critical attributes like limit thresholds, scope definitions, and enforcement actions (i.e. throttle, log, or disable).
 
 This work directly supports the ["Next Rate Limiting Architecture" blueprint](../rate_limiting/)'s goal to "build a framework to define and enforce limits in GitLab Rails" by establishing the foundational schema upon which that framework will be built.
 
@@ -45,7 +47,7 @@ This work directly supports the ["Next Rate Limiting Architecture" blueprint](..
 - Define a comprehensive YAML schema for rate limiting configuration that can support all current and future rate limit types
 - Create a format that is human-readable, easily maintainable, and properly version-controlled
 - Enable validation of configurations before deployment to prevent errors
-- Focus on supporting Rack Attack and application rate limits only initially
+- Focus on supporting Rack Attack rate limits only initially
 - Design the schema to be extensible for future rate limiting enhancements (e.g. Cloudflare WAF)
 - Ensure the schema supports automatic documentation generation to keep user-facing documentation accurate
 
@@ -53,7 +55,7 @@ This work directly supports the ["Next Rate Limiting Architecture" blueprint](..
 
 - Implementation of the code that consumes this schema
 - Migration of existing rate limit configurations to use this schema
-- Building a user interface for managing configurations defined in this schema ([phase 3](../rate_limiting_simplification/_index.md#phase-3-implement-a-rate-limit-interface))
+- Building a user interface for managing configurations defined in this schema ([phase 3](_index.md#phase-3-implement-a-rate-limit-interface))
 - Defining specific rate limit values (the schema defines the structure, not the actual limit values)
 - Creating a centralized rate limiting service (phase 3)
 
@@ -65,7 +67,7 @@ The schema will be organized as a list of all rate limits, with a simple structu
 
 ### Repository
 
-We will create a new repository called `gitlab-rate-limits-schema` to host:
+We will create a new public repository called `gitlab-rate-limits-schema` to host:
 
 - The YAML schema definition itself
 - Example configurations
@@ -73,6 +75,8 @@ We will create a new repository called `gitlab-rate-limits-schema` to host:
 - Tooling for schema validation
 
 This repository will be the canonical source of the rate limiting schema, making it easy for various GitLab components to reference a specific version of the schema.
+
+It will be public, to allow self-managed customers to benefit from the improvements made to our rate limiting configuration, as they could then have the option to utilise the schema themselves.
 
 ### Semantic Versioning
 
@@ -93,19 +97,15 @@ For each release, the schema will be published to GitLab Pages to facilitate its
 ```yaml
 $schema: https://gitlab-com.gitlab.io/gl-infra/gitlab-rate-limits-schema/v1.0.0/rate-limits.yaml
 rate_limits:
-  # Rack Attack
-  - id: git_basic_auth  # Unique identifier for this rate limit
-    type: rack_attack  # Type of rate limiter
+  git_basic_auth:  # Unique identifier for this rate limit
     description: Limits basic authentication requests per IP to prevent abuse
     actors: ip_address  # Actors (ip_address, user, group)
     group: group::authentication  # GitLab group that owns this rate limit
-    limits:
+    limit:
       threshold: 600  # Number of requests
       period: "1m"  # Time period (s=seconds, m=minutes, h=hours, d=days)
 
-  # Application rate limiter
-  - id: project_exports  # Unique identifier for this rate limit
-    type: application_rate_limiter  # Type of rate limiter
+  project_exports:  # Unique identifier for this rate limit
     description: Limits number of project exports a user can initiate
     actors: user  # Actors (ip_address, user, group)
     group: group::export  # GitLab group that owns this rate limit
