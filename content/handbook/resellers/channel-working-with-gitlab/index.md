@@ -29,7 +29,6 @@ _If a partner organization already exists in the partner portal, but a new partn
 - Visit our [partner portal](https://partners.gitlab.com/)
 - Select "Register" in the top right corner
 
-![GitLab Partner Portal](/images/resellers/channel-working-with-gitlab/GitLab_PSP_logo.png)
 
 The partner user will be directed to a page that asks them to confirm the organization they work for. After they confirm, they should click next, and fill in their information. After submitting the information, they'll receive login credentials if it is an active partner account with GitLab. Email partnersupport@gitlab.com if you have any problems.
 
