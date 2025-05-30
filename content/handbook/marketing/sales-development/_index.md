@@ -578,7 +578,10 @@ Populate the BDR Next Step Date to be at the end of the account's Flows length (
 
 To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help.
 
-Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. <br> Prospects with Flow steps past due <br> iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
+Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of: 
+i. Accounts with BDR fields past due <br> 
+ii. Prospects with Flow steps past due <br> 
+iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
 
 ### How to Get SAO Credit and Create Opportunities
 
