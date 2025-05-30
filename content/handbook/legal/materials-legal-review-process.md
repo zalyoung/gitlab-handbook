@@ -8,9 +8,9 @@ description: "Follow this process to obtain legal review of materials for intern
 What follows is a brief overview of key requirements. Review the complete process for full details and instructions.
 
 - Legal review is [mandatory](#mandatory-review) for, amongst other things, materials related to new product offerings, SKU changes, statements by E-Group members, financial data, and M&A activities.
-- All materials, whether or not review is mandatory, must comply with the SAFE Framework and Third-party IP Guidelines.
-- Materials containing MNPI or other internally-confidential information require special handling in restricted-access issues and documents.
-- Use the [self-serve compliance resources](#self-serve-materials-compliance-resources) to streamline the review process, and review common examples of legal feedback to improve your materials before submission.  
+- All materials, whether or not review is mandatory, must comply with the [SAFE Framework](/handbook/legal/safe-framework/) and [Third-party IP Guidelines](/handbook/legal/ip-public-materials-guidelines/).
+- Materials containing [MNPI](/handbook.gitlab.com/handbook/legal/safe-framework/#sensitive) or other internally-confidential information require special handling in restricted-access issues and documents.
+- Use the [self-serve compliance resources](#self-serve-materials-compliance-resources) to streamline the review process, and review [common examples of legal feedback](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/edit?tab=t.0#heading=h.zc4yqghdq4p7to) improve your materials before submission.  
 
 ## Self-serve materials compliance resources
 
@@ -19,7 +19,7 @@ When creating materials:
 - for [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) use, refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Tips](/handbook/legal/external-materials-compliance-tips).
 - for [internal](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
 
-The External Materials Compliance Tips page provides examples of common legal review feedback to help creators address compliance issues before submission. 
+The External Materials Compliance Tips page provides examples of [common legal review feedback](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/edit?tab=t.0#heading=h.zc4yqghdq4p7) to help creators address compliance issues before submission. 
 
 ## When to use this process
 
