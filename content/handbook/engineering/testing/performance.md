@@ -120,15 +120,15 @@ Existing performance testing includes:
 
 This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
 
-### Client-side Performance Testing
-
-* [Browser performance testing](browser-performance-testing.md)
-
 ### Component Performance Testing
 
 We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
 
 * [Component Performance Testing](https://gitlab.com/gitlab-org/quality/component-performance-testing)
+
+### Client-side Performance Testing
+
+* [Browser performance testing](browser-performance-testing.md)
 
 ### Profiling Tools
 
