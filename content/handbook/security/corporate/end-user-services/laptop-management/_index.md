@@ -1,7 +1,7 @@
 ---
 title: "GitLab Laptop Management"
 ---
-#controlled_document: true  flag was present but the file was not included in CODEOWNERS
+
 ## Purpose
 
 This page displays different pieces of information surrounding GitLab laptop procurement and management.
@@ -402,3 +402,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 * [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
+<!--- controlled_document: true  flag was present but the file was not included in CODEOWNERS -->
