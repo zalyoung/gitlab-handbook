@@ -4,7 +4,7 @@ description: "Procedures for handover between different regions in the Customer 
 canonical_path: "/handbook/security/customer-support-operations/workflows/handover-procedures"
 ---
 
-# Customer Support Operations Handover Procedures
+## Customer Support Operations Handover Procedures
 
 This document outlines the handover procedures between different regional teams in the Customer Support Operations group.
 
@@ -44,13 +44,12 @@ Support coverage transitions between regions according to the following schedule
 
 The following format is suggested:
 
-```
+```markdown
 :ticket: TICKET/S NEEDING ASSISTANCE:
  - 
 :red_circle: OTHER ITEM/S NEEDING ASSISTANCE, ATTENTION OR FOLLOW-UP
  - 
  ```
-
 
 ### After Handover
 
