@@ -23,7 +23,7 @@ To get started with GitLab, register your company by going to [https://partners.
 
 #### Creating Partner Portal Logins for Users (After Partner Registration)
 
-_This information can also be found in the [Partner Guide](https://partners.gitlab.com/prm/api/objects/v1/asset/hugkbmggdhtg/_view)(portal login required to access)). \
+This information can also be found in the [Partner Guide](https://partners.gitlab.com/prm/api/objects/v1/asset/hugkbmggdhtg/_view)(portal login required to access)). \
 If a partner organization already exists in the partner portal, but a new partner user needs login credentials:
 
 - Visit our [partner portal](https://partners.gitlab.com/)
