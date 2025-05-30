@@ -149,7 +149,6 @@ The list of dashboards below are templates that can be cloned and customized for
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
-| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/#sales-development-tools) | Tools and resources specifically designed for Sales Development teams and managers. |
 | [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
 | [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
@@ -166,7 +165,7 @@ The list of dashboards below are templates that can be cloned and customized for
 | [Command of the Message](/handbook/sales/command-of-the-message/) | "Command of the Message" training and the GitLab value framework. |
 | [Most commonly used sales resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | Sales resources page. |
 | [Flash Field newsletter](/handbook/sales/field-communications/field-flash-newsletter/) | Learn more about the sales weekly newsletter. |
-| [GitLab Values](https://handbook.gitlab.com/handbook/values/) | The guiding principles we try to live up to each day. |
+| [GitLab Values](/handbook/values/) | The guiding principles we try to live up to each day. |
 
 ## Our How-Tos for the Inbound and Outbound processes
 
@@ -697,7 +696,7 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 1. Ensure that relevant activity & products are attached.
 1. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
 1. For BDRs, ensure account was in AWA status
-ensuring that the [RoE](handbook/marketing/sales-development/#frequently-asked-questions-faq-and-rules-of-engagement-roe) was followed
+ensuring that the [RoE](/handbook/marketing/sales-development/#frequently-asked-questions-faq-and-rules-of-engagement-roe) was followed
 1. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
 #### AUDIT PROCESS
