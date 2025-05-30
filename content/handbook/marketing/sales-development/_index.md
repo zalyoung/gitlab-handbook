@@ -129,6 +129,8 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [Global/Regional Sales Dev Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=2) | A Tableau dashboard that breaks down attainment in regions or teams, and current/previous Quarters. |
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 | [Global SDR Ops Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
+[ [Global Activity KPI Dashboard]](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002KiDR2A0/view?queryScope=userFolders) | This dashboard visualises how each region is tracking against the weekly activity KPIs that we have. | 
+[ [FM Events Follow-Up Dashboard ]](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002FOwv2AG/view?queryScope=userFolders) | This dashboard shows the progress of leads associated to Field Marketing events. | 
 
 ### Dashboard/Report Templates
 
