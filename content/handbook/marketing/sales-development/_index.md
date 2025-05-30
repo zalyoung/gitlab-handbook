@@ -396,7 +396,7 @@ If you need to move a lead out of high prioriy without contacting them you can [
 
 ### Translating Groove Flows 
 
-For translating flows to different languages, other than English, the Sales Dev Team will be partnering with our GitLab Localization team. Please follow the grid below to see who the Sales Dev DRI for each language is and the level of support that the localization team can provide. The localization team can provide translations for languages outside of their normal range if given a two weeks heads up. The requestor should know that in these cases, the translation quality may not be as accurate as for the localization team's regularly supported languages
+For translating flows to different languages, other than English, the Sales Dev Team will be partnering with our GitLab Localization team. Please follow the grid below to see who the Sales Dev DRI for each language is and the level of support that the localization team can provide. The localization team can provide translations for languages outside of their normal range if given a two weeks heads up. The requestor should know that in these cases, the translation quality may not be as accurate as for the localization team's regularly supported languages. When you are ready to request translations from the localization team please create an issue in the [Localization GitLab Project](https://gitlab.com/gitlab-com/localization).
 
 | Language   | Sales Dev DRI           | Localization Team Support?          | Localization DRI           | Preferences          |
 |------------------|-------------------------------|-----------------------|-------------------------------|-------------------------------|
