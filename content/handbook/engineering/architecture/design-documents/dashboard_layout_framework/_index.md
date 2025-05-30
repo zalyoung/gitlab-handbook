@@ -196,7 +196,7 @@ For per-panel filters and panel-specific errors, we should use the panel error s
 
 ## Getting started
 
-To begin using the dashboard layout component, you'll need a minimum of two things:
+To begin using the dashboard layout component, you'll need a minimum of three pieces of information:
 
 - A dashboard title
 - Content to show in the dashboard panels
@@ -206,10 +206,9 @@ A very simple example of this might be:
 
 ```vue
 <script>
+import { GlDashboardPanel } from '@gitlab/ui';
 import { __ } from '~/locale';
 import DashboardLayout from '~/vue_shared/components/customizable_dashboard/dashboard_layout.vue';
-// For a simpler panel implementation, use: import { GlDashboardPanel } from '@gitlab/ui';
-import PanelsBase from '~/vue_shared/components/customizable_dashboard/panels_base.vue';
 import SingleStat from 'ee/analytics/analytics_dashboards/components/visualizations/single_stat.vue';
 
 // This data would usually be provided by an API or HTML attribute
@@ -223,7 +222,7 @@ const mockData = {
 export default {
   components: {
     DashboardLayout,
-    PanelsBase,
+    GlDashboardPanel,
     SingleStat,
   },
   data() {
@@ -267,11 +266,11 @@ export default {
   <dashboard-layout :config="dashboard">
     <template #panel="{ panel }">
       <!-- Rather than using v-bind, you could also specifically mention each component property -->
-      <panels-base v-bind="panel">
+      <gl-dashboard-panel v-bind="panel">
         <template #body>
           <single-stat v-bind="panel.mockData" />
         </template>
-      </panels-base>
+      </gl-dashboard-panel>
     </template>
   </dashboard-layout>
 </template>
