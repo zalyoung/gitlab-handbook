@@ -94,7 +94,9 @@ Performance unit testing allows developers to evaluate and enforce the performan
 
 We have [rspec-benchmark](https://github.com/piotrmurach/rspec-benchmark) included in our Gemfile. It is a gem that provides RSpec matchers for performance testing. It offers various matchers to assert on different performance aspects such as execution time, iterations per second, allocation counts, and memory usage.
 
-##### Example Test Case
+<details>
+
+<summary>Example Test Case</summary>
 
 Here's a complete example of using rspec-benchmark to test the performance of a method:
 
@@ -128,6 +130,7 @@ RSpec.describe UserFinder do
   end
 end
 ```
+</details>
 
 ### Profiling Tools
 
