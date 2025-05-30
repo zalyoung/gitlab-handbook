@@ -129,7 +129,7 @@ Once the design is complete, and appropriate workflow labels are applied, design
 
 #### Technical Investigation
 
-In the process of refinement we may discover a new feature will require a [blueprint](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/doc/workflow.md) or the team feels input from maintainers will help scope down the problem, ensure the feature is performant and/or reduce future technical debt. When this happens the team will create a Technical Investigation issue for the investigation. This issue will be assigned to one team member. That team member should spend the minimum amount of time to create documentation, a [poc](/handbook/engineering/development/ops/release/poc/), or some other artifact that clarifies the approach to the problem, ideally in less than 5 working days. This will help us to gather information, validate the solution with others, and propose a plan to execute. They will answer specific questions outlined in the Technical Investigation issue before work on the feature is started. This process is analogous to the concept of a [Spike](/handbook/product/product-processes/#spikes).
+In the process of refinement we may discover a new feature will require a [blueprint](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/doc/workflow.md) or the team feels input from maintainers will help scope down the problem, ensure the feature is performant and/or reduce future technical debt. When this happens the team will create a Technical Investigation issue for the investigation. This issue will be assigned to one team member. That team member should spend the minimum amount of time to create documentation, a Proof of Concept, or some other artifact that clarifies the approach to the problem, ideally in less than 5 working days. This will help us to gather information, validate the solution with others, and propose a plan to execute. They will answer specific questions outlined in the Technical Investigation issue before work on the feature is started. This process is analogous to the concept of a [Spike](/handbook/product/product-processes/#spikes).
 
 When possible, the assigned team member is encouraged to schedule synchronous time with another developer to pair on the investigation and publishing of the results (Example Technical Investigation issue [gitlab#336617](https://gitlab.com/gitlab-org/gitlab/-/issues/336617)). By default Technical Investigation issues are weighted at a 2 and we timebox them to 3 business days from start to presentation of data. Team members may change this weight and/or time frame at their discretion.
 
@@ -178,7 +178,7 @@ Before the team will accept an issue into a milestone for work it must meet thes
 - Issues labeled with ~"type::feature" include a well stated "why" and customer problem
 - Issues labeled ~"type::bug" include steps to reproduce
 - Designs are in the design tab if needed
-- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code/backend/#weighting-issues)
+- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/devops/dev/create/source-code/backend/#weighting-issues)
 - Design proposal satisfies the [UX Definition of Done (DoD)](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done)
 
 #### Definition of Blocked
@@ -330,6 +330,7 @@ The Pipeline Security group supports the product marketing categories described 
 | `CI job token` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=CI%20job%20token) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=CI%20job%20token) | Relates to functionality surrounding `CI_JOB_TOKEN` available in the Build environment. |
 | `secrets storage` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=secrets%20storage) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=secrets%20storage) | Relates to functionality surrounding the usage of secrets managers, including integration with secrets storage providers, in the Build environment. |
 | `external authentication` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=external%20authentication) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=external%20authentication) | Relates to functionality surrounding tokens for external authentication available in the Build environment. |
+| `SLSA` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=SLSA) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=SLSA) | Relates to functionality for [Supply-chain Levels for Software Artifacts (SLSA)](https://slsa.dev/). |
 
 ### Meetings
 

@@ -70,7 +70,7 @@ The following projects are used to manage the installation:
 
 - [k8s-workloads/gitlab-com](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com): Contains the GitLab.com configuration for the [GitLab helm chart](https://gitlab.com/gitlab-org/charts/gitlab).
 - [k8s-workloads/gitlab-helmfiles](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-helmfiles/): Contains the configuration cluster logging, monitoring and integrations like PlantUML.
-- [k8s-workloads/tanka-deployments](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/tanka-deployments): Contains the configuration for Thanos, Jaeger and other services not directly related to the GitLab application.
+- [k8s-workloads/tanka-deployments](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/tanka-deployments): Contains the configuration for Jaeger and other services not directly related to the GitLab application.
 - [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt): Terraform configuration for the cluster, all resources necessary to run the cluster are configured here including the cluster, node pools, service accounts and IP address reservations.
 - [charts](https://gitlab.com/gitlab-com/gl-infra/charts): Charts created by the infrastructure department to deploy services that don't have community charts.
 
@@ -78,7 +78,7 @@ All inbound web, git http, and git ssh requests are received at Cloudflare which
 
 ##### Monitoring and Logging
 
-Monitoring for GitLab.com runs in the same cluster as the application. Metrics are aggregated in the ops cluster using [Thanos](https://thanos.io) that has multiple components.
+Monitoring for GitLab.com runs in the same cluster as the application. Metrics are aggregated in the ops cluster using Mimir, which we interface with via [Grafana](https://grafana.gitlab.net) that has multiple components.
 
 Prometheus is configured using the [kube-prometheus-stack helm chart](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack) in the namespace `monitoring`, and every cluster has its own Prometheus which gives us some sharding for metrics.
 
@@ -123,7 +123,7 @@ Our GKE nodes are configured from the start with this mirror already in place pr
 [Source](https://docs.google.com/drawings/d/1vz4cluxqoccE2REyJLfLOM2etJjPvYvonwJoIHMtC2w/edit), GitLab internal use only
 
 GitLab.com uses several Redis shards for various use cases such as caching, rate-limiting, Sidekiq queueing. More info on various Redis shards, their
-configuration, and usage can be found in the [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/tree/master/roles) and [GitLab](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/redis). The relationship between Redis instances and GitLab deployments can be tracked via this [Thanos link](https://thanos-query.ops.gitlab.net/graph?g0.expr=avg%20by%20(type%2C%20storage)%20(gitlab_redis_client_requests_total%7Benv%3D%22gprd%22%7D)&g0.tab=1&g0.stacked=0&g0.range_input=1h&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D).
+configuration, and usage can be found in the [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/tree/master/roles) and [GitLab](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/redis). The relationship between Redis instances and GitLab deployments can be tracked via this [Grafana link](https://dashboards.gitlab.net/goto/tq8iLlaHR?orgId=1).
 
 When needed we also sometimes deal with CPU saturation by making application changes. Some of the techniques for this are discussed in [this video](https://youtu.be/qgK8TPTZllU).
 

@@ -31,7 +31,7 @@ When creating a new project, please follow these steps:
     * [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/index.html#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
 1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings.html):
     * [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings.html#auto-cancel-pending-pipelines).
-1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/gitlab_projects_baseline_requirements/)
+1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/standards/gitlab_projects_baseline_requirements/)
 1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/ee/user/project/members/index.html#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
 1. If needed, make sure to [set up a default CI/CD configuration](#cicd-configuration).
 1. If the project is part of work that is shipped to customers, add it to [projects_part_of_product.csv](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) by opening an MR to that file or following the [process outlined by Engineering Productivity](/handbook/product/groups/product-analysis/engineering/dashboards).
@@ -95,7 +95,7 @@ If a job requires the usage of Windows, SaaS runners on Windows should be used. 
 
 To publish a project to a package repository, please follow [these directions](/handbook/engineering/developer-onboarding/#ruby-gems).
 
-### Further Security Recommendations 
+### Further Security Recommendations
 
 1. Strongly consider [creating a threat model](/handbook/security/product-security/application-security/threat-modeling/howto/) for the project.
 1. Consider requesting an [AppSec review](/handbook/security/product-security/application-security/appsec-reviews/) when the project is more established.

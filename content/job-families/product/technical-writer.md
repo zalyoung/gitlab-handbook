@@ -133,7 +133,7 @@ Extends the Staff Technical Writer responsibilities in complexity and scope.
 
 ## Performance Indicators
 
-- [Technical Writing team member MR rate](/handbook/product/ux/performance-indicators/#technical-writing-team-member-mr-rate)
+- [Technical Writing team member MR rate](/handbook/product/ux/performance-indicators/#technical-writer-mr-rate)
 - [Technical Writing collaboration on UI text](/handbook/product/ux/performance-indicators/#technical-writing-collaboration-on-ui-text)
 
 ## Hiring Process

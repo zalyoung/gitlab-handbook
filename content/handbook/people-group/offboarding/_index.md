@@ -42,9 +42,9 @@ For any other offboarding questions from active team members please reach out to
 
 In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)) and complying with any contractual requirements, Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
 
-#### Germany
+##### Germany
 
-In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)), Team Members in Germany should send a wet-signature resignation letter to the [GmbH address](/handbook/entity/gmbh-germany/#scope) as per [§ 623 BGB](https://www.gesetze-im-internet.de/bgb/__623.html).
+In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)), Team Members resigning in Germany are required to provide a wet-ink signed resignation letter to the [GmbH address](/handbook/entity/gmbh-germany/#scope) and should liase with the People Connect team during offboarding to ensure it's properly provided.
 
 ##### Japan
 

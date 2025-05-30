@@ -187,7 +187,6 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 1. [Automotive Development](/handbook/company/working-groups/automotive-development/)
 1. [Customer Use Case Adoption](/handbook/company/working-groups/customer-use-case-adoption/)
-1. [Feature Testing](/handbook/company/working-groups/feature-testing/)
 1. [FedRAMP Execution](/handbook/company/working-groups/fedramp-execution/)
 1. [Frontend Technical Interview (internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/frontend-technical-interview/)
 1. [GCP Partnership](/handbook/company/working-groups/gcp-partnership/)
@@ -230,6 +229,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Event Stream](/handbook/company/working-groups/event-stream/)
 1. [Expense Management](/handbook/company/working-groups/expense-management/)
 1. [Experimentation](/handbook/company/working-groups/experimentation/)
+1. [Feature Testing](/handbook/company/working-groups/feature-testing/)
 1. [First Order](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/9)
 1. [Frontend Observability](/handbook/company/working-groups/frontend-observability/)
 1. [Frontend Vision](/handbook/company/working-groups/frontend-vision/)

@@ -52,7 +52,7 @@ vacate the Situation Room Zoom in favour of the active incident.
 ## Ownership
 
 The Incident Lead role must be deliberately set for every incident. If you need help determining the owner of an incident, the EOC can help.
-The Incident Lead can delegate ownership to another engineer or escalate ownership to the IM at any time. 
+The Incident Lead can delegate ownership to another engineer or escalate ownership to the IM at any time.
 There is only ever **one** owner of an incident and only the owner of the incident can declare an incident resolved.
 At anytime the Incident Lead can engage the next role in the hierarchy for support. The Incident Lead role should always be assigned to the current owner.
 
@@ -92,7 +92,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
 1. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
     1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#eoc-general` Slack channel.  If you are unable to find coverage reach out to the [EOC coordinator](#engineer-on-call-coordinator) for assistance.
 1. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.
-    1. Alerts that page PagerDuty will automatically create a triage incident in [`#incidents-dotcom-triage`](https://gitlab.slack.com/archives/alerts). If it is determined to be a true incident, the triage incident should be accepted. 
+    1. Alerts that page PagerDuty will automatically create a triage incident in [`#incidents-dotcom-triage`](https://gitlab.slack.com/archives/alerts). If it is determined to be a true incident, the triage incident should be accepted.
     1. Alert-manager alerts in [`#alerts`](https://gitlab.slack.com/archives/alerts) and [`#feed_alerts-general`](https://gitlab.slack.com/archives/feed_alerts-general) are an important source of information about the health of the environment and should be monitored during working hours.
     1. If the PagerDuty alert noise is too high, your task as an EOC is clearing out that noise by either fixing the system or changing the alert.
     1. If you are changing the alert, it is your responsibility to explain the reasons behind it and inform the next EOC that the change occurred.
@@ -392,7 +392,7 @@ Use the `@sre-oncall` handle to check who the current EOC is
 The current EOC can be contacted via the `@sre-oncall` handle in Slack, but please only use this handle in the following scenarios.
 
 1. You need assistance in halting the deployment pipeline. note: this can also be accomplished by [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and setting the custom field "Blocks Deployments" to "Yes".
-1. You are conducting a production change via our [Change Management](/handbook/engineering/infrastructure/change-management/) process and as a required step need to seek the approval of the EOC.
+1. You are conducting a production change via our [Change Management](/handbook/engineering/infrastructure-platforms/change-management/) process and as a required step need to seek the approval of the EOC.
 1. For all other concerns please see the [Getting Assistance](/handbook/engineering/infrastructure/getting-assistance/) section.
 
 The EOC will respond as soon as they can to the usage of the `@sre-oncall` handle in Slack, but depending on circumstances, may not be immediately available. If it is an emergency and you need an immediate response, please see the [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) section.
@@ -564,7 +564,7 @@ Incident Managers and Engineers On-Call can use the following table as a guide f
 
 ## Incident Data Classification
 
-There are four data classification levels defined in GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/#data-classification-levels).
+There are four data classification levels defined in GitLab's [Data Classification Standard](/handbook/security/standards/data-classification-standard/#data-classification-levels).
 
 - RED data should never be included in incidents, even if the issue is confidential.
 - ORANGE and YELLOW data can be included and the Incident Manager managing the incident should ensure the incident issue is marked as confidential or is in an internal note.
@@ -599,7 +599,7 @@ Items can be added to the timeline via the :pushpin: (📌) emoji reaction to a 
 ### Labeling
 
 We no longer use only GitLab labels to describe the status of an incident. The source of truth for any incident is incident.io.
-However, we do have incident.io set some labels based on the state of the incident. 
+However, we do have incident.io set some labels based on the state of the incident.
 
 #### Workflow Labeling
 

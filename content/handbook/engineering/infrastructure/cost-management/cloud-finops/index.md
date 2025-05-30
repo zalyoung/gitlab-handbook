@@ -36,7 +36,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 |ci_runners_pl_daily    |GitLab API|    CI consumption in ci.minutes per runner type |    CI/CD runner usage |
 |container_registry_pl_daily    |GitLab API|    Container registry usage per namespace in gigabyte per day |    Storage for container registries |
 |folder_pl|    GCP hierarchy|    Folder path |    GCP projects by parent folder |
-|haproxy_backend_pl|    HAproxy metrics from Thanos |    Network usage per backend in gigabyte per day |    Load balancer egress |
+|haproxy_backend_pl|    HAproxy metrics from Grafana |    Network usage per backend in gigabyte per day |    Load balancer egress |
 |haproxy_backend_ratio_daily |    HAproxy metrics |    Percentage of network usage per backend    | Splits load balancer costs by backend |
 |infralabel_pl | Config |    Infrastructure labels |    GCP resources by infrastructure label |
 |namespace_pl_daily|    GitLab API |    Namespace plan data |    Namespace allocation |
@@ -366,7 +366,7 @@ Description: This query averages the allocation percentages for each HAproxy bac
 - **Mission:** Splits Networking costs into its different backends (SSH, HTTPs, ...)
 - **Objective:** Enable better allocation and reporting of infrastructure costs by pl_category.
 - **Granularity:** N/A (mapping)
-- **Inputs:** Thanos HAproxy data, also visible [on Grafana](https://dashboards.gitlab.net/d/general-egress_ingress/general-network-ingress-egress-overview?orgId=1&from=1667956424979&to=1668115400979)
+- **Inputs:** HAproxy data also visible [on Grafana](https://dashboards.gitlab.net/d/general-egress_ingress/general-network-ingress-egress-overview?orgId=1&from=1667956424979&to=1668115400979)
 - **Accuracy rating:** Medium
 - **Completeness rating:** High
 
@@ -600,7 +600,6 @@ There are two lookback mapping models:
 - **GCP** (Google Cloud Platform): A suite of cloud computing services provided by Google that runs on the same infrastructure that Google uses internally for its end-user products.
 - **Pipeline**: In this context, a series of data processing steps or stages through which billing data is transformed and analyzed.
 - **CI Runners**: Continuous Integration runners are virtual machines or containers that execute the code in a CI/CD process.
-- **Thanos**: A set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 - **BigQuery**: A fully-managed, serverless data warehouse that enables scalable analysis over petabytes of data. It is a part of the Google Cloud Platform.
 - **HAproxy**: High Availability proxy is software that provides high availability, load balancing, and proxying for applications.
 - **Tableau**: A visual analytics platform transforming the way we use data to solve problems.

@@ -39,12 +39,6 @@ flowchart LR
 
 {{< team-by-manager-slug "mgamea" >}}
 
-### Stable counterpart
-
-| Person                               | Role                                                                                                                       |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| {{< member-by-name "Greg Alfaro" >}} | [GDK Project Stable Counterpart](/handbook/engineering/infrastructure/engineering-productivity/gdk/), Application Security |
-
 ## OKRs
 
 Objectives and Key Results (OKRs) help align our sub-department towards what really matters. These happen quarterly and are based on company OKRs. We follow the OKR process defined [here](/handbook/company/okrs/#okr-process-at-gitlab).

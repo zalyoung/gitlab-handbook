@@ -19,7 +19,7 @@ In FY26, we are executing on our Security Interlock vision by launching three di
 | ------ | ------ |
 | **Customer Zero** | Security's collaboration throughout the development and launch of new features, including requirements delivery, validation of intended functionality and mockups, and alpha/beta testing |
 | **Dogfooding Existing Features** | Ensuring Security's ability to reliably use and derive value from existing features |
-| **Security Product Co-Creation**, also known internally as Project Recursion | Direct contributions of security features, paved paths, and guardrails to the GitLab platform from the Security Division using the [Co-Create Process](/handbook/marketing/developer-relations/cocreate/) |
+| **Internal Co-Create Process** | Direct contributions of security features, paved paths, and guardrails to the GitLab platform from the Security Division using the [Internal Co-Create Process](/handbook/security/product-security/security-platforms-architecture/security-interlock/internal-co-create/) |
 
 We're actively formalizing these workstreams now. We are intentionally starting small with 1-2 target features for each to refine our collaborative interfaces before scaling our efforts.
 

@@ -12,8 +12,6 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 
 ### Mentorship Opportunities
 
-- [PlatoHQ Mentorship](/handbook/engineering/plato/)
-- [GitLab Company-Wide Mentorship Program](/handbook/people-group/learning-and-development/mentor/company-program/)
 - [Ad-hoc GitLab Mentorship](/handbook/people-group/learning-and-development/mentor/)
 
 ## Quality Engineering Manager Focus
@@ -33,7 +31,7 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 #### Additional reading
 
 - GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining one of the upcoming book clubs or starting your own.
-- The Create Stage has [recommended books for Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/books/).
+- The Create Stage has [recommended books for Engineering Managers](/handbook/engineering/devops/dev/create/engineering-managers/books/).
 
 ### Podcasts
 
@@ -42,8 +40,6 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 
 ### Mentorship Opportunities
 
-- [PlatoHQ Mentorship](/handbook/engineering/plato/)
-- [GitLab Company-Wide Mentorship Program](/handbook/people-group/learning-and-development/mentor/company-program/)
 - [Ad-hoc GitLab Mentorship](/handbook/people-group/learning-and-development/mentor/)
 
 ### Misc

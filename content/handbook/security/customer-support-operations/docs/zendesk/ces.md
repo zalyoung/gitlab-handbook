@@ -53,7 +53,7 @@ We currently send out CES surveys on tickets that have been in the solved state 
 
 ### CES Processor
 
-This takes information sent by Zapier and processes it. It then checks the information against the ticket itself to determine if the request is valid. It currently checks:
+This takes information sent by Workato and processes it. It then checks the information against the ticket itself to determine if the request is valid. It currently checks:
 
 - The ticket ID is present
 - The ticket itself exists
@@ -80,7 +80,7 @@ This is the actual survey form sent to customers. The exact link received depend
 - [Zendesk US Government](https://support.gitlab.io/ces-survey/us-government.html)
 - [Zendesk US Government sandbox](https://support.gitlab.io/ces-survey/us-government-sb.html)
 
-Submissions from the form are sent to Zapier.
+Submissions from the form are sent to Workato.
 
 The location of the source project is [here](https://gitlab.com/gitlab-support-readiness/forms/ces-survey). This is mirrored to [here](https://gitlab.com/support/ces-survey).
 
@@ -96,6 +96,6 @@ These are used to store the CES survey numerical score.
 
 These are used to create feedback issues for Support.
 
-### Zapier
+### Workato
 
 This is used to receive submissions from the CES Survey and send them to the CES Processor.

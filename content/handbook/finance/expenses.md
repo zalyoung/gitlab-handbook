@@ -236,6 +236,18 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 **Expense Type / Navan Policy Category:** Traveling: meals for myself
 {{% /panel %}}
 
+### Traveling: Team Events and Meals
+
+- To be used for team activities and food/beverages.
+- Each Team Member must submit their own receipts for reimbursement, so ensure to separate billing when going to meals with groups of Team Members. If this is not practicable to do due to the group size, then the most senior Team Member present should pay the bill and submit for reimbursement.
+- $80 limit per person per meal.
+- Tips are acceptable up to 20% and should be detailed accordingly in the description box. This should be included in the final price to stay within the Policy limits. For US team members, cash tips under $50 do not need a receipt.
+- Please also add a description for the trip/reason for travel.
+
+{{% panel header="**Coding**" header-bg="green" %}}
+**Expense Type / Navan Policy Category:** Traveling: Team Events and meals
+{{% /panel %}}
+
 ### Mileage
 
 - Based on Mileage driven and calculated by Navan. Team Members are prompted by Navan to enter their start and end locations.
@@ -625,9 +637,9 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
-**Global Upside, Remote.com and Papaya Global**
+**PEO Locations**
 
-- The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
+- The list of locations under a PEO can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 

@@ -18,6 +18,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
    1. Click on the new Issue
    1. If unassigned, assign it to yourself or the responsible CES on the right-side toolbar
    1. Read the Issue message
+   1. Labeling - each issue will need to be labeled with at least one appropriate label.
    1. If you need to respond to the "email" by adding comments to the issue, be sure to enter comments as you would an email to the candidate. Always assume that a candidate could be included in any email.
    1. If no action is needed and the issue has been solved, you may close it. Do not close issues until you have resolved the problem you are solving.
 
@@ -778,21 +779,6 @@ JCLs should be treated like contracts, where RSUs are only features in US ones a
 1. Then click "Done".
 1. When the JCL is signed, ensure that you merge profiles before Hiring to avoid creating duplicate profile
 
-## Germany Job Change Letters
-
-1. Confirm that the start date is either on the 1st or 16th of the month. For Sales or Sales Development, the start date should be the 1st. This is for payroll purposes and does not need to be on a business day.
-1. CES will send the "German Job Change Letter step 1" template email via Greenhouse.
-1. Follow the Job Change Letter process above to send via Docusign.
-1. Download a copy of the unsigned JCL on your desktop.
-1. Open the saved unsigned contract in Google Drive and replace Signatory's name with "GitLab Signatory". Save the contract as a PDF format.
-1. To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - To (recipients) : Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-    - Subject line : Please Send Physical Job Change Letter for "Name of the team member"
-    - Body of the email : Expand the Text expander snippet "GCtogermancounsel"
-    - Attachment : CES to attach the unsigned PDF JCL
-1. In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the "email the "candidate name" function, select the template "German Job Change Letter already sent to counsel".
-1. Once the candidate has confirmed that they have received the physical JCL in mail, CES will send the email template "German Job Change Letter step 2" to the candidate and close out the issue.
-
 ## Contractor Conversions
 
 A contractor conversion is when a GitLab contractor is moving into a permanent position. Recruiters should communicate to their CES partner that a candidate is going through a contractor conversion process. You can confirm this by checking that the "source" says Contractor Conversion, which will show up on the requisition. CES team members will follow the same steps as a regular contract, however there are a few nuances to note:
@@ -821,7 +807,6 @@ The process for New Hires is as follows:
 1. The offer is made by the recruiter per the [hiring process](/handbook/hiring).
 1. If the date of birth is not filled out and cannot be found in a reference check form, the Candidate Experience Specialist can use the emails the email template Contract Info Request - the Netherlands from GreenHouse and send to the candidate.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
-1. The Candidate Experience Specialist will update the GreenHouse Offer Details with the Date of Birth when the new team member provides the necessary details and then generates the "IT BV Employee Temporary - the Netherlands" contract out of GreenHouse.
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
 1. Please note that you should *not* be running a criminal background check for the Netherlands, because they'll be doing a different process (Certificate of Good Conduct/VoGS) instead. Please select the Netherlands background check package which only includes employment verification and an extended global sanctions search.
 
@@ -955,30 +940,40 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required
 1. The Candidate Experience Specialist will check if there is a probationary period.
-1. Go to Probationary Periods for Team Members Employed by a PEO and check the candidate’s country
+1. Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate’s country.
 1. Select the duration of the probationary period (if any) in the “Offer Details” dropdown. If there isn’t one, select “N/A” in that field
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed
 1. If the contract is indefinite, select “Indefinite” from the dropdown in “Offer Details”
 1. If the contract is fixed, select “Fixed Contract” from the dropdown in “Offer Details” and enter the end date under “End Date”
 1. Once additional details are obtained, update the offer details to reflect all information. The CES should be the signatory
-1. Generate “PEO New Hire Template” in Offer Documents to Send through DocuSign
+1. Generate “PEO Template!” in Offer Documents to Send through DocuSign
 1. Choose template Offer through DocuSign -GX - Global Expansion -To User, Self (CES) -Sign and complete
-1. Log in to the GX 1 Platform using the log in credentials (you can find this information in the CES desk repository)
-1. Click + New Employee on the landing page
-1. Add personal information of new hire
+1. Log in to the GX 1 Platform using the CES Team log in credentials (you can find this information in the CES desk repository)
+1. Click + New Employee (pink button) on the landing page
+1. Click the "+" icon on the left hand side of the gray bar
+1. Add personal information of new hire to required fields
+    - Legal Last Name
+    - Legal First Name
+    - Email
+    - Contact Number
+    - To Country
 1. Add Position details
+    - Job Title
+    - Intended Start Date
+    - Contract Duration
+    - Projected End Date (if contract is fixed)
+1. Add CES name and contact information to the Signatory fields
+1. To "Line Manager" fields, add the hiring manager's information
+1. Use the information on [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) to add employee & employer notice periods as well as probation period.
 1. Add benefits information:
-    - Benefits Policy Type: Use Country guide information located in CES Repository
-    - Signatory: Name/Email of CES submitting candidate into Portal
-    - Expense approver: Leave blank for now
-    - Employment Benefits: Use Country guide information located in CES Repository
+    - Medical Benefits: Use Country guide information located in CES Repository to complete the two fields
+    - Employment Retirement Insurance: Use Country guide information located in CES Repository. If nothing is noted in the guide for the country, select “Not Applicable”
     - Benefits Policy Duration: Select "auto renew" for contract duration
-    - Employment Retirement Insurance: Use Country guide information located in CES Repository
     - If you see three check boxes for Visa & background screening: ONLY FOR UAE - Select YES (Visa only) and ALWAYS Select "No" for the background screenings for all countries
 1. GX Compensation
-    - Local currency: Per location - portal should auto adjust
-    - Enter just the number “1” (You are not expected to calculate this) In the additional notes section, you can copy/paste the Annual Salary figure
-1. If you have all the details click Initiate New Employee (or Save and Submit Later if you are missing data)
+    - Monthly Basic Salary: Enter the number “1” (you are not expected to calculate this). Add the candidate’s annual salary to the additional notes section, making sure to include the currency
+    - Local currency: Click the down arrow next to field and search for the country. You can also view the currency in the candidate’s greenhouse offer.
+1. If you have all the details populated,  click Initiate New Employee (or Save and Submit Later if you are missing data)
 1. GX will then review the details and compose the employee’s contract. They will then email ces@gitlab.com when it is complete and ask us to review. You will need to log into the GX platform FIRST, and then click the link in the email sent by GX
 1. Review all details of the contract to confirm accuracy
     - If there are items missing, you have the ability to write feedback notes and send back to GX. Click the drop down and select “REJECT - the following changes are required” and submit
