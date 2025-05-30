@@ -46,7 +46,7 @@ There will be **no change** to the `Security Widget` or `Pipeline Security Tab` 
 
 - Enabled by setting CI/CD variables `SAST_PARTIAL_SCAN: differential`
 The GLAS scanner analyzes only the modified files and the files that depend on them (based on the configured [neighborhood depth](#understanding-neighborhood-depth))
-- The resulting SAST report includes a `sast_partial_scan` field that is set to `differential` and findings limited to the scanned files
+- The resulting SAST report includes a `partial_scan_mode` field that is set to `differential` and findings limited to the scanned files
 - The `Security Widget` displays a notice indicating this is a diff-based scan and **only shows new and existing findings, [excluding fixed vulnerabilities](#fixed-vulnerabilities-in-diff-scanning)**
 - The `Security Pipeline tab` displays a diff-scan notice
 
@@ -62,16 +62,16 @@ sequenceDiagram
     participant Pipeline as Security Pipeline Frontend
 
     User->>GitLabCI: Configure CI to enable GLAS diff scan
-    GitLabCI->>GitLabCI: Configure DIFF_SCAN=true and AST_ENABLE_MR_PIPELINES=true
+    GitLabCI->>GitLabCI: Configure SAST_PARTIAL_SCAN=true and AST_ENABLE_MR_PIPELINES=true
     User->>User: Creates an MR
     User->>GLAS: Diff-based GLAS scan triggered
     GLAS->>GLAS: Get modified files and neighbourhood files
     GLAS->>GLAS: Run scan
-    GLAS->>GLAS: Create SAST report with diff_scan=true
+    GLAS->>GLAS: Create SAST report with partial_scan_mode=differential
     GLAS->>Rails: Upload SAST report
     Rails->>Rails: Store scan with diff metadata
     Rails->>Rails: Set empty fixed findings for diff scan
-    Rails-->>MR: Security findings with diff_scan flag
+    Rails-->>MR: Security findings with partial_scan_mode flag
     MR->>MR: Display diff scan notice
     MR->>MR: Display only new and existing vulnerabilities
     MR-->>User: View security findings
@@ -91,6 +91,7 @@ classDiagram
         updated_at: timestamp
         build_id: bigint
         scan_type: smallint
+        partial_scan_mode: smallint
         info: jsonb
         project_id: bigint
         pipeline_id: bigint
@@ -98,16 +99,6 @@ classDiagram
         status: smallint
         findings_partition_number: integer
     }
-    
-    class security_scan_partial_glas_metadata {
-        id: bigint
-        security_scan_id: bigint
-        scan_mode: smallint
-        created_at: timestamp
-        updated_at: timestamp
-    }
-    
-    security_scans "1" -- "1" security_scan_partial_glas_metadata
 ```
 
 ### Key Design Decisions
@@ -137,18 +128,13 @@ For the MVC, we will maintain existing security approval functionality but provi
 
 #### 3. Full Scan Option
 
-**Decision: Allow users to override diff-based scanning and run a full scan via the `SAST_PARTIAL_SCAN` CI variable**
+**Decision: Users need to disable diff-based scanning to trigger a full scan**
 
-By default, GLAS runs full scans. However, users who have enabled diff-based scanning can trigger a full scan for a specific pipeline by setting the `SAST_PARTIAL_SCAN` variable to false.
+We initially considered allowing users with diff-based scanning configured to trigger a full scan for specific pipelines. However, this was blocked by the lack of support for setting manual CI variables for MR pipelines. More context in this [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/543964).
 
 *Alternative approach:*
 
 - Add a button in the Security Widget to trigger a full scan
-
-*Rationale:*
-
-- Provides flexibility without requiring UI changes for the MVC
-- See background and reasoning [here](https://gitlab.com/gitlab-org/gitlab/-/issues/536864#note_2485990368)
 
 ## Design and Implementation Details
 
@@ -160,41 +146,21 @@ By default, GLAS runs full scans. However, users who have enabled diff-based sca
 
 1. GLAS analyzer only analyzes the modified files and neighborhood files based on the default [neighborhood depth](#understanding-neighborhood-depth)
 
-1. For a diff-based scan, the `GLAS` analyzer will set the `sast_partial_scan` field to `differential`.
+1. For a diff-based scan, the `GLAS` analyzer will set the `partial_scan_mode` field in the sast report to `differential`.
 
 ### Report schema changes
 
-1. Update the [security report schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/941f497a3824d4393eb8a7efced497f738895ab4/src/sast-report-format.json) to accept a new `sast_partial_scan` enum field which for now only supports 1 scanning mode `differential` but could be extended to include `incremental` for [incremental scanning support](https://gitlab.com/groups/gitlab-org/-/epics/15545) in the future.
+1. Update the [security report schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/941f497a3824d4393eb8a7efced497f738895ab4/src/sast-report-format.json) to support a new optional `partial_scan_mode` enum field with the value `differential` for GLAS diff-based scans. 
+
+    - Since not all analyzers support partial scan modes, this field should be optional. Reports that don't include it can be assumed to have a null value.
+    - When [incremental scanning](https://gitlab.com/groups/gitlab-org/-/epics/15545) is introduced, a new enum value of `incremental` can be added.
 
 ### Database Schema Changes
 
-Introduce a new table to track whether a scan is a GLAS diff-based scan. This is kept separate from security_scans to avoid adding unused fields for other scan types.
-
-1. Create a new table `security_scan_partial_glas_metadata` associated with the `security_scan` table
-
-   ```ruby
-    create_table :security_scan_partial_glas_metadata do |t|
-        t.references :security_scan, null: false, foreign_key: true, index: { unique: true }
-        t.smallint :scan_mode, null: false, default: 1
-        t.timestamps
-    end
-   ```
-
-2. Add a `ScanPartialGlasMetadata` model that belongs to [`Security::Scan`](https://gitlab.com/gitlab-org/gitlab/-/blob/d9105304152646f2b784b39d9ffe87a315eb787e/ee/app/models/security/scan.rb)
-
-   ```ruby
-   class ScanPartialGlasMetadata < ApplicationRecord
-     belongs_to :security_scan, class_name: 'Security::Scan'
-
-     enum scan_mode: {
-       differential: 1,
-     }
-   end
-   ```
+- Add a new field `partial_scan_mode` to the `security_scans` table where the default is null.
+- Update the [`Security::Scan`](https://gitlab.com/gitlab-org/gitlab/-/blob/d9105304152646f2b784b39d9ffe87a315eb787e/ee/app/models/security/scan.rb) model to define a new enum for the `partial_scan_mode` field, with support for the `differential` value.
 
 ### Persist the diff-based scan
-
-1. Add partial scan fields to [security report schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas)
 
 1. Add partial scan data to the [security report parser](https://gitlab.com/gitlab-org/gitlab/-/blob/fb765f79de756ebe966cbec40b1d196f299d1776/lib/gitlab/ci/parsers/security/common.rb)
 
