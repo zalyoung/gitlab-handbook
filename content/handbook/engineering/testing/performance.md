@@ -66,6 +66,25 @@ flowchart LR
   %% Unit testing tooltip
   click UNIT "#performance-unit-testing" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
 ```
+### Server-side Performance Testing
+
+Existing performance testing includes:
+
+* [Gitlab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
+* [Reference Architecture server performance testing](../infrastructure-platforms/gitlab-delivery/framework/reference-architecture-validation-testing.md)
+* [Gitlab Performance Tool Quickstart](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/quick_start.md)
+
+This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
+
+### Component Performance Testing
+
+We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
+
+* [Component Performance Testing](https://gitlab.com/gitlab-org/quality/component-performance-testing)
+
+### Client-side Performance Testing
+
+* [Browser performance testing](browser-performance-testing.md)
 
 ### Performance Unit Testing
 
@@ -109,26 +128,6 @@ RSpec.describe UserFinder do
   end
 end
 ```
-
-### Server-side Performance Testing
-
-Existing performance testing includes:
-
-* [Gitlab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
-* [Reference Architecture server performance testing](../infrastructure-platforms/gitlab-delivery/framework/reference-architecture-validation-testing.md)
-* [Gitlab Performance Tool Quickstart](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/quick_start.md)
-
-This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
-
-### Component Performance Testing
-
-We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
-
-* [Component Performance Testing](https://gitlab.com/gitlab-org/quality/component-performance-testing)
-
-### Client-side Performance Testing
-
-* [Browser performance testing](browser-performance-testing.md)
 
 ### Profiling Tools
 
