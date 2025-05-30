@@ -6,7 +6,7 @@ Engineers within the Infrastructure Platforms department
 
 ## Career growth within Infrastructure Platforms
 
-Infrastructure Platforms follows the [Engineering department approach to career growth](/handbook/engineering/careers/) with [department-specific exectations for each job level](/handbook.gitlab.com/handbook/engineering/careers/matrix/infrastructure/)
+Infrastructure Platforms follows the [Engineering department approach to career growth](/handbook/engineering/careers/) with [department-specific exectations for each job level](/handbook/engineering/careers/matrix/infrastructure/)
 
 It's important for you to take an active role in shaping your career path. Consider having open conversations with your manager about your professional goals and aspirations. These discussions can help ensure you're both aligned on your development priorities and can work together to create opportunities that support your growth.
 
