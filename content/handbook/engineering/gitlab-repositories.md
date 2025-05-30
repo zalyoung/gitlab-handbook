@@ -4,6 +4,12 @@ title: GitLab Repositories
 
 GitLab consists of many subprojects. A curated list of GitLab projects can be found at the [GitLab Engineering projects](/handbook/engineering/projects/) page.
 
+## Purpose
+
+The purpose of this page is to provide comprehensive guidance for creating and managing GitLab repositories within the organization. It establishes standardized procedures and best practices that ensure all GitLab projects adhere to consistent security, governance, and operational requirements. By following these guidelines, teams can properly structure repositories, implement appropriate access controls, configure essential CI/CD settings, and incorporate security measures that protect both the codebase and the broader GitLab ecosystem.
+
+
+
 ## Creating a new project
 
 When creating a new project, please follow these steps:
