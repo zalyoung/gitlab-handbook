@@ -47,6 +47,12 @@ Not all Fulfillment features are available at the time for all types of customer
 
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
 
+## Internal license request
+The team member license [process](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/team_member_licenses/) via support ops team will only be able to generate a legacy license file for the team member
+If you need a staging cloud license to test Duo please create a new request for #g_provision group
+If you need a production cloud license to test Duo please use a $0 order/subscription with deal desk team
+
+
 ## Temporary renewal extensions
 
 Sales Rep can generate a temporary extension via SFDC for one of the approved reasons. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/subscriptions/self_managed/#subscription-expiry)).
