@@ -72,7 +72,7 @@ Testimonials from happy customers are a great tool, but gathering this informati
 
 ### **Concierge Marketing Program**
 
-Select Partners are elibible to participate in this program. Get the help you need to expand your customer base, build brand loyalty, and grow your business. Our Concierge Program will deliver marketing solutions tailored to your teamʼs unique needs. To participate in this program, Select Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com).
+Select Partners are eligible to participate in this program. Get the help you need to expand your customer base, build brand loyalty, and grow your business. Our Concierge Program will deliver marketing solutions tailored to your teamʼs unique needs. To participate in this program, Select Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com).
 
 ### **Marketing Development Funds**
 
