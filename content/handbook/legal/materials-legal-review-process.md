@@ -60,7 +60,7 @@ Review is **always** required for:
 - Materials relating to:
   - Mergers and acquisitions, including spin outs, investments, or acqui-hires; or
   - Executive or other material organizational or management changes
-- Social media posts that cover or reference subjects that would normally require review (e.g. earnings reports, mergers and acquisitions, etc.) non-public financial data, or a variation of previously disclosed financial data, or those disclosing information related to anything in this list or any other material nonpublic informations.
+- Social media posts that cover or reference subjects that would normally require review (e.g. earnings reports, mergers and acquisitions, etc.) non-public financial data, or a variation of previously disclosed financial data, or those disclosing information related to anything in this list or any other material nonpublic information.
 
 ### Excluded from review
 
