@@ -388,7 +388,7 @@ end
 **State management service:**
 
 ```ruby
-module Namespaces 
+module Namespaces
   class StateManagementService
     def initialize(namespace, current_user, inherited_from_namespace: nil)
       @namespace = namespace
