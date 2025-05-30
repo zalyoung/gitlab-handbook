@@ -150,7 +150,6 @@ The list of dashboards below are templates that can be cloned and customized for
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
 | [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
-| [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
 | [Sales Development Enablement Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrjbznnEEiCtxUfT8-OV6X8) | Playlist of enablement videos and how-tos for BDRs and SDRs. |
 | [Groove flow naming convention](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?gid=0#gid=0) | Document outlining the naming convention for Groove Flows. |
@@ -586,7 +585,7 @@ Team specific variants of these dashboard components will also be found on your 
 Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](/handbook/sales/field-operations/gtm-resources/#opportunities)
 
 As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the `LEAD, CONTACT, and OPPORTUNITY` objects in Salesforce. In order to obtain an SAO, you will need to have the `required information` filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
-The full walkthrough of how to create a SFDC opportunity is [listed here](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity). 
+The full walkthrough of how to create a SFDC opportunity is [listed here](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity). 
 
 Please note that, in addition to the main requirements listed on this link, the Sales Dev org memebers (both SDRs and BDRs) are expected to fullfill the `Initial Engagement Channel` as a mandatory qualification field, before being allowed to create an opportunity. 
 
