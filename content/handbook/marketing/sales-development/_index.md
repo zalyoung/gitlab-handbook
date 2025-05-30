@@ -394,6 +394,25 @@ A High Priority Lead is a lead that is related to a high priority campaign. Any 
 
 If you need to move a lead out of high prioriy without contacting them you can [use this flow.](https://groove.clari.com/flows/1097000) This flow is one generic task for you to complete that will move the lead to accepted status and remove the high priority check.
 
+### Translating Groove Flows 
+
+For translating flows to different languages, other than English, the Sales Dev Team will be partnering with our GitLab Localization team. Please follow the grid below to see who the Sales Dev DRI for each language is and the level of support that the localization team can provide. The localization team can provide translations for languages outside of their normal range if given a two weeks heads up. The requestor should know that in these cases, the translation quality may not be as accurate as for the localization team's regularly supported languages. When you are ready to request translations from the localization team please create an issue in the [Localization GitLab Project](https://gitlab.com/gitlab-com/localization).
+
+| Language   | Sales Dev DRI           | Localization Team Support?          | Localization DRI           | Preferences          |
+|------------------|-------------------------------|-----------------------|-------------------------------|-------------------------------|
+| AMER Spanish| Kenia Rodriguez| Yes but only International ESP |Vendor Support|N/A |
+| AMER Portuguese| Leo Viera | Yes Brazilian PT |Vendor Support|N/A |
+| EMEA Spanish| Camilo Hernandez Murillo| Yes but only International ESP |Vendor Support|N/A |
+| EMEA Portuguese| Tati Fernandez | No |Vendor Support|N/A |
+| Dutch| Marije Konink | No |N/A|N/A |
+| French| Erwan Régnaud | Yes | Maud Leuenberger| No emojis, Hello Last Name instead of First Name |
+| German| Riko Pfennig| Yes |Hendrik Breuer|Very Formal, No Emojis |
+| Indonesian (Bahasa)| Aletha Alfarania| No |N/A|N/A |
+| Italian| Francesca Gianfiglio| Yes |Vendor Support|N/A |
+| Japanese|Eri Nitani| Yes | Megumi Uchikawa|N/A |
+| Korean|Kayla Ko| No| N/A|N/A |
+| Mandarin (Taiwan)|Aletha Alfarania| No| N/A|N/A |
+
 #### How to Change your Email Signature
 
 You must change your email signature [in Terminus](/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Groove or Gmail your signature will revert back within 24 hours.
