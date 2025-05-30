@@ -69,7 +69,46 @@ flowchart LR
 
 ### Performance Unit Testing
 
-By making use of rspec-benchmark
+Performance unit testing allows developers to evaluate and enforce the performance characteristics of their code at the unit level. This approach provides fast feedback on performance during development, helping catch performance regressions early in the development lifecycle.
+
+#### Using rspec-benchmark
+
+We have [rspec-benchmark](https://github.com/piotrmurach/rspec-benchmark) included in our Gemfile. It is a gem that provides RSpec matchers for performance testing. It offers various matchers to assert on different performance aspects such as execution time, iterations per second, allocation counts, and memory usage.
+
+##### Example Test Case
+
+Here's a complete example of using rspec-benchmark to test the performance of a method:
+
+```ruby
+require 'spec_helper'
+
+RSpec.describe UserFinder do
+  describe '#find_active' do
+    it 'performs query under 50ms' do
+      users = create_list(:user, 100, status: :active)
+
+      expect {
+        UserFinder.new.find_active
+      }.to perform_under(50).ms
+    end
+
+    it 'allocates less than 20 objects' do
+      users = create_list(:user, 100, status: :active)
+
+      expect {
+        UserFinder.new.find_active
+      }.to perform_allocation(count: 1..20)
+    end
+
+    it 'scales linearly with number of users' do
+      expect do |n, i|
+        users = create_list(:user, n, status: :active)
+        UserFinder.new.find_active
+      end.to perform_linear.in_range(10..100).sample(5)
+    end
+  end
+end
+```
 
 ### Server-side Performance Testing
 
