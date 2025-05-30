@@ -210,7 +210,7 @@ If you encounter issues with Vault integration:
 
 ## Future Considerations
 
-- We're not limited to Vault for ESS. Consider utilizing 1Password's API integration. You can find an excellent example [here](https://gitlab.com/gitlab-com/it/security/it-security-automation/-/blob/main/onepassword.py?ref_type=heads).
+- We're not limited to Vault for ESS. Consider utilizing 1Password's API integration. You can find an excellent example [here](https://gitlab.com/gitlab-com/it/security/it-security-automation/-/blob/main/onepassword.py?ref_type=heads). The setup guide can be found [here](https://gitlab.com/gitlab-com/it/security/it-security-automation/-/blob/main/README.md).
 - Google Cloud Secrets Manager integration
 - OAuth 2.0 API service with Proof of Possession (POP) for Okta-specific applications
 
