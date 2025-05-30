@@ -66,6 +66,7 @@ flowchart LR
   %% Unit testing tooltip
   click UNIT "#performance-unit-testing" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
 ```
+
 ### Server-side Performance Testing
 
 Existing performance testing includes:
