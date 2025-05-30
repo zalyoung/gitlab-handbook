@@ -141,8 +141,6 @@ Compensation Benchmarking is the process of using internal job descriptions to m
 
 Each new job family will be assigned a [job code](#job-codes) and evaluated through the same process as [for existing role](#benchmark-evaluation-for-existing-roles).
 
-To review the Compensation Benchmark process please refer to the [New Roles Creation](/handbook/hiring/job-families/#new-job-family-creation-or-additional-level-role-within-a-current-job-family).
-
 #### Benchmark Adjustment
 
 As stated in [competitive rate](/handbook/total-rewards/compensation/#competitive-rate) we want to recruit and retain people who meet our requirements.

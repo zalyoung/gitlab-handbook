@@ -91,7 +91,7 @@ The Senior Manager of Product Design is a [grade 9](/handbook/total-rewards/comp
 * **Vision and direction**: Actively influence and guide the experience strategy and vision of the areas you're assigned.
 * **Career development:** Provide coaching for those on your team to grow management/coaching skills and develop career paths using methods such as weekly [1:1s](/handbook/leadership/1-1), individual growth plans, and routine career development check-ins.
 * **People management:** Coach your team on how to recognize and prevent burnout while managing performance. Impact the happiness and productivity of your team through methods such as capacity management coaching. Conduct quarterly skip-levels with your reports' direct reports.
-* **Goal setting and performance tracking:** Define and manage [performance indicators](/handbook/product/ux/performance-indicators/) and [FY directional next steps](/handbook/product/ux/#fy27-direction) for the product design team. Facilitate the creation and execution of product design [OKRs](/handbook/company/okrs/) in collaboration with the product design team and UX leadership.
+* **Goal setting and performance tracking:** Define and manage [performance indicators](/handbook/product/ux/performance-indicators/) and [FY directional next steps](/handbook/product/ux/#fy23-direction) for the product design team. Facilitate the creation and execution of product design [OKRs](/handbook/company/okrs/) in collaboration with the product design team and UX leadership.
 
 ### Requirements
 

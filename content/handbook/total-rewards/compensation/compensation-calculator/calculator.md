@@ -10,7 +10,7 @@ manual_cookiebot: true
 ### Team Members who No Longer Have Access
 
 * Access your Total Target Cash range in your Workday profile under the compensation tab if your range was previously available in the Compensation Calculator
-     * Commission-eligible Sales roles not previously in the calculator will be visible in Workday in August
+  * Commission-eligible Sales roles not previously in the calculator will be visible in Workday in August
 * Request a consultation through HelpLab to access ranges for career development planning
 
 ### Team Members with Retained Access
