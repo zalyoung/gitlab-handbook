@@ -174,6 +174,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 ### Videos
 
 For your screen recording:
+
 1. We recommend Quicktime or OBS.
 1. Set window size to an aspect ratio of 16x9. Common resolution is 1920×1080 (16:9 aspect ratio) or 2880×1750 for screen recordings. 
 1. If recording for social, consider square (1:1) for multi-platform compatibility or vertical (9:16).
@@ -187,6 +188,7 @@ For your screen recording:
 In many cases, OBS will allow greater control and flexibility for screen recordings. 
 
 Here are some tips to keep in mind: 
+
 - Scene - a scene is a collection of sources that you will record simultaneously. 
 - Sources - sources can be audio, screen recordings, webcams, etc. 
   - To add a source, click the `+` icon. These are the three most common sources you will use: 
