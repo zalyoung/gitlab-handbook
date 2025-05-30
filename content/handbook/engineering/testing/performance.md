@@ -17,12 +17,14 @@ flowchart LR
   START((Start))
   UNIT[[Performance checks in Unit Tests]]
   PROFILE[[Profiling tools]]
+  OBSERVE_TEST[[Observability based Performance Testing]]
 
   SPECS{Testing with\nnew unit tests?}
   BUILT{Testing during\ndevelopment?}
   UI{Testing user-facing\nperformance?}
   ENV{Testing backend/API\nperformance?}
   COMPONENT{Testing component\nperformance?}
+  OBSERVABILITY{Reviewing live\nperformance results?}
 
   START --> BUILT
   BUILT -- no --> ENV
@@ -34,7 +36,10 @@ flowchart LR
   UI -- no --> COMPONENT
 
   COMPONENT -- yes --> CPT
-  COMPONENT -- no --> GPT
+  COMPONENT -- no --> OBSERVABILITY
+
+  OBSERVABILITY -- yes --> OBSERVE_TEST
+  OBSERVABILITY -- no --> GPT
 
   ENV -- yes --> GPT
   ENV -- no --> UI
@@ -45,8 +50,8 @@ flowchart LR
   classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
   classDef kitStyle fill:#f0f8ff,stroke:#4a90e2,stroke-width:2px,color:#333;
 
-  class UI,ENV,BUILT,COMPONENT,SPECS decision;
-  class GBPT,CPT,GPT,PROFILE,UNIT tool;
+  class UI,ENV,BUILT,COMPONENT,SPECS,OBSERVABILITY decision;
+  class GBPT,CPT,GPT,PROFILE,UNIT,OBSERVE_TEST tool;
   class START start;
   class PTK kitStyle;
 
@@ -55,6 +60,7 @@ flowchart LR
   click GBPT "#client-side-performance-testing" "Browser performance testing using SiteSpeed.io to measure user-facing performance"
   click CPT "#component-performance-testing" "Load testing for specific subsystems or components like Gitaly"
   click PROFILE "#profiling-tools" "Ruby profiling tools: ruby-prof, stackprof, memory_profiler, rbspy, and others"
+  click OBSERVE_TEST "https://handbook.gitlab.com/handbook/engineering/testing/observability_performance/" "Using existing Observability for Performance"
 
   %% Decision node tooltips
   click BUILT "javascript:void(0)" "Is the code/feature still under active development? Use early-stage performance tools if yes."
