@@ -1,0 +1,331 @@
+---
+stage: enablement
+group: Tenant Scale
+title: 'Proposal: Ring Based Settings Synchronization'
+status: proposed
+author: [ "@a_richter" ]
+coach: [ "@tkuah" ]
+toc_hide: true
+---
+
+{{< engineering/design-document-header >}}
+
+## Context
+
+GitLab.com is transitioning from a monolithic architecture to a distributed deployment model with cells organized in rings. While the legacy monolith (Ring 0) has settings controlled via Helm charts, settings for cells in Ring 1+ currently require manual updates by SREs. This creates several challenges:
+
+1. **Operational Overhead**: Manual configuration across cells consumes significant SRE time and increases risk of human error
+2. **Configuration Drift Risk**: Manual processes lead to inconsistencies between cells
+3. **Limited Integration**: Manual approach incompatible with the ring-based deployment model
+4. **Customization Challenges**: Efficient application of cell-specific customizations presents difficulties
+5. **Scalability Concerns**: The current approach may become increasingly difficult to maintain as the number of cells and rings expands
+
+An automated solution for synchronizing application settings across distributed cells is necessary - one that integrates with the existing ring-based deployment model while supporting both global consistency and local customizations.
+
+## Proposed Solution
+
+A solution for settings synchronization across cells should address the following requirements:
+
+1. **Configuration as Code**: Store all settings in version-controlled repositories
+2. **Source of Truth**: Consider treating live cells as the source of truth rather than relying on state files. For operational configurations like settings, the live system could serve as an authoritative reference to prevent drift and enable direct verification.
+3. **Ring-Based Deployment**: Build upon the existing ring deployment model
+4. **Hierarchical Settings**: Support inheritance from base settings to ring-specific and cell-specific overrides
+5. **Concurrent Application**: Apply settings to all cells within a ring simultaneously for consistency
+6. **Feedback Mechanism**: Provide clear success/failure feedback for each operation to aid troubleshooting
+7. **Scalability**: Design to efficiently scale with increasing numbers of cells and rings
+8. **Secure Authentication**: Utilize service account authentication rather than Personal Access Tokens
+9. **Minimal Secret Management**: Minimize the need to transmit or store secrets
+
+To achieve this, a solution that leverages efficient concurrent execution and API-based communication with cells would be beneficial. While several implementation approaches might be viable (discussed later), extending the existing `ringctl` tool represents one potential path.
+
+## Implementation Ideas
+
+To address the requirements outlined above, a potential settings synchronization system could include:
+
+### API Considerations
+
+The Backend team would be essential partners in developing secure API endpoints for settings management. While the specific implementation would be determined by the Backend team's expertise, several considerations are worth noting:
+
+1. **API Access Pattern Options**:
+   - GET operation to retrieve current settings
+   - PUT/PATCH operation to update settings
+   - Support for appropriate status codes and error handling
+
+2. **API Security Considerations**:
+   - **Authentication**: Cryptographically signed token authentication tied to a least-privilege service identity
+   - **Authorization**: Secured for internal service accounts to maintain system integrity
+   - **Idempotency**: Operations that can be safely repeated if needed
+   - **Validation**: Input validation with clear error messages
+
+### Settings Structure
+
+A hierarchical structure that supports inheritance could be organized as follows:
+
+```bash
+settings/
+  all_cells.yml         # Base settings for all cells
+  rings/
+    ring1.yml           # Ring-specific overrides
+    ring2.yml
+  cells/
+    cell_a.yml          # Cell-specific overrides
+    cell_b.yml
+```
+
+### Potential Implementation Approach
+
+One approach to consider would be extending the `ringctl` tool with settings synchronization capabilities:
+
+```bash
+ringctl setting-sync --ring=<ring_name> [options]
+```
+
+This implementation could potentially:
+1. Support concurrent operations across multiple cells in a ring
+2. Implement a get-then-update pattern to ensure settings are only changed when needed
+3. Provide detailed feedback on operations
+4. Include appropriate error handling and resilience mechanisms
+
+### Possible Architecture
+
+```mermaid
+
+flowchart TB
+
+TR[Tissue Repository] --> |Git-based workflows| RC[ringctl setting-sync --ring=N]
+
+
+
+RC --> |Parallel execution against| Caaaxyz
+
+RC --> |Parallel execution against| Czzzbbb
+
+
+
+subgraph "Ring N"
+
+direction LR
+
+Caaaxyz["Cell aaaxyz"]
+
+Czzzbbb["Cell zzzbbb"]
+
+end
+
+
+
+subgraph "Settings Inheritance"
+
+direction TB
+
+B[Base Settings] --> |Override| RS[Ring Settings]
+
+RS --> |Override| CS[Cell Settings]
+
+end
+
+
+
+Caaaxyz --> API1
+
+Czzzbbb --> API2
+
+
+
+subgraph "API Layer"
+
+direction TB
+
+API1[Settings API] --> |Idempotent| APP1[Application]
+
+end
+
+
+
+subgraph "API Layer"
+
+direction TB
+
+API2[Settings API] --> |Idempotent| APP2[Application]
+
+end
+
+```
+
+## Potential Benefits
+
+- **Reduces Manual Configuration**: Lightens operational overhead and reduces potential for human error
+- **Ensures Consistency**: Contributes to preventing configuration drift between cells
+- **Builds on Existing Workflows**: Leverages experience with the ring-based deployment model
+- **Enhances Flexibility**: Enables both global consistency and cell-specific customizations when needed
+- **Supports Scalability**: Could handle increasing numbers of cells and rings through concurrent execution
+- **Provides Atomicity**: Helps ensure all cells in a ring are updated together
+- **Maintains Source of Truth**: Uses live cells as the source of truth rather than non-living records
+- **Strengthens Security**: Uses service account authentication instead of personal tokens
+- **Provides Visibility**: Offers clear success/failure information for each operation
+
+## Considerations and Challenges
+
+- **API Development Collaboration**: Partnership with the Backend team would be needed to develop appropriate internal API endpoints
+- **Complexity Management**: New elements to tooling and deployment process would require thorough documentation
+- **Cross-Team Coordination**: Collaboration between SRE, Backend, and Platform teams would be beneficial
+- **New Failure Patterns**: Settings deployment might encounter new types of failures requiring handling strategies
+- **Service Account Security**: Thoughtful handling of service account credentials would be necessary
+- **Performance Considerations**: Concurrent settings updates might have performance implications worth exploring
+- **Validation Needs**: Verification that settings are correctly applied would be important
+- **Consistency Management**: Temporary inconsistencies during updates might require specific handling approaches
+
+## Alternative Approaches Worth Considering
+
+Several options could address this challenge:
+
+### Terraform-based Configuration Management
+
+**Approach**: Leverage Terraform for managing settings across cells.
+
+**Considerations**:
+- Benefits from being an established infrastructure-as-code tool
+- Offers strong state management capabilities
+- Provides a declarative approach to configuration
+- Presents some challenges with state file locking in distributed environments
+- Might introduce complexity for application-level configuration
+- Has different strengths than what might be needed for dynamic application settings
+- Could experience state drift from actual configurations
+
+### SSH-based Configuration Management
+
+**Approach**: Utilize configuration management tools (Ansible, Salt, Chef, Puppet) via SSH.
+
+**Considerations**:
+- Leverages well-established patterns for configuration management
+- Offers a rich ecosystem of existing modules
+- Would require SSH access to cells, which has security implications to consider
+- Takes a different approach than the containerized deployment model
+- Would need additional credential management
+- Might experience latency in cross-region deployments
+
+### GitOps Approach (ArgoCD/Flux)
+
+**Approach**: Implement GitOps tools to automatically apply configuration from Git repositories.
+
+**Considerations**:
+- Provides a declarative approach with Git as source of truth
+- Includes built-in reconciliation mechanisms
+- Creates a good audit trail via Git history
+- Might have interactions with existing Instrumentor and ringctl patching to consider
+- Would add new elements to the deployment architecture
+- Could potentially support customization requirements with some adaptation
+
+### Custom Synchronization Service
+
+**Approach**: Develop a tailored service dedicated to settings synchronization.
+
+**Considerations**:
+- Could be designed specifically for the requirements
+- Might optimize for the exact use case
+- Would require development resources
+- Would create a new service to maintain and operate
+- Could leverage existing functionality where appropriate
+
+### API-based Configuration Management
+
+**Approach**: Build on existing tools to use API-based execution for settings synchronization.
+
+**Considerations**:
+- Builds on existing tools and knowledge
+- Could support idempotent operations
+- Avoids SSH dependencies through API-based execution
+- Would enhance existing tools with new capabilities
+- Would require collaboration on new API endpoints
+
+## Technical Areas to Explore
+
+### API Design Collaboration
+
+When discussing the settings API with the Backend team, several areas merit exploration:
+
+1. **API Structure Options**:
+   - Creating dedicated endpoints for settings management
+   - Extending existing APIs to support settings operations
+   - Considering appropriate URL structure and naming conventions
+
+2. **Authentication Approaches**:
+   - Service account authentication options
+   - Appropriate permission scopes
+   - Security considerations for internal APIs
+
+3. **Request/Response Formats**:
+   - Schema validation approaches
+   - Error handling and reporting
+   - Support for partial updates
+
+### Service Account Security
+
+Secure credential management for service accounts requires consideration of:
+
+1. Creating dedicated service accounts with appropriate permissions
+2. Implementing secure secret storage and rotation
+3. Establishing auditing and monitoring for service account usage
+
+### Resilience Strategies
+
+The synchronization process would need to handle various scenarios:
+
+1. Network interruptions during synchronization
+2. Partial success scenarios where some cells update successfully while others don't
+3. Rollback options for failed deployments
+4. Detailed error reporting and logging
+
+### Cross-Cell Verification
+
+Verification mechanisms to ensure settings are properly synchronized could include:
+
+1. Status reporting for each cell after synchronization attempts
+2. Periodic consistency checks across cells
+3. Reconciliation processes for detected inconsistencies
+
+### Scaling Approaches
+
+As the number of rings and cells grows, considerations include:
+
+1. Resource usage during concurrent operations
+2. Timeout and retry mechanisms for network issues
+3. Batching strategies for very large deployments
+4. Monitoring and alerting for synchronization events
+
+### Settings Inheritance
+
+The hierarchical settings structure raises questions about:
+
+1. How conflicts between base, ring, and cell settings might be resolved
+2. Which settings could be overridden at which levels
+3. How to handle removal of settings (null values vs. explicit removal)
+4. Documentation of inheritance patterns for operators
+
+## Implementation Pathways
+
+Based on exploration of the problem space, key considerations for moving forward include:
+
+1. **Backend API Collaboration**:
+   - Working with the Backend team on secure API endpoints
+   - Implementing appropriate authentication for service accounts
+   - Supporting retrieval and updating of settings
+
+2. **Settings Structure**:
+   - Storing settings in Git repository with hierarchical organization
+   - Implementing inheritance from base → ring → cell
+   - Supporting variable substitution for environment-specific values
+
+3. **Synchronization Strategy**:
+   - Building on existing tools with settings synchronization capabilities
+   - Using concurrent execution for efficiency across multiple cells
+   - Implementing get-then-update pattern to minimize unnecessary changes
+   - Providing detailed reporting on operations
+
+4. **Implementation Options**:
+   - Several approaches could work effectively, including:
+     - Direct API calls from a synchronization tool
+     - Configuration management tools that operate via API rather than SSH
+     - Synchronization logic that builds on existing tooling
+
+Each approach has its merits. The final implementation decision should consider available expertise, integration with existing systems, and operational requirements.
