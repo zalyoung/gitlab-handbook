@@ -1,5 +1,4 @@
-Here's the corrected markdown with all lint errors fixed:
-markdown---
+---
 title: Compensation Review Cycle Inputs
 description: "On this page, we explain how we review our Compensation Calculator in preparation for the Compensation Review Cycle."
 ---
