@@ -9,7 +9,7 @@ What follows is a brief overview of key requirements. Review the complete proces
 
 - Legal review is [mandatory](#mandatory-review) for, amongst other things, materials related to new product offerings, SKU changes, statements by E-Group members, financial data, and M&A activities.
 - All materials, whether or not review is mandatory, must comply with the [SAFE Framework](/handbook/legal/safe-framework/) and [Third-party IP Guidelines](/handbook/legal/ip-public-materials-guidelines/).
-- Materials containing [MNPI](/handbook.gitlab.com/handbook/legal/safe-framework/#sensitive/) or other internally-confidential information require special handling in restricted-access issues and documents.
+- Materials containing [MNPI](/handbook/legal/safe-framework/#sensitive) or other internally-confidential information require special handling in restricted-access issues and documents.
 - Use the [self-serve compliance resources](#self-serve-materials-compliance-resources) to streamline the review process, and review [common examples of legal feedback](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/edit?tab=t.0#heading=h.zc4yqghdq4p7to) improve your materials before submission.  
 
 ## Self-serve materials compliance resources
