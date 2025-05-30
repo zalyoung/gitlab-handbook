@@ -1228,6 +1228,11 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 - These flows will automatically include AI generated customisation. Please review the [slides](https://docs.google.com/presentation/d/1LlIjaRjwVaTI5XbWkU2fIEhhq7rYthuPGh-aaNqJz2o/edit#slide=id.g2d902c263b1_0_581) or the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b) for a full walkthrough.
 - These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
 
+#### Gem-E Meeting Assistant
+
+As part of our Gem-E pilot, we are also trialling UserGems Meeting Assistant. The Assistant integrates with your calendar invitations and automatically pulls the contact information of people that are attending your call, but are not in our database yet.
+These people will be created as net new contacts and leads in SFDC, using the initial source `UserGems - Meeting Assistant`. They can be assigned to the existing account or opportunity that you are working on, so you can continue multi-threading the account that you are working on.
+
 ### Sales Dev Manager Resources
 
 #### Sales Dev Operations Team Regional Availability
