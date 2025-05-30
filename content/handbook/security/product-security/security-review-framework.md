@@ -303,7 +303,7 @@ Optional Review: SPA and/or Data Security, if the feature has changes that fall 
 
 ### Security Review Phase 1: Initial Triage
 
-1. The security review process begins with a product team requesting a security review for a feature. This is done by adding a label 
+1. The security review process begins with a product team requesting a security review for a feature. The ideal time for requesting a review would be after the [design phase](../../product-development/product-development-flow/#validation-phase-3-design). This is done by adding a label 
 `SecurityReview::Requested` to a feature issue or epic (`~"type::feature"`). 
 1. ProdSec automation will then add the initial triage questionnaire 
 to this feature issue, ping the review initiator for completion, and add the label `initial-triage:pending-answers`. The initial triage questionnaire 
