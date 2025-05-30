@@ -130,7 +130,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 | [Global SDR Ops Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
 | [Global Activity KPI Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002KiDR2A0/view?queryScope=userFolders) | This dashboard visualises how each region is tracking against the weekly activity KPIs that we have. | 
-| [FM Events Follow-Up Dashboard ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002FOwv2AG/view?queryScope=userFolders) | This dashboard shows the progress of leads associated to Field Marketing events. | 
+| [FM Events Follow-Up Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002FOwv2AG/view?queryScope=userFolders) | This dashboard shows the progress of leads associated to Field Marketing events. | 
 
 ### Dashboard/Report Templates
 
@@ -149,7 +149,7 @@ The list of dashboards below are templates that can be cloned and customized for
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
-| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/sales-development-tools/) | Tools and resources specifically designed for Sales Development teams and managers. |
+| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/#sales-development-tools) | Tools and resources specifically designed for Sales Development teams and managers. |
 | [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
 | [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
@@ -166,7 +166,7 @@ The list of dashboards below are templates that can be cloned and customized for
 | [Command of the Message](/handbook/sales/command-of-the-message/) | "Command of the Message" training and the GitLab value framework. |
 | [Most commonly used sales resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | Sales resources page. |
 | [Flash Field newsletter](/handbook/sales/field-communications/field-flash-newsletter/) | Learn more about the sales weekly newsletter. |
-| [GitLab Values](/handbook/values/#:~:text=GitLab's%20six%20core%20values%20are,other%20by%20assuming%20good%20intent.) | The guiding principles we try to live up to each day. |
+| [GitLab Values](https://handbook.gitlab.com/handbook/values/) | The guiding principles we try to live up to each day. |
 
 ## Our How-Tos for the Inbound and Outbound processes
 
@@ -697,7 +697,7 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 1. Ensure that relevant activity & products are attached.
 1. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
 1. For BDRs, ensure account was in AWA status
-ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
+ensuring that the [RoE](handbook/marketing/sales-development/#frequently-asked-questions-faq-and-rules-of-engagement-roe) was followed
 1. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
 #### AUDIT PROCESS
