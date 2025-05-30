@@ -27,7 +27,7 @@ flowchart LR
   OBSERVABILITY{Reviewing live\nperformance results?}
 
   START --> BUILT
-  BUILT -- no --> ENV
+  BUILT -- no --> OBSERVABILITY
   BUILT -- yes --> SPECS
   SPECS -- yes --> UNIT
   SPECS -- no --> PROFILE
@@ -36,10 +36,10 @@ flowchart LR
   UI -- no --> COMPONENT
 
   COMPONENT -- yes --> CPT
-  COMPONENT -- no --> OBSERVABILITY
+  COMPONENT -- no --> GPT
 
   OBSERVABILITY -- yes --> OBSERVE_TEST
-  OBSERVABILITY -- no --> GPT
+  OBSERVABILITY -- no --> ENV
 
   ENV -- yes --> GPT
   ENV -- no --> UI
