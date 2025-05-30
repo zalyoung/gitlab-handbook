@@ -3,7 +3,7 @@ title: GitLab's Guide to Total Rewards
 ---
 
 {{% cardpane %}}
-{{% card header="**Compensation***" %}}
+{{% card header="**Compensation**" %}}
 **Why:** [Our Compensation Principle](/handbook/total-rewards/compensation/#gitlabs-compensation-principles)
 
 **What:** [Compensation Calculator Inputs](/handbook/total-rewards/compensation/compensation-calculator/)
@@ -27,7 +27,7 @@ title: GitLab's Guide to Total Rewards
 {{% /card %}}
 {{% /cardpane %}}
 
-_* Compensation at GitLab is currently being updated as part of our Job Architecture Project. All information in related compensation handbook pages is subject to change during or at the conclusion of this transition. Please see the Job Architecture Project section for more information._
+_\* Compensation at GitLab is currently being updated as part of our Job Architecture Project. All information in related compensation handbook pages is subject to change during or at the conclusion of this transition. Please see the Job Architecture Project section for more information._
 
 ## Meet the Total Rewards Team
 
@@ -50,4 +50,4 @@ _* Compensation at GitLab is currently being updated as part of our Job Architec
 
 For feedback or questions relating to compensation, benefits and equity, you can reach out to us via:
 
-- **[HelpLab:](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)** To get in touch with People Connect who can answer your question or help direct it to the proper person/team.
+* **[HelpLab:](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)** To get in touch with People Connect who can answer your question or help direct it to the proper person/team.

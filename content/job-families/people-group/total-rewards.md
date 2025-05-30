@@ -293,7 +293,7 @@ The Director, Global Compensation is a [grade 10](/handbook/total-rewards/compen
 
 #### Responsibilities
 
-- Develop, manage and execute a comprehensive compensation strategy that aligns with the company’s business goals and ensures it is positioned to attract candidates and motivate and retain current team members
+- Develop, manage and execute a comprehensive compensation strategy that aligns with the company's business goals and ensures it is positioned to attract candidates and motivate and retain current team members
 - Manage and administer executive compensation programs and prepare for the compensation committee meetings
 - Manage ongoing employee compensation programs such as annual compensation review cycle, bonus accrual and payout, and equity planning
 - Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent
@@ -326,7 +326,7 @@ The Director, Executive and Equity Compensation is a [grade 10](/handbook/total-
 
 - Lead, implement, and communicate executive and equity compensation philosophies, practices and strategies including base salary, bonuses, long-term incentives, and equity awards
 - Provide thought leadership to internal partners around industry best practices to motivate and retain top talent globally and serve as a subject matter expert to executives, People partners, and the Compensation Committee
-- Prepare documentation, present to, and where necessary, guide GitLab’s Compensation Committee
+- Prepare documentation, present to, and where necessary, guide GitLab's Compensation Committee
 - Manage the annual compensation review process for executives
 - Partner with internal stakeholders to assess and analyze compensation trends, regulations, and market data to inform compensation decisions.
 - Develop clear and effective communication strategies for compensation programs that impact the GitLab leadership team
