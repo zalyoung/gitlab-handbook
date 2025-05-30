@@ -7,7 +7,7 @@ The GitLab team has grown quickly and plans to continue to grow while maintainin
 ## Responsibilities
 
 - Provide strategy and oversight of the administration of our compensation, benefits, and HRIS system
-- Work to refine and improve our global compensation frameworks including the [Global Compensation Calculator](/handbook/total-rewards/compensation/)
+- Work to refine and improve our global compensation frameworks
 - Advise the executive team on relevant compliance and employment law and introduce best practices to protect the organization
 - Develop and implement effective training programs for GitLab employees and community
 - Harness the existing culture and values when building out internal people-related policies while devising new ways to reinforce and improve upon the culture
@@ -94,6 +94,6 @@ Candidates for this position can expect the hiring process to follow the order b
 - Then a 50 minute meeting with the CEO/Co-Founder,
 - Next, a round of 3 separate 50 minute interviews with the VP of Recruiting, the Senior Director, People Operations and the Chief Legal Officer,
 - Next, a 80 minute interview with the CEO/Co-Founder,
-- Next, a round of 4 separate 50 minute interviews with the other executives; Chief Financial Officer, the Chief Revenue Officer, The Chief Marketing Officerr, and either the Executive Vice President of Engineering or the Executive Vice President of Product,
+- Next, a round of 4 separate 50 minute interviews with the other executives; Chief Financial Officer, the Chief Revenue Officer, The Chief Marketing Officer, and either the Executive Vice President of Engineering or the Executive Vice President of Product,
 - Then we will introduce final candidates to the Board of Directors and may involve another round of interviews or meetings with selected board members;
 - Finally,  as a part of the reference check stage, our CEO/Co-Founder will request the candidate's last 360 review and will share theirs as well and schedule a call to review the feedback on both sides.

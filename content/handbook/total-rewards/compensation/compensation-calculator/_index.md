@@ -3,6 +3,8 @@ title: The Compensation Calculator
 description: "On this page, we explain the different factors that make up our Compensation Calculator and its alignment to GitLab's values and Compensation Principles."
 ---
 
+<span style="color:red">_**Notice: The below information is subject to change in accordance with the Job Architecture Project. For more information, please read the [Job Architecture Project](/handbook/total-rewards/compensation/#job-architecture-project-update) handbook section.**_</span>
+
 ## Introduction
 
 On this page, we explain the different factors that make up our Compensation Calculator and its alignment to GitLab's values and Compensation Principles.

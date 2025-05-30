@@ -3,14 +3,47 @@ title: Compensation
 description: Find answers to your questions about GitLab's compensation framework.
 ---
 
-## Related Compensation Pages
+## Job Architecture Project Update
 
-- [Compensation Calculator Formula](/handbook/total-rewards/compensation/compensation-calculator/)
-- [Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/)
+GitLab is currently undergoing a Job Architecture project to modernize our compensation framework. As part of this initiative, the compensation calculator was retired on May 30, 2025. All handbook information related to compensation is subject to change when the new framework is implemented in the August/September timeframe.
 
-## Use the Compensation Calculator
+### What’s Changing
 
-Team members can access the [calculator](https://comp-calculator.gitlab.net/users/sign_in) at any time with their GitLab credentials. Applicants will be given credentials and will be able access the calculator themselves as well, during the application process.
+We are transitioning from our current San Francisco-anchored compensation model to market-aligned compensation ranges that use local market data in local currencies. 
+
+This change will:
+
+* Eliminate location factors and currency conversion complexities
+* Align with industry-standard compensation practices
+* Provide more accurate, market-based pay ranges for each role and location
+* Create clearer career progression frameworks
+
+### Current Status
+
+* **Compensation calculator:** Retired as of May 30, 2025
+* **New framework launch:** Market-aligned compensation ranges will be implemented by August 30, 2025
+* **Impact to pay:** No current team member’s cash compensation or granted equity will be reduced as part of this project.
+
+### Getting Compensation Information
+
+* **Your current range:** Available in your Workday profile under the compensation tab if your range was previously available in the Compensation Calculator
+    * Commission-eligible Sales roles not previously in the calculator will be visible in Workday in August
+* **Career development ranges:** Request a consultation through HelpLab
+* **Questions:** Contact HelpLab
+
+### For Teams in the Netherlands and Germany
+
+Please note that all changes described above are proposals subject to required works council consultation and approval processes. We are actively engaging with the works councils in these countries and will incorporate their input before finalizing any changes. 
+
+
+No decisions have been made final for these regions, and we are committed to following 
+all requirements for consultation.
+
+### Additional Information
+
+Please reference the [Job Architecture Information Guide (internal only)](https://docs.google.com/document/d/1n23YQ7yZGTWxKpAs01rQA8A-RtkvU5lyZ6nKpw2Tk_U/edit?tab=t.0) for additional details on the project.
+
+<span style="color:red">_**Note: All information below this point reflects our previous compensation framework and will be updated upon completion of the Job Architecture project.**_</span>
 
 ## Introduction
 
@@ -192,7 +225,7 @@ When the interim/acting period ends, the following process should be followed to
 - *(For Interim bonuses)* The manager references the Workday `Job` tab and clicks into `Job History` and review the 'Business Title' column to confirm the start date of the interim period
 - Once confirmed, the Manager submits the bonus in Workday. Follow the [Request a One-Time Payment job-aid](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit?usp=sharing) to submit an OTP. Manager must also provide the start and end date of the of interim period in Workday under the *Additional Information* section in Workday
 
-**Note:** The team member must be an active team member of GitLab at the end of the interim role period to be eligible to recive a bonus payment. If a team member leaves GitLab during the interim role period, they will not be eligible for a prorated payment.
+**Note:** The team member must be an active team member of GitLab at the end of the interim role period to be eligible to receive a bonus payment. If a team member leaves GitLab during the interim role period, they will not be eligible for a prorated payment.
 
 ### Examples of the Interim Bonus Calculations below
 
@@ -263,7 +296,7 @@ Executive Compensation (VP and above) is derived outside of the GitLab Compensat
     - Survey Data from the GitLab peer group: GitLab will analyze the peer group data from Radford against peer group data from Compensia.
 1. The Total Rewards team will advise on an increase.
 1. The recommendation will be reviewed by the e-group leader for VPs and above. The final approval for VP compensation is the Compensation Group. Total Rewards will work with finance to ensure alignment to budget.
-1. E-Group compensation is reviewed in partnership with Compensia based on the peer group data provided. The CEO will recommend increaes and refresh grants for his direct reports to the Compensation Leadership Development Committee for approval.
+1. E-Group compensation is reviewed in partnership with Compensia based on the peer group data provided. The CEO will recommend increases and refresh grants for his direct reports to the Compensation Leadership Development Committee for approval.
 1. The Total Rewards team will then notify the CEO or direct manager of the increase who will then communicate it to the individual.
 
 As each Executive has an individual market assessment upon hire, we expect compensation to be aligned to market at each compensation review. If there are large changes in the market for a specific role, those will be addressed.

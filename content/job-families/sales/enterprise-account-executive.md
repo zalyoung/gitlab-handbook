@@ -275,11 +275,7 @@ As part of this application, candidates can expect the following stages with foc
 Compensation information for this role can be found on our Sales Commissions handbook page. On this page, we have an overview of the standard OTE base and variable split for each Sales job family. Also listed on the page, is our quota ramp information by segment as well as our seasonality assumptions.
 Sales compensation plans are governed by the Sales Compensation Plan terms and conditions. Some differences may apply. For any specific compensation questions, please contact your manager (current manager or hiring manager).
 
-### Compensation Calculator
-
-To find out more about the compensation for this role, please apply to a role first. Once selected for a screening call, you'll be able to sign up here to view our compensation calculator. Be sure to use the same email address for both.
-
-About GitLab
+### About GitLab
 GitLab Inc. is a company based on the GitLab open-source project. GitLab is a community project to which over 2,200 people worldwide have contributed. We are an active participant in this community, trying to serve its needs and lead by example. We have one vision: everyone can contribute to all digital content, and our mission is to change all creative work from read-only to read-write so that everyone can contribute.
 We value results, transparency, sharing, freedom, efficiency, self-learning, frugality, collaboration, directness, kindness, diversity, inclusion and belonging, boring solutions, and quirkiness. If these values match your personality, work ethic, and personal goals, we encourage you to visit our primer to learn more. Open source is our culture, our way of life, our story, and what makes us truly unique.
 Top 10 Reasons to Work for GitLab:

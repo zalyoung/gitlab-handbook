@@ -58,8 +58,6 @@ The UX Paper Cuts team is responsible for identifying and fixing small but impac
 - Proficiency with software like Figma or Sketch.
 - Strong collaboration skills.
 
-**NOTE** In the compensation calculator below, fill in "Manager" in the `Level` field for this role.
-
 ### Interview Process
 
 Candidates can expect the hiring process to follow the below order, although it can change depending on calendar availability. Please keep in mind that candidates can be declined at any stage of the process.
@@ -106,8 +104,6 @@ The Senior Manager of Product Design is a [grade 9](/handbook/total-rewards/comp
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#management-group).
 - Ability to use GitLab.
-
-**NOTE** In the compensation calculator below, fill in "Manager" in the `Level` field for this role.
 
 ### Interview Process
 

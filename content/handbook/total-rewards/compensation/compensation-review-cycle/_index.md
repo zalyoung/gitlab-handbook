@@ -2,6 +2,8 @@
 title: Annual Compensation Review Cycle
 ---
 
+<span style="color:red">_**Notice: The below pertains to the recently completed FY26 Annual Compensation Review Cycle. Updated information for FY27 will be shared closer to the launch of the cycle.**_</span>
+
 ## Introduction
 
 On this page, we explain how we carry out the Annual Compensation Review (ACR) cycle.
