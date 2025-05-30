@@ -10,7 +10,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
 1. Under this [CES Service Desk Project](https://gitlab.com/gl-talent-acquisition/ces-service-desk) set up the proper notifications
    - Click on the bell icon on the top right next to Star and Clone
    - Go to Custom Settings
-   - Check "New issue"
+   - Check "Issue is Created"
    - Close out the window
 1. On the left-side menu bar click Issues
    - This is where all our incoming CES emails will create an issue. You'll get an alert when someone sends an email to the CES email alias. Any "emails" that need to be addressed will be an open issue listed within this project.
@@ -21,6 +21,20 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
    1. Labeling - each issue will need to be labeled with at least one appropriate label.
    1. If you need to respond to the "email" by adding comments to the issue, be sure to enter comments as you would an email to the candidate. Always assume that a candidate could be included in any email.
    1. If no action is needed and the issue has been solved, you may close it. Do not close issues until you have resolved the problem you are solving.
+1. Board Creation - to view and manage assigned issues in one place
+   1. Under “Plan” on left hand menu, click “Issue Boards”
+   1. Click name of Team Member that is the current board view (e.g. “Alice”)
+   1. Click “Create new Board”
+   1. Title new board as the name of the new team member or appropriate board label
+   1. Uncheck “show closed list”
+   1. Next to “Scope” click “Expand”
+   1. Under “Assignee” section, click “Edit” and choose the appropriate assignee
+   1. Click “Create Board” to create the board
+   1. To add columns/specific label list, click “+ New List” next to open issues column
+   1. Under “Scope”, ensure that “Label” is selected”
+   1. Under “Value,” choose the appropriate label for the desired list
+   1. To change the order of the lists on the board, click and drag the lists
+
 
 ### Team Interviews
 
@@ -28,10 +42,10 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
   - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours](/handbook/hiring/interviewing/) out to leave time for interviewer prep.
   - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
 - If no response is received within 24 hours, CES will send a follow up request for availability and set the due date of the issue to 24 hours after the next email to check for availability again.
-  - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.
-- After availability is received, CES will schedule interviews based on the interview plans in Greenhouse/ModernLoop and will track preferences within the CES Service Desk [repo](https://gitlab.com/gl-talent-acquisition/ces-service-desk/-/tree/master).
+  - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability.
+- After availability is received, CES will schedule interviews based on the interview plans in Greenhouse/ModernLoop.
   - CES will be using the Zoom integration with ModernLoop for interviews
-  - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
+  - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges.
 - This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
 - If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring/#interview-stages) for instructions.
 - CES will send interview confirmations via ModernLoop
@@ -41,7 +55,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
 
 #### Technical Interview Scheduling
 
-Certain positions require technical interviews (i.e. Ruby on Rails, Golang, Frontend, etc) where candidates are asked to demonstrate their knowledge and skills. Technical interview requests can be identified within the schedule request ticket as recruiters will utilize the following format: "Technical interview, level & coding language pool - 90 mins".
+Certain positions require technical interviews (i.e. Ruby on Rails, Golang, Frontend, etc) where candidates are asked to demonstrate their knowledge and skills. Technical interview requests can be identified within the scorecard title in ModernLoop as recruiters will utilize the following format: "Technical interview, level & coding language pool - 90 mins".
 
 **Important to Note:**
 
@@ -52,15 +66,15 @@ Certain positions require technical interviews (i.e. Ruby on Rails, Golang, Fron
 
 To schedule a technical interview, CES should follow the process outlined below:
 
-- When a candidate successfully reaches the Team Interview stage the recruiter will send the availability request email to the candidate.
+- When a candidate successfully reaches the Team Interview stage the recruiter will send the availability request email to the candidate. This action will initiate a scheduling task for the CES in ModernLoop.
   - If the candidate did not submit a GitLab username during the application or screening stage, the recruiter will also send the GitLab Username Form (this will be found in the Team Interview Stage or Evergreen stage). This generates an email to the candidate requesting they fill out the form with their GitLab Username.
-- CES will receive two separate tickets to the CES service desk:
-  - CES will immediately receive the scheduling request from the recruiter, and;
+- CES will receive a separate ticket to the CES service desk:
   - The completed GitLab Username form. This will only come into the service desk once the candidate replies to the email, and the username will automatically be added to the Details tab of the candidate's profile under Details > Other. CES should check that the GL username is valid and ensure that the GL username is in a URL format.
+  - CES will add the tag "GL Username received" to the candidate's technical scheduling task in ModernLoop.
 - Once CES has received and confirmed that the candidate's GL username is valid, the CES team member can proceed with scheduling the interview in ModernLoop.
   - Note: when you send the interview invite to the interviewer, select the template 'Technical Interview with MR'.
 - CES will then send the candidate their confirmation through ModernLoop as well.
-  - In the candidate confirmation template, CES will insert the appropriate text expander snippet with interview instructions into the body of the confirmation. This provides the candidate with additional information about what they can expect for their technical interview.
+  - When emailing the candidate their interview confirmation, CES will select the appropriate (Ruby, Golang) ModernLoop email template. This provides the candidate with additional information about what they can expect for their technical interview.
 
 **No Work Submitted on the MR 24 hours Before Interview?**
 
@@ -72,21 +86,20 @@ To schedule a technical interview, CES should follow the process outlined below:
 
 The process below outlines the steps to be followed by the CES team in scheduling executive interviews while partnering with the Executive Business Administrator(EBA) team and executive recruiters. The Candidate Experience team and EBA team will adhere to a 24 hour working day SLA response time for scheduling interviews. Interview requests coming from Executive recruiters are to be scheduled in the executive calendar only.
 
-1. The CES desk receives the scheduling ticket from the recruiter.
+1. The recruiter will create a scheduling task in ModernLoop and which will populate into the CES "My Tasks" list in ModernLoop
 
 - CES refers to the EBA cheat sheet doc for executive interviewer preferences and contacts the respective EBA with interview details in the #EBA-team-interview-requests channel.
+- To request an interview in this channel, click “Workflow” and fill in the appropriate information in each field.
 
-1. CES adds the "Pending EBA label" to the ticket and the link to the EBA slack conversation in the scheduling ticket while awaiting response.
+1. CES adds the "Pending EBA" label and Slack link to the EBA scheduling task to the interview task in ModernLoop while awaiting response.
 
  **Note: Follow up SLA is 24 hours to check for time conflicts delaying scheduling. If the times do not match, CES may contact the candidate
    requesting more availability or suggest some times that works for the interviewer.**
 
 1. Once the EBA confirms the best time and date for the interview. CES sends the interview confirmation email through ModernLoop to the candidate.
 
-  **The email template used for the first time interview confirmation  - First Time Single Executive interview. Please use the "Updated Interview" or "Single Interview" email templates in Guide once the candidate progresses to the next level in the interview plan.**
-
 1. CES will schedule the interview through ModernLoop & send the calendar invite to the interviewer. Make sure the invite is always marked private.
-1. CES notifies EBA of scheduled interviews in the original slack message with a check mark emoji and close the ticket.
+1. CES notifies EBA of scheduled interviews in the original slack message with a green check mark emoji and close the ticket.
 
 This process not only applies to executive requisitions, but any reqs or interviews that include executive team members supported by EBAs. Please note that not every executive team member has EBA support and they may be scheduled directly in ModernLoop following the usual CES scheduling [process](coordinator/#team-interviews).
 
@@ -115,8 +128,7 @@ If the candidate submits the form, all the CES team members will receive an emai
 #### ModernLoop
 
 ModernLoop is the scheduling tool that the Candidate Experience Team uses to book
-interviews. Prelude is integrated with Greenhouse via API. DRI: Candidate
-Experience Team
+interviews.
 
 ## Logging in to ModernLoop
 
@@ -127,14 +139,14 @@ Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zend
 ## How to schedule interviews via ModernLoop
 
 - Go to 'My Tasks' using the task bar on the left 
-- In the 'Action required' bucket, click on the candiadte who has the label 'ready to Schedule'
+- In the 'Action required' bucket, click on the candidate who has the label 'ready to Schedule'
 - A side window will open, scroll down and click the 'Schedule now' button.  The page will open to the candidate's availability.  On the right press 'Next: Setup Interviews' button.
 - Check the information for the required interview to schedule (time, interviewer, scorecard etc), then click 'Next: Find Schedules'
 - ModernLoop will create a list of interview options.  To see an interviewers calendar you can click on the interviewer or the 'view' option on the top right of the card. 
 - To select a schedule option click on 'use schedule'on the top right corner of the option card. 
-- The location will be automatically selected as Zoom and a zoom room selected. 
-- The calenders are 'Candidate Interview Calendar' for candidate events and 'Interview calendar' for Internal events. 
-- Select the Email to canditate template from dropdown list. 
+- The location will be automatically selected as Zoom and a zoom room selected. Please check with the CES team to understand which Zoom room to use. Each CES member is assigned a particular zoom room to use when scheduling to avoid overbooking a room.
+- The calenders section when scheduling in ModernLoop refer to the internal calendars that will populate once an interview is scheduled. The are 'Candidate Interview Calendar' for candidate events and 'Interview calendar' for Internal events. These calendars should auto-populate in this section.
+- Select the Email to candidate template from dropdown list. 
 - If the interview requires a brief, you can include this by selecting 'Add attachment'
 - For the interviewer invite, select the correct template from the dropdown list 
 - Review all details and then press 'Confirm and send' 
@@ -159,7 +171,7 @@ Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zend
 
 ## How to set up Interviewer Modules (Interviewer pools & training plans)
 
-A module is modern loop is an interviewer pool, which also allows for trainees to move through shadows/reverse shadows.  
+A module in ModernLoop is an interviewer pool, which also allows for trainees to move through shadows/reverse shadows.  
 
 To set up a module take the following steps: 
 
@@ -175,7 +187,7 @@ To assign a module to an interview plan:
 
 - Go to jobs and select the job which you want to use the interviewer module for. 
 - Select the stage tab and select the interview stage required.  
-- The interview plan will pull up the interviews inthis stage from Greenhouse.  Click on 'Add Interviewer' and then in the box type the name of the module you want to use.  
+- The interview plan will pull up the interviews in this stage from Greenhouse.  Click on 'Add Interviewer' and then in the box type the name of the module you want to use.  
 
 ## How to schedule a technical interview
 
