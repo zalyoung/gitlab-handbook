@@ -179,7 +179,7 @@ For your screen recording:
 1. If recording for social, consider square (1:1) for multi-platform compatibility or vertical (9:16).
 1. If you're connected to a 4K monitor, it may be easier to capture from your laptop.
 1. Be overly generous with zoom in your IDE so that our viewers can clearly see what is happening on screen. Zoom (`cmd` + `+`) once or twice more than you think you need to. 
-1. You can simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
+1. You can simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode, `cmd`+`k`+`z`
 1. Additional guidance can be found in the internal handbook: [dev environments](https://internal.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/dev-environments)
 
 #### Recording with OBS 
@@ -200,7 +200,7 @@ Here are some tips to keep in mind:
     - Base (Canvas) Resolution 1920x1080, Aspect ratio 16:9
     - Output (Scaled) Resolution 1920x1080, Aspect ratio 16:9
   - OBS > Preferences > Output > Dropdown: Advanced.
-    - OBS > Preferences > Advanced: Tick “Recording > Automatically remux to mp4” (this is important for Adobe Premiere Pro which cannot import mkv containers) 
+    - OBS > Preferences > Advanced: Enable "Recording > Automatically remux to mp4" (this is important for Adobe Premiere Pro which cannot import mkv containers) 
 - Search for `obs-setup.mp4` for a video tutorial showing how to setup OBS 
 
 ### Product Tours
