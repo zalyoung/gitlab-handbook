@@ -274,7 +274,6 @@ end
 module Namespaces
   module Stateful
     extend ActiveSupport::Concern
-    
     included do
       has_many :namespace_state_updates, dependent: :delete_all
 
