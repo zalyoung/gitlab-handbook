@@ -153,6 +153,7 @@ as self-managed instances.
 - [005: Use Runway for service deployment](decisions/005_use_runway_for_deployment)
 - [006: Unified SD Support for all GitLab Environments](decisions/006_support_for_all_environments)
 - [007: Switch to Vectorscan-based Go scan engine](decisions/007_switch_to_go_scan_engine)
+- [008: Unified SD Scan Engine](decisions/008_unified_scan_engine)
 
 ## Challenges
 
@@ -368,7 +369,15 @@ Secret Push Protection requires scans to run on git diffs (target type) in a blo
 
 Read more about the above decisions [here](./decisions/006_support_for_all_environments.md).
 
-![High-level Secret Detection design](/images/engineering/architecture/design-documents/secret_detection/006_support_all_envs.png "High level design supporting sync and async scans")
+![High-level Secret Detection Design supporting Sync/Async scans](/images/engineering/architecture/design-documents/secret_detection/006_support_all_envs.png "High level design supporting sync and async scans")
+
+#### High-level for Unified SD Scan Engine
+
+A single scanning engine for all scan target types and with the help of target type-specific Adapters, the overall design of Secret Detection for various scan target types looks like the following illustration:
+
+![High-level Design for unified scan engine](/images/engineering/architecture/design-documents/secret_detection/008_high_level_design.png "High-level Design for unified scan engine")
+
+Read more details about unified scan engine [here](decisions/008_unified_scan_engine.md).
 
 #### High-level SD detection flow for Work Items
 
