@@ -24,7 +24,7 @@ flowchart LR
   UI{Testing user-facing\nperformance?}
   ENV{Testing backend/API\nperformance?}
   COMPONENT{Testing component\nperformance?}
-  OBSERVABILITY{Reviewing live\nperformance results?}
+  OBSERVABILITY{Analyzing live\nperformance data?}
 
   START --> BUILT
   BUILT -- no --> OBSERVABILITY
