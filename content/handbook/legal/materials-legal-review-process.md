@@ -16,7 +16,7 @@ What follows is a brief overview of key requirements. Review the complete proces
 
 When creating materials:
 
-- for [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) use, refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Tips](/handbook/legal/external-materials-compliance-checklist).
+- for [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) use, refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Tips](/handbook/legal/external-materials-compliance-tips).
 - for [internal](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
 
 The External Materials Compliance Tips page provides examples of common legal review feedback to help creators address compliance issues before submission. 
