@@ -73,6 +73,7 @@ Existing performance testing includes:
 
 * [Gitlab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
 * [Reference Architecture server performance testing](../infrastructure-platforms/gitlab-delivery/framework/reference-architecture-validation-testing.md)
+* [Gitlab Performance Tool Quickstart](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/quick_start.md)
 
 This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
 
