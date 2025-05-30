@@ -432,7 +432,7 @@ end
 **State synchronization service:**
 
 ```ruby
-module Namespaces 
+module Namespaces
   class StateSynchronizationService
     def initialize(namespace, current_user)
       @namespace = namespace
