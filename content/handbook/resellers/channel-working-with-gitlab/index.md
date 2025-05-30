@@ -47,7 +47,7 @@ If your customer will be paying us via a Purchase Order, then you must email us 
 
 ##### Paying via Invoice
 
-To pay via invoice, simply e-sign the [reseller quote](https://handbook.gitlab.com/handbook/resellers/#gitlab-quote) to initiate an invoice, then remit payment in USD to the bank listed on your quote.
+To pay via invoice, simply e-sign the [reseller quote](../#gitlab-quote) to initiate an invoice, then remit payment in USD to the bank listed on your quote.
 
 ##### Channel Resources and Tools
 
