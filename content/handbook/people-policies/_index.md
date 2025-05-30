@@ -131,7 +131,7 @@ The following are GitLab's procedures in the event a team member feels threatene
 1. If at any point, a team member feels like they or another team member may require immediate medical assistance, please contact the local authorities.
 1. Once the immediate threat is controlled, team members should report any safety concerns to People Connect.
 1. If you believe that a certain location, event or area presents greater risk or exposure to individuals, please notify People Connect. People Connect will strive to proactively communicate the concerns to other potentially affected team members.
-1. If at any point you believe you, personally, may commit an unsafe act, People Connect can assist in providing information about available [Employee Assistance](/handbook/total-rewards/benefits/general-and-entity-benefits/#employee-assistance-program) options.
+1. If at any point you believe you, personally, may commit an unsafe act, People Connect can assist in providing information about available [Employee Assistance](/handbook/total-rewards/benefits/general-and-entity-benefits/) options.
 
 ## Workers' Compensation
 
@@ -309,7 +309,6 @@ The handbook also has a wealth of information and recommendations for setting up
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
 - [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/company/culture/all-remote/mental-health/)
-- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
 **Working Time Regulations**
@@ -370,7 +369,6 @@ To ensure the physical and mental health and safety of our team members in New Z
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
 - [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/company/culture/all-remote/mental-health/)
 - [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
-- [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
 **Data Protection/Privacy Policy**
 
