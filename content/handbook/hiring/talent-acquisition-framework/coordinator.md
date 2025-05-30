@@ -35,7 +35,6 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
    1. Under “Value,” choose the appropriate label for the desired list
    1. To change the order of the lists on the board, click and drag the lists
 
-
 ### Team Interviews
 
 - When a candidate is ready for a team interview, the recruiter will request availability in ModernLoop. Once availability is requested, it will create a task for CES to schedule.
