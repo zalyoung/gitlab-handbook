@@ -137,6 +137,7 @@ RSpec.describe UserFinder do
   end
 end
 ```
+
 </details>
 
 ### Profiling Tools
