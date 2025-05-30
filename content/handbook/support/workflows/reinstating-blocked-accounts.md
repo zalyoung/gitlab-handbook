@@ -107,7 +107,7 @@ If the block or complaint is related to access from an embargoed country, use th
 
 Users may be blocked in order to comply with business and regulatory obligations in Mainland China, Hong Kong and Macau. This will be reflected in an admin note on the user's account.
 
-More information and the support workflow for these accounts can be found in the [Internal Handbook](https://internal.gitlab.com/handbook/support/workflows/pipl-blocks/).
+More information and the support workflow for these accounts can be found in the [Internal Handbook](https://internal.gitlab.com/handbook/support/workflows/regulatory-region-blocks/).
 
 ### Professional Services migrations
 
