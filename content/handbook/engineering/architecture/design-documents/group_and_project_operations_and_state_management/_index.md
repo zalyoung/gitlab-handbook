@@ -376,7 +376,7 @@ end
 Introduce `namespace_state_updates` table to track all state transitions:
 
 ```ruby
-module Namespaces 
+module Namespaces
   class StateUpdate < ApplicationRecord
     self.table_name = 'namespace_state_updates'
 
