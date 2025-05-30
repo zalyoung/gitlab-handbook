@@ -23,11 +23,11 @@ To get started with GitLab, register your company by going to [https://partners.
 
 #### Creating Partner Portal Logins for Users (After Partner Registration)
 
-_This information can also be found in the [Partner Guide](https://partners.gitlab.com/prm/English/s/assets?id=414926&q=partner%20guide)(portal login required to access)). \
+_This information can also be found in the [Partner Guide](https://partners.gitlab.com/prm/api/objects/v1/asset/hugkbmggdhtg/_view)(portal login required to access)). \
 _If a partner organization already exists in the partner portal, but a new partner user needs login credentials:
 
-- Visit our [partner portal](https://partners.gitlab.com/) and scroll down to the login area
-- On the left side of the page, click "Request Portal Access"
+- Visit our [partner portal](https://partners.gitlab.com/)
+- Select "Register" in the top right corner
 
 ![GitLab Partner Portal](/images/resellers/channel-working-with-gitlab/GitLab_PSP_logo.png)
 
@@ -55,7 +55,7 @@ To pay via invoice, simply e-sign the [reseller quote](/handbook/resellers/#gitl
 
 We want to help our Partners succeed. We have created marketing resources and tools for our Partner to use to help grow their GitLab business. See the [Channel Tools and Resources](/handbook/resellers/channel-tools-resources/) handbook page to learn more.
 
-Or you can get started today by going to the [Partner Portal](https://partners.gitlab.com/English/).
+Or you can get started today by going to the [Partner Portal](https://partners.gitlab.com).
 
 ### Working with GitLab - Sales
 
@@ -63,9 +63,9 @@ Or you can get started today by going to the [Partner Portal](https://partners.g
 
 The GitLab Partner Program helps develop your practice to best fit your business model. You can earn one-time and recurring revenues from product and services sales, referrals, and services delivery and resale.
 
-To view the GitLab Partner Program Discount and Referral Fee Table, please visit the [GitLab Partner Portal](https://partners.gitlab.com/prm/English/s/assets) (must be an authorized Partner) and access the Incentive Guide in the Program Documents folder in the Asset Library.
+To view the GitLab Partner Program Discount and Referral Fee Table, please visit the [GitLab Partner Portal](https://partners.gitlab.com) (must be an authorized Partner) and access the Incentive Guide in the Program Documents folder in the Asset Library.
 
-Authorized Public Sector Partners can earn one-time and recurring revenues from product and services sales, referrals, and services delivery and resale. To view Public Sector discounts, please visit the [GitLab Partner Portal](https://partners.gitlab.com/prm/English/s/assets) (must be an authorized Public Sector Partner) and access the Incentive Guide in the Program Documents folder in the Asset Library. GitLab employees can access the [discount table here](https://gitlab.my.salesforce.com/0694M00000DsShm?retUrl=%2F_ui%2Fcore%2Fchatter%2Ffiles%2FFileTabPage) and the [Public Sector table here](https://gitlab.my.salesforce.com/0694M00000DsShr?retUrl=%2F_ui%2Fcore%2Fchatter%2Ffiles%2FFileTabPage).
+Authorized Public Sector Partners can earn one-time and recurring revenues from product and services sales, referrals, and services delivery and resale. To view Public Sector discounts, please visit the [GitLab Partner Portal](https://partners.gitlab.com) (must be an authorized Public Sector Partner) and access the Incentive Guide in the Program Documents folder in the Asset Library. GitLab employees can access the [discount table here](https://gitlab.my.salesforce.com/0694M00000DsShm?retUrl=%2F_ui%2Fcore%2Fchatter%2Ffiles%2FFileTabPage) and the [Public Sector table here](https://gitlab.my.salesforce.com/0694M00000DsShr?retUrl=%2F_ui%2Fcore%2Fchatter%2Ffiles%2FFileTabPage).
 
 NOTE: Discounts are off list price. If GitLab is deeply discounting a large annual recurring revenue (ARR) customer engagement, the Partner can reasonably expect to share in that with a discount reduction. The Partner, GitLab sales, and Channel Account Manager must agree on the negotiated discount amount.
 
@@ -87,7 +87,7 @@ Our Deal Registration process allows us to incentivize our Partners to source an
 
 ##### Submitting a Deal Registration
 
-1. Go to the [GitLab Partner Portal](https://partners.gitlab.com/) at Partners.GitLab.com and select "Register a Deal."
+1. Go to the [GitLab Partner Portal](https://partners.gitlab.com/) and select "Deals" in the menu".
 2. Choose to "Add a Registration."
 3. Choose "GitLab" under the list of vendors.
 4. When asked to select a program, choose either "Deal Registration" for a standard licensing sale ("Referral," "Resale," or "MSP") or "Service Attached Registration" if you're submitting a registration to participate in our rebate program for services that you're providing to the customer.
@@ -208,7 +208,7 @@ When customers have technical support needs or need to make changes to a subscri
 
 Subscription email address changes, other subscription changes, license resends, and technical problems are all handled through the technical support ticket process.
 
-To submit a Support Ticket, navigate to the "Support" tab in the partner portal, and click `Submit a Support Ticket on behalf of your customer`. Please ensure you follow all listed instructions and read the recommended handbook pages to ensure a prompt response from the Technical Support team. The Partner Support team is unable to assist with Technical Support needs.
+To submit a Support Ticket, navigate to the "Technical Readiness" page in the partner portal and select the appropriate `Submit a Support Ticket` link. Please ensure you follow all listed instructions and read the recommended handbook pages to ensure a prompt response from the Technical Support team. The Partner Support team is unable to assist with Technical Support needs.
 
 ###### Execute the GitLab EULA
 
@@ -376,7 +376,7 @@ Partners can receive Self-Managed and Software-as-a-Service (SaaS) NFR Ultimate 
 
 ##### Requesting a GitLab NFR (Not-for-Resale) License
 
-Authorized GitLab Partners can request NFR licenses by filling out the NFR License Request Form which can be found on the [GitLab Partner Portal](https://partners.gitlab.com/prm/English/c/SupportOpen) on the Support tab > Request a Not For Resale (NFR) License. Submissions will route to Ecosystem Operations team for provisioning.  Please allow two (2) business days for processing. Once provisioned, the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS.
+Authorized GitLab Partners can request NFR licenses by filling out the NFR License Request Form which can be found on the 'Common Requests' page in the [GitLab Partner Portal](https://partners.gitlab.com) on the Support tab > Request a Not For Resale (NFR) License. Submissions will route to Ecosystem Operations team for provisioning.  Please allow two (2) business days for processing. Once provisioned, the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS.
 
 ##### NFR Program Eligibility
 
