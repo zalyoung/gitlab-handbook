@@ -363,7 +363,7 @@ the common entrypoint module.
 
 ```terraform
 module "cloudflare_data" {
-    source = "path/to/entrypoint/module//data"
+    source = "path/to/entrypoint/module//modules/data"
 
     domain = "example.gitlab.com"
 }
@@ -416,7 +416,7 @@ level variable.
 
 ```terraform
 module "waf_rulesets" {
-  source = "path/to/waf/module//data"
+  source = "path/to/waf/module//modules/data"
 
   domain = "example.gitlab.com"
 }
@@ -452,7 +452,7 @@ Specifically:
 
 - Major Version (*X*.y.z): Incremented when breaking interface changes are
   released that require manual intervention for implementers
-- Minor Version (x.*Y*.z): Incremented when additional functionality is implementd
+- Minor Version (x.*Y*.z): Incremented when additional functionality is implemented
   in the module that does not require manual intervention for implementers
 - Patch Version (x.y.*Z*): Incremented when non-functional changes (e.g. bug
   fixes and doc updates) are released, that do not require manual intervention
