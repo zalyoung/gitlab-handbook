@@ -20,6 +20,10 @@ The process for these is:
 1. Support Operations generates the license using the parameters in the issue.
 1. Support Operations updates the issue and closes it out.
 
+The above process will only generate a legacy license file for the team member
+If you need a staging cloud license to test Duo please create a new request for #g_provision group
+If you need a production cloud license to test Duo please use a $0 order with a Deal desk team
+
 ### Checking for an existing license
 
 1. Login to the
