@@ -132,12 +132,14 @@ You are not ready to use AI when:
 ### The "AI is working" test
 
 You'll know AI is helping when:
+
 - You finish tasks faster than your manual baseline
 - You learn something new that you can apply later  
 - The AI suggestions spark ideas you wouldn't have had
 - You catch AI mistakes quickly and confidently
 
 You'll know AI is hurting when:
+
 - You spend more time prompting than you would solving manually
 - You're blindly following AI advice you don't understand
 - You're sharing technical advice you haven't verified or can't explain
