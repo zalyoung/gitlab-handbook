@@ -45,16 +45,16 @@ Use this workflow for requests to change subscription owner, transfer ownership,
 
 ### Self-service option
 
-Consider using the [Support::L&R::Change Customers Portal Contact](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/Self-Managed/Change%20Customers%20Portal%20Contact.yaml) macro so the requestor can self-service. **Important**: Do not add the existing `Sold To:` contact as a CC. The requester would see the email address, which would be considered a leak of Personal Data.
+Consider using the [Support::L&R::Change Customers Portal Contact](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/Self-Managed/Change%20Customers%20Portal%20Contact.yaml) macro so the requester can self-service. **Important**: Do not add the existing `Sold To:` contact as a CC. The requester would see the email address, which would be considered a leak of Personal Data.
 
-If the requester **does not** have a Customers Portal account but has access to the Customer Portal account or email address of the previous owner, guide them to:
+If the requester **does not** have a Customers Portal account but can access the previous owner's Customer Portal account or email address, direct them to:
 
 1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the existing owner's email.
 1. [Claim the account](https://docs.gitlab.com/subscriptions/customers_portal/#change-profile-owner-information) by changing over the profile owner details.
 1. [Link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#link-a-gitlabcom-account) to the Customers Portal account or [change the linked account](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account) for authentication.
-1. Once the requestor has updated the account on the Customers Portal, verify that the `Sold To:` contact in the Zuora account matches the Customers Portal account. Follow the [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot) if they do not match.
+1. Once the requester has updated the account on the Customers Portal, verify that the `Sold To:` contact in the Zuora account matches the Customers Portal account. Follow the [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot) if they do not match.
 
-If the requester already created their Customers Portal account, they can request the current subscription contacts to [invite them as a billing account manager](https://docs.gitlab.com/subscriptions/customers_portal/#add-a-billing-account-manager).
+If the requester has an existing Customers Portal account, they can ask current subscription contacts to [invite them as a billing account manager](https://docs.gitlab.com/subscriptions/customers_portal/#add-a-billing-account-manager).
 
 #### Message "Your account is already linked to another billing account" reported
 
@@ -71,7 +71,7 @@ This happens when a customer is a billing account manager of a separate billing 
 
 #### Error "Email has already been taken" reported
 
-If the requestor follow the [self-service option](#self-service-option) and get the error "Email has already been taken", this means the new account owner is an existing CustomersDot user. Ask them to follow the steps to [add a billing account manager](https://docs.gitlab.com/subscriptions/customers_portal/#add-a-billing-account-manager) instead.
+If the requester follows the [self-service option](#self-service-option) and receives the error "Email has already been taken", this indicates the new account owner already has an existing CustomersDot account. Direct them to follow the steps to [add a billing account manager](https://docs.gitlab.com/subscriptions/customers_portal/#add-a-billing-account-manager) instead.
 
 ### Support-assisted option
 
