@@ -48,11 +48,11 @@ Not all Fulfillment features are available at the time for all types of customer
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
 
 ## Internal license request
-The team member license [process](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/team_member_licenses/) via support ops team will only be able to generate a legacy license file for the team member
-If you need a staging cloud license to test Duo please create a new request for #g_provision group
-If you need a production cloud license to test Duo please use a $0 order/subscription with deal desk team
-Please note that legacy licenses are valid until expiration once generated but a cloud license will require active staging and production data within Zuora and CustomersDot, if you have lost access during a staging refresh please reach out to #g_provision
 
+- The team member license [process](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/team_member_licenses/) via support ops team will only be able to generate a legacy license file for the team member
+- If you need a staging cloud license to test Duo please create a new request for #g_provision group
+- If you need a production cloud license to test Duo please use a $0 order/subscription with deal desk team
+- Please note that legacy licenses are valid until expiration once generated but a cloud license will require active staging and production data within Zuora and CustomersDot, if you have lost access during a staging refresh please reach out to #g_provision
 
 ## Temporary renewal extensions
 
