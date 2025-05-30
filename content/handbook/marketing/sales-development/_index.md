@@ -586,6 +586,9 @@ Team specific variants of these dashboard components will also be found on your 
 Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](/handbook/sales/field-operations/gtm-resources/#opportunities)
 
 As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the `LEAD, CONTACT, and OPPORTUNITY` objects in Salesforce. In order to obtain an SAO, you will need to have the `required information` filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
+The full walkthrough of how to create a SFDC opportunity is [listed here](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity). 
+
+Please note that, in addition to the main requirements listed on this link, the Sales Dev org memebers (both SDRs and BDRs) are expected to fullfill the `Initial Engagement Channel` as a mandatory qualification field, before being allowed to create an opportunity. 
 
 **When do I create an Opportunity?**
 
