@@ -122,7 +122,7 @@ The UX All Hands meeting takes place every six weeks, with two sessions to accom
 
 The purpose is to share company updates, stay connected, and receive feedback.
 
-The entire UX department is invited, though anyone at GitLab is welcome to attend and contribute to the [All Hands agenda](https://drive.google.com/open?id=1ad5WstBx-rXgK-MtiTnmsI85_HoeQBhgmWuRIxMg60o) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
+The entire UX department is invited, though anyone at GitLab is welcome to attend and contribute to the [All Hands agenda](https://docs.google.com/document/d/1ad5WstBx-rXgK-MtiTnmsI85_HoeQBhgmWuRIxMg60o/edit?usp=sharing) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
 
 ### Retrospectives
 
