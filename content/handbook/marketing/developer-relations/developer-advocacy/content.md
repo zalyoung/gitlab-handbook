@@ -173,14 +173,35 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ### Videos
 
-When creating product demos for video, please consider taking the following steps in VS Code: 
+For your screen recording:
+1. We recommend Quicktime or OBS.
+1. Set window size to an aspect ratio of 16x9. Common resolution is 1920×1080 (16:9 aspect ratio) or 2880×1750 for screen recordings. 
+1. If recording for social, consider square (1:1) for multi-platform compatibility or vertical (9:16).
+1. If you're connected to a 4K monitor, it may be easier to capture from your laptop.
+1. Be overly generous with zoom in your IDE so that our viewers can clearly see what is happening on screen. Zoom (`cmd` + `+`) once or twice more than you think you need to. 
+1. You can simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
+1. Additional guidance can be found in the internal handbook: [dev environments](https://internal.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/dev-environments)
 
-- Common resolution is 1920×1080 (16:9 aspect ratio) or 2880×1750 for screen recordings. 
-- If you're connected to a 4K monitor, capture from your laptop.
-- For social clips, consider square (1:1) for multi-platform compatibility or vertical (9:16).
-- Zoom (`cmd` + `+`) once or twice more than you think you need to
-- Simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
-- Additional guidance can be found in the internal handbook: [dev environments](https://internal.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/dev-environments)
+#### Recording with OBS 
+
+In many cases, OBS will allow greater control and flexibility for screen recordings. 
+
+Here are some tips to keep in mind: 
+- Scene - a scene is a collection of sources that you will record simultaneously. 
+- Sources - sources can be audio, screen recordings, webcams, etc. 
+  - To add a source, click the `+` icon. These are the three most common sources you will use: 
+    - macOS Screen Capture: screen recordings 
+    - Audio Input Capture: optional, when direct voice recording is needed
+    - Video Capture Input: optional with speaker/webcam in the recording
+  - To record your Macbook screen, use `macOS Screen Capture`, give the source a name, and right-click to edit the Source properties. 
+  - Properties - these are elements of the Source you can modify. You can choose between different screens (laptop vs monitor) as well as whether to capture the whole screen, a window, or a specific application. 
+- Preferences - preferences control how your Scene gets recorded. We recommend the following preferences: 
+  - OBS > Preferences > Video
+    - Base (Canvas) Resolution 1920x1080, Aspect ratio 16:9
+    - Output (Scaled) Resolution 1920x1080, Aspect ratio 16:9
+  - OBS > Preferences > Output > Dropdown: Advanced.
+    - OBS > Preferences > Advanced: Tick “Recording > Automatically remux to mp4” (this is important for Adobe Premiere Pro which cannot import mkv containers) 
+- Search for `obs-setup.mp4` for a video tutorial showing how to setup OBS 
 
 ### Product Tours
 
