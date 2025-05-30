@@ -348,6 +348,7 @@ All team members are encouraged to schedule time for personal development. The f
 - [Monitoring](/handbook/engineering/monitoring/)
 - [Readiness Reviews](/handbook/engineering/infrastructure/production/readiness/)
 - [Infrastructure Platforms Standards](/handbook/company/infrastructure-standards/)
+- [Career development and Internships in Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/careers)
 
 ## Other Pages
 
