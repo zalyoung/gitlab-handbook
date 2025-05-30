@@ -402,4 +402,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 * [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
-<!--- controlled_document: true  flag was present but the file was not included in CODEOWNERS -->
+<!--- "controlled document: true"  flag was present but the file was not included in CODEOWNERS -->
