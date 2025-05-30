@@ -64,8 +64,12 @@ flowchart LR
   click COMPONENT "javascript:void(0)" "Are you testing an isolated component or subsystem rather than the full GitLab application?"
 
   %% Unit testing tooltip
-  click UNIT "javascript:void(0)" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
+  click UNIT "#performance-unit-testing" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
 ```
+
+### Performance Unit Testing
+
+By making use of rspec-benchmark
 
 ### Server-side Performance Testing
 
