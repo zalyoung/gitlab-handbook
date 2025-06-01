@@ -52,6 +52,8 @@ Please take time to understand any code that you are asked to copy and paste in 
 
    > To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
 
+> **Using a different ssh key location:** If you already have an SSH key and want to avoid overwriting or disturbing it, you can create a new key in a custom location using `ssh-keygen -t ed25519 -f /path/to/key`. To use this new key for Git operations in your current terminal session, set the following environment variable `export GIT_SSH_COMMAND='ssh -i ~/.ssh/gitlab-univerisity-id_ed25519 -o IdentitiesOnly=yes'`.
+
 ## Task C. Add an SSH key to your GitLab profile
 
 1. Open your browser to the project that you created in Lab 1.
