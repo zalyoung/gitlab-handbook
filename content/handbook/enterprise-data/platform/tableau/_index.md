@@ -227,11 +227,11 @@ Each section below corresponds to a limited access user group and the designated
 - \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders) list to be added to this group.
 - To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
-- **Ecosystem Sales and Operations** 
+- **Ecosystem Sales and Operations**
 
-- **Internal Audit Restricted Access** 
+- **Internal Audit Restricted Access**
 
-- **People Restricted Access** 
+- **People Restricted Access**
 
 #### Project Permission Structure
 
@@ -376,7 +376,7 @@ Our automated Lumos system monitors login activity and manages licenses based on
 
 If deprovisioned due to inactivity:
 
-1. Access Lumos portal through Octa
+1. Access Lumos portal through Okta
 2. Submit Tableau access request for `Tableau Access`
 3. Upon approval, access will be restored
 
@@ -429,7 +429,7 @@ Tableau access is structured in a tiered approach that separates data based on s
 Users may request restricted access through the Lumos App by selecting the following Lumos Apps and following the instructions there:
 
 - Tableau Restricted SAFE Access
-- Tableau Special Permissions 
+- Tableau Special Permissions
 
 ### Tableau Desktop Access
 
@@ -656,7 +656,7 @@ All certified data sources must meet the following criteria:
 The Data Team provides shared Tableau resources to support reporting, dashboard development, and data visibility across the organization. These resources are maintained to help teams build with consistency, understand platform usage, and access historical content when needed.
 
 You can find these resources in the [Production → Data Team → General](https://10az.online.tableau.com/#/site/gitlab/projects/367731) folder. This location includes information such as:
-   
+
 - Platform Usage Dashboards – Insights into how Tableau is being used across teams
 - Archived Dashboards and Data Sources – Retired or historical content for reference
 - Templates and Examples – Standardized templates to help jump-start new dashboard builds
