@@ -171,6 +171,7 @@ The Engineer On Call typically serves as the primary Incident Responder and is r
     1. Alerts that page PagerDuty will automatically create a triage incident in [`#incidents-dotcom-triage`](https://gitlab.slack.com/archives/alerts).
        1. If it is determined to be a true incident, the triage incident should be accepted by joining the channel and choosing "Accept it".
        2. The triage incident will automatically declined if no action is taken and the generating alert clears.
+       3. If there are multiple pages/triage incidents created for the same incident, merge them into the primary incident. However, resolving the incident takes precedence. It is fine if a related triage incident auto-closes instead of getting merged while you're working an incident.
 5. If sources outside of our alerting are reporting a problem, and you have not received any alerts, it is still your responsibility to investigate. [Declare a low severity incident](#reporting-an-incident) and investigate from there.
     1. Low severity ([S3/S4](#severities)) incidents (and issues) are cheap, and will allow others a means to communicate their experience if they are also experiencing the issue.
     2. **"No alerts" is not the same as "no problem"**
