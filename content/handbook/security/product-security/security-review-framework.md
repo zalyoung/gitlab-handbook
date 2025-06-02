@@ -204,17 +204,24 @@ Each team categorizes risk based on their domain-specific score:
 
 #### Secure Design and Development
 
-* Critical Risk (Score ≥ 18): Full comprehensive review + SPA review if required
-* High Risk (Score 14-17): Complete review with targeted testing + SPA review if required.
-* Medium Risk (Score 10-13): Focused review of specific components by primary team only
-* Low Risk (Score < 10): Self-service review
+* Score ≥ 15: Critical Risk
+* Score 12-14: High Risk
+* Score 8-11: Medium Risk
+* Score < 8: Low Risk 
+
+Security review process for each risk level is detailed in [Secure Design and Development Review Process](#secure-design-and-development-review-process) section
+
 
 #### Infrastructure Security
 
-* Critical Risk (Score ≥ 15): Full comprehensive review + SPA review if required.
-* High Risk (Score 12-14): Complete review with targeted testing + SPA review if required.
-* Medium Risk (Score 8-11): Focused review of specific components by primary team only
-* Low Risk (Score < 8): Self-service review
+* Score ≥ 15: Critical Risk
+* Score 12-14: High Risk
+* Score 8-11: Medium Risk
+* Score < 8: Low Risk 
+
+Security review process for each risk level is detailed in [Infrastructure Security Review Process
+](#infrastructure-security-review-process) section
+
 
 ## 3: Review Process by Team and Risk Level
 
@@ -306,7 +313,7 @@ Optional Review: SPA and/or Data Security, if the feature has changes that fall 
 1. The security review process begins with a product team requesting a security review for a feature. The ideal time for requesting a review would be after the [design phase](../../product-development/product-development-flow/#validation-phase-3-design). This is done by adding a label 
 `SecurityReview::Requested` to a feature issue or epic (`~"type::feature"`). 
 1. ProdSec automation will then add the initial triage questionnaire 
-to this feature issue, ping the review initiator for completion, and add the label `initial-triage:pending-answers`. The initial triage questionnaire 
+to this feature issue, ping the review initiator for completion, and add the label `initial-triage:pending-answers`. The [initial triage questionnaire](#initial-triage-questions)
 is a set of Yes/No questions to determine whether this feature needs a review from Secure Design and Development (SD&D, SPA) or InfraSec. 
 1. Once the phase 1 questionnaire is completed, the review initiator removes the `initial-triage:pending-answers` label.
 
