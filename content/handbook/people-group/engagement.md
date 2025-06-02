@@ -122,7 +122,7 @@ Our Engagement Survey for FY'26 is scheduled to run from 2025-06-16 to 2025-06-2
 - Week of 7th July: All People Managers level reports shared in CultreAmp*
 - Week of 14th July : High-level summary release (company-wide) and followed by handbook updates
 - Week of 14th July: Division-level results summary shared by division leaders
-- Weeak of 1st August - Finalize company wide action plans
+- Week of 1st August - Finalize company wide action plans
 
 *Only leaders with 5 or more respondents will receive a report in CultreAmp
 
