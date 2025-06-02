@@ -813,7 +813,6 @@ Actions by both the current and new managers are required to set the team member
 - If we are in the middle of Annual Compensation Review, it is encouraged that the current manager and new manager arrange a successful handover of the feedback, whether sync or async.
 - All migration tasks by the applicable team members need to be completed within 2 weeks of the migration start date.
 
-
 ## Promotions and Transfers of Employees in Commissionable Roles
 
 This section describes the steps required for promoting or transferring employees with a [Sales Commission Plan](https://internal.gitlab.com/handbook/sales/sales-commission/#fy23-sales-commission-policies). When a promotion or transfer occurs, it is important for Sales Managers to follow specific steps to ensure a smooth employee experience during the transition. The Sales Operations, Sales Finance, and the Commissions team need to be informed so the necessary systems can be updated and the team member can receive a new compensation plan.
