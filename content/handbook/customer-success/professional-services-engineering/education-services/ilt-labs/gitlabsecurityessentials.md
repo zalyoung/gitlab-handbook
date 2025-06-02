@@ -18,8 +18,8 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 Here are some quick links that may be useful when reviewing this Hands-On Guide.
 
-* [GitLab Security Essentials Course Description](https://about.gitlab.com/services/education/gitlab-security-essentials/)
-* [GitLab Security Essentials Certification Details](https://about.gitlab.com/services/education/gitlab-security-associate/)
+* [GitLab Security Essentials Course Description](https://university.gitlab.com/pages/security-training/)
+* [GitLab Security Essentials Certification Details](https://university.gitlab.com/pages/certifications/))
 
 ## Suggestions?
 
