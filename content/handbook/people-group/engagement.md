@@ -114,8 +114,8 @@ Our Engagement Survey for FY'26 is scheduled to run from 2025-06-16 to 2025-06-2
 
 ### FY'26 Annual Engagement Survey Timeline
 
-- 2025-06-16: Survey launch @ 8am PT
-- 2025-06-27: Survey close @ 5pm PT
+- 2025-06-16: Survey launch @ 8am PT/ 3pm UTC
+- 2025-06-27: Survey close @ 5pm PT/ 2025-06-28 12am UTC
 - 2025-07-01: High-level summary shared with People Leadership Team
 - 2025-07-03: High-level summary & Culture Amp reports shared with E-Group
 - Week of 7th July: Functional Leaders level reports shared in CultureAmp*
