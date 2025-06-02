@@ -6,7 +6,7 @@ description: This section is designed to help you understand that Knowledge Arti
 
 The Knowledge Workflow is the process of how information flows through - from creation to publish.  We capture knowledge, we then create the knowledge, the knowledge gets reviweed, organized, categorized, and then published . The Goal is to create a smooth, efficient flow where valuable knowledge is used by all and not lost (or trapped in someones head). Having the konwledge workflow helps us to move the konwledge process easily and efficiently. 
 
-# Create a Knowledge article
+**Create a Knowledge article**
 
 - Draft article is created (using a template)
 - Knowledge Article is  "in Progress" 
@@ -19,7 +19,7 @@ Note:
 - Ready for Review status will be used when assigning to a Technical Reviewer
 - Ready to Publish status will ONLY be used for articles that are to be reviewed and ready to be published on a specific date (Example: articles set for product releases)
 
-# Modify a Knowledge article
+**Modify a Knowledge article**
 
 - Article is in Edit status (draft)
 - Knowledge Article is  "in Progress" 
@@ -30,7 +30,7 @@ Note:
 Note: 
 - When Modifying the knowledge article the knowledge article goes back to "Draft". The Current version of the article will remain active on the page.  When the draft is published with udpates, it will update the page.
 
-# Approving and Publishing a Knowledge article
+**Approving and Publishing a Knowledge article**
 
 - Article is "Awaiting Review" or "Ready to Publish" status.
 - Technical review must e done on the aticle
