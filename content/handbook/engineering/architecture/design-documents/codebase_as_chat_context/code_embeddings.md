@@ -215,6 +215,13 @@ query = ActiveContext::Query
 
 This design proposal outlines a system to track the state of indexed namespaces and projects for Code Embeddings.
 
+The process differs between SaaS and SM/Dedicated:
+
+- SaaS: Duo licenses are applied on a root namespace level. Subgroups and projects in the namespace have Duo enabled, except if `duo_features_enabled` is false.
+- SM: Duo license is applied on the instance-level. If the instance has a license, all groups and projects have Duo enabled, except if `duo_features_enabled` is false.
+
+This makes the process for managing index state different between the two. For SaaS we will have an `Ai::Code::EnabledNamespace` record tied to a root namespace that has a license. The `enabled_namespace` record will have associated `Ai::Code::Repository` records for projects. For SM we won't have `Ai::Code::EnabledNamespace` records and only rely on `Ai::Code::Repository` records.
+
 #### Database Schema
 
 The design proposes two main tables:
@@ -253,44 +260,29 @@ The design proposes two main tables:
   - `last_commit` (char)
 - **Partitioning**: Int range partitioning on `namespace_id`.
 
+`state` represents the initial indexing state. Once a repository is marked as `:ready`, it means it is searchable and incremental updates will continusouly happen.
+
 #### Process Flow
 
 The system uses a `SchedulingService` called from a cron worker that publishes events at defined intervals. Each event has a corresponding worker that processes the event.
 
-##### SchedulingService Tasks
+#### Scheduling tasks
 
-1. `create_enabled_namespaces`
-2. `initial_indexing`
-3. `mark_repositories_as_ready`
-4. `repository_should_be_marked_as_deleted`
-5. `delete_repository`
-6. `enabled_namespace_should_be_marked_as_deleted`
-
-##### Main Process Flows
-
-###### 1. Rollout
-
-- Find eligible namespaces and create EnabledNamespace records
-- Create repository records for each namespace
-- Call indexer and track state
-- Enqueue embedding references based on streamed response
-- Mark repositories as ready when indexing completes
-
-###### 2. Deletion (when projects or namespaces are deleted)
-
-- Mark repositories for deletion when `project` or `namespace` becomes nil
-- Call indexer to delete project documents
-
-###### 3. License Changes
-
-- Check for expired licenses or missing Duo licenses
-- Delete EnabledNamespace records when licenses become invalid
+| Task | Action | Instance type |
+|------|--------|--------------|
+| `gitlab_com_initial_indexing` | Find eligible namespaces and create records<br>• record does not exist AND namespace has Duo license | SaaS |
+| `gitlab_com_invalid_license` | Find eligible `enabled_namespaces` and delete records<br>• namespace does not have valid license (e.g. expired) | SaaS |
+| `repository_should_be_created` | Find eligible projects and create records in :pending state<br>• record does does not exist && `duo_features_enabled` && feature flag enabled for project &&<br>• [SaaS only] `enabled_namespace` exists<br>• [SM only] instance has license | All |
+| `repository_should_be_deleted` | Find eligible repository records and set state to :pending_deletion and :metadata.reason_to_delete<br>• `duo_features_enabled` is false OR project_id is nil OR state is :failed OR license not valid OR<br> • [SaaS] enabled_namespace.namespace is nil<br>  • [SM] instance does not have valid license | All |
+| `index_repository` | Look for project in :pending state; enqueue `RepositoryIndexWorker`; set state to :code_indexing_in_progress | All |
+| `repository_is_ready` | Find eligible repository records; check if the queue contains the same `last_initial_queued_item` and `last_initial_queued_item_score` and if it does not, set state to :ready and :indexed_at | All |
+| `delete_repository` | Loop through repositories in :pending_deletion state and enqueue `RepositoryDeleteWorker` | All |
 
 #### Implementation Notes
 
 - All operations are scoped to the currently active connection
 - For tracking completion of initial indexing, the system stores the highest queued item and periodically checks if it exists in the queue with the same score
-- The system follows a state machine pattern for tracking repository and namespace states
+- The system follows a state machine pattern for tracking repository state.
 
 ## Alternative Solutions
 
