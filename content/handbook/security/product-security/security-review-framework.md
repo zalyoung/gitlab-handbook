@@ -209,8 +209,7 @@ Each team categorizes risk based on their domain-specific score:
 * Score 8-11: Medium Risk
 * Score < 8: Low Risk 
 
-Security review process for each risk level is detailed in [Secure Design and Development Review Process](#secure-design-and-development-review-process) section
-
+Security review process for each risk level is detailed in [Secure Design and Development Review Process](#secure-design-and-development-review-process) section.
 
 #### Infrastructure Security
 
@@ -219,9 +218,7 @@ Security review process for each risk level is detailed in [Secure Design and De
 * Score 8-11: Medium Risk
 * Score < 8: Low Risk 
 
-Security review process for each risk level is detailed in [Infrastructure Security Review Process
-](#infrastructure-security-review-process) section
-
+Security review process for each risk level is detailed in [Infrastructure Security Review Process](#infrastructure-security-review-process) section.
 
 ## 3: Review Process by Team and Risk Level
 
