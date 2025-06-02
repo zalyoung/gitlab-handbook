@@ -403,6 +403,12 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- November, 2025: {{< member-by-name "Zach Painter" >}}
+- October, 2025: {{< member-by-name "Lysanne Pinto" >}}
+- September, 2025: {{< member-by-name "Isaac Durham" >}}
+- August, 2025: {{< member-by-name "Lorena Ciutacu" >}}
+- July, 2025: {{< member-by-name "Phillip Wells" >}}
+- June, 2025: {{< member-by-name "Achilleas Pipinellis" >}}
 - May, 2025: {{< member-by-name "Marcel Amirault" >}}
 - March, 2025: {{< member-by-name "Brendan Lynch" >}}
 - February, 2025: {{< member-by-name "Emily Sahlani" >}}
