@@ -18,6 +18,7 @@ JiffleNow is an automated appointment scheduling of in-person, and virtual B2B m
 MOps provisioner: For `Requestor` role, you do not need to do anything in JiffleNow. Once Okta is provisioned, the user will have access to request meetings. If a person just needs access to reports and dashboards, you can add them as a `Requestor`, then toggle the Reports & Dashboard toggle on in their profile. For all other roles, you will add the person to the specific event they need access to with the correct role and engagement type. This will be outlined in the event request task in Asana.
 
 ### When to use Jifflenow
+
 Jifflenow is not required for all events where there is meeting space. At this time, use of Jifflenow is recommended for the following scenarios (unless noted, all criteria must be met):
 
 1. There is at least one dedicated meeting space. Meeting at the booth does not meet this requirement, unless there is a separate enclosed meeting space in the booth.
