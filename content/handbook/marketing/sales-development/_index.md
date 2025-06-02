@@ -117,7 +117,6 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [Inbound Interest Feed (Company Level)](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-CompanyLevel?:iid=1) | A pre-saved view of the Inbound Interest Feed dashboard that shows company-level interest and engagement metrics. |
 | [Inbound Interest Feed (Lead Level)](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | A pre-saved view of the Inbound Interest Feed dashboard that shows lead-level interest and engagement metrics. |
 
-
 ### Dashboards For Leaders
 
 | Name/Link                                                            | Description                                            |
