@@ -113,7 +113,7 @@ The Multinational Tax Manager is a [grade 8](/handbook/total-rewards/compensatio
 
 ## Multinational Tax Manager (Non-US)
 
-The Multinational Tax Manager (non-US) reports to the Sr. Director, Multinational Tax (non-US).
+The Multinational Tax Manager (non-US) reports to the Sr. Manager, Multinational Tax (non-US).
 
 ### Multinational Tax Manager Job Grade
 
@@ -135,7 +135,7 @@ The Multinational Tax Manager (non-US) is a [grade 8](/handbook/total-rewards/co
 
 - Bachelor’s degree in Accounting or Juris Doctorate (JD)
 - CPA, Master’s degree, and/or JD in Tax or Accounting a plus
-- International US Corporate Tax experience (5-8 years)
+- International Corporate Tax experience (5-8 years)
 - Strong oral and written communication skills
 - Excellent organizational/analytical skills required
 - Solid PC skills with a working knowledge of Google Suite, Slack, NetSuite, and Excel
