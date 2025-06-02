@@ -341,7 +341,7 @@ The list import issue will be automatically be created via [Allocadia - GitLab i
 
 Skip to step 2 of the list import [instructions](/handbook/marketing/channel-marketing/#list-import-for-partner-leads) for partner leads.
 
-#### FY25 GitLab Sales Dev Working Partner Leads
+<!--#### FY25 GitLab Sales Dev Working Partner Leads
 
 As part of a [pilot program in FY25](/handbook/resellers/channel-program-guide/mdf), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
 
@@ -396,6 +396,7 @@ This process requires the following platforms: Allocadia, Marketo, Salesforce, T
    1. Since it's a High Priority campaign, only MQLs and Actively Working Accounts will be routed to BDRs/SDRs.
    2. If the lead is not MQL nor Actively Working, then Vartopia Partner Account will be added and Lead Acquisition Source if blank =\ MDF Campaign and reassigned to the Partner Queue.
 5. Marketo -  Leads that are sent back to the partner will be updated with the partner fields ie. Partner Consent, Do Not Email = Partner Lead, Marketing Suspended, etc (Automated).
+-->
 
 ### Joint GitLab and Partner Campaigns
 
