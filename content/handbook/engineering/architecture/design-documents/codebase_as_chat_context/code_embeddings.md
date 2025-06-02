@@ -231,9 +231,6 @@ The design proposes two main tables:
 - **Purpose**: Track namespaces that should be indexed
 - **Schema**:
   - References namespace (with dependent: nullify)
-  - `state` (smallint) with enum values:
-    - `pending`: 0
-    - `ready`: 10
   - `metadata` (jsonb)
 
 ##### 2. Ai::Code::Repository
