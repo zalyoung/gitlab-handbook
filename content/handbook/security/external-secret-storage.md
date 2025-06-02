@@ -8,6 +8,30 @@ This guide explains how to use HashiCorp Vault as an external secrets manager fo
 
 ## Why Use External Secrets?
 
+External secrets provide a secure way to manage sensitive data in CI/CD environments by separating confidential information from your codebase. This approach prevents accidental exposure of credentials in version control systems, enables centralized secret management, and allows for proper access controls and audit trails. By using external secrets, you can maintain security best practices while automating your build, test, and deployment processes without hardcoding sensitive values directly in your pipeline configurations.
+
+## When to Use External Secrets?
+
+External secrets are particularly valuable in these scenarios. Note that this list is non-exhaustive, as it's nearly impossible to cover all potential use cases
+
+**[GitLab CI/CD Pipeline Operations](https://docs.gitlab.com/ci/variables/)**
+- Deploying from GitLab CI 
+- Authenticating with external services (AWS, Docker Hub, cloud providers) during pipeline execution 
+- Running automated tests that require database or API connections
+- Publishing packages to registries (npm, Maven, PyPI) from GitLab pipelines 
+
+**[Personal Access Tokens](https://docs.gitlab.com/user/profile/personal_access_tokens/)**
+- Using GitLab Personal Access Tokens to access GitLab API programmatically 
+- Cloning private repositories during CI/CD processes 
+- Automating GitLab operations like creating merge requests or managing issues 
+- Integrating GitLab with external tools and services 
+- Scope tokens appropriately - grant minimal required API permissions and set expiration dates 
+
+**[GitLab Runner Configuration](https://docs.gitlab.com/runner/)**
+- Configuring GitLab Runners to access private container registries 
+- Setting up runners to deploy to protected environments 
+- Authenticating runners with cloud infrastructure services
+
 Secrets are credentials like API keys and passwords that should be kept unknown or unseen by others. While GitLab CI has a built-in variable area with [masking capability](https://docs.gitlab.com/ee/ci/variables/#mask-a-cicd-variable), this feature has limitations:
 
 > **Warning:** Masking a CI/CD variable is not a guaranteed way to prevent malicious users from accessing variable values. The masking feature is "best-effort" and there to help when a variable is accidentally revealed. To make variables more secure, consider using external secrets.
