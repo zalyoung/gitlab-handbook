@@ -15,6 +15,7 @@ The Knowledge Workflow is the process of how information flows through - from cr
 - The article is Published
 
 Note: 
+
 - When Creating the knowledge article it should always be in "In Progress" Status. 
 - Ready for Review status will be used when assigning to a Technical Reviewer
 - Ready to Publish status will ONLY be used for articles that are to be reviewed and ready to be published on a specific date (Example: articles set for product releases)
@@ -28,6 +29,7 @@ Note:
 - The article is Published
 
 Note: 
+
 - When Modifying the knowledge article the knowledge article goes back to "Draft". The Current version of the article will remain active on the page.  When the draft is published with udpates, it will update the page.
 
 **Approving and Publishing a Knowledge article**
@@ -40,6 +42,7 @@ Note:
 - The article is Published
 
 Note: 
+
 - if comments need to be made to the Author, use teh Assign to Button (next to the Title)
 - If the article is approved and ready to publish, make sure the article (Placement Section) is updated. See the Publishing Training for more help.
 
