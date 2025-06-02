@@ -147,7 +147,7 @@ include:
       include:
         - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iu6t0rjr/example-component/sample-template@v0.36.0
           inputs:
-            stage: deploy
+            stage: build
     ```
 
 1. Select **Commit changes**, and watch as your *component-job* now runs in the build stage.
