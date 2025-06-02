@@ -403,6 +403,12 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- November, 2025: {{< member-by-name "Zach Painter" >}}
+- October, 2025: {{< member-by-name "Lysanne Pinto" >}}
+- September, 2025: {{< member-by-name "Isaac Durham" >}}
+- August, 2025: {{< member-by-name "Lorena Ciutacu" >}}
+- July, 2025: {{< member-by-name "Phillip Wells" >}}
+- June, 2025: {{< member-by-name "Achilleas Pipinellis" >}}
 - May, 2025: {{< member-by-name "Marcel Amirault" >}}
 - March, 2025: {{< member-by-name "Brendan Lynch" >}}
 - February, 2025: {{< member-by-name "Emily Sahlani" >}}
@@ -411,12 +417,6 @@ Schedule for Docs project maintenance tasks:
 - November, 2024: {{< member-by-name "Ryan Lehmann" >}}
 - October, 2024: {{< member-by-name "Russell Dickenson" >}}
 - September, 2024: {{< member-by-name "Marcel Amirault" >}}
-- August, 2024: {{< member-by-name "Jon Glassman" >}}
-- July, 2024: {{< member-by-name "Ashraf Khamis" >}}
-- June, 2024: {{< member-by-name "Evan Read" >}}
-- May, 2024: {{< member-by-name "Lorena Ciutacu" >}}
-- April, 2024: {{< member-by-name "Lysanne Pinto" >}}
-- March, 2024: {{< member-by-name "Amy Qualls" >}}
 
 <!-- vale handbook.Spelling = YES -->
 
