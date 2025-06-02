@@ -66,8 +66,7 @@ flowchart TD
    - Good for "find all the ways X can fail" type questions
 
 1. You are doing repetitive analysis
-   - Log pattern analysis
-   - Transforming data into another format eg. logs into charts
+   - Use specialized tools (like [`fast-stats`](https://gitlab.com/gitlab-com/support/toolbox/fast-stats)) for statistical analysis, then AI for interpretation if needed
    - Comparing configurations
    - Finding similar past issues
    - Summarizing important points from a long conversation
