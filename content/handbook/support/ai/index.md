@@ -71,9 +71,9 @@ flowchart TD
    - Finding similar past issues
    - Summarizing important points from a long conversation
 
-1. You want a second opinion ([rubber ducking](https://en.wikipedia.org/wiki/Rubber_duck_debugging))
-   - Use AI to validate your approach
-   - Good for "does this solution make sense?" checks
+1. You want a critical review ([rubber ducking](https://en.wikipedia.org/wiki/Rubber_duck_debugging))
+   - Ask AI to "find inconsistencies or problems with my approach"
+   - Good for challenging your assumptions rather than seeking validation
 
 1. You're stuck and need ideas
    - AI can suggest troubleshooting paths you hadn't considered
