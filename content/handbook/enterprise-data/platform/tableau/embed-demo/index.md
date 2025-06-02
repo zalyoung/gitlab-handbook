@@ -44,13 +44,14 @@ There are a few extra steps to embed any views using a yml file, because you do 
 
 1. Use the normal URL of the view in Tableau. Make sure that you get the URL by navigating to the specific view you want to embed and clicking "share" and copying that URL - the URL from the top of the page in the normal URL bar may not work. 
 
-2. You will need to make the data source an "extract" instead of "live" connection for the process to work correctly. If your extract is over 10 million rows or does not follow [the guidelines for extracts](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#guidelines-for-publishing-extracts-to-production-and-ad-hoc-projects), reach out to the data team to use the service account's credentials to on the workbook so that you can use a live connection.
+2. You will need to make the data source an "extract" instead of "live" connection for the process to work correctly. If your extract is over 10 million rows or does not follow [the guidelines for extracts](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#guidelines-for-publishing-extracts), reach out to the data team to use the service account's credentials to on the workbook so that you can use a live connection.
 
 3. Now you are ready to update your yml file. Go to the handbook page you want to update the PI's for, and edit the page. There you will find the name of the file that you are looking to update. It will look something like this:
 
     ```md
       {{</* performance-indicators "developer_relations_department" /*/>}}
     ```
+
 4. Go to the [Gitlab.com repository](https://gitlab.com/gitlab-com/www-gitlab-com) and search "find file" for that file name, it should be a yml file.
 
 5. Update the yml file according to [these guidelines for the performance indicators YML files](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#yml) using a Merge Request.

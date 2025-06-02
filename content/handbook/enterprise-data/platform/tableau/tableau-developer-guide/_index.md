@@ -185,24 +185,26 @@ This indicates that the connection is looking for a column that does not exist/ 
 
 For detailed instructions on embedding Tableau charts, see the [Handbook Embedding Demonstration](/handbook/enterprise-data/platform/tableau/embed-demo/) page.
 
-#### Design Considerations
+### Design Considerations
 
 - **Use views over dashboards** - Views embed more reliably than dashboards
 - **Design for static viewing** - Each embedded view should function without user inputs
 - **Preset filters and parameters** - These can be configured during embedding but won't be changeable by viewers
 - **Ensure visibility** - Views cannot be hidden in embedded format
 
-#### Data Source Configuration
+### Data Source Configuration
 
 **For extracts under 10 million rows:**
+
 - Use an extract with your role credentials embedded
 - This ensures consistent access and prevents authorization expiration errors
 
 **For large datasets (over 10 million rows):**
+
 - Contact the Data Team to obtain Service Account credentials
 - Use these credentials instead of creating an extract
 
-#### Publishing Requirements
+### Publishing Requirements
 
 When publishing workbooks for embedding:
 
@@ -305,10 +307,6 @@ In order to update the performance indicator, you need to find the yml file whic
 To find this file, you are going to go to the GitLab-com repository, which is a repo "for the public-facing marketing website of GitLab, including improvements to the docs and the handbook". From [the repository](https://gitlab.com/gitlab-com/www-gitlab-com), find "Find File" and then paste in the name of the file you are looking for. In this example, you would paste developer_relations_department.
 
 This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views.
-
-Two reminders, first - *make sure that any public views (does not need login access) that are embedded into the public handbook are coming from the public Tableau site*. This means that the workbook they come from has been tagged "Public", and you are getting the URL from the [views available for embedding](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) page. More information on this process can be found on the [Handbook Embedding Demonstration Page](/handbook/enterprise-data/platform/tableau/embed-demo/).
-
-Second, *if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page*.
 
 ### YML
 
