@@ -8,13 +8,11 @@ GitLab consists of many subprojects. A curated list of GitLab projects can be fo
 
 The purpose of this page is to provide comprehensive guidance for creating and managing GitLab repositories within the organization. It establishes standardized procedures and best practices that ensure all GitLab projects adhere to consistent security, governance, and operational requirements. By following these guidelines, teams can properly structure repositories, implement appropriate access controls, configure essential CI/CD settings, and incorporate security measures that protect both the codebase and the broader GitLab ecosystem.
 
-
-
 ## Creating a new project
 
 When creating a new project, please follow these steps:
 
-1. Read and familiarize yourself with our stance on [Dogfooding](/handbook/engineering/development/principles/#dogfooding). Be aware that as part of a product development organization that builds a tool for people like us, that our default is to add features and tooling to the GitLab project. This is still true when the effort to do so is 2-5x. Despite this, if you still feel you need to create a project outside of GitLab, you must follow this process to [document the decision](/handbook/product/product-processes/#dogfooding-process)
+1. Read and familiarize yourself with our stance on [Dogfooding](https://handbook.gitlab.com/handbook/engineering/development/principles/#dogfooding). Be aware that as part of a product development organization that builds a tool for people like us, that our default is to add features and tooling to the GitLab project. This is still true when the effort to do so is 2-5x. Despite this, if you still feel you need to create a project outside of GitLab, you must follow this process to [document the decision](/handbook/product/product-processes/#dogfooding-process)
 1. Ensure the project is under a subgroup of:
    * [`gitlab-org`](https://gitlab.com/gitlab-org) for anything related to the application.
    * [`gitlab-com`](https://gitlab.com/gitlab-com) for anything strictly company related.
