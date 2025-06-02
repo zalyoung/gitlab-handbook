@@ -215,7 +215,6 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/work_items/2399)
 
-
 <details>
   <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>
 
