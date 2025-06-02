@@ -85,16 +85,6 @@ Documenting parameters for meeting management and participation help maximize th
 
 When working with [external teams](/handbook/company/culture/all-remote/asynchronous/#working-async-outside-of-your-company), follow our three main points to foster communication and education regarding our [shared values](/teamops/shared-reality/#shared-values).
 
-{{% details summary="Examples and resources for well-managed meetings" %}}
-**Example:** [GitLab's Group Conversations](/handbook/company/group-conversations/#presentation)
-
-GitLab's [Group Conversations](/handbook/company/group-conversations/#presentation) highlight using meeting time for activities that benefit from a synchronous component. This intentional meeting is open to the entire organization and puts emphasis on not presenting live; rather, those running the meeting are expected to distribute presentation materials, including any pre-recorded videos, at least 24 hours ahead of time.
-
-The editable agenda document, which is attached to the company-wide calendar invite, is also used to gather questions ahead of the meeting and organize the order of speakers. The agenda itself becomes an artifact to share or reference later. Plus, recordings of the sync sessions are uploaded as [videos on the GitLab Unfiltered YouTube channel](https://www.youtube.com/@GitLabUnfiltered/search?query=group%20conversation).
-
-**Resource:** [Anatomy of a perfect blended meeting](https://www.workplaceless.com/blog/conducting-effective-blended-meetings) (article)
-{{% /details %}}
-
 {{% details summary="Change management support for well-managed meetings" %}}
 **Quick Start Tips:**
 
@@ -113,7 +103,7 @@ In addition to standard communication channels, recurring opportunities dedicate
 
 In conventional organizations, this is apt to be a more informal conversation between a department head and their manager. Broadening the audience of attendees for a Key Review Meeting—to include, for example, the Chief Executive Officer (CEO), Chief Financial Officer (CFO), the function head, stable counterparts, and (optionally) all other executives and their direct reports—broadens the pool of people who can contribute feedback, insights, and advice. It also forces the presenting department to be more mindful of execution, consider areas where they are falling short, and gather input for potential iterations toward progress.
 
-Similarly, cross-departmental conversations—known as [Group Conversations](/handbook/company/group-conversations/) within GitLab—can provide the same visibility and inclusion to other projects and teams, to help consider how a project may impact OKRs for teams throughout the organization. Such recurring meetings offer regular updates across all teams on a rotating schedule. It's the same concept and content as key review meetings with one major difference: all team members are invited! These meetings are designed to give the entire workforce context on what other teams outside of their own are focused on (and how they're executing). In this way, TeamOps stresses that execution isn't solely about executing your own goals; it's about understanding what and how others are executing, too.
+Similarly, cross-departmental conversations can provide the same visibility and inclusion to other projects and teams, to help consider how a project may impact OKRs for teams throughout the organization. Such recurring meetings offer regular updates across all teams on a rotating schedule. It's the same concept and content as key review meetings with one major difference: all team members are invited! These meetings are designed to give the entire workforce context on what other teams outside of their own are focused on (and how they're executing). In this way, TeamOps stresses that execution isn't solely about executing your own goals; it's about understanding what and how others are executing, too.
 
 Stable counterparts, key review meetings, and cross-departmental conversations help keep operational pace, policies, and practices consistent throughout the organization, while also fostering a sense of [inclusion](/teamops/shared-reality/#inclusivity).
 

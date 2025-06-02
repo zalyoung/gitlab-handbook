@@ -189,7 +189,7 @@ The first month in a remote role can feel [lonely](https://about.gitlab.com/blog
 Remote settings can cause a breakdown in communication skills if organizations aren't deliberate about creating ways for their people to stay connected.
 
 - All-remote companies should default to asynchronous communication to combat feelings of being left out of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-and-key-reviews) that are open to all.
 
 ### Overworking
 

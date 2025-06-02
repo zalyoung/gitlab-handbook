@@ -2,10 +2,6 @@
 title: "Product and Solution Marketing On-Boarding and Other How-to's"
 ---
 
-## Product and Solution Marketing How-to's
-
-- [Group Conversation deck](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/group-conversations/)
-
 ## Product and Solution Marketing General On-Boarding
 
 - [Getting Started 101 - No Tissues with Issues](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/)
