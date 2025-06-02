@@ -131,7 +131,6 @@ The Multinational Tax Manager (non-US) is a [grade 8](/handbook/total-rewards/co
 - Design and maintain SOX control processes with supporting documentation
 - Partner with accounting, legal, operations, and finance teams on cross-functional initiatives
 
-
 ### Multinational Tax Manager (Non-US) Requirements
 
 - Bachelor’s degree in Accounting or Juris Doctorate (JD)
