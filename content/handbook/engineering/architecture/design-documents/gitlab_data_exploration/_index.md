@@ -190,7 +190,7 @@ The proposed approach includes:
    sort_by: count()
    ```
 
-   Enabling users to perform more advanced queries is a fundamental requirement for a functional and useful data exploration system and query language. Being able to aggregate or compute data (e.g. calculate the MR throughput over time of a project) provide much more value than just pulling down some plain data ( e.g. a list of filtered MRs ).
+   Enabling users to perform more advanced queries is a fundamental requirement for a functional and useful data exploration system and query language. Being able to aggregate or compute data (for example, calculate the MR throughput over time of a project) provides much more value than just pulling down some plain data (for example, a list of filtered MRs).
 
    Adding some of these capabilities to GLQL is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954.
 
@@ -224,7 +224,7 @@ Currently the GLQL compiler is only translating GLQL queries into GraphQL, and r
 
 In addition, given the inconsistent GraphQL schema for filters and data types, adding new data sources to GLQL is not straightforward and requires handling ad-hoc cases during the transpilation stage. This potentially makes it harder for teams to onboard their data sources to GLQL, hence limiting its impact and usability.
 
-A possible solution to this is to move the GLQL compiler to the backend, and transpiling queries into an ad-hoc format, following a more consistent schema, that can be used to query data directly through Rails finders, avoiding going down the GraphQL path altogether.
+A possible solution to this is to move the GLQL compiler to the backend, and transpiling queries into an ad-hoc intermediate format (like JSON), following a more consistent schema, that can be used to query data directly through Rails finders, avoiding going down the GraphQL path altogether.
 
 Proof of concepts:
 
