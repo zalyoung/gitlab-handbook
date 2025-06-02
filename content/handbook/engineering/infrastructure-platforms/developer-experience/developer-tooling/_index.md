@@ -41,7 +41,7 @@ flowchart LR
 
 ## OKRs
 
-Objectives and Key Results (OKRs) help align our sub-department towards what really matters. These happen quarterly and are based on company OKRs. We follow the OKR process defined [here](/handbook/company/okrs/#okr-process-at-gitlab).
+Objectives and Key Results (OKRs) help align our sub-department towards what really matters. These happen quarterly. We follow the OKR process defined [here](/handbook/company/okrs/).
 
 Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&type%5B%5D=objective&label_name%5B%5D=team%3A%3ADeveloper%20Tooling&first_page_size=100) of our current OKRs.
 

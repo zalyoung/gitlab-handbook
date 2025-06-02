@@ -29,7 +29,7 @@ Our FY25 Marketing Strategy and Plan can be found in [the internal handbook](htt
 
 ## Marketing OKRs
 
-Each quarter, the Marketing team creates OKRs (Objectives and Key Results) that cascade from the [CEO's OKRs](/handbook/company/okrs/#most-recent-okrs).
+Each quarter, the Marketing team creates [OKRs (Objectives and Key Results)](/handbook/company/okrs/).
 
 Each department within the Marketing team manages their own cascading OKRs. Team members can access the [filtered OKR search](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=division%3A%3AMarketing&label_name%5B%5D=OKR&search=marketing&search=okr&first_page_size=20).
 

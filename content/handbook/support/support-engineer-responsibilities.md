@@ -17,7 +17,7 @@ description: A detailed listing of the responsibilities of Support Engineers in 
 1. **Performance measurement for annual reviews and promotions are separate activities to the core responsibilities described here.**
      1. The People Group is responsible for the [GitLab annual review process](/handbook/people-group/360-feedback/).
      1. Read about [Support Engineer Career Path](/handbook/support/support-engineer-career-path) for further resources on promotions, and understanding the role at different levels.
-1. Support Engineering has [team level performance indicators](/handbook/support/#how-we-measure-our-performance). Successfully carrying out the responsibilities on this page will, directly or indirectly, help improve our KPIs. All team-level KPIs are, in turn, related to GitLab's company-level [Objectives and Key Results](/handbook/company/okrs/).
+1. Support Engineering has [team level performance indicators](/handbook/support/#how-we-measure-our-performance). Successfully carrying out the responsibilities on this page will, directly or indirectly, help improve our KPIs. All team-level KPIs are, in turn, related to GitLab's company-level goals.
 
 ## Support Engineer Areas of Focus
 

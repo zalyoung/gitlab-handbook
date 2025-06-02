@@ -6,7 +6,6 @@ title: Objectives & Key Results (OKRs)
 
 GitLab OKRs allow us to align our work to the overall GitLab objectives. Create Stage OKRs are typically derived from the Sub Department, Department and Division where it resides. [Impactful OKRs](/handbook/company/okrs) outisde of this cascade are allowed to be set provided a signoff is gotten from the Stage.
 
-1. [GitLab OKRs](/handbook/company/okrs/).
 1. [Engineering OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=opened&label_name[]=OKR&label_name[]=EVP%20of%20Engineering).
 1. [Development OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=opened&label_name[]=OKR&label_name[]=Development%20Department&author_username=clefelhocz1).
 1. [Dev OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=Dev%20Sub-department&author_username=timzallmann).

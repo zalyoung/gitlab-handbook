@@ -64,7 +64,7 @@ All projects added to the [IT EntApps Portfolio: Quarterly Commits](https://docs
 
 ### Alignment & OKRs
 
-Projects added to the [IT Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the IT EntApps [OKRs](https://about.gitlab.com/company/okrs/) for:
+Projects added to the [IT Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the IT EntApps [OKRs](/handbook/company/okrs/) for:
 
 - Awareness
 - Accountability

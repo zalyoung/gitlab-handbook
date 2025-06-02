@@ -4,7 +4,7 @@ title: KPIs
 
 ## What are KPIs
 
-Every part of GitLab has Key Performance Indicators (KPIs) linked to the company [OKRs](/handbook/company/okrs/).
+Every part of GitLab has Key Performance Indicators (KPIs).
 Avoid the term metric where we can be more explicit.
 Use KPI instead.
 A function's KPIs are owned by the respective member of e-group.

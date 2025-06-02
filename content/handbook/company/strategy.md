@@ -129,9 +129,9 @@ Legend with links to the relevant metrics:
 1. R&D investment is the amount of money spend on Product Management and Engineering excluding Support
 1. [Development Department Narrow MR Rate](/handbook/engineering/development/performance-indicators/#development-department-narrow-mr-rate)
 
-## Publicly viewable OKRs and KPIs
+## Publicly viewable KPIs
 
-To make sure our goals are clearly defined and aligned throughout the organization, we make use of [Objectives and Key Results (OKRs)](/handbook/company/okrs/) and [Key Performance Indicators (KPIs)](/handbook/company/kpis/) which are both publicly viewable.
+To make sure our goals are clearly defined and aligned throughout the organization, we make use of [Key Performance Indicators (KPIs)](/handbook/company/kpis/) which are publicly viewable when possible.
 
 ## North Star KPI
 

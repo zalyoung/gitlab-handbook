@@ -285,8 +285,6 @@ All-remote companies should go beyond striving for results. They should add as m
 
 This can be achieved by implementing Objectives and Key Results (OKRs), a widely used framework for setting strategy and removing ambiguity over what matters.
 
-Learn more about [GitLab's implementation of OKRs](/handbook/company/okrs).
-
 ### Key Performance Indicators (KPIs)
 
 Managing results requires clear communication of what's being measured. KPIs strip away guesswork and allow global teams to look at uniform data for making decisions.

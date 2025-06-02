@@ -30,7 +30,7 @@ When writing objectives and key results focus on what you want to accomplish (th
 
 To learn about the industry best practices for OKRs, how setting the right goals can mean the difference between success and failure, and how we can use OKRs to hold our leaders and ourselves accountable, watch [John Doerr's Ted Talk](https://www.youtube.com/watch?v=L4N1q4RNi9I).
 
-When planning OKRs, be sure to consider [OKRs at GitLab](/handbook/company/okrs/#okr-process-at-gitlab).
+When planning OKRs, be sure to consider [OKRs at GitLab](/handbook/company/okrs/).
 
 ### Criteria for Objectives
 
@@ -88,12 +88,11 @@ Teams should limit the number of OKRs they commit to so they have reasonable ban
 
 1. Consider non-OKR commitments. While OKRs are the big commitments that the team is making, they [do not supersede core team members responsibilities](_index.md#how-do-i-prioritize-okrs-in-light-of-other-priorities). This means retaining team capacity beyond OKRs for work that falls higher in a prioritization framework ([example from product](/handbook/product/product-processes/#prioritization-framework)), such as forced prioritization items with an SLA/SLO. Meeting SLOs is not an OKR, as [OKRs focus on what's different](_index.md#okrs-are-what-is-different).
    1. Other than core team member responsibilities such as those outlined above, all other major commitments should be prioritized through OKRs and consider team bandwidth.
-   1. If a team gets a request for a major effort within the quarter, they can change the OKR by following the guidelines [how to change an OKR within the quarter](_index.md#making-changes-within-quarter)
+   1. If a team gets a request for a major effort within the quarter, they can change the OKR.
 1. Plan for [OKRs to be ambitious, but achievable](#criteria-for-key-results) within the team capacity that you have for OKRs. While OKRs are meant to be ambitious, [you should aim to complete them](_index.md#how-do-i-prioritize-okrs-in-light-of-other-priorities) and strive to hit the ambitious plan. We recognize that with ambitious planning some OKRs will not be completed, but it is striving and reporting on OKRs with the goal of hitting 100% that helps us accomplish strong results. We score individual OKRs as "on track" when they are at least 80% complete. In aggregate, we expect that the average completion score across OKRs is 70%.
-1. [Review cascading OKRs](okrs-in-gitlab.md#cascading-okrs-and-how-to-align-division-okrs-to-the-company-okrs) first and allocate time for those. Cascading OKRs are those at the Company level that need your group's contributions to be achieved. You should prioritize these first.
 1. It is OK to push back on OKRs. If you can't prioritize a cascading or shared OKR due to more important work, contact the owner of the OKR and make adjustments so that it is achievable without your team's contribution, or remove it. It is OK to do this, with clear communication and collaboration. It is not acceptable to simply ignore the cascading OKR or shared OKR without clear upfront communication and prioritize other work instead.
 1. When writing OKRs, focus on outcomes, not tasks, and make key results measurable.
-1. For any OKR with a dependency, make sure to get [commitment on the dependency](_index.md#dependency-commitments) with [shared objectives](_index.md#shared-objectives). If you don't get commitment in the shared objective, make changes as needed to keep to feasible OKRs.
+1. For any OKR with a dependency, make sure to get commitment on the dependency with [shared objectives](_index.md#shared-objectives). If you don't get commitment in the shared objective, make changes as needed to keep to feasible OKRs.
 
 ## Tips for OKRs that are scoreable
 

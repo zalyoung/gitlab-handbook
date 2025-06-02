@@ -9,7 +9,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 
 - This page serves as our home base. From here, you can find a wealth of resources from all of the teams in our department.
 - Interested in collaborating with the Sales team? See our [How We Work](/handbook/sales/#how-we-work) and [Communicating with the Team](/handbook/sales/#communicating-with-the-team) sections.
-- Want to learn more about our goals? Check out our [most recent Objectives and Key Results (OKRs)](/handbook/company/okrs/#most-recent-okrs).
+- Want to learn more about our goals? Check out our [most recent Objectives and Key Results (OKRs)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&label_name%5B%5D=Division%253A%253ASales).
 
 ## Quick Reference Guide
 

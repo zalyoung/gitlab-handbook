@@ -43,7 +43,7 @@ For Product Performance Indicators please visit the [internal handbook](https://
 
 ## OKRs
 
-The Engineering Manager will report on the progress of projects rolling up to CEO [OKRs](/handbook/company/okrs/) every week. Current OKRs: [FY25-Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573)
+The Engineering Manager will report on the progress of projects rolling up to higher level [OKRs](/handbook/company/okrs/) every week. Current OKRs: [FY25-Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573)
 
 ## Architecture review sync meeting
 

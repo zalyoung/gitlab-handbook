@@ -111,7 +111,7 @@ This enables anyone at the company, even those who have just joined, to propose 
 
 The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-lifecycle/) to build and evolve a company handbook is that you don't have to have the full table of contents mapped out in advance. Tools like [Notion](https://www.notion.com), and [Guru](https://www.getguru.com) can be used as well. Consider the following as an initial guide for top-level organization, but don't hesitate to deviate based on the size, scope, and needs of your firm.
 
-1. **Company / Building Blocks**: This section houses policies, [values](/handbook/values/), [KPIs](/handbook/company/kpis/)/[OKRs](/handbook/company/okrs), and [cultural principles](/handbook/company/culture) that apply to most or all departments in the organization. The suggested list below was curated by [Luke Thomas](https://twitter.com/lukethomas14) in his book [The Anywhere Operating System](https://www.lukethomas.com/anywhere/).
+1. **Company / Building Blocks**: This section houses policies, [values](/handbook/values/), [KPIs](/handbook/company/kpis/)/OKRs, and [cultural principles](/handbook/company/culture) that apply to most or all departments in the organization. The suggested list below was curated by [Luke Thomas](https://twitter.com/lukethomas14) in his book [The Anywhere Operating System](https://www.lukethomas.com/anywhere/).
    - Founding story/history of the company
    - Mission, vision, and values
    - Who we serve (customer personas)
