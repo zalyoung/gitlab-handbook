@@ -38,7 +38,7 @@ sequenceDiagram
     
     alt Intermediate or Associate Support Engineer only
         Manager->>New SE: Assigns SaaS Account basics training module
-        Note left of New SE: Starts SaaS Account basics!<br/>(Intermediate and Associate only)
+        Note left of New SE: Starts SaaS Account basics!<br/>(Associate and Intermediate only)
         New SE->>New SE: Have pairing sessions with support engineers on SaaS Account tickets
         New SE->>New SE: Handles SaaS Account tickets while learning
         Note right of New SE: Completes SaaS Account basics<br/>(Intermediate and Associate only)
