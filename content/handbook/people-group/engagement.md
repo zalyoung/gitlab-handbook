@@ -110,7 +110,7 @@ Overall survey ranges anywhere from 40 to 50 questions. The format of the survey
 
 ## FY'26 Engagement Survey
 
-Our Engagement Survey for FY'26 is scheduled to run from 2025-06-16 to 2025-06-27. Survey will be open to all team members hired before 2025-05-31.
+Our Engagement Survey for FY'26 is scheduled to run from 2025-06-16 to 2025-06-27. The survey will be open to all team members with start dates before 2025-05-31.
 
 ### FY'26 Annual Engagement Survey Timeline
 
