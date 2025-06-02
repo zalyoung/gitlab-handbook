@@ -348,11 +348,14 @@ module "cloudflare" {
     }
 
     records = {
-        "a" = {
+        a = {
             # Create an A record for test.example.gitlab.com
-            "test" = [
-                "::1"
-            ]
+            test = {
+                name    = "test"
+                records = [
+                    "127.0.0.1"
+                ]
+            }
         }
     }
 }
@@ -377,11 +380,35 @@ module "cloudflare" {
     }
 
     records = {
-        "a" = {
+        a = {
             # Create an A record for test.example.gitlab.com
-            "test" = [
-                "::1"
-            ]
+            test = {
+                name    = "test"
+                records = [
+                    "127.0.0.1"
+                ]
+            }
+
+            # Create a proxied A record with a custom TTL
+            test_proxied = {
+                name    = "test-proxied"
+                records = [
+                    "127.0.0.1"
+                ]
+                proxied = true
+                ttl     = 300
+            }
+        }
+
+        mx = {
+            # Create a test MX record
+            test = {
+                name     = "test"
+                records  = [
+                    "mail.example.com"
+                ]
+                priority = 10
+            }
         }
     }
 
