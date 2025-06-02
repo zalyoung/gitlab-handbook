@@ -228,8 +228,8 @@ A possible solution to this is to move the GLQL compiler to the backend, and tra
 
 Proof of concepts:
 
-- https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147
-- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
+- [Multiple outputs support + FFI wrapper](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147)
+- [Move GLQL to backend](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552)
 
 Moving GLQL to the backend would provide the following advantages:
 
