@@ -1620,8 +1620,8 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
 1. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
 
-    **No:** Please proceed to the next step.
-    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br>
+    **No:** Please proceed to the next step.<br>
+    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team 
 
 2. Is the MQL from an Existing Account?
 
