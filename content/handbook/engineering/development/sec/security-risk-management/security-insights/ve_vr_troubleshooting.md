@@ -37,8 +37,9 @@ Vulnerability Resolution is enabled for a specific set of CWEs documented at [Su
 We determine whether a vulnerability supports Vulnerability Resolution based on its CWE identifier. This support is tracked using two mechanisms:
 
 1. Database field on vulnerability records `has_vulnerability_resolution`
-   - Vulnerability Report (filtering/display). This field is populated upon ([ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb))
+   - Vulnerability Report (filtering/display).
    - Vulnerabilitiy Details (availability of "Resolve with AI")
+   - Note: The database field is populated upon ([ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb)). When the CWE list changes, existing vulnerabilties may need to be updated by running a pipeline on the default branch.
 1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
    - Pipeline findings (MR) use this list as finding records are not fully ingested to include the DB field.
 
