@@ -21,7 +21,8 @@ Therefore we've included a beginner-friendly [how-to guide to threat modeling](h
 
 Here is a [real sample of an evaluation](https://gitlab.com/gitlab-com/gl-security/security-research/gitlab-standalone-instance) of the install of a GitLab standalone instance in a hostile environment.
 
-More samples will be added later.
+ Threat model examples can be found in the [AppSec Threat Models repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models)(internal link). This also includes templates for threat modeling that anyone can use in issues or epics.
+
 
 ## Threat Modeling Within GitLab
 
