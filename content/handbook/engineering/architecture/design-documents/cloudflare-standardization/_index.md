@@ -569,6 +569,9 @@ management within a single repository.
 - Creates bottleneck for changes on the maintaining team
 - Does not foster self-service culture
 - May slow down teams with time-sensitive requirements
+- Teams relying on Cloudflare functionality integration as part of a platform
+  will require separate out-of-band changes to enable features for each
+  Cloudflare-related change a tenant requires
 
 ### Documentation-only improvements
 
