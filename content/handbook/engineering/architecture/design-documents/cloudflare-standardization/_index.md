@@ -187,19 +187,19 @@ security practices, and collaborative improvement over time.
 
 ### Core Components
 
-The proposed solution centers around a hierarchical Terraform module structure
-that provides a main entry-point module for common use cases with sensible
-defaults. This will be complemented by specialized sub-modules for teams that
-need finer control over specific aspects of their Cloudflare
-configuration. Additionally, we will create data-only submodules for each module
-to provide standardized configuration patterns that can be reused across
-implementations.
+The proposed module heirarchy is structured around 3 core layers:
 
-A key aspect of our approach is establishing a standardized interface for the
-same functionality across modules. This includes consistent variable naming and
-structure, clear input/output definitions, and robust type validation to prevent
-configuration errors. By maintaining a consistent interface, we ensure that
-teams can easily understand and extend their configurations as needed.
+1. A common entrypoint module built as the primary interface with sensible defaults
+1. Specialized modules implementing specific subsets of Cloudflare functionality, e.g. DNS, WAF
+1. Data-only submodules providing standardized configuration patterns that can
+   be reused across implementations
+
+A key aspect of this approach is establishing a standardized interface for the
+same functionality across the entrypoint and specialized modules. This includes
+consistent variable naming and structure, clear input/output definitions, and
+robust type validation to prevent configuration errors. By maintaining a
+consistent interface, we ensure that teams can easily understand and extend
+their configurations as needed.
 
 Security will be a priority in our design, with pre-configured security settings
 aligned with GitLab's requirements built into the modules. This includes [WAF rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
