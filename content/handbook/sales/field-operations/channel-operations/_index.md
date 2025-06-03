@@ -711,6 +711,12 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - Opportunity Closed Won status
     - All other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) are met
 
+###Forecasting in Clari
+
+- Closed Won: Based off Service Attach Approval Date being filled out. Service Attach Registration = Approved, Opportunity stage = Closed Won, PSP Engaged = True.
+- Most Likely: Where forecast is filled out by Directors. Opp roll up will include Closed Won opportunities as well as deals with a closed date in a selected timeframe and Partner Services Amount > 0 on the opportunity.
+- Open Pipeline: This will be the same roll up as Most Likely but with no Closed Won opportunities. Opportunities in this column include deals within the selected timeframe when Partner Services Amount on the opportunity > $0 and PSP Engaged = True. 
+
 ### Additional Resources
 
 - [Service Attached Enablement Deck](https://docs.google.com/presentation/d/1YoUHfwDjbF3RIP1egevv7RR_51nak71C016eqHs-jzU/edit?slide=id.g307c5f4f022_0_0#slide=id.g307c5f4f022_0_0)
