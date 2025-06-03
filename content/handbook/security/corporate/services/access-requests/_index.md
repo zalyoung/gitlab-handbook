@@ -19,6 +19,7 @@ If you have any access requests related questions, please reach out to `#it_help
 - **Employment Offboarding:** [Employment Issue Tracker](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues/?sort=created_date&state=opened&label_name%5B%5D=offboarding&first_page_size=20)
 
 ## Team Member Issue Templates
+
 Please submit a team member access request by selecting the appropriate application-specific form [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests). If there isn't a specific application request form for your needs (like Adobe, Slack, or Zoom), you can use the Individual or Bulk Person Access request.
 
 ## Role Based Entitlements
