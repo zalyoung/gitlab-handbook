@@ -279,6 +279,9 @@ consumers. Where we are building distinct sets of configuration (e.g., multiple
 rulesets), we will also build a `default` configuration for ease of use and
 extensibility.
 
+This work is being tracked in [this epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1561),
+where we discuss the prioritization and project management further.
+
 ### Module Relationships
 
 ```mermaid
