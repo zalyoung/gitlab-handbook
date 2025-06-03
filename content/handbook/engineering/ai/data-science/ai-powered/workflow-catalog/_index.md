@@ -7,7 +7,7 @@ description: "The Workflow Catalog group is focused on developing Workflow Catal
 
 The Workflow Catalog group is focused on developing Workflow Catalog, a catalog of AI Agents, tools, and workflows that can be created, curated, and shared across organizations, groups, and projects.
 
-### Team Members
+### Team members
 
 **Engineering Manager & Engineers**
 
@@ -20,11 +20,24 @@ Depending on the context here are the most appropriate ways to reach out to the 
 * Slack Channel: `#g_workflow_catalog`
 * GitLab group `@gitlab-org/ai-powered/workflow-catalog/engineering` (just engineers)
 
-## Team Meetings
+## How we work
 
-1. **Workflow Catalog: Meeting**
-   * **When:** Every Tuesday, 07:00 UTC
-   * **What:** This meeting serves as a general sync meeting to bring up any current issues and blockers.
+We're just getting started and will be defining how we work as we settle in to the new team.
+Here are some links to get us started:
+
+* [Root Epic](https://gitlab.com/groups/gitlab-org/-/epics/11111): For grouping all the work and setting out a roadmap
+* [Issue board](https://gitlab.com/groups/gitlab-org/-/boards/3871464): For all in-flight issues
+* [Team tasks](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues): For all non-product related team issues
+* [Async updates](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues/?label_name%5B%5D=async%20update)
+
+## Team meetings
+
+### Workflow Catalog: Group meeting
+
+* **Time**: Every Tuesday at 05:30 UTC and 10:00 UTC. It's held twice in one day to allow APAC and EMEA to attend.
+* **Purpose**: This meeting serves as a general sync meeting to bring up any current issues and blockers.
+* **Agenda**: [Google Doc (internal only)](https://docs.google.com/document/d/19zrzqN37ZVwwEJ9iYhy4QBsUzVN0Hd1j1yn8J0v4dqE)
+* **Recordings**: [Google Drive (internal only)](https://drive.google.com/drive/folders/1I9s96jg9knqOwDLabhn9100H-MsvG2ne)
 
 ## Communication
 

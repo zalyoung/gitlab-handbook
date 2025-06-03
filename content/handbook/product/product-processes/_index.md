@@ -971,7 +971,6 @@ on these artifacts via these (non-exhaustive) opportunities:
 - [Meet with customers directly.](#customer-meetings)
 - Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
 - Talk with GitLab team-members using GitLab.
-- Talk with GitLab team-members in [group conversations](/handbook/company/group-conversations/).
 - Talk with other PMs and [Product leadership](/handbook/product/product-leaders/product-leadership/) to align your stage's product direction with the rest of GitLab.
 
 Here is some guidance for new PMs to ensure your stage direction, category strategies and plan
@@ -1185,7 +1184,7 @@ to this paragraph for the person picking this up to follow
 
 You may want to interview a specific account because they are exhibiting atypical usage patterns or behaviors. In this case, [request Support to contact GitLab.com user(s) on your behalf](../../support/internal-support/#contacting-users-about-gitlab-incidents-or-changes).
 
-If it is the weekend, and the contact request is urgent as a result of an action that might affect a users' usage of GitLab, [page the CMOC](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc)
+If it is the weekend, and the contact request is urgent as a result of an action that might affect a users' usage of GitLab, [page the CMOC](/handbook/engineering/infrastructure/incident-management/#how-to-engage-response-teams)
 
 ### Assessing opportunities
 

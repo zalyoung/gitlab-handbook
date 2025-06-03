@@ -31,24 +31,6 @@ This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-
 | 2025-03-24 | TBD      | TBD                | [Web IDE Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
 | 2024-05-01 | TBD      | TBD                | [Workspaces Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Chad Woolley](https://gitlab.com/cwoolley-gitlab) |
 
-### Editor Extension Tech Leads
-
-| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
-|------------|----------|--------------------|-------------------------|------------|
-| 2024-02-01 | TBD      | TBD      | [Cell 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434977) | [Tomas Vik](https://gitlab.com/viktomas) |
-
-### Code Creation Tech Leads
-
-| Epic(s) / Issue(s)                                                                                 | Tech Lead         |
-|----------------------------------------------------------------------------------------------------|-------------------|
-| [Code Completion Models](https://gitlab.com/gitlab-org/gitlab/-/issues/466217)                     | Allen Cook        |
-| [Additional Context using ASTs](https://gitlab.com/groups/gitlab-org/editor-extensions/-/epics/55) | Jan Provaznik     |
-| [X-Ray CI Minutes](https://gitlab.com/groups/gitlab-org/-/epics/14100)                             | Vitali Tatarintev |
-| RAG for Code Completion                                                                            | Allen Cook        |
-| [RAG Integration with Global Search](https://gitlab.com/groups/gitlab-org/-/epics/14106)           | Vitali Tatarintev |
-| [RAG Source Code Embeddings](https://gitlab.com/groups/gitlab-org/-/epics/14107)                   | Jan Provaznik     |
-| [Chat/Code Suggestions Alignment](https://gitlab.com/groups/gitlab-org/-/epics/14104)              | Tian Gao          |
-
 ## How is a Tech Lead different from a Domain Expert
 
 Tech Leads and Domain Experts share similarities and differences. The tables below clarify distinctions between the two roles.

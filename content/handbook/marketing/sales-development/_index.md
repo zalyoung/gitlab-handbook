@@ -114,6 +114,8 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [1:1 Report - Tableau Prospecting 360 Database - Qualifying Surging & On Fire Accounts](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage/c06f518d-df0e-4db0-8b98-f5e1a8a45ed3/da2db280-9f02-4a4e-9748-dcef783af2db) | A pre-saved view of the Prospecting 360 dashboard that highlights accounts with new or engaged leads that are Surging and On Fire in Qualified, helping you prioritize the most promising accounts. |
 | [1:1 Report - Tableau Prospecting 360 Database - Qualifying by 6Sense](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage/b2fb7cbe-e20f-4e9c-a2ac-eb238b0021a9/UseCase3Qualifiedby6Sense?:iid=7) | A pre-saved view of the Prospecting 360 dashboard that highlights accounts with new or engaged leads that are Surging and On Fire in Qualified, helping you prioritize the most promising accounts. |
 | [1:1 Report - Tableau Prospecting 360 Database - AWA'd last 30 days](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage/c58f4573-263b-4ea4-8818-8f1890d3aef8/AccountswithActivelyWorkingStartDateinLast30Days) | A pre-saved view of the Prospecting 360 dashboard that shows Accounts that have been marked as “Actively Working” in the last 30 Days. |
+| [Inbound Interest Feed (Company Level)](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-CompanyLevel?:iid=1) | A pre-saved view of the Inbound Interest Feed dashboard that shows company-level interest and engagement metrics. |
+| [Inbound Interest Feed (Lead Level)](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | A pre-saved view of the Inbound Interest Feed dashboard that shows lead-level interest and engagement metrics. |
 
 ### Dashboards For Leaders
 
@@ -129,6 +131,8 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [Global/Regional Sales Dev Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=2) | A Tableau dashboard that breaks down attainment in regions or teams, and current/previous Quarters. |
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 | [Global SDR Ops Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
+| [Global Activity KPI Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002KiDR2A0/view?queryScope=userFolders) | This dashboard visualises how each region is tracking against the weekly activity KPIs that we have. | 
+| [FM Events Follow-Up Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002FOwv2AG/view?queryScope=userFolders) | This dashboard shows the progress of leads associated to Field Marketing events. | 
 
 ### Dashboard/Report Templates
 
@@ -147,9 +151,7 @@ The list of dashboards below are templates that can be cloned and customized for
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
-| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/sales-development-tools/) | Tools and resources specifically designed for Sales Development teams and managers. |
 | [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
-| [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
 | [Sales Development Enablement Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrjbznnEEiCtxUfT8-OV6X8) | Playlist of enablement videos and how-tos for BDRs and SDRs. |
 | [Groove flow naming convention](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?gid=0#gid=0) | Document outlining the naming convention for Groove Flows. |
@@ -164,7 +166,7 @@ The list of dashboards below are templates that can be cloned and customized for
 | [Command of the Message](/handbook/sales/command-of-the-message/) | "Command of the Message" training and the GitLab value framework. |
 | [Most commonly used sales resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | Sales resources page. |
 | [Flash Field newsletter](/handbook/sales/field-communications/field-flash-newsletter/) | Learn more about the sales weekly newsletter. |
-| [GitLab Values](/handbook/values/#:~:text=GitLab's%20six%20core%20values%20are,other%20by%20assuming%20good%20intent.) | The guiding principles we try to live up to each day. |
+| [GitLab Values](/handbook/values/) | The guiding principles we try to live up to each day. |
 
 ## Our How-Tos for the Inbound and Outbound processes
 
@@ -394,6 +396,25 @@ A High Priority Lead is a lead that is related to a high priority campaign. Any 
 
 If you need to move a lead out of high prioriy without contacting them you can [use this flow.](https://groove.clari.com/flows/1097000) This flow is one generic task for you to complete that will move the lead to accepted status and remove the high priority check.
 
+### Translating Groove Flows 
+
+For translating flows to different languages, other than English, the Sales Dev Team will be partnering with our GitLab Localization team. Please follow the grid below to see who the Sales Dev DRI for each language is and the level of support that the localization team can provide. The localization team can provide translations for languages outside of their normal range if given a two weeks heads up. The requestor should know that in these cases, the translation quality may not be as accurate as for the localization team's regularly supported languages. When you are ready to request translations from the localization team please create an issue in the [Localization GitLab Project](https://gitlab.com/gitlab-com/localization).
+
+| Language   | Sales Dev DRI           | Localization Team Support?          | Localization DRI           | Preferences          |
+|------------------|-------------------------------|-----------------------|-------------------------------|-------------------------------|
+| AMER Spanish| Kenia Rodriguez| Yes but only International ESP |Vendor Support|N/A |
+| AMER Portuguese| Leo Viera | Yes Brazilian PT |Vendor Support|N/A |
+| EMEA Spanish| Camilo Hernandez Murillo| Yes but only International ESP |Vendor Support|N/A |
+| EMEA Portuguese| Tati Fernandez | No |Vendor Support|N/A |
+| Dutch| Marije Konink | No |N/A|N/A |
+| French| Erwan Régnaud | Yes | Maud Leuenberger| No emojis, Hello Last Name instead of First Name |
+| German| Riko Pfennig| Yes |Hendrik Breuer|Very Formal, No Emojis |
+| Indonesian (Bahasa)| Aletha Alfarania| No |N/A|N/A |
+| Italian| Francesca Gianfiglio| Yes |Vendor Support|N/A |
+| Japanese|Eri Nitani| Yes | Megumi Uchikawa|N/A |
+| Korean|Kayla Ko| No| N/A|N/A |
+| Mandarin (Taiwan)|Aletha Alfarania| No| N/A|N/A |
+
 #### How to Change your Email Signature
 
 You must change your email signature [in Terminus](/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Groove or Gmail your signature will revert back within 24 hours.
@@ -585,6 +606,9 @@ Team specific variants of these dashboard components will also be found on your 
 Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](/handbook/sales/field-operations/gtm-resources/#opportunities)
 
 As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the `LEAD, CONTACT, and OPPORTUNITY` objects in Salesforce. In order to obtain an SAO, you will need to have the `required information` filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
+The full walkthrough of how to create a SFDC opportunity is [listed here](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity). 
+
+Please note that, in addition to the main requirements listed on this link, the Sales Dev org memebers (both SDRs and BDRs) are expected to fullfill the `Initial Engagement Channel` as a mandatory qualification field, before being allowed to create an opportunity. 
 
 **When do I create an Opportunity?**
 
@@ -695,7 +719,7 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 1. Ensure that relevant activity & products are attached.
 1. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
 1. For BDRs, ensure account was in AWA status
-ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
+ensuring that the [RoE](/handbook/marketing/sales-development/#frequently-asked-questions-faq-and-rules-of-engagement-roe) was followed
 1. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
 #### AUDIT PROCESS
@@ -1227,6 +1251,11 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 - Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow.
 - These flows will automatically include AI generated customisation. Please review the [slides](https://docs.google.com/presentation/d/1LlIjaRjwVaTI5XbWkU2fIEhhq7rYthuPGh-aaNqJz2o/edit#slide=id.g2d902c263b1_0_581) or the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b) for a full walkthrough.
 - These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
+
+#### Gem-E Meeting Assistant
+
+As part of our Gem-E pilot, we are also trialling UserGems Meeting Assistant. The Assistant integrates with your calendar invitations and automatically pulls the contact information of people that are attending your call, but are not in our database yet.
+These people will be created as net new contacts and leads in SFDC, using the initial source `UserGems - Meeting Assistant`. They can be assigned to the existing account or opportunity that you are working on, so you can continue multi-threading the account that you are working on.
 
 ### Sales Dev Manager Resources
 

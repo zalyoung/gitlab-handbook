@@ -224,11 +224,3 @@ Add learning objectives to the beginning of the content to state a clear trainin
 | Workshop | Hands-on or virtual demos, problem solving, tutorials where team members engage in discussion and activity on a particular subject | Varies |
 
 Please let us know how you would prefer to learn by [filling out this form](https://forms.gle/Hafkqygy6LfJxWFw6)!
-
-## Awards
-
-### Brandon Hall Award
-
-The launch of the GitLab Learn LXP was awarded a Silver Excellence in Learning by the [Brandon Hall Group](https://excellenceawards.brandonhall.com/) for the Best Launch of a Corporate Learning University.
-
-![silver brandon hall group award logo](/images/people-group/learning-and-development/silver-award.png)

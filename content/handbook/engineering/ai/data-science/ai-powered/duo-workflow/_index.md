@@ -28,7 +28,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 Besides the main GitLab repository these are the key technical components we work with:
 
-1. [Duo Workflow Service](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service) 🐍
+1. [Duo Workflow Service](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/duo_workflow_service) 🐍
 1. [Duo Workflow Executor](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-executor) 🏃‍♂️
 1. IDE Integration 🧩
    1. [GitLab LSP](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp)

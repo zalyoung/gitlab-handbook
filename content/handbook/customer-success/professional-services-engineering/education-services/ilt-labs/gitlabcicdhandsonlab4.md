@@ -73,11 +73,6 @@ This will now make the project a CI/CD Catalog project. Any templates in the *te
 1. In the `.gitlab-ci.yml` file, add the following code snippet.
 
 ```yaml
-workflow:
-  rules:
-    - if: '$CI_COMMIT_TAG'
-      when: never
-    - when: always
 stages:
   - release
 release component:
@@ -88,6 +83,8 @@ release component:
   release: 
     tag_name: '1.$CI_PIPELINE_IID.0'
     description: 'The latest component release.'
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
 ```
 
 This code looks similar to our release component we made in a similar lab, but there is one key difference- component releases require a release format in semantic versioning (MAJOR.MINOR.PATCH). We use the PATCH version to differentiate between each commit.
@@ -141,16 +138,16 @@ include:
 
 1. After committing your changes, navigate to the pipeline created for your commit. You will now see a new job named *component-job*. This job is the custom job we have imported using the `include` keyword.
 
-1. Let's try overriding the stage to instead run in the deploy stage by adding the following to the `.gitlab-ci.yml` file:
+1. Let's try overriding the stage to instead run in the build stage by adding the following to the `.gitlab-ci.yml` file:
 
     ```yaml
       include:
         - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iu6t0rjr/example-component/sample-template@v0.36.0
           inputs:
-            stage: deploy
+            stage: build
     ```
 
-1. Select **Commit changes**, and watch as your *component-job* now runs in the deploy stage.
+1. Select **Commit changes**, and watch as your *component-job* now runs in the build stage.
 
 ## Lab Guide Complete
 

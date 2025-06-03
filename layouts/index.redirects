@@ -142,3 +142,25 @@
 
 # Cells project moved - remove 2025-12-22
 /handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
+
+# Source Code team pages move - remove 2025-08-01
+/handbook/engineering/development/ /handbook/engineering/devops/ 301
+
+# DevOps creation/reorg changes - remove 2025-08-01
+/handbook/engineering/development/dev/ /handbook/engineering/devops/dev/create/source-code/frontend/ 301
+/handbook/engineering/development/analytics/monitor/ /handbook/engineering/data-engineering/analytics/monitor/ 301
+/handbook/engineering/development/dev/create/ /handbook/engineering/devops/dev/create/ 301
+/handbook/engineering/development/dev/create/code-review/ /handbook/engineering/devops/dev/create/code-review/ 301
+/handbook/engineering/development/dev/create/import-and-integrate/ /handbook/engineering/devops/dev/create/import-and-integrate/ 301
+/handbook/engineering/development/dev/create/remote-development/ /handbook/engineering/devops/dev/create/remote-development/ 301
+/handbook/engineering/development/dev/create/source-code/ /handbook/engineering/devops/dev/create/source-code/ 301
+/handbook/engineering/development/dev/create/code-creation/ /handbook/engineering/ai/code-creation/ 301
+/handbook/engineering/development/dev/create/editor-extensions/ /handbook/engineering/ai/editor-extensions/ 301
+/handbook/engineering/development/dev/foundations/search/ /handbook/engineering/ai/search/ 301
+/handbook/engineering/development/data-science/ /handbook/engineering/ai/data-science/  301
+/handbook/engineering/development/data-science/* /handbook/engineering/ai/data-science/:splat  301
+/handbook/engineering/development/dev/plan/ /handbook/engineering/devops/dev/plan/ 301
+/handbook/engineering/development/dev/plan/* /handbook/engineering/devops/dev/plan/:splat 301
+/handbook/engineering/development/ops/ /handbook/engineering/devops/ops/ 301
+/handbook/engineering/development/ops/* /handbook/engineering/devops/ops/:splat 301
+

@@ -150,15 +150,6 @@ In general, please consider the following recommendations to ensure safety when 
 1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to team members to read said risk assessment and adhere to recommendations outlined.
 1. If you are sick please do not come or participate in person workplace activities. This is for your safety and for others. We recommend that GitLab team members not travel while sick.
 
-### Measures GitLab Takes to Aid Employee Health and Safety
-
-- Hand sanitizers placed around the venue of live events or attendees are given hand sanitizer.
-- Team members can expense masks for traveling if suggested in the risk assessment outlined above.
-- Sick team members should not travel per our travel policy.
-- Team members who become sick while traveling should expense masks if flying back home.
-- If health risk is considered high, all food to be served by food health professionals rather than team.
-- Fist bumps over handshakes.
-
 ### Responding to Unsafe Situations
 
 The following are GitLab's procedures in the event a team member feels threatened or unsafe:
@@ -350,7 +341,7 @@ The handbook also has a wealth of information and recommendations for setting up
 
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
-- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](//handbook/total-rewards/benefits/modern-health/)
+- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
 - [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
@@ -412,7 +403,6 @@ To ensure the physical and mental health and safety of our team members in New Z
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
 - [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
 - [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
-- [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
 **Data Protection/Privacy Policy**
 

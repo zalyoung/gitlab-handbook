@@ -48,6 +48,11 @@ The following section point to more detailed processes for Marketo landing pages
 
 > To build the most advanced and efficient landing page processes in Marketo, we utilize `My Tokens` in our Marketo program templates along with character limits based on conversion best practices to write copy.
 
+**Graphics**  
+Our current Marketo landing page template uses a charcoal background with a small image on the right side of the header. A custom image can be used by putting the link to the design studio image in the `Hero1 Image` variable when editing the landing page. You can change the background to white by entering `highlight-white` in the `Hero1 Color` variable.
+
+If you require a custom header (one that cannot use the charcoal or white background), the approximate dimensions required are `1920 x 600 px`; the graphic dimensions are 500 x 250 px, centered vertically and with 100 px padding along the right edge. You will put the link to the design studio image in the `Nav Background Image Path` variable. There should be no entry in the `Hero1 Image` variable. To remove the black line below the custom image, change `Hero1 Color` to "highlight-white".
+
 ### Marketo landing page instructions, character limits, and workback timelines
 
 Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).

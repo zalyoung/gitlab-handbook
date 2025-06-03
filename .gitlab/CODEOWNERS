@@ -64,7 +64,6 @@
 /content/handbook/company/quote-to-cash.md @justinfarris @ppalanikumar @tgolubeva @courtmeddaugh @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @juliemalloy @annapiaseczna @simon-mundy @msubramanian
 /content/handbook/company/stewardship.md @bill_staples
 /content/handbook/company/strategy.md @bill_staples
-/content/handbook/company/group-conversations.md @streas
 /content/handbook/leadership/ @bill_staples @streas
 /content/job-families/board-of-directors/ @bill_staples @robin
 /content/job-families/chief-executive-officer @bill_staples @streas
@@ -458,9 +457,9 @@
 /content/job-families/product/product-designer.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/technical-writer.md @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @ampesta
-/content/job-families/product/technical-writing-manager.md @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @ampesta
-/content/job-families/product/ux-fullstack-engineer.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @ampesta
+/content/job-families/product/technical-writer.md @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
+/content/job-families/product/technical-writing-manager.md @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
+/content/job-families/product/ux-fullstack-engineer.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
 /content/job-families/product/ux-research-manager.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/ux-research-operations-coordinator.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/ux-researcher.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
@@ -470,7 +469,7 @@
 
 ^[product-dev-flow]
 /content/handbook/product-development/ @david @sabrinafarmer
-/content/handbook/product-development/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @hbenson @mflouton @fzimmer @ampesta
+/content/handbook/product-development/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @hbenson @mflouton @fzimmer
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
@@ -480,7 +479,7 @@
 /content/handbook/sales/build-value-with-customers.md @isteward
 /content/handbook/sales/club/ @kdemarest @kagarrett
 /content/handbook/sales/command-of-the-message/ @dsteer @isteward
-/content/handbook/sales/commercial/ @bcaller @MDines @steve_xu @carolynharding @isteward
+/content/handbook/sales/commercial/ @bcaller @MDines @carolynharding @isteward
 /content/handbook/sales/commissions/ @isteward
 /content/handbook/sales/faq-from-prospects.md @isteward
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
@@ -495,7 +494,7 @@
 /content/handbook/sales/field-operations/sales-operations/ @isteward
 /content/handbook/sales/field-operations/sales-operations/deal-desk.md @jrabbits
 /content/handbook/sales/field-operations/sales-strategy/ @isteward
-/content/handbook/sales/field-operations/sales-systems/ @sheelaviswanathan
+/content/handbook/sales/field-operations/sales-systems/ @kchinthapalli1
 /content/handbook/sales/forecasting.md @isteward
 /content/handbook/sales/gainsight/ @isteward
 /content/handbook/sales/idea-to-production-demo/ @isteward
@@ -562,8 +561,10 @@
 /content/handbook/security/standards/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[solutions-architects]
-/content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
+/content/handbook/solutions-architects/ @jfullam 
 /content/handbook/solutions-architects/sa-practices/value-stream-discovery/ @simon_mansfield @reshmikrishna @jfullam
+/content/handbook/solutions-architects/center-of-excellence/ @poffey21 @lfstucker @sjigjinni
+
 
 ^[support]
 /content/handbook/support/ @gitlab-com/support
@@ -614,7 +615,7 @@
 /content/handbook/teamops/partners.md @jmoverley @nshah19
 
 ^[Technical-Writing]
-/content/handbook/product/ux/technical-writing/ @dianalogan @michael.belton @rjlandry @uchandran @david @ampesta
+/content/handbook/product/ux/technical-writing/ @dianalogan @michael.belton @rjlandry @uchandran @david
 
 ^[total-rewards]
 /content/handbook/total-rewards/ @rallen3  @mwilkins @Rkole

@@ -25,7 +25,7 @@ Our goal is to make our product easy to use, supportive of contributions from th
 - **We're informed by empathy.** We're human, and we design for humans, so we strive for understanding, self-awareness, and connection. We are quirky, and we introduce our quirks into designs when appropriate.
 - **When we find problems that are simple to fix, we are empowered to make those changes ourselves.** If a change will take you less than 15 minutes to make (for example, a minor change to our website or microcopy in the product), then start with an MR instead of an issue. By making the change yourself, you are taking immediate action to improve our product, and you might learn a new skill, too! If it seems simple, but you have questions, remember that there are people who can help you with code changes both in the UX department and across the company.
 
-We work closely with the community, and our stable counterparts Product Managers (PM), Frontend engineers (FE), Backend engineers (BE), Quality engineers, and the Brand team. We follow GitLab's shared process referred to as the [Product Development Flow](/handbook/product-development/product-development-flow/).
+We work closely with the community, and our stable counterparts Product Managers (PM), Frontend engineers (FE), Backend engineers (BE), Quality engineers, and the Brand team. We follow GitLab's shared process referred to as the [Product Development Flow](/handbook/product-development/product-development-flow/) and [R&D Interlock](/handbook/product-development/r-and-d-interlock).
 
 - PMs define the "what" and "why" to lead the product direction. These are the benefits we provide to users. It's informed by gathering customer and user feedback in partnership with UX Research.
 - Product Designers define "how" the direction is experienced. It's how users interact with the product to gain the benefits.
@@ -122,11 +122,9 @@ The UX All Hands meeting takes place every six weeks, with two sessions to accom
 
 The purpose is to share company updates, stay connected, and receive feedback.
 
-The entire UX department is invited, though anyone at GitLab is welcome to attend and contribute to the [All Hands agenda](https://docs.google.com/document/d/1G52AWUbhrzPqihifeUpp0Q7vb_OChSC-iOKphUMsndI/edit?tab=t.0) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
+The entire UX department is invited, though anyone at GitLab is welcome to attend and contribute to the [All Hands agenda](https://docs.google.com/document/d/1ad5WstBx-rXgK-MtiTnmsI85_HoeQBhgmWuRIxMg60o) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
 
 ### Retrospectives
-
-After each release, we have a company retrospective call in which we discuss what went well, what went wrong, and what we can improve for the next release.
 
 To understand the specific challenges faced by the UX Department, we hold an async UX retrospective after every milestone. This retro is carried out through a new Issue created for the recent release in the [ux-retrospectives](https://gitlab.com/gl-retrospectives/ux-retrospectives/issues) project. The goal is to evaluate what went well, what didn't go well, and how we can improve.
 

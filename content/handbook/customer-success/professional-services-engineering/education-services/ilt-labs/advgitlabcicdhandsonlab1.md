@@ -73,13 +73,13 @@ Let's take a look at how this is structured:
         stage: deploy
         image: ubuntu:latest
         before_script:
-        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-        - eval $(ssh-agent -s)
-        - chmod 400 "$SSH_PRIVATE_KEY"
-        - ssh-add "$SSH_PRIVATE_KEY"
-        - mkdir -p ~/.ssh
-        - chmod 700 ~/.ssh
-        - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+          - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+          - eval $(ssh-agent -s)
+          - chmod 400 "$SSH_PRIVATE_KEY"
+          - ssh-add "$SSH_PRIVATE_KEY"
+          - mkdir -p ~/.ssh
+          - chmod 700 ~/.ssh
+          - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
     ```
 
     > This job starts by installing and starting an ssh agent on the runner. When you redeemed your invitation code, an instance was created for you to deploy to and the SSH private key is stored in a variable named `SSH_PRIVATE_KEY`. This key is added to the SSH agent to use for connections.
@@ -88,8 +88,8 @@ Let's take a look at how this is structured:
 
     ```yml
         script:
-        - ssh root@$ip 'gitlab-runner unregister --all-runners'
-        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"GITLAB_RUNNER_TOKEN"
+          - ssh root@$ip 'gitlab-runner unregister --all-runners'
+          - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"$GITLAB_RUNNER_TOKEN"
     ```
 
    > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.

@@ -563,7 +563,7 @@ In the video below, GitLab co-founder, Sid Sijbrandij, explains why there are no
 
 **Pre-recorded presentations enable:**
 
-- Allows time for Q&A (as seen in [Group Conversations](/handbook/company/group-conversations/#presentation), which enables attendees to have their questions answered without running out of time.
+- Allows time for Q&A, which enables attendees to have their questions answered without running out of time.
 - Reinforces GitLab's [Bias Towards Asynchronous Communication](/handbook/values/#bias-towards-asynchronous-communication) because it allows a distributed team to consume the presentation asynchronously.
 - Strengthens [self-service and self-learning](/handbook/values/#self-service-and-self-learning) by maximizing the meeting time's efficiency to ensure that team members have their voices heard during the Q&A.
 - Standardizes the approach to meetings across the organization.
