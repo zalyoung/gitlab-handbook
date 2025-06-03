@@ -35,6 +35,27 @@ implemented as a single _file system_ MCP Server.
 
 #### Permissions and approval system
 
+##### The current tools approval system
+
+1. Developers assing requested tools to agents during a graph implementation via `Toolset`s
+2. Users define available tools buckets via agent privileges
+3. Users defnie pre approved tools buckets via pre approved agent privileges
+4. Workflow at runtime intersect sets of tools that are being defined by agent privileges with requested agent's `Toolset`s to constitue resulting `Toolset`
+5. The resulting `Toolset` is being split between pre approved tools allow list, and all other tools
+6. Tools from pre approved allowlist are being skipped when resolving tool approval requirements
+7. Tools that are NOT included in allowlist trigger tools approval subworkflow before their execution
+
+
+##### The new MCP approval system
+
+Because MCP Server on its own define a set of tools for agents to use, they could be translated to agent privileges used in the current system
+where each agent privilege represent a tools bucket, that can be granted to a workflow.
+Following that approach each MCP Server will constitute an agent privilege eg: `GitLab Epics MCP Server` would have corresponding `giltab_epics` agent privilege
+In the new MCP based approach workflow admins will enable and pre approve MCP rather then a tool buckets.
+
+In addition following MCP [tools discovery API](https://modelcontextprotocol.io/docs/concepts/tools#tool-discovery-and-updates) the MCP bucket system can be furhter broken down
+into more granular per tool controll system
+
 
 #### Delivery and packaging
 
