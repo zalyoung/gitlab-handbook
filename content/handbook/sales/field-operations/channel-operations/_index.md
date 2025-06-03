@@ -712,7 +712,9 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - All other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) are met
 
 ### Forecasting in Clari
+
 #### Closed Won
+
 A Service Attached Registration is classified as Closed Won when all of the following criteria are met:
 - Service Attach Approval Date field contains a value
 - Service Attach Registration status is Approved
@@ -720,12 +722,14 @@ A Service Attached Registration is classified as Closed Won when all of the foll
 - PSP Engaged field = True 
 
 #### Most Likely
+
 The Most Likely category captures opportunities where Directors have completed forecast entries. This rollup encompasses both Closed Won opportunities and active deals that meet the following requirements:
 - Close date falls within the selected timeframe
 - Partner Services Amount is greater than $0
 - PSP Engaged field = True
 
 #### Open Pipeline
+
 Open Pipeline follows the same criteria as Most Likely, with the exclusion of Closed Won opportunities. Opportunities appear in this category when they satisfy these conditions:
 - Close date falls within the selected timeframe
 - Partner Services Amount is greater than $0
@@ -733,7 +737,6 @@ Open Pipeline follows the same criteria as Most Likely, with the exclusion of Cl
 - Opportunity has not yet reached Closed Won stage
 
 Please review the links below in Additional Resources for a demo on how to utilize Clari and review Saleforce reporting in regards to Service Attached Registrations. 
-
 
 ### Additional Resources
 
