@@ -48,6 +48,7 @@ Maintaining an effective and efficient agenda is important to get the best out o
 1. Consider populating the agenda to the 1-1 meeting at least 24 hours in advance of the meeting. This will enable the direct report and manager mental space to think more critically about each topic.
 
 ## Career Development Discussion at the 1-1
+
 These discussions should take place once a month and after the [360 Feedback](/handbook/people-group/360-feedback/) meeting has taken place. As a manager of people you play a crucial part in developing careers for your reports. This is for them but you should be able to support this process and help them achieve their goals. This is a joint collaboration so prior to the meeting think about what questions to ask, specifically identifying **competencies(c)**, **skill gaps(sg)** and **career objectives (co)**. Adrienne Smith who wrote [increase employee retention with career pathing](https://www.geteverwise.com/human-resources/increase-employee-retention-with-career-pathing/) suggests the following:
 
 1. Which projects are you most proud of that you've finished here? (c)
@@ -59,7 +60,7 @@ These discussions should take place once a month and after the [360 Feedback](/h
 1. What don't you do in your current role that you'd like to? (co)
 1. What would you like to learn next? (co)
 
-Once you have established the goals you can then create a [career development plan](/handbook/people-group/learning-and-development/#career-mapping-and-development)
+Once you have established the goals you can then create a [career development plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan)
 
 ### Why career development for team members is key to being a great leader
 
@@ -139,7 +140,7 @@ Since you are already having regular 1:1s with your team member you may have ide
 
 Coming to the meeting with an open mind and the willingness to learn more about the team members career development aspirations will set the right tone for the conversation.
 
-A best practice could be having the team member start the meeting by expressing their goals for the conversation. Your job as a manager is to listen and [understand their desires](/handbook/people-group/learning-and-development/career-development/#the-relationship-between-learning-and-development-and-promotion) and help them explore options that may be available for reaching those goals. Try and refrain from interjecting, let the team member finish before you start talking. Try not to be judgemental on what they say, different people will have different career goals and it is important to respect their ideas. However, this can also be a time for you to provide them with feedback, suggestions, recommendations and guidance. It can also be an opportunity for you to connect them with different people within GitLab and additional resource that support their identified career path.
+A best practice could be having the team member start the meeting by expressing their goals for the conversation. Your job as a manager is to listen and [understand their desires](/handbook/people-group/learning-and-development/career-development/#having-career-development-conversations-with-your-team) and help them explore options that may be available for reaching those goals. Try and refrain from interjecting, let the team member finish before you start talking. Try not to be judgemental on what they say, different people will have different career goals and it is important to respect their ideas. However, this can also be a time for you to provide them with feedback, suggestions, recommendations and guidance. It can also be an opportunity for you to connect them with different people within GitLab and additional resource that support their identified career path.
 
 As a manager you should follow up on the goals and activities you both identify. This will show the team member that you do listen and have a vested interest in their future success. Also, career conversations should not be a one-time annual conversation. A best practice is to meet at least quarterly for a check-in. Keep in mind some team members may want to meet more often and some less frequently.
 
