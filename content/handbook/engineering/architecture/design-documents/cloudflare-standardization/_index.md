@@ -494,6 +494,20 @@ released to our terraform module registry with the matching version.
 For any major version change, we *MUST* provide upgrade documentation for any
 manual interventions required for implementors.
 
+### Testing Strategy
+
+We will be using [Terraform tests](https://developer.hashicorp.com/terraform/language/tests)
+to test every module. This will use a combination of unit-style tests with
+mocked resources and end-to-end tests that create resources in a test zone
+following patterns that we across implementation of the modules.
+
+This allows us to test to thoroughly test our computed values and created
+resources quickly during development, and to ensure that we are providing
+well-tested golden paths that our implementors use.  This will aid our efforts
+to provide a stable interface to our implementors, and allow us to ensure that
+any difference in resource creation and configuration across module revisions
+are expected.
+
 ### Documentation Strategy
 
 Comprehensive documentation is essential for the success of this initiative. We
