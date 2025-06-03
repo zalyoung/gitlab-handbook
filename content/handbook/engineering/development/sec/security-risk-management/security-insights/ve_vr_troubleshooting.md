@@ -34,7 +34,7 @@ Vulnerability Explaination is enabled for all SAST vulnerabilities.
 
 Vulnerability Resolution is enabled for a specific set of CWEs documented at [Supported vulnerabilities for Vulnerability Resolution](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution).
 
-The list of CWEs presents itself in two locations to the code:
+We determine whether a vulnerability supports Vulnerability Resolution based on its CWE identifier. This support is tracked using two mechanisms:
 
 1. Database field on vulnerability records `has_vulnerability_resolution`
    - Vulnerability Report (filtering/display). This field is populated upon ([ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb))
