@@ -35,29 +35,29 @@ Before starting, please [contact us](#contact) to discuss the need for a new Stu
 Follow these steps after getting approval:
 
 1. Set up agenda:
-  1. Duplicate [template](https://docs.google.com/document/d/15Gv6CEWoA8_8EjQFZoqW1akqaF1XaDCDZIuHmNx6pnM/edit?usp=sharing).
-  1. Follow instructions in the template.
+   1. Duplicate [template](https://docs.google.com/document/d/15Gv6CEWoA8_8EjQFZoqW1akqaF1XaDCDZIuHmNx6pnM/edit?usp=sharing).
+   1. Follow instructions in the template.
 1. Create Zoom meeting:
-  1. Open Zoom app and select **Meetings** from the top bar.
-  1. On the left sidebar, select the ⊕ icon to schedule a meeting.
-  1. Set the topic to `✨ Design studio <YOUR_STUDIO_NUMBER>`. Replace `<YOUR_STUDIO_NUMBER>` based on the scheduling order of the other Studios (check your calendar or the [UX calendar](https://calendar.google.com/calendar/u/2?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)). This follows the [multi-session meeting naming](/handbook/communication/#multi-session-meeting-naming).
-  1. Set date, time, and 50-minute duration.
-  1. Make it weekly with no end date.
-  1. Leave attendees empty (they'll be added in calendar).
-  1. **Security**: Enable passcode, disable waiting room, select "GitLab Internal Only" in **Only authenticated users can join**.
-  1. Under **Calendar**, select "Other Calendars", as you'll add the meeting URL the calendar invite.
-  1. **Advanced Options**: Allow participants to join anytime, add any co-hosts.
-  1. **Save** and copy your Zoom link ([screenshot](https://gitlab.com/gitlab-org/gitlab-design/uploads/fac456217ef6c3869e678ea0714d1225/CleanShot_20240408103944_2x.png)).
+   1. Open Zoom app and select **Meetings** from the top bar.
+   1. On the left sidebar, select the ⊕ icon to schedule a meeting.
+   1. Set the topic to `✨ Design studio <YOUR_STUDIO_NUMBER>`. Replace `<YOUR_STUDIO_NUMBER>` based on the scheduling order of the other Studios (check your calendar or the [UX calendar](https://calendar.google.com/calendar/u/2?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)). This follows the [multi-session meeting naming](/handbook/communication/#multi-session-meeting-naming).
+   1. Set date, time, and 50-minute duration.
+   1. Make it weekly with no end date.
+   1. Leave attendees empty (they'll be added in calendar).
+   1. **Security**: Enable passcode, disable waiting room, select "GitLab Internal Only" in **Only authenticated users can join**.
+   1. Under **Calendar**, select "Other Calendars", as you'll add the meeting URL the calendar invite.
+   1. **Advanced Options**: Allow participants to join anytime, add any co-hosts.
+   1. **Save** and copy your Zoom link ([screenshot](https://gitlab.com/gitlab-org/gitlab-design/uploads/fac456217ef6c3869e678ea0714d1225/CleanShot_20240408103944_2x.png)).
 1. Set up calendar event:
-  1. In the [UX calendar](https://calendar.google.com/calendar/u/2?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), open an existing Studio event.
-  1. Select the ⋮ icon, and then **Duplicate**.
-  1. Update the Studio number in the title
-  1. Set the same weekday and time as your Zoom meeting.
-  1. Set to repeat weekly.
-  1. In the **Location**, add your Zoom link you got in the previous step.
-  1. The guest list should already include all product designers.
-  1. To attach your new agenda document, remove the existing attachment and then select the Google Drive icon.
-  1. **Save**!
+   1. In the [UX calendar](https://calendar.google.com/calendar/u/2?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), open an existing Studio event.
+   1. Select the ⋮ icon, and then **Duplicate**.
+   1. Update the Studio number in the title
+   1. Set the same weekday and time as your Zoom meeting.
+   1. Set to repeat weekly.
+   1. In the **Location**, add your Zoom link you got in the previous step.
+   1. The guest list should already include all product designers.
+   1. To attach your new agenda document, remove the existing attachment and then select the Google Drive icon.
+   1. **Save**!
 
 ### What next?
 
@@ -73,9 +73,9 @@ We measure success in two main ways:
 
 1. **Anytime**: Attendees can give feedback through the [anonymous survey](https://forms.gle/PzpoLQYaFwbdD2Vw6) shared on every call.
 1. **Quarterly review**: We look more closely at several aspects:
-  1. We encourage attendees to complete the [anonymous feedback survey](https://forms.gle/PzpoLQYaFwbdD2Vw6), and we then [review their responses](https://docs.google.com/spreadsheets/d/1rk92hwNFuu_wXJbIUeP2QtqsWqfHBdJahDkZyX54ACc/edit?usp=sharing).
-  1. Attendees can join a retrospective discussion. See [all retrospective issues](https://gitlab.com/groups/gitlab-org/-/epics/18024).
-  1. We report attendee satisfaction and attendance numbers in the retrospective issue.
+   1. We encourage attendees to complete the [anonymous feedback survey](https://forms.gle/PzpoLQYaFwbdD2Vw6), and we then [review their responses](https://docs.google.com/spreadsheets/d/1rk92hwNFuu_wXJbIUeP2QtqsWqfHBdJahDkZyX54ACc/edit?usp=sharing).
+   1. Attendees can join a retrospective discussion. See [all retrospective issues](https://gitlab.com/groups/gitlab-org/-/epics/18024).
+   1. We report attendee satisfaction and attendance numbers in the retrospective issue.
 
 ## Contact
 
