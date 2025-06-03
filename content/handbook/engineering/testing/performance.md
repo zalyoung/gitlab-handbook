@@ -113,9 +113,16 @@ flowchart LR
   click UNIT "#performance-unit-testing" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
 
   %% Decision node tooltips
-  click BUILT "javascript:void(0)" "Is the code/feature still under active development? Use early-stage performance tools if yes."
-  click SPECS "javascript:void(0)" "Are you writing new test specifications or adding performance assertions to existing tests?"
+  click OBSERVABILITY "Analyzing-live-performance-data"
+  click BUILT "Testing-during-development"
+  click SPECS "Testing-with-new-unit-tests"
  ```
+
+### Testing with new unit tests
+
+### Testing during development
+
+### Analyzing live performance data
 
 ### Performance Unit Testing
 
@@ -179,24 +186,6 @@ We already use profiling tools (i.e. rubocop) in our pipelines to ensure that we
 Some approaches to using these tools are detailed on the [profiling page](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/profiling.md?ref_type=heads)
 
 ## References
-
-### External References
-
-| Page | Description |
-| ---- | ----------- |
-| [Slack's Koi Pond](https://slack.engineering/load-testing-with-koi-pond/) | Slack's approach to organizing their load testing effort, into pods of "koi" to test specific sections |
-| [Using test automation to enhance Observability](https://www.youtube.com/watch?v=BqM-z00BqDQ) | A presentation Andy did on using test automation to improve Observibility |
-| [Measure app performance in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/profiling/?view=vs-2022) | Microsoft course on profiling in VSCode |
-| [Shift Left Performance Testing](https://www.parasoft.com/blog/how-to-optimize-performance-testing-with-a-shift-left-approach/) | Blog about shifting left performance testing |
-| [Netflix performance testing](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe) | Blog post about performance testing at Netflix |
-| [Automation Pyramid Model for Performance Testing Process](https://abstracta.us/blog/test-automation/performance-testing-automation-pyramid-model-process/) | Blog post looking into the test pyramid for performance testing |
-| [Continuous Performance Testing: A Comprehensive Guide](https://abstracta.us/blog/performance-testing/continuous-performance-testing-a-comprehensive-guide/) | Blog post on Continuous Performance Testing |
-| [3 Challenges to Effective Performance Testing in Continuous Integration](https://abstracta.us/blog/performance-testing/3-challenges-effective-performance-testing-continuous-integration/) | Blog post on challenges on implementing performance testing in CI |
-| [When is the Best Time to Start Performance Testing?](https://abstracta.us/blog/performance-testing/best-time-start-performance-testing/) | Blog post on when to do performance testing |
-| [The Performance Driven Development manifesto](https://github.com/srperf/PDD) | An approach to shifting left performance testing  |
-| [Catch issues before your customers do: Shift left with k6 and Grafana](https://grafana.com/events/observabilitycon/2022/catch-issues-before-your-customers-do-shift-left-with-k6-and-grafana/) | Demostration of using K6 and Grafana to shift left performance testing |
-
-### Internal References
 
 #### Projects
 
