@@ -222,7 +222,7 @@ To qualify for promotions, sales development team members are required to keep u
 | Tenure         | SDR         | BDR         |
 | -------------- | ----------- | ----------- |
 | First month    | TT100, TT101, TT102, TT103, TT104, TT110, onboarding checklist | TT100, TT101, TT102, TT103, TT104, TT110, onboarding checklist |
-| Third month    | TT105, Getting Started for Sales Development, Sales Quick Starts | TT105, Getting Started for Sales Development, Sales Quick Starts |
+| Third month    | TT105, Getting Started for Sales Development, Sales Quick Starts | TT105, Getting Started for Business Development, Sales Quick Starts |
 | Second quarter | TT120, TTT201, T210, TT211, TT251 | TT120, TT201, TT210, TT211, TT251 |
 | Third quarter  | TT200, TT220, TT252, TT300 | TT200, TT220, TT252, TT300 |
 | Fourth quarter | Getting Started for Sales Development, TT301, TT310, TT330,  | TT301, TT330 |
