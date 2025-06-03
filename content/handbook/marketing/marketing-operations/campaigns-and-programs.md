@@ -195,7 +195,7 @@ Program type is included on the smart campaign meant to clear `dietary restricti
 
 #### Partner - MDF
 
-This is for an activity that our partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
+This is for an activity that our Channel Partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
 
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
@@ -485,6 +485,40 @@ If this is to set up a program that involves a channel partner, you must also fo
 - In the `Description` field, paste your epic URL
 - Click `Create`
 
+#### Partner Campaign Setup
+
+There are currently several types of partner campaigns including Channel MDF campaigns, Joint GitLab/Partner, campaigns, Hyperscaler Campaigns, and Hyperscaler Funded Campaigns.
+
+##### Channel MDF Campaign
+
+Channel MDF is when GitLab covers 50% of a partner initiated campaign managed by the Channel Marketing team. All leads generated belong to the Channel Partner and are under Partner Queue ownership. Channel MDF has its dedicated Marketo template, go to [this page](/handbook/marketing/channel-marketing/mdf-operations-process/) for campaign setup instructions.
+
+#### Joint GitLab/Partner Campaign
+
+Joint GitLab/Partner campaigns when GitLab Field Marketing team fully funds and manages the marketing campaign. Leads that are partner sourced will be routed to the channel partner however, if the BDRs/SDRs are actively working the lead then it remains in get lab ownership. If a partner receives a lead but doesn't formally accept it within 30 days (by updating their share status), our system automatically recalls that lead, marks it as "Recycled," and brings it back into GitLab's nurture program. Follow the campaign setup instruction for each campaign type below. For more information about Joint/Partner campaign go [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) - ensure these steps are completed.
+
+##### Hyperscaler Campaigns
+
+Hyperscaler Campaigns are strategic marketing initiatives conducted in partnership with our Hyperscaler allies. These marketing activities including Executive Roundtables, Vendor-Arranged Meetings, Conferences, Owned events and more.
+
+For campaign setup, utilize the Marketo templates available in [Hybrid](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates) and [Other Tactic](/handbook/marketing/marketing-operations/campaigns-and-programs/#other-tactic-marketo-templates) section below.
+
+Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
+
+- When you manage a Hyperscaler Campaign without Funds:
+  - Add the Hyperscaler Partner name after the date: `YYYYMMDD_AWS_ExecutiveRoundtable_Topic_Region_EventType`. 
+- When you manage a Hyperscaler Campaign with MDF from the Hyperscaler Partner:
+  - Add the Hyperscaler Partner name after the date, and "MDF": `YYYYMMDD_AWS _MDF_ExecutiveRoundtable_Topic_Region_EventType`. 
+- When you manage a Hyperscaler Campaign with Credits from the Hyperscaler Partner:
+  - Add the Hyperscaler Partner name after the date and "CR" for Credits: `YYYYMMDD_GCP _CR_ExecutiveRoundtable_Topic_Region_EventType`. 
+
+Special Instructions for Content Syndication Teams: Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name
+
+Please add a Hyperscaler Campaign, funded by Hyperscaler, to the Hyperscaler Funded Campaign folder in Marketo.
+
+**Important Lead Ownership Note:** All leads generated through Hyperscaler campaigns remain under GitLab's excl
+usive ownership. These contacts enter our standard nurturing process, accumulating lead score according to engagement metrics. Upon reaching MQL status, they're automatically assigned to the appropriate BDR/SDR team for personalized follow-up.
+
 ##### Hybrid Marketo Templates
 
 - Executive Roundtables - `Hybrid template`: [YYYYMMDD_ExecutiveRoundtable_Topic_Region_EventType_template](https://app-ab13.marketo.com/#ME6028A1)
@@ -501,8 +535,6 @@ If this is to set up a program that involves a channel partner, you must also fo
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
   - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
 
-Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
-
 ##### Other Tactic Marketo Templates
 
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
@@ -517,24 +549,10 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
 - Owned Event - `Hybrid`: [YYYYMMDD_OwnedEvent_EventType_Template](https://app-ab13.marketo.com/#ME4722A1)
 
-Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Conference: `YYYYMMDD_HyperscalerPartner_Conference_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
-
 ##### Webcasts Marketo Templates
 
 - Zoom GitLab Hosted Webcast: [YYYYMMDD_WebcastTopic_Region](https://app-ab13.marketo.com/#ME5512A1)
 - Sponsored Webcast: [YYYYMMDD_ExternalWebcastVendorName_Topic_Region](https://app-ab13.marketo.com/#PG5523A1)
-
-#### Partner Campaign Setup
-
-- Partner MDF Funded campaigns go [this page](/handbook/marketing/channel-marketing/mdf-operations-process/).
-- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
-- Hyperscaler campaigns - use the Marketo templates [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
-  - Additional Examples:
-    - 20251202_AWS_AWSreinvent_Booth
-    - 0250409_GCP_GoogleCloudNext_Booth
-    - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
-    - Special Instructions for Content Syndication Teams: 
-      - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 ### Step 2: Sync to Salesforce
 
@@ -552,7 +570,7 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
     - `{{my.email header image url}}` - This is optional. You will need this if you had custom images created.
     - `{{my.ondemandurl}}` - This will be entered AFTER the event date. It is the link to the recorded webcast. You will need to come back after the event and update this token.
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
-- **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
+- **Partner Campaigns** will need to also to update the `{{my.partner name}}` for LIM
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
 - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing) - note the instructions are different for Conferences and our outlined in the Conference instructions below.
 
@@ -1053,7 +1071,9 @@ Follow the instructions in [Step 6 above](/handbook/marketing/marketing-operatio
 
 ## Integrate DAP Closed Loop Feedback
 
-Feedback on leads received via the Integrate service is an automated process done via Marketo webhooks, with 7 in total. The smart campaign triggers, smartlist filters and "holding" smart campaign used for the automation are found [on this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16388A1). There are two smart campaigns used and for two reasons: The `Activation` trigger acts as a holding cell that allows for newly received leads to go through multiple GitLab processes before firing a webhook, e.g. being contacted by SDRs, receiving scoring, being marked as a non-deliverable email. The flow also separates normal leads from `test` leads. The second trigger, `Webhook calls`, calls a webhook after the 5 day hold ends. Marketo webhooks require the use of trigger campaigns, so this should not be set to a scheduled campaign.
+Feedback on leads received via the Integrate service is an automated process done via Marketo webhooks, with 7 in total. The smart campaign triggers, smartlist filters and "holding" smart campaigns used for the automation are found [on this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16388A1). There are three smart campaigns used and for two reasons: The `Activation` trigger acts as a 4 day holding cell that allows for newly received leads to go through multiple GitLab processes before calling a webhook, e.g. being contacted by SDRs, receiving scoring, being marked as a non-deliverable email. The flow also separates normal leads from `test` leads and adds normal leads to the static `Hold` list, which is used for an automated bi-weekly lead quality report sent to Integrate's platform. The second smart campaign, `Scheduled Integrate Webhook Calls`, is scheduled to run bi-weekly on Mondays. The flow checks the static `Hold` list for Integrate received leads, triggering the webhook calling smart campaign. The third trigger, `Webhook calls`, calls the appropriate webhook. Total time for a new lead to run through this process is `4 days after entering Marketo` plus whenever the lead has entered into the `bi-weekly` cadence - so usually 2 weeks but maybe a tad bit longer in some cases.
+
+When calling webhooks, Marketo will timestamp the first webhook call in the `Integrate Webhook - First` field and if there is ever a second run-through of the webhooks the time stamp will go in the `Integrate Webhook - Second` field. All leads ran through the webhooks will be added to the static lists found in the `Static Checks` folder.
 
 The 7 webhook feedback automations we send to Integrate are:
 
@@ -1066,7 +1086,7 @@ The 7 webhook feedback automations we send to Integrate are:
 
 - **Bad Data**: This should be generally thought of as being similar to a "spam" lead
 - **Bad Phone**: Fired when a SDR marks the lead's listed phone number as not usable or wrong. Inegrate can return these leads to us with the phone number corrected, while other return webhooks will cannot be returned
-- **Bounce**: The email address was deemed unreachable by Marketo. Either our emails have bounced or are being blocked. We cannot accept or use the lead
+- **Bounce**: The email address was deemed unreachable by Marketo. Either our emails have bounced or are being blocked. We cannot accept or use the lead because Marketo cannot determine if the email address is real
 - **Competitor**: The lead is part of a competing company and we are not interested in receiving further leads from this competitor. Use this as an error notification, meaning our lead sourcing filters that needs to be addressed
 - **Test**: When Integrate needs to send us test leads, this webhook will be triggered by those incoming leads. Please make sure the teams sending us leads via the service are aware of the needed filters to trigger the automated feedback via webook
 
