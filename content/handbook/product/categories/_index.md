@@ -22,7 +22,7 @@ product categories defined on this page:
 - [Documentation](https://docs.gitlab.com/)
 - [Engineering](/handbook/engineering/) Engineering Manager/Developer/Designer titles, their expertise, and department, and team names.
 - [Product manager](/handbook/product/) responsibilities which are detailed on this page
-- [Our pitch deck](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#company-pitch-deck), the slides that we use to describe the company
+- [Our pitch deck](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7), the slides that we use to describe the company
 - [Strategic marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) specializations
 
 ## Hierarchy
@@ -359,7 +359,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](/handbook/engineering/infrastructure-platforms/data-access/gitaly/), [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in Analytics
 
