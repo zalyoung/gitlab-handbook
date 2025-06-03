@@ -97,7 +97,7 @@ c.JupyterLabTemplates.include_default = False
 
 1. From the data science repo, pull the latest changes to your local machine `git pull`
 1. Re-run `make setup`
-1. Launch JupyterLab via `make jupyter` or `make jupyter-vscoce`
+1. Launch JupyterLab via `make jupyter` or `make jupyter-vscode`
 
 ## Connecting to Snowflake
 
