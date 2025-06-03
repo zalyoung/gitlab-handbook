@@ -1,11 +1,2 @@
 {
-  "go.goroot": "/Users/vbhat/.local/share/mise/installs/go/1.22.10",
-  "debug.javascript.defaultRuntimeExecutable": {
-    "pwa-node": "/Users/vbhat/.local/share/mise/shims/node"
-  },
-  "go.alternateTools": {
-    "go": "/Users/vbhat/.local/share/mise/shims/go",
-    "dlv": "/Users/vbhat/.local/share/mise/shims/dlv",
-    "gopls": "/Users/vbhat/.local/share/mise/shims/gopls"
-  }
 }
