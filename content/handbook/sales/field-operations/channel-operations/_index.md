@@ -712,7 +712,6 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - All other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) are met
 
 ### Forecasting in Clari
-
 #### Closed Won
 A Service Attached Registration is classified as Closed Won when all of the following criteria are met:
 - Service Attach Approval Date field contains a value
