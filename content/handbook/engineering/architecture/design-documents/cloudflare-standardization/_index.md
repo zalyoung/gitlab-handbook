@@ -109,9 +109,11 @@ this approach will allow us to support more Cloudflare functionality and improve
 our ability to support configuration of our edge network.
 
 While teams using direct Terraform resource configurations have addressed their
-specific use cases, the emergence of multiple implementation patterns creates an
-opportunity to establish a more unified and scalable foundation that can benefit
-all teams.
+specific use cases, the emergence of multiple implementation patterns (
+[example 1](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/blob/main/common/modules/cloudflare/instance-domains/main.tf),
+[example 2](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/18)
+) creates an opportunity to establish a more unified and scalable foundation that
+can benefit all teams.
 
 This initiative directly supports the Foundations team's mission to provide
 excellence in networking infrastructure with sustainable, long-term
