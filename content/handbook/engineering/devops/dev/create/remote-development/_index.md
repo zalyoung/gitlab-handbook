@@ -166,7 +166,7 @@ This process helps us navigate evolving priorities, reduce planning overhead, an
 ```mermaid
 graph TD;
   S[Feature Inception] -->|"New epic is created and issues added to it with Backlog assigned"| V[High Level Planning]
-  V -->|"Epic is prioritized into the roadmap and on the epic board by PM adding `~"(current quarter | current quarter+1 | current quarter+2)"` label "| R[Async Refinement]
+  V -->|"Epic is prioritized into the roadmap and on the epic board by PM adding '~(current quarter | current quarter+1 | current quarter+2)' label "| R[Async Refinement]
   R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
   P -->|"Epics marked refined have all of its issues weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
 
