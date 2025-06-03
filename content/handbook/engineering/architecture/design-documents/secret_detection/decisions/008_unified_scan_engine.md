@@ -53,4 +53,8 @@ The minimalistic scope and the stateless nature of the proposed scan engine will
 
 #### Adapters
 
-An Adapter typically contains domain-centric pre and post-processing steps for a particular scan target type. We will use _Adapters_ written for specific scan target types when using the scan engine in Embedded or Batch mode. Example: Git Adapter for scanning git-related data like Pipeline-based SD.
+The engine's minimalistic scope of running the scan for the given payload implies that the caller should implement pre-processing and post-processing steps of the scan. Since the scan target types are located at different sources (ex: Rails/CI/Gitaly), it is important to have a consistent implementation approach across all target types for better maintainability and reusability.
+
+We will follow the concept of `Adapters` where an `Adapter` sits between the caller and scan engine abstracting the implementation details, similar to [Language Servers](https://en.wikipedia.org/wiki/Language_Server_Protocol) for IDE. `Adapters` are primarily used in Embedded or Batch mode. Example: `SourceCodeAdapter` for scanning git-based source code in Pipeline-based SD, or `JobArtifactAdapter` for scanning job artifacts.
+
+![High-level Design for unified scan engine with Adapters](/images/engineering/architecture/design-documents/secret_detection/008_high_level_design.png "High-level Design for unified scan engine with Adapters")
