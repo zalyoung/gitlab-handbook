@@ -52,7 +52,6 @@ This Working Group has the following goals:
 | Functional Lead    | Paulina Sędłak-Jakubowska  | Frontend Engineer, Monitor:Respond           |
 | Functional Lead    | Rahul Chanila              | Senior Frontend Engineer, Package            |
 | Functional Lead    | Jeremy Elder               | Staff Product Designer, Manage:Foundations   |
-| Member             | Enrique Alcántara          | Senior Frontend Engineer, Create:Editor      |
 | Member             | Lisa Falcone               | Senior Paralegal, Legal & Corporate Affairs  |
 | Member             | Scott de Jonge             | Senior Frontend Engineer, Manage:Foundations |
 | Member             | Rajan Mistry               | Frontend Engineer, Plan:Product Planning     |
