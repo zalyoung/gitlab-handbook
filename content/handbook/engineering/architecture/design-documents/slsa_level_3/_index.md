@@ -243,6 +243,7 @@ component:
         --rekor-url "${REKOR_SERVER}" \
         --identity-token "${GITLAB_OIDC_TOKEN}" \
         --bundle "${BUNDLE_FILE}" \
+        --new-bundle-format \
         "${TARGET_ARTIFACT}"
 
     - echo "Performing self-verification to ensure provenance is valid..."
