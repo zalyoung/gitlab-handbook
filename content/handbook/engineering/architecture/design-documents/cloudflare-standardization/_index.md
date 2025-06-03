@@ -241,13 +241,17 @@ and intuitive interfaces.
 ### Success Metrics
 
 The effectiveness of this initiative will be demonstrated through several key
-indicators of organizational capability and team empowerment. We expect to see
-teams successfully implementing Cloudflare solutions independently, with
-consistent application of security standards across all implementations
-strengthening our overall security posture.
+indicators of organizational capability and team empowerment:
 
-Team satisfaction and confidence in using our Cloudflare modules will be
-measured through feedback sessions and adoption rates.
+- Successful implementations of Cloudflare solutions independently
+  - Solutions will meet our compliance and security standards
+- Team satisfaction and confidence in using our Cloudflare modules, measured
+  through feedback form collection and qualilative feedback sessions
+- Time teams spend updating and upgrading their configuration
+- Adoption count and rate of the Cloudflare modules
+- High impact incident rate related to Cloudflare configurations
+  - We do not expect this measure to increase during future work, including the
+    Cloudflare `v5` provider upgrade
 
 ## Design and implementation details
 
