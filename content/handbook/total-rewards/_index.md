@@ -27,16 +27,20 @@ title: GitLab's Guide to Total Rewards
 {{% /card %}}
 {{% /cardpane %}}
 
+_\* Compensation at GitLab is currently being updated as part of our Job Architecture Project. All information in related compensation handbook pages is subject to change during or at the conclusion of this transition. Please see the Job Architecture Project section for more information._
+
 ## Meet the Total Rewards Team
 
 | Who  | Job Title |
 |------|-----------|
-| Rob Allen | VP, People |
-| Cathy Lee | Director, Global Compensation |
+| Allia McCrank | VP, Total Rewards |
 | Angela Chung | Director, Executive Compensation & Equity |
 | Denise Parsonage| Director, Global Benefits Strategy|
 | Raisha Kole | Senior Benefits Program Manager |
 | Vanessa Crisostomo | Senior Benefits Analyst |
+| Charles Reveil | Senior Benefits Analyst |
+| Jackie Grubbs | Senior Absence Management Specialist |
+| Teranay Dixon | Senior Absence Management Specialist |
 | Morgan Wilkins | Manager, Compensation |
 | Shahrukh Talat | Compensation Analyst |
 | Ari Weir | Compensation Partner, GTM |
@@ -46,4 +50,4 @@ title: GitLab's Guide to Total Rewards
 
 For feedback or questions relating to compensation, benefits and equity, you can reach out to us via:
 
-- **[HelpLab:](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)** To get in touch with People Connect who can answer your question or help direct it to the proper person/team.
+* **[HelpLab:](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)** To get in touch with People Connect who can answer your question or help direct it to the proper person/team.
