@@ -50,12 +50,12 @@ flowchart LR
 
   %% Decision node links
   click UI "#Does-a-frontend-page-exist"
-  click ENV "#Does-a-frontend-page-exist"
+  click ENV "#Testing-an-endpoint"
   click COMPONENT "Can-the-Component-be deployed-independantly"
 
 ```
 
-### Does a frontend page exist
+### Testing an endpoint
 
 Existing performance testing includes:
 
@@ -187,7 +187,7 @@ Some approaches to using these tools are detailed on the [profiling page](https:
 
 ## References
 
-#### Projects
+### Projects
 
 | Project | Description |
 | ---- | ----------- |
@@ -196,7 +196,7 @@ Some approaches to using these tools are detailed on the [profiling page](https:
 | [sitespeed-measurement-setup](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup) | Setup to measure performance on Gitlab websites (.com, dev.) through sitespeed.io and report to Grafana |
 | [gitlab-exporter](https://gitlab.com/gitlab-org/ruby/gems/gitlab-exporter) | a Prometheus Web exporter that exports GitLab metrics |
 
-#### Documentation pages
+### Documentation pages
 
 | Page | Description |
 | ---- | ----------- |
