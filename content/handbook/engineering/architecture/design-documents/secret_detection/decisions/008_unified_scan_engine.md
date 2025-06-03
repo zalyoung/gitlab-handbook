@@ -4,7 +4,7 @@ title: "GitLab Secret Detection ADR 008: Unified SD Scan Engine"
 
 ## Context
 
-Currently, the Secret Detection scans are running for different scan target types like Source code (via Pipeline SD), Git commits (Push Protection), Issue description/comments (Client-side SD), and more target types to follow. All the mentioned scan target types have different scan engines (Gitleaks, [one managed by](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service) the team, another one by Web frontend), and IIRC certain teams at GitLab are maintaining their version of secret detection. This leads to multiple issues (outlined below) and an inconsistent experience for customers:
+Currently, the Secret Detection scans are running for different scan target types like Source code (via Pipeline SD), Git commits (Push Protection), Issue description/comments (Client-side SD), and more target types to follow. All the mentioned scan target types have different scan engines (Gitleaks, [one managed by](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service) the team, another one by Web frontend), and to add complexity to the mix, there are certain teams at GitLab maintaining their version of secret detection. This leads to multiple issues (outlined below) and an inconsistent experience for customers:
 
 * It causes a significant burden of maintaining feature parity across multiple engines.
 * It limits us from optimizing the core scanning logic for performance and efficiency.
@@ -26,12 +26,12 @@ The proposal is to build a unified Secret Detection core scanning engine that wi
 * The engine is to tweak the scan behavior by accepting user inputs (with defaults):
   * exclusions (rule/path/value)
   * custom ruleset
-  * ruleset variant (stable/latest)
+  * ruleset version
   * timeout constraints
   * payload size limit
   * payloads acceptable via file-path/dir-path/stdin (binary executable)
   * configurable resource(memory/cpu cores) limit (binary executable)
-* The engine is able to run as a binary executables in air-gapped environment.
+* The engine is able to run as a binary executable in air-gapped environments.
 
 ### Pre-requisite
 
@@ -47,7 +47,7 @@ The minimalistic scope and the stateless nature of the proposed scan engine will
 
 ![Embedded Mode](/images/engineering/architecture/design-documents/secret_detection/008_scan_mode_embedded.png "Embedded Scan Mode")
 
-* **Batch**: This is a special case to support [in-storage processing](https://en.wikipedia.org/wiki/In-situ_processing) where the Secret Detection program (+engine) runs where the data resides. This reverse approach is suitable for scan target types having larger data sizes, like source code or job artifacts, to avoid data-transfer costs incurred b/w data storage and scan servers. The primary difference when compared to Embedded mode is that the caller includes the scannable payload within the scan request whereas in Batch mode, the caller points at the scannable payload(s) available at the target host (where the program and data reside).
+* **Batch**: This is a special case to support [in-storage processing](https://en.wikipedia.org/wiki/In-situ_processing) where the Secret Detection program (+engine) runs where the data resides. This reverse approach is suitable for scan target types having larger data sizes, like source code or job artifacts, to avoid data-transfer costs incurred b/w data storage and scan servers. The primary difference when compared to Embedded mode is that the caller includes the scannable payload within the scan request whereas in Batch mode, the caller points at the scannable payload(s) available at the target host (where the program and data reside), e.g. passing a file path along with the request.
 
 ![Batch Mode](/images/engineering/architecture/design-documents/secret_detection/008_scan_mode_batch.jpg "Batch Scan Mode")
 
