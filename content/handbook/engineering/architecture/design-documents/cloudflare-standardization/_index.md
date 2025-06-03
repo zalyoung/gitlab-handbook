@@ -569,3 +569,21 @@ management within a single repository.
 - Creates bottleneck for changes on the maintaining team
 - Does not foster self-service culture
 - May slow down teams with time-sensitive requirements
+
+### Documentation-only improvements
+
+We can reduce the initial implementation burden by creating thorough
+documentation for our current set of Cloudflare modules.
+
+**Pros:**
+
+- Reduces time to initial implementation
+- Minimal implementation required
+- Encourages a self-service culture for initial configuration
+
+**Cons:**
+
+- Manual configuration required for more complex implementations
+- No unified maintenance support for teams
+- Maintainence responsibility for Cloudflare configurations spread across teams
+- Susceptible to drift as standard configurations change
