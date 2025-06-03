@@ -43,6 +43,8 @@ We determine whether a vulnerability supports Vulnerability Resolution based on 
 1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
    - Pipeline findings (MR) use this list as finding records are not fully ingested to include the DB field.
 
+Unsupported CWEs may be tested by enabling the `ignore_supported_cwe_list_check` feature flag at the project level ([MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/175608))
+
 ### Dashboard to see logs
 
 1. [Production log dashboard](https://log.gprd.gitlab.net/app/r/s/Bfmiw) - shows request/response/error
