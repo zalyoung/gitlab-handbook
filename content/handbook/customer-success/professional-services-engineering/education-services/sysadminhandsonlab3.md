@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through installing and managing a Gi
 
 ## Objectives
 
-The objective of this lab is to demonstrate how to create and register a GitLab Runner on a server. For more information about GitLab Runners, click [here](https://docs.gitlab.com/runner/).
+The objective of this lab is to demonstrate how to create and register a GitLab Runner on a server. See [more information about GitLab Runners](https://docs.gitlab.com/runner/).
 
 ### Task A. Install the gitlab-runner package
 
