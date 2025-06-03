@@ -64,18 +64,14 @@ Our team focuses on areas aligning with the company's areas of interest includin
 
 The [FY25 Marketing Strategy](https://internal.gitlab.com/handbook/marketing/fy25-strategy/#marketing--the-customer-journey) (internal only) shows a Customer Journey with five stages: Awareness, Consideration, Conversion, Expansion, and Evangelism.
 
-While our team can influence people at each stage, our key focus is on Awareness, Consideration, and Evangelism. The KPIs we use to measure our impact on these stages are:
+While our team can influence people at each stage, our focus is on Awareness, Consideration, and Evangelism. The KPIs we use to measure our impact on these stages are:
 
 - views from content published across owned and earned channels
 - developers engaged through webinars, workshops, and industry events
-
-We also look at Developer Relations influenced pipeline and active community members as performance indicators.
+- Developer Relations influenced pipeline (pipeline influenced by campaigns that are leveraging DevRel's content) and
+- active community members 
 
 We recognize these KPIs don't capture the impact of the diverse range of work that our team does but understand that tradeoffs can be necessary to effectively communicate our impact within GitLab.
-
-#### OKRs
-
-- [OKR list](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues?first_page_size=20&label_name%5B%5D=developer-advocacy&sort=updated_desc&state=opened&type%5B%5D=objective)
 
 ### What fits in our strategy
 
