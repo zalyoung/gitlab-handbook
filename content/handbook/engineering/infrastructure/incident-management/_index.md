@@ -120,7 +120,7 @@ The Incident Lead is responsible for ensuring that the incident progresses and i
 
 1. Review automatically created follow-up issues within one business day.
 2. Verify each follow-up issue has appropriate context from the incident.
-3. Move follow-up issues to the correct project for the responsible team.
+3. Move follow-up issues from the [follow-up issues project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) to the correct project for the responsible team (typically this will be `gitlab-org/gitlab` or `production-engineering`.
 4. Apply appropriate labels such as team and group to follow-up issues.
 5. The Incident Lead should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity.
 6. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
