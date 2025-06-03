@@ -678,6 +678,7 @@ Incidents can only be merged into open incidents, so if necessary you may need t
 ### Follow-up Issues
 
 GitLab issues are created automatically when a "Follow-up" is created in incident.io. Any GitLab issue can be added as a Follow-up item by pasting the link into the incident Slack channel.
+Follow-up items are created by default in the [incident-follow-ups project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) and should be moved to the appropriate project after the incident is concluded.
 
 ### Workflow Diagram
 
