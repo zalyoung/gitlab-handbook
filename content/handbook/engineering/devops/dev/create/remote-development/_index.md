@@ -201,7 +201,7 @@ The meeting serves to clarify the most important work and make decisions on what
 
 - **Roadmap Assessment:** After the meeting, the Product Manager will assess the proposed changes and update the epic board(s), which serves as the source of truth for work prioritization.
 
-- **Epic Creation and Prioritization:** Features will be converted into epics and the Product Manager will determine the order of feature work and mark upcoming work with the `~"(current quarter | current quarter+1 | current quarter+2)"` label according to the quarter that the work should start. See [Fiscal Year](https://handbook.gitlab.com/handbook/finance/#fiscal-year) for dates of the quarters.
+- **Epic Creation and Prioritization:** Features will be converted into epics and the Product Manager will determine the order of feature work and mark upcoming work with the `~"(current quarter | current quarter+1 | current quarter+2)"` label according to the quarter that the work should start. See [Fiscal Year](/handbook/finance/#fiscal-year) for dates of the quarters.
 
 - **Board Order Guidelines:** Please avoid changing the order of items on the epic board without consulting the Engineering Manager or Product Manager first.
 
