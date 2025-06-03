@@ -72,6 +72,11 @@ We use the JTBD framework for viewing products and solutions in terms of the job
 
 View how we collect [synchronous and asyncrhonous design feedback](/handbook/product/ux/product-designer/#design-reviews).
 
+### Design Studios
+
+[Design Studios](/handbook/product/ux/product-design/design-studios/) are regular meetings for product designers to connect and work together.
+They provide casual time for socializing, sharing work, getting feedback, and more.
+
 ### Tools
 
 **Figma** We use [Figma](https://www.figma.com/design/) for designing and prototyping. Our [Pajamas UI kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit) contains design assets, components, and styles for GitLab's design system, [Pajamas](https://design.gitlab.com/). Additionally, there is a [Figma plugin](https://www.figma.com/community/plugin/860845891704482356/GitLab) available that allows designers to upload design files directly into a GitLab issue. Every product designer should receive access to Figma during onboarding. If you don't have the access you need, reach out to your manager. If you are not a product designer but want View access (including the ability to leave comments), create a free Figma account and ask your stage group designer for a link to the relevant files.
