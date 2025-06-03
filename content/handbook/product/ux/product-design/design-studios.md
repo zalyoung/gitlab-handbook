@@ -9,6 +9,8 @@ Design Studios (or just Studios) are regular meetings for product designers to c
 
 They provide casual time for socializing, sharing work, getting feedback, and more. They help fill the gap between async and larger sync meetings. With just a few designers meeting together, we can build better personal and work relationships. These benefits should also help us work better when we're not in meetings.
 
+To track issues related to these meetings, you can use the ["Design studios" label](https://gitlab.com/gitlab-org/gitlab-design/-/issues?label_name[]=Design%20studios) in the GitLab Design project.
+
 ### Background
 
 After a successful first pilot for designers in EMEA time zones, [we expanded to more time zones](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2500) with several volunteer hosts. We even had an [in-person Studio at Summit 2024](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2520)! We [learned a lot](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2538) and wrote this guide so everyone could learn about them. For more details, see the 2024-02-21 UX Showcase: [recording](https://www.youtube.com/watch?v=kstErLPh2R0) and [slides](https://docs.google.com/presentation/d/1lJgC_Qq3K-EQLClkrvnmuXPvHi08iPHmJ-5gpl4RROo/edit#slide=id.g2b960221cc4_0_0).
