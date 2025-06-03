@@ -139,7 +139,6 @@ Phase 8: VIPs
 
 VIP support for significant or disruptive changes will be treated via direct support from the Service Desk team who will schedule a call at a convenient time to ensure the update or deployment is successful with minimal disruption.
 
-
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
