@@ -206,7 +206,7 @@ LIMIT 101;
 To support querying work items on large top-level groups and ordering, we're adding a BTREE index on the root of every `traversal_ids`.
 This is required to support all of our sorting options that we offer.
 
-```
+```sql
 CREATE INDEX idx_issues_on_root_namespace_id_and_created_at_and_id ON issues ((traversal_ids[1]), created_at, id);
 ```
 
@@ -215,15 +215,13 @@ CREATE INDEX idx_issues_on_root_namespace_id_and_created_at_and_id ON issues ((t
 To optimize querying specific sub-groups, we add a GIN index on `traversal_ids`. This is a trade-off to optimize querying for
 all work items within that sub-group and being forced to sort in memory sort due to the nature of GIN indexes.
 
-```
+```sql
 CREATE INDEX idx_issues_on_traversal_ids ON issues USING gin (traversal_ids);
 ```
 
-### Concerns
+#### Traversal ID Storage
 
-#### Traversal ID column storage
-
-There is overhead of storing the `traversal_ids`. Based on the size of the backfill on the replica:
+**Column storage overhead:**
 
 ```sql
 SELECT
@@ -232,7 +230,6 @@ SELECT
          WHERE tablename = 'new_issues' AND attname = 'traversal_ids')::bigint
         * (SELECT reltuples FROM pg_class WHERE relname = 'new_issues')::bigint
     ) AS estimated_column_size;
-
 ```
 
 ```
@@ -243,7 +240,7 @@ estimated_column_size
 
 #### Index storage
 
-The additional storage for the indexes:
+The additional storage for an indexes, in this case for the `created_at` index, and the index on `traversal_ids` itself:
 
 ```sql
 SELECT
@@ -271,23 +268,136 @@ for the following sorting options:
 
 -   `updated_at`
 -   `closed_at`
--   `state_id`
--   `work_item_type_id`
 
-### Effort of introducing traversal_ids
-
-While the overhead mentioned above are concerns in regards to the storage size of an already large table, there is also the concern to correctly
-set the `traversal_ids` on creation and keep the `traversal_ids` in sync when moving issues between projects.
-
-This is a significant investment, but we lack alternatives to keep queries on Postgres performant enough for large hierarchies.
-Based on the Security Insights team's rollout, we can [estimate around 3 milestones](https://gitlab.com/groups/gitlab-org/-/epics/12372) for this work. Although most of the time
-is waiting for backfill migrations to finish and our required stops to pass.
-
-#### Delay of syncing traversal_ids when moving namespaces
+### Considering the Delay of syncing traversal_ids when moving namespaces
 
 When moving issues from one namespace to another, we need to update all of the `traversal_ids`. This means that there is a timeframe where issues would not show up as this is done
 in a background job. Based on the Workers for updating `vulnerability_reads`, the P95 execution time of these jobs is within an acceptable range (<3 seconds) [[0](https://log.gprd.gitlab.net/app/lens?_g=%28filters%3A%21%28%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.class%2Cnegate%3A%21f%2Cparams%3A%28query%3A%27Sbom%3A%3ASyncProjectTraversalIdsWorker%27%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.class%3A%27Sbom%3A%3ASyncProjectTraversalIdsWorker%27%29%29%29%2C%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.job_status.keyword%2Cnegate%3A%21f%2Cparams%3A%28query%3Adone%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.job_status.keyword%3Adone%29%29%29%29%2Ctime%3A%28from%3Anow-1w%2Cto%3Anow%29%29#/?_g=h@97e8101)], [1](https://log.gprd.gitlab.net/app/lens?_g=%28filters%3A%21%28%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.class%2Cnegate%3A%21f%2Cparams%3A%28query%3A%27Vulnerabilities%3A%3AUpdateNamespaceIdsOfVulnerabilityReadsWorker%27%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.class%3A%27Vulnerabilities%3A%3AUpdateNamespaceIdsOfVulnerabilityReadsWorker%27%29%29%29%2C%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.job_status.keyword%2Cnegate%3A%21f%2Cparams%3A%28query%3Adone%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.job_status.keyword%3Adone%29%29%29%29%2Ctime%3A%28from%3Anow-1w%2Cto%3Anow%29%29#/?_g=h@97e8101)]
 
+## Table Size Challenge
+
+Before implementing traversal IDs, we must reduce the size of the `issues` table, as it is already a large table.
+The idea is similar to the existing `vulnerability_reads` table, but instead of copying data between an `issues` and `issues_reads` table, we want to trim down the `issues` table
+and remove data that we do not filter or sort for.
+
+This table decomposition is not just necessary for introducing the `traversal_ids` index, but also to reduce the size of the table long-term.
+
+### Current Storage Statistics
+
+The table has the following columns + indexes that use 2/3rd of its size:
+
+-   `description` (~20%)
+-   `description_html` (~32%)
+-   `index_issues_on_description_trigram_non_latin` (~10%)
+
+In addition, we have the following columns that use storage on the table but is not filtered by:
+
+-   `title` + `title_html` (~3%)
+-   `index_issues_on_title_trigram_non_latin` (~1%)
+-   `external_key` (<1%)
+-   `last_edited_at` (related to `description` modifiactions) (<1%)
+-   `last_edited_by_id` (related to `description` modifiactions) (<1%)
+-   `lock_version` (also related to `description` modifications) (<1%)
+-   `cached_markdown_version` (also related to `description` modifications) (<1%)
+-   `discussion_locked` (<1%)
+-   `moved_to_id` (<1%)
+-   `imported_from` (<1%)
+-   `promoted_to_epic_id` (<1%)
+-   `duplicated_to_id` (<1%)
+-   `service_desk_reply_to` (<1%)
+-   `time_estimate` (<1%)
+
+Ignoring the current bigint conversions, and `start_date`/`due_date` (since that will be at some point entirely queried from `work_item_dates_sources`)
+this would leave us with the following columns on the `issues` table:
+
+```
+
+                                                     Table "public.issues"
+                Column                 |            Type             | Collation | Nullable |              Default
+---------------------------------------+-----------------------------+-----------+----------+------------------------------------
+ id                                    | bigint                      |           | not null | nextval('issues_id_seq'::regclass)
+ title                                 | character varying           |           |          |
+ author_id                             | bigint                      |           |          |
+ project_id                            | bigint                      |           |          |
+ created_at                            | timestamp without time zone |           |          |
+ updated_at                            | timestamp without time zone |           |          |
+ milestone_id                          | bigint                      |           |          |
+ iid                                   | integer                     |           |          |
+ updated_by_id                         | bigint                      |           |          |
+ weight                                | integer                     |           |          |
+ confidential                          | boolean                     |           | not null | false
+ relative_position                     | integer                     |           |          |
+ closed_at                             | timestamp with time zone    |           |          |
+ closed_by_id                          | bigint                      |           |          |
+ state_id                              | smallint                    |           | not null | 1
+ health_status                         | smallint                    |           |          |
+ sprint_id                             | bigint                      |           |          |
+ blocking_issues_count                 | integer                     |           | not null | 0
+ upvotes_count                         | integer                     |           | not null | 0
+ external_key                          | character varying(255)      |           |          |
+ work_item_type_id                     | bigint                      |           |          |
+ namespace_id                          | bigint                      |           |          |
+ traversal_ids                         | bigint                      |           |          |
+```
+
+While the `work_items_data` (name tbd, but already using the `work_items` in the name, instead of sticking to `issues`) table would look the following:
+
+```
+                                                     Table "public.work_items_data"
+                Column                 |            Type             | Collation | Nullable |              Default
+---------------------------------------+-----------------------------+-----------+----------+------------------------------------
+ work_item_id                          | bigint                      |           | not null |
+ title                                 | character varying           |           |          |
+ description                           | text                        |           |          |
+ moved_to_id                           | bigint                      |           |          |
+ lock_version                          | integer                     |           |          | 0
+ title_html                            | text                        |           |          |
+ description_html                      | text                        |           |          |
+ time_estimate                         | integer                     |           |          | 0
+ service_desk_reply_to                 | character varying           |           |          |
+ cached_markdown_version               | integer                     |           |          |
+ last_edited_at                        | timestamp without time zone |           |          |
+ last_edited_by_id                     | bigint                      |           |          |
+ discussion_locked                     | boolean                     |           |          |
+ duplicated_to_id                      | bigint                      |           |          |
+ promoted_to_epic_id                   | bigint                      |           |          |
+ namespace_id                          | bigint                      |           |          |
+ imported_from                         | smallint                    |           | not null | 0
+```
+
+#### work_items_data table indexes
+
+For the new `work_items_data` table, we also keep using the same indexes we had before:
+
+```sql
+CREATE INDEX idx_issues_metadata_on_title_trigram ON issues_metadata USING gin (title gin_trgm_ops) WHERE title IS NOT NULL;
+CREATE INDEX idx_issues_metadata_on_description_trigram ON issues_metadata USING gin (description gin_trgm_ops) WHERE description IS NOT NULL;
+```
+
+## Partitioning
+
+In addition to decompose the table, we should also think about partitioning the table. Currently there are two ideas how this could be done:
+
+1. Partition by `root_namespace_id`
+2. Partition by `namespace_id`
+
+TODO: write pros/cons due to moving issues and potential change of `root_namespace_id` of an issue.
+
 ### Implementation plan
 
-TODO
+#### Phase 1: Table Restructuring
+
+1. Create `work_items_data` table schema
+2. Build dual-write system for issues using triggers
+3. Backfill existing issues metadata
+4. Update application code to query from the new table
+5. Update application code to only write to the new table
+6. Remove triggers and delete the columns
+
+#### Phase 2: Traversal ID Implementation
+
+1. Add `traversal_ids` column to reduced `issues` table
+2. Implement traversal ID calculation and maintenance
+3. Backfill traversal IDs for all existing issues
+4. Create required indexes
+5. Update query patterns to use traversal IDs
