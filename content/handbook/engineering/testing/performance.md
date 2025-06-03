@@ -15,31 +15,19 @@ flowchart LR
   end
 
   START((Start))
-  UNIT[[Performance checks in Unit Tests]]
-  PROFILE[[Profiling tools]]
-  OBSERVE_TEST[[Observability based Performance Testing]]
 
-  SPECS{Testing with\nnew unit tests?}
-  BUILT{Testing during\ndevelopment?}
-  UI{Testing user-facing\nperformance?}
-  ENV{Testing backend/API\nperformance?}
-  COMPONENT{Testing component\nperformance?}
-  OBSERVABILITY{Analyzing live\nperformance data?}
+  UI{Does a frontend page exist?}
+  ENV{Testing an endpoint?}
+  COMPONENT{Can the Component\nbe deployed independantly?}
 
-  START --> BUILT
-  BUILT -- no --> OBSERVABILITY
-  BUILT -- yes --> SPECS
-  SPECS -- yes --> UNIT
-  SPECS -- no --> PROFILE
+  START --> ENV
+
 
   UI -- yes --> GBPT
   UI -- no --> COMPONENT
 
   COMPONENT -- yes --> CPT
   COMPONENT -- no --> GPT
-
-  OBSERVABILITY -- yes --> OBSERVE_TEST
-  OBSERVABILITY -- no --> ENV
 
   ENV -- yes --> GPT
   ENV -- no --> UI
@@ -50,30 +38,24 @@ flowchart LR
   classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
   classDef kitStyle fill:#f0f8ff,stroke:#4a90e2,stroke-width:2px,color:#333;
 
-  class UI,ENV,BUILT,COMPONENT,SPECS,OBSERVABILITY decision;
-  class GBPT,CPT,GPT,PROFILE,UNIT,OBSERVE_TEST tool;
+  class UI,ENV,COMPONENT decision;
+  class GBPT,CPT,GPT tool;
   class START start;
   class PTK kitStyle;
 
-  %% Tool tooltips with links
-  click GPT "#system-level-load-testing" "GitLab Performance Tool - Load testing for GitLab instances and reference architectures"
-  click GBPT "#client-side-performance-testing" "Browser performance testing using SiteSpeed.io to measure user-facing performance"
-  click CPT "#component-performance-testing" "Load testing for specific subsystems or components like Gitaly"
-  click PROFILE "#profiling-tools" "Ruby profiling tools: ruby-prof, stackprof, memory_profiler, rbspy, and others"
-  click OBSERVE_TEST "https://handbook.gitlab.com/handbook/engineering/testing/observability_performance/" "Using existing Observability for Performance"
+  %% Tool links
+  click GPT "https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/quick_start.md"
+  click GBPT "https://gitlab.com/gitlab-org/quality/performance-sitespeed#running-tests"
+  click CPT "https://gitlab.com/gitlab-org/quality/component-performance-testing"
 
-  %% Decision node tooltips
-  click BUILT "javascript:void(0)" "Is the code/feature still under active development? Use early-stage performance tools if yes."
-  click SPECS "javascript:void(0)" "Are you writing new test specifications or adding performance assertions to existing tests?"
-  click UI "javascript:void(0)" "Are you primarily testing user-facing performance like page load times and UI responsiveness?"
-  click ENV "javascript:void(0)" "Are you testing server-side performance like API response times, database queries, or system throughput?"
-  click COMPONENT "javascript:void(0)" "Are you testing an isolated component or subsystem rather than the full GitLab application?"
+  %% Decision node links
+  click UI "#Does-a-frontend-page-exist"
+  click ENV "#Does-a-frontend-page-exist"
+  click COMPONENT "Can-the-Component-be deployed-independantly"
 
-  %% Unit testing tooltip
-  click UNIT "#performance-unit-testing" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
 ```
 
-### Server-side Performance Testing
+### Does a frontend page exist
 
 Existing performance testing includes:
 
@@ -83,15 +65,57 @@ Existing performance testing includes:
 
 This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
 
-### Component Performance Testing
+### Can the Component be deployed independantly
 
 We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
 
 * [Component Performance Testing](https://gitlab.com/gitlab-org/quality/component-performance-testing)
 
-### Client-side Performance Testing
+### Does a frontend page exist
 
 * [Browser performance testing](browser-performance-testing.md)
+
+## Future improvements
+
+```mermaid
+flowchart LR
+  START((Start))
+  UNIT[[Performance checks in Unit Tests]]
+  PROFILE[[Profiling tools]]
+  OBSERVE_TEST[[Observability based Performance Testing]]
+
+  SPECS{Testing with\nnew unit tests?}
+  BUILT{Testing during\ndevelopment?}
+  OBSERVABILITY{Analyzing live\nperformance data?}
+
+  START --> BUILT
+  BUILT -- no --> OBSERVABILITY
+  BUILT -- yes --> SPECS
+  SPECS -- yes --> UNIT
+  SPECS -- no --> PROFILE
+
+
+  OBSERVABILITY -- yes --> OBSERVE_TEST
+
+
+  %% Class definition
+  classDef decision fill:#f5f7f6,stroke:#333,stroke-width:1px,rx:5px;
+  classDef tool fill:#F28C6B,stroke:#333,stroke-width:1px,color:white,rx:5px;
+  classDef start fill:#03822d,stroke:#333,stroke-width:1px,color:white,rx:10px;
+
+  class BUILT,SPECS,OBSERVABILITY decision;
+  class PROFILE,UNIT,OBSERVE_TEST tool;
+  class START start;
+
+  %% Tool tooltips with links
+  click PROFILE "#profiling-tools"
+  click OBSERVE_TEST "https://handbook.gitlab.com/handbook/engineering/testing/observability_performance/"
+  click UNIT "#performance-unit-testing" "Add performance assertions and benchmarks directly within your unit test suite for fast feedback"
+
+  %% Decision node tooltips
+  click BUILT "javascript:void(0)" "Is the code/feature still under active development? Use early-stage performance tools if yes."
+  click SPECS "javascript:void(0)" "Are you writing new test specifications or adding performance assertions to existing tests?"
+ ```
 
 ### Performance Unit Testing
 
@@ -198,39 +222,3 @@ Some approaches to using these tools are detailed on the [profiling page](https:
 | [Cells Performance Dashboard](https://dashboards.gitlab.net/d/cells-main/cells3a-cells-performance?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-ops&var-environment=gprd) | First pass at creating an Observability Performance Dashboard in Grafana |
 | [Platform Triage Dashboard](https://dashboards.gitlab.net/d/general-triage/general3a-platform-triage?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-gprd&var-environment=gprd&var-stage=main) | the home page dashboard for our grafana, a common starting point for investigating performance in our Observability |
 | [Merge Request Performance Guidelines](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html) | Merge Request Performance Guidelines |
-
-## Future
-
-### Shift Performance Testing Left and Right
-
-Performance testing is not limited to the final stages of development or to load testing scenarios. It can and should be integrated throughout the entire software development lifecycle, from early stages (shift left) to production monitoring (shift right). This comprehensive approach allows teams to gain a holistic understanding of their system's performance characteristics. It can also be done on all [testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) not waiting for a full component or system to be ready for testing.
-
-Shifting left in performance testing involves:
-
-1. Early-stage performance considerations:
-    * Unit Testing: Utilizing performance-focused gems and frameworks during development.
-    * Profiling: Analyzing code execution, memory usage, and CPU utilization from the outset.
-    * Database Performance Testing: Assessing query performance and data access patterns early in development.
-2. Continuous performance awareness:
-    * Instrumenting Existing Tests: Capturing performance metrics from regular test runs.
-    * Observability Testing: Leveraging monitoring tools to identify performance trends before they become issues.
-    * Contract Testing: Defining and testing performance expectations at system boundaries.
-
-Shifting right involves:
-
-1. Production-level performance evaluation:
-    * Load Testing: Simulating real-world usage scenarios to understand system behavior under various loads.
-    * Stress Testing: Pushing the system beyond normal capacity to identify breaking points.
-    * Soak Testing: Evaluating performance over extended periods of continuous load.
-2. Ongoing performance monitoring:
-    * Real-time Observability: Continuously monitoring production systems for performance anomalies.
-    * User-centric Performance Metrics: Gathering and analyzing performance data from actual user interactions.
-
-By combining both left-shifted and right-shifted approaches, teams can create feedback loops that:
-
-* Identify potential performance issues earlier in the development cycle.
-* Continuously validate and improve performance throughout the application lifecycle.
-* Gain insights into real-world performance characteristics and user experiences.
-* Create a culture of performance awareness across development, operations, and business teams.
-
-It's important to note that performance results from one testing level may not directly translate to another. For example, a code change that improves a unit test runtime by one second will probably not result in a one-second improvement in production. However, these metrics serve as valuable indicators in a fast feedback loop, helping teams quickly identify potential performance impacts of code changes.
