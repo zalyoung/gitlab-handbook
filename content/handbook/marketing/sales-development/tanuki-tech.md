@@ -225,7 +225,7 @@ To qualify for promotions, sales development team members are required to keep u
 | Third month    | TT105, Getting Started for Sales Development, Sales Quick Starts | TT105, Getting Started for Business Development, Sales Quick Starts |
 | Second quarter | TT120, TTT201, T210, TT211, TT251 | TT120, TT201, TT210, TT211, TT251 |
 | Third quarter  | TT200, TT220, TT252, TT300 | TT200, TT220, TT252, TT300 |
-| Fourth quarter | Getting Started for Sales Development, TT301, TT310, TT330,  | TT301, TT330 |
+| Fourth quarter | Getting Started for Business Development, TT301, TT310, TT330,  | TT301, TT330 |
 
 To see your current progress, see [here](https://docs.google.com/spreadsheets/d/1P7QvZ09F8OT7LJTeMRYbu6_Oxjw9UdouaJ5Oeo8SU8k/edit?usp=sharing).
 
