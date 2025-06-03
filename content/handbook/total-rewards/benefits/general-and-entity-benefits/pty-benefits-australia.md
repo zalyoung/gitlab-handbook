@@ -62,7 +62,7 @@ Starting on 2023-07-27, Australian team members will be able to review their pla
 
 For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member’s health insurance remains in place, with the full cost of cover being their responsibility. BUPA’s customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they’re enrolled on.
 
-The Total Rewards team will inform BUPA of leaves on a monthly basis. 
+The Total Rewards team will inform BUPA of leaves on a monthly basis.
 
 #### Contact & Support for Enrollment, Plan Questions
 
@@ -404,7 +404,7 @@ In considering whether contact is unreasonable, think about:
 - the nature of the team member’s role and their level of responsibility; and
 - the team member’s personal circumstances.
 
-In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).
+In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 
 The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/work-conditions/awards/find-award).
 

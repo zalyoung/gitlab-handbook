@@ -22,7 +22,7 @@ Due to the high probability of discussing applicants, the recordings and documen
 1. To run an inclusive engineering internship program to provide all qualifying candidates with a fair and equal opportunity. This program allows us to create opportunities for candidates, diversify the experience levels of our teams, and bring fresh perspectives to our initiatives.
 1. To establish processes and support to give our successful internship applicants the best chance to successfully complete the internship and onboard in a full-time role at GitLab.
 
-This working group aims to build on the previous work from the [internship-pilot program](../internship-pilot) from 2020.
+This working group aims to build on the previous work from the [internship-pilot program](internship-pilot/) from 2020.
 
 ## Exit Criteria
 
