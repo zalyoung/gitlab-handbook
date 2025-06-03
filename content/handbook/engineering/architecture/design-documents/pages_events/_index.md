@@ -1,0 +1,198 @@
+---
+# This is the title of your design document. Keep it short, simple, and descriptive. A
+# good title can help communicate what the design document is and should be considered
+# as part of any review.
+title: Introduce Push Events for Pages
+status: proposed
+creation-date: "2025-06-03"
+authors: [ "@janis" ]
+coaches: [ "@username" ]
+dris: [ "@mmacfarlane", "@acroitor" ]
+owning-stage: "~plan::knowledge"
+participating-stages: []
+# Hides this page in the left sidebar. Recommended so we don't pollute it.
+toc_hide: true
+---
+
+<!--
+Before you start:
+
+- Copy this file to a sub-directory and call it `_index.md` for it to appear in
+  the design documents list.
+- Remove comment blocks for sections you've filled in.
+  When your document ready for review, all of these comment blocks should be
+  removed.
+
+To get started with a document you can use this template to inform you about
+what you may want to document in it at the beginning. This content will change
+/ evolve as you move forward with the proposal.  You are not constrained by the
+content in this template. If you have a good idea about what should be in your
+document, you can ignore the template, but if you don't know yet what should
+be in it, this template might be handy.
+
+- **Fill out this file as best you can.** At minimum, you should fill in the
+  "Summary", and "Motivation" sections.  These can be brief and may be a copy
+  of issue or epic descriptions if the initiative is already on Product's
+  roadmap.
+- **Create a MR for this document.** Assign it to an Architecture Evolution
+  Coach (i.e. a Principal+ engineer).
+- **Merge early and iterate.** Avoid getting hung up on specific details and
+  instead aim to get the goals of the document clarified and merged quickly.
+  The best way to do this is to just start with the high-level sections and fill
+  out details incrementally in subsequent MRs.
+
+Just because a document is merged does not mean it is complete or approved.
+Any document is a working document and subject to change at any time.
+
+When editing documents, aim for tightly-scoped, single-topic MRs to keep
+discussions focused. If you disagree with what is already in a document, open a
+new MR with suggested changes.
+
+If there are new details that belong in the document, edit the document. Once
+a feature has become "implemented", major changes should get new blueprints.
+
+The canonical place for the latest set of instructions (and the likely source
+of this file) is
+[content/handbook/engineering/architecture/design-documents/_template.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md).
+
+Document statuses you can use:
+
+- "proposed"
+- "accepted"
+- "ongoing"
+- "implemented"
+- "postponed"
+- "rejected"
+
+-->
+
+<!-- Design Documents often contain forward-looking statements -->
+<!-- vale gitlab.FutureTense = NO -->
+
+<!-- This renders the design document header on the detail page, so don't remove it-->
+{{< engineering/design-document-header >}}
+
+<!--
+Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
+
+For long pages, consider creating a table of contents.
+-->
+
+## Summary
+
+We replace Pages' internal API response caching with an event-based push
+mechanism that synchronises the Go processes' state with the Rails backend
+independently of browser requests. This would ensure both a reduced load on the
+internal API and improve performance for Pages sites independent of their popularity.
+
+
+## Motivation
+
+When a browser requestes a pages site, the Pages process requests the information about
+the location of the files, authentication instructions etc. from the Rails internal
+API.
+
+As the popularity of GitLab Pages grew, the load on the internal API increased, so
+we've introduced API response caching: The go process keeps the API response for that
+Pages domain in memory for about 5 minutes and won't refetch it from the API during
+that time.
+
+While this did relieve some load on the API, it has the drawback that Pages site updates
+are often not immediate, there may be version mismatches when multiple pages processes
+are involved. The caching also only has an effect for sites that are requested more often 
+than once per 5 minute interval. So a potential performance benefit is not available to
+the long-tail of less popular Pages sites.
+
+Moving to push state updates from Rails to Go instead of pulling it based on a browser
+request would not only reduce the load on the internal API by orders of magnitude, it
+would also improve the overall performance of Pages sites: We could entirely omit the
+need for a roundtrip to the Rails API that currently happens on every (un-cached)
+request.
+
+### Goals
+
+- Make Pages updates and deployments immediately available to the Pages go process
+- Reduce the load on the Pages API
+- Remove the need to make an inernal API request on every Pages request
+
+### Non-Goals
+
+<!--
+Listing non-goals helps to focus discussion and make progress. This section is
+optional.
+
+- What is out of scope for this document?
+-->
+
+## Proposal
+
+<!--
+This is where we get down to the specifics of what the proposal actually is,
+but keep it simple!  This should have enough detail that reviewers can
+understand exactly what you're proposing, but should not include things like
+API designs or implementation. The "Design Details" section below is for the
+real nitty-gritty.
+
+You might want to consider including the pros and cons of the proposed solution so that they can be
+compared with the pros and cons of alternatives.
+-->
+
+## Design and implementation details
+
+<!--
+This section should contain enough information that the specifics of your
+change are understandable. This may include API specs (though not always
+required) or even code snippets. If there's any ambiguity about HOW your
+proposal will be implemented, this is the place to discuss them.
+
+If you are not sure how many implementation details you should include in the
+document, the rule of thumb here is to provide enough context for people to
+understand the proposal. As you move forward with the implementation, you may
+need to add more implementation details to the document, as those may become
+valuable context for important technical decisions made along the way. A
+document is also a register of such technical decisions. If a technical
+decision requires additional context before it can be made, you probably should
+document this context in a document. If it is a small technical decision that
+can be made in a merge request by an author and a maintainer, you probably do
+not need to document it here. The impact a technical decision will have is
+another helpful information - if a technical decision is very impactful,
+documenting it, along with associated implementation details, is advisable.
+
+If it's helpful to include workflow diagrams or any other related images.
+Diagrams authored in GitLab flavored markdown are preferred. In cases where
+that is not feasible, images should be placed under `images/` in the same
+directory as the `index.md` for the proposal.
+-->
+
+1. Creating an internal state DB for Pages
+
+    We add an (ephemeral) database to the pages process, possibly with SQLite or 
+    something like [go-memdb](https://github.com/hashicorp/go-memdb). The database
+    receives its initial state on process startup by requesting all pages data
+    from Rails via a paginated API request.
+
+2. Connecting Pages to Redis
+
+    Pages will be connected to Redis and subscribed to Pages-specific events
+
+3. State updates via Redis Events
+
+    Whenever a change happens (deployment or settings change), a Redis event
+    referencing the changed domain will be created. Upon receiving this event,
+    the Pages process performs the internal API request for that domain and
+    updates its internal state accordingly.
+
+4. State synchronisation hardening
+
+    Since we're weakening the SSOT-approach to state with this we should also
+    think about how to ensure the state is eventually properly synchronised. 
+
+    We could compare the hashes the rails backend and the go DB produce at an
+    agreed-upon time, and refetch the state if it does not match, but belated
+    events may thwart that approach
+
+    We could regularly refetch the entire state from the API no matter what,
+    but the performance implications of that are unknown.
+
+    Or we could poll the data piecewise (every 5 minutes one domain will be
+    refetched).
