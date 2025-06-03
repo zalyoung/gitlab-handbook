@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through accessing and using Promethe
 
 ## Objectives
 
-The purpose of this lab is to walk you through using Prometheus Service, and how to view Prometheus metrics. To learn [more about Prometheus](https://docs.gitlab.com/ee/administration/monitoring/prometheus/) in the GitLab documentation.
+The purpose of this lab is to walk you through using Prometheus Service, and how to view Prometheus metrics. Learn [more about Prometheus](https://docs.gitlab.com/ee/administration/monitoring/prometheus/) in the GitLab documentation.
 
 ### Task A. Access the Prometheus Service
 
