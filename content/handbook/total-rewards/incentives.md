@@ -392,7 +392,7 @@ As we continue to prioritize the health and safety of our team members, GitLab i
 
 Recognizing that [GitLab Team Members](/handbook/communication/top-misused-terms/) may wish to share significant events in each other's lives, such as weddings or civil partnerships, GitLab will assist with travel expenses to attend these events. This grant works the same way as the [Visiting Grant](#visiting-grant), except the reimbursement limit is $300 per team member you visit at an event.
 
-## GitLab Ultimate with Duo
+## GitLab Ultimate with Duo Enterprise
 
 Every GitLab team member can request the [Ultimate](https://about.gitlab.com/pricing/#gitlab-com) tier for GitLab.com.
 In case a team member has separate private and work accounts on GitLab.com, they can request it for both. This incentive **does not** apply to groups owned by GitLab team members (Group-level Ultimate features such as epics will not be available for Ultimate GitLab team-member personal accounts, for instance).
@@ -401,10 +401,10 @@ In order to request Ultimate, please [submit this form](https://docs.google.com/
 
 Separately, GitLab team members can request a single seat Ultimate plan group with [Duo Enterprise](https://about.gitlab.com/gitlab-duo/#addons) for their *personal* account. Do not change the [group path](https://docs.gitlab.com/user/group/manage/#change-a-groups-path) for this group. If the subscription expires and you are still a GitLab team member, please re-request it.
 
-*The process to request Duo is still being implemented. Once ready, the incentive will be announced on Slack, and this paragraph will be updated. For progress, please follow [the proposal issue](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/1860).*
+*The process to request Duo Enterprise is still being implemented. Once ready, the incentive will be announced on Slack, and this paragraph will be updated. For progress, please follow [the proposal issue](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/1860).*
 
 These options are provided to encourage using all our features whenever possible as part of [dogfooding](/handbook/values/#dogfooding) our product.
 
-Ultimate and Duo will be removed from all relevant namespaces as part of offboarding.
+Ultimate and Duo Enterprise will be removed from all relevant namespaces as part of offboarding.
 
 The ownership of intellectual property (IP) created during your time as a GitLab team member is governed by your employment agreement. Choosing to develop and host this IP on a personal GitLab account that benefits from this incentive does not determine whether the IP is subject to your employment agreement's invention assignment provisions.
