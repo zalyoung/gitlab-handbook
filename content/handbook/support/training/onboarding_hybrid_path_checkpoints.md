@@ -33,7 +33,7 @@ Checkpoints for new starters who are working through their support hybrid learni
 ### Working in Support at GitLab
 
 - You are attending [crush sessions and started pairing](https://gitlab.com/gitlab-com/support/support-pairing/-/issues/?sort=popularity&state=all) for your training modules
-- You understand how to assign and [provide a first response on a ticket](/handbook/support/workflows/working-on-tickets#providing-a-first-response-to-a-ticket)
+- You understand how to triage, assign and [provide a first response on a ticket](/handbook/support/workflows/working-on-tickets#providing-a-first-response-to-a-ticket)
 - You understand the types of customer tickets that are being worked on by support engineers
 - You understand what your role as a support engineer entails
 - You know which teams and roles outside of Support work closely with Support Engineers
@@ -62,7 +62,7 @@ Checkpoints for new starters who are working through their support hybrid learni
 
 ### Refining Your Documentation
 
-- You can solve SaaS, Self-Managed, Dedicated and L&R tickets - your initial [Support Learning Pathway](/handbook/support/training/#support-learning-pathways) is complete!
+- You can triage/solve SaaS, Self-Managed, Dedicated and L&R tickets - your initial [Support Learning Pathway](/handbook/support/training/#support-learning-pathways) is complete!
 - You have confidence contributing to crush and pairing sessions
 - You have gotten to know more folks outside your region or outside of Support
 - You have started/working through the [Documentation module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Documentation.md?ref_type=heads)
