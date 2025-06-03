@@ -11,7 +11,7 @@ They provide casual time for socializing, sharing work, getting feedback, and mo
 
 ### Background
 
-After a successful first pilot for designers in EMEA time zones, [we expanded to more time zones](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2500) with several volunteer hosts. We even had an [in-person Studio at Summit 2024](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2520)! We [learned a lot](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2538) and wrote this guide so everyone could learn about them. For more detailes, see the 2024-02-21 UX Showcase: [recording](https://www.youtube.com/watch?v=kstErLPh2R0) and [slides](https://docs.google.com/presentation/d/1lJgC_Qq3K-EQLClkrvnmuXPvHi08iPHmJ-5gpl4RROo/edit#slide=id.g2b960221cc4_0_0).
+After a successful first pilot for designers in EMEA time zones, [we expanded to more time zones](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2500) with several volunteer hosts. We even had an [in-person Studio at Summit 2024](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2520)! We [learned a lot](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2538) and wrote this guide so everyone could learn about them. For more details, see the 2024-02-21 UX Showcase: [recording](https://www.youtube.com/watch?v=kstErLPh2R0) and [slides](https://docs.google.com/presentation/d/1lJgC_Qq3K-EQLClkrvnmuXPvHi08iPHmJ-5gpl4RROo/edit#slide=id.g2b960221cc4_0_0).
 
 ## Who can join
 
@@ -73,7 +73,7 @@ We measure success in two main ways:
 
 1. **Anytime**: Attendees can give feedback through the [anonymous survey](https://forms.gle/PzpoLQYaFwbdD2Vw6) shared on every call.
 1. **Quarterly review**: We look more closely at several aspects:
-  1. We encourage the attendees to complete the [anonymous feedback survey](https://forms.gle/PzpoLQYaFwbdD2Vw6), which we then [review the responses](https://docs.google.com/spreadsheets/d/1rk92hwNFuu_wXJbIUeP2QtqsWqfHBdJahDkZyX54ACc/edit?usp=sharing).
+  1. We encourage attendees to complete the [anonymous feedback survey](https://forms.gle/PzpoLQYaFwbdD2Vw6), and we then [review their responses](https://docs.google.com/spreadsheets/d/1rk92hwNFuu_wXJbIUeP2QtqsWqfHBdJahDkZyX54ACc/edit?usp=sharing).
   1. Attendees can join a retrospective discussion. See [all retrospective issues](https://gitlab.com/groups/gitlab-org/-/epics/18024).
   1. We report attendee satisfaction and attendance numbers in the retrospective issue.
 
