@@ -176,14 +176,14 @@ defaults, while teams with specialized requirements can leverage our sub-modules
 for finer control over their implementation structure. This flexibility ensures
 that both common use cases and complex requirements are well-supported.
 
-The modules will embody GitLab's infrastructure-as-code principles, with
-consistent interfaces, comprehensive testing, and extensive documentation. By
-establishing clear patterns and providing working examples, we enable teams to
-implement Cloudflare solutions confidently while maintaining organizational
-standards for security and compliance. This initiative will establish a
-sustainable foundation for Cloudflare usage across GitLab, with support for safe
-upgrades, consistent security practices, and collaborative improvement over
-time.
+The modules will embody GitLab's infrastructure-as-code principles, using
+Terraform as our preferred IaC platform, with consistent interfaces,
+comprehensive testing, and extensive documentation. By establishing clear
+patterns and providing working examples, we enable teams to implement Cloudflare
+solutions confidently while maintaining organizational standards for security
+and compliance. This initiative will establish a sustainable foundation for
+Cloudflare usage across GitLab, with support for safe upgrades, consistent
+security practices, and collaborative improvement over time.
 
 ### Core Components
 
