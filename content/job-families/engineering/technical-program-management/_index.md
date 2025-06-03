@@ -12,6 +12,7 @@ More information on the R&D PMO can be found on our team page.
 Technical Program Managers at GitLab work across a variety of different focus areas and business objectives. Their day-to-day responsibilities may vary, but there is an underlying set of core competencies that we expect all TPMs to meet. Beyond that, each TPM will have relevant domain expertise which can be technical, security, product, or marketing related. As TPMs move up the TPM job ladder, so should their ability to independently navigate these areas. 
 
 #### Program Management Fundamentals
+
 TPMs should first be experts in Program Management, with their relevant focus area as a secondary area of expertise. This includes knowledge and skill sets in:
 
 - Planning and execution excellence / accuracy
@@ -61,36 +62,35 @@ TPMs are often asked to resolve ambiguity and solve complex problems. Depending 
 
 | Independence → <br> Complexity ↓ | Guided Independence | Strategic Independence | Scaled Independence | Transformative Independence |
 |-----------------|--------------|-----------------|----------------|----------------|
-| *** Low Complexity *** | Level 6 TPM | Level 6 TPM | Level 7 Senior TPM <br> _Note: Level 7 is unlikely to work on low complexity efforts_ | Level 8 Staff TPM <br> _Note: Level 8  is unlikely to work on low complexity efforts_ |
-| *** Med Complexity *** | Level 6 TPM | Level 7 Senior TPM | Level 8 Staff TPM | Level 9 Principle TPM |
-| *** High Complexity *** | Level 7 Senior TPM | Level 8 Staff TPM | Level 9 Principle TPM | Level 9 Principle TPM |
-
+| **Low Complexity** | Level 6 TPM | Level 6 TPM | Level 7 Senior TPM <br> _Note: Level 7 is unlikely to work on low complexity efforts_ | Level 8 Staff TPM <br> _Note: Level 8  is unlikely to work on low complexity efforts_ |
+| **Med Complexity** | Level 6 TPM | Level 7 Senior TPM | Level 8 Staff TPM | Level 9 Principle TPM |
+| **High Complexity** | Level 7 Senior TPM | Level 8 Staff TPM | Level 9 Principle TPM | Level 9 Principle TPM |
 
 ### Levels of Independence
 
 Each level requires progressively greater judgment, accountability, and ability to operate effectively with less direct guidance while managing increasing levels of ambiguity and risk.
 
-1. Guided Independence
+#### Guided Independence
 
 - Owns complete workstreams or projects, with periodic oversight
 - Manages day-to-day and tactical decisions autonomously, within defined parameters
 - Establishes own processes and approaches
 - Identifies and mitigates most risks independently, but receives coaching on complex situations
 
-2. Strategic Independence
+#### Strategic Independence
 
 - Makes significant decisions with minimal consultation from direct-line manager
 - Could define program scope and direction, depending on focus area
 - Accountable for overall program outcomes
 - Manages complex stakeholder relationships
 
-3. Scaled Independence 
+#### Scaled Independence 
 
 - Oversees multiple programs or portfolios; makes decisions on these programs with a company-wide impact
 - Sets organizational standards and frameworks
 - Influences cross-functional leadership and strategic priorities / investments
 
-4. Transformational Independence
+#### Transformational Independence
 
 - Drives organizational change initiatives and creates new operational models
 - Establishes vision beyond current capabilities
@@ -98,7 +98,8 @@ Each level requires progressively greater judgment, accountability, and ability 
 - Pioneers approaches without precedent
 - Doesn’t ask what problems need to be solved, proactively finds large-scale problems and advocates for solving them
 
-*** Not included in the above table: Basic Supervision ***
+#### Not included in the above table: Basic Supervision
+
 - Least independent, suitable for internships of level 5 or below
 - Requires regular check-ins and guidance
 - Works within well-defined processes and boundaries
@@ -159,16 +160,18 @@ Growth could also include lateral moves into related technical leadership roles 
 
 The overall indicator of a TPM’s success is the completion of assigned programs that meet our overall business objectives. There are three metrics we can use to measure this:
 
-- *** Program Predictability & Risk Transparency: *** Measured by the percentage of project changes, cancellations, or major pivots that were communicated to stakeholders with adequate advance notice, ensuring no surprises even when programs don't reach completion.
-- *** Stakeholder-Reported Effectiveness: *** Measured through stakeholder feedback and interviews that evaluate the program manager's operational effectiveness in key areas including communication facilitation, planning execution, dependency management, and risk mitigation implementation. There is not a score to reach, rather this is a way to gauge whether a Program Manager is effectively partnering with key stakeholders to drive outcomes.
-- *** Process Efficiency Improvement: *** Measured by quantifiable improvements to development velocity, deployment frequency, or cycle time reduction that result from TPM-led process optimizations and standardizations.
+- **Program Predictability & Risk Transparency:** Measured by the percentage of project changes, cancellations, or major pivots that were communicated to stakeholders with adequate advance notice, ensuring no surprises even when programs don't reach completion.
+- **Stakeholder-Reported Effectiveness:** Measured through stakeholder feedback and interviews that evaluate the program manager's operational effectiveness in key areas including communication facilitation, planning execution, dependency management, and risk mitigation implementation. There is not a score to reach, rather this is a way to gauge whether a Program Manager is effectively partnering with key stakeholders to drive outcomes.
+- **Process Efficiency Improvement:** Measured by quantifiable improvements to development velocity, deployment frequency, or cycle time reduction that result from TPM-led process optimizations and standardizations.
 
 ## TPM IC Roles
 
 ### Technical Program Manager
+
 This position reports to Technical Program Management Leadership.
 
 #### Technical Program Manager Job Grade
+
 The role is a grade 6.
 
 #### Technical Program Manager Responsibilities
@@ -185,9 +188,11 @@ The role is a grade 6.
 - Technical background through education, professional experience, or demonstrated proficiency
 
 ### Senior Technical Program Manager
+
 This position reports to Technical Program Management Leadership.
 
 #### Senior Technical Program Manager Job Grade
+
 The role is a grade 7.
 
 #### Senior Technical Program Manager Responsibilities
@@ -208,9 +213,11 @@ The role is a grade 7.
 - (Depending on specialty) Technical degree in Engineering, or related technical field experience.
 
 ### Staff Technical Program Manager
+
 This position reports to Technical Program Management Leadership.
 
 #### Staff Technical Program Manager Job Grade
+
 The role is a grade 8.
 
 #### Staff Technical Program Manager Responsibilities
@@ -224,15 +231,18 @@ The role is a grade 8.
 - Define acceptance criteria for solutions, value proposition and milestones for execution; Validate prototypes with partners and iterate solutions as needed to deliver value.
 
 #### Staff Technical Program Manager Requirements
+
 - All requirements of previous roles plus:
 - 7+ years of experience in technical program/project management or equivalent
 - Strong analytical skills for assessing and recommending solutions based on data and research
 - Proven track record of complex, cross divisional program management and organizational change management
 
 ### Principle Technical Program Manager
+
 This position reports to Technical Program Management Leadership.
 
 #### Principle Technical Program Manager Job Grade
+
 The role is a grade 9.
 
 #### Principle Technical Program Manager Responsibilities
@@ -251,13 +261,14 @@ The role is a grade 9.
 - 10+ years of experience in technical program/project management or equivalent
 - Proven experience leading organizations through significant change, with positive outcomes for business objectives
 
-
 ## TPM Leadership Roles
 
 ### Manager, Technical Program Management
+
 This role manages a team of Technical Program Managers and reports to PMO leadership.
 
 #### Manager, Technical Program Management Job Grade
+
 The role is a grade 8.
 
 #### Manager, Technical Program Management Responsibilities
@@ -284,15 +295,19 @@ The role is a grade 8.
 - Prior experience as a people manager
 
 #### Manager, Technical Program Management - Performance Indicators
+
 Division Wide Operational Efficiency of programs within R&D
 
 #### Manager, Technical Program Management - Career Ladder
+
 The next step in the Manager, Technical Program Management role is to move to a Senior Manager, Technical Program Management role.
 
 ### Senior Manager, Technical Program Management
+
 This role manages a team of Technical Program Managers and reports to PMO leadership.
 
 #### Senior Manager, Technical Program Management Job Grade
+
 The role is a grade 9.
 
 #### Senior Manager, Technical Program Management Responsibilities
@@ -309,22 +324,28 @@ The role is a grade 9.
 - Please note: If the Senior Manager, Technical Program Management has less than 4 direct reports, some individual contributor responsibilities may be expected to be maintained.
 
 #### Senior Manager, Technical Program Management Requirements
+
 - All requirements of previous manager roles plus:
 - Experience developing and executing on strategic team development plans
 Ability to coach others on driving cross functional product-driven initiatives, without direct control of the programs
 - Proven ability to position oneself and the team as trusted partners and thought leaders
 
 #### Senior Manager, Technical Program Management - Performance Indicators
+
 Division Wide Operational Efficiency of programs within R&D
 
 #### Senior Manager, Technical Program Management - Career Ladder
+
 The next step in the Senior Manager, Technical Program Management role is to move to a Director, Technical Program Management role.
 
 ### Director, Technical Program Management
+
 Serves as the strategic leader for Technical Program Management across the Engineering, Security and Product organization, with executive-level influence over technical strategy, resource allocation, and organizational transformation.
 
 #### Director, Technical Program Management Job Grade
+
 The role is a grade 10.
 
 #### Director, Technical Program Management Responsibilities
+
 To Be Updated
