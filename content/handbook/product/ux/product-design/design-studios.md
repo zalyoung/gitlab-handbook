@@ -23,7 +23,7 @@ Studios are only for Product Design individual contributors (not managers). They
 
 As a product designer, your attendance is optional, but Studios work better when more people join, so please come if you can!
 
-You're invited to all available Design Studios — choose the one that work best for you. They're also on the [UX calendar](https://calendar.google.com/calendar/u/2?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+You're invited to all available Design Studios — choose the one that work best for you. They're also on the [UX calendar](/handbook/product/ux/ux-resources/#ux-department-google-calendar).
 
 ## Start a new Studio
 
@@ -42,7 +42,7 @@ Follow these steps after getting approval:
 1. Create Zoom meeting:
    1. Open Zoom app and select **Meetings** from the top bar.
    1. On the left sidebar, select the ⊕ icon to schedule a meeting.
-   1. Set the topic to `✨ Design studio <YOUR_STUDIO_NUMBER>`. Replace `<YOUR_STUDIO_NUMBER>` based on the scheduling order of the other Studios (check your calendar or the [UX calendar](https://calendar.google.com/calendar/u/2?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)). This follows the [multi-session meeting naming](/handbook/communication/#multi-session-meeting-naming).
+   1. Set the topic to `✨ Design studio <YOUR_STUDIO_NUMBER>`. Replace `<YOUR_STUDIO_NUMBER>` based on the scheduling order of the other Studios (check your calendar or the [UX calendar](/handbook/product/ux/ux-resources/#ux-department-google-calendar)). This follows the [multi-session meeting naming](/handbook/communication/#multi-session-meeting-naming).
    1. Set date, time, and 50-minute duration.
    1. Make it weekly with no end date.
    1. Leave attendees empty (they'll be added in calendar).
@@ -51,7 +51,7 @@ Follow these steps after getting approval:
    1. **Advanced Options**: Allow participants to join anytime, add any co-hosts.
    1. **Save** and copy your Zoom link ([screenshot](https://gitlab.com/gitlab-org/gitlab-design/uploads/fac456217ef6c3869e678ea0714d1225/CleanShot_20240408103944_2x.png)).
 1. Set up calendar event:
-   1. In the [UX calendar](https://calendar.google.com/calendar/u/2?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), open an existing Studio event.
+   1. In the [UX calendar](/handbook/product/ux/ux-resources/#ux-department-google-calendar), open an existing Studio event.
    1. Select the ⋮ icon, and then **Duplicate**.
    1. Update the Studio number in the title
    1. Set the same weekday and time as your Zoom meeting.
@@ -63,7 +63,7 @@ Follow these steps after getting approval:
 
 ### What next?
 
-1. Announce the new Studio in the #ux and #ux_coworking Slack channels.
+1. Announce the new Studio in the `#ux` and `#ux_coworking` Slack channels.
 1. Another host will try to join your first session to provide support.
 1. Check the [feedback survey responses](https://docs.google.com/spreadsheets/d/1rk92hwNFuu_wXJbIUeP2QtqsWqfHBdJahDkZyX54ACc/edit?usp=sharing).
 
