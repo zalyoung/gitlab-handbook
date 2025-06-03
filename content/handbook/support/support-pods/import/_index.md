@@ -1,19 +1,20 @@
 ---
-title: Import and Integrate Support Pod
-description: A dedicated group to work together on Import and Integrate based tickets.
+title: Import Support Pod
+description: A dedicated group to work together on Import based tickets.
 ---
 
 ## Purpose
 
-Creating a dedicated group to work together on Import and Integrate based tickets.
+Creating a dedicated group to work together on Import based tickets.
 
 This will allow everyone to gain more knowledge regarding the various GitLab integrations and an easier location to share the knowledge across regions.
 
 ## Current objectives
 
 - Collaborate on tickets related to:
-  - Import/Export of projects
-  - The various GitLab Integrations we have (as owned by the [Manage::Integrations group](https://about.gitlab.com/direction/foundations/#integrations))
+  - Import/Export of GitLab projects
+  - Migrations of GitLab resources between GitLab instances
+  - Imports from 3rd party providers to GitLab
 - Gain and share knowledge
 - Documentation updates
 
