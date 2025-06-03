@@ -12,10 +12,6 @@ Maintaining an effective and efficient agenda is important to get the best out o
 
 ## Conducting a 1-1
 
-We recorded a training about 1-1s which you can find here:
-
-{{< youtube "KUxxjGJv1dQ" >}}
-
 1. It's advisable to schedule 1-1's at least once a week.  The choice of synchronous or asynchronous meetings can be made by the manager and their direct report, depending on their preferences and needs. To avoid prolonged periods without face-to-face communication, it is preferable for the manager and their direct report to have a minimum of two regularly scheduled synchronous 1-1s every month, barring any PTO or leave from work.
    1. For example, some managers schedule 1-1s on alternating weeks, with one week for synchronous meetings and the next week for asynchronous meetings. This approach allows for more dedicated focus time and aligns with our priority of emphasizing asynchronous communication.
 1. Create a Google doc as the [agenda](#the-1-1-agenda) and set the sharing settings exclusively between you and the team member. This should not be a public document because performance feedback should be as private as possible.
@@ -51,19 +47,8 @@ We recorded a training about 1-1s which you can find here:
 1. Asking open ended questions is important. "You doing alright?" is a yes/no question. There is no room for an answer unless you dig and prod to get more. Instead asking things like "Tell me how you've been doing since we last talked" leave more room for discussion and result in something both more actionable and results driven. Your goal is not just to know how they are doing, but why they feel that way.
 1. Consider populating the agenda to the 1-1 meeting at least 24 hours in advance of the meeting. This will enable the direct report and manager mental space to think more critically about each topic.
 
-## Learning From the CEO on Conducting a 1-1
-
-The Learning & Development team and the CEO, discuss conducting a 1-to-1 in more detail during a handbook learning session.
-
-{{< youtube "TAcfRjqGzOs" >}}
-
 ## Career Development Discussion at the 1-1
-
-We recorded a training about career mapping which you can find here:
-
-{{< youtube "YoZH5Hhygc4" >}}
-
-These discussions should take place once a month and after the [360 Feedback](/handbook/people-group/360-feedback/) meeting has taken place. As a manager of people you play a crucial part in developing careers for your reports. This is for them but you should be able to support this process and help them achieve their goals. This is a join collaboration so prior to the meeting think about what questions to ask, specifically identifying **competencies(c)**, **skill gaps(sg)** and **career objectives (co)**. Adrienne Smith who wrote [increase employee retention with career pathing](https://www.geteverwise.com/human-resources/increase-employee-retention-with-career-pathing/) suggests the following:
+These discussions should take place once a month and after the [360 Feedback](/handbook/people-group/360-feedback/) meeting has taken place. As a manager of people you play a crucial part in developing careers for your reports. This is for them but you should be able to support this process and help them achieve their goals. This is a joint collaboration so prior to the meeting think about what questions to ask, specifically identifying **competencies(c)**, **skill gaps(sg)** and **career objectives (co)**. Adrienne Smith who wrote [increase employee retention with career pathing](https://www.geteverwise.com/human-resources/increase-employee-retention-with-career-pathing/) suggests the following:
 
 1. Which projects are you most proud of that you've finished here? (c)
 1. What is your favorite part of your job? (c)
