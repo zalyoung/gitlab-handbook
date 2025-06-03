@@ -38,9 +38,9 @@ IT Compliance (SOX, GRC)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How We Operate
 
-- [Agile Methodology as Operational Standard](/https://docs.google.com/presentation/d/1XAOalsNDOPvsunkMb2r5fwxdhRhhnNbzqdhwiXqxUaU/edit#slide=id.g12b319f6181_0_0).
-- [Engagement Model](/https://docs.google.com/presentation/d/1slrn20jIenBnm-wbCs9Dv9gTDax11NnrXygCL7yMev4/edit#slide=id.g12b319f6181_0_0)
-- [Major Incident Management](/https://docs.google.com/presentation/d/14F8-odTSEWQ0OS53oMJ-o6hDflplKkYsO4o9tww2uVw/edit#slide=id.p1)
+- [Agile Methodology as Operational Standard](https://docs.google.com/presentation/d/1XAOalsNDOPvsunkMb2r5fwxdhRhhnNbzqdhwiXqxUaU/edit#slide=id.g12b319f6181_0_0).
+- [Engagement Model](https://docs.google.com/presentation/d/1slrn20jIenBnm-wbCs9Dv9gTDax11NnrXygCL7yMev4/edit#slide=id.g12b319f6181_0_0)
+- [Major Incident Management](https://docs.google.com/presentation/d/14F8-odTSEWQ0OS53oMJ-o6hDflplKkYsO4o9tww2uVw/edit#slide=id.p1)
 - Change Management (Coming Soon)
 - Release Management (Coming Soon)
 - New Application SOX Compliance Review (Coming Soon)

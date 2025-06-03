@@ -142,7 +142,7 @@ Performance against Job Family responsibilities, requirements, performance indic
   - Example: [Software Engineer in Test](/job-families/engineering/software-engineer-in-test#performance-indicators)
 - *(if applicable)* [Functional Competencies](/handbook/people-group/competencies/#functional-competencies)
 
-For management roles, please also review and consider the [levels](/handbook/company/structure/#levels) outlined in the Organizational Structure.
+For management roles, please also review and consider the [levels](/handbook/company/structure/#layers) outlined in the Organizational Structure.
 
 #### GitLab Competencies
 

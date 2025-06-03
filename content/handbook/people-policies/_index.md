@@ -342,7 +342,7 @@ The handbook also has a wealth of information and recommendations for setting up
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
 - [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
-- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
+- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
 **Working Time Regulations**
@@ -402,7 +402,7 @@ To ensure the physical and mental health and safety of our team members in New Z
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
 - [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
-- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
+- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
 
 **Data Protection/Privacy Policy**
 
