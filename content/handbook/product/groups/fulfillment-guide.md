@@ -47,6 +47,14 @@ Not all Fulfillment features are available at the time for all types of customer
 
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
 
+## Internal GitLab Duo license requests
+
+The [team member license process](/handbook/security/customer-support-operations/docs/team_member_licenses/) handled by Support Operations allows for generation of a legacy license file for team members looking to test or use GitLab Premium or Ultimate on a Self-managed instance. This license type is not compatible with GitLab Duo.
+
+- For testing of GitLab Duo, a staging cloud license can be provided to team members. Please submit a request in the Slack channel [#g_provision](https://gitlab.enterprise.slack.com/archives/C01BPM66KNE).
+- In specific situations only, if a production cloud license is required for testing GitLab Duo, a $0 subscription may be created. Please reach out to the Order Management team to discuss in the Slack channel [#sales-support](https://gitlab.enterprise.slack.com/archives/CNLBL40H4).
+- Please note that legacy licenses are valid until expiration but a cloud license will require active staging or production data within Zuora and CustomersDot. If you have lost access during a staging refresh, please reach out in #g_provision.
+
 ## Temporary renewal extensions
 
 Sales Rep can generate a temporary extension via SFDC for one of the approved reasons. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/subscriptions/self_managed/#subscription-expiry)).
