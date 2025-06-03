@@ -19,14 +19,12 @@ toc_hide: true
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< engineering/design-document-header >}}
 
-
 ## Summary
 
 We replace Pages' internal API response caching with an event-based push
 mechanism that synchronises the Go processes' state with the Rails backend
 independently of browser requests. This would ensure both a reduced load on the
 internal API and improve performance for Pages sites independent of their popularity.
-
 
 ## Motivation
 
@@ -60,7 +58,6 @@ request.
 ## Proposal
 
 ## Design and implementation details
-
 
 1. Creating an internal state DB for Pages
 
