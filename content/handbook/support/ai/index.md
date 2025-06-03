@@ -102,6 +102,8 @@ This approach ensures you stay engaged with the problem-solving process while le
 
 This is a self-assessment. If you're still developing your technical troubleshooting skills or learning how to communicate effectively with customers, focus on building those fundamentals before adding AI to your workflow.
 
+Before using AI on active tickets, try using AI to solve 3-5 already resolved tickets with different problem types. This gives you insight into what AI is good for and where it struggles to move you forward.
+
 You are ready to use AI when:
 
 1. Knowledge foundation
