@@ -114,15 +114,15 @@ Our Engagement Survey for FY'26 is scheduled to run from 2025-06-16 to 2025-06-2
 
 ### FY'26 Annual Engagement Survey Timeline
 
-- 2025-06-16: Survey launch @ 8am PT
-- 2025-06-27: Survey close @ 5pm PT
+- 2025-06-16: Survey launch @ 8am PT/3pm UTC
+- 2025-06-27: Survey close @ 5pm PT/2025-06-28 12am UTC
 - 2025-07-01: High-level summary shared with People Leadership Team
 - 2025-07-03: High-level summary & Culture Amp reports shared with E-Group
 - Week of 7th July: Functional Leaders level reports shared in CultureAmp*
 - Week of 7th July: All People Managers level reports shared in CultreAmp*
 - Week of 14th July : High-level summary release (company-wide) and followed by handbook updates
 - Week of 14th July: Division-level results summary shared by division leaders
-- Weeak of 1st August - Finalize company wide action plans
+- Week of 1st August - Finalize company wide action plans
 
 *Only leaders with 5 or more respondents will receive a report in CultreAmp
 
@@ -214,7 +214,6 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [People](https://gitlab.com/groups/gitlab-com/-/epics/2420)
 - [LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/work_items/2399)
-
 
 <details>
   <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>
