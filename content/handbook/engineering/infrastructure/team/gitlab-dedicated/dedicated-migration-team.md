@@ -35,6 +35,6 @@ Successfully manage incoming migrations through FY26Q2 and FY26Q3 and establish 
 
 - [GitLab group](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group)
 - [GitLab project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/dedicated-migrations)
-- [Migrating Customers to Dedicated internal documentation](migrating-customers-to-dedicated.md)
+- [Migrating Customers to Dedicated internal documentation](https://internal.gitlab.com/handbook/engineering/dedicated/migrating-customers-to-dedicated/)
     
 ## Process
