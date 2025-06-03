@@ -716,6 +716,7 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
 #### Closed Won
 
 A Service Attached Registration is classified as Closed Won when all of the following criteria are met:
+
 - Service Attach Approval Date field contains a value
 - Service Attach Registration status is Approved
 - Opportunity stage is marked as Closed Won
@@ -724,6 +725,7 @@ A Service Attached Registration is classified as Closed Won when all of the foll
 #### Most Likely
 
 The Most Likely category captures opportunities where Directors have completed forecast entries. This rollup encompasses both Closed Won opportunities and active deals that meet the following requirements:
+
 - Close date falls within the selected timeframe
 - Partner Services Amount is greater than $0
 - PSP Engaged field = True
@@ -731,6 +733,7 @@ The Most Likely category captures opportunities where Directors have completed f
 #### Open Pipeline
 
 Open Pipeline follows the same criteria as Most Likely, with the exclusion of Closed Won opportunities. Opportunities appear in this category when they satisfy these conditions:
+
 - Close date falls within the selected timeframe
 - Partner Services Amount is greater than $0
 - PSP Engaged field = True
