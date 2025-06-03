@@ -187,13 +187,13 @@ Available Case Statuses:
 
 [FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=0#gid=0)
 
-#### 150+ License Deals
+#### GitLab Sales Rep Pre-Engagement Checklist
 
-If you begin working a deal that is requesting 150+ licenses, take the following additional steps:
-
-- Double-check employee count on LinkedIn
-- Confirm employee count with the prospect
-- Mention your manager in Chatter on the Account that you have taken these steps and confirmed the Account information
+- [Account Verification](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Additional Large Account Verification](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Account Data Validation](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Account Ownership Considerations](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Request Support](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
 
 ### Cross-Team Collaboration
 
