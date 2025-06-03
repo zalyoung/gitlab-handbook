@@ -23,7 +23,6 @@ Here is a [real sample of an evaluation](https://gitlab.com/gitlab-com/gl-securi
 
  Threat model examples can be found in the [AppSec Threat Models repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models)(internal link). This also includes templates for threat modeling that anyone can use in issues or epics.
 
-
 ## Threat Modeling Within GitLab
 
 The most common use of threat modeling within a tech company like GitLab is our code base. The Security Team has developed a threat modeling "framework" for Engineering with the following in mind:
