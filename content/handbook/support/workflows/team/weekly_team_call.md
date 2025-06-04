@@ -59,7 +59,7 @@ creates a comment and assigns it to the appropriate person.
 If the notetaker is not available and has not picked a substitute, follow the
 rotation to the first person who is on the call to determine a replacement.
 
-During the AMER team call, [notetaking](/handbook/company/culture/all-remote/live-doc-meetings/#notetaking-and-structure-during-the-meeting) follows GitLab Meeting Best Practices on [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/). Anyone not speaking is encouraged to help take notes.
+During the AMER team call, [notetaking](/handbook/company/culture/all-remote/live-doc-meetings/#note-taking-and-structure-during-the-meeting) follows GitLab Meeting Best Practices on [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/). Anyone not speaking is encouraged to help take notes.
 
 ## Agenda sections
 

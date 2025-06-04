@@ -124,6 +124,7 @@ SELECT
   Restricted_Account__c,
   Solutions_Architect_Lookup__r.Name,
   Support_Hold__c,
+  Support_Instance__c,
   (
     SELECT
       Id,
