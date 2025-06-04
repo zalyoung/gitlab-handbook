@@ -635,7 +635,8 @@ The Lead should be chosen based on the type of incident, for example:
 ### Timeline
 
 The incident Timeline is available on the incident in the incident.io web interface by changing "Highlights" to "All Activity" in the Activity section towards the bottom of the page.
-Items can be added to the timeline via the :pushpin: (📌) emoji reaction to a Slack post within the incident channel.
+Items can be added to the timeline via the `:pushpin:` (📌) or `:star` (⭐) emoji reaction to a Slack post within the incident channel. If you react with the `:pushpin:`, a public comment will
+be left on the GitLab incident issue. If you react with a `:star:`, it will add an internal comment to the GitLab incident issue. 
 
 ### Labeling
 
