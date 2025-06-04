@@ -131,12 +131,12 @@ The [Single Source of Truth](/handbook/company/culture/all-remote/remote-work-gl
 for information about Support Team Members - everything from email address and
 personal interests to product skills and group memberships - is the
 [support-team project](https://gitlab.com/gitlab-support-readiness/support-team).
-The [Support Team Home Page](https://gitlab-support-readiness.gitlab.io/support-team/) is
-built from the information in that file. Many other Support tools and
+The [Support Team Home Page](https://gitlab-com.gitlab.io/support/team-pages/) is
+built from the information in that project. Many other Support tools and
 automations make use of it also. See the
 [Support team entry page](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry)
 of the [Support Team wiki](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/home)
-for details of the structure of the file.
+for details of the structure of an individual Support team member's file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
 
