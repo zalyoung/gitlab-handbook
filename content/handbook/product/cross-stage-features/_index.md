@@ -23,9 +23,9 @@ The tables below show the ownership of integrations living in the GitLab codebas
 
 | Integration | DRI Group | Rationale |
 |---|---|---|
-| Akismet | group Anti-Abuse | Security monitoring integration |
-| Arkose Protect | group Anti-Abuse | Security monitoring integration |
-| ReCAPTCHA | group Anti-Abuse | Security monitoring integration |
+| Akismet | group Authorization | Security monitoring integration |
+| Arkose Protect | group Authorization | Security monitoring integration |
+| ReCAPTCHA | group Authorization | Security monitoring integration |
 
 #### CI/CD Integrations
 
