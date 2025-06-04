@@ -107,7 +107,7 @@ If a change is reported late in the release cycle or not reported at all, your f
 
 - **Urgent Issues:** Slack `#g_distribution` channel
 - **Feature Requests:** [Deliverables Request](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/new?issuable_template=Architectural-Deliverables-Request) issue
-- **General Questions:** Ping `@gitlab-org/build` in relevant issues
+- **General Questions:** Ping `@gitlab-build` in relevant issues
 - **Merge Request Reviews:** Use our [merge request workflow](merge_requests.html#workflow) for Build team projects
 
 ### For Support Requests
