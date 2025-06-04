@@ -431,7 +431,8 @@ Exit Criteria:
 - Application settings can be configured per ring by default.
 - Application settings can be overriden for individual cells.
 - Cells secrets are kept the same across all cells.
-- Validation and regression testing for cells is setup.
+- Validation and regression testing for cells (with/without Router, on deploy, on cells config change) is setup.
+- Regression testing for [not supported features](#features-on-gitlabcom-that-are-not-supported-on-cells) are quarantined.
 - Production fixtures are seeded including an admin user with an initial organization.
 
 Before/After:
