@@ -48,14 +48,23 @@ implemented as a single _file system_ MCP Server.
 
 ##### The new MCP approval system
 
-Because MCP Server on its own define a set of tools for agents to use, they could be translated to agent privileges used in the current system
-where each agent privilege represent a tools bucket, that can be granted to a workflow.
-Following that approach each MCP Server will constitute an agent privilege eg: `GitLab Epics MCP Server` would have corresponding `giltab_epics` agent privilege
-In the new MCP based approach workflow admins will enable and pre approve MCP rather then a tool buckets.
+In order to integrate MCP Servers into the current tool approval system, which batch tools into buckets and grants users ability to enforce approval, or even fully disable some tools for thier workflows,
+MCP Servers will be treated as stande alone tool buckets, that users could gate with approvals, or disable at will.
 
-In addition following MCP [tools discovery API](https://modelcontextprotocol.io/docs/concepts/tools#tool-discovery-and-updates) the MCP bucket system can be furhter broken down
-into more granular per tool controll system
+Following that approach each MCP Server will constitute an agent privilege eg: `GitLab Epics MCP Server` would have corresponding `giltab_epics` agent privilege.
+In the new MCP based approach workflow admins will enable and pre approve MCPs rather then a tool buckets.
 
+In addition [`message McpTool`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/94e861a26c6209970a1337111814ba105d58ec03/contract/contract.proto#L147) protobuff contract should
+include new field `server_id` that is going to identify owning MCP Server, and tie each tool with corresponding approval rule.
+
+Furthermore Group and Project Admins will be given new settings page to configure MCPs approvals permissions, that is going to stored inside a new table `duo_workflow_mcps` in GitLab Rails PostgreSQL DB.
+In order to extend MCPs support beyong GitLab owned MCPs, Admins will be allowed to _install_ custom MCPs for their groups (and projects). Installation of a new MCP will result in
+a new record being added to `duo_workflow_mpcs` table. Furthermore in case of custom MCPs, Admins should be able to _uninstall_ an MCP. That capability won't be allowed for GitLab MCPs, which could only be disabled.
+
+**Tool level approvals**
+
+In situations when current bucket based approval system is too broad, forcing Admins to either pre approve tools that they won't be fully comfortable with, or hindering productivity with excessive approvals for tools that are being considered safe to use, it should be possible to suplement the current approach with a per tool based extension. MCP protocol define [tools discovery API](https://modelcontextprotocol.io/docs/concepts/tools#tool-discovery-and-updates) wich is used by MCP clients discover available tools, by pluggin into this API GitLab could extract list of available tools from each of installed MCP servers.
+That tools list then should be presnted to Admins as a drill down option of general high level MCP approval settings section.
 
 #### Delivery and packaging
 
