@@ -30,6 +30,28 @@ Here are some links to get us started:
 * [Team tasks](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues): For all non-product related team issues
 * [Async updates](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues/?label_name%5B%5D=async%20update)
 
+### Frontend-Backend Collaboration
+
+We aim to foster high levels of collaboration between frontend and backend engineers to ensure
+development velocity and code quality.
+
+* **Schema-first development**: Before implementation begins, frontend and backend engineers collaborate
+  to design a GraphQL API schema based on UI requirements, user experience needs, and performance considerations.
+* **Parallel development processes**: Once the schema is agreed upon, the frontend can proceed
+  using mock data, mock endpoints, or API stubs that match the agreed schema. The backend can
+  focus on implementing the data model, business logic, and actual API schema.
+* **Maintaining alignment**: We value great communication. When requirements or schema need to change, we communicate
+  early through the relevant GitLab issue or in [`#g_workflow_catalog`](https://gitlab.enterprise.slack.com/archives/C08T5J1KXKQ)
+  so our frontend or backend counterparts stay informed of all changes and can provide feedback early to avoid late-stage blockers.
+
+### Our tech stack
+
+* GraphQL [backend](https://docs.gitlab.com/development/api_graphql_styleguide/) and
+  [frontend](https://docs.gitlab.com/development/fe_guide/graphql/). All new schema items must be
+  [marked experimental](https://docs.gitlab.com/development/api_graphql_styleguide/#mark-schema-items-as-experiments)
+  to let us making breaking changes when we need.
+* GraphQL [subscriptions](https://docs.gitlab.com/development/fe_guide/graphql/#subscriptions) rather than polling.
+
 ## Team meetings
 
 ### Workflow Catalog: Group meeting
