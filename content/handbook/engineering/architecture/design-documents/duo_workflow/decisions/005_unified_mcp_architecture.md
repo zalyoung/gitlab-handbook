@@ -99,7 +99,14 @@ See [discovery procedure built in the PoC](https://gitlab.com/gitlab-org/editor-
 
 ## Decision
 
+All new tools should be implemented as part of a GitLab owned MCP server. 
+The currently existing tools implemendted as part of executors, should be deprecated and their development should be frozeen,
+they may remain in use as long as there won't be any change required. If a change to a tool implmented by executors will be required,
+that tool should be moved into a GitLab owned MCP server.
 
+In addition there should be a new group created under https://gitlab.com/gitlab-org/duo-workflow to house all GitLab owned MCPs
+As well as automation like [renovate bot](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot) should be configured to automatically 
+propage MCP servers releases to dependant repositories.
 
 ## Consequences
 
@@ -111,11 +118,14 @@ See [discovery procedure built in the PoC](https://gitlab.com/gitlab-org/editor-
   - Simplified interoperabitlity of GitLab owned integrations across different execution environment including CI runners, and various IDEs
   - Opportunity to expose some of GitLab owned integrations (eg: GitLab API) as official GitLab MCP servers
   - Ability to versions tools
+  - Improved backwards compatibility
 
 - **Cons**  
-  - Increased role of additional actor (Workhorse) in Duo Workflow architecture
+  - A risk of overindexing on a new protocol, that might be subjected to changes, or might get superseded in the future
+  - Negative impact on executor start up time caused by added overhead related to launch of broad set of MCP servers
     
 
 ## Open questions:
 
-1. Which programimng languages should be supported for GitLab maintained MCP Servers? At the current moment available [SDKs](https://modelcontextprotocol.io/introduction) include: Python, TypeScript, Java, Kotlin, C# and Swift
+1. Which programimng languages should be supported for GitLab maintained MCP Servers? At the current moment available [SDKs](https://modelcontextprotocol.io/introduction) include: Python, TypeScript, Java, Kotlin, C#, Swift and Ruby
+1. What will be the impact of starting up multiple MCP servers on workflows time to first response, should some warmup procedure be considered?
