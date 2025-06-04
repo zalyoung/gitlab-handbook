@@ -442,11 +442,12 @@ Details:
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14514)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_7)
 
-### Phase 8: Organization Onboarding
+### Phase 8: Organization Readiness
 
 Exit Criteria:
 
-- [Supported features](#features-on-gitlabcom-that-are-not-supported-on-cells) are validated to work on cells.
+- Core set of features (TBD, like project-level features) are validated to work on cells.
+- Regression testing for the core of set of features is setup.
 
 Before/After:
 
