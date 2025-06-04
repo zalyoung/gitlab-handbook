@@ -34,7 +34,7 @@ Under this model, an application which an organisation may continue to provide b
 
 ### Tracking
 
-In order to facilitate tracking of vulnerabilities across multiple branches, the core of what we are attempting to track can be disolved into a single sentence:
+In order to facilitate tracking of vulnerabilities across multiple branches, the core of what we are attempting to track can be dissolved into a single sentence:
 
 "What significant detail has occurred regarding this vulnerability at this point in the codebases's history?"
 
@@ -52,11 +52,104 @@ The vast majority of feature branches do not make any changes to state of a vuln
 
 Having the pipeline that was the source of the change in the vulnerability means we can trace a vulnerability's presence in the codebase by retrieving the commit sha associtate with the CI pipeline and querying Gitaly using  [ListBranchNamesContainingCommitRequest](https://gitlab-org.gitlab.io/gitaly/#gitaly.ListBranchNamesContainingCommitRequest). This operation will tell us which branches contain the commit sha queried for, allowing us to identify all branches a respective vulnerability exists in.
 
-![Before](Multi%20Branch%20Vulnerabilities%20Behaviour.png)
+```mermaid
+flowchart TD
+    subgraph Branch: main
+        B(commit 1)
+        B --> C(commit 2)
+        C --> D(commit 3)
+        D --> E(commit 4)
+    end
+
+    subgraph Branch: Feature 2
+        E --> F(commit 5)
+
+    end
+
+    subgraph Vulnerability Resolved
+        F --> K
+        K[
+            Vulnerabilities::StateTransition
+                to_state: :resolved
+                vulnerability_id: 1
+                pipelined_id: 5
+        ]
+    end
+
+    B --> G
+    subgraph New Vulnerability Detected
+        G[
+        Vulnerabilities::StateTransition
+            to_state: :detected
+            vulnerability_id: 1
+            pipelined_id: 1
+        ]
+    end
+
+
+    subgraph Branch: Feature 1
+        C --> I(commit 6)
+    end
+
+    I --> J
+    subgraph New Vulnerability Detected
+        J[
+        Vulnerabilities::StateTransition
+            to_state: :detected
+            vulnerability_id: 2
+            pipelined_id: 6
+        ]
+    end
+
+```
 
 *A repository is created and committed to repeatedly. When a vulnerability is resolved in a feature branch we identify this by an appropriate Vulnerability::StateTransition. A vulnerability found in a new branch is defined with a new Vulnerability::StateTransition*
 
-![After](./Multi%20Branch%20Vulnerabilities%20Behaviour%20After%20Merge.png)
+```mermaid
+flowchart TD
+    subgraph Branch: main
+        B(commit 1)
+        B --> C(commit 2)
+        C --> D(commit 3)
+        D --> E(commit 4)
+        E --> F(commit 5)
+    end
+
+    B --> G
+    subgraph New Vulnerability Detected
+        G[
+        Vulnerabilities::StateTransition
+            to_state: :detected
+            vulnerability_id: 1
+            pipelined_id: 1
+        ]
+    end
+
+
+    subgraph Branch: Feature 1
+        C --> I(commit 6)
+    end
+
+    I --> J
+    subgraph New Vulnerability Detected
+        J[
+        Vulnerabilities::StateTransition
+            to_state: :detected
+            vulnerability_id: 2
+            pipelined_id: 6
+        ]
+    end
+
+    subgraph Vulnerability Resolved
+        F --> K
+        K[
+            Vulnerabilities::StateTransition
+                to_state: :resolved
+                vulnerability_id: 1
+                pipelined_id: 5
+        ]
+    end
+```
 
 *The feature branch in which the vulnerability was resolved is merged into the main branch. Because it's commit now exists in the main branch, our data does not need to change to still correctly reflect the new state.*
 
@@ -92,7 +185,7 @@ However, it is likely that we would not want to keep a materialization of the re
 
 As a mitigation to avoid holding redundant vulnerability report data forever when a user may need it only temporarily, we can probably use the vulnerability history to generate a ref's report on demand, with some UI/UX elements to ask the user to wait while we process and generate the necessary materialised rows. This may mitigate the need to hold too much data when it may only be needed for a short duration.
 
-We could potentially consider implementing usage based pricing for users which want to keep up to track vulnerabilities for a substantial amount of refs at a single time. This may help mitigate storage costs associated with the large amount of data materialisation, and could serve to encourage users to be more considerate about the importance of what refs they would like to track.
+There are several ways we can tradeoff between branch coverage and the associated storage costs. This tradeoff is not currently in-scope for this design doc. We will chose a justifiable starting point for branch coverage and review our position at a later date.
 
 Because vulnerability_reads are essentially just a materialzed view of information from our source of truth tables, there's no danger in destructing and rebuilding it (as long as we don't disrupt users). As such, should usage grow to such an extent that we need dedicated storage for this denormalized information, this table could be very easily decomposed to a dedicated database.
 
