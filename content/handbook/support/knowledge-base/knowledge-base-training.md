@@ -17,3 +17,4 @@ Training Courses:
 - [Support Engineer (Knowledge Worker)](https://docs.google.com/document/d/1zEJHhkIxdhYFnOEJrzw3uinXhrvKtvA17Gn7AmZR9yg/edit?usp=sharing)
 - [Technical Reviewer (Knowledge Champion)](https://docs.google.com/document/d/1AYjeR9PhhQud9dOpabh8ZzRQEzWNKMhfb7nO0G-0tkw/edit?usp=sharing)
 - [How to Review a Knowledge Article](https://docs.google.com/document/d/1AYjeR9PhhQud9dOpabh8ZzRQEzWNKMhfb7nO0G-0tkw/edit?usp=sharing)
+- [How to Link a Knowledge Article to a Support Ticket](https://docs.google.com/document/d/1fazexUjnEyXQ_R_mJ5f7bYtydOD00Xl1plcOjtwd-9w/edit?usp=sharing)
