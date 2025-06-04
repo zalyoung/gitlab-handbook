@@ -24,17 +24,17 @@ This will update future auto-generated invoices. Updating the information in Cus
 To change the name in `SFDC`:
 
 1. Find an open Opportunity in the SFDC Account.
-1. [Follow the steps here](https://handbook.gitlab.com/handbook/legal/customer-negotiations/#how-to-reach-the-legal-commercial-team) to open a `Legal Request`.
-    - Select `Assignment/Transfer/Novation Agreement` as the `Type of Legal Request`.
-    - Select `Assist with answering legal question or questionnaire` under `Summary of actions(s)`.
-    - Enter the Zendesk ticket link and a summary of the request in the `Notes` field.
-    - Upload the legal proof of organization name change document shared by the customer.
+1. [Follow the steps here](/handbook/legal/customer-negotiations/#how-to-reach-the-legal-commercial-team) to open a `Legal Request`.
+   - Select `Assignment/Transfer/Novation Agreement` as the `Type of Legal Request`.
+   - Select `Assist with answering legal question or questionnaire` under `Summary of actions(s)`.
+   - Enter the Zendesk ticket link and a summary of the request in the `Notes` field.
+   - Upload the legal proof of organization name change document shared by the customer.
 1. After getting the approval from Legal, open a Sales Ops case:
-    - From the SFDC account page, click on `Request Support`.
-    - Choose `Sales Ops` and click `Next`.
-    - Choose `Account name changes` under `General Account Support` dropdown.
-    - Copy and paste the link to the Legal case above.
-    - Click `Submit`
+   - From the SFDC account page, click on `Request Support`.
+   - Choose `Sales Ops` and click `Next`.
+   - Choose `Account name changes` under `General Account Support` dropdown list.
+   - Copy and paste the link to the Legal case above.
+   - Click `Submit`
 
 Once you get a confirmation from Sales Ops, confirm that the Organization name in Zendesk is also updated. Then let the customer know that the name change has been completed.
 
