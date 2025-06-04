@@ -221,6 +221,45 @@ If a customer has additional questions after receiving the follow-up email, the 
 
 If the customer comes back with additional questions to the AE or RM, please feel free to redirect them to the CSE who had the call previously with the customer.
 
+### Capturing and Recording CSE Engagement Outcomes
+
+Capturing clear and concise outcomes after each Customer Success Engineer (CSE) engagement is crucial. These outcomes help demonstrate the value provided to the customer, inform account teams, and provide valuable insights for product development and process improvement.
+
+Given the focused and often brief nature of CSE interactions, our primary goal is to document how our actions *enabled* the customer, what *potential* was unlocked, or the *intent* behind the guidance provided.
+
+**Core Format for Outcome Statements:**
+
+We aim to capture the essence of the engagement with the following structure:
+
+`[Your Specific Action] which equipped/guided/enabled the customer to [Achievable Customer Next Step/Capability] aiming for/to potentially achieve [Intended Benefit or Improvement].`
+
+**Quick Examples:**
+
+* **Problem Resolution & Technical Guidance:** "Resolved customer's Geo sync issue by providing troubleshooting steps and identifying a replication error, allowing them to restore Geo functionality and monitor performance."
+* **Enablement & Feature Adoption:** "Guided customer on Scan Execution Policies by demonstrating setup and best practices, equipping them to begin implementing automated security scans to potentially strengthen their DevSecOps posture."
+* **Strategic Advice & Resource Provision:** "Provided guidance on migration strategies from self-managed to SaaS and shared relevant documentation and planning considerations, enabling the customer to proceed with their migration planning with increased confidence."
+
+**Key Reminders for Recording Outcomes:**
+
+* **1-2 Sentences Max:** Keep it brief and impactful.
+* **Action Verb First:** Start with what *you* did (e.g., Guided, Resolved, Advised, Shared, Demonstrated).
+* **Focus on Enablement & Intent:**
+    * What did you *equip* the customer to do next?
+    * What was the *intended positive outcome* or potential benefit of your guidance? (Many outcomes show customers "will explore" or "plan to").
+* **Capture Qualitative Cues:** Note if the customer expressed understanding (e.g., "customer confirmed they were good for now"), satisfaction (e.g., "Customer happy with email and information"), or stated their next steps (e.g., "customer is off to create a workflow using MR dependencies" [cite: 199]). This provides valuable context.
+* **Be Specific:** "Advised on CI/CD" is okay, but "Advised on CI/CD pipeline efficiency using caching to reduce build times" is better.
+* **Acknowledge CSE's Role:** Your input is key. Focus on the value and potential you delivered, even if broader customer changes also depend on their internal factors (team readiness, processes, etc.).
+
+**Recording Engagements with No Direct Customer Outcome:**
+
+For situations where a direct customer outcome isn't achieved (e.g., referral, no engagement, out of scope), briefly note the action taken:
+
+* **Example (Referral):** "Referred to Support for advanced troubleshooting on [specific issue]." [cite: 18]
+* **Example (No Engagement):** "Closed due to no customer engagement after 3 attempts and AE notification." [cite: 7]
+* **Example (Out of Scope):** "Determined request out of scope for CSE; directed to SA for pre-sales assistance." [cite: 9, 10, 535]
+
+Documenting these interactions accurately helps us understand customer needs comprehensively and refine our engagement strategies. The collective insights from these recorded outcomes are invaluable for cross-functional teams, including Product, Engineering, and Marketing, to better understand real-world customer experiences and challenges.
+
 ## CSE Useful Link Signpost
 
 QBR : [Template](https://docs.google.com/presentation/d/1YlEpP81DlZd5rSqKKlxZclHY8ZDT6U1y342QFVt4qhA/edit?usp=sharing) / [CSE Cases Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/d7283d4f-4314-4bb8-a3f2-13b32a532ad7) /  [CSE Manager Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/b6c9482d-e9b8-4167-951e-f67b908cdf37)
