@@ -3,7 +3,6 @@ title: Knowledge Base Features and Roadmap
 description: This section provides the features requested or being worked on, along with our Knowledge Roadmap 
 ---
 
-
 We have features and requests that are being addressed and considered as part of our knowledge article process. These features are collected from feedback from you all, areas we need to see growth in, as well as enhancements that will help knowledge flow. 
 
 **This table provides an overview of what we are working on IN PROGRESS**
