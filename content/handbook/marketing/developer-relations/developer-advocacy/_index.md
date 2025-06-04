@@ -69,7 +69,7 @@ While our team can influence people at each stage, our focus is on Awareness, Co
 - views from content published across owned and earned channels
 - developers engaged through webinars, workshops, and industry events
 - Developer Relations influenced pipeline (pipeline influenced by campaigns that are leveraging DevRel's content) and
-- active community members 
+- active community members
 
 We recognize these KPIs don't capture the impact of the diverse range of work that our team does but understand that tradeoffs can be necessary to effectively communicate our impact within GitLab.
 
