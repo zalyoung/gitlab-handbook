@@ -295,7 +295,7 @@ Some approaches to using these tools are detailed on the [profiling page](https:
 
 | Page | Description |
 | ---- | ----------- |
-| [Performance Strategy & Measurement](/handbook/engineering/development/performance.md) | GitLab's overall performance strategy, targets, and measurement approach |
+| [Performance Strategy & Measurement](/handbook/engineering/performance.md) | GitLab's overall performance strategy, targets, and measurement approach |
 | [Profiling page](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/profiling.md) | Documentation on profiling approaches for GitLab |
 | [Observability for stage groups](https://docs.gitlab.com/ee/development/stage_group_observability/index.html) | Documentation on Observability focused at Stage Groups |
 | [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) | Performance Bar for analyzing performance in running GitLab instances |
