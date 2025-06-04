@@ -32,7 +32,7 @@ Vulnerability Explaination is enabled for all SAST vulnerabilities.
 
 #### Vulnerability Resolution
 
-Vulnerability Resolution is enabled for a specific set of CWEs documented at [Supported vulnerabilities for Vulnerability Resolution](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution).
+Vulnerability Resolution is enabled for SAST vulnerabilities, only for a specific set of CWEs documented at [Supported vulnerabilities for Vulnerability Resolution](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution).
 
 We determine whether a vulnerability supports Vulnerability Resolution based on its CWE identifier. This support is tracked using two mechanisms:
 
