@@ -35,10 +35,11 @@ Note: For a more Detailed outline of these features read more about them [Featur
 |Training (all knowledge aspects) created and shared                     | Completed May 2025         |
 |SuperForm and sync repositories deprecated                              | Removed May 2025           |
 
-
 Interested in the Knowledge Management Roadmap?
 - [Knowledge Roadmap slides](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g351e0dd3be2_1_0#slide=id.g351e0dd3be2_1_0)
 
 **Additional Resources**
+
 - [Knowledge Management Slides](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g3445c7f3436_2_41#slide=id.g3445c7f3436_2_41)
+
 - [Slack Channel](https://join.slack.com/share/enQtODk4NzU4MDIxOTA2Mi01ZjJjODAwNGI0MTJlMGU5YjljNTdkNWNjMGQ1NGRlNDdjNWQ3ZGMzNDQ1NGI1NzA5NTVlNWE5Y2ZhNjZiZDVm)
