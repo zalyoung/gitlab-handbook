@@ -70,7 +70,7 @@ We use the JTBD framework for viewing products and solutions in terms of the job
 
 ### Design Reviews
 
-View how we collect [synchronous and asyncrhonous design feedback](/handbook/product/ux/product-designer/#design-reviews).
+View how we collect [synchronous and asynchronous design feedback](/handbook/product/ux/product-designer/#design-reviews).
 
 ### Design Studios
 

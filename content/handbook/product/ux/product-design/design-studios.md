@@ -7,7 +7,7 @@ description: "What are Design Studios for product designers, and how to join or 
 
 Design Studios (or just Studios) are regular meetings for product designers to connect and work together. These meetings aren't limited to specific teams - any product designer can join.
 
-They provide casual time for socializing, sharing work, getting feedback, and more. They help fill the gap between async and larger sync meetings. With just a few designers meeting together, we can build better personal and work relationships. These benefits should also help us work better when we're not in meetings.
+They provide casual time for socializing, sharing work, getting feedback, and more. They help fill the gap between async and larger sync meetings. With just a few designers meeting together, we can build better personal and work relationships. This should also help us work better together outside these meetings.
 
 To track issues related to these meetings, you can use the ["Design studios" label](https://gitlab.com/gitlab-org/gitlab-design/-/issues?label_name[]=Design%20studios) in the GitLab Design project.
 
@@ -17,7 +17,7 @@ After a successful first pilot for designers in EMEA time zones, [we expanded to
 
 ## Who can join
 
-Studios are only for Product Design individual contributors (not managers). They're meant to be a safe space, and we only share materials with other product designers. We discussed including managers but worried fewer people would participate. Still, hosts try to share relevant discussions more widely while keeping people anonymous when needed.
+Studios are only for Product Design individual contributors (not managers). They're meant to be a safe space where we only share materials with other product designers. We discussed including managers but were worried that fewer people would participate. Hosts are responsible for sharing relevant discussions more widely while keeping people anonymous when needed.
 
 ## How to join
 
@@ -29,7 +29,7 @@ You're invited to all available Design Studios — choose the one that work best
 
 Want to help start a new Studio? Great! Thanks for your interest.
 
-Before starting, please [contact us](#contact) to discuss the need for a new Studio and how we can make it successful.
+Before adding a new Studio, please [contact us](#contact) to discuss the need for a new Studio and ways to make it successful.
 
 <details>
 <summary>Steps to start a new Studio</summary>
