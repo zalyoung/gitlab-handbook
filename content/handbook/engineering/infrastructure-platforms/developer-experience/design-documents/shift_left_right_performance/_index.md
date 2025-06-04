@@ -94,7 +94,7 @@ By adopting a broader range of performance engineering practices, we can take a 
 
 ### Goals
 
-* More complete documentation on Performance Engineering practices in [the handbook page](/handbook/engineering/testing/performance/)
+* More complete documentation on Performance Engineering practices in [the handbook page](/handbook/engineering/testing/performance-tools/)
 * Develop a plan for adopting these practices across all Engineering teams.
 * Create a culture of performance awareness throughout the entire software development lifecycle.
 * Improve early detection and resolution of performance issues.
