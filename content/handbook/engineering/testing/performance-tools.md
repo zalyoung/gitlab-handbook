@@ -10,18 +10,20 @@ Performance Testing is a broad discipline that includes various approaches to ev
 flowchart LR
   subgraph PTK["Performance Testing Kit"]
     GPT[[GitLab Performance Tool]]
-    GBPT[[GitLab Browser Performance Tool]]
     CPT[[Component Performance Testing]]
+    GBPT[[GitLab Browser Performance Tool]]
   end
 
   START((Start))
 
-  UI{Does a frontend page exist?}
-  ENV{Testing an endpoint?}
-  COMPONENT{Can the Component\nbe deployed independantly?}
+  ENV{Testing API/backend\nperformance?}
+  UI{Testing page load\nperformance?}
+  COMPONENT{Testing a specific\ncomponent in isolation?}
 
   START --> ENV
 
+  ENV -- yes --> GPT
+  ENV -- no --> UI
 
   UI -- yes --> GBPT
   UI -- no --> COMPONENT
@@ -29,8 +31,6 @@ flowchart LR
   COMPONENT -- yes --> CPT
   COMPONENT -- no --> GPT
 
-  ENV -- yes --> GPT
-  ENV -- no --> UI
 
   %% Class definition
   classDef decision fill:#f5f7f6,stroke:#333,stroke-width:1px,rx:5px;
@@ -49,33 +49,48 @@ flowchart LR
   click CPT "https://gitlab.com/gitlab-org/quality/component-performance-testing"
 
   %% Decision node links
-  click UI "#Does-a-frontend-page-exist"
-  click ENV "#Testing-an-endpoint"
-  click COMPONENT "Can-the-Component-be deployed-independantly"
+  click UI "#Testing-Page-Load-Performance"
+  click ENV "#Testing-API-or-Backend-Performance"
+  click COMPONENT "Testing-Components-in-Isolation"
 
 ```
 
-### Testing an endpoint
+### Testing API or Backend Performance
 
-Existing performance testing includes:
+Use GPT when you want to test how your APIs, database queries, or backend services perform under load. This includes testing response times, throughput, and system behavior under various load conditions.
 
-* [Gitlab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
-* [Reference Architecture server performance testing](../infrastructure-platforms/gitlab-delivery/framework/reference-architecture-validation-testing.md)
-* [Gitlab Performance Tool Quickstart](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/quick_start.md)
+**When to use:**
 
-This testing is predominately run against our Reference Architectures, but can be run against a live environment. Caution should be applied when running against shared environments as this can notably impact any results.
+- Testing REST API endpoints
+- Validating database query performance
+- Load testing backend services
+- Reference architecture validation
 
-### Can the Component be deployed independantly
+### Testing Components in Isolation
 
-We can run load tests on specific sub components. This can be a subsystem (like Gitaly) or a specific server. This testing can be focused on validating that we have optimal loading on that subsystem.
+Use Component Performance Testing to run load tests on individual services or components that can be deployed and tested separately from the main GitLab application.
 
-* [Component Performance Testing](https://gitlab.com/gitlab-org/quality/component-performance-testing)
+**When to use:**
 
-### Does a frontend page exist
+- Load testing a new microservice (like Gitaly, Registry, or Workhorse)
+- Testing component changes before integration
+- Validating that component modifications don't introduce performance regressions
+- Isolating performance issues to specific services
 
-* [Browser performance testing](browser-performance-testing.md)
+### Testing Page Load Performance
+
+Use GBPT to measure how fast your pages load for users, including metrics like Time to First Byte, Largest Contentful Paint, and other Core Web Vitals.
+
+**When to use:**
+
+- Testing frontend performance
+- Measuring page load times
+- Validating user experience metrics
+- Browser-based performance testing
 
 ## Future improvements
+
+These tools have not been implemented and will complement the Performance Testing Kit and enhance our ability to detect performance problems early.
 
 ```mermaid
 flowchart LR
@@ -120,9 +135,54 @@ flowchart LR
 
 ### Testing with new unit tests
 
+Add performance assertions directly to your unit tests to catch performance regressions early in development. This provides fast feedback on code changes without requiring separate performance test suites.
+
+**When to use:**
+
+- Writing new unit tests and want to include performance validation
+- Adding performance checks to existing test coverage
+- Ensuring critical methods maintain acceptable performance thresholds
+- Catching performance regressions during code review
+
+**Example approaches:**
+
+- Execution time assertions (method completes under X milliseconds)
+- Memory allocation limits (method allocates fewer than Y objects)
+- Database query count validation
+
 ### Testing during development
 
+Use lightweight profiling tools while actively developing to understand performance characteristics of your code before it reaches production.
+
+**When to use:**
+
+- Optimizing algorithm performance during development
+- Understanding memory usage patterns in new features
+- Identifying performance bottlenecks in work-in-progress code
+- Getting quick feedback on code changes without full test suites
+
+**Example tools:**
+
+- Code profilers for CPU and memory analysis
+- Database query analyzers
+- Benchmarking utilities for comparing implementations
+
 ### Analyzing live performance data
+
+Leverage existing monitoring and observability data to identify performance issues and validate improvements using real production metrics.
+
+**When to use:**
+
+- Investigating performance issues reported by users
+- Validating that performance improvements are effective in production
+- Understanding real-world performance patterns
+- Correlating code changes with production performance metrics
+
+**Example approaches:**
+
+- Dashboard analysis of key performance indicators
+- Log-based performance trend analysis
+- Correlation of deployment events with performance changes
 
 ### Performance Unit Testing
 
