@@ -95,10 +95,6 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 - Plan for an additional 15-30 minutes after your shift ends to allow for cross-region handovers.
 - Start your day by checking for emergencies currently in progress from the previous shift. You will be expected to be the DRI for any emergency tickets (or find a replacement DRI) which have not yet been de-escalated/resolved. This ensures that all team members can leave as soon as possible after their shift ends.
 - Emergencies are unpredictable, so remember that your main objective this week is to deliver results for customers who contact CEOC.
-- When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM)—`cc @user` is good enough—if the customer has one (see [this workflow for how to identify CSMs](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm)). This creates visibility around the situation and opens the door to let the team join in.
-- Take good notes in Slack help others follow along, and help you with your follow-ups after the call.
-- Try to communicate complete ideas rather than snippets of thought. Something like "that's not good" as a response to something happening within the call isn't as helpful as "gitaly timings are really high".
-- Take and share screenshots of useful info the customer is showing you. Make sure you're not sharing anything sensitive. Let the customer know you're taking screenshots: "Could you pause there? I want to screenshot this part to share with my team".
 - You may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
 - 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help.
 - Help with the Global queue as you can
@@ -148,6 +144,9 @@ As the CEOC you will work with the customer along with other Support Engineers t
    - Example of self-managed emergency ticket which was resolved without a call: <https://gitlab.zendesk.com/agent/tickets/148028>
 1. Only Resolve the PagerDuty alert *after* you have contacted the customer. This means that you are actively handling the emergency now and will see it through.
 1. Use the PagerDuty message in `#support_self-managed` or `#support_gitlab-com` to start a Slack thread. This ensures that everyone coming into the ensuing discussion can easily identify the corresponding emergency ticket.
+1. Start taking notes in the Slack to help others follow along, and help you with your follow-ups after the call.
+1. Try to communicate complete ideas rather than snippets of thought. Something like "that's not good" as a response to something happening within the call isn't as helpful as "gitaly timings are really high".
+1. Take and share screenshots of useful info the customer is showing you. Make sure you're not sharing anything sensitive. Let the customer know you're taking screenshots: "Could you pause there? I want to screenshot this part to share with my team".
 1. After 15 minutes, if the customer has not responded to our initial contact with them, send a follow up message covering the following points:
     - The bridge created to work on the emergency.
     - If the customer is not able to join immediately, we can make other arrangements.
