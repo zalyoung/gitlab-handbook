@@ -3,7 +3,7 @@ title: Cloudflare Standardization across GitLab
 status: proposed
 creation-date: "2025-05-20"
 authors: [ "@jcstephenson" ]
-coaches: [ "@cfeick" ]
+coaches: [ "@cmiskell", "@cfeick" ]
 dris: [ "@jcstephenson", "@sabrams" ]
 owning-stage: "~devops::platforms"
 participating-stages: []
