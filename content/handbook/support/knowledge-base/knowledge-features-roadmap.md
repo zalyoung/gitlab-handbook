@@ -20,10 +20,12 @@ We have features and requests that are being addressed and considered as part of
 |Article Review process for relevancy. Ensures articles are up to date.  | Investigating   |                                                                                     |
 |KCS Dashboard Metrics .                                                 | Investigating   |                                                                                     |
 |Content Standards. Formatting, Links work, spelling, etc.               | Investigating   | [Issue 6887](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6887) |
+|Suggest articles BEFORE a customer submits a ticket based on keywords   | Investigating   |                                                                                     |
+|Add Technical Reviwers to the Skills Page                               | In Progress     |                                                                                     |       
 
-Note: For a more Detailed outline of these features read more about them [Feature and Status Phase 2](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g35224d618b1_0_0#slide=id.g35224d618b1_0_0)
+- Note: For a more Detailed outline of these features read more about them [Feature and Status Phase 2](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g35224d618b1_0_0#slide=id.g35224d618b1_0_0) 
 
-**This table provides an overview of what has been COMPLETED**
+### This table provides an overview of what has been **COMPLETED**
 
 | Feature                                                                | Status                     |
 |:---------------------------------------------------------------------- | :--------------------------|
