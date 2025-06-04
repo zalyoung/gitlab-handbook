@@ -15,7 +15,6 @@ toc_hide: true
 
 {{< engineering/design-document-header >}}
 
-
 ## Summary
 
 This document describes the architecture and implementation approach for
