@@ -57,7 +57,7 @@ This work directly supports the ["Next Rate Limiting Architecture" blueprint](..
 - Migration of existing rate limit configurations to use this schema
 - Building a user interface for managing configurations defined in this schema ([phase 3](_index.md#phase-3-implement-a-rate-limit-interface))
 - Defining specific rate limit values (the schema defines the structure, not the actual limit values)
-- Creating a centralized rate limiting service (phase 3)
+- Creating a centralized rate limiting service ([phase 3](_index.md#phase-3-implement-a-rate-limit-interface))
 
 ## Proposal
 
@@ -100,7 +100,9 @@ rate_limits:
   git_basic_auth:  # Unique identifier for this rate limit
     description: Limits basic authentication requests per IP to prevent abuse
     actors: ip_address  # Actors (ip_address, user, group)
-    group: group::authentication  # GitLab group that owns this rate limit
+    feature_category: system_access
+    enabled: true
+    action: block  # Action (block, log)
     limit:
       threshold: 600  # Number of requests
       period: "1m"  # Time period (s=seconds, m=minutes, h=hours, d=days)
@@ -108,7 +110,9 @@ rate_limits:
   project_exports:  # Unique identifier for this rate limit
     description: Limits number of project exports a user can initiate
     actors: user  # Actors (ip_address, user, group)
-    group: group::export  # GitLab group that owns this rate limit
+    feature_category: importers
+    enabled: true
+    action: log  # Action (block, log)
     limit:
       threshold: 5  # Number of requests
       period: "1d"  # Time period (s=seconds, m=minutes, h=hours, d=days)
