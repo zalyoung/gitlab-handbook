@@ -3,7 +3,7 @@ title: Compensation Calculator
 manual_cookiebot: true
 ---
 
-**As of May 30, 2025, the compensation calculator has been retired as part of our [Job Architecture project](/handbook/total-rewards/compensation/#job-architecture-project-update).
+**As of May 30, 2025, the compensation calculator has been retired as part of our [Job Architecture project](/handbook/total-rewards/compensation/#job-architecture-project-update).**
 
 ## Current Team Members
 
