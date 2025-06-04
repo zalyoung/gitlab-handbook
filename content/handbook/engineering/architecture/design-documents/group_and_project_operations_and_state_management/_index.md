@@ -13,6 +13,8 @@ participating-stages: []
 toc_hide: true
 ---
 
+{{< engineering/design-document-header >}}
+
 ## Summary
 
 This blueprint proposes a unified state management and tracking system for GitLab namespaces (groups and projects), as well as guidelines on making state-related operations asynchronous.
