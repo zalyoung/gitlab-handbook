@@ -316,20 +316,14 @@ To generate a script the issue, do the following things:
 #### Pipeline ✏️generate_sql
 
 The ✏️generate_sql job is a manually triggered job in the GitLab `CI/CD` pipeline that generates SQL scripts based on provided parameters. It runs in the 📚scripting stage of the pipeline.
-
-* Required Environment Variables
-
 To run this job successfully, the following environment variables must be set:
 
-* `DATE_FROM`: Start date for the data range to process in the format `YYYY-MM-DD`
-* `DATE_TO`: End date for the data range to process in the format `YYYY-MM-DD`
-
+* Required Environment Variables:
+    * `DATE_FROM`: Start date for the data range to process in the format `YYYY-MM-DD`
+    * `DATE_TO`: End date for the data range to process in the format `YYYY-MM-DD`
 * Optional Environment Variables
-
-The following environment variables are optional:
-
-* `LOG_LEVEL`: Sets the logging verbosity (defaults to `DEBUG` if not provided). Allowed values: `[DEBUG|INFO|WARNING|ERROR|CRITICAL]`
-* `DATABASE_PREFIX`: Optional prefix for database objects or connections. If value is not provided, then PROD code is generated (`RAW`, `PREP`, `PROD`). Otherwise, enter prefix for the database name i.e. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`.
+    * `LOG_LEVEL`: Sets the logging verbosity (defaults to `DEBUG` if not provided). Allowed values: `[DEBUG|INFO|WARNING|ERROR|CRITICAL]`
+    * `DATABASE_PREFIX`: Optional prefix for database objects or connections. If value is not provided, then PROD code is generated (`RAW`, `PREP`, `PROD`). Otherwise, enter prefix for the database name i.e. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`.
 
 ![pipeline_editor.png](/images/enterprise-data/snowplow/pipeline_editor.png)
 
@@ -356,4 +350,23 @@ scripts/
 ├────2_update.sql # fix script to update
 ├────3_check.sql  # check script
 ├────4_drop.sql   # drop backup script
+```
+
+Usually, the flow will require the pipeline to be executed twice (not necessarily):
+1. For testing databases, the parameter `DATABASE_PREFIX` will have a value as a prefix of development databases (ie. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`) and the code will be generated like:
+
+```sql
+...
+UPDATE "22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING_PREP".SNOWPLOW_2025_01.SNOWPLOW_UNNESTED_EVENTS
+   SET page_url_path = update_procedure(p_userid=userid)
+...
+```
+
+2. For the production database, the parameter `DATABASE_PREFIX` will be skipped. Code will look like:
+
+```sql
+...
+UPDATE PREP.SNOWPLOW_2025_01.SNOWPLOW_UNNESTED_EVENTS
+   SET page_url_path = update_procedure(p_userid=userid)
+...
 ```
