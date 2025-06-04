@@ -40,7 +40,7 @@ For long pages, consider creating a table of contents.
   - [Filters](#filters)
   - [Error handling](#error-handling)
 - [Getting started](#getting-started)
-- [Migration existing dashboards](#migrating-existing-dashboards)
+- [Migrating existing dashboards](#migrating-existing-dashboards)
 
 ## Summary
 
