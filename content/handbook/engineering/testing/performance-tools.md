@@ -10,7 +10,7 @@ Performance Testing is a broad discipline that includes various approaches to ev
 flowchart LR
   subgraph PTK["Performance Testing Kit"]
     GPT[[GitLab Performance Tool]]
-    CPT[[Component Performance Testing]]
+    CPT[["Component Performance Testing (alpha)"]]
     GBPT[[GitLab Browser Performance Tool]]
   end
 
@@ -68,14 +68,36 @@ Use GPT when you want to test how your APIs, database queries, or backend servic
 
 ### Testing Components in Isolation
 
-Use Component Performance Testing to run load tests on individual services or components that can be deployed and tested separately from the main GitLab application.
+Use Component Performance Testing to run automated load tests on individual services or components at the Merge Request level, providing early feedback on performance changes before they reach production.
 
 **When to use:**
 
-- Load testing a new microservice (like Gitaly, Registry, or Workhorse)
-- Testing component changes before integration
-- Validating that component modifications don't introduce performance regressions
-- Isolating performance issues to specific services
+- Testing containerized services that can be deployed independently (like Gitaly, AI Gateway, Registry)
+- Detecting performance regressions in MRs before merge
+- Validating that component changes don't introduce throughput bottlenecks
+- Getting fast feedback on API response times and resource utilization
+- Testing component-specific caching strategies and configuration changes
+
+**What it tests:**
+
+- Component throughput and response times
+- Resource utilization (CPU, memory, network I/O)
+- Error handling performance
+- Configuration-related performance impacts
+
+**What it doesn't test:**
+
+- Integration bottlenecks between components
+- Production-scale data volume issues
+- End-to-end system performance
+
+> **⚠️ Alpha Status:** Component Performance Testing is currently in alpha trials. If you want to use it, please reach out in Slack to [#g_performance_enablement](https://gitlab.slack.com/channels/g_performance_enablement).
+
+**Prerequisites for adoption:**
+
+- Component must be containerized and deployable in isolation
+- Must expose testable interfaces (HTTP APIs, gRPC, etc.)
+- Should support testing with mocked dependencies
 
 ### Testing Page Load Performance
 
@@ -247,27 +269,34 @@ Some approaches to using these tools are detailed on the [profiling page](https:
 
 ## References
 
-### Projects
-
-| Project | Description |
-| ---- | ----------- |
-| [GPT](https://gitlab.com/gitlab-org/quality/performance) | The GitLab Performance Tool (gpt) is built and maintained by the GitLab Quality Enablement team to provide performance testing of any GitLab instance |
-| [GBPT](https://gitlab.com/gitlab-org/quality/performance-sitespeed) | SiteSpeed CI pipelines for Quality Performance testing |
-| [sitespeed-measurement-setup](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup) | Setup to measure performance on Gitlab websites (.com, dev.) through sitespeed.io and report to Grafana |
-| [gitlab-exporter](https://gitlab.com/gitlab-org/ruby/gems/gitlab-exporter) | a Prometheus Web exporter that exports GitLab metrics |
-
-### Documentation pages
+### External References
 
 | Page | Description |
 | ---- | ----------- |
-| [Profiling page](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/profiling.md?ref_type=heads) | Documentation on approaches to do profiling on GitLab |
+| [Netflix performance testing](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe) | Blog post about performance testing at Netflix |
+| [Automation Pyramid Model for Performance Testing Process](https://abstracta.us/blog/test-automation/performance-testing-automation-pyramid-model-process/) | Blog post looking into the test pyramid for performance testing |
+| [Continuous Performance Testing: A Comprehensive Guide](https://abstracta.us/blog/performance-testing/continuous-performance-testing-a-comprehensive-guide/) | Blog post on Continuous Performance Testing |
+| [3 Challenges to Effective Performance Testing in Continuous Integration](https://abstracta.us/blog/performance-testing/3-challenges-effective-performance-testing-continuous-integration/) | Blog post on challenges implementing performance testing in CI |
+| [When is the Best Time to Start Performance Testing?](https://abstracta.us/blog/performance-testing/best-time-start-performance-testing/) | Blog post on when to do performance testing |
+
+### Internal References
+
+#### Projects
+
+| Project | Description |
+| ---- | ----------- |
+| [GPT](https://gitlab.com/gitlab-org/quality/performance) | The GitLab Performance Tool (GPT) provides load testing for GitLab instances |
+| [GBPT](https://gitlab.com/gitlab-org/quality/performance-sitespeed) | SiteSpeed CI pipelines for browser performance testing |
+| [CPT (Alpha)](https://gitlab.com/gitlab-org/quality/component-performance-testing) | Component-level performance testing for individual services (currently in alpha trials) |
+| [sitespeed-measurement-setup](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup) | Setup to measure performance on GitLab websites through sitespeed.io |
+
+#### Documentation pages
+
+| Page | Description |
+| ---- | ----------- |
+| [Profiling page](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/profiling.md) | Documentation on profiling approaches for GitLab |
 | [Observability for stage groups](https://docs.gitlab.com/ee/development/stage_group_observability/index.html) | Documentation on Observability focused at Stage Groups |
-| [GitLab Performance Monitoring](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html) | GitLab comes with its own application performance measuring system called GitLab Performance Monitoring |
-| [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) | Performance Bar that can be used in a running GitLab instance to see metrics |
-| [Dev Performance Guidelines](https://docs.gitlab.com/ee/development/performance.html) | Developer focused Performance Guidelines |
-| [Performance Guidelines](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/performance.md?ref_type=heads) | Our docs page on performance guidelines |
-| [Cells Performance Testing](/handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/cells_test_strategy/#performance-testing) | Cells performance test strategy handbook page |
-| [Metrics Catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog?ref_type=heads) | home for our SLA/SLO/SLI definitions |
-| [Cells Performance Dashboard](https://dashboards.gitlab.net/d/cells-main/cells3a-cells-performance?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-ops&var-environment=gprd) | First pass at creating an Observability Performance Dashboard in Grafana |
-| [Platform Triage Dashboard](https://dashboards.gitlab.net/d/general-triage/general3a-platform-triage?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-gprd&var-environment=gprd&var-stage=main) | the home page dashboard for our grafana, a common starting point for investigating performance in our Observability |
-| [Merge Request Performance Guidelines](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html) | Merge Request Performance Guidelines |
+| [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) | Performance Bar for analyzing performance in running GitLab instances |
+| [Dev Performance Guidelines](https://docs.gitlab.com/ee/development/performance.html) | Developer-focused Performance Guidelines |
+| [Merge Request Performance Guidelines](https://docs.gitlab.com/ee/development/merge_request_concepts/performance.html) | Performance guidelines specific to Merge Requests |
+| [Platform Triage Dashboard](https://dashboards.gitlab.net/d/general-triage/general3a-platform-triage) | Starting point dashboard for investigating performance issues |
