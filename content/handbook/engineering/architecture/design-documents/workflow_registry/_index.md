@@ -2,7 +2,7 @@
 title: "Workflow Registry"
 status: ongoing
 creation-date: "2025-06-05"
-authors: [""@achueshev"]
+authors: ["@achueshev"]
 coaches: [""]
 dris: [""]
 owning-stage: "~devops::ai-powered"
