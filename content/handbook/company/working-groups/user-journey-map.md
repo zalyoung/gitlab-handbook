@@ -41,7 +41,7 @@ This working group aims to:
 | Working Group Role    | Person                    | Title                                                         |
 |-----------------------|---------------------------|-------------------------------------------------------------- |
 | Facilitator           | Taurie Davis              | Senior Manager of Product Design                              |
-| Executive Stakeholder | Angela Pesta              | VP UX                                                         |
+| Executive Stakeholder | Valerie Karnes            | Director of Product Design                                    |
 | Member                | Emily Sybrant             | Product Design Manager, Monetization                          |
 | Member                | Paige Cordero             | Senior Product Manager, Growth                                |
 | Member                | Jessica Kane              | Senior Manager of UX Research.                                |
