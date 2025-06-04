@@ -37,9 +37,13 @@ Vulnerability Resolution is enabled for SAST vulnerabilities, only for a specifi
 We determine whether a vulnerability supports Vulnerability Resolution based on its CWE identifier. This support is tracked using two mechanisms:
 
 1. Database field on vulnerability records `has_vulnerability_resolution`
-   - Vulnerability Report (filtering/display).
-   - Vulnerabilitiy Details (availability of "Resolve with AI")
-   - Note: The database field is populated upon ([ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb)). When the CWE list changes, existing vulnerabilties may need to be updated by running a pipeline on the default branch.
+   The database field is populated and backfilled during [ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb), meaning any successful pipeline run on the default branch after a CWE list update will ensure it contains the latest values.
+
+   This field is used, for example, in:
+   - The Vulnerability Report (for filtering and display)
+   - Vulnerability Details (e.g., availability of "Resolve with AI")
+
+   > **Attention:** Background migrations aren’t strictly required to backfill this value, but they are currently an established part of our workflow (see [example migration](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/188420)). Any changes to this process must be clearly documented.
 1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
    - Used for pipeline findings (e.g., in merge requests), meaning they haven’t been fully ingested as vulnerability records yet and the `has_vulnerability_resolution` field in the database remains unset.
 
