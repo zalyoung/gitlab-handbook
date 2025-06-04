@@ -22,26 +22,27 @@ JupyterLab is configured to run in a [virtual environment](https://docs.python.o
 
 When setting up JupyterLab, the following will happen:
 
-- [uv](https://astral.sh/blog/uv) will be downloaded to your local machine and used to set up a virtual environment (venv). uv is extremely fast and a great replacement tool for many common python tools (pipenv, pip-compile, install, etc.)
-- A virutal python environment will be created using uv and the python version and packages (and their dependecies) defined in [pyproject.toml](https://gitlab.com/gitlab-data/data-science/-/blob/main/pyproject.toml)
-- JupyterLab will be built withint the venv
+- [uv](https://astral.sh/blog/uv) will create and manage a Python virtual environment in `.venv/` containing all required packages. uv is extremely fast and a great replacement tool for many common python tools (pipenv, pip-compile, install, etc.)
+- A virtual python environment will be created using uv and the python version and packages (and their dependencies) defined in [pyproject.toml](https://gitlab.com/gitlab-data/data-science/-/blob/main/pyproject.toml)
+- JupyterLab will be built within the venv
 
 ## Installation Instructions
 
 **Note:** This setup is geared towards MacOS. The code may also work on Linux or Windows with some modifications. 
 
 1. Prerequisites - before installing please make sure the following are installed on your local machine:
-   - [Python3](https://www.python.org/)
+   - [Python3.11+](https://www.python.org/)
    - [Pip3](https://pypi.org/project/pip/) (usually aliased as `pip`).
+   - [Git](https://git-scm.com/downloads/mac)
    - Certain versions of MacOS may require Xcode Command Line Tools to be installed. From the command line, `xcode-select --install`
 1. Clone the repo to your local machine `git clone git@gitlab.com:gitlab-data/data-science.git`
 1. Navigate to the directory: `cd data-science`
 1. Execute the following command: `make setup`. This will do several things:
    - Check, and if necessary, install/update brew, node.js, uv, and certain python packages on your local machine. 
-   - Setup a virutual environment in the `data-science` directory
+   - Setup a virtual environment in the `data-science` directory
 1. Launch Jupyter
    - To launch JupyterLab: `make jupyter`
-   - To launch VS Code with a Juypter Server: `make jupyter-vscode` then follow the terminal instructions
+   - To launch VS Code with a Jupyter Server: `make jupyter-vscode` then follow the terminal instructions
 
 ### Running from Docker
 
@@ -55,7 +56,8 @@ Although we recommend running JupyterLab from a virtual environment, sometimes t
 
 By default, the local install will use the `data-science` folder as the root directory for JupyterLab. This is not terribly useful when your code, data, and notebooks are in other locations on your computer. To change, this you will need to create and modify a Jupyter Notebook config file:
 
-1. Open terminal and nagivate to the data-science repo, e.g. `cd repos/data-science`. The config file must be created with the `pipenv` we setup in the above steps: `uv run jupyter-lab --generate-config`. This creates the file `/Users/{your_user_name}/.jupyter/jupyter_lab_config.py`.
+1. Open terminal and navigate to the data-science repo, e.g. `cd repos/data-science`. 
+1. Run `./.venv/bin/jupyter lab --generate-config` which generates `/Users/{your_user_name}/.jupyter/jupyter_lab_config.py`.
 1. Browse to the file location and open it in a text editor
 1. Search for the following line in the file: `#c.ServerApp.root_dir = ''` and replace with `c.ServerApp.root_dir = '/the/path/to/other/folder/'`. If unsure, set the value to your repo directory (i.e. `c.ServerApp.root_dir = '/Users/{your_user_name}/repos'`). Make sure you remove the `#` at the beginning of the line.
 1. Make sure you use forward slashes in your path. Backslashes could be used if placed in double quotes, even if folder name contains spaces as such as `\{your_user_name}\Any Folder\More Folders\`
@@ -96,6 +98,7 @@ c.JupyterLabTemplates.include_default = False
 ### Updating the Virtual Environment
 
 1. From the data science repo, pull the latest changes to your local machine `git pull`
+1. ***Optional:*** You may update the dependencies using the `make recompile` command, or add/remove dependencies using `make add-packages` and `make remove-packages`
 1. Re-run `make setup`
 1. Launch JupyterLab via `make jupyter` or `make jupyter-vscode`
 
