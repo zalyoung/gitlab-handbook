@@ -106,7 +106,7 @@ This table shows which teams typically fulfill which roles during incident respo
 
 The Incident Lead is responsible for ensuring that the incident progresses and is kept updated. This role is not set automatically and should be assigned based on the type of incident. For more guidance on assigning Incident Lead, check out the [workflow section](#incident-lead). The Incident Lead should feel empowered to engage other parties such as the EOC or IMOC as necessary.
 
-#### During incident
+#### During the incident
 
 1. Responsible for posting regular status updates using the `/incident update` in the incident Slack channel. These updates should summarize the current customer impact of the incident and actions we are taking to mitigate the incident. This is the most important section of the incident timeline. It will be referenced to status page updates and should provide a summary of the incident and impact that can be understood by the wider community.
 2. Ensure that the incident issue has all of the required fields applied. If not set them using `/incident field` command from the incident slack channel
