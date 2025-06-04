@@ -131,7 +131,7 @@ security practices, and collaborative improvement over time.
 
 ### Core Components
 
-The proposed module heirarchy is structured around 3 core layers:
+The proposed module hierarchy is structured around 3 core layers:
 
 1. A common entrypoint module built as the primary interface with sensible defaults
 1. Specialized modules implementing specific subsets of Cloudflare functionality, e.g. DNS, WAF
@@ -188,7 +188,7 @@ indicators of organizational capability and team empowerment:
 - Successful implementations of Cloudflare solutions independently
   - Solutions will meet our compliance and security standards
 - Team satisfaction and confidence in using our Cloudflare modules, measured
-  through feedback form collection and qualilative feedback sessions
+  through feedback form collection and qualitative feedback sessions
 - Time teams spend updating and upgrading their configuration
 - Adoption count and rate of the Cloudflare modules
 - High impact incident rate related to Cloudflare configurations
@@ -434,25 +434,25 @@ Specifically:
   in the module that does not require manual intervention for implementers
 - Patch Version (x.y.*Z*): Incremented when non-functional changes (e.g. bug
   fixes and doc updates) are released, that do not require manual intervention
-  for implementors
+  for implementers
 
 These versions will be tagged in the repository related to the module, and
 released to our terraform module registry with the matching version.
 
 For any major version change, we *MUST* provide upgrade documentation for any
-manual interventions required for implementors.
+manual interventions required for implementers.
 
 ### Testing Strategy
 
 We will be using [Terraform tests](https://developer.hashicorp.com/terraform/language/tests)
 to test every module. This will use a combination of unit-style tests with
 mocked resources and end-to-end tests that create resources in a test zone
-following patterns that we across implementation of the modules.
+following patterns that we observe across implementation of the modules.
 
 This allows us to test to thoroughly test our computed values and created
 resources quickly during development, and to ensure that we are providing
-well-tested golden paths that our implementors use.  This will aid our efforts
-to provide a stable interface to our implementors, and allow us to ensure that
+well-tested golden paths that our implementers use.  This will aid our efforts
+to provide a stable interface to our implementers, and allow us to ensure that
 any difference in resource creation and configuration across module revisions
 are expected.
 
@@ -470,7 +470,7 @@ considerations for our environment.
 
 Additionally, each module will contain user and operator documentation on it's
 usage.  The common entrypoint will also provide an entrypoint for a
-documentation site that can be hosted on GitLab pages for internal customers.
+documentation site that can be hosted on GitLab Pages for internal customers.
 This will source the documentation from each module and compile all relevant
 documentation into a single source of truth for internal customers and operators
 to use as a reference.  This approach provides additional benefits, including
@@ -534,5 +534,5 @@ documentation for our current set of Cloudflare modules.
 
 - Manual configuration required for more complex implementations
 - No unified maintenance support for teams
-- Maintainence responsibility for Cloudflare configurations spread across teams
+- Maintenance responsibility for Cloudflare configurations spread across teams
 - Susceptible to drift as standard configurations change
