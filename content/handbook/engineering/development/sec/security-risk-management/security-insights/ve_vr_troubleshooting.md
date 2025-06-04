@@ -41,7 +41,7 @@ We determine whether a vulnerability supports Vulnerability Resolution based on 
    - Vulnerabilitiy Details (availability of "Resolve with AI")
    - Note: The database field is populated upon ([ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb)). When the CWE list changes, existing vulnerabilties may need to be updated by running a pipeline on the default branch.
 1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
-   - Pipeline findings (MR) use this list as finding records are not fully ingested to include the DB field.
+   - Used for pipeline findings (e.g., in merge requests), meaning they haven’t been fully ingested as vulnerability records yet and the `has_vulnerability_resolution` field in the database remains unset.
 
 > **Note:** Unsupported CWEs may be tested by enabling the `ignore_supported_cwe_list_check` feature flag at the project level ([MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/175608))
 
