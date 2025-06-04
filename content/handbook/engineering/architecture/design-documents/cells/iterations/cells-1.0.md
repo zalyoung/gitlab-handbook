@@ -428,7 +428,8 @@ Details:
 
 Exit Criteria:
 
-- Clusterwide settings can be synchronized per ring.
+- Application settings can be configured per ring by default.
+- Application settings can be overriden for individual cells.
 - Cells secrets are kept the same across all cells.
 - Validation and regression testing for cells is setup.
 - Production fixtures are seeded including an admin user with an initial organization.
