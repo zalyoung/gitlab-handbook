@@ -81,4 +81,4 @@ We measure success in two main ways:
 
 ## Contact
 
-For questions or suggestions, contact [Pedro Moreira da Silva](https://about.gitlab.com/company/team/#pedroms). Pedro started the Studios and helps manage them with the other hosts.
+For questions or suggestions, contact a maintainer listed on the right side of this page.
