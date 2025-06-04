@@ -16,17 +16,15 @@ We have features and requests that are being addressed and considered as part of
 |Markdown not working on copy/paste                                      | Investigating   |                                                                                     |
 |Update Search Fitlers /streamline. Default to Knowledge articles.       | Investigating   | Add versions (can we use impacted versions?)                                        |
 |Add Published articles to Slack. Provides notification of published     | Investigating   | [Issue 6885](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6885) |
-|US Governmanet knowledge articles. Provide process for how to add       | Investigating   |  
+|US Governmanet knowledge articles. Provide process for how to add       | Investigating   |                                                                                     |
 |Article suggestions in articles (aligned with comments. Need process)   | Investigating   | [Issue 6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886) |
-|Article Review process for relevancy. Ensures articles are up to date.  | Investigating   |
-|KCS Dashboard Metrics .                                                 | Investigating   |
+|Article Review process for relevancy. Ensures articles are up to date.  | Investigating   |                                                                                     |
+|KCS Dashboard Metrics .                                                 | Investigating   |                                                                                     |
 |Content Standards. Formatting, Links work, spelling, etc.               | Investigating   | [Issue 6887](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6887) |
 
 Note: For a more Detailed outline of these features read more about them [Feature and Status Phase 2](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g35224d618b1_0_0#slide=id.g35224d618b1_0_0)
 
-
 **This table provides an overview of what has been COMPLETED**
-
 
 | Feature                                                                | Status                     |
 |:---------------------------------------------------------------------- | :--------------------------|
@@ -39,14 +37,9 @@ Note: For a more Detailed outline of these features read more about them [Featur
 |SuperForm and sync repositories deprecated                              | Removed May 2025           |
 
 
-
 Interested in the Knowledge Management Roadmap?
-
 - [Knowledge Roadmap slides](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g351e0dd3be2_1_0#slide=id.g351e0dd3be2_1_0)
 
-
 **Additional Resources**
-
 - [Knowledge Management Slides](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g3445c7f3436_2_41#slide=id.g3445c7f3436_2_41)
-
 - [Slack Channel](https://join.slack.com/share/enQtODk4NzU4MDIxOTA2Mi01ZjJjODAwNGI0MTJlMGU5YjljNTdkNWNjMGQ1NGRlNDdjNWQ3ZGMzNDQ1NGI1NzA5NTVlNWE5Y2ZhNjZiZDVm)
