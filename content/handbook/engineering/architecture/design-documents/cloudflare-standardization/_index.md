@@ -88,11 +88,9 @@ organizational consistency and security standards.
 - Establish a foundation for efficient upgrades and security improvements across
   all implementations
 - Centralized documentation for internal customers and operator audiences that
-  provides a single source of truth
-- Increase internal customer autonomy through thorough documentation, enabling
-  self-serve implementation and support
-- A defined process for interaction with the maintainer team for support not
-  detailed in our documentation
+  enables self-serve implementation and support with high levels of autonomy
+- A defined process for interaction with the maintainer team for support beyond
+  existing documentation
 
 ### Non-Goals
 
@@ -190,10 +188,8 @@ indicators of organizational capability and team empowerment:
 - Team satisfaction and confidence in using our Cloudflare modules, measured
   through feedback form collection and qualitative feedback sessions
 - Time teams spend updating and upgrading their configuration
-- Adoption count and rate of the Cloudflare modules
-- High impact incident rate related to Cloudflare configurations
-  - We do not expect this measure to increase during future work, including the
-    Cloudflare `v5` provider upgrade
+- Adoption count of the Cloudflare modules
+- No increase in `S2` and `S1` incident rates related to Cloudflare configurations
 
 ## Design and implementation details
 
