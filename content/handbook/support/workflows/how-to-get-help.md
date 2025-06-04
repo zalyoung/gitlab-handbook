@@ -75,7 +75,7 @@ Other Support Engineers are a great resource to help out with tickets. To get he
 You can also do one or more of the following:
 
 - See if there is a [Support Pod](/handbook/support/workflows/working-with-pods/) that covers the area your ticket is in and ask one of the Pod members for help.
-- Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
+- Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
   Support page to see who might have the skills to assist, or reach out
   to the [Support Stable Counterpart](/handbook/support/support-stable-counterparts/)
   for the appropriate product area. Mention those
@@ -205,7 +205,7 @@ If you encounter any problems, such as obtaining a timely response from Developm
 - Create a Support [pairing session issue](https://gitlab.com/gitlab-com/support/support-pairing).
 - [Support Workflows](/handbook/support/workflows/) to follow relevant troubleshooting workflow.
 - [Support Documentation links](/handbook/support/#documentation) for quick references to helpful GitLab documentation.
-- [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) to find a Support Engineer scoped to the skill set needed for help.
+- [Skills by Subject](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html) to find a Support Engineer scoped to the skill set needed for help.
 - [DevOps Stages](/handbook/product/categories/#devops-stages) to find the right development or product team to reach out to.
 - [Emergency runbooks](https://gitlab.com/gitlab-com/support/emergency-runbook/-/tree/master/.gitlab/issue_templates) with troubleshooting tips, even if not an emergency.
 - See which [manager is on-call](https://gitlab.pagerduty.com/escalation_policies#PGNLUZ1) if guidance is needed on something urgent.
