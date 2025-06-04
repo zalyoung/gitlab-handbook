@@ -61,7 +61,6 @@ Our vision and direction is aligned with the broader Delivery Group, which is av
 - Any GitLab installation is able to report installation/upgrade errors automatically
 - Setting up GitLab in HA configuration is automated and simple
 - All installation methods are automatically tested before release
-- Most frequently used configuration options are tested using end-to-end integration tests
 
 ### Team Vision
 
@@ -83,6 +82,7 @@ Our vision and direction is aligned with the broader Delivery Group, which is av
 - **General guidance?** Review our [workflow documentation](workflow.html)
 
 **Important:** Reach out to the Build team **early** if your change requires:
+
 - New or updated gems with native extensions
 - New or updated external software dependencies
 - If you need to do `install`, `update`, `make`, `mkdir`, `mv`, `cp`, `chown`,
