@@ -173,11 +173,12 @@ In Cornerstone, skills are the metadata that describe what you can do and know -
 
 ## Early Access for Compliance Training
 
-While LevelUp is being rolled out division by division, some team members outside of Engineering and Security are being granted early access to complete required compliance training. This ensures all team members can complete their mandatory training in one consistent platform.
+While LevelUp is being rolled out division by division, some team members outside of Engineering and Security are being granted early access to complete required compliance training. This ensures all team members can complete their mandatory training in one consistent platform. Compliance training was previously deployed through NavexENGAGE and other platforms; we will now centralize all compliance trainings on LevelUp. 
 
 ### What you need to know
 
 If you've been granted early access for compliance training:
+
 - Your access is currently limited to the compliance training section of LevelUp
 - You can complete and track your assigned compliance courses
 - Full platform access will be available when your division is rolled out (by end of Q2)
