@@ -41,6 +41,6 @@ Team members will be enrolled in refresher training on a regular basis and asked
 
 ## Best Practices for Using NAVEX
 
-For the best LevelUp user experience, be aware of any special browser plug-ins, add-ons, or settings that may interfere with pop-ups. If you see a 0% progress bar during a course, note that some courses only report completion status, not ongoing progress. Use "My Learning" and/or Transcript features to verify completion and monitor your assignments. We have a dedicated Slack channel for platform technical issues - [#fy26-levelup-support](https://gitlab.enterprise.slack.com/archives/C08JXLMH5K4). Include details about any errors or issues you're experiencing. For questions about course content (not technical issues), use [#compliance-training][https://gitlab.enterprise.slack.com/archives/C01BUENE8MV].
+For the best LevelUp user experience, be aware of any special browser plug-ins, add-ons, or settings that may interfere with pop-ups. If you see a 0% progress bar during a course, note that some courses only report completion status, not ongoing progress. Use "My Learning" and/or Transcript features to verify completion and monitor your assignments. We have a dedicated Slack channel for platform technical issues - #fy26-levelup-support. Include details about any errors or issues you're experiencing. For questions about course content (not technical issues), use [#compliance-training][https://gitlab.enterprise.slack.com/archives/C01BUENE8MV].
 
-If you continue to experience difficulties or have questions, contact [#compliance-training][https://gitlab.enterprise.slack.com/archives/C01BUENE8MV].
+If you continue to experience difficulties or have questions, contact #compliance-training.
