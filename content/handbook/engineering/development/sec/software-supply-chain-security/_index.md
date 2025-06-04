@@ -12,7 +12,7 @@ To support GitLab's product vision through alignment with the [Software Supply C
 ## Groups
 
 - [Authentication](authentication/)
-- [Authorization](authorization/) and [Anti-abuse](anti-abuse/)
+- [Authorization](authorization/)
 - [Compliance](compliance/)
 - [Pipeline Security](pipeline-security/)
 
@@ -20,7 +20,6 @@ To support GitLab's product vision through alignment with the [Software Supply C
 
 Group priorities are reviewed collaboratively with product counterparts and published on the Software Supply Chain Security direction pages
 
-- [Anti-abuse](https://about.gitlab.com/direction/software_supply_chain_security/#priorities)
 - [Authentication](https://about.gitlab.com/direction/software_supply_chain_security/authentication/#priorities)
 - [Authorization](https://about.gitlab.com/direction/software_supply_chain_security/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/software_supply_chain_security/compliance/tactical-priorities.html#priorities)
@@ -28,11 +27,9 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Product Documentation Links
 
-- [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/)
-- [Vulnerability Pages](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/)
-- [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html)
+- [Authentication and Authorization](https://docs.gitlab.com/administration/auth/)
+- [Compliance Center](https://docs.gitlab.com/user/compliance/compliance_center/)
 - [Security glossary](https://docs.gitlab.com/ee/user/application_security/terminology/)
-- [Software Supply Chain Security testing priorities](http://about.gitlab.com/direction/software_supply_chain_security/testing_priorities.html)
 - [Pipeline Security](https://docs.gitlab.com/ee/ci/pipelines/pipeline_security.html)
 
 ## All Team Members
@@ -41,9 +38,9 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 {{% team-by-manager-slug manager="adil.farrukh" team="Engineer(.*)Software Supply Chain Security:Authentication" %}}
 
-### Authorization and Anti-abuse
+### Authorization
 
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Software Supply Chain Security:Authorization|Software Supply Chain Security:Anti-Abuse" %}}
+{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Software Supply Chain Security:Authorization" %}}
 
 ### Compliance
 
