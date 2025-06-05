@@ -7,7 +7,7 @@ description: "The Okta Admin Onboarding runbook provides setup instructions for 
 
 The Okta Admin Onboarding runbook provides setup instructions for team members that have been provisioned a BLACK admin account to get started with setting up Okta, Google Workspace, and 1Password that is configured separately from your PURPLE accounts.
 
-- **Handbook Page:** [Access Level Wristband Colors](/it/policies/access-level-wristbands/)
+- **Handbook Page:** [Access Level Wristband Colors](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/)
 - **Access Request Template:** [Admin_Black_Account](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Admin_Black_Account.md)
 - **Provisioner Time to Complete:** 15-30 Minutes (not including approvals)
 - **User Time to Complete:** 30 Minutes Assisted Sync or 45 Minutes Async
