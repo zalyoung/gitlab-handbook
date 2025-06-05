@@ -1,5 +1,6 @@
 ---
 title: "Code Suggestions Testing Guide"
+description: "Guidelines for testing Code Suggestions functionality"
 ---
 
 This document serves as a technical how-to guide for testing Code Suggestions functionality.
