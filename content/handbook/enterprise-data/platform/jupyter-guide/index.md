@@ -35,7 +35,7 @@ When setting up JupyterLab, the following will happen:
    - [Pip3](https://pypi.org/project/pip/) (usually aliased as `pip`).
    - [Git](https://git-scm.com/downloads/mac)
    - Certain versions of MacOS may require Xcode Command Line Tools to be installed. From the command line, `xcode-select --install`
-1. Clone the data-science-environment repo to your local machine `git clone git@gitlab.com:gitlab-data/data-science.git`
+1. Clone the data-science repo to your local machine `git clone git@gitlab.com:gitlab-data/data-science.git`
 1. Navigate to the directory: `cd data-science`
 1. Execute the following command: `make setup`. This will do several things:
    - Check, and if necessary, install/update brew, node.js, uv, and certain python packages on your local machine. 

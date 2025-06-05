@@ -52,7 +52,7 @@ AMAs:
 - **Propensity modeling** - building models to predict specific events by analyzing past behaviors of a target audience.
 - **Regression** - a statistical method for predicting an outcome. For example, predicting a person's income, or how likely a customer is to churn
 - **Scoring** - process of generating predictions for the new dataset
-- **Training** -  process of applying an algorithm to data to create a model
+- **Training** - process of applying an algorithm to data to create a model
 - **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts
 - **Weight** - numerical value assigned to feature that determines its strength
 
@@ -191,4 +191,4 @@ We deploy all of our models using the native GitLab CI/CD capabilities. Please s
 
 - **[Pre-configured Data Science Environment](https://gitlab.com/gitlab-data/data-science)**: The data science team uses JupyterLab pre-configured with common python modules (pandas, numpy, etc.), native Snowflake connectivity, and git support. Working from a common framework allows us to create models and derive insights faster. This setup is freely available for anyone to use. Check out our [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) for additional information.
 - **[GitLab Data Science Tools for Python](https://gitlab.com/gitlab-data/gitlabds/)**: Functions to help automate common data prep (dummy coding, outlier detection, variable reduction, etc.) and modeling tasks (i.e. evaluating model performance). Install directly via [pypi](https://pypi.org/project/gitlabds/) (`pip install gitlabds`), or use as part of the above Data Science Environment.
-- **[Modeling Templates](https://gitlab.com/gitlab-data/data-science/-/tree/main/templates)**: The data science team has created modeling templates to allow you to easily start building predictive models without writing python code from scratch. To enable these templates, follow the instructions on the [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/#enabling-jupyter-templates).
+- **[Modeling Templates](https://gitlab.com/gitlab-data/data-science/-/tree/main/modeling_templates)**: The data science team has created modeling templates to allow you to easily start building predictive models without writing python code from scratch. To enable these templates, follow the instructions on the [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/#enabling-jupyter-templates).
