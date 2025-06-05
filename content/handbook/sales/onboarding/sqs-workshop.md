@@ -18,23 +18,6 @@ This [SQS 2025 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 
 ## Sales Quick Start Remote Agenda
 
-### SQS 46 - May 2025
-
-- Workshop times quoted are United States Eastern Standard Daylight Time (New York) (UTC -4)
-
-| DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
-|------|------------|----------|----------|--------------|
-| May 12, 2025 | 10:30a ET | 10:50a ET | Operational Excellence: Into to Gitlab Field Security | Field Security |
-| May 12, 2025 | 11:00a ET | 11:20a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
-| May 12, 2025 | 11:30a ET | 12:20p ET | Operational Excellence: Working with Marketing & Sales Development | Marketing Enablement |
-| May 13, 2025 | 11:00a ET | 11:50a ET | Solution Focus: Intro to GitLab Pitch & Market Overview | Product Marketing |
-| May 14, 2025 | 10:00a ET | 11:20a ET | Intro to Ecosystem Sales | Ecosystem Team |
-| May 15, 2025 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
-| May 16, 2025 | 10:00a ET | 10:20a ET | Intro to Sales Ops + Deal Desk | RSOE Team |
-| May 19, 2025 | 10:00a ET | 10:50a ET | Solution Focus: Intro to Competition | Product Marketing |
-| May 21, 2025 | 10:00a ET | 10:25a ET | Renewals Manager Overview | Renewals Team  |
-| May 22, 2025 | 10:00a ET | 10:50a ET | Discussion: Professional Services | Professional Services |
-
 ### SQS 47 - June 2025
 
 - Workshop times quoted are United States Eastern Standard Daylight Time (New York) (UTC -4)
@@ -57,3 +40,26 @@ This [SQS 2025 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Jun 19, 2025 | 10:00a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
 | Jun 20, 2025 | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
 | Jun 23 - 25, 2025 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers |
+
+### SQS 48 - July 2025
+
+- Workshop times quoted are United States Eastern Standard Daylight Time (New York) (UTC -4)
+
+| DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
+|------|------------|----------|----------|--------------|
+| Jul 7, 2025 | 10:30a ET | 10:50a ET | Operational Excellence: Into to Gitlab Field Security | Field Security |
+| Jul 7, 2025 | 12:00p ET | 12:50p ET | Operational Excellence: Working with Marketing & Sales Development | Marketing Enablement |
+| Jul 8, 2025 | 11:30a ET | 12:25p ET | Solution Focus: Intro to GitLab Pitch & Market Overview | Product Marketing |
+| Jul 9, 2025 | 10:00a ET | 11:20a ET | Intro to Ecosystem Sales | Ecosystem Team |
+| Jul 9, 2025 | 11:30a ET | 11:50a ET | Intro to Sales Ops + Deal Desk | RSOE Team |
+| Jul 9, 2025 | 12:00p ET | 12:20p ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
+| Jul 10, 2025 | 10:00a ET | 10:50a ET | Solution Focus: Intro to Competition | Product Marketing |
+| Jul 11, 2025 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
+| Jul 11, 2025 | 11:00a ET | 11:25a ET | Renewals Manager Overview | Renewals Team  |
+| Jul 11, 2025 | 11:30a ET | 12:20p ET | Discussion: Professional Services | Professional Services |
+| Jul TBD | 10:00a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement |
+| Jul TBD | 10:00a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement |
+| Jul TBD | 10:00a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement |
+| Jul TBD | 10:00a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
+| Jul TBD | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
+| Jul TBD, 2025 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers |
