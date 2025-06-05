@@ -49,7 +49,7 @@ Note if you need to cancel or reschedule the session, you will still need to pro
 | <= 24 hours ahead of the session | 100% of the incentive |
 | <= 36 hours ahead of the session | 50% of the incentive |
 
-For Cancellation or Reschedulling best practice, see the [Resources for Research DRIs page](/handbook/product/ux/ux-research/resources-for-research-dris/#roles-and-responsibilities-by-rhases)
+For Cancellation or Reschedulling best practice, see the [Resources for Research DRIs page](/handbook/product/ux/ux-research/resources-for-research-dris/#roles-and-responsibilities-by-phases)
 
 ## Fulfillment
 
