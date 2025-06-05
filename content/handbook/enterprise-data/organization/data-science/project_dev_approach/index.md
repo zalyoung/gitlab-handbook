@@ -287,7 +287,7 @@ In the project issue, document the following:
   - Make sure you are completing all the same model prep steps in the scoring code as you did in the training code.
 - Once you have your scoring notebook ready, a good way to check for errors is to run your training dataset through it. You should arrive at the same model score descriptives and decile breakdowns as you did in your training code.
   - If the numbers are not aligning up, it is most likely due to an issue with your scoring code. The best way to check this is to look at the descriptives of the features. Look at the descriptive right before they get scored in the training code and in the scoring code. If one or more features are off, then you have most likely located the issue.
-- Now you can run your code with your scoring dataset. Be sure update your sql code so it is parameterized to use the most current data available.
+- Now you can run your code with your scoring dataset. Be sure to update your sql code so it is parameterized to use the most current data available.
 - Examine the model decile distribution of your scored records. They should be roughly equal. If they are wildly off, or if they vary widely in each scoring run, it could be a sign that your model is overfit/it/data-team/fit and cannot generalize beyond the training dataset.
 - Add .sql file, parameters.yml, model artifacts, and jupyter notebook to a production directory in your repo.
 - Create a new issue using the [Scheduling Notebook Request](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data%20Science%3A%20Project%20Process.md) template, follow any additional steps, and tag `@gitlab-data/engineers` when ready to operationalize
