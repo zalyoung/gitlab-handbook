@@ -85,6 +85,18 @@ We can help with:
 
 Our Slack channel is: [#g_cloud_connector](https://gitlab.enterprise.slack.com/archives/CGN8BUCKC)
 
+#### Runners Platform
+
+Open a request for help in the [Request For Help Tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-ProductionEngineering-RunnersPlatform.md)
+
+We can help with:
+
+1. Hosted Runners questions (.com/Dedicated)
+2. Pipelines and jobs troubleshooting
+3. Runners related incident support
+
+Our Slack channel is: [#g_runners_platform](https://gitlab.enterprise.slack.com/archives/C08TJEKF0JZ)
+
 ### Software Delivery
 
 #### Delivery
