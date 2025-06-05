@@ -17,20 +17,6 @@ The GitLab Support Team provides [U.S.-based support](https://about.gitlab.com/s
 - Only customers designated as Public Sector in SFDC are eligible for Federal Support.
 - When a Public Sector prospective customer begins a sales-assisted trial (including Proofs of Value), the Public Sector Solutions Architect will verify that the appropriate "Support Level" is set in the account record in SFDC (Premium or Ultimate).  This will ensure that the SLA for support is set correctly.
 
-## Technical Close Plans
-
-Technical Close Plans provide insight and transparency to the sales process by highlighting the technical ecosystem, competitive landscape, evaluation goals and technical steps required in order to achieve a technical win (Salesforce Stage 3). These plans are templated and only required for opportunities exceeding $100K in revenue.
-
-To create a technical close plan:
-
-- Log in to Salesforce and locate the relevant Opportunity
-- Ensure the Opportunity is at stage 3 or is soon transitioning to stage 3
-- Make a copy of the template document located in the Public Sector Google drive and rename it based on the customer and opportunity
-- Complete the document fields with all known information
-- Update the technical close plan with outcomes and next steps after each customer interaction
-
-When the opportunity progresses to stage 4, the technical close plan is complete. A brief retrospective on the information helps the team identify trends in customer needs as well as clear paths to opportunity wins. In case of opportunity loss, a brief retrospective on the information can help populate the Closed Lost reason in Salesforce.
-
 ## Success Management Program Introduction
 
 During each greenfield (new customer) sale, customers will move from the presales technical evaluation into procurement. During the presales period, the account sales team will introduce the Customer Success Management Program to [eligible customers](/handbook/customer-success/csm/services/#enterprise). This call will be led by the Solutions Architect.The introduction provides guidance on accessing GitLab Support, available CSM programs and GitLab Professional Services.
