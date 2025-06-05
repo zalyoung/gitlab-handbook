@@ -58,7 +58,7 @@ flowchart LR
 
 ### Testing API or Backend Performance
 
-Use [GitLab Performance Tool](url) when you want to test how your APIs, database queries, or backend services perform under load. This includes testing response times, throughput, and system behavior under various load conditions.
+Use [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) when you want to test how your APIs, database queries, or backend services perform under load. This includes testing response times, throughput, and system behavior under various load conditions.
 
 **When to use:**
 
@@ -69,7 +69,7 @@ Use [GitLab Performance Tool](url) when you want to test how your APIs, database
 
 ### Testing Components in Isolation
 
-Use [Component Performance Testing Tool](url) to run automated load tests on individual services or components at the Merge Request level, providing early feedback on performance changes before they reach production. It does this by running tests against internal API endpoints rather than end-user API endpoints.
+Use [Component Performance Testing Tool](https://gitlab.com/gitlab-org/quality/component-performance-testing) to run automated load tests on individual services or components at the Merge Request level, providing early feedback on performance changes before they reach production. It does this by running tests against internal API endpoints rather than end-user API endpoints.
 
 **When to use:**
 
@@ -102,7 +102,7 @@ Use [Component Performance Testing Tool](url) to run automated load tests on ind
 
 ### Testing Page Load Performance
 
-Use [GitLab Browser Performance Tool](url) to measure how fast your pages load for users, including metrics like Time to First Byte, Largest Contentful Paint, and other Core Web Vitals.
+Use [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed) to measure how fast your pages load for users, including metrics like Time to First Byte, Largest Contentful Paint, and other Core Web Vitals.
 
 **When to use:**
 
