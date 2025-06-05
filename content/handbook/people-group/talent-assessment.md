@@ -677,15 +677,13 @@ Recommended process for our Mid Year check-in will be as follows:
 
 ### Timeline
 
-Mid-Year Check In launch:
+Mid-Year Check-In Timeline (FY2026):
 
-- TBD
+- 2025-06-16 – 2025-06-30: Manager & Team Member preparation & 360 feedback gathering (optional)
+- w/c 2025-06-30 & 2025-07-07: People Manager Enablement Sessions
+- 2025-07-01 – 2025-07-18: Mid-year conversations conducted & documented
+- 2025-07-21 – 2025-07-25:Follow-up on development & performance goals
 
-Mid-Year Check In end:
-
-- TBD
-
-We have intentionally provided a longer timeline to ensure different business group priorities are accommodated.
 
 ## Succession Planning
 
