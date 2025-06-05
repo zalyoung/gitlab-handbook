@@ -212,7 +212,7 @@ In the project issue, document the following:
   - NULLs for features we expect to have nulls
     - Zero-fills for features we expect to have zero
   - Coverage: are there features where there is not a lot of variation (e.g. mostly zero). If so, you may want to consider creating `_flag` fields for those features instead.
-    - Are there clear distinctions between different subsets of the odeling population (e.g. Free vs Paid accounts). If so, it may make sense to split into more than one model if those features are highly predictive of the outcome.
+    - Are there clear distinctions between different subsets of the modeling population (e.g. Free vs Paid accounts). If so, it may make sense to split into more than one model if those features are highly predictive of the outcome.
   - Based on the above analysis, does it make sense to create a different view of the potential features (change to bands/deciles/quartiles/etc)?
 
 - Model prep: may include the following components:
