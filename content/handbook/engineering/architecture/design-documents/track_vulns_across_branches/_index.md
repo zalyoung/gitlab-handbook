@@ -46,7 +46,7 @@ Fundamentally the list of things we are identifying when we do this can boiled d
 - Dismissed
 - Resolved
 
-These states are fundamentally representative of entry and exit points of vulnerability within a codebase. We currently use the `Vulnerabilities::StateTransition` model to track changes between these states for a respective vulnerability. Our current architecture is built with the assumption that a `Vulnerability` exists only on the default branch of a repostory, and so we create a `StateTransition` only when the state of a vulnerability changes on the default branch.
+These states are fundamentally representative of entry and exit points of vulnerability within a codebase. We currently use the `Vulnerabilities::StateTransition` model to track changes between these states for a respective vulnerability. Our current architecture is built with the assumption that a `Vulnerability` exists only on the default branch of a repostory, and so we create a `Vulnerabilities::StateTransition` only when the state of a vulnerability changes on the default branch.
 
 The vast majority of feature branches do not make any changes to state of a vulnerability within a codebase. This means that we can avoid the most significant risk of database bloat by utilising the branching nature of the git repository to track only the points where these changes occur in a repository's history. We can simply do this by relating the `Vulnerability::StateTransition` to the `Ci::Pipeline` that was the source of the security report that was ingested.
 
@@ -103,7 +103,7 @@ flowchart TD
 
 ```
 
-*A repository is created and committed to repeatedly. When a vulnerability is resolved in a feature branch we identify this by an appropriate Vulnerability::StateTransition. A vulnerability found in a new branch is defined with a new Vulnerability::StateTransition*
+*A repository is created and committed to repeatedly. When a vulnerability is resolved in a feature branch we identify this by an appropriate `Vulnerability::StateTransition.` A vulnerability found in a new branch is defined with a new `Vulnerability::StateTransition`*
 
 ```mermaid
 flowchart TD
@@ -164,12 +164,12 @@ To minimalise the amount of processing we will need to do on demand, we need to 
 This should be possible to facilitate by making the following changes to our database structure:
 
 - Partitioning of the Vulnerability Reads table.
-  - Tables over a certain size begin to face a wide variety of performance problems. The current size of vulnerability_reads is already over the threshold which starts facing these problems, so to ensure stable performance going forward we would need to partition.
-  - Additionally, per the restrictions at GitLab regarding the adding of columns and indices to tables over a certain size, vulnerability_reads contravenes both these conditions currently. So partitioning is not optional in that regard. Though we may have to seek approval to add the additional column.
+  - Tables over a certain size begin to face a wide variety of performance problems. The current size of `vulnerability_reads` is already over the threshold which starts facing these problems, so to ensure stable performance going forward we would need to partition.
+  - Additionally, per the restrictions at GitLab regarding the adding of columns and indices to tables over a certain size, `vulnerability_reads` contravenes both these conditions currently. So partitioning is not optional in that regard. Though we may have to seek approval to add the additional column.
 - Addition of a `ref` column to the Vulnerability Reads table.
   - *By default a `ref` will simply be a branch name, but if users want to track vulnerabilities by `tag`, we can allow them to designate tracked tags which can be included in the `ref` column as well.
-- Additional of a `partition_number` to the vulnerability_reads table.
-  - This would allow us to use a sliding list partition strategy for vulnerability_reads, and can dynamically add new partitions as GitLab scales and users adopt our vulnerability management features to a greater extent.
+- Additional of a `partition_number` to the `vulnerability_reads` table.
+  - This would allow us to use a sliding list partition strategy for `vulnerability_reads`, and can dynamically add new partitions as GitLab scales and users adopt our vulnerability management features to a greater extent.
   - A partition number should be allocated by project/namespace/organisation to minimise data fragmentation. A new partition number should be used when the last partition exceeds 75GB, as this will allow already allocated projects space to grow without exceeding 100GB.
   - Should it be necessary, it should be possible to do partition rebalancing if a particular allocation becomes too heavy.
 - Add some kind of table that allows users to designate their desired tracked refs for the project.
@@ -177,9 +177,9 @@ This should be possible to facilitate by making the following changes to our dat
 
 ### Scalability, Storage and Performance
 
-Tracking vulnerabilities across multiple branches will require N * more everything to facilitate. Materializing vulnerabilities for the vulnerability report so that they can be effectively index and filtered will require as much space again on the vulnerability_reads table as it took to track the default branch's vulnerabilities. (Plus a bit more for the new ref column and associated changes to indices that will be necessary)
+Tracking vulnerabilities across multiple branches will require N * more everything to facilitate. Materializing vulnerabilities for the vulnerability report so that they can be effectively index and filtered will require as much space again on the `vulnerability_reads` table as it took to track the default branch's vulnerabilities. (Plus a bit more for the new ref column and associated changes to indices that will be necessary)
 
-Ingestion of vulnerabilities to update the reports will continue to be an interative update process associated with the ingestion of security reports from pipelines, so the processing necessary should be nominal in that regard.
+Ingestion of vulnerabilities to update the reports will continue to be an iterative update process associated with the ingestion of security reports from pipelines, so the processing necessary should be nominal in that regard.
 
 However, it is likely that we would not want to keep a materialization of the report at the ready for every branch on every project at all times due to cost reasons. To mitigate this, we can limit the amount of refs that are actively tracked, and then expand this based on our comfort with performance, scalability and cost.
 
@@ -187,7 +187,7 @@ As a mitigation to avoid holding redundant vulnerability report data forever whe
 
 There are several ways we can tradeoff between branch coverage and the associated storage costs. This tradeoff is not currently in-scope for this design doc. We will chose a justifiable starting point for branch coverage and review our position at a later date.
 
-Because vulnerability_reads are essentially just a materialzed view of information from our source of truth tables, there's no danger in destructing and rebuilding it (as long as we don't disrupt users). As such, should usage grow to such an extent that we need dedicated storage for this denormalized information, this table could be very easily decomposed to a dedicated database.
+Because `vulnerability_reads` are essentially just a materialzed view of information from our source of truth tables, there's no danger in destructing and rebuilding it (as long as we don't disrupt users). As such, should usage grow to such an extent that we need dedicated storage for this denormalized information, this table could be very easily decomposed to a dedicated database.
 
 ### Retention
 
@@ -199,7 +199,7 @@ Because of this new approach to handle vulnerability retention, there should not
 
 If a branch is deleted, the commits associated with the branch will no longer have a ref tracking them and may be pruned. The associated state transition information may now be redundant, so we should consider pruning it as well.
 
-If a branch is merged and the project is squashing commits with a merge commit, then we may need to consider the merge commit as the new detection/resolution point for the vulnerability and drop the state transition records that were generated for the separate branch. Alternatively those existing VST's could have the pipeline_id updated to match the merge commit.
+If a branch is merged and the project is squashing commits with a merge commit, then we may need to consider the merge commit as the new detection/resolution point for the vulnerability and drop the state transition records that were generated for the separate branch. Alternatively, existing `Vulnerabilities::StateTransition` objects could have their `pipeline_id` updated to match the merge commit.
 
 ### SBOM dependency tracking for package advisories
 
