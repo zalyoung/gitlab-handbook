@@ -3,14 +3,6 @@ title: "Code Creation Group"
 description: The Code Creation Group is responsible for all product categories that fall under the Code Creation group of the AI Engineering organization.
 ---
 
-## Team Vision
-
-We envision a world where our innovations in AI-driven code creation not only enhance productivity but also inspire creativity, enabling developers to tackle more complex challenges and push the boundaries of what's possible in software development.
-
-## Team Mission
-
-Develop cutting-edge AI-powered tools that enhance the efficiency and creativity of software engineers. We are committed to providing intelligent code suggestions that not only streamline coding tasks but also elevate the quality of software products. We aim to empower developers worldwide, making complex coding more accessible, and accelerating the creation of exceptional software.
-
 ## Team Ownership
 
 Features/capabilities Code Creation owns today:
@@ -91,24 +83,6 @@ The following members of other functional teams are our stable counterparts:
 | UX                | TBD                                                                                  |
 | Support           | [TBD](/handbook/support/support-stable-counterparts/)                                |
 | AppSec            | [TBD](/handbook/security/product-security/application-security/stable-counterparts/) |
-
-## Partner Groups
-
-Here are other groups within GitLab that we work closely with:
-
-### AI Engineering
-
-- [Editor Extensions](/handbook/engineering/ai/editor-extensions/)
-  - Collaborate on Code suggestions context (e.g. open tabs)
-- [AI Powered Stage](/handbook/engineering/ai/data-science/ai-powered)
-- [AI Framework](/handbook/engineering/ai/data-science/ai-powered/ai-framework/)
-  - Collaborate on datasets for evaluations
-- [AI Model Validation](/handbook/engineering/ai/data-science/ai-powered/model-validation/)
-- [Custom Models](/handbook/engineering/ai/data-science/ai-powered/custom-models/)
-- [Duo Chat](/handbook/engineering/ai/data-science/ai-powered/duo-chat/)
-  - Collaborate on code related slash commands: `/explain`, `/refactor`, `/tests`, `/fix`
-- [ModelOps Stage](/handbook/engineering/ai/data-science/modelops/)
-- [MLOps](/handbook/engineering/ai/data-science/modelops/mlops/)
 
 ## Other Related Pages
 
