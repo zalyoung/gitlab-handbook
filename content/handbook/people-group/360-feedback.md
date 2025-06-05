@@ -14,6 +14,7 @@ description: >-
 ### Why 360 Feedback Matters
 
 360 feedback enriches the dialogue between managers and team members by:
+
 - Providing comprehensive insights from peers, stakeholders, and direct reports who observe different aspects of performance
 - Identifying blind spots that may not surface in regular one-on-one conversations or be clear through other feedback channels
 - Supporting targeted development by highlighting specific strengths to leverage and areas for growth
@@ -26,6 +27,7 @@ description: >-
 A 360 can be a very helpful development tool, but it should not be a replacement for regular, ongoing feedback that team members receive throughout the year. There may be situations and points in team member development where a 360 can supplement development and individual growth plans, and times when development areas are clear and 360 feedback may not be needed.
 
 Below are a few key points to think through when determining in which situations the 360 tool may or may not be useful:
+
 - **Development Oriented**: The 360 process is meant to support the team member's development and to provide feedback supporting individual growth and development. 360s should not be used as performance management tools.
 - **Ongoing Feedback**: Managers and team members should seek cross functional feedback throughout the year to inform performance discussions. A 360 should not serve as a replacement for asking stakeholders and peers how things are going.
 - **Focused Goals**: 360 feedback is most useful when a team member is committed to working towards certain development goals, as the 360 can provide more specific feedback and focus towards those development goals, and also reveal some blind spots or hidden strengths.
