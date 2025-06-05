@@ -68,8 +68,8 @@ GitLab is an async-first and remote-first company. We use the **GitLab UX Resear
 - For Grade 1 or 2 recruitment requests, the DRI can invite participants for study themselves.
 - For other recruitment requests, the Research Operations team does the invite instead.
 - If cancellation or rescheduling is needed from our side:
- - Communicate early, explain the reasons and offer compensation if appropriate, for example [when we didn't give enough notice](content/handbook/product/ux/ux-research-coordination/participation-gratuities/#gratuity-recommendations).
- - Always ask for confirmtation. If no reply, consider resending via multiple channels (e.g. email + SMS/WhatsApp), or attend the session at pre-agreed time to check.
+  - Communicate early, explain the reasons and offer compensation if appropriate, for example [when we didn't give enough notice](/handbook/product/ux/ux-research-coordination/participation-gratuities/#gratuity-recommendations).
+  - Always ask for confirmtation. If no reply, consider resending via multiple channels (e.g. email + SMS/WhatsApp), or attend the session at pre-agreed time to check.
 
 **5. Paying out**
 
