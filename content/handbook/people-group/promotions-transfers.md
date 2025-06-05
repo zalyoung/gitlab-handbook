@@ -496,6 +496,7 @@ This section describes the approval chain after the People Business Partner subm
     - For all other changes, the effective date should be the first of the current month if processed on or before the 8th of the month and the first of the next month if processed after the 8th of the month.
     - For example, if a GitLab Ltd team member has a change being processed on June 7, this would be effective June 1.
     - If the change was instead being processed on June 15, this would be effective July 1.
+1. Equity compensation should not be included in job change letters for anyone outside of the US. Please ensure that a separate letter with the RSU information is included with the job change letter. 
 1. If the team member is employed in France please share the Job Change Letter with the Legal Employment team so they can confirm the classification in the letter.
 1. If only the company stamp is required the letter should get emailed to the team member's manager to communicate the change
 1. If e-signatures are required stage the letter in DocuSign and add the following team members to sign via their GitLab email addresses:
