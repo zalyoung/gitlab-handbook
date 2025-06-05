@@ -44,10 +44,11 @@ If you are planning to recruit users through a promotional game or contest (e.g.
 
 Note if you need to cancel or reschedule the session, you will still need to process the gratuities in some cases.
 
-| Notice Period Given | Incentive |
+| Notice Period Given | % of Incentive To Pay Out |
 | ------ | ------ |
-| <= 24 hours ahead of the session | 100% of the incentive |
-| <= 36 hours ahead of the session | 50% of the incentive |
+| <= 24 hours ahead of the session | 100% |
+| <= 36 hours ahead of the session | 50% |
+| > 36 hours ahead of the session | 0% |
 
 For Cancellation or Reschedulling best practice, see the [Resources for Research DRIs page](/handbook/product/ux/ux-research/resources-for-research-dris/#roles-and-responsibilities-by-phases)
 
