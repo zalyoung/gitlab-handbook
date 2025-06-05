@@ -51,7 +51,7 @@ AMAs:
 - **Model** - a complex set of mathematical formulas that generates predictions
 - **Propensity modeling** - building models to predict specific events by analyzing past behaviors of a target audience.
 - **Regression** - a statistical method for predicting an outcome. For example, predicting a person's income, or how likely a customer is to churn
-- **Scoring** -  process of generating predictions for the new dataset
+- **Scoring** - process of generating predictions for the new dataset
 - **Training** -  process of applying an algorithm to data to create a model
 - **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts
 - **Weight** - numerical value assigned to feature that determines its strength
