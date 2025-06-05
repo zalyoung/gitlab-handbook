@@ -30,7 +30,7 @@ This will allow everyone to gain more knowledge regarding the various GitLab int
 - Slack channel: [#spt_pod_import](https://gitlab.slack.com/archives/C052K0Z1F8T)
 - Epic - https://gitlab.com/groups/gitlab-com/support/-/epics/145
 
-## Create Integrate and Import/Export view
+## Create Import/Export view
 
 Since limitations in Zendesk prevent each pod from having a shared view, you will have to create one manually.
 Follow the steps below and you should have a personal view in no time.
