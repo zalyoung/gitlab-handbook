@@ -17,6 +17,7 @@ The Ecosystem SA team is global. Ecosystem SAs are aligned with global and regio
 The ESA's goal is to increase partner contributions to revenue, enhance the value of services capabilities, and encourage partners to invest in GitLab. We achieve this through "**Partner Activation**," which focuses on measurable outcomes that benefit GitLab, partners, and customers.
 
 The main activation pillars are:
+
 * **Contribution Activation**: This involves identifying valuable use cases for GitLab, effectively pitching our value propositions, giving compelling demos, and explaining the return on investment. The goal is to turn partner relationships into qualified sales opportunities and closed deals.
 * **Commitment Activation**: This focuses on helping partners create unique service offerings, develop joint Go-To-Market (GTM) materials and events, and co-create solutions. This transforms technical knowledge into tangible results that show partners' investment in GitLab.
 * **Capability Activation**: This involves expanding GitLab Professional Services, helping customers adopt use cases, and serving specific industry markets. The aim is to improve partners' service capabilities so they can successfully implement solutions for customers.
@@ -70,11 +71,11 @@ The GitLab Partner Champions program is detailed on [its own handbook page](http
 
 To maintain the program over time, we generally aim to:
 
-1.  Distribute Champions call responsibilities.
-2.  Optimize the active Champions participants.
-3.  Implement clear expectations for Champions.
-4.  Validate the program's value to GitLab.
-5.  Enable Champions collaboration and define call session topics.
+1. Distribute Champions call responsibilities.
+2. Optimize the active Champions participants.
+3. Implement clear expectations for Champions.
+4. Validate the program's value to GitLab.
+5. Enable Champions collaboration and define call session topics.
 
 ---
 
@@ -136,7 +137,7 @@ This time is dedicated to activities that benefit the broader GitLab organizatio
 * Support cross-functional initiatives, such as the Subject Matter Expert (SME) Program, Co-Creation initiative with customers, or efforts to improve Cloud Service Provider (CSP)/Technology Partner Program (TPP) processes.
 * Explore and advocate for new tools or platforms to improve collaboration or efficiency.
 
-#### Internal Evangelism & Collaboration:
+#### Internal Evangelism & Collaboration
 
 * Engage with Field SAs and other internal teams to champion the value of partners and how to effectively work with them.
 * Participate in internal team meetings (Ecosystem SA team calls, regional SA calls) to stay aligned and share updates.
@@ -171,7 +172,6 @@ This time is dedicated to enhancing the ESA's personal skills, technical knowled
 * Seek mentorship or coaching from senior SAs or leaders.
 * Improve personal efficiency and time management (e.g., learning new tools like Claude/Perplexity, refining workflow processes).
 * Review performance feedback and identify areas for growth.
-
 
 ### Integrating Activities Throughout the Week
 
