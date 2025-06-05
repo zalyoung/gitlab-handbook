@@ -12,7 +12,8 @@ As a Support Engineer at GitLab, the majority of your time will be focused on he
 While working through various customer problems, you may need help. We have a wide and talented team that can help you at many levels:
 
 - Managers: If your problem is related to process, or understanding direction, or cross-team collaboration, consider talking to your direct manager, or another manager whom may be working more directly on that problem. Managers in Support Engineering should be able to point you in the right direction and enable you to find the right help.
-- Senior/Staff Support engineers: If your problem is debugging related, consider reaching out to a Senior+ Engineer. At the Senior+ level, engineers are expected to be acting as mentors, and technical experts. See our [Mentoring page for more information about how Senior+ Engineers are expected to help](/handbook/support/engineering/mentorship)
+- Senior/Staff Support engineers: If your problem is debugging related, consider reaching out to a Senior+ Engineer. At the Senior+ level, engineers are expected to be acting as mentors, and technical experts. See our [Mentoring page for more information about how Senior+ Engineers are expected to help](/handbook/support/engineering/mentorship).
+- [How to get help workflow](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help/) provides more details on getting help when working on a ticket.
 
 ### Zendesk Instances
 
@@ -69,7 +70,7 @@ end of each week with a list of support team contributions merged in the past we
 - [Insomnia](https://insomnia.rest/) - Build, debug, and test API queries, and generate the code for them
 - [iTerm2](https://iterm2.com/) (macOS) - Terminal emulator with robust theming and customization options
 - [Itsycal](https://www.mowglii.com/itsycal/) (macOS) - Menu bar calendar with more flexibility than the system widget
-- [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker
+- [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker. **Note:** configure with [local server](https://dev.languagetool.org/http-server)
 - [Obsidian](https://obsidian.md/) - Super customizable markdown notetaking app with tons of themes and addons
 - [Raycast](https://www.raycast.com/) (macOS) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more
 - [Zed](https://zed.dev/) - Lightweight but powerful IDE
@@ -84,4 +85,3 @@ end of each week with a list of support team contributions merged in the past we
 - GitLab Web Debugger - Aides in identifying the root cause of page load errors on GitLab.com and internal GitLab instances ([Chrome](https://gitlab.com/gitlab-com/gl-infra/gitlab-web-debugger))
 - [Zendesk Quicktab](https://support.zendesk.com/hc/en-us/articles/6443360776346-Installing-the-Quicktab-Google-Chrome-extension) - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/quicktab-for-zendesk-by-t/hhbimbckgheipimadcknkfogegmpoibj))
 - Calendly Meeting Scheduling Software - ad-hoc meetings, one-click booking ([Chrome](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp))
-- GitLab Screen share mode - allows to hide confidential information on your GitLab screen ([Chrome](https://gitlab.com/leipert-projects/gitlab-screen share-mode#chrome)/[Firefox](https://gitlab.com/leipert-projects/gitlab-screen share-mode#firefox))
