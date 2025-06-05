@@ -522,7 +522,7 @@ More specifically, the following points are important:
 
 ### Monthly Showcases DRI
 
-We participate in the [OPS showcase initiative](/handbook/engineering/devops/ops/#ops-engineering-showcase), to facilitate the selection of topics, the creation of the issues and content we have a Showcase DRI which will:
+We participate in the [OPS showcase initiative](/handbook/engineering/devops/ops/), to facilitate the selection of topics, the creation of the issues and content we have a Showcase DRI which will:
 
 - Ensure every month at least a showcase issue is created and linked in the right issues/epic
 - Facilitate the selection of the topic of each showcase, paying attention to give space to everyone in the team
