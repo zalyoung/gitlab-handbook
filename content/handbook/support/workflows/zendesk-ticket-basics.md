@@ -118,3 +118,42 @@ the SLA. The ticket that was merged into another ticket is closed while the
 status of the target ticket is unaffected.
 
 **NOTE:** Any ticket merge is final -- there is no option to undo it.
+
+## ZenGuard - Action Warning System
+
+ZenGuard is a Zendesk application deoployed on Global Zendesk only, that provides warning dialogs and confirmation prompts for high-risk actions that could lead to unwanted results. It helps prevent common mistakes that require tickets to be reopened or recreated.
+
+### What ZenGuard protects against
+
+The app provides warnings and blocks certain actions to prevent:
+
+- **Due date issues**: Setting due dates in the past, or too far in the future
+- **External collaborator risks**: Adding end-users as collaborators/CC 
+- **Status changes without responses**: Setting tickets to pending with only internal notes
+- **On-hold timer resets**: Sending public replies on on-hold tickets that would reset SLA timers
+- **Missing public replies**: Setting tickets on-hold without a public reply 
+- **Form change closures**: Changing ticket forms that will cause automatic closure 
+
+### How ZenGuard works
+
+When you attempt a potentially problematic action, ZenGuard will:
+
+1. **Display a warning dialog** explaining the potential issue
+2. **Block the action** if it cannot be bypassed (marked as "this cannot be bypassed")
+3. **Allow bypass** for certain warnings by refreshing the app or proceeding after confirmation, the app can be refresh
+
+### Common scenarios and solutions
+
+#### Bypassing warnings
+Some warnings can be bypassed by:
+- Refreshing the ZenGuard app in your browser
+- Clicking through the confirmation dialog (where permitted)
+
+Note that critical safety checks (like setting pending without any response) cannot be bypassed.
+
+#### Troubleshooting
+If ZenGuard prevents a legitimate action:
+1. Check if there's a bypass option in the warning dialog
+2. Ensure all required fields are properly filled
+3. For macro-related issues, wait a moment and resubmit
+4. If problems persist, contact Customer Support Operations
