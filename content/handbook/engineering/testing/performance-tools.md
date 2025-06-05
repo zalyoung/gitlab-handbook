@@ -69,7 +69,7 @@ Use GPT when you want to test how your APIs, database queries, or backend servic
 
 ### Testing Components in Isolation
 
-Use Component Performance Testing to run automated load tests on individual services or components at the Merge Request level, providing early feedback on performance changes before they reach production.
+Use Component Performance Testing to run automated load tests on individual services or components at the Merge Request level, providing early feedback on performance changes before they reach production. It does this by running tests against internal API endpoints rather than end-user API endpoints.
 
 **When to use:**
 
