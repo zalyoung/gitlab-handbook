@@ -471,6 +471,9 @@
 /content/handbook/product-development/ @david @sabrinafarmer
 /content/handbook/product-development/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @mflouton @fzimmer
 
+^[Product Design]
+/content/handbook/product/ux/product-design/design-studios.md @pedroms
+
 ^[sales]
 /content/handbook/resellers/ @ecepulis
 /content/handbook/resellers/training.md @ecepulis @isteward
