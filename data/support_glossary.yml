@@ -168,3 +168,8 @@
   term: Knowledge Centered Service
   info: |
     An industry standard for indetifying, creating, and updating articles within a knowledge base. [Official documentation](https://www.serviceinnovation.org/kcs/).
+
+- acronym: STAR
+  term: Support Ticket Attention Requests
+  info: |
+    STAR is used when a support ticket needs extra visibility or prioritization. This is typically communicated in the #support_ticket-attention-requests Slack channel.
