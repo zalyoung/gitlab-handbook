@@ -37,6 +37,7 @@ Vulnerability Resolution is enabled for SAST vulnerabilities, only for a specifi
 We determine whether a vulnerability supports Vulnerability Resolution based on its CWE identifier. This support is tracked using two mechanisms:
 
 1. Database field on vulnerability records `has_vulnerability_resolution`
+
    The database field is populated and backfilled during [ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb), meaning any successful pipeline run on the default branch after a CWE list update will ensure it contains the latest values.
 
    This field is used, for example, in:
