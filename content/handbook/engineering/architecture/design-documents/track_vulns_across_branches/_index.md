@@ -46,7 +46,7 @@ Fundamentally the list of things we are identifying when we do this can boiled d
 - Dismissed
 - Resolved
 
-These states are fundamentally representative of entry and exit points of vulnerability within a codebase. We currently use the `Vulnerabilities::StateTransition` model to track changes between these states for a respective vulnerability. Our current architecture is built with the assumption that a `Vulnerability` exists only on the default branch of a repostory, and so we create a `Vulnerabilitie::StateTransition` only when the state of a vulnerability changes on the default branch.
+These states are fundamentally representative of entry and exit points of vulnerability within a codebase. We currently use the `Vulnerabilities::StateTransition` model to track changes between these states for a respective vulnerability. Our current architecture is built with the assumption that a `Vulnerability` exists only on the default branch of a repostory, and so we create a `Vulnerabilities::StateTransition` only when the state of a vulnerability changes on the default branch.
 
 The vast majority of feature branches do not make any changes to state of a vulnerability within a codebase. This means that we can avoid the most significant risk of database bloat by utilising the branching nature of the git repository to track only the points where these changes occur in a repository's history. We can simply do this by relating the `Vulnerability::StateTransition` to the `Ci::Pipeline` that was the source of the security report that was ingested.
 
