@@ -59,7 +59,6 @@ Planning processes followed by teams in the Sub-department:
 
 - [General Ops Sub-department Planning Process](/handbook/engineering/devops/ops/general-planning/)
 
-
 ## Sustaining / Non-Sustaining planning exercise
 
 In FY23, each EM in Ops was asked to participate in a [capacity planning exercise that involved evaluating the sustaining vs non-sustaining work](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/125) in their team's backlog. This exercise was also repeated by the [Verify Pipeline teams in FY24](https://gitlab.com/groups/gitlab-org/-/epics/11284) to better understand Engineering capacity needs for each of the Pipeline teams.
