@@ -327,7 +327,7 @@ To run this job successfully, the following environment variables must be set:
 
 ![pipeline_editor.png](/images/enterprise-data/snowplow/pipeline_editor.png)
 
-The scripts are generated as an artefact and once when it is finished, press download button to get it.
+The scripts are generated as an artifact. Once the pipeline is complete, click the download button to retrieve them.
 
 ![download_pipeline.png](/images/enterprise-data/snowplow/download_pipeline.png)
 
