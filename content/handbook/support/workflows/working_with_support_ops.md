@@ -62,6 +62,7 @@ More about [stages that Customer Support Operations uses to represent progress](
 Bugs should be reported using the [Bug Report Template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug) in the Customer Support Operations Issue Tracker (project path: `gitlab-com/gl-security/corp/cust-support-ops/issue-tracker`).
 
 When creating a bug report:
+
 1. Select the Bug template from the dropdown
 2. Fill in all required fields, especially steps to reproduce
 3. Select appropriate severity
@@ -77,6 +78,7 @@ The focus for feature requests is on aligning them with our existing [Support Ro
 Feature requests should be submitted using the [Feature Requests Template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) in the Customer Support Operations Issue Tracker (project path: `gitlab-com/gl-security/corp/cust-support-ops/issue-tracker`).
 
 When creating a feature request:
+
 1. Select the Feature template from the dropdown
 2. Clearly describe the business need and expected outcome
 3. Include any relevant stakeholders using the `/cc @username` syntax
@@ -97,14 +99,16 @@ First, check the [Customer Support Operations System Criticality Sheet](https://
    * 8 hours for issues with Business Operational systems
    * 30 minutes for issues with Business Critical Systems
    * 10 minutes for issues with Mission Critical Systems
-3. [Create a new PagerDuty incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service (See: [Support Operations On-Call Workflow](/handbook/security/customer-support-operations/workflows/support_operations-on-call))
+3. Create an incident issue using the [Incident Template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Incident) in the Customer Support Operations Issue Tracker
+4. For urgent incidents, [Create a new PagerDuty incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service (See: [Support Operations On-Call Workflow](/handbook/security/customer-support-operations/workflows/support_operations-on-call))
 5. Be available to work with the on-call to develop a plan to resolve the problem
 
 When creating an incident issue, include:
-- Clear description of what's happening
-- Impact on users/customers
-- Any error messages or screenshots
-- Steps you've already taken to troubleshoot
+
+* Clear description of what's happening
+* Impact on users/customers
+* Any error messages or screenshots
+* Steps you've already taken to troubleshoot
 
 More about [how Customer Support Operations handles incidents](/handbook/security/customer-support-operations/workflows/incidents/).
 
