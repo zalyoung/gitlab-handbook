@@ -58,7 +58,7 @@ flowchart LR
 
 ### Testing API or Backend Performance
 
-Use GPT when you want to test how your APIs, database queries, or backend services perform under load. This includes testing response times, throughput, and system behavior under various load conditions.
+Use [GitLab Performance Tool](url) when you want to test how your APIs, database queries, or backend services perform under load. This includes testing response times, throughput, and system behavior under various load conditions.
 
 **When to use:**
 
