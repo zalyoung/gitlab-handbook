@@ -1,6 +1,6 @@
 ---
 title: "GitLab Delivery:Build"
-description: "The Build Team focuses on providing trusted and reliable artifacts so our customers can easily install and run GitLab. We serve as the bridge between development teams and end users, providing tooling and expertise that enables efficient component building while delivering installation experiences that are simple, secure, and dependable."
+description: "The Build team focuses on artifacts our customers use to deploy GitLab. This includes system packages, container images, and packages on cloud provider markteplaces. Build team members serve as the bridge between development teams and the end users. Build engineers provide tools and expertise that enable efficient component builds and deliver a simple, secure, and dependable installation experience."
 ---
 
 ## Overview
