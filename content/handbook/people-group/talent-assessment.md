@@ -684,7 +684,6 @@ Mid-Year Check-In Timeline (FY2026):
 - 2025-07-01 – 2025-07-18: Mid-year conversations conducted & documented
 - 2025-07-21 – 2025-07-25:Follow-up on development & performance goals
 
-
 ## Succession Planning
 
 Succession planning is an important step in our Talent Assessment process. Completing the [Performance/Growth Potential Assessment](/handbook/people-group/talent-assessment) gives leaders a fresh overview of the top performers and the highest growth team members in their respective organizations. Particularly for individuals in Senior Leadership roles and above (the [S-Group](/handbook/company/structure/#s-group) and depending on structure the [Director-Group](/handbook/company/structure/#director-group), a recommended next step following the Performance/Growth Potential assessment is to do succession planning.
