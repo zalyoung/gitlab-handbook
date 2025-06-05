@@ -34,7 +34,7 @@ Below are a few key points to think through when determining in which situations
 - **Single Data Point**: It is important to remember that the 360 represents a single, anonymous point in time. While it can be helpful to supplement performance conversations, it should not be the core data point.
 - **Uncover Blind Spots**: A 360 is best used when trying to uncover blind spots. If team members and their managers already have a good understanding of the growth areas, direct, transparent feedback is the most productive way to support continued growth and development.
 
-### When 360 Feedback Works Best:
+### When 360 Feedback Works Best
 
 - You're committed to working towards specific development goals
 - You want to uncover blind spots or hidden strengths
@@ -42,7 +42,7 @@ Below are a few key points to think through when determining in which situations
 - You're seeking to supplement your existing development efforts
 - You want focused feedback to support individual growth plans
 
-### When 360 Feedback May Not Be Needed:
+### When 360 Feedback May Not Be Needed
 
 - Development areas are already clear and you have an actionable plan underway
 - You already have a good understanding of your growth areas through regular feedback
@@ -65,6 +65,7 @@ If you'd like to receive 360 feedback as part of your performance conversation:
 ### **For Managers**
 
 To incorporate 360 feedback into your team member's performance conversation:
+
 - **Discuss and select feedback providers** - have a conversation with your team member to get their input on potential feedback providers, then choose 3-5 people using your discretion to ensure a balanced mix of perspectives (peers, stakeholders, direct reports, etc.)
 - **Choose your collection method**:
 - - **Google Form**: Use [THIS](https://docs.google.com/forms/d/1THnP078sm5590WmeXFHPG0LuvBsgkA7LYictR-XLC8o/copy) link to make a copy of a 360 feedback form for each team member. Customize it with your team member's name, indicate your desired response date, and send to your selected feedback providers. Download responses from the form when complete. NOTE: This is an interim solution while we explore alternative platforms to gather feedback.
@@ -77,7 +78,7 @@ To incorporate 360 feedback into your team member's performance conversation:
 ### **For Feedback Providers**
 
 When asked to provide 360 feedback:
--Focus on specific examples and observable behaviors when possible
+- Focus on specific examples and observable behaviors when possible
 - Be constructive and balanced in your observations
 - Consider the person's stated development goals when framing your feedback
 - Respond promptly within the requested timeframe
@@ -107,6 +108,7 @@ If you feel overwhelmed by the number of team members that have requested feedba
 However, you may not have feedback related to each of the questions asked. That is ok. If you don't have anything meaningful to provide, you can put not-applicable. Focus on the team members and the questions for which you have meaningful and helpful feedback. If you feel like you are not in a position to complete a meaningful review in general, please let the team member know, so they can possibly select another reviewer instead. Be mindful of your own bandwidth when providing reviews: Start with your core group, and expand from there as capacity allows.
 
 ## **Receiving Feedback in 360s**
+
 Be open to engaging in the conversation. Your peers have taken the time to provide you with their feedback. And the purpose of this feedback is to help you develop and reach your full potential. The perception they have of you is important information for you to have and to build into an action plan.
 
 Before going into the conversation and reviewing feedback, check out the page on receiving feedback.
