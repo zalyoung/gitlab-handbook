@@ -102,7 +102,7 @@ Use [Component Performance Testing Tool](url) to run automated load tests on ind
 
 ### Testing Page Load Performance
 
-Use GBPT to measure how fast your pages load for users, including metrics like Time to First Byte, Largest Contentful Paint, and other Core Web Vitals.
+Use [GitLab Browser Performance Tool](url) to measure how fast your pages load for users, including metrics like Time to First Byte, Largest Contentful Paint, and other Core Web Vitals.
 
 **When to use:**
 
