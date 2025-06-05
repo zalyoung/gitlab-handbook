@@ -241,17 +241,17 @@ Optional Review: SPA and/or Data Security, if the feature has changes that fall 
 #### Critical Risk Review
 
 * SDX Design review
-   * Threat modelling
-   * Design Review
+  * Threat modelling
+  * Design Review
 * SDX Code review
-   * AppSec MR reviews
-   * Verify adherence to [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) 
-   * Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools.
+  * AppSec MR reviews
+  * Verify adherence to [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) 
+  * Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools.
 * SDX Verify review  
-   * Final Security Review
-     * Whether critical vulnerabilities identified in other reviews are remediated.
-     * Dynamic Analysis using tools like [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
-     * Penetration Testing by AppSec
+  * Final Security Review
+    * Whether critical vulnerabilities identified in other reviews are remediated.
+    * Dynamic Analysis using tools like [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
+    * Penetration Testing by AppSec
 
 #### High Risk Review
 
