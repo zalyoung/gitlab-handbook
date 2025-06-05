@@ -121,16 +121,16 @@ status of the target ticket is unaffected.
 
 ## ZenGuard - Action Warning System
 
-ZenGuard is a Zendesk application deoployed on Global Zendesk only, that provides warning dialogs and confirmation prompts for high-risk actions that could lead to unwanted results. It helps prevent common mistakes that require tickets to be reopened or recreated.
+ZenGuard is a Zendesk application deoployed on Global Zendesk only. The app provides warning dialogs and confirmation prompts for high-risk actions that could lead to unwanted results. It helps prevent common mistakes that require tickets to be reopened or recreated.
 
 ### What ZenGuard protects against
 
-The app provides warnings and blocks certain actions to prevent:
+The app provides warnings and blocks certain actions:
 
 - **Due date issues**: Setting due dates in the past, or too far in the future
 - **External collaborator risks**: Adding end-users as collaborators/CC 
 - **Status changes without responses**: Setting tickets to pending with only internal notes
-- **On-hold timer resets**: Sending public replies on on-hold tickets that would reset SLA timers
+- **On-hold timer resets**: Sending public replies on on-hold tickets that will not reset SLA timers
 - **Missing public replies**: Setting tickets on-hold without a public reply 
 - **Form change closures**: Changing ticket forms that will cause automatic closure 
 
