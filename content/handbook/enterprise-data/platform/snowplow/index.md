@@ -352,7 +352,7 @@ scripts/
 ├────4_drop.sql   # drop backup script
 ```
 
-Usually, the flow will require the pipeline to be executed twice (not necessarily):
+Usually, the flow will require the pipeline to be executed twice (not necessarily), once to generate a testing script to be run on the dev DB's, and once to generate a prod script to be run on the production db's.
 
 * For testing databases, the parameter `DATABASE_PREFIX` will have a value as a prefix of development databases (ie. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`) and the code will be generated like:
 
