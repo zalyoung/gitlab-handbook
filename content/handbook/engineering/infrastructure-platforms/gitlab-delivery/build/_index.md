@@ -5,9 +5,9 @@ description: "The Build Team focuses on providing trusted and reliable artifacts
 
 ## Overview
 
-The Build team is focused on producing artifacts including system packages, container images, and related components like marketplace listings along with tooling required to create and maintain them. We serve as the bridge between development teams and end users, providing tooling and expertise that enables efficient component building while delivering installation experiences that are simple, secure, and dependable.
+The Build team focuses on artifacts our customers use to deploy GitLab. This includes system packages, container images, and packages on cloud provider markteplaces. Build team members serve as the bridge between development teams and the end users. Build engineers provide tools and expertise that enable efficient component builds and deliver a simple, secure, and dependable installation experience.
 
-In addition, the Build team is also responsible for reviewing a large number of MR's authored outside the team. These include dependency and security updates for other bundled components like PostgreSQL, Consul, Patroni.
+The Build team also reviews a large number of externally authored merge requests. Bundled components such as PostgreSQL, Consul, and Patroni require regular dependency and security updates. Community members may also request changes to compile flags that enable specific optimizations.
 
 ## Our Customers
 
@@ -16,18 +16,18 @@ In addition, the Build team is also responsible for reviewing a large number of 
 We partner with GitLab's development teams to:
 
 - Integrate their components into cohesive installation packages
-- Provide modern build tooling and automation
+- Provide reliable build tools and automation
 - Ensure secure dependency management and vulnerability mitigation
 - Streamline the path from code to packaged software
 
 ### External Customers - GitLab Users
 
-We deliver exceptional installation experiences by:
+We deliver exceptional installation experiences with:
 
-- Creating reliable, tested installation methods across platforms
-- Ensuring secure, up-to-date packages and container images
-- Providing clear documentation and upgrade paths
-- Maintaining compatibility across diverse environments
+- Reliable and well-tested installation methods across supported platforms
+- Secure and up-to-date packages, containers, and cloud provider marketplace images
+- Clear documentation and upgrade paths
+- Compatibility across diverse customer environments
 
 ## Mission
 
@@ -35,26 +35,26 @@ The Build Team ensures GitLab components are seamlessly integrated, securely pac
 
 ## Vision
 
-Our vision and direction is aligned with the broader Delivery Group, which is available [here](https://about.gitlab.com/direction/gitlab_delivery/).
+Our vision and direction aligns with the [direction of the broader Delivery Group](https://about.gitlab.com/direction/gitlab_delivery/).
 
 ### For Internal Customers (Development Teams)
 
-- Every development team has access to modern, efficient build tooling that accelerates their workflow
+- Every development team has access to reliable, efficient build tools that accelerate their workflow
 - Component integration is automated, secure, and requires minimal manual intervention
 - Security vulnerabilities are proactively identified and mitigated across all dependencies
 - Build processes are consistent, well-documented, and self-service where possible
 
 ### For External Customers (GitLab Users)
 
-- GitLab installation is effortless across all major platforms and architectures
-- Upgrades are automated and reliable
-- Security patches are delivered rapidly and transparently
-- Installation methods are thoroughly tested and production-ready
+- GitLab installs effortlessly across all supported platforms and architectures
+- Ship production-ready and thoroughly tested packages.
+- Customer deployments upgrade reliably with minimal intervention
+- Security patches release rapidly and transparently
 
 ### Technology Vision
 
-- GitLab has an official installation method on all major platforms and architectures
-- GitLab offers official one click installation method on all major cloud platforms
+- GitLab has an official installation method on all supported platforms and architectures
+- GitLab offers official one click installation method on all supported cloud platforms
 - GitLab is able to automatically upgrade itself safely and reliably
 - GitLab runs equally well on both high and low resource systems (such as Raspberry Pi)
 - GitLab.com is running using the official installation methods
@@ -64,20 +64,20 @@ Our vision and direction is aligned with the broader Delivery Group, which is av
 
 ### Team Vision
 
-- Each team member is able to work on all team projects along with the ability to focus on specific technologies
-- Each team member is a part of a hiring panel aimed to hire better than the best in the team
-- Team creates documentation to increase knowledge and awareness to support a self-service model
+- Each team member can work on all team projects in addition to their domain expertise
+- Each team member strives to identify candidates that strengthen the team and raise the quality of our work.
+- Team creates and improves documentation to facilitate knowledge transfer and enable self-service
 - Team is able to reach a conclusion independently all the time, consensus most of the time
 - Team has official certifications for frequently used technologies and platforms
 - On-boarding and off-boarding is efficient
-- Career development paths are clear
+- Clear career development paths
 
 ## Quick Start Guide
 
 ### For Development Teams
 
 - **Need a new dependency?** Create a [Deliverables Request](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/new?issuable_template=Architectural-Deliverables-Request)
-- **Packaging question?** Ping `@gitlab-org/build` in your issue
+- **Packaging question?** Ping `@gitlab-build` in your issue
 - **Security concern?** Follow our [vulnerability management process](/handbook/security/product-security/application-security/vulnerability-management/)
 - **General guidance?** Review our [workflow documentation](workflow.html)
 
@@ -128,7 +128,7 @@ To open an RFH, refer to the procedures in our [how to get help](/handbook/suppo
 
 ### External Customer Delivery
 
-- **Multi-Platform Packages:** Build and maintain packages for all major Linux distributions and architectures
+- **Multi-Platform Packages:** Build and maintain packages for all supported Linux distributions and architectures
 - **Container Images:** Develop and maintain official GitLab container images
 - **Cloud Marketplace:** Manage listings and integrations with major cloud providers
 - **Installation Experience:** Maintain install, update, and upgrade documentation and processes
@@ -211,9 +211,9 @@ graph TD
 
 | Name | Location | Description |
 | -------- | -------- | -------- |
-| Omnibus GitLab | [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | Build Omnibus packages with HA support for LTS versions of all major Linux operating systems such as Ubuntu, Debian, CentOS/RHEL, OpenSUSE, SLES |
+| Omnibus GitLab | [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | Build Omnibus packages with HA support for LTS versions of all supported Linux operating systems such as Ubuntu, Debian, CentOS/RHEL, OpenSUSE, SLES |
 | Docker All in one GitLab image | [gitlab-org/omnibus-gitlab/docker](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/docker) | Build Docker images for GitLab CE/EE based on the omnibus-gitlab package |
-| Container images for GitLab Helm Chart | [gitlab-org/build/CNG](https://gitlab.com/gitlab-org/build/CNG) | Individual images used by GitLab Helm Charts |
+| Cloud Native GitLab Containers | [gitlab-org/build/CNG](https://gitlab.com/gitlab-org/build/CNG) | Individual images used by GitLab Helm Charts |
 | AWS images | [AWS marketplace](https://aws.amazon.com/marketplace/pp/B071RFCJZK?qid=1493819387811&sr=0-1&ref_=srh_res_product_title) | AWS image based on the omnibus-gitlab package |
 | Omnibus GitLab Builder | [GitLab Omnibus Builder](https://gitlab.com/gitlab-org/gitlab-omnibus-builder) | Create environment containing build dependencies for the omnibus-gitlab package |
 | Licenses of bundled dependencies | [Licenses page on GL Pages](https://gitlab-org.gitlab.io/omnibus-gitlab/licenses.html)  | Webpage listing the bundled dependencies in each package along with their license. |
