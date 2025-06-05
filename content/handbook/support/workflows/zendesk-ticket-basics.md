@@ -156,6 +156,7 @@ Note that critical safety checks (like setting pending without any response) can
 #### Troubleshooting
 
 If ZenGuard prevents a legitimate action:
+
 1. Check if there's a bypass option in the warning dialog
 2. Ensure all required fields are properly filled
 3. For macro-related issues, wait a moment and resubmit
