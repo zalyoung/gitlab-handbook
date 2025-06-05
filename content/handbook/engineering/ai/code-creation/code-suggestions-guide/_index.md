@@ -1,5 +1,6 @@
 ---
 title: "Code Creation: Code Suggestions Guide"
+description: "Development guidelines for engineers working on Code Suggestions features"
 ---
 
 ## Introduction
