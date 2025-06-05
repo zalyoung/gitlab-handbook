@@ -36,13 +36,9 @@ Constructing secure passwords and ensuring proper password management is essenti
 - Password expiration = No
 - Multi-factor authentication (MFA) = Yes, whenever possible
 
-*The following requirements apply when technically feasible:*
-
-### System Password Configuration Requirements  
-
 To make a secure password you can remember, consider using a [combination of 5 or more random words](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277#67c2). Security questions like "What is your favorite color? What is your mother's maiden name?", etc should be answered with a random non-obvious word or set of words. You can [generate answers in 1Password](/handbook/security/corporate/systems/1password/) and store them as a note. This helps ensure the answer isn't easily guessable and will be unique across different sites.
 
-*Configure systems to meet these requirements where technically supported:*
+*The following requirements apply when technically feasible:*
 
 ### Password Management
 
@@ -68,6 +64,8 @@ To make a secure password you can remember, consider using a [combination of 5 o
 - Information related to authentication failed login attempts need to be recorded within the application logs if technically feasible; such as: name, date, number of failed attempts, unique log identifier.
 - Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts. If the particular system will not support lockout after 10 attempts or less, the lockout needs to be configured to the minimum value allowed by the system. The lockout may end after a designated period of time, or require a manual unlock, depending on the profile of the application.
 - [Two Factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) must be enforced.
+
+*Configure systems to meet these requirements where technically supported:*
 
 #### Two Factor Authentication (MFA or 2FA)
 
