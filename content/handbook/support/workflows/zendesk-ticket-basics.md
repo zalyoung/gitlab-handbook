@@ -145,13 +145,16 @@ When you attempt a potentially problematic action, ZenGuard will:
 ### Common scenarios and solutions
 
 #### Bypassing warnings
+
 Some warnings can be bypassed by:
+
 - Refreshing the ZenGuard app in your browser
 - Clicking through the confirmation dialog (where permitted)
 
 Note that critical safety checks (like setting pending without any response) cannot be bypassed.
 
 #### Troubleshooting
+
 If ZenGuard prevents a legitimate action:
 1. Check if there's a bypass option in the warning dialog
 2. Ensure all required fields are properly filled
