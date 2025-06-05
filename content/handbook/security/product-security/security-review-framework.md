@@ -240,14 +240,18 @@ Optional Review: SPA and/or Data Security, if the feature has changes that fall 
 
 #### Critical Risk Review
 
-* Joint architectural and security review
-* Comprehensive threat modeling session
-* Manual code review of critical components
-* Penetration testing of feature
-* Security test case creation
-* Multiple security engineers involved
-* Post-implementation validation
-* Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
+* SDX Design review
+   * Threat modelling
+   * Design Review
+* SDX Code review
+   * AppSec MR reviews
+   * Verify adherence to [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) 
+   * Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools.
+* SDX Verify review  
+   * Final Security Review
+     * Whether critical vulnerabilities identified in other reviews are remediated.
+     * Dynamic Analysis using tools like [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
+     * Penetration Testing by AppSec
 
 #### High Risk Review
 
