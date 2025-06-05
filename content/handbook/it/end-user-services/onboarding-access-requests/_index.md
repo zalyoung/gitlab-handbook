@@ -16,8 +16,8 @@ At GitLab, we use centralized laptop management for company issued devices. If y
 | Role | Responsibility |
 |-----------|-----------|
 | GitLab Team Members | Responsible for following the requirements in this procedure |
-| Business Technology | Responsible for implementing and executing this procedure |
-| Business Technology Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
+| Corporate Security | Responsible for implementing and executing this procedure |
+| Corporate Security Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
 ## GitLab Laptops
 
