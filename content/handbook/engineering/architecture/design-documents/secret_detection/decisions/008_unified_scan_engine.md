@@ -41,7 +41,7 @@ The idea of unified engine could hold true only if we have a scan engine that is
 
 The minimalistic scope and the stateless nature of the proposed scan engine will open up the _portability_ advantage, which is a necessity for certain target scan types (source code or job artifacts running in CI env). Therefore, the scan engine could be adopted in one of the following three modes depending on the nature of the scan target type (traffic,size,etc.):
 
-* **As a Distributed Service:** The scan engine will be wrapped with a REST/gRPC layer having scan API endpoints. The caller makes the scan request over the network. This mode is suitable for SD features having high traffic with lightweight payloads (\<1MB). Example: Scanning Work Items via [Secret Detection Service](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service)
+* **As a Distributed Service**: The scan engine will be wrapped with a REST/gRPC layer having scan API endpoints. The caller makes the scan request over the network. This mode is suitable for SD features having high traffic with lightweight payloads (\<1MB). Example: Scanning Work Items via [Secret Detection Service](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-service)
 
 * **As an Embedded module**: The core engine in this mode is _embedded_ within the same host as the caller application. The caller invokes the scan for a scannable payload. This mode is transactional by nature. We are already using this mode for the Push Protection feature where the engine is embedded as a Ruby Gem and installed in the Rails monolith. The Rails monolith makes the scan request (including `git diff` data as a scannable payload) to the gem.
 
@@ -67,11 +67,11 @@ We will follow the concept of `Adapters` where an `Adapter` sits between the cal
 
 The above process typically the same for any scan target type where the `Step 1` represents pre-processing phase of the scan, `Step 2` represents the SD Scan operation itself, and finally the `Step 3` represents the post-processing phase of the scan. The pre-processing and post-processing logic are generally scan target type dependent whereas the scan logic is common across.
 
-If we replicate the above process keeping the context of Adapters + Unified scan engine, we would have an `Adapter`(say `SourceCodeAdapter`) responsible for handling pre-processing and post-processing logic whereas the `Scan engine` responsible for running the SD scan for the given scannable payloads. 
+If we replicate the above process keeping the context of Adapters + Unified scan engine in mind, we would have an `Adapter` (say `SourceCodeAdapter`) responsible for handling pre-processing and post-processing logic whereas the `Scan engine` responsible for running the SD scan for the given scannable payloads. 
 
 Here's the comprehensive view of unified scan engine with the different Adapters, each for a scan target type.
 
-![High-level Design for unified scan engine with Adapters](/images/engineering/architecture/design-documents/secret_detection/008_high_level_design.png "High-level Design for unified scan engine with Adapters")
+![High-level Design for unified scan engine with Adapters](/images/engineering/architecture/design-documents/secret_detection/008_high_level_design.jpg "High-level Design for unified scan engine with Adapters")
 
 ## Distribution
 
