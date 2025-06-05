@@ -43,16 +43,25 @@
 /*.html /:splat/ 301
 
 # IT Team move to CorpSec - remove 2025-11-30
+/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops /handbook/security/corporate/end-user-services/laptop-management/ 301
+/handbook/it/it/ /handbook/security/corporate/end-user-services/ 301
+/handbook/it/end-user-services/onboarding-access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
+/handbook/it/end-user-services/onboarding-access-requests/* /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
 /handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
+/handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/ 301
 /handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/services/laptops/wipe/ 301
+/handbook/it/okta/okta-enduser-faq/ /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/ 301
+/handbook/it/end-user-services/#automated-group-membership-reports-for-managers /handbook/security/corporate/end-user-services/ 301
+/handbook/security/#gitlab-password-policy-guidelines /handbook/security/standards/password-standard/ 301
+/handbook/security/#access-control-policy-and-procedures /handbook/security/#access-control-policy-and-procedures 301
+/handbook/support/internal-support/#viewing-support-tickets /handbook/support/internal-support/ 301
+/handbook/it/okta/ /handbook/security/corporate/end-user-services/okta/ 301
+/handbook/it/okta/* /handbook/security/corporate/end-user-services/okta/ 301
+../../it/end-user-services/onboarding-access-requests/access-requests/_index.md /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
 /handbook/it/end-user-services/ /handbook/security/corporate/end-user-services/ 301
 /handbook/it/end-user-services/* /handbook/security/corporate/end-user-services/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
-/handbook/it/okta/* /handbook/security/corporate/end-user-services/okta/ 301
-/handbook/it/okta/ /handbook/security/corporate/end-user-services/okta/ 301
-/handbook/it/it/ /handbook/security/corporate/end-user-services/ 301
 /handbook/it/runbooks/* /handbook/security/corporate/end-user-services/ 301
 
 # Delivery Group move in Infra platforms - remove 2025-04-20
