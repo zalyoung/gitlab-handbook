@@ -37,7 +37,7 @@ All of our meetings are recorded and uploaded to the [Code Creation YouTube Play
 
 ### Milestone Planning
 
-See the [Code Creation Milestone Planning](/handbook/engineering/ai/code-creation/milestone_planning/) for more information on the milestone planning process.
+See the [Code Creation Milestone Planning](/handbook/engineering/ai/code-creation/how-we-work/milestone_planning/) for more information on the milestone planning process.
 
 ### Weekly Status Updates
 
