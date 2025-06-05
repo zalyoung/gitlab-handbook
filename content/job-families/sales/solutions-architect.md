@@ -43,7 +43,7 @@ The Associate Solutions Architect is a [grade 5](/handbook/total-rewards/compens
 #### Associate Solutions Architect Requirements
 
 - Technical presentation and communication skills
-- Experience in or familiarity with (for the [early-in-career program](/handbook/solutions-architects/career-development/#associate-solution-architecture-program) candidates) the field of information technology or technical pre-sales
+- Experience in or familiarity with (for the [early-in-career program](/handbook/solutions-architects/sa-career-development/#associate-solution-architecture-program) candidates) the field of information technology or technical pre-sales
 - Understanding of the end-to-end software development lifecycle
 - Understanding of continuous integration and continuous deployment
 - Ability to use GitLab
