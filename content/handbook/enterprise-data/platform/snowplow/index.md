@@ -327,10 +327,6 @@ To run this job successfully, the following environment variables must be set:
 
 ![pipeline_editor.png](/images/enterprise-data/snowplow/pipeline_editor.png)
 
-The scripts are generated as an artifact. Once the pipeline is complete, click the download button to retrieve them.
-
-![download_pipeline.png](/images/enterprise-data/snowplow/download_pipeline.png)
-
 ##### Output structure
 
 ```bash
@@ -371,3 +367,7 @@ UPDATE PREP.SNOWPLOW_2025_01.SNOWPLOW_UNNESTED_EVENTS
    SET page_url_path = update_procedure(p_userid=userid)
 ...
 ```
+
+The scripts are generated as an artifact. Once the pipeline is complete, click the download button to retrieve them.
+
+![download_pipeline.png](/images/enterprise-data/snowplow/download_pipeline.png)
