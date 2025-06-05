@@ -48,6 +48,7 @@ Employ the following workflows for:
 
 - Assign tickets to yourself using the "Take It" button and update status to `Open` or `Pending`.
 - Please note that the SLA clock continues to run until you've sent a public response to the user.
+- Keep in mind that the status will change from New `n`, to Open `o`, as soon as you assign the ticket. It won't be obvious that it is still at FRT stage. 
 - Manually CC yourself on the ticket so that if it gets reassigned, you can still track it.
 - Hand over tickets to other regions within 2 hours of each region's start of day.
 
