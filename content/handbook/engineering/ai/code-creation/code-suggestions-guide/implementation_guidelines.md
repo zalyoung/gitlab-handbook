@@ -1,5 +1,6 @@
 ---
 title: "Code Suggestions Implementation Guidelines"
+description: "Guidelines for implementing new AI models in Code Suggestions"
 ---
 
 These are guidelines for supporting a model for Code Suggestions in the **[AI Gateway (AIGW)](#ai-gateway)**

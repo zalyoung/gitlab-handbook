@@ -1,5 +1,6 @@
 ---
 title: "Code Suggestions Model Rollout Guide"
+description: "Guidelines for rolling out new AI models for Code Suggestions"
 ---
 
 This document serves as a guide for rolling out Code Suggestions models.

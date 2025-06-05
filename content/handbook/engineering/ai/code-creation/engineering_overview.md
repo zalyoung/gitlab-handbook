@@ -1,5 +1,7 @@
 ---
 title: "Code Creation Group engineering overview"
+description: "Technical and engineering overview of the different parts of the code creation Group"
+
 ---
 
 ## Introduction
