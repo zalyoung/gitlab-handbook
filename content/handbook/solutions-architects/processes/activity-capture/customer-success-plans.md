@@ -33,8 +33,8 @@ A Customer Success Plan should be initiated when:
 ## Best practices to create and present the Success Plan
 
 1. **End of Scoping Stage**: The CSP is created and captures information from the discovery (tech stack, current architecture diagram) and the main business objectives. 
-2. **Technical Evaluation Stage**: The activity plan lists the actions that will validate how GitLab responds to the key business objectives (demo, POC,etc.). The activity plan is updated over the course of the evaluation. 
-3. **Technical Evaluation ends and move to Negotiating stage**: The CSP is presented to the customer to confirm the action plan for achieving each objective, the proposed activities post-acquisition (migration, implementation, enablements,etc.). This can be used as a handover to the post-sales teams and introduce the roles of the CSM/CSE, renewal, PS, and support departments.   
+2. **Technical Evaluation Stage**: The activity plan lists the actions that will validate how GitLab responds to the key business objectives (demo, POC, etc.). The activity plan is updated over the course of the evaluation. 
+3. **Technical Evaluation ends and move to Negotiating stage**: The CSP is presented to the customer to confirm the action plan for achieving each objective, the proposed activities post-acquisition (migration, implementation, enablements, etc.). This can be used as a handover to the post-sales teams and introduce the roles of the CSM/CSE, renewal, PS, and support departments.   
 
 ## Documentation Structure
 
