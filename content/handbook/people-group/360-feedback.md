@@ -78,6 +78,7 @@ To incorporate 360 feedback into your team member's performance conversation:
 ### **For Feedback Providers**
 
 When asked to provide 360 feedback:
+
 - Focus on specific examples and observable behaviors when possible
 - Be constructive and balanced in your observations
 - Consider the person's stated development goals when framing your feedback
