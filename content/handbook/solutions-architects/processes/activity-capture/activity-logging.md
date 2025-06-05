@@ -65,8 +65,8 @@ All Rattle activity updates channels are of the format `#rattle-activities-<regi
 - `#rattle-activities-commercial-sa`
 - `#rattle-activities-east-sa`
 - `#rattle-activities-emea-sa`
-- `#rattle-activities-pubsec-sa`
 - `#rattle-activities-west-sa`
+- `#public-sector-rattle-activities`
 
 _Tip:_ You can create a dedicated slack section for all of your Rattle related channels. This will allow you easy access to updates for cross-team collaboration.
 
