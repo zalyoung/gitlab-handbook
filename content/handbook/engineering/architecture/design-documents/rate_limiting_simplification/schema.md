@@ -65,18 +65,22 @@ We propose to create a standardized YAML schema that defines the rate limit para
 
 The schema will be organized as a list of all rate limits, with a simple structure that can be easily understood, maintained, and extended for new rate limiting systems:
 
-### Repository
+### Project
 
-We will create a new public repository called `gitlab-rate-limits-schema` to host:
+We will create a new group `gitlab-com/kinds` that will serve as a global `kind` registry which represents all schemas, present or future, within GitLab.
+
+Within this group, we will create a new `kind` project `gitlab-com/kinds/rate-limits` that will host:
 
 - The YAML schema definition itself
 - Example configurations
 - Documentation
 - Tooling for schema validation
 
-This repository will be the canonical source of the rate limiting schema, making it easy for various GitLab components to reference a specific version of the schema.
+This project will be the canonical source of the rate limiting schema, making it easy for various GitLab components to reference a specific version of the schema.
 
-It will be public, to allow self-managed customers to benefit from the improvements made to our rate limiting configuration, as they could then have the option to utilise the schema themselves.
+It will be public, to allow self-managed customers to benefit from the improvements made to our rate limiting configuration, as they could then have the option to utilize the schema themselves.
+
+The tooling will be based on the existing one from the [`tenant-model-schema`](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/tenant-model-schema) project and standardized in [`common-ci-tasks`](https://gitlab.com/gitlab-com/gl-infra/common-ci-tasks) so that it can be reused in any future `kind` projects.
 
 ### Semantic Versioning
 
@@ -90,7 +94,7 @@ Each release will be properly tagged in the repository, allowing consumers to pi
 
 ### Publication
 
-For each release, the schema will be published to GitLab Pages to facilitate its consumption for schema validation.
+For each release, the schema and its documentation will be published to a static site via GitLab Pages to facilitate its consumption for schema validation.
 
 ### Schema Structure Example
 
