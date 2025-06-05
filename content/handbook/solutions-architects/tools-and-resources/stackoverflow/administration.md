@@ -68,6 +68,6 @@ The current Moderators are:
 - {{< member-by-name "Jess Perry" >}}, {{< member-by-name "Yu-Chen Hsueh" >}}, {{< member-by-name "Eduardo Gillen" >}}, {{< member-by-name "Julia Gatjens" >}}, {{< member-by-name "Bryan Miller" >}} representing the AppSec SME Area
 - {{< member-by-name "Jess Perry" >}}, {{< member-by-name "Omar Bickell" >}}, {{< member-by-name "Sarah Bailey" >}}, {{< member-by-name "John Bush" >}}, {{< member-by-name "Rasheed Babatunde" >}} representing the AppSec SME Area representing the PS Org
 - TBD representing the Agile Plan SME Area
-- TBD representing the Dedicated Plan SME Area
+- {{< member-by-name "Falko Sieverding" >}} representing the Dedicated SME Area
 - {{< member-by-name "Erica Wilson" >}} representing the SMB Sales Org
 - TBD representing the PS Org
