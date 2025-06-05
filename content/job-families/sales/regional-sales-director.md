@@ -48,7 +48,7 @@ The Director, Regional Sales is a [grade 10](/handbook/total-rewards/compensatio
 
 ## Performance Indicators
 
-As with all roles in the Sales Department the Director, Regional Sales participates in the [Sales KPIs](/handbook/company/kpis/#sales-kpis/).
+As with all roles in the Sales Department the Director, Regional Sales participates in the [Sales KPIs](/handbook/company/kpis/#sales-kpis).
 
 ## Career Ladder
 
