@@ -140,13 +140,13 @@ When you attempt a potentially problematic action, ZenGuard will:
 
 1. **Display a warning dialog** explaining the potential issue
 2. **Block the action** if it cannot be bypassed (marked as "this cannot be bypassed")
-3. **Allow bypass** for certain warnings by refreshing the app or proceeding after confirmation, the app can be refresh
+3. **Allow bypass** for certain warnings by refreshing the app or proceeding after confirmation, the action blocked can be bypassed
 
 ### Common scenarios and solutions
 
 #### Bypassing warnings
 
-Some warnings can be bypassed by:
+Some warnings can be bypassed by either of the following::
 
 - Refreshing the ZenGuard app in your browser
 - Clicking through the confirmation dialog (where permitted)
@@ -160,4 +160,12 @@ If ZenGuard prevents a legitimate action:
 1. Check if there's a bypass option in the warning dialog
 2. Ensure all required fields are properly filled
 3. For macro-related issues, wait a moment and resubmit
-4. If problems persist, contact Customer Support Operations
+4. If the problem persists, open a new issue in the [ZenGuard project](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)
+
+### Related resources
+
+- [RFC: What Zendesk "pitfalls" are we most worried about when working tickets](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6683#top)
+- Support Operations issue: [Feature Request: Zendesk Action Warning System](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/122)
+- Support Deployment issue: [ZenGuard App Deployment - Zendesk Action Warning System](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6898)
+
+
