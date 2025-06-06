@@ -37,8 +37,4 @@ The Public Sector Channel Manager is a [grade 8](/handbook/total-rewards/compens
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
-## Career Ladder
-
-The next step in the Public Sector Channel Manager job family is to move to the [Public Sector Area Sales Manager](/job-families/sales/area-sales-manager) job family.
-
 {{% job-families/sales/performance %}}
