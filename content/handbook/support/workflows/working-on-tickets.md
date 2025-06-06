@@ -97,8 +97,8 @@ By following these steps, you ensure a structured approach to ticket handling th
 ## Responsiveness
 
 - Contact customers promptly when tickets are close to breaching.
-- Provide weekly updates to customers when tickets are awaiting feedback from other departments.
-- Frequency of updates should be agreed with the customer.
+- When tickets are awaiting updates from other departments, provide updates to customers at least weekly
+- Frequency of updates should be agreed upon with the customer.
 - Calls are not the exception, and are used not only for troubleshooting and data collection, but also for clarification, guidance, and providing comfort.
 
 ## Elevating Tickets
