@@ -181,3 +181,11 @@ sequenceDiagram
     AIGW->>GLR: receives response
     GLR->>USR: sends websocket message with response which is displayed in chat
 ```
+
+## API Reference
+
+For a complete overview of the Code Suggestion API Endpoints that are used
+on both Rails Monolith and the AI Gateway Project, please refer:
+
+- [Rails app Code Suggestions API Reference](https://docs.gitlab.com/api/code_suggestions/)
+- [AI Gateway API Reference](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/api.md?ref_type=heads)
