@@ -125,7 +125,7 @@ Any time the business continuity plan is activated, a root cause analysis should
 
 ## Business Continuity Test
 
-After formalizing the business continuity plan, or BCP,  the next important step is to test the plan. Testing verifies the effectiveness of the plan, trains plan participants on what to do in a real scenario, and identifies areas where the plan needs to be strengthened. A test of the plan must be conducted at least annually.
+After formalizing the business continuity plan, or BCP,  the next important step is to test the plan. Testing verifies the effectiveness of the plan, trains plan participants on what to do in a real scenario, and identifies areas where the plan needs to be strengthened. A test of the plan must be conducted at least annually, and should have clearly defined test objectives and success criteria prior to the test.
 
 GitLab's first test of the business continuity plan was performed in April 2020 and tests will be conducted at least annually or when significant business changes occur.
 
