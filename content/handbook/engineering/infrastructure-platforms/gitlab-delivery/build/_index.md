@@ -1,11 +1,11 @@
 ---
 title: "GitLab Delivery:Build"
-description: "The Build team focuses on artifacts our customers use to deploy GitLab. This includes system packages, container images, and packages on cloud provider markteplaces. Build team members serve as the bridge between development teams and the end users. Build engineers provide tools and expertise that enable efficient component builds and deliver a simple, secure, and dependable installation experience."
+description: "The Build team focuses on artifacts our customers use to deploy GitLab. This includes system packages, container images, and packages on cloud provider marketplaces. Build team members serve as the bridge between development teams and the end users. Build engineers provide tools and expertise that enable efficient component builds and deliver a simple, secure, and dependable installation experience."
 ---
 
 ## Overview
 
-The Build team focuses on artifacts our customers use to deploy GitLab. This includes system packages, container images, and packages on cloud provider markteplaces. Build team members serve as the bridge between development teams and the end users. Build engineers provide tools and expertise that enable efficient component builds and deliver a simple, secure, and dependable installation experience.
+The Build team focuses on artifacts our customers use to deploy GitLab. This includes system packages, container images, and packages on cloud provider marketplaces. Build team members serve as the bridge between development teams and the end users. Build engineers provide tools and expertise that enable efficient component builds and deliver a simple, secure, and dependable installation experience.
 
 The Build team also reviews a large number of externally authored merge requests. Bundled components such as PostgreSQL, Consul, and Patroni require regular dependency and security updates. Community members may also request changes to compile flags that enable specific optimizations.
 
