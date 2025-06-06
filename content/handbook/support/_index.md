@@ -453,7 +453,7 @@ Some regional Support teams have meetings oriented around company news, Support 
 | Weekday | Region | Meeting Name | Purpose |
 | :-----: | :----: | :----------: | :-----: |
 | Tuesday | APAC | Team Meeting | |
-| Tuesday | AMER | Team Meeting | | 
+| Tuesday | AMER | Team Meeting | |
 | Thursday | EMEA | Team Meeting |  |
 
 #### Senior Support Engineer Office Hours
