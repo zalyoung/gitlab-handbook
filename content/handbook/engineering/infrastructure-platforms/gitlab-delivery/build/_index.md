@@ -67,7 +67,7 @@ Our vision and direction aligns with the [direction of the broader Delivery Grou
 - Each team member can work on all team projects in addition to their domain expertise
 - Each team member strives to identify candidates that strengthen the team and raise the quality of our work.
 - Team creates and improves documentation to facilitate knowledge transfer and enable self-service
-- Team is able to reach a conclusion independently all the time, consensus most of the time
+- Based on GitLab's [leadership principles](https://handbook.gitlab.com/handbook/leadership/#managers-of-one), our team is able to reach a conclusion independently all the time, consensus most of the time
 - Team members are [supported in pursuing certifications](/handbook/people-group/learning-and-development/growth-and-development/#professional-developmentcertificationscourses) for frequently used technologies and platforms, fostering continuous professional development
 - On-boarding and off-boarding is efficient
 - Clear career development paths
