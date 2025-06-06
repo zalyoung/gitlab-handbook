@@ -37,7 +37,7 @@ implemented as a single _file system_ MCP Server.
 
 ##### The current tools approval system
 
-1. Developers assing requested tools to agents during a graph implementation via `Toolset`s
+1. Developers assigning requested tools to agents during a graph implementation via `Toolset`s
 2. Users define available tools buckets via agent privileges
 3. Users defnie pre approved tools buckets via pre approved agent privileges
 4. Workflow at runtime intersect sets of tools that are being defined by agent privileges with requested agent's `Toolset`s to constitue resulting `Toolset`
@@ -49,7 +49,7 @@ implemented as a single _file system_ MCP Server.
 ##### The new MCP approval system
 
 In order to integrate MCP Servers into the current tool approval system, which batch tools into buckets and grants users ability to enforce approval, or even fully disable some tools for thier workflows,
-MCP Servers will be treated as stande alone tool buckets, that users could gate with approvals, or disable at will.
+MCP Servers will be treated as stand alone tool buckets, that users could gate with approvals, or disable at will.
 
 Following that approach each MCP Server will constitute an agent privilege eg: `GitLab Epics MCP Server` would have corresponding `giltab_epics` agent privilege.
 In the new MCP based approach workflow admins will enable and pre approve MCPs rather then a tool buckets.
@@ -100,7 +100,7 @@ See [discovery procedure built in the PoC](https://gitlab.com/gitlab-org/editor-
 ## Decision
 
 All new tools should be implemented as part of a GitLab owned MCP server. 
-The currently existing tools implemendted as part of executors, should be deprecated and their development should be frozeen,
+The currently existing tools implemented as part of executors, should be deprecated and their development should be frozeen,
 they may remain in use as long as there won't be any change required. If a change to a tool implmented by executors will be required,
 that tool should be moved into a GitLab owned MCP server.
 
