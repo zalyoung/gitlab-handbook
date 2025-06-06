@@ -72,10 +72,10 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#add-biometric-authentication-to-okta-for-mobile-devices-accessing-okta-apps-on-your-phone)), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 1. If clearing your browser cache, please be careful as you can delete your passkey.
-    1. In Chrome, if using "Clear Browsing Data" function please ensure that you [DO NOT check](https://internal.gitlab.com/handbook/it/end-user-services/self-help-troubleshooting/#clearing-google-chrome-cache-like-this-will-break-your-touchid-2fa) "Passwords and other sign-in data" (under "Advanced" tab). By default, this is unchecked.
+    1. In Chrome, if using "Clear Browsing Data" function please ensure that you [DO NOT check](https://internal.gitlab.com/handbook/security/corporate/end-user-services/self-help-troubleshooting/#clearing-google-chrome-cache-like-this-will-break-your-touchid-2fa) "Passwords and other sign-in data" (under "Advanced" tab). By default, this is unchecked.
     1. In Safari, the credential is stored under "Settings->Password". This is separate from the "Settings->Privacy" and "Manage Website Data" where you would click "Remove all" to remove the cache.
 
-Follow the GitLab Okta [FAQ](/handbook/it/okta/okta-enduser-faq/).
+Follow the GitLab Okta [FAQ](/handbook/security/corporate/end-user-services/okta/okta-enduser-faq/).
 
 We have also prepared Introductory Videos on [Configuring Applications](https://youtu.be/xS2CarGUPLc) and [Dashboard Tips](https://youtu.be/xQQwa_pbe2U).
 
@@ -220,7 +220,7 @@ If you have any questions or require assistance please reach out to the IT team 
 Create a [new corpsec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=corpsec_general_change) and tag `@gitlab-com/gl-security/corp/identity`
 
 Okta is currently configured with assigned groups/roles based on a team member's role/group.
-Refer to the [Access Change Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#access-change-request) section of the handbook for additional information on why an application may not be available in Okta.
+Refer to the [Access Change Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#access-change-request) section of the handbook for additional information on why an application may not be available in Okta.
 
 ### How do I get my application set up within Okta?
 
