@@ -30,7 +30,7 @@ Marketing Operations supports the marketing organization to streamline processes
 | [Salina Tran](https://gitlab.com/stran5) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
 | [Jameson Burton](https://gitlab.com/jburton) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
 | [Evan Mathis](https://gitlab.com/emathis) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
-| [Bryce Weatherford](https://gitlab.com/bweatherford) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) | |
+| [Bryce Weatherford](https://gitlab.com/bweatherford) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) | 
 
 ## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help {#how-to-get-help}
 
@@ -59,8 +59,6 @@ When making an update to a handbook page for `ABM`, `FMM`, `MOps`, or `SDR` hand
 ## <i class="far fa-paper-plane" id="biz-tech-icons"></i> How to Communicate with Us
 
 **Slack channels**
-
-We do not use or create tool-specific Slack channels (e.g. `#marketo`).
 
 - [#hbupdate-mktgops](https://gitlab.slack.com/archives/mktgops) - This channel is used to automatically post new [handbook updates](#handbook-updates) that have been merged.
 - [#mktgops](https://gitlab.slack.com/archives/mktgops) - We use this channel for general marketing operations support, weekly marketing operations team standup updates, and key system status updates. We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
@@ -92,12 +90,6 @@ If an emergency communication needs to be send out, Marketing Ops will need to a
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How We Work
 
-<div class="flex-row" markdown="0">
-  <div>
-    <a href="https://gitlab.com/gitlab-com/marketing/marketing-operations" class="btn btn-purple" style="width:200px;margin:5px;">Marketing Operations project</a>
-  </div>
-</div>
-
 ### Issue Boards
 
 1. [Asana team Board](https://app.asana.com/0/1208702011967252/1208702155234648) - General and Ad-hoc requests
@@ -114,8 +106,6 @@ The MktgOps team works from issues and issue boards. If you are needing our assi
 Please do not re-open issues that have been closed in a previous milestone.
 
 ### OKRs
-
-To track progress on and provide visibility to team OKRs each quarter, Marketing Operations uses the OKR feature in GitLab to organize our team-wide work. Current Marketing Operations OKRs can be found [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=MktgOps&first_page_size=100).
 
 Check out our [quarterly highlights trackers](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=all&label_name%5B%5D=mktgops-highlights&first_page_size=20) to learn more about the key results we've accomplished.
 
@@ -221,7 +211,7 @@ Stage
 
 ### Milestones
 
-The MktgOps team works in two week iterations which are tracked as milestones at the `GitLab.com` level. Each individual contributor (IC) is responsible for adding issues to the milestone that will be completed in the two-week time frame. If needed, the IC will separate the main issue into smaller pieces that are _workable_ segments of the larger request.
+Each individual contributor (IC) is responsible for adding issues to the milestone that will be completed in the two-week time frame. If needed, the IC will separate the main issue into smaller pieces that are _workable_ segments of the larger request.
 
 At the end of every milestone, we will post a thread in the #mktgops Slack channel with links to the Issues that we are moving to the next milestone. Context as to why an Issue is moving to a new milestone will be posted in the Issue (not in the Slack thread). The goal of this is to proactively and transparently communicate to our business partners and to empower marketing operations team members to intentionally and thoughtfully manage their work in each milestone.
 
@@ -239,7 +229,7 @@ A milestone cannot be closed nor marked complete until the milestone's accompany
 
 ### Marketing Changelog
 
-Periodically Marketing Operations and other teams through the marketing org make significant changes to our system and processes that affect overall tools, data and reporting or uncovers significant changes that affected reporting. As such we have a shared [changelog](https://docs.google.com/spreadsheets/d/1FHiKhQukMVfwKsBJDzyrsuzuw2bv97xQFhegvFXTeNQ/edit#gid=0). The MktgOps and Strategy/Perf teams update this document as needed as changes are made. If you are working on an issue or epic that will have a significant impact across marketing, add the label `MktgOps - changelog` so marketing oeprations can track changes across GitLab.
+Periodically Marketing Operations and other teams through the marketing org make significant changes to our system and processes that affect overall tools, data and reporting or uncovers significant changes that affected reporting. As such we have a shared [changelog](https://docs.google.com/spreadsheets/d/1FHiKhQukMVfwKsBJDzyrsuzuw2bv97xQFhegvFXTeNQ/edit#gid=0). The MktgOps and Marketing Analytics teams update this document as needed as changes are made. If you are working on an issue or epic that will have a significant impact across marketing, add the label `MktgOps - changelog` so marketing operations can track changes across GitLab.
 
 ## <i class="far fa-handshake" id="biz-tech-icons"></i> Teams We Work Closely With
 
@@ -278,8 +268,6 @@ The marketing operations team uses collective merge requests, known as our miles
 ### Working with Sales Systems for SFDC Updates
 
 The MktgOps team frequently works with the [Sales Systems team](/handbook/sales/field-operations/sales-systems/) to make changes in Salesforce.com (SFDC). See the below information regarding the process for working with Sales Systems for these changes and SLAs we adhere to.
-
-Video: [Marketing Salesforce.com Sandbox Training - Creating Changesets](https://www.youtube.com/watch?v=tTaepVgxoe8)
 
 If a field needs to be created in Marketo AND SFDC, it must be created in SFDC first and then added to the Marketo User Permission set within SFDC. From there, the field will sync down to Marketo. If you miss this order of operations and the field is created in Marketo first, you will need to still follow the directions above and then open a support to re-map the fields. **Use [documentation for Marketo](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary) for field types.
 
