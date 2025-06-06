@@ -129,7 +129,7 @@
 /handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
 /handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
 /handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
-/handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution 301
+/handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ 301
 /handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
 
 # Technical Writing handbook pages - remove 2025-08-05
