@@ -121,7 +121,7 @@ status of the target ticket is unaffected.
 
 ## ZenGuard - Action Warning System
 
-ZenGuard is a Zendesk application deoployed on Global Zendesk only. The app provides warning dialogs and confirmation prompts for high-risk actions that could lead to unwanted results. It helps prevent common mistakes that require tickets to be reopened or recreated.
+ZenGuard is a Zendesk application deployed on Global Zendesk only. The app provides warning dialogs and confirmation prompts for high-risk actions that could lead to unwanted results. It helps prevent common mistakes that require tickets to be reopened or recreated.
 
 ### What ZenGuard protects against
 
