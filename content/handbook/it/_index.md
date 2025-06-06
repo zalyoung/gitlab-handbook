@@ -1,6 +1,6 @@
 ---
 title: IT
-description: IT Team Announcement1
+description: IT Team Announcement
 ---
 
 ## We are now part of the CorpSec Team
