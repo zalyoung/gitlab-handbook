@@ -24,7 +24,7 @@ GitLab, by its remote-only nature, is not easily affected by typical causes of b
 
 ### BCP for Remote Workers
 
-In case of an all-remote company like GitLab, it is sufficient to have simple contingency plans in the form of service-level agreements with companies that host our data and services. The advantage of an all-remote workforce like GitLab is that if there are clusters of people or systems that are unavailable, the rest of the company will continue to operate normally.
+In case of an all-remote company like GitLab, it is sufficient to have simple contingency plans in the form of service-level agreements with companies that host our data and services. The advantage of an all-remote workforce like GitLab is that if there are clusters of people or systems that are unavailable, the rest of the company will continue to operate normally. Given GitLab's remote-first structure, our [Incident Response Plan (IRP)](https://handbook.gitlab.com/handbook/security/security-operations/sirt/sec-incident-response/) is a major component of the Business Continuity Plan as most business disruptions are technical in nature.
 
 The exception to this would be a scenario of a single point of failure, (for example, if one of the Engineering heads who should sign off on triggering the plan is unavailable due to a disaster). In this case we would need an alternate plan in place that covers how to get in contact with the person or people affected by the disaster and trigger this business continuity plan.
 
@@ -171,6 +171,8 @@ Some testing scenarios that can be performed, are given below:
     - Being able to communicate during a disaster or an emergency is crucial. Yet, the most disruptive events can leave with no traditional means of staying in contact.
     - For these scenarios, the BC plan needs to outline the actions to be taken. An alternate mode of communication should be tested for its reliability and efficiency, for a company like GitLab which has team members all around the globe.
     - Regular updates to all GitLab team members contact information, so that all of them can receive timely notifications thus streamlining the disaster scenario process.
+
+Given GitLab's remote-first nature environment, our Incident Response Plan (IRP) is a major component of the Business Continuity Plan as business disruptions are most often technical in nature.
 
 ## Exceptions
 
