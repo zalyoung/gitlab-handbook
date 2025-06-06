@@ -842,7 +842,6 @@ Foreseen tools include:
 The fact that the Workflow service is going to require Git and GitLab API tools entails that the **Workflow service
 must have the ability to establish an SSH connection and make HTTP requests to the GitLab instance.** This ability can be granted directly to the Workflow service or can be provided via the Workflow executor if a direct connection between the Workflow service and a GitLab instance is not possible due to a firewall or network partition.
 
-
 ### Tools permissions and approval system
 
 Equipping agents with tools comes with different risk factors. For example, read tools might cross boundaries between confidential and public data if applied incorrectly, and tools that
@@ -869,25 +868,25 @@ The tool approval flow is illustrated in the diagram below:
 
 ```mermaid
 graph TD;
-	__start__([<p>__start__</p>]):::first
-    approval_e(Tools Approval entry Node)
-    approval_v(Tools Approval verification Node)
-    agent(Agent Node)
-    tools_exec(Tools Execution Node)
-	__end__([<p>__end__</p>]):::last
-    __start__ --> agent
-    agent --> router{Does any of LLM function calls requires human approval}
-    router -->|yes| approval_e
-    approval_e --> tools_v_r{Are all function calls valid?}
-    tools_v_r --> |no| agent
-    tools_v_r --> |yes| approval_v
-	approval_v --> tools_r{Human approval received}
-    tools_r --> |no| approval_v
-    tools_r --> |human deny| agent
-    tools_r --> |human feedback| agent
-    tools_r --> |human approve| tools_exec
-    router -->|no| tools_exec
-    tools_exec --> __end__
+   __start__([<p>__start__</p>]):::first
+   approval_e(Tools Approval entry Node)
+   approval_v(Tools Approval verification Node)
+   agent(Agent Node)
+   tools_exec(Tools Execution Node)
+   __end__([<p>__end__</p>]):::last
+   __start__ --> agent
+   agent --> router{Does any of LLM function calls requires human approval}
+   router -->|yes| approval_e
+   approval_e --> tools_v_r{Are all function calls valid?}
+   tools_v_r --> |no| agent
+   tools_v_r --> |yes| approval_v
+   approval_v --> tools_r{Human approval received}
+   tools_r --> |no| approval_v
+   tools_r --> |human deny| agent
+   tools_r --> |human feedback| agent
+   tools_r --> |human approve| tools_exec
+   router -->|no| tools_exec
+   tools_exec --> __end__
 ```
 
 At the `Tools Approval verification Node`, a workflow execution is hibernated to wait for a user's approval, denial, or feedback that instructs agents how to
