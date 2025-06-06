@@ -125,7 +125,7 @@ Any time the business continuity plan is activated, a root cause analysis should
 
 ## Business Continuity Test
 
-After formalizing the business continuity plan, or BCP,  the next important step is to test the plan. Testing verifies the effectiveness of the plan, trains plan participants on what to do in a real scenario, and identifies areas where the plan needs to be strengthened. A test of the plan review, has to be conducted at least annually.
+After formalizing the business continuity plan, or BCP,  the next important step is to test the plan. Testing verifies the effectiveness of the plan, trains plan participants on what to do in a real scenario, and identifies areas where the plan needs to be strengthened. A test of the plan must be conducted at least annually.
 
 GitLab's first test of the business continuity plan was performed in April 2020 and tests will be conducted at least annually or when significant business changes occur.
 
@@ -138,7 +138,7 @@ GitLab's first test of the business continuity plan was performed in April 2020 
 
 ### Testing the plan
 
-Testing can present a lot of challenges. It requires investing time and resources. With that in mind, to start with, it may make more sense to conduct a tabletop test at a conference room, rather than involving the entire organization in a full-blown drill.
+Testing can present a lot of challenges. It requires investing time and resources. With that in mind, to start with, it may make more sense to conduct a tabletop test at a conference room, rather than involving the entire organization in a full-blown drill. All tabletop exercises must include activation of the business continuity plan.
 Also an initial "dry run" of the plan can be performed, by conducting a structured walk-through test of the approved BC plan. The initial testing is done in sections and after normal business hours to minimize disruptions.
 Subsequent tests can occur during normal business hours. An actual test-run can be performed eventually.
 Based on the gaps and weaknesses learnt from the testing, underlying problems should be corrected and the plan updated accordingly.
