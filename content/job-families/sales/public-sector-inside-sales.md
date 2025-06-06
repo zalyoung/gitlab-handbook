@@ -117,10 +117,6 @@ The Public Sector Senior Inside Sales Manager, is a [grade 9](/handbook/total-re
 - New Opportunities - 5 per ISR per Quarter
 - Upsell/Cross-Sell Rates - 2 per ISR per Quarter
 
-## Career Ladder
-
-The next steps for the Public Sector Inside Sales Job Family is to move to the [Sales Management](/job-families/sales/area-sales-manager/) Job Family.
-
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
