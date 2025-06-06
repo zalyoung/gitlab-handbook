@@ -54,7 +54,7 @@ If the laptop is sufficient for your needs, you may opt to continue using the la
 
 Please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade) to request a laptop refresh.
 
-The old laptop must be [wiped](/handbook/security/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
+The old laptop must be [wiped](/handbook/security/corporate/services/laptops/wipe/) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
 
 After 3 years of use, the team member may retain the old laptop after it has been wiped at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), as well as other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
 
@@ -270,7 +270,7 @@ Reformatting a computer is not sufficient in these cases because it is possible 
 
 ### Laptop Wipe
 
-Laptop wipes must be performed by [scheduling an appointment](/handbook/security/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts) with an IT analyst to wipe the machine, re-install the base operating system, and remove all software and configurations that were supplied by GitLab. Laptops must be wiped with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/) for macOS, and [DriveStrike](https://internal.gitlab.com/handbook/it/endpoint-tools/#drivestrike) for Linux. Using these tools ensures a clean disk wipe is performed and GitLab can retain evidence of the disk wipe.
+Laptop wipes must be performed by [scheduling an appointment](/handbook/security/corporate/services/laptops/wipe/) with an IT analyst to wipe the machine, re-install the base operating system, and remove all software and configurations that were supplied by GitLab. Laptops must be wiped with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/) for macOS, and [DriveStrike](https://internal.gitlab.com/handbook/it/endpoint-tools/#drivestrike) for Linux. Using these tools ensures a clean disk wipe is performed and GitLab can retain evidence of the disk wipe.
 
 Under no circumstance should you perform your own disk wipe unless you are doing so at the request of IT to troubleshoot a technical problem with the laptop. If GitLab discovers that a device has not been wiped according to policy, GitLab may act to enforce a remote wipe without notice.
 
