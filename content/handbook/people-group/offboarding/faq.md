@@ -72,7 +72,7 @@ Under **no circumstance** should you be wiping your own laptop. Laptop wipes mus
 
 If you are returning your laptop to IT please purchase a cardboard box and packing foam before your last day and expense it in Navan under [Office supplies & consumables](/handbook/finance/expenses/#office-supplies--consumables). IT will be sending a prepaid shipping label to return the laptop.
 
-Please refer to the Laptop Buy Back Policy [here](/handbook/security/corporate/end-user-services/laptop-management/#laptop-buy-back-policy).
+Please refer to the Laptop Buy Back Policy [here](/handbook/security/corporate/services/laptops/buyback/).
 
 ## Compensation - Payroll
 
