@@ -2,64 +2,79 @@
 title: "GitLab Unfiltered Video Scanner"
 aliases:
   - "/handbook/security/product-security/security-platforms-architecture/video-scanner"
-description: "This is the handbook page for GitLab Unfiltered Video Scanner."
+description: "Handbook page for the GitLab Unfiltered Video Scanner."
 ---
 
-Last Updated: Jun, 2025
+Last Updated: June 2025
 
 ## Purpose
 
-This is the handbook page for the Youtube Video Scanner, an internal tool provided to GitLab team members.
+The YouTube Video Scanner is an internal tool that scans videos for potential secrets before publication to the GitLab Unfiltered channel. If sensitive strings are detected, the upload is automatically aborted.
 
-GitLab team members are requested to upload Videos through the Youtube Video Scanner starting from milestone 18.3. It is designed to scan videos for potential secrets before they are published to the GitLab Unfiltered channel. If the system detects sensitive strings in the video, the upload will be aborted.
+Starting from milestone 18.3, all GitLab team members are encouraged to upload videos through this scanner.
+
+Starting from xx, it's mandatory that all videos are uploaded via the Youtube Video Scanner.
 
 ## Epic Link
 
 https://gitlab.com/groups/gitlab-com/gl-security/security-research/video-scanner/-/epics/1
 
-## Feedback Issue
+## Feedback
 
-Please leave your feedback in [Video Scanner Feedback Issue](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/103).
+Please submit feedback in the [Video Scanner Feedback Issue](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/103).
 
 ## DRI
 
-`#sec-product-security-engineering`.
+`#sec-product-security-engineering`
 
-## Slack Notification
+## Slack Notifications
 
-Channel: TBD
+**Channel:** TBD
 
-Alerts will be posted in Slack to notify team members about successful and aborted video uploads.
+Team members are notified about successful and aborted video uploads through Slack notifications.
 
-## MVP Product Scope and Limitations
+## MVP Scope and Limitations
 
-The Video Scanner MVP is planned to be released in milestone `18.2`. See [Pre-publication Workflow Diagram with Architectural Details](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/90#note_2457778646) for feature scope.
+The Video Scanner MVP was released in milestone 18.2. See the [Pre-publication Workflow Diagram with Architectural Details](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/90#note_2457778646) for the current product scope.
 
-MVP was released with the following limitations:
+### Current Limitations
 
-* Upload videos to a playlist is not supported.
-* Users will not receive Email notifications on successful / aborted uploads. All communications are done in Slack channel.
-* Users cannot force the system to upload anyway, after a false positive detection.
+* Playlist uploads are not supported
+* Manual override for false positives is not available
 
-For now, if you must bypass any of the above limitations, please upload directly to GitLab Unfiltered on an as-needed basis. If you have more feature requirements, please send us a feedback using the feedback issue.
+**Workaround:** To bypass these limitations, upload directly to GitLab Unfiltered on an as-needed basis. Please submit feature requests through the feedback issue, if you encouter limitations that we haven't documented.
 
 ## Projects and Release Process
 
-The Video Scanner system codebase involve the following projects:
-- https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner
-- https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/frontend
-- https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config
+### Core Repositories
 
-[secret-matcher](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/tree/main/functions/secret-matcher?ref_type=heads) and [frontend-service](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/frontend) are the 2 core services that are actively developed.
+* [YouTube Video Scanner](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner)
+* [Frontend](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/frontend)
+* [Terraform Config](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config)
 
-To release a new version, follow the [deployment instructions for video-scanner-live](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#deploy-1) and use the [Troubleshooting Tips](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#deployment-troubleshooting-tips) when encounter errors.
+### Services Under Active Development
 
-TODO: Project version tags?
+* [secret-matcher](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/tree/main/functions/secret-matcher?ref_type=heads)
+* [frontend-service](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/frontend)
 
-TODO: identify the channels that we need to send deployment communication to.
+### Deployment
+
+Follow the [deployment instructions for video-scanner-live](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#deploy-1). Refer to [Troubleshooting Tips](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#deployment-troubleshooting-tips) if errors occur.
+
+**TODO:**
+- Add project version tags
+- Identify deployment communication channels
 
 ## Token Rotation
 
-Youtube OAuth2.0 token is required to perform the automated video upload. Instructions on how to rotate this token can be found in [security-research-terraform-config project README](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config/-/blob/main/README.md?ref_type=heads#youtube-video-scanner-oauth20-client-and-audience-details).
+YouTube OAuth2.0 tokens enable automated video uploads. For rotation instructions, see the [security-research-terraform-config README](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config/-/blob/main/README.md?ref_type=heads#youtube-video-scanner-oauth20-client-and-audience-details).
 
-## End to end testing
+## End-to-End Testing
+
+[Section content WIP] Include testing process for:
+
+* successful video upload
+  * check for Slack notification
+  * check if Video is present
+* aborted video upload with detected secret
+  * check for Slack notification
