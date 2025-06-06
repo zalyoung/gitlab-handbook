@@ -109,7 +109,7 @@ deploy app:
 deploy app:
   stage: deploy
   environment:
-    name: Production
+    name: prod
     url: "https://$ip"
   script: 
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
@@ -181,7 +181,9 @@ The deploy job should now look like this:
 ```yaml
 deploy app:
   stage: deploy
-  image: ubuntu:latest
+  environment:
+    name: prod
+    url: "https://$ip"
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)

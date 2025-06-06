@@ -83,7 +83,9 @@ build go:
 
 deploy app:
   stage: deploy
-  image: ubuntu:latest
+  environment:
+    name: prod
+    url: "https://$ip"
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)
@@ -117,7 +119,9 @@ We now have an SSH connection working between the GitLab runner and our target s
 ```yaml
 deploy app:
   stage: deploy
-  image: ubuntu:latest
+  environment:
+    name: prod
+    url: "https://$ip"
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)
@@ -149,7 +153,9 @@ build go:
 
 deploy app:
   stage: deploy
-  image: ubuntu:latest
+  environment:
+    name: prod
+    url: "https://$ip"
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)
@@ -181,12 +187,28 @@ ExecStart=/www/array
 WantedBy=multi-user.target
 ```
 
-Our code will need to move the array binary to the www directory, and move the service definition file to the /lib/systemd/system directory. To achieve this, you can use scp.
+1. Our code will need to move the array binary to the www directory, and move the service definition file to the /lib/systemd/system directory. To achieve this, you can use scp. Copy the following text into `deploy app` job, underneath `- ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts`:
+
+```yaml
+    - ssh root@$ip 'mkdir -p /www'
+    - ssh root@$ip 'test -e /www/array && rm -f /www/array || echo "No existing /www/array to delete"'
+    - scp array root@$ip:/www/
+    - scp array.service root@$ip:/lib/systemd/system/
+    - ssh root@$ip 'ls /www'
+    - ssh root@$ip 'ls /lib/systemd/system'
+    - ssh root@$ip 'systemctl daemon-reexec; systemctl enable array.service'
+    - ssh root@$ip 'systemctl restart array.service'
+    - ssh root@$ip 'systemctl status array.service'
+```
+
+The resulting job should look like this:
 
 ```yaml
 deploy app:
   stage: deploy
-  image: ubuntu:latest
+  environment:
+    name: prod
+    url: "https://$ip"
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
     - eval $(ssh-agent -s)
@@ -197,24 +219,19 @@ deploy app:
   script:
     - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
     - ssh root@$ip 'mkdir -p /www'
-    - scp array root@$ip:/www
+    - ssh root@$ip 'test -e /www/array && rm -f /www/array || echo "No existing /www/array to delete"'
+    - scp array root@$ip:/www/
     - scp array.service root@$ip:/lib/systemd/system/
     - ssh root@$ip 'ls /www'
     - ssh root@$ip 'ls /lib/systemd/system'
-    - ssh root@$ip 'systemctl enable array.service'
-    - ssh root@$ip 'systemctl start array.service'
+    - ssh root@$ip 'systemctl daemon-reexec; systemctl enable array.service'
+    - ssh root@$ip 'systemctl restart array.service'
     - ssh root@$ip 'systemctl status array.service'
   rules:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-1. To help store the deployment info, we want to store the server info in a GitLab environment. We can do this with the `environment` keyword. Above the `before_script` keyword, put the following info:
-
-```yaml
-environment:
-  name: prod
-  url: http://$ip:80
-```
+1. Commit your changes.
 
 1. After the pipeline has successfully completed, you can navigate to **Deploy > Environments** , and see your environment has been deployed. Click on the **Open** button to access your newly deployed application.
 
