@@ -129,10 +129,10 @@ The app provides warnings and blocks certain actions:
 
 - **Due date issues**: Setting due dates in the past, or too far in the future
 - **External collaborator risks**: Adding end-users as collaborators/CC 
-- **Status changes without responses**: Setting tickets to pending with only internal notes
-- **On-hold timer resets**: Sending public replies on on-hold tickets that will not reset SLA timers
-- **Missing public replies**: Setting tickets on-hold without a public reply 
-- **Form change closures**: Changing ticket forms that will cause automatic closure 
+- **Status change without response**: Setting a ticket to pending with only an internal note
+- **On-hold timer reset**: Sending a public reply on an on-hold ticket that will not reset the SLA timer
+- **Missing public reply**: Setting ticket to on-hold without a public reply 
+- **Form change closure**: Changing ticket form which will cause automatic closure 
 
 ### How ZenGuard works
 
