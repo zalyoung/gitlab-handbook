@@ -842,6 +842,57 @@ Foreseen tools include:
 The fact that the Workflow service is going to require Git and GitLab API tools entails that the **Workflow service
 must have the ability to establish an SSH connection and make HTTP requests to the GitLab instance.** This ability can be granted directly to the Workflow service or can be provided via the Workflow executor if a direct connection between the Workflow service and a GitLab instance is not possible due to a firewall or network partition.
 
+
+### Tools permissions and approval system
+
+Equipping agents with tools comes with different risk factors. For example, read tools might cross boundaries between confidential and public data if applied incorrectly, and tools that
+integrate directly with Duo Workflow Executor host bash terminal can open a whole range of severe consequences when agents make mistakes or get tricked into performing malicious actions.
+In order to limit the negative impact of different tools, a tool approval system has been implemented, granting users the ability to limit the set of available tools for any given workflow run, as well
+as enforce agents to seek user approval before certain tools are executed.
+
+The tools approval system is based on a bucket approach, where tool buckets are named _agent privileges_. Each bucket outlines a subset of all implemented tools
+which users can make fully available or conditionally available, following the process outlined in [the next section](#how-agent-tool-set-is-being-defined-for-each-workflow-run). _Agent privileges_ are defined in the [`tools_registry`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/5e242511c27d6d981dc29f3e1871882b00dcea8f/duo_workflow_service/components/tools_registry.py#L76) within Duo Workflow Service and are reflected in the [`Workflow`](https://gitlab.com/gitlab-org/gitlab/blob/13461f57b9f087055e23651eead75cdc716c1cbb/ee/app/models/ai/duo_workflows/workflow.rb#L41) GitLab Rails model.
+
+#### How agent tool set is being defined for each workflow run
+
+1. An engineer defines an agent's tool set during workflow implementation by listing all possible tools that could be granted to a model.
+1. Upon creation of a workflow run, a request is made to workflow's GitLab API [endpoint](https://gitlab.com/gitlab-org/gitlab/blob/467a527a7a78f45dddf547ebb86c63c6239f34f0/ee/lib/api/ai/duo_workflows/workflows.rb#L84) with `agent_privileges` that limits the complete scope of the tool set defined in step 1 by the engineer into a subset constrained by user-granted _agent privileges_. In addition, that API request may include `pre_approved_agent_privileges` which allow agents to use tools from listed buckets without asking for approval.
+
+#### How tools approvals are being enforced
+
+Tools approval verification happens between an agent's node that produces LLM-generated function calls and the `ToolExecutor` node that runs LLM's function calls.
+Before the `ToolExecutor` node is triggered, all pending function calls are reviewed against an allow list that is defined with `pre_approved_agent_privileges` following
+the process outlined in [the previous section](#how-agent-tool-set-is-being-defined-for-each-workflow-run).
+
+If there is at least one function call that is not included in the allow list, a tool approval subgraph is invoked.
+The tool approval flow is illustrated in the diagram below:
+
+```mermaid
+graph TD;
+	__start__([<p>__start__</p>]):::first
+    approval_e(Tools Approval entry Node)
+    approval_v(Tools Approval verification Node)
+    agent(Agent Node)
+    tools_exec(Tools Execution Node)
+	__end__([<p>__end__</p>]):::last
+    __start__ --> agent
+    agent --> router{Does any of LLM function calls requires human approval}
+    router -->|yes| approval_e
+    approval_e --> tools_v_r{Are all function calls valid?}
+    tools_v_r --> |no| agent
+    tools_v_r --> |yes| approval_v
+	approval_v --> tools_r{Human approval received}
+    tools_r --> |no| approval_v
+    tools_r --> |human deny| agent
+    tools_r --> |human feedback| agent
+    tools_r --> |human approve| tools_exec
+    router -->|no| tools_exec
+    tools_exec --> __end__
+```
+
+At the `Tools Approval verification Node`, a workflow execution is hibernated to wait for a user's approval, denial, or feedback that instructs agents how to
+correct their course.
+
 ## Milestones
 
 1. All the components implemented and communicating correctly with only a
