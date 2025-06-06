@@ -70,7 +70,7 @@ Once the Coupa requisition is approved, the vendor/contingent workers will be ab
 
 With the contracting out of the way, you will want to onboard the new contingent workers into the project or into your team. This can look very different from one contingent workers to another depending on the nature of the work, the team and the project.
 
-Generally speaking, you should know that contingent workers are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](https://internal.gitlab.com/handbook/it/end-user-services/access-request/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
+Generally speaking, you should know that contingent workers are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
 
 As a general guideline you would want them to:
 

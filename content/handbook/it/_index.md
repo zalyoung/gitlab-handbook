@@ -88,7 +88,7 @@ The IT Engineering sub-department is focused on designing, developing, and imple
 
 <a href="/handbook/security/identity/">Handbook Page</a><br />
 <br />
-The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/it/okta/">Okta handbook page</a>.<br />
+The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/security/corporate/end-user-services/okta/">Okta handbook page</a>.<br />
 <br />
 The IT Support team handles <a href="/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/">access requests</a> for the tech stack applications that IT manages. All access requests are created in the same <a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">issue tracker</a> project, regardless of which System Owner is responsible for provisioning your user account.<br />
 <br />
@@ -143,7 +143,7 @@ We provide implementation engineering and support for 3rd party tech stack appli
 > This is also referred to as IT Helpdesk, Team Member Enablement, or Analyst team.
 
 <a href="/handbook/it">IT Self Service Knowledge Base</a><br />
-<a href="/handbook/it/end-user-services/">Handbook Page</a><br />
+<a href="/handbook/security/corporate/end-user-services/">Handbook Page</a><br />
 <br />
 The IT Support team focuses on providing helpdesk support for all of our team members globally with the technologies that are used across the entire organization. These include our collaboration tools (GitLab.com, Google Workspace, Slack, Zoom, etc.), security and compliance tools (1Password, Okta, Jamf, SentinelOne, etc.), laptops and hardware (MacBook Pros, Linux machines, etc.), and most software applications that run on MacOS.<br />
 <br />

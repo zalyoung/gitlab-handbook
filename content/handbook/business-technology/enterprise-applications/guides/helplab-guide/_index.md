@@ -29,13 +29,10 @@ The following teams are available through HelpLab:
 - [Global Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)
 - [People Technology and Analytics](/job-families/people-group/people-systems-and-analytics/)
 - [Team Member Relations](/handbook/people-group/team-member-relations/)
-- [Absence Management](/handbook/people-policies/leave-of-absence/) & [Paid Time Off](/handbook/people-group/paid-time-off/)
-- [Stock Admin](/handbook/total-rewards/stock-options/)
-- [Expenses](/handbook/finance/expenses/)
-- [Payroll (US & Non-US)](/handbook/finance/payroll/)
-- [Sales Compensations](https://internal.gitlab.com/handbook/sales/sales-commission/#fy23-sales-commission-policies)
-- [CorpSec End User Services](/handbook/it/end-user-services/)
-- [Enterprise Applications](/handbook/business-technology)
+- [Stock Admin](/job-families/finance/stock-administrator/)
+- [Expenses](/handbook/finance/accounts-payable/)
+- [Payroll (US & Non-US)](https://internal.gitlab.com/handbook/finance/payroll/)
+- [IT services](/handbook/security/corporate/end-user-services/)
 
 ## How do I use HelpLab?
 
