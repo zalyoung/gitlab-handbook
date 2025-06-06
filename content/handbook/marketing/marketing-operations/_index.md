@@ -27,11 +27,10 @@ Marketing Operations supports the marketing organization to streamline processes
 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Jenny Tiemann](https://gitlab.com/jennyt) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Robert Rosu](https://gitlab.com/RobRosu) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
-| [Mihai Conteanu](https://gitlab.com/MihaiConteanu) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager) |
 | [Salina Tran](https://gitlab.com/stran5) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
 | [Jameson Burton](https://gitlab.com/jburton) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
 | [Evan Mathis](https://gitlab.com/emathis) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
-| [Bryce Weatherford](https://gitlab.com/bweatherford) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) |
+| [Bryce Weatherford](https://gitlab.com/bweatherford) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) | |
 
 ## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help {#how-to-get-help}
 
@@ -371,7 +370,7 @@ The SSoT for all tools at GitLab is the  [Tech Stack Applications page](/handboo
 
 We are constantly evaluating new tools to help create efficiency, data accuracy and provide additional functionality. If you have a pain point, or have come across a new technology you'd like to explore further, please let us know by creating a tool eval issue. To see our current list use the label `Ops Tool Evaluation` or [click here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Ops%20Tool%20Evaluation&first_page_size=20). Please also follow process and directions [listed in the sections](/handbook/marketing/marketing-operations/#new-tool-purchase-process).
 
-As a compliment to the Tech Stack, we created a visual of the Tier 1 and 2 tools in Marketing Technology stack, aligned to our customer journey.
+As a compliment to the Tech Stack, we created a visual of the Tier 1 and 2 tools in [Marketing Technology stack](https://docs.google.com/presentation/d/1K2BOlZNYmN4DdufC_OrVUe1HaJgjlKpsnVc-Gd-gb-o/edit?slide=id.p#slide=id.p), aligned to our customer journey.
 
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRw2uP4L3iNIzfQfrkohsvpNnCGex7Qu1LRov6bpAH2S-l9aU5zO6qmZO1flMGqoii-CO2V8GxrcPx8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -432,7 +431,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 
 ### Requesting access to an existing tool
 
-To request access to an existing tool in the stack, [please follow the access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+Most of our tools have been migrated to Lumos for provisioning, so follow that procedure first. If you cannot find the tool in Lumos, [please follow the access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook. 
 
 If you are working with a contractor or consultant that requires access to a tool in our stack, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 
