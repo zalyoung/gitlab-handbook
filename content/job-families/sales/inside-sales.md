@@ -7,7 +7,7 @@ description: "Learn more about Inside Sales job family levels, roles and respons
 
 ### Inside Sales Representative
 
-The Insides Sales Representative reports intot the Manager, Inside Sales or Senior Manager, Inside Sales.
+The Insides Sales Representative reports into the Manager, Inside Sales or Senior Manager, Inside Sales.
 
 #### Inside Sales Representative Job Grade
 
@@ -40,7 +40,7 @@ The Inside Sales Representative is a [grade 6](/handbook/total-rewards/compensat
 
 ### Senior Inside Sales Representative
 
-The Senior Insides Sales Representative reports intot the Manager, Inside Sales or Senior Manager, Inside Sales.
+The Senior Insides Sales Representative reports into the Manager, Inside Sales or Senior Manager, Inside Sales.
 
 #### Senior Inside Sales Representative Job Grade
 
