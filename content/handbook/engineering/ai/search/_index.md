@@ -225,14 +225,16 @@ We are exploring [Rally](https://esrally.readthedocs.io/en/stable/) for performa
 ### Documentations
 
 #### Search and Advanced Search
+
 - [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
 - [GitLab Advanced Search Development Guidelines](https://docs.gitlab.com/ee/development/advanced_search.html)
 - [GDK Elasticsearch Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/elasticsearch.md)
 
 #### AI Context Infrastructure
-- [Zoekt Design Document](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/code_search_with_zoekt/) - Comprehensive architecture and implementation details
+
+- [Zoekt Design Document](/handbook/engineering/architecture/design-documents/code_search_with_zoekt/) - Comprehensive architecture and implementation details
 - [GDK Zoekt Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/zoekt.md)
-- [AI Context Abstraction Layer Design Document](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/ai_context_abstraction_layer/) - Unified RAG interface architecture
+- [AI Context Abstraction Layer Design Document](/handbook/engineering/architecture/design-documents/ai_context_abstraction_layer/) - Unified RAG interface architecture
 - [AI Context Abstraction Layer Source Code](https://gitlab.com/gitlab-org/gitlab/-/tree/master/gems/gitlab-active-context) - Ruby gem implementation
 
 ### Blog Posts
