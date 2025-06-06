@@ -60,7 +60,7 @@ Use this information to connect with the Code Creation group:
 
 | Category                 | Handle                                |
 |--------------------------|---------------------------------------|
-| GitLab Team Handle       | @gitlab-com/create-team/code-creation |
+| GitLab Team Handle       | @gitlab-org/code-creation/engineers   |
 | Slack Channel            | #g_code_creation                      |
 | Slack Handle (Engineers) | @code-creation-engs                   |
 
