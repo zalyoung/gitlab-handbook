@@ -167,5 +167,3 @@ If ZenGuard prevents a legitimate action:
 - [RFC: What Zendesk "pitfalls" are we most worried about when working tickets](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6683#top)
 - Support Operations issue: [Feature Request: Zendesk Action Warning System](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/122)
 - Support Deployment issue: [ZenGuard App Deployment - Zendesk Action Warning System](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6898)
-
-
