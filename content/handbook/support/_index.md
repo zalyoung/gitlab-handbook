@@ -442,13 +442,19 @@ Details of these calls are on the [Weekly Support Team Call workflow page](/hand
 
 The Support management team meets regularly. Details of these calls are on the [Support Managers page](/handbook/support/managers)
 
+#### Support Monthly Business Review (MBR)
+
+The leadership team (Staff, Managers, Senior Managers, Directors) meet monthly to align on business objectives and cross-region collaboration. There is SAFE data shared, but a read-out is disseminated for wider team awareness.
+
 #### Support Regional Team Meetings
 
 Some regional Support teams have meetings oriented around company news, Support initiatives, training plans, and connectedness.
 
 | Weekday | Region | Meeting Name | Purpose |
 | :-----: | :----: | :----------: | :-----: |
-| Wednesday | EMEA | Weekly News | For team members reporting to Rebecca S |
+| Tuesday | APAC | Team Meeting | |
+| Tuesday | AMER | Team Meeting | |
+| Thursday | EMEA | Team Meeting |  |
 
 #### Senior Support Engineer Office Hours
 
