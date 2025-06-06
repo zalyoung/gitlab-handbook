@@ -36,6 +36,10 @@ Please fill out one of these issue templates to request support. Please note, if
 
 For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
 
+![brand moving to asana](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/brand-creative-asana.png)
+
+- For more information, please see this announcement on Slack [HERE](https://gitlab.slack.com/archives/C0259241C/p1749243648660229)
+
 ### Brand Design & Video Issue Templates
 
 #### 1. Blog Image Request
