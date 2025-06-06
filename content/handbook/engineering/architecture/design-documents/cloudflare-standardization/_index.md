@@ -55,12 +55,6 @@ specific use cases, the emergence of multiple implementation patterns (
 ) creates an opportunity to establish a more unified and scalable foundation that
 can benefit all teams.
 
-This initiative directly supports the Foundations team's mission to provide
-excellence in networking infrastructure with sustainable, long-term
-solutions. By creating a "golden path" for Cloudflare implementation, we can
-empower teams to leverage our collective expertise in edge networking while
-maintaining the flexibility to address their specific requirements.
-
 This approach also positions us well for upcoming maintenance work, including
 upgrading the Cloudflare provider, allowing us to implement a coordinated,
 reduced-risk upgrade process across all implementations.
@@ -72,12 +66,7 @@ Cloudflare configurations independently.
 
 ### Goals
 
-- Enable teams to implement robust edge networking solutions through our
-  preferred partner, Cloudflare
 - Establish consistent security and compliance standards across all Cloudflare
-  implementations
-- Create a collaborative relationship where the module maintainers provide
-  expertise and tooling while teams maintain ownership of their specific
   implementations
 - Deliver flexible and extensible modular configurations that accommodate both
   common use cases and specialized requirements
@@ -138,12 +127,6 @@ application patterns and rate limiting configurations to prevent abuse. By
 establishing secure defaults, we ensure that all Cloudflare implementations
 maintain a baseline level of security.
 
-Comprehensive documentation will be a critical component of this initiative. We
-will provide usage examples for common scenarios, clear guidance on extending
-modules for custom needs, and troubleshooting guides with best practices. This
-documentation will enable teams to self-serve their Cloudflare needs without
-requiring extensive support from the Foundations team.
-
 ### Module Development Principles
 
 Our modules will adhere to several key principles to ensure their long-term
@@ -181,13 +164,6 @@ indicators of organizational capability and team empowerment:
 - No increase in `S2` and `S1` incident rates related to Cloudflare configurations
 
 ## Design and implementation details
-
-We will develop a hierarchical structure of Terraform modules to provide
-standardized interfaces to Cloudflare configurations. The structure consists of
-several layers, beginning with a root module (`cloudflare`) that serves as the
-primary entry point for most users. This module will provide sensible defaults
-and simplified configuration for common use cases, making it accessible for
-teams with straightforward needs.
 
 Beneath the root module, we will implement several standalone modules that
 specialize in a specific Cloudflare functionality area. Examples include
@@ -411,7 +387,7 @@ creation and configuration across module revisions are expected.
 
 ### Documentation Strategy
 
-Comprehensive documentation is essential for the success of this initiative. We
+Documentation is essential for the success of this initiative. We
 will provide detailed README files for each module, explaining its purpose,
 inputs, outputs, and example usage. For common use cases, we will create example
 configurations that teams can use as starting points for their own
