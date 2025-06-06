@@ -138,12 +138,10 @@ GitLab's first test of the business continuity plan was performed in April 2020 
 
 ### Testing the plan
 
-Testing can present a lot of challenges. It requires investing time and resources. With that in mind, to start with, it may make more sense to conduct a tabletop test at a conference room, rather than involving the entire organization in a full-blown drill. All tabletop exercises must include activation of the business continuity plan.
-Also an initial "dry run" of the plan can be performed, by conducting a structured walk-through test of the approved BC plan. The initial testing is done in sections and after normal business hours to minimize disruptions.
-Subsequent tests can occur during normal business hours. An actual test-run can be performed eventually.
-Based on the gaps and weaknesses learnt from the testing, underlying problems should be corrected and the plan updated accordingly.
-The various types of tests that can be conducted include: checklist tests, simulation tests, parallel tests, and full interruption tests
-Not testing the plan will put both the business and customer confidence at risk.
+Testing can present a lot of challenges and requires time and resource investment. With that in mind, it may make more sense to conduct a tabletop test at a conference room rather than involving the entire organization in a full-blown drill. An initial "dry run" of the plan can be performed by conducting a structured walk-through test of the approved BC plan. The initial testing is done in sections and after normal business hours to minimize disruptions. Subsequent tests can occur during normal business hours. An actual test-run can be performed eventually. The various types of tests that can be conducted include checklist tests, simulation tests, parallel tests, and full interruption tests. All tabletop exercises must include activation of the business continuity plan. Failing to test the plan will put both the business and customer confidence at risk.
+
+Test results must be formally documented, including gaps and weaknesses identified during testing. These should be analyzed and corrected, with the plan updated to document these changes.
+
 
 ### Business Continuity Plan Testing Scenarios
 
