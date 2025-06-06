@@ -444,7 +444,7 @@ The Support management team meets regularly. Details of these calls are on the [
 
 #### Support Monthly Business Review (MBR)
 
-The leadership team (Staff, Managers, Senior Managers, Directors) meet monthly to align on business objectives and cross-region collaboration. There is SAFE data shared, but a read-out will be widely disseminated for wider team awareness.
+The leadership team (Staff, Managers, Senior Managers, Directors) meet monthly to align on business objectives and cross-region collaboration. There is SAFE data shared, but a read-out is disseminated for wider team awareness.
 
 #### Support Regional Team Meetings
 
