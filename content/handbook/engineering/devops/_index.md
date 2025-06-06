@@ -196,7 +196,6 @@ Here are some curated resources to get you started:
 | Core DevOps Meeting     | Weekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering strategy, event planning, leadership communication dissemination, wider initiative brainstorming, OKRs |
 |[Product Quality Standup](mA4JLG5wxZfq2irYk6FUVNXP-Arkk691lm35vo/edit?tab=t.0#heading=h.yoksgpvi6fh)       | Weekly        | Michelle Gill   | Coordination on shared quality objectives (bug burndown, instrumentation) across groups   |
 
-
 #### Working across Stages
 
 Issues that impact code in another team's product stage should be approached collaboratively with the relevant Product, UX, and Engineering managers prior to work commencing, and reviewed by the engineers responsible for that stage.
