@@ -67,7 +67,7 @@ The schema will be organized as a list of all rate limits, with a simple structu
 
 ### Project
 
-We will create a new group `gitlab-com/kinds` that will serve as a global `kind` registry which represents all schemas, present or future, within GitLab.
+We will create a new group `gitlab-com/kinds` that will serve as a global [`kind`](https://iximiuz.com/en/posts/kubernetes-api-structure-and-terminology/#kind) registry which represents all schemas, present or future, within GitLab.
 
 Within this group, we will create a new `kind` project `gitlab-com/kinds/rate-limits` that will host:
 
@@ -99,7 +99,7 @@ For each release, the schema and its documentation will be published to a static
 ### Schema Structure Example
 
 ```yaml
-$schema: https://gitlab-com.gitlab.io/gl-infra/gitlab-rate-limits-schema/v1.0.0/rate-limits.yaml
+$schema: https://gitlab-com.gitlab.io/kinds/rate-limits/v1.0.0/rate-limits.yaml
 rate_limits:
   git_basic_auth:  # Unique identifier for this rate limit
     description: Limits basic authentication requests per IP to prevent abuse
