@@ -94,6 +94,7 @@ variables:
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
+  # When updating the version, please update the version in the .devfile.yaml, too
   HUGO_VERSION: '0.140.2'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   HUGOLINT_VERSION: '2.0.3'
