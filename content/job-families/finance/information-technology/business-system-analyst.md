@@ -187,9 +187,9 @@ Extends the Principal Business Systems Analyst responsibilities plus:
 
 ## Performance Indicators (PI)
 
-- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
-- [Average Issues](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-issues)
-- [Average Merge Requests](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-merge-request)
+- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
+- [Average Issues](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#average-issues)
+- [Average Merge Requests](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#average-merge-request)
 
 ## Career Ladder
 

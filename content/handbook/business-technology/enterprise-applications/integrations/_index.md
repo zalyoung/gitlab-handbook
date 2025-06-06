@@ -10,7 +10,7 @@ We are the team that designs, builds and maintains the complex ecosystem of inte
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i>Our Team (Org Chart)
 
-[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/enterprise-applications-integrations/)
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/security/corporate/it-enterprise-applications/about-us/enterprise-applications-integrations/)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 

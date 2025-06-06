@@ -18,13 +18,13 @@ title: "End User Services"
 
 - For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/security/#access-management-process).
 
-- For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+- For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests/).
 
 #### Baseline & Role-Based Entitlements
 
-- For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
+- For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/access-request/baseline-entitlements/).
 
-- For information on how to create a Role-Based Entitlement, please refer to the [instructions on how to create role-based entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#how-do-i-create-a-role-based-entitlement-template).
+- For information on how to create a Role-Based Entitlement, please refer to the [instructions on how to create role-based entitlements](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/access-request/baseline-entitlements/#how-do-i-create-a-role-based-entitlement-template).
 
 #### Automated Group Membership Reports for Managers
 
@@ -36,35 +36,35 @@ If you would like to check whether or not a team-member is a member of a Slack o
 
 #### Okta
 
-To read more about Okta, please visit the [**Okta**](/handbook/it/okta/) page of the handbook.
+To read more about Okta, please visit the [**Okta**](/handbook/security/corporate/it/okta/) page of the handbook.
 
 #### Jamf (Endpoint Management)
 
-To read more about our Jamf deployment please visit the [**Endpoint Management**](https://internal.gitlab.com/handbook/it/endpoint-tools/) page of the handbook
+To read more about our Jamf deployment please visit the [**Endpoint Management**](https://internal.gitlab.com/handbook/security/corporate/it/endpoint-tools/) page of the handbook
 
 #### Laptop Delivery Metrics
 
-To view laptop delivery metrics and statistic please visit the [Laptop Metrics Handbook Page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-metrics/)
+To view laptop delivery metrics and statistic please visit the [Laptop Metrics Handbook Page](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/gitlab-laptop-metrics/)
 
 #### GitLab Onboarding and machine management
 
-Please visit the GitLab Onboarding and machine management [handbook page](/handbook/it/end-user-services/onboarding-access-requests/)
+Please visit the GitLab Onboarding and machine management [handbook page](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/)
 
 #### GitLab Laptop Offboarding
 
-Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/)
+Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/gitlab-laptop-offboarding/)
 
 #### Self-help and troubleshooting
 
-Experiencing some issues with your machine, access to systems, 2FA or other IT related issues? Please visit our [self-help and troubleshooting handbook page](https://internal.gitlab.com/handbook/it/end-user-services/self-help-troubleshooting/)
+Experiencing some issues with your machine, access to systems, 2FA or other IT related issues? Please visit our [self-help and troubleshooting handbook page](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/self-help-troubleshooting/)
 
 #### GitLab IT 101
 
-New to GitLab and looking for some IT tips and tricks? This is the spot for you, we have created a comprehensive guide for using the IT systems, apps and hardware [in this handbook page](/handbook/it/end-user-services/onboarding101/)
+New to GitLab and looking for some IT tips and tricks? This is the spot for you, we have created a comprehensive guide for using the IT systems, apps and hardware [in this handbook page](/handbook/security/corporate/it/end-user-services/onboarding101/)
 
 #### Offboarding
 
-- Are you or a direct report leaving the company? Please reference the [Offboarding](https://internal.gitlab.com/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
+- Are you or a direct report leaving the company? Please reference the [Offboarding](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> Automations
 

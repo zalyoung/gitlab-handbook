@@ -85,7 +85,7 @@ Do not convert group DMs to private channels within the "GitLab - Finance" works
 
 Only Slack administrators can change a private channel to a public channel.
 
-To request that an existing private channel be made public, submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+To request that an existing private channel be made public, submit an [access request](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests/).
 
 ## Managing noise and creating focus in Slack
 
@@ -204,7 +204,7 @@ GitLab has chosen to restrict the ability to install apps, and we have a process
 1. Add a custom message with more context about your request and also link the vendor approval issue.
 1. Click Submit. You'll receive a direct message from Slackbot when your request has been reviewed by the team.
 
-**Please note that this is only required for new apps that have not been reviewed or approved.** If your request is to add a new process or update an existing process for how an application works in slack, please refer to our [Business Technology Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/) process.
+**Please note that this is only required for new apps that have not been reviewed or approved.** If your request is to add a new process or update an existing process for how an application works in slack, please refer to our [Business Technology Change Management](https://internal.gitlab.com/handbook/security/corporate/it/it-change-management/) process.
 
 ## Slackbots
 

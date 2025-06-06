@@ -802,4 +802,4 @@ ARR_Net__c field in Opportunity
 
 ### Opportunity Product
 
-Please see the dedicated [Opportunity Product](https://internal.gitlab.com/handbook/it-enterprise-applications/documentation/guides/opportunity-product/)
+Please see the dedicated [Opportunity Product](https://internal.gitlab.com/handbook/security/corporate/it-enterprise-applications/documentation/guides/opportunity-product/)

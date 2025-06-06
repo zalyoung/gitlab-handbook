@@ -17,7 +17,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 #### Equipment Setup
 
-- Watch for your Welcome Email from the Candidate Experience Specialist team with instructions for ordering your [laptop](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) and [equipment](/handbook/finance/expenses/#equipment)
+- Watch for your Welcome Email from the Candidate Experience Specialist team with instructions for ordering your [laptop](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/#gitlab-laptops) and [equipment](/handbook/finance/expenses/#equipment)
 - Once your laptop arrives, feel free to explore it (Mac users: skip creating an Apple ID—you'll create one with your GitLab email on day one).
 
 #### Documentation
@@ -43,8 +43,8 @@ The People Connect team will be your primary guide throughout onboarding and you
 - Begin your workday whenever feels comfortable—we embrace [non-linear workdays](/handbook/company/culture/all-remote/non-linear-workday/#find-what-works-for-you). Our welcome email is sent at around 6am local time.
 - Check your personal email for onboarding instructions:
     1. Go back to the Okta email you received the day before your start date. This email will allow you to activate your Okta account and also links you to the respective laptop setups and the steps to follow:
-        - [Mac OS](/handbook/it/end-user-services/onboarding101/#laptop-setup-macbook)
-        - [Linux OS](/handbook/it/end-user-services/onboarding101/#laptop-setup-linux)
+        - [Mac OS](/handbook/security/corporate/it/end-user-services/onboarding101/#laptop-setup-macbook)
+        - [Linux OS](/handbook/security/corporate/it/end-user-services/onboarding101/#laptop-setup-linux)
     1. Once you have activated your Okta account and setup your laptop, proceed with checking the welcome email to register your GitLab username (via accessing your GitLab email).
     1. You will then be able to access your personalized [GitLab onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md).
     1. You will also receive an invite from 1Password (for secure password management), please be sure to activate your account and store any passwords in your personal vault.
@@ -178,7 +178,7 @@ As point 23 on our [Communication Handbook page](/handbook/communication/#writin
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
 | AMA | [Ask Me Anything](/handbook/communication/ask-me-anything/) |
-| AR | [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) |
+| AR | [Access Request](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests/) |
 | DRI | Directly Responsible Individual |
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator |

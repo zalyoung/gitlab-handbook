@@ -11,7 +11,7 @@ title: "Access Requests (AR) FAQs"
 
 ### My AR request has been open for a while, how can I get traction on it?
 
-1. Review that the access request has been completed according to the [instructions](/handbook/it/end-user-services/onboarding-access-requests/access-requests#how-do-i-choose-which-template-to-use) and that you have included the system/vault/group/project you need access to plus the role or permissions needed.
+1. Review that the access request has been completed according to the [instructions](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests#how-do-i-choose-which-template-to-use) and that you have included the system/vault/group/project you need access to plus the role or permissions needed.
 1. Most access requests need Manager approval so make sure to tag your manager in the AR and ask them to add the ~"AR-Approval::Manager Approved" and ~"ReadyForProvisioning" labels to the issue
 1. Make sure you have tagged and assigned the issue to the correct provisioner(s) for the tool(s) you are requesting access to. You can find the provisioners for all our tools in our [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 1. If the provisioner is the IT team, please make sure to add the ~"IT::to do" label to the AR.
@@ -21,7 +21,7 @@ title: "Access Requests (AR) FAQs"
 
 1. Choose a template based on your needs: most people use the [Bulk](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) or [Single Person](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) template.
 1. Do not open an Access Request for anything that is part of a baseline entitlement unless it got missed during onboarding.
-    1. [All team members baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#baseline-entitlements-all-gitlab-team-members)
+    1. [All team members baseline entitlements](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/access-request/baseline-entitlements/#baseline-entitlements-all-gitlab-team-members)
     1. [Role-based baseline entitlements](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks)
 1. You must have the label `AR-Approval::Manager Approved` on the issue **unless** the person is:
     1. an internal team member being added to a Google Workspace email alias or group

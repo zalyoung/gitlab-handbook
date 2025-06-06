@@ -457,7 +457,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Laptops, insurance and repairs
 
 - All laptops are purchased through GitLab unless a Team Member is in a region where GitLab cannot deliver a laptop.
-- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/it/end-user-services/onboarding-access-requests/) for your reference.
+- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/) for your reference.
 
 #### Repairs to company issued equipment
 
@@ -706,7 +706,7 @@ Below is some more information to help you get set up with your [Navan](https://
 
 This policy applies to all GitLab team members registering, or maintaining a registration for, GitLab-related Domain Names, including GitLab-related Domain Names registered or used for sandbox or testing purposes.
 
-Domain names are key assets in GitLab's intellectual property portfolio. Centralizing the registration and maintainance of domain names under the Infrastructure Shared Services group using GitLab's approved domain name registrar helps us track and protect these valuable assets. Please refer to the [Domain Names and DNS Records Handbook Page](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/domains-dns/).
+Domain names are key assets in GitLab's intellectual property portfolio. Centralizing the registration and maintainance of domain names under the Infrastructure Shared Services group using GitLab's approved domain name registrar helps us track and protect these valuable assets. Please refer to the [Domain Names and DNS Records Handbook Page](https://internal.gitlab.com/handbook/security/corporate/it/it-self-service/it-guides/domains-dns/).
 
 **"GitLab-related Domain Names"** when used in this policy means any domain name:
 

@@ -32,7 +32,7 @@ We also provide support for our [cross-department system owners](/handbook/busin
 
 This handbook page focuses on how our department operates internally and the initiatives that we are working on.
 
-**Are you looking for help with your access requests, infrastructure, laptop, tech stack applications, etc?** Please visit our IT Self Service Knowledge Base at [/handbook/it](/handbook/it).
+**Are you looking for help with your access requests, infrastructure, laptop, tech stack applications, etc?** Please visit our IT Self Service Knowledge Base at [/handbook/security/corporate/it](/handbook/security/corporate/it).
 
 **Not finding what you're looking for?** Please ask in the <a href="https://gitlab.slack.com/archives/CK4EQH50E">#it_help</a> Slack channel.
 
@@ -73,11 +73,11 @@ The IT Engineering sub-department is focused on designing, developing, and imple
 
 <a href="/handbook/security/identity/">Handbook Page</a><br />
 <br />
-The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/it/okta/">Okta handbook page</a>.<br />
+The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/security/corporate/it/okta/">Okta handbook page</a>.<br />
 <br />
 The IT Support team handles <a href="/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/">access requests</a> for the tech stack applications that IT manages. All access requests are created in the same <a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">issue tracker</a> project, regardless of which System Owner is responsible for provisioning your user account.<br />
 <br />
-The IT Development team also focuses on Identity and Access Management (IAM) and Role-Based Access Control (RBAC) automation. We are developing <a href="/handbook/it/access-manager">GitLab Access Manager (GLAM)</a>, a custom application that will replace access request issues and manual provisioning with a streamlined custom web UI and API integration with most of our tech stack applications for user and role provisioning.<br />
+The IT Development team also focuses on Identity and Access Management (IAM) and Role-Based Access Control (RBAC) automation. We are developing <a href="/handbook/security/corporate/it/access-manager">GitLab Access Manager (GLAM)</a>, a custom application that will replace access request issues and manual provisioning with a streamlined custom web UI and API integration with most of our tech stack applications for user and role provisioning.<br />
 
 </details>
 
@@ -127,17 +127,17 @@ We provide implementation engineering and support for 3rd party tech stack appli
 
 > This is also referred to as IT Helpdesk, Team Member Enablement, or Analyst team.
 
-<a href="/handbook/it">IT Self Service Knowledge Base</a><br />
-<a href="/handbook/it/end-user-services/">Handbook Page</a><br />
+<a href="/handbook/security/corporate/it">IT Self Service Knowledge Base</a><br />
+<a href="/handbook/security/corporate/it/end-user-services/">Handbook Page</a><br />
 <br />
 The IT Support team focuses on providing helpdesk support for all of our team members globally with the technologies that are used across the entire organization. These include our collaboration tools (GitLab.com, Google Workspace, Slack, Zoom, etc.), security and compliance tools (1Password, Okta, Jamf, SentinelOne, etc.), laptops and hardware (MacBook Pros, Linux machines, etc.), and most software applications that run on MacOS.<br />
 <br />
-**Are you looking for help with your access requests, infrastructure, laptop, tech stack applications, etc?** Please visit our IT Self Service Knowledge Base at [/handbook/it](/handbook/it).<br />
+**Are you looking for help with your access requests, infrastructure, laptop, tech stack applications, etc?** Please visit our IT Self Service Knowledge Base at [/handbook/security/corporate/it](/handbook/security/corporate/it).<br />
 
 <details>
 <summary markdown="span">Access Requests</summary>
 
-<a href="/handbook/it/#access-requests-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#access-requests-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
@@ -151,56 +151,56 @@ You can ask questions or get assistance in the <a href="https://gitlab.slack.com
 <details>
 <summary markdown="span">Onboarding</summary>
 
-<a href="/handbook/it/#onboarding-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#onboarding-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
 <details>
 <summary markdown="span">Offboarding</summary>
 
-<a href="/handbook/it/#offboarding-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#offboarding-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
 <details>
 <summary markdown="span">FAQ and How-to Guides</summary>
 
-<a href="/handbook/it/#how-to-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#how-to-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
 <details>
 <summary markdown="span">Laptop Hardware</summary>
 
-<a href="/handbook/it/#laptop-hardware-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#laptop-hardware-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
 <details>
 <summary markdown="span">Laptop Linux OS</summary>
 
-<a href="/handbook/it/#laptop-linux-os-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#laptop-linux-os-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
 <details>
 <summary markdown="span">Laptop Mac OS</summary>
 
-<a href="/handbook/it/#laptop-mac-os-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#laptop-mac-os-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
 <details>
 <summary markdown="span">Laptop Apps</summary>
 
-<a href="/handbook/it/#laptop-apps-overview">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#laptop-apps-overview">IT Self Service Handbook Page</a><br />
 
 </details>
 
 <details>
 <summary markdown="span">Laptop Data</summary>
 
-<a href="/handbook/it/#laptop-data">IT Self Service Handbook Page</a><br />
+<a href="/handbook/security/corporate/it/#laptop-data">IT Self Service Handbook Page</a><br />
 
 </details>
 

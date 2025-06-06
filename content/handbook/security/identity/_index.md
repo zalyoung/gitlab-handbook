@@ -55,7 +55,7 @@ In Identity v3, we will use programmatic provisioning so every action and metada
 
 Our next-gen architecture will allow us to automate just-in-time access for elevated and administrative actions that are burdensome to manage manually.
 
-For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) to learn more.
+For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](https://internal.gitlab.com/handbook/security/corporate/it/it-self-service/access-level-wristband-colors/) to learn more.
 
 We are also investing in additional administrative control plane separation. Details are not published in the public handbook for security reasons.
 
@@ -69,7 +69,7 @@ GitLab Identity v1 was managed using Tech Ops practices by the Infrastructure an
 
 ### GitLab Identity v2
 
-GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/) to learn more.
+GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/) to learn more.
 
 The processes that we do today meets audit and compliance requirements, however the processes are mostly manual that results in internal inefficiency. It takes a lot of labor hours to manage onboarding, access requests, access reviews, and offboarding processes.
 

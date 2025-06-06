@@ -117,11 +117,11 @@ Familiarity with data management policies and regulations (GDPR, SOX, PCI)
 
 ## Performance Indicators
 
-- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
-- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
-- [Discretionary bonus per employee per month > 0.1](https://internal.gitlab.com/handbook/it/it-performance-indicators/#discretionary-bonus-per-employee-per-month--01)
-- [Average Delivery Time of Laptop Machines < 21 days](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-delivery-time-of-laptop-machines--21-days)
-- [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
+- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#new-hire-location-factor--069)
+- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
+- [Discretionary bonus per employee per month > 0.1](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#discretionary-bonus-per-employee-per-month--01)
+- [Average Delivery Time of Laptop Machines < 21 days](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#average-delivery-time-of-laptop-machines--21-days)
+- [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#customer-satisfaction-survey-csat)
 
 ## Career Ladder
 
