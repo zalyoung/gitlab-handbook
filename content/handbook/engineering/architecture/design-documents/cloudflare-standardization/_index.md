@@ -18,17 +18,16 @@ toc_hide: true
 ## Summary
 
 This document describes the architecture and implementation approach for
-standardized Terraform modules that provide a consistent, secure, and extensible
+consistent Terraform modules that provide a secure and extensible
 interface to Cloudflare configuration across GitLab's internal teams. As
 GitLab's edge networking needs grow and more teams adopt Cloudflare, we need a
-standardized approach that enables teams to implement robust edge networking
-solutions while maintaining security and operational excellence.
+standardized approach that enables teams to implement secure and compliant edge
+networking solutions achieving operational excellence.
 
-The proposed solution delivers a hierarchical set of reusable Terraform modules
-with sensible defaults, comprehensive documentation, and clear upgrade
-paths. This standardization will enable teams to leverage Cloudflare's
-capabilities effectively while ensuring consistent security posture and reducing
-implementation complexity across the organization.
+The proposed solution delivers a set of Terraform modules with sensible
+defaults, documentation, and clear upgrade paths. This standardization will
+enable teams to use Cloudflare's capabilities effectively and consistently,
+reducing implementation complexity across the organization.
 
 ## Motivation
 
@@ -37,7 +36,7 @@ to grow, with multiple teams implementing solutions for DNS management, WAF
 configuration, and worker deployments across our infrastructure estate.
 
 As we move toward a more mature GitLab platform where we standardize our
-infrastructure offerings with a platform-first mindset, establishing consistent
+infrastructure offerings with a platform-first mindset, establishing
 patterns for Cloudflare management will provide significant strategic value. A
 unified approach will create a single point for implementing generic security
 improvements, compliance updates, and feature enhancements across our Cloudflare
@@ -64,12 +63,12 @@ maintaining the flexibility to address their specific requirements.
 
 This approach also positions us well for upcoming maintenance work, including
 upgrading the Cloudflare provider, allowing us to implement a coordinated,
-reduced-risk upgrade process across all implementations. The standardization
-effort aligns with GitLab's platform strategy of providing consistently secure
-and compliant infrastructure foundations. Through comprehensive testing,
-documentation, and clear upgrade processes, we can enable teams to implement and
-maintain their Cloudflare configurations independently while ensuring
-organizational consistency and security standards.
+reduced-risk upgrade process across all implementations.
+
+The standardization effort aligns with GitLab's platform strategy of providing
+secure and compliant infrastructure foundations. Through testing, documentation,
+and clear upgrade processes, we can enable teams to implement and maintain their
+Cloudflare configurations independently.
 
 ### Goals
 
@@ -104,27 +103,21 @@ organizational consistency and security standards.
 
 ## Proposal
 
-We propose developing a comprehensive set of standardized Terraform modules that
-provide teams with a robust, secure, and extensible foundation for implementing
-solutions through Cloudflare configuration. This approach will balance
-centralized expertise with team autonomy, creating a sustainable platform for
-edge networking across GitLab.
+We propose developing a set of Terraform modules that provide teams with a
+secure, and extensible foundation for implementing solutions through Cloudflare
+configuration. This approach will balance centralized expertise with team
+autonomy, creating a sustainable platform for edge networking across GitLab.
 
 Our solution centers on creating a hierarchical module structure that serves
 teams with varying needs and expertise levels. Teams looking for quick
-implementation can use our main entry-point module with carefully chosen
-defaults, while teams with specialized requirements can leverage our sub-modules
-for finer control over their implementation structure. This flexibility ensures
-that both common use cases and complex requirements are well-supported.
+implementation can use our common entrypoint module with sensible defaults,
+whilst teams with specialized requirements can use the specialized modules for
+finer control over their implementation structure. This flexibility ensures that
+both common use cases and complex requirements are well-supported.
 
-The modules will embody GitLab's infrastructure-as-code principles, using
-Terraform as our preferred IaC platform, with consistent interfaces,
-comprehensive testing, and extensive documentation. By establishing clear
-patterns and providing working examples, we enable teams to implement Cloudflare
-solutions confidently while maintaining organizational standards for security
-and compliance. This initiative will establish a sustainable foundation for
-Cloudflare usage across GitLab, with support for safe upgrades, consistent
-security practices, and collaborative improvement over time.
+The modules will follow infrastructure-as-code principles and practices that we
+practice at GitLab, using Terraform as our preferred IaC platform, with
+consistent interfaces, testing, and extensive documentation.
 
 ### Core Components
 
@@ -135,12 +128,9 @@ The proposed module hierarchy is structured around 3 core layers:
 1. Data-only submodules providing standardized configuration patterns that can
    be reused across implementations
 
-A key aspect of this approach is establishing a standardized interface for the
-same functionality across the entrypoint and specialized modules. This includes
-consistent variable naming and structure, clear input/output definitions, and
-robust type validation to prevent configuration errors. By maintaining a
-consistent interface, we ensure that teams can easily understand and extend
-their configurations as needed.
+A key aspect of this approach is establishing a consistent style for the same
+functionality across the entrypoint and specialized modules, to reduce friction
+for consumers.
 
 Security will be a priority in our design, with pre-configured security settings
 aligned with GitLab's requirements built into the modules. This includes [WAF rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
@@ -160,8 +150,8 @@ Our modules will adhere to several key principles to ensure their long-term
 success. We will implement a "leaky abstraction" approach, where we build upon
 Cloudflare's existing provider and API structure, providing a reasonable
 starting point for our abstraction while allowing direct access when
-needed. This allows us to leverage Cloudflare's existing documentation and
-reduce the depth required in our own documentation.
+needed. This allows us to build on top of Cloudflare's existing documentation
+and reduce the depth required in our own documentation.
 
 Maps, objects, and lists will be the primary interface to modules, as these are
 generally more flexible than scalar alternatives and avoid the need for
@@ -174,7 +164,7 @@ migration paths when interfaces need to change. Automated tests will validate
 backward compatibility and ensure that upgrades are safe and predictable.
 
 A self-service focus will guide our design decisions, empowering teams to
-implement and maintain their own configurations through thorough documentation
+implement and maintain their own configurations through documentation
 and intuitive interfaces.
 
 ### Success Metrics
@@ -215,8 +205,7 @@ implementations.
 To support customization without sacrificing standardization, we will create
 reusable configuration options in `cloudflare/data/*` sub-modules. These data
 sub-modules will allow teams to self-serve by building on top of common usage
-patterns with their own specialization requirements while maintaining
-consistency with organizational standards. An example is WAF rules, where sets
+patterns with their own specialization requirements. An example is WAF rules, where sets
 of WAF rules may be common across many instances but are not appropriate for all
 consumers. Where we are building distinct sets of configuration (e.g., multiple
 rulesets), we will also build a `default` configuration for ease of use and
@@ -414,12 +403,11 @@ to test every module. This will use a combination of unit-style tests with
 mocked resources and end-to-end tests that create resources in a test zone
 following patterns that we observe across implementation of the modules.
 
-This allows us to test to thoroughly test our computed values and created
-resources quickly during development, and to ensure that we are providing
-well-tested golden paths that our implementers use.  This will aid our efforts
-to provide a stable interface to our implementers, and allow us to ensure that
-any difference in resource creation and configuration across module revisions
-are expected.
+This allows us to test our computed values and created resources quickly during
+development, and to ensure that we are providing well-tested golden paths that
+our implementers use.  This will aid our efforts to provide a stable interface
+to our implementers, and allow us to ensure that any difference in resource
+creation and configuration across module revisions are expected.
 
 ### Documentation Strategy
 
@@ -490,7 +478,7 @@ management within a single repository.
 
 ### Documentation-only improvements
 
-We can reduce the initial implementation burden by creating thorough
+We can reduce the initial implementation burden by creating
 documentation for our current set of Cloudflare modules.
 
 **Pros:**
