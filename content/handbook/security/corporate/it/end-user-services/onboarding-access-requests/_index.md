@@ -1,6 +1,5 @@
 ---
 title: "GitLab Laptop Management"
-controlled_document: true
 ---
 
 ## Purpose
@@ -402,4 +401,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-* [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
+* [Controlled Document Procedure](/handbook/security/controlled-document-procedure/) <!--- controlled document: true    temprarily removed from this page until the pages have been updates>
