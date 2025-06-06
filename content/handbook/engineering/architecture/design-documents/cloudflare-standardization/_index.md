@@ -407,36 +407,6 @@ module "waf" {
 }
 ```
 
-### Versioning and Compatibility
-
-To ensure stability and reliability for teams using our modules, we will
-implement a robust versioning strategy. This includes following semantic
-versioning for all modules, maintaining backward compatibility within major
-versions, documenting breaking changes and migration paths between major
-versions, and providing deprecation notices with transition periods when
-interfaces need to change. This approach will allow teams to upgrade their
-implementations with confidence, knowing that they won't experience unexpected
-breakages.
-
-We will be following [semantic versioning principles](https://semver.org/) for
-module releases.
-
-Specifically:
-
-- Major Version (*X*.y.z): Incremented when breaking interface changes are
-  released that require manual intervention for implementers
-- Minor Version (x.*Y*.z): Incremented when additional functionality is implemented
-  in the module that does not require manual intervention for implementers
-- Patch Version (x.y.*Z*): Incremented when non-functional changes (e.g. bug
-  fixes and doc updates) are released, that do not require manual intervention
-  for implementers
-
-These versions will be tagged in the repository related to the module, and
-released to our terraform module registry with the matching version.
-
-For any major version change, we *MUST* provide upgrade documentation for any
-manual interventions required for implementers.
-
 ### Testing Strategy
 
 We will be using [Terraform tests](https://developer.hashicorp.com/terraform/language/tests)
@@ -471,6 +441,10 @@ documentation into a single source of truth for internal customers and operators
 to use as a reference.  This approach provides additional benefits, including
 aligning documentation with changes made to modules. This ensures that we can
 keep documentation updated alongside code changes made to the modules.
+
+We will be following [semantic versioning principles](https://semver.org/) for
+module releases.  For any major version change, we *MUST* provide upgrade
+documentation for any manual interventions required for implementers.
 
 ## Alternative Solutions
 
