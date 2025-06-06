@@ -172,8 +172,6 @@ Some testing scenarios that can be performed, are given below:
     - For these scenarios, the BC plan needs to outline the actions to be taken. An alternate mode of communication should be tested for its reliability and efficiency, for a company like GitLab which has team members all around the globe.
     - Regular updates to all GitLab team members contact information, so that all of them can receive timely notifications thus streamlining the disaster scenario process.
 
-Given GitLab's remote-first nature environment, our Incident Response Plan (IRP) is a major component of the Business Continuity Plan as business disruptions are most often technical in nature.
-
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
