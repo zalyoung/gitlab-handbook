@@ -54,7 +54,7 @@ You might already have it: [Test if you have a dev account.](https://dev.gitlab.
 
 ### I need access to Zendesk as a Light Agent
 
-You don't need to open an access request for Zendesk light access. [Follow the instructions to get access by email](/handbook/support/internal-support/#viewing-support-tickets)
+You don't need to open an access request for Zendesk light access. [Follow the instructions to get access by email](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account)
 
 ### I need to add an email alias, or name change
 

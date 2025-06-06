@@ -7,7 +7,7 @@ description: Finance Systems Access Requests
 
 Many finance systems that are provisioned are also considered a SOX system and are subject to the [SOX Program.](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 
-The finance systems admin team goes through additional procedures when handling [Access Requests.](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests/#access-requests-ars)
+The finance systems admin team goes through additional procedures when handling [Access Requests.](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests/#)
 
 This applies to the following systems:
 

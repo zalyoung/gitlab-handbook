@@ -3,9 +3,11 @@ title: "Information Technology (IT) Department"
 description: "The IT department focuses on managing the framework of how GitLab procures, implements, integrates, secures, exports analytics, and supports our tech stack applications while providing strategic enablement and integration support for all departments and team members that allows us to scale efficiently, safely, and securely."
 ---
 
-> The IT Department is part of the [Business Technology](/handbook/business-technology) organization in the [Finance](/handbook/finance) division.
+> The IT Department is part of the [CorpSec](/handbook/security/corporate) organization in the [Security](/handbook/security) division.
 
 ## Mission
+
+<!---
 
 The IT Department provides or supports the following functions:
 
@@ -269,4 +271,4 @@ We use animated movie and theme park references. We are careful to avoid tradema
 
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("System Owners") to handle day-to-day management of the tech stack applications that are specific to that department or functional group.
 
-See the [Business Technology](/handbook/business-technology#cross-department-system-owners) handbook page to learn more about system owners.
+See the [Business Technology](/handbook/business-technology#cross-department-system-owners) handbook page to learn more about system owners. -->
