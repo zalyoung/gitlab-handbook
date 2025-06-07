@@ -305,7 +305,7 @@ The shared services and components below are extracted from the GitLab [product 
 | Sidekiq |  | Decentralized |  |  | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
 | Workhorse |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) |  |
 
-## Reducing the impact of far-reaching work
+### Reducing the impact of far-reaching work
 
 Because our teams are working in separate groups within a single application, there is a high potential for our changes to impact other groups or the application as a whole.  We have to be cautious not to inadvertently impact overall system quality but also availability, reliability, performance, and security.
 
