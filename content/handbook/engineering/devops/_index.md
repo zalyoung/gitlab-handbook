@@ -110,7 +110,7 @@ The DevOps department is comprised of:
 
 ## People Processes
 
-1. [Promotions](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline
+1. [Promotions](/handbook/people-group/promotions-transfers)
    - [Calibration preparation](/handbook/people-group/promotions-transfers/#calibration)
 1. [Talent Assessments](/handbook/people-group/talent-assessment/)
 1. [Hiring Contractors](/handbook/engineering/development/processes/hiring-contractors)
