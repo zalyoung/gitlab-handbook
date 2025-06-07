@@ -239,6 +239,7 @@ If development is the DRI or actively participating in a [Customer Account Escal
 Remind GitLab team members in Slack to update the status of items they are the DRI for before recurring meetings.
 * Post a link to the meeting notes and recording in a Slack channel for the customer escalation, so those who did not attend know that the notes and recording are available for review.
 * When there is an action item for someone in a meeting (whether they are present or not), tag them in an issue or MR (or in Slack) so they will see it.
+```
 
 ### Reducing the impact of far-reaching work
 
