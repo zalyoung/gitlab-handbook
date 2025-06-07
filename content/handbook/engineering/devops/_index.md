@@ -209,6 +209,52 @@ Remind GitLab team members in Slack to update the status of items they are the D
 * Post a link to the meeting notes and recording in a Slack channel for the customer escalation, so those who did not attend know that the notes and recording are available for review.
 * When there is an action item for someone in a meeting (whether they are present or not), tag them in an issue or MR (or in Slack) so they will see it.
 
+#### Reducing the impact of far-reaching work
+
+Because our teams are working in separate groups within a single application, there is a high potential for our changes to impact other groups or the application as a whole.  We have to be cautious not to inadvertently impact overall system quality but also availability, reliability, performance, and security.
+
+An example would be a change to user authentication or login, which might impact seemingly unrelated services, such as project management or viewing an issue.
+
+Far-reaching work is work that has wide-ranging, diffuse implications, and includes changes to areas which will:
+
+1. be utilized by a high percentage of users
+1. impact entire services
+1. touch multiple areas of the application
+1. potentially have legal, security, or compliance consequences
+1. potentially impact revenue
+
+If your group, product area, feature, or merge request fits within one of the descriptions above, you must seek to understand your impact and how to reduce it. When releasing far-reaching work, use a [rollout plan](/handbook/engineering/development/processes/rollout-plans). You might additionally need to consider creating a one-off process for those types of changes, such as:
+
+- [Creating a rollout plan procedure](/handbook/engineering/development/processes/rollout-plans)
+  - Consider how to reduce the risk in your rollout plan
+  - Document how to monitor the rollout while in progress
+  - Describe the metrics you will use to determine the success of the rollout
+  - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
+- Requiring feature flag usage ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/88298))
+- Changing a recommended process to a required process for this change, such as a domain expert review
+- Requesting manual testing of the work before approval
+
+#### Identified areas
+
+Some areas have already been identified that meet the definition above, and may consider altered approaches in their work:
+
+| Area             | Reason                      | Special workflows (if any)                                                                                            |
+| ---------------- | --------------------------- |-----------------------------------------------------------------------------------------------------------------------|
+| Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/ee/development/database_review.html#general-process)                          |
+| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html) |
+| Redis changes    | impact to multiple services<br/><br/>Redis instances are responsible for sets of data that are not grouped by feature category. If one set of data is misconfigured, that Redis instance may fail.  |                                                                                                                       |
+| Package product areas            | high percentage of traffic share |                                                                                                                       |
+| Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
+| [Create: Source Code product areas](/handbook/product/categories/features/#createsource-code-group) | high percentage of traffic share. Special attention should be paid to Protected Branches, CODEOWNERS, MR Approvals, Git LFS, Workhorse and the git over SSH / gitlab-sshd interfaces. Please contact the EM (@sean_carroll) or PM (@tlinz) if you are unsure. | |
+| Pipeline Execution product areas | high percentage of traffic share  | [Documentation](https://docs.gitlab.com/ee/development/contributing/verify/)                                          |
+| Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/software-supply-chain-security/authorization/#code-review)            |
+| Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/software-supply-chain-security/compliance/#code-review)                     |
+| Workspace product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/architecture/design-documents/workspaces/)                                   |
+| [Specific fulfillment product areas](/handbook/engineering/development/fulfillment/#revenue-impacting-changes) | potentially impact revenue |                                                                                                                       |
+| Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
+| Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update.html)                                  |
+| Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |
+
 ### Daily Duties for Engineering Directors
 
 The following is a non exhaustive list of daily duties for engineering directors, while some items are only applicable at certain time, though.
@@ -304,49 +350,3 @@ The shared services and components below are extracted from the GitLab [product 
 | Sentry |  | Decentralized |  |  | DRI is similar to GitLab Rails which is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | Sidekiq |  | Decentralized |  |  | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
 | Workhorse |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) |  |
-
-### Reducing the impact of far-reaching work
-
-Because our teams are working in separate groups within a single application, there is a high potential for our changes to impact other groups or the application as a whole.  We have to be cautious not to inadvertently impact overall system quality but also availability, reliability, performance, and security.
-
-An example would be a change to user authentication or login, which might impact seemingly unrelated services, such as project management or viewing an issue.
-
-Far-reaching work is work that has wide-ranging, diffuse implications, and includes changes to areas which will:
-
-1. be utilized by a high percentage of users
-1. impact entire services
-1. touch multiple areas of the application
-1. potentially have legal, security, or compliance consequences
-1. potentially impact revenue
-
-If your group, product area, feature, or merge request fits within one of the descriptions above, you must seek to understand your impact and how to reduce it. When releasing far-reaching work, use a [rollout plan](/handbook/engineering/development/processes/rollout-plans). You might additionally need to consider creating a one-off process for those types of changes, such as:
-
-- [Creating a rollout plan procedure](/handbook/engineering/development/processes/rollout-plans)
-  - Consider how to reduce the risk in your rollout plan
-  - Document how to monitor the rollout while in progress
-  - Describe the metrics you will use to determine the success of the rollout
-  - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
-- Requiring feature flag usage ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/88298))
-- Changing a recommended process to a required process for this change, such as a domain expert review
-- Requesting manual testing of the work before approval
-
-#### Identified areas
-
-Some areas have already been identified that meet the definition above, and may consider altered approaches in their work:
-
-| Area             | Reason                      | Special workflows (if any)                                                                                            |
-| ---------------- | --------------------------- |-----------------------------------------------------------------------------------------------------------------------|
-| Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/ee/development/database_review.html#general-process)                          |
-| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html) |
-| Redis changes    | impact to multiple services<br/><br/>Redis instances are responsible for sets of data that are not grouped by feature category. If one set of data is misconfigured, that Redis instance may fail.  |                                                                                                                       |
-| Package product areas            | high percentage of traffic share |                                                                                                                       |
-| Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
-| [Create: Source Code product areas](/handbook/product/categories/features/#createsource-code-group) | high percentage of traffic share. Special attention should be paid to Protected Branches, CODEOWNERS, MR Approvals, Git LFS, Workhorse and the git over SSH / gitlab-sshd interfaces. Please contact the EM (@sean_carroll) or PM (@tlinz) if you are unsure. | |
-| Pipeline Execution product areas | high percentage of traffic share  | [Documentation](https://docs.gitlab.com/ee/development/contributing/verify/)                                          |
-| Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/software-supply-chain-security/authorization/#code-review)            |
-| Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/software-supply-chain-security/compliance/#code-review)                     |
-| Workspace product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/architecture/design-documents/workspaces/)                                   |
-| [Specific fulfillment product areas](/handbook/engineering/development/fulfillment/#revenue-impacting-changes) | potentially impact revenue |                                                                                                                       |
-| Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
-| Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update.html)                                  |
-| Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |
