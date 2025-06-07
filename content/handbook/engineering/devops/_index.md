@@ -76,7 +76,7 @@ Millions of customers use GitLab, so UX improvements can have a huge collective 
 
 Development team members should also constantly suggest and investigate how to improve the overall user experience of the product. These can range from enhancing performance (actual and perceived), suggesting new technologies, solving user experience issues efficiently, etc.
 
-## Organizational Structure
+## Organization
 
 ```plantuml
 @startwbs
@@ -100,8 +100,6 @@ Development team members should also constantly suggest and investigate how to i
 *** Knowledge
 @endwbs
 ```
-
-## Organizational Responsibilities
 
 The DevOps department is comprised of:
 
