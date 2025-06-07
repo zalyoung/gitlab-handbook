@@ -121,6 +121,7 @@ The DevOps department is comprised of:
    - [GitLab Performance Testing](/handbook/engineering/testing/performance-tools/)
    - [Getting started with the GraphQL API](https://docs.gitlab.com/ee/api/graphql/getting_started.html)
    - [Database Engineering](/handbook/engineering/development/database/)
+   - [Reliability Training](/handbook/engineering/training/reliability)
 
 ## How We Work
 
@@ -134,7 +135,7 @@ Here are some curated resources to get you started:
 - [Core DevOps GitLab Project](https://gitlab.com/gitlab-org/core-devops)
 - [Core DevOps Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19jYjBhZmU1Y2Y4MTZiYmI3Mzk4OTM0MTQ3MGIwMzFkZDY3NjNjYWQ3MTI3MGQ1MjllYTA3YjM3NzAyMGRjYzdkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
-#### Meetings
+### Meetings
 
 | **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**  | **Topics**  |
 |-------|--------|-------|----------|
@@ -150,6 +151,36 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/) process
 - [Incident Manager On Call onboarding](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/)
+
+### Daily Duties for Engineering Directors
+
+The following is a non exhaustive list of daily duties for engineering directors, while some items are only applicable at certain time, though.
+
+1. Review engineering metrics
+    1. DevOps Performance Indicators
+    1. Stage Performance Indicators
+1. Review hiring dashboards
+1. Personal todo list
+1. Personal GitLab board(s) if any
+1. [Working groups](/handbook/company/working-groups/) that the director drives or participates in
+    1. Action items in agenda documents
+    1. Issue boards
+    1. Slack channel
+1. [Infradev triage](/handbook/engineering/workflow/#infradev)
+    1. Follow up open questions and ensure appropriate handling of issues with regard to priority and severity
+    1. [Agenda document](https://docs.google.com/document/d/1wMokFji42Jw4ImfoiQG6dSkHFIWmLVj5Kz6bO3mF948/edit)
+    1. [Infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev)
+1. [Performance refinement](/handbook/engineering/workflow/#performance-refinement)
+    1. Follow up open questions and ensure appropriate handling of issues with regard to priority and severity
+    1. [Agenda document](https://docs.google.com/document/d/1icG6yrW2oebXz8iXvgfM5JjtMqpsDBCn1v3_VO2ghS0/edit#)
+    1. [Performance board](https://gitlab.com/groups/gitlab-org/-/boards/1233204)
+1. [Infrastructure Development Escalations](/handbook/engineering/workflow/#infradev)
+    1. Triage new issues, enhance Issue details and ensure appropriate handling based on priority and severity
+    1. Sync discussions for infradev Issues are part of the [GitLab SaaS Weekly Meeting](/handbook/engineering/infrastructure)
+    1. [Agenda document](https://docs.google.com/document/d/1fLQQBKt0mShmTk_mJ-BmBM6OFjal63-AH7yKSbMg6_s/edit#)
+    1. [Infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev)
+1. Holiday Emergency Contact Rotations
+1. [Review and approve security approvals](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12296) for the GitLab project when required and informing the security engineering team when a security risk is accepted rather than being resolved prior to approval.
 
 ### Cross-Functional Collaboration
 
@@ -177,9 +208,9 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
 3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
 
-### Supporting Customers
+## Supporting Customers
 
-#### Working with Support
+### Working with Support
 
 When DevOps collaborates with Support it provides invaluable insight into how customers are using the product and the challenges they run into. A few tips to make the process efficient:
 
@@ -189,7 +220,7 @@ When DevOps collaborates with Support it provides invaluable insight into how cu
 - Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
 - If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help#how-to-formally-request-help-from-the-gitlab-development-team)
 
-#### Customer Account Escalation coordination
+### Customer Account Escalation coordination
 
 If development is the DRI or actively participating in a [Customer Account Escalation](/handbook/customer-success/csm/escalations/), consider the following:
 
@@ -209,7 +240,7 @@ Remind GitLab team members in Slack to update the status of items they are the D
 * Post a link to the meeting notes and recording in a Slack channel for the customer escalation, so those who did not attend know that the notes and recording are available for review.
 * When there is an action item for someone in a meeting (whether they are present or not), tag them in an issue or MR (or in Slack) so they will see it.
 
-#### Reducing the impact of far-reaching work
+### Reducing the impact of far-reaching work
 
 Because our teams are working in separate groups within a single application, there is a high potential for our changes to impact other groups or the application as a whole.  We have to be cautious not to inadvertently impact overall system quality but also availability, reliability, performance, and security.
 
@@ -254,36 +285,6 @@ Some areas have already been identified that meet the definition above, and may 
 | Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
 | Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update.html)                                  |
 | Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |
-
-### Daily Duties for Engineering Directors
-
-The following is a non exhaustive list of daily duties for engineering directors, while some items are only applicable at certain time, though.
-
-1. Review engineering metrics
-    1. DevOps Performance Indicators
-    1. Stage Performance Indicators
-1. Review hiring dashboards
-1. Personal todo list
-1. Personal GitLab board(s) if any
-1. [Working groups](/handbook/company/working-groups/) that the director drives or participates in
-    1. Action items in agenda documents
-    1. Issue boards
-    1. Slack channel
-1. [Infradev triage](/handbook/engineering/workflow/#infradev)
-    1. Follow up open questions and ensure appropriate handling of issues with regard to priority and severity
-    1. [Agenda document](https://docs.google.com/document/d/1wMokFji42Jw4ImfoiQG6dSkHFIWmLVj5Kz6bO3mF948/edit)
-    1. [Infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev)
-1. [Performance refinement](/handbook/engineering/workflow/#performance-refinement)
-    1. Follow up open questions and ensure appropriate handling of issues with regard to priority and severity
-    1. [Agenda document](https://docs.google.com/document/d/1icG6yrW2oebXz8iXvgfM5JjtMqpsDBCn1v3_VO2ghS0/edit#)
-    1. [Performance board](https://gitlab.com/groups/gitlab-org/-/boards/1233204)
-1. [Infrastructure Development Escalations](/handbook/engineering/workflow/#infradev)
-    1. Triage new issues, enhance Issue details and ensure appropriate handling based on priority and severity
-    1. Sync discussions for infradev Issues are part of the [GitLab SaaS Weekly Meeting](/handbook/engineering/infrastructure)
-    1. [Agenda document](https://docs.google.com/document/d/1fLQQBKt0mShmTk_mJ-BmBM6OFjal63-AH7yKSbMg6_s/edit#)
-    1. [Infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev)
-1. Holiday Emergency Contact Rotations
-1. [Review and approve security approvals](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12296) for the GitLab project when required and informing the security engineering team when a security risk is accepted rather than being resolved prior to approval.
 
 ### Ownership of Shared Services and Components
 
