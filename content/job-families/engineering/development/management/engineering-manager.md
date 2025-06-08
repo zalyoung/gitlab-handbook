@@ -15,7 +15,7 @@ The *Engineering Manager* role is a [grade 8](/handbook/total-rewards/compensati
 
 ## Responsibilities
 
-- Manage a [team](/handbook/engineering/starting-new-teams/#team-construction) of engineers.
+- Manage a team of engineers.
 - Help your engineers grow their skills and experience
 - Author project plans for epics
 - Run agile project management processes
