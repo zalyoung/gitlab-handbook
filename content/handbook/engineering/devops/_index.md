@@ -32,11 +32,13 @@ The engineering excellence we deliver directly impacts GitLab's market position 
 GitLab's platform-approach has claimed us differentiation in Core DevOops due to our seamless approach. Over time, platform integration is an expectation and seamlessness is tablestakes. We should strive to enhance our advantage by creating stronger connections between the different Core DevOps areas, and systematically committing to product quality and loveability.
 
 We understand that **Consistent Quality = Unshakeable customer confidence**
+
 - SLO-driven promises: We must be available, reliable, and secure and will have zero-tolerance for this
 - Golden Journeys: Identify and optimize for critical customer workflows
 - Bug Backlog reduction: With particular focus on S1/S2, we will target 50% reduction by end of FY26. 
 
 We will allocate 70% of our engineering capacity to quality improvements and technical foundation
+
 - Integrate features more seamlessly across the platform
 - Ensure a consistent user experience throughout the product
 - Align and reuse foundational implementations across the whole platform
