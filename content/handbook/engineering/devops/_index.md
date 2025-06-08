@@ -14,10 +14,6 @@ Develop our technical, diverse and global team to drive results that support our
 
 GitLab's unique way of working asynchronously, handbook first method, utilization of the product we develop and clear focus on our values enables very high productivity. We focus on constantly improving quality, usability and reliability of our product to reach maximum customer satisfaction. Community contributions and customer interactions rely on efficient and effective communication. We are a data-driven, customer experience first, open core organization delivering one secure, reliable, world leading DevSecOps platform. Join us in setting new standards, driving innovation, pushing the boundaries of DevSecOps, and consistently delivering exceptional results for our customers.
 
-### Be Strategic
-
-To better fulfill our goals and vision, we are following [R&D interlock process](/handbook/product-development/r-and-d-interlock).
-
 ### Fostering High-Performing Teams for Efficient Execution
 
 In today's competitive landscape, GitLab's success hinges on our ability to build and maintain high-performing teams capable of efficient and rapid execution.
@@ -105,6 +101,8 @@ The DevOps department is comprised of:
 
 - [Dev](/handbook/engineering/devops/dev/)
 - [Ops](/handbook/engineering/devops/ops/)
+
+To better fulfill our goals and vision, we are following [R&D interlock process](/handbook/product-development/r-and-d-interlock).
 
 ## People Processes
 
@@ -206,6 +204,72 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
 3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
 
+#### Ownership of Shared Services and Components
+
+The GitLab application is built on top of many shared services and components, such as PostgreSQL database, Redis, Sidekiq, Prometheus and so on. These services are tightly woven into each feature's rails code base. Very often, there is need to identify the DRI when demand arises, be it feature request, incident escalation, technical debt, or bug fixes. Below is a guide to help people quickly locate the best parties who may assist on the subject matter.
+
+##### Ownership Models
+
+There are a few available models to choose from so that the flexibility is maximized to streamline what works best for a specific shared service and component.
+
+1. Centralized with Specific Team
+    1. A single group owns the backlog of a specific shared service including new feature requests, bug fixes, and technical debt. There may or may not be a counterpart Product Manager.
+    1. The single group is a specific team, meaning there is an engineering manager and all domain owner individuals reside in this team. The DRI is the engineering manager.
+    1. This single group is expected to collaborate closely and regularly in grooming and planning backlog.
+    1. This model may require consensus from the Product Management counterpart.
+    1. This model may fit a subject domain that experiences active development.
+1. Centralized with Virtual Team
+    1. A single group owns the backlog of a specific shared service including new feature requests, bug fixes, and technical debt. There may or may not be a counterpart Product Manager.
+    1. The single group is a virtual team, meaning it consists of engineers from various engineering teams, for example maintainers or subject matter experts. Typically there isn't an engineering manager for this virtual team. The DRI is an appointed person in the group who may not necessarily be an engineering manager.
+    1. This single group is expected to collaborate closely and regularly in refining and planning backlog.
+    1. This model may fit a subject domain that's in maintenance mode.
+1. Collectives
+    1. Collectives consist of individuals from existing teams who voluntarily rally around a shared interest or responsibility, but unlike Working Groups may exist in perpetuity. The shared interest could be a specific technology or system. Collective members feel a collective responsibility to weakly own, improve upon or otherwise steer the subject they govern.
+    1. This is a weaker form of the Virtual Team but introduces more structure than a fully decentralized model. It can be appropriate when some form of ownership is desirable where the subject has cross-cutting impact and wide reach and cannot clearly be allocated to any specific team.
+    1. Collectives do not have product or engineering managers, they are fully self-governed.
+    1. Members of the Collective sync regularly and keep each other informed about the shared interest. Problem areas are identified and formalized in the Collective, but are not logged into a Collective backlog. Instead a DRI is assigned who should put the task forward to the team with the greatest need for the problem to be resolved. This is to ensure that work is distributed fairly and that there are no two backlogs that compete with each other for priorities.
+    1. Collectives work best when they consist of a diverse set of individuals from different areas of product and engineering. They double as knowledge sharing hubs where information is exchanged from across teams in the Collective first, and then carried back by the individuals to their specific teams.
+1. Decentralized
+    1. The team who implements specific functions or utilizes certain features of the shared services is responsible for their changes from local development environment to production deployment to continued maintenance post-deployment. There is not a development-wide single DRI who owns a portion or the entirety of a shared service.
+    1. A specialty team may exist for specific subject domains, however their role is to enable scalability, availability, and performance by building a solid foundation and great tools for testing and troubleshooting for other engineering teams, while they are not responsible for gating every single change in the subject domain.
+
+##### Shared Services and Components
+
+The shared services and components below are extracted from the GitLab [product documentation](https://docs.gitlab.com/ee/development/architecture.html).
+
+| Service or Component | Ownership Model | DRI and Group (Centralized Only) |  Additional Notes |
+| -------------------- | --------------- | ---------------------- |  ---------------- |
+| Alertmanager | Centralized with Specific Team | @twk3<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
+| Certmanager |Centralized with Specific Team | @twk3<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
+| Consul | |  | | 
+| Container Registry  | Centralized with Specific Team | Package |  |
+| Email - Inbound | |  | | 
+| Email - Outbound | |  | | 
+| Elasticsearch  | Centralized with Specific Team | @changzhengliu<br />Global Search | |
+| GitLab K8S Agent  | Centralized with Specific Team | @nicholasklick<br />Configure |  |
+| GitLab Pages | Centralized with Specific Team | @vshushlin<br />[Knowledge](/handbook/engineering/devops/dev/plan/knowledge/) |  |
+| GitLab Rails  | Decentralized |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
+| GitLab Shell | Centralized with Specific Team | @andr3<br />[Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
+| HAproxy  | Centralized with Specific Team |  [Infrastructure](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/) |  |
+| Jaeger  | Centralized with Specific Team | @dawsmith<br />Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). | 
+| LFS  | Centralized with Specific Team | @andr3<br />[Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) |  |
+| Logrotate  | Centralized with Specific Team | @plu8<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
+| Mattermost  | Centralized with Specific Team | @plu8<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
+| MinIO  | Decentralized | | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
+| NGINX  | Centralized with Specific Team | @plu8<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
+| Object Storage  | Centralized with Specific Team |  @lmcandrew<br />[Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/) |  |
+| Patroni<br />General except Geo secondary clusters | Centralized with Specific Team | @plu8<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
+| Patroni<br />Geo secondary standby clusters | Centralized with Specific Team | @luciezhao<br />[Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/) |  |
+| PgBouncer  | Centralized with Specific Team | @plu8<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
+| PostgreSQL<br />Framework and Tooling | Centralized with Specific Team | @alexives<br />[Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
+| PostgreSQL<br />GitLab Product Features | Decentralized |   | Examples like feature specific schema changes and/or performance tuning, etc. |
+| Prometheus  | Decentralized |    | Each group maintains their own metrics.  |
+| Puma  | Centralized with Specific Team | @pjphillips<br />[Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/) |  |
+| Redis  | Decentralized |   | DRI is similar to Sidekiq which is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
+| Sentry  | Decentralized |   | DRI is similar to GitLab Rails which is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
+| Sidekiq  | Decentralized |   | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
+| Workhorse  | Centralized with Specific Team | @andr3<br />[Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) |  |
+
 ## Supporting Customers
 
 ### Working with Support
@@ -284,69 +348,3 @@ Some areas have already been identified that meet the definition above, and may 
 | Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
 | Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update.html)                                  |
 | Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |
-
-### Ownership of Shared Services and Components
-
-The GitLab application is built on top of many shared services and components, such as PostgreSQL database, Redis, Sidekiq, Prometheus and so on. These services are tightly woven into each feature's rails code base. Very often, there is need to identify the DRI when demand arises, be it feature request, incident escalation, technical debt, or bug fixes. Below is a guide to help people quickly locate the best parties who may assist on the subject matter.
-
-#### Ownership Models
-
-There are a few available models to choose from so that the flexibility is maximized to streamline what works best for a specific shared service and component.
-
-1. Centralized with Specific Team
-    1. A single group owns the backlog of a specific shared service including new feature requests, bug fixes, and technical debt. There may or may not be a counterpart Product Manager.
-    1. The single group is a specific team, meaning there is an engineering manager and all domain owner individuals reside in this team. The DRI is the engineering manager.
-    1. This single group is expected to collaborate closely and regularly in grooming and planning backlog.
-    1. This model may require consensus from the Product Management counterpart.
-    1. This model may fit a subject domain that experiences active development.
-1. Centralized with Virtual Team
-    1. A single group owns the backlog of a specific shared service including new feature requests, bug fixes, and technical debt. There may or may not be a counterpart Product Manager.
-    1. The single group is a virtual team, meaning it consists of engineers from various engineering teams, for example maintainers or subject matter experts. Typically there isn't an engineering manager for this virtual team. The DRI is an appointed person in the group who may not necessarily be an engineering manager.
-    1. This single group is expected to collaborate closely and regularly in refining and planning backlog.
-    1. This model may fit a subject domain that's in maintenance mode.
-1. Collectives
-    1. Collectives consist of individuals from existing teams who voluntarily rally around a shared interest or responsibility, but unlike Working Groups may exist in perpetuity. The shared interest could be a specific technology or system. Collective members feel a collective responsibility to weakly own, improve upon or otherwise steer the subject they govern.
-    1. This is a weaker form of the Virtual Team but introduces more structure than a fully decentralized model. It can be appropriate when some form of ownership is desirable where the subject has cross-cutting impact and wide reach and cannot clearly be allocated to any specific team.
-    1. Collectives do not have product or engineering managers, they are fully self-governed.
-    1. Members of the Collective sync regularly and keep each other informed about the shared interest. Problem areas are identified and formalized in the Collective, but are not logged into a Collective backlog. Instead a DRI is assigned who should put the task forward to the team with the greatest need for the problem to be resolved. This is to ensure that work is distributed fairly and that there are no two backlogs that compete with each other for priorities.
-    1. Collectives work best when they consist of a diverse set of individuals from different areas of product and engineering. They double as knowledge sharing hubs where information is exchanged from across teams in the Collective first, and then carried back by the individuals to their specific teams.
-1. Decentralized
-    1. The team who implements specific functions or utilizes certain features of the shared services is responsible for their changes from local development environment to production deployment to continued maintenance post-deployment. There is not a development-wide single DRI who owns a portion or the entirety of a shared service.
-    1. A specialty team may exist for specific subject domains, however their role is to enable scalability, availability, and performance by building a solid foundation and great tools for testing and troubleshooting for other engineering teams, while they are not responsible for gating every single change in the subject domain.
-
-#### Shared Services and Components
-
-The shared services and components below are extracted from the GitLab [product documentation](https://docs.gitlab.com/ee/development/architecture.html).
-
-| Service or Component | Sub-Component | Ownership Model | DRI (Centralized Only) | Ownership Group (Centralized Only) | Additional Notes |
-| -------------------- | ------------- | --------------- | ---------------------- | ---------------------------------- | ---------------- |
-| Alertmanager |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
-| Certmanager |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
-| Consul |  |  |  |  |  |
-| Container Registry |  | Centralized with Specific Team | | Package |  |
-| Email - Inbound |  |  |  |  |  |
-| Email - Outbound |  |  |  |  |  |
-| Elasticsearch | | Centralized with Specific Team | @changzhengliu | Global Search | |
-| GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
-| GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/devops/dev/plan/knowledge/) |  |
-| GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
-| GitLab Shell |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
-| HAproxy |  | Centralized with Specific Team |  | [Infrastructure](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/) |  |
-| Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
-| LFS |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) |  |
-| Logrotate |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
-| Mattermost |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
-| MinIO |  | Decentralized |  |  | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
-| NGINX |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
-| Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/) |  |
-| Patroni | General except Geo secondary clusters | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
-|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/) |  |
-| PgBouncer |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
-| PostgreSQL | PostgreSQL Framework and Tooling | Centralized with Specific Team | @alexives | [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
-|  | GitLab Product Features | Decentralized |  |  | Examples like feature specific schema changes and/or performance tuning, etc. |
-| Prometheus |  | Decentralized |  |  | Each group maintains their own metrics.  |
-| Puma |  | Centralized with Specific Team | @pjphillips | [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/) |  |
-| Redis |  | Decentralized |  |  | DRI is similar to Sidekiq which is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
-| Sentry |  | Decentralized |  |  | DRI is similar to GitLab Rails which is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
-| Sidekiq |  | Decentralized |  |  | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
-| Workhorse |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) |  |
