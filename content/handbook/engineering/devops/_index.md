@@ -6,71 +6,69 @@ title: DevOps Engineering
 
  **Our goal is not merely to launch features, but to ensure they land successfully and provide real value to our customers.** We strive to develop a best-in-class product that exceeds expectations across all user groups by meeting high-quality standards while ensuring reliability and maintaining an ease of operation and scalability to meet diverse customer needs. All team members should remain mindful of our target customers and the multiple platforms we support in everything we do.
 
-Ensure our product excels in all aspects especially for our primary customer [organization archetypes](/handbook/product/personas/organization-archetype/) of large enterprises. This includes scalability, adaptability, and seamless upgrade paths. When designing and implementing features, always keep in mind compatibility for all our deployment options: self-managed, dedicated and Software as a Service (SaaS).
+In this vision, we will:
 
-Develop our technical, diverse and global team to drive results that support our product and customer growth, while maintaining [our values](/handbook/values/) and [unique way of working](/handbook/company/culture/all-remote/guide/).
+- Build software with exceptional reliability, scalability, and performance that exceeds enterprise expectations
+- Cultivate a data-driven culture that measures what matters and focuses efforts where they deliver maximum customer value
+- Establish engineering practices that balance quality with innovation, ensuring we can both maintain our foundation and expand our capabilities
+- Adapt our mindsets, challenge our assumptions, and be disciplined in our journey to becoming a generational company
 
 ## Mission
 
-GitLab's unique way of working asynchronously, handbook first method, utilization of the product we develop and clear focus on our values enables very high productivity. We focus on constantly improving quality, usability and reliability of our product to reach maximum customer satisfaction. Community contributions and customer interactions rely on efficient and effective communication. We are a data-driven, customer experience first, open core organization delivering one secure, reliable, world leading DevSecOps platform. Join us in setting new standards, driving innovation, pushing the boundaries of DevSecOps, and consistently delivering exceptional results for our customers.
+[DRAFT]
 
-### Fostering High-Performing Teams for Efficient Execution
+### Engineering Excellence
 
-In today's competitive landscape, GitLab's success hinges on our ability to build and maintain high-performing teams capable of efficient and rapid execution.
+The engineering excellence we deliver directly impacts GitLab's market position in the rapidly growing DevOps market. Platform competitors have extensive resources, and point solutions have simplistic usability and are gaining market share. 
 
-#### Key Focus Areas
+**We Have Relentless Quality Focus:** Every defect is a chance to strengthen our architecture, fixing classes of bugs and eliminating buckets of even S3's and S4's:
 
-1. **Team Optimization**
-   - Enhance communication and leadership within groups
-   - Implement efficient processes
-   - Develop situational awareness across teams
-   - Promote continuous upskilling towards group needs and/or the wider engineering division
+- Systematic: Focus on high-impact areas that make sense (based on data). IE: Think through what else you could do with bugs in an unused area.
+- Root cause elimination: Don’t just fix problems but transform approaches to sustain long-term scale
+- Data growth is a first-class architecture concern. How will AI Agents use your feature? 
 
-2. **Streamlined Delivery**
-   - Identify and fix internal and external bottlenecks
-   - Focus on the swift delivery of results meeting acceptance criteria and general quality bar
-   - Look out for improvements in efficiency by enhancing the product and using all its capabilities
+### Product Quality
 
-3. **Quad Execution**
-   - Clarify responsibilities within quads
-   - Encourage accountability amongst team members and counterparts
-   - Empower quads to execute independently with a clear vision
+GitLab's platform-approach has claimed us differentiation in Core DevOops due to our seamless approach. Over time, platform integration is an expectation and seamlessness is tablestakes. We should strive to enhance our advantage by creating stronger connections between the different Core DevOps areas, and systematically committing to product quality and loveability.
 
-4. **Innovation and Creativity**
-   - Encourage research and ingenuity by defining clear paths for delivering promising ideas
-   - Tap into the underutilized creative potential within teams
+We understand that **Consistent Quality = Unshakeable customer confidence**
+
+- SLO-driven promises: We must be available, reliable, and secure and will have zero-tolerance for this
+- Golden Journeys: Identify and optimize for critical customer workflows
+- Bug Backlog reduction: With particular focus on S1/S2, we will target 50% reduction by end of FY26. 
+
+We will allocate 70% of our engineering capacity to quality improvements and technical foundation
+
+- Integrate features more seamlessly across the platform
+- Ensure a consistent user experience throughout the product
+- Align and reuse foundational implementations across the whole platform
+
+### Customer Commitments
+
+We want to connect engineering directly to customer outcomes through improved instrumentation, data-driven decision making, and closer customer feedback loops. 
+
+We are Customer Obsessed
+
+- No Commitment Issues: 100% Interlock through end of year and all on track
+- Have Empathy: Look beneath specific Issues to understand underlying needs
+- Data-Driven: Ensure that you know how you’re “landing” with the customer
+
+### Team Effectiveness
+
+We're Our Best Product: Optimize team structure, processes, and support for engineer growth and leadership
+
+- Enhance communication and leadership within groups
+- Increase awareness of functionalities in different product areas and initiatives across teams
+- Share knowledge about new technologies and innovations and how they are applied today
+- Promote continuous upskilling towards group needs and/or the wider engineering division
+
+Streamlined Delivery
+
+- Identify and fix internal and external bottlenecks
+- Focus on the swift delivery of results meeting acceptance criteria and quality bar
+- Look out for improvements in efficiency by enhancing the product and using all its capabilities
 
 We aim to create an environment where high-performing teams can thrive, innovate and execute efficiently, ultimately driving GitLab's competitive edge in the market.
-
-### Connect the Dots! In the Product and Between Teams
-
-One of our product's greatest strengths and selling points is its unified platform approach. While we currently offer multiple functionalities within a single product, we should strive to further enhance this advantage by creating stronger connections between these different areas.
-
-To fully leverage this strength, we need to:
-
-1. Integrate features more seamlessly across the platform
-2. Develop cross-functional capabilities that highlight the benefits of our unified approach
-3. Ensure a consistent user experience throughout the product
-4. Align and reuse foundational implementations across the whole platform
-
-Additionally, it's crucial to improve collaboration at the team level especially to support this part of our mission.
-
-We should:
-
-1. Increase awareness of ongoing projects and initiatives across teams
-2. Share knowledge about new technologies and innovations and how they are applied today
-3. Promote understanding of functionalities in different product areas
-4. Foster greater collaboration between teams throughout the entire engineering organization
-
-### Product with a Customer Focus
-
-We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-and-stability).
-
-### Usability
-
-Millions of customers use GitLab, so UX improvements can have a huge collective impact across all of these individuals. We support this effort both in the product development as well as in our architecture. This includes continued conversion of [Pajamas components](/handbook/product/ux/pajamas-design-system/) in order to continue to improve the performance experienced by users.
-
-Development team members should also constantly suggest and investigate how to improve the overall user experience of the product. These can range from enhancing performance (actual and perceived), suggesting new technologies, solving user experience issues efficiently, etc.
 
 ## Organization
 
