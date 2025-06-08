@@ -102,12 +102,15 @@
 
 {{- with .urls }}
 **URL(s):**
-
-{{- range .}}
-
-- [{{.}}]({{.}})
-{{ end }}
-
+<ul>
+  {{- range .}}
+    {{- if (reflect.IsMap .) }}
+      <li><a href="{{ .url }}">{{ .title }}</a></li>
+    {{- else }}
+      <li><a href="{{ . }}">{{ . }}</a></li>
+    {{- end }}
+  {{ end }}
+</ul>
 {{- end }}
 
 ---
