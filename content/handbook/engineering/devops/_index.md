@@ -104,6 +104,24 @@ The DevOps department is comprised of:
 
 To better fulfill our goals and vision, we are following [R&D interlock process](/handbook/product-development/r-and-d-interlock).
 
+##### Onboarding
+
+Welcome to GitLab! We are excited for you to join us.
+Here are some curated resources to get you started:
+
+- [Joining as an Engineer](/handbook/engineering/developer-onboarding/)
+- [Joining as an Engineering Manager](/handbook/engineering/development/onboarding/manager/)
+- [Core DevOps GitLab Project](https://gitlab.com/gitlab-org/core-devops)
+- [Core DevOps Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19jYjBhZmU1Y2Y4MTZiYmI3Mzk4OTM0MTQ3MGIwMzFkZDY3NjNjYWQ3MTI3MGQ1MjllYTA3YjM3NzAyMGRjYzdkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+
+##### Meetings
+
+| **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**  | **Topics**  |
+|-------|--------|-------|----------|
+| [SaaS Availability](/handbook/engineering/#saas-availability-weekly-standup)   | Weekly        | Infrastructure  | Incident corrective actions, Feature Change Lock status, Past Due Infradev, Error Budget, or Security updates    |
+| Core DevOps Meeting     | Weekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering strategy, event planning, leadership communication dissemination, wider initiative brainstorming, OKRs |
+|[Product Quality Standup](https://docs.google.com/document/d/18N4_OmA4JLG5wxZfq2irYk6FUVNXP-Arkk691lm35vo/edit?tab=t.0#heading=h.yoksgpvi6fh)       | Weekly        | Michelle Gill   | Coordination on shared quality objectives (bug burndown, instrumentation) across groups   |
+
 ## People Processes
 
 1. [Promotions](/handbook/people-group/promotions-transfers)
@@ -120,24 +138,6 @@ To better fulfill our goals and vision, we are following [R&D interlock process]
    - [Reliability Training](/handbook/engineering/training/reliability)
 
 ## How We Work
-
-### Onboarding
-
-Welcome to GitLab! We are excited for you to join us.
-Here are some curated resources to get you started:
-
-- [Joining as an Engineer](/handbook/engineering/developer-onboarding/)
-- [Joining as an Engineering Manager](/handbook/engineering/development/onboarding/manager/)
-- [Core DevOps GitLab Project](https://gitlab.com/gitlab-org/core-devops)
-- [Core DevOps Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19jYjBhZmU1Y2Y4MTZiYmI3Mzk4OTM0MTQ3MGIwMzFkZDY3NjNjYWQ3MTI3MGQ1MjllYTA3YjM3NzAyMGRjYzdkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
-
-### Meetings
-
-| **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**  | **Topics**  |
-|-------|--------|-------|----------|
-| [SaaS Availability](/handbook/engineering/#saas-availability-weekly-standup)   | Weekly        | Infrastructure  | Incident corrective actions, Feature Change Lock status, Past Due Infradev, Error Budget, or Security updates    |
-| Core DevOps Meeting     | Weekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering strategy, event planning, leadership communication dissemination, wider initiative brainstorming, OKRs |
-|[Product Quality Standup](https://docs.google.com/document/d/18N4_OmA4JLG5wxZfq2irYk6FUVNXP-Arkk691lm35vo/edit?tab=t.0#heading=h.yoksgpvi6fh)       | Weekly        | Michelle Gill   | Coordination on shared quality objectives (bug burndown, instrumentation) across groups   |
 
 ### Incident Management
 
@@ -179,8 +179,6 @@ The following is a non exhaustive list of daily duties for engineering directors
 1. [Review and approve security approvals](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12296) for the GitLab project when required and informing the security engineering team when a security risk is accepted rather than being resolved prior to approval.
 
 ### Cross-Functional Collaboration
-
-#### Working across Stages
 
 Issues that impact code in another team's product stage should be approached collaboratively with the relevant Product, UX, and Engineering managers prior to work commencing, and reviewed by the engineers responsible for that stage.
 
