@@ -114,7 +114,7 @@ Here are some curated resources to get you started:
 - [Core DevOps GitLab Project](https://gitlab.com/gitlab-org/core-devops)
 - [Core DevOps Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19jYjBhZmU1Y2Y4MTZiYmI3Mzk4OTM0MTQ3MGIwMzFkZDY3NjNjYWQ3MTI3MGQ1MjllYTA3YjM3NzAyMGRjYzdkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
-**Meetings**
+### Meetings
 
 | **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**  | **Topics**  |
 |-------|--------|-------|----------|
@@ -122,7 +122,11 @@ Here are some curated resources to get you started:
 | Core DevOps Meeting     | Weekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering strategy, event planning, leadership communication dissemination, wider initiative brainstorming, OKRs |
 |[Product Quality Standup](https://docs.google.com/document/d/18N4_OmA4JLG5wxZfq2irYk6FUVNXP-Arkk691lm35vo/edit?tab=t.0#heading=h.yoksgpvi6fh)       | Weekly        | Michelle Gill   | Coordination on shared quality objectives (bug burndown, instrumentation) across groups   |
 
-## People Processes
+### Performance Indicators
+
+To better measure our goals and vision, we are tracking [Performance Indicators here](/handbook/engineering/devops/performance-indicators).
+
+### People Processes
 
 1. [Promotions](/handbook/people-group/promotions-transfers)
    - [Calibration preparation](/handbook/people-group/promotions-transfers/#calibration)
