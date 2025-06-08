@@ -1,5 +1,5 @@
 ---
-title: DevOps Department Performance Indicators
+title: Performance Indicators
 ---
 
 {{% performance-indicators "devops_department" %}}
