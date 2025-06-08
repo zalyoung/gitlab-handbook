@@ -104,7 +104,7 @@ The DevOps department is comprised of:
 
 To better fulfill our goals and vision, we are following [R&D interlock process](/handbook/product-development/r-and-d-interlock).
 
-##### Onboarding
+**Onboarding**
 
 Welcome to GitLab! We are excited for you to join us.
 Here are some curated resources to get you started:
@@ -114,7 +114,7 @@ Here are some curated resources to get you started:
 - [Core DevOps GitLab Project](https://gitlab.com/gitlab-org/core-devops)
 - [Core DevOps Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19jYjBhZmU1Y2Y4MTZiYmI3Mzk4OTM0MTQ3MGIwMzFkZDY3NjNjYWQ3MTI3MGQ1MjllYTA3YjM3NzAyMGRjYzdkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
-##### Meetings
+**Meetings**
 
 | **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**  | **Topics**  |
 |-------|--------|-------|----------|
