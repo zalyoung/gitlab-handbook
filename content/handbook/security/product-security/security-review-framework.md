@@ -232,12 +232,22 @@ Priority of a Security review is determined by taking into account [roadmap prio
 |    P2   |  Review-Priority:2      |   Review-Priority:3     |Review-Priority:4 | Self-Service|
 |     P3   |  Review-Priority:3      |  Review-Priority:4      | Review-Priority:4|Self-Service |
 
+### SPA and Data Security team engagement criteria
+
+The feature is flagged for a Architecture review and/or Data Security review if there is a major Architecture Impact or Data Processing Impact identified during the Risk score calculation.
+```text
+IF [`Architecture Impact`](#architecture-impact-1-4) >= 4 
+    THEN Flag the feature for Architecture review by SPA team
+IF [`Data Processing Impact`](data-processing-impact-1-4) >= 4 then 
+    THEN Flag the feature for Data Security review by Data Security team.
+```
+
 ## 3: Review Process by Team and Risk Level
 
 ### Secure Design and Development Review Process
 
 DRI: SD&D Team
-Optional Review: SPA and/or Data Security, if the feature has changes that fall under their [focus areas](#team-responsibilities). This review is optional since these teams have resource constraints.
+Optional Review: SPA and/or Data Security, if the feature fullfills their [engagement criteria](#spa-and-data-security-team-engagement-criteria). This review is optional since these teams have resource constraints.
 
 #### Critical Risk Review
 
