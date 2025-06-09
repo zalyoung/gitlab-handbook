@@ -58,7 +58,7 @@ We use PagerDuty to keep track of emergencies raised by GitLab customers. For an
 - **Acknowledged** - "I have seen the page and am reviewing the ticket"
 - **Resolved** - "I've engaged with the customer by sending a reply to the emergency ticket"
 
-**NB:** "Resolved" in PagerDuty does not mean the underlying issue has been resolved.
+**Note:** "Resolved" in PagerDuty does not mean the underlying issue has been resolved.
 
 ## Key Responsibilities for Customer Emergency On-Call
 
