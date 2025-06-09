@@ -289,25 +289,23 @@ The strategy includes expanding Private Root CA deployment to cover all primary 
 - **Europe**: europe-west1, europe-west3, europe-north1
 - **Asia Pacific**: asia-northeast1, asia-southeast1, australia-southeast1
 
-##### Implementation Architecture
+##### Implementation Architecture and Considerations
 
 Each Cell is provisioned with certificates from the Private Root CA located in the same region:
 
 - **Regional Alignment**: Cells deployed in `us-east1` use the Private Root CA in `us-east1`
-- **Optimal Latency**: Co-locating the Cell and its Private Root CA in the same region provides optimal performance for certificate operations
-- **Regional Independence**: Each region operates independently, so a regional outage only affects new Cell provisioning in that specific region
+- **Certificate Trust Configuration**: All Cells must be configured to trust certificates issued by any of the regional Root CAs to maintain interoperability between Cells across regions
+- **Monitoring and Alerting**: Comprehensive monitoring ensures rapid detection of regional CA failures and provides visibility into provisioning capabilities across regions
+- **Certificate Lifecycle Coordination**: Ensure certificate rotation and lifecycle management works consistently across all regional CAs
+- **Regional Capacity Planning**: Monitor certificate issuance capacity and usage across regions to ensure adequate resources for Cell provisioning demands
 
 ##### Benefits of Multi-Regional Approach
 
 - **New Cell Provisioning Resilience**: Even if one region experiences an outage, new Cells can continue to be provisioned in other regions using their respective regional Private Root CAs
 - **Reduced Latency**: Each Cell uses a geographically close Root CA for optimal performance during certificate operations
+- **Regional Independence**: Each region operates independently, so a regional outage only affects new Cell provisioning in that specific region
 - **Regional Isolation**: A regional outage is contained to that region and doesn't affect Cell operations or provisioning in other regions
 - **Existing Operations Continuity**: Existing Cells continue operating normally during regional outages, as they don't require new certificate issuance for ongoing operations
-
-##### Implementation Considerations
-
-- **Certificate Trust Configuration**: All Cells must be configured to trust certificates issued by any of the regional Root CAs to maintain interoperability between Cells across regions
-- **Certificate Lifecycle Coordination**: Ensure certificate rotation and lifecycle management works consistently across all regional CAs
 
 This multi-regional strategy ensures that our Cell provisioning capabilities remain resilient to regional outages while maintaining the security posture and operational efficiency of our Cell architecture. While existing Cells continue to operate during regional CA outages, this approach ensures we can continue expanding our infrastructure in unaffected regions.
 
