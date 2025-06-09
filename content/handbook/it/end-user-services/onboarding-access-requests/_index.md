@@ -16,8 +16,8 @@ At GitLab, we use centralized laptop management for company issued devices. If y
 | Role | Responsibility |
 |-----------|-----------|
 | GitLab Team Members | Responsible for following the requirements in this procedure |
-| Business Technology | Responsible for implementing and executing this procedure |
-| Business Technology Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
+| Corporate Security | Responsible for implementing and executing this procedure |
+| Corporate Security Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
 ## GitLab Laptops
 
@@ -295,17 +295,6 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 1. For security reasons we must make sure all laptops are fully [wiped](#laptop-wipe) before being donated.
 1. After the wipe has processed, you can complete the donation.
 
-## GitLab Asset Management
-
-### Snipe-IT
-
-The End User Services Team has been busy iterating and setting up [Snipe-IT open source asset management](https://snipeitapp.com/). As of April 2021, GitLab has an asset-tracking application that is the source of truth for all GitLab hardware!
-
-How does it work exactly?
-
-I'm glad you asked! We installed and configured the application in a GCP virtual machine, we set up an integration with Jamf and our Okta LDAP directory to automatically sync users and laptop information from Jamf. Linux machines will be imported manually through the apps web interface.
-If you would like a more detailed view of what has been completed and what will come in the future, please check out the [master issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/296) for Snipe-IT.
-
 ## Other Resources
 
 ### Okta
@@ -314,29 +303,11 @@ In an effort to secure access to systems, GitLab is utilizing Okta.
 The key goals are:
 
 * We can use Okta to enable Zero-Trust based authentication controls upon our assets, so that we can allow authorized connections to key assets with a greater degree of certainty.
-* We can better manage the login process to the 80+ and growing cloud applications that we use within our tech stack.
+* We can better manage the login process to the cloud applications that we use within our tech stack.
 * We can better manage the Provisioning and De-provisioning process for our users to access these application, by use of automation and integration into our HRIS system.
 * We can make Trust and Risk based decisions on authentication requirements to key assets, and adapt these to ensure a consistent user experience.
 
 To read more about Okta, please visit the [Okta](/handbook/it/okta/) page of the handbook.
-
-### Full Disk Encryption
-
-To provide proof of Full Disk Encryption, please do the following depending on the system you are running.
-
-* Apple : Evidence is automatically gathered in Jamf. No user action necessary.
-* Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`
-  * You should see something limilar to `luks-xxxxx etc` or `crypt-rpool` or similar at the beginning of the output (`dmsetup ls`) . If you see `No devices found`, your disk is probably not fully encrypted, and you will need to re-install your OS and follow the encryption steps. If you don't ensure your disk is fully encrypted before you start saving data, you'll have to re-do this whole process in the future.
-
-### Fleet Intelligence & Remote Lock/Wipe
-
-GitLab has a large and ever-growing fleet of laptops, which IT Operations is responsible for maintaining.
-In order to do this and combined with our Zero Trust security policies and various Compliance needs, there must be some measure of intelligence and reporting in place.
-To accomplish this goal we are utilizing Jamf for MacOS devices to obtain only the essential information required. For Linux machines we will be utilizing DriveStrike as a light-touch mechanism.
-
-For more information regarding Jamf, refer to our [Endpoint Management](https://internal.gitlab.com/handbook/it/endpoint-tools/) handbook page.
-
-For more information regarding DriveStrike, refer to our [DriveStrike](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/) handbook page.
 
 ### Backblaze
 
