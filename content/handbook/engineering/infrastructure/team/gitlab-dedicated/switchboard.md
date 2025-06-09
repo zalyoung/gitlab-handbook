@@ -16,7 +16,7 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 {{< team-by-manager-slug "ashiel" >}}
 
 Product Manager: [Loryn Bortins](/handbook/company/team/#lbortins)
-Technical Writer: [Emily Sahlani](/handbook/company/team/#emily.sahlani)
+Technical Writer: [Lysanne Pinto](/handbook/company/team/#lyspin)
 Product Designer: [Jesse Hoek](/handbook/company/team/#jhoek)
 
 ## Working with us
