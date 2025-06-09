@@ -37,6 +37,7 @@ With a Knowledge Dashboard, We will show trends over time.
 **Where can I find knowledge metrics?**
 
 We are currently working with our metrics team members to build a Dashboard for KCS and Knowledge Management. *This is a work in progress*.
+
 - **ZenDesk Guide** provides an over view of create/publish/etc. This level of information will be shared at our Support Monthly Business Review as well as SLACK Channels.
 - **SWIR** - we will begin to add metrics to the SWIR on a monthly basis (First week of the month)
 - **#spt_knowledge-base SLACK CHANNEL** -the metrics will be added along with RECOGNITION of our knowledge contributors!
