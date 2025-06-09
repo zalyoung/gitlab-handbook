@@ -37,7 +37,7 @@ Employ the following workflows for:
 - Both FRT and NRT tickets that do not have an assignee are presented in this view.
   Consider assigning tickets that have a status of `open` or `pending` and that
   have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](/handbook/support/workflows/ticket-transfers/#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
-- For handover tickets prioritize open tickets first then pending tickets
+- For handover tickets prioritize open tickets first then pending tickets.
 - Ensure tickets rehomed from other regions get assigned within the same day.
 - Ensure customers' choice of preferred region is honored or questioned within 8 business hours of ticket creation.
 - Tickets should be taken and self-assigned as they come in by one of the team members responsible for that time segment, regardless of region specified. The first response should happen 
