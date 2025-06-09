@@ -234,7 +234,6 @@ Priority of a Security review is determined by taking into account [roadmap prio
 
 ## 3: Review Process by Team and Risk Level
 
-
 ### Secure Design and Development Review Process
 
 DRI: SD&D Team
