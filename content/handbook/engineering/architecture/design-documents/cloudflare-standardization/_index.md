@@ -254,11 +254,11 @@ module "cloudflare" {
     source = "path/to/entrypoint/module"
 
     zone = {
-        domain = "example.gitlab.com"
+        root = "example.gitlab.com"
         plan = "free"
     }
 
-    records = {
+    dns = {
         a = {
             # Create an A record for test.example.gitlab.com
             test = {
@@ -279,18 +279,18 @@ the common entrypoint module.
 module "cloudflare_data" {
     source = "path/to/entrypoint/module//modules/data"
 
-    domain = "example.gitlab.com"
+    zone = "example.gitlab.com"
 }
 
 module "cloudflare" {
     source = "path/to/entrypoint/module"
 
     zone = {
-        domain = "example.gitlab.com"
+        root = "example.gitlab.com"
         plan = "free"
     }
 
-    records = {
+    dns = {
         a = {
             # Create an A record for test.example.gitlab.com
             test = {
@@ -347,8 +347,8 @@ module "cloudflare" {
 This example illustrates the expected usage pattern for direct submodule usage,
 with a custom list of rules defined to override the default.
 
-`zone_id` and `domain` are provided here to allow us to modify the records, and
-generate rulesets that apply to the specified `domain` where required.  When
+`zone_id` and `zone` are provided here to allow us to modify the records, and
+generate rulesets that apply to the specified `zone` where required.  When
 used through the common entrypoint this is automated through the `zone` top
 level variable.
 
@@ -356,14 +356,14 @@ level variable.
 module "waf_rulesets" {
   source = "path/to/waf/module//modules/data"
 
-  domain = "example.gitlab.com"
+  zone = "example.gitlab.com"
 }
 
 module "waf" {
   source = "path/to/waf/module"
 
   zone_id = "..."
-  domain = "example.gitlab.com"
+  zone    = "example.gitlab.com"
 
   rules = concat(
     module.waf_rulesets.bots,
