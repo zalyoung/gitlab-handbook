@@ -28,7 +28,7 @@ If the customer needs to go above the 5 users license seats, they would need to 
 
 If a customer creates an AWS AMI with the default 5-seat license but the instance shows no license:
 
-1. Direct them to check for a license in the instance's `/etc/gitlab/predefined.gitlab-license` folder.
+1. Direct them to check for the license in the instance's `/etc/gitlab/predefined.gitlab-license` file.
 1. Instruct them to upload the license manually using either:
     - [Web UI](https://docs.gitlab.com/administration/license_file/#add-license-in-the-admin-area).
     - [Rails console](https://docs.gitlab.com/administration/license_file/#add-a-license-through-the-console).
