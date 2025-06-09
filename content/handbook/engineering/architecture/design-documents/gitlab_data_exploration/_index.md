@@ -328,7 +328,7 @@ directory as the `index.md` for the proposal.
 1. Build a GLQL-powered data explorer, without moving it to backend.
 
    - Pros: no major architecture changes needed
-   - Cons: Adding support for more advanced queries (OR, aggregation, math expression) is hard or not possible because of GraphQL limitations. This will limit the usability of the language, and in turn of the data explorer
+   - Cons: Binds GLQL to the limitations of GraphQL for more advanced queries (OR, aggregation, math expression). This will limit the usability of the language, and in turn of the data explorer
 
 2. Build a data explorer without GLQL, but just relying on a visual query builder
 
