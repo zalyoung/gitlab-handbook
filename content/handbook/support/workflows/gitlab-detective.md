@@ -16,7 +16,7 @@ GitLab Detective is a Support-maintained tool that customers can use to assess w
 
 One of the core philosophies of GitLab Detective is "no re-debugging". Each GitLab Detective check provides customers and Support Engineers with the precise information needed to effectively confirm whether a particular environment is experiencing or likely to experience a particular problem. 
 
-GitLab Detective is intended to be helpful for folks assessing and reducing the impact of upgrading GitLab.
+GitLab Detective is intended to be helpful for folks assessing and reducing the impact of upgrading GitLab. See how GitLab Detective is mentioned in the [A guide to the breaking changes in GitLab 18.0](https://about.gitlab.com/blog/2025/04/18/a-guide-to-the-breaking-changes-in-gitlab-18-0/) blog post.
 
 ### What is the current state of GitLab Detective?
 
@@ -30,7 +30,7 @@ Since GitLab Detective is [an experiment](https://docs.gitlab.com/policy/develop
 
 We are partnering with select customers to demo GitLab Detective functionality and solicit feedback to help influence the direction of GitLab Detective. Reach out to Brie Carranza in [#spt_gitlab-detective](https://gitlab.enterprise.slack.com/archives/C07G68YEDNG) to discuss conducting a demo with a customer you work with. 
 
-
 ## History
 
+- In **April 2025**, GitLab Detective was made publicly accessible.
 - The tool was renamed from "GitLab Doctor" to "GitLab Detective".
