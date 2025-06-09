@@ -4,6 +4,7 @@ description: This section will provide reporting and metrics for knowledge manag
 ---
 
 ### Why do we measure knowledge (and KCS)?  
+
 Reporting and Measurement is important because it helps us understand how our efforts are driving value for Gitlab Customers and internal Support . By having knowledge we know it helps improve support efficiency. We have faster resolution times, reduced tickets, and increase customer self service.  We drive consistency with answers and it helps us identify gaps and risks.
 
 With a Knowledge Dashboard, We will show trends over time. 
@@ -11,6 +12,7 @@ With a Knowledge Dashboard, We will show trends over time.
     How often are we updating that knowledge, and are customers finding it? 
 
 **What will we measure?**
+
 - Article Views
 - Article Drafts, Published Modifications
 - Author Participation (for Recognition)
@@ -23,6 +25,7 @@ With a Knowledge Dashboard, We will show trends over time.
 - First contact resolution (did customers find what they need without having to open support)
 - Knowledge reviews, and growth (articles created over time, how many are updated, what is the review cycle)
 
+
 **WWhat is our focus**
 - Improved Efficiency in the workflow. Are customers finding answers?
 - Cost Savings - are we seeing less tickets, are customers self solving and are we seeing a decrease in support costs?
@@ -30,6 +33,7 @@ With a Knowledge Dashboard, We will show trends over time.
 - Consistency- Support links to knowledge articles are we seeing repititive answers, articles being used and updated?
 - Increased knowledgg creation - this shows scalability
 - Integration - how we integrate with AI. Being part of DUO or Claude
+
 
 **Where can I find knowledge metrics?**
 We are currently working with our metrics team members to build a Dashboard for KCS and Knowledge Management. *This is a work in progress*.
