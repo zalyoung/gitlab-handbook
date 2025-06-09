@@ -40,11 +40,11 @@ Or you can reach out to us in Slack via [#support_operations](https://gitlab.ent
 
 The issue will be created in the `Triage` stage. From here, Customer Support Operations will validate the bug (if it is invalid, the request will be closed).
 
-If it is valid, it will then move to the `Planning` stage (with all approvpriate labels put in place), where a gameplan will be made.
+If it is valid, it will then move to the `Planning` stage (with all appropriate labels put in place), where a gameplan will be made.
 
 Once a gameplan is made, it will jump to the `Development` stage, where the changes will be made.
 
-Once it is ready for review, we will ask the reqeuster (or someone they delegate this to) will validate the changes fix the bug.
+Once it is ready for review, we will ask the requester (or someone they delegate this to) will validate the changes fix the bug.
 
 Once validated, it will then move to the `Implementation` stage, where it will be implemented into production.
 
@@ -76,7 +76,7 @@ Once the iteration period arrives, the request will move to the `Development` st
 Once all changes are ready to be validated, we will add the label `Validation::Requested` and make a comment on the issue asking the the requester (or someone they delegate this to) to validate the changes done will meet their requirements for the request. What happens next depends on the results of said validation:
 
 - If approved, the label `Validation::Received` will be added to the issue (and the issue moved to the `Implementation` stage)
-- If not approved, the label `Validation::Rejected` will be added to the issue (where it will remaining in `Development` to be tweaked for another round of validation).
+- If not approved, the label `Validation::Rejected` will be added to the issue (where it will remain in `Development` to be tweaked for another round of validation).
 
 Once a request is in the `Implementation`, we will add a comment detailing the technical blueprint of what was done (which should include links to merge requests, followup issues, etc.). We will also begin implementation the changes into production (the exact method depends on what is changing).
 

@@ -543,8 +543,6 @@ All other important dates for a milestone are relative to the release date:
 - **Monday, 5 days before the milestone begins**:
   - Release scope is finalized. In-scope issues marked with milestone `%x.y`; label `~deliverable` applied.
   - Kickoff document is updated with relevant items to be included.
-- **Friday before the milestone begins**:
-  - [Group Kickoffs calls](/handbook/product/product-processes/#kickoff-meetings) recorded and uploaded.
 - **Monday immediately after the milestone begins**: ***Kick off!*** 📣
   - [Company Kickoff](#kickoff) call live streamed.
   - Development on milestone begins.
@@ -618,13 +616,9 @@ These actions will be applied to open issues:
 - Open issues and merge requests will be moved to the next milestone, and
   labeled with `~"missed:x.y"`.
 - `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
-    is presented.
+  is presented.
 
 Milestones are closed when the Delivery team no longer needs to create a backport release for a specific milestone.
-
-## Kickoff Public Stream Instructions
-
-The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/company/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 

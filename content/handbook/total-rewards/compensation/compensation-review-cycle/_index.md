@@ -2,6 +2,8 @@
 title: Annual Compensation Review Cycle
 ---
 
+<span style="color:red">_**Notice: The below pertains to the recently completed FY26 Annual Compensation Review Cycle. Updated information for FY27 will be shared closer to the launch of the cycle.**_</span>
+
 ## Introduction
 
 On this page, we explain how we carry out the Annual Compensation Review (ACR) cycle.
@@ -74,7 +76,7 @@ Equity refresh budget will be held at the Dir+ level. Managers below the Directo
 
 ### Annual Compensation Review Timeline
 
-*2025-03-10 - 2025-03-26:* Managers complete merit and equity recommendations
+_2025-03-10 - 2025-03-26:_ Managers complete merit and equity recommendations
 
 We recommend these general timelines for completion based on your level to enable department heads to review and finalize recommendations by the deadline.
 
@@ -84,19 +86,19 @@ We recommend these general timelines for completion based on your level to enabl
 
 Additional due dates and touchpoints in the process after the manager review portion closes: 
 
-*2025-03-26:* E-Group submits ACR pay recommendations for their respective departments
+_2025-03-26:_ E-Group submits ACR pay recommendations for their respective departments
 
-*2025-03-27 to 2025-03-28:* Total Reward conducts pay equity review
+_2025-03-27 to 2025-03-28:_ Total Reward conducts pay equity review
 
-*2025-03-31 to 2025-04-01:* E-Group to review and action on pay equity review
+_2025-03-31 to 2025-04-01:_ E-Group to review and action on pay equity review
 
-*2025-04-02 to 2025-04-07 :* Total Rewards prepares for Comp Group (CEO/CFO/CPO) approval of all recommendations
+_2025-04-02 to 2025-04-07:_ Total Rewards prepares for Comp Group (CEO/CFO/CPO) approval of all recommendations
 
-*2025-04-09:* Comp Group approves all recommendations
+_2025-04-09:_ Comp Group approves all recommendations
 
-*2025-04-17 - 2025-04-30:* Managers communicate talent assessment and compensation decisions to all impacted team members
+_2025-04-17 - 2025-04-30:_ Managers communicate talent assessment and compensation decisions to all impacted team members
 
-*2025-05-01:* Workday visibility date (new comp visible to team members)
+_2025-05-01:_ Workday visibility date (new comp visible to team members)
 
 For information on the grant approval date and vesting schedule, please refer to the [RSU Grant Cadence & Vesting deck](https://docs.google.com/presentation/d/1a3iisaLdoMFdujTyh9K2gYB2eOTi1xC2Ul7ycj7HkSg/edit#slide=id.g26201d4deb6_0_1).
 
@@ -170,7 +172,7 @@ In calibrating the equity refresh, we recommend managers to take the following i
 
 When determining which team members to allocate an equity refresh grant, managers should avoid the “peanut-butter approach” and differentiate grant size based on team members’ performance and growth potential, zeroing in on team members with a high impact on the team and company’s results. Managers should ensure Key Talent is well positioned against their refresh range and target an overall participation rate of 70 - 75%.
 
-The following equity refresh grant *guidelines* are recommended for those receiving a grant based on the team member’s growth potential rating:
+The following equity refresh grant _guidelines_ are recommended for those receiving a grant based on the team member’s growth potential rating:
      - Developing is not funded
      - Growing is targeted between the minimum and midpoint of the range
      - Exceeding is targeted between the midpoint and maximum of the range

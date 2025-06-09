@@ -8,7 +8,7 @@ Our role-based training starts with foundational skills and continues with ongoi
 We offer tailored training materials and learning paths for multiple roles in your organization including:
 
 - Sales accreditations
-- Pre- sales technixcal accreditations
+- Pre-sales technical accreditations
 - Technical consulting services certifications
 - Recommended training
 

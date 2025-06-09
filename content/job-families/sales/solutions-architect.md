@@ -43,7 +43,7 @@ The Associate Solutions Architect is a [grade 5](/handbook/total-rewards/compens
 #### Associate Solutions Architect Requirements
 
 - Technical presentation and communication skills
-- Experience in or familiarity with (for the [early-in-career program](/handbook/solutions-architects/career-development/#associate-solution-architecture-program) candidates) the field of information technology or technical pre-sales
+- Experience in or familiarity with (for the [early-in-career program](/handbook/solutions-architects/sa-career-development/#associate-solution-architecture-program) candidates) the field of information technology or technical pre-sales
 - Understanding of the end-to-end software development lifecycle
 - Understanding of continuous integration and continuous deployment
 - Ability to use GitLab
@@ -61,7 +61,7 @@ The Solutions Architect is a [grade 6](/handbook/total-rewards/compensation/comp
 
 - Technical expertise: Engage with customers, both onsite and remotely, by providing technical expertise during the pre-sales process. The additional responsibility implies adopting a more mature consultancy and advisor role during the pre-sales process while providing technical assistance and solution guidance.
 - Sales strategy: Collaborate with the sales team to go beyond support to formulate and execute a sales strategy to exceed revenue targets through the adoption of GitLab.
-- Technical guidance: Be the Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) on [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) and technical evaluations via POC/POV ownership, technical part of tender/audit support, and workshop design.
+- Technical guidance: Be the Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) on [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) and technical evaluations via POC/POV ownership, technical part of tender/audit support, and workshop design.
 - Customer relationships: Build deep relationships with people within customer environments to enable them to be GitLab advocates.
 - Customer feedbacks: Serve as the customer advocate to other GitLab teams, including Product Development, Sales, and Marketing.
 - Market knowledge: Maintain specialty competency in one or more technologies related to GitLab's market focus through activities such as training, certification and creation of working examples for reuse internally and by customers and partners.
@@ -94,9 +94,8 @@ The Senior Solutions Architect is a [grade 7](/handbook/total-rewards/compensati
 - Maintain in-depth knowledge of the entire GitLab application.
 - Represent GitLab as a speaker at field events or as an author in GitLab-focused publications and blogs.
 - Provide opportunity strategy leveraging market and industry knowledge and trends.
-- Drive [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) without guidance.
 - Collaborate with the product team while representing customer requirements and feedback.
-- Create Customer Success Plans with customers
+- Create [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) without guidance
 - Contribution to Account and Territory Planning Sessions of their region/sub-region
 - Regularly enhances GitLab documentation for clarity and accuracy as well as adding new explanations, examples and sections.
 - Share subject matter expertise through Slack posts, documentation updates, communities of practice, issue and MR participation and other common GitLab collaboration mechanisms.
@@ -127,7 +126,7 @@ The Staff Solutions Architect is a [grade 9](/handbook/total-rewards/compensatio
 - Build and deliver high-value and reusable enablement content that measurably improves the team's effectiveness and execution on a regular basis.
 - Sustain mentorship for specific members of the Solutions Architecture team to improve our technical win rate, increase NetARR, fostering a culture of continuous learning and improvement.
 - Guide Solution Architect team members through complex customer opportunities and activity.
-- Advise Solution Architect team members on [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) and [Customer Success Planning](/handbook/solutions-architects/sa-practices/customer-success-plan/) strategies and patterns leading to shorter sales cycles and faster product adoption.
+- Advise Solution Architect team members on [Customer Success Planning](/handbook/solutions-architects/sa-practices/customer-success-plan/) strategies and patterns leading to shorter sales cycles and faster product adoption.
 - Run high-value SA activity enablement sessions with team members, both new (training) and existing (best practices) (e.g., Value Stream Workshops, Day in the Life, Duo Workshops, etc.)
 
 ##### Cross-Functional Collaboration and driving innovation
@@ -174,7 +173,7 @@ The Principal Solutions Architect is a [grade 9](/handbook/total-rewards/compens
 - Build and maintain select subject matter expertise related to GitLab targeted technology sectors through industry monitoring and participation in external working groups, committees and development projects.
 - Keep up to date on GitLab-relevant emerging methodologies and technologies and leverage that knowledge to drive solution strategy and influence product strategy.
 - Collaborate with product marketing, engineering, and management on market strategy that results in an improved win rate.
-- Creates reusable notional architectures to leverage in [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/).
+- Creates reusable notional architectures to leverage in [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/).
 - Use technical and market knowledge to create solutions and influence product to expand GitLabs revenue base - especially Total Addressable Market (TAM) and Launch Addressable Market (LAM).
 - Exert influence on the overall objectives, key results, and other long-range measurable goals and strategies of the team.
 - Create reference implementations for 3rd party integrations and effectively communicate the design and it's value to customers, partners and GitLab team members.

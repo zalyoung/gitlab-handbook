@@ -108,7 +108,7 @@ The image GitLab projects to the public is reflected in the appearance of our te
 
 ### Job Abandonment
 
-When a team member is absent from work for **three consecutive workdays**, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or Slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member. 
+When a team member is absent from work for **three consecutive workdays**, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or Slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member.
 
 Throughout this process, managers and People Business Partners must maintain detailed records of: dates and times of all contact attempts, methods used for each attempt, any responses or information received, consultation with other GitLab teams (if applicable), and jurisdiction-specific considerations.
 
@@ -149,15 +149,6 @@ In general, please consider the following recommendations to ensure safety when 
 1. Be aware of your surroundings. Always keep an eye on your personal belongings and use good judgment when talking to strangers. A big part of the joy of traveling is the opportunities it affords to meet new people and learn about their cultures. But if someone near you is acting suspiciously, or if you feel uncomfortable, leave the area immediately. Trust your instincts.
 1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to team members to read said risk assessment and adhere to recommendations outlined.
 1. If you are sick please do not come or participate in person workplace activities. This is for your safety and for others. We recommend that GitLab team members not travel while sick.
-
-### Measures GitLab Takes to Aid Employee Health and Safety
-
-- Hand sanitizers placed around the venue of live events or attendees are given hand sanitizer.
-- Team members can expense masks for traveling if suggested in the risk assessment outlined above.
-- Sick team members should not travel per our travel policy.
-- Team members who become sick while traveling should expense masks if flying back home.
-- If health risk is considered high, all food to be served by food health professionals rather than team.
-- Fist bumps over handshakes.
 
 ### Responding to Unsafe Situations
 
@@ -350,8 +341,8 @@ The handbook also has a wealth of information and recommendations for setting up
 
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
-- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](//handbook/total-rewards/benefits/modern-health/)
-- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
+- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
+- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
 **Working Time Regulations**
@@ -411,8 +402,7 @@ To ensure the physical and mental health and safety of our team members in New Z
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
 - [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
-- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
-- [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
+- [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/)
 
 **Data Protection/Privacy Policy**
 

@@ -109,7 +109,7 @@ Centering Communications on GitLab Values + Research - In "[Incorporating Social
 
 - [Communicating with honesty](/handbook/values/#transparency), [candor and openness](/handbook/values/#collaboration) while acknowledging risk
 - [Collaborating](/handbook/values/#collaboration) and coordinating with credible sources
-- [Accepting uncertainty and ambiguity](/handbook/values/#accepting-uncertainty)
+- Accepting uncertainty and ambiguity
 - Meeting the needs of the media and remain accessible
 - Communicating with compassion, concern and empathy
 

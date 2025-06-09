@@ -17,6 +17,20 @@ The PSIRT's responsibility includes the fifth and final Secure Developer Experie
 
 [**Root Cause Analysis for Critical Vulnerabilities**](/handbook/security/root-cause-analysis)
 
+[**Application Security Engineer Handling priority::1/severity::1 Issues**](/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
+
+[**Application Security Engineer Working With SIRT**](/handbook/security/product-security/application-security/runbooks/working-with-sirt/)
+
+[**CVSS Calculation**](/handbook/security/product-security/application-security/runbooks/cvss-calculation/)
+
+[**General process for the application security team in patch releases**](/handbook/security/product-security/application-security/runbooks/security-engineer/)
+
+[**HackerOne Process**](/handbook/security/product-security/application-security/runbooks/hackerone-process/)
+
+[**Handling unintended vulnerability disclosures**](/handbook/security/product-security/application-security/runbooks/unintended-vuln-disclosure/)
+
+[**How to handle upstream security patches**](/handbook/security/product-security/application-security/runbooks/upstream-security-patches/)
+
 Learn how to identify or remediate security issues using real examples with GitLab's [**Reproducible Vulnerabilities**](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
 
 Learn how GitLab is implementing [**Reproducible Builds**](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.

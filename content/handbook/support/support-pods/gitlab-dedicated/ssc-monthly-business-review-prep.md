@@ -34,11 +34,13 @@ Record the start and end dates used in the table at the bottom of this page.
 
 ### 🎫 Counting Tickets
 
-_This is a work in progress._
-
 #### GitLab Dedicated (Commercial)
 
+GitLab Dedicated SSCs have access to [a Zendesk Explore dashboard](https://gitlab.zendesk.com/explore/studio#/dashboards/07CF8C533919A5124620021181BA5AD59F3463F6A1D60F1FC2C789D5E49079E4) that should be used to count tickets. The **Custom range** option should be used to gather the correct number of tickets for the specific MBR that you are preparing for.
+
 #### GitLab Dedicated for Government
+
+_This is a work in progress._
 
 ### 🆘 Counting RFHs
 

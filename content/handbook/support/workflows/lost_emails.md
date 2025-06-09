@@ -30,4 +30,4 @@ Refer to [Making Changes and Taking Actions on a user's behalf](/handbook/suppor
 
 ### Free user
 
-We are unable to take any action for free users who have lost access to all email addresses on their GitLab.com account. Apply the Zendesk macro [`Support::SaaS::GitLab.com::Email::Free user verification code`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Email/Free%20user%20verification%20code.md) and submit the ticket as `Solved`.
+We are unable to take any action for free users who have lost access to all email addresses on their GitLab.com account. Apply the Zendesk macro [`Support::SaaS::GitLab.com::Email::Free user verification code`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Email/Free%20user%20verification%20code.md) and submit the ticket as `Solved`. Note that the support ticket will be *closed* after applying the macro, removing any opportunity for further response from the user, do not use the macro if you believe further dialogue is needed.

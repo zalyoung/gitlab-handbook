@@ -38,18 +38,6 @@ Feedback conversations are core to personal and professional growth. According t
 
 ## Guidance on Giving and Receiving Feedback
 
-Sid (GitLab co-founder) and the Learning & Development team [discussed guidance on giving and receiving feedback](https://docs.google.com/presentation/d/1u6k4ILLBjLOaGk1ZyuNa2U2qr-XiGZL0AhUjOQRtvVI/edit#slide=id.p1). The covered topics like:
-
-1. How do you create an environment where team members can approach each other with feedback?
-1. Why it is important to give regular feedback?
-1. Why you should give feedback right away?
-1. How iteration enables feedback?
-1. How do you create an environment built for feedback?
-
-{{< youtube "vL864Zg2sm4" >}}
-
-> Give constructive feedback in the smallest group as possible, be specific by discussing an example. Make the discussion improvement orientated and make sure you deliver feeback when your not upset. (Sid Sijbrandij, GitLab CEO and co-founder)
-
 ### Embracing Feedback
 
 "In teamwork, silence isn't golden, it's deadly." ~Mark Sanborn
@@ -146,16 +134,6 @@ The Situation-Behavior-Impact (S-B-I) Model focuses feedback based on:
 
 For a more in-depth look at how to apply this model see [The Situation-Behavior-Impact-Feedback Framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357), an external blog post that has a bit more detail and some examples.
 
-### Live Learning Session on Delivering Feedback
-
-{{< youtube "KSp4jIN2W5E" >}}
-
-*Originally hosted on 2020-06-08.*
-
-- [Slide Deck](https://docs.google.com/presentation/d/1Wz8hr98CTiaytz1yIxG-D7H1P1eCm7ejnUl8O9YANEU/edit)
-- [Meeting Agenda](https://docs.google.com/document/d/1wpS1kfRitFuBXihU-Z0fRkzEbtN1mx5z6bpJlqb1N1Y/edit)
-- [Mentimeter Results](https://docs.google.com/spreadsheets/d/1gpxH80LNbXRUQdb9fFxlFDB-1QuGeO4D0XmaNNly1Fw/edit)
-
 ## Receiving Feedback
 
 Receiving all types of feedback can be difficult. Our brains want to protect us from any potential dangers, and receiving feedback can be perceived as a physical threat. We have outlined some guidelines and tips to help with this:
@@ -177,15 +155,6 @@ Receiving all types of feedback can be difficult. Our brains want to protect us 
 1. Make a decision
    - What are the most impactful actions you can take - prioritize
    - Who has what responsibility in follow up (i.e. giver/receiver)? Both.
-
-### Live Learning Session on Receiving Feedback
-
-{{< youtube "ZdUMoI1jMvI" >}}
-
-*Originally hosted on 2020-02-25*
-
-- [Slide Deck](https://docs.google.com/presentation/d/1yziTxwnAHD6vA1deSPf4DCwGLNYRijAmHiYcdoAxOmo/edit?usp=sharing)
-- [Meeting Agenda](https://docs.google.com/document/d/1k5ja-8qJRMnguVOUOOsMUAQ2PEbXiuDBsbpstJPkSEo/edit?usp=sharing).
 
 ## Recognition
 

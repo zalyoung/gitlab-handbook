@@ -191,6 +191,13 @@ Since this is a large project with numerous moving parts, feature flags are bein
 | `epics_list_drawer` | Epics list, epics board  | Enabled for `gitlab-org/plan-stage` |
 | `issues_list_drawer` | Issues list, issues board  | Disabled |
 
+#### Issue work item view feature flags
+
+| Feature flag name | Control area | Status |
+|---|---|---|
+| `work_item_view_for_issues` | Enable work item view for issues | defaulted to on |
+| `work_items_view_preference` | Show toggle in the header section to enable or disable issue work item view | defaulted to on |
+
 For epic work item specific feature flags, please see the [Epic Work Item Migration Epic](https://gitlab.com/groups/gitlab-org/-/epics/11777#feature-flags).
 
 ## Motivation

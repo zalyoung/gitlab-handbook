@@ -244,10 +244,10 @@ For collaboration in other projects and subjects:
 |:--------------------------------------------------------------------------------     |:--------------------------|
 | The documentation site                                                               | {{< member-by-name "Diana Logan" >}} |
 | The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
-| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
-| [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
-| [Left nav](https://docs.gitlab.com/development/documentation/site_architecture/global_nav/) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
-| [Testing](#testing) (DocOps/Vale/markdownlint)                                       | {{< member-by-name "Fiona Neill" >}} |
+| The documentation's information architecture | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} {{< member-by-name "Suzanne Selhorn" >}} |
+| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} |
+| [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} |
+| [Testing](#testing) (DocOps/Vale/markdownlint)                                       | {{< member-by-name "Michael Belton" >}} |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
@@ -403,6 +403,12 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- November, 2025: {{< member-by-name "Zach Painter" >}}
+- October, 2025: {{< member-by-name "Lysanne Pinto" >}}
+- September, 2025: {{< member-by-name "Isaac Durham" >}}
+- August, 2025: {{< member-by-name "Lorena Ciutacu" >}}
+- July, 2025: {{< member-by-name "Phillip Wells" >}}
+- June, 2025: {{< member-by-name "Achilleas Pipinellis" >}}
 - May, 2025: {{< member-by-name "Marcel Amirault" >}}
 - March, 2025: {{< member-by-name "Brendan Lynch" >}}
 - February, 2025: {{< member-by-name "Emily Sahlani" >}}
@@ -411,12 +417,6 @@ Schedule for Docs project maintenance tasks:
 - November, 2024: {{< member-by-name "Ryan Lehmann" >}}
 - October, 2024: {{< member-by-name "Russell Dickenson" >}}
 - September, 2024: {{< member-by-name "Marcel Amirault" >}}
-- August, 2024: {{< member-by-name "Jon Glassman" >}}
-- July, 2024: {{< member-by-name "Ashraf Khamis" >}}
-- June, 2024: {{< member-by-name "Evan Read" >}}
-- May, 2024: {{< member-by-name "Lorena Ciutacu" >}}
-- April, 2024: {{< member-by-name "Lysanne Pinto" >}}
-- March, 2024: {{< member-by-name "Amy Qualls" >}}
 
 <!-- vale handbook.Spelling = YES -->
 

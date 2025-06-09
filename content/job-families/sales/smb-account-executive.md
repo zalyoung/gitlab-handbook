@@ -165,4 +165,4 @@ Reporting to the Sr Sales Director, you will be responsible for hiring, developi
 
 ## Career Ladder
 
-The next step in the SMB Account Executive job family is to move to the [Mid Market Account Executive](/job-families/sales/account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) Job Family.
+The next step in the SMB Account Executive job family is to move to the [Mid Market Account Executive](/job-families/sales/account-executive) job family.

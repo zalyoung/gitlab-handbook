@@ -170,3 +170,85 @@ A tool for managers to view their team's learning activity, assign content to te
 ### Skills
 
 In Cornerstone, skills are the metadata that describe what you can do and know - like professional DNA that the system tracks and analyzes. They help connect you with the right learning content, projects, and opportunities to grow your capabilities, in keeping with your career and development goals.
+
+## Early Access for Compliance Training
+
+While LevelUp is being rolled out division by division, some team members outside of Engineering and Security are being granted early access to complete required compliance training. This ensures all team members can complete their mandatory training in one consistent platform. Compliance training was previously deployed through NavexENGAGE and other platforms; we will now centralize all compliance trainings on LevelUp. 
+
+### What you need to know
+
+If you've been granted early access for compliance training:
+
+- Your access is currently limited to the compliance training section of LevelUp
+- You can complete and track your assigned compliance courses
+- Full platform access will be available when your division is rolled out (by end of Q2)
+- You've been enrolled in:
+  - **Code of Conduct**: Ethical decision-making and workplace guidance
+  - **Regulation FD**: Material information handling and disclosure practices
+- **Due Date**: (2025-07-11) July 11, 2025
+
+### Early Access FAQ
+
+<details>
+<summary>Why am I getting early access to LevelUp?</summary>
+
+You've been granted early access specifically to complete mandatory compliance training. Rather than having different team members use different systems, we're providing limited access to LevelUp so everyone can complete their compliance training in the same platform.
+</details>
+
+<details>
+<summary>What can I access with early access?</summary>
+
+With early access, you can only access the compliance training section of LevelUp. You'll be able to view, complete, and track progress on your assigned compliance courses. Full platform features will become available when your division officially rolls out LevelUp.
+</details>
+
+<details>
+<summary>When will I get full access to LevelUp?</summary>
+
+Full access to LevelUp will be granted when we launch for your division. All team members will have access by the end of Q2. Check back on this page for updated rollout timelines.
+</details>
+
+<details>
+<summary>How do I access my compliance training?</summary>
+
+You can use the direct links provided in your enrollment email to access specific courses. You should see the email from sender: "learning@gitlab.com".
+</details>
+
+<details>
+<summary>What if I can't access LevelUp or my training?</summary>
+
+For any technical issues or access problems with the LevelUp platform, please post in the **#fy26-levelup-support** Slack channel. The learning team will help resolve any access or technical issues.
+</details>
+
+<details>
+<summary>Who do I contact for questions about the training content?</summary>
+
+For questions about the actual content of the compliance training (not technical issues), please use the **#compliance-training** Slack channel. The compliance team monitors this channel and can answer content-specific questions.
+</details>
+
+<details>
+<summary>What happens if I don't complete the training by the due date?</summary>
+
+Compliance training is mandatory and must be completed by July 11, 2025. You'll receive reminder notifications at regular intervals. Managers will be notified if training remains incomplete after the due date.
+</details>
+
+<details>
+<summary>Will my learning history from the legacy system transfer over?</summary>
+
+Yes, your learning history is preserved and will be migrated to LevelUp over the coming weeks and months. You do not need to retake any courses you've already completed. The migration happens automatically - no action needed from you.
+</details>
+
+<details>
+<summary>Can I access other learning content besides compliance training?</summary>
+
+During the early access period, your access is restricted to compliance training only. Once your division officially rolls out LevelUp, you'll have access to all learning content, pathways, and platform features.
+</details>
+
+<details>
+<summary>Where can I find more information about LevelUp?</summary>
+
+For general information about LevelUp, including platform features and rollout updates, refer to the main sections of this handbook page. For immediate support, use the **#fy26-levelup-support** Slack channel.
+</details>
+
+---
+
+*This section is temporary and will be removed once all divisions have full access to LevelUp.*

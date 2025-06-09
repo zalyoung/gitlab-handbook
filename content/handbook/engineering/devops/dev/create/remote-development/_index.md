@@ -165,8 +165,8 @@ This process helps us navigate evolving priorities, reduce planning overhead, an
 
 ```mermaid
 graph TD;
-  S[Feature Inception] -->|"New epic is created with '(workspaces|webide)-workflow::unprioritized' label applied and issues assigned to Backlog"| V[High Level Planning]
-  V -->|"Epic is prioritized into the roadmap and on the epic board by PM adding '(workspaces|webide)-workflow::prioritized' label "| R[Async Refinement]
+  S[Feature Inception] -->|"New epic is created and issues added to it with Backlog assigned"| V[High Level Planning]
+  V -->|"Epic is prioritized into the roadmap and on the epic board by PM adding '~(current quarter | current quarter+1 | current quarter+2)' label "| R[Async Refinement]
   R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
   P -->|"Epics marked refined have all of its issues weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
 
@@ -201,7 +201,7 @@ The meeting serves to clarify the most important work and make decisions on what
 
 - **Roadmap Assessment:** After the meeting, the Product Manager will assess the proposed changes and update the epic board(s), which serves as the source of truth for work prioritization.
 
-- **Epic Creation and Prioritization:** Features will be converted into epics and the Product Manager will determine the order of feature work and mark upcoming work with the `~"(workspaces|webide)-workflow::prioritized"` label.
+- **Epic Creation and Prioritization:** Features will be converted into epics and the Product Manager will determine the order of feature work and mark upcoming work with the `~"(current quarter | current quarter+1 | current quarter+2)"` label according to the quarter that the work should start. See [Fiscal Year](/handbook/finance/#fiscal-year) for dates of the quarters.
 
 - **Board Order Guidelines:** Please avoid changing the order of items on the epic board without consulting the Engineering Manager or Product Manager first.
 
@@ -306,9 +306,9 @@ This structure enables smooth planning, tracking, and alignment of development w
 
 ### Example Lifecycle for a Feature
 
-1. Product and Design identify a feature and create an epic
+1. Product and Design identify a feature and create an epic.
    Note that the issue description may be incomplete/unrefined and high-level at this point.
-1. When prioritized, Product Manager adds the `~(workspaces|webide)-workflow::prioritized` label and the epic is assigned for refinement by the Engineering Manager.
+1. When prioritized, Product Manager adds the `~"(current quarter | current quarter+1 | current quarter+2)"` label and the epic is assigned for refinement by the Engineering Manager.
 1. As part of the async IPM process, the assignee refines the epic, by breaking down the feature work into issues and filling out the issue template, then applying the `~refined` label to the issues and to the epic if all issues within the epic have been refined.
    1. During the refinement process, consider documentation for the feature. If needed, add the requirements and the `~documentation` and `~Technical writing` labels to the issue.
       For question and assistance, tag your assigned Technical Writer.

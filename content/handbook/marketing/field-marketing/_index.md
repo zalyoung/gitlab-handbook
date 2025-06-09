@@ -118,6 +118,8 @@ For more information regarding confidentiality levels and compliancy, please vis
 - Using Claude to evaluate [Tableau](/handbook/enterprise-data/platform/tableau/) reporting for better visibility into ROI and to provide new ideas for strategically implementing company initiatives into our regional event tactics 
   - Claude can also be utilized to create a Markdown file of Tableau's data ([see example here](https://claude.ai/share/9f71d4b8-2f9b-496e-8de0-80915021304d)) to then be transferred to Google sheets for easier filtering and analysing 
 - Content creation for event asset copy, as well as general spelling and grammar checks 
+- Use Claude to analyze meeting and offsite notes (such as the request for Claude to analyze territory review notes [here](https://claude.ai/share/70a93c4c-06d5-4b6f-9c6e-200844c747b4))
+- Utilize Claude for account research, such as the example the SA team created [here](https://docs.google.com/presentation/d/1xVzH7SLn6WigEkjoY1i94CkPk6bjyC1Am120Ve9SfB8/edit?slide=id.g358e5761807_0_1359#slide=id.g358e5761807_0_1359)
 - Use Claude to pull specific information for executive roundtables to provide a structured summary based on company information and attendees (see below examples)
   - Company Overview
   - Persona Role
@@ -936,8 +938,9 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - FinServ | Beth Parker | `@BParker` | |
 | AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
-| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
-| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
+| AMER - West Coast and Southwest |  Amy Moy | `@amoy1` | |
+| AMER - LATAM  |  Amy Moy | `@amoy1` | |
+| AMER - Public Sector | Annatasia DeAngelis and Micaila Gardiner |  `@adeangelis1` `@micailagardiner` | |
 | APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
 | APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
 | APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
@@ -1080,9 +1083,9 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER FinServ| Beth Parker | Jay Bahar |
 | AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
 | AMER North and Canada | Julie Wyatt | Jay Bahar |
-| AMER West Coast | Lisa Rom | Lisa Cartagena |
-| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
-| AMER LATAM | Gabby Chorny | Rodrigo Rios |
+| AMER West Coast | Amy Moy | Lisa Cartagena |
+| AMER Public Sector | Annatasia DeAngelis and Micaila Gardiner | David LaTour |
+| AMER LATAM | Amy Moy | Rodrigo Rios |
 | APJ APAC | Kate Baker and Catherine Chien | SJ Lim |
 | APJ Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |

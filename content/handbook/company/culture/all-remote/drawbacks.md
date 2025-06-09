@@ -49,7 +49,7 @@ Remote settings can cause a breakdown in communication skills if organizations a
 **Solutions**
 
 - All-remote companies should default to asynchronous communication to combat feelings of being left out of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-and-key-reviews) that are open to all.
 
 ### Challenge: Work/life balance
 
@@ -121,7 +121,7 @@ Differences in currency as well as tax, immigration, and labor laws around the w
 
 ### Challenge: Company culture
 
-You have to be more intentional about [cultivating](https://about.gitlab.com/blog/2019/06/04/contribute-wrap-up/), [sustaining](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews), and [documenting](learning-and-development/#the-importance-of-documenting-everything) your company culture.
+You have to be more intentional about [cultivating](https://about.gitlab.com/blog/2019/06/04/contribute-wrap-up/), [sustaining](learning-and-development/#ask-me-anything-ama-and-key-reviews), and [documenting](learning-and-development/#the-importance-of-documenting-everything) your company culture.
 
 **Solutions**
 
@@ -149,7 +149,7 @@ If teams aren't intentional about creating ways for their people to stay connect
 **Solutions**
 
 - Asynchronous communication invites everyone to be a part of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-and-key-reviews) that are open to all.
 
 ### Challenge: Boundaries
 

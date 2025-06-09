@@ -98,6 +98,7 @@
 # Old Infrastructure Department moved - remove 2025-07-30
 /handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
 /handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
+/handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
 
 # Technical Writing handbook pages - remove 2025-08-05
 /handbook/product/ux/technical-writing/documentation/ /handbook/product/ux/technical-writing/#documentation 301
@@ -125,5 +126,18 @@
 # DevOps creation/reorg changes - remove 2025-08-01
 /handbook/engineering/development/dev/ /handbook/engineering/devops/dev/create/source-code/frontend/ 301
 /handbook/engineering/development/analytics/monitor/ /handbook/engineering/data-engineering/analytics/monitor/ 301
-/handbook/engineering/development/data-science/ai-powered/ai-framework/ /handbook/engineering/ai/data-science/ai-powered/ai-framework/  301
+/handbook/engineering/development/dev/create/ /handbook/engineering/devops/dev/create/ 301
+/handbook/engineering/development/dev/create/code-review/ /handbook/engineering/devops/dev/create/code-review/ 301
+/handbook/engineering/development/dev/create/import-and-integrate/ /handbook/engineering/devops/dev/create/import-and-integrate/ 301
 /handbook/engineering/development/dev/create/remote-development/ /handbook/engineering/devops/dev/create/remote-development/ 301
+/handbook/engineering/development/dev/create/source-code/ /handbook/engineering/devops/dev/create/source-code/ 301
+/handbook/engineering/development/dev/create/code-creation/ /handbook/engineering/ai/code-creation/ 301
+/handbook/engineering/development/dev/create/editor-extensions/ /handbook/engineering/ai/editor-extensions/ 301
+/handbook/engineering/development/dev/foundations/search/ /handbook/engineering/ai/search/ 301
+/handbook/engineering/development/data-science/ /handbook/engineering/ai/data-science/  301
+/handbook/engineering/development/data-science/* /handbook/engineering/ai/data-science/:splat  301
+/handbook/engineering/development/dev/plan/ /handbook/engineering/devops/dev/plan/ 301
+/handbook/engineering/development/dev/plan/* /handbook/engineering/devops/dev/plan/:splat 301
+/handbook/engineering/development/ops/ /handbook/engineering/devops/ops/ 301
+/handbook/engineering/development/ops/* /handbook/engineering/devops/ops/:splat 301
+
