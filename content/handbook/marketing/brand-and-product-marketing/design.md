@@ -32,9 +32,9 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 ## Requesting Support
 
-Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request. 
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
 
-For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
+For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/).
 
 ![brand moving to asana](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/brand-creative-asana.png)
 
@@ -179,7 +179,7 @@ Whenever a third party is brought in to support design, the work must be shared 
 We have taken a strategic approach to refrain from using or creating mascots inspired by the tanuki. This stance maintains brand authenticity, a focus on results for customers, and builds deeper trust with our community who use GitLab daily to create software that powers our world. The framework below outlines our vision for how our brand comes to life without a mascot character:
 
 - **Strategic differentiation from competitors:** Our key competitors have taken an approach to make their mascots synonymous with their brand. By forgoing a mascot, GitLab establishes a distinct brand identity that doesn't compete in the same playful, character-driven space, which helps differentiate us from our biggest competitors.
-- **Brand maturity and enterprise focus:** GitLab's focus on professional software development and enterprise DevSecOps aligns with a more sophisticated brand that focuses on business value, as opposed to character-driven marketing. 
+- **Brand maturity and enterprise focus:** GitLab's focus on professional software development and enterprise DevSecOps aligns with a more sophisticated brand that focuses on business value, as opposed to character-driven marketing.
 - **Leveraging the tanuki as a brand element, not a mascot:** The tanuki logomark is thoughtfully integrated as a symbolic element of our brand that represents GitLab's values. Centering DevSecOps at the core of its construction makes the tanuki a tactical brand device representing the limitless possibilities of our platform, and should be elevated as such.
 - **Avoiding mascot pitfalls:** Our competitor’s own brand guidelines acknowledge that mascots "work best internally" and specifically advise against their use for “topics like money, security, sales, and enterprise offerings." By preserving the tanuki as a logomark rather than an anthropomorphized character, we are able to generate positive business impact and trust with our brand.
 
@@ -352,7 +352,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 ### Team workflow
 
 - **Team check-ins:** We have two recurring team syncs: (1) Monday [Brand Creative hours](https://docs.google.com/document/d/1SOxh6UPZ7n0oGUdxc1p4CggCXbz-uLzQN8DL-_AUEMg/edit?usp=sharing) call where we catch up and talk about work for the upcoming week. (2) Wednesday Brand Creative hours call where we get feedback on projects and collaborate on topics that need to be addressed.
-- **Working in issues:** All design requests should use our [issue templates](#brand-design--video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
+- **Working in issues:** All design requests should use our [issue templates](#brand-design--video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team's triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
   - Note: Everyone can see their personalized board by selecting the drop-down option where it currently says "Brand Design TRIAGE Board" on the left of the search bar.
   - Note: Epics can be viewed on the [Epic board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/epic_boards).
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.
@@ -365,7 +365,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 We upload and pull work locally from the [Brand Design repository](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design). Confidential projects and large print files are stored in the team [Google Drive](https://drive.google.com/drive/u/0/folders/0AG8nDFLsOkOvUk9PVA), which is organized the same way as the repository. We also have a team [Figma](https://www.figma.com/files/972612628770206748/team/997176040728593838/GitLab-Brand-Design?fuid=816750625196599153) for collaborative work.
 
 - The top-level folders of the repository are organized by project type; from there, they are broken down by category, and in some cases fiscal year.
-- By default, all source files should be stored in the repository, along with smaller exported files (such as digital ads). For larger exports (ie: print-ready files), please store and share them in the team Drive.
+- By default, all source files should be stored in the repository, along with smaller exported files (such as digital ads). For larger exports (such as print-ready files), please store and share them in the team Drive.
 - For folder names, use lowercase, dashes instead of space, and do not include any special characters.
   - *Example:* field-marketing-events
 
@@ -387,7 +387,7 @@ We upload and pull work locally from the [Brand Design repository](https://gitla
   - `git status` - optional command; this provides a summary of all the changes you've made locally that need to be pushed back the repository
   - `git checkout [`insert file path`]` - optional command; this can be used to remove any files you do not want to push to repository
   - `git add .` - use this command before pushing your work; it will add all the files you have made changes to
-  - `git commit -m “`[insert description of changes]`”` - include a message with a summary of your changes; this is viewable to everyone and provides context
+  - `git commit -m "`[insert description of changes]`"` - include a message with a summary of your changes; this is viewable to everyone and provides context
   - `git push origin main` - this will push all your changes back to the repository, including the commit message to describe the changes
   - `git pull --rebase`, followed by, `git push origin main` - use these two commands to reset if you receive an error when pushing
 
