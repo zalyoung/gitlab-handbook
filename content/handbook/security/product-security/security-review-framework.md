@@ -238,7 +238,6 @@ The feature is flagged for a Architecture review and/or Data Security review if 
 ```text
 IF Architecture Impact >= 4 
     THEN Flag the feature for Architecture review by SPA team
-
 IF Data Processing Impact >= 4 then 
     THEN Flag the feature for Data Security review by Data Security team.
 ```
