@@ -160,7 +160,7 @@ If ZenGuard prevents a legitimate action:
 1. Check if there's a bypass option in the warning dialog
 2. Ensure all required fields are properly filled
 3. For macro-related issues, wait a moment and resubmit
-4. If the problem persists, open a new issue in the [ZenGuard project](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)
+4. If the problem persists, open a new issue in the [Support Operations project](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)
 
 ### Related resources
 
