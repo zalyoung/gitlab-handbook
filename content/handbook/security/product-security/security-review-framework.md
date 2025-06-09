@@ -20,6 +20,7 @@ How the security review framework fits into the Security Review Process for Prod
 1. Identity which GitLab features needs a security review, from the Product Security teams.
 1. Which type of security review is needed, from the Product Security teams.
 1. Which Product Security team(s) needs to be engaged for the security review.
+1. Which deliverables Product and Engineering can expect from the various reviews types of security reviews.
 
 ### Team Responsibilities
 
