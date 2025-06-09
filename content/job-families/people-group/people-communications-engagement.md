@@ -1,5 +1,5 @@
 ---
-title: "People Communications & Engagement"
+title: "People Strategy & Engagement"
 ---
 
 ## Levels
@@ -239,6 +239,48 @@ The Director, People Communications & Engagement is a [grade 10](/handbook/total
 - Proficiency in communication tools such as Slack, Zoom, and Google Workspace is a must
 - You share and can role model our values, and work in accordance with those values
 - Ability to use GitLab
+
+### Manager, People Safety & Security
+
+The Manager, People Safety & Security reports to the [Senior Director, People Strategy and Engagement](/job-families/people-group/talent-brand-and-talent-acquisition-enablement/#senior-director-of-talent-brand--talent-acquisition-enablement).
+
+#### Manager, People Safety & Security Job Grade
+
+The Manager, People Safety & Security is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Manager, People Safety & Security Responsibilities
+
+- Lead the development and implementation of GitLab's People Safety and Security Policy, ensuring compliance with environmental, health, and safety (EH&S) laws and regulations
+- Partner with the Corporate Events team to ensure proper safety and security protocols for company events like Summit and Presidents Club
+- Coordinate onsite security support for large gatherings as needed
+- Oversee the GitLab Emergency Action and Incident Response Plan in partnership with Security division
+- Manage Everbridge platform for employee notifications
+- Manage the Safety Checks program, coordinating with the People team to verify team member safety during emergencies
+- Develop and maintain emergency procedures for various scenarios (i.e. work-from-home emergencies, travel emergencies)
+- Partner with managers to provide guidance and resources during emergency situations
+- Oversee the International SOS (ISOS) program implementation and usage
+- Partner with Benefits team on the administration of the Business Travel Accident Insurance Program and management of GitLab's Duty of Care program for business travelers
+GitLab Cares / Workplace Safety Program Management
+- Oversee the Team Member Disaster Relief Program in partnership with E4E Relief
+- Coordinate with stakeholders to ensure proper program administration
+- Oversee the remote workplace ergonomic assessment program
+- Manage the process for team member ergonomic evaluation requests
+- Implement recommendations for workplace safety improvements
+
+
+#### Manager, People Safety & Security Requirements
+
+- Bachelor's degree in Safety Management, Security Management, or related field or equivalent experience in similar roles
+- 7+ years of experience in managing global safety and security programs
+- Demonstrated experience with emergency response planning and crisis management
+- Experience with safety and security information management systems
+- Experience managing global emergency response programs
+- Strong understanding of international EH&S regulations and compliance requirements
+- Excellence in program development and implementation
+- Outstanding written and verbal communication skills
+- Experience working in a remote or distributed team environment
+- Ability to use GitLab
+
 
 ## Performance Indicators
 
