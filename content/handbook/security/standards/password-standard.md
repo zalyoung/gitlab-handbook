@@ -26,6 +26,8 @@ Applies to all GitLab team members, contractors, advisors, and contracted partie
 
 Constructing secure passwords and ensuring proper password management is essential. GitLab's password standards are based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html). To learn what makes a password truly secure, read this [article](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277) or watch this [conference presentation](https://www.youtube.com/watch?v=vudZnjp5Uq0&t=19183) on password strength.
 
+**Note: If a system cannot support a specific configuration in this standard due to technical limitations, the configuration must be set to the closest possible setting that matches this standard. Exceptions are only required when deviating from requirements for business reasons, not technical limitations. For any questions, please reach out to the Security Team.**
+
 ### Password Requirements
 
 - Minimum Length = 12 characters
