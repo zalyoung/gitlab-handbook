@@ -25,8 +25,8 @@ With a Knowledge Dashboard, We will show trends over time.
 - First contact resolution (did customers find what they need without having to open support)
 - Knowledge reviews, and growth (articles created over time, how many are updated, what is the review cycle)
 
-
 **WWhat is our focus**
+
 - Improved Efficiency in the workflow. Are customers finding answers?
 - Cost Savings - are we seeing less tickets, are customers self solving and are we seeing a decrease in support costs?
 - Customer satisfaction - are our ratings increasing ?
@@ -34,9 +34,9 @@ With a Knowledge Dashboard, We will show trends over time.
 - Increased knowledgg creation - this shows scalability
 - Integration - how we integrate with AI. Being part of DUO or Claude
 
-
 **Where can I find knowledge metrics?**
+
 We are currently working with our metrics team members to build a Dashboard for KCS and Knowledge Management. *This is a work in progress*.
 - **ZenDesk Guide** provides an over view of create/publish/etc. This level of information will be shared at our Support Monthly Business Review as well as SLACK Channels.
 - **SWIR** - we will begin to add metrics to the SWIR on a monthly basis (First week of the month)
-- **#spt_knowledge-base SLACK CHANNEL** - the metrics will be added along with RECOGNITION of our knowledge contributors!
+- **#spt_knowledge-base SLACK CHANNEL** -the metrics will be added along with RECOGNITION of our knowledge contributors!
