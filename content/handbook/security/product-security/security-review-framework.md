@@ -38,7 +38,7 @@ detailed risk assessment to ensure teams only answer questions relevant to their
 
 ### Initial Triage Questions
 
-When a product team initiates a feature, they complete an initial triage to determine team routing:
+When a product team initiates a [feature](#security-review-phase-1-initial-triage), they complete an initial triage to determine team routing:
 
 #### Secure Design and Development Triggers
 
