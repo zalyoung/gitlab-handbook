@@ -15,6 +15,7 @@ description: >-
 | [Create:Code Review](/handbook/engineering/devops/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
 | [Create:Remote Development](/handbook/engineering/devops/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
 | [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/) | [André Luís](/handbook/company/team/#andr3) (Frontend) (Backend - Acting)|
+| [Create:Import](/handbook/engineering/devops/dev/create/import/) | [Carla Drago](/handbook/company/team/#carlad-gl) (Acting)|
 
 ## Mission
 
