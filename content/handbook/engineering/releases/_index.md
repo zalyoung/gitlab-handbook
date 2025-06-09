@@ -110,9 +110,92 @@ Patches fix regressions in the current self-managed release and vulnerabilities 
 
 Overview of the steps involved with creating a patch release:
 
-![Patch release overview](/images/engineering/releases/patch-releases/patch-release-overview.jpg)
+```mermaid
+flowchart LR
+    %% Bug fixes section
+    subgraph BugFixes["Bug fixes for the current version"]
+        subgraph BugPrepare["1a.Prepare"]
+            B1["MR targeting stable branch of the current version"]
+        end
 
-- [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
+        subgraph BugTest["1a. Test"]
+            T1["Package-and-test pipeline execution"]
+            T2["Quality review (if package-and-test pipeline fails)"]
+        end
+
+        subgraph BugMerge["1a. Merge"]
+            M1["MR is merged by GitLab maintainer"]
+        end
+    end
+
+    %% Security fixes section
+    subgraph SecurityFixes["Security fixes for the current and two previous versions"]
+        direction TB
+
+        subgraph VulnFix["1b.Vulnerability fix prepared for each affected version"]
+            V1["Default branch"]
+            V2["Current version"]
+            V3["Current version -1"]
+            V4["Current version -2"]
+        end
+    end
+
+    %% Patch Release Process - Horizontal layout
+    subgraph PatchRelease["Patch release process"]
+        direction LR
+        subgraph PRPrepare["2.Prepare"]
+            P1["Initial steps"]
+        end
+
+        subgraph EarlyMerge["3.Early-merge phase"]
+            direction TB
+
+            E1["Merge security fixes targeting default branch"]
+            E2["Deployment to GitLab.com"]
+
+            E1 ~~~ E2
+        end
+
+        subgraph Backports["4.Backports"]
+            BP1["Merge fixes targeting other version"]
+        end
+
+        subgraph Release["5.Release"]
+            direction TB
+            R1["5a. Tag"]
+            R2["5b. Deploy"]
+            R3["5c. Release"]
+
+            R1 ~~~ R2
+            R2 ~~~ R3
+        end
+
+        subgraph FinalSteps["6.Final steps"]
+            F1["6a. Blog post is published"]
+            F2["6b. Switch back to Canonical repo"]
+
+            F1 ~~~ F2
+        end
+        PRPrepare --> EarlyMerge
+        EarlyMerge --> Backports
+        Backports --> Release
+        Release --> FinalSteps
+    end
+
+    %% Arrows between main sections (implicit in layout)
+    BugFixes --> PatchRelease
+    SecurityFixes --> PatchRelease
+
+    %% Style for nodes with rounded corners
+    classDef section fill:#f8f8f8,stroke-dasharray:3 3,stroke:#555,stroke-width:1.5px,rx:10,ry:10,color:#333,font-weight:bold
+    classDef subsection fill:#f0f0f0,stroke:#777,stroke-width:1px,rx:8,ry:8,color:#444
+    classDef step fill:#fff,stroke:#999,stroke-width:1px,rx:5,ry:5,color:#555,font-size:12px
+
+    %% Apply styles
+    class BugFixes,SecurityFixes,PatchRelease section
+    class BugPrepare,BugTest,BugMerge,VulnFix,PRPrepare,EarlyMerge,Backports,Release,FinalSteps subsection
+    class B1,T1,T2,M1,V1,V2,V3,V4,P1,E1,E2,BP1,R1,R2,R3,F1,F2 step
+```
 
 Details of the patch release lifecycle can be found on the [patch release section](/handbook/engineering/releases/patch-releases/)
 
