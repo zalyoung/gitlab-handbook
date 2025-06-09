@@ -938,8 +938,9 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - FinServ | Beth Parker | `@BParker` | |
 | AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
-| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
-| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
+| AMER - West Coast and Southwest |  Amy Moy | `@amoy1` | |
+| AMER - LATAM  |  Amy Moy | `@amoy1` | |
+| AMER - Public Sector | Annatasia DeAngelis and Micaila Gardiner |  `@adeangelis1` `@micailagardiner` | |
 | APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
 | APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
 | APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
