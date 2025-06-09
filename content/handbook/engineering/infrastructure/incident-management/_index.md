@@ -118,7 +118,7 @@ The Incident Lead is responsible for ensuring that the incident progresses and i
 
 #### After the incident
 
-1. Review automatically created follow-up issues within one business day.
+1. Review automatically created follow-up issues within one business day. Issues pasted into the incident channel are automatically linked as follow-ups, so it is possible some of these are not valid follow-up items.
 2. Verify each follow-up issue has appropriate context from the incident.
 3. Move follow-up issues from the [follow-up issues project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) to the correct project for the responsible team (typically this will be `gitlab-org/gitlab` or `production-engineering`.
 4. Apply appropriate labels such as team and group to follow-up issues.
