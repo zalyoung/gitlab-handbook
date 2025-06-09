@@ -221,8 +221,6 @@ Security review process for each risk level is detailed in [Secure Design and De
 
 Security review process for each risk level is detailed in [Infrastructure Security Review Process](#infrastructure-security-review-process) section.
 
-## 3: Review Process by Team and Risk Level
-
 ### Security Review Priority
 
 Priority of a Security review is determined by taking into account [roadmap priority](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process/#labels-guide) of the feature (`Interlock Priority::P1`,
@@ -233,6 +231,9 @@ Priority of a Security review is determined by taking into account [roadmap prio
 | (Roadmap priority) <br> P1     |  Review-Priority:1      |    Review-Priority:2    |Review-Priority:3 | Self-Service|
 |    P2   |  Review-Priority:2      |   Review-Priority:3     |Review-Priority:4 | Self-Service|
 |     P3   |  Review-Priority:3      |  Review-Priority:4      | Review-Priority:4|Self-Service |
+
+## 3: Review Process by Team and Risk Level
+
 
 ### Secure Design and Development Review Process
 
