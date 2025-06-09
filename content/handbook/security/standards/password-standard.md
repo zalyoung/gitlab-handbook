@@ -26,7 +26,7 @@ Applies to all GitLab team members, contractors, advisors, and contracted partie
 
 Constructing secure passwords and ensuring proper password management is essential. GitLab's password standards are based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html). To learn what makes a password truly secure, read this [article](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277) or watch this [conference presentation](https://www.youtube.com/watch?v=vudZnjp5Uq0&t=19183) on password strength.
 
-**Note: All requirements in this standard apply only when technically supported by the system. If a system cannot support a specific requirement due to technical limitations, configure the system to the closest possible setting that enhances security. Exceptions are only required when deviating from requirements for business reasons, not technical limitations.**
+**Note: If a system cannot support a specific configuration in this standard due to technical limitations, the configuration must be set to the closest possible setting that matches this standard. Exceptions are only required when deviating from requirements for business reasons, not technical limitations. For any questions, please reach out to the Security Team.**
 
 ### Password Requirements
 
@@ -37,8 +37,6 @@ Constructing secure passwords and ensuring proper password management is essenti
 - Multi-factor authentication (MFA) = Yes, whenever possible
 
 To make a secure password you can remember, consider using a [combination of 5 or more random words](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277#67c2). Security questions like "What is your favorite color? What is your mother's maiden name?", etc should be answered with a random non-obvious word or set of words. You can [generate answers in 1Password](/handbook/security/corporate/systems/1password/) and store them as a note. This helps ensure the answer isn't easily guessable and will be unique across different sites.
-
-*The following requirements apply when technically feasible:*
 
 ### Password Management
 
@@ -64,8 +62,6 @@ To make a secure password you can remember, consider using a [combination of 5 o
 - Information related to authentication failed login attempts need to be recorded within the application logs if technically feasible; such as: name, date, number of failed attempts, unique log identifier.
 - Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts. If the particular system will not support lockout after 10 attempts or less, the lockout needs to be configured to the minimum value allowed by the system. The lockout may end after a designated period of time, or require a manual unlock, depending on the profile of the application.
 - [Two Factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) (2FA) must be enforced.
-
-*Configure systems to meet these requirements where technically supported:*
 
 #### Two Factor Authentication (MFA or 2FA)
 
