@@ -171,7 +171,7 @@ As such it could become a rabbit hole to debug all kinds of unrelated bugs.
 
 ## Isolated but cluster-wide unique
 
-Although the data is still isolated from 1 organization to another, there is
+Although the data is still isolated from one organization to another, there is
 still some data that needs to be cluster-wide unique for backward compatibility
 reasons.
 
