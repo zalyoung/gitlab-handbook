@@ -174,6 +174,26 @@ In certain cases, the help of a third party agency or design partner may be brou
 
 Whenever a third party is brought in to support design, the work must be shared with the Brand Design team to ensure brand integrity and that we are [working transparently](/handbook/values/#transparency) with one another.
 
+#### Mascots
+
+We have taken a strategic approach to refrain from using or creating mascots inspired by the tanuki. This stance maintains brand authenticity, a focus on results for customers, and builds deeper trust with our community who use GitLab daily to create software that powers our world. The framework below outlines our vision for how our brand comes to life without a mascot character:
+
+- **Strategic differentiation from competitors:** Our key competitors have taken an approach to make their mascots synonymous with their brand. By forgoing a mascot, GitLab establishes a distinct brand identity that doesn't compete in the same playful, character-driven space, which helps differentiate us from our biggest competitors.
+- **Brand maturity and enterprise focus:** GitLab's focus on professional software development and enterprise DevSecOps aligns with a more sophisticated brand that focuses on business value, as opposed to character-driven marketing. 
+- **Leveraging the tanuki as a brand element, not a mascot:** The tanuki logomark is thoughtfully integrated as a symbolic element of our brand that represents GitLab's values. Centering DevSecOps at the core of its construction makes the tanuki a tactical brand device representing the limitless possibilities of our platform, and should be elevated as such.
+- **Avoiding mascot pitfalls:** Our competitor’s own brand guidelines acknowledge that mascots "work best internally" and specifically advise against their use for “topics like money, security, sales, and enterprise offerings." By preserving the tanuki as a logomark rather than an anthropomorphized character, we are able to generate positive business impact and trust with our brand.
+
+We believe there are alternative ways to elicit delightful engagement between our brand and communities, without relying on a mascot. These include, but are not limited to:
+
+- User-generated content and community stories
+- Behind-the-scenes content showcasing real GitLab team members
+- Educational content that engages with users and provides value
+- Interactive experiences and tools through brand activations
+- Celebration of customer successes and innovations
+
+Any future reconsideration of this approach would require a fundamental shift in our marketing strategy, brand identity, and business goals. Such an initiative would require extensive planning and thought leadership; it would not be undertaken as a reactive measure, such as for campaign or aesthetic usage.
+
+
 #### Fanart
 
 The GitLab brand has been a source of creative inspiration for team members and the wider community since its inception. In many cases, team members may find themselves creating spinoff art inspired by our [values](/handbook/values/), [software](https://about.gitlab.com/stages-devops-lifecycle/), and [tanuki](https://design.gitlab.com/brand-logo/logomark) logo.
