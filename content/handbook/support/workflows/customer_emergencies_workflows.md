@@ -153,7 +153,7 @@ As the CEOC you will work with the customer along with other Support Engineers t
     - After another 15 minutes without response the bridge will be closed and the ticket will be assigned a `HIGH` priority.
     - Feel free to open a new emergency request if the need arises.
 1. In case another emergency comes in while you are still engaged with an ongoing emergency, follow [handling multiple simultaneous emergencies](#handling-multiple-simultaneous-emergencies).
-1. If the emergency was raised due to a GitLab.com Incident, follow [customer eemergencies are triggered by a GitLab incident](#customer-emergencies-are-triggered-by-a-gitlab-incident).
+1. If the emergency was raised due to a GitLab.com Incident, follow [customer emergencies are triggered by a GitLab incident](#customer-emergencies-are-triggered-by-a-gitlab-incident).
 
 **NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
