@@ -431,8 +431,8 @@ Exit Criteria:
 - Application settings can be configured per ring by default.
 - Application settings can be overriden for individual cells.
 - Cells [secrets](https://docs.gitlab.com/development/application_secrets/#secret-entries) are kept the same across all cells.
-- Validation and regression testing for cells (with/without Router, on deploy, on cells config change) is setup.
-- Regression testing for [not supported features](#features-on-gitlabcom-that-are-not-supported-on-cells) are quarantined.
+- [End-to-end (E2E) testing](https://docs.gitlab.com/development/testing_guide/end_to_end/) for cells (with Router, on deploy, on cells config change) is setup.
+- E2E testing for [not supported features](#features-on-gitlabcom-that-are-not-supported-on-cells) are quarantined.
 
 Before/After:
 
@@ -446,7 +446,7 @@ Details:
 Exit Criteria:
 
 - Core set of features (TBD, like project-level features) are validated to work on cells.
-- Regression testing for the core of set of features is setup.
+- E2E testing for the core of set of features runs successfully.
 
 Before/After:
 
