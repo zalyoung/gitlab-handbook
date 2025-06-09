@@ -25,7 +25,7 @@ Our mission is to deliver a robust, end-to-end solution that streamlines and enh
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
-Learn more about [our team and roles](https://internal.gitlab.com/handbook/it-enterprise-applications/organizational-structure/entapps-crm/) in supporting GitLab's enterprise applications.
+Learn more about [our team and roles](https://internal.gitlab.com/handbook/security/corporate/it-enterprise-applications/organizational-structure/entapps-crm/) in supporting GitLab's enterprise applications.
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> What We Do
 
@@ -62,7 +62,7 @@ For smaller feature requests or system enhancements:
 
 **Weekly Intake Process:**
 
-- Participate in our [weekly intake meetings](https://internal.gitlab.com/handbook/it-enterprise-applications/organizational-structure/entapps-crm/) to present your request.
+- Participate in our [weekly intake meetings](https://internal.gitlab.com/handbook/security/corporate/it-enterprise-applications/organizational-structure/entapps-crm/) to present your request.
 - Each department has designated representatives who will help channel requests effectively. You can reach out to them directly:
     1. **Sales:** [RSOE](/handbook/sales/field-operations/sales-systems/)
     2. **Marketing:** [Marketing Operations](/handbook/marketing/marketing-operations)

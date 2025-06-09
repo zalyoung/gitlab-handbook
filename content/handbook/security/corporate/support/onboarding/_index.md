@@ -28,7 +28,7 @@ Please visit the [Corporate Security Support](/handbook/security/corporate/suppo
 - [Laptop VPN for Public Networks](/handbook/security/corporate/systems/vpn/setup)
 - [Laptop Application and Software Standards](/handbook/security/corporate/services/laptops/software)
 - [Laptop Security Configuration Standards](/handbook/security/corporate/services/laptops/security)
-- (Internal) [System Configuration Standards](https://internal.gitlab.com/handbook/it/it-security/system-configuration/)
+- (Internal) [System Configuration Standards](https://internal.gitlab.com/handbook/security/corporate/it/it-security/system-configuration/)
 
 > **Using Linux?** If you're one of the very few team members using Linux, see the [Linux](/handbook/security/corporate/systems/linux) handbook page to get started.
 

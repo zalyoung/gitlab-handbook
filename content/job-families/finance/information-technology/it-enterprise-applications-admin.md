@@ -113,9 +113,9 @@ Extends the Senior IT Enterprise Applications Administrator requirements:
 
 ## Performance Indicators (PI)
 
-- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
+- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
 - Average Issues
-- [Average Merge Requests](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-merge-requests-to-the-handbook)
+- [Average Merge Requests](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#average-merge-requests-to-the-handbook)
 
 ## Career Ladder
 

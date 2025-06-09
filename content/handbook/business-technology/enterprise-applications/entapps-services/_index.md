@@ -16,7 +16,7 @@ To provide frictionless, world class, Application Support Experience for the Git
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
-Learn more about [our team and roles](https://internal.gitlab.com/handbook/it-enterprise-applications/organizational-structure/services-and-operations/) in supporting GitLab's enterprise applications.
+Learn more about [our team and roles](https://internal.gitlab.com/handbook/security/corporate/it-enterprise-applications/organizational-structure/services-and-operations/) in supporting GitLab's enterprise applications.
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Our Services
 

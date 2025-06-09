@@ -22,7 +22,7 @@ All GitLab laptops are [wiped](/handbook/security/corporate/services/laptops/wip
 
 Your personal laptop is not enrolled in Jamf, and cannot be used for accessing GitLab accounts or business data. If you have a (rare) use case for a second laptop, see the [laptop procurement](/handbook/security/corporate/services/laptops/procurement) page.
 
-- [DriveStrike (Linux) Handbook Page](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/)
+- [DriveStrike (Linux) Handbook Page](https://internal.gitlab.com/handbook/security/corporate/it/it-self-service/it-guides/drivestrike/)
 - [Jamf (Mac) Handbook Page](/handbook/security/corporate/systems/jamf)
 - [Jamf (Mac) Enrollment](/handbook/security/corporate/systems/jamf/setup)
 - [Laptop Services](/handbook/security/corporate/services/laptops)

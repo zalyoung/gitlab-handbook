@@ -432,7 +432,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 
 ### Requesting access to an existing tool
 
-To request access to an existing tool in the stack, [please follow the access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+To request access to an existing tool in the stack, [please follow the access request process](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
 
 If you are working with a contractor or consultant that requires access to a tool in our stack, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 

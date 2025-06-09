@@ -17,7 +17,7 @@ The password standard sets the requirements for constructing secure passwords an
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-GitLab requires all team members to use [Okta](/handbook/it/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
+GitLab requires all team members to use [Okta](/handbook/security/corporate/it/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
 
 If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few options](#1password-for-your-private-passwords).
 
@@ -291,7 +291,7 @@ As stated in the [GitLab Password Standards](/handbook/security/standards/passwo
 
 Okta is configured such that it only supports the use of WebAuthn. 1Password TOTP should only be used when WebAuthn is unavailable.
 
-A FIDO2/WebAuthn hardware token can be used as a secure and convenient 2-factor authentication method for Okta, Google Workspace, GitLab instances, and many other sites. If you do not have one, you may request one via the [Yubibot](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/yubikey/). GitLab's standard is Yubico's YubiKey. For more information on FIDO2/WebAuthn, visit the [Tools and Tips page](/handbook/tools-and-tips/#fido2webauthn-devices).
+A FIDO2/WebAuthn hardware token can be used as a secure and convenient 2-factor authentication method for Okta, Google Workspace, GitLab instances, and many other sites. If you do not have one, you may request one via the [Yubibot](https://internal.gitlab.com/handbook/security/corporate/it/it-self-service/it-guides/yubikey/). GitLab's standard is Yubico's YubiKey. For more information on FIDO2/WebAuthn, visit the [Tools and Tips page](/handbook/tools-and-tips/#fido2webauthn-devices).
 
 If shared access to a single account is required by multiple team members, for example, a social media account, an Okta [new application setup Issue](https://gitlab.com/gitlab-com/business-technology/change-management/issues/new?issuable_template=change_management_okta&_gl=1*hvl1g4*_ga*ODQwNzAxNjM0LjE2NjYwNDc2Njc.*_ga_ENFH3X7M5Y*MTY4Njk0MTkzOC43MDIuMS4xNjg2OTQyMTc4LjAuMC4w) should be created. The credentials will be stored and shared via Okta.
 
@@ -340,7 +340,7 @@ There may be cases where TOTP might be used with a non-GitLab account. If you ha
 
 ### Passkeys
 
-1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](/handbook/it/okta/). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
+1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](/handbook/security/corporate/it/okta/). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
 
 Setting up Passkey is simple. Open a login page or select the sign in button on the website or app. You'll typically see a prompt to complete an authentication step, usually with Biometrics, or YubiKey. You may see something like the image below.
 

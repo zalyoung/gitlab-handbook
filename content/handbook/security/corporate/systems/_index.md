@@ -333,7 +333,7 @@ The Corporate Security department provides configuration management engineering 
 <!-- Drive Strike -->
 <tr>
 <td>
-<a href="https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/">DriveStrike</a></td>
+<a href="https://internal.gitlab.com/handbook/security/corporate/it/it-self-service/it-guides/drivestrike/">DriveStrike</a></td>
 <td><i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=drivestrike_default">Engineering Issue</a></td>
 <td>
 <a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?label_name%5B%5D=corpsys-drivestrike">Issues</a>

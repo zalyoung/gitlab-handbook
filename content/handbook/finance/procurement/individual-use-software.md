@@ -8,7 +8,7 @@ Individual use software is characterized as software essential for executing job
 
 An individual's annual expenditure on Individual Use software should not surpass $5,000. Should the cost of your software exceed this threshold, or if multiple people on your team need access, please follow the [Procurement process](/handbook/finance/procurement/#how-to-start-the-procurement-process) for submitting a new purchase request. Note that **all software purchases charged to either personal or corporate credit cards will be DENIED for reimbursement.** You must follow the process below to cover your software purchases, which will be paid via Navan virtual card once all necessary approvals are obtained and documented.
 
-*Please refer to our [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/) for questions regarding freeware, or to GitLab's [Mobile Device Policy](https://internal.gitlab.com/handbook/it/okta-device-trust/#mobile-devices) for information on accessing GitLab resources via Okta on your Mobile Device.*
+*Please refer to our [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/) for questions regarding freeware, or to GitLab's [Mobile Device Policy](https://internal.gitlab.com/handbook/security/corporate/it/okta-device-trust/#mobile-devices) for information on accessing GitLab resources via Okta on your Mobile Device.*
 
 ## I Need Individual Use Software- Where Do I Start?
 

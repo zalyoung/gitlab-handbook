@@ -262,7 +262,7 @@ The Senior Director, IT Program Management is a [grade 11](/handbook/total-rewa
 
 ### Performance Indicators (PI)
 
-- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
+- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
 - IT Program efficacy and on-time delivery
 
 ## Career Ladder

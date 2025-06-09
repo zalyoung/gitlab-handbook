@@ -85,7 +85,7 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 
 ### GitLab Team On-boarding
 
-- New members of the GitLab security team are granted access to the GitLab HackerOne team with an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
+- New members of the GitLab security team are granted access to the GitLab HackerOne team with an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/security/corporate/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
 - During onboarding, new GitLab security team members will be invited to join the HackerOne program if their role requires it.
 
 ### Working the Queue

@@ -77,11 +77,11 @@ The Senior IT Helpdesk Analyst is a [grade 7](/handbook/total-rewards/compensati
 
 ## Performance Indicators (PI)
 
-- [Cycle Time for IT Support Issue Resolution](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cycle-time-for-it-support-issue-resolution)
-- [Support Issues and Access Request Closed per Employee](https://internal.gitlab.com/handbook/it/it-performance-indicators/#support-tickets-and-access-request-closed-per-employee)
-- [Average Merge Request](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-merge-request)
-- [Average Delivery Time of Laptop Machines < 21 days](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-delivery-time-of-laptop-machines--21-days)
-- [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
+- [Cycle Time for IT Support Issue Resolution](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#cycle-time-for-it-support-issue-resolution)
+- [Support Issues and Access Request Closed per Employee](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#support-tickets-and-access-request-closed-per-employee)
+- [Average Merge Request](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#average-merge-request)
+- [Average Delivery Time of Laptop Machines < 21 days](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#average-delivery-time-of-laptop-machines--21-days)
+- [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#customer-satisfaction-survey-csat)
 
 ## Hiring Process
 

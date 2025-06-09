@@ -12,7 +12,7 @@ The  Enterprise Applications PMO oversees portfolio and program management withi
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
-Explore our team’s structure in the [organization chart](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/pmo/).
+Explore our team’s structure in the [organization chart](https://internal.gitlab.com/handbook/security/corporate/it-enterprise-applications/about-us/pmo/).
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 

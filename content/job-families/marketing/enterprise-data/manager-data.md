@@ -46,7 +46,7 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 
 #### Performance Indicators (PI)
 
-- [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
+- [SLO Achievement](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
 - Data Platform Performance and Security Audits
 - Contributions to the four [Data Team Impact Dimensions](/handbook/enterprise-data/#how-we-measure-impact)
     1. Data Platform Stability
@@ -85,7 +85,7 @@ The Senior Manager, Data is a [grade 9](/handbook/total-rewards/compensation/com
 
 #### Performance Indicators (PI)
 
-- [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
+- [SLO Achievement](https://internal.gitlab.com/handbook/security/corporate/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
 - Data Platform Performance and Security Audits
 - Contributions to the four [Data Team Impact Dimensions](/handbook/enterprise-data/#how-we-measure-impact)
     1. Data Platform Stability

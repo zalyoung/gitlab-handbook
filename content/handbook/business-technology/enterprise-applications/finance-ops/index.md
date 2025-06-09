@@ -32,7 +32,7 @@ Our mission is to empower GitLab’s business processes by delivering an integra
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/finance-ops/)
+[Our Team (Org Chart)](https://internal.gitlab.com/handbook/security/corporate/it-enterprise-applications/about-us/finance-ops/)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Our Services
 

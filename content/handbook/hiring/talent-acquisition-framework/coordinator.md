@@ -361,7 +361,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. For internal hires ONLY - the CES will send the automated email template labeled "Internal Hiring Survey". You can also cancel the survey that will appear automatically when the candidate is marked as hired.
 1. The Candidate Experience Specialist will email the new team member the Welcome Email from Greenhouse with a cc to IT Ops, the Hiring Manager and the Recruiter.  For new team members in USA, use 'GitLab Welcome - US only' template.  For team members located outside the US, use 'GitLab Welcome - non US' template
 
-   - Instructions on the [Notebook Ordering Process](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
+   - Instructions on the [Notebook Ordering Process](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
 
 1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-update-a-start-date-after-the-contract-is-signed).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
@@ -448,7 +448,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. For internal hires ONLY - the CES will send the automated email template labeled "Internal Hiring Survey". You can also cancel the survey that will appear automatically when the candidate is marked as hired.
 1. The Candidate Experience Specialist will email the new team member the Welcome Email from Greenhouse with a cc to IT Ops, the Hiring Manager and the Recruiter.  For new team members in USA, use 'GitLab Welcome - US only' template.  For team members located outside the US, use 'GitLab Welcome - non US' template
 
-   - Instructions on the [Notebook Ordering Process](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
+   - Instructions on the [Notebook Ordering Process](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
 
 1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-update-a-start-date-after-the-contract-is-signed).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
@@ -1150,7 +1150,7 @@ If there are any questions, these should be directed to help@remote.com.
 
 ## Advance Funds process for locations GitLab can not order laptops
 
-There are a handful of countries, listed [here](/handbook/it/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
+There are a handful of countries, listed [here](/handbook/security/corporate/it/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
 
 1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile, Armenia, or Ukraine template.
 1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
