@@ -25,7 +25,7 @@ With a Knowledge Dashboard, We will show trends over time.
 - First contact resolution (did customers find what they need without having to open support)
 - Knowledge reviews, and growth (articles created over time, how many are updated, what is the review cycle)
 
-**WWhat is our focus**
+**What is our focus**
 
 - Improved Efficiency in the workflow. Are customers finding answers?
 - Cost Savings - are we seeing less tickets, are customers self solving and are we seeing a decrease in support costs?
