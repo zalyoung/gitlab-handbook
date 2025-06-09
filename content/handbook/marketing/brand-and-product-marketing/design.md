@@ -193,7 +193,6 @@ We believe there are alternative ways to elicit delightful engagement between ou
 
 Any future reconsideration of this approach would require a fundamental shift in our marketing strategy, brand identity, and business goals. Such an initiative would require extensive planning and thought leadership; it would not be undertaken as a reactive measure, such as for campaign or aesthetic usage.
 
-
 #### Fanart
 
 The GitLab brand has been a source of creative inspiration for team members and the wider community since its inception. In many cases, team members may find themselves creating spinoff art inspired by our [values](/handbook/values/), [software](https://about.gitlab.com/stages-devops-lifecycle/), and [tanuki](https://design.gitlab.com/brand-logo/logomark) logo.
