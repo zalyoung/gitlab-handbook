@@ -345,7 +345,8 @@ module "cloudflare" {
 ##### Custom WAF rule implementation
 
 This example illustrates the expected usage pattern for direct submodule usage,
-with a custom list of rules defined to override the default.
+with a custom list of rules defined to override the default. This approach will
+typically be used when multiple explicit configuration stages are preferred.
 
 `zone_id` and `zone` are provided here to allow us to modify the records, and
 generate rulesets that apply to the specified `zone` where required.  When
