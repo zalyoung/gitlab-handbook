@@ -65,7 +65,12 @@ A customer receives an email with the message:
 
 This happens when a customer is a billing account manager of a separate billing account.
 
-1. Follow the [ownership verification](#ownership-verification) process. 
+1. If the ticket requester is an existing billing account manager or the invited contact
+   - Go to the [`Billing account invites` page](https://customers.gitlab.com/admin/billing_account_invite).
+   - Find the invite related to the invited contact's email.
+   - Ensure either the `Email` or the `Billing Account` in the invite matches the requester's CustomersDot account details, then proceed to step 3.
+   - Proceed to step 2 if the details do not match.
+1. If the ticket requester is **not** an existing billing account manager nor the invited contact (for example, if a reseller opens the ticket or the ticket is a customer-facing internal request), follow the [ownership verification](#ownership-verification) process first.
 1. Follow [Remove a billing account membership workflow](#remove-a-billing-account-membership) to remove association from the contact's current billing account.
 1. Follow [Add subscription management contact workflow](#add-subscription-management-contact) to associate the customer to the billing account to which they were invited.
 
