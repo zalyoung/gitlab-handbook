@@ -101,7 +101,6 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 
 ##### Data Processing Impact (1-4)
 
-* 4: Direct access/modification to [`RED` and/or `ORANGE`](/handbook/security/standards/data-classification-standard.md#red) data. See 
 * 4: Direct access/modification to customer repositories, credentials, PII data.
 * 3: Processes untrusted data, even if it is coming from a trusted component
 * 2: Access to metadata about projects/pipelines
