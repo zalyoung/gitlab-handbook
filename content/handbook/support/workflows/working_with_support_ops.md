@@ -24,6 +24,15 @@ This page exists primarily as a quick-reference, linking to sources of truth and
 
 > **Important:** All issues for Customer Support Operations should be created in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker).
 
+## Self-Service Options
+
+Before creating an issue, check if your request can be self-serviced. The following items can be handled directly by Support team members:
+
+- **Zendesk Managed Content** - Updates to macros, triggers, and other Zendesk content can be managed directly by Support team members with manager approval. See: [Working on Zendesk Content](/handbook/support/workflows/working-on-zendesk-content/)
+- **Support Team YAML Files** - Changes to support team configuration files can be made through direct merge requests. Customer Support Operations must approve to merge. See: [Support Team YAML Files](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files/)
+
+> **Note:** If an issue is opened for something that could have been self-serviced, the issue will be closed with instructions on how to self-serve the change. If you need help, reach out in `#support-operations` and we can guide you through!
+
 ## Workflows
 
 ### Ticket where customer is asking for support portal changes
@@ -36,7 +45,7 @@ For general questions and assistance, reach out via the [support_operations Slac
 
 ### Basic Issue Flows
 
-All requests for Customer Support Operations should be created in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker) using the appropriate template.
+All requests for Customer Support Operations should be created in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker) using the appropriate template. With the exception of a few [self-service options](#self-service-options), nearly everything starts with an issue!
 
 If what you want to get done is:
 
