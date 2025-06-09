@@ -101,40 +101,49 @@ Knowledge base articles can be found at:
 
 ### Roles and Permissions
 
-Permissions in ZenDesk indicate what a user can do around knowledge.
+There are three roles: Support Engineer, Knowledge Champions and Knowledge Admins.
+
+- **Support Engineers**: Create, update and use KB articles in tickets.
+- **Knowledge Champions**: Review, publish, archive and control permissions.
+- **Knowledge Admins**: Make sure everything runs smoothly.
+
+Knowing where to perform a given task is _often_ what you expect, but there are a few manual processes.
 
 {{< cardpane >}}
 {{% card header="**Knowledge Workers (Support Engineers, Everyone)**" %}}
-
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link Knowledge articles to Support Tickets
+| Permission Set | Task | Process |
+|----------------|------|---------|
+| Support Engineers | Create (draft) articles | In Guide directly |
+| Support Engineers | Modify (update) articles | In Guide directly |
+| Support Engineers | Link Knowledge article in a Ticket | In Zendesk |
 
 {{% /card %}}
 
 {{% card header="**Knowledge Champions (Technical Reviewers)**" %}}
 
-- Review/Approve/Publish knowledge articles
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link knowledge articles to support tickets
-- Add/Remove permissions for users
-- Archive knowledge articles
-
+| Permission Set | Task | Process |
+|----------------|------|---------|
+| Knowledge Champions | Review/Approve articles | In Guide directly |
+| Knowledge Champions | Publish articles | In Guide directly |
+| Knowledge Champions | Create (draft) articles | In Guide directly |
+| Knowledge Champions | Modify (update) articles | In Guide directly |
+| Knowledge Champions | Link Knowledge articles in Zendesk ticket | In Zendesk |
+| Knowledge Champions | Add / Remove Guide Permissions | Modify entry in `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
+| Knowledge Champions | Archive articles | In Guide directly |
 {{% /card %}}
-
-{{% card header="**Knowledge Admins (Jason/Dylan/Lyle) Support Operations ONLY**" %}}
-
-- Restore knowledge articles
-- Delete knowledge articles
-- Review history of knowledge articles
-- Create Permission sets
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link knowledge articles to support tickets
-- Create/Update/Delete Sections
-- Create/Update/Delete Segments
-- Update Categorization
+{{% card header="**Knowledge Admins (Customer Support Operations)**" %}}
+| Permission Set | Task | Process |
+|----------------|------|---------|
+| Knowledge Admin | Restore articles | Via a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
+| Knowledge Admin | Delete articles | Have Knowledge champion archive, File a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) to have it permanently deleted |
+| Knowledge Admin | History of articles | Available to everyone in Guide directly (Changelog) |
+| Knowledge Admin | Creating permission sets | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations | 
+| Knowledge Admin | Create (draft) articles | In Guide directly |
+| Knowledge Admin | Modify (update) articles | In Guide directly |
+| Knowledge Admin | Link Knowledge articles | In Zendesk |
+| Knowledge Admin | Create section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
+| Knowledge Admin | Update section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
+| Knowledge Admin | Delete section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
 
 {{% /card %}}
 {{< /cardpane >}}
