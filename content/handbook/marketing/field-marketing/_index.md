@@ -938,8 +938,9 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - FinServ | Beth Parker | `@BParker` | |
 | AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
-| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
-| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
+| AMER - West Coast and Southwest |  Amy Moy | `@amoy1` | |
+| AMER - LATAM  |  Amy Moy | `@amoy1` | |
+| AMER - Public Sector | Annatasia DeAngelis and Micaila Gardiner |  `@adeangelis1` `@micailagardiner` | |
 | APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
 | APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
 | APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
@@ -1082,9 +1083,9 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER FinServ| Beth Parker | Jay Bahar |
 | AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
 | AMER North and Canada | Julie Wyatt | Jay Bahar |
-| AMER West Coast | Lisa Rom | Lisa Cartagena |
-| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
-| AMER LATAM | Gabby Chorny | Rodrigo Rios |
+| AMER West Coast | Amy Moy | Lisa Cartagena |
+| AMER Public Sector | Annatasia DeAngelis and Micaila Gardiner | David LaTour |
+| AMER LATAM | Amy Moy | Rodrigo Rios |
 | APJ APAC | Kate Baker and Catherine Chien | SJ Lim |
 | APJ Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
