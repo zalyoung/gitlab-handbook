@@ -294,7 +294,7 @@ The strategy includes expanding Private Root CA deployment to cover all primary 
 Each Cell is provisioned with certificates from the Private Root CA located in the same region:
 
 - **Regional Alignment**: Cells deployed in `us-east1` use the Private Root CA in `us-east1`
-- **Certificate Trust Configuration**: All Cells must be configured to trust certificates issued by any of the regional Root CAs to maintain interoperability between Cells across regions
+- **Certificate Trust Configuration**: All Cells, and the Server (Topology Service) must be configured to trust certificates issued by any of the regional Root CAs to maintain interoperability between Cells across regions
 - **Monitoring and Alerting**: Comprehensive monitoring ensures rapid detection of regional CA failures and provides visibility into provisioning capabilities across regions
 - **Certificate Lifecycle Coordination**: Ensure certificate rotation and lifecycle management works consistently across all regional CAs
 - **Regional Capacity Planning**: Monitor certificate issuance capacity and usage across regions to ensure adequate resources for Cell provisioning demands
