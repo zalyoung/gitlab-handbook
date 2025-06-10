@@ -106,14 +106,24 @@ This table shows which teams typically fulfill which roles during incident respo
 
 The Incident Lead is responsible for ensuring that the incident progresses and is kept updated. This role is not set automatically and should be assigned based on the type of incident. For more guidance on assigning Incident Lead, check out the [workflow section](#incident-lead). The Incident Lead should feel empowered to engage other parties such as the EOC or IMOC as necessary.
 
+#### During the incident
+
 1. Responsible for posting regular status updates using the `/incident update` in the incident Slack channel. These updates should summarize the current customer impact of the incident and actions we are taking to mitigate the incident. This is the most important section of the incident timeline. It will be referenced to status page updates and should provide a summary of the incident and impact that can be understood by the wider community.
 2. Ensure that the incident issue has all of the required fields applied. If not set them using `/incident field` command from the incident slack channel
 3. Ensure that the incident issue is appropriately restricted based on [data classification](#incident-data-classification), to mark the issue as confidential use `/incident field` and set the `Keep GitLab Issue Confidential` to `true`
 4. The Incident Lead should not consider immediate work on an incident completed until the Incident Summary is filled out with useful information to describe all the key aspects of the Incident.
 5. Ensuring that the Timeline section of the incident in the `post-incident` tab is accurate and complete with the start and end of the customer impact.
 6. Ensuring that the root cause is stated clearly and plainly in the incident description by updating the `causes` section in the `/incident summary`, or can be alternatively shared as an internal status update using the `:pushpin:` (📌) emoji or confidential follow-up if the root cause cannot be made public.
-7. After the incident is resolved, the Incident Lead should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity.
-8. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
+7. Ensure all follow-up items are properly documented and assign initial owners when possible.
+
+#### After the incident
+
+1. Review automatically created follow-up issues within one business day. Issues pasted into the incident channel are automatically linked as follow-ups, so it is possible some of these are not valid follow-up items.
+2. Verify each follow-up issue has appropriate context from the incident.
+3. Move follow-up issues from the [follow-up issues project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) to the correct project for the responsible team (typically this will be `gitlab-org/gitlab` or `production-engineering`.
+4. Apply appropriate labels such as team and group to follow-up issues.
+5. The Incident Lead should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity.
+6. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
 
 ### Incident Responder Responsibilities
 
@@ -670,6 +680,7 @@ Incidents can only be merged into open incidents, so if necessary you may need t
 ### Follow-up Issues
 
 GitLab issues are created automatically when a "Follow-up" is created in incident.io. Any GitLab issue can be added as a Follow-up item by pasting the link into the incident Slack channel.
+Follow-up items are created by default in the [incident-follow-ups project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) and should be moved to the appropriate project after the incident is concluded.
 
 ### Workflow Diagram
 
