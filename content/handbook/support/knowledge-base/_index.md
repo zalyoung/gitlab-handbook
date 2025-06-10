@@ -112,41 +112,41 @@ Knowing where to perform a given task is *often* what you expect, but there are 
 {{< cardpane >}}
 {{% card header="**Knowledge Workers (Support Engineers, Everyone)**" %}}
 
-| Permission Set | Task | Process |
-|----------------|------|---------|
-| Support Engineers | Create (draft) articles | In Guide directly |
-| Support Engineers | Modify (update) articles | In Guide directly |
-| Support Engineers | Link Knowledge article in a Ticket | In Zendesk |
+| Task | Process |
+|------|---------|
+| Create (draft) articles | In Guide directly |
+| Modify (update) articles | In Guide directly |
+| Link Knowledge article in a Ticket | In Zendesk |
 
 {{% /card %}}
 
 {{% card header="**Knowledge Champions (Technical Reviewers)**" %}}
 
-| Permission Set | Task | Process |
-|----------------|------|---------|
-| Knowledge Champions | Review/Approve articles | In Guide directly |
-| Knowledge Champions | Publish articles | In Guide directly |
-| Knowledge Champions | Create (draft) articles | In Guide directly |
-| Knowledge Champions | Modify (update) articles | In Guide directly |
-| Knowledge Champions | Link Knowledge articles in Zendesk ticket | In Zendesk |
-| Knowledge Champions | Add / Remove Guide Permissions | Modify entry in `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
-| Knowledge Champions | Archive articles | In Guide directly |
+| Task | Process |
+|------|---------|
+| Review/Approve articles | In Guide directly |
+| Publish articles | In Guide directly |
+| Create (draft) articles | In Guide directly |
+| Modify (update) articles | In Guide directly |
+| Link Knowledge articles in Zendesk ticket | In Zendesk |
+| Add / Remove Guide Permissions | Modify entry in `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
+| Archive articles | In Guide directly |
 
 {{% /card %}}
 {{% card header="**Knowledge Admins (Customer Support Operations)**" %}}
 
-| Permission Set | Task | Process |
-|----------------|------|---------|
-| Knowledge Admin | Restore articles | Via a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
-| Knowledge Admin | Delete articles | Have Knowledge champion archive, File a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) to have it permanently deleted |
-| Knowledge Admin | History of articles | Available to everyone in Guide directly (Changelog) |
-| Knowledge Admin | Creating permission sets | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
-| Knowledge Admin | Create (draft) articles | In Guide directly |
-| Knowledge Admin | Modify (update) articles | In Guide directly |
-| Knowledge Admin | Link Knowledge articles | In Zendesk |
-| Knowledge Admin | Create section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
-| Knowledge Admin | Update section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
-| Knowledge Admin | Delete section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Task | Process |
+|------|---------|
+| Restore articles | Via a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
+| Delete articles | Have Knowledge champion archive, File a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) to have it permanently deleted |
+| History of articles | Available to everyone in Guide directly (Changelog) |
+| Creating permission sets | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Create (draft) articles | In Guide directly |
+| Modify (update) articles | In Guide directly |
+| Link Knowledge articles | In Zendesk |
+| Create section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Update section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Delete section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
 
 {{% /card %}}
 {{< /cardpane >}}
