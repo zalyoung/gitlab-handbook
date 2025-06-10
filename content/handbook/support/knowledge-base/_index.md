@@ -107,10 +107,11 @@ There are three roles: Support Engineer, Knowledge Champions and Knowledge Admin
 - **Knowledge Champions**: Review, publish, archive and control permissions.
 - **Knowledge Admins**: Make sure everything runs smoothly.
 
-Knowing where to perform a given task is _often_ what you expect, but there are a few manual processes.
+Knowing where to perform a given task is *often* what you expect, but there are a few manual processes.
 
 {{< cardpane >}}
 {{% card header="**Knowledge Workers (Support Engineers, Everyone)**" %}}
+
 | Permission Set | Task | Process |
 |----------------|------|---------|
 | Support Engineers | Create (draft) articles | In Guide directly |
@@ -132,18 +133,19 @@ Knowing where to perform a given task is _often_ what you expect, but there are 
 | Knowledge Champions | Archive articles | In Guide directly |
 {{% /card %}}
 {{% card header="**Knowledge Admins (Customer Support Operations)**" %}}
+
 | Permission Set | Task | Process |
 |----------------|------|---------|
 | Knowledge Admin | Restore articles | Via a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
 | Knowledge Admin | Delete articles | Have Knowledge champion archive, File a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) to have it permanently deleted |
 | Knowledge Admin | History of articles | Available to everyone in Guide directly (Changelog) |
-| Knowledge Admin | Creating permission sets | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations | 
+| Knowledge Admin | Creating permission sets | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
 | Knowledge Admin | Create (draft) articles | In Guide directly |
 | Knowledge Admin | Modify (update) articles | In Guide directly |
 | Knowledge Admin | Link Knowledge articles | In Zendesk |
-| Knowledge Admin | Create section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
-| Knowledge Admin | Update section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
-| Knowledge Admin | Delete section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
+| Knowledge Admin | Create section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Knowledge Admin | Update section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Knowledge Admin | Delete section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
 
 {{% /card %}}
 {{< /cardpane >}}
