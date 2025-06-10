@@ -2,7 +2,7 @@
 title: GitLab Basics
 ---
 
-# GitLab Basics and Terminology
+## GitLab Basics and Terminology
 
 This page is just a quick guide to some GitLab basics, for easy reference. For more in depth GitLab product training, check out the [Get Started with GitLab](https://university.gitlab.com/pages/getting-started) resources on GitLab University.
 
