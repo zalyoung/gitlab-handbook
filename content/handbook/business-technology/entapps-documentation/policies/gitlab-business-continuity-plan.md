@@ -24,7 +24,7 @@ GitLab, by its remote-only nature, is not easily affected by typical causes of b
 
 ### BCP for Remote Workers
 
-In case of an all-remote company like GitLab, it is sufficient to have simple contingency plans in the form of service-level agreements with companies that host our data and services. The advantage of an all-remote workforce like GitLab is that if there are clusters of people or systems that are unavailable, the rest of the company will continue to operate normally. Given GitLab's remote-first structure, our [Incident Response Plan (IRP)](handbook/security/security-operations/sirt/sec-incident-response/) is a major component of the Business Continuity Plan as most business disruptions are technical in nature.
+In case of an all-remote company like GitLab, it is sufficient to have simple contingency plans in the form of service-level agreements with companies that host our data and services. The advantage of an all-remote workforce like GitLab is that if there are clusters of people or systems that are unavailable, the rest of the company will continue to operate normally. Given GitLab's remote-first structure, our [Incident Response Plan (IRP)](/handbook/security/security-operations/sirt/sec-incident-response/) is a major component of the Business Continuity Plan as most business disruptions are technical in nature.
 
 The exception to this would be a scenario of a single point of failure, (for example, if one of the Engineering heads who should sign off on triggering the plan is unavailable due to a disaster). In this case we would need an alternate plan in place that covers how to get in contact with the person or people affected by the disaster and trigger this business continuity plan.
 
@@ -143,6 +143,7 @@ Testing can present a lot of challenges and requires time and resource investmen
 ### Requirements and Considerations
 
 The below criteria must be met when performing the BCP test:
+
 - All tabletop exercises must include activation of the business continuity plan. Failing to test the plan will put both the business and customer confidence at risk. 
 - Tests should include an assessment of financial, operational and reputational impacts of disruptions.
 - Testing should include engagement of key vendors, suppliers, and partners when necessary. 
