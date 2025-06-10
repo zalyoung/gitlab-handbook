@@ -24,7 +24,7 @@ GitLab, by its remote-only nature, is not easily affected by typical causes of b
 
 ### BCP for Remote Workers
 
-In case of an all-remote company like GitLab, it is sufficient to have simple contingency plans in the form of service-level agreements with companies that host our data and services. The advantage of an all-remote workforce like GitLab is that if there are clusters of people or systems that are unavailable, the rest of the company will continue to operate normally. Given GitLab's remote-first structure, our [Incident Response Plan (IRP)](https://handbook.gitlab.com/handbook/security/security-operations/sirt/sec-incident-response/) is a major component of the Business Continuity Plan as most business disruptions are technical in nature.
+In case of an all-remote company like GitLab, it is sufficient to have simple contingency plans in the form of service-level agreements with companies that host our data and services. The advantage of an all-remote workforce like GitLab is that if there are clusters of people or systems that are unavailable, the rest of the company will continue to operate normally. Given GitLab's remote-first structure, our [Incident Response Plan (IRP)](handbook/security/security-operations/sirt/sec-incident-response/) is a major component of the Business Continuity Plan as most business disruptions are technical in nature.
 
 The exception to this would be a scenario of a single point of failure, (for example, if one of the Engineering heads who should sign off on triggering the plan is unavailable due to a disaster). In this case we would need an alternate plan in place that covers how to get in contact with the person or people affected by the disaster and trigger this business continuity plan.
 
@@ -149,7 +149,6 @@ The below criteria must be met when performing the BCP test:
 - Metrics should be in place to gauge effectiveness of the plan and identify weaknesses.
 - Test results must be formally documented, including gaps and weaknesses identified during testing.
 - Plans should be developed to address any gaps and weaknesses, with the plan updated to document any changes.
-
 
 ### Business Continuity Plan Testing Scenarios
 
