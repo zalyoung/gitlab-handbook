@@ -389,6 +389,19 @@ to use as a reference.  This approach provides additional benefits, including
 aligning documentation with changes made to modules. This ensures that we can
 keep documentation updated alongside code changes made to the modules.
 
+### Initial development and migration
+
+This implemention will focus on creating the common entrypoint first to allow
+for early adoption, expanding the responsibilities as more functionality is
+added through the specialized modules. This will allow us to gradually implement
+functionality and deliver impact faster. This is also an opportunity to validate
+that our upgrade process is defined and works across our modules.
+
+As we add functionality we will document migration paths from any existing
+implementations that we are aware of for the same functionality. This will allow
+us to further iterate on our provided documentation and ensure it is fit for
+purpose.
+
 ## Alternative Solutions
 
 ### Continue with Custom Implementations Per Team
