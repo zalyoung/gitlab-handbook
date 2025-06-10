@@ -104,7 +104,7 @@ More details on this will be covered in the `BC plan - roles & responsibilities 
 
 ### Backup check
 
-[Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they're backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
+[Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible to ensure that they're backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ### Distribute and Verify the Plan / Approval from Senior management
 
@@ -117,7 +117,7 @@ More details on this will be covered in the `BC plan - roles & responsibilities 
 
 ### Vendor communication and service restoration plan
 
-A plan cannot be successful without restoring customer confidence. As a final step, ensure that there is a detailed vendor communication plan as part of the Business continuity preparation plan. This plan will check for all the systems and services to ensure normal operations have resumed as intended once the damage is repaired in the area. Also, include the section to check with the main service providers on restoration and access.
+A plan cannot be successful without restoring customer confidence. As a final step, ensure that there is a detailed vendor communication plan as part of the Business continuity preparation plan. This plan will check for all the systems and services to ensure normal operations have resumed as intended once the damage is repaired in the area. Also, include the section to check with the main service providers on restoration and access. Alternate suppliers and service providers should be identified for critical services where possible.
 
 ### Root Cause Analysis
 
@@ -138,9 +138,17 @@ GitLab's first test of the business continuity plan was performed in April 2020 
 
 ### Testing the plan
 
-Testing can present a lot of challenges and requires time and resource investment. With that in mind, it may make more sense to conduct a tabletop test at a conference room rather than involving the entire organization in a full-blown drill. An initial "dry run" of the plan can be performed by conducting a structured walk-through test of the approved BC plan. The initial testing is done in sections and after normal business hours to minimize disruptions. Subsequent tests can occur during normal business hours. An actual test-run can be performed eventually. The various types of tests that can be conducted include checklist tests, simulation tests, parallel tests, and full interruption tests. All tabletop exercises must include activation of the business continuity plan. Failing to test the plan will put both the business and customer confidence at risk. Testing should include engagment of key vendors, suppliers, and partners when necessary.
+Testing can present a lot of challenges and requires time and resource investment. With that in mind, it may make more sense to conduct a tabletop test at a conference room rather than involving the entire organization in a full-blown drill. An initial "dry run" of the plan can be performed by conducting a structured walk-through test of the approved BC plan. The initial testing is done in sections and after normal business hours to minimize disruptions. Subsequent tests can occur during normal business hours. An actual test-run can be performed eventually. The various types of tests that can be conducted include checklist tests, simulation tests, parallel tests, and full interruption tests. 
 
-Test results must be formally documented, including gaps and weaknesses identified during testing. These should be analyzed and corrected, with the plan updated to document any changes.
+### Requirements and Considerations
+
+The below criteria must be met when performing the BCP test:
+- All tabletop exercises must include activation of the business continuity plan. Failing to test the plan will put both the business and customer confidence at risk. 
+- Tests should include an assessment of financial, operational and reputational impacts of disruptions.
+- Testing should include engagement of key vendors, suppliers, and partners when necessary. 
+- Metrics should be in place to gauge effectiveness of the plan and identify weaknesses.
+- Test results must be formally documented, including gaps and weaknesses identified during testing.
+- Plans should be developed to address any gaps and weaknesses, with the plan updated to document any changes.
 
 
 ### Business Continuity Plan Testing Scenarios
