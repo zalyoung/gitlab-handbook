@@ -13,11 +13,11 @@ User journey mapping at GitLab provides a strategic framework for Product, UX, a
 
 A user journey is the complete sequence of experiences, interactions, and touchpoints that a user has with GitLab's platform over time to accomplish specific goals or outcomes. It encompasses the user's progression through various stages and touchpoints relevant to their goals across different stages of the software development lifecycle. The specific details captured (such as emotions, pain points, or granular steps) will vary based on the elevation level of the journey map being created.
 
-### Golden Journey
+### Golden journey
 
 A golden journey is the most valuable and strategically important user path through GitLab's platform that maximizes both user success and business value. It represents the ideal, high-frequency route that users take to achieve core outcomes while driving key business metrics such as activation, retention, expansion, and monetization. Golden journeys typically span multiple stages of the software development lifecycle and serve as the foundation for product strategy and cross-functional alignment.
 
-### Journey Map
+### Journey map
 
 A journey map is a visual representation and documentation of a user journey that captures the user's workflow, stages, and key opportunities across different touchpoints. The specific details captured (such as emotions, pain points, or sub-steps) will vary based on the elevation level of the journey map. It serves as a shared artifact for cross-functional teams to understand, analyze, and improve the user experience.
 
@@ -27,19 +27,19 @@ Journey map elevation refers to the different levels of detail and scope at whic
 
 Journey map elevation levels connect and inform each other, with micro-level insights laddering up to mid-level understanding, and mid-level patterns informing macro-level strategy.
 
-#### Macro Level
+#### Macro level
 
 - Purpose: Strategic alignment and ecosystem understanding
 - Scope: TBD
 - Artifacts: TBD
 
-#### Mid Level
+#### Mid level
 
 - Purpose: Cross-functional alignment and end-to-end experience optimization
 - Scope: TBD
 - Artifacts: TBD
 
-#### Micro Level
+#### Micro level
 
 - Purpose: Interaction optimization and usability improvement
 - Scope: TBD
