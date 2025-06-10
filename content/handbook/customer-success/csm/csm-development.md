@@ -109,8 +109,6 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
   - [GitLab Certified Project Management Associate](https://levelup.gitlab.com/courses/gitlab-project-management-certification-exam)
   - [GitLab Certified CI/CD Associate](https://levelup.gitlab.com/courses/gitlab-ci-cd-certification-exam)
   - [GitLab Certified Security Specialist](https://levelup.gitlab.com/courses/gitlab-security-essentials-certification-exam)
-- [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/)
-- [GitLab 201](/handbook/people-group/learning-and-development/gitlab-201/)
 - [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757) (LinkedIn Learning)
 - [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-integration-and-continuous-delivery-with-gitlab) (LinkedIn Learning)
 - [Introduction to GitLab CI & DevOps with AWS](https://www.youtube.com/watch?v=PGyhBwLyK2U) (YouTube)
