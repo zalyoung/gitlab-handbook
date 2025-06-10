@@ -115,7 +115,7 @@ sequenceDiagram
 
 | Field Name | Type | Description |
 |------------|------|-------------|
-| id | keyword | "<project_id>_<hash of the filename and chunk content>" |
+| id | keyword | "#{<project_id>}_#{<hash of the filename and chunk content>}" |
 | project_id | bigint | Filter by projects |
 | path | keyword | Relative path including file name |
 | type | smallint | Enum indicating whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
