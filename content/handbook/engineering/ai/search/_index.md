@@ -16,7 +16,7 @@ The group is responsible for improving and expanding upon our current global sea
 Additionally, we build and maintain critical AI context infrastructure, including:
 
 - **AI Context Abstraction Layer**: A unified interface for Retrieval Augmented Generation (RAG) across multiple vector databases (Elasticsearch, OpenSearch, PostgreSQL with pgvector), enabling AI features to work regardless of underlying storage
-- **Zoekt**: A scalable file-based database system powering GitLab's exact code search functionality, with flexible architecture supporting various AI context use cases beyond traditional search
+- **GitLab Zoekt**: GitLab's scalable exact code search service and file-based database system, with flexible architecture supporting various AI context use cases beyond traditional search. It's built on top of open-source code search engine Zoekt.
 
 These systems will be fundamental to providing high-quality context for AI features via Retrieval Augmented Generation work, which includes:
 
@@ -57,7 +57,7 @@ The Global Search team maintains several key systems that power both traditional
 ### Core Infrastructure Components
 
 - **Elasticsearch**: Powers Advanced Search functionality with full-text search, aggregations, and vector similarity search capabilities
-- **Zoekt**: GitLab's scalable file-based database system providing exact code search with enterprise-scale performance (48+ TiB indexed on GitLab.com). Beyond code search, Zoekt's flexible architecture serves as a foundation for various AI context use cases
+- **GitLab Zoekt**: GitLab's scalable file-based database system providing exact code search with enterprise-scale performance (48+ TiB indexed on GitLab.com). Beyond code search, Zoekt's flexible architecture serves as a foundation for various AI context use cases
 - **AI Context Abstraction Layer**: A unified Ruby gem interface enabling RAG across multiple vector databases (Elasticsearch, OpenSearch, PostgreSQL with pgvector), ensuring AI features work regardless of underlying storage solution
 
 These systems work together to provide comprehensive search and AI context capabilities, from traditional keyword search to sophisticated vector similarity matching for AI features.
