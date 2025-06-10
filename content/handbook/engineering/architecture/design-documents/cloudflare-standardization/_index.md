@@ -18,7 +18,7 @@ toc_hide: true
 ## Summary
 
 This document describes the architecture and implementation approach for
-consistent Terraform modules that provide a secure and extensible
+a set of Terraform modules that provide a secure and extensible
 interface to Cloudflare configuration across GitLab's internal teams. As
 GitLab's edge networking needs grow and more teams adopt Cloudflare, we need a
 standardized approach that enables teams to implement secure and compliant edge
@@ -26,43 +26,38 @@ networking solutions achieving operational excellence.
 
 The proposed solution delivers a set of Terraform modules with sensible
 defaults, documentation, and clear upgrade paths. This standardization will
-enable teams to use Cloudflare's capabilities effectively and consistently,
-reducing implementation complexity across the organization.
+enable teams to use Cloudflare's capabilities effectively, reducing
+implementation complexity across the organization.
+
+This work is being tracked in [this epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1561),
+where we discuss the prioritization and project management further.
 
 ## Motivation
 
 GitLab's usage of Cloudflare as our preferred edge networking provider continues
-to grow, with multiple teams implementing solutions for DNS management, WAF
-configuration, and worker deployments across our infrastructure estate.
-
-As we move toward a more mature GitLab platform where we standardize our
-infrastructure offerings with a platform-first mindset, establishing
-patterns for Cloudflare management will provide significant strategic value. A
-unified approach will create a single point for implementing generic security
-improvements, compliance updates, and feature enhancements across our Cloudflare
-Infrastructure as Code estate. This enables faster response to security threats,
-streamlined compliance management, and more efficient feature rollouts. This can
-be seen with the move to using the
-[`cloudflare-waf-rules`](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules)
-module for WAF rules and rate limit configuration. Iterating on and expanding
-this approach will allow us to support more Cloudflare functionality and improve
-our ability to support configuration of our edge network.
-
-While teams using direct Terraform resource configurations have addressed their
-specific use cases, the emergence of multiple implementation patterns (
+to grow, with several teams implementing solutions for DNS management, WAF
+configuration, and worker deployments across our infrastructure estate (
 [example 1](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/blob/main/common/modules/cloudflare/instance-domains/main.tf),
 [example 2](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/18)
-) creates an opportunity to establish a more unified and scalable foundation that
+).
+This creates an opportunity to establish a more unified and scalable foundation that
 can benefit all teams.
+
+As we move toward a maturing GitLab platform, with standardized infrastructure
+offerings and a platform-first mindset, establishing patterns for Cloudflare
+management will provide significant strategic value by reducing implementation
+complexity and standardizing our security and compliance at the edge.  Through
+testing, documentation, and clear upgrade processes, we can enable teams to
+implement and maintain their Cloudflare configurations independently.  By
+iterating on the approach taken by the
+[`cloudflare-waf-rules`](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules)
+module for WAF rules and rate limit configuration we can strengthen our ability
+to respond to security and compliance risks as they emerge, and allow teams to
+implement Cloudflare functionality in a scalable way.
 
 This approach also positions us well for upcoming maintenance work, including
 upgrading the Cloudflare provider, allowing us to implement a coordinated,
 reduced-risk upgrade process across all implementations.
-
-The standardization effort aligns with GitLab's platform strategy of providing
-secure and compliant infrastructure foundations. Through testing, documentation,
-and clear upgrade processes, we can enable teams to implement and maintain their
-Cloudflare configurations independently.
 
 ### Goals
 
@@ -92,34 +87,31 @@ Cloudflare configurations independently.
 
 ## Proposal
 
-We propose developing a set of Terraform modules that provide teams with a
-secure, and extensible foundation for implementing solutions through Cloudflare
-configuration. This approach will balance centralized expertise with team
-autonomy, creating a sustainable platform for edge networking across GitLab.
-
-Our solution centers on creating a hierarchical module structure that serves
-teams with varying needs and expertise levels. Teams looking for quick
-implementation can use our common entrypoint module with sensible defaults,
-whilst teams with specialized requirements can use the specialized modules for
-finer control over their implementation structure. This flexibility ensures that
-both common use cases and complex requirements are well-supported.
-
-The modules will follow infrastructure-as-code principles and practices that we
-practice at GitLab, using Terraform as our preferred IaC platform, with
-consistent interfaces, testing, and extensive documentation.
-
-### Core Components
-
-The proposed module hierarchy is structured around 3 core layers:
+We propose developing a set of Terraform modules with 3 key themes:
 
 1. A common entrypoint module built as the primary interface with sensible defaults
 1. Specialized modules implementing specific subsets of Cloudflare functionality, e.g. DNS, WAF
 1. Data-only submodules providing standardized configuration patterns that can
    be reused across implementations
 
-A key aspect of this approach is establishing a consistent style for the same
-functionality across the entrypoint and specialized modules, to reduce friction
-for consumers.
+The common entrypoint will be the default choice for implementors to add
+Cloudflare configuration to their applications.  Internally this will use the
+specialized modules to allow for a path to greater implementation flexibility if
+required.
+
+All modules will be defined with sane defaults that covers the majority of
+cases, with interfaces designed to allow extensibility. This will be driven by
+the focus on the data-only submodules which will provide extensible `default`
+configurations composed of a set of common case configurations.
+
+This allows teams to independently enable Cloudflare functionality for their
+use-case with minimal configuration, scaling through to more specialized module
+use where required.This flexibility ensures that both common use cases and
+complex requirements are well-supported.
+
+By creating a centalized set of modules we can codify Cloudflare expertise and
+support team autonomy, creating a sustainable platform for edge networking
+across GitLab.
 
 Security will be a priority in our design, with pre-configured security settings
 aligned with GitLab's requirements built into the modules. This includes [WAF rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
@@ -127,28 +119,9 @@ application patterns and rate limiting configurations to prevent abuse. By
 establishing secure defaults, we ensure that all Cloudflare implementations
 maintain a baseline level of security.
 
-### Module Development Principles
-
-Our modules will adhere to several key principles to ensure their long-term
-success. We will implement a "leaky abstraction" approach, where we build upon
-Cloudflare's existing provider and API structure, providing a reasonable
-starting point for our abstraction while allowing direct access when
-needed. This allows us to build on top of Cloudflare's existing documentation
-and reduce the depth required in our own documentation.
-
-Maps, objects, and lists will be the primary interface to modules, as these are
-generally more flexible than scalar alternatives and avoid the need for
-synchronized updates across multiple modules when new options are added.
-
-Backward compatibility will be a top priority, with strict versioning using
-semantic versioning principles. Breaking changes will only be introduced in
-major version upgrades, and we will provide deprecation notices with clear
-migration paths when interfaces need to change. Automated tests will validate
-backward compatibility and ensure that upgrades are safe and predictable.
-
-A self-service focus will guide our design decisions, empowering teams to
-implement and maintain their own configurations through documentation
-and intuitive interfaces.
+The modules will follow existing infrastructure-as-code principles and practices that we
+practice at GitLab, using Terraform as our preferred IaC platform, with
+consistent interfaces, testing, and extensive documentation.
 
 ### Success Metrics
 
@@ -163,14 +136,28 @@ indicators of organizational capability and team empowerment:
 - Adoption count of the Cloudflare modules
 - No increase in `S2` and `S1` incident rates related to Cloudflare configurations
 
+### Module Development Principles
+
+- Utilize leaky abstractions to build on top of Cloudflare's existing API structure
+  - This allows us to build on top of Cloudflare's existing patterns and documentation
+- Backwards compatibility as a top priority
+  - Strict versioning using [semantic versioning principles](https://semver.org/)
+  - Deprecation notices with clear migration paths for disruptive changes to the interface or underlying resources
+  - For any major version change, we *MUST* provide upgrade documentation for
+    any manual interventions required for implementers.
+  - Automated testing for common use cases to detect breaking changes
+- Self-service focus where implementors can follow documentation to implement autonomously
+- Consistent interfaces across modules
+  - Maps, objects, and lists will be the primary interface to modules
+    - These are generally more flexible than scalar alternatives and avoid the
+      need for duplicate updates across modules when new options are added
+
 ## Design and implementation details
 
 Beneath the root module, we will implement several standalone modules that
 specialize in a specific Cloudflare functionality area. Examples include
 `cloudflare/dns` for DNS configuration, and `cloudflare/waf` for Web Application
-Firewall configuration. These specialized modules allow teams to focus on the
-specific Cloudflare features they need when more implementation flexibility is
-required.
+Firewall configuration.
 
 When we observe common configuration patterns emerging across implementations,
 we will document these use cases, and for very common instances we will develop
@@ -179,16 +166,11 @@ module and may implement patterns such as simple DNS configuration or Worker
 implementations.
 
 To support customization without sacrificing standardization, we will create
-reusable configuration options in `cloudflare/data/*` sub-modules. These data
-sub-modules will allow teams to self-serve by building on top of common usage
-patterns with their own specialization requirements. An example is WAF rules, where sets
-of WAF rules may be common across many instances but are not appropriate for all
-consumers. Where we are building distinct sets of configuration (e.g., multiple
-rulesets), we will also build a `default` configuration for ease of use and
-extensibility.
-
-This work is being tracked in [this epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1561),
-where we discuss the prioritization and project management further.
+reusable configuration options in `{module-path}/data/*` sub-modules. An example
+is WAF rules, where sets of WAF rules may be common across many instances but
+are not appropriate for all consumers. Where we are building distinct sets of
+configuration (e.g. multiple rulesets), we will also build a `default`
+configuration for ease of use and extensibility.
 
 ### Module Relationships
 
@@ -406,10 +388,6 @@ documentation into a single source of truth for internal customers and operators
 to use as a reference.  This approach provides additional benefits, including
 aligning documentation with changes made to modules. This ensures that we can
 keep documentation updated alongside code changes made to the modules.
-
-We will be following [semantic versioning principles](https://semver.org/) for
-module releases.  For any major version change, we *MUST* provide upgrade
-documentation for any manual interventions required for implementers.
 
 ## Alternative Solutions
 
