@@ -2,9 +2,9 @@
 title: GitLab Basics
 ---
 
-This page is just a quick guide to some GitLab basics, for easy reference. For more in depth GitLab product training, check out the [Get Started with GitLab](https://university.gitlab.com/pages/getting-started) resources on GitLab University.
-
 # GitLab Basics and Terminology
+
+This page is just a quick guide to some GitLab basics, for easy reference. For more in depth GitLab product training, check out the [Get Started with GitLab](https://university.gitlab.com/pages/getting-started) resources on GitLab University.
 
 This comprehensive guide provides essential information for GitLab team members in non-engineering roles, covering everything from basic terminology to advanced features like epics and merge request reviews.
 
@@ -129,26 +129,37 @@ The most common use case is editing the handbook:
 
 Use the same search process as issues, but select "Merge requests" instead of "Issues" in the results.
 
-## Best Practices
+### Advanced Merge Request Features
 
-**Transparency First** - Only mark issues as confidential when they contain truly non-public information
+#### Reviewing Merge Requests
 
-**Descriptive Titles** - Make titles clear and specific so others can quickly understand the purpose
+Beyond creating merge requests, you can provide valuable feedback through reviews:
 
-**Use Labels** - Consistent labeling helps everyone find and organize work more effectively
+1. Open the merge request and click the "Changes" tab
+2. Click on any line you want to comment on (look for the comment icon)
+3. Write your comment and click "Start a review"
+4. Add more comments by clicking "Add to review" 
+5. To resolve discussions, check "Resolve thread" when replying
+6. Click "Submit review" to publish all comments
 
-**Assign Appropriately** - Make sure issues and MRs are assigned to people who can actually act on them
+#### Suggesting Code Changes
 
-**Link Related Work** - Reference related issues and MRs to provide context and maintain connections
+You can suggest specific changes that authors can apply with one click:
 
-## Getting Help
+1. Click the comment icon on the line you want to change
+1. Click the "Insert suggestion" icon in the toolbar
+1. Edit the pre-populated code block with your suggestion
+1. Click "Start a review" or "Add comment now"
+1. The author can apply your suggestion directly, creating a new commit
 
-- **Documentation**: Check GitLab's official documentation for detailed guides
-- **Search First**: Before creating new issues, search to see if similar ones already exist  
-- **Ask Questions**: Use comments and mentions (@username) to get help from teammates
-- **Practice**: The best way to learn GitLab is by using it regularly for your work
+#### Draft/WIP Merge Requests
 
-Remember: GitLab is designed to be collaborative and forgiving. You won't break anything by experimenting with issues and merge requests, so don't hesitate to dive in and start using these tools for your daily work.
+When you're not ready for a merge request to be merged:
+
+1. Add `WIP:` or `Draft:` to the beginning of the title
+1. This prevents accidental merging
+1. To update: click the pencil icon in the Changes tab, make changes, commit
+1. When ready: remove the `WIP:` or `Draft:` prefix and assign to a reviewer
 
 ## Advanced GitLab Features
 
@@ -179,6 +190,7 @@ Epics are created at the group level:
 Think of child epics like subfolders within a main folder. They help organize complex projects hierarchically.
 
 To create a child epic:
+
 1. Navigate to the parent epic
 2. Click the "Add" dropdown button
 3. Select "Add an epic"
@@ -190,6 +202,7 @@ To create a child epic:
 Each issue can belong to only one epic. When you add an issue that's already linked to another epic, it automatically unlinks from the previous one.
 
 **To add an issue to an epic:**
+
 1. In the epic, click the "Add" dropdown
 2. Select "Add an existing issue"
 3. Paste the issue link or enter the issue ID
@@ -197,42 +210,11 @@ Each issue can belong to only one epic. When you add an issue that's already lin
 5. Click "Add"
 
 **To add an epic to an issue:**
+
 1. Open the issue
 2. In the right sidebar, click "Epic"
 3. Type the epic title and select from dropdown
 4. The epic will now appear on the issue
-
-### Advanced Merge Request Features
-
-#### Reviewing Merge Requests
-
-Beyond creating merge requests, you can provide valuable feedback through reviews:
-
-1. Open the merge request and click the "Changes" tab
-2. Click on any line you want to comment on (look for the comment icon)
-3. Write your comment and click "Start a review"
-4. Add more comments by clicking "Add to review" 
-5. To resolve discussions, check "Resolve thread" when replying
-6. Click "Submit review" to publish all comments
-
-#### Suggesting Code Changes
-
-You can suggest specific changes that authors can apply with one click:
-
-1. Click the comment icon on the line you want to change
-2. Click the "Insert suggestion" icon in the toolbar
-3. Edit the pre-populated code block with your suggestion
-4. Click "Start a review" or "Add comment now"
-5. The author can apply your suggestion directly, creating a new commit
-
-#### Draft/WIP Merge Requests
-
-When you're not ready for a merge request to be merged:
-
-1. Add `WIP:` or `Draft:` to the beginning of the title
-2. This prevents accidental merging
-3. To update: click the pencil icon in the Changes tab, make changes, commit
-4. When ready: remove the `WIP:` or `Draft:` prefix and assign to a reviewer
 
 ### Creating New Handbook Pages
 
@@ -241,11 +223,11 @@ Before creating a new page, verify the information doesn't already exist or coul
 #### Steps to Create a New Page
 
 1. Navigate to the `www-gitlab-com` project
-2. Go to: sites → handbook → source → handbook
-3. Navigate to the appropriate folder for your content
-4. Click the "+" icon and select "New file"
-5. Name your file ending with `/index.html.md`
-6. Add this header to your page:
+1. Go to: sites → handbook → source → handbook
+1. Navigate to the appropriate folder for your content
+1. Click the "+" icon and select "New file"
+1. Name your file ending with `/index.html.md`
+1. Add this header to your page:
 
 ```markdown
 ---
@@ -254,9 +236,9 @@ description: "[insert a short sentence to appear as part of search results]"
 ---
 ```
 
-7. Write your content
-8. Add a commit message and click "Commit changes"
-9. Update the merge request template and assign to appropriate reviewer
+1. Write your content
+1. Add a commit message and click "Commit changes"
+1. Update the merge request template and assign to appropriate reviewer
 
 #### Handbook Tips
 
@@ -274,6 +256,20 @@ Understanding how these tools work together:
 - **Merge Requests** are how you propose and review changes to content
 - **Boards** provide visual workflow management using issues and labels
 - **Projects** contain all these elements and define access permissions
+
+## Best Practices
+
+**Transparency First** - Only mark issues as confidential when they contain truly non-public information
+
+**Descriptive Titles** - Make titles clear and specific so others can quickly understand the purpose
+
+**Use Labels** - Consistent labeling helps everyone find and organize work more effectively
+
+**Assign Appropriately** - Make sure issues and MRs are assigned to people who can actually act on them
+
+**Link Related Work** - Reference related issues and MRs to provide context and maintain connections
+
+Remember: GitLab is designed to be collaborative and forgiving. You won't break anything by experimenting with issues and merge requests, so don't hesitate to dive in and start using these tools for your daily work.
 
 ## Getting Help
 
