@@ -228,7 +228,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Scroll down to the **Runners** section. Click the **Expand** button next to it.
 
-1. Under the **Project runners** section, click the **New project runner** button.
+1. Under the **Project runners** section, click the **Create project runner** button.
 
 1. Under **Tags**, select **Run untagged jobs**. Leave the rest of the options blank.
 

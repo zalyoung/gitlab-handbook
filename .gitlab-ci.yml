@@ -424,3 +424,4 @@ update_counts:
   script: scripts/update-counts.sh
   rules:
   - <<: *scheduled-update
+  
