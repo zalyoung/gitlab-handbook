@@ -123,7 +123,9 @@ As the CEOC you will work with the customer along with other Support Engineers t
 
 1. When an emergency is triggered, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
 1. Acknowledge the alert in PagerDuty or Slack. This means that you received the emergency page, and are starting the response process.
-1. **OPTIONAL:** Create a new Issue using the [Emergency Runbook Issue Template](https://gitlab.com/gitlab-com/support/emergency-runbook/-/issues/new), to guide you through the emergency response process for Customer Emergency tickets.
+1. **OPTIONAL:** Create a new Issue to guide you through the emergency response process for Customer Emergency tickets. You can use either of these tools:
+    1. [Emergency Runbook Issue Template](https://gitlab.com/gitlab-com/support/emergency-runbook/-/issues/new)
+    1. [Fieldnote's emergency template](https://gitlab.com/gitlab-com/support/fieldnotes/-/issues/new?description_template=Emergency%20-%20Self-Managed)
 1. Open the Zendesk ticket. Assign yourself as the ticket owner to establish yourself as the Directly Responsible Individual (DRI), which prevents confusion about emergency response, ensures consistent customer communication, and creates accountability for follow-through until resolution or proper handoff.
     1. Most PagerDuty notification formats provide a direct link to the ticket.
     1. Alternatively, use Zendesk search with the term `priority: urgent` to find the ticket.
