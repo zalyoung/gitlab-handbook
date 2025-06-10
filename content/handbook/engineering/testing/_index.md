@@ -7,9 +7,9 @@ testing practices, methodologies, and tools used in our development workflow.
 Effective testing is crucial for maintaining code quality, preventing
 regressions, and ensuring that our software meets requirements.
 
-# Introduction to Testing at GitLab
+## Introduction to Testing at GitLab
 
-Welcome to testing at GitLab! This introduction provides new engineers with an
+This introduction provides new engineers with an
 overview of our testing philosophy, practices, and the support available to help
 you contribute effectively to our quality engineering efforts.
 
