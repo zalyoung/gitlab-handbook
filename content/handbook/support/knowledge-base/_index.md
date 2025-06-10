@@ -131,6 +131,7 @@ Knowing where to perform a given task is *often* what you expect, but there are 
 | Knowledge Champions | Link Knowledge articles in Zendesk ticket | In Zendesk |
 | Knowledge Champions | Add / Remove Guide Permissions | Modify entry in `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
 | Knowledge Champions | Archive articles | In Guide directly |
+
 {{% /card %}}
 {{% card header="**Knowledge Admins (Customer Support Operations)**" %}}
 
