@@ -101,40 +101,52 @@ Knowledge base articles can be found at:
 
 ### Roles and Permissions
 
-Permissions in ZenDesk indicate what a user can do around knowledge.
+There are three roles: Support Engineer, Knowledge Champions and Knowledge Admins.
+
+- **Support Engineers**: Create, update and use KB articles in tickets.
+- **Knowledge Champions**: Review, publish, archive and control permissions.
+- **Knowledge Admins**: Make sure everything runs smoothly.
+
+Knowing where to perform a given task is *often* what you expect, but there are a few manual processes.
 
 {{< cardpane >}}
 {{% card header="**Knowledge Workers (Support Engineers, Everyone)**" %}}
 
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link Knowledge articles to Support Tickets
+| Task | Process |
+|------|---------|
+| Create (draft) articles | In Guide directly |
+| Modify (update) articles | In Guide directly |
+| Link Knowledge article in a Ticket | In Zendesk |
 
 {{% /card %}}
 
 {{% card header="**Knowledge Champions (Technical Reviewers)**" %}}
 
-- Review/Approve/Publish knowledge articles
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link knowledge articles to support tickets
-- Add/Remove permissions for users
-- Archive knowledge articles
+| Task | Process |
+|------|---------|
+| Review/Approve articles | In Guide directly |
+| Publish articles | In Guide directly |
+| Create (draft) articles | In Guide directly |
+| Modify (update) articles | In Guide directly |
+| Link Knowledge articles in Zendesk ticket | In Zendesk |
+| Add / Remove Guide Permissions | Modify entry in `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
+| Archive articles | In Guide directly |
 
 {{% /card %}}
+{{% card header="**Knowledge Admins (Customer Support Operations)**" %}}
 
-{{% card header="**Knowledge Admins (Jason/Dylan/Lyle) Support Operations ONLY**" %}}
-
-- Restore knowledge articles
-- Delete knowledge articles
-- Review history of knowledge articles
-- Create Permission sets
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link knowledge articles to support tickets
-- Create/Update/Delete Sections
-- Create/Update/Delete Segments
-- Update Categorization
+| Task | Process |
+|------|---------|
+| Restore articles | Via a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
+| Delete articles | Have Knowledge champion archive, File a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) to have it permanently deleted |
+| History of articles | Available to everyone in Guide directly (Changelog) |
+| Creating permission sets | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Create (draft) articles | In Guide directly |
+| Modify (update) articles | In Guide directly |
+| Link Knowledge articles | In Zendesk |
+| Create section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Update section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Delete section | [Create a Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
 
 {{% /card %}}
 {{< /cardpane >}}
