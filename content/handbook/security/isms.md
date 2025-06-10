@@ -15,23 +15,23 @@ In accordance with ISO 27001:2022 Clause 4.1 and ISO 42001:2023 Clause 4.1, GitL
 
 ### External Issues
 
--	Evolving cybersecurity threat landscape and AI-specific security risks
--	Regulatory requirements and compliance obligations (SOC 2, ISO standards, AI governance frameworks)
--	Customer expectations for security and responsible AI practices
--	Industry standards and best practices for information security and AI management
--	Technological developments in AI and machine learning
--	Supply chain dependencies and third-party AI service providers
--	Market competitive pressures and business environment changes
+- Evolving cybersecurity threat landscape and AI-specific security risks
+- Regulatory requirements and compliance obligations (SOC 2, ISO standards, AI governance frameworks)
+- Customer expectations for security and responsible AI practices
+- Industry standards and best practices for information security and AI management
+- Technological developments in AI and machine learning
+- Supply chain dependencies and third-party AI service providers
+- Market competitive pressures and business environment changes
 
 ### Internal Issues
--	GitLab's all-remote work model and distributed workforce
--	Cloud-first infrastructure and SaaS service delivery model
--	Integration of AI capabilities across GitLab's product offerings
--	Organizational culture of transparency and handbook-first approach
--	Resource allocation for security and AI governance initiatives
--	Skills and competency requirements for AI and security management
--	Business continuity and operational resilience requirements
 
+- GitLab's all-remote work model and distributed workforce
+- Cloud-first infrastructure and SaaS service delivery model
+- Integration of AI capabilities across GitLab's product offerings
+- Organizational culture of transparency and handbook-first approach
+- Resource allocation for security and AI governance initiatives
+- Skills and competency requirements for AI and security management
+- Business continuity and operational resilience requirements
 
 ## Scope
 
@@ -136,12 +136,14 @@ GitLab publishes [Job Families](/handbook/hiring/job-families/) to define roles 
 In accordance with ISO 27001:2022 Clause 7.4 and ISO 42001:2023 Clause 7.4, GitLab has established comprehensive communication procedures for both the ISMS and AIMS:
 
 **ISMS Communications:**
+
 - **What will be communicated:** Security policies, procedures, incidents, risk assessments, control effectiveness, compliance status, and security awareness materials
 - **When to communicate:** During onboarding, quarterly updates, incident response, annual reviews, and as policies are updated
 - **With whom to communicate:** All team members, leadership, customers (as appropriate), and external stakeholders including auditors and regulators
 - **How to communicate:** Through the GitLab handbook, Slack channels, email notifications, training portals, quarterly all-hands meetings, and formal reporting mechanisms
 
 **AIMS Communications:**
+
 - **What will be communicated:** AI governance policies, AI risk assessments, AI system performance metrics, ethical AI guidelines, AI incident reports, and AI compliance status
 - **When to communicate:** During AI system deployment, monthly AI governance reviews, incident response, quarterly business reviews, and annual AIMS assessments
 - **With whom to communicate:** AI development teams, product management, legal and compliance teams, executive leadership, customers using AI features, and relevant regulatory bodies
@@ -170,6 +172,7 @@ If using a third-party service to outsource or supplement security processes, a 
 GitLab monitors, measures, and improves security controls and AI systems through various continuous monitoring measures:
 
 **ISMS Monitoring and Measurement:**
+
 - [Continuous control testing/Annual management system internal compliance audits](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
 - [External audits (SOC 2 Type 2, TISAX, customer security assessments)](security-assurance/security-compliance/certifications/)
 - [Annual security operational risk assessments](/handbook/security/security-assurance/security-risk/storm-program/)
@@ -181,6 +184,7 @@ GitLab monitors, measures, and improves security controls and AI systems through
 - [Audit log monitoring](/handbook/security/security-and-technology-policies/audit-logging-policy/)
 
 **AIMS Monitoring and Measurement:**
+
 - AI system performance metrics and KPI tracking
 - AI risk assessment reviews and AI incident monitoring
 - AI model accuracy, bias, and fairness evaluations
@@ -191,6 +195,7 @@ GitLab monitors, measures, and improves security controls and AI systems through
 - Regular AI impact assessments and algorithmic auditing
 
 **Joint ISMS & AIMS Activities:**
+
 - ISMS & AIMS Council (annual management review)
 - Integrated risk management across security and AI domains
 - Cross-functional incident response procedures
