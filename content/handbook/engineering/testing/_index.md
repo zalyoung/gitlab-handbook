@@ -37,10 +37,10 @@ input on test strategy, helping us focus testing efforts on critical user
 journeys and high-impact areas. We make strategic decisions about where to
 invest our testing efforts based on user impact and business needs.
 
-**Quality Gates**: Testing is embedded throughout our [product development workflow](../product-development-flow/):
+**Quality Gates**: Testing is embedded throughout our [product development workflow](https://handbook.gitlab.com/handbook/product-development-flow/):
 
 - Pre-commit hooks for immediate feedback
-- [Merge request pipelines with mandatory code reviews](../engineering/workflow/code-review/) that must pass before code integration
+- [Merge request pipelines with mandatory code reviews](https://handbook.gitlab.com/handbook/engineering/workflow/code-review/) that must pass before code integration
 - Deployment pipelines with comprehensive test suites
 - Post-deployment monitoring and validation
 
@@ -58,8 +58,8 @@ developers in creating comprehensive test coverage that includes:
 
 **Test Governance Support**: Our Test Governance team provides:
 
-- Testing infrastructure and tooling through [Developer Experience teams](../engineering/infrastructure-platforms/developer-experience/)
-- [Collaboration with Engineering Productivity's support for development workflows](../engineering/infrastructure/engineering-productivity/)
+- Testing infrastructure and tooling through [Developer Experience teams](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/)
+- [Collaboration with Engineering Productivity's support for development workflows](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/)
 - Guidance on testing strategies and best practices
 - Support for complex testing scenarios
 - Test automation frameworks and libraries
@@ -88,7 +88,7 @@ and comprehensive coverage from the start.
 - End-to-end tests validate critical user journeys
 - Canary deployments allow gradual rollout with monitoring
 
-**Production Monitoring**: Testing doesn't stop at deployment. [GitLab's Observability teams deliver world-class monitoring capabilities](../engineering/infrastructure/team/observability/) including:
+**Production Monitoring**: Testing doesn't stop at deployment. [GitLab's Observability teams deliver world-class monitoring capabilities](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/observability/) including:
 
 - Synthetic monitoring simulating user interactions
 - Performance monitoring tracking application health
@@ -130,14 +130,14 @@ and comprehensive coverage from the start.
 
 **Purpose**: Ensure application performance meets user expectations
 
-- **GitLab Browser Performance Tool (GBPT)**: [Our frontend performance testing capabilities](../engineering/infrastructure-platforms/developer-experience/performance-enablement/browser-performance-testing/) for validating application performance
+- **GitLab Browser Performance Tool (GBPT)**: [Our frontend performance testing capabilities](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/browser-performance-testing/) for validating application performance
 - **Load Testing**: Validate system behavior under expected traffic
 - **Memory and Resource Testing**: Monitor application resource usage
 - **Focus**: Response times, scalability, resource efficiency
 
 ### Specialized Testing Tools
 
-- **Security Testing**: [Application Security Testing capabilities](../engineering/development/sec/secure/) including SAST, DAST, and vulnerability scanning
+- **Security Testing**: [Application Security Testing capabilities](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/) including SAST, DAST, and vulnerability scanning
 
 ## Support Available
 
@@ -152,7 +152,7 @@ our established request process:
 
 ### Test Governance Teams
 
-**Developer Experience Department**: [Provides testing infrastructure, tools, and frameworks](../engineering/infrastructure-platforms/developer-experience/) including:
+**Developer Experience Department**: [Provides testing infrastructure, tools, and frameworks](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/) including:
 
 - Testing pipeline optimization
 - Test automation libraries and utilities
@@ -166,7 +166,7 @@ our established request process:
 - Flaky test investigation and resolution
 - Test coverage analysis and recommendations
 
-**On-Call Support**: [Engineering teams participate in incident management rotations](../engineering/on-call/) to ensure rapid response to production issues
+**On-Call Support**: [Engineering teams participate in incident management rotations](https://handbook.gitlab.com/handbook/engineering/on-call/) to ensure rapid response to production issues
 
 ### Self-Service Resources
 
@@ -176,7 +176,7 @@ our established request process:
   Detailed technical implementation guide
 - [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/best_practices/) -
   Coding standards and patterns
-- [Code Review Guidelines](../engineering/workflow/code-review/) - Mandatory review process for all merge requests
+- [Code Review Guidelines](https://handbook.gitlab.com/handbook/engineering/workflow/code-review/) - Mandatory review process for all merge requests
 - Internal testing guidelines and examples
 
 **Community and Communication**:
@@ -186,7 +186,7 @@ our established request process:
 **Tooling and Automation**:
 
 - Test generators and templates for common scenarios
-- [Automated workflow tooling](../engineering/infrastructure/engineering-productivity/workflow-automation/) for issue and MR triage
+- [Automated workflow tooling](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/workflow-automation/) for issue and MR triage
 - CI/CD pipeline templates with testing best practices
 - Performance and coverage monitoring dashboards
 
