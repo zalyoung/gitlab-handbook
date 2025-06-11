@@ -2,7 +2,7 @@
 title: "Stategy & Legal Operations"
 ---
 
-The Strategy & Legal Ops team promotes and institutes streamlined processes, efficient tools, and centralized program management to ensure LACA remains agile and able to support every area of GitLab’s business.
+The Strategy & Legal Ops team promotes and institutes processes, tools, and program management to enable LACA to support every area of GitLab’s business
 
 Check out [our issue board](https://gitlab.com/groups/gitlab-com/-/boards/9214591) to learn more about what we’re working on.
 
