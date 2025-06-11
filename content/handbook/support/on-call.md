@@ -286,10 +286,15 @@ You should page the Support Manager On-call via PagerDuty
 - immediately on a weekend or a holiday.
 - if you don't get a reply to your Slack ping after ten minutes.
 
-To page the current Support Manager On-call, you can:
+To page the current Support Manager On-call, you can trigger a PagerDuty alert:
 
-- Use the `/pd trigger` command in Slack to create a new incident (for the `Support Managers` service)
-- Manually create a new incident from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
+1. Navigate to the [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) channel in Slack
+1. Type `/pd trigger` and hit Enter
+1. Write a summary in the Title field
+1. Select `Support Managers` from the list of Impacted Services
+1. Click `Create` to trigger alert.
+
+Alternatively, create a new incident within PagerDuty, from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service.
 
 This is for engaging the *current* on-call manager. If you need to coordinate with the upcoming on-call manager, see [determining the On-call Manager](#determining-the-on-call-manager).
 
