@@ -260,9 +260,9 @@ message StartWorkflowRequest {
 
 In addition to this we will be need to be able to update the model [factory](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service/-/blob/main/duo_workflow_service/llm_factory.py?ref_type=heads) in Duo Workflow to support different models.
 
-### IDE Changes (Future Iteration)
+### IDE Changes
 
-When model selection is enabled for a project, the IDE disables [the direct connection to AI Gateway](https://docs.gitlab.com/user/gitlab_duo/gateway/#region-support) [code completion](https://docs.gitlab.com/user/project/repository/code_suggestions/) calls and goes through the GitLab monolith, which ultimately selects the model to be used according to the user's preferences.
+The IDE must call GitLab to retrieve the list of allowed models for each feature and pass the selected model in the request to AI Gateway or Rails.
 
 **1. Model List Update**
 
@@ -273,6 +273,10 @@ When model selection is enabled for a project, the IDE disables [the direct conn
 
 - A settings screen in the IDE lets users select their default model per feature.
 - The IDE continues to pass the chosen model in chat and code suggestion requests.
+
+**Important note**
+
+Currently, when model selection is enabled for a project, the IDE disables [the direct connection to AI Gateway](https://docs.gitlab.com/user/gitlab_duo/gateway/#region-support) [code completion](https://docs.gitlab.com/user/project/repository/code_suggestions/) calls and goes through the GitLab monolith, which ultimately selects the model to be used according to the user's preferences.
 
 ```mermaid
 sequenceDiagram
