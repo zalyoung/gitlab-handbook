@@ -192,7 +192,7 @@ In the unfortunate event that a team member is dealing with a medical situation,
 
 ## Accommodations
 
-GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability.  If you believe you need reasonable accommodation, please follow the process outlined on this [handbook page](/content/handbook/people-group/paid-time-off.md).
+GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability.  If you believe you need reasonable accommodation, please follow the process outlined on this [handbook page](/handbook/people-group/paid-time-off/#accommodations).
 
 ### Communicating with team members while they are leave of absence
 
