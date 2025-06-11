@@ -114,7 +114,8 @@ support team autonomy, creating a sustainable platform for edge networking
 across GitLab.
 
 Security will be a priority in our design, with pre-configured security settings
-aligned with GitLab's requirements built into the modules. This includes [WAF rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
+aligned with [GitLab's requirements](https://handbook.gitlab.com/handbook/security/standards/) built into the modules.
+This includes [WAF rule sets](https://developers.cloudflare.com/waf/) optimized for common GitLab
 application patterns and rate limiting configurations to prevent abuse. By
 establishing secure defaults, we ensure that all Cloudflare implementations
 maintain a baseline level of security.
