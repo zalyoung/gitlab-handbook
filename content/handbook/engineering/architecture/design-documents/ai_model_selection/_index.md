@@ -263,6 +263,7 @@ In addition to this we will be need to be able to update the model [factory](htt
 ### IDE Changes
 
 The IDE must call GitLab to retrieve the list of allowed models for each feature and pass the selected model in the request to AI Gateway or Rails.
+Related [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/541382).
 
 **1. Model List Update**
 
