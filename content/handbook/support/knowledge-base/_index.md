@@ -107,12 +107,12 @@ There are three roles: Support Engineer, Knowledge Champions and Knowledge Admin
 - **Knowledge Champions**: Review, publish, archive and control permissions.
 - **Knowledge Admins**: Make sure everything runs smoothly.
 
-Knowing where to perform a given task is *often* what you expect, but there are a few manual processes.
+Most Knowledge Base tasks are performed within the Zendesk platform (Support and Knowledge Portal). However, some tasks by Knowledge Admins will require manual work outside of Zendesk.
 
 {{< cardpane >}}
 {{% card header="**Knowledge Workers (Support Engineers, Everyone)**" %}}
 
-| Task | Process |
+| Task | Executed In |
 |------|---------|
 | Create (draft) articles | In Guide directly |
 | Modify (update) articles | In Guide directly |
