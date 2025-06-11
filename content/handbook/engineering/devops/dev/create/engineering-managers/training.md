@@ -74,7 +74,5 @@ The training below is a good resource to ensuring you engage in a productive Men
 
 ## Learning GitLab
 
-- [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) (Handbook)
-- [GitLab 201](/handbook/people-group/learning-and-development/gitlab-201/)(Handbook)
 - [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757)
 - [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-integration-and-continuous-delivery-with-gitlab)
