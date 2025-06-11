@@ -35,7 +35,7 @@ Disable two-factor authentication
 : Becomes an Organization setting.
 
 Enable the extension marketplace for the Web IDE and workspaces
-: Becomes an Organization settin.
+: Becomes an Organization setting.
 
 Prevent enterprise users from creating groups and projects outside the corporate group
 : Exists inherently through Organization Isolation.
