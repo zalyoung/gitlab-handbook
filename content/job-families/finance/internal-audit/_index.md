@@ -10,7 +10,7 @@ The Internal Audit and SOX function has a career ladder represented below:
 | Role                                                | Grade |
 |-----------------------------------------------------|-------|
 | [Internal Auditor](/job-families/finance/internal-audit/internal-auditor/) <br> [Compliance Analyst](/job-families/finance/internal-audit/compliance-analyst/) | 6 |
-| [Sr Internal Auditor](/job-families/finance/internal-audit/senior-internal-auditor/) <br> [Sr Compliance Analyst](/job-families/finance/internal-audit/senior-compliance-analyst/) | 7 |
+| [Sr Internal Auditor](/job-families/finance/internal-audit/senior-internal-auditor/) <br> | 7 |
 | [Internal Audit Manager](/job-families/finance/internal-audit/internal-audit-manager/) <br> [IT Staff Auditor](/job-families/finance/internal-audit/it-staff-auditor/) | 8 |
 | [Sr Manager, Internal Audit](/job-families/finance/internal-audit/senior-manager-internal-audit/) <br> [Sr Audit Manager, IT and Security](/job-families/finance/internal-audit/senior-audit-manager-it-and-security/) <br> [Audit Principal, IT and Security](/job-families/finance/internal-audit/audit-principal-it-and-security/) | 9 |
 | [Director, Internal Audit](/job-families/finance/internal-audit/director-internal-audit/) <br> [Director, IT Audit](/job-families/finance/internal-audit/director-it-audit/) | 10 |
