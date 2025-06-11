@@ -7,21 +7,20 @@ We have features and requests that are being addressed and considered as part of
 
 **This table provides an overview of what we are working on IN PROGRESS**
 
-| Feature                                                                | Status          | Notes                                                                               |
-|:---------------------------------------------------------------------- | :---------------| :-----------------------------------------------------------------------------------|
-|Local Repository using Markdown. Sync Repository                        | Investigating   | discussions in place.                                                               |
-|What are we working on for SWIR. Provide more updates weekly            | Investigating   | To bring more awareness, will outline process and add to handbook                   |
-|Add Internal comments to articles. Currently dont have a way to add.    | Investigating   | [Issue 6883](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6883) |
-|Markdown not working on copy/paste                                      | Investigating   |                                                                                     |
-|Update Search Fitlers /streamline. Default to Knowledge articles.       | Investigating   | Add versions (can we use impacted versions?)                                        |
-|Add Published articles to Slack. Provides notification of published     | Investigating   | [Issue 6885](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6885) |
-|US Governmanet knowledge articles. Provide process for how to add       | Investigating   |                                                                                     |
-|Article suggestions in articles (aligned with comments. Need process)   | Investigating   | [Issue 6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886) |
-|Article Review process for relevancy. Ensures articles are up to date.  | Investigating   |                                                                                     |
-|KCS Dashboard Metrics .                                                 | Investigating   |                                                                                     |
-|Content Standards. Formatting, Links work, spelling, etc.               | Investigating   | [Issue 6887](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6887) |
-|Suggest articles BEFORE a customer submits a ticket based on keywords   | Investigating   |                                                                                     |
-|Add Technical Reviwers to the Skills Page                               | In Progress     |                                                                                     |       
+| Feature                                                                | Status          | Notes                                                                              ---:---------------------------------------------------------------------- | :---------------| :-------------------------------------------------------------------------------------------|
+|Local Repository using Markdown. Sync Repository                        | Investigating   | discussions in place.                                                                         |
+|What are we working on for SWIR. Provide more updates weekly            | In Process      | To bring more awareness, will outline process and add to handbook                             |
+|Add Internal comments to articles. Currently dont have a way to add.    | Investigating   | [Issue 6883](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6883)           |
+|Markdown not working on copy/paste                                      | Investigating   | Investigating how to fix                                                                      |
+|Update Search Fitlers /streamline. Default to Knowledge articles.       | Investigating   | Add versions (can we use impacted versions?)                                                  |
+|Add Published articles to Slack. Provides notification of published     | Investigating   | [Issue 6885](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6885)           |
+|US Governmanet knowledge articles. Provide process for how to add       | In Process      | [6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)                 |
+|Article suggestions in articles (aligned with comments. Need process)   | Investigating   | [Issue 6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)           |
+|Article Review process for relevancy. Ensures articles are up to date.  | Investigating   | [6888](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6888)                 |
+|KCS Dashboard Metrics                                                   | In Process      | [Dashboard Created](https://gitlab.zendesk.com/explore/studio#/dashboards/edit/62389622).     |
+|Content Standards. Formatting, Links work, spelling, etc.               | Investigating   | [Issue 6887](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6887).          |
+|Suggest articles BEFORE a customer submits a ticket based on keywords   | Investigating   | will be creating issue                                                                       |
+|Add Technical Reviwers to the Skills Page                               | In Progress     | [6896] (https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6896#note_2551783034)|       
 
 - Note: For a more Detailed outline of these features read more about them [Feature and Status Phase 2](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g35224d618b1_0_0#slide=id.g35224d618b1_0_0) 
 
