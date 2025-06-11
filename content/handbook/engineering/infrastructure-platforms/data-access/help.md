@@ -125,5 +125,11 @@ Always include:
 
 #### For Support Escalations
 
-1. File a [request for help issue](https://gitlab.com/gitlab-com/enablement-sub-department/section-enable-request-for-help/)
+For non-urgent assiatnce, open a Request For Help
+1. File a new [request for help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?description_template=SupportRequestTemplate-DatabaseFrameworks)
 1. Reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N), include a link to the request for help
+
+For urgent assistance
+1. Reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N) Slack channel using the @db-team handle
+1. Use the following template:
+   > Hey folks - Support is working on  a customer escalation  for 'customer name', and we need some assistance troubleshooting the following database issue - 'Link to ongoing slack thread, issue and zendesk ticket'
