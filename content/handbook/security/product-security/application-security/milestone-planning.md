@@ -91,7 +91,7 @@ These reports provide critical visibility into progress, plans, and potential is
 Updating the issue milestone is required:
 
 - On a weekly basis, at the end of the week.
-- Whenever the DRI knows he won't be able to finish it for the end of the milestone
+- Whenever the DRI knows they won't be able to finish it for the end of the milestone
 
 ### Workflow Labels
 
