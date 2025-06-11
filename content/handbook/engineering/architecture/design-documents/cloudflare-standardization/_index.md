@@ -90,11 +90,11 @@ reduced-risk upgrade process across all implementations.
 We propose developing a set of Terraform modules with 3 key themes:
 
 1. A common entrypoint module built as the primary interface with sensible defaults
-1. Specialized modules implementing specific subsets of Cloudflare functionality, e.g. DNS, WAF
+1. Specialized modules implementing specific subsets of Cloudflare functionality. This includes DNS and WAF.
 1. Data-only submodules providing standardized configuration patterns that can
    be reused across implementations
 
-The common entrypoint will be the default choice for implementors to add
+The common entrypoint will be the default choice for implementers to add
 Cloudflare configuration to their applications.  Internally this will use the
 specialized modules to allow for a path to greater implementation flexibility if
 required.
@@ -109,7 +109,7 @@ use-case with minimal configuration, scaling through to more specialized module
 use where required.This flexibility ensures that both common use cases and
 complex requirements are well-supported.
 
-By creating a centalized set of modules we can codify Cloudflare expertise and
+By creating a centralized set of modules we can codify Cloudflare expertise and
 support team autonomy, creating a sustainable platform for edge networking
 across GitLab.
 
@@ -147,7 +147,7 @@ indicators of organizational capability and team empowerment:
   - For any major version change, we *MUST* provide upgrade documentation for
     any manual interventions required for implementers.
   - Automated testing for common use cases to detect breaking changes
-- Self-service focus where implementors can follow documentation to implement autonomously
+- Self-service focus where implementers can follow documentation to implement autonomously
 - Consistent interfaces across modules
   - Maps, objects, and lists will be the primary interface to modules
     - These are generally more flexible than scalar alternatives and avoid the
@@ -170,8 +170,8 @@ To support customization without sacrificing standardization, we will create
 reusable configuration options in `{module-path}/data/*` sub-modules. An example
 is WAF rules, where sets of WAF rules may be common across many instances but
 are not appropriate for all consumers. Where we are building distinct sets of
-configuration (e.g. multiple rulesets), we will also build a `default`
-configuration for ease of use and extensibility.
+configuration, we will also build a `default` configuration for ease of use and
+extensibility. For example, where we have multiple WAF rulesets defined.
 
 ### Module Relationships
 
@@ -392,7 +392,7 @@ keep documentation updated alongside code changes made to the modules.
 
 ### Initial development and migration
 
-This implemention will focus on creating the common entrypoint first to allow
+This implementation will focus on creating the common entrypoint first to allow
 for early adoption, expanding the responsibilities as more functionality is
 added through the specialized modules. This will allow us to gradually implement
 functionality and deliver impact faster. This is also an opportunity to validate
