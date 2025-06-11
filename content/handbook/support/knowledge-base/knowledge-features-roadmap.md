@@ -7,7 +7,7 @@ We have features and requests that are being addressed and considered as part of
 
 **This table provides an overview of what we are working on IN PROGRESS**
 
-| Feature                                                                | Status          | Notes                                                                                       
+| Feature                                                                | Status          | Notes    |                                                                                   
 |:---------------------------------------------------------------------- |:----------------|:-----------------------------------------------------------------------------------|
 |Local Repository using Markdown. Sync Repository                        | Investigating   | discussions in place                                                               |
 |What are we working on for SWIR. Provide more updates weekly            | In Process      | To bring more awareness, will outline process and add to handbook                  |
