@@ -254,9 +254,9 @@ We aim to capture the essence of the engagement with the following structure:
 
 For situations where a direct customer outcome isn't achieved (e.g., referral, no engagement, out of scope), briefly note the action taken:
 
-* **Example (Referral):** "Referred to Support for advanced troubleshooting on [specific issue]." [cite: 18]
-* **Example (No Engagement):** "Closed due to no customer engagement after 3 attempts and AE notification." [cite: 7]
-* **Example (Out of Scope):** "Determined request out of scope for CSE; directed to SA for pre-sales assistance." [cite: 9, 10, 535]
+* **Example (Referral):** "Referred to Support for advanced troubleshooting on [specific issue]."
+* **Example (No Engagement):** "Closed due to no customer engagement after 3 attempts and AE notification."
+* **Example (Out of Scope):** "Determined request out of scope for CSE; directed to SA for pre-sales assistance."
 
 Documenting these interactions accurately helps us understand customer needs comprehensively and refine our engagement strategies. The collective insights from these recorded outcomes are invaluable for cross-functional teams, including Product, Engineering, and Marketing, to better understand real-world customer experiences and challenges.
 
