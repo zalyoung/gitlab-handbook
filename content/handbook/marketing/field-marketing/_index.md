@@ -128,7 +128,6 @@ For more information regarding confidentiality levels and compliancy, please vis
   - Give discussion points on data residency, AI regulations, and implementation
 - Using Claude to help create short fun quiz questions to be used at events. A quiz can be a great way to increase engagement, enhance learning, foster interaction, and create memorable experiences that extend well beyond the event itself. An example here of the prompt and quiz questions [here](https://docs.google.com/document/d/1oWGsV-6nIEJ4psJ3a7v62qu4ywbkHvu-gwvbfbbLcfg/edit?tab=t.8n5nqsxu4dh30)
 
-
 ## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
 Field Marketing utilizes the below issue templates and epic codes for virtual events and other campaign tactics.
