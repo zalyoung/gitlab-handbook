@@ -27,7 +27,6 @@ There are some great articles regarding being new to leadership. Please review t
 
 - [15 Tips for New Managers](https://www.liveabout.com/tips-for-new-managers-part-1-2275957)
 - [Becoming a Manager: What No One Tells You](https://www.jodymichael.com/blog/becoming-manager-no-one-tells/)
-- [How to Transition From Solo Expert to Effective Manager](https://www.thebalancemoney.com/transitioning-from-solo-expert-to-effective-manager-4116889)
 - [Functions of Managers](https://www.cliffsnotes.com/study-guides/principles-of-management/the-nature-of-management/functions-of-managers)
 - [The Mental Shift From Individual Contributor to Manager](https://greatmanager.co/the-mental-shift-from-individual-contributor-to-manager-df89b4421713)
 
