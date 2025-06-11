@@ -124,8 +124,8 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
     1. If saving the credential fails, go to Settings->`your name`->iCloud and make sure that Passwords and Keychain is set to "On" and the "Passwords" app is installed.
     1. If it still fails, you can also try [force restart](https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios) and then trying to sign out of iCloud on your mobile device, and then sign back in to iCloud.
     1. On Android, this may appear "Use this device with screen lock". Choose this.
-        1. **For Samsung phones:** Please make sure that you save the passkey to Google's passkey manager and **not** Samsung Passkey
-      1. When promted if you want to "Skip the QR code next time", select "Not now". This should prompt you to save the passkey to Google instead.
+    1. **For Samsung phones:** Please make sure that you save the passkey to Google's passkey manager and **not** Samsung Passkey
+    1. When promted if you want to "Skip the QR code next time", select "Not now". This should prompt you to save the passkey to Google instead.
 
 1. On the mobile device, attempt to sign in by visiting [Okta](https://gitlab.okta.com).
 
