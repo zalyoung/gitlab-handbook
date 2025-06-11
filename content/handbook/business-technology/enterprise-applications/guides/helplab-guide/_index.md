@@ -37,7 +37,6 @@ The following teams are available through HelpLab:
 - [CorpSec End User Services](/handbook/security/corporate/end-user-services/)
 - [Enterprise Applications](/handbook/business-technology)
 
-
 ## How do I use HelpLab?
 
 ### Accessing HelpLab
