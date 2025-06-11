@@ -163,6 +163,7 @@ erDiagram
   the namespace hierarchy.
 
 ##### **3. Incident management** 
+
 - When the default model is selected or when model selection is disabled, an incident management mechanism has been put in place. The AI Gateway will re-route the call to another model when the default model can't respond.
 
 - When a model has been selected for a feature by the user, we can't perform any incident management due to the fact that the user's choice needs to be respected. The user needs to be aware of this behavior.
@@ -228,7 +229,9 @@ query {
 The AI Gateway will have to support a new API that will allow rails to fetch the allowed list of models.
 
 The configuration is done with this pair of files:
+
 - [The model details configuration file](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/ai_gateway/model_selection/models.yml) where the model metadata will be configured.
+
 - [The unit primitive configuration file](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/ai_gateway/model_selection/unit_primitives.yml) where the models are assigned to feature settings.
 
 Both files need to be updated when we need to release or deprecate a model.
