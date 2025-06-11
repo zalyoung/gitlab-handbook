@@ -453,7 +453,7 @@ This will:
 1. Generate a CEOC page for the ticket; and
 1. Assign the ASE to the ticket.
 
-CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: _All Success Tier Customers' Unsolved Severity 2/High Tickets_ on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
+CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: *All Success Tier Customers' Unsolved Severity 2/High Tickets* on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
 
 Once the customer ticket has been de-ecalated and is no longer a Severity 2/High Priority issue, [reset the ticket priority](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority), and let the customer know we will continue working with them during standard operating hours. 
 
