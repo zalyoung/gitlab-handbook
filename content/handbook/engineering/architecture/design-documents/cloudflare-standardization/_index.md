@@ -76,8 +76,6 @@ reduced-risk upgrade process across all implementations.
 
 ### Non-Goals
 
-- Standardizing non-Terraform Cloudflare configurations - our focus is
-  specifically on infrastructure-as-code implementations
 - Creating team-specific implementations; instead, we will provide the
   foundational modules that teams can use to build their own solutions
 - Managing the day-to-day operations of each team's specific Cloudflare
