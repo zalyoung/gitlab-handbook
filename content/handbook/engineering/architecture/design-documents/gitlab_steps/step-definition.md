@@ -286,6 +286,7 @@ Interpolation:
 - Is done when executing and passing control to a given step, instead of running
   it once when the configuration is loaded. This enables chaining outputs to inputs, or making steps depend on the execution
   of earlier steps.
+- Is supported by an expressive [expression language](#expression-language).
 
 For example:
 
