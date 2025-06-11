@@ -37,7 +37,7 @@ input on test strategy, helping us focus testing efforts on critical user
 journeys and high-impact areas. We make strategic decisions about where to
 invest our testing efforts based on user impact and business needs.
 
-**Quality Gates**: Testing is embedded throughout our [product development workflow](https://handbook.gitlab.com/handbook/product-development/product-development-flow/):
+**Quality Gates**: Testing is embedded throughout our [product development workflow](../../product-development/product-development-flow/):
 
 - Pre-commit and pre-receive hooks for immediate feedback
 - [Merge request pipelines with mandatory code reviews](../../engineering/workflow/code-review/) that must pass before code integration
@@ -89,12 +89,12 @@ and comprehensive coverage from the start.
 - End-to-end tests validate critical user journeys
 - Canary deployments allow gradual rollout with monitoring
 
-**Production Monitoring**: Testing doesn't stop at deployment. [GitLab's Observability teams deliver world-class monitoring capabilities](https://handbook.gitlab.com/handbook/engineering/infrastructure/) including:
+**Post-Deployment Monitoring**: Testing doesn't stop at deployment. Post-deployment monitoring is also done including:
 
 - Synthetic monitoring simulating user interactions
 - Performance monitoring tracking application health
 - Error tracking identifying issues in real-time
-- Feature flag testing enabling safe experimentation
+- [Feature flag testing enabling safe experimentation](https://docs.gitlab.com/development/testing_guide/end_to_end/feature_flag_testing/)
 
 ## Support Available
 
