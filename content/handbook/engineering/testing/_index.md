@@ -37,29 +37,29 @@ input on test strategy, helping us focus testing efforts on critical user
 journeys and high-impact areas. We make strategic decisions about where to
 invest our testing efforts based on user impact and business needs.
 
-**Quality Gates**: Testing is embedded throughout our [product development workflow](../../product-development-flow/):
+**Quality Gates**: Testing is embedded throughout our [product development workflow](https://handbook.gitlab.com/handbook/product-development/product-development-flow/):
 
-- Pre-commit hooks for immediate feedback
+- Pre-commit and pre-receive hooks for immediate feedback
 - [Merge request pipelines with mandatory code reviews](../../engineering/workflow/code-review/) that must pass before code integration
 - Deployment pipelines with comprehensive test suites
 - Post-deployment monitoring and validation
 
 ### Testing Ownership Model
 
-**Everyone Tests**: While we have dedicated Test Governance team and greater
-Developer Experience department, every developer is responsible for writing and
-maintaining tests for their code. These members are there for supporting
-developers in creating comprehensive test coverage that includes:
+**Everyone Tests**: While we have dedicated the Test Governance team and greater
+Developer Experience department, every product engineering team is responsible for creating and
+maintaining tests for their features. Developer Experience are there for supporting
+engineers in creating comprehensive test coverage that includes:
 
 - Writing unit tests for new functionality
 - Adding integration tests for API endpoints and service interactions
 - Contributing to end-to-end test coverage for critical user flows
 - Maintaining and fixing flaky or outdated tests
 
-**Test Governance Support**: Our Test Governance team provides:
+**Test Governance Support**: The Test Governance team provides:
 
 - Testing infrastructure and tooling through [Developer Experience teams](../../engineering/infrastructure-platforms/developer-experience/)
-- [Collaboration with Engineering Productivity's support for development workflows](../../engineering/infrastructure/engineering-productivity/)
+- Collaboration with [Developer Experience for development workflow support](../../engineering/infrastructure-platforms/developer-experience/)
 - Guidance on testing strategies and best practices
 - Support for complex testing scenarios
 - Test automation frameworks and libraries
@@ -74,70 +74,27 @@ and comprehensive coverage from the start.
 
 **Continuous Integration**: Every merge request triggers automated testing:
 
-- Unit and integration tests run on every commit
+- Unit and integration tests run on every push
 - Feature tests execute for UI changes
 - Performance tests validate critical paths
 - Security scans check for vulnerabilities
+- End-to-end tests for critical user journeys
 
 ### Release and Deployment Testing
 
 **Pre-Deployment Validation**: Before code reaches production:
 
-- Smoke tests verify basic functionality
+- [Smoke tests verify basic functionality](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/#staging-canary) with staging-canary blocking deployments
 - Performance tests ensure acceptable response times
 - End-to-end tests validate critical user journeys
 - Canary deployments allow gradual rollout with monitoring
 
-**Production Monitoring**: Testing doesn't stop at deployment. [GitLab's Observability teams deliver world-class monitoring capabilities](../../engineering/infrastructure/team/observability/) including:
+**Production Monitoring**: Testing doesn't stop at deployment. [GitLab's Observability teams deliver world-class monitoring capabilities](https://handbook.gitlab.com/handbook/engineering/infrastructure/) including:
 
 - Synthetic monitoring simulating user interactions
 - Performance monitoring tracking application health
 - Error tracking identifying issues in real-time
 - Feature flag testing enabling safe experimentation
-
-## Testing Tools and Frameworks
-
-### Unit Testing
-
-**Purpose**: Validate individual components and business logic in isolation
-
-- **Ruby**: [RSpec for backend unit tests](https://docs.gitlab.com/development/testing_guide/best_practices/)
-  with comprehensive test design guidelines
-- **JavaScript**: [Jest for frontend unit tests](https://docs.gitlab.com/development/testing_guide/frontend_testing/)
-  with integration testing capabilities
-- **Focus**: Fast execution, isolated testing, comprehensive coverage of
-  business logic
-
-### Integration Testing
-
-**Purpose**: Verify interactions between different parts of the system
-
-- **API Testing**: [RSpec request specs for API endpoints](https://docs.gitlab.com/development/testing_guide/testing_levels/#integration-tests)
-- **Contract Testing**: Validate service interfaces and data contracts
-- **Database Integration**: Test data layer interactions and migrations
-- **Focus**: Service boundaries, data flow, integration points
-
-### System and Feature Testing
-
-**Purpose**: Test complete user workflows and application behavior
-
-- **Capybara**: [Rails-based feature testing with browser simulation](https://docs.gitlab.com/development/testing_guide/frontend_testing/#feature-tests)
-  for end-to-end integration testing
-- **Playwright**: Modern end-to-end testing for complex user interactions
-- **Focus**: User journeys, UI functionality, cross-browser compatibility
-
-### Performance Testing
-
-**Purpose**: Ensure application performance meets user expectations
-
-- **GitLab Browser Performance Tool (GBPT)**: [Our frontend performance testing capabilities](../../engineering/infrastructure-platforms/developer-experience/performance-enablement/browser-performance-testing/) for validating application performance
-- **Load Testing**: Validate system behavior under expected traffic
-- **Memory and Resource Testing**: Monitor application resource usage
-- **Focus**: Response times, scalability, resource efficiency
-
-### Specialized Testing Tools
-
-- **Security Testing**: [Application Security Testing capabilities](../../engineering/development/sec/secure/) including SAST, DAST, and vulnerability scanning
 
 ## Support Available
 
@@ -150,9 +107,9 @@ our established request process:
 - Include context about your testing challenges or requirements
 - Expect response within our defined SLA timeframes
 
-### Test Governance Teams
+### Developer Experience Department
 
-**Developer Experience Department**: [Provides testing infrastructure, tools, and frameworks](../../engineering/infrastructure-platforms/developer-experience/) including:
+**Developer Experience Team**: [Provides testing infrastructure, tools, and frameworks](../../engineering/infrastructure-platforms/developer-experience/) including:
 
 - Testing pipeline optimization
 - Test automation libraries and utilities
@@ -172,7 +129,7 @@ our established request process:
 
 **Documentation and Guides**:
 
-- [Testing Levels and Strategy](https://docs.gitlab.com/development/testing_guide/testing_levels/) -
+- [Testing Levels, Tooling, and Strategy](https://docs.gitlab.com/development/testing_guide/testing_levels/) -
   Detailed technical implementation guide
 - [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/best_practices/) -
   Coding standards and patterns
@@ -181,7 +138,7 @@ our established request process:
 
 **Community and Communication**:
 
-- Testing-focused Slack channels for questions and discussions
+- Testing-focused Slack channels for questions and discussions are namely #g_test_governance and the broader #s_developer_experience
 
 **Tooling and Automation**:
 
@@ -189,21 +146,6 @@ our established request process:
 - [Automated workflow tooling](../../engineering/infrastructure/engineering-productivity/workflow-automation/) for issue and MR triage
 - CI/CD pipeline templates with testing best practices
 - Performance and coverage monitoring dashboards
-
-### Contributing to Testing Excellence
-
-As you grow in your role at GitLab, consider contributing to our testing
-culture by:
-
-- Sharing testing patterns and solutions with the team
-- Contributing to testing tools and frameworks
-- Mentoring other developers on testing practices
-- Participating in testing strategy discussions and improvements
-
-### Types of Testing
-
-The GitLab application is testing through a combination of automated tests,
-following the [test pyramid levels](https://docs.gitlab.com/development/testing_guide/testing_levels/)
 
 ---
 
