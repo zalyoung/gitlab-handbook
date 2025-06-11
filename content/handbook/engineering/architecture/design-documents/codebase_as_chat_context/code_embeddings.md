@@ -51,7 +51,7 @@ The indexer efficiently processes and chunks code files, while Rails handles gen
   - Postgres: `INSERT into chunks (...) ON CONFLICT DO UPDATE`
   - Elasticsearch/OpenSearch: `doc_as_upsert: true, detect_noop: true`
 - Delete orphaned chunks
-  - Postgres: `DELETE from chunks where filename = ? AND hash NOT IN (?)`
+  - Postgres: `DELETE from chunks where filename = ? AND id NOT IN (?)`
 - Return upserted unique IDs back to Rails
 - AI Abstraction Layer tracks embedding references for each unique ID.
 - In batches, references are pulled from the queue.
@@ -115,7 +115,7 @@ sequenceDiagram
 
 | Field Name | Type | Description |
 |------------|------|-------------|
-| id | keyword | "#{project_id}_#{hash of the filename and chunk content}" |
+| id | keyword | hash("#{project_id}:#{path}:#{content}") |
 | project_id | bigint | Filter by projects |
 | path | keyword | Relative path including file name |
 | type | smallint | Enum indicating whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
