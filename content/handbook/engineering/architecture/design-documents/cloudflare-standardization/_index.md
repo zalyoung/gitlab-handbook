@@ -38,7 +38,9 @@ GitLab's usage of Cloudflare as our preferred edge networking provider continues
 to grow, with several teams implementing solutions for DNS management, WAF
 configuration, and worker deployments across our infrastructure estate (
 [example 1](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/blob/main/common/modules/cloudflare/instance-domains/main.tf),
-[example 2](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/18)
+[example 2](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/18),
+[`cloudflare-waf-rules` module](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules),
+[`dns-record` module](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/dns/dns-record)
 ).
 This creates an opportunity to establish a more unified and scalable foundation that
 can benefit all teams.
