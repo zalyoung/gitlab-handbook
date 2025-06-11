@@ -138,7 +138,6 @@ We have created Digital Rooms in Highspot with the Partner Enablement team that 
 * Champions Program
 * GitLab Platform (suggested to host free to Premium to Ultimate value messaging)
 
-
 ### GitLab Activity Planning (reporting and collaboration)
 
 1. Login to GitLab and go to https://gitlab.com/gitlab-com/partners
@@ -161,7 +160,6 @@ We have created Digital Rooms in Highspot with the Partner Enablement team that 
 #### Rattle Integration
 
 Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity by using Rattle every week.  [Here is the main landing page](/handbook/solutions-architects/processes/activity-capture/activity-logging) and scroll down to the Ecosystem SA Activities for activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
-
 
 1. Go to Okta, and login to SFDC from there, just to have it open in your browser
 2. Open a new tab and go to https://app.gorattle.com/integrations and click the blue Integrate button next to SFDC
