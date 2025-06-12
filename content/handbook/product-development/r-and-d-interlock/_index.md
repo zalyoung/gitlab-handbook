@@ -538,10 +538,9 @@ The Plan stage has an incredible product roadmap for this year, with many items 
 - **Custom fields** - Reduce label sprawl by using fields instead of labels
 - **Enhanced board capabilities** - Use expanded swimlane options (horizontal groupings) to reduce filters and saved views
 - **Customizable metadata display** - Remove noise from executive views by controlling visible fields
+
 ## FAQs
 
-
-<details>
 <summary>Click to expand</summary>
 
 1. **Q:** Why are we using epics instead of issues?
