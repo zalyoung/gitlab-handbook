@@ -5,7 +5,7 @@ creation-date: "2025-04-18"
 authors: [ "@terrichu" ]
 coaches: [ "@username" ]
 dris: [ "@bvenker", "@changzhengliu" ]
-owning-stage: "~devops::foundations"
+owning-stage: "~devops::ai-powered"
 participating-stages: []
 toc_hide: true
 ---
