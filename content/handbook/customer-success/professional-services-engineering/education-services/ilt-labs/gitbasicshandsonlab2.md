@@ -31,7 +31,6 @@ Please take time to understand any code that you are asked to copy and paste in 
 ## Task B. Generate an SSH key
 
 > Note: If you have an SSH key arleady associated with your account, skip to task D, as you can use your pre-existing key for this lab.
-
 > GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don't need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
 
 1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
