@@ -505,7 +505,7 @@ Work proposed via the R&D Interlock process will benefit from:
    1. Select the epic template named: [interlock_template](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/epics/new?description_template=interlock_template)
 1. **Complete required information**
    1. Fill in all sections of the template
-   2. Assign DRIs (PM, EM, UXPD&PDM)
+   1. Assign DRIs (PM, EM, UXPD&PDM)
    1. Apply appropriate labels (see [Labels Guide](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process-Dashboard#labels-guide))
 3. **Update interlock status throughout process**
    1. Update interlock status as discussions progress
