@@ -19,7 +19,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. Scroll down to the **Merge request approvals** section and click **Add approval rule**.
 
-1. In the **Rule name** field, enter `Infra team`
+1. In the **Rule name** field, enter `Infra team`.
 
 1. In the **Groups** field, select your **Infrastructure** group. You may need to use the 'All groups' option and search for your top-level group.
 
@@ -29,7 +29,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. Back in the **Merge request approvals** section of the **Merge Requests** page, click **Add approval rule** to create a second project-level rule.
 
-1. In the **Rule name** field, enter `Security operations`
+1. In the **Rule name** field, enter `Security operations`.
 
 1. In the **Groups** field, select your **Security** group. You may need to use the 'all groups' option and search for your top-level group.
 
@@ -61,9 +61,9 @@ Approval rules define how many approvals a merge request must receive before it 
 
     > Putting **'Draft:'** at the beginning of your merge request means that the merge request will not occur until it has been marked as ready. This is used to note that a merge request is not ready to be merged yet, and to prevent accidental merges. Note that the **Mark as draft** checkbox below the title will also check automatically when **'Draft:'** is added to the title.
 
-1. Remove `Closes #<ISSUE NUMBER>` from the **Description** field. We want to keep the original issue open for additional work.
+1. Remove `Closes #<issue-number>` from the **Description** field. We want to keep the original issue open for additional work.
 
-    > If a merge request has 'Closes #<ISSUE NUMBER>' in their description, the issue will be closed when the merge request is merged.
+    > If a merge request has 'Closes #<issue-number>' in their description, the issue will be closed when the merge request is merged.
 
 1. Verify that you are assigned to the merge request by checking the Assignees section. Also note any labels inherited from the issue, and any approval rules inherited from project settings.
 
@@ -138,7 +138,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
     ## Contact
 
-    Contact <YOUR-NAME> with questions or comments.
+    Contact <your-name> with questions or comments.
     ```
 
 1. Click **Create Page**. You should see a new Wiki page with the content you created.
