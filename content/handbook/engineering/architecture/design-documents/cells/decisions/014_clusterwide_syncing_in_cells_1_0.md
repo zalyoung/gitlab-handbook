@@ -7,7 +7,6 @@ toc_hide: true
 ## Context
 
 In order for some features to work, the data for some
-[clusterwide](https://docs.gitlab.com/ee/development/cells/#choose-either-the-gitlab_main_cell-or-gitlab_main_clusterwide-schema)
 tables needs to be synchronized in some way to all cells.
 For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables do need to be the same across all cells.
 
