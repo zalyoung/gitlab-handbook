@@ -531,11 +531,11 @@ Work proposed via the R&D Interlock process will benefit from:
 
 The Plan stage has an incredible product roadmap for this year, with many items that will directly improve this interlock process. See below for upcoming features and let us know if you have ideas for additional improvements!
 
-* **Epic milestones** - Replace quarter labels with proper milestone functionality, including the milestone burndown charts to see how the quarter is performing at a glance
-* **Custom fields** - Reduce label sprawl by using fields instead of labels
-* **Enhanced board capabilities** - Use expanded swimlane options (horizontal groupings) to reduce filters and saved views
-* **Customizable metadata display** - Remove noise from executive views by controlling visible fields
-* **Roadmap enhancements** - Better timeline visualization and filtering options
+- **Epic milestones** - Replace quarter labels with proper milestone functionality, including the milestone burndown charts to see how the quarter is performing at a glance
+- **Custom fields** - Reduce label sprawl by using fields instead of labels
+- **Enhanced board capabilities** - Use expanded swimlane options (horizontal groupings) to reduce filters and saved views
+- **Customizable metadata display** - Remove noise from executive views by controlling visible fields
+- **Roadmap enhancements** - Better timeline visualization and filtering options
 ## FAQs
 
 <details>
