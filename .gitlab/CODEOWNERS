@@ -670,7 +670,7 @@
 ## This required rule must be outside of a section for the codeowners one to override it
 /.gitlab/ @gitlab-com/content-sites/handbook-tools @gitlab-com/content-sites @gitlab-com/egroup
 ## override approvals for codeowners file
-/.gitlab/CODEOWNERS @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
+/.gitlab/CODEOWNERS @gitlab-com/content-sites @gitlab-com/egroup
 
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
