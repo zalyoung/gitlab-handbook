@@ -26,7 +26,7 @@ A journey map is a visual representation and documentation of a user journey tha
 
 Journey map elevation refers to the different levels of detail and scope at which user journeys can be mapped and analyzed, each serving different strategic and tactical purposes within the organization.
 
-Journey map elevation levels connect and inform each other, with micro-level insights laddering up to mid-level understanding, and mid-level patterns informing macro-level strategy.
+Journey map elevation levels connect and inform each other, with micro-level insights about specific interactions feeding into mid-level understanding of complete workflows, and mid-level findings informing macro-level strategic decisions.
 
 #### Macro level
 
