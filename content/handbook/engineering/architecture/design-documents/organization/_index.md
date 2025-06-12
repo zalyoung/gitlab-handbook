@@ -84,6 +84,7 @@ Organization affects other parts of the system.
 - [Cells](cells.md)
 - [Settings](settings.md)
 - [Users](users.md)
+- [Authentication](authentication.md)
 
 ## Level Structure
 
