@@ -507,7 +507,7 @@ Work proposed via the R&D Interlock process will benefit from:
    1. Fill in all sections of the template
    1. Assign DRIs (PM, EM, UXPD&PDM)
    1. Apply appropriate labels (see [Labels Guide](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process-Dashboard#labels-guide))
-3. **Update interlock status throughout process**
+1. **Update interlock status throughout process**
    1. Update interlock status as discussions progress
    1. After the quarter begins, update health status weekly
    3. Document risks and dependencies as they emerge
