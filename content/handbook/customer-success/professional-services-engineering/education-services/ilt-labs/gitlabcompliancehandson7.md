@@ -23,7 +23,7 @@ This lab will demonstrate how to view project and group level audit events.
 
 ## Task B. Viewing Group Level Audit Events
 
-1. Navigate to your ILT group (titled `My Test Group - random string of characters`).
+1. Navigate to your ILT group (titled `Session <session-code>`).
 
 1. In the left sidebar, select **Secure > Audit events**.
 

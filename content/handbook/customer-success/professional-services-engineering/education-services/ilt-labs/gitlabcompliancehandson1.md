@@ -21,7 +21,7 @@ Learners will review the different roles and user permissions in their GitLab pr
 
 1. Leave all other as default and select **Create project**.
 
-1. Using the breadcrumbs at the top of the page, select the option starting with `My Test Group` to navigate to your ILT instance group.
+1. Using the breadcrumbs at the top of the page, select the option starting with `Session <session-code>` to navigate to your ILT instance group.
 
 1. In the left sidebar select **Manage > Members**.
 

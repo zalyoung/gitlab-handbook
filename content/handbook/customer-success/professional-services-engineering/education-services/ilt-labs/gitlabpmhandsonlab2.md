@@ -17,14 +17,6 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 > **Tip:** Remember that the breadcrumbs are a good way to navigate between subgroups when you're creating a multi-level collection of groups and subgroups.
 
-## Prerequisites
-
-1. You have already redeemed the invitation/voucher code.
-
-1. You have signed into https://ilt.gitlabtraining.cloud with the username provided.
-
-1. You have clicked the `My Group` button and opened a new browser tab with the URL `https://ilt.gitlabtraining.cloud/training-users/session-{id}/iu{######}`. You should see `My Test Group - iu{######}` as the title of the group.
-
 ## Task A. Review groups and projects for GitLab's own source code
 
 1. _In a new browser tab_, navigate to [https://gitlab.com/gitlab-org](https://gitlab.com/gitlab-org). This group contains all of GitLab's product source code that is mostly open source and transparent based on our company values.

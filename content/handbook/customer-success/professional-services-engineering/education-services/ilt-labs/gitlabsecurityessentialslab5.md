@@ -102,7 +102,7 @@ dast:
 
 API scanners allow you to scan your application API endpoints for potential vulnerabilities. To demonstrate this process, we will use an application template which contains an API configuration.
 
-1. Navigate to your ILT group, which will be named **My Test Group - XXXX**, where the X's will be replaced with your username.
+1. Navigate to your ILT group, which will be named **Session <session-code>**.
 
 1. Select **New project**.
 

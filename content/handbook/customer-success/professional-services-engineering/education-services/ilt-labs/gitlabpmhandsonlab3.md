@@ -31,7 +31,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. *In the lab environment browser tab,* at the top of the page, click the `...` beside `GitLab Learn Labs`.
 
-1. Click on **My Test Group**.
+1. Click on **Session <session-code>**.
 
 1. On the groups page, click on the **Awesome Inc** subgroup. Inside the subgroup, click **Software**.
 
