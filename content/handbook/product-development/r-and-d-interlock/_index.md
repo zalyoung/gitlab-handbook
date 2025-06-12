@@ -485,7 +485,7 @@ Each interlock epic will be linked to its corresponding workstream epic, allowin
 
 #### GitLab's Product Roadmap R&D Interlock Process 
 
-content/handbook/product-development/r-and-d-interlock/interlock-process-diagram.png
+static/images/handbook/interlock-process-diagram.png
 
 ### When to use this process
 
