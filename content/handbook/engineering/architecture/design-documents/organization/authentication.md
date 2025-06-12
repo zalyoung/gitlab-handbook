@@ -5,11 +5,11 @@ By moving authentication to the Organization level, we can consolidate GitLab.co
 
 ## GitLab as an Identity Provider
 
-GitLab functions as an identity provider with support for both OAuth2 and OIDC. See Organizations Identity Provider for details on how OAuth and OIDC will work with Organizations. 
+GitLab functions as an identity provider with support for both OAuth2 and OIDC. See [Organizations Identity Provider] (TODO) for details on how OAuth and OIDC will work with Organizations. 
 
 ## GitLab as a Service Provider
 
-For all other purposes, GitLab functions as an authentication service provider, allowing users to sign-in using other third party identity providers such as with SAML, Google, Azure and more. See OmniAuth documentation for more information. GitLab also provides local, standard database authentication when third-party integration is not needed. 
+For all other purposes, GitLab functions as an authentication service provider, allowing users to sign-in using other third party identity providers such as with SAML, Google, Azure and more. See [OmniAuth documentation](https://docs.gitlab.com/integration/omniauth/) for more information. GitLab also provides local, standard database authentication when third-party integration is not needed. 
 
 SAML SSO (Group SAML) for GitLab.com is a variation of self-managed SAML specific to GitLab.com. 
 
