@@ -255,36 +255,19 @@ OKRs should have the following labels:
 
 ### Retrospectives
 
-The Plan stage conducts [monthly retrospectives asynchronously using GitLab issues](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective). Monthly retrospectives are performed in a Confidential Issue made Public upon Close. Confidentiality of these Issues while Open aligns with [GitLab SAFE Framework](/handbook/legal/safe-framework/).
+The Plan stage conducts [monthly retrospectives asynchronously using GitLab issues](https://gitlab.com/groups/gl-retrospectives/plan-stage/-/issues/?label_name%5B%5D=retrospective). Monthly retrospectives are performed in a Confidential Issue made Public upon Close. Confidentiality of these Issues while Open aligns with [GitLab SAFE Framework](/handbook/legal/safe-framework/).
 
-The Plan Stage team encourages the use of Internal Notes as well to further adhere to SAFE Guidelines. Internal notes remain confidential to participants of the retrospective even after the issue is made public, including Guest users of the parent group. Dogfooding this feature aligns with an FY23 Q4 OKR of improving the GitLab Product development flow by driving the adoption of Plan features.
+Where necessary, the use of Internal Notes is encouraged to further adhere to SAFE Guidelines. Internal notes remain confidential to participants of the retrospective even after the issue is made public, including Guest users of the parent group.
 
 Examples of information that should remain Confidential per SAFE guidelines are any company confidential information that is not public, any data that reveals information not generally known or not available externally which may be considered sensitive information, and material non-public information.
 
-The retrospective issue is created by a scheduled pipeline in the
-[async-retrospectives](https://gitlab.com/gitlab-org/async-retrospectives) project. It is then updated once the milestone
+Retrospective issues are created by a scheduled pipeline in the
+[async-retrospectives](https://gitlab.com/gitlab-org/async-retrospectives) project. They are then updated once the milestone
 is complete with shipped and missed deliverables. For more information on how
 it works, see that project's README.
 
-An EM from the Plan stage is assigned to each retrospective on a rotational
-basis as the DRI for conducting and concluding the retrospective, along with
-summary and corrective actions. The rotation for upcoming milestones is as follows:
-
-| Milestone | DRI |
-|---   | ---       |
-| 17.11 | John Hope |
-| 18.0 | Donald Cook |
-| 18.1 | Vlad Shushlin |
-| 18.2 | John Hope |
-| 18.3 | Donald Cook |
-| 18.4 | Vlad Shushlin |
-| 18.5 | Knowledge EM |
-| 18.6 | John Hope |
-| 18.7 | Donald Cook |
-| 18.8 | Vlad Shushlin |
-| 18.9 | Knowledge EM |
-| 18.10 | John Hope |
-| 18.11 | Donald Cook |
+Each EM is the DRI for conducting and concluding their group's retrospective, along with
+summary and corrective actions.
 
 The role of the DRI is to facilitate a psychologically safe environment where team-members
 feel empowered to give feedback with candour. As such they should refrain from participating
