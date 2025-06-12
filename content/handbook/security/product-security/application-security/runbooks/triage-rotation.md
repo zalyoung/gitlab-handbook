@@ -63,7 +63,7 @@ Team members remain responsible for their own assigned reports.
 
 ### Hand-off to PSIRT/SIRT during triage rotation
 
-When team members are assigned to Triage rotation and are first responder to mentions of @gitlab-com/gl-security/product-security/appsec on GitLab.com or @appsec-team in Slack, assess whether the ping is an external report of a product vulnerability or customer exploit. In these instances, hand off to @gitlab-com/gl-security/product-security/appsec/psirt-group an/or @gitlab-sirt. 
+When team members are assigned to Triage rotation and are first responder to mentions of @gitlab-com/gl-security/product-security/appsec on GitLab.com or @appsec-team in Slack, assess whether the ping is an external report of a product vulnerability or customer exploit. In these instances, hand off to @gitlab-com/gl-security/product-security/appsec/psirt-group and/or @gitlab-sirt. 
 
 Direct reports from customers of vulnerabilities found during container scans to the Vulnerability Mangement team.
 
