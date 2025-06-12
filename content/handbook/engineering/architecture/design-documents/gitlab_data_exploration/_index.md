@@ -325,12 +325,16 @@ directory as the `index.md` for the proposal.
 
 ## Alternative Solutions
 
-1. Build a GLQL-powered data explorer, without moving it to backend.
+1. Build a GLQL-powered data explorer, without any architectural changes to GLQL
+
+   We can just rely on GLQL as it stands now, and just add some data sources that would serve as a first use case.
 
    - Pros: no major architecture changes needed
-   - Cons: Binds GLQL to the limitations of GraphQL for more advanced queries (OR, aggregation, math expression). This will limit the usability of the language, and in turn of the data explorer
+   - Cons: Binds GLQL to the limitations of GraphQL for more advanced queries (OR, aggregations, math expressions). This will limit the usability of the language, and in turn of the data explorer
 
 2. Build a data explorer without GLQL, but just relying on a visual query builder
+   
+   We can reuse some of the current implementation of data explorer, or even what was built for the observability metrics query builder, and extend it to work with multiple data sources filters and queries. 
 
    - Pros: no dependency on GLQL, no major architecture changes needed
    - Cons: Building a visual query builder that works for all data sources is not trivial because of schema and filtering differences, and will probably require ad-hoc frontend datasources adaptors to able to process queries for each data type
