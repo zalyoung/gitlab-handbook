@@ -15,7 +15,7 @@ Features/capabilities Code Creation owns today:
 Code Creation is also responsible for evaluations for each of these features which includes:
 
 - Creating datasets in LangSmith and registering them in the [Datasets repository](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/datasets/-/blob/main/doc/guidelines/register_dataset.md#registration-process)
-- Creating evaluators in [Eli5](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/tree/main/eli5?ref_type=heads)
+- Creating evaluators in [Evaluation Runner](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/evaluation-runner)
 - Running evaluations 
 
 ## About Code Suggestions
