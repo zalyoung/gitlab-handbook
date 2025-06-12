@@ -510,7 +510,7 @@ Work proposed via the R&D Interlock process will benefit from:
 1. **Update interlock status throughout process**
    1. Update interlock status as discussions progress
    1. After the quarter begins, update health status weekly
-   3. Document risks and dependencies as they emerge
+   1. Document risks and dependencies as they emerge
 ### Labels Guide
 
 | Label               | Values| Purpose|
