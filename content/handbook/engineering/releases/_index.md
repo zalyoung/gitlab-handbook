@@ -9,12 +9,12 @@ This page describes the processes used to release packages to self-managed users
 * **[Monthly self-managed release](#monthly-self-managed-overview)**: A GitLab version (XX.YY.0) that [is published every month](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md). From this monthly release, [patch releases](/handbook/engineering/releases/patch-releases/) are created as needed.
 * **[Patch release](#patch-releases-overview)**: Patches addressing bug and vulnerabilities per the [GitLab Maintenance policy](https://docs.gitlab.com/policy/maintenance/).
 * **Maintenance policy**: Describes in detail the release pace of our major, minor and patch releases for self-managed users. The major release yearly cadence was defined [after an all stakeholder discussion](https://gitlab.com/gitlab-com/Product/issues/50).
-* **Active version**: [Active GitLab release](https://about.gitlab.com/releases/) (XX.YY.0) being developed.
+* **Upcoming version**: [New GitLab release](https://about.gitlab.com/releases/) (XX.YY.0) being developed.
 * **Current version**: Last stable released version of GitLab.
 * **Maintained versions**: GitLab versions covered by the [maintenance policy](https://docs.gitlab.com/policy/maintenance/#maintained-versions)
 * **[Backports](#backports-overview)**: Bug or security fixes from a recent version applied to an older version.
 * **[Auto-deploy](/handbook/engineering/deployments-and-releases/deployments/)**: GitLab process to deploy application changes to GitLab.com
-* **[Release managers](https://about.gitlab.com/community/release-managers/)**: DRI's to deliver GitLab monthly and patch releases and performing deployments to GitLab.com
+* **[Release managers](https://about.gitlab.com/community/release-managers/)**: DRI's to deliver GitLab releases and performing deployments to GitLab.com
 
 ## Monthly self-managed overview
 
