@@ -38,33 +38,40 @@ GitLab team members can request Asana access through the Lumos app store. This g
 ### Access Entitlements
 
 #### Marketing Team Members
+
 - **Entitled to**: Full Asana license
 - **Provisioning method**: Automatic via SCIM (approve in Lumos)
 
 #### Non-Marketing Team Members
+
 - **Entitled to**: View-only access
 - **Provisioning method**: Manual invitation through Asana admin console and Lumos
 
 ### Provisioning Process
 
 #### Step 1: Verify Team Membership
+
 Check if the requester is on the Marketing team to determine their access entitlement.
 
 #### Step 2A: Full License Request (Marketing Team Member)
+
 If the requester is on the Marketing team and requesting a full license:
 1. Approve the request in Lumos
 2. User will be automatically provisioned via SCIM
 
 #### Step 2B: Full License Request (Non-Marketing Team Member)
+
 If the requester is NOT on the Marketing team but requested a full license:
 1. Comment on the Lumos thread explaining they are only entitled to view-only access
 2. Ask the requester to re-submit their request specifically for view-only access
 3. **Deny the original Lumos request** (requests cannot be edited)
 
 #### Step 2C: View-Only Request (Any Team Member)
+
 For view-only access requests, manual provisioning is required:
 
 ##### Manual Invitation Process
+
 1. Navigate to the [Asana admin console](https://app.asana.com/admin/306855239930259/members)
 2. Click **"Invite Members"** in the top right corner
 3. In the invitation dialog:
