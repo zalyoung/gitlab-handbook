@@ -194,7 +194,6 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Keep around references](/handbook/company/working-groups/keep-around-refs/)
 1. [Product Accessibility](/handbook/company/working-groups/product-accessibility/)
 1. [Secure Govern Database Decomposition](/handbook/company/working-groups/secure-govern-database-decomposition/)
-1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 1. [User journey map](/handbook/company/working-groups/user-journey-map/)
 
 ## Past Working Groups (alphabetic order)
@@ -295,6 +294,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Tiering](/handbook/company/working-groups/tiering/)
 1. [Token Management](/handbook/company/working-groups/token-management/)
 1. [Transient Bugs](/handbook/company/working-groups/transient-bugs/)
+1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 1. [Upstream Diversity](/handbook/company/working-groups/upstream-diversity/)
 1. [Usage Reporting](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1)
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
