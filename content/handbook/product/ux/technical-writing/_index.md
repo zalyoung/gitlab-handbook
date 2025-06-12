@@ -34,8 +34,10 @@ The team manages general documentation-related and team-specific Slack channels:
 
 ## Docs feedback or ideas
 
-- See a problem in the GitLab documentation? Open a merge request with the `Documentation` template.
-- Have ideas for a documentation improvement? Open an issue [with the `Documentation` template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?description_template=Documentation).
+Found a problem or have ideas for improving GitLab documentation? Use the **Help & feedback** section at the bottom of any docs page:
+
+- To open the Markdown file and make changes directly, select **Edit this page**.
+- To create an issue with your feedback or ideas, select **Suggest updates**.
 
 ## Learn GitLab tech writing fundamentals
 
