@@ -63,7 +63,7 @@ This work directly supports the ["Next Rate Limiting Architecture" blueprint](..
 
 We propose to create a standardized YAML schema that defines the rate limit parameters for GitLab's various rate limiting systems. This focused schema will serve as a single source of truth for rate limit values, without attempting to reimplement or reconfigure the underlying rate limiting mechanisms.
 
-The schema will be organized as a list of all rate limits, with a simple structure that can be easily understood, maintained, and extended for new rate limiting systems:
+The schema will be organized as a list of all rate limits, with a simple structure that can be easily understood, maintained, and extended for new rate limiting systems.
 
 ### Project
 
@@ -74,7 +74,7 @@ Within this group, we will create a new `kind` project `gitlab-com/kinds/rate-li
 - The YAML schema definition itself
 - Example configurations
 - Documentation
-- Tooling for schema validation
+- Tooling for schema validation and configuration consumption (Ruby library, Jsonnet library, Terraform module...)
 
 This project will be the canonical source of the rate limiting schema, making it easy for various GitLab components to reference a specific version of the schema.
 
@@ -86,9 +86,9 @@ The tooling will be based on the existing one from the [`tenant-model-schema`](h
 
 The schema will follow strict semantic versioning principles:
 
-- Major Version (X.y.z): Incremented for breaking changes that require consumers to update their implementation
-- Minor Version (x.Y.z): Incremented for backward-compatible additions to the schema
-- Patch Version (x.y.Z): Incremented for backward-compatible bug fixes or documentation updates
+- Major Version (X.y.z): Incremented for breaking changes that require consumers to update their implementation; these should be carefully considered and avoided as much as possible, and should be rolled out in multiple stages following the [Expand/Contract pattern](https://blog.thepete.net/blog/2023/12/05/expand/contract-making-a-breaking-change-without-a-big-bang/).
+- Minor Version (x.Y.z): Incremented for backward-compatible additions to the schema.
+- Patch Version (x.y.Z): Incremented for backward-compatible bug fixes or documentation updates.
 
 Each release will be properly tagged in the repository, allowing consumers to pin to specific versions or version ranges.
 
@@ -120,4 +120,52 @@ rate_limits:
     limit:
       threshold: 5  # Number of requests
       period: "1d"  # Time period (s=seconds, m=minutes, h=hours, d=days)
+```
+
+### Rate Limits Configuration Flow
+
+```mermaid
+flowchart TB
+    subgraph Rate Limit Kind Project
+        S[Rate Limiting Configuration YAML Schema]
+        RL[Ruby Library]
+        TM[Terraform Module]
+    end
+
+    subgraph Cloudflare
+        WAFCells[Cells WAF]
+        WAFSaaS[SaaS WAF]
+    end
+
+    subgraph GitLab SaaS
+        subgraph Rails Application
+            RL -. Include .-> CRLSaaS[class RateLimits]
+            CRLSaaS -- Configure --> RASaaS[Rack Attack]
+            CRLSaaS -- Configure --> ARLSaaS[Application Rate Limits]
+        end
+
+        subgraph Rate Limits Configuration Project
+            S -. Validate .-> CfgSaaS[Rate Limits YAML Configuration]
+        end
+
+        CfgSaaS -- Fetch --> HelmSaaS["Helm (k8s-workloads/gitlab-com)"] -- Configure --> CRLSaaS
+        CfgSaaS -- Fetch --> TFSaaS["Terraform (config-mgmt)"] -- Configure --> WAFSaaS
+        TM -. Include .-> TFSaaS
+    end
+
+    subgraph Cell / Dedicated Tenant
+        subgraph Rails Application
+            RL -. Include .-> CRLCells[class RateLimits]
+            CRLCells -- Configure --> RACells[Rack Attack]
+            CRLCells -- Configure --> ARLCells[Application Rate Limits]
+        end
+
+        subgraph Instrumentor
+            S -. Validate .-> CfgCells[Rate Limits YAML Configuration]
+            TMCells["Tenant Model"] -- Generate --> CfgCells
+            CfgCells --> HelmCells[Helm] -- Configure --> CRLCells
+            CfgCells --> TFCells[Terraform] -- Configure --> WAFCells
+            TM -. Include .-> TFCells
+        end
+    end
 ```
