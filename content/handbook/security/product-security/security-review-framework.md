@@ -253,33 +253,85 @@ Optional Review: SPA and/or Data Security, if the feature fullfills their [engag
 
 * SDX Design review
   * Threat modelling
+    * DRI: [SD&D](https://handbook.gitlab.com/handbook/security/product-security/application-security/appsec-operations/sdd-services/)
+    * Deliverable: Threat model with design level security assessment and identified threats.
   * Design Review
+    * DRI: SD&D
+    * Deliverable: Design will be verified against best practices and recommendations will be provided.
+  * SPA review (IF [`Architecture Impact`](#architecture-impact-1-4) >= 4)
+    * DRI: [SPA](https://handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/)
+    * Deliverable: System design, data flows, architectural patterns, trust boundaries, component interactions will be verified aganist best practices and recommendations will be provided. 
+  * Data Security review (IF [`Data Processing Impact`](data-processing-impact-1-4) >= 4)
+    * DRI: [Data Security](https://handbook.gitlab.com/handbook/security/product-security/data-security/)
+    * Deliverable: Data access controls, data infrastructure, data lifecycle, cryptography, key management, third-party services will be verified aganist best practices and recommendations will be provided.
 * SDX Code review
-  * AppSec MR reviews
+  * Merge request review
+    * DRI:  SD&D
+    * Deliverable: MR will be reviewed for implementation level security issue.
   * Verify adherence to [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) 
-  * Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools.
+    * DRI:  SD&D
+    * Deliverable: MR will be reviewed to check if [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) is followed.
+  * Static analysis
+    * DRI:  SD&D
+    * Deliverable:  SD&D will run Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools and [SAST tools](https://docs.gitlab.com/user/application_security/sast/).
 * SDX Verify review  
+  * Dynamic Analysis
+    * DRI: SD&D
+    * Deliverable: SD&D will run Dynamic Analysis using [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
+  * Penetration Testing 
+    * DRI: SD&D
+    * Deliverable: SD&D will run a pen-testing and share identified issues. 
   * Final Security Review
-    * Whether critical vulnerabilities identified in other reviews are remediated.
-    * Dynamic Analysis using tools like [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
-    * Penetration Testing by AppSec
+    * DRI: SD&D
+    * Deliverable: Check whether critical vulnerabilities identified in other reviews are remediated.
 
 #### High Risk Review
 
-* Joint architectural review
-* Focused threat modeling
-* Targeted code review
-* Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
+* SDX Design review
+  * Change focused Threat modelling
+    * DRI: SD&D
+    * Deliverable: Threat model with design level security assessment and identified threats.
+  * Change focused Design Review
+    * DRI: SD&D
+    * Deliverable: Design will be verified against best practices and recommendations will be provided.
+  * SPA review (IF [`Architecture Impact`](#architecture-impact-1-4) >= 4)
+    * DRI: SPA
+    * Deliverable: System design, data flows, architectural patterns, trust boundaries, component interactions will be verified aganist best practices and recommendations will be provided. 
+  * Data Security review (IF [`Data Processing Impact`](data-processing-impact-1-4) >= 4)
+    * DRI: Data Security
+    * Deliverable: Data access controls, data infrastructure, data life cycle, cryptography, key management, third-party services will be verified aganist best practices and recommendations will be provided.
+* SDX Code review
+  * Merge request review
+    * DRI:  SD&D
+    * Deliverable: MR will be reviewed for implementation level security issue.
+  * Verify adherence to [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) 
+    * DRI:  SD&D
+    * Deliverable: MR will be reviewed to check if [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) is followed.
+  * Static analysis
+    * DRI:  SD&D
+    * Deliverable:  SD&D will run Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools and [SAST](https://docs.gitlab.com/user/application_security/sast/) tools.
 
 #### Medium Risk Review
 
-* Security checklist completion
-* Timeline: 3-5 business days
+* Security checklist completion 
+  * DRI: SD&D
+  * Deliverable: 
+    * Check whether [Security Standards](https://handbook.gitlab.com/handbook/security/standards/) are met.
+    * Check if [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) is followed.
 
 #### Low Risk Review
 
 * Self-assessment against security guidelines
+    * DRI: Product Team
+    * Deliverable:
+        * Check whether [Security Standards](https://handbook.gitlab.com/handbook/security/standards/) are met.
+        * Check if [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) is followed.
 * Automated security scanning
+    * DRI: Product Team
+    * Deliverable:
+        * Remediate issues identified in Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/)
+        * Remediate issues identified by [SAST tools](https://docs.gitlab.com/user/application_security/sast/) are enabled.
+        * Remediate issues identified in Dynamic Analysis using tools like [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
 
 ### Review SLO
 
