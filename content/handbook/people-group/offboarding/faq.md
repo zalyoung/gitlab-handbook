@@ -41,7 +41,7 @@ The following can be used as a guide on what actions could be taken before your 
 ### GitLab.com
 
 - Unassign yourself and re-assign any open projects, issues or merge requests to other team members or your manager.
-- Transfer ownership of any scheduled pipelines to other team members or your manager.
+- Transfer ownership of any scheduled pipelines to other team members or your manager. For example [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) project scheduled pipelines. 
 
 ### 1Password
 
