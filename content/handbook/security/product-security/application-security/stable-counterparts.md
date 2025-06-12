@@ -44,7 +44,7 @@ is the Stable Counterpart it can be even more difficult to stay up to date on wh
 on each group.
 
 One change in how to approach that for some team members was to **setup bi-weekly sync meetings
-with a member of the engineer team and discuss security releated topics**. This has started to
+with a member of the engineer team and discuss security related topics**. This has started to
 work on the first meeting and enabled the Application Security to cover important issues that would
 not necessarily be seen without this change.
 
@@ -67,7 +67,7 @@ Here are some verbatim answers, capturing how AppSec does (or did) Stable Counte
 - How do you get familiar with the work they've done / their code?
   - It came with time. The more I spend doing reviews for a particular group the more I got comfortable with the code and was familiar with some particular functions. One thing to remember is to not be afraid to ask questions when we do code reviews if the code is not clear to us.
 - How do you balance this with other work?
-  - My proritisation was the following (by order of importance): Rotations, stable counterpart work, OKRs, other initiatives. If my manager asked me to jump on something top priority then this was obviously taking the priority over anything else (if not on rotation). Of course anything that comes from top management gets prioritised if they are asking us to jump on that with highest priority (examples: an acquisition security review, special ask from my manager and above).
+  - My prioritization was the following (by order of importance): Rotations, stable counterpart work, OKRs, other initiatives. If my manager asked me to jump on something top priority then this was obviously taking the priority over anything else (if not on rotation). Of course anything that comes from top management gets prioritized if they are asking us to jump on that with highest priority (examples: an acquisition security review, special ask from my manager and above).
 
 ### Dominic
 
