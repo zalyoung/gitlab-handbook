@@ -27,7 +27,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 ## Task B. Create organizational subgroups
 
-1. Navigate to your personal top-level group by going to `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>`, replacing the **<INVITATION_CODE>** with your provided code, and **<USERNAME>** with your username. If you are unsure of what your username is, click on the profile picture in the top right corner, and copy the username provided without the @ symbol.
+1. Navigate to your personal top-level group by going to `https://gitlab.com/gitlab-learn-labs/events/session-<session-code>`, replacing the **<session-code>** with your provided code.
 
 1. Click the **New Subgroup** button in the top right corner.
 
@@ -35,7 +35,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. The **Subgroup URL** shows which namespace hierarchy that this group will be created in.
 
-   - **Do not change the Subgroup URL in this class. You will always create projects under `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>` since this is your top-level organization group for these steps.**
+   - **Do not change the Subgroup URL in this class. You will always create projects under `https://gitlab.com/gitlab-learn-labs/events/session-<session-code>` since this is your top-level organization group for these steps.**
 
 1. The **Subgroup slug** will automatically populate based on the name. Rename `awesome-inc` to `awesome`.
 
@@ -46,7 +46,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
    > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
 
 1. Click the **Create subgroup** button.
-   - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>/awesome`.
+   - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://gitlab.com/gitlab-learn-labs/events/session-<session-code>/awesome`.
 
 1. **Congratulations!** You have created your first group and are ready to create additional groups on your own. Within the **Awesome Inc** group, create subgroups for each of these teams at your awesome company.
    - **Software**
