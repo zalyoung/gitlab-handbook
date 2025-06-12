@@ -483,7 +483,7 @@ These epics are separate from existing workstream epics. While implementation wo
 
 Each interlock epic will be linked to its corresponding workstream epic, allowing for easy navigation and drilldown into the actual implementation work. Since the group is private, this allows us to maintain confidentiality while still providing transparency into delivery progress.
 
-#### GitLab's Product Roadmap R&D Interlock Process 
+### GitLab's Product Roadmap R&D Interlock Process 
 
 static/images/handbook/interlock-process-diagram.png
 
