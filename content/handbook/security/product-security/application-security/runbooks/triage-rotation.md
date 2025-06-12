@@ -34,6 +34,7 @@ The following rotations are defined:
       - Use the `Urgent - SEOC should be paged right away` option if waiting up to 24 hours for a resolution would be too long.
   - First responder to mentions of the following group aliases:
     - @gitlab-com/gl-security/product-security/appsec on GitLab.com
+      - PSIRT and/or SIRT are responsible for addressing external reports of a product vulnerability or customer exploit. See [Hand-off to PSIRT/SIRT during triage rotation](#hand-off-to-psirtsirt-during-triage-rotation)
     - @appsec-team in Slack
   - First responder to mentions from the custom SAST bot:
     - All merge requests with the [`~appsec-sast-ping::unresolved` label](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=appsec-sast-ping%3A%3Aunresolved) must be reviewed.
@@ -59,6 +60,12 @@ reports when possible, especially to close duplicates or handle related reports
 to those they have already triaged.
 
 Team members remain responsible for their own assigned reports.
+
+### Hand-off to PSIRT/SIRT during triage rotation
+
+When team members are assigned to Triage rotation and are first responder to mentions of @gitlab-com/gl-security/product-security/appsec on GitLab.com or @appsec-team in Slack, assess whether the ping is an external report of a product vulnerability or customer exploit. In these instances, hand off to @gitlab-com/gl-security/product-security/appsec/psirt-group an/or @gitlab-sirt. 
+
+Direct reports from customers of vulnerabilities found during container scans to the Vulnerability Mangement team.
 
 ### Triaging exposed secrets
 
