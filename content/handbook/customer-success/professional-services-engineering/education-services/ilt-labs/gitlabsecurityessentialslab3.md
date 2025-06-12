@@ -80,7 +80,7 @@ Now that you have dependencies added to your project, you want to ensure that th
 1. Add the following line to your `include` block:
 
     ```yml
-      - component: ilt.gitlabtraining.cloud/components/dependency-scanning/main@main
+      - component: gitlab.com/components/dependency-scanning/main@main
     ```
 
 1. Write an appropriate commit message (ex. "Added Dependcy scanning to pipeline"), ensure that youa are committing to the main branch, and select **Commit changes**.

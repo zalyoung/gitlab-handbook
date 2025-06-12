@@ -40,7 +40,7 @@ To accommodate our new application type, we will modify our CI/CD process by rem
 image: golang
 
 include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+  - component: gitlab.com/components/sast/sast@main
 
 workflow:
   rules:

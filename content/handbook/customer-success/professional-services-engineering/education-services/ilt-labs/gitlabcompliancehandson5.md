@@ -34,7 +34,7 @@ stages:
     - test
 
 include:
-    component: ilt.gitlabtraining.cloud/components/sast/sast@main
+    component: gitlab.com/components/sast/sast@main
 ```
 
 1. Select **Commit changes**.

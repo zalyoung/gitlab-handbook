@@ -37,7 +37,7 @@ To start, let's create a new project in the lab environment:
 
     ```shell
     gitlab-runner register  
-        --url https://ilt.gitlabtraining.cloud  
+        --url https://gitlab.com  
         --token glrt-bzoxCnA6aDlvCnQ6Mwp1OmFtdCQKGl9glOywWMYcfTG74GwQ.1c1rc1xe9
     ```
 
@@ -89,7 +89,7 @@ Let's take a look at how this is structured:
     ```yml
         script:
           - ssh root@$ip 'gitlab-runner unregister --all-runners'
-          - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"$GITLAB_RUNNER_TOKEN"
+          - ssh root@$ip 'gitlab-runner register --non-interactive --url https://gitlab.com --executor "docker" --docker-image alpine:latest  --token '"$GITLAB_RUNNER_TOKEN"
     ```
 
    > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
@@ -138,7 +138,7 @@ When this runner is created, it will have a `config.toml` file that defines the 
 
     [[runners]]
       name = "runner-test"
-      url = "https://ilt.gitlabtraining.cloud"
+      url = "https://gitlab.com"
       id = 1852
       token = "your-token-here"
       token_obtained_at = 2025-05-08T12:59:30Z
@@ -255,7 +255,7 @@ To make these changes, we will push a `config.toml` file to the runner.
         - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
       script:
         - ssh root@$ip 'gitlab-runner unregister --all-runners'
-        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token your-runner-token'
+        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://gitlab.com --executor "docker" --docker-image alpine:latest  --token your-runner-token'
         - scp config.toml root@$ip:/etc/gitlab-runner/config.toml
         - ssh root@$ip 'gitlab-runner restart'
         - ssh root@$ip 'cat /etc/gitlab-runner/config.toml'

@@ -108,14 +108,14 @@ Please take time to understand any code that you are asked to copy and paste in 
 1. In your terminal, run the following command to test your connection.
 
    ```bash
-   ssh -T git@ilt.gitlabtraining.cloud
+   ssh -T git@gitlab.com
    ```
 
 There are a few possible outcomes with this command:
 
 - If you see a welcome message, you have succeeded in configuring your SSH key. Move on to the next task.
-- If you see an error like `git@ilt.gitlabtraining.cloud: Permission denied (publickey)`, you have configured your key incorrectly. You should ensure your SSH key is setup on your computer and added to your profile correctly. Make sure you have created a valid SSH key by running `ssh-keygen -t ed25519`.
-- If you see an error like `ssh: could not resolve hostname ilt.gitlabtraining.cloud`, then this is likely your network blocking the SSH connection. In this case, move on to the next task.
+- If you see an error like `git@gitlab.com: Permission denied (publickey)`, you have configured your key incorrectly. You should ensure your SSH key is setup on your computer and added to your profile correctly. Make sure you have created a valid SSH key by running `ssh-keygen -t ed25519`.
+- If you see an error like `ssh: could not resolve hostname gitlab.com`, then this is likely your network blocking the SSH connection. In this case, move on to the next task.
 
 ## Task D. Clone a GitLab project repository to your local computer
 
