@@ -553,4 +553,5 @@ The Plan stage has an incredible product roadmap for this year, with many items 
    - **A:** Of course, let us know if you have any questions about filter criteria or label usage.
 1. **Q:** Do I need to make my epic confidential since I'm mentioning customer information?
    - **A:** No, the group https://gitlab.com/gitlab-org/gitlab-rd-planning is private, so there is no need to make your epic confidential.
+
 </details>
