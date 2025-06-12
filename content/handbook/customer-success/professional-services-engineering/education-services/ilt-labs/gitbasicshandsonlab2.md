@@ -30,6 +30,8 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ## Task B. Generate an SSH key
 
+> Note: If you have an SSH key arleady associated with your account, skip to task D, as you can use your pre-existing key for this lab.
+
 > GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don't need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
 
 1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
@@ -44,11 +46,11 @@ Please take time to understand any code that you are asked to copy and paste in 
    ssh-keygen
    ```
 
-3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press <kbd>Enter</kbd> to accept the default key location and name.
+3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press **Enter** to accept the default key location and name.
 
    > If preferred, you can also provide a custom file path and key name for this step.
 
-4. The second prompt will ask you to set a password for the key file. Press <kbd>Enter</kbd> to use a blank passphrase for the local key file.
+4. The second prompt will ask you to set a password for the key file. Press **Enter** to use a blank passphrase for the local key file.
 
    > To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
 

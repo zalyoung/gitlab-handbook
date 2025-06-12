@@ -17,7 +17,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 1. Click the **Create blank project** tile.
 
-1. Name your project `Second Project`
+1. Name your project `Second Project`.
 
 1. Make sure the project visibility is set to **Private**.
 
@@ -49,7 +49,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
    > The **Source** value defines where the changes for the merge request will be applied. In this example, you are making changes that will apply to the `main` branch.
 
-1. Click the **Create merge request** button
+1. Click the **Create merge request** button.
 
 1. After clicking **Create merge request**, you will be redirected to the **New merge request** page.
 
@@ -95,7 +95,7 @@ After creating the merge request, you now have 3 linked items that all relate on
 
 1. In the left-hand file explorer, click on `README.md`.
 
-1. On line 3 of the file, type `Edit my README.md file`
+1. On line 3 of the file, type `Edit my README.md file`.
 
 1. In the left pane of the IDE, click on the **Source control** button (it looks like a mini Git branching graph).
 

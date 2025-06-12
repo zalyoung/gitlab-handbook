@@ -80,15 +80,11 @@ In this example, let’s look at how we can cancel the pipeline in the case wher
         - jet test.js
     ```
 
-1. Select **Commit changes**.
-
-  Let's see how the pipeline handles the failed job.
+1. Select **Commit changes**. Let's see how the pipeline handles the failed job.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select your most recent pipeline and observe the jobs. Note that when the `test fail` job fails, other jobs cancel, showing a grey slash icon.
-
-  Now that we have verified the auto cancel works, let's remove the failing job.
+1. Select your most recent pipeline and observe the jobs. Note that when the `test fail` job fails, other jobs cancel, showing a grey slash icon. Now that we have verified the auto cancel works, let's remove the failing job.
 
 1. Navigate to your repository.
 
