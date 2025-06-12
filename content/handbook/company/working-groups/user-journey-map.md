@@ -5,6 +5,8 @@ description: "This working group has been established to develop a strategic fra
 
 These maps will enable Product, UX, and Dev teams to understand the complete journey of customers and GitLab users as they discover, evaluate, adopt, and integrate our DevSecOps platform. By identifying friction points, opportunities for education, and moments that matter most to users, we will create seamless pathways that increase first orders, accelerate successful onboarding, and strengthen long-term retention across our customer base.
 
+While this working group focuses on creating a structured foundation for journey maps, there are various initiatives ongoing related to the creation of maps that can be found in the [UX Backlog User Journey Mapping issue](https://gitlab.com/gitlab-com/Product/-/issues/14135).
+
 ## Attributes
 
 | Property     | Value            |
@@ -26,8 +28,8 @@ This working group aims to:
 
 ## Business outcomes and exit criteria
 
-- Define key terminology including: User journey, golden journey, journey map, and journey hierarchy/fidelity `=> 0%`
-- Develop guidelines for various levels of journey hierarchy (macro, mid, micro) `=> 0%`
+- Define key terminology including: User journey, golden journey, journey map, and journey elevation/fidelity `=> 0%`
+- Develop guidelines for various levels of journey elevation (macro, mid, micro) `=> 0%`
   - Develop processes for identifying connection points between team-level journeys `=> 0%`
   - Create guidance for how different teams can contribute to shared journeys `=> 0%`
   - Define how micro-level journeys connect to and support mid/macro-level journeys/golden journeys `=> 0%`
