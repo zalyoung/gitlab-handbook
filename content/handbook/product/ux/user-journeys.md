@@ -3,9 +3,10 @@ title: "User journeys"
 description: "User journeys help GitLab teams understand and optimize the complete experience of customers as they discover, adopt, and integrate our DevSecOps platform to drive both user success and business value."
 ---
 
-## Intro and goal
+User journey mapping at GitLab provides a strategic framework for Product, UX, and Dev teams to understand the complete journey of customers and GitLab users as they discover, evaluate, adopt, and integrate our DevSecOps platform. By systematically mapping these experiences:
 
-User journey mapping at GitLab provides a strategic framework for Product, UX, and Dev teams to understand the complete journey of customers and GitLab users as they discover, evaluate, adopt, and integrate our DevSecOps platform. By systematically mapping these experiences, we identify friction points, opportunities for education, and moments that matter most to users to create seamless pathways that increase first orders, accelerate successful onboarding, and strengthen long-term retention across our customer base.
+- We identify friction points, opportunities for education, and moments that matter most to users.
+- We create seamless pathways that increase first orders, accelerate successful onboarding, and strengthen long-term retention across our customer base.
 
 ## Key terminology
 
