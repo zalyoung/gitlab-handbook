@@ -5,8 +5,6 @@ group: Organizations
 toc_hide: true
 ---
 
-# Organization Authentication
-
 The current state of authentication in GitLab requires many features to be developed twice: once for GitLab.com top-level groups and once for self-managed instances. This duplication arises because GitLab.com often requires special treatment due to the lack of an isolated container for enterprise customers. As a result, we've built specialized features around top-level groups for authentication, account ownership, and user management.
 By moving authentication to the Organization level, we can consolidate GitLab.com and self-managed authentication in one unified approach. This consolidation will resolve account ownership and management concerns on GitLab.com while providing feature parity across all deployment models. Organizations will serve as the natural boundary for authentication policies, user management, and administrative control, bringing the full GitLab experience to all platforms.
 
