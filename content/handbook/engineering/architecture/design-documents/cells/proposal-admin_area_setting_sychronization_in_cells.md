@@ -81,6 +81,7 @@ ringctl setting-sync --ring=<ring_name> [options]
 ```
 
 This implementation could potentially:
+
 1. Support concurrent operations across multiple cells in a ring
 2. Implement a get-then-update pattern to ensure settings are only changed when needed
 3. Provide detailed feedback on operations
@@ -184,6 +185,7 @@ Several options could address this challenge:
 **Approach**: Leverage Terraform for managing settings across cells.
 
 **Considerations**:
+
 - Benefits from being an established infrastructure-as-code tool
 - Offers strong state management capabilities
 - Provides a declarative approach to configuration
@@ -197,6 +199,7 @@ Several options could address this challenge:
 **Approach**: Utilize configuration management tools (Ansible, Salt, Chef, Puppet) via SSH.
 
 **Considerations**:
+
 - Leverages well-established patterns for configuration management
 - Offers a rich ecosystem of existing modules
 - Would require SSH access to cells, which has security implications to consider
@@ -209,6 +212,7 @@ Several options could address this challenge:
 **Approach**: Implement GitOps tools to automatically apply configuration from Git repositories.
 
 **Considerations**:
+
 - Provides a declarative approach with Git as source of truth
 - Includes built-in reconciliation mechanisms
 - Creates a good audit trail via Git history
@@ -221,6 +225,7 @@ Several options could address this challenge:
 **Approach**: Develop a tailored service dedicated to settings synchronization.
 
 **Considerations**:
+
 - Could be designed specifically for the requirements
 - Might optimize for the exact use case
 - Would require development resources
@@ -232,6 +237,7 @@ Several options could address this challenge:
 **Approach**: Build on existing tools to use API-based execution for settings synchronization.
 
 **Considerations**:
+
 - Builds on existing tools and knowledge
 - Could support idempotent operations
 - Avoids SSH dependencies through API-based execution
