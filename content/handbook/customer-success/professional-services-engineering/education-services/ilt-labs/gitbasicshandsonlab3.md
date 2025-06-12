@@ -11,9 +11,9 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 ## Task A. Create a new project
 
-1. Navigate to your **My Test Group** by clicking it in the breadcrumb at the top of the page.
+1. Navigate to your **Session <session-code>** by clicking it in the breadcrumb at the top of the page.
 
-1. From your **My Test Group** in GitLab, click the **New project** button.
+1. From your **Session <session-code>** in GitLab, click the **New project** button.
 
 1. Click the **Create blank project** tile.
 
