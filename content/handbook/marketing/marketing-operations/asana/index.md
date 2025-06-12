@@ -56,12 +56,14 @@ Check if the requester is on the Marketing team to determine their access entitl
 #### Step 2A: Full License Request (Marketing Team Member)
 
 If the requester is on the Marketing team and requesting a full license:
+
 1. Approve the request in Lumos
 2. User will be automatically provisioned via SCIM
 
 #### Step 2B: Full License Request (Non-Marketing Team Member)
 
 If the requester is NOT on the Marketing team but requested a full license:
+
 1. Comment on the Lumos thread explaining they are only entitled to view-only access
 2. Ask the requester to re-submit their request specifically for view-only access
 3. **Deny the original Lumos request** (requests cannot be edited)
