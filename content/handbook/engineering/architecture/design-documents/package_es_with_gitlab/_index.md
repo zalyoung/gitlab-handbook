@@ -64,7 +64,7 @@ Industry competitors like GitHub provide more integrated search experiences out-
 ### Non-Goals
 
 - Convert instances using OpenSearch to switch to Elasticsearch
-- Remove support for existing external Elasticsearch configurations
+- Remove support for external Elasticsearch or OpenSearch configurations
 - Replace other vector database solutions for specialized use cases
 - Address all scaling challenges in PostgreSQL
 
@@ -73,26 +73,26 @@ Industry competitors like GitHub provide more integrated search experiences out-
 We propose to package Elasticsearch with GitLab distribution through the following key initiatives:
 
 1. **Elasticsearch sizing and configuration**:
-   - Configuration and performance optimizations
-   - Resiliancy and high availability
-   - Support for upgrades
-   - Update reference architecture and documentation to include Elasticsearch instance sizing
+   - [Update reference architecture and documentation](https://gitlab.com/groups/gitlab-org/-/epics/18151) to include Elasticsearch minimum and recommended system specifications. This includes:
+     - Configuration and performance optimizations
+     - Resiliency and high availability
+     - Support for upgrades
    - Include Elasticsearch as an optional component in all GitLab installation methods
 
 2. **Improved configuration automation**:
-   - Automate Elasticsearch index configuration for GitLab with sensible defaults
-   - [Automate maintenance tasks](https://gitlab.com/groups/gitlab-org/-/epics/15888) for existing indexes
+   - [Automate Elasticsearch index configuration](https://gitlab.com/gitlab-org/gitlab/-/issues/549311) for GitLab with sensible defaults
+   - [Automate maintenance tasks](https://gitlab.com/groups/gitlab-org/-/epics/15888) for indexes
    - Expand existing health checks and self-healing capabilities to include connectivity checks
 
 ## Design and Implementation Details
 
 ### Technical Approach
 
-For the initial implementation, we propose to include Elasticsearch core version with GitLab's distribution packages, with the following considerations:
+For the initial implementation, we propose to include Elasticsearch core version (AGPL-licensed) with GitLab's distribution packages, with the following considerations:
 
 1. **Packaging Method Considerations**:
    - For Omnibus: Bundle Elasticsearch as a configurable component
-   - For Kubernetes: Leveraging the [cloud-on-k8s](https://github.com/elastic/cloud-on-k8s) project
+   - For Kubernetes: Build custom Helm charts
    - For Docker: Include Elasticsearch in the standard docker-compose setup
    - For GET: Include Elasticsearch as a configurable component
 
@@ -104,8 +104,7 @@ For the initial implementation, we propose to include Elasticsearch core version
 3. **Configuration and Resource Allocation**:
    - Default to a minimal configuration suitable for small instances
    - Provide configuration templates for different instance sizes
-   - Implement automatic scaling parameters based on instance characteristics
-   - In single server implementations, configure resources to prevent Elasticsearch from impacting GitLab performance
+   - In single server implementations, Elasticsearch and JVM require careful resource allocation to prevent Elasticsearch from impacting GitLab performance
 
 ### Package Size and Performance Considerations
 
@@ -119,13 +118,6 @@ For the initial implementation, we propose to include Elasticsearch core version
   - For Elasticsearch, we should evaluate using pre-built binaries vs. building from source
   - Using pre-built binaries would minimize build time impact but may limit customization
   - Building from source would increase build times but provide more flexibility
-
-- **Resource Isolation**:
-  - Elasticsearch and JVM will require careful resource allocation to prevent performance impact
-  - Memory requirements for Elasticsearch + JVM should be properly documented
-  - Recommendations for minimum and recommended system specifications will need to be updated
-
-- **Precedent**: Other large components like PostgreSQL (average build time 42.54s) and Ruby (average build time 87.54s) have been successfully integrated into the omnibus package
 
 ### Evaluations and Evidence
 
