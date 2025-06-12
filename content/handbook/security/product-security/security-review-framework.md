@@ -281,6 +281,17 @@ Optional Review: SPA and/or Data Security, if the feature fullfills their [engag
 * Self-assessment against security guidelines
 * Automated security scanning
 
+### Review SLO
+
+These are initial estimates and are subjected to change as we adopt the framework.
+
+|Review Type | Critical Risk Level| High Risk Level|Medium Risk level|
+|--|--|--|--|
+|SDX Design Review|10 days|5 days|--|
+|SDX Code Review (May extend based on number of MRs)|10 days|5 days |--|
+|SDX Verify|10 days|5 days|--|
+|Security checklist completion |--|--|5 days|
+
 ### Infrastructure Security Review Process
 
 DRI: InfraSec Team
