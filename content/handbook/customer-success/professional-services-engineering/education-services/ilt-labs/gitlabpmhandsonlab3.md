@@ -17,7 +17,7 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
 1. In the left pane, click **Manage > Labels**.
 
-1. Click **New label** in the upper right hand corner.
+1. Click the **New label** button.
 
 1. In the **Title** field, enter `Status::Open`. The 2 colons in the label title mean that this will be a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels).
 

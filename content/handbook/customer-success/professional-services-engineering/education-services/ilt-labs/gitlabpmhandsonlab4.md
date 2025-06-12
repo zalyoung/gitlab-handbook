@@ -13,7 +13,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 ## Task A. Set merge request approval rules
 
-1. Navigate to your **Database** project inside the **Software > Core** subgroup.
+1. Navigate to your **Family Budget Calculator** project inside the **Software > Core** subgroup.
 
 1. In the left pane, click **Settings > Merge Requests**.
 
@@ -43,7 +43,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 ## Task B. Create a merge request
 
-1. In your **Database** project, click **Issues** in the left pane.
+1. In your **Family Budget Calculator** project, click **Issues** in the left pane.
 
 1. Click into your **Identify tuning parameters to reduce performance bottlenecks** issue.
 
@@ -57,7 +57,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. Click **Create merge request**.
 
-1. Type `Draft: Add performance tools to database documentation` in the **Title** field.
+1. Type `Draft: Add performance tools to Family Budget Calculator documentation` in the **Title** field.
 
     > Putting **'Draft:'** at the beginning of your merge request means that the merge request will not occur until it has been marked as ready. This is used to note that a merge request is not ready to be merged yet, and to prevent accidental merges. Note that the **Mark as draft** checkbox below the title will also check automatically when **'Draft:'** is added to the title.
 
@@ -79,7 +79,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
     ```markdown
     ## Performance tools
-    The database currently uses HAProxy for load balancing.
+    The Family Budget Calculator currently uses HAProxy for load balancing.
     We are researching and testing additional tools to improve performance.
     ```
 
@@ -95,9 +95,9 @@ Approval rules define how many approvals a merge request must receive before it 
 
 > For advice on best practices when it comes to code reviews, see the [documentation](https://docs.gitlab.com/ee/development/code_review.html).
 
-1. Navigate to the `Draft: Add performance tools to database documentation` merge request by clicking on the red GitLab button in the bottom left corner of the Web IDE, and then clicking **Go to Database project on GitLab**.
+1. Navigate to the `Draft: Add performance tools to Family Budget Calculator documentation` merge request by clicking on the red GitLab button in the bottom left corner of the Web IDE, and then clicking **Go to Family Budget Calculator project on GitLab**.
 
-1. Click on **Code > Merge Requests**, and then click on `Draft: Add performance tools to database documentation`.
+1. Click on **Code > Merge Requests**, and then click on `Draft: Add performance tools to Family Budget Calculator documentation`.
 
 1. On the merge request page, click the **Changes** tab to see the changes that will be applied to the project's **main** branch after merge.
 
@@ -113,7 +113,7 @@ Approval rules define how many approvals a merge request must receive before it 
 
 1. Click **Merge** and observe the merge complete successfully.
 
-1. Navigate to the project landing page by clicking the **Database** title tile in the top left corner. See that the `README.md` file on the **main** branch now includes your updates.
+1. Navigate to the project landing page by clicking the **Family Budget Calculator** title tile in the top left corner. See that the `README.md` file on the **main** branch now includes your updates.
 
 1. In the left pane, click **Code > Merge requests**. The merge request will now appear under the **Merged** tab on this page.
 

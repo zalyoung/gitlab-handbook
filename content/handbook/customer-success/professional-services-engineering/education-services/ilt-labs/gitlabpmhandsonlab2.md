@@ -35,7 +35,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the left pane of the **Software** group landing page, click **Epics**.
 
-1. In the upper-right corner above the search bar, click on the **New epic** button.
+1. Click on the **New epic** button.
 
 1. On the *New Epic* page, enter `Feature Category: Retirement Planning` in the **Title (required)** field. Having a descriptive title helps make it clear what issues and sub-epics should be associated with the epic.
 
