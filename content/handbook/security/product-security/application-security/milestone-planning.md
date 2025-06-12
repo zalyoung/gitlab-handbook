@@ -121,7 +121,7 @@ The label assignment can be done by leadership (AppSec or at higher levels), or 
 
 - Is the problem clearly defined or is more followup/data needed?
 - Is the scope too large to be completed within the milestone? Does the issue need to be broken down into smaller ones or promoted to an epic instead?
-- For projects and net-new intiatives, is the scope and Definition of Done clear and measurable? Is it clear what's expected?
+- For projects and net-new initiatives, is the scope and Definition of Done clear and measurable? Is it clear what's expected?
 - Does it have at least one DRI assigned and are they aware?
 - Are there dependencies? If so, document them.
 - Are there other stakeholders and are they looped in and aware?
@@ -146,7 +146,7 @@ Work planned for a milestone may not be fully finished due to time constraints o
 
 ### Backlog
 
-Isses that:
+Issues that:
 
 - Have unfinished work
 - Are ideas from team members but not yet prioritized
