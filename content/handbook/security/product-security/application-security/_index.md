@@ -95,7 +95,7 @@ Application Security is rebuilding our operational business health metrics in FY
 
 ## Learn more about AppSec services and resources
 
-Please see the [Application Security Operations page](handbook/security/product-security/application-security/appsec-operations/appsec-ops-index/)
+Please see the [Application Security Operations page](/handbook/security/product-security/application-security/appsec-operations/appsec-ops-index/)
 
 ## Content Review and Updates
 
