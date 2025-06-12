@@ -536,8 +536,6 @@ The Plan stage has an incredible product roadmap for this year, with many items 
 * **Enhanced board capabilities** - Use expanded swimlane options (horizontal groupings) to reduce filters and saved views
 * **Customizable metadata display** - Remove noise from executive views by controlling visible fields
 * **Roadmap enhancements** - Better timeline visualization and filtering options
-
-
 ## FAQs
 
 <details>
