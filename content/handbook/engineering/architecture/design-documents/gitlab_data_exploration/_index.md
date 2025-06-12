@@ -345,3 +345,4 @@ directory as the `index.md` for the proposal.
 
    - Pros: No dependency on GLQL, no major architecture changes needed, no need to build a query builder that fits all cases.
    - Cons: Less freedom for users to explore their data. Each feature team will need to decide on a set of predefined queries for users.
+   
