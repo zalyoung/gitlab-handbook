@@ -283,7 +283,7 @@ Related [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/541382).
 
 **Important note**
 
-Currently, when a user is assigned a seat to at least one project with a model selected for completion. The IDE disables [the direct connection to AI Gateway](https://docs.gitlab.com/user/gitlab_duo/gateway/#region-support) [code completion](https://docs.gitlab.com/user/project/repository/code_suggestions/) calls and goes through the GitLab monolith, which ultimately selects the model to be used according to the user's preferences. The customer should be made aware of this through documentation.
+Currently, when a user is assigned a seat to at least one project with a model selected for completion. The IDE disables [the direct connection to AI Gateway](https://docs.gitlab.com/user/gitlab_duo/gateway/#region-support) [code completion](https://docs.gitlab.com/user/project/repository/code_suggestions/) calls and goes through the GitLab monolith, which ultimately selects the model to be used according to the user's preferences. The customers should be made aware of this through documentation.
 
 ```mermaid
 sequenceDiagram
