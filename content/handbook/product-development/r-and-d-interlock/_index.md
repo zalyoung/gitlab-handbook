@@ -498,6 +498,7 @@ Work proposed via the R&D Interlock process will benefit from:
 - **Resource commitment**: Formal engineering commitment at specified confidence levels
 - **Cross-functional alignment**: Ensures Product, Engineering, and GTM teams are aligned on priorities
 - **External communication**: Select items may be included in public/customer-facing roadmaps
+
 ### How to create a candidate for proposal
 
 1. **Create an Epic**
