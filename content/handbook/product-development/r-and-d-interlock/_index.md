@@ -474,3 +474,93 @@ Any change that constitutes a slip in deadline, a significant reduction in
 scope, or anything else that would make us miss customer expectations
 constitutes a major change. *If in doubt, go through the change management
 process.*
+
+## GitLab Process
+
+The Interlock process has moved to GitLab epics within the `gitlab-rd-planning/` group, starting with planning quarter FY27Q1. 
+
+These epics are separate from existing workstream epics. While implementation work continues in public workstream epics, the interlock epics contain sensitive information like customer names, ARR impact, and other business details that shouldn't be publicly visible.
+
+Each interlock epic will be linked to its corresponding workstream epic, allowing for easy navigation and drilldown into the actual implementation work. Since the group is private, this allows us to maintain confidentiality while still providing transparency into delivery progress.
+
+#### GitLab's Product Roadmap R&D Interlock Process 
+
+content/handbook/product-development/r-and-d-interlock/interlock-process-diagram.png
+
+### When to use this process
+
+Not all work requires going through this interlock process. Regular development work that doesn't require cross-functional alignment, significant resource commitment or go-to-market coordination can continue to use standard workstream epics and issues. 
+
+Work proposed via the R&D Interlock process will benefit from:
+
+- **Executive visibility**: Items in this process receive visibility at the highest levels of the organization
+- **Go-to-market coordination**: Customer-facing items may be included in GTM planning depending on `GTM tier`, enabling sales and marketing alignment
+- **Resource commitment**: Formal engineering commitment at specified confidence levels
+- **Cross-functional alignment**: Ensures Product, Engineering, and GTM teams are aligned on priorities
+- **External communication**: Select items may be included in public/customer-facing roadmaps
+
+
+### How to create a candidate for proposal
+
+1. **Create an Epic**
+   1. Within https://gitlab.com/gitlab-org/gitlab-rd-planning, create an new epic ([docs](https://docs.gitlab.com/user/group/epics/manage_epics/#create-an-epic))
+   1. Select the epic template named: [interlock_template](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/epics/new?description_template=interlock_template)
+2. **Complete required information**
+   1. Fill in all sections of the template
+   2. Assign DRIs (PM, EM, UXPD&PDM)
+   1. Apply appropriate labels (see [Labels Guide](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process-Dashboard#labels-guide))
+3. **Update interlock status throughout process**
+   1. Update interlock status as discussions progress
+   1. After the quarter begins, update health status weekly
+   3. Document risks and dependencies as they emerge
+
+
+### Labels Guide
+
+| Label               | Values| Purpose|
+|--------------------------|--------------------|-------------------|
+| Interlock candidate      | ~"Interlock candidate"| Identifies epics as part of the R&D Interlock process; automatically applied through the epic template |
+| Section                  | ~"section::analytics" <br> ~"section::growth" <br> ~"section::ops" <br> *more labels available in series....*| Indicates which high-level organizational section the work belongs to, allowing for filtering across departments |
+| Stage                    | ~"devops::plan" <br> ~"devops::create" <br> ~"devops::verify" <br> *more labels available in series....*| Specifies which product stage is responsible for the work; enables stage leaders to view all commitments for their area |
+| Group                    | ~"group::authorization" <br> ~"group::dedicated" <br> ~"group::knowledge" <br> *more labels available in series....*| Identifies the specific team responsible for implementation; allows teams to filter for just their own commitments |
+| Interlock priority     |  ~"Interlock Priority::E1" <br> ~"Interlock Priority::E2" <br> ~"Interlock Priority::E3" <br> ~"Interlock Priority::P1" <br> ~"Interlock Priority::P2"  <br> ~"Interlock Priority::P3"| Interlock Priority labels indicate the level of confidence and commitment for both Product-driven (P1/P2/P3) and Engineering-driven (E1/E2/E3) initiatives. <br><br> - P1/E1 indicates 100% confidence in delivery with full resource commitment. <br> - P2/E2 indicates 80% confidence in delivery. <br>- P3/E3 indicates 50% confidence and may be deprioritized if P1/P2 or E1/E2 items are at risk. <br><br> Product priority (P) labels are used for customer-facing features, while Engineering priority (E) labels are used for technical improvements with internal visibility only. |
+| Go-to-market tier        | ~"GTM tier::Tier 1" <br> ~"GTM tier::Tier 2" <br> ~"GTM tier::Tier 3"| GTM tier labels apply to a subset of Product-driven initiatives that will be communicated externally to customers and stakeholders. They represent Go-To-Market priority and visibility: <br><br> - Tier 1: Highest confidence, externally communicated commitments  <br> - Tier 2: High confidence items communicated to customers <br> - Tier 3: Directional items that may be communicated externally <br><br> GTM tiers are suggested during the collaboration phase, then finalized during the GTM Alignment Discussion (Week 10) with input from Marketing and Sales leadership. GTM priority tiers can never be higher than their corresponding Product priority (P1-P3) to avoid priority inversion. |
+| Investment theme         | ~"Investment theme::AI across SDLC" <br> ~"Investment theme::Core DevOps" <br> ~"Investment theme::Security & Compliance"                   | Connects work to company's strategic investment areas as outlined in the FY26 company strategy; enables filtering to track progress on key company initiatives |
+| Subscription tier        | ~"GitLab Free" <br> ~"GitLab Premium" <br> ~"GitLab Ultimate"                                                                                | Specifies which GitLab subscription tier(s) will include the feature; helps with planning go-to-market activities |
+| Platform| ~"platform: GitLab.com" <br> ~"platform: dedicated" <br> ~"platform: self-managed" | Indicates in which delivery platform the feature will be available |
+| Quarters                 | ~"FY26::Q4" <br> ~"FY27::Q1" <br> ~"FY27::Q2" <br> *more labels available in series....*                                                     | Indicates the target delivery quarter for planning and tracking purposes; critical for filtering by timeframe |
+| Interlock status labels  | ~"Interlock status::New/Proposal in progress" <br> ~"Interlock status::Alternate proposed" <br> ~"Interlock status::Ready for review" <br> ~"Interlock status::GPM/Director approved" <br> ~"Interlock status::VP approved" <br> ~"Interlock status::Canceled" <br> ~"R&D roadmap status::Executing" <br> ~"R&D roadmap status::Completed" | Tracks the current state of the epic in the interlock process; updated as the epic progresses through review stages; drives board views and reporting |
+| Health                   | ~"health::on track" <br> ~"health::needs attention" <br> ~"health::at risk"                                                                  | Indicates the delivery risk during execution phase; updated weekly by EMs once the quarter begins; helps leadership identify items requiring intervention <br><br> _(Note: we are using labels for health status until epic boards can utilize the [health status](https://docs.gitlab.com/user/group/epics/manage_epics/#health-status) feature)_ |
+
+
+### Future feature enhancements
+
+The Plan stage has an incredible product roadmap for this year, with many items that will directly improve this interlock process. See below for upcoming features and let us know if you have ideas for additional improvements!
+
+* **Epic milestones** - Replace quarter labels with proper milestone functionality, including the milestone burndown charts to see how the quarter is performing at a glance
+* **Custom fields** - Reduce label sprawl by using fields instead of labels
+* **Enhanced board capabilities** - Use expanded swimlane options (horizontal groupings) to reduce filters and saved views
+* **Customizable metadata display** - Remove noise from executive views by controlling visible fields
+* **Roadmap enhancements** - Better timeline visualization and filtering options
+
+
+## FAQs
+
+<details>
+<summary>Click to expand</summary>
+
+1. **Q:** Why are we using epics instead of issues?
+   - **A:** In future iterations, as the Plan features mature, our goal is to get this process into the Roadmap view, and eventually, connect the workstream to the strategy (plan) to enable drill down and progress information.
+1. **Q:** Why don't we create these epics in a separate group from `gitlab-org`?
+   - **A:** I've learned that we have hundreds of internal groups that the SRE team has to keep safe. Rather than piling on, I've chosen to use the main `gitlab-org` group as a boring solution. If this causes noise or concern we can revisit the decision.
+1. **Q:** Is there a reason why we can't use the native health status widget instead of labels?
+   - **A:** We are using labels for health status until epic boards can utilize the [health status](https://docs.gitlab.com/user/group/epics/manage_epics/#health-status) feature
+1. **Q:** Can I save my own views for this process?
+   - **A:** Of course, let us know if you have any questions about filter criteria or label usage.
+1. **Q:** Do I need to make my epic confidential since I'm mentioning customer information?
+   - **A:** No, the group https://gitlab.com/gitlab-org/gitlab-rd-planning is private, so there is no need to make your epic confidential.
+
+
+
+</details>
+
