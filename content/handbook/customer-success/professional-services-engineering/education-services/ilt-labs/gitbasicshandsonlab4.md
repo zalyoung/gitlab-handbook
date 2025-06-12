@@ -15,7 +15,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
 
 ## Task A. Create a new project and add a CI/CD configuration file
 
-1. Navigate to your **My Test Group**, click on the **New project** button, and click the **Create blank project** tile.
+1. Navigate to your **Session <session-code>**, click on the **New project** button, and click the **Create blank project** tile.
 
 1. In the title, type in `CI Test`.
 

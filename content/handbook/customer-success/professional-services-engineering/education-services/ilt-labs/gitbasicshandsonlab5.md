@@ -15,7 +15,7 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 > We will use a pre-defined template for NodeJS Express to show how Auto DevOps works. Pre-defined templates allow you to start off with a base project instead of starting from scratch. A list of all of our base projects can be found [here](https://gitlab.com/gitlab-org/project-templates).
 
-1. Navigate to your **My Test Group** and select **New project**,.
+1. Navigate to your **Session <session-code>** group and select **New project**.
 
 1. Instead of making a blank project, click on the **Create from template** tile.
 
