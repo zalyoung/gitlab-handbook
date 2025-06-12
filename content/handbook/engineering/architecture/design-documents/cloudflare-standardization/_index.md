@@ -58,7 +58,7 @@ to respond to security and compliance risks as they emerge, and allow teams to
 implement Cloudflare functionality in a scalable way.
 
 This approach also positions us well for upcoming maintenance work, including
-upgrading the Cloudflare provider, allowing us to implement a coordinated,
+[upgrading the Cloudflare provider](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26235), allowing us to implement a coordinated,
 reduced-risk upgrade process across all implementations.
 
 ### Goals
