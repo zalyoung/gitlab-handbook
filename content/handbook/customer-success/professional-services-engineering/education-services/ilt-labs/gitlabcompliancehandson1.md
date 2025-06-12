@@ -1,5 +1,5 @@
 ---
-title: "GitLab Compliance - Separation of Privileges"
+title: "GitLab Compliance - Hands-On Lab: Separation of Privileges"
 description: "This Hands-On Guide demonstrates separation of privileges"
 ---
 
