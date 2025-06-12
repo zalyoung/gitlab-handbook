@@ -174,13 +174,14 @@ The recommended team size to complete the implementation is minimum 3 engineers.
 ### Worfklow composition
 
 Workflows models business processes that automate various tasks carried in organisations.
-They consist of many steps that can be orchestrated into varius architecture reflecting specific aspects of an organistaition, and business needs. 
-Workflow modeld business processes using following privitives:
+They consist of many steps that can be orchestrated with different architectures reflecting specific aspects of an organistaition, and business needs. 
+
+Workflows model business processes using following privitives:
 1. Components
 1. Routers
 1. State
-1. Tools
 1. Prompts
+1. Tools
 
 In addition workflows may be nested within other workflows, modeling higher level processes that manage and orcestare multiple childe ones
 
@@ -190,8 +191,12 @@ Components are the basic atomic unit of operations within workflow, they represe
 For example component can be respobsible for reviewing a merge request, or component can be responsible for writing a new unit test to improve test coverage for a project. 
 One can perceive componentes as individuals withing organisation, to whom various tasks in a business process can be delegated, those tasks can varry in complexity, and
 be as simple as one-off interaction (eg: sending an email), to more elaborate like reviewing a merge request. What creates important distinction is the fact that
-components must have **a single role** in an organisation, or a business process. For example, when a feature is being developed, an engineer creates fature implementation,
-but a technical writer is responsible for providing user facing documentation, each of those personas is an expert in thier field, which assure quality of their outputs.
+components must have **a single role** in an organisation, or a business process, while _workflows_ (business processes) includes one or more individuals with certains roles. 
+For example, when a feature is being developed, an engineer creates fature implementation,
+but a technical writer is responsible for providing user facing documentation,
+each of those personas is an expert in thier field, which assure quality of their outputs.
+
+##### Implementation
 
 On a more technical level, the component is collection of LangGraph nodes arrenged in certain architecture, which is designed to solve a category of problems.
 Among many other options, there are components designed to act as cylic agents, one-off agents, or event predefined non AI steps in the process. 
@@ -240,10 +245,25 @@ flowchart LR
     end
 ```
 
-In addition some components may server as customisable blueprints flexible enough,
+##### Inputs
+
+Components may define set of reuired inputs.
+A compoement inputs relfects attributes within a global workflow's [state](#3-state) object
+that carry necessary information wihtout which the component won't be able to fulfill its role in a 
+workflow.
+
+##### Outputs
+
+Components should specify set of attributes within a global workflow's [state](#3-state) object
+that they will modify, or add on the course of their execution. This is necessary to assure that 
+subsequent components within a workflow will have their inputs present.
+
+##### Generic components
+
+Some components may server as customisable blueprints flexible enough,
 to be reused in different roles. To specif generic component into a 
-distinct role, one assign them a prompt, and then define the component permissions with
-assigned set of tools, that restrict actions available to an individual in the role in modelled process.
+distinct role, one assign them a [prompt](#4-prompts), and then define the component permissions with
+assigned set of [tools](#5-tools), that restrict actions available to an individual in the role in modelled process.
 
 The diagram below pictures role specification
 
@@ -284,6 +304,73 @@ flowchart LR
         ReadFile[Read file]
     end
 ```
+
+#### 2\. Routers
+
+Routers are responsible for arraging Components into predefined structures, governing order of operations within a workflow.
+
+Business processes (moddeled as Workflows) not only consist of indivduals in certain roles, but also relay on 
+interactions between those individuals. In the same manner Workflows are composed with Components, but in order to move from a set of components
+to a workflow that models a business process, those components needs to be arranged into some structure. Routers plays important role
+navigating between different components in a workflow, and assuring that required order of operations is respected.
+
+By the way of analogy, during a software development, it is important that design department prepare vision of a new layout,
+before engineering can act upon it. In the same fashion in a workflow some component must preceed other, assuring correct delivery of 
+a final outcome.
+
+On a technical level Routers wraps LangGraph edges that conntects two or more components and implements logic that enforces correct execution flow through a
+whole workflow. 
+
+Routers carry out path selection based on predefined attributes within a Workflow's state like: _status_ or a final message from a precceding component
+
+An example Router diagram is being presented below
+
+```mermaid
+flowchart LR
+    Start[IssueTriageComponent] --> Router{"Router<br><br>Inspects final message from IssueTriageComponent based on select_path tool call argument directs execution"}
+    Router --> Proceed[SecurityExpertComponent]
+    Router --> Error[DeveloperComponent]
+```
+
+#### 3\. State
+
+Each workflow has a global State object that is being used to transport information between different components composing 
+a workflow. The State can be imagined as an epic, or a merge request with wich multiple members of organisation collaborate together over a shared goal
+of a business process. For example first design departament adds mocks ups into an epic description, then engieering department steps in the process, and 
+use the epic as source of truth to understand thiers requirements.
+
+##### Implementation
+
+State object is a dictionary, that contains a combination of 
+predefined required attributes, as well as a flexible _context_ attribute, which 
+itself is a nested dictionary, enabling every component in a workflow to write their 
+outputs to, in form of key, value pairs, that can be used by subsequent components.
+
+```python
+class WorkflowState(TypedDict):
+    status: WorkflowStatusEnum
+    conversation_history: Annotated[
+        Dict[str, List[BaseMessage]]
+    ]
+   ui_chat_log: Annotated[List[UiChatLog]]
+   context: Dict[str, Union[str, int, float]]
+```
+
+#### 4\. Prompts
+
+Prompts are text templates used to specify roles for generic components. 
+Upon configuration of generic component must be connected to a prompt via _prompt id_
+Prompt templates can have a placeholder fileds for dynamic values. If prompt template
+have any placeholder its name must match with a container [input](#inputs), which is 
+going to be used to replace the placeholder with dynamic value
+
+#### 5\. Tools
+
+Tools represent actions in external environment that component can take on cours of its execution.
+By method of analogy, tools can be imagined as permissions assinged to a role in an organisation. 
+For example a CFO can issue financial statements on behalf of a whole organisation,
+a while database admin has direct access to a database server. In the same fashion tools should be 
+assinged to components based on their role in a workflow.
 
 ## Future evolution
 
