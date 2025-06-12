@@ -42,13 +42,16 @@ We can deliver this work in iterations so that we deliver value to the customer 
 The model used for a given action will be the one set by the top-level namespace, depending on the context the user is in (project or namespace).
 Related [epic](https://gitlab.com/groups/gitlab-org/-/epics/17570).
 
-**Future Iterations :**
-**Future Iteration 2: Sub-level Namespace Cascading Configuration**:
+**Iteration 2: Consilidatating feature release**
+Related [epic](https://gitlab.com/groups/gitlab-org/-/epics/18092).
+
+**Future Iterations and considartion**
+**Sub-level Namespace Cascading Configuration**:
 Child namespaces will be able to assign a specific model for each feature as they did in the top-level iteration. In addition to that, they will be able to select a subset of available models for their downstream namespaces to choose from.
 The model used for a given action will be the one set by the closest upstream namespace, including the current namespace, with a feature setting configured, depending on the context the user is in.
-Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
+We will wait for further demand before considering planning this iteration. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
 
-**Future Iteration: Oraganization-Level Configuration**: In this phase we enable managed model configuration for `.com`, `self-managed` and `dedicated` at the organiz level. Supported models are stored in the AI Gateway. These models will then be retrieved by gitlab.com, Self-managed instances and dedicated instances. _This is currently not planned as Organizations are not GA_
+**Oraganization-Level Configuration**: In this phase we enable managed model configuration for `.com`, `self-managed` and `dedicated` at the organiz level. Supported models are stored in the AI Gateway. These models will then be retrieved by gitlab.com, Self-managed instances and dedicated instances. _This is currently not planned as Organizations are not GA_
 
 Future iterations will cover the ability to let users decide which model to use for a specific feature in both the IDE and the GitLab UI. Users would be able to select from a subset selected at the namespace level. Tracking of these features can be found in [this Epic](https://gitlab.com/groups/gitlab-org/-/epics/17720).
 
