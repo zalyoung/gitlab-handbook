@@ -167,7 +167,7 @@ erDiagram
 
 ##### **3. Incident management** 
 
-- When the default model is selected or when model selection is disabled, an incident management mechanism has been put in place. The AI Gateway will re-route the call to another model when the default model can't respond.
+- When the default model is selected or when model selection is disabled, an incident management mechanism is being put in place. The mechanism will be implemented in AI Gateway will re-route the call to another model when the default model can't respond. Related [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/478067).
 
 - When a model has been selected for a feature by the user, we can't perform any incident management due to the fact that the user's choice needs to be respected. The user needs to be aware of this behavior.
 
