@@ -52,7 +52,7 @@ GitLab allows contribution to open source licensed projects. If the project to y
 1. Open an issue in the project (or contact the maintainers through other documented means).
 1. Request the project adds an appropriate license citing an inability to contribute to unlicensed code.
 1. Potentially refer to licenses used in other projects in the same group/organization as an easy reference for the maintainer.
-1. Once a license is in place, continue to contribute.
+1. If an open source license is added, you may then contribute to the project.
 
 ## Using open source software
 
