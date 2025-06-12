@@ -2,7 +2,7 @@
 title: "Workflow Registry"
 status: ongoing
 creation-date: "2025-06-05"
-authors: ["@achueshev"]
+authors: ["@achueshev", "@mikolaj_wawrzyniak"]
 coaches: []
 dris: []
 owning-stage: "~devops::ai-powered"
@@ -169,6 +169,121 @@ the Workflow engine, which is an agent with a set of collected tools to perform 
 The steps above will give us the first iteration of the Workflow Registry.
 The estimated implementation time is 1-1.5 milestones.
 The recommended team size to complete the implementation is minimum 3 engineers.
+
+
+### Worfklow composition
+
+Workflows models business processes that automate various tasks carried in organisations.
+They consist of many steps that can be orchestrated into varius architecture reflecting specific aspects of an organistaition, and business needs. 
+Workflow modeld business processes using following privitives:
+1. Components
+1. Routers
+1. State
+1. Tools
+1. Prompts
+
+In addition workflows may be nested within other workflows, modeling higher level processes that manage and orcestare multiple childe ones
+
+#### 1\. Components
+
+Components are the basic atomic unit of operations within workflow, they represent a single respobsibility within a process.
+For example component can be respobsible for reviewing a merge request, or component can be responsible for writing a new unit test to improve test coverage for a project. 
+One can perceive componentes as individuals withing organisation, to whom various tasks in a business process can be delegated, those tasks can varry in complexity, and
+be as simple as one-off interaction (eg: sending an email), to more elaborate like reviewing a merge request. What creates important distinction is the fact that
+components must have **a single role** in an organisation, or a business process. For example, when a feature is being developed, an engineer creates fature implementation,
+but a technical writer is responsible for providing user facing documentation, each of those personas is an expert in thier field, which assure quality of their outputs.
+
+On a more technical level, the component is collection of LangGraph nodes arrenged in certain architecture, which is designed to solve a category of problems.
+Among many other options, there are components designed to act as cylic agents, one-off agents, or event predefined non AI steps in the process. 
+Example diagaras for mentined components are presented below
+
+1. Cyclic agent
+
+```mermaid
+flowchart LR
+    input(( )) --> LLMCall
+    LLMCall --> End
+    LLMCall --> RunTools
+    RunTools --> LLMCall
+    End --> output(( ))
+
+    subgraph Component
+        LLMCall[LLM Call]
+        RunTools[Run Tools]
+        End[END]
+    end
+```
+
+2. One-off agent
+
+```mermaid
+flowchart LR
+    input(( )) --> LLMCall
+    LLMCall --> RunTools
+    RunTools --> output(( ))
+
+    subgraph Component
+        LLMCall[LLM Call]
+        RunTools[Run Tools]
+    end
+```
+
+3. Deterministic step
+
+```mermaid
+flowchart LR
+    input(( )) --> RunTools
+    RunTools --> output(( ))
+
+    subgraph Component
+        RunTools[Run Tools]
+    end
+```
+
+In addition some components may server as customisable blueprints flexible enough,
+to be reused in different roles. To specif generic component into a 
+distinct role, one assign them a prompt, and then define the component permissions with
+assigned set of tools, that restrict actions available to an individual in the role in modelled process.
+
+The diagram below pictures role specification
+
+```mermaid
+flowchart LR
+    %% External input/output
+    input(( )) --> LLMCall
+    End --> output(( ))
+
+    %% Prompts
+    Prompt["You are expert<br>software<br>engineer ..."] --> LLMCall
+    subgraph Prompts
+        direction TB
+        style Prompts stroke-dasharray: 4 4, stroke:#3CB371
+        Prompt
+    end
+
+    %% LLM and internal component
+    LLMCall --> End
+    LLMCall --> RunTools
+    RunTools --> LLMCall
+
+    subgraph Component
+        direction LR
+        LLMCall[LLM Call]
+        RunTools[Run Tools]
+        End[END]
+    end
+
+    %% Tools
+    EditFile --> RunTools
+    ReadFile --> RunTools
+
+    subgraph Tools
+        direction LR
+        style Tools stroke-dasharray: 4 4, stroke:#1E90FF
+        EditFile[Edit file]
+        ReadFile[Read file]
+    end
+```
 
 ## Future evolution
 
