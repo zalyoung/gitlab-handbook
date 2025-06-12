@@ -15,7 +15,9 @@ Our destination will have multiple GitLab instances, each with a User table, hav
 
 Now that a User will belong to a single Organization, the `users` table will have a `NOT NULL` `organization_id` column. This `organization_id` column will also shard the `users` table such that the User and their associated data such as `user_statistics` is also scoped to the Organization.
 
-While a User will belong to a single Organization, there is the expectation that the User will be able to interact with other Organizations eventually. The details are being worked through as part of Cells.
+A User will belong to a single Organization and can only be a member of a single Organization. Eventually, a User will be able to interact with other Organizations, likely through an authorization mechanism like OAuth.
+
+The end goal is Organization-scoped user records, where usernames only need to be unique within an Organization rather than globally. This will enable Organizations to have full control over their user namespace, allowing username reuse across different Organizations. Achieving this state will happen in iterations over time.
 
 ## Dog fooding
 
