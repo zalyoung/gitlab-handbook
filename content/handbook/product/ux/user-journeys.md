@@ -12,7 +12,7 @@ User journey mapping at GitLab provides a strategic framework for teams to under
 
 ### User journey
 
-A user journey is the complete sequence of experiences, interactions, and touchpoints that a user has with GitLab's platform over time to accomplish specific goals or outcomes. It encompasses the user's progression through various stages and touchpoints relevant to their goals across different stages of the software development lifecycle. The specific details captured (such as emotions, pain points, or granular steps) will vary based on the elevation level of the journey map being created.
+A user journey is the complete sequence of experiences, interactions, and touchpoints that a user has with GitLab over time to accomplish specific goals or outcomes. It encompasses the user's progression through various stages and touchpoints relevant to their goals across different stages of the software development lifecycle. The specific details captured (such as emotions, pain points, or granular steps) will vary based on the elevation level of the journey map being created.
 
 ### Golden journey
 
