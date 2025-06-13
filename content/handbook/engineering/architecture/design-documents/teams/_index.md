@@ -41,7 +41,7 @@ This dual nature creates several critical problems identified through customer r
 Research across the DevOps landscape reveals that access management inefficiencies cost US companies approximately $61 billion annually, with 94% of applications showing some form of broken access control. The competitive landscape has evolved significantly, with major platforms implementing sophisticated approaches to address enterprise access management challenges:
 
 - **Team-based hierarchical models** with sophisticated nesting and clear inheritance patterns
-- **Organizational structure separation** from project management through dedicated organizational modeling features  
+- **Organizational structure separation** from project management through dedicated organizational modeling features
 - **Project-level permission cascading** that eliminates individual resource permission management overhead
 - **Clear separation patterns** between permanent user organization and temporary access mechanisms
 
