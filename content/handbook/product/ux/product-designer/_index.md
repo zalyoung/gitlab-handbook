@@ -102,11 +102,10 @@ Consider these questions when designing:
 - Is this feature or capability needed or used, or what would happen if it were removed?
 - Is everything "in reach," or are users left wandering?
 
-#### Beautifying and "unboxing" the UI
+#### "Unboxing" the UI
 
-Two ongoing design efforts align with sophisticated simplicity:
+Ongoing design efforts align with sophisticated simplicity:
 
-1. **Beautifying the UI**: Enhance the UI by cleaning up components or entire pages to create more consistency, organization, and aesthetic appeal. Learn more in the [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui) section of the handbook.
 1. **Unboxing the UI**: Reduce the overuse of boxes for conveying hierarchy, organizing content, and dividing pages into section. Explore better alternatives in this video on ["Unboxing" the UI](https://youtu.be/MxpZuWQH-kk).
 
 ### Ideate and iterate
