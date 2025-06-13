@@ -31,6 +31,12 @@ building software products. Engineering excellence is being fueled by a strong
 engineering culture combined with a mission: to build better software that
 allows everyone to contribute.
 
+### Customer Empathy
+
+Engineering decisions at GitLab are guided by a deep understanding of customer needs and challenges. When engineers empathize with customers' workflows and pain points, they make technical choices that deliver meaningful value. By consistently asking "How will this impact our users?" we ensure our engineering excellence translates directly into customer success. 
+
+The [Customer Empathy](/handbook/engineering/customer-empathy/) handbook page outlines resources and practical guidance for engineers to better understand and interact with customers.
+
 ### Engineering Initiatives
 
 Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/cross-functional-prioritization/) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform, and foundational technologies we use.
