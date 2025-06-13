@@ -180,9 +180,9 @@ build-job:
     proceed: ${{ steps.scan.outputs.critical_vulnerabilities == 0 && steps.scan.outputs.high_vulnerabilities < 5 }}
 ```
 
-# Specification
+## Specification
 
-## Context-free grammar
+### Context-free grammar
 
 The CI Steps Expression Language defined as an Extended Backus-Naur Form (EBNF) grammar. It defines what syntax is valid with the dollar bracket-bracket, i.e. `${{ [CI steps expression] }}`.
 
@@ -269,7 +269,7 @@ ObjectElement = Expression ":" Expression .
 Call = "(" [ Expression { "," Expression } ] ")" .
 ```
 
-## Draft implementation
+### Draft implementation
 
 - [Expression playground](https://storage.googleapis.com/directory-io/playground/index.html)
 - [Draft: Add specification](https://gitlab.com/gitlab-org/step-runner/-/merge_requests/239)
@@ -278,13 +278,13 @@ Call = "(" [ Expression { "," Expression } ] ")" .
 - [Draft: Implement expression parser](https://gitlab.com/gitlab-org/step-runner/-/merge_requests/243)
 - [Draft: Implement expression evaluator](https://gitlab.com/gitlab-org/step-runner/-/merge_requests/244)
 
-## Breakdown and examples
+### Breakdown and examples
 
-### Source code representation
+#### Source code representation
 
 Source code is Unicode text encoded in UTF-8. The text is not canonicalized, so a single accented code point is distinct from the same character constructed from combining an accent and a letter.
 
-#### Characters
+##### Characters
 
 ```ebnf
 unicode_char   = /* an arbitrary Unicode code point */ .
@@ -292,24 +292,24 @@ unicode_letter = /* a Unicode code point categorized as "Letter" */ .
 unicode_digit  = /* a Unicode code point categorized as "Number, decimal digit" */ .
 ```
 
-#### Letters and digits
+##### Letters and digits
 
 ```ebnf
 letter = unicode_letter | "_" .
 digit  = "0" … "9" .
 ```
 
-### Lexical elements
+#### Lexical elements
 
-#### Comments
+##### Comments
 
 The language does not currently support comments.
 
-#### Tokens
+##### Tokens
 
 Tokens form the vocabulary of the language. There are four classes: identifiers, keywords, operators and punctuation, and literals.
 
-#### Identifiers
+##### Identifiers
 
 Identifiers name variables and functions.
 
@@ -319,7 +319,7 @@ identifier = letter { letter | unicode_digit } .
 
 Identifiers must not be keywords. Identifiers are case-sensitive: `foo`, `Foo`, and `FOO` are three different identifiers.
 
-#### Keywords
+##### Keywords
 
 The following keywords are reserved and may not be used as identifiers:
 
@@ -339,7 +339,7 @@ Additionally, the following literal keywords are recognized:
 false       null        true
 ```
 
-#### Operators and punctuation
+##### Operators and punctuation
 
 The following character sequences represent operators and punctuation:
 
@@ -350,7 +350,7 @@ The following character sequences represent operators and punctuation:
 /    .     ,     :
 ```
 
-#### Integer literals
+##### Integer literals
 
 Integer literals are sequences of digits. Leading zeros are permitted.
 
@@ -358,7 +358,7 @@ Integer literals are sequences of digits. Leading zeros are permitted.
 int_lit = digit { digit } .
 ```
 
-#### Floating-point literals
+##### Floating-point literals
 
 Floating-point literals consist of an integer part, a decimal point, a fractional part, and an optional exponent part.
 
@@ -367,7 +367,7 @@ float_lit = digit { digit } "." digit { digit } [ exponent ] .
 exponent  = ( "e" | "E" ) [ "+" | "-" ] digit { digit } .
 ```
 
-#### Number literals
+##### Number literals
 
 A number literal is either an integer or a floating-point literal.
 
@@ -375,7 +375,7 @@ A number literal is either an integer or a floating-point literal.
 number = int_lit | float_lit .
 ```
 
-#### String literals
+##### String literals
 
 String literals represent string constants. There are two forms: single-quoted and double-quoted.
 
@@ -430,39 +430,39 @@ Examples:
 "Path: ${{ dir }}/${{ file }}"                       // Multiple templates
 ```
 
-### Types
+#### Types
 
 The language supports the following types:
 
-#### Boolean
+##### Boolean
 
 Boolean values are represented by the predeclared constants `true` and `false`.
 
-#### Null
+##### Null
 
 The null value is represented by the predeclared constant `null`.
 
-#### Number
+##### Number
 
 Numbers are high-precision decimal floating-point values with 53 bits of precision.
 
-#### String
+##### String
 
 Strings are immutable sequences of Unicode code points.
 
-#### Array
+##### Array
 
 Arrays are ordered sequences of values. Elements can be of any type and types can be mixed within an array.
 
-#### Object
+##### Object
 
 Objects are unordered collections of key-value pairs. Keys must be strings (either string literals or expressions that evaluate to strings). Values can be of any type.
 
-### Type Operations
+#### Type Operations
 
 This section describes which operations are valid between different types and their behavior.
 
-#### Type compatibility table
+##### Type compatibility table
 
 | Operation    | Valid Types     | Result Type | Notes                                |
 |--------------|-----------------|-------------|--------------------------------------|
@@ -487,7 +487,7 @@ This section describes which operations are valid between different types and th
 | `[]`         | array[number]   | any         | Array element access                 |
 | `()`         | function        | any         | Function call                        |
 
-#### Equality semantics
+##### Equality semantics
 
 The `==` and `!=` operators compare values as follows:
 
@@ -498,7 +498,7 @@ The `==` and `!=` operators compare values as follows:
 - **array**: Equals arrays with same length and equal elements (deep comparison)
 - **object**: Equals objects with same keys and equal values (deep comparison, key order irrelevant)
 
-#### Comparison semantics
+##### Comparison semantics
 
 The comparison operators `<`, `<=`, `>`, and `>=` can compare any types. When comparing values:
 
@@ -510,16 +510,16 @@ The comparison operators `<`, `<=`, `>`, and `>=` can compare any types. When co
     - **objects**: Unsupported
     - **null**: Unsupported
 
-#### Short-circuit evaluation
+##### Short-circuit evaluation
 
 The logical operators `&&` and `||` use short-circuit evaluation:
 
 - `&&`: If left operand is falsy, right operand is not evaluated
 - `||`: If left operand is truthy, right operand is not evaluated
 
-### Expressions
+#### Expressions
 
-#### Primary expressions
+##### Primary expressions
 
 Primary expressions are the operands for unary and binary expressions.
 
@@ -535,7 +535,7 @@ Parentheses can be used to group expressions and override operator precedence:
 (2 + 3) * 4      // evaluates to 20
 ```
 
-#### Array literals
+##### Array literals
 
 Array literals construct array values.
 
@@ -552,7 +552,7 @@ Example:
 [1, 2, 3,]  // trailing comma allowed
 ```
 
-#### Object literals
+##### Object literals
 
 Object literals construct object values. Keys can be string literals or expressions that evaluate to strings.
 
@@ -574,7 +574,7 @@ Example:
 
 Note: Object keys must evaluate to strings at runtime. Non-string keys will result in a runtime error.
 
-#### Selectors
+##### Selectors
 
 Selectors access properties or elements of a value.
 
@@ -593,7 +593,7 @@ my_array[0]
 my_array[index]
 ```
 
-#### Function calls
+##### Function calls
 
 Function calls invoke a function with zero or more arguments.
 
@@ -610,7 +610,7 @@ obj.method()
 my_array[0]()  // if my_array[0] contains a function
 ```
 
-#### Unary operators
+##### Unary operators
 
 Unary operators have the highest precedence.
 
@@ -625,7 +625,7 @@ unary_op        = "+" | "-" | "!" .
 | `-` | unary minus | number | numeric negation |
 | `!` | logical NOT | any | logical negation (based on truthiness) |
 
-#### Binary operators
+##### Binary operators
 
 Binary operators are left-associative and follow standard precedence rules.
 
@@ -687,7 +687,7 @@ array[999] || "fallback"    // "fallback" (out of bounds treated as falsy)
 obj.exists || "default"     // obj.exists value
 ```
 
-#### Template expressions
+##### Template expressions
 
 Template expressions allow embedding expressions within string literals using the `${{ }}` syntax. Both single and double-quoted strings support templates.
 
@@ -723,7 +723,7 @@ Examples:
 "Total: ${{ price + tax }}"             // Error: number not string
 ```
 
-#### Truthiness
+##### Truthiness
 
 The following values are considered "falsy":
 
@@ -736,7 +736,7 @@ The following values are considered "falsy":
 
 All other values are considered "truthy".
 
-#### Operator precedence
+##### Operator precedence
 
 The precedence of operators is reflected in the grammar. From lowest to highest:
 
