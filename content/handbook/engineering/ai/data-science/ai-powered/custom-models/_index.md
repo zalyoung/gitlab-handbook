@@ -21,7 +21,6 @@ Engineering Manager: [@timzallmann](https://gitlab.com/timzallmann)
 
 Acting Manager: [@eduardobonet](https://gitlab.com/eduardobonet)
 
-
 | Name               |  Handle          | team.yml   | Email prefix |
 |--------------------|------------------|------------|--------------|
 | Igor Drozdov       | @igor.drozdov    | [igor.drozdov](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/i/id-backend.yml)      | idrozdov |
