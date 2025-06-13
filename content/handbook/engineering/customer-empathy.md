@@ -4,45 +4,37 @@ title: Customer Empathy
 
 Customer empathy is a core component of GitLab's engineering culture. We believe that understanding our customers' Jobs to be Done (JTBD) and Critical User Journeys (CUJs) is fundamental to building better software and making informed technical decisions. This page outlines how engineers can deepen their understanding of our customers through recorded resources and opportunities for direct customer interaction.
 
-## Customer Conversations calendars
+## Customer Conversations
 
-Customer Conversations calendars contain upcoming customer calls. You can [subscribe to any calendar](#subscribe-to-a-calendar) using the corresponding URL. You are welcome and encouraged to join any call -- even if it's just to listen in and get context.
+A single product, Gong.io, is used by field teams to schedule, record and review customer calls. Everyone in Engineering has viewer access as a baseline entitlement. Authentication is via Okta. 
 
-Anyone who is scheduling a call with a customer or prospect via sales, conducting usability reasearch, or generally setting up a time to speak is encouraged to invite one or more relevant Customer Conversations calendars to the event. This will automatically populate the shared calendar with the event.
+### Attending Upcoming Calls
 
-Customer Conversations calendars exist for the following teams:
+You can request to attend any upcoming call, whether to partipate or simply to shadow.
 
-* The Plan Stage ([gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com))
+To view upcoming calls in Gong.io:
 
-### Subscribe to a calendar
-
-To ensure upcoming calls appear in your calendar, subscribe to one or more Customer Conversations calendars. Product Managers add upcoming customer interviews to these calendars and you're welcome to shadow any call.
-
-1. In GCal, next to "Other Calendars" in the left sidebar, click the +
-1. Select "Subscribe to Calendar"
-1. In the "Add Calendar" input, paste the calendar link
-
-Alternatively:
-
-1. Open one of the calendar links from the list above
-1. In the bottom left of the calendar, click "Add to Google Calendar"
-1. Follow instructions
+1. Click on Home in the left sidebar
+1. Select "View upcoming calls" from the Conversations panel
+1. Use the tabs to view calls you're already scheduled to attend, those for your team, and the wider company
 
 ### Review previous calls
 
-All recorded customer calls, with consent of the customer, can be made available for team-members to view in Dovetail.
+All recorded customer calls, with consent of the customer, are made available for team-members to view in Gong.
 
-To access these, go to the relevant project on Dovetail and log in with Google SSO. More information is available in the Readme of the project.
+To access these, navigate using the Conversations menu in the left sidebar.
 
-Engineers are added to Dovetail projects with the Viewer role.
+You can search for calls by specific terminology contained in the transcript; such as competitor mentions, product functionality, or workflow names. You can add interesting calls, or snippets thereof, to your personal library to review later.
 
-The following teams maintain Dovetail projects:
+#### Create a Smart Tracker
 
-* [Plan](https://gitlab.dovetailapp.com/projects/3Smr4JOoU7a5pnWqazMfr2/readme)
+Smart Trackers are AI classifiers that are trained on specific phrases, and used to categorize new calls based on their transcripts. They can be extremely useful for separating signal from noise.
 
-#### Review previous UX Research calls
+Trackers can be created for any purpose but they're particularly interesting for identifying conversations that are relevant to specific product verticals. These may not map 1-1 to GitLab Engineering teams.
 
-UX Research calls are scripted calls designed to mitigate bias and to address specific questions related to user needs and/or usability of the product. A selection of UX Research calls are available in Dovetail Projects with a column titled UXR - Research and Validation.
+A pilot is currently being conducted for the Enterprise Agile Planning vertical, and the tracker setup is available in [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/revenue-tech-stack-and-systems/-/issues/86).
+
+Anyone can propose a new tracker. The first step is to [open an issue with the Gong Tracker template](https://gitlab.com/gitlab-com/sales-team/field-operations/revenue-tech-stack-and-systems/-/issues/new?type=ISSUE&description_template=gong-trackers) and follow the instructions.
 
 ## The Co-Create Initiative
 
