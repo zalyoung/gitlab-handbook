@@ -120,7 +120,7 @@ You may assign a priority label to your request. Team members will review and ad
 
 For outages and other urgent matters that require immediate attention:
 
-- Use GitLab's [incident management](https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/) processes
+- Use GitLab's [incident management](../../infrastructure/incident-management/) processes
 - Contact the appropriate on-call engineer if your organization has established escalation procedures
 - For P1 emergencies, you may also reach out directly in team Slack channels while creating the formal issue
 
@@ -128,9 +128,9 @@ For outages and other urgent matters that require immediate attention:
 
 Each team maintains their own additional resources and processes:
 
-- **Geo Team**: See [Geo support process](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/tenant-scale/geo/#how-to-ask-for-support-from-geo) for detailed Geo-specific guidance
-- **Cells and Organizations**: Check the [Cells handbook page](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/) for cells-specific information
-- **Organizations Team**: See [Organizations team page](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/) for organization-specific guidance
+- **Geo Team**: See [Geo support process](geo/#how-to-ask-for-support-from-geo/_index.md) for detailed Geo-specific guidance
+- **Cells and Organizations**: Check the [Cells handbook page](cells_and_organizations/_index.md) for cells-specific information
+- **Organizations Team**: See [Organizations team page](tenant-scale/organizations/_index.md) for organization-specific guidance
 
 ### Best Practices
 
