@@ -329,12 +329,14 @@ Enterprise customers using directory services expect access control to mirror th
 **Approach:** Improve existing groups to better separate user management concerns through enhanced sharing options and visibility improvements.
 
 **Pros:**
+
 - Minimal disruption to existing customers and workflows
 - Leverages existing user familiarity with group concepts
 - Lower development and migration costs
 - Maintains current API compatibility
 
 **Cons:**
+
 - Doesn't address fundamental dual-purpose nature of groups
 - Inheritance inconsistencies would persist
 - Limited ability to implement enterprise-scale requirements
