@@ -25,7 +25,7 @@ While most new Macbooks supplied by GitLab are automatically enroled in Jamdf, t
 
 1. Open Google Chrome and go to https://gitlab.jamfcloud.com/enroll
 1. Sign in with your Okta credentials
-1. Click the blue `Install` button to downlaod the `enrollmentProfile.mobileconfig` file
+1. Click the blue `Install` button to download the `enrollmentProfile.mobileconfig` file
 1. Open the file by double-clicking on it
 1. Go back to `System Settings` > `General` > `Device Management`
 1. You will now see `MDM Profile` in the list, waiting to be installed
