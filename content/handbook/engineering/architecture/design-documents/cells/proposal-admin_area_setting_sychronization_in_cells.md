@@ -10,17 +10,25 @@ toc_hide: true
 
 {{< engineering/design-document-header >}}
 
-## Context
+## Goals
 
-GitLab.com is transitioning from a monolithic architecture to a distributed deployment model with cells organized in rings. While the legacy monolith (Ring 0) has settings controlled via Helm charts, settings for cells in Ring 1+ currently require manual updates by SREs. This creates several challenges:
+We desire an automated solution for synchronizing application settings across multiple cells. This solution must integrate with the existing ring-based deployment model while supporting both global consistency and local customizations.
 
-1. **Operational Overhead**: Manual configuration across cells consumes significant SRE time and increases risk of human error
-2. **Configuration Drift Risk**: Manual processes lead to inconsistencies between cells
-3. **Limited Integration**: Manual approach incompatible with the ring-based deployment model
-4. **Customization Challenges**: Efficient application of cell-specific customizations presents difficulties
-5. **Scalability Concerns**: The current approach may become increasingly difficult to maintain as the number of cells and rings expands
+Currently, GitLab.com's transition to a distributed deployment model with cells organized in rings presents operational challenges. While Ring 0 (legacy monolith) uses Helm charts for settings control, Ring 1+ cells require manual SRE updates, creating operational overhead, configuration drift risk, and scalability concerns as the number of cells and rings expands.
 
-An automated solution for synchronizing application settings across distributed cells is necessary - one that integrates with the existing ring-based deployment model while supporting both global consistency and local customizations.
+## Requirements
+
+| Requirement | Description |
+|-------------|-------------|
+| Configuration as Code | Store all settings in version-controlled repositories |
+| Source of Truth | Treat live cells as authoritative reference to prevent drift |
+| Ring-Based Integration | Build upon existing ring deployment model |
+| Hierarchical Settings | Support inheritance from base → ring → cell overrides |
+| Concurrent Application | Apply settings to all cells within a ring simultaneously |
+| Feedback Mechanism | Provide clear success/failure feedback for operations |
+| Scalability Design | Handle increasing numbers of cells and rings efficiently |
+| Secure Authentication | Use service account authentication vs. Personal Access Tokens |
+| Minimal Secret Management | Reduce need to transmit or store secrets |
 
 ## Proposed Solution
 
@@ -44,18 +52,22 @@ To address the requirements outlined above, a potential settings synchronization
 
 ### API Considerations
 
-The Backend team would be essential partners in developing secure API endpoints for settings management. While the specific implementation would be determined by the Backend team's expertise, several considerations are worth noting:
+The Backend team would be essential partners in developing secure API endpoints for settings management. Key requirements for this API:
 
-1. **API Access Pattern Options**:
-   - GET operation to retrieve current settings
-   - PUT/PATCH operation to update settings
-   - Support for appropriate status codes and error handling
+- **Internal Tool Access Only**: API accessible only by the synchronization tool (ringctl or similar), not by customers
+- **Scoped Authentication**: Authentication must be scoped specifically to cell settings operations
+- **Rotatable Credentials**: Authentication mechanism must support credential rotation
+- **Future Design Flexibility**: Specific HTTP methods (GET/PUT/PATCH) and detailed endpoint design can be determined during implementation phase
 
-2. **API Security Considerations**:
-   - **Authentication**: Cryptographically signed token authentication tied to a least-privilege service identity
-   - **Authorization**: Secured for internal service accounts to maintain system integrity
-   - **Idempotency**: Operations that can be safely repeated if needed
-   - **Validation**: Input validation with clear error messages
+#### Authentication Strategy
+
+**JWT Secret Management**: JWT signing secrets would be stored in Vault and made available to the Tissue project's CI environment during ring deployment operations. This approach leverages existing secret management infrastructure while maintaining security boundaries between deployment tooling and target cells.
+
+**Environment-Based Secrets**: JWT signing secrets would be distinguished by environment (non-prod/prod) rather than per-ring or per-cell. This approach balances security isolation with operational simplicity, allowing for environment-level credential rotation while avoiding unnecessary key management complexity.
+
+**Unified Authentication Approach**: The JWT-based authentication strategy could serve as a foundation for other cross-cell operations including feature flag controls and rate limit management. This creates a consistent authentication pattern for internal tooling while avoiding the proliferation of different authentication mechanisms across operational tools.
+
+This approach prioritizes security and operational requirements while allowing implementation details to be refined collaboratively with the Backend team.
 
 ### Settings Structure
 
@@ -193,19 +205,6 @@ Several options could address this challenge:
 - Might introduce complexity for application-level configuration
 - Has different strengths than what might be needed for dynamic application settings
 - Could experience state drift from actual configurations
-
-### SSH-based Configuration Management
-
-**Approach**: Utilize configuration management tools (Ansible, Salt, Chef, Puppet) via SSH.
-
-**Considerations**:
-
-- Leverages well-established patterns for configuration management
-- Offers a rich ecosystem of existing modules
-- Would require SSH access to cells, which has security implications to consider
-- Takes a different approach than the containerized deployment model
-- Would need additional credential management
-- Might experience latency in cross-region deployments
 
 ### GitOps Approach (ArgoCD/Flux)
 
