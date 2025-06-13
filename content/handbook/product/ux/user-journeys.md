@@ -31,7 +31,6 @@ Journey map elevation levels connect and inform each other, with micro-level ins
     - Show cross-service and cross-channel experiences
     - Include long-term emotional arc and loyalty drivers
     - Identify ecosystem-wide improvement opportunities
-    - Focus on broad patterns rather than specific actions.
 - Artifacts: TBD
 
 ### Mid level
