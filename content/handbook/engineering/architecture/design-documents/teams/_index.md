@@ -348,12 +348,14 @@ Enterprise customers using directory services expect access control to mirror th
 **Approach:** Implement Teams as completely flat entities with no hierarchical relationships, requiring explicit access grants for each team-resource combination.
 
 **Pros:**
+
 - Eliminates inheritance complexity entirely
 - Clear, auditable access relationships
 - No risk of "orphaned permissions" through organizational changes
 - Simple mental model for all user types
 
 **Cons:**
+
 - Significant administrative overhead at enterprise scale
 - Doesn't support organizational modeling requirements
 - May require extensive tooling to manage access grants efficiently
