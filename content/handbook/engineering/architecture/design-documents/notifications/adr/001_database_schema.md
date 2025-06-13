@@ -231,3 +231,14 @@ ORDER BY created_at DESC;
 
 - Joining multiple tables at once
 - Need for the careful queries structure to avoid inefficient queries
+
+### Exploring this design
+
+This design was explored by the [Workflow Catalog group](https://handbook.gitlab.com/handbook/engineering/ai/data-science/ai-powered/workflow-catalog/)
+in [merge request 194032](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/194032).
+
+We looked at using a concern to include:
+
+- `accepts_nested_attributes_for` - enables nested attribute handling
+- `after_initialize` callback - creates the generic model automatically
+- `delegate` and `assign_attributes` - handles reading and writing generic attributes
