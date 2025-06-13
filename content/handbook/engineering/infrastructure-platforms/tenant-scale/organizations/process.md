@@ -131,8 +131,8 @@ To weigh an issue, consider the following important factors:
 
 - Volume of work: expected size of the change to the code base.
 - Complexity:
-    - Problem understanding: how well the problem is understood.
-    - Problem-solving difficulty: the level of difficulty we expect to encounter.
+  - Problem understanding: how well the problem is understood.
+  - Problem-solving difficulty: the level of difficulty we expect to encounter.
 
 When estimating development work, please assign an issue the appropriate weight:
 
@@ -239,6 +239,7 @@ You can find our group metrics in the Tableau views listed below:
 - [Slow RSpec test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2354045/views)
 
 ## Engineering Customer/Support Rotation Process
+
 {{< alert type="note" >}}
 **Note**: this process is currently unique to the Groups & Projects half of the team, while Organizations is still in development. We expect to roll out something similar for Organizations when the product is on general release.
 {{< /alert >}}

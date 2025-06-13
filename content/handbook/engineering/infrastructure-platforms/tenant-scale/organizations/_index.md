@@ -76,5 +76,6 @@ those meetings, so we record them and share written summaries ([agenda](https://
 We currently have the following recurring meetings scheduled:
 
 ### Weekly Wednesday - Organizations Team Sync
+
 - APAC – 04:00 UTC
 - EMEA/AMER – 15:00 UTC
