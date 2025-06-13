@@ -70,7 +70,6 @@ Many team members can use their company issued laptop until it breaks. If your p
 
 Laptops paid for or reimbursed by the company are property of GitLab. They must be enrolled using the proper Endpoint Management System for accurate [asset tracking](/handbook/finance/accounting/#fixed-asset-register-and-asset-tracking).
 
-
 ### Laptop Repair
 
 **Any loss or damage must be reported to IT as soon as it occurs.**
