@@ -119,7 +119,7 @@ For example, a "Frontend Developer" custom role might include specific permissio
    - Maintain philosophy of convention over configuration
    - Avoid creating complexity that contradicts the goal of reducing cognitive load
 
-3. **External identity provider features**
+4. **External identity provider features**
    - Teams architecture should integrate with external systems, not replace them
    - Directory synchronization remains the responsibility of existing LDAP/SAML integration
    - User lifecycle management stays within current GitLab administration boundaries
