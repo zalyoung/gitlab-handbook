@@ -123,11 +123,17 @@ IT must verify the laptop specs and cost before approval is given. The created i
 
 #### Additional Laptop Request
 
-If you are in need of a additional device, have a business justification, have manager approval and IT approval, you can request an additional laptop through the [Laptop Refresh/Upgrade template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new#). Please note that if the secondary device is approved it will be a refurbished device and not a new device.
+Additional laptops are limited to refurbished Mac devices. Determiniation of eligibility will require business justification, manager approval and IT approval. A request can be submitted through the [Laptop Refresh/Upgrade template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new#). 
 
 #### Use of Personal Laptop
 
 We do not allow personal laptops to be used for GitLab work. If a laptop is not available to a new GitLab team member upon their start date, it is permissable for them to temporarily use a personal macOS or Linux laptop.
+
+#### Windows for Customer Support and Product Development
+
+Windows cannot be used to access GitLab Corporate services (e.g. Slack, G-Suite, GitLab.com); the Windows OS can only be used in addition to a GitLab managed Mac. We understand specific roles will need to use Windows to ensure platform and ecosystem support for GitLab customers and partners who develop for the Microsoft Ecosystem.
+
+The usage of virtualized Windows is highly preferred and should satisfy most every support and development need. Complete details about Windows usage is available on the internal [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/#windows-for-customer-support-and-product-development) page.
 
 #### Laptop exceptions not listed
 
@@ -135,15 +141,15 @@ Any circumstance that falls outside of the listed exceptions or if GitLab IT dee
 
 ### Laptop Configurations
 
-GitLab approves and supports the use of Linux and Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Windows is not supported as a hardware laptop OS.
+GitLab approves and supports the use of Linux and Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Windows is not supported as a laptop OS.
 
 Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/) page.
 
-The operating system choices have obviously affected the hardware selection process.
+The operating system choices have affected the hardware selection process.
 
-Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system.
+Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support.
 
-NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
+NOTE: Apple does **not** have an employee discount program for GitLab.
 
 #### Apple Hardware
 
@@ -167,7 +173,7 @@ IT strongly encourages team members to select Macs; please only request a Linux 
 
 \*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
 
-Our **only approved Linux laptop vendor at this time is Dell**. These laptops generally come pre-loaded with Ubuntu Linux in order to save money on unused Windows licenses. Dell do not currently sell laptops pre-installed with Linux in Australia and New Zealand; staff will need to install Linux themselves.
+Our **only approved Linux laptop vendor is Dell**. These laptops generally come pre-loaded with Ubuntu Linux in order to save money on unused Windows licenses. Dell does not currently sell laptops pre-installed with Linux in New Zealand; staff will need to install Linux themselves.
 
 Dell is GitLab's exclusive Linux vendor for the following reasons:
 
@@ -181,14 +187,6 @@ Dell is GitLab's exclusive Linux vendor for the following reasons:
 * To date, all of Dell's major security issues have not been related to their hardware.
 
 Laptops are purchased by GitLab IT during a team member's onboarding process; the team member will be sent a form to fill out for ordering.
-
-#### Windows for Customer Support and Product Development
-
-While GitLab limits the Laptop Hardware OSes supported for team member daily work, specific roles will need to use Windows for Customer Support and Product Development to ensure excellent platform and ecosystem support for GitLab customers and partners who develop for the Microsoft Ecosystem.
-
-Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/), [including installation of SentinelOne](/handbook/security/corporate/systems/sentinelone/) as well all information in this section.
-
-Complete details about Windows usage is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/) page.
 
 ### Laptop Vendor Selection Criteria
 
