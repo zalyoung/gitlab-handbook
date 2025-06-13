@@ -1,5 +1,5 @@
 ---
-title: "GitLab IT 101"
+title: "GitLab IT Onboarding 101"
 ---
 
 ## Welcome To GitLab
@@ -92,7 +92,8 @@ You will receive an Okta activation email in your personal email. This is the fi
 4. Set up additional security methods:
    - On the **Set up Security methods** screen, click **Set up** for **Security Key or Biometric authenticator**
    - Click **Set up** again to confirm
-   - On the **Create a passkey for gitlab.okta.com** pop-up, click **Continue**
+   - On the **Create a passkey for gitlab.okta.com** pop-up, click **Save another way**
+   - Select **Your Chrome profile** followed by **Continue**
 
 ### Step 6: Access GitLab Email & GitLab.com Account
 
