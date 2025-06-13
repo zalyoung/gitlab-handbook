@@ -10,27 +10,29 @@ A single product, Gong.io, is used by field teams to schedule, record and review
 
 ### Attending Upcoming Calls
 
-You can request to attend any upcoming call, whether to partipate or simply to shadow.
+You can request to attend any upcoming call, whether to actively partipate or to shadow.
 
 To view upcoming calls in Gong.io:
 
 1. Click on Home in the left sidebar
-1. Select "View upcoming calls" from the Conversations panel
+1. In the Conversations panel select "View upcoming calls"
 1. Use the tabs to view calls you're already scheduled to attend, those for your team, and the wider company
+
+To be added to the call, reach out to the lead participant.
 
 ### Review previous calls
 
-All recorded customer calls, with consent of the customer, are made available for team-members to view in Gong.
+All recorded customer calls, with consent of the customer, are made available for team-members to view in Gong. To access these, navigate using the Conversations menu in the left sidebar.
 
-To access these, navigate using the Conversations menu in the left sidebar.
+Recordings are transcribed automatically and the text is fully searchable. To find relevant calls, consider searching by competitor mentions, product functionality, or workflow terminology.
 
-You can search for calls by specific terminology contained in the transcript; such as competitor mentions, product functionality, or workflow names. You can add interesting calls, or snippets thereof, to your personal library to review later.
+You can create snippets of interesting calls and add them to your personal library for reference later.
 
 #### Create a Smart Tracker
 
-Smart Trackers are AI classifiers that are trained on specific phrases, and used to categorize new calls based on their transcripts. They can be extremely useful for separating signal from noise.
+Smart Trackers are AI classifiers that are trained on specific phrases and used to categorize new calls based on their transcripts. They can be extremely useful for separating signal from noise.
 
-Trackers can be created for any purpose but they're particularly interesting for identifying conversations that are relevant to specific product verticals. These may not map 1-1 to GitLab Engineering teams.
+Trackers can be created for any purpose but they're particularly interesting for identifying conversations that are relevant to specific product verticals. These may not map 1 to 1 to GitLab Engineering teams.
 
 A pilot is currently being conducted for the Enterprise Agile Planning vertical, and the tracker setup is available in [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/revenue-tech-stack-and-systems/-/issues/86).
 
