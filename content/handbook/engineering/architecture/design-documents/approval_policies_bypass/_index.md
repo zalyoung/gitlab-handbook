@@ -74,11 +74,6 @@ flowchart TD
     F --> H[MR can be merged without policy approval]
     G --> I[MR requires approval per policy rules]
     D --> J[MR follows standard project approval rules]
-
-    style F fill:#90EE90
-    style G fill:#FFB6C1
-    style H fill:#90EE90
-    style I fill:#FFB6C1
 ```
 
 #### Policy Schema
