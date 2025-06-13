@@ -366,12 +366,14 @@ Enterprise customers using directory services expect access control to mirror th
 **Approach:** Implement comprehensive role-based permissions that define what actions can be performed rather than focusing on organizational structure.
 
 **Pros:**
+
 - Industry-standard approach understood by security professionals
 - Fine-grained control over specific capabilities
 - Better separation of concerns between identity and permissions
 - Strong compliance framework support
 
 **Cons:**
+
 - Significant complexity increase for administrators and end users
 - May not address organizational modeling needs
 - Could create cognitive load that contradicts usability goals
