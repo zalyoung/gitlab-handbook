@@ -23,6 +23,8 @@ You will receive an Okta activation email in your personal email. This is the fi
 
 ### Step 2: MacBook Initial Setup
 
+> **IMPORTANT**: If `Remote Management` is not available on your laptop, please use the [Jamf MDM Setup Guide](/handbook/security/corporate/systems/jamf/setup/) to manually enroll your device.
+
 1. Power on your GitLab laptop
 2. Complete the initial macOS setup:
    - Choose your preferred language
