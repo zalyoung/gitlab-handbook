@@ -25,7 +25,7 @@ Journey map elevation levels connect and inform each other, with micro-level ins
 ### Macro level
 
 - Purpose: Strategic alignment and ecosystem understanding
-- Timeframe: Covers months to years, spanning multiple products/services
+- Timeframe: Covers months to years capturing the full customer lifecycle from initial awareness through long-term use/advocacy
 - Scope:
     - Focus on high-level phases, major milestones, and business outcomes
     - Show cross-service and cross-channel experiences
