@@ -27,10 +27,10 @@ Journey map elevation levels connect and inform each other, with micro-level ins
 - Purpose: Strategic alignment and ecosystem understanding
 - Timeframe: Covers months to years capturing the full customer lifecycle from initial awareness through long-term use/advocacy
 - Scope:
-    - Focus on high-level phases, major milestones, and business outcomes
-    - Show cross-service and cross-channel experiences
-    - Include long-term emotional arc and loyalty drivers
-    - Identify ecosystem-wide improvement opportunities
+  - Focus on high-level phases, major milestones, and business outcomes
+  - Show cross-service and cross-channel experiences
+  - Include long-term emotional arc and loyalty drivers
+  - Identify ecosystem-wide improvement opportunities
 - Artifacts: TBD
 
 ### Mid level
@@ -38,10 +38,10 @@ Journey map elevation levels connect and inform each other, with micro-level ins
 - Purpose: Cross-functional alignment and end-to-end experience optimization
 - Timeframe: Covers days to weeks for a specific user goal or service experience
 - Scope:
-    - Focus on specific user scenario from start to finish
-    - Include detailed pain points and emotional journey
-    - Show specific touchpoints and channels
-    - Identify tactical improvement opportunities
+  - Focus on specific user scenario from start to finish
+  - Include detailed pain points and emotional journey
+  - Show specific touchpoints and channels
+  - Identify tactical improvement opportunities
 - Artifacts: TBD
 
 ### Micro level
@@ -49,8 +49,8 @@ Journey map elevation levels connect and inform each other, with micro-level ins
 - Purpose: Interaction optimization and usability improvement
 - Timeframe: Covers minutes to hours for specific task completion
 - Scope:
-    - Focus on granular user flows and micro-interactions
-    - Include detailed interface elements and user actions
-    - Show moment-by-moment emotions and friction points
-    - Identify specific UI/UX improvements and metrics
+  - Focus on granular user flows and micro-interactions
+  - Include detailed interface elements and user actions
+  - Show moment-by-moment emotions and friction points
+  - Identify specific UI/UX improvements and metrics
 - Artifacts: TBD
