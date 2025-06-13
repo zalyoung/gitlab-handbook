@@ -6,7 +6,7 @@ Learn how to use [Claude.ai](https://claude.ai/) to infuse AI into your workflow
 
 ## Access
 
-Open [claude.ai](https://claude.ai/) and use your team member email address for SSO login. You can also use the Claude tile in [Okta](/handbook/it/okta/). Review the [usage guidelines and FAQs](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs) (internal).
+Open [claude.ai](https://claude.ai/) and use your team member email address for SSO login. You can also use the Claude tile in [Okta](/handbook/security/corporate/end-user-services/okta/). Review the [usage guidelines and FAQs](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs) (internal).
 
 ## Resources
 
