@@ -130,7 +130,6 @@ The effectiveness of this initiative will be demonstrated through several key
 indicators of organizational capability and team empowerment:
 
 - Successful implementations of Cloudflare solutions independently
-  - Solutions will meet our compliance and security standards
 - Team satisfaction and confidence in using our Cloudflare modules, measured
   through feedback form collection and qualitative feedback sessions
 - Time teams spend updating and upgrading their configuration
