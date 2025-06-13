@@ -237,3 +237,33 @@ You can find our group metrics in the Tableau views listed below:
 - [Merge request metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2104461/views)
 - [Flaky test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
 - [Slow RSpec test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2354045/views)
+
+## Engineering Customer/Support Rotation Process
+{{< alert type="note" >}}
+**Note**: this process is currently unique to the Groups & Projects half of the team, while Organizations is still in development. We expect to roll out something similar for Organizations when the product is on general release.
+{{< /alert >}}
+
+Every two weeks, a Groups & Projects engineer is assigned to be the DRI for the technical assessment of customer support tickets,  monitoring [#g_organizations](https://gitlab.slack.com/archives/g_organizations) channel for support issues or `master` pipeline failures, and addressing bugs and support requests which have been triaged and prioritised.
+
+### Process summary
+
+- Every two weeks, a Slack reminder in [#g_organizations_standup](https://gitlab.enterprise.slack.com/archives/C054LN3G0CE) channel will let the group know that a new support shift is starting for technical assessment triage.
+- Every engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the Slack reminder.
+- The DRI currently on rotation should then dedicate their two weeks to the following work (in priority order):
+    1. Responding to any [alerts](https://gitlab.com/gitlab-org/gitlab/-/pipelines/1858249063) for broken `master` pipeline failures triggered in [#g_organizations](https://gitlab.slack.com/archives/g_organizations)
+    1. Working on any scheduled support issues in the current milestone
+    1. Working on any scheduled bug issues in the current milestone
+    1. Triaging any new issues from the customer support [backlog](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AOrganizations&first_page_size=20) and asking for followup information where needed
+- If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated.
+- The DRI needs to update this [issue](https://gitlab.com/gitlab-org/tenant-scale-group/groups-and-projects/discussions/-/issues/1) for the 2025 rotation when handing over to the next participant.
+
+At the end of the rotation, each engineer should provide handover notes inside the [team support issue](https://gitlab.com/gitlab-org/tenant-scale-group/groups-and-projects/discussions/-/issues/1):
+
+- Use the example format in the issue description to summarise what was worked on during the rotation
+- Post this directly on the issue, with a ping to the new DRI, in a new root comment (not on a thread)
+- If needed, the new DRI should ask clarifying questions on a reply to the comment or in Slack.
+- Set up a meeting, if required, to go over more difficult context for handover
+
+### Rotation schedule
+
+Schedules are tracked in a [Google Sheet (internal link)](https://docs.google.com/spreadsheets/d/1Y0DI8rNG9hMC21fsVTAQlKfu1F883zUn2SsjFLvckYM/edit?usp=sharing). Please ask before changing this.
