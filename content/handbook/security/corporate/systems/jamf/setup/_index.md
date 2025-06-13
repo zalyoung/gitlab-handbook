@@ -8,7 +8,7 @@ While most new Macbooks supplied by GitLab are automatically enroled in Jamdf, t
 
 ### Prerequisites
 
-1. A MacBook capabe of running the latest version of macOS
+1. A MacBook capable of running the latest version of macOS
 1. An up-to-date macOS installation - [Update macOS](https://support.apple.com/en-us/108382)
 1. A stable internet connection - **Do not attempt to enroll a laptop into Jamf using mobile internet, hotel Wi-Fi,etc.**
 1. An active GitLab Okta account
