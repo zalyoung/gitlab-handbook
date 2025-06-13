@@ -2,21 +2,18 @@
 title: Laptop Refresh Age Replacement
 ---
 
-## Overview
+### Laptop Refresh
 
-Team members can choose to refresh their laptop, no questions asked, after 3 years of use (not necessarily 3 years of employment if a used laptop was issued at the time of onboarding). If the laptop is sufficient for your needs, you may opt to continue using a laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
+Team members are eligible for a laptop refresh, no questions asked, after 3 years of active use. The 3-year period:
 
-The old laptop must be [wiped](/handbook/security/corporate/services/laptops/wipe) or [returned](/handbook/security/corporate/services/laptops/recycle/) **within 2 weeks of receiving the new laptop**. Please prioritize transferring information between laptops within this timeframe.
+* Begins when a team member starts actively using their assigned laptop, not necessarily when it was first received
+* Resets when a replacement laptop is issued due to damage, malfunction, or other circumstances
+* Is based on the device's usage period, not the team member's employment duration
 
-To request a refresh, please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade).
+If the laptop is sufficient for your needs, you may opt to continue using the laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
 
-### If the current laptop has been used for 3 or more years
+Please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade) to request a laptop refresh.
 
-Once the laptop is wiped by GitLab IT, at GitLab's discretion:
+The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
 
-* You may keep the laptop at no charge.
-* We can provide a Transfer of Ownership document if requested.
-
-**Note** The option to purchase or keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](/handbook/legal/ethics-compliance-program/#policies), or other legal or security related inquiries.
-
-Please also refer to our [Laptop Buyback Policy](/handbook/security/corporate/services/laptops/buyback).
+After 3 years of use, the team member may retain the old laptop after it has been wiped at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), as well as other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
