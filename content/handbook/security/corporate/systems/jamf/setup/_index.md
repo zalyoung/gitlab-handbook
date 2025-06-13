@@ -4,7 +4,7 @@ title: Jamf MDM Setup Guide
 
 ## Manual Enrollment
 
-Most new MacBooks supplied by GitLab are automatically enrolled in Jamf, there are some exceptions based on how the laptop was purchased. In these cases, laptops must be manually enrolled to be able to access any GitLab Corporate services..
+Most new MacBooks supplied by GitLab are automatically enrolled in Jamf, there are some exceptions based on how the laptop was purchased. In these cases, laptops must be manually enrolled to be able to access any GitLab Corporate services.
 
 ### Prerequisites
 
