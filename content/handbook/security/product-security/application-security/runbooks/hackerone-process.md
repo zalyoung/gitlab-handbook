@@ -85,7 +85,7 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 
 ### GitLab Team On-boarding
 
-- New members of the GitLab security team are granted access to the GitLab HackerOne team with an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
+- New members of the GitLab security team are granted access to the GitLab HackerOne team with an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
 - During onboarding, new GitLab security team members will be invited to join the HackerOne program if their role requires it.
 
 ### Working the Queue
@@ -197,7 +197,7 @@ For future reports that involve "vulnerability chaining" with previously disclos
 ### Triaging exposed secrets
 
 <details>
-<summary>Click to view copy-pastable Appsec Triage Checklist markdown to help with triaging exposed secrets</summary>
+<summary>Click to view copy-pasteable Appsec Triage Checklist markdown to help with triaging exposed secrets</summary>
 
 ```markdown
 ### Appsec Triage checklist
@@ -251,11 +251,11 @@ Exposure of information and secrets is handled a little differently to vulnerabi
       ```
 
     - [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
-        
+
         ```bash
         curl --request DELETE -H "Authorization: Bearer LEAKED_TOKEN" https://gitlab.com/api/v4/personal_access_tokens/self
         ```
-        
+
   - Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - Use the `/security` slack command to initiate an incident

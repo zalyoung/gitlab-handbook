@@ -18,7 +18,7 @@ Package Hunter detected that a package opened a network connection.
 - We can look at the destination IP address and see if gives any interesting information
   - In this example, it's a an AWS IP address but it gives us no information
   about what package might have contacted this IP
-- **Attention: This step requries to checkout the branch for which the finding was made.
+- **Attention: This step requires to checkout the branch for which the finding was made.
 Please proceed with caution when analyzing potentially malicious code on your local computer.
 We recommend to checkout the code into a dedicated VM.
 If there are any questions or you require assistance, please reach out to `@gitlab-com/gl-security/product-security/appsec`.**

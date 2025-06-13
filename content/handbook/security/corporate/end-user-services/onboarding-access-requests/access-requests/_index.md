@@ -8,9 +8,9 @@ If you have any access requests related questions, please reach out to #it_help 
 
 ## Access requests related pages
 
-- [Frequently asked questions](/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/)
-- [Baseline Entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
-- [Temporary service providers access requests and onboarding](https://internal.gitlab.com/handbook/it/end-user-services/access-request/temporary-service-providers/)
+- [Frequently asked questions](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/)
+- [Baseline Entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/)
+- [Temporary service providers access requests and onboarding](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/temporary-service-providers/)
 
 ## Need help?
 
@@ -70,7 +70,7 @@ Title the issue `Full Name, System(s), Role` using the details of the person req
 {{% panel header="**Instructions**" header-bg="success" %}}
 **Prior to submitting this Issue Request**
 
-1. Please review our [Access Control Policy and Procedures](/handbook/security/#access-control-policy-and-procedures) to ensure that your request is in line with GitLab's policies and procedures. If after review you feel that a shared account is still needed, complete submit the issue using the template. **Note that systems with PCI data is not allowed shared accounts.**
+1. Please review our [Access Control Policy and Procedures](/handbook/security/) to ensure that your request is in line with GitLab's policies and procedures. If after review you feel that a shared account is still needed, complete submit the issue using the template. **Note that systems with PCI data is not allowed shared accounts.**
 1. Please note that shared account request(s) will need to be reviewed and approved by IT Ops and the listed Tech Stack Owner.
 **An [Exception Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/issues/new?issuable_template=Exception%20Request) will need to be logged for each user you are requesting to be added.** Note that with an Exception Request the maximum exception length is 90 days (365 days for device exceptions only).
 After the Exception Length, you will be required to submit another Exception Request for review and approval.**If the exception request is not logged, reviewed, and approved for an extension, note that the Shared Account will be disabled.** Please refer to our [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions) handbook page for more information.
