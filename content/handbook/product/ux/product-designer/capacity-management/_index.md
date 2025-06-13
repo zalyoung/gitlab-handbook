@@ -44,7 +44,6 @@ Should do:
 
 Nice to do:
 
-- [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui).
 - Addressing issues labeled [`Seeking community contributions`](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name%5B%5D=Seeking+community+contributions&label_name%5B%5D=UX) or other low-hanging usability problems.
 - Issues in future milestones (e.g., next release or [Backlog](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&milestone_title=Backlog&label_name%5B%5D=UX)).
 - Popular issues with no milestone (based on comments or upvotes).
