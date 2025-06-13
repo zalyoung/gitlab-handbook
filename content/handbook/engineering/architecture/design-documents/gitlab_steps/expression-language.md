@@ -3,21 +3,21 @@ owning-stage: "~devops::verify"
 title: "The CI Steps Expression Language"
 toc_hide: false
 ---
+
 ## Summary
 
 This document proposes extending the CI Steps Expression Language to include string manipulation, arithmetic, comparisons,
-logic, property access, and function calls.
+logic, property access, and function calls. It proposes to build the language in-house, and explains why it must differ from the CI Components Expression Language.
 
-The document suggests building the expression language in-house and describes why it must differ from the CI Components Expression Language.
-The document goes on to specify the expression language.
+The document then specifies the CI Steps Expression language.
 
 ## Motivation
 
-A differentiator of CI Steps compared with other CI solutions is that individual job tasks (steps) may be reused. Users create CI jobs by stitching together purpose-built
+A differentiator of CI Steps compared with other CI solutions is that individual job tasks (steps) may be reused. Users create a Steps CI job by stitching together purpose-built
 steps when performing a custom task (e.g. email my stakeholders), and steps from an external source when performing a common task (e.g. a compile Go step hosted in a steps library).
 
-Steps are stitched together by using expressions to create inputs for the next step from variables and the outputs of previously run steps. For example, if a Docker `build` step
-builds a Docker image, a subsequent `release` step can use the image reference output from the build step to ensure the correct image is released.
+Steps are stitched together by using expressions `${{ [expression] }}` as the step input. The expression is evaluated during job execution, so has access to job variables or outputs of a previously run step.
+For example, if a Docker `build` step builds a Docker image, a subsequent `release` step can use the image reference output from the build step to ensure the correct image is released.
 
 ```yaml
 build-and-release:
@@ -30,7 +30,7 @@ build-and-release:
     - name: release
       step: steps/library/docker/promote
       inputs:
-        from_image: ${{ steps.build.outputs.image_ref }} # promote the image built in the previous step
+        from_image: ${{ steps.build.outputs.image_ref }} # expression evaluates to the name of the image created in the 'build' step
         to_image: registry.gitlab.com/my-product:1.0.1
 ```
 
@@ -44,12 +44,14 @@ Many real-world situations are more complex, so the user needs tools to craft in
 - Property access: `address_line2: ${{ user.address.street[2] }}`
 - Function calls: `commit: ${{ replace(job.CI_COMMIT_DESCRIPTION, "\n", " ") }}`
 
-If CI Steps does not add these features to the expression language, then the burden of this step output/variable to step input conversion is passed on to the step author. This:
+If these features are not added to the expression language, then the burden of this variable/step output to step input conversion is passed on to the step author. This:
 
 - Reduces the productivity of the step author, and
 - Reduces the reusability of the step (if you don't have the right input format, it can't be used)
 
 ## Goal
+
+### Summary
 
 Extend the CI Steps Expression Language to allow string manipulation, arithmetic, comparisons, logic, property access, and function calls.
 
@@ -61,7 +63,7 @@ The extension to the expression language:
 - **MUST deviate from the expression language used by CI Components**
 - SHOULD be easy to use, and feel somewhat familiar to engineers. More powerful than JSON, less complex than JavaScript
 
-## Built in-house
+### Built in-house
 
 Expressions will be built in-house at GitLab using a recursive-descent parser.
 
@@ -70,72 +72,11 @@ A review of existing expression languages and libraries didn't find anything sui
 - They offer too many features, are too complex, or are considered to be unfamiliar to GitLab users
 - They do not support metadata, so Steps can't determine if evaluated expressions are derived from sensitive values
 
-## Out-of-scope
+### Out-of-scope
 
 This proposal does not define which functions should be defined, only that functions can be called.
 
-## Deviation from CI Components
-
-### As is - CI Components
-
-The CI Components Expression Language:
-
-- Is expressed surrounded by `$[[` and `]]`
-- Are evaluated during pipeline creation
-- Supports property access using `.`, for example, `inputs.rust_version`
-- Supports types `array`, `boolean`, `number` and `string`
-- Supports string templating, for example, `echo $[[inputs.message]]`
-- Supports function with pipes `|`, for example, `$[[ inputs.test | expand_vars | truncate(5,8) ]]`
-  - Only three piped functions are supported
-  - Only supports predefined functions, of which there are two, `expand_vars` and `truncate`
-
-### To be - CI Steps
-
-The CI Steps Expression Language MUST:
-
-- Support types `array`, `boolean`, `number`, `string` AND `struct`
-- Be evaluated at the last possible moment, during job execution
-- Support powerful ways to manipulate variables/job inputs/step outputs into step inputs, using arithmetic, string manipulation, logic, and property access
-- Support comparisons for control flow
-- Support complex function composition, for example, `max(15, major_version(extract_version("postgres:13.4.1")))`
-- Support string templating
-- Support property access using `.`
-
-### Moving forward
-
-The Steps and CI Components languages are different because they are evaluated at different times using different context.
-
-Effort should be made to minimize differences between languages. Going forward, Steps expressions will:
-
-- Be surrounded by `${{` and `}}` to communicate to a user both the expression language used, and that evaluation happens during job execution
-- Conform to the where possible, for example:
-  - Property access
-  - Types `array`, `boolean`, `number` and `string`
-- Deviate where necessary, for example:
-  - Support for `struct`
-  - The way functions are called, limits on number of functions used, the functions available to call
-  - arithmetic, string manipulation, logic, property access
-
-### Example
-
-The following example is of a CI component containing jobs that run steps. Users are required to know two expression syntaxes.
-
-```yaml
-spec:
-  inputs:
-    echo_version:
-      type: string
----
-
-build-job:
-  run:
-    - name: echo_step
-      step: gitlab.com/steps/echo@$[[inputs.echo_version]]  # CI Component expression, evaluated when the pipeline is created
-      inputs:
-        message: 'Hello, ${{ lower(jobs.GITLAB_USER_NAME) }}' # CI Steps expression, evaluated during job execution
-```
-
-## Common use-cases
+## Example use-cases
 
 ### Version management
 
@@ -180,11 +121,75 @@ build-job:
     proceed: ${{ steps.scan.outputs.critical_vulnerabilities == 0 && steps.scan.outputs.high_vulnerabilities < 5 }}
 ```
 
+## Deviation from CI Components
+
+### As is - CI Components
+
+The CI Components Expression Language:
+
+- Is expressed surrounded by `$[[` and `]]`
+- Are evaluated during pipeline creation
+- Supports property access using `.`, for example, `inputs.rust_version`
+- Supports types `array`, `boolean`, `number` and `string`
+- Supports string templating, for example, `echo $[[inputs.message]]`
+- Supports function with pipes `|`, for example, `$[[ inputs.test | expand_vars | truncate(5,8) ]]`
+  - Only three piped functions are supported
+  - Only supports predefined functions, of which there are two, `expand_vars` and `truncate`
+
+### To be - CI Steps
+
+The CI Steps Expression Language MUST:
+
+- Support types `array`, `boolean`, `number`, `string` AND `struct`
+- Be evaluated at the last possible moment, during job execution
+- Support powerful ways to manipulate variables/job inputs/step outputs into step inputs, using arithmetic, string manipulation, logic, and property access
+- Support comparisons for control flow
+- Support complex function composition, for example, `max(15, major_version(extract_version("postgres:13.4.1")))`
+- Support string templating
+- Support property access using `.`
+
+### Moving forward
+
+The Steps and CI Components expression languages are different because they are evaluated at different times using different contexts.
+
+- Steps cannot use CI Components expressions, it does not provide rich enough tools for the user to craft step input values.
+- CI Components cannot use Steps expressions, step context such as `env`, `output_file`, `work_dir`, and `export_file` are not available during pipeline creation.
+
+While differences between the expression languages remain, effort should be made to minimize differences where possible. Going forward, Steps expressions will:
+
+- Be surrounded by `${{` and `}}` to communicate to a user both the expression language used, and that evaluation happens during job execution
+- Conform to CI Components expressions where possible, for example:
+  - Property access
+  - Types `array`, `boolean`, `number` and `string`
+- Deviate from CI Components expressions where necessary, for example:
+  - Support `struct`
+  - Support arithmetic, string manipulation, logic, comparisons
+  - The way functions are called, limits on number of functions used, the functions available to call
+
+### Example
+
+The following example is of a CI component containing jobs that run steps. Users are required to know two expression syntaxes.
+
+```yaml
+spec:
+  inputs:
+    echo_version:
+      type: string
+---
+
+build-job:
+  run:
+    - name: echo_step
+      step: gitlab.com/steps/echo@$[[inputs.echo_version]]  # CI Component expression, evaluated when the pipeline is created
+      inputs:
+        message: 'Hello, ${{ lower(jobs.GITLAB_USER_NAME) }}' # CI Steps expression, evaluated during job execution
+```
+
 ## Specification
 
 ### Context-free grammar
 
-The CI Steps Expression Language defined as an Extended Backus-Naur Form (EBNF) grammar. It defines what syntax is valid with the dollar bracket-bracket, i.e. `${{ [CI steps expression] }}`.
+The CI Steps Expression Language defined as an Extended Backus-Naur Form (EBNF) grammar.
 
 ```ebnf
 // Lexical elements
