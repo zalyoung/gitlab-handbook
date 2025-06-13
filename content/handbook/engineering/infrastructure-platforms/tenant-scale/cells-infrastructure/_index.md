@@ -9,7 +9,7 @@ The Cells Infrastructure team is responsible for developing key services and com
 
 ## Team Members
 
-{{< team-by-manager-slug manager="nick-nguyen" team="Cells Infrastructure" >}}
+{{< team-by-manager-slug manager="dlogalbo" team="Cells Infrastructure" >}}
 
 ## How We Work
 
