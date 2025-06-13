@@ -252,7 +252,7 @@ The Infrastructure department hires for a number of different technical speciali
 
 ## Other Pages
 
-- [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
-- [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
+- [On-call Handover](/handbook/engineering/infrastructure-platforms/production-engineering/ops/on-call-handover/)
+- [SRE Onboarding](/handbook/engineering/infrastructure-platforms/production-engineering/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
