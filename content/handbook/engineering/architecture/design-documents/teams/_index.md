@@ -384,12 +384,14 @@ Enterprise customers using directory services expect access control to mirror th
 **Approach:** Implement a two-dimensional matrix where Teams represent one axis and Resources/Projects represent another, with explicit relationship management.
 
 **Pros:**
+
 - Clean conceptual separation between organizational and resource hierarchies
 - Supports complex organizational patterns (matrix organizations, temporary projects)
 - Provides flexibility for both hierarchical and flat organizational patterns
 - Clear audit trail through explicit relationship management
 
 **Cons:**
+
 - Potentially complex user interface and mental model
 - Administrative overhead for managing matrix relationships
 - Performance considerations for large matrices
