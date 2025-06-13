@@ -24,6 +24,7 @@ The Teams architecture aims to introduce a distinct entity for managing users th
 ### Current State Analysis
 
 In GitLab, groups serve dual purposes that create inherent tension:
+
 1. **Project organization**: Hierarchical structure for managing code, issues, and CI/CD resources
 2. **User management**: Organizing people and controlling access to resources
 
