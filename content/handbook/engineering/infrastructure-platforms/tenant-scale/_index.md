@@ -128,9 +128,9 @@ For outages and other urgent matters that require immediate attention:
 
 Each team maintains their own additional resources and processes:
 
-- **Geo Team**: See [Geo support process](geo/#how-to-ask-for-support-from-geo/_index.md) for detailed Geo-specific guidance
+- **Geo Team**: See [Geo support process](geo/#how-to-ask-for-support-from-geo) for detailed Geo-specific guidance
 - **Cells and Organizations**: Check the [Cells handbook page](cells_and_organizations/_index.md) for cells-specific information
-- **Organizations Team**: See [Organizations team page](tenant-scale/organizations/_index.md) for organization-specific guidance
+- **Organizations Team**: See [Organizations team page](organizations/_index.md) for organization-specific guidance
 
 ### Best Practices
 
