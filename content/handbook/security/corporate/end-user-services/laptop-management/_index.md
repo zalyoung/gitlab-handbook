@@ -134,13 +134,11 @@ Any circumstance that falls outside of the listed exceptions or if GitLab IT dee
 
 ### Laptop Configurations
 
-GitLab approves and supports the use of Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Windows is not supported as a hardware laptop OS.
+GitLab approves and supports the use of Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Linux & Windows are not supported as a hardware laptop OS.
 
 Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/) page.
 
 The operating system choices have obviously affected the hardware selection process.
-
-Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system.
 
 NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
 
@@ -191,11 +189,10 @@ Complete details about Windows usage is available on the [Approved Operating Sys
 
 ### Laptop Vendor Selection Criteria
 
-When recommending or approving end user device vendors for team member access, the Security Team tries to balance privacy, security, and compliance to ensure a solid choice for accessing GitLab data.
-Our current recommendations include Apple MacBook Pro running macOS and Dell Precision running Linux.
+When recommending or approving end user device vendors for team member access, the Security Team tries to balance privacy, security, and compliance to ensure a solid choice for accessing GitLab data. Our current recommendations include Apple MacBook Pro running macOS.
 
 By its very nature, GitLab has historically been very open as a company, starting as open source and migrating from a group of coders with their own laptops to an organization that needs to protect not just their own corporate data but customer data as well.
-Having developed a Data Classification Policy and currently implementing Zero Trust, we've had to make adjustments in laptop recommendations.
+Having developed a Data Classification Policy and implemented Zero Trust, we've had to make adjustments in laptop recommendations.
 
 Our laptop vendor selection criteria is as follows:
 
