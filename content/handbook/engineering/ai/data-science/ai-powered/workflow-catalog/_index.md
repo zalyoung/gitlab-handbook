@@ -104,14 +104,14 @@ be backported across several releases.
 
 The Workflow Catalog Team communicates based on the following guidelines:
 
-- Always prefer async communication over sync meetings.
-- Arrange a [sync call](#sync-calls) when async is proving inefficient.
-- By default communicate in the open.
-- Prefer public channels (`#g_workflow_catalog`) over private message for work-related
+* Always prefer async communication over sync meetings.
+* Arrange a [sync call](#sync-calls) when async is proving inefficient.
+* By default communicate in the open.
+* Prefer public channels (`#g_workflow_catalog`) over private message for work-related
   Slack messaging.
 
 ### Sync calls
 
-- Always record [sync calls](/handbook/communication/#video-calls) and share them.
-- Arranging a sync call with the whole team is hard because of timezones.
-- Find suitable meeting times using [time.is](https://time.is/compare/London/Auckland/Gujarat/Berlin/Brisbane).
+* Always record [sync calls](/handbook/communication/#video-calls) and share them.
+* Arranging a sync call with the whole team is hard because of timezones.
+* Find suitable meeting times using [time.is](https://time.is/compare/London/Auckland/Gujarat/Berlin/Brisbane).
