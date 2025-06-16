@@ -45,9 +45,9 @@ The Group Tenant Scale (GTS) organization includes multiple specialized teams wo
 
 The GTS group includes the following teams, each with their own areas of expertise:
 
-- **Geo and Disaster Recovery** - Data redundancy and disaster recovery solutions
-- **Cells** - Horizontal scaling and tenant isolation 
-- **Organizations** - Organization entity development to support Cells
+- **Geo and Disaster Recovery** - [Data redundancy and disaster recovery solutions](geo/_index.md)
+- **Cells** - [Horizontal scaling and tenant isolation](cells-infrastructure/_index.md)
+- **Organizations** - [Organization entity development to support Cells and Groups and Projects](organizations/_index.md)
 
 ### Before Requesting Support
 
@@ -78,43 +78,22 @@ Create a support issue when:
 
 ### Creating Support Requests
 
-#### Issue Creation Process
+Please create issues in the [Request For Help Repo](https://gitlab.com/gitlab-com/request-for-help) using the respective team's templates.
 
-We use issues to help prioritize work and maintain context. Please:
-
-1. **Create the RFH**: Create issues in the [Request For Help Repo](https://gitlab.com/gitlab-com/request-for-help):
-   
-2. **Use the correct template**: Select the appropriate issue template for the type of support needed
-   - Most teams have specific support request templates
-   - Include customer information and detailed support questions
-   - For collaboration requests (joining calls), use collaboration-specific templates where available
-
-3. **Provide essential information**:
-   - **Customer information** - Account details, subscription level, environment info
-   - **Zendesk links** (for support cases) - Required for proper triage
-   - **Logs and diagnostic data** - Include relevant technical details
-   - **Context** - Background information and what has been tried already
-
-⚠️ **Important**: Issues missing Zendesk links and essential diagnostic information will not enter the normal triage process.
+- Geo: [Geo](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Geo), [GEO Migrations](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GeoDedicatedMigrations), [Collaboration](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Collaboration)
+- Cells - To be created
+- [Organizations](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Organizations)
 
 #### Request for Help (RFH) Requirements
 
-- RFHs must generally be opened by Support Engineers once a support ticket exists
+- RFHs must generally be opened by Support Engineers once a support ticket exists, this allows for alignment across multiple organizations incase of customer escalations. Support engineers typically will be the first to help with emergencies/escalations and we want to make sure all stakeholders are aligned on the context available. 
 - Include all relevant context and previous troubleshooting steps
 - Issues with no updates for 2 weeks will be auto-closed by the team
 
 ### Priority Levels and Response Times
 
 You may assign a priority label to your request. Team members will review and adjust priority during triage as needed.
-
-| Priority | Typically Used For | Expected Response Time* |
-|----------|-------------------|------------------------|
-| **P4** | General questions requiring investigation that can't be answered quickly | 2-3 days |
-| **P3** | Non-urgent customer problems with workarounds, or future engagement scheduling | 1 day |
-| **P2** | Somewhat time-sensitive customer problems blocking progress or decisions | 1/2 day |  
-| **P1** | Fires and emergencies that customers are experiencing | 1-2 hours |
-
-\* Response times are based on weekdays (excluding holidays) within regular business hours across team member time zones.
+Please refer to the various team pages for response times.
 
 ### Escalation for Urgent Issues
 
