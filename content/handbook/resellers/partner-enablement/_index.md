@@ -8,7 +8,7 @@ In this section of the Partner Programs Handbook we review assets and enablement
 
 Beyond our Partners Handbook pages you will find sales guides, use cases, training materials, and program guides reviewed below. Additional partner-specific content is hosted in our [GitLab Partner Portal](https://partners.gitlab.com/). The materials should be a great place to start effectively selling, serving and hitting your number with GitLab.
 
-Remember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/English/).
+Remember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/partner/registration).
 
 ## Presales and Technical Enablement Resources
 
@@ -95,7 +95,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours) (Interactive demos)
   - A great collection of self-guided, hands-on, interactive exercises for (potential) customers, powered by [Navattic](https://www.navattic.com/). They can also serve as substitutes or safe fallbacks for live demos.
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
-  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Please refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
+  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab. Check out the README for further info.
 - [GitLab Learn Labs - Tanuki Racing](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) (GitLab Project)
@@ -205,10 +205,10 @@ Here are links to the most popular Professional Services topics from the [Profes
 
 ## 1. Official GitLab Training on Level Up
 
-- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/prm/English/c/Training)
-  - We use LevelUp that is accessible publicly, but please do not use the site directly as a Partner.  Please login through the Partner Portal and access training there.  This will ensure that the training you take will be associated with your company partnership with GitLab!
+- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/)
+  - Please login through the Partner Portal to access training in GitLab University. This will ensure that the training you take will be associated with your company partnership with GitLab!
 
-    ![Start Training from the Partner Portal](/images/resellers/partner-enablement/gitlab-partner-training.png) *Start Training from the Partner Portal*
+    ![Start Training from the Partner Portal](/images/resellers/partner-enablement/gitlab-partner-training.png)
 
 ## 2. Additional Enablement Resources at GitLab
 
