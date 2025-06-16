@@ -180,7 +180,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 6. You should now see a QR code on screen
 7. Ensure that bluetooth is enabled on your mobile device andthat the device is on the same Wi-Fi network as the laptop
 8. Open the mobile app. 
-   1. If this id your first time using the app, select `Add account from another device` 
+   1. If this id your first time using the app, select `Add account from another device`
    2. If you have used the ap before, press the `+` button near the top of the screen
 9. On the `Choose account type` screen, select `Organization`
 10. Select `Add account from another device` followd by `Scan QR code`
@@ -188,6 +188,21 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 12. On your laptop, enter the 6-digit pin shown on the phone screen
 13. On your mobile device, enable biometric verification when prompted
 14. You can verify that your phone is succesfully enrolled by going to https://gitlab.okta.com/enduser/settings and checking that your phone is listed under `Okta Verify`
+
+### Okta Verify -Manual Setup
+
+> Use these steps in case the mobile app fails to connect to the laptop app or the laptop app is unavailable
+
+1. Ensure that you have an [Okta passkey saved on your phone](#mobile-passkey-and-yubikey-setup)
+2. Download the Okta Verify app from the App Store (Apple) / Play Store (Android)
+3. Open the mobile app. 
+   1. If this id your first time using the app, select `Get started`, and continue until you get to the `Choose account type` screen
+   2. If you have used the ap before, press the `+` button near the top of the screen
+4. On the `Choose account type` screen, select `Organization` and then `Skip`
+5. Select `No, sign in instead`
+6. For `Organization's sign-in URL`, enter `gitlab.okta.com`
+7. Enter your `Okta Username` and `Password` and sign in
+8. Agree to the terms on screen and enable touch ID
 
 ### Mobile Passkey and Yubikey Setup
 
