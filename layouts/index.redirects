@@ -148,6 +148,7 @@
 /handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
 /handbook/engineering/infrastructure/faq/ /handbook/engineering/infrastructure-platforms/faq/ 301
 /handbook/engineering/infrastructure/feature-support/ /handbook/engineering/infrastructure-platforms/feature-support/ 301
+/handbook/engineering/infrastructure/incident-review/ /handbook/engineering/infrastructure-platforms/incident-review/ 301
 
 # Technical Writing handbook pages - remove 2025-08-05
 /handbook/product/ux/technical-writing/documentation/ /handbook/product/ux/technical-writing/#documentation 301

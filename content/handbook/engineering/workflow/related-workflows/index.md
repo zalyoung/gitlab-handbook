@@ -19,7 +19,7 @@ The diagram below shows how these processes interact with one another. Links to 
 1. [Working groups](/handbook/company/working-groups/)
 1. [InfraDev](/handbook/engineering/workflow/#infradev)
 1. [Cross Functional Prioritization](/handbook/product/product-processes/#prioritization)
-1. [Incident Review](/handbook/engineering/infrastructure/incident-review/)
+1. [Incident Review](/handbook/engineering/infrastructure-platforms/incident-review/)
 1. [Production readiness reviews](/handbook/engineering/infrastructure/production/readiness/)
 1. [Deployment Processes](/handbook/engineering/releases/#gitlabcom-deployments)
 1. GitLab.com Operational Processes
