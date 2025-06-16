@@ -142,7 +142,7 @@ There are a few possible outcomes with this command:
    cd ~\training
    ```
 
-1. Run the `git clone` command, using the command you copied earlier. If you copied the command from **Clone with HTTPS**, you will be required to enter in a username and password. Use the username and password you used to log into the lab environment. Make sure you choose the 'Pasword' option, and not the 'Token' option.
+1. Run the `git clone` command, using the command you copied earlier. If you copied the command from **Clone with HTTPS**, you will be required to enter in a username and password. Use the username and password you used to log into the lab environment. Make sure you choose the 'Password' option, and not the 'Token' option.
 
    ```bash
    git clone <Clone with SSH/HTTPS Command>
