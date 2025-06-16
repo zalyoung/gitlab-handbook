@@ -150,8 +150,98 @@ You'll know AI is hurting when:
 
 ## How to Use AI Tools: Selection and Use Cases
 
-This section is currently being developed.
+1. Ticket Summarization with ZenDuo
+
+Support Engineers can use ZenDuo (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
+
+2. Knowledge Base Article Generation
+
+Support Engineers can use GitLab Duo to generate draft KB articles from resolved Zendesk tickets by:
+
+- Passing a KB template to Duo
+- Having it parse the ticket to fill in the template
+- Creating time-effective KB articles with minimal manual effort
+
+3. Ticket Analysis and Insights
+ 
+Support Engineers can upload entire customer tickets as files to GitLab Duo Agentic Chat/GitLab Duo Workflow to:
+
+- Parse ticket data and offer insights
+- Spot details they might have missed
+- Get "another set of eyes" on complex issues
+- Identify patterns across similar tickets
+
+4. Slack Thread Summarization
+
+Support Engineers can uses an AI tools like GitLab Duo Chat or Claude to summarize long Slack threads, particularly useful for:
+
+- CEOC emergency threads with hundreds of messages
+- Reducing 30 minutes of manual reading to seconds
+
+5. Code Analysis and Troubleshooting
+
+Support Engineers can use GitLab Duo Chat's Code Explanation feature to:
+
+- Understand code paths when they're not developers
+- Identify expected behavior in GitLab codebase
+- Find bugs more efficiently
+- Analyze customer-provided code snippets
+
+6. Issue and MR Research
+
+Support Engineers can use GitLab Duo Agentic Chat to:
+
+- Search for existing issues or merge requests related to customer problems
+- Find workarounds in long issue discussions
+- Quote specific responses that identify solutions
+- Access GitLab projects, issues, MRs, and documentation
+
+7. Customer Communication Enhancement
+
+Support Engineers can use an GitLab Duo Chat or Claude for:
+
+- Translation of tickets in foreign languages
+- Deciphering difficult to understand customer responses
+- Improving clarity of technical explanations
+- Generating more professional responses
+
+8. Documentation Creation
+
+Support Engineers can use GitLab Duo Agentic Chat for:
+
+- Auto-generating draft MRs for documentation updates
+- Creating "wire-frame" documentation that can be manually finalized
+- Reacting to "Document this" issues with AI-generated drafts
+- Assisting with doc contributions and improvements
+
+9. Log and Data Processing
+
+Support Engineers use GitLab Duo Chat to:
+
+- Process and summarize logs/data from customer environments
+- Analyze fast-stats outputsfor common problems
+- Parse complex diagnostic information
+- Identify patterns in system logs
+
+10. Workflow Automation with GitLab Duo Workflow
+
+Support Engineers can use GitLab Duo Workflow for:
+
+- Complex multi-step analysis tasks
+- Accessing GitLab's entire codebase, issues, MRs, and documentation
+- Getting comprehensive answers that beat other AI tools in accuracy
+- Handling tasks that require deep GitLab knowledge
+
+11. Training and Onboarding
+
+Support Engineers can use GitLab Duo during:
+
+- Duo training modules for Support Engineers
+- Learning GitLab features and troubleshooting
+- Understanding complex customer scenarios
+- Practicing with AI-assisted problem solving
+- These examples show that GitLab Support has deeply integrated AI into their daily workflows, from basic ticket handling to complex technical analysis, significantly improving efficiency and quality of support delivery.
 
 ## Responsible AI use in customer tickets
 
-- See [can I use output from an AI in ticket replies](../workflows/working-on-tickets.md#can-i-use-output-from-an-llm-in-ticket-replies).
+- See "[can I use output from an AI in ticket replies](../workflows/working-on-tickets.md#can-i-use-output-from-an-llm-in-ticket-replies)".
