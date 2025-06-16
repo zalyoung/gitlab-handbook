@@ -11,7 +11,7 @@ GitLab has adopted the ISO/IEC 27001:2022 standard for our information security 
 
 ### Internal and External Issues
 
-In accordance with ISO 27001:2022 Clause 4.1 and ISO 42001:2023 Clause 4.1, GitLab has identified the following internal and external issues relevant to both the ISMS and AIMS:
+GitLab has identified the following external and internal issues that are relevant to its purpose and that could affect its ability to achieve the intended outcomes of the Information Security Management System (ISMS) and Artificial Intelligence Management System (AIMS).
 
 ### External Issues
 
@@ -98,11 +98,7 @@ This management system governs GitLab security operations. Interested parties in
 
 ### Leadership
 
-GitLab is committed to information security and responsible artificial intelligence practices.
-
-**ISMS Leadership Commitment:** The general objective for the ISMS is to protect GitLab's confidential information and assets against new and existing security and privacy risks while maintaining confidentiality, integrity and availability. Objectives for individual security controls are inherited by the in scope security standards and regulations which are: ISO 27001:2022, and SOC 2 Type 2.
-
-**AIMS Leadership Commitment:** In accordance with ISO 42001:2023, GitLab leadership is committed to establishing, implementing, maintaining, and continually improving the artificial intelligence management system. This includes ensuring that AI systems are developed and deployed in a responsible, ethical, and secure manner that aligns with GitLab's values and regulatory requirements.
+GitLab is committed to information security. The general objective for the ISMS is to protect GitLab's confidential information and assets against new and existing security and privacy risks while maintaining confidentiality, integrity and availability. Objectives for individual security controls are inherited by the in scope security standards and regulations which are: ISO 27001:2022, ISO 42001:2023 and SOC 2 Type 2.
 
 The council, comprised of Security and Privacy (Legal) leadership, shall meet on a minimum of an annual basis to discuss the state of the management system and measure the fulfillment of all management system objectives. The following topics will be covered:
 
