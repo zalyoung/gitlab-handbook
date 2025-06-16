@@ -485,7 +485,7 @@ Each interlock epic will be linked to its corresponding workstream epic, allowin
 
 ### GitLab's Product Roadmap R&D Interlock Process 
 
-static/images/handbook/interlock-process-diagram.png
+![6 stages of process: feature alignment, R&D alignment discussion, GPM/director review, GTM alignment discussion, VP review, executing](/images/handbook/interlock-process-diagram.png)
 
 ### When to use this process
 
