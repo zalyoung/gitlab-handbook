@@ -137,7 +137,7 @@ In addition to tracking the backlog, Infrastructure Platforms department project
 
 ## Supporting Product Features
 
-We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
+We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure-platforms/feature-support/) provides details on how we collaborate to ship new features to Production.
 
 ## How we work
 
