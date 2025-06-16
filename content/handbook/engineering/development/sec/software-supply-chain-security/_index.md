@@ -131,16 +131,6 @@ During the planning phase of a milestone, the EM for each group will create a ne
 
 The intent of [shifting left and testing at the right level](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html#how-to-test-at-the-correct-level) is that teams are responsible for testing and to have engineers doing the feature coverage reviews and adding specs or E2E test as needed. The reason for including the SET is to give oversight across the groups and provide guidance/support. If the SET has capacity then they can contribute as needed, using the priority labels, but this is not the expectation.
 
-## Metrics
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "STAGE_LABEL"="software_supply_chain_security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "STAGE_LABEL"="software_supply_chain_security" >}}
-{{< /tableau >}}
-
 ## Links and resources
 
 {{% include "includes/engineering/software_supply_chain_security-shared-links.md" %}}
