@@ -467,7 +467,7 @@ to get explicit approval and keep all stakeholders in the loop:
    <more narrative / details of change, motivation, impact>
    ```
 
-2. Free form discussion on the thread, optional meeting
+2. Free form discussion on the epic comment as a thread, optional meeting
 3. Approval to commit to change from CPO and CTO
 
 Any change that constitutes a slip in deadline, a significant reduction in
