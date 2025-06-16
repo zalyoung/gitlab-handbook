@@ -7,6 +7,7 @@ title: "GitLab IT Onboarding 101"
 Congratulations on joining GitLab! This page is dedicated to the IT onboarding experience, here at GitLab we use many applications and the latest hardware to enable you to complete your work to the best of your ability! While it may seen a little bit overwhelming at the start the Team member enablement team is here to make the process as easy as possible!
 
 ## Table of Contents
+
 1. [Before you begin](#before-you-begin)
 2. [Laptop Setup: MacBook](#laptop-setup-macbook)
    1. [Activate your Okata Account](#step-1-activate-your-okta-account)
@@ -212,8 +213,6 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
       3. Scan the QR code and select the option to save a passkey to your Google account
          1. On Samsung devices, when prompted to `Skip the QR code next time`, select `not now` and proceed to save the passkey to your Google account.
 
-
-
 ## Need Help?
 
-If you need further assistance with setting up your laptop please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in Slack in the #it_help channel.
+If you need further assistance with setting up your laptop please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in Slack in the #it_help channel or via it-help@gitlab.com.
