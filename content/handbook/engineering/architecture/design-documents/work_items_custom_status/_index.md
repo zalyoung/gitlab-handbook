@@ -512,16 +512,6 @@ We've identified these iterations for this initiative:
 - Implement state/status transitions
 - Add `/status` quick action
 
-We want to [dogfood the first iteration internally](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2423284340)
-to gather early feedback.
-To make this happen we'll [use the following approach](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2430372132):
-
-1. Continue to use the `work_item_status_feature_flag` for the full GA release.
-1. Move the parts we want to dogfood to `work_items_beta` feature flag which is enabled for the
-   `gitlab-org` and `gitlab-com` groups.
-   This way we only release the feature internally and are still able to disable the feature.
-1. We'll use this [rollout issue](https://gitlab.com/gitlab-org/gitlab/-/issues/533557).
-
 #### Iteration 2 (GA)
 
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
@@ -531,10 +521,8 @@ To make this happen we'll [use the following approach](https://gitlab.com/gitlab
 - Filter by a single status on list views (if ready only work item list, else legacy list, no support for legacy epic list)
 - Status management (create, update, reorder, delete)
 
-Iteration 2 is the GA release. The following changes need to happen to change from internal dogfooding to GA:
-
-1. Change the feature flag of the internal dogfooding paths back to `work_item_status_feature_flag`.
-1. Enable the feature flag by default in the same MR.
+Iteration 2 is the GA release. The `work_item_status_feature_flag` feature flag will be used for internal testing and
+then dogfooding on `gitlab-org` and `gitlab-com`.
 
 ##### Nice to have
 
@@ -607,7 +595,10 @@ This section documents key architectural and implementation decisions made durin
 1. [Expanding support to epics](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13402#note_2491127675), including the epic detail view, epic list view,
 and legacy epic board view will be included in Iteration 3 (Fast follow). If the new board experience is available by the time of implementation, we'll skip the legacy board
 view and focus on the new experience instead.
-1. [Backfill Custom Statuses](#backfill-custom-statuses-backup-option) is added as a backup option if later on we determine that migration from system-defined statuses to custom statuses poses more challenges than initially foreseen
+1. [Backfill Custom Statuses](#backfill-custom-statuses-backup-option) is added as a backup option if later on we determine that migration from system-defined statuses to custom statuses poses more challenges than initially foreseen.
+1. As part of Iteration 2, [we'll only allow the deletion of custom statuses that are not in use](https://gitlab.com/gitlab-org/gitlab/-/issues/535964#note_2558275085).
+Statuses that have already been assigned to a work item, have an associated status mapping or are set as one of the default statuses (open, closed, duplicate) in a lifecycle
+can still be updated, but not deleted.
 
 ## Resources
 
@@ -624,7 +615,7 @@ Please mention the current team in all MRs related to this document to keep ever
 We don't expect everyone to approve changes.
 
 ```text
-@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani @stefanosxan
+@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani @stefanosxan @psimyn @engwan
 ```
 
 Feel free to mention the following people to spread the word:
