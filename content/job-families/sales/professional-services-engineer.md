@@ -27,7 +27,7 @@ At GitLab, due to the pace at which we are moving, people joining our team in an
 
 ## **Field Functional Competencies**
 
-[Field Functional Competencies](https://handbook.gitlab.com/handbook/sales/training/field-functional-competencies/)
+[Field Functional Competencies](/handbook/sales/training/field-functional-competencies/)
 
 As members of the GitLab field organization, Professional Services Engineers will be expected to exhibit behaviors consistent with these metrics:
 
