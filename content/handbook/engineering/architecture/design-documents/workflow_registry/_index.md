@@ -14,14 +14,14 @@ toc_hide: true
 
 ## Summary
 
-This blueprint presents the implementation of a Workflow Registry as part of the AI Gateway to centrally manage GitLab growing collection of agentic AI workflows.
-As GitLab continues transforming AI features to be agentic and building new agentic capabilities, there is a need for centralized discoverability, governance, and orchestration of these workflows.
-The proposed Workflow Registry will serve as a single entry point for storing, managing, and orchestrating LangGraph-based workflows, building upon existing infrastructure like the Prompt Registry and Workflow engine.
+This blueprint presents the implementation of an Agent Registry as part of the AI Gateway to centrally manage GitLab's growing collection of agent AI setups.
+As GitLab continues transforming AI features to be agentic and building new agentic capabilities, there is a need for a standardized approach to building, managing, and orchestraing these agent setups.
+The proposed Agent Registry will serve as a single entry point for LangGraph-based agent development and orchestration across the platform.
 
 ## Preamble
 
 This section gives a high-level overview of the key concepts that define the AI Agents space at GitLab.
-These concepts explain general details, while specific implementation details can be found in the Implementation Plan section.
+These concepts explain general details, while specific implementation details can be found in the subsequent sections.
 
 ### Large Language Models
 
@@ -47,176 +47,99 @@ For example, if the user asks "What's the current weather in New York?", the LLM
 An agent is this combination of an LLM with external tools that enables it to take actions and achieve specific goals in the real world.
 This allows agents to perform complex, multi-step tasks such as researching topics online, sending emails, or controlling software applications, making them more practical for real-world problem-solving.
 
-### Workflows
+### Multi-agent setup
 
-Workflows are systems where different components are orchestrated through predefined code paths.
-These components can be agents, simple LLM calls without any tool attached, or classic deterministic logic implemented in Python, e.g., to send emails.
-For example, a typical workflow can be as follows: first research a topic using one agent, then analyze the findings, generate a report using another agent, and finally send the report via email.
-Workflows include decision points, loops, and conditional logic, which makes them suitable for complex, multi-stage processes that require coordination in order to solve the given task.
+Multi-agent systems are setups that consist of several specialized agents orchestrated in some way.
+In practice, one of the common orchestration methods is implementing a lead agent that manages other subagents.
+However, other orchestration methods are possible as well, such as polling, peer-to-peer, etc. 
+The market has demonstrated that multi-agent setups are exceptionally effective at solving complex user tasks that would be challenging for a single agent to handle alone.
+For example, Anthropic recently demonstrated that a multi-agent research system with Claude Opus 4 as the lead agent and Claude Sonnet 4 subagents
+outperforms single-agent Claude Opus 4 by [90.2%](https://www.anthropic.com/engineering/built-multi-agent-research-system). 
 
 ### Agents vs Workflows vs Duo Workflow: what is the difference?
 
-An agent can perform specific tasks (like searching the web or sending an email), while a workflow orchestrates multiple agents and other logic to work together in a coordinated manner.
-The market has demonstrated that multi-agent workflows consisting of several specialized agents are exceptionally effective at solving complex user tasks that would be challenging for a single agent to handle alone. Technically speaking, a workflow can consist of one agent only being a standalone feature; however, multi-agent workflows can solve much more complex tasks.
+In our codebase, we often rely on the terms Workflow and Duo Workflow to represent agentic behavior.
+One of the issues is that the term workflow brings unnecessary complexity, potentially misleading Product and Engineering across GitLab.
+Overall, a workflow is a series of steps connected through predefined code paths designed to achieve a specific task or goal.
+Agents, on the other hand, are systems where LLMs dynamically direct their own processes and tool usage, maintaining control over how they accomplish tasks.
+As we continue working on improving the Agents AI stack at GitLab, we're step by step moving away from workflow-related terms towards more specific terms.
+For example, Duo Workflow engine becomes Duo Agent Platform and is a system for running various agents and their orchestration.
+Here is another MR focused on improving our terminology in the official [docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/193744/diffs).
 
-Duo Workflow is a platform for running and managing agentic workflows. In some of our documentation, it can also appear under the Duo Agent Platform name.
+>Note: Due to the ongoing development and legacy code, the Workflow term is still actively used and means a single or multi-agent setup for solving complex user tasks.
 
 ### Putting It All Together
 
-Given the concepts we define above, the overall picture of how LLMs, prompts, agents, and workflows work together looks as follows:
+Given the concepts we define above, the overall picture of how LLMs, prompts, and agents work together looks as follows:
 
 ![Overview](/images/handbook/engineering/architecture/design-documents/duo_workflow_registry/concepts_overview.png)
 
 ## Motivation
 
 We recently migrated Duo Workflow Service to the AI Gateway.
-We also reimplemented Duo Chat using the Duo Workflow codebase, effectively making Duo Workflow an engine for building various agentic workflows.
-This opens a path for creating many different workflows on top of the Duo Workflow engine, orchestrated to complete specific tasks.
-As we continue working increasingly on implementing new agentic AI features and transforming existing AI features to be agentic, there is a growing need for centralized management and orchestration of these agentic workflows.
-The AI Gateway requires a Workflow Registry to provide discoverability, governance, and seamless implementation of agentic workflows of varying complexity across the platform.
+We also reimplemented Duo Chat using the Duo Workflow codebase.
+One of the future steps will be completely reconfiguring Duo Workflow engine to Duo Agent Platform, including clarification of our terminology.
+Overall, this opens a path for creating various agents and flexible multi-agent setups on top of the existing work and future changes.
+As we continue working increasingly on enhancing our AI Agent stack and transforming existing AI features to be agentic, there is a growing need for centralized management and orchestration of these agents.
+The AI Gateway requires an Agent Registry to provide discoverability, governance, and seamless implementation of agentic features of varying complexity across the platform.
 
 ## Goal
 
-Build a central Workflow Registry in the AI Gateway that makes it easy to find, run, and manage AI workflows, while making development simpler and improving performance across GitLab AI features.
+Build a central Agent Registry in the AI Gateway that makes it easy to build, run, and manage Agent setups, including multi-agent setups with various orchestration approaches.
 
 ## Objectives
 
 Based on the goal and motivation, we define the following objectives:
 
-1. Build a Workflow Registry as part of the AI Gateway and Workflow Service
-2. Create examples showing how to use the Workflow Registry
-3. Write clear documentation to help developers build and improve AI workflows
+1. Build an Agent Registry as part of the AI Gateway and Workflow Service
+1. Create examples showing how to use the Agent Registry and orchestrate agents
+1. Write clear documentation to help developers build and improve AI Agents
 
 ## Non-goals
 
-1. Customer-facing Workflow Registry. This blueprint focuses on improving our internal stack for implementing AI workflows efficiently.
-   However, the Workflow Registry can be reused by the Duo Workflow Catalog team to further extend its functionality for customers.  
-2. DSL implementation. We have already had several ideas and conversations about implementing a [DSL](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/1074) on top of YAML to easily prototype new workflows.
+1. Customer-facing Agent Registry. This blueprint focuses on improving our internal stack for implementing AI Agents efficiently.
+   However, the Agent Registry can be reused by the Duo Workflow Catalog team to further extend its functionality for customers.  
+2. DSL implementation. We have already had several ideas and conversations about implementing a [DSL](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/1074) on top of YAML to easily prototype new agentic setups.
    This blueprint focuses on one step before DSL and is mainly about organizing our architecture in Python.
-   This architecture can be later extended by DSL when required.
-   Building DSL is risky at this moment as the Workflow engine is under active development and DSL might become a bottleneck.
+   This architecture can later be extended by DSL when required.
+   Building a DSL is risky at this moment as our AI stack is under active development and a DSL might become a bottleneck.
 
-## Implementation plan
+## Implementation details
 
-The implementation plan builds on existing work done by the AI Framework and Duo Workflow teams - 
-mainly the Prompt Registry, which is our single entry point to store all prompts using YAML and Jinja templates, and
-the Workflow engine, which is an agent with a set of collected tools to perform generic tasks.
+At GitLab, we use LangGraph, a framework built on top of LangChain that enables the creation of complex, stateful, and multi-agent setups using directed graphs.
+Every graph consists of nodes that contain specific logic (such as LLM calls, tool executions, or Python code) and edges that control the flow between these nodes.
+This allows us to create complex agent behaviors by connecting different components together.
+To share data between all parts of the graph, LangGraph provides a shared state object that nodes can read from and update.
 
-1. **Agent Implementation**
-   In this step, we define every agent as part of a LangGraph node.
-   Every agent reads its prompt from the Prompt Registry in the AI Gateway.
-   The agent knows which tools are attached and works with the graph state to produce its output.
-   As output, it can return the next tool to be called or a message to be passed to the next LangGraph node.
+Any agent setup (single or multi-agent) we develop at GitLab can be presented as a graph with its own state.
+In the next sections, we define a set of primitives provided by the Agent Registry to compose reusable and maintainable agents that are easy to develop, find, and store.
 
-   ```mermaid
-   flowchart LR
-    subgraph Node["Node"]
-      Ask("Ask codebase agent")
-    end
-    subgraph Tools["Tools Node"]
-      Find("Find file")
-      Read("Read file")
-    end
-    Node <--> Tools
-    Prev("Previous LangGraph node") --> Node
-    Node --> Next("Next LangGraph node")
-   ```
+### Agent graph composition
 
-2. **Core Registry Implementation**
-   Having a dedicated solution to store LangGraph Python definitions will help the 
-   team have a single entry point to the building blocks required to construct complex AI features.
-   Every graph we store in the registry requires a name, description, and defined input and output parameters.
-   By inputs, we mean the minimum data we need to pass to the compiled graph to create a state and start graph execution.
-   By outputs, we mean what part of the data presented in the state should be returned as a result of graph execution.
-   The name of the graph uniquely identifies the graph.
+We define the following list of primitives supported by the Agent Registry for agent development:
 
-3. **Workflow Implementation**
-   In this step, we present every workflow as a solid graph that has its own isolated state.
-   This graph consists of more than one agent and other pure Python logic.
-   The workflow's responsibility is to encapsulate a complete, domain-specific AI capability that can solve a well-defined class of problems.
-   The workflow can operate as a standalone AI feature similar to the current agentic Duo Chat.
-   The workflow can also be orchestrated with other workflows for solving complex tasks.
-   Since every workflow is a graph, the Workflow Registry is the right place to store workflows.
-
-   ```mermaid
-   flowchart LR
-      subgraph Workflow["Ask Codebase workflow"]
-         Ask("Ask agent")
-         Planner("Planner agent")
-         Tools("Tools")
-         State[("State")]
-         Ask <--> Tools
-         Ask <--> Planner
-         Ask --> State
-         Planner --> State
-      end
-    Inputs --> Workflow
-    Workflow --> Outputs
-   ```
-
-4. **Workflow Orchestration Implementation**
-   In this step, we present the orchestration logic as a graph that operates with subgraphs, which are workflows.
-   The responsibility of the orchestration logic is to manage groups of agentic workflows to solve a complex multi-domain task.
-   This orchestration graph has its own global state but doesn't have access to the subgraph states.
-   Examples of orchestration graphs include:
-     - Supervised - the agent selects the next workflow based on descriptions of available workflows. The agent can look
-       into the Prompt Registry to select an appropriate next workflow or rely on the available list.
-     - Peer-to-peer - two workflows exchanging messages to solve the given task.
-     - Polling - a supervised agent polls every connected workflow asking whether it can solve the next task.
-   Similar to the workflows above, the Workflow Registry is the right place to store orchestration graphs. 
-   
-   ```mermaid
-   flowchart LR
-      subgraph Orchestration["Workflow Orchestration"]
-         Ask("Ask Codebase workflow")
-         Develop("Code Developer workflow")
-         Review("Code Review workflow")
-         Supervisor("Supervisor workflow")
-         State[("Global State")]
-         Supervisor --> State
-         Supervisor <--> Ask
-         Supervisor <--> Develop
-         Supervisor <--> Review
-      end
-    Inputs --> Orchestration
-    Orchestration --> Outputs
-   ```
-
-The steps above will give us the first iteration of the Workflow Registry.
-The estimated implementation time is 1-1.5 milestones.
-The recommended team size to complete the implementation is minimum 3 engineers.
-
-
-### Worfklow composition
-
-Workflows models business processes that automate various tasks carried in organisations.
-They consist of many steps that can be orchestrated with different architectures reflecting specific aspects of an organistaition, and business needs. 
-
-Workflows model business processes using following privitives:
 1. Components
 1. Routers
 1. State
 1. Prompts
 1. Tools
 
-In addition workflows may be nested within other workflows, modeling higher level processes that manage and orcestare multiple childe ones
-
 #### 1\. Components
 
-Components are the basic atomic unit of operations within workflow, they represent a single respobsibility within a process.
-For example component can be respobsible for reviewing a merge request, or component can be responsible for writing a new unit test to improve test coverage for a project. 
-One can perceive componentes as individuals withing organisation, to whom various tasks in a business process can be delegated, those tasks can varry in complexity, and
-be as simple as one-off interaction (eg: sending an email), to more elaborate like reviewing a merge request. What creates important distinction is the fact that
-components must have **a single role** in an organisation, or a business process, while _workflows_ (business processes) includes one or more individuals with certains roles. 
-For example, when a feature is being developed, an engineer creates fature implementation,
-but a technical writer is responsible for providing user facing documentation,
-each of those personas is an expert in thier field, which assure quality of their outputs.
+Components are the basic atomic units of operations to compose agent setups; they represent a certain responsibility.
+For example, a component can be responsible for reviewing a merge request, or a component can be responsible for writing a new unit test to improve test coverage for a project. 
+One can perceive components as individuals within an organization, to whom various tasks in a business process can be delegated. Those tasks can vary in complexity and
+be as simple as a one-off interaction (e.g., sending an email), to more elaborate tasks like reviewing a merge request. What creates an important distinction is the fact that
+components must have **a single role** in the agent setup. 
+For example, when a feature is being developed, an engineer creates the feature implementation,
+but a technical writer is responsible for providing user-facing documentation.
+Each of those personas is an expert in their field, which ensures quality of their outputs.
 
 ##### Implementation
 
-On a more technical level, the component is collection of LangGraph nodes arrenged in certain architecture, which is designed to solve a category of problems.
-Among many other options, there are components designed to act as cylic agents, one-off agents, or event predefined non AI steps in the process. 
-Example diagaras for mentined components are presented below
+On a more technical level, the component is a collection of LangGraph nodes arranged in a certain architecture, which is designed to solve a category of problems.
+There might be components designed to act as cyclic agents, one-off agents, or predefined non-AI steps in the process. 
+Example diagrams for the mentioned components are presented below:
 
 1. Cyclic agent
 
@@ -263,25 +186,24 @@ flowchart LR
 
 ##### Inputs
 
-Components may define set of reuired inputs.
-A compoement inputs relfects attributes within a global workflow's [state](#3-state) object
-that carry necessary information wihtout which the component won't be able to fulfill its role in a 
-workflow.
+Components may define a set of required inputs.
+A component's inputs reflect attributes within a global graph [state](#3-state) object
+that carry necessary information without which the component won't be able to fulfill its role.
 
 ##### Outputs
 
-Components should specify set of attributes within a global workflow's [state](#3-state) object
-that they will modify, or add on the course of their execution. This is necessary to assure that 
-subsequent components within a workflow will have their inputs present.
+Components should specify a set of attributes within a global graph [state](#3-state) object
+that they will modify or add during the course of their execution. This is necessary to ensure that 
+subsequent components within a graph will have their inputs present.
 
 ##### Generic components
 
-Some components may server as customisable blueprints flexible enough,
-to be reused in different roles. To specif generic component into a 
-distinct role, one assign them a [prompt](#4-prompts), and then define the component permissions with
-assigned set of [tools](#5-tools), that restrict actions available to an individual in the role in modelled process.
+Some components may serve as customizable blueprints flexible enough
+to be reused in different roles. To specify a generic component into a 
+distinct role, one assigns them a [prompt](#4-prompts), and then defines the component permissions with an
+assigned set of [tools](#5-tools), that restrict actions available to an individual in the role in the modeled process.
 
-The diagram below pictures role specification
+The diagram below pictures role specification:
 
 ```mermaid
 flowchart LR
@@ -323,23 +245,16 @@ flowchart LR
 
 #### 2\. Routers
 
-Routers are responsible for arraging Components into predefined structures, governing order of operations within a workflow.
+Routers orchestrate Components into predefined structures, governing the order of operations within an agent setup.
 
-Business processes (moddeled as Workflows) not only consist of indivduals in certain roles, but also relay on 
-interactions between those individuals. In the same manner Workflows are composed with Components, but in order to move from a set of components
-to a workflow that models a business process, those components needs to be arranged into some structure. Routers plays important role
-navigating between different components in a workflow, and assuring that required order of operations is respected.
+Agent setups are composed of Components, but these components need to be arranged in a specific structure to model effective business processes.
+Routers navigate between different components and ensure the required order of operations is respected.
 
-By the way of analogy, during a software development, it is important that design department prepare vision of a new layout,
-before engineering can act upon it. In the same fashion in a workflow some component must preceed other, assuring correct delivery of 
-a final outcome.
+On a technical level, Routers wrap LangGraph edges that connect components and implement logic that enforces correct execution flow through the agent setup.
+They could make path selection decisions based on attributes within the agent setup's state, such as status or messages from preceding components.
+Another example is a supervisor approach when one agent is a lead and other agents are subagents performing certain smaller tasks.
 
-On a technical level Routers wraps LangGraph edges that conntects two or more components and implements logic that enforces correct execution flow through a
-whole workflow. 
-
-Routers carry out path selection based on predefined attributes within a Workflow's state like: _status_ or a final message from a precceding component
-
-An example Router diagram is being presented below
+An example Router diagram is presented below:
 
 ```mermaid
 flowchart LR
@@ -350,21 +265,16 @@ flowchart LR
 
 #### 3\. State
 
-Each workflow has a global State object that is being used to transport information between different components composing 
-a workflow. The State can be imagined as an epic, or a merge request with wich multiple members of organisation collaborate together over a shared goal
-of a business process. For example first design departament adds mocks ups into an epic description, then engieering department steps in the process, and 
-use the epic as source of truth to understand thiers requirements.
+Each agent setup has a global State object used to transport information between different components.
 
 ##### Implementation
 
-State object is a dictionary, that contains a combination of 
-predefined required attributes, as well as a flexible _context_ attribute, which 
-itself is a nested dictionary, enabling every component in a workflow to write their 
-outputs to, in form of key, value pairs, that can be used by subsequent components.
+The State object is a dictionary containing predefined required attributes and a flexible _context_ attribute.
+The context is a nested dictionary that enables every component in an agent setup to write their outputs as key-value pairs for subsequent components to use.
 
 ```python
-class WorkflowState(TypedDict):
-    status: WorkflowStatusEnum
+class AgentState(TypedDict):
+    status: AgentStatusEnum
     conversation_history: Annotated[
         Dict[str, List[BaseMessage]]
     ]
@@ -375,21 +285,33 @@ class WorkflowState(TypedDict):
 #### 4\. Prompts
 
 Prompts are text templates used to specify roles for generic components. 
-Upon configuration of generic component must be connected to a prompt via _prompt id_
-Prompt templates can have a placeholder fileds for dynamic values. If prompt template
-have any placeholder its name must match with a container [input](#inputs), which is 
-going to be used to replace the placeholder with dynamic value
+Upon configuration, a generic component must be connected to a prompt via a _prompt id_.
+Prompt templates can have placeholder fields for dynamic values. If a prompt template
+has any placeholders, their names must match a component [input](#inputs).
+
+##### Implementation
+
+All prompts have to be placed into the prompt registry defined in the AI Gateway.
 
 #### 5\. Tools
 
-Tools represent actions in external environment that component can take on cours of its execution.
-By method of analogy, tools can be imagined as permissions assinged to a role in an organisation. 
-For example a CFO can issue financial statements on behalf of a whole organisation,
-a while database admin has direct access to a database server. In the same fashion tools should be 
-assinged to components based on their role in a workflow.
+Tools represent actions in the external environment that a component can take in the course of its execution.
+By way of analogy, tools can be imagined as permissions assigned to a role in an organization. 
+For example, a CFO can issue financial statements on behalf of a whole organization,
+while a database admin has direct access to a database server. In the same fashion, tools should be 
+assigned to components based on their role in an agent setup.
+
+##### Implementation
+
+This proposal doesn't touch the way tools are managed currently. We follow the existing principles
+of defining tools as Python functions and attaching them to a model via the LangChain interface.
+
+### Timeline
+
+We estimate completing the work on the Agent Registry in 1 milestone.
 
 ## Future evolution
 
-Implementing DSL on top of the Workflow Registry might be considered as the next step.
+Implementing DSL on top of the Agent Registry might be considered as the next step.
 The DSL could potentially be used by customers. This work requires additional effort and collaboration with the
 Duo Workflow Catalog team.
