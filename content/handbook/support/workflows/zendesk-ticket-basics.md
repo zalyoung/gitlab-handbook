@@ -158,7 +158,7 @@ Note that critical safety checks (like setting pending without any response) can
 1. Click in to the ZenGuard app using either the icon on your apps list (right side of Zendesk), or if you can't see it, click the + to pin a new app and select ZenGuard.
 2. Click the reload button in the title of the app. 
 
-![Browser plug-in](/images/support/workflows/assets/ZenGuardReload.png)
+![Browser plug-in](/images/support/workflows/assets/zenguard-reload.png)
 
 #### Troubleshooting
 
