@@ -440,29 +440,23 @@ gantt
 
 Any major changes to the timeline, scope, cost, priority, quality or risk for a
 committed feature of priorities P1/E1 and P2/E2 should be raised to respective
-PLT and ELT members as well as CPO and CTO via a **Commitment Change Request**
+PLT and ELT members as well as CPO and CTO through a **Commitment Change Request**
 to get explicit approval and keep all stakeholders in the loop:
 
-1. Project DRIs update the alignment slide in the
-   [R&D Execution Roadmap](#rd-execution-roadmap) and post a proposed update to
+1. Project DRIs a comment as a new thread on the relevant interlock epic, and a link to the comment in
    [\#r-and-d-roadmap-changes](https://gitlab.enterprise.slack.com/archives/C08G1GJLKN0),
-   @’ing in the respective stakeholders. The post should follow a standardized
+   mentioning the respective stakeholders. The epic comment should follow a standardized
    format, so decision makers can quickly respond / act:
 
    ```text
-   Proposing change to feature: [$FEATURE](https://direct-link-to-execution-slide)
+   ### Proposing change to feature
 
-   Change Type: [select: Timeline / Scope / Cost / Priority / Quality / Risk]
-
-   What’s changing: <Priority from XX to YY>, <Delivery Milestone from YY.Y to ZZ.Z>, …
-
-   Background: [2-3 sentences describing the decision]
-
-   Impact: [optional, further detail on impact to customers / cost / list of projects that are dependent on this project + @ mentions of DRIs for those projects]
-
-   Proposed by: [Name of Product and Engineering DRI]
-
-   Approvers: [specific PLT, ELT members], CPO, CTO
+   - Change Type: [select: Timeline / Scope / Cost / Priority / Quality / Risk]
+   - What’s changing: <Priority from XX to YY>, <Delivery Milestone from YY.Y to ZZ.Z>, …
+   - Background: [2-3 sentences describing the decision]
+   - Impact: [optional, further detail on impact to customers / cost / list of projects that are dependent on this project + @ mentions of DRIs for those projects]
+   - Proposed by: [Name of Product and Engineering DRI]
+   - Approvers: [specific PLT, ELT members], CPO, CTO
 
    <more narrative / details of change, motivation, impact>
    ```
