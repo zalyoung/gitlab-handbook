@@ -20,36 +20,52 @@ The proposed Workflow Registry will serve as a single entry point for storing, m
 
 ## Preamble
 
-### Large Language Models are powerful Agents
+This section gives a high-level overview of the key concepts that define the AI Agents space at GitLab.
+These concepts explain general details, while specific implementation details can be found in the Implementation Plan section.
+
+### Large Language Models
 
 Large Language Models (LLMs) are powerful text processing systems capable of understanding, reasoning, and generating human-like responses across diverse domains.
-When equipped with tools (external functions that allow models to perform specific actions like web searches, API calls, or database queries), 
-LLMs transform into intelligent agents that can interact with the world beyond text generation.
-An agent is essentially an LLM that can perceive its environment, make decisions, and take actions to achieve specific goals using these available tools.
+These AI systems are trained on vast amounts of text data from books, articles, and web content, allowing them to learn patterns in language and develop a broad understanding of human knowledge.
+LLMs work by processing input text and predicting the most appropriate next words or phrases, enabling them to engage in conversations, answer questions, write content,
+and assist with various language-related tasks.
 
-### Agents with zero tools
+### Prompting
 
-Publications often debate whether an LLM with zero tools should be considered a simple LLM call or still an agent.
-At GitLab, we might establish a clear distinction using our LangGraph implementation in Duo Workflow:
-an LLM used outside the LangGraph codebase with zero tools is simply an LLM call,
-while an LLM within LangGraph, even without tools, qualifies as an agent because it functions as part of a larger complex graph execution.
-This approach will help us maintain conceptual clarity and implementation simplicity throughout our blueprint.
+To effectively communicate with LLMs, users need to provide clear instructions called prompts.
+A prompt is the input text that tells the LLM what task to perform, what role to take, or what type of response is expected.
+For example, a prompt might say "Act as a helpful assistant and explain quantum physics in simple terms" or "Summarize the following article in three bullet points."
+The quality and specificity of prompts directly influence the LLM's output. Well-crafted prompts lead to more accurate and useful responses.
+Prompting techniques range from simple questions to complex multi-step instructions that guide the model through reasoning processes, making it essential for unlocking the full potential of LLMs.
 
-### Agents vs Workflows: what is the difference?
+### Agents
 
-As mentioned above, GitLab relies on LangGraph to build agentic behavior. LangGraph represents complex agentic behavior
-as a network graph that consists of one or more agents, pure Python logic, and other components built around a shared data state.
-The network graph defines how different components communicate with each other, moving and processing the data flow to perform a given task.
-Thus, we can say that a workflow is a graph that serves as a building block for creating complex AI applications.
+LLMs are great at text generation but cannot directly interact with the real world.
+To solve this limitation, we connect external tools (such as web search, APIs, or database queries) to the LLM via advanced prompting.
+The LLM decides which tools to use based on the user's input, and then the system executes the selected tools to provide the user with actual real-world data.
+For example, if the user asks "What's the current weather in New York?", the LLM would choose to use a web search tool.
+An agent is this combination of an LLM with external tools that enables it to take actions and achieve specific goals in the real world.
+This allows agents to perform complex, multi-step tasks such as researching topics online, sending emails, or controlling software applications, making them more practical for real-world problem-solving.
 
-### Workflow orchestration to solve complex tasks
+### Workflows
 
-The market has demonstrated that coordinated groups (swarms) of specialized agentic workflows are exceptionally effective at solving complex user tasks that would be challenging for a single workflow to handle alone.
-For example, a developer requesting "fix the performance issue in my Python API" could be served by multiple workflows:
-a code analysis workflow that reviews the codebase and identifies bottlenecks, a monitoring workflow that examines logs and metrics, and a code generation workflow that implements optimizations. 
-Workflows appear to be a good example of encapsulation. Every workflow is a standalone feature; a group of workflows can solve much more complex tasks.
-Implementing one workflow that handles code analysis, monitoring, and code generation is less reliable as it violates encapsulation,
-overcomplicates the graph state, and complicates testing. Orchestration via communication of workflows provides a better approach.
+Workflows are systems where different components are orchestrated through predefined code paths.
+These components can be agents, simple LLM calls without any tool attached, or classic deterministic logic implemented in Python, e.g., to send emails.
+For example, a typical workflow can be as follows: first research a topic using one agent, then analyze the findings, generate a report using another agent, and finally send the report via email.
+Workflows include decision points, loops, and conditional logic, which makes them suitable for complex, multi-stage processes that require coordination in order to solve the given task.
+
+### Agents vs Workflows vs Duo Workflow: what is the difference?
+
+An agent can perform specific tasks (like searching the web or sending an email), while a workflow orchestrates multiple agents and other logic to work together in a coordinated manner.
+The market has demonstrated that multi-agent workflows consisting of several specialized agents are exceptionally effective at solving complex user tasks that would be challenging for a single agent to handle alone. Technically speaking, a workflow can consist of one agent only being a standalone feature; however, multi-agent workflows can solve much more complex tasks.
+
+Duo Workflow is a platform for running and managing agentic workflows. In some of our documentation, it can also appear under the Duo Agent Platform name.
+
+### Putting It All Together
+
+Given the concepts we define above, the overall picture of how LLMs, prompts, agents, and workflows work together looks as follows:
+
+![Overview](/images/handbook/engineering/architecture/design-documents/duo_workflow_registry/concepts_overview.png)
 
 ## Motivation
 
