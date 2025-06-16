@@ -70,9 +70,6 @@ Learn more by going to the [Marketing Demand Generation section](https://partner
 
 Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
 
-### **Concierge Marketing Program**
-
-Select Partners are eligible to participate in this program. Get the help you need to expand your customer base, build brand loyalty, and grow your business. Our Concierge Program will deliver marketing solutions tailored to your teamʼs unique needs. To participate in this program, Select Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com).
 
 ### **Marketing Development Funds**
 
