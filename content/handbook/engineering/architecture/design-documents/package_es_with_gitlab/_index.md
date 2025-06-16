@@ -3,7 +3,7 @@ title: Package Elasticsearch with GitLab
 status: proposed
 creation-date: "2025-04-18"
 authors: [ "@terrichu" ]
-coaches: [ "@username" ]
+coaches: [ "@DylanGriffith" ]
 dris: [ "@bvenker", "@changzhengliu" ]
 owning-stage: "~devops::ai-powered"
 participating-stages: []
