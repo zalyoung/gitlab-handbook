@@ -25,7 +25,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Security FAQs](https://about.gitlab.com/security/faq/)
 - [Legal & Privacy FAQs](https://about.gitlab.com/privacy/)
-- [Availability FAQs](/handbook/engineering/infrastructure/faq/)
+- [Availability FAQs](/handbook/engineering/infrastructure-platforms/faq/)
 
 ## Control topics
 
