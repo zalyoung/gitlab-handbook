@@ -178,12 +178,12 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 4. Click `Add Account to another device`
 5. Verify your identity via Touch ID, and enable bluetooth if prompted
 6. You should now see a QR code on screen
-7. Ensure that bluetooth is enabled on your mobile device andthat the device is on the same Wi-Fi network as the laptop
-8. Open the mobile app. 
-   1. If this id your first time using the app, select `Add account from another device`
-   2. If you have used the ap before, press the `+` button near the top of the screen
+7. Ensure that bluetooth is enabled on your mobile device and that the device is on the same Wi-Fi network as the laptop
+8. Open the Okta Verify app on your mobile device. 
+   1. If this is your first time using the app, select `Add account from another device`
+   2. If you have used the app before, press the `+` button near the top of the screen
 9. On the `Choose account type` screen, select `Organization`
-10. Select `Add account from another device` followd by `Scan QR code`
+10. Select `Add account from another device` followed by `Scan QR code`
 11. Scan the QR code on your laptop screen
 12. On your laptop, enter the 6-digit pin shown on the phone screen
 13. On your mobile device, enable biometric verification when prompted
@@ -195,9 +195,9 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 
 1. Ensure that you have an [Okta passkey saved on your phone](#mobile-passkey-and-yubikey-setup)
 2. Download the Okta Verify app from the App Store (Apple) / Play Store (Android)
-3. Open the mobile app. 
-   1. If this id your first time using the app, select `Get started`, and continue until you get to the `Choose account type` screen
-   2. If you have used the ap before, press the `+` button near the top of the screen
+3. Open the Okta Verify app on your mobile device.
+   1. If this is your first time using the app, select `Get started`, and continue until you get to the `Choose account type` screen
+   2. If you have used the app before, press the `+` button near the top of the screen
 4. On the `Choose account type` screen, select `Organization` and then `Skip`
 5. Select `No, sign in instead`
 6. For `Organization's sign-in URL`, enter `gitlab.okta.com`
@@ -211,7 +211,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 
 1. On your laptop, open Chrome and go to https://gitlab.okta.com/enduser/settings
 2. Next to `Security Key or Biometric Authenticator`, click `Set up another`
-3. Verify your identy via your preferred method (e.g. Touch ID, 1Password, etc)
+3. Verify your identity via your preferred method (e.g. Touch ID, 1Password, etc)
 4. Click `Set up` followed by `set up`
    1. If the 1Password `Save Passkey` pop-up appears, click `x`
    2. If `Use Touch ID to sign in?` pop-up appears, click `Cancel`
@@ -226,7 +226,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
       1. Ensure that Android is up-to-date - https://support.google.com/android/answer/7680439?
       2. Open the `Camera` app OR `Google Lens`, depending on your device
       3. Scan the QR code and select the option to save a passkey to your Google account
-         1. On Samsung devices, when prompted to `Skip the QR code next time`, select `not now` and proceed to save the passkey to your Google account.
+         1. On Samsung devices, when prompted to `Skip the QR code next time`, select `not now` and proceed to save the passkey to your Google account. Please make sure that you save the passkey to Google’s passkey manager and not Samsung Passkey.
 
 ## Need Help?
 
