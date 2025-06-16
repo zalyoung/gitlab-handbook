@@ -22,7 +22,7 @@ At GitLab, we use centralized laptop management for company issued devices. If y
 
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
-USA, Canada, Mexico, all of the EU, Thailand, China, Japan, Philippines, Singapore, Australia, New Zealand, India, Israel and the UK.
+USA, Canada, Mexico, all of the EU, Thailand, South Korea, Japan, Philippines, Singapore, Australia, New Zealand, India, Israel and the UK.
 
 We are adding supported countries to this list as we discover our ability to order in them.
 
@@ -69,7 +69,6 @@ Many team members can use their company issued laptop until it breaks. If your p
 **Please note**
 
 Laptops paid for or reimbursed by the company are property of GitLab. They must be enrolled using the proper Endpoint Management System for accurate [asset tracking](/handbook/finance/accounting/#fixed-asset-register-and-asset-tracking).
-Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so.
 
 ### Laptop Repair
 
@@ -134,13 +133,11 @@ Any circumstance that falls outside of the listed exceptions or if GitLab IT dee
 
 ### Laptop Configurations
 
-GitLab approves and supports the use of Linux and Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Windows is not supported as a hardware laptop OS.
+GitLab approves and supports the use of Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Linux & Windows are not supported as a hardware laptop OS.
 
 Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/) page.
 
 The operating system choices have obviously affected the hardware selection process.
-
-Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system.
 
 NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
 
@@ -157,7 +154,7 @@ Most roles that require higher performance machines are approved for a 14" or 16
 #### Linux Hardware
 
 {{% alert color="warning" %}}
-IT strongly encourages team members to select Macs; please only request a Linux laptop if you are experienced in Linux and capable of self-support.
+IT strongly encourages team members to select Macs; please only request a Linux laptop if you are experienced in Linux and capable of self-support. As of 2025-06-30, Linux will no longer be offered for new hires or refreshes. Linux laptops will no longer be offered due to fragmented support requirements across distributions and the lack of an automated method to ensure our security tools are installed. Additionally, Okta does not enable Device Trust on Linux systems.
 {{% /alert %}}
 
 **Below are roles that qualify for Linux Laptops**
@@ -185,29 +182,26 @@ Laptops are purchased by GitLab IT during a team member's onboarding process; th
 
 While GitLab limits the Laptop Hardware OSes supported for team member daily work, specific roles will need to use Windows for Customer Support and Product Development to ensure excellent platform and ecosystem support for GitLab customers and partners who develop for the Microsoft Ecosystem.
 
-Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/), [including installation of SentinelOne](/handbook/security/corporate/systems/sentinelone/) as well all information in this section.
+Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/security/corporate/operating-systems/), [including installation of Fleet](https://internal.gitlab.com/handbook/security/corporate/tooling/fleet/) as well all information in this section.
 
-Complete details about Windows usage is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/) page.
+Complete details about Windows usage is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/) page.
 
 ### Laptop Vendor Selection Criteria
 
-When recommending or approving end user device vendors for team member access, the Security Team tries to balance privacy, security, and compliance to ensure a solid choice for accessing GitLab data.
-Our current recommendations include Apple MacBook Pro running macOS and Dell Precision running Linux.
+When recommending or approving end user device vendors for team member access, the Security Team tries to balance privacy, security, and compliance to ensure a solid choice for accessing GitLab data. Our current recommendations include Apple MacBook Pro running macOS.
 
 By its very nature, GitLab has historically been very open as a company, starting as open source and migrating from a group of coders with their own laptops to an organization that needs to protect not just their own corporate data but customer data as well.
-Having developed a Data Classification Policy and currently implementing Zero Trust, we've had to make adjustments in laptop recommendations.
+Having developed a Data Classification Policy and implemented Zero Trust, we've had to make adjustments in laptop recommendations.
 
 Our laptop vendor selection criteria is as follows:
 
 #### Team member need
 
-The main needs center around processing power and the operating system support for required workloads.
-Most modern systems meet the processing power needs of our team members.
-Apple macOS and Dell Linux distributions meet the operating system needs.
+The main needs center around processing power and the operating system support for required workloads. Most modern systems meet the processing power needs of our team members. Apple macOS meet the operating system needs.
 
 #### Security needs
 
-GitLab needs the ability to ensure a secure and stable platform. From an operating system perspective, macOS and Linux meet the needs. The Security team has found a slight advantage in Ubuntu as a Linux distribution due to their rapid response time when it comes to patching security flaws, and we recommend this distribution. It is necessary to use an [approved Linux distribution](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/).
+GitLab needs the ability to ensure a secure and stable platform. From an operating system perspective, macOS and Linux meet the needs. The Security team has found a slight advantage in Ubuntu as a Linux distribution due to their rapid response time when it comes to patching security flaws, and we recommend this distribution. It is necessary to use an [approved Linux distribution](https://internal.gitlab.com/handbook/security/corporate/operating-systems/).
 
 #### Compliance needs
 
@@ -231,11 +225,11 @@ To be able to use a laptop vendor, we have to be able to purchase and ship hardw
 Therefore the vendor should be able to handle most if not all shipping requirements to all team members. Our current hardware vendors are: CDW for US requests. Presidio for EMEA requests. Sycomp for most other regions.
 GitLab laptops that are procured from our vendors will come with GitLab branded asset labels by default. Please refer to this issue for more information on GitLab asset labels. [GitLab Branded Laptop Labels](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/914)
 
-### Configuring New Laptops & Apple IDs
+### Configuring New Laptops & Apple Account
 
 New laptops should be configured with security in mind.
 
-We require the use of an @gitlab.com Apple ID that is separate from any personal Apple ID's you may have.
+We require the use of an @gitlab.com Apple Account that is separate from any personal Apple Account's you may have.
 Some of these reasons include:
 
 * Backups, keychains and documents are all considered sensitive information, and should not be stored in personal services.
@@ -243,8 +237,6 @@ Some of these reasons include:
 * Keeping a strong separation between work and personal accounts will help prevent the accidental leak of information from one to the other, in either direction.
 
 Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/corporate/services/laptops/security/) when configuring your new laptop.
-
-**All team members must provide proof of whole disk encryption within the new laptop order issue.**
 
 Certain circumstances (world region and availability of hardware) might require the self installation of Linux on a Dell that was shipped with OEM Windows.
 Please make sure you follow any needed requirements when self installing and open an issue with GitLab IT if needed for verification.
@@ -270,7 +262,7 @@ Reformatting a computer is not sufficient in these cases because it is possible 
 
 ### Laptop Wipe
 
-Laptop wipes must be performed by [scheduling an appointment](/handbook/security/corporate/services/laptops/wipe/) with an IT analyst to wipe the machine, re-install the base operating system, and remove all software and configurations that were supplied by GitLab. Laptops must be wiped with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/) for macOS, and [DriveStrike](https://internal.gitlab.com/handbook/it/endpoint-tools/#drivestrike) for Linux. Using these tools ensures a clean disk wipe is performed and GitLab can retain evidence of the disk wipe.
+Laptop wipes must be performed by [scheduling an appointment](/handbook/security/corporate/services/laptops/wipe/) with an IT analyst to wipe the machine, re-install the base operating system, and remove all software and configurations that were supplied by GitLab. Laptops must be wiped with [Jamf](https://internal.gitlab.com/handbook/security/corporate/tooling/jamf/) for macOS, and [Fleet](https://internal.gitlab.com/handbook/security/corporate/tooling/fleet/) for Linux. Using these tools ensures a clean disk wipe is performed and GitLab can retain evidence of the disk wipe.
 
 Under no circumstance should you perform your own disk wipe unless you are doing so at the request of IT to troubleshoot a technical problem with the laptop. If GitLab discovers that a device has not been wiped according to policy, GitLab may act to enforce a remote wipe without notice.
 
@@ -295,18 +287,6 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 1. After the wipe has processed, you can complete the donation.
 
 ## Other Resources
-
-### Okta
-
-In an effort to secure access to systems, GitLab is utilizing Okta.
-The key goals are:
-
-* We can use Okta to enable Zero-Trust based authentication controls upon our assets, so that we can allow authorized connections to key assets with a greater degree of certainty.
-* We can better manage the login process to the cloud applications that we use within our tech stack.
-* We can better manage the Provisioning and De-provisioning process for our users to access these application, by use of automation and integration into our HRIS system.
-* We can make Trust and Risk based decisions on authentication requirements to key assets, and adapt these to ensure a consistent user experience.
-
-To read more about Okta, please visit the [Okta](/handbook/security/corporate/end-user-services/okta/) page of the handbook.
 
 ### Backblaze
 
