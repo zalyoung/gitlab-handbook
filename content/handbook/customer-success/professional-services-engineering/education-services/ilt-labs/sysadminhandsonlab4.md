@@ -39,7 +39,7 @@ With our target GitLab version identified, we can now run an upgrade of GitLab.
 
 1. Navigate to `https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/`.
 
-1. Input your current GitLab version (`17.4.1`) and your target version (`17.5.0`).
+1. Input your current GitLab version (`17.4.1`) and your target version (`17.5.5`).
 
 1. Ensure that **Edition** is set to **Enterprise**, and Distro is set to **Ubuntu**.
 
