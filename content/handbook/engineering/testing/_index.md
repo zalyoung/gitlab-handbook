@@ -134,6 +134,7 @@ our established request process:
 - [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/best_practices/) -
   Coding standards and patterns
 - [Code Review Guidelines](../../engineering/workflow/code-review/) - Mandatory review process for all merge requests
+- [Product Engineer guide to E2E test failure issues](guide-to-e2e-test-failure-issues.md)
 - Internal testing guidelines and examples
 
 **Community and Communication**:
