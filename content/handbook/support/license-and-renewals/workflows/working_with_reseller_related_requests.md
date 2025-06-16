@@ -17,7 +17,9 @@ When a customer purchases through a reseller we follow different workflows than
 we do for WebDirect or Sales Assisted purchases. Note the following for a customer purchase through a reseller:
 
 1. The customer will have access to customersDot, but [cannot modify their subscription](https://docs.gitlab.com/subscriptions/customers_portal/#customers-that-purchased-through-a-reseller) in any way, nor view invoices.
-1. Additions, modifications, or renwals must go through the reseller.
+1. Additions, modifications, or renewals must go through the reseller.
+
+**Note: Users may see a message in their portal, or on their GitLab.com group, warning that their subscription is "read-only".  This is only in reference of the inability to modify the subscription directly, but has no impact whatsoever on the functionality of the subscription itself**
 
 ### Identifying whether a customer purchased through reseller
 
