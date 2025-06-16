@@ -65,7 +65,7 @@ As members of the GitLab field organization, Professional Services Engineers wil
 * Delivers on SOW with guidance from technical architects and senior team members  
 * Manages creation of new and/or maintenance of existing tooling, artifacts, and templates for deliverables and training
 
-#### SOW Scope Includes:
+#### SOW Scope Includes
 
 * Installation and configuration of GitLab solutions in customer environments using standard reference architectures  
 * Provide technical training sessions remotely and/or on-site following established curriculum  
@@ -108,7 +108,7 @@ As members of the GitLab field organization, Professional Services Engineers wil
 
 ### **Responsibilities**
 
-**Extends Associate responsibilities with the following:**
+**Extends Associate responsibilities with the following**
 
 #### Independent Project Delivery
 
@@ -139,7 +139,7 @@ As members of the GitLab field organization, Professional Services Engineers wil
 
 ### **Requirements**
 
-**Extends Associate requirements with the following:**
+**Extends Associate requirements with the following**
 
 #### Experience
 
@@ -167,7 +167,7 @@ As members of the GitLab field organization, Professional Services Engineers wil
 
 ### **Responsibilities**
 
-**Extends Intermediate responsibilities with the following:**
+**Extends Intermediate responsibilities with the following**
 
 #### Technical Leadership
 
@@ -198,7 +198,7 @@ As members of the GitLab field organization, Professional Services Engineers wil
 
 ### **Requirements**
 
-**Extends Intermediate requirements with the following:**
+**Extends Intermediate requirements with the following**
 
 #### Experience
 
@@ -234,7 +234,7 @@ As members of the GitLab field organization, Professional Services Engineers wil
 
 The Staff Professional Services Engineer up-levels the responsibilities and requirements of the Senior level, and places additional emphasis on leadership, enablement, planning, and execution. Staff engineers will be capable of executing long-term strategies for customers, in lock-step with our account teams, that lead and advise customers for faster time-to-value and set them up for long-term success.
 
-**Extends Senior Professional Services Engineer responsibilities with the following:**
+**Extends Senior Professional Services Engineer responsibilities with the following**
 
 #### Strategic Technical Leadership
 
@@ -273,7 +273,7 @@ The Staff Professional Services Engineer up-levels the responsibilities and requ
 
 ### **Requirements**
 
-**Extends Senior Professional Services Engineer requirements with the following:**
+**Extends Senior Professional Services Engineer requirements with the following**
 
 #### Strategic Experience
 
