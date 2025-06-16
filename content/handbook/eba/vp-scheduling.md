@@ -85,5 +85,5 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
 **Audrey Van Belleghem, Chief of Staff - Michelle Gill, Director of Devops Engineering - Tim Zallmann, VP AI Engineering - Maw Wildpaner, VP of Sec & Monetization - Marin Jankovski, VP of Infrastructure Platforms - Johnny Scarborough Jr., VP of Support**
 
 - Please reach out to Liki Simonot (EBA) to schedule or reschedule any meetings for Tim Zallmann, Marin Jankovski, or Maw Wildpaner
-- Please reach out to Vange Ingang (EBA) to schedule or reschedule any meetings for Audrey Van Belleghem
+- Please reach out to Vange Ingan (EBA) to schedule or reschedule any meetings for Audrey Van Belleghem
 - Please reach out to Kyra Wright (EBA) to schedule or reschedule any meetings for Michelle Gill, or Johnny Scarborough Jr. 
