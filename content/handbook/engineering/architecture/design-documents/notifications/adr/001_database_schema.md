@@ -136,7 +136,7 @@ class Notification < ApplicationRecord
 end
 ```
 
-### ⚙️ Notification Creation Service
+### Notification Creation Service
 
 Encapsulates logic for resource-safe creation:
 
@@ -238,7 +238,7 @@ Whilst not connected to this domain (notifications), this architectural design p
 [the Workflow Catalog group](/handbook/engineering/ai/data-science/ai-powered/workflow-catalog/)
 in [merge request 194032](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/194032).
 
-Rather than the [notification creation service](#-notification-creation-service) proposed above,
+Rather than the [notification creation service](#notification-creation-service) proposed above,
 we explored using [a concern](https://gitlab.com/gitlab-org/gitlab/-/blob/98fab27d5b3d0f354c1ea93a86c18d0f37347b90/ee/app/models/concerns/ai/catalog/itemable.rb) to include:
 
 - `accepts_nested_attributes_for` - enables nested attribute handling
