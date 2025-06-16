@@ -91,9 +91,9 @@ Merge Requests that have been included in the monthly release will receive [a la
 
 GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information:
 
-* Active monthly release version
-* Active monthly release date
-* Current status of the active monthly release
+* Upcoming monthly release version
+* Upcoming monthly release date
+* Current status of the upcoming monthly release
 
 The metrics used to display this information are updated automatically throughout the [self-managed releases process](#monthly-self-managed-releases-process).
 
@@ -132,9 +132,9 @@ If you're a GitLab release manager looking:
 
 ### Patch release information dashboard
 
-GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information about the active patch release:
+GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information about the upcoming patch release:
 
-* Active patch release versions (stable version + 2 backport versions)
+* Upcoming patch release versions (stable version + 2 backport versions)
 * Upcoming patch release date
 * Current status of the patch release
   * Open: Bug fixes and MRs associated with security issues labeled `security-target` are expected to be included in the next patch release.
