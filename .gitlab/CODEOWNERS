@@ -313,8 +313,8 @@
 ^[marketing]
 /content/handbook/marketing/ @bill_staples
 /content/handbook/marketing/account-based-marketing/ @megan_odowd @marcigee
-/content/handbook/marketing/blog/ @dsteer @Sgittlen
-/content/handbook/marketing/blog/release-posts/  @justinfarris @dsteer @Sgittlen
+/content/handbook/marketing/blog/ @Sgittlen @bill_staples
+/content/handbook/marketing/blog/release-posts/ @justinfarris @Sgittlen @bill_staples
 /content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @meilynda @ttran5 @kparisi
 /content/handbook/marketing/channel-marketing/ @laurafagan
 /content/handbook/marketing/corporate-communications/ @cweaver1 @bill_staples
@@ -345,7 +345,7 @@
 /content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @bill_staples
 /content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @ncregan @hsmith-watson @bill_staples
 /content/handbook/marketing/inbound-marketing/search-marketing/testing.md @bill_staples
-/content/handbook/marketing/journeys.md @dsteer @bill_staples
+/content/handbook/marketing/journeys.md @bill_staples
 /content/handbook/marketing/lifecycle-marketing/ @aklatzkin @bstallings
 /content/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @bstallings
 /content/handbook/marketing/localization/ @djsulliv
@@ -353,13 +353,13 @@
 /content/handbook/marketing/marketing-enablement.md  @justinfarris
 /content/handbook/marketing/marketing-operations/ @christinelee @amy.waller
 /content/handbook/marketing/marketing-strategy-and-platforms.md @christinelee @bill_staples
-/content/handbook/marketing/positioning-faq.md @dsteer @bill_staples
+/content/handbook/marketing/positioning-faq.md @bill_staples
 /content/handbook/marketing/project-management-guidelines/ @johncoghlan
 /content/handbook/marketing/readmes/ @bill_staples
 /content/handbook/marketing/readmes/michael-friedrich.md @dnsmichi
 /content/handbook/marketing/sales-development/ @jlarramendy @bill_staples
-/content/handbook/marketing/sales-plays-cicd/ @dsteer
-/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @dsteer
+/content/handbook/marketing/sales-plays-cicd/ @bill_staples
+/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @bill_staples
 /content/handbook/marketing/strategy-performance/ @vhempel @bill_staples
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
@@ -369,29 +369,29 @@
 /content/job-families/expert/merge-request-coach.md @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 
 ^[Marketing-Brand-and-Product-Marketing]
-/content/handbook/marketing/brand-and-product-marketing/ @dsteer @rclayman @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/brand/ @dsteer @rclayman @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/ @rclayman @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/brand/ @rclayman @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/brand/brand-activation/ @luke @amittner
-/content/handbook/marketing/brand-and-product-marketing/content/ @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/design.md @dsteer @amittner @luke @monica_galletto @vicbell @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/ @dsteer @jkempton
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ @nicolecsmith @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/mrnci.md @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/ @iganbaruch @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @waarias @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @waarias @dsteer
-/content/handbook/marketing/use-cases.md @dsteer
+/content/handbook/marketing/brand-and-product-marketing/content/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/design.md @amittner @luke @monica_galletto @vicbell @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/ @jkempton @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ @nicolecsmith @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/mrnci.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/ @iganbaruch @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @waarias @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @waarias @bill_staples
+/content/handbook/marketing/use-cases.md @bill_staples
 
 ^[Marketing-Integrated-Marketing]
 /content/handbook/marketing/field-marketing/ @laurafagan
@@ -481,7 +481,7 @@
 /content/handbook/sales/account-planning/ @lschoenfeld @monicaj @isteward
 /content/handbook/sales/build-value-with-customers.md @isteward
 /content/handbook/sales/club/ @kdemarest @kagarrett
-/content/handbook/sales/command-of-the-message/ @dsteer @isteward
+/content/handbook/sales/command-of-the-message/ @isteward @bill_staples
 /content/handbook/sales/commercial/ @bcaller @MDines @carolynharding @isteward
 /content/handbook/sales/commissions/ @isteward
 /content/handbook/sales/faq-from-prospects.md @isteward
@@ -514,7 +514,7 @@
 /content/handbook/sales/qbrs/ @shannonthompson @monicaj
 /content/handbook/sales/qualification-questions.md @isteward
 /content/handbook/sales/readmes/ @isteward
-/content/handbook/sales/revenue-programs.md @dsteer
+/content/handbook/sales/revenue-programs.md @bill_staples
 /content/handbook/sales/sales-google-groups/ @monicaj @shannonthompson
 /content/handbook/sales/sales-meetings.md @monicaj @isteward
 /content/handbook/sales/sales-operating-procedures/ @isteward
