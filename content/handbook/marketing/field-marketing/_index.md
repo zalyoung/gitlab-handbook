@@ -126,6 +126,7 @@ For more information regarding confidentiality levels and compliancy, please vis
   - Opinion on roundtable topic sourced from relevant articles on the web
   - How GitLab aligns with companies' DevOps and AI strategies
   - Give discussion points on data residency, AI regulations, and implementation
+- Using Claude to help create short fun quiz questions to be used at events. A quiz can be a great way to increase engagement, enhance learning, foster interaction, and create memorable experiences that extend well beyond the event itself. An example here of the prompt and quiz questions [here](https://docs.google.com/document/d/1oWGsV-6nIEJ4psJ3a7v62qu4ywbkHvu-gwvbfbbLcfg/edit?tab=t.8n5nqsxu4dh30)
 
 ## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
@@ -938,8 +939,9 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - FinServ | Beth Parker | `@BParker` | |
 | AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
-| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
-| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
+| AMER - West Coast and Southwest |  Amy Moy | `@amoy1` | |
+| AMER - LATAM  |  Amy Moy | `@amoy1` | |
+| AMER - Public Sector | Annatasia DeAngelis and Micaila Gardiner |  `@adeangelis1` `@micailagardiner` | |
 | APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
 | APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
 | APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
@@ -1082,9 +1084,9 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER FinServ| Beth Parker | Jay Bahar |
 | AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
 | AMER North and Canada | Julie Wyatt | Jay Bahar |
-| AMER West Coast | Lisa Rom | Lisa Cartagena |
-| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
-| AMER LATAM | Gabby Chorny | Rodrigo Rios |
+| AMER West Coast | Amy Moy | Lisa Cartagena |
+| AMER Public Sector | Annatasia DeAngelis and Micaila Gardiner | David LaTour |
+| AMER LATAM | Amy Moy | Rodrigo Rios |
 | APJ APAC | Kate Baker and Catherine Chien | SJ Lim |
 | APJ Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |

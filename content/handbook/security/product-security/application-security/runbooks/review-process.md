@@ -133,7 +133,7 @@ review steps which did not produce a finding should be noted as well.
 The findings section should contain a list of all findings made during the
 review. The [`finding_table.rb`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/tree/master/tools/finding_table.rb) script will try to
 pre-populate a table for this. The `Remediation` column still needs to be
-filled out manually to point to the accordin remediation MRs or issues.
+filled out manually to point to the according remediation MRs or issues.
 
 #### Problems
 

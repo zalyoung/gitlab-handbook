@@ -11,9 +11,10 @@ This page details processes and general guidelines specific to the Executive Bus
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
 | [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA | Bill Staples (CEO) |
-| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | TBC | Stella Treas (Chief of Staff) |
-| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) <br>Johnny Scarborough (VP Support) |
+| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Linsea O'Shea**<br>Sr EBA | Stella Treas (Chief of Staff)/Interim Head of Product Marketing |
+| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Marin Jankovski (Sr. Director of Infrastructure)<br>Tim Zallmann (VP of Engineering, Core Development)<br>Michael Wildpaner (VP Engineering) |
+| [Engineering](/handbook/engineering/) | **Kyra Wright**<br>EBA | Johnny Scarborough (VP of Support)<br>Michelle Gill (Director of Engineering, DevOps) |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
 | [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>TBC (VP of Internal Audit) |
 | [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |

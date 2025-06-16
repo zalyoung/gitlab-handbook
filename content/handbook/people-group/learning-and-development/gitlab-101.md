@@ -1,209 +1,282 @@
 ---
-title: GitLab 101
+title: GitLab Basics
 ---
 
-Welcome to the GitLab 101 page! Here you will find some basic info on how to use GitLab.
+## GitLab Basics and Terminology
 
-### Who can benefit from this 101 training?
+This page is just a quick guide to some GitLab basics, for easy reference. For more in depth GitLab product training, check out the [Get Started with GitLab](https://university.gitlab.com/pages/getting-started) resources on GitLab University.
 
-Everyone at GitLab needs to know how to use GitLab and be technical to some level. This training is geared toward GitLab team members who are in non-engineering roles (i.e. talent acquisition, peopleops, marketing, finance, etc) and/or have not used a DevOps tool like GitLab before. This can also be helpful for non-engineering people outside of GitLab wanting to learn how to use GitLab for personal projects.
+This comprehensive guide provides essential information for GitLab team members in non-engineering roles, covering everything from basic terminology to advanced features like epics and merge request reviews.
 
-## Objectives
+## What is GitLab?
 
-1. Learn common technical terms used at GitLab
-1. Learn how to open, comment on, and move GitLab Issues
-1. Learn how to create a GitLab Merge Request
+GitLab is a web-based DevSecOps lifecycle tool that provides a Git-repository manager with wiki, issue-tracking, and CI/CD pipeline features. It's an all-in-one platform for software development, collaboration, and deployment.
 
-## Lesson 1: Technical Terminology
+## Essential GitLab Terminology
 
-### What is GitLab
+Understanding these terms will help you navigate and communicate effectively within GitLab:
 
-GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and CI/CD pipeline features, using an open-source license.
+**Board** - Visual tool to manage lists of issues organized by labels, team members, or milestones
 
-Summarized: GitLab is a complete DevOps platform, delivered as a single application.
+**Branch** - A separate version of your project's code where you can make changes without affecting the main codebase
 
-This will make more sense once you understand all of the terminology.
+**Commit** - A saved change or set of changes to files in your project, like taking a snapshot of your work at a specific point in time
 
-### Terminology
+**DevSecOps** - Practices that combine software development, security, and IT operations to deliver software faster and more reliably
 
-1. Board
-   1. **Definition:** make it possible to visualize and manage lists of issues which can be defined by one of three ways: Labels, Team members, and Milestones.
-1. Branch
-   1. **Definition:** a version of a project's working tree. You create a branch for each set of related changes you make. This keeps each set of changes separate from each other, allowing changes to be made in parallel, without affecting each other.
-1. Commit
-   1. **Definition:** a change, or set of changes, to one or more files in the source code on a given Git branch. A commit allows you to mark the project in its current state as a kind of snapshot in time.
-   1. **Example:** This is a [commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/e539128d235c084199047788d121141777a7fe2c).
-1. DevOps
-   1. **Definition:** is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
-1. Epic
-   1. **Definition:** provides a way to organize and manage a set of issues and sub-epics that share the same theme.
-   1. **Example:** This is an [epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/15) (internal).
-1. Git
-   1. **Definition:** is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
-1. Groups
-   1. **Definition:** are used to manage one or more related projects at the same time. You can use groups to manage permissions for your projects. If someone has access to the group (it's a member of the group), they get access to all the projects, issues, and merge requests  in the group.
-   1. **Example:** This is a [group](https://gitlab.com/gitlab-com).
-1. Handbook-first approach
-   1. **Definition:** it's a process that describes documenting in the handbook before taking an action, without using other forms of communication. This ensures no duplication and having the Handbook up to date.
-1. Issue
-   1. **Definition:** the fundamental medium for collaborating on ideas and planning work in GitLab
-   1. **Example:** This is an [Issue](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training/-/issues/1) (internal).
-1. Labels
-   1. **Definition:** They help you organize and tag your work so you can track and find the work items you're interested in. You can use descriptive titles like bug, feature request, or docs, as well as customizable colors.
-   1. **More information on:** [labels](https://docs.gitlab.com/ee/user/project/labels.html).
-1. Local
-   1. **Definition:** your machine. You can also use GitLab locally, on your machine, not just in the browser.
-   1. **Example:** If someone says to do something locally that means to open the terminal on your computer to make a change.
-1. Markdown
-   1. **Definition:** a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
-   1. **Example:** Take a look at our [GitLab Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
-1. Milestones
-   1. **Definition:** are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. They allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
-   1. **More information on:** [milestones](https://docs.gitlab.com/ee/user/project/milestones/)
-1. Merge Request
-   1. **Definition:** allows you to visualize and collaborate on the proposed changes to source code that exist as commits on a given Git branch. A Merge Request (MR) is the basis of GitLab as a code collaboration and version control platform. It is as simple as the name implies: a request to merge one branch into another.
-   1. **Example:** This is a [Merge Request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/40563#0c7def9794ef444dbc7eb560126846353b630886).
-1. Open Source
-   1. **Definition:** denotes software for which the original source code is made freely available and may be redistributed and modified.
-   1. **Example:** Our GitLab [handbook](/handbook) is open source because anyone can make changes and contribute to it.
-1. Project
-   1. **Definition:** used for hosting your codebase, as an issue tracker, collaborate on code, and continuously build, test, and deploy your app with built-in GitLab CI/CD.
-   1. **Example:** This is a [project](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training).
-1. Source Code
-   1. **Definition:** a text listing of commands to be compiled or assembled into an executable computer program.
-1. SSH Key (SSH = Secure Shell)
-   1. **Definition:** a cryptographic network protocol for operating network services securely over an unsecured network.
-1. Terminal
-   1. **Definition:** is a command line input console used for entering data into, and displaying or printing data from a computer or a computing system.
-1. To-Do lists
-   1. **Definition:** are lists of issues, merge requests or epics where you were mentioned in.
-1. Weight
-   1. **Definition:** allow you to get a better idea of how much time, value or complexity a given issue has or will cost.
-   1. **More information on:** [issue weights](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html)
+**Epic** - A way to organize multiple related issues and sub-epics around a common theme or goal
 
-### Most Common Terms at GitLab
+**Git** - The underlying version control system that tracks changes in your code over time
 
-All of these terms will be used at GitLab, but the most common ones are:
+**Groups** - Collections of related projects that share permissions and access controls
 
-- Project
-- Issue
-- Merge Request (MR)
+**Issue** - The primary way to collaborate on ideas, track work, and discuss problems in GitLab
 
-### Practice Your Knowledge
+**Labels** - Tags that help organize and categorize issues and merge requests (like "bug," "feature," or "urgent")
 
-Practice your knowledge on technical terminology with these [flashcards](https://www.cram.com/flashcards/technical-terminology-12355727).
+**Local** - Your personal computer or development environment (as opposed to the GitLab server)
 
-To use the flashcards, click on the link above. You can review the flashcards in a variety of different ways. You can use them like normal (virtual) index card flashcards with the vocab word on the front and click on the index card to reveal the definition on the back. You can also use the other flashcard functions like Memorize and Test.
+**Markdown** - A simple formatting language used to style text in GitLab descriptions and comments
 
-## Lesson 2: GitLab Issues
+**Merge Request (MR)** - A request to combine changes from one branch into another, allowing for code review and collaboration
 
-### What is a GitLab Issue
+**Milestones** - A way to group issues and merge requests by time period or project phase
 
-As you learned in the technical terminology portion, a GitLab Issue is the fundamental medium for collaborating on ideas and planning work in GitLab. That means if you are working on a project or idea and want to collaborate with other team members, you can open an issue to do that.
+**Project** - A repository that contains your code, documentation, and project management tools
 
-### How to open a GitLab Issue
+**Source Code** - The human-readable instructions that make up a software program
 
-To open a GitLab issue:
+## Working with Issues
 
-1. Navigate to the project where you want to open the issue
-   1. **How do you know what project to use?** - Find the project that is most relevant to the issue you want to create. For example if you wanted to open an issue on something relating to our [benefits](/handbook/total-rewards/benefits/), you would open an issue in the Total Rewards project. If you do open an issue in an incorrect project, you can move it. We will cover that as the next topic.
-1. Select "Issues" in the left hand side
-1. Click the blue "New issue" button in the top right
-1. Add in a Title for the issue
-1. In the Description add any relevant information
-1. Click the "preview" button at the top of the issue box to preview your issue and make sure you have formatted everything correctly
-1. Decide whether the issue needs to be confidential or not
-   1. **How do you know if your issue should be confidential or not?** [Transparency](/handbook/values/#transparency) is one of our values so we try to be open about as many things as possible. Only use confidential issues, if the issue must contain [non-public information](/handbook/communication/confidentiality-levels/#not-public).
-1. Assign the issue to the relevant person (that might be you!)
-1. If relevant: assign a milestone
-1. If relevant: add a label (or multiple)
-1. If relevant: add a weight
-1. If relevant: add a due date
-1. Click the blue "Submit issue" at the bottom
+### What are Issues?
 
-#### Video: How to open a GitLab Issue (~8 minutes)
+Issues are GitLab's primary tool for collaboration, planning, and tracking work. Use them to discuss ideas, report bugs, plan features, or coordinate tasks.
 
-{{< vimeo "484212044" >}}
+### Creating an Issue
 
-### How to move a GitLab Issue
+1. Navigate to the relevant project
+2. Click "Issues" in the left sidebar
+3. Click the blue "New issue" button
+4. Add a descriptive title
+5. Fill in the description with relevant details
+6. Use the "Preview" tab to check formatting
+7. Configure issue settings:
+   - **Confidential**: Only use for non-public information (transparency is preferred)
+   - **Assignee**: Person responsible for the issue
+   - **Milestone**: Project phase or deadline
+   - **Labels**: Categories for organization
+   - **Weight**: Complexity or effort estimate
+   - **Due date**: If applicable
+8. Click "Submit issue"
 
-It's possible that an issue will be opened in an incorrect project. If that happens, it is easy to move it to the correct project.
+### Finding the Right Project
 
-To move a GitLab issue:
+Choose the project most relevant to your issue. For example, benefits-related issues would go in the Total Rewards project. Don't worry if you choose incorrectly - issues can be moved.
 
-1. Navigate to the issue you want to move
-1. In the right hand menu bar, scroll all the way to the bottom
-1. Select "Move issue"
-1. Search for the project you want to move it to and click on it
-1. Click the blue "Move" button
-1. It will move the issue, and the link will change according to the new location of the issue
+### Moving an Issue
 
-#### Video: How to move a GitLab Issue (~2 minutes)
+If an issue is in the wrong project:
 
-{{< vimeo "491217472" >}}
+1. Open the issue
+2. Scroll to the bottom of the right sidebar
+3. Click "Move issue"
+4. Search for and select the correct project
+5. Click "Move"
 
-### How to comment on a GitLab Issue
+### Commenting on Issues
 
-To comment on a GitLab issue:
+- Scroll to the bottom of an issue to add a new comment
+- To reply to a specific comment, click the speech bubble icon next to it
+- Click the green "Comment" button when finished
 
-1. Open the issue that you want to comment on
-1. If there are other comments, scroll to the bottom and add your comment there
-1. It is also possible that you may want to reply to someone's comment that is already on the issue. To do this, you will click the speech balloon on their comment (when you hover over it, it will say "reply to comment") and it will add a box for you to type your reply.
-1. When you are done typing your comment, click the green "Comment" button to add it to the issue
+### Searching for Issues
 
-### How to search for a GitLab Issue
+1. Go to gitlab.com and use the search bar
+2. Enter your search terms
+3. Select the appropriate group and project
+4. Click the "Issues" tab to filter results
 
-Knowing how to search for a GitLab issue can be very helpful, especially if you had been looking at it but hadn't made a comment or been tagged in it. If you know some key words that were in the issue, you should be able to find it! Here's how:
+## Working with Merge Requests
 
-1. Go to [gitlab.com](https://gitlab.com/)
-1. In the top right click on the search bar
-1. Type in text you want to search for and hit enter
-1. On the next screen, select the group the issue is in that you are searching for. In this instance the group is `people-group`
-1. Then, select the project the issue is in that you are searching for. In this instance the project is `gitlab-tool-training`
-1. Click on the "issues" tab under the search bar to see all issues with the text you are searching for in that specific group and project.
+### What are Merge Requests?
 
-This [docs resource](https://docs.gitlab.com/ee/user/search/) has helpful tips on searching for an Issue.
+Merge Requests (MRs) let you propose changes to code and collaborate on them before they're integrated into the main project. Think of them as a formal way to say "I'd like to add these changes - please review them."
 
-#### Video: How to search for a GitLab Issue (~4 minutes)
+### Creating a Merge Request
 
-{{< vimeo "537384017" >}}
+The most common use case is editing the handbook:
 
-### GitLab Issue Labels and Issue Boards
+1. Navigate to the file you want to edit
+2. Click the "Edit" button
+3. Make your changes using the web editor
+4. Fill out the commit message
+5. Choose "Create a new branch and start a merge request"
+6. Add a descriptive title and description
+7. Assign reviewers (typically your manager or a project maintainer)
+8. Submit the merge request
 
-Tags or labels are used to help sort and search for GitLab Issues.
+### Key Merge Request Settings
 
-Each GitLab Project has an Issue Board. These can be set up similar to how a kanban board would look. You can add different lists to the Issue Board based on "labels" in the project.
+**Assignee/Reviewer** - Your manager or someone with maintainer access can merge your MR
 
-#### Video: GitLab Issue Labels and Issue Boards (~4 minutes)
+**Squash commits** - Combines all your changes into a single commit for cleaner history
 
-{{< vimeo "491218462" >}}
+**Delete source branch** - Automatically removes your working branch after merging
 
-### Other Helpful Tips for Issues
+**Soft wrap** - Makes long lines of text easier to read in the editor
 
-1. Marking issues as "Confidential" - This means everyone at GitLab still has access to see the issue. People outside of GitLab would not have access to view the issue, though.
+### Searching for Merge Requests
 
-## Lesson 3: GitLab Merge Requests
+Use the same search process as issues, but select "Merge requests" instead of "Issues" in the results.
 
-### What is a GitLab Merge Request
+### Advanced Merge Request Features
 
-As you learned in the technical terminology portion, a GitLab Merge Request (MR) is a request to merge one branch into another. We want to reiterate that this is a "request" meaning you aren't going to break GitLab with just submitting your MR.
+#### Reviewing Merge Requests
 
-### How to create a GitLab Merge Request (i.e. How to make an update to the handbook)
+Beyond creating merge requests, you can provide valuable feedback through reviews:
 
-Follow the instructions to [Edit the Handbook](/handbook/about/editing-handbook/) which include creating a merge request to commit an edit.
+1. Open the merge request and click the "Changes" tab
+2. Click on any line you want to comment on (look for the comment icon)
+3. Write your comment and click "Start a review"
+4. Add more comments by clicking "Add to review" 
+5. To resolve discussions, check "Resolve thread" when replying
+6. Click "Submit review" to publish all comments
 
-#### Video: How to create a GitLab Merge Request (~20 minutes)
+#### Suggesting Code Changes
 
-{{< youtube "DJo4bQdawSo" >}}
+You can suggest specific changes that authors can apply with one click:
 
-### How to search for a GitLab Merge Request
+1. Click the comment icon on the line you want to change
+1. Click the "Insert suggestion" icon in the toolbar
+1. Edit the pre-populated code block with your suggestion
+1. Click "Start a review" or "Add comment now"
+1. The author can apply your suggestion directly, creating a new commit
 
-You can search for a GitLab Merge Request in the same way as you search for a GitLab Issue [outlined above](#how-to-search-for-a-gitlab-issue). The only difference is to select the "Merge requests" button in the top right, rather than the Issues button.
+#### Draft/WIP Merge Requests
 
-### Helpful Tips for Merge Requests
+When you're not ready for a merge request to be merged:
 
-1. Who can merge your Merge Request (MR)? - your manager should have the ability to merge (i.e. [maintainer access](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions)). If they don't have the ability to merge, they will know who you can assign it to for review/merging.
-1. If you assign your MR to someone who isn't a Maintainer, there will be a yellow triangle with an exclamation point by their picture.
-1. Soft Wrap - when you are editing your MR, you can either select soft wrap or no wrap. If you select "soft wrap" you will be able to see all of the text in one screen. If you select "no wrap" (which is the default) you will have to scroll to the right if the text on the line is wider than the page.
-1. Squash Commits - when obtaining a merge request, there is an option to enable or disable ["Squash commits when merge request is accepted"](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html). If enabled, it combines all your merge request's commits into one and retain a clean history.
-1. Delete Branch - when creating or editing your merge request, you can also select the ["Delete source branch when merge request accepted"](https://docs.gitlab.com/ee/user/project/merge_requests/#delete-the-source-branch-on-merge-by-default) option.
+1. Add `WIP:` or `Draft:` to the beginning of the title
+1. This prevents accidental merging
+1. To update: click the pencil icon in the Changes tab, make changes, commit
+1. When ready: remove the `WIP:` or `Draft:` prefix and assign to a reviewer
+
+## Advanced GitLab Features
+
+### Working with Epics
+
+Epics help you manage portfolios of projects more efficiently by tracking groups of issues that share a theme across projects and milestones. They're excellent for project management and provide a high-level view of work progress.
+
+#### Uses for Epics
+
+- **Project/OKR Tracking**: Track related activities across multiple issues in different projects that contribute to a single goal
+- **Timeline Management**: Set target start and end dates for groups of work
+- **High-Level Collaboration**: Discuss ideas and scope at a strategic level
+- **Health Reporting**: Monitor the status of multiple related issues
+
+#### Creating an Epic
+
+Epics are created at the group level:
+
+1. Navigate to your project's group
+2. Click "Epics" in the left sidebar
+3. Click "New epic"
+4. Enter the epic title
+5. Click "Create epic"
+6. Optionally mark as confidential if needed
+
+#### Child Epics
+
+Think of child epics like subfolders within a main folder. They help organize complex projects hierarchically.
+
+To create a child epic:
+
+1. Navigate to the parent epic
+2. Click the "Add" dropdown button
+3. Select "Add an epic"
+4. Enter the title
+5. Click "Create epic"
+
+#### Linking Issues to Epics
+
+Each issue can belong to only one epic. When you add an issue that's already linked to another epic, it automatically unlinks from the previous one.
+
+**To add an issue to an epic:**
+
+1. In the epic, click the "Add" dropdown
+2. Select "Add an existing issue"
+3. Paste the issue link or enter the issue ID
+4. For multiple issues, use spacebar between entries
+5. Click "Add"
+
+**To add an epic to an issue:**
+
+1. Open the issue
+2. In the right sidebar, click "Epic"
+3. Type the epic title and select from dropdown
+4. The epic will now appear on the issue
+
+### Creating New Handbook Pages
+
+Before creating a new page, verify the information doesn't already exist or couldn't be added to an existing page.
+
+#### Steps to Create a New Page
+
+1. Navigate to the `www-gitlab-com` project
+1. Go to: sites → handbook → source → handbook
+1. Navigate to the appropriate folder for your content
+1. Click the "+" icon and select "New file"
+1. Name your file ending with `/index.html.md`
+1. Add this header to your page:
+
+```markdown
+---
+title: "[insert title of your page]"
+description: "[insert a short sentence to appear as part of search results]"
+---
+```
+
+1. Write your content
+1. Add a commit message and click "Commit changes"
+1. Update the merge request template and assign to appropriate reviewer
+
+#### Handbook Tips
+
+- **Finding Content**: Navigate to `www-gitlab-com` → sites → handbook → source → handbook, then browse folders alphabetically
+- **Formatting Help**: Use the [markdown guide](https://handbook.gitlab.com/docs/markdown-guide/#markdown-style-guide-for-aboutgitlabcom) for formatting tips
+- **Learning by Example**: Find similar content in the handbook and click "View source" to see how it's formatted
+- **Tables and Complex Formatting**: Check the [People Group](/handbook/people-group) page for examples you can copy and modify
+
+## Key Relationships Between GitLab Tools
+
+Understanding how these tools work together:
+
+- **Issues** are the foundation for tracking individual pieces of work
+- **Epics** group related issues across multiple projects for strategic oversight  
+- **Merge Requests** are how you propose and review changes to content
+- **Boards** provide visual workflow management using issues and labels
+- **Projects** contain all these elements and define access permissions
+
+## Best Practices
+
+**Transparency First** - Only mark issues as confidential when they contain truly non-public information
+
+**Descriptive Titles** - Make titles clear and specific so others can quickly understand the purpose
+
+**Use Labels** - Consistent labeling helps everyone find and organize work more effectively
+
+**Assign Appropriately** - Make sure issues and MRs are assigned to people who can actually act on them
+
+**Link Related Work** - Reference related issues and MRs to provide context and maintain connections
+
+Remember: GitLab is designed to be collaborative and forgiving. You won't break anything by experimenting with issues and merge requests, so don't hesitate to dive in and start using these tools for your daily work.
+
+## Getting Help
+
+- **Documentation**: Check GitLab's official documentation for detailed guides
+- **Search First**: Before creating new issues, search to see if similar ones already exist  
+- **Ask Questions**: Use comments and mentions (@username) to get help from teammates
+- **Practice**: The best way to learn GitLab is by using it regularly for your work
+- **Handbook First**: Document in the handbook before taking action to ensure information is accessible to everyone
+
+Remember: GitLab is designed to be collaborative and forgiving. You won't break anything by experimenting, so don't hesitate to dive in and start using these tools for your daily work.

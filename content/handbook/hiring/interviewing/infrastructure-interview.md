@@ -26,7 +26,7 @@ If you choose to, you can learn even more about the infrastructure department an
   - [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/)
   - [Scalability Group](/handbook/engineering/infrastructure/team/scalability/)
   - [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
-  - Production Engineering group with [Ops](/handbook/engineering/infrastructure/team/ops/) and
+  - Production Engineering group with [Ops](/handbook/engineering/infrastructure-platforms/production-engineering/ops/) and
   - [Foundations](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/)
 
 A well-written resume or a detailed LinkedIn profile will increase your chances to be selected for this role. Read the requirements carefully and make sure that some of those specific areas are outlined in your resume/LinkedIn profile. In Infrastructure Engineering, we especially pay attention to your experience/knowledge of:

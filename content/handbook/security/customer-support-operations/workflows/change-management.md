@@ -1,5 +1,5 @@
 ---
-title: Change Maangement
+title: Change Mangement
 description: Operations workflow for change management
 canonical_path: "/handbook/security/customer-support-operations/workflows/change-management"
 ---

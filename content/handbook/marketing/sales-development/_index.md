@@ -198,9 +198,10 @@ You will find the lead views below. These views are split per use-case for your 
 | FY26 B2 - AWA leads w/ LIM             | Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which one to add to Groove Flow. We do not surface leads that were added to Flows in the last 14 days.                                                                                                                        |
 | FY26 B3 - Change Owner AWA's (Clone)   |  This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner currently working them.   |
 | FY26 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Groove to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Groove and create additional call tasks for your leads currently in high touch flows.                                                                                                                             |
-| FY26 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                        |
+| FY26 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two.                                                                          |
 | FY26 B6 - 6QA Imported Leads  | leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.|
-| FY26 B7 - AWS Prospecting Last 7 Days  | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                           |
+| FY26 B7 - AWS Prospecting Last 7 Days  | These are leads in qualifying status which means some sort of two-way engagement happened between you two.                                                                       | 
+| FY26 B8 - AWA Leads w/ no LIM  | These are leads in Recycle Queue status with Last Interesting Moment dates older than 12 months which means they were previously engaged but have been inactive for an extended period.                                                                           |
 
 #### Contact Views
 
@@ -398,14 +399,14 @@ If you need to move a lead out of high prioriy without contacting them you can [
 
 ### Translating Groove Flows 
 
-For translating flows to different languages, other than English, the Sales Dev Team will be partnering with our GitLab Localization team. Please follow the grid below to see who the Sales Dev DRI for each language is and the level of support that the localization team can provide. The localization team can provide translations for languages outside of their normal range if given a two weeks heads up. The requestor should know that in these cases, the translation quality may not be as accurate as for the localization team's regularly supported languages. When you are ready to request translations from the localization team please create an issue in the [Localization GitLab Project](https://gitlab.com/gitlab-com/localization).
+For translating flows to different languages, other than English, the Sales Dev Team will be partnering with our GitLab Localization team. Please follow the grid below to see who the Sales Dev DRI for each language is and the level of support that the localization team can provide. The localization team can provide translations for languages outside of their normal range if given a two weeks heads up. The requestor should know that in these cases, the translation quality may not be as accurate as for the localization team's regularly supported languages. When you are ready to request translations from the localization team please create an issue in the [Localization Issue Tracker GitLab Project](https://gitlab.com/gitlab-com/localization/issue-tracker/-/issues).
 
 | Language   | Sales Dev DRI           | Localization Team Support?          | Localization DRI           | Preferences          |
 |------------------|-------------------------------|-----------------------|-------------------------------|-------------------------------|
 | AMER Spanish| Kenia Rodriguez| Yes but only International ESP |Vendor Support|N/A |
 | AMER Portuguese| Leo Viera | Yes Brazilian PT |Vendor Support|N/A |
 | EMEA Spanish| Camilo Hernandez Murillo| Yes but only International ESP |Vendor Support|N/A |
-| EMEA Portuguese| Tati Fernandez | No |Vendor Support|N/A |
+| EMEA Portuguese| Tati Fernandez | No |N/A|N/A |
 | Dutch| Marije Konink | No |N/A|N/A |
 | French| Erwan Régnaud | Yes | Maud Leuenberger| No emojis, Hello Last Name instead of First Name |
 | German| Riko Pfennig| Yes |Hendrik Breuer|Very Formal, No Emojis |

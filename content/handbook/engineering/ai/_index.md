@@ -53,3 +53,13 @@ These are the stakeholders:
 ## ClickHouse Datastore usage
 
 [ClickHouse usage by Monitor:Platform Insights group](/handbook/engineering/data-engineering/analytics/monitor/platform-insights/#clickhouse-datastore)
+
+## AI Experimentation
+
+We strongly encourage team members to experiment and develop AI-related projects as part of their exploration and learning journey. These experimental initiatives help accelerate our work and allow AI teams to embrace emerging challenges and opportunities.
+
+Existing projects may be reviewed by product and engineering teams on a case-by-case basis for potential migration into GitLab-managed projects.
+
+To protect GitLab's brand while maintaining our commitment to transparency, all experimental AI projects must prominently display the following disclaimer at the top of their README:
+
+"⚠️ This is an unofficial project. It is not endorsed or supported by GitLab Inc. and is not recommended for use in production environments."

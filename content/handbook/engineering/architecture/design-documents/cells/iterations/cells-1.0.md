@@ -376,6 +376,7 @@ Exit Criteria:
 - Framework to claim resources globally using TopologySerivce::Claims storing them in Google Spanner.
 - Following resources are claimable; Username, E-Mail, Top level Group Name, Routes
 - All resources that need to be claimed identified.
+- Unique indexes are audited, to not break any uniqueness required by application, and allows data migration.
 - Lease a sequence to a Cell using ToplogyService::Sequence.
 - Rails application able to send requests to TopologyService using internal network.
 - mTLS communication between TopologyService and HTTP Router.
