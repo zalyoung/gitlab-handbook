@@ -45,7 +45,7 @@ In FY26 we will be continue our focus on the following key initiatives
 - Growing the number of unique new monthly contributors, code and non-code. Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
 - Reducing [Open Community MR Age (OCMA)](#open-community-mr-age-ocma). Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
 - Shifting the focus towards higher valued contributions aligned with our product roadmap. Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
-  
+
 As an internal priority we'll focus on improving project & issue scoping and prioritization per the [FY25Q3 retrospective](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/665#note_2248454288).
 
 Any engineering work required to reach these goals is within limits. For example, GDK work, POC's of Duo, Triage-ops refactors with AI assisted classifications and more.
@@ -80,7 +80,7 @@ cross-functional initiative that is led by the [Contributor Success team](/handb
 - Collaborate closely with our [Marketing counterparts](/handbook/marketing/developer-relations/) and [Core team](https://about.gitlab.com/community/core-team/).
 - Improve community recognition system, awards and engineering assistance in collaboration with the [Developer Relations team](/handbook/marketing/developer-relations/).
 - Participate in GitLab's overall open source outreach events and processes.
-- [Triage community issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to be picked up by the community or GitLab team members
+- [Triage community issues](/handbook/product-development/issue-triage/) to be picked up by the community or GitLab team members
 - [Triage community merge requests](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/#partial-triage-gitlab-org) from the daily merge request coach report
 - [Review merge requests](https://docs.gitlab.com/ee/development/code_review.html) assigned as a merge request coach or from the reviewer roulette
 
