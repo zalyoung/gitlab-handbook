@@ -118,7 +118,7 @@ If any of the above requirements are not met—or you fail to promptly schedule 
 
 The Service Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
 
-The partner must submit service opportunities via a Service Attached Registration on the Partner Portal. Service Attached qualifications do not require license purchases through the services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. 
+The partner must submit service opportunities via a Service Attached Registration on the Partner Portal. Service Attached qualifications do not require license purchases through the services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners.
 
 Select partners and/or PSPs with approved Service Attached Registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale. In addition, approved and accepted Service Attached Registrations count towards partners' PSP qualifications.
 
@@ -128,14 +128,14 @@ Service Attached Registrations are submitted via the Partner Portal as a deal re
 - MSP software opportunities where licenses are sold to and owned by the partner do not qualify for Service Attached Registration
 - Each closed-won software opportunity can only have one approved Service Attached Registration (i.e., one software opportunity to one registration)
 
-### Qualification Categories 
+### Qualification Categories
 
 **Approved** - Qualifies for Rebate and PSP
 
 The following criteria must be met for a Service Attached Registration to be approved and for a partner to receive a rebate:
 
 - Completion of the associated software opportunity (i.e., closed-won)
-- Partner must be Select and/or PSP 
+- Partner must be Select and/or PSP
 - Partner must submit a fully executed Statement of Work (SOW) to partnersupport@gitlab.com and include the Deal ID number. Partner may alternatively provide written customer acknowledgement of completed work descriptions for customers in regulated industries (e.g., Public Sector), provided all criteria noted below are met
   - The SOW must:
     - verify that the services meet both program guidelines and customer needs as outlined in the current program guidance (found in the Partner Portal) for incentive
@@ -156,9 +156,9 @@ Service Attached Registrations that do not qualify for approval for the rebate p
 
 - Paid service engagement with a SOW signed and submitted within 12 months of registration submission and closed-won Net ARR opportunity
 - Free of charge, partner-led services that show proof of execution, such as assessments
-- Closed-won managed/hosted service deal registrations (with software sold to / owned by the partner) 
+- Closed-won managed/hosted service deal registrations (with software sold to / owned by the partner)
 
-#### Unqualified - Does not qualify for Rebate or PSP 
+#### Unqualified - Does not qualify for Rebate or PSP
 
 - Services that are not directly related to GitLab
 - Engagements without a related license opportunity in Salesforce
@@ -393,12 +393,12 @@ To be eligible for the NFR Program, Partners must be an Open or Select Partner i
 6. GitLab reserves the right to change or cancel the NFR Program at any time and for any or no reason.
 7. Partners can receive one Self-Managed and one SaaS NFR license at the Ultimate level for a 12-month period.
 
-##### NFR Renewals 
+##### NFR Renewals
 
-NFR licenses expire after a 12-month subscription period, unless they are add-on licenses, in which case they will co-term with the base NFR subscription. Partners can resubmit the NFR Request Form within two weeks of their NFR subscription's end date to request new NFR licenses annually. Partners will need to take action to setup their new licenses before the old ones expire to ensure no downtime. Please use the following guides to complete this step: 
+NFR licenses expire after a 12-month subscription period, unless they are add-on licenses, in which case they will co-term with the base NFR subscription. Partners can resubmit the NFR Request Form within two weeks of their NFR subscription's end date to request new NFR licenses annually. Partners will need to take action to setup their new licenses before the old ones expire to ensure no downtime. Please use the following guides to complete this step:
 
 - [Self Managed](https://docs.gitlab.com/ee/administration/license.html)
-- [GitLab.com](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#link-subscription-to-a-group) 
+- [GitLab.com](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#link-subscription-to-a-group)
 
 ##### Add-ons to NFR Subscriptions
 
