@@ -189,7 +189,7 @@
 /content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
 /content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
 /content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
-/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin
+/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @marin @amyphillips
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/ @marin @mbursi @dawsmith @plu8 @denisra
 /content/handbook/engineering/infrastructure-platforms/production-engineering/ @marin @rnienaber @lmcandrew @kkyrala @sabrams
 /content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
@@ -218,7 +218,7 @@
 
 ^[Eng-Developer-Experience-department]
 /content/handbook/engineering/automation.md @rymai @marin
-/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @ksvoboda @mgamea @marin
+/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @mgamea @marin @amyphillips
 /content/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/ @ghosh-abhinaba
 /content/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/ @mgamea
 /content/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ @kkolpakova
