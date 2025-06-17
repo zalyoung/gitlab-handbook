@@ -124,6 +124,9 @@ We define the following list of primitives supported by the Agent Registry for a
 1. Prompts
 1. Tools
 
+The proposed framework has been tested early with a [PoC](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/2788)
+that served as the basis for a [demo recording](https://gitlab.zoom.us/rec/share/MvGkn2wnv4OohOYJhzN9EQXnXiJBZEyz87yPB0r9D49yrvXwmpZtEf1HDrweMdgi.dbSRQylaJ7OcoNdr?startTime=1750073407000).
+
 #### 1\. Components
 
 Components are the basic atomic units of operations to compose agent setups; they represent a certain responsibility.
@@ -158,7 +161,7 @@ flowchart LR
     end
 ```
 
-2. One-off agent
+1. One-off agent
 
 ```mermaid
 flowchart LR
@@ -172,7 +175,7 @@ flowchart LR
     end
 ```
 
-3. Deterministic step
+1. Deterministic step
 
 ```mermaid
 flowchart LR
@@ -258,7 +261,7 @@ An example Router diagram is presented below:
 
 ```mermaid
 flowchart LR
-    Start[IssueTriageComponent] --> Router{"Router<br><br>Inspects final message from IssueTriageComponent based on select_path tool call argument directs execution"}
+    Start[IssueTriageComponent] --> Router{"Router<br><br>Inspects final message<br>from IssueTriageComponent<br>based on select_path tool call<br>argument directs execution"}
     Router --> Proceed[SecurityExpertComponent]
     Router --> Error[DeveloperComponent]
 ```
@@ -303,8 +306,10 @@ assigned to components based on their role in an agent setup.
 
 ##### Implementation
 
-This proposal doesn't touch the way tools are managed currently. We follow the existing principles
-of defining tools as Python functions and attaching them to a model via the LangChain interface.
+Tis proposal doesn't change any of the existing decisions around the way tools are developed and managed.
+The tools implementation is described in this [document](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/adding_new_tool.md?ref_type=heads),
+while tools permissions and configurations are described in this [section](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/duo_workflow/#tools-permissions-and-approval-system)
+of the Duo Workflow architecture blueprint.
 
 ### Timeline
 
