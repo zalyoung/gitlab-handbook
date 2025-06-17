@@ -26,7 +26,7 @@ GitLab, by its remote-only nature, is not easily affected by typical causes of b
 
 In case of an all-remote company like GitLab, it is sufficient to have simple contingency plans in the form of service-level agreements with companies that host our data and services. The advantage of an all-remote workforce like GitLab is that if there are clusters of people or systems that are unavailable, the rest of the company will continue to operate normally. Given GitLab's remote-first structure, our [Incident Response Plan (IRP)](/handbook/security/security-operations/sirt/sec-incident-response/) is a major component of the Business Continuity Plan as most business disruptions are technical in nature.
 
-The exception to this would be a scenario of a single point of failure, (for example, if one of the Engineering heads who should sign off on triggering the plan is unavailable due to a disaster). In this case we would need an alternate plan in place that covers how to get in contact with the person or people affected by the disaster and trigger this business continuity plan.
+The exception to this would be a scenario of a single point of failure, for example, if one of the Engineering heads who should sign off on triggering the plan is unavailable due to a disaster. In this case we would need an alternate plan in place that covers how to get in contact with the person or people affected by the disaster and trigger this business continuity plan.
 
 ### Recovery Time Objective (RTO) and Recovery Point Objective (RPO)
 
@@ -96,7 +96,7 @@ Disruption of service from TripActions or internal chat tool (Slack).
 
 ### Communication Plan and Role Assignments
 
-When it comes to a disaster, communication is of the essence. A plan is essential because it puts all team-members on the same page and clearly outlines all communication. Documents should all have updated team-member contact information and team-members should understand exactly what their role is in the days following the triggering of the BC plan. Assignments like setting up workstations, assessing damage, redirecting phones and other tasks will need assignments if you don't have some sort of technical resource to help you sort through everything.
+When it comes to a disaster, communication is of the essence. A plan is essential because it puts all team-members on the same page and clearly outlines all communication. Documents should all have updated team-member contact information and team-members should understand exactly what their role is in the days following the triggering of the BC plan. Assignments like setting up workstations, assessing damage, redirecting phones and other tasks will need assignments if you don't have some sort of technical resource to help you sort through everything. Role assignments should be revised as needed following significant organizational changes. 
 
 Each GitLab team should be trained and ready to deploy in the event of a disruptive situation requiring plan activation. The plan of action steps, procedures, and guidelines will be documented in their team runbooks page (currently under development) and should be available offline. This should have detailed steps on recovery capabilities, and instructions on how to return the system to normal operations.
 
