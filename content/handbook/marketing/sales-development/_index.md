@@ -1184,13 +1184,12 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - The rest of the leads that do not fit these parameters will be routed round-robin to the SDR team.
 - These leads should also be considered as intent data for prospecting an outbound account.
   - Take the time to research accounts for the propensity to purchase and intent signals. Could the tracked contact's hire into that account be a compelling event for you to use?
-  - This data can be found either on our [1:1 Dashboards](/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
+  - This data can be found either on our 1:1 Dashboards on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
   - Analyze the hiring and promotion patterns as business signals.
     - A surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure.
     - Sales or customer success hires could suggest plans to expand revenue through growth or enhance customer retention strategies.
     - Senior Leadership hires may indicate an internal restructuring of a department or a new business initiative.
       - Use these hiring signals to identify potential challenges or priorities, such as team collaboration, scaling efficiently, or driving revenue growth. Based on these, target decision-makers who are likely overseeing these initiatives, like directors or VPs.
-- If you'd like to iterate on any UserGems flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
@@ -1273,7 +1272,7 @@ The BDR process that we have defined here in GitLab is meant to provide a repeat
 
 The BDR Process is explained step-by-step in the [section here](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process)
 
-For a newcoming manager, we provide the [Manager attention needed boards](/handbook/marketing/sales-development/#dashboards-for-leaders) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
+For a newcoming manager, we provide the Manager attention needed boards that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
 
 To help structure your usage of the above, you can follow the steps below during your first month at GitLab while [the document here will be your main go-to resource](https://docs.google.com/document/d/18k1_jDHVgNzy2SzcPZ7GAOdJ6zb9i37Z4-V1-dEFKiU/edit#)
 
