@@ -66,11 +66,7 @@ Leaked secrets can lead to data breaches affecting customers, unauthorized crypt
 
 ## Using HashiCorp Vault for Secret Management in GitLab CI/CD
 
-HashiCorp Vault is one of three [supported](https://docs.gitlab.com/ee/ci/secrets/#supported-secret-providers) external secrets solutions for GitLab:
-
-1. HashiCorp Vault
-2. Google Cloud Secrets Manager (requires GitLab 16.8+, released January 2024)
-3. Azure Key Vault
+HashiCorp Vault is one of several [supported](https://docs.gitlab.com/ee/ci/secrets/#supported-secret-providers) external secrets solutions for GitLab.
 
 Any other form of external secret storage that is called via a CI pipeline must be first approved by [CorpSec](https://internal.gitlab.com/handbook/security/corporate/) prior to being implemented. 
 The integration between Vault and GitLab works via a JWT-based authentication flow:
