@@ -63,6 +63,9 @@ reduced-risk upgrade process across all implementations.
 
 ### Goals
 
+- Provide an Edge/WAF abstraction suitable for GitLab's requirements, 
+  offering a well-defined and easy-to-understand interface, 
+  encouraging encapsulation, modularization and replaceability of implementation. 
 - Establish consistent security and compliance standards across all Cloudflare
   implementations
 - Deliver flexible and extensible modular configurations that accommodate both
