@@ -17,3 +17,9 @@ Zendesk will only go down when the internet is globally affected because they us
 Zendesk keeps the data in backup servers with all due diligence. This ensures that we can recover data when it is needed. These backups are utilized to restore Zendesk in the case it fails due to a problem on Zendesk's end.
 
 Also, the Customer Support Operations team ensures all triggers, automations, views, macros, forms, fields, conditions, etc are documented to save the hassle of writing up everything from scratch.
+
+## What if I want access to something owned by Customer Support Readiness?
+
+Following with Secuirty's [Access Management Standards](https://internal.gitlab.com/handbook/security/standards/access-management-standard/), we follow the [principle of least privilege](https://csrc.nist.gov/glossary/term/least_privilege). As such, we review each request on a case by case basis.
+
+To begin the process, file an [Individual Bulk Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request) issue. Once approved by your manager, assign it to `@jcolyer` and `@dtragjasi`, who will review the situation and determine how to best proceed.
