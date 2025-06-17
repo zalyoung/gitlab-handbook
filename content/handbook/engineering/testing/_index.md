@@ -129,6 +129,7 @@ our established request process:
 
 **Documentation and Guides**:
 
+- [Testing Training Resources](training-resources.md) - A collection of testing resources, guides, and training materials for GitLab contributors
 - [Testing Levels, Tooling, and Strategy](https://docs.gitlab.com/development/testing_guide/testing_levels/) -
   Detailed technical implementation guide
 - [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/best_practices/) -
