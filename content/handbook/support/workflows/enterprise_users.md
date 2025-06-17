@@ -5,8 +5,6 @@ subcategory: Enterprise Users
 description: "Working on tickets with Enterprise Users"
 ---
 
-# Enterprise Users
-
 ## Overview
 
 Enterprise Users are GitLab.com users whose accounts are administered by an organization that has verified their email domain and purchased a GitLab subscription. These users are identified by an "Enterprise" badge next to their names on group member lists.
@@ -16,6 +14,7 @@ Enterprise Users are GitLab.com users whose accounts are administered by an orga
 ## When to use this workflow
 
 Use this workflow when:
+
 - A ticket involves a user with an Enterprise badge
 - A user mentions they cannot perform account actions due to "enterprise user" restrictions  
 - A Group Owner requests changes on behalf of an Enterprise User
@@ -24,6 +23,7 @@ Use this workflow when:
 ## Identifying Enterprise Users
 
 Enterprise Users can be identified by:
+
 1. **Enterprise badge** next to their username in group member lists
 2. **API verification**: Use the [Group Enterprise Users API](https://docs.gitlab.com/api/group_enterprise_users/) 
 3. **User profile**: Enterprise Users may have restricted account modification capabilities
@@ -36,6 +36,7 @@ Enterprise Users can be identified by:
 **Unless the request comes directly from a Group Owner, ensure a Group Owner is involved in any Enterprise User account modifications.**
 
 ### Account Ownership
+
 - Enterprise User accounts belong to the **organization**, not the individual
 - Most account management functions should be performed by Group Owners through the GitLab interface
 - Support intervention should be minimal and require proper authorization
@@ -44,12 +45,12 @@ Enterprise Users can be identified by:
 
 The following account workflows are **restricted** for Enterprise Users and should generally be directed to Group Owners:
 
-- [2FA Removal](https://handbook.gitlab.com/handbook/support/workflows/2fa-removal/)
-- [Account Ownership Verification](https://handbook.gitlab.com/handbook/support/workflows/account_verification/) (modified process - see below)
-- [Confirmation Emails](https://handbook.gitlab.com/handbook/support/workflows/confirmation_emails/)
-- [Lost Email Account](https://handbook.gitlab.com/handbook/support/workflows/lost_emails/)
-- [Making Changes and Taking Actions on a user's behalf](https://handbook.gitlab.com/handbook/support/workflows/account_changes/)
-- [Remove Validation](https://handbook.gitlab.com/handbook/support/workflows/remove_validation/)
+- [2FA Removal](./2fa-removal.md)
+- [Account Ownership Verification](./account_verification.md) (modified process - see below)
+- [Confirmation Emails](./confirmation_emails.md)
+- [Lost Email Account](./lost_emails.md)
+- [Making Changes and Taking Actions on a user's behalf](./account_changes.md)
+- [Remove Validation](./remove_validation.md)
 
 ### Exception: Email Address Changes
 
@@ -62,6 +63,7 @@ The following account workflows are **restricted** for Enterprise Users and shou
 **When**: An Enterprise User contacts Support directly asking for account modifications.
 
 **Process**:
+
 1. **Identify** the user as an Enterprise User
 2. **Explain** that their account is managed by their organization
 3. **Provide** the Group Owner contact information (if available)
@@ -69,7 +71,8 @@ The following account workflows are **restricted** for Enterprise Users and shou
 5. **Reference** the [Enterprise User documentation](https://docs.gitlab.com/user/enterprise_user/#manage-enterprise-users)
 
 **Template Response**:
-```
+
+```text
 Hi [User],
 
 Thank you for contacting GitLab Support. I can see that your account is an Enterprise User, which means it's administered by your organization.
@@ -90,7 +93,8 @@ Best regards,
 **When**: A Group Owner contacts Support requesting account changes for their Enterprise Users.
 
 **Process**:
-1. **Verify** the requester is a Group Owner using [Account Ownership Verification](https://handbook.gitlab.com/handbook/support/workflows/account_verification/)
+
+1. **Verify** the requester is a Group Owner using [Account Ownership Verification](./account_verification.md)
 2. **Confirm** the target user is an Enterprise User in their organization
 3. **Assess** if the request can be handled by the Group Owner directly
 4. **Proceed** with the request if Support intervention is required
@@ -101,6 +105,7 @@ Best regards,
 **When**: Request to change an Enterprise User's email address to a non-verified domain.
 
 **Process**:
+
 1. **Verify** requester identity (Enterprise User or Group Owner)
 2. **If from Enterprise User directly**:
    - Explain this will release them from enterprise management
@@ -119,6 +124,7 @@ Best regards,
 **When**: Request to release an Enterprise User from enterprise management.
 
 **Process**:
+
 1. **Determine** if request comes from Enterprise User or Group Owner
 2. **If from Enterprise User**:
    - Require Group Owner approval
@@ -133,6 +139,7 @@ Best regards,
 **When**: Urgent account access issues affecting Enterprise Users.
 
 **Process**:
+
 1. **Assess** the emergency nature and business impact
 2. **Attempt** to contact the Group Owner immediately
 3. **Engage** Customer Success team for assistance
@@ -146,6 +153,7 @@ Best regards,
 **When**: Enterprise User reports 2FA problems and cannot access their account.
 
 **Process**:
+
 1. **Direct** the user to their Group Owner first
 2. **Inform** that Group Owners can reset 2FA for Enterprise Users
 3. **If Group Owner contacts Support**:
@@ -156,11 +164,13 @@ Best regards,
 ## Verification Requirements
 
 ### For Enterprise Users
-- Use standard [Account Ownership Verification](https://handbook.gitlab.com/handbook/support/workflows/account_verification/) process
+
+- Use standard [Account Ownership Verification](./account_verification.md) process
 - Additional requirement: Verify their enterprise status and associated organization
 
 ### For Group Owners
-- Use standard [Account Ownership Verification](https://handbook.gitlab.com/handbook/support/workflows/account_verification/) process  
+
+- Use standard [Account Ownership Verification](./account_verification.md) process  
 - Verify their Group Owner role in the relevant organization
 - Confirm they have authority over the specific Enterprise User(s)
 
