@@ -705,6 +705,7 @@
 /content/handbook/people-group/offboarding/offboarding_standards.md @rallen3 @kiacobucci @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/corporate/end-user-services/laptop-management/ @smanzuik @mbeee @ericrubin @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/standards/cryptographic-standard.md @joshlemos @jlongo_gitlab @juliedavila @mloveless @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/standards/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @corey-oas @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
