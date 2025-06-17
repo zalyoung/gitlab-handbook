@@ -42,13 +42,13 @@ See the [Code Creation Milestone Planning](/handbook/engineering/ai/code-creatio
 
 We maintain a practice of weekly async status updates to ensure clear communication, track progress effectively, and maintain transparency across our team. This process aligns with our core values by fostering collaboration, driving results, and promoting efficiency through structured communication.
 
-#### Timing and Frequency
+### Timing and Frequency
 
 - Team members post updates every Wednesday
 - Updates are required for all assigned issues
 - Multiple updates may be needed if working on multiple issues
 
-#### Template
+### Template
 
 This is the template to use for the updates
 
@@ -70,7 +70,7 @@ _Remember to update the workflow label!_
 
 Be sure to tag the engineering manager, product manager, and any team members you are collaborating with.
 
-#### Best practices
+### Best practices
 
 - Be specific and concise in updates
 - Always include next steps, even if they're tentative
