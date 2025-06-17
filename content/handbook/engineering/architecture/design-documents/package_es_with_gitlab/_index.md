@@ -78,6 +78,7 @@ We propose to package Elasticsearch with GitLab distribution through the followi
      - Resiliency and high availability
      - Support for upgrades
    - Include Elasticsearch as an optional component in all GitLab installation methods
+   - [Document Geo disaster recovery steps for advanced search](https://gitlab.com/gitlab-org/gitlab/-/issues/461653)
 
 2. **Improved configuration automation**:
    - [Automate Elasticsearch index configuration](https://gitlab.com/gitlab-org/gitlab/-/issues/549311) for GitLab with sensible defaults
@@ -139,9 +140,6 @@ These explorations consistently highlight Elasticsearch as a preferred solution 
 
 ## References
 
-- https://www.elastic.co/docs/deploy-manage/production-guidance/elasticsearch-in-production-environments
-- https://www.elastic.co/docs/deploy-manage/deploy/self-managed
-- https://www.elastic.co/docs/deploy-manage/deploy/cloud-on-k8s
 - [Issue #438178: Package a search engine with GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/438178)
 - [Issue #438330: Estimate timeline to deliver "Users can ask documentation questions on SM Chat"](https://gitlab.com/gitlab-org/gitlab/-/issues/438330)
 - [Issue #441110: Iteration plan: RAG](https://gitlab.com/gitlab-org/gitlab/-/issues/441110)
