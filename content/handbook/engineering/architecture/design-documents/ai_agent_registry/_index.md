@@ -1,5 +1,5 @@
 ---
-title: "Workflow Registry"
+title: "Agent Registry"
 status: ongoing
 creation-date: "2025-06-05"
 authors: ["@achueshev", "@mikolaj_wawrzyniak"]
@@ -51,10 +51,10 @@ This allows agents to perform complex, multi-step tasks such as researching topi
 
 Multi-agent systems are setups that consist of several specialized agents orchestrated in some way.
 In practice, one of the common orchestration methods is implementing a lead agent that manages other subagents.
-However, other orchestration methods are possible as well, such as polling, peer-to-peer, etc. 
+However, other orchestration methods are possible as well, such as polling, peer-to-peer, etc.
 The market has demonstrated that multi-agent setups are exceptionally effective at solving complex user tasks that would be challenging for a single agent to handle alone.
 For example, Anthropic recently demonstrated that a multi-agent research system with Claude Opus 4 as the lead agent and Claude Sonnet 4 subagents
-outperforms single-agent Claude Opus 4 by [90.2%](https://www.anthropic.com/engineering/built-multi-agent-research-system). 
+outperforms single-agent Claude Opus 4 by [90.2%](https://www.anthropic.com/engineering/built-multi-agent-research-system).
 
 ### Agents vs Workflows vs Duo Workflow: what is the difference?
 
@@ -72,7 +72,7 @@ Here is another MR focused on improving our terminology in the official [docs](h
 
 Given the concepts we define above, the overall picture of how LLMs, prompts, and agents work together looks as follows:
 
-![Overview](/images/handbook/engineering/architecture/design-documents/duo_workflow_registry/concepts_overview.png)
+![Overview](/images/handbook/engineering/architecture/design-documents/ai_agent_registry/concepts_overview.png)
 
 ## Motivation
 
@@ -98,7 +98,7 @@ Based on the goal and motivation, we define the following objectives:
 ## Non-goals
 
 1. Customer-facing Agent Registry. This blueprint focuses on improving our internal stack for implementing AI Agents efficiently.
-   However, the Agent Registry can be reused by the Duo Workflow Catalog team to further extend its functionality for customers.  
+   However, the Agent Registry can be reused by the Duo Workflow Catalog team to further extend its functionality for customers.
 2. DSL implementation. We have already had several ideas and conversations about implementing a [DSL](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/1074) on top of YAML to easily prototype new agentic setups.
    This blueprint focuses on one step before DSL and is mainly about organizing our architecture in Python.
    This architecture can later be extended by DSL when required.
@@ -127,10 +127,10 @@ We define the following list of primitives supported by the Agent Registry for a
 #### 1\. Components
 
 Components are the basic atomic units of operations to compose agent setups; they represent a certain responsibility.
-For example, a component can be responsible for reviewing a merge request, or a component can be responsible for writing a new unit test to improve test coverage for a project. 
+For example, a component can be responsible for reviewing a merge request, or a component can be responsible for writing a new unit test to improve test coverage for a project.
 One can perceive components as individuals within an organization, to whom various tasks in a business process can be delegated. Those tasks can vary in complexity and
 be as simple as a one-off interaction (e.g., sending an email), to more elaborate tasks like reviewing a merge request. What creates an important distinction is the fact that
-components must have **a single role** in the agent setup. 
+components must have **a single role** in the agent setup.
 For example, when a feature is being developed, an engineer creates the feature implementation,
 but a technical writer is responsible for providing user-facing documentation.
 Each of those personas is an expert in their field, which ensures quality of their outputs.
@@ -138,7 +138,7 @@ Each of those personas is an expert in their field, which ensures quality of the
 ##### Implementation
 
 On a more technical level, the component is a collection of LangGraph nodes arranged in a certain architecture, which is designed to solve a category of problems.
-There might be components designed to act as cyclic agents, one-off agents, or predefined non-AI steps in the process. 
+There might be components designed to act as cyclic agents, one-off agents, or predefined non-AI steps in the process.
 Example diagrams for the mentioned components are presented below:
 
 1. Cyclic agent
@@ -193,13 +193,13 @@ that carry necessary information without which the component won't be able to fu
 ##### Outputs
 
 Components should specify a set of attributes within a global graph [state](#3-state) object
-that they will modify or add during the course of their execution. This is necessary to ensure that 
+that they will modify or add during the course of their execution. This is necessary to ensure that
 subsequent components within a graph will have their inputs present.
 
 ##### Generic components
 
 Some components may serve as customizable blueprints flexible enough
-to be reused in different roles. To specify a generic component into a 
+to be reused in different roles. To specify a generic component into a
 distinct role, one assigns them a [prompt](#4-prompts), and then defines the component permissions with an
 assigned set of [tools](#5-tools), that restrict actions available to an individual in the role in the modeled process.
 
@@ -284,7 +284,7 @@ class AgentState(TypedDict):
 
 #### 4\. Prompts
 
-Prompts are text templates used to specify roles for generic components. 
+Prompts are text templates used to specify roles for generic components.
 Upon configuration, a generic component must be connected to a prompt via a _prompt id_.
 Prompt templates can have placeholder fields for dynamic values. If a prompt template
 has any placeholders, their names must match a component [input](#inputs).
@@ -296,9 +296,9 @@ All prompts have to be placed into the prompt registry defined in the AI Gateway
 #### 5\. Tools
 
 Tools represent actions in the external environment that a component can take in the course of its execution.
-By way of analogy, tools can be imagined as permissions assigned to a role in an organization. 
+By way of analogy, tools can be imagined as permissions assigned to a role in an organization.
 For example, a CFO can issue financial statements on behalf of a whole organization,
-while a database admin has direct access to a database server. In the same fashion, tools should be 
+while a database admin has direct access to a database server. In the same fashion, tools should be
 assigned to components based on their role in an agent setup.
 
 ##### Implementation
