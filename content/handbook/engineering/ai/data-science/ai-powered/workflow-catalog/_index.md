@@ -104,7 +104,7 @@ be backported across several releases.
 
 The Workflow Catalog Team communicates based on the following guidelines:
 
-1. Always prefer async communication over sync meetings.
-1. Don't shy away from arranging a [sync call](/handbook/communication/#video-calls) when async is proving inefficient, however always record it to share with team members.
-1. By default communicate in the open.
-1. Prefer public channels (`#g_workflow_catalog`) over private message for work-related Slack messaging
+* Always prefer async communication over sync meetings.
+* Don't shy away from arranging a [sync call](/handbook/communication/#video-calls) when async is proving inefficient, however always record it to share with team members.
+* By default communicate in the open.
+* Prefer public channels (`#g_workflow_catalog`) over private message for work-related Slack messaging.
