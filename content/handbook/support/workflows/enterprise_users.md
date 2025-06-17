@@ -176,7 +176,7 @@ Best regards,
 
 ## Decision Tree
 
-```
+```text
 Enterprise User ticket received
 │
 ├── Request from Enterprise User directly?
@@ -198,14 +198,16 @@ Enterprise User ticket received
 
 ## Escalation Guidelines
 
-### When to escalate:
+### When to escalate
+
 - Group Owner cannot be reached in urgent situations
 - Conflicting requests between Enterprise User and Group Owner  
 - Complex organizational changes affecting multiple Enterprise Users
 - Legal or compliance concerns
 - Requests that may impact business relationships
 
-### Escalation path:
+### Escalation path
+
 1. **Support Manager**
 2. **Customer Success Manager** (for business relationship impact)
 3. **Legal/Security teams** (for compliance issues)
@@ -215,7 +217,7 @@ Enterprise User ticket received
 - [Enterprise Users Documentation](https://docs.gitlab.com/user/enterprise_user/)
 - [Group Enterprise Users API](https://docs.gitlab.com/api/group_enterprise_users/)
 - [Managing Enterprise Users](https://docs.gitlab.com/user/enterprise_user/#manage-enterprise-users)
-- [Account Ownership Verification](https://handbook.gitlab.com/handbook/support/workflows/account_verification/)
+- [Account Ownership Verification](./account_verification.md)
 - [Verified Domains for Groups](https://docs.gitlab.com/user/enterprise_user/#verified-domains-for-groups)
 
 ## Key Takeaways
