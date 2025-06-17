@@ -4,7 +4,7 @@ status: proposed
 creation-date: "2025-04-18"
 authors: [ "@terrichu" ]
 coaches: [ "@DylanGriffith" ]
-dris: [ "@bvenker", "@changzhengliu" ]
+dris: [ "@terrichu", "@bvenker", "@changzhengliu" ]
 owning-stage: "~devops::ai-powered"
 participating-stages: []
 toc_hide: true
