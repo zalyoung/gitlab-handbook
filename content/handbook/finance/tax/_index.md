@@ -22,9 +22,11 @@ An Indirect Tax Identification Number (“Indirect Tax ID” or “Tax ID”) is
 ### Why does GitLab need my Indirect Tax ID?
 
 GitLab is required to comply with local tax regulations in various jurisdictions. When you provide a valid Indirect Tax ID:
+
 - GitLab may not need to charge VAT/GST on your invoices (reverse charge mechanism)
 - It helps ensure proper tax compliance for both parties
 - It may reduce your overall tax burden on GitLab services
+
 Without a valid Indirect Tax ID, GitLab may be required to charge applicable VAT/GST rates based on your location.
 
 ### What if my business is not registered for VAT/GST?
@@ -153,7 +155,9 @@ Faroe Islands - VAT numbers follow Danish format
 ### Need Help?
 
 If you're unsure about your Indirect Tax ID format or have questions about tax registration in your country, we recommend consulting with:
+
 - Your local tax authority
 - A qualified tax advisor
 - Your company's Tax or Accounting department
+
 For GitLab-specific questions about updating your tax information, contact us at tax@gitlab.com.
