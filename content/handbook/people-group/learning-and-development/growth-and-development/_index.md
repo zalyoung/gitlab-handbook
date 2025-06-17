@@ -13,7 +13,7 @@ If you've never used the Growth & Development Fund before, check out the short i
 
 ## Eligibility
 
-To use the Growth and Development fund, applicants must be full-time GitLab employees who meet performance expectations in their role and are not on ‘leave’ status.
+To use the Growth and Development fund, applicants must be full-time GitLab employees, who have been at the company for at least 3 months, and who are meeting performance expectations in their role and are not on ‘leave’ status.
 
 ## Process
 
