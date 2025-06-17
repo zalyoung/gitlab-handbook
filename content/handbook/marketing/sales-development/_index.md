@@ -538,7 +538,7 @@ Please follow the steps below to understand how to research the data provided on
    - **Behavioural Analytics** filters accounts by the intent/value-driver that they mostly focused on. This data can be used to split accounts into specific value-driver focused campaigns.
    - **Profile Analytics** filter accounts by the demographic of each company in terms of location or size. This data can be used to run location-specific campaigns.
 1. Search for past opportunities on SFDC
-   1. Check the qualification notes
+   1. Check the qualification Questions section
    1. Check the unqualified reasons by the AE team
    1. Check past email communication on the activity records
 1. Search for the account record on SFDC
@@ -603,6 +603,8 @@ As an SDR or BDR, you will work to connect with inbound/outbound leads that you 
 The full walkthrough of how to create a SFDC opportunity is [listed here](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity). 
 
 Please note that, in addition to the main requirements listed on this link, the Sales Dev org memebers (both SDRs and BDRs) are expected to fullfill the `Initial Engagement Channel` as a mandatory qualification field, before being allowed to create an opportunity. 
+
+The Initial Engagement Channel field is found in the "Lead/Contact Review Admin" section on leads and will be availible when creating an opp for contacts. 
 
 **When do I create an Opportunity?**
 
