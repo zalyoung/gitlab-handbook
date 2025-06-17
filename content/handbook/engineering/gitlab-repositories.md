@@ -101,7 +101,7 @@ To publish a project to a package repository, please follow [these directions](/
 
 ### Further Security Recommendations
 
-1. Do not store variables in plaintext or rely on Masked environment variables for comprehensive secret management. Instead setup an [external secret storage solution](/handbook/security/external-secret-storage)
+1. Do not store secrets as plaintext variables or rely on Masked environment variables for comprehensive secret management. Instead setup an [external secret storage solution](/handbook/security/external-secret-storage)
 1. Strongly consider [creating a threat model](/handbook/security/product-security/application-security/threat-modeling/howto/) for the project.
 1. Consider requesting an [AppSec review](/handbook/security/product-security/application-security/appsec-reviews/) when the project is more established.
 1. Reach out to the AppSec team (`@gitlab-com/gl-security/appsec` and `#sec-appsec`) for any further questions.
