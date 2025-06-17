@@ -7,7 +7,7 @@ description: Overview of GitLab's E2E Pipeline Triage processes
 
 These guidelines gives GitLab team members on pipeline triage an idea on the priorities and processes that come with this responsibility. This builds from the information provided in [On-Call Rotation](oncall-rotation.md).
 
-This guide is an extension of the [Broken `master`](/handbook/engineering/workflow/#broken-master) engineering workflow and is intended to provide a more specific guide on how to triage end-to-end test pipeline failures.
+This guide is an extension of the [Broken `master`](../workflow/#broken-master) engineering workflow and is intended to provide a more specific guide on how to triage end-to-end test pipeline failures. As a [first step to identifying and resolving a broken master incident, please follow the steps in the broken master process.](/handbook.gitlab.com/handbook/engineering/workflow/#broken-master-escalation) 
 
 The Pipeline triage [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for analyzing and debugging test pipeline failures. Please refer to the [DRI weekly rotation schedule](oncall-rotation#schedule) to know who the current DRIs are.
 
