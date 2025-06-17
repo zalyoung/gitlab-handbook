@@ -230,7 +230,11 @@ Our goals in communicating offboardings are transparency, and to provide an oppo
 1. We ask that all offboardings are announced in the `#team-member-updates` Slack channel for transparency and awareness. While we encourage all offboardings to be posted in #team-member-updates, we recognize there may be select situations that we should consider a different approach for. If a team member or their manager does not want to post in #team-member-updates, please discuss with your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) or [Team Member Relations](/handbook/people-group/team-member-relations).
 1. Team members and managers have the discretion to determine who shares the news of the team member's offboarding (I.E. team member or manager). Regardless of who shares, it is required that team members review offboarding messaging with their managers prior to sharing.
 
-Depending on the team members' role, timing of communication may vary (e.g. direct team, key stakeholders, etc.), and managers have discretion to determine who should be informed most immediately. The typical order followed for communicating departures is:
+Depending on the team members' role, timing of communication may vary (e.g. direct team, key stakeholders, etc.), and managers have discretion to determine who should be informed most immediately. 
+
+When communicating leadership departures (those in Senior Director or above roles), the aligned member of the People Business Partner team is responsible for driving the [Leadership Departure Announcement](https://docs.google.com/document/d/1bpCwBghmkHCpvJa9KBM26G8iT_LLh3mlItno-v6afDo/edit?tab=t.0) plan. 
+
+The typical order followed for communicating departures is:
 
 ### 1. Inform Direct Team
 
