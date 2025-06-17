@@ -26,7 +26,6 @@ Don't add a h1 headline. It'll be added automatically from the title front matte
 For long pages, consider creating a table of contents.
 -->
 
-
 ## Table of Contents
 
 - [Summary](#summary)
@@ -36,11 +35,10 @@ For long pages, consider creating a table of contents.
 - [Proposal](#proposal)
 - [Design and implementation details](#design-and-implementation-details)
   - [Dashboard layout](#dashboard-layout)
-  - [Editing state](#editing-state)
   - [Panels](#panels)
   - [Filters](#filters)
 - [Getting started](#getting-started)
-- [Upgrading static dashboards](#upgrading-existing-dashboards)
+- [Upgrading from static dashboards](#upgrading-from-static-dashboards)
 
 ## Summary
 
@@ -116,6 +114,6 @@ editing the dashboard layout, panels and filter should render and behave as a st
 
 _TODO: Add link to the relevant developer documentation section: https://gitlab.com/gitlab-org/gitlab/-/issues/549982_
 
-## Upgrading static dashboards
+## Upgrading from static dashboards
 
 _TODO: Add link to the relevant developer documentation section: https://gitlab.com/gitlab-org/gitlab/-/issues/549982_
