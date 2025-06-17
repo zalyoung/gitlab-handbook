@@ -49,6 +49,10 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Team Members|correct time off|[Link](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit)|-|
 |Team Members|request time off through Slack|[Link](https://docs.google.com/document/d/1co0-_8YEV2iS7YIFsDdsSqw7ohCd1nNd3HCQU7jTQMo/edit)|-|
 |Team Members|request a leave of absence|[Link](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit)|-|
+|Team Members|upload benefit form|[Link](https://docs.google.com/document/d/1tMaBHith3vYmuLrWt6gnVsTnkcbTiCY7_lJn0G4G69k/edit)|-|
+|Team Members|add GitLab username|[Link](https://docs.google.com/document/d/1VKZGkYdpgnFcF9ddoJdxOyocpNqHiUM1uBeGqX_eYlg/edit)|-|
+|Team Members|upload expression of wishes form|[Link](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit)|-|
+|Team Members|change visa information|[Link](https://docs.google.com/document/d/1ojp3APFZw-iLDgzxSXQqcubiUr7r8SmHfgxDg9ODjks/edit)|-|
 |Managers|request a one-time payment|[Link](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit)|-|
 |Managers|terminate team members (voluntary)|[Link](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit)|-|
 |Managers|view team information|[Link](https://docs.google.com/document/d/1HlvaxIvmUPL6GLB3z6TqHWMf95RrDD7aOaeZPE0Hm7Q/edit)|-|
@@ -56,11 +60,14 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Managers|delegate|[Link](https://docs.google.com/document/d/1BDME_47-mif1ZihO5Id-wejbjAU_-PLIr1dJ46z1F_c/edit)|-|
 |Managers|access and use reports|[Link](https://docs.google.com/document/d/19Isxod-o2CJ9GkurkVPqK8dCxbkQO743LoJ12OonOHY/edit)|-|
 |Managers|move team member to another manager|[Link](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit)|-|
+|Managers|request job change - full time/part time|[Link](https://docs.google.com/document/d/1phYEgjrhkuMreQU-teMk2tSG50VXg4AYFizjd8D_TcA/edit)|-|
+|Managers|review probation periods|[Link](https://docs.google.com/document/d/1NSIaigEqFnouax9s_NGB_nXGA1y_8zJB5aZUW63bvog/edit)|-|
+|Managers|Change job title specialty|[Link](https://docs.google.com/document/d/19o4Xe_Me4GZqxYsZaTjfgT19Qwb8E9BF7rzs0pCjxSU/edit)|-|
 |Managers|view job history of a report prior to the HRIS migration|under that team member: `Job -> Worker History -> Worker History by Category -> Staffing & Compensation from Prior System`|-|
 
 ## Job Title Speciality Creation/Update
 
-If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please submit a Job Title Specialty request in HelpLab for assistance.
+If you require a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please submit a Job Title Specialty request in HelpLab for assistance.
 
 ## How is Workday being implemented?
 
