@@ -63,6 +63,12 @@ The [Product Security Incident Response Team's](appsec-operations/psirt-services
 - [Customer Escalations regarding security scanner findings](../application-security/responding-customers-scan-review-requests.md)
 - [Security Compliance](../../../security/security-assurance/)
 
+## Appliction Security Organization
+
+### Milestone Planning
+
+The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process](/handbook/security/product-security/application-security/milestone-planning/)
+
 ## Contacting us
 
 Team members can reach the AppSec team by:
@@ -176,10 +182,6 @@ Learn how to identify or remediate security issues using real examples with GitL
 ## Reproducible Builds
 
 Learn how GitLab is implementing [Reproducible Builds](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
-
-## Milestone Planning
-
-The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process](/handbook/security/product-security/application-security/milestone-planning/)
 
 ## Application Security Automation and Monitoring
 
