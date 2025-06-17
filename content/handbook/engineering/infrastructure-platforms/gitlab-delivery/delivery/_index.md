@@ -1,6 +1,6 @@
 ---
-title: "Delivery Group"
-description: "The Delivery Group enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com, GitLab Dedicated and self-managed customers."
+title: "Release & Deploy group"
+description: "The Release & Deploy group enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com, GitLab Dedicated and self-managed customers."
 ---
 
 ## Common Links
@@ -19,22 +19,22 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 
 ## Mission
 
-The Delivery Group enables GitLab Engineering to deliver features in a
+The Release & Deploy group enables GitLab Engineering to deliver features in a
 **safe**, **scalable** and **efficient** fashion to GitLab.com, GitLab Dedicated and self-managed customers.
 The group ensures that GitLab's monthly, and patch releases are deployed to GitLab.com, GitLab Dedicated and
 publicly released in a timely fashion.
 
 ## Vision
 
-The Delivery Group is a behind the scenes, primarily internal user facing team whose product
+The Release & Deploy group is a behind the scenes, primarily internal user facing team whose product
 and output has a direct impact on Infrastructure's primary goals of **availability**, **reliability**,
 **performance**, and **scalability** of all of GitLab's user-facing services as well as self-managed
 customers. The group creates the workflows, frameworks, architecture and automation for Engineering teams
 to see their work reach production effectively and efficiently.
 
-The Delivery Group is focused on building a fully-automated deployment and release platform that builds on the [CI/CD blueprint](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/ci-cd/index.md) to enable fast, flexible releases and deployments with rapid rollout, failure detection and recovery.
+The Release & Deploy group is focused on building a fully-automated deployment and release platform that builds on the [CI/CD blueprint](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/ci-cd/index.md) to enable fast, flexible releases and deployments with rapid rollout, failure detection and recovery.
 
-Each member of the Delivery group is part of this vision:
+Each member of the Release & Deploy group is part of this vision:
 
 - Each team member is able to work on all team projects
 - The team is able to reach a conclusion independently all the time, consensus most of the time
@@ -66,7 +66,7 @@ Each member of the Delivery group is part of this vision:
 
 ## Guiding Principles
 
-These are a set of statements or questions we can use within the group to evaluate whether what we are doing is the right thing to do. When deciding on a piece of work to commit to, we should ask ourselves whether the work aligns with these principles. The principles will be driven by the Delivery Group Strategy, domain experts and Delivery Group Members. These are likely to change slightly over time as we learn and should not be considered static. Additionally, these principles are additive to the [GitLab Values](/handbook/values/) and we aim not to duplicate those here.
+These are a set of statements or questions we can use within the group to evaluate whether what we are doing is the right thing to do. When deciding on a piece of work to commit to, we should ask ourselves whether the work aligns with these principles. The principles will be driven by the Release & Deploy group Strategy, domain experts and Release & Deploy group Members. These are likely to change slightly over time as we learn and should not be considered static. Additionally, these principles are additive to the [GitLab Values](/handbook/values/) and we aim not to duplicate those here.
 
 These principles are intended to help everyone work independently in a way that is aligned with our Group and strategy.
 
@@ -98,39 +98,17 @@ The group regularly works on the following tasks, in the order of priority:
 1. Minimizing the use of custom tooling by building or enhancing features within GitLab (e.g. [Create a Changelog feature](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/351)).
 1. Support other teams' needs related to software delivery on GitLab SaaS (e.g. [New Container Registry deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/412)).
 
-## Teams
-
-The Delivery Group is composed of two teams: `Delivery:Releases` and `Delivery:Deployments`.
-
-The Delivery:Releases and Delivery:Deployments OKRs, while contributing to the wider GitLab objectives, are tailored and structured to achieve the [Delivery Group Strategy](#strategy) as a single team.
-
-### Delivery:Releases
-
-The primary goal of the Releases team is to provide everything to do with creating GitLab releases for customers and enabling internal customers to get their changes into releases. Major, minor and patch releases as well as a platform on which we can verify changes to various installation types (release environments) and create visibility for GitLab team members and customers into our release schedule (release dashboard).
-
-### Delivery:Deployments
-
-The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and optimizing the zero downtime rollout experience of GitLab Dedicated.
 
 ### Team Members
 
-The following people are members of the Delivery:Releases Team:
+The following people are members of the Delivery:Releases&Deploy Team:
 
-{{< team-by-departments departments="GitLab Delivery:Release BE,GitLab Delivery:Release SRE" manager-role="Engineering Manager, Delivery:Releases" >}}
+{{< team-by-departments departments="GitLab Delivery:Release BE,GitLab Delivery:Release SRE, GitLab Delivery:Deploy BE, GitLab Delivery:Deploy SRE" >}}
 
-The following people are members of the Delivery:Deployments Team:
-
-{{< team-by-departments departments="GitLab Delivery:Deploy BE,GitLab Delivery:Deploy SRE" manager-role="Engineering Manager, Reliability Engineering" >}}
-
-## Team counterparts
-
-The following members of other functional teams are our stable counterparts:
-
-{{< engineering/stable-counterparts role="[,&] Delivery" >}}
 
 ## Performance indicators
 
-Delivery Group contributes to [Engineering function performance indicators](/handbook/engineering/performance-indicators/) through [Infrastructure department performance indicators].
+Release & Deploy group contributes to [Engineering function performance indicators](/handbook/engineering/performance-indicators/) through [Infrastructure department performance indicators].
 The group's main performance indicator is [**M**ean **T**ime **T**o **P**roduction](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp) (MTTP), which serves to show how quickly a change introduced through a Merge Request
 is reaching production environment (GitLab.com).
 At the moment of writing, the target for this PI is defined in this [key result](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/107) epic.
@@ -139,15 +117,15 @@ MTTP is further broken down into charts and tables at the Delivery Team Performa
 
 ## Delivery domain ownership between Delivery teams
 
-The Delivery Group owns the tools and capabilities needed for GitLab deployments and releases. The diagram below shows the split of domain ownership between the two teams and the current release managers. Where the domain overlaps with teams outside of the Delivery Group, we focus primarily on the deployments and releases capabilities and needs.
+The Release & Deploy group owns the tools and capabilities needed for GitLab deployments and releases. The diagram below shows the split of domain ownership between the two teams and the current release managers. Where the domain overlaps with teams outside of the Release & Deploy group, we focus primarily on the deployments and releases capabilities and needs.
 
-![Delivery Group domain](/images/engineering/infrastructure/team/delivery/Delivery-domain.png)
+![Release & Deploy group domain](/images/engineering/infrastructure/team/delivery/Delivery-domain.png)
 
 - [Diagram source](https://docs.google.com/presentation/d/1KdrrdYpjdHinYyUa2V3nUCWico74twXWfCCJg-m0ODI/edit?usp=sharing)
 
 ### Release Manager ownership
 
-Release Managers are members of the Delivery group but during their time as release managers, they're wearing a different hat. The primary customers are GitLab users.
+Release Managers are members of the Release & Deploy group but during their time as release managers, they're wearing a different hat. The primary customers are GitLab users.
 
 1. Auto-deploys: Release Managers operate the auto-deploy process. Largely this will make use of capabilities provided by the Deployments team, but the Orchestration tools will be making use of the Deployments team capabilities. Environment health checks are an example of a Deployments capability that will be integral to the process and tools the release managers use.
 2. Self-managed releases: Release Managers operate the release processes (patch and security) using the capabilities provided by the Releases team.
@@ -219,7 +197,7 @@ For release management support outside of working hours, or if you need to escal
 
 ### Project Management
 
-The Delivery Group's work is tracked through a number of epics, issues, and issue boards.
+The Release & Deploy group's work is tracked through a number of epics, issues, and issue boards.
 
 Epics and issue boards are complementary to each other, and we always strive to have a 1-1 mapping between a working epic and an issue board.
 Epics describe the work and allows for general discussions, while the issue board is there to describe order of progress in any given epic.
@@ -244,7 +222,7 @@ Working epic should always have:
 1. Status YYYY-MM-DD to indicate what is being worked on, why, and planned next steps. The DRI is responsible for updating the epic status every Wednesday. Note, this must be the last heading in the epic to support automated epic summary updates
 1. Start date and estimated due date
 1. Labels:
-    - ![Delivery Group label](/images/engineering/infrastructure/team/delivery/group-delivery-label.png)
+    - ![Release & Deploy group label](/images/engineering/infrastructure/team/delivery/group-delivery-label.png)
     - Label used as part of the project scope (eg. `kubernetes`, `security-release`). The DRI should create a suitable project scope label and add it to the [Delivery-triage rules](https://gitlab.com/gitlab-com/gl-infra/triage-ops) if needed.
     - Epic status label using the 'workflow-infra::triage', 'workflow-infra::proposal', 'workflow-infra::in-progress', 'workflow-infra::done'
 
@@ -256,7 +234,7 @@ Each working epic should be accompanied by an issue board. Issue boards should b
 
 ### Labels
 
-The canonical issue tracker for the Delivery group is at [gl-infra/delivery](https://gitlab.com/gitlab-com/gl-infra/delivery). Issues are automatically labeled if no labels are applied using the [triage ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops) project.
+The canonical issue tracker for the Release & Deploy group is at [gl-infra/delivery](https://gitlab.com/gitlab-com/gl-infra/delivery). Issues are automatically labeled if no labels are applied using the [triage ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops) project.
 The default labels defined in the [labeling library](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/lib/delivery/default_labeling.rb).
 
 By default, an issue needs to have a:
@@ -269,7 +247,7 @@ By default, an issue needs to have a:
 
 #### Workflow
 
-The Delivery group leverages scoped `workflow-infra` labels to track different stages of work.
+The Release & Deploy group leverages scoped `workflow-infra` labels to track different stages of work.
 
 Not every issue will be prioritised for building as soon as it is ready. Instead we manage a [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) with all `workflow-infra::In Progress`, and `workflow-infra::Ready` issues focused on the team's current goals.
 
@@ -304,7 +282,7 @@ Label `workflow-infra::Done` is applied to signify completion of work, but its s
 
 #### Priority Labels
 
-The Delivery group uses priority labels to indicate order under which work is next to be picked up. Meaning attached to priorities can be seen below:
+The Release & Deploy group uses priority labels to indicate order under which work is next to be picked up. Meaning attached to priorities can be seen below:
 
 | Priority level  | Definition |
 | --------------- | ---------- |
@@ -356,11 +334,11 @@ This approach allows people from the team and outside of the team to build a cle
 
 ### Choosing something to work on
 
-The Delivery group generally has working epics assigned to a [DRI](/handbook/people-group/directly-responsible-individuals/) who is responsible for making sure work is broken down into issues, and appropriate issues are moved onto the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) to keep the project on track. However, anyone is welcome to pick up any tasks from the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) regardless of which project it belongs to.
+The Release & Deploy group generally has working epics assigned to a [DRI](/handbook/people-group/directly-responsible-individuals/) who is responsible for making sure work is broken down into issues, and appropriate issues are moved onto the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) to keep the project on track. However, anyone is welcome to pick up any tasks from the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) regardless of which project it belongs to.
 
 ### Merge Requests
 
-The Delivery group respects the Company principle of [everything starting with a merge request](/handbook/communication/#start-with-a-merge-request).
+The Release & Deploy group respects the Company principle of [everything starting with a merge request](/handbook/communication/#start-with-a-merge-request).
 
 1. All Merge Requests (MRs) must go through the review process.
 1. MRs should be labeled with the [Delivery labels](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#labels).
@@ -371,7 +349,7 @@ The Delivery group respects the Company principle of [everything starting with a
 Besides, we try to apply some best practices when doing Merge Requests:
 
 - Choosing reviewers: Commonly, any team member on Delivery can be assigned for reviews with a few considerations:
-  - We avoid adding the entire Delivery group to Merge Requests Review to avoid too many pings.
+  - We avoid adding the entire Release & Deploy group to Merge Requests Review to avoid too many pings.
   - GitLab team is globally distributed, so think about timezone when assigning someone as reviewer.
   - Project - The reviewer should be knowledgeable or at least familiarized with the project, for example, release-tools reviews are normally handled by backend engineers, while k8s-workloads reviews are handled by SREs.
   - Context - If you're working closely with a peer, it's recommended to assign it to this team member for shorter review cycles.
@@ -398,7 +376,7 @@ It is encouraged to show and discuss:
 
 ## Team training
 
-Every Delivery Group member is responsible for sharing skills either through creating a training session for the rest of the group or through paired work.
+Every Release & Deploy group member is responsible for sharing skills either through creating a training session for the rest of the group or through paired work.
 See the page on [team training](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/training/) for details.
 
 ## History
