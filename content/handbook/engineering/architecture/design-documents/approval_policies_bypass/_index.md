@@ -92,7 +92,7 @@ bypass_settings:
   branches:
     - source:
         pattern: 'release/*'
-        target:
+      target:
         name: 'master'
 ```
 
