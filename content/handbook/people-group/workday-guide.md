@@ -62,7 +62,7 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Managers|move team member to another manager|[Link](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit)|-|
 |Managers|request job change - full time/part time|[Link](https://docs.google.com/document/d/1phYEgjrhkuMreQU-teMk2tSG50VXg4AYFizjd8D_TcA/edit)|-|
 |Managers|review probation periods|[Link](https://docs.google.com/document/d/1NSIaigEqFnouax9s_NGB_nXGA1y_8zJB5aZUW63bvog/edit)|-|
-|Change job title specialty|[Link](https://docs.google.com/document/d/19o4Xe_Me4GZqxYsZaTjfgT19Qwb8E9BF7rzs0pCjxSU/edit)|-|
+|Managers|Change job title specialty|[Link](https://docs.google.com/document/d/19o4Xe_Me4GZqxYsZaTjfgT19Qwb8E9BF7rzs0pCjxSU/edit)|-|
 |Managers|view job history of a report prior to the HRIS migration|under that team member: `Job -> Worker History -> Worker History by Category -> Staffing & Compensation from Prior System`|-|
 
 ## Job Title Speciality Creation/Update
