@@ -97,11 +97,13 @@ The group regularly works on the following tasks, in the order of priority:
 1. Improving the robustness of SaaS software delivery by creating and improving tooling (e.g. [Deployment rollback](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/282)).
 1. Minimizing the use of custom tooling by building or enhancing features within GitLab (e.g. [Create a Changelog feature](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/351)).
 1. Support other teams' needs related to software delivery on GitLab SaaS (e.g. [New Container Registry deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/412)).
+
 ### Team Members
 
 The following people are members of the Delivery:Releases&Deploy Team:
 
 {{< team-by-departments departments="GitLab Delivery:Release BE,GitLab Delivery:Release SRE, GitLab Delivery:Deploy BE, GitLab Delivery:Deploy SRE" >}}
+
 ## Performance indicators
 
 Release & Deploy group contributes to [Engineering function performance indicators](/handbook/engineering/performance-indicators/) through [Infrastructure department performance indicators].
