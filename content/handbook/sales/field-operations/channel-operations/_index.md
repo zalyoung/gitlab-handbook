@@ -340,7 +340,7 @@ The process to request the [legal team's involvement in partner contracts](/hand
 
 ## Partner Reporting and Tagging
 
-![Partner Reporting and Tagging](image.png)
+![Partner Reporting and Tagging](/images/sales/field-operations/channel-operations/partner-reporting-2025.png)
 
 ### Definitions
 
