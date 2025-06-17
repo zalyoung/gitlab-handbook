@@ -15,12 +15,14 @@ External secrets provide a secure way to manage sensitive data in CI/CD environm
 External secrets are particularly valuable in these scenarios. Note that this list is non-exhaustive, as it's nearly impossible to cover all potential use cases
 
 **[GitLab CI/CD Pipeline Operations](https://docs.gitlab.com/ci/variables/)**
+
 - Deploying from GitLab CI 
 - Authenticating with external services (AWS, Docker Hub, cloud providers) during pipeline execution 
 - Running automated tests that require database or API connections
 - Publishing packages to registries (npm, Maven, PyPI) from GitLab pipelines 
 
 **[Personal Access Tokens](https://docs.gitlab.com/user/profile/personal_access_tokens/)**
+
 - Using GitLab Personal Access Tokens to access GitLab API programmatically 
 - Cloning private repositories during CI/CD processes 
 - Automating GitLab operations like creating merge requests or managing issues 
@@ -28,6 +30,7 @@ External secrets are particularly valuable in these scenarios. Note that this li
 - Scope tokens appropriately - grant minimal required API permissions and set expiration dates 
 
 **[GitLab Runner Configuration](https://docs.gitlab.com/runner/)**
+
 - Configuring GitLab Runners to access private container registries 
 - Setting up runners to deploy to protected environments 
 - Authenticating runners with cloud infrastructure services
