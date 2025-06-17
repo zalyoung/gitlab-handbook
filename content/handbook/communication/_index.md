@@ -1118,6 +1118,8 @@ We have a low internal email culture, as we see greater efficiency in other form
 Slack is used for:
 
 - Internal-only communication and announcements impacting all team members
+  - Linking a GitLab Issue or Merge Request (confidential if necessary) where discussion can take place is encouraged when sharing announcements on Slack
+  - Consider creating a [Manager Mention MR](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs), so that we can collaborate with Efficiency and Transparency across threads
 - Company newsletters and team updates
 - Asynchronous team standups, questions, and quick collaboration
 - Informal communication
