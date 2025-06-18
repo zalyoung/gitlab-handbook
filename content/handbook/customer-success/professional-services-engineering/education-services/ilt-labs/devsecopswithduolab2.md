@@ -73,7 +73,6 @@ Now that you have code generated and you understand the code, you can commit the
 
 1. Select `Go to Project` to return to your GitLab repository.
 
-
 ## Task D. Add a `.gitlab-ci.yml` File
 
 The last step of this lab is to create a `.gitlab-ci.yml` file to build our Go application.
