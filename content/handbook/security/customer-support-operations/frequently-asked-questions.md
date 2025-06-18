@@ -20,6 +20,6 @@ Also, the Customer Support Operations team ensures all triggers, automations, vi
 
 ## What if I want access to something owned by Customer Support Readiness?
 
-Following with Secuirty's [Access Management Standards](https://internal.gitlab.com/handbook/security/standards/access-management-standard/), we follow the [principle of least privilege](https://csrc.nist.gov/glossary/term/least_privilege). As such, we review each request on a case by case basis.
+Following with Security's [Access Management Standards](https://internal.gitlab.com/handbook/security/standards/access-management-standard/), we follow the [principle of least privilege](https://csrc.nist.gov/glossary/term/least_privilege). As such, we review each request on a case by case basis.
 
 To begin the process, file an [Individual Bulk Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request) issue. Once approved by your manager, assign it to `@jcolyer` and `@dtragjasi`, who will review the situation and determine how to best proceed.
