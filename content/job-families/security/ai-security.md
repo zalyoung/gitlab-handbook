@@ -5,12 +5,15 @@ description: "This critical function will establish and drive our comprehensive 
 
 ## Responsibilities
 
-- Strategic Leadership
-    - Develop and execute GitLab's comprehensive AI security strategy and roadmap
-    - Lead a dedicated team of AI security specialists, including AI security engineers, machine learning security specialists, and AI threat researchers
-    - Establish AI security governance frameworks and policies across the organization
-    - Drive "AI Secure by Design" practices throughout GitLab's AI development lifecycle
-    - Partner with executive leadership to align AI security investments with business objectives
+Strategic Leadership
+
+- Develop and execute GitLab's comprehensive AI security strategy and roadmap
+- Lead a dedicated team of AI security specialists, including AI security engineers, machine learning security specialists, and AI threat researchers
+- Establish AI security governance frameworks and policies across the organization
+- Drive "AI Secure by Design" practices throughout GitLab's AI development lifecycle
+- Partner with executive leadership to align AI security investments with business objectives
+
+
 - Technical Program Management
     - Oversee the development of specialized AI threat detection and response capabilities
     - Lead the creation of secure prompt libraries and AI input validation systems
