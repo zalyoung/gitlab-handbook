@@ -14,7 +14,7 @@ We have features and requests that are being addressed and considered as part of
 |Add Internal comments to articles. Currently dont have a way to add.    | Investigating   | [Issue 6883](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6883)              |
 |Markdown not working on copy/paste                                      | Investigating   | Investigating how to fix                                                                         |
 |Update Search Fitlers /streamline. Default to Knowledge articles.       | Investigating   | Add versions (can we use impacted versions?)                                                     |
-|Add Published articles to Slack. Provides notification of published     | Investigating   | [Issue 6885](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6885)              |
+|Add Published articles to Slack. Provides notification of published     | Change Requested| [6925](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6925)                    |
 |US Governmanet knowledge articles. Provide process for how to add       | In Process      | [6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)                    |
 |Article suggestions in articles (aligned with comments. Need process)   | Investigating   | [Issue 6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)              |
 |Article Review process for relevancy. Ensures articles are up to date.  | Investigating   | [6888](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6888)                    |
