@@ -123,7 +123,7 @@ The Incident Lead is responsible for ensuring that the incident progresses and i
 3. Move follow-up issues from the [follow-up issues project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) to the correct project for the responsible team (typically this will be `gitlab-org/gitlab` or `production-engineering`.
 4. Apply appropriate labels such as team and group to follow-up issues.
 5. The Incident Lead should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity.
-6. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
+6. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure-platforms/incident-review/#incident-review-process) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
 
 ### Incident Responder Responsibilities
 
@@ -581,7 +581,7 @@ Definitions and rules for transitioning state and status are as follows.
 | Active | The incident is in progress and has not yet been mitigated.  **Note:** Incidents should not be left in an `Active` state once the impact has been mitigated |
 | Identified | The cause of the incident is believed to have been identified and **a step to mitigate has been planned and agreed upon**. |
 | Monitoring | The step has been executed and metrics are being watched to ensure that we're operating at a baseline. If there is a clear understanding of the specific mitigation leading to resolution and high confidence in the fact that the impact will not recur it is preferable to skip this state. |
-| Resolved | The impact of the incident has been mitigated and status is again Operational. Once resolved the incident can be [marked for review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions) can be defined.|
+| Resolved | The impact of the incident has been mitigated and status is again Operational. Once resolved the incident can be [marked for review](/handbook/engineering/infrastructure-platforms/incident-review/#incident-review-process) and [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions) can be defined.|
 
 Status can be set independent of state. The only time these must align is when an issues is
 
@@ -628,7 +628,7 @@ If assistance is required follow the [Infrastructure Liaison Escalation process]
 
 ### Summary
 
-The entire incident lifecycle is managed through incident.io. All `S1` and `S2` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#the-criteria-which-triggers-a-review).
+The entire incident lifecycle is managed through incident.io. All `S1` and `S2` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure-platforms/incident-review/#the-criteria-which-triggers-a-review).
 
 Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and resolved when the degradation has ended and will not likely re-occur.
 

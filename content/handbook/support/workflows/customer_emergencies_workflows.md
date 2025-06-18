@@ -118,6 +118,7 @@ As the CEOC you will work with the customer along with other Support Engineers t
 1. Stage 2: Evaluate
 1. Stage 3: Engage
 1. Stage 4: Resolve
+1. Stage 5: Close
 
 ### Stage 1: Acknowledge
 
@@ -171,10 +172,16 @@ As the CEOC you will work with the customer along with other Support Engineers t
     - Rolling forward by applying patches or skipping stuck migrations.
     - Applying workarounds for known issues.
     - Fixing misconfigurations to restoring services.
+
+### Stage 5: Close
+
 1. After working with the customer, based on the progress you can:
     - Close the emergency if the issue is [resolved](#when-the-customer-incident-is-resolved).
+    - Reconvene at a later point and ask customer to raise a [follow up emergency](#when-the-customer-incident-is-not-resolved) if the issue is not resolved and
+      additional information or resources are needed.
     - [Ask help if you don't know what to do](#what-to-do-if-you-dont-know-what-to-do).
-    - Reconvene at a later point and ask customer to raise a [follow up emergency](#when-the-customer-incident-is-not-resolved).
+2. For some emergencies, it would be beneficial to conduct a [retrospective](/handbook/support/workflows/customer-emergency-retro) after the issue is resolved, 
+   to help support engineers identify any areas that can be improved and iterate on it.
 
 #### Determine if the situation qualifies as an emergency
 

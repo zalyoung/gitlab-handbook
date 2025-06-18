@@ -134,7 +134,7 @@ There are three other workflow labels of importance:
 
 ### Labels in gitlab-org group
 
-Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
+Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) to label merge requests in projects in the `gitlab-org` group.
 If you need a stage group to perform work, it is best to apply the relevant stage group label when the issue is created.
 
 ## Issue Trackers
