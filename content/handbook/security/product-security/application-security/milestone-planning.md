@@ -186,17 +186,17 @@ This issue is the single source of truth for all planning related discussions an
 
 Application Security team members will use the milestone planning issue to review the issues assigned to them on the `Assigned Work` section, or their own section under `Individually assigned work and rotations`, and apply:
 
-    1. The [`missed:X.Y`](#missed-milestone) label for any issues that couldn't be completed, and:
-        1. Change the milestone for the next milestone
-        1. Adjust the [AppSecPriority label](#priority-labels) if the work is becoming a higher or lower priority
-        1. Adjust the [AppSecWeight](#weight-labels) label, even if it's not finished. This will allow to addition the work already done with any future work added on top of it.
-        1. Adjust the [AppSecWorkType](#work-type-labels) label
-        1. If you were involved in an incident during that milestone and it has impacted the issue, add the [right label](#sirtpsirt-incidents-impact-on-planned-work) to inform it was impacted by an incident.
-        1. The [`AppSec Backlog`](#backlog) milestone for any work that isn't completed and will not be finished on the next milestone(s). In those cases it should contain `missed:X.Y` label **and** the milestone set to `AppSec Backlog`.
-    1. The `AppSecWorkflow::complete` label for issues that have been completed, and:
-        1. Adjust the [AppSecWeight](#weight-labels) label.
-        1. Adjust the [AppSecWorkType](#work-type-labels) label
-        1. Close the issue
+1. The [`missed:X.Y`](#missed-milestone) label for any issues that couldn't be completed, and:
+    1. Change the milestone for the next milestone
+    1. Adjust the [AppSecPriority label](#priority-labels) if the work is becoming a higher or lower priority
+    1. Adjust the [AppSecWeight](#weight-labels) label, even if it's not finished. This will allow to addition the work already done with any future work added on top of it.
+    1. Adjust the [AppSecWorkType](#work-type-labels) label
+    1. If you were involved in an incident during that milestone and it has impacted the issue, add the [right label](#sirtpsirt-incidents-impact-on-planned-work) to inform it was impacted by an incident.
+    1. The [`AppSec Backlog`](#backlog) milestone for any work that isn't completed and will not be finished on the next milestone(s). In those cases it should contain `missed:X.Y` label **and** the milestone set to `AppSec Backlog`.
+1. The `AppSecWorkflow::complete` label for issues that have been completed, and:
+    1. Adjust the [AppSecWeight](#weight-labels) label.
+    1. Adjust the [AppSecWorkType](#work-type-labels) label
+    1. Close the issue
 
 ### Rotations
 
