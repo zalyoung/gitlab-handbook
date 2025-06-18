@@ -87,7 +87,8 @@ while maintaining the core dashboard layout component's functionality and API.
 ## Design and implementation details
 
 The framework extends the dashboard layout with a new editing state that users can enter to customize their dashboards. When a user is done
-editing the dashboard layout, panels and filter should render and behave as a static dashboard layout with the option to customize.
+editing the dashboard layout, the dashboard should return back to the static dashboard state. Any changes made by the user should be preserved
+in the static state. The user should be provided the option to return to the edit state through a button or secondary option.
 
 ![dashboard_customization_framework_outline](/images/engineering/architecture/design-documents/dashboard_customization_framework/dashboard_customization_framework_outline.png)
 
