@@ -3,9 +3,19 @@ title: "Application Security Team Organization"
 description: Application Security page on how the team is organized
 ---
 
+This page provides you with the resources:
+
+- To understand how the work of the team is organised
+- To know in which repositories we are performing our work
+- To know how to contact us
+
 ## Work Organization
 
-The Application Security team maintains several key repositories that support our mission to deliver secure products and services. These repositories enable collaboration with Engineering and Product teams while maintaining our security standards and processes.
+The Application Security team organizes the work on a monthly milestone basis. To know more how we do it, please consult our specific milestone planning page [here](milestone-planning.md)
+
+## Important Repositories
+
+The Application Security team maintains several key repositories that support [our mission](_index.md#application-security-mission). These repositories enable collaboration with Engineering and Product teams while maintaining our security standards and processes.
 
 ### Team organization and planning
 
@@ -45,7 +55,7 @@ Learn more about our security review process in our [dedicated page](appsec-revi
 **Location**: `gitlab-com/gl-security/product-security/appsec/psirt`  
 **Learn More**: [PSIRT Services](https://handbook.gitlab.com/handbook/security/product-security/application-security/appsec-operations/psirt-services/)
 
-## For External Customers
+## Useful Information For External Customers
 
 ### Public Security Resources
 
