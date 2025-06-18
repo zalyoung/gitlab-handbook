@@ -84,7 +84,7 @@ The tooling will be based on the existing one from the [`tenant-model-schema`](h
 
 ### Semantic Versioning
 
-The schema will follow strict semantic versioning principles:
+The schema will follow strict [semantic versioning](https://semver.org/) principles:
 
 - Major Version (X.y.z): Incremented for breaking changes that require consumers to update their implementation; these should be carefully considered and avoided as much as possible, and should be rolled out in multiple stages following the [Expand/Contract pattern](https://blog.thepete.net/blog/2023/12/05/expand/contract-making-a-breaking-change-without-a-big-bang/).
 - Minor Version (x.Y.z): Incremented for backward-compatible additions to the schema.
