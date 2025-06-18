@@ -54,6 +54,7 @@ This guide provides practical advice for making your on-site engagement successf
 - **Encourage questions**: Create a safe environment for customers to ask about anything they don't understand
 - **Adapt your teaching style**: Some learn best by doing, others by explanation - be flexible
 - **Regular check-ins**: Ensure everyone feels included and that progress is on track
+- **Plan for future contributions**: Schedule a discussion about continued contribution plans on the second-to-last day of the on-site
 - **Build personal connections**: Consider opportunities for informal interaction outside of work hours, such as team dinners or local activities, which can strengthen relationships and collaboration (these can be expensed - check with the Contributor Success team)
 
 ## Managing Common Challenges
