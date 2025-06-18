@@ -38,6 +38,7 @@ This guide provides practical advice for making your on-site engagement successf
 - **Confirm environment setup**: Verify all customer engineers have working GDK installations (expect this to take significant time if not done in advance)
 - **Provide architectural overview**: Give a deep-dive into GitLab's architecture and the specific feature area you'll be working on
 - **Review GitLab's contribution process**: Walk through the merge request workflow, code review standards, and community guidelines
+- **Verify contributor profiles**: Remind customer contributors to sync their Organization fields in their GitLab profiles for proper attribution
 
 ### Technical Collaboration
 
