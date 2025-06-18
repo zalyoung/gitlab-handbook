@@ -49,6 +49,8 @@ If any fields when opening the ticket were filled out incorrectly,  send a publi
    1. The `Namespace:` field contains a valid GitLab namespace and it that holds the trial plan (active or expired). This should not be a Salesforce link or email address.
    1. The `Extend the date to:` field contains a future date. (Trial expires around 23:59 UTC on this date)
    1. The `Trial license plan:` field is filled out
+   1. The `I acknowledge that approval for this extension has been granted..` checkbox has been checked and the requestor has also provided the required proof that a Manager or Director has approved the extension request. If the submitter has not provided the necessary proof then use the macro `Deviation from GitLab.com Subscription Extension Workflow` and subsequently close the ticket.
+   1. Compliance with the approval requirement is mandatory. If the requester disputes the need for or validity of the approval, escalate by CC’ing the Support Manager on call in the ticket so they can review and determine the best path forward.
 1. Use the [`Trial changes (SaaS)` in the CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#update) to process the request.
    1. If there is an error while taking action, check the [GCP Logs Explorer dashboard](https://console.cloud.google.com/logs/query?project=gitlab-subscriptions-prod) to see what went wrong. Please also locate the [error in sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/) (see [Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry) if needed) and file an issue, or comment on an existing one.
 1. If namespace needs to be adjusted manually, then raise a new internal issue with details and  `~Console Escalation::Customers` label.
@@ -104,6 +106,7 @@ Please note that the above approach has the following caveats:
    able to take action quickly.
 1. This is done via the CustomersDot Support Admin Tools through
    [`Trial changes (SaaS)`](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#update).
+1. If processing a request from the Internal Request form named `Extend an (almost) expired subscription` then ensure that the `I acknowledge that approval for this extension has been granted..` checkbox has been checked and the requestor has also provided the required proof that a Manager or Director has approved the extension request. If the submitter has not provided the necessary proof then use the macro `Deviation from GitLab.com Subscription Extension Workflow` and subsequently close the ticket.
 
 **Note**: We cannot extend the trial if the customer hasn't started one on the namespace. The Subscription name field in the ZenDesk Mechanizer app is there for that reason. When there's a Subscription name, the mechanizer will create a new trial for the namespace.
 

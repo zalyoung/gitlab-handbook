@@ -97,7 +97,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 
 The Ops team is responsible for ensuring the published Monthly Availability Updates are maintained.  This is currently a manual process.   Items to update include:
 
-1. [Historical Service Level Availability](/handbook/engineering/monitoring/#historical-service-level-availability) including [maintenance windows](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7) from the month in the comments
+1. Historical Service Level Availability including [maintenance windows](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7) from the month in the comments
 
 Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/4115)).
 

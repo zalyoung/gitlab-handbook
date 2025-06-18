@@ -109,28 +109,7 @@ Create a unified notification center built on an event-driven architecture that:
 
 We need to persist notifications in a new _notifications_ database table. This table will store data about notifications - what kind of notification it is, what resource it's connected with, the state of it, information if it is saved by the user, etc.
 
-An example of the table schema could be the following, although actual schema is TBD:
-
-```mermaid
-erDiagram
-  NOTIFICATION {
-        bigint id
-        bigint user_id
-        bigint namespace_id
-        bigint target_id
-        smallint target_type
-        bigint author_id
-        smallint action
-        smallint state
-        timestamp created_at
-        timestamp updated_at
-        string commit_id
-        smallint resolved_by_action
-        bigint note_id
-        timestamp snoozed_until
-        boolean saved
-    }
-```
+An example of the table schema, models, and service implementation can be found in [`001_database_schema.md`](adr/001_database_schema.md).
 
 Our requirements are that we will be accessing todos in the majority of situations by user_id, and possible filtering patterns are:
 

@@ -134,6 +134,8 @@ our established request process:
   Detailed technical implementation guide
 - [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/best_practices/) - Everything you should know about how to write good tests in the GitLab project
 - [Code Review Guidelines](../../engineering/workflow/code-review/) - Mandatory review process for all merge requests
+- [Product Engineer guide to E2E test failure issues](guide-to-e2e-test-failure-issues.md)
+
 
 #### 📹 GitLab End-to-End Testing Overview (Video)
 
