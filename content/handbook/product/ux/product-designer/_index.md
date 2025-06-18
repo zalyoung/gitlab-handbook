@@ -75,12 +75,15 @@ When designing AI solutions, Product Designers need to approach the process thou
 
 ### Designing with modes
 
-With the addition of dark mode support in the product, there are a few design considerations:
+Design must work in all generally available modes, which currently includes light and dark mode. Keep these considerations in mind as you design:
 
-- Design in light mode by default; light mode is the most used mode preference in the product and the default for Pajamas UI Kit design assets.
-- Designing in dark mode should be a deliberate decision when the mode is a primary factor in the design or is needed during [research](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test) (point 5).
-- Use dark mode to validate design decisions and use of design tokens (variables in Figma).
-- Continue to monitor analytics to determine if the default should be changed.
+- Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test) (point 5).
+- The design system provides design tokens and components that work in supported modes.
+- Designing in dark mode should be a deliberate decision when the mode is a primary factor in the design and should align with the dark mode vision:
+  - **Forward elements are lighter, receding ones are darker.** This mimics natural light behavior: brighter elements come forward, while darker ones recede. In dark mode, brighter elements create depth, ensuring important content stands out without relying heavily on borders or shadows.
+  - **Reduced color saturation.** In a dark UI, color naturally stands out more, and the amount of color use is reduced. Instead of flooding backgrounds with color, use color more selectively to draw attention where it’s needed.
+  - **Dimmed, not inverted.** Dark mode should feel like dimming the lights rather than completely inverting the interface. Carefully decide which elements to darken and which to brighten to maintain content clarity while allowing backgrounds to recede appropriately.
+- Use analytics data to determine which mode should be your primary design focus.
 
 ### Aiming towards "sophisticated simplicity"
 
