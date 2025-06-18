@@ -21,7 +21,7 @@ Currently, GitLab.com's transition to a distributed deployment model with cells 
 | Requirement | Description |
 |-------------|-------------|
 | Configuration as Code | Store all settings in version-controlled repositories |
-| Source of Truth | Treat live cells as authoritative reference to prevent drift |
+| Live states | Read the states from the current live cells |
 | Ring-Based Integration | Build upon existing ring deployment model |
 | Hierarchical Settings | Support inheritance from base → ring → cell overrides |
 | Concurrent Application | Apply settings to all cells within a ring simultaneously |
