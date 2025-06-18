@@ -9,7 +9,7 @@ The Application Security team plans its work on a cadence based around [GitLab P
 
 All of our planning is done using [GLQL](https://docs.gitlab.com/user/glql/) queries.
 
-This handbook page describes the planning process that we use to determine what work will be completed for each Milestone.
+This handbook page describes the planning [responsibilities](#milestone-planning-responsibilities) and [process](#milestone-planning-process) that we use to determine what work will be completed for each Milestone.
 
 ## Milestone Planning responsibilities
 
@@ -138,7 +138,7 @@ This issue is the single source of truth for all planning related discussions an
     1. Change the milestone to the next milestone.
     1. They will apply the "missed:X.Y" label, X.Y being the current milestone, or the previous milestone if the next milestone started.
 1. The Application Security team will pick any potential work items from the [Parking Lot section](#park)
-1. The Application Security team will work together to add new items to the Milestone Work table
+1. The Application Security team will work together to add new issues into the milestone planning issue.
     1. Each item being added must be refined before it can be formally committed to
     1. The team member likely to take on the work should review and agree with the Weight, if it wasn't them who refined the issue
     1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone and Assignee(s)
@@ -147,6 +147,17 @@ This issue is the single source of truth for all planning related discussions an
     1. Once finalized, the Milestone Planning issue should be closed
 
 #### At the end of the milestone
+
+#### How are issues displayed in the milestone planning issue?
+
+The GLQL query checks for:
+
+1. One of the following labels: "Application Security Team", "AppSecPriority::1", "AppSecPriority::2" or "AppSecPriority::3".
+2. The milestone is appropriately set 
+
+If both conditions are satisfied, then it's displayed.
+
+If you want to have an issue you're working on displayed, make sure that you use at least the ~"Application Security Team" label.
 
 ### Rotations
 
@@ -166,7 +177,7 @@ We can visualize all rotations in [this rotation table](https://gitlab.com/gitla
 - Are there other stakeholders and are they looped in and aware?
 - Is the correct [`AppSecWorkType::` label](/handbook/security/product-security/application-security/metrics/capacity/#type-of-work-classification) set?
 - Is the [`AppSecWeight::` label](/handbook/security/product-security/application-security/metrics/capacity/#effort-classification) set?
-- Does it have the `Application Security Team` label?
+- Does it have the `Security::Division`, `Department::Product Security` and `Application Security Team` labels?
 - Across the whole milestone, is the total operational + project weight achievable?
 
 When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.
