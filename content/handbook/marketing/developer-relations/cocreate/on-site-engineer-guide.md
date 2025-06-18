@@ -93,7 +93,7 @@ This guide provides practical advice for making your on-site engagement successf
 
 ### Community Integration
 
-- **Introduce community resources**: Show customers how to use Discord, forums, and documentation
+- **Introduce community resources**: Show customers how to use Discord, GitLab Forum, and documentation
 - **Connect with relevant team members**: Introduce customers to product managers, engineers, and other contributors in their area of interest
 - **Celebrate contributions**: Acknowledge their work publicly when appropriate
 
