@@ -56,6 +56,19 @@ Additional information can be found on the [Planning page](/handbook/engineering
   * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
+### Project Estimation
+
+Our team follows a multi-phase estimation process. This allows us to have just-in-time information to facilitate predictable roadmap planning. 
+
+#### High Level Estimation
+
+* Projects in our priorities roadmap will contain an estimation issue (labeled with `~workflow::estimation`). These can be found on the [estimation issue board](https://gitlab.com/groups/gitlab-org/-/boards/9392539?label_name%5B%5D=workflow%3A%3Aestimation&label_name%5B%5D=group%3A%3Asecurity%20insights&group_by=epic). 
+* Estimation issues have several desired outcomes:
+  - Provide high level, # of milestone based estimate for the respective capabilities (frontend, backend)
+  - Identify dependencies (other product groups, new technologies, libraries)
+  - Determine oustanding questions and if they block further estimation or will be required before planning breakdown can start.
+* These outcomes should be added to the respective areas within the epic template. 
+
 ### Tracking Deliverables
 
 * Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. *Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts.*
