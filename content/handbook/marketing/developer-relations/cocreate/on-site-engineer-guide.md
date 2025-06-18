@@ -68,7 +68,7 @@ This guide provides practical advice for making your on-site engagement successf
 
 ### Process Challenges
 
-- **Code review feedback**: Help customers understand that feedback is about improving code quality, not personal criticism. Be aware that GitLab's review process can feel "rigorous to the point of bordering on hostile" to newcomers
+- **Code review feedback**: Help customers understand that feedback is about improving code quality, not personal criticism. Be aware that GitLab's review process can feel overly rigorous and demoralizing to newcomers
 - **Review timing conflicts**: The synchronous nature of Co-Create conflicts with asynchronous reviews. Coordinate with maintainers to ensure responsive reviews during the on-site week
 - **Contribution guidelines**: Ensure customers understand sign-off requirements and community standards (note: licensing is handled by the Co-Create PM)
 - **Timeline expectations**: Manage expectations about review cycles and merge timelines. Consider having a maintainer available in the same timezone
