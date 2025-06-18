@@ -1,7 +1,7 @@
 ---
 title: incident.io
 description: Operations documentation page for incident.io
-canonical_path: "/handbook/security/customer-support-operations/docs/incident.io/"
+canonical_path: "/handbook/security/customer-support-operations/docs/incident_io/"
 ---
 
 {{% pageinfo color="warning" %}}

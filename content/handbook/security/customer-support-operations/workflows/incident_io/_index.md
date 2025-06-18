@@ -1,7 +1,7 @@
 ---
 title: incident.io
 description: Operations workflows page for incident.io
-canonical_path: "/handbook/security/customer-support-operations/workflows/incident.io/"
+canonical_path: "/handbook/security/customer-support-operations/workflows/incident_io/"
 ---
 
 {{% alert title="Note" color="primary" %}}
