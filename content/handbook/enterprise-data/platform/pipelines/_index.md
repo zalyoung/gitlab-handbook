@@ -27,5 +27,5 @@ subgraph data platform
 
 end
 
-etl_vendor@{ shape: div-rect, label: etl vendor } --> warehouse
+etl_vendor[/etl vendor/] --> warehouse
 ```
