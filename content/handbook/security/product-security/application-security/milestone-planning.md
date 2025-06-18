@@ -5,7 +5,7 @@ description: "Learn how the GitLab Application Security team does Milestone Plan
 
 ## Milestone Planning
 
-The Application Security team plans its work on a cadence based around GitLab Product Milestones. This enables us to be intentional about the work we do, while also providing insights into our capacity, velocity, and current projects.
+The Application Security team plans its work on a cadence based around [GitLab Product Milestones](https://gitlab.com/groups/gitlab-com/-/milestones). Our goal is to be intentional about the work we do, while also providing insights into our capacity, velocity, and current projects.
 
 This handbook page describes the planning process that we use to determine what work will be completed for each Milestone.
 
@@ -22,10 +22,27 @@ This issue is the single source of truth for all planning related discussions an
 
 ## Milestone Planning Process
 
-1. On the first of the month, an Application Security manager will create an issue from [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=milestone_planning)
-1. An Application Security manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
-1. Application Security team members will add any work being carried over from the previous Milestone into the Milestone Work table
-1. The Application Security team will add potential work items to the Parking Lot section, with a brief explanation of why it would be good to include in the Milestone
+### Manager(s)
+
+#### Before and at the beginning of the milestone
+
+1. On the first of the month, an Application Security manager will create an issue from [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=milestone_planning).
+1. An Application Security manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue.
+1. An Application Security manager will have an overview on the work planned at the beginning of the issue.
+
+#### At the end of the milestone
+
+1. An Application Security manager will check for any remaining issues that are not completed and not moved to the next milestone and discuss with the team member on the next steps.
+1. An Application Security manager will apply the "AppSecWorkflow::complete" label and close the issue.
+
+### Team Members
+
+#### Before and at the beginning of the milestone
+
+1. Application Security team members will add any work being carried over from the previous Milestone:
+    1. Change the milestone to the next milestone.
+    1. They will apply the "missed:X.Y" label, X.Y being the current milestone, or the previous milestone if the next milestone started.
+1. The Application Security team will pick any potential work items from the [Parking Lot section](#park)
     1. Team members can add discussion threads to discuss potential work to pull into the Milestone
     1. Both individual team members and Application Security managers can add items to this list
 1. The Application Security team will work together to add new items to the Milestone Work table
@@ -139,6 +156,13 @@ Sometimes high-priority and/or urgent work comes up after a milestone starts. Wh
 - Document why the work needs to be prioritized in the issue
 - Apply the `Unplanned` label
 - If the unplanned work is large enough to displace other planned issues, inform the applicable stakeholders so they are aware that their issue is being delayed
+
+### Parking Lot section
+
+This [section of the milestone planning issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/blob/master/.gitlab/issue_templates/milestone_planning.md#issue-parking-lot) displays all the issues that:
+
+- Have been missed from the previous milestone
+- Issues that have been assigned the "AppSec Backlog" milestone
 
 ### Missed milestones
 
