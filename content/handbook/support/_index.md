@@ -158,7 +158,6 @@ Below we also have some commonly referenced pages:
 
 GitLab Support's vision is to build a business-aware Support Engineering organization that is considered Enterprise class, that not only meets but exceeds customer expectations where sensible, aids in driving business growth, and is operational excellence focused. 
 Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about.
-
 GitLab Support's direction for FY26 focuses on evolving our offerings, optimizing processes, and investing in the team to equip them to better serve and represent our customers and align with the changing needs of the business. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. 
 
 
