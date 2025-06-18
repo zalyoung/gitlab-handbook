@@ -48,6 +48,12 @@ If a merge request is assigned directly to you as a Maintainer without prior rev
 
 When looking for a merge request to work on, consider the [GitLab Review-response SLO](/handbook/engineering/workflow/code-review/#review-response-slo). Anything in danger of breaching that deadline should be looked at first.
 
+**Important:** All team members should follow the complete set of practices outlined in the [GitLab Code Review Guidelines](/handbook/engineering/workflow/code-review/), including but not limited to:
+
+- [Review-response SLO requirements](/handbook/engineering/workflow/code-review/#review-response-slo) and expectations
+- [Managing expectation guidelines](/handbook/engineering/workflow/code-review/#managing-expectation) when unable to meet SLO timelines
+- [Review turnaround time principles](/handbook/engineering/workflow/code-review/#review-turnaround-time)
+
 Due to the load on the Distribution team, the SLO is longer than that of the rest
 of the company:
 
@@ -55,6 +61,8 @@ of the company:
 - From authors of [Leading Organizations](/handbook/engineering/workflow/code-review/#leading-organizations): Review-response SLO < 6 business days
 
 The team aims to return to the company-wide SLO standard dependent upon expanding the team and paying down technical debt.
+
+**Note:** While the team operates with extended SLO timelines, all other aspects of the [GitLab Code Review Guidelines](/handbook/engineering/workflow/code-review/) remain in full effect and should be followed without exception.
 
 ## Review iteration
 
