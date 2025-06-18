@@ -73,7 +73,7 @@ Focusing on the goals and benefits listed above, the time required to complete a
 
 Usually, through discovery, there is some level of knowledge of customer goals and the current development process from a development perspective.  The goal of the Day In The Life is to understand the entire development process from idea to deployment to production, and to look for areas of improvement throughout.
 
-Prepare for the Day In The Life of a Developer, by organizing the information we already have about the customer and identifying areas we want to learn more about. This should include GitLab's goals for the meeting which should already exist in the Technical Close Plan. The Technical Close Plan should have input from the SA, AE, and CSM, with the SA as the DRI.
+Prepare for the Day In The Life of a Developer, by organizing the information we already have about the customer and identifying areas we want to learn more about. This should include GitLab's goals for the meeting, which should align with the Customer Success Plan.
 
 Prepare questions in advance for the list of things we want to learn. Questions can be drawn from the [GitLab Value Framework](https://gitlab.highspot.com/items/64da83a5f9fbeee46d8ad909#21).
 

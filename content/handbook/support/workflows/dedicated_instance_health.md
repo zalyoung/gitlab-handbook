@@ -24,13 +24,15 @@ Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#custom
 
 When logging in for the first time, dashboards are not immediately visible and you will be greeted by a Grafana welcome screen. To find the dashboards:
 
-1. Locate the four-box icon situated in the left pane. When you hover over it, a tooltip will appear identifying it as the Dashboards link.
-1. Choose either the Dashboard option or the Browse option. Both will lead you to the same destination.
-1. At the center, there is a folder named `General`. Expand this folder to view the available dashboards.
+1. In the left pane, click on `Dashboards`.
+1. The `Dashboards` page has a searchable list of all the dashboards available to you
+1. The `Triage` dashboard is the best starting point, especially if you are new to Grafana.
 
 ## Grafana tips
 
 The `General / Triage` dashboard is most useful for an emergency as it has the pods all laid out in a single view. By default it has 6 hours of data. It is helpful for finding blips & dips. Use this data to correlate to other dashboards.
+
+If there is a point of interest on a given graph in the dashboard, you can `click + drag` to zoom in on the graph.
 
 Remember that Grafana is used for visualizing issues and spotting problems. It won't tell us directly what is wrong. You must correlate to [the logs](/handbook/support/workflows/dedicated_logs/) to find the exact problem.
 

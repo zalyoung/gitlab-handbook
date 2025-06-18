@@ -40,7 +40,7 @@ Functional queues track team workloads (`infrastructure`, `security`, etc) and a
 
 The `production` queue tracks events in production, namely:
 
-- [changes](/handbook/engineering/infrastructure/change-management/)
+- [changes](/handbook/engineering/infrastructure-platforms/change-management/)
 - [incidents](/handbook/engineering/infrastructure/incident-management/)
 - deltas (exceptions) -- still need to do handbook write up
 
@@ -87,7 +87,7 @@ Type labels are very important. They define what kind of issue this is. Every is
 
 |       Label        | Description                                                                                                             |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------|
-|      `~Change`     | Represents a Change on infrastructure please check details on : [Change](/handbook/engineering/infrastructure/change-management/)                             |
+|      `~Change`     | Represents a Change on infrastructure please check details on : [Change](/handbook/engineering/infrastructure-platforms/change-management/)                             |
 |     `~Incident`    | Represents a Incident on infrastructure please check details on : [Incident](/handbook/engineering/infrastructure/incident-management/)                           |
 |     `~Database`    | Label for problems related to database                                                                                  |
 |     `~Security`    | Label for problems related to security                                                                                  |
@@ -147,7 +147,7 @@ to `/var/log/unattended-upgrades/*.log`.
 
 Unattended upgrades is configured to automatically patch all security upgrades for packages with the exception of the GitLab omnibus package.
 
-The critical change process is described in the [emergency change process](/handbook/engineering/infrastructure/emergency-change-processes) overview.
+The critical change process is described in the [emergency change process](/handbook/engineering/infrastructure-platforms/emergency-change-processes) overview.
 
 ### Patching Validation
 

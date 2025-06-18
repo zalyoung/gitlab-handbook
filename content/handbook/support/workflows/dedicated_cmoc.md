@@ -42,6 +42,7 @@ Follow these steps to create a new Outbound Contact Request ticket for the custo
     1. **CC** the other operational email addresses and the Customer CSM.
     1. Set the **Preferred Region for Support** to the region similar to where the tenants' `Primary Region` is located.
     1. Add a `dedicated_contacted_request` **tag** to the ticket.
+    1. Set the "Support Resolution Codes" to **Incident**.
 1. Assign the ticket to yourself.
 1. After sending the initial outreach message to the customer, mark the PagerDuty alert as **resolved**. The alert's purpose is specifically to engage the GDCMOC to start communication.
 

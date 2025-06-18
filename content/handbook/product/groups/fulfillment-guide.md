@@ -47,48 +47,13 @@ Not all Fulfillment features are available at the time for all types of customer
 
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
 
-## Fufillment support admin tooling  
+## Internal GitLab Duo license requests
 
-Last updated on 11-Nov-2024
+The [team member license process](/handbook/security/customer-support-operations/docs/team_member_licenses/) handled by Support Operations allows for generation of a legacy license file for team members looking to test or use GitLab Premium or Ultimate on a Self-managed instance. This license type is not compatible with GitLab Duo.
 
-Most of [mechanizer](https://gitlab.com/gitlab-com/support/toolbox/mechanizer) functions that are used by support L&R team is being migrated into CustomersDot admin [view](https://customers.staging.gitlab.com/admins/sign_in)
-
-- More details on phased approach can be found in this epic [here](https://gitlab.com/groups/gitlab-org/-/epics/14169)
-- We are currently making 2 functions available in production as part of our BETA roll out.
-- The goal here is to have these new CustomersDot functions co-exist with Mechanizer and identify any significant gaps during usage
-- Please provide feeback [here](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/2086 ) for future improvements or fixes as needed
-
-### New functionality in CustomersDot admin view
-
-Please navigate to **support** menu item on CustomersDot admin view to find the below functionalities
-
-#### Trial updates for Saas
-
-- This new functionality replaces the use of UpdateGitlabplan function on Mechanizer for .com trials
-- Shows a list of trials to edit
-- Click the pencil icon to open edit view of particular trial
-- Edit the end date of the trial
-- Convert to other applicable trials (Premium or Ultimate as applicable) More plans will be available in the future
-- Verify if updated trial is synced to Gitlab.com
-- [Demo](https://gitlab.com/gitlab-org/customers-gitlab-com/-/merge_requests/10561#screenshots-or-screen-recordings)
-
-#### Trial updates for SM  
-
-- This new page replaces the use of `UpdateGitlabplan` function on Mechanizer for SM trials
-- Displays a list of all trials for self managed
-- Add new license tab will allow creation of trial license for user email and user count with a start and end date
-- Please add the Zendesk ticket ID in the notes section for reference
-- [Demo](https://gitlab.com/groups/gitlab-org/-/epics/14262#note_2178647916)
-
-### How to get access to this feature on CustomersDot Admin view
-
-This feature is currently limited a few users from LnR support team but can be rolled out others in support once we have tested everything
-
-- Please note you will require the following permissions to be set via Okta to access these functions on CustomersDot view
-  - `okta-cdot-prod-support-admins` for production
-  - `okta-cdot-stg-support-admins` for staging
-- To be added to these groups - Please raise an AR request and get an approval from support team managers
-- Please note **you will not need** `license read/write permissions` on CustomersDot to use these new functions under support menu item.
+- For testing of GitLab Duo, a staging cloud license can be provided to team members. Please submit a request in the Slack channel [#g_provision](https://gitlab.enterprise.slack.com/archives/C01BPM66KNE).
+- In specific situations only, if a production cloud license is required for testing GitLab Duo, a $0 subscription may be created. Please reach out to the Order Management team to discuss in the Slack channel [#sales-support](https://gitlab.enterprise.slack.com/archives/CNLBL40H4).
+- Please note that legacy licenses are valid until expiration but a cloud license will require active staging or production data within Zuora and CustomersDot. If you have lost access during a staging refresh, please reach out in #g_provision.
 
 ## Temporary renewal extensions
 
@@ -680,6 +645,173 @@ It is important to know who received the license for further troubleshooting as 
 
 - [Troubleshooting: Licenses](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/#licenses)
 - [Changing License Owner (Contact Support)](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/#how-do-i-change-the-license-owner-for-self-managed-instances-with-licensegitlab)
+
+## Fulfillment Support Admin Tooling
+
+*Last updated: May 21, 2025*
+
+### Overview
+
+This document describes the Support Admin features that have been migrated from [mechanizer](https://gitlab.com/gitlab-com/support/toolbox/mechanizer) to the CustomersDot admin dashboard. These tools provide essential functionality for the Support Licensing & Renewals (L&R) team.
+
+**Current Status**: Migration is nearly complete, with the final function ([extend soon-to-expire SaaS subscriptions](https://gitlab.com/groups/gitlab-org/-/epics/17745)) being implemented in production.
+
+- For detailed information on the phased migration approach, see [Epic #14169](https://gitlab.com/groups/gitlab-org/-/epics/14169)
+
+### Access Requirements
+
+The Support Admin features are currently limited to select members of the L&R support team, with plans to expand access.
+
+#### Required Permissions
+
+To access these functions, you need to be part of the following Google group:
+
+- **Production environment**: `okta-cdot-prod-support-admins`
+- **Staging environment**: `okta-cdot-stg-support-admins`
+
+#### How to Request Access
+
+1. Submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=role_support-CDot-full-access-request-template)
+2. Select template `role_support-CDot-full-access-request-template` (above link auto-applies the template)
+3. Obtain approval from Support team managers
+4. Obtain approval from Fulfillment team managers (`@jameslopez` / `@rhardarson` / `@dzubova`)
+5. For access to Production, please add yourself to `okta-cdot-stg-support-admins` Google group, and `okta-cdot-prod-support-admins` for access to Staging
+
+**Note**: With the Support role, admins will get access to edit and extend SaaS trials, create self-managed emergency licenses and perform various controls on SaaS paid namespaces as listed in the section below.
+Customer and License write access is not required to use the Support admin functionalities. The admins will get read-only access to other resources, by default.
+
+### Feature Navigation
+
+All Support Admin features are accessible via the **Support** menu in the CustomersDot admin interface:
+
+- Production: https://customers.gitlab.com/admins/sign_in
+- Staging: https://customers.staging.gitlab.com/admins/sign_in
+
+### Available Features
+
+#### 1. Trial Management (SaaS)
+
+Location: `Support` → `Trial changes (SaaS)`
+
+This feature replaces the UpdateGitlabplan function in Mechanizer for .com trials and supports:
+
+1. Editing plan type and expiration date for active/expired trials
+2. Canceling active trial plans
+
+##### Edit a SaaS Trial
+
+1. Click the pencil icon to open the edit view for a trial
+2. Modify the trial end date (if applicable)
+3. Select a different trial type from the dropdown list (if applicable)
+4. Enter the Zendesk ticket link
+5. Click 'Save'
+
+##### Cancel a SaaS Trial
+
+1. Click the no-entry icon to open the cancel view for a trial
+2. Enter the Zendesk ticket link
+3. Click 'Confirm'
+
+#### 2. Self-Managed Trial Licenses
+
+Location: `Support` → `Trials for SM`
+
+This feature replaces the Emergency license function in Mechanizer for SM trials.
+
+##### Generate a Self-Managed Legacy Trial License
+
+1. Click on the `Add new License` tab
+2. Enter the required details:
+    - User email
+    - User count
+    - Start date
+    - End date
+    - Zendesk ticket link
+3. Click 'Save'
+4. An email containing the legacy license will be sent to the provided email address
+
+#### 3. Namespace Controls
+
+Location: `Support` → `Namespace controls (SaaS)`
+
+This section provides various namespace management features:
+
+##### 3.1 Set Extra CI Minutes
+
+**Purpose**: Set a specific number of extra shared runners CI minutes for a GitLab namespace
+
+**Important**: The value entered will be the new total, not added to the existing value
+
+**Steps:**
+
+1. Select `Set extra CI minutes` tab
+2. Enter Namespace ID or Path
+3. Enter the new total for extra minutes
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.2 Set Additional Storage
+
+**Purpose**: Set additional storage capacity for a GitLab namespace
+
+**Steps:**
+
+1. Select `Set additional storage` tab
+2. Enter Namespace ID or Path
+3. Enter the additional storage in MiB
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.3 Clear Subscription
+
+**Purpose**: Unlink a subscription from its namespace and downgrade the namespace to Free tier
+
+**Steps:**
+
+1. Select `Clear subscription` tab
+2. Enter Zuora Subscription ID or Name
+3. Enter the Zendesk ticket link
+4. Click 'Submit'
+
+##### 3.4 Force Re-associate
+
+**Purpose**: Re-associate a subscription with a different namespace (the previous namespace will be downgraded to Free tier)
+
+**Steps:**
+
+1. Select `Force re-associate` tab
+2. Enter target Namespace ID or Path
+3. Enter Zuora Subscription ID or Name
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.5 Reset Max Seats
+
+**Purpose**: Reset the maximum seat count for a namespace
+
+**Steps:**
+
+1. Select `Reset max seats` tab
+2. Enter Namespace ID or Path
+3. Enter new maximum seat count
+4. Enter the Zendesk ticket link
+5. Click 'Submit'
+
+##### 3.6 Extend Subscription
+
+**Purpose**: Temporarily extend soon-to-expire subscriptions
+
+**Current Limitation**: If the namespace has been associated with a trial, you'll be redirected to extend the trial to provision a temporary extension
+
+**Future Development**: Support for extending subscriptions for namespaces without previous trials is being implemented in [Issue #12874](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/12874)
+
+### Future improvements / Bug fixes
+
+For future improvements or bug fixes, please create issues in [CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/new), and tag the appropriate team:
+
+1. Trial, license & namespace tooling > Provision
+2. Consumables & max seat tooling > Utilization
+3. Billing account/contact & QSR tooling > Subscription management
 
 ## Action plan for Fulfillment-impacting bugs
 

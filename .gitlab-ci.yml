@@ -97,8 +97,8 @@ variables:
   HUGO_VERSION: '0.140.2'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   HUGOLINT_VERSION: '2.0.3'
-  MARKDOWNLINT_VERSION: '0.17.2'
-  VALE_VERSION: '3.9.4'
+  MARKDOWNLINT_VERSION: '0.18.1'
+  VALE_VERSION: '3.11.2'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
@@ -339,6 +339,8 @@ check_path_change:
     - if: $CI_MERGE_REQUEST_SOURCE_PROJECT_ID != $CI_PROJECT_ID
       when: never
     - <<: *is-fork
+      when: never
+    - if: $CI_MERGE_REQUEST_EVENT_TYPE == 'merge_train'
       when: never
     - <<: *merge-request-only
 

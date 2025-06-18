@@ -45,15 +45,15 @@ In the context of this working group:
 
 ## Roles and Responsibilities
 
-| Working Group Role     | Person                           | Title                                                 |
-|------------------------|----------------------------------|-------------------------------------------------------|
-| Executive Stakeholder  | [Tim Zallmann](@timzallmann)      | Senior Director, ~"Department::Development"           |
-| Facilitator/DRI        | [James Fargher](@proglottis)     | Senior Backend Engineer, ~"group::gitaly"             |
-| Product DRI            | [Mark Wood](@mjwood)             | Product Manager, ~"group::gitaly"                     |
-| Member                 | [Sami Hiltunen](@samihiltunen)   | Staff Backend Engineer, ~"group::gitaly"              |
-| Member                 | [John Cai](@jcaigitlab)          | Engineering Manager, ~"group::gitaly"                 |
-| Member                 | [David Kim](@dskim_gitlab)       | Senior Backend Engineer, ~"group::code review"        |
-| Member                 | [Kai Armstrong](@phikai)         | Principal Product Manager, ~"group::code review"      |
-| Member                 | [Hordur Freyr Yngvason](@hordur) | Senior Backend Engineer, ~"group::pipeline execution" |
-| Member                 | [Vasilii Iakliushin](@vyaklushin)| Staff Backend Engineer, ~"group::source code"         |
-| Member                 | [Furkan Ayhan](@furkanayhan)     | Senior Backend Engineer, ~"group::pipeline authoring" |
+| Working Group Role     | Person                                             | Title                                                 |
+|------------------------|----------------------------------------------------|-------------------------------------------------------|
+| Executive Stakeholder  | [Tim Zallmann](https://gitlab.com/timzallmann)     | Senior Director, ~"Department::Development"           |
+| Facilitator/DRI        | [James Fargher](https://gitlab.com/proglottis)     | Senior Backend Engineer, ~"group::gitaly"             |
+| Product DRI            | [Mark Wood](https://gitlab.com/mjwood)             | Product Manager, ~"group::gitaly"                     |
+| Member                 | [Sami Hiltunen](https://gitlab.com/samihiltunen)   | Staff Backend Engineer, ~"group::gitaly"              |
+| Member                 | [John Cai](https://gitlab.com/jcaigitlab)          | Engineering Manager, ~"group::gitaly"                 |
+| Member                 | [David Kim](https://gitlab.com/dskim_gitlab)       | Senior Backend Engineer, ~"group::code review"        |
+| Member                 | [Kai Armstrong](https://gitlab.com/phikai)         | Principal Product Manager, ~"group::code review"      |
+| Member                 | [Hordur Freyr Yngvason](https://gitlab.com/hordur) | Senior Backend Engineer, ~"group::pipeline execution" |
+| Member                 | [Vasilii Iakliushin](https://gitlab.com/vyaklushin)| Staff Backend Engineer, ~"group::source code"         |
+| Member                 | [Furkan Ayhan](https://gitlab.com/furkanayhan)     | Senior Backend Engineer, ~"group::pipeline authoring" |

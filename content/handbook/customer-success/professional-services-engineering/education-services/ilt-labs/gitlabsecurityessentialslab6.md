@@ -11,7 +11,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 ## Task A. Setting up a Security Policy
 
-1. Navigate to your group.
+1. Navigate to your group called `My Test Group - XXXXX`, where X is replaced by your username.
 
 1. In the left sidebar, select **Secure > Policies**.
 
@@ -55,15 +55,13 @@ Compliance scans allow you to control merge requests and security scans in your 
     print("Testing scanners!")
     ```
 
-1. Select **Commit changes**.
+1. Commit your changes to the main branch.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
 1. Select the pipeline that was created from your commit.
 
-1. Review the jobs in the pipeline. Notice how a `SAST` scan is run on this commit even though no `.gitlab-ci.yml` configuration exists.
-
-Now, the projects in your group will always have security scans, even if they aren't defined in the `.gitlab-ci.yml` file yet.
+1. Review the jobs in the pipeline. Notice how a `SAST` scan is run on this commit even though no `.gitlab-ci.yml` configuration exists. Now, the projects in your group will always have security scans, even if they aren't defined in the `.gitlab-ci.yml` file yet.
 
 ## Task C. Merge Request Policies
 
@@ -81,9 +79,9 @@ With security scans in place, it would be ideal to be able to block merge reques
 
 1. Under **Policy status**, ensure **Enabled** is selected.
 
-1. For **Policy Scope**, apply the policy to all projects in this group, without exceptions.
+1. For **Policy scope**, make sure the policy is applied to  **all projects in this group without exceptions**.
 
-1. Under **Rules**, set the scan type to **Security Scan**.
+1. Under **Rules**, set the **scan type** to **Security Scan**.
 
 1. For the scanner, select **All scanners**.
 
@@ -126,6 +124,7 @@ With security scans in place, it would be ideal to be able to block merge reques
 1. Open your `main.py` file and add the following code to it:
 
     ```py
+    import subprocess
 
     in = input("Enter your server ip: ")
     subprocess.run(["ping", in])
@@ -134,7 +133,7 @@ With security scans in place, it would be ideal to be able to block merge reques
     print("Application authentication was successful")
     ```
 
-1. Select the branch icon, then select `Commit and push to 'test_branch'`. 
+1. Select the source control icon, then select `Commit and push to test_policy'`. 
 
 1. Return to your MR.
 
@@ -149,7 +148,7 @@ With security scans in place, it would be ideal to be able to block merge reques
     print("Application authentication was successful")
     ``` 
 
-1. Select the branch icon, then select `Commit and push to 'test_branch'`. 
+1. Select the source control icon, then select `Commit and push to 'test_policy`. 
 
 1. Return to your MR. 
 

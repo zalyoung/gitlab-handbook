@@ -30,7 +30,6 @@ This Working Group has the following goals:
 1. Compile a comprehensive list of known accessibility violations.
 1. Develop and implement a plan for addressing accessibility violations, including evaluation plan/process and tooling.
 1. Identify and bridge the gaps in accessibility frontend guide.
-1. Validate existing issues regarding accessibility.
 1. Plan for internal training.
 
 #### Exit Criteria Progress
@@ -38,11 +37,10 @@ This Working Group has the following goals:
 | Criteria                                                                                                                      | Start Date | Completed Date | Progress | DRI             |
 | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------- | -------- | --------------- |
 | [Add axe-core checks to feature specs](https://gitlab.com/groups/gitlab-org/-/epics/11126)                                    | 15-08-2023 |                | 20%      | `@psjakubowska` |
-| [Add axe-core checks to components specs](https://gitlab.com/groups/gitlab-org/-/epics/11127)                                 | 16-04-2024 |                | 93%      | `@rchanila`     |
+| [Add axe-core checks to components specs](https://gitlab.com/groups/gitlab-org/-/epics/11127)                                 | 16-04-2024 | 23-05-2025     | 100%     | `@rchanila`     |
 | [Compile a comprehensive list of known accessibility violations](https://gitlab.com/groups/gitlab-org/-/epics/16378)          | 19-10-2024 | 03-01-2025     | 100%     | `@tauriedavis`  |
-| [Develop and implement a plan for addressing accessibility violations, including evaluation plan/process and tooling](https://gitlab.com/gitlab-org/gitlab/-/issues/497785) | 04-10-2024 |                | 0%       | `@you?`         |
+| [Develop and implement a plan for addressing accessibility violations, including evaluation plan/process and tooling](https://gitlab.com/groups/gitlab-org/-/epics/17945) | 04-10-2024 |                | 30%       | `@psjakubowska`         |
 | [Identify and bridge the gaps in accessibility frontend guide.](https://gitlab.com/gitlab-org/gitlab/-/issues/419777)         | 12-10-2023 | 27-02-2025     | 100%     | `@psjakubowska` |
-| Validate existing issues regarding accessibility.                                                                             | 08-10-2024 |                | 0%       | `@deepika.guliani`         |
 | [Plan for internal training](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/68) | 29-02-2024 |                | 100%     | `@jeldergl`     |
 
 ### Roles and Responsibilities
@@ -54,7 +52,6 @@ This Working Group has the following goals:
 | Functional Lead    | Paulina Sędłak-Jakubowska  | Frontend Engineer, Monitor:Respond           |
 | Functional Lead    | Rahul Chanila              | Senior Frontend Engineer, Package            |
 | Functional Lead    | Jeremy Elder               | Staff Product Designer, Manage:Foundations   |
-| Member             | Enrique Alcántara          | Senior Frontend Engineer, Create:Editor      |
 | Member             | Lisa Falcone               | Senior Paralegal, Legal & Corporate Affairs  |
 | Member             | Scott de Jonge             | Senior Frontend Engineer, Manage:Foundations |
 | Member             | Rajan Mistry               | Frontend Engineer, Plan:Product Planning     |

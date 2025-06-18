@@ -173,3 +173,57 @@ First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the 
 | Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/) |
 
 This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27).
+
+##### How to build a quick Review app for a product documentation Translation MR
+
+Building a review app means pointing the Hugo application to the correct branch which contains those changes. 
+Here's a step by step process on how you can achieve this:
+
+1. Go into [main-development products.yaml](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main-development/data/products.yaml)
+2. Find the project and edit the `default_branch` field to match the Translation MR’s branch
+3. Save the edits to a new branch and create a new MR titled “Draft: Review of <Translation MR Name>”
+4. Update MR’s description to specify what the MR is for and why. Link any related issues, merge requests, or external resources such as an Argo request URL
+5. Add a list of URLs to check in the review app
+6. Once the pipeline completes, you can access the review app through the "View App" button
+
+## Localization engineering by partnership with Spartan Software
+
+The Localization team partners with [Spartan Software, Inc.](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/41) to develop and maintain the [localization request management system](https://gitlab.com/groups/gitlab-com/localization/-/epics/35) and a suite of microserices and integrations. Spartan Software engineers and architects provide specialized expertise in language technology platforms and integrations.
+
+The suite of various integrations, components and microservcies is referred to by the overarching term of **Argo**. See high level architecture [here](https://gitlab.com/groups/gitlab-com/localization/-/epics/35#note_1963781412), and the GitLab-specific architecture [here](https://gitlab.com/groups/gitlab-com/localization/-/epics/35#note_2526391642).
+
+### Engineering labels and workflow related to Argo
+
+We use the following scoped labels to track Argo engineering work performed by Spartan Software:
+
+| Label | Purpose | Usage |
+| ------ | ------------ | ------ |
+| `Argo-Engineering` | Core Argo enhancements requiring engineering work from Spartan Software | Applied to all Argo development work |
+| `Argo-Engineering::Complete` | Enhancement completed and deployed to production | Applied when Spartan delivers finished work |
+| `Argo-Engineering::In Progress` | Active development work being performed by Spartan | Applied when development starts on an enhancement |
+| `Argo-Engineering::Ready for Deployment` | Development complete, enhancement ready for review and deployment | Applied when Spartan completes development and testing |
+
+### Argo system components
+
+Argo serves as GitLab's centralized localization technology and management infrastructure, encompassing:
+
+* **Request Management System**: centralized intake and tracking of localization requests across all GitLab content types, both manual or automatic via integrations
+* **Translation Management System integrations**: automated connections between GitLab systems and commercial TMS platforms (Phrase, TranslationOS, Contentful, etc.)
+* **[Argo GitLab Agent](https://gitlab.com/gitlab-com/localization/argo-gitlab-agent)**: a purpose-built microservice / component of the Argo ecosystenm for specialized localization-related tasks, such as translatable file pre- / post-processing, etc.
+* **[Argo-GitLab Integration](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration) aka [GitLab Translation Service](/handbook/engineering/architecture/design-documents/gitlab_translation_service/)**: direct integrations with GitLab projects, merge request workflows, and CI/CD pipelines
+
+### Argo engineering board
+
+The [Argo Development board](https://gitlab.com/groups/gitlab-com/localization/-/boards/9354744?label_name[]=Argo-Engineering) board displays all issues with `Argo-Engineering` labels and provides visibility into:
+
+* Current development work in progress by Spartan Software
+* Completed enhancements ready for deployment via relevant [milestones](https://gitlab.com/groups/gitlab-com/localization/-/milestones)
+* Planned Argo system improvements and integrations
+
+### Communication channels
+
+`#spartan-software`: Direct Slack communication channel with Spartan Software engineering team
+
+Technical coordination occurs through GitLab issues tagged with appropriate Argo-Engineering labels
+
+This partnership enables the Localization team to maintain sophisticated translation infrastructure while focusing internal engineering team on core localizability, feature development and enhancements for marketing website, GitLab product documentation, and GitLab product.

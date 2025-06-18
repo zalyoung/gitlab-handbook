@@ -21,12 +21,38 @@ Also check: [VR troubleshooting guide](https://docs.gitlab.com/ee/user/applicati
 |  Upstream errors such as "The upstream AI provider request timed out without responding" | This may indicate an issue with our third-party AI. This could be Anthropic outage - check [status](https://status.anthropic.com/).|
 | Specific recurring errors like "an unexpected error has occurred" | This may indicate an issue with the creation of the diff patch or MR. Refer to [Error handling code](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/completions/resolve_vulnerability/helpers.rb) |
 | False positive errors | We handle empty responses and empty <fixed_code> as false positives. [Documentation](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#troubleshooting), [Response modifier code](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/response_modifiers/resolve_vulnerability.rb) |
-| If you see that the VR button is disabled, that means that the CWE is not part of the supported list at this time. |  Feature coverage restriction: VR is available for a set of CWEs, check SSOT [doc](https://docs.google.com/spreadsheets/d/1G5zN4s4Inw2xhcyZP1U1oDW1erJuxL7QZsXSoOGNKeI/edit?gid=1605042126#gid=1605042126). |
+| If you see that the VR button is disabled, that means that the CWE is not part of the supported list at this time. |  Feature coverage restriction: VR is available for a set of CWEs, check SSOT [documentaton](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution) and [spreadsheet](https://docs.google.com/spreadsheets/d/1G5zN4s4Inw2xhcyZP1U1oDW1erJuxL7QZsXSoOGNKeI/edit?gid=1605042126#gid=1605042126). |
 | Query custom errors in Elastic | Check this [dashboard](https://log.gprd.gitlab.net/app/r/s/8no4f) for further investigation. |
+
+### CWE Support
+
+#### Vulnerability Explaination 
+
+Vulnerability Explaination is enabled for all SAST vulnerabilities.
+
+#### Vulnerability Resolution
+
+Vulnerability Resolution is enabled for SAST vulnerabilities, only for a specific set of CWEs documented at [Supported vulnerabilities for Vulnerability Resolution](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution).
+
+We determine whether a vulnerability supports Vulnerability Resolution based on its CWE identifier. This support is tracked using two mechanisms:
+
+1. Database field on vulnerability records `has_vulnerability_resolution`
+
+   The database field is populated and backfilled during [ingestion](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/services/security/ingestion/tasks/ingest_vulnerability_reads/update.rb), meaning any successful pipeline run on the default branch after a CWE list update will ensure it contains the latest values.
+
+   This field is used, for example, in:
+   - The Vulnerability Report (for filtering and display)
+   - Vulnerability Details (e.g., availability of "Resolve with AI")
+
+   > **Attention:** Background migrations aren’t strictly required to backfill this value, but they are currently an established part of our workflow (see [example migration](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/188420)). Any changes to this process must be clearly documented.
+1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
+   - Used for pipeline findings (e.g., in merge requests), meaning they haven’t been fully ingested as vulnerability records yet and the `has_vulnerability_resolution` field in the database remains unset.
+
+> **Note:** Unsupported CWEs may be tested by enabling the `ignore_supported_cwe_list_check` feature flag at the project level ([MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/175608))
 
 ### Dashboard to see logs
 
-1. [Production log dashboard](https://log.gprd.gitlab.net/app/r/s/Bfmiw) - shows request/response/error
+1. [Production log dashboard](https://log.gprd.gitlab.net/app/r/s/Ke9id) - shows request/response/error as well as p50/p90/p99 for the timings of the duo request
 1. [Staging log dashboard](https://nonprod-log.gitlab.net/app/r/s/2OKmz)
 
 ### Monitoring VR alerts

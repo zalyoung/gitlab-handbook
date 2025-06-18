@@ -543,8 +543,6 @@ All other important dates for a milestone are relative to the release date:
 - **Monday, 5 days before the milestone begins**:
   - Release scope is finalized. In-scope issues marked with milestone `%x.y`; label `~deliverable` applied.
   - Kickoff document is updated with relevant items to be included.
-- **Friday before the milestone begins**:
-  - [Group Kickoffs calls](/handbook/product/product-processes/#kickoff-meetings) recorded and uploaded.
 - **Monday immediately after the milestone begins**: ***Kick off!*** 📣
   - [Company Kickoff](#kickoff) call live streamed.
   - Development on milestone begins.
@@ -618,13 +616,9 @@ These actions will be applied to open issues:
 - Open issues and merge requests will be moved to the next milestone, and
   labeled with `~"missed:x.y"`.
 - `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
-    is presented.
+  is presented.
 
 Milestones are closed when the Delivery team no longer needs to create a backport release for a specific milestone.
-
-## Kickoff Public Stream Instructions
-
-The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/company/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 
@@ -820,7 +814,7 @@ Triage of infradev Issues is desired to occur asynchronously. These points below
    1. Sometimes infradev issues will resolve on their own, or are resolved as a side-effect of an unrelated change.
    1. In the infradev issue description, provide a clear way of checking whether the problem still exists.
    1. Having a way of checking validity can save on a great deal of back-and-forth discussion between Infradev Triage participants including Engineering Managers, Directors and Product Managers and make space for other non-resolved issues to get scheduled sooner.
-   1. Ideally, provide a link to a Thanos query or an ELK query and clear instructions on how to interpret the results to determine whether the problem is still occurring. [Check the "Verfication" section in this issue as an example of this](https://gitlab.com/gitlab-org/gitaly/-/issues/3670#verification).
+   1. Ideally, provide a link to a Grafana query or an ELK query and clear instructions on how to interpret the results to determine whether the problem is still occurring. [Check the "Verfication" section in this issue as an example of this](https://gitlab.com/gitlab-org/gitaly/-/issues/3670#verification).
    1. Alternatively, provide clear instructions on how to recreate or validate the problem.
    1. If an issue has been resolved, use the following process:
       1. Reassign the issue back to the author, or an appropriate owner, requesting that they confirm the resolution, and close the issue  if they concur. If not, they should follow up with a note and unassign themselves.

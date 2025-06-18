@@ -185,6 +185,22 @@ flowchart TD
     class PipelineStageA,PipelineStageB,PipelineStageC,MachineCreation,ReplayPerformed,MachinesDeleted pipelineStep
 ```
 
+### Security and Retention
+
+Note that the recorded traffic capture would contain RED data.
+We plan to treat this data the same way that we treat the WAL archives we already store for backup / restore validation, which contain roughly the same data in a different format (the results of queries rather than their text). Specifically we'll store the query text in a traffic-capture bucket in the production environment, similar to WAL data, and perform replay testing in the db-benchmarking environment, also similar to how we currently run other testing.
+We will retain capture data for only 14 days, before it will be deleted by a lifecycle rule on the traffic-capture bucket
+The traffic-capture bucket will inherit most of its permissions from gitlab-production gcp project rules or gitlab.com gcp organization rules. However it will also be accessible by a traffic-capture service account which will have the roles/storage.objectUser permission necessary to perform traffic capture, and a traffic-replay service account which will have the roles/storage.objectUser permission necessary to perform traffic replay.
+
+We are using GCP's native PubSub, so message encryption is handled by default, and service accounts are used for authentication.
+A service account representing Gitlabs rails nodes will recieve the role roles/pubsub.publisher on the traffic capture pub/sub topic to allow it to add messages to the pubsub queue.
+
+The traffic-capture service account will receive the roles
+
+- roles/pubsub.subscriber on the traffic-capture pubsub subscription and the traffic-capture pubsub topic
+- roles/pubsub.viewer on the traffic-capture pubsub topic
+- roles/dataflow.worker for the entire project. Unfortunately this necessary role [can only be assigned on an entire project](https://cloud.google.com/dataflow/docs/concepts/access-control#:~:text=Dataflow%20Worker-,(roles/dataflow.worker),-Provides%20the%20permissions). Luckily, traffic-capture is the only functionality which uses Dataflow in gitlab-production. 
+
 ## Alternative Solutions
 
 1. We could capture query traffic at the connection pooler level, using

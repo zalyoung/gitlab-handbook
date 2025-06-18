@@ -13,9 +13,9 @@ The People Group works together to establish a high performance and results driv
 
 We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab's business results. We hire, promote, and recognize team members who best live our values.
 
-The People Group strategy is to set the [foundation for GitLab's 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
+The People Group strategy is aligned with [GitLab's Company Strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on supporting GitLab's ability to deliver on our FY26 Plan while setting the foundations to build a generational company.
 
-We've published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
+We've published more information about how this vision translates to strategy and for People Group members and GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1xTujbhXNB0UBPK9aLOZUODo13G2aQKdubJxSkhV_fXg/edit?usp=sharing).
 
 ## Connect with us
 
@@ -212,7 +212,7 @@ Administrative access to CultureAmp will be limited based on role and responsibi
 - Survey Creator administrator access can create, manage and design surveys, select participants and share results.
 - Survey data analyst administrator can export raw data from all surveys enabled for raw data extract.
 
-To request access please open an access request with the type of account [access requested](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
+To request access please open an access request with the type of account [access requested](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
 
 If you need support with a specific CultureAmp Survey, please complete this [issue template](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/blob/main/.gitlab/issue_templates/survey_request.md) to alert the People Analytics Team.
 

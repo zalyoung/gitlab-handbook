@@ -128,17 +128,17 @@ Anyone can **halt or block a deployment to Production** by:
 3. Alert the Release Managers in the [#releases](https://gitlab.slack.com/archives/C0XM5UU6B) channel.
 
 In addition, automated deployments to **any production environment** (including [canary]), are
-halted during the change lock period. Currently, the change lock period is between every **Friday 23:00 UTC and Monday 06:00 UTC** as well as during any [scheduled Production Change periods](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl).
+halted during the change lock period. Currently, the change lock period is between every **Friday 23:00 UTC and Monday 06:00 UTC** as well as during any [scheduled Production Change periods](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl).
 
 During the change lock period, manual deployment can be triggered through GitLab ChatOps if the deployment fixes **a severity::1 availability or security issue**.
 
 Deployments to production will be blocked by the following events:
 
 1. An [active incident with the `blocks deployment` label](/handbook/engineering/infrastructure/incident-management/#labeling).
-1. Ongoing [change issues with the `blocks deployment` label](/handbook/engineering/infrastructure/change-management/#change-criticalities).
+1. Ongoing [change issues with the `blocks deployment` label](/handbook/engineering/infrastructure-platforms/change-management/#change-criticalities).
 1. Failures in [blocking (`smoke` and `reliable`) automated end-to-end tests targeting staging canary (gstg-cny), staging (gstg), production canary (gprd-cny), and production (gprd)](/handbook/engineering/testing/end-to-end-pipeline-monitoring/).
 
-Release Managers may decide, with input from the [EOC](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) to override a block and continue with the deployment.
+Release Managers may decide, with input from the [EOC](/handbook/engineering/infrastructure/incident-management/#incident-response-roles) to override a block and continue with the deployment.
 
 ## Labels of importance
 

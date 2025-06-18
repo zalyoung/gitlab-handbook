@@ -54,8 +54,6 @@
         url: /handbook/company/pricing
     - name: Office of the CEO
       url: office-of-the-ceo
-    - name: Group Conversations
-      url: group-conversations
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
@@ -155,11 +153,11 @@
     url: /handbook/engineering/development/
     links:
     - name: Dev Sub-department
-      url: /handbook/engineering/development/dev/
+      url: /handbook/engineering/devops/dev/
     - name: Fulfillment Sub-department
       url: /handbook/engineering/development/fulfillment/
     - name: Ops Sub-department
-      url: /handbook/engineering/development/ops/
+      url: /handbook/engineering/devops/ops/
     - name: Software Supply Chain Security Sub-department
       url: /handbook/engineering/development/sec/software-supply-chain-security/
     - name: Secure Sub-department

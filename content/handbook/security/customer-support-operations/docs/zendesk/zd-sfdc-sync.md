@@ -124,6 +124,7 @@ SELECT
   Restricted_Account__c,
   Solutions_Architect_Lookup__r.Name,
   Support_Hold__c,
+  Support_Instance__c,
   (
     SELECT
       Id,
@@ -154,7 +155,11 @@ WHERE
             '24x7 US Citizen Support - 1 Year',
             '24x7 US Citizen Support - 2 Year',
             '24x7 US Citizen Support - 3 Year',
-            '24x7 US Citizen Support - Monthly'
+            '24x7 US Citizen Support - Monthly',
+            'GitLab Dedicated for US Public Sector - Ultimate - 1 Year',
+            'GitLab Dedicated for US Public Sector - Ultimate - 2 Year',
+            'GitLab Dedicated for US Public Sector - Ultimate - 3 Year',
+            'GitLab Dedicated for US Public Sector - Ultimate - Monthly'
           ) OR
           Zuora__Account__r.Support_Instance__c = 'federal-support'
         )
@@ -210,7 +215,11 @@ WHERE
           '24x7 US Citizen Support - 1 Year',
           '24x7 US Citizen Support - 2 Year',
           '24x7 US Citizen Support - 3 Year',
-          '24x7 US Citizen Support - Monthly'
+          '24x7 US Citizen Support - Monthly',
+          'GitLab Dedicated for US Public Sector - Ultimate - 1 Year',
+          'GitLab Dedicated for US Public Sector - Ultimate - 2 Year',
+          'GitLab Dedicated for US Public Sector - Ultimate - 3 Year',
+          'GitLab Dedicated for US Public Sector - Ultimate - Monthly'
         ) OR
         Zuora__Account__r.Support_Instance__c = 'federal-support'
       )

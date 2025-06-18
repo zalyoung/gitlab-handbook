@@ -235,7 +235,7 @@ Despite the high priority of velocity to our project and our company, there is o
 
 Our hundreds of Engineers collectively make thousands of independent decisions each day that can impact GitLab.com and our users and customers there. They all need to keep availability and security in mind as we endeavor to be the most productive engineering organization in the world. We can only move as fast as GitLab.com is available and secured. Availability of self-managed GitLab instances is also extremely important to our success, and this needs to happen in partnership with our customers' admins (whereas we are the admins for GitLab.com).
 
-For security, we prioritize it more highly by having strict SLAs around priorities labels with [security issues](/handbook/security/#severity-and-priority-labels-on-security-issues). This shows a security first mindset as these issues take precedence in a given timeframe.
+For security, we prioritize it more highly by having strict SLAs around priorities labels with [security issues](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues). This shows a security first mindset as these issues take precedence in a given timeframe.
 
 ### Leverage Established Processes
 
@@ -246,7 +246,7 @@ For example, the following processes exist to reduce the risk and improve code q
 - [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
 - [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
 
-We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/development/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis/), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
+We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/devops/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis/), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
 
 Everyone can contribute by proposing new processes and improving upon existing processes.
 

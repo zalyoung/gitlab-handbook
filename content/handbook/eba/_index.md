@@ -11,11 +11,12 @@ This page details processes and general guidelines specific to the Executive Bus
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
 | [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA | Bill Staples (CEO) |
-| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | TBC | Stella Treas (Chief of Staff) |
-| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) <br>Johnny Scarborough (VP Support) |
+| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Linsea O'Shea**<br>Sr EBA | Stella Treas (Chief of Staff)/Interim Head of Product Marketing |
+| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Marin Jankovski (Sr. Director of Infrastructure)<br>Tim Zallmann (VP of Engineering, Core Development)<br>Michael Wildpaner (VP Engineering) |
+| [Engineering](/handbook/engineering/) | **Kyra Wright**<br>EBA | Johnny Scarborough (VP of Support)<br>Michelle Gill (Director of Engineering, DevOps) |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
-| [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
+| [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>TBC (VP of Internal Audit) |
 | [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |
 | [Legal & Corporate Affairs](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
 | [Legal & Corporate Affairs](/handbook/legal/)  | **TBC**<br>EBA  |Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs)<br> Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
@@ -27,7 +28,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Angela Pesta (VP UX) |
 | [Sales](/handbook/sales/) | **Missy Keasler**<br>Staff EBA | Ian Steward (CRO) - effective 2025-05-05|
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education)<br>Sherrod Patching (VP of CSMS) - interim support |
-| [Sales](/handbook/sales/) | **TBC**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
+| [Sales](/handbook/sales/) | **Lauren Traylor**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Nick Cayou (VP of WW Channels & Alliances) |
 | [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of AMER Sales) |

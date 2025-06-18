@@ -27,7 +27,6 @@ Marketing Operations supports the marketing organization to streamline processes
 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Jenny Tiemann](https://gitlab.com/jennyt) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Robert Rosu](https://gitlab.com/RobRosu) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
-| [Mihai Conteanu](https://gitlab.com/MihaiConteanu) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager) |
 | [Salina Tran](https://gitlab.com/stran5) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
 | [Jameson Burton](https://gitlab.com/jburton) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
 | [Evan Mathis](https://gitlab.com/emathis) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
@@ -61,8 +60,6 @@ When making an update to a handbook page for `ABM`, `FMM`, `MOps`, or `SDR` hand
 
 **Slack channels**
 
-We do not use or create tool-specific Slack channels (e.g. `#marketo`).
-
 - [#hbupdate-mktgops](https://gitlab.slack.com/archives/mktgops) - This channel is used to automatically post new [handbook updates](#handbook-updates) that have been merged.
 - [#mktgops](https://gitlab.slack.com/archives/mktgops) - We use this channel for general marketing operations support, weekly marketing operations team standup updates, and key system status updates. We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
   - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
@@ -93,12 +90,6 @@ If an emergency communication needs to be send out, Marketing Ops will need to a
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How We Work
 
-<div class="flex-row" markdown="0">
-  <div>
-    <a href="https://gitlab.com/gitlab-com/marketing/marketing-operations" class="btn btn-purple" style="width:200px;margin:5px;">Marketing Operations project</a>
-  </div>
-</div>
-
 ### Issue Boards
 
 1. [Asana team Board](https://app.asana.com/0/1208702011967252/1208702155234648) - General and Ad-hoc requests
@@ -115,8 +106,6 @@ The MktgOps team works from issues and issue boards. If you are needing our assi
 Please do not re-open issues that have been closed in a previous milestone.
 
 ### OKRs
-
-To track progress on and provide visibility to team OKRs each quarter, Marketing Operations uses the OKR feature in GitLab to organize our team-wide work. Current Marketing Operations OKRs can be found [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=MktgOps&first_page_size=100).
 
 Check out our [quarterly highlights trackers](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=all&label_name%5B%5D=mktgops-highlights&first_page_size=20) to learn more about the key results we've accomplished.
 
@@ -222,7 +211,7 @@ Stage
 
 ### Milestones
 
-The MktgOps team works in two week iterations which are tracked as milestones at the `GitLab.com` level. Each individual contributor (IC) is responsible for adding issues to the milestone that will be completed in the two-week time frame. If needed, the IC will separate the main issue into smaller pieces that are _workable_ segments of the larger request.
+Each individual contributor (IC) is responsible for adding issues to the milestone that will be completed in the two-week time frame. If needed, the IC will separate the main issue into smaller pieces that are _workable_ segments of the larger request.
 
 At the end of every milestone, we will post a thread in the #mktgops Slack channel with links to the Issues that we are moving to the next milestone. Context as to why an Issue is moving to a new milestone will be posted in the Issue (not in the Slack thread). The goal of this is to proactively and transparently communicate to our business partners and to empower marketing operations team members to intentionally and thoughtfully manage their work in each milestone.
 
@@ -240,7 +229,7 @@ A milestone cannot be closed nor marked complete until the milestone's accompany
 
 ### Marketing Changelog
 
-Periodically Marketing Operations and other teams through the marketing org make significant changes to our system and processes that affect overall tools, data and reporting or uncovers significant changes that affected reporting. As such we have a shared [changelog](https://docs.google.com/spreadsheets/d/1FHiKhQukMVfwKsBJDzyrsuzuw2bv97xQFhegvFXTeNQ/edit#gid=0). The MktgOps and Strategy/Perf teams update this document as needed as changes are made. If you are working on an issue or epic that will have a significant impact across marketing, add the label `MktgOps - changelog` so marketing oeprations can track changes across GitLab.
+Periodically Marketing Operations and other teams through the marketing org make significant changes to our system and processes that affect overall tools, data and reporting or uncovers significant changes that affected reporting. As such we have a shared [changelog](https://docs.google.com/spreadsheets/d/1FHiKhQukMVfwKsBJDzyrsuzuw2bv97xQFhegvFXTeNQ/edit#gid=0). The MktgOps and Marketing Analytics teams update this document as needed as changes are made. If you are working on an issue or epic that will have a significant impact across marketing, add the label `MktgOps - changelog` so marketing operations can track changes across GitLab.
 
 ## <i class="far fa-handshake" id="biz-tech-icons"></i> Teams We Work Closely With
 
@@ -279,8 +268,6 @@ The marketing operations team uses collective merge requests, known as our miles
 ### Working with Sales Systems for SFDC Updates
 
 The MktgOps team frequently works with the [Sales Systems team](/handbook/sales/field-operations/sales-systems/) to make changes in Salesforce.com (SFDC). See the below information regarding the process for working with Sales Systems for these changes and SLAs we adhere to.
-
-Video: [Marketing Salesforce.com Sandbox Training - Creating Changesets](https://www.youtube.com/watch?v=tTaepVgxoe8)
 
 If a field needs to be created in Marketo AND SFDC, it must be created in SFDC first and then added to the Marketo User Permission set within SFDC. From there, the field will sync down to Marketo. If you miss this order of operations and the field is created in Marketo first, you will need to still follow the directions above and then open a support to re-map the fields. **Use [documentation for Marketo](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary) for field types.
 
@@ -371,7 +358,7 @@ The SSoT for all tools at GitLab is the  [Tech Stack Applications page](/handboo
 
 We are constantly evaluating new tools to help create efficiency, data accuracy and provide additional functionality. If you have a pain point, or have come across a new technology you'd like to explore further, please let us know by creating a tool eval issue. To see our current list use the label `Ops Tool Evaluation` or [click here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Ops%20Tool%20Evaluation&first_page_size=20). Please also follow process and directions [listed in the sections](/handbook/marketing/marketing-operations/#new-tool-purchase-process).
 
-As a compliment to the Tech Stack, we created a visual of the Tier 1 and 2 tools in Marketing Technology stack, aligned to our customer journey.
+As a compliment to the Tech Stack, we created a visual of the Tier 1 and 2 tools in [Marketing Technology stack](https://docs.google.com/presentation/d/1K2BOlZNYmN4DdufC_OrVUe1HaJgjlKpsnVc-Gd-gb-o/edit?slide=id.p#slide=id.p), aligned to our customer journey.
 
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRw2uP4L3iNIzfQfrkohsvpNnCGex7Qu1LRov6bpAH2S-l9aU5zO6qmZO1flMGqoii-CO2V8GxrcPx8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -432,7 +419,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 
 ### Requesting access to an existing tool
 
-To request access to an existing tool in the stack, [please follow the access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+Most of our tools have been migrated to Lumos for provisioning, so follow that procedure first. If you cannot find the tool in Lumos, [please follow the access request process](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook. 
 
 If you are working with a contractor or consultant that requires access to a tool in our stack, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 
@@ -663,7 +650,7 @@ On the lead object we have three types of address information, the local/persona
   - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
 - `UPA Company Address` - stored on the `Company Adress: Country`, `Company Adress: State`, `Company Adress: City`, `Company Adress: Street`, `Company Adress: Postal Code` text fields. These fields are updated through APEX code through a 3-step waterfall approach.
   1. `Account Demographics Fields` (i.e: `Account Demographics: UPA City`) - If the lead matches to an existing account the address is populated through the Account Demographic fields, taken from the account associated with this lead;
-  2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](//handbook/marketing/sales-development/#scheduling-iqms) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).
+  2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](/handbook/marketing/sales-development/#scheduling-iqms) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).
   3. `Zoominfo Company Address Fields` (i.e: `[ZI] Company Country`) - If the lead doesn't match an account, it was not overwritten using the Admin Override Fields mentioned above and the lead matches to Zoominfo's database, the Company Address fields are populted with Zoominfo Company Address information from the Zoominfo Company Address fields.
 - `Zoominfo enrichment address information` which as can be of two types, personal (local) or company level address;
 
