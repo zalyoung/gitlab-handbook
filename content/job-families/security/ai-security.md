@@ -83,11 +83,11 @@ The role is a [grade 10](/handbook/total-rewards/compensation/compensation-calcu
 
 #### Director, AI Security Responsibilities
 
-All responsibilities listed above (applicalbe to all roles).
+All responsibilities listed above (applicable to all roles).
 
 #### Director, AI Security Requirements
 
-All requirements listed above (applicalbe to all roles).
+All requirements listed above (applicable to all roles).
 
 #### Director, AI Security Performance Indicators
 
