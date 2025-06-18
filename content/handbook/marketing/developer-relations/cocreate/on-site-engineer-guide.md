@@ -76,7 +76,7 @@ This guide provides practical advice for making your on-site engagement successf
 ### Communication Challenges
 
 - **Different working styles**: Adapt to customer team preferences and communication patterns
-- **Variable engagement levels**: Some participants may be highly motivated while others are just "along for the ride" - adapt your approach accordingly
+- **Variable engagement levels**: Participants can range from passive observers to highly motivated contributors - adapt your approach accordingly
 - **Technical language barriers**: Explain GitLab-specific terminology and concepts clearly
 - **Government/enterprise restrictions**: Some customers can't use Discord, external chat tools, or screen sharing - have alternatives ready
 - **Physical logistics**: Government sites may require escorts, have restricted lunch options, or limited meeting spaces - plan accordingly
