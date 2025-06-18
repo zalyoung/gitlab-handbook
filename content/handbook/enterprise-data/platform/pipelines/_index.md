@@ -19,7 +19,7 @@ flowchart LR
 subgraph data platform
 
     object_storage --> warehouse
-    custom_pipeline --> object_storage@{ shape: procs, label: "object storage"}
+    custom_pipeline --> object_storage[[object storage]]
 
     subgraph snowflake
         snowflake_share[(share)] --> warehouse[(data warehouse)]
