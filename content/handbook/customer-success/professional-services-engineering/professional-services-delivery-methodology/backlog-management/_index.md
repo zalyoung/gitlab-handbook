@@ -17,7 +17,7 @@ The problem arises from a combination of issues such as:
 
 The following picture shows how these things are strongly related:
 
-![IntegrateBizAndIT.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/IntegrateBizAndIT.jpg)
+![IntegrateBizAndIT.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/IntegrateBizAndIT.jpg)
 
 ## Prerequisites
 
@@ -57,7 +57,7 @@ Many efforts require you to manage three backlogs:
 2. The **Release Backlog**, which is the subset of functionality that will have to be delivered in a specific release (consisting of a set of sprints), according to the product roadmap and release plan – active for a specific release
 3. The **Sprint Backlog**, which represents the work to be done for the upcoming sprint – active for the sprint duration
 
-![Product Backlog](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/Agile-Release-Planning.jpg)
+![Product Backlog](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/Agile-Release-Planning-Sprint.jpg)
 
 Labels can be used to tag user stories / issues.
 
