@@ -46,16 +46,16 @@ This document builds on the dashboard foundation established by the [Dashboard L
 it outlines the architecture for a dashboard customization framework that enables user-dirven dashboard creation and personalization across GitLab.
 
 The dashboard customization framework provides Vue components and UI patterns that allow for user-driven customization of dashboard layouts.
-Users can use it to add/remove panels, position & resize elements, edit text, and to save their personalized dashboard configurations. This framework
-is agnostic about where dashboard configurations are stored, instead focussing purely on the customization user experience. 
+Users can use it to add/remove panels, position & resize elements, edit text, and to save their personalized dashboard configurations. The framework
+is agnostic about where dashboard configurations are stored, instead focussing purely on the customization user experience.
 
-The customizable dashboard component is a drop-in replacement for existing use cases of the dashboard layout framework. Internerally it wraps the
+The customizable dashboard component is a drop-in replacement for existing use cases of the dashboard layout framework. Internally it wraps the
 dashboard layout component and extends its capabilities to allow for user-driven customization that align with GitLab's Pajamas design system.
 
 ## Motivation
 
 Currently dashboards provide valuable insights but are static in nature. Users cannot personalize their dashboards to focus on the metrics most
-relevant to their workflows, responsibilities, or user roles. This limitations severly limits the effectiveness of dashboards as an analytics tool
+relevant to their workflows, responsibilities, or user roles. This limitations severely limits the effectiveness of dashboards as an analytics tool
 for our customers.
 
 Furthermore, without user-customization the responsibility for meeting our customer's diverse analytics needs falls entirely on product teams.
@@ -72,8 +72,11 @@ updating dashboard layouts and visualizations instead of focusing on core featur
 
 ### Non-Goals
 
-- The dashboard customization framework does not include [Data Exploration](../gitlab_data_exploration/_index.md) outside defined panel visualizations.
-- The dashboard customization framework does not define where [dashboards should be listed or placed in the navigation](https://gitlab.com/gitlab-org/gitlab/-/issues/536612).
+The dashboard customization framework does not:
+
+- Include [Data Exploration](../gitlab_data_exploration/_index.md) outside defined panel visualizations
+- Define where [dashboards should be listed or placed in the navigation](https://gitlab.com/gitlab-org/gitlab/-/issues/536612)
+- Define how or where dashboard configurations are stored
 
 ## Proposal
 
@@ -90,25 +93,31 @@ editing the dashboard layout, panels and filter should render and behave as a st
 
 ### Dashboard layout
 
-- When not in an editing state, the dashboard look and behave the same as a static dashboard except for a new edit action
-- When editing, allow for the input and description to be edited
-- When editing, the user should be able to save or discard changes made
-- When editing, the dashboard reverts to its original state when changes are discarded
-- When editing, the dashboard produces a modified configuration when changes are saved
-- When editing, the dashboard shows a warning message when unsaved changes will be lost
-- When editing, optionally allow for the user to to add new visualizations
+When not editing, the dashboard look and behave the same as a static dashboard except for a new edit action.
+
+When editing:
+
+- Users can edit the title and description
+- Users can discard unsaved changes and revert the dashboard back to its original state
+- The dashboard produces a modified configuration when the user opts to save changes made
+- The dashboard shows a warning message when unsaved changes will be lost
+- Optionally allow for users to to add new visualizations
 
 ### Panels
 
-- When not in an editing state, panels look and behave the same as on a static dashboard
-- When editing, panels can be dragged and snapped into a new grid position
-- When editing, panels can be resized with a new height and width
-- When editing, allow the user to remove panels
+When not editing, panels look and behave the same as on a static dashboard.
+
+When editing:
+
+- Panels can be dragged and snapped into a new grid position
+- Panels can be resized with a new height and width
+- Panels can be removed
 
 ### Filters
 
-- When not in an editing state, filters should look and behave the same as on a static dashboard
-- When editing, filters should be hidden to reduce visual clutter
+When not editing, dashboard-level filters should look and behave the same as on a static dashboard.
+
+When editing, the framework should hide dashboard-level filters by default to reduce visual clutter.
 
 ## Getting started
 
