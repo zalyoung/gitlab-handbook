@@ -4,6 +4,10 @@ description: Some frequently asked questions
 canonical_path: "/handbook/security/customer-support-operations/frequently-asked-questions/"
 ---
 
+## How can I quickly check the status of the various Customer Support Operations components?
+
+You can use our [status page](https://statuspage.incident.io/cust-support-ops/main) to check on the status our component.
+
 ## If we receive any problem in using Zendesk, can we contact Zendesk directly?
 
 Please contact Customer Support Operations team first. Discuss the problem by asking a question in channel and tagging @support-ops. It is a high probability that we can help you resolve the problem at hand. In cases where we cannot and we do need to contact Zendesk support directly, it is best to have Customer Support Operations handle that.
