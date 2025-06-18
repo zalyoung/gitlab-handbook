@@ -16,6 +16,12 @@ We desire an automated solution for synchronizing application settings across mu
 
 Currently, GitLab.com's transition to a distributed deployment model with cells organized in rings presents operational challenges. While Ring 0 (legacy monolith) uses Helm charts for settings control, Ring 1+ cells require manual SRE updates, creating operational overhead, configuration drift risk, and scalability concerns as the number of cells and rings expands.
 
+## Key Terminology
+
+- **Desired State**: The intended configuration defined in version-controlled repositories (imperative configuration-as-code)
+- **Actual State**: The current runtime configuration present in live cell instances
+- **Configuration Drift**: When actual state diverges from desired state
+
 ## Requirements
 
 | Requirement | Description |
@@ -34,8 +40,8 @@ Currently, GitLab.com's transition to a distributed deployment model with cells 
 
 A solution for settings synchronization across cells should address the following requirements:
 
-1. **Configuration as Code**: Store all settings in version-controlled repositories
-2. **Source of Truth**: Consider treating live cells as the source of truth rather than relying on state files. For operational configurations like settings, the live system could serve as an authoritative reference to prevent drift and enable direct verification.
+1. **Configuration as Code**: Store all settings in version-controlled repositories as the desired state
+2. **State Verification**: Read actual state from live cells to verify against desired state defined in version control, preventing configuration drift and enabling direct verification of applied settings.
 3. **Ring-Based Deployment**: Build upon the existing ring deployment model
 4. **Hierarchical Settings**: Support inheritance from base settings to ring-specific and cell-specific overrides
 5. **Concurrent Application**: Apply settings to all cells within a ring simultaneously for consistency
@@ -95,7 +101,7 @@ ringctl setting-sync --ring=<ring_name> [options]
 This implementation could potentially:
 
 1. Support concurrent operations across multiple cells in a ring
-2. Implement a get-then-update pattern to ensure settings are only changed when needed
+2. Implement a get-then-update pattern that reads actual state from cells and compares against desired state from version control
 3. Provide detailed feedback on operations
 4. Include appropriate error handling and resilience mechanisms
 
@@ -173,7 +179,7 @@ end
 - **Enhances Flexibility**: Enables both global consistency and cell-specific customizations when needed
 - **Supports Scalability**: Could handle increasing numbers of cells and rings through concurrent execution
 - **Provides Atomicity**: Helps ensure all cells in a ring are updated together
-- **Maintains Source of Truth**: Uses live cells as the source of truth rather than non-living records
+- **Maintains Configuration Integrity**: Compares actual state from live cells against desired state in version control to detect and correct drift
 - **Strengthens Security**: Uses service account authentication instead of personal tokens
 - **Provides Visibility**: Offers clear success/failure information for each operation
 
@@ -212,7 +218,7 @@ Several options could address this challenge:
 
 **Considerations**:
 
-- Provides a declarative approach with Git as source of truth
+- Provides an imperative approach with Git as the desired state
 - Includes built-in reconciliation mechanisms
 - Creates a good audit trail via Git history
 - Might have interactions with existing Instrumentor and ringctl patching to consider
