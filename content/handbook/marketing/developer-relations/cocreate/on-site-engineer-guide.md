@@ -93,6 +93,9 @@ This guide provides practical advice for making your on-site engagement successf
 - **Identify champions**: Help customer teams identify who will drive future contributions
 - **Establish ongoing support channels**: Set up communication paths with GitLab team members for continued collaboration after the on-site
 - **Plan follow-up support**: Ensure customers know how to get help after you leave
+  - Commit to 2 hours/week for 2 weeks post-visit for MR reviews and questions
+  - Account for a 30-minute check-in call in your schedule 1 week after the on-site
+  - Provide your GitLab handle for async questions in MR threads
 
 ### Community Integration
 
