@@ -28,7 +28,7 @@ Application Security managers are responsible for:
 
 ### Capacity expectations
 
-On average it's expected that ICs have 3 to 4 issues that are estimated to be classified as `AppSecWeight::Large` from our [Effort Classification table](./metrics/capacity.md#effort-classification) depending on the rotations and planned PTO.
+On average it's expected that ICs have 3 to 4 issues that are estimated to be classified as `AppSecWeight::Large` from our [Effort Classification table](./metrics/capacity.md#effort-classification) depending on the rotations and planned PTO. Team members may have more issues if they are rated as less effort, or less issues if rated as higher effort.
 
 ## Issues and Labels
 
@@ -61,7 +61,19 @@ The label assignment can be done by leadership (AppSec or at higher levels), or 
 | AppSecPriority::2 | Work priority that is important and is prioritized as soon as all `AppSecPriority::1` work is completed. `AppSecPriority::2` work will become `AppSecPriority::1` on the next milestone. |
 | AppSecPriority::3 | Work priority that is less important and is prioritized as soon as all `AppSecPriority::2` work is completed. `AppSecPriority::3` will be evaluated during Milestones Planning Sessions and may become `AppSecPriority::2` for the next milestone. |
 
-### Updating issues health
+### Unplanned work
+
+Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned issue is added after the milestone began:
+
+- Document why the work needs to be prioritized in the issue
+- Apply the `Unplanned` label
+- If the unplanned work is large enough to displace other planned issues, inform the applicable stakeholders so they are aware that their issue is being delayed
+
+### SIRT/PSIRT incidents impact on planned work
+
+Is it important to know when an issue has been delayed due to a SIRT/PSIRT incident. Follow our guidelines in the [Capacity Metrics page](./metrics/capacity.md#work-impacted-by-sirt-incidents) to know which label to add in those cases.
+
+### Providing Issues Status & Health Updates
 
 DRIs are responsible for providing weekly updates at the end of the week on their assigned topics using the following format.
 
@@ -86,12 +98,14 @@ DRIs are responsible for providing weekly updates at the end of the week on thei
 
 These reports provide critical visibility into progress, plans, and potential issues, allowing leadership to make informed decisions and offer timely support when needed.
 
+At the same time the [issue health status feature](https://docs.gitlab.com/user/project/issues/managing_issues/#health-status) must be updated to match with the `Overall Status/Confidence` update.
+
 Updating the issue milestone is required:
 
 - On a weekly basis, at the end of the week.
 - Whenever the DRI knows they won't be able to finish it for the end of the milestone
 
-## Milestone Planning Issue
+## Milestone Planning Process
 
 For each Milestone, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/?label_name%5B%5D=Milestone%20Planning) is created in the Application Security team repository. The purpose of this issue is to:
 
@@ -101,8 +115,6 @@ For each Milestone, a [Milestone Planning issue](https://gitlab.com/gitlab-com/g
 - Set and communicate priority for the work we've decided to take on
 
 This issue is the single source of truth for all planning related discussions and decisions related to the upcoming Milestone.
-
-## Milestone Planning Process
 
 ### Manager(s)
 
@@ -134,9 +146,13 @@ This issue is the single source of truth for all planning related discussions an
     1. The Application Security Manager will use threads in the Milestone Planning issue to work with each Application Security team member to finalize their workload
     1. Once finalized, the Milestone Planning issue should be closed
 
+#### At the end of the milestone
+
 ### Rotations
 
-[HackerOne](/handbook/security/product-security/application-security/runbooks/hackerone-process/) and [Triage](/handbook/security/product-security/application-security/runbooks/triage-rotation/) rotation issues are created through the [rotation management tool](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/).
+[HackerOne](/handbook/security/product-security/application-security/runbooks/hackerone-process/) and [Triage](/handbook/security/product-security/application-security/runbooks/triage-rotation/) rotation issues are created through the [rotation management tool](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/) and automatically assigned to team members.
+
+If you need to swap one rotation, read our [Rotation tool's FAQ](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/-/tree/main?ref_type=heads#faq) on how to do it.
 
 We can visualize all rotations in [this rotation table](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/-/blob/main/rotations.md?ref_type=heads).
 
@@ -154,14 +170,6 @@ We can visualize all rotations in [this rotation table](https://gitlab.com/gitla
 - Across the whole milestone, is the total operational + project weight achievable?
 
 When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.
-
-### Unplanned work
-
-Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned issue is added after the milestone began:
-
-- Document why the work needs to be prioritized in the issue
-- Apply the `Unplanned` label
-- If the unplanned work is large enough to displace other planned issues, inform the applicable stakeholders so they are aware that their issue is being delayed
 
 ### Parking Lot section
 
