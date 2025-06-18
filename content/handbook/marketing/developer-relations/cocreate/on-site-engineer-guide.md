@@ -4,7 +4,7 @@ title: "Co-Create On-Site Engineer Guide"
 
 ## Overview
 
-The Co-Create Program enables our customers to collaborate directly with GitLab engineers to contribute features, fixes, and enhancements to the platform. As an on-site engineer, you'll spend one week working closely with customer engineers to kick off their contribution journey and establish long-term collaboration patterns.
+The Co-Create Program enables our customers to collaborate directly with GitLab engineers to contribute features, fixes, and enhancements to the platform. This is a GitLab-sponsored program, not a paid consulting service. As an on-site engineer, you'll spend one week working closely with customer engineers to kick off their contribution journey and establish long-term collaboration patterns.
 
 This guide provides practical advice for making your on-site engagement successful, based on experiences from previous Co-Create engineers.
 
