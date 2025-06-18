@@ -103,7 +103,8 @@ $schema: https://gitlab-com.gitlab.io/kinds/rate-limits/v1.0.0/rate-limits.yaml
 rate_limits:
   git_basic_auth:  # Unique identifier for this rate limit
     description: Limits basic authentication requests per IP to prevent abuse
-    actors: ip_address  # Actors (ip_address, user, group)
+    actors:  # Actors (ip_address, user, group)
+      - ip_address
     feature_category: system_access
     enabled: true
     action: block  # Action (block, log)
@@ -113,7 +114,8 @@ rate_limits:
 
   project_exports:  # Unique identifier for this rate limit
     description: Limits number of project exports a user can initiate
-    actors: user  # Actors (ip_address, user, group)
+    actors:  # Actors (ip_address, user, group)
+      - user
     feature_category: importers
     enabled: true
     action: log  # Action (block, log)
