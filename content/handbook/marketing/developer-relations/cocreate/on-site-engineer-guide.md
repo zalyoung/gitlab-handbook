@@ -25,6 +25,7 @@ This guide provides practical advice for making your on-site engagement successf
 - **Establish practical communication**: Set up a communication channel that works for the customer team (WhatsApp group, Signal, phone numbers, etc.) for day-of coordination like building access, directions, or schedule changes
 - **Share travel itinerary**: Exchange contact information and travel details in advance to ensure smooth arrivals and coordination
 - **Verify setup requirements early**: Confirm customer teams have adequate time for GDK setup (can take 1-2 days). Set clear deadlines for environment preparation before the on-site
+- **Create community forks**: Ensure necessary community forks are created upfront for contributions
 - **Align on expectations**: Confirm the week's agenda, goals, and success criteria
 - **Understand team dynamics**: Learn about the customer engineers' experience levels, roles, and motivation levels
 
