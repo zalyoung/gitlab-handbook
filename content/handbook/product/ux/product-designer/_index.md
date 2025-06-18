@@ -73,6 +73,15 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives. Follow this guide to support your work: [Designing with AI: A Guide for Product Designers](/handbook/product/ux/product-designer/ai-design.md)
 
+### Designing with modes
+
+With the addition of dark mode support in the product, there are a few design considerations:
+
+- Design in light mode by default; light mode is the most used mode preference in the product and the default for Pajamas UI Kit design assets.
+- Designing in dark mode should be a deliberate decision when the mode is a primary factor in the design or is needed during [research](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test) (point 5).
+- Use dark mode to validate design decisions and use of design tokens (variables in Figma).
+- Continue to monitor analytics to determine if the default should be changed.
+
 ### Aiming towards "sophisticated simplicity"
 
 The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity, Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
