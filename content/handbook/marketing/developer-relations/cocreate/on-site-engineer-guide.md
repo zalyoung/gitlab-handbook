@@ -144,6 +144,7 @@ This guide provides practical advice for making your on-site engagement successf
 
 ### For Customers
 
+- [Contributor Platform](https://contributors.gitlab.com)
 - [Contributor Documentation](https://docs.gitlab.com/ee/development/contributing/)
 - [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - [Community Discord](https://discord.gg/gitlab)
