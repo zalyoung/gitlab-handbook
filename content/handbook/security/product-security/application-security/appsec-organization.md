@@ -7,7 +7,6 @@ This page provides you with the resources:
 
 - To understand how the work of the team is organised
 - To know in which repositories we are performing our work
-- To know how to contact us
 
 ## Work Organization
 
@@ -72,9 +71,3 @@ Learn more about our security review process in our [dedicated page](appsec-revi
 - GitLab Instance Hardening Recommendations:
   - Our [official documentation](https://docs.gitlab.com/security/hardening/) (shipped with each version and available in self-managed instance documentation)
   - Our [Handbook recommendations](https://about.gitlab.com/security/hardening/)
-
-## Getting Help
-
-- **Slack**: `#sec-appsec` or mention `@appsec-team`
-- **GitLab**: Mention `@gitlab-com/gl-security/product-security/appsec`
-- **Issues**: Use appropriate templates in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues)

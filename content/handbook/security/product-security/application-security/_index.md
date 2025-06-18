@@ -65,9 +65,7 @@ The [Product Security Incident Response Team's](appsec-operations/psirt-services
 
 ## Appliction Security Organization
 
-### Milestone Planning
-
-The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process](/handbook/security/product-security/application-security/milestone-planning/)
+Learn more how our team work is organized on [this specific page](appsec-organization.md). You will find how we plan our work and our main repositories used in our daily work.
 
 ## Contacting us
 
