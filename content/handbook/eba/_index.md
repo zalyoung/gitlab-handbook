@@ -11,7 +11,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
 | [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA | Bill Staples (CEO) |
-| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Linsea O'Shea**<br>Sr EBA | Stella Treas (Chief of Staff)/Interim Head of Product Marketing |
+| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Linsea O'Shea**<br>Sr EBA | Stella Treas (Chief of Staff, Interim Head of Product Marketing) |
 | [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Marin Jankovski (Sr. Director of Infrastructure)<br>Tim Zallmann (VP of Engineering, Core Development)<br>Michael Wildpaner (VP Engineering) |
 | [Engineering](/handbook/engineering/) | **Kyra Wright**<br>EBA | Johnny Scarborough (VP of Support)<br>Michelle Gill (Director of Engineering, DevOps) |
@@ -19,18 +19,19 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>TBC (VP of Internal Audit) |
 | [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |
 | [Legal & Corporate Affairs](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
-| [Legal & Corporate Affairs](/handbook/legal/)  | **TBC**<br>EBA  |Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs)<br> Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
+| [Legal & Corporate Affairs](/handbook/legal/) | **Victoria Hutson**<br> EBA | Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs) <br> Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)|
+| [Legal & Corporate Affairs](/handbook/legal/)  | **TBC**<br>EBA  |Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
 | [Marketing](/handbook/marketing/)| **Kato Faylor**<br> Staff EBA | Ashley Kramer (CMSO & Interim CRO) |
-| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Jean-Baptiste Larramendy (VP of Sales Development)<br>Laura Fagan (Sr. Chief of Staff, CMSO) |
-| [Marketing](/handbook/marketing/)| **Erin Talanda**<br>Sr EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics)<br> Amie Bright (VP of Data & Insights) |
+| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Laura Fagan (Sr. Chief of Staff, CMSO) |
+| [Marketing](/handbook/marketing/)| **Jazmin Cox**<br>Sr EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics) |
 | [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA | Rob Allen (CPO)<br>Karen Iacobucci (VP of People Operations and Technology)<br> Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) <br> Justin Farris (VP of Product Management) |
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Angela Pesta (VP UX) |
 | [Sales](/handbook/sales/) | **Missy Keasler**<br>Staff EBA | Ian Steward (CRO) - effective 2025-05-05|
-| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education)<br>Sherrod Patching (VP of CSMS) - interim support |
+| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Jean-Baptiste Larramendy (VP of Sales Development) <br> Amie Bright (VP of Data & Insights)|
 | [Sales](/handbook/sales/) | **Lauren Traylor**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
-| [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Nick Cayou (VP of WW Channels & Alliances) |
+| [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Nick Cayou (VP of WW Channels & Alliances)<br> Lee Work (Sr Director, Sales Strategy & Analytics) |
 | [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of AMER Sales) |
 | [Sales](/handbook/sales/) | **Oana Migeon**<br>EBA | Michel Isnard (VP of EMEA Sales) |
 | [Security](/handbook/security/) | **Marisa Carlson**<br>Staff EBA  | Josh Lemos (CISO) <br> Julie Davila (VP of Product Security)  |
