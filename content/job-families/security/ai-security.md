@@ -109,7 +109,6 @@ All responsibilities listed above (applicalbe to all roles).
 
 All requirements listed above (applicalbe to all roles).
 
-
 #### Senior Director, AI Security Performance Indicators
 
 - {add 3-5 KPIs that this role will be the DRI for, if the PIs are the same for all levels remove this section and use the heading 2 section later in the template}
