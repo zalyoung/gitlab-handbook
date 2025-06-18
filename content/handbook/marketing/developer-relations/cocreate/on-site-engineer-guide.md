@@ -137,7 +137,7 @@ This guide provides practical advice for making your on-site engagement successf
 
 ### During Your On-Site
 
-- **Co-Create Team**: Available for process questions and escalations
+- **Co-Create Project Manager**: Available for process questions, scheduling, and escalations
 - **Product Managers**: For feature alignment and roadmap questions
 - **Engineering Managers**: For technical architecture and code review guidance
 - **Contributor Success Team**: For community and ongoing support questions
