@@ -56,7 +56,7 @@ Before submitting a request for support, please:
 1. **Review relevant documentation** - Check the specific team's documentation, handbook pages, and any related GitLab docs
 2. **Search previous issues** - Look through existing customer issues in the relevant team's project
 3. **Check team-specific channels** - Reach out in the appropriate team's Slack channel first for quick questions:
-   - Geo: `#g_geo` or `#spd_pod_geo`
+   - Geo: `#spd_pod_geo` for general questions and documentation clarifications, `#g_geo` for anything else.
    - Cells: `#g_cells_infrastructure`
    - Organizations: `#g_organizations`
 
