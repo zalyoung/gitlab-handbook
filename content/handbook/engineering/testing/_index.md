@@ -136,7 +136,6 @@ our established request process:
 - [Code Review Guidelines](../../engineering/workflow/code-review/) - Mandatory review process for all merge requests
 - [Product Engineer guide to E2E test failure issues](guide-to-e2e-test-failure-issues.md)
 
-
 #### 📹 GitLab End-to-End Testing Overview (Video)
 
 <figure class="video_container">
