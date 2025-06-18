@@ -19,7 +19,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>TBC (VP of Internal Audit) |
 | [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |
 | [Legal & Corporate Affairs](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
-| [Legal & Corporate Affairs](/handbook/legal/)  | **Victoria Hutson**<br> EBA  |Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs) <br> Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)<br>
+| [Legal & Corporate Affairs](/handbook/legal/)  | **Victoria Hutson**<br> EBA | Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs) <br> Matt Taylor (VP of Legal, Commercial) <br> Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG) |
 | [Legal & Corporate Affairs](/handbook/legal/)  | **TBC**<br>EBA  |Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
 | [Marketing](/handbook/marketing/)| **Kato Faylor**<br> Staff EBA | Ashley Kramer (CMSO & Interim CRO) |
 | [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Laura Fagan (Sr. Chief of Staff, CMSO) |
