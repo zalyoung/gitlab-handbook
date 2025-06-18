@@ -4,25 +4,29 @@ title: "GitLab Laptop Management"
 
 ## Introduction
 
-The EUS team oversees all laptop procurement and management. While certain aspects, such as endpoint management yools configurations, are supported by other parts of the CorpSec team, we generally act as the point of contact for all related issues.
+The EUS team oversees all laptop procurement and management. Certain aspects, such as endpoint management configurations, are supported by other parts of the CorpSec team, we generally act as the point of contact for all related issues.
 
-At GitLab, we use centralized laptop management for company issued devices. If you are in possession of a company issued laptop, the details below apply to you. However, not all endpoint management technologies GitLab deploys will be required for Apple, Linux, and Windows laptops. Some technologies may be specific to the hardware platform or operating system.
+At GitLab, we use centralized laptop management for company issued devices. If you are in possession of a company issued device, the details below apply to you. However, not all endpoint management technologies GitLab deploys will be required for all devices. Some technologies may be specific to the hardware platform or operating system.
 
 ## Laptop Specs
 
-GitLab approves and supports the use of Linux and Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Windows is not supported as a hardware laptop OS.
+GitLab approves and supports the use of Linux and macOS for team member laptops. To keep GitLab IT Support efficient, Windows is not supported as a laptop OS.
 
 Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/) page.
 
-The operating system choices have obviously affected the hardware selection process.
+The operating system choices have affected the hardware selection process.
 
-Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system.
+Apple hardware is the recommended choice for GitLab team members. Team members may select a Dell Linux laptop if they are familiar with Linux and are capable of self-support.
 
 ### Apple Hardware
 
-We aim to provide the most up-to-date hardware for all laptop orders. However, while the exact specs will vary based on availability, we guarantee the below at a minimum:
+We pre-order laptops through our global vendors to ensure quick delivery and a consistent experience for all team members.
 
-* MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
+**Laptop configurations vary by regional inventory availability.** For example, some regions may have 2024 models in Space Gray while others have 2025 models in Silver. We prioritize providing the most current hardware available for all orders.
+
+Our standard laptop offerings include:
+
+* MacBook Pro 14-inch - 16GB Unified memory / 512GB storage **Standard model**
 * MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
 * MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
 
@@ -31,26 +35,21 @@ Most roles that require higher performance machines are approved for a 14" or 16
 ### Linux Hardware
 
 {{% alert color="warning" %}}
-IT strongly encourages team members to select Macs; please only request a Linux laptop if you are experienced in Linux and capable of self-support.
+Corporate Security strongly encourages team members to choose a Mac. Please only request a Linux laptop if you are experienced in Linux and capable of self support. Linux is **not** a substitute for Windows if you don’t know how to use Macs.
 {{% /alert %}}
 
-**Below are roles that qualify for Linux Laptops**
+We have standardized on the [Dell Precision 5690](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp) Mobile Workstation laptop. Due to supply constraints, specific models available from these lines may vary.
 
-* Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5690 line. Due to supply constraints, specific models available from these lines may vary. EUS will work with each person to find an available model meeting at least the following specifications: 
+Dell does not currently sell laptops pre-installed with Linux in some countries; team members will need to install Linux themselves in those cases.
 
-- 16" Display
-- Intel i9 CPU or equivalent
-- 512GB SSD
-- 32GB Memory
+\*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**.
 
-\*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
-
-Our **only approved Linux laptop vendor at this time is Dell**. These laptops generally come pre-loaded with Ubuntu Linux in order to save money on unused Windows licenses.
+Our **only approved Linux laptop vendor is Dell**. These laptops generally come pre-loaded with Ubuntu Linux in order to save money on unused Windows licenses.
 
 Dell is GitLab's exclusive Linux vendor for the following reasons:
 
 * Dell has the longest history of shipping laptops with Linux pre-installed among major manufacturers.
-* Dell is able to ship laptops to all countries in which GitLab employees live.
+* Dell is able to ship laptops to most countries in which GitLab team members live.
 * As we move forward with Zero Trust networking solutions, we need to have a stable and unified platform for deployment of software components in the GitLab environment.
     Standardization on a single platform for Linux simplifies this.
 * The current Ubuntu LTS is the preferred Linux platform; Ubuntu LTS has a record of stability and quick patching.
@@ -60,25 +59,24 @@ Dell is GitLab's exclusive Linux vendor for the following reasons:
 
 ### Windows for Customer Support and Product Development
 
-While GitLab limits the Laptop Hardware OSes supported for team member daily work, specific roles will need to use Windows for Customer Support and Product Development to ensure excellent platform and ecosystem support for GitLab customers and partners who develop for the Microsoft Ecosystem.
+Windows cannot be used to access GitLab Corporate services (e.g. Slack, G-Suite, GitLab.com); Windows OS can only be used in addition to a GitLab managed device. We understand specific roles will need to use Windows to ensure platform and ecosystem support for GitLab customers and partners who develop for the Microsoft Ecosystem.
 
-Microsoft Windows Professional (Desktop OS) and Windows Server may need to be used by some technical roles for supporting GitLab customer usage of Windows and developing GitLab software. These editions can be used for support and development purposes using virtualization or cloud instances and are self-supported and must be in compliance with [all endpoint policies](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/), [including installation of SentinelOne](/handbook/security/corporate/systems/sentinelone/) as well all information in this section.
+The usage of virtualized Windows is highly preferred and should satisfy most support and development need. Complete details about Windows usage is available on the internal [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/#windows-for-customer-support-and-product-development) page.
 
-Complete details about Windows usage is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/) page.
 
 ## Laptop Management Policies
 
-In addition to specific hardware requirements, we also employ various policies and software solutions to ensure that all GitLab devices remain safe.
+In addition to specific hardware requirements, we also employ various policies and software solutions to ensure that all GitLab devices remain secure.
 
 ### Endpoint Management
 
 #### Jamf
 
-[Jamf](https://www.jamf.com/) allows us to remotely manage all of our Macs and perform tasks such as pushing updates, and remotely locking and wiping laptops. All new Macs shipped by GitLab are typically automatically enrolled in Jamf but it may be necessary to manually enroll a lapttop if it was self-procured. It is not possible to access any system behind Okta from a Mac that is not enrolled in Jamf.
+[Jamf](https://www.jamf.com/) allows us to remotely manage all of our Macs to perform tasks such as pushing updates, encrypting devices, remotely locking and wiping laptops, etc. All new Macs purchased and shipped by GitLab vendors are automatically enrolled in Jamf. It may be necessary to manually enroll a laptop if it was self-procured. GitLab Corporate services should not be accessed from a Mac that is not enrolled in Jamf.
 
 #### Fleet
 
-(Fleet)[https://fleetdm.com/] is an Open-Source remote maangement system that is required to be installed on all of our Linux and Windows devives in order to be able to access any GitLab service behind Okta. It allows us to remotely manaage all enrolled laptops to ensure security compliance, and perform tasks such as remotely loicking and wiping machines.
+(Fleet)[https://fleetdm.com/] is an Open-Source remote management system that is required to be installed on all Dell devices in order to be able to access GitLab Corporate services. Similar to Jamf, it allows us to remotely manage enrolled laptops to ensure security compliance, and perform tasks such as remotely locking and wiping machines.
 
 ### Backblaze
 
@@ -86,11 +84,12 @@ In addition to specific hardware requirements, we also employ various policies a
 
 ### Apple IDs
 
-While the use of an Apple ID is currently not required to use a GitLab-owned Mac, we do allow users to [create new IDs](https://support.apple.com/en-us/108647?device-type=web) using their GitLab email addresses.
-The use use of personal Apple IDs on GitLab-owned devices is prohibited as per the following reasons:
+Laptops should be configured with security in mind.
+
+We require the use of an @gitlab.com Apple ID that is separate from any personal Apple ID's you may have. Some of these reasons include:
 
 * Backups, keychains and documents are all considered sensitive information, and should not be stored in personal services.
 * 2FA for remote lock, wipe, or account resets are common methods of account compromises, and ensuring the use of GitLab.com email addresses also ensures we are in control of that aspect of multi-factor authentication.
 * Keeping a strong separation between work and personal accounts will help prevent the accidental leak of information from one to the other, in either direction.
 
-Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/corporate/services/laptops/security/).
+Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/corporate/services/laptops/security/) when configuring your new laptop.

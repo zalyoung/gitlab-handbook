@@ -18,7 +18,7 @@ Your Apple ID consists of an email address and a password. It’s the account yo
 
 We require the use of an @gitlab.com work Apple ID that is separate from your personal Apple ID to mitigate the following risks:
 
-- Backups, keychains and documents are all considered sensitive information, and should not be stored in personal services.
-- 2FA for remote lock, wipe, or account resets are common methods of account compromises, and ensuring the use of GitLab.com email addresses also ensures we are in control of that aspect of multi-factor authentication.
-- Keeping a strong separation between work and personal accounts will help prevent the accidental leak of information from one to the other, in either direction.
-- Defense in depth, in part, means you make a best effort to be secure at each layer.
+* Backups, keychains and documents are all considered sensitive information, and should not be stored in personal services.
+* 2FA for remote lock, wipe, or account resets are common methods of account compromises, and ensuring the use of GitLab.com email addresses also ensures we are in control of that aspect of multi-factor authentication.
+* Keeping a strong separation between work and personal accounts will help prevent the accidental leak of information from one to the other, in either direction.
+* Defense in depth, in part, means you make a best effort to be secure at each layer.

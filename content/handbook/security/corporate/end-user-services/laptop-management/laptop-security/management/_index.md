@@ -4,7 +4,7 @@ title: Laptop Remote Management and Monitoring
 
 ## Overview
 
-GitLab has a large and ever-growing fleet of laptops (a.k.a. endpoints) that Corporate Security is responsible for maintaining.
+GitLab has a large and ever growing fleet of laptops (a.k.a. endpoints) that Corporate Security is responsible for maintaining.
 
 We use endpoint management and fleet intelligence tools to help us meet our Zero Trust security policies and compliance needs.
 
@@ -16,11 +16,11 @@ We use this data for asset management and to retroactively review that all machi
 
 We have the ability to push and automatically install software packages, and most importantly, the ability to remotely [wipe your laptop](/handbook/security/corporate/end-user-services/laptops/wipe) if needed.
 
-All GitLab purchased laptops are enrolled in Jamf MDM during [onboarding](/handbook/security/corporate/end-user-services/onboarding101/) or laptop [refresh](/handbook/security/corporate/services/laptops/refresh).
+All GitLab purchased laptops are enrolled in MDM during [onboarding](/handbook/security/corporate/end-user-services/onboarding101/) or a laptop [refresh](/handbook/security/corporate/services/laptops/refresh).
 
-All GitLab laptops are [wiped](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe) in the event they are lost or compromised during a security incident, and before they are [donated](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#latop-donations), [returned](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#latop-returns), or replaced due to a [repair](/handbook/security/corporate/end-user-services/laptop-management/laptop-repairs/) or [refresh](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes) with or without a [buyback](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks).
+All GitLab laptops must be [wiped](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe) in the event they are lost or compromised during a security incident, and before they are [donated](/handbook/security/corporate/services/laptops/donation/), [returned](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#latop-returns), or replaced due to a [repair](/handbook/security/corporate/end-user-services/laptop-management/laptop-repairs/) or [refresh](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes) with or without a [buyback](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks).
 
-Your personal laptop is not enrolled in Jamf, and cannot be used for accessing GitLab accounts or business data. If you have a (rare) use case for a second laptop, see the [laptop procurement](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering) page.
+Your personal laptop should not be enrolled in MDM, and cannot be used for accessing GitLab accounts or business data. If you have a (rare) use case for a second laptop, see the [laptop procurement](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering) page.
 
 ## Endpoint Detection and Response (EDR)
 
@@ -28,8 +28,8 @@ As a vendor platform, SentinelOne is monitoring real-time activity, and is simil
 
 This is only used for retroactive security investigations and we do not proactively monitor for your activity. In other words, it's not a "big brother" monitoring approach, it's for having as much forensic breadcrumb trail data as possible in the event that your computer is breached or for a legal hold matter. We have exemption policies in place for countries with stringent personal privacy laws.
 
-- [SentinelOne Handbook Page](/handbook/security/corporate/systems/sentinelone)
-- [Personal Privacy Audit Demo Slides](https://docs.google.com/presentation/d/1C2ufNXF28l0KTd5PPTkq1TjUWeWPI44VfwYbsvOzkns/edit)
+* [SentinelOne Handbook Page](/handbook/security/corporate/systems/sentinelone)
+* [Personal Privacy Audit Demo Slides](https://docs.google.com/presentation/d/1C2ufNXF28l0KTd5PPTkq1TjUWeWPI44VfwYbsvOzkns/edit)
 
 ## Legal Holds and Investigations
 

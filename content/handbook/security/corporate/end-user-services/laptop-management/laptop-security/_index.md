@@ -2,7 +2,7 @@
 title: Laptop Security Configuration Standards
 ---
 
-New laptops should be configured with security in mind. See the linked configuration guides and policies below.
+All laptops should be configured with security in mind. See the linked configuration guides and policies below.
 
 Do not install software with many known security vulnerabilities.
 
