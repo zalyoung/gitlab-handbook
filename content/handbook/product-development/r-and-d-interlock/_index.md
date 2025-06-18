@@ -483,7 +483,7 @@ Each interlock epic will be linked to its corresponding workstream epic, allowin
 
 ### When to use this process
 
-Not all work requires going through this interlock process. Regular development work that doesn't require cross-functional alignment, significant resource commitment or go-to-market coordination can continue to use standard workstream epics and issues. 
+Not all work requires going through this interlock process. Regular development work that doesn't require cross-functional alignment, significant resource commitment, or go-to-market coordination can continue to use standard workstream epics and issues. 
 
 Work proposed via the R&D Interlock process will benefit from:
 
