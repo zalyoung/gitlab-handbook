@@ -14,7 +14,7 @@ The Application Security team maintains several key repositories that support ou
 **Key Uses**:
   - Track team initiatives and operational improvements
   - Coordinate cross-team collaboration efforts
-  - Plann milestone work
+  - Plan milestone work
 
 ### Application Security reviews
 
@@ -50,13 +50,18 @@ Learn more about our security review process in our [dedicated page](appsec-revi
 ### Public Security Resources
 
 - [GitLab Security Disclosure](https://about.gitlab.com/security/disclosure/)
+   * Details our coordinated security disclosure policy and process
 - [HackerOne Bug Bounty Program](https://hackerone.com/gitlab)
-- [Security Release Process](https://about.gitlab.com/releases/categories/releases/)
-
+   * Our Bug Bounty HackerOne program policy
+- [GitLab Release and Patch Releases Process](https://handbook.gitlab.com/handbook/engineering/releases/)
+   * Consult our Handbook page dedicated to our Release and Patch Release Process
+  
 ### Documentation
 
-- [GitLab Secure Documentation](https://docs.gitlab.com/ee/user/application_security/)
-- [Security Best Practices](https://docs.gitlab.com/ee/user/application_security/secure_your_application.html)
+- [How to Secure our Application Using GitLab Application Security Features](https://docs.gitlab.com/ee/user/application_security/secure_your_application.html)
+- GitLab Instance Hardening Recommendations:
+  - Our [official documentation](https://docs.gitlab.com/security/hardening/) (shipped with each version and available in self-managed instance documentation)
+  - Our [Handbook recommendations](https://about.gitlab.com/security/hardening/)
 
 ## Getting Help
 
