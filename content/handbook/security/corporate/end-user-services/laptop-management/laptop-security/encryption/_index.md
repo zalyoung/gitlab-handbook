@@ -4,7 +4,7 @@ title: Laptop Disk Encryption
 
 ## Overview
 
-All laptops are required to have hard drive disk encryption enabled.
+All laptops are required to have hard drive disk encryption enabled. Our Jamf polcies will automatically enable Disk Encyption
 
 All team members needed to provide proof of disk encryption in the new laptop order or onboarding issue.
 
@@ -25,7 +25,7 @@ You need to enable FileVault to ensure that your laptop hard drive is encrypted.
 
 ### Linux
 
-TODO
+You need to enable Disk Encryption when you first set up the OS. Enabling the feature later is not recommended as it can lead to instability. 
 
 ## Proof of Encryption
 

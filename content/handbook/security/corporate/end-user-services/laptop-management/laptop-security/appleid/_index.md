@@ -6,11 +6,11 @@ title: Apple ID for Work
 
 **Please create a new Apple ID** using your `{handle}@gitlab.com` work email address to keep your personal and work data separate.
 
+If you encounter errors when creating an Apple ID via your laptop's system settings, please follow [this guide](https://support.apple.com/en-us/108647?device-type=web) to create an ID via Apple's web portal.
+
+**Do not provide any personal credit card information when creating the account**
+
 **Do not sign into your MacBook with a personal email address Apple ID.**
-
-When prompted for a credit card for purchases, use a personal card. You can submit expense reports for apps that you purchase on the App Store using an `@gitlab.com` Apple ID.
-
-- [Vendor Docs](https://support.apple.com/en-us/108647)
 
 ## Background Context
 

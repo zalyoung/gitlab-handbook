@@ -27,8 +27,6 @@ For team members that are security conscious, you can purchase and expense 3rd p
 
 Be sure to allow Jamf and SentinelOne to communicate with their management consoles.
 
-<!-- TODO: Add link to SentinelOne agent troubleshooting offline -->
-
 ## Network Exceptions
 
 Sometimes a team member needs to test a particular scenario that requires bypassing of the firewall.
