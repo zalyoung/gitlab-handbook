@@ -21,6 +21,7 @@ Application Security team members are responsible for:
 - Adding potential work items to the [Parking Lot](#parking-lot-section) and being involved in discussions around what work we should pull into the Milestone.
 - Collaborating with Application Security managers to finalize the set of work being committed to for the Milestone.
 - Assigning the right [labels to issues](#issues-and-labels).
+- Escalate to the manager(s) as soon as they know work won't be finished according to the planning.
 
 Application Security managers are responsible for:
 
