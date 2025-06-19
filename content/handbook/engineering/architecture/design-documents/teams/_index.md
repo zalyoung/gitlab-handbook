@@ -149,28 +149,24 @@ The existing custom roles system addresses permission granularity through 40+ sp
 ### Non-Goals
 
 1. **Replacement of groups or radical architectural restructuring**
-
-    - Teams are designed to complement groups, not replace them
-    - Groups will continue to provide namespace management, settings inheritance, and project organization
-    - We explicitly avoid a "one-way door" decision that would require rewriting vast portions of the system
-    - Focus remains on solving access management problems while preserving organizational hierarchy benefits
+   - Teams are designed to complement groups, not replace them
+   - Groups will continue to provide namespace management, settings inheritance, and project organization
+   - We explicitly avoid a "one-way door" decision that would require rewriting vast portions of the system
+   - Focus remains on solving access management problems while preserving organizational hierarchy benefits
 
 2. **Replacement of existing permission systems**
-
-    - Teams architecture should complement, not replace, the existing custom roles and permissions system
-    - Teams should provide organizational structure and inheritance patterns for applying existing permission models
+   - Teams architecture should complement, not replace, the existing custom roles and permissions system
+   - Teams should provide organizational structure and inheritance patterns for applying existing permission models
 
 3. **Immediate disruption of existing workflows**
-
-    - Current group functionality must remain fully supported during and after Teams implementation
-    - Existing customer workflows cannot be disrupted without explicit migration path
-    - API compatibility must be maintained to avoid breaking existing integrations
+   - Current group functionality must remain fully supported during and after Teams implementation
+   - Existing customer workflows cannot be disrupted without explicit migration path
+   - API compatibility must be maintained to avoid breaking existing integrations
 
 4. **Over-engineering organizational complexity**
-
-    - Focus on common enterprise organizational patterns rather than edge cases within Organizations
-    - Maintain philosophy of convention over configuration
-    - Avoid creating complexity that contradicts the goal of reducing cognitive load
+   - Focus on common enterprise organizational patterns rather than edge cases within Organizations
+   - Maintain philosophy of convention over configuration
+   - Avoid creating complexity that contradicts the goal of reducing cognitive load
 
 ## Critical Requirements Analysis
 
