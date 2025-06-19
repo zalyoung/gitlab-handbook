@@ -15,9 +15,11 @@ toc_hide: true
 
 ## Summary
 
-GitLab's current access control model conflates user management with project organization through the dual-purpose nature of groups. This creates significant challenges for enterprise customers who need to separate organizational structure from resource management while maintaining security and compliance requirements. This blueprint defines the architectural requirements for a Teams-based access control system that separates user management from project organization, addresses critical customer pain points, and positions GitLab competitively in the enterprise DevOps market.
+GitLab's current access control model conflates user management with project organization through the dual-purpose nature of groups. While the upcoming [Organizations](../organization/_index.md) will provide customer isolation and address some enterprise-scale challenges, it does not resolve the fundamental dual-purpose nature of groups within each Organization. This creates significant challenges for enterprise customers who need to separate organizational structure from resource management while maintaining security and compliance requirements within their customer boundaries.
 
-The Teams architecture aims to introduce a distinct entity for managing users that can be shared across groups and projects, providing clearer mental models, better inheritance behavior, and reduced administrative overhead. This separation addresses [the #1 vulnerability in the OWASP Top 10 (Broken Access Control)](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) while reducing the cognitive load for users of the current system.
+This blueprint defines the architectural requirements for a Teams-based access control system that operates within Organization boundaries, separates user management from project organization, addresses critical customer pain points, and positions GitLab competitively in the enterprise DevOps market.
+
+The Teams architecture aims to introduce a distinct entity for managing users that can be shared across groups and projects within Organizations, providing clearer mental models, better inheritance behavior, and reduced administrative overhead. This separation addresses [the #1 vulnerability in the OWASP Top 10 (Broken Access Control)](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) while reducing the cognitive load for users of the current system.
 
 ## Motivation
 
@@ -28,6 +30,8 @@ In GitLab, groups serve dual purposes that create inherent tension:
 1. **Project organization**: Hierarchical structure for managing code, issues, and CI/CD resources
 2. **User management**: Organizing people and controlling access to resources
 
+While the upcoming Organizations feature will provide customer isolation and address some enterprise-scale challenges, it does not resolve the fundamental dual-purpose nature of groups within each Organization. Organizations will contain groups, but those groups will still face the same access management and organizational modeling challenges that exist today.
+
 This dual nature creates several critical problems identified through customer research and competitive analysis:
 
 **Permission management complexity**: Nearly every customer interview mentioned challenges with GitLab's permission model, particularly around inheritance creating unexpected access levels when users have different roles at different hierarchy levels. While GitLab's custom roles provide fine-grained permission control with over 40 specific permissions, complexity arises from how these permissions interact with the dual-purpose nature of groups and the resulting inheritance patterns.
@@ -35,6 +39,27 @@ This dual nature creates several critical problems identified through customer r
 **Inconsistent sharing behavior**: Group sharing exhibits different inheritance patterns depending on the target (group vs project). Sharing a group with another group only shares direct members, while sharing a group with a project includes both direct and inherited members. This inconsistency violates user mental models and creates security risks.
 
 **Cognitive load and mental model mismatch**: Users expect permissions to work like physical filing cabinets — explicit and visible. The current invisible inheritance model violates these expectations, leading to systematic errors and security vulnerabilities as users work around systems they don't understand.
+
+### Relationship to Organizations and Architectural Approach
+
+The Teams architecture operates within the [Organization](../organization/_index.md) framework currently under development. While Organizations provide customer isolation and administrative boundaries, they do not solve the fundamental access management challenges within each customer's boundary: complex permission inheritance, difficulty separating user management from project organization, and administrative overhead for cross-functional collaboration.
+Teams complement Organizations by providing the "who does the work" layer while Organizations provide the "customer isolation" layer, enabling cross-group collaboration within customer boundaries without breaking isolation between customers.
+
+#### Architectural Philosophy: Hybrid vs. Restructuring Approach
+
+During design, significant discussion emerged about pursuing radical architectural restructuring (flattening GitLab's hierarchy entirely, separating groups into distinct systems for Access, Settings, Aggregation, Features, Relationships) versus a more incremental hybrid approach.
+The radical restructuring approach would eliminate groups entirely, providing maximum architectural flexibility and clean separation of concerns. However, this presents substantial challenges:
+
+- **Engineering risks**: Performance impact from removing hierarchical inheritance, migration complexity requiring vast code rewrites, database restructuring, and breaking thousands of existing integrations
+- **Customer risks**: Namespace collisions, disruption to enterprise compliance boundaries, operational disruption for 100,000+ organizations, and retraining costs for millions of users
+
+The hybrid approach adopted preserves groups for organizational hierarchy and namespace management while adding Teams specifically for access management and work coordination. This approach:
+
+- Maintains backwards compatibility while solving immediate customer problems
+- Provides clear separation: Organizations = "Customer isolation", Groups = "Where work lives", Teams = "Who does the work"
+- Represents a "two-way door" decision enabling evolution based on real usage data rather than theoretical models
+
+Industry evolution since 2023 validates this approach, with major platforms successfully implementing Teams as complementary layers rather than replacing existing organizational structures.
 
 ### Industry Context and Competitive Pressure
 
@@ -49,102 +74,103 @@ These evolved approaches demonstrate industry recognition that traditional acces
 
 *Detailed competitive analysis including specific platform implementations and feature comparisons is available in the [DevOps Access Control Research Report](https://drive.google.com/drive/folders/1WeMK7PYvFhGtWqYFY8VPMUOxUVfay3vr?ths=true) for internal reference.*
 
-### Relationship to Existing Custom Roles System
-
-The existing custom roles system already addresses permission granularity concerns through over 40 specific permissions across categories. The Teams architecture is designed to complement, not replace, this sophisticated permission system. While custom roles define *what* users can do, Teams will define *which users* should have access to specific resources and *how* that access is organized and inherited. This separation allows:
-
-- **Custom Roles**: Continue to provide fine-grained control over specific capabilities
-- **Teams**: Provide organizational context and inheritance patterns for applying those roles
-- **Combined System**: Enable enterprises to model their organizational structure while maintaining precise permission control
-
-For example, a "Frontend Developer" custom role might include specific permissions for code review and CI/CD pipeline access, while a "Mobile Team" would define which users should receive that role and how it inherits across related projects.
-
 ### Goals
 
 #### Primary Goals
 
-1. **Separate user management from project organization**
-   - Create a distinct Teams entity that represents organizational structure
-   - Enable independent evolution of user hierarchies and project hierarchies
-   - Support enterprise identity integration without impacting project structure
-   - Provide clear conceptual separation that aligns with user mental models
+1. **Separate user management from project organization within Organizations**
 
-2. **Improve permission inheritance and organizational modeling**
-   - Eliminate inconsistent sharing behavior between group-to-group and group-to-project scenarios
-   - Make permission inheritance visible and auditable throughout the system
-   - Provide "break inheritance" capabilities with clear impact warnings
-   - Support both hierarchical organizational modeling and flat cross-functional collaboration
-   - Integrate seamlessly with GitLab's existing custom roles system to provide organizational context for fine-grained permissions
+    - Create a distinct Teams entity that represents organizational structure
+    - Enable independent evolution of user hierarchies and project hierarchies within an Organization boundary
+    - Support enterprise identity integration without impacting project structure
+    - Provide clear conceptual separation that aligns with user mental models
 
-3. **Address Enterprise Scale Requirements**
-   - Support organizations with 10,000+ users and thousands of projects
-   - Provide comprehensive audit trails for compliance (NIST 800-53, ISO 27001, SOX)
-   - Enable bulk operations for administrative efficiency
-   - Support team lifecycle management
+2. **Improve permission inheritance and organizational modeling within Organization boundaries**
 
-4. **Reduce cognitive load and administrative overhead**
-   - Provide progressive disclosure of permission complexity
-   - Create intuitive mental models that align with user expectations
-   - Reduce time-to-grant-access to under 5 minutes for standard scenarios
-   - Minimize permission-related support tickets by 50%
+    - Eliminate inconsistent sharing behavior between group-to-group and group-to-project scenarios
+    - Make permission inheritance visible and auditable throughout the Organization
+    - Provide "break inheritance" capabilities with clear impact warnings
+    - Support both hierarchical organizational modeling and flat cross-functional collaboration
+    - Integrate seamlessly with GitLab's existing custom roles system to provide organizational context for fine-grained permissions
+
+3. **Address enterprise scale requirements within Organizations**
+
+    - Support Organizations with 10,000+ users and thousands of projects
+    - Provide comprehensive audit trails for compliance (NIST 800-53, ISO 27001, SOX)
+    - Enable bulk operations for administrative efficiency
+    - Support team lifecycle management
+
+4. **Enable cross-Organization program management and work coordination**
+
+    - Support cross-functional work views: Teams can aggregate issues, MRs, and epics across multiple groups/projects within an Organization
+    - Provide program-level dashboards: See all work for a team regardless of where it lives in the Organization hierarchy
+    - Enable resource planning: Understand team capacity across different projects
+    - Support delivery tracking: Monitor team velocity and burndown
 
 #### Secondary Goals
 
-1. **Enable advanced access patterns**
-   - Support just-in-time access for sensitive operations
-   - Provide service account management with automated rotation
-   - Enable temporary permission elevation
-   - Support matrix organizations and multiple reporting structures
+1. **Enable advanced access patterns within Organizations**
 
-2. **Improve developer experience**
-   - Integrate access control directly into development workflows
-   - Provide API-first design for automation and tooling integration
-   - Support DevOps-specific permission patterns for CI/CD pipelines
-   - Enable self-service access requests with appropriate approval workflows
+    - Support just-in-time access for sensitive operations
+    - Provide service account management with automated rotation
+    - Enable temporary permission elevation
+    - Support matrix organizations and multiple reporting structures
+
+2. **Improve developer experience within Organizations**
+
+    - Integrate access control directly into development workflows
+    - Provide API-first design for automation and tooling integration
+    - Support DevOps-specific permission patterns for CI/CD pipelines
+    - Enable self-service access requests with appropriate approval workflows
+
+### Relationship to Existing Systems
+
+#### Integration with Custom Roles
+
+The existing custom roles system addresses permission granularity through 40+ specific permissions. Teams will complement this:
+
+- Custom Roles: Define what users can do (specific capabilities)
+- Teams: Define which users should have access and how that access is organized within Organizations
+- Combined System: Enable modeling organizational structure while maintaining precise permission control
+
+#### Integration with Organizations
+
+- Teams operate entirely within Organization boundaries, never crossing customer isolation
+- Organization owners can manage Teams within their Organization
+- Teams inherit the security and compliance characteristics of their containing Organization
+- Enterprise identity integration occurs at the Organization level, with Teams providing internal structure
+
+#### Integration with Groups and Projects
+
+- Groups continue to provide namespace management, settings inheritance, and project organization
+- Teams provide the access management and user organization layer
+- Projects remain the fundamental unit of work, accessible through both Group hierarchy and Team membership
 
 ### Non-Goals
 
-1. **Immediate replacement of current group model**
-   - This blueprint focuses on architecture and requirements, not migration strategy
-   - Current group functionality must remain fully supported during transition
-   - Existing customer workflows cannot be disrupted without explicit migration path
+1. **Replacement of groups or radical architectural restructuring**
+
+    - Teams are designed to complement groups, not replace them
+    - Groups will continue to provide namespace management, settings inheritance, and project organization
+    - We explicitly avoid a "one-way door" decision that would require rewriting vast portions of the system
+    - Focus remains on solving access management problems while preserving organizational hierarchy benefits
 
 2. **Replacement of existing permission systems**
-   - Teams architecture should complement, not replace, the existing custom roles and permissions system
-   - The sophisticated custom role system should remain the foundation for fine-grained access control
-   - Teams should provide organizational structure and inheritance patterns for applying existing permission models
 
-3. **Over-engineering organizational complexity**
-   - Focus on common enterprise organizational patterns rather than edge cases
-   - Maintain philosophy of convention over configuration
-   - Avoid creating complexity that contradicts the goal of reducing cognitive load
+    - Teams architecture should complement, not replace, the existing custom roles and permissions system
+    - Teams should provide organizational structure and inheritance patterns for applying existing permission models
 
-4. **External identity provider features**
-   - Teams architecture should integrate with external systems, not replace them
-   - Directory synchronization remains the responsibility of existing LDAP/SAML integration
-   - User lifecycle management stays within current GitLab administration boundaries
+3. **Immediate disruption of existing workflows**
 
-### Teams and Custom Roles Integration
+    - Current group functionality must remain fully supported during and after Teams implementation
+    - Existing customer workflows cannot be disrupted without explicit migration path
+    - API compatibility must be maintained to avoid breaking existing integrations
 
-The Teams architecture must seamlessly integrate with GitLab's existing custom roles system to provide comprehensive access management:
+4. **Over-engineering organizational complexity**
 
-**Role assignment through Teams:**
-
-- Teams should support assignment of both default roles (Guest, Reporter, Developer, Maintainer, Owner) and custom roles
-- When a Team is shared with a group or project, the assigned role (default or custom) should be applied to all Team members
-- Custom role inheritance should follow the same patterns as default role inheritance
-
-**Organizational context for custom roles:**
-
-- Teams provide organizational context that helps administrators understand why specific custom roles are assigned
-- Custom roles define capabilities, Teams define organizational structure and access patterns
-- Together, they enable "Frontend Developer working on Mobile Team" rather than just "user with custom frontend permissions"
-
-**Administrative simplification:**
-
-- Administrators can assign a custom role once to a Team rather than individually to each team member
-- Role changes can be managed at the Team level, automatically applying to all members
-- Audit trails show both the custom role permissions and the organizational context through Teams
+    - Focus on common enterprise organizational patterns rather than edge cases within Organizations
+    - Maintain philosophy of convention over configuration
+    - Avoid creating complexity that contradicts the goal of reducing cognitive load
 
 ## Critical Requirements Analysis
 
@@ -213,39 +239,44 @@ The Teams architecture must seamlessly integrate with GitLab's existing custom r
 
 *Detailed analysis of specific platform implementations is available in the [DevOps Access Control Research Report](https://drive.google.com/drive/folders/1WeMK7PYvFhGtWqYFY8VPMUOxUVfay3vr?ths=true) for comprehensive competitive insights.*
 
-### Technical Architecture Requirements
+### Engineering Feasibility and Technical Considerations
 
-**Scalability and Performance**
+**Performance and compatibility**
 
-- Support 10,000+ users with sub-second permission resolution
-- Handle thousands of teams and projects without performance degradation
-- Implement caching layers that maintain consistency across distributed systems
-- Avoid enterprise platform limitations of 5,000 unique permission scopes per container
+- Teams must integrate with existing hierarchical permission lookup patterns without performance degradation
+- Database schema must follow established patterns (organization_id, namespace_id, project_id) and support existing partitioning strategies
+- All existing API endpoints and CI/CD pipelines must continue functioning unchanged
+- New Teams APIs must follow established authentication and authorization patterns
 
-**Security and Compliance**
+**Gradual adoption strategy**
 
-- Implement comprehensive audit logging without performance impact
-- Support separation of duties required by NIST 800-53 and ISO 27001
-- Prevent privilege escalation through "orphaned permissions"
-- Enable just-in-time access patterns for sensitive operations
+- Teams functionality must be purely additive — overlaying on existing group hierarchies without requiring data migration
+- Mixed environments (Teams + traditional groups) must be supported indefinitely
+- Customers can adopt Teams incrementally without disrupting existing workflows
+- Rollback capabilities must be available if Teams adoption creates issues
 
-**Integration and Migration**
+**Organization integration**
 
-- Provide clear migration path from current group-based model
-- Support identity federation with LDAP, SAML, OIDC providers
-- Enable gradual adoption without forcing big-bang migrations
-- Maintain API compatibility during transition period
-- Integrate seamlessly with existing custom roles and permissions system
-- Support assignment of custom roles through Teams inheritance patterns
-
-**Usability and Mental Models**
-
-- Make permission inheritance visible with clear audit trails
-- Provide progressive disclosure of complexity
-- Support both hierarchical organizational modeling and flat collaboration
-- Align with user expectations from consumer tools (Google Drive, Dropbox)
+- All Teams functionality must respect Organization isolation boundaries — no cross-Organization sharing or visibility
+- Organization owners must have full administrative control over Teams within their Organization
+- Teams must integrate with Organization-level identity provider synchronization and audit trails
+- Teams settings and policies must be configurable at the Organization level for compliance requirements
 
 ## Open Questions and Research Areas
+
+### Teams and Organization Integration Patterns
+
+**Organization-scoped Team management:**
+
+- Should Teams be created at the Organization level and then shared with groups/projects, or created within groups and promoted to Organization-level?
+- How should Team membership synchronization with external identity providers work within Organization boundaries?
+- What administrative controls should Organization owners have over Teams created by Group owners within their Organization?
+
+**Cross-group Team collaboration:**
+
+- How should Teams spanning multiple groups within an Organization handle different group visibility levels (private/internal/public)?
+- Should Teams inherit the most restrictive visibility settings from their constituent Groups, or should Teams have independent visibility controls?
+- How do we handle Teams that need access to Groups with different compliance frameworks within the same Organization?
 
 ### Hierarchical vs Flat Team Structure Decision
 
@@ -263,64 +294,25 @@ The Teams architecture must seamlessly integrate with GitLab's existing custom r
 - Organizational changes require structural modifications
 - May not support matrix organizations or cross-functional teams effectively
 
-**Flat approach benefits:**
+**Research Questions:**
 
-- Eliminates inheritance complexity and associated security risks
-- Better supports cross-functional collaboration and temporary projects
-- Easier to understand and audit access relationships
-- More flexible for organizational change management
+- Can a hybrid approach provide hierarchical benefits within Organizations without complex inheritance?
+- Should Teams have parent-child relationships for organizational modeling without automatic permission inheritance?
+- How do enterprise customers expect Teams to mirror their internal organizational structure?
 
-**Flat approach challenges:**
+### Integration with Existing Systems
 
-- Administrative overhead increases significantly at enterprise scale
-- Difficult to model large organizational hierarchies
-- May require duplication of access grants across similar teams
-- Lacks natural mechanism for policy inheritance and management
+**Custom roles and Teams interaction:**
 
-**Research Question:** Can a hybrid approach provide the benefits of both models without the complexity? Industry patterns around separating permanent user organization from temporary access mechanisms suggest this may be possible, but implementation complexity needs careful evaluation.
+- How should custom roles assigned to Teams interact with custom roles assigned directly to users?
+- Should Teams be able to have different custom roles in different contexts (Group A vs Project B)?
+- How do we handle conflicts when a user belongs to multiple Teams with different custom role assignments?
 
-**Research Question:** Is there a middle ground that provides hierarchical benefits without complex inheritance? Could Teams have parent-child relationships for organizational modeling without automatic permission inheritance?
+**Group sharing and Teams:**
 
-### Group Sharing Inheritance Patterns
-
-**Current inconsistency:**
-
-- Group-to-group sharing: Only direct members of shared group gain access
-- Group-to-project sharing: Both direct and inherited members gain access
-
-**User expectation research needed:**
-
-- Do users expect industry-standard behavior (all nested group members gain access)?
-- Or do users prefer GitLab's current group-to-group behavior (only direct members)?
-- How do different user personas (administrators vs developers) expect inheritance to work?
-
-**Security implications:**
-
-- Broader inheritance approaches increase attack surface through expanded access grants
-- Restrictive inheritance reduces access but creates user confusion
-- Which approach better supports principle of least privilege?
-
-**Research Question:** Should GitLab maintain current behavior, adopt industry-standard inheritance patterns, or create a third approach that makes the choice explicit to administrators?
-
-### Enterprise Identity Integration Patterns
-
-**Current Challenge:**
-
-Enterprise customers using directory services expect access control to mirror their directory structure, but GitLab's current group model doesn't cleanly separate identity from resource organization.
-
-**Integration Approaches to Evaluate:**
-
-1. **Mirror directory structure**: Teams automatically sync with enterprise directory groups
-2. **Map directory groups**: Manual mapping between directory groups and GitLab Teams
-3. **Hybrid approach**: Some Teams sync automatically, others created manually for project-specific needs
-
-**Compliance requirements:**
-
-- NIST 800-53 requires clear separation of duties
-- ISO 27001 mandates access control documentation and auditability
-- SOX requires change management controls for access modifications
-
-**Research Question:** How can Teams architecture support enterprise directory integration while maintaining the flexibility needed for DevOps workflows?
+- Should Teams be shareable with Groups in the same way Groups can be shared with other Groups?
+- How should Teams sharing interact with existing Group sharing inheritance patterns?
+- Should sharing a Team with a Group automatically grant the Team's role to all shared contexts?
 
 ## Alternative Solutions Analysis
 
@@ -343,59 +335,45 @@ Enterprise customers using directory services expect access control to mirror th
 - Doesn't provide clear separation for compliance frameworks
 - May not be sufficient to compete with evolved industry offerings
 
-### Option 2: Pure Flat Team Structure
+### Option 2: Complete Architectural Restructuring (Flat Structure)
 
-**Approach:** Implement Teams as completely flat entities with no hierarchical relationships, requiring explicit access grants for each team-resource combination.
-
-**Pros:**
-
-- Eliminates inheritance complexity entirely
-- Clear, auditable access relationships
-- No risk of "orphaned permissions" through organizational changes
-- Simple mental model for all user types
-
-**Cons:**
-
-- Significant administrative overhead at enterprise scale
-- Doesn't support organizational modeling requirements
-- May require extensive tooling to manage access grants efficiently
-- Could force customers to implement hierarchy in external systems
-
-### Option 3: Role-Based Access Control (RBAC) Enhancement
-
-**Approach:** Implement comprehensive role-based permissions that define what actions can be performed rather than focusing on organizational structure.
+**Approach:** Eliminate groups entirely within Organizations, implementing a flat structure with specialized systems for Access, Settings, Aggregation, Features, and Relationships.
 
 **Pros:**
 
-- Industry-standard approach understood by security professionals
-- Fine-grained control over specific capabilities
-- Better separation of concerns between identity and permissions
-- Strong compliance framework support
+- Maximum architectural flexibility and clean separation of concerns
+- Eliminate all inheritance complexity
+- Align with theoretical ideals about system design
+- Could provide ultimate solution to dual-purpose problems
 
 **Cons:**
 
-- Significant complexity increase for administrators and end users
-- May not address organizational modeling needs
-- Could create cognitive load that contradicts usability goals
-- Requires extensive migration planning for current role-based permissions
+- Engineering complexity: Would require rewriting vast portions of permission-related code
+- Performance concerns: Removing hierarchical inheritance could significantly impact permission lookup performance
+- Migration risk: Enterprises have already built implementations around group hierarchies
+- Namespace collisions: Flat structures reduce available naming cardinality significantly
+- Enterprise disruption: Many organizations use group boundaries for SOX/GDPR compliance
+- API compatibility: Would break thousands of existing integrations and CI/CD pipelines
+- One-way door: Irreversible decision with significant risk if the approach proves problematic
 
-### Option 4: Matrix-Based Access Control
+### Option 3: Teams as Hybrid Solution Within Organizations
 
-**Approach:** Implement a two-dimensional matrix where Teams represent one axis and Resources/Projects represent another, with explicit relationship management.
+**Approach:** Implement Teams as a complementary layer within Organizations that provides access management and work coordination while preserving groups for organizational hierarchy.
 
 **Pros:**
 
-- Clean conceptual separation between organizational and resource hierarchies
-- Supports complex organizational patterns (matrix organizations, temporary projects)
-- Provides flexibility for both hierarchical and flat organizational patterns
-- Clear audit trail through explicit relationship management
+- Two-way door decision: Can gather customer feedback and evolve based on real usage patterns
+- Backwards compatibility: Preserves existing workflows and integrations
+- Clear mental models: Groups = "Where work lives", Teams = "Who does the work", Organizations = "Customer isolation"
+- Engineering feasibility: Builds on existing architecture rather than requiring complete rewrite
+- Customer value: Addresses immediate pain points while enabling future evolution
+- Industry validation: Aligns with successful approaches taken by other major platforms
 
 **Cons:**
 
-- Potentially complex user interface and mental model
-- Administrative overhead for managing matrix relationships
-- Performance considerations for large matrices
-- May be over-engineered solution for common use cases
+- More complex than pure flat structure in some theoretical aspects
+- Requires careful design to avoid adding confusion
+- May not address every edge case in complex organizational structures
 
 ## Success Criteria and Metrics
 
@@ -443,13 +421,12 @@ Enterprise customers using directory services expect access control to mirror th
 
 ### Internal GitLab Dependencies
 
-**Core Platform Integration:**
+**Organization Framework Integration:**
 
-- User management and authentication systems
-- Group and project permission resolution engines
-- Custom roles and permissions system integration
-- API frameworks for bulk operations and automation
-- Audit logging and compliance reporting systems
+- Organization-level user management and identity provider synchronization
+- Organization-scoped audit trails and compliance reporting
+- Organization owner administrative capabilities for Teams management
+- Organization isolation enforcement for all Teams functionality
 
 **Feature Integration Requirements:**
 
