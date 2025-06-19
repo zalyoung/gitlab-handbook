@@ -19,7 +19,7 @@ title: "Access Requests (AR) FAQs"
 
 ### So you need access to a system or a group/vault?
 
-1. Choose a template based on your needs: most people use the [Bulk](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) or [Single Person](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) template.
+1. Choose a template based on your needs: most people use a [specific request form template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/README.md?ref_type=heads#access-requests-1).
 1. Do not open an Access Request for anything that is part of a baseline entitlement unless it got missed during onboarding.
     1. [All team members baseline entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/#baseline-entitlements-all-gitlab-team-members)
     1. [Role-based baseline entitlements](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks)
@@ -49,7 +49,7 @@ Please use Teleport to request temporary access to either
 
 You might already have it: [Test if you have a dev account.](https://dev.gitlab.org/)
 
-- If you need a dev account, open a [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
+- If you need a dev account, open a [Teleport Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Teleport_Request).
 - If you have a dev account, go to [version](https://version.gitlab.com/users/sign_in) and login with GitLab and authorize them to use your credentials.
 
 ### I need access to Zendesk as a Light Agent
