@@ -160,7 +160,6 @@ GitLab Support's vision is to build a business-aware Support Engineering organiz
 Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about.
 GitLab Support's direction for FY26 focuses on evolving our offerings, optimizing processes, and investing in the team to equip them to better serve and represent our customers and align with the changing needs of the business. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. 
 
-
 While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performance Indicators](/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY26.
 
 ### Evolving our support offerings
