@@ -30,25 +30,12 @@ Currently, GitLab.com's transition to a distributed deployment model with cells 
 | Live states | Read the states from the current live cells |
 | Ring-Based Integration | Build upon existing ring deployment model |
 | Hierarchical Settings | Support inheritance from base → ring → cell overrides |
-| Concurrent Application | Apply settings to all cells within a ring simultaneously |
 | Feedback Mechanism | Provide clear success/failure feedback for operations |
 | Scalability Design | Handle increasing numbers of cells and rings efficiently |
-| Secure Authentication | Use service account authentication vs. Personal Access Tokens |
+| Secure Authentication | Authentication between solution and cell should have minimum privileges and can be rotated. |
 | Minimal Secret Management | Reduce need to transmit or store secrets |
 
 ## Proposed Solution
-
-A solution for settings synchronization across cells should address the following requirements:
-
-1. **Configuration as Code**: Store all settings in version-controlled repositories as the desired state
-2. **State Verification**: Read actual state from live cells to verify against desired state defined in version control, preventing configuration drift and enabling direct verification of applied settings.
-3. **Ring-Based Deployment**: Build upon the existing ring deployment model
-4. **Hierarchical Settings**: Support inheritance from base settings to ring-specific and cell-specific overrides
-5. **Concurrent Application**: Apply settings to all cells within a ring simultaneously for consistency
-6. **Feedback Mechanism**: Provide clear success/failure feedback for each operation to aid troubleshooting
-7. **Scalability**: Design to efficiently scale with increasing numbers of cells and rings
-8. **Secure Authentication**: Utilize service account authentication rather than Personal Access Tokens
-9. **Minimal Secret Management**: Minimize the need to transmit or store secrets
 
 To achieve this, a solution that leverages efficient concurrent execution and API-based communication with cells would be beneficial. While several implementation approaches might be viable (discussed later), extending the existing `ringctl` tool represents one potential path.
 
