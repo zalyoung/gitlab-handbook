@@ -80,7 +80,7 @@ This project will be the canonical source of the rate limiting schema, making it
 
 It will be public, to allow self-managed customers to benefit from the improvements made to our rate limiting configuration, as they could then have the option to utilize the schema themselves.
 
-The tooling will be based on the existing one from the [`tenant-model-schema`](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/tenant-model-schema) project and standardized in [`common-ci-tasks`](https://gitlab.com/gitlab-com/gl-infra/common-ci-tasks) so that it can be reused in any future `kind` projects.
+The tooling for testing and releasing the schema will be based on the existing one from the [`tenant-model-schema`](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/tenant-model-schema) project and standardized in [`common-ci-tasks`](https://gitlab.com/gitlab-com/gl-infra/common-ci-tasks) so that it can be reused in any future `kind` projects.
 
 ### Semantic Versioning
 
