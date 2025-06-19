@@ -18,6 +18,11 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 - SIRT (Security Operations)
 - Infrastructure Team
 
+1.
+3.
+4.
+5.
+
 ## HackerOne Workflow
 
 - GitLab uses HackerOne for its bug bounty program where security researchers report vulnerabilities.
