@@ -58,16 +58,16 @@ Additional information can be found on the [Planning page](/handbook/engineering
 
 ### Project Estimation
 
-Our team follows a multi-phase estimation process. This allows us to have just-in-time information to facilitate predictable roadmap planning. 
+Our team follows a multi-phase estimation process. This allows us to have just-in-time information to facilitate predictable roadmap planning.
 
 #### High Level Estimation
 
-* Projects in our priorities roadmap will contain an estimation issue (labeled with `~estimation::needed`). These can be found on the [estimation issue board](https://gitlab.com/groups/gitlab-org/-/boards/9392539?label_name%5B%5D=estimation%3A%3Aneeded&label_name%5B%5D=group%3A%3Asecurity%20insights&group_by=epic). 
+* Projects in our priorities roadmap will contain an estimation issue (labeled with `~estimation::needed`). These can be found on the [estimation issue board](https://gitlab.com/groups/gitlab-org/-/boards/9392539?label_name%5B%5D=estimation%3A%3Aneeded&label_name%5B%5D=group%3A%3Asecurity%20insights&group_by=epic).
 * Estimation issues have several desired outcomes:
   * Provide high level, # of milestone based estimate for the respective capabilities (frontend, backend)
   * Identify dependencies (other product groups, new technologies, libraries)
-  * Determine oustanding questions and if they block further estimation or will be required before planning breakdown can start.
-* These outcomes should be added to the respective areas within the epic template. 
+  * Determine outstanding questions and if they block further estimation or will be required before planning breakdown can start.
+* These outcomes should be added to the respective areas within the epic template.
 * Add `~estimation:complete` label and close the estimation issue when complete.
 
 ### Tracking Deliverables
