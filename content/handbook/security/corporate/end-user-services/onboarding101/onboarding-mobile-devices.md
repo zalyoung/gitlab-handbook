@@ -21,8 +21,8 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 - You should now see a QR code on screen
 - Ensure that bluetooth is enabled on your mobile device and that the device is on the same Wi-Fi network as the laptop
 - Open the Okta Verify app on your mobile device.
-   - If this is your first time using the app, select `Add account from another device`
-   - If you have used the app before, press the `+` button near the top of the screen
+  - If this is your first time using the app, select `Add account from another device`
+  - If you have used the app before, press the `+` button near the top of the screen
 - On the `Choose account type` screen, select `Organization`
 - Select `Add account from another device` followed by `Scan QR code`
 - Scan the QR code on your laptop screen
@@ -56,14 +56,14 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 1. Click `Set up` followed by `set up`
     - If the 1Password `Save Passkey` pop-up appears, click `x`
     - If `Use Touch ID to sign in?` pop-up appears, click `Cancel`
-5. When asked to `choose where to save your passkey for gitlab.okta.com`, select `Use a phone, tablet or security key` - A QR code should now appear on screen
+1. When asked to `choose where to save your passkey for gitlab.okta.com`, select `Use a phone, tablet or security key` - A QR code should now appear on screen
    - **Yubikey**: Insert your Yubikey and press the button
    - **iOS**:
         - Ensure that iOS is up-to-date - https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios
         - Ensure that you have the `Password` app installed and activated in your system settings - https://support.apple.com/en-gb/guide/iphone/iphf538ea8d0/ios
         - Open the camera app and scan the QR code
         - Select to save a passkey and follow the steps on your phone to save the passkey
-    - **Android**:
+   - **Android**:
         - Ensure that Android is up-to-date - https://support.google.com/android/answer/7680439?
         - Open the `Camera` app OR `Google Lens`, depending on your device
         - Scan the QR code and select the option to save a passkey to your Google account

@@ -16,7 +16,7 @@ Congratulations on joining GitLab! This page is dedicated to the IT onboarding e
    - [Google Account Setup](#step-4-google-account-setup)
    - [Okta Account Verification](#step-5-okta-account-verification)
    - [Access GitLab Email & GitLab.com Account](#step-6-access-gitlab-email--gitlabcom-account)
-3. [Laptop Setup: Linux](#laptop-setup-linux)
+1. [Laptop Setup: Linux](#laptop-setup-linux)
    - [Activate your Okata Account](#step-1-activate-your-okta-account-1)
    - [Okta Setup](#step-2-okta-setup)
    - [Google Account Setup](#step-3-google-account-setup)
@@ -125,12 +125,12 @@ You will receive an Okta activation email in your personal email. This is the fi
 - On your Linux laptop, download Google Chrome
 - Open Google Chrome, and navigate to https://gitlab.okta.com
 - Complete security verification:
-   - Click "Verify it's you with a security method"
-   - Select "Password" and click "Verify"
+  - Click "Verify it's you with a security method"
+  - Select "Password" and click "Verify"
 - Set up additional security methods:
-   - On the "Set up Security methods" screen, click "Set up" for "Security Key or Biometric authenticator"
-   - Click "Set up" again to confirm
-   - On the "Create a passkey for gitlab.okta.com" pop-up, click "Continue"
+  - On the "Set up Security methods" screen, click "Set up" for "Security Key or Biometric authenticator"
+  - Click "Set up" again to confirm
+  - On the "Create a passkey for gitlab.okta.com" pop-up, click "Continue"
 
 ### Step 3: Google Account Setup
 
