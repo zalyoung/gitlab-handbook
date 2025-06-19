@@ -11,7 +11,7 @@ In other words...
 - Never leave your unlocked computer unattended.
 - Activate the screensaver, lock the desktop, or close the lid.
 - When possible, sign out or close active web browser sessions when finished.
-- If using public [wireless networks](/handbook/security/corporate/services/laptops/security/networks), you should disable WiFi on your laptop when not in use or when traveling to avoid network traffic interception or use Nordlayer VPN.
+- If using public [wireless networks](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/networks), you should disable WiFi on your laptop when not in use or when traveling to avoid network traffic interception or use Nordlayer VPN.
 
 ## Screen Saver and Password Lock
 

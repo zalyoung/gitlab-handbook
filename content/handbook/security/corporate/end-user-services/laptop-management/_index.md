@@ -91,4 +91,4 @@ We require the use of an @gitlab.com Apple ID that is separate from any personal
 * 2FA for remote lock, wipe, or account resets are common methods of account compromises, and ensuring the use of GitLab.com email addresses also ensures we are in control of that aspect of multi-factor authentication.
 * Keeping a strong separation between work and personal accounts will help prevent the accidental leak of information from one to the other, in either direction.
 
-Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/corporate/services/laptops/security/) when configuring your new laptop.
+Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/) when configuring your new laptop.

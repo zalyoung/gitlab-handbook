@@ -8,7 +8,7 @@ All laptops need to have the operating system firewall enabled.
 
 GitLab uses SaaS web applications and does not use a VPN to access most services (unless you are a Infrastructure or Security system administrator).
 
-See the [wireless networks](/handbook/security/corporate/services/laptops/security/networks) handbook page to learn more about best practices when traveling and using public networks.
+See the [wireless networks](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/networks) handbook page to learn more about best practices when traveling and using public networks.
 
 ## Configuration Steps
 

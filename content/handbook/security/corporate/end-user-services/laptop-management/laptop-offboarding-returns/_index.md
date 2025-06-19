@@ -2,16 +2,16 @@
 title: "Laptop Offboarding and Returns"
 ---
 
-In cases where a team member does not qualify to keep the GitLab issued laptop, we may request the device to be returned to GitLab stock, or offer the option to buy it at a reduced cost. We also offer options in cases where a member is elegible to keep their old laptop but may choose not to.
+In cases where a team member does not qualify to keep the GitLab issued laptop, we may request the device to be returned to GitLab stock, or offer the option to buy it at a reduced cost. We also offer options in cases where a member is eligible to keep their old laptop but may choose not to.
 
 ### Laptop Offboarding
 
 At GitLab’s discretion, company issued devices may be retained at no cost under the following conditions:
 
 * The laptop has been in use at least three years and a refresh is approved
-* A team member has received permission from EUS to keeep their old laptop in the case of an early replacement
+* A team member has received permission from EUS to keep their old laptop in the case of an early replacement
 * A former team member has had the laptop in active use for at least one year at the time of their offboarding
-* A former team member has received approval from PeopleOps and EUS to keep their old laptop in cases where the device has been in use for less than one year at the time of offbaording
+* A former team member has received approval from PeopleOps and EUS to keep their old laptop in cases where the device has been in use for less than one year at the time of offboarding
 
 {{% alert title="**Important**" color="warning" %}}
 

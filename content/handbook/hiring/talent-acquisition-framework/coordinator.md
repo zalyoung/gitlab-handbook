@@ -362,7 +362,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. The CES will mark the candidate as "Hired" in Greenhouse: *when prompted, select the option to close the req.* Please note, the new hire's Workday profile will be generated automatically.
 1. The Candidate Experience Specialist will email the new team member the Welcome Email from Greenhouse with a cc to IT Ops, the Hiring Manager and the Recruiter.  Send the appropriate Welcome Email based on the candidate’s location and whether the candidate will need to procure a laptop themselves.
 
-   - Instructions on the [Laptop Ordering Process](/handbook/security/corporate/services/laptops/onboarding/) are included with this email.
+   - Instructions on the [Laptop Ordering Process](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/) are included with this email.
 
 1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-update-a-start-date-after-the-contract-is-signed).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
@@ -1104,7 +1104,7 @@ If there are any questions, these should be directed to help@remote.com.
 
 ## Advance Funds process for locations GitLab can not order laptops
 
-There are a handful of countries, listed [here](/handbook/security/corporate/services/laptops/onboarding/) where new hires will need to procure their own laptop before their start date.
+There are a handful of countries, listed [here](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/) where new hires will need to procure their own laptop before their start date.
 
 1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile, Armenia, or Ukraine template.
 1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:

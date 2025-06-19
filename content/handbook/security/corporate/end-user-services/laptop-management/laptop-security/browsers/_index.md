@@ -35,6 +35,6 @@ We use [1Password Business](https://1password.com/business-security) and the [1P
 
 ## Personal Use
 
-- [Personal Use Policy](/handbook/security/corporate/services/laptops/security/personal)
+- [Personal Use Policy](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/personal)
 
 - Configurations are in place to prevent using personal Google Chrome profiles to login to GitLab.com Google resources. These controls only impact GitLab-issued laptops.
