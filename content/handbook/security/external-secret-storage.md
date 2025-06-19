@@ -236,6 +236,7 @@ If you encounter issues with Vault integration:
 - We're not limited to Vault for ESS. Consider utilizing 1Password's API integration. You can find an excellent example [here](https://gitlab.com/gitlab-com/it/security/it-security-automation/-/blob/main/onepassword.py?ref_type=heads). The setup guide can be found [here](https://gitlab.com/gitlab-com/it/security/it-security-automation/-/blob/main/README.md).
 - Google Cloud Secrets Manager integration
 - OAuth 2.0 API service with Proof of Possession (POP) for Okta-specific applications
+- [GitLab as a Secrets Manager](https://gitlab.com/groups/gitlab-org/-/epics/10108) feature is currently in development, this will eliminate insecure CI variables and keep your production credentials, API keys, and tokens safely within GitLab's familiar interface.
 
 ## Related Resources
 
