@@ -381,77 +381,137 @@ for the Classify Service. This is a simplified version of the API Interface.
 ```proto
 message ClaimRecord {
   enum Bucket {
-    Unknown = 0;
-    Routes = 1;
+    UNSPECIFIED = 0;
+    NAMESPACE = 1;
+    EMAIL = 2;
+    KEY = 3;
+    PACKAGE = 4;
+    IMAGE = 5;
   };
 
   Bucket bucket = 1;
   string value = 2;
 }
 
-message ParentRecord {
-  enum ApplicationModel {
-    Unknown = 0;
-    Group = 1;
-    Project = 2;
-    UserNamespace = 3;
+message OwnerRecord {
+  enum Bucket {
+    UNSPECIFIED = 0;
+    GROUP = 1;
+    PROJECT = 2;
+    USER = 3;
   };
 
-  ApplicationModel model = 1;
+  Bucket bucket = 1;
   int64 id = 2;
-};
+}
 
-message OwnerRecord {
-  enum Table {
-    Unknown = 0;
-    routes = 1;
-  }
-
-  Table table = 1;
-  int64 id = 2;
-};
-
-message ClaimDetails {
-  ClaimRecord claim = 1;
-  ParentRecord parent = 2;
-  OwnerRecord owner = 3;
+message ClaimRequest {
+  OwnerRecord owner = 1;
+  repeated ClaimRecord claims = 2;
 }
 
 message ClaimInfo {
-  int64 id = 1;
-  ClaimDetails details = 2;
-  optional CellInfo cell_info = 3;
+  string uuid = 1;
+  ClaimRecord record = 2;
+  CellInfo cell_info = 3;
+}
+
+message OwnerInfo {
+  string uuid = 1;
+  OwnerRecord record = 2;
+  CellInfo cell_info = 3;
+}
+
+message CreateClaimRequest {
+  ClaimRequest request = 1;
+}
+
+message CreateClaimResponse {
+  OwnerInfo owner = 1;
+  repeated ClaimInfo claims = 2;
+}
+
+message GetClaimRequest {
+  ClaimRecord record = 1;
+}
+
+message GetClaimResponse {
+  ClaimInfo claim = 1;
+}
+
+message GetOwnerRequest {
+  OwnerRecord record = 1;
+}
+
+message GetOwnerResponse {
+  OwnerInfo owner = 1;
 }
 
 service ClaimService {
     rpc CreateClaim(CreateClaimRequest) returns (CreateClaimResponse) {}
-    rpc GetClaims(GetClaimsRequest) returns (GetClaimsResponse) {}
+    rpc GetClaim(GetClaimRequest) returns (GetClaimResponse) {}
+    rpc GetOwner(GetOwnerRequest) returns (GetOwnerResponse) {}
     rpc DestroyClaim(DestroyClaimRequest) returns (DestroyClaimResponse) {}
 }
 ```
 
-The purpose of this service is to provide a way to enforce uniqueness (ex. usernames, e-mails,
-tokens) within the cluster.
+The purpose of this service is to provide a way to ensure a route is never
+ambiguous that it'll only be routed to a specific cell in a specific time
+(resources claimed that route can be migrated to another cell later) to
+present the resource claiming the route.
 
-Cells can claim unique attribute by sending the Claim Details. Where
-each Claim Details consist of 3 main components:
+By this definition, a claim also means a route in an abstract way.
 
-1. **ClaimRecord**: Consists of both the Claim bucket and value. Where
-each value can only be claimed once per bucket. A bucket represents a uniqueness
-scope for the claims. For example an
-route like `gitlab-org/gitlab` can be claimed only once for the bucket
-`routes`. No two similar values can be claimed within the same bucket.
-1. **OwnerRecord**: Represents the database record that owns this claim
-on the Cell side. For example, for the Route `gitlab-org/gitlab` value,
-it will be table `routes` and some `id` that represents the primary key
-of the `route` record that has this value `gitlab-org/gitlab`.
-1. **ParentRecord**: Represents the GitLab object that owns the
-`OwnerRecord`. For example, for Emails claims, they are usually belong
-to `User` objects. While `Route` records can belong to `Group`, `UserNamespace`
-or `Project`.
+Take users as an example. A user here is a resource that it should claim:
+
+- The top-level namespace belonging to the user, and in this case, the username
+- The emails associated with the user
+- The keys associated with the user
+- Others
+
+So that we can route to the cell owning the user correctly via:
+
+- User profile page: https://gitlab.com/ghost1
+  - Claim `ghost1` as the top-level namespace, which is the username
+- REST API: https://gitlab.com/api/v4/users/1243277
+  - Claim `1243277` as a resource id, which is the user id
+- Authenticating the user via:
+  - Username (Note that we plan to re-scope username to an organization later)
+  - Primary email (Note that we might not have a public route for this but to be future proof we should also claim unique resources)
+  - Various keys
+
+In effects, the claims must be unique within the cluster, therefore unambiguous.
+
+To make claims, a cell can send a `CreateClaimRequest`, which contains a
+`ClaimRequest` consisting of 2 components:
+
+1. **OwnerRecord**: Represents the database record that owns the claims
+   on the cell. For example, for the group `gitlab-org`, the bucket would be
+   `GROUP` and the `id` would be the group id.
+1. **repeated ClaimRecord**: Consists of bucket and value, where each value
+   can only be claimed once per bucket. A bucket represents a unique scope for
+   the claim. For example, for the group `gitlab-org` it should claim
+   `gitlab-org` as a top-level namespace, and once that's claimed, no other
+   resources can claim the same again. This is repeated so it can make
+   multiple claims at once in a request for a resource.
+
+The request must be atomic in a transaction so it'll either success for all
+or fail for all.
 
 It's worth noting that the list of the enums is not final, and it can be
 expanded over time.
+
+#### Implementation note for performance consideration
+
+For performance consideration, while cells must claim all routes, the
+Topology service can choose to not actually store the 64bit id if it falls
+within the designated cell's sequence. When Topology service is asked where
+to locate this id, if Topology service cannot find the specific claim, it'll
+assume that it belongs to the cell where the id falls to the sequence.
+
+When we're migrating an organization, we must also claim all routes again for
+that particular organization because they would likely fall outside of the
+sequence of the destination cell.
 
 #### Example usage of Claim Service in Rails
 
