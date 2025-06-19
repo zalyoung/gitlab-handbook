@@ -320,7 +320,7 @@ By the end of each month, we will populate PD one more month into the future. Ex
 
 ### Requests for changes to EMEA PagerDuty rotation
 
-Create an issue under the [EMEA On-call Tracking Epic ](https://gitlab.com/groups/gitlab-com/support/-/epics/344) using the [EMEA PagerDuty Rotation Change](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?description_template=EMEA%20PagerDuty%20Rotation%20Change) template. Issues for changes can be submitted every month. 
+Create an issue under the [EMEA On-call Tracking Epic](https://gitlab.com/groups/gitlab-com/support/-/epics/344) using the [EMEA PagerDuty Rotation Change](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?description_template=EMEA%20PagerDuty%20Rotation%20Change) template. Issues for changes can be submitted every month.
 
 - Changes to shadow rotations can happen immediately. 
 - Changes to any other rotations will go into effect after 3 months + current month. 
