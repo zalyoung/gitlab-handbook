@@ -79,49 +79,43 @@ These evolved approaches demonstrate industry recognition that traditional acces
 #### Primary Goals
 
 1. **Separate user management from project organization within Organizations**
-
-    - Create a distinct Teams entity that represents organizational structure
-    - Enable independent evolution of user hierarchies and project hierarchies within an Organization boundary
-    - Support enterprise identity integration without impacting project structure
-    - Provide clear conceptual separation that aligns with user mental models
+   - Create a distinct Teams entity that represents organizational structure
+   - Enable independent evolution of user hierarchies and project hierarchies within an Organization boundary
+   - Support enterprise identity integration without impacting project structure
+   - Provide clear conceptual separation that aligns with user mental models
 
 2. **Improve permission inheritance and organizational modeling within Organization boundaries**
-
-    - Eliminate inconsistent sharing behavior between group-to-group and group-to-project scenarios
-    - Make permission inheritance visible and auditable throughout the Organization
-    - Provide "break inheritance" capabilities with clear impact warnings
-    - Support both hierarchical organizational modeling and flat cross-functional collaboration
-    - Integrate seamlessly with GitLab's existing custom roles system to provide organizational context for fine-grained permissions
+   - Eliminate inconsistent sharing behavior between group-to-group and group-to-project scenarios
+   - Make permission inheritance visible and auditable throughout the Organization
+   - Provide "break inheritance" capabilities with clear impact warnings
+   - Support both hierarchical organizational modeling and flat cross-functional collaboration
+   - Integrate seamlessly with GitLab's existing custom roles system to provide organizational context for fine-grained permissions
 
 3. **Address enterprise scale requirements within Organizations**
-
-    - Support Organizations with 10,000+ users and thousands of projects
-    - Provide comprehensive audit trails for compliance (NIST 800-53, ISO 27001, SOX)
-    - Enable bulk operations for administrative efficiency
-    - Support team lifecycle management
+   - Support Organizations with 10,000+ users and thousands of projects
+   - Provide comprehensive audit trails for compliance (NIST 800-53, ISO 27001, SOX)
+   - Enable bulk operations for administrative efficiency
+   - Support team lifecycle management
 
 4. **Enable cross-Organization program management and work coordination**
-
-    - Support cross-functional work views: Teams can aggregate issues, MRs, and epics across multiple groups/projects within an Organization
-    - Provide program-level dashboards: See all work for a team regardless of where it lives in the Organization hierarchy
-    - Enable resource planning: Understand team capacity across different projects
-    - Support delivery tracking: Monitor team velocity and burndown
+   - Support cross-functional work views: Teams can aggregate issues, MRs, and epics across multiple groups/projects within an Organization
+   - Provide program-level dashboards: See all work for a team regardless of where it lives in the Organization hierarchy
+   - Enable resource planning: Understand team capacity across different projects
+   - Support delivery tracking: Monitor team velocity and burndown
 
 #### Secondary Goals
 
 1. **Enable advanced access patterns within Organizations**
-
-    - Support just-in-time access for sensitive operations
-    - Provide service account management with automated rotation
-    - Enable temporary permission elevation
-    - Support matrix organizations and multiple reporting structures
+   - Support just-in-time access for sensitive operations
+   - Provide service account management with automated rotation
+   - Enable temporary permission elevation
+   - Support matrix organizations and multiple reporting structures
 
 2. **Improve developer experience within Organizations**
-
-    - Integrate access control directly into development workflows
-    - Provide API-first design for automation and tooling integration
-    - Support DevOps-specific permission patterns for CI/CD pipelines
-    - Enable self-service access requests with appropriate approval workflows
+   - Integrate access control directly into development workflows
+   - Provide API-first design for automation and tooling integration
+   - Support DevOps-specific permission patterns for CI/CD pipelines
+   - Enable self-service access requests with appropriate approval workflows
 
 ### Relationship to Existing Systems
 
