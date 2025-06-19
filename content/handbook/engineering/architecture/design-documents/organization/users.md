@@ -15,7 +15,7 @@ Our destination will have multiple GitLab instances, each with a User table, hav
 
 A User belongs to one Organization known as the Home Organization. This Organization has full rights over their Users.
 
-Existing users will belong to the Default Organization which is Administered by GitLab. We are working on a migration path to allow Users to move out of the Default Organization and into their own Organizations.
+Existing users will belong to the Default Organization which is administered by GitLab. We are working on a migration path to allow Users to move out of the Default Organization and into their own Organizations.
 
 Now that a User will belong to a single Organization, the `users` table will have a `NOT NULL` `organization_id` column. This `organization_id` column will also shard the `users` table such that the User and their associated data such as `user_statistics` is also scoped to the Organization.
 
