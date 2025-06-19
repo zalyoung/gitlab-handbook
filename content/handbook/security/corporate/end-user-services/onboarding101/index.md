@@ -226,7 +226,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
       1. Ensure that Android is up-to-date - https://support.google.com/android/answer/7680439?
       2. Open the `Camera` app OR `Google Lens`, depending on your device
       3. Scan the QR code and select the option to save a passkey to your Google account
-         1. On Samsung devices, when prompted to `Skip the QR code next time`, select `not now` and proceed to save the passkey to your Google account.
+         1. On Samsung devices, when prompted to `Skip the QR code next time`, select `not now` and proceed to save the passkey to your Google account. Please make sure that you save the passkey to Google’s passkey manager and not Samsung Passkey.
 
 ## Need Help?
 
