@@ -62,7 +62,7 @@ Our team follows a multi-phase estimation process. This allows us to have just-i
 
 #### High Level Estimation
 
-* Projects in our priorities roadmap will contain an estimation issue (labeled with `~estimation::needed`). These can be found on the [estimation issue board](https://gitlab.com/groups/gitlab-org/-/boards/9392539?label_name%5B%5D=workflow%3A%3Aestimation&label_name%5B%5D=group%3A%3Asecurity%20insights&group_by=epic). 
+* Projects in our priorities roadmap will contain an estimation issue (labeled with `~estimation::needed`). These can be found on the [estimation issue board](https://gitlab.com/groups/gitlab-org/-/boards/9392539?label_name%5B%5D=estimation%3A%3Aneeded&label_name%5B%5D=group%3A%3Asecurity%20insights&group_by=epic). 
 * Estimation issues have several desired outcomes:
   * Provide high level, # of milestone based estimate for the respective capabilities (frontend, backend)
   * Identify dependencies (other product groups, new technologies, libraries)
