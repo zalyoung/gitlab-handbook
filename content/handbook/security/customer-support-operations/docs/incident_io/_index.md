@@ -27,13 +27,13 @@ To create an incident:
 1. Set the `Status` of the incident
    - Investigating: Report an incident
    - Identified: Problem has been determined and a fix is being made
-   - Monitoring: Fix is implementing and we are monitoring the situation
+   - Monitoring: Fix is implemented and we are monitoring the situation
    - Resolved: Everything is good to go
 1. Set a meaningful `Message` for the incident
 1. Set the level of impact on `Affected components`
    - No impact: The incident does not impact this component
    - Degraded performance: The component is working but at lower than standard performance levels
-   - Partial outage: Significant parts of the component is not working
+   - Partial outage: Significant parts of the component are not working
    - Full outage: The component is hard down
 1. Click `Review incident`
 1. Review all information for accuracy
@@ -69,7 +69,7 @@ To delete an incident:
 
 ### Scheduling maintenance
 
-To create (schedule) mainteance:
+To create (schedule) maintenance:
 
 1. Navigate to [Status pages](https://app.incident.io/gitlab/status-pages)
 1. Click on the status page you want to make an incident on
@@ -115,7 +115,7 @@ To delete maintenance:
 
 ## Our Setup
 
-### Compoenents catalog
+### Components catalog
 
 Source: [Customer Support Operations components](https://app.incident.io/gitlab/catalog/01JXZ8QTFEYF84RP0V80MG1VAP)
 

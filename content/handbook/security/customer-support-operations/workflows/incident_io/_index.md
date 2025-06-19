@@ -20,4 +20,4 @@ Always, always, ALWAYS perform thorough and complete testing for incident.io cha
 
 {{% /alert %}}
 
-Currently, changes to incident.io are made in incident.io iteself.
+Currently, changes to incident.io are made in incident.io itself.

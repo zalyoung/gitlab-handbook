@@ -25,7 +25,7 @@ After the issue has been created, you need to publish an incident via incident.i
    - Monitoring: Fix is implementing and we are monitoring the situation
    - Resolved: Everything is good to go
 1. Set a meaningful `Message` for the incident
-   - You should include a link to your incident issue here.
+   - You should include a link to your incident issue here
 1. Set the level of impact on `Affected components` (the value needed depends on the impact of the incident)
    - No impact: The incident does not impact this component
    - Degraded performance: The component is working but at lower than standard performance levels
