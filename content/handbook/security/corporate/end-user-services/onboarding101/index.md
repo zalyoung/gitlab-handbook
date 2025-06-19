@@ -48,17 +48,14 @@ You will receive an Okta activation email in your personal email. This is the fi
    - Choose accessibility options (or click **Not Now**)
    - Select your WiFi network
    - On the **Remote Management** screen, click **Enroll**
-
-3. Log into GitLab Okta:
+1. Log into GitLab Okta:
    - Use the full GitLab email address (e.g., yourname@gitlab.com)
    - Enter the password you created on your personal device
    - Click **Sign in**
-
-4. Set up your computer account:
+1. Set up your computer account:
    - Create a password for your local Mac account
    - Click **Continue**
-
-5. Configure system settings:
+1. Configure system settings:
    - On the **Enable Location Services** screen, check **Enable Location Services on this Mac**
    - Click **Continue**
    - On the **Touch ID** screen, click **Continue**
@@ -71,13 +68,11 @@ You will receive an Okta activation email in your personal email. This is the fi
 1. On the **Welcome to your new Mac!** screen, wait while applications are automatically installed
    - This should take a few minutes
    - When finished, click **Done**
-
-2. System Restart:
+1. System Restart:
    - A pop-up will inform you that your machine needs to restart within the next minute
    - Wait for the automatic restart or initiate it yourself
    - After restart, log back in
-
-3. Enable FileVault:
+1. Enable FileVault:
    - Click **Enable Now** when prompted to enable FileVault (disk encryption)
 
 ### Step 4: Google Account Setup
@@ -100,13 +95,11 @@ You will receive an Okta activation email in your personal email. This is the fi
    - In Chrome, enter your Okta password and click **Verify**
    - In the Okta Verify window, click **Enable** for **Enable Touch ID confirmation**
    - Close the **Complete** tab in Chrome
-
-2. Complete security verification:
+1. Complete security verification:
    - In Chrome, click **Verify it's you with a security method**
    - Select **Password** and click **Verify**
    - In Okta Verify, click **Yes, it's me** (or provide your fingerprint)
-
-3. Set up additional security methods:
+1. Set up additional security methods:
    - On the **Set up Security methods** screen, click **Set up** for **Security Key or Biometric authenticator**
    - Click **Set up** again to confirm
    - On the **Create a passkey for gitlab.okta.com** pop-up, click **Save another way**
@@ -114,9 +107,9 @@ You will receive an Okta activation email in your personal email. This is the fi
 
 ### Step 6: Access GitLab Email & GitLab.com Account
 
-1. Access your GitLab email by clicking **G Suite SSO Mail** in Okta
-2. Check your GitLab email for an email titled "**Welcome to GitLab Onboarding, `yourname`!**"
-3. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
+- Access your GitLab email by clicking **G Suite SSO Mail** in Okta
+- Check your GitLab email for an email titled "**Welcome to GitLab Onboarding, `yourname`!**"
+- Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
 
 ## Laptop Setup: Linux
 
@@ -154,7 +147,7 @@ You will receive an Okta activation email in your personal email. This is the fi
 ### Step 4: Access GitLab Email & GitLab.com Account
 
 1. Check your GitLab email for an email titled "**Welcome to GitLab Onboarding, `yourname`!**"
-2. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
+1. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
 
 ### Congratulations
 
