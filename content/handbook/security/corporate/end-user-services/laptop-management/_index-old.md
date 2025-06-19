@@ -5,32 +5,12 @@ _build:
     render: never
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 ### Configuring New Laptops & Apple IDs
 
 New laptops should be configured with security in mind.
 
 We require the use of an @gitlab.com Apple ID that is separate from any personal Apple ID's you may have.
 Some of these reasons include:
-
-
-
-De
-
-
-
-
-
 
 #### These are the steps that follow immediately upon termination of a team-member
 
@@ -63,13 +43,13 @@ De
 **Immediate Slack notification:**
 
 > Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` has been deprovisioned from GitLab's Google Workspace. In keeping with our standard offboarding policy you will receive a copy of this user's Google Drive data as well as delegated access to their email and calendar account. This delegate access will remain available to you for 90 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
->
+
 > You will receive another notification 30 days before and then a final notification at 1 week before this account is closed. If you have any questions about this process, or need assistance with access the data, please feel free to reach out to the Corp IT team in the #it_help Slack channel.
 
 **30 Days Slack notification**
 
 > Hello `<Manager Firstname>``<Manager Lastname>`, you are receiving this notification to let you know that one of your direct reports `<Firstname>``<LastName>` was deprovisioned from GitLab's Google Workspace 60 days ago. In keeping with our standard offboarding policy you will continue to have delegated access to their email and calendar account for another 30 days after which the account will be closed, and all data will be archived. Please be sure to copy anything you wish to keep to your own account before this time. For more information about how to access this data please see information in this Handbook page (provide link).
->
+
 > You will receive another notification at 1 week before this account is closed. If you have any questions about this process, or need assistance with access the data, please feel free to reach out to the Corp IT team in the #it_help Slack channel.
 
 **7 Days Slack notification**

@@ -26,7 +26,7 @@ At GitLab’s discretion, we may request company issued devices be returned unde
 * A member has had the laptop for less than one year at the time of their offboarding
 * A member was found to be in violation of their employment terms at the time of their offboarding
 * A member is involved in cases of investigation, misconduct, termination for cause, any violation of GitLab’s Code of Business Conduct & Ethics, or other legal or security related inquiries. 
-    * If the EUS team has been notified of a current hold for the offboarded team member, we will need to consult internally before proceeding.
+* If the EUS team has been notified of a current hold for the offboarded team member, we will need to consult internally before proceeding.
 * Approved laptop replacements where the old laptop is less than three years old
 
 EUS will need to confirm current shipping address, phone number and user's availability to facilitate the return. GitLab will cover all costs associated with a return and can provide a return kit unless requested otherwise. You may also purchase a cardboard box with packing foam before your last day and expense it in Navan under Office supplies & consumables. IT will provide a prepaid shipping label to return the laptop. 
@@ -61,7 +61,7 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 #### Process
 
 1. When creating a [laptop refresh](/handbook/security/corporate/services/laptops/refresh) issue you may indicate that you would like to donate the laptop and to which [approved vendor](https://docs.google.com/spreadsheets/d/15g4v5coC_yLlVNTKUZMwATllZhxzqbxrtvwJsi8bjXE/edit#gid=0)
-    1. In case of offboardings, please reach out to us via [email](mailto:laptops@gitlab.com) and let us know if we can help
+    1. In case of offboardings, please reach out to us via [email](mailto:laptops@gitlab.com) and let us know if we can help.
 1. Indicate in the issue which option of logistics will be used: Local Drop off or Sending via courier.
 1. For security reasons, ensure that you have completed the [laptop wipe](/handbook/security/corporate/services/laptops/guide/wipe) process before drop off or sending.
 

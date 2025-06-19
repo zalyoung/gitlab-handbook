@@ -63,7 +63,7 @@ If the laptop is sufficient for your needs, you may opt to continue using the la
 
 Please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade) to request a laptop refresh.
 
-The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
+The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-returns) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
 
 > **If GitLab discovers that a device has not been wiped according to policy, GitLab may act to enforce a remote lock/wipe without notice.**
 
@@ -83,7 +83,7 @@ Most laptop orders will fall under the standard ordering processes. However, we 
 
 ### Laptops Out of Spec
 
-If a requested laptop is outside the standard specifications listed [here](#apple-hardware), approval will be required from the team member's manager as well as the Device Logistics Team before IT will purchase the laptop. Once your manager has approved, please tag `@gitlab-com/gl-security/corp/logistics` for logistics approval. 
+If a requested laptop is outside the standard specifications listed [here](/handbook/security/corporate/end-user-services/laptop-management/#laptop-specs), approval will be required from the team member's manager as well as the Device Logistics Team before IT will purchase the laptop. Once your manager has approved, please tag `@gitlab-com/gl-security/corp/logistics` for logistics approval. 
 
 ### Self procurement
 

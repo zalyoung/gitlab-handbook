@@ -4,7 +4,7 @@ title: "GitLab Laptop Management"
 
 ## Introduction
 
-The EUS team oversees all laptop procurement and management. Certain aspects, such as endpoint management configurations, are supported by other parts of the CorpSec team, we generally act as the point of contact for all related issues.
+The EUS team oversees all laptop procurement and management. While certain aspects, such as endpoint management configurations, are supported by other parts of the CorpSec team, we generally act as the point of contact for all related issues.
 
 At GitLab, we use centralized laptop management for company issued devices. If you are in possession of a company issued device, the details below apply to you. However, not all endpoint management technologies GitLab deploys will be required for all devices. Some technologies may be specific to the hardware platform or operating system.
 
@@ -42,7 +42,7 @@ We have standardized on the [Dell Precision 5690](https://www.dell.com/en-us/sho
 
 Dell does not currently sell laptops pre-installed with Linux in some countries; team members will need to install Linux themselves in those cases.
 
-\*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**.
+**NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16" MacBook Pro laptop](#apple-hardware)**.
 
 Our **only approved Linux laptop vendor is Dell**. These laptops generally come pre-loaded with Ubuntu Linux in order to save money on unused Windows licenses.
 
@@ -63,7 +63,6 @@ Windows cannot be used to access GitLab Corporate services (e.g. Slack, G-Suite,
 
 The usage of virtualized Windows is highly preferred and should satisfy most support and development need. Complete details about Windows usage is available on the internal [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/#windows-for-customer-support-and-product-development) page.
 
-
 ## Laptop Management Policies
 
 In addition to specific hardware requirements, we also employ various policies and software solutions to ensure that all GitLab devices remain secure.
@@ -76,17 +75,17 @@ In addition to specific hardware requirements, we also employ various policies a
 
 #### Fleet
 
-(Fleet)[https://fleetdm.com/] is an Open-Source remote management system that is required to be installed on all Dell devices in order to be able to access GitLab Corporate services. Similar to Jamf, it allows us to remotely manage enrolled laptops to ensure security compliance, and perform tasks such as remotely locking and wiping machines.
+[Fleet](https://fleetdm.com/) is an Open-Source remote management system that is required to be installed on all Dell devices in order to be able to access GitLab Corporate services. Similar to Jamf, it allows us to remotely manage enrolled laptops to ensure security compliance, and perform tasks such as remotely locking and wiping machines.
 
 ### Backblaze
 
-(Backblaze)[https://www.backblaze.com/] is a tool that might be deployed to backup data on your company owned device in the event of a security or legal hold/investigation and only following a request of the Legal and People Ops teams, subject to local data, privacy and employment laws.
+[Backblaze](https://www.backblaze.com/) is a tool that might be deployed to backup data on your company owned device in the event of a security or legal hold/investigation and only following a request of the Legal and People Ops teams, subject to local data, privacy and employment laws.
 
 ### Apple IDs
 
 Laptops should be configured with security in mind.
 
-We require the use of an @gitlab.com Apple ID that is separate from any personal Apple ID's you may have. Some of these reasons include:
+We require the use of an @gitlab.com Apple ID that is separate from any personal Apple IDs you may have. Some of these reasons include:
 
 * Backups, keychains and documents are all considered sensitive information, and should not be stored in personal services.
 * 2FA for remote lock, wipe, or account resets are common methods of account compromises, and ensuring the use of GitLab.com email addresses also ensures we are in control of that aspect of multi-factor authentication.
