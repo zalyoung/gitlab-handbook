@@ -176,7 +176,7 @@ Whenever a third party is brought in to support design, the work must be shared 
 
 #### Preserving the tanuki
 
-When we [rebranded](https://about.gitlab.com/blog/devops-is-at-the-center-of-gitlab/) in 2022, we made the strategic decision to no longer alter the tanuki. These parameters are reflected in our [Brand Guidelines](https://design.gitlab.com/brand-logo/logomark#incorrect-usage) and are an intentional pivot from our previous logo, which we often customized with different colors and accessories.
+We understand that customized versions of the tanuki have been meaningful to our community and represent important aspects of our culture and values. When we [rebranded](https://about.gitlab.com/blog/devops-is-at-the-center-of-gitlab/) in 2022, we made the strategic decision to no longer alter the tanuki. These parameters are reflected in our [Brand Guidelines](https://design.gitlab.com/brand-logo/logomark#incorrect-usage) and are an intentional pivot from our previous logo, which we often customized with different colors and accessories.
 
 Why we maintain one look for our tanuki:
 
@@ -184,7 +184,7 @@ Why we maintain one look for our tanuki:
 - **Consistency strengthens our brand.** Our tanuki is our most valuable brand asset. Any alterations dilute our brand identity and reduce recognition as we continue establishing our market presence.
 - **We’re building our brand maturity and an enterprise focus.** Restyling our tanuki undermines its visual role in our brand, which conflicts with our [brand strategy](/handbook/marketing/brand-and-product-marketing/design/#mascots).
 - **Strategic resource management drives results.** Our small Brand Design team supports the growing creative needs of the entire company, prioritizing work that aligns with business goals and drives clear business value. Custom logo requests multiplied beyond our team's capacity and don't align with our strategic priorities.
-- **Brand integrity extends everywhere.** Even "internal-only" designs frequently spread beyond their intended use, compromising brand awareness. Our logo is often someone's first impression of our company; showing up consistently maintains a clear, trustworthy image that meets industry standards and is a necessity in the years following a rebrand.
+- **Brand integrity extends everywhere.** Even "internal-only" designs frequently spread beyond their intended use, which can compromise brand awareness. Our logo is often someone's first impression of our company; showing up consistently maintains a clear, trustworthy image that meets industry standards and is a necessity in the years following a rebrand.
 
 #### Mascots
 
