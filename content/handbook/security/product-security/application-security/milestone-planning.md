@@ -243,4 +243,8 @@ Should have the milestone set to `AppSec Backlog`.
 
 ### I'm on rotation, should I add the labels for the issues I triaged?
 
-### Do I need to apply the labels to MRs that we reviewed too?
+Yes, the right labels should be applied to have the involvement reflected on our capacity metrics.
+
+### Do I need to apply the labels to MRs that we reviewed?
+
+Yes, this is also being reported back into our capacity metrics.
