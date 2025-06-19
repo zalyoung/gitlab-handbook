@@ -155,23 +155,32 @@ Every issue that comes in during a Data Platform Team member's triage week must 
 
 ```mermaid
 flowchart TD
-    A[New Issue] --> B[Assign issue to themself]
-    B --> C[workflow::1 - triage & validation]
-    C --> D[workflow::2 - waiting for prioritization]
-    D --> E[workflow::3 - refinement]
-    F[Assign to other Team Member or Data Platform Team Lead ]
-    C -->|If unable to perform| F
-    D -->|If unable to perform| F
-    E -->|If unable to perform| F
-    E -->G{Can complete}
-    G -->|No and urgent| F
-    G -->|No not urgent| H[workflow::4 - ready to develop]
-    G -->|Yes| J[workflow::5 - development]
-    J -->K[workflow::6 - review]
+    N[New Issue]
+    A[Assign issue to themself]
+    C{Can complete}
+    R[Assign to other Team Member or Data Platform Team Lead ]
     U[Unassign]
-    F-->U
-    H-->U
-    K-->U
+
+    1[workflow::1 - triage & validation]
+    2[workflow::2 - waiting for prioritization]
+    3[workflow::3 - refinement]
+    4[workflow::4 - ready to develop]
+    5[workflow::5 - development]
+    6[workflow::6 - review]
+
+    N-->A
+    A-->1
+    1-->C
+    1 -->|If unable to perform| R
+    R --> U
+    C -->|No and urgent | R
+    C -->|No not urgent | 2
+    2 --> U
+    C -->|Yes | 3
+    3 --> 4
+    4 --> 5
+    5 --> 6
+    6 --> U
 ```
 
 ### Incident
