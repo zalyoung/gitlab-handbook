@@ -14,7 +14,7 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 | **Delivery Handbook** | [Team training](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/training/) |
 | **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/metrics/) |
 | Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/) |
-| Release Tools Project | [Release tools](/handbook/engineering/infrastructure/release-tools) |
+| Release Tools Project | [Release tools](/handbook/engineering/infrastructure-platforms/release-tools) |
 | Release Manager Runbooks | [release/docs/runbooks](https://gitlab.com/gitlab-org/release/docs/-/blob/master/runbooks/README.md) |
 
 ## Mission
