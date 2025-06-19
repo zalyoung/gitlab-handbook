@@ -201,7 +201,7 @@ The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number 
 
 ## Projects
 
-Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
+Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure-platforms/projects).
 
 The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
 
