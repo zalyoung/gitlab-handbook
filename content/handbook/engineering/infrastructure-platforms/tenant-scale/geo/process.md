@@ -332,3 +332,7 @@ Flags exceeding retention limits require team lead approval with documented just
 
 - [Team Feature Flag Analysis](https://docs.google.com/spreadsheets/d/1pbPwUQC30gkaueqy_f4m2KRK0Smta3YCHCvh-kEJbi0/edit?gid=1801934973#gid=1801934973)
 - [GitLab Feature Flag Documentation](https://docs.gitlab.com/development/feature_flags/)
+
+## Backlog Cleanup (Trial Phase)
+
+We will start to label issues `~closed:stale` to mark issues that are in our backlog that's not on the roadmap but could be good ideas. 
