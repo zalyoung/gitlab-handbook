@@ -37,13 +37,14 @@ For long pages, consider creating a table of contents.
   - [Dashboard layout](#dashboard-layout)
   - [Panels](#panels)
   - [Filters](#filters)
+  - [Customization persistence](#customization-persistence)
 - [Getting started](#getting-started)
 - [Upgrading from static dashboards](#upgrading-from-static-dashboards)
 
 ## Summary
 
 This document builds on the dashboard foundation established by the [Dashboard Layout Framework](../dashboard_layout_framework/_index.md),
-it outlines the architecture for a dashboard customization framework that enables user-dirven dashboard creation and personalization across GitLab.
+it outlines the architecture for a dashboard customization framework that enables user-driven dashboard creation and personalization across GitLab.
 
 The dashboard customization framework provides Vue components and UI patterns that allow for user-driven customization of dashboard layouts.
 Users can use it to add/remove panels, position & resize elements, edit text, and to save their personalized dashboard configurations. The framework
@@ -68,6 +69,7 @@ updating dashboard layouts and visualizations instead of focusing on core featur
 - Enable users to personalize dashboard layouts, panel selection, and configurations to match their specific needs
 - Establish the UI pattern for user-driven dashboard customization to deliver a consistent UX across our applications
 - Adopt the customization framework across GitLab where customization would increase user satisfaction and experience
+- The customization framework must be a drop-in replacement for use cases of the dashboard layout framework
 - Outline a clear upgrade path for static dashboards and how teams can integrate customization into their existing dashboards
 
 ### Non-Goals
@@ -80,15 +82,17 @@ The dashboard customization framework does not:
 
 ## Proposal
 
-The customizable dashboard component should be a drop-in replacement for existing use cases of the dashboard layout component. The component
-should wrap the dashboard layout component and extend its capabilities to deliver a consistent user-drven dashboard customization user experience
-while maintaining the core dashboard layout component's functionality and API.
+Create a new customizable dashboard component that makes it easy for teams to extend their dashboard layout with user customization
+in accordance with our modular dashboard foundations [epic](https://gitlab.com/groups/gitlab-org/-/epics/18072). The component must be a drop-in
+replacement for existing use cases of the dashboard layout component. The component should wrap the dashboard layout component and extend its
+capabilities to deliver a consistent dashboard customization UX while maintaining the core dashboard layout component's functionality and API.
 
 ## Design and implementation details
 
 The framework extends the dashboard layout with a new editing state that users can enter to customize their dashboards. When a user is done
 editing the dashboard layout, the dashboard should return back to the static dashboard state. Any changes made by the user should be preserved
-in the static state. The user should be provided the option to return to the edit state through a button or secondary option.
+in the static state. The user should be provided the option to return to the edit state through a button or secondary option. Any saved changes
+should be visible to all authorized users the next time they load the dashboard.
 
 ![dashboard_customization_framework_outline](/images/engineering/architecture/design-documents/dashboard_customization_framework/dashboard_customization_framework_outline.png)
 
@@ -102,7 +106,7 @@ When editing:
 - Users can discard unsaved changes and revert the dashboard back to its original state
 - The dashboard produces a modified configuration when the user opts to save changes made
 - The dashboard shows a warning message when unsaved changes will be lost
-- Optionally allow for users to to add new visualizations
+- Allow users to to add new visualizations via a custom interface (optional)
 
 ### Panels
 
@@ -119,6 +123,13 @@ When editing:
 When not editing, dashboard-level filters should look and behave the same as on a static dashboard.
 
 When editing, the framework should hide dashboard-level filters by default to reduce visual clutter.
+
+### Customization persistence 
+
+The framework does not define dashboard configurations should persist. This is planned as an upcoming feature as part of the dashboard
+foundations roadmap [epic](https://gitlab.com/groups/gitlab-org/-/epics/18072). Customizations made to dashboards should be tracable with
+change events persisted. Additionally customizations must be stored using the dashboard configuration object, see the dashboard layout framework
+[documentation](https://docs.gitlab.com/development/fe_guide/dashboard_layout_framework/#basic-implementation) for an example configuration.
 
 ## Getting started
 
