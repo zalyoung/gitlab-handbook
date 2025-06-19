@@ -27,11 +27,13 @@ status: active
 
 ## Roles and Responsibilities
 
-| Working Group Role                       | Team Member Name  | Role                                          |
-|------------------------------------------|-------------------|-----------------------------------------------|
-| Executive Sponsor                        | Jamie Dicken      | Director, Security Platforms and Architecture |
-| Executive Sponsor                        | Julie Davila      | VP, Product Security                          |
-| Executive Sponsor                        | Tim Zallmann      | VP, AI Engineering                            |
-| Functional Lead                          | Erran Carey       | Staff Fullstack Engineer                      |
-| Functional Lead                          | Jessie Young      | Principal Engineer                            |
-| Functional Lead                          | Joern Schneeweisz | Principal Security Engineer                   |
+| Working Group Role | Team Member Name        | Role                                            |
+|--------------------|-------------------------|-------------------------------------------------|
+| Executive Sponsor  | Jamie Dicken            | Director, Security Platforms and Architecture   |
+| Executive Sponsor  | Julie Davila            | VP, Product Security                            |
+| Executive Sponsor  | Tim Zallmann            | VP, AI Engineering                              |
+| Functional Lead    | Erran Carey             | Staff Fullstack Engineer                        |
+| Functional Lead    | Jessie Young            | Principal Engineer                              |
+| Functional Lead    | Joern Schneeweisz       | Principal Security Engineer                     |
+| Member             | Daniel Hauenstein       | Application Security Engineer, Product Security |
+| Member             | Vitor Meireles De Sousa | Senior Manager, AppSec, Product Security        |
