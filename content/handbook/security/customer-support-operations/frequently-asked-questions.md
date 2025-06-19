@@ -28,7 +28,9 @@ Following with Security's [Access Management Standards](https://internal.gitlab.
 
 To begin the process, file an [Individual Bulk Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request) issue. Once approved by your manager, assign it to `@jcolyer` and `@dtragjasi`, who will review the situation and determine how to best proceed.
 
-## When using Zendesk, the aspect ratio is off (such as only showing one tab before using group, odd blank spaces appearing, etc.)
+## When using Zendesk, the aspect ratio is off
+
+(Such as only showing one tab before using group, odd blank spaces appearing, etc.)
 
 While the exact cause has not yet been determined, the spacing and grouping used in Zendesk is dependent on the aspect ratio and screen size of your monitor. When issues surrounding it have occurred, we have found Zooming in and back out (or zooming out and back in) often fixes the problem. We have also found doing a hard refresh (Ctrl+Shift+R / Cmd+Shift+R) can rectify the problem.
 
