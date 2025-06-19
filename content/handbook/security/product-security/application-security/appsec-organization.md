@@ -62,11 +62,11 @@ Learn more about our security review process in our [dedicated page](appsec-revi
 ### Public Security Resources
 
 - [GitLab Security Disclosure](https://about.gitlab.com/security/disclosure/)
-   * Details our coordinated security disclosure policy and process
+  * Details our coordinated security disclosure policy and process
 - [HackerOne Bug Bounty Program](https://hackerone.com/gitlab)
-   * Our Bug Bounty HackerOne program policy
+  * Our Bug Bounty HackerOne program policy
 - [GitLab Release and Patch Releases Process](https://handbook.gitlab.com/handbook/engineering/releases/)
-   * Consult our Handbook page dedicated to our Release and Patch Release Process
+  * Consult our Handbook page dedicated to our Release and Patch Release Process
   
 ### Documentation
 
