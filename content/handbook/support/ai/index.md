@@ -152,11 +152,11 @@ You'll know AI is hurting when:
 
 1. Ticket Summarization with ZenDuo
 
-Support Engineers can use ZenDuo (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
+Support Engineers can use [ZenDuo](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/zendesk/apps/#zenduo) (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
 
 2. Knowledge Base Article Generation
 
-Support Engineers can use GitLab Duo to generate draft KB articles from resolved Zendesk tickets by:
+Support Engineers can use GitLab Duo to generate draft KB articles from Zendesk tickets by:
 
 - Passing a KB template to Duo
 - Having it parse the ticket to fill in the template
@@ -219,7 +219,7 @@ Support Engineers can use GitLab Duo Agentic Chat for:
 Support Engineers use GitLab Duo Chat to:
 
 - Process and summarize logs/data from customer environments
-- Analyze fast-stats outputsfor common problems
+- Analyze fast-stats output for common problems
 - Parse complex diagnostic information
 - Identify patterns in system logs
 
@@ -240,7 +240,8 @@ Support Engineers can use GitLab Duo during:
 - Learning GitLab features and troubleshooting
 - Understanding complex customer scenarios
 - Practicing with AI-assisted problem solving
-- These examples show that GitLab Support has deeply integrated AI into their daily workflows, from basic ticket handling to complex technical analysis, significantly improving efficiency and quality of support delivery.
+
+These examples show that GitLab Support has deeply integrated AI into their daily workflows, from basic ticket handling to complex technical analysis, significantly improving efficiency and quality of support delivery.
 
 ## Responsible AI use in customer tickets
 
