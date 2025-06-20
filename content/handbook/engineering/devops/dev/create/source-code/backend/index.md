@@ -558,3 +558,16 @@ Here are some Kibana visualizations that give a quick overview on how they perfo
 
 These tables are filtered by the endpoints and controller actions that the group
 handles and sorted by P90 (slowest first) for the last 7 days by default.
+
+### Runbooks
+
+Runbooks designed to aid Tier 1 support are maintained for services and features we own.
+These runbooks contain diagnostic, triaging, and monitoring information for initial
+identification and classificaton of incidents. They also contain basic procedures and
+troubleshooting steps for common issues and routine operations.
+
+We currently have published runbooks on the following services and features:
+
+- [Repository Mirroring](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/repository-mirroring)
+- [Workhorse](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/workhorse)
+- [Remove Blobs](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/remove-blobs.md)
