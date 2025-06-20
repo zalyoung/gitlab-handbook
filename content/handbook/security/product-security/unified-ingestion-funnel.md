@@ -15,7 +15,7 @@ We're currently testing this new approach with **Infrastructure Security** (acti
 
 ### Single Entry Point Philosophy
 
-During the pilot, participating teams are testing whether engineering teams can engage with Product Security with some minimal knowledge on which specific team they need.
+During the pilot, participating teams are testing whether engineering teams can engage with Product Security with some minimal knowledge on which specific team and services they need.
 
 In later phases our pilot system should handles the routing automatically based on a question/answers based input and request details. Our other project of redefining the [Security review process](https://gitlab.com/groups/gitlab-com/gl-security/product-security/appsec/-/epics/60) (Internal) will also significantly contribute into using this new engagement model.
 
