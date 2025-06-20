@@ -99,9 +99,9 @@ The metrics used to display this information are updated automatically throughou
 
 ## Patch releases overview
 
-The [patch release policy](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases) allows bug fixes to be backported to the current stable released version of GitLab, and security fixes to be backported to the current and previous two GitLab Versions.
+The [patch release policy](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases) allows bug fixes and security fixes to be backported to the current and previous two GitLab Versions. Refer to the [list of maintained versions](https://docs.gitlab.com/policy/maintenance/#maintained-versions).
 
-Patches that are outside of our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) for bug fixes must be requested and agreed upon by the release managers and the requester (see
+Fixes for versions outside of our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) must be requested and agreed upon by the release managers and the requester (see
 [backporting to versions outside the maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for details).
 
 ### Patch release cadence
@@ -137,9 +137,10 @@ GitLab team members can view the [internal Grafana dashboard "Release Informatio
 * Upcoming patch release versions (stable version + 2 backport versions)
 * Upcoming patch release date
 * Current status of the patch release
-  * Open: Bug fixes and MRs associated with security issues labeled `security-target` are expected to be included in the next patch release.
+  * Open: Unmerged security MRs associated with security issues labeled `security-target`, as well as merged bug fix MRs,
+  are expected to be included in the next patch release.
   * Warning: Signals that teams should get bug and security fixes ready to merge.
-  * Closed: Default branch MRs have been merged, no further bug or security fixes will be included.
+  * Closed: Default branch security MRs have been merged, no further bug or security fixes will be included.
 
 The metrics used to display this information are updated automatically throughout the [patch release process](#patch-release-process).
 
