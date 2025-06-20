@@ -173,6 +173,19 @@ This email address is only accessible to GitLab team members and can be reached 
 
 Additionally if a GitLab team member experiences a personal emergency the People Group also provides an [emergency contact email](/handbook/people-group/#in-case-of-emergency).
 
+#### PILOT - Engaging with Product Security Infrastructure Security team
+
+We are currently piloting our new engagement model across the Product Security department, if you want to learn more about it, consult the dedicated handbook [page here](product-security/unified-ingestion-funnel.md).
+
+The Infrastructure Security team is our first team going through it in our pilot phase. If you want to engage with then, click on the right request and it will automatically open the right issue:
+
+- [Production Readiness Review](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=infrasec-production-readiness):
+  - Use this request if you need an InfraSec Review on a service before it goes into production. :warning: Our engagement should happen much earlier than that. This is only for final validation before a production release.
+- [Infrastructure Security Review](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=infrasec-security-review):
+  - Use this request if you need to have an InfraSec review to validate the infrastructure implementation and/or design from an Infrastructure Security Point of View in during any phase of the development lifecycle before a release is planned.
+- [Other types of requests](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=infrasec-other-request)
+  - Use this request for everything else.
+
 #### Sub-groups and projects
 
 Many teams follow a convention of having a GitLab group `team-name-team` with a primary project used for issue tracking underneath `team-name` or similar.
