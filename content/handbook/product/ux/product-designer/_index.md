@@ -77,7 +77,7 @@ When designing AI solutions, Product Designers need to approach the process thou
 
 Design must work in all generally available modes, which currently includes light and dark mode. Keep these considerations in mind as you design:
 
-- Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test) (point 5).
+- Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests (point 5)](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test).
 - The design system provides design tokens and components that work in supported modes.
 - Take extra care when mode is a primary factor in customer outcomes.
 - Dark mode design should align with the dark mode vision:
