@@ -495,7 +495,7 @@ Work proposed via the R&D Interlock process will benefit from:
 
 ### How to create a candidate for proposal
 
-1. **Create an Epic**
+1. **Create an Epic** if existing epic is outside of `gitlab-org`
    1. Within https://gitlab.com/gitlab-org/gitlab-rd-planning, create an new epic ([docs](https://docs.gitlab.com/user/group/epics/manage_epics/#create-an-epic))
    1. Copy (for existing) or select (for new) the epic template named: [interlock_template](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/epics/new?description_template=interlock_template)
 1. **Complete required information**
