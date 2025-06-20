@@ -1,6 +1,6 @@
 ---
 title: "Product Security Unified Ingest Process (Pilot)"
-description: ""
+description: "The Product Security Department **is piloting** a unified ingest process that will provide engineering teams with a single, clear entry point for all security-related requests. This pilot system aims to eliminate the need to understand our internal team structure and ensure requests reach the right security experts efficiently."
 ---
 
 ## Overview and Goal
