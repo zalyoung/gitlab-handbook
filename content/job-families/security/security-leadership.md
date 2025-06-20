@@ -194,7 +194,6 @@ controls, and common security flaws that apply to Ruby on Rails applications
 
 This position reports to a [Security Divsion VP](/job-families/security/security-leadership/#vice-president-vp-security)
 
-
 #### Senior Director, Security Job Grade
 
 The Senior Director, Security is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).

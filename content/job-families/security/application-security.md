@@ -209,7 +209,6 @@ The Application Security Senior Manager is a [grade 9](/handbook/total-rewards/c
 
 For details on the Security organization leadership roles, to include the Product Security Director and VP of Security, see the Security Leadership page.
 
-
 ## Career Ladder
 
 ```mermaid

@@ -59,7 +59,6 @@ All responsibilities listed above (applicalbe to all roles) plus:
 - Strong verbal and written skills with a strong ability to articulate and communicate strategies to all levels in an organization (i.e., executive to staff engineer)
 - Ability to use GitLab, including learning GitLab as part of the role
 
-
 ## Career Ladder
 
 For more details on the security engineering career ladders, please review the [security engineering career development](/job-families/security/security-engineer/) handbook page.
