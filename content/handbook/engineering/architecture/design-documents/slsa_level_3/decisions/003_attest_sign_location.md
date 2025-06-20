@@ -84,5 +84,6 @@ This option gives us the fastest path to production for gitlab.com while still p
 - glgo is not included for self-managed customers today, and additional effort will be required to make it available in the future.
 
 ## Related Links
+
 - [Sigstore Bundle Format](https://docs.sigstore.dev/about/bundle/)
 - [Issue #537060: Architecture Decision: Where do we sign SLSA provenance?](https://gitlab.com/gitlab-org/gitlab/-/issues/537060)
