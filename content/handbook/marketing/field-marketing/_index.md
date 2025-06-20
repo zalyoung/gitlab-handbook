@@ -592,7 +592,7 @@ Event assets utilized for shows (including backwalls, tablecloths, popup banners
 
 It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Brilliant portal will include return labels (one return label per box) in a red envelope adhered to the inside flap of the box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
 
-**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes. All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes (this includes stickers, please see [below](/handbook/marketing/field-marketing/#stickers) for more sticker information). All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
 
 ### Warehouse Address
 
@@ -603,7 +603,7 @@ Waukegan, IL 60085
 
 ### Stickers
 
-For sticker orders, please reach out to `@krogel` for details.
+For sticker orders, please reach out to `@krogel` for details. If all stickers are not utilized at an event, please keep the stickers with you for future events.
 
 ### Print Collateral
 
