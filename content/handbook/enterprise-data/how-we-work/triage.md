@@ -145,7 +145,7 @@ The Central Data Team triager will create [an issue in the Data Team project](ht
 Every issue that comes in during a Data Platform Team member's triage week must be resolved as follows:
 
 1. All issues are assigned to triager as starting point. 
-1. All issues are processed through the combined `triage & validation` stage, where the triager determines both the clarity of the problem statement and whether the work warrants development, then moved to `waiting for prioritization`, and finally `refined` - following the defined [workflow (criteria)](/handbook/enterprise-data/how-we-work/#workflow-summary). If the triager cannot prepare it adequately:
+1. All issues are processed through the combined `triage & validation` stage, where the triager determines both the clarity of the problem statement and whether the work warrants development, then moved to `waiting for prioritization` - following the defined [workflow (criteria)](/handbook/enterprise-data/how-we-work/#workflow-summary). If the triager cannot prepare it adequately:
    - Assign to a team member with domain expertise, OR
    - Assign to Director Data Platform if appropriate expertise is unknown
 1. If an issue is **1-2** [issue points](/handbook/enterprise-data/how-we-work/#issue-pointing) they will fully implement the solution. This means moving through all workflow stages up until `workflow::6 - review`) 
