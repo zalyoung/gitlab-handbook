@@ -27,7 +27,7 @@ Your input is crucial for refining this process before broader rollout. You can 
 
 #### 1. Direct Issue Creation (Active Pilot Phase)
 
-- Issues created in the [Product Security Requests repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests)
+- Issues created in the [Product Security Requests repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests) (Internal)
 - Pilot team templates available for testing
 - Automated labeling and routing being validated
 
