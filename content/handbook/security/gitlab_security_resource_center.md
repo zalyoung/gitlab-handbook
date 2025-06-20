@@ -104,7 +104,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### Network security
 
-- [Network security management procedure](/handbook/engineering/infrastructure/network-security/)
+- [Network security management procedure](/handbook/engineering/infrastructure-platforms/network-security/)
 - [GitLab security requirements for deployment and development](/handbook/security/planning/security-development-deployment-requirements/)
 
 ### Privacy

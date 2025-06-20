@@ -75,6 +75,8 @@ Watch the video below for more information on the content hierachy in LevelUp:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4QpE-Mb-nE?si=Ig0hzrIdIW0RWLJn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+**Note**: Following some UX updates, you can now access the 'Create' option by navigating to More > Tools > Manage Content > 'Create New', or just head to [https://levelup.edcast.com/content](https://levelup.edcast.com/content)
+
 ### Smartcards
 
 The basic unit of content in LevelUp. A SmartCard is a single piece of learning material like a video, article, quiz, or link to helpful resources.
@@ -113,6 +115,8 @@ Watch the video below for a walkthrough on how to create Smartcards:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tDtdp3OdFDQ?si=WcxaZNeInM1nwC4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+**Note**: Following some UX updates, you can now access the 'Create' option by navigating to More > Tools > Manage Content > 'Create New', or just head to [https://levelup.edcast.com/content](https://levelup.edcast.com/content)
+
 #### Smartcard Thumbnails
 
 We have a directory of branded Smartcard thumbnails available here for team members to use for content they're creating - you can [access it here](https://drive.google.com/drive/u/0/folders/1vhI_6VsQ9EZ9lCTMrD2lGrCM4HodQ55S).
@@ -150,6 +154,8 @@ A Pathway is a collection of SmartCards organized as a learning sequence. Here's
 > **Note:** By default, all users can create SmartCards, but if you're interested in putting a Pathway together, please open an access request to be a course author in LevelUp, and assign it to @jallen16, who can uplift your access permissions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mu_hRz69i0c?si=G3F2ukQzroGDHdAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Note**: Following some UX updates, you can now access the 'Create' option by navigating to More > Tools > Manage Content > 'Create New', or just head to [https://levelup.edcast.com/content](https://levelup.edcast.com/content)
 
 ### Journeys
 
