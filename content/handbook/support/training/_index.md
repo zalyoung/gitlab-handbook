@@ -36,12 +36,12 @@ sequenceDiagram
     Trainer->>New SE: Provides assistance with the first pairing sessions.<br/>Gives feedback on public replies.
     New SE->>Manager: Reviews progress and tickets with manager in 1:1.
     
-    alt Intermediate or Associate Support Engineer only
+    alt Associate or Intermediate Support Engineer only
         Manager->>New SE: Assigns SaaS Account basics training module
         Note left of New SE: Starts SaaS Account basics!<br/>(Associate and Intermediate only)
         New SE->>New SE: Have pairing sessions with support engineers on SaaS Account tickets
         New SE->>New SE: Handles SaaS Account tickets while learning
-        Note right of New SE: Completes SaaS Account basics<br/>(Intermediate and Associate only)
+        Note right of New SE: Completes SaaS Account basics<br/>(Associate and Intermediate only)
     end
     
     Note left of New SE: Starts SaaS Basics!
