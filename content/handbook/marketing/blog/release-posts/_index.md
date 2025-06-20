@@ -925,6 +925,25 @@ Content of the **description** should adhere to the Marketing editorial team's
 Do not include UI navigation instructions in the feature's description. These instructions should be
 contained in the relevant documentation.
 
+#### Co-Create Partner Attribution
+
+For features developed through the GitLab Co-Create program, include this attribution at the end of the feature description:
+
+```yaml
+This feature was developed through the GitLab [Co-create program](https://about.gitlab.com/community/co-create/). Special thanks to [Partner Organization] for making this contribution!
+```
+
+**Example:**
+
+```yaml
+description: |
+  You can now subscribe to notifications for pipeline events triggered by service accounts. Notifications are sent when the pipeline passes, fails, or is fixed.
+
+  This feature was developed through the GitLab [Co-create program](https://about.gitlab.com/community/co-create/). Special thanks to [Partner Organization] for making this contribution!
+```
+
+This ensures consistent recognition of Co-Create partners across all release notes and helps promote the program to potential future collaborators.
+
 #### Feature priority
 
 The second line of the content block should indicate whether the feature is a top, primary, or secondary feature. For primary features, use the `primary` key as shown in the [sample content block above](/handbook/marketing/blog/release-posts/#content-blocks). For secondary features, replace the `primary` key with the word `secondary` and for the top feature replace `primary` with `top`.
