@@ -89,10 +89,6 @@ All responsibilities listed above (applicable to all roles).
 
 All requirements listed above (applicable to all roles).
 
-#### Director, AI Security Performance Indicators
-
-- {add 3-5 KPIs that this role will be the DRI for, if the PIs are the same for all levels remove this section and use the heading 2 section later in the template}
-
 ### Senior Director, AI Security
 
 This position reports to CISO (Chief Information Security Officer)
@@ -108,10 +104,6 @@ All responsibilities listed above (applicalbe to all roles).
 #### Senior Director, AI Security Requirements
 
 All requirements listed above (applicalbe to all roles).
-
-#### Senior Director, AI Security Performance Indicators
-
-- {add 3-5 KPIs that this role will be the DRI for, if the PIs are the same for all levels remove this section and use the heading 2 section later in the template}
 
 ## Career Ladder
 
