@@ -43,10 +43,10 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 Emergencies can be raised by GitLab customers by submitting reports on the [Emergency Support form](https://about.gitlab.com/support/#how-to-engage-emergency-support) for the following:
 
 - [Self-managed Emergencies](#handling-self-managed-emergencies)
-- [SaaS (GitLab.com) Emergencies](#saas-emergencies)
-- [Advanced or Signature Success Tier Emergencies](#supporting-247-coverage-for-customers-on-the-advanced-or-signature-success-tier----phase-1)
 - [License Emergencies](#license-emergencies)
+- [SaaS (GitLab.com) Emergencies](#saas-emergencies)
 - [GitLab Dedicated Emergencies](#gitlab-dedicated-emergencies)
+- [Advanced or Signature Success Tier Emergencies](#supporting-247-coverage-for-customers-on-the-advanced-or-signature-success-tier----phase-1)
 
 ### PagerDuty
 
@@ -423,68 +423,17 @@ On rare occasions, you and the manager on-call may decide it's necessary to init
 
 To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
-## Supporting 24/7 Coverage for Customers on the Advanced or Signature Success Tier  - Phase 1
+## Other forms of Emergencies
 
-Customer Support provides 24/7 coverage for customers subscribed to GitLab’s Advanced and Signature Success Tiers. These premium tiers, which include access to a [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/), require continuous support and faster response times for Severity 2 issues (labeled as High Priority tickets in Zendesk).
-
-| Success Tier | Coverage                                   |
-| ------------ | ------------------------------------------ |
-| Advanced     | - 24/7 High Priority coverage              |
-| Signature    | - 24/7 High Priority coverage<br>- 2hr SLA |
-
-### Weekend Coverage
-
-Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. This means we need to provide a first reply and ensure the customer doesn't get into a critical scenario during the weekend. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
-
-### PagerDuty Alerts
-
-From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
-
-### Ticket Assignment and Handling
-
-We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
-
-1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention.
-1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority.
-1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift.
-
-#### Customers with an Assigned Support Engineer (ASE)
-
-In cases where:
-
-- An [assigned support engineer](/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/) has opted to automatically assign their customer's tickets to themselves; and
-- The customer creates a Sev 2 ticket on a weekend.
-
-This will:
-
-1. Generate a CEOC page for the ticket; and
-1. Assign the ASE to the ticket.
-
-CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: *All Success Tier Customers' Unsolved Severity 2/High Tickets* on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
-
-Once the customer ticket has been de-ecalated and is no longer a Severity 2/High Priority issue, [reset the ticket priority](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority), and let the customer know we will continue working with them during standard operating hours.
-
-The Support Manager On-Call is always available to support you. Follow [these steps](/handbook/support/on-call/#engaging-the-on-call-manager) to engage the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) for assistance.
-
-### Rollout and Monitoring
-
-Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and customer adoption.
-
-**Zendesk Explore Dashboard:** [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE)
-
-This is being closely monitored by Manager DRIs (@erikamiklos (EMEA), @ralfaro (AMER), @kslaats (APAC)) in the Zendesk Dashboard: [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE).
-
-## License Emergencies
-
-### During the week
+### License Emergencies
 
 For license emergencies during the week, reach out to [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) and ask for an expert there to handle the case. Ping the current [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in your request so they can ensure it gets picked up. Once pinged, the Support Manager On-call is the DRI for ensuring the emergency gets handled.
 
 In the event the customer's instance is unusable due to an expired license and you are unable to reach the L&R team or the on-call manager, [generate a trial license](/handbook/support/license-and-renewals/workflows/self-managed/license_for_weekend_emergencies/#step-2-generate-the-trial-license).
 
-### On a weekend
+#### On a weekend
 
-#### Self-managed Subscription Emergencies
+##### Self-managed Subscription Emergencies
 
 There may be times when a customer's subscription expires **over the weekend**, leaving their instance unusable until a new subscription is generated.
 
@@ -492,9 +441,9 @@ For non-trial subscriptions, you can remind the customer that subscriptions have
 
 Otherwise, follow the [Self-Managed Weekend Emergencies - License Request](/handbook/support/license-and-renewals/workflows/self-managed/license_for_weekend_emergencies/) workflow.
 
-#### SaaS Subscription Emergencies
+##### SaaS Subscription Emergencies
 
-##### Subscription expired and downgraded to Free
+###### Subscription expired and downgraded to Free
 
 A customer may be blocked because of a license expiring or neglecting to apply a renewal. If this happens over the weekend:
 
@@ -513,7 +462,7 @@ A customer may be blocked because of a license expiring or neglecting to apply a
 1. When the customer confirms, close the emergency ticket.
 1. Alert [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) by linking to the ticket for follow-up.
 
-##### Multi-year subscriptions
+###### Multi-year subscriptions
 
 - **Note:** Refer to [Handling multi-year subscriptions](/handbook/support/license-and-renewals/workflows/self-managed/handling_multi-years_subscription/) for Self Managed licensing.
 
@@ -527,7 +476,7 @@ If the customer's CustomersDot account is not linked to their GitLab.com account
 
 If neither of the above resolves the issue for the customer, [contact the on-call Support Manager](#optional-contact-the-on-call-support-manager) requesting further guidance.
 
-## SaaS Emergencies
+### SaaS Emergencies
 
 The workflow for these calls is the same as with self-managed emergencies: success means that the customer is unblocked. In some cases,
 you may even be able to fully resolve a customer's problem.
@@ -562,7 +511,7 @@ We're expecting, broadly that emergencies will fall into one of five categories:
 - **a widespread incident causes multiple, successive PagerDuty alerts**
   - Success here means tagging and bulk responding to the issues pointing to the [GitLab.com Status Page](https://status.gitlab.com) and production issue.
 
-### Broken Functionality
+#### Broken Functionality
 
 If a customer is reporting that behaviour has recently changed, first check [GitLab.com Status](https://status.gitlab.com) and `#incidents` for any on-going incidents. If there's no known incident:
 
@@ -572,7 +521,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
    - ascertain whether or not a feature flag that may have been recently turned on (see: [Enabling Feature Flags on GitLab.com](https://docs.gitlab.com/development/feature_flags/controls/#enabling-a-feature-for-gitlabcom))
    - find/build reproduction steps devoid of customer data to build a bug report if none exists.
 
-#### Broken functionality due to a regression or feature flag
+##### Broken functionality due to a regression or feature flag
 
 1. Create a `~"type::bug"` issue and have the customer review it.
 1. Escalate the `~"type::bug"` issue
@@ -581,37 +530,37 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 1. If this is affecting multiple customers, [declare an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) to engage the incident response team who will update the status page.
 1. Once the original functionality is restored, update the customer.
 
-#### Broken functionality due to something specific to the customer
+##### Broken functionality due to something specific to the customer
 
 1. [Page the Support Manager on-call](/handbook/support/on-call/#engaging-the-on-call-manager) to review the best way to unblock the customer. It may be that you will need someone with .com console access to fully investigate / resolve.
 
-#### Broken functionality due to an incident
+##### Broken functionality due to an incident
 
 If there is a known incident, it's acceptable to link to the public status page and related incident issue. Consider using [`Support::SaaS::Gitlab.com::Incident First Response`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Incident%20First%20Response.md?ref_type=heads).
 
-#### Example tickets
+##### Example tickets
 
 - [Feature flag broke previously working behaviour](https://gitlab.zendesk.com/agent/tickets/204073): resolution was to turn off a feature-flag.
 - [Regression on GitLab.com broke previously working pipeline](https://gitlab.zendesk.com/agent/tickets/147266): resolution was to revert a recently deployed MR.
 - [Customer locked themselves out of their group by changing SAML settings](https://gitlab.zendesk.com/agent/tickets/146611)
 
-### Consumption Issues
+#### Consumption Issues
 
-#### Quota of compute minutes is blocking a production deployment
+##### Quota of compute minutes is blocking a production deployment
 
 A customer may be blocked because they have run out of compute minutes.
 
 1. Advise them to purchase additional compute minutes or set up individual runners.
 1. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-minutes-quota-for-a-namespace)
 
-#### Customer has exceeded their storage quota
+##### Customer has exceeded their storage quota
 
 A customer may be blocked because they've exceeded their storage quota.
 
 1. Advise them to purchase additional storage
 1. In cases where a customer is unable to complete a purchase because of a defect or outage, as a courtesy, someone with GitLab.com admin can override the storage limit on a group.
 
-### A widespread incident causes multiple, successive PagerDuty alerts
+#### A widespread incident causes multiple, successive PagerDuty alerts
 
 If an incident occurs on GitLab.com and hasn't been posted on the status page, SaaS customers may raise emergencies in bulk.
 Success in such a situation is two-fold:
@@ -641,7 +590,7 @@ During an incident:
 - *If there is no production issue to link to yet*: let customers know we are actively working to address the problem and that we will follow-up with a link to a tracking issue as soon as one is created. Set the ticket to **Open**. Once the issue is available, send a follow-up note letting the customer know that they should follow along with the issue and that we are marking the ticket as **Solved**. Include a note that they should reply if they still have trouble once the production issue has been closed / the incident has been declared resolved.
 - *If there is a production issue to link to*: let customers know we are actively working to address the problem, that they should follow along at the issue, that we are marking the ticket as **Solved** and they should reply if they still have trouble once the production issue has been closed / the incident has been declared resolved.
 
-#### Using Zendesk Bulk Update
+##### Using Zendesk Bulk Update
 
 [Zendesk Bulk Update](https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk#topic_oth_lkp_gk) is a way to mass edit and respond to tickets. During an incident, you can use it to:
 
@@ -662,7 +611,7 @@ You can bulk edit tickets by:
 
 ![ZD Bulk Update View](/images/support/zd-bulk-update.png)
 
-## US Government On-call
+### US Government On-call
 
 US Government on-call support is provided 7 days a week between the hours of 0500 and 1700 Pacific Time for [severity one](https://about.gitlab.com/support/definitions/#severity-1) issues that arise with premium and ultimate customers who have purchased 12x5 US Gov support. Customers who have opted for the 24x7 ultimate for high and emergency coverage can page at any time.
 
@@ -674,20 +623,20 @@ The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerdu
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
 
-### On-call Shift Coverage in US Government
+#### On-call Shift Coverage in US Government
 
 In the event that a Support Engineer needs coverage for a scheduled On-call shift, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template.
 
 Dayshift engineers needing coverage on a **non-holiday weekday** may give the shift to the Support Bot.  To do so, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template and mention your manager for review. After ensuring that the shift(s) in question do not fall on a weekend or holiday remove the override for your shift in PagerDuty and ensure it falls back to the bot user.
 
-### Emergencies outside on-call hours
+#### Emergencies outside on-call hours
 
 If a non-24x7 eligible customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
 
 - A slack notification will trigger in the #spt_us-government channel alerting the team to an off hours emergency and indicating follow-up is needed at the start of business hours
 - The `Off hours emergency request` trigger will inform the ticket submitter that it is after hours and give them the option to either create an emergency case in Global support or wait for US Government support to follow-up at the next start of business hours.
 
-#### Responding to after hours emergencies
+##### Responding to after hours emergencies
 
 Team members who are working after the 12x5 hours may opt to provide support for customers who are having a production incident at the engineer's own discretion. When addressing these it is important to ensure the following is clear with the customer:
 
@@ -696,11 +645,11 @@ Team members who are working after the 12x5 hours may opt to provide support for
 
 The responding engineer should also add their manager as a follower and indicate in an internal note that after hours support is being provided. This will help ensure the appropriate follow-up occurs with the customer's account team.
 
-### US Gov Emergencies in Global
+#### US Gov Emergencies in Global
 
 US Government customers with 12x5 support packages are permitted to use the global support portal for after hours emergencies if their organization's policies permit interacting and sharing information with non-US citizens. The US Gov support team **cannot confirm or deny** whether a specific case belongs to a user or organization entitled to US Government support. There is no requirement or restriction on who can reply to emergencies filed in the global support portal. If a user asks for a US citizen please remind them they are using the global support portal where US citizenship is not guaranteed and let them know if that is a requirement they should use the US Government Support portal for future communication instead.
 
-## GitLab Dedicated Emergencies
+### GitLab Dedicated Emergencies
 
 Emergencies from [GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) come through the Customer Emergency On Call rotation. The [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated) has information about [working with logs](/handbook/support/workflows/dedicated_logs) and viewing [observability dashboards](/handbook/support/workflows/dedicated_instance_health/).
 
@@ -708,11 +657,62 @@ Consider using the `@spt_focus-dedicated` Slack handle to ping members of the Gi
 
 As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#raise-a-dedicated-incident) to engage the Engineer on Call for GitLab Dedicated.
 
-## Special handling notes
+### Supporting 24/7 Coverage for Customers on the Advanced or Signature Success Tier  - Phase 1
+
+Customer Support provides 24/7 coverage for customers subscribed to GitLab’s Advanced and Signature Success Tiers. These premium tiers, which include access to a [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/), require continuous support and faster response times for Severity 2 issues (labeled as High Priority tickets in Zendesk).
+
+| Success Tier | Coverage                                   |
+| ------------ | ------------------------------------------ |
+| Advanced     | - 24/7 High Priority coverage              |
+| Signature    | - 24/7 High Priority coverage<br>- 2hr SLA |
+
+#### Weekend Coverage
+
+Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. This means we need to provide a first reply and ensure the customer doesn't get into a critical scenario during the weekend. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
+
+#### PagerDuty Alerts
+
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
+
+#### Ticket Assignment and Handling
+
+We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
+
+1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention. 
+1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. 
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift. 
+
+##### Customers with an Assigned Support Engineer (ASE)
+
+In cases where:
+
+- An [assigned support engineer](/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/) has opted to automatically assign their customer's tickets to themselves; and
+- The customer creates a Sev 2 ticket on a weekend.
+
+This will:
+
+1. Generate a CEOC page for the ticket; and
+1. Assign the ASE to the ticket.
+
+CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: *All Success Tier Customers' Unsolved Severity 2/High Tickets* on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
+
+Once the customer ticket has been de-ecalated and is no longer a Severity 2/High Priority issue, [reset the ticket priority](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority), and let the customer know we will continue working with them during standard operating hours. 
+
+The Support Manager On-Call is always available to support you. Follow [these steps](/handbook/support/on-call/#engaging-the-on-call-manager) to engage the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) for assistance.
+
+#### Rollout and Monitoring
+
+Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and customer adoption.
+
+**Zendesk Explore Dashboard:** [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE)
+
+This is being closely monitored by Manager DRIs (@erikamiklos (EMEA), @ralfaro (AMER), @kslaats (APAC)) in the Zendesk Dashboard: [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE).
+
+### Special handling notes
 
 There are a few cases that require special handling. If an emergency page falls in one of these categories please follow these special handling instructions. If you think an emergency is special and not called out below, connect with the Support Manager On-call for help as how best to approach it.
 
-### Compromised instances
+#### Compromised instances
 
 In the event that an emergency is raised about a compromised instance a call can quickly move well beyond the scope of support.
 
@@ -734,13 +734,13 @@ The customer should:
 
 Do not offer or join a call without engaging the Support Manager on-call to align and set expectations with the customer through the ticket.
 
-### Single user, same day purchases
+#### Single user, same day purchases
 
 There have been a few documented cases of folks purchasing a single user GitLab license specifically to raise an emergency. If you
 encounter such a case, engage the Support manager on-call before offering a call.
 
-## Customer Emergency On-Call Training Resources
+### Customer Emergency On-Call Training Resources
 
-### Customer Emergency Shadow PagerDuty Schedule
+#### Customer Emergency Shadow PagerDuty Schedule
 
 The [Customer Emergency Shadow Schedule](https://gitlab.pagerduty.com/schedules#PLNQAAB) can be used by anyone who wishes to shadow customer emergencies to learn before being Customer Emergency On-Call. To add yourself to the shadow rotation, speak to your manager. To modify your rotation schedule, speak to your manager. To shadow for a short span of days, you can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
