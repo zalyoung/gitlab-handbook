@@ -39,7 +39,6 @@ graph LR
   GitLab.com --> CustomersDot
   CustomersDot --> Workato API
   Workato API --> Iterable
-
 ```
 
 **SaaS Trials Event**
