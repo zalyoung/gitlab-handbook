@@ -17,6 +17,10 @@ Our mission is to set the standard for product security by fostering a culture o
 
 Our comprehensive, [multi-year product security mission](https://internal.gitlab.com/handbook/security/product_security/product_security_strategy/) can be found in our internal handbook.
 
+### How to engage with Product Security teams
+
+We are currently piloting a new engagement model with our [Infrastructure Security](./infrastructure-security/) and [Vulnerability Management](./vulnerability-management/) teams. To learn more about it, consult our specific page related to our [Unified Ingestion Funnel](unified-ingestion-funnel.md) project.
+
 ### Product Security Risk Register
 
 Our Product Security Risk Register process details can be consulted on [this dedicated page](/handbook/security/product-security/security-platforms-architecture/risk-register/).
