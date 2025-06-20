@@ -54,7 +54,7 @@ Your input is crucial for refining this process before broader rollout. You can 
 Pilot requests follow our standardized workflow using scoped labels:
 
 1. **`::new-request`** - Initial submission and intake
-1. **`::planned`** - Triaged and scheduled for upcoming milestones  
+1. **`::planned`** - Triaged and scheduled for upcoming milestones
 1. **`::ongoing`** - Active work in progress
 1. **`::completed`** - Work finished and closed
 
