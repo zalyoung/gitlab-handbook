@@ -497,7 +497,7 @@ Work proposed via the R&D Interlock process will benefit from:
 
 1. **Create an Epic**
    1. Within https://gitlab.com/gitlab-org/gitlab-rd-planning, create an new epic ([docs](https://docs.gitlab.com/user/group/epics/manage_epics/#create-an-epic))
-   1. Select the epic template named: [interlock_template](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/epics/new?description_template=interlock_template)
+   1. Copy (for existing) or select (for new) the epic template named: [interlock_template](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/epics/new?description_template=interlock_template)
 1. **Complete required information**
    1. Fill in all sections of the template
    1. Assign DRIs (PM, EM, UXPD&PDM)
