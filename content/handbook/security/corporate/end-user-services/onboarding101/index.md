@@ -17,7 +17,7 @@ Congratulations on joining GitLab! This page is dedicated to the IT onboarding e
    - [Okta Account Verification](#macbook-step-5-okta-account-verification)
    - [Access GitLab Email & GitLab.com Account](#macbook-step-6-access-gitlab-email--gitlabcom-account)
 1. [Laptop Setup: Linux](#laptop-setup-linux)
-   - [Activate your Okata Account](#linux-step-1-activate-your-okta-account-1)
+   - [Activate your Okata Account](#linux-step-1-activate-your-okta-account)
    - [Okta Setup](#linux-step-2-okta-setup)
    - [Google Account Setup](#linux-step-3-google-account-setup)
    - [Access GitLab Email & GitLab.com Account](#linux-step-4-access-gitlab-email--gitlabcom-account)
