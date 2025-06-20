@@ -116,7 +116,7 @@ When editing:
 
 - Panels can be dragged and snapped into a new grid position
 - Panels can be resized with a new height and width
-- Panels can be removed
+- Panels can be removed (optional)
 
 ### Filters
 
@@ -126,10 +126,13 @@ When editing, the framework should hide dashboard-level filters by default to re
 
 ### Customization persistence 
 
-The framework does not define dashboard configurations should persist. This is planned as an upcoming feature as part of the dashboard
-foundations roadmap [epic](https://gitlab.com/groups/gitlab-org/-/epics/18072). Customizations made to dashboards should be tracable with
-change events persisted. Additionally customizations must be stored using the dashboard configuration object, see the dashboard layout framework
-[documentation](https://docs.gitlab.com/development/fe_guide/dashboard_layout_framework/#basic-implementation) for an example configuration.
+The framework does not define how dashboard configurations should persist and consumers are responsible for implementing this feature.
+Persistence is planned as an upcoming framework feature as part of the dashboard foundations roadmap [epic](https://gitlab.com/groups/gitlab-org/-/epics/18072).
+Any customization persistence should adhere to the following:
+
+- Customizations made to dashboards should be traceable with change events persisted
+- Customizations must be stored using the dashboard configuration object, see an example in the dashboard layout
+[documentation](https://docs.gitlab.com/development/fe_guide/dashboard_layout_framework/#basic-implementation)
 
 ## Getting started
 
