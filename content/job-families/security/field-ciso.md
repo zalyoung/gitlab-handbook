@@ -59,10 +59,6 @@ All responsibilities listed above (applicalbe to all roles) plus:
 - Strong verbal and written skills with a strong ability to articulate and communicate strategies to all levels in an organization (i.e., executive to staff engineer)
 - Ability to use GitLab, including learning GitLab as part of the role
 
-#### Field CISO (Senior Director) Performance Indicators
-
-- {add 3-5 KPIs that this role will be the DRI for, if the PIs are the same for all levels remove this section and use the heading 2 section later in the template}
-
 ## Career Ladder
 
 For more details on the security engineering career ladders, please review the [security engineering career development](/job-families/security/security-engineer/) handbook page.
