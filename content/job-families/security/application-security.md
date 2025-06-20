@@ -209,10 +209,6 @@ The Application Security Senior Manager is a [grade 9](/handbook/total-rewards/c
 
 For details on the Security organization leadership roles, to include the Product Security Director and VP of Security, see the Security Leadership page.
 
-## Performance Indicators
-
-- <https://app.periscopedata.com/app/gitlab/641782/Appsec-hackerone-vulnerability-metrics?widget=8715519&udv=0>
-- <https://app.periscopedata.com/app/gitlab/641782/Appsec-hackerone-vulnerability-metrics?widget=8729826&udv=0>
 
 ## Career Ladder
 
