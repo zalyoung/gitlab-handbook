@@ -471,11 +471,11 @@ process.*
 
 ## GitLab Process
 
-The Interlock process has moved to GitLab epics within the `gitlab-rd-planning/` group, starting with planning quarter FY27Q1. 
+The Interlock process has moved to GitLab epics within the `gitlab-org/` group, starting with planning quarter FY27-Q1. 
 
-These epics are separate from existing workstream epics. While implementation work continues in public workstream epics, the interlock epics contain sensitive information like customer names, ARR impact, and other business details that shouldn't be publicly visible.
+Generally, where implementation work can be public, use an "internal note" to make notes or discuss any sensitive information. Examples include, but are not limited to, customer names, ARR impact, and other business details that shouldn't be publicly visible.
 
-Each interlock epic will be linked to its corresponding workstream epic, allowing for easy navigation and drilldown into the actual implementation work. Since the group is private, this allows us to maintain confidentiality while still providing transparency into delivery progress.
+If the implementation work is not in the `gitlab-org/` group, a separate interlock epic should be created in the `gitlab-org/gitlab-rd-planning/` group using the provided template. Each interlock epic should be linked to its corresponding workstream epic, allowing for easy navigation and drilldown into the actual implementation work. The interlock epic should be used to discuss anything related to the interlock process, and regularly updated with a summary on its "health" and progress.
 
 ### GitLab's Product Roadmap R&D Interlock Process 
 
