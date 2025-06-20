@@ -32,8 +32,7 @@ For any other offboarding questions from active team members please reach out to
 ### Resignation
 
 1. **Team Member:** Following the guidelines in the 'How to Submit a Resignation' [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) submit your resignation directly in Workday accessible through Okta.
-1. **Team Member:** If you are employed via a PEO or Third-Party Employer forward a copy of your Letter of Resignation directly to them.
-1. **Team Member:** After your resignation is submitted in Workday, your manager will receive a request to complete your offboarding in Workday. Once your termination is complete, you can anticipate receiving your offboarding packet with information regarding your final pay, continued benefit offerings, and additional offboarding information such as returning your devices. You can also expect a request to complete an exit survey along with an invitation to take part in an optional exit interview within 48 hours.
+1. **Team Member:** After your resignation is submitted in Workday, your manager will receive a request to complete your offboarding in Workday. Once your termination is complete, you can anticipate receiving your offboarding packet with information regarding your final pay, continued benefit offerings, and additional offboarding information such as returning your devices.
 1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out to the People Operations Team using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c). **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
 
 #### ***Country Specific Requirements for Resignation***
@@ -56,7 +55,7 @@ Team Members located in Singapore who are resigning and are **not** Singapore ci
 
 ### Termination
 
-1. **Manager:** If your team member completes a resignation in Workday, you will receive a prompt in your Workday inbox to terminate the team member by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) If a resignation was not submitted, you should initiate the termination by going to the departing team member's Workday Profile and selecting `Actions` followed by `Job Change` and finally `Terminate Employee`).
+1. **Manager:** If your team member completes a resignation in Workday, you will receive a prompt in your Workday inbox to terminate the team member by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit). If a resignation was not submitted, you should initiate the termination by going to the departing team member's Workday Profile and selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
    - **Note**: Submitting the termination in Workday does not immediately terminate access. The offboarding issue, which is opened on the team members last day worked, initiates the deprovisioning process for terminated team members.
 1. **Manager:** You will be prompted to indicate whether the termination is regrettable or non-regrettable:
     - Regrettable: The team members departure has a significant negative impact on the company, its customers, its projects or the team - the team member was a good and consistent performer both in terms of results and behaviours specifically upholding the GitLab values.
@@ -130,10 +129,12 @@ You may also contact X at GitLab (provide phone number and email address) with a
 
 ### Initiating an Involuntary Termination in Workday
 
-1. **TMR:** Terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
+1. **TMR:** Terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1nMokz03AiUQtb0XV5zpD9CjaQKcX5Lu8p5ASZy3cJVA/edit?tab=t.0) (Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`).
 1. **TMR:** You will be prompted to indicate whether the termination is regrettable or non-regrettable and whether the team member would be eligible for re-hire in future or not i.e. with review unless specifically relating to [conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) or [job abandonment](/handbook/people-policies/#job-abandonment) in which case they would not be eligible.
-1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particulars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and TMR in question should be arranged and the particulars can be sent back for further review.
-1. **People Ops:** Once the transaction has been fully approved the team will receive a TODO of the termination within your Workday Inbox.
+1. **TMR:** Once you have submitted the termination details, you will be prompted to complete a Questionnaire confirming that the Manager or PBP have communicated termination to the business AND confirming that access has been shut off with IT.
+
+1. **People Business Partner:** You will receive the termination transaction to review, approve, and then enter a comment to confirm termination is ready for the offboarding process to begin. **If PBP does not want the offboarding process to initiate they should NOT approve the termination until they’re ready.**
+1. **People Ops:** will review all comment(s) and questionnaire to confirm the offboarding process is ready to begin. If needed, the Peopel Operations team member should reach out to the PBP to confirm the process can be initiated. This will complete the process of the involuntary termination.
 
 ### Last Working Day
 
@@ -158,7 +159,7 @@ As written, it is applicable to US-based employees only.
 
 ### Separation and Release of Claims Agreements {#separation-agreement}
 
-Separation and Release of Claims Agreements ***do not*** apply for all offboardings. To review in which cases they do/do not apply, please reference the `Severance Eligibility` document accessible by People Operations Team and PBPs. In the case that a severance agreement is applicable, the steps below should be followed:
+Separation and Release of Claims Agreements ***do not*** apply for all offboardings. To review in which cases they do/do not apply, please reference the `Severance Eligibility` document accessible by Team Member Relations team and PBPs. In the case that a severance agreement is applicable, the steps below should be followed:
 
 ### Severance Process for US-based Team Members
 
@@ -188,13 +189,13 @@ Separation and Release of Claims Agreements ***do not*** apply for all offboardi
 For team members who will be placed on leave during an investigation please follow the process below:
 
 1. **TMR**: Communicates with Legal, Aligned PBP regarding the decision to place a team member on leave and disable accounts during an investigation.
-1. **TMR**: TMR will request IT and People Operations support for disabling a team members accounts.
+1. **TMR**: TMR will request IT support for disabling a team members accounts.
 1. **TMR**: TMR schedules a call with the team member and manager to inform them of the decision to place the team member on leave while an investigation occurs.
 1. **TMR**: TMR informs the manager and PBP when the conversation is completed and accounts are disabled. During this period managers will not have access to the team members accounts.
 1. **TMR**: TMR notifies IT that an Out Of Office message needs to be set on the account and include the message that the team member is OOO and please reach out to their manager.
 1. **TMR**: TMR send the team member to their personal email the "Team member Suspension letter" via DocuSign. The TMR will upload this document to the team members Workday Profile in documents tab.
 1. **TMR**: TMR once the investigation is completed the TMR will inform the aligned PBP and manager of the final decision. If the team member is to be returned to work the TMR will reach out and schedule time to meet with the team member.
-1. **TMR**: If the team member is returning to work the TMR will notify IT and People Operations that the team member will be returning from leave and the date that accounts should be enabled.
+1. **TMR**: If the team member is returning to work the TMR will notify IT that the team member will be returning from leave and the date that accounts should be enabled.
 
 ### Offboarding Compliance
 
