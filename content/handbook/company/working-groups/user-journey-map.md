@@ -12,7 +12,7 @@ While this working group focuses on creating a structured foundation for journey
 | Property     | Value            |
 |--------------|------------------|
 | Date Created | April 23, 2025   |
-| Target Date  | TBD |
+| Target Date  | June 30, 2025 |
 | Slack        | [#ujm-working-group](https://gitlab.slack.com/archives/C08PCJAM3F0) (internal only) |
 | Google Doc   | [User Journey Map Working Group Agenda](https://docs.google.com/document/d/1MiN_6N3nV8A5zioI9KDex9WuxBMRs9rtxO_MiJ-brpg/edit?) (internal only) |
 
