@@ -86,8 +86,8 @@ This labeling system is being tested to provide clear visibility and enable auto
 
 ### Current Pilot Teams
 
-- [Infrastructure Security](./infrastructure-security/)
-- [Vulnerability Management](./vulnerability-management/)
+- [Infrastructure Security](infrastructure-security/)
+- [Vulnerability Management](vulnerability-management/)
 
 ### For Engineering Teams Working with Pilot Teams
 
