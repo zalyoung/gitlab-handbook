@@ -10,7 +10,7 @@ All the learning pathways we have in Support are listed [here](https://gitlab-co
 To create an issue for yourself with one of the module templates:
 
 - Click on the module you want to pursue from the [Skills Catalog](https://gitlab-com.gitlab.io/support/team-pages/skills-catalog.html) page
-- Title it as ***Your Name*: *Module Name***
+- Title it as ***Your Name* - *Module Name***
 - Assign it to yourself
 - Now you're all set to follow the instructions in the module!
 
