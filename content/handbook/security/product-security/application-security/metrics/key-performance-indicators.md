@@ -18,7 +18,7 @@ This KPI tracks our ability to review security-relevant merge requests that intr
 
 Those two labels are applied as part of our capacity metrics and our day-to-day operation. You can find more details on the [capacity metric dedicated page](capacity.md) on the [Type of Work Classification](capacity.md#type-of-work-classification). To understand how we work and how we are applying those labels, you can consult our dedicated page about [Milestone Planning](../milestone-planning.md).
 
-2. __Vulnerability Source Tracking__
+1. __Vulnerability Source Tracking__
    - Apply `appsec-kpi::vulnerability-introduced` label to Merge Requests identified as introducing vulnerabilities
 
 #### Calculation Method
