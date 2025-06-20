@@ -708,17 +708,17 @@ Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and custo
 
 This is being closely monitored by Manager DRIs (@erikamiklos (EMEA), @ralfaro (AMER), @kslaats (APAC)) in the Zendesk Dashboard: [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE).
 
-### Special handling notes
+### SIRT Emergencies
 
-There are a few cases that require special handling. If an emergency page falls in one of these categories please follow these special handling instructions. If you think an emergency is special and not called out below, connect with the Support Manager On-call for help as how best to approach it.
+In the event that an emergency is raised about a compromised self-managed instance or a GitLab.com group, we can engage the SIRT team by following one of these workflows.
 
-#### Compromised instances
+#### GitLab.com SIRT Emergency
 
-In the event that an emergency is raised about a compromised instance a call can quickly move well beyond the scope of support.
+For GitLab.com related SIRT emergencies, you can directly raise a SIRT incident by following this [workflow](/handbook/security/customer-requests).
 
-Use the Zendesk macro `Incident::Compromised Instance` which expands on the approach below.
+#### Self-managed SIRT Emergency
 
-The customer should:
+For Self-managed SIRT emergencies, ask the customer to follow these steps to mitigate the issue and collect forensic data.
 
 1. Shut the instance down immediately.
 1. Create a new instance at the exact same version and restore their most recent backup into it.
@@ -731,8 +731,13 @@ The customer should:
 1. If the exploit used to compromise this instance is known, then upgrade **the new instance** to a version that contains a fix for it or apply any known patches/workarounds.
    - In the case that public access is required by the organization, remove network access restrictions once the new instance is appropriately secured.
 1. Retain the compromised instance for forensics and additional data recovery.
+1. Inform the Support Manager on-calll on the potential emergency and evaluate if we should raise a [SIRT incident](https://internal.gitlab.com/handbook/security/cross_functional_runbooks/customer_security_incidents/#runbook) for Log Analysis, Consultancy, Forensic Analysis, Incident Response, Detection Engineering.
 
 Do not offer or join a call without engaging the Support Manager on-call to align and set expectations with the customer through the ticket.
+
+### Special handling notes
+
+There are a few cases that require special handling. If an emergency page falls in one of these categories please follow these special handling instructions. If you think an emergency is special and not called out below, connect with the Support Manager On-call for help as how best to approach it.
 
 #### Single user, same day purchases
 
