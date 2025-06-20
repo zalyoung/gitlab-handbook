@@ -16,10 +16,10 @@ At GitLab, due to the pace at which we are moving, people joining our team in an
 
 | Level | Grade |
 | ----- | ----- |
-| Associate Professional Services Engineer | Grade 5 |
-| Intermediate Professional Services Engineer | Grade 6 |
-| Senior Professional Services Engineer | Grade 7 |
-| Staff Professional Services Engineer | Grade 8 |
+| [Associate Professional Services Engineer](/job-families/sales/professional-services-engineer/#associate-professional-services-engineer-grade-5) | Grade 5 |
+| [Intermediate Professional Services Engineer](/job-families/sales/professional-services-engineer/#intermediate-professional-services-engineer-grade-6) | Grade 6 |
+| [Senior Professional Services Engineer](/job-families/sales/professional-services-engineer/#senior-professional-services-engineer-grade-7) | Grade 7 |
+| [Staff Professional Services Engineer](/job-families/sales/professional-services-engineer/#staff-professional-services-engineer-grade-8) | Grade 8 |
 
 ## **Performance Indicators**
 
