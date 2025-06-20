@@ -28,15 +28,16 @@ This working group aims to:
 
 ## Business outcomes and exit criteria
 
-- Define key terminology including: User journey, golden journey, journey map, and journey elevation/fidelity `=> 0%`
-- Develop guidelines for various levels of journey elevation (macro, mid, micro) `=> 0%`
-  - Develop processes for identifying connection points between team-level journeys `=> 0%`
-  - Create guidance for how different teams can contribute to shared journeys `=> 0%`
-  - Define how micro-level journeys connect to and support mid/macro-level journeys/golden journeys `=> 0%`
+- Define key terminology including: User journey, golden journey, journey map, and journey elevation/fidelity `=> 100%`
+  - Status: [Complete](/handbook/product/ux/user-journeys/#key-terminology)
+- Develop guidelines for various levels of journey elevation (macro, mid, micro) `=> 100%`
+  - Status: [Complete](/handbook/product/ux/user-journeys/#journey-map-elevations)
 - Establish templates, methodologies, and best practices for journey documentation `=> 0%`
-- Create a centralized system for storing, accessing, and connecting journey maps `=> 0%`
+- Create a centralized system for storing, accessing, and connecting journey maps `=> 50%`
+  - Status: We have [reviewed various tooling](https://gitlab.com/gitlab-com/Product/-/work_items/14209) and are further examining how to best utilize Figjam
 - Establish communication channels for journey insights and discoveries `=> 0%`
-- Create a structure for translating journey insights into strategic opportunities based on business impact and user value `=> 0%`
+- Create a structure for translating journey insights into strategic opportunities based on business impact and user value `=> 50%`
+  - Status: We have drafted an issue template for teams to utilize, [currently under review](https://gitlab.com/gitlab-com/Product/-/work_items/14211)
 
 ## Roles and Responsibilities
 
