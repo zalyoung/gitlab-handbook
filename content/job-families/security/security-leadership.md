@@ -192,7 +192,7 @@ controls, and common security flaws that apply to Ruby on Rails applications
 
 ### Senior Director, Security
 
-This position reports to a [Security Divsion VP](/job-families/security/security-leadership/#vice-president-vp-security)
+This position reports to a [Security Divsion VP](/job-families/security/security-leadership/#vice-president-vp-security) or the [CISO](/job-families/chief-information-security-officer/chief-information-security-officer/)
 
 #### Senior Director, Security Job Grade
 
