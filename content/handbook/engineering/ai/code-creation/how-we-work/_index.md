@@ -26,6 +26,10 @@ This page serves as both an onboarding resource for new team members and a refer
 To help get started as a developer with the Code Creation team, we have created an
 [onboarding issue template](https://gitlab.com/gitlab-org/ai-engineering/code-creation/team-tasks/-/issues/new?issuable_template=developer_onboarding).
 
+## Time Off
+
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the “Workday” slack app, in accordance with the [taking time off](/handbook/engineering/#taking-time-off) policy, including creating a [PTO coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new).
+
 ## Milestone Meetings
 
 Our team operates on monthly milestones with one key meeting per milestone cycle. This meeting combines both the retrospective for the previous milestone and the kickoff for the upcoming milestone. To accommodate our globally distributed team, this meeting is held twice each milestone at different times - once in an APAC-friendly time zone and once in an EMEA/AMER-friendly time zone. This approach ensures all team members have the opportunity to participate live in the meeting that best fits their schedule.
