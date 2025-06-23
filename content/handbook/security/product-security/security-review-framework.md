@@ -151,7 +151,11 @@ project's issue tracker to identify this.
 
 ##### Infrastructure Scope (1-5)
 
-* 5: Affects core infrastructure across all environments
+* 5: Affects production infrastructure that is used by multiple product offerings
+* 4: Affects production infrastructure that is used by one product offering
+* 3: Affects parts of the production infrastructure of one product offering that have minimal customer impact
+* 2: Affects non-production infrastructure that other systems depend on (e.g. automated testing environments)
+* 1: Affects non-production infrastructure that no other systems depend on (e.g. sandbox environments)
 * 4: Affects multiple infrastructure components in production
 * 3: Affects a single critical infrastructure component
 * 2: Affects non-production infrastructure
