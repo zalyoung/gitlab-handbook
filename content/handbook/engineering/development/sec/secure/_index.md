@@ -388,28 +388,6 @@ The Application Security Testing sub-department conducts retrospectives at the g
 
 Each group's EM or delegated DRI is responsible to prepare and schedule the retrospective sync sessions and the async retrospective issues can be found in [the corresponding project](https://gitlab.com/gl-retrospectives/secure-sub-dept).
 
-## Analytics
-
-The Application Security Testing group reviews analytics to help understand customers and their usage of the tools. This data helps drive product and technical decisions.  The following links show usage of Application Security Testing functionality.
-
-[Secure Scan Metrics Dashboard](https://10az.online.tableau.com/t/gitlab/views/PDSecureScanMetrics_17090087673440/SecureScanMetrics)
-
-## Cross-functional Backlog
-
-We also track our backlog of issues, including past due security and infradev issues, and total open SUS-impacting issues and bugs.
-
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "STAGE_LABEL"="application security testing" >}}
-{{< /tableau >}}
-
-## Merged Merge Request Types
-
-MR Type labels help us report what we're working on to industry analysts in a way that's consistent across the engineering department. The dashboard below shows the trend of MR Types over time and a list of merged MRs.
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/MRMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "STAGE_LABEL"="application security testing" >}}
-{{< /tableau >}}
-
 ## Common Links
 
 * [#s_application-security-testing](https://gitlab.slack.com/archives/s_application-security-testing) in Slack
