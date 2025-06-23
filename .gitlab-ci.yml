@@ -340,6 +340,8 @@ check_path_change:
       when: never
     - <<: *is-fork
       when: never
+    - if: $CI_MERGE_REQUEST_EVENT_TYPE == 'merge_train'
+      when: never
     - <<: *merge-request-only
 
 hugolint:

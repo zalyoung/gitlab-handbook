@@ -23,8 +23,6 @@ Updates to GitLab Omnibus are completed through your package manager, by install
 
 1. SSH into your GitLab instance.
 
-1. Run the command `sudo apt-get upgrade` to update your packages.
-
 1. Run the command `sudo apt-cache madison gitlab-ee`.
 
 1. For this lab, locate version `17.5.0-ee.0`. Take note of this version, we will be upgrading to this version of GitLab.
@@ -39,7 +37,7 @@ With our target GitLab version identified, we can now run an upgrade of GitLab.
 
 1. Navigate to `https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/`.
 
-1. Input your current GitLab version (`17.4.1`) and your target version (`17.5.0`).
+1. Input your current GitLab version (`17.4.1`) and your target version (`17.5.5`).
 
 1. Ensure that **Edition** is set to **Enterprise**, and Distro is set to **Ubuntu**.
 

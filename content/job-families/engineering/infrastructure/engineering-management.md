@@ -43,7 +43,7 @@ The Manager, Infrastructure is a [grade 8](/handbook/total-rewards/compensation/
 
 ### Performance Indicators
 
-The Manager, Infrastructure contributes to the success of [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators).
+The Manager, Infrastructure contributes to the success of Infrastructure Performance Indicators.
 
 ## Specialties
 
@@ -277,7 +277,7 @@ The VP of Infrastructure is a [grade 12](/handbook/total-rewards/compensation/co
 
 #### VP of Infrastructure Performance Indicators
 
-The VP Infrastructure, is responsible for ensuring [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators).
+The VP Infrastructure, is responsible for ensuring Infrastructure Performance Indicators.
 
 ## Career Ladder
 

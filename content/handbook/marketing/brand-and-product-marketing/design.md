@@ -134,9 +134,9 @@ Please use [this issue when requesting an update to an existing video or edits t
 
 The best way to get in contact with the Creative team is to fill out one of the above issue templates with your request, or to:
 
-- Use the @gl-design tag in GitLab issues and epics for visibility.
-- @-mention individuals from the team in GitLab issues and epics.
-- Ask your question in the #marketing-design Slack channel.
+- Use the `@gl-design` tag in GitLab issues and epics for visibility.
+- `@-mention` individuals from the team in GitLab issues and epics.
+- Ask your question in the `#brand` Slack channel.
 - For video specific questions or assistance, please reach out in the `#brand_video` Slack channel.
 
 ### Working with the brand
@@ -173,6 +173,18 @@ In certain cases, the help of a third party agency or design partner may be brou
 - Larger-scale projects where the Brand and Digital team need additional support given the timeline and/or scale of the request.
 
 Whenever a third party is brought in to support design, the work must be shared with the Brand Design team to ensure brand integrity and that we are [working transparently](/handbook/values/#transparency) with one another.
+
+#### Preserving the tanuki
+
+We understand that customized versions of the tanuki have been meaningful to our community and represent important aspects of our culture and values. When we [rebranded](https://about.gitlab.com/blog/devops-is-at-the-center-of-gitlab/) in 2022, we made the strategic decision to no longer alter the tanuki. These parameters are reflected in our [Brand Guidelines](https://design.gitlab.com/brand-logo/logomark#incorrect-usage) and are an intentional pivot from our previous logo, which we often customized with different colors and accessories.
+
+Why we maintain one look for our tanuki:
+
+- **We built an alternative.** In 2024, we launched the [Team Expressions Tanuki Tabs](https://design.gitlab.com/style-guides#team-expressions) to specifically address the community’s need for creative expression in a way that still preserves our logo. This scalable system empowers the community to express their vibrant groups — including community groups, geo locations, business functions, and TMRGs — without altering our logo.
+- **Consistency strengthens our brand.** Our tanuki is our most valuable brand asset. Any alterations dilute our brand identity and reduce recognition as we continue establishing our market presence.
+- **We’re building our brand maturity and an enterprise focus.** Restyling our tanuki undermines its visual role in our brand, which conflicts with our [brand strategy](/handbook/marketing/brand-and-product-marketing/design/#mascots).
+- **Strategic resource management drives results.** Our small Brand Design team supports the growing creative needs of the entire company, prioritizing work that aligns with business goals and drives clear business value. Custom logo requests multiplied beyond our team's capacity and don't align with our strategic priorities.
+- **Brand integrity extends everywhere.** Even "internal-only" designs frequently spread beyond their intended use, which can compromise brand awareness. Our logo is often someone's first impression of our company; showing up consistently maintains a clear, trustworthy image that meets industry standards and is a necessity in the years following a rebrand.
 
 #### Mascots
 

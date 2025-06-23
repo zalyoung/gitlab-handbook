@@ -71,6 +71,16 @@ Focusing on the goals and benefits listed above, the time required to complete a
 
 ### Prepare
 
+#### Account Team
+
+Prior to the pitch, the account team should:
+
+- Identify executive sponsor, stakeholders and participants
+- Identify business objectives
+- Identify an application/project for the Day In The Life demo. This is an important step as it focuses the discovery on a single flow where there is a clear beginning and end that has the potential to be measured for delays. The project should reflect a critical or typical development process, spanning idea to deployment, that the business is looking to improve.
+
+#### SA
+
 Usually, through discovery, there is some level of knowledge of customer goals and the current development process from a development perspective.  The goal of the Day In The Life is to understand the entire development process from idea to deployment to production, and to look for areas of improvement throughout.
 
 Prepare for the Day In The Life of a Developer, by organizing the information we already have about the customer and identifying areas we want to learn more about. This should include GitLab's goals for the meeting, which should align with the Customer Success Plan.
@@ -87,12 +97,6 @@ The initial customer pitch, delivered by the SA, allows us to identify key stake
 - What does a Day In The Life of a Developer entail?
 - Who are the key participants involved in the Day In The Life of a Developer?
 - What are some of the expected outcomes of a Day In The Life of a Developer for them?
-
-During the pitch, the account team should strive to:
-
-- Identify executive sponsor, stakeholders and participants
-- Identify business objectives
-- Identify an application/project for the Day In The Life demo. This is an important step as it focuses the discovery on a single flow where there is a clear beginning and end that has the potential to be measured for delays. The project should reflect a critical or typical development process, spanning idea to deployment, that the business is looking to improve. This must be completed prior to the start of the Day In The Life meeting
 
 Here are some resources that can be used as starting point for the pitch:
 Customer pitch deck

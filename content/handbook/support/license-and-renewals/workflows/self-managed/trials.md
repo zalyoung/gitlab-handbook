@@ -44,7 +44,8 @@ We are allowed to issue trial licenses because they:
         1. If a temp extension does not exist, proceed to step 2 (3).
     1. The ticket type is `Extend an (almost) expired subscription`.
         - If the salesperson selects a different form (e.g. the IR `Other`), then redirect them to submit a new ticket by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
-        - If the ticket type is correct and the license expiry has passed, then proceed with step 3.
+        - The `I acknowledge that approval for this extension has been granted..` checkbox has been checked and the requestor has provided the required proof that a Manager or Director has approved the extension. If the submitter has not provided the necessary proof then use the macro `Deviation from SM License Extension Workflow` and subsequently close the ticket.
+        - If the ticket type is correct and the license expiry has passed, then also proceed with step 3.
 1. Select `Duplicate License`.
 1. Set the `License type` to `Legacy License`.
 1. Delete the contents of `Zuora subscription ID` field if present.
