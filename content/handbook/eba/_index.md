@@ -60,25 +60,19 @@ If you would like to schedule a meeting with a Leader at GitLab, please slack th
 
 ### Customer, Prospect and Partner Meetings with an E-Group Member
 
-Please follow the instructions above for scheduling a call with your customer, prospect or partner and an E-Group member at GitLab. Instead of using the Agenda Document template, meetings with customers, partners and prospects require the following documents in order to schedule:
+Please follow the instructions above for scheduling a call with your customer, prospect or partner and an E-Group member at GitLab. Meetings with customers, partners and prospects require the following documents in order to schedule:
 
-1. [Executive Customer/Partner Briefing Document](https://docs.google.com/document/d/1eTFV_U16mmKkeI_GcXeFl1eHc5KsN6nI8Kf64UTxFmM/edit?usp=sharing) should be used for all meetings with Customers or Prospects and provided to the EA at the time of the meeting request. This is the internal document that you will use to brief the Executive in a pre-meeting. Select file > make a copy to use this template and please make sure it is editable by everyone at GitLab. Watch Nico Ochoa in [this 6.5-minute video](https://youtu.be/Wdg9YGQvs20) share his best practices for completing this template ([click here](https://docs.google.com/document/d/1rITvwVvv9Vn89qAgRX2Pf69zzoRp2AcqjtYBVUAria8/edit?usp=sharing) for Nico's template). If you have any questions related to this document, please ping the Executive Business Administrator Team in #eba-team in slack.
-
-### E-Group / VP In-Person Customer Visit Requests
-
-If you would like to request that an E-Group member / VP travel to visit a customer, please review [this template](https://docs.google.com/spreadsheets/d/1HxjfvOSRkZ61s6MGLINCjdgsjlz5AouwIQSPDM4ODrY/edit?usp=sharing) in its entirety to understand expectations.
-
-- Please coordinate with [respective EBAs](https://docs.google.com/presentation/d/1_tRO-5bDjcwUfqsLazfy4AcqeCLe8jOvDl04BHYlhEE/edit?usp=sharing) on aligning all visit details. If the requested GitLab Executive does not have an EBA, please work with them directly. Please tag applicable EBAs in the #eba-team Slack channel to get the process started.
-- Note: It is encouraged that an [Internal Briefing Document](https://docs.google.com/document/d/1eTFV_U16mmKkeI_GcXeFl1eHc5KsN6nI8Kf64UTxFmM/edit?usp=sharing) has been completed prior to requesting. Executive attendance to ensure proper background and prioritization.
+1. [Executive Meeting Request & Briefing Document](https://docs.google.com/document/d/17Sd8bjWsj30kvSqIMk1_crLwuBGBSHUjUybOknblOgM/edit?usp=sharing) should be used for all meetings with Customers, Prospects, or Partners and provided to the EA at the time of the meeting request. Select file > Make a copy to use this template and please make sure it is editable by all relevant parties. If you have any questions related to this document, please ping the Executive Business Administrator Team in #eba-team in slack.
+1. For meeting with the CEO, the same briefing document applies, however please follow the instructions [here](https://docs.google.com/document/d/1BMXa_cQfdIO0E-BUVv4zkEcUpTze1ZaOTGuzGEsfQbE/preview).
+1. For in-person customer meetings, please coordinate with the [respective EBAs](https://docs.google.com/presentation/d/1_tRO-5bDjcwUfqsLazfy4AcqeCLe8jOvDl04BHYlhEE/edit?usp=sharing) on aligning all visit details. If the requested GitLab Executive does not have an EBA, please work with them directly. Please tag applicable EBAs in the #eba-team Slack channel to get the process started.
 
 ### Requesting Customer Meetings for your Executive
 
-If your Executive is requesting customer meetings while onsite on virtually, please refer to the following contacts as a helpful starting point. These contacts will assist in engaging the proper Sales representatives:
+If you are an EBA and your Executive is requesting customer meetings while onsite or virtually, please reach out to the relevant sales account teams, or refer to the following contacts as a helpful starting point. These contacts will assist in engaging the proper Sales representatives:
 
-- **AMER**: Darren Moffett, VP AMER Sales
-- **APJ - APACJ/Japan**: Craig Nielsen, VP Sales APAC
+- **AMER**: Bob Stevens, VP AMER Sales
+- **APJ (APAC/Japan)**: Craig Nielsen, VP Sales APAC
 - **EMEA**: Michel Isnard, VP of Enterprise Sales
-- **Public Sector**: Bob Stevens, VP Public Sector Sales
 
 Please contact the @sales-eba-team with any questions.
 
