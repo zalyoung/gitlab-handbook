@@ -188,26 +188,7 @@ For any approved outside activity in which the GitLab team member will use their
 
 Employees are required to review and acknowledge GitLab's [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) (aka "CoBCE") upon starting employment at GitLab, and annually thereafter, regardless if there are any changes to the code.
 
-The [People Connect Team](/job-families/people-group/people-connect) tracks the Code of Business Conduct & Ethics [signature completion by new hires](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#request-signature-for-code-of-conduct-2021-acknowledgement-of-relocation-2021-consent-to-collect-and-use-data-regarding-race-ethnicity-and-social-media-policy-acknowledgment) during onboarding. The [People Compliance team](/job-families/people-group/people-compliance) oversees and administers the annual signature process, which is tracked and distributed through Workday. The annual signature process usually launches in April if every year. Process steps include:
-
-1. Legal reviews the most current version of the CoBCE. If any changes are suggested, they are incorporated and a most up-to-date version is created and updated to the Investor Relations section of our handbook.
-1. The most current and updated CoBCE is uploaded to Workday and is formatted as to log team member's acknowledgment of the document, as well as the date it was acknowledged.
-1. The People Compliance team crafts communications for the announcement of the process as well as any reminders and escalation. Legal and People leadership will review and approve these communications.
-1. The People Compliance team announces to all team members (in Slack and email) that the annual CoBCE signature process is set to launch, and that the process will have a 30-day due date for 100% signature adherence.
-1. The People Compliance Team creates the distribution list based on those who have not signed a CoBCE within the last three months prior to sending the new CoBCE.
-1. The People Compliance Team launches the CoBCE to all relevant team members from Workday.
-1. At two and three weeks post-launch, reminders from Workday are sent to individual team members who have not yet signed.
-1. At four weeks post-launch, a final reminder email is sent to individual team members who have not yet signed, cc'ing their managers.
-1. The People Compliance team will report weekly on progress and follow the escalation process after the 30 day window closes.
-
-### Code of Business Conduct & Ethics Escalation Process
-
-1. At five weeks post-launch, People Compliance will send an escalation notification from Workday to individual team members who have not signed.
-1. At six weeks post-launch, individual managers of direct reports who have not signed will receive escalation emails.
-1. People Compliance will then follow the additional escalation process as described in the [internal People Operations](https://gl-people-operations.gitlab.io/internal-handbook/people_compliance/code_of_conduct) handbook. All communications templates are also found on this same page.
-
-1. All escalation communication for any team member who has still not signed the CoBCE must be saved in the team member's Workday Documents folder.
-1. Team members must be aware that failure to sign the Code of Business Conduct & Ethics may result in consequences up to and including offboarding, due to values misalignment.
+The [People Connect Team](/job-families/people-group/people-connect) tracks the Code of Business Conduct & Ethics [signature completion by new hires](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#request-signature-for-code-of-conduct-2021-acknowledgement-of-relocation-2021-consent-to-collect-and-use-data-regarding-race-ethnicity-and-social-media-policy-acknowledgment) during onboarding. The [Ethics & Compliance team](https://handbook.gitlab.com/handbook/legal/ethics-compliance-program/#training) oversees and administers the Code of Conduct refresher training, which requires employees to sign the certification on an annual basis. Completion is tracked in the related learning management platform, Level Up. signature process, which is tracked and distributed through Workday. The annual signature process usually launches in April if every year. 
 
 ## Contract Renewals
 
