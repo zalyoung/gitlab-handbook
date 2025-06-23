@@ -96,7 +96,7 @@ Each decision will be documented as a separate ADR.
 It's important to acknowledge that a single unified token may not be practical
 across all systems:
 
-- STS might issue an JWT, while `gitlab-rails` might consolidate aroound the
+- STS might issue an JWT, while `gitlab-rails` might consolidate around the
   existing, random string-based tokens.
 - Different token purposes may require different formats: an ID token might
   require a different schema than an access token with fine-grained scopes.
@@ -139,11 +139,12 @@ Cons:
 - increased maintenance overhead
 - harder to enforce standards
 
-#### No storage (JWT-based)
+#### No storage / minimal storage (JWT-based)
 
 Pros:
 
-- eliminates database storage requirements
+- eliminates / minimizes database storage requirements dependent on token
+  revocation support
 - self-contained authentication and authorization mechanism
 - potential performance gains
 
