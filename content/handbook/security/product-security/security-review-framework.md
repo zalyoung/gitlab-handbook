@@ -56,6 +56,7 @@ When a product team initiates a [feature](#security-review-phase-1-initial-triag
 * Does this feature alter infrastructure-as-code implementations? (Y/N)
 * Does this feature modify production deployment processes? (Y/N)
 * Does this feature introduce any new data stores (e.g. cloud storage bucket, database, cache)? (Y/N)
+* Does this feature modify secrets management or credential handling ? (Y/N)
 
 ### Team Routing Logic
 
