@@ -46,7 +46,8 @@ _This is a work in progress._
 
 #### GitLab Dedicated (Commercial)
 
-1. Filter the [issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&first_page_size=100) in the consolidated `request-for-help` [project](https://gitlab.com/gitlab-com/request-for-help) with `Label` `is` `Help group::Dedicated`
+1. Filter the [issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&first_page_size=100) in the consolidated `request-for-help` [project](https://gitlab.com/gitlab-com/request-for-help) with `Label` `is one of` `Help group::Dedicated`, `Help group::Switchboard` ([direct link](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=all&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ASwitchboard&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADedicated&first_page_size=20))
+
 1. Choose **All**
 1. Sort by **Created Date**
 1. Set the **Sort direction** to **Descending**
