@@ -562,9 +562,9 @@ handles and sorted by P90 (slowest first) for the last 7 days by default.
 ### Runbooks
 
 Runbooks designed to aid Tier 1 support are maintained for services and features we own.
-These runbooks contain diagnostic, triaging, and monitoring information for initial
-identification and classificaton of incidents. They also contain basic procedures and
-troubleshooting steps for common issues and routine operations.
+These runbooks contain diagnostic steps, triaging information, and monitoring details for
+initial identification and classification of incidents. They also contain basic procedures
+and troubleshooting steps for common issues and routine operations.
 
 We currently have published runbooks on the following services and features:
 
