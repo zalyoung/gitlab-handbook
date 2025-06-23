@@ -231,7 +231,6 @@ When a lead `Re-MQLs` from `Recycle` to `MQL`, their `Recycle Reason` field is s
 
 Follow the [figjam flow chart](https://www.figma.com/file/lycXH6cMKK5oNaKj2RSigx/Re-MQL-Workflows_2023-08-22_10-56-57?type=whiteboard&t=HDkNJDbCt6265Ezf-1) to see the lead lifecycle. Notice you cannot go backwards in status to `Raw` or `Inquiry` from a later step.
 
-
 ### Scoring Model
 
 The lead scoring model is a 100 point system in order to MQL. Positive and negative points are assigned to a record based on their demographic and/or firmographic information, and their behavior and/or engagement with GitLab marketing. Their `Person Score` is the sum of their `Behavior Score` and their `Demographic Score`. The `Person Score` must reach `100` in order to MQL, and their `Behavior Score` cannot be `0`.
@@ -255,7 +254,7 @@ A slide deck of the "why" we use a scoring model, along with a few pointers, can
 
 #### Scoring Model Updates
 
-Working with the Sales Dev and Markeitng Analytics teams, Marketing Operations updates lead scoring model during Q4 each fiscal year. 
+Working with the Sales Development and Marketing Analytics teams, Marketing Operations updates our lead scoring model during Q4 each fiscal year. Restricting the time we update our model allows us to compare our MQL year-over-year volume fairly. Instead of needing to account for changes throughout the year, we condense them to a smaller timeframe that we can note in our reporting.
 
 ##### Scoring Revamp FY25Q1
 
@@ -327,7 +326,7 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 |Function - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |   Once|
 |Function - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|+15|   Once|
 |Function - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +10 |    Once|
-|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/#priority-countries)|    +5   |Once|
+|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/)|    +5   |Once|
 
 #### Score Decay
 
