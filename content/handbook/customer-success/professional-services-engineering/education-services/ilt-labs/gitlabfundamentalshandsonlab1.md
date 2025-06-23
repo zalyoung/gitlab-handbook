@@ -15,7 +15,7 @@ To start, in the left sidebar, select **Groups**.
 
 1. In the **Groups** section, select the dropdown arrow on the left of **Training Users**. 
 
-1. Below **Training users**, you should now see a group with a name like **Session <string of characters and numbers**.
+1. Below **Training users**, you should now see a group with a name like **Session <string of characters and numbers>**.
 
 1. Click the dropdown arrow next to the **Session** group. You should now see a group named **My Test Group - <string of characters and numbers>**. Click this group to access it.
 
