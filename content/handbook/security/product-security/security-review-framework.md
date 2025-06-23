@@ -160,8 +160,8 @@ project's issue tracker to identify this.
 
 ##### Environment Criticality (1-5)
 
-* 5: Production environment with customer data
-* 4: Production environment without direct customer data
+* 5: Production environment component with customer data
+* 4: Production environment component without direct customer data
 * 3: Pre-production/staging environment
 * 2: Testing environment
 * 1: Development environment only
