@@ -43,6 +43,29 @@ Not all Fulfillment features are available at the time for all types of customer
 | GitLab for Education, Open Source and Startups Customers | No | No | No | No |
 | Free Tier Users | No | No | No | No |
 
+## Trials availability matrix
+| Plan and trial name | Deployment type | Self-serve capability | Assistance via Support team | non-standard trial | Restrictions |
+| ------------------- | --------------- | --------------------- | --------------------------- |------------------- | ------------ |
+| Premium only | SM | No | Yes Legacy license | Yes with $0 quote | Free EE, Premium and ultimate customers  |
+| Ultimate only | SM | No | Yes Legacy license | Yes with $0 quote | Free EE, Premium and ultimate customers | 
+| Premium with Duo core | SM | No | No | Yes with $0 quote | Premium and ultimate customers only |
+| Premium with Duo core | SM | No | No | Yes with $0 quote | Premium and ultimate customers only |
+| Premium with Duo Pro | SM | Yes | No | Yes with $0 quote | Premium and ultimate customers only |
+| Premium with Duo enterprise | SM | No | No | Yes with $0 Quote | Premium and ultimate customers only |
+| Ultimate with Duo enterprise | SM | Yes | No | Yes with $0 quote | Premium and ultimate customers only |
+| Premium only or Premium with Duo Core | .Com | No | Yes (extension and cancellation) | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Ultimate only or Ultimate with Duo Core | .Com | No | Yes (extension and cancellation) | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Premium with Duo pro | .Com | No? | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Premium with Duo enterprise| .Com | Yes | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Ultimate with Duo pro | .Com | No? | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Ultimate with Duo enterprise| .Com | Yes | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Duo Pro | .Com | Yes | Yes | No | Yes $0 quote | Premium and ultimate customers |
+| Duo Enterprise | .Com | Yes | No | Yes $0 quote | Premium and ultimate customers |
+| Duo with Amazon Q | SM | No | No | Yes $0 quote | NA |
+| Duo with Amazon Q | Dedicated | No | No | Yes $0 quote | NA |
+| Ultimate only | Dedicated | No | No | Yes with $0 quote | NA | 
+| Ultimate with Duo pro or Duo enterprise | Dedicated | No | No | Yes with $0 Quote | NA |
+
 ## Storage Enforcement
 
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
