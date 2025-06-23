@@ -39,6 +39,7 @@ This [SQS 2025 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Jun 18, 2025 | 10:00a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement |
 | Jun 19, 2025 | 10:00a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
 | Jun 20, 2025 | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
+| Jun 26, 2025 | 12:00p ET | 12:45p ET | Intro to Business Value Platform - ROI Calculator  | BVS Team  |
 | Jun 23 - 25, 2025 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers |
 
 ### SQS 48 - July 2025
@@ -57,6 +58,7 @@ This [SQS 2025 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Jul 11, 2025 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
 | Jul 11, 2025 | 11:00a ET | 11:25a ET | Renewals Manager Overview | Renewals Team  |
 | Jul 11, 2025 | 11:30a ET | 12:20p ET | Discussion: Professional Services | Professional Services |
+| Jul 17, 2025 | 12:00p ET | 12:45p ET | Intro to Business Value Platform - ROI Calculator  | BVS Team  |
 | Jul TBD | 10:00a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement |
 | Jul TBD | 10:00a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement |
 | Jul TBD | 10:00a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement |
