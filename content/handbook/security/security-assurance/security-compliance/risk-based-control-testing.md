@@ -64,6 +64,9 @@ If you have a process or control that you think should be tested based on the cr
 
 (to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267)
 
-### 3. Security Compliance workflow
+### 2. Security Compliance completes the following workflow
 
-(to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267)
+- Confirms current state of testing via Hyperproof
+- Reviews the control based on the criteria above and feedback provided in issue
+- Provides feedback to requester in issue
+- Updates the quarterly testing plan as needed
