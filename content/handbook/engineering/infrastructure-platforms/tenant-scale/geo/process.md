@@ -335,4 +335,4 @@ Flags exceeding retention limits require team lead approval with documented just
 
 ## Backlog Cleanup (Trial Phase)
 
-We will start to label issues `~closed:stale` to mark issues that are in our backlog that's not on the roadmap but could be good ideas. 
+We will start to label issues `~closed:stale` to mark issues that are in our backlog that's not on [the roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=START_DATE_ASC&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::geo&label_name[]=type::feature&label_name[]=backend&progress=WEIGHT&show_progress=true&show_milestones=true&milestones_type=ALL&show_labels=true) but could be good ideas. 
