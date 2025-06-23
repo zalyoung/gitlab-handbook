@@ -46,15 +46,17 @@ development velocity and code quality.
 
 ### AI stage collaboration
 
-The Workflow Catalog relies on the [Workflow Service](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/duo_workflow_service?ref_type=heads)
-as a foundational backend service. Most Workflow Catalog features require new capabilities to be
-developed within Workflow Service, which means our engineers will need to contribute directly to
-that codebase in partnership with the Duo Workflow team.
+The Workflow Catalog relies on the
+[Workflow Service](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/duo_workflow_service?ref_type=heads)
+as a foundational backend service.
+Most Workflow Catalog features require new capabilities to be developed within Workflow Service,
+which means our engineers will need to contribute directly to that codebase in partnership with the
+[Duo Workflow team](../duo-workflow/_index.md).
 
 **Collaboration Requirements:**
 
 * All Workflow Service contributions must be developed in close partnership with the Duo Workflow team
-* Our implementations must align with their service architecture and vision
+* Our implementations must align with their service [architecture and vision](../../../../architecture/design-documents/duo_workflow/_index.md)
 * We commit to supporting Workflow Service's broader goals and adhering to their technical standards
 
 **Collaboration Process:**
@@ -68,12 +70,12 @@ that codebase in partnership with the Duo Workflow team.
 
 | Team Member | Expertise Area |
 | ---      | ---     |
-| Mikołaj Wawrzyniak | Workflow Service architecture |
-| Frédéric Caplette | Client-side implementation |
-| Dylan Griffith | Workflow Executor architecture: remote execution environment and runner implementation |
-| Jessie Young | Authorization and authentication |
-| Shekhar Patnaik  / Igor Drozdov | Duo Chat agent integration |
-| Sebastian Rehm | Engineering Manager |
+| [Mikołaj Wawrzyniak](https://gitlab.com/mikolaj_wawrzyniak) | Workflow Service architecture |
+| [Frédéric Caplette](https://gitlab.com/f_caplette) | Client-side implementation |
+| [Dylan Griffith](https://gitlab.com/DylanGriffith) | Workflow Executor architecture: remote execution environment and runner implementation |
+| [Jessie Young](https://gitlab.com/jessieay) | Authorization and authentication |
+| [Shekhar Patnaik](https://gitlab.com/shekharpatnaik)  / [Igor Drozdov](https://gitlab.com/igor.drozdov) | Duo Chat agent integration |
+| [Sebastian Rehm](https://gitlab.com/bastirehm) | Engineering Manager, backup contact for any of the above |
 
 ### Our tech stack
 
