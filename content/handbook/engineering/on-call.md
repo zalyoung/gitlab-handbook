@@ -73,8 +73,6 @@ The active rotations are:
 1. Gitaly - ([details](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#on-call-rotation))
 2. Database Operations - ([details](/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process))
 
-
-
 ### Development Team On-Call Rotation
 
 - This on-call process is designed for GitLab.com operational issues that are escalated by the Infrastructure team.
