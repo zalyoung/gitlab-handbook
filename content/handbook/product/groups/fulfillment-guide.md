@@ -47,8 +47,8 @@ Not all Fulfillment features are available at the time for all types of customer
 
 | Plan and trial name | Deployment type | Self-serve capability | Assistance via Support team | non-standard trial | Restrictions |
 | ------------------- | --------------- | --------------------- | --------------------------- |------------------- | ------------ |
-| Premium only | SM | No | Yes Legacy license | Yes with $0 quote | Free EE, Premium and ultimate customers  |
-| Ultimate only | SM | No | Yes Legacy license | Yes with $0 quote | Free EE, Premium and ultimate customers | 
+| Premium only | SM | No | Yes (create Legacy license) | Yes with $0 quote | Free EE, Premium and ultimate customers  |
+| Ultimate only | SM | No | Yes (create Legacy license) | Yes with $0 quote | Free EE, Premium and ultimate customers | 
 | Premium with Duo core | SM | No | No | Yes with $0 quote | Premium and ultimate customers only |
 | Premium with Duo core | SM | No | No | Yes with $0 quote | Premium and ultimate customers only |
 | Premium with Duo Pro | SM | Yes | No | Yes with $0 quote | Premium and ultimate customers only |
@@ -56,10 +56,10 @@ Not all Fulfillment features are available at the time for all types of customer
 | Ultimate with Duo enterprise | SM | Yes | No | Yes with $0 quote | Premium and ultimate customers only |
 | Premium only or Premium with Duo Core | .Com | No | Yes (extension and cancellation) | Yes with $0 quote | Free EE, Premium and ultimate customers |
 | Ultimate only or Ultimate with Duo Core | .Com | No | Yes (extension and cancellation) | Yes with $0 quote | Free EE, Premium and ultimate customers |
-| Premium with Duo pro | .Com | No? | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
-| Premium with Duo enterprise| .Com | Yes | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
-| Ultimate with Duo pro | .Com | No? | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
-| Ultimate with Duo enterprise| .Com | Yes | No | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Premium with Duo pro | .Com | No? | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Premium with Duo enterprise | .Com | Yes | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Ultimate with Duo pro | .Com | No? | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
+| Ultimate with Duo enterprise| .Com | Yes | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
 | Duo Pro | .Com | Yes | Yes | No | Yes $0 quote | Premium and ultimate customers |
 | Duo Enterprise | .Com | Yes | No | Yes $0 quote | Premium and ultimate customers |
 | Duo with Amazon Q | SM | No | No | Yes $0 quote | NA |
@@ -67,7 +67,8 @@ Not all Fulfillment features are available at the time for all types of customer
 | Ultimate only | Dedicated | No | No | Yes with $0 quote | NA | 
 | Ultimate with Duo pro or Duo enterprise | Dedicated | No | No | Yes with $0 Quote | NA |
 
-Eligibility criteria restrict one trial per customer and offer 30 or 60 day duration with limited seat count during the period of trial 
+Eligibility criteria restricts one trial per customer
+Duration varies between 30 or 60 day duration with limited seat count during the period of trial 
 
 ## Storage Enforcement
 
