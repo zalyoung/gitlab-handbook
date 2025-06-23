@@ -20,6 +20,7 @@ Currently, all OAuth applications in GitLab are available instance-wide, regardl
 ## Current State
 
 ### Existing OAuth Application Scopes
+
 - **Instance-owned applications**: Created by administrators, available to all instance users
 - **User-owned applications**: Created by individual users, available to all instance users
 - **Group-owned applications**: Created within groups, available to all instance users
@@ -31,11 +32,13 @@ Currently, all OAuth applications in GitLab are available instance-wide, regardl
 ### Organization-Scoped OAuth Applications
 
 #### New Application Type: Organization-Owned
+
 - **Scope**: Only accessible to users within the same organization
 - **Management**: Created and managed by organization owners
 - **Authentication**: Users can only authenticate if they belong to the same organization as the application
 
 #### Backward Compatibility for Default Organization
+
 - Existing instance-owned applications become default Organization-owned applications.
 - Users from any organization can authenticate with applications in the default organization
 - This preserves existing behavior for current GitLab instances and integrations.
