@@ -13,7 +13,6 @@ With Claude's ability to search the web, using this powerful tool to search for 
 
 Using a simple prompt like, "Based on the GitLab Handbook, 'insert question'..." is a great way to find the information you're looking for.
 
-
 ## Searching using "site:"
 
 Many search engines allow you to search only a specific website.
