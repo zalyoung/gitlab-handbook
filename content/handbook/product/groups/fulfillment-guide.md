@@ -60,7 +60,7 @@ Not all Fulfillment features are available at the time for all types of customer
 | Premium with Duo enterprise | .Com | Yes | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
 | Ultimate with Duo pro | .Com | No? | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
 | Ultimate with Duo enterprise| .Com | Yes | No | Yes with $0 quote | Free EE, Premium and ultimate customers |
-| Duo Pro | .Com | Yes | Yes | No | Yes $0 quote | Premium and ultimate customers |
+| Duo Pro | .Com | Yes | No | Yes $0 quote | Premium and ultimate customers |
 | Duo Enterprise | .Com | Yes | No | Yes $0 quote | Premium and ultimate customers |
 | Duo with Amazon Q | SM | No | No | Yes $0 quote | NA |
 | Duo with Amazon Q | Dedicated | No | No | Yes $0 quote | NA |
