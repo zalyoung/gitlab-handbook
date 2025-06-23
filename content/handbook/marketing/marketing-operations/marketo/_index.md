@@ -231,6 +231,7 @@ When a lead `Re-MQLs` from `Recycle` to `MQL`, their `Recycle Reason` field is s
 
 Follow the [figjam flow chart](https://www.figma.com/file/lycXH6cMKK5oNaKj2RSigx/Re-MQL-Workflows_2023-08-22_10-56-57?type=whiteboard&t=HDkNJDbCt6265Ezf-1) to see the lead lifecycle. Notice you cannot go backwards in status to `Raw` or `Inquiry` from a later step.
 
+
 ### Scoring Model
 
 The lead scoring model is a 100 point system in order to MQL. Positive and negative points are assigned to a record based on their demographic and/or firmographic information, and their behavior and/or engagement with GitLab marketing. Their `Person Score` is the sum of their `Behavior Score` and their `Demographic Score`. The `Person Score` must reach `100` in order to MQL, and their `Behavior Score` cannot be `0`.
@@ -252,7 +253,11 @@ Some leads are exluded from scoring if they:
 
 A slide deck of the "why" we use a scoring model, along with a few pointers, can be found [here](https://docs.google.com/presentation/d/1Xl1xcrOeFsDar2B9kTmMH1Hrw5WKsNx7mDL9xtVeBMs/edit#slide=id.g1d24c3e4ddd_5_252). Note, this is the slide deck used in the LevelUp course.
 
-#### Scoring Revamp FY25Q1
+#### Scoring Model Updates
+
+Working with the Sales Dev and Markeitng Analytics teams, Marketing Operations updates lead scoring model during Q4 each fiscal year. 
+
+##### Scoring Revamp FY25Q1
 
 For details on the data driven changes made to lead scoring at the beginning of FY25, refer to [this slide deck](https://docs.google.com/presentation/d/14bTq_KOyG7jHJR7vghcUVAZ_tMSOgbAN7hI8auI49eU/edit#slide=id.g1d24c3e4ddd_5_252) and [this slide deck](https://docs.google.com/presentation/d/1B8Q3Rq6O7-641rFoGOJOG6TxKHM_uAU29Ejbzqr2KMI/edit#slide=id.g1d24c3e4ddd_5_252) to review the data set findings.
 
