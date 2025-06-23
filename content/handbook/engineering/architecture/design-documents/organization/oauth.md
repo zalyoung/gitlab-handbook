@@ -5,13 +5,6 @@ group: Organizations
 toc_hide: true
 ---
 
-markdown# Organization OAuth Provider
-
-**Owning Stage:** ~devops::tenant scale
-**Group:** Organizations
-**Status:** Draft
-**Last Updated:** [Date]
-
 ## Summary
 
 This document outlines the design for OAuth applications within GitLab's Organizations architecture. The proposed changes introduce organization-scoped OAuth applications while maintaining backward compatibility with existing instance-wide applications.
@@ -43,19 +36,19 @@ Currently, all OAuth applications in GitLab are available instance-wide, regardl
 - **Authentication**: Users can only authenticate if they belong to the same organization as the application
 
 #### Backward Compatibility for Default Organization
-- Instance-owned, group-owned, and user-owned applications will be created within the default organization
+- Existing instance-owned applications become default Organization-owned applications.
 - Users from any organization can authenticate with applications in the default organization
-- This preserves existing behavior for current GitLab instances
+- This preserves existing behavior for current GitLab instances and integrations.
 
 Note: In the future there may be restrictions introduced that no longer allow organization users to directly authenticate with default organization applications. However, Organization Connect may make this possible with OAuth/OIDC, at the discretion of organization owners.
 
 ### Access Control Matrix
 
-| Application Type | Created In | Accessible By |
-|------------------|------------|---------------|
-| Instance-owned | Default org | All users (any organization) |
-| Group-owned | Default org | All users (any organization) |
-| User-owned | Default org | All users (any organization) |
-| Organization-owned | Specific org | Users within same organization only |
-
-Note: Group-owned and/or user-owned applications outside the default organization could be supported, if desired.
+| Application Type                            | Created In    | Accessible By                       |
+|---------------------------------------------|---------------|-------------------------------------|
+| Instance-owned (becomes Organization-owned) | Default org   | All users (any organization)        |
+| Group-owned                                 | Default org   | All users (any organization)        |
+| User-owned                                  | Default org   | All users (any organization)        |
+| Organization-owned                          | Specific org  | Users within same organization only |
+| Group-owned                                 | Specific org  | Users within same organization only |
+| User-owned                                  | Specific org  | Users within same organization only |
