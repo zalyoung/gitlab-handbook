@@ -7,7 +7,7 @@ description: "The Workflow Catalog group is focused on developing Workflow Catal
 
 The Workflow Catalog group is focused on developing Workflow Catalog, a catalog of AI Agents, tools, and workflows that can be created, curated, and shared across organizations, groups, and projects.
 
-### Team members
+## Team members
 
 **Engineering Manager & Engineers**
 
@@ -30,7 +30,16 @@ Here are some links to get us started:
 * [Team tasks](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues): For all non-product related team issues
 * [Async updates](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues/?label_name%5B%5D=async%20update)
 
-### Frontend-Backend Collaboration
+### Communication
+
+The Workflow Catalog Team communicates based on the following guidelines:
+
+* Always prefer async communication over sync meetings.
+* Don't shy away from arranging a [sync call](/handbook/communication/#video-calls) when async is proving inefficient, however always record it to share with team members.
+* By default communicate in the open.
+* Prefer public channels (`#g_workflow_catalog`) over private message for work-related Slack messaging.
+
+### Frontend-Backend collaboration
 
 We aim to foster high levels of collaboration between frontend and backend engineers to ensure
 development velocity and code quality.
@@ -94,7 +103,7 @@ which means our engineers will need to contribute directly to that codebase in p
 * **Agenda**: [Google Doc (internal only)](https://docs.google.com/document/d/19zrzqN37ZVwwEJ9iYhy4QBsUzVN0Hd1j1yn8J0v4dqE)
 * **Recordings**: [Google Drive (internal only)](https://drive.google.com/drive/folders/1I9s96jg9knqOwDLabhn9100H-MsvG2ne)
 
-## Capacity Planning
+## Capacity planning
 
 We use a lightweight system of issue weighting to help with capacity planning.
 These weights help us ensure that the amount of scheduled work in a cycle is
@@ -132,12 +141,3 @@ appear from the table above. This is to account for the extra rigor of the
 [patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
-
-## Communication
-
-The Workflow Catalog Team communicates based on the following guidelines:
-
-* Always prefer async communication over sync meetings.
-* Don't shy away from arranging a [sync call](/handbook/communication/#video-calls) when async is proving inefficient, however always record it to share with team members.
-* By default communicate in the open.
-* Prefer public channels (`#g_workflow_catalog`) over private message for work-related Slack messaging.
