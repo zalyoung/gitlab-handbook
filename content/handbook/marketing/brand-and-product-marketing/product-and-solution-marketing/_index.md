@@ -84,7 +84,7 @@ Product marketers are core to GitLab's go-to-market process, operating at the in
 All Product and Solution Marketing work is aligned to the overall Marketing OKRs.The specific team OKR/KRs are tracked and managed as issues in the Product and Solution Marketing Project. If you need additional support from the team, the simple process below will enable us to support you.
 
 1. [Open an PMM Support Request Issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing/-/issues/new). PLEASE fill in what you know.
-1. Be sure to @mention a specific team member who you are requesting help from. If you don't @mention a team member, your request may not be processed. Ping `@mklaus` or `@gl-pmm` if you don't know whom to tag.
+1. Be sure to @mention a specific team member who you are requesting help from. If you don't @mention a team member, your request may not be processed. Ping `@martin_klaus` or `@gl-pmm` if you don't know whom to tag.
 1. If you need more immediate attention please send a message with a link to the issue you created in the `#product-marketing` slack channel. You can ping the PMM team with `@pmm-team`.
 
 ### Product Marketing Team
@@ -94,8 +94,8 @@ All Product and Solution Marketing work is aligned to the overall Marketing OKRs
 - @anair - Product Marketing Manager
 - @jkempton - Senior Product Marketing Manager, Competitive Intelligence
 - @sladha - Principal Product Marketing Manager, Security
-- @rcarter - Senior Product Marketing Manager, Compliance
-- @khsu - Principal Product Marketing Manager, AI
+- @rcarter3 - Senior Product Marketing Manager, Compliance
+- @kahsu - Principal Product Marketing Manager, AI
 - @aholland - Senior Product Marketing Manager, Financial Services
 - @lburrows - Senior Public Sector Product Marketing Manager
 - @mdelaney - Senior Product Marketing Manager, Embedded Systems/Automotove/Aerospace
