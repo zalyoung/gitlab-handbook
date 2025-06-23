@@ -78,7 +78,7 @@ This table reflects the countries in which we utilize PEO's. These countries are
 
 Note: In countries with a star (*) hiring is limited to only certain roles, more detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
 
-||     Country    |  Agreement Type(s) |  Hiring Partner  | Entity to Invoice (for AP only) | Pay Frequency | Paid By | Currency paid in | Workday Profile (Y/N) | Scalable PEO (Y/N) | Open for hiring (Y/N) |
+|     Country    |  Agreement Type(s) |  Hiring Partner  | Entity to Invoice (for AP only) | Pay Frequency | Paid By | Currency paid in | Workday Profile (Y/N) | Scalable PEO (Y/N) | Open for hiring (Y/N) |
 |:--------------:|:------------------:|:----------------:|:-------------------------------:|:-------------:|:-------:|:----------------:|:---------------------:|:------------------:|:---------------------:|
 |    Austria *   | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       14      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
 |     Chile *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        CLP       |           Y           |          Y         |           Y           |
