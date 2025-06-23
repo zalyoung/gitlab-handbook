@@ -44,6 +44,7 @@ Not all Fulfillment features are available at the time for all types of customer
 | Free Tier Users | No | No | No | No |
 
 ## Trials availability matrix
+
 | Plan and trial name | Deployment type | Self-serve capability | Assistance via Support team | non-standard trial | Restrictions |
 | ------------------- | --------------- | --------------------- | --------------------------- |------------------- | ------------ |
 | Premium only | SM | No | Yes Legacy license | Yes with $0 quote | Free EE, Premium and ultimate customers  |
@@ -65,6 +66,8 @@ Not all Fulfillment features are available at the time for all types of customer
 | Duo with Amazon Q | Dedicated | No | No | Yes $0 quote | NA |
 | Ultimate only | Dedicated | No | No | Yes with $0 quote | NA | 
 | Ultimate with Duo pro or Duo enterprise | Dedicated | No | No | Yes with $0 Quote | NA |
+
+Eligibility criteria restrict one trial per customer and offer 30 or 60 day duration with limited seat count during the period of trial 
 
 ## Storage Enforcement
 
