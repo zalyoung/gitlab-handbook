@@ -10,7 +10,7 @@ How Marketing categorizes titles in our Tableau Reporting
 
 ## Marketing Persona Mapping
 
-The Marketing Persona Mapping framework categorizes touchpoint data based on job titles to understand our audience composition and improve campaign targeting. This analysis uses self-reported titles from marketing touchpoints, form submissions primary from Marketo & trials, to create standardized persona categories.
+The Marketing Persona Mapping framework categorizes person data linked to touchpoints based on job titles to understand our audience composition and improve campaign targeting. This analysis uses self-reported titles from marketing touchpoints, form submissions primary from Marketo & trials, to create standardized persona categories.
 
 ## How Persona Mapping Works
 
@@ -73,9 +73,3 @@ Certain keywords trigger exclusions to improve accuracy:
 - Sales-related titles are excluded from technical categories
 - Pure sales roles are categorized as "Non-Development Back Office"
 
-## Technical Implementation
-
-The persona mapping runs as part of the campaign interaction reporting pipeline, joining touchpoint data with person records where:
-- Touchpoints are from 2023 onwards
-- Titles are non-null and contain meaningful data
-- Each person receives exactly one persona category based on their title
