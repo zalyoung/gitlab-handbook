@@ -68,7 +68,7 @@ Each week the Cells Infrastructure meets for one hour on Tuesdays - alternating 
 - Team discussions (process, roadmaps/upcoming work, company items, etc.)
 
 #### Geekbot/Status Updates
-We use an integration with Slack, Geekbot, to provide updates on work in progress. Each Monday and Thursday Geekbot will ask team members for an update and post via SLack. 
+We use an integration with Slack, Geekbot, to provide updates on work in progress. Each Monday and Thursday, Geekbot will ask team members for an update and post via Slack. 
 
 #### Manager Responsibilities
 
