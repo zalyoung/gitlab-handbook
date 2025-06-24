@@ -3,17 +3,41 @@ title: "GitLab Korea Limited Benefits"
 description: "Discover GitLab's benefits for team members in Korea"
 ---
 
-## Medical
+## Group Insurance Plan - Medical & Risk Benefits
 
-GitLab does not plan to offer Private Health Insurance at this time because all the Korean team members will be covered by a statutory benefit known as National Health Insurance (NHI). This health insurance scheme covers all the team members and their family members.
+Effective 2025-07-01, all team members in Korea are eligible to enroll into the Group Insurance plan, including Medical and Risk coverages via Meritz. GitLab covers 100% of the premiums for the team members and their dependents for both coverages.
+
+**Coverage eligibility**
+- Team Members are covered by both medical and risk coverages. The risk coverage includes Accidental Death, Accidental Disability and Disease Death.
+- Dependents are eligible for medical reimbursements, including hospitalization, outpatient visits and three specific treatments (Manipulation, ESWT (Extracorporeal Shock Wave Therapy), and Prolotherapy, Injections and MRI/MRA scans). Eligible dependents are legal spouses and dependent children.
+
+Please review the [Coverage Summary](https://drive.google.com/file/d/1mOLJPi4PBUitFSV5F_Yf3JMpTAHCSUTW/view?usp=sharing) for detailed information about the medical and risk coverages.
+
+{{% details summary="Benefits Taxability"%}}
+Please note that team members are subject to tax on the employer-paid premiums for both Medical and Risk coverages. Any premiums will be reported as benefit in kind and subject to withholding tax.
+
+{{% /details %}}
+
+{{% details summary="Group Insurance Plan Enrollment and Opting Out"%}}
+Team Members who wish to join the plans will be prompted to enroll in their new hire onboarding issue.  The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Please refer to the [claim guide](https://drive.google.com/file/d/1-NYWAkT1G1ci2k0HAKnvCAsvr2lzdkVC/view?usp=sharing) for detailed information on how to make a claim.
+
+If you would like to opt-out from the plan, please reach out to *total-rewards@gitlab.com*. 
+
+{{% /details %}}
+
+{{% details summary="Life Event Enrollment"%}}
+Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [enrollment form](https://docs.google.com/forms/d/e/1FAIpQLSfNcDxqaNJlp372cPepq5Dm6L5KIvDeOFeF4-EgmzTvDu7x8w/viewform) to add a dependent to your medical coverage. The updated Benefit in Kind amount will be reported on a monthly basis and team members will continue to be taxed on the value of the benefit.
+
+{{% /details %}}
+
+{{% details summary="Offboarding GitLab"%}}
+Your benefits will cease on the date of the termination.
+
+{{% /details %}}
 
 ## Pension
 
 GitLab does not plan to offer pension benefit at this time as team members registered to the Korea's Social Security Program are also registered with the [National Pension Scheme](https://www.nps.or.kr/jsppage/english/research/research_01.jsp).
-
-## Life Insurance
-
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from Social insurance system.
 
 ## GitLab Korea LTD Parental Leave
 
