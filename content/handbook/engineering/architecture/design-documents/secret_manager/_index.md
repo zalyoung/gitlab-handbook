@@ -874,46 +874,26 @@ not performing any operations except forwarding requests to the primary.
 
 Notably, the semantics of Geo and OpenBao roughly align. We propose that Geo
 will need no additional enhancements to support GitLab Secrets Manager and
-that replication will be handled by the latter when using Raft.
+that replication will be handled by Geo when using PostgreSQL.
 
 On all front-end service nodes, we'll start the self-hosted OpenBao server
-instance. One node will be designated primary by OpenBao HA election:
-initially this will be a random node, but in the future we could let Geo
-inform OpenBao which site is designated primary and the leader election
-process could be changed. This node will use OpenBao's native HA
-capabilities: standby nodes will proxy all operations (initially, later
-serving read requests) to the active OpenBao instance.
-
-With the Raft storage backend, each front-end node will have local storage
-it can use for placing Raft's underlying [`bbolt`](https://openbao.org/docs/internals/integrated-storage/#writing-logs)
-K/V store. In the event of an even number of nodes in the primary site, we
-will proactively designate one node to be a [non-voter node](https://github.com/openbao/openbao/issues/578).
-From Geo's information, we'll populate all node's [`retry_join`](https://openbao.org/docs/configuration/storage/raft/#retry_join-stanza)
-configurations with reference to the other nodes for discoverability.
-In the future, we can also designate non-primary sites to be non-voter nodes
-as well. The number of sites or latency of replication will thus not impact
-the latency of writes in the general case.
-
-With the PostgreSQL storage backend, we can rely on Geo's existing replication
-of the PostgreSQL backend and no additional changes will be necessary.
+instance. One node will be designated primary by OpenBao HA election: this
+is a random node on the primary site as the secondary Geo sites will have
+a read-only PostgreSQL replica which cannot acquire the OpenBao lock.
 
 When runners contact the OpenBao instance, if their request does not hit the
 active node, OpenBao will route the request through its GRPC request forwarding
-mechanism.
+mechanism. This means it should work with the existing OpenBao HA support
+regardless of whether it hits a Geo Primary or Secondary site.
 
 In the event of a failover, Geo will be able to bring up the new site
-designated as primary and data will already have been replicated, either
-through PostgreSQL's replication or through Raft's synchronization process.
-In the future and in the case of the latter, Rails, via Geo's indication, will
-update the node's Raft configuration to no longer be non-voter and restart the
-node so a new leader is elected. In the event of later improvements to
-Postgres backend to indicate desired leadership status, a similar change could
-be applied there as well when a site's status changes. This will also help to
-align the definitions of primary sites between Geo and OpenBao.
+designated as primary (due to the PostgreSQL database being marked writable)
+and data will already have been replicated (via PostgreSQL replication)
+without configuration changes to OpenBao.
 
-The net result is that Geo is not responsible for data replication for
-OpenBao, but is still used as a source of leadership data so that a consistent
-customer experience is achieved.
+The net result is that Geo is responsible for data replication for OpenBao
+using a known PostgreSQL database (unless the customer brings their own
+database) and OpenBao should integrate with Geo semantics.
 
 #### Cells
 
