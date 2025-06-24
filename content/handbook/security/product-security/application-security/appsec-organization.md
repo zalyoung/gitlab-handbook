@@ -48,7 +48,7 @@ Learn more about our security review process in our [dedicated page](appsec-revi
 ### Threat Modeling Resources
 
 **Purpose**: Templates and documentation for threat modeling activities  
-**Location**: [Threat modeling repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models)
+**Location**: [Threat modeling repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models)  
 **Learn More**: [Threat Modeling Process](./threat-modeling/)
 
 ### PSIRT Operations
