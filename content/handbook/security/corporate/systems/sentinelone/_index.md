@@ -8,7 +8,7 @@ We use [SentinelOne](https://www.sentinelone.com/) for endpoint (team member lap
 
 All macOS, Windows and Linux devices used by GitLab Team Members for the purposes of fulfilling the responsibilities of their role as a GitLab Team Member are required have the SentinelOne EDR agent installed and functioning.
 
-The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](/handbook/security/corporate/end-user-services/laptop-management/hardware#windows).
+The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](handbook/content/handbook/security/corporate/end-user-services/laptop-management/#laptop-specs#windows).
 
 - `#sentinelone` Slack Channel
 - [SentinelOne Setup Guide](/handbook/security/corporate/systems/sentinelone/setup)
