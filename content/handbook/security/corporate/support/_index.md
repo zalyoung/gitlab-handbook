@@ -62,7 +62,7 @@ If you can't find what you're looking for, please ask in `#it_help`.
         - [Recycle/Return Guide](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-returns)
       - **Laptop Policies**
         - [Procurement Guide and Shipping Times](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering)
-        - [Hardware Models and Specs](/handbook/content/handbook/security/corporate/end-user-services/laptop-management/#laptop-specs)
+        - [Hardware Models and Specs](/handbook/security/corporate/end-user-services/laptop-management/#laptop-specs)
         - [Operating System Standards](/handbook/security/corporate/end-user-services/laptop-management)
         - [Apps and Software Standards](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/)
         - [Security Configuration Standards](/handbook/security/corporate/end-user-services/laptop-management/laptop-security)
