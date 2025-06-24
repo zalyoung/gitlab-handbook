@@ -54,26 +54,6 @@ The following people of other functional teams are our stable counterparts:
 - [Team error budget - Group Dashboard](https://dashboards.gitlab.net/goto/2YoyikIHR?orgId=1)
 - [Team error budget - Detail Dashboard](https://dashboards.gitlab.net/goto/O6YJZodNR?orgId=1)
 
-## Sisense and KPIs
-
-To help us stay on track with [Development KPIs](/handbook/company/kpis/#development-department-kpis), we use a [metrics dashboard](https://app.periscopedata.com/app/gitlab/570334/Universal-Engineering-Team-Metrics-Dashboard). This dashboard includes security MRs from production, but doesn't include security MRs from `dev.gitlab.org`. For team-specific data and metrics, ensure you filter by our team.
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="source code" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="source code" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="source code" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="source code" >}}
-{{< /tableau >}}
-
 ## Workflow
 
 We use the standard GitLab [engineering workflow](/handbook/engineering/workflow/). To create an issue for the Create:Source Code BE team, add these labels:

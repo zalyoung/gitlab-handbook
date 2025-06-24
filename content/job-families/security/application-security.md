@@ -209,19 +209,14 @@ The Application Security Senior Manager is a [grade 9](/handbook/total-rewards/c
 
 For details on the Security organization leadership roles, to include the Product Security Director and VP of Security, see the Security Leadership page.
 
-## Performance Indicators
-
-- <https://app.periscopedata.com/app/gitlab/641782/Appsec-hackerone-vulnerability-metrics?widget=8715519&udv=0>
-- <https://app.periscopedata.com/app/gitlab/641782/Appsec-hackerone-vulnerability-metrics?widget=8729826&udv=0>
-
 ## Career Ladder
 
 ```mermaid
   graph LR;
   sec:se(Security Engineer, Application Security) --> sec:sse(Senior Security Engineer, Application Security);
   sec:sse(Senior Security Engineer, Application Security) --> sec:stse(Staff Security Engineer, Application Security);
-  sec:stse(Staff Security Engineer, Application Security) --> sec:pse(Principle Security Engineer);
-  sec:pse(Principle Security Engineer, Application Security) --> sec:dse(Distinguished Security Engineer);
+  sec:stse(Staff Security Engineer, Application Security) --> sec:pse(Principal Security Engineer);
+  sec:pse(Principal Security Engineer, Application Security) --> sec:dse(Distinguished Security Engineer);
   sec:sse(Senior Security Engineer, Application Security)-->sec:sem(Security Manager, Application Security);
   sec:sem(Security Manager, Application Security)-->sec:sesm(Senior Security Manager, Application Security);
   sec:sesm(Senior Security Manager, Application Security)-->sec:ds(Director of Product Security);

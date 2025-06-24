@@ -56,6 +56,20 @@ Additional information can be found on the [Planning page](/handbook/engineering
   * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
+### Project Estimation
+
+Our team follows a multi-phase estimation process. This allows us to have just-in-time information to facilitate predictable roadmap planning.
+
+#### High Level Estimation
+
+* Projects in our priorities roadmap will contain an estimation issue (labeled with `~estimation::needed`). These can be found on the [estimation issue board](https://gitlab.com/groups/gitlab-org/-/boards/9392539?label_name%5B%5D=estimation%3A%3Aneeded&label_name%5B%5D=group%3A%3Asecurity%20insights&group_by=epic).
+* Estimation issues have several desired outcomes:
+  * Provide high level, # of milestone based estimate for the respective capabilities (frontend, backend)
+  * Identify dependencies (other product groups, new technologies, libraries)
+  * Determine outstanding questions and if they block further estimation or will be required before planning breakdown can start.
+* These outcomes should be added to the respective areas within the epic template.
+* Add `~estimation:complete` label and close the estimation issue when complete.
+
 ### Tracking Deliverables
 
 * Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. *Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts.*
@@ -172,6 +186,8 @@ We can monitor test results in the following Slack channels:
 * #e2e-run-staging
 * #e2e-run-production
 
+For full details of scheduled E2E test pipelines running against live environments see [E2E test pipelines](../../../../testing/end-to-end-pipeline-monitoring#end-to-end-e2e-test-pipelines).
+
 ### Running and Fixing E2E specs
 
 #### Prerequisites
@@ -247,6 +263,8 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
 
 ### Troubleshooting common errors and fixes
 
+* For general troubleshooting hints, see [E2E test troubleshooting](https://docs.gitlab.com/development/testing_guide/end_to_end/troubleshooting/).
+
 * **Error: QA::Resource::Sandbox Fabrication Failed**
   * Error Message:
 
@@ -311,11 +329,13 @@ For any questions, reach out to [#s_developer_experience](https://gitlab.enterpr
 
 ### Resources
 
+* [Testing at GitLab handbook page](../../../../testing)
 * [Testing Code in Merge Requests](https://docs.gitlab.com/development/testing_guide/end_to_end/#testing-code-in-merge-requests)
 * [Running Govern E2E Specs Locally Against GDK](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa?ref_type=heads#generic-command-for-a-typical-gdk-installation)
 * [Automatic test execution when a feature flag definition changes](https://docs.gitlab.com/development/testing_guide/end_to_end/best_practices/feature_flags/#automatic-test-execution-when-a-feature-flag-definition-changes)
 * [End-to-end test pipelines](https://docs.gitlab.com/development/testing_guide/end_to_end/test_pipelines/)
 * [GitLab team member's guide to using official build infrastructure](https://docs.gitlab.com/omnibus/build/team_member_docs/)
+* [E2E testing overview video](../../../../testing/#-gitlab-end-to-end-testing-overview-video)
 
 ## Monitoring
 

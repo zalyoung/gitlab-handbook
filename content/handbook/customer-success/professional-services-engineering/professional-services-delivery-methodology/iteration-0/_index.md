@@ -33,7 +33,7 @@ Before the transition meeting:
    - For Consulting Block SKUs: Review the [DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) (should be attached to Customer Epic)
 
 2. **Schedule the Meeting**
-   - Include: Engagement Manager, Technical resources, Account Managers, and Customer Success Managers (if assigned)
+   - Include: Engagement Manager, Technical Architect, Professional Services Engineer, Account Managers, and Customer Success Managers (if assigned)
    - Use the [Schedule Intake issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md) or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to prepare the agenda
 
 3. **Gather Prerequisite Data**
