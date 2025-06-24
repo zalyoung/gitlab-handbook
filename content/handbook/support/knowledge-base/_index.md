@@ -5,6 +5,7 @@ description: GitLab Support's Knowledge Base
 
 The knowledge base (KB) is a repository of solutions to commonly-encountered problems, created and maintained by Support Engineers (SE).
 The knowledge base turns the effort used to solve a single ticket for one customer into a public resource for all GitLab users.
+
 [GitLab Knowledge Article Page](https://support.gitlab.com/hc/en-us/categories/360002276159-Knowledge-Articles)
 
 Benefits:
