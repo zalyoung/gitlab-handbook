@@ -30,7 +30,7 @@ The Cells Infrastructure team works across multiple GitLab projects such as `git
 
 For issues tracked in the team's issue tracker or other `gitlab-com/gl-infra` projects, we use the `workflow-infra::*` labels to track an issue's workflow status. Ensure that all issues that are in progress, ready, or need triage have the relevant `workflow-infra::*` label applied. We use a [workflow issue board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/9026689) to track the workflow status of active issues.
 
-Sometimes we'll need to track issues contained in the `gitlab-org` top-level group, which does not contain `workflow-infra::*` labels. For these issues, please use the `workflow::*` labels. We track these issues using a [workflow issue board for gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216). If you need to make an issue in `gitlab-org` please cc @dlogalbo. 
+Sometimes we'll need to track issues contained in the `gitlab-org` top-level group, which does not contain `workflow-infra::*` labels. For these issues, please use the `workflow::*` labels. We track these issues using a [workflow issue board for gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216). If you need to make an issue in `gitlab-org` please mention @dlogalbo by using /cc @dlogalbo.
 
 Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`. 
 
