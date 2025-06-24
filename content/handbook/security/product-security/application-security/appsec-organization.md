@@ -18,8 +18,8 @@ The Application Security team maintains several key repositories that support [o
 
 ### Team organization and planning
 
-**Purpose**: Central repository for team operations, issue tracking, and cross-team collaboration
-**Location**: [appsec-team tracker](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team)
+**Purpose**: Central repository for team operations, issue tracking, and cross-team collaboration  
+**Location**: [appsec-team tracker](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team)  
 **Key Uses**:
 
 - Track team initiatives and operational improvements
