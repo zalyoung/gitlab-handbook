@@ -1,7 +1,6 @@
 ---
 title: Marketing Persona Mapping
-description: >-
-How Marketing categorizes titles in our Tableau Reporting  
+description: How Marketing categorizes titles in our Tableau Reporting  
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
