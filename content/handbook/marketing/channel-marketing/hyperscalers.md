@@ -1,4 +1,4 @@
----
+ ---
 title: Hyperscaler Campaign
 ---
 
@@ -68,7 +68,7 @@ Following these guidelines carefully ensures proper tracking, reporting, and com
 
 Hyperscaler funded campaign represent a strategic partnership mechanism through which cloud hyperscalers like Amazon Web Services (AWS) and Google Cloud Platform (GCP) provide financial support to partners like GitLab for joint marketing initiatives.
 
-Presently, the Hyperscaler funds are **only available to the Field Marketing team**. We will be working in iteration to support additional marketing teams.
+Presently, the Hyperscaler funds are **only available to the Regional Marketing team**. We will be working in iteration to support additional marketing teams.
 
 These funding programs operate under different models that reflect each hyperscaler's partnership approach:
 
@@ -194,7 +194,7 @@ The Campaign Owner will be responsible for opening the Allocadia activity under 
        8. GitLab Marketing Issue Link (Auto-populated)
        9. GitLab Issue URL Reference (Manual entry)
 
-3. Action: Create GitLab Hyperscaler Funded Issue in the Field Marketing GitLab Project
+3. Action: Create GitLab Hyperscaler Funded Issue in the Regional Marketing GitLab Project
 
 #### GitLab Issue 
 
@@ -203,25 +203,25 @@ The GitLab Hyperscaler Funded Campaign issue will be used as an intermediate ste
 1. Campaign Owner will be responsible for entering the details include region and activity quarter labels to GitLab Hyperscaler Funds issue.
 2. Program Manager will request for invoice from AR using the finance issue, including PO and payment terms. MDF - [Example](https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/6464)  
 3. Once the GitLab Hyperscaler Funds issue details are complete, Campaign Owner adds the `Asana-Sync-Project` to the GitLab Hyperscaler Funds issue and the FMM and FMC to start the [Plan to WIP process](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip)
-4. Campaign Owner will add the Asana project link to the Resources section above
+4. Campaign Owner will add the Asana project link to the Resources section in the GitLab Hyperscaler Funded Campaign issue
 
 #### Asana Project
  
-To accommodate the Field Marketing process in Asana, we have integrated the steps for Hyperscaler Funded Campaigns into the [Plan to WIP](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip).
+To accommodate the Regional Marketing process in Asana, we have integrated the steps for Hyperscaler Funded Campaigns into the [Plan to WIP process](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip). The Regional Marketing Asana template incorporates the hyperscaler process details in the appropriate tasks.
 
 ##### Pre-Event
 
 1. Create Marketo/ SFDC campaign with add the Hyperscaler Name and Hyperscaler Fund Type after the date in the Campaign Name - reference a handbook for [naming convention](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup). _Examples: 20250307_AWS_MDF_ActivityType_ActivityName_Region;
-20250307_GCP_CR_ActivityType_ActivityName_Region
+20250307_GCP_CR_ActivityType_ActivityName_Region (Details provided in the program tracking task in the Regional Marketing Asana template)
 
    1. Create Marketo program under the [Hyperscaler Funded Campaign folder](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/MF27058A1)
    2. Sync the Marketo program to Salesforce using the Hyperscaler Funded Campaign Allocadia Subcategory ID
    3. Update the links to Marketo and Salesforce in the Asana Project Overview
 
-2. Opens the Zip request
+2. Opens the Zip request (Details provided in the contract request task in the Regional Marketing Asana template)
 
    1. Acquire Contract/Invoice for the Marketing Activity 
-   2. Select the appropriate purchase type: “What are you looking to purchase?” (Ensure not to select MDF)
+   2. Select the appropriate purchase type: Sponsorships & Regional Marketing
    3. Enter the amount of the total contract cost
    4. In the Allocadia ID, specify the Line Item ID (positive value) of the Hyperscaler Fund Allocadia activity in the Zip request
    5. Add Francine as a follower to the Zip request
@@ -229,15 +229,19 @@ To accommodate the Field Marketing process in Asana, we have integrated the step
 
 ##### Post-Event
 
-1. Attach Proof of Payment (POP) to the Asana Project and tag Francine
+Details provided in the Ecosystem section in the Regional Marketing Asana template
+
+1. Attach Proof of Payment (POP) to the Asana Project and tag Francine 
 
    1. Third-party receipts showing actual costs are required for cash reimbursement. It should clearly show a date, after the fund requests approval and the paid amount.
 
-2. Update the spreadsheet with Actual MQL and Pipeline 2 weeks after the end of the event.
+2. Update the appropriate [hyperscaler spreadsheet](/handbook/marketing/channel-marketing/hyperscalers/#application-process) with Actual MQL and Pipeline 2 weeks after the end of the event.
 
 ### Transfer Budget to Hyperscaler
 
-When marketing teams have additional budget to spare, they can strategically [transfer funds](https://support.allocadia.com/hc/en-us/articles/360060630433-What-are-Budget-Reallocations#%23) to maximize partnership opportunities. By submitting a [budget transfer request](https://handbook.gitlab.com/handbook/marketing/strategy-performance/allocadia/#request-transfer) to the Hyperscaler Activity Plan, teams can unlock co-marketing resources, potential matching funds, and expanded collaborative campaigns.
+When marketing teams have additional budget to spare, they can strategically [transfer funds](https://support.allocadia.com/hc/en-us/articles/360060630433-What-are-Budget-Reallocations#%23) to maximize partnership opportunities. By submitting a [budget transfer request](/handbook/marketing/strategy-performance/allocadia/#request-transfer) to the Hyperscaler Activity Plan, teams can unlock co-marketing resources, potential matching funds, and expanded collaborative campaigns. If you have any questions regarding transferring funds, please reach out to your FP&A POC.
+
+PLEASE NOTE: FP&A is involved in this process and will be tracking all fund transfers for future budgeting.
 
 When submitting the Zip request, it is critical to ensure the Allocadia ID reflects a positive value, which accurately supports proper financial tracking.
 
