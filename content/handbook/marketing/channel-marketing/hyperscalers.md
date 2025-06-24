@@ -233,6 +233,14 @@ To accommodate the Field Marketing process in Asana, we have integrated the step
 
    1. Third-party receipts showing actual costs are required for cash reimbursement. It should clearly show a date, after the fund requests approval and the paid amount.
 
+2. Update the spreadsheet with Actual MQL and Pipeline 2 weeks after the end of the event.
+
+### Transfer Budget to Hyperscaler
+
+When marketing teams have additional budget to spare, they can strategically [transfer funds](https://support.allocadia.com/hc/en-us/articles/360060630433-What-are-Budget-Reallocations#%23) to maximize partnership opportunities. By submitting a [budget transfer request](https://handbook.gitlab.com/handbook/marketing/strategy-performance/allocadia/#request-transfer) to the Hyperscaler Activity Plan, teams can unlock co-marketing resources, potential matching funds, and expanded collaborative campaigns.
+
+When submitting the Zip request, it is critical to ensure the Allocadia ID reflects a positive value, which accurately supports proper financial tracking.
+
 ### Understanding Data Flow: From Lead to Opportunity
 
 One of the most complex aspects of hyperscaler campaigns is tracking the customer journey from initial interest to closed business. This journey involves multiple handoffs:
