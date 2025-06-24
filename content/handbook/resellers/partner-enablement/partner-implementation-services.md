@@ -41,7 +41,7 @@ title: "Channel Partner Implementation Services"
 
 GitLab has [two distributions](https://about.gitlab.com/install/ce-or-ee/):
 
-- **Enterprise Edition (EE)**: built from the [official GitLab repository](https://gitlab.com/gitlab-org/gitlab). It contains the code of [all license tiers](https://about.gitlab.com/pricing/), including the open-source code of Free and the proprietary code of Premium and Ultimate.
+- **Enterprise Edition (EE)**: built from the [official GitLab repository](https://gitlab.com/gitlab-org/gitlab). It contains the code of [all subscription tiers](https://about.gitlab.com/pricing/), including the open-source code of Free and the proprietary code of Premium and Ultimate.
 
 - **Community Edition (CE)**: built from the [open source fork of GitLab](https://gitlab.com/rluna-gitlab/gitlab-ce). It contains only the [MIT licensed](https://opensource.org/license/mit) code from the EE repository above, synced with that one automatically on each push.
 
