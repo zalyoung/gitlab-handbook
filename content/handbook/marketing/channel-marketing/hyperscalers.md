@@ -95,7 +95,7 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 3. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
 
    1. Set up the Allocadia activity
-   2. Create the GitLab Hyperscaler Funds issue 
+   2. Create the GitLab Hyperscaler Funds issue
    3. Add Hyperscaler Funds issue link to [spreadsheet](/handbook/marketing/channel-marketing/hyperscalers/#application-process)
    4. Activate issue sync to create Asana project to manage their campaign
    5. Manages execution and setup for Marketo and Salesforce
@@ -178,35 +178,35 @@ The Campaign Owner will be responsible for opening the Allocadia activity under 
        2. Campaign Link
        3. Have you selected an existing Campaign above or will you be creating a new one?
        4. Campaign Name to be Created (Mkto/SFDC) 
-       Campaign Owner
-       5. Budget Holder = hyper
-       6. Campaign Type
+       5. Campaign Owner
+       6. Budget Holder = hyper
+       7. Campaign Type
 
     4. GitLab Issue Details
 
-       1. Requester User Handle 
+       1. Requester User Handle
        2. Campaign Operations User Handle (fill this out if you aren't FM)
        3. Operational Program Owner = Francine
        4. Partner User Handle = @fanthony2
        5. In Person Event Type
        6. GitLab Issue Template = Hyperscaler
-       7. Official Event/Campaign Name 
+       7. Official Event/Campaign Name
        8. GitLab Marketing Issue Link (Auto-populated)
        9. GitLab Issue URL Reference (Manual entry)
 
 3. Action: Create GitLab Hyperscaler Funded Issue in the Regional Marketing GitLab Project
 
-#### GitLab Issue 
+#### GitLab Issue
 
 The GitLab Hyperscaler Funded Campaign issue will be used as an intermediate step prior to syncing to Asana. 
 
 1. Campaign Owner will be responsible for entering the details include region and activity quarter labels to GitLab Hyperscaler Funds issue.
-2. Program Manager will request for invoice from AR using the finance issue, including PO and payment terms. MDF - [Example](https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/6464)  
+2. Program Manager will request for invoice from AR using the finance issue, including PO and payment terms. MDF - [Example](https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/6464)
 3. Once the GitLab Hyperscaler Funds issue details are complete, Campaign Owner adds the `Asana-Sync-Project` to the GitLab Hyperscaler Funds issue and the FMM and FMC to start the [Plan to WIP process](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip)
 4. Campaign Owner will add the Asana project link to the Resources section in the GitLab Hyperscaler Funded Campaign issue
 
 #### Asana Project
- 
+
 To accommodate the Regional Marketing process in Asana, we have integrated the steps for Hyperscaler Funded Campaigns into the [Plan to WIP process](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip). The Regional Marketing Asana template incorporates the hyperscaler process details in the appropriate tasks.
 
 ##### Pre-Event
@@ -220,7 +220,7 @@ To accommodate the Regional Marketing process in Asana, we have integrated the s
 
 2. Opens the Zip request (Details provided in the contract request task in the Regional Marketing Asana template)
 
-   1. Acquire Contract/Invoice for the Marketing Activity 
+   1. Acquire Contract/Invoice for the Marketing Activity
    2. Select the appropriate purchase type: Sponsorships & Regional Marketing
    3. Enter the amount of the total contract cost
    4. In the Allocadia ID, specify the Line Item ID (positive value) of the Hyperscaler Fund Allocadia activity in the Zip request
@@ -231,7 +231,7 @@ To accommodate the Regional Marketing process in Asana, we have integrated the s
 
 Details provided in the Ecosystem section in the Regional Marketing Asana template
 
-1. Attach Proof of Payment (POP) to the Asana Project and tag Francine 
+1. Attach Proof of Payment (POP) to the Asana Project and tag Francine
 
    1. Third-party receipts showing actual costs are required for cash reimbursement. It should clearly show a date, after the fund requests approval and the paid amount.
 
