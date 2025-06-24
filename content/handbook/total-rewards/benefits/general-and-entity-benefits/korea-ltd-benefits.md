@@ -40,6 +40,8 @@ If you would like to opt-out from the plan, please reach out to *total-rewards@g
 
 Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [enrollment form](https://docs.google.com/forms/d/e/1FAIpQLSfNcDxqaNJlp372cPepq5Dm6L5KIvDeOFeF4-EgmzTvDu7x8w/viewform) to add a dependent to your medical coverage. The updated Benefit in Kind amount will be reported on a monthly basis and team members will continue to be taxed on the value of the benefit.
 
+</details>
+
 <details markdown="1">
 
 <summary>Offboarding GitLab</summary>
