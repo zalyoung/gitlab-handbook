@@ -15,6 +15,7 @@ Effective 2025-07-01, all team members in Korea are eligible to enroll into the 
 Please review the [Coverage Summary](https://drive.google.com/file/d/1mOLJPi4PBUitFSV5F_Yf3JMpTAHCSUTW/view?usp=sharing) for detailed information about the medical and risk coverages.
 
 See the following resources:
+
 - [Meritz Claims Guide](https://drive.google.com/file/d/1-NYWAkT1G1ci2k0HAKnvCAsvr2lzdkVC/view?usp=sharing)
 - [Korea WTW Launch Webinar](https://drive.google.com/file/d/1-aTALYufjFpDjufnf1yZuJRFx2G7jXzq/view?usp=sharing)
 - [WTW Presentation Deck](https://drive.google.com/file/d/1r7CFoowINib_ebABEpO99uVQZzClFR7T/view?usp=sharing) 
