@@ -114,6 +114,9 @@ This KPI tracks our ability to review security-relevant merge requests that intr
 2. __Vulnerability Source Tracking__
    - Apply `appsec-kpi::vulnerability-introduced` label to Merge Requests identified as introducing vulnerabilities
 
+3. __Vulnerability Prevention Tracking__
+   - Apply `appsec-kpi::vulnerability-prevented` label to Merge Requests where vulnerabilities were identified and prevented during security review
+
 #### Calculation Method
 
 ```text
