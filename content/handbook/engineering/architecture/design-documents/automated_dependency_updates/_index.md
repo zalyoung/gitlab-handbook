@@ -7,64 +7,12 @@ status: proposed
 creation-date: "2025-06-17"
 authors: [ "@hacks4oats" ]
 coaches: [ "@mbenayoun" ]
-dris: [ "@johncrowley", "@engineering-manager" ]
+dris: [ "@johncrowley", "@nilieskou" ]
 owning-stage: "~devops::application security testing"
-participating-stages: []
+participating-stages: [ ~"devops::application security testing" ]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
-
-<!--
-Before you start:
-
-- Copy this file to a sub-directory and call it `_index.md` for it to appear in
-  the design documents list.
-- Remove comment blocks for sections you've filled in.
-  When your document ready for review, all of these comment blocks should be
-  removed.
-
-To get started with a document you can use this template to inform you about
-what you may want to document in it at the beginning. This content will change
-/ evolve as you move forward with the proposal.  You are not constrained by the
-content in this template. If you have a good idea about what should be in your
-document, you can ignore the template, but if you don't know yet what should
-be in it, this template might be handy.
-
-- **Fill out this file as best you can.** At minimum, you should fill in the
-  "Summary", and "Motivation" sections.  These can be brief and may be a copy
-  of issue or epic descriptions if the initiative is already on Product's
-  roadmap.
-- **Create a MR for this document.** Assign it to an Architecture Evolution
-  Coach (i.e. a Principal+ engineer).
-- **Merge early and iterate.** Avoid getting hung up on specific details and
-  instead aim to get the goals of the document clarified and merged quickly.
-  The best way to do this is to just start with the high-level sections and fill
-  out details incrementally in subsequent MRs.
-
-Just because a document is merged does not mean it is complete or approved.
-Any document is a working document and subject to change at any time.
-
-When editing documents, aim for tightly-scoped, single-topic MRs to keep
-discussions focused. If you disagree with what is already in a document, open a
-new MR with suggested changes.
-
-If there are new details that belong in the document, edit the document. Once
-a feature has become "implemented", major changes should get new blueprints.
-
-The canonical place for the latest set of instructions (and the likely source
-of this file) is
-[content/handbook/engineering/architecture/design-documents/_template.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md).
-
-Document statuses you can use:
-
-- "proposed"
-- "accepted"
-- "ongoing"
-- "implemented"
-- "postponed"
-- "rejected"
-
--->
 
 <!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
@@ -72,61 +20,41 @@ Document statuses you can use:
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< engineering/design-document-header >}}
 
-<!--
-Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
-
-For long pages, consider creating a table of contents.
--->
 
 ## Summary
 
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire documents like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
+Automated dependency updates is a feature that will be responsible of keeping
+project dependencies up to date. Keeping project dependencies up to date is
+widely considered a good practice. Doing this ensures that the latest bug fixes,
+performance enhancements, and security patches are applied to project
+dependencies. The process of checking for and applying dependency updates is
+quite often simple, but time consuming. The Automated Dependency Updates feature
+aims to free up user time by automating this often manually done process.
 
 ## Motivation
 
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
+Existing dependency management tools like [Renovate] and [dependabot-core]
+can automate the process of checking for updates and can also create merge
+requests with the updates found. They however suffer from some limitations:
 
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
+- Installation can be difficult to scale up[^1]
+- Users are required to manage the required access tokens which adds
+configuration overhead
+- They often run abitrary code which requires additional security controls[^2][^3]
+- The dependency updates proposed by the tools lack critical context like if the
+updates resolve a vulnerability, and if it resolves a vulnerability what the
+severity is.
 
 ### Goals
 
-<!--
-List the specific goals / opportunities of the document.
-
-- What is it trying to achieve?
-- How will we know that this has succeeded?
-- What are other less tangible opportunities here?
--->
+- Automated MR creation for **non-breaking** dependency updates
+- Zero or low config feature enablement
+- Allow for integration with GitLab Duo
 
 ### Non-Goals
 
-<!--
-Listing non-goals helps to focus discussion and make progress. This section is
-optional.
-
-- What is out of scope for this document?
--->
+- Custom dependency managers like the ones supported by [Renovate]
+- Automated MR creation for **breaking** dependency updates
 
 ## Proposal
 
@@ -140,6 +68,33 @@ real nitty-gritty.
 You might want to consider including the pros and cons of the proposed solution so that they can be
 compared with the pros and cons of alternatives.
 -->
+
+Dependency management is inherently a complex problem space. While it's possible
+to build a completely greenfield solution, it's a much more efficient option to
+use an off the shelf tool that's been heavily used, and proven to work well. To
+that effect, we've chosen to use the [dependabot-core] library to power our
+automated dependency updates. The following pros and cons were considered while
+evaluating this library as an option.
+
+**Pros**:
+
+- Diverse list of supported ecosystems
+- Receives frequent contributions from core contributors and the open source community
+- Written in a language that's heavily used at GitLab (Ruby)
+
+**Cons**:
+
+- Requires dependencies like interpreters and runtime managers[^4]
+- Designed to run as an isolated CI/CD job, and not in the context of something
+  like a Sidekiq worker
+- Security recommendations require running a dependency proxy for private
+  registries
+- Only allows indirect dependency updates for projects that have a lock file
+
+Despite some drawbacks, [dependabot-core] provides substantial benefits, and
+allows us to delivery a solution that works for a wide percentage of our users.
+Therefore, we'll be using [dependabot-core] in our auotomated dependency updates
+feature.
 
 ## Design and implementation details
 
@@ -170,9 +125,30 @@ directory as the `index.md` for the proposal.
 
 ## Alternative Solutions
 
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
+### Bootstrap our own dependency management service
 
-"Do nothing" and its pros and cons could be included in the list too.
--->
+This is a fairly large task that would require us to implement version
+resolution for a large amount of package managers over time, but it does have
+some advantages.
+
+**Pros**:
+
+- Bump version ranges for projects that **do not** have a lock file
+- No need to install dependencies locally
+
+**Cons**:
+
+- Requires a large amount of work to support the same ecosystems of existing
+  tools like [Renovate] or [dependabot-core].
+
+[^1]: For example, Renovate requires [global access or an allow list](https://docs.renovatebot.com/getting-started/installing-onboarding/#repository-installation).
+[^2]: Renovate may execute [arbitrary code](https://docs.renovatebot.com/security-and-permissions/#execution-of-code),
+    and often recommends using an allow list of user commands.
+[^3]: dependabot-core may execute [arbitrary code](https://github.com/dependabot/dependabot-core#private-registry-credential-management)
+    and requires the user to configure the job to run in isolation from access tokens for added security.
+[^4]: For example, Python and PyEnv are required to run
+    `dependabot-core/python`.
+
+[Renovate]: https://docs.renovatebot.com/
+[dependabot-core]: https://github.com/dependabot/dependabot-core#
+[remote registry configuration]: https://docs.gitlab.com/user/packages/package_registry/dependency_proxy/#configure-the-remote-registry
