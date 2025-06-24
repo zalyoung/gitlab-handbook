@@ -1,6 +1,6 @@
-
-Hyperscaler Campaign
-=======================
+---
+title: Hyperscaler Campaign
+---
 
 Hypercaler Campaign
 ------------------
@@ -49,7 +49,8 @@ When setting up these campaigns in Salesforce, you need to take two critical act
 
 This configuration ensures proper attribution and tracking of partnership activities. Note that, Hyperscaler MDF is only in referrance to AWS MDF, as that is currently the MDF that's available for GitLab.
 
-### Campaign Types Covered by These Guidelines
+Campaign Types Covered by These Guidelines
+~~~~~~~~~~~~~~~~~~~
 
 These naming conventions and configuration requirements apply to all activities where hyperscalers are involved, including:
 
@@ -59,7 +60,8 @@ These naming conventions and configuration requirements apply to all activities 
 - Digital marketing campaigns including content syndication and advertising
 - Any events or activities that utilize AWS MDF (Market Development Funds) or Google credits
 
-### Special Instructions for Content Syndication Teams
+Special Instructions for Content Syndication Teams
+~~~~~~~~~~~~~~~~~~~
 
 If you work with content syndication, you have an additional step: You must update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
@@ -81,7 +83,8 @@ These funding programs operate under different models that reflect each hypersca
 
 From GitLab's perspective, these funds enable more expansive marketing campaigns than possible while strengthening strategic partnerships with major cloud providers. The partnership creates a "better together" narrative that helps customers understand the enhanced value proposition of GitLab running on these cloud platforms.
 
-### Key Roles in the Hyperscaler MDF Ecosystem
+Key Roles in the Hyperscaler Funded Campaign
+~~~~~~~~~~~~~~~~~~~
 
 1. Program Owner (Francine): Primary contact with Hyperscaler Partners
 
@@ -106,7 +109,8 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
    6. Open Zip request
    7. Send Program Owner receipts for Proof of Performance
 
-### Application Process
+Application Process
+~~~~~~~~~~~~~~~~~~~
 
 1. Complete the Google Sheet:
 
@@ -128,7 +132,8 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
     1. Tag Francine for approval in the Google spreadsheet
     1. Include any supporting materials that strengthen your case (past performance of similar activities, customer interest data, etc.)
 
-### Approval Process
+Approval Process
+~~~~~~~~~~~~~~~~~~~
 
 1. Initial Screening: Francine will review your application to ensure it meets basic requirements and aligns with strategic priorities.
 2. Hyperscaler Partner Approval: Upon preliminary approval, Francine will review and seek approval for the activity and confirm funding amount from the Hyperscaler Partner.
@@ -137,9 +142,11 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
     1. Campaign Owner will open the Allocadia activity and Hyperscaler Funded GitLab issue
     2. Campaign Owner will be responsible for creating the Marketo campaign and sync to Salesforce using the Allocadia Subcategory ID (found in the Hyperscaler Funded GitLab issue)
 
-### Set up
+Set up
+~~~~~~~~~~~~~~~~~~~
 
-#### Allocadia
+Allocadia
+^^^^^^^^^^^^^^^^^^^^
 
 The Campaign Owner will be responsible for opening the Allocadia activity under the [Regional Marketing > AMER > Hyperscaler](https://eu1.allocadia.com/budgets/122286/items?view=default) plan.
 
@@ -200,7 +207,8 @@ The Campaign Owner will be responsible for opening the Allocadia activity under 
 
 3. Action: Create GitLab Hyperscaler Funded Issue in the Regional Marketing GitLab Project
 
-#### GitLab Issue
+GitLab Issue
+^^^^^^^^^^^^^^^^^^^^
 
 The GitLab Hyperscaler Funded Campaign issue will be used as an intermediate step prior to syncing to Asana. 
 
@@ -209,11 +217,13 @@ The GitLab Hyperscaler Funded Campaign issue will be used as an intermediate ste
 3. Once the GitLab Hyperscaler Funds issue details are complete, Campaign Owner adds the `Asana-Sync-Project` to the GitLab Hyperscaler Funds issue and the FMM and FMC to start the [Plan to WIP process](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip)
 4. Campaign Owner will add the Asana project link to the Resources section in the GitLab Hyperscaler Funded Campaign issue
 
-#### Asana Project
+Asana Project
+^^^^^^^^^^^^^^^^^^^^
 
 To accommodate the Regional Marketing process in Asana, we have integrated the steps for Hyperscaler Funded Campaigns into the [Plan to WIP process](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip). The Regional Marketing Asana template incorporates the hyperscaler process details in the appropriate tasks.
 
-##### Pre-Event
+Pre-Event
++++++++++++++++++++++
 
 1. Create Marketo/ SFDC campaign with add the Hyperscaler Name and Hyperscaler Fund Type after the date in the Campaign Name - reference a handbook for [naming convention](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup). _Examples: 20250307_AWS_MDF_ActivityType_ActivityName_Region;
 20250307_GCP_CR_ActivityType_ActivityName_Region (Details provided in the program tracking task in the Regional Marketing Asana template)
@@ -231,7 +241,8 @@ To accommodate the Regional Marketing process in Asana, we have integrated the s
    5. Add Francine as a follower to the Zip request
    6. Update the link to Zip request in the Asana Project Overview 
 
-##### Post-Event
+Post-Event
++++++++++++++++++++++
 
 Details provided in the Ecosystem section in the Regional Marketing Asana template
 
@@ -241,7 +252,8 @@ Details provided in the Ecosystem section in the Regional Marketing Asana templa
 
 2. Update the appropriate [hyperscaler spreadsheet](/handbook/marketing/channel-marketing/hyperscalers/#application-process) with Actual MQL and Pipeline 2 weeks after the end of the event.
 
-### Transfer Budget to Hyperscaler
+Transfer Budget to Hyperscaler
+~~~~~~~~~~~~~~~~~~~
 
 When marketing teams have additional budget to spare, they can strategically [transfer funds](https://support.allocadia.com/hc/en-us/articles/360060630433-What-are-Budget-Reallocations#%23) to maximize partnership opportunities. By submitting a [budget transfer request](/handbook/marketing/strategy-performance/allocadia/#request-transfer) to the Hyperscaler Activity Plan, teams can unlock co-marketing resources, potential matching funds, and expanded collaborative campaigns. If you have any questions regarding transferring funds, please reach out to your FP&A POC.
 
@@ -249,7 +261,8 @@ PLEASE NOTE: FP&A is involved in this process and will be tracking all fund tran
 
 When submitting the Zip request, it is critical to ensure the Allocadia ID reflects a positive value, which accurately supports proper financial tracking.
 
-### Understanding Data Flow: From Lead to Opportunity
+Understanding Data Flow: From Lead to Opportunity
+~~~~~~~~~~~~~~~~~~~
 
 One of the most complex aspects of hyperscaler campaigns is tracking the customer journey from initial interest to closed business. This journey involves multiple handoffs:
 
