@@ -40,7 +40,7 @@ Learn more about our security review process in our [dedicated page](appsec-revi
 ### Security Tools & Automation
 
 **Purpose**: Houses our automation tooling  
-**Location**: [Tooling repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling)
+**Location**: [Tooling repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling)  
 **Key Uses**:
 
 - Automation scripts
