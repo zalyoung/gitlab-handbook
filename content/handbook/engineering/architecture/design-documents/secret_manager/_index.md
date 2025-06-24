@@ -84,7 +84,7 @@ This blueprint does not cover the following:
 - [ADR-005: Non-hierarchical key structure for secrets in OpenBao](decisions/005_secrets_key_structure/)
 - [ADR-007: Use OpenBao as the secrets management service](decisions/007_openbao/)
 - [ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md)
-- [ADR-009: Request Flow Diagrams](decisions/009_request_flows.md)
+- [ADR-009: Request Flow & Architecture Diagrams](decisions/009_request_flows.md)
 
 ### Superseded
 
@@ -1000,6 +1000,28 @@ be referenced and configured from the [GitLab Helm chart](https://docs.gitlab.co
 as required.
 
 For self-hosted, OpenBao server will also be executed by GitLab Rails.
+
+### Backup and Restore
+
+Backup and restore of this solution boils down to two aspects:
+
+1. Database
+2. Seal mechanism
+
+Because of [our choice of PostgreSQL](#storage-backend) as the storage
+backend, refer to your database provider's [documentation](https://www.postgresql.org/docs/current/backup.html)
+for backup and restore of the database. For instance, on Runway this
+[is performed automatically](https://docs.runway.gitlab.com/runtimes/cloud-run/reference/blueprints/cloudsql-for-postgres/#backup-for-an-instance).
+
+In the case of an external auto-unseal mechanism, refer to the provider's
+documentations. For the case of using the `static` auto-unseal mechanism
+transparently with Kubernetes secrets, refer to your Kubernetes secrets
+manager provider documentation.
+
+The combination of database and seal backup is sufficient to backup and
+restore OpenBao due to the use of [transactions](https://openbao.org/docs/rfcs/transactions/).
+
+After a restore, restart the OpenBao service to pick up the new data.
 
 ### Use case studies
 
