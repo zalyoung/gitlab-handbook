@@ -80,4 +80,3 @@ Certain keywords trigger exclusions to improve accuracy:
 
 - Sales-related titles are excluded from technical categories
 - Pure sales roles are categorized as "Non-Development Back Office"
-
