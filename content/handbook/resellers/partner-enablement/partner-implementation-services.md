@@ -47,6 +47,15 @@ GitLab has [two distributions](https://about.gitlab.com/install/ce-or-ee/):
 
 This means that both editions contain the exact same version of our Free features, but **only EE contains Premium and Ultimate features**.
 
+### Distributon x Subscription matrix
+
+This matrix outlines all the possible combinations. Add-ons can only be applied on Premium and Ultimate subscriptions, thus they are only contained in EE.
+
+|        | Free   | Premium | Ultimate |
+| ------ | ------ | ------  | -------- |
+| CE     | x      |         |          |
+| EE     | x      | x       | x        |
+
 ### Which one should I install for my customer?
 
 #### Premium or Ultimate customers
