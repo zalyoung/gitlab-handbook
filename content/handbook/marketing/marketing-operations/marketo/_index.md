@@ -256,6 +256,8 @@ A slide deck of the "why" we use a scoring model, along with a few pointers, can
 
 Working with the Sales Development and Marketing Analytics teams, Marketing Operations updates our lead scoring model during Q4 each fiscal year. Restricting the time we update our model allows us to compare our MQL year-over-year volume fairly. Instead of needing to account for changes throughout the year, we condense them to a smaller timeframe that we can note in our reporting.
 
+To share feedback on our Lead Scoring model during the year, please leave a comment in [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10872). We review this issue often and consider each item when updating our Lead Scoring model.
+
 ##### Scoring Revamp FY25Q1
 
 For details on the data driven changes made to lead scoring at the beginning of FY25, refer to [this slide deck](https://docs.google.com/presentation/d/14bTq_KOyG7jHJR7vghcUVAZ_tMSOgbAN7hI8auI49eU/edit#slide=id.g1d24c3e4ddd_5_252) and [this slide deck](https://docs.google.com/presentation/d/1B8Q3Rq6O7-641rFoGOJOG6TxKHM_uAU29Ejbzqr2KMI/edit#slide=id.g1d24c3e4ddd_5_252) to review the data set findings.
