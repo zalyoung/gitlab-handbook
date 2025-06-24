@@ -41,3 +41,16 @@ Visibility is documented on the main [Organization page](_index.md#organization-
 We will provide more information at a later date. It won't be possible to build a feature completely at the Organization level until the Organization feature is released.
 
 However, data at the top-level group will still need to be linked back to an Organization for Organization data isolation purposes.
+
+## How many Cells and Organizations do we expect to exist on GitLab.com?
+
+At this time we can only make rough estimates of how many Organizations or Cells may exist.
+
+As the Cells will be multi-tenanted, with many Organizations belonging to one Cell, there will inevitably be more Organizations than Cells.
+
+There will likely be thousands of Organisations spread across the Cells.
+Possibly even millions of Organizations, if most top-level groups get converted to their own Organization.
+
+There will also likely be hundreds or even thousands of Cells.
+
+At the start however, there will be far fewer of each, as we gain operational experience in production with customer data and decide how much to scale.
