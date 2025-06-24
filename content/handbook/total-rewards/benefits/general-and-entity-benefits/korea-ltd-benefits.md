@@ -8,6 +8,7 @@ description: "Discover GitLab's benefits for team members in Korea"
 Effective 2025-07-01, all team members in Korea are eligible to enroll into the Group Insurance plan, including Medical and Risk coverages via Meritz. GitLab covers 100% of the premiums for the team members and their dependents for both coverages.
 
 **Coverage eligibility**
+
 - Team Members are covered by both medical and risk coverages. The risk coverage includes Accidental Death, Accidental Disability and Disease Death.
 - Dependents are eligible for medical reimbursements, including hospitalization, outpatient visits and three specific treatments (Manipulation, ESWT (Extracorporeal Shock Wave Therapy), and Prolotherapy, Injections and MRI/MRA scans). Eligible dependents are legal spouses and dependent children.
 
