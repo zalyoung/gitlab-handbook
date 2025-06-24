@@ -21,12 +21,11 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Legal & Corporate Affairs](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
 | [Legal & Corporate Affairs](/handbook/legal/) | **Victoria Hutson**<br> EBA | Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs) <br> Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)|
 | [Legal & Corporate Affairs](/handbook/legal/)  | **TBC**<br>EBA  |Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
-| [Marketing](/handbook/marketing/)| **Kato Faylor**<br> Staff EBA | Ashley Kramer (CMSO & Interim CRO) |
-| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Laura Fagan (Sr. Chief of Staff, CMSO) |
+| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | <br>Billy Stallings (Sr. Director Digital Marketing)<br> Laura Fagan (Sr. Chief of Staff, CMSO) |
 | [Marketing](/handbook/marketing/)| **Jazmin Cox**<br>Sr EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics) |
 | [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA | Rob Allen (CPO)<br>Karen Iacobucci (VP of People Operations and Technology)<br> Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) <br> Justin Farris (VP of Product Management) |
-| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Angela Pesta (VP UX) |
+| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management) |
 | [Sales](/handbook/sales/) | **Missy Keasler**<br>Staff EBA | Ian Steward (CRO) - effective 2025-05-05|
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Jean-Baptiste Larramendy (VP of Sales Development) <br> Amie Bright (VP of Data & Insights)|
 | [Sales](/handbook/sales/) | **Lauren Traylor**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
