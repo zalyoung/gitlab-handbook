@@ -1,8 +1,6 @@
 ---
 title: Laptops
-_build:
-    list: never
-    render: never
 ---
 
-Placeholder
+Please see [Laptop Management](/handbook/security/corporate/end-user-services/laptop-management/)
+
