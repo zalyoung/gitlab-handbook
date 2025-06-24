@@ -380,7 +380,7 @@ Optional Review: SPA and/or Data Security, if the feature has changes that fall 
 #### Low Risk Review
 
 * Self-assessment against infrastructure security guidelines
-* Automated configuration checking
+* Automated configuration checking using [GitLab IaC scanning](https://docs.gitlab.com/user/application_security/iac_scanning/) or `Checkov`
 
 ## 4. Implementation
 
