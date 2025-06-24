@@ -51,6 +51,8 @@ You will be added as `Owner` in these groups and can make changes at-will, inclu
 - **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
   - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/user/project/settings/project_access_tokens/) or [Group Access tokens](https://docs.gitlab.com/user/group/settings/group_access_tokens/). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
 
+The testing namespaces have 400 compute minutes per month. Use [ChatOps to add additional compute minutes](/handbook/support/workflows/chatops/#setting-minutes-quota-for-a-namespace) if you need more.
+
 ## Cloud Testing Environments
 
 You can create (ephemeral) testing environments. We recommend using the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox/) at [gitlabsandbox.cloud](https://gitlabsandbox.cloud) for doing so.
