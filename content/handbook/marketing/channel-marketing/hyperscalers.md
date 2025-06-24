@@ -2,8 +2,6 @@
 title: Hyperscaler Campaign
 ---
 
-# Hypercaler Campaign
-
 ## Naming Convention Requirements
 
 When working with hyperscaler partners like AWS and Google Cloud, it's important to follow specific naming conventions and configuration procedures. This guide explains each component of this process in detail.
