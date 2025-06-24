@@ -1,10 +1,12 @@
- ---
-title: Hyperscaler Campaign
----
 
-## Hypercaler Campaign
+Hyperscaler Campaign
+=======================
 
-## Naming Convention Requirements
+Hypercaler Campaign
+------------------
+
+Naming Convention Requirements
+------------------
 
 When working with hyperscaler partners like AWS and Google Cloud, it's important to follow specific naming conventions and configuration procedures. This guide explains each component of this process in detail.
 
@@ -29,7 +31,8 @@ Examples:
 
 Reference the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates) page for naming conventions for specific campaign types.
 
-## Salesforce Configuration Requirements
+Salesforce Configuration Requirements
+------------------
 
 When setting up these campaigns in Salesforce, you need to take two critical actions:
 
@@ -64,7 +67,8 @@ This ensures consistency across all platforms and makes reporting and attributio
 
 Following these guidelines carefully ensures proper tracking, reporting, and compliance with partnership agreements, while also making campaigns easier to find and manage across systems.
 
-## Hyperscaler Funded Campaign
+Hyperscaler Funded Campaign
+------------------
 
 Hyperscaler funded campaign represent a strategic partnership mechanism through which cloud hyperscalers like Amazon Web Services (AWS) and Google Cloud Platform (GCP) provide financial support to partners like GitLab for joint marketing initiatives.
 
