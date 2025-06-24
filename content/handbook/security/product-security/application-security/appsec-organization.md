@@ -28,8 +28,8 @@ The Application Security team maintains several key repositories that support [o
 
 ### Application Security reviews
 
-**Purpose**: Repository to request and perform AppSec reviews 
-**Location**: [appsec-team reviews](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/)
+**Purpose**: Repository to request and perform AppSec reviews  
+**Location**: [appsec-team reviews](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/)  
 **Key Uses**:
 
 - Feature design reviews
