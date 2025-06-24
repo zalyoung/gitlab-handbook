@@ -28,7 +28,7 @@ The Teleport Access policy applies to all systems within our production environm
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process)
+Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/)
 
 ## References
 
