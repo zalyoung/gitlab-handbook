@@ -80,7 +80,7 @@ Design must work in all generally available modes, which currently includes ligh
 - Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests (point 5)](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test).
 - The design system provides design tokens and components that work in supported modes.
 - Take extra care when mode is a primary factor in customer outcomes.
-- Dark mode design should align with the dark mode vision:
+- Dark mode design must align with the dark mode principles:
   - **Forward elements are lighter, receding ones are darker.** This mimics natural light behavior: brighter elements come forward, while darker ones recede. In dark mode, brighter elements create depth, ensuring important content stands out without relying heavily on borders or shadows.
   - **Reduced color saturation.** In a dark UI, color naturally stands out more, and the amount of color use is reduced. Instead of flooding backgrounds with color, use color more selectively to draw attention where it’s needed.
   - **Dimmed, not inverted.** Dark mode should feel like dimming the lights rather than completely inverting the interface. Carefully decide which elements to darken and which to brighten to maintain content clarity while allowing backgrounds to recede appropriately.
