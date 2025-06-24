@@ -18,7 +18,7 @@ If you are new to using a Mac (ex. used Windows before), you may find the Vendor
 
 ## Security Policies
 
-Please read through the [security standards](/handbook/security/corporate/services/laptops/security) pages before proceeding to learn more about GitLab-specific configuration requirements or recommendations.
+Please read through the [security standards](/handbook/security/corporate/end-user-services/laptop-management/security) pages before proceeding to learn more about GitLab-specific configuration requirements or recommendations.
 
 * [Apple ID for Work](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/appleid)
 * [Backups](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/backups)
