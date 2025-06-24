@@ -21,6 +21,9 @@ Those two labels are applied as part of our capacity metrics and our day-to-day 
 1. __Vulnerability Source Tracking__
    - Apply `appsec-kpi::vulnerability-introduced` label to Merge Requests identified as introducing vulnerabilities
 
+1. __Vulnerability Prevention Tracking__
+   - Apply `appsec-kpi::vulnerability-prevented` label to Merge Requests where vulnerabilities were identified and prevented during security review
+
 #### Calculation Method
 
 ```text
