@@ -50,7 +50,7 @@
 /handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/
 /handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
 /handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/:splat 301
-/handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/services/laptops/wipe/ 301
+/handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe// 301
 /handbook/it/okta/okta-enduser-faq/ /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/ 301
 /handbook/it/okta/okta-enduser-faq/* /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/:splat 301
 /handbook/it/okta/ /handbook/security/corporate/end-user-services/okta/ 301

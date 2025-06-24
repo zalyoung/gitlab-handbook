@@ -14,7 +14,7 @@ Please visit the [Corporate Security Support](/handbook/security/corporate/suppo
 
 ## Laptop Ordering
 
-- [Laptop Procurement for New Team Members](/handbook/security/corporate/services/laptops/onboarding)
+- [Laptop Procurement for New Team Members](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/)
 - [Macbook Model Eligibility](/handbook/security/corporate/services/laptops/hardware#macbook-model-eligibility)
 
 ## Initial Setup
@@ -26,7 +26,7 @@ Please visit the [Corporate Security Support](/handbook/security/corporate/suppo
 - [Okta Verify Setup](/handbook/security/corporate/systems/okta/verify/macos)
 - [1Password User Setup](/handbook/security/corporate/systems/1password/setup)
 - [Laptop VPN for Public Networks](/handbook/security/corporate/systems/vpn/setup)
-- [Laptop Application and Software Standards](/handbook/security/corporate/services/laptops/software)
+- [Laptop Application and Software Standards](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/)
 - [Laptop Security Configuration Standards](/handbook/security/corporate/services/laptops/security)
 - (Internal) [System Configuration Standards](https://internal.gitlab.com/handbook/it/it-security/system-configuration/)
 

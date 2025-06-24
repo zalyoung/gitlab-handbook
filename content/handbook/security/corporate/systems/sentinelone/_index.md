@@ -78,7 +78,7 @@ No. The EDR solution only monitors the GitLab laptop, like an antivirus solution
 
 If you wish to add further privacy and security to your home network, you can further isolate your work machine by creating a separate network for it.
 
-While we cannot provide you with any direct support for this type of network setup, see the [wireless networks](/handbook/security/corporate/services/laptops/security/networks) and [network isolation](/handbook/security/network-isolation) guides. [examples](/handbook/security/network-isolation/) that might help to get you started.
+While we cannot provide you with any direct support for this type of network setup, see the [wireless networks](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/networks) and [network isolation](/handbook/security/network-isolation) guides. [examples](/handbook/security/network-isolation/) that might help to get you started.
 
 ### Third Party Vendor
 
