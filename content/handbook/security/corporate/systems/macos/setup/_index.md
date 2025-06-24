@@ -18,13 +18,13 @@ If you are new to using a Mac (ex. used Windows before), you may find the Vendor
 
 ## Security Policies
 
-Please read through the [security standards](/handbook/security/corporate/services/laptops/security) pages before proceeding to learn more about GitLab-specific configuration requirements or recommendations.
+Please read through the [security standards](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/) pages before proceeding to learn more about GitLab-specific configuration requirements or recommendations.
 
 * [Apple ID for Work](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/appleid)
 * [Backups](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/backups)
 * [Disk Encryption](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption)
 * [Firewall](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/firewall)
-* [Hostnames and Usernames](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/names)
+* [Hostnames and Usernames](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/)
 * [iCloud Drive](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/icloud)
 * [Locking When Unattended](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/unattended)
 * [Remote Management](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/management)

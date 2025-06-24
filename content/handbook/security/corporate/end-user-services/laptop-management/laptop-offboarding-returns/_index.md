@@ -60,9 +60,9 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 
 #### Process
 
-1. When creating a [laptop refresh](/handbook/security/corporate/services/laptops/refresh) issue you may indicate that you would like to donate the laptop and to which [approved vendor](https://docs.google.com/spreadsheets/d/15g4v5coC_yLlVNTKUZMwATllZhxzqbxrtvwJsi8bjXE/edit#gid=0)
+1. When creating a [laptop refresh](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes) issue you may indicate that you would like to donate the laptop and to which [approved vendor](https://docs.google.com/spreadsheets/d/15g4v5coC_yLlVNTKUZMwATllZhxzqbxrtvwJsi8bjXE/edit#gid=0)
     1. In case of offboardings, please reach out to us via [email](mailto:laptops@gitlab.com) and let us know if we can help.
 1. Indicate in the issue which option of logistics will be used: Local Drop off or Sending via courier.
-1. For security reasons, ensure that you have completed the [laptop wipe](/handbook/security/corporate/services/laptops/guide/wipe) process before drop off or sending.
+1. For security reasons, ensure that you have completed the [laptop wipe](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/) process before drop off or sending.
 
 Please reach out through #it_help in Slack or email laptops@gitlab.com if you have any questions or concerns.

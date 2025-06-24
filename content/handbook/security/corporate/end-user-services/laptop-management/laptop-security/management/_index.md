@@ -14,9 +14,9 @@ The term "mobile device" is deceiving and actually refers to any "user" device i
 
 We use this data for asset management and to retroactively review that all machines are using up-to-date versions and configurations meet our compliance policy requirements.
 
-We have the ability to push and automatically install software packages, and most importantly, the ability to remotely [wipe your laptop](/handbook/security/corporate/end-user-services/laptops/wipe) if needed.
+We have the ability to push and automatically install software packages, and most importantly, the ability to remotely [wipe your laptop](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/) if needed.
 
-All GitLab purchased laptops are enrolled in MDM during [onboarding](/handbook/security/corporate/end-user-services/onboarding101/) or a laptop [refresh](/handbook/security/corporate/services/laptops/refresh).
+All GitLab purchased laptops are enrolled in MDM during [onboarding](/handbook/security/corporate/end-user-services/onboarding101/) or a laptop [refresh](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes).
 
 All GitLab laptops must be [wiped](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe) in the event they are lost or compromised during a security incident, and before they are [donated](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-donations), [returned](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-returns), or replaced due to a [repair](/handbook/security/corporate/end-user-services/laptop-management/laptop-repairs/) or [refresh](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes) with or without a [buyback](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks).
 

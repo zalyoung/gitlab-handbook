@@ -863,20 +863,20 @@ The Corporate Security department provides configuration management engineering 
 </td>
 <td>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=macos_default">Engineering Issue</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/onboarding">Onboarding Hardware Ordering Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/refresh">Refresh/Replace Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/">Onboarding Hardware Ordering Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes">Refresh/Replace Guide</a><br>
 <i class="fas fa-book mr-2"></i><a href="handbook/security/corporate/services/laptops">Repair Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/wipe">Wipe (Factory Reset) Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/">Wipe (Factory Reset) Guide</a><br>
 <br>
 <i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/systems/macos/setup">Apple macOS Setup Guide</a><br>
 <i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/support/onboarding">Onboarding Software Setup Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security">Security Configuration Standards</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/">Security Configuration Standards</a><br>
 <ul>
 <li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/appleid">Apple ID for Work</a></li>
 <li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/backups">Backups</a></li>
 <li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption">Disk Encryption</a></li>
 <li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/firewall">Firewall</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/names">Hostnames and Usernames</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="https://internal.gitlab.com/handbook/security/corporate/tooling/jamf/endpoint_naming_convention/">Hostnames and Usernames (Internal)</a></li>
 <li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/icloud">iCloud Drive</a></li>
 <li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/unattended">Locking When Unattended</a></li>
 <li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/passwords">Password Management</a></li>
