@@ -27,22 +27,26 @@ When prospects interact with GitLab marketing campaigns, they submit their job t
 Below are the 14 persona categories with their share of total touchpoints and descriptions:
 
 ### Technical Leadership
+
 - **C Level**: Senior executives and C-suite leaders including CEOs, CTOs, CIOs, CISOs, and other chief officers. Also includes founders, owners, presidents, and entrepreneurs who make strategic technology decisions.
 - **Info Security Management**: Information security leaders who also have management responsibilities, combining security expertise with team leadership roles.
 - **Info Security**: Information security professionals focused on cybersecurity, including security officers, analysts, and engineers without direct management responsibilities.
 
 ### Management & Strategy 
+
 - **Upper Management**: Mid to senior level managers including directors, VPs, heads of departments, and team leads who oversee teams and budgets but aren't C level.
-- **Program Management - Management **: Senior program managers, product managers, and consultants who lead strategic initiatives and manage other PMs.
+- **Program Management - Management**: Senior program managers, product managers, and consultants who lead strategic initiatives and manage other PMs.
 - **Program Management**: Program managers, project managers, product managers, business analysts, and consultants focused on execution and delivery.
 
-### Technical Contributors 
+### Technical Contributors
+
 - **IC Developer**: Individual contributor software engineers, developers, programmers, and technical engineers who build and maintain applications and systems.
 - **Platform / Ops / Infrastructure Engineering**: Technical professionals managing infrastructure, systems administration, cloud operations, and platform engineering without direct reports.
 - **Release & Change Mgmt**: Individual contributors in DevOps, QA, testing, release management, and site reliability engineering without management duties.
 - **Release & Change Mgmt - Management**: Leaders who oversee software delivery, quality assurance, DevOps, and change management processes with management responsibilities.
 
 ### Other Categories
+
 - **Education**: Students, professors, researchers, and academic professionals in educational institutions or research organizations.
 - **Non-Development Back Office**: Business functions including marketing, sales, finance, HR, legal, operations, and administrative roles not directly involved in technology development.
 - **Not Enough Info**: Titles too generic or vague to categorize accurately (e.g., "specialist," "staff," "consultant").
@@ -63,13 +67,17 @@ This ensures consistent categorization when titles contain multiple keywords (e.
 ## Data Quality Considerations
 
 ### Title Variations
+
 The system handles multiple languages and common variations:
+
 - English, Japanese, Korean, French, Spanish, Portuguese terms
 - Common abbreviations (CEO, CTO, VP, PM, etc.)
 - Regional differences in titles
 
 ### Exclusions
+
 Certain keywords trigger exclusions to improve accuracy:
+
 - Sales-related titles are excluded from technical categories
 - Pure sales roles are categorized as "Non-Development Back Office"
 
