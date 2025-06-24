@@ -64,7 +64,7 @@ Zack Hardie<br>
 <a href="/handbook/security/corporate/systems/vpn">NordLayer VPN</a><br>
 <a href="/handbook/security/corporate/systems/okta/verify">Okta Verify</a><br>
 <a href="/handbook/security/corporate/systems/sentinelone">SentinelOne EDR</a><br>
-<a href="/handbook/security/corporate/services/laptops/security/updates">Software Updates</a><br>
+<a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/updates">Software Updates</a><br>
 <a href="/handbook/security/corporate/systems/yubikey">YubiKey</a><br>
 </td>
 <td>

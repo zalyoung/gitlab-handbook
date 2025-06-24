@@ -232,6 +232,70 @@ You have completed the initial setup process for your GitLab account and laptop.
 
 To access company applications on your mobile device as per Day 2 of your onboarding, please follow the [Mobile Device Onboarding](/handbook/security/corporate/end-user-services/onboarding101/onboarding-mobile-devices) guide.
 
+## Mobile Setup
+
+To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc) on a mobile device; the device needs to be enrolled in Okta Verify, and a passkey needs to be saved on the device.
+
+### Okta Verify
+
+> These steps apply to Apple and Android devices
+
+1. Download the Okta Verify app from the App Store (Apple) / Play Store (Android)
+2. On your laptop, click on the `Okta Verify` icon at the top of your screen, near the battery indicator and seclect `Open Okta Verify`
+3. Click on your account, indicated by your name and email address
+4. Click `Add Account to another device`
+5. Verify your identity via Touch ID, and enable bluetooth if prompted
+6. You should now see a QR code on screen
+7. Ensure that bluetooth is enabled on your mobile device andthat the device is on the same Wi-Fi network as the laptop
+8. Open the mobile app. 
+   1. If this id your first time using the app, select `Add account from another device`
+   2. If you have used the ap before, press the `+` button near the top of the screen
+9. On the `Choose account type` screen, select `Organization`
+10. Select `Add account from another device` followd by `Scan QR code`
+11. Scan the QR code on your laptop screen
+12. On your laptop, enter the 6-digit pin shown on the phone screen
+13. On your mobile device, enable biometric verification when prompted
+14. You can verify that your phone is succesfully enrolled by going to https://gitlab.okta.com/enduser/settings and checking that your phone is listed under `Okta Verify`
+
+### Okta Verify -Manual Setup
+
+> Use these steps in case the mobile app fails to connect to the laptop app or the laptop app is unavailable
+
+1. Ensure that you have an [Okta passkey saved on your phone](#mobile-passkey-and-yubikey-setup)
+2. Download the Okta Verify app from the App Store (Apple) / Play Store (Android)
+3. Open the mobile app. 
+   1. If this id your first time using the app, select `Get started`, and continue until you get to the `Choose account type` screen
+   2. If you have used the ap before, press the `+` button near the top of the screen
+4. On the `Choose account type` screen, select `Organization` and then `Skip`
+5. Select `No, sign in instead`
+6. For `Organization's sign-in URL`, enter `gitlab.okta.com`
+7. Enter your `Okta Username` and `Password` and sign in
+8. Agree to the terms on screen and enable touch ID
+
+### Mobile Passkey and Yubikey Setup
+
+> Adding a passkey to your mobile device will not give GitLab any access to any data on your phone. For more information, please see https://support.okta.com/help/s/article/Passkey-Management
+> The steps below apply to both iOS and Android devices
+
+1. On your laptop, open Chrome and go to https://gitlab.okta.com/enduser/settings
+2. Next to `Security Key or Biometric Authenticator`, click `Set up another`
+3. Verify your identy via your preferred method (e.g. Touch ID, 1Password, etc)
+4. Click `Set up` followed by `set up`
+   1. If the 1Password `Save Passkey` pop-up appears, click `x`
+   2. If `Use Touch ID to sign in?` pop-up appears, click `Cancel`
+5. When asked to `choose where to save your passkey for gitlab.okta.com`, select `Use a phone, tablet or security key` - A QR code should now appear on screen
+   1. **Yubikey**: Insert your Yubikey and press the button
+   2. **iOS**:
+      1. Ensure that iOS is up-to-date - https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios
+      2. Ensure that you have the `Password` app installed and activated in your system settings - https://support.apple.com/en-gb/guide/iphone/iphf538ea8d0/ios
+      3. Open the camera app and scan the QR code
+      4. Select to save a passkey and follow the steps on your phone to save the passkey
+   3. **Android**:
+      1. Ensure that Android is up-to-date - https://support.google.com/android/answer/7680439?
+      2. Open the `Camera` app OR `Google Lens`, depending on your device
+      3. Scan the QR code and select the option to save a passkey to your Google account
+         1. On Samsung devices, when prompted to `Skip the QR code next time`, select `not now` and proceed to save the passkey to your Google account. Please make sure that you save the passkey to Google’s passkey manager and not Samsung Passkey.
+
 ## Need Help?
 
 If you need further assistance with setting up your laptop please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in Slack in the #it_help channel or via it-help@gitlab.com.
