@@ -2,11 +2,9 @@
 title: Hyperscaler Campaign
 ---
 
-Hypercaler Campaign
----
+# Hypercaler Campaign
 
-Naming Convention Requirements
----
+## Naming Convention Requirements
 
 When working with hyperscaler partners like AWS and Google Cloud, it's important to follow specific naming conventions and configuration procedures. This guide explains each component of this process in detail.
 
@@ -31,8 +29,7 @@ Examples:
 
 Reference the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates) page for naming conventions for specific campaign types.
 
-Salesforce Configuration Requirements
----
+## Salesforce Configuration Requirements
 
 When setting up these campaigns in Salesforce, you need to take two critical actions:
 
@@ -49,7 +46,6 @@ When setting up these campaigns in Salesforce, you need to take two critical act
 
 This configuration ensures proper attribution and tracking of partnership activities. Note that, Hyperscaler MDF is only in referrance to AWS MDF, as that is currently the MDF that's available for GitLab.
 
-
 ### Campaign Types Covered by These Guidelines
 
 These naming conventions and configuration requirements apply to all activities where hyperscalers are involved, including:
@@ -62,15 +58,13 @@ These naming conventions and configuration requirements apply to all activities 
 
 ### Special Instructions for Content Syndication Teams
 
-
 If you work with content syndication, you have an additional step: You must update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 This ensures consistency across all platforms and makes reporting and attribution more accurate. The Marketo Program Description field has been recently updated to include a reminder about adding hyperscaler partner names to campaign names whenever these partners are involved.
 
 Following these guidelines carefully ensures proper tracking, reporting, and compliance with partnership agreements, while also making campaigns easier to find and manage across systems.
 
-Hyperscaler Funded Campaign
----
+## Hyperscaler Funded Campaign
 
 Hyperscaler funded campaign represent a strategic partnership mechanism through which cloud hyperscalers like Amazon Web Services (AWS) and Google Cloud Platform (GCP) provide financial support to partners like GitLab for joint marketing initiatives.
 
@@ -84,7 +78,6 @@ These funding programs operate under different models that reflect each hypersca
 From GitLab's perspective, these funds enable more expansive marketing campaigns than possible while strengthening strategic partnerships with major cloud providers. The partnership creates a "better together" narrative that helps customers understand the enhanced value proposition of GitLab running on these cloud platforms.
 
 ### Key Roles in the Hyperscaler Funded Campaign
-
 
 1. Program Owner (Francine): Primary contact with Hyperscaler Partners
 
@@ -143,7 +136,6 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 ### Set up
 
 #### Allocadia
-
 
 The Campaign Owner will be responsible for opening the Allocadia activity under the [Regional Marketing > AMER > Hyperscaler](https://eu1.allocadia.com/budgets/122286/items?view=default) plan.
 
