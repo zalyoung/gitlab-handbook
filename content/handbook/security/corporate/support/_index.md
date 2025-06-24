@@ -46,7 +46,7 @@ If you can't find what you're looking for, please ask in `#it_help`.
   - [Email](/handbook/security/corporate/services/email)
   - Device Management
     - [Cell Phones and Mobile Devices](/handbook/security/corporate/services/phones)
-    - [Laptops](/handbook/security/corporate/services/laptops)
+    - [Laptops](/handbook/security/corporate/end-user-services/laptop-management/)
       - **New Laptops**
         - 👀 [Onboarding Hardware Ordering Guide](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/)
         - 👀 [Onboarding Software Setup Guide](/handbook/security/corporate/support/onboarding)
@@ -54,7 +54,7 @@ If you can't find what you're looking for, please ask in `#it_help`.
         - [Linux Setup Guide](/handbook/security/corporate/systems/linux)
       - **Laptop Replacement and Repairs**
         - [Refresh/Replace Guide](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes)
-        - [Repair Guide](/handbook/security/corporate/services/laptops/)
+        - [Repair Guide](/handbook/security/corporate/end-user-services/laptop-management//)
       - **Old Laptops**
         - [Wipe (Factory Reset) Guide](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/)
         - [Buy Back Guide](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks)
@@ -70,7 +70,7 @@ If you can't find what you're looking for, please ask in `#it_help`.
           - [Backups](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/backups)
           - [Disk Encryption](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption)
           - [Firewall](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/firewall)
-          - [Hostnames and Usernames](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/)
+          - [Hostnames and Usernames(Internal)](https://handbook.gitlab.com/handbook/security/corporate/services/laptops/security/names/)
           - [iCloud Drive](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/icloud)
           - [Locking When Unattended](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/unattended)
           - [Password Management](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/passwords)
@@ -103,7 +103,7 @@ We have 24x5 coverage provided by [Helpdesk Support Analysts](/handbook/security
 - [Infrastructure Management](/handbook/security/corporate/services/infrastructure)
   - [AWS](/handbook/security/corporate/systems/aws)
   - [GCP](/handbook/security/corporate/systems/google/cloud/)
-- [Laptops and Logistics](/handbook/security/corporate/services/laptops)
+- [Laptops and Logistics](/handbook/security/corporate/end-user-services/laptop-management/)
 - [Tech Support for Team Members](/handbook/security/corporate/services/helpdesk/)
   - [Account Password and 2FA Resets](/handbook/security/corporate/support/reset)
 

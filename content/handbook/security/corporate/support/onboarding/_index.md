@@ -15,7 +15,7 @@ Please visit the [Corporate Security Support](/handbook/security/corporate/suppo
 ## Laptop Ordering
 
 - [Laptop Procurement for New Team Members](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/)
-- [Macbook Model Eligibility](/handbook/security/corporate/end-user-services/laptop-management/#laptop-specs#macbook-model-eligibility)
+- [Macbook Model Eligibility](/handbook/security/corporate/end-user-services/laptop-management/#laptop-specs)
 
 ## Initial Setup
 
