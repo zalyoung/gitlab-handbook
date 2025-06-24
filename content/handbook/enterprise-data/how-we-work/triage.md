@@ -95,7 +95,7 @@ The Data Platform triager is responsible for resolving problems with our data pl
   - Incoming incidents
   - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
   - New issues: Every issue that comes in during a team member's triage week must be [resolved](/handbook/enterprise-data/how-we-work/triage.md#new-issue-triaging-for-the-data-platform-team).
-    - A new issue is defined as an issue with no assignee and the workflow label `triage & validation`. [This issue list](https://gitlab.com/groups/gitlab-data/-/issues/?sort=updated_desc&state=opened&assignee_id=None&label_name%5B%5D=Team%3A%3AData%20Platform&label_name%5B%5D=workflow%3A%3A1%20-%20triage%20%26%20validation&first_page_size=100) tracks these items.
+    - A new issue is defined as an issue with no assignee and the workflow label `triage & validation`. [This issue list](https://gitlab.com/groups/gitlab-data/-/issues/?sort=updated_desc&state=opened&assignee_id=None&label_name%5B%5D=Team%3A%3AData%20Platform&label_name%5B%5D=workflow%3A%3A1%20-%20triage%20%26%20validation&not%5Blabel_name%5D%5B%5D=Triage&first_page_size=100) tracks these items.
   - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
     - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
     - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
