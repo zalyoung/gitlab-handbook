@@ -53,7 +53,7 @@ Learn more about our security review process in our [dedicated page](appsec-revi
 
 ### PSIRT Operations
 
-**Purpose**: Central repository for PSIRT team operations and issue tracking
+**Purpose**: Central repository for PSIRT team operations and issue tracking.  
 **Location**: `gitlab-com/gl-security/product-security/appsec/psirt`  
 **Learn More**: [PSIRT Services](./appsec-operations/psirt-services/)
 
