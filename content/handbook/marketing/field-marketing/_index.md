@@ -341,13 +341,9 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - Please add any appropriate sub-region or country tags to your project. NOTE: The main region categories (AMER, APAC, EMEA, PubSec) will be automatically associated. Many tags are already created in Asana, please utilize these tags and do not edit any existing tags.
   - If you need a new tag created, please request your tag in this [Tag Request Form](https://form.asana.com/?k=iROsm3N8LW4Wb8HY0PFxeQ&d=306855239930259).
 
-### Closing out Asana Projects
+### Closing out Asana Projects 
 
 - Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. **NOTE:** You must complete or delete all open tasks in a project or they will still show up in your assigned tasks (see how to bulk complete tasks [here](https://forum.asana.com/t/closing-tasks-for-a-project-set-for-a-completed-status/282266)). The FMM will then go to the top of the page and click `Set status` and select `Complete`. 
-
-## Plan to WIP Recorded Training
-
-TBD for new Asana process
 
 ## Rescheduling or Canceling Events
 
