@@ -104,8 +104,6 @@ Anyone can create a knowledge article regardless of being in ZenDesk or not (or 
 
 Note: Knowledge base articles are dynamically suggested to a user while submitting a ticket.
 
-
-
 Knowledge base articles can be found at:
 
 - [Global support knowledge base](https://support.gitlab.com/hc/en-us/sections/15215649512604-Knowledge-Base)
