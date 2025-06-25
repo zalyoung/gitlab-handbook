@@ -51,19 +51,19 @@ Pairing sessions generally happen synchronously (live video calls) but can happe
 To begin participating in pairing sessions:
 
 - **Join crush sessions**: These scheduled group sessions are a great way to start - check the [GitLab Support calendar](https://handbook.gitlab.com/handbook/support/#google-calendar) for times in your region
-   - Look for calendar events with "crush" or "collaboration" in the title
+  - Look for calendar events with "crush" or "collaboration" in the title
 
-- **Join Senior/Staff Help Sessions**: Open sessions where you can get guidance and assistance - check the [GitLab Support calendar](https://handbook.gitlab.com/handbook/support/#google-calendar) for times
-   - Look for calendar events with "Senior Help", "Office Hours", or "Help Session" in the title
+- **Join Senior/Staff help sessions**: Open sessions where you can get guidance and assistance - check the [GitLab Support calendar](https://handbook.gitlab.com/handbook/support/#google-calendar) for times
+  - Look for calendar events with "Senior Help", "Office Hours", or "Help Session" in the title
    
 - **Find Support Engineers to pair with**:
-   - Use the [Skills by Subject](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html) page to identify subject matter experts
-   - Ask in [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW) to see if anyone would like to pair with you
-   - Feel free to schedule time in other Support Engineers' calendars even if it's unprompted - it's a great opportunity to meet someone you haven't worked with before
+  - Use the [Skills by Subject](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html) page to identify subject matter experts
+  - Ask in [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW) to see if anyone would like to pair with you
+  - Feel free to schedule time in other Support Engineers' calendars even if it's unprompted - it's a great opportunity to meet someone you haven't worked with before
 
 - **Use Slack channels**: Join the regional donut channels for automatic pairing opportunities
-   - **#spt_pairing-donut-emea** - Automated pairing for EMEA region
-   - **#spt_pairing-donut-apac** - Automated pairing for APAC region
+  - [`#spt_pairing-donut-emea`](https://gitlab.enterprise.slack.com/archives/C063F376YFN)
+  - [`#spt_pairing-donut-apac`](https://gitlab.enterprise.slack.com/archives/C06NE7VJCE9)- Automated pairing for APAC region
 
 - **Be Proactive**: Don't wait until you're stuck - pairing is most effective when done regularly
 
