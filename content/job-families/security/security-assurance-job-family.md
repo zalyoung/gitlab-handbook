@@ -110,7 +110,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - A minimum of 2 years' experience working with Security Governance and technical writing programs
-- Demonstrated experience with at least two security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Demonstrated experience with  common industry security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
 - Working understanding of security and governance with cloud-native technology stacks
 
 ##### Security Risk
@@ -150,7 +150,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - At least 2 years of experience conducting customer assurance activities
-- Demonstrated experience with at least two security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
 - Working understanding of how security works with cloud-native technology stacks
 
 ### Senior Security Assurance Engineer
@@ -186,7 +186,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The responsibilities of a Security Assurance Automation Engineer, plus;
 - Design, engineer, deploy, and maintain custom automation projects
-- Evaluate Security Assurance tools for use by the Security Automation Department
+- Evaluate Security Assurance tools for use by the Security Assurance Department
 - Design and gather metrics data for the Security Assurance Automation program
 - Represent the Security Assurance Automation team as a subject matter expert in at least one technical, product, or conceptual area
 
@@ -241,7 +241,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - A minimum of 5 years' experience defining and shaping Security Governance and technical writing programs
-- Demonstrated experience with at least four security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Demonstrated experience with common industry security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
 - Detailed understanding of security and governance with cloud-native technology stacks
 
 ##### Security Risk
@@ -289,8 +289,8 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - Ability to use GitLab
 - At least 5 years of experience conducting customer assurance activities
-- Demonstrated experience with at least four security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
-- Demonstrated industry security experience, particularly in DevSecOps, Application Security and/or Cloud-Native Security
+- Demonstrated experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated industry security experience.
 
 ### Staff Security Assurance Engineer
 
@@ -327,7 +327,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 - Lead the design, engineering, deployment, and maintenance efforts of custom automation products
 - Define evaluation criteria for Security Assurance tools to be used by the Security Assurance Department
 - Lead efforts to gather metrics data for the Security Assurance Automation program
-- Represent the Security Automation team as a subject matter expert in at least two technical, product, or conceptual area
+- Represent the Security Assurance Automation team as a subject matter expert in at least two technical, product, or conceptual area
 
 ###### Requirements
 
@@ -383,7 +383,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - A minimum of 10 years' experience defining and shaping Security Governance and technical writing programs
-- Demonstrated experience with at least four security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Demonstrated experience with common industry security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
 - Detailed understanding of security and governance with cloud-native technology stacks
 
 ##### Security Risk
@@ -427,8 +427,127 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - At least 10 years of experience conducting customer assurance activities
-- Proficient experience with at least six security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
-- Demonstrated industry security experience, particularly in DevSecOps, Application Security and/or Cloud-Native Security
+- Proficient experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated industry security experience.
+
+### Staff Security Assurance Engineer
+
+This position reports to the manager of the corresponding Security Assurance specialty.
+
+#### Staff Security Assurance Engineer Job Grade
+
+The Staff Security Assurance Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Staff Security Assurance Engineer Responsibilities
+
+- The responsibilities of a Senior Security Assurance Engineer, plus;
+- Proven ability to successfully develop and drive projects to completion at the team and department levels.
+
+#### Hiring Process
+
+Candidates for the staff engineer positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
+
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
+- Next, candidates will be invited to schedule a 50-minute interviews with the hiring manager,
+- Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security orgnanization,
+- Finally, candidates will be invited to schedule a 25-minute interview with the Senior Director, Security Assurance.
+- Successful candidates will subsequently be made an offer via email
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+
+#### Principal Security Assurance Engineer Specialties
+
+##### Security Assurance Automation
+
+###### Responsibilities
+
+- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- Develop ideas for custom automation products to solve complex issues and lead the design, engineering, deployment, and maintenance efforts of those products.
+- Define evaluation criteria for Security Assurance tools to be used by the Security Assurance Department and propose internal built solution ideas to rival COTS.
+- Design and implement dashboards for the Security Assurance Automation metrics program, and identify gaps in existing data sets.
+- Represent the Security Assurance Automation team as a subject matter expert in at least two technical, product, or conceptual area
+
+###### Requirements
+
+- The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+- 12 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education.
+- Excellent written and verbal communication skills.
+- Expert scripting/coding skills in more than one language - Python and Ruby required. 
+- Excellent understanding of automation or software engineering technologies and cloud architectures.
+- Excellent understanding of the Software as a Service (SaaS) model.
+- Experience working in the DevOps model.
+- Solid experience with Cloud Computing Platforms - GCP/AWS experience.
+- Experience working in a GRC/Security Assurance team a plus.
+
+##### Security Compliance
+
+###### Responsibilities
+
+- [Placeholder]
+
+###### Requirements
+
+- [Placeholder]
+
+##### Security Governance
+
+###### Responsibilities
+
+- The responsibilities of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+- Proactively identify and propose improvements to the GitLab Control Framework (GCF) to ensure controls align with security strategy, support business objectives, and are consistent with applicable laws and regulations.
+- Publish and maintain handbook pages, policies, standards, procedures and runbooks related to Security and support the maintenance of the Security Division’s handbook space.
+- Lead Security Assurance technology administration oversight to include continuous quality reviews and training
+- Maintain security program controlled documents and propose improvements to the program and standard development of future controlled documents
+- Develop security collateral and provide feedback and guidance to Governance and Field Security Engineers
+- Design and implement dashboards for the Security Governance metrics program, and identify gaps in existing data sets.
+- Operate and mature security training, awareness, and Phishing programs and drive the improvement of their efficacy.
+
+###### Requirements
+
+- The requirements of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+- A minimum of 12 years’ experience defining and shaping Security Governance and technical writing programs.
+- Demonstrated experience with industry common security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Detailed understanding of security and governance with cloud-native technology stacks.
+- Experience leading a security awareness and phishing program.
+
+##### Security Risk
+
+###### Responsibilities
+
+- [Placeholder]
+
+###### Requirements
+
+- [Placeholder]
+
+##### Field Security
+
+###### Responsibilities
+
+- The responsibilities of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+- Maintain proficient knowledge of GitLab’s product, roadmap, environment, systems and architecture and drive initiatives to shape strategic decisions focused on meeting customer security demands.
+- Mentor other Field Security Engineers and improve knowledge, quality and quantity of the team’s output.
+- Design and implement dashboards for the Field Security metrics program, and identify gaps in existing data sets.
+- Design and implement major iterations of Field Security programs in alignment with industry trends, predictions and customer demands.
+- Help lead Field Security roadmap development based on customer needs.
+- Build the GitLab Security brand by presenting a minimum of 6 external facing engagements per annum such as Commit, conferences, guest speaking engagements, blog posts, whitepapers.
+- Create dynamic open-source Field Security programs that deliver value to the GitLab community.
+- Design, develop, and deploy scripts to automate administrative and process tasks related to Field Security.
+- Lead contract reviews for security language and calls with customers to discuss contracts, concerns, and answer questions during the sales cycle.
+
+###### Requirements
+
+- The requirements of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+- At least 12 years of experience conducting customer assurance activities
+- Proficient experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated industry security experience.
+- Experience conducting contract reviews for security focused language.
+- Experienced engaging with customers on calls to discuss contracts, concerns, and answer questions during the sales cycle.
 
 ### Manager, Security Assurance
 
