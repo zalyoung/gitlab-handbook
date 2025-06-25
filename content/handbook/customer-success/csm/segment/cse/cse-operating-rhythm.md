@@ -296,8 +296,8 @@ Alternatively you can create a single document (ie: temporary email draft or not
 These methods seem to provide the most consistent results; the main focus being on labeling the data to tighten context.
 
 ----
-
-Source reference: [FY26 Q2 OKR: Implement a standardized 'quality outcome' framework for On-Demand engagements](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/issues/743) 
+ 
+Source (context) reference: [FY26 Q2 OKR: Implement a standardized 'quality outcome' framework for On-Demand engagements](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/issues/743) 
 
 
 ## CSE Useful Link Signpost
