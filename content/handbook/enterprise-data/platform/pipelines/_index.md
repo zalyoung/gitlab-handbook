@@ -7,8 +7,6 @@ description: "This page describes the different data sources and the way we extr
 The Data Warehouse contains data from a wide variety of sources. In order to support such dynamic and vast integrations we employ a data extraction strategy with advanced tooling and best-in-class data engineering standards.
 Detailed information about specific **Data Pipelines** is available on our [Internal GitLab Handbook Pipelines page](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines).
 
-
-
 ## Data Extraction Solutions 
 
 Ideally, all data extraction pipelines should fall into 1 of 3 categories:
@@ -68,6 +66,8 @@ Custom data pipelines should be considered our best option in the sense that the
 
 Said another way, when other solutions are inadequate, Custom Pipelines can solve the issue. 
 
-#### Making Custom Pipelines 'The Best'
+---
 
-A signifcant weakness that can emerge from custom pipelines is that we can write inconsistencies, redundancies, and complexity into our data platform if we're not careful. 
+## Making Custom Pipelines 'The Best'
+
+A signifcant weakness that can emerge from custom pipelines is that we can write inconsistencies, redundancies, and complexity into our data platform if we're not careful. To this end we expect our custom pipelines to ahear to the following specifications. 
