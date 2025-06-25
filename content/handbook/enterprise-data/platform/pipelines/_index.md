@@ -48,6 +48,26 @@ Given than the main downside to Custom Pipelines is their slower time to impleme
 
 ### Criteria for Snowflake Share
 
+The Main limitation on Snowflake Shares is their availability. If a Snowflake share is available for a data source **_and_ it meets the requirements given by our business partners** then it's likely a good solution, asumming any price is within budget.
+
+It is essential to assess current and future requirements for the data because the easy and simplicity of using snowflake shares is paired with no flexibility. So if our requirements exceed what is available in the share then we are left without options. Further, if downstream models have already been implemented, a pipeline migration would be needed, which can be more expensive than an initial implementation.
+
 ### Criteria for ETL Vendor
 
+ETL Vendors, like Fivetran give us more flexibility than a Snowflake share, but they come with additional cost to our contract. As noted, these can be a great option when we need to move quickly, espeically when the criticality of a new data source is unclear.
+
+A lack of flexibility and maintainability is still an important consideration here. We've had trouble managing high complexity pipelines within vendor interfaces, and have experience pain in change management without the ability to apply approvals or tests to changes.  If the complexity of objects and/or attributes is relatively high, it might be worth considering a cutom pipeline. 
+
+The volume of records is also a primary consideration for using Vendors at the moment as they are usually priced on usage. Contract impact is a required evaluation step for this solution. High cost may also warrant a custom pipeline.
+
+Some data sources are just too senstive to allow for a third party to have access. Keeping the pipeline without our data platform is likely required for such cases.
+
 ### Criteria for Custom Pipelines
+
+Custom data pipelines should be considered our best option in the sense that these pipelines offer the most opportunity for flexibility, privacy, security, and maintainability. Though, as noted, such a solution isn't always warrented. 
+
+Said another way, when other solutions are inadequate, Custom Pipelines can solve the issue. 
+
+#### Making Custom Pipelines 'The Best'
+
+A signifcant weakness that can emerge from custom pipelines is that we can write inconsistencies, redundancies, and complexity into our data platform if we're not careful. 
