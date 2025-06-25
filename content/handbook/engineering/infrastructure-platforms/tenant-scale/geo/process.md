@@ -304,3 +304,35 @@ In order, that means:
 - Can you help anyone with reviews?
 - Can you unblock anyone in development?
 - Pick from the top of the "ready for development" column on the [Kanban Build board](https://gitlab.com/groups/gitlab-org/-/boards/1181257?milestone_title=%23started&&label_name[]=Geo).
+
+## Feature Flag Management
+
+### Retention Guidelines
+
+- **Development Flags**: 5 milestones maximum, aiming for 4 milestones as a general guidance
+- **Operational Flags**: 16 months maximum, aiming for 12 milestones as a general guidance.
+
+### Process
+
+1. **DRI Assignment**: Each feature flag must have a designated owner responsible for cleanup
+2. **Regular Review**: Monthly check of flags approaching retention limits during team planning
+3. **Cleanup**: Remove flags within retention period or request extension with justification
+
+### Flag Lifecycle
+
+- **Creation**: Use `geo_` prefix, set clear description and expected timeline
+- **Monitoring**: Track usage and plan removal during development
+- **Removal**: Clean up code paths and update documentation
+
+### Extensions
+
+Flags exceeding retention limits require team lead approval with documented justification.
+
+### Resources
+
+- [Team Feature Flag Analysis](https://docs.google.com/spreadsheets/d/1pbPwUQC30gkaueqy_f4m2KRK0Smta3YCHCvh-kEJbi0/edit?gid=1801934973#gid=1801934973)
+- [GitLab Feature Flag Documentation](https://docs.gitlab.com/development/feature_flags/)
+
+## Backlog Cleanup (Trial Phase)
+
+We will start to label issues `~closed:stale` to mark issues that are in our backlog that's not on [the roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=START_DATE_ASC&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::geo&label_name[]=type::feature&label_name[]=backend&progress=WEIGHT&show_progress=true&show_milestones=true&milestones_type=ALL&show_labels=true) but could be good ideas. 
