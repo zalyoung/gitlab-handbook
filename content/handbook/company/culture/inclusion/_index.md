@@ -70,9 +70,9 @@ Some other ways we actively cultivate a sense of Belonging at GitLab include cre
 
 ### Examples of Select Underrepresented Groups
 
-An underrepresented group describes a subset of a population that holds a smaller percentage within a significant subgroup than the subset holds in the general population. The accepted definition of "underrepresented minorities" from the National Science Foundation and other major research institutions focuses on racial and ethnic groups whose representation in a profession is significantly below their representation in the general population.  Populations whose representation in tech roles has been historically low.  Tech roles are based on Federal Employer Information Report EEO-1 skill designations. At GitLab, this includes all technical roles across the company, such as Engineering & Product.
+An underrepresented group describes a subset of a population that holds a smaller percentage within a significant subgroup than the subset holds in the general population. Populations whose representation in tech roles has been historically low.  Tech roles are based on Federal Employer Information Report EEO-1 skill designations. At GitLab, this includes all technical roles across the company, such as Engineering, Security & Product.
 
-At GitLab, we consider the following groups to be *underrepresented groups*:
+At GitLab, we consider the following groups to be *underrepresented groups* in technical roles:
 
 - Women - Globally
 - Women in [Management](/handbook/company/structure/#organizational-chart) - Globally
@@ -176,7 +176,7 @@ We list our [Pregnancy & Maternity Care](/handbook/total-rewards/benefits/genera
 
 In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys".
 
-### TMRGs - Team Member Resource Groups
+### TMRGs and TMAGs - Team Member Resource Groups and Team Member Advocacy Groups
 
 We have created several TMRGs and welcome interest in creating new ones. Would you like to sign up for an Team Member Resource Group, start an TMRG, or just learn more?  See our [TMRG Guide](/handbook/company/culture/inclusion/erg-guide/).
 
