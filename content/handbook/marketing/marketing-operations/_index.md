@@ -23,14 +23,16 @@ Marketing Operations supports the marketing organization to streamline processes
 | ------ | ------ |
 | [Christine Lee](https://gitlab.com/christinelee ) | VP, Marketing Ops and Analytics |
 | [Amy Waller](https://gitlab.com/amy.waller) | [Director, Marketing Operations](/job-families/marketing/marketing-operations-manager/#director-marketing-operations) |
-| [Gillian Murphy](https://gitlab.com/gillmurphy) | [Manager, Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#manager-marketing-operations) |
-| [Robert Rosu](https://gitlab.com/RobRosu) | [Manager, Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#manager-marketing-operations)|
+| [Gill Murphy](https://gitlab.com/gillmurphy) | [Manager, Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#manager-marketing-operations) |
+| [Rob Rosu](https://gitlab.com/RobRosu) | [Manager, Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#manager-marketing-operations)|
 | [Jenny Tiemann](https://gitlab.com/jennyt) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Salina Tran](https://gitlab.com/stran5) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
 | [Jameson Burton](https://gitlab.com/jburton) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
 | [Evan Mathis](https://gitlab.com/emathis) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/)  |
 | [Bryce Weatherford](https://gitlab.com/bweatherford) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) |
-| Esmira Khalilova | [Associate Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#associate-marketing-operations-manager)|
+| [Esmira Khalilova](https://gitlab.com/ekhalilova) | [Associate Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#associate-marketing-operations-manager)|
+| TBH | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
+| TBH | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
 
 ## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help {#how-to-get-help}
 
