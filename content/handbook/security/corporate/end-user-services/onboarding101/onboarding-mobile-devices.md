@@ -56,6 +56,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
   <li>For <b>Organization's sign-in URL</b>, enter <b>gitlab.okta.com</b></li>
   <li>Enter your <b>Okta Username</b> and <b>Password</b> and sign in</li>
   <li>Agree to the terms on screen and enable Touch ID</li>
+</ol>
 
 ### Mobile Passkey and Yubikey Setup
 
