@@ -269,38 +269,36 @@ The following Claude project will automatically generate outcome suggestions usi
 
 - [Claude Project - CSE Customer Outcomes:](https://claude.ai/project/6340770d-e32d-4cc6-95c3-fd71d653b601)
 
-<b>How to use:</b> Provide a full call transcript or relevant customer notes at minimum for best results; 
+<b>How to use:</b> Provide a full <i>call transcript</i> or relevant <i>customer notes</i> at minimum for best results; 
 
-When using more than one piece of context, provide a label to each additional context item added:
+- When using more than one piece of context, provide a <b>label<b> to each additional context item added:
 
-```bash
-Example:
+  ```bash
+  Example:
 
-Call transcript:
-"""
-<snip from call transcript>
-"""
+  Call transcript:
+  """
+  <snip from call transcript>
+  """
 
-Last email from customer:
-"""
-<snip from email>
-"""
+  Last email from customer:
+  """
+  <snip from email>
+  """
 
-Last reply from Product team:
-"""
-<snip from Product reply>
-"""
-```
+  Last reply from Product team:
+  """
+  <snip from Product reply>
+  """
+  ```
 
 > If the pasted data reaches a certain length threshold, Claude will automatically attach the pasted context as a separate object rather than pasting it in-line; this can make it difficult to properly label; in this case, it might be a good idea to label each piece of pasted context (add label manually at the top before copy/pasting):
 
-Alternatively you can create a single document (ie: temporary email draft or notepad) to refine the input data before copying entire contents to the Claude project for processing.
+Alternatively you can refine the input data before copying contents to the Claude project for processing.
 
-These methods seem to provide the most consistent results; the main focus being on labeling the data to tighten context.
+These methods seem to provide the most consistent results; the main focus being on <i>labeling</i> the data to tighten context.
 
-----
- 
-Source (context) reference: [FY26 Q2 OKR: Implement a standardized 'quality outcome' framework for On-Demand engagements](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/issues/743) 
+> Source (context) reference: [FY26 Q2 OKR: Implement a standardized 'quality outcome' framework for On-Demand engagements](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/issues/743) 
 
 
 ## CSE Useful Link Signpost
