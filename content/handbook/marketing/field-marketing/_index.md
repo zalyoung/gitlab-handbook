@@ -118,12 +118,15 @@ For more information regarding confidentiality levels and compliancy, please vis
 - Using Claude to evaluate [Tableau](/handbook/enterprise-data/platform/tableau/) reporting for better visibility into ROI and to provide new ideas for strategically implementing company initiatives into our regional event tactics 
   - Claude can also be utilized to create a Markdown file of Tableau's data ([see example here](https://claude.ai/share/9f71d4b8-2f9b-496e-8de0-80915021304d)) to then be transferred to Google sheets for easier filtering and analysing 
 - Content creation for event asset copy, as well as general spelling and grammar checks 
+- Use Claude to analyze meeting and offsite notes (such as the request for Claude to analyze territory review notes [here](https://claude.ai/share/70a93c4c-06d5-4b6f-9c6e-200844c747b4))
+- Utilize Claude for account research, such as the example the SA team created [here](https://docs.google.com/presentation/d/1xVzH7SLn6WigEkjoY1i94CkPk6bjyC1Am120Ve9SfB8/edit?slide=id.g358e5761807_0_1359#slide=id.g358e5761807_0_1359)
 - Use Claude to pull specific information for executive roundtables to provide a structured summary based on company information and attendees (see below examples)
   - Company Overview
   - Persona Role
   - Opinion on roundtable topic sourced from relevant articles on the web
   - How GitLab aligns with companies' DevOps and AI strategies
   - Give discussion points on data residency, AI regulations, and implementation
+- Using Claude to help create short fun quiz questions to be used at events. A quiz can be a great way to increase engagement, enhance learning, foster interaction, and create memorable experiences that extend well beyond the event itself. An example here of the prompt and quiz questions [here](https://docs.google.com/document/d/1oWGsV-6nIEJ4psJ3a7v62qu4ywbkHvu-gwvbfbbLcfg/edit?tab=t.8n5nqsxu4dh30)
 
 ## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
@@ -589,7 +592,7 @@ Event assets utilized for shows (including backwalls, tablecloths, popup banners
 
 It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Brilliant portal will include return labels (one return label per box) in a red envelope adhered to the inside flap of the box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
 
-**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes. All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes (this includes stickers, please see [below](/handbook/marketing/field-marketing/#stickers) for more sticker information). All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
 
 ### Warehouse Address
 
@@ -600,7 +603,7 @@ Waukegan, IL 60085
 
 ### Stickers
 
-For sticker orders, please reach out to `@krogel` for details.
+For sticker orders, please reach out to `@krogel` for details. If all stickers are not utilized at an event, please keep the stickers with you for future events.
 
 ### Print Collateral
 
@@ -936,8 +939,9 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - FinServ | Beth Parker | `@BParker` | |
 | AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
-| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
-| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
+| AMER - West Coast and Southwest |  Amy Moy | `@amoy1` | |
+| AMER - LATAM  |  Amy Moy | `@amoy1` | |
+| AMER - Public Sector | Annatasia DeAngelis and Micaila Gardiner |  `@adeangelis1` `@micailagardiner` | |
 | APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
 | APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
 | APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
@@ -1080,9 +1084,9 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER FinServ| Beth Parker | Jay Bahar |
 | AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
 | AMER North and Canada | Julie Wyatt | Jay Bahar |
-| AMER West Coast | Lisa Rom | Lisa Cartagena |
-| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
-| AMER LATAM | Gabby Chorny | Rodrigo Rios |
+| AMER West Coast | Amy Moy | Lisa Cartagena |
+| AMER Public Sector | Annatasia DeAngelis and Micaila Gardiner | David LaTour |
+| AMER LATAM | Amy Moy | Rodrigo Rios |
 | APJ APAC | Kate Baker and Catherine Chien | SJ Lim |
 | APJ Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |

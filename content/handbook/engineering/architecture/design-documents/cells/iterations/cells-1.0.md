@@ -245,6 +245,8 @@ The table below is a comparison between the existing GitLab.com features, and no
 | Global search | Each cell will have an isolated search cluster. With Cells 1.0, global search will only work within the cell. See the [Cells: Global Search design document](../impacted_features/global-search.md) for more details. |
 | Paid subscription flows | CustomersDot relies on [path based](https://gitlab.com/gitlab-org/gitlab/-/issues/466369) and [OAuth token](https://gitlab.com/gitlab-org/gitlab/-/issues/465811) routing for Single Sign-On and fetching/updating data on GitLab. Without these, all requests from CustomersDot will go to the legacy Cell. |
 | Legacy CI_JOB_TOKEN | The legacy CI_JOB_TOKEN cannot be routed because it does not contain routing information, and can be passed in the request body. Customers will need use the JWT format in order to be able to utilise CI_JOB_TOKEN outside of the legacy cell. |
+| [OAuth Provider](https://docs.gitlab.com/integration/oauth_provider/) [OIDC Provider](https://docs.gitlab.com/integration/openid_connect_provider/) | OAuth/OIDC application provide a mechanism for third party and first party services to integrate to Gitlab. Since cross cell communication is limited in cells 1.0, we can not reliably implement Oauth applications |
+| Group SAML | Group SAML will not be available outside legacy cell [open issue for cell 1.5](https://gitlab.com/gitlab-org/gitlab/-/issues/443478)|
 
 ## Phases
 
@@ -374,6 +376,7 @@ Exit Criteria:
 - Framework to claim resources globally using TopologySerivce::Claims storing them in Google Spanner.
 - Following resources are claimable; Username, E-Mail, Top level Group Name, Routes
 - All resources that need to be claimed identified.
+- Unique indexes are audited, to not break any uniqueness required by application, and allows data migration.
 - Lease a sequence to a Cell using ToplogyService::Sequence.
 - Rails application able to send requests to TopologyService using internal network.
 - mTLS communication between TopologyService and HTTP Router.

@@ -26,7 +26,7 @@ We suggest each person attend via their own device to avoid [hybrid meetings](/h
 ### Steps to Request an AMA
 
 1. To request an AMA be put on the GitLab team meetings calendar, the requestor should find a date and time on the GitLab Team Meetings calendar that works for the AMA host.
-1. The requestor will slack [the EBA](/handbook/eba/) for their department in the `#group-conversations` Slack Channel and provide the following information:
+1. The requestor will slack [the EBA](/handbook/eba/) for their department in the `#eba-team` Slack Channel and provide the following information:
     - Title of AMA
     - Public or Private Livestream
     - Date & Time (YYYY-MM-DD PST)
@@ -44,7 +44,7 @@ We suggest each person attend via their own device to avoid [hybrid meetings](/h
 
 ### Host
 
-The Host of a Zoom call is the person leading the conversation, usually the [DRI](/handbook/company/group-conversations/#schedule--dri), subject matter expert, and overseer of any slides created for a call (another term for the role is Presenter).
+The Host of a Zoom call is the person leading the conversation, usually the DRI, subject matter expert, and overseer of any slides created for a call (another term for the role is Presenter).
 
 Questions will generally be directed to the Host, and they will usually answer them unless they feel that another team member has more information or expertise to offer. The Host/Presenter makes sure that questions are asked in the order they are listed in the agenda document.
 

@@ -27,7 +27,7 @@ We currently have two main areas of focus for Support Engineers:
    GitLab's platforms: gitlab.com, GitLab Dedicated or GitLab Self-Managed
 1. License and Renewals - helping customers with License and Renewals problems
 
-To view the team's current distribution among Areas of Focus, see our internal [Support Team info site](https://gitlab-support-readiness.gitlab.io/support-team/area-of-focus.html).
+To view the team's current distribution among Areas of Focus, see our internal [Support Team info site](https://gitlab-com.gitlab.io/support/team-pages/area-of-focus.html).
 
 During onboarding, your initial area of focus will be made clear.
 
@@ -274,7 +274,7 @@ Be sure to highlight notable incidents in your 1:1 notes doc.
 
 **What does success look like?**
 
-1. [Pairing sessions](https://gitlab.com/gitlab-com/support/support-pairing). You can see how you're doing on this [pairing summary page](https://gitlab-support-readiness.gitlab.io/support-team/pairings.html)
+1. [Pairing sessions](https://gitlab.com/gitlab-com/support/support-pairing). You can see how you're doing on this [pairing summary page](https://gitlab-com.gitlab.io/support/team-pages/pairings.html)
 1. Ask and answer questions in Slack. (We don't have a way to easily make this visible, but feel free to share things you're proud of with your manager in your 1:1 notes doc.)
 1. If you have volunteered to be a [Support Stable Counterpart](/handbook/support/#support-stable-counterpart), collaborate with the group(s) you are assigned to and share knowledge with the Support Team.
 1. There are many other ways you can collaborate. Make a note of your collaborations in your 1:1 notes doc.

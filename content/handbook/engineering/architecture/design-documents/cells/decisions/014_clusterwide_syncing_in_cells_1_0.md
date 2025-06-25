@@ -1,27 +1,27 @@
 ---
 owning-stage: "~devops::tenant scale"
-title: "Cells ADR 014: Clusterwide syncing for Cells 1.0"
+title: "Cells ADR 014: No clusterwide syncing for Cells 1.0"
 toc_hide: true
 ---
 
 ## Context
 
 In order for some features to work, the data for some
-[clusterwide](https://docs.gitlab.com/ee/development/cells/#choose-either-the-gitlab_main_cell-or-gitlab_main_clusterwide-schema)
 tables needs to be synchronized in some way to all cells.
 For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables do need to be the same across all cells.
 
 ## Decision
 
+1. There will be no application layer clusterwide synchronization in Cells 1.0.
 1. Static data tables, like `plans` do not need synchronization, but rather
    converted to be always consistent by being hard-coded in application code.
    A good example is
    [VisibilityLevel](https://gitlab.com/gitlab-org/gitlab/-/blob/5ae43dface737373c50798ccd909174bcdd9b664/lib/gitlab/visibility_level.rb#L25-27).
-1. Cluster Setting tables, like `application_settings` can be synchronized independently.
+1. Cell Setting tables, like `application_settings` can be set independently.
    An external source of truth like
    [Terraform](https://gitlab.com/gitlab-org/gitlab/-/issues/505685) will
    propogate the desired values for each [ring](../infrastructure/_index.md#rings) of cells.
-1. To support this synchronization, an internal API is required for each Cluster Setting
+   To support this, an internal API is required for each Cell Setting
    table.
 
 ## Pros
@@ -36,7 +36,7 @@ For example, the `plans`, `subscription_add_ons`, and `work_item_types` tables d
 
 ## Cons
 
-1. For Cluster settings, we will need to tolerate a small amount of time where
+1. For Cell settings, we will need to tolerate a small amount of time where
    there may be configuration drift.
 1. For Static data tables, there may be downstream services that depend on these
    data. So we will need to wait for an application change to fully propogate
@@ -49,7 +49,7 @@ An analysis of clusterwide tables was performed on 2025-01-13.
 The result is that we can categorized into 4 different types:
 
 1. Static data table. Tables which are constant / exactly the same for all cells.
-1. Cluster Setting table. Tables which host settings which needs to affect all
+1. Cell Setting table. Tables which host settings which needs to affect all
    cells.
 1. Organization / Cell table. Tables which may be better categorized as
    `gitlab_main_cell`.
@@ -58,14 +58,14 @@ The result is that we can categorized into 4 different types:
 
 This [section](#tables) lists the full list of tables to the different types.
 
-### Cluster Setting tables
+### Cell Setting tables
 
 #### application_settings
 
 See related issue: [issue 505685](https://gitlab.com/gitlab-org/gitlab/-/issues/505685).
 
 In short, we will use an external source of truth
-to synchronize each cell's Application Settings.
+to set each cell's Application Settings.
 
 As a migration step, we will need to first obtain the current values from
 the Legacy Cell, to copy to our external source of truth.
@@ -74,17 +74,18 @@ The external source of truth will then propgate the value to each ring.
 When creating a setting, developers need to ensure that the default for the
 setting will work correctly for any Cell.
 This applies especially when the new setting has not had a chance to be
-synchronized yet with the external source of truth.
+set by the external source of truth.
 
 #### broadcast_messages
 
-Similar to `application_settings`, broadcast messages will be synchronized by
+Similar to `application_settings`, broadcast messages will be configured by
 an external source of truth.
 
 The `broadcast_messages.id` column is referred to by the
 `user_broadcast_message_dismissals` table - it is used to record if a user has
-dismissed a broadcast message. To improve consistency, the synchronization may
-set the value of the `broadcast_messages.id` directly.
+dismissed a broadcast message.
+To improve consistency, the value of the `broadcast_messages.id` may be set
+directly via API.
 
 ### Static data tables
 
@@ -230,7 +231,7 @@ synchronize any user related data until Cells 1.5+
 
 This lists all clusterwide tables and its type.
 
-| Table                                                     | Static data table | Cluster Setting table | Organization/cell table | User table | Rows Present in new GDK |
+| Table                                                     | Static data table | Cell Setting table | Organization/cell table | User table | Rows Present in new GDK |
 |-----------------------------------------------------------|-----------------|------------------------|-------------------------|------------|-------------------------|
 | ai_feature_settings                                       |                 | Y                      | Maybe ?                 |            | N                       |
 | ai_settings                                               |                 | Y                      |                         |            | N                       |

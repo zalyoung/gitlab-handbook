@@ -86,8 +86,8 @@ The project owner is responsible for following the steps below to create the epi
 * **MDF Requested:**
 
 ## Program Tracking <!-- Delete if not receiving leads -->
-* [ ] [main SFDC campaign](tbd)
-* [ ] [main Marketo program](tbd)
+* [ ] main SFDC campaign (tbd)
+* [ ] main Marketo program (tbd)
 * [ ] [List clean and upload issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list)
 
 ## Existing Material/Assets/Presentations

@@ -340,11 +340,11 @@ The process to request the [legal team's involvement in partner contracts](/hand
 
 ## Partner Reporting and Tagging
 
-![Partner Reporting and Tagging](/images/sales/field-operations/channel-operations/image-5.png)
+![Partner Reporting and Tagging](/images/handbook/sales/field-operations/channel-operations/partner-reporting-2025.png)
 
 ### Definitions
 
-1. **Deal Path**: How the deal is transacted. Values can be Partner, Direct, Web Direct. _Note, Partner includes Referral and Influence opportunities_
+1. **Deal Path**: How the deal is transacted. Values can be Partner, Direct, Web Direct. _Note, Partner includes Referral opportunities_
 1. **Partner Sourced Deal Reg**: Partner submits a Registration for their sourced opportunity via the Partner Portal. For the purposes of this matrix the assumption is the Deal Reg is approved. If the deal is not Partner Sourced then Deal Reg does not apply
 1. **DR - Deal Type**: The type of Partner Sourced Deal Registration submitted by the Partner. Options include Resale, Referral, and MSP. _Note, this field will be blank if there is no Partner Source Deal Registration_
 1. **Initial Source**: SFDC Lead value that is populated based on lead source. Defaults to PQL (Partner Qualified Lead) when a Partner submits a Partner Sourced Deal Reg and an Opportunity does not already exist in the system
@@ -786,7 +786,7 @@ If an approver will not be able to approve opportunities due to PTO or some othe
 
 ## Letters of Authorization
 
-When a partner needs a Letter of Authorization ("LOA"), they must log into the partner portal and request one from the "Letter of Authorization" button along the top of the page. If a partner does not log in to the portal, they will not be able to access this request. This helps ensure that only authorized partners can access the link and request a LOA.
+When a partner needs a Letter of Authorization ("LOA"), they must log into the partner portal and request one from the “Request a Letter of Authorization” button on the “Common Requests” page. If a partner does not log in to the portal, they will not be able to access this request. This helps ensure that only authorized partners can access the link and request a LOA.
 
 The partner will be prompted to input basic company information that will auto-fill the LOA. Upon submission, the LOA will automatically be sent to the Ecosystem Operations team for review and confirmation that the entity requesting the LOA is a valid and authorized partner. Once appproved by Ecosystem Operations, the LOA will automatically be sent to the legal team who will approve and initial the LOA before sending it to GitLab's PAO for signature. Once signed, the LOA will be sent directly to the partner via email. The letter is good for one calendar year from the date on the letter.
 
@@ -812,7 +812,7 @@ Distributor and Reseller partners can access the [Partner Portal](https://partne
 
 ### How to Access and Share the Price Files (GitLab Team Member, Internal Use Only)
 
-When sharing a Channel Price File with a partner (either a distributor or reseller), please do NOT share the Channel Price File folder or file location. To share a price file, please direct the distributor or partner to log into the Partner Portal, click on Library and search "Price File". The partner will be able to access and download their most up-to-date Channel Price File via this route.
+When sharing a Channel Price File with a partner (either a distributor or reseller), please do NOT share the Channel Price File folder or file location. To share a price file, please direct the distributor or partner to log into the Partner Portal, select Asset Library in the menu and search “Price File”. The partner will be able to access and download their most up-to-date Channel Price File via this route.
 
 Price Files for internal use can be found [in this folder](https://drive.google.com/drive/folders/1L-wxZmmIOA4DiOX7vZnOpBsiyBaxVr6S).
 

@@ -123,7 +123,7 @@ If all of the automated checks succeed, the user will receive a set of [Verifica
 
 At this stage, do the following:
 
-1. If the account in question is a `FREE` account, add the `account-deletion::personal` label to the issue. If the account is tied to a paid namespace with a signed contract in Salesforce (a corporate request), add the `account-deletion::corporate` label to the issue. If the user has added comments in their form submission that reference lost 2FA or loss of access to the email address connected to the account, add the `RequestReason::lost_2fa` or `RequestReason::lost_access` labels, as appropriate.
+1. If the account in question is a `FREE` account, add the `account-deletion::personal` label to the issue. If the account is tied to a paid namespace with a signed contract in Salesforce (a corporate request), add the `account-deletion::corporate` label to the issue. If the user has added comments in their form submission that reference lost 2FA or loss of access to the email address connected to the account, add the `RequestReason::lost_2fa` or `RequestReason::lost_email_access` labels, as appropriate.
 1. Add the `Awaiting::Challenge Answers` label and wait for the user to reply with the answers to the questions. If they do not reply within **7** calendar days, proceed to [No Response](#no-response). If they do reply within 7 calendar days, proceed to [**Step 2:** Evaluate](#step-2-evaluate).
 
 ###### No Response
@@ -332,7 +332,7 @@ Proceed with processing the request by doing the following:
       <p>Regards,</p>
     </details>
 
-1. Create a new **confidential** issue in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new) using one of the following templates, depending on the request type, and populate the issue title with the email address of the original request:
+1. Create a new **confidential** issue in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new) using one of the following templates, depending on the request type:
 
    - [Deletion Meta Issue - Full](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Full) for **Full Deletion** requests.
 

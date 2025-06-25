@@ -103,7 +103,7 @@ Some **internal** methods for communication include:
 
 - Sharing the updates various product-based Slack channels such as: `#product`, `#s_`, `#g_`, or `#f_` Slack channels
 - Cross-posting changes in direction or categories into #customer-success and if they impact [use cases](/handbook/marketing/use-cases/) tag `@cs-leadership` for awareness
-- Recording a quick video and sharing with Customer Success that discusses direction updates. Use sync meetings [as needed](/handbook/company/culture/all-remote/asynchronous/#when-to-start-synchronous-first) to facilitate efficient communication.
+- Recording a quick video and sharing with Customer Success that discusses direction updates. Use sync meetings [as needed](/handbook/company/culture/all-remote/asynchronous/#when-to-start-synchronously) to facilitate efficient communication.
 - [Collaborate with the Field Communications team](/handbook/sales/field-communications/#field-communications-playbook) to determine if a larger internal communications plan/approach is necessary for the Field (Sales, Customer Success, Channel & Alliances) team.
 - Aggregating and sharing highlights of monthly direction page updates at the Section-level across the organization
 
@@ -116,7 +116,7 @@ Some **internal** methods for communication include:
 
 ### Writing to inspire action
 
-As a PM, it is important to remember a [bias towards action](/handbook/values/#operate-with-a-bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), [make two way doors decisions](/handbook/values/#make-two-way-door-decisions) and [accepting uncertainty](/handbook/values/#accepting-uncertainty)
+As a PM, it is important to remember a [bias towards action](/handbook/values/#operate-with-a-bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), and [make two way doors decisions](/handbook/values/#make-two-way-door-decisions)
 which enables PMs to drive an async discussion to being action oriented. Every time you write a comment or create an issue ask yourself: Will this allow us to take an action and move us forward?
 
 ### Writing about features
@@ -312,7 +312,7 @@ Please also note the corresponding [Engineering handbook section](/handbook/engi
 
 #### Prioritization sessions
 
-To help PMs plan, stage group stable counterparts can participate in prioritization sessions. They serve mainly as an [internal sensing mechanism](/handbook/product/product-processes/sensing-mechanisms/#internal/) for PMs to make more informed prioritization decisions for different planning horizons. Usually, teams focus on the _product releases_ horizon, but can also focus on the _FY themes_ or _strategy_ horizons. This group exercise also boosts team morale, improves communication and empathy, and broadens individual's perspectives. Besides, it can be a more informal and joyful way of connecting the team and discussing work.
+To help PMs plan, stage group stable counterparts can participate in prioritization sessions. They serve mainly as an [internal sensing mechanism](/handbook/product/product-processes/sensing-mechanisms/#internal) for PMs to make more informed prioritization decisions for different planning horizons. Usually, teams focus on the _product releases_ horizon, but can also focus on the _FY themes_ or _strategy_ horizons. This group exercise also boosts team morale, improves communication and empathy, and broadens individual's perspectives. Besides, it can be a more informal and joyful way of connecting the team and discussing work.
 
 The output of these sessions is a [priority matrix](https://www.nngroup.com/articles/prioritization-matrices/) that shows the relative priority of a set of items based on two weighted criteria. Generally, the criteria are _importance_ and _feasibility_, each one visualized as an axis of the matrix. You can change the criteria depending on the planning horizon or goals. To better understand how the sessions work, see an example [mural](https://app.mural.co/t/gitlab2474/m/gitlab2474/1644233739498/018f4f87c17c9a8e7ecf1d8ce2834a72c4d8e34b) and [session recording](https://youtu.be/xgeXUEzOpUY).
 
@@ -478,7 +478,7 @@ Other resources PMs can consult to identify and prioritize Infradev issues inclu
 - The weekly triage report emailed to PMs [now includes infradev items](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/661) to prevent missing SLOs.
 - [Largest Contentful Paint](/handbook/engineering/development/performance-indicators/#largest-contentful-paint-lcp) metrics to monitor application performance.
 
-While not required, PMs are encouraged to listen in on [Incident Management](/handbook/engineering/infrastructure/incident-management/#incident-management) calls for incidents related to their product areas to 1) build empathy with the SRE team by gaining insight into how they handle incidents 2) gain a better sense of the impact of the incident to their customer base, and 3) identify improvements to their product areas, whether technical or feature-related, that could have prevented the incident. PMs are not expected to be in the decision-making path on actions taken to resolve the incident. They are there to listen and learn rather than attempting to decide/influence the course of resolution. After incidents involving their product area, PMs are also encouraged to engage in the [Incident Review](/handbook/engineering/infrastructure/incident-review/), including attendance at the [Sync Incident Review](/handbook/engineering/infrastructure/incident-review/#synchronous-review-meeting-sessions) call if their incident is scheduled. PMs can periodically review incidents via the [Production Incident Board](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name%5B%5D=incident)
+While not required, PMs are encouraged to listen in on [Incident Management](/handbook/engineering/infrastructure/incident-management/#incident-management) calls for incidents related to their product areas to 1) build empathy with the SRE team by gaining insight into how they handle incidents 2) gain a better sense of the impact of the incident to their customer base, and 3) identify improvements to their product areas, whether technical or feature-related, that could have prevented the incident. PMs are not expected to be in the decision-making path on actions taken to resolve the incident. They are there to listen and learn rather than attempting to decide/influence the course of resolution. After incidents involving their product area, PMs are also encouraged to engage in the [Incident Review](/handbook/engineering/infrastructure-platforms/incident-review/), including attendance at the [Sync Incident Review](/handbook/engineering/infrastructure-platforms/incident-review/) call if their incident is scheduled. PMs can periodically review incidents via the [Production Incident Board](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name%5B%5D=incident)
 
 #### Enterprise Customer Needs
 
@@ -969,7 +969,6 @@ on these artifacts via these (non-exhaustive) opportunities:
 - [Meet with customers directly.](#customer-meetings)
 - Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/).
 - Talk with GitLab team-members using GitLab.
-- Talk with GitLab team-members in [group conversations](/handbook/company/group-conversations/).
 - Talk with other PMs and [Product leadership](/handbook/product/product-leaders/product-leadership/) to align your stage's product direction with the rest of GitLab.
 
 Here is some guidance for new PMs to ensure your stage direction, category strategies and plan
@@ -1356,7 +1355,7 @@ Product Managers should also regularly assess the performance and cost of featur
 There are a few different tools PM's can utilize to understand the operational costs of their features. Some of these are maintained by Infrastructure, based on the operational data of GitLab.com. Others tools, like service ping, can be utilized to better understand the costs of our self-managed users. Ultimately, each product group is responsible for ensuring they have the data needed to understand and optimize costs.
 
 - Useful Dashboards to Visualize Infrastructure Costs:
-- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) required)
+- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) required)
 - [Service ping](https://docs.gitlab.com/development/internal_analytics/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 

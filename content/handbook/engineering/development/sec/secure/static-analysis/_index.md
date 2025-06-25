@@ -237,18 +237,18 @@ If there is any question of whether a bug fix or improvement should be taken up 
 
 When a [Customer Success Escalation](/handbook/customer-success/csm/escalations/) is declared, the Engineering Manager and Product Manager should both be alerted, and an appropriate team member should be designated to deprioritize existing work and respond to the escalation as soon as possible.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/MRMetrics/OverallMRsbyType_1" >}}
   {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/MonthlyFlakyTestIssues" >}}
   {{< tableau/filters "GROUP_NAME"="static analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
 {{< /tableau >}}

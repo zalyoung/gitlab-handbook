@@ -12,7 +12,8 @@ As a Support Engineer at GitLab, the majority of your time will be focused on he
 While working through various customer problems, you may need help. We have a wide and talented team that can help you at many levels:
 
 - Managers: If your problem is related to process, or understanding direction, or cross-team collaboration, consider talking to your direct manager, or another manager whom may be working more directly on that problem. Managers in Support Engineering should be able to point you in the right direction and enable you to find the right help.
-- Senior/Staff Support engineers: If your problem is debugging related, consider reaching out to a Senior+ Engineer. At the Senior+ level, engineers are expected to be acting as mentors, and technical experts. See our [Mentoring page for more information about how Senior+ Engineers are expected to help](/handbook/support/engineering/mentorship)
+- Senior/Staff Support engineers: If your problem is debugging related, consider reaching out to a Senior+ Engineer. At the Senior+ level, engineers are expected to be acting as mentors, and technical experts. See our [Mentoring page for more information about how Senior+ Engineers are expected to help](/handbook/support/engineering/mentorship).
+- [How to get help workflow](/handbook/support/workflows/how-to-get-help/) provides more details on getting help when working on a ticket.
 
 ### Zendesk Instances
 
@@ -32,7 +33,7 @@ We recommend reviewing the best practices and suggestions for [styling and respo
 
 Just as Support team members are expected to adhere to GitLab's [Code of Conduct](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/), we also expect customers to treat the Support Team with the same level of respect. The [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) outlines the standards to which we hold the wider GitLab Community.
 
-If you notice a ticket where you believe the customer to be violating the Code of Conduct, please tag the [Manager On-Call](/handbook/support/on-call/#manager-on-call) to respond with the following guidelines in our [Statement of Support](https://about.gitlab.com/support/general-policies/#please-dont-use-language-intended-to-threaten-or-harass).
+If you notice a ticket where you believe the customer to be violating the Code of Conduct, please tag the [Manager On-Call](/handbook/support/on-call/#engaging-the-on-call-manager) to respond with the following guidelines in our [Statement of Support](https://about.gitlab.com/support/general-policies/#please-dont-use-language-intended-to-threaten-or-harass).
 
 ### Support Team Contributions
 
@@ -69,7 +70,7 @@ end of each week with a list of support team contributions merged in the past we
 - [Insomnia](https://insomnia.rest/) - Build, debug, and test API queries, and generate the code for them
 - [iTerm2](https://iterm2.com/) (macOS) - Terminal emulator with robust theming and customization options
 - [Itsycal](https://www.mowglii.com/itsycal/) (macOS) - Menu bar calendar with more flexibility than the system widget
-- [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker
+- [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker. **Note:** configure with [local server](https://dev.languagetool.org/http-server)
 - [Obsidian](https://obsidian.md/) - Super customizable markdown notetaking app with tons of themes and addons
 - [Raycast](https://www.raycast.com/) (macOS) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more
 - [Zed](https://zed.dev/) - Lightweight but powerful IDE
@@ -84,4 +85,3 @@ end of each week with a list of support team contributions merged in the past we
 - GitLab Web Debugger - Aides in identifying the root cause of page load errors on GitLab.com and internal GitLab instances ([Chrome](https://gitlab.com/gitlab-com/gl-infra/gitlab-web-debugger))
 - [Zendesk Quicktab](https://support.zendesk.com/hc/en-us/articles/6443360776346-Installing-the-Quicktab-Google-Chrome-extension) - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/quicktab-for-zendesk-by-t/hhbimbckgheipimadcknkfogegmpoibj))
 - Calendly Meeting Scheduling Software - ad-hoc meetings, one-click booking ([Chrome](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp))
-- GitLab Screen share mode - allows to hide confidential information on your GitLab screen ([Chrome](https://gitlab.com/leipert-projects/gitlab-screen share-mode#chrome)/[Firefox](https://gitlab.com/leipert-projects/gitlab-screen share-mode#firefox))

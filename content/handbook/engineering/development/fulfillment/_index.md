@@ -510,7 +510,7 @@ The following list contains some of the standard departments and teams who shoul
 - IT Helpdesk
 - Support Team
 
-When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Deployment
 
@@ -805,7 +805,6 @@ This table lists recurring activities that are part of our Project Management Pr
 | [Monthly Release Posts](/handbook/marketing/blog/release-posts/)                                                                         | Monthly      | Async | Product and Marketing Functions                                 |
 | [Milestone Planning](/handbook/engineering/development/fulfillment/#planning)                                                            | Monthly      | Async | Fulfillment Utilization,, Provision, and InfraDev Groups |
 | [Roadmap Planning](https://about.gitlab.com/direction/fulfillment/#roadmap)                                                                                      | Monthly      | Sync  | Fulfillment PMs, EMs, QEMs, UXMs                                |
-| [Monthly Product Kickoffs](/handbook/product/product-processes/#kickoff-meetings)                                                        | Monthly      | Sync  | Product Function                                                |
 | [Retrospective Issue](https://gitlab.com/gl-retrospectives/fulfillment/-/issues/)                                                                                | Monthly      | Async | Fulfillment Section                                             |
 | [Retrospective Discussion](https://docs.google.com/document/d/1eL1QLtIGGxqYfaVQXIWhxAUvqTMw1OQLVQ68ZYib40g/edit)                                                 | Monthly      | Sync  | Fulfillment Section                                             |
 | [Direction Review](https://about.gitlab.com/direction/fulfillment/)                                                                                              | Quarterly    | Async | Fulfillment PMs, Product Leadership                             |

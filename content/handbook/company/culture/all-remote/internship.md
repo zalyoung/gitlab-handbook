@@ -77,7 +77,7 @@ Remote internships are fertile ground for communication breakdowns. Intentionall
 
 ### Creating good communication
 
-There is much to glean from [GitLab's approach to meetings](meetings/), and a well-organized internships will also incorporate communication strategies such as [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews).
+There is much to glean from [GitLab's approach to meetings](meetings/), and a well-organized internships will also incorporate communication strategies such as [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-and-key-reviews).
 
 ### Creating psychological safety
 

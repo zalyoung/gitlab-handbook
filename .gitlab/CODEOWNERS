@@ -63,7 +63,6 @@
 /content/handbook/company/quote-to-cash.md @justinfarris @ppalanikumar @tgolubeva @courtmeddaugh @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @juliemalloy @annapiaseczna @simon-mundy @msubramanian
 /content/handbook/company/stewardship.md @bill_staples
 /content/handbook/company/strategy.md @bill_staples
-/content/handbook/company/group-conversations.md @streas
 /content/handbook/leadership/ @bill_staples @streas
 /content/job-families/board-of-directors/ @bill_staples @robin
 /content/job-families/chief-executive-officer @bill_staples @streas
@@ -115,7 +114,7 @@
 /content/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
 /content/handbook/engineering/data-engineering/analytics/monitor/platform-insights.md @dennis @nicholasklick
 /content/handbook/engineering/data-engineering/analytics/monitor/optimize.md @dennis @blabuschagne
-/content/handbook/engineering/ai/data-science/ @timzallmann 
+/content/handbook/engineering/ai/data-science/ @timzallmann
 /content/handbook/engineering/ai/search/ @changzhengliu
 /content/handbook/engineering/ai/code-creation/ @mnohr @jordanjanes
 /content/handbook/engineering/ai/editor-extensions/ @dashaadu @kisha.mavryck
@@ -189,8 +188,9 @@
 /content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
 /content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
 /content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
-/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin
+/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @marin @amyphillips
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/ @marin @mbursi @dawsmith @plu8 @denisra
+/content/handbook/engineering/infrastructure-platforms/production-engineering/ @marin @rnienaber @lmcandrew @kkyrala @sabrams
 /content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
@@ -198,11 +198,10 @@
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ @marin @denisra @plu8
-/content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
-/content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/service-maturity-model.md @rnienaber @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/team/ @marin
 /content/handbook/engineering/infrastructure/team/dei.md @andrewn
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/ @marin @amyphillips
@@ -210,7 +209,6 @@
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard.md @ashiel @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services.md @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @lmcandrew @marin
-/content/handbook/engineering/infrastructure/team/ops/ @kkyrala @rnienaber @marin
 /content/handbook/engineering/monitoring/ @marin @sabrinafarmer
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
@@ -218,7 +216,7 @@
 
 ^[Eng-Developer-Experience-department]
 /content/handbook/engineering/automation.md @rymai @marin
-/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @ksvoboda @mgamea @marin
+/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @mgamea @marin @amyphillips
 /content/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/ @ghosh-abhinaba
 /content/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/ @mgamea
 /content/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ @kkolpakova
@@ -313,8 +311,8 @@
 ^[marketing]
 /content/handbook/marketing/ @bill_staples
 /content/handbook/marketing/account-based-marketing/ @megan_odowd @marcigee
-/content/handbook/marketing/blog/ @dsteer @Sgittlen
-/content/handbook/marketing/blog/release-posts/  @justinfarris @dsteer @Sgittlen
+/content/handbook/marketing/blog/ @Sgittlen @bill_staples
+/content/handbook/marketing/blog/release-posts/ @justinfarris @Sgittlen @bill_staples
 /content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @meilynda @ttran5 @kparisi
 /content/handbook/marketing/channel-marketing/ @laurafagan
 /content/handbook/marketing/corporate-communications/ @cweaver1 @bill_staples
@@ -324,9 +322,9 @@
 /content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @meilynda @ttran5 @kparisi
 /content/handbook/marketing/developer-relations/ @esalvadorp @bill_staples
 /content/handbook/marketing/developer-relations/cocreate/ @esalvadorp @nick_vh @stingrayza
-/content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @nick_vh @daniel-murphy @janasenap
-/content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @nick_vh @daniel-murphy @janasenap
-/content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp @nick_vh @daniel-murphy @janasenap
+/content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @nick_vh @daniel-murphy
+/content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @nick_vh @daniel-murphy
+/content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp @nick_vh @daniel-murphy
 /content/handbook/marketing/developer-relations/community-programs/startups-program/ @esalvadorp
 /content/handbook/marketing/developer-relations/contributor-success/ @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 /content/handbook/marketing/developer-relations/developer-advocacy/ @dnsmichi @johncoghlan @sugaroverflow @waarias @csaavedra1 @fjdiaz @iganbaruch
@@ -336,7 +334,7 @@
 /content/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification.md @nick_vh @johncoghlan
 /content/handbook/marketing/developer-relations/technical-marketing/ @johncoghlan @csaavedra1 @fjdiaz @iganbaruch
 /content/handbook/marketing/developer-relations/workflows-tools/ @dnsmichi @johncoghlan @sugaroverflow @waarias
-/content/handbook/marketing/digital-experience/ @fqureshi @laurenbarker
+/content/handbook/marketing/digital-experience/ @fqureshi @de_fraz @Tinaliseng 
 /content/handbook/marketing/emergency-response.md @rkohnke @amy.waller @bill_staples
 /content/handbook/marketing/events/ @bill_staples
 /content/handbook/marketing/growth/ @gdoud @bill_staples
@@ -345,7 +343,7 @@
 /content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @bill_staples
 /content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @ncregan @hsmith-watson @bill_staples
 /content/handbook/marketing/inbound-marketing/search-marketing/testing.md @bill_staples
-/content/handbook/marketing/journeys.md @dsteer @bill_staples
+/content/handbook/marketing/journeys.md @bill_staples
 /content/handbook/marketing/lifecycle-marketing/ @aklatzkin @bstallings
 /content/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @bstallings
 /content/handbook/marketing/localization/ @djsulliv
@@ -353,13 +351,13 @@
 /content/handbook/marketing/marketing-enablement.md  @justinfarris
 /content/handbook/marketing/marketing-operations/ @christinelee @amy.waller
 /content/handbook/marketing/marketing-strategy-and-platforms.md @christinelee @bill_staples
-/content/handbook/marketing/positioning-faq.md @dsteer @bill_staples
+/content/handbook/marketing/positioning-faq.md @bill_staples
 /content/handbook/marketing/project-management-guidelines/ @johncoghlan
 /content/handbook/marketing/readmes/ @bill_staples
 /content/handbook/marketing/readmes/michael-friedrich.md @dnsmichi
 /content/handbook/marketing/sales-development/ @jlarramendy @bill_staples
-/content/handbook/marketing/sales-plays-cicd/ @dsteer
-/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @dsteer
+/content/handbook/marketing/sales-plays-cicd/ @bill_staples
+/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @bill_staples
 /content/handbook/marketing/strategy-performance/ @vhempel @bill_staples
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
@@ -369,29 +367,29 @@
 /content/job-families/expert/merge-request-coach.md @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 
 ^[Marketing-Brand-and-Product-Marketing]
-/content/handbook/marketing/brand-and-product-marketing/ @dsteer @rclayman @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/brand/ @dsteer @rclayman @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/ @rclayman @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/brand/ @rclayman @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/brand/brand-activation/ @luke @amittner
-/content/handbook/marketing/brand-and-product-marketing/content/ @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/design.md @dsteer @amittner @luke @monica_galletto @vicbell @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/ @dsteer @jkempton
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ @nicolecsmith @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @dsteer @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/mrnci.md @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/ @iganbaruch @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @waarias @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @waarias @dsteer
-/content/handbook/marketing/use-cases.md @dsteer
+/content/handbook/marketing/brand-and-product-marketing/content/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/design.md @amittner @luke @monica_galletto @vicbell @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/ @jkempton @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ @nicolecsmith @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/mrnci.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/ @iganbaruch @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @waarias @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @waarias @bill_staples
+/content/handbook/marketing/use-cases.md @bill_staples
 
 ^[Marketing-Integrated-Marketing]
 /content/handbook/marketing/field-marketing/ @laurafagan
@@ -450,13 +448,13 @@
 /content/handbook/product/groups/fulfillment-guide.md @courtmeddaugh
 /content/handbook/product/groups/product-analysis/ @cbraza @justinfarris
 /content/handbook/product/groups/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
-/content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/product/ @david @vkarnes @mflouton @justinfarris @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-design-management.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-designer.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-management-leadership.md @david @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-manager.md @david @justinfarris @mflouton @fzimmer @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/technical-writer.md @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
 /content/job-families/product/technical-writing-manager.md @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
 /content/job-families/product/ux-fullstack-engineer.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
@@ -465,11 +463,14 @@
 /content/job-families/product/ux-researcher.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 
 [product-ai]
-/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites @david
 
 ^[product-dev-flow]
 /content/handbook/product-development/ @david @sabrinafarmer
-/content/handbook/product-development/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @hbenson @mflouton @fzimmer
+/content/handbook/product-development/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @mflouton @fzimmer
+
+^[Product Design]
+/content/handbook/product/ux/product-design/design-studios.md @pedroms
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
@@ -478,7 +479,7 @@
 /content/handbook/sales/account-planning/ @lschoenfeld @monicaj @isteward
 /content/handbook/sales/build-value-with-customers.md @isteward
 /content/handbook/sales/club/ @kdemarest @kagarrett
-/content/handbook/sales/command-of-the-message/ @dsteer @isteward
+/content/handbook/sales/command-of-the-message/ @isteward @bill_staples
 /content/handbook/sales/commercial/ @bcaller @MDines @carolynharding @isteward
 /content/handbook/sales/commissions/ @isteward
 /content/handbook/sales/faq-from-prospects.md @isteward
@@ -501,17 +502,17 @@
 /content/handbook/sales/insidesales.md @isteward
 /content/handbook/sales/it-agility-director-interview.md @isteward
 /content/handbook/sales/manager-operating-rhythm/ @isteward
-/content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @monicaj 
+/content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @monicaj
 /content/handbook/sales/meddppicc.md @jblevins608
-/content/handbook/sales/negotiate-to-close.md @monicaj 
-/content/handbook/sales/onboarding/ @jblevins608 
-/content/handbook/sales/playbook/ @monicaj 
+/content/handbook/sales/negotiate-to-close.md @monicaj
+/content/handbook/sales/onboarding/ @jblevins608
+/content/handbook/sales/playbook/ @monicaj
 /content/handbook/sales/prospecting.md @monicaj @isteward
 /content/handbook/sales/public-sector.md @isteward
 /content/handbook/sales/qbrs/ @shannonthompson @monicaj
 /content/handbook/sales/qualification-questions.md @isteward
 /content/handbook/sales/readmes/ @isteward
-/content/handbook/sales/revenue-programs.md @dsteer
+/content/handbook/sales/revenue-programs.md @bill_staples
 /content/handbook/sales/sales-google-groups/ @monicaj @shannonthompson
 /content/handbook/sales/sales-meetings.md @monicaj @isteward
 /content/handbook/sales/sales-operating-procedures/ @isteward
@@ -561,8 +562,10 @@
 /content/handbook/security/standards/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[solutions-architects]
-/content/handbook/solutions-architects/ @jfullam 
+/content/handbook/solutions-architects/ @jfullam
 /content/handbook/solutions-architects/sa-practices/value-stream-discovery/ @simon_mansfield @reshmikrishna @jfullam
+/content/handbook/solutions-architects/center-of-excellence/ @poffey21 @lfstucker @sjigjinni
+
 
 ^[support]
 /content/handbook/support/ @gitlab-com/support
@@ -625,7 +628,7 @@
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
-/content/handbook/company/working-groups/ai-integration.md @hbenson @timzallmann @tmccaslin
+/content/handbook/company/working-groups/ai-integration.md @timzallmann @tmccaslin @david
 /content/handbook/company/working-groups/api-vision.md @g.hickman @arturoherrero @timzallmann
 /content/handbook/company/working-groups/clickhouse-datastore.md @sgoldstein @nhxnguyen @nicolewilliams
 /content/handbook/company/working-groups/cross-functional-prioritization.md @vkarnes @sabrinafarmer @justinfarris
@@ -694,7 +697,7 @@
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/corporate/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @rallen3 @emilyplotkin @bill_staples @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @rallen3 @kiacobucci @gitlab-com/egroup @gitlab-com/content-sites

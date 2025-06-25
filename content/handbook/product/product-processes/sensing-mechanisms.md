@@ -6,7 +6,7 @@ title: Sensing Mechanisms
 
 Our ability to iterate quickly is a measure of our efficiency, but our effectiveness
 is just as critical. As a product manager you are critical to us not just working correctly,
-but working on the correct things. You do that by [prioritizing appropriately](/handbook/product/product-processes/#prioritization/). Your
+but working on the correct things. You do that by [prioritizing appropriately](/handbook/product/product-processes/#prioritization). Your
 prioritization decisions will be enhanced if you maintain a sufficient understanding of the
 context in which you make them.
 
@@ -45,7 +45,7 @@ In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 
 ### Market
 
-1. Maintaining [competitive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [market assessments](/handbook/product/product-processes/#analyst-engagement/). Checkout this [great video](https://www.youtube.com/watch?v=Um9teDD6jt8&feature=youtu.be&t=300) discussing competitive analysis for Product Managers at Product League with GitLab's Orit Golowinski.
+1. Maintaining [competitive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [market assessments](/handbook/product/product-processes/#analyst-engagement). Checkout this [great video](https://www.youtube.com/watch?v=Um9teDD6jt8&feature=youtu.be&t=300) discussing competitive analysis for Product Managers at Product League with GitLab's Orit Golowinski.
 1. Monitoring and maintaining missing [features](https://about.gitlab.com/features/) in your category epics (competitive landscape section)
 1. Monitoring and maintaining the [direction](https://about.gitlab.com/direction/) page for the categories you own
 1. Subscribing to your competitor's blogs to be aware of what they are releasing will help you here

@@ -52,7 +52,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 
 ### Work impacted by SIRT incidents
 
-When SIRT incidents happen, this has an impact on our capacity. To evalute that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
+When SIRT incidents happen, this has an impact on our capacity. To evaluate that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
 
 ### Dogfooding
 
@@ -73,7 +73,7 @@ The effort classification is an estimate of the level of effort required to reso
 | AppSecWeight::trivial | 1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
 | AppSecWeight::small  | 2 | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
 | AppSecWeight::medium | 3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
-| AppSecWeight::large | 5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
+| AppSecWeight::large | 5 | Large | Significant investigation and collaboration needed | ~3-5 days | |
 | AppSecWeight::XLarge | 8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
 | AppSecWeight::Needs Refinement | 13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A | |
 
@@ -96,35 +96,6 @@ These labels indicate the current status of the issue.
 #### Who assigns this label and when?
 
 The AppSec Engineer responsible for the task is expected to assign this label to an issue when work on the issue is started or completed.
-
-## Key Performance Indicators
-
-These metrics track our team's capacity to handle critical security workloads.
-
-### Merge Request Review Coverage Rate
-
-This KPI tracks our ability to review security-relevant merge requests that introduced a vulnerability, with or without prior security review. It is tracked through a security review miss rate that we target to get as close to 0% as possible, as that would mean that any merge request that was reviewed by the application security team did not end up introducing a vulnerability.
-
-#### How It's Measured
-
-1. __Merge Request Classification Requirements__
-   - `AppSecWorkType::VulnFixVerification` must be applied to security fix verification Merge Requests
-   - `AppSecWorkType::SecurityMRReview` must be applied to all other security code reviews, including those performed during triage rotation or as part of the stable counter part MR review.
-
-2. __Vulnerability Source Tracking__
-   - Apply `appsec-kpi::vulnerability-introduced` label to Merge Requests identified as introducing vulnerabilities
-
-#### Calculation Method
-
-```text
-`Security Review Miss Rate` = (Merged Vulnerability-introducing Merge Requests with Application Security review / Total vulnerability-introducing Merge Requests) * 100
-```
-
-Where:
-
-- Total vulnerability-introducing Merge Requests = Merge Requests labeled with `appsec-kpi::vulnerability-introduced`
-- Vulnerability-introducing Merge Requests _without_ Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking both `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
-- Merged Vulnerability-introducing Merge Requests with Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests with either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
 
 ## FAQ
 

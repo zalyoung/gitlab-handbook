@@ -13,7 +13,7 @@ For content for positioning the value of the tiers, how to price/quote the tiers
 
 ### Overview
 
-Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support. We achieve this by bundling an [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/), [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/)/[Customer Success Manager (CSM)](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm-at-gitlab) and Education services into a single SKU as an annual renewable service.
+Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support. We achieve this by bundling an [Assigned Support Engineer (ASE)](/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/), [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/)/[Customer Success Manager (CSM)](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm-at-gitlab) and Education services into a single SKU as an annual renewable service.
 
 The [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer and is included with the Signature Tier. Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
 

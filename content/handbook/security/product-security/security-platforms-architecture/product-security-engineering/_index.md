@@ -7,7 +7,7 @@ aliases:
 
 ## Product Security Engineering Mission
 
-As part of the Product Security department, and sibling to the Application Security sub-department, our mission is to:
+As part of the Product Security department, and sibling to the Application Security sub-department, our mission [since September 2023](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/627) is to:
 
 - Enhance security along the software development lifecycle by creating ["paved roads"](https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5)
 - Contribute product-first code that enhances the security of GitLab's software assets

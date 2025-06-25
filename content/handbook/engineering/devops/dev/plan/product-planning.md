@@ -12,11 +12,11 @@ For more details about the vision for this area of the product, see the
 
 ### Team members
 
-{{% team-by-manager-role "Fullstack Engineering Manager(.*)Plan:Product Planning" %}}
+{{< team-by-manager-role role = "Engineering Manager(.*)Plan:Product Planning" team = "Product Planning">}}
 
 ### Stable counterparts
 
-{{% engineering/stable-counterparts manager-role="Fullstack Engineering Manager(.*)Plan:Product Planning" role="(.*)Plan:Product Planning$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
+{{% engineering/stable-counterparts manager-role="Engineering Manager(.*)Plan:Product Planning" role="Product Planning|Security(.*)Plan|Principal(.*)Plan$" %}}
 
 ### Hiring chart
 
@@ -297,5 +297,3 @@ When you pick something to work on, please:
 - [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
 - [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0)
 - [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
-- [Group Conversations](https://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
-  [section level](/handbook/company/structure/#organizational-structure))

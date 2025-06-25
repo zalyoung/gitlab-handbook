@@ -257,7 +257,7 @@ Steps:
 - Obtain approval for the overall plan and expected impact from:
   - Director of SRE, Infrastructure
   - VP of Infrastructure & Quality
-  - Director of Support, Global Readiness
+  - VP of Support
   - [Release Managers](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#reaching-our-team)
 - 1 month before the change at least (if possible):
   - Ask our CSMs in our `#customer-success` Slack channel about their preferences on how to communicate this change to our main customers:

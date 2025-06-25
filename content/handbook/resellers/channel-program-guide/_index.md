@@ -3,7 +3,7 @@ title: "GitLab Channel Program Guide"
 description: "GitLab Channel partner program guide."
 ---
 
-**We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
+**We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/partner/registration).**
 
 ## GitLab Channel Partner Program & Guide
 
@@ -120,7 +120,7 @@ Each PSP must be:
 GitLab Partner program will review the service attach registrations and the practitioner certification statuses of each GitLab Professional Service Partner each year in the quarter the partner was originally granted certification. Partners at risk for non-compliance will receive an audit warning email 30 days prior to their removal of their PSP designation. This will allow partners and their account managers time to create a plan to return to compliance.
 
 - If partners become compliant during the 30-day warning period, they will not have their PSP designation removed.
-- If partners remain ineligible after the 30-day warning period, their PSP designation will be removed, their PSP badge will no longer be shown on the partner locator, and they will be notified through email. Partners are encouraged to work with their GitLab Partner Account Manager (PAM) to create a plan for obtaining and maintaining designation. When a partner regains PSP eligibility, their badge will be re-issued within 7 business days.
+- If partners remain ineligible after the 30-day warning period, their PSP designation will be removed, their PSP badge will no longer be shown on the partner locator, and they will be notified through email. Partners are encouraged to work with their GitLab Ecosystem Sales Manager (ESM) to create a plan for obtaining and maintaining designation. When a partner regains PSP eligibility, their badge will be re-issued within 7 business days.
 
 ## Contact Us
 

@@ -26,8 +26,9 @@ To contact the entire team in a GitLab issue or MR, use `@gl-docsteam`.
 The team manages general documentation-related and team-specific Slack channels:
 
 - `#docs`: Questions and general discussion about GitLab documentation, and requests by GitLab team members for doc and UI text reviews.
+- `#docs-engineering`: Discussion about the Docs website and other engineering projects.
 - `#docs-processes`: Discussion about documentation processes.
-- `#docs-tooling`: Discussion about documentation tooling and the `docs-gitlab-com` project.
+- `#docs-tooling`: Discussion about documentation tooling.
 - `#docs-site-changes-hugo`: Automated messages from the [`docs-gitlab-com`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project.
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
@@ -244,10 +245,10 @@ For collaboration in other projects and subjects:
 |:--------------------------------------------------------------------------------     |:--------------------------|
 | The documentation site                                                               | {{< member-by-name "Diana Logan" >}} |
 | The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
-| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
-| [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
-| [Left nav](https://docs.gitlab.com/development/documentation/site_architecture/global_nav/) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
-| [Testing](#testing) (DocOps/Vale/markdownlint)                                       | {{< member-by-name "Fiona Neill" >}} |
+| The documentation's information architecture | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} {{< member-by-name "Suzanne Selhorn" >}} |
+| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} |
+| [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} |
+| [Testing](#testing) (DocOps/Vale/markdownlint)                                       | {{< member-by-name "Michael Belton" >}} |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs

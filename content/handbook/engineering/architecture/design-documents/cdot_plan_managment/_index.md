@@ -86,46 +86,39 @@ erDiagram
   "ProductRatePlan" ||--|{ "ProductRatePlanCharge" : "has many"
   "ProductRatePlanCharge" ||--|{ "ProductRatePlanChargeTier" : "has many"
 
-  "Product" {
-    enum Tier__c "Zuora custom field"
-    enum DeploymentType__c "Zuora custom field"
-  }
-
   "ProductRatePlan" {
     jsonb custom_fields "Local storage for all *__c fields"
     %% Fields stored within custom_fields JSONB:
-    boolean CDotAccessible__c "→ in custom_fields"
-    boolean CDotManageable__c "→ in custom_fields"
-    boolean CDotPurchasable__c "→ in custom_fields"
-    enum CDotPlanStatus__c "→ in custom_fields"
-    boolean CDotIsTrueUp__c "→ in custom_fields"
-    boolean CDotIsUsPubSec__c "→ in custom_fields"
-    enum CDotCommunityType__c "→ in custom_fields"
+    boolean c_dot_accessible__c "→ in custom_fields"
+    array c_dot_actions__c "→ in custom_fields"
+    enum c_dot_plan_status__c "→ in custom_fields"
+    boolean c_dot_is_true_up__c "→ in custom_fields"
+    boolean c_dot_is_us_pub_sec__c "→ in custom_fields"
+    enum c_dot_community_type__c "→ in custom_fields"
   }
 
   "ProductRatePlanCharge" {
-    enum BillingPeriod "Zuora field"
+    enum billing_period "Zuora field"
     jsonb custom_fields "Local storage for all *__c fields"
     %% Fields stored within custom_fields JSONB:
-    enum CDotPlanType__c "→ in custom_fields"
-    enum ChargeTier__c "→ in custom_fields"
-    enum ChargeDeployment__c "→ in custom_fields"
+    enum c_dot_plan_type__c "→ in custom_fields"
+    enum charge_tier__c "→ in custom_fields"
+    enum charge_deployment__c "→ in custom_fields"
   }
 ```
 
 | Field Name | Level | New Field? | Data Type | Values | Description |
 |------------|-------|------------|-----------|--------|-------------|
 | **CDotAccessible__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether a plan is accessible within CustomersDot. Plans marked `true` are displayed to users and their details can be viewed, regardless of purchase origin. Plans marked `false` exist in Zuora but are completely invisible in CustomersDot. |
-| **CDotManageable__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether management actions (renewals, modifications) are available for this plan in CustomersDot. These plans can be serviced through CustomersDot even if they weren't purchased there. |
-| **CDotPurchasable__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether a plan is available for self-service purchase directly through CustomersDot without sales assistance. Plans marked `true` appear in the web store and can be purchased online. |
+| **CDotActions__c** | `ProductRatePlan` | Yes | Multiselect | `initial_purchase`, `additional_purchase`, `renew` | Specifies the actions available for this plan within CustomersDot. Multiple actions can be selected:<br>• `initial_purchase`: Plan can be purchased self-service through the Customers Portal without sales assistance.<br>• `additional_purchase`: Additional quantity of this plan can be purchased self-service through the Customers Portal.<br>• `renew`: Subscription with this plan can be renewed self-service through the Customers Portal<br>• No option selected is a valid state and results in these actions not being available in the Customers Portal. |
 | **CDotPlanStatus__c** | `ProductRatePlan` | Yes | String | `active`, `deprecated`, `legacy`, `not_applicable` | Represents the lifecycle stage of a plan: <br>• `active`: Currently salable and fully supported / available plans<br>• `deprecated`: Plans being phased out but still available to existing customers<br>• `legacy`: Historical plans maintained only for existing subscriptions<br>• `not_applicable`: Special cases where status concept doesn't apply |
 | **CDotIsTrueUp__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Identifies true-up plans, which are special product rate plans used to reconcile usage beyond what was initially purchased. |
 | **CDotIsUsPubSec__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Identifies plans specifically designed for US Public Sector customers. |
 | **CDotCommunityType__c** | `ProductRatePlan` | Yes | String | `education`, `open_source`, `startup`, `not_applicable` | Identifies special pricing programs for specific communities:<br>• `education`: Educational institutions<br>• `open_source`: Open source projects<br>• `startup`: Startup companies<br>• `not_applicable`: Standard commercial plans |
 | **CDotPlanType__c** | `ProductRatePlanCharge` | Yes | String | `ci_minutes`, `storage`, `duo_pro`, `duo_enterprise`, `duo_amazon_q`, `agile_planning`, `product_analytics`, `professional_services`, `ecosystem`, `base_product`, `not_applicable` | Categorizes charges by the services they provide:<br>• `ci_minutes`: Additional CI/CD pipeline minutes<br>• `storage`: Additional repository storage<br>• `duo_pro`: GitLab Duo Pro AI capabilities<br>• `duo_enterprise`: GitLab Duo Enterprise AI capabilities<br>• `duo_amazon_q`: Amazon Q integration<br>• `agile_planning`: Enterprise Agile Planning features<br>• `product_analytics`: Product analytics capabilities<br>• `professional_services`: Training, consulting, and implementation services<br>• `base_product`: Standalone charge e.g. Ultimate or Premium <br>• `ecosystem`: GitLab Ecosystem offering discount charge<br>• `not_applicable`: None of the mentioned |
 | **BillingPeriod** | `ProductRatePlanCharge` | No | String | `monthly`, `annual`, `two_year`, `three_year`, `four_year`, `five_year` (or `1`, `12`, `24`, `36`, `48`, `60`) | Defines the duration of the billing cycle for the plan. Can use either named periods or the number of months. |
-| **ChargeTier__c** | `ProductRatePlanCharge` | No | String | `ultimate`, `premium`, `bronze`, `silver`, `gold`, `starter`, `free`, `null` | Represents the feature tier of a plan, with different tiers offering progressively more features:<br>• `ultimate`: Most comprehensive feature set<br>• `premium`: Advanced features<br>• `bronze`/`silver`/`gold`: Legacy tier names<br>• `starter`: Entry-level paid tier<br>• `free`: No-cost tier with limited features |
-| **ChargeDeployment__c** | `ProductRatePlanCharge` | No | String | `self_managed`, `dedicated`, `gitlab_dot_com`, `not_applicable` | Indicates how the GitLab instance is deployed and managed:<br>• `self_managed`: Customer installs and manages GitLab on their infrastructure<br>• `dedicated`: GitLab-managed single-tenant instance<br>• `gitlab_dot_com`: Multi-tenant SaaS offering at gitlab.com |
+| **ChargeTier__c** | `ProductRatePlanCharge` | No | String | `Ultimate`, `Premium`, `Bronze`, `Legacy`, `Starter`, `Not Applicable`, `null` | Represents the feature tier of a plan, with different tiers offering progressively more features:<br>• `ultimate`: Most comprehensive feature set<br>• `premium`: Advanced features<br>• `bronze`/`silver`/`gold`: Legacy tier names<br>• `starter`: Entry-level paid tier<br>• `free`: No-cost tier with limited features |
+| **ChargeDeployment__c** | `ProductRatePlanCharge` | No | String | `Self-Managed`, `Dedicated`, `GitLab.com`, `Not Applicable`, `null` | Indicates how the GitLab instance is deployed and managed:<br>• `Self-Managed`: Customer installs and manages GitLab on their infrastructure<br>• `Dedicated`: GitLab-managed single-tenant instance<br>• `GitLab.com`: Multi-tenant SaaS offering at gitlab.com |
 
 ## Additional Considerations
 
@@ -180,31 +173,38 @@ end
 We will iterate over the proposed custom fields picking one field / set of fields at a time and:
 
 1. Submit a Change Request to EntApps to add the necessary field(s) to Zuora.
-2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the new field(s) via a rake task in CustomersDot.
+2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the new field(s) and keeping them in sync during rollout.
 3. Confirm that the Product Catalog copy has synced correctly (either manually trigger the sync or wait for the scheduled daily sync).
 4. [Behind a feature flag] Replace any usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field.
 5. Validate both logic and performance in the staging environment.
 6. Deploy the change to production and enable it for all users.
 
-The following code example illustrates steps 4 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `cdot_purchasable__c` and `charge_deployment__c` fields.
+The following code example illustrates steps 4 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `cdot_actions__c` and `charge_deployment__c` fields.
 
 ```ruby
+# app/models/zuora/local/product_rate_plan_charge.rb
+custom_field :deployment, remote_name: :charge_deployment__c, type: :string
+
+scope :gitlab_com, -> { jsonb_contains(deployment: 'GitLab.com') }
+
 # app/models/zuora/local/product_rate_plan.rb
-scope :cdot_purchasable, -> { where("custom_fields->>'cdot_purchasable__c' = 'true'") }
-scope :gitlab_com, -> {
-  joins(:product_rate_plan_charges)
-    .where("product_rate_plan_charges.custom_fields->>'charge_deployment__c' = 'gitlab_dot_com'")
-    .distinct
-}
+custom_field :actions, remote_name: :c_dot_actions__c, type: :zuora_multiselect_selection
+
+scope :cdot_purchasable, -> { jsonb_contains(actions: 'initial_purchase') }
+scope :gitlab_com, lambda {
+        joins(:product_rate_plan_charges)
+        .merge(Zuora::Local::ProductRatePlanCharge.gitlab_com)
+        .distinct
+      }
 
 # lib/plan_classifier.rb
 module PlanClassifier
   def self.all_gitlab_com_plans
-    Zuora::Local::ProductRatePlan.gitlab_com.map(&:id)
+    Zuora::Local::ProductRatePlan.gitlab_com.pluck(:zuora_id)
   end
 
   def self.self_service_gitlab_com_plans
-    Zuora::Local::ProductRatePlan.cdot_purchasable.gitlab_com.map(&:id)
+    Zuora::Local::ProductRatePlan.cdot_purchasable.gitlab_com.pluck(:zuora_id)
   end
 end
 

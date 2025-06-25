@@ -301,6 +301,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 - [Performance Indicators](/handbook/ceo/office-of-the-ceo/performance-indicators)
 - [GitLab Team Project](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team)
 - [Team readmes](/handbook/ceo/office-of-the-ceo/readmes/)
+- [Embody Team](/handbook/ceo/office-of-the-ceo/embody-team/)
 
 ## Contact Us
 

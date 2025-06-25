@@ -1,5 +1,6 @@
 ---
 title: "Code Suggestions Model Evaluation Guide"
+description: "Guidelines for evaluating new AI models for Code Suggestions"
 ---
 
 This document serves as a technical how-to guide for evaluating new Code Suggestions models.
