@@ -167,5 +167,5 @@ team.
 In order to close the review issue there should be either a follow up issue or
 MR on the respective development repository. If a follow up is missing it
 should be created by the reviewer and linked to in the respective finding
-thread. For those issues the normal [triage process](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+thread. For those issues the normal [triage process](/handbook/product-development/issue-triage/)
 applies.
