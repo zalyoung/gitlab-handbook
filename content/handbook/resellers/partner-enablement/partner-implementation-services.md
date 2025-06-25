@@ -68,7 +68,7 @@ Rule of thumb: always go with EE, except when you can't.
 
 Upsides of installing EE:
 
-1. No need to do a [migration](/handbook/resellers/partner-enablement/partner-migration-services/) when your customer decides to upgrade to Premium or Ultimate.
+1. The enterprise edition supports in-place upgrades, making it the recommended installation option for customers since they can upgrade to Premium or Ultimate without requiring [migration](/handbook/resellers/partner-enablement/partner-migration-services/). This increases the customer's flexibility and ensures future scalability and requirements can be met effortlessly
 
 2. Optionally get access to free Premium or Ultimate features through our [Registration Features Program](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#registration-features-program). Please refer to the [list of available features](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#available-features) for details.
 
