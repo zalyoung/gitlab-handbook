@@ -23,6 +23,10 @@ This ADR documents the decision on where to generate and sign SLSA attestations 
 - Cosign integration: it's possible to run the cosign CLI, which is the reference implementation
 - KMS integration: see [Using external secrets in CI](https://docs.gitlab.com/ci/secrets/)
 
+**Cons**
+
+- Components must be mirrored in order to be using with self-managed or Dedicated instances.
+
 **Blockers:**
 
 - Not in control plane.
@@ -49,7 +53,7 @@ in control plane (as defined by SLSA)
 **Cons:**
 
 - Unlike CI/CD jobs the backend can't execute commands like `cosign`
-- Would require the signing to be done in Ruby, and the [sigstore-ruby](https://github.com/sigstore/sigstore-ruby) gem isn't mature enough yet.
+- Would require the signing to be done in Ruby, and the [sigstore-ruby](https://github.com/sigstore/sigstore-ruby) gem isn't mature enough, and does not support signing (although [code](https://github.com/sigstore/sigstore-ruby/blob/main/lib/sigstore/signer.rb) does exist).
 
 ### 4. glgo
 
@@ -81,7 +85,7 @@ This option gives us the fastest path to production for gitlab.com while still p
 
 ### Negative
 
-- glgo is not included for self-managed customers today, and additional effort will be required to make it available in the future.
+- glgo is not included for self-managed or Dedicated customers today, and additional effort will be required to make it available in the future.
 
 ## Related Links
 
