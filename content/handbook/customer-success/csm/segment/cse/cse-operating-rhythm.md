@@ -260,6 +260,46 @@ For situations where a direct customer outcome isn't achieved (e.g., referral, n
 
 Documenting these interactions accurately helps us understand customer needs comprehensively and refine our engagement strategies. The collective insights from these recorded outcomes are invaluable for cross-functional teams, including Product, Engineering, and Marketing, to better understand real-world customer experiences and challenges.
 
+**Shared Claude Project - CSE Customer Outcomes:**
+
+The following Claude project will automatically generate outcome suggestions using the framework within this handbook page along with other relevent context:
+
+- [Claude Project - CSE Customer Outcomes:](https://claude.ai/project/6340770d-e32d-4cc6-95c3-fd71d653b601)
+
+<b>How to use:</b> Provide a full call transcript or relevant customer notes at minimum for best results; 
+
+When using more than one piece of context, provide a label to each additional context item added:
+
+```bash
+Example:
+
+Call transcript:
+"""
+<snip from call transcript>
+"""
+
+Last email from customer:
+"""
+<snip from email>
+"""
+
+Last reply from Product team:
+"""
+<snip from Product reply>
+"""
+```
+
+> If the pasted data reaches a certain length threshold, Claude will automatically attach the pasted context as a separate object rather than pasting it in-line; this can make it difficult to properly label; in this case, it might be a good idea to label each piece of pasted context (add label manually at the top before copy/pasting):
+
+Alternatively you can create a single document (ie: temporary email draft or notepad) to refine the input data before copying entire contents to the Claude project for processing.
+
+These methods seem to provide the most consistent results; the main focus being on labeling the data to tighten context.
+
+----
+
+Source reference: [FY26 Q2 OKR: Implement a standardized 'quality outcome' framework for On-Demand engagements](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/issues/743) 
+
+
 ## CSE Useful Link Signpost
 
 QBR : [Template](https://docs.google.com/presentation/d/1YlEpP81DlZd5rSqKKlxZclHY8ZDT6U1y342QFVt4qhA/edit?usp=sharing) / [CSE Cases Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/d7283d4f-4314-4bb8-a3f2-13b32a532ad7) /  [CSE Manager Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/b6c9482d-e9b8-4167-951e-f67b908cdf37)
