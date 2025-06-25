@@ -280,7 +280,7 @@ All team members can make nominations for both The DZ Award and Values Awards. W
 
 #### Overview of the nomination process
 
-- When the nomination window opens all team members can submit both Values Award and DZ Award nominations through [this form](https://docs.google.com/forms/d/e/1FAIpQLScMHXjXKpolimXKnhunMGPcPQ55NvKByqTSKwEhY6M03iejrw/viewform).
+- When the nomination window opens all team members can submit both Values Award and DZ Award nominations through [this form](https://forms.gle/euX4hSmcpcwvfCPR8).
 - The People Communications and Engagement DRI will create a document looping in the nominator's manager and Department Head to review the nomination.
 - When the nomination window closes the People Communications and Engagement DRI will ensure all nomination documents are completed before calibration.
 - The People Communications and Engagement DRI and People Business Partners will then calibrate between department nominations with the E-group leader to select one team member nomination for The DZ Award and up to one team member per Value for the Values Awards.
