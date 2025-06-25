@@ -111,7 +111,6 @@ SELECT object_delete(json_data,'id','address')
 
 In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](/handbook/security/standards/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
 
-
 #### Access request
 
 Although it could be helpful to already provide the Data Team access to the source system, its not mandatory to raise an Access Request right now.

@@ -1,15 +1,19 @@
 :---
-title: "Data pipelines"
-description: "This page describes the different data sources and the way we extract this data via data pipelines."
+title: "Data Pipelines"
+description: "This page describes the ways we extract this data via data pipelines."
 ---
 
-## Overview
+Data Pipelines
+==============
+
 The Data Warehouse contains data from a wide variety of sources. In order to support such dynamic and vast integrations we employ a data extraction strategy with advanced tooling and best-in-class data engineering standards.
 Detailed information about specific **Data Pipelines** is available on our [Internal GitLab Handbook Pipelines page](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines).
 
-## Data Extraction Solutions 
+Data Extraction Solutions 
+-------------------------
 
 Ideally, all data extraction pipelines should fall into 1 of 3 categories:
+
 1. Snowflake Share
 1. ETL Vendor (Fivetran)
 1. Custom Pipeline 
@@ -68,6 +72,7 @@ Said another way, when other solutions are inadequate, Custom Pipelines can solv
 
 ---
 
-## Making Custom Pipelines 'The Best'
+Making Custom Pipelines 'The Best'
+---------------------------------
 
 A signifcant weakness that can emerge from custom pipelines is that we can write inconsistencies, redundancies, and complexity into our data platform if we're not careful. To this end we expect our custom pipelines to ahear to the following specifications. 
