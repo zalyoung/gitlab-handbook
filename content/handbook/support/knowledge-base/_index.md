@@ -82,9 +82,18 @@ A list of available training can be found in [Knowledge Base Training Resources]
 
 ## Implementation
 
-We use ZenDesk to create, modify, and  publish knowledge base articles.
+We use ZenDesk to create, modify, and  publish knowledge base articles.  Follow the [training to create a knowledge article](https://docs.google.com/document/d/1zEJHhkIxdhYFnOEJrzw3uinXhrvKtvA17Gn7AmZR9yg/edit?tab=t.0#heading=h.4d11fzkgmi1w) IN ZenDesk.
 
-Knowledge base articles are dynamically suggested to a user while submitting a ticket.
+If you are NOT a ZenDesk User, and want to create a knowledge article, you can do so externally!  Follow the process below.
+
+### How to create a knowledge article if you are not in ZenDesk 
+
+Anyone can create a knowledge article regardless of being in ZenDesk or not (or if you are a Light Agent). To create an article you will:
+
+1. Go to the [Folder and choose a template](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR)
+2. Create the article using the template and Save the document.
+3. Use the Knowledge Slack Channel [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) to request the article to be created. Please tag {{< member-by-name "Kirsty Allen" >}} . OR you can Create an ISSUE and Assign to {{< member-by-name "Kirsty Allen" >}} 
+4. Your Article will be created in ZenDesk and assigned to a reviewer & then Published. You will be notified of Publication. 
 
 Integrating with Zendesk offers the following benefits:
 
@@ -94,6 +103,7 @@ Integrating with Zendesk offers the following benefits:
 - Improved Support Engineer Productivity
 - Streamlined Analytics and Reporting
 - Streamline "Knowledge Centered Service" (KCS), adopting knowledge into the workflow
+Note: Knowledge base articles are dynamically suggested to a user while submitting a ticket.
 
 Knowledge base articles can be found at:
 
