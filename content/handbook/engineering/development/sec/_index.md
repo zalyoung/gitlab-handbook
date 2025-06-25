@@ -154,7 +154,7 @@ The following teams comprise the sub-department:
   - Vulnerability Research group - [handbook](/handbook/engineering/development/sec/secure/vulnerability-research/)
   - API Security - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/api-security/)
 - Security Risk Management
-  - Security Policies group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/)
+  - Security Policies group - [handbook](/handbook/engineering/development/sec/security-risk-management/security-policies/)
   - Threat Insights group - [handbook](/handbook/engineering/development/sec/security-risk-management/security-insights/)
 
 It is important to delineate who the EM and PM DRIs are for every functionality, especially where this may not be obvious. This is documented on a dedicated [delineation page](delineate-sec.html).
