@@ -1,5 +1,6 @@
 ---
 title: "GitLab Laptop Management"
+controlled_document: true
 ---
 
 ## Purpose
@@ -129,7 +130,11 @@ We do not allow personal laptops to be used for GitLab work. If a laptop is not 
 
 #### Laptop exceptions not listed
 
-Any circumstance that falls outside of the listed exceptions or if GitLab IT deems it necessary, a Laptop Exception can be created using this [template](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/exceptions/-/issues/new?issuable_template=exception_request). These requests require approval from leadership across multiple departments and are discouraged due to the possibility of data leakage.
+Any circumstance that falls outside of the listed exceptions or if GitLab IT deems it necessary, a Laptop Exception can be created using this [template](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?description_template=device_exception_request). These requests require approval from leadership across multiple departments and are discouraged due to the possibility of data leakage.
+
+#### Linux exceptions after 2025-06-30
+
+New hire or refresh Linux systems granted an exception after 2025-06-30 will be required to be running Ubuntu, including our [current security tools](https://internal.gitlab.com/handbook/security/corporate/tooling/). These systems will be issued as a secondary device only and at Corporate Security's discretion will be limited to certain applications.
 
 ### Laptop Configurations
 
