@@ -63,7 +63,7 @@ in control plane (as defined by SLSA)
 
 **Cons:**
 
-- We can't directly support self-managed. However, open sourcing glgo, and providing deployment instructions is path forward.
+- We can't directly support self-managed distribution. However, by open sourcing glgo and providing deployment instructions, we provide a path forward for these customers.
 
 ## Decision
 
