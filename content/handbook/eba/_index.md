@@ -23,7 +23,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Legal & Corporate Affairs](/handbook/legal/)  | **TBC**<br>EBA  |Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
 | [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | <br>Billy Stallings (Sr. Director Digital Marketing)<br> Laura Fagan (Sr. Chief of Staff, CMSO) |
 | [Marketing](/handbook/marketing/)| **Jazmin Cox**<br>Sr EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics) |
-| [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA | Rob Allen (CPO)<br>Karen Iacobucci (VP of People Operations and Technology)<br> Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
+| [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA | Rob Allen (CPO)<br>Karen Iacobucci (VP of People Operations and Technology)<br> Allia McCrank (VP of Total Rewards)<br> Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) <br> Justin Farris (VP of Product Management) |
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management) |
 | [Sales](/handbook/sales/) | **Missy Keasler**<br>Staff EBA | Ian Steward (CRO) - effective 2025-05-05|
