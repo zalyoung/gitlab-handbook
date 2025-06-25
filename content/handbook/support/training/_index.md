@@ -113,14 +113,15 @@ Whenever GitLab.com administration access is required to complete any of the mod
 
 The GitLab Support pathway covers all platforms that we offer. In completing these modules, Support Engineers are expected to answer tickets submitted to any of them.
 
-**NOTE:** As described in [Support hybrid model](#support-hybrid-model), engineers typically complete one Area of Focus, and then add another. Please discuss your timeline with your manager.
+**NOTE:** As described in [Support hybrid model](#support-hybrid-model), engineers typically complete one Area of Focus, and then add another. Please discuss your timeline with your manager. Please note you can complete multiple training modules in parallel!
 
 | Module | Duration | Description |
 | ------ | ------ | ------ |
 | [Working on Tickets](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Working%20On%20Tickets&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Working%20on%20Tickets) | 2 Weeks | Help customers by pairing with Support Engineers and replying to tickets |
+| [GitLab-com SaaS Account Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=GitLab-com%20Saas%20Account%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab-com%20SaaS%20Account%20Basics) | 4 Days | **(Associate Support Engineer only)** Understand the basics to answer GitLab.com (SaaS) account related tickets |
 | [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20SaaS%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab-com%20SaaS%20Basics) | 2 Weeks | Understand the basics to answer GitLab.com (SaaS) product related tickets |
-| (Associates only)[GitLab-com SaaS Account Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=GitLab-com%20Saas%20Account%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab-com%20SaaS%20Account%20Basics) | 2 Days | Understand the basics to answer GitLab.com (SaaS) account related tickets |
-| [Introduction to GitLab Architecture](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=Introduction%20to%20GitLab%20Architecture&issue%5Btitle%5D=YOUR%20NAME%20-%20Introduction%20to%20GitLab%20Architecture) | 0.5 day | Understand GitLab architecture |
+| [Introduction to GitLab Architecture](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=Introduction%20to%20GitLab%20Architecture&issue%5Btitle%5D=YOUR%20NAME%20-%20Introduction%20to%20GitLab%20Architecture) | 0.5 Day | Understand GitLab architecture |
+| [License and Renewals](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Subscriptions%20License%20and%20Renewals&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Subscriptions%20License%20and%20Renewals) | 2 Weeks | **(Only if discussed with your manager)** Understand the basics to answer our product's License and Renewals related tickets |
 | [GitLab Installation & Administration Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Installation%20and%20Administration%20Basics&description_template=GitLab%20Installation%20and%20Administration%20Basics) | 1 Week | Understand the different ways in which GitLab can be installed and managed |
 | [Self-Managed Support Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Self-Managed%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Self-Managed%20Basics) | 2 Weeks | Understand the basics to answer Self Managed product related tickets |
 | [GitLab Dedicated Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Dedicated) | 1 Week | Understand the basics to answer GitLab Dedicated related tickets |
@@ -128,14 +129,7 @@ The GitLab Support pathway covers all platforms that we offer. In completing the
 When these modules are complete:
 
 1. Let your manager know that you are ready to [proceed to the appropriate on-call rotation training](#on-call-rotations).
-1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team project](https://gitlab.com/gitlab-support-readiness/support-team), removing onboarding.
-
-### License and Renewals Learning Pathway
-
-| Module | Duration | Description |
-| ------ | ------ | ------ |
-| [License and Renewals](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Subscriptions%20License%20and%20Renewals&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Subscriptions%20License%20and%20Renewals) | 2 Weeks | Understand the basics to answer our product's License and Renewals related tickets |
-| [Working on Tickets](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Working%20On%20Tickets&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Working%20on%20Tickets) | 2 Weeks | **Work concurrently with your L&R module** -- Help customers by pairing with Support Engineers and replying to tickets |
+1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team project](https://gitlab.com/gitlab-com/support/team-pages), removing onboarding.
 
 ### On-call rotations
 
@@ -173,7 +167,8 @@ The modules in this section should eventually be taken regardless of your Area o
 
 | Module | Description |
 | ------ | ------ |
-| [GitLab Intermediate Topics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Intermediate%20Topics) | Intermediate topics for both areas of focus |
+| [GitLab Intermediate Topics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Intermediate%20Topics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Intermediate%20Topics) | Intermediate topics for both areas of focus |
+| [GitLab API](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=GitLab%20API&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20API) | Module focused on the GitLab API |
 
 ### Additional Modules in the Support Training Project
 
