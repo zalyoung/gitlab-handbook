@@ -80,4 +80,4 @@ Use the markdown editor in the knowledge article.  Add a comment using the comme
 
 ### How do I create a Knowledge Article if I am not in ZenDesk or I am a Light Agent?
 
-You can create a knowledge article by using a template from the [folder](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR?usp=sharing). You can add the file to an ISSUE and ASSIGN to  Contact {{< member-by-name "Kirsty Allen" >}} . Or you can add to the [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk) channel 
+You can create a knowledge article by using a template from the [folder](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR?usp=sharing). You can add the file to an ISSUE and ASSIGN to  Contact {{< member-by-name "Kirsty Allen" >}} . Or you can add to the [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk) channel
