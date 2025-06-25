@@ -21,7 +21,7 @@ Please see additional information on the 2025 US Benefit Plans
 - Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2025) to help you find the plan that best fits you and your family’s needs.
 - Review the [2025 Benefits Memo](https://drive.google.com/file/d/1-1Y15FG5oiksax_871eIX-bJBeDxIF_k/view) for highlights and updates
 - See the [2025 US Benefits Guide](https://drive.google.com/file/d/15L8LMWI1CoUUoU3DcimxU3edITKs8QrV/view) for a full review of the GitLab Benefit Plans
-- Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zHgzXkIHdzaInCz0&r3f1=&fb=0) for a review of all the plans.
+- Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zI6z18oVKXzaInCz0) for a review of all the plans.
 - See our 2025 [Annual Rights Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing)
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
 - See the [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files). These machine readable files are made available in response to the federal Transparency in Coverage Rule and include negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
