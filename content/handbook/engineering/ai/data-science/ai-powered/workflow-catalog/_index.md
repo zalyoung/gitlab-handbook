@@ -7,7 +7,7 @@ description: "The Workflow Catalog group is focused on developing Workflow Catal
 
 The Workflow Catalog group is focused on developing Workflow Catalog, a catalog of AI Agents, tools, and workflows that can be created, curated, and shared across organizations, groups, and projects.
 
-### Team members
+## Team members
 
 **Engineering Manager & Engineers**
 
@@ -30,7 +30,16 @@ Here are some links to get us started:
 * [Team tasks](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues): For all non-product related team issues
 * [Async updates](https://gitlab.com/gitlab-org/ai-powered/workflow-catalog/team-tasks/-/issues/?label_name%5B%5D=async%20update)
 
-### Frontend-Backend Collaboration
+### Communication
+
+The Workflow Catalog Team communicates based on the following guidelines:
+
+* Always prefer async communication over sync meetings.
+* Don't shy away from arranging a [sync call](/handbook/communication/#video-calls) when async is proving inefficient, however always record it to share with team members.
+* By default communicate in the open.
+* Prefer public channels (`#g_workflow_catalog`) over private message for work-related Slack messaging.
+
+### Frontend-Backend collaboration
 
 We aim to foster high levels of collaboration between frontend and backend engineers to ensure
 development velocity and code quality.
@@ -43,6 +52,39 @@ development velocity and code quality.
 * **Maintaining alignment**: We value great communication. When requirements or schema need to change, we communicate
   early through the relevant GitLab issue or in [`#g_workflow_catalog`](https://gitlab.enterprise.slack.com/archives/C08T5J1KXKQ)
   so our frontend or backend counterparts stay informed of all changes and can provide feedback early to avoid late-stage blockers.
+
+### AI stage collaboration
+
+The Workflow Catalog relies on the
+[Workflow Service](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/duo_workflow_service?ref_type=heads)
+as a foundational backend service.
+Most Workflow Catalog features require new capabilities to be developed within Workflow Service,
+which means our engineers will need to contribute directly to that codebase in partnership with the
+[Duo Workflow team](../duo-workflow/_index.md).
+
+**Collaboration Requirements:**
+
+* All Workflow Service contributions must be developed in close partnership with the Duo Workflow team
+* Our implementations must align with their service [architecture and vision](../../../../architecture/design-documents/duo_workflow/_index.md)
+* We commit to supporting Workflow Service's broader goals and adhering to their technical standards
+
+**Collaboration Process:**
+
+* Reach out to relevant Duo Workflow contacts (listed below) during the planning phase
+* Join their [`#g_duo_workflow`](slack://channel?id=g_duo_workflow) channel
+* Follow our [async communication preferences](#communication) by default, but schedule sync meetings
+  when needed and ensure key outcomes are documented in GitLab issues
+
+#### Primary Duo Workflow contacts
+
+| Team Member | Expertise Area |
+| ---      | ---     |
+| [Mikołaj Wawrzyniak](https://gitlab.com/mikolaj_wawrzyniak) | Workflow Service architecture |
+| [Frédéric Caplette](https://gitlab.com/f_caplette) | Client-side implementation |
+| [Dylan Griffith](https://gitlab.com/DylanGriffith) | Workflow Executor architecture: remote execution environment and runner implementation |
+| [Jessie Young](https://gitlab.com/jessieay) | Authorization and authentication |
+| [Shekhar Patnaik](https://gitlab.com/shekharpatnaik)  / [Igor Drozdov](https://gitlab.com/igor.drozdov) | Duo Chat agent integration |
+| [Sebastian Rehm](https://gitlab.com/bastirehm) | Engineering Manager, backup contact for any of the above |
 
 ### Our tech stack
 
@@ -61,7 +103,7 @@ development velocity and code quality.
 * **Agenda**: [Google Doc (internal only)](https://docs.google.com/document/d/19zrzqN37ZVwwEJ9iYhy4QBsUzVN0Hd1j1yn8J0v4dqE)
 * **Recordings**: [Google Drive (internal only)](https://drive.google.com/drive/folders/1I9s96jg9knqOwDLabhn9100H-MsvG2ne)
 
-## Capacity Planning
+## Capacity planning
 
 We use a lightweight system of issue weighting to help with capacity planning.
 These weights help us ensure that the amount of scheduled work in a cycle is
@@ -99,12 +141,3 @@ appear from the table above. This is to account for the extra rigor of the
 [patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
-
-## Communication
-
-The Workflow Catalog Team communicates based on the following guidelines:
-
-* Always prefer async communication over sync meetings.
-* Don't shy away from arranging a [sync call](/handbook/communication/#video-calls) when async is proving inefficient, however always record it to share with team members.
-* By default communicate in the open.
-* Prefer public channels (`#g_workflow_catalog`) over private message for work-related Slack messaging.

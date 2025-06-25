@@ -93,6 +93,10 @@
 /handbook/engineering/infrastructure/faq/ /handbook/engineering/infrastructure-platforms/faq/ 301
 /handbook/engineering/infrastructure/feature-support/ /handbook/engineering/infrastructure-platforms/feature-support/ 301
 /handbook/engineering/infrastructure/incident-review/ /handbook/engineering/infrastructure-platforms/incident-review/ 301
+/handbook/engineering/infrastructure/network-security/ /handbook/engineering/infrastructure-platforms/network-security/ 301
+/handbook/engineering/infrastructure/projects/ /handbook/engineering/infrastructure-platforms/projects/ 301
+/handbook/engineering/infrastructure/release-tools/ /handbook/engineering/infrastructure-platforms/release-tools/ 301
+/handbook/engineering/infrastructure/service-maturity-model/ /handbook/engineering/infrastructure-platforms/service-maturity-model/ 301
 
 # Technical Writing handbook pages - remove 2025-08-05
 /handbook/product/ux/technical-writing/documentation/ /handbook/product/ux/technical-writing/#documentation 301
@@ -124,6 +128,10 @@
 /handbook/engineering/development/dev/plan/* /handbook/engineering/devops/dev/plan/:splat 301
 /handbook/engineering/development/ops/ /handbook/engineering/devops/ops/ 301
 /handbook/engineering/development/ops/* /handbook/engineering/devops/ops/:splat 301
+
+# Security Policies team pages move - remove 2025-08-25
+/handbook/engineering/development/sec/software-supply-chain-security/security-policies/ /handbook/engineering/development/sec/security-risk-management/security-policies/ 301
+/handbook/engineering/development/sec/software-supply-chain-security/security-policies/* /handbook/engineering/development/sec/security-risk-management/security-policies/:splat 301
 
 # IT Team move to CorpSec - remove 2025-09-30
 /handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301

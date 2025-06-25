@@ -154,7 +154,6 @@
 /content/handbook/engineering/development/sec/software-supply-chain-security/authorization.md @jayswain
 /content/handbook/engineering/development/sec/software-supply-chain-security/compliance.md @nrosandich
 /content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @fcatteau
-/content/handbook/engineering/development/sec/software-supply-chain-security/security-policies/ @alan
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/dynamic-analysis/ @mikeeddington @twoodham
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @twoodham
@@ -163,6 +162,7 @@
 /content/handbook/engineering/development/sec/security-risk-management/ @dagron1 @rvider
 /content/handbook/engineering/development/sec/security-risk-management/security-infrastructure/ @ryaanwells
 /content/handbook/engineering/development/sec/security-risk-management/security-insights @nmccorrison
+/content/handbook/engineering/development/sec/security-risk-management/security-policies/ @alan
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
 /content/handbook/engineering/training/ic-to-manager.md @dsatcher
@@ -202,7 +202,7 @@
 /content/handbook/engineering/infrastructure-platforms/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
-/content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/service-maturity-model.md @rnienaber @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/team/ @marin
 /content/handbook/engineering/infrastructure/team/dei.md @andrewn
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/ @marin @amyphillips

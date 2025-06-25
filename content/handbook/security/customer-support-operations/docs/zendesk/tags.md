@@ -15,3 +15,8 @@ At its core, Zendesk relies on tags pretty heavily. As such, it is best to fully
 ## What are our tags?
 
 As there are many, many tags, and new ones get added frequently, we maintain it via the [Zendesk Tags](https://docs.google.com/spreadsheets/d/1VUaXLcE3L--uBhKi2VrNk8wzaslkydF5AMTMsJMiQpU/edit?usp=sharing) Google sheet (internal access only).
+
+The Google sheet is populated once a week, at 1200 instance time (UTC for Global, Pacific for US Government) via the following projects:
+
+- [Global Tag List Generator](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/tag-list-generator)
+- [US Government Tag List Generator](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/tag-list-generator)

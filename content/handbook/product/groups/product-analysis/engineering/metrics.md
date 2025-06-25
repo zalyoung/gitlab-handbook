@@ -265,10 +265,16 @@ The [triage bot](https://gitlab.com/gitlab-org/quality/triage-ops/) automatic la
 
 #### Why your team is not listed in the dashboard filters
 
-We use [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) as the SSOT for group, section, and stage information. In order for your group/section/stage to be listed in the dashboard filter, there must be a match between what's listed in this file vs how it's shown in the label. We do this to avoid any error or random values in our filters. Here are a couple of examples:
+We use [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) as the SSOT for group, section, and stage information. In order for us to populate this in dashboard filters, there must be a match between what's listed in the [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) file vs how it's shown in the label. We do this to avoid any error or random values in our filters. Here are a couple of examples:
 
-* The Data Science section is listed as `data-science` in [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) and the associated label is `section::data-science`. Since both values match, our dashboard filters will pick this up as a valid filter.
-* The Data Science section is listed as `data-science` in [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) and the associated label is `section::data_science`. Since both values do not match, our dashboard filters will not pick this up as a valid filter.
+* The Code Review group is listed as `name: Code Review` in stages.yml and the associated label is `group::code review`. Since these match, everything works as expected.
+* The Code Review group is listed as `name: Code Reviews` in stages.yml and the associated label is `group::code review`. Because the names don't align, the issue falls into the undefined category.
+
+If you are introducing a new group or changing a group label, please make sure:
+
+* Historical issues have the new label applied
+* The [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) file is updated with the new group
+* Name in [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) file matches the name in the group label
 
 ## Projects that are part of the product
 
