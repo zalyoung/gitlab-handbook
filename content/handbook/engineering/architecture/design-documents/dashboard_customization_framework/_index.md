@@ -48,7 +48,7 @@ it outlines the architecture for a dashboard customization framework that enable
 
 The dashboard customization framework provides Vue components and UI patterns that allow for user-driven customization of dashboard layouts.
 Users can use it to add/remove panels, position & resize elements, edit text, and to save their personalized dashboard configurations. The framework
-is agnostic about where dashboard configurations are stored, instead focussing purely on the customization user experience.
+is agnostic about where dashboard configurations are stored, instead focusing purely on the customization user experience.
 
 The customizable dashboard component is a drop-in replacement for existing use cases of the dashboard layout framework. Internally it wraps the
 dashboard layout component and extends its capabilities to allow for user-driven customization that align with GitLab's Pajamas design system.
@@ -56,7 +56,7 @@ dashboard layout component and extends its capabilities to allow for user-driven
 ## Motivation
 
 Currently dashboards provide valuable insights but are static in nature. Users cannot personalize their dashboards to focus on the metrics most
-relevant to their workflows, responsibilities, or user roles. This limitations severely limits the effectiveness of dashboards as an analytics tool
+relevant to their workflows, responsibilities, or user roles. These limitations severely reduce the effectiveness of dashboards as an analytics tool
 for our customers.
 
 Furthermore, without user-customization the responsibility for meeting our customer's diverse analytics needs falls entirely on product teams.
