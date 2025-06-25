@@ -50,10 +50,10 @@ Pairing sessions generally happen synchronously (live video calls) but can happe
 
 To begin participating in pairing sessions:
 
-- **Join crush sessions**: These scheduled group sessions are a great way to start - check the [GitLab Support calendar](https://handbook.gitlab.com/handbook/support/#google-calendar) for times in your region
+- **Join crush sessions**: These scheduled group sessions are a great way to start - check the [GitLab Support calendar](../_index.md#google-calendar) for times in your region
   - Look for calendar events with "crush" or "collaboration" in the title
 
-- **Join Senior/Staff help sessions**: Open sessions where you can get guidance and assistance - check the [GitLab Support calendar](https://handbook.gitlab.com/handbook/support/#google-calendar) for times
+- **Join Senior/Staff help sessions**: Open sessions where you can get guidance and assistance - check the [GitLab Support calendar](../_index.md#google-calendar) for times
   - Look for calendar events with "Senior Help", "Office Hours", or "Help Session" in the title
    
 - **Find Support Engineers to pair with**:
