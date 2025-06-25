@@ -1,5 +1,5 @@
 ---
-title: "Application Security - Capacity Indicators, Classifications, and Workflows"
+title: "Application Security - Key Performance Indicators"
 ---
 
 ## Key Performance Indicators
