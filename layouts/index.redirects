@@ -189,3 +189,6 @@
 /handbook/engineering/development/ops/ /handbook/engineering/devops/ops/ 301
 /handbook/engineering/development/ops/* /handbook/engineering/devops/ops/:splat 301
 
+# Security Policies team pages move - remove 2025-08-25
+/handbook/engineering/development/sec/software-supply-chain-security/security-policies/ /handbook/engineering/development/sec/security-risk-management/security-policies/ 301
+/handbook/engineering/development/sec/software-supply-chain-security/security-policies/* /handbook/engineering/development/sec/security-risk-management/security-policies/:splat 301
