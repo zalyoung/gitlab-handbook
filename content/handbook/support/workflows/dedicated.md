@@ -40,6 +40,9 @@ Handling GitLab Dedicated tickets should be approached the same way as other tic
 - point the customer to the [GitLab Trust Center](https://trust.gitlab.com/?product=gitlab-dedicated) at `trust.gitlab.com` for inquiries related to compliance
 - point the customer to their CSM for any questions not addressed by the GitLab Trust Center
 
+Note: *Only paid customers are permitted to access the confidential documentation on [GitLab Trust Center](https://trust.gitlab.com/?product=gitlab-dedicated).*
+
+
 ### Test and reproduction on GitLab Dedicated instance
 
 GitLab Support has access to a GitLab Dedicated instance for testing and problem
