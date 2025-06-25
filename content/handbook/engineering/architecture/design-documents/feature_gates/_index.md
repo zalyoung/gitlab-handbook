@@ -1,0 +1,178 @@
+---
+title: "Feature Gates - A unified framework for feature release control"
+status: proposed
+creation-date: "2025-06-25"
+authors: []
+coaches: []
+dris: []
+owning-stage: "~group::developer tooling"
+participating-stages: []
+toc_hide: true
+---
+
+{{< engineering/design-document-header >}}
+
+## Summary
+
+Feature Gates is a unified framework for controlling feature releases across
+all GitLab environments - GitLab.com, Dedicated, and self-managed instances.
+This framework replaces the current fragmented feature flag approach with a
+standardized system that provides better visibility, lifecycle management, and
+operational control.
+
+The framework introduces coarse-grained feature gates (one per product feature)
+instead of fine-grained feature flags, with mandatory lifecycle management,
+automated workflows, and comprehensive monitoring. It addresses critical
+challenges including the lack of kill switches for stable features, complex
+rollouts across different environments, and the growing technical debt from
+over 700 feature flags in the codebase.
+
+## Motivation
+
+GitLab's current feature flag implementation has served us well but faces
+significant challenges at scale. With over 700 feature flags in production and
+multiple deployment environments, we need a more structured approach to feature
+release control.
+
+### Problems with Current State
+
+The current feature flag system creates several critical issues:
+
+- **No kill switches for stable features**: Once features reach general
+  availability, we lose the ability to quickly disable them during incidents
+- **Complex cross-environment management**: Different configurations across
+  gitlab.com, staging, and self-managed installations create confusion and
+errors
+- **Technical debt accumulation**: Feature flags persist long after they should
+  be removed, creating a complex matrix of configurations
+- **Poor visibility**: Engineers, product managers, and SREs struggle to
+  understand feature states across environments
+- **Manual processes**: Flag creation, rollout, and cleanup require significant
+  manual effort and coordination
+
+### Goals
+
+- **Complete separation** of gitlab.com and self-managed feature release
+  processes
+- **Gradual rollout strategies** for gitlab.com supporting both stability and
+  growth objectives
+- **Faster incident resolution** through instant feature disabling without
+  rollbacks
+- **Improved velocity** by isolating feature issues without affecting entire
+  deployments
+- **Better resilience** to handle features that develop issues hours or days
+  after deployment
+
+### Non-Goals
+
+- Migrating existing feature flags to the new system (they will be removed or
+  converted to settings)
+- Providing feature gates for external customer use (this is internal release
+  control only)
+
+## Proposal
+
+### Core Architecture
+
+Feature Gates introduces a three-tier architecture:
+
+1. **Unified Backend Service**: A centralized service managing all feature gate
+   states across environments
+2. **Multi-Language SDKs**: Native SDKs for Ruby, JavaScript, and Go with
+   consistent APIs
+3. **Management Dashboard**: Comprehensive UI for viewing and controlling gates
+   across all environments
+
+### Key Components
+
+TBD
+
+### Implementation Flow
+
+## Design and implementation details
+
+### Feature Gate Definition
+
+### SDK Implementation
+
+The unified SDK provides consistent interfaces across all supported languages
+(Ruby, JavaScript, and Go). The SDK handles gate evaluation, caching, and
+fallback behavior transparently, allowing developers to check gate status with
+simple boolean checks while the complex logic remains abstracted.
+
+### Backend Architecture
+
+The Feature Gates backend provides:
+
+1. **High-performance caching**: Sub-millisecond gate evaluation
+2. **Resilient fallbacks**: Local caching when backend unavailable
+3. **Real-time updates**: WebSocket connections for instant changes
+4. **Audit logging**: Complete history of all gate changes
+
+### Integration Points
+
+#### CI/CD Pipeline Integration
+
+- Automated testing with gates in different states
+- Gate state validation in merge requests
+- Deployment markers for gate changes
+
+#### Monitoring Integration
+
+- Automatic correlation of errors with gate changes
+- Performance impact tracking per gate
+- Alerting on anomalous behavior after gate changes
+
+#### Incident Response Integration
+
+- Incident.io integration for emergency disabling
+- Automated rollback suggestions based on error patterns
+- Slack notifications for gate state changes
+
+### Rollout Workflows
+
+#### GitLab.com Rollout
+
+1. Internal testing (employees only)
+2. Ring 0 deployment (10% of organizations)
+3. Ring 1 deployment (50% of organizations)
+4. Ring 2 deployment (100% of organizations)
+5. Gate removal after stability period
+
+#### Dedicated Rollout
+
+1. Feature available in admin panel
+2. Customer opts in at their discretion
+3. Support team can disable if issues arise
+
+#### Self-managed Rollout
+
+1. Feature ships disabled by default
+2. Admins enable through feature preview panel
+3. Can be disabled without GitLab support
+
+### Lifecycle Automation
+
+#### Automated Gate Creation
+
+- Danger bot suggests gate creation for new features
+- Pre-filled metadata from MR context
+- Automatic rollout issue creation
+
+#### Automated Monitoring
+
+- Track usage metrics from gate introduction
+- Alert on gates nearing maximum lifespan
+- Generate cleanup MRs automatically
+
+#### Automated Cleanup
+
+- Remove gates after full rollout + stability period
+- Archive gate history for analysis
+- Update documentation automatically
+
+## Alternative Solutions
+
+### Alternative 1: Enhance Current Feature Flags
+
+### Alternative 2: Third-Party Feature Flag Service
