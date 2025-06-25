@@ -42,7 +42,7 @@ A SaaS user must meet **one of** the following conditions to be eligible for a 2
 
 1. The user occupies a seat in a paid group on GitLab.com, or a top-level group owner intends to add the user to the paid group.
 1. The user is claimed as an [Enterprise User](https://docs.gitlab.com/user/enterprise_user/#automatic-claims-of-enterprise-users).
-1. The user is meets the support definition for an [Enterprise User](../workflows/gitlab-com_overview/#enterprise-users).
+1. The user meets the support definition for an [Enterprise User](../workflows/gitlab-com_overview/#enterprise-users).
 1. The user is the primary billing contact on a current invoice for a SaaS purchase.
 1. A GitLab team member (account managers, CSMs, or others) collaborates with the holder of this account in an account management project.
 1. The user account is required for SSO access to Customers Portal to manage a paid subscription - see: [Conditions for 2FA Reset when account is used to access Customers Portal](#conditions-when-account-is-used-to-access-customers-portal).
