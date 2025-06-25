@@ -7,7 +7,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
 ## Table of Contents
 
 1. [Okta Verify](#okta-verify)
-1. [Mobile Passkey and Yubikey Setup](#mobile-passkey-and-yubikey-setup)
+1. [Mobile Passkey and YubiKey Setup](#mobile-passkey-and-yubikey-setup)
 
 ### Okta Verify
 
@@ -75,7 +75,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
   </li>
   <li>When asked to <b>choose where to save your passkey for gitlab.okta.com</b>, select <b>Use a phone, tablet or security key</b> - A QR code should now appear on screen
     <ol type="a">
-      <li><b>Yubikey</b>: Insert your Yubikey and press the button</li>
+      <li><b>YubiKey</b>: Insert your YubiKey and press the button</li>
       <li><b>iOS</b>:
         <ol type="i">
           <li><a href="https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios">Ensure that iOS is up-to-date</a></li>
