@@ -4,6 +4,9 @@ title: "CSE Operating Rhythm"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM/CSE-related handbook pages.
 
+
+[[_TOC_]]
+
 ---
 
 ## CSE Team Customer Engagement Types
@@ -104,7 +107,7 @@ NOTE: Unless specified otherwise, CSEs will automatically reach out to the conta
   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
   - [CSE Highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
 
-#### CSE Catalog Offerings
+## CSE Catalog Offerings
 
 The CSE Catalog provides a structured framework of engagement offerings that support customer technical needs across different GitLab areas. When submitting an engagement request to the CSE team, Account Executives (AEs), Renewal Managers (RMs), and Solutions Architects (SAs) can select from these offerings to best match the customer's specific requirements. Each offering is designed to address distinct technical challenges and implementation scenarios, allowing for more focused and effective CSE engagements. Below are the detailed descriptions of each available offering:
 
@@ -221,7 +224,7 @@ If a customer has additional questions after receiving the follow-up email, the 
 
 If the customer comes back with additional questions to the AE or RM, please feel free to redirect them to the CSE who had the call previously with the customer.
 
-### Capturing and Recording CSE Engagement Outcomes
+## Capturing and Recording CSE Engagement Outcomes
 
 Capturing clear and concise outcomes after each Customer Success Engineer (CSE) engagement is crucial. These outcomes help demonstrate the value provided to the customer, inform account teams, and provide valuable insights for product development and process improvement.
 
