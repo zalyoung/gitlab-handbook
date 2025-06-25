@@ -127,7 +127,7 @@ We will iterate on triage responsibilities to include additional activities such
 
 ### How to Complete Data Triage
 
-For issue triaging, the triager should add the appropriate labels to the issue to put the issue into the respective project's workflow. The triager is responsible for both triaging and validating the issue to determine if it warrants development. For the Data Team project for example, the triager should add the appropriate scoped TEAM label (Ex.`Team:GTM`) and the scoped `Workflow::triage & validation` label. From there, those issues are then put into the respective team's workflow.
+The triager is responsible for both triaging and validating issues to determine if they warrant development. Furthermore, the triager should double-check that correct labels have been added (i.e., the correct `Team::` label).
 
 **Note:**
 The Triager:
