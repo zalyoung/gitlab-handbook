@@ -43,31 +43,15 @@ We use our [Security Policies Priorities](https://about.gitlab.com/direction/sec
 
 Complete items are removed from the table once the code is in production without a feature flag, and a release post, if applicable, has been merged. The epic is closed at this point.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="security policies" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="security policies" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="security policies" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="security policies" >}}
-{{< /tableau >}}
-
 ### Workflow
 
 The Security Policies group largely follows GitLab's [Product Development Flow](/handbook/product-development/product-development-flow/).
 
 Additional information about how we operate can be found on the [Planning page](/handbook/engineering/development/sec/security-risk-management/srm-planning/).
 
-Our current workflow is visualized as flowchart on the [Workflow page](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/workflow/).
+Our current workflow is visualized as flowchart on the [Workflow page](/handbook/engineering/development/sec/security-risk-management/security-policies/workflow/).
 
-Our current process on how we work on features is on the [Feature process page](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/feature_process/)
+Our current process on how we work on features is on the [Feature process page](/handbook/engineering/development/sec/security-risk-management/security-policies/feature_process/)
 
 #### MR Reviews
 
