@@ -23,6 +23,7 @@ Triagers may choose to subscribe to the `C0Workflow::Backlog` label and/or perio
     | AppSec | 1. Apply the `Application Security Team` label<br/> 2. Tag `@gitlab-com/gl-security/product-security/appsec` and ask them to incorporate into their milestone planning |
     | PSIRT | Tag `@gitlab-com/gl-security/product-security/appsec/psirt-group` and ask them to incorporate into their milestone planning |
     | Vuln Management | Tag `@gitlab-com/gl-security/product-security/vulnerability-management` and ask them to incorporate into their milestone planning |
+    | ProdSecEng | 1. Apply the `~"team::Product Security Engineering"` label<br/> 2. Tag `@gitlab-com/gl-security/product-security/product-security-engineering` and ask them to incorporate into their milestone planning |
     | Not Listed | Tag team members individually, and update this Handbook page if you receive alternate instructions |
 
 1. Apply the label `C0Workflow::On Deck` to indicate this has been triaged and assigned.
