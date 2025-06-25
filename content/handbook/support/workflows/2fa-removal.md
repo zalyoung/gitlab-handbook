@@ -27,7 +27,7 @@ In most cases, users can disable 2FA themselves and regain access to their accou
 
 ### Enterprise Owner 2FA removal for Enterprise users
 
-A top-level group owner can [disable 2FA for any enterprise user](https://docs.gitlab.com/security/two_factor_authentication/#enterprise-users) who is also a group member. Users are automatically claimed as an Enterprise User if [a group has a verified domain](https://docs.gitlab.com/ee/user/enterprise_user/#verified-domains-for-groups), the user meets the [Enterprise User criteria](https://docs.gitlab.com/user/enterprise_user/#automatic-claims-of-enterprise-users).
+A top-level group owner can [disable 2FA for any enterprise user](https://docs.gitlab.com/security/two_factor_authentication/#enterprise-users) who is also a group member. A user is automatically claimed as an Enterprise User if [the group has a verified domain](https://docs.gitlab.com/ee/user/enterprise_user/#verified-domains-for-groups) and the user meets the [Enterprise User criteria](https://docs.gitlab.com/user/enterprise_user/#automatic-claims-of-enterprise-users).
 
 ## Definitions
 
