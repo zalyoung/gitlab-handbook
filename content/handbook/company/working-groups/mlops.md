@@ -45,15 +45,18 @@ Read more about the topic area from the links below:
 - MLOps Single Engineer Group
 - MLOps Primer
 - [MLOps Exploration](https://gitlab.com/groups/gitlab-org/incubation-engineering/mlops/-/epics/1)
-- [Draft Group Direction - MLOps](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/direction/modelops/mlops/index.html.md.erb)
+- Product Stage Direction - ModelOps
+- Draft Group Direction - MLOps
 - [Group Direction - AI Model Validation](https://about.gitlab.com/direction/ai-powered/ai_model_validation/)
+- AI Model Validation Group
 
 ### Related GitLab projects
 
 - [Spamcheck](https://gitlab.com/gitlab-org/spamcheck)
   - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
 - [Tanuki-Stan](https://gitlab.com/gitlab-org/ml-ops/tanuki-stan)
-
+- UnReview
+  - Architecture Diagram
 
 ### Related ML Slack channels
 
