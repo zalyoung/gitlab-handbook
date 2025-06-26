@@ -39,6 +39,6 @@ Start by creating a new issue using the [competitor evaluation issue template](h
 
 ## Legal considerations
 
-Follow the instructions on the [Legal Product Guidance](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/#guidelines-for-leveraging-third-party-saas-free-trials-to-gain-competitive-intelligence) internal handbook page when planning and conducting a competitor evaluation.
+Follow the instructions on the [Legal Product Guidance](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/productguidance/#guidelines-for-use-of-third-party-services-for-competitor-benchmarking) internal handbook page when planning and conducting a competitor evaluation.
 
 [Learn more about performing competitor evaluations](https://gitlab.com/gitlab-org/competitor-evaluations#performing-a-competitor-evaluation)
