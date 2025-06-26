@@ -17,7 +17,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 #### Equipment Setup
 
-- Watch for your Welcome Email from the Candidate Experience Specialist team with instructions for ordering your [laptop](/handbook/security/corporate/end-user-services/laptop-management/#gitlab-laptops) and [equipment](/handbook/finance/expenses/#equipment)
+- Watch for your Welcome Email from the Candidate Experience Specialist team with instructions for ordering your [laptop](/handbook/security/corporate/end-user-services/laptop-management/) and [equipment](/handbook/finance/expenses/#equipment)
 - Once your laptop arrives, feel free to explore it (Mac users: skip creating an Apple ID—you'll create one with your GitLab email on day one).
 
 #### Documentation
