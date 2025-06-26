@@ -132,7 +132,7 @@ For non-urgent assiatnce, open a Request For Help
 
 For urgent assistance
 
-1. Reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N) Slack channel using the @db-team handle
-1. Use the following template:
-   > Hey folks - Support is working on  a customer escalation  for 'customer name', and we need some assistance troubleshooting the following database issue - 'Link to ongoing slack thread, issue and zendesk ticket'
+1. Using the following template: 
+   > Hey folks - Support is working on  a customer escalation  for 'customer name', and we need some assistance troubleshooting the following database issue - 'Link to ongoing slack thread, RFH issue and zendesk ticket'
+   Reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N) Slack channel and tag `@db-team` (Application) or `@dbo-oncall` (Operational)
    
