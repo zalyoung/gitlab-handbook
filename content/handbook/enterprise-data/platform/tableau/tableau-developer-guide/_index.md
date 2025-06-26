@@ -308,7 +308,6 @@ To find this file, you are going to go to the GitLab-com repository, which is a 
 
 This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views.
 
-
 Reminder: *When embedding a view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page. Embedding Tableau charst are for the internal GitLab handbook only.*
 
 ### YML
