@@ -1,5 +1,5 @@
 ---
-title: Laptop Ordering"
+title: Laptop Ordering
 ---
 
 The CorpSec Helpdesk team handles the process for all laptops orders. Self procurement is only available if you are in a region where we are not able to have a laptop delivered.
