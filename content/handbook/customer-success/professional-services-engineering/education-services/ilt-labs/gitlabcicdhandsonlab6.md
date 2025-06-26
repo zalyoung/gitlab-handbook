@@ -216,7 +216,7 @@ environment:
   url: http://$ip:80
 ```
 
-1. After the pipeline has successfully completed, you can navigate to **Deploy > Environments** , and see your environment has been deployed. Click on the **Open** button to access your newly deployed application.
+1. After the pipeline has successfully completed, you can navigate to **Operate > Environments** , and see your environment has been deployed. Click on the **Open** button to access your newly deployed application.
 
 ## Lab Guide Complete
 
