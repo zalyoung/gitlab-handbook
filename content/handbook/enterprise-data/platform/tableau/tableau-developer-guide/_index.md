@@ -179,7 +179,7 @@ This indicates that the connection is looking for a column that does not exist/ 
 
 ## Embedding in the Handbook
 
-[Internal GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) charts and dashboards can be embedded in the GitLab Handbook to share visual content with teams on documentation pages. 
+[GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) (internal site only) charts and dashboards can be embedded in the GitLab Handbook to share visual content with teams on documentation pages. 
 
 **Important:** Users must have a Tableau license to view embedded content. Dashboards will not load for users without proper licensing.
 

@@ -3,41 +3,27 @@ title: Handbook Embedding Demonstration Page
 type: docs
 ---
 
-This is our Tableau embed demo page.  It is used to demonstrate how we can embed Tableau visualizations into the handbook. To facilitate uniform experience and presentation we use a [shortcode](http://handbook.gitlab.com/docs/shortcodes/#tableau-embeds) to embed Tableau charts and dashboards.
+This is our Tableau embed demo page.  It is used to demonstrate how we can embed Tableau visualizations into the internal handbook. To facilitate uniform experience and presentation we use a [shortcode](http://handbook.gitlab.com/docs/shortcodes/#tableau-embeds) to embed Tableau charts and dashboards.
 
 **Important:** Users must have a Tableau license to view embedded content. Dashboards will not load for users without proper licensing.
 
-To view charts embedded in the handbook the browser will need to have third party cookies enabled. This is because the handbook site needs to connect to our public Tableau site, and uses cookies to do this.
+To view charts embedded in the internal handbook the browser will need to have third party cookies enabled. This is because the internal handbook site needs to connect to our public Tableau site, and uses cookies to do this.
 
 ## Embedding Straight Into the Handbook (No YML File)
 
 ### Viz from Internal Tableau site
 
-Follow this video [demonstration on how to do the embed](https://youtu.be/Vry_yqUP2C8). Note this has information on how to emmbed for a legacy Tableau Public site that has now been deactivated. Much of the training is still relevant for embedding internally
+Follow this video [demonstration on how to do the embed](https://youtu.be/Vry_yqUP2C8). Note this has information on how to emmbed for a legacy Tableau Public site that has now been deactivated. Much of the training is still relevant for embedding in the internal handbook.
 
-The source url for a view from the internal Tableau site can be found by navigating to the view and selecting the `Share` option at the top of the screen and then selecting the `Copy Link` option.
+The source url for a view from the internal Tableau site can be found by navigating to the view and selecting the `Share` option at the top of the screen and then selecting the `Copy Link` option. Embedded charts should only require a log in to the Tableau site and only be visible to those that have a Tableau license. GitLab team members should login via OKTA SSO.
 
 ![tableau share](/images/enterprise-data/platform/tableau/embed-demo/tableau_view_share.png)
 
 ![tableau link](/images/enterprise-data/platform/tableau/embed-demo/tableau_view_link.png)
 
-This chart should only require a log in to the Tableau site and only be visible to those that have a Tableau license. GitLab team members should login via OKTA SSO.
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/t/gitlab/views/OKR4_7EngKPITest/PastDueInfraDevIssues" >}}
-{{< /tableau >}}
-
-### Viz with Parameters and Filters and Height
-
-This chart should be filtered to a pre-selected Severity and Subtype. The ability to use parameters and filters means that we can more flexibly use a single chart to display different cuts in different embeds if needed.
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OKR4_7EngKPITest/PastDueSecurityIssues" >}}
-  {{< tableau/params "Severity Select"="S2" >}}
-  {{< tableau/filters "Subtype Label"="bug::vulnerability" >}}
-{{< /tableau >}}
-
 ## Embedding Performance Indicators or Other Views Using YML Files
 
-[Here is a video demonstrating the entire process of embedding PI's using yml files- public or internal views.](https://gitlab.zoom.us/rec/share/rK5olD88X0ZEzbbSmVFXB-jsMYfaD7V9j_ALTL89WJ4JZM1m_CugxAp_T1C5m87n.XK69XZAoRmndQglk?startTime=1706031218000)
+[Here is a video demonstrating the entire process of embedding PI's using yml files for internal views.](https://gitlab.zoom.us/rec/share/rK5olD88X0ZEzbbSmVFXB-jsMYfaD7V9j_ALTL89WJ4JZM1m_CugxAp_T1C5m87n.XK69XZAoRmndQglk?startTime=1706031218000)
 Passcode: 6yz?njYI
 
 There are a few extra steps to embed any views using a yml file, because you do not add the shortcodes right into the handbook page where the actual view shows up. Here is the process.
