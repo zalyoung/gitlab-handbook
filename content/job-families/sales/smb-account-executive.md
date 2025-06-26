@@ -106,7 +106,6 @@ The Regional Manager, SMB is a grade level 8.
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s travel policy
 
-
 ## Senior Regional Manager, SMB
 
 The Senior Regional Manager, SMB reports to the Senior Director, High Velocity Sales & First Orders.
