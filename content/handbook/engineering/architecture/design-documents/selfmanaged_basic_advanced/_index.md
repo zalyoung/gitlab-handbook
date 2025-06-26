@@ -5,9 +5,9 @@
 title: Self-Managed Basic and Advanced
 status: proposed
 creation-date: "2025-06-24"
-authors: [ "@warheadsse" ]
+authors: [ "@WarheadsSE" ]
 coaches: [ "@andrewn" ]
-dris: [ "@mbruemmer", "@mbursi", "@nolith" ]
+dris: [ "@WarheadsSE", "@mbruemmer", "@mbursi", "@nolith" ]
 owning-stage: "~devops::gitlab delivery"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
@@ -86,7 +86,7 @@ A good summary is probably at least a paragraph in length.
 
 This proposal recommends segmenting our current Self-Managed deployment option into two distinct tiers: Self-Managed Basic (SMB) and Self-Managed Advanced (SMA), and modifying the requirement for a GA features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Advanced. Launching new features on Self-Managed Basic would become optional.
 
-This strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMA while maintaining support for current customers with traditional deployment requirements via SMB.
+This strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMA while maintaining support for current customers with traditional deployment requirements through SMB.
 
 ## Motivation
 
@@ -106,7 +106,7 @@ opportunities. The latter may be a more suitable framework in cases where the
 problem is not well-defined or design details not yet established.
 -->
 
-The current Self-Managed option attempts to serve all customer infrastructure under a single feature launch umbrella. This creates significant engineering complexity as we try to deliver advanced features (e.g. Security features as part of Ultimate) across vastly different infrastructure environments. As a specific example, we have several features in the pipeline that will require Clickhouse being available, which is not available in Omnibus.
+The current Self-Managed option attempts to serve all customer infrastructure under a single feature launch umbrella. This creates significant engineering complexity as we try to deliver advanced features (for example: Security features as part of Ultimate) across vastly different infrastructure environments. As a specific example, we have several features in the pipeline that will require ClickHouse being available, which is not available in Omnibus.
 
 Cloud-native deployments enable critical capabilities that traditional OS-level installations cannot efficiently support, or that we do not have the engineering bandwidth to deliver at the expected quality. In addition, cloud-native deployments enable customers to scale GitLab far more efficiently.
 
@@ -124,9 +124,9 @@ Provide a means to accelerate delivery of features, especially to cloud native c
 
 In particular, this aims to:
 
-- **Accellerate Innovation** by facilitating the integrating supplemental components to the overall [GitLab architecture][arch-component-diagram] in a streamlined manner.
+- **Accelerate Innovation** by facilitating the integrating supplemental components to the overall [GitLab architecture](https://docs.gitlab.com/development/architecture/#component-diagram) in a streamlined manner.
 - Provide **Clear Customer Expectations** through transparent differentiation between deployment methods.
-- Increase **Engineering Efficiency** by reducing the complexity of maintaining compability across disparate environments.
+- Increase **Engineering Efficiency** by reducing the complexity of maintaining compatibility across disparate environments.
 - Improve the **Upgrade Path** by providing a clear migration path for customers seeking advanced capabilities.
 
 We aim to explicitly avoid:
@@ -144,7 +144,7 @@ optional.
 - What is out of scope for this document?
 -->
 
-- Discussion of [airgapped][airgap] vs non-airgapped environments.
+- Discussion of [air-gapped](https://en.wikipedia.org/wiki/Air_gap_(networking)) vs non-air-gapped environments.
 - Interpolation and discussion of Omnibus GitLab meta-packaging initiatives.
 
 ## Proposal
@@ -162,14 +162,13 @@ compared with the pros and cons of alternatives.
 
 Segment the Self-Managed option into two distinct tiers:
 
-|    | Self-Managed Basi (SMB) | Self-Managed Advanced (SMA) |
+|    | Self-Managed Basic (SMB) | Self-Managed Advanced (SMA) |
 | :- | :---------------------- | :-------------------------- |
-| Technology Base | Operating system packages | Containerized cloud native deployment architecture
-| Target Customer | CE/EE Free; Premium and Ultimate with limited feature set | Free with technical skills for cloud native; Premium and Ultimate
-| Target Environment | Traditional infrastructure (bare metal, VMs) | Containerized infrastructure with Kubernetes, IaaS cloud (such as GCP, AWS) or on-prem. Driven by Helm or Operator.
-| Value Proposition | Core product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling.
-| Feature Guarantee | New Ultimate features not guatanteed, due to technical constraints. | All new Ultimate functionality guaranteed
-
+| Technology Base | Operating system packages | Containerized cloud native deployment architecture. |
+| Target Customer | CE/EE Free; Premium and Ultimate with limited feature set | Free with technical skills for cloud native; Premium and Ultimate. |
+| Target Environment | Traditional infrastructure (bare metal, VMs) | Containerized infrastructure with Kubernetes, IaaS cloud (such as GCP, AWS) or on-prem. Driven by Helm or Operator. |
+| Value Proposition | Core product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling. |
+| Feature Guarantee | New Ultimate features not guaranteed, due to technical constraints. | All new Ultimate functionality guaranteed. |
 
 ## Design and implementation details
 
@@ -198,8 +197,6 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
-
-
 ## Alternative Solutions
 
 <!--
@@ -208,6 +205,3 @@ each alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
-
-[arch-component-diagram]: https://docs.gitlab.com/development/architecture/#component-diagram ' 'GitLab architecture component diagram'
-[airgap]: <https://en.wikipedia.org/wiki/Air_gap_(networking)> 'air gap (network)'
