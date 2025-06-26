@@ -163,16 +163,9 @@ The following reference table can be used as a guideline on achieving comfort wi
 
 ### Ongoing learning
 
-The modules in this section should eventually be taken regardless of your Area of Focus. The topics listed here can be completed in any order. Please discuss with your manager to determine which areas will be relevant to your work and the timing for completion.
+Support Engineers are expected to continuously learn after onboarding. As per the [Support Engineer Responsibilities](/handbook/support/support-engineer-responsibilities/#develop-your-skills-through-learning-and-training-weekly), Support Engineers should aim to complete a training module every quarter (3 months).
 
-| Module | Description |
-| ------ | ------ |
-| [GitLab Intermediate Topics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Intermediate%20Topics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Intermediate%20Topics) | Intermediate topics for both areas of focus |
-| [GitLab API](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=GitLab%20API&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20API) | Module focused on the GitLab API |
-
-### Additional Modules in the Support Training Project
-
-We are continuously working on adding more modules and building out more learning pathways: you can find a list of all our current training modules and Modules in the [Support Training project](https://gitlab.com/gitlab-com/support/support-training/-/tree/main/.gitlab/issue_templates).
+You can find a list of all our current training modules and Modules in the [Support Training project](https://gitlab.com/gitlab-com/support/support-training/-/tree/main/.gitlab/issue_templates). We are continuously working on adding more modules and building out more learning pathways. [Anyone at GitLab can contribute and create Support-specific training!](#creating-and-viewing-gitlab-component-based-training)
 
 ### Creating and viewing GitLab component based training
 
