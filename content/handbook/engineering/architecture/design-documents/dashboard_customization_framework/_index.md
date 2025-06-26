@@ -56,13 +56,12 @@ dashboard layout component and extends its capabilities to allow for user-driven
 ## Motivation
 
 Currently dashboards provide valuable insights but are static in nature. Users cannot personalize their dashboards to focus on the metrics most
-relevant to their workflows, responsibilities, or user roles. These limitations severely reduce the effectiveness of dashboards as an analytics tool
+relevant to their workflows, responsibilities, or user roles. These severely reduce the effectiveness of dashboards as an analytics tool
 for our customers.
 
-Furthermore, without user-customization the responsibility for meeting our customer's diverse analytics needs falls entirely on product teams.
-Teams must anticipate, design, and continuously maintain multiple dashboards to satisfy different user personas, use cases, and organizational
-requirements. This creates a significant maintenance burden and resource allocation challenge, as teams spend considerable time building and
-updating dashboard layouts and visualizations instead of focusing on core feature development and data quality improvements.
+Without user-customization, product teams must anticipate, design, and continuously maintain multiple dashboards to satisfy ever changing user personas,
+use cases, and organizational requirements. This creates a significant maintenance burden and resource allocation challenge, as teams must spend considerable
+time building and updating dashboard layouts and visualizations instead of focusing on core feature development and data quality improvements.
 
 ### Goals
 
@@ -82,10 +81,10 @@ The dashboard customization framework does not:
 
 ## Proposal
 
-Create a new customizable dashboard component that makes it easy for teams to extend their dashboard layout with user customization
-in accordance with our modular dashboard foundations [epic](https://gitlab.com/groups/gitlab-org/-/epics/18072). The component must be a drop-in
-replacement for existing use cases of the dashboard layout component. The component should wrap the dashboard layout component and extend its
-capabilities to deliver a consistent dashboard customization UX while maintaining the core dashboard layout component's functionality and API.
+Create a new customizable dashboard component to help teams extend their dashboard layouts with user customization in accordance with our modular
+dashboard foundations [epic](https://gitlab.com/groups/gitlab-org/-/epics/18072). The component must be a drop-in replacement for existing
+use cases of the dashboard layout component. The component should wrap the dashboard layout component and extend its capabilities to deliver
+a consistent dashboard customization UX while maintaining the core dashboard layout component's functionality and API.
 
 ## Design and implementation details
 
@@ -98,7 +97,10 @@ should be visible to all authorized users the next time they load the dashboard.
 
 ### Dashboard layout
 
-When not editing, the dashboard look and behave the same as a static dashboard except for a new edit action.
+When not editing:
+
+- The dashboard behaves the same as a static dashboard
+- The edit action is available to authorized users who can make dashboard changes
 
 When editing:
 
