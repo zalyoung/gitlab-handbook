@@ -661,3 +661,8 @@ GitLab's KiwiSaver contributions will be 3% on top of base salary. Team members 
 ### Life Insurance
 
 GitLab does not plan at this time to offer Life Insurance benefits because New Zealanders can access [government payments and services](https://www.workandincome.govt.nz/providers/health-and-disability-practitioners/health-and-disability-related-benefits.html) to help if they get ill, injured or have a disability.
+
+
+### Miscellaneous 
+
+We have a New Zealand social Google group available, which will give you access to NZ events and documents. If you would like to have access, please create an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GoogleGroup_Request) for the IT team.
