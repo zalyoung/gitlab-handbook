@@ -125,7 +125,7 @@ Always include:
 
 #### For Support Escalations
 
-For non-urgent assiatnce, open a Request For Help
+For non-urgent assistance, open a Request For Help
 
 1. File a new [request for help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?description_template=SupportRequestTemplate-DatabaseFrameworks)
 1. Reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N), include a link to the request for help
