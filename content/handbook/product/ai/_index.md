@@ -40,4 +40,4 @@ This page serves as a resource for team members looking for information about wo
 ## Current AI features and teams
 
 * [AI features by tier](https://docs.gitlab.com/user/gitlab_duo/): All features that are available to use, and how to access them.
-* [AI teams](/handbook/engineering/ai/#ai-department-stakeholders)
+* [AI teams](/handbook/engineering/ai/#ai-engineering-stakeholders)
