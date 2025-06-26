@@ -55,6 +55,7 @@ Next, in `mart_gcp_billing_line_item`, we attribute each GCP line item to the me
 Once the best match is selected, the line is split across the P&L categories and GitLab plans. The usage amount and net cost fields are adjusted based on the percent of metric usage calculated in `Step 2`. 
 
 ### Step 4: Calculate Lookback
+
 The lookback mappings are used to retroactively apply updated profit and loss (P&L) allocations to historical data. This ensures consistency in P&L reporting over time.
 In Google's Cloud Billing data, our commitment costs are still incurred on the projects using the eligible compute resources. Once we apply the P&L split to a certain area of costs, the Committed Use Discount (CUD) lines are not mapped and must be mapped by looking back on the same parameters.
 
@@ -65,6 +66,7 @@ There are two types of Commited Use Discounts to apply:
 These two lookbacks are generated in `rpt_gcp_billing_lookback` where we calculate the daily ratio of billed net cost for each type of CUD based on rules that define the Commited Use Discount line items.
 
 ### Step 5: Apply Lookback and Generate Reporting Fields
+
 The final step is to reattribute the lines previously attributed in `mart_gcp_billing_line_item` based on the CUD lookbacks calculted in `Step 3`. We find the best match between the GCP line items and the lookback mappings, peferring matches based on the same attributes.
 
 Lastly, we derive fields for reporting such as `product_category`, `finance_sku_type`, and hierarchical columns.
