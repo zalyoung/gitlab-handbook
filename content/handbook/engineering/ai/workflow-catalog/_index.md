@@ -60,22 +60,22 @@ The Workflow Catalog relies on the
 as a foundational backend service.
 Most Workflow Catalog features require new capabilities to be developed within Workflow Service,
 which means our engineers will need to contribute directly to that codebase in partnership with the
-[Duo Workflow team](../duo-workflow/_index.md).
+[Duo Agent Platform team](../duo-agent-platform/_index.md).
 
 **Collaboration Requirements:**
 
-* All Workflow Service contributions must be developed in close partnership with the Duo Workflow team
-* Our implementations must align with their service [architecture and vision](../../../../architecture/design-documents/duo_workflow/_index.md)
+* All Workflow Service contributions must be developed in close partnership with the Duo Agent Platform team
+* Our implementations must align with their service architecture and vision
 * We commit to supporting Workflow Service's broader goals and adhering to their technical standards
 
 **Collaboration Process:**
 
-* Reach out to relevant Duo Workflow contacts (listed below) during the planning phase
+* Reach out to relevant Duo Agent Platform contacts (listed below) during the planning phase
 * Join their [`#g_duo_workflow`](slack://channel?id=g_duo_workflow) channel
 * Follow our [async communication preferences](#communication) by default, but schedule sync meetings
   when needed and ensure key outcomes are documented in GitLab issues
 
-#### Primary Duo Workflow contacts
+#### Primary Duo Agent Platform contacts
 
 | Team Member | Expertise Area |
 | ---      | ---     |

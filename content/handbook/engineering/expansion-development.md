@@ -451,10 +451,9 @@ These are the stakeholders:
 | [Create:Remote Development](/handbook/engineering/devops/dev/create/remote-development)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
 | [Editor Extensions](/handbook/engineering/ai/editor-extensions/)                                                   | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [JetBrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
 | [Enablement:Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | AI-Assissted for Self-Managed |
-| [AI Framework](/handbook/engineering/ai/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
-| [Duo Chat](/handbook/engineering/ai/data-science/ai-powered/duo-chat/)                                                           | GitLab Chat for VSCode and WebIDE|
+| [AI Framework](/handbook/engineering/ai/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
+| [Duo Chat](/handbook/engineering/ai/duo-chat/)                                                           | GitLab Chat for VSCode and WebIDE|
 | [Create:Code Creation](/handbook/engineering/ai/code-creation/)                                                    | Code Suggestions |
-| [AI Model Validation Group](/handbook/engineering/ai/data-science/ai-powered/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
 | [Infrastructure](/handbook/engineering/infrastructure/)                                                                                | Code Suggestions AI Gateway scalability |
 
 ## ClickHouse Datastore usage
