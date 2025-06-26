@@ -60,6 +60,7 @@ The lookback mappings are used to retroactively apply updated profit and loss (P
 In Google's Cloud Billing data, our commitment costs are still incurred on the projects using the eligible compute resources. Once we apply the P&L split to a certain area of costs, the Committed Use Discount (CUD) lines are not mapped and must be mapped by looking back on the same parameters.
 
 There are two types of Commited Use Discounts to apply:
+
 - **Flex CUD**: A type of Committed Use Discount in Google Cloud Platform that provides flexibility in usage.
 - **T2D**: Refers to a specific type of Google Cloud Platform resource or service, likely in the context of a Committed Use Discount.
 
