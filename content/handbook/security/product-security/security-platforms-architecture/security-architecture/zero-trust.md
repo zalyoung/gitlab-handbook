@@ -21,7 +21,7 @@ You can also check out our [Zero Trust Networking (ZTN) blog series](https://abo
 
 Head over to the /r/netsec subreddit to see our [October 29, 2019 Reddit AMA](https://www.reddit.com/r/netsec/comments/d71p1d/were_a_100_remote_cloudnative_company_and_were/) on Zero Trust where we fielded questions around our ZTN implementation, roadmap, strategy and more.
 
-Identity is a critical element of the implementation of a ZTN framework. GitLab is moving forward with an implementation of Okta to allow us to standardize authentication for Cloud Application access and implement user-friendly SSO. See our [Okta](/handbook/it/okta/) page for more details.
+Identity is a critical element of the implementation of a ZTN framework. GitLab is moving forward with an implementation of Okta to allow us to standardize authentication for Cloud Application access and implement user-friendly SSO. See our [Okta](/handbook/security/corporate/end-user-services/okta/) page for more details.
 
 ### Why We Don't Have a Corporate VPN
 
@@ -45,6 +45,6 @@ wish to use a personal VPN service for any reason may still [expense one](/handb
 For the use case of laptop usage in untrusted environments, such as coffee shops
 and coworking spaces, team members should prioritize a baseline of always-on
 host protections, such as up-to-date security patching, host firewalls, and
-antivirus, by following the [Laptop Software Configuration Standards](/handbook/security/corporate/services/laptops/software/).
+antivirus, by following the [Laptop Software Configuration Standards](/handbook/security/corporate/end-user-services/laptop-management/laptop-security//).
 That said, a personal VPN may provide additional protections in these
 situations. For more on personal VPNs see the [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page.

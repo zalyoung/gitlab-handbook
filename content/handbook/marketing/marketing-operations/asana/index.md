@@ -19,13 +19,86 @@ We've consistently heard from team members across the marketing org that there i
 
 ## Users
 
-Asana licenses will be rolled out across the entire Marketing Org, excluding Sales Development and the Data Team.
+Asana licenses will be rolled out across the entire Marketing Org.
 
-View Only licenses are available to all GitLab team members. If you would like a view only license, please put in an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
+View Only licenses are available to all GitLab team members. If you would like a view only license, please request access in Lumos (please be sure to select View Only permission).
 
-## Asana Implementation Project
+## User Provisioning Guide
 
-The Marketing Ops team started implementation on 2024-07-12. We are managing the [implementation project in Asana](https://app.asana.com/0/1207801099246898/1207801099246898).
+### Overview
+
+GitLab team members can request Asana access through the Lumos app store. This guide outlines the provisioning process for Marketing Operations team members.
+
+### Request Flow
+
+1. **Team Member Request**: GitLab team member submits Asana access request via Lumos app store
+2. **Manager Approval**: Request is automatically sent to the requester's manager for approval
+3. **Marketing Ops Review**: Once approved by manager, request is forwarded to Marketing Operations for provisioning
+
+### Access Entitlements
+
+#### Marketing Team Members
+
+- **Entitled to**: Full Asana license
+- **Provisioning method**: Automatic via SCIM (approve in Lumos)
+
+#### Non-Marketing Team Members
+
+- **Entitled to**: View-only access
+- **Provisioning method**: Manual invitation through Asana admin console and Lumos
+
+### Provisioning Process
+
+#### Step 1: Verify Team Membership
+
+Check if the requester is on the Marketing team to determine their access entitlement.
+
+#### Step 2A: Full License Request (Marketing Team Member)
+
+If the requester is on the Marketing team and requesting a full license:
+
+1. Approve the request in Lumos
+2. User will be automatically provisioned via SCIM
+
+#### Step 2B: Full License Request (Non-Marketing Team Member)
+
+If the requester is NOT on the Marketing team but requested a full license:
+
+1. Comment on the Lumos thread explaining they are only entitled to view-only access
+2. Ask the requester to re-submit their request specifically for view-only access
+3. **Deny the original Lumos request** (requests cannot be edited)
+
+#### Step 2C: View-Only Request (Any Team Member)
+
+For view-only access requests, manual provisioning is required:
+
+##### Manual Invitation Process
+
+1. Navigate to the [Asana admin console](https://app.asana.com/admin/306855239930259/members)
+2. Click **"Invite Members"** in the top right corner
+3. In the invitation dialog:
+   - **Email**: Paste the requester's email address
+   - **Team**: Select `All Marketing` from the "Add to team" dropdown
+   - **Projects**: Optionally select specific projects to add them to
+   - **License**: Select **"View Only"** from the license dropdown
+4. Send the invitation
+5. **Important**: Click **"Confirm Provisioning"** on the Lumos request
+
+### Key Points to Remember
+
+- **Marketing team members** are entitled to full licenses
+- **Non-marketing team members** are entitled to view-only access only
+- **Full license requests** from non-marketing members must be denied and re-submitted as view-only requests
+- **View-only access** always requires both manual provisioning through the Asana admin console and confirmation in Lumos
+- **Always confirm provisioning** in Lumos after completing manual invitations
+
+### Quick Reference
+
+| Requester Team | Request Type | Action |
+|----------------|--------------|--------|
+| Marketing | Full License | Approve in Lumos (auto-provision via SCIM) |
+| Non-Marketing | Full License | Comment, ask to re-submit for view-only, deny request |
+| Non-Marketing | View Only | Manual invitation + Confirm in Lumos |
 
 ## How to get help with Asana
 

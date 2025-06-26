@@ -73,6 +73,19 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives. Follow this guide to support your work: [Designing with AI: A Guide for Product Designers](/handbook/product/ux/product-designer/ai-design.md)
 
+### Designing with modes
+
+Design must work in all generally available modes, which currently includes light and dark mode. Keep these considerations in mind as you design:
+
+- Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests (point 5)](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test).
+- The design system provides design tokens and components that work in supported modes.
+- Take extra care when mode is a primary factor in customer outcomes.
+- Dark mode design must align with the dark mode principles:
+  - **Forward elements are lighter, receding ones are darker.** This mimics natural light behavior: brighter elements come forward, while darker ones recede. In dark mode, brighter elements create depth, ensuring important content stands out without relying heavily on borders or shadows.
+  - **Reduced color saturation.** In a dark UI, color naturally stands out more, and the amount of color use is reduced. Instead of flooding backgrounds with color, use color more selectively to draw attention where it’s needed.
+  - **Dimmed, not inverted.** Dark mode should feel like dimming the lights rather than completely inverting the interface. Carefully decide which elements to darken and which to brighten to maintain content clarity while allowing backgrounds to recede appropriately.
+- Use analytics data to determine which mode should be your primary design focus.
+
 ### Aiming towards "sophisticated simplicity"
 
 The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity, Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
@@ -102,11 +115,10 @@ Consider these questions when designing:
 - Is this feature or capability needed or used, or what would happen if it were removed?
 - Is everything "in reach," or are users left wandering?
 
-#### Beautifying and "unboxing" the UI
+#### "Unboxing" the UI
 
-Two ongoing design efforts align with sophisticated simplicity:
+Ongoing design efforts align with sophisticated simplicity:
 
-1. **Beautifying the UI**: Enhance the UI by cleaning up components or entire pages to create more consistency, organization, and aesthetic appeal. Learn more in the [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui) section of the handbook.
 1. **Unboxing the UI**: Reduce the overuse of boxes for conveying hierarchy, organizing content, and dividing pages into section. Explore better alternatives in this video on ["Unboxing" the UI](https://youtu.be/MxpZuWQH-kk).
 
 ### Ideate and iterate

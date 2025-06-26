@@ -443,7 +443,7 @@ While there are other hardware tokens that are also decent and will function wit
 
 What GitLab team members need to keep in mind is that if you travel with your company laptop - either on a business trip, a trip to visit family and friends in another location but you intend to keep working, or just a trip to the local coffee shop - treat the token with the same level of care as a credit card. Do not leave it where it could be stolen.
 
-If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/security/corporate/systems/okta/verify/) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
+If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/security/corporate/end-user-services/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/security/corporate/systems/okta/verify/) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
 
 Usage of 2FA is mandatory for GitLab team members.
 
@@ -992,7 +992,7 @@ Jamboard is a collaborative whiteboarding platform, accessible at <https://jambo
   - Hide the bookmarks bar: `cmd shift b` (e.g. for screenshots, or shared screen presentations)
   - Open the developer tools: `cmd option i` (e.g. for debugging website errors)
 - You can [organize tabs into tab groups](https://www.google.com/chrome/tips/#organize), assign names and custom colors, and collapse or reorder them. Moving tabs between groups also works across browser windows.
-- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/security/corporate/services/laptops/refresh/).
+- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes).
 
 #### Chrome Performance Settings
 

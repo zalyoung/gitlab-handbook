@@ -13,7 +13,7 @@ If you have any questions around the offboarding process, please be sure to revi
 
 ### Offboarding Support
 
-For system access questions and [laptop wipes](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/) related to offboarding, send an email to `gitlab-laptop-recovery@gitlab.com`.
+For system access questions and [laptop wipes](https://internal.gitlab.com/handbook/security/corporate/end-user-services/gitlab-laptop-offboarding/) related to offboarding, send an email to `gitlab-laptop-recovery@gitlab.com`.
 
 For payroll questions or outstanding expense claims, please reach out to either `uspayroll@gitlab.com` or `nonuspayroll@gitlab.com`.
 
@@ -53,6 +53,10 @@ Team Members located in Japan who are resigning need to complete [this resignati
 ##### Singapore
 
 Team Members located in Singapore who are resigning and are **not** Singapore citizens need to complete a Letter of Undertaking [document](https://docs.google.com/document/d/1l4Iq6atvXzq6Gt_DdiWfv3DwvshTOoEYZv8baMq_HKo/edit?usp=sharing) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner. Please download or make a copy of the document in order to complete.
+
+##### UAE
+
+Team members the the PEO/EOR on UAE work visa's who resign, completes their contract, or changes jobs, their visa must be cancelled by the company regardless of whether they leave the UAE. Team member's with dependents must first either cancel dependent visas (if dependents are leaving the UAE) or place them on hold (if dependents are staying) - this is managed by the team member as the dependent visa sponsor. The PEO/EOR company handles the mandatory work visa cancellation process through MOHRE (for labor card) and GDRFA (for residence visa), which takes 1-3 working days. Team members have 30 days after cancellation to leave the UAE or obtain a new visa. Failure to cancel properly may result in re-entry bans, overstaying fines, and complications with final payroll and health insurance processing.
 
 ### Termination
 
@@ -309,7 +313,7 @@ To track all tool deprovisioning, please open an offboarding issue following the
 
 As part of offboarding, any GitLab property valued above 1,000 USD needs to be returned to GitLab.
 
-For laptops, please check and refer to the [Laptop Buyback Policy](/handbook/security/corporate/services/laptops/buyback/) which states that team members *may*, at GitLab's discretion, have the option to keep or buy back their existing laptops either when it gets refreshed for a new one, or when the team member is offboarding.  However, the option to purchase or keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause of any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), or other legal or security related inquiries.
+For laptops, please check and refer to the [Laptop Buyback Policy](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks) which states that team members *may*, at GitLab's discretion, have the option to keep or buy back their existing laptops either when it gets refreshed for a new one, or when the team member is offboarding.  However, the option to purchase or keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause of any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), or other legal or security related inquiries.
 
 To return your laptop to GitLab, please contact `gitlab-laptop-recovery@gitlab.com` immediately upon offboarding.
 

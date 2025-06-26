@@ -405,7 +405,7 @@ After the incident has been closed double check that the status page looks right
 
 #### Add Post-Mortem
 
-A review will be conducted by production engineering for every incident that matches a [certain criteria](/handbook/engineering/infrastructure/incident-management/#incident-review). Status.io allows us to add a link to a post-mortem after an incident has been resolved which will then be viewable on our status page for that specific incident.
+A review will be conducted by production engineering for every incident that matches a [certain criteria](/handbook/engineering/infrastructure-platforms/incident-review). Status.io allows us to add a link to a post-mortem after an incident has been resolved which will then be viewable on our status page for that specific incident.
 
 Do the following to add a post-mortem to a resolved incident:
 

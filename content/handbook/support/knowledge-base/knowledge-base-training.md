@@ -18,3 +18,4 @@ Training Courses:
 - [Technical Reviewer (Knowledge Champion)](https://docs.google.com/document/d/1AYjeR9PhhQud9dOpabh8ZzRQEzWNKMhfb7nO0G-0tkw/edit?usp=sharing)
 - [How to Review a Knowledge Article](https://docs.google.com/document/d/1AYjeR9PhhQud9dOpabh8ZzRQEzWNKMhfb7nO0G-0tkw/edit?usp=sharing)
 - [How to Link a Knowledge Article to a Support Ticket](https://docs.google.com/document/d/1fazexUjnEyXQ_R_mJ5f7bYtydOD00Xl1plcOjtwd-9w/edit?usp=sharing)
+- [How to Change the Folder and Viewing Permissions of a Knowledge Article](https://docs.google.com/document/d/1QRfCAvxnYbu8tVb3tArkLy4yC-WGNI7VHt0T3euoTn4/edit?tab=t.0#heading=h.tsytn5x3kttz)

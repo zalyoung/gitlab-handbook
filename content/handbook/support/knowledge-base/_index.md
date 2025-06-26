@@ -6,6 +6,8 @@ description: GitLab Support's Knowledge Base
 The knowledge base (KB) is a repository of solutions to commonly-encountered problems, created and maintained by Support Engineers (SE).
 The knowledge base turns the effort used to solve a single ticket for one customer into a public resource for all GitLab users.
 
+[GitLab Knowledge Article Page](https://support.gitlab.com/hc/en-us/categories/360002276159-Knowledge-Articles)
+
 Benefits:
 
 - Deflects ticket creation.
@@ -80,9 +82,18 @@ A list of available training can be found in [Knowledge Base Training Resources]
 
 ## Implementation
 
-We use ZenDesk to create, modify, and  publish knowledge base articles.
+We use ZenDesk to create, modify, and  publish knowledge base articles.  Follow the [training to create a knowledge article](https://docs.google.com/document/d/1zEJHhkIxdhYFnOEJrzw3uinXhrvKtvA17Gn7AmZR9yg/edit?tab=t.0#heading=h.4d11fzkgmi1w) IN ZenDesk.
 
-Knowledge base articles are dynamically suggested to a user while submitting a ticket.
+If you are NOT a ZenDesk User, and want to create a knowledge article, you can do so externally!  Follow the process below.
+
+### How to create a knowledge article if you are not in ZenDesk 
+
+Anyone can create a knowledge article regardless of being in ZenDesk or not (or if you are a Light Agent). To create an article you will:
+
+1. Go to the [Folder and choose a template](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR)
+2. Create the article using the template and Save the document.
+3. Use the Knowledge Slack Channel [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) to request the article to be created. Please tag {{< member-by-name "Kirsty Allen" >}} . OR you can Create an ISSUE and Assign to {{< member-by-name "Kirsty Allen" >}} 
+4. Your Article will be created in ZenDesk and assigned to a reviewer & then Published. You will be notified of Publication. 
 
 Integrating with Zendesk offers the following benefits:
 
@@ -92,6 +103,7 @@ Integrating with Zendesk offers the following benefits:
 - Improved Support Engineer Productivity
 - Streamlined Analytics and Reporting
 - Streamline "Knowledge Centered Service" (KCS), adopting knowledge into the workflow
+Note: Knowledge base articles are dynamically suggested to a user while submitting a ticket.
 
 Knowledge base articles can be found at:
 
@@ -101,40 +113,52 @@ Knowledge base articles can be found at:
 
 ### Roles and Permissions
 
-Permissions in ZenDesk indicate what a user can do around knowledge.
+There are three roles: Support Engineer, Knowledge Champions and Knowledge Admins.
+
+- **Support Engineers**: Create, update and use KB articles in tickets.
+- **Knowledge Champions**: Review, publish, archive and control permissions.
+- **Knowledge Admins**: Make sure everything runs smoothly.
+
+Most Knowledge Base tasks are performed within the Zendesk platform (Support and Knowledge Portal). However, some tasks by Knowledge Admins will require manual work outside of Zendesk.
 
 {{< cardpane >}}
 {{% card header="**Knowledge Workers (Support Engineers, Everyone)**" %}}
 
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link Knowledge articles to Support Tickets
+| Task | Executed In |
+|------|---------|
+| Create (draft) articles | Zendesk Knowledge|
+| Modify (update) articles | Zendesk Knowledge |
+| Link Knowledge article in a Ticket | Zendesk Support |
 
 {{% /card %}}
 
 {{% card header="**Knowledge Champions (Technical Reviewers)**" %}}
 
-- Review/Approve/Publish knowledge articles
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link knowledge articles to support tickets
-- Add/Remove permissions for users
-- Archive knowledge articles
+| Task | Executed In |
+|------|---------|
+| Review/Approve articles | Zendesk Knowledge |
+| Publish articles | Zendesk Knowledge |
+| Create (draft) articles | Zendesk Knowledge |
+| Modify (update) articles | Zendesk Knowledge |
+| Link Knowledge articles in Zendesk ticket | Zendesk Support |
+| Add / Remove Guide Permissions | `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
+| Archive articles | Zendesk Knowledge |
 
 {{% /card %}}
+{{% card header="**Knowledge Admins (Customer Support Operations)**" %}}
 
-{{% card header="**Knowledge Admins (Jason/Dylan/Lyle) Support Operations ONLY**" %}}
-
-- Restore knowledge articles
-- Delete knowledge articles
-- Review history of knowledge articles
-- Create Permission sets
-- Create knowledge articles
-- Modify/update knowledge articles
-- Link knowledge articles to support tickets
-- Create/Update/Delete Sections
-- Create/Update/Delete Segments
-- Update Categorization
+| Task | Executed In |
+|------|---------|
+| Restore articles | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
+| Delete articles | Have Knowledge Champion archive, [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) to have it permanently deleted |
+| History of articles | Zendesk Knowledge (Changelog, available to everyone)|
+| Creating permission sets | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Create (draft) articles | Zendesk Knowledge |
+| Modify (update) articles | Zendesk Knowledge |
+| Link Knowledge articles | Zendesk Support |
+| Create section | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Update section | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Delete section | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
 
 {{% /card %}}
 {{< /cardpane >}}

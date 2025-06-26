@@ -101,6 +101,7 @@ General fields:
 
 - `host:` The GitLab host of the log. It can be `<tenant name>-gitaly-*`  or  `<tenant name>-consul-2`, etc.
 - `referrer:` holds the project path. `https://tenant.gitlab-dedicated.com/example-group/test123`
+- `path:` The portion of the URL after the tenant hostname that can provide useful information about what a particular request was attempting to do
 - `message:` is the message that would be seen in the logs of a self-managed instance.  `xxx.xxx.xxx.xxx - - [08/Jul/2020:13:24:43 +0000] "GET /assets/webpack/commons-pages.projects.show-pages.projects.tree.show.21909065.chunk.js HTTP/1.1" 200 9316 "https://tenant.gitlab-dedicated.com/example-group/test123" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" 1343 0.001 [default-gitlab-webservice-default-8181] [] xxx.xxx.xxx.xxx:8181 9309 0.000 200 fe130eac78314cwf352g3762397572cb`
 - `subcomponent`: The values in this field correspond to entries in [GitLab's log system](https://docs.gitlab.com/administration/logs/). Possible values include `production_json`, `application_json`, `api_json`, `auth_json` and `graphql_json`. You can use [filters](#filters) to collect all log entries associated with a specific subcomponent.
 
@@ -108,6 +109,9 @@ Gitaly related fields:
 
 - `grpc.request.glProjectPath:` The actual GitLab path project path.
 - `grpc.request.repoPath:`  Project hash id path.
+- `grpc.request.repoStorage:` Which Gitaly storage houses the repo
+- `grpc.method:` The name of the gRPC method
+- `grpc.request.fullMethod:` The fully qualified name gRPC method, includes the service and method name 
 
 SAML related fields:
 
@@ -158,6 +162,16 @@ To find all logs where the HTTP response status code is in the [4xx client error
 - **Operator**: `is between`
 - **Start of the rage**: `400`
 - **End of the range**: `499`
+
+###### Disabling and re-enabling filters
+
+It can be useful to temporarily disable a filter to change the view of logs.
+
+To temporarily disable a filter, click the text of the filter to get a menu of options, and select `Temporarily disable.` 
+![Filter menu showing Temporarily disable option](/images/support/workflows/assets/dedicated_logs_temp_disable_filter.png "Temporarily diasble")
+
+To re-enable a filter, click the text of the filter and select `Re-enable.` 
+![Filter menu showing Re-enable option](/images/support/workflows/assets/dedicated_logs_re-enable_filter.png "Re-enable")
 
 ### Examples
 

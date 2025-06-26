@@ -36,9 +36,9 @@ The research project DRI is responsible in determining if the IP Assignment need
 The research tool being used (for example Qualtrics, UserTesting, Respondent) determines how the IP Assignment can be shown.  Choose one of the two following options, but in either case display the IP Assignment at the start of the survey, screener, or email.
 
 1. **A statement** - This is a statement which requires no user action.  The act of participating in the research activity constitutes assent to the IP Assignment.
-     - `By participating in this, and any future, research activities with GitLab, you acknowledge that GitLab B.V. will retain all intellectual property rights in any suggestions, ideas, enhancement requests, feedback, or other recommendations you provide which are hereby assigned to GitLab B.V.`
+     - `By participating in this, and any future, research activities with GitLab, you acknowledge that GitLab Inc. will retain all intellectual property rights in any suggestions, ideas, enhancement requests, feedback, or other recommendations you provide which are hereby assigned to GitLab Inc.`
 1. **A question** - This is a question which requires the participant to choose 'Yes' to indicate their acceptance of the IP Assignment.  If they choose 'Yes', they will continue with the research; if they choose 'No', they cannot take part.
-     - `I agree that by participating in this, and any future, research activities with GitLab, GitLab B.V. will retain all intellectual property rights in any suggestions, ideas, enhancement requests, feedback, or other recommendations I provide which are hereby assigned to GitLab B.V.`
+     - `I agree that by participating in this, and any future, research activities with GitLab, GitLab Inc. will retain all intellectual property rights in any suggestions, ideas, enhancement requests, feedback, or other recommendations I provide which are hereby assigned to GitLab Inc.`
 
        `[ ] Yes`
        `[ ] No`

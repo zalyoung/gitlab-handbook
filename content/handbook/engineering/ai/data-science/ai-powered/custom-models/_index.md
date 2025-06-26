@@ -21,7 +21,16 @@ Engineering Manager: [@timzallmann](https://gitlab.com/timzallmann)
 
 Acting Manager: [@eduardobonet](https://gitlab.com/eduardobonet)
 
-{{< team-by-manager-slug manager="tim-z" team="AI-powered:Custom Models" >}}
+| Name               |  Handle          | team.yml   | Email prefix |
+|--------------------|------------------|------------|--------------|
+| Igor Drozdov       | @igor.drozdov    | [igor.drozdov](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/i/id-backend.yml)      | idrozdov |
+| Patrick Cyiza      | @jpcyiza         | [jpcyiza.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/j/jpcyiza.yml)                 | jpcyiza |
+| Mohamed Hamda      | @mhamda         | [mhamda.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/m/mhamda.yml)                 | mhamda |
+| Julie Huang        | @julie_huang     | [julie_huang.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/j/julie_huang.yml)     | julhuang |
+| Bruno Cardoso  | @bcardoso-  | [bcardoso-.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/b/bcardoso-.yml)       | bcardoso |
+| Eduardo Bonet      | @eduardobonet    | [eduardobonet.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/e/eduardobonet.yml) | ebonet |
+| Manoj M J | @manojmj | [manojmj.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/m/manojmj.yml) | mmj |
+| Cindy Halim | @cindy-halim | [cindy-halim.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/c/cindy-halim.yml) | chalim |
 
 **Product, Design & Quality**
 
@@ -46,6 +55,14 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 - `~"Category:Self-Hosted models"`
 
 In addition, issues should contain the relevant `~type:` and subtype labels.
+
+## Scoping Work using Epics and Tech Leads
+
+Epics should be used as the primary definition of scope for any work item larger a single issue in size. This could be a new feature, a complex refactoring or bug. The issues in the epic constitute the entire scope of the work item, and when they are all closed the work is completed and the epic is closed. An Epic should enclose an iteration with that adds a clear improvement, but an Epic does not necessarily represent the whole feature, wich might require multiple Epics.
+
+The technical ownership of individual work items as defined by an Epic, is delegated to a "Tech Lead", an engineer. The engineer is assigned to the Epic and ensures the scope is correct. The Tech Lead works with the EM, the PM and other engineers.
+
+Any engineer on the team can work on the issues contained in the Epic, as self-assigned using the Kanban process, including the Tech Lead themselves.
 
 ## Team Milestone Planning Process
 
@@ -135,6 +152,7 @@ Blog posts written by Custom Model's team members
 
 - [Developing GitLab Duo: How we validate and test AI models at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/) [@susie.bee](https://gitlab.com/susie.bee)
 - [GitLab Duo Self-Hosted: Enterprise AI built for data privacy](https://about.gitlab.com/blog/2025/02/27/gitlab-duo-self-hosted-enterprise-ai-built-for-data-privacy/) [@susie.bee](https://gitlab.com/susie.bee)
+- [Speed meets governance: Model Selection comes to GitLab Duo](https://about.gitlab.com/blog/speed-meets-governance-model-selection-comes-to-gitlab-duo/) [@susie.bee](https://gitlab.com/susie.bee)
 
 ## Communication
 

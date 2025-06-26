@@ -13,7 +13,7 @@ Please see our [company page](/handbook/company/) for more general information a
 
 <!-- blank line -->
 <figure style="padding:56.25% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/947155019" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  <iframe src="https://player.vimeo.com/video/1093814919" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </figure>
 <!-- blank line -->
 

@@ -25,7 +25,7 @@ This is not an exhaustive list. For anything else you believe the Support team c
 
 ## GitLab Support's Purpose
 
-GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/it/end-user-services/).
+GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/security/corporate/end-user-services/).
 
 ## Should I Contact GitLab Support?
 
@@ -158,7 +158,7 @@ You can request Support to contact GitLab.com users on your behalf. Here are som
 
 ### Internal Requests
 
-All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using the [GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
+All internal requests regarding licensing, subscriptions, and trials period extensions should be filed using the [GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
 
 #### Internal Request SLO
 
@@ -172,7 +172,7 @@ For internal requests, our SLO varies depending on the selected `Priority` for t
 - Criteria: service loss
 - Common Scenarios:
   - SaaS group downgraded
-  - SM license expired and grace period exhausted
+  - SM license expired
 
 **High**
 
@@ -180,7 +180,6 @@ For internal requests, our SLO varies depending on the selected `Priority` for t
 - Criteria: time sensitive tasks
 - Common Scenarios:
   - Customer will lose SaaS service today
-  - SM license grace period will end today
 
 **Normal**
 
@@ -234,7 +233,7 @@ A list of common scenarios and the appropriate option are detailed in the follow
 
 ### Extend an (almost) expired subscription
 
-Use this when the customer has a subscription with us and their grace period is (almost) expired. Please note we cannot extend the actual subscription. This instead makes a trial for the namespace and uses that for the extension. Check the [What is included and excluded in trials](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded) page for more context.
+Use this when the customer has a subscription with us and is (almost) expired. Please note we cannot extend the actual subscription. This instead makes a trial for the namespace and uses that for the extension. Check the [What is included and excluded in trials](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded) page for more context.
 
 ### Investigate incorrect subscription info
 
@@ -270,7 +269,7 @@ Use this when you want to make changes to the plan of a currently active trial, 
 
 ### Extend an (almost) expired subscription
 
-Use this when the customer has a license and their grace period is (almost) expired. Please note we cannot extend the actual license. This instead makes a trial license for the customer and uses that for the extension. The following video [How to extend an extension for an almost-expired subscription (self-managed)](https://www.youtube.com/watch?v=g8k8PAUY2pM) demonstrates how to correctly submit a `Extend an (almost) expired subscription` request.
+Use this when the customer has a license and is (almost) expired. Please note we cannot extend the actual license. This instead makes a trial license for the customer and uses that for the extension. The following video [How to extend an extension for an almost-expired subscription (self-managed)](https://www.youtube.com/watch?v=g8k8PAUY2pM) demonstrates how to correctly submit a `Extend an (almost) expired subscription` request.
 
 ### Resend existing license to the email on the license
 
@@ -330,15 +329,6 @@ Use this to request a community license be generated. Please note for any licens
 Use this for any license & renewal issues where no other options fit. Please note if this form is used when an option **does** exist, the request will be closed and you will need to submit a new request using the correct form.
 
 ---
-
-#### Extending the grace period on a subscription
-
-Grace period extensions are treated similarly to trial extensions for both Self-managed and GitLab.com SaaS. To request these, file a request using the [GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) with the correct option as highlighted in the sections above.
-
-Please consider the following:
-
-1. To extend a trial, a previous trial needs to exist for the customer. If no trial was created at any point, a trial should be created by the customer the day after the plan expires.
-1. We can provide grace period extensions as long as the current plan is not ongoing. In other words, if the plan expires on the 15th, we can increase the grace period starting the next day (16th). Please plan accordingly.
 
 #### Obtaining Proof of Delivery for a Subscription
 

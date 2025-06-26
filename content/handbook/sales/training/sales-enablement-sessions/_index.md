@@ -23,13 +23,10 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Jun 5 |   **No Session**    |        |
-| Jun 12 |  Support Team Overview     | Customer Success  |
-| Jun 19 |  Professional Services Update     |  PS Team  |
 | Jun 26 |  First Order > Field Training     |  Marketing  |
 | Jul 3 |   Hosted Runners for GitLab Dedicated      |  Product Marketing  |
-| Jul 10 |  Artifact Management Roadmap & the Competition     |  Product Marketing  |
-| Jul 17 |  GitLab Duo Special      |  Product Marketing  |
+| Jul 10 |  Professional Services Update     |  PS Team  |
+| Jul 17 |  GitLab 18.2 Enablement     |  Product Marketing  |
 | Jul 24 |  *No session during the last two weeks of the quarter*   |    |
 | Jul 31 |  *No session during the last two weeks of the quarter*   |    |
 
@@ -40,6 +37,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-06-16 |  **[GitLab 18.0 Launch Enablement](https://gitlab.highspot.com/items/6850561148d5b77416cf8820)**     |  Private  |
+| 2025-06-12 |  **[Master Working with GitLab Support](https://gitlab.highspot.com/items/684b0383b860240005c2664f)**     | Private  |
 | 2025-05-29 |  **[SFDC Product Data & Free GitLab Users](https://gitlab.highspot.com/items/68388a28aab19074da959446)**       |  Private   |
 | 2025-05-22 |  **[Embedded Systems in the Automotive, Aerospace, and Electronics Verticals](https://gitlab.highspot.com/items/6835d1815af4115c8730a09a)**       |  Private  |
 | 2025-05-15 |  **[Business Value Platform Updates](https://gitlab.highspot.com/items/682686ba604d5b15067ee6c6)**      |  Private  |
@@ -301,7 +300,7 @@ To get a calendar invite to the weekly Field Enablement Spotlight, make sure you
 - SDR BDR Team `sdrbdr@`
 - Marketing Team `marketing-team@`
 
-You can [fill out an access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 ## Training Playlist
 

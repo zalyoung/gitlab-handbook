@@ -1,13 +1,13 @@
 ---
 title: Handling trials and extensions for GitLab Self-Managed
 category: GitLab Self-Managed licenses
-description: Issuing a license to "extend" Self-managed trials and grace periods
+description: Issuing a license to "extend" Self-managed trials 
 ---
 
 ## Overview
 
-Self-managed trials and grace periods cannot be extended - a **trial** license must be issued and applied to the instance in order to "extend" a license.
-Requests for grace period extensions, temporary keys, temporary extensions, temporary licenses,
+Self-managed trials cannot be extended - a **trial** license must be issued and applied to the instance in order to "extend" a license.
+Requests temporary keys, temporary extensions, temporary licenses,
 and trial extensions all require generating a trial License.
 
 Sales will often request through an [Internal Request / Zendesk Ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) that we extend the duration of Self-Managed trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User `gitlab_support@example.com`, with the submitter cc'd on the ticket. The following workflow should be followed to service them.
@@ -22,7 +22,6 @@ how to support complex subscription models.
 Support tries as much as possible to refrain from issuing non-trial licenses.
 We are allowed to issue trial licenses because they:
 
-- Have no grace period
 - Do not affect historical data tracking
 - Are not tied to any subscriptions for revenue purposes
 
@@ -44,7 +43,8 @@ We are allowed to issue trial licenses because they:
         1. If a temp extension does not exist, proceed to step 2 (3).
     1. The ticket type is `Extend an (almost) expired subscription`.
         - If the salesperson selects a different form (e.g. the IR `Other`), then redirect them to submit a new ticket by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
-        - If the ticket type is correct and the license expiry has passed, then proceed with step 3.
+        - The `I acknowledge that approval for this extension has been granted..` checkbox has been checked and the requestor has provided the required proof that a Manager or Director has approved the extension. If the submitter has not provided the necessary proof then use the macro `Deviation from SM License Extension Workflow` and subsequently close the ticket.
+        - If the ticket type is correct and the license expiry has passed, then also proceed with step 3.
 1. Select `Duplicate License`.
 1. Set the `License type` to `Legacy License`.
 1. Delete the contents of `Zuora subscription ID` field if present.

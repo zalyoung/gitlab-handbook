@@ -71,6 +71,10 @@ It may be helpful to see how other naming projects at GitLab have come to life. 
   - [Naming brief](https://docs.google.com/document/d/1qbXbT07CdXKG1YJ9h3PHiDWYLePFbNySlfL3xcGIJNY/edit?usp=sharing)
   - [Brainstorm doc](https://docs.google.com/document/d/17vQeXHftgYwY1amTP7UZMe5X1d9Ov7EY7b87umXffJw/edit?usp=sharing)
   - [Recommendation](https://docs.google.com/document/d/18t0umite-_Jyqs0OhL6VhNi7K-93LBRTvJMrUIWCtvE/edit?usp=sharing)
+- **CI/CD Functions**
+  - [Naming brief](https://docs.google.com/document/d/1eR6Ua6ECT5hN5L3mukSy5y1PYwEes2KeqR_5dxUUiUU/edit?usp=sharing)
+  - [Brainstorm doc](https://docs.google.com/document/d/1vto7xPOHwvQjIb166nyoa5qTp10zgioCugF52kW4OpY/edit?usp=sharing)
+  - [Recommendation](https://docs.google.com/document/d/1zCmxSZiLWwFXJ7mtMICyFCqRY13qNyoIEzXyKEq6aE4/edit?usp=sharing)
 
 ### Naming tips and tricks 
 

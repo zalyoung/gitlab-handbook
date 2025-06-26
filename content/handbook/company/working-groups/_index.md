@@ -92,7 +92,7 @@ The DRI should stand up meetings at the cadence appropriate for the Working Grou
 
 For example, you may have a high priority project in which decisions have been signed off on and change is not anticipated. Folks are clear on their roles and are staying on top of their activities as tracked in issues and epics. You may not need to meet more than once every two weeks to ensure alignment. Alternatively, you may be part of a project in which new deliverables are being reviewed daily and fast decisions have to be made. In this instance, it is appropriate to meet more than once a week.
 
-All meetings should have an [agenda](/handbook/company/culture/all-remote/meetings/#4-all-meetings-must-have-an-agenda). [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/) have Google Docs as the preferred tool for taking meeting notes in an agenda. Please use the [GitLab Live Doc Meeting Agenda Template](https://docs.google.com/document/d/1eH-adpjfyo_RnlfbPvJ3i0e1Qb-aVoNc4yajnkZgJcU) as a starting point. If there's no agenda for an upcoming session, cancel the meeting.
+All meetings should have an [agenda](/handbook/company/culture/all-remote/meetings/#4-all-meetings-must-have-an-agenda). [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/) have Google Docs as the preferred tool for taking meeting notes in an agenda. Please use the [Standup / Working Group Template](https://docs.google.com/document/d/1QjcZWLZFs7vbrJxfeFcG2EKf2-WMYVVSVaFFwChGOsQ/edit) as a starting point. If there's no agenda for an upcoming session, cancel the meeting.
 
 ### Create a page in the handbook
 
@@ -194,7 +194,6 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Keep around references](/handbook/company/working-groups/keep-around-refs/)
 1. [Product Accessibility](/handbook/company/working-groups/product-accessibility/)
 1. [Secure Govern Database Decomposition](/handbook/company/working-groups/secure-govern-database-decomposition/)
-1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 1. [User journey map](/handbook/company/working-groups/user-journey-map/)
 
 ## Past Working Groups (alphabetic order)
@@ -295,6 +294,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Tiering](/handbook/company/working-groups/tiering/)
 1. [Token Management](/handbook/company/working-groups/token-management/)
 1. [Transient Bugs](/handbook/company/working-groups/transient-bugs/)
+1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 1. [Upstream Diversity](/handbook/company/working-groups/upstream-diversity/)
 1. [Usage Reporting](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1)
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)

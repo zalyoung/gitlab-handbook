@@ -15,7 +15,7 @@ We perform thorough, collaborative, and efficient risk assessments as well as dr
 
 ### Security Operational Risk Management (StORM) Program{#storm}
 
-The Security Risk team manages an integrated [Operational Risk Management](/handbook/security/security-assurance/security-risk/storm-program/) program focused on the identification, assessment, continuous monitoring, and reporting of Security Risks across the organization. Risk Reduction is 1 of 5 of the Security Department's operating principles ([Security Vision and Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)). As such, the Security Risk Team takes a leading role in providing the information required by leadership to establish our Strategic Roadmap and our quarterly [Objectives and Key Results (OKRs)](/handbook/company/okrs/). Visit the [StORM Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/) handbook page for additional details, including a quick introduction to Risk Management at GitLab as well as information about the purpose, scope, and specific procedures executed as part of the program.
+The Security Risk team manages an integrated [Operational Risk Management](/handbook/security/security-assurance/security-risk/storm-program/) program focused on the identification, assessment, continuous monitoring, and reporting of Security Risks across the organization. Risk Reduction is 1 of 5 of the Security Department's operating principles ([Security Vision and Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)). As such, the Security Risk Team takes a leading role in providing the information required by leadership to establish our Strategic Roadmap and our support GitLab's [key initiatives](https://university.gitlab.com/learn/course/draft-fy26-company-memo/main/fy26-company-memo?client=internal-team-members&page=6) (internal only). Visit the [StORM Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/) handbook page for additional details including templates and how we integrate with other risk programs at GitLab.
 
 {{% panel header="**Need to communicate a potential risk to the team?**" header-bg="warning" %}}
 Please refer to the [communication section of the StORM Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/#communication-of-risks-to-the-security-risk-team) page for information on the various ways that team members can use to escalate potential risks to the Security Risk Team.
@@ -99,6 +99,6 @@ This charter will be reviewed and updated quarterly to ensure alignment with:
 1. [Security Division Mission and Vision](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
 1. [Security's Multi-year Strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal only)
 1. [Security Assurance Mission and Vision](/handbook/security/security-assurance/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-assurance-mission-and-vision)
-1. Security Assruance Multi-year Strategy - In Development
+1. [Security Assurance Multi-year Strategy](https://internal.gitlab.com/handbook/security/security-assurance/security_assurance_strategy/) (internal only)
 
-Next scheduled review: 2025-06-16
+Next scheduled review: 2025-09-15

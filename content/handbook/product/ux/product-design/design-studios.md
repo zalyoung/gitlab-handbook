@@ -9,7 +9,7 @@ Design Studios (or just Studios) are regular meetings for product designers to c
 
 They provide casual time for socializing, sharing work, getting feedback, and more. They help fill the gap between async and larger sync meetings. With just a few designers meeting together, we can build better personal and work relationships. This should also help us work better together outside these meetings.
 
-To track issues related to these meetings, use the [`Design studios` label](https://gitlab.com/gitlab-org/gitlab-design/-/issues?label_name[]=Design%20studios) in the GitLab Design project.
+To track issues related to these meetings, use the [`Design studios` label](https://gitlab.com/groups/gitlab-org/-/issues?label_name=Design+studios).
 
 ### Background
 
@@ -17,7 +17,7 @@ After a successful first pilot for designers in EMEA time zones, [we expanded to
 
 ## Who can join
 
-Studios are only for Product Design individual contributors (not managers). They're meant to be a safe space where we only share materials with other product designers. We discussed including managers but were worried that fewer people would participate. Hosts are responsible for sharing relevant discussions more widely while keeping people anonymous when needed. See [issues related to the Studios](https://gitlab.com/gitlab-org/gitlab-design/-/issues?label_name[]=Design%20studios).
+Studios are only for Product Design individual contributors (not managers). They're meant to be a safe space where we only share materials with other product designers. We discussed including managers but were worried that fewer people would participate. Hosts are responsible for sharing relevant discussions more widely while keeping people anonymous when needed. See [issues related to the Studios](https://gitlab.com/groups/gitlab-org/-/issues?label_name=Design+studios).
 
 ## How to join
 

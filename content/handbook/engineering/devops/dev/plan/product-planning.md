@@ -12,11 +12,11 @@ For more details about the vision for this area of the product, see the
 
 ### Team members
 
-{{% team-by-manager-role "Fullstack Engineering Manager(.*)Plan:Product Planning" %}}
+{{< team-by-manager-role role = "Engineering Manager(.*)Plan:Product Planning" team = "Product Planning">}}
 
 ### Stable counterparts
 
-{{% engineering/stable-counterparts manager-role="Fullstack Engineering Manager(.*)Plan:Product Planning" role="(.*)Plan:Product Planning$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
+{{% engineering/stable-counterparts manager-role="Engineering Manager(.*)Plan:Product Planning" role="Product Planning|Security(.*)Plan|Principal(.*)Plan$" %}}
 
 ### Hiring chart
 
@@ -223,30 +223,6 @@ an API addition with no UI, document that and allow the FE engineers to update i
 work proceeds. As the feature flag rollout proceeds, the [documentation should be updated](https://docs.gitlab.com/ee/development/documentation/feature_flags.html#features-that-became-enabled-by-default).
 
 This avoids the rush to provide documentation that often accompanies the release cutoff.
-
-### Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="product planning" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
-{{< /tableau >}}
-
-Detailed metrics are available on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/).
-
-Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) section of the metrics page.
-
-Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
 ### Picking something to work on
 

@@ -9,7 +9,7 @@ Product Designers are assigned to work within their stage group and take on resp
 
 **Product Designers**
 
-- Ensure discipline peers know about UX team assignments, such as UX OKRs, and what you'll need from them to succeed.
+- Ensure discipline peers know about UX team assignments, such as department-level initiatives, and what you'll need from them to succeed.
 - Account for time off (yours and others') during milestone planning.
 - Inform your manager immediately if you think you won't complete your work on time. Early notification increases the likelihood of resolving the issue and managing expectations.
 - Optionally, use UX issue weights to better understand your capacity and facilitate conversations with your Product Manager.
@@ -19,7 +19,7 @@ Product Designers are assigned to work within their stage group and take on resp
 - If requested, help Product Designers set a baseline capacity for stage- and UX-team-assigned work each milestone.
 - Quantify strategy work with clear time-to-complete (TTC) expectations, measurable goals, and due dates.
 - Resolve team questions, concerns, and blockers quickly.
-- Ensure cross-functional partners are aware of UX OKRs and their dependencies.
+- Ensure cross-functional partners are aware potential dependencies.
 
 ### Priorities
 
@@ -36,7 +36,6 @@ Must do:
 
 Should do:
 
-- [UX OKRs](/handbook/company/okrs/).
 - Tasks that improve understanding of users and their workflows (e.g. [UX Scorecards](/handbook/product/ux/ux-scorecards/)).
 - Issues in the current release milestone and labeled `Stretch`.
 - Issues labeled `Pajamas`, `pajamas::define`, `pajamas::design`, `pajamas::build`, or `pajamas::integrate`. See [Pajamas component lifecycle](https://design.gitlab.com/get-started/lifecycle/) and the [Pajamas issue tracker](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues).
@@ -44,7 +43,6 @@ Should do:
 
 Nice to do:
 
-- [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui).
 - Addressing issues labeled [`Seeking community contributions`](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name%5B%5D=Seeking+community+contributions&label_name%5B%5D=UX) or other low-hanging usability problems.
 - Issues in future milestones (e.g., next release or [Backlog](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&milestone_title=Backlog&label_name%5B%5D=UX)).
 - Popular issues with no milestone (based on comments or upvotes).

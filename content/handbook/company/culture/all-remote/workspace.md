@@ -46,7 +46,7 @@ Assuming you're lucky enough to have excellent access, you may also want to set 
 
 ### PC
 
-Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
+Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/security/corporate/end-user-services/laptop-management/). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
 
 ### Camera with video capability
 
@@ -93,9 +93,7 @@ What constitutes "good headphones" varies significantly depending on preference.
 
 Almost any phone or laptop comes with a built-in microphone that should be adequate for your needs. A pair of Bluetooth or wired earbuds with an in-line microphone can help reduce background noise, if you work in a noisy space. These are commonly included with most smartphones.
 
-However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone/) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
-
-Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
+However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone/) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls). Another great option is the [512 Tempest](https://www.amazon.com/dp/B09PVMSBBF).
 
 "*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://app.sciencesays.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote work setting. If you have the funds available, this is an often-overlooked but very worthy way to use them.
 

@@ -32,9 +32,13 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 ## Requesting Support
 
-Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request. 
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
 
-For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
+For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/).
+
+![brand moving to asana](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/brand-creative-asana.png)
+
+- For more information, please see this announcement on Slack [HERE](https://gitlab.slack.com/archives/C0259241C/p1749243648660229)
 
 ### Brand Design & Video Issue Templates
 
@@ -130,9 +134,9 @@ Please use [this issue when requesting an update to an existing video or edits t
 
 The best way to get in contact with the Creative team is to fill out one of the above issue templates with your request, or to:
 
-- Use the @gl-design tag in GitLab issues and epics for visibility.
-- @-mention individuals from the team in GitLab issues and epics.
-- Ask your question in the #marketing-design Slack channel.
+- Use the `@gl-design` tag in GitLab issues and epics for visibility.
+- `@-mention` individuals from the team in GitLab issues and epics.
+- Ask your question in the `#brand` Slack channel.
 - For video specific questions or assistance, please reach out in the `#brand_video` Slack channel.
 
 ### Working with the brand
@@ -169,6 +173,37 @@ In certain cases, the help of a third party agency or design partner may be brou
 - Larger-scale projects where the Brand and Digital team need additional support given the timeline and/or scale of the request.
 
 Whenever a third party is brought in to support design, the work must be shared with the Brand Design team to ensure brand integrity and that we are [working transparently](/handbook/values/#transparency) with one another.
+
+#### Preserving the tanuki
+
+We understand that customized versions of the tanuki have been meaningful to our community and represent important aspects of our culture and values. When we [rebranded](https://about.gitlab.com/blog/devops-is-at-the-center-of-gitlab/) in 2022, we made the strategic decision to no longer alter the tanuki. These parameters are reflected in our [Brand Guidelines](https://design.gitlab.com/brand-logo/logomark#incorrect-usage) and are an intentional pivot from our previous logo, which we often customized with different colors and accessories.
+
+Why we maintain one look for our tanuki:
+
+- **We built an alternative.** In 2024, we launched the [Team Expressions Tanuki Tabs](https://design.gitlab.com/style-guides#team-expressions) to specifically address the community’s need for creative expression in a way that still preserves our logo. This scalable system empowers the community to express their vibrant groups — including community groups, geo locations, business functions, and TMRGs — without altering our logo.
+- **Consistency strengthens our brand.** Our tanuki is our most valuable brand asset. Any alterations dilute our brand identity and reduce recognition as we continue establishing our market presence.
+- **We’re building our brand maturity and an enterprise focus.** Restyling our tanuki undermines its visual role in our brand, which conflicts with our [brand strategy](/handbook/marketing/brand-and-product-marketing/design/#mascots).
+- **Strategic resource management drives results.** Our small Brand Design team supports the growing creative needs of the entire company, prioritizing work that aligns with business goals and drives clear business value. Custom logo requests multiplied beyond our team's capacity and don't align with our strategic priorities.
+- **Brand integrity extends everywhere.** Even "internal-only" designs frequently spread beyond their intended use, which can compromise brand awareness. Our logo is often someone's first impression of our company; showing up consistently maintains a clear, trustworthy image that meets industry standards and is a necessity in the years following a rebrand.
+
+#### Mascots
+
+We have taken a strategic approach to refrain from using or creating mascots inspired by the tanuki. This stance maintains brand authenticity, a focus on results for customers, and builds deeper trust with our community who use GitLab daily to create software that powers our world. The framework below outlines our vision for how our brand comes to life without a mascot character:
+
+- **Strategic differentiation from competitors:** Our key competitors have taken an approach to make their mascots synonymous with their brand. By forgoing a mascot, GitLab establishes a distinct brand identity that doesn't compete in the same playful, character-driven space, which helps differentiate us from our biggest competitors.
+- **Brand maturity and enterprise focus:** GitLab's focus on professional software development and enterprise DevSecOps aligns with a more sophisticated brand that focuses on business value, as opposed to character-driven marketing.
+- **Leveraging the tanuki as a brand element, not a mascot:** The tanuki logomark is thoughtfully integrated as a symbolic element of our brand that represents GitLab's values. Centering DevSecOps at the core of its construction makes the tanuki a tactical brand device representing the limitless possibilities of our platform, and should be elevated as such.
+- **Avoiding mascot pitfalls:** Our competitor’s own brand guidelines acknowledge that mascots "work best internally" and specifically advise against their use for “topics like money, security, sales, and enterprise offerings." By preserving the tanuki as a logomark rather than an anthropomorphized character, we are able to generate positive business impact and trust with our brand.
+
+We believe there are alternative ways to elicit delightful engagement between our brand and communities, without relying on a mascot. These include, but are not limited to:
+
+- User-generated content and community stories
+- Behind-the-scenes content showcasing real GitLab team members
+- Educational content that engages with users and provides value
+- Interactive experiences and tools through brand activations
+- Celebration of customer successes and innovations
+
+Any future reconsideration of this approach would require a fundamental shift in our marketing strategy, brand identity, and business goals. Such an initiative would require extensive planning and thought leadership; it would not be undertaken as a reactive measure, such as for campaign or aesthetic usage.
 
 #### Fanart
 
@@ -216,7 +251,7 @@ Canva enables team members to self-service their design needs and create on-bran
 
 ### GitLab Enterprise access
 
-If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
+If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
 
 We have a limited number of seats available, so we encourage teams to consolidate the number of people on their team who need access. *Note: Shared logins are prohibited*.
 
@@ -329,7 +364,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 ### Team workflow
 
 - **Team check-ins:** We have two recurring team syncs: (1) Monday [Brand Creative hours](https://docs.google.com/document/d/1SOxh6UPZ7n0oGUdxc1p4CggCXbz-uLzQN8DL-_AUEMg/edit?usp=sharing) call where we catch up and talk about work for the upcoming week. (2) Wednesday Brand Creative hours call where we get feedback on projects and collaborate on topics that need to be addressed.
-- **Working in issues:** All design requests should use our [issue templates](#brand-design--video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
+- **Working in issues:** All design requests should use our [issue templates](#brand-design--video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team's triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
   - Note: Everyone can see their personalized board by selecting the drop-down option where it currently says "Brand Design TRIAGE Board" on the left of the search bar.
   - Note: Epics can be viewed on the [Epic board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/epic_boards).
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.
@@ -342,7 +377,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 We upload and pull work locally from the [Brand Design repository](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design). Confidential projects and large print files are stored in the team [Google Drive](https://drive.google.com/drive/u/0/folders/0AG8nDFLsOkOvUk9PVA), which is organized the same way as the repository. We also have a team [Figma](https://www.figma.com/files/972612628770206748/team/997176040728593838/GitLab-Brand-Design?fuid=816750625196599153) for collaborative work.
 
 - The top-level folders of the repository are organized by project type; from there, they are broken down by category, and in some cases fiscal year.
-- By default, all source files should be stored in the repository, along with smaller exported files (such as digital ads). For larger exports (ie: print-ready files), please store and share them in the team Drive.
+- By default, all source files should be stored in the repository, along with smaller exported files (such as digital ads). For larger exports (such as print-ready files), please store and share them in the team Drive.
 - For folder names, use lowercase, dashes instead of space, and do not include any special characters.
   - *Example:* field-marketing-events
 
@@ -364,7 +399,7 @@ We upload and pull work locally from the [Brand Design repository](https://gitla
   - `git status` - optional command; this provides a summary of all the changes you've made locally that need to be pushed back the repository
   - `git checkout [`insert file path`]` - optional command; this can be used to remove any files you do not want to push to repository
   - `git add .` - use this command before pushing your work; it will add all the files you have made changes to
-  - `git commit -m “`[insert description of changes]`”` - include a message with a summary of your changes; this is viewable to everyone and provides context
+  - `git commit -m "`[insert description of changes]`"` - include a message with a summary of your changes; this is viewable to everyone and provides context
   - `git push origin main` - this will push all your changes back to the repository, including the commit message to describe the changes
   - `git pull --rebase`, followed by, `git push origin main` - use these two commands to reset if you receive an error when pushing
 
