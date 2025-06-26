@@ -134,7 +134,6 @@ Please use the following labels for **project work only**:
 | `~"Infrastructure Security Team"`   | Team Label          |
 | `~"InfraSec::triage"`       | For new issues which need to be triaged                         |
 
-
 ### Design Documents
 
 Before starting a new project, the team is **encouraged**
