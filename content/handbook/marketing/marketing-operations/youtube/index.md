@@ -156,7 +156,6 @@ We don't post:
 
 1. Unlisted videos (see the "[never unlisted](#never-unlisted)" section below).
 2. Private videos on our branded channel, all videos on that channel are intended for a wider audience.
-3. Use Google Drive for any video, since it has [many drawbacks](#why-not-google-drive).
 
 ### Never unlisted
 
@@ -241,7 +240,6 @@ Therefore say:
 - Public recording
 - Private recording
 
-Never say: livestream or recording since those are ambiguous. See [top misused terms](/handbook/communication/top-misused-terms/#livestream).
 
 ### What if your aren't sure whether the stream is Public or Private?
 
