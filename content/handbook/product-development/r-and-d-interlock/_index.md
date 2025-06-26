@@ -221,14 +221,14 @@ gantt
       <ul>
         <li>Goal: Assure readiness of alignment
           <ul>
-            <li>Outline the <a href="/handbook/product-development/roles-and-responsibilities/#who-what-why-how-and-when">Who, What, and Why</a>
+            <li>Phase 1: Outline the <a href="/handbook/product-development/roles-and-responsibilities/#who-what-why-how-and-when">Who, What, and Why</a>
               <ul>
                 <li>Business value</li>
                 <li>Requirements (use case and pains to address)</li>
                 <li>Target user</li>
               </ul>
             <li>
-            <li>Assess alignment readiness
+            <li>Phase 2: Assess alignment readiness
               <ul>
                 <li>Problem validation</li>
                 <li>UX deliverable and solution validation scope</li>
@@ -237,7 +237,7 @@ gantt
             </li>
           </ul>
         </li>
-        <li>Owner: PLT/UXLT</li>
+        <li>Owner: Phase 1: PLT, Phase 2: UXLT</li>
         <li>
           Participants: PM/PD/Eng Leaders
         </li>
@@ -277,7 +277,7 @@ gantt
           Artifact: Stage-level alignment slides in
           <a href="#rd-execution-roadmap">R&amp;D Execution Roadmap</a>
         </li>
-        <li>Owner: PLT/ELT/UXLT</li>
+        <li>Owner: PLT/ELT</li>
         <li>
           Participants: Group PM/PDM/EM for each capability under consideration
         </li>
