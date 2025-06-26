@@ -56,13 +56,13 @@ All issues, epics, and merge requests within the Product Security Department mus
 
 ### Team-Specific Labels
 
-Each team uses a standardized naming convention with "Team" suffix:
+Each team uses a standardized naming convention :
 
 - **Application Security**: ~"Application Security Team"
 - **Infrastructure Security**: ~"Infrastructure Security Team" 
 - **Data Security**: ~"Data Security Team"
 - **Vulnerability Management**: ~"Vulnerability Management Team"
 - **Product Security Engineering**: ~"Product Security Engineering"
-- **Security Architecture**: ~"Security Architecture"
+- **Security Platforms & Architecturee**: ~"Security-Platforms-Architecture Team"
 
 Multiple team labels can be applied to issues requiring collaboration
