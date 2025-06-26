@@ -56,7 +56,7 @@ Go to the My Assigned Tickets view in Zendesk. For each ticket you wish to summa
 4. At the end of your last work day before taking PTO, update your availability using the [Out of Office](/handbook/security/customer-support-operations/docs/zendesk/apps#out-of-office) app in Zendesk. 
     1. Navigate to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office).
     1. If empty, select "Refresh the app" at the top of the page.
-    1. Click the `Make unavailable` button in the row with your agent information. It is important that you do this for tickets to be unssigned when the customer responds. 
+    1. Click the `Make unavailable` button in the row with your agent information. It is important that you do this for tickets to be unassigned when the customer responds. 
 
 #### Ticket Handover Process
 
