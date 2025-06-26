@@ -7,7 +7,7 @@ This page lists a few of these tricks.
 
 ## Searching the handbook using Claude by Anthropic
 
-As a part of our enterprise agreement with Anthropic, all GitLab team members have access to use [Claude.ai](https://claude.ai/new).
+As a part of our enterprise agreement with Anthropic, all GitLab team members have access to use [Claude.ai](/handbook/tools-and-tips/ai/claude/).
 
 With Claude's ability to search the web, using this powerful tool to search for information in the GitLab Handbook and to advise on various topics based on guidance in the handbook is a helpful way to both find and interpret content that is available in the handbook.
 
