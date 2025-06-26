@@ -240,7 +240,6 @@ Therefore say:
 - Public recording
 - Private recording
 
-
 ### What if your aren't sure whether the stream is Public or Private?
 
 There are some recordings where it is not clear whether they should be Private or Public or they require a review by the Legal team before posting publicly on YouTube. It would be disingenuous to tell our team that the recording is Private and then change the recording to Public.  In this scenario, we should state that this a `Reviewed Stream` or a `Reviewed Recording`.  This stream will be initially Private and upon Legal review could be changed to Public.
