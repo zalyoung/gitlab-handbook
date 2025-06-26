@@ -25,7 +25,7 @@ The Dedicate migration team is a team focussed on performing migrations into Git
 |Scott Murray|         Engineer |
 |Douglas Alexandre|    Staff Engineer|
 |Sampath Ranasinghe|   Senior Product Manager|
-|Akanskha Joshi|      Technical Program Manager|
+|Akanksha Joshi|      Senior Technical Program Manager|
 
 ## Mission
 
