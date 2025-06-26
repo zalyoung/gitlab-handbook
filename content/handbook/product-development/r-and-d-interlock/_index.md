@@ -64,6 +64,7 @@ the [R&D Investment Roadmap](#rd-investment-roadmap), the
     - E3: 50% Eng Confidence, can be stopped if a P1-2 or E1-2 is at risk.
   - Internal visibility only
   - Not externally communicated
+  - No dependencies outside of Engineering
 
 Unless approved by the respective VP of Product and/or Engineering, there is a
 maximum limit of 1 x (P1 or E1) and 2 x (P2 or E2) per 20 engineers with a
@@ -213,12 +214,44 @@ gantt
 <table>
   <tr>
     <td>
+      <h3 id="#feature-definition">Feature Definition</h3>
+      <p>Timeline: Q<sub>n-1</sub> Week 1</p>
+    </td>
+    <td>
+      <ul>
+        <li>Goal: Assure readiness of alignment
+          <ul>
+            <li>Phase 1: Outline the <a href="/handbook/product-development/roles-and-responsibilities/#who-what-why-how-and-when">Who, What, and Why</a>
+              <ul>
+                <li>Business value</li>
+                <li>Requirements (use case and pains to address)</li>
+                <li>Target user</li>
+              </ul>
+            <li>
+            <li>Phase 2: Assess alignment readiness
+              <ul>
+                <li>Problem validation</li>
+                <li>UX deliverable and solution validation scope</li>
+                <li>UX bandwidth and timeline<li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Owner: Phase 1: PLT, Phase 2: UXLT</li>
+        <li>
+          Participants: PM/PD/Eng Leaders
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <h3 id="#feature-alignment">Feature Alignment</h3>
       <p>Timeline: Q<sub>n-1</sub> Week 8</p>
     </td>
     <td>
       <ul>
-        <li>Goal: Create PM/EM alignment on full set of P1-3/E1-3 features</li>
+        <li>Goal: Create PM/PD/EM alignment on full set of P1-3/E1-3 features</li>
         <li>
           Content:
           <ul>
@@ -227,7 +260,6 @@ gantt
             <li>
               Initial assessment of:
               <ul>
-                <li>Business value</li>
                 <li>Technical feasibility</li>
                 <li>Engineering bandwidth and timeline</li>
                 <li>Resource requirements and Dependencies</li>
@@ -247,7 +279,7 @@ gantt
         </li>
         <li>Owner: PLT/ELT</li>
         <li>
-          Participants: Group PM/PD/EM for each capability under consideration
+          Participants: Group PM/PDM/EM for each capability under consideration
         </li>
         <li>Format: Sync or async, as preferred by group-level teams</li>
       </ul>
@@ -277,12 +309,12 @@ gantt
               <ul>
                 <li>Customer Problem and Business Value</li>
                 <li>
-                  Proposed solution and Definition of Good: Clear success and
+                  Definition of Good: Clear user experience, success and
                   landing criteria
                 </li>
                 <li>Proposed priority</li>
                 <li>Resource requirements</li>
-                <li>Initial timeline estimates</li>
+                <li>Initial UX and Eng timeline estimates</li>
                 <li>Dependencies identification</li>
                 <li>Risk assessment</li>
               </ul>
@@ -306,12 +338,12 @@ gantt
             >template</a
           >)
         </li>
-        <li>Owner: PLT/ELT</li>
+        <li>Owner: PLT/ELT/UXLT</li>
         <li>
           Participants:
           <ul>
             <li>E-track: EM responsible for capability</li>
-            <li>P-track: PM &amp; EM responsible for capability</li>
+            <li>P-track: PM/PDM/EM responsible for capability</li>
           </ul>
         </li>
       </ul>
@@ -374,7 +406,7 @@ gantt
           <ul>
             <li>E-track: EM responsible for capability, Eng VP signoff</li>
             <li>
-              P-track: PM & EM responsible for capability, PM and Eng VP signoff
+              P-track: PM, PDM, & EM responsible for capability, PM, UX, and Eng VP signoff
             </li>
           </ul>
         </li>
