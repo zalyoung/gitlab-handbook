@@ -12,7 +12,7 @@ If you need any help with onboarding that isn't answered in the handbook or you'
 - Team Members (Employees)
   - [Access Requests](/handbook/security/corporate/services/access-requests)
   - [Career Mobility (Role Changes)](/handbook/security/corporate/services/role-changes)
-  - [Laptops](/handbook/security/corporate/services/laptops)
+  - [Laptops](/handbook/security/corporate/end-user-services/laptop-management)
   - [Offboarding](/handbook/security/corporate/services/offboarding)
 - Temporary Service Providers (Contractors)
   - [Contractors (Temporary Service Providers)](/handbook/security/corporate/services/temporary-users)

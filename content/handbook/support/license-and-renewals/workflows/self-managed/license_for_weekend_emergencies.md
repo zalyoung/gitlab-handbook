@@ -21,7 +21,7 @@ This workflow does not cover SaaS Subscription Emergencies, see [Customer Emerge
 
 ## Scope
 
-License requests for a Self-managed customer with a **paid** plan, where the license's "grace period" (14 days after expiration) ended within the last 3 days from the current emergency's date.
+License requests for a Self-managed customer with a **paid** plan, where the license period has ended within the last 3 days from the current emergency's date.
 
 ## Out of Scope
 
