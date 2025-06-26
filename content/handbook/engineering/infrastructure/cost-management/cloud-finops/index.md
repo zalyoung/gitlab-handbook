@@ -26,6 +26,7 @@ First, combine the GCP Billing line items (`summary_gcp_billing_source`) with th
 The next step in the process is calculating metrics for known GCP use cases so we can apply these ratios to the actual costs.
 
 These metric definitions are owned by FinOps and FP&A and come from various sources:
+
 1. GitLab.com: Calculate the daily ratio of actual usage of various GitLab features (i.e. CI Runners, repository storage) by `plan` and `pl_category` by mapping the usage to the namespace's GitLab plan at the time of usage
 2. GCP Billing attributes: Based on a sheetload, map GCP folders, projects, labels, etc. to `pl_category` and apply the supplied ratio
 3. Prometheus (`periodic_queries`): Calculate the raily ratio of HAProxy egress bytes usage and map it to `pl_category` based on a sheetload of backend mappings
