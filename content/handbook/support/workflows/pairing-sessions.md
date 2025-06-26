@@ -63,7 +63,7 @@ To begin participating in pairing sessions:
 
 - **Use Slack channels**: Join the regional donut channels for automatic pairing opportunities
   - [`#spt_pairing-donut-emea`](https://gitlab.enterprise.slack.com/archives/C063F376YFN)
-  - [`#spt_pairing-donut-apac`](https://gitlab.enterprise.slack.com/archives/C06NE7VJCE9)- Automated pairing for APAC region
+  - [`#spt_pairing-donut-apac`](https://gitlab.enterprise.slack.com/archives/C06NE7VJCE9)
 
 - **Be Proactive**: Don't wait until you're stuck - pairing is most effective when done regularly
 
