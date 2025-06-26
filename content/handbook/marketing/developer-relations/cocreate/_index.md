@@ -48,7 +48,35 @@ Identify areas that are of high priority to the customer together with the Solut
 
 ## Nominate an Issue for Co-Create
 
-Is there an issue that should be considered for the curated Co-Create [issue list](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue.
+Is there an issue that should be considered for the curated Co-Create [issue list](https://cocreate.gitlab.com/?label=co-create)? Reach out to the [appropriate PM](/handbook/product/categories/features) and ask for their approval to add the ~co-create label to the issue. You can refer the PM to the assessment criteria below to help with their evaluation.
+
+### Assessing Issue Compatibility with Co-Create
+
+#### Purpose
+
+The Co-Create program aims to create long-term contributors by enabling customers to work directly on GitLab. Both simple and complex issues are welcome - simple issues provide great learning opportunities, while complex issues can be broken down into smaller chunks for sustained contribution.
+
+#### Assessment Criteria
+
+##### Product Alignment
+
+- Aligns with GitLab's product vision and roadmap
+- Benefits the broader GitLab community
+- Has Product Manager awareness and approval
+
+##### Red Flags
+
+- Conflicts with planned GitLab features or architectural decisions
+- Changes to core security or performance-critical systems (requires extra caution and assessment)
+
+#### Decision Framework
+
+**Primary Question**: Will working on this issue help the customer become a long-term GitLab contributor?
+
+**Secondary Questions**:
+
+- Does this align with our product direction?
+- Is there a GitLab engineer available with domain expertise?
 
 ## Resources
 
