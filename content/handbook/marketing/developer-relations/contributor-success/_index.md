@@ -90,8 +90,9 @@ cross-functional initiative that is led by the [Contributor Success team](/handb
 
 ## Contributor platform
 
-Our [contributor platform](https://contributors.gitlab.com)
-consumes contribution data from multiple platforms and is fully documented in the
+Our [contributor platform](https://contributors.gitlab.com) is the central hub for open source
+contributors to GitLab and community activity.
+It consumes contribution data from multiple platforms and is fully documented in the
 [contributors-gitlab-com project README](https://contributors.gitlab.com/docs/README).
 
 [@daniel-murphy](https://gitlab.com/daniel-murphy) is the product DRI and
