@@ -35,7 +35,7 @@ Most roles that require higher performance machines are approved for a 14" or 16
 ### Linux Hardware
 
 {{% alert color="warning" %}}
-IT strongly encourages team members to select Macs; please only request a Linux laptop if you are experienced in Linux and capable of self-support. As of 2025-06-30, Linux will no longer be offered for new hires or refreshes. Linux laptops will no longer be offered due to fragmented support requirements across distributions and the lack of an automated method to ensure our security tools are installed. Additionally, Okta does not enable Device Trust on Linux systems.
+IT strongly encourages team members to select Macs; please only request a Linux laptop if you are experienced in Linux and capable of self-support.
 {{% /alert %}}
 
 We have standardized on the [Dell Precision 5690](https://www.dell.com/en-us/shop/dell-computer-laptops/new-precision-5690-workstation/spd/precision-16-5690-laptop/s004p5690usvp) Mobile Workstation laptop. Due to supply constraints, specific models available from these lines may vary.
