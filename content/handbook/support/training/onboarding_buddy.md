@@ -14,6 +14,7 @@ These responsibilities of the Support onboarding buddy are an extension of [the 
 1. Help the new Support Engineer adapt to and learn the role, by having frequent calls and pairing sessions to learn about our day-to-day duties.
 1. Encourage the new Support Engineer to work tickets that push them out of their initial comfort zone.
 1. If you will be out of office in the first 2 weeks, or have numerous commitments, consider discussing with your manager about either having someone else take on the role or to help clear some of your commitments, so that you can make sure you are present and can commit to the role.
+1. Review the changes made to the modules, access requests, and onboarding issue, since those get updated frequently to be able to guide them properly.
 
 ## Structure
 
@@ -23,7 +24,7 @@ During your time as onboarding buddy, you'll be working alongside the new Suppor
 | ----------- | ----------- |
 | [Weeks 1-2](#first-1-2-weeks) | Call to meet the new Support Engineer, help them get acclimated, answer any general questions they may have, discuss schedules, and share anything else they may find useful as they get started.       |
 |   | Open the lines of communication in Slack. Throughout this process, check in with them periodically to see how their onboarding module is progressing and ask if they need help.        |
-| |Call to help them update the team page, GitLab Sandbox Cloud for GCP, the GDK, or anything else they may have questions about or trouble with. |
+| | Call to help them update the team page, GitLab Sandbox Cloud for GCP, the GDK, or anything else they may have questions about or trouble with. |
 | [Weeks 3+](#pairings)| Pair at least twice, but more often if you can. Ideally, aim for once a week. |
 | | Invite them to shadow you on any customer calls. |
 | | Identify tickets that help push the engineer out of their comfort zone, and encourage the engineer to [self-assign](/handbook/support/workflows/working-on-tickets) these tickets. |
@@ -47,13 +48,15 @@ Note that everyone's needs are different, so consider the following as a list of
 - Remind them they can get reimbursed for any books or training, and show them the [Spending Company Money](/handbook/finance/spending-company-money/) page. If it's expensive, talk to their manager first.
 - Remind them of their office equipment stipend, and show them the [expensing equipment handbook page](/handbook/finance/expenses/#equipment)
 - Explain how to use the stipend and how to submit an expense in [Navan](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/)
-- Show them our [Testing Environments](/handbook/support/workflows/test_env), and introduce them to GitLab Sandbox Cloud for GCP (which replaced [support-resources](https://gitlab.com/gitlab-com/support/support-resources))
+- Show them our [Testing Environments](/handbook/support/workflows/test_env), and introduce them to GitLab Sandbox Cloud for GCP
 - Help them update the [GitLab team page](/handbook/company/team/) with their info (one of their Onboarding Issue checklist items)
 
 ### Pairings
 
 - Introduction to Zendesk and how we use it:
   - Walk them through Zendesk and how to use it
+    - Show them how to use the different macros, and advise them on the most used ones. 
+    - Show them how to leverage the different apps on Zendesk
   - Answer any questions they have about the [ticket workflow handbook pages](/handbook/support/workflows/)
   - Walk through your own process for choosing and answering tickets
   - Talk about [setting salutations in signature](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry/Zendesk#zendesk-hash-object)
@@ -69,6 +72,7 @@ Note that everyone's needs are different, so consider the following as a list of
   - If they brought any tickets to the call, answer those first
   - Alternate who shares their screen and answers the tickets
   - Reproduce problems whenever you can. Show them how to quickly spin up an instance using your preferred method (Docker, GitLab Sandbox Cloud for GCP, etc.)
+  - Lead by example, followin our "handbook first" value when checking for workflows
 
 - Customer calls:
   - Ping them when you have a customer call so they can shadow it
@@ -77,4 +81,6 @@ Note that everyone's needs are different, so consider the following as a list of
 
 ### What to do afterwards
 
+- After closing the on-boarding issue, discuss with them the different focus areas, and ask them what training module they might be interested in picking next. Guide them to the subject matter experts and the spt pod slack channels (if any)
+- Consider keeping a frequent check-in/chat/pairing with them.
 - Over the first few months, if you have anything interesting you're working on that you think they can learn from, ping them and see if they'd like to either pair or shadow you on it.
