@@ -193,3 +193,13 @@
 # Security Policies team pages move - remove 2025-08-25
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/ /handbook/engineering/development/sec/security-risk-management/security-policies/ 301
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/* /handbook/engineering/development/sec/security-risk-management/security-policies/:splat 301
+
+# AI reorg - remove 2025-09-30
+/handbook/engineering/ai/data-science/ /handbook/engineering/ai/ 301
+/handbook/engineering/ai/data-science/ai-powered/ai-framework/ /handbook/engineering/ai/ai-framework/ 301
+/handbook/engineering/ai/data-science/ai-powered/custom-models/ /handbook/engineering/ai/custom-models/ 301
+/handbook/engineering/ai/data-science/ai-powered/duo-chat/ /handbook/engineering/ai/duo-chat/ 301
+/handbook/engineering/ai/data-science/ai-powered/duo-chat/* /handbook/engineering/ai/duo-chat/:splat 301
+/handbook/engineering/ai/data-science/ai-powered/duo-workflow/ /handbook/engineering/ai/duo-agent-platform/ 301
+/handbook/engineering/ai/data-science/ai-powered/duo-workflow/* /handbook/engineering/ai/duo-agent-platform/:splat 301
+/handbook/engineering/ai/data-science/ai-powered/workflow-catalog/ /handbook/engineering/ai/workflow-catalog/ 301

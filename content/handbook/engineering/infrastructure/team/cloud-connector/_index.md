@@ -8,5 +8,5 @@ The Cloud Connector team was disbanded as of 2025-06-16. Ownership of Cloud Conn
 
 Unit Primitives: [Fulfillment Provision](/handbook/engineering/development/fulfillment/provision/)
 Authentication: [SSCS:Authentication](/handbook/engineering/development/sec/software-supply-chain-security/authentication/)
-Duo Healthcheck [Custom Models](/handbook/engineering/ai/data-science/ai-powered/custom-models/)
+Duo Healthcheck [Custom Models](/handbook/engineering/ai/custom-models/)
 Service Entry: [Runway](/handbook/engineering/infrastructure/team/runway/)
