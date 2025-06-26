@@ -88,6 +88,16 @@ cross-functional initiative that is led by the [Contributor Success team](/handb
 
 {{< team-by-departments "Contributor Success" >}}
 
+## Contributor platform
+
+Our [contributor platform](https://contributors.gitlab.com) is the central hub for open source
+contributors to GitLab and community activity.
+It consumes contribution data from multiple platforms and is fully documented in the
+[contributors-gitlab-com project README](https://contributors.gitlab.com/docs/README).
+
+[@daniel-murphy](https://gitlab.com/daniel-murphy) is the product DRI and
+[@leetickett-gitlab](https://gitlab.com/leetickett-gitlab) is the technical/engineering DRI.
+
 ### File an issue
 
 #### gitlab-org/gitlab
@@ -217,21 +227,13 @@ meeting to check in on blockers, progress and ways to think differently & iterat
 A curated list of external resources for improving open source community relations and the contributor experience:
 
 - [Diversity, Equity, and Inclusion in Open Source](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source)
-
 - [Working in Public: The Making and Maintenace of Open Source Software](https://press.stripe.com/working-in-public)
-
 - [Growing Your Contributors](https://docs.oscollective.org/guides/growing-your-contributors)
-
 - [Building Welcoming Communities](https://opensource.guide/building-community/)
-
 - [Open Source Survey](https://opensourcesurvey.org/2017/)
-
 - [Non-code contributions are the secret to open source success](https://github.com/readme/featured/open-source-non-code-contributions)
-
 - [The secrets to onboarding new open source contributors](https://github.com/readme/featured/contributor-onboarding)
-
 - [The privilege of free time in Open Source](https://dri.es/the-privilege-of-free-time-in-open-source)
-
 - [Good first issues don't exist](https://opensauced.pizza/blog/good-first-issues-dont-exist)
 
 ### Promotion
