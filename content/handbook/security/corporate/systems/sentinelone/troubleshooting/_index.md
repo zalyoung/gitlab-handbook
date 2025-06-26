@@ -10,7 +10,7 @@ If you are experiencing issues with SentinelOne, please try the following troubl
 
 The SentinelAgent was not installed correctly. Most likely this is due to a configuration file error or commands did not run successfully.
 
-1. Verify that you are using a supported [Linux distribution](/handbook/security/corporate/services/laptops/security/os).
+1. Verify that you are using a supported [Linux distribution](/handbook/security/corporate/systems/linux/).
 
 1. Uninstall the package.
 
