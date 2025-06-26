@@ -33,7 +33,7 @@ GitLab's unique way of working asynchronously, handbook first method, utilizatio
 @endwbs
 ```
 
-## AI department stakeholders
+## AI Engineering stakeholders
 
 This section provides an overview of all teams invested in implementing and maintaining AI features. Our Duo initiative is a cross-category effort.
 
