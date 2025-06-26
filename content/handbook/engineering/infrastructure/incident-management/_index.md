@@ -450,7 +450,7 @@ The EOC will respond as soon as they can to the usage of the `@sre-oncall` handl
 
 ## Reporting an Incident
 
-If you are a GitLab team member and would like to report a possible incident related to GitLab.com and have the EOC paged in to respond, choose one of the reporting methods below. Regardless of the method chose, please stay online until the EOC has had a chance to come online and engage with you regarding the incident. Thanks for your help!
+If you are a GitLab team member and would like to report a possible incident related to GitLab.com, follow the instructions below to declare an incident. Please stay online until the EOC has had a chance to come online and engage with you regarding the incident. Thanks for your help!
 
 ### Report an Incident via Slack
 
@@ -466,15 +466,14 @@ _Incident Declaration Slack window_
 | Name | Give a short description of what is happening. If you'd like to, you can leave it blank and change it later |
 | Incident Type | Select the appropriate incident type: GitLab.com, Dedicated, SIRT, or Gameday depending on the service affected  |
 | Initial status | Choose "Active incident" if you've confirmed there's a problem and you'd like to investigate it right away, or "Triage a problem" for initial investigation |
-| Severity | If unsure about the severity, but you are seeing a large amount of customer impact, please select S1 or S2. More details here: [Incident Severity](#incident-severity). |
+| Severity | If unsure about the severity, but you are seeing a large amount of customer impact, please select S1 or S2. More details here: [Incident Severity](#incident-severity). The EOC is only paged automatically for S1 or S2. |
 | Summary (optional) | Provide your current understanding of what happened in the incident and the impact it had. It's fine to go into detail here |
-| Who should be able to see this incident? | Choose "Everyone (public)" - this means everyone in this Slack workspace will have access. Choose "Private" to mark the issue confidential - do this for all security related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). |
 
 ![Incident Declaration Results](/images/engineering/infrastructure/incident-management/incident-declare-results.png)
 
 _Incident Declaration Results_
 
-As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. incident.io will post links to all of these resources in the corresponding [incident announcement channel](#incident-announcement-channels). Please join the incident Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer.
+As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. incident.io will post links to all of these resources in the corresponding [incident announcement channel](#incident-announcement-channels). Please join the incident Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer. If you have declared an S3 or S4 and need EOC assistance, please escalate by typing `/inc escalate` into the Slack channel.
 
 ## Definition of Outage vs Degraded vs Disruption and when to Communicate
 
