@@ -17,7 +17,7 @@ How the security review framework fits into the Security Review Process for Prod
 
 ### Framework purpose
 
-1. Identity which GitLab features needs a security review from the Product Security teams.
+1. Identify which GitLab features needs a security review from the Product Security teams.
 1. Which type of [security review](#3-review-process-by-team-and-risk-level) is needed, from the Product Security teams.
 1. Which Product Security team(s) needs to be engaged for the security review.
 1. Which deliverables Product and Engineering can expect from the various reviews types of security reviews.
