@@ -162,11 +162,7 @@
 /handbook/product/ux/technical-writing/setup/ https://docs.gitlab.com/development/documentation/authoring_environment/ 301
 /handbook/product/ux/technical-writing/workflow/ https://docs.gitlab.com/development/documentation/workflow/ 301
 
-# Infra library moved - remove 2025-10-10
-/handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
-/handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
-
-# Cells project moved - remove 2025-12-22
+# Cells project moved - remove 2025-08-22
 /handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
 
 # Source Code team pages move - remove 2025-08-01
@@ -193,3 +189,24 @@
 # Security Policies team pages move - remove 2025-08-25
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/ /handbook/engineering/development/sec/security-risk-management/security-policies/ 301
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/* /handbook/engineering/development/sec/security-risk-management/security-policies/:splat 301
+
+# IT Team move to CorpSec - remove 2025-09-30
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/:splat 301
+/handbook/security/corporate/end-user-services/onboarding-access-requests/ /handbook/security/corporate/end-user-services/laptop-management/ 301
+/handbook/it/end-user-services/ /handbook/security/corporate/end-user-services/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/
+/handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
+/handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/:splat 301
+/handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/services/laptops/wipe/ 301
+/handbook/it/okta/okta-enduser-faq/ /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/ 301
+/handbook/it/okta/okta-enduser-faq/* /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/:splat 301
+/handbook/it/okta/ /handbook/security/corporate/end-user-services/okta/ 301
+/handbook/it/okta/* /handbook/security/corporate/end-user-services/okta/:splat 301
+
+# Infra library moved - remove 2025-10-10
+/handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
+/handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
+
+# Issue triage moved - remove 2025-10-15
+/handbook/engineering/infrastructure/engineering-productivity/issue-triage/ /handbook/product-development/issue-triage/
