@@ -239,7 +239,7 @@ gantt
         </li>
         <li>Owner: PLT/UXLT</li>
         <li>
-          Participants: Group PM/PDM/EM
+          Participants: PM/PD/Eng Leaders
         </li>
       </ul>
     </td>
