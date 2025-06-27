@@ -62,7 +62,7 @@ The Total Rewards team reviews GitLab's global benefits on an annual basis and p
 
 ### 1. Team Member Feedback
 
-- In Q2, Total Rewards review  team member feedback via the Engagement Survey Results and assess  sentiments and gaps within the plans
+- In Q2, Total Rewards review  team member feedback via the Engagement Survey Results and assess sentiments and gaps within the plans
 
 ### 2. Market Data Collection
 
