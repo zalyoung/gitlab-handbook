@@ -433,9 +433,9 @@ Two important aspects that need to be avoided when it comes when creating/editin
 If you are an Allocadia user and you are using our Allocadia > Marketo > SFDC sync, please note that you will NOT utilize the Allocadia sub-category ID in any of your individual child campaigns. Each campaign will have its own line item ID for that particular campaign, which all roll up to the parent campaign. Examples below.
 
 **AWS Summit London - PARENT (No Allocadia ID)**
-- AWS Summit Conference/Booth - Individual Line Item ID  
-- AWS Summit Speaking Session - Individual Line Item ID  
-- AWS Summit Executive Meetings - Individual Line Item ID  
+- AWS Summit Conference/Booth - Individual Line Item ID
+- AWS Summit Speaking Session - Individual Line Item ID
+- AWS Summit Executive Meetings - Individual Line Item ID
 
 **An example of a Parent/Child SFDC hierarchy can be found [here](https://gitlab.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJzZmE6aGllcmFyY2h5RnVsbFZpZXciLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiNzAxUEwwMDAwMFVqMGs5WUFCIiwic09iamVjdE5hbWUiOiJDYW1wYWlnbiIsInRyZWVEaXJlY3Rpb24iOiJjdXJyZW50VG9Eb3duIiwibGF5b3V0VHlwZSI6IlJFTEFURURfTElTVCIsImxheW91dE92ZXJyaWRlIjoiQ2hpbGRDYW1wYWlnbnMifSwic3RhdGUiOnt9fQ%3D%3D).**
 
