@@ -67,9 +67,9 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 
 - Create a [Research Issue](https://gitlab.com/gitlab-org/ux-research/-/blob/1d435fb36ff8126a3339d935c3a705d3f8bb9c22/.gitlab/issue_templates/Research%20Issue.md) for this project 
 - Identify specific questions you want to answer
-- Identify [Jobs to be Done (JTBD)](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/) contained within this user journey. Defining JTBD before user journey mapping ensures you're mapping the right journey by first understanding what users are fundamentally trying to accomplish, rather than just documenting their current process. Without this foundational understanding of the user's core job, you risk creating detailed maps of inefficient or irrelevant workflows instead of designing experiences that truly serve user needs.
-  - A list of existing JTBD exists [here](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/validated-canvases-and-opportunity-scores/).
-  - If the JTBD have not yet been validated, follow the [process to define JTBD](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd-playbook/). Align with stakeholders on success criteria
+- Identify [Jobs to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) contained within this user journey. Defining JTBD before user journey mapping ensures you're mapping the right journey by first understanding what users are fundamentally trying to accomplish, rather than just documenting their current process. Without this foundational understanding of the user's core job, you risk creating detailed maps of inefficient or irrelevant workflows instead of designing experiences that truly serve user needs.
+  - A list of existing JTBD exists [here](/handbook/product/ux/jobs-to-be-done/validated-canvases-and-opportunity-scores/).
+  - If the JTBD have not yet been validated, follow the [process to define JTBD](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/). Align with stakeholders on success criteria
 - Determine which customer segments to focus on. These could include:
   - **Relationship stage:** Net new customers vs. users joining established groups
   - **Monetization status:** Paid vs. free users
