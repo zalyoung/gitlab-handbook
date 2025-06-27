@@ -79,3 +79,8 @@ There are some customers who are mandated to use open source tools that has a li
 ### I've made a mistake and installed the wrong edition
 
 Fear not, follow one of [these guides](https://docs.gitlab.com/update/#upgrading-between-editions) instead.
+
+## Professional Services References
+
+- [Implementation Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-delivery-kit) for more context and information about all of the above topics.
+- [PS Service Catalog](https://about.gitlab.com/professional-services/catalog/) for reference on types of offerings GitLab PS offers to Customers.
