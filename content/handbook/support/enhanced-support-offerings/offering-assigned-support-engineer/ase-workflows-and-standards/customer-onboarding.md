@@ -41,15 +41,13 @@ information for each account as well:
 The Zendesk-titled columns help everyone to find the correct account in Zendesk
 and to manage Zendesk configuration for automatic ticket assignment.
 
-Please coordinate with your manager - you'll need them for finding the account
-ID in Salesforce and for guiding you in finding your own user ID in Zendesk - 
-to submit an MR to create the full entry for this new acocunt in the table in
-the README.
+Since ASEs don't have access to Salesforce, coordinate with your manager
+to find the necessary details. Then, submit an MR to add the full entry for
+the new account in the table in the README.
 
 #### Manager Instructions
 
-To be sure to get the correct Account ID and User ID, you'll need to follow
-the guidance provided on the
+To get the correct Account ID and User ID, follow the guidance provided on the
 [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
 with the following options chosen:
 
@@ -85,7 +83,6 @@ For both of these, please contact your manager and request that:
       `Modifications to a Zendesk Global Organization`
    1. The `What kind of modification are you looking to make?` should be
       `Set an Assigned Support Engineer for an organization`
-   
    The correct organization ID and user ID should have been placed into the
    [README](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/blob/main/README.md)
    file during the account
@@ -96,7 +93,7 @@ For both of these, please contact your manager and request that:
    *NOTE*: The request is automated and will create a tracking issue reflecting its status.
 
 1. They verify in Zendesk that the `Subscription: Support Services - ASE` box
-   is checked for the account 
+   is checked for the account
    product charge listed. If it does not, they should contact Sales Ops
    for assistance.
 
