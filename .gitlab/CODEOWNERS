@@ -114,16 +114,13 @@
 /content/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
 /content/handbook/engineering/data-engineering/analytics/monitor/platform-insights.md @dennis @nicholasklick
 /content/handbook/engineering/data-engineering/analytics/monitor/optimize.md @dennis @blabuschagne
-/content/handbook/engineering/ai/data-science/ @timzallmann
 /content/handbook/engineering/ai/search/ @changzhengliu
 /content/handbook/engineering/ai/code-creation/ @mnohr @jordanjanes
 /content/handbook/engineering/ai/editor-extensions/ @dashaadu @kisha.mavryck
-/content/handbook/engineering/ai/data-science/ai-powered/ai-framework/ @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/custom-models/ @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/duo-chat/ @juan-silva @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/duo-workflow/ @bastirehm @timzallmann
-/content/handbook/engineering/ai/data-science/ai-powered/model-validation/ @timzallmann
-/content/handbook/engineering/ai/data-science/modelops/ @timzallmann
+/content/handbook/engineering/ai/ai-framework/ @timzallmann
+/content/handbook/engineering/ai/custom-models/ @timzallmann
+/content/handbook/engineering/ai/duo-chat/ @juan-silva @timzallmann
+/content/handbook/engineering/ai/duo-agent-platform/ @bastirehm @timzallmann
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/devops/dev/ @m_gill
 /content/handbook/engineering/devops/dev/create/ @dsatcher
@@ -334,7 +331,7 @@
 /content/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification.md @nick_vh @johncoghlan
 /content/handbook/marketing/developer-relations/technical-marketing/ @johncoghlan @csaavedra1 @fjdiaz @iganbaruch
 /content/handbook/marketing/developer-relations/workflows-tools/ @dnsmichi @johncoghlan @sugaroverflow @waarias
-/content/handbook/marketing/digital-experience/ @fqureshi @de_fraz @Tinaliseng 
+/content/handbook/marketing/digital-experience/ @fqureshi @de_fraz @Tinaliseng
 /content/handbook/marketing/emergency-response.md @rkohnke @amy.waller @bill_staples
 /content/handbook/marketing/events/ @bill_staples
 /content/handbook/marketing/growth/ @gdoud @bill_staples
