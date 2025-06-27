@@ -1,5 +1,5 @@
 ---
-title: Talent Management Programs and Resources
+title: Talent Management Resources
 description: "xyz"
 ---
 

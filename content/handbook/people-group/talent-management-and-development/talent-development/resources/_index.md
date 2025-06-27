@@ -1,5 +1,5 @@
 ---
-title: Talent Development Programs and Resources
+title: Talent Development Resources
 description: "xyz"
 ---
 
