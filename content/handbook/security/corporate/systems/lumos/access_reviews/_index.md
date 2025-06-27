@@ -46,7 +46,7 @@ https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/access_rev
 
 ## Need help? Have a question?
 
-Reach out to the #user_access_reviews channel on Slack
+Reach out to the #user-access-reviews channel on Slack
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
