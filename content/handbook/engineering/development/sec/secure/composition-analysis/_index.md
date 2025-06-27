@@ -486,24 +486,6 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 Before releasing an analyzer with a newer version of its upstream scanner, we must ensure its license has not changed or is still compatible with [our policy](/handbook/engineering/open-source/#acceptable-licenses).
 
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/MRMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/MonthlyFlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="composition analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
-{{< /tableau >}}
-
 ## Monitoring
 
 - [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
