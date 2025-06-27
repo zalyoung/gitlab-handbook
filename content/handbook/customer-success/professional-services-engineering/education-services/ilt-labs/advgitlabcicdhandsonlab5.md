@@ -148,6 +148,8 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
+1. You should now see a message similar to `A new merge train has started and this merge request is the first of the queue. View merge train details.` Click on the **View merge train details** to see your merge train in action. 
+
 1. Await the completion of your merge requests and verify that they merge successfully.
 
 ## Task C. Merge Conflicts
