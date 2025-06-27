@@ -56,24 +56,6 @@ When opening up issues, the following label snippet often added:
 /label ~"section::sec"
 ```
 
-### Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="dynamic analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/MRMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="dynamic analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/MonthlyFlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="dynamic analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="dynamic analysis" >}}
-{{< /tableau >}}
-
 #### Targets
 
 For our Merge Request types, we have an initial soft target ratio of 60% features, 30% maintenance, and 10% bugs based on the [cross-functional prioritization process](/handbook/product/product-processes/#cross-functional-prioritization).  This is not a hard target and we expect to see variation in this ratio as we mature and our focus evolves.
