@@ -93,7 +93,7 @@ evaluating this library as an option.
 
 Despite some drawbacks, [dependabot-core] provides substantial benefits, and
 allows us to delivery a solution that works for a wide percentage of our users.
-Therefore, we'll be using [dependabot-core] in our auotomated dependency updates
+Therefore, we'll be using [dependabot-core] in our automated dependency updates
 feature.
 
 ## Design and implementation details
