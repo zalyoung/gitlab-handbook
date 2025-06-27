@@ -106,7 +106,7 @@ Let's take a look at how this is structured:
 
 1. Verify that the pipeline completes successfully.
 
-  To verify that the runner is registered:
+      To verify that the runner is registered:
 
 1. In the left sidebar, select **Settings > CI/CD**.
 
