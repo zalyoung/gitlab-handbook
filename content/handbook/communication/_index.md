@@ -22,7 +22,7 @@ We communicate respectfully and professionally at all times.
 1. **Feedback is Essential.** It is difficult to know what is appropriate in every one of our team members 60+ countries. We encourage team members to give feedback and receive feedback in a considerate way.
 1. **Do not underestimate a 1:1.** Asynchronous communication (e.g., via text) is helpful and necessary. In some cases (e.g., to clarify misunderstandings) it can be much more effective to jump on a Zoom video call.
 1. **Always Adhere to our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/) and [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).** Everyone should be comfortable in their work environment.
-1. **Focus on what we can directly influence.** There are many factors we can't directly influence and we should avoid spending time discussing those things. For example, we don't talk about our [market capitalization](/handbook/company/being-a-public-company/#market-capitalization) because aspects of this are out of our control. Instead, we should focus on our KPIs and growing [annual recurring revenue](/handbook/sales/sales-term-glossary/arr-in-practice/).
+1. **Focus on what we can directly influence.** There are many factors we can't directly influence and we should avoid spending time discussing those things. For example, we don't talk about our [market capitalization](/handbook/company/being-a-public-company/#market-capitalization) because aspects of this are out of our control. Instead, we should focus on how we can work together to achieve company objectives and grow [annual recurring revenue](/handbook/sales/sales-term-glossary/arr-in-practice/).
 1. **Commit to [active and effective listening](/handbook/leadership/coaching/#essential-coaching-skills)**.
 
 Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and communiques are the norm. Learn more about [mastering the use of the written word in an all-remote setting](/handbook/company/culture/all-remote/effective-communication/).
@@ -73,35 +73,6 @@ The above examples overlap with the [GitLab's SAFE Framework](/handbook/legal/sa
 
 We encourage communicating risks to GitLab, its team members, or customers in a synchronous 1:1 setting.
 
-## Communications Champions
-
-Where possible, a group of Communications Champions, made up of global team members and people managers, will be given a preview of company-wide changes to provide feedback, so that team member perspectives have been taken into account.
-
-### Communications Champion cohorts
-
-We'll introduce two cohorts for FY25:
-
-1. All-company cohort: 10 team members who review all-company changes/messaging; this group consists of global team members at all levels.
-1. People manager cohort: 7-10 team members who reviews people-manager specific changes/messaging; this group consists of global people managers.
-
-### Team member participation
-
-Each team member will participate for two quarters/6 months. Should a team member no longer be able to participate during their cohort; they can be backfilled.
-
-We'll engage bi-weekly with planned or urgent information seeking.
-
-We'll create a net-new slack channel for each group:
-Naming convention: #comms-champions-fy25-a
-
-- a is FY25 Q1/Q2 all-company
-- b is FY25 Q1/Q2 people manager
-- c is FY25 Q3/Q4 all-company
-- d is FY25 Q3/Q4 people manager
-
-### Nominations and selection
-
-People managers will nominate team members through a google form. After nominations, PBPs will review the list to ensure all are in good standing and collaborate on potential participants. People Comms & Engagement will make final selections.
-
 ## Determining Which Communication Forum To Use
 
 The table below outlines an overview of different communication forums at GitLab, and the considerations team members should think through related to potentially GitLab Sensitive topics when determining which forum to leverage.
@@ -125,7 +96,7 @@ Please see our [Project names section](/handbook/communication/confidentiality-l
 ## Internal communication
 
 Internal communication is any work related communication at a company.
-Internal Communication includes conversations between team members, wider team discussions, or internal announcements.
+Internal Communication includes team member conversations, wider team discussions, or internal announcements to the company or targeted outreach to select internal audiences.
 At GitLab, everyone can contribute to the effectiveness of Internal Communications to support aspects of GitLab culture, such as intentional transparency and engaging people in open dialogue.
 
 Since we believe that all team members must be [Managers of One](/handbook/leadership/#managers-of-one), most communication is handled by the relevant group, but we know that some communications are more sensitive and contentious than others.
@@ -139,7 +110,7 @@ In those cases, the DRIs may want to engage the [Internal Communications functio
 1. If you choose to email instead of chat it is OK to send an *internal* email that contains only a short message, similar as you would use in chat.
 1. You are not expected to be available all the time. There is no expectation to respond to messages outside of your planned working hours.
 1. Sometimes synchronous communication is the better option, but do not default to it. For example, a video call can clear things up quickly when you are blocked. See the [guidelines on video chats](#video-calls) for more detail.
-1. It is very OK to ask as many questions as you have. Please ask them so many people can answer them and many people see the answer. Use issues or public chat channels (like `#questions`) instead of direct messages or one-on-one emails. If you have researched in the handbook and could not find the answer or need clarity, include the handbook link you were reviewing and state "while looking in the handbook I could not find x,y,z".
+1. It is OK to ask as many questions as you have. Please ask them so many people can answer them and so others can benefit from seeing the answer. Use issues or public chat channels (like `#questions`) instead of direct messages or one-on-one emails. If you have researched in the handbook and could not find the answer or need clarity, include the handbook link you were reviewing and state "while looking in the handbook I could not find x,y,z".
 1. If you send a handbook link to someone as an answer to a question, consider adding some context, especially if they are new to GitLab. It's great that we often have the answer documented, but it's not always easy to find if you are a new team member.
 1. If the answer to a question isn't documented, please immediately make a merge request to add it to the handbook in a place you have looked for it. It is great for the person who answered the question to see you leading by example to ensure that question only needs to be answered once. A merge request is the best way to say thanks for help.
 1. If you mention something (a merge request, issue, commit, webpage, comment, etc.) please include a link to it.
@@ -159,7 +130,7 @@ In those cases, the DRIs may want to engage the [Internal Communications functio
 
 ### Internal Communication Channel Guidance 
 
-| What/When|The GitLab Handbook | The Loop (comming soon) | Slack | Email/Newsletters | Meetings |
+| What/When|The GitLab Handbook | The Loop (coming soon) | Slack | Email/Newsletters | Meetings |
 | ---------- | ---------- | ----------- | ----------- | -----------| -----------|
 | **Primary Purpose** | Transparency around GitLab procedures, documenting information handbook-first | Connect team members with news, information, and stories | Real-time collaboration and quick communications | Formal communications, select company updates, and consolidated updates to targeted audiences | Synchronous discussions and collaboration |
 | **Best For** | 1.) Sharing processes and/or procedures valuable to customers, community, or candidates 2.) Creating external transparency (core values, mission, and vision) 3.) Documenting workflows and standardized processes | 1.) Finding/sharing company information, announcements, and events 2.) Learning/sharing programs and initiatives 3.) Accessing personalized and relevant content 4.) Team member storytelling, connection, and engagement 5.) Team showcases and wins| 1.) Immediate discussions 2.) Quick questions 3.) Team coordination 4.) Time-sensitive, informal updates 5.) Instantaneous feedback/communication 6.) Channel-specific discussions | 1.) Critical and/or formal announcements 2.) Newsletters with targeted updates 3.) External communications (customers, vendors, etc.) 4.) Items requiring official email notification 5.) Informing targeted audiences 6.) Select leadership communications | 1.) Complex discussions  2.) Decision-making sessions 3.) Relationship building 4.) Project kickoffs/reviews 5.) Interactive sessions 6.) Ideation and/or problem solving 7.) Engaging and visual presentations 8.) Resolving conflicts |
@@ -550,6 +521,8 @@ Note taking helps us to work asynchronously. Team members can add thoughts to an
 Consider the following best practice when taking notes in meetings:
 
 1. If at the start of the meeting, it does not look like all team members will contribute to note-taking, identify a set of note-takers who will be responsible for this activity within the meeting
+
+1. Utilize Zoom's AI Companion to create and/or share a meeting summary. Meeting Summary with Zoom AI Companion uses AI technology, which may include third-party models, and allows meeting hosts to initiate an AI-generated summary of their meeting. When the host enables this feature in a meeting, participants may automatically receive a summary after the meeting ends, if the host chose to share it with them.
 1. Note-taking can be a lot for a single person to stay on top of--especially when there is a fast moving conversation with many speakers. Team members should still feel empowered to contribute by helping with notes as needed, even if there is someone assigned.
    - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes), specifically `It's helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
 1. Ask others to scribe answers in real-time to allow the person who asked the question to focus on the answer. Touch up the answer when the conversation has moved on to something less relevant.
