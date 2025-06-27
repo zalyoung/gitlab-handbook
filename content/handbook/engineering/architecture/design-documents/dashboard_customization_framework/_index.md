@@ -108,7 +108,7 @@ When editing:
 - Users can discard unsaved changes and revert the dashboard back to its original state
 - The dashboard produces a modified configuration when the user opts to save changes made
 - The dashboard shows a warning message when unsaved changes will be lost
-- Allow users to to add new visualizations via a custom interface (optional)
+- Allow users to add new or GitLab-provided visualizations via a custom interface (optional)
 
 ### Panels
 
