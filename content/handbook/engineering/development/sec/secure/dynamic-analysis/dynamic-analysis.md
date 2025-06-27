@@ -486,24 +486,6 @@ The Dynamic Analysis welcomes community contributions. Community Contributors-- 
 
 Community contributions should get prompt feedback from one of the DAST engineers. All engineers on the DAST team are responsible for working with community contributions. If a team member does not have time to review a community contribution, please tag the Engineering Manager, so that they can assign the community contribution to another team member.
 
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="dynamic analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/MRMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="dynamic analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/MonthlyFlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="dynamic analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://10az.online.tableau.com/#/site/gitlab/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="dynamic analysis" >}}
-{{< /tableau >}}
-
 ### Targets
 
 For our Merge Request types, we have an initial soft target ratio of 60% features, 30% maintenance, and 10% bugs based on the [cross-functional prioritization process](/handbook/product/product-processes/#cross-functional-prioritization).  This is not a hard target and we expect to see variation in this ratio as we mature and our focus evolves.
