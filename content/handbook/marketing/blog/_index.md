@@ -97,9 +97,9 @@ Learn more about the [SAFE Guidelines by reading the handbook page](/handbook/le
 
 ## How to suggest a change to a published blog
 
-* If you are internal to GitLab and want to suggest a change to a published GitLab blog, please post the change you need in detail with the URl in the `#content` Slack channel and tag @sgittlen or ping @sgittlen directly in Slack or create an MR with the change needed by going to the bottom of the published page and clicking on "Edit this page," which will kick off an MR.
+- If you are internal to GitLab and want to suggest a change to a published GitLab blog, please post the change you need in detail with the URl in the `#content` Slack channel and tag @sgittlen or ping @sgittlen directly in Slack or create an MR with the change needed by going to the bottom of the published page and clicking on "Edit this page," which will kick off an MR.
 
-* If you are external to GitLab, please email Sandra Gittlen at  `sgittlen@gitlab.com` with the details of your suggested change or create an MR with the change needed by going to the bottom of the published page and clicking on "Edit this page," which will kick off an MR.
+- If you are external to GitLab, please email Sandra Gittlen at  `sgittlen@gitlab.com` with the details of your suggested change or create an MR with the change needed by going to the bottom of the published page and clicking on "Edit this page," which will kick off an MR.
 
 ## Communication with Blog team
 
