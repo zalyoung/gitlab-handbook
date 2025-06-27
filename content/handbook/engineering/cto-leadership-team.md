@@ -2,7 +2,7 @@
 title: CTO Leadership Team
 ---
 
-The CTO Leadership Team is composed of the CTO's direct reports and the Office of the CTO (OCTO). The Engineering Leadership Team (ELT) includes leads for the org focus areas: AI, Customer Support, Data Engineering, DevOps, Platforms & Infra, R&D PMO, and Sec
+The CTO Leadership Team is composed of the CTO's direct reports and the Office of the CTO (OCTO). The Engineering Leadership Team (ELT) includes leads for the org focus areas: AI, Customer Support, Data Engineering, DevOps, Platforms & Infra, R&D PMO, and Sec.
 
 ## Office of the CTO (OCTO)
 
@@ -10,7 +10,7 @@ The OCTO is led by the CTO Chief-of-staff and is composed of the CTO org partner
 
 ## Engineering All-Hands
 
-The Engineering All-Hands meeting takes place approximately twice per quarter (except when we align with the shared Product & Engineering All Hands). The meetings are scheduled at the middle and end of each quarter, with time slots that accommodate both EMEA/AMER and APAC/AMER-friendly time zones. Twice per year, we schedule an alternative EMEA/APAC and AMERs friendly time slots to better support global team participation. 
+The Engineering All-Hands meeting takes place approximately twice per quarter (except when we align with the shared Product & Engineering All-Hands). The meetings are scheduled mid and end of each quarter, with time slots that accommodate both EMEA/AMER and APAC/AMER-friendly time zones. Twice per year, we schedule an alternative EMEA/APAC and AMER-friendly time slots to better support global team participation. 
 
 The purpose is to share org updates, stay connected, and receive feedback.
 
@@ -37,13 +37,13 @@ The entire Engineering group is invited, though anyone at GitLab is welcome to a
      2. Stakeholders should ensure additional presenters from their teams are included in the tech check if applicable.
 
 ## CTO Office Hours
-Additionally, the CTO hosts [CTO Office Hours](/handbook/engineering/engineering-comms/#synchronous-meetings) weekly, alternating between EMEA/AMER and APAC/AMER time zones each week. These office hours are available to anyone in the company to ask about any topic that is "Top of Mind" for the CTO or the Engineering Division. These meetings are recorded and notes published for those who will to consume them at their leisure.
+Additionally, the CTO hosts [CTO Office Hours](/handbook/engineering/engineering-comms/#synchronous-meetings) weekly, alternating between EMEA/AMER and APAC/AMER time zones each week. These office hours are available to anyone in the company to ask about any topic that is "Top of Mind" for the CTO or the Engineering Division. These meetings are recorded and notes published for those who wish to review async.
 
-For team members who have a private "Top of Mind" topic they would like to discuss. The CTO office has 20min slots available for team members to schedule as needed. If a slot is not available you can reach out the CTO-EAB to book time.
+For team members who have a private "Top of Mind" topic they would like to discuss, the CTO office has 20min slots available that can be scheduled as needed. See available time slots marked as Available Time Slots for Office Hours. If no slots are available, reach out to the CTO-EBA to book additional time.
 
 ## CTO Leadership Offsite
 
-The bi-annual CTO Leadership Offsite provides a forum for longer-form discussion among the CTO's Leadership Team. This offsite is planned by the OCTO Team and rotates between in-person and virtual.
+The semi-annual CTO Leadership Offsite provides a forum for longer-form discussion among the CTO's Leadership Team. This offsite is planned by the OCTO Team and rotates between in-person and virtual.
 
 ### Schedule
 
