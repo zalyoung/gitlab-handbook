@@ -79,7 +79,7 @@ Further details can be found in the [job family description](/job-families/secur
 - Please refrain from `@mention` individuals. Please use the `@gitlab-com/gl-security/product-security/infrastructure-security` handle on GitLab.com instead.
 - You can also chat with us on Slack in the dedicated `#security-infrasec` channel or by tagging us `@infrasec-team`.
 - The team will triage (and prioritise accordingly) all incoming request on a daily basis.
-- If you feel like you have an urgent ask and can't wait for the regular triage please use the slack channel and explain why your ask requires urgency.
+- If you have an urgent ask and can't wait for the regular triage please reach out in our Slack channel to let us know. 
 
 ## How We Work
 
