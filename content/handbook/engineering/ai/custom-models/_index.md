@@ -32,6 +32,8 @@ Acting Manager: [@eduardobonet](https://gitlab.com/eduardobonet)
 | Manoj M J | @manojmj | [manojmj.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/m/manojmj.yml) | mmj |
 | Cindy Halim | @cindy-halim | [cindy-halim.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/c/cindy-halim.yml) | chalim |
 
+{{< team-by-manager-slug manager="tim-z" team="AI-powered:Custom Models" >}}
+
 **Product, Design & Quality**
 
 Product Manager: [@susie.bee](https://gitlab.com/susie.bee)
