@@ -33,7 +33,7 @@ To add new objectives in GitLab, follow the steps below:
 
 Each [Objective](#creating-objectives) will contain one or more sub-objectives or key results. Sub-objectives are only used to cascade OKR down a level in [organizational structure](/handbook/company/structure/#layers) while [Key Results are the measure](okrs-basics.md#what-are-okrs) which helps us understand if we've met our objective and can be cascaded down a level of organization structure to become an objective one level down. Key Results must be created as part of an Objective and cannot be created independent of an Objective since Key Results [should be linked](/handbook/company/okrs/okrs-basics/#criteria-for-key-results) to an Objective.
 
-Since [Key Results are the measure](okrs-basics.md#what-are-okrs) that helps us understand if we've met our Objective, Key Results are aligned to the same, single layer of the [organizational structure](/handbook/company/structure/#layers) as their parent Objective and not a Key Result for multiple layers of organizational structure. However, Key Results can be cascaded down from this single organizational structure layer by becoming Objectives in the next organizational level down - see [Cascading OKRs](#cascading-okrs-and-how-to-align-division-okrs-to-the-company-okrs).
+Since [Key Results are the measure](okrs-basics.md#what-are-okrs) that helps us understand if we've met our Objective, Key Results are aligned to the same, single layer of the [organizational structure](/handbook/company/structure/#layers) as their parent Objective and not a Key Result for multiple layers of organizational structure. However, Key Results can be cascaded down from this single organizational structure layer by becoming Objectives in the next organizational level down.
 
 To add new key results in GitLab, follow the steps below:
 
@@ -57,87 +57,6 @@ To add new key results in GitLab, follow the steps below:
 Watch this video for a demo on how to create objectives and key results:
 
 {{< youtube "QmOM7J0Tu0o" >}}
-
-## Cascading OKRs and how to Align Division OKRs to the company OKRs
-
-Cascading is the process by which top-level company OKRs cascade down from company-level to division, department, team, and sometimes individual level.
-The OKRs that are directly aligned with Company KRs should be tied to the Company KRs in such a way as to allow scoring.
-
-At GitLab, we typically create OKRs at each level where some OKRs align with the levels above, but not all.
-
-Based on the current methodology and feature set in the product, there are two ways to align OKRs to company OKRs:
-
-1. [Add relevant OKRs as related items](#method-1-add-relevant-okrs-as-related-items). Most of the time, this is what teams use.
-1. [Have all relevant OKRs as children of a Company KR](#method-2-add-all-okrs-as-children-of-company-kr).
-
-The second method should be used only if *all* relevant OKRs can be added as children, because **Progress** is automatically scored based on the children if any exist.
-
-In the future, when [manual scoring is available](https://gitlab.com/gitlab-org/incubation-engineering/okr/meta/-/issues/38), a mix of the two methods can be used for a single KR.
-
-If an OKR is related, but does not score towards the Company KR, edit the description to add a note.
-
-### Creating company OKRs
-
-To allow for division, department, or team objectives to be added as child objectives or KRs, the Company key results should be created as an objective, not as a key result, as GitLab functionality doesn't allow for a KR to have child OKRs.
-
-The Office of the CEO does the following:
-
-1. Create the Company objective.
-1. Create the Company key results as child objectives of the Company objective.
-
-Once company OKRs are created, other divisions and departments following one of the two methods *for team OKRs that score towards company OKRs*.
-
-### Method 1: Add relevant OKRs as related items
-
-Typically at GitLab, divisions create OKRs to automatically have progress score towards division objectives.
-To indicate that a division KR should also show progress of a Company KR, add the division KR as a related item of the Company KR following these instructions:
-
-1. Click on the [relevant Company KR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=CEO%20OKR) to [add related items](https://docs.gitlab.com/ee/user/okrs.html#linked-items-in-okrs).
-1. Click **Add** in the **Linked items** section.
-1. Click inside of **the following item(s)** text field.
-1. Find (enter text to filter) and select 1 or more objective(s) or KR(s) that should score to the Company KR.
-1. Click **Add** to add the selected OKR(s).
-
-Do this for all OKRs that contribute to company OKRs.
-However, be careful not to link an OKR to multiple Company KRs.
-
-When this method is used, the Office of the CEO will update the score manually based on the scoring of all related items.
-
-A hypothetical example where division KRs score directly to division objectives, and should also progress a Company KR:
-
-1. Company Objective: Retain and grow top talent -- automatically scores from KRs including KR1
-   1. KR 1: Have 10% of managers enrolled in leadership program -- manually scored based on related items
-      1. Related: Sales OKR: Have 10% of managers enrolled in leadership program -- child of and automatically scores to CRO Objective
-      1. Related: Marketing OKR: Have 10% of managers enrolled in leadership program -- child of and automatically scores to CMO Objective
-
-#### Method 2: Add all OKRs as children of Company KR
-
-This method should only be used if all OKRs that will score towards the Company KR can be children of the KR,
-because the Company KR progress is automatically scored based on its children.
-The hierarchy looks similar to this:
-
-1. Company objective
-    1. Company KR (a GitLab objective)
-        1. Division objective
-            1. Division KR
-            1. Division KR
-
-To add the division OKRs as children of the relevant Company KR:
-
-1. Click on the Company KR you want to be the new parent for an objective/key result.
-1. Click **Add** in the **Child objectives and key results** section of the Company KR.
-1. Create team objective or KR as a child objective of the relevant Company KR (Company KR will be a GitLab objective).
-1. If the team objectives or KRs already exist, [find the objective or key result for alignment](https://docs.gitlab.com/ee/user/okrs#child-objectives-and-key-results) by typing the name of the OKR in the search bar that appears in the **Child objectives and key results** section. See [documentation to add a child objective](https://docs.gitlab.com/ee/user/okrs#add-a-child-objective).
-1. If applicable, add the team key results as children inside of the team objective.
-1. Ensure they have an assignee, labels, etc. [following guidelines on Creating Key Results](#creating-key-results).
-
-A hypothetical example where division OKRs score directly to a company OKR:
-
-1. Company Objective: Retain and grow top talent -- automatically scores from KRs including KR1
-   1. KR 1: Have 10% of managers enrolled in leadership program -- automatically scores from child OKRs
-      1. CRO OKR: Have 10% of managers enrolled in leadership program
-      1. CMO OKR: Have 10% of managers enrolled in leadership program
-      1. etc. (all divisions participating should be added)
 
 ## Search and Filter OKRs
 

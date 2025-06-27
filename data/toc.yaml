@@ -48,8 +48,6 @@
         url: offsite
       - name: KPIs
         url: kpis
-      - name: OKRs
-        url: /handbook/company/okrs
       - name: Pricing Model
         url: /handbook/company/pricing
     - name: Office of the CEO

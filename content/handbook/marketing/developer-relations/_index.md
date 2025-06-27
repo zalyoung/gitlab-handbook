@@ -145,12 +145,11 @@ Every quarter, we work on [team Objectives and Key Results (OKRs)](https://gitla
 
 OKRs we seek to align with:
 
-- [company OKRs](/handbook/company/okrs/#most-recent-okrs)
 - [Marketing OKRs](/handbook/marketing/#marketing-okrs)
 
 #### DRI Responsibilities
 
-For each quarterly objective and key results, the Developer Relations team will assign a [DRI](/handbook/people-group/directly-responsible-individuals/). For our team, we have responsibilities that build upon the GitLab guidance on [achieving](/handbook/company/okrs/#documenting-how-to-achieve) and [updating](/handbook/company/okrs/#maintaining-the-status-of-okrs). Typically, People managers are the DRIs for objectives while ICs are the DRIs for key results.
+For each quarterly objective and key results, the Developer Relations team will assign a [DRI](/handbook/people-group/directly-responsible-individuals/). For our team, we have responsibilities that build upon the GitLab guidance on achieving and [updating](/handbook/company/okrs/#maintaining-the-status-of-okrs). Typically, People managers are the DRIs for objectives while ICs are the DRIs for key results.
 
 - Objective DRI Responsibilities
   - Own strategy for achieving objectives including supporting the DRIs for key results that will help to achieve our objectives.

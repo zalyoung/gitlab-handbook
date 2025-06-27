@@ -82,10 +82,6 @@ Want to know more on what being a Product Manager at GitLab is like? Checkout ou
 
 Learn how we measure success in Product via our [Product KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/product/), which are tracked in our [Product project](https://gitlab.com/gitlab-com/Product). For best practices and guidance on how to add instrumentation for features please review our [Analytics Instrumentation workflow](https://internal.gitlab.com/handbook/company/performance-indicators/product/#analytics-instrumentation-workflow).
 
-### **Product OKRs**
-
-Understand the OKR Process for the GitLab Product Team and review [current and past OKRs](/handbook/product/product-processes/product-okrs/).
-
 ### **Our Product Leadership Team**
 
 Learn about [our Product Leadership Team](/handbook/product/product-leaders/product-leadership/) and learn about them via their personal README's.

@@ -209,7 +209,6 @@ There are five departments within the Engineering Division:
 - [Development Principles](/handbook/engineering/development/principles/)
 - [Engineering Automation](/handbook/engineering/automation/)
 - [Engineering Metrics](/handbook/product/groups/product-analysis/engineering/dashboards/)
-- [Engineering OKRs](/handbook/engineering/okrs/)
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Frequently Used Projects](/handbook/engineering/projects/)
 - [GitLab Innovation Program](/handbook/legal/patent-program/), managed by the GitLab Legal Team
@@ -231,7 +230,7 @@ There are five departments within the Engineering Division:
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
 - [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Root Cause Analysis](/handbook/engineering/root-cause-analysis/)
-- [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
+- [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#patch-release-types)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 
 ### GitLab in Production

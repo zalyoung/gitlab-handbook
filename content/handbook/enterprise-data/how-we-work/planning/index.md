@@ -29,7 +29,7 @@ This approach:
 - clearly defines Data Team priorities
 - leverages KR health statuses for progress reporting
 
-OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbook/company/okrs/#how-to-write-okrs) handbook page. The below formulas are used to write OKRs:
+OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbook/company/okrs/okrs-basics/#how-to-write-okrs) handbook page. The below formulas are used to write OKRs:
 
 - Objectives: Verb + What you want to do + In order to/for/so that (what you hope to achieve or rationale for objective). Objective Example: Increase awareness of company in the market in order to increase sales.
 - Key Results: Verb + what you're going to measure + from "x to y". Key Result Example: 100% of employees certified on OKR expectations and process.

@@ -44,14 +44,6 @@ GitLab is an influencer and educator in remote work and people operations. It se
 
 We believe that the [people practice](/teamops/) and [operating principles](/handbook/values/#operating-principles) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
 
-## Goals (OKR)
-
-Follow our work and collaborate in the [TeamOps Q4-FY23 Epic](https://gitlab.com/groups/gitlab-com/-/epics/1978).
-
-The team's KR is defined within [GitLab CEO's OKR](/handbook/company/okrs/fy23-q4/#okrs).
-
-In Q4-FY23, our KR is: **Certify at least 100 GitLab team members and 1 person in each department as TeamOps Trainer: Level 1**
-
 ## TeamOps Trainer
 
 [TeamOps](/teamops/) is how GitLab works. It is an operations model that helps teams maximize productivity, flexibility, and autonomy by managing decisions, information, and tasks more efficiently.
@@ -68,7 +60,7 @@ The purpose of the first version of this program is to collect feedback and reso
 - Content/Model Prototyping – Test the viability of creating a network of TeamOps representatives for future phases of TeamOps growth. ("Train the Trainer")
 - Content Creation – Scale content related to TeamOps by empowering all of GitLab to contribute blog posts and social threads.
 
-Creation of and participation in this program also supports the [FY23-Q4 OKR to Grow Careers](/handbook/company/okrs/fy23-q4/) of GitLab team members.
+Creation of and participation in this program also supports the FY23-Q4 OKR to Grow Careers of GitLab team members.
 
 Apply to become a TeamOps Trainer and learn more about the program in [this GitLab issue](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/305).
 
