@@ -18,7 +18,6 @@ As a result of our direct interactions with customers, the Support Team occupies
 
 - Development of the product is broken down into [sections, stages and groups; that page](/handbook/product/categories/#devops-stages) is the single source of truth about who is performing this role.
 - Each group can have one or more individual contributor counterparts.
-- Each section can have a Support manager counterpart.
 
 ## Expectations from an SSC
 
@@ -36,19 +35,17 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
   - Get yourself added to their team sync - you can read the agenda doc if you're unable to join the sync call!
   - Join their Slack channel.
 - If the group you chose already has an SSC, schedule a coffee chat with the existing counterpart to learn more!
-- [Section SSC] Schedule a coffee chat with the Support counterparts in the groups within the section.
 
 ### Be alert and engaged on what's happening with the group
 
 - Subscribe to the pertinent trackers and labels to be aware of new issues in that group.
 - Be aware of major issues (especially severity::1) in the product area, including workarounds.
 - Be aware of the tickets raised by customers pertinent to the category, surfacing and advocating for them.
-- Be aware of major changes related to the group in upcoming releases. At the section level, awareness of major changes will be 6+ months away instead.
+- Be aware of major changes related to the group in upcoming releases.
 - Inquire about the group's plans for breaking changes in the next major release well in advance (three months/releases prior). Try to get a proper understanding of how customers will be affected early on.
 - Be aware of the priorities and challenges of the product group.
-- Strive to become a subject matter expert in the use of the features they cover. At the section level, focus on becoming knowledgeable on feature usage and effect on customers.
+- Strive to become a subject matter expert in the use of the features they cover.
 - Consider adding yourself as a CC to the [RFH issue template](https://gitlab.com/gitlab-com/request-for-help/-/tree/main/.gitlab/issue_templates?ref_type=heads) for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. You might be able to provide additional context, help your colleague or just benefit from increased awareness yourself.
-- [Section SSC] Provide insight into relevant product KPIs and their potential impact on customers and Support.
 
 ### Enable Support with periodic communication relevant to the group
 
@@ -69,7 +66,6 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 - Catalyze training materials and sessions as needed.
 - [Optional] Consider doing quarterly office hours to chat about your group and share your experiences as an SSC with newer team members.
 - [Optional] Be the DRI or ensure to find a DRI on any [Support Preparedness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=due_date&state=all&label_name%5B%5D=Support%20Preparedness&first_page_size=100) from your product group to ensure major changes are widely communicated.
-- [Section SSC] Ensure a regular cadence of communication with the group level SSCs to ensure alignment and balance of prioritization of issues.
 
 ### Enable Product with periodic communication relevant to the group
 
