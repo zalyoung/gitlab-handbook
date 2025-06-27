@@ -21,7 +21,7 @@ The SA leadership shadow program is a 2-week immersion to experience the [skills
 
 Candidates must:
 
-1. Complete their [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide)
+1. Complete their [Individual Growth Plan (IGP)](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/igp-guide)
 2. Review their IGP with their manager and discuss leadership aspirations
 3. Review the [SA Manager Operating Rhythm](/handbook/solutions-architects/sa-manager/) and discuss this with your manager
 
