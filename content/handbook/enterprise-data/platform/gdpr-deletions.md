@@ -30,6 +30,14 @@ Modified DBT DAG. There are two key things to note here:
    - We also created a separate parsing path in `orchestration/upload_dbt_file_to_snowflake.py` to parse and upload this json data separately to the other type of DBT logs.
    - Finally, the --path parameter was created so that these logs are not mixed in with any of the general logs and so that we have a consistent format containing only the logs pertaining to the most recent run (this path is not persisted between runs)
 
+##### Troubleshooting
+
+Support Engineers are responsible for providing correct CSV input as described in the [Runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/gdpr_deletions/gdpr_deletions.md).
+
+**Error handling**: If a technical error occurs (such as wrong CSV delimiter), the Data Platform Team will identify this during their triage process and take action to ensure the deletion is processed correctly. For input errors made by team members, the Data Platform Team will contact the individual to prevent similar mistakes in the future.
+
+**Lookup process**: To identify which support engineer handled a deletion request, search for the respective email address in [this project](https://gitlab.com/gitlab-com/gdpr-request/-/issues/).
+
 #### Tableau report
 
 Workbook, detailed here:
