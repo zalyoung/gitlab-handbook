@@ -64,9 +64,9 @@ External contributions are subject to the [External Blog Submissions Terms](http
 ## How to submit a blog draft once your idea is approved
 
 **Once a blog pitch is approved,** the author will use one of the following options to submit their draft:
-- Submit via a merge request in GitLab. To do this, [please follow these steps to do so from the repo](/digital-experience/decap-cms/#creating-a-blog-post-in-the-aboutgitlabcom-repository) or [for the IDE](/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
+- Submit via a merge request in GitLab. To do this, [please follow these steps to do so from the repo](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-in-the-aboutgitlabcom-repository) or [for the IDE](/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
 
-- Submit via Decap, our basic content management system, [using these steps](/digital-experience/decap-cms/#creating-a-blog-post-using-decap-cms). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
+- Submit via Decap, our basic content management system, [using these steps](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-decap-cms). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
 
 - Submit via Google Docs using the [Blog Submission template](https://docs.google.com/document/d/1iWk0a5T14dG5fvIxvG4doqqRxx0pyv3ej_aMDqYXjgA/template/preview) (Google Doc) to write the blog, ensuring the Google Doc is linked in the issue. **All fields in the template will have to be completed for the blog team to accept the submission.** The author will tag @sgittlen in the issue, put the doc link in a comment, and share the Google Doc once it is ready to be edited (after all necessary approvals and reviews have been completed). **Note:** All images must be included inline in the Google Doc.
 
@@ -227,15 +227,15 @@ You can include as many tags as you like, separated by commas. Please only inclu
 
 ### Media embeds
 
-Details can be found [here](https://handbook.gitlab.com/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide).
+[Instructions for including video](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide).
 
 ### Adding code blocks
 
-Details can be found [here](https://handbook.gitlab.com/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). 
+[Instructions for adding code blocks](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). 
 
 #### Mermaid charts
 
-Details about how to embed mermaid charts into your blog can be found in [this MR](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/merge_requests/211#usage-notes). Please read as there are nuances that might prevent your chart from rendering properly.
+[How to embed mermaid charts into MR](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/merge_requests/211#usage-notes). Please read as there are nuances that might prevent your chart from rendering properly.
 
 #### Preparing images
 
@@ -305,7 +305,6 @@ We can publish blog posts in languages other than English. We currently support 
 | Japanese |`/ja-jp/blog/YEAR/MONTH/DAY/Title/` |
 
 Please contact the GitLab localization team for more information.
-
 
 ### How to kick off translations
 
