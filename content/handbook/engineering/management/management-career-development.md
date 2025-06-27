@@ -4,7 +4,7 @@ description: "Career development information and process to follow for Engineeri
 ---
 
 Outside of [hiring](/handbook/engineering/management/hiring/), the best way to improve the strengths of your team
-is to practice career development coaching with your developers. Not all team members will want to become Staff Developers or Managers. Instead, identifying their individual career goals and proactively working towards those goal is the most effective way to help team members improve and have ownership over their careers. In addition to the company-wide notes on [career mapping and development](/handbook/people-group/learning-and-development/career-development/#career-mapping-and-development),
+is to practice career development coaching with your developers. Not all team members will want to become Staff Developers or Managers. Instead, identifying their individual career goals and proactively working towards those goal is the most effective way to help team members improve and have ownership over their careers. In addition to the company-wide notes on [career mapping and development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#career-mapping-and-development),
 here are some important considerations for the Engineering team:
 
 - **Technical or Professional Leadership?** This is the first section on our

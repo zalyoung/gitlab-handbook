@@ -754,7 +754,7 @@ GitLab team members who realize the full potential of analytical insights can do
 - [Tableau Community](https://community.tableau.com/s/)
 - [Tableau Support](https://www.tableau.com/support)
 - [Tableau Classroom training](https://trailheadacademy.salesforce.com/products/tableau#f-products=Tableau) & [Training Pass](https://www.tableau.com/learn/training/elearning)
-  - These could be options for you to use as part of your [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/learning-and-development/career-development/#what-is-career-development).
+  - These could be options for you to use as part of your [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#what-is-career-development).
 
 <summary><b>Third Party Training Resources</b></summary>
 

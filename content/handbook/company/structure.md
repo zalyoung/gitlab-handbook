@@ -53,7 +53,7 @@ We are using the Job Frameworks in the following programs:
 - [Promotion Process](/handbook/people-group/promotions-transfers/)
   - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
   - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
-- [Career Development Conversations](/handbook/people-group/learning-and-development/career-development/#having-career-conversations)
+- [Career Development Conversations](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#having-career-conversations)
   - Both managers and team members can leverage the frameworks in their conversations.
   - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
 - Organizational Design and Headcount Planning

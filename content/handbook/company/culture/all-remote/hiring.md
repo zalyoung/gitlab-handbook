@@ -107,7 +107,7 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 1. Building and explicitly publishing a culture of trust, empowerment, and autonomy for employees to do great work regardless of location (*view [GitLab's guide on building culture](building-culture/) and its [Values page](/handbook/values/) for more*)
 1. Engage and respect *existing* employees, empowering them to become [talent brand ambassadors](/handbook/hiring/gitlab-ambassadors/) on platforms such as Glassdoor, LinkedIn, Twitter, and Comparably
 1. Permit open sourcing some of an employee's work and encourage building of their personal brands
-1. Clear opportunities for [growth](/handbook/people-group/learning-and-development/career-development/) and professional development
+1. Clear opportunities for [growth](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/) and professional development
 
 ## What to do during the remote hiring process
 
