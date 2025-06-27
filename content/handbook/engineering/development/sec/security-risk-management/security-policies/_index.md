@@ -1,5 +1,5 @@
 ---
-title: Software Supply Chain Security, Security Policies
+title: Security Risk Management, Security Policies
 description: "The Security Policies team at GitLab is responsible for creating solutions that enforce scans, and require security approvals once vulnerabilities are detected."
 layout: single
 ---
@@ -10,7 +10,7 @@ The Security Policies group's mission is to provide security and compliance team
 
 ## Top Priorities FY25
 
-* Integrate Security Policies with other Software Supply Chain Security feature categories by allowing users to scope policies to selected Compliance Frameworks or Projects.
+* Integrate Security Policies with other Security Risk Management feature categories by allowing users to scope policies to selected Compliance Frameworks or Projects.
 * Allow for complex and customized Scan Execution Policies by introducing Pipeline Execution Action with the ability to enforce Custom CI YAML for selected projects and groups.
 * Help users understand why we require merge request approvals in their MRs by displaying Security Policy Violation details as a comment with helpful information.
 * Help customers with the slow rollout of features from the Security Policies team by customizing their policy configuration to allow them to select if they want to fail open or fail closed in case the policy or project is misconfigured.
@@ -80,7 +80,7 @@ use these labels to filter issues meant for us on our issue boards. They are als
 | Label | Meaning |
 | ----- | ------- |
 | ~"section::sec" | Identifies the issue or MR as belonging to the Sec Section's roadmap. |
-| ~devops::govern | Identifies the issue or MR as belonging to the Software Supply Chain Security Stage's roadmap. |
+| ~devops::govern | Identifies the issue or MR as belonging to the Security Risk Management Stage's roadmap. |
 | ~"group::security policies" | Identifies the Security Policies group as the collection of individuals who will work on the issue or MR. |
 | ~"Category:Security Policy Management" | Identifies the issue or MR as being part of the Security Policy Management feature category. |
 | ~backend | Identifies the issue or MR as being part of GitLab's backend. |
@@ -131,7 +131,7 @@ Adoption of Security Policies features:
 * Number of projects with at least one scan result policy
 * Number of users who have created merge requests with at least one applicable scan result policy
 * Number of users who have created merge requests in Projects that have an assigned security policy project
-* Unique count of Software Supply Chain Security actions in a given timeframe
+* Unique count of Security Risk Management actions in a given timeframe
 * Unique count of the Security Policies actions in a given timeframe
 * Unique count of the Security Policies visits in a given timeframe
 * Unique count of users creating merge requests with security policies in a given timeframe
