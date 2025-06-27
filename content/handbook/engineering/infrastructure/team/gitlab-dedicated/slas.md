@@ -18,6 +18,12 @@ GitLab calculates Service Level Availability based on the available state of cer
 | registry | Container Registry HTTPS requests |
 | gitlab-shell | Git Push, Git Pull, Clone Operations over SSH|
 
+## Roles & Responsibilities
+
+| --- | --- |
+| Role | Responsibility |
+| TBD | TBD |
+
 ## Service Level Availability Calculation
 
 For each service and feature described above, GitLab measures two service level indicators ("SLIs"), as further described in https://gitlab.com/gitlab-com/runbooks/-/tree/master/reference-architectures/get-hybrid#service-level-indicators:
