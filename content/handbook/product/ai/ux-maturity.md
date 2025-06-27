@@ -58,7 +58,7 @@ Risk is a measure of how much potential harm can a feature cause to a user, an o
 We have a variety of tools and processes to help you navigate various states of confidence and risk they include:
 
 * [UX Bash](../product/ux/ux-research/ux-bash/)
-* [Central Evaluation Framework](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_testing_and_evaluation/#test-2-centralized-evaluation-framework) which is supported by the [Model Validation](../../engineering/ai/data-science/ai-powered/model-validation/_index.md) team
+* [Central Evaluation Framework](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_testing_and_evaluation/#test-2-centralized-evaluation-framework) which is supported by the AI Framework team
 * [Intro to Prompt Engineering](https://www.promptingguide.ai/introduction)
 
 Note: For Duo Enterprise, the [Definition of Done](https://gitlab.com/gitlab-org/gitlab/-/issues/444274#ga-scope--definition-of-done (internal link)) is the SSOT.
