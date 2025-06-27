@@ -225,7 +225,7 @@ When you ask:
 
 #### Numbering is for reference, not as a signal
 
-When taking notes in an agenda, in the handbook, or on our [OKRs](/handbook/company/okrs/), keep items numbered so we can refer to Item 3 or 4a.
+When taking notes in an agenda, in the handbook, or in other documents, keep items numbered so we can refer to Item 3 or 4a.
 The number is not a signal of the importance or rank of the subject unless explicitly stated to be such.
 It is just for ease of reference.
 
