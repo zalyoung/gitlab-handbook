@@ -55,7 +55,7 @@ Journey map elevation levels connect and inform each other, with micro-level ins
   - Identify specific UI/UX improvements and metrics
 - Artifacts: TBD
 
-## Methodologies & Best Practices
+## Best Practices
 
 The most effective and informative journey mapping goes beyond assumptions to create user experience maps grounded in real data. It balances research depth with practical needs to generate actionable insights.
 
@@ -99,52 +99,7 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 
 **Conduct new research**
 
-- Select the best approach to gather needed data from the various Research Methods available:
-
-##### Quantitative methods
-
-**Analytics and behavioral data**
-
-- Track user flows and conversion rates  
-- Identify drop-off points and completion rates  
-- Analyze user segments and their different behaviors  
-- Measure time spent on tasks and interactions  
-  *When to use*: To understand what users are doing and identify patterns at scale
-
-**Surveys**
-
-- Use validated scales like USAT+, CSAT or other metrics  
-- Ask about specific journey stages and experiences  
-- Gather feedback from large user samples  
-- Track satisfaction and sentiment over time  
-  *When to use*: To quantify user satisfaction and validate findings across larger groups, particularly good for high risk/low confidence decisions which affect a large number of users
-
-##### Qualitative methods
-
-**User interviews**
-
-- Conduct structured conversations about user experiences  
-- Ask about motivations, frustrations, and goals  
-- Explore the "why" behind user behaviors  
-- Gather detailed stories and context  
-  *When to use*: To understand user motivations and get detailed insights about experiences
-
-**Observation and usability testing**
-
-- Watch users complete tasks in their natural environment  
-- Identify where users struggle or get confused  
-- Observe actual behavior vs. what users say they do  
-- Document contextual factors that influence experience
-
-*When to use*: To see actual user behavior and identify usability issues
-
-**Diary studies**
-
-- Have users document their experiences over time  
-- Capture experiences that happen across multiple sessions  
-- Understand how context affects user behavior  
-- Gather insights about long-term usage patterns  
-  *When to use*: For journeys that span multiple days or weeks, or when you can't observe users directly
+- Select the best approach to gather needed data from the various [Research Methods](#research-methodologies) available.
 
 **Document everything**
 
@@ -195,3 +150,54 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 
 - Monitor how journey enhancements affect conversion to first orders, reduce time-to-value, and increase adoption of new features  
 - Assess journey optimization contributions to key business objectives, and share success stories demonstrating ROI through improved first-order conversion, faster customer success, and validated innovation direction
+
+## Research Methodologies
+
+### Quantitative methods
+
+**Analytics and behavioral data**
+
+- Track user flows and conversion rates  
+- Identify drop-off points and completion rates  
+- Analyze user segments and their different behaviors  
+- Measure time spent on tasks and interactions  
+
+*When to use*: To understand what users are doing and identify patterns at scale
+
+**Surveys**
+
+- Use validated scales like USAT+, CSAT or other metrics  
+- Ask about specific journey stages and experiences  
+- Gather feedback from large user samples  
+- Track satisfaction and sentiment over time  
+
+*When to use*: To quantify user satisfaction and validate findings across larger groups, particularly good for high risk/low confidence decisions which affect a large number of users
+
+### Qualitative methods
+
+**User interviews**
+
+- Conduct structured conversations about user experiences  
+- Ask about motivations, frustrations, and goals  
+- Explore the "why" behind user behaviors  
+- Gather detailed stories and context  
+
+*When to use*: To understand user motivations and get detailed insights about experiences
+
+**Observation and usability testing**
+
+- Watch users complete tasks in their natural environment  
+- Identify where users struggle or get confused  
+- Observe actual behavior vs. what users say they do  
+- Document contextual factors that influence experience
+
+*When to use*: To see actual user behavior and identify usability issues
+
+**Diary studies**
+
+- Have users document their experiences over time  
+- Capture experiences that happen across multiple sessions  
+- Understand how context affects user behavior  
+- Gather insights about long-term usage patterns  
+
+*When to use*: For journeys that span multiple days or weeks, or when you can't observe users directly
