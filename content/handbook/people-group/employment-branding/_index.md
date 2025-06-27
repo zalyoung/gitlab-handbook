@@ -41,7 +41,7 @@ As we build GitLab into one of the world's best workplaces, we will look to incr
     - We operate around the world. We welcome people of all backgrounds to contribute to our success and have built [Diversity, Inclusion, and Belonging programs](/handbook/company/culture/inclusion/) and practices into all parts of our company.
 1. **Anyone can thrive**
     - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being](/handbook/total-rewards/benefits/) regardless of location.
-    - [Career development](/handbook/people-group/learning-and-development/career-development/), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
+    - [Career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
 1. **We foster a values-led, remote culture**
     - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/). Because we're all-remote, we aim to stay at the forefront of best practices & building culture in a globally distributed environment.
     - Our [handbook-led approach](/handbook/company/culture/all-remote/handbook-first/) and async working style highlight our values-led, remote culture.

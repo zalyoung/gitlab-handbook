@@ -17,7 +17,7 @@ When you are ready to start building your promotion document, take a look at the
 
 Familiarize yourself with what it means to plan your career path, and how leadership plays a role in your next step.
 
-- Read about [Career Development at GitLab](/handbook/people-group/learning-and-development/career-development/).
+- Read about [Career Development at GitLab](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/).
 - Read about [Engineering Career Development at GitLab](/handbook/engineering/careers/).
 - Watch [this video on the Critical Career Path Conversation](https://www.youtube.com/watch?v=hMz6QDURQOM&list=PLBzScQzZ83I8H8_0Qete6Bs5EcW3p0kZF&index=7).
 - Read [leadership books](/handbook/leadership/#books) (strongly suggested).

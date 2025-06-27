@@ -4,7 +4,7 @@ title: Individual Development Plan
 
 ## From FY24-Q2 - Individual Growth Plan
 
-Since the launch of the company wide [Individual Growth Plan](/handbook/people-group/talent-management-and-development/programs/career-development/igp-guide/) in Workday per FY24-Q2 we recommend Security team members to leverage that tool in Workday to collaborate with their manager on their career path and growth opportunities. Team members can read all about that progress in [this guide](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/igp-guide/). We have deprecated the [The Individual Development Plan (IDP) template](https://docs.google.com/document/d/1Df4ITI_ZBXK51B5MP2nzAXS24O-9lmi5itVUniop8MU/edit?usp=sharing)
+Since the launch of the company wide [Individual Growth Plan](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) in Workday per FY24-Q2 we recommend Security team members to leverage that tool in Workday to collaborate with their manager on their career path and growth opportunities. Team members can read all about that progress in [this guide](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/). We have deprecated the [The Individual Development Plan (IDP) template](https://docs.google.com/document/d/1Df4ITI_ZBXK51B5MP2nzAXS24O-9lmi5itVUniop8MU/edit?usp=sharing)
 
 ## Till FY24-Q2 - Individual Development Plan
 

@@ -18,7 +18,7 @@ Topics covered include:
 1. Why the book is one of Sid's favorites.
 1. Why dual reporting structures lead to matrix organizations and how GitLab maintains a [no-matrix organization](/handbook/leadership/no-matrix-organization/).
 1. Why [1-1 meetings](/handbook/leadership/1-1/) are fundamental to management.
-1. Enabling the direct report to show initiative in their [career and performance](/handbook/people-group/talent-management-and-development/programs/career-development/).
+1. Enabling the direct report to show initiative in their [career and performance](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/).
 1. The importance of [emotional intelligence](/handbook/leadership/emotional-intelligence/) in management based on task-relevant maturity.
 1. Why training the team should be the manager's job.
 

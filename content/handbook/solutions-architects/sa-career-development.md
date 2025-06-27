@@ -7,7 +7,7 @@ description: >-
 
 ## Career Development
 
-Solutions Architecture team members you should review the [GitLab People Group Career Development page](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/) for the roles, responsibilities, and helpful career development resources.
+Solutions Architecture team members you should review the [GitLab People Group Career Development page](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/) for the roles, responsibilities, and helpful career development resources.
 
 ### Solution Architecture Specific Career Development
 
@@ -20,11 +20,11 @@ The diagram below can help you exploring potential evolutions of your career dev
 
 While maturing a decision or assessing options, the below steps can help you throughout the process:
 
-1. Have a [career development conversation](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to:
+1. Have a [career development conversation](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to:
 
     - Discuss the Career Path you want to explore and your motivation
     - Learn about what involves to be in these roles (for instance, you can read the job description for the roles you are interested in or speak directly with people who are in these roles)
-    - Draft an [Individual Growth Plan](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#individual-growth-plan) where you highlight:
+    - Draft an [Individual Growth Plan](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) where you highlight:
 
          - Options you are looking to explore
          - Gaps you might see with where you are now in your development compared you want to be

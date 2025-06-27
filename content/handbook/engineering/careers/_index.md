@@ -10,7 +10,7 @@ There are three important components of developing one's career:
 
 Team members who are (or want to be) on track for promotion should be engaged in
 a career coaching conversation with their manager. Some basic information about
-this process can be found in the [People Ops](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#career-mapping-and-development) handbook.
+this process can be found in the [People Ops](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#career-mapping-and-development) handbook.
 Specific coaching plan templates are listed here to help start the conversation:
 
 - [Senior Engineer](https://docs.google.com/document/d/11xZpY2RuTldp1g6bHRFYKwwlQjNjYaPquLPo5uD6hrg/edit#)

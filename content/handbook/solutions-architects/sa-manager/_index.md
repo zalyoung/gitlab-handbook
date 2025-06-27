@@ -108,7 +108,7 @@ As part of reviewing and supporting the team activities, SA Managers should meet
 
 ### Quarterly
 
-1. [**SA Individual Growth Plan Review**](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/igp-guide/): Every Quarter set aside some time apart from one on ones, to review SA's Individual Growth Plans and progress in Workday.
+1. [**SA Individual Growth Plan Review**](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/): Every Quarter set aside some time apart from one on ones, to review SA's Individual Growth Plans and progress in Workday.
 2. [**Quarterly Sit Downs**](/handbook/solutions-architects/sa-manager/#quarterly-sit-downs-qsds)
 3. **SA Club Leaderboard and Wildcard Review**: Review SA Club Leaderboard in Table and make any adjustments to Wildcard system
 4. **Team Quarterly Enablements** aka Quarterlies: Highly recommended as a region to conduct a team quarterly enablement to conduct [deliberate practices](/handbook/solutions-architects/sa-manager/#deliberate-practice), conduct retros, allow for SAs to demonstrate great practices with each other, and invite others such as PS, partners, PMs to speak with the SAs
@@ -198,7 +198,7 @@ Developing and retaining key talent is constantly top-of-mind for high-performin
 
 Additionally, SA Managers should reinforce [key enablement initiatives](https://gitlab.edcast.com/teams/solution-architects-sas) and encourage participation in the [CS Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/).
 
-SA Managers should encourage and lead team member's proactively to discuss [individual development and growth path](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#roles-and-responsibilities) and always aim to assist team members to grow careers.
+SA Managers should encourage and lead team member's proactively to discuss [individual development and growth path](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#roles-and-responsibilities) and always aim to assist team members to grow careers.
 
 #### Recognition and Gratitude
 

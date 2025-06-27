@@ -432,7 +432,7 @@ After calibration sessions are done and performance and growth potential factors
     - Areas that need improvement
     - Areas that you identified as either strengths and/or development areas that differed from the team member's self-assessment.
     - Provide specific examples for both strengths and improvement areas. The [SBI](/handbook/people-group/guidance-on-feedback/#s-b-i-model) (Situation - Behavior - Impact) model can be effective for delivering examples structured in a way that makes impact clear to team members.
-    - Think about recommendations and/or focus areas for a team member's development OR if a team member has an active [Individual Growth Plan(IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide/), consider how the feedback fits into their current IGP
+    - Think about recommendations and/or focus areas for a team member's development OR if a team member has an active [Individual Growth Plan(IGP)](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/), consider how the feedback fits into their current IGP
 1. **Schedule a separate call or repurpose your [1:1](/handbook/leadership/1-1/)) to discuss a team member's performance and growth potential factor**. The performance and growth potential factors should be communicated at the beginning of the meeting. This allows the team member time to ask questions, discuss their assessment, and most importantly, determine next steps. If your 1:1s are often filled with agenda items, the recommendation is to schedule another call to make sure you have ample time allocated.
 1. **Protect the confidentiality of other team members** by avoiding saying things like "you were the only team member to be rated this performance factor."
 1. **Avoid making future promises** like, "In the next review, I will rate you X performance/growth potential factor."
@@ -478,7 +478,7 @@ As a next step, let's schedule some time to talk more about what you want to do 
 
 ### Sample Next Steps
 
-The most important part of the talent assessment discussion is to determine next steps in partnership with your team member. The team member should be the DRI for the next steps with support from you as their manager. Our [Career Development handbook page](/handbook/people-group/learning-and-development/career-development/) includes a lot of great information and resources on career development including [an Individual Growth Plan guide](/handbook/people-group/learning-and-development/career-development/igp-guide/) which should help provide structure and a plan for next steps.
+The most important part of the talent assessment discussion is to determine next steps in partnership with your team member. The team member should be the DRI for the next steps with support from you as their manager. Our [Career Development handbook page](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/) includes a lot of great information and resources on career development including [an Individual Growth Plan guide](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) which should help provide structure and a plan for next steps.
 If you have any questions or concerns about next steps, please contact your manager and/or your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 ## Information Guide
@@ -657,7 +657,7 @@ Recommended process for our Mid Year check-in will be as follows:
 
     - **Next Steps**
 
-      A space for the team member and manager to document any relevant next steps stemming from this conversation. This could be a full [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) or a couple of key actions or development opportunities for the individual.
+      A space for the team member and manager to document any relevant next steps stemming from this conversation. This could be a full [Individual Growth Plan](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide) or a couple of key actions or development opportunities for the individual.
 
 1. *Manager Feedback: Team members let their manager know when they have provided their self-assessment overview in their [1:1 document](/handbook/leadership/1-1/)*
 
@@ -669,7 +669,7 @@ Recommended process for our Mid Year check-in will be as follows:
 
 1. *Align on actions/next steps*
 
-   Team member and manager align on action items stemming from the conversation to best support team member development and alignment to their goals. You are encourage to leverage our [Career Development and Mobility](/handbook/people-group/learning-and-development/career-development/)) handbook page for ideas and inspiration.
+   Team member and manager align on action items stemming from the conversation to best support team member development and alignment to their goals. You are encourage to leverage our [Career Development and Mobility](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/) handbook page for ideas and inspiration.
 
 ### Timeline
 
@@ -819,7 +819,7 @@ We want to make sure we use engagement tools to retain Key Talent. A few of our 
 
 ## Key Talent Program
 
-Supporting Key Talent at GitLab is a critical element of business scalability and organizational development and growth. Our Key Talent are often individuals that can be looked to for mentorship and guidance by others, but it is also important that we invest in the development of this group and ensure that key knowledge is shared. A couple of key ways we can support our Key Talent is through regular discussions and the development of [Individual Growth Plans (IGPs)](/handbook/people-group/learning-and-development/career-development/igp-guide/).
+Supporting Key Talent at GitLab is a critical element of business scalability and organizational development and growth. Our Key Talent are often individuals that can be looked to for mentorship and guidance by others, but it is also important that we invest in the development of this group and ensure that key knowledge is shared. A couple of key ways we can support our Key Talent is through regular discussions and the development of [Individual Growth Plans (IGPs)](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/).
 
 Below are suggestions for getting started, resources for managers, a [Key Talent Engagement Discussion template](https://docs.google.com/document/d/1ZMDkD8TE7mAcB1IUuHjNi5VeuXDbvsEsqKnGFXUqxsc/edit#heading=h.akod5o3a8i5q), and a recommended cadence.
 
@@ -831,14 +831,14 @@ One way to set up a structure and regular cadence for touchpoints with our Key T
 1. Uncover potential risks for business continuity and implement plans to mitigate
 1. Identify areas of support needed
 1. Identify opportunity for stretch projects and continued growth
-1. Use this discussion as a starting point to partner with team members to get [Individual Growth Plans (IGPs)](/handbook/people-group/learning-and-development/career-development/igp-guide/) in place
+1. Use this discussion as a starting point to partner with team members to get [Individual Growth Plans (IGPs)](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) in place
 1. Leverage this data to identify key themes and potential actions across our Key Talent pool with the goal of improving engagement (leaders can work with their aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) on this piece)
 
 Managers can leverage [this template](https://docs.google.com/document/d/1ZMDkD8TE7mAcB1IUuHjNi5VeuXDbvsEsqKnGFXUqxsc/edit#heading=h.akod5o3a8i5q) to help facilitate consistency in Key Talent Engagement Discussions.
 
 ### Individual Growth Plans (IGPs)
 
-Key Talent Engagement Discussions can be a great starting point to start thinking through Individual Growth Plans, which is the recommended next step. Some ideas for our Key Talent population to consider when thinking through [Individual Growth Plans (IGPs)](/handbook/people-group/learning-and-development/career-development/igp-guide/) include:
+Key Talent Engagement Discussions can be a great starting point to start thinking through Individual Growth Plans, which is the recommended next step. Some ideas for our Key Talent population to consider when thinking through [Individual Growth Plans (IGPs)](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) include:
 
 - Stretch project (Cross functional, and an opportunity to be DRI)
 - Mentor (leader to help identify internal or external mentor)
@@ -853,7 +853,7 @@ We recommend that managers perform Key Talent Engagement Discussions twice per y
 
 A couple of options for Key Talent Engagement Discussions that managers can consider are:
 
-1. **Before Mid-Year check-in**: Before our company-wide [Mid-Year check-ins](/handbook/people-group/talent-assessment/#mid-year-check-in). This cadence would be 1) Key Talent Engagement Discussions, 2) Mid year check-in discussion, 3) [Individual Growth Plans (IGPs)](/handbook/people-group/learning-and-development/career-development/igp-guide/) (*if applicable*). Touching base with Key Talent ahead of Mid-year check-ins can help provide an insightful baseline and level of insight before going into more performance-focused discussions.
+1. **Before Mid-Year check-in**: Before our company-wide [Mid-Year check-ins](/handbook/people-group/talent-assessment/#mid-year-check-in). This cadence would be 1) Key Talent Engagement Discussions, 2) Mid year check-in discussion, 3) [Individual Growth Plans (IGPs)](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) (*if applicable*). Touching base with Key Talent ahead of Mid-year check-ins can help provide an insightful baseline and level of insight before going into more performance-focused discussions.
 
 In FY'24 Q2, we will begin *optional* Key Talent Engagement Discussions across the organization aligned with our upcoming mid-year check-in process. For divisions or departments that choose to opt in, the high level timeline would be as follows (exact dates TBD):
 
@@ -861,6 +861,6 @@ In FY'24 Q2, we will begin *optional* Key Talent Engagement Discussions across t
 - June: [Mid year check-ins](/handbook/people-group/talent-assessment/#mid-year-check-in) (required)
 - July: IGP (Individual Growth Plan) development (optional)
 
-1. **After our [Talent Assessment cycle](/handbook/people-group/talent-assessment/#q4-formal-talent-assessment)**: This cadence would be 1) Self-assessment, 2) Talent Assessment performance review discussion, 3) Key Talent Engagement Discussion, 4) [Individual Growth Plans (IGPs)](/handbook/people-group/learning-and-development/career-development/igp-guide/) (*if applicable*). We recommend that Key Talent Engagement Discussions occur *after* Talent Assessments as opposed to before to ensure we have the most recent group of key talent calibrated and confirmed before Key Talent Engagement Discussions occur.
+1. **After our [Talent Assessment cycle](/handbook/people-group/talent-assessment/#q4-formal-talent-assessment)**: This cadence would be 1) Self-assessment, 2) Talent Assessment performance review discussion, 3) Key Talent Engagement Discussion, 4) [Individual Growth Plans (IGPs)](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) (*if applicable*). We recommend that Key Talent Engagement Discussions occur *after* Talent Assessments as opposed to before to ensure we have the most recent group of key talent calibrated and confirmed before Key Talent Engagement Discussions occur.
 
 As mentioned above, Key Talent Engagement Discussions can be done at any point during the year, it is not necessary that they are coupled with our Mid year check-in process.

@@ -264,7 +264,7 @@ Managers of global teams should also anticipate a variety of styles to be repres
 
 A common concern of remote workers is the perceived inability to further their career while outside of an office. This is often seen in [hybrid-remote](hybrid-remote/) companies, where remote employees may wonder if team members who commute into the office will be better positioned for raises and promotion opportunities.
 
-Great remote managers will proactively ask about one's [career goals](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/), and frequently discuss how a report is moving towards a particular career objective.
+Great remote managers will proactively ask about one's [career goals](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/), and frequently discuss how a report is moving towards a particular career objective.
 
 [Research from Headlamp](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/) shows that 82% of workers said they would be more engaged in their work if their managers regularly discussed their career aspirations but only 16% of employees reported having those conversations on a regular basis. By having [regular conversations about career advancement](https://web.archive.org/web/20210715215321/https://headlamp.team/engaging-remote-employees-managers-guide/#chapter5) with your remote team, you can build a more connected and engaged workforce.
 

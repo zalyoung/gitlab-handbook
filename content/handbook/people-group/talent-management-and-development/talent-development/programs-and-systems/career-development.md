@@ -102,7 +102,7 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 GitLab team members [should not feel pressure to climb the career ladder](/handbook/leadership/1-1/#key-points). Skill development and promotion are not mutually exclusive. [Unique experience influences problem solving](/handbook/company/culture/inclusion/) and views of success.
 
-You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Connect or your People Business Partner](/handbook/people-group/people-connect#-connect-with-us).
+You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Connect or your People Business Partner](/handbook/people-group/people-connect/#methods-of-engagement).
 
 | Topic | Definition | Examples |
 | ----- | ----- | ----- |
@@ -148,7 +148,7 @@ Watch: interview with a GitLab team member who's used the Individual Growth Plan
 1. Fill out the IGP in Workday. Refer to the [job frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) and your [job family](/job-families/) to determine a skill and behavior focus. Give yourself time to think, plan, and fill out your IGP. Set learning blocks over the next 1-2 weeks rather than completing the IGP in one sitting.
 1. Submit your IGP to your manager. Schedule a career conversation with your manager and review your IGP in your next 1:1 or at a separate time.
 1. Make a plan that integrates working on your IGP during the flow of work by setting aside weekly or monthly time dedicated to learning. Block these times on your calendar.
-1. Update progress against your development goals. The IGP and [development goals in Workday](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) itself might work well for you, but if you need more structure, consider using [GitLab Epics + Issues](/handbook/people-group/learning-and-development/career-development/#use-gitlab-epics-to-track-your-career-development) or a [health tracker in Google Sheets](/handbook/people-group/learning-and-development/career-development/#health-tracker-growth-plan).
+1. Update progress against your development goals. The IGP and [development goals in Workday](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) itself might work well for you, but if you need more structure, consider using [GitLab Epics + Issues](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#use-gitlab-epics-to-track-your-career-development) or a [health tracker in Google Sheets](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#health-tracker-growth-plan).
 
 ### Tracking your Progress
 
@@ -226,7 +226,7 @@ Team Members: Take the [Support your team with Career Conversations course in Le
 
 Managers should support their direct reports with their professional development goals. Implement the following into a [1-1](/handbook/leadership/1-1/), team meeting, or async communication to support your team.
 
-1. Encourage team members to create an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) or use [GitLab Epics to track their career development](/handbook/people-group/learning-and-development/career-development/#use-gitlab-epics-to-track-your-career-development).
+1. Encourage team members to create an [Individual Growth Plan](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) or use [GitLab Epics to track their career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#use-gitlab-epics-to-track-your-career-development).
 1. Utilize the [Growth & Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/).
 1. Recommend (and model) blocking time to learn during the work week.
 1. Organize team specific and cross-functional learning communities to practice social learning.
@@ -326,10 +326,10 @@ The bi-annual cadence is not required, but recommended. Some team members may pr
 
 ### Process
 
-*Please note that while managers can facilitate career development conversations with team members and help guide growth plans by using our [internal resources](/handbook/people-group/learning-and-development/career-development/#career-mapping-and-development),  managers cannot complete the acknowledgement process for team members.*
+*Please note that while managers can facilitate career development conversations with team members and help guide growth plans by using our [internal resources](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#career-mapping-and-development),  managers cannot complete the acknowledgement process for team members.*
 
 - This is not mandatory, however we highly encourage all team members to discuss their career goals with their manager.
-- There is not one right way to document a career development conversation. Some team members may use their 1:1 document to capture the conversation and actions, others may use the [tools provided above](/handbook/people-group/learning-and-development/career-development/#career-mapping-and-development) to help guide the conversation, or a team member may use their own personal template or process to have a career development conversation.
+- There is not one right way to document a career development conversation. Some team members may use their 1:1 document to capture the conversation and actions, others may use the [tools provided above](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#career-mapping-and-development) to help guide the conversation, or a team member may use their own personal template or process to have a career development conversation.
 - If you have not had a career conversation yet it is up to you to schedule a time to review and discuss with your manager.
 - If you are new to GitLab the recommendation is that you start career conversations after your first 90 days.
 - Career conversations should not be confused with promotion conversations. Team members who do not want to increase their scope of work or be promoted, but are performing, should not feel pressured to move up or out. Career conversations can also focus on helping team members identify projects or other activities that keep the team member engaged and learning new skills. *Please note that development can also include lateral moves, or moving to another specialty within the same job family and job level.*

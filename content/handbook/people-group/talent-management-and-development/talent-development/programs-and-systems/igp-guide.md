@@ -88,7 +88,7 @@ Make your goals concrete by considering:
 1. How will you engage your network for support and feedback?
 1. What challenges might you face, and how will you address them?
 
-Think creatively about your development using the [70-20-10 rule for development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#70-20-10-rule-for-development):
+Think creatively about your development using the [70-20-10 rule for development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#70-20-10-rule-for-development):
 
 - 70% from challenging experiences and assignments
 - 20% from relationships, networks, and feedback
@@ -96,7 +96,7 @@ Think creatively about your development using the [70-20-10 rule for development
 
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 75.93%; padding-top: 0; height: 0;"><iframe frameborder="0" width="300" height="250" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fd2aa9021efd0018b7c8eb" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
-**Looking for development opportunities?** Explore our [resource repository](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#directory) of programs and learning platforms. Bookmark resources that align with your growth direction.
+**Looking for development opportunities?** Explore our [resource repository](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#directory) of programs and learning platforms. Bookmark resources that align with your growth direction.
 
 **Pro Tip:** If you can't find what you need internally, remember the Growth and Development Benefit can cover university programs, coding classes, external certifications, coaching, and more!
 
@@ -106,8 +106,8 @@ Your IGP is a living document designed to evolve with you. Workday will remind y
 
 Remember to [update your development goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) directly in Workday as you make progress. Here are ways to keep your IGP alive throughout the year:
 
-1. Choose a format that works for you to track your progress. Check out [these examples](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#tracking-your-progress).
-1. Schedule at least one quarterly [career conversation](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#having-career-conversations) with your manager during a 1:1.
+1. Choose a format that works for you to track your progress. Check out [these examples](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#tracking-your-progress).
+1. Schedule at least one quarterly [career conversation](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#having-career-conversations) with your manager during a 1:1.
 1. Review your IGP before completing the [Engagement Survey](/handbook/people-group/engagement#cultureamp-engagement-survey-overview) to provide informed feedback on your career growth.
 1. Before participating in the [360 feedback program](/handbook/people-group/360-feedback/), review your IGP and ask for specific feedback on your development areas.
 1. Include your growth journey and lessons learned in your [Talent Assessments](/handbook/people-group/talent-assessment).

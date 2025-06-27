@@ -33,7 +33,7 @@ For example, we should have one SSoT for how to articulate the value of GitLab.
 1. [Succession planning](/handbook/people-group/talent-assessment#succession-planning)
 1. [Learning and development](/handbook/people-group/learning-and-development)
 1. [PDPs/PIPs](/handbook/leadership/underperformance/)
-1. [Career development](/handbook/people-group/learning-and-development/career-development/)
+1. [Career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/)
 1. [360 reviews](/handbook/people-group/360-feedback/)
 1. [Sales training](/handbook/sales/training/)
 1. [Sales enablement sessions](/handbook/sales/training/sales-enablement-sessions/)

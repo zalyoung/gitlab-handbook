@@ -14,7 +14,7 @@ Finance Team Member on-boarding will include specific tasks and information to f
 - a list of "Must Meet" for onboarding coffee chats, to be provided by the team member's manager
 - a working style assessment using Simpli5
 - a view into the Finance Career Ladders and a view of the [Org Chart](https://comp-calculator.gitlab.net/org_chart)
-- a link to read GitLab's take on [Career Development](/handbook/people-group/learning-and-development/career-development/#what-is-career-development)
+- a link to read GitLab's take on [Career Development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#what-is-career-development)
 - an overview of the mentorship programs, shadowing opportunities and [internship programs](/handbook/people-group/learning-and-development/internship-for-learning/)
 - links to the GitLab training tools available from the People group :[External Resources (with no cost)](/handbook/people-group/learning-and-development/self-paced-learning/) &  [Internal Resources](/handbook/people-group/learning-and-development/)
 
@@ -24,7 +24,7 @@ We will use [Simpli5](https://www.simpli5.com/) assessments to help us develop a
 
 **Career Plans and Growth Ladders**
 
-Every individual is ultimately responsible for their career plan and managers are responsible for providing an environment to develop a plan. We will work on a structure that clearly lays out a career plan progression and tools to communicate a plan by aligning to the GitLab Career Development [handbook page](/handbook/people-group/learning-and-development/career-development/).
+Every individual is ultimately responsible for their career plan and managers are responsible for providing an environment to develop a plan. We will work on a structure that clearly lays out a career plan progression and tools to communicate a plan by aligning to the GitLab Career Development [handbook page](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-developmentt/).
 
 **Cross Training, Mentorship and Shadow Programs**
 

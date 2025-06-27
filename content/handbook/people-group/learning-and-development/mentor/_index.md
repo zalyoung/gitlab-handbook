@@ -33,7 +33,7 @@ In FY23 Q1, 17% of mentees in current organized mentorship programs completed a 
 
 ### Benefits for the mentee
 
-1. Be encouraged to prioritize, and be held accountable for, your [career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/)
+1. Be encouraged to prioritize, and be held accountable for, your [career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/)
 1. Learn new skills related to your current role, your future career goals, or an area that you're passionate about
 1. Set and reach clearly outlined [goals](/handbook/company/okrs).
 
@@ -216,7 +216,7 @@ These resources are meant to provide both mentors and mentees with additional pe
 
 1. The [Engineering department](/handbook/engineering/) outlines [strategies for mentors and mentees](/handbook/engineering/careers/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
 1. The [Support team](/handbook/support) has outlined expectations and examples on [Mentorship in Support Engineering](/handbook/support/engineering/mentorship).
-1. [Career growth resources at GitLab](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/)
+1. [Career growth resources at GitLab](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/)
 1. [Harvard Business Review: What efficient mentorship looks like](https://hbr.org/2020/08/what-efficient-mentorship-looks-like)
 1. [Harvard Business Review: What great mentorship looks like in a hybrid workplace](https://hbr.org/2021/05/what-great-mentorship-looks-like-in-a-hybrid-workplace)
 1. [Harvard Business Review: The best mentorship help both people grow](https://hbr.org/2022/01/the-best-mentorships-help-both-people-grow)

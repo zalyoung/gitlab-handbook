@@ -78,7 +78,7 @@ Agree on and document a training plan that accommodates those aspirations and me
 
 Agree on checkin points to review progress and, if necessary, to assist the Support Engineer in prioritizing and allocating the time required for [Learning and Development](/handbook/people-group/learning-and-development/).
 
-[Further details on Career Development Page](/handbook/people-group/learning-and-development/career-development/#recomendations-for-managers-to-support-the-learning-of-team-members)
+[Further details on Career Development Page](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/#recomendations-for-managers-to-support-the-learning-of-team-members)
 
 ### 4. Discuss other activities from responsibility areas
 

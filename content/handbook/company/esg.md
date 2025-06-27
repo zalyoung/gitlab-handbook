@@ -140,7 +140,7 @@ To support our aim of facilitating accessible, remote-friendly development for a
 
 - [Level Up](/handbook/people-group/learning-and-development/level-up/), our learning management software, which is designed to facilitate and centralize the learning experience for GitLab team members.
 - [Self-paced external trainings](/handbook/people-group/learning-and-development/self-paced-learning/), for accessing role-specific training courses and learning materials from industry-leading providers.
-- [Career Development and Mobility](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/), providing resources and direction to help team members engage in lifelong growth to meet their unique goals.
+- [Career Development and Mobility](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/), providing resources and direction to help team members engage in lifelong growth to meet their unique goals.
 - A [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/), enabling team members to access external resources to develop their skills and careers.
 
 As a global, all-remote company with a team of diverse backgrounds, experiences, and perspectives, GitLab offers a dynamic environment and culture where everyone is encouraged to do their best work. Our talent brand empowers team members to share their thoughts on [what it’s like to work here](https://vimeo.com/947155019) because their voices and stories make GitLab unique and successful.
@@ -189,7 +189,7 @@ Our team members are critical to our success. We provide pathways for them to th
 
 - **[Level Up](/handbook/people-group/learning-and-development/level-up/)** – Our learning platform is designed to deploy learning content across GitLab internal team members.
 
-- **[Career development and mobility](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/)** – We provide resources and direction to help team members engage in lifelong growth to meet their unique career goals.
+- **[Career development and mobility](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/)** – We provide resources and direction to help team members engage in lifelong growth to meet their unique career goals.
 
 - **[Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/)** (TMRGs) – TMRGs cultivate an inclusive workplace and empower our employees by fostering a supportive environment where everyone can thrive. Our TMRGs are open to all team members, not just those who specifically identify with a particular group.
 

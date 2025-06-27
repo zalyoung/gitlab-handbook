@@ -35,7 +35,7 @@ description: "Successful management includes onboarding, reviewing Command Plans
 
 ## Career Development
 
-- Leverage GitLab's [Career Development](/handbook/people-group/learning-and-development/career-development/) resources
+- Leverage GitLab's [Career Development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/) resources
 
 ## Performance Management
 

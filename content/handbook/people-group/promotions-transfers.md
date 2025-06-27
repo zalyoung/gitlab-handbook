@@ -5,7 +5,7 @@ description: "Information and protocols related to GitLab promotions and transfe
 
 Developing talent internally is a key component of our success at GitLab, and our promotion and transfer process is built to support that development in alignment with our [values](/handbook/values/). Team members have two main avenues to pursue career advancement at GitLab: 1) Via our cyclical [promotion calibration process](/handbook/people-group/promotions-transfers/#calibration), and 2) by applying and interviewing for open positions.
 
-We encourage team members to take control of their own career advancement, and are empowered to own their development.  Team members are encouraged to utilize the  [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) as a tool to articulate and align with their manager on the skills they want to develop as they think about growing into a different or larger role.
+We encourage team members to take control of their own career advancement, and are empowered to own their development.  Team members are encouraged to utilize the  [Individual Growth Plan](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide) as a tool to articulate and align with their manager on the skills they want to develop as they think about growing into a different or larger role.
 This page captures information about transfers, promotions, realignments.
 
 ## Definitions

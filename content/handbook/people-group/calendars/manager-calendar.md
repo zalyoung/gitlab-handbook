@@ -28,7 +28,7 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **[Promotion Planning, Calibration & Communication](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline)**          | Task: Promotion planning and calibration  |   Task: Promotion Planning and Calibration                              |  Task: Promotion Planning and Calibration                        |
 | **[GitLab Engagement Survey](/handbook/people-group/engagement)**                  |  | Task: Engagement Survey kicks off               | Task: Engagement Survey results review & Divisional Action planning   |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)** |   |   Task: [Mid-Year Check In](/handbook/people-group/talent-assessment/#timeline-1)                       |                     |
-| **[Career Development Conversations](/handbook/people-group/learning-and-development/career-development/)**          |                         |      | Task: (Optional) Kick off your Individual Growth Plan in Workday                     |
+| **[Career Development Conversations](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/)**          |                         |      | Task: (Optional) Kick off your Individual Growth Plan in Workday                     |
 
 ### FY24 Q4
 

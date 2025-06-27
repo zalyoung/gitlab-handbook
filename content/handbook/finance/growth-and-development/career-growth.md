@@ -16,7 +16,7 @@ Welcome to Learning and Development for the Finance Department at GitLab! The re
 
 ### Career Resources
 
-- [Career development at GitLab](/handbook/people-group/talent-management-and-development/career-development/)
+- [Career development at GitLab](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/)
 - [GitLab promotions and transfers](/handbook/people-group/promotions-transfers/)
 - [Performance / Potential Matrix](/handbook/people-group/talent-assessment#the-performancepotential-matrix)
 

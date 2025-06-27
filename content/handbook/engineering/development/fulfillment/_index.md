@@ -874,7 +874,7 @@ This table lists recurring activities between managers and their reports. Most o
 | Activity                                                                                                                        | Cadence   | Type | People Involved                                 |
 |---------------------------------------------------------------------------------------------------------------------------------|-----------|------|-------------------------------------------------|
 | [1-1 Meetings](/handbook/leadership/1-1/)                                                               | Weekly    | Sync | Manager, Report                                 |
-| [Career Development Conversations](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/) | Quarterly | Sync | Manager, Report                                 |
+| [Career Development Conversations](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/) | Quarterly | Sync | Manager, Report                                 |
 | [Skip-Levels Meetings](/handbook/leadership/skip-levels/)                                               | Quarterly | Sync | Manager's Manager, Report                       |
 | [Promotion Planning](/handbook/engineering/careers/#promotion)                               | Annually  | Sync | Manager, Report, Function Leadership, PeopleOps |
 | [Talent Assessment](/handbook/people-group/talent-assessment/)                                          | Annually  | Sync | Manager, Report, Function Leadership, PeopleOps |

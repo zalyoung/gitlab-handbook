@@ -175,10 +175,10 @@ Always be recruiting! As outlined in the [Winning Top Talent](/handbook/sales/fi
 
 ### Career development and mobility for your team
 
-[Career development](/handbook/people-group/learning-and-development/career-development/) is the lifelong process of managing learning, work, leisure and transitions to move toward a personally determined and evolving preferred future. As a manager you should:
+[Career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/career-development/) is the lifelong process of managing learning, work, leisure and transitions to move toward a personally determined and evolving preferred future. As a manager you should:
 
 - Take time with team members to discuss their career aspirations
 - Listen and provide feedback, ideas and contacts
 - Make choices to support their development.
 
-Start by encouraging them to create an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) and then go over it together.
+Start by encouraging them to create an [Individual Growth Plan](/handbook/people-group/talent-management-and-development/talent-development/programs-and-systems/igp-guide/) and then go over it together.
