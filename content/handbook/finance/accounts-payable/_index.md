@@ -39,7 +39,7 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
     - External Supplier Forms are to be final approved by AP Team so that the vendor will be activated in Coupa, to provide our final approval, the vendor must comply with these two important documents so we can properly check the supplier form in our queue.
         - W9 for US vendors and W8 for NON US vendors
         - Bank details in a signed bank letterhead
-    - You can learn more about Coupa in this [Coupa Guide Link](/handbook/business-technology/enterprise-applications/guides/coupa-guide/) and if you need further assistance you may also check the [Procurement Handbook Page](/handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-initiate-a-new-request).
+    - You can learn more about Coupa in this [Coupa Guide Link](/handbook/business-technology/enterprise-applications/guides/coupa-guide/) and if you need further assistance you may also check the [Procurement Handbook Page](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-initiate-a-new-request).
 
 1. Payroll Invoices - These are invoices provided by the Payroll Team for processing and will be manually input in Netsuite. Approval signatures are indicated on the invoice.
     - Invoices with amounts greater than or equal to USD $500,000 are required to have 2 signatories from the Payroll Team (Manager and Director).
