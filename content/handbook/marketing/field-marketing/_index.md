@@ -605,6 +605,12 @@ For sticker orders, please reach out to `@krogel` for details. If all stickers a
 
 In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#qr-codes-for-events-field-marketing-and-corporate-events) to display at your event with that same piece of content for customers to download to their own devices.
 
+### Ordering Items from the GitLab Swag Shop
+
+If you would like to order an item(s) from the [GitLab Swag Shop](https://shop.gitlab.com/) for an event, Please reach out to Betsy Bula and let her know the item(s) you are interested in and the quantity and she will make sure she has enough in stock to spare. Then, please fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSfCeJSeJaafhh4Xxv2fC3mUSMEIWtQSOqy7S9ErwdX0iECk-Q/viewform) for the total $ amount of the item(s) and the Brilliant team will grant you a store credit for the shop. You can use that store credit to pay for the items, and GitLab FP&A will "charge" your budget/Allocadia ID on the back end at the end of the month.
+
+**Note:** Order Code = Allocadia line item ID
+
 ## EMEA Field Marketing Swag
 
 The EMEA Field Marketing team utilises Brilliant to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
