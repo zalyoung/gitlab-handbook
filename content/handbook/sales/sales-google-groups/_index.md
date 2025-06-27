@@ -130,12 +130,12 @@ The recommendation is to use public channels even while it may sometimes feel un
 | #education_services | public | Used to engage with Education Services |
 
 **High Velocity Sales** 
+
 | Channel Name | Channel Access (Private/Public) | Description |
 | ------ | ------ | ------ |
 | #hvs | public | General team channel for collaboration with and within the HVS team | 
 | #hvs_renewals | public | Discussions, questions, announcements, and feedback for the SMB Renewals teams that are part of HVS | 
 | #hvs_new_logo_aes | public | Channel for AEs on the HVS team specifically dedicated to First Order / new logos | 
-
 
 **Revenue Strategy & Operations**
 
