@@ -130,9 +130,9 @@ Please use the following labels for **project work only**:
 
 | Label                       | Use Case                                                        |
 | --------------------------- | --------------------------------------------------------------- |
-| `~"Department::InfraSec"`   | Team Label (to be included in every project-related issue)      |
+| `~"Department::Product Security"`   | Department Label    |
+| `~"Infrastructure Security Team"`   | Team Label          |
 | `~"InfraSec::triage"`       | For new issues which need to be triaged                         |
-| `~"InfraSec::this-quarter"` | For EPICs committed to the current quarter                      |
 
 ### Design Documents
 
