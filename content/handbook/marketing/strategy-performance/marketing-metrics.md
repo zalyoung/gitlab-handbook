@@ -119,10 +119,6 @@ and is_new_logo_first_order = TRUE
 
 An SAO is defined by records in the [Opportunity Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_opportunity).
 
-#### Sisense Snippet
-
-[​​rpt_crm_opportunity_accepted_period_sao](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_opportunity_accepted_period_sao/5ea9956269564639ac39d14beae7c945/edit)
-
 ### Closed Won Opportunity
 
 A Closed Won Opportunity (CW) is an opportunity where the sales team won the deal.
@@ -163,9 +159,6 @@ and is_net_arr_closed_deal = TRUE
 
 A CW Opportunity is defined by records in the [Opportunity Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_opportunity).
 
-Sisense Snippet: [rpt_crm_opportunity_closed_period_closed_won](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_opportunity_closed_period_closed_won/5e22f16719214a549899c36ffd8ff02c/edit)
-
-
 ### Marketing trial sign up flow
 
 We use a variety of methods and systems to collect leads and understand how people discover GitLab. This is a basic overview of these visitors move through marketing systems.
@@ -173,27 +166,9 @@ Note: The time delay between a record being added to SFDC and the time it takes 
 
 ![Trial sign up flow](/images/handbook/marketing/marketing-operations/trial-sign-up-flow.png)
 
+## Lead Source Buckets
 
-## Filters on Marketing Dashboards
-
-Filters are a native and integral piece of any dashboard! They allow you to quickly and easily isolate and filter your data based on pre-determined values and sets. They are of *no use* to anyone if we don't all know what a specific filter represents though! Here are the most common filters used on marketing dashboards, what data they pull from, and what they mean to you as the end-user!
-
-### Date Filters
-
-1. `Group_by_Time` - this groups the X-axis dates by the specified value - either Month, Quarter, or Year
-1. Fiscal Year - this groups the X-axis dates (unless noted on the chart) by GitLab's [Fiscal Years](/handbook/finance/#fiscal-year)
-
-### Salesforce Data Filters
-
-All of these filters pull from the linked/specified field(s) from Salesforce. Notes will indicate when there are groupings used. As all of these pull directly from SFDC and are not cleaned (except for those specified as being bucketed/grouped, anomalies may occur when our data is not properly maintained in SFDC)
-
-1. Source Bucket - this pulls from the `Lead Source` for Leads/Contacts as shown below in the [Reporting Fields Source of Truth](/handbook/marketing/strategy-performance/marketing-metrics/#reporting-fields-source-of-truth) section. Note: these are grouped into **buckets** which, once updatd, will be displayed in a table below. This is considered the SoT for where a specific Lead/Contact came from/was sourced.
-1. Sales Qualified Source - this pulls from the [Sales Qualified Source](https://gitlab.my.salesforce.com/00N6100000HZPjd?setupid=OpportunityFields) of the Opportunity. This is considered the SoT for where an Opportunity came from/was sourced.
-1. Order Type - this pulls from the [Order Type](https://gitlab.my.salesforce.com/00N4M00000Ib8Ok?setupid=OpportunityFields) field on the Opportunity. It is used to define whether an Opportunity is `New First Order`, `New Connected`, etc.
-
-### Lead Source Buckets
-
-To give executives a better view of lead sources and showing where leads and contact are sourced from we created a bucketed feild. Its often refered to as `lead source buckets` in Sisense.
+To give executives a better view of lead sources and showing where leads and contact are sourced from we created a bucketed feild. Its often refered to as `lead source buckets` in Tableau.
 
 Below is the table mapping for each lead source and its Source Bucket.
 
@@ -308,7 +283,6 @@ Note: There is a current transition to move towards the [Territory Success Plann
 1. [Stage Name](https://gitlab.my.salesforce.com/_ui/common/config/field/StandardFieldAttributes/d?id=StageName&type=Opportunity&retURL=%2Fp%2Fsetup%2Flayout%2FLayoutFieldList%3Ftype%3DOpportunity%26setupid%3DOpportunityFields%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DOpportunity&setupid=OpportunityFields)
 1. [Order Type](https://gitlab.my.salesforce.com/00N4M00000Ib8Ok?setupid=OpportunityFields)
 
-
 ## Useful things to know when it comes to Tableau vs. SFDC data
 
 Given the way that our systems are connected and synched, you may see a discrepancy in the data within Tableau vs. Sales Force.com. A few things to note:
@@ -321,7 +295,6 @@ Given the way that our systems are connected and synched, you may see a discrepa
 This section will go into specifics on the workflow for a Field Marketer to check their results.
 
 At the highest level, Field Marketing is responsible for helping to progress MQLs and influencing pipeline. Those MQLs will ultimately create [Sales Accepted Opportunities](/handbook/sales/field-operations/gtm-resources/#opportunities) by the Sales Development team.
-
 
 ### How to track the ROI of your Digital Tactics
 
@@ -359,7 +332,6 @@ We track marketing influence on channel opportunies as well as deal regisiration
 | MDF Funds Request with Partner Account                       | Salesforce | This report captures a list of the current FY Funds Requests with Partner Account name filtered by status.                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002IP3)                                                                               |
 | Instant Marketing Campaigns Asset Report                       | Impartner | This report captures views, downloads, shares and cobrands of our Instant Marketing Campaigns and assets.                                                                                                                                                             | [🖇️](https://prod.impartner.live/en/s/channel-intel/dashboard/65e60883f43d1e0033b33d6e)                                                                               |
 
-
 #### SFDC Report Template - Records Passed to Partners
 
 These reports are used as template for your reference. Please clone and modify the reports based on the campaign name you are wanting to dig into. Reminder that SFDC treats leads and contacts separetely, so you'll need both a leads and a contacts report to see full picture.
@@ -369,6 +341,4 @@ Note: You need to change the campaign name to the actual name of the campaign yo
 1. [Campaigns with Leads](https://gitlab.my.salesforce.com/00O4M000004enu7)
 1. [Campaigns with Contacts](https://gitlab.my.salesforce.com/00O4M000004enuC)
 
-
 - [Records passed to partners](https://gitlab.my.salesforce.com/00O8X000008RSHg) - As part of our [campaigns we run jointly with channel partners](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns), we would like to understand the status of records we've passed to partners, this report give us that insight.
-
