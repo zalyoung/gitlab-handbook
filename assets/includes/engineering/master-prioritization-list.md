@@ -13,9 +13,9 @@
 
 #### Forced Prioritization
 
-Any of the items with a "*" are considered issues driven by the attached [SLO or SLA](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and are expected to be delivered within our stated policy. There are two items that fall into Forced Prioritization:
+Any of the items with a "*" are considered issues driven by the attached [SLO or SLA](/handbook/product-development/issue-triage/#severity) and are expected to be delivered within our stated policy. There are two items that fall into Forced Prioritization:
 
 1. Security Issues labeled with `bug::vulnerability` must be delivered according to the stated [SLO](/handbook/security/#severity-and-priority-labels-on-security-issues)
-1. Issues supporting our product's scale which include `bug::availability` with [specific SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) as well as `infradev`, `Corrective Action`, `ci-decomposition::phase*` that follow the stated [`type::bug` SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
+1. Issues supporting our product's scale which include `bug::availability` with [specific SLOs](/handbook/product-development/issue-triage/#availability) as well as `infradev`, `Corrective Action`, `ci-decomposition::phase*` that follow the stated [`type::bug` SLO](/handbook/product-development/issue-triage/#severity-slos)
 
 Any issues outside of these labels are to be prioritized using [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/). Auto-scheduling issues based on automation or triage policies are not forced prioritization. These issues can be renegotiated for milestone delivery and reassigned by the DRI.
