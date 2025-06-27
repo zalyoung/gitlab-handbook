@@ -65,34 +65,34 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 
 **Define your objectives**
 
-* Create a [Research Issue](https://gitlab.com/gitlab-org/ux-research/-/blob/1d435fb36ff8126a3339d935c3a705d3f8bb9c22/.gitlab/issue_templates/Research%20Issue.md) for this project  
-* Identify specific questions you want to answer  
-* Identify [Jobs to be Done (JTBD)](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/) contained within this user journey. Defining JTBD before user journey mapping ensures you're mapping the right journey by first understanding what users are fundamentally trying to accomplish, rather than just documenting their current process. Without this foundational understanding of the user's core job, you risk creating detailed maps of inefficient or irrelevant workflows instead of designing experiences that truly serve user needs.  
-  * A list of existing JTBD exists [here](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/validated-canvases-and-opportunity-scores/).  
-  * If the JTBD have not yet been validated, follow the [process to define JTBD](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd-playbook/). Align with stakeholders on success criteria  
-* Determine which customer segments to focus on. These could include:  
-  * **Relationship stage:** Net new customers vs. users joining established groups  
-  * **Monetization status:** Paid vs. free users  
-  * **Industry context:** Industry/vertical-specific workflows and needs  
-  * **Organization size:** Company size considerations (SMB vs. mid-market vs. enterprise)  
-  * **User role:** Role-based experiences (GitLab administrators vs. end users)  
-  * **User type**: Power users vs. basic users (survey data showed these groups have opposing responses to the same features)  
-* Set boundaries for the journey (time span, touchpoints), and based on this and your research questions, determine which [journey map elevation](https://handbook.gitlab.com/handbook/product/ux/user-journeys/#journey-map-elevations) is appropriate for your effort.
+* Create a [Research Issue](https://gitlab.com/gitlab-org/ux-research/-/blob/1d435fb36ff8126a3339d935c3a705d3f8bb9c22/.gitlab/issue_templates/Research%20Issue.md) for this project 
+* Identify specific questions you want to answer
+* Identify [Jobs to be Done (JTBD)](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/) contained within this user journey. Defining JTBD before user journey mapping ensures you're mapping the right journey by first understanding what users are fundamentally trying to accomplish, rather than just documenting their current process. Without this foundational understanding of the user's core job, you risk creating detailed maps of inefficient or irrelevant workflows instead of designing experiences that truly serve user needs.
+  * A list of existing JTBD exists [here](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/validated-canvases-and-opportunity-scores/).
+  * If the JTBD have not yet been validated, follow the [process to define JTBD](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd-playbook/). Align with stakeholders on success criteria
+* Determine which customer segments to focus on. These could include:
+  * **Relationship stage:** Net new customers vs. users joining established groups
+  * **Monetization status:** Paid vs. free users
+  * **Industry context:** Industry/vertical-specific workflows and needs
+  * **Organization size:** Company size considerations (SMB vs. mid-market vs. enterprise)
+  * **User role:** Role-based experiences (GitLab administrators vs. end users)
+  * **User type**: Power users vs. basic users (survey data showed these groups have opposing responses to the same features)
+* Set boundaries for the journey (time span, touchpoints), and based on this and your research questions, determine which [journey map elevation]([Journey Map Elevations](#journey-map-elevations)) is appropriate for your effort.
 
 **Assemble your team**
 
-* Include representatives from Product, Design, Engineering, and Customer Support  
+* Include representatives from Product, Design, Engineering, and Customer Support
 * Identify your stakeholders and the roles you’ll ask them to play during the mapping process
 
 #### Phase 2: Data collection
 
 **Plan your research approach**
 
-* Identify what data you already have available  
-  * Review analytics data for user behavior patterns  
-  * Analyze support tickets and customer feedback  
-  * Examine survey results and usability testing reports  
-  * Collect insights from customer-facing teams  
+* Identify what data you already have available
+  * Review analytics data for user behavior patterns
+  * Analyze support tickets and customer feedback
+  * Examine survey results and usability testing reports
+  * Collect insights from customer-facing teams
 * A [Journey Mapping Workshop](https://docs.google.com/document/d/1pFjMB3tbegc2v3VgZ7w9gT4w5HzYYu6inqWUkqqOSgo/edit?tab=t.0#heading=h.o6alymjcc5lw) may be employed when you have a lot of data from past research on the journey you are mapping.  Gather stakeholders together and follow the methodology to build out as much of the map as you are able. This will help to uncover touchpoints which need more research, or may result in a complete map.  
   * Map as much of the journey as you can based on existing knowledge, and use new research to fill in gaps or further validate as needed.  
 * Determine what new research you need to conduct
