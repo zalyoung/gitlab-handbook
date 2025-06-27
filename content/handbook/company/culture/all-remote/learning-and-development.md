@@ -60,7 +60,7 @@ Learning involves much more than comprehending what's necessary to complete a jo
 
 The above would be difficult, if not impossible, to achieve without a commitment to [documentation](handbook-first/).
 
-Particularly in all-remote companies — where everything from [interviewing](interviews/) to [onboarding](onboarding/) to [career development](/handbook/people-group/learning-and-development/career-development/) takes place outside of a central office — regimented [documentation](handbook-first/) is the only way to ensure future team members have access to the same information as past and current team members. Even if you've already started a company but have failed to document key learnings, it's never too late to start.
+Particularly in all-remote companies — where everything from [interviewing](interviews/) to [onboarding](onboarding/) to [career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/) takes place outside of a central office — regimented [documentation](handbook-first/) is the only way to ensure future team members have access to the same information as past and current team members. Even if you've already started a company but have failed to document key learnings, it's never too late to start.
 
 ### Handbook first
 
@@ -167,7 +167,7 @@ All-remote companies should strive for a [single source of truth](https://docs.g
 
 This removes ambiguity about how the company functions, [how it is organized](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/job-families), and what each position is responsible for.
 
-From a learning and development standpoint, this transparency is vital in providing clarity in [career development](/handbook/people-group/learning-and-development/career-development/). In role levels, requirements for each are clearly listed. This also allows team members to find colleagues in functions outside of their own that they are interested in learning more about.
+From a learning and development standpoint, this transparency is vital in providing clarity in [career development](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/). In role levels, requirements for each are clearly listed. This also allows team members to find colleagues in functions outside of their own that they are interested in learning more about.
 
 ### Recording meetings and trainings for asynchronous learning
 

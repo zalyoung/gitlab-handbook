@@ -162,6 +162,11 @@
 /handbook/product/ux/technical-writing/setup/ https://docs.gitlab.com/development/documentation/authoring_environment/ 301
 /handbook/product/ux/technical-writing/workflow/ https://docs.gitlab.com/development/documentation/workflow/ 301
 
+# Learning & Development moved - remove 2025-09-01
+/handbook/people-group/learning-and-development/ /handbook/people-group/talent-management-and-development/ 301
+/handbook/people-group/learning-and-development/career-mobility/ /handbook/people-group/talent-management-and-development/programs/career-mobility/ 301
+/handbook/people-group/learning-and-development/career-mobility/* /handbook/people-group/talent-management-and-development/programs/career-mobility/ 301
+
 # Infra library moved - remove 2025-10-10
 /handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
 /handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat

@@ -106,8 +106,6 @@
       url: labor-and-employment-notices
     - name: Leadership
       url: leadership
-    - name: Learning & Development
-      url: /handbook/people-group/learning-and-development
     - name: Onboarding
       url: /handbook/people-group/general-onboarding
     - name: Offboarding
@@ -119,8 +117,8 @@
           url: travel
         - name: Visas
           url: visas
-    - name: Talent Assessment
-      url: /handbook/people-group/talent-assessment
+    - name: Talent Management and Development
+      url: /handbook/people-group/talent-management-and-development
     - name: Team Member Relations Philosophy
       url: /handbook/people-group/team-member-relations#team-member-relations-philosophy
     - name: Total Rewards

@@ -23,7 +23,7 @@ If it's your first time using the Fund, we've created a comprehensive guide on L
 
 ### Step 1 - Growth Conversation
 
-Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to talk through the timing, workload, and application timeline of the program to ensure coverage for your team. This conversation should allow time for you to apply for the program before it begins and allow your manager to ensure team capacity.
+Start by having a [growth conversation](/handbook/people-group/talent-management-and-development/talent-development/programs-and-resources/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to talk through the timing, workload, and application timeline of the program to ensure coverage for your team. This conversation should allow time for you to apply for the program before it begins and allow your manager to ensure team capacity.
 
 [G&D Select](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/pages/gd-select) is a directory of opportunities of recommended opportunities from GitLab team members.
 
