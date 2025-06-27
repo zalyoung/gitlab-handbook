@@ -17,7 +17,7 @@ As a result of our direct interactions with customers, the Support Team occupies
 ## How do we align Support Team Members to the Product?
 
 - Development of the product is broken down into [sections, stages and groups; that page](/handbook/product/categories/#devops-stages) is the single source of truth about who is performing this role.
-- Each group can have one or more individual contributor counterparts.
+- We want to optimize for covering all important product groups. Regardless of that, it can make sense for a group to have more than one counterpart, especially to have coverage across multiple regions.
 
 ## Expectations from an SSC
 
