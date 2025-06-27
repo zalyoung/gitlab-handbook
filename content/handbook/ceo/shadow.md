@@ -210,7 +210,6 @@ The CEO has a [section in the handbook](/handbook/ceo/) that details processes a
 If you're not familiar with some of the business acronyms, take a bit of time to review them. The [Product Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) handbook page has some useful acronyms as well as concepts you're likely to come across.
 
 - [KPI (Key Performance Indicator)](/handbook/company/kpis/#what-are-kpis)
-- [OKRs (Objectives and Key Results)](/handbook/company/okrs/)
 - Product performance indicators such as [CMAU (Combined Monthly Active User) (Internal link)](https://internal.gitlab.com/handbook/company/performance-indicators/product/#estimated-combined-monthly-active-users-cmau) and [SpU (Stages per User) (Internal link)](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-user-spu)
 - [Revenue definitions (Internal link)](https://internal.gitlab.com/handbook/sales/sales-glossary/) such as [ARR (Annual Recurring Revenue) (Internal link)](https://internal.gitlab.com/handbook/sales/annual-recurring-revenue-arr/)
 - Other business terminology may come up. [Wall Street Oasis Finance Dictionary](https://www.wallstreetoasis.com/finance-dictionary#DicT) is a handy guide.

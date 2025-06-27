@@ -210,10 +210,6 @@ To view members of Google Groups, reference the [Google Workspace group member r
 - Routing rules and distribution guidelines can be found [here](https://docs.google.com/document/d/1-41U8Fhqpjb6bAn6tutWHWZgZsz41tklfs7E1kjSLOo/edit?usp=sharing).
 - Address: 268 Bush St. #350 San Francisco, CA 94104
 
-## OKRs
-
-- EBA to the CEO to assist in maintaining and scheduling meetings revolving around the [OKR updating process](/handbook/company/okrs/).
-
 ## Performance Indicators (PI)
 
 More information can be found [here](/job-families/people-group/executive-business-administrator/#performance-indicator)
