@@ -332,7 +332,7 @@ We track marketing influence on channel opportunies as well as deal regisiration
 | MDF Funds Request with Partner Account                       | Salesforce | This report captures a list of the current FY Funds Requests with Partner Account name filtered by status.                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002IP3)                                                                               |
 | Instant Marketing Campaigns Asset Report                       | Impartner | This report captures views, downloads, shares and cobrands of our Instant Marketing Campaigns and assets.                                                                                                                                                             | [🖇️](https://prod.impartner.live/en/s/channel-intel/dashboard/65e60883f43d1e0033b33d6e)                                                                               |
 
-#### SFDC Report Template - Records Passed to Partners
+### SFDC Report Template - Records Passed to Partners
 
 These reports are used as template for your reference. Please clone and modify the reports based on the campaign name you are wanting to dig into. Reminder that SFDC treats leads and contacts separetely, so you'll need both a leads and a contacts report to see full picture.
 

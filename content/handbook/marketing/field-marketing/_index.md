@@ -242,10 +242,6 @@ After Field Marketing has executed a campaign, the Field Marketing Manager is re
 - Did a lead/contact hit our MQL threshold and have the SDRs followed up with this record and moved them beyond the [MQL stage](/handbook/marketing/marketing-operations/)?
 - Update all the relevant tabs in the field marketing campaign event planning sheet.
 
-## ROI tracking for Field Marketing
-
-For complete instructions on FMM ROI, [please see here](/handbook/marketing/strategy-performance/marketing-metrics/#field-marketing-metrics).
-
 ## Adding SFDC Campaigns to Leads for Attribution
 
 For instructions on how to add a SFDC campaign to a lead for attribution, please watch this two minute [instructional video](https://youtu.be/IYzkR3h4Ajo) (you must be signed into GitLab Unfiltered to view).
