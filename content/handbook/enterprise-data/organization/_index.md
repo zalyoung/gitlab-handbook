@@ -45,10 +45,10 @@ Below are the expectations of the DRI assigned to the Key Result:
 | Sales            |  Revenue Strategy and Analytics   |  @j_kim @dantenel       | GTM |
 | Marketing        |  Marketing Strategy and Analytics |  @dantenel              | GTM |
 | Finance          |  FP&A Analytics                   |  @annapiaseczna         | Finance |
-| Customer Success |  CS Strategy and Analytics        |  @mdrussell (Acting)    | R&D |
-| Product          |  Product Data Insights            |  @michellecooper        | R&D |
-| Engineering      |  Engineering Analytics            |  @michellecooper        | R&D |
-| Security         |  Engineering Analytics            |  @michellecooper        | R&D |
+| Customer Success |  CS Strategy and Analytics        |  TBD                    | R&D |
+| Product          |  Product Data Insights            |  (Interim) @lisvinueza  | R&D |
+| Engineering      |  Engineering Analytics            |  (Interim) @lisvinueza  | R&D |
+| Security         |  Engineering Analytics            |  (Interim) @lisvinueza  | R&D |
 | Support          |  N/A                              |  TBD                    | TBD |
 | People           |  People Analytics                 |  @rakhireddy            | People |
 
