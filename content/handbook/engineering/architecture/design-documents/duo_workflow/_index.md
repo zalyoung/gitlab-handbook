@@ -892,6 +892,10 @@ graph TD;
 At the `Tools Approval verification Node`, a workflow execution is hibernated to wait for a user's approval, denial, or feedback that instructs agents how to
 correct their course.
 
+## Flow and Agent Customization
+
+See [Flow and Agent Customization](customization.md).
+
 ## Milestones
 
 1. All the components implemented and communicating correctly with only a
