@@ -1,5 +1,5 @@
 ---
-title: "GitLab People Connect"
+title: "GitLab People Operations Team"
 ---
 
 ## <i class="far fa-paper-plane"></i> Connect with Us
@@ -12,27 +12,27 @@ If you are external to GitLab but have a question for our team be sure to email 
 
 ### Introduction
 
-People Connect is GitLab's centralized team member support model that provides a single point of contact (SPOC) for all people-related questions and requests - taking the guesswork out of finding answers that may not be immediately apparent in the handbook, while creating space for team members to remain productive and focused on what they do best.
+The People Operations team is GitLab's centralized team member support model that provides a single point of contact (SPOC) for all people-related questions and requests - taking the guesswork out of finding answers that may not be immediately apparent in the handbook, while creating space for team members to remain productive and focused on what they do best.
 
-Moving away from a multi-channel support model team members can now route all people-centric questions and requests directly to the People Connect team.
+Moving away from a multi-channel support model team members can now route all people-centric questions and requests directly to the People Operations team.
 
 ### Areas of Support
 
-Team Members are encouraged to reach out to People Connect around any topic that could be considered 'employment related' such as compensation and benefits; leave accruals; onboarding processes; bonus nominations; country hiring; relocations; name changes etc.
+Team Members are encouraged to reach out to People Operations around any topic that could be considered 'employment related' such as compensation and benefits; leave accruals; onboarding processes; bonus nominations; country hiring; relocations; name changes etc.
 
-People Connect provides team member support for all of the functional areas within the [People Group](/handbook/people-group/) including Total Rewards; Diversity Inclusion and Belonging; People Operations; the People Business Partners and Global Workforce Management.
+People Operations provides team member support for all of the functional areas within the [People Group](/handbook/people-group/) including Total Rewards; Diversity Inclusion and Belonging; the People Business Partners and Global Workforce Management.
 
 Additionally our team of generalists are equally able to support queries and requests that are external but in many ways still related to the People Group such as Expense Reporting (Accounts Payable) and Payroll.
 
-### Interacting with People Connect
+### Interacting with People Operations
 
 #### Our Team
 
-People Connect is comprised of both generalists and specialists from within the People Operations fold - all of whom have a broad knowledge of all things people within the context of our unique all-remote environment.
+People Operations is comprised of both generalists and specialists from within the People Operations fold - all of whom have a broad knowledge of all things people within the context of our unique all-remote environment.
 
 The team collaborates intensively with various internal and external stakeholders to ensure that the GitLab Handbook is consistently maintained, working to ensure that all employment-related information is easily accessible to all whether entity-based or through a PEO.
 
-#### People Connect Manifesto
+#### People Operations Manifesto
 
 - Every team member interaction is an **opportunity** to **empower** and **educate**.
 - A **spirit of learning** and a **commitment to service** are the heartbeat of People Connect.
@@ -55,13 +55,13 @@ ServiceNow is a SaaS Enterprise Service Management Platform that enables organiz
 
 GitLab remains a [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) organization. However, in instances where the answer to a people-related question is not apparent, the next port of call would be People Connect.
 
-The People Connect email alias is restricted and active GitLab team members will **NOT** be able to email this alias, and should be utilizing [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) instead. Former team members or External parties should use the People Connect email for queries or requests.
+The People Operations email alias is restricted and active GitLab team members will **NOT** be able to email this alias, and should be utilizing [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) instead. Former team members or External parties should use the People Connect email for queries or requests.
 
 #### What to Expect (SLA)
 
 Once a team member has submitted a question or request using HelpLab, they can anticipate acknowledgement in the thread of their case within 24 hours.
 
-People Connect rests on a tiered model which categorizes inbound queries and requests according to nature and complexity this in turn should guide the anticipated resolution time unless otherwise specified by the responding generalist.
+People Operations rests on a tiered model which categorizes inbound queries and requests according to nature and complexity this in turn should guide the anticipated resolution time unless otherwise specified by the responding generalist.
 
 On occasion team member interactions i.e. ≤ 1% require the direct input of a Subject Matter Expert (SME), calling for complete hand-off to a Center of Expertise (COE) - in such instances the interaction will be categorized as a Tier 03 with the responding generalist initiating the hand-off in a period ≤ 24 hours.
 
@@ -73,7 +73,7 @@ On occasion team member interactions i.e. ≤ 1% require the direct input of a S
 
 ### Team Member Satisfaction
 
-The People Connect model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values](/handbook/values/).
+The People Operations model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values](/handbook/values/).
 
 ### Metrics
 
