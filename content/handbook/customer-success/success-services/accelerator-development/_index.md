@@ -19,7 +19,7 @@ An **Accelerator** is a customized enablement framework defined and delivered by
 
 ## Two Dimensions of Accelerator Work
 
-Accelerator work encompasses two distinct dimensions, which are organized under a common group called **Success Services**:
+Accelerator work encompasses two distinct dimensions, Development and Delivery. Development is organized under a common project called [**Customer Success Architect**](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/csa). The Delivery is captured in the customer's collaboration project:
 
 1. **Development of the Accelerator**:  
    Managed by the **Customer Success Architect (CSA)** team, this dimension focuses on creating structured frameworks, including content, processes, and supporting assets.
@@ -35,9 +35,9 @@ This guide and issue template refer strictly to the **development** of new Accel
 
 ### Group & projects
 
-- [Success Services Group](https://gitlab.com/gitlab-com/customer-success/success-services)
-- [Accelerator Development Project](https://gitlab.com/gitlab-com/customer-success/success-services/csa)
-- [Accelerator Delivery Project](https://gitlab.com/gitlab-com/customer-success/success-services/success-enterprise-customers)
+- [Cross-Collaboration Group](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration)
+- [Accelerator Development Project](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/csa)
+- [Success Advanced/Signature Customers](https://gitlab.com/gitlab-com/customer-success/success-services/success-enterprise-customers)
 
 ### Issue Boards
 
@@ -47,7 +47,7 @@ This guide and issue template refer strictly to the **development** of new Accel
 
 Value Stream Analytics (VSA) is the solution for managers and leadership to get actionable insights into the Accelerator development process. VSA allows them to balance out workloads, identify bottlenecks.
 
-- [Accelerator Development](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/value_stream_analytics)
+- [Accelerator Development](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/csa/-/boards)
 
 ### Accelerator Repository
 
@@ -55,7 +55,7 @@ The Accelerator Repository is a centralized collection of well-documented, accel
 
 The Accelerator blueprints contain information that include workshops guides, timelines, prerequisites, implementation steps, expected outcomes, and success metrics.
 
-- [Accelerator Development](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/tree/main/Accelerators)
+- [Accelerator Development](https://gitlab.com/gitlab-com/customer-success/csmerm/cross-collaboration/csa/-/tree/main/Accelerators)
 
 ## Accelerator Development Template Walkthrough with Examples
 
