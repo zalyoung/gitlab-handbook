@@ -64,7 +64,8 @@ External contributions are subject to the [External Blog Submissions Terms](http
 ## How to submit a blog draft once your idea is approved
 
 **Once a blog pitch is approved,** the author will use one of the following options to submit their draft:
-- Submit via a merge request in GitLab. To do this, [please follow these steps to do so from the repo](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-in-the-aboutgitlabcom-repository) or [for the IDE](/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
+
+- Submit via a merge request in GitLab. To do this, [please follow these steps to do so from the repo](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-in-the-aboutgitlabcom-repository) or [for the IDE](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
 
 - Submit via Decap, our basic content management system, [using these steps](/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-decap-cms). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
 
@@ -120,12 +121,6 @@ Chat channels:
 ### Diversity, Inclusion, and Belonging (DIB) checklist for blog writers
 
 It is important that our blog content represents our company values of diversity, inclusion, and belonging. Not all of these points will be relevant to your blog post, but they are important values and practices to be mindful of throughout the writing process. The blog editorial team tries to check for these things, but it is better if all content is created with these values and practices in mind. Tag us or a member of the [DIB team](/handbook/company/culture/inclusion/) if you have questions!
-
-#### Inclusive formatting
-
-- Did you select an [inclusive](/handbook/marketing/blog/#inclusive-photos) cover image and/or screengrab?
-- Write descriptive alternative text for all [inline images and screengrabs](/handbook/marketing/blog/#inline-images). Alternative text is important for SEO and accessibility. Read this [article from Moz to learn more about writing alternative text](https://moz.com/learn/seo/alt-text).
-- Ensure that all links are meaningful and descriptive (e.g. avoid link text such as "read here" or "this article"). Descriptive links are more useful and accessible for people using screen readers.
 
 #### Inclusive writing
 
