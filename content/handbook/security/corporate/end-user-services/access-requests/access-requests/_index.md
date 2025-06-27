@@ -1,5 +1,8 @@
 ---
 title: "Access Requests (AR)"
+_build:
+    list: never
+    render: never
 ---
 
 Access Requests are owned by the IT team, while onboarding, offboarding and internal transition requests are owned by the People Connect Team.
