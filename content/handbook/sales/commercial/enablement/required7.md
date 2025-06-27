@@ -55,7 +55,7 @@ You've now got some time to do some investigation on some of your accounts. You 
   </tr>
   <tr>
    <td><strong>Command plans for all deals over $5k amount or $10k ARR (SMB) or $10k amount or $20k ARR (Mid-Market)</strong></td>
-   <td>Overview section must be completed for deals over $5k in SMB (Total Contract Value, not ARR) or $10k in Mid-Market. Full for deals over $10k ARR in SMB or $20k in Mid-Market</td>
+   <td>The Opportunity Overview section is required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities at or above defined ARR thresholds ($100K+ for Enterprise, $50K+ for Mid-Market).</td>
    <td>The command plan is a guide of how well qualified your opportunity is and signposts what needs to happen next. If you have not spoken to the customer yet, then add in questions you will ask in the Command Plan fields. If the deal is going through a partner then work with the partner and the Channel Account Manager (CAM) to get the answers required.</td>
   </tr>
   <tr>
