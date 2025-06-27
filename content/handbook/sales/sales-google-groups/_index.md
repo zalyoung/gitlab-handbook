@@ -3,13 +3,9 @@ title: "Communicating with the Field"
 description: "Guide to communicating with and within the GitLab Field team using both Slack and email"
 ---
 
-This page is meant to serve as a guide to communicating with and within the Field using both Slack and email. Read below to find an outline of all Google Groups and Slack channels for the CRO org.
+This page is meant to serve as a guide to communicating with and within the Field using both Slack and email. Read below to find an outline of all Google groups, Slack groups and Slack channels for the CRO org.
 
-In order to drive clarity on this page, it is important to note the difference in definitions between:
-
-1. Sales: Refers to team members in the AMER, EMEA and APJ sales teams. 
-1. CS: Refers to team members in the CSM/CSE and Renewal Management organizations. 
-1. Field: Refers to ALL members of the CRO org – Sales, CS, SA, Global Ecosystems, Sales Development, High Velocity Sales, Professional Services, Enablement, Revenue Strategy & Operations.
+In order to drive clarity on this page, it is important to note that the "Field team" or "CRO org" refers to ALL members of the CRO org – Sales, CS, SA, Global Ecosystems, Sales Development, High Velocity Sales, Professional Services, Field Enablement, Revenue Strategy & Operations.
 
 ## Google Groups
 
@@ -37,7 +33,7 @@ The parent google group of the CRO org is sales-all. Several child groups fall w
 | sales-ops | team | Members of the Sales Operations team |
 | field-enablement | team | Members of the Field Enablement team |
 
-To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+Most team members will be automatically added to their team's applicable Google group within a few days of starting at GitLab by their [team's EBA](/handbook/eba/). To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
 
 ## Slack Channels and Groups
 
@@ -49,7 +45,7 @@ The primary Slack channels for the Field are:
 - #sales-support: The general channel to ask for sales support from Revenue Operations.
 - #customer-success: The general channel to interact with & within Customer Success.
 
-All Field team members should star 🌟 and follow these four channels for important updates about the business. There are multiple team channels in the field organization, outlined below. Please follow the channels relevant to your role. To gain access to private channels, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+All Field team members should [star](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections) 🌟 and follow these four channels for important updates about the business. There are multiple team channels in the field organization, outlined below. Please follow the channels relevant to your role. To gain access to private channels, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
 
 ### Slack Groups
 
@@ -63,9 +59,9 @@ Only use Slack Groups if:
 
 | Group Name | Group Members/Description |
 | ------ | ------ |
+| field_managers | ASMs and above *or* equivalents on the CS/Channel/Alliance/SDR side who are people managers |
 | sales_leaders | Regional directors and above (ASM and above for COM) |
 | cs_leaders | VP Customer Success direct reports |
-| field_managers | ASMs and above *or* equivalents on the CS/Channel/Alliance/SDR side who are people managers |
 | sales_ent_managers | ASMs and above on the Enterprise team |
 | sales_com_managers | ASMs and above on the Commercial team |
 | sales_cs_managers | Managers and above on the Customer Success team |
@@ -145,6 +141,7 @@ The recommendation is to use public channels even while it may sometimes feel un
 | ------ | ------ | ------ |
 | #field-enablement-team | public | Used for communication between GitLab Field, cross-functional stakeholders and the Field Enablement Team |
 | #product-marketing-and-field-enablement | public | Collaboration between Field Enablement and Product Marketing | 
+| #field-enablement-chatter | private | Used for communication between Field Enablement team members |
 
 **Global Ecosystems**
 
