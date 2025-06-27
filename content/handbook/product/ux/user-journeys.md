@@ -177,7 +177,7 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 
 #### Phase 4: Action planning
 
-* Once your Mapping exercise is complete, fill out the Insights Issue Template  
+* Once your Mapping exercise is complete, fill out the Insights Issue Template (link to be added) 
 * Post your results, map(s) and findings in our \#GitLab-user-journeys channel 
 
 
