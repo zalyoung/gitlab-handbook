@@ -23,12 +23,4 @@ Text text
 
 Text text
 
-## Talent Management - Key Objectives and Principles
-
-Text text
-
-### Key Objectives
-
-Text text
-
-## Talent Development - Key Objectives and Principles
+### Team Overview
