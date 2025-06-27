@@ -215,35 +215,35 @@ Let’s take a look at this set of job definitions to see if they can be made mo
 
       The `.gitlab-ci.yml` file should now look like this:
 
-        ```yml
-        stages:
-          - deps
-          - test
+      ```yml
+      stages:
+        - deps
+        - test
 
-        default:
-          image: node:latest
+      default:
+        image: node:latest
 
-        install deps:
-          stage: deps
-          script:
-            - npm install jest
-          cache:
-            key: $CI_COMMIT_REF_SLUG
-            paths:
-              - node_modules
+      install deps:
+        stage: deps
+        script:
+          - npm install jest
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
 
-        test binarysearch:
-          stage: test
-          script:
-            - npm install jest
-            - node_modules/.bin/jest binarysearch.test.js
+      test binarysearch:
+        stage: test
+        script:
+          - npm install jest
+          - node_modules/.bin/jest binarysearch.test.js
 
-        test linearsearch:
-          stage: test
-          script:
-            - npm install jest
-            - node_modules/.bin/jest linearsearch.test.js
-        ```
+      test linearsearch:
+        stage: test
+        script:
+          - npm install jest
+          - node_modules/.bin/jest linearsearch.test.js
+      ```
 
       > With this definition, we create a cache with a key that matches the `CI_COMMIT_REF_SLUG`. This ensures that each job will receive a unique cache. The data being cached is the `node_modules` folder. To set up the cache for use, we use the script to run the install command for the `jest` package, which we will use to run the tests.
 
