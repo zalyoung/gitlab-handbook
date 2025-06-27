@@ -179,35 +179,44 @@ This indicates that the connection is looking for a column that does not exist/ 
 
 ## Embedding in the Handbook
 
-In order for views from workbooks to be embedded and viewable in the handbook, public or internal, the workbook and their data sources must be prepared in a specific way. To be embedded in the public handbook the workbook and relevant datasource must be copied from the [internal GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) site to the [public GitLab Tableau](https://us-west-2b.online.tableau.com/#/site/gitlabpublic) site. To facilitate correct viewing of embedded views and the synchronization of content to the public site, workbooks must be set up in a specific way and given a specific tag.  Views that are meant to be embedded on the internal site do not need to be in a specific project, but should still meet the set up guidelines.
+[GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) (internal site only) charts and dashboards can be embedded in the GitLab Handbook to share visual content with teams on documentation pages. 
 
-Instructions for how to embed a Tableau chart can be found on the [Handbook Embedding Demonstration](/handbook/enterprise-data/platform/tableau/embed-demo/) page.
+**Important:** Users must have a Tableau license to view embedded content. Dashboards will not load for users without proper licensing.
 
-### Workbook Set Up
+For detailed instructions on embedding Tableau charts, see the [Handbook Embedding Demonstration](/handbook/enterprise-data/platform/tableau/embed-demo/) page.
 
-For embedding in the handbook, views will embed better than dashboards will, so each view that is meant to be embedded should be designed to function without user selected inputs.  Filters and parameters can be preset during the embedding process, but will not be changeable by the viewer. Additionally, the view must meet the following criteria:
+### Design Considerations
 
-- The view cannot be hidden
-- For embedding in the public handbook each datasource must connect to Snowflake with a Data Team Service Account username and password or use an extract
-- For embedding in the public handbook each workbook must have the `Public` tag.
+- **Use views over dashboards** - Views embed more reliably than dashboards
+- **Design for static viewing** - Each embedded view should function without user inputs
+- **Preset filters and parameters** - These can be configured during embedding but won't be changeable by viewers
+- **Ensure visibility** - Views cannot be hidden in embedded format
 
-#### Data Source
+#### Data Source Configuration
 
-If you are not using an extract, like when your extract is going to be over 10 million rows, then you will need to use the Data Team Service Account's credentials. Reach out to the data team to get set up with those credentials.
+**For extracts under 10 million rows:**
 
-Be mindful when you are embedding your credentials in the data source while publishing either internal or external views. Using an extract with your role embedded will be the clearest way to make sure that users can always view the data and will not experience an authorization expiration error.
+- Use an extract with your role credentials embedded
+- This ensures consistent access and prevents authorization expiration errors
 
-Make sure that if you do use the Data Team's credentials to publish the workbook, when you make any changes to the workbook it retains those credentials. You will need to embed passwords in the data source for the views to show correctly. This box may come unchecked when you are making changes. ![The box that needs checking](/images/enterprise-data/platform/tableau/tableau-developer-guide/box-checking.png)
+**For large datasets (over 10 million rows):**
 
-#### Public Tag
+- Contact the Data Team to obtain Service Account credentials
+- Use these credentials instead of creating an extract
 
-If your view is public and embedded in the public handbook (aka, people do not need to sign-in to view it), then it needs to be on the Public GitLab Tableau Cloud site due to the viewer license agreements. To tag a workbook as public, click on the workbook. On the main page for the workbook where you can see each of the views, next to the name, there is a "more settings" option '...'. Select that, and find "Tag...". Here, you can add "Public" as a tag.
+#### Publishing Requirements
 
-It will take about a day for the URL to show up in [this list](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding). Once it does, copy that URL and use it in the embedding information. If your view has not shown up after a day or so, it is likely because one of your data sources is not following the guidelines of A\) being an extracted connection or B\) using the data team's service account's credentials.
+When publishing workbooks for embedding:
 
-### Workbook Synchronization
+1. **Embed credentials in the data source** - This is essential for proper view functionality
+2. **Verify credential retention** - When making changes to published workbooks, ensure they retain the correct credentials
+3. **Check the embed passwords option** - This box may become unchecked during updates
 
-Each workbook with views that are meant to be embedded in the public handbook must be tagged with the `Public` tag. This will ensure that the workbook, and their datasources are copied to the public GitLab Tableau site.  Only Creators and Explorers who can access the workbook can tag the workbook, see the Tableau [documentation](https://help.tableau.com/current/pro/desktop/en-us/tags.htm#add-tags) for more information.  The individual tagging must it/data-team/stand if the data should be shared publicly and if there is any question please work with the BI team to check and apply the tag.  Removing this tag from a workbook will delete the workbook from the public GitLab Tableau site, this will cause handbook pages trying to load a view from that workbook to display an error. It should be noted that it can currently take up to 48 hours for the synchronized workbook to show up in the list of [views available for embedding](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding).
+![The box that needs checking](/images/enterprise-data/platform/tableau/tableau-developer-guide/box-checking.png)
+
+> **Note:** Always verify that the "Embed passwords" option remains selected when republishing workbooks to prevent authentication issues.
+
+## Publishing Tableau Workbooks
 
 ### Workbook Naming Convention
 
@@ -299,20 +308,18 @@ To find this file, you are going to go to the GitLab-com repository, which is a 
 
 This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views.
 
-Two reminders, first - *make sure that any public views (does not need login access) that are embedded into the public handbook are coming from the public Tableau site*. This means that the workbook they come from has been tagged "Public", and you are getting the URL from the [views available for embedding](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) page. More information on this process can be found on the [Handbook Embedding Demonstration Page](/handbook/enterprise-data/platform/tableau/embed-demo/).
-
-Second, *if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page*.
+Reminder: *When embedding a view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page. Embedding Tableau charst are for the internal GitLab handbook only.*
 
 ### YML
 
-The `data/performance_indicators.yml` file in the handbook repositories is the basis for a system that automatically generates handbook pages with performance indicator content on them.  The structure can take a list of charts and each chart can take a list of filters and parameters.  Only charts not tagged as public should be included on internal handbook pages. The following is an example of how to add the needed information to the data file:
+The `data/performance_indicators.yml` file in the handbook repositories is the basis for a system that automatically generates handbook pages with performance indicator content on them.  The structure can take a list of charts and each chart can take a list of filters and parameters. The following is an example of how to add the needed information to the data file:
 
 ```yml
 - name: MR Rate
   description: MR Rate is a monthly evaluation of how MRs on average an Development engineer performs.
   tableau_data:
     charts:
-      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OKR4_7EngKPITest/PastDueSecurityIssues
+      - url: https://10az.online.tableau.com/t/gitlab/views/OKR4_7EngKPITest/PastDueSecurityIssues
         height: 300px
         toolbar: hidden
         hide_tabs: true
