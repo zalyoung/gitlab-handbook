@@ -1125,10 +1125,6 @@ Please refer to the [Channel Partner Joint GitLab events handbook page](/handboo
 
 All campaigns we are working with channel partners must flow through the outlined process as a way to ensure we are tracking the success of the campaign properly.
 
-### Tracking success of FMM campaigns with Channel
-
-Please refer to the [Marketing Performance handbook](/handbook/marketing/strategy-performance/marketing-metrics/#back-up-sfdc-pipeline-reports) for additional information.
-
 ### Useful Fields in SFDC that relate to Vartopia
 
 1. Please refer to [this handbook page](/handbook/marketing/marketing-operations/vartopia/#partner-prospect-admin) for further details.
