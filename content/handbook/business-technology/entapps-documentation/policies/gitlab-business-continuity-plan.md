@@ -49,6 +49,10 @@ For a business continuity plan to be effective, it needs to be triggered as soon
 - When the recovery of an incident is uncertain, a decision must be made to invoke the business continuity plan if the disruption cannot be resolved within the specified [incident recovery timelines](/handbook/security/security-operations/sirt/sec-incident-response/)
 - When resolution of an incident with critical customers, depending on their service-level agreements is delayed, then the BC plan must be triggered
 
+### Escalations
+
+Procedures can be found [here](https://handbook.gitlab.com/handbook/security/security-operations/sirt/sec-incident-response/#internal-engagement--escalation-for-high-severity-incidents) in the event that an incident needs to be escalated within GitLab.
+
 ### Data Continuity System
 
 This section provides details about the production environment that must be available for GitLab.com (for both SaaS services Dedicated and Commercial) to run effectively:
