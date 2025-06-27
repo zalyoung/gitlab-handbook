@@ -65,134 +65,133 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 
 **Define your objectives**
 
-* Create a [Research Issue](https://gitlab.com/gitlab-org/ux-research/-/blob/1d435fb36ff8126a3339d935c3a705d3f8bb9c22/.gitlab/issue_templates/Research%20Issue.md) for this project 
-* Identify specific questions you want to answer
-* Identify [Jobs to be Done (JTBD)](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/) contained within this user journey. Defining JTBD before user journey mapping ensures you're mapping the right journey by first understanding what users are fundamentally trying to accomplish, rather than just documenting their current process. Without this foundational understanding of the user's core job, you risk creating detailed maps of inefficient or irrelevant workflows instead of designing experiences that truly serve user needs.
-  * A list of existing JTBD exists [here](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/validated-canvases-and-opportunity-scores/).
-  * If the JTBD have not yet been validated, follow the [process to define JTBD](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd-playbook/). Align with stakeholders on success criteria
-* Determine which customer segments to focus on. These could include:
-  * **Relationship stage:** Net new customers vs. users joining established groups
-  * **Monetization status:** Paid vs. free users
-  * **Industry context:** Industry/vertical-specific workflows and needs
-  * **Organization size:** Company size considerations (SMB vs. mid-market vs. enterprise)
-  * **User role:** Role-based experiences (GitLab administrators vs. end users)
-  * **User type**: Power users vs. basic users (survey data showed these groups have opposing responses to the same features)
-* Set boundaries for the journey (time span, touchpoints), and based on this and your research questions, determine which [journey map elevation]([Journey Map Elevations](#journey-map-elevations)) is appropriate for your effort.
+- Create a [Research Issue](https://gitlab.com/gitlab-org/ux-research/-/blob/1d435fb36ff8126a3339d935c3a705d3f8bb9c22/.gitlab/issue_templates/Research%20Issue.md) for this project 
+- Identify specific questions you want to answer
+- Identify [Jobs to be Done (JTBD)](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/) contained within this user journey. Defining JTBD before user journey mapping ensures you're mapping the right journey by first understanding what users are fundamentally trying to accomplish, rather than just documenting their current process. Without this foundational understanding of the user's core job, you risk creating detailed maps of inefficient or irrelevant workflows instead of designing experiences that truly serve user needs.
+  - A list of existing JTBD exists [here](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/validated-canvases-and-opportunity-scores/).
+  - If the JTBD have not yet been validated, follow the [process to define JTBD](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd-playbook/). Align with stakeholders on success criteria
+- Determine which customer segments to focus on. These could include:
+  - **Relationship stage:** Net new customers vs. users joining established groups
+  - **Monetization status:** Paid vs. free users
+  - **Industry context:** Industry/vertical-specific workflows and needs
+  - **Organization size:** Company size considerations (SMB vs. mid-market vs. enterprise)
+  - **User role:** Role-based experiences (GitLab administrators vs. end users)
+  - **User type**: Power users vs. basic users (survey data showed these groups have opposing responses to the same features)
+- Set boundaries for the journey (time span, touchpoints), and based on this and your research questions, determine which [journey map elevation]([Journey Map Elevations](#journey-map-elevations)) is appropriate for your effort.
 
 **Assemble your team**
 
-* Include representatives from Product, Design, Engineering, and Customer Support
-* Identify your stakeholders and the roles you’ll ask them to play during the mapping process
+- Include representatives from Product, Design, Engineering, and Customer Support
+- Identify your stakeholders and the roles you’ll ask them to play during the mapping process
 
 #### Phase 2: Data collection
 
 **Plan your research approach**
 
-* Identify what data you already have available
-  * Review analytics data for user behavior patterns
-  * Analyze support tickets and customer feedback
-  * Examine survey results and usability testing reports
-  * Collect insights from customer-facing teams
-* A [Journey Mapping Workshop](https://docs.google.com/document/d/1pFjMB3tbegc2v3VgZ7w9gT4w5HzYYu6inqWUkqqOSgo/edit?tab=t.0#heading=h.o6alymjcc5lw) may be employed when you have a lot of data from past research on the journey you are mapping.  Gather stakeholders together and follow the methodology to build out as much of the map as you are able. This will help to uncover touchpoints which need more research, or may result in a complete map.  
-  * Map as much of the journey as you can based on existing knowledge, and use new research to fill in gaps or further validate as needed.  
-* Determine what new research you need to conduct
+- Identify what data you already have available
+  - Review analytics data for user behavior patterns
+  - Analyze support tickets and customer feedback
+  - Examine survey results and usability testing reports
+  - Collect insights from customer-facing teams
+- A [Journey Mapping Workshop](https://docs.google.com/document/d/1pFjMB3tbegc2v3VgZ7w9gT4w5HzYYu6inqWUkqqOSgo/edit?tab=t.0#heading=h.o6alymjcc5lw) may be employed when you have a lot of data from past research on the journey you are mapping.  Gather stakeholders together and follow the methodology to build out as much of the map as you are able. This will help to uncover touchpoints which need more research, or may result in a complete map.  
+  - Map as much of the journey as you can based on existing knowledge, and use new research to fill in gaps or further validate as needed.  
+- Determine what new research you need to conduct
 
 **Conduct new research**
 
-* Select the best approach to gather needed data from the various Research Methods available:
+- Select the best approach to gather needed data from the various Research Methods available:
 
 ##### Quantitative methods
 
 **Analytics and behavioral data**
 
-* Track user flows and conversion rates  
-* Identify drop-off points and completion rates  
-* Analyze user segments and their different behaviors  
-* Measure time spent on tasks and interactions  
+- Track user flows and conversion rates  
+- Identify drop-off points and completion rates  
+- Analyze user segments and their different behaviors  
+- Measure time spent on tasks and interactions  
   *When to use*: To understand what users are doing and identify patterns at scale
 
 **Surveys**
 
-* Use validated scales like USAT+, CSAT or other metrics  
-* Ask about specific journey stages and experiences  
-* Gather feedback from large user samples  
-* Track satisfaction and sentiment over time  
+- Use validated scales like USAT+, CSAT or other metrics  
+- Ask about specific journey stages and experiences  
+- Gather feedback from large user samples  
+- Track satisfaction and sentiment over time  
   *When to use*: To quantify user satisfaction and validate findings across larger groups, particularly good for high risk/low confidence decisions which affect a large number of users
 
 ##### Qualitative methods
 
 **User interviews**
 
-* Conduct structured conversations about user experiences  
-* Ask about motivations, frustrations, and goals  
-* Explore the "why" behind user behaviors  
-* Gather detailed stories and context  
+- Conduct structured conversations about user experiences  
+- Ask about motivations, frustrations, and goals  
+- Explore the "why" behind user behaviors  
+- Gather detailed stories and context  
   *When to use*: To understand user motivations and get detailed insights about experiences
 
 **Observation and usability testing**
 
-* Watch users complete tasks in their natural environment  
-* Identify where users struggle or get confused  
-* Observe actual behavior vs. what users say they do  
-* Document contextual factors that influence experience
+- Watch users complete tasks in their natural environment  
+- Identify where users struggle or get confused  
+- Observe actual behavior vs. what users say they do  
+- Document contextual factors that influence experience
 
 *When to use*: To see actual user behavior and identify usability issues
 
 **Diary studies**
 
-* Have users document their experiences over time  
-* Capture experiences that happen across multiple sessions  
-* Understand how context affects user behavior  
-* Gather insights about long-term usage patterns  
+- Have users document their experiences over time  
+- Capture experiences that happen across multiple sessions  
+- Understand how context affects user behavior  
+- Gather insights about long-term usage patterns  
   *When to use*: For journeys that span multiple days or weeks, or when you can't observe users directly
 
 **Document everything**
 
-* Record all data sources and collection methods  
-* Note limitations and potential biases in your data  
-* Store research materials for future reference
+- Record all data sources and collection methods  
+- Note limitations and potential biases in your data  
+- Store research materials for future reference
 
 #### Phase 3: Analysis and mapping
 
 **Identify patterns**
 
-* Look for common user paths and behaviors  
-* Identify points where users struggle or succeed  
-* Note emotional highs and lows in the experience  
-* Find differences between user segments
+- Look for common user paths and behaviors  
+- Identify points where users struggle or succeed  
+- Note emotional highs and lows in the experience  
+- Find differences between user segments
 
 **Create the journey map**
 
-* Use the templates created for GitLab User Journey Mapping  
-* Include user actions, thoughts, emotions, and pain points  
-* Show touchpoints and interactions with your product  
-* Highlight opportunities for improvement
+- Use the templates created for GitLab User Journey Mapping  
+- Include user actions, thoughts, emotions, and pain points  
+- Show touchpoints and interactions with your product  
+- Highlight opportunities for improvement
 
 **Validate your map**
 
-* Review findings with research participants when possible  
-* Get feedback from customer-facing teams  
-* Cross-check insights across different data sources  
-* Test your assumptions with additional research if needed
+- Review findings with research participants when possible  
+- Get feedback from customer-facing teams  
+- Cross-check insights across different data sources  
+- Test your assumptions with additional research if needed
 
 #### Phase 4: Action planning
 
-* Once your Mapping exercise is complete, fill out the Insights Issue Template (link to be added) 
-* Post your results, map(s) and findings in our \#GitLab-user-journeys channel 
-
+- Once your Mapping exercise is complete, fill out the Insights Issue Template (link to be added) 
+- Post your results, map(s) and findings in our \#GitLab-user-journeys channel 
 
 #### Phase 5: Funnel optimization and business impact measurement
 
 **Connect journeys to business objectives**
 
-* Map user journey stages to funnels that drive first orders (acquisition → trial → purchase), accelerate customer value (onboarding → activation → feature adoption), and enable customer-focused innovation (feedback collection → feature usage → expansion)  
-* Prioritize journey improvements based on their direct impact on first-order conversion, time-to-value, and product-market fit signals
+- Map user journey stages to funnels that drive first orders (acquisition → trial → purchase), accelerate customer value (onboarding → activation → feature adoption), and enable customer-focused innovation (feedback collection → feature usage → expansion)  
+- Prioritize journey improvements based on their direct impact on first-order conversion, time-to-value, and product-market fit signals
 
 **Implement measurement and track impact**
 
-* Connect journey improvements to key journey moments that influence first purchase decisions, value realization milestones, and innovation adoption. Collect data from instrumentation or other metrics to show impact, and document improvements.
+- Connect journey improvements to key journey moments that influence first purchase decisions, value realization milestones, and innovation adoption. Collect data from instrumentation or other metrics to show impact, and document improvements.
 
 **Drive continuous optimization**
 
-* Monitor how journey enhancements affect conversion to first orders, reduce time-to-value, and increase adoption of new features  
-* Assess journey optimization contributions to key business objectives, and share success stories demonstrating ROI through improved first-order conversion, faster customer success, and validated innovation direction
+- Monitor how journey enhancements affect conversion to first orders, reduce time-to-value, and increase adoption of new features  
+- Assess journey optimization contributions to key business objectives, and share success stories demonstrating ROI through improved first-order conversion, faster customer success, and validated innovation direction
