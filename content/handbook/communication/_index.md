@@ -7,6 +7,8 @@ We're an [all-remote](/handbook/company/culture/all-remote/) company that allows
 
 To accomplish this, we use <b>[asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) as a starting point</b> and stay as open and transparent as we can by communicating through public issues, [merge requests](#start-with-a-merge-request), and [Slack channels](/handbook/communication/chat/).
 
+Test
+
 We also place an emphasis on ensuring that conclusions of offline conversations are written down.
 When we go **back and forth three times,** we jump on a [synchronous video call](/handbook/communication/#video-calls).
 
