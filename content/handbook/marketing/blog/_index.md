@@ -63,17 +63,22 @@ External contributions are subject to the [External Blog Submissions Terms](http
 
 ## How to submit a blog draft once your idea is approved
 
-Once a blog pitch is approved, the author will use the [Blog Submission template](https://docs.google.com/document/d/1iWk0a5T14dG5fvIxvG4doqqRxx0pyv3ej_aMDqYXjgA/template/preview) (Google Doc) to write the blog, ensuring the Google Doc is linked in the issue. **All fields in the template will have to be completed for the blog team to accept the submission.**
-
-The author will tag @sgittlen in the issue, put the doc link in a comment, and share the Google Doc once it is ready to be edited (after all necessary approvals and reviews have been completed). **Note:** All images must be included inline in the Google Doc.
+**Once a blog pitch is approved,** the author will use one of the following options to submit their draft:
+1. Submit via a merge request in GitLab. To do this, [please follow the steps outlined here to do so from the repo](https://handbook.gitlab.com/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-in-the-aboutgitlabcom-repositorye) or [here for the IDE](https://handbook.gitlab.com/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
+2. Submit via Decap, our basic content management system, [using the steps outlined here](https://handbook.gitlab.com/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-decap-cms). Please follow them CAREFULLY! Reach out to @sgittlen with any questions.
+3. Submit via Google Docs using the [Blog Submission template](https://docs.google.com/document/d/1iWk0a5T14dG5fvIxvG4doqqRxx0pyv3ej_aMDqYXjgA/template/preview) (Google Doc) to write the blog, ensuring the Google Doc is linked in the issue. **All fields in the template will have to be completed for the blog team to accept the submission.** The author will tag @sgittlen in the issue, put the doc link in a comment, and share the Google Doc once it is ready to be edited (after all necessary approvals and reviews have been completed). **Note:** All images must be included inline in the Google Doc.
 
 **Note:** All blog submissions now require a **call to action** or CTA and you will be asked to provide one in the blog draft template. A CTA is what you want the reader to do next after reading your blog. Do you want them to go to another page and learn more, sign up for a trial, register for a webinar, view a demo, etc.? We will be able to track the CTA as part of our overall blog metrics.
+
+Whatever way you choose to submit your blog, please ensure that @sgittlen is tagged.
+
+**BLOGS CANNOT BE PUBLISHED WITHOUT REVIEW/APPROVAL FROM THE BLOG TEAM.**
 
 ## The blog edit process
 
 The blog team will communicate initial edits/questions for the author using the issue and Google Doc. The blog team will then put the blog into the CMS and, if necessary, share a preview link with the author/DRI. Note: The blog will be published from Contentful.
 
-If changes are needed post-publication, the author will reach out to the blog team via Slack and explain the change. **Note:** We can no longer use MRs for changes/updates.
+If changes are needed post-publication, the author will reach out to the blog team via Slack and explain the change or submit an MR by going to the bottom of the published page and clicking on edit this page, which will kick off an MR.
 
 The blog team will share the blog's URL with the author once it is published.
 
@@ -89,9 +94,9 @@ Learn more about the [SAFE Guidelines by reading the handbook page](/handbook/le
 
 ## How to suggest a change to a published blog
 
-If you are internal to GitLab and want to suggest a change to a published GitLab blog, please post the change you need in detail with the URl in the `#content` Slack channel and tag @sgittlen or ping @sgittlen directly in Slack.
+* If you are internal to GitLab and want to suggest a change to a published GitLab blog, please post the change you need in detail with the URl in the `#content` Slack channel and tag @sgittlen or ping @sgittlen directly in Slack or create an MR with the change needed by going to the bottom of the published page and clicking on "Edit this page," which will kick off an MR.
 
-If you are external to GitLab, please email Sandra Gittlen at  `sgittlen@gitlab.com` with the details of your suggested change.
+* If you are external to GitLab, please email Sandra Gittlen at  `sgittlen@gitlab.com` with the details of your suggested change or create an MR with the change needed by going to the bottom of the published page and clicking on "Edit this page," which will kick off an MR.
 
 ## Communication with Blog team
 
@@ -146,6 +151,7 @@ If you're not sure which category your post belongs in, just put a placeholder i
 - `agile planning` - posts about AgiLe planning
 - `ai-ml` – posts that focus directly on AI/ML in the platform or in the industry as a whole
 - `customer stories` - posts about how our customers are using GitLab DevSecOps platform
+- `bulletin board` - where shorter blogs/announcements go
 - `DevSecOps` - posts more generally about DevSecOps
 - `engineering` – technical, actionable content. Anything covering how to do something, use something, or solve a problem should fall under this category
 - `open source` – stories from or about our community, users, or the wider open source community
@@ -166,8 +172,6 @@ You can include as many tags as you like, separated by commas. Please only inclu
 - AWS
 - bug bounty
 - careers
-- CI
-- CD
 - CI/CD
 - cloud native
 - code review
@@ -180,6 +184,7 @@ You can include as many tags as you like, separated by commas. Please only inclu
 - developer survey
 - DevSecOps
 - DevSecOps platform
+- embedded development
 - education (articles about the education sector)
 - events
 - features
@@ -220,87 +225,11 @@ You can include as many tags as you like, separated by commas. Please only inclu
 
 ### Media embeds
 
-We limit media embeds to the following providers:
-
-- **YouTube** for video
-- **CodePen** for code samples
-- **Google Docs** for collaborative text
-- **Google Sheets** for sharing spreadsheets
-- **Google Slides** for sharing slides
+Details can be found [here](https://handbook.gitlab.com/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide).
 
 ### Adding code blocks
 
-Below are the two types of code blocks we commonly use on the blog. Find a number of other options in the [Markdown guide](https://about.gitlab.com/community/markdown-guide-middleman/#code-blocks).
-
-#### Inline code
-
-We use this for short words or phrases included in a paragraph. For inline code, surround the word or code with single backticks (`` ` ``).
-
-**Example:**
-
-This is an ``` `in-line` ``` code block.
-
-**Results in:**
-
-This is an `in-line` code block.
-
-#### Fenced code blocks
-
-"Fenced" code blocks look like the block below. We use these for longer code snippets. To create a fenced code block, put triple backticks on one line directly above and one line directly below the code.
-
-```text
-this is my code block
-   here's another line
-end
-```
-
-#### Highlighted code
-
-Syntax highlighting helps make code easier to read. In order to enable syntax highlighting please append the language type at the end of the code block. The name matters because every language is highlighted differently.
-
-**Example (not highlighted):**
-
-```markdown
-```code goes here```
-```
-
-```js
-document.querySelectorAll('a[href^="#"]').forEach(elem => {
-    elem.addEventListener('click', e => {
-        e.preventDefault();
-        let block = document.querySelector(elem.getAttribute('href')),
-            offset = elem.dataset.offset ? parseInt(elem.dataset.offset) : 0,
-            bodyOffset = document.body.getBoundingClientRect().top;
-        window.scrollTo({
-            top: block.getBoundingClientRect().top - bodyOffset + offset,
-            behavior: "smooth"
-        });
-    });
-});
-```
-
-**Versus (highlighted javascript):**
-
-```markdown
-```code goes here```javascript
-```
-
-(or other languages/syntaxes such as yaml, ruby, sql, etc)
-
-```javascript
-document.querySelectorAll('a[href^="#"]').forEach(elem => {
-    elem.addEventListener('click', e => {
-        e.preventDefault();
-        let block = document.querySelector(elem.getAttribute('href')),
-            offset = elem.dataset.offset ? parseInt(elem.dataset.offset) : 0,
-            bodyOffset = document.body.getBoundingClientRect().top;
-        window.scrollTo({
-            top: block.getBoundingClientRect().top - bodyOffset + offset,
-            behavior: "smooth"
-        });
-    });
-});
-```
+Details can be found [here](https://handbook.gitlab.com/handbook/marketing/digital-experience/decap-cms/#creating-a-blog-post-using-the-web-ide). 
 
 #### Mermaid charts
 
@@ -325,10 +254,6 @@ to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, th
 
 **Important security point:** Do not expose your personal details by using your real tokens or security credentials. Use placeholders such as `[project's CI token]` stub instead. Or blur them if displayed on screenshots.
 
-#### Embedding videos
-
-Please see the [Markdown Guide](https://about.gitlab.com/community/markdown-guide-middleman/#display-videos-from-youtube) for instructions for embedding videos from YouTube and other sources.
-
 #### Embedding tweets or Instagram posts
 
 Please see the [Markdown guide for instructions for embedding posts from social media](https://about.gitlab.com/community/markdown-guide-middleman/#embed-tweets).
@@ -342,7 +267,7 @@ Avoid GIFs with a huge file size, they will be difficult to load for users with 
 
 ### Creating `Author` entries in the CMS
 
-Here's a set of recommendations **when creating** an `Author` entry in the CMS.
+Here's a set of recommendations **when creating** an `Author` entry in the CMS (Decap).
 
 - `Name` field
     This is a required field. It is also a unique field.
@@ -367,7 +292,7 @@ Here's a set of recommendations **when creating** an `Author` entry in the CMS.
 
     Optional fields for social media handles.
 
-## Localizing blog posts in Contentful
+## Localizing blog posts in the CMS
 
 We can publish blog posts in languages other than English. We currently support the following languages:
 
@@ -377,17 +302,8 @@ We can publish blog posts in languages other than English. We currently support 
 | German |`/de-de/blog/YEAR/MONTH/DAY/Title/` |
 | Japanese |`/ja-jp/blog/YEAR/MONTH/DAY/Title/` |
 
-### Translating an English-language blog post to other languages
+Please contact the GitLab localization team for more information.
 
-Translating an English-language blog post into another language is straightforward. Contentful offers a feature called "Field level localization," which allows us to specify the fields on the blog post that we want to translate. In the right-hand navigation while on a blog post, there's a "Localization" section. By selecting locales in that section, we can show or hide localized fields based on the currently selected locales. Once these fields have been completed, simply click "Publish" and the changes will go live on production in approximately five minutes.
-
-It's important to note that while we wait for Contentful to release locale-specific publishing (Spring 2024), any draft content, regardless of language, will also be published.
-
-### Publishing a blog post with no English-language equivalent
-
-Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages" with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
-
-Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.
 
 ### How to kick off translations
 
@@ -410,7 +326,7 @@ Here's a video walkthrough of the full process from creating the translation req
 - Live previews/changing languages
 - Publish
 
-### Gotcahs When Localizing an EN blog post
+### Gotchas When localizing an EN blog post
 
 Things to be careful about when localizing an EN blog post.
 
@@ -420,8 +336,6 @@ Things to be careful about when localizing an EN blog post.
 
 - If a post in process of being translating, put the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
 - Remove and apply local label to languages the post is translated into.
-- Here's a [direct link to the Contentful Blog space](https://app.contentful.com/spaces/r9o86ar0p03f/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=&displayedFieldIds=name&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&displayedFieldIds=metadata.tags&displayedFieldIds=status&order.direction=descending&order.fieldId=updatedAt&filters.0.key=metadata.tags.sys.id&filters.0.op=in&filters.0.val=translation-in-progress) to see all posts currently being translated.
-- If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)
 | Tag | Definition | How to use |
 |----|----|----|
 | translation-in-progress | Notes when a blog post is currently be translated and reviewed | Apply when translation request is opened. Remove when post is published |
