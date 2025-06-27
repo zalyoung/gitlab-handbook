@@ -84,7 +84,6 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 * Include representatives from Product, Design, Engineering, and Customer Support  
 * Identify your stakeholders and the roles you’ll ask them to play during the mapping process
 
-
 #### Phase 2: Data collection
 
 **Plan your research approach**
