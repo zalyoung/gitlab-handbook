@@ -1,5 +1,6 @@
 ---
 title: Switchboard team
+description: "Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to empower external GitLab Dedicated customers to manage their tenant environments and reduce the operational overhead on the Environment Automation team so we can scale up the GitLab Dedicated offering."
 ---
 
 ## Summary

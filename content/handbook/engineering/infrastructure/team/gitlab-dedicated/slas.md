@@ -1,5 +1,6 @@
 ---
 title: "GitLab Dedicated SLAs"
+description: "Service Level Availability and Disaster Recovery Plan"
 ---
 
 ## GitLab Dedicated: Service Level Availability and Disaster Recovery Plan

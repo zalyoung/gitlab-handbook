@@ -1,5 +1,6 @@
 ---
 title: "GitLab Dedicated Architecture"
+description: "GitLab Dedicated Architecture"
 ---
 
 ![GitLab Dedicated Group logo](/images/engineering/infrastructure/team/gitlab-dedicated/architecture/dedicated_team_logo.png)

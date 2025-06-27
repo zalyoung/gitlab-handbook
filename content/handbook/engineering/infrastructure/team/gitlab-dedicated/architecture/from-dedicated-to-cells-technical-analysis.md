@@ -1,5 +1,7 @@
 ---
 title: "From Dedicated to Cells: A Technical Analysis"
+description: "This document is intended to be a high-level summary describing how the existing GitLab Dedicated
+architecture could be used as a foundation for deployment and operating large numbers of GitLab Cell instances."
 ---
 
 ## Introduction
