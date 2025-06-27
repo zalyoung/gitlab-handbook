@@ -142,7 +142,7 @@ If personal or red data is suspected to be present in Snowplow events:
 
 1. Create an incident issue using the [Analytics Instrumentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Analytics%2520Instrumentation%2520Incident&issue%5Bissue_type%5D=incident)
 2. Assign the incident issue to yourself, Engineering Manager and Product Manager
-3. Add the [severity::1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [Analytics Instrumentation::Incident-High Severity](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/#incident-creation) labels
+3. Add the [severity::1](/handbook/product-development/issue-triage/#severity) and [Analytics Instrumentation::Incident-High Severity](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/#incident-creation) labels
 4. Post a message in [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF), [#data](https://gitlab.slack.com/archives/C8D1LGC23) and [#data-rd-analytics](https://gitlab.slack.com/archives/C02C82WDP0U) Slack channels
 5. For incident resolution process and SLO, follow the Analytics Instrumentation [incident management process](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/#incident-resolution)
 

@@ -444,9 +444,9 @@ From 2025-05-01 PagerDuty Alerts for High Priority tickets received from custome
 
 We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
 
-1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention. 
-1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. 
-1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift. 
+1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention.
+1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority.
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift.
 
 #### Customers with an Assigned Support Engineer (ASE)
 
@@ -576,7 +576,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 1. Create a `~"type::bug"` issue and have the customer review it.
 1. Escalate the `~"type::bug"` issue
-   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
+   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/product-development/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
    - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/development/feature_flags/controls/#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/) to raise a developer.
 1. If this is affecting multiple customers, [declare an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) to engage the incident response team who will update the status page.
 1. Once the original functionality is restored, update the customer.
