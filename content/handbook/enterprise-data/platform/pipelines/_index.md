@@ -68,11 +68,48 @@ Some data sources are just too senstive to allow for a third party to have acces
 
 Custom data pipelines should be considered our best option in the sense that these pipelines offer the most opportunity for flexibility, privacy, security, and maintainability. Though, as noted, such a solution isn't always warrented. 
 
-Said another way, when other solutions are inadequate, Custom Pipelines can solve the issue. 
+---
+
+Evaluating and Solutioning Pipeline Sources
+-------------------------------------------
+
+Things we consider when implementing a pipeline for data extraction (but are not limited to) are:
+
+<!-- Maybe this should be a table with discriptions and links, I am not sure we need a heading/section for each though -->
+- Data Sensitivity
+- Schema Complexity
+- Data Volume
+- Business Criticality
+- Latency Requirements
+- Access Options (database, API, filestore, etc.)
+
+Some of these necessitate certain solutions. For example, data in a filestore like GCS will always be solutioned with custom pipelines as it's the easiest _and_ lowest cost solution. But in many cases there isn't a consistent path. For example, we sometimes have many options available for access. 
+
+We assess these factors when solutioning a new data source in the [New Data Source Issue Template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/%5BNew%20Request%5D%20New%20Data%20Source.md?ref_type=heads)<!-- which will be updated before this MR is merged -->. The investigation and validation process outlined there is essential to our success and is required to be completed in order for implementation to be scheduled. 
+
+<!-- needs more detail about how we ensure this process is completed in a timeline way -->
 
 ---
 
-Making Custom Pipelines 'The Best'
+Custom Pipelines
 ---------------------------------
 
 A signifcant weakness that can emerge from custom pipelines is that we can write inconsistencies, redundancies, and complexity into our data platform if we're not careful. To this end we expect our custom pipelines to ahear to the following specifications. 
+
+### Easy to Use 
+
+<!-- 
+Including, but still working on descriptions for 
+- observability (Python logging)
+- Development Lifecycle
+    - Including standard environment managagement, testing, and CI/CD standards
+- Code Quality/Hygeine (Radovan, pls help)
+- Easy to use
+- Well documented
+-->
+
+### Secure
+
+
+
+### Performant
