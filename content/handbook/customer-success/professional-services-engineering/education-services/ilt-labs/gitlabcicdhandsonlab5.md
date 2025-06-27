@@ -89,48 +89,48 @@ Your new SSH key variable will now be accessible during any CI/CD jobs you run i
 
 1. We can add a simple SSH command to test if the connection is working.
 
-```yaml
-deploy app:
-  stage: deploy
-  script: 
-    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-    - eval $(ssh-agent -s)
-    - chmod 400 "$SSH_INVALID_KEY"
-    - ssh-add "$SSH_INVALID_KEY"
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
-    - ssh root@$ip 'ls /'
-```
+  ```yaml
+  deploy app:
+    stage: deploy
+    script: 
+      - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+      - eval $(ssh-agent -s)
+      - chmod 400 "$SSH_INVALID_KEY"
+      - ssh-add "$SSH_INVALID_KEY"
+      - mkdir -p ~/.ssh
+      - chmod 700 ~/.ssh
+      - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+      - ssh root@$ip 'ls /'
+  ```
 
 1. Finally, we will add in an `environment` keyword to enable us to track the deployment environment.
 
-```yaml
-deploy app:
-  stage: deploy
-  environment:
-    name: Production
-    url: "https://$ip"
-  script: 
-    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-    - eval $(ssh-agent -s)
-    - chmod 400 "$SSH_INVALID_KEY"
-    - ssh-add "$SSH_INVALID_KEY"
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
-    - ssh root@$ip 'ls /'
-```
+  ```yaml
+  deploy app:
+    stage: deploy
+    environment:
+      name: prod
+      url: "https://$ip"
+    script: 
+      - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+      - eval $(ssh-agent -s)
+      - chmod 400 "$SSH_INVALID_KEY"
+      - ssh-add "$SSH_INVALID_KEY"
+      - mkdir -p ~/.ssh
+      - chmod 700 ~/.ssh
+      - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+      - ssh root@$ip 'ls /'
+  ```
 
 When you commit these changes, you will see an error in your deploy job. To view this error, navigate to the **Build** > **Pipelines** page and view the failed pipeline and job. The output should look similar to the one below:
 
-```bash
-$ eval $(ssh-agent -s)
-Agent pid 3211
-$ chmod 400 "$SSH_INVALID_KEY"
-$ ssh-add "$SSH_INVALID_KEY"
-Error loading key "/builds/training-users/session-eff7bd34/iuztj7px/cicd-demo.tmp/SSH_INVALID_KEY": error in libcrypto
-```
+  ```bash
+  $ eval $(ssh-agent -s)
+  Agent pid 3211
+  $ chmod 400 "$SSH_INVALID_KEY"
+  $ ssh-add "$SSH_INVALID_KEY"
+  Error loading key "/builds/training-users/session-eff7bd34/iuztj7px/cicd-demo.tmp/SSH_INVALID_KEY": error in libcrypto
+  ```
 
 Let’s try to figure out what happened!
 
@@ -178,21 +178,23 @@ Now that the job has been fixed, it is important to clean up the job so that the
 
 The deploy job should now look like this:
 
-```yaml
-deploy app:
-  stage: deploy
-  image: ubuntu:latest
-  before_script:
-    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-    - eval $(ssh-agent -s)
-    - chmod 400 "$SSH_PRIVATE_KEY"
-    - ssh-add "$SSH_PRIVATE_KEY"
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-  script:
-    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
-    - ssh root@$ip 'ls /'
-```
+  ```yaml
+  deploy app:
+    stage: deploy
+    environment:
+      name: prod
+      url: "https://$ip"
+    before_script:
+      - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+      - eval $(ssh-agent -s)
+      - chmod 400 "$SSH_PRIVATE_KEY"
+      - ssh-add "$SSH_PRIVATE_KEY"
+      - mkdir -p ~/.ssh
+      - chmod 700 ~/.ssh
+    script:
+      - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+      - ssh root@$ip 'ls /'
+  ```
 
 1. Run the pipeline to make sure the changes did not break anything in the pipeline.
 
