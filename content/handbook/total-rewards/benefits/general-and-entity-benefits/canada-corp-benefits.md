@@ -64,7 +64,7 @@ You can access your ManuLife portal [here](https://portal.manulife.ca/gb/sponsor
 **For new hires:**
 Once you've determined your enrollment coverage (family plan or single plan), email your decision to `total-rewards@gitlab.com`. This step must be completed in order for your enrollment process to begin.
 
-During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. This may be sent to your personal email address. Click on that link sent to you to set up your profile.
+During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.
 Please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) if you have any questions.
 
 It is important to [assign your beneficiary for your Life Insurance plan](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/content/3811b594-3be7-4467-a313-47957943b648) once you receive your invitation to ManuLife. If you do not receive an invitation within a week of your start date, reach out to `total-rewards@gitlab.com`.
