@@ -247,8 +247,10 @@ IF Data Processing Impact >= 4 then
 
 ### Secure Design and Development Review Process
 
-DRI: SD&D Team
-Optional Review: SPA and/or Data Security, if the feature fullfills their [engagement criteria](#spa-and-data-security-team-engagement-criteria). This review is optional since these teams have resource constraints.
+- SDX Reviews DRI: SD&D Team
+- Data Security Review DRI: Data Security team. _This review is will be conducted on a best effort basis since the teams have resource constraints._
+- SPA Security Review DRI: SPA team. _This review is will be conducted on a best effort basis since the teams have resource constraints._
+
 
 #### Critical Risk Review
 
@@ -347,8 +349,9 @@ These are initial estimates and are subjected to change as we adopt the framewor
 
 ### Infrastructure Security Review Process
 
-DRI: InfraSec Team
-Optional Review: SPA and/or Data Security, if the feature has changes that fall under their [focus areas](#team-responsibilities). This review is optional since these teams have resource constraints.
+- InfraSec Reviews DRI: InfraSec Team
+- Data Security Review DRI: Data Security team. This review is will be conducted on a best effort basis since the teams have resource constraints.
+- SPA Security Review DRI: SPA team. This review is will be conducted on a best effort basis since the teams have resource constraints.
 
 #### Critical Risk Review
 
