@@ -37,6 +37,7 @@ The entire Engineering group is invited, though anyone at GitLab is welcome to a
      2. Stakeholders should ensure additional presenters from their teams are included in the tech check if applicable.
 
 ## CTO Office Hours
+
 Additionally, the CTO hosts [CTO Office Hours](/handbook/engineering/engineering-comms/#synchronous-meetings) weekly, alternating between EMEA/AMER and APAC/AMER time zones each week. These office hours are available to anyone in the company to ask about any topic that is "Top of Mind" for the CTO or the Engineering Division. These meetings are recorded and notes published for those who wish to review async.
 
 For team members who have a private "Top of Mind" topic they would like to discuss, the CTO office has 20min slots available that can be scheduled as needed. See available time slots marked as Available Time Slots for Office Hours. If no slots are available, reach out to the CTO-EBA to book additional time.
