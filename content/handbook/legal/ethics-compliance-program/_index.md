@@ -40,7 +40,6 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [SAFE Framework](/handbook/legal/safe-framework/)
 - [Social Media Policy](/handbook/marketing/team-member-social-media-policy/)
 - [Third-Party Risk Management Process](/handbook/finance/procurement/#third-party-risk-management)
-- [UK Modern Slavery Act Transparency Statement](https://drive.google.com/file/d/11Yne51yOV5_9EBnGbfvMIrq06Z_OxUEM/view?usp=sharing)
 - [Whistleblower Policies](/handbook/legal/whistleblowing/#whistleblowing-at-gitlab)
 
 ### Policy Translations
