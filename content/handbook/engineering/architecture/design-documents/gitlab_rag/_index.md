@@ -270,7 +270,7 @@ retrieval process. Tailoring the retrieval process based on specific user
 feedback can lead to biased optimizations, potentially causing regressions for
 other users. It's essential to have a dedicated test dataset and tools for a
 comprehensive quality assessment. For assistance with AI evaluation, please
-reach out to the [AI Model Validation Group](../../../ai/data-science/ai-powered/model-validation/_index.md).
+reach out to the Global Search team.
 
 ## Before Implementing RAG
 
