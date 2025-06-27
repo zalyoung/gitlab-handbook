@@ -1,14 +1,14 @@
 ---
-title: Import Group
-description: The Import Group facilitates migrations.
+title: Create:Import Group
+description: The Create:Import Group facilitates migrations between GitLab instances and from other providers.
 ---
 
 ## About
 
-The Import group is a part of the [Foundations Stage](/handbook/product/categories/#foundations-stage).
+The Import group is a part of the [Create Stage](/handbook/product/categories/#create-stage).
 The group supports the product by migrating between GitLab instances and from other providers.
 
-This page covers processes and information specific to the Import group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
+This page covers processes and information specific to the Import group. See also the [group direction page](https://about.gitlab.com/direction/create/) and the [features we support per category](/handbook/product/categories/features/#import).
 
 ## How to reach us
 
