@@ -19,12 +19,29 @@ As a result of our direct interactions with customers, the Support Team occupies
 - Development of the product is broken down into [sections, stages and groups; that page](/handbook/product/categories/#devops-stages) is the single source of truth about who is performing this role.
 - We want to optimize for covering all important product groups. Regardless of that, it can make sense for a group to have more than one counterpart, especially to have coverage across multiple regions.
 
-## Expectations from an SSC
+## Requirements of the SSC role
+
+To succeed in the role, there is a handful of **required tasks** you need to perform as a SSC:
+
+1. Update the [Support MBR slides](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=created_asc&state=all&label_name%5B%5D=Support%20MBR&search=Support%20Stable%20Counterpart%20Feedback&first_page_size=20) for your product group(s) every month
+   - This is meant to be a forcing function for the goal to [Enable Support with periodic communication relevant to the group](#enable-support-with-periodic-communication-relevant-to-the-group). This does not mean there have to be significant updates every month – but by dedicating some time every month to review if there _are_ relevant updates, you will automatically [Be alert and engaged on what's happening with the group](#be-alert-and-engaged-on-whats-happening-with-the-group).
+1. Subscribe to new RFH issues for your group via CC on the [corresponding issue template](https://gitlab.com/gitlab-com/request-for-help/-/tree/main/.gitlab/issue_templates?ref_type=heads)
+   - You will be notified anytime someone in Support reaches out to your group for help. You might be able to provide additional context, help colleagues yourself with your subject matter experience – or at least benefit from awareness yourself. This will allow you to [Be alert and engaged on what's happening with the group](#be-alert-and-engaged-on-whats-happening-with-the-group).
+1. Attend the team sync of your product group at least once a month
+   - Just showing up to a meeting can feel like you're not really doing anything, but consistently being visible is key to [Establish and maintain a relationship with your product group(s)](#establish-and-maintain-a-relationship-with-your-product-groups). By being present, you create opportunities to connect and are laying the foundation for easier and more efficient collaboration.
+   - _Note_: While this approach is recommended for most, the individual nature of product groups and timezones may prevent this task. Discuss a reasonable alternative – e.g. catching up on the agenda doc async or a monthly sync with PM/EM – with your manager.
+1. Engage with relevant tickets at least once a month
+   - You can only [Enable Product with periodic communication relevant to the group](#enable-product-with-periodic-communication-relevant-to-the-group) if you have a good understanding of what customers are dealing with. There is many ways to engage with relevant tickets, for example: Attend a relevant Support Pod pairing session, actively participate in your group's RFH issues, host office hours, or just assign or CC tickets to yourself.
+
+Each of these tasks is meant to help empower you to have an impact on the goals the SSC role that are listed below. These requirements are a baseline for performing in the SSC role, but should not limit your imagination when trying to exceed – if you're doing additional things that work well, keep doing it and think about if and how it could be formalized for everyone.
+
+## Goals of the SSC role
 
 ### Establish and maintain a relationship with your product group(s)
 
 Just like us, the product teams are spread across the globe. Due to this, it might not always be possible to sync with your counterparts.
 
+- **Required task**: Attend the team sync of your product group at least once a month
 - If time zones permit, have an introductory coffee chat with your Product Manager.
   - Talk about your interest in the group, and why you chose to become an SSC in it. Ask about the team and their day-to-day.
   - Ask them about their expectations of the SSC. Manage them and align.
@@ -38,19 +55,17 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 
 ### Be alert and engaged on what's happening with the group
 
-- Subscribe to the pertinent trackers and labels to be aware of new issues in that group.
+- **Required task**: Subscribe to new RFH issues for your group via CC on the [corresponding issue template](https://gitlab.com/gitlab-com/request-for-help/-/tree/main/.gitlab/issue_templates?ref_type=heads)
 - Be aware of major issues (especially severity::1) in the product area, including workarounds.
 - Be aware of the tickets raised by customers pertinent to the category, surfacing and advocating for them.
 - Be aware of major changes related to the group in upcoming releases.
 - Inquire about the group's plans for breaking changes in the next major release well in advance (three months/releases prior). Try to get a proper understanding of how customers will be affected early on.
 - Be aware of the priorities and challenges of the product group.
 - Strive to become a subject matter expert in the use of the features they cover.
-- Consider adding yourself as a CC to the [RFH issue template](https://gitlab.com/gitlab-com/request-for-help/-/tree/main/.gitlab/issue_templates?ref_type=heads) for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. You might be able to provide additional context, help your colleague or just benefit from increased awareness yourself.
 
 ### Enable Support with periodic communication relevant to the group
 
-- A monthly communication cadence is recommended. Since your group might not have a lot of updates to share with Support every month, set a cadence that is appropriate for the situation.
-  - Support's Monthly Business Review can serve as natural check-in via the [SSC Feedback slides](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Support+MBR&first_page_size=20) you're supposed to update.
+- **Required task**: Update the [Support MBR slides](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=created_asc&state=all&label_name%5B%5D=Support%20MBR&search=Support%20Stable%20Counterpart%20Feedback&first_page_size=20) for your product group(s) every month
 - Share announcements through the [SWIR](/handbook/support/#support-week-in-review) and in relevant Support Slack channels.
   - Use the prefix `[SSC Update: Group_Name: GitLab(Major).(Minor).(Patch)]` for your updates in both SWIR and in relevant Slack channels. This consistency helps highlight the impact and significance of the SSC role.
 - Group related updates and announcements can be:
@@ -69,12 +84,15 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 
 ### Enable Product with periodic communication relevant to the group
 
+- **Required task**: Engage with relevant tickets at least once a month
 - Share customer feedback from tickets with the Product team.
   - Loop them in to relevant issues, tickets and Slack threads.
 - Be the customers' voice and an influencing agent on product related decisions and future roadmap.
 - [Optional] Help with questions in the Product team's Slack channels.
 
-#### Examples of SSC activities
+## Working in the role
+
+### Specific examples of past SSC activities
 
 There's many different groups, and no one approach to being a SSC will be the perfect fit for all. Finding out how to best work with your group can take a while (one Senior Support Engineer said it took them more than two years to feel they really figured it out), and as everything at GitLab it is an iterative and – hopefully – transparent process. The expectations listed in the section above are a good starting point, but they are neither compulsory nor can they be complete.
 
