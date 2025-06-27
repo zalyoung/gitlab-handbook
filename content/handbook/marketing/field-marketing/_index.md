@@ -594,9 +594,9 @@ In order to stay environmentally-friendly, we generally do not provide large qua
 
 ### Ordering Items from the GitLab Swag Shop
 
-If you would like to order item(s) from the [GitLab Swag Shop](https://shop.gitlab.com/) for an event, please submit the request in [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSfCeJSeJaafhh4Xxv2fC3mUSMEIWtQSOqy7S9ErwdX0iECk-Q/viewform). 
+If you would like to order an item(s) from the [GitLab Swag Shop](https://shop.gitlab.com/) for an event, Please reach out to Betsy Bula and let her know the item(s) you are interested in and the quantity and she will make sure she has enough in stock to spare. Then, please fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSfCeJSeJaafhh4Xxv2fC3mUSMEIWtQSOqy7S9ErwdX0iECk-Q/viewform) for the total $ amount of the item(s) and the Brilliant team will grant you a store credit for the shop. You can use that store credit to pay for the items, and GitLab FP&A will "charge" your budget/Allocadia ID on the back end at the end of the month.
 
-Note: Order Code = Allocadia line item ID
+**Note:** Order Code = Allocadia line item ID
 
 ## EMEA Field Marketing Swag
 
