@@ -336,7 +336,7 @@ For lists that collect work items from various root namespaces we won't check wh
 for the availability of data on the join model.
 If `custom_status_id` is set, use the custom status. If not use the system-defined status.
 To efficiently fetch this data for work item lists, we use a
-[bulk status resolver](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/graphql/resolvers/work_items/statuses/bulk_status_resolver.rb)
+[status resolver](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/graphql/resolvers/work_items/statuses_resolver.rb)
 which only adds two additional queries. One to load the join model and another to load custom statuses.
 
 We use the fields `default_open_status_id`, `default_closed_status_id`, and `default_duplicate_status_id` to make
@@ -379,7 +379,7 @@ by existing work item permissions like `read_work_item` or `update_work_item`.
 This approach avoids redundant permission checks by leveraging GraphQL's higher-level query execution
 for authorization, improving query performance by reducing the number of Permission checks.
 
-Additionally, work item status-specific resolvers like `BulkStatusResolver` and `AllowedStatusesResolver`
+Additionally, work item status-specific resolvers like `StatusesResolver` and `AllowedStatusesResolver`
 ensure that the licensed feature is available and the feature flag is enabled before proceeding.
 
 #### Status widget
@@ -491,13 +491,16 @@ We'll use the feature flag `work_item_status_feature_flag` throughout the develo
 The actor needs to be the root group.
 
 For testing purposes, the feature flag is currently enabled in production for the Plan Stage testing
-group called [gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage).
+groups called [gl-demo-premium-plan-stage](https://gitlab.com/gl-demo-premium-plan-stage) and
+[gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage).
 
 We're using [this feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/issues/521286).
 
 Since the feature will only be available in Premium and Ultimate tier, we consider it a licensed feature.
 The feature name is `work_item_status`.
 The name differs from the feature flag because we cannot use the same name.
+
+Status lists on legacy issue boards are managed under a separate licensed feature called `board_status_lists`.
 
 ### Implementation and release plan
 
