@@ -82,13 +82,13 @@ In this example, let’s look at how we can cancel the pipeline in the case wher
 
 1. Select **Commit changes**.
 
-  Let's see how the pipeline handles the failed job.
+      Let's see how the pipeline handles the failed job.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
 1. Select your most recent pipeline and observe the jobs. Note that when the `test fail` job fails, other jobs cancel, showing a grey slash icon.
 
-  Now that we have verified the auto cancel works, let's remove the failing job.
+      Now that we have verified the auto cancel works, let's remove the failing job.
 
 1. Navigate to your repository.
 
@@ -179,42 +179,42 @@ In this task, we will add a test report to our test jobs.
 
 1. The test results need to be stored in a JUnit file in order to be accessed by the pipeline. To do so, we need to add the following code snippet to both of our tests after the `script` keyword:
 
-```yml
-  artifacts:
-    when: always
-    reports:
-      junit: junit.xml
-```
+      ```yml
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
+      ```
 
-  The tests will now look like this:
+      The tests will now look like this:
 
-```yml
-test binarysearch:
-  stage: test
-  script:
-    - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-  artifacts:
-    when: always
-    reports:
-      junit: junit.xml
-  cache:
-    key: $CI_COMMIT_REF_SLUG
-    paths:
-      - node_modules
+      ```yml
+      test binarysearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
 
-test linearsearch:
-  stage: test
-  script:
-    - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-  artifacts:
-    when: always
-    reports:
-      junit: junit.xml
-  cache:
-    key: $CI_COMMIT_REF_SLUG
-    paths:
-      - node_modules
-```
+      test linearsearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
+      ```
 
 1. After making these changes, select **Commit changes**.
 
