@@ -116,7 +116,7 @@ Planning processes followed by teams in the Sub-department:
 
 ### Forced Priority planning/scheduling
 
-Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#prioritization-framework) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
+Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#prioritization-framework) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/product-development/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
 
 With this in mind, here's a process that groups are encouraged to use and iterate on in the event that they don't have an existing approach or are falling behind on SLA/SLOs.
 

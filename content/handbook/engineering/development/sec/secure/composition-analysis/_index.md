@@ -23,7 +23,7 @@ The Composition Analysis group largely follows GitLab's [Engineering Workflow](/
 
 This includes:
 
-- [Issue triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- [Issue triage](/handbook/product-development/issue-triage/)
 - [Infradev triage](#triaging-vulnerabilities)
 - [Wider Community Merge Request Triage](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Retrospectives](/handbook/engineering/management/group-retrospectives/)
@@ -325,7 +325,7 @@ that have impacted composition analysis in the future.
     ```text
     <!--
     Select one of the following severities
-    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
+    Ref: https://handbook.gitlab.com/handbook/product-development/issue-triage/#severity
     -->
     /label ~"severity::1"
     /severity S1
@@ -341,7 +341,7 @@ that have impacted composition analysis in the future.
 
     <!--
     Select one of the following priorities
-    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority
+    Ref: https://handbook.gitlab.com/handbook/product-development/issue-triage/#priority
     -->
     /label ~"priority::1"
     /label ~"priority::2"
@@ -369,7 +369,7 @@ detection, resolution, and any other events that you feel are worth highlighting
 
 ### Maintenance triaging process
 
-To help our Engineering Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
+To help our Engineering Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/product-development/issue-triage/#priority).
 
 1. Leverage the [Maintenance issues board](https://gitlab.com/groups/gitlab-org/-/boards/7658725?label_name[]=group%3A%3Acomposition%20analysis&label_name[]=type%3A%3Amaintenance).
 1. For each open issue that has no Priority label ("Open" column), shortly investigate the issue (< 1h) and comment with your findings. Make sure the correct sub-category label is applied per our [Work type clasification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) (e.g. `~maintenance::refactor`).

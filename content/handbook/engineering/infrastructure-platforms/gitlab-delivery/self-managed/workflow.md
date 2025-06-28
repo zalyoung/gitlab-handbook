@@ -45,7 +45,7 @@ flowchart LR
     Development --> ReadyReview([workflow::ready for review]):::readyreview
     ReadyReview --> Review([workflow::in review]):::review
     Review --> Done([workflow::complete]):::done
-    
+
     Blocked([workflow::blocked]):::blocked
     Refinement -.-> Blocked
     Ready -.-> Blocked
@@ -57,7 +57,7 @@ flowchart LR
     Blocked -.-> Development
     Blocked -.-> ReadyReview
     Blocked -.-> Review
-    
+
     LookLeft["Look Left<br>(Daily)"] -.-> Refinement
     LookRight["Look Right<br>(Daily)"] -.-> ReadyReview
     LookRight -.-> Review
@@ -65,7 +65,7 @@ flowchart LR
     WeeklySync -.-> Ready
     WeeklySync -.-> Development
     BlockedReview["Blocked Issues Review<br>(Daily Priority)"] -.-> Blocked
-    
+
     subgraph WIP Limits
         Refinement -.- RL["2 per engineer"]
         Ready -.- RDL["1.5× team size"]
@@ -73,10 +73,10 @@ flowchart LR
         ReadyReview -.- RRL["2× team size"]
         Review -.- RVL["1.5× team size"]
     end
-    
+
     subgraph Ceremonies
         BlockedReview
-        
+
         LookLeft
         LookRight
         WeeklySync
@@ -130,7 +130,7 @@ The Self Managed Kanban board would use the following columns, aligned with GitL
    - Development-focused discussion
    - Implementation strategies and technical decisions
 
-### Monthly Activities 
+### Monthly Activities
 
 On the last week's weekly sync meeting every month.
 
@@ -144,7 +144,7 @@ On the last week's weekly sync meeting every month.
 
 ## Priority definition
 
-Self Managed team uses [infrastructure-wide priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+Self Managed team uses [infrastructure-wide priority labels](/handbook/product-development/issue-triage/#priority)
 to determine the position in the Kandban columns.
 
 | Priority | Label | Position in Kanban | Action Required |
@@ -304,9 +304,9 @@ graph LR
 
 **Target:** Our target cycle time varies by work complexity (To be updated by FY27Q1):
 
-- Trivial changes (Weight 1): \< x 
-- Small changes (Weight 2): \< x 
-- Medium changes (Weight 3): \< x 
+- Trivial changes (Weight 1): \< x
+- Small changes (Weight 2): \< x
+- Medium changes (Weight 3): \< x
 - Large changes (Weight 5): \< x
 
 **Measurement:** (To be updated by FY27Q1)
@@ -322,21 +322,21 @@ graph LR
 
 **Target:** Our target lead times are (To be updated by FY27Q1):
 
-- Priority 1 issues: \< x 
-- Priority 2 issues: \< x 
-- Priority 3 issues: \< x 
-- Priority 4 issues: \< x 
+- Priority 1 issues: \< x
+- Priority 2 issues: \< x
+- Priority 3 issues: \< x
+- Priority 4 issues: \< x
 
 **Measurement:** (To be updated by FY27Q1)
 
 #### 3. WIP Ratio
 
-**Definition:** The ratio of work items in progress compared to team capacity. Calculated as the number of active work items divided by the number of team members. 
+**Definition:** The ratio of work items in progress compared to team capacity. Calculated as the number of active work items divided by the number of team members.
 
 **Target :**
 
 - Optimal WIP ratio: 1-3
-- Warning threshold: \> 3.0 
+- Warning threshold: \> 3.0
 - Critical threshold: \> 4.0
 
 **Measurement:** Count of issues in the ~"workflow::in dev", and ~"workflow::in review" stages divided by the number of active team members.
@@ -435,21 +435,21 @@ flowchart TB
     IB[Issue Becomes Blocked]:::blocked --> |Move to| BL[workflow::blocked Lane]:::blocked
     BL --> |Document| BC[Blocker Cause]:::action
     BL --> |Set| ET[Expected Timeframe]:::action
-    
+
     BL --> |Daily Review| DR[Daily Blocked Issue Review]:::normal
     DR --> |Can Proceed?| D{Decision}
-    
+
     D -->|Yes| UI[Unblock Issue]:::action
     D -->|No| AE{Age Evaluation}
-    
+
     AE -->|< 2 days| FU[Team Member Follows Up]:::action
     AE -->|2-5 days| TE[Team Discussion & EM Involvement]:::action
     AE -->|> 5 days| ES[Escalate to Senior Management]:::action
-    
+
     FU --> DR
     TE --> DR
     ES --> DR
-    
+
     UI --> |Move back to original column| WF[Workflow Continues]:::normal
     UI --> |Document resolution| DR[Document Resolution]:::action
 ```

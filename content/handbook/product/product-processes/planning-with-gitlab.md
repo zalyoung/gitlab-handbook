@@ -73,7 +73,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
 - A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
-- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) for classifying a bug as `severity::1`.
+- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/product-development/issue-triage/#severity) for classifying a bug as `severity::1`.
 
 ### Epics
 
