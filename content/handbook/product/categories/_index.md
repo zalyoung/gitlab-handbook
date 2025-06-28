@@ -404,7 +404,7 @@ Whatever the source of the functionality, rather than thinking of these componen
 
 It does not mean, however, that a single group should necessarily be solely responsible for all of these activities. Multiple groups could end up collaborating in execution. This coordination however requires a careful triage of the shared responsibility issues in the issue tracker where a single [DRI](/handbook/people-group/directly-responsible-individuals/) coordinates these activities.
 
-For more information please review [this section in the quality department handbook](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
+For more information please review [this section in the quality department handbook](/handbook/product-development/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
 
 ### Categories A-Z
 

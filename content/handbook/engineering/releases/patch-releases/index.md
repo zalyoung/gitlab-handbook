@@ -29,7 +29,7 @@ At GitLab, there are two types of patch releases processes:
 1. **Planned (default)**: An SLO-driven patch to publish all available bug and vulnerability fixes per
    the [GitLab maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html). Scheduled twice a month on
    the Wednesday before and after the [monthly release week](https://about.gitlab.com/releases/), planned patches comply
-   with the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and
+   with the [bug SLO](/handbook/product-development/issue-triage/#severity-slos) and
    the [security remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/). Patches that include
    [`critical` vulnerabilities](/handbook/security/product-security/vulnerability-management/sla/) will be considered critical patches.
 1. **Unplanned**: An immediate patch required outside of the planned patch release cadence to mitigate a high-severity (critical) vulnerability. These ad-hoc patches

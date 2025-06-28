@@ -5,7 +5,7 @@ description: "Overview and Summary of the Distribution Team's issue triage proce
 
 ## Common links
 
-* [Engineering Team Triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+* [Engineering Team Triage](/handbook/product-development/issue-triage/)
 
 ## Triaging Issues
 

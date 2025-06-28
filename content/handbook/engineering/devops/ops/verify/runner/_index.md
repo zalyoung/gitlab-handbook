@@ -192,7 +192,7 @@ At a minimum we will always identify our top priorities using `~"Runner::P1"`.
 1. `~"Runner::P2"` means "normal priority".
 1. `~"Runner::P3"` means "reduced priority".
 1. `~"Runner::P*"` labels can and should differ from `~priority:*` labels.
-    [`~priority:*`](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) labels imply the timeline for when issues will be addressed.
+    [`~priority:*`](/handbook/product-development/issue-triage/#priority) labels imply the timeline for when issues will be addressed.
     While `~"Runner::P*"` indicate priority for the scheduled iteration.
 
 ### Design and development process
