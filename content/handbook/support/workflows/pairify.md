@@ -6,7 +6,7 @@ category: References
 
 ## Overview
 
-This document provides information on what Pairify is and how to use it to record pairing sessions.
+This document provides information on what Pairify is and how to use it to record [pairing sessions](pairing-sessions.md)
 
 ## What is Pairify?
 
