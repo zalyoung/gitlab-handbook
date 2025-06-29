@@ -173,3 +173,8 @@
   term: Support Ticket Attention Requests
   info: |
     STAR is used when a support ticket needs extra visibility or prioritization. This is typically communicated in the #support_ticket-attention-requests Slack channel.
+
+- acronym: BBM
+  term: Batched Background migrations
+  info: |
+    See [Batched Background Migration docs page](https://docs.gitlab.com/development/database/batched_background_migrations/).
