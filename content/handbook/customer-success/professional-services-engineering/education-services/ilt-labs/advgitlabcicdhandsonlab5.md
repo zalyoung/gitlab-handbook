@@ -35,25 +35,25 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. In your existing CI/CD file, add the following job to your pipeline:
 
-    ```yml
-    pause:
-      stage: test
-      script:
-        - sleep 4m
-    ```
+      ```yml
+      pause:
+        stage: test
+        script:
+          - sleep 4m
+      ```
 
 1. Add in the following rules to ensure jobs run on merge request pipelines:
 
-  ```yml
-  workflow:
-    auto_cancel:
-      on_job_failure: all
-    rules:
-      - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-      - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  ```
+    ```yml
+    workflow:
+      auto_cancel:
+        on_job_failure: all
+      rules:
+        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    ```
 
-1. Commit these changes. 
+1. Commit these changes.
 
       The current pipeline should look like this:
 
@@ -61,7 +61,7 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
       stages:
         - deps
         - test
-        
+
       workflow:
         auto_cancel:
           on_job_failure: all
@@ -83,7 +83,7 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
           key: $CI_COMMIT_REF_SLUG
           paths:
             - node_modules
-          
+
       install deps:
         stage: deps
         script:
@@ -101,7 +101,7 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
         script:
           - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
         <<: [*artifactdef, *cachedef]
-        
+
       pause:
         stage: test
         script:
@@ -148,7 +148,7 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
-1. You should now see a message similar to `A new merge train has started and this merge request is the first of the queue. View merge train details.` Click on the **View merge train details** to see your merge train in action. 
+1. You should now see a message similar to `A new merge train has started and this merge request is the first of the queue. View merge train details.` Click on the **View merge train details** to see your merge train in action.
 
 1. Await the completion of your merge requests and verify that they merge successfully.
 
@@ -158,44 +158,44 @@ When multiple users work on a project at the same time, merge conflicts are ofte
 
 1. Remove the `pause` job from your CI/CD project to avoid slowdowns. Right now, your file will look like this:
 
-    ```yml
-    stages:
-      - deps
-      - test
-      
-    workflow:
-      auto_cancel:
-        on_job_failure: all
+      ```yml
+      stages:
+        - deps
+        - test
 
-    default:
-      image: node:latest
+      workflow:
+        auto_cancel:
+          on_job_failure: all
 
-    .artifactdef: &artifactdef
-      artifacts:
-        when: always
-        reports:
-          junit: junit.xml
+      default:
+        image: node:latest
 
-    install deps: &cachedef
-      stage: deps
-      script:
-        - npm install jest jest-junit
-      <<: *cachedef
+      .artifactdef: &artifactdef
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
 
-    test binarysearch:
-      stage: test
-      script:
-        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-      <<: [*artifactdef, *cachedef]
+      install deps: &cachedef
+        stage: deps
+        script:
+          - npm install jest jest-junit
+        <<: *cachedef
 
-    test linearsearch:
-      stage: test
-      script:
-        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-      <<: [*artifactdef, *cachedef]
-    ```
+      test binarysearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        <<: [*artifactdef, *cachedef]
 
-      Now, let’s create two merge requests that conflict:
+      test linearsearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        <<: [*artifactdef, *cachedef]
+      ```
+
+        Now, let's create two merge requests that conflict:
 
 1. Select **Code > Branches**.
 
@@ -207,25 +207,25 @@ When multiple users work on a project at the same time, merge conflicts are ofte
 
 1. Select the `index.js` file. At the top of the file, add a comment to describe the function. An example comment is below.
 
-    ```js
-    // This method will create a binary search finding the value in list in log(n) time
-    module.exports.binarySearch = function binarySearch(arr, val) { 
-        let start = 0; 
-        let end = arr.length - 1; 
-        while (start <= end) { 
-            let mid = Math.floor((start + end) / 2); 
-            if (arr[mid] === val) { 
-                return mid; 
-            } 
-            if (val < arr[mid]) { 
-                end = mid - 1; 
-            } else { 
-                start = mid + 1; 
-            } 
-        } 
-        return -1; 
-    }
-    ```
+      ```js
+      // This method will create a binary search finding the value in list in log(n) time
+      module.exports.binarySearch = function binarySearch(arr, val) {
+          let start = 0;
+          let end = arr.length - 1;
+          while (start <= end) {
+              let mid = Math.floor((start + end) / 2);
+              if (arr[mid] === val) {
+                  return mid;
+              }
+              if (val < arr[mid]) {
+                  end = mid - 1;
+              } else {
+                  start = mid + 1;
+              }
+          }
+          return -1;
+      }
+      ```
 
 1. Commit this code to the branch and create a new merge request from it. After you do this, create a new branch:
 
@@ -239,25 +239,25 @@ When multiple users work on a project at the same time, merge conflicts are ofte
 
 1. Select the `index.js` file. At the top of the file, add a different comment to describe the function. An example comment is below:
 
-    ```js
-    //A binary search will search a list in log(n) time
-    module.exports.binarySearch = function binarySearch(arr, val) { 
-        let start = 0; 
-        let end = arr.length - 1; 
-        while (start <= end) { 
-            let mid = Math.floor((start + end) / 2); 
-            if (arr[mid] === val) { 
-                return mid; 
-            } 
-            if (val < arr[mid]) { 
-                end = mid - 1; 
-            } else { 
-                start = mid + 1; 
-            } 
-        } 
-        return -1; 
-    }
-    ```
+      ```js
+      //A binary search will search a list in log(n) time
+      module.exports.binarySearch = function binarySearch(arr, val) {
+          let start = 0;
+          let end = arr.length - 1;
+          while (start <= end) {
+              let mid = Math.floor((start + end) / 2);
+              if (arr[mid] === val) {
+                  return mid;
+              }
+              if (val < arr[mid]) {
+                  end = mid - 1;
+              } else {
+                  start = mid + 1;
+              }
+          }
+          return -1;
+      }
+      ```
 
 1. Commit this code to the branch and create a new merge request from it.
 
