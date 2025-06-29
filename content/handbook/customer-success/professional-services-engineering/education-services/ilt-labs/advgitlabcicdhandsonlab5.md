@@ -195,7 +195,7 @@ When multiple users work on a project at the same time, merge conflicts are ofte
         <<: [*artifactdef, *cachedef]
       ```
 
-        Now, let's create two merge requests that conflict:
+      Now, let's create two merge requests that conflict:
 
 1. Select **Code > Branches**.
 
