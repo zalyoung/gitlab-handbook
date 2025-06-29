@@ -55,64 +55,64 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Commit these changes. 
 
-  The current pipeline should look like this:
+      The current pipeline should look like this:
 
-  ```yml
-  stages:
-    - deps
-    - test
-    
-  workflow:
-    auto_cancel:
-      on_job_failure: all
-    rules:
-      - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-      - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      ```yml
+      stages:
+        - deps
+        - test
+        
+      workflow:
+        auto_cancel:
+          on_job_failure: all
+        rules:
+          - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+          - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
-  default:
-    image: node:latest
+      default:
+        image: node:latest
 
-  .artifactdef: &artifactdef
-    artifacts:
-      when: always
-      reports:
-        junit: junit.xml
+      .artifactdef: &artifactdef
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
 
-  .cachedef: &cachedef
-    cache:
-      key: $CI_COMMIT_REF_SLUG
-      paths:
-        - node_modules
-      
-  install deps:
-    stage: deps
-    script:
-      - npm install jest jest-junit
-    <<: *cachedef
+      .cachedef: &cachedef
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
+          
+      install deps:
+        stage: deps
+        script:
+          - npm install jest jest-junit
+        <<: *cachedef
 
-  test binarysearch:
-    stage: test
-    script:
-      - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-    <<: [*artifactdef, *cachedef]
+      test binarysearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        <<: [*artifactdef, *cachedef]
 
-  test linearsearch:
-    stage: test
-    script:
-      - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-    <<: [*artifactdef, *cachedef]
-    
-  pause:
-    stage: test
-    script:
-      - sleep 4m
-  ```
+      test linearsearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        <<: [*artifactdef, *cachedef]
+        
+      pause:
+        stage: test
+        script:
+          - sleep 4m
+      ```
 
 1. Select **Commit changes** to update your `.gitlab-ci.yml` file.
 
-  Adding this job will ensure that you have enough time to create two merge requests.
+      Adding this job will ensure that you have enough time to create two merge requests.
 
-  To start, create your two merge requests. For the first merge request:
+      To start, create your two merge requests. For the first merge request:
 
 1. Select **Code > Branches**.
 
@@ -128,7 +128,7 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Leave all options as default and select **Create merge request**.
 
-  For the second merge request:
+      For the second merge request:
 
 1. Select **Code > Branches**.
 
@@ -144,7 +144,7 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Leave all options as default and select **Create merge request**.
 
-  Now that both merge requests have been created:
+      Now that both merge requests have been created:
 
 1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
@@ -195,7 +195,7 @@ When multiple users work on a project at the same time, merge conflicts are ofte
       <<: [*artifactdef, *cachedef]
     ```
 
-  Now, let’s create two merge requests that conflict:
+      Now, let’s create two merge requests that conflict:
 
 1. Select **Code > Branches**.
 

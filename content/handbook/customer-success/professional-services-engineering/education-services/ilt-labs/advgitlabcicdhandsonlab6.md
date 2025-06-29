@@ -67,57 +67,57 @@ For this task, we will be creating a web application to run in our review enviro
 
 1. Commit your changes.
 
-After these changes, the `index.js` file should look like this:
+      After these changes, the `index.js` file should look like this:
 
-  ```js
-  //A binary search will search a sorted list in log(n) time
-  module.exports.binarySearch = function binarySearch(arr, val) {
-      let start = 0;
-      let end = arr.length - 1;
-      while (start <= end) {
-          let mid = Math.floor((start + end) / 2);
-          if (arr[mid] === val) {
-              return mid;
-          }
-          if (val < arr[mid]) {
-              end = mid - 1;
-          } else {
-              start = mid + 1;
-          }
-      }
-      return -1;
-  }
+    ```js
+    //A binary search will search a sorted list in log(n) time
+    module.exports.binarySearch = function binarySearch(arr, val) {
+        let start = 0;
+        let end = arr.length - 1;
+        while (start <= end) {
+            let mid = Math.floor((start + end) / 2);
+            if (arr[mid] === val) {
+                return mid;
+            }
+            if (val < arr[mid]) {
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+        return -1;
+    }
 
-  module.exports.linearSearch = function linearSearch(arr, val){
-    let index = 0;
-    let found = false;
-    while (!found && index < arr.length){
-      if (arr[index] == val){
-          found = true;
-      }else{
-        index += 1;
-      }
-      }
+    module.exports.linearSearch = function linearSearch(arr, val){
+      let index = 0;
+      let found = false;
+      while (!found && index < arr.length){
+        if (arr[index] == val){
+            found = true;
+        }else{
+          index += 1;
+        }
+        }
 
-      if (!found){
-          index = -1;
-      }
+        if (!found){
+            index = -1;
+        }
 
-    return index;
-  }
+      return index;
+    }
 
-  const express = require('express')
-  const app = express()
-  const port = 4001
+    const express = require('express')
+    const app = express()
+    const port = 4001
 
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
+    app.get('/', (req, res) => {
+      res.send('Hello World!')
+    })
 
-  app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-  })
-  ```
+    app.listen(port, () => {
+      console.log(`Example app listening on port ${port}`)
+    })
+    ```
 
 ## Task B. Creating a Review App
 
