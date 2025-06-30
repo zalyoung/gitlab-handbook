@@ -5,7 +5,7 @@ description: "This page contains information and links to GitLab's transparency 
 {{% details summary="Law Enforcement Requests - This is our most recent Law Enforcement Report which details government requests received by GitLab"%}}
 # 2024 Law Enforcement Transparency Report
 
-This report covers legal requests received by GitLab over a period from January 2024 to December 2024 and provides insights into the types of requests received, their disposition, and GitLab's commitment to user privacy and transparency. GitLab reviews and responds to requests according to our published [Guidelines for Law Enforcement Requests](https://handbook.gitlab.com/handbook/legal/privacy/law-enforcement-guidelines/).
+This report covers legal requests received by GitLab over a period from January 2024 to December 2024 and provides insights into the types of requests received, their disposition, and GitLab's commitment to user privacy and transparency. GitLab reviews and responds to requests according to our published [Guidelines for Law Enforcement Requests](../handbook/legal/privacy/law-enforcement-guidelines/).
 
 ## Request Volume and Type
 
