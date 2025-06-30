@@ -72,12 +72,14 @@ Further details can be found in the [job family description](/job-families/secur
 
 ## Working With Us
 
-1. To request an **infrastructure security review**, please create an issue using [the security review template](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/bau/-/issues/new?issue[title]=Security%20Review%20Request%3A%20{%2B%20Service%2FFeature%20Name%20%2B}&issuable_template=production_readiness)
-1. For everything else:
-    1. [Create an issue](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/bau/-/issues) in our issue tracker dedicated to Business as Usual (BAU) activities and general inquiries.
-        - It is not necessary to `@mention` anyone. In case you want to mention the whole team, use the `@gitlab-com/gl-security/product-security/infrastructure-security` handle on GitLab.com.
-        - You can also chat with us on Slack in the dedicated `#security-infrasec` channel or by tagging us `@infrasec-team`.
-    2. The team will triage (and prioritise accordingly) all incoming request during the fortnightly team sync (typically Tuesday).
+1. To request an **infrastructure security review**, please create an issue using [the security review template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=infrasec-security-review)
+1. To request a **production readiness review**, please create an issue using [the production readiness template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=infrasec-production-readiness)
+1. For everything else please create an issue using [the generic issue template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=infrasec-other-request)
+
+- Please refrain from `@mention` individuals. Please use the `@gitlab-com/gl-security/product-security/infrastructure-security` handle on GitLab.com instead.
+- You can also chat with us on Slack in the dedicated `#security-infrasec` channel or by tagging us `@infrasec-team`.
+- The team will triage (and prioritise accordingly) all incoming request on a daily basis.
+- If you have an urgent ask and can't wait for the regular triage please reach out in our Slack channel to let us know. 
 
 ## How We Work
 
