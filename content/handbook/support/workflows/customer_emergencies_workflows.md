@@ -112,20 +112,21 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 
 ## Quick Links
 
-### CEOC Handover
+### CEOC Handover Schedules
 
-- AMER Group 1	https://gitlab.pagerduty.com/schedules#PBLAHV7
-- AMER Group 2	https://gitlab.pagerduty.com/schedules#P9FKYZC
-- AMER Group 3	https://gitlab.pagerduty.com/schedules#PP28N7L
-- APAC Group 1 https://gitlab.pagerduty.com/schedules#PQB9Q6K
-- APAC Group 2 https://gitlab.pagerduty.com/schedules#PKPXM8K
-- EMEA Group 1	https://gitlab.pagerduty.com/schedules#P9SV029
-- EMEA Group 2	https://gitlab.pagerduty.com/schedules#P7ML12U
+- [AMER Group 1 Schedule](https://gitlab.pagerduty.com/schedules#PBLAHV7)
+- [AMER Group 2 Schedule](https://gitlab.pagerduty.com/schedules#P9FKYZC)
+- [AMER Group 3 Schedule](https://gitlab.pagerduty.com/schedules#PP28N7L)
+- [APAC Group 1 Schedule](https://gitlab.pagerduty.com/schedules#PQB9Q6K)
+- [APAC Group 2 Schedule](https://gitlab.pagerduty.com/schedules#PKPXM8K)
+- [EMEA Group 1 Schedule](https://gitlab.pagerduty.com/schedules#P9SV029)
+- [EMEA Group 2 Schedule](https://gitlab.pagerduty.com/schedules#P7ML12U)
 
-### Support Manager On-Call
-- Support Manager AMER https://gitlab.pagerduty.com/schedules/PTI56V1
-- Support Manager APAC https://gitlab.pagerduty.com/schedules/PWBXTYX
-- Support Manager EMEA https://gitlab.pagerduty.com/schedules/PXQ2ZAZ
+### Support Manager On-Call Schedules
+
+- [Support Manager AMER Schedule](https://gitlab.pagerduty.com/schedules/PTI56V1)
+- [Support Manager APAC Schedule](https://gitlab.pagerduty.com/schedules/PWBXTYX)
+- [Support Manager EMEA Schedule](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
 
 ## Handling Self-managed Emergencies
 
