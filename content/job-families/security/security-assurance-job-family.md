@@ -487,7 +487,65 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
+**Technical Leadership (40%)**
+
+- Scale common controls and processes across multiple compliance frameworks (SOC 2, ISO 27001, FedRAMP, GDPR, HIPAA, PCI-DSS)
+- Lead development of "Policy as Code" and "Compliance as Code" initiatives, transforming manual compliance processes into automated workflows and enabling engineer teams to be compliant-by-design
+- Design sophisticated compliance monitoring systems providing real-time visibility into security control effectiveness
+- Pioneer the use of AI in compliance automation, including automated evidence collection and control testing
+- Create dashboards/virusalizations for key risk and performance indicators by combining data sources from multiple enterprise systems
+
+**Strategic Influence (30%)**
+
+- Collaborate with department leadership as trusted advisor on security compliance strategy and technology roadmap
+- Drive complex cross-departmental initiatives that transform compliance operations
+- Provide strategic guidance adopted into organizational security compliance strategy
+- Identify emerging compliance requirements and proactively develop engineering solutions
+- Influence product and engineering teams to embed compliance into system design
+- Partner with key cross-functional stakeholders to align technical implementation with business compliance objectives
+
+**Mentorship & Evangelism (20%)**
+
+- Mentor staff, senior, and intermediate engineers in compliance engineering practices
+- Serve as internal and external ambassador for security compliance excellence
+- Contribute to industry standards and open-source compliance automation tools
+- Develop and deliver advanced training on compliance automation
+- Build relationships with auditors and certification bodies to streamline assessments
+- Author technical content and speak at conferences on compliance engineering topics
+
+**Innovation & Process Improvement (10%)**
+
+- Lead research into emerging compliance technologies and methodologies
+- Design metrics demonstrating business value of compliance automation
+- Drive 80%+ reduction in manual compliance effort through intelligent automation
+- Establish scalable patterns for multi-cloud compliance across hyperscalers (AWS and GCP)
+- Continuously improve audit processes, reducing preparation time and findings
+- Create competitive advantages through innovative compliance capabilities
+
 ###### Requirements
+
+**Must Have**
+
+- 10+ years security engineering experience, with 5+ years in security compliance/GRC
+- Expert knowledge of multiple compliance frameworks (SOC 2, ISO 27001, FedRAMP, GDPR, PCI-DSS, NIST)
+- Proven experience automating evidence collection and control testing across multiple systems
+- AI-assisted advanced programming skills (Python, Go, Ruby) for building compliance automation
+- Deep understanding of cloud security controls
+- Experience wworking with Infrastructure as Code and configuration technologies such as Terraform, CloudFormation, Chef, and Ansible
+- Track record of leading successful enterprise compliance automation initiatives
+- Experience achieving multiple compliance certifications and working with auditors
+- Outstanding communication skills for technical and executive audiences
+- Demonstrated ability to influence without authority across organizational boundaries
+
+**Nice to Have**
+
+- Professional certifications (CISSP, CISA, CRISC, cloud security certifications)
+- Published research or open-source contributions in compliance automation
+- Experience with container/Kubernetes security compliance
+- AI application experience in compliance and risk management
+- Hands-on experience with agentic AI technologies such as Model Context Protocol (MCP)
+- Background in regulated industries or high-growth technology companies
+- DevSecOps and secure development practices experience
 
 ##### Security Governance
 
