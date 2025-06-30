@@ -70,14 +70,13 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - 1:1's should always be rescheduled instead of cancelled unless unavoidable due to OOO/PTO schedules
 - Meetings will be declined if no agenda is added or shared 48 hour priors to the meeting time
 
-## Scheduling for Ashley Kramer, Interim Chief Revenue Officer, and Chief Marketing & Strategy Officer
+## Scheduling for Ian Steward, Chief Revenue Officer
 
-- To schedule Marketing/Strategy-related meetings, please coordinate with Kato Faylor, Staff EBA. (Please tag #cmso-cro-ebas in all requests)
-- To schedule CRO/Sales-related meetings, please coordinate with Alexa Schrauth, Staff EBA. (Please tag #cmso-cro-ebas in all requests)
-- Priority will be given to customer & E-Group meetings - even last minute.
-- Flexible for early/late calls to support EMEA & APAC, but please check with Staff EBAs first.
+- To schedule CRO/Sales-related meetings, please coordinate with Missy Keasler, Staff EBA. 
+- Priority will be given to customer & E-Group meetings.
+- Flexible for early/late calls to support EMEA & APAC, but please check with Missy Keasler first.
 - Prefers "appropriate length" conversations, so short meetings are okay on the calendar (e.g. if a topic only needs 10 mins, book 10 mins instead of 30, etc.).
-- For scheduling questions, please do not tag @Ashley, reach out/tag #cmso-cro-ebas.
+- For scheduling questions, please do not tag Ian, reach out/tag @mkeasler.
 - Include meeting agendas in invites and/or briefing docs (excluding coffee chats) at least 24 hours in advance.
 
 ## Scheduling for Sabrina Farmer, Chief Technology Officer
