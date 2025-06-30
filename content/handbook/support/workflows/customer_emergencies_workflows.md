@@ -110,6 +110,23 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 - If you had to leave something for later while on-call — do it now
 - Ramp up as quickly as you reasonably can to normal AQC
 
+## Quick Links
+
+### CEOC Handover
+
+- AMER Group 1	https://gitlab.pagerduty.com/schedules#PBLAHV7
+- AMER Group 2	https://gitlab.pagerduty.com/schedules#P9FKYZC
+- AMER Group 3	https://gitlab.pagerduty.com/schedules#PP28N7L
+- APAC Group 1 https://gitlab.pagerduty.com/schedules#PQB9Q6K
+- APAC Group 2 https://gitlab.pagerduty.com/schedules#PKPXM8K
+- EMEA Group 1	https://gitlab.pagerduty.com/schedules#P9SV029
+- EMEA Group 2	https://gitlab.pagerduty.com/schedules#P7ML12U
+
+### Support Manager On-Call
+- Support Manager AMER https://gitlab.pagerduty.com/schedules/PTI56V1
+- Support Manager APAC https://gitlab.pagerduty.com/schedules/PWBXTYX
+- Support Manager EMEA https://gitlab.pagerduty.com/schedules/PXQ2ZAZ
+
 ## Handling Self-managed Emergencies
 
 As the CEOC you will work with the customer along with other Support Engineers to coordinate the resolution of the emergency through the following stages:
