@@ -21,6 +21,16 @@ We could also think about having epics (or instead labels) to group maintenance 
 1. Due Date: required for all planned work
 1. Health Status: required for all ongoing work
 
+    Issues should transition to `Needs Attention` and `At Risk` based on our confidence at making the due date.
+
+    Issues move to `Needs Attention` when there's a lowered confidence of meeting the due date due to moderate delays or complications.
+    An example for this could be that work we expected to take 5 days is only 20% complete after 3 days.
+
+    Issues move to `At Risk` when confidence in making the due date is very low due to critical blockers or severe underestimation of complexity.
+    An example for this could be that an MR is blocked for an extended amount of time with necessary follow-up work being estimated to take more time than the due date allows.
+
+    In both cases we should add an explanation to the issue that explains the reasoning behind the `Health Status`.
+
 ### Labels
 
 #### Work Type
