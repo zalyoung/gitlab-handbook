@@ -350,15 +350,9 @@ When configuring projects that are not part of the secure stage, please see the 
 - [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
-### Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "SECTION_LABEL"="sec" >}}
-{{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "SECTION_LABEL"="sec" >}}
-{{< /tableau >}}
+// Tableau chart embeds removed as part of migration. See issue for details.
 
 ## Slack channels
 
