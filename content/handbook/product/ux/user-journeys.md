@@ -55,7 +55,7 @@ Journey map elevation levels connect and inform each other, with micro-level ins
   - Identify specific UI/UX improvements and metrics
 - Artifacts: TBD
 
-## Best Practices
+## Best practices
 
 The most effective and informative journey mapping goes beyond assumptions to create user experience maps grounded in real data. It balances research depth with practical needs to generate actionable insights.
 
