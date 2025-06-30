@@ -441,7 +441,9 @@ The Principal Security Assurance Engineer is a [grade 9](/handbook/total-rewards
 #### Principal Security Assurance Engineer Responsibilities
 
 - The responsibilities of a Staff Security Assurance Engineer, plus;
-- Proven ability to successfully develop and drive projects to completion at the team and department levels.
+
+- The responsibilities of a Principal Security Engineer defined at the [Security Division level](/job-families/security/security-engineer/#principal-security-engineer) 
+- Ownership of at least one team-level program and one or more cross-functional programs.
 
 #### Hiring Process
 
@@ -468,7 +470,6 @@ Additional details about our process can be found on our [hiring page](/handbook
 - Design and implement dashboards for the Security Assurance Automation metrics program, and identify gaps in existing data sets.
 - Represent the Security Assurance Automation team as a subject matter expert in at least two technical, product, or conceptual area.
 
-
 ###### Requirements
 
 - The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
@@ -486,11 +487,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-
-
 ###### Requirements
-
-
 
 ##### Security Governance
 
@@ -519,11 +516,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-
-
 ###### Requirements
-
-
 
 ##### Field Security
 
