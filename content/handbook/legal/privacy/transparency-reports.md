@@ -3,11 +3,11 @@ title: "Transparency Reports"
 description: "This page contains information and links to GitLab's transparency reports"
 ---
 {{% details summary="Law Enforcement Requests - This is our most recent Law Enforcement Report which details government requests received by GitLab"%}}
-# 2024 Law Enforcement Transparency Report
+## 2024 Law Enforcement Transparency Report
 
-This report covers legal requests received by GitLab over a period from January 2024 to December 2024 and provides insights into the types of requests received, their disposition, and GitLab's commitment to user privacy and transparency. GitLab reviews and responds to requests according to our published [Guidelines for Law Enforcement Requests](../handbook/legal/privacy/law-enforcement-guidelines/).
+This report covers legal requests received by GitLab over a period from January 2024 to December 2024 and provides insights into the types of requests received, their disposition, and GitLab's commitment to user privacy and transparency. GitLab reviews and responds to requests according to our published [Guidelines for Law Enforcement Requests](https://handbook.gitlab.com/handbook/legal/privacy/law-enforcement-guidelines/).
 
-## Request Volume and Type
+### Request Volume and Type
 
 GitLab received a total of 18 valid U.S. law enforcement requests during the reporting period. The requests were distributed across the categories of:
 
@@ -32,11 +32,12 @@ In this period GitLab did not receive any valid international requests for User 
 
 **Non-Content* data includes metadata (e.g., data/time and IP address associated with user activity), log-in event information, payment/billing history, and any user information captured at sign-up.
 
-## User Notice and Transparency
+### User Notice and Transparency
 
 GitLab strictly enforces our policy of notifying users of requests for their account or repository information unless prohibited by law or a court order. While most requests are accompanied with a time-limited Non-Disclosure Order, upon expiration of those orders GitLab notifies affected Users that a request for User Data was processed.
 
-## National Security Requests
+###
+ National Security Requests
 
 As of January 2025, GitLab has never received a National Security Letter or a request under the Foreign Intelligence Surveillance Act. GitLab has also not been served with legal process under the national security laws of any other country.
 
