@@ -112,7 +112,7 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 ### Creating a blog post using the Web IDE
 
 1. Visit the project repository at https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com
-1. Click the `Code` button dropdown, and select `Open with Web IDE`
+1. Click the `Edit` button dropdown, and select `Open with Web IDE`
 1. Once open, navigate to the folder you'd like your blog post in
     - For most, this will be in `content -> en-us -> blog`
     - Localized blog posts can be found in the content/{{language-code}} folder, such as `content -> fr-fr -> blog`
