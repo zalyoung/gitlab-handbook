@@ -254,7 +254,7 @@ Coverage will be provided for the following services:
 
 Coverage will includes treatment and/or procedures performed to enable conception with or without an infertility condition. Coverage for Artificial Insemination/Intrauterine insemination will be available regardless of an infertility condition (e.g. In Vitro, GIFT, ZIFT, etc.).
 
-See the [2024 HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing), and  [2024 PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing). 2025 Plan Summaries will be available soon.
+See the [2025 HDHP](https://drive.google.com/open?id=1ZJKfMEvC7Q5oQnu5dsL-V1KLVZuKW8id&usp=drive_copy),  [2025 PPO](https://drive.google.com/open?id=1dDfSZkEmlqUwVNz13FkNijqUwIDebr9g&usp=drive_copy), and [2025 EPO](https://drive.google.com/open?id=1oMNvCYRjIAGP9UBfIeBPN70WJ84sxTgP&usp=drive_copy).
 
 </details>
 
