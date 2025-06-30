@@ -46,14 +46,16 @@ The weighted gearing ratio for Security Compliance team size accounts for
 certification complexity:
 
 **Certification Complexity Weighting:**
-- High Complexity (2.0 FTE): FedRAMP, state-sponsored frameworks
-- Medium Complexity (1.0 FTE): ISO standards, ISMAP, IRAP, CMMC  
-- Standard Complexity (0.5 FTE): SOC 2, PCI SAQ, TISAX, Cyber Essentials
+
+- High Complexity (2.0 FTE): FedRAMP, DoD
+- Medium Complexity (1.0 FTE): ISO standards, PCI DSS, ISMAP, IRAP, CMMC  
+- Standard Complexity (0.5 FTE): SOC 2, TISAX, Cyber Essentials
 
 **Formula**: Required FTE = Σ(Active Certifications × Complexity Weight) + 
-Core Operations Staff
+1 Core Operations Staff
 
 This ratio should be re-evaluated when:
+
 - Adding certifications that introduce new geographic or regulatory domains
 - Certification requirements significantly change
 - Automation capabilities reduce manual effort by >30%
@@ -66,7 +68,8 @@ re-evaluated annually during budget planning.
 Annual audit budget is tiered based on certification complexity and requirements:
 
 **Budget Tiers:**
-- Tier 1 ($200-300K): FedRAMP, ISMAP
+
+- Tier 1 ($200-300K): FedRAMP, DoD, ISMAP
 - Tier 2 ($100-150K): ISO 27001, IRAP, CMMC
 - Tier 3 ($50-75K): SOC 2, PCI SAQ, TISAX, ISO, Cyber Essentials
 
