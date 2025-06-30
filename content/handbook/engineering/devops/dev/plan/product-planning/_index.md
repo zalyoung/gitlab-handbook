@@ -121,7 +121,7 @@ The deliverable is a spike report that answers the questions set out in the issu
 This report is typically documented directly in the spike issue, containing
 the investigation findings, answers to the questions, and links to any PoC MRs produced.
 
-For larger initiatives consider following the [recommendations about creating design documents](_index.md#design-documents).
+For larger initiatives consider following the [recommendations about creating design documents](../_index.md#design-documents).
 
 #### Collaborating to Improve Velocity
 
