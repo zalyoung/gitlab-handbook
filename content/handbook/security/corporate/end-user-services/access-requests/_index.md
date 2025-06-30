@@ -23,7 +23,7 @@ When creating a new AR, you'll be given the option to chose from various templat
 
 While there are a large number of templates available, they typically fall into one of the categories below.
 
-* A full list of all available templates cane be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates)*
+*A full list of all available templates cane be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates)*
 
 ### Individual or Bulk Access Request
 
@@ -44,7 +44,6 @@ Refer to [Okta Application Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-
 ### Application-Specific Templates
 
 These issues relate to access to or withing specific applications and services. For example, you can use the [1Password Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=1Password_Request) to modify existing vaults and groups, or to create new ones.
-
 
 ### Admin (Black) Accounts
 
@@ -105,5 +104,3 @@ If you need to initiate an Access Request process for a new item in the tech sta
 
 - Please @ mention `@gitlab-com/gl-security/corp/helpdesk` in the issue, with no particular SLA.
 - If your request is urgent, @ mention `it-help`in the #it_help channel in slack with a note on why it is urgent.
-
-
