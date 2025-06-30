@@ -85,6 +85,8 @@ The Regional Manager, SMB is a grade level 8.
 - Anticipate problems and propose solutions related to sales operational changes (ex. quota, comp, territory carving, leads).
 - Educate team on significant industry factors including competitive products, regulations, trends, customer needs, and pricing
 - Build an innovative team of top talent motivated around driving SMB customer advocacy and making them fall in love with GitLab
+- Provide ongoing coaching and mentorship to SMB Advocates, focusing on core competencies including discovery techniques, objection handling, product positioning, and consultative selling skills
+- Implement comprehensive talent development and performance management frameworks to support individual team members in achieving and exceeding performance metrics and developing their careers
 - Design and implement new ways of engaging with our SMB customers and ensuring their success, including role definitions, coverage and technology.
 - Build, experiment and optimize playbooks for SMB Advocates to adopt in their low-touch, high-value functional and technical engagement with customers throughout their journey (consideration, conversion, adoption, expansion and renewal)
 - Work cross-functionally to develop and operationalize strategies for new customer acquisition
