@@ -350,8 +350,6 @@ When configuring projects that are not part of the secure stage, please see the 
 - [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
-// Tableau chart embeds removed as part of migration. See issue for details.
-
 ## Slack channels
 
 - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Software Supply Chain Security and Secure stages.
