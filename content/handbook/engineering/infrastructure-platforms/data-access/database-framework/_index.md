@@ -28,8 +28,9 @@ The following members of other functional teams are our stable counterparts:
 
 | **Name**                                                 | **Role** |
 | -------------------------------------------------------- | -------- |
-| [Sampath Ranasinghe](/handbook/company/team#sranasinghe) | [Senior Product Manager, Geo and Database](/job-families/product/product-manager) |
-| [Ben Prescott](/handbook/company/team#ben-prescott) | [Staff Support Engineer](/job-families/engineering/support-engineer/) |
+| [Mark Wood](/handbook/company/team#mjwood) | [Group Product Manager, Data Access](/job-families/product/product-manager) |
+| [Mark Nagle](/handbook/company/team#mnagle2) | [Support Engineer](/job-families/engineering/support-engineer/) |
+| [Chris Nightengale](/handbook/company/team#cnightingale) | [Support Engineer](/job-families/engineering/support-engineer/) |
 
 ### Stable Counterparts to other teams
 
