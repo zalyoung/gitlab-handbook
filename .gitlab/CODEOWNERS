@@ -125,8 +125,8 @@
 /content/handbook/engineering/devops/dev/ @m_gill
 /content/handbook/engineering/devops/dev/create/ @dsatcher
 /content/handbook/engineering/devops/dev/create/remote-development/ @adebayo_a
-/content/handbook/engineering/devops/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
-/content/handbook/engineering/devops/dev/plan/knowledge.md @vshushlin
+/content/handbook/engineering/devops/dev/plan/ @donaldcook @m_gill @johnhope @acroitor @blabuschagne @vshushlin
+/content/handbook/engineering/devops/dev/plan/knowledge.md @acroitor
 /content/handbook/engineering/devops/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/devops/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/fulfillment/ @jeromezng @courtmeddaugh
