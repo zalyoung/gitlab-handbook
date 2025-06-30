@@ -243,3 +243,8 @@
   term: Trust and Safety
   info: |
     A [team](https://handbook.gitlab.com/job-families/security/trust-and-safety/) responsible for maintaining platform safety, preventing abuse, and ensuring compliance with policies and regulations. T&S teams work to protect users and maintain platform integrity.
+
+- acronym: BBM
+  term: Batched Background Migrations
+  info: |
+    See [Batched Background Migration docs page](https://docs.gitlab.com/development/database/batched_background_migrations/).
