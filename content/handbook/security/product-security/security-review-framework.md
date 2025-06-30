@@ -234,6 +234,8 @@ Priority of a Security review is determined by taking into account [roadmap prio
 
 ### SPA and Data Security team engagement criteria
 
+#### For Secure Design and Development Review
+
 The feature is flagged for a Architecture review and/or Data Security review if there is a major Architecture Impact or Data Processing Impact identified during the Risk score calculation.
 
 ```text
@@ -242,7 +244,15 @@ IF Architecture Impact >= 4
 IF Data Processing Impact >= 4 then 
     THEN Flag the feature for Data Security review by Data Security team.
 ```
+#### For InfraSec Review
 
+```text
+IF Infrastructure Scope >= 4 
+   THEN Flag the feature for SPA review
+IF Environment Criticality>=4
+   THEN Flag the feature for Data Security review  
+
+When feature are flagged for SPA or Data Security review it will be indicated by a label that is added to the review request.
 ## 3: Review Process by Team and Risk Level
 
 ### Secure Design and Development Review Process
