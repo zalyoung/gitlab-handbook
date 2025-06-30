@@ -94,18 +94,15 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 | [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans) | DevSecOps | 2024-01-24 | @iganbaruch |
 | [Code Suggestions](https://gitlab.navattic.com/code-suggestions) | GitLab Duo | 2024-01-24 | @iganbaruch |
 
-
 ##### Short product tours
 
 This section lists shorter versions of product tours with fewer steps, useful for demo booths at events and when you need to show a quick demonstration.
-
 
 | Title | Area | Last updated | DRI | # of steps |
 |-------|------|--------------|-----|------------|
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast-short) |  DevSecOps Platform | 2024-09-22 | @iganbaruch |
 | [Compliance Frameworks](https://gitlab.navattic.com/compliance-short) |  DevSecOps Platform | 2025-01-27 | @iganbaruch |
 | [Vulnerability Explanation/Resolution](https://gitlab.navattic.com/ve-vr-short) | GitLab Duo | 2024-02-24 | @iganbaruch |
-
 
 #### Internal Product tours
 
