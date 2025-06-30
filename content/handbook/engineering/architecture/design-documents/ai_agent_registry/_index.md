@@ -50,21 +50,20 @@ This allows agents to perform complex, multi-step tasks such as researching topi
 ### Multi-agent setup
 
 Multi-agent systems are setups that consist of several specialized agents orchestrated in some way.
-In practice, one of the common orchestration methods is implementing a lead agent that manages other subagents.
-However, other orchestration methods are possible as well, such as polling, peer-to-peer, etc.
 The market has demonstrated that multi-agent setups are exceptionally effective at solving complex user tasks that would be challenging for a single agent to handle alone.
 For example, Anthropic recently demonstrated that a multi-agent research system with Claude Opus 4 as the lead agent and Claude Sonnet 4 subagents
 outperforms single-agent Claude Opus 4 by [90.2%](https://www.anthropic.com/engineering/built-multi-agent-research-system).
+There are many architectures of multi-agent systems available ranging from sequencial chaing, through polling, peer-to-peer, up to a lead agent that manages other subagents.
+This ADR aims to be multi-agent achitecture agnostic, supporting wide variety of options, wihout prescribing any particular one.
 
-### Agents vs Workflows vs Duo Workflow: what is the difference?
+### Agents vs Flow vs Duo Agent Platform: what is the difference?
 
-In our codebase, we often rely on the terms Workflow and Duo Workflow to represent agentic behavior.
-One of the issues is that the term workflow brings unnecessary complexity, potentially misleading Product and Engineering across GitLab.
-Overall, a workflow is a series of steps connected through predefined code paths designed to achieve a specific task or goal.
-Agents, on the other hand, are systems where LLMs dynamically direct their own processes and tool usage, maintaining control over how they accomplish tasks.
-As we continue working on improving the Agents AI stack at GitLab, we're step by step moving away from workflow-related terms towards more specific terms.
-For example, Duo Workflow engine becomes Duo Agent Platform and is a system for running various agents and their orchestration.
-Here is another MR focused on improving our terminology in the official [docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/193744/diffs).
+An Agent, is a systems where LLMs dynamically direct it's own processes and tool usage, maintaining control over how it accomplishes tasks.
+A Flow (previously known as Workflow) orchestrates one or more agents, as well as predefined actions (like commit creation, or an API call) into a
+sequence of steps connected through predefined code paths designed to achieve a specific task or goal.
+Duo Agent Platform is an engine that runs Flows.
+
+For more details on terminology please refer to GitLab Duo Agent Platform terminology [documentation](https://docs.gitlab.com/development/ai_features/glossary/#gitlab-duo-agent-platform-terminology).
 
 >Note: Due to the ongoing development and legacy code, the Workflow term is still actively used and means a single or multi-agent setup for solving complex user tasks.
 
@@ -141,8 +140,12 @@ Each of those personas is an expert in their field, which ensures quality of the
 ##### Implementation
 
 On a more technical level, the component is a collection of LangGraph nodes arranged in a certain architecture, which is designed to solve a category of problems.
-There might be components designed to act as cyclic agents, one-off agents, or predefined non-AI steps in the process.
-Example diagrams for the mentioned components are presented below:
+There might be components designed to act as cyclic agents, one-off agents, HiTL (Human-in-the-loop) component, or predefined non-AI steps in the process.
+Example diagrams for the mentioned components are presented in a [section](#proposed-components) below.
+
+##### Proposed components
+
+Non exhausitive list of generic components outlinging a starting point for the proposed famework.
 
 1. Cyclic agent
 
@@ -175,6 +178,21 @@ flowchart LR
     end
 ```
 
+1. HiLT
+
+```mermaid
+flowchart LR
+    input(( )) --> Prompt
+    Prompt --> Process
+    Process --> output(( ))
+
+    subgraph HiLT Component
+        Prompt[Ask Human<br> for input]
+        Process[Process<br> Human response]
+    end
+```
+
+
 1. Deterministic step
 
 ```mermaid
@@ -199,9 +217,9 @@ Components should specify a set of attributes within a global graph [state](#3-s
 that they will modify or add during the course of their execution. This is necessary to ensure that
 subsequent components within a graph will have their inputs present.
 
-##### Generic components
+##### Components customisation
 
-Some components may serve as customizable blueprints flexible enough
+Some [components](#proposed-components) may serve as customizable blueprints flexible enough
 to be reused in different roles. To specify a generic component into a
 distinct role, one assigns them a [prompt](#4-prompts), and then defines the component permissions with an
 assigned set of [tools](#5-tools), that restrict actions available to an individual in the role in the modeled process.
@@ -244,6 +262,20 @@ flowchart LR
         EditFile[Edit file]
         ReadFile[Read file]
     end
+```
+
+An example implementation of customised component
+
+```python
+agent_component = AgentComponent(
+            name="agent",
+            prompt_id="agents/awesome",
+            prompt_version="^1.0.0",
+            toolset=agents_toolset,
+            inputs=["first.task"],
+            output_type=AgentFinalOutput,
+            output="answer"
+        )
 ```
 
 #### 2\. Routers
