@@ -81,7 +81,7 @@ Whatever way you choose to submit your blog, please ensure that @sgittlen is tag
 
 The MR will include the following frontmatter. Please see the comments after each section
 
-```
+```text
 seo:
   title: the blog post title
   description: the blog post description
@@ -110,7 +110,6 @@ content:
   body: |
     add the blog post body text in markdown
 ```
-
 
 ## The blog edit process
 
