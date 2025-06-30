@@ -82,7 +82,7 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 **Assemble your team**
 
 - Include representatives from Product, Design, Engineering, and Customer Support
-- Identify your stakeholders and the roles you’ll ask them to play during the mapping process
+- Identify your stakeholders and the roles you’ll ask them to play during the mapping process. These roles may include helping to define scope, key journey touchpoints or research questions, providing existing data, or even participating in research and data collection, or in a workshop.
 
 #### Phase 2: Data collection
 
