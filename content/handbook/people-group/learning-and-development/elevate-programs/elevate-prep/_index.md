@@ -81,7 +81,7 @@ Program scheduling is based on organizational needs and demand. Details about up
 
 ### How do I express interest in participating?
 
-Speak with your manager about your interest in the program. They can nominate you for participation in an upcoming cohort.
+ElevatePrep is an Open Enrollment program, meaning anyone can sign up for future cohorts, however your participation requires Manager support. We recommend speaking with your manager about your interest in the program. Once you receive their support, you can then register via the registration form. 
 
 ### What if I miss a session?
 
