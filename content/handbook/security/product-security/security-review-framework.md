@@ -244,6 +244,7 @@ IF Architecture Impact >= 4
 IF Data Processing Impact >= 4 then 
     THEN Flag the feature for Data Security review by Data Security team.
 ```
+
 #### For InfraSec Review
 
 ```text
@@ -361,7 +362,6 @@ These are initial estimates and are subjected to change as we adopt the framewor
 ### Infrastructure Security Review Process
 
 Note: _The list of reviews mentioned in this section are examples and not comprehensive nor do they always apply._ 
-
 
 * InfraSec Reviews DRI: InfraSec Team
 * Data Security Review DRI: Data Security team. _This review is will be conducted on a best effort basis since the team has resource constraints._
