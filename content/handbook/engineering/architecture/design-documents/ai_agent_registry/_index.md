@@ -68,7 +68,7 @@ Here is another MR focused on improving our terminology in the official [docs](h
 
 >Note: Due to the ongoing development and legacy code, the Workflow term is still actively used and means a single or multi-agent setup for solving complex user tasks.
 
-### Putting It All Together
+### Putting it all together
 
 Given the concepts we define above, the overall picture of how LLMs, prompts, and agents work together looks as follows:
 
