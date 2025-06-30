@@ -15,7 +15,7 @@
 | 2025-10-29 | Chris Micek          | Nick Leonard           | Divya Alagarsamy       | Torian Parker          |
 | 2025-11-12 | Justin Mandell       | Camellia Yang          | Libor Vanc             | Jason Hung             |
 | 2025-11-26 | Gina Doyle           | Alyssa Trinh           | Sascha Eggenberger     | Andrew Cummins         |
-| 2025-12-10 | Jacki Bauer          | Michael Fangman        | Andrew Bacon           |                        |
+| 2025-12-10 | Jacki Bauer          | Michael Fangman        | Andrew Bacon           | Katie Macoy            |
 | 2025-12-24 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |
 | 2026-01-07 | Taurie Davis         | Dan Mizzi-Harris       | Tim Noah               | Sam Reiss              |
 | 2026-01-21 | Paul Wright          | Ilonah Pelaez          | Lina Fowler            |                        |
