@@ -70,7 +70,7 @@ The most effective and informative journey mapping goes beyond assumptions to cr
 - Identify [Jobs to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) contained within this user journey. Defining JTBD before user journey mapping ensures you're mapping the right journey by first understanding what users are fundamentally trying to accomplish, rather than just documenting their current process. Without this foundational understanding of the user's core job, you risk creating detailed maps of inefficient or irrelevant workflows instead of designing experiences that truly serve user needs.
   - A list of existing JTBD exists [here](/handbook/product/ux/jobs-to-be-done/validated-canvases-and-opportunity-scores/).
   - If the JTBD have not yet been validated, follow the [process to define JTBD](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/). Align with stakeholders on success criteria
-- Determine which customer segments to focus on. These could include:
+- Determine which customer segments to focus on. These could include, but are not limited to:
   - **Relationship stage:** Net new customers vs. users joining established groups
   - **Monetization status:** Paid vs. free users
   - **Industry context:** Industry/vertical-specific workflows and needs
