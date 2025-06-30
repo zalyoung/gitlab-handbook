@@ -38,7 +38,7 @@ different uses of the word `pod` in the GitLab context.
 | [GET](get) | [#spt_pod_get](https://app.slack.com/client/T02592416/C05NL747NMD) | <ul><li>{{< member-by-name "Lewis Brown" >}}</li></ul> |
 | [Git and Gitaly](git-and-gitaly) | [#spt_pod_git](https://gitlab.enterprise.slack.com/archives/C04D5FUADAM) | <ul><li>{{< member-by-name "Jessie Lee" >}}</li></ul> |
 | [GitLab Dedicated](gitlab-dedicated) | [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) | <ul><li>{{< member-by-name "Brie Carranza" >}}</li><li>{{< member-by-name "Armin Hergenhan" >}}</li><li>{{< member-by-name "Wade Jenkins" >}}</li><li>{{< member-by-name "Daphne Kua" >}}</li><li>{{< member-by-name "Wei-Meng Lee" >}}</li></ul> |
-| [Import and Integrate](import-and-integrate) | [#spt_pod_import_and_integrate](https://gitlab.enterprise.slack.com/archives/C052K0Z1F8T) | <ul><li>{{< member-by-name "Anton Smith" >}}</li></ul> |
+| [Import](import) | [#spt_pod_import](https://gitlab.enterprise.slack.com/archives/C052K0Z1F8T) | <ul><li>{{< member-by-name "Anton Smith" >}}</li></ul> |
 | [Integrations](integrations) | [#spt_pod_integrations](https://gitlab.enterprise.slack.com/archives/C08VB43K9N0) | <ul><li>{{< member-by-name "Anton Smith" >}}</li></ul> |
 | [Kubernetes](kubernetes) | [#spt_pod_kubernetes](https://gitlab.enterprise.slack.com/archives/C03U2N3180K/) | <ul><li>{{< member-by-name "Lewis Brown" >}}</li></ul>|
 | [Licensing and Renewals](licensing-and-renewals) | [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) | <ul><li>{{< member-by-name "Bethany Mcgrew" >}}</li></ul> |

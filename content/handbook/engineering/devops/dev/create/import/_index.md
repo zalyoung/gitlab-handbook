@@ -27,22 +27,22 @@ query is being directed to the correct group.
 
 The following people are permanent members of the group:
 
-{{< engineering/stable-counterparts role="Foundations:Import and Integrate" >}}
+{{< engineering/stable-counterparts role="Foundations:Import" >}}
 
 ## Metrics
 
 Our Engineering Metrics Dashboards can be found [here](/handbook/product/groups/product-analysis/engineering/dashboards/#dashboards).
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
+  {{< tableau/filters "GROUP_LABEL"="import" >}}
 {{< /tableau >}}
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="import and integrate" >}}
+  {{< tableau/filters "GROUP_NAME"="import" >}}
 {{< /tableau >}}
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
+  {{< tableau/filters "GROUP_LABEL"="import" >}}
 {{< /tableau >}}
 
 ## Work

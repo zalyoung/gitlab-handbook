@@ -166,7 +166,7 @@ The north star of this working group is increasing the number of self-managed Gi
 | Functional Lead - Test Platform | [Kassandra Svoboda](https://gitlab.com/ksvoboda) | Engineering Manager, Test Platform |
 | Functional Lead - Support | [Brie Carranza](https://gitlab.com/bcarranza) | Staff Support Engineer |
 | Functional Lead - Expansion Software Development | [Thomas Woodham](https://gitlab.com/twoodham) | Senior Engineering Manager, Secure |
-| Functional Lead - Core Development | [Luke Duncalfe](https://gitlab.com/.luke) | Staff Backend Engineer, Manage:Import and Integrate |
+| Functional Lead - Core Development | [Luke Duncalfe](https://gitlab.com/.luke) | Staff Backend Engineer, AI-Powered:Workflow Catalog |
 | Functional Lead - Core Development | [Erran Carey](https://gitlab.com/erran) | Staff Fullstack Engineer, Create::Editor Extensions |
 | Member | [Gerardo Lopez-Fernandez](https://gitlab.com/glopezfernandez) | Engineering Fellow, Infrastructure |
 | Member | [Vincy Wilson](https://gitlab.com/vincywilson) | Director, Test Platform |
