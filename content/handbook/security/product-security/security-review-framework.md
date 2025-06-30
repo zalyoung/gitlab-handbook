@@ -251,8 +251,10 @@ IF Infrastructure Scope >= 4
    THEN Flag the feature for SPA review
 IF Environment Criticality>=4
    THEN Flag the feature for Data Security review  
+```
 
 When feature are flagged for SPA or Data Security review it will be indicated by a label that is added to the review request.
+
 ## 3: Review Process by Team and Risk Level
 
 ### Secure Design and Development Review Process
