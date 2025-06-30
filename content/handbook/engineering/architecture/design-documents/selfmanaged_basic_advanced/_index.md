@@ -166,9 +166,9 @@ Segment the Self-Managed option into two distinct tiers:
 | :- | :---------------------- | :-------------------------- |
 | Technology Base | Operating system packages | Containerized cloud native deployment architecture. |
 | Target Customer | CE/EE Free; Premium and Ultimate with limited feature set | Free with technical skills for cloud native; Premium and Ultimate. |
-| Target Environment | Traditional infrastructure (bare metal, VMs) | Containerized infrastructure with Kubernetes, IaaS cloud (such as GCP, AWS) or on-prem. Driven by Helm or Operator. |
+| Target Environment | Traditional infrastructure (bare metal, VMs) | Containerized infrastructure with Kubernetes, IaaS cloud (such as GCP, AWS) or on-prem. Driven by Helm and possibly Operator in future. |
 | Value Proposition | Core product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling. |
-| Feature Guarantee | New Ultimate features not guaranteed, due to technical constraints. | All new Ultimate functionality guaranteed. |
+| Feature Guarantee | No new Ultimate features. | All new Ultimate functionality guaranteed. |
 
 ## Design and implementation details
 
