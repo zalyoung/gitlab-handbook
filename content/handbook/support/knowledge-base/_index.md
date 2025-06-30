@@ -40,15 +40,21 @@ The Knowledge Base and our product documentation are both key elements of GitLab
 
 Docs answer: "How does this work?"
 
-- Teaches about product features and how to use them.
+- Offers comprehensive information about Product features, architecture and Usage.
 - Provides an overview of the current version of our products.
+- Often more technical and detailed 
+- Updated less frequently (New Feature releases)
+- Primarily created for engineers, advanced users, Product detials
 
 ### Knowledge Articles
 
 Knowledge Articles answer: "How do I fix this?"
 
 - Solves problems encountered while using our products.
-- Includes solutions to problems in past versions of our products.
+- provides solutions to common issues and questions
+- typically task oriented and includes videos, screenshots
+- Updated frequently based on new issues, new workarounds, new troubleshooting and feedback
+- Primarily created for customer self-service
 
 ## Why you should create a knowledge article
 
