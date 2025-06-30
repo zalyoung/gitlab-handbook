@@ -77,7 +77,7 @@ The most effective and informative journey mapping goes beyond assumptions to cr
   - **Organization size:** Company size considerations (SMB vs. mid-market vs. enterprise)
   - **User role:** Role-based experiences (GitLab administrators vs. end users)
   - **User type**: Power users vs. basic users (survey data showed these groups have opposing responses to the same features)
-- Set boundaries for the journey (time span, touchpoints), and based on this and your research questions, determine which [journey map elevation]([Journey Map Elevations](#journey-map-elevations)) is appropriate for your effort.
+- Set boundaries for the journey (time span, touchpoints), and based on this and your research questions, determine which [journey map elevation](#journey-map-elevations) is appropriate for your effort.
 
 **Assemble your team**
 
