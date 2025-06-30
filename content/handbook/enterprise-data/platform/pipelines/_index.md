@@ -83,12 +83,14 @@ Evaluating and Solutioning Pipeline Sources
 Things we consider when implementing a pipeline for data extraction (but are not limited to) are:
 
 <!-- Maybe this should be a table with discriptions and links, I am not sure we need a heading/section for each though -->
-- Data Sensitivity
-- Schema Complexity
-- Data Volume
-- Business Criticality
-- Latency Requirements
-- Access Options (database, API, filestore, etc.)
+| Considerations | Descriptions | Context/links |
+| -------------- | ------------ | ------------- |
+| Data Classification | Customer Data (Red data) could only processed via listed and approved [third party sub processors]( https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors).   |
+| Schema Complexity |    |
+| Data Volume |    |
+| Business Criticality |    |
+| Latency Requirements | ETL vendors are often limited in the scheduling of the refreshes | https://gitlab.com/gitlab-data/analytics/-/issues/21649#note_2262432625 | 
+| Access Options (database, API, filestore, etc.) |    |
 
 Some of these necessitate certain solutions. For example, data in a filestore like GCS will always be solutioned with custom pipelines as it's the easiest _and_ lowest cost solution. But in many cases there isn't a consistent path. For example, we sometimes have many options available for access. 
 
