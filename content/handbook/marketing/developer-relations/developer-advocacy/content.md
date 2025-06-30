@@ -78,7 +78,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 |-------|------|--------------|-----|
 | [GitLab Premium and Ultimate with Duo](https://gitlab.navattic.com/gitlab-premium-with-duo) |  GitLab Duo | 2025-05-18 | @iganbaruch |
 | [GitLab Duo with Amazon Q](https://gitlab.navattic.com/duo-with-q) |  GitLab Duo | 2025-04-23 | @iganbaruch |
-| [GitLab Duo Workflow](https://gitlab.navattic.com/duo-workflow) |  GitLab Duo | 2025-03-18 | @iganbaruch |
+| [GitLab Duo Agent Platform](https://gitlab.navattic.com/duo-workflow) |  GitLab Duo | 2025-03-18 | @iganbaruch |
 | [GitLab Duo Self-Hosted](https://gitlab.navattic.com/gitlab-duo-self-hosted) |  GitLab Duo | 2025-02-13 | @iganbaruch |
 | [Compliance Frameworks](https://gitlab.navattic.com/compliance) | DevSecOps Platform | 2025-01-27 | @iganbaruch |
 | [Compliance Frameworks - Japanese](https://gitlab.navattic.com/compliance-ja) | DevSecOps Platform | 2025-05-27 | @iganbaruch |
@@ -93,6 +93,15 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 | [CI/CD Catalog](https://gitlab.navattic.com/cicd-catalog) | CI/CD | 2024-01-24 | @iganbaruch |
 | [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans) | DevSecOps | 2024-01-24 | @iganbaruch |
 | [Code Suggestions](https://gitlab.navattic.com/code-suggestions) | GitLab Duo | 2024-01-24 | @iganbaruch |
+
+
+##### Short product tours
+
+This section lists shorter versions of product tours with fewer steps, useful for demo booths at events and when you need to show a quick demonstration.
+
+- [Advanced SAST](https://gitlab.navattic.com/advanced-sast-short)
+- [Compliance Frameworks](https://gitlab.navattic.com/compliance-short)
+- [Vulnerability Explanation/Resolution](https://gitlab.navattic.com/ve-vr-short)
 
 #### Internal Product tours
 
