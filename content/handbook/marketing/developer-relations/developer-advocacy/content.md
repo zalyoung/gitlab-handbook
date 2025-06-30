@@ -94,7 +94,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 | [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans) | DevSecOps | 2024-01-24 | @iganbaruch |
 | [Code Suggestions](https://gitlab.navattic.com/code-suggestions) | GitLab Duo | 2024-01-24 | @iganbaruch |
 
-##### Short product tours
+#### Short product tours
 
 This section lists shorter versions of product tours with fewer steps, useful for demo booths at events and when you need to show a quick demonstration.
 
