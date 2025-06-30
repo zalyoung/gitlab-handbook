@@ -24,7 +24,7 @@ Technical Reviewers can find content needing review by going to the [Manage Arti
 
 Only [listed Knowledge Champions](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0) (Technical Reviewers) will have permissions to **Publish** a knowledge article.
 
-### Workflow
+## Workflow
 The knowledge article should be in **Awaiting Review** (or In Progress) 
 Check the article for Technical Accuracy. 
 If Approved, use the arrow next to the **Save** Button and choose **Publish**
