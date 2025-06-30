@@ -41,9 +41,9 @@ requests with the updates found. They however suffer from some limitations:
 - Users are required to manage the required access tokens which adds
   configuration overhead
 - They often run abitrary code which requires additional security controls [^2] [^3]
-- The dependency updates proposed by the tools lack critical context like if the
-  updates resolve a vulnerability, and if it resolves a vulnerability what the
-  severity is.
+- The dependency updates proposed by the tools lack critical context,
+  such as whether they address a vulnerability—and if so,
+  what the severity of that vulnerability is.
 
 ### Goals
 
@@ -93,7 +93,7 @@ evaluating this library as an option.
 - Only allows indirect dependency updates for projects that have a lock file
 
 Despite some drawbacks, [dependabot-core] provides substantial benefits, and
-allows us to delivery a solution that works for a wide percentage of our users.
+allows us to deliver a solution that works for a wide percentage of our users.
 Therefore, we'll be using [dependabot-core] in our automated dependency updates
 feature.
 
