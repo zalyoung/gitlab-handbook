@@ -350,8 +350,6 @@ When configuring projects that are not part of the secure stage, please see the 
 - [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
-
-
 // Tableau chart embeds removed as part of migration. See issue for details.
 
 ## Slack channels
@@ -398,7 +396,7 @@ The members of each google group consists of stable counterparts and the correct
 
 ## Staying Informed and Informing Team Members
 
-- [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/#communication).
+- [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/).
 - Slack channels #s_secure and #s_software-supply-chain-security are informative since they are all part of Sec Section.
 
 ## Planning in the Section
