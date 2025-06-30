@@ -146,7 +146,7 @@ This is not exclusive to Moderators, but you can use the Staff Category to draft
 
 ##### Deleting topics and posts
 
-We do not delete topics and posts in the forum, mainly due to the fact that this action can destroy trust. There are always exceptions to this rule - a good example is when spam posts sneak in. If you feel something needs to be deleted, you can always reach out to [admins](https://forum.gitlab.com/about) in private or in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel and we can talk it through!
+We do not delete topics and posts in the forum, mainly due to the fact that this action can destroy trust. There are always exceptions to this rule - a good example is when spam posts sneak in. If you feel something needs to be deleted, you can always reach out to [admins](#administration) in private or in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel and we can talk it through!
 
 **Instructions**
 
@@ -175,7 +175,7 @@ Generally, we do not edit other peoples' posts. If we see something that can be 
 That being said, there are instances when moderators can edit posts directly. Here are some examples and how to do it:
 
 - Violation of GitLab's [Code of Business Conduct & Ethics](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/) and [Events Code of Conduct](/handbook/company/culture/ecoc/) (Ex. redacting swear words, if they are unable or unwilling to edit it themselves)
-- Redact private information (Ex. license keys, account info, email addresses, etc.)
+- Redact private information (Ex. license keys, account info, email addresses, etc.) reported in [GDPR requests](#gdpr-requests)
 - Editing can be achieved via the grey pencil icon in the post toolbar (... > pencil)
 
 **How and when to mark a solution in a thread.**
@@ -502,6 +502,26 @@ If the team member wants to keep their account as a wider community member, foll
 #### Offboarding automation help
 
 Follow the README in the [internal `team-member-offboarding-discourse` project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/team-member-offboarding-discourse).
+
+### GDPR requests
+
+Users with personal data requests must follow the [GDPR workflow in the legal handbook](/handbook/legal/privacy/gdpr/). This workflow is also linked in the [forum FAQ](https://forum.gitlab.com/faq#resources).
+
+Team members who handle the personal data request can reach out to [forum admins](#administration) for data or account deletion requests. Forum admins can then take action.
+
+Forum users with more than one post cannot delete their account themselves. Trust level 0 and 1 users cannot edit their posts after a grade period. Forum admins must anonymize, redact, and delete posts manually in these cases. These settings are to preserve the forum and discussion integrity, and [fighting spam on Discourse](#fighting-spam-on-discourse).
+
+Discourse provides different paths to handle GDPR requests.
+
+User account deletion:
+
+1. Option 1, default: Since profile posts might include personal data as well, admins can decide delete all posts, and then delete the user account too.
+1. Option 2, for many posts and topics: Anonymize the account in the admin user profile view. This resets the user profile, removing personal data (email, name, etc.). Redact all personal information in the posts and keep the topic history intact.
+
+Topic deletion or edits:
+
+1. Navigate into the topic from the requestor, and use the edit button to modify the post.
+1. Alternatively, delete the entire topic.
 
 ## Projects
 
