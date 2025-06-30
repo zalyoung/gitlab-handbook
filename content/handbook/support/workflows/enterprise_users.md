@@ -7,7 +7,7 @@ description: "Working on tickets with Enterprise Users"
 
 ## Overview
 
-Enterprise Users are GitLab.com users whose accounts are administered by an organization that has verified their email domain and purchased a GitLab subscription. These users are identified by an "Enterprise" badge next to their names on group member lists.
+Enterprise Users are GitLab.com users whose accounts are administered by an organization that has verified their email domain and purchased a GitLab subscription. To identify an Enterprise user, see the [Identifying Enterprise Users](#identifying-enterprise-users) section below.
 
 **Key characteristic**: Enterprise User accounts are owned by the organization, not the individual user. This fundamentally changes how Support should handle account-related requests.
 
@@ -55,6 +55,10 @@ The following account workflows are **restricted** for Enterprise Users and shou
 ### Exception: Email Address Changes
 
 **Email address changes are the primary exception** - only GitLab Support can change an Enterprise User's email address to a non-verified domain, which releases them from enterprise management.
+
+### Exception: Account deletion Requests
+
+Until feature request [#520825](https://gitlab.com/gitlab-org/gitlab/-/issues/520825) is implemented, customers may contact GitLab Support to action on account deletions for their enterprise users.
 
 ## Common Scenarios and Workflows
 
