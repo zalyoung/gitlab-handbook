@@ -227,7 +227,7 @@
 - acronym: SSC
   term: Support Stable Counterpart
   info: |
-    [Support engineers](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/ddd4663f3bfd76db3f9c52edc1c9f3c778a7676a/content/handbook/support/support-stable-counterparts.md) who work closely with development teams to provide expertise and feedback.
+    [Support engineers](https://handbook.gitlab.com/handbook/support/support-stable-counterparts/) who work closely with development teams to provide expertise and feedback.
 
 - acronym: HA
   term: High Availability
