@@ -73,6 +73,8 @@ The volume of records is also a primary consideration for using Vendors at the m
 
 Some data sources are just too senstive to allow for a third party to have access. Keeping the pipeline without our data platform is likely required for such cases.
 
+For Platform efficiency, we do not want vendors in this area with overlapping functionalities. This means we want a maximum of 1 vendor. While vendors often provide different sets of available connectors, the availability of connectors in a different vendor's product is not sufficient justification to add that vendor. A business case to add a new vendor to the Data Platform must include replacing the current existing vendor.
+Currently, the Data Platform has multiple vendors (Fivetran, Stitch, and Meltano). This means we will consolidate to 1 vendor (to be determined).
 ### Criteria for Custom Pipelines
 
 Custom data pipelines should be considered our best option in the sense that these pipelines offer the most opportunity for flexibility, privacy, security, and maintainability. Though, as noted, such a solution isn't always warrented. 
