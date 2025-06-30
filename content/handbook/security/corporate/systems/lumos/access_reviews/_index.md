@@ -52,5 +52,5 @@ Reach out to the #user_access_reviews channel on Slack
 
 - [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/)
 - [Identification & Authentication Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Access Requests handbook page](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Requests handbook page](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)

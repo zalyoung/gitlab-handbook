@@ -419,7 +419,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 
 ### Requesting access to an existing tool
 
-Most of our tools have been migrated to Lumos for provisioning, so follow that procedure first. If you cannot find the tool in Lumos, [please follow the access request process](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook. 
+Most of our tools have been migrated to Lumos for provisioning, so follow that procedure first. If you cannot find the tool in Lumos, [please follow the access request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/) as outlined in the business operations handbook. 
 
 If you are working with a contractor or consultant that requires access to a tool in our stack, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 

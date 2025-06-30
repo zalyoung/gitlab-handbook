@@ -178,7 +178,7 @@ As point 23 on our [Communication Handbook page](/handbook/communication/#writin
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
 | AMA | [Ask Me Anything](/handbook/communication/ask-me-anything/) |
-| AR | [Access Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) |
+| AR | [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) |
 | DRI | Directly Responsible Individual |
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator |

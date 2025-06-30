@@ -11,7 +11,7 @@ If you have any access requests related questions, please reach out to #it_help 
 
 ## Access requests related pages
 
-- [Frequently asked questions](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/)
+- [Frequently asked questions](content/handbook/security/corporate/end-user-services/access-requests/#application-specific-templates)
 - [Baseline Entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/)
 - [Temporary service providers access requests and onboarding](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/temporary-service-providers/)
 

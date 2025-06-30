@@ -11,4 +11,4 @@ description: "Rev is an speech-to-text company that provides closed captioning, 
 
 ## Access
 
-If you require access to Rev, please open an access request issue and follow the instructions outlined [here](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request).
+If you require access to Rev, please open an access request issue and follow the instructions outlined [here](/handbook/security/corporate/end-user-services/access-requests/#individual-or-bulk-access-request).

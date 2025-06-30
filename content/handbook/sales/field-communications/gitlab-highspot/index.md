@@ -53,7 +53,7 @@ There are two primary Slack channels to communicate with platform DRIs and other
 The Highspot team manages several issue templates within the Enablement Project for common requests:
 
 1. **Looking to add content or a new page to Highspot?** Share and align the scope of your project in [this issue request](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-highspot-content-request#) to get started.
-1. **Looking for access to Highspot?** Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not see Highspot on your dashboard, follow the typical [Access Request process](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to submit your request. Tech stack provisioners to review and approve your request can be found [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+1. **Looking for access to Highspot?** Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not see Highspot on your dashboard, follow the typical [Access Request process](/handbook/security/corporate/end-user-services/access-requests/#individual-or-bulk-access-request) to submit your request. Tech stack provisioners to review and approve your request can be found [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
    1. The following teams' access is provisioned automatically: Sales; Customer Success; Renewals; Professional Services; Global Ecosystem; Revenue Strategy, Operations & Enablement (RSOE); Sales Development; Strategy Marketing (Product Marketing, Customer Reference, Analyst Relations, Competitive Intelligence); Field Marketing; Developer Relations; Corporate Communications. 
    1. Additional insights on [User Governance here](https://gitlab.highspot.com/items/6760e6632323c3df9cbdc5b6?lfrm=shp-ft.0#7).
 
@@ -137,7 +137,7 @@ At this time, the entire GitLab GTM organization, which includes the global Fiel
 
 **How do I get access to Highspot?**
 
-All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the Highspot Access section above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
+All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the Highspot Access section above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/#how-do-i-choose-which-template-to-use).
 
 **Who can upload content to Highspot? If I have a recommendation for a piece of content that should be in Highspot for all to access, how do I contribute?**
 

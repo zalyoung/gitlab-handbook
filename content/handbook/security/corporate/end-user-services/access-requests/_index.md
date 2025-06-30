@@ -9,7 +9,7 @@ If you have any access requests related questions, please reach out to #it_help 
 
 ## Access requests related pages
 
-- [Frequently asked questions](/handbook/security/corporate/end-user-services/access-requests/frequently-asked-questions/)
+- [Frequently asked questions](content/handbook/security/corporate/end-user-services/access-requests/#application-specific-templates)
 - [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 - [Baseline Entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/)
 - [Temporary service providers access requests and onboarding](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/temporary-service-providers/)
@@ -67,7 +67,7 @@ These issues help us assign the appropriate access to new-hires. These are creat
 A list of baseline issue templates can be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks) and can be freely customized.
 
 For additional support when creating Baseline Entitlement Requests, please reach out via #it_help in Slack.
-
+ 
 ## Working on Access Requests
 
 ### Department Access Request Boards

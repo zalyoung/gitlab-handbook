@@ -46,7 +46,7 @@ For guides for many of our most frequently asked questions, please see [CorpSec 
 
 - For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/security/#access-management-process).
 
-- For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/).
+- For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 #### Baseline & Role-Based Entitlements
 
@@ -76,7 +76,7 @@ To view laptop delivery metrics and statistic please visit the [Laptop Metrics H
 
 #### GitLab Onboarding and machine management
 
-Please visit the GitLab Onboarding and machine management [handbook page](/handbook/security/corporate/end-user-services/onboarding-access-requests/)
+Please visit the GitLab Onboarding and machine management [handbook page](/handbook/security/corporate/end-user-services/access-requests/)
 
 #### GitLab Laptop Offboarding
 

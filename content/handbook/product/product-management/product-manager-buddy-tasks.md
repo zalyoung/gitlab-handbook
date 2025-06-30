@@ -23,7 +23,7 @@ draft: true
         - [How/When to start a research project](/handbook/product/ux/ux-research/#conducting-ux-research-at-gitlab)
         - [How to recruit for a UX Project](/handbook/product/ux/ux-research/recruiting-participants/)
         - Dovetail
-            - [Getting access to Dovetail](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+            - [Getting access to Dovetail](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
             - [GitLab Dovetail projects](https://gitlab.dovetailapp.com/projects)
             - [Documenting insights in Dovetail](/handbook/product/ux/dovetail/)
 1. [ ] - Remind them to introduce themselves

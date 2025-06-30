@@ -223,7 +223,7 @@ If you have any questions or require assistance please reach out to the IT team 
 Create a [new corpsec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=corpsec_general_change) and tag `@gitlab-com/gl-security/corp/identity`
 
 Okta is currently configured with assigned groups/roles based on a team member's role/group.
-Refer to the [Access Change Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#access-change-request) section of the handbook for additional information on why an application may not be available in Okta.
+Refer to the [Access Change Request](content/handbook/security/corporate/end-user-services/access-requests/) section of the handbook for additional information on why an application may not be available in Okta.
 
 ### How do I get my application set up within Okta?
 
