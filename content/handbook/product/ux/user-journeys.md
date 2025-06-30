@@ -59,7 +59,7 @@ Journey map elevation levels connect and inform each other, with micro-level ins
 
 The most effective and informative journey mapping goes beyond assumptions to create user experience maps grounded in real data. It balances research depth with practical needs to generate actionable insights.
 
-### The Mapping Process
+### The mapping process
 
 #### Phase 1: Planning and research setup
 
