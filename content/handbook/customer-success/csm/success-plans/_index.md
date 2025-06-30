@@ -198,8 +198,8 @@ GitLab.com serves as the source of truth for Success Plans, with automatic synch
 ## How It Works
 
 - Success Plans created in GitLab.com (epics and tasks) automatically sync to Gainsight
-- Data is transferred via API, creating corresponding Success Plans in Gainsight
-- Updates in GitLab.com reflect automatically in Gainsight
+- Data is transferred using API, creating corresponding Success Plans in Gainsight
+- Updates in GitLab.com will reflect automatically in Gainsight and are updated daily
 
 ## Benefits
 
