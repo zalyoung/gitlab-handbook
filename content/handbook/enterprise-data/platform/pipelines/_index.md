@@ -37,23 +37,25 @@ etl_vendor[/etl vendor/] --> warehouse
 
 These solutions have varying strengths and weaknesses and there is no solution that fits all cases. In solutioning we take a variety of factors into consideration. 
 
-| Factors        | Custom  | Snowflake share | ETL Vendor |
-| -------------- | ------- |-----------------| ---------- |
-| Ease           | ❔      | ✅              | ✅         |
-| Flexible       | ✅      | ❌              | ❌         |
-| Private        | ✅      | ✅              | ❌         |
-| Secure         | ✅      | ✅              | ❔         |
-| Maintainable   | ✅      | ❔              | ❌         |
-| Factors        | Snowflake share | ETL Vendor | Custom | 
-| -------------- |---------------- | ---------- | -------|
-| Ease           | ✅              | ✅         | ❔     |
-| Flexible       | ❌              | ❌         | ✅     |
-| Private        | ✅              | ❌         | ✅     |
-| Secure         | ✅              | ❔         | ✅     |
-| Maintainable   | ❔              | ❌         | ✅     |   
-| Cost Effective | ❔              | ❔         | ❔     |   
+| Factors         | Snowflake share | ETL Vendor | Custom | 
+| --------------- |---------------- | ---------- | -------|
+| Ease            | ✅              | ✅         | ❔     |
+| Flexible        | ❌              | ❌         | ✅     |
+| Private         | ✅              | ❌         | ✅     |
+| Secure          | ✅              | ❔         | ✅     |
+| Maintainable    | ❔              | ❌         | ✅     |   
+| Cost Effective  | ❔              | ❔         | ❔     | 
+| Democratization | ❌              | ❔         | ✅     |
 
 Given than the main downside to Custom Pipelines is their slower time to implementation, any gains on developer efficiency and code maintainability here come with signigicant advantages. Even still, in many cases new pipelines are implemented without clarity on criticality. Enterprise applications are often changed and replaced and so even if we were able to implement the best possible custom pipeline framework, it would still make sense for us to use vendors. That is, in many cases, writing a custom pipeline just isn't worth the time or effort. 
+
+#### Democratization 
+
+We want our business partners to contribute to existing pipelines when data scope changes, as we don't want the Data Platform Team to become a bottleneck for relatively easy, short but business-impactful tasks like adding a new field.
+
+- **Snowflake share**: This may not apply, and if it does, it would need to be arranged with the upstream vendor to change their Snowflake share.
+- **ETL Vendor**: Makes it easy to add new fields, but it is questionable whether we would want to give (all) business partners access to the solution since it is not version controlled.
+- **Custom development**: We want to make it so everyone can contribute. Developed pipelines require a configuration file that lists which tables/columns/endpoints need to be extracted to the Data Platform. We would encourage our business partners to make changes to these configuration files to modify the data scope (adding new tables) via a merge request and test them via a CI pipeline before submitting them for review by the respective code owners.
 
 ### Criteria for Snowflake Share
 
@@ -82,7 +84,6 @@ Evaluating and Solutioning Pipeline Sources
 
 Things we consider when implementing a pipeline for data extraction (but are not limited to) are:
 
-<!-- Maybe this should be a table with discriptions and links, I am not sure we need a heading/section for each though -->
 | Considerations | Descriptions | Context/links |
 | -------------- | ------------ | ------------- |
 | Data Classification | Customer Data (Red data) could only processed via listed and approved [third party sub processors]( https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors).   |
