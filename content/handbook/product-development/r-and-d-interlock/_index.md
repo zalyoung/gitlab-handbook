@@ -531,16 +531,29 @@ Work proposed via the R&D Interlock process will benefit from:
 
 1. **Create an Epic** if existing epic is outside of `gitlab-org`
    1. Within https://gitlab.com/gitlab-org, create a new epic ([docs](https://docs.gitlab.com/user/group/epics/manage_epics/#create-an-epic))
-   1. Copy (for existing) or select (for new) the epic template named: [interlock_template](https://gitlab.com/groups/gitlab-org/-/epics/new?description_template=interlock_template)
-1. **Complete required information**
+   1. Copy to an [internal note](https://docs.gitlab.com/user/discussions/#add-an-internal-note) (for existing), or select (for new), the epic template named: [interlock_template](https://gitlab.com/groups/gitlab-org/-/epics/new?description_template=interlock_template)
+1. **Complete the required information**
    1. Fill in all sections of the template
    1. Assign DRIs (PM, EM, UXPD&PDM)
    1. Apply appropriate labels (see [Labels Guide](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process-Dashboard#labels-guide))
+      - Note: If the candidate is not committed, all interlock specific labels should be removed.
    1. Apply target milestone
 1. **Update interlock status throughout process**
    1. Update interlock status as discussions progress
    1. After the quarter begins, update health status weekly
    1. Document risks and dependencies as they emerge
+
+### Changes after commitment
+
+Please keep epics [appropriately labelled](#labels-guide) if interlock committed items are changed, including:
+
+1. To change the timing, use the [commitment change request](#commitment-change-requests) process.
+1. To remove a committed interlocked item from the roadmap, you should:
+   1. Add an internal comment on why (if using the [commitment change request](#commitment-change-requests), please remove the change labels).
+   1. Add the {{< label name="Interlock status::Canceled" color="#d77092" >}} label.
+   1. Remove any GTM label remove.
+   1. Optionally, remove the investment label remove.
+   1. Keep all other interlock related labels.
 
 ### Labels Guide
 
@@ -557,7 +570,7 @@ Work proposed via the R&D Interlock process will benefit from:
 | Platform| {{< label name="platform: GitLab.com" color="#f2be02" light="true" >}} <br> {{< label name="platform: dedicated" color="#f2be02" light="true" >}} <br> {{< label name="platform: dedicated for gov" color="#f2be02" light="true" >}} <br> {{< label name="platform: self-managed" color="#f2be02" light="true" >}} | Indicates in which delivery platform the feature will be available |
 | Quarters                 | {{< label name="FY27::Q1" color="#cc338b" >}} <br> {{< label name="FY27::Q2" color="#cc338b" >}} <br> {{< label name="FY27::Q3" color="#cc338b" >}} <br> *more labels available in series....*                                                     | Indicates the target delivery quarter for planning and tracking purposes; critical for filtering by timeframe |
 | Interlock status labels  | {{< label name="Interlock status::New/Proposal in progress" color="#d77092" >}} <br> {{< label name="Interlock status::Alternate proposed" color="#d77092" >}} <br> {{< label name="Interlock status::Ready for review" color="#d77092" >}} <br> {{< label name="Interlock status::GPM/Director approved" color="#d77092" >}} <br> {{< label name="Interlock status::VP approved" color="#d77092" >}} <br> {{< label name="Interlock status::Changed requested" color="#dc143c" >}} <br> {{< label name="Interlock status::Canceled" color="#d77092" >}} <br> {{< label name="R&D roadmap status::Executing" color="#c21e56" >}} <br> {{< label name="R&D roadmap status::Completed" color="#c21e56" >}} | Tracks the current state of the epic in the interlock process; updated as the epic progresses through review stages; drives board views and reporting |
-| Interlock changed       | {{< label name="Interlock changed" color="#808080" >}} | Identifies epics where the committed quarter was changed as part of the R&D Interlock process |
+| Interlock changed       | {{< label name="Interlock changed" color="#808080" >}} | Identifies epics where the committed quarter was changed as part of the [commitment change request](#commitment-change-requests) |
 | Interlock committed      | {{< label name="Interlock committed" color="#e5a294" light="true" >}} | Identifies epics as confirmed and committed part of the R&D Interlock process |
 | Health                   | {{< label name="health::on track" color="#009966" >}} <br> {{< label name="health::needs attention" color="#ed9121" >}} <br> {{< label name="health::at risk" color="#dc143c" >}}                                                                  | Indicates the delivery risk during execution phase; updated weekly by EMs once the quarter begins; helps leadership identify items requiring intervention <br><br> *(Note: we are using labels for health status until epic boards can utilize the [health status](https://docs.gitlab.com/user/group/epics/manage_epics/#health-status) feature)* |
 
@@ -583,6 +596,6 @@ The Plan stage has an incredible product roadmap for this year, with many items 
 1. **Q:** Can I save my own views for this process?
    - **A:** Of course, let us know if you have any questions about filter criteria or label usage.
 1. **Q:** Do I need to make my epic confidential since I'm mentioning customer information?
-   - **A:** No, the group https://gitlab.com/gitlab-org/gitlab-rd-planning is private, so there is no need to make your epic confidential.
+   - **A:** Use an [internal note](https://docs.gitlab.com/user/discussions/#add-an-internal-note) by default for interlock discussion. If implementation should be non-public, then make the [epic confidential](https://docs.gitlab.com/user/group/epics/manage_epics/#make-an-epic-confidential).
 
 </details>
