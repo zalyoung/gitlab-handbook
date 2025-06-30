@@ -2,10 +2,7 @@
 title: "Transparency Reports"
 description: "This page contains information and links to GitLab's transparency reports"
 ---
-
-{NEED INTRODUCTION}
-
-{{% details summary="Law Enforcement requests - view our most recent transparency reports about government requests that received by GitLab."%}}
+{{% details summary="Law Enforcement Requests - This is our most recent Law Enforcement Report which details government requests received by GitLab"%}}
 # 2024 Law Enforcement Transparency Report
 
 This report covers legal requests received by GitLab over a period from January 2024 to December 2024 and provides insights into the types of requests received, their disposition, and GitLab's commitment to user privacy and transparency. GitLab reviews and responds to requests according to our published [Guidelines for Law Enforcement Requests](https://handbook.gitlab.com/handbook/legal/privacy/law-enforcement-guidelines/).
@@ -44,4 +41,3 @@ GitLab strictly enforces our policy of notifying users of requests for their acc
 As of January 2025, GitLab has never received a National Security Letter or a request under the Foreign Intelligence Surveillance Act. GitLab has also not been served with legal process under the national security laws of any other country.
 
 {{% /details %}}
-
