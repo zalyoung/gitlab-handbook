@@ -46,6 +46,7 @@ These solutions have varying strengths and weaknesses and there is no solution t
 | Maintainable    | ❔              | ❌         | ✅     |   
 | Cost Effective  | ❔              | ❔         | ❔     | 
 | Democratization | ❌              | ❔         | ✅     |
+| Data validation | ❌              | ❔         | ✅     |        
 
 Given than the main downside to Custom Pipelines is their slower time to implementation, any gains on developer efficiency and code maintainability here come with signigicant advantages. Even still, in many cases new pipelines are implemented without clarity on criticality. Enterprise applications are often changed and replaced and so even if we were able to implement the best possible custom pipeline framework, it would still make sense for us to use vendors. That is, in many cases, writing a custom pipeline just isn't worth the time or effort. 
 
