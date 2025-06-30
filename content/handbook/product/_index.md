@@ -13,7 +13,6 @@ description: "Most of the content in the product handbook talks about _how_ we d
 
 - [Product Management](/handbook/product/product-management/)
 - [User Experience](/handbook/product/ux/)
-- [Product Technical Program Management](/handbook/product/groups/product-technical-program-management)
 
 ## Product Team Mission
 
