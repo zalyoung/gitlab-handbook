@@ -24,10 +24,14 @@ Use this workflow when:
 
 Enterprise Users can be identified by:
 
-1. **Enterprise badge** next to their username in group member lists
-2. **API verification**: Use the [Group Enterprise Users API](https://docs.gitlab.com/api/group_enterprise_users/) 
-3. **User profile**: Enterprise Users may have restricted account modification capabilities
-4. **Error messages**: Users may report receiving "enterprise user" related error messages when trying to modify their accounts
+- **Enterprise badge** next to their username in group member lists
+- **API verification**: Use the [Group Enterprise Users API](https://docs.gitlab.com/api/group_enterprise_users/) 
+- **User profile**: Enterprise Users may have restricted account modification capabilities
+- **Error messages**: Users may report receiving "enterprise user" related error messages when trying to modify their accounts
+- **Admin area > Users > User page**: Enterprise user of:
+- **Users API**: enterprise_group_id
+
+Support extends the definition of Enterprise User so please [follow this identification workflow](./gitlab-com_overview.md#enterprise-users) if none of the above fit.
 
 ## Key Principles
 
@@ -54,7 +58,7 @@ The following account workflows are **restricted** for Enterprise Users and shou
 
 ### Exception: Email Address Changes
 
-**Email address changes are the primary exception** - only GitLab Support can change an Enterprise User's email address to a non-verified domain, which releases them from enterprise management.
+Until feature request [425837](https://gitlab.com/gitlab-org/gitlab/-/issues/425837) is implemented, only GitLab Support can change an Enterprise User's email address to a non-verified domain, which releases them from enterprise management.
 
 ### Exception: Account deletion Requests
 
@@ -70,27 +74,12 @@ Until feature request [#520825](https://gitlab.com/gitlab-org/gitlab/-/issues/52
 
 1. **Identify** the user as an Enterprise User
 2. **Explain** that their account is managed by their organization
-3. **Provide** the Group Owner contact information (if available)
-4. **Direct** them to contact their Group Owner for assistance
-5. **Reference** the [Enterprise User documentation](https://docs.gitlab.com/user/enterprise_user/#manage-enterprise-users)
+3. **Direct** them to contact their Group Owner for assistance
+4. **Reference** the [Enterprise User documentation](https://docs.gitlab.com/user/enterprise_user/#manage-enterprise-users)
 
 **Template Response**:
 
-```text
-Hi [User],
-
-Thank you for contacting GitLab Support. I can see that your account is an Enterprise User, which means it's administered by your organization.
-
-For account-related changes, please contact your Group Owner at [organization] who can assist you with:
-- [List relevant capabilities]
-
-You can find more information about Enterprise User account management in our documentation: https://docs.gitlab.com/user/enterprise_user/#manage-enterprise-users
-
-If your Group Owner requires Support assistance, they're welcome to contact us directly.
-
-Best regards,
-[Support Engineer]
-```
+If you find an Enterprise User requesting account changes directly and they are not a Group owner, you can send a response using the `Enterprise User own account change request` macro.
 
 ### Scenario 2: Group Owner Requests Changes for Enterprise User
 
@@ -123,22 +112,7 @@ Best regards,
 
 ⚠️ **Important**: Changing an Enterprise User's email to a non-verified domain automatically releases them from enterprise management.
 
-### Scenario 4: Account Release Request
-
-**When**: Request to release an Enterprise User from enterprise management.
-
-**Process**:
-
-1. **Determine** if request comes from Enterprise User or Group Owner
-2. **If from Enterprise User**:
-   - Require Group Owner approval
-   - Do not proceed without explicit Group Owner consent
-3. **If from Group Owner**:
-   - Verify Group Owner identity
-   - Process the release via email address change to non-verified domain
-4. **Document** the release reason and authorization
-
-### Scenario 5: Emergency Scenarios
+### Scenario 4: Emergency Scenarios
 
 **When**: Urgent account access issues affecting Enterprise Users.
 
@@ -152,7 +126,7 @@ Best regards,
 
 **Escalation Path**: Support Manager → Customer Success → Group Owner
 
-### Scenario 6: 2FA Issues for Enterprise Users
+### Scenario 5: 2FA Issues for Enterprise Users
 
 **When**: Enterprise User reports 2FA problems and cannot access their account.
 
