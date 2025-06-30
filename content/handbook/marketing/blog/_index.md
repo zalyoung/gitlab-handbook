@@ -77,6 +77,41 @@ Whatever way you choose to submit your blog, please ensure that @sgittlen is tag
 
 **BLOGS CANNOT BE PUBLISHED WITHOUT REVIEW/APPROVAL FROM THE BLOG TEAM.**
 
+## Guide to the frontmatter in the MR
+
+The MR will include the following frontmatter. Please see the comments after each section
+
+```
+seo:
+  title: the blog post title
+  description: the blog post description
+  <!-- Blog team will fill this area in -->
+config:
+  slug: blog-post-slug
+  featured: false
+  template: BlogPost
+  <!-- blog team will fill this in -->
+content:
+  title: the blog post title
+  <!-- ideal length - 55-60 characters -->
+  description: the blog post description
+  <!-- ideal length - no more than 155 characters -->
+  authors:
+    - Blog post author
+  <!-- Format: Sandra Gittlen (if this is your first time contributing, leave blank, and if there are multiple authors, add a comma no space between)-->
+  heroImage: images/blog/hero-images/logoforblogpost.jpg
+  <!-- blog team will fill this in -->
+  date: '2021-03-31'
+  category: engineering
+  <!-- blog team will fill this in -->
+  tags:
+    - community
+  <!-- blog team will fill this in -->
+  body: |
+    add the blog post body text in markdown
+```
+
+
 ## The blog edit process
 
 The blog team will communicate initial edits/questions for the author using the issue and Google Doc. The blog team will then put the blog into the CMS and, if necessary, share a preview link with the author/DRI. Note: The blog will be published from Contentful.
