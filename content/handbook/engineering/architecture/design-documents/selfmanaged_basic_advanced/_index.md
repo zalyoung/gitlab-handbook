@@ -205,3 +205,28 @@ each alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
+
+### Strangler Fig
+
+In FY26Q1's CTO Summit, we considered the possibility of slowly converting the Omnibus into a
+means of deploying all items within Kubernetes. This could have been accomplished in a number
+of possible ways. We looked specifically into a [strangler fig pattern](https://en.wikipedia.org/wiki/Strangler_fig_pattern)
+by way of packaging a micro-distribution of Kubernetes into the Omnibus, then slowly switching
+all components to be deployed into that cluster. While this was a worthwhile exercise, we acknowledge
+that the impact on complexity, resource requirements, and supplemental customer experience
+requirements give us pause. Implementing a strangler fig pattern into the Omnibus GitLab in this
+way would certianly specifically cause several of the problems that this proposal aims to prevent.
+
+Instead of pursuing this route, we aim to use a similar concept to _encourage_ customers to
+migrate their architecture over time, providing incentive for building or obtaining experience
+in operating Cloud Native environments for GitLab to operate within.
+
+### Change nothing
+
+Continuing as-is with our current behaviors and the challenges they present, would leave us
+open to stagnation of backlog. While we have several ongoing efforts to streamline the means
+to include functionality into the Omnibus GitLab and the Cloud Native GitLab methods, there
+remains the simple fact that including new features via Kubernetes deployment methodologies
+is simpler for our wider organization. Making Cloud Native the first priority does not negate the
+concerns of stateful data services and requirements that we face today. We must remain
+vigilant of the customer SRE experience and do our best to ensure data security.
