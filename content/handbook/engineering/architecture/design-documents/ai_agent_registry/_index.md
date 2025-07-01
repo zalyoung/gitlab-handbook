@@ -127,8 +127,8 @@ We define the following list of primitives supported by the Flow Registry for ag
 The proposed framework has been tested early with a [PoC](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/2881)
 that served as the basis for several demo recordings:
 
-* [Python API](https://gitlab.zoom.us/rec/share/MvGkn2wnv4OohOYJhzN9EQXnXiJBZEyz87yPB0r9D49yrvXwmpZtEf1HDrweMdgi.dbSRQylaJ7OcoNdr?startTime=1750073407000)
-* Internal YAML-based DSL (TODO: add link)
+- [Python API](https://gitlab.zoom.us/rec/share/MvGkn2wnv4OohOYJhzN9EQXnXiJBZEyz87yPB0r9D49yrvXwmpZtEf1HDrweMdgi.dbSRQylaJ7OcoNdr?startTime=1750073407000)
+- Internal YAML-based DSL (TODO: add link)
 
 #### 1\. Components
 
