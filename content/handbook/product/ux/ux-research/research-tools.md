@@ -24,7 +24,7 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 **For participant recruitment and management**
 
 - Use [RallyUXR](https://app.rallyuxr.com/gitlab/home) as your primary tool for recruitment, panel management, scheduling, and incentive processing across all user research.
-  - [RallyUXR](:https://app.rallyuxr.com/gitlab/studies) is already connected to most of the tools and databases we use for research. If additional set up is needed for your study, the ReOps team will let you know.
+  - [RallyUXR](https://app.rallyuxr.com/gitlab/studies) is already connected to most of the tools and databases we use for research. If additional set up is needed for your study, the ReOps team will let you know.
   - Leverage their **external panel option** (powered by [Respondent.io](http://Respondent.io)) when you can't get enough participants through the users available to contact RallyUXR.
   - Use [User Interviews](https://www.userinterviews.com/researcher) only when looking for participants with diverse accessibility needs, when you need non-GitLab users or RallyUXR cannot fulfill your participant quota.
 
@@ -47,15 +47,18 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 - For **unmoderated usability sessions**, use [UserTesting.com](http://UserTesting.com), but bear in mind that is still a tool for small scale projects, with 5 - 8 participants, and not suitable for extensive testing.
 
 **For In-Depth Interviews**
+
 - Use [Zoom](https://gitlab.zoom.us/), and upload the recordings to [Dovetail](https://gitlab.dovetail.com/) for analysis and record keeping.
 
 **For card-sorting and tree-testing**
+
 - For unmoderated and closed card sort:
   - Use [Qualtrics](https://gitlab.eu.qualtrics.com/) for larger samples
   - Use [UserTesting.com](http://UserTesting.com) for smaller samples or when video is needed
 - For open card sort and tree-testing, coordinate with Research Operations ([#ux_research_operations](https://gitlab.enterprise.slack.com/archives/C03SW7KPA1X)) to arrange an on demand subscription of [Optimal Workshop](https://www.optimalworkshop.com/).
 
 **For diary studies**
+
 - The team *is still looking into a definitive tool for diary studies*. At the moment, we have a mix and match of methodologies. 
 - Use [Qualtrics](https://gitlab.eu.qualtrics.com/), or [Google Forms](https://docs.google.com/forms/) for text-based diary study 
 - [Google Forms](https://docs.google.com/forms/) is better for collecting simple daily feedback
@@ -63,6 +66,7 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 - For video diary entries, U[UserTesting.com](http://UserTesting.com) is the best option.
 
 **For co-creation**
+
 - Use [Figjam](https://www.figma.com/figjam/) for online brainstorming, synthesis, and collaboration.
   - Be sure to grant the participant access to the board before the session.
 
