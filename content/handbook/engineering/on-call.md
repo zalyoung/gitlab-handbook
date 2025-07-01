@@ -38,7 +38,7 @@ If you're a GitLab team member looking for help with a security problem, please 
 
 ## GitLab.com Reliability On-Call Rotation
 
-### Infrastructure Engineer On-Call
+### Infrastructure Engineer On-Call (Tier 1)
 
 The Infrastructure department's SREs provide 24x7 on-call coverage for the production environment. For details, please see [incident-management](/handbook/engineering/infrastructure/incident-management/).
 
@@ -59,10 +59,19 @@ In addition to incident management responsibilities, the EOC also is responsible
 1. Assisting Release Managers with deployment problems
 1. Being the DRI for incident reviews
 
-### Engineering Incident Manager
+### Engineering Incident Manager (Tier 1)
 
 - Incident manager rotation is staffed by certain [team members in the Development and Infrastructure departments](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/).
 - More information regarding the Incident Manager role, including shift schedules, responsibilities can be found in the [Incident Manager on-boarding page](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/).
+
+### Engineering Subject-Matter-Expert (SME) On-Call (Tier 2)
+
+This on-call layer contains many different rotations for specialist areas of the product.
+
+The active rotations are:
+
+1. Gitaly - ([details](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#on-call-rotation))
+2. Database Operations - ([details](/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process))
 
 ### Development Team On-Call Rotation
 
@@ -74,14 +83,6 @@ In addition to incident management responsibilities, the EOC also is responsible
 - Engineering managers do monthly shifts as scheduling coordinators.
 - Check out [process description and on-call workflow](/handbook/engineering/development/processes/infra-dev-escalation/process/) when escalating GitLab.com operational issue(s).
 - Check out more detail for [general information](/handbook/engineering/development/processes/infra-dev-escalation/) of the escalation process.
-
-### Gitaly Engineer On-Call
-
-For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#on-call-rotation)
-
-### DBO On-Call
-
-For more details, see the [DBO escalation process](/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process)
 
 ## Security Team On-Call Rotation
 
