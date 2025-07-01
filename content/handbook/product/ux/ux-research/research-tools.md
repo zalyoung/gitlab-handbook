@@ -37,9 +37,9 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 - Use [Qualtrics](https://gitlab.eu.qualtrics.com/) for **complex surveys** where skip logic and display logic is necessary. It offers a diverse array of question types, and is best for surveys that require dozens to hundreds of participants. 
   - Example = USAT+, first click tests, screener surveys.
 - User [Google Forms](https://docs.google.com/forms/) for more **straightforward surveys**, with no complex logic needs. It’s more mobile friendly too.
- - Example = internal research, team health, diary study entries.
+  - Example = internal research, team health, diary study entries.
 - Use [UserTesting.com](http://UserTesting.com) for small **qualitative and unmoderated usability testing**, between 5 to 8 users, when you need video responses to dive deep into the hows and whys. 
- - Example = design direction exploration, prototype interaction
+  - Example = design direction exploration, prototype interaction
 
 **For usability testing**
 
@@ -70,4 +70,4 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 - Use [Figjam](https://www.figma.com/figjam/) for online brainstorming, synthesis, and collaboration.
   - Be sure to grant the participant access to the board before the session.
 
-Any other doubt? Do not heasitate to reach out to the UX Research Operations Team - [#ux_research_operations](https://gitlab.enterprise.slack.com/archives/C03SW7KPA1X)
+Any other doubt? Do not heasitate to reach out to the UX Research Operations Team on [#ux_research_operations](https://gitlab.enterprise.slack.com/archives/C03SW7KPA1X)
