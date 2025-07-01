@@ -98,7 +98,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 This section lists shorter versions of product tours with fewer steps, useful for demo booths at events and when you need to show a quick demonstration.
 
-| Title | Area | Last updated | DRI | # of steps |
+This section lists shorter versions of product tours with fewer steps (typically under 10 steps), useful for demo booths at events and when you need to show a quick demonstration.
 |-------|------|--------------|-----|------------|
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast-short) |  DevSecOps Platform | 2024-09-22 | @iganbaruch | 13 |
 | [Compliance Frameworks](https://gitlab.navattic.com/compliance-short) |  DevSecOps Platform | 2025-01-27 | @iganbaruch | 9 |
