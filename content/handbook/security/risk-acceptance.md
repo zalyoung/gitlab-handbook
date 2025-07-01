@@ -63,26 +63,27 @@ All risks processed through this procedure fall into one of these acceptance cat
 - **Definition:** Risk is accepted due to technical, operational, or business constraints that prevent remediation
 - **Duration:** Permanent acceptance with mandatory annual review
 - **Requirements:** Detailed constraint documentation and alternative control assessment. Examples include:
- - Required fix would cause system instability or unavailability
- - No viable technical solution exists
- - Technology end-of-life with no upgrade path
- - Critical business process would be severely disrupted
- - Customer contractual obligations prevent modification
- - Cost of remediation significantly exceeds risk value
+- Required fix would cause system instability or unavailability
+- No viable technical solution exists
+- Technology end-of-life with no upgrade path
+- Critical business process would be severely disrupted
+- Customer contractual obligations prevent modification
+- Cost of remediation significantly exceeds risk value
 
 ### 4. Accept False Positive (risk treatment::accept false-positive)
 
 - **Definition:** Reported risk is determined to be a false positive but cannot be eliminated from scanning/detection
 - **Duration:** Permanent acceptance with monitoring for scan configuration changes
 - **Requirements:** Technical validation of false positive determination. Examples include:
- - Alternative controls effectively mitigate risk exposure
- - Defense-in-depth measures eliminate practical attack vectors
- - Monitoring and detection provide adequate coverage
- - Network segmentation isolates risk impact
+- Alternative controls effectively mitigate risk exposure
+- Defense-in-depth measures eliminate practical attack vectors
+- Monitoring and detection provide adequate coverage
+- Network segmentation isolates risk impact
 
 ## Risk Acceptance Process
 
 ### Step 1: Risk Acceptance Request Initiation
+
 Who: Risk Acceptance Requestor (Business Owner, System Owner, or designated representative)
 
 1. Complete risk acceptance request using appropriate issue template:
@@ -92,7 +93,8 @@ Who: Risk Acceptance Requestor (Business Owner, System Owner, or designated repr
 - TPRM Security Notice Risk Acceptance
 - Vulnerability Risk Acceptance
 
-2. Provide the following information:
+1. Provide the following information:
+
 - Risk Description: Detailed description of the security risk or finding
 - Risk Rating: Current risk severity (Critical/High/Medium/Low)
 - Acceptance Justification: Clear explanation of why acceptance is appropriate
