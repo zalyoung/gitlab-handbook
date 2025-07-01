@@ -23,8 +23,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Jun 26 |  First Order > Field Training     |  Marketing  |
-| Jul 3 |   Hosted Runners for GitLab Dedicated      |  Product Marketing  |
+| Jul 3 |   **No Session**      |     |
 | Jul 10 |  Professional Services Update     |  PS Team  |
 | Jul 17 |  GitLab 18.2 Enablement     |  Product Marketing  |
 | Jul 24 |  *No session during the last two weeks of the quarter*   |    |
@@ -33,10 +32,11 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 ## Past Sessions
 
 <details>
-<summary markdown="span">Click here to see links to past sessions on Google Drive</summary>
+<summary markdown="span">Click here to see links to past sessions</summary>
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-06-26 |  **[Pipeline Magic: Turning Data into Deals](https://gitlab.highspot.com/items/685d7989eabcc81be123d353)**     |  Private  |
 | 2025-06-16 |  **[GitLab 18.0 Launch Enablement](https://gitlab.highspot.com/items/6850561148d5b77416cf8820)**     |  Private  |
 | 2025-06-12 |  **[Master Working with GitLab Support](https://gitlab.highspot.com/items/684b0383b860240005c2664f)**     | Private  |
 | 2025-05-29 |  **[SFDC Product Data & Free GitLab Users](https://gitlab.highspot.com/items/68388a28aab19074da959446)**       |  Private   |
