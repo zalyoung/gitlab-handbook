@@ -339,8 +339,7 @@ assigned to components based on their role in a Flow setup.
 
 This proposal doesn't change any of the existing decisions around the way tools are developed and managed.
 The tools implementation is described in this [document](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/adding_new_tool.md?ref_type=heads),
-while tools permissions and configurations are described in this [section](../duo_workflow/_index.md/#tools-permissions-and-approval-system)
-of the Duo Workflow architecture blueprint.
+while tools permissions and configurations are described in the Duo Workflow architecture [blueprint](../duo_workflow/_index.md).
 
 ## Future evolution
 
