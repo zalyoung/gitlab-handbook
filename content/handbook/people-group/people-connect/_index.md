@@ -22,13 +22,11 @@ Team Members are encouraged to reach out to People Operations around any topic t
 
 People Operations provides team member support for all of the functional areas within the [People Group](/handbook/people-group/) including Total Rewards; Diversity Inclusion and Belonging; the People Business Partners and Global Workforce Management.
 
-Additionally our team of generalists are equally able to support queries and requests that are external but in many ways still related to the People Group such as Expense Reporting (Accounts Payable) and Payroll.
-
 ### Interacting with People Operations
 
 #### Our Team
 
-People Operations is comprised of both generalists and specialists from within the People Operations fold - all of whom have a broad knowledge of all things people within the context of our unique all-remote environment.
+People Operations Specialists support a variety of queries and requests that may fall outside the People policies scope but still relate to the Team Member experience such as Expense Reporting (Accounts Payable) and Payroll.
 
 The team collaborates intensively with various internal and external stakeholders to ensure that the GitLab Handbook is consistently maintained, working to ensure that all employment-related information is easily accessible to all whether entity-based or through a PEO.
 
@@ -59,9 +57,9 @@ The People Operations email alias is restricted and active GitLab team members w
 
 #### What to Expect (SLA)
 
-Once a team member has submitted a question or request using HelpLab, they can anticipate acknowledgement in the thread of their case within 24 hours.
+Once a team member has submitted a question or request using HelpLab, they can anticipate acknowledgement of their case within 24 hours.
 
-People Operations rests on a tiered model which categorizes inbound queries and requests according to nature and complexity this in turn should guide the anticipated resolution time unless otherwise specified by the responding generalist.
+People Operations works on a tiered model which categorizes inbound queries and requests according to nature and complexity this in turn should guide the anticipated resolution time unless otherwise specified by the responding generalist.
 
 On occasion team member interactions i.e. ≤ 1% require the direct input of a Subject Matter Expert (SME), calling for complete hand-off to a Center of Expertise (COE) - in such instances the interaction will be categorized as a Tier 03 with the responding generalist initiating the hand-off in a period ≤ 24 hours.
 
@@ -73,7 +71,7 @@ On occasion team member interactions i.e. ≤ 1% require the direct input of a S
 
 ### Team Member Satisfaction
 
-The People Operations model was compiled with our team members and their experience of GitLabs all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values](/handbook/values/).
+The People Operations model was compiled with our team members and their experience of GitLab's all-remote workplace in mind - making feedback an important element in ensuring our efforts and iterations are consistently aligned to the broader [company values](/handbook/values/).
 
 ### Metrics
 
