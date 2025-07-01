@@ -18,17 +18,19 @@ will prefix Organization routes with an `o` such as:
 
 We will maintain existing routes to ensure backward compatibility.
 
-Furthermore, the Default Organization will not be represented within the
+The Default Organization will not be represented within the
 Organization path scope. This allows single Organization installations such as
 on Self Managed and Dedicated to avoid verbose paths.
+
+REST and GraphQL requests will remain at `/api/v4` and `/api/graphql` and Organization will be specified with an `organization-id` parameter.
 
 ## Consequences
 
 - All existing routes will remain to ensure backward compatibility.
 - Organization routes will exist within the `/o/` scope.
-- REST and GraphQL routes will remain as they are today, and `organization_id`
-will be supplied through existing methods.
+- REST and GraphQL routes will remain as they are today, and `organization_id` will be supplied through existing methods.
 - The `o` namespace is owned by a user and will be reclaimed.
+- If the `o` is taken on on-premise we would fail creating the Organization through a model validation and ask the user to release the `o`.
 - There is a [decision tree](https://lucid.app/lucidspark/42a3cb25-7b85-49e2-8539-952df0781e1e/edit?beaconFlowId=C3B5807A2EB70840&invitationId=inv_9908f2a1-446d-4f33-9469-07e8b9ff8c76&page=0_0#) that details the mappings.
 
 ## Alternatives
@@ -41,21 +43,17 @@ Alternative Organization context deleneation methods were detailed in a
 Of the items in the spreadsheet, the custom sub-domain was the next closest fit
 but this created a number of problems:
 
-- We would have to build this ability into the product at the tenant level. It
-is currently an instance level feature.
-- The scheme was not compatible with a number of our services. For example, SSH
-  is not able to determine Organization by hostname and would require another
-identifier such as by username.
-- Organizations promoted out of the Default Organization and into their own
-Organization would not maintain backward compatibility without some kind of
-hybrid domain approach.
+- We would have to build this ability into the product at the tenant level. It is currently an instance level feature.
+- The scheme was not compatible with a number of our services. For example, SSH is not able to determine Organization by hostname and would require another identifier such as by username.
+- Organizations promoted out of the Default Organization and into their own Organization would not maintain backward compatibility without some kind of hybrid domain approach.
+- Having to add subdomains for adjacent services if those will use separate hostnames.
 - There were many other concerns.
 
 
 ### Scoping identifier
 
-Besides `o`, the tilde (`~`) symbol was also considered as it's compatible with
-all GitLab services and has some historical precedence as a URL scoping
-mechanism. However the `~` character can be confusing for less technical users
-and it's also difficult to enter on mobile devices and some keyboards so was
-disregarded.
+The `o/` is a typeable identifier.
+
+Besides `o`, the tilde (`~`) symbol was also considered as it's compatible with all GitLab services and has some historical precedence as a URL scoping mechanism. However the `~` character can be confusing for less technical users and it's also difficult to enter on mobile devices and some keyboards so was disregarded.
+
+Others were rejected like: `/orgs/` and `/-/organizations/`.

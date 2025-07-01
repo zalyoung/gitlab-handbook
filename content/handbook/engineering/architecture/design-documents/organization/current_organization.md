@@ -13,7 +13,7 @@ Including rails controllers, Grape API, GraphQL, ActionCable.
 
 For web requests the current organization will be determined in the following order of precedence with details listed in sub-sections below:
 
-1. Path params. E.g. /groups/abc-group, /-/organizations/my-organization
+1. Path params. E.g. /o/my-org/my-group, /groups/abc-group, /-/organizations/my-organization
 1. Header field
 1. Session variable storing current organization id.
 1. The default organization (ID = 1).
@@ -21,13 +21,15 @@ For web requests the current organization will be determined in the following or
 ### Path Params
 
 The current Organization will be the parent Organization for the resource requested.
+The Organization is prefixed to paths using the Organization scope `o/` such as
+`https://gitlab.com/o/my-org/my-group/my-project/-/issues/1234`. Details on this
+decisions are in the [Organization path scope ADR](decisions/004_path_scope.md).
 
 For example:
 
-- `/groups/abc-group`: The organization will be `organizationA` since
-  `abc-group` belongs to `organizationA`
-- `/-/organizations/my-organization`: The organization will be
-  `my-organization`.
+- `/o/my-organization/my-group`: The Organization will be `my-organization`
+- `/groups/abc-group`: The organization will be `organizationA` since `abc-group` belongs to `organizationA`
+- `/-/organizations/my-organization`: The organization will be `my-organization`
 
 ### Header Field
 
@@ -50,6 +52,10 @@ Features that depend on the session variable will be considered incomplete until
 This is a fallback for unauthenticated requests not handled by the higher precedent mappings.
 
 Use of the Default Organization will break Cells compatibility because the Default Organization is only available on one Cell.
+
+## API Requests
+
+REST and GraphQL requests will remain at `/api/v4` and `/api/graphql` and include an `organization-id` parameter.
 
 ## Background Jobs
 
