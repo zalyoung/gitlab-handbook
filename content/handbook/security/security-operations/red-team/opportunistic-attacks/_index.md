@@ -13,7 +13,7 @@ Benefits include:
 
 - They give GitLab more opportunities to practice detecting and responding to realistic threats in a controlled environment, allowing faster iteration on our defensive capabilities and investigation skills.
 - They allow us to quickly demonstrate the real impact of security concerns.
-- They allow us to quickly act on this intelligence and demonstrate the impact of the security concern.
+- They can help prioritize investigations to uncover potential historical threat actor behavior.
 
 If vulnerabilities are discovered, we exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.
 
