@@ -96,7 +96,7 @@ At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/se
 
 #### Responsibilities - Support
 
-1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
+1. Monitor Slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [the Request for Help project](https://gitlab.com/gitlab-com/request-for-help#sec-section).
     - [#g_ast-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
     - [#s_application-security-testing](https://gitlab.slack.com/archives/C8S0HHM44)
@@ -128,12 +128,12 @@ These items must be triaged continuously throughout the milestone which means th
 1. Monitor the Slack channel `#g_ast-composition-analysis-alerts` for any incidents on the license-db infrastructure.
         - In case of an incident react with :eye: to indicate that you are looking into it.
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
-        - Write down in the insident Slack thread all the steps that were done to resolve it.
+        - Write down in the incident Slack thread all the steps that were done to resolve it.
 1. Monitor the Slack channels `#f_operational_container_scanning` and `#f_container_scanning` for alerts related to Operational Container Scanning (OCS) and Container Scanning.
 
 #### Handover
 
-1. As Reaction Rotation is continous process, post the handover status to the reaction rotation issue using the following template:
+1. As Reaction Rotation is continuous process, post the handover status to the reaction rotation issue using the following template:
 
 <details>
 <summary>Reaction Rotation Handover Template</summary>
@@ -211,6 +211,11 @@ You can search for `SLA::Breached` issues in the issue tracker using the followi
 - [Severity 2](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A2&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
 - [Severity 3](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A3&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
 - [Severity 4](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A4&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+
+#### Gemnasium vulnerabilities
+
+Since the new Dependency Scanner analyzer is FedRAMP supported, Gemnasium is no longer FedRAMP supported. Therefore, treat all Gemnasium vulnerabilities as `non-FedRAMP findings` when following SLA exception processes.
+Refer to the [SLA exceptions handbook page](../../../../../security/product-security/vulnerability-management/sla-exceptions.md) for process details.
 
 #### Triaging vulnerabilities
 
@@ -480,7 +485,7 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 1. checkout the new tag (or commit) and create a new branch from it following naming convention `NEW_VERSION-security-checks`.
 1. copy/paste the existing `.gitlab-ci.yml` configuration file from the current `VERSION-security-check` branch.
 1. if there are new findings matching [our policy](#security-policy), address them according to our [triage process](#triaging-vulnerabilities).
-1. only when above mentionned findings are **fixed**, update the default_branch to be `NEW_VERSION-security-checks` and proceed with the update of the analyzer to use this newer version.
+1. only when above mentioned findings are **fixed**, update the default_branch to be `NEW_VERSION-security-checks` and proceed with the update of the analyzer to use this newer version.
 
 ##### License check when updating an upstream scanner
 
@@ -488,7 +493,7 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 ## Monitoring
 
-- [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
+- [Stage Group dashboard on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
 - [Continuous Vulnerability Scanning (background processing on the gitlab.com rails platform)](https://log.gprd.gitlab.net/app/r/s/OBQOB)
 
 ## Runbooks
