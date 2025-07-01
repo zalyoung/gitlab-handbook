@@ -23,6 +23,37 @@ The [Customer Success Architect (CSA)](/job-families/sales/customer-success-arch
 
 Education Services included with Success Tiers encompasses 1 day of Instructor-led Training as well as a significant number of Training Certification Exam vouchers.   This enables us to partner the running of specific accelerators, aligned to training and certification, to ensure your team is ready and able to drive the cost benefits that GitLab brings.
 
+### Success Tiers Resources and Support
+
+#### 1. Success Tiers Qualification Framework
+
+We've created a [comprehensive framework](https://gitlab.highspot.com/items/68138e0af1e7d5daacbfcfae#1) to help sales teams effectively position and sell Success Tiers. This framework provides:
+
+- Clear qualification criteria for each tier
+- Value propositions tailored to customer needs
+- Structured objection handling responses
+- Customer success stories by segment
+
+#### 2. Regional Champion Support
+
+Regional Champions are available to provide expert guidance on positioning Success Tiers.
+
+##### How to request support
+
+1. Navigate to the [#success-tiers](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) Slack channel
+2. Click on **Workflows** at the top of the channel
+3. Select **Success Tier - Request for Help**
+4. Specify if you need:
+    - Live call support
+    - Positioning guidance
+    - Quick brainstorming session
+
+##### Regional contacts
+
+- **EMEA**: @Jess Wang, @Paul, @kristof
+- **AMER**: @sophie
+- **APJ**: @Jian Cheng Wu
+
 ### Success Tier Customer Onboarding
 
 ```mermaid
@@ -39,7 +70,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 1. Introduction Email
    1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
-   2. Utilize the appropriate welcome email template - 
+   2. Utilize the appropriate welcome email template -
       1. [Signature | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720d040d7ec85356346f#2)
       2. [Advanced | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720f040d7ee3c8b160a1?lfrm=srp.2)
       3. [Essentials | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe7212040d7ea6e1af7af0?lfrm=srp.6)
@@ -59,7 +90,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 2. Customer Kick-off Call
    1. This will be scheduled within the first week of the agreement, subject to customer availability.
    2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations through email.
-   3. Utilize the appropriate kick-off deck & customize as needed (internal). 
+   3. Utilize the appropriate kick-off deck & customize as needed (internal).
       1. [Signature | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe720b1d0a83d481b69449#1)
          * [Demo](https://gitlab.highspot.com/items/680f8ee83cc2d050572efa00)
       2. [Advanced | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7209be150cb32b8b47f2?lfrm=srp.9)
