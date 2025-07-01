@@ -16,6 +16,7 @@ Our design goals are:
 ### Why
 
 We need to store and query secret rotation attributes to support:
+
 - Daily/hourly background jobs identifying secrets needing rotation reminders
 - Efficient notification scheduling for standard intervals (30/60/90 days) and custom cron schedules
 - Compliance tracking for overdue rotations
@@ -58,10 +59,12 @@ CREATE INDEX idx_rotation_infos_reminder_at ON rotation_infos(next_reminder_at);
 We use a **"rotation-first, verify-later"** approach to avoid critical failures:
 
 **Creation Flow:**
+
 1. Create rotation record when user configures rotation (before secret exists)
 2. Create secret in OpenBao using the same deterministic path
 
 **Failure Scenarios:**
+
 - **Prevented:** Secret exists without rotation tracking → Cannot happen since rotation records are created first
 - **Handled:** Rotation record exists without secret → Background job detects and cleans up orphaned records
 - **Handled:** Secret deleted outside Rails → Background job detects missing secret and removes rotation record
@@ -99,6 +102,7 @@ end
 ```
 
 This approach enables:
+
 - Efficient batch processing across all projects in minutes instead of hours
 - Lazy validation of secret existence only when needed
 - Automatic cleanup of orphaned rotation records
@@ -106,6 +110,7 @@ This approach enables:
 #### Future scaling consideration
 
 If we encounter performance issues with hundreds of thousands of secrets across thousands of projects, we can partition the background job:
+
 - Split into one worker per project (or group of projects)
 - Workers run in parallel, each querying only their assigned projects
 - Enables horizontal scaling without changing the core design
@@ -140,6 +145,7 @@ end
 ```
 
 This approach was rejected because:
+
 - **Constant API load**: Background jobs running hourly must query OpenBao even when no secrets need rotation
 - **Performance**: For 10,000 projects with 100 secrets each, this requires 1,000,000 API calls every hour
 - **No early termination**: Cannot quickly determine if any work needs to be done
