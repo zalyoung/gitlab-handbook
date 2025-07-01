@@ -43,16 +43,13 @@ requests, and Slack. However, face-to-face meetings are useful to establish
 personal connection and to address items that would be more efficiently
 discussed synchronously such as blockers.
 
-- Database Group Sync every Tuesday and Thursday at 1:00 PM UTC
-  - Tuesdays - we start with any `~infradev` issues requiring reviews, then we
-    focus on weekly priorities.
-  - Thursdays - are optional and open agenda. Anyone can bring topics to the
-    team to discuss. Typically we reserve the first Thursday after the milestone
-closes to hold a synchronous retrospective.
-- [Database Office Hours](https://docs.google.com/document/d/1wgfmVL30F8SdMg-9yY6Y8djPSxWNvKmhR5XmsvYX1EI/edit#heading=h.oyp8amyknnr8)
-(internal link); [YouTube recordings](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp-kqXeiF7fF7cFYaKtdqXM)
-  - Wednesdays, 3:30pm UTC (bi-weekly)
-  - (APAC) Thursdays, 3:30am UTC (bi-weekly, alternating)
+- Database Group Sync every Tuesday at 13:00 UTC and Thursday at 21:00 UTC
+  - Typically we talk about infradev issues or triage, then team members are given
+    an opportunity to discuss blockers or concerns. Then we close by talking about
+    something fun.
+- Database Staff Planning every Wednesday at 21:00 UTC
+  - Limited group discusses current and up coming high level epics to sync on planning
+    and backlog prioritization.
 
 ## Work
 
@@ -82,17 +79,90 @@ In order to follow what the database group is currently working on, we recommend
 watching our [group's kickoff presentations for new milestones](https://www.youtube.com/playlist?list=PL05JrBw4t0KqP3MYrcoQHrqPUqn_jJZSN)
 and [the respective milestone planning issues](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues?scope=all&state=all&search=database+group+planning).
 
-### Activity Log
-
-Since end of 2021, we maintain an [activity log](activity-log.html) to keep
-track of past projects and outcomes.
-
 ## Planning
 
-We use a [planning issue](https://gitlab.com/gitlab-org/database-team/team-tasks/-/blob/master/.gitlab/issue_templates/Planning.md)
-to discuss priorities and commitments for the milestone.  This happens largely
-asynchronously, but when we do need to discuss synchronously we discuss during
-the Tuesday team [meeting](#meetings) timeslot.
+We do high level project planning on our [roadmap board](https://gitlab.com/groups/gitlab-org/-/epic_boards/2066534).
+given the often pressing and interruptive nature of our team's work, we typically
+plan only "Current", "Next", and "Eventually".
+
+In progress work is tracked on our [team status epic](https://gitlab.com/groups/gitlab-org/data-access/dbf/-/epics/1)
+which pulls status updates from the linked epics to the summary table in the
+description.
+
+### Project Lifecycle
+
+Projects go through a few different phases throughout their development.
+
+#### 1. Problem Validation
+
+New epics are created with the [database frameworks project template](https://gitlab.com/gitlab-org/database-team/team-tasks/-/raw/master/Epic%20Templates/New%20Project.md)
+
+During problem Validation, the team and manager will review a proposed epic, ask questions, and flesh out details. Once it's agreed that that it's
+a problem we both want to solve, and agree on the priority, we'll apply the `~"workflow::planning breakdown"` and `~Roadmap`, and the label for when we think we want to do the project (`~"roadmap::next" or ~"roadmap::later") labels and move to the next phase.
+
+#### 2. Planning Breakdown
+
+During planning breakdown, assigned members of the team look at the proposed exit criteria, and the current state of the application and
+determine the path we want to take in order to get to there. Typically, we'll consider several proposed solutions and then decide on one. This may happen either async in an issue, or synchronously in a recorded meeting with stakeholders.
+
+Once the high level phases are determined, and the project is ready to be started, we'll apply `~"workflow::ready for development"`.
+
+#### 3. Project Execution
+
+Once a project is actually started, we apply the `~"workflow::in dev"`, to the project at a high level, as well as to the issues it contains as we go.
+
+Each week, the epic status summary bot will ask for updates on the epic and summarize them in the team status epic.
+
+#### 4. Verification
+
+Once a project is complete, we have a final phase where we monitor the results and create follow up items to plan for a future iteration. These may be
+bugs, or they could be improvements. We may have a milestone or two of `~"workflow::verification"` after the main items are completed.
+
+- Work discovered in this phase may not be completed right away, but scheduled in one of our "Misc Buckets" down the line
+- Bugs might be tackled right away if they're bad
+- Consider a second project to tackle follow up items if there's another major iteration to do
+
+### Project Roles
+
+Each project will have 1-n team members assigned to work on it, within those folks there are
+a couple of distinct roles, with specific responsibilities.
+
+#### Project DRI
+
+The project DRI is primary point of contact for a given project. If there are questions or issues, they're
+the first point of contact while a project is in progress.
+
+##### Responsibilities
+
+- Serve as primary decision maker about the direction a project should go
+- Provide a weekly status update every Tuesday on the current status of the project
+- Triage project related issues and bugs for priority and severity
+- Coordinate the project with assigned project members
+- Set up and facilitate any sync meetings the project requires
+
+**Note**: If a DRI is on PTO, their [coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage) should designate
+someone who will cover these responsibilities during that time period.
+
+#### Project Member
+
+A project member will be assigned to the epic, and complete portions of the work.
+
+##### Responsibilities
+
+- Complete issues in the project, coordinated with the [Project DRI](#project-dri)
+- Attend any project sync meetings as necessary to coordinate and complete the work
+- Serve as a backup DRI if the project DRI is unavailable
+
+#### Project Mentor
+
+We may sometimes assign project mentors as needed. Unlike members or DRIs, Mentors typically don't work
+on the actual changes, but instead are available as guides during the design phase, and ongoing helping
+the DRI complete their duties.
+
+##### Responsibilities
+
+- Assist the DRI with their responsibilities
+- Optionally attend any sync meetings the project requires
 
 ### Issue Weights
 
@@ -124,13 +194,7 @@ requests could this be broken into.
    gitlab for database changes, one for new functionality, one for documentation
 changes, and one to omnibus - you would assign `/weight 4`
 
-#### Timeline for implementation
-
-15.4 - 15.7: We'll ping each issue in the milestone without a weight and ask
-folks to add one to collect data
-15.8 +: TBD
-
-### Triage rotation
+## Triage rotation
 
 We have a fairly simple triage rotation. Each week one team member is dedicated
 to triaging incoming issues for the database group. This allows for the rest of
@@ -161,12 +225,7 @@ the possible outcomes are:
   `~workflow::scheduling`
 - Close as duplicate and link to the duplicate issue
 
-The goal is to keep the number of issues for triage low and manageable.
-
-Tip: In order to remove closed issues from the triage board, use [this search](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&state=closed&label_name[]=group%3A%3Adatabase&label_name[]=database%3A%3Atriage)
-and edit multiple issues at once to remove the `~database::triage` label.
-
-### Boards
+## Boards
 
 [Database by Milestone](https://gitlab.com/groups/gitlab-org/-/boards/1318796?&label_name%5B%5D=group%3A%3Adatabase)
 The Milestone board gives us a "big picture" view of issues planned in each
@@ -180,50 +239,14 @@ labels. Issues in the `workflow::ready for development` column are ordered in
 priority order (top down). Team members use this column to select the next item
 to work on.
 
-[Database: Validation](https://gitlab.com/groups/gitlab-org/-/boards/2305758?scope=all&utf8=%E2%9C%93&label_name[]=group%3A%3Adatabase&label_name[]=database%3A%3Avalidation)
-The validation board is a queue for incoming issues for the Product Manager to
-review. A common scenario for the Database Team validation board is when an
-issue is created that requires further definition before it can be prioritized.
-The issue typically states a big picture idea but is not yet detailed enough to
-take action. The Database Team will then go through a refinement process to
-break down the issue into actionable steps, create exit criteria and prioritize
-against ongoing efforts. If an issue becomes too large, it will be promoted to
-an epic and small sub-issues will be created.
-
-[Database: Triage](https://gitlab.com/groups/gitlab-org/-/boards/2305765?scope=all&utf8=%E2%9C%93&label_name[]=database%3A%3Atriage)
-The triage board is for incoming issues that require further investigation for
-team assignment, prioritization, previously existing issues, etc. Within the
-Database Group we have implemented a weekly triage rotation where one team
-member is responsible for monitoring this board for timely responses.
-
-#### Say/Do Ratio
-
-We use the `~Deliverable` label to track our Say/Do ratio.  At the beginning of
-each milestone, during a Database Group Weekly meeting, we review the issues and
-determine those issues we are confident we can deliver within the milestone.
-The issue will be marked with the `~Deliverable` label.  At the end of the
-milestone the successfully completed issues with the `~Deliverable` label are
-tracked in two places.  We have a dashboard in Tableau that will calculate how
-many were delivered within the milestone and account for issues that were moved.
-Additionally, our milestone retro issue lists all of the `~Deliverable` issues
-shipped along with those that missed the milestone.
-
-#### Roadmap
+### Roadmap
 
 The Database Group
-[Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Roadmap&label_name[]=group%3A%3Adatabase)
+[roadmap board](https://gitlab.com/groups/gitlab-org/-/epic_boards/2066534)
 gives a view of what is currently in flight as well as projects that have been
 prioritized for the next 3+ months.
 
-### Weekly Team Updates
-
-The enablement section is using status issues in order to provide regular status
-updates. Each week, the team's engineering manager posts general announcments,
-and members of the team post updates on their in progress projects.
-
-These issues can be found [here (internal)](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adatabase&first_page_size=100).
-
-### Documentation
+## Documentation
 
 We document our insights, road maps and other relevant material in this section.
 
