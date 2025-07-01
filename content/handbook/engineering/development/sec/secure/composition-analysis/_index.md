@@ -215,7 +215,7 @@ You can search for `SLA::Breached` issues in the issue tracker using the followi
 #### Gemnasium vulnerabilities
 
 Since the new Dependency Scanner analyzer is FedRAMP supported, Gemnasium is no longer FedRAMP supported. Therefore, treat all Gemnasium vulnerabilities as `non-FedRAMP findings` when following SLA exception processes.
-Refer to the [SLA exceptions handbook page](../../../security/product-security/vulnerability-management/sla-exceptions.md) for process details.
+Refer to the [SLA exceptions handbook page](../../../../../security/product-security/vulnerability-management/sla-exceptions.md) for process details.
 
 #### Triaging vulnerabilities
 
