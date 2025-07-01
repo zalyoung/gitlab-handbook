@@ -349,7 +349,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that the default for `TIMESTAMP` is `TIMESTAMP_NTZ` which does not include a time zone.
 
-- Prefer `BOOLEAN` for logical data types: TRUE/FALSE instead of 1/0.
+- Prefer `BOOLEAN` for logical data types: `TRUE`/`FALSE` instead of `1`/`0`.
 
 ### Functions
 
