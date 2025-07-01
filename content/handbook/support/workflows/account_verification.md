@@ -49,8 +49,8 @@ The table below provides a summary of the available verification options based o
 | Requester | Target | Challenges | Support PIN | Notes |
 | --- | --- | --- | --- | --- |
 | Enterprise Owner | Own account | Owner passes challenges on own account | Support PIN must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com/handbook/support/#account-verification-challenge-questions) for other challenges. |
-| Enterprise Owner | Member of paid group or intent to be added or Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CCed on ticket. |
-| Owner | Non-enterprise user | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CCed on ticket.  |
+| Enterprise Owner | Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CCed on ticket. |
+| Owner | Non-enterprise user (who is a member of or intends to be added to owner's paid group) | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CCed on ticket.  |
 | Paid User | Own account | User passes challenges on own account | N/A | If owner is needed, owner must open a new ticket. |
 | Paid User | Other member of same paid group | Target user passes challenges on own account | N/A | If owner is needed, owner must open a new ticket.|
 | Free User | Non-member of group with intent to be added | Not allowed - request must come from group owner | Owner vouch required |  |
