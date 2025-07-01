@@ -207,6 +207,7 @@ Please refer to a specific job listing to see if the position is hiring in the c
 | France *                                                       | Entity                             |
 | Germany                                                        | Entity                             |
 | Ireland                                                        | Entity                             |
+| Israel                                                          | Entity                             |
 | Italy *                                                        | Entity                             |
 | Japan                                                          | Entity                             |
 | South Korea                                                    | Entity                             |
