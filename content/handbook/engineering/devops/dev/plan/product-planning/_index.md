@@ -29,26 +29,6 @@ track against some of the [Development Department KPIs](/handbook/company/kpis/#
 those around merge request creation and acceptance. From that dashboard, the
 following chart shows [MR Rate](/handbook/engineering/performance-indicators/#engineering-mr-rate). Please reference the dashboard section below.
 
-### Application performance dashboard
-
-We have useful dashboards tracking the performance of parts of the application we're responsible for:
-
-- Application dashboards; showing request throughput, latency, SQL query counts, cache hits, Sidekiq jobs for Web and API endpoints, git usage and error budgets. Also links to other useful resources in Kibana.
-  - [Product Planning]
-- The [Sitespeed Dashboard](https://dashboards.gitlab.net/d/product-plan/product-performance-plan?orgId=1); showing the results of ongoing synthetic tests against representative product pages. Useful for identifying changes in page load time (TTFB), LCP, etc.
-
-## OKRs
-
-Beginning FY24, we have moved away from Ally.io and have been using GitLab to track OKRs. Please note that the links below are only accessible to GitLab team members.
-
-### Active Quarter OKRs
-
-The current quarter (FY25-Q3) OKRs are visible [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
-
-### Previous Quarter OKRs
-
-All the previous quarter OKRs are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=closed&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
-
 ## Work
 
 See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Plan:Project Management backend team page](/handbook/engineering/devops/dev/plan/project-management/).
