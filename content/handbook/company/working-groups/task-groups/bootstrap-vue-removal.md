@@ -60,7 +60,8 @@ These are the known challenges, but there may be additional issues that have yet
 
 | Task Group Role | Person                   | Title                                                         |
 | --------------- | ------------------------ | ------------------------------------------------------------- |
-| DRI             | Peter Hegman             | Senior Frontend Engineer, Tenant Scale::Organizations         |
+| DRI             | Vanessa Otto             | Senior Frontend Engineer, AI::Workflow Catalog                |
+| Member          | Peter Hegman             | Senior Frontend Engineer, Tenant Scale::Organizations         |
 | Member          | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Foundations::Personal Productivity  |
 | Member          | Lukas Eipert             | Staff Frontend Engineer, Foundations::Personal Productivity   |
 | Member          | Lorenz van Herwaarden    | Senior Frontend Engineer, Govern::Threat Insights             |
