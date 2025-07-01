@@ -110,6 +110,10 @@ The current Self-Managed option attempts to serve all customer infrastructure un
 
 Cloud-native deployments enable critical capabilities that traditional OS-level installations cannot efficiently support, or that we do not have the engineering bandwidth to deliver at the expected quality. In addition, cloud-native deployments enable customers to scale GitLab far more efficiently.
 
+Here is an outline of the workflow, as it stands:
+
+![deploymnt options workflow](./lucid_deployment_options.svg){width=50%}
+
 ### Goals
 
 <!--
@@ -170,6 +174,14 @@ Segment the Self-Managed option into two distinct tiers:
 | Value Proposition | Core product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling. |
 | Feature Guarantee | No new Ultimate features. | All new Ultimate functionality guaranteed. |
 
+The implementation of this segmentation has practical implications. We do not aim to enfoce
+cloud native deployments in order for SMA to have value. In order to address this concern,
+we must faciliate mixed environments, where the existing monolith provides services already
+present, and can be attached to supplemental components deployed in Kubernetes. This would
+serve as a bridge between SMB and SMA, such that a customer can expand their existing SMB into
+an SMA capable environment by providing necessary platform access, and deploying the extended
+feature components.
+
 ## Design and implementation details
 
 <!--
@@ -196,6 +208,15 @@ Diagrams authored in GitLab flavored markdown are preferred. In cases where
 that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
+
+TBD fleshed out
+- Omnibus + K8s for auxilliary CN components
+- Interconnection of mixed environments
+  - Inclusion of inter-component service discovery and secure communications
+- Consistency requirements across Helm charts from GitLab
+- Clear definition of k8s supported versions
+  - Will these match to the components supported versions (such as KAS)
+- Considerations of GET & Dedicated, Dedicated for Gov.
 
 ## Alternative Solutions
 
