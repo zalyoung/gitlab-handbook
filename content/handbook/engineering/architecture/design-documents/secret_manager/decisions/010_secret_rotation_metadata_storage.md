@@ -1,6 +1,6 @@
 ---
 owning-stage: "~sec::software supply chain security"
-title: 'GitLab Secrets Manager ADR 009: Using Rails ActiveRecord for Secret Rotation Metadata'
+title: 'GitLab Secrets Manager ADR 010: Using Rails ActiveRecord for Secret Rotation Metadata'
 toc_hide: true
 ---
 
