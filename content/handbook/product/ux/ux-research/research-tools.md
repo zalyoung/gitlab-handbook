@@ -69,5 +69,3 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 
 - Use [Figjam](https://www.figma.com/figjam/) for online brainstorming, synthesis, and collaboration.
   - Be sure to grant the participant access to the board before the session.
-
-Any other doubt? Do not heasitate to reach out to the UX Research Operations Team on [#ux_research_operations](https://gitlab.enterprise.slack.com/archives/C03SW7KPA1X)
