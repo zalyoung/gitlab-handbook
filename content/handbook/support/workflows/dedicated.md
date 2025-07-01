@@ -236,15 +236,3 @@ You are now done raising the incident!
 If the nature of the emergency reaches the point where we only need to provide async status updates
 to the customer, consider engaging the [GitLab Dedicated Communications Manager on Call](/handbook/support/workflows/dedicated_cmoc)
 to take over.
-
-### Troubleshooting tips
-
-#### Tagging logs while running tests
-
-Customers can add a custom identifier, such as the ticket ID, to the `user-agent` field when testing. This makes it easier to filter logs related to the test.
-
-For example:
-
-```bash
-curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/sign_in"
-```

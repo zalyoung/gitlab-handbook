@@ -12,6 +12,16 @@ When working on a GitLab Dedicated ticket, prioritize asking for information tha
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
 
+### Tagging logs while running tests
+
+Customers can add a custom identifier, such as the ticket ID, to the `user-agent` field when testing. This makes it easier to filter logs related to the test.
+
+For example:
+
+```bash
+curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/sign_in"
+```
+
 ### Preprod deployments
 
 Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-preprod-deployments) to find links to Opensearch logs for a specific customer's Preprod environment, when applicable.
