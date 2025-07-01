@@ -82,5 +82,5 @@ The final two will be picked up once they're unblocked.
 | Member             | Lukas Eipert        | Staff Frontend Engineer, Foundations:Design System  |
 | Member             | Marina Mosti        | Senior Frontend Engineer, Switchboard               |
 | Member             | Nathan Dubord       | Senior Frontend Engineer, about.gitlab.com          |
-| Member             | Vanessa Otto        | Senior Frontend Engineer, Foundations:Design System |
+| Member             | Vanessa Otto        | Senior Frontend Engineer, AI:Workflow Catalog       |
 | Member             | Vitaly Slobodin     | Staff Frontend Engineer, Fulfillment                |
