@@ -3,7 +3,7 @@ title: "Security Platforms & Architecture"
 description: "Security Platforms & Architecture Team Charter"
 ---
 
-Last Updated: April 1, 2025
+Last Updated: July 1, 2025
 
 ## Mission Statement
 
