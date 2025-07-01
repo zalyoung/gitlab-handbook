@@ -24,13 +24,18 @@ The parent google group of the sales team is sales-all. Several child groups fal
 | sales-ent-managers | leadership | ASMs and above on the Enterprise team |
 | sales-com-managers | leadership | ASMs and above on the Commercial team |
 | sales-cs-managers | leadership | Managers and above on the Customer Success team |
+| SDRBDR Leadership | leadership | Managers and above on the Sales Dev team |
 | sales-commercial | segment | Members of the commercial sales team |
 | sales-ent | segment | Members of the enterprise sales team |
+| SDRBDR Team | segment | All Members of the Sales Dev Org |
 | sales-emea | team | Members of the ENT EMEA sales team |
 | sales-apac | team | Members of the ENT APAC sales team |
 | sales-east | team | Members of the ENT AMER east sales team |
 | sales-west | team | Members of the ENT AMER west sales team |
 | sales-pubsec | team | Members of the ENT pubsec sales team |
+| sales-dev-amer | team | Members of the AMER Sales Dev teams |
+| sales-dev-apj | team | Members of the APJ Sales Dev teams |
+| sales-dev-emea | team | Members of the EMEA Sales Dev teams |
 | sales-cs | segment | Members of the customer success team |
 | partners_all_hands | segment | Members of the Partner team |
 | rsoe-team | segment | Members of the Revenue Strategy, Operations and Enablement (RSOE) team |
@@ -68,6 +73,8 @@ Only use Slack Groups if:
 | sales_ent_managers | ASMs and above on the Enterprise team |
 | sales_com_managers | ASMs and above on the Commercial team |
 | sales_cs_managers | Managers and above on the Customer Success team |
+| sales_dev_leadership | Managers and above on the Sales Dev team |
+| salesdev_global | All Sales Dev teammembers |
 
 ### Field Slack Channels
 
@@ -128,6 +135,23 @@ The recommendation is to use public channels even while it may sometimes feel un
 | #channel-marketing | public | Topics related to channel marketing |
 | #channel-services | public | Topics related to channel services |
 | #channel-accred-mvp | public | Communication about the channel partner accreditation program |
+
+**Sales Dev**
+
+| Channel Name | Channel Access (Private/Public) | Description |
+| ------ | ------ | ------ |
+| #sales_dev_global | public | Main channel for the global Sales Dev team |
+| #sales_dev_fyi | public | Announcements channel for Sales Development team |
+| #sdr_amer_emea_inbound | public | Team channel for the AMER and EMEA SDR team |
+| #amer_bdr | public | Team channel for all AMER BDR teams |
+| #bdr_amer_comm | public | Team channel for the AMER Commercial BDR team |
+| #bdr_amer_ent | public | Team channel for the AMER Enterprise BDR team |
+| #bdr_amer_fins_latam | public | Team channel for the AMER FINS & LATAM BDR team |
+| #apj_sales_dev | public | Team channel for the APJ Sales Development team |
+| #bdr_entg_emea_dach | public | Team channel for the EMEA DACH BDR team |
+| #bdr_entg_emea_neur_meta | public | Team channel for the EMEA NEUR UKI BDR team |
+| #bdr_entg_emea_seur | public | Team channel for the SEUR BDR team |
+| #bdr_emea-egc-meta-telco | public | Team channel for the EMEA META TELCO EGC BDR team |
 
 ### Helpful Company Slack Channels
 
