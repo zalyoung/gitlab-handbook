@@ -128,6 +128,10 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 - [Support Manager APAC Schedule](https://gitlab.pagerduty.com/schedules/PWBXTYX)
 - [Support Manager EMEA Schedule](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
 
+### Customer Events Calendar
+
+- [Customer Events calendar](https://calendar.google.com/calendar/u/0/embed?src=c_8d5a8e9b8c3fc74901bad1799b18e8eafc9e499f7805f9c82f79f9d1e1f9ac4b@group.calendar.google.com)
+
 ## Handling Self-managed Emergencies
 
 As the CEOC you will work with the customer along with other Support Engineers to coordinate the resolution of the emergency through the following stages:
