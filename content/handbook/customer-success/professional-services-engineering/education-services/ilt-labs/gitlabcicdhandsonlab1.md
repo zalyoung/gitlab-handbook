@@ -213,7 +213,7 @@ Without artifacts, we need to build our application twice.
           - ./array
       ```
 
-So far, your `.gitlab-ci.yml` file should look like this:
+      So far, your `.gitlab-ci.yml` file should look like this:
 
       ```yaml
       default:
