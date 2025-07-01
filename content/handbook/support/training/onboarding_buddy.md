@@ -56,11 +56,10 @@ Note that everyone's needs are different, so consider the following as a list of
 ### Week 3+
 
 - Remember to review their open modules with them to see:
-   - if they need help with any tasks, and remind them to check out the tasks they finish, and close the modules 
-   - if they have any open modules that don't seem to fit their path at the moment and discuss it with them
+  - if they need help with any tasks, and remind them to check out the tasks they finish, and close the modules 
+  - if they have any open modules that don't seem to fit their path at the moment and discuss it with them
 
 - Consider scheduling a regular chat aside from the pairing session(s), or alocate time in your regular meetings to discuss their progress, concerns, and what they need help with.
-
 
 ### Pairings
 
