@@ -24,7 +24,7 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 **For participant recruitment and management**
 
 - Use [RallyUXR](https://app.rallyuxr.com/gitlab/home) as your primary tool for recruitment, panel management, scheduling, and incentive processing across all user research.
-  - [RallyUXR](https://app.rallyuxr.com/gitlab/studies) is already connected to most of the tools and databases we use for research. If additional set up is needed for your study, the ReOps team will let you know.
+  - [RallyUXR](https://app.rallyuxr.com/gitlab/studies) is already connected to most of the tools and databases we use for research. If additional setup is needed for your study, the ReOps team will let you know.
   - Leverage their **external panel option** (powered by [Respondent.io](http://Respondent.io)) when you can't recruit enough participants through our existing user base in RallyUXR.
   - Use [User Interviews](https://www.userinterviews.com/researcher) only when looking for participants with diverse accessibility needs, when you need non-GitLab users or RallyUXR cannot fulfill your participant quota.
 
