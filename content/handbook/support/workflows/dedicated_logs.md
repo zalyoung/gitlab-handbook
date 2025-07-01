@@ -26,10 +26,6 @@ curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/
 
 Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-preprod-deployments) to find links to Opensearch logs for a specific customer's Preprod environment, when applicable.
 
-### Log requests older than 7 days
-
-If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
-
 ## Identifying tenants
 
 Each customer has a dedicated set of credentials needed for examining logs in OpenSearch. The credentials and the URL for that customer's OpenSearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a three word **Internal reference** in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`. You should [use Switchboard](/handbook/support/workflows/dedicated_switchboard/#accessing-customer-configuration) as the single source of truth for identifying the **Internal reference** for a tenant based on the GitLab Dedicated instance URL.
@@ -71,6 +67,22 @@ benefit the customer, please read
 [Sharing internal logs, data & graphs](/handbook/support/workflows/dedicated/#sharing-internal-logs-data--graphs).
 
 GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/administration/dedicated/configure_instance/#access-to-application-logs).
+
+#### Log requests older than 7 days
+
+If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
+
+#### Granting customers access to application logs
+
+Customers may request access to their AWS S3 bucket to [monitor their instance](https://docs.gitlab.com/administration/dedicated/monitor/).
+
+1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/monitor/#request-access-to-application-logs). In this case, it's an **IAM principal**.
+
+   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
+
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker.
+1. Provide the IAM principal to the Environment Automation team.
+1. Provide the name of the S3 bucket to the customer.
 
 #### Sharing log links within GitLab
 

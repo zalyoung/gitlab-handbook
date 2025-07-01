@@ -186,13 +186,7 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 
 #### Application Logs Request
 
-1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/monitor/#request-access-to-application-logs). In this case, it's an **IAM principal**.
-
-   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
-
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker.
-1. Provide the IAM principal to the Environment Automation team.
-1. Provide the name of the S3 bucket to the customer.
+See [Granting customers access to application logs](/handbook/support/workflows/dedicated_logs/#granting-customers-access-to-application-logs)
 
 ### Filing issues
 
