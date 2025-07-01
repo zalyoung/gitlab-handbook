@@ -63,7 +63,7 @@ Note there are many ways to tackle a research problem. Below are some basic sugg
 - Use [Qualtrics](https://gitlab.eu.qualtrics.com/), or [Google Forms](https://docs.google.com/forms/) for text-based diary study 
 - [Google Forms](https://docs.google.com/forms/) is better for collecting simple daily feedback
   - Both [Qualtrics](https://gitlab.eu.qualtrics.com/) and [Google Forms](https://docs.google.com/forms/) allow participants to submit screen captures too. 
-- For video diary entries, U[UserTesting.com](http://UserTesting.com) is the best option.
+- For video diary entries, [UserTesting.com](http://UserTesting.com) is the best option.
 
 **For co-creation**
 
