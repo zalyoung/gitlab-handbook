@@ -41,7 +41,7 @@ Prompting techniques range from simple questions to complex multi-step instructi
 ### Agents
 
 LLMs are great at text generation but cannot directly interact with the real world.
-To solve this limitation, we connect external tools (such as web search, APIs, or database queries) to the LLM via advanced prompting.
+To solve this limitation, we connect external tools (such as web search, APIs, or database queries) to the LLM by implementing advanced prompting.
 The LLM decides which tools to use based on the user's input, and then the system executes the selected tools to provide the user with actual real-world data.
 For example, if the user asks "What's the current weather in New York?", the LLM would choose to use a web search tool.
 An agent is this combination of an LLM with external tools that enables it to take actions and achieve specific goals in the real world.
@@ -51,10 +51,10 @@ This allows agents to perform complex, multi-step tasks such as researching topi
 
 Multi-agent systems are setups that consist of several specialized agents orchestrated in some way.
 The market has demonstrated that multi-agent setups are exceptionally effective at solving complex user tasks that would be challenging for a single agent to handle alone.
-For example, Anthropic recently demonstrated that a multi-agent research system with Claude Opus 4 as the lead agent and Claude Sonnet 4 subagents
+For example, Anthropic recently demonstrated that a multi-agent research system with Claude Opus 4 as the lead agent and Claude Sonnet 4 sub-agents
 outperforms single-agent Claude Opus 4 by [90.2%](https://www.anthropic.com/engineering/built-multi-agent-research-system).
-There are many architectures of multi-agent systems available ranging from sequencial chaing, through polling, peer-to-peer, up to a lead agent that manages other subagents.
-This ADR aims to be multi-agent achitecture agnostic, supporting wide variety of options, wihout prescribing any particular one.
+There are many architectures of multi-agent systems available ranging from sequential chains, through polling, peer-to-peer, up to a lead agent that manages other sub-agents.
+This ADR aims to be multi-agent architecture agnostic, supporting wide variety of options, without prescribing any particular one.
 
 ### Agents vs Flow vs Duo Agent Platform: what is the difference?
 
@@ -132,7 +132,7 @@ that served as the basis for a [demo recording](https://gitlab.zoom.us/rec/share
 Components are the basic atomic units of operations to compose agent setups; they represent a certain responsibility.
 For example, a component can be responsible for reviewing a merge request, or a component can be responsible for writing a new unit test to improve test coverage for a project.
 One can perceive components as individuals within an organization, to whom various tasks in a business process can be delegated. Those tasks can vary in complexity and
-be as simple as a one-off interaction (e.g., sending an email), to more elaborate tasks like reviewing a merge request. What creates an important distinction is the fact that
+be as simple as a one-off interaction (for example, sending an email), to more elaborate tasks like reviewing a merge request. What creates an important distinction is the fact that
 components must have **a single role** in the agent setup.
 For example, when a feature is being developed, an engineer creates the feature implementation,
 but a technical writer is responsible for providing user-facing documentation.
@@ -146,7 +146,7 @@ Example diagrams for the mentioned components are presented in a [section](#prop
 
 ##### Proposed components
 
-Non exhausitive list of generic components outlinging a starting point for the proposed famework.
+Non exhaustive list of generic components outlining a starting point for the proposed framework.
 
 1. Cyclic agent
 
@@ -192,7 +192,6 @@ flowchart LR
         Process[Process<br> Human response]
     end
 ```
-
 
 1. Deterministic step
 
@@ -287,7 +286,7 @@ Routers navigate between different components and ensure the required order of o
 
 On a technical level, Routers wrap LangGraph edges that connect components and implement logic that enforces correct execution through the Flow setup.
 Routers make path selection decisions based on attributes within the Flow setup's state, such as status or messages from preceding components.
-One example is a supervisor approach when one agent is a lead and other agents are subagents performing certain smaller tasks.
+One example is a supervisor approach when one agent is a lead and other agents are sub-agents performing certain smaller tasks.
 
 An example Router diagram is presented below:
 
@@ -340,7 +339,7 @@ assigned to components based on their role in a Flow setup.
 
 This proposal doesn't change any of the existing decisions around the way tools are developed and managed.
 The tools implementation is described in this [document](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/adding_new_tool.md?ref_type=heads),
-while tools permissions and configurations are described in this [section](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/duo_workflow/#tools-permissions-and-approval-system)
+while tools permissions and configurations are described in this [section](../duo_workflow/_index.md/#tools-permissions-and-approval-system)
 of the Duo Workflow architecture blueprint.
 
 ## Future evolution
