@@ -52,6 +52,8 @@ Note that everyone's needs are different, so consider the following as a list of
 - Show them our [Testing Environments](/handbook/support/workflows/test_env), and introduce them to GitLab Sandbox Cloud for GCP
 - Encourage them to create MRs for the handbook or docs if they see something that needs to be updated.
 - Help them update the [GitLab team page](/handbook/company/team/) with their info (one of their Onboarding Issue checklist items)
+- Consider doing async slack check-ins to see if they have questions that they might be reluctant to ask, or something they might need your help with.
+- Consider splitting the info you are sharing with them over several meetings/pairings, to avoid getting them overwhelmed.
 
 ### Week 3+
 
@@ -74,8 +76,8 @@ Note that everyone's needs are different, so consider the following as a list of
 - Working on tickets:
   - Show them how to create a ticket pairing issue using [pairfy](https://gitlab.com/gitlab-com/support/toolbox/pairify)
   - While trying to help them feel comfortable, we also want new SEs to develop the [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) value by going out of their comfort zone. Stress that there are no stupid questions (maybe share the most recent "silly question" that you asked) and encourage them to ask questions in different public Slack channels
-  - Have them setup pairings with different subject matter experts when they feel stuck on a topic
-  - Walk them through the GitLab calendars, and show them some group pairings in their region that can be beneficial to their development
+  - Have them set up pairings with different subject matter experts when they feel stuck on a topic. Specify the experts by sharing their full name or gitlab username, to avoid confusion.
+  - Walk them through the GitLab calendars, and show them some group pairings in their region that can be beneficial to their development. Consider sending them a link to the 
 
 - Pair on tickets:
   - Share your screen and answer a few easy tickets with them
@@ -91,6 +93,6 @@ Note that everyone's needs are different, so consider the following as a list of
 
 ### What to do afterwards
 
-- After closing the on-boarding issue, discuss with them the different focus areas, and ask them what training module they might be interested in picking next. Guide them to the subject matter experts and the spt pod slack channels (if any)
+- After closing the on-boarding issue, discuss with them the different focus areas, and ask them what training module they might be interested in picking next. Guide them to the subject matter experts and the spt pod slack channels (if any). Send them the full names of the experts and channels in DM or add them to a shared doc if you have one.
 - Consider keeping a frequent check-in/chat/pairing with them (ex. monthly)
 - Over the first few months, if you have anything interesting you're working on that you think they can learn from, ping them and see if they'd like to either pair or shadow you on it.
