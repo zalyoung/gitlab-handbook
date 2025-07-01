@@ -28,7 +28,7 @@ During your time as onboarding buddy, you'll be working alongside the new Suppor
 | | Call to help them update the team page, GitLab Sandbox Cloud for GCP, the GDK, or anything else they may have questions about or trouble with. |
 | [Weeks 3+](#pairings)| Pair at least twice, but more often if you can. Ideally, aim for once a week. |
 | | Invite them to shadow you on any customer calls. |
-| | Identify tickets that can help push the engineer out of their comfort zone. and encourage them to [self-assign](/handbook/support/workflows/working-on-tickets) these tickets. Consider leaving an internal note with some suggestions or discussing with them how to move it forward |
+| | Identify tickets that can help push the engineer out of their comfort zone. Encourage them to [self-assign](/handbook/support/workflows/working-on-tickets) these tickets. Consider leaving an internal note with some suggestions or discussing with them how to move it forward. |
 
 ## Ideas & Suggestions
 
