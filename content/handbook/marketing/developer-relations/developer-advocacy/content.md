@@ -78,7 +78,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 |-------|------|--------------|-----|
 | [GitLab Premium and Ultimate with Duo](https://gitlab.navattic.com/gitlab-premium-with-duo) |  GitLab Duo | 2025-05-18 | @iganbaruch |
 | [GitLab Duo with Amazon Q](https://gitlab.navattic.com/duo-with-q) |  GitLab Duo | 2025-04-23 | @iganbaruch |
-| [GitLab Duo Agent Platform](https://gitlab.navattic.com/duo-workflow) |  GitLab Duo | 2025-03-18 | @iganbaruch |
+| [GitLab Duo Agent Platform](https://gitlab.navattic.com/duo-agent-platform) |  GitLab Duo | 2025-03-18 | @iganbaruch |
 | [GitLab Duo Self-Hosted](https://gitlab.navattic.com/gitlab-duo-self-hosted) |  GitLab Duo | 2025-02-13 | @iganbaruch |
 | [Compliance Frameworks](https://gitlab.navattic.com/compliance) | DevSecOps Platform | 2025-01-27 | @iganbaruch |
 | [Compliance Frameworks - Japanese](https://gitlab.navattic.com/compliance-ja) | DevSecOps Platform | 2025-05-27 | @iganbaruch |
