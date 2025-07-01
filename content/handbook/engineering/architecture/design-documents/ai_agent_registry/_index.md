@@ -1,5 +1,5 @@
 ---
-title: "Agent Registry"
+title: "Flow Registry"
 status: ongoing
 creation-date: "2025-06-05"
 authors: ["@achueshev", "@mikolaj_wawrzyniak"]
@@ -14,13 +14,13 @@ toc_hide: true
 
 ## Summary
 
-This blueprint presents the implementation of an Agent Registry as part of the AI Gateway to centrally manage GitLab's growing collection of agent AI setups.
-As GitLab continues transforming AI features to be agentic and building new agentic capabilities, there is a need for a standardized approach to building, managing, and orchestraing these agent setups.
-The proposed Agent Registry will serve as a single entry point for LangGraph-based agent development and orchestration across the platform.
+This blueprint presents the implementation of a Flow Registry as part of the AI Gateway to centrally manage GitLab's growing collection of internal Duo Agent Platform flows.
+As GitLab continues transforming AI features to be agentic and building new agent capabilities, there is a need for a standardized approach to building, managing, and orchestrating these agent setups.
+The proposed Flow Registry will serve as a single entry point for internal agentic AI development and orchestration across the GitLab platform.
 
 ## Preamble
 
-This section gives a high-level overview of the key concepts that define the AI Agents space at GitLab.
+This section gives a high-level overview of the key concepts that define agents and flows at GitLab.
 These concepts explain general details, while specific implementation details can be found in the subsequent sections.
 
 ### Large Language Models
@@ -58,50 +58,51 @@ This ADR aims to be multi-agent achitecture agnostic, supporting wide variety of
 
 ### Agents vs Flow vs Duo Agent Platform: what is the difference?
 
-An Agent, is a systems where LLMs dynamically direct it's own processes and tool usage, maintaining control over how it accomplishes tasks.
-A Flow (previously known as Workflow) orchestrates one or more agents, as well as predefined actions (like commit creation, or an API call) into a
-sequence of steps connected through predefined code paths designed to achieve a specific task or goal.
+An Agent, is a system where LLMs dynamically direct it's own processes and tool usage, maintaining control over how it accomplishes tasks.
+A Flow (previously known as Workflow) orchestrates one or multiple agents, as well as predefined deterministic actions (like commit creation, or an API call)
+into a sequence of steps connected through predefined code paths designed to achieve a specific task or goal.
 Duo Agent Platform is an engine that runs Flows.
 
 For more details on terminology please refer to GitLab Duo Agent Platform terminology [documentation](https://docs.gitlab.com/development/ai_features/glossary/#gitlab-duo-agent-platform-terminology).
 
->Note: Due to the ongoing development and legacy code, the Workflow term is still actively used and means a single or multi-agent setup for solving complex user tasks.
-
-### Putting it all together
-
-Given the concepts we define above, the overall picture of how LLMs, prompts, and agents work together looks as follows:
-
-![Overview](/images/handbook/engineering/architecture/design-documents/ai_agent_registry/concepts_overview.png)
+> Note: Due to the ongoing development and legacy code, the Workflow term is still actively used and means a single or multi-agent setup for solving complex user tasks.
 
 ## Motivation
 
-We recently migrated Duo Workflow Service to the AI Gateway.
-We also reimplemented Duo Chat using the Duo Workflow codebase.
-One of the future steps will be completely reconfiguring Duo Workflow engine to Duo Agent Platform, including clarification of our terminology.
-Overall, this opens a path for creating various agents and flexible multi-agent setups on top of the existing work and future changes.
-As we continue working increasingly on enhancing our AI Agent stack and transforming existing AI features to be agentic, there is a growing need for centralized management and orchestration of these agents.
-The AI Gateway requires an Agent Registry to provide discoverability, governance, and seamless implementation of agentic features of varying complexity across the platform.
+We recently completed the migration of Duo Workflow Service to the AI Gateway.
+We also reimplemented Duo Chat using the Duo Workflow codebase, marking our first successful attempt
+at converting the Duo Workflow infrastructure into a flexible engine for various agent-based setups.
+To better reflect this evolution, we have renamed Duo Workflow to **Duo Agent Platform**.
+Our existing Software Developer setup now serves as the foundational example of the new Flow [concept](https://docs.gitlab.com/development/ai_features/glossary/#gitlab-duo-agent-platform-terminolog).
+These changes establish a clear pathway for creating diverse agents and flows in a scalable and efficient manner through the Duo Agent Platform.
+
+However, as we expand beyond individual agent implementations and accelerate development of new complex agentic flows,
+the need for centralized management and orchestration across our growing AI stack has become critical.
+
+To address this requirement, the AI Gateway needs a **Flow Registry** that will provide:
+
+- **Discoverability** of available Flows
+- **Governance** and version control
+- **Seamless implementation** of new Flows of varying complexity levels throughout the platform
 
 ## Goal
 
-Build a central Agent Registry in the AI Gateway that makes it easy to build, run, and manage Agent setups, including multi-agent setups with various orchestration approaches.
+Build a central Flow Registry in the AI Gateway that makes it easy to build, run, and manage agentic flow setups of varying complexity and orchestration approaches.
 
 ## Objectives
 
 Based on the goal and motivation, we define the following objectives:
 
-1. Build an Agent Registry as part of the AI Gateway and Workflow Service
-1. Create examples showing how to use the Agent Registry and orchestrate agents
-1. Write clear documentation to help developers build and improve AI Agents
+1. Build a Flow Registry as part of the AI Gateway and Workflow Service.
+1. As part of the registry implementation, provide internal mechanisms to build Flows using either the custom Python-based API or YAML syntax.
+1. Write clear documentation to help developers build and maintain new Flows.
 
 ## Non-goals
 
-1. Customer-facing Agent Registry. This blueprint focuses on improving our internal stack for implementing AI Agents efficiently.
-   However, the Agent Registry can be reused by the Duo Workflow Catalog team to further extend its functionality for customers.
-2. DSL implementation. We have already had several ideas and conversations about implementing a [DSL](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/1074) on top of YAML to easily prototype new agentic setups.
-   This blueprint focuses on one step before DSL and is mainly about organizing our architecture in Python.
-   This architecture can later be extended by DSL when required.
-   Building a DSL is risky at this moment as our AI stack is under active development and a DSL might become a bottleneck.
+1. Customer-facing DSL implementation. This blueprint involves building an internal YAML-based DSL for scalable Flow implementation in the AI Gateway.
+   Please note this DSL is entirely internal and improves our existing AI stack. Building a customer-facing DSL that
+   customers may use for building their own custom Flows is out of scope for this blueprint. However, the work done
+   in this proposal can be reused by the Duo Workflow Catalog team to further extend its functionality for customers.
 
 ## Implementation details
 
@@ -111,11 +112,11 @@ This allows us to create complex agent behaviors by connecting different compone
 To share data between all parts of the graph, LangGraph provides a shared state object that nodes can read from and update.
 
 Any agent setup (single or multi-agent) we develop at GitLab can be presented as a graph with its own state.
-In the next sections, we define a set of primitives provided by the Agent Registry to compose reusable and maintainable agents that are easy to develop, find, and store.
+In the next sections, we define a set of primitives provided by the Flow Registry to compose reusable and maintainable agentic flows that are easy to develop, find, and store.
 
-### Agent graph composition
+### Agent Flow Graph Composition
 
-We define the following list of primitives supported by the Agent Registry for agent development:
+We define the following list of primitives supported by the Flow Registry for agentic AI development:
 
 1. Components
 1. Routers
@@ -268,26 +269,25 @@ An example implementation of customised component
 
 ```python
 agent_component = AgentComponent(
-            name="agent",
-            prompt_id="agents/awesome",
-            prompt_version="^1.0.0",
-            toolset=agents_toolset,
-            inputs=["first.task"],
-            output_type=AgentFinalOutput,
-            output="answer"
-        )
+    name="agent",
+    prompt_id="agents/awesome",
+    prompt_version="^1.0.0",
+    toolset=agents_toolset,
+    inputs=["context:task"],
+    output_type=AgentFinalOutput,
+    output="context:agent.answer"
+)
 ```
 
 #### 2\. Routers
 
-Routers orchestrate Components into predefined structures, governing the order of operations within an agent setup.
-
-Agent setups are composed of Components, but these components need to be arranged in a specific structure to model effective business processes.
+Routers orchestrate Components into predefined structures, governing the order of operations within a Flow setup.
+Flow setups are composed of Components, but these components need to be arranged in a specific structure to model effective business processes.
 Routers navigate between different components and ensure the required order of operations is respected.
 
-On a technical level, Routers wrap LangGraph edges that connect components and implement logic that enforces correct execution flow through the agent setup.
-They could make path selection decisions based on attributes within the agent setup's state, such as status or messages from preceding components.
-Another example is a supervisor approach when one agent is a lead and other agents are subagents performing certain smaller tasks.
+On a technical level, Routers wrap LangGraph edges that connect components and implement logic that enforces correct execution through the Flow setup.
+Routers make path selection decisions based on attributes within the Flow setup's state, such as status or messages from preceding components.
+One example is a supervisor approach when one agent is a lead and other agents are subagents performing certain smaller tasks.
 
 An example Router diagram is presented below:
 
@@ -300,27 +300,27 @@ flowchart LR
 
 #### 3\. State
 
-Each agent setup has a global State object used to transport information between different components.
+Each Flow setup has a global State object used to transport information between different components.
 
 ##### Implementation
 
 The State object is a dictionary containing predefined required attributes and a flexible _context_ attribute.
-The context is a nested dictionary that enables every component in an agent setup to write their outputs as key-value pairs for subsequent components to use.
+The context is a nested dictionary that enables every component in a Flow setup to write their outputs as key-value pairs for subsequent components to use.
 
 ```python
 class AgentState(TypedDict):
     status: AgentStatusEnum
     conversation_history: Annotated[
-        Dict[str, List[BaseMessage]]
+        dict[str, list[BaseMessage]]
     ]
-   ui_chat_log: Annotated[List[UiChatLog]]
-   context: Dict[str, Union[str, int, float]]
+   ui_chat_log: Annotated[list[UiChatLog]]
+   context: dict[str, str | int | float]
 ```
 
 #### 4\. Prompts
 
 Prompts are text templates used to specify roles for generic components.
-Upon configuration, a generic component must be connected to a prompt via a _prompt id_.
+Upon configuration, a generic component must be connected to a prompt through a _prompt id_.
 Prompt templates can have placeholder fields for dynamic values. If a prompt template
 has any placeholders, their names must match a component [input](#inputs).
 
@@ -334,7 +334,7 @@ Tools represent actions in the external environment that a component can take in
 By way of analogy, tools can be imagined as permissions assigned to a role in an organization.
 For example, a CFO can issue financial statements on behalf of a whole organization,
 while a database admin has direct access to a database server. In the same fashion, tools should be
-assigned to components based on their role in an agent setup.
+assigned to components based on their role in a Flow setup.
 
 ##### Implementation
 
@@ -343,12 +343,7 @@ The tools implementation is described in this [document](https://gitlab.com/gitl
 while tools permissions and configurations are described in this [section](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/duo_workflow/#tools-permissions-and-approval-system)
 of the Duo Workflow architecture blueprint.
 
-### Timeline
-
-We estimate completing the work on the Agent Registry in 1 milestone.
-
 ## Future evolution
 
-Implementing DSL on top of the Agent Registry might be considered as the next step.
-The DSL could potentially be used by customers. This work requires additional effort and collaboration with the
-Duo Workflow Catalog team.
+Implementing customer-facing DSL might be considered as the next step.
+This work will require additional effort and collaboration with the Duo Workflow Catalog team.
