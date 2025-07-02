@@ -16,7 +16,7 @@ we dedicate the first week to retrospectives, planning, and issue refinement.
 **Meeting:** Retrospective. Async-retros didn't work well.
 
 **Focus**: Refinment and milestone planning.
-Engineers plan their own work for the milestone by the end of the week doing necessary refinment.
+Engineers plan their own work for the milestone by the end of the week doing necessary refinement.
 
 ### Week #2 - Milestone Kick-off
 
