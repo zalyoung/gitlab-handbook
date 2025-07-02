@@ -39,7 +39,6 @@ GitLab has identified the following external and internal issues that are releva
 - Contractual obligations
 - Intended purpose of the AI system to be developed or used.
 
-
 ## Scope
 
 The scope of GitLab's ISMS is limited to the production resources that directly support GitLab SaaS subscriptions: GitLab.com and GitLab Dedicated.
