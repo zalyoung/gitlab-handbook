@@ -13,22 +13,21 @@ Information about SIRT responsibilities and incident ownership is available in t
 
 Before engaging the SEOC, please review [our severity and priority levels](/handbook/security/security-operations/sirt/severity-matrix/) to ensure that the incident has been assigned the appropriate level of response.
 
-For phishing related issues, see [Phishing](#phishing). For other non-urgent issues, see [Low Severity Issues](#low-severity-issues)/
+For phishing related issues, see the [phishing](#phishing) section below. For other non-urgent issues, see the [low severity issues](#low-severity-issues) section.
 
-Note: Additional information on Recovery Time Objective (RTO) and Recovery Point Objective (RPO)is available on the [BPC Handbook page](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/)
+Note: Additional information on Recovery Time Objective (RTO) and Recovery Point Objective (RPO) is available on the [BCP Handbook page](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/)
 
 The following items are out of scope for SIRT and should be escalated to the respective teams mentioned below:
 
 - **Vulnerability reports and HackerOne**: please escalate to [Application Security](/handbook/security/engaging-with-security/#vulnerability-reports-and-hackerone)
 - **Abuse reports and DMCA notices**: please escalate to [Trust & Safety](/handbook/security/security-operations/trustandsafety/)
 - **General Customer Inquiries**: please escalate to [Field Security](/handbook/security/security-assurance/field-security/)
-- **Self-Managed Instances**: please escalate to [TBD]
 
 ## Low Severity Issues
 
 For general Q&A, GitLab Security is available in the `#security` channel in GitLab Slack.
 
-For low severity, non-urgent issues, [SIRT](/handbook/security/security-operations/sirt/) can be reached by mentioning `@sirt-members` in Slack or by requesting the incident form link, using the `/security` slash command in Slack. (Note: this command does not work inside Slack threads)
+For low severity, non-urgent issues, [SIRT](/handbook/security/security-operations/sirt/) can be reached by using the `@sirt-members` handle in Slack, `@sirt-oncall` to specifically request the Security Engineer On-call (SEOC) or by requesting the incident form link, using the `/security` slash command in Slack. (Note: this command does not work inside Slack threads)
 
 Please be advised the SLA for Slack mentions is **6 hours** on business days.
 
@@ -54,7 +53,7 @@ For small requests like an indication if something is a security issue, question
 
 - @sirt-oncall
 
-This taggs the current on call engineer. 
+This tags the current on call engineer. 
 
 If the security incident prevents you from accessing Slack:
 
