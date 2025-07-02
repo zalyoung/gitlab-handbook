@@ -29,7 +29,6 @@ Journey map elevation levels connect and inform each other, with micro-level ins
 - Scope:
   - Focus on high-level phases, major milestones, and business outcomes
   - Show cross-service and cross-channel experiences
-  - Include long-term emotional arc and loyalty drivers
   - Identify ecosystem-wide improvement opportunities
 - Artifacts: [Figma template](https://www.figma.com/board/CAw05ogtEWiRrhW48Uqt22/Journey-Mapping-Templates?node-id=1-156)
 
