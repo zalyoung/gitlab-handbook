@@ -14,7 +14,7 @@ The People Operations Specialist reports to the Manager, People Specialist.
 
 #### Job Grade
 
-The People Operations Specialist is a [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The People Operations Specialist is a Grade 5
 
 #### Responsibilities
 
@@ -43,7 +43,7 @@ The Senior People Operations Specialist reports to the Manager, People Operation
 
 #### Job Grade
 
-The Sr People Operations Specialist is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Sr People Operations Specialist is a Grade 6.
 
 #### Responsibilities
 
@@ -73,7 +73,7 @@ The People Operations Lead reports to the Manager, People Operations.
 
 #### Job Grade
 
-The People Operations Lead is a [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The People Operations Lead is a Grade 7
 
 #### Responsibilities
 
@@ -104,7 +104,7 @@ The Manager, People Operations reports to the Director, Global People Operations
 
 ### Job Grade
 
-The Manager, People Operations is a [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, People Operations is a Grade 8
 
 ### Responsibilities
 
@@ -157,7 +157,7 @@ The Senior Manager, People Operations reports to Director, Global People Operati
 
 ### Job Grade
 
-The Senior Manager, People Operations is a [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, People Operations is a Grade 9
 
 ### Responsibilities
 
@@ -204,8 +204,7 @@ The Director of Global People Operations reports to the VP, People Operations, T
 
 ### Job Grade
 
-The Director, Global People Operations is a [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
+The Director, Global People Operations is a Grade 10
 ### Responsibilities
 
 - Lead and manage a growing People Operations team responsible for managing the employee experience throughout the employee lifecycle.
@@ -243,7 +242,7 @@ The Senior Director of Global People Operations reports to the VP, People Operat
 
 ### Job Grade
 
-The Director, Global People Operations is a [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Global People Operations is a Grade 11
 
 ### Responsibilities
 
