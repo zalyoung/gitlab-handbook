@@ -17,11 +17,19 @@ The parent google group of the CRO org is sales-all. Several child groups fall w
 | cro-leaders | leadership | All direct reports of the CRO |
 | field-managers | leadership | Managers and above |
 | cs.managers | leadership | All managers+ in the Customer Success and Renewal Management orgs |
+| timtams | team | All CSM/A/E team members | 
+| cs-renewals | team | All Renewal Management team members | 
+| digitalsuccess | team | All Digital Success team members | 
 | sales-amer-comm | team, AVPs/RDs/AEs only | All team members in the AMER Commercial team | 
 | sales-amer-east | team, AVPs/RDs/AEs only | All team members in the AMER East team |
 | sales-amer-finserv | team, AVPs/RDs/AEs only | All team members in the AMER Financial Services team |
 | sales-amer-pubsec | team, AVPs/RDs/AEs only | All team members in the AMER Public Sector team |
 | sales-pubsec, public-sector | team, AVPs/RDs/AEs and cross-functional team members | Team members supporting AMER Public Sector |
+| emea-sales-leadership | leadership |  All leaders in cross-functional GTM teams supporting the EMEA region |
+| sales-emea | team | All cross-functional GTM team members supporting the EMEA region |
+| apj-gtm-leaders | leadership | All leaders in cross-functional GTM teams supporting the APJ region | 
+| apj-gtm-org | team | All cross-functional GTM team members supporting the APJ region |
+| HVFO | team | All High Velocity Sales and First Order team members |
 | rsoe-leaders | leadership | All direct reports to the VP of RSO | 
 | rsoe-extendedlt | leadership | All managers+ in the RSO org| 
 | rsoe-team | team | Members of the Revenue Strategy & Operations (RSO) team |
@@ -31,11 +39,6 @@ The parent google group of the CRO org is sales-all. Several child groups fall w
 | channelleadership | leadership | All leaders on the Global Ecosystems team | 
 | global-ecosystem-all-hands | team | All team members in the Global Ecosystems org | 
 | global-ecosystem-all-hands-extended | team | All Global Ecosystem team members + supporting functions, e.g. Legal, FP&A, Marketing, Ops, etc. |
-
-**CONFIRM BELOW** 
-| sales-emea | team | Members of the ENT EMEA sales team |
-| sales-apac | team | Members of the ENT APAC sales team |
-| sales-west | team | Members of the ENT AMER west sales team |
 
 Most team members will be automatically added to their team's applicable Google group within a few days of starting at GitLab by their [team's EBA](/handbook/eba/). To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
 
@@ -87,17 +90,11 @@ The below channels are specific to the Field organization.
 | Channel Name | Channel Access (Private/Public) | Description |
 | ------ | ------ | ------ |
 | #amer-sales-all | public | Team channel for AMER sales |
-| #apac_field_team | public | Team channel for APAC sales |
+| #apac_field_team | public | Team channel for APJ sales |
 | #emea_sales | public | Team channel for EMEA sales |
-
-**CONFIRM BELOW**
-
-| #eastsales | public | Team channel for ENT U.S. East sales team |
-| #westsales | public | Team channel for ENT U.S. West sales team |
-| #mid-atlantic-sales | public | Team channel for ENT U.S. Mid Atlantic sales team |
-| #public-sector-sales |  private | Team channel for Public Sector sales team |
-| #emea_mid-market_sales | public | Team channel for EMEA Mid-Market sales team |
-| #commercial_global_all | private | Team channel for global Commercial sales team |
+| #apj-gtm-org | private | Channel for cross-functional GTM team members who are part of the APJ org and based in-region to post APJ specific updates & questions |
+| #emea-leadership | private | Channel for all leaders (i.e. directly reporting to VP, EMEA) in the EMEA region | 
+| #emea-sales-management | private | All managers+ in the EMEA sales organization | 
 
 **Customer Success & Renewals Management**
 
@@ -107,6 +104,8 @@ The below channels are specific to the Field organization.
 | #global-renewals-managers | public | RM team channel| 
 | #cs-questions | public | Questions from customers and prospects to the Customer Success team about using GitLab and best practices |
 | #demo-systems | public | Open discussion and questions about demo systems |
+| #csmerm_managers | private | All people managers in the CS and RM orgs | 
+| #tim-tams | private | All Customer Success team members | 
 
 **Solutions Architecture** 
 
@@ -133,6 +132,7 @@ The below channels are specific to the Field organization.
 | Channel Name | Channel Access (Private/Public) | Description |
 | ------ | ------ | ------ |
 | #hvs | public | General team channel for collaboration with and within the HVS team | 
+| #hvs_team | private | All High Velocity Sales and First Order team members | 
 | #hvs_renewals | public | Discussions, questions, announcements, and feedback for the SMB Renewals teams that are part of HVS | 
 | #hvs_new_logo_aes | public | Channel for AEs on the HVS team specifically dedicated to First Order / new logos | 
 
