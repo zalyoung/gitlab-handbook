@@ -98,7 +98,7 @@ We're currently trialing a mixed retrospective format, we're team members pair o
 
 ### Workflow
 
-Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary):
+Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary):
 
 #### Validation stage
 
@@ -414,7 +414,7 @@ alert)_
 1. Add appropriate label using the below guideline
     - `~"Analytics Instrumentation::Incident-High Severity"` for impending loss of data for many metrics or moderate to severe loss in business critical metrics that have a performance_indicator_type value.
     - `~"Analytics Instrumentation::Incident-Medium Severity"` for data delay.
-    - Add an appropriate bug severity as per the [definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+    - Add an appropriate bug severity as per the [definition](/handbook/product-development/how-we-work/issue-triage/#severity)
     - For cases when there is minimal impact on data and manual steps or correction is needed, please raise a bug rather than an incident.
 1. Assign the issue to [Analytics Instrumentation Group PM and EM](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/#team-members).
 1. Post in the [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF) slack channel and tag [Analytics Instrumentation Group PM and EM](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/#team-members).

@@ -194,7 +194,7 @@ guide for more information.
 
 ### I found a regression, what do I do next?
 
-If you've found a regression with a potentially high [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), immediately follow the steps in [Deployment blockers](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to halt the deployment.
+If you've found a regression with a potentially high [severity](/handbook/product-development/how-we-work/issue-triage/#severity), immediately follow the steps in [Deployment blockers](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to halt the deployment.
 
 For high severity bugs found in the lead up to the [monthly release](/handbook/engineering/releases/) please also alert the Release Managers in [#releases](https://gitlab.slack.com/archives/C0XM5UU6B).
 

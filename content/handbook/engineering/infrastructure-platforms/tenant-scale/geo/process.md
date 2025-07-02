@@ -90,7 +90,7 @@ When they are satisfied that they have a reasonable solution including an estima
 for discussion and feedback. Planning is transparent anyway, but this serves to notify the team that the new work items are ready
 for development.
 
-For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development/product-development-flow/feature-flag-lifecycle/#development).
+For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#development).
 The original issue should remain open and blocked on the FF rollout issue until the rollout issue is closed, in case the rollout does not go as planned.
 
 #### Schedule
@@ -226,7 +226,7 @@ If any issue is weighted above a 3, we should ask ourselves if it can be further
 
 ### Backlog Refinement Process
 
-Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](/handbook/product-development/product-development-flow/).
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined.
 Each week 3 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
@@ -274,12 +274,12 @@ Process summary:
 - The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5142) for the 2025 rotation.
 - The DRI should estimate the amount of time spent on support and track this via `Time Tracking` in each issue approximating to the hour how much they have spent on tickets and triaging. This is a new part of the process which is in a trial phase.
 
-At the end of the rotation, each engineer should provide handover notes inside the [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5142): 
+At the end of the rotation, each engineer should provide handover notes inside the [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5142):
 
 - Using our standardized Duo Chat prompt for handing over an RFH (WIP)
 - Proofread and correct Duo's output if needed.
 - Post it directly on the issue, with a ping to the new DRI, in a new root comment, not on a thread
-- If needed, the new DRI should ask clarifying questions on a reply to the comment or in Slack.  Setting up a meeting to go over more difficult context would work if timezones aligned. 
+- If needed, the new DRI should ask clarifying questions on a reply to the comment or in Slack.  Setting up a meeting to go over more difficult context would work if timezones aligned.
 
 ##### Schedules
 
@@ -335,4 +335,4 @@ Flags exceeding retention limits require team lead approval with documented just
 
 ## Backlog Cleanup (Trial Phase)
 
-We will start to label issues `~closed:stale` to mark issues that are in our backlog that's not on [the roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=START_DATE_ASC&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::geo&label_name[]=type::feature&label_name[]=backend&progress=WEIGHT&show_progress=true&show_milestones=true&milestones_type=ALL&show_labels=true) but could be good ideas. 
+We will start to label issues `~closed:stale` to mark issues that are in our backlog that's not on [the roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=START_DATE_ASC&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::geo&label_name[]=type::feature&label_name[]=backend&progress=WEIGHT&show_progress=true&show_milestones=true&milestones_type=ALL&show_labels=true) but could be good ideas.
