@@ -7,7 +7,7 @@ description: "How to mature an AI-assisted feature from a UX perspective."
 
 The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects](https://docs.gitlab.com/policy/development_stages_support/), like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
 
-To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow](/handbook/product-development/product-development-flow/):
+To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/):
 
 1. **Validation: Problem validation**: How well do we understand the problem?
 1. **Validation: Solution validation**: How well does the solution address the problem?

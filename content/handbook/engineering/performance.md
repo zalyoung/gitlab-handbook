@@ -391,7 +391,7 @@ To go a little deeper and measure performance of the application & infrastructur
 
 ### Availability
 
-This section has been moved to [Availability severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#availability).
+This section has been moved to [Availability severity](/handbook/product-development/how-we-work/issue-triage#availability).
 
 ### Performance
 

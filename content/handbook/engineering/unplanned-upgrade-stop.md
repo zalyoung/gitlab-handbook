@@ -47,7 +47,7 @@ _(DRI: To be identified by the Engineering Manager (EM) of the team owning the b
 1. EM to identify DRI for performing Unplanned upgrade stop RCA.
 1. RCA DRI performs Root Cause Analysis and raises corrective actions.
 1. RCA DRI collaborate with Test Platform on test coverage analysis and raise corrective actions.
-1. EM to prioritize corrective actions by following [GitLab Priority label](infrastructure/engineering-productivity/issue-triage/#priority) guidelines for RCA severity.
+1. EM to prioritize corrective actions by following [GitLab Priority label](/handbook/product-development/how-we-work/issue-triage/#priority) guidelines for RCA severity.
 
 ## Metrics
 

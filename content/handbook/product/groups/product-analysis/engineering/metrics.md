@@ -24,7 +24,7 @@ To help our teams work better and faster, we track specific metrics that measure
 #### What’s Included?
 
 * Our metrics includes all MRs affecting the product.
-* The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). 
+* The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads).
 
 By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement.
 
@@ -149,7 +149,7 @@ The 3 types (Bug, Feature & Maintenance) is key to our report to industry analys
 
 1. `~"type::bug"`: Defects in shipped code and fixes for those defects. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
    * `~"bug::performance"`: Performance defects or response time degradation
-   * `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) for more guidance.
+   * `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/product-development/how-we-work/issue-triage/#availability) for more guidance.
    * `~"bug::vulnerability"`: Defects related to Security Vulnerabilities
    * `~"bug::mobile"`: Defects encountered on Mobile Devices
    * `~"bug::functional"`: Functional defects resulting from feature changes

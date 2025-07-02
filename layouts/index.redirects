@@ -42,69 +42,6 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
-# IT Team move to CorpSec - remove 2025-09-30
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/:splat 301
-/handbook/security/corporate/end-user-services/onboarding-access-requests/ /handbook/security/corporate/end-user-services/laptop-management/ 301
-/handbook/it/end-user-services/ /handbook/security/corporate/end-user-services/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/
-/handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
-/handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/:splat 301
-/handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
-/handbook/it/okta/okta-enduser-faq/ /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/ 301
-/handbook/it/okta/okta-enduser-faq/* /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/:splat 301
-/handbook/it/okta/ /handbook/security/corporate/end-user-services/okta/ 301
-/handbook/it/okta/* /handbook/security/corporate/end-user-services/okta/:splat 301
-/handbook/security/corporate/services/laptops/wipe/ /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
-
-
-# Delivery Group move in Infra platforms - remove 2025-04-20
-/handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
-/handbook/engineering/infrastructure/team/delivery/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/:splat 301
-
-# Remove Infra TPM - remove 2025-04-29
-/handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
-
-# Webinar redirects - remove 2025-05-01
-/handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
-/handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
-
-# Red Team redirects - remove 2025-05-05
-/handbook/security/security-operations/red-team/red-team-roe/ /handbook/security/security-operations/red-team/how-we-operate/rules-of-engagement/ 301
-
-# Old red team handbook - remove 2025-05-11
-/handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
-
-# Source Code team pages move - remove 2025-05-11
-/handbook/engineering/development/dev/create/source-code-be/ /handbook/engineering/devops/dev/create/source-code/backend/ 301
-/handbook/engineering/development/dev/create/create-source-code-fe/ /handbook/engineering/devops/dev/create/source-code/frontend/ 301
-
-# Old red team handbook - remove 2025-05-11
-/handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
-
-# about.gitlab.com handbook guide redirects - remove 2025-05-25
-/handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
-
-# Secure planning - remove 2025-05-27
-/handbook/engineering/development/sec/secure/workflow/ /handbook/engineering/development/sec/secure/planning/ 301
-
-# Infrastructure realignment - remove 2025-06-01
-/handbook/engineering/infrastructure/platforms/ /handbook/engineering/infrastructure-platforms/ 301
-/handbook/engineering/infrastructure/test-platform/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
-/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/ /handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/ 301
-/handbook/engineering/infrastructure/test-platform/test-engineering-team/ /handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ 301
-/handbook/engineering/infrastructure/test-platform/test-engineering/ /handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ 301
-/handbook/engineering/infrastructure/test-platform/pipeline-monitoring/ /handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/ 301
-/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/ /handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/ 301
-/handbook/engineering/quality/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
-/handbook/engineering/infrastructure/test-platform/gitlab-data-seeder/ https://gitlab-org.gitlab.io/quality/data-seeder 301
-
-# Update Earth Month file - remove 2025-06-25
-/handbook/legal/esg/earth-month/index.html/ /handbook/legal/esg/earth-month/ 301
-
-# Organization filename cleanup - remove 2025-06-26
-/handbook/engineering/architecture/design-documents/organization/organization-faq/ /handbook/engineering/architecture/design-documents/organization/faq/ 301
-
 # SMB team name updates - remove 2025-07-14
 /handbook/sales/commercial/global_digital_smb/* /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
 /handbook/sales/self-service/ /handbook/sales/high-velocity-sales-fo-team/ 301
@@ -116,8 +53,8 @@
 /handbook/sales/commercial/smb/ /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
 
 # Product Dev flow moved - remove 2025-07-29
-/handbook/product-development-flow/ /handbook/product-development/product-development-flow/ 301
-/handbook/product-development-flow/* /handbook/product-development/product-development-flow/:splat 301
+/handbook/product-development-flow/ /handbook/product-development/how-we-work/product-development-flow/ 301
+/handbook/product-development-flow/* /handbook/product-development/how-we-work/product-development-flow/:splat 301
 
 # Non-existent Incubation department - remove 2025-07-29
 /handbook/engineering/development/incubation/ /handbook/engineering/development/ 301
@@ -141,35 +78,6 @@
 /handbook/engineering/development/incubation/server-runtime/ https://docs.gitlab.com/user/duo_workflow/ 301
 /handbook/engineering/development/incubation/service-desk/ https://docs.gitlab.com/user/project/service_desk/ 301
 
-# Old Infrastructure Department moved - remove 2025-09-30
-/handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
-/handbook/engineering/infrastructure/capacity-planning/ /handbook/engineering/infrastructure-platforms/capacity-planning/ 301
-/handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
-/handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
-/handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ 301
-/handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
-/handbook/engineering/infrastructure/faq/ /handbook/engineering/infrastructure-platforms/faq/ 301
-/handbook/engineering/infrastructure/feature-support/ /handbook/engineering/infrastructure-platforms/feature-support/ 301
-/handbook/engineering/infrastructure/incident-review/ /handbook/engineering/infrastructure-platforms/incident-review/ 301
-/handbook/engineering/infrastructure/network-security/ /handbook/engineering/infrastructure-platforms/network-security/ 301
-/handbook/engineering/infrastructure/projects/ /handbook/engineering/infrastructure-platforms/projects/ 301
-/handbook/engineering/infrastructure/release-tools/ /handbook/engineering/infrastructure-platforms/release-tools/ 301
-/handbook/engineering/infrastructure/service-maturity-model/ /handbook/engineering/infrastructure-platforms/service-maturity-model/ 301
-
-# Technical Writing handbook pages - remove 2025-08-05
-/handbook/product/ux/technical-writing/documentation/ /handbook/product/ux/technical-writing/#documentation 301
-/handbook/product/ux/technical-writing/fundamentals/ https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals 301
-/handbook/product/ux/technical-writing/fundamentals/examples/ https://docs.gitlab.com/development/documentation/topic_types/ 301
-/handbook/product/ux/technical-writing/setup/ https://docs.gitlab.com/development/documentation/authoring_environment/ 301
-/handbook/product/ux/technical-writing/workflow/ https://docs.gitlab.com/development/documentation/workflow/ 301
-
-# Infra library moved - remove 2025-10-10
-/handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
-/handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
-
-# Cells project moved - remove 2025-12-22
-/handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
-
 # Source Code team pages move - remove 2025-08-01
 /handbook/engineering/development/ /handbook/engineering/devops/ 301
 
@@ -191,9 +99,46 @@
 /handbook/engineering/development/ops/ /handbook/engineering/devops/ops/ 301
 /handbook/engineering/development/ops/* /handbook/engineering/devops/ops/:splat 301
 
+# Technical Writing handbook pages - remove 2025-08-05
+/handbook/product/ux/technical-writing/documentation/ /handbook/product/ux/technical-writing/#documentation 301
+/handbook/product/ux/technical-writing/fundamentals/ https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals 301
+/handbook/product/ux/technical-writing/fundamentals/examples/ https://docs.gitlab.com/development/documentation/topic_types/ 301
+/handbook/product/ux/technical-writing/setup/ https://docs.gitlab.com/development/documentation/authoring_environment/ 301
+/handbook/product/ux/technical-writing/workflow/ https://docs.gitlab.com/development/documentation/workflow/ 301
+
 # Security Policies team pages move - remove 2025-08-25
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/ /handbook/engineering/development/sec/security-risk-management/security-policies/ 301
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/* /handbook/engineering/development/sec/security-risk-management/security-policies/:splat 301
+
+# IT Team move to CorpSec - remove 2025-09-30
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/:splat 301
+/handbook/security/corporate/end-user-services/onboarding-access-requests/ /handbook/security/corporate/end-user-services/laptop-management/ 301
+/handbook/it/end-user-services/ /handbook/security/corporate/end-user-services/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/
+/handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
+/handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/:splat 301
+/handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
+/handbook/it/okta/okta-enduser-faq/ /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/ 301
+/handbook/it/okta/okta-enduser-faq/* /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/:splat 301
+/handbook/it/okta/ /handbook/security/corporate/end-user-services/okta/ 301
+/handbook/it/okta/* /handbook/security/corporate/end-user-services/okta/:splat 301
+/handbook/security/corporate/services/laptops/wipe/ /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
+
+# Old Infrastructure Department moved - remove 2025-09-30
+/handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
+/handbook/engineering/infrastructure/capacity-planning/ /handbook/engineering/infrastructure-platforms/capacity-planning/ 301
+/handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
+/handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
+/handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ 301
+/handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
+/handbook/engineering/infrastructure/faq/ /handbook/engineering/infrastructure-platforms/faq/ 301
+/handbook/engineering/infrastructure/feature-support/ /handbook/engineering/infrastructure-platforms/feature-support/ 301
+/handbook/engineering/infrastructure/incident-review/ /handbook/engineering/infrastructure-platforms/incident-review/ 301
+/handbook/engineering/infrastructure/network-security/ /handbook/engineering/infrastructure-platforms/network-security/ 301
+/handbook/engineering/infrastructure/projects/ /handbook/engineering/infrastructure-platforms/projects/ 301
+/handbook/engineering/infrastructure/release-tools/ /handbook/engineering/infrastructure-platforms/release-tools/ 301
+/handbook/engineering/infrastructure/service-maturity-model/ /handbook/engineering/infrastructure-platforms/service-maturity-model/ 301
 
 # AI reorg - remove 2025-09-30
 /handbook/engineering/ai/data-science/ /handbook/engineering/ai/ 301
@@ -204,3 +149,17 @@
 /handbook/engineering/ai/data-science/ai-powered/duo-workflow/ /handbook/engineering/ai/duo-agent-platform/ 301
 /handbook/engineering/ai/data-science/ai-powered/duo-workflow/* /handbook/engineering/ai/duo-agent-platform/:splat 301
 /handbook/engineering/ai/data-science/ai-powered/workflow-catalog/ /handbook/engineering/ai/workflow-catalog/ 301
+
+# Product Dev pages reorg - remove 2025-10-03
+/handbook/engineering/infrastructure/engineering-productivity/issue-triage/ /handbook/product-development/how-we-work/issue-triage/ 301
+/handbook/product-development/r-and-d-interlock/ /handbook/product-development/how-we-work/r-and-d-interlock/ 301
+/handbook/product-development/roles-and-responsibilities/ /handbook/product-development/how-we-work/roles-and-responsibilities/ 301
+/handbook/product-development/product-development-flow/ /handbook/product-development/how-we-work/product-development-flow/ 301
+/handbook/product-development/product-development-flow/* /handbook/product-development/how-we-work/product-development-flow/:splat 301
+
+# Infra library moved - remove 2025-10-10
+/handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
+/handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
+
+# Cells project moved - remove 2025-12-22
+/handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
