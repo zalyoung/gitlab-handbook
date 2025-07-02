@@ -49,7 +49,7 @@ This page further documents the scope and responsibilities of the DRI and their 
 The following guidelines are used for triaging issues in [content sites projects](https://gitlab.com/gitlab-com/content-sites/)
 that are [in-scope](#what-are-the-content-websites).
 
-The triage guidelines use the [product issue triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+The triage guidelines use the [product issue triage](/handbook/product-development/how-we-work/issue-triage/#priority)
 information as a basis. However, as the group structure and resources differ for the content
 sites, so do the guidelines.
 

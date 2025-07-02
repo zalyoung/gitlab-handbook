@@ -215,7 +215,7 @@ We also have a dashboard specifically for monitoring AI features: [Create: Code 
 
 #### Priority and Severity
 
-More details can be found in the handbook for [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [priority](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+More details can be found in the handbook for [severity](/handbook/product-development/how-we-work/issue-triage/#severity) and [priority](/handbook/product-development/how-we-work/issue-triage/#priority)
 
 #### Calendar Invites
 
