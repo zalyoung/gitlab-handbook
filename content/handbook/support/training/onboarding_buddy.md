@@ -77,7 +77,7 @@ Note that everyone's needs are different, so consider the following as a list of
   - Show them how to create a ticket pairing issue using [pairfy](https://gitlab.com/gitlab-com/support/toolbox/pairify)
   - While trying to help them feel comfortable, we also want new SEs to develop the [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) value by going out of their comfort zone. Stress that there are no stupid questions (maybe share the most recent "silly question" that you asked) and encourage them to ask questions in different public Slack channels
   - Have them set up pairings with different subject matter experts when they feel stuck on a topic. Specify the experts by sharing their full name or gitlab username, to avoid confusion.
-  - Walk them through the GitLab calendars, and show them some group pairings in their region that can be beneficial to their development. Consider sending them a link to the 
+  - Walk them through the GitLab calendars, and show them some group pairings in their region that can be beneficial to their development. Consider sending them a link to them
 
 - Pair on tickets:
   - Share your screen and answer a few easy tickets with them
