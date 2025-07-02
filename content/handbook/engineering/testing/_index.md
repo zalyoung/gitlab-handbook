@@ -37,7 +37,7 @@ input on test strategy, helping us focus testing efforts on critical user
 journeys and high-impact areas. We make strategic decisions about where to
 invest our testing efforts based on user impact and business needs.
 
-**Quality Gates**: Testing is embedded throughout our [product development workflow](../../product-development/product-development-flow/):
+**Quality Gates**: Testing is embedded throughout our [product development workflow](/handbook/product-development/how-we-work/product-development-flow/):
 
 - Pre-commit and pre-receive hooks for immediate feedback
 - [Merge request pipelines with mandatory code reviews](../../engineering/workflow/code-review/) that must pass before code integration

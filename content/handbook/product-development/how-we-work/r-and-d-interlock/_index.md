@@ -221,7 +221,7 @@ gantt
       <ul>
         <li>Goal: Assure readiness of alignment
           <ul>
-            <li>Phase 1: Outline the <a href="/handbook/product-development/roles-and-responsibilities/#who-what-why-how-and-when">Who, What, and Why</a>
+            <li>Phase 1: Outline the <a href="/handbook/product-development/how-we-work/roles-and-responsibilities/#who-what-why-how-and-when">Who, What, and Why</a>
               <ul>
                 <li>Business value</li>
                 <li>Requirements (use case and pains to address)</li>
@@ -505,19 +505,19 @@ process.*
 
 ## GitLab Process
 
-The Interlock process has moved to GitLab epics within the `gitlab-org/` group, starting with planning quarter FY27-Q1. 
+The Interlock process has moved to GitLab epics within the `gitlab-org/` group, starting with planning quarter FY27-Q1.
 
 Generally, where implementation work can be public, use an [internal note](https://docs.gitlab.com/user/discussions/#add-an-internal-note) to make notes or discuss any sensitive information. Examples include, but are not limited to, customer names, ARR impact, and other business details that shouldn't be publicly visible.
 
 If the implementation work is not in the `gitlab-org/` group, a separate interlock epic should be created using the [provided template](https://gitlab.com/groups/gitlab-org/-/epics/new?description_template=interlock_template). Each interlock epic should be linked to its corresponding workstream epic, allowing for easy navigation and drilldown into the actual implementation work. The interlock epic should be used to discuss anything related to the interlock process, and regularly updated with a summary on its "health" and progress.
 
-### GitLab's Product Roadmap R&D Interlock Process 
+### GitLab's Product Roadmap R&D Interlock Process
 
 ![6 stages of process: feature alignment, R&D alignment discussion, GPM/director review, GTM alignment discussion, VP review, executing](/images/handbook/interlock-process-diagram.png)
 
 ### When to use this process
 
-Not all work requires going through this interlock process. Regular development work that doesn't require cross-functional alignment, significant resource commitment, or go-to-market coordination can continue to use standard workstream epics and issues. 
+Not all work requires going through this interlock process. Regular development work that doesn't require cross-functional alignment, significant resource commitment, or go-to-market coordination can continue to use standard workstream epics and issues.
 
 Work proposed via the R&D Interlock process will benefit from:
 

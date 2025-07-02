@@ -31,7 +31,7 @@ The Product Designer (UX) - Marketing (Intermediate) is a [grade 6](/handbook/to
 #### Product Designer (UX) - Marketing (Intermediate) Requirements
 
 - **Product knowledge:** Understand the technology and features of GitLab.
-- **Research:** Conduct [solution validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) with guidance of your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
+- **Research:** Conduct [solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) with guidance of your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
 - **Deliverables:** Create deliverables for our [Digital Experience team](/handbook/marketing/digital-experience/) (for example: competitive analyses, user flows, low fidelity wireframes, high fidelity mockups, prototypes, etc.) that solve real user problems through the user experience.
 - **Communication:** Communicate the results of UX activities with the [Digital Experience team](/handbook/marketing/digital-experience/), cross-functional partners, and other interested GitLab team-members using clear language that simplifies complexity.
 - **Usability:** Proactively identify both small and large usability issues with the Marketing site.
@@ -52,7 +52,7 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 
 - Extends that of the Product Designer (UX) - Marketing responsibilities
 - **Product knowledge:** Understand GitLab's Marketing vison and goals as well as proactively learn other product areas.
-- **Research:** Independently conduct [solution validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) with minimal guidance from your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
+- **Research:** Independently conduct [solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) with minimal guidance from your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
 - **Deliverables:** Create deliverables for our [Digital Experience team](/handbook/marketing/digital-experience/) (for example: competitive analyses, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, personas, design vision, strategic planning, etc.) that help define the vision and execution of solving real user problems through the user experience.
 - **Communication:** Communicate the results of UX activities with a strong point of view within our [Digital Experience team](/handbook/marketing/digital-experience/), cross-functional partners, and other interested GitLab team-members using clear language that simplifies complexity.
 - **Usability:** Proactively identify both small and large usability issues within GitLab's Marketing experience, and help influence your Product  Manager and Technical Product Owner to prioritize them.
@@ -73,7 +73,7 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 - [Identifying and organizing epics into executable Sprint plans](/handbook/marketing/digital-experience/#iteration-process)
 - [Successfully completing bi-weekly Sprint tasks](/handbook/marketing/digital-experience/#sprint-cycle)
 
-### Design Manager (UX) - Marketing 
+### Design Manager (UX) - Marketing
 
 The Design Manager role leads a team of Designers within the Digital Experience organization. This position is responsible for guiding the design vision, fostering a culture of design excellence, and ensuring design solutions meet both user needs and business objectives while maintaining alignment with GitLab's overall product strategy.
 

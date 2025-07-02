@@ -68,10 +68,10 @@ work toward overall team priorities and goals laid out by the team managers.
 
 ## Workflow Summary
 
-Distribution groups use the [GitLab product development flow](/handbook/product-development/product-development-flow/#workflow-summary) and labels in principle, we usually skip below phases due to the nature of our work:
+Distribution groups use the [GitLab product development flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) and labels in principle, we usually skip below phases due to the nature of our work:
 
-* [Validation phase 3: Design](/handbook/product-development/product-development-flow/#validation-phase-3-design)
-* [Validation phase 4: Solution Validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation)
+* [Validation phase 3: Design](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design)
+* [Validation phase 4: Solution Validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation)
 
 ### Planning process
 
@@ -113,7 +113,7 @@ Sometimes, there are works that were not originally planned but require urgent a
 
 ### Required labels
 
-Besides the [GitLab product development flow](/handbook/product-development/product-development-flow/#workflow-summary) labels, there are a number of additional **required** labels applied at any time to Epics, issues and merge requests (items):
+Besides the [GitLab product development flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) labels, there are a number of additional **required** labels applied at any time to Epics, issues and merge requests (items):
 
 * `group::distribution` - Items specific to, or authored by Distribution team. It is a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) to be applied to all Distribution subgroups items until further guidance.
 * `group::distribution::*` - Items specific to, or authored by one of Distribution subgroups. They are [nested scope labels](https://docs.gitlab.com/ee/user/project/labels.html#nested-scopes), and mutually exclusive, but can be used with `group::distribution` scoped label together.

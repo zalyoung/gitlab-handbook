@@ -71,7 +71,7 @@ While refining an issue, copy the below template into a comment and work through
 ```markdown
 ## Refinement Checklist
 
-- [ ] Validated the problem is clear and aligns with team priorities, engaged in any discussions with the PM or other stakeholders as needed 
+- [ ] Validated the problem is clear and aligns with team priorities, engaged in any discussions with the PM or other stakeholders as needed
 - [ ] Updated title for clarity (if needed)
 - [ ] Updated labels for proper categorization (if needed)
 - [ ] Added or improved the "Context" section with necessary background information
@@ -123,7 +123,7 @@ Once we have a sufficient pool of refined issues, we can proceed with milestone 
     - If the PM identifies an issue that must go in the next milestone but is not yet labelled as "workflow::ready for development", they must flag that as early as possible and loop in a team member to refine the issue.
 5. Issue Labels
     - The Product manager adds the correct `code-creation-priority` labels to indiciate the importance of each issue
-    - The Engineering Manager adds the ["Deliverable" label](/handbook/product-development/product-development-flow/#required-labels) to items we commit to focusing on in this milestone
+    - The Engineering Manager adds the ["Deliverable" label](/handbook/product-development/how-we-work/product-development-flow/#required-labels) to items we commit to focusing on in this milestone
     - Mark issues that exceed predicted capacity as "Stretch"
 
 ## Role of Team Members
@@ -177,7 +177,7 @@ The priority order for work is:
 ### What to Work on First: Deliverables
 
 - **Priority**: Deliverables are considered the highest priority and should be completed before the end of the milestone, aligning with our iteration cycle and monthly release schedule.
-- **Self-Assignment**: Engineers can pick any issue marked with the ["Deliverable" label](/handbook/product-development/product-development-flow/#required-labels) and assign it to themselves, making these issues the top priority for the milestone. Issues for the current milestone can be found on the [Code Creation workflow board](https://gitlab.com/groups/gitlab-org/-/boards/5998095).
+- **Self-Assignment**: Engineers can pick any issue marked with the ["Deliverable" label](/handbook/product-development/how-we-work/product-development-flow/#required-labels) and assign it to themselves, making these issues the top priority for the milestone. Issues for the current milestone can be found on the [Code Creation workflow board](https://gitlab.com/groups/gitlab-org/-/boards/5998095).
 - **Importance**: It's crucial for engineers to make a concerted effort to complete these deliverables within the cycle, and to promptly communicate any obstacles to their engineering manager.
 - **Communication and Flexibility**: Unexpected challenges can arise, potentially impacting the completion of a deliverable. Early communication of these challenges allows for possible solutions, such as scope reduction or reassignment. If a deliverable cannot be completed within the cycle, it is moved to the next cycle for completion. This scenario is an opportunity for both the engineer and the engineering manager to reflect and learn from the experience.
 
@@ -189,7 +189,7 @@ The priority order for work is:
 
 ## Workflow and Label Management
 
-- **Label Updates**: It's crucial for engineers to update the ["workflow" labels](/handbook/product-development/product-development-flow/#build-track) accurately as issues progress from "ready for development" to "in dev" to "in review."
+- **Label Updates**: It's crucial for engineers to update the ["workflow" labels](/handbook/product-development/how-we-work/product-development-flow/#build-track) accurately as issues progress from "ready for development" to "in dev" to "in review."
 - **Responsibility**: Engineers are responsible for keeping the workflow labels up to date on all issues they are working on during the milestone.
 
 This milestone planning process is designed to maximize our team's effectiveness by ensuring that everyone is aligned on priorities and responsibilities. It fosters a collaborative environment where every team member contributes to the planning process, leading to a more organized and productive development cycle.

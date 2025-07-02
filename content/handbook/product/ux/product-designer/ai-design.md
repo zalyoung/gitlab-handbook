@@ -26,7 +26,7 @@ As designers, we have less control over user inputs and system outputs than we'r
 
 [Define the opportunity](/handbook/product/ux/product-designer/#define-the-opportunity)
 
-During [problem validation](/handbook/product-development/product-development-flow/#validation-goals--outcomes), you should work closely with Product Managers to understand who you’re designing for, what you’re designing, and why you’re designing it.
+During [problem validation](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes), you should work closely with Product Managers to understand who you’re designing for, what you’re designing, and why you’re designing it.
 
 For GenAI, the problem and solution space may be broader than usual. For example, when working on something like Duo Workflow or Duo Chat, the team may be tempted to say “the feature can assist with anything the user asks”. This approach will make it difficult to evaluate your solution later. You also run a risk of building a solution that does many things poorly, and nothing really well.
 
