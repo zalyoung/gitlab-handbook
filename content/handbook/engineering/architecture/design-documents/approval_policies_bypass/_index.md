@@ -6,7 +6,7 @@ authors: [ "@sashi_kumar" ]
 coaches: [ "@theoretick" ]
 dris: [ "@g.hickman", "@alan" ]
 owning-stage: "~devops::security risk management"
-participating-stages: []
+participating-stages: ["~group::security policies"]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
