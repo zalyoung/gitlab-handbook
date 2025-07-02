@@ -8,7 +8,7 @@ We use GitLab to document product strategy and manage our backlog. A couple of c
 - [Issues](https://docs.gitlab.com/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
 - [Tasks](https://docs.gitlab.com/user/tasks/) (optional): Decompose an Issue into more detailed implementation steps.
 - [Epics](https://docs.gitlab.com/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
-- [Boards](https://docs.gitlab.com/user/project/issue_board/): Aid in visualizing work moving through the [product development flow](/handbook/product-development/product-development-flow/_index.md) and for milestone planning.
+- [Boards](https://docs.gitlab.com/user/project/issue_board/): Aid in visualizing work moving through the [product development flow](/handbook/product-development/how-we-work/product-development-flow/_index.md) and for milestone planning.
 - [Roadmaps](https://docs.gitlab.com/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues
@@ -73,7 +73,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
 - A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
-- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) for classifying a bug as `severity::1`.
+- Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](/handbook/product-development/how-we-work/issue-triage/#severity) for classifying a bug as `severity::1`.
 
 ### Epics
 

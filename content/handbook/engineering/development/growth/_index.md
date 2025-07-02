@@ -73,9 +73,9 @@ The following members of other functional teams are our stable counterparts:
 
 ## How We Work
 
-Our team follows the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) utilizing all labels from `~workflow::start` to `~workflow::complete`.
+Our team follows the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) utilizing all labels from `~workflow::start` to `~workflow::complete`.
 
-We adhere to the **Completion Criteria** and **Who Transitions Out** outlined in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) to progress issues from one stage to the next.
+We adhere to the **Completion Criteria** and **Who Transitions Out** outlined in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) to progress issues from one stage to the next.
 
 ### Labels and Workflow Boards
 

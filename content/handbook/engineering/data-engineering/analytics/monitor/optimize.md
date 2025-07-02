@@ -111,7 +111,7 @@ flowchart TB
 
 #### Organizing the work
 
-We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary):
+We generally follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary):
 
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
@@ -131,7 +131,7 @@ Generally speaking, issues are in one of two states:
 
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/#features).
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ##### Measuring the value of the team deliverables
 
@@ -264,7 +264,7 @@ Issues labeled `Stretch` are stretch goals for delivering in the current milesto
 
 ##### Community contributions
 
-Issues that have previously been agreed upon and labeled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
+Issues that have previously been agreed upon and labeled as `Community contribution` should be [triaged](/handbook/product-development/how-we-work/issue-triage/) to ensure they have:
 
 - A clear [implementation plan](/handbook/engineering/devops/dev/create/remote-development/community-contributions/#treat-wider-community-as-primary-audience).
 - A relevant weight estimate.
@@ -318,17 +318,17 @@ The need for a proof-of-concept MR may signal that parts of our codebase or prod
 
 #### Issue triage
 
-We generally follow the [Issue Triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage) guidelines.
+We generally follow the [Issue Triage](/handbook/product-development/how-we-work/issue-triage) guidelines.
 
 Expectations by role:
 
 - PM is the DRI for `type::feature`
 - EM is the DRI for `type::bug`
 - UX supports the decision around severity labels for issues with `UX`, `Deferred UX`, and `SUS`
-  - Where the UX severity and PM/EM severity is different, we take the [higher severity of the two](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#examples-of-severity-levels).
+  - Where the UX severity and PM/EM severity is different, we take the [higher severity of the two](/handbook/product-development/how-we-work/issue-triage/#examples-of-severity-levels).
 - Engineers are encouraged to participate
 
-On a weekly basis, we aim to triage as many issues as possible. We strive to perform a [complete triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#complete-triage) on issues requiring triage.
+On a weekly basis, we aim to triage as many issues as possible. We strive to perform a [complete triage](/handbook/product-development/how-we-work/issue-triage/#complete-triage) on issues requiring triage.
 
 ### Working on unscheduled issues
 
@@ -372,7 +372,7 @@ Considerations for data seeding scripts:
 
 #### Feature Flags
 
-We [use feature flags as needed](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
+We [use feature flags as needed](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
 
 The following roles and responsibilities are associated with feature flags we own:
 

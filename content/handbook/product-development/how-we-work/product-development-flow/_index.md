@@ -3,7 +3,7 @@ title: Product Development Flow
 description: Cross-functional product development workflow.
 ---
 
-Please follow this [guidance](#contributing-to-this-page) on how to contribute to this page. <!-- To see a list of the latest updates to this page, visit [Product development flow releases](/handbook/product-development/product-development-flow/releases). -->
+Please follow this [guidance](#contributing-to-this-page) on how to contribute to this page. <!-- To see a list of the latest updates to this page, visit [Product development flow releases](/handbook/product-development/how-we-work/product-development-flow/releases). -->
 
 ## Overview & philosophy
 
@@ -23,7 +23,7 @@ As teams leverage the product development flow, they may find that certain strat
 
 ### Measuring Success
 
-We take both a qualitative and quantitative approach to measuring success of the Product Development Flow. Details on the measures and results are available on [this handbook page](/handbook/product-development/product-development-flow/success-metrics/).
+We take both a qualitative and quantitative approach to measuring success of the Product Development Flow. Details on the measures and results are available on [this handbook page](/handbook/product-development/how-we-work/product-development-flow/success-metrics/).
 
 ## But Wait, Isn't This Waterfall?
 
@@ -51,13 +51,13 @@ The workflow labels are prefixed with `workflow::`, such as `workflow::ready for
 ```mermaid
 stateDiagram-v2
     [*] --> ValidationBacklog: New issue created
-    
+
     ValidationBacklog: validation backlog
     ProblemValidation: problem validation
     ReadyForDesign: ready for design
     Design: design
     SolutionValidation: solution validation
-    
+
     ValidationBacklog --> ProblemValidation
     ProblemValidation --> ReadyForDesign: (Optional) Needs design
     ReadyForDesign --> Design
@@ -74,7 +74,7 @@ stateDiagram-v2
     Complete: complete
     Blocked: blocked
     Security: awaiting security release
-    
+
     SolutionValidation --> PlanningBreakdown: PM signals intent to prioritize
     PlanningBreakdown --> Scheduling: (Optional) Awaiting scheduling
     PlanningBreakdown --> Refinement: (Optional) Needs refinement
@@ -85,13 +85,13 @@ stateDiagram-v2
     InDev --> InReview: MRs ready for review
     InReview --> Verification: MRs merged
     Verification --> Complete: Verified in staging/prod
-    
+
     InDev --> Blocked: Blocked by dependency/question
     Blocked --> InDev: Block resolved
-    
+
     InReview --> Security: Waiting for monthly security release
     Security --> Verification: MRs merged and released in security update
-    
+
     Complete --> [*]
 ```
 
@@ -374,7 +374,7 @@ When the change becomes available in production and any needed verification is c
 
 | Outcomes | Activities | DRI |
 |----------|------------|-----|
-|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Feature is available to GitLab.com hosted customers**: After it's deployed to production (and any feature-flags for it are enabled), the feature is launched and available to GitLab.com hosted customers. | - Code is deployed to production. <br/>- [Feature flag(s)](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) enabled. | Development |
+|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Feature is available to GitLab.com hosted customers**: After it's deployed to production (and any feature-flags for it are enabled), the feature is launched and available to GitLab.com hosted customers. | - Code is deployed to production. <br/>- [Feature flag(s)](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) enabled. | Development |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Feature is available to self-managed customers**: The feature will be available in the next scheduled release for self-managed customers to install. | - Code is included in the self-managed release, ([depending upon the cut-off](/handbook/engineering/releases/#monthly-self-managed-releases-process)). | Development |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Stakeholders of a feature will know it's available in production** | - After the feature is deployed to production and any needed verification in production is completed, the development team will close the issue and add the `workflow::complete` label. <br/>- Product Manager may follow up with individual [stakeholders](/handbook/product/product-processes/#what-is-a-stakeholder) to let them know the feature is available. | Development |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Customers will be informed about major changes**: When appropriate for a change, a release post item will be written and merged by the Product Manager. | - Product Manager follows the instructions in the [template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md), which will then cause it to appear on the [GitLab.com releases page](https://about.gitlab.com/releases/gitlab-com/) and be part of the release post. | Product Manager |
