@@ -192,7 +192,7 @@
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
 /content/handbook/engineering/infrastructure/ @marin @sabrinafarmer
-/content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
+/content/handbook/engineering/infrastructure-platforms/capacity-planning.md @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ @marin @denisra @plu8
 /content/handbook/engineering/infrastructure-platforms/emergency-change-processes.md @marin @sabrinafarmer
