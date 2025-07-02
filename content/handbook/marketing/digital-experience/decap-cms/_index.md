@@ -160,7 +160,7 @@ To add an event to [about.gitlab.com/events/](https://about.gitlab.com/events/),
    - Ex: `connect-sydney-2025.yml`
 1. Fill in the following fields, maintaining the same format for the date: 
 
-    ```
+    ```plaintext
 
     name: 
     type: 
@@ -174,5 +174,5 @@ To add an event to [about.gitlab.com/events/](https://about.gitlab.com/events/),
     eventURL: 
 
     ```
-    
+
 1. Create an MR, review, and merge your changes
