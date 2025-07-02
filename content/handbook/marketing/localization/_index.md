@@ -127,7 +127,7 @@ Our internal reviewers are volunteer GitLab employees. We completely appreciate 
 
 ## Marketing Localization
 
-Our website is now available in 6 languages. The translated congent of our website pages is stored across our Contentful CMS, the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content) project, and the [about-gitlab-com](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content) project.
+Our website is now available in 6 languages. The translated content of our website pages is stored across our Contentful CMS, the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content) project, and the [about-gitlab-com](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content) project.
 
 You can go to the [Digital Experience's Localization Best Practices team Handbook page](/handbook/marketing/digital-experience/engineering/localization/) for further technical details on localizing content.
 
