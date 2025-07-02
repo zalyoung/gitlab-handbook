@@ -50,7 +50,7 @@ Participation in Elevate Prep requires:
 1. Active interest in developing leadership skills
 1. Ability to commit to all four sessions
 
-During our Open enrollment sessions, team members must meet with their managers to confirm support in joining the next ElevatePrep cohort. This helps ensure participants have the support needed to fully engage in the program.
+During our Open enrollment sessions, team members must meet with their managers to confirm support in joining the next ElevatePrep cohort. This helps ensure participants have the support needed to fully engage in the program. Managers and People Business Partners can also nominate participants to join an ElevatePrep cohort.   
 
 ## Making up missed sessions
 
