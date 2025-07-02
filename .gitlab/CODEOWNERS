@@ -135,10 +135,10 @@
 /content/handbook/engineering/development/fulfillment/utilization/ @kkolpakova @courtmeddaugh
 /content/handbook/engineering/development/growth/ @kniechajewicz
 /content/handbook/engineering/devops/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
-/content/handbook/engineering/devops/ops/deploy/ @nmezzopera
+/content/handbook/engineering/devops/ops/deploy/ @cheryl.li
 /content/handbook/engineering/devops/ops/package/ @crystalpoole
-/content/handbook/engineering/devops/ops/verify/ @cheryl.li @nicolewilliams @nmezzopera
-/content/handbook/engineering/devops/ops/verify/pipeline-authoring/ @nmezzopera
+/content/handbook/engineering/devops/ops/verify/ @cheryl.li @nicolewilliams
+/content/handbook/engineering/devops/ops/verify/pipeline-authoring/ @cheryl.li
 /content/handbook/engineering/devops/ops/verify/pipeline-execution/ @cheryl.li
 /content/handbook/engineering/devops/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/devops/ops/verify/ci-platform/ @cheryl.li @drew
