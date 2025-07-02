@@ -2,7 +2,7 @@
 title: "Google Tag Manager"
 ---
 
-Google Tag Manager (GTM) is a web tagging management tool that configures web tracking rules and sends data to various analytics and advertisement platforms such as [Google Analytics 4](https://handbook.gitlab.com/handbook/marketing/strategy-performance/google-analytics-4/), Google Ads, and LinkedIn Ads.
+Google Tag Manager (GTM) is a web tagging management tool that configures web tracking rules and sends data to various analytics and advertisement platforms such as [Google Analytics 4](/handbook/marketing/strategy-performance/google-analytics-4/), Google Ads, and LinkedIn Ads.
 
 The [GTM code snippets](https://docs.google.com/document/d/1fPu19k55Xjeoz5PWziBrIoYTbbHT9saPLunzG6RzD04/edit?tab=t.0#heading=h.9yoza8raahpo) are deployed across GitLab's main subdomains including:
 
@@ -149,6 +149,10 @@ Our server-side setup currently forwards data to multiple marketing and analytic
 | Qualified | Functional | Most pageviews | Marketing Operations | Javascript |
 
 *Table last updated: 2025-07-01*
+
+To request the placement of a new tag on the website, please first ensure that the platform is listed on [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), as all platforms must undergo approval by the legal team.
+
+Once the platform has received legal approval, create a new issue under the [Marketing Analytics project](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new), utilizing the `/script_onboarding.md` template. Complete the “Script Context” sections to the best of your abilities. The issue will be automatically assigned to @DennisCharukulvanich, who will assess the remaining tasks.
 
 #### Consent Management Integration
 
