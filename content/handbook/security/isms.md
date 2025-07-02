@@ -7,8 +7,6 @@ controlled_document: true
 
 GitLab has adopted the ISO/IEC 27001:2022 standard for our information security management system (ISMS) and ISO/IEC 42001:2023 for our artificial intelligence management system (AIMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's information security and artificial intelligence management system.
 
-## Understanding the Organization and its Context
-
 ### Internal and External Issues
 
 GitLab has identified the following external and internal issues that are relevant to its purpose and that could affect its ability to achieve the intended outcomes of the Information Security Management System (ISMS) and Artificial Intelligence Management System (AIMS).
@@ -22,6 +20,11 @@ GitLab has identified the following external and internal issues that are releva
 - Technological developments in AI and machine learning
 - Supply chain dependencies and third-party AI service providers
 - Market competitive pressures and business environment changes
+- Applicable legal requirements, including prohibited uses of AI
+- Policies, guidelines and decisions from regulators that have an impact on the interpretation or enforcement of legal requirements in the development and use of AI systems
+- Incentives or consequences associated with the intended purpose and the use of AI systems
+- Culture, traditions, values, norms and ethics with respect to development and use of AI
+- Competitive landscape and trends for new products and services using AI systems
 
 ### Internal Issues
 
@@ -32,6 +35,10 @@ GitLab has identified the following external and internal issues that are releva
 - Resource allocation for security and AI governance initiatives
 - Skills and competency requirements for AI and security management
 - Business continuity and operational resilience requirements
+- Organizational context, governance, objectives, policies and procedures
+- Contractual obligations
+- Intended purpose of the AI system to be developed or used.
+
 
 ## Scope
 
@@ -178,20 +185,6 @@ GitLab monitors, measures, and improves security controls and AI systems through
 - [Application Vulnerability Scanning](product-security/application-security/vulnerability-management/)
 - [HackerOne bug bounty program](/handbook/security/product-security/application-security/runbooks/hackerone-process/)
 - [Audit log monitoring](/handbook/security/security-and-technology-policies/audit-logging-policy/)
-
-**AIMS Monitoring and Measurement:**
-
-- AI system performance metrics and KPI tracking
-- AI risk assessment reviews and AI incident monitoring
-- AI model accuracy, bias, and fairness evaluations
-- AI system compliance with ethical AI principles
-- Third-party AI provider performance assessments
-- AI governance policy adherence monitoring
-- Customer feedback on AI feature performance and safety
-- Regular AI impact assessments and algorithmic auditing
-
-**Joint ISMS & AIMS Activities:**
-
 - ISMS & AIMS Council (annual management review)
 - Integrated risk management across security and AI domains
 - Cross-functional incident response procedures
