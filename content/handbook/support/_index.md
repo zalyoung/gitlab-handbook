@@ -164,7 +164,7 @@ While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performa
 
 ### Evolving our support offerings
 
-Our customers regularly provide feedback on our service and via this feedback we understood many customers wanted the option to benefit from an enhanced support experience to meet the demands of their business. With that we are  
+Based on customer feedback in FY25, we are focusing or efforts on the following: 
 
 - Expanding our support capabilities to offer 24/7 High/SEV2 Support as part of our Advanced and Signature Success Tiers
 - Progressing with our Assigned Support Engineer offering as a component of our Signature Success Tier in partnership with our Customer Success team
