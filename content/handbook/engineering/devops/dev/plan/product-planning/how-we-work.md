@@ -4,6 +4,50 @@ title: Plan:Product Planning Engineering Team - How we work
 
 This page cover all the processes we follow as the [Product Planning Team](./_index.md).
 
+## Work Cycle
+
+We follow GitLab's month-long milestone schedule.
+Since the final week is busy with code merges before cut-off,
+we dedicate the first week to retrospectives, planning, and issue refinement.
+[We meet every Monday](https://www.youtube.com/playlist?list=PL05JrBw4t0KrNtIdrqKT0TEWLjGkQEC-a), but every meeting has a different purpose.
+
+### Week #1 - Retrospective, planning and refinement
+
+**Meeting:** Retrospective. Async-retros didn't work well.
+
+**Focus**: Refinment and milestone planning.
+Engineers plan their own work for the milestone by the end of the week doing necessary refinement.
+
+### Week #2 - Milestone Kick-off
+
+**Meeting:** Review the milestone plan.
+Checkpoint to ensure the plan aligns with goals and engineers are confident in delivery.
+
+**Focus:** Execution.
+Once we commit to the plan, we spend the rest of the milestone on heads-down execution.
+
+### Week #3(and 4) - Execution
+
+Some milestones are 5 weeks long, so we don't plan anything special for week 4.
+
+**Meeting:** General discussions
+Everyone is welcome add their topics to the agenda:
+
+- Retrospective follow-ups and action items
+- Milestone progress
+- Specific issues
+- etc.
+
+**Focus:** Execution.
+
+### Last week of the milestone - Milestone check-in and draft plan discussions
+
+**Meeting:** Drafting the high-level plan for next milestone.
+PM and EM draft the plan and assign project DRIs before the meeting.
+Engineers proactively move incomplete issues to next milestone or backlog.
+
+**Focus:** Finishing the milestone work.
+
 ## Milestone Planning
 
 The week after a release of current milestone, planning issue for next milestone is created by automation and is available [here](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
@@ -217,4 +261,3 @@ When you pick something to work on, please:
 1. Follow the standard workflow and assign it to yourself.
 1. Share it in [#s_plan](https://gitlab.slack.com/archives/s_plan) - if not even more widely (like in [#development](https://gitlab.slack.com/archives/development)
    or [#backend](https://gitlab.slack.com/archives/backend)).
-   
