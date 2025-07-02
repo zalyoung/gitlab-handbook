@@ -64,9 +64,9 @@ This design document is currently a draft and must resolve the following questio
 
 Briefly, certain aspects of the user experience inform this design document's proposal and so are summarized here:
 
-- Customers should define and customize flows and agents using familiar user-friendly UI and concepts from within the Rails monolith.
-- Customers should not be required to learn a particular structured data format, for example a YAML DSL, in order to customize flows and agents.
-  Customized flows and agents will need to be able to be described through "simple" objects like key-value pairs or JSON.
+- Customers should primarily be able to define and customize flows and agents using familiar user-friendly UI and concepts from within the Rails monolith.
+- Customers should not be required to learn a particular structured data format in order to customize flows and agents.
+  However, we may give them the option to view and edit them as a secondary way to customize them.
 - Customers should be able to easily re-use flows and agents they have designed.
   They should be able to discover and share flows and easily copy them and use them as starting points to customize them further for their needs.
 
@@ -296,11 +296,13 @@ At some point, but out of scope for this design document, support for more compl
 
 ## Alternatives Considered
 
-### 1. YAML-based Configuration
+### 1. Data-only based Configuration
 
 **Pros**: Flexibilty to describe any flow behavior, DevOps familiarity
 
 **Cons**: Steep learning curve, unfamiliar to many [user personas](../../../../product/personas/_index.md#list-of-user-personas) making a high barrier to entry for some, limited UI support, flexibility can be handled by [different build behaviors](#supporting-complexity-select-flow-and-agent-types).
+
+**Preference**: Allowing customization primarily through UI components, with the option to expose underlying data structure as a _manifest_ for editing, as a secondary option.
 
 ### 2. Repository storage
 
