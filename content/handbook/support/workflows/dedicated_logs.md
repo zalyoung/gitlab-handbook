@@ -74,7 +74,7 @@ If the customer requests logs for a period older than 7 days, a security issue s
 
 #### Granting customers access to application logs
 
-Customers may request access to their AWS S3 bucket to [monitor their instance](https://docs.gitlab.com/administration/dedicated/monitor/).
+Customers may request access to their logs stored in a AWS S3 bucket to [monitor their instance](https://docs.gitlab.com/administration/dedicated/monitor/).
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/monitor/#request-access-to-application-logs). In this case, it's an **IAM principal**.
 
