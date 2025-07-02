@@ -3,7 +3,7 @@ title: People Group
 description: "The People Group at GitLab supports all GitLab team members through the complete team member lifecycle."
 ---
 
-## Welcome
+## Welcome Everyone
 
 Welcome to the People Group handbook! You should be able to find answers to most of your questions here.
 
