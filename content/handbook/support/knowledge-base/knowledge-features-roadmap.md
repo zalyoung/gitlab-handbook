@@ -5,7 +5,7 @@ description: This section provides the features requested or being worked on, al
 
 We have features and requests that are being addressed and considered as part of our knowledge article process. These features are collected from feedback from you all, areas we need to see growth in, as well as enhancements that will help knowledge flow. 
 
-### This table provides an overview of what we are working on **IN PROGRESS**
+### This table provides an overview of what is **IN PROGRESS**
 
 | Feature                                                                | Status          | Notes    |                                                                                   
 |:---------------------------------------------------------------------- |:----------------|:-------------------------------------------------------------------------------------------------|
