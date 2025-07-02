@@ -1,7 +1,7 @@
 ---
 title: Product Development Flow Success Metrics
 description: "This page surfaces metrics related to the product development flow"
-canonical_path: "/handbook/product-development/product-development-flow/success-metrics/"
+canonical_path: "/handbook/product-development/how-we-work/product-development-flow/success-metrics/"
 ---
 
 ## Quarterly Survey Results

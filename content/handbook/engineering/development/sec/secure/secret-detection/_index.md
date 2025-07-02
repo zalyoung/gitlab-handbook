@@ -31,7 +31,7 @@ Below are the steps to add the calendar to Time Off by Deel:
 
 ## How We Work
 
-The Secret Detection group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development/product-development-flow/), however there are some notable differences in
+The Secret Detection group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/), however there are some notable differences in
 how we seek to deliver software. The engineering team predominantly concerns itself with the delivery of software, which is the portion of the workflow states where
 we deviate the most. What follows is how we manage the handoff from product management to engineering to deliver software.
 

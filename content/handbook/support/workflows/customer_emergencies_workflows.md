@@ -180,7 +180,7 @@ As the CEOC you will work with the customer along with other Support Engineers t
     - Reconvene at a later point and ask customer to raise a [follow up emergency](#when-the-customer-incident-is-not-resolved) if the issue is not resolved and
       additional information or resources are needed.
     - [Ask help if you don't know what to do](#what-to-do-if-you-dont-know-what-to-do).
-2. For some emergencies, it would be beneficial to conduct a [retrospective](/handbook/support/workflows/customer-emergency-retro) after the issue is resolved, 
+2. For some emergencies, it would be beneficial to conduct a [retrospective](/handbook/support/workflows/customer-emergency-retro) after the issue is resolved,
    to help support engineers identify any areas that can be improved and iterate on it.
 
 #### Determine if the situation qualifies as an emergency
@@ -444,9 +444,9 @@ From 2025-05-01 PagerDuty Alerts for High Priority tickets received from custome
 
 We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
 
-1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention. 
-1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. 
-1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift. 
+1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention.
+1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority.
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift.
 
 #### Customers with an Assigned Support Engineer (ASE)
 
@@ -462,7 +462,7 @@ This will:
 
 CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: *All Success Tier Customers' Unsolved Severity 2/High Tickets* on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
 
-Once the customer ticket has been de-ecalated and is no longer a Severity 2/High Priority issue, [reset the ticket priority](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority), and let the customer know we will continue working with them during standard operating hours. 
+Once the customer ticket has been de-ecalated and is no longer a Severity 2/High Priority issue, [reset the ticket priority](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority), and let the customer know we will continue working with them during standard operating hours.
 
 The Support Manager On-Call is always available to support you. Follow [these steps](/handbook/support/on-call/#engaging-the-on-call-manager) to engage the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) for assistance.
 
@@ -576,7 +576,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 1. Create a `~"type::bug"` issue and have the customer review it.
 1. Escalate the `~"type::bug"` issue
-   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
+   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/product-development/how-we-work/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
    - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/development/feature_flags/controls/#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/) to raise a developer.
 1. If this is affecting multiple customers, [declare an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) to engage the incident response team who will update the status page.
 1. Once the original functionality is restored, update the customer.

@@ -102,7 +102,7 @@ The DevOps department is comprised of:
 - [Dev](/handbook/engineering/devops/dev/)
 - [Ops](/handbook/engineering/devops/ops/)
 
-To better fulfill our goals and vision, we are following [R&D interlock process](/handbook/product-development/r-and-d-interlock).
+To better fulfill our goals and vision, we are following [R&D interlock process](/handbook/product-development/how-we-work/r-and-d-interlock).
 
 **Onboarding**
 
@@ -204,7 +204,7 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 
 1. The development groups who introduce or consume the dependency of concern (e.g. gems, libs, base images, etc.) are responsible for resolving vulnerabilities detected against the dependency.
 2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
-3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
+3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/product-development/how-we-work/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
 
 #### Ownership of Shared Services and Components
 
@@ -243,17 +243,17 @@ The shared services and components below are extracted from the GitLab [product 
 | -------------------- | --------------- | ---------------------- |  ---------------- |
 | Alertmanager | Centralized with Specific Team | @twk3<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Certmanager |Centralized with Specific Team | @twk3<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
-| Consul | |  | | 
+| Consul | |  | |
 | Container Registry  | Centralized with Specific Team | Package |  |
-| Email - Inbound | |  | | 
-| Email - Outbound | |  | | 
+| Email - Inbound | |  | |
+| Email - Outbound | |  | |
 | Elasticsearch  | Centralized with Specific Team | @changzhengliu<br />Global Search | |
 | GitLab K8S Agent  | Centralized with Specific Team | @nicholasklick<br />Configure |  |
 | GitLab Pages | Centralized with Specific Team | @vshushlin<br />[Knowledge](/handbook/engineering/devops/dev/plan/knowledge/) |  |
 | GitLab Rails  | Decentralized |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | GitLab Shell | Centralized with Specific Team | @andr3<br />[Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
 | HAproxy  | Centralized with Specific Team |  [Infrastructure](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/) |  |
-| Jaeger  | Centralized with Specific Team | @dawsmith<br />Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). | 
+| Jaeger  | Centralized with Specific Team | @dawsmith<br />Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
 | LFS  | Centralized with Specific Team | @andr3<br />[Create:Source Code](/handbook/engineering/devops/dev/create/source-code/backend/) |  |
 | Logrotate  | Centralized with Specific Team | @plu8<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Mattermost  | Centralized with Specific Team | @plu8<br />[Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |

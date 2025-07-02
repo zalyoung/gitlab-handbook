@@ -397,10 +397,10 @@ Only issues arising out of an incident should receive the label `~"corrective ac
 They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
 Corrective Actions must be related to the incident issue to help with downstream analysis.
 
-Corrective Actions issues in the [Production Engineering project](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
+Corrective Actions issues in the [Production Engineering project](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/product-development/how-we-work/issue-triage/#severity-slos)
 
 Issues that have the `~"corrective action"` label will automatically have the `~"infradev"` label applied.
-This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/product-development/how-we-work/issue-triage/#severity-slos).
 For more details see the [infradev process](/handbook/product/product-processes/#infradev).
 
 ### Best practices and examples, when creating a Corrective Action issue
@@ -408,7 +408,7 @@ For more details see the [infradev process](/handbook/product/product-processes/
 - Use [SMART](https://en.wikipedia.org/wiki/SMART_criteria) criteria: Specific, Measurable, Achievable, Relevant and Time-bounded.
 - Link to the incident they arose from.
 - Assign a Severity label designating the highest severity of related incidents.
-- Assign a priority label indicating the [urgency](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) of the work. By default, this should match the incident Severity
+- Assign a priority label indicating the [urgency](/handbook/product-development/how-we-work/issue-triage/#priority) of the work. By default, this should match the incident Severity
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
