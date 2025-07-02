@@ -49,8 +49,8 @@ The table below provides a summary of the available verification options based o
 | Requester | Target | Challenges | Support PIN | Notes |
 | --- | --- | --- | --- | --- |
 | Enterprise Owner | Own account | Owner passes challenges on own account | Support PIN must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com/handbook/support/#account-verification-challenge-questions) for other challenges. |
-| Enterprise Owner | Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CCed on ticket. |
-| Owner | Non-enterprise user (who is a member of or intends to be added to owner's paid group) | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CCed on ticket.  |
+| Enterprise Owner | Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
+| Owner | Non-enterprise user (who is a member of or intends to be added to owner's paid group) | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
 | Paid User | Own account | User passes challenges on own account | N/A | If owner is needed, owner must open a new ticket. |
 | Paid User | Other member of same paid group | Target user passes challenges on own account | N/A | If owner is needed, owner must open a new ticket.|
 | Free User | Non-member of group with intent to be added | Not allowed - request must come from group owner | Owner vouch required |  |
@@ -105,7 +105,7 @@ In a paid namespace: If the user elects to have an Owner vouch for their request
 
 Note: Due to this [bug](https://gitlab.com/gitlab-org/gitlab/-/issues/337939) some group owners are not able to create snippets. In that case, we can ask the Owner to generate and share with us a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) instead.
 
-If another user is CCed on the ticket, once you've verified the PIN ask them to generate a new PIN to revoke the previous one.
+If another user is CC'd on the ticket, once you've verified the PIN ask them to generate a new PIN to revoke the previous one.
 
 ## Account Ownership Changes
 
