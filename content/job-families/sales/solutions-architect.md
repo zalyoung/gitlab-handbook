@@ -119,20 +119,55 @@ The Staff Solutions Architect is a [grade 9](/handbook/total-rewards/compensatio
 
 #### Staff Solutions Architect Responsibilities
 
+- notes TO BE REMOVED
+  - Navigating Large Deals
+  - Navigating Partners - Resale / GSIs / Hyperscalers. - been there. done that. knows how to strategize  
+    - showcasing ability on when and how to partner and with whom.
+  - Panel interview process. 
+  - Quarterly MBOs to hold them accountable to orchestrate big deal motions.
+  - Visibility (do we have the necessary platform) - people in APJ might not have global brand. Consistency with that. How do we create a platform to have that brand. 
+    - Participate in SA All-Hands in a meaningful way?
+  - Multi-threading. Sell-to, Sell-through Motions. Drive the technical leadership. Customer-centric. Pulling in multiple technologies. Account CTO. 
+  - what stuff needs to move into Senior Role? Senior should provide clear, detailed knowledge of competitive / account strategies. 
+  - Staff is then figuring all that out and helping deliver through partner orgs. EMEA, LATAM, APJ will have an inherent propensity for Partner / multi-partner engagement.
+  - PPT. Senior knows technology. Staff knows Technology + People + Process (scaling out technology, organizing people, architectural processes).
+  - Be able to talk about processes in a way that is not GitLab-centric by understanding the broader industry's needs.
+  - Engaged with Regional Directors and bringing value at the broader team.
+  - Each Section within a given role should have 3-5 bullets. 
+    - Senior-Principal Sections to be consistent
+
+
+Next Steps
+  - Figure out 
+
+
 - Extends the Senior Solutions Architect responsibilities with a company-wide scope
+
+##### People, Process, and Technology Guidance
+
+- Impact spans across people, process and technology in a way that is customer-centric (and not always GitLab-centric) and can showcase the technological, architectural, and organizational impacts due to scale and complexity.
+  - Senior - All PPT but not at broad scale and complexity
+  - Principal - ... 
+- High impact to the GitLab's global business
+  - OR high impact to GitLab's Geo business while being recognized as an authority external to GitLab
+  - EITHER Global Internal Impact OR (Geo Internal Impact AND External Authority)
+  - Showcasing holistic GitLab Impact through :point_up:
+  - Senior should have regional impact, 
+  - Principal is global impact with recognized authority external to GitLab
+- Facilitate customer and partner strategy formulation that takes into account the customer or partner's market, business processes, technology portfolio, culture and appetite for change.
 
 ##### Technical Guidance and Mentorship
 
 - Build and deliver high-value and reusable enablement content that measurably improves the team's effectiveness and execution on a regular basis.
-- Sustain mentorship for specific members of the Solutions Architecture team to improve our technical win rate, increase NetARR, fostering a culture of continuous learning and improvement.
-- Guide Solution Architect team members through complex customer opportunities and activity.
-- Advise Solution Architect team members on [Customer Success Planning](/handbook/solutions-architects/sa-practices/customer-success-plan/) strategies and patterns leading to shorter sales cycles and faster product adoption.
-- Run high-value SA activity enablement sessions with team members, both new (training) and existing (best practices) (e.g., Value Stream Workshops, Day in the Life, Duo Workshops, etc.)
+- Sustain mentorship for specific members of the Solutions Architecture team to improve our technical win rate, increase Net ARR, fostering a culture of continuous learning and improvement.
+- Guide Solutions Architect team members through complex customer opportunities and activity.
+- Advise Solutions Architect team members on [Customer Success Planning](/handbook/solutions-architects/sa-practices/customer-success-plan/) strategies and patterns leading to shorter sales cycles and faster product adoption.
+- Run high-value SA activity enablement sessions with team members, both new (training) and existing (best practices) (e.g., DevSecOps / Value Stream Assessments, Day in the Life, Duo Workshops, etc.)
 
 ##### Cross-Functional Collaboration and driving innovation
 
 - Consolidate Field Feedback to drive product roadmap discussions (outside-in) and be informed of the product roadmap for at least one product area, and inform team members of changes to come in the near term.
-- Be the DRI for a Subject Matter Expert Group in a region.
+- Be the DRI for a Subject Matter Expert (SME) Group in a region.
 - Architect innovative solutions leveraging 3rd party and GitLab technologies that lead to new use cases and revenue opportunities.
 - Build connections/relationships with key regional/geo partners, alongside the Ecosystem SA team.
 
@@ -168,7 +203,6 @@ The Principal Solutions Architect is a [grade 9](/handbook/total-rewards/compens
 
 - Extends the Staff Solutions Architect responsibilities.
 - Create and maintain relationships with customer executives that contribute to large Net ARR deals and customer success.
-- Facilitate customer and partner strategy formulation that takes into account the customer or partner's market, business processes, technology portfolio, culture and appetite for change.
 - Identify and surface business generation motions within areas of personal subject matter expertise that intersect with GitLab targeted technology sectors.
 - Build and maintain select subject matter expertise related to GitLab targeted technology sectors through industry monitoring and participation in external working groups, committees and development projects.
 - Keep up to date on GitLab-relevant emerging methodologies and technologies and leverage that knowledge to drive solution strategy and influence product strategy.
@@ -281,9 +315,9 @@ The Senior Director, Solutions Architects is a [grade 11](/handbook/total-reward
 - Demonstrated progressive experience leading technical sales teams (i.e., Solutions Architect and or Sales Engineering teams)
 - Demonstrated progressive experience building and leading global teams of managers and directors with team sizes of 50+ team members
 
-### Vice President of Solution Architecture (SA) Job Grade
+### Vice President of Solutions Architecture (SA) Job Grade
 
-The Vice President of Solution Architecture is a job grade [12](/handbook/total-rewards/compensation/compensation-calculator/#customer-success).
+The Vice President of Solutions Architecture is a job grade [12](/handbook/total-rewards/compensation/compensation-calculator/#customer-success).
 
 ### Vice President of SA Responsibilities
 
