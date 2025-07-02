@@ -47,7 +47,6 @@ Terms used in this document and their meanings:
 | Goal | [GitLab Duo Glossary for _Prompt (Goal)_](https://docs.gitlab.com/development/ai_features/glossary/#agent) |
 | Rails monolith | GitLab's main [Rails app](https://gitlab.com/gitlab-org/gitlab) |
 | Workflow Service | The [service](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/duo_workflow_service) written in Go and Python that runs flows |
-| Builder | Python file within Workflow Service that can dynamically build either a flow or agent |
 
 ## Outstanding questions
 
@@ -56,7 +55,6 @@ This design document is currently a draft and must resolve the following questio
 - Considerations around [security of running customized flows and agents](#question-cicd-isolation-sufficient)
 - Considerations around [resource limits](#question-system-resource-limits)
 - [Guardrails for prompts](#question-guardrails-on-prompts)
-- [Would agent goals be set by customer or by the flow?](#question-is-agent-goal-configurable-by-customer)
 
 ## Proposal
 
@@ -80,156 +78,88 @@ This design document intentionally does not discuss database table design.
 ### High level
 
 Workflow Service will have the ability to build flows with agents dynamically from data passed to it.
-In the chart below, the red highlights the new functionality described in this document.
+
+In the chart below, the dashed line highlights a proposed new Workflow Service feature under experimental design as part of [issue #547444](https://gitlab.com/gitlab-org/gitlab/-/issues/547444).
 
 ```mermaid
 flowchart LR
-        style Builder stroke:#f66,stroke-width:2px
-        A(["Rails"])
+        style WSBuilder stroke-dasharray:3
+        RailsDB["Trigger"]
+        RailsAdapter(["Builds custom flow<br>and agent data"])
+        WSHandler["Handles request"]
+        WSBuilder(["Builds dynamic flow with<br>agents from data"])
+        WSExecutor["Executor"]
 
-        A -->|Custom flow and<br>agent data| D["Request handler"]
-
-        subgraph ide1 [Workflow Service]
-        D -->|Selects| Builder["New flow and agent<br>builder definitions"]
+        subgraph WS [Workflow Service]
+          WSHandler -->WSBuilder
         end
 
-        Builder -->|Outputs flow| H["Executor"]
+        subgraph Railss [Rails]
+          RailsDB --> RailsAdapter
+          RailsAdapter --> WSHandler
+        end
+
+        WSBuilder --> WSExecutor
 ```
 
-### Existing flow definition
+### Data structure
 
-Workflow Service already has an established way for the Rails monolith to start a flow, limited currently to providing a `Goal` for the flow and selecting a `WorkflowDefinition`, one of the [set of defined flows](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/a02e56d808936cc346499959e0f7d150b083e55a/duo_workflow_service/internal_events/event_enum.py#L53-56) within Workflow Service (for example, `"software_development"`).
+Work in [issue #547444](https://gitlab.com/gitlab-org/gitlab/-/issues/547444) is experimentally designing a data structure for describing flows and agents.
 
-Below is a simplified version of the existing `StartWorkflowRequest` in Workflow Service, including only what the Rails monolith currently sends to Workflow Service:
+This design document proposes to integrate with that work when it is ready.
 
-```go
-type StartWorkflowRequest struct {
-    // (Excluding all fields not interacted with by Rails monolith)
-    WorkflowID         string
-    WorkflowDefinition string
-    Goal               string
-}
-```
+Rails will build customized flows and agents into the proposed data structure.
 
-### Changes to `StartWorkflowRequest` struct
+### Handling of data by Workflow Service
 
-The following new properties will be added to the existing `StartWorkflowRequest` struct:
+We will add support within the Workflow Service for receiving the customized flow data from Rails.
 
-```go
-type StartWorkflowRequest struct {
-    // (Ignoring existing fields)
-    Agents             []*Agent
-}
-```
+Workflow Service will build the flow from the data, as being explored in [issue #547444](https://gitlab.com/gitlab-org/gitlab/-/issues/547444).
 
-### New `Agent` struct
+### Supporting complexity: Flow and agent generics
 
-We will add a new `Agent` struct:
+As we want to retain a [simple user experience](#user-experience), but allow powerful configuration, we want to allow customers to select different flow or agent _generics_ when customizing their flows and agents.
 
-```go
-type Agent struct {
-    agentType    string
-    model        string
-    SystemPrompt string
-    Goal         string
-    Tools        []string
-}
-```
+An example: The ability to select _Planner_ vs _Supervisor_ vs _Worker_ agents.
 
-See the below table for a description of the properties of an `Agent`:
+These generics will be defined within Workflow Service and have specific python LangGraph logic to support their abstract behavior needs.
 
-| Property | Description |
-|----------|----------|
-| `agentType` | Equivalent of `StartWorkflowRequest.WorkflowDefinition` for `Agent`. Will determine the python builder file used to build the agent (see [handling of new properties](#handling-of-new-properties-by-workflow-service)) |
-| `model` | LLM model to use |
-| `SystemPrompt` | The overall behavior / persona for the agent |
-| `Goal` | The run-specific objective given to the agent from the flow |
-| `Tools` | List of existing tools available to the agent. Example: `["create_merge_request","create_merge_request_note"]` |
+Other propreties that do not require LangGraph logic to be written will be customizable by a customer within Rails.
+For example after selecting a _Worker_ agent, they can customize its goal, system prompt, and LLM model among other properties.
 
-#### Question: Is Agent goal configurable by customer?
-
-Should an `Agent`'s `Goal` be set by the customer or by the flow? This will determine whether `Goal` should be exposed within `Agent`.
-
-### Example usage
-
-A simple example of what a custom flow request might look like:
-
-```go
-// Example: Compliance validation workflow
-StartWorkflowRequest{
-    WorkflowDefinition: "dynamic_sequence_v1.0.0",
-    Goal: "Validate merge request for SOC2 compliance",
-    Agents: []*Agent{
-        {
-            agentType: "dynamic_agent_v1.0.0",
-            SystemPrompt: "You are a SOC2 compliance expert...",
-            Tools: []string{"read_file", "create_comment"},
-        },
-    },
-}
-```
-
-### Handling of new properties by Workflow Service
-
-We will add support within the Workflow Service for handling these new properties when `StartWorkflowRequest.WorkflowDefinition` is one of two new values:
-
-- `"dynamic_sequence_v<n.n.n>"`
-- `"dynamic_multi_agent_v<n.n.n>"`
-
-The values will correspond to python files that can dynamically build a flow from the user data.
-
-At a minimum we can allow [sequence vs multi-agent flow behavior](#sequence-vs-multi-agent-flows) but can be extended further when specific build logic for flows is required to support new abstract behaviors not possible through existing builders.
-
-The values of `Agent.agentType` will similarly correspond to python files that can dynamically build an agent from the user data.
-
-There will be at least 1 dynamic agent type:
-
-- `dynamic_agent_v<n.n.n>`
-
-We may support others if we require agents to differ in how Workflow Service should build them. For example, `dynamic_planner_agent_v<n.n.n>` or `dynamic_supervisor_agent_v<n.n.n>`.
-
-The dynamic flow builder will call the agent builders.
-
-### Supporting complexity: Select flow and agent types
-
-As we want to retain a [simple user experience](#user-experience), but allow powerful configuration, we allow customers to select different flow or agent types when customizing their flows and agents.
-These types determine the builder used for the flow or agent.
-
-Examples of types:
-
-- [Sequence vs multi-agent flows](#sequence-vs-multi-agent-flows)
-- Planner vs supervisor vs worker agents
-
-We can provide defaults to make choices simple.
+This will allow customers to create flows with agents that can fulfill their complex needs without their needing to write LangGraph.
 
 We prefer to limit the number of choices where possible to keep configuration choices simple.
 
-This allows Workflow Service to support dynamic flows and agents that have specific python LangGraph logic to support their abstract behavior needs.
-This would also allow "hybrid" partly customizable and partly hard-coded dynamic types if necessary.
+### Predefined custom flows and agents within Rails
 
-### Sequence vs multi-agent flows
+Building on the few [generics](#supporting-complexity-flow-and-agent-generics) defined in Workflow Service, Rails will have predefined flows and agents that allow more specific starting points for customers to build from.
 
-Agent Platform flows currently run agents in specific sequences that handover their output to the next agent in a preset manner.
+An example: A _Frontend engineer_ agent that uses the _Worker_ generic with an appropriate system prompt and goal set for it to behave like a frontend engineer.
 
-Multi-agent flows, where a planner agent coordinates the set of available agents and a supervisor agent chooses the final solution, may be more suitable for customized flows.
+### Versioning
 
-Dynamic flows may work best with multi-agent but we can allow customers to choose. The behavior of the flow would be determined by [the type](#handling-of-new-properties-by-workflow-service).
+All persisted flow and agent data within Rails must include the version of the [generic](#supporting-complexity-flow-and-agent-generics) that was used.
 
-### Versioning of new types
+If a customer used a [predefinition](#predefined-custom-flows-and-agents-within-rails) in Rails, its version must also be recorded.
 
-Appending `<n.n.n>` to type strings allows Workflow Service to change its build logic for particular dynamic flows and agents while supporting old behaviours.
+Versioning allows us to change behavior for particular flows and agents while supporting old behaviours.
 This allows us to build new capabilities onto existing ones while maintaining backwards-compatibility.
 
-Again, they map simply to names of python builder files within the Workflow Service.
+The principle being that if Workflow Service or Rails improves a generic or predefinition in a way that would cause a change of behavior, the change is released as a new version of the generic.
 
-Changes to the behavior of existing flow or agent builders that would not be a breaking change would not need a new version to be added, and instead those changes would simply be made to an existing builder.
+Both Workflow Service and Rails will continue to support old versions.
 
-For example, for Workflow Service to support 2 versions of the "multi-agent flow", allowing the Rails monolith to send `dynamic_multi_agent_v1.0.0` or `dynamic_multi_agent_v1.1.0`:
+TBD: Deprecation timeframes for older version support, migration pathways, and general GitLab breaking change policy.
 
-```plain
-workflows/dynamic_multi_agent/1.0.0/workflow.py
-workflows/dynamic_multi_agent/1.1.0/workflow.py
-```
+### Data from Workflow Service that Rails will require
+
+Rails will require the identifying strings for all [generics](#supporting-complexity-flow-and-agent-generics) from Workflow Service, as well as knowledge of the versions of them.
+
+TBD: Further defining this. [Issue #548306](https://gitlab.com/gitlab-org/gitlab/-/issues/548306) has explored two methods of how Workflow Service can share definitions with Rails:
+
+- gRPC call.
+- protobuf definitions exported through existing gem.
 
 ### Security
 
@@ -287,12 +217,7 @@ Phased, starting with simple agents and existing tools and expanding to more pow
 #### MVC2
 
 - Duo assistance for writing agent system prompts and goals
-- Support multi-agent dynamic flows:
-  - Comes with a planner and supervisor agent.
-  - Customer can customize the planner and supervision agent system prompts or use defaults.
 - Customer can set shorter execution timeout limit
-
-At some point, but out of scope for this design document, support for more complex event-based triggers.
 
 ## Alternatives Considered
 
@@ -300,7 +225,7 @@ At some point, but out of scope for this design document, support for more compl
 
 **Pros**: Flexibilty to describe any flow behavior, DevOps familiarity
 
-**Cons**: Steep learning curve, unfamiliar to many [user personas](../../../../product/personas/_index.md#list-of-user-personas) making a high barrier to entry for some, limited UI support, flexibility can be handled by [different build behaviors](#supporting-complexity-select-flow-and-agent-types).
+**Cons**: Steep learning curve, unfamiliar to many [user personas](../../../../product/personas/_index.md#list-of-user-personas) making a high barrier to entry for some, limited UI support.
 
 **Preference**: Allowing customization primarily through UI components, with the option to expose underlying data structure as a _manifest_ for editing, as a secondary option.
 
@@ -308,4 +233,6 @@ At some point, but out of scope for this design document, support for more compl
 
 **Pros**: Version control
 
-**Cons**: Lacks all benefits of PostgreSQL and flexibility when using the data, not required to support versioning of flow or agent data as it can happen in PostgreSQL.
+**Cons**: Lacks all benefits of PostgreSQL and flexibility when using the data, not required to support versioning of flow or agent data as versioning can happen in PostgreSQL.
+
+**Preference**: PostgreSQL.
