@@ -25,7 +25,7 @@ Runway is maintained by the [Runway](/handbook/engineering/infrastructure/team/r
 - [Runway Docs](https://docs.runway.gitlab.com/)
 - [Topology Service](/handbook/engineering/architecture/design-documents/cells/topology_service/)
 - [Contributors Platform](https://gitlab.com/gitlab-org/developer-relations/contributor-success/contributors-gitlab-com)
-- [GitLab Secrets Manager](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/secret_manager/)
+- [GitLab Secrets Manager](/handbook/engineering/architecture/design-documents/secret_manager)
 
 ## Milestones
 
