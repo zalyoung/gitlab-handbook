@@ -134,24 +134,32 @@ Grafana provides you with useful tools for log collection and analysis. Let's se
 1. As an example, copy the following `scrape_configs` into your Grafana configuration file, replacing teh existing `scrape_configs` file.
 
     ```yml
-    scrape_configs:
-    - job_name: system
-    static_configs:
-    - targets:
-        - localhost
-        labels:
-        job: nginx
-        __path__: /var/log/gitlab/nginx/*
-    - targets:
-        - localhost
-        labels:
-        job: workhorse
-        __path__: /var/log/gitlab/gitlab-workhorse/*
-    - targets:
-        - localhost
-        labels:
-        job: rails
-        __path__: /var/log/gitlab/gitlab-rails/production_json.log
+
+        scrape_configs:
+        - job_name: nginx
+        static_configs:
+        - targets:
+            - localhost
+            labels:
+            job: nginx
+            __path__: /var/log/gitlab/nginx/*
+
+        - job_name: workhorse
+        static_configs:
+        - targets:
+            - localhost
+            labels:
+            job: workhorse
+            __path__: /var/log/gitlab/gitlab-workhorse/*
+
+        - job_name: rails
+        static_configs:
+        - targets:
+            - localhost
+            labels:
+            job: rails
+            __path__: /var/log/gitlab/gitlab-rails/production_json.log
+
     ```
 
     > This configuration adds three log files to Grafana: Nginx, Workhorse, and rails.
