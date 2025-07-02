@@ -91,7 +91,7 @@ Product will prioritize issues based on the teams total weight budget.
 
 ### Service Level Objectives Monitoring
 
-The Engineering Manager will take proactive steps to avoid having reported bugs to go past the target duration defined in [Severity SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+The Engineering Manager will take proactive steps to avoid having reported bugs to go past the target duration defined in [Severity SLOs](/handbook/product-development/how-we-work/issue-triage/#severity-slos).
 
 The [Bug Triage Board](https://gitlab.com/groups/gitlab-org/-/boards/2546239) and [Triage Reports](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=created_date&state=opened&label_name%5B%5D=triage%20report&label_name%5B%5D=group%3A%3Acode%20review) can be used to review all open bugs.
 
