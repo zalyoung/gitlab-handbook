@@ -159,6 +159,7 @@ To add an event to [about.gitlab.com/events/](https://about.gitlab.com/events/),
 1. Create a new `.yml` file in [/content/shared/en-us/events/landing/cards](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content/shared/en-us/events/landing/cards?ref_type=heads) and title it the name event (with no spaces). 
    - Ex: `connect-sydney-2025.yml`
 1. Fill in the following fields, maintaining the same format for the date: 
+
 ```
 name: 
 type: 
@@ -171,4 +172,5 @@ region:
 industry: 
 eventURL: 
 ```
+
 1. Create an MR, review, and merge your changes
