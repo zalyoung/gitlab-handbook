@@ -123,29 +123,34 @@ The Staff Solutions Architect is a [grade 9](/handbook/total-rewards/compensatio
 - Extends the Senior Solutions Architect responsibilities with a company-wide scope
 
 ### Strategic Deal Leadership and Competitive Strategy
+
 - Orchestrate large, complex deal strategies involving multiple stakeholders and decision makers
 - Develop and execute competitive strategies for high-value opportunities (>$500K ARR)
 - Lead technical strategy for multi-year, enterprise-wide transformation initiatives
 - Engineer complex engagements that span multiple business units and geographies within the assigned geo
 
 ### Partnership and Ecosystem Orchestration  
+
 - Build and maintain strategic relationships with key partners (resellers, SIs, hyperscalers) within assigned geographical region
 - Collaborate with Channel and Ecosystem SA teams to deliver solutions through partner organizations
 - Navigate complex partner dynamics to drive deal closure and customer success
 - Develop partner-specific technical strategies and enablement approaches
 
 ### People, Process, and Technology at Scale
+
 - **People:** Advise customers on organizing development teams, platform engineering, SRE, and DevSecOps teams at scale (100+ developers)
 - **Process:** Design and implement repeatable DevSecOps processes that work across multiple teams and business units
 - **Technology:** Architect solutions that scale beyond individual use cases to enterprise-wide implementations
 
 ### Cross-Functional Impact and Thought Leadership
+
 - **Geographic Impact:** Drive initiatives that measurably impact GitLab business across assigned geographical region (AMER/EMEA/APAC) beyond a single segment (ENT/MM/PUBSEC/FINSERV)
 - **External Authority:** Build recognized expertise in specific industry verticals or technology domains outside of GitLab
 - Maintain thought leadership through speaking, writing, or community participation in industry forums
 - Serve as DRI for SME groups within geographical region
 
 ### Technical Excellence and Innovation
+
 - Create reusable technical assets and methodologies that can be leveraged across the geographical region regardless of segment (ENT/MM/PUBSEC/FINSERV)
 - Speak about technology and processes in industry-standard terms, not just GitLab-specific language
 - Drive innovation in customer engagement models and technical delivery approaches
@@ -163,17 +168,20 @@ The Principal Solutions Architect is a [grade 9](/handbook/total-rewards/compens
 Extends the Staff Solutions Architect responsibilities with global impact and recognized external authority.
 
 ### Global Technical Leadership
+
 - Drive technical strategy and thought leadership that impacts GitLab's **global** business
 - Influence product roadmap and go-to-market strategy based on field insights and market analysis
 - Lead **global** initiatives that span multiple geographical regions and business segments
 
 ### External Industry Authority
+
 - **Requirement:** Maintain recognized authority in specific industry verticals or technology domains external to GitLab
 - Participate in industry standards bodies, advisory boards, or technical committees
 - Generate original thought leadership content that positions GitLab and establishes personal credibility
 - Build relationships with industry analysts, technology vendors, and ecosystem partners at executive level
 
 ### Strategic Business Impact
+
 - **Global Business Impact:** Drive initiatives that measurably contribute to GitLab's global revenue and market position
 - **Alternative Path:** Demonstrate exceptional geographical impact plus recognized external industry authority
 - Influence GitLab's Total Addressable Market (TAM) and Landed Addressable Market (LAM) through technical innovation
