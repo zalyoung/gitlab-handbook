@@ -188,6 +188,7 @@ Extends the Staff Solutions Architect responsibilities with global impact and re
 - Serve as executive technical advisor for GitLab's most strategic accounts and partnerships
 
 ### Advanced Capabilities
+
 - Facilitate customer and partner strategy formulation that accounts for market positioning, technology portfolio, and cultural change management
 - Create reference architectures and technical frameworks that become industry standards
 - Mentor and develop Staff SAs across multiple geographical regions
