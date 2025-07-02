@@ -91,7 +91,7 @@ When estimating the effort involved in upcoming work, we use the same approach a
 
 Work that arrives in ~"workflow::ready for development" that is out of scope
 or ill-defined should be
-[returned to ~"workflow::planning breakdown" for further refinement](/handbook/product-development/how-we-work/product-development-flow/#build-phase-2-develop--test).
+[returned to ~"workflow::planning breakdown" for further refinement](/handbook/product-development/how-we-work/).
 To avoid the disruption this introduces we try to reduce the number of times
 it happens by planning more carefully. While it's not always possible, we aim
 to identify complexity before the build phase, such as by assigning an engineering
@@ -222,7 +222,7 @@ This avoids the rush to provide documentation that often accompanies the release
 ## Picking something to work on
 
 The team [Build Board](https://gitlab.com/groups/gitlab-org/-/boards/1569369?label_name[]=devops%3A%3Aplan&label_name[]=group%3A%3Aproduct%20planning&milestone_title=Started) always shows work in the current
-release, with [workflow columns](/handbook/product-development/how-we-work/product-development-flow/) relevant to implementation. Filtering it by
+release, with [workflow columns](/handbook/product-development/how-we-work/) relevant to implementation. Filtering it by
 ~backend shows issues for backend engineers to work on.
 
 It's OK to not take the top item if you are not confident you can solve

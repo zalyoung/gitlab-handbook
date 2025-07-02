@@ -17,7 +17,7 @@ Growth's ultimate goal is to connect GitLab's value as a Single DevOps Platform 
 ## How the Growth section works
 
 [All the Growth team members are listed here](/handbook/product/categories/#growth-section)
-We follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+We follow the [Product Development Flow](/handbook/product-development/how-we-work/).
 
 ### Growth ideation and prioritization
 
@@ -156,7 +156,7 @@ We follow the [Product Designer workflows](/handbook/product/ux/product-designer
 
 Together with the Product Manager, the Product Designer applies the DoD to epics in order to better break down design work and give counterparts better insight into which steps in the design workflow need to be completed before the MVC can move to the development phase.
 
-In addition to the [Validation Phase Outcomes](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes) listed in the Product Development Flow, we also make sure that:
+In addition to the [Validation Phase Outcomes](/handbook/product-development/how-we-work/) listed in the Product Development Flow, we also make sure that:
 
 - For an experiment, experiment issues have been created with a hypothesis and experiment plan, and experiment labels have been applied
 - Cross-team dependencies have been identified and those teams notified and their feedback received

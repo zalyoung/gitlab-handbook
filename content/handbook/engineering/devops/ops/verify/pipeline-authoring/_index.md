@@ -263,7 +263,7 @@ GitLab does not have a versioning system for CI/CD configuration. Therefore, it 
 
 We use the [Pipeline Authoring Workflow issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) to track what we work on in the current milestone.
 
-We follow the [product development flow](/handbook/product-development/how-we-work/product-development-flow/) to ensure that the problems we're solving are well understood and the solutions are well defined and validated before the implementation.
+We follow the [product development flow](/handbook/product-development/how-we-work/) to ensure that the problems we're solving are well understood and the solutions are well defined and validated before the implementation.
 
 Our UX counterpart is the DRI for the SSOT designs, and they have the right to push any enhancement discussions in MRs into follow-up efforts in created and linked issues.
 

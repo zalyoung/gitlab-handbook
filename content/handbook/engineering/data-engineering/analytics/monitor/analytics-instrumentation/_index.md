@@ -98,7 +98,7 @@ We're currently trialing a mixed retrospective format, we're team members pair o
 
 ### Workflow
 
-Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary):
+Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development/how-we-work/):
 
 #### Validation stage
 

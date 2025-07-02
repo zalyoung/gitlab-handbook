@@ -19,7 +19,7 @@ See [the exhaustive list of projects](#projects) the group maintains.
 
 ### Workflow
 
-The Composition Analysis group largely follows GitLab's [Engineering Workflow](/handbook/engineering/workflow/) and [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+The Composition Analysis group largely follows GitLab's [Engineering Workflow](/handbook/engineering/workflow/) and [Product Development Flow](/handbook/product-development/how-we-work/).
 
 This includes:
 

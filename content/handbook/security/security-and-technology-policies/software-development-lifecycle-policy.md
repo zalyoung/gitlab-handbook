@@ -19,7 +19,7 @@ This policy applies to anyone developing, reviewing, and merging code at GitLab 
 
 ## Policy
 
-In-scope development activities are performed in accordance with GitLab's [product development flow](/handbook/product-development/how-we-work/product-development-flow/). (SA-3)
+In-scope development activities are performed in accordance with GitLab's [product development flow](/handbook/product-development/how-we-work/). (SA-3)
 
 Development activities are performed with security, confidentiality, and availability principles in mind. (PL-8, SA-8)
 

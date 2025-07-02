@@ -27,7 +27,7 @@ For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leona
 
 ### Workflow
 
-We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/how-we-work/).
 
 #### Capacity Planning
 
@@ -265,7 +265,7 @@ GitLab currently offers some freedom in how to structure OKR hierarchies. We tak
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
 - Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
 - They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
-- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/), and not in OKRs.
+- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development/how-we-work/), and not in OKRs.
 
 Doing this ensures the hierarchy will be as simple, consistent and shallow as possible. This improves navigability and visibility, as we currently don't have good hierarchy visualization for OKRs.
 
@@ -653,7 +653,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 ### Team Process
 
-Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development/how-we-work/product-development-flow/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
+Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development/how-we-work/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
 
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.

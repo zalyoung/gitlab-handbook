@@ -111,7 +111,7 @@ flowchart TB
 
 #### Organizing the work
 
-We generally follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary):
+We generally follow the [Product Development Flow](/handbook/product-development/how-we-work/):
 
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
@@ -131,7 +131,7 @@ Generally speaking, issues are in one of two states:
 
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/#features).
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/how-we-work/) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ##### Measuring the value of the team deliverables
 
@@ -372,7 +372,7 @@ Considerations for data seeding scripts:
 
 #### Feature Flags
 
-We [use feature flags as needed](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
+We [use feature flags as needed](/handbook/product-development/how-we-work/) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
 
 The following roles and responsibilities are associated with feature flags we own:
 

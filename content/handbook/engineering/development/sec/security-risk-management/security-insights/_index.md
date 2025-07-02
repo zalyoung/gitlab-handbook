@@ -45,7 +45,7 @@ We use our  Security Insights Priorities page for [17.x](https://about.gitlab.co
 
 ### Product Workflow
 
-The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/).
 
 Additional information can be found on the [Planning page](/handbook/engineering/development/sec/security-risk-management/srm-planning/).
 

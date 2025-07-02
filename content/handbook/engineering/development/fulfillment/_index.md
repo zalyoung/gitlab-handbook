@@ -271,7 +271,7 @@ It's possible for engineers to pick any of the remaining issues for the mileston
 
 ### Workflow
 
-We generally follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) and use the workflow labels as defined there.
+We generally follow the [Product Development Flow](/handbook/product-development/how-we-work/) and use the workflow labels as defined there.
 
 Generally speaking, issues are in one of two states:
 
@@ -280,7 +280,7 @@ Generally speaking, issues are in one of two states:
 
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/hill-charts).
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/how-we-work/) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ### User Experience
 
@@ -294,7 +294,7 @@ We strive to provide excellent usability in all of our workflows, creating a bal
 - We use [[UX] issues](#ux-issue-management-and-weights) as the SSOT for designs. Implementation issues should link to the [UX] issue for the design details to maintain the SSOT.
 - We use labels to track our issues:
   - `UX`, `devops::fulfillment`, `section::fulfillment` and `group::`.
-  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development/how-we-work/product-development-flow/)
+  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development/how-we-work/)
   - `UX Problem Validation` and `UX Solution Validation` for research efforts
   - `design weight::` for [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights)
 

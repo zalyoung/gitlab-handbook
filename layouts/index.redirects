@@ -52,10 +52,6 @@
 /handbook/sales/commercial/activitylogging/ /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
 /handbook/sales/commercial/smb/ /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
 
-# Product Dev flow moved - remove 2025-07-29
-/handbook/product-development-flow/ /handbook/product-development/how-we-work/product-development-flow/ 301
-/handbook/product-development-flow/* /handbook/product-development/how-we-work/product-development-flow/:splat 301
-
 # Non-existent Incubation department - remove 2025-07-29
 /handbook/engineering/development/incubation/ /handbook/engineering/development/ 301
 /handbook/engineering/development/incubation/5-min-production/ https://docs.gitlab.com/cloud_seed/ 301
@@ -154,8 +150,8 @@
 /handbook/engineering/infrastructure/engineering-productivity/issue-triage/ /handbook/product-development/how-we-work/issue-triage/ 301
 /handbook/product-development/r-and-d-interlock/ /handbook/product-development/how-we-work/r-and-d-interlock/ 301
 /handbook/product-development/roles-and-responsibilities/ /handbook/product-development/how-we-work/roles-and-responsibilities/ 301
-/handbook/product-development/product-development-flow/ /handbook/product-development/how-we-work/product-development-flow/ 301
-/handbook/product-development/product-development-flow/* /handbook/product-development/how-we-work/product-development-flow/:splat 301
+/handbook/product-development/product-development-flow/ /handbook/product-development/how-we-work/ 301
+/handbook/product-development/product-development-flow/* /handbook/product-development/how-we-work/ 301
 
 # Infra library moved - remove 2025-10-10
 /handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library

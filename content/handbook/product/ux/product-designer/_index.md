@@ -33,7 +33,7 @@ Key benefits of making `User Experience` an official part of group's milestone p
 
 ### Define the opportunity
 
-- Collaborate with your PM to [validate](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
+- Collaborate with your PM to [validate](/handbook/product-development/how-we-work/) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
 - Help your PM articulate the who/what/why as a user story. For example, "As a (who), I want (what), so I can (why/value)." If you’re asked to implement a non-evidence-based how, encourage the PM to refocus on the who/what/why to collaboratively determine the best how.
 - Assist your PM to defining [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) success criteria, prioritizing MVC “must-haves” and non-MVC “should-haves” and “could-haves.” Note that these criteria may change based on new insights from the iterative design process and customer feedback.
 
@@ -244,7 +244,7 @@ Embrace curiosity, let go of attachment.
 
 ### Partnering with Technical Writers
 
-When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design).
+When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/how-we-work/).
 
 UI text includes button or menu labels, error messages, log files, user-assistance microcopy, notification emails, and any other text visible in the UI. Changes to UI text can significantly impact documentation steps.
 
@@ -279,7 +279,7 @@ To maintain focus and avoid scope creep in UX issues:
 
 - **Prioritize must-haves**: Work with your PM and developers to identify "must-have" versus elements that can be deferred. Document non-MVC concepts and research in new issues, linking them to the original issue. Consult your Product Design Manager if you need help breaking down large issues.
 - **High confidence, low risk changes**: If developers need to start before designers are validated, focus on high confidence, low risk changes while the rest of the solution is validated.
-- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development/how-we-work/product-development-flow/#validation-track), ensuring the Build track always has well-validated product opportunities ready to start.
+- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development/how-we-work/), ensuring the Build track always has well-validated product opportunities ready to start.
 - **Manage large features**: Features should be buildable within 1-2 milestones. If too large, work with your PM and Engineering team to split the feature into smaller, manageable segments.
 
 For inspiration, watch our Product Designers discuss [iteration at GitLab](https://youtu.be/0lhjzU-QZ2w).

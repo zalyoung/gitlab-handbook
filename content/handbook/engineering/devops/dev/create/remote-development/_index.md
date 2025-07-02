@@ -155,7 +155,7 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 <span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
 <span id="remote-development-planning-process-overview" data-message="alias anchor for old links"></span>
 
-To improve the accuracy of our planning and delivery estimates, we've adapted parts of the [Plan](/handbook/product-development/how-we-work/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development/how-we-work/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow. Our team uses a lightweight, velocity-based approach inspired by [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity). This helps us stay flexible while still providing clear, realistic forecasts.
+To improve the accuracy of our planning and delivery estimates, we've adapted parts of the [Plan](/handbook/product-development/how-we-work/) and [Build & Test](/handbook/product-development/how-we-work/) phases of the GitLab Product Development Flow. Our team uses a lightweight, velocity-based approach inspired by [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity). This helps us stay flexible while still providing clear, realistic forecasts.
 
 The goal is not to fully adopt XP or Scrum, but to take the pieces that work for us, mainly around iteration planning and historical velocity tracking. By grounding our estimates in ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) (our team's recent delivery history), we can better align scope to capacity and make informed decisions about what we can ship and when.
 
@@ -189,7 +189,7 @@ Ideas can come from anywhere and anyone. If you have an idea:
 
 #### 2. High Level Planning
 
-The **High Level Planning** meeting is an open forum where new and ongoing work is identified, discussed, and prioritized. Team members can propose topics by adding them to the agenda in advance. This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development/how-we-work/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues. The meeting typically covers:
+The **High Level Planning** meeting is an open forum where new and ongoing work is identified, discussed, and prioritized. Team members can propose topics by adding them to the agenda in advance. This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development/how-we-work/), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development/how-we-work/) before we can start refining and prioritizing issues. The meeting typically covers:
 
 - **New Feature Ideas**: Proposals for new work to be considered for the roadmap.
 - **Roadmap Adjustments**: Reordering, shifting, or reprioritizing ongoing work.
@@ -207,7 +207,7 @@ The meeting serves to clarify the most important work and make decisions on what
 
 #### 3. Async Refinement
 
-The **Async Refinement** process is designed to efficiently prepare upcoming work by focusing on breaking down issues and identifying unknowns in implementation. This is analogous to ["backlog refinement"](/handbook/product-development/how-we-work/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal is to ensure all issues targeted for the upcoming milestones are clear enough for the team to briefly review and estimate during the next IPM.
+The **Async Refinement** process is designed to efficiently prepare upcoming work by focusing on breaking down issues and identifying unknowns in implementation. This is analogous to ["backlog refinement"](/handbook/product-development/how-we-work/) in the standard GitLab product development flow. The goal is to ensure all issues targeted for the upcoming milestones are clear enough for the team to briefly review and estimate during the next IPM.
 
 **Key Principles:**
 

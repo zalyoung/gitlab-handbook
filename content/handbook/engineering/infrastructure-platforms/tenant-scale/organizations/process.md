@@ -39,7 +39,7 @@ projects or epics to make significantly more impact in the company.
 
 ### Product Development Workflow
 
-We follow the GitLab [product development workflow](/handbook/product-development/how-we-work/product-development-flow/)
+We follow the GitLab [product development workflow](/handbook/product-development/how-we-work/)
 guidelines. To get a high-level overview of the status of all issues in the
 current milestone, check the [development workflow board](https://gitlab.com/groups/gitlab-org/-/boards/2594854).
 

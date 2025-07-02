@@ -29,7 +29,7 @@ The API Security team is a standalone team which is part of the Dynamic Analysis
 
 ## How We Work
 
-The Dynamic Analysis group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+The Dynamic Analysis group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/).
 
 Issues worked by this team are backend-centric and are typically in one the above repos, [vendored templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security), and GitLab's [Rails monolith](https://gitlab.com/gitlab-org/gitlab). At times, issues can require support from AST's frontend team if UI changes are required. We will require more notice for initiatives like these.
 

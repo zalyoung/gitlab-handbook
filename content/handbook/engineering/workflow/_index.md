@@ -427,7 +427,7 @@ Team members use labels to track issues throughout development. This gives visib
 - `workflow::verification`: A developer indicates that all the development work for the issue has been done and is waiting to be deployed, then verified.
 - `workflow::complete`: A developer indicates the issue has been verified and everything is working by adding the `workflow::complete` label and closing the issue.
 
-Workflow labels are described in our [Development Documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#workflow-labels) and [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+Workflow labels are described in our [Development Documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#workflow-labels) and [Product Development Flow](/handbook/product-development/how-we-work/).
 
 ## Working in Teams
 
@@ -552,7 +552,7 @@ All other important dates for a milestone are relative to the release date:
   - GitLab Bot opens [Group Retrospective](/handbook/engineering/management/group-retrospectives/) issue for the current milestone.
 - **Friday, the day the milestone ends**:
   - Issues for milestone completed, with docs, and have been merged into master.
-  - Feature flags should be flipped from default off to default on after verification to be in the release. See [feature flags](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#including-a-feature-behind-feature-flag-in-the-final-release).
+  - Feature flags should be flipped from default off to default on after verification to be in the release. See [feature flags](/handbook/product-development/how-we-work/).
   - Merging by the milestone code cut-off (Friday) **does not guarantee** that the feature will be in the release. See [release timelines](/handbook/engineering/releases/#timelines).
   - Individual [release post entries](/handbook/marketing/blog/release-posts/#contribution-instructions) merged for all relevant issues.
   - By end of the day, milestone `%x.y` is expired.

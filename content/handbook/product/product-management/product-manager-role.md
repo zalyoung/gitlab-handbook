@@ -37,7 +37,7 @@ The first thing to do is to familiarize yourself with the following handbook pag
 * [Product Processes](/handbook/product/product-processes/)
 * [Product Manager Responsibilities](/handbook/product/product-management/product-cdf-competencies/)
 * [Product Manager Career Development Framework](/handbook/product/product-management/product-cdf-competencies/)
-* [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/)
+* [Product Development Flow](/handbook/product-development/how-we-work/)
 * [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
 * [Product Management Learning & Development](/handbook/product/product-management/learning-and-development/)
 * [GitLab Values](/handbook/values/)

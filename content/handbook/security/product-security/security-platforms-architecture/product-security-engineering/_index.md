@@ -77,7 +77,7 @@ If at any point during the refinement process it is determined that something is
 Like [Single Engineer Groups](/handbook/company/structure/#single-engineer-groups), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
 
 - Our build boards are organized into workflow columns
-- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/), but have the flexibility to skip the process where it's not needed
+- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development/how-we-work/), but have the flexibility to skip the process where it's not needed
 - All Product Security Engineering team members can contribute to validation, refinement, and solution design
 - All Product Security Engineering team members can contribute to the prioritization, but the Security Engineering Manager is DRI
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
@@ -107,7 +107,7 @@ It is expected that Product Security Engineering team members will do refinement
 
 #### Step-by-step refinement process
 
-Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development/how-we-work/product-development-flow/), so that the work can be picked up by anyone.
+Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development/how-we-work/), so that the work can be picked up by anyone.
 
 1. Choose an issue to refine
     1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)

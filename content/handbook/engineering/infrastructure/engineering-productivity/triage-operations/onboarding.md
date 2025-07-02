@@ -55,7 +55,7 @@ A rule of thumb for labelling each individual issue is that the issue should hav
  * One or more feature labels
 
 For more details about workflow labels, please read our
-[Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+[Product Development Flow](/handbook/product-development/how-we-work/).
 
 ##### Effectively Triaging Issues
 

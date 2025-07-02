@@ -64,7 +64,7 @@ Prioritization is a collaboration between Product, UX, and Engineering.
 
 ### Workflow
 
-We use the [Product Development workflow](/handbook/product-development/how-we-work/product-development-flow/) when working on issues and
+We use the [Product Development workflow](/handbook/product-development/how-we-work/) when working on issues and
 merge requests across multiple projects.
 
 We use the Activation development [workflow board](https://gitlab.com/groups/gitlab-org/-/boards/3558733?label_name%5B%5D=group%3A%3Aactivation) for work in the build phase of the product development flow.

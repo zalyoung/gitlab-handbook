@@ -52,13 +52,13 @@ Our backlog should be prioritized on an ongoing basis. Prioritization will be do
 1. Engineering Manager in development provides prioritized `type::maintenance` issues
 1. [Test Platform Managers](/handbook/engineering/infrastructure/test-platform/#milestone-planning) provide prioritized `type::bug` issues using the [bug prioritization dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard)
 
-*Note: UX-related work items would be prioritized in accordance with the appropriate sub-types. UX related bugs are included in the automated process (S1/2 and so on), UX-related maintenance items will be included in the EM's prioritized list, Product (feature) UX items will have been included as part of our normal [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).*
+*Note: UX-related work items would be prioritized in accordance with the appropriate sub-types. UX related bugs are included in the automated process (S1/2 and so on), UX-related maintenance items will be included in the EM's prioritized list, Product (feature) UX items will have been included as part of our normal [Product Development Flow](/handbook/product-development/how-we-work/).*
 
 The DRIs of these three core areas will work collaboratively to ensure the overall prioritization of the backlog is in alignment with [section direction](https://about.gitlab.com/direction/#devops-stages) or any other necessary product and business needs. If a team is not assigned a Product Designer then there is no UX counterpart needed for prioritization purposes. PMs will prioritize the final plan for a given milestone.
 
 #### Milestone planning and prioritization
 
-Quads should follow the standard milestone planning process as described in our [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#build-track). PMs will keep the overall prioritized backlog following the agreed-upon ratios and guidance from their EM, Quality and UX counterparts.
+Quads should follow the standard milestone planning process as described in our [Product Development Flow](/handbook/product-development/how-we-work/). PMs will keep the overall prioritized backlog following the agreed-upon ratios and guidance from their EM, Quality and UX counterparts.
 
 #### Review and monitoring team health
 

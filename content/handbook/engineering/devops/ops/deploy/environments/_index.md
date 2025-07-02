@@ -402,7 +402,7 @@ following milestone planning. For example, for Deferred UX issues opened in the 
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
-into the appropriate step of our [product development flow](/handbook/product-development/how-we-work/product-development-flow/), or closed if appropriate.
+into the appropriate step of our [product development flow](/handbook/product-development/how-we-work/), or closed if appropriate.
 
 This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
@@ -412,7 +412,7 @@ keeping with the overall goals of the group and adherence to broader
 
 The Environments group uses epics to describe features or capabilities that will increase the maturity of the Environments categories over time.
 
-Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design)/[solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) phases and [build](/handbook/product-development/how-we-work/product-development-flow/#build-track) track of the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
+Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development/how-we-work/)/[solution validation](/handbook/product-development/how-we-work/) phases and [build](/handbook/product-development/how-we-work/) track of the [Product Development Flow](/handbook/product-development/how-we-work/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
 
 **For the duration of building the epic**, the engineer does not need to be the only person implementing the issues. They should keep watch of the work that is done on the issues so that they can verify that the work is progressing correctly. If there are problems with the work, or lengthy delays,
 they need to make sure the Product Manager and Engineering Manager are aware.

@@ -41,7 +41,7 @@ Teammate pairings gives the team member a consistent partner to share ideas with
 
 ### Who we work with
 
-We collaborate with Product Designers, Product Managers, and Engineers to collectively determine what areas to conduct research on. The UX Research team works within the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#overview--philosophy) as they partner with Product Management and Product Design.
+We collaborate with Product Designers, Product Managers, and Engineers to collectively determine what areas to conduct research on. The UX Research team works within the [Product Development Flow](/handbook/product-development/how-we-work/) as they partner with Product Management and Product Design.
 
 UX Researchers collaborate with Product Managers to determine the scope of research studies. Where possible, UX Researchers should try to attend planning meetings for their designated groups.
 UX Researchers should proactively offer ways in which they can assist in the delivery of research. They should also suggest and discuss their own ideas for research studies with Product Managers.
@@ -60,7 +60,7 @@ UX Researchers have the following guidance on how they should be spending their 
 
   - If capacity allows, UX Researchers can help with conducting solution validation research.
 
-Product Managers and Product Designers follow the steps in the [Validation phase 4](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) when planning and executing solution validation research.
+Product Managers and Product Designers follow the steps in the [Validation phase 4](/handbook/product-development/how-we-work/) when planning and executing solution validation research.
 
 - **[~60% Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)** - Researchers spend more than half of their time working with Product Managers conducting Problem Validation research, with the long-term goal of investing their time towards training and mentoring.
 

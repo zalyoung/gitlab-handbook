@@ -412,7 +412,7 @@ As part of our commitment to privacy, GitLab ensures that, where appropriate, pr
 
 #### Responsible Product Development
 
-GitLab’s [product mission](/handbook/product-development/how-we-work/product-development-flow/) is to consistently create products and experiences that users love and value. We believe this includes our responsibility to [design inclusive products](https://design.gitlab.com/accessibility/inclusive-design-principles/) that aim to provide access to content and functionality that enables consumption and contribution from everyone. Our [product principles](/handbook/product/product-principles/#our-product-principles) guide us in developing products consistent with the approach of other world-class product organizations.
+GitLab’s [product mission](/handbook/product-development/how-we-work/) is to consistently create products and experiences that users love and value. We believe this includes our responsibility to [design inclusive products](https://design.gitlab.com/accessibility/inclusive-design-principles/) that aim to provide access to content and functionality that enables consumption and contribution from everyone. Our [product principles](/handbook/product/product-principles/#our-product-principles) guide us in developing products consistent with the approach of other world-class product organizations.
 
 We strive to set an example by empowering our wider GitLab community to build and work with the highest levels of security through our DevSecOps platform. This extends to how we are incorporating artificial intelligence (AI) and continuously evolving the platform to enable secure, responsible development.
 
