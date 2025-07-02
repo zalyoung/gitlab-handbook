@@ -2,7 +2,7 @@
 title: "Capacity Planning"
 ---
 
-We maintain and improve the Capacity Planning process that is described [in the Infrastructure Handbook](/handbook/engineering/infrastructure/capacity-planning/). This is a controlled activity covered by SOC 2. Please see [this issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/sec-compliance/observation-management/-/issues/604) for further details
+We maintain and improve the Capacity Planning process that is described [in the Infrastructure Handbook](/handbook/engineering/infrastructure-platforms/capacity-planning/). This is a controlled activity covered by SOC 2. Please see [this issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/sec-compliance/observation-management/-/issues/604) for further details
 
 The goal of this process is to predict and prevent saturation incidents on GitLab.com.
 
