@@ -174,6 +174,76 @@
   info: |
     STAR is used when a support ticket needs extra visibility or prioritization. This is typically communicated in the #support_ticket-attention-requests Slack channel.
 
+- acronym: SSE
+  term: Senior Support Engineer
+  info: |
+    A senior-level support engineer role within GitLab Support. SSEs typically handle more complex technical issues and may mentor other support engineers.
+
+- acronym: SAST
+  term: Static Application Security Testing
+  info: |
+    A security testing method that scans source code for vulnerabilities without running the application. 
+
+- acronym: DAST
+  term: Dynamic Application Security Testing
+  info: |
+    A security testing method that tests running applications for security flaws by simulating attacks. 
+
+- acronym: GET
+  term: GitLab Environment Toolkit
+  info: |
+    A toolkit provided by GitLab for setting up and managing GitLab environments. GET helps with deployment and configuration of GitLab instances.
+
+- acronym: LDAP
+  term: Lightweight Directory Access Protocol
+  info: |
+    An industry-standard protocol for accessing and maintaining distributed directory information services. Commonly used for authentication and authorization in enterprise environments.
+
+- acronym: k8s
+  term: Kubernetes
+  info: |
+    Abbreviated as k8s (k + 8 letters + s), Kubernetes is a container orchestration platform that manages Docker containers across multiple servers.
+
+- acronym: GKE
+  term: Google Kubernetes Engine
+  info: |
+    Google's managed Kubernetes service that provides a hosted Kubernetes environment. GKE simplifies cluster management and integrates with other Google Cloud services.
+
+- acronym: JWT
+  term: JSON Web Token
+  info: |
+    A compact format for transferring claims between any two parties. JWTs are commonly used for authentication and information exchange in web applications.
+
+- acronym: SGG
+  term: Support Global Group
+  info: |
+    A reference to GitLab's global support organization structure. SGG encompasses support teams across different regions and time zones.
+
+- acronym: SME
+  term: Subject Matter Expert
+  info: |
+    An individual with deep knowledge and expertise in a specific area or technology. SMEs are often consulted for complex technical issues requiring specialized knowledge.
+
+- acronym: SSC
+  term: Support Stable Counterpart
+  info: |
+    [Support engineers](https://handbook.gitlab.com/handbook/support/support-stable-counterparts/) who work closely with development teams to provide expertise and feedback.
+
+- acronym: HA
+  term: High Availability
+  info: |
+    A system design approach that ensures a service remains operational and accessible even when individual components fail. HA systems minimize downtime and maintain service continuity.
+
+- acronym: gprod
+  term: Google Production
+  info: |
+    A reference to production environments or services running on Google Cloud Platform. 
+
+- acronym: T&S
+  term: Trust and Safety
+  info: |
+    A [team](https://handbook.gitlab.com/job-families/security/trust-and-safety/) responsible for maintaining platform safety, preventing abuse, and ensuring compliance with policies and regulations. T&S teams work to protect users and maintain platform integrity.
+
 - acronym: BBM
   term: Batched Background Migrations
   info: |
