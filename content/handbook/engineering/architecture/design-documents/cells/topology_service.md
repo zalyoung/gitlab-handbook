@@ -501,18 +501,6 @@ or fail for all.
 It's worth noting that the list of the enums is not final, and it can be
 expanded over time.
 
-#### Implementation note for performance consideration
-
-For performance consideration, while cells must claim all routes, the
-Topology service can choose to not actually store the 64bit id if it falls
-within the designated cell's sequence. When Topology service is asked where
-to locate this id, if Topology service cannot find the specific claim, it'll
-assume that it belongs to the cell where the id falls to the sequence.
-
-When we're migrating an organization, we must also claim all routes again for
-that particular organization because they would likely fall outside of the
-sequence of the destination cell.
-
 #### Example usage of Claim Service in Rails
 
 ```ruby
