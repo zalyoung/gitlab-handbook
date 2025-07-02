@@ -57,7 +57,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
 ##### Principal Reccomendations and Presentation
 
 1. For Principal level promtions, the Principal candidate will collect letters of recommendations from GitLab and external stakeholders.
-1. For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders, Staff/Principal level SAs, and other GitLab stakeholders after the review with SA leadership (2 quarters prior to the promotion cycle).  This happens before the standard promotion cycle calibrations. The candidates will be assessed based on their professionalism, alignment to GitLab values and the [SA mission](handbook/solutions-architects/), and the expectations of Staff/PrincipalSA, and their vision for driving future impact.
+1. For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders, Staff/Principal level SAs, and other GitLab stakeholders after the review with SA leadership (2 quarters prior to the promotion cycle).  This happens before the standard promotion cycle calibrations. The candidates will be assessed based on their professionalism, alignment to GitLab values,the [SA mission](handbook/solutions-architects/),the expectations of Staff/PrincipalSA, and their vision for driving future impact.
 1. The Principal promotion panel will then meet to discuss the candidate's suitability for the Principal SA role.
 
 ### Associate Solution Architecture Program
