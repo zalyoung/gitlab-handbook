@@ -270,7 +270,7 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * Threat modelling
     * DRI: [SD&D](/handbook/security/product-security/application-security/appsec-operations/sdd-services/)
     * Deliverable: Threat model with design level security assessment and identified threats.
-  * Design Review
+  * Feature Design Review
     * DRI: SD&D
     * Deliverable: Design will be verified against best practices and recommendations will be provided.
   * SPA review (IF [`Architecture Impact`](#architecture-impact-1-4) >= 4)
@@ -351,6 +351,8 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 ### Review SLO
 
 These are initial estimates and are subjected to change as we adopt the framework.
+
+Note: _Low risk level is not mentioned here since Product team is the DRI for those reviews._
 
 |Review Type | Critical Risk Level| High Risk Level|Medium Risk level|
 |--|--|--|--|
