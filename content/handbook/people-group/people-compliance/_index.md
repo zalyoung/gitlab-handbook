@@ -5,19 +5,31 @@ description: "The Global People Compliance team at manages all compliance-relate
 
 ## Global People Compliance
 
-The Global People Compliance team safeguards GitLab's most valuable asset—our people—by implementing robust compliance frameworks that protect team member data while enabling our innovative all-remote culture to thrive across global jurisdictions.
+The Global People Compliance team serves as GitLab's strategic compliance authority, ensuring we operate responsibly across all jurisdictions while maintaining our innovative all-remote culture. As the connective tissue between regulatory requirements and business enablement, we make compliance accessible, understandable, and action-oriented for all team members. We believe compliance should enable, not inhibit, GitLab's growth. Our philosophy:
 
-We collaborate strategically with the entire People Group, Legal, Payroll, and other organizational teams to develop compliant processes throughout the team member lifecycle—from sourcing and screening to offboarding. Our work ensures GitLab meets both regulatory requirements and stakeholder expectations in an increasingly complex global landscape.
+- Risk-Aligned: We prioritize the most meaningful compliance risks while supporting practical solutions
+- Business-Enabled: We embed compliance into operations rather than creating barriers
+- Globally Consistent, Locally Relevant: We anchor in universal principles while flexing for local requirements
+- Proactive & Transparent: We anticipate challenges and communicate openly about compliance needs
 
-We proactively identify, assess, and mitigate compliance risks that could impact GitLab's operations. Our team develops policies that protect GitLab from potential regulatory penalties, and ensures adherence to all applicable employment laws across multiple jurisdictions. Our compliance expertise directly supports GitLab's strategic priorities by:
+We safeguard GitLab and our team members by enabling Global operations and making compliance simple:
 
-- Enabling confident expansion into new markets with clear regulatory guidance
-- Streamlining compliant hiring processes to secure top talent globally
-- Providing decision-making frameworks that balance innovation with compliance
+- Developing scalable compliance frameworks that support our all-remote model
+- Creating country-specific guidance while maintaining GitLab's global culture
+- Partnering with Employment Solutions, Legal Employment, Talent Management, and People Operations to ensure compliant hiring and onboarding processes
+- Translating complex regulations into clear, actionable policies
+- Providing practical guidance that balances compliance with business needs
+- Building automated solutions that embed compliance into everyday workflows
 
 ## Contact the Compliance Team
 
-- Please create a case in [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) for the team to review
+Please create a case in [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) for the team to review, related but not exclusive of:
+
+- Questions about employment laws in specific countries
+- Works council consultation requirements
+- Policy interpretation or exceptions
+- Employment classification questions
+- Compliance training or guidance
 
 {{% details summary="Meet the People Compliance team" %}}
 
