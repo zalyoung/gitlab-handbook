@@ -49,7 +49,6 @@ but this created a number of problems:
 - Having to add subdomains for adjacent services if those will use separate hostnames.
 - There were many other concerns.
 
-
 ### Scoping identifier
 
 The `o/` is a typeable identifier.
