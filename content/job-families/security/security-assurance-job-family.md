@@ -442,9 +442,9 @@ The Principal Security Assurance Engineer is a [grade 9](/handbook/total-rewards
 
 - The responsibilities of a Staff Security Assurance Engineer, plus;
 - The responsibilities of a Principal Security Engineer defined at the [Security Division level](/job-families/security/security-engineer/#principal-security-engineer) 
-- Ownership of at least one team-level program and one or more cross-functional programs.
-- Drive cross-functional GRC initiatives as trusted advisor to Sales, Product, and Engineering leadership; influence strategic decisions on go-to-market and enterprise risk.
-- Mentor Security Assurance engineers while building scalable frameworks; bridge technical GRC expertise with business strategy.
+- Ownership of at least one department-level program and one or more cross-functional (cross-divisional) programs
+- Drive cross-functional GRC initiatives as a trusted advisor to Sales, Product, Legal and/or Engineering leadership; influence strategic decisions on go-to-market and enterprise risk
+- Mentor Security Assurance engineers while building scalable operational frameworks; bridge technical GRC expertise with business strategy
 
 #### Hiring Process
 
@@ -452,9 +452,8 @@ Candidates for the principal engineer positions can expect the hiring process to
 
 - Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 50-minute interviews with the hiring manager,
-- Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security orgnanization,
+- Then, candidates will be invited to schedule 3 separate 50-minute interviews with 3 different peers from within the Security organizaton or our cross-functional partners,
 - Finally, candidates will be invited to schedule a 25-minute interview with the Senior Director, Security Assurance.
-- Successful candidates will subsequently be made an offer via email
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
@@ -466,23 +465,23 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The responsibilities of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-- Develop ideas for custom automation products to solve complex issues and lead the design, engineering, deployment, and maintenance efforts of those products.
-- Define evaluation criteria for Security Assurance tools to be used by the Security Assurance Department and propose internal built solution ideas to rival COTS.
-- Design and implement dashboards for the Security Assurance Automation metrics program, and identify gaps in existing data sets.
-- Represent the Security Assurance Automation team as a subject matter expert in at least two technical, product, or conceptual area.
+- Develop ideas for custom automation products to solve complex issues and lead the design, engineering, deployment, and maintenance efforts of those products
+- Define evaluation criteria for Security Assurance tools to be used by the Security Assurance Department and propose internal built solution ideas to rival COTS
+- Design and implement dashboards for the Security Assurance Automation metrics program, and identify gaps in existing data sets
+- Represent the Security Assurance Automation team as a subject matter expert in at least two technical, product, or conceptual area
 
 ###### Requirements
 
 - The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-- 12 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education.
-- Excellent written and verbal communication skills.
-- Expert scripting/coding skills in more than one language - Python and Ruby required. 
-- Excellent understanding of automation or software engineering technologies and cloud architectures.
-- Excellent understanding of the Software as a Service (SaaS) model.
-- Experience working in the DevOps model.
-- Solid experience with Cloud Computing Platforms - GCP/AWS experience.
-- Experience working in a GRC/Security Assurance team a plus.
+- 12 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education
+- Excellent written and verbal communication skills
+- Expert scripting/coding skills in more than one language - Python and Ruby required.
+- Excellent understanding of automation or software engineering technologies and cloud architectures
+- Excellent understanding of the Software as a Service (SaaS) model
+- Experience working in the DevOps model
+- Solid experience with Cloud Computing Platforms - GCP/AWS experience
+- Experience working in a GRC/Security Assurance team a plus
 
 ##### Security Compliance
 
@@ -575,7 +574,27 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
+- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+- Collaborate with cross-divisional leadership to quantifiably reduce risk
+- Design, implement and maintain metrics to guide decision making within the Security Division
+- Leverage data to make division-wide recommendations which drives executive decision making 
+- Act as an Artificial Intelligence (AI) SME staying up to date on trends in the Risk industry
+- Develop strong relationships with industry peers to gauge the efficacy of GitLab's risk management practice
+- Collaborate with Security Risk Leadership to delegate work effectively when applicable
+- Regularly identify opportunities to create internal process improvements driving efficiency and quality 
+- Mentor Security Risk ICs
+
 ###### Requirements
+
+- The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+- +12 years experience in Security Governance, Risk and Compliance or equivalent fields
+- Excellent written and verbal communication skills including past experience in Executive Reporting
+- Excellent active listening skills and a history of proactive relationship building
+- Demonstrated experience leveraging AI to drive quality and efficiency
+- Active participation in Risk-related communities (such as SiRA)
+- Past people leadership experience is preferred
 
 ##### Field Security
 
