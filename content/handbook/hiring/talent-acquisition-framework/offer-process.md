@@ -57,7 +57,7 @@ A description on what to input into each Offer field in Greenhouse can be found 
 {{% details summary="Offer Fields and How to Use Them" %}}
 
 - **Opening:** If you have multiple openings, you are typically choosing the one that started the earliest. You can check the approvals tab to confirm this, but you should also be able to tell based on the smallest opening number. Choosing the earliest opening helps ensure an accurate Time to Fill.
-- **Start date:** New hires start on Monday, with exceptions made for public holidays for a new hires' location, Family & Friends Day, and other designated [no start dates](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/) as chosen by People Connect. Additionally, internal hires with salary changes start on the 1st or 16th only (regardless of the day of the week), and those in Sales can only start on the 1st.
+- **Start date:** New hires start on Monday, with exceptions made for public holidays for a new hires' location, Family & Friends Day, and other designated [no start dates](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/) as chosen by People Operations. Additionally, internal hires with salary changes start on the 1st or 16th only (regardless of the day of the week), and those in Sales can only start on the 1st.
 - **Job Title:** It's important that we use the correct title, which should not include a specialty. People Managers have "Manager, " before the rest of their title, whereas individual contributors will have the title followed by Manager. Total Rewards will review this title to ensure it matches with those in Workday. In some cases, such as Area Sales Manager, industry standards indicate that our expected conventions will not work and exceptions are made.
 - **Level of Role:** Anything Director+ is considered a "Leader"
 - **Division:** This field is synched with Workday and will update as new divisions are created.
@@ -107,7 +107,7 @@ Talent Acqusition partners with hiring managers in order to advise on best pract
 
 ***Special Considerations***
 
-1. Relocations need to be called out in Compensation Details should include originating location and salary, as well as the new location and new salary details to ensure it is communicated as part of the approval and the correct entity is selected. Ensure the People Connect team is informed about any known relocations within the first 90 days of employment. Recruiters should also communicate if the candidate is moving between countries, because CES will need to request a background check in the country where they are currently living. The CES will [initiate the background check](coordinator/#initiate-background-check) during the verbal offer stage.
+1. Relocations need to be called out in Compensation Details should include originating location and salary, as well as the new location and new salary details to ensure it is communicated as part of the approval and the correct entity is selected. Ensure the People Operations team is informed about any known relocations within the first 90 days of employment. Recruiters should also communicate if the candidate is moving between countries, because CES will need to request a background check in the country where they are currently living. The CES will [initiate the background check](coordinator/#initiate-background-check) during the verbal offer stage.
 1. Internal Candidates need to include inputs in the 'Approval Notes' section. Recruiter to include candidate's current level and position, as well as their compensation package. If the comp has a variable component, please include base, on target earnings (OTE), and split in this section.
 
 **Additional Process for Engineering**
@@ -197,4 +197,4 @@ Offer acceptance rates are a key metric for Talent Acquisition, and unfortunatel
 
 1. Recruiter to disposition all remaining candidates on position within 24 hours of offer acceptance. Recruiter to manage any active candidates in pipeline appropriately.
 1. CES will send a welcome email and mark the candidate as Hired in Greenhouse.
-1. Once the candidate has been marked as Hired, this will trigger a sync with Workday and initiate the pre-onboarding process with the People Connect team.
+1. Once the candidate has been marked as Hired, this will trigger a sync with Workday and initiate the pre-onboarding process with the People Operations team.

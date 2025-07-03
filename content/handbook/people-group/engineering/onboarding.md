@@ -1,6 +1,6 @@
 ---
 title: Onboarding Automation Flow
-description: "Information on the automations we have in place to support the People Connect team with onboarding related tasks."
+description: "Information on the automations we have in place to support the People Operations team with onboarding related tasks."
 ---
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
@@ -15,7 +15,7 @@ Note: this section only discusses items in the onboarding where People Engineeri
 
 ```mermaid
 graph TD
-  A[2 Weeks before: People Connect triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
+  A[2 Weeks before: People Operations triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
   K[1 day before: Team member is invited to gitlab-com and gitlab-org] --> I
   I[Start date: onboarding and swag email is send to the team member] --> C
   C[Day 2: Access Request issue is created and team page sync readiness is checked.] --> CA
@@ -31,9 +31,9 @@ graph TD
 
 ## Onboarding issue creation
 
-The onboarding issue creation is a semi-automated process. Meaning that it needs to be triggered by a People Connect team member to be started. A People Connect team member can make use of the `onboarding` Slack command to initiate the process.
+The onboarding issue creation is a semi-automated process. Meaning that it needs to be triggered by a People Operations team member to be started. A People Operations team member can make use of the `onboarding` Slack command to initiate the process.
 
-The onboarding issue will be automatically assigned to the People Connect Team member
+The onboarding issue will be automatically assigned to the People Operations Team member
 who ran the command and the incoming team member's Manager.
 
 The onboarding tasks that are applicable to all team members are listed in the
@@ -45,7 +45,7 @@ Role templates don't take seniority into level. For example SDR 1, 2, or 3 would
 
 If you receive a question from a manager about why a template was not linked in an onboarding issue, be sure to check the naming convention of the template and ensure everything matches up in Workday with the entity, division, department, etc. If everything looks like it's matched up, reach out to the People Group Engineer for additional assistance.
 
-Note: If a People Connect Team member needs to create the onboarding issue for interns, they can use the same Slack command.
+Note: If a People Operations Team member needs to create the onboarding issue for interns, they can use the same Slack command.
 
 This issue is added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
@@ -89,7 +89,7 @@ This data is used to populate the email that we then send to them. The email add
 
 ### Manual Onboarding E-Mail
 
-If for some reason the e-mail could not be sent, we have added functionality for a People Connect Team member to be able to manually send this by running the `onboardingemail` Slack command.
+If for some reason the e-mail could not be sent, we have added functionality for a People Operations Team member to be able to manually send this by running the `onboardingemail` Slack command.
 
 This  triggers the following flow:
 
@@ -194,18 +194,18 @@ However that entry is anonymous. For every new team member, we commit a new file
 
 We then create a merge request on `www-gitlab-com` project so it can be merged.
 
-The merge request is assigned to the People Connect team and they set it to merge when the pipeline succeeds.
+The merge request is assigned to the People Operations team and they set it to merge when the pipeline succeeds.
 
 ### Possible Errors and Fixes
 
 In the event we run into errors with the team page sync, we have some backup plans in place.
 
-In case team members did not fill in the required data, we won't be able to sync them. A People Connect Team member
+In case team members did not fill in the required data, we won't be able to sync them. A People Operations Team member
 can later on sync them by running the `teampageindividual` Slack command.
 
 This will spin up a pipeline and fetch the details. Note that if the team member was synced already, it will abort the sync.
 
-If the **entire** group of team members was missed, in the event of a failed pipeline or another error, a People Connect Team member can re-run the sync by using the `teampageweek` Slack command.
+If the **entire** group of team members was missed, in the event of a failed pipeline or another error, a People Operations Team member can re-run the sync by using the `teampageweek` Slack command.
 
 This will trigger a new pipeline and fetch the new team members of the provided week and create a new merge request adding them to the Team page.
 

@@ -2,7 +2,7 @@
 title: "Access Requests (AR) Services"
 ---
 
-Access Requests are owned by the Corporate Security Helpdesk team. All onboarding, offboarding and role change (career mobility) requests are owned by the People Connect Team.
+Access Requests are owned by the Corporate Security Helpdesk team. All onboarding, offboarding and role change (career mobility) requests are owned by the People Operations Team.
 
 If you have any access requests related questions, please reach out to `#it_help` in Slack or the tool provisioner in Slack.
 

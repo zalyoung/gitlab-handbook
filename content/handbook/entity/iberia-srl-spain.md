@@ -23,7 +23,7 @@ These standards apply to all GitLab team members hired through GitLab Iberia s.r
 
 ## Employment Contracts
 
-GitLab's Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab's Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Operations Team. Any changes to any contracts should be requested through People Operations and will require approval from our Senior Director of Legal, Employment.
 
 Contract copies are lodged with the Spanish Labour Inspectorate by the payroll provider (Papaya) as required. Contact nonuspayroll@gitlab.com if you have any queries.
 

@@ -347,7 +347,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 - Is the new team members' address listed on the details page?
 - What [contract type and entity](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
-- Is the start date one that is not a "no start date" and provides an adequate amount of time for People Connect and IT to have sufficient notice? Ideally, we are providing 10 days notice, but the teams can work with less if we let them know.
+- Is the start date one that is not a "no start date" and provides an adequate amount of time for People Operations and IT to have sufficient notice? Ideally, we are providing 10 days notice, but the teams can work with less if we let them know.
 - Has the [signatory](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) been determined by the Candidate Experience Specialist and updated?
 - Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
 
@@ -365,13 +365,13 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
    - Instructions on the [Laptop Ordering Process](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering//) are included with this email.
 
 1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-update-a-start-date-after-the-contract-is-signed).
-1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
+1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Operations Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
 
-The last part of the Candidate Experience Specialist's responsibilities with a candidate is to hire them into the system and pass them on to People Connect. The hire-in process includes more complexities, so CES created the following guidelines to clarify start date exceptions and confidentiality around new hires.
+The last part of the Candidate Experience Specialist's responsibilities with a candidate is to hire them into the system and pass them on to People Operations. The hire-in process includes more complexities, so CES created the following guidelines to clarify start date exceptions and confidentiality around new hires.
 
 **SETTING GREENHOUSE REMINDERS** - CES make use of the due date feature in the GitLab issue to keep track of the start date and maintain consistent communication with the recruiters to ensure the candidates in the requisition are cleared completely. CES can make use of the "Need to hire into Workday" label and set due dates in the GitLab issue to track as well.
 
-The People Connect team has an SLA period of 10 working days to onboard an entity/PEO-based team member. In the event of an exception, the minimum notice required for the People Connect team is 5 working days.
+The People Operations team has an SLA period of 10 working days to onboard an entity/PEO-based team member. In the event of an exception, the minimum notice required for the People Operations team is 5 working days.
 
 **PROACTIVE COMMUNICATION**- It's essential that CES promptly notify in the #peopleconnect-ces slack channel when they experience a delay or issues with the contracts generated and mark a team member as hired. If there's an urgent hire with less than 10 days to the start date, please use the TE snippet “Itlaprequest” in the people-connect_ces channel to confirm that a laptop can be delivered on time. Only after receiving this confirmation can we confirm the start date with the recruiter.
 
@@ -379,7 +379,7 @@ The People Connect team has an SLA period of 10 working days to onboard an entit
 
 **VERIFYING GLOBAL HOLIDAYS** - CES should verify whether the proposed start date coincides with a holiday in the new hire's location. It is the responsibility of the recruiter to check with the Hiring Manager to ensure that the new team member has a support/ onboarding buddy on the first day of onboarding.
 
-**START DATE EXCEPTION EMAIL FOR URGENT HIRES** - This email seeks a required explanation and business justification for the proposed changes in the start date. The People Connect team will review this on a case-by-case basis. Urgent hires refer to situations where the HM requests an earlier start date than the previously agreed upon one, and the new start date does not adhere to the standard 10 working day SLA period for candidate onboarding. **Important**: an exception will not be made without a minimum of 5 working day notice to the People Connect team.
+**START DATE EXCEPTION EMAIL FOR URGENT HIRES** - This email seeks a required explanation and business justification for the proposed changes in the start date. The People Operations team will review this on a case-by-case basis. Urgent hires refer to situations where the HM requests an earlier start date than the previously agreed upon one, and the new start date does not adhere to the standard 10 working day SLA period for candidate onboarding. **Important**: an exception will not be made without a minimum of 5 working day notice to the People Operations team.
 
 Prominent reasons for urgent hires are Critical Skill Gap / New business opportunities, Equity vesting grant options and Unexpected departures or backfills. CES can access this email under the "Email the team" option in the candidates' Greenhouse profile.
 
@@ -390,7 +390,7 @@ Assuming that the [hiring process](/handbook/hiring) went smoothly, now it is ti
 First, be sure to validate the following:
 
 1. The candidate has been moved to the "offer" stage before sending the contract. CES can adjust this, but it's important to inform the Recruiter because this is a step that should be done when they are ready to make their verbal offer.
-1. The start date is not a no-start day, and is more than 10 days from your sent date. People Connect requires at least 5 days to process a new hire, but requests 10 days when possible. Recruiters need to be prepared for the time it takes for both parties to sign the contract as well as reject all remaining candidates and should prepare for this.
+1. The start date is not a no-start day, and is more than 10 days from your sent date. People Operations requires at least 5 days to process a new hire, but requests 10 days when possible. Recruiters need to be prepared for the time it takes for both parties to sign the contract as well as reject all remaining candidates and should prepare for this.
 1. The candidate lives in a country we are able to hire in. The SSOT for all country hiring is [here](https://comp-calculator.gitlab.net/hiring_status/index).
 1. The currency listed in the offer package in Greenhouse should normally be the local currency of the new team member unless approved by Total Rewards. This needs to be confirmed and approved by Total Rewards prior to making the offer, as any changes to the currency will require complete reapproval in Greenhouse, regardless if it is the same amount just in a different currency.
 1. Confirm [through which entity the team member would be employed or contracted](/handbook/people-group/employment-solutions#team-member-types-at-gitlab). If the title of the position includes "Public Sector" and they are located in the US, they may need a Federal contract. The Recruiter should confirm with the PBP if there's any questions.
@@ -437,9 +437,9 @@ This chart reflects the available signatories for each of GitLab's entities. The
     1. Check all of the token/fields to ensure they are formatted correctly (`{{ }}`). For each of the fields with curly brackets (`{ }`) in the template on Google Drive, find and replace that field (including the curly brackets) with the corresponding Greenhouse tokens (including the curly bracket). For example, `{Contributor Name}` in the Drive template will be replaced with `{{CANDIDATE_NAME}}`.
 1. To delete a contract template from Greenhouse, click the three dots `...` to the right of the template name, then click delete and confirm.
 
-The SSOT for the contract templates are on [this handbook page updated by Legal and People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/). Any updates to contracts will be done there first, and then the talent acquisition team needs to be pinged to be made aware of the changes so they can update the corresponding Greenhouse template.
+The SSOT for the contract templates are on [this handbook page updated by Legal and People Operations](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/). Any updates to contracts will be done there first, and then the talent acquisition team needs to be pinged to be made aware of the changes so they can update the corresponding Greenhouse template.
 
-These steps are executed by the **People Connect and Legal teams** when contracts are being updated, but for reference, if any changes need to be made to the templates, these tasks can be referenced below:
+These steps are executed by the **People Operations and Legal teams** when contracts are being updated, but for reference, if any changes need to be made to the templates, these tasks can be referenced below:
 
    1. Some fields that are not necessarily clear are the compensation fields as there are separate fields for the *vacancy* and for the *candidate*; we want the candidate fields for the contract, so in Greenhouse, the appropriate token for salary is `{{CURRENCY}}`, bonus is `{{BONUS_AMOUNT}}`, and stock options is `{{STOCK_OPTIONS}}`. Another field that is easily confused is the title; the `{{JOB_NAME}}` is the name of the vacancy, which is not always necessarily the same as the title the candidate will have; to make sure it is always correct and includes the appropriate level and specialty for the candidate, use the token `{{FULL_TITLE__INCLUDING_LEVEL_AND_SPECIALTY_}}`.
    1. The one exception to the curly bracket find and replace process is the Belgian contract. The fields that need to be edited are highlighted.
@@ -494,14 +494,14 @@ To change a start date after a **GitLab entity** contract has been signed and th
    - In the "Make a Note" section in Greenhouse state the old start date and the new state date, and tag the person on FP&A (typically the second approver) who approved the offer.
    - Save
 1. Update Entity Payroll Provider (Netherlands) of any changes to the start date via the email templates in Greenhouse.
-1. Update the People Connect Team in Slack Workflow.
+1. Update the People Operations Team in Slack Workflow.
     - Open private Slack channel `#peopleops-alerts-private`
     - Click Shortcuts button in the bottom left corner (looks like a lightning bolt)
     - Click "New Start Date        Workflow"
     - Fill in Team Member Name with the New Hire Name
     - Fill in Original Start Date (YYYY-MM-DD)
     - Fill in New Start Date (YYYY-MM-DD)
-    - Fill in Reason For Change. This is to inform the People Connect Team of the reason for the new date (i.e. Public Holiday, New Hire request, Hiring Manager request, etc.).
+    - Fill in Reason For Change. This is to inform the People Operations Team of the reason for the new date (i.e. Public Holiday, New Hire request, Hiring Manager request, etc.).
     - Optional: Fill in Any other changes.
     - Click Submit
 1. Upload start date change comms into Workday.
@@ -529,14 +529,14 @@ To change a start date after a **PEO** contract has been signed and the new team
    - Save
    - In the "Make a Note" section in Greenhouse state the old start date and the new state date
    - Save
-1. Update the People Connect Team in Slack Workflow.
+1. Update the People Operations Team in Slack Workflow.
     - Open private Slack channel `#peopleops-alerts-private`
     - Click Shortcuts button in the bottom left corner (looks like a lightning bolt)
     - Click "New Start Date        Workflow"
     - Fill in Team Member Name with the New Hire Name
     - Fill in Original Start Date (YYYY-MM-DD)
     - Fill in New Start Date (YYYY-MM-DD)
-    - Fill in Reason For Change. This is to inform the People Connect Team of the reason for the new date (i.e. Public Holiday, New Hire request, Hiring Manager request, etc.).
+    - Fill in Reason For Change. This is to inform the People Operations Team of the reason for the new date (i.e. Public Holiday, New Hire request, Hiring Manager request, etc.).
 1. Upload start date change comms into Workday.
    - Sign into Workday
    - Search the new team member's name
@@ -553,7 +553,7 @@ To change a start date after a **PEO** contract has been signed and the new team
 
 To change a start date after a Job Change Letter (JCL) has been signed and the internal team member has been "hired" in GreenHouse, the Candidate Experience Specialist will complete the following steps:
 
-1. Once the start date change request comes through, CES will advise the recruiter to collaborate with the hiring manager or PBP to raise a HelpLab ticket for the People Connect team to make these changes in Workday.
+1. Once the start date change request comes through, CES will advise the recruiter to collaborate with the hiring manager or PBP to raise a HelpLab ticket for the People Operations team to make these changes in Workday.
 The hiring manager or PBP should provide confirmation of the new start date via the HelpLab ticket.
 1. CES can update GreenHouse:
    - Go to Offer Details
@@ -600,9 +600,9 @@ There are certain times when a contract needs to get resent to the candidate aft
 1. If the req is already closed, tag the Enablement team in the greenhouse profile explaining the situation and that the req needs to be reopened to resend a contract.
 1. Unhire the candidate in Greenhouse. (If the position is Closed, Enablement will need to assist with this step).
 1. Resend the correct contract and follow standard steps for doing this.
-1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Connect team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday and will need to be manually corrected by the People Connect Team.
+1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Operations team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday and will need to be manually corrected by the People Operations Team.
 1. Upload the new contract to their Workday profile.
-1. Ping the People Connect Team and let them know the contract has been updated and the details in Workday can be corrected.
+1. Ping the People Operations Team and let them know the contract has been updated and the details in Workday can be corrected.
 
 For Talent Acquisition Enablement:
 
@@ -622,16 +622,16 @@ The Candidate Experience Specialist who initiated the contract process is expect
 
 ## Amended Contracts
 
-Contract amendments or modifications are processed by the Candidate Experience Specialist if the team member has not started or by the People Connect Team member if they have.
+Contract amendments or modifications are processed by the Candidate Experience Specialist if the team member has not started or by the People Operations Team member if they have.
 
 ### Amendments prior to starting with GitLab
 
 If an amendment needs to be made and the previous contract was never active, the Candidate Experience Specialist should:
 
-- Ask People Connect in the `people-exp_ces` Slack channel to delete the previous contract from Workday.
+- Ask People Operations in the `people-exp_ces` Slack channel to delete the previous contract from Workday.
 - Upload the updated contract in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
 
-*Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in Workday.*
+*Note: It is essential that People Operations Team members are informed of all changes, as various fields must be updated in Workday.*
 
 ### Amendments to contracts for new hires with planned relocations
 
@@ -663,18 +663,18 @@ If an amendment needs to be made and the previous contract was never active, the
 1. Stage contract as normal
 1. Add tokens back in after changing signing order
 1. Send
-1. When the contract is completed, message People Connect to make sure they note the relocation.
+1. When the contract is completed, message People Operations to make sure they note the relocation.
 
 ### Amendments after starting with GitLab
 
 A contractor requests a modification to their contract due to a name change/company incorporation (Example: The individual recently incorporated a company, and would like to invoice GitLab through their company versus individually)
 
-- The People Connect Team member should log the requested change in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
-- The People Connect Team member should draft the new contract using the appropriate template in the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) internal handbook page. ***Please remember to always make a copy of the template before editing.***
+- The People Operations Team member should log the requested change in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
+- The People Operations Team member should draft the new contract using the appropriate template in the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) internal handbook page. ***Please remember to always make a copy of the template before editing.***
 
 *Important: Employment contracts cannot be backdated. If a team member requests to backdate a contract for invoicing purposes, an addendum should be added to the contract stating: "As the Contractor has not invoiced GitLab for payment since their start date on `contractor start date`, GitLab will pay the Contractor for this period of time in accordance with the Contractor's base compensation". The start date on the new contract should always reflect the date the contract is staged for signatures.*
 
-- The People Connect Team member should stage the contract in DocuSign to be signed by both the team member and the Director of People Operations.
+- The People Operations Team member should stage the contract in DocuSign to be signed by both the team member and the Director of People Operations.
 - Once siged by both parties, the contract should be uploaded to the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
 
 ### How to Unhire a Candidate After Contract is Signed
@@ -687,7 +687,7 @@ If they have been hired in Greenhouse and exported to Workday, the team will nee
 1. Ask the Recruiter to reject them in Greenhouse; add reasons in notes, you may add the email that was sent by the candidate. Click 'reject and don't send email'.
 1. Cancel any scheduled emails in Greenhouse.
 1. If they were hired via a PEO, inform the contact person at the PEO of this change immediately, ideally before onboarding starts. If they are in a country that uses outside payroll, we will need to inform the payroll company as well.
-1. Message IT, People Connect, and the Sr. Background Check Specialist in the #people-ops-ces channel to let them know to cancel any laptop orders, onboarding issues, background checks, and remove from Workday.
+1. Message IT, People Operations, and the Sr. Background Check Specialist in the #people-ops-ces channel to let them know to cancel any laptop orders, onboarding issues, background checks, and remove from Workday.
 1. If the Recruiter has not already tagged the FP&A approver in the Greenhouse notes, please tag them to let them know that the candidate has withdrawn.
 1. If the Recruiter has not done so already, add a candidate tag of `Rescinded Acceptance` to the candidate's profile.
 
@@ -714,7 +714,7 @@ When generating a job change letter for a PEO, the steps remains the same as out
 
 The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst.
 
-When an internal transition is taking place and the start date for that JCL is amended, please ensure to update the People Connect team via Slack in the `#people-connect_ces` channel of the new start date.
+When an internal transition is taking place and the start date for that JCL is amended, please ensure to update the People Operations team via Slack in the `#people-connect_ces` channel of the new start date.
 
 If a team member goes through a promotion through WorkDay versus Greenhouse, a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) is prepared by the Total Rewards team as listed on their handbook page.
 
@@ -751,7 +751,7 @@ A contractor conversion is when a GitLab contractor is moving into a permanent p
 1. **Reference Check Forms:** You will need to ensure the candidate has completed the reference check form. You may need to remind recruiters that this is required when contractors transition to a permanent position. The candidate does not need to provide references again however, they will need to disclose outside work and PIAA.
 1. **Start Dates:** You may find that start dates with contractor conversions have quicker turnaround times so there are no gaps between a contract end date and a new hires' start date (i.e. a request to start in less than 10 business days, or to start on a non-start date).
 1. **Background Checks:** Please check with the Senior Background Check Specialist in the backgroundcheck-ces Slack channel to confirm if you need to initiate a new background check. If there is no gap between the contract and the permanent position, you may not need to initiate a new background check.
-1. **Mark as Hired:** After you mark a candidate as hired in Greenhouse, you will need to leave a comment notifying People Connect in the [peopleops-alerts](https://gitlab.enterprise.slack.com/archives/CLTBQ9XC7) Slack channel that it is a contractor conversion.
+1. **Mark as Hired:** After you mark a candidate as hired in Greenhouse, you will need to leave a comment notifying People Operations in the [peopleops-alerts](https://gitlab.enterprise.slack.com/archives/CLTBQ9XC7) Slack channel that it is a contractor conversion.
 1. **Laptop/IT:** For all contractor conversions, CES will need to confirm with IT Ops via the [people-connect_CES](https://gitlab.enterprise.slack.com/archives/GJT1K944Q) Slack channel whether the candidate will need a new laptop or not.
     - If they do not need a new laptop, CES will remove the "Ordering your laptop" section from the Welcome email to the candidate.
 
@@ -759,7 +759,7 @@ A contractor conversion is when a GitLab contractor is moving into a permanent p
 
 In the event that a former team member is rehired with the company, they will still go through the normal interviewing process and standard onboarding. Once the contract is signed, CES should ensure that there are no profiles left to merge and that `Former Team Member` is selected as a candidate tag on the right hand side of their profile. They should have their old hire record on their Greenhouse account.
 
-Please let People Connect know in #peopleops-alerts-private if a rehire is happening.
+Please let People Operations know in #peopleops-alerts-private if a rehire is happening.
 
 ## Process for GitLab team-members in the Netherlands
 
@@ -829,7 +829,7 @@ Once this information has been received, please go onto GH and follow the steps 
 When you receive a request to make an offer in Israel, please take the following steps. 
 
 1. In Greenhouse, click on Job setup, then hiring team, then add Sarah Rogers & Darren Burr to the job granting them the Job Admin: FPA and Legal permissions, then save.
-1. The start dates for Israel team members can be a Sunday, given that their work week is Sunday through Thursday. Please let the People Connect Team know that the start date would be a Sunday.
+1. The start dates for Israel team members can be a Sunday, given that their work week is Sunday through Thursday. Please let the People Operations Team know that the start date would be a Sunday.
 1. Send a message to the Legal Team the in ces_legal_contracts slack channel requesting assistance with the offer. When making the request in the channel, please indicate the candidate’s name, include the link to the GH profile & request them to give the compensation breakdown as well as let you know what contract template to use.
 1. One of the Legal Team members will respond with the following information:
    - The GreenHouse Offer Template that you should use
@@ -1171,9 +1171,9 @@ The Intern contract template will be used for both C2C interns and all other int
 
 1. Once the offers are signed by the candidate, CES will send the GitLab Inc Intern Welcome Email. **Note: GitLab will provide laptops to these interns. The Welcome Email asks them to fill out form ASAP**
 1. Once the req is cleared, CES can mark the Intern as hired.
-1. CES will ping People Connect in the #peopleops-alerts slack channel to let them know they just hired in an Intern. **please indicate if they are C2C in your messaging to them**
-1. Once Intern is hired into the system - they will move to the responsibility of People Connect who will create onboarding issues and communicate information about the TaNewKi call.
-1. If you are notified that the C2C intern requires a "youth work permit", please send form over to People Connect. They will be required to fill out the "employer" portion and submit to the intern/guardians.
+1. CES will ping People Operations in the #peopleops-alerts slack channel to let them know they just hired in an Intern. **please indicate if they are C2C in your messaging to them**
+1. Once Intern is hired into the system - they will move to the responsibility of People Operations who will create onboarding issues and communicate information about the TaNewKi call.
+1. If you are notified that the C2C intern requires a "youth work permit", please send form over to People Operations. They will be required to fill out the "employer" portion and submit to the intern/guardians.
 
 ## Employment Agreements for GitLab team members located everywhere else (IT BV contractor agreements)
 
@@ -1220,7 +1220,7 @@ The Intern contract template will be used for both C2C interns and all other int
 
 ### Employment Offboarding
 
-When team members depart GitLab, People Connect will create an offboarding issue. The CES team is responsible for completing tasks under the `@gitlab-com/gl-ces` section. Please note that offboarding issues are time sensitive and should be completed by the due date set on the issue. Completion of these tasks also ensure GitLab remains compliant.
+When team members depart GitLab, People Operations will create an offboarding issue. The CES team is responsible for completing tasks under the `@gitlab-com/gl-ces` section. Please note that offboarding issues are time sensitive and should be completed by the due date set on the issue. Completion of these tasks also ensure GitLab remains compliant.
 
 1. Go to [Employment Issues](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) where the offboarding issues can be found. In the search bar, filter issues by the "CES: To Do" label and work on the issues by due date. Once you open up an offboarding issue, navigate to the `@gitlab-com/gl-ces` section and complete the following steps.
 1. Open Google calendar, select the "Interview Calendar", and type in the team member's name in the search bar at the top. Ensure the team member offboarding isn't in any active interviews.If the team member appears in an active interview,advise the respective CES team member to work with their recruiters to replace the interviewer.Any interviews that have been grayed out on the calendar, have passed already.

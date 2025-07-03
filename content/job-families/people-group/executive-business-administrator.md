@@ -139,7 +139,7 @@ Act as a mentor to the EBA team, sharing best practices and workflows to positiv
 
 ## Career Ladder
 
-An Executive Business Administrator's career path can take various routes depending on the long term career goals and aspirations of an EBA. One path that is routinely taken is that of a career EBA and is someone who is passionate about being in the EBA role for the long-term resulting in becoming a Senior or Staff EBA at GitLab to a member of our E-Group. Another path that is open to an EBA is one where they decide to leverage their experience as an EBA to transition into a new role, such as (but not limited to) a Chief of Staff, Project Manager, Recruiter, Corporate Events Manager, Business Analyst, Executive Communications, PR, Internal Communications, People Connect Specialist, etc.
+An Executive Business Administrator's career path can take various routes depending on the long term career goals and aspirations of an EBA. One path that is routinely taken is that of a career EBA and is someone who is passionate about being in the EBA role for the long-term resulting in becoming a Senior or Staff EBA at GitLab to a member of our E-Group. Another path that is open to an EBA is one where they decide to leverage their experience as an EBA to transition into a new role, such as (but not limited to) a Chief of Staff, Project Manager, Recruiter, Corporate Events Manager, Business Analyst, Executive Communications, PR, Internal Communications, People Operations Specialist, etc.
 
 ## Performance Indicator
 

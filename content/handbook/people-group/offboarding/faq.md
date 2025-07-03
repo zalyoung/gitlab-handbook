@@ -9,7 +9,7 @@ description: "Common Questions about the Offboarding Process"
 
 Offboarding issues are used for de-provisioning purposes so you, as the team member, do not need to do anything to get it opened or will have any action items within the issue.
 
-The People Connect Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
+The People Operations Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
 
 ### When will my access be deactivated?
 
@@ -167,7 +167,7 @@ See the [Spain Benefits page of the Handbook](/handbook/entity/iberia-srl-spain/
 
 ### What if I move?
 
-If you move, please email `people-connect@gitlab.com` so that the People Connect team can keep your address up to date in Workday.
+If you move, please email `people-connect@gitlab.com` so that the People Operations team can keep your address up to date in Workday.
 
 ### Do I need to return previously expensed Home Office Items?
 

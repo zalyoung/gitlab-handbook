@@ -14,7 +14,7 @@ The following incentives are available for GitLab team members. Also see our sep
 1. Every now and then, individual GitLab team members really shine as they live our values.  We especially like to celebrate the special moments that exemplify the behavior we want to see in all GitLab team members.
 1. We recognize this through the `#thanks` channel, and sometimes also through a discretionary bonus which is also celebrated in `#thanks`.
 1. Any GitLab team member can recommend a discretionary bonus for another GitLab team member to the GitLab team member's manager using the [Nominator Bot](#nominator-bot-process) for a $1,000 at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates). The exception is that direct reports cannot nominate their manager or anyone in their management chain for a discretionary bonus.
-1. Only [GitLab team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) are eligible to receive a discretionary bonus / working group bonus or nominate other GitLab team members. Hence, `Temporary Contractors` (Not included in GitLab Team Member Types) are not eligible to receive or nominate discretionary bonus / working group bonus. Any such nominations for the temporary contractors will not be approved by the People Connect team.
+1. Only [GitLab team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) are eligible to receive a discretionary bonus / working group bonus or nominate other GitLab team members. Hence, `Temporary Contractors` (Not included in GitLab Team Member Types) are not eligible to receive or nominate discretionary bonus / working group bonus. Any such nominations for the temporary contractors will not be approved by the People Operations team.
 1. We are fixing this amount at $1,000 thoughtfully and purposefully. We want the focus to be on the value and the behavior, not on the perceived monetary impact to GitLab. This is about recognition.
 1. A general guideline is that 1 in 10 team members might receive a discretionary bonus each month. This can vary greatly as we don't give out bonuses just to hit a quota, nor would we hold one back because a certain number had already been awarded.
 1. There is no limit to the frequency with which someone can receive a bonus. If someone deserves a bonus a day after being nominated for one we should do a second one.
@@ -104,16 +104,16 @@ If you received the same nomination twice (for the same person and the same reas
 1. Slack will open a dialog and ask you for some details about the nomination. Use the motivation text field, to write a few sentences describing how the GitLab team member has demonstrated a specific GitLab value in their work.  Please make sure you have viewed the valid and invalid criteria listed above. Don't forget that the nomination request should tie to our values and be detailed enough to ensure that the nomination meets the criteria. You can select the values it applies to.
 1. If applicable, please be sure to include any relevant issues or merge requests that support the nomination.
 1. Once submitted, the bot will send this over to the manager to kick-off the approval flow.
-1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [people connect](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
-1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
+1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [People Operations](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
+1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Operations team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. Once everyone has approved the bot will report back to you with the good news. If it's rejected we ask the person who rejects, to reach out to you. That is not done by the bot.
 
 ##### Manager Process
 
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
-1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
+1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Operations team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
-1. If the next level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
+1. If the next level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Operations team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#thanks](https://gitlab.slack.com/archives/C038E3Q6L) Slack channel, and make sure the team member's direct peers can easily see it:
      - For example, cross-post to the team member's group channel
      - For Support, add it to the [Support Week in Review](/handbook/support/#support-week-in-review) as a "Team Member Update" item
@@ -129,7 +129,7 @@ graph TD;
   F{Manager's Leader}
   F -->|Reject| H[Bot logs];
   F -->|Approve| L;
-  L{People Connect}
+  L{People Operations}
   L -->|Reject| M[Bot logs];
   L -->|Approve| N[Bot logs and sends to Workday];
 ```
@@ -160,7 +160,7 @@ graph TD;
 **Approval Process:**
 
 1. The next level Manager receives an alert from Workday and can approve or deny.
-1. Once approved by the next level manager, the request is sent to People Connect for review and final approval.
+1. Once approved by the next level manager, the request is sent to People Operations for review and final approval.
 1. Once fully approved, Payroll is notified of the bonus and can begin processing.
 1. After this, the manager is able to notify the team member of the bonus and will announce it on the GitLab Slack channel `[#thanks](https://gitlab.slack.com/archives/C038E3Q6L)`. The announcement should include the "who" and "why" of the bonus.
 
@@ -327,15 +327,15 @@ For information regarding the program details and team member eligibility and un
 
 ### Referral Bonus Processing
 
-1. The People Connect team processes referral bonuses weekly out of the GitLab Referral Bonus Audit Workday report
+1. The People Operations team processes referral bonuses weekly out of the GitLab Referral Bonus Audit Workday report
 1. One Time Payments are added to Workday after reviewing the report and ensuring all qualifications have been met
 1. Payroll is notified of the completed bonus and can begin processing
 
 ### Temporary Add-on Campaign additional tracking for payout
 
 1. Talent Acquisition Manager will track all referrals set to hired in the time period of Add-on campaign.
-1. Talent Acquisition Manager will notify People Connect by Slack or email, the first of the month that aligns with the referred new hire's 3 month employment at GitLab.
-1. People Connect will follow the [steps outlined above](#referral-bonus-processing)
+1. Talent Acquisition Manager will notify People Operations by Slack or email, the first of the month that aligns with the referred new hire's 3 month employment at GitLab.
+1. People Operations will follow the [steps outlined above](#referral-bonus-processing)
 
 ### GitLab Anniversaries
 

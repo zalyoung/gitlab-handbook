@@ -165,7 +165,7 @@ The Compensation Coordinator is a [grade 5](/handbook/total-rewards/compensation
 - Participate in external compensation surveys.
 - Maintain accuracy and integrity of compensation-related data in Workday through regular audits and data coordination.
 - Support the full lifecycle of all compensation programs, including Annual Compensation Review, promotion cycles, quarterly RSU grant approvals, and bonus programs
-- Act as the primary point of contact for compensation-related team member inquiries in collaboration with the People Connect team including creating documentation to support major program and policy implementations.
+- Act as the primary point of contact for compensation-related team member inquiries in collaboration with the People Operations team including creating documentation to support major program and policy implementations.
 - Participate in the development of communications and education materials, collaborating with the broader team to refresh the handbook to ensure user-friendly, concise, and informative pages.
 - Partner with Talent Acquisition to review offers in Greenhouse and respond to inquiries.
 - Coordinate the collection of materials required for audit controls.
@@ -224,7 +224,7 @@ The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensa
 - Collect GitLab internal data to track trends in functional areas.
 - Collect external market data to support benefits roadmaps.
 - Total Rewards Statement Management to be able to report the three pillars of total rewards at the end of each compensation review cycle ensuring the ability to report unvested equity value.
-- Assist the People Connect group with all compensation related escalated inquiries.
+- Assist the People Operations group with all compensation related escalated inquiries.
 - Keep it efficient and DRY.
 
 ### Compensation Partner

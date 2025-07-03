@@ -262,7 +262,7 @@ You can request a new Workday feature by using the aforementioned `/time-off-dee
 
 ### Instructions for Team Members to update past events
 
-Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Operations team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
 
 ## Management's Role in Paid Time Off
 

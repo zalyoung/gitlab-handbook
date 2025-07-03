@@ -162,7 +162,7 @@ The DRI for a project owns the project Slack channel.
 We prefer to work asynchronously as far as possible but still use synchronous communication where it makes sense to do so.
 Asynchronous communication is the best way to make sure everyone, regardless of timezone or availability, is included.
 
-To keep people connected, team members are encouraged to schedule at least one coffee-chat with another team member each week.
+To keep People Operationsed, team members are encouraged to schedule at least one coffee-chat with another team member each week.
 
 #### Demo Calls
 

@@ -274,11 +274,11 @@ Team members can join the `#donut_be_strangers` Slack channel to be paired with 
 Please schedule a chat together, and Donut will follow up for feedback.
 You can also directly reach out to your fellow GitLab team members to schedule a coffee chat in the `#donut_be_strangers` Slack channel or via direct message.
 
-*In the year 2020, Donut reported 537 people connected through 2042 coffee chats at GitLab, compared to 367 chats in similar-sized companies.*
+*In the year 2020, Donut reported 537 People Operationsed through 2042 coffee chats at GitLab, compared to 367 chats in similar-sized companies.*
 
-*In the year 2021, Donut reported 846 people connected through 3210 coffee chats at GitLab, compared to 372 chats in similar-sized companies.*
+*In the year 2021, Donut reported 846 People Operationsed through 3210 coffee chats at GitLab, compared to 372 chats in similar-sized companies.*
 
-*In the year 2022, Donut reported 1265 people connected through 4186 coffee chats at GitLab, compared to 356 chats in similar-sized companies.*
+*In the year 2022, Donut reported 1265 People Operationsed through 4186 coffee chats at GitLab, compared to 356 chats in similar-sized companies.*
 
 ### GitLab Team Member Mixer Calls
 

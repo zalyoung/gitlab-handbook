@@ -26,7 +26,7 @@ Modules/functionality being implemented:
 
 | Workday will replace | Workday will enhance | Workday will integrate with |What remains the same in this phase|
 | ------ | ------ |------ |------ |
-| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, Navan Expense, LawLogix, Modern Health, Navex, Netsuite, E-trade, ADP, Okta, Nominator bot, People Connect bot, Employment Automations | Time Off by Deel, Documents, Contractor Invoices |
+| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, Navan Expense, LawLogix, Modern Health, Navex, Netsuite, E-trade, ADP, Okta, Nominator bot, People Operations bot, Employment Automations | Time Off by Deel, Documents, Contractor Invoices |
 
 - _BambooHR is no longer in use at GitLab as of 2024-12-15._
 

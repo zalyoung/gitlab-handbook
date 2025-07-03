@@ -392,7 +392,7 @@ Any post sent to our German entity address is forwarded to RPI based in Germany 
 
 ## Company stamp
 
-Our legal council has the German company stamp and can stamp government forms for us. Please see 'Entity & Co-Employer HR Contacts' in the People Connect 1password folder for contact details.
+Our legal council has the German company stamp and can stamp government forms for us. Please see 'Entity & Co-Employer HR Contacts' in the People Operations 1password folder for contact details.
 
 ## Email Signature
 
