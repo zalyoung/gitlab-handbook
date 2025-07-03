@@ -270,7 +270,7 @@ The Manager, Field Marketing is a [grade 8](/handbook/total-rewards/compensation
 
 This role includes all of the performance indicators of the previous level plus:
 
-- [10X spend contribution to sales pipeline](/handbook/marketing/strategy-performance/marketing-metrics/#marketing-attribution) for geo (AMER, EMEA,APAC) responsible for.
+- 10X spend contribution to sales pipeline for geo (AMER, EMEA,APAC) responsible for.
 - Contribution to the outlined Regional Marketing OKRs, in alignment with the [Marketing OKRs](/handbook/company/okrs/).
 - Spending of the regional [Field Marketing budget](/handbook/marketing/field-marketing/#the-field-marketing-budget) within 5% variance, for geo (AMER, EMEA,APAC) responsible for.
 - Spending of the regional [Channel Marketing MDF budget](/handbook/resellers/channel-program-guide/mdf/) within 5% variance for geo (AMER, EMEA, APAC) responsible for.
