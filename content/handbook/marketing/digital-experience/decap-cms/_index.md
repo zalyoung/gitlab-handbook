@@ -153,6 +153,8 @@ To add an event to [about.gitlab.com/events/](https://about.gitlab.com/events/),
    - To find your merge request, check [this list of open merge requests](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/merge_requests) for the MR titled `Create Event - {{ Your Event Name }}`
 1. Review, approve, and merge your MR to see it live on the website. 
 
+Video Tutorial [available here](https://youtu.be/j3z-smLIZbE)
+
 #### Web IDE
 
 1. Open the Web IDE for [about.gitlab.com](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com)
