@@ -42,13 +42,23 @@ While maturing a decision or assessing options, the below steps can help you thr
 The Solutions Architecture promotion process augments the [People Group Promotion Process](/handbook/people-group/promotions-transfers/) with the following:
 
 1. The Planning stage of the calibration process [here](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline) typically means the SA leaders have forecasted the promotion candidates at least 2 quarters ahead of the promotion cycle.
+
+##### Staff and Principal Promotion Processes
+
 1. For Staff and Principal level promotions, the promotion justification document must be completed 2 quarters prior to promotion date and submitted to the VP of SA for review.
-1. For Staff and Principal level promotions, the promotion candidate's manager will consult with the SA leadership team, typically during a weekly team meeting. This is to ensure continuous calibration for Staff and above-level roles that have lower representation amongst the SA organization.  This must occur 2 quarters before the expected promotion quarter.  For example, for a Q1 promotion, the calibration should occur in Q3 of the prior FY.
+1. For Staff and Principal level promotions, the promotion candidate's manager will consult with the SA leadership team, typically during a weekly team meeting. This is to ensure continuous calibration for Staff and above-level roles that have lower representation amongst the SA organization.  This must occur 2 quarters before the expected promotion quarter.  For example, for a Q4 promotion, the calibration should occur in Q2.
+1. In consideration of promotion and budget contraints, Staff and Principal level promotions will be limited to a predetermined number of candidates per quarter. 
+
+##### Staff Reccomendations and Presentation
+
 1. For Staff level promotions, the promotion candidate's manager will consult with existing Staff and Principal level SAs for peer-level review and feedback while taking detailed notes to be reviewed with SA leadership.
-1. For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders and Principal level SAs after the review with SA leadership (2 quarters prior to the promotion cycle).  This happens before the standard promotion cycle calibrations.
+1. In addition to the standard promotion document, Staff candidates have the option to prepare a presentation of their accomplishments and alignment to the expectations of a Staff level SA, and their vision for driving future impact.  They also can optionally present to the panel of stakeholders, SA leaders, and current Staff/Principal SAs.
+
+##### Principal Reccomendations and Presentation
+
+1. For Principal level promtions, the Principal candidate will collect letters of recommendations from GitLab and external stakeholders.
+1. For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders, Staff/Principal level SAs, and other GitLab stakeholders after the review with SA leadership (2 quarters prior to the promotion cycle).  This happens before the standard promotion cycle calibrations. The candidates will be assessed based on their professionalism, alignment to GitLab values,the [SA mission](/handbook/solutions-architects/),the expectations of Staff/PrincipalSA, and their vision for driving future impact.
 1. The Principal promotion panel will then meet to discuss the candidate's suitability for the Principal SA role.
-1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the Manager or Director of his/her approval.
-1. At this point, the standard quarterly promotion process is followed
 
 ### Associate Solution Architecture Program
 
@@ -74,7 +84,7 @@ The Associate SA Program aims to embody as many GitLab values as possible as it 
 - [Iteration](/handbook/values/#iteration)
 - [Transparency](/handbook/values/#transparency)
 
-The content is supplemental to the [30/60/90 day onboarding](/handbook/solutions-architects/sa-onboarding/#30-60-90-day-program) that all SAs go through.
+The content is supplemental to the [onboarding](/handbook/solutions-architects/sa-onboarding/) that all SAs go through.
 
 | Activity / Content                       | Timeline / Frequency            | Description                             |
 |------------------------------------------|---------------------------------|-----------------------------------------|
@@ -131,7 +141,7 @@ Recognizing the hard work that the Solutions Architects bring to the sales proce
 Recognizing (and being recognized) by your peers is extremely fulfilling.  If an SA is recognized by a peer, it may appear in one or more of these places:
 
 - The #thanks Slack Channel (Used by the entire organization for all manner of appreciation.)
-- The #deal-gratitude Slack Channel (Used primarily by the [Field Organization](/handbook/sales/field-operations/field-enablement/field-team-recognition/#deal-gratitude-slack-channel) for recognizing work on sales deals.)
+- The #deal-gratitude Slack Channel (Used primarily by the Field Organization for recognizing work on sales deals.)
 - The #wins-key-deals Slack Channel (When an SA is associated with a high profile win, they are automatically added to the details of the win within this channel. SA Leadership is working with Sales Ops to bring more attention to this notification.)
 - Various team meetings (At the start of most SA calls, there is a devoted section for expressing gratitude and appreciation.)
 - [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses-for-individuals) (If an SA has gone above and beyond and truly lived up to GitLab's CREDIT values, a discretionary bonus of $1000 US can be awarded. These nominations can come from anyone in the company and at any time.)
@@ -140,5 +150,5 @@ Recognizing (and being recognized) by your peers is extremely fulfilling.  If an
 
 At various points of the year, SA's have the opportunity to be recognized by their managers and/or Customer Success leadership.
 
-- [Field Organization Quarterly Achievers](/handbook/sales/field-operations/field-enablement/field-team-recognition/#field-quarterly-achievers-chat) (12 various winners from accross the Field Organization for outstanding performance in the Quarter. A designated chat with the CEO, CRO and the other winners as well as a $250 US expensed dinner are included)
+- [Field Organization Quarterly Achievers](/handbook/sales/field-operations/field-enablement/field-team-recognition/) (12 various winners from accross the Field Organization for outstanding performance in the Quarter. A designated chat with the CEO, CRO and the other winners as well as a $250 US expensed dinner are included)
 - [President's Club](https://internal.gitlab.com/handbook/sales/presidents-club/) (13 members of the SA organization (and their optional guests) from across the globe are selected based on contributions throughout the year. More on the selection criteria can be found in the internal link)
