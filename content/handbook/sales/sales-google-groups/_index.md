@@ -39,6 +39,11 @@ The parent google group of the CRO org is sales-all. Several child groups fall w
 | channelleadership | leadership | All leaders on the Global Ecosystems team | 
 | global-ecosystem-all-hands | team | All team members in the Global Ecosystems org | 
 | global-ecosystem-all-hands-extended | team | All Global Ecosystem team members + supporting functions, e.g. Legal, FP&A, Marketing, Ops, etc. |
+| SDRBDR Leadership | leadership | Managers and above on the Sales Dev team |
+| SDRBDR Team | segment | All Members of the Sales Dev Org |
+| sales-dev-amer | team | Members of the AMER Sales Dev teams |
+| sales-dev-apj | team | Members of the APJ Sales Dev teams |
+| sales-dev-emea | team | Members of the EMEA Sales Dev teams |
 
 Most team members will be automatically added to their team's applicable Google group within a few days of starting at GitLab by their [team's EBA](/handbook/eba/). To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
 
@@ -168,8 +173,18 @@ The below channels are specific to the Field organization.
 
 | Channel Name | Channel Access (Private/Public) | Description |
 | ------ | ------ | ------ |
-| #sales_dev_global | public | Sales Dev team channel | 
-| #sales_dev_fyi |  public (read-only) | Official Sales Dev announcements channel |
+| #sales_dev_global | public | Main channel for the global Sales Dev team |
+| #sales_dev_fyi | public | Announcements channel for Sales Development team |
+| #sdr_amer_emea_inbound | public | Team channel for the AMER and EMEA SDR team |
+| #amer_bdr | public | Team channel for all AMER BDR teams |
+| #bdr_amer_comm | public | Team channel for the AMER Commercial BDR team |
+| #bdr_amer_ent | public | Team channel for the AMER Enterprise BDR team |
+| #bdr_amer_fins_latam | public | Team channel for the AMER FINS & LATAM BDR team |
+| #apj_sales_dev | public | Team channel for the APJ Sales Development team |
+| #bdr_entg_emea_dach | public | Team channel for the EMEA DACH BDR team |
+| #bdr_entg_emea_neur_meta | public | Team channel for the EMEA NEUR UKI BDR team |
+| #bdr_entg_emea_seur | public | Team channel for the SEUR BDR team |
+| #bdr_emea-egc-meta-telco | public | Team channel for the EMEA META TELCO EGC BDR team |
 
 Consistent with company guidance to use [public channels](/handbook/communication/#use-public-channels), there are instances where private channels are preferred. As we want to ensure an [inclusive environment](/handbook/values/#diversity-inclusion), the feedback from some of the team is that private channels are sometimes preferred as there is a perception of being judged (i.e., imposter syndrome). The recommendation is to use public channels as it:
 
