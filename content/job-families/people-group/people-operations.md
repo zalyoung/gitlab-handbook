@@ -205,6 +205,7 @@ The Director of Global People Operations reports to the VP, People Operations, T
 ### Job Grade
 
 The Director, Global People Operations is a Grade 10
+
 ### Responsibilities
 
 - Lead and manage a growing People Operations team responsible for managing the employee experience throughout the employee lifecycle.
