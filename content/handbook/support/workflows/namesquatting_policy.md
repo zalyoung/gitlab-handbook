@@ -49,9 +49,9 @@ If the namespace owner makes a response (don't remove my namespace) follow these
 
   <p>Hi,</p>
 
-  <p>Thank you for confirming that you wish to maintain control of the requested namespace.  Per our [Name Squatting Policy](/handbook/support/workflows/namesquatting_policy#namespace-owner-responded), we have cancelled this request and will not release your namespace.</p>
+  <p>Thank you for confirming that you wish to maintain control of the requested namespace. As per our [Name Squatting Policy](https://about.gitlab.com/support/gitlab-com-policies/#name-squatting-policy), we have cancelled this request and will not release your namespace.</p>
 
-  <p>I'll mark this ticket as solved, please reach out if you have any further questions.</p>
+  <p>We will mark this ticket as solved, please reach out if you have any further questions.</p>
 </details>
 
 1. Apply the [`Support::SaaS::Gitlab.com::Name Squatting Policy::Failed Namespace Request`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Namesquatting%20Policy/Failed%20Namespace%20Request.md) to the **namespace requester's ticket**.
