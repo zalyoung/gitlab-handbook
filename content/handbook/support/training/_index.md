@@ -10,7 +10,7 @@ All the learning pathways we have in Support are listed [here](https://gitlab-co
 To create an issue for yourself with one of the module templates:
 
 - Click on the module you want to pursue from the [Skills Catalog](https://gitlab-com.gitlab.io/support/team-pages/skills-catalog.html) page
-- Title it as ***Your Name*: *Module Name***
+- Title it as ***Your Name* - *Module Name***
 - Assign it to yourself
 - Now you're all set to follow the instructions in the module!
 
@@ -35,6 +35,15 @@ sequenceDiagram
     Note left of New SE: New SE completes their <br/>first public update
     Trainer->>New SE: Provides assistance with the first pairing sessions.<br/>Gives feedback on public replies.
     New SE->>Manager: Reviews progress and tickets with manager in 1:1.
+    
+    alt Associate Support Engineer only
+        Note left of New SE: Creates<br>SaaS Account basics training module
+        Note left of New SE: Starts SaaS Account basics<br/>(Associate only)
+        New SE->>New SE: Have pairing sessions with support engineers on SaaS Account tickets
+        New SE->>New SE: Handles SaaS Account tickets while learning
+        Note right of New SE: Completes SaaS Account basics<br/>(Associate only)
+    end
+    
     Note left of New SE: Starts SaaS Basics!
     Trainer->>New SE: Offers suggestions on tickets to answer and follow up on initial responses.
 
@@ -45,7 +54,6 @@ sequenceDiagram
     end
 
     Trainer-->New SE: Schedules weekly follow up sessions.
-
 
     Note right of New SE: Completes SaaS basics
     Manager->>New SE: During 1:1 go over the SaaS onboarding and suggest topics for<br/>ongoing learning.
@@ -83,20 +91,12 @@ Typically, for a new team member in Support, completion of the below onboarding 
 
 | Module | Duration | Description |
 | ------ | ------ | ------ |
-| [Git & GitLab Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Git%20and%20GitLab%20Basics) | 2 days | Understand our products and services |
-| [Customer Service Skills](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Customer%20Service%20Skills) | 2 Days | Understand how we interact with customers, and how to utilize your customer service skills to ensure customer success |
-| [GitLab Support Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Support%20Basics) | 1 Day | Understand how GitLab Support operates and the most common workflows |
-| [Zendesk Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Zendesk%20Basics) | 1 Day | Utilize ZenDesk to perform ticket management |
-| [Triaging Tickets](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Triaging%20Tickets) | 4 Days | Understand how to triage tickets including the triage view in Zendesk |
-| [Customer Calls](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=customer_calls) | 6-12 hours | Understand when and how to organize and lead successful calls with customers |
-| [Documentation](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Documentation) | 1 Day | Become proficient in making documentation and merge requests |
-
-### Choosing your initial Area of Focus
-
-Work with your manager to decide your initial [Area of Focus](/handbook/support/support-engineer-responsibilities#support-engineer-areas-of-focus).
-
-1. For GitLab (SaaS or Self-managed), complete the [GitLab Support Learning pathway](#gitlab-support-learning-pathway).
-1. For License & Renewals, complete the [License and Renewals Learning Pathway](#license-and-renewals-learning-pathway).
+| [Git & GitLab Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?%5Bissue%5Dtitle=YOUR%20NAME%20-%20Git%20and%20GitLab%20Basics&description_template=Git%20and%20GitLab%20Basics) | 2 Days | Understand our products and services |
+| [Customer Service Skills](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Customer%20Service%20Skills&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Customer%20Service%20Skills) | 2 Days | Understand how we interact with customers, and how to utilize your customer service skills to ensure customer success |
+| [GitLab Support Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Support%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Support%20Basics) | 1 Day | Understand how GitLab Support operates and the most common workflows |
+| [Zendesk Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Zendesk%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Zendesk%20Basics) | 1 Day | Utilize ZenDesk to perform ticket management |
+| [Customer Calls](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=customer_calls&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Customer%20Calls) | 6-12 hours | Understand when and how to organize and lead successful calls with customers |
+| [Documentation](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Documentation&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Documentation) | 1 Day | Become proficient in making documentation and merge requests |
 
 ### GitLab.com Administration access
 
@@ -106,27 +106,23 @@ Whenever GitLab.com administration access is required to complete any of the mod
 
 The GitLab Support pathway covers all platforms that we offer. In completing these modules, Support Engineers are expected to answer tickets submitted to any of them.
 
-**NOTE:** As described in [Support hybrid model](#support-hybrid-model), engineers typically complete one Area of Focus, and then add another. Please discuss your timeline with your manager.
+**NOTE:** As described in [Support hybrid model](#support-hybrid-model), engineers typically complete one Area of Focus, and then add another. Please discuss your timeline with your manager. Please note you can complete multiple training modules in parallel!
 
 | Module | Duration | Description |
 | ------ | ------ | ------ |
-| [Working on Tickets](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Working%20On%20Tickets) | 2 Weeks | Help customers by pairing with Support Engineers and replying to tickets |
-| [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20SaaS%20Basics) | 2 Weeks | Understand the basics to answer GitLab.com (SaaS) product related tickets |
-| [GitLab Installation & Administration Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Installation%20and%20Administration%20Basics) | 1 Week | Understand the different ways in which GitLab can be installed and managed |
-| [Self-Managed Support Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Self-Managed%20Basics) | 2 Weeks | Understand the basics to answer Self Managed product related tickets |
-| [GitLab Dedicated Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated) | 1 Week | Understand the basics to answer GitLab Dedicated related tickets |
+| [Working on Tickets](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Working%20On%20Tickets&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Working%20on%20Tickets) | 2 Weeks | Help customers by pairing with Support Engineers and replying to tickets |
+| [GitLab-com SaaS Account Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=GitLab-com%20Saas%20Account%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab-com%20SaaS%20Account%20Basics) | 4 Days | **(Associate Support Engineer only)** Understand the basics to answer GitLab.com (SaaS) account related tickets |
+| [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20SaaS%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab-com%20SaaS%20Basics) | 2 Weeks | Understand the basics to answer GitLab.com (SaaS) product related tickets |
+| [Introduction to GitLab Architecture](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=Introduction%20to%20GitLab%20Architecture&issue%5Btitle%5D=YOUR%20NAME%20-%20Introduction%20to%20GitLab%20Architecture) | 0.5 Day | Understand GitLab architecture |
+| [License and Renewals](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Subscriptions%20License%20and%20Renewals&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Subscriptions%20License%20and%20Renewals) | 2 Weeks | **(Only if discussed with your manager)** Understand the basics to answer our product's License and Renewals related tickets |
+| [GitLab Installation & Administration Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Installation%20and%20Administration%20Basics&description_template=GitLab%20Installation%20and%20Administration%20Basics) | 1 Week | Understand the different ways in which GitLab can be installed and managed |
+| [Self-Managed Support Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Self-Managed%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Self-Managed%20Basics) | 2 Weeks | Understand the basics to answer Self Managed product related tickets |
+| [GitLab Dedicated Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Dedicated) | 1 Week | Understand the basics to answer GitLab Dedicated related tickets |
 
 When these modules are complete:
 
 1. Let your manager know that you are ready to [proceed to the appropriate on-call rotation training](#on-call-rotations).
-1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team project](https://gitlab.com/gitlab-support-readiness/support-team), removing onboarding.
-
-### License and Renewals Learning Pathway
-
-| Module | Duration | Description |
-| ------ | ------ | ------ |
-| [License and Renewals](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Subscriptions%20License%20and%20Renewals) | 2 Weeks | Understand the basics to answer our product's License and Renewals related tickets |
-| [Working on Tickets](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Working%20On%20Tickets) | 2 Weeks | **Work concurrently with your L&R module** -- Help customers by pairing with Support Engineers and replying to tickets |
+1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team project](https://gitlab.com/gitlab-com/support/team-pages), removing onboarding.
 
 ### On-call rotations
 
@@ -134,8 +130,8 @@ After you complete an Area of Focus, talk with your manager about joining an on-
 
 | Module | Duration | Description |
 | ------ | ------ | ------ |
-| [GitLab.com CMOC](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20CMOC) | 1 Day | Understand the responsibilities of being the [Communications Manager On Call (CMOC)](/handbook/engineering/infrastructure/incident-management/#incident-response-roles) for an active GitLab.com incident |
-| [Customer Emergencies](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Customer%20Emergencies) | 1 Week | Understand the responsibilities of being on-call for Customer Emergencies |
+| [GitLab.com CMOC](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=GitLab-com%20CMOC&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab-com%20CMOC) | 1 Day | Understand the responsibilities of being the [Communications Manager On Call (CMOC)](/handbook/engineering/infrastructure/incident-management/#incident-response-roles) for an active GitLab.com incident |
+| [Customer Emergencies](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=Customer%20Emergency%20On-Call&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Customer%20Emergency%20On-Call) | 1 Week | Understand the responsibilities of being on-call for Customer Emergencies |
 
 ### Support Engineer Achievable Progress - First 6 Months
 
@@ -160,15 +156,9 @@ The following reference table can be used as a guideline on achieving comfort wi
 
 ### Ongoing learning
 
-The modules in this section should eventually be taken regardless of your Area of Focus. The topics listed here can be completed in any order. Please discuss with your manager to determine which areas will be relevant to your work and the timing for completion.
+Support Engineers are expected to continuously learn after onboarding. As per the [Support Engineer Responsibilities](/handbook/support/support-engineer-responsibilities/#develop-your-skills-through-learning-and-training-weekly), Support Engineers should aim to complete a training module every quarter (3 months).
 
-| Module | Description |
-| ------ | ------ |
-| [GitLab Intermediate Topics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Intermediate%20Topics) | Intermediate topics for both areas of focus |
-
-### Additional Modules in the Support Training Project
-
-We are continuously working on adding more modules and building out more learning pathways: you can find a list of all our current training modules and Modules in the [Support Training project](https://gitlab.com/gitlab-com/support/support-training/-/tree/main/.gitlab/issue_templates).
+You can find a list of all our current training modules and Modules in the [Support Training project](https://gitlab.com/gitlab-com/support/support-training/-/tree/main/.gitlab/issue_templates). We are continuously working on adding more modules and building out more learning pathways. [Anyone at GitLab can contribute and create Support-specific training!](#creating-and-viewing-gitlab-component-based-training)
 
 ### Creating and viewing GitLab component based training
 
@@ -184,13 +174,12 @@ It is recommended that you complete the modules in the order listed, unless an i
 
 | Module | Duration | Description |
 | ------ | ------ | ------ |
-| [Support Manager Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Support-Manager-Basics.md) | 2 Weeks | Understand support management processes and workflows, including on-call rotations |
-| [Git & GitLab Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Git-GitLab-Basics.md) | 1 Week | Understand our products and services |
-| [GitLab Support Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-Support-Basics.md) | 1 Day | Understand how GitLab Support operates and the most common workflows |
-| [ZenDesk Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Zendesk-Basics.md) | 1 Day | Utilize ZenDesk to perform ticket management |
-| [Triaging Tickets](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Triaging%20Tickets) | 4 Days | Understand how to triage tickets including the triage view in Zendesk |
-| [Customer Emergencies](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Customer-Emergencies.md) | 1 Week | Understand the responsibilities of being on-call for Customer Emergencies |
-| [SSAT Reviewing for Managers](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/SSAT%20Reviewing%20Manager.md) | 1 day | Understand how to handle Support Satisfaction feedback results |
+| [Support Manager Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=Support%20Manager%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Support%20Manager%20Basics) | 2 Weeks | Understand support management processes and workflows, including on-call rotations |
+| [Git & GitLab Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?%5Bissue%5Dtitle=YOUR%20NAME%20-%20Git%20and%20GitLab%20Basics&description_template=Git%20and%20GitLab%20Basics) | 2 Days | Understand our products and services |
+| [GitLab Support Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Support%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20GitLab%20Support%20Basics) | 1 Day | Understand how GitLab Support operates and the most common workflows |
+| [Zendesk Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Zendesk%20Basics&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Zendesk%20Basics) | 1 Day | Utilize ZenDesk to perform ticket management |
+| [Customer Emergencies](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=Customer%20Emergency%20On-Call&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Customer%20Emergency%20On-Call) | 1 Week | Understand the responsibilities of being on-call for Customer Emergencies |
+| [SSAT Reviewing for Managers](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=SSAT%20Reviewing%20Manager&%5Bissue%5Dtitle=YOUR%20NAME%20-%20SSAT%20Reviewing%20for%20Managers) | 1 Day | Understand how to handle Support Satisfaction feedback results |
 
 When this pathway is complete, let your manager know that you are ready to join the appropriate on-call rotations. (Your Support Manager Basics issue contains the instructions for this step.)
 
