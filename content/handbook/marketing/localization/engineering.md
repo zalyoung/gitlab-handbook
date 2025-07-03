@@ -81,7 +81,6 @@ Our production fork of the gitlab-docs project includes a dedicated branch for i
 * Enables review apps using translations from production forks' `main-translation` branches  
 * Allows the team to review translations before upstream deployment
 
-
 The setup is documented in this merge request: [https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs/-/merge_requests/31](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs/-/merge_requests/31)
 
 The review app provides a comprehensive testing environment that:
@@ -100,7 +99,7 @@ The i18n features are now deployed to production. To toggle the translated site:
 1. Edit `config/_default/hugo.yaml`  
 2. Change the language setting:
 
-```
+```yaml
 languages.ja-jp.disabled: false
 ```
 
