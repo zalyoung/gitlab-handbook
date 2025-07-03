@@ -865,3 +865,27 @@ The index itself is a weighted average, values range between 0 and 1, of the cou
 | 0.70 to 0.84 | Fair |
 | 0.50 to 0.69 | Poor |
 | 0.00 to 0.49 | Unacceptable |
+
+---
+
+### Tableau Google Docs & Slides Add-on
+
+All Tableau users have access to the **[Tableau for Google Docs and Slides add-on](https://workspace.google.com/marketplace/app/tableau/1044537977580)**, which allows you to embed Tableau dashboards and charts directly into Google Docs or Slides.
+
+#### How It Works
+- The add-on is accessible on the **right-hand panel** of any Google Doc or Slide.
+- Users can **search for and insert Tableau views** into their documents.
+- Once embedded, Tableau content can be **refreshed with one click** to reflect the latest data.
+- The add-on embeds the **URL** of the selected Tableau view.
+
+#### Best Practices
+- If you need to embed **a specific chart** from a dashboard, that chart must be **published as its own view** in Tableau.
+- Use clear naming conventions when inserting content to ensure recipients understand what data is being shared.
+
+#### SAFE Data Considerations
+When working with content that includes **SAFE-classified data**, you must:
+
+- Ensure the Google Doc or Slide is **only shared with individuals who have access** to the SAFE data in Tableau.
+- Consider adding **“ - SAFE”** to the document or presentation title to indicate data sensitivity and appropriate access controls.
+
+Misuse of SAFE data in external documents may result in data exposure. Always double-check permissions before sharing. For help publishing specific views or understanding SAFE classifications, contact the Data or Tableau support teams.
