@@ -98,13 +98,6 @@ Typically, for a new team member in Support, completion of the below onboarding 
 | [Customer Calls](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=customer_calls&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Customer%20Calls) | 6-12 hours | Understand when and how to organize and lead successful calls with customers |
 | [Documentation](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Documentation&%5Bissue%5Dtitle=YOUR%20NAME%20-%20Documentation) | 1 Day | Become proficient in making documentation and merge requests |
 
-### Choosing your initial Area of Focus
-
-Work with your manager to decide your initial [Area of Focus](/handbook/support/support-engineer-responsibilities#support-engineer-areas-of-focus).
-
-1. For GitLab (SaaS or Self-managed), complete the [GitLab Support Learning pathway](#gitlab-support-learning-pathway).
-1. For License & Renewals, complete the [License and Renewals Learning Pathway](#license-and-renewals-learning-pathway).
-
 ### GitLab.com Administration access
 
 Whenever GitLab.com administration access is required to complete any of the modules listed on this page, the training will direct you to the [GitLab-com Admin](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20Admin) module.
