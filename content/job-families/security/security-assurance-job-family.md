@@ -474,7 +474,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-- 12 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education
+- 10 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education
 - Excellent written and verbal communication skills
 - Expert scripting/coding skills in more than one language - Python and Ruby required.
 - Excellent understanding of automation or software engineering technologies and cloud architectures
@@ -565,7 +565,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The requirements of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-- A minimum of 12 years’ experience defining and shaping Security Governance and technical writing programs.
+- A minimum of 10 years’ experience defining and shaping Security Governance and technical writing programs.
 - Demonstrated experience with industry common security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
 - Detailed understanding of security and governance with cloud-native technology stacks.
 - Experience leading a security awareness and phishing program.
@@ -616,7 +616,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The requirements of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-- At least 12 years of experience conducting customer assurance activities
+- At least 10 years of experience conducting customer assurance activities
 - Proficient experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
 - Demonstrated industry security experience.
 - Experience conducting contract reviews for security focused language.
