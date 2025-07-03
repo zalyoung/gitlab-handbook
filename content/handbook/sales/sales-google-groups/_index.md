@@ -11,15 +11,27 @@ In order to drive clarity on this page, it is important to note that the "Field 
 
 The parent google group of the CRO org is sales-all. Several child groups fall within the parent group.
 
+**Organization-Wide/Management**
+
 | Group Name | Group Level/Access | Description |
 | ------ | ------ | ------ |
 | sales-all | organization | Includes all members of the CRO org |
 | cro-leaders | leadership | All direct reports of the CRO |
 | field-managers | leadership | Managers and above |
+
+**Customer Success**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | cs.managers | leadership | All managers+ in the Customer Success and Renewal Management orgs |
 | timtams | team | All CSM/A/E team members | 
 | cs-renewals | team | All Renewal Management team members | 
 | digitalsuccess | team | All Digital Success team members | 
+
+**Sales**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | sales-amer-comm | team, AVPs/RDs/AEs only | All team members in the AMER Commercial team | 
 | sales-amer-east | team, AVPs/RDs/AEs only | All team members in the AMER East team |
 | sales-amer-finserv | team, AVPs/RDs/AEs only | All team members in the AMER Financial Services team |
@@ -29,16 +41,46 @@ The parent google group of the CRO org is sales-all. Several child groups fall w
 | sales-emea | team | All cross-functional GTM team members supporting the EMEA region |
 | apj-gtm-leaders | leadership | All leaders in cross-functional GTM teams supporting the APJ region | 
 | apj-gtm-org | team | All cross-functional GTM team members supporting the APJ region |
+
+**High Velocity Sales**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | HVFO | team | All High Velocity Sales and First Order team members |
+
+**Revenue Strategy & Operations**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | rsoe-leaders | leadership | All direct reports to the VP of RSO | 
 | rsoe-extendedlt | leadership | All managers+ in the RSO org| 
 | rsoe-team | team | Members of the Revenue Strategy & Operations (RSO) team |
 | sales-ops | team | Members of the Sales Operations team |
+
+**Field Enablement**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | field-enablement | team | Members of the Field Enablement team |
+
+**Professional Services**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | services | team | All team members in the Professional Services org | 
+
+**Global Ecosystems**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | channelleadership | leadership | All leaders on the Global Ecosystems team | 
 | global-ecosystem-all-hands | team | All team members in the Global Ecosystems org | 
 | global-ecosystem-all-hands-extended | team | All Global Ecosystem team members + supporting functions, e.g. Legal, FP&A, Marketing, Ops, etc. |
+
+**Sales Development**
+
+| Group Name | Group Level/Access | Description |
+| ------ | ------ | ------ |
 | SDRBDR Leadership | leadership | Managers and above on the Sales Dev team |
 | SDRBDR Team | segment | All Members of the Sales Dev Org |
 | sales-dev-amer | team | Members of the AMER Sales Dev teams |
