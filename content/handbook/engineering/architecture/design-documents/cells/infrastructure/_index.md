@@ -477,7 +477,7 @@ The first distinction is between teams implementing and maintaining the tools, a
 |                                                   | Emergency brake: stopping a package rollout               | team::Delivery-Deployments      |
 | Rollback capabilities                             |                                                           |                                 |
 |                                                   | Rollback with downtime (for QA Cell in ring 0)            | team::Delivery-Deployments      |
-|                                                   | Delayed Post Deploy Migrations for rollback support       | team::Environment Automation    |
+|                                                   | Delayed Post Deploy Migrations for rollback support       | group::environment automation    |
 | Observability                                     |                                                           |                                 |
 |                                                   | Cell health metric                                        | team::Scalability-Observability |
 |                                                   | Fleet health metric                                       | team::Scalability-Observability |
