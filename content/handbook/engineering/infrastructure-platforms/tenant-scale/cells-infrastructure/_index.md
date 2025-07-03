@@ -85,8 +85,6 @@ Each week the EM will review the issue boards. The intent of the review is to:
 - Ensure that there are refined issues ready to be worked on. Refined issues are weighted, have sufficient context in the description, and a workflow label indicating that it is ready to be worked on.
 - Check that issues are aligned to our roadmap and status updates on relevant epics.
 
-
-
 ## Resources
 
 - Slack (internal): [#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59), [#g_cells_infrastructure_standup](https://gitlab.enterprise.slack.com/archives/C07UWPM2Y0P)
