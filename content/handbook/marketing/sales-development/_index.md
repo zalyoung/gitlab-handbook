@@ -1254,7 +1254,7 @@ The team has an issue where we consolidate our monthly to-dos (titled `Monthly H
 
 #### Manager Tool Certification
 
-We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893).
+We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full video playlist of this training is [on our Unfiltered playlist here](https://www.youtube.com/playlist?list=PL05JrBw4t0KpFZmMd8LLfqkcXr9lotTAb). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://docs.google.com/spreadsheets/d/12YbsXUN6-ZeAFHjQa8YTdL1sNIPKiCh8QJmf__IAZkY/edit?gid=1541724943#gid=1541724943), along with passing criteria.
 
 #### General leadership principles
 
