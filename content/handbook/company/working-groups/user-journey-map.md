@@ -12,7 +12,7 @@ While this working group focuses on creating a structured foundation for journey
 | Property     | Value            |
 |--------------|------------------|
 | Date Created | April 23, 2025   |
-| Target Date  | June 30, 2025 |
+| Target Date  | July 15, 2025 |
 | Slack        | [#ujm-working-group](https://gitlab.slack.com/archives/C08PCJAM3F0) (internal only) |
 | Google Doc   | [User Journey Map Working Group Agenda](https://docs.google.com/document/d/1MiN_6N3nV8A5zioI9KDex9WuxBMRs9rtxO_MiJ-brpg/edit?) (internal only) |
 
@@ -32,12 +32,14 @@ This working group aims to:
   - Status: [Complete](/handbook/product/ux/user-journeys/#key-terminology)
 - Develop guidelines for various levels of journey elevation (macro, mid, micro) `=> 100%`
   - Status: [Complete](/handbook/product/ux/user-journeys/#journey-map-elevations)
-- Establish templates, methodologies, and best practices for journey documentation `=> 0%`
-- Create a centralized system for storing, accessing, and connecting journey maps `=> 50%`
-  - Status: We have [reviewed various tooling](https://gitlab.com/gitlab-com/Product/-/work_items/14209) and are further examining how to best utilize Figjam
-- Establish communication channels for journey insights and discoveries `=> 0%`
+- Establish templates, methodologies, and best practices for journey documentation `=> 100%`
+  - Status: Complete; [Templates](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/14575), [Documentation](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/14463)
+- Create a centralized system for storing, accessing, and connecting journey maps `=> 75%`
+  - Status: We have [reviewed various tooling](https://gitlab.com/gitlab-com/Product/-/work_items/14209) and are exploring whether a specialized journey mapping tool is worth pursuing. In the meantime, we have set up a "Journey Mapping" team in Figma which includes templates and projects for various journey map elevations. Next, we need to document how to use this system in the handbook.
+- Establish communication channels for journey insights and discoveries `=> 50%`
+  - Status: We have created the #gitlab-user-journeys slack channel and included its use in our best practices. Next, we need to tie it into the various issue templates.
 - Create a structure for translating journey insights into strategic opportunities based on business impact and user value `=> 50%`
-  - Status: We have drafted an issue template for teams to utilize, [currently under review](https://gitlab.com/gitlab-com/Product/-/work_items/14211)
+  - Status: We have drafted an issue template for teams to utilize, [currently under review](https://gitlab.com/gitlab-com/Product/-/work_items/14211). We are discussing whether a dedicated research issue template should be created for user journeys or whether we can utilize existing templates.
 
 ## Roles and Responsibilities
 
