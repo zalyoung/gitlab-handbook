@@ -27,7 +27,7 @@ To engage with the Switchboard team:
 - Label the issue with:
   - `component::Switchboard`
   - `workflow-infra::Triage`
-  - `team::Switchboard`
+  - `group::switchboard`
 - When creating an issue, it is not necessary to `@`mention anyone
 - In case you want to get attention please use the specific team handle, `@gitlab-dedicated/switchboard`, as defined in [Dedicated group hierarchy](/handbook/engineering/infrastructure/team/gitlab-dedicated/#gitlab-group-hierarchy)
 - As a cross-functional team Switchboard uses `@gitlab-dedicated/switchboard/frontend-engineers` and `@gitlab-dedicated/switchboard/backend-engineers` internally to seek input from engineers with specific expertise
@@ -70,7 +70,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 
 #### Resources
 
-- [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=team::Switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false)
+- [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false)
 - [Switchboard team top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1048)
 - [Switchboard team issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
 - [Switchboard technical writing board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/7068209?label_name[]=component%3A%3ASwitchboard&label_name[]=Technical%20Writing)
@@ -170,7 +170,7 @@ Switchboard team process to refine issues:
 
 1. [Switchboard team top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1048)
     1. Look at the Switchboard top level epic and offer to work on issues with the nearest due date
-    1. Use the [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=team::Switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false) for guidance
+    1. Use the [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false) for guidance
 
 1. `Open` column on the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
    1. Look at the issues at the top of the `Open` column
@@ -387,7 +387,7 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 
 <!-- STATUS NOTE END -->
 
-/label ~"team::Switchboard" ~"workflow-infra::Triage"
+/label ~"group::switchboard" ~"workflow-infra::Triage"
 /confidential
 
 ```
