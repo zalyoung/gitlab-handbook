@@ -58,7 +58,7 @@ We use the following guidelines for denoting when an issue is blocked:
 
 - If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency. 
 - If an issue was started but requires further input, completion of another issue, etc before progressing, we use `~"workflow-infrafin::Blocked"`.
-- If an issue is blocked by work required from another team please make sure that team is aware and the appropriate labels are applied. 
+- If an issue is blocked by work required from another team please make sure that team is aware and the appropriate labels are applied.
 
 #### Epic Tracking
 [TODO]
