@@ -108,7 +108,6 @@
 # Cells project moved - remove 2025-12-22
 /handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
 
->>>>>>> 418a33a73a (Move /infrastructure/cost-management/ pages)
 # Source Code team pages move - remove 2025-08-01
 /handbook/engineering/development/ /handbook/engineering/devops/ 301
 
