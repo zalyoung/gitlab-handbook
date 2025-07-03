@@ -66,125 +66,45 @@ We maintain two separate environments that contain all projects used to compile 
 
 **Test environment**: [localization/tech-docs-forked-projects/test/](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/)
 
-### Branch structure
-
-#### Overview
-
 Each project within these environments maintains the following branch structure:
 
 1. **main** Used exclusively for pulling upstream changes into our fork. Do not contribute to this branch.
 2. **main-translation** Used for delivering translations from our Translation Management System (TMS). Do not contribute to this branch.
-3. **main-development** This is our development workspace for i18n features.
-4. **live-preview** A stable live preview branch for the internationalized GitLab documentation. [See MR for more details](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17).
 
-#### Branch maintenance
+### Translation Preview 
 
-##### How to Update Localization Forks with Upstream Changes**
+Our production fork of the gitlab-docs project includes a dedicated branch for internationalization development:
 
-###### Steps
+`main-development` – Our i18n feature development environment that:
 
-1. **Update the fork's main branch**  
-   * Update your fork's default branch (`main` or `master`) to match the production project's default branch
-   * Use the "Update Fork" button in the UI
-2. **Create a merge request (MR)**
-   * Create an MR that merges the default branch to `main-translation`
-   * This MR will contain all documentation changes since the last update
-3. **Review changed files**
-   * **Pipelines**: If pipelines fail, this is typically due to upstream configuration issues
-     * In most cases, you can force the merge and ignore pipeline issues
-     * Attempting to fix these issues often consumes engineering resources unnecessarily
-   * **Merge conflicts**: Review these case by case
-     * May need to be relayed to the localization team
-     * Conflicts occur because of upstream changes
-     * Ignoring conflicts on target files will cause future translations to overwrite upstream changes
-4. **Merge the MR to `main-translation`**
-   * This updates the translation branch with the default branch
-   * Triggers Argo-GitLab integration to check for source language file updates
+* Builds localized documentation routes  
+* Enables review apps using translations from production forks' `main-translation` branches  
+* Allows the team to review translations before upstream deployment
 
-[See example MR](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab/-/merge_requests/11) for updating the `main-translation` branch with content from the Omnibus Production fork.
 
-### i18n Development Environments
+The setup is documented in this merge request: [https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs/-/merge_requests/31](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs/-/merge_requests/31)
 
-#### Main Development Branch
+The review app provides a comprehensive testing environment that:
 
-The `main-development` branch is our dedicated environment for i18n feature development. It builds localized routes and enables review apps using translations from production forks' `main-translation` branches.
-This [merge request](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27) documents the changes to enable i18n feature development. 
+* Consolidates translated content from all five documentation repositories (GitLab, Operator, Omnibus, Runner, Charts)  
+* Maintains production-identical build pipelines  
+* Leverages Hugo's built-in i18n features  
+* Enables pre-production review of internationalized documentation and feature development
 
-##### Working with the i18n environment
+**Note**: The preview doesn't automatically sync with `main-translation` fork updates. To incorporate the latest translation changes, manually trigger a new pipeline.
 
-1. Always create feature branches from `main-development`
-2. Target merge requests to `main-development`
-3. Test with translations from all projects' `main-translation` branches
-4. After approval, open a separate MR to contribute upstream
+### Enabling i18n in Production
 
-It is helpful to set up a dedicated directory on your machine for this environment, since it also requires external projects from our production fork, specically the  `main-translation` branch. 
+The i18n features are now deployed to production. To toggle the translated site:
 
-```plain
-cd htdocs
-mkdir main-devevelopment
-git clone git@gitlab.com:gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs.git
-cd gitlab-docs
-mise trust
-make setup
-USE_SSH=true make clone-docs-projects
+1. Edit `config/_default/hugo.yaml`  
+2. Change the language setting:
+
+```
+languages.ja-jp.disabled: false
 ```
 
-Your resulting directory structure should look like this:
-
-```plain
-main-development
-├── charts-gitlab/ (main-translation)
-├── gitlab/ (main-translation)
-├── gitlab-docs/ (main-development)
-├── gitlab-runner/ (main-translation)
-├── gitlab-operator/ (main-translation)
-└── omnibus-gitlab/ (main-translation)
-```
-
-Refer to documentation here for setting up your workstation further: https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main/doc/setup.md?ref_type=heads#set-up-your-workstation 
-
-##### Updating `main-development`
-
-* Use the "Update fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-development)  
-* If conflicts occur, update locally:
-
-```plain
-cd /htdocs/localization/main-development/gitlab-docs ## cd into your gitlab-docs directory using the main-development branch
-git fetch
-git checkout main-development
-git merge origin/main
-git push origin main-development 
-```
-
-#### Review App
-
-The review app enables our team to review internationalized documentation and features before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and utilizes the i18n features built for Hugo.
-
-While the latest `main-development` branch contents are visible, it won't automatically update when there are changes to the `main-translation` forks. Run a new pipeline to pull those in.
-
-First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the server, then visit https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ to see the latest `main-development` branch contents.
-
-| Repository | Live Preview URL |
-| ----- | ----- |
-| GitLab | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/ci/yaml/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/ci/yaml/) |
-| Operator | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/operator/backup\_and\_restore/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/operator/backup_and_restore/) |
-| Omnibus | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/omnibus/build/build\_docker\_image/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/omnibus/build/build_docker_image/) |
-| Runner | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/runner/register/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/runner/register/) |
-| Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/) |
-
-This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27).
-
-##### How to build a quick Review app for a product documentation Translation MR
-
-Building a review app means pointing the Hugo application to the correct branch which contains those changes. 
-Here's a step by step process on how you can achieve this:
-
-1. Go into [main-development products.yaml](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main-development/data/products.yaml)
-2. Find the project and edit the `default_branch` field to match the Translation MR’s branch
-3. Save the edits to a new branch and create a new MR titled “Draft: Review of <Translation MR Name>”
-4. Update MR’s description to specify what the MR is for and why. Link any related issues, merge requests, or external resources such as an Argo request URL
-5. Add a list of URLs to check in the review app
-6. Once the pipeline completes, you can access the review app through the "View App" button
+This single configuration change activates/deactivates the entire translated documentation site.
 
 ## Localization engineering by partnership with Spartan Software
 
