@@ -9,11 +9,13 @@ description: "Handbook page for GitLab Video Scanner."
 
 You can access the application at https://frontend.video-scanner-live.sec.gitlab.net/
 
-### What Is Video Scanner
+### What Is GitLab Video Scanner
 
 GitLab Video Scanner is a GitLab internal application that scans videos for potential token leaks before they are published to the `GitLab Unfiltered` YouTube channel. Team members can access it via https://frontend.video-scanner-live.sec.gitlab.net/.
 
-The Video Scanner application is also functioning as a GitLab content scanner; the same service is triggered by any file uploaded to the GitLab platform, such as text files or screenshots that we upload to public issues. We have separate alerts going to the `#security-research-alerts` Slack channel for token leaks detected in the GitLab platforms. Verified tokens will also trigger security incidents.
+The same application is also functioning as a GitLab content scanner; the service is triggered by any file uploaded to the GitLab platform, such as text files or screenshots that we upload to public issues. We have separate alerts going to the `#security-research-alerts` Slack channel for token leaks detected in the GitLab platforms. Verified tokens will also trigger security incidents.
+
+The complete workflow is illustrated in this [internal handbook page on Organization controls for detection of and response to leaked tokens](https://internal.gitlab.com/handbook/security/product_security/token-leaks/organizational_controls/#architecture-diagram).
 
 ### Why Should We Use It to Upload Videos
 
