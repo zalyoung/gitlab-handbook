@@ -25,7 +25,7 @@ GitLab is dedicated to empowering our partners with essential skills needed to s
 
 By investing in GitLab accreditations, partners demonstrate their dedication to providing exceptional service while building the technical foundation necessary for successful customer relationships and implementations.
 
-GitLab has a commitment to enabling our partners with the skills that they need to best support current and future GitLab customers. This includes offering a combination of GitLab Partner Accreditations for Sales, Pre-Sales Technical, and Customer Success roles, as well as offering [GitLab Certifications.](https://university.gitlab.com/pages/certifications/)
+GitLab has a commitment to enabling our partners with the skills that they need to best support current and future GitLab customers. This includes offering a combination of GitLab Partner Accreditations for Sales, Pre-Sales Technical, and Customer Success roles, as well as offering [GitLab Professional Services Engineer Certification.](hhttps://university.gitlab.com/learning-paths/gitlab-certified-professional-services-engineer-learning-path/)
 
 ## <span style="color: #fc6d26;">GitLab Partner Program Required Training</span>
 

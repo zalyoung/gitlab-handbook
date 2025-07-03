@@ -5,7 +5,7 @@ description: The Import Group facilitates migrations.
 
 ## About
 
-The Import group is a part of the [Foundations Stage](/handbook/product/categories/#foundations-stage).
+The Import group is a part of the [Create Stage](/handbook/engineering/devops/dev/create/).
 The group supports the product by migrating between GitLab instances and from other providers.
 
 This page covers processes and information specific to the Import group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
@@ -27,7 +27,7 @@ query is being directed to the correct group.
 
 The following people are permanent members of the group:
 
-{{< engineering/stable-counterparts role="Foundations:Import and Integrate" >}}
+{{< engineering/stable-counterparts role="Create:Import" >}}
 
 ## Metrics
 
@@ -107,7 +107,7 @@ All issues should have:
 
 - All of our section, stage and group labels:
   - `~"section::core platform"`
-  - `~"devops::foundations"`
+  - `~"devops::create"`
   - `~"group::import"`
 - One or more of the category labels:
   - `~"Category:API"`

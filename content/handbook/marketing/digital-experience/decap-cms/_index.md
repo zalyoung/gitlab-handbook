@@ -15,9 +15,8 @@ Blog posts can be found in two different locations:
 Creating a blog post from scratch is as easy as filling out the [blog post template](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/blob/main/.gitlab/merge_request_templates/blog-post.md?ref_type=heads). This can be done using the WebIDE, or by setting up the project locally.
 
 1. Copy the example yaml document, and place it under the `/blog/` folder within the appropriate locale. For example, English blog posts would be under `/content/en-us/blog/`
-2. If you're adding a new image, add it to the `/public/images/blog/hero-images/` folder and update the file path in your yaml file.
-3. Add an author (first name, last name). If the author does not already exist in this [list of authors](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content/en-us/blog/authors?ref_type=heads), you can create a new one by copying and pasting the format of an existing author.
-4. Fill in the remaining sections of the yaml file, using markdown for the body of the blog post, and assign your merge request to `@Sgittlen` for review.
+2. Add an author (first name, last name). If the author does not already exist in this [list of authors](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content/en-us/blog/authors?ref_type=heads), you can create a new one by copying and pasting the format of an existing author.
+3. Fill in the remaining sections of the yaml file, using markdown for the body of the blog post, and assign your merge request to `@Sgittlen` for review.
 
 ### Creating a blog post using Decap CMS
 
@@ -112,7 +111,7 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 ### Creating a blog post using the Web IDE
 
 1. Visit the project repository at https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com
-1. Click the `Code` button dropdown, and select `Open with Web IDE`
+1. Click the `Edit` button dropdown, and select `Open with Web IDE`
 1. Once open, navigate to the folder you'd like your blog post in
     - For most, this will be in `content -> en-us -> blog`
     - Localized blog posts can be found in the content/{{language-code}} folder, such as `content -> fr-fr -> blog`

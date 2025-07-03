@@ -70,6 +70,8 @@ Only use Slack Groups if:
 | sales_ent_managers | ASMs and above on the Enterprise team |
 | sales_com_managers | ASMs and above on the Commercial team |
 | sales_cs_managers | Managers and above on the Customer Success team |
+| sales_dev_leadership | Managers and above on the Sales Dev team |
+| salesdev_global | All Sales Dev teammembers |
 
 ### Field Slack Channels
 

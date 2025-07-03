@@ -23,7 +23,7 @@ When there are gaps, the Office may expand to include additional roles and respo
 
 ## Kinds of projects Strategy and Operations team members work on {#what-projects-does-the-cost-work-on}
 
-Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#okr-process-at-gitlab) and given these projects are important to the CEO, the Strategy and Operators team members are often involved in these initiatives.
+Given the cross-functional nature of the company goals and given these projects are important to the CEO, the Strategy and Operators team members are often involved in these initiatives.
 
 ### Project Criteria
 
@@ -142,16 +142,6 @@ In addition, the CoS to the CEO helps the CEO in preparing for the CEO's closed 
 1. Who should be thanked for their work?
 
 Designated meeting time will be used to review and make adjustments to the proposal. The CoS to the CEO will coordinate with the EBA to the CEO to ensure that there is a "FYI" on the closed session agenda that links to the prepared material.
-
-## OKRs
-
-The Office of the CEO runs the [OKR process](/handbook/company/okrs/).
-We set OKRs on a [fiscal quarter](/handbook/finance/#fiscal-year) basis.
-
-There is an [OKR schedule](/handbook/company/okrs/#okr-process-at-gitlab) that dictates the timeline of events.
-We use a handbook page for each quarter.
-The CEO's Objectives every quarter map to the [sequence](/handbook/company/cadence/) of our [strategy](/handbook/company/strategy/).
-The CEO's KRs are what we're measuring for the company for that quarter.
 
 ## Collaborating on Cross-Functional Initiatives
 

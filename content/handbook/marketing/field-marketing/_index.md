@@ -291,6 +291,10 @@ The global Field Marketing team is working with the Marketing Operations team to
 
 - [Asana](/handbook/marketing/marketing-operations/asana/)
 
+### Asana Marketing Calendar
+
+Please visit the internal handbook page [here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/asana/#fy26-marketing-calendar) for links to our Asana Marketing Calendar that highlights upcoming events and details. 
+
 ### Asana tips and best practices
 
 1. If you do not need a task, please delete all subtasks and then the task itself. This will remove the task from the view of everyone involved and is less confusing. Changing the task status can be overwritten by the rules we have set in place, so it’s better to delete if you aren’t using it. Examples of tasks that should be deleted if you are not using them: Build Landing Page, Email tasks, Build Target List.
@@ -326,8 +330,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
   - FMC adds the `Asana-Sync-Project` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
     - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
     - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
-- When the Asana project is created, the project will also be automatically added to the [FY26 All Marketing SSoT Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
-  - An integration with our [Google calendar](/handbook/marketing/field-marketing/#google-calendar-links) is coming soon, but for now, the FMC will still need to manually add the event to the appropriate Google calendar by completing that specific task provided in the Asana template for each event.
+- When the Asana project is created, the project will also be automatically added to the [FY26 Asana Marketing Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
 - FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
 - FMC to fill in Event Details from the GitLab issue to the project Overview
 - FMC to add the GitLab issue link to the Asana project in the Overview
@@ -604,6 +607,12 @@ For sticker orders, please reach out to `@krogel` for details. If all stickers a
 ### Print Collateral
 
 In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#qr-codes-for-events-field-marketing-and-corporate-events) to display at your event with that same piece of content for customers to download to their own devices.
+
+### Ordering Items from the GitLab Swag Shop
+
+If you would like to order an item(s) from the [GitLab Swag Shop](https://shop.gitlab.com/) for an event, Please reach out to Betsy Bula and let her know the item(s) you are interested in and the quantity and she will make sure she has enough in stock to spare. Then, please fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSfCeJSeJaafhh4Xxv2fC3mUSMEIWtQSOqy7S9ErwdX0iECk-Q/viewform) for the total $ amount of the item(s) and the Brilliant team will grant you a store credit for the shop. You can use that store credit to pay for the items, and GitLab FP&A will "charge" your budget/Allocadia ID on the back end at the end of the month.
+
+**Note:** Order Code = Allocadia line item ID
 
 ## EMEA Field Marketing Swag
 
@@ -956,14 +965,6 @@ For details on how we handle events please visit the [GitLab Event Information](
 ## AMER Field Marketing Event Tracker for Sales
 
 It is the responsibility of each field marketing manager to ensure that [this tracker](https://docs.google.com/spreadsheets/d/1-McecmJ7MVgdmVrjzBdrxrx6CfJ6U0dqnMILBNl67j0/edit#gid=0) is up to date with all AMER Field Marketing initiatives. Sales should consider this spreadsheet live and current daily.
-
-## Google Calendar links
-
-If you prefer to see the events in an actual calendar view please refer to the following:
-
-- [External virtual events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [GitLab hosted Zoom webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [In person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ## Suggesting an Event or Tactic
 

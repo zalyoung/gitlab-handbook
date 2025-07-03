@@ -12,7 +12,7 @@ The Engineering Productivity team has diverse responsibilities and reactive work
 - We focus on OKRs, corrective actions and preventative work.
 - We adhere to the general release milestones like %x.y.
 - We are ambitious with our targeted planned work per milestone. These targets are not reflective of a commitment. Reactive work load will ebb and flow and we do not expect to accomplish everything planned for the current milestone.
-- [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) are used to indicate relative priority for a milestone.
+- [Priority labels](/handbook/product-development/how-we-work/issue-triage/#priority) are used to indicate relative priority for a milestone.
 
 ## Weighting
 
