@@ -38,6 +38,7 @@ Specialized design expertise translates to measurable improvements in conversion
 Expert teams focus on domain-wide strategy and knowledge development.
 
 Key Activities:
+
 - Develop strategic vision for their domain across product areas
 - Create and maintain pattern libraries and design system extensions
 - Establish ethics, accessibility, and quality standards
@@ -49,6 +50,7 @@ Key Activities:
 Embedded specialists apply expert team knowledge within their specific product contexts.
 
 Key Activities:
+
 - Implement domain frameworks within product workflows
 - Design feature-level user experiences using established patterns
 - Optimize implementations for their product area’s specific needs
