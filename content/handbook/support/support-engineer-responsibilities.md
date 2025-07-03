@@ -49,12 +49,12 @@ This responsibility can be broken down into five key components:
 1. [Help others to maintain progress on their tickets](#5-help-others-to-maintain-progress-on-their-tickets)
 
 As you read through the components, keep in mind that the focus of an
-Intermediate Support Engineer differs from that of a Senior
+Associate and Intermediate Support Engineer differs from that of a Senior
 Support Engineer:
 
-- Intermediate: Focus is on managing and solving their assigned tickets
+- Associate and Intermediate: Focus is on managing and solving their assigned tickets
 - Senior: Although managing and solving their own assigned tickets remains
-  important, focus is on helping Intermediate Support Engineers to solve their
+  important, focus is on helping Associate and Intermediate Support Engineers to solve their
   assigned tickets both by assisting directly on tickets (pairing, internal
   notes, etc.) and by delivering training (mentoring, classes, videos, etc.).
 
@@ -218,7 +218,7 @@ shows the current values.
 
 ## Prioritizing work
 
-Each Intermediate and Senior Support Engineer should generally be prioritizing their daily work according to the following list. Interviews, training, special assignments and other time-bound commitments are examples of good temporary exceptions to these priorities.
+Each Support Engineer should generally be prioritizing their daily work according to the following list. Interviews, training, special assignments and other time-bound commitments are examples of good temporary exceptions to these priorities.
 
 You should think of this list as a tool for helping you to make decisions. When there are multiple things to be done, these priorities should guide you toward deciding which of them to do first.
 
@@ -254,7 +254,7 @@ The following on-call rotations are staffed by Support Engineers:
 1. [Self-managed customer emergency on-call](/handbook/support/on-call/)
 1. [GitLab.com Communications Manager on Call (CMOC)](/handbook/support/workflows/cmoc_workflows)
 
-All Support Engineers participate in one of these rotations - not both, unless you absolutely love being on-call!
+Intermediate and Senior Support Engineers participate in one of these rotations - not both, unless you absolutely love being on-call!
 
 **New Team Members:** your Support Engineer Onboarding Issue shows the readiness criteria for joining rotations.
 
@@ -281,7 +281,8 @@ Be sure to highlight notable incidents in your 1:1 notes doc.
 
 | Level        | How it might look |
 | ------------ | ----------------- |
-| Intermediate | Aim for two pairing sessions per week |
+| Associate    | Aim for two to five pairing sessions per week |
+| Intermediate | Aim for two to five pairing sessions per week         |
 | Senior       | [Aim for one pairing or help session per day](/handbook/support/engineering/mentorship) |
 
 ## Create and update issues for bugs and feature requests (Weekly)
@@ -296,6 +297,7 @@ Reducing future customer problems is an important part of being a Support Engine
 
 | Level        | How it might look |
 | ------------ | ----------------- |
+| Associate    | Collaborate with other support engineers and create issues with description completed and appropriate labels |
 | Intermediate | Create issues with description completed and appropriate labels |
 | Senior       | Additionally drive fix/enhancement when appropriate based on expertise and customer interactions |
 
