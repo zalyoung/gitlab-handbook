@@ -55,7 +55,13 @@ Use of the Default Organization will break Cells compatibility because the Defau
 
 ## API Requests
 
-REST and GraphQL requests will remain at `/api/v4` and `/api/graphql` and include an `organization-id` parameter.
+REST and GraphQL requests will remain at `/api/v4` and `/api/graphql`.
+
+Organization context will be define with:
+
+- An `organization-id` parameter
+- An `Organization-ID` header
+- The organization associated with the used secret (personal access token, etc.)
 
 ## Background Jobs
 
