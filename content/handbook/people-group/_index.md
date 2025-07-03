@@ -145,7 +145,7 @@ Most tasks/requests from the People Business Partners for the People Operations 
 
 ## People Operations Responsibilities & Response Timeline
 
-Please note that the source of truth for role responsibilites is the job family for the [People Operations Team](/job-families/people-group/people-connect). The table below is meant to provide a quick overview of some of the core responsibilities for the team.
+Please note that the source of truth for role responsibilites is the job family for the [People Operations Team](/job-families/people-group/people-operations). The table below is meant to provide a quick overview of some of the core responsibilities for the team.
 
 ### People Operations Team
 
