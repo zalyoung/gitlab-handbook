@@ -434,19 +434,29 @@ Customer Support provides 24/7 coverage for customers subscribed to GitLab’s A
 
 ### Weekend Coverage
 
-Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. This means we need to provide a first reply and ensure the customer doesn't get into a critical scenario during the weekend. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
+Commencing August, shift engineers will start working on Saturday in all region and provide coverage. 
+`@CEOC`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets on days when the shift engineer is either not onboarded yet or on PTO. Current coverage by region: 
+
+|      | Saturday | Sunday  |
+| ---- | -------- | ------- |
+| APAC | :white_check_mark: Shift  | CEOC    |
+| EMEA | :white_check_mark: Shift  | :white_check_mark: Shift |
+| AMER | :white_check_mark: Shift  | CEOC    |
+
+This means we have coverage in all regions for Saturdays but not for Sundays. 
+This is Phase 2 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
 
 ### PagerDuty Alerts
 
-From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The shift engineer or temporarly the [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
 
 ### Ticket Assignment and Handling
 
 We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
 
-1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention.
+1. When you start your shift take over any emergencies or High priority tickets from the leaving shift engineer or CEOC that needs attention.
 1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority.
-1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift.
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming shift engineer or CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the shift engineer or CEOC leaving shift.
 
 #### Customers with an Assigned Support Engineer (ASE)
 
@@ -460,7 +470,7 @@ This will:
 1. Generate a CEOC page for the ticket; and
 1. Assign the ASE to the ticket.
 
-CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: *All Success Tier Customers' Unsolved Severity 2/High Tickets* on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
+Shift engineer or CEOC will need to respond to such tickets, even though it may have been assigned to the ASE. You can view all Unsolved, High Priority tickets for Success Tier customers in the Report: *All Success Tier Customers' Unsolved Severity 2/High Tickets* on the [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE) Zendesk Explore dashboard.
 
 Once the customer ticket has been de-ecalated and is no longer a Severity 2/High Priority issue, [reset the ticket priority](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority), and let the customer know we will continue working with them during standard operating hours.
 
@@ -468,7 +478,7 @@ The Support Manager On-Call is always available to support you. Follow [these st
 
 ### Rollout and Monitoring
 
-Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and customer adoption.
+Estimated timeline for Phase 2: 2-3 months, depending on ticket volume, customer adoption and our onboarding.
 
 **Zendesk Explore Dashboard:** [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE)
 
