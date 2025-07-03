@@ -104,7 +104,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. Slack will open a dialog and ask you for some details about the nomination. Use the motivation text field, to write a few sentences describing how the GitLab team member has demonstrated a specific GitLab value in their work.  Please make sure you have viewed the valid and invalid criteria listed above. Don't forget that the nomination request should tie to our values and be detailed enough to ensure that the nomination meets the criteria. You can select the values it applies to.
 1. If applicable, please be sure to include any relevant issues or merge requests that support the nomination.
 1. Once submitted, the bot will send this over to the manager to kick-off the approval flow.
-1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [people connect](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
+1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [people connect](/handbook/people-group/people-operations/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. Once everyone has approved the bot will report back to you with the good news. If it's rejected we ask the person who rejects, to reach out to you. That is not done by the bot.
 
@@ -304,7 +304,7 @@ Chances are that if you work at GitLab, you have great friends and peers who wou
 
 We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether there are potential candidates in their networks who identify as members of underrepresented groups in tech.
 
-Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team) mentioned referral bonus amounts apply.
+Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-operations-team) mentioned referral bonus amounts apply.
 
 ### How to make a referral
 
@@ -323,7 +323,7 @@ For information regarding the program details and team member eligibility and un
 - In the event that more than one GitLab employee refers the same team member for the same role the People Ops team will ask the new team member to confirm who they were referred by (who should get the credit). If they mention two or more people then the bonus will be split between them.
 - In the event that someone wants to refer another candidate to GitLab before they have started, the referring party must have a signed contract at the time of the new candidate's application.
 - In the event that a GitLab sourcer adds a candidate to GreenHouse and the recruiter screens the candidate a referring party cannot be added to their profile after. The candidate source would be Prospecting by the GitLab sourcer.
-- If the referral was submitted on or before 2022-06-01, then refer to the bonus amounts as listed under [Referral Operations](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team).
+- If the referral was submitted on or before 2022-06-01, then refer to the bonus amounts as listed under [Referral Operations](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-operations-team).
 
 ### Referral Bonus Processing
 

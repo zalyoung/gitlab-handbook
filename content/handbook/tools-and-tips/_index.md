@@ -621,7 +621,7 @@ These meetings are open to everyone in GitLab.
 
 If you are creating a new team meeting, please [add it](#adding-an-event-to-the-gitlab-team-meetings-calendar) to the GitLab Team Meetings calendar
 
-Please reach out to the People Connect Team in the `#people-connect` Slack channel with any questions, requests or changes to the GitLab Team Meetings calendar.
+Please reach out to the People Connect Team in the `#people-operations` Slack channel with any questions, requests or changes to the GitLab Team Meetings calendar.
 
 ##### Adding an event to the GitLab Team Meetings calendar
 

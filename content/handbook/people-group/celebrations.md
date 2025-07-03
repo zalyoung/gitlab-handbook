@@ -5,7 +5,7 @@ description: "Review different ways GitLab celebrates its team members."
 
 ## New Hire Swag
 
-As a new hire at GitLab, you will be getting a customized welcome package! On your date of hire you will receive an [email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#new-hire-swag-email) to claim the package with a redemption link. Then simply enter your shipping information to have your welcome swag shipped directly to you.
+As a new hire at GitLab, you will be getting a customized welcome package! On your date of hire you will receive an [email](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/onboarding_process/#new-hire-swag-email) to claim the package with a redemption link. Then simply enter your shipping information to have your welcome swag shipped directly to you.
 
 ## New Parent Swag
 

@@ -348,7 +348,7 @@ Processing for Italy (Dirigenti) could take up to a month, so we recommend start
 - [Background checks](/handbook/people-group/contracts-probation-periods/#background-screenings)
 - [Benefits](/handbook/total-rewards/benefits/)
 - [Compensation](/handbook/total-rewards/compensation/)
-- [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
+- [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/)
 - [GitLab talent ambassador](/handbook/hiring/gitlab-ambassadors/)
 - [Onboarding](/handbook/people-group/general-onboarding/)
 - [Stock options](/handbook/total-rewards/stock-options/)

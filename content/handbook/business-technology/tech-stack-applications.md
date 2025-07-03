@@ -155,7 +155,7 @@ Many applications listed in the Tech Stack are in-scope for regulatory or other 
 
 ### Updating the Offboarding Templates
 
-The offboarding templates need to be updated when a new system is added to the Tech Stack in order for GitLab to be compliant and remove Team Members from systems once they leave GitLab. There are two different ways to update the offboarding templates.  Pick the option which best suits the usage of the new system. Once the MR is ready to be merged, tag the People Connect team - `@gl-people-connect-team` - for approval and merge.
+The offboarding templates need to be updated when a new system is added to the Tech Stack in order for GitLab to be compliant and remove Team Members from systems once they leave GitLab. There are two different ways to update the offboarding templates.  Pick the option which best suits the usage of the new system. Once the MR is ready to be merged, tag the People Connect team - `@gl-people-operations-team` - for approval and merge.
 
 <details>
 <summary markdown="span">Option 1: New system used by all/many Team Members, across multiple departments</summary>

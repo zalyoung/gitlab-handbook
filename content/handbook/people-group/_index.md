@@ -21,7 +21,7 @@ We've published more information about how this vision translates to strategy an
 
 You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
 
-- [**The People Group**](https://gitlab.com/gitlab-com/people-ops) holds several subprojects to organize the people group; please create an issue in the appropriate subproject or `general` if you're not sure. Please use confidential issues for topics that should only be visible to GitLab team-members. Similarly, if your question can be shared please use a public issue. Tag `@gl-people-connect-team` or `@gl-hiring` so the appropriate team members can follow up.
+- [**The People Group**](https://gitlab.com/gitlab-com/people-ops) holds several subprojects to organize the people group; please create an issue in the appropriate subproject or `general` if you're not sure. Please use confidential issues for topics that should only be visible to GitLab team-members. Similarly, if your question can be shared please use a public issue. Tag `@gl-people-operations-team` or `@gl-hiring` so the appropriate team members can follow up.
   - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
   - [**Employment Issue Tracker**](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates): Only Onboarding, Offboarding and Transition Issue Templates are held in this subproject, and they are created by the People Operations Team only. Interview Training Issues, are held in the [Training project](https://gitlab.com/gitlab-com/people-group/Training) and created by the Talent Acquisition team. Please see the [interviewing page](/handbook/hiring/interviewing/#typical-hiring-timeline) for more info.
 - **People Operations**; Please create a case for the People Operations team with any questions that do not seem appropriate for the issue tracker within [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) - choosing the applicable template/category applicable. For access requests regarding Google or Slack groups, please create an issue here: https://gitlab.com/gitlab-com/team-member-epics/access-requests. For questions that relate to Payroll, Expenses or Equity, please direct your question to the respective teams in HelpLab. Regarding questions for our recruiting team, including questions relating to access, or anything to do with Greenhouse, referrals, interviewing, or interview training please use the `#talent-acquisition` channel.
@@ -48,7 +48,7 @@ The People Group works together as one team, made up of five departments: People
 
 ### In Case of Emergency
 
-If team members need emergency support from GitLab's People team, please create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d). HelpLab is monitored during most working hours and is the centralized support platform for all people-related queries. Read more about our [People Connect methods of engagement](/handbook/people-group/people-connect/#methods-of-engagement).
+If team members need emergency support from GitLab's People team, please create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d). HelpLab is monitored during most working hours and is the centralized support platform for all people-related queries. Read more about our [People Connect methods of engagement](/handbook/people-group/people-operations/#methods-of-engagement).
 
 We trust team members to always use their best judgement when facing any emergency. Team members are encouraged to dial their country's emergency services number for any critical and/or medical emergency. In the case that other team members are aware of a team member's emergency (during a Zoom call for example) and wish to call that country's emergency services on the original team member's behalf, we do not recommend this as only certain People Ops team members have access to team member addresses and we would take on the role of communicating with emergency services, should this extremely rare situation arise.
 
@@ -85,7 +85,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [People Business Partners](/handbook/people-group/people-business-partners/) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
 | [Total Rewards](https://gitlab.com/gitlab-com/people-group/total-rewards) | @gl-total-rewards | total-rewards@ gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b677b7c9474c069067429ee0026d43d1) | n/a |  |
 | [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=274b6e52ff3c12903691fe34fc4fd9ee) | TBA | n/a |  |
-| [People Operations Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-ops-team | HelpLab | @people-ops-team | n/a |  |
+| [People Operations Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/) | @gl-people-ops-team | HelpLab | @people-ops-team | n/a |  |
 | [Team Member Relations](https://gitlab.com/gitlab-com/people-group/team-member-relations) | @atisdale-ext | teammemberrelations@gitlab.com | n/a | n/a |  |
 | [Absence Management Team](/handbook/people-policies/leave-of-absence/) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
 | [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | @gl-people-engineering | No email group, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | #peopleops-eng | n/a | https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/3941171 |
@@ -145,17 +145,17 @@ Most tasks/requests from the People Business Partners for the People Operations 
 
 ## People Operations Responsibilities & Response Timeline
 
-Please note that the source of truth for role responsibilites is the job family for the [People Operations Team](/job-families/people-group/people-connect). The table below is meant to provide a quick overview of some of the core responsibilities for the team.
+Please note that the source of truth for role responsibilites is the job family for the [People Operations Team](/job-families/people-group/people-operations). The table below is meant to provide a quick overview of some of the core responsibilities for the team.
 
 ### People Operations Team
 
 | Responsibility | Response Timeline |
 | -------------- | ----------------- |
-| [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
+| [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/onboarding_process/) | 2 weeks prior to start date |
 | [Offboarding](/handbook/people-group/offboarding/offboarding_standards/) | Immediate action for involuntary & 24 hours for voluntary |
 | [Organizational Changes](/handbook/people-group/promotions-transfers/#organization-change-checklist) | Within 3 days of effective date of change |
-| [Letters of Employment](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
-| [Employment Verification](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
+| [Letters of Employment](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/frequently_requested/#letter-of-employment) | Within 24 hours |
+| [Employment Verification](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Anniversary Emails](/handbook/people-group/celebrations/#anniversary-gifts) | First day of the following month |
 | HelpLab Queries | Within 24 hours |
 | [Probation Period Notifications](/handbook/people-group/contracts-probation-periods/#probation-period) | Daily (when applicable) |
@@ -164,7 +164,7 @@ Please note that the source of truth for role responsibilites is the job family 
 | [US Unemployment Claim Management](/handbook/people-group/offboarding/#unemployment-claims-in-the-us) | As Needed and Audited Quarterly |
 | [Relocations](/handbook/people-group/relocation/) | As requested, usually completed 30 days or more prior to team member's relocation date |
 
-Other listed processes for the People Connect Team can be found [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
+Other listed processes for the People Connect Team can be found [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/people_connect_team/)
 
 ## Employment Solutions Team
 
@@ -260,12 +260,12 @@ We encourage everyone to have an ongoing conversation about career growth with t
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Promotions and Transfers](/handbook/people-group/promotions-transfers/)
 - [Employment Solutions (International Expansion)](/handbook/people-group/employment-solutions/)
-- [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
+- [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/)
 - [Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/)
 - [Onboarding](/handbook/people-group/general-onboarding/)
 - [Offboarding](/handbook/people-group/engineering/offboarding/)
 - [Celebrations](/handbook/people-group/celebrations/)
-- [People Operations](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
+- [People Operations](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/people_connect_team/)
 - [People Analytics](people-ops-tech-analytics/people-analytics/_index.md)
 
 ### Talent Acquisition

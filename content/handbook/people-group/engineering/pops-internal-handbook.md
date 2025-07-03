@@ -44,5 +44,5 @@ People Group Engineers will need a couple of [Access Requests](/handbook/securit
 | Workday Permission | Enough permission to be able to use the web interface for simple team member look ups and should be able to use the API with the correct level of permission. |
 | Greenhouse | Job Admin: People Success permission. This allows us to us to use the Greenhouse API within our integrations for testing and debugging. |
 | [Slack API](https://api.slack.com/apps) | Permission to access Slack's API both for production and developmental purposes. |
-| [People Group Engineering](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/group_members) GitLab Group Access | Grants us access to our publicly available projects. Nominatorbot, People-Connect, etc. |
+| [People Group Engineering](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/group_members) GitLab Group Access | Grants us access to our publicly available projects. Nominatorbot, people-operations, etc. |
 | [Compensation Calculator Admin](https://comp-calculator.gitlab.net/admin) & [Repository Access](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/-/project_members) | Allows us to grant or revoke permission to use the compensation calculator. Also lets us view the project on GitLab and make contributions. |

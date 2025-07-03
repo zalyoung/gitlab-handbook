@@ -135,7 +135,7 @@ If you are a US-based team member, your medical, dental, and vision benefits wil
 
 You may also be eligible under the Patient Protection and Affordable Care Act ("PPACA") for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month. 
 
-Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from the Compensation & Benefits team by emailing `total-rewards@ gitlab.com`. If you move, please email `people-connect@ gitlab.com` so that we can keep your address up to date in Workday.
+Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from the Compensation & Benefits team by emailing `total-rewards@ gitlab.com`. If you move, please email `people-operations@ gitlab.com` so that we can keep your address up to date in Workday.
 
 ### Where can I find my pay stubs?
 
@@ -167,7 +167,7 @@ See the [Spain Benefits page of the Handbook](/handbook/entity/iberia-srl-spain/
 
 ### What if I move?
 
-If you move, please email `people-connect@gitlab.com` so that the People Connect team can keep your address up to date in Workday.
+If you move, please email `people-operations@gitlab.com` so that the People Connect team can keep your address up to date in Workday.
 
 ### Do I need to return previously expensed Home Office Items?
 
