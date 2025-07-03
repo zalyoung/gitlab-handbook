@@ -293,6 +293,8 @@ Reducing future customer problems is an important part of being a Support Engine
 
 1. Create bug issues and feature requests whenever needed. You can see how you're doing using the 'GitLab issues' [activity link](/handbook/support/managers/support-1-1s#2-activity-links) in your 1:1 notes. Here's an [example link](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&author_username=dblessing). The format is `https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&author_username=YOUR_USERNAME`  (replace `YOUR_USERNAME`)
 
+1. Comment on bug issues and feature requests on behalf of customers to help with prioritisation and impact.
+
 1. GitLab doesn't currently have [a way to find all the comments you've made on Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/28268). Until this feature is available, it's hard to make your contributions to product Issues visible. Instead, be sure that your Zendesk tickets have links to the Issues that you create or update. You can also highlight contributions in your 1:1 notes doc.
 
 | Level        | How it might look |
@@ -301,9 +303,9 @@ Reducing future customer problems is an important part of being a Support Engine
 | Intermediate | Create issues with description completed and appropriate labels |
 | Senior       | Additionally drive fix/enhancement when appropriate based on expertise and customer interactions |
 
-## Improve documentation and publicly share knowledge (Weekly)
+## Improve documentation, knowledge base and publicly share knowledge (Weekly)
 
-You are encouraged to [update documentation](/handbook/support/workflows/improving-documentation) regularly. This helps prevent ticket creation by improving the information available for customers to use in solving problems without contacting us.
+You are encouraged to [update documentation](/handbook/support/workflows/improving-documentation) and [create/update knowledge base articles regularly](/handbook/support/knowledge-base/#why-you-should-create-a-knowledge-article). This helps prevent ticket creation by improving the information available for customers to use in solving problems without contacting us.
 
 [Creating blog posts](/handbook/marketing/blog/) and other publicly available knowledge that is accessible by search engines is valuable to help prevent ticket creation.
 
@@ -311,7 +313,9 @@ We [summarize Support team contributions](https://gitlab.com/gitlab-com/support/
 
 **What does success look like?**
 
-1. Aim for at least two documentation updates every month. You can see how you're doing using the 'Docs updates' [activity link](/handbook/support/managers/support-1-1s#2-activity-links) in your 1:1 notes. Here's an [example link](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=dblessing&label_name[]=documentation). The format is `https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=YOUR_USERNAME&label_name[]=documentation` (replace `YOUR_USERNAME`)
+1. Aim for at least two documentation/knowledge base article updates every month.
+   - You can see how you're doing with documentation updates using the 'Docs updates' [activity link](/handbook/support/managers/support-1-1s#2-activity-links) in your 1:1 notes. Here's an [example link](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=dblessing&label_name[]=documentation). The format is `https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=YOUR_USERNAME&label_name[]=documentation` (replace `YOUR_USERNAME`)
+   - For details on seeing how you're doing with knowledge base article updates, check out the [knowledge base reporting and metrics](/handbook/support/knowledge-base/reporting-and-metrics/) handbook page.
 1. If you publish information in other public places (*e.g.* a blog post), make a note in your 1:1 notes doc.
 
 ## Fix GitLab bugs and create features (Occasionally)
