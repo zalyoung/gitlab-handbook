@@ -1,33 +1,37 @@
 ---
-title: "GitLab Unfiltered Video Scanner"
+title: "GitLab Video Scanner"
 aliases:
   - "/handbook/security/product-security/security-platforms-architecture/video-scanner"
-description: "Handbook page for the GitLab Unfiltered Video Scanner."
+description: "Handbook page for GitLab Video Scanner."
 ---
 
-Last Updated: June 2025
+Last Updated: July 2025
 
-## About Video Scanner
+## About GitLab Video Scanner
+
+Link: https://frontend.video-scanner-live.sec.gitlab.net/
 
 ### What Is Video Scanner
 
-The YouTube Video Scanner is a GitLab internal application that scans videos for potential secrets before publishing to the GitLab Unfiltered channel. Team members can access it via https://frontend.video-scanner-dev.sec.gitlab.net/.
+GitLab Video Scanner is a GitLab internal application that scans videos for potential token leaks before they are published to the `GitLab Unfiltered` Youtube channel. Team members can access it via https://frontend.video-scanner-live.sec.gitlab.net/.
+
+The Video Scanner application is also functioning as a GitLab content scanner; the same service is triggered by any file uploaded to the GitLab platform, such as text files or screenshots that we upload to public issues. We have separate alerts going to the `#security-research-alerts` Slack channel for token leaks detected in the GitLab platforms. Verified tokens will also trigger security incidents.
+
+### Why Should We Use It to Upload Videos
+
+GitLab has experienced multiple security incidents involving token leaks from videos in `GitLab Unfiltered`. Going forward, We hope to prevent this type of incidents with the help of our Video Scanner, so the company can reduce bug bounty payouts and operational disruptions caused by token leaks.
 
 ### When to Use It
 
-Starting from milestone 18.3, all GitLab team members are requested to upload videos to `GitLab Unfiltered` through Video Scanner, with exceptions indicated in the `MVP Scope and Limitations` section below.
+Starting from milestone 18.3, all GitLab team members are requested to upload videos to `GitLab Unfiltered` through Video Scanner.
 
 ### How to Use it
 
-Instead of uploading new video directly to GitLab Unfiltered, upload it through https://frontend.video-scanner-dev.sec.gitlab.net/. The app will automatically finish the upload if no token is found. However, if token is found, the upload aborts, and the user will be notified in the indicated Slack channel (see later section), with the detected strings and timestamps.
+Instead of uploading a video directly to Youtube, please upload it through [the Video Scanner Uploader UI](https://frontend.video-scanner-live.sec.gitlab.net/) to kick off the scanning process. The application will proceed to uploading the video if no token is found. However, if a token is found, the upload aborts, and the user will be notified in the `#video-scanner-updates` Slack channel, with the detected strings and timestamps.
 
-More details about how the scan is performed: the app first parses texts from the video using [Google's Video Intelligence API](https://cloud.google.com/video-intelligence?hl=en). The prasing result is stored in a file, which then gets scanned by [Tokinator](https://gitlab.com/gitlab-com/gl-security/appsec/tokinator) to detect sensitive strings. Depending on the scan results, the app will decide whether to proceed or to abort the upload attemp.
+### How the Scan is Performed
 
-## Slack Notifications
-
-**Channel:** `#video-scanner-updates`
-
-Users receive Slack notifications in this channel for both successful and aborted upload attempts.
+Video Scanner first parses texts from the video using [Google's Video Intelligence API](https://cloud.google.com/video-intelligence?hl=en). The parsing result is stored in a file, which then gets scanned by [Tokinator](https://gitlab.com/gitlab-com/gl-security/appsec/tokinator) to detect sensitive strings. Depending on the scan results, the application will decide whether to proceed or to abort the upload attempt and notify via the `#video-scanner-updates` Slack channel of the scan results. See [Pre-publication Workflow Diagram with Architectural Details](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/90#note_2457778646) for the architerual design.
 
 ## MVP Scope and Limitations
 
@@ -35,17 +39,18 @@ The Video Scanner MVP has limited product scope. See the [Pre-publication Workfl
 
 ### MVP Limitations
 
-* Users can only upload videos to `GitLab Unfiltered` using the Video Scanner app for now. We will integrate with other GitLab channels after MVP is delivered.
-* Uploading to playlists is not supported
-* Manual override for false positives is not supported
+* Users can only upload videos to `GitLab Unfiltered` Youtube channel through Video Scanner, as this channel has been identified as our highest security risk due to previous incidents. This new video upload workflow does not impact other GitLab managed channels, as those channels are more restricted with curated content.
+* Uploading to playlists is not supported. However, users can move the video to a playlist after it's published on Youtube.
 
-**Workaround:** To bypass these limitations, upload directly to Youtube channels on an as-needed basis. Please submit feature requests through the feedback issue linked below, if you encouter limitations that we haven't documented.
-
-### Feedback
+## Feedback
 
 Please submit feedback in the [Video Scanner Feedback Issue](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/103).
 
-## Projects and Release Process
+## Project Details and Release Process
+
+### MVP Release Plan
+
+Beta-testing is scheduled for late milestone 18.2 to early 18.3. See [Video Scanner MVP Beta-Testing Issue](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/106) for who is involved. However, the product is already available to the entire company now, so everyone is encouraged to adopt the product as early as possible, so you can take advantage of the security protection!
 
 ### Video Scanner Project Epic
 
@@ -67,11 +72,13 @@ https://gitlab.com/groups/gitlab-com/gl-security/security-research/video-scanner
 
 1. Infrastructure
 
-Video Scanner is hosted in GCP, with all resources configured using terraform. See [Video Scanner infra deployment instructions](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#deploy-1) when making changes to these resources.
+Video Scanner is hosted in GCP, with all resources configured using terraform. See [Video Scanner infra deployment instructions](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#deploy-1) when making changes to these cloud resource configurations.
 
 1. `secret-matcher`
 
-The [secret-matcher](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/tree/main/functions/secret-matcher?ref_type=heads) function is responsbile for secret scanning and the completion of video upload + Slack notification. To deploy new versions, first [push a new secret-matcher image to package registry](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#build-and-push-the-image-of-secret-matcher) and [deploy a new Cloud Run function revision linking the new image](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config#create-a-new-revision-of-secret-matcher).
+The [secret-matcher](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/tree/main/functions/secret-matcher?ref_type=heads) function is responsbile for secret scanning and the completion of video upload + Slack notification. It's hosted in GCP as a cloud run function.
+
+After an MR is merged to [youtube-video-scanner](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner)'s main branch containing changes to the `secret-matcher` source code, CI pipeline triggered by this merge will include manual jobs in the `push-to-artifact-registry` and `deploy` stages. Team members can run these jobs to proceed with the deployment when ready. See [example pipeline](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/pipelines/1885470995).
 
 1. `frontend-service`
 
@@ -81,13 +88,9 @@ The [frontend-service](https://gitlab.com/gitlab-com/gl-security/security-resear
 
 Major version changes to Video Scanner will be announced in `#whats-happening-at-gitlab`, `#brand_video`, `#security`, `#engineering-fyi`.
 
-**TODO:**
-
-* Add project version tags
-
 ## Token Rotation
 
-YouTube OAuth2.0 tokens enable automated video uploads. For rotation instructions, see the [security-research-terraform-config README](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config/-/blob/main/README.md?ref_type=heads#youtube-video-scanner-oauth20-client-and-audience-details).
+YouTube OAuth2.0 tokens enable automated video uploads. For token rotation instructions, see the [security-research-terraform-config README](https://gitlab.com/gitlab-com/gl-security/security-research/security-research-terraform-config/-/blob/main/README.md?ref_type=heads#youtube-video-scanner-oauth20-client-and-audience-details).
 
 ## End-to-End Testing
 
