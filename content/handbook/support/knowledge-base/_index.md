@@ -44,7 +44,7 @@ Docs answer: "How does this work?"
 - Provides an overview of the current version of our products.
 - Often more technical and detailed 
 - Updated less frequently (New Feature releases)
-- Primarily created for engineers, advanced users, Product detials
+- Primarily created for engineers, advanced users, Product details
 
 ### Knowledge Articles
 
