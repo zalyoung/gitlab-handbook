@@ -96,7 +96,6 @@ Note: In countries with a star (*) hiring is limited to only certain roles.
 This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring.
 There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs.
 
-
 | Country        | Agreement Type(s)    | Hiring Partner   | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
 |----------------|----------------------|------------------|---------------------------------|---------------|---------|------------------|-----------------------|--------------------|-----------------------|
 | Armenia        | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | USD              | Y                     | N                  | N                     |
