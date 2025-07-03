@@ -431,7 +431,11 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Application settings can be configured per ring by default.
+- Application settings can be overriden for individual cells.
+- Cells [secrets](https://docs.gitlab.com/development/application_secrets/#secret-entries) are kept the same across all cells.
+- [End-to-end (E2E) testing](https://docs.gitlab.com/development/testing_guide/end_to_end/) for cells (with Router, on deploy, on cells config change) is setup.
+- E2E testing for [not supported features](#features-on-gitlabcom-that-are-not-supported-on-cells) are quarantined.
 
 Before/After:
 
@@ -440,11 +444,12 @@ Details:
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14514)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_7)
 
-### Phase 8: Organization Onboarding
+### Phase 8: Organization Readiness
 
 Exit Criteria:
 
-- TBD
+- Core set of features (TBD, like project-level features) are validated to work on cells.
+- E2E testing for the core of set of features runs successfully.
 
 Before/After:
 
