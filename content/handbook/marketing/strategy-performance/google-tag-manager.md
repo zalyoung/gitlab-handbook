@@ -68,25 +68,6 @@ Server-Side Google Tag Manager (sGTM) is a server-based tracking solution that p
 
 **Server-side tracking:** Website → Our servers → Third-party services
 
-### Why We Use Server-Side GTM
-
-**Performance Benefits**
-
-- Faster website loading: Fewer third-party scripts running in users' browsers
-- Reduced client-side processing: Our servers handle the heavy lifting of data processing
-
-**Data Control & Privacy**
-
-- Complete data oversight: We control exactly what data gets sent where
-- Privacy compliance: Easier to meet GDPR, CCPA, and other privacy regulations
-- Data filtering: We can remove, modify, or enrich data before sending it to third parties
-
-**Reliability & Accuracy**
-
-- Less susceptible to ad blockers: Server-side tracking bypasses many browser restrictions
-- Reduced data loss: Less prone to client-side errors that can cause tracking failures
-- First-party data collection: All tracking appears to come from our own domain
-
 ### Our Infrastructure Setup
 
 #### Architecture Overview
@@ -131,7 +112,7 @@ Our server-side setup currently forwards data to multiple marketing and analytic
 
 **List of Current Platforms**
 
-| Platform | Cookie Category | Trigger | DIR Team(s) | Method |
+| Platform | Cookie Category | Trigger | DRI Team(s) | Method |
 |----------|----------------|---------|-------------|---------|
 | Google Ads | Advertisement | All pageviews, conversions | Digital Marketing, Brand | API |
 | LinkedIn | Advertisement | All pageviews, conversions | Digital Marketing, Brand | API |
@@ -156,4 +137,4 @@ Once the platform has received legal approval, create a new issue under the [Mar
 
 #### Consent Management Integration
 
-The system respects user privacy preferences through integrated consent management. Consent states are captured client-side and forwarded to the server-side container, ensuring that data is only sent to platforms when users have provided appropriate consent for analytics, marketing, or other data uses.
+Server-side GTM still respects user privacy preferences through integrated consent management tool OneTrust. Consent states are captured client-side and forwarded to the server-side container, ensuring that data is only sent to platforms when users have provided appropriate consent for analytics, marketing, or other functional uses.
