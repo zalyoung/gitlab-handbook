@@ -4,7 +4,7 @@ description: "Policy for triaging backlog issues in GitLab projects"
 ---
 
 {{< note >}}
-Last Updated: 2025-05-18
+Last Updated: 2025-07-02
 {{< /note >}}
 
 ## Backlog Triage Policy
