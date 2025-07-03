@@ -899,7 +899,7 @@ At GitLab owned events we will sometimes host 10 minute lightning meetings with 
 
 ## How to add events to `about.gitlab.com/events`
 
-In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events/). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
+In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events/). This page is to be updated by the person responsible for the event. This page is now managed through [Decap CMS](/handbook/marketing/digital-experience/decap-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/decap-cms/#adding-an-event-to-the-events-landing-page).
 
 ## Creating a Marketo Landing Page
 
