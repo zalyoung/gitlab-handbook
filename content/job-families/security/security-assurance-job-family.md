@@ -442,7 +442,7 @@ The Principal Security Assurance Engineer is a [grade 9](/handbook/total-rewards
 
 - The responsibilities of a Staff Security Assurance Engineer, plus;
 - The responsibilities of a Principal Security Engineer defined at the [Security Division level](/job-families/security/security-engineer/#principal-security-engineer) 
-- Ownership of at least one department-level program and one or more cross-functional (cross-divisional) programs
+- Ownership of at least one team-level (e.g. Sec. Risk) program and one or more cross-functional (cross-departmental or cross-divisional) programs
 - Drive cross-functional GRC initiatives as a trusted advisor to Sales, Product, Legal and/or Engineering leadership; influence strategic decisions on go-to-market and enterprise risk
 - Mentor Security Assurance engineers while building scalable operational frameworks; bridge technical GRC expertise with business strategy
 
