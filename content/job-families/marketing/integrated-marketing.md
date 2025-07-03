@@ -43,8 +43,8 @@ The next step in the Demand Generation job family is not yet defined at GitLab.
 
 ## Performance Indicators
 
-- [Net new business pipeline created ($'s) v plan > 1](/handbook/marketing/performance-indicators/)
-- [Total number of  Marketo Qualified Leads by month](/handbook/marketing/performance-indicators/)
+- Net new business pipeline created ($'s) v plan > 1
+- Total number of  Marketo Qualified Leads by month
 
 ## Hiring Process
 
