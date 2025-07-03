@@ -10,11 +10,11 @@ Protect company property by identifying, preventing, detecting and responding to
 
 ## Mission
 
-The Security Operations department focuses on the operational aspect of security. Our department consists of experienced breakers, builders, and defenders from all walks of life and geographic locations. We are responsible for improving GitLab's security capabilities and metrics in the areas of security anomaly/event detection and incident response and abuse of GitLab.com.
+The Security Operations department focuses on the operational aspect of security. Our department consists of experienced breakers, builders, and defenders from all walks of life and geographic locations. We are responsible for improving GitLab's security capabilities, metrics in the areas of security anomaly/event detection, incident response and abuse mitigation of GitLab.com.
 
 Our department consists of:
 
-- [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) - Security detection engineering and incident response
+- [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) - Security incident response and forensic analysis
 - [Trust & Safety](/handbook/security/security-operations/trustandsafety/) - Prevention and mitigation of abuse of the GitLab.com platform
 - [Red Team](/job-families/security/red-team/) - Adversary emulation
 - [Threat Intelligence](/handbook/security/security-operations/threat-intelligence/) - Actionable insights on real-world threats
