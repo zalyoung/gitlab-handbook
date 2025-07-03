@@ -170,10 +170,15 @@ We initially considered allowing users with diff-based scanning configured to tr
 
 #### MR Security Widget
 
-1. Create a new graphql query that returns `enabled_reports`(which refers to the enabled scanners) as well as the partial scan mode.
+Update the `Security Reports` endpoint:
 
-- See this [comment](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13575#note_2515558324) for how the query might look like
-- See this [comment](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13575#note_2520407244) on how `enabled_reports` is currently passed down from the backend to the frontend
+- **Route**: [security_reports endpoint](https://gitlab.com/gitlab-org/gitlab/-/blob/2d0b36b29b721ccd5e900f5ab9f878f8292c0038/ee/config/routes/merge_requests.rb#L17) (no changes needed)
+- **Controller**: [MergeRequestsController#security_reports](https://gitlab.com/gitlab-org/gitlab/-/blob/2d0b36b29b721ccd5e900f5ab9f878f8292c0038/ee/app/controllers/ee/projects/merge_requests_controller.rb#L97) (no changes needed)
+- **Service**:[Security::MergeRequestSecurityReportGenerationService](https://gitlab.com/gitlab-org/gitlab/-/blob/2d0b36b29b721ccd5e900f5ab9f878f8292c0038/ee/app/services/security/merge_request_security_report_generation_service.rb) (no changes needed)
+- **Model** [MergeRequest](https://gitlab.com/gitlab-org/gitlab/-/blob/2d0b36b29b721ccd5e900f5ab9f878f8292c0038/app/models/merge_request.rb#L2131) (no changes needed)
+- **Service**: Add scan mode to `get_report` method [CI::CompareSecurityReportsService](https://gitlab.com/gitlab-org/gitlab/-/blob/2d0b36b29b721ccd5e900f5ab9f878f8292c0038/ee/app/services/ci/compare_security_reports_service.rb#L73)
+- **Serializer**: Update FindingEntity to expose Scan with partial_scan [Vulnerabilities::FindingEntity](https://gitlab.com/gitlab-org/gitlab/-/blob/a2043089920444e8ecf65e74d70ba9bfdc9465b1/ee/app/serializers/vulnerabilities/finding_entity.rb#L60)
+- **Frontend** The endpoint is used in [mr_widget_security_reports.vue](https://gitlab.com/gitlab-org/gitlab/-/blob/2d0b36b29b721ccd5e900f5ab9f878f8292c0038/ee/app/assets/javascripts/vue_merge_request_widget/widgets/security_reports/mr_widget_security_reports.vue#L173-179)
 
 #### Pipeline Security Tab
 
