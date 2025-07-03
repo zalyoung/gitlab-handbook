@@ -21,7 +21,7 @@ To engage with the Environment Automation team:
 - [Create an issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new) in the GitLab Dedicated team issue tracker
 - Label the issue with:
   - `workflow-infra::Triage`
-  - `group::Environment Automation`
+  - `group::environment automation`
 - When creating an issue, it is not necessary to `@`mention anyone
 - In case you want to get attention, use a specific team handle (Ex: @gitlab-dedicated/environment-automation ) as defined in [Dedicated group hierarchy](/handbook/engineering/infrastructure/team/gitlab-dedicated/#gitlab-group-hierarchy)
 - Slack channels

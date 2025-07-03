@@ -1,22 +1,22 @@
 ---
 title: GitLab Dedicated Monthly Business Review Prep
-description: Enable GitLab Dedicated Support Stable Counterparts to prep for the Monthly Business Review in Support. 
+description: Enable GitLab Dedicated Support Stable Counterparts to prep for the Monthly Business Review in Support.
 ---
 
-Each month, the Support Stable Counterparts (SSCs) prepare information for use in GitLab Support's Monthly Business Review (MBR). This handbook pages documents what steps a GitLab Dedicated SSC should take to prepare the notes for GitLab Dedicated for any given MBR. Any GitLab Dedicated SSC can lead MBR coordination. 
+Each month, the Support Stable Counterparts (SSCs) prepare information for use in GitLab Support's Monthly Business Review (MBR). This handbook pages documents what steps a GitLab Dedicated SSC should take to prepare the notes for GitLab Dedicated for any given MBR. Any GitLab Dedicated SSC can lead MBR coordination.
 
 ## ℹ️ Information Sources
 
 Each MBR must include information from these sources:
 
 - other SSCs
-- tickets 
+- tickets
 - RFHs
 - incidents
 
 Each MBR might also include information from other sources.
 
-We report on GitLab Dedicated (Commercial) and GitLab Dedicated for Government. You will need to work with Brie or Wade to get specific data about GitLab Dedicated for Government. Those areas are noted specifically.  
+We report on GitLab Dedicated (Commercial) and GitLab Dedicated for Government. You will need to work with Brie or Wade to get specific data about GitLab Dedicated for Government. Those areas are noted specifically.
 
 ## Assembling Metrics
 
@@ -46,17 +46,17 @@ _This is a work in progress._
 
 #### GitLab Dedicated (Commercial)
 
-1. Filter the [issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&first_page_size=100) in the consolidated `request-for-help` [project](https://gitlab.com/gitlab-com/request-for-help) with `Label` `is one of` `Help group::Dedicated`, `Help group::Switchboard` ([direct link](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=all&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ASwitchboard&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADedicated&first_page_size=20))
+1. Filter the [issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&first_page_size=100) in the consolidated `request-for-help` [project](https://gitlab.com/gitlab-com/request-for-help) with `Label` `is one of` `Help group::Dedicated`, `Help group::switchboard` ([direct link](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=all&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ASwitchboard&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADedicated&first_page_size=20))
 
 1. Choose **All**
 1. Sort by **Created Date**
 1. Set the **Sort direction** to **Descending**
 
-Each issue that was opened within the cutoff period should be counted. 
+Each issue that was opened within the cutoff period should be counted.
 
 #### GitLab Dedicated for Government
 
-Perform the steps above using the RFH issues in the [appropriate project](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management) on CompSecGov. 
+Perform the steps above using the RFH issues in the [appropriate project](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management) on CompSecGov.
 
 As of this writing, Wade and Brie are the only GitLab Dedicated SSCs who can retrieve this information. (Other members of the US Government Support team can help.)
 
@@ -85,10 +85,10 @@ The MBR slide typically covers:
 
 There's also a table with:
 
-| | Global | US Government | 
+| | Global | US Government |
 |-|--------|---------------|
-| Tickets | | | 
-| RFHs | | | 
+| Tickets | | |
+| RFHs | | |
 | GDCMOC Pages | | |
 
 In each cell, we have `X (percentage increase month-over-month, last month's value of X`.
