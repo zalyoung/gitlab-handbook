@@ -530,33 +530,10 @@ See also [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meeti
 
 [Google Analytics (GA)](https://analytics.google.com/) is an essential tool for making data-driven decisions.
 It receives data from both about.gitlab.com and docs.gitlab.com websites.
-Read through the [Inbound Marketing Handbook](/handbook/marketing/inbound-marketing/search-marketing/analytics/) for more information on GA.
+Read through the [Google Analytics Handbook](/handbook/marketing/strategy-performance/google-analytics-4/) for more information on GA.
 
 For example, you can look at the GA data to analyze how visited is a certain page, in a period of your choice.
 You can also look at the GA referrals data to understand where the users are coming from and where they go when they leave a certain page.
-
-To see the data for a specific page:
-
-- Open [GA](https://analytics.google.com/analytics/web/), and expand **Behavior** on the sidebar
-- Click **Site content > All pages**
-- On the top-right, adjust the period of time you'd like to analyze
-- On the middle of the page, look for a search bar and paste the URL you'd like to analyze (without `https://`) and click on the magnifier button to search:
-![Google Analytics - find pageviews](/images/tools-and-tips/google-analytics-find-pageviews.png)
-Note that you can use the search tool with:
-  - A full URL, which will return results for that specific URL
-  - Part of an URL, e.g., `/2017/`, which will return the results for all the blog posts published on 2017
-  - The higher directory on the file tree, which will return the results for a range of URLs in that tree.
-    E.g., `docs.gitlab.com/ee/ci/` will return the results for all the range of pages contained in the `/ci/` directory
-- GA will output the data about the page (or range of pages) you searched for, including pageviews, unique pageviews, and other data:
-![Google Analytics - see pageviews](/images/tools-and-tips/google-analytics-pageviews.png)
-
-To find the referrals for a certain page, continue from the steps above.
-
-- Click on one of the website links to look at the data for a page of your choice
-![Google Analytics - find referrals](/images/tools-and-tips/google-analytics-find-referrals.png)
-- Just above the graph, click **Navigation summary**
-- GA will output the referrals, including **Previous Page Path** and **Next Page Path**:
-![Google Analytics - see referrals](/images/tools-and-tips/google-analytics-referrals.png)
 
 ### Set your picture in Google
 
