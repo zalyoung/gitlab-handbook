@@ -49,7 +49,7 @@ If the namespace owner makes a response (don't remove my namespace) follow these
 
   <p>Hi,</p>
 
-  <p>Thank you for confirming that you wish to maintain control of the requested namespace.  As per our [Name Squatting Policy](https://about.gitlab.com/support/gitlab-com-policies/#name-squatting-policy), we have cancelled this request and will not release your namespace.</p>
+  <p>Thank you for confirming that you wish to maintain control of the requested namespace. As per our [Name Squatting Policy](https://about.gitlab.com/support/gitlab-com-policies/#name-squatting-policy), we have cancelled this request and will not release your namespace.</p>
 
   <p>We will mark this ticket as solved, please reach out if you have any further questions.</p>
 </details>
