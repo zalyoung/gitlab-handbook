@@ -26,3 +26,5 @@ This Backlog triage policy enables us to openly communicate our commitments for 
 1. Customer and community feedback on improving visibility, transparency, and accuracy of our rolling 4 quarter customer roadmap.
 
 Establishing these updates to our backlog triage policy will help us maintain a deep focus on both product quality and delivering customer value. Delivering customer value with predictability and high quality is fundamental to GitLab’s continual growth and the impact we can have in helping organizations achieve their business goals by shipping secure software faster.
+
+The SSOT for the Healthy Backlog program is maintained in a [GitLab epic](https://gitlab.com/groups/gitlab-org/-/epics/18252), where additional details and context are available.
