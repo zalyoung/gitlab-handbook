@@ -105,6 +105,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [1:1 Dashboards - Accounts: COMM/ENTG APJ](https://gitlab.my.salesforce.com/01ZPL000001I5qH)   | 1:1 dashboard for accounts in the Commercial and Enterprise APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01ZPL000001I77J)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
+| [1:1 Dashboards - Accounts: AMER/EMEA BASE](https://gitlab.my.salesforce.com/01ZPL000002Za13)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
 | [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads. |
 | [1:1 Report - Tableau Prospecting 360 Database - Master](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage?:iid=2) | The main 1:1 Dashboard that combines multiple datapoints into one consolidation view for you to expand your research. |
