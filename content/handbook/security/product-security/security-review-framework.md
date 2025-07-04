@@ -426,7 +426,7 @@ Note: _The list of reviews mentioned in this section are examples and not compre
 
 ### Security Review Phase 1: Initial Triage
 
-1. The security review process begins with a product team requesting a security review for a feature. The ideal time for requesting a review would be during the [design phase](../../product-development/product-development-flow/#validation-phase-3-design), when the design is ready (For any AppSec or InfraSec questions before design phase, please follow [Contacting us](./application-security/#contacting-us) and [Working With Us](./infrastructure-security/#working-with-us) respectively). This is done by adding a label 
+1. The security review process begins with a product team requesting a security review for a feature. The ideal time for requesting a review would be during the [design phase](../../product-development/how-we-work/product-development-flow/#validation-phase-3-design), when the design is ready (For any AppSec or InfraSec questions before design phase, please follow [Contacting us](./application-security/#contacting-us) and [Working With Us](./infrastructure-security/#working-with-us) respectively). This is done by adding a label 
 `SecurityReview::Requested` to a feature issue or epic (`~"type::feature"`). 
 1. ProdSec automation will then add the initial triage questionnaire 
 to this feature issue, ping the review initiator for completion, and add the label `initial-triage:pending-answers`. The [initial triage questionnaire](#initial-triage-questions)
@@ -456,4 +456,3 @@ redirect the request to the team members.
 ### Security Review Phase 3: Conduct Security Review
 
 Based on the risk score the ProdSec conducts Critical, High or Medium level Security review.
-
