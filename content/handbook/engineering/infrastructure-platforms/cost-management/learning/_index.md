@@ -7,8 +7,8 @@ description: "Learn about the various aspects of Cost Management"
 
 ## Vendor Specific Learning
 
-[GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
-[AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
+[GCP](/handbook/engineering/infrastructure-platforms/cost-management/learning/gcp)
+[AWS](/handbook/engineering/infrastructure-platforms/cost-management/learning/aws)
 
 ### Cloud Cost Buckets
 

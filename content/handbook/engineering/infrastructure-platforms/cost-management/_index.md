@@ -39,15 +39,15 @@ We maintain a list of vendors/[coupa renewal](/handbook/business-technology/ente
 
 ## Cost Management Handbook
 
-- [Infrafin Board Docs](/handbook/engineering/infrastructure/cost-management/infrafin-board)
-- [GCP CUD Process](/handbook/engineering/infrastructure/cost-management/gcp-cud)
-- [Group Cost Metrics](/handbook/engineering/infrastructure/cost-management/group-cost-metrics)
-- [How to Engage](/handbook/engineering/infrastructure/cost-management/how-to-engage)
-- [Infra Analyst Board](/handbook/engineering/infrastructure/cost-management/infra-analyst-board)
-- [Infra Analyst Role](/handbook/engineering/infrastructure/cost-management/infrastructure-analyst-role)
-- [Learning Resources](/handbook/engineering/infrastructure/cost-management/learning)
-  - [GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
-  - [AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
+- [Infrafin Board Docs](/handbook/engineering/infrastructure-platforms/cost-management/infrafin-board)
+- [GCP CUD Process](/handbook/engineering/infrastructure-platforms/cost-management/gcp-cud)
+- [Group Cost Metrics](/handbook/engineering/infrastructure-platforms/cost-management/group-cost-metrics)
+- [How to Engage](/handbook/engineering/infrastructure-platforms/cost-management/how-to-engage)
+- [Infra Analyst Board](/handbook/engineering/infrastructure-platforms/cost-management/infra-analyst-board)
+- [Infra Analyst Role](/handbook/engineering/infrastructure-platforms/cost-management/infrastructure-analyst-role)
+- [Learning Resources](/handbook/engineering/infrastructure-platforms/cost-management/learning)
+  - [GCP](/handbook/engineering/infrastructure-platforms/cost-management/learning/gcp)
+  - [AWS](/handbook/engineering/infrastructure-platforms/cost-management/learning/aws)
 
 ## Contact Us
 
