@@ -50,9 +50,9 @@ Regional Champions are available to provide expert guidance on positioning Succe
 
 ##### Regional contacts
 
-- **EMEA**: @Jess Wang, @Paul, @kristof
-- **AMER**: @sophie
-- **APJ**: @Jian Cheng Wu
+- **EMEA**: {{< member-by-gitlab "jesswang_gitlab" >}}, {{< member-by-gitlab "pmeresanu" >}}, {{< member-by-gitlab "pzapf" >}}, {{< member-by-gitlab "KBilsborough" >}}, {{< member-by-gitlab "jaycooney" >}}, {{< member-by-gitlab "mkuswaya" >}}, {{< member-by-gitlab "amycwalker" >}}, {{< member-by-gitlab "kgoossens" >}}
+- **AMER**: {{< member-by-gitlab "sophie" >}}
+- **APJ**: {{< member-by-gitlab "Jianchengwudavid" >}}
 
 ### Success Tier Customer Onboarding
 
