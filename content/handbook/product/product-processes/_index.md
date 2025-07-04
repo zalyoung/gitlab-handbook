@@ -5,7 +5,7 @@ description: >-
   development framework for developing products that customers love and value.
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Our Product philosophy
 
@@ -299,11 +299,11 @@ See the [Cross-Functional Prioritization page](/handbook/product/cross-functiona
 
 #### Prioritization Framework
 
-{{% include "includes/master-prioritization-list.md" %}}
+{{% include "includes/product/master-prioritization-list.md" %}}
 
-{{% include "includes/engineering-allocations.md" %}}
+{{% include "includes/engineering/engineering-allocations.md" %}}
 
-{{% include "includes/feature-change-locks.md" %}}
+{{% include "includes/engineering/feature-change-locks.md" %}}
 
 Please also note the corresponding [Engineering handbook section](/handbook/engineering/development/principles/#prioritizing-technical-decisions) about the relative importance and prioritization of availability, security, and feature velocity. To ensure we're providing an appropriate focus on security, data loss, and availability, PMs should consider:
 
