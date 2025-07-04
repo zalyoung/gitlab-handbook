@@ -12,7 +12,6 @@ security resources where they can have the most impact. The process begins with 
 Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teams engaged when required. 
 for High or Critical risk scores.
 
-How the security review framework fits into the Security Review Process for Product Security is visualized in the 
 How the security review framework fits into the Security Review Process for Product Security is visualized in the following 
 [Overall Process flow](#overall-process-flow) chart.
 
@@ -35,6 +34,7 @@ flowchart TD
     J --> |Medium Risk| K[Security review request created in ProdSec Ingestion Queue]
     J --> |Low Risk| L[Self Service]
     F --> |No triggers| L
+```
 
 ### Framework purpose
 
