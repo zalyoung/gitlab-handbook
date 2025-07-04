@@ -293,7 +293,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them.
 1. Give feedback to and receive feedback from the Chief of Staff to the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback). Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
 
-## Quick Links and Fun Facts
+## Quick Links
 
 - [Chief of Staff to the CEO Job Family](/job-families/chief-executive-officer/chief-of-staff/)
 - [Strategy & Operations Job Family](/job-families/chief-executive-officer/strategy-and-operations)
