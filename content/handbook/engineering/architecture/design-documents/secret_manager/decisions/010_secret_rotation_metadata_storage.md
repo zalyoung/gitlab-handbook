@@ -4,28 +4,22 @@ title: 'GitLab Secrets Manager ADR 010: Using Rails ActiveRecord for Secret Rota
 toc_hide: true
 ---
 
-Background jobs need to efficiently identify secrets requiring rotation reminders across all projects. After evaluating storage options, we have decided to use Rails ActiveRecord with a dedicated database table for rotation metadata, accepting a controlled deviation from ADR 008's principle of avoiding database storage.
+### Context
+
+Background jobs need to efficiently identify secrets requiring rotation reminders across all projects.
 
 Our design goals are:
 
-1. Support efficient queries for daily/hourly background job processing
-2. Enable both standard intervals (30/60/90 days) and custom cron schedules
-3. Track compliance status for overdue rotations
-4. Keep OpenBao as the single source of truth for secrets
+1. Support efficient queries for daily/hourly background job processing.
+2. Enable both standard intervals (30/60/90 days) and custom cron schedules.
+3. Track compliance status for overdue rotations.
+4. Keep OpenBao as the single source of truth for secrets.
 
-### Why
 
-We need to store and query secret rotation attributes to support:
-
-- Daily/hourly background jobs identifying secrets needing rotation reminders
-- Efficient notification scheduling for standard intervals (30/60/90 days) and custom cron schedules
-- Compliance tracking for overdue rotations
-
-OpenBao's storage model is optimized for key-value operations, not for time-based queries across millions of secrets. Background jobs that need to identify all secrets due for rotation would face significant performance challenges at scale.
-
-### Summary
+### Decision
 
 We will use PostgreSQL to store rotation scheduling metadata while OpenBao remains the single source of truth for secret values. This enables background jobs to efficiently query across all projects to identify secrets needing rotation reminders, supporting both standard intervals and custom cron-based schedules. The trade-off of potential data synchronization issues is acceptable because we're only storing rotation metadata, not duplicating secret values or access controls.
+We intentionally deviate from ADR 008's principle of avoiding database storage.
 
 ### Implementation Details
 
@@ -146,10 +140,10 @@ end
 
 This approach was rejected because:
 
-- **Constant API load**: Background jobs running hourly must query OpenBao even when no secrets need rotation
-- **Performance**: For 10,000 projects with 100 secrets each, this requires 1,000,000 API calls every hour
-- **No early termination**: Cannot quickly determine if any work needs to be done
-- **No complex queries**: Cannot efficiently support cron expressions or compliance tracking
+- **Constant API load**: Background jobs running hourly must query OpenBao even when no secrets need rotation.
+- **Performance**: For 10,000 projects with 100 secrets each, this requires 1,000,000 API calls every hour.
+- **No early termination**: Cannot quickly determine if any reminders need to be sent.
+- **No complex queries**: Cannot efficiently support cron expressions or compliance tracking.
 
 ### References
 
