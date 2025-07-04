@@ -3,7 +3,7 @@ title: GitLab the Product
 description: "About GitLab the product"
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## GitLab the Product
 
@@ -118,7 +118,7 @@ The announcements are grouped by the milestone they will be removed in. The depr
 
 #### Syntax deprecation process
 
-{{% include "includes/syntax-deprection.md" %}}
+{{% include "includes/product/syntax-deprection.md" %}}
 
 ### Naming features
 

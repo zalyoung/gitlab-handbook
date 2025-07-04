@@ -2,7 +2,7 @@
 title: "Issues project management guidelines"
 ---
 
-{{< include "includes/wip-notice.md" >}}
+{{< include "includes/marketing/wip-notice.md" >}}
 
 ## Background
 

@@ -4,7 +4,7 @@ description: "This page contains links to internal and external resources that P
 
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 Welcome to Learning and Development for Product Management at GitLab! This page serves as the content library that feeds [the Product Management Learning Hub in Level Up](https://levelup.gitlab.com/pages/product-management-hub). You are welcome to explore content here but if you prefer a more modular, personalizable, and trackable portal, please visit Level Up.
 
