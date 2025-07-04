@@ -318,7 +318,7 @@ In general, you should:
 - proactively reach out for input when contemplating new features
 - involve PMM as early as possible with work on important changes
 
-{{% include "includes/usecase-competitive-content.md" %}}
+{{% include "includes/marketing/usecase-competitive-content.md" %}}
 
 ### Working with marketing
 

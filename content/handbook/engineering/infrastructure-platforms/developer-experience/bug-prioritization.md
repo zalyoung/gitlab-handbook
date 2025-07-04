@@ -97,4 +97,4 @@ The following considerations can be helpful to keep in mind when determining whi
 
 We should also aim to align our decisions with the below [product prioritization framework](/handbook/product/product-processes/#prioritization)
 
-{{% include "includes/master-prioritization-list.md" %}}
+{{% include "includes/product/master-prioritization-list.md" %}}

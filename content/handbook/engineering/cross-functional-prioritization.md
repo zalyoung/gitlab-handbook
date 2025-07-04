@@ -4,4 +4,4 @@ canonical_path: "/handbook/product/product-processes/cross-functional-prioritiza
 noindex: true
 ---
 
-{{% include "includes/cross-functional-prioritization.md" %}}
+{{% include "includes/product/cross-functional-prioritization.md" %}}
