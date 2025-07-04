@@ -129,6 +129,8 @@
 /handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
 /handbook/engineering/infrastructure/capacity-planning/ /handbook/engineering/infrastructure-platforms/capacity-planning/ 301
 /handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
+/handbook/engineering/infrastructure/cost-management/ /handbook/engineering/infrastructure-platforms/cost-management/ 301
+/handbook/engineering/infrastructure/cost-management/* /handbook/engineering/infrastructure-platforms/cost-management/:splat 301
 /handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
 /handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ 301
 /handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
