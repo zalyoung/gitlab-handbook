@@ -85,6 +85,7 @@ This blueprint does not cover the following:
 - [ADR-007: Use OpenBao as the secrets management service](decisions/007_openbao/)
 - [ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md)
 - [ADR-009: Request Flow & Architecture Diagrams](decisions/009_request_flows.md)
+- [ADR-010: Using Rails ActiveRecord for Secret Rotation Metadata](decisions/010_secret_rotation_metadata_storage.md)
 
 ### Superseded
 
