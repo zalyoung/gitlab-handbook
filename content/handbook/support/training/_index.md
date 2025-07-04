@@ -146,7 +146,7 @@ The following reference table can be used as a guideline on achieving comfort wi
 **Monthly Progress Reference Table**
 The table below shows the expected progression for First Response Time (FRT) performance and ticket volume over the first 6 months, along with milestones for onboarding to on-call responsibilities. These guidelines help track your growing efficiency and expertise in handling customer issues.
 
-| Month | Weekly Ticket Volume (Associate Engineers) | Weekly Ticket Volume (Intermediate/Senior Engineers) | On-call (Intermediate/Senior Engineers) |
+| Month | Weekly Ticket Volume (Associate Engineers) | Weekly Ticket Volume (Intermediate/Senior Engineers) | On-call milestones (Intermediate/Senior Engineers) |
 | ------ |  ------ | ------ |------ |
 | 1 | 1-2 SM/SaaS/Dedicated OR 5-7 SaaS Account | 1-2 SM/SaaS/Dedicated | - |
 | 2 | 1-2 SM/SaaS/Dedicated OR 8-12 SaaS Account | 2-4 SM/SaaS/Dedicated | - |
