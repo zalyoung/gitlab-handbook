@@ -15,7 +15,6 @@ Our design goals are:
 3. Track compliance status for overdue rotations.
 4. Keep OpenBao as the single source of truth for secrets.
 
-
 ### Decision
 
 We will use PostgreSQL to store rotation scheduling metadata while OpenBao remains the single source of truth for secret values. This enables background jobs to efficiently query across all projects to identify secrets needing rotation reminders, supporting both standard intervals and custom cron-based schedules. The trade-off of potential data synchronization issues is acceptable because we're only storing rotation metadata, not duplicating secret values or access controls.
@@ -30,15 +29,15 @@ CREATE TABLE rotation_infos (
   id SERIAL PRIMARY KEY,
   project_id INTEGER NOT NULL REFERENCES projects(id),
   secret_name VARCHAR NOT NULL,
-  
+
   -- Rotation scheduling
   rotation_interval_days INTEGER,  -- Computed days for standard intervals (30, 60, 90)
   rotation_interval_raw_value VARCHAR NOT NULL,  -- Original input: "30", "60", "90", or cron syntax
   next_reminder_at TIMESTAMP NOT NULL,
-  
+
   -- Notification tracking
   last_reminder_sent_at TIMESTAMP,
-  
+
   created_at TIMESTAMP,
   updated_at TIMESTAMP
 );
@@ -76,7 +75,7 @@ class SecretRotationReminderWorker
     RotationInfo
       .where('next_reminder_at <= ?', Time.current)
       .find_in_batches(batch_size: 1000) do |batch|
-        
+
       batch.each do |rotation_info|
         # Verify secret exists in OpenBao before sending reminder
         if secret_exists_in_vault?(rotation_info)
@@ -123,12 +122,12 @@ class RotationCheckerWithOpenBao
       # LIST operation for every project, every hour
       secrets = vault_client.logical.list("#{project.path}/secret/metadata")
       next if secrets.blank?
-      
+
       secrets.each do |secret|
         # READ operation for each secret to check rotation date
         metadata = vault_client.logical.read("#{project.path}/secret/metadata/#{secret}")
         rotation_date = metadata.data[:custom_metadata][:next_rotation_at]
-        
+
         if Time.parse(rotation_date) <= Time.current
           send_rotation_reminder(project, secret)
         end
@@ -147,6 +146,6 @@ This approach was rejected because:
 
 ### References
 
-- [Issue #547863](https://gitlab.com/gitlab-org/gitlab/-/issues/547863): Technical Evaluation for Storage Architecture  
+- [Issue #547863](https://gitlab.com/gitlab-org/gitlab/-/issues/547863): Technical Evaluation for Storage Architecture
 - [Issue #499945](https://gitlab.com/gitlab-org/gitlab/-/issues/499945): Secret Rotation API Implementation
 - [ADR 008](/handbook/engineering/architecture/design-documents/secret_manager/decisions/008_no_database/): No Database Storage for Secrets
