@@ -32,7 +32,7 @@ For issues tracked in the team's issue tracker or other `gitlab-com/gl-infra` pr
 
 Sometimes we'll need to track issues contained in the `gitlab-org` top-level group, which does not contain `workflow-infra::*` labels. For these issues, please use the `workflow::*` labels. We track these issues using a [workflow issue board for gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216). If you need to make an issue in `gitlab-org` please mention @dlogalbo by using /cc @dlogalbo.
 
-Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`. 
+Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`.
 
 ##### Workflow Label Mappings
 
@@ -56,7 +56,7 @@ All issues need to include a description of the work, any identified `action ite
 
 We use the following guidelines for denoting when an issue is blocked:
 
-- If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency. 
+- If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency.
 - If an issue was started but requires further input, completion of another issue, etc before progressing, we use `~"workflow-infrafin::Blocked"`.
 - If an issue is blocked by work required from another team please make sure that team is aware and the appropriate labels are applied.
 
@@ -67,14 +67,17 @@ We use the following guidelines for denoting when an issue is blocked:
 ### Ways of Working
 
 #### Team Meetings
-Each week the Cells Infrastructure meets for one hour on Tuesdays - alternating between APAC/EMEA and AMER friendly time zones. The intent of this meeting is to: 
-- Demos 
-- Review any technical decisions, blockers, etc. as a team to get feedback. 
+
+Each week the Cells Infrastructure meets for one hour on Tuesdays - alternating between APAC/EMEA and AMER friendly time zones. The intent of this meeting is to:
+
+- Demos
+- Review any technical decisions, blockers, etc. as a team to get feedback.
 - Share information that the team should know
 - Team discussions (process, roadmaps/upcoming work, company items, etc.)
 
 #### Geekbot/Status Updates
-We use an integration with Slack, Geekbot, to provide updates on work in progress. Each Monday and Thursday, Geekbot will ask team members for an update and post via Slack. 
+
+We use an integration with Slack, Geekbot, to provide updates on work in progress. Each Monday and Thursday, Geekbot will ask team members for an update and post via Slack.
 
 #### Manager Responsibilities
 
