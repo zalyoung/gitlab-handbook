@@ -21,6 +21,34 @@ You might also find it helpful to review the
 1. Ask an existing ASE or ASE Manager to:
    1. invite you to the `#support_assigned-support-eng` Slack channel
    1. invite you to both of the recurring ASE Team meetings
+1. Find your Zendesk user ID and the Zendesk org ID for each of your assigned
+   accounts, if you have any:
+   1. Open the
+      [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+      1. select `Modifications to a Zendesk Global Organization`,
+      1. then select `Set an Assigned Support Engineer for an organization`
+   1. To find your Zendesk user ID:
+      1. Click in the field with the prompt:
+         `What is the Zendesk user ID of the assigned support engineer? (put None to remove the current ASE)`
+      1. Use the instructions posted on the right side of the window to find
+         your user ID; save the ID somewhere convenient
+   1. To find the Zendesk org ID for each of your accounts (if any):
+      1. Click on the field with the prompt:
+         `What is the Zendesk organization's ID?`
+      1. Use the instructions posted on the right side of the window to find
+         the org ID for each account; record TWO pieces of information for each
+         account:
+         1. The Zendesk org ID
+         1. The `Zendesk Org Name`, which is an 8-character hexadecimal number
+            followed by the recognizable name of the account, such as
+            `f6438d0c Acme Corp.` It'll be the title for the page.
+1. Submit an MR to update the
+   [README.md file](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/blob/main/README.md?ref_type=heads)
+   in the [Assigned Support Engineers project](https://gitlab.com/gitlab-com/support/assigned-support-engineers).
+   This file is the SSoT for the current list of ASEs and their assigned
+   accounts. Edit only the table rows for your accounts, and for each row enter
+   the corresponding Zendesk Org Name and Zendesk Account ID as well as your
+   Zendesk User ID.
 1. Submit an MR to update your personal yaml file in the
    [Support Team project](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents):
    1. Look for the `focuses:` header
@@ -37,18 +65,24 @@ You might also find it helpful to review the
           percentage: [org_b percentage]
       ```
 
-      1. where `[percent]` is 25 times the number of accounts you have - if you have 2 accounts, put 50
+      1. where `[percent]` is 25 times the number of ASE units for which your
+         accounts have contracted. Most accounts purchase 1 ASE unit, which
+         gives them 8 hours per week with an ASE, but some purchase more. Here
+         are some examples to help you:
+         1. if you have 2 accounts that purchased 1 unit each, then put 50
+         1. if you have 1 account that purchased 2 units, and another that
+            purchased 1, then put 75
       1. where `[instance]` is either "global" or "us_gov", according to
          whether your ASE accounts work with Global or US Gov Support
-      1. where `[org_a ID]` is the organization ID, in Zendesk, for your first account,
-         `[org_b ID]` is the same for your second
+      1. where `[org_a ID]` is the Zendesk org ID for your first account,
+         which you saved earlier, `[org_b ID]` is the saved ID for your second
          account, and so on
       1. where `[org_a percentage]` is the percentage of your ASE time that
          will be spent on org_a, `[org_b percentage]` is the same thing for your
          second account, and the sum of the org percentages is 100
 1. Change your job title in Zoom
 1. Update your signature in Zendesk to indicate that you are an ASE
-1. Submit an Access Request to get a user account created for yourself in
+1. Submit an Access Request to get a user account created for you in
    Salesforce. This account will be read-only, and will **not** add you to the
    [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders)
    list. It is needed in order to be able to display in some reports and
