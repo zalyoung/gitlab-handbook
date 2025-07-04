@@ -44,9 +44,8 @@
 
 # IT Team move to CorpSec - remove 2025-09-30
 /handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/access-requests/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/access-requests/access-requests/:splat 301
 /handbook/it/end-user-services/ /handbook/security/corporate/end-user-services/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/access-requests/frequently-asked-questions/
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /handbook/security/corporate/end-user-services/access-requests/frequently-asked-questions/
 /handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
 /handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/:splat 301
 /handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
@@ -54,8 +53,7 @@
 /handbook/it/okta/okta-enduser-faq/* /handbook/security/corporate/end-user-services/okta/okta-enduser-faq/:splat 301
 /handbook/it/okta/ /handbook/security/corporate/end-user-services/okta/ 301
 /handbook/it/okta/* /handbook/security/corporate/end-user-services/okta/:splat 301
-/handbook/security/corporate/services/laptops/wipe/ /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
-
+/handbook/security/corporate/services/laptops/wipe/ /handbook/security/corporate/end-user-servies/laptop-managemecnt/laptop-wipe/ 301
 
 # Delivery Group move in Infra platforms - remove 2025-04-20
 /handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
