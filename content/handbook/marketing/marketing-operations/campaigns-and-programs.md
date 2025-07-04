@@ -1420,3 +1420,20 @@ For conferences list loads with more than 5,000 attendees, consider not marking 
 1. Note that you can follow the same steps above if you need to view Physical Accommodation requests in a Marketo report. The fields for this are `Physical Assistance Needs` and `Physical Assistance Detail`.
 
 The view you created will be saved for future use, so any time you need to see this specific view in the future, you will click View: Default and select "Dietary Restrictions" from your dropdown (the list is unique to you, so you will have different options than other people). Due to privacy requirements, we are not pushing this information to SFDC, but you can see it in Marketo up until seven days after the event. The dietary restriction fields will automatically be cleared 7 days after the lead list is loaded.
+
+## Steps to Set up Sales Play Salesforce Campaign
+
+1. Go to Campaigns tab
+  1. If you aren’t seeing the Campaigns, select the + to see all tabs, and click on Campaigns
+2. Click on the New button to create a new campaign. Using this framework, name the campaign: `FYXX_QX_Sales Play_NameofSalesPlay`
+  1. Example: FY25_Q1_Sales Play_Dedicated & Compliance Play
+3. Check `Active`
+4. Type = `Prospecting`
+5. Type Detail = `Acceleration`
+6. Select the apprioprate `GTM Motion`
+7. Update the `Description`
+8. Add any related issue(s) or epic(s) in `Event Epic`
+9. Update the `Status` appropriately
+10. Add `Start Date` and `End Date`
+11. Update `Region` and `Sub-region`
+12. Update `Budgeted Cost` in Campaign (required field)
