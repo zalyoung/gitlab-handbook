@@ -1424,9 +1424,13 @@ The view you created will be saved for future use, so any time you need to see t
 ## Steps to Set up Sales Play Salesforce Campaign
 
 1. Go to Campaigns tab
+
   1. If you aren’t seeing the Campaigns, select the + to see all tabs, and click on Campaigns
+
 2. Click on the New button to create a new campaign. Using this framework, name the campaign: `FYXX_QX_Sales Play_NameofSalesPlay`
+  
   1. Example: FY25_Q1_Sales Play_Dedicated & Compliance Play
+
 3. Check `Active`
 4. Type = `Prospecting`
 5. Type Detail = `Acceleration`
@@ -1436,4 +1440,5 @@ The view you created will be saved for future use, so any time you need to see t
 9. Update the `Status` appropriately
 10. Add `Start Date` and `End Date`
 11. Update `Region` and `Sub-region`
+
 12. Update `Budgeted Cost` in Campaign (required field)
