@@ -16,7 +16,7 @@ To ensure that only invited attendees join your meetings, please ensure to use p
 
 *Please remember that if you are part of an interview team, your personal meeting room that is used for scheduling interviews should not have passwords on them but should have the waiting room enabled.*
 
-### Method 1 (recommended):
+### Method 1 (recommended)
 
 1. Once you have identified the meetings that need to be updated **and** have enabled passcodes for all meetings, go to your Google Calendar
 1. Edit the calendar event
@@ -24,7 +24,7 @@ To ensure that only invited attendees join your meetings, please ensure to use p
 1. Add a new meeting
 1. Save for This and following events or All events
 
-### Method 2:
+### Method 2
 
 1. Log into Zoom
 1. Go to `Meetings` > `Upcoming meetings`
@@ -43,17 +43,18 @@ Here is a quick video tutorial how to do this:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ZvaLolwKfAI/0.jpg)](https://www.youtube.com/watch?v=ZvaLolwKfAI)
 
-### Steps for a new meeting:
+### Steps for a new meeting
 
 1. During the meeting creation, in the Security section there is an option in the Zoom client that says: `Only authenticated users can join: GitLab Internal Only` or select the `Sign in to Zoom` option so users with any Zoom account can join. Click the check box next to this option
 1. If you are in Zoom via the browser, the option is still in the Security section but is labeled: `Require authentication to join`
 1. Proceed as normal with your meeting creation, and click **Save**
 
 **Note:**
+
 - This process only works in the Zoom client or from the [GitLab Zoom website](https://gitlab.zoom.us/)
 - If you're scheduling it within Google calendar, schedule as normal and edit the meeting following the steps in the next section for an existing meeting
 
-### Steps for editing an existing meeting:
+### Steps for editing an existing meeting
 
 1. Authenticate into Zoom, either via the client or via the web in a browser.
 1. Navigate to "Meetings". In the Zoom client this is at the top, in the browser this is on the left side.
