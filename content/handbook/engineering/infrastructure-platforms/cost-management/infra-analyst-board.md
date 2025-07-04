@@ -17,7 +17,7 @@ Use label `Eng Metrics::Infrastructure Department` to designate infra analyst sp
 
 ## Prioritization
 
-- All issues on this board will automatically de-prioritized from active items on the [Infrafin Board](/handbook/engineering/infrastructure/cost-management/infrafin-board)
+- All issues on this board will automatically de-prioritized from active items on the [Infrafin Board](/handbook/engineering/infrastructure-platforms/cost-management/infrafin-board)
   - If this is an issue please reach out in #infrafin slack channel
 - Issues on this board will be completed on a best-efforts basis, weights can be applied on a 1-10 scale with 10 being the highest priority
 - Total Open Issue Weight that is in progress cannot exceed 10

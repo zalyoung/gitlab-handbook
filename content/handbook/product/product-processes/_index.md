@@ -1364,7 +1364,7 @@ There are a few different tools PM's can utilize to understand the operational c
 - [Infrafin Board Workflow](https://gitlab.com/groups/gitlab-com/-/boards/1502173?label_name%5B%5D=infrafin)
 - [Infrafin Board by Group](https://gitlab.com/groups/gitlab-com/-/boards/2054211?label_name%5B%5D=infrafin)
 - [Infrafin Board by Savings Amount](https://gitlab.com/groups/gitlab-com/-/boards/992233?&label_name%5B%5D=infrafin)
-- [Infrafin Cost Management Handbook Page](/handbook/engineering/infrastructure/cost-management/)
+- [Infrafin Cost Management Handbook Page](/handbook/engineering/infrastructure-platforms/cost-management/)
 
 #### Tools to understand end user experience
 
