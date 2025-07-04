@@ -1,5 +1,5 @@
 ---
-title: EUS - Supported Apps
+title: EUS - Supported Apps (Placeholder)
 description: Applications and Services directly owned or supported by the EUS team
 ---
 

@@ -16,7 +16,7 @@ When using Zoom, please ensure the following:
 - Ensure that your laptop's OS and the Zoom app are up-to-date. You'll receive a desktop notification with instructions whenever an update is available. **Please note that you may not be able to use the app if it is not updated**
 - Ensure that you are properly signed into the Zoom app to have full access to unlimited calls and advanced features
 - Ensure you've followed the [laptop configuration guidelines](/handbook/security/corporate/end-user-services/laptop-management/laptop-security)
-- Update your Zoom profile and aconsider creating a customized [Personal link](#making-a-customized-personal-link)
+- Update your Zoom profile and aconsider creating a customized [Personal link](/handbook/security/corporate/end-user-services/supported-apps/zoom/zoom-additional-config/#create-a-customized-personal-link)
 
 ## Additional Help
 
