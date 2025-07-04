@@ -35,11 +35,18 @@ will be out.
   to notify them upon the arrival of new tickets.
 - Use the [Delegate Tasks feature of `Time Off by Deel` in Slack](https://help.letsdeel.com/hc/en-gb/articles/11901927070737-How-To-Request-Time-Off-With-Deel-Plugin#h_01GNY1Q325CCDEMASHZCMMY4RS)
   to indicate who is covering for each of your accounts
+- Ask your manager to change the ticket auto-assign settings for your accounts
+  so that the tickets will go directly to the people who are covering for you,
+  IF those people have asked that the tickets be sent directly to them.
 
 ### Returning from PTO
 
-When you return, meet with your backups to review the work they did on your
-behalf. And notify your customers and account teams of your return.
+When you return:
+
+1. Ask your manager to reverse the ticket auto-assign settings they put in
+   place for your absence
+1. Meet with your backups to review the work they did on your behalf
+1. Notify your customers and account teams of your return
 
 Add any lessons learned from this process to the issue that you created in the
 [Assigned Support Engineer project](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/issues),
