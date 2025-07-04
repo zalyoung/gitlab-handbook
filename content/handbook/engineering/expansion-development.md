@@ -134,7 +134,7 @@ Here are some curated resources to get you started:
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/IssueTypesDetail/OpenIssuesDashboard" >}}
 {{< /tableau >}}
 
-{{% include "includes/cross-functional-prioritization.md" %}}
+{{% include "includes/product/cross-functional-prioritization.md" %}}
 
 ### Cross-Functional Collaboration
 
