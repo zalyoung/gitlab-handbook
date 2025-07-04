@@ -5,21 +5,17 @@ description: GitLab Strategy and Operations (Workplace) Team Handbook
 
 ## About the GitLab Strategy and Operations (Workplace) Team
 
-The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote Marketing team. It is responsible for:
+The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote Marketing team. It was responsible for:
 
 1. The creation, curation, and continued iteration of [GitLab's guide to all-remote](/handbook/company/culture/all-remote/guide/), a deep library of guides that covers every facet of how GitLab functions as a remote team.
 1. Stewarding, iterating, and evangelizing GitLab's management philosophy and people practice, [TeamOps](/teamops/).
 1. Building an overarching methodology for the modern workplace.
 
-**This page is the single source of truth for TeamOps and all-remote positioning, evangelism, approvals, vision, and strategy**.
-
 ### Mission Statement
 
-{{< youtube "GKMUs7WXm-E" >}}
+The mission of GitLab's Strategy and Operations (Workplace) team was to define, evolve, and scale [TeamOps](/teamops/). THey also evolved and championed the company's [all-remote culture](/handbook/company/culture/all-remote/).
 
-The mission of GitLab's Strategy and Operations (Workplace) team is to define, evolve, and scale [TeamOps](/teamops/). We also evolve and champion the company's [all-remote culture](/handbook/company/culture/all-remote/).
-
-This involves close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief of Staff](/handbook/ceo/office-of-the-ceo/); Corporate Marketing (PR, corporate events); People Group ([employment branding](/handbook/people-group/employment-branding/)) and [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/).
+This involved close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief of Staff](/handbook/ceo/office-of-the-ceo/); Corporate Marketing (PR, corporate events); People Group ([employment branding](/handbook/people-group/employment-branding/)) and [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/).
 
 ### All-Remote Flywheel
 
@@ -52,25 +48,7 @@ TeamOps Trainers are team members who are internal champions of GitLab's values,
 
 A TeamOps Trainer transitions through three stages of TeamOps understanding. 1) Recall => 2) Apply => 3) Teach
 
-In Q4-FY23, we are hosting TeamOps Trainer Pilot Workshops.
-
-The purpose of the first version of this program is to collect feedback and resources as part of a larger go to market strategy, including:
-
-- Focus Group – Content testing, feedback, and iteration as beta test before TeamOps is released to the public market with a more formal sales strategy.
-- Content/Model Prototyping – Test the viability of creating a network of TeamOps representatives for future phases of TeamOps growth. ("Train the Trainer")
-- Content Creation – Scale content related to TeamOps by empowering all of GitLab to contribute blog posts and social threads.
-
-Creation of and participation in this program also supports the FY23-Q4 OKR to Grow Careers of GitLab team members.
-
-Apply to become a TeamOps Trainer and learn more about the program in [this GitLab issue](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/305).
-
-Requirements for [TeamOps Trainer: Level 1](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/305)
-
-1. Complete the [TeamOps practitioner course](https://levelup.gitlab.com/learn/course/teamops)
-1. Be able to answer questions (interview by existing trainer)
-1. Enthusiastic presentation of about 3-5 minutes on advantages of TeamOps on YouTube (GitLab Unfiltered)
-1. Contribute proposals to the materials (1+ MRs) on iterating TeamOps content to be market-ready (e.g. more applicable to your specific team or function)
-1. One blog post (or similar) published on GitLab, LinkedIn, Medium, Twitter thread, etc.
+Team members can go through the [TeamOps training](/handbook/teamops/growth/#teamops-learning-path) to get certification.
 
 ## Evangelism Materials
 
@@ -122,9 +100,7 @@ Expand this section for more slide decks you can use.
 
 ### Teaching other companies how to go remote
 
-{{< youtube "uqPigmWzZRI" >}}
-
-For a glimpse at how GitLab's Strategy & Operations (Workplace) team speaks about remote through presentations, watch the embedded video above or visit the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) (YouTube) links below. These presentations were shared at GitLab Connect EMEA in March 2021.
+For a glimpse at how GitLab's Strategy & Operations (Workplace) team spoke about remote through presentations, visit the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) (YouTube) links below. These presentations were shared at GitLab Connect EMEA in March 2021.
 
 1. [Remote Teamwork: How to thrive in a post-office world](https://youtu.be/uqPigmWzZRI)
 1. [Making Remote Work](https://youtu.be/0F4ltXcqE-w)
@@ -222,24 +198,11 @@ More examples of how to talk about remote work
 
 ### 'How to Manage a Remote Team' course on Coursera
 
-Mention in panels and consultations that GitLab's expertise in managing a remote team can be digested as a free course on Coursera.
-
 The course, titled "[How to Manage a Remote Team](https://www.coursera.org/learn/remote-team-management)," provides a holistic, in-depth analysis of remote team structures, phases of adaptation, and best practices for managers, leaders, and human resources professionals. It is being offered free of charge, with an optional paid certificate available.
 
 ### GitLab Remote Work Foundation Certification
 
 Anyone in the world (yes, this includes those who are not employed by GitLab) may take the [GitLab Remote Work Foundation Certification](/handbook/company/culture/all-remote/remote-certification/) and [TeamOps practitioner certification](https://levelup.gitlab.com/learn/course/teamops) to improve their remote fluency.
-
-### Social media assets and guidelines
-
-[This is the issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/1973) to get everything you need in order to evangelize remote work on your social media accounts. It includes:
-
-- Goals
-- Perspective
-- Hashtags to use
-- Topics to follow
-- Tips for writing your own posts
-- FAQ
 
 ## How does a company create their own handbook?
 
@@ -247,30 +210,12 @@ Anyone in the world (yes, this includes those who are not employed by GitLab) ma
 
 Learn more in GitLab's [Handbook-First Documentation guide](/handbook/company/culture/all-remote/handbook-first/#tools-for-building-a-handbook) about how GitLab (the company) uses GitLab (the product) to build and maintain its handbook, as well as tools and tips for other companies who wish to start their own.
 
-## All-remote guide creation
-
-GitLab's growing [library of remote guides](/handbook/company/culture/all-remote/guide/) is designed to be bolstered by new pages. Below is an overview of the process for adding a new guide.
-
-1. Check [this GitLab Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/2131) to ensure that your proposed guide isn't already being scheduled
-1. If it's a net-new idea, please put each new guide idea/topic in a new issue within [Corporate Marketing](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/)
-1. Put `Proposal: [NEW ALL-REMOTE GUIDE]` as the subject
-1. Add the label `mktg-status::triage`
-1. Assign to `@streas` to evaluate and provide feedback
-
 ### What's the difference between an all-remote guide and a traditional GitLab handbook page?
 
 See below for an A/B comparison of how an inward-facing GitLab *handbook* page is written vs. an external-facing *all-remote guide* is written.
 
 - [Handbook Hiring Page](/handbook/hiring/) and [Handbook Learning & Development Page](/handbook/people-group/learning-and-development/) (The audience is clearly GitLab, serving as an internal process guide for team members to follow.)
 - [All-Remote Hiring Guide](/handbook/company/culture/all-remote/hiring/) and [All-Remote Learning & Development Guide](/handbook/company/culture/all-remote/learning-and-development/) (The audience is external readers, written as an instructive guide for external companies.)
-
-## Design and illustration assets
-
-![GitLab all-remote team](https://about.gitlab.com/images/all-remote/GitLab-All-Remote-Zoom-Team-Tanuki.jpg)
-
-GitLab's [Brand and Digital Design](/handbook/marketing/digital-experience/) team are building out images and illustrations to visualize all-remote.
-
-*This section will be refreshed upon completion of the FY23 remote work brand refresh.*
 
 ## Approvals
 
@@ -306,7 +251,7 @@ GitLab is a very [transparent](/handbook/values/#transparency) company. As such,
 
 ### Universal Remote webcast playlist on GitLab YouTube channel
 
-[Universal Remote](https://www.youtube.com/playlist?list=PLFGfElNsQthay5Dd5OUC9DsNiIl7tzhMW) is GitLab's weekly web show focused on helping teams transition to a fully remote world. The running playlist of episodes can be found on [GitLab's YouTube channel](https://www.youtube.com/playlist?list=PLFGfElNsQthay5Dd5OUC9DsNiIl7tzhMW).
+[Universal Remote](https://www.youtube.com/playlist?list=PLFGfElNsQthay5Dd5OUC9DsNiIl7tzhMW) was a GitLab web show focused on helping teams transition to a fully remote world. The playlist of episodes can be found on [GitLab's YouTube channel](https://www.youtube.com/playlist?list=PLFGfElNsQthay5Dd5OUC9DsNiIl7tzhMW).
 
 ### All-Remote on the GitLab blog
 
@@ -376,99 +321,3 @@ We chose the all-remote structure so we can hire people irrespective of location
 - Be open about as many things as possible. By making information public we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible.
 - An example is the public repository of our website that also contains our company handbook. Everything we do is public by default, for example, the GitLab CE and GitLab EE issue trackers, but also marketing and infrastructure.
 - Transparency creates awareness for GitLab, which allows us to recruit people that care about our values. It gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them. It's also about sharing great software, documentation, examples, lessons, and processes with the whole community and world in the spirit of open source, which we believe creates more value than it captures.
-
-### Connecting GitLab sellers to individuals
-
-At times, our remote team members speak with GitLab prospects on joint media panels, interviews, webinars, etc. focused on the topic of remote work. If appropriate, the GitLab team member with the contact should consider introducing the prospect to the GitLab sales member. In order to make this connection to the GitLab seller (if it is not known to the All-Remote team member), the All-Remote team member should open an issue in the [Field Marketing project](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=) and tag the correct [regional Field Marketing leader](https://gitlab.com/gitlab-com/marketing/field-marketing#fm-managers).
-
-Field Marketing will look up account ownership in SFDC (Salesforce.com) and make the connection between the GitLab seller and the All-Remote team member so they can establish next steps in connecting to the prospect. The All-Remote team member should also feel comfortable asking about account ownership in the `#fieldmarketing` or `#sales` Slack channels before opening an issue.
-
-## Channels
-
-![GitLab all-remote illustration](https://about.gitlab.com/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg)
-
-### Web
-
-The team's primary home for publishing informational guides and content is the [all-remote section of GitLab's handbook](/handbook/company/culture/all-remote/). This will be the preeminent home to all-remote content, positioned for consumption by media, investors, prospective customers and candidates. This links readers to the guides that make up [The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook), as well as [TeamOps](/teamops/). Future web experiences are being evaluated.
-
-### Video
-
-GitLab is a very [transparent](/handbook/values/#transparency) company. As such, our remote-centric AMAs, webinars, and other conversations with team members and other companies are uploaded to a dedicated [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) on the GitLab Unfiltered YouTube channel.
-
-### Events, panels, keynotes and webinars
-
-All-remote and Workplace events should elevate GitLab as a thought leader in the remote work space, create new partnerships, generate leads and generate media interest/coverage. We will consider physical events, virtual events and events that combine an in-person presence with a livestream option.
-
-We believe that [all-remote is for everyone](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/), and that almost every company is [already a remote company](/handbook/company/culture/all-remote/scaling/#does-all-remote-work-at-scale). This includes all company sizes, from solo enterprises to multi-nationals, and geographies. Our event strategy should reflect this, offering education, insights, and actionable advice that applies to a wide spectrum of remote companies.
-
-Events should create an inclusive atmosphere, welcoming and beneficial to those who are not receptive to remote or are working in a company where remote is not feasible/acceptable.
-
-#### REMOTE by GitLab
-
-We gathered the workplace design community in June 2021 for **REMOTE by GitLab**, a half-day symposium exploring the future of workplace design, strategy, and culture. [Learn more](/handbook/company/culture/all-remote/events/#remote-by-gitlab) about the event, and [watch the recorded sessions](https://www.youtube.com/c/Gitlab/playlists?view=50&sort=dd&shelf_id=1).
-
-[This epic](https://gitlab.com/groups/gitlab-com/-/epics/1219) outlines the workstreams associated with bringing REMOTE by GitLab to life.
-
-### Social media
-
-We incorporate all-remote content on GitLab's [social media](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) accounts, and are investigating a visual approach to new mediums that are aligned with culture and lifestyle stories.
-
-We are working with talent branding to surface relevant all-remote stories from GitLab team members to talent acquisition channels and review sites, such as Glassdoor, LinkedIn and Comparably.
-
-There are also a number of videos on GitLab's [YouTube channel](https://www.youtube.com/gitlab) that relate to working here:
-
-- [GitLab Unfiltered Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc)
-- [Everyone can contribute](https://youtu.be/V2Z1h_2gLNU)
-- [Working remotely at GitLab](https://youtu.be/NoFLJLJ7abE)
-- [This is GitLab](https://youtu.be/Mkw1-Uc7V1k)
-- [What is GitLab?](https://youtu.be/MqL6BMOySIQ)
-
-## How to contribute (working with us)
-
-To contribute an idea or [proposal](/handbook/values#make-a-proposal) to further GitLab's all-remote mission:
-
-1. Please put each new idea/topic in a new issue within the [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
-1. Put `Proposal: [IDEA]` as the subject
-1. Assign to `@streas`
-1. Please [set a due date](/handbook/values/#set-a-due-date) using GitLab's `Due Date` feature and provide context for the deadline(s).
-
-### Requesting guidance
-
-To request guidance on a panel or speaking engagement:
-
-1. Provide an overview of the opportunity, and whether you or someone else is being requested, in the `#remote` Slack channel (for remote engagements) or `#ceo-chief-of-staff-team` Slack channel (for broader/more general engagements)
-1. We will evaluate the opportunity and provide guidance; if we decide to proceed, the participating GitLab team member will be asked to create an issue using [this Corporate Marketing issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=remote_consultation_request) to track progress.
-
-### Async weeks
-
-In 2021, the All-Remote team began pilot testing [asynchronous work](/handbook/company/culture/all-remote/asynchronous/): every sixth week, the team blocks our calendars and declines all non-critical meetings. 1:1 meetings are carried out asynchronously via a process [detailed in the All-Remote Async Guide](/handbook/company/culture/all-remote/asynchronous/#how-to-have-an-async-11-meeting).
-
-The goal of this initiative was to create dedicated space for deep work and creative brainstorming. We encouraged other teams to join us or to find other ways to [implement asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/#how-to-implement-asynchronous-workflows).
-
-The pilot test was a big success, inspiring not just GitLab team members (see [Sam Beckham's blog](https://sam.beckham.io/wrote/all-meetings-are-optional/)) but even other companies: for example, Twitter adopted Focus Weeks.
-
-<div class="center">
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It's day 4 of Focus Week for my team where we cleared all meetings (except for a few critical) and do all work async. The feedback so far is…incredible<br><br>Productivity🔥<br>Zoomed-out thinking 🔥<br>Prioritization 🔥<br>Focus (duh) 🔥<br>Collaboration 🔥<br>Sanity 🔥🙏</p>&mdash; Leslie Berland (@leslieberland) <a href="https://twitter.com/leslieberland/status/1441068737658978314?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</div>
-
-We will continue Async Weeks as a regular process for 2022. Our challenge is to **reduce synchronous meetings, not to reschedule them.** If your meeting with an All-Remote team member is declined during an async week, we encourage you to:
-
-1. Consider whether the discussion can be conducted asynchronously instead
-1. Look for opportunities to combine this discussion with others in a single meeting
-1. Reschedule only if there are no workarounds
-
-To read more about the results of the Async Weeks pilot, see [this slide](https://docs.google.com/presentation/d/1d6LTN1RlDYsjAEOqLWRP6hfTOBGzUbQGZ0L71IufjRo/edit#slide=id.g10660c3a1ce_1_0) from the All-Remote Group Conversation (GitLab team members only).
-
-For a good template to roll this out for your team, see the [Growth team's planning and feedback issue](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/390). If you have additional feedback on this initiative, please let us know in the `#all-remote_action` Slack channel. We appreciate hearing your thoughts and ideas.
-
-## Team
-
-### Contact us
-
-- Slack: Find us in `#remote`, `#teamops`, and `#ceo-chief-of-staff-team`
-
----
-
-Return to the [Office of the CEO Handbook](/handbook/ceo/office-of-the-ceo/).
