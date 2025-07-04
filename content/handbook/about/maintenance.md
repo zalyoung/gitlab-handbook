@@ -19,12 +19,10 @@ The maintainer of this page (as indicated in the sidebar) is considered the [DRI
 | Role | Owner | Current Individual(s) | Responsibilities |
 | ------ | ------ | ------ | ------ |
 | Handbook DRI | Learning & Development | Tre Ely, Jamie Allen | Prioritize work, make decisions on content sites, coordinate major changes |
-| Keep pipeline green | Group of volunteers  | See [Escalation page](escalation.md#keep-main-green-group) | Help fix the pipeline if jobs are failing (as needed) |
-| Code Maintainer[^1] | Group of volunteers | DRI, plus [`@gitlab-com/content-sites/handbook-tools`](https://gitlab.com/groups/gitlab-com/content-sites/handbook-tools/-/group_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
+| Keep pipeline green | Group of volunteers  | [`@gitlab-com/content-sites/keep-main-green`](https://gitlab.com/groups/gitlab-com/content-sites/keep-main-green/-/group_members?with_inherited_permissions=exclude) | Help fix the pipeline if jobs are failing (as needed) |
+| Code Maintainer | Group of volunteers | DRI, plus [`@gitlab-com/content-sites/handbook-tools`](https://gitlab.com/groups/gitlab-com/content-sites/handbook-tools/-/group_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
 
-[^1]: Note: Team members are added to the `handbook-tools` group as Maintainer or Owner. The group has Maintainer access to the handbook projects, and the Docsy theme project.
-
-This page further documents the scope and responsibilities of the DRI and their engineering reports.
+Note: Both volunteer groups have owner role to the `content-sites` group in order to resolve any escalations.
 
 ## What are the content websites?
 
