@@ -13,7 +13,28 @@ Infrastructure Security should lead the review, with Security Platforms and Arch
 for High or Critical risk scores.
 
 How the security review framework fits into the Security Review Process for Product Security is visualized in the 
-[Overall Process flow](#overall-process-flow) section.
+How the security review framework fits into the Security Review Process for Product Security is visualized in the following 
+[Overall Process flow](#overall-process-flow) chart.
+
+## Overall Process flow
+
+```mermaid
+flowchart TD
+
+    A[Product team requests a feature review] -->B[Product team adds a `SecurityReview:Requested` on a feature issue/epic/mr]
+    B --> C[ProdSec automation adds Initial Triage Questions in the feature issue and adds label `initial-triage:pending-answers`]
+    C --> D[Product team fills the Initial Triage questions and removes pending label]
+    D --> F{Team Routing logic}
+    F --> |SD&D| G[ProdSec automation adds Risk Dimensions questionnaire']
+    F --> |InfraSec| G[ProdSec automation adds Risk Dimensions questionnaire]
+    F --> |InfraSec + SD&D | G[ProdSec automation adds corresponding Risk Dimensions questionnaire and label `risk-dimension:pending-answers`]
+    G --> I[Product team fills Risk Dimensions questionnaire and remove pending labels]
+    I --> J{Risk scoring}
+    J --> |Critical Risk| K[Security review request created in ProdSec Ingestion Queue]
+    J --> |High Risk| K[Security review request created in ProdSec Ingestion Queue]
+    J --> |Medium Risk| K[Security review request created in ProdSec Ingestion Queue]
+    J --> |Low Risk| L[Self Service]
+    F --> |No triggers| L
 
 ### Framework purpose
 
@@ -436,23 +457,3 @@ redirect the request to the team members.
 
 Based on the risk score the ProdSec conducts Critical, High or Medium level Security review.
 
-## Overall Process flow
-
-```mermaid
-flowchart TD
-
-    A[Product team requests a feature review] -->B[Product team adds a `SecurityReview:Requested` on a feature issue/epic/mr]
-    B --> C[ProdSec automation adds Initial Triage Questions in the feature issue and adds label `initial-triage:pending-answers`]
-    C --> D[Product team fills the Initial Triage questions and removes pending label]
-    D --> F{Team Routing logic}
-    F --> |SD&D| G[ProdSec automation adds Risk Dimensions questionnaire']
-    F --> |InfraSec| G[ProdSec automation adds Risk Dimensions questionnaire]
-    F --> |InfraSec + SD&D | G[ProdSec automation adds corresponding Risk Dimensions questionnaire and label `risk-dimension:pending-answers`]
-    G --> I[Product team fills Risk Dimensions questionnaire and remove pending labels]
-    I --> J{Risk scoring}
-    J --> |Critical Risk| K[Security review request created in ProdSec Ingestion Queue]
-    J --> |High Risk| K[Security review request created in ProdSec Ingestion Queue]
-    J --> |Medium Risk| K[Security review request created in ProdSec Ingestion Queue]
-    J --> |Low Risk| L[Self Service]
-    F --> |No triggers| L
-```
