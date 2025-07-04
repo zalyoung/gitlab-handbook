@@ -78,36 +78,6 @@
 /handbook/engineering/development/incubation/server-runtime/ https://docs.gitlab.com/user/duo_workflow/ 301
 /handbook/engineering/development/incubation/service-desk/ https://docs.gitlab.com/user/project/service_desk/ 301
 
-# Old Infrastructure Department moved - remove 2025-09-30
-/handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
-/handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
-/handbook/engineering/infrastructure/cost-management/ /handbook/engineering/infrastructure-platforms/cost-management/ 301
-/handbook/engineering/infrastructure/cost-management/* /handbook/engineering/infrastructure-platforms/cost-management/:splat 301
-/handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
-/handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ 301
-/handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
-/handbook/engineering/infrastructure/faq/ /handbook/engineering/infrastructure-platforms/faq/ 301
-/handbook/engineering/infrastructure/feature-support/ /handbook/engineering/infrastructure-platforms/feature-support/ 301
-/handbook/engineering/infrastructure/incident-review/ /handbook/engineering/infrastructure-platforms/incident-review/ 301
-/handbook/engineering/infrastructure/network-security/ /handbook/engineering/infrastructure-platforms/network-security/ 301
-/handbook/engineering/infrastructure/projects/ /handbook/engineering/infrastructure-platforms/projects/ 301
-/handbook/engineering/infrastructure/release-tools/ /handbook/engineering/infrastructure-platforms/release-tools/ 301
-/handbook/engineering/infrastructure/service-maturity-model/ /handbook/engineering/infrastructure-platforms/service-maturity-model/ 301
-
-# Technical Writing handbook pages - remove 2025-08-05
-/handbook/product/ux/technical-writing/documentation/ /handbook/product/ux/technical-writing/#documentation 301
-/handbook/product/ux/technical-writing/fundamentals/ https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals 301
-/handbook/product/ux/technical-writing/fundamentals/examples/ https://docs.gitlab.com/development/documentation/topic_types/ 301
-/handbook/product/ux/technical-writing/setup/ https://docs.gitlab.com/development/documentation/authoring_environment/ 301
-/handbook/product/ux/technical-writing/workflow/ https://docs.gitlab.com/development/documentation/workflow/ 301
-
-# Infra library moved - remove 2025-10-10
-/handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
-/handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
-
-# Cells project moved - remove 2025-12-22
-/handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
-
 # Source Code team pages move - remove 2025-08-01
 /handbook/engineering/development/ /handbook/engineering/devops/ 301
 
@@ -159,6 +129,8 @@
 /handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
 /handbook/engineering/infrastructure/capacity-planning/ /handbook/engineering/infrastructure-platforms/capacity-planning/ 301
 /handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
+/handbook/engineering/infrastructure/cost-management/ /handbook/engineering/infrastructure-platforms/cost-management/ 301
+/handbook/engineering/infrastructure/cost-management/* /handbook/engineering/infrastructure-platforms/cost-management/:splat 301
 /handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
 /handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ 301
 /handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
