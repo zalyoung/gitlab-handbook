@@ -254,7 +254,7 @@ The following on-call rotations are staffed by Support Engineers:
 1. [Self-managed customer emergency on-call](/handbook/support/on-call/)
 1. [GitLab.com Communications Manager on Call (CMOC)](/handbook/support/workflows/cmoc_workflows)
 
-Intermediate and Senior Support Engineers participate in one of these rotations - not both, unless you absolutely love being on-call!
+Intermediate, Senior and Staff Support Engineers participate in one of these rotations - not both, unless you absolutely love being on-call!
 
 **New Team Members:** your Support Engineer Onboarding Issue shows the readiness criteria for joining rotations.
 
@@ -278,12 +278,7 @@ Be sure to highlight notable incidents in your 1:1 notes doc.
 1. Ask and answer questions in Slack. (We don't have a way to easily make this visible, but feel free to share things you're proud of with your manager in your 1:1 notes doc.)
 1. If you have volunteered to be a [Support Stable Counterpart](/handbook/support/#support-stable-counterpart), collaborate with the group(s) you are assigned to and share knowledge with the Support Team.
 1. There are many other ways you can collaborate. Make a note of your collaborations in your 1:1 notes doc.
-
-| Level        | How it might look |
-| ------------ | ----------------- |
-| Associate    | Aim for two to five pairing sessions per week |
-| Intermediate | Aim for two to five pairing sessions per week         |
-| Senior       | [Aim for one pairing or help session per day](/handbook/support/engineering/mentorship) |
+1. Aim for 2-5 pairing sessions per week. 
 
 ## Create and update issues for bugs and feature requests (Weekly)
 
