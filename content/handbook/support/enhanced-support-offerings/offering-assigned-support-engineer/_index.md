@@ -22,7 +22,12 @@ By taking a personalized, customized approach to serving each account, the ASE
 has the opportunity to ensure that these important customers are happy and
 successful with GitLab.
 
-For the official description of this offering, see the
+The ASE offering is sold exclusively as a part of the Success Signature Tier,
+and cannot currently be sold separately. See our Internal Handbook page about
+[Success Tiers](https://internal.gitlab.com/handbook/customer-success/success-services/)
+as well as our public Handbook page about
+[Success Tiers](/handbook/customer-success/success-services/) for more
+information. Also, for the official description of the offering, see the
 [Assigned Support Engineer Delivery Data Sheet](https://drive.google.com/file/d/1I-GDQV9wZkTvTTMqIPw1mSLaeVUru4zU/view).
 
 A list of Assigned Support Engineers is maintained here: [gitlab-com/support/assigned-support-engineers](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/blob/main/README.md)
