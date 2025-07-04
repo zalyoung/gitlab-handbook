@@ -143,7 +143,7 @@ This approach was rejected because:
 - **Constant API load**: Background jobs running hourly must query OpenBao even when no secrets need rotation.
 - **Performance**: For 10,000 projects with 100 secrets each, this requires 1,000,000 API calls every hour.
 - **No early termination**: Cannot quickly determine if any reminders need to be sent.
-- **No complex queries**: Cannot efficiently support cron expressions or compliance tracking.
+- **No query filtering**: Does not support time-based queries to efficiently identify secrets that need to be rotated. This would require us to check every secret.
 
 ### References
 
