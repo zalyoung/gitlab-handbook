@@ -43,8 +43,9 @@ This section links all different technical proposals that are being evaluated.
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
 - [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
-- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
 - [Cells: Infrastructure](./infrastructure/_index.md)
+- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
+- [Settings Synchronization](./proposal-admin_area_setting_sychronization_in_cells.md)
 - [Organization migration](migration.md)
 - [Routable Tokens](routable_tokens.md)
 
