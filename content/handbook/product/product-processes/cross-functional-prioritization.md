@@ -2,4 +2,4 @@
 title: Cross Functional Prioritization
 ---
 
-{{% include "includes/cross-functional-prioritization.md" %}}
+{{% include "includes/product/cross-functional-prioritization.md" %}}

@@ -301,7 +301,7 @@ FCL xxxx - [team name]
 - Mitigation
 - Status of Planned/completed work associated with FCL
 
-{{% include "includes/feature-change-locks.md" %}}
+{{% include "includes/engineering/feature-change-locks.md" %}}
 
 ## Engineering Performance Indicator process
 

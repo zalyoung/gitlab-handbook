@@ -5,7 +5,7 @@ description: "These are the expected competencies of the Fullstack Engineer, Con
 
 ## Contributor Success Career Framework
 
-{{% include "includes/cs_career_matrix_nav.md" %}}
+{{% include "includes/marketing/cs_career_matrix_nav.md" %}}
 
 These are the expected competencies of the Fullstack Engineer, Contributor Success team members at GitLab.
 

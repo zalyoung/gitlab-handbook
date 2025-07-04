@@ -2,7 +2,7 @@
 title: Product sections, stages, groups, and categories
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Interfaces
 
