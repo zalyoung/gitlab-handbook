@@ -45,7 +45,6 @@
 
 ^[office-of-the-ceo]
 /content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
-/content/handbook/ceo/office-of-the-ceo/readmes/cynthia-ng.md @cynthia
 /content/handbook/ceo/office-of-the-ceo/readmes/streas.md @streas
 /content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
@@ -468,6 +467,9 @@
 
 ^[Product Design]
 /content/handbook/product/ux/product-design/design-studios.md @pedroms
+
+^[Product READMEs]
+/content/handbook/product/readmes/cynthia.md @cynthia
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
