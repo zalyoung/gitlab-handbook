@@ -144,7 +144,7 @@ Our onboarding pathway gives new Support Engineers an opportunity to learn at th
 The following reference table can be used as a guideline on achieving comfort with ticket management in your first 6 months in GitLab Support. Managers can also use this table to gauge the progress of new hires in their first 6 months after onboarding.
 
 **Monthly Progress Reference Table**
-The table below shows the expected progression for First Response Time (FRT) performance and ticket volume over the first 6 months. These metrics help track your growing efficiency and expertise in handling customer issues.
+The table below shows the expected progression for First Response Time (FRT) performance and ticket volume over the first 6 months, along with milestones for onboarding to on-call responsibilities. These guidelines help track your growing efficiency and expertise in handling customer issues.
 
 | Month | Weekly Ticket Volume (Associate Engineers) | Weekly Ticket Volume (Intermediate/Senior Engineers) | On-call (Intermediate/Senior Engineers) |
 | ------ |  ------ | ------ |------ |
