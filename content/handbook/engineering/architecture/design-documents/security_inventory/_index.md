@@ -50,7 +50,6 @@ Access to the Security Inventory is limited to Owners and Maintainers of a given
 - Provide hierarchical visibility into security posture across groups, subgroups, and projects
 - Reduce the computational overhead by pre-calculating and efficiently storing security statistics
 
-
 ### Non-Goals
 
 - Replace the Security Dashboard; this feature will not replace the Security Dashboard
@@ -123,13 +122,13 @@ Access to the Security Inventory is limited to Owners and Maintainers of a given
    - Show only projects and groups that the user has access to
    - Apply appropriate access controls for security information
 
-
 #### Application Programmer Interfaces (APIs)
 
 For the integration with the UI, we will leverage the existing Groups GraphQL API. In addition, we will implement the following APIs as part of this feature.
 
 ##### Vulnerabilities APIs
-```
+
+```graphql
 query GetGroupVulnerabilityStatistics($fullpath: ID!) {
   group(fullPath: $fullpath) {
     descendantGroups(includeParentDescendants: false, first: 20) {
@@ -144,7 +143,7 @@ query GetGroupVulnerabilityStatistics($fullpath: ID!) {
 }
 ```
 
-```
+```graphql
 query GetGroupVulnerabilityStatisticsForProjects($fullpath: ID!) {
   group(fullPath: $fullpath) {
     projects(first: 20) {
@@ -161,7 +160,7 @@ query GetGroupVulnerabilityStatisticsForProjects($fullpath: ID!) {
 
 ##### Analyzer Status APIs
 
-```
+```graphql
 query GetGroupVulnerabilityStatistics($fullpath: ID!) {
   group(fullPath: $fullpath) {
     descendantGroups(includeParentDescendants: false, first: 20) {
@@ -178,7 +177,7 @@ query GetGroupVulnerabilityStatistics($fullpath: ID!) {
 }
 ```
 
-```
+```graphql
 query GetGroupVulnerabilityStatisticsForProjects($fullpath: ID!) {
   group(fullPath: $fullpath) {
     projects(first: 20) {
@@ -195,6 +194,7 @@ query GetGroupVulnerabilityStatisticsForProjects($fullpath: ID!) {
 ```
 
 ### Database Schema
+
 The system will utilize the following tables:
 
 1. **analyzer_project_statuses**
