@@ -394,7 +394,8 @@ The company will cover all work-related travel expenses. This includes lodging a
 - What's included - Essential items which you will need to ensure you are able to perform your role in GitLab should include chair, desk, monitor, Laptop (provided), headset, external mic, external keyboard and external mouse.
 - Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, can also be considered and expensed using the Stipend/Allowance.
 - Any items outside this will fall under an exception to the policy and will be subjected to review.
-- In addition the following items are **not reimbursable**: Phones, watches, smart speakers, smart TVs/smart monitors, walking pads/treadmills and tablets.
+- In addition the following items are **not reimbursable**: Phones, watches, smart speakers, smart TVs/smart monitors, walking pads/treadmills and tablets. 
+No hardware costs for internet service is reclaimable. This includes all routers, Mesh/extenders/booster Equipment, etc.
 - Purchasing from Private Sellers (e.g. either new or used equipment) is allowed. To expense them, attach the screenshot of your transaction with the seller showing the amount agreed upon, payment method, and item details in the description field. If paid via online transfer, attach the receipt for back up.
 - If you have any doubts please connect with the Expense Team by submitting a request under the `Expenses -> Home Office Equipment` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/). Please note that these purchases are still reviewed by your manager and accounting teams, and any misappropriation of these funds will be flagged.
 
@@ -446,7 +447,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Policy is set at $80, anything over that amount will still be considered for approval as we know there are exceptions, and will be checked and approved on an individual basis depending on the user's circumstances, i.e. location etc.
 - Itemized Receipt required.
 - If an itemized bill is not available, costs will only be reimbursed for the element relating to Internet Access, i.e. if you pay for tv, internet and phone, the invoice should be divided by 3/# of services and we will pay this value only.
-- No hardware costs for internet service is reclaimable. This includes routers, extenders/boosters, etc.
+- No hardware costs for internet service is reclaimable. This includes routers, Mesh/Extenders/booster Equipment, etc.
 - If co-working space is used together with a combination of working from home, we will allow the reimbursement of the internet cost for where you spend most of your time. i.e. if you expense a co-working space for a full month then internet for home cannot be expensed. If you expense co-work for a few days in a month then home internet can be expensed in full.
 - Team members for GitLab GmbH (Germany) should refer to this [page](https://internal.gitlab.com/handbook/finance/payroll/#non-us) for their country's specific guidelines of this expense.
 
@@ -471,7 +472,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - AP Admin needs to review expense for approved issue.
 
 {{% panel header="**Coding**" header-bg="green" %}}
-**Expense Type / Navan Policy Category:** Office Supplies
+**Expense Type / Navan Policy Category:** Laptop Purchase/Refresh or Office Supplies
 {{% /panel %}}
 
 ### Marketing- related expenses
@@ -560,18 +561,18 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Building
 
 - To be used for team activities and food/beverages associated with special team events. Amount allowed is dependent on their department budget for the year.
-- Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY25 Team Building Budget"
-- In FY25, each e-group member has been allocated a budget per quarter for FY25-Q2 to FY25-Q4 for team building events.
+- Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY26 Team Building"
+- In FY26, each e-group member has been allocated a budget per quarter for FY26-Q2 to FY26-Q4 for team building events.
 - Each e-group member can use their discretion when using the budget.
 - The budget should be used within the quarter the funds are allocated and unused funds cannot be moved to a different quarter.
 - This budget should cover leadership offsites, Team Members get togethers, the holiday party and other virtual fun events.
-- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY25 Team Building Budget".
+- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY26 Team Building".
 - The expense needs to be submitted in the same month as the event or if not possible due to the timing of the event, the latest acceptable submission will be before the end of the fiscal quarter that the event took place.
 
 {{% panel header="**Coding**" header-bg="green" %}}
 
 - **Expense Type / Navan Policy Category:** Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation)
-- **Classification:** FY25 Team Building Budget
+- **Classification:** FY26 Team Building 
 {{% /panel %}}
 
 ### Training/Tuition
@@ -584,7 +585,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 {{% panel header="**Coding**" header-bg="green" %}}
 
-- **Expense Type / Navan Policy Category:** Other
+- **Expense Type / Navan Policy Category:** G&D (Growth & Development)
 - **GL Code NON-COGS:** 6065 - Training & Development
 - **GL Code COGS:** 5065 - Training & Development COGS
 {{% /panel %}}
