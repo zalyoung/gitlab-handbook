@@ -64,7 +64,7 @@ The GitLab Partner Program consists of three tracks and one designation to suppo
 
 ### GitLab Incentives Guide
 
-GitLab maintains our incentives in our GitLab [Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?id=676520&renderMode=Collection). To access the guide you must have access to our partner portal which you can do if your organization is an authorized GitLab partner by submitting your work email corresponding to your organizational URL through this [link](https://partners.gitlab.com/English/register_email.aspx) and following the instructions you receive to set up your portal account.
+GitLab maintains our incentives in our GitLab Incentive Guide found in the Asset Library of the partner portal. To access the guide you must have access to our partner portal which you can do if your organization is an authorized GitLab partner by submitting your work email corresponding to your organizational URL through this [link](https://partners.gitlab.com/partner/registration) and following the instructions you receive to set up your portal account.
 
 ### GitLab Select Services Track
 
