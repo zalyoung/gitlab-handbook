@@ -569,7 +569,6 @@ for increased prioritization of your now soft dependencies.
 Execution of a Global prioritization can take many forms.  This is worked with both Product and Engineering Leadership engaged.  Either party can activate a proposal in this area.  The options available and when to use them are the following:
 
 - [Rapid action](/handbook/product/product-processes/pm-procedures/#rapid-action) - use when reassignment isn't necessary, the epic can have several issues assigned to multiple teams
-- [Borrow](/handbook/product/product-processes/pm-procedures/#borrow) - use when a temporary assignment (less than 6 months) to a team is required to help resolve an issue/epic
 - [Scope Reassignment](/handbook/product/product-processes/pm-procedures/#scope-reassignment) - use when scope that will take longer than 6 months to deliver is a high priority and the team member reporting structure does not need to change to accomplish the effort.
 - [Realignment](/handbook/people-group/promotions-transfers/#realignment-of-team-members-impacting-multiple-teams) - use when a permanent assignment to a team is required to resolve ongoing challenges. This has the highest impact to team members and should be considered if other options cannot achieve the desired goal. We strive to hire team members in the groups that will need them most.
 

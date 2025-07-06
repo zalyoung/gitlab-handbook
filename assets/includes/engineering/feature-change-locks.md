@@ -11,8 +11,6 @@ If the incident meets the above criteria, then the manager of the team is respon
 
 If the team believes there does not need to be an FCL, approval must be obtained from either the VP of Infrastructure or VP of Development.
 
-Direct reports involved in an active [borrow](/handbook/product/product-processes/#borrow) should be included if they were involved in the authorship or review of the change.
-
 The purpose is to foster a sense of ownership and accountability amongst our teams, but this should not challenge our no-blame culture.
 
 #### Timeline
