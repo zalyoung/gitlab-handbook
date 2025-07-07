@@ -180,7 +180,7 @@ Everything in the various levels of product designer roles, plus:
 - participate in prompt engineering to maximize user satisfaction.
 - test prompts and prototype conversation flow happy paths.
 - understand model evaluation approaches, and use knowledge of user intents to enhance datasets to closely mirror human interactions.
-- stay up to data on emerging technology and UI design patterns.
+- stay up to date on emerging technology and UI design patterns.
 - leverage solution validation methods that go beyond usability to evaluate user satisfaction with model responses.
 - create learning materials that support designers who work on AI-powered features.
 
