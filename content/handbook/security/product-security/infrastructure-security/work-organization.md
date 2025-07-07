@@ -32,7 +32,22 @@ We could also think about having epics (or instead labels) to group maintenance 
     In both cases we should add an explanation to the issue that explains the reasoning behind the `Health Status`.
 
 ### Labels
-
+```mermaid
+mindmap
+  root((🛡️ InfraSec<br/>Labels))
+    (🔨 Work Type)
+      [📋 project]
+      [🔧 maintenance]
+      [🚨 interrupt]
+      [🔗 dependency]
+      [📚 learning]
+    (📊 Work Status)
+      [📝 backlog]
+      [📅 planned]
+      [⚡ ongoing]
+      [🚫 blocked]
+      [✅ closed]
+```
 #### Work Type
 
 1. InfraSecWork::project
@@ -48,6 +63,43 @@ We could also think about having epics (or instead labels) to group maintenance 
 1. InfraSecStatus::ongoing
 1. InfraSecStatus::blocked # Waiting on unexpected dependencies
 1. (Closed is covered through closing the issue - all other work status labels should be removed then)
+
+### Work Status Flow Chart
+```mermaid
+flowchart TD
+    Start([New Issue Created]) --> A[InfraSecStatus::backlog]
+    A -->|Individual Refinement| B{Is issue refined with required metadata <br/>and ready?}
+    B -->|Yes| C[InfraSecStatus::planned]
+    B -->|No| A
+    C -->|Assignee picks up work| D[InfraSecStatus::ongoing]
+    D --> E{Is there a blocker?}
+    E -->|Yes| F[InfraSecStatus::blocked]
+    E -->|No| G{Is work complete?}
+    F -->|Blocker resolved| D
+    G -->|No| D
+    G -->|Yes| H[Close Issue]
+    H --> I([Remove all work status labels])
+    
+   
+    style Start fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style A fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style C fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    style D fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    style F fill:#ffebee,stroke:#b71c1c,stroke-width:2px
+    style H fill:#f5f5f5,stroke:#424242,stroke-width:2px
+    style I fill:#f5f5f5,stroke:#424242,stroke-width:2px
+    
+    
+    A -.-> Note1[All new issues start here<br/>Teams create issues directly<br/>in backlog status]
+    C -.-> Note2[Refined by team members<br/>on their own schedule<br/>Ready to be picked up]
+    D -.-> Note3[Work is actively<br/>being done]
+    F -.-> Note4[Waiting on unexpected<br/>dependencies]
+    
+    style Note1 fill:#fffde7,stroke:#f57f17,stroke-width:1px,stroke-dasharray: 5 5
+    style Note2 fill:#fffde7,stroke:#f57f17,stroke-width:1px,stroke-dasharray: 5 5
+    style Note3 fill:#fffde7,stroke:#f57f17,stroke-width:1px,stroke-dasharray: 5 5
+    style Note4 fill:#fffde7,stroke:#f57f17,stroke-width:1px,stroke-dasharray: 5 5
+```
 
 ### Templates
 
