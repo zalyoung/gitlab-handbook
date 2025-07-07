@@ -489,39 +489,39 @@ The existing roles system addresses permission granularity through up to 40+ spe
 
 ### Research and Validation Phase
 
-1. **Detailed user research**
-   - Conduct usability studies on inheritance pattern preferences
-   - Interview enterprise customers about organizational modeling needs
-   - Test mental model alignment through prototype evaluation
-   - Validate success metrics through baseline measurement
-
-2. **Technical architecture deep dive**
-   - Design database schema for optimal permission resolution performance
-   - Create proof-of-concept implementation for scalability testing
-   - Evaluate integration patterns with existing GitLab architecture
-   - Assess migration complexity and risk mitigation strategies
-
-3. **Competitive feature analysis**
+1. **Competitive feature analysis** (FY26Q2)
    - Detailed feature comparison with major DevOps platforms
    - Analysis of customer switching patterns and motivations
    - Evaluation of enterprise sales competitive positioning
    - Assessment of differentiation opportunities
 
+2. **Detailed user research** (FY26Q3)
+   - Conduct usability studies on inheritance pattern preferences
+   - Interview enterprise customers about organizational modeling needs
+   - Test mental model alignment through prototype evaluation
+   - Validate success metrics through baseline measurement
+
+3. **Technical architecture deep dive** (FY26Q4)
+   - Design database schema for optimal permission resolution performance
+   - Create proof-of-concept implementation for scalability testing
+   - Evaluate integration patterns with existing GitLab architecture
+   - Assess migration complexity and risk mitigation strategies
+
 ### Design and Prototyping Phase
 
-1. **Architecture design documentation**
-   - Detailed technical specifications for Teams entity and relationships
-   - API design for team management, membership, and permission resolution
-   - Database schema design optimized for performance and auditability
-   - Integration specifications for external identity providers
-
-2. **User experience design**
+1. **User experience design** (FY26Q4)
    - Wireframes and user flows for team creation and management
    - Permission inheritance visualization and audit trail interfaces
    - Migration tools and workflows for administrators
    - Progressive disclosure patterns for complex scenarios
 
-3. **Implementation planning**
+2. **Architecture design documentation** (FY27Q1)
+   - Detailed technical specifications for Teams entity and relationships
+   - API design for team management, membership, and permission resolution
+   - Database schema design optimized for performance and auditability
+   - Integration specifications for external identity providers
+
+3. **Implementation planning** (FY27Q2)
    - Phased delivery roadmap with clear milestones and dependencies
    - Resource allocation and team structure requirements
    - Risk mitigation plans and rollback strategies
