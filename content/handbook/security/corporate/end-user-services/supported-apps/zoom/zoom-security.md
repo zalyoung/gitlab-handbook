@@ -1,5 +1,5 @@
 ---
-title: Zoom Securty
+title: Zoom Security
 description: Configure passcodes and authentication
 ---
 
