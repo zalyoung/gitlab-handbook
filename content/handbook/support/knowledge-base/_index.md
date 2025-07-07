@@ -103,6 +103,7 @@ Anyone can create a knowledge article regardless of being in ZenDesk or not (or 
 
 **Light Agents in ZenDesk**
 If you are a Light Agent in ZenDesk and would like to **create knowledge articles** please do the following:
+
 - Fill out an [Access Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
 - Request Access to have your Light Agent Role elevated to "create knowledge"
 - Request should include **Write access for articles**
