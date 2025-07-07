@@ -209,7 +209,7 @@ query = ActiveContext::Query
   .knn(target: 'embeddings_v1', vector: target_embedding, limit: 5)
 ```
 
-### Proposal: Index state management
+### Index state management
 
 #### Overview
 
@@ -220,66 +220,123 @@ The process differs between SaaS and SM/Dedicated:
 - SaaS: Duo licenses are applied on a root namespace level. Subgroups and projects in the namespace have Duo enabled, except if `duo_features_enabled` is false.
 - SM: Duo license is applied on the instance-level. If the instance has a license, all groups and projects have Duo enabled, except if `duo_features_enabled` is false.
 
-This makes the process for managing index state different between the two. For SaaS we will have an `Ai::Code::EnabledNamespace` record tied to a root namespace that has a license. The `enabled_namespace` record will have associated `Ai::Code::Repository` records for projects. For SM we won't have `Ai::Code::EnabledNamespace` records and only rely on `Ai::Code::Repository` records.
-
 #### Database Schema
 
-The design proposes two main tables:
+`Ai::Code::EnabledNamespace` table tracks namespaces that should be indexed based on Duo and GitLab licenses and enabled features.
 
-##### 1. Ai::Code::EnabledNamespace
-
-- **Purpose**: Track namespaces that should be indexed
-- **Schema**:
-  - References namespace (with dependent: nullify)
-  - `metadata` (jsonb)
-
-##### 2. Ai::Code::Repository
-
-- **Purpose**: Track the indexing state of repositories
-- **Schema**:
-  - References project (dependent: nullify)
-  - References ai_code_enabled_namespace (dependent: nullify)
-  - `project_identifier` (non-nullable, non-FK column) for orphaned document deletion
-  - `state` (smallint) with enum values:
-    - `pending`: 0
-    - `code_indexing_in_progress`: 1
-    - `embedding_indexing_in_progress`: 2
-    - `ready`: 10
-    - `pending_deletion`: 240,
-    - `deleted`: 250,
-    - `failed`: 255
-  - `metadata` (jsonb)
-    - `last_initial_queued_item` (char)
-    - `last_initial_queued_item_score` (float)
-    - `reason_for_delete` (char)
-    - `last_error` (char)
-  - `indexed_at` (timestamp)
-  - `last_commit` (char)
-- **Partitioning**: Int range partitioning on `namespace_id`.
-
-`state` represents the initial indexing state. Once a repository is marked as `:ready`, it means it is searchable and incremental updates will continusouly happen.
+`Ai::Code::Repository` table tracks the indexing state of projects in an enabled namespace.
 
 #### Process Flow
 
-The system uses a `SchedulingService` called from a cron worker that publishes events at defined intervals. Each event has a corresponding worker that processes the event.
+The system uses a `SchedulingService` called from a cron worker `Ai::ActiveContext::Code::SchedulingWorker` every minute that publishes events at defined intervals. Each event has a corresponding worker that processes the event.
 
 #### Scheduling tasks
 
-| Task | Action | Instance type |
-|------|--------|--------------|
-| `gitlab_com_initial_indexing` | Find eligible namespaces and create records<br>• record does not exist AND namespace has Duo license | SaaS |
-| `gitlab_com_invalid_license` | Find eligible `enabled_namespaces` and delete records<br>• namespace does not have valid license (e.g. expired) | SaaS |
-| `repository_should_be_created` | Find eligible projects and create records in :pending state<br>• record does does not exist && `duo_features_enabled` && feature flag enabled for project &&<br>• [SaaS only] `enabled_namespace` exists<br>• [SM only] instance has license | All |
-| `repository_should_be_deleted` | Find eligible repository records and set state to :pending_deletion and :metadata.reason_to_delete<br>• `duo_features_enabled` is false OR project_id is nil OR state is :failed OR license not valid OR<br> • [SaaS] enabled_namespace.namespace is nil<br>  • [SM] instance does not have valid license | All |
-| `index_repository` | Look for project in :pending state; enqueue `RepositoryIndexWorker`; set state to :code_indexing_in_progress | All |
-| `repository_is_ready` | Find eligible repository records; check if the queue contains the same `last_initial_queued_item` and `last_initial_queued_item_score` and if it does not, set state to :ready and :indexed_at | All |
-| `delete_repository` | Loop through repositories in :pending_deletion state and enqueue `RepositoryDeleteWorker` | All |
+##### `saas_initial_indexing`
+- **Scope**: Only runs on gitlab.com
+- **Eligibility Criteria**:
+  - Namespaces with an active, non-trial Duo Core, Duo Pro, or Duo Enterprise license
+  - Namespaces with unexpired paid hosted GitLab subscription
+  - Namespaces without existing `EnabledNamespace` records
+  - Namespaces with `duo_features_enabled` AND `experiment_features_enabled`
+- **Action**: Creates `EnabledNamespace` records for eligible namespaces in `:pending` state
+
+##### `process_pending_enabled_namespace`
+- Finds the first `EnabledNamespace` record in `:pending` state
+- Creates `Repository` records in `:pending` state for projects that:
+  - Belong to the `EnabledNamespace`'s namespace
+  - Have `duo_features_enabled`
+  - Don't have existing `Repository` records
+- Marks the `EnabledNamespace` record as `:ready` if all records were successfully created
+
+##### `index_repository`
+- Enqueues `RepositoryIndexWorker` jobs for 50 pending Repository records at a time
+- **`RepositoryIndexWorker` process**:
+  1. Executes `IndexingService` for repository to handle initial indexing
+  2. Sets state to `:code_indexing_in_progress`
+  3. Calls `elasticsearch-indexer` in chunk mode to:
+     - Find files from Gitaly
+     - Chunk files
+     - Index chunks
+     - Return successful IDs
+  4. Sets `last_commit` to the `to_sha` that was indexed
+  5. Sets state to `:embedding_indexing_in_progress`
+  6. Enqueues embedding references for successfully indexed documents
+  7. Sets `initial_indexing_last_queued_item` to the highest ID of the documents indexed
+  8. Sets `indexed_at` to current time
+  9. If failures occur during this process, marks the repository as `:failed` and sets `last_error`
+
+##### Embedding Generation
+- ActiveContext framework processes enqueued references in batches asynchronously
+- Generates and sets embeddings on indexed documents
+
+##### `mark_repository_as_ready`
+- Finds `Repository` records in `:embedding_indexing_in_progress` state
+- Checks if the `initial_indexing_last_queued_item` record has all currently indexing embedding model fields populated in the vector store
+- Marks the repository as `:ready` when embeddings are complete
+
+#### Example flow for a namespace with one project
+
+```mermaid
+flowchart TD
+    %% Main process nodes
+    start([Start]) --> findNamespace[Find eligible namespaces]
+    findNamespace --> createEN[Create EnabledNamespace<br>for CompanyX<br>State: :pending]
+    createEN --> findProjects[Find eligible projects<br>in CompanyX namespace]
+
+    %% Repository creation
+    findProjects --> createRepo[Create Repository record<br>for Project1<br>State: :pending]
+    createRepo --> markENReady[Update EnabledNamespace<br>State: :ready]
+
+    %% Repository processing
+    markENReady --> project1Repo[Repository: Project1<br>State: :pending]
+    project1Repo --> project1Queue[Enqueue RepositoryIndexWorker]
+    project1Queue --> project1Index[Update Repository State:<br>:code_indexing_in_progress]
+    project1Index --> project1CodeIndex[Index code chunks<br>via elasticsearch-indexer]
+    project1CodeIndex --> project1Commit[Set last_commit to indexed SHA]
+    project1Commit --> project1EmbedQueue[Update Repository State:<br>:embedding_indexing_in_progress]
+    project1EmbedQueue --> project1LastItem[Set initial_indexing_last_queued_item<br>to highest document ID]
+    project1LastItem --> project1Timestamp[Set indexed_at timestamp]
+    project1Timestamp --> project1Embeds[Process embeddings<br>asynchronously]
+    project1Embeds --> project1Check{Embeddings<br>complete?}
+    project1Check -->|Yes| project1Ready[Update Repository State:<br>:ready]
+    project1Check -->|No| project1Embeds
+
+    %% Completion
+    project1Ready --> complete([Indexing Complete])
+
+    %% Task Labels - using different style
+    saas_task>"saas_initial_indexing"] -.- findNamespace
+    saas_task -.- createEN
+
+    process_task>"process_pending_enabled_namespace"] -.- findProjects
+    process_task -.- createRepo
+    process_task -.- markENReady
+
+    index_task>"index_repository"] -.- project1Repo
+    index_task -.- project1Queue
+    index_task -.- project1Index
+    index_task -.- project1CodeIndex
+    index_task -.- project1Commit
+    index_task -.- project1EmbedQueue
+    index_task -.- project1LastItem
+    index_task -.- project1Timestamp
+
+    elastic_task>"elasticsearch-indexer"] -.- project1CodeIndex
+
+    embed_task>"ActiveContext framework"] -.- project1Embeds
+
+    ready_task>"mark_repository_as_ready"] -.- project1Check
+    ready_task -.- project1Ready
+```
 
 #### Implementation Notes
 
-- All operations are scoped to the currently active connection
-- For tracking completion of initial indexing, the system stores the highest queued item and periodically checks if it exists in the queue with the same score
 - The system follows a state machine pattern for tracking repository state.
+- All tasks process in batches to reduce long queries and memory load
+- `RepositoryIndexWorker` implements a lock mechanism longer than the indexer timeout to ensure one-at-a-time processing
+- The entire system is tied to the currently `active` connection (only one active connection at a time is permitted)
+- If a failure occurs during indexing, the repository is marked as `:failed` and the error is recorded in `last_error`
 
 ## Alternative Solutions
 
