@@ -302,8 +302,8 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
       ```shell
       gdk data-reset
       ```
-* **Error: Webpack Module Parse Failed**
 
+* **Error: Webpack Module Parse Failed**
   * Error message:
   
     ```plaintext
