@@ -114,7 +114,7 @@ The Executive Business Partner alignment can be found [here](/handbook/eba/)
 
 AMAs are generally coordinated, scheduled, and planned by the [Executive Business Administrator](/handbook/eba/) team when an E-Group member is the host. Anytime that an AMA is to be hosted by an executive, VP, or Director at GitLab, it should be arranged and scheduled by that functions EBA. AMAs of Board Members are scheduled by the Staff EBA to the CEO.
 
-Other non-Executive AMAs are scheduled by the [People Operations](/handbook/people-group/#people-connect-responsibilities--response-timeline) team. These AMAs are typically a result of a change that impacts the company as a whole and may often be hosted by multiple leadership members in the company. Whenever there is an open slot in the Group Conversation calendar, the People Operations Team will reach out to the EBA team to create an AMA.
+Other non-Executive AMAs are scheduled by the People Group - Engagement Team. These AMAs are typically a result of a change that impacts the company as a whole and may often be hosted by multiple leadership members in the company. Whenever there is an open slot in the Group Conversation calendar, the People Group - Engagement Team will reach out to the EBA team to create an AMA.
 
 When scheduling an AMA, be mindful of timezones.  Generally it is best to have two AMAs, one for the Americas/EMEA time zone, and one for the APAC time zones.
 
@@ -130,7 +130,7 @@ AMA meetings always start with an [agenda](https://docs.google.com/document/d/1-
 
 Whenever possible AMAs should be private or publicly [live streamed](/handbook/marketing/marketing-operations/youtube/#public-or-private-streaming). Please strive to remain [public by default](/handbook/values/#public-by-default) when hosting an AMA unless it is centered around a topic that is [not-public](/handbook/values/#not-public)
 
-The DIB Team and the EBAs will ensure that each Reverse AMA has the correct team members invited, the DIB team will ask People Connect to run this [Report](https://docs.google.com/spreadsheets/d/1Ai8Trh0FOr5O7CJfhdTDsPM517NCEwzkiJcytLETOHk/edit#gid=1182431189) monthly (this is private please request if you need access with your reasoning) to ensure we keep attendees up to date.
+The DIB Team and the EBAs will ensure that each Reverse AMA has the correct team members invited, the DIB team will ask People Operations to run this [Report](https://docs.google.com/spreadsheets/d/1Ai8Trh0FOr5O7CJfhdTDsPM517NCEwzkiJcytLETOHk/edit#gid=1182431189) monthly (this is private please request if you need access with your reasoning) to ensure we keep attendees up to date.
 
 ### Process Once Reverse AMA is Setup
 

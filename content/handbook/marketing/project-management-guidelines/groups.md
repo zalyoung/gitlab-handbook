@@ -2,7 +2,7 @@
 title: "Marketing Groups and Projects guidelines"
 ---
 
-{{< include "includes/wip-notice.md" >}}
+{{< include "includes/marketing/wip-notice.md" >}}
 
 ## Background
 

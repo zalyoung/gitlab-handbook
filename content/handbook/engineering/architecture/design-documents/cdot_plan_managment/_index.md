@@ -90,8 +90,7 @@ erDiagram
     jsonb custom_fields "Local storage for all *__c fields"
     %% Fields stored within custom_fields JSONB:
     boolean c_dot_accessible__c "→ in custom_fields"
-    boolean c_dot_manageable__c "→ in custom_fields"
-    boolean c_dot_purchasable__c "→ in custom_fields"
+    array c_dot_actions__c "→ in custom_fields"
     enum c_dot_plan_status__c "→ in custom_fields"
     boolean c_dot_is_true_up__c "→ in custom_fields"
     boolean c_dot_is_us_pub_sec__c "→ in custom_fields"
@@ -111,8 +110,7 @@ erDiagram
 | Field Name | Level | New Field? | Data Type | Values | Description |
 |------------|-------|------------|-----------|--------|-------------|
 | **CDotAccessible__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether a plan is accessible within CustomersDot. Plans marked `true` are displayed to users and their details can be viewed, regardless of purchase origin. Plans marked `false` exist in Zuora but are completely invisible in CustomersDot. |
-| **CDotManageable__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether management actions (renewals, modifications) are available for this plan in CustomersDot. These plans can be serviced through CustomersDot even if they weren't purchased there. |
-| **CDotPurchasable__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether a plan is available for self-service purchase directly through CustomersDot without sales assistance. Plans marked `true` appear in the web store and can be purchased online. |
+| **CDotActions__c** | `ProductRatePlan` | Yes | Multiselect | `initial_purchase`, `additional_purchase`, `renew` | Specifies the actions available for this plan within CustomersDot. Multiple actions can be selected:<br>• `initial_purchase`: Plan can be purchased self-service through the Customers Portal without sales assistance.<br>• `additional_purchase`: Additional quantity of this plan can be purchased self-service through the Customers Portal.<br>• `renew`: Subscription with this plan can be renewed self-service through the Customers Portal<br>• No option selected is a valid state and results in these actions not being available in the Customers Portal. |
 | **CDotPlanStatus__c** | `ProductRatePlan` | Yes | String | `active`, `deprecated`, `legacy`, `not_applicable` | Represents the lifecycle stage of a plan: <br>• `active`: Currently salable and fully supported / available plans<br>• `deprecated`: Plans being phased out but still available to existing customers<br>• `legacy`: Historical plans maintained only for existing subscriptions<br>• `not_applicable`: Special cases where status concept doesn't apply |
 | **CDotIsTrueUp__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Identifies true-up plans, which are special product rate plans used to reconcile usage beyond what was initially purchased. |
 | **CDotIsUsPubSec__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Identifies plans specifically designed for US Public Sector customers. |
@@ -175,31 +173,38 @@ end
 We will iterate over the proposed custom fields picking one field / set of fields at a time and:
 
 1. Submit a Change Request to EntApps to add the necessary field(s) to Zuora.
-2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the new field(s) via a rake task in CustomersDot.
+2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the new field(s) and keeping them in sync during rollout.
 3. Confirm that the Product Catalog copy has synced correctly (either manually trigger the sync or wait for the scheduled daily sync).
 4. [Behind a feature flag] Replace any usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field.
 5. Validate both logic and performance in the staging environment.
 6. Deploy the change to production and enable it for all users.
 
-The following code example illustrates steps 4 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `cdot_purchasable__c` and `charge_deployment__c` fields.
+The following code example illustrates steps 4 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `cdot_actions__c` and `charge_deployment__c` fields.
 
 ```ruby
+# app/models/zuora/local/product_rate_plan_charge.rb
+custom_field :deployment, remote_name: :charge_deployment__c, type: :string
+
+scope :gitlab_com, -> { jsonb_contains(deployment: 'GitLab.com') }
+
 # app/models/zuora/local/product_rate_plan.rb
-scope :cdot_purchasable, -> { where("custom_fields->>'cdot_purchasable__c' = 'true'") }
-scope :gitlab_com, -> {
-  joins(:product_rate_plan_charges)
-    .where("product_rate_plan_charges.custom_fields->>'charge_deployment__c' = 'gitlab_dot_com'")
-    .distinct
-}
+custom_field :actions, remote_name: :c_dot_actions__c, type: :zuora_multiselect_selection
+
+scope :cdot_purchasable, -> { jsonb_contains(actions: 'initial_purchase') }
+scope :gitlab_com, lambda {
+        joins(:product_rate_plan_charges)
+        .merge(Zuora::Local::ProductRatePlanCharge.gitlab_com)
+        .distinct
+      }
 
 # lib/plan_classifier.rb
 module PlanClassifier
   def self.all_gitlab_com_plans
-    Zuora::Local::ProductRatePlan.gitlab_com.map(&:id)
+    Zuora::Local::ProductRatePlan.gitlab_com.pluck(:zuora_id)
   end
 
   def self.self_service_gitlab_com_plans
-    Zuora::Local::ProductRatePlan.cdot_purchasable.gitlab_com.map(&:id)
+    Zuora::Local::ProductRatePlan.cdot_purchasable.gitlab_com.pluck(:zuora_id)
   end
 end
 

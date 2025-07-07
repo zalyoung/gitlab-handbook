@@ -14,7 +14,7 @@ We have features and requests that are being addressed and considered as part of
 |Add Internal comments to articles. Currently dont have a way to add.    | Investigating   | [Issue 6883](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6883)              |
 |Markdown not working on copy/paste                                      | Investigating   | Investigating how to fix                                                                         |
 |Update Search Fitlers /streamline. Default to Knowledge articles.       | Investigating   | Add versions (can we use impacted versions?)                                                     |
-|Add Published articles to Slack. Provides notification of published     | Investigating   | [Issue 6885](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6885)              |
+|Add Published articles to Slack. Provides notification of published     | Change Requested| [6925](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6925)                    |
 |US Governmanet knowledge articles. Provide process for how to add       | In Process      | [6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)                    |
 |Article suggestions in articles (aligned with comments. Need process)   | Investigating   | [Issue 6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)              |
 |Article Review process for relevancy. Ensures articles are up to date.  | Investigating   | [6888](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6888)                    |
@@ -23,6 +23,8 @@ We have features and requests that are being addressed and considered as part of
 |Suggest articles BEFORE a customer submits a ticket based on keywords   | Investigating   | issue to be created.                                                                             |
 |Add Technical Reviwers to the Skills Page                               | In Progress     | [275](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/275)|
 |Add Knowledge Base training to the Support Training                     | Investigating   | TBD                                                                                              |
+|Draft article created automatically by a button/api -no touch by SE.    | Invesitgating   | [6926](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6926)                    |
+|Additional layout changes for second layer of knowledge articles.       | In Progresss    | [6936](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6936)                    |
 
 Note: For a more Detailed outline of these features read more about them [Feature and Status Phase 2](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g35224d618b1_0_0#slide=id.g35224d618b1_0_0) 
 

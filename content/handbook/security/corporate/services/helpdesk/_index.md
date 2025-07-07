@@ -24,7 +24,7 @@ We have 24x5 coverage provided by Helpdesk Support Analysts that can help you wi
 - [Infrastructure Management](/handbook/security/corporate/services/infrastructure)
   - [AWS](/handbook/security/corporate/systems/aws)
   - [GCP](/handbook/security/corporate/systems/google/cloud/)
-- [Laptops and Logistics](/handbook/security/corporate/services/laptops)
+- [Laptops and Logistics](/handbook/security/corporate/end-user-services/laptop-management)
 - [Tech Support for Team Members](/handbook/security/corporate/services/helpdesk/)
 
 **Please ask for assistance in the `#it_help` Slack channel.**

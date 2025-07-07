@@ -49,23 +49,29 @@ capability. This project directly supports GitLab's scaling initiatives and ente
 
 ## Overview
 
-Provide GitLab administrators with a way to:
+**In the Rails monolith:**
 
-- Introduce a new encryption key that will replace the previous one for encrypting data. The new key as well as all
-  previous keys are used for decryption.
-- Provide a deployment workflow for multi-node installations where the new encryption key is first introduced at the
+- Introduce an always-running background process (with automated throttling to avoid degrading database performance) to take
+  care of progressive re-encryption while GitLab stays online. The process would look up and re-encrypt any data
+  encrypted with a legacy encryption key.
+
+**For infrastructure operators (self-managed administrators, GitLab.com SREs, Dedicated SREs):**
+
+- Provide the ability to introduce a new encryption key that will replace the previous one for encrypting data.
+  The new key as well as all previous keys are used for decryption.
+- Introduces a deployment workflow for multi-node installations where the new encryption key is first introduced at the
   head of the keys array (so that it's first only used for decryption), then when the new key is deployed to all nodes,
   it would need to be moved to the tail of the keys array, so that it's used for encryption from now on.
-  This is important in the scenario where an administrator adds a new key to `config/secrets.yml`, and then kicks off a
+  This is important in the scenario where an infrastructure operator adds a new key to `config/secrets.yml`, and then kicks off a
   new deployment. During the deployment phase, some of the pods/VMs will not have the new key. It's critical that the
   new pods/VMs don't start re-encrypting using the new key until the deployment is completed.
   When the deployment completes successfully, all pods/VMs now have the new key and the administrator can move the key
   to be last in the keys array so that it becomes the current encryption key.
-- Introduce an always-running background process (with automated throttling to avoid degrading database performance) to take
-  care of progressive re-encryption while GitLab stays online. The process would look up and re-encrypt any data
-  encrypted with the non-current encryption key.
-- Monitor the progress for the re-encryption of data encrypted with legacy keys, and overall usage of each key.
-- Visualize keys and their usage in the admin UI.
+
+**For instance administrators (self-managed administrators, GitLab.com SREs, Dedicated customers):**
+
+- Provide a new Admin page to list keys, including their status and usage, as well as monitor the progress of the
+  re-encryption of data encrypted with legacy keys.
 
 ### Non-goals
 

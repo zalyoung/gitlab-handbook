@@ -37,7 +37,7 @@ input on test strategy, helping us focus testing efforts on critical user
 journeys and high-impact areas. We make strategic decisions about where to
 invest our testing efforts based on user impact and business needs.
 
-**Quality Gates**: Testing is embedded throughout our [product development workflow](../../product-development/product-development-flow/):
+**Quality Gates**: Testing is embedded throughout our [product development workflow](/handbook/product-development/how-we-work/product-development-flow/):
 
 - Pre-commit and pre-receive hooks for immediate feedback
 - [Merge request pipelines with mandatory code reviews](../../engineering/workflow/code-review/) that must pass before code integration
@@ -127,20 +127,46 @@ our established request process:
 
 ### Self-Service Resources
 
-**Documentation and Guides**:
+#### Documentation and Guides
 
+- [GitLab Testing Guide](https://docs.gitlab.com/development/testing_guide) - Guidelines for automated testing in the GitLab project
 - [Testing Levels, Tooling, and Strategy](https://docs.gitlab.com/development/testing_guide/testing_levels/) -
   Detailed technical implementation guide
-- [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/best_practices/) -
-  Coding standards and patterns
+- [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/best_practices/) - Everything you should know about how to write good tests in the GitLab project
 - [Code Review Guidelines](../../engineering/workflow/code-review/) - Mandatory review process for all merge requests
-- Internal testing guidelines and examples
+- [Product Engineer guide to E2E test failure issues](guide-to-e2e-test-failure-issues.md)
 
-**Community and Communication**:
+#### 📹 GitLab End-to-End Testing Overview (Video)
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/KbQzrVJMvNQ" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+**Duration:** ~30 minutes
+**Level:** Beginner to Intermediate
+
+This video covers:
+
+- 📁 [Directory structure and test organization](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=150)
+- 🕵️ [Finding and understanding existing tests](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=322)
+- 🤿 [Deep dive into E2E test architecture](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=399)
+- 📍 [Where E2E tests run in our infrastructure](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=978)
+- 🐛 [Debugging test failures from merge requests](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=1084)
+- 🚩 [Working with feature flags in tests](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=1406)
+- 🔧 [Troubleshooting common failure issues](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=1552)
+- 💻 [Running tests locally in your GDK](https://www.youtube.com/watch?v=KbQzrVJMvNQ&t=1721)
+
+- [Presentation Slides](https://docs.google.com/presentation/d/1eYLuTdSpI-H0ZalzoqH7Ee8cprjmL1FNoV0XwRPY4-4/edit?usp=sharing)
+
+#### Further Reading
+
+- [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) - A deep dive into the "Test Pyramid"
+
+#### Community and Communication
 
 - Testing-focused Slack channels for questions and discussions are namely #g_test_governance and the broader #s_developer_experience
 
-**Tooling and Automation**:
+#### Tooling and Automation
 
 - Test generators and templates for common scenarios
 - [Automated workflow tooling](../../engineering/infrastructure/engineering-productivity/workflow-automation/) for issue and MR triage

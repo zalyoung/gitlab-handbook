@@ -304,7 +304,6 @@ New Director will be provided with:
    - [GitLab Strategy](/handbook/company/strategy/)
    - [3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/)
    - [Company KPI's](/handbook/company/kpis/)
-   - [Quarterly OKRs](/handbook/company/okrs/)
    - [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
 
 1. Finance (CFO) - 80 minutes suggested

@@ -203,8 +203,27 @@ SA Managers should encourage and lead team member's proactively to discuss [indi
 
 As a manager it's extremely important to recognize the accomplishments of your team members. There are [studies](https://www.mindful.org/the-science-of-gratitude/) that show that providing gratitude not only improves the life and mindset of the receiver, but also the one giving the gratitude. As an all-remote company, it's very imporant that we communicate that gratitude in a timely manner.  One thing to keep in mind, however, is that not every team member wants to be recognized the same way.  When meeting with your team in One-on-One's ask them how they like to be recognized and keep that in mind for when and how you do it.
 
+##### SA Recognition Themes
+
+To help SA Leaders identify and consistently recognize exceptional work, consider these key themes when evaluating team member contributions:
+
+- **Demonstration of Exceptional Technical Excellence and Expertise** - Team members who showcase deep technical knowledge, create innovative solutions, or become subject matter experts in specific areas
+- **Value Selling through Discovery and CSPs** - Individuals who excel at customer discovery, create compelling Customer Success Plans, or demonstrate strong value-selling techniques
+- **Significant Revenue Impact** - Direct contributions to deal closures, competitive wins, large TCV deals, or strategic account growth
+- **Reusable Content Creation and Knowledge Sharing** - Development of documentation, workshops, architectural diagrams, or other materials that benefit the broader organization
+- **Cross-Functional Collaboration** - Effective partnership across teams (CS, PS, Product, Engineering) to solve complex problems or deliver comprehensive solutions
+- **Contributions to Team and Company Initiatives** - Active participation in organizational projects, process improvements, or strategic initiatives
+
+_Note: This list serves as a reminder of recognition opportunities and is not exhaustive or exclusive. Use it to reduce cognitive bias and ensure consistent appreciation across the SA organization._
+
+##### Recognition in Slack
+
 GitLab has a dedicated #thanks Slack channel where team members are encouraged to provide messages of gratitude for all manner of contributions.  As a rule, when recognizing one of your team members, please include the `@sa_leaders` Slack group so that every Solutions Architect leader is made aware and is able to comment on the accomplishment. Doing so provides greater visibiltiy into the work done and helps build the brand of the SA. Additional guidelines can be found [here](/handbook/communication/#say-thanks)
 
+##### Tracking Accomplishments
+
 It may be good practice as well to keep a running log of the accomplishments of your team members (e.g. screenshots from the #thanks channel, notes from AEs, ASMs, etc...). An easy way to do this is in a dedicated section of the individual One-on-One documents you keep for each of them or the SA can collect them in their Individual Growth Plan document. Having this information in a consolidated place with assist you greatly come review time or when that team member is ready for promotion.
+
+##### Discretionary Bonuses
 
 Recognition can also be realized in the form of [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses). This is an amazing incentive and benefit that GitLab provides for those team members that are going above and beyond. Once you as a manager receive the nomination in Slack via the Nominator app, make sure you approve or deny based on the [Approval Criteria](/handbook/total-rewards/incentives/#valid-and-invalid-criteria-for-discretionary-bonuses). You will also have an option to update the nomination text at this step. After you approved, there are two more approvals from the 2nd Level Manager and People Team. When your team member is approved for a bonus it is up to you to make the announcement in the #thanks Slack channel. Again, when doing so, please ensure you add the `@sa_leaders` Slack group as part of the message. As a regular part of your meetings with the ASMs you support, ensure that they and their teams know how to log a discretionary bonus should one be warranted.

@@ -15,11 +15,13 @@ In order to officially "graduate" from Sales Onboarding at GitLab and be awarded
   - 4 Free Response Questions
   - 3 Coffee Chats
   - 2 Surveys (Pre & Post Workshop)
-- The [Sales Quick Start Workshop](/handbook/sales/onboarding/) is a 19 hour time commitment consisting of 17 instructor led trainings including Command of the Message, our value based selling methodology, with 5 hands on group activities.
+- The [Sales Quick Start Workshop](/handbook/sales/onboarding/) is a 19 hour time commitment consisting of 18 instructor led trainings including Command of the Message, our value based selling methodology, with 5 hands on group activities.
   - Customer Focus: Command of the Message - Value Selling Methodology - (6 hours)
-  - Solution Focus: Intro to GitLab Product & Personas - (50 minutes)
+  - Customer Focus: Intro to Business Value Platform - ROI Calculator - (50 minutes)
+  - Solution Focus: Intro to GitLab Pitch & Market Overview - (50 minutes)
   - Solution Focus: Intro to the Competition - (50 minutes)
   - Operational Excellence: MEDDPPICC - (1 hour 30 minutes)
+  - Operational Excellence: Intro to Data Driven Account Planning - (50 minutes)
   - Operational Excellence: Intro to GitLab's Partner Ecosystem - (50 minutes)
   - Operational Excellence: Intro to GitLab Legal - (30 minutes)
   - Operational Excellence: Intro to Deal Desk - (30 minutes)

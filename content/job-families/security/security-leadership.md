@@ -19,7 +19,7 @@ Leaders in the security department at GitLab are customer focused. While they ar
 
 ## Responsibilities
 
-- Drive quarterly Objectives and Key Results (OKRs)
+- Drive quarterly Security and Company priorities 
 - Own a Sub-department of the GitLab Security Department
 - Drive technical and process improvements
 - Recruits, manage, motivate and develop high performing teams
@@ -86,7 +86,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ### Director, Security
 
-This position reports to the [CISO](/job-families/legal-and-corporate-affairs/chief-legal-officer/)
+This position reports to a [Senior Director](/job-families/security/security-leadership/#senior-director-security) or a [Security Divsion VP](/job-families/security/security-leadership/#vice-president-vp-security)
 
 #### Director, Security Job Grade
 
@@ -192,7 +192,7 @@ controls, and common security flaws that apply to Ruby on Rails applications
 
 ### Senior Director, Security
 
-This position reports to the [CISO](/job-families/legal-and-corporate-affairs/chief-legal-officer/)
+This position reports to a [Security Divsion VP](/job-families/security/security-leadership/#vice-president-vp-security) or the [CISO](/job-families/chief-information-security-officer/chief-information-security-officer/)
 
 #### Senior Director, Security Job Grade
 
@@ -300,7 +300,7 @@ The Corporate Security & IT Operations function leads a team of highly-collabora
 
 ### Vice President (VP), Security
 
-This position reports to the [CISO](/job-families/legal-and-corporate-affairs/chief-legal-officer/)
+This position reports to the [CISO](/job-families/chief-information-security-officer/chief-information-security-officer/)
 
 #### VP of Security Job Grade
 

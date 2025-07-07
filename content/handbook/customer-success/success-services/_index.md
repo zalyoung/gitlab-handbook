@@ -23,6 +23,37 @@ The [Customer Success Architect (CSA)](/job-families/sales/customer-success-arch
 
 Education Services included with Success Tiers encompasses 1 day of Instructor-led Training as well as a significant number of Training Certification Exam vouchers.   This enables us to partner the running of specific accelerators, aligned to training and certification, to ensure your team is ready and able to drive the cost benefits that GitLab brings.
 
+### Success Tiers Resources and Support
+
+#### 1. Success Tiers Qualification Framework
+
+We've created a [comprehensive framework](https://gitlab.highspot.com/items/68138e0af1e7d5daacbfcfae#1) to help sales teams effectively position and sell Success Tiers. This framework provides:
+
+- Clear qualification criteria for each tier
+- Value propositions tailored to customer needs
+- Structured objection handling responses
+- Customer success stories by segment
+
+#### 2. Regional Champion Support
+
+Regional Champions are available to provide expert guidance on positioning Success Tiers.
+
+##### How to request support
+
+1. Navigate to the [#success-tiers](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) Slack channel
+2. Click on **Workflows** at the top of the channel
+3. Select **Success Tier - Request for Help**
+4. Specify if you need:
+    - Live call support
+    - Positioning guidance
+    - Quick brainstorming session
+
+##### Regional contacts
+
+- **EMEA**: {{< member-by-gitlab "jesswang_gitlab" >}}, {{< member-by-gitlab "pmeresanu" >}}, {{< member-by-gitlab "pzapf" >}}, {{< member-by-gitlab "KBilsborough" >}}, {{< member-by-gitlab "jaycooney" >}}, {{< member-by-gitlab "mkuswaya" >}}, {{< member-by-gitlab "amycwalker" >}}, {{< member-by-gitlab "kgoossens" >}}
+- **AMER**: {{< member-by-gitlab "sophie" >}}
+- **APJ**: {{< member-by-gitlab "Jianchengwudavid" >}}
+
 ### Success Tier Customer Onboarding
 
 ```mermaid
@@ -39,7 +70,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 1. Introduction Email
    1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
-   2. Utilize the appropriate welcome email template - 
+   2. Utilize the appropriate welcome email template -
       1. [Signature | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720d040d7ec85356346f#2)
       2. [Advanced | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720f040d7ee3c8b160a1?lfrm=srp.2)
       3. [Essentials | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe7212040d7ea6e1af7af0?lfrm=srp.6)
@@ -50,22 +81,22 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 1. Internal Kick-off Call
    1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.
    2. The purpose of this call is to discuss the customer objectives between the account team and the CSM/A, which should identified prior to the Order Form being signed.
-      * Account Context & Technical Documentation Template
+      - Account Context & Technical Documentation Template
          1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members.
          2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
-            * Tip: you can organize a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
+            - Tip: you can organize a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
          3. This template should help you structure and play back your understanding of the account to your SA/CS team, creating a foundation for discovery workshops and collaboration projects by capturing key business drivers, technical requirements, and stakeholder priorities in a standardized format that can be easily validated and expanded upon.
 
 2. Customer Kick-off Call
    1. This will be scheduled within the first week of the agreement, subject to customer availability.
    2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations through email.
-   3. Utilize the appropriate kick-off deck & customize as needed (internal). 
+   3. Utilize the appropriate kick-off deck & customize as needed (internal).
       1. [Signature | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe720b1d0a83d481b69449#1)
-         * [Demo](https://gitlab.highspot.com/items/680f8ee83cc2d050572efa00)
+         - [Demo](https://gitlab.highspot.com/items/680f8ee83cc2d050572efa00)
       2. [Advanced | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7209be150cb32b8b47f2?lfrm=srp.9)
-         * [Demo](https://gitlab.highspot.com/items/680b978897caecb740bc6504)
+         - [Demo](https://gitlab.highspot.com/items/680b978897caecb740bc6504)
       3. [Essentials | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7205040d7eb57aaf784c?lfrm=srp.8)
-         * [Demo](https://gitlab.highspot.com/items/6812783bf1e7d50ea1f7888a)
+         - [Demo](https://gitlab.highspot.com/items/6812783bf1e7d50ea1f7888a)
    4. Share the `.pdf` version post-call as well as immediate next steps, such as a sudiscovery workshop.
 
 3. Discovery Workshop
@@ -127,11 +158,11 @@ Consistently recording key Success Tier activities in Gainsight is essential to 
 
 Accurate activity tracking in Gainsight enables:
 
-* Complete visibility into customer engagement history
-* Accurate reporting on Success Tier delivery metrics
-* Better collaboration across teams working with the same customer
-* Data-driven insights to improve our Success Tier offerings
-* Continuity of service during team member transitions
+- Complete visibility into customer engagement history
+- Accurate reporting on Success Tier delivery metrics
+- Better collaboration across teams working with the same customer
+- Data-driven insights to improve our Success Tier offerings
+- Continuity of service during team member transitions
 
 By following these guidelines, we maintain a reliable system of record that supports both operational efficiency and strategic decision-making.
 
@@ -139,12 +170,12 @@ By following these guidelines, we maintain a reliable system of record that supp
 
 To record any activity in Gainsight, start by navigating to the customer's account taking you to their C360. Then, depending on the context of the activity:
 
-* **For activities related to a Call to Action (CTA)**:
+- **For activities related to a Call to Action (CTA)**:
    1. Click the Cockpit tab within the account
    2. Select the specific CTA to which the activity applies
    3. Add the activity from the Timeline tab on the actual CTA to ensure proper association
 
-* **For activities related to a Success Plan**:
+- **For activities related to a Success Plan**:
    1. Click the Success Plan tab in the account navigation
    2. Select the relevant Success Plan
    3. Click on the Cockpit tab
@@ -152,7 +183,7 @@ To record any activity in Gainsight, start by navigating to the customer's accou
    5. On the top-right side, click on the Timeline tab
    6. Click Add Activity to relate the entry to the Success Plan
 
-* **For general activities** (not related to a CTA or Success Plan):
+- **For general activities** (not related to a CTA or Success Plan):
    1. Click the Create button in the top right corner from anywhere in the account
 
 ##### Specific Activity Types
@@ -169,7 +200,7 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 
 1. Navigate to the correct area in Gainsight as described in the general section above.
 2. Once the Activity Timeline Entry form is open, select **CSA Engagement** from the Activity Type dropdown list.
-   * Note: Any activity logged under this type will be considered an Accelerator.
+   - Note: Any activity logged under this type will be considered an Accelerator.
 3. Fill out the remaining fields with all relevant information.
 4. Click **Log Activity** when finished.
 
@@ -178,9 +209,9 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 1. Navigate to the correct area in Gainsight as described in the general section above.
 2. Once the Activity Timeline Entry form is open, select **Workshop** from the Activity Type dropdown list.
 3. Fill out the remaining fields with all relevant information.
-   * **Important**: While not required fields, it's highly recommended to log:
-      * External Attendees
-      * Workshop topic
+   - **Important**: While not required fields, it's highly recommended to log:
+      - External Attendees
+      - Workshop topic
 4. Click **Log Activity** when finished.
 
 ###### Executive Business Review (EBR)
@@ -189,6 +220,6 @@ To record any activity in Gainsight, start by navigating to the customer's accou
 2. Once the Activity Timeline Entry form is open, select either **Customer Call** or **In-Person Meeting** from the Activity Type dropdown list.
 3. Select **Executive Business Review** from the Meeting Type dropdown list.
 4. Fill out the remaining fields with all relevant information.
-   * **Important**: Complete as many fields as possible, as this information is critical for reporting purposes.
+   - **Important**: Complete as many fields as possible, as this information is critical for reporting purposes.
 
 Click **Log Activity** when finished.

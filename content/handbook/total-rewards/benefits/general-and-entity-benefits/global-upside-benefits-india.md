@@ -32,6 +32,8 @@ Global Upside has a provident fund that the members pay to the government. This 
 
 Salary Ceiling: EPF: Mandatory contribution remains up to a monthly salary ceiling of INR15,000
 
+Global Upside will provide you with a declaration form on which you will indicate your desired Employees Provident Fund (EPF) contribution i.e. against assumed compensation or actual compensation. It should be noted that Global Upside is not able to request or process a **reduction** in EPF contribution once your selection has been made.
+
 ### Life Insurance
 
 Most companies in India do not offer life insurance as part of the benefits package. Global Upside, similarly, does not offer a life insurance plan to GitLab team members. Most workers in India will typically get their own life insurance which can be portable throughout their lifetime.

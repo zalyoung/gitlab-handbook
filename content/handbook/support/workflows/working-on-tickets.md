@@ -67,7 +67,7 @@ Employ the following workflows for:
 
 ## Managing Zendesk attachments
 
-When working with Zendesk tickets, you may need to download attachments to your laptop. While [our laptops have full disk encryption](../../security/corporate/services/laptops/security/encryption/), we need to be careful with downloaded attachments as they can contain [RED data (customer data)](../../security/standards/data-classification-standard.md#red)):
+When working with Zendesk tickets, you may need to download attachments to your laptop. While [our laptops have full disk encryption](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption), we need to be careful with downloaded attachments as they can contain [RED data (customer data)](../../security/standards/data-classification-standard.md#red)):
 
 1. Keep downloads in a dedicated folder for easier management, for example with [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 1. Automate the deletion of downloaded attachments as soon as possible after resolving the ticket

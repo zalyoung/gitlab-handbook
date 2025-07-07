@@ -65,11 +65,11 @@ Prioritization is a collaboration between Product, UX, Engineering, and Quality.
 
 ### Workflow
 
-- We use the [Product Development workflow](/handbook/product-development/product-development-flow/) when working on issues and
+- We use the [Product Development workflow](/handbook/product-development/how-we-work/product-development-flow/) when working on issues and
 merge requests across multiple projects.
 
 - We use a shared [Kanban workflow board](https://gitlab.com/groups/gitlab-org/-/boards/4152639) for both groups - Acquisition and Activation
-for work in the [build phase](/handbook/product-development/product-development-flow/#build-track) of the product development flow.
+for work in the [build phase](/handbook/product-development/how-we-work/product-development-flow/#build-track) of the product development flow.
 
 - We use [refinement threads](https://gitlab.com/gitlab-org/gitlab/-/issues/383859#note_1231645373) on issues to discuss our approach and estimate weight of upcoming work.
 

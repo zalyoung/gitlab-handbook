@@ -12,9 +12,10 @@ This flowchart can be used to guide you on what process you need. The ends of th
 
 ```mermaid
 graph TD
-    A[Bug Fix] -->|Raise MR| C{Is my MR is targeting the current version?}
+    A[Bug Fix] -->|Raise MR| C{Is my MR is targeting a maintained stable branch?}
     C -->|No| E[Backport Exception Request]
     C -->|Yes| F[Patch Release]
+    click C "https://docs.gitlab.com/policy/maintenance/#maintained-versions"
     click E "/handbook/engineering/releases/backports/#what-if-my-backport-is-not-covered-by-the-maintenance-policy"
     click F "/handbook/engineering/releases/#patch-releases-overview"
 
@@ -46,7 +47,7 @@ Backporting can be a very involved process requiring many cycles of back and for
 
 ### How do I know if my backport is covered by the maintenance policy?
 
-You can check the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) to see what is covered
+You can check the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) to see which GitLab versions are covered.
 
 ### What if my backport is not covered by the maintenance policy?
 
@@ -62,7 +63,7 @@ You can request a backport by:
     1. Estimated severity of the bug
     1. Estimated priority of the bug
     1. Potentially incurring data loss and/or security breach.
-    1. Potentially affecting one or more strategic accounts due to a proven inability by the user to upgrade to the current stable version.
+    1. Potentially affecting one or more strategic accounts due to a proven inability by the user to upgrade to a [maintained version](https://docs.gitlab.com/policy/maintenance/#maintained-versions).
     1. Impact to other planned release tasks
 1. Wait for confirmation and approval from the RMs
 1. Communicate to your stakeholders if/when the release is available on our [releases blog](https://about.gitlab.com/releases/categories/releases/)

@@ -186,7 +186,7 @@ Other general exceptions: (i.e. exempted from on-call duty)
   - There are countries with laws governing hours that can be worked.
   - This would not be an issue in the U.S.
   - At this point we would only be looking into countries where 1) we have legal entities, as those team members are employees or 2) countries where team members are hired as employees through one of our PEO providers. For everyone else, team members are contracted as independent contractors so general employment law would not apply.
-- Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/engineering/on-call/#engineering-incident-manager).
+- Team members participating in another on-call rotation. 
 
 The eligibility is maintained in this [Development Team BE spreadsheet](#development-team-be-spreadsheet) and part of the spreadsheet is refreshed automatically by our [automation script](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
 

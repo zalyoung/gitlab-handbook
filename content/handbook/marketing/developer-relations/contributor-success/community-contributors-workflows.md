@@ -24,7 +24,7 @@ See guidance on [seeking wider community contributions](/handbook/marketing/deve
 
 ### Community issues workflow manual process
 
-See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
+See the [partial issue triage checklist](/handbook/product-development/how-we-work/issue-triage/#partial-triage-checklist).
 
 ## Merge Requests
 

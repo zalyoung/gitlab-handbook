@@ -5,7 +5,7 @@ description: "These are the expected competencies of a Senior Fullstack Engineer
 
 ## Senior Fullstack Engineer, Contributor Success
 
-{{% include "includes/cs_career_matrix_nav.md" %}}
+{{% include "includes/marketing/cs_career_matrix_nav.md" %}}
 
 **Senior Fullstack Engineers, Contributor Success at GitLab are expected to exhibit the following competencies:**
 
@@ -17,11 +17,11 @@ description: "These are the expected competencies of a Senior Fullstack Engineer
 
 ### Leadership Competencies
 
-{{% include "includes/engineering_senior_leadership_competency.md" %}}
+{{% include "includes/engineering-careers/engineering_senior_leadership_competency.md" %}}
 
 ### Technical Competencies
 
-{{% include "includes/engineering_senior_technical_competency.md" %}}
+{{% include "includes/engineering-careers/engineering_senior_technical_competency.md" %}}
 
 #### Contributor Success
 

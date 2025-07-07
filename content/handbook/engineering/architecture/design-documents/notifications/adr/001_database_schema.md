@@ -40,7 +40,7 @@ CREATE TABLE notifications (
 ) PARTITION BY HASH (user_id);
 ```
 
-This table should be partitioned using [hash-based strategy](https://docs.gitlab.com/development/database/partitioning/). We should use 32 partitions (which would give us enough headway to accommodate future growth of this table). `User_id` column should be used as partition key, since lookup by `user_id` is the most used usecase we should optimize for. 
+This table should be partitioned using [hash-based strategy](https://docs.gitlab.com/development/database/partitioning/). We should use 32 partitions (which would give us enough headway to accommodate future growth of this table). `User_id` column should be used as partition key, since lookup by `user_id` is the most used usecase we should optimize for.
 
 #### 2. Resource Link Tables (one per resource)
 
@@ -88,8 +88,8 @@ CREATE TABLE commit_notifications (
 )
 ```
 
-`Namespace_id` column should be that same as in the referenced `notifications` table, to be used as a sharding key. 
-`Issue_notifications` table will serve all work_items types, including epics and OKRs. We will use `work_item_type` field in `issues` table to differentiate between types. 
+`Namespace_id` column should be that same as in the referenced `notifications` table, to be used as a sharding key.
+`Issue_notifications` table will serve all work_items types, including epics and OKRs. We will use `work_item_type` field in `issues` table to differentiate between types.
 
 Example queries with plans are listed in [this snippet](https://gitlab.com/-/snippets/4840572).
 
@@ -136,7 +136,7 @@ class Notification < ApplicationRecord
 end
 ```
 
-### ⚙️ Notification Creation Service
+### Notification Creation Service
 
 Encapsulates logic for resource-safe creation:
 
@@ -231,3 +231,18 @@ ORDER BY created_at DESC;
 
 - Joining multiple tables at once
 - Need for the careful queries structure to avoid inefficient queries
+
+### Exploring this design
+
+Whilst not connected to this domain (notifications), this architectural design proposition was explored by
+[the Workflow Catalog group](/handbook/engineering/ai/workflow-catalog/)
+in [merge request 194032](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/194032).
+
+Rather than the [notification creation service](#notification-creation-service) proposed above,
+we explored using [a concern](https://gitlab.com/gitlab-org/gitlab/-/blob/98fab27d5b3d0f354c1ea93a86c18d0f37347b90/ee/app/models/concerns/ai/catalog/itemable.rb) to include:
+
+- `accepts_nested_attributes_for` - enables nested attribute handling
+- `after_initialize` callback - creates the generic model automatically
+- `delegate` and `assign_attributes` - handles reading and writing generic attributes
+
+We would encourage evaluating this approach when implementing the new notifications architecture.

@@ -3,7 +3,7 @@ title: "GitLab Channel Program Guide"
 description: "GitLab Channel partner program guide."
 ---
 
-**We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
+**We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/partner/registration).**
 
 ## GitLab Channel Partner Program & Guide
 
