@@ -750,7 +750,7 @@ engineering managers.
 
 There are helper labels to signals these plans like `~next::1-3 releases` and its variants.
 
-##### Special milestones
+###### Special milestones
 
 In addition, we have two special milestones: `Backlog` and `Awaiting further demand`.
 Product Managers assign these issues to milestones that they have reviewed and
