@@ -189,6 +189,7 @@ The existing roles system addresses permission granularity through up to 40+ spe
 - Need for better audit capabilities for compliance purposes
 - Lack of tools for managing large-scale migrations or reorganizations
 - Insufficient bulk operation capabilities for administrative efficiency
+- Inability to assign user groups directly to specific resources (environments, branches) without first assigning them at the project level, forcing customers to use less explicit workarounds like role names that don't scale across thousands of projects
 
 **Data Recovery and Deletion Concerns**
 
