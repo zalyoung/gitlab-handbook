@@ -3,6 +3,8 @@ title: "Decap CMS"
 description: "Editing and creating content using Decap"
 ---
 
+## Blog (about.gitlab.com/blog/)
+
 ### Where can I find blog posts?
 
 Blog posts can be found in two different locations:
@@ -125,3 +127,54 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 1. Wait for the pipeline to run to view your review app
 
 For a video walkthrough, click [here](https://youtu.be/dN1XZjZmJP0). 
+
+## Events
+
+### Adding an event to the events landing page
+
+To add an event to [about.gitlab.com/events/](https://about.gitlab.com/events/), you can use Decap, or the Web IDE:
+
+#### Decap CMS
+
+1. Log into Decap CMS by going to [about.gitlab.com/admin/](https://about.gitlab.com/admin/) and logging in with your GitLab credentials.
+1. Along the left sidebar, select `Events -> Landing Page Card`, and click the `New Event Landing Page Card` button at the top of the screen.
+1. Fill out the following fields:
+   - Name - Name of event
+   - Type - The type of event (i.e. Conference, Webcast)
+   - Description - A brief description of the event. Can use markdown.
+   - Start Date - Use the date picker to select the date of the event. This field is required
+   - End Date - (optional) If the event spans multiple days, select the end date. Can leave this field blank.
+   - Location - Add city and state of event. If virtual, type in `Virtual`.
+   - Region - Select the appropriate region for event
+   - Industry - (optional) Select an industry, if relevant.
+   - Event URL - Add registration URL
+1. Once you are happy with the content, click `Save` at the top of the screen. 
+1. This will automatically create a Merge Request with your changes, which you can use to view the Review App and make any changes. 
+   - To find your merge request, check [this list of open merge requests](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/merge_requests) for the MR titled `Create Event - {{ Your Event Name }}`
+1. Review, approve, and merge your MR to see it live on the website. 
+
+Video Tutorial [available here](https://youtu.be/j3z-smLIZbE)
+
+#### Web IDE
+
+1. Open the Web IDE for [about.gitlab.com](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com)
+1. Create a new `.yml` file in [/content/shared/en-us/events/landing/cards](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content/shared/en-us/events/landing/cards?ref_type=heads) and title it the name event (with no spaces). 
+   - Ex: `connect-sydney-2025.yml`
+1. Fill in the following fields, maintaining the same format for the date: 
+
+    ```plaintext
+
+    name: 
+    type: 
+    description: |
+    Suports markdown, ex: Get together with the GitLab community to contribute, learn and win **exciting prizes**.
+    startDate: YYYY-MM-DD
+    endDate: YYYY-MM-DD (optional)
+    location: 
+    region: 
+    industry: 
+    eventURL: 
+
+    ```
+
+1. Create an MR, review, and merge your changes

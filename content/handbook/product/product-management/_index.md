@@ -318,7 +318,7 @@ In general, you should:
 - proactively reach out for input when contemplating new features
 - involve PMM as early as possible with work on important changes
 
-{{% include "includes/usecase-competitive-content.md" %}}
+{{% include "includes/marketing/usecase-competitive-content.md" %}}
 
 ### Working with marketing
 
@@ -360,13 +360,13 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 
 ### Working with User Experience (UX)
 
-The standard for working as a team at GitLab is the [Product Development Workflow](/handbook/product-development/product-development-flow/). Product Managers and Product Designers should work together as strategic counterparts to better understand the problem and discover user needs. The Product Designer and the Product Manager will pair to understand the target audience, their challenges when using a particular feature and then designing a solution that helps users solve them.
+The standard for working as a team at GitLab is the [Product Development Workflow](/handbook/product-development/how-we-work/product-development-flow/). Product Managers and Product Designers should work together as strategic counterparts to better understand the problem and discover user needs. The Product Designer and the Product Manager will pair to understand the target audience, their challenges when using a particular feature and then designing a solution that helps users solve them.
 
 It's important to remember that User Experience (UX) does not only relate to visual features or interface design. UX is the intangible design of a strategy that brings us to a solution, so it also refers to the experience of writing code, working with .yml files, designing APIs, working with a CLI, etc. All of those functionalities are meant to be read and used by people. Involving a Product Designer into their planning and development can be highly beneficial. A guide to consider is: anytime a person is interacting with something, there is an opportunity for that interaction to be designed.
 
 #### Assessing user workflows
 
-As the GitLab product matures, we know we must make important workflows easier to use through feedback-loop mechanisms as is captured in the "Improve" section of the [Product Development Flow](/handbook/product-development/product-development-flow/#outcomes-and-activities-7). We can use the [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/) and [UX scorecards](/handbook/product/ux/ux-scorecards/) as mechanisms to provide insights into how might be able to improve these user workflows.
+As the GitLab product matures, we know we must make important workflows easier to use through feedback-loop mechanisms as is captured in the "Improve" section of the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#outcomes-and-activities-7). We can use the [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/) and [UX scorecards](/handbook/product/ux/ux-scorecards/) as mechanisms to provide insights into how might be able to improve these user workflows.
 
 #### What if there is a conflict with the product direction plan and solution proposal?
 

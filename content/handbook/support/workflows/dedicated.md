@@ -186,13 +186,7 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 
 #### Application Logs Request
 
-1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/monitor/#request-access-to-application-logs). In this case, it's an **IAM principal**.
-
-   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
-
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker.
-1. Provide the IAM principal to the Environment Automation team.
-1. Provide the name of the S3 bucket to the customer.
+See [Granting customers access to application logs](/handbook/support/workflows/dedicated_logs/#granting-customers-access-to-application-logs)
 
 ### Filing issues
 
@@ -236,15 +230,3 @@ You are now done raising the incident!
 If the nature of the emergency reaches the point where we only need to provide async status updates
 to the customer, consider engaging the [GitLab Dedicated Communications Manager on Call](/handbook/support/workflows/dedicated_cmoc)
 to take over.
-
-### Troubleshooting tips
-
-#### Tagging logs while running tests
-
-Customers can add a custom identifier, such as the ticket ID, to the `user-agent` field when testing. This makes it easier to filter logs related to the test.
-
-For example:
-
-```bash
-curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/sign_in"
-```

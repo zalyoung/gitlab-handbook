@@ -149,7 +149,7 @@ Please refer to https://handbook.gitlab.com/handbook/engineering/on-call/#pagerd
 
 ### Agile workflow in Gitaly
 
-We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) to schedule and track our work.
+We generally follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) to schedule and track our work.
 
 Work is executed in small chunks (2-3 days of work), each tracked as an issue. This allows for natural "checkpoints" for safe context switching.
 Triaging and scheduling is separate from executing the current work. All incoming work is tracked and we are intentional about picking up new work.

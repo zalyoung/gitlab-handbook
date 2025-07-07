@@ -6,7 +6,7 @@ description: "Project Management information and process to follow for Engineeri
 [Product](/handbook/product/) is responsible for guiding the direction of our
 product, and [technical leaders](../#how-engineering-management-works-at-gitlab)
 are responsible for guiding the technical architecture to meet those
-requirements. Engineering Managers [should participate in both of those conversations](/handbook/product-development/product-development-flow/#build-phase-1-plan).
+requirements. Engineering Managers [should participate in both of those conversations](/handbook/product-development/how-we-work/product-development-flow/#build-phase-1-plan).
 In concert with those conversations,  Engineering Managers primary responsibility lies in project management:
 making sure their team is best positioned to meet both goals as effectively and
 efficiently as possible.

@@ -94,7 +94,7 @@ We also work on corrective actions and security issues labeled as `~"corrective 
 For these issues, `severity::*` labels are set to meet specific SLOs.
 
 - For security issue see the [Time to resolve table by severity](/handbook/security/#severity-and-priority-labels-on-security-issues)
-- Corrective Actions SLOs are currently based on definitions from [Quality](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos):
+- Corrective Actions SLOs are currently based on definitions from [Quality](/handbook/product-development/how-we-work/issue-triage/#severity-slos):
 
 ## Labels
 

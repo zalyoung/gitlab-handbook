@@ -43,9 +43,9 @@ If a speaker can't share on their assigned date, it's their responsibility to ma
 - After you identify a trade, make an MR to update the schedule.
 - Ask your Product Design Manager to review and merge.
 
-{{% include "includes/ux-forum-schedule.md" %}}
+{{% include "includes/product/ux-forum-schedule.md" %}}
 
-<a href="https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-forum-schedule.md" class="btn btn-primary">Update schedule</a>
+<a href="https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/product/ux-forum-schedule.md" class="btn btn-primary">Update schedule</a>
 
 ## Sharing your work
 
@@ -152,4 +152,4 @@ Otherwise:
 
 ### Updating the schedule
 
-After the sessions are over, update the [UX Forum schedule](https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-forum-schedule.md).
+After the sessions are over, update the [UX Forum schedule](https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/product/ux-forum-schedule.md).

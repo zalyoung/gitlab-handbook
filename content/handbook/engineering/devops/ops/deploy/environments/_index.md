@@ -45,21 +45,7 @@ Some dedicated Slack channels:
 
 ## Insights
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="environments" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="environments" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="environments" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="environments" >}}
-{{< /tableau >}}
+See [internal handbook page](https://internal.gitlab.com/handbook/engineering/core-development/cd/deploy/environments)
 
 ## Processes
 
@@ -268,7 +254,7 @@ While diligently pursuing our objectives, we also recognize the significance of 
 In every milestone plan, we compile a list of bugs due in the coming milestone based on the severity SLA.
 
 When severity labels are assigned/changed on a `~type::bug` issue, we aim to set/adjust the issue due date at the same time.
-everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/product-development/how-we-work/issue-triage/#severity-slos).
 
 ##### Best practices for managing bug issues
 
@@ -320,7 +306,7 @@ Best practices for managing multi-part bug issues:
 The entire bug resolution process includes the following phases in order:
 
 1. GitLab Issue triage procedure: we have a handbook section we can follow
-   [here](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+   [here](/handbook/product-development/how-we-work/issue-triage/#priority)
 
 2. Environment's team [refinement process](#issue-refinement)
 
@@ -337,11 +323,11 @@ The entire bug resolution process includes the following phases in order:
   This takes place on the milestone planning issue.
 - Reprioritazation will have a dedicated section in the milestone planning
   issue.
-- Outdated bugs are closed in accordance with [the existing handbook practice](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#outdated-issues)
+- Outdated bugs are closed in accordance with [the existing handbook practice](/handbook/product-development/how-we-work/issue-triage/#outdated-issues)
 
 ###### Best practices
 
-- Read the issue triage [handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- Read the issue triage [handbook page](/handbook/product-development/how-we-work/issue-triage/)
 - Ask the reporter for detailed steps to reproduce the problem, including minimal setup and expected versus actual outputs.
 - Request relevant documentation to validate the unexpected behavior, or an explanation if no documentation exists.
 - If the reporter is a GitLab team member, inquire if there are any insights on the impact of the issue, such as the number of users affected or specific features involved, to help prioritize the resolution.
@@ -402,7 +388,7 @@ following milestone planning. For example, for Deferred UX issues opened in the 
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
-into the appropriate step of our [product development flow](/handbook/product-development/product-development-flow/), or closed if appropriate.
+into the appropriate step of our [product development flow](/handbook/product-development/how-we-work/product-development-flow/), or closed if appropriate.
 
 This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
@@ -412,7 +398,7 @@ keeping with the overall goals of the group and adherence to broader
 
 The Environments group uses epics to describe features or capabilities that will increase the maturity of the Environments categories over time.
 
-Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development/product-development-flow/#validation-phase-3-design)/[solution validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) phases and [build](/handbook/product-development/product-development-flow/#build-track) track of the [Product Development Flow](/handbook/product-development/product-development-flow/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
+Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design)/[solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) phases and [build](/handbook/product-development/how-we-work/product-development-flow/#build-track) track of the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
 
 **For the duration of building the epic**, the engineer does not need to be the only person implementing the issues. They should keep watch of the work that is done on the issues so that they can verify that the work is progressing correctly. If there are problems with the work, or lengthy delays,
 they need to make sure the Product Manager and Engineering Manager are aware.

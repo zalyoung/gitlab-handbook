@@ -28,8 +28,9 @@ The following members of other functional teams are our stable counterparts:
 
 | **Name**                                                 | **Role** |
 | -------------------------------------------------------- | -------- |
-| [Sampath Ranasinghe](/handbook/company/team#sranasinghe) | [Senior Product Manager, Geo and Database](/job-families/product/product-manager) |
-| [Ben Prescott](/handbook/company/team#ben-prescott) | [Staff Support Engineer](/job-families/engineering/support-engineer/) |
+| [Mark Wood](/handbook/company/team#mjwood) | [Group Product Manager, Data Access](/job-families/product/product-manager) |
+| [Mark Nagle](/handbook/company/team#mnagle2) | [Support Engineer](/job-families/engineering/support-engineer/) |
+| [Chris Nightengale](/handbook/company/team#cnightingale) | [Support Engineer](/job-families/engineering/support-engineer/) |
 
 ### Stable Counterparts to other teams
 
@@ -174,7 +175,7 @@ milestone.
 
 [Database: Build · Boards · GitLab.org · GitLab](https://gitlab.com/groups/gitlab-org/-/boards/1324138) The build board
 gives you an overview of the current state of work for `group::database`. These
-issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development/product-development-flow/#build-track). Issues are added
+issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development/how-we-work/product-development-flow/#build-track). Issues are added
 to this board by adding the current active milestone and `group::database`
 labels. Issues in the `workflow::ready for development` column are ordered in
 priority order (top down). Team members use this column to select the next item

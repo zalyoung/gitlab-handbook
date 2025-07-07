@@ -45,7 +45,6 @@
 
 ^[office-of-the-ceo]
 /content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
-/content/handbook/ceo/office-of-the-ceo/readmes/cynthia-ng.md @cynthia
 /content/handbook/ceo/office-of-the-ceo/readmes/streas.md @streas
 /content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
@@ -135,10 +134,10 @@
 /content/handbook/engineering/development/fulfillment/utilization/ @kkolpakova @courtmeddaugh
 /content/handbook/engineering/development/growth/ @kniechajewicz
 /content/handbook/engineering/devops/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
-/content/handbook/engineering/devops/ops/deploy/ @nmezzopera
+/content/handbook/engineering/devops/ops/deploy/ @cheryl.li
 /content/handbook/engineering/devops/ops/package/ @crystalpoole
-/content/handbook/engineering/devops/ops/verify/ @cheryl.li @nicolewilliams @nmezzopera
-/content/handbook/engineering/devops/ops/verify/pipeline-authoring/ @nmezzopera
+/content/handbook/engineering/devops/ops/verify/ @cheryl.li @nicolewilliams
+/content/handbook/engineering/devops/ops/verify/pipeline-authoring/ @cheryl.li
 /content/handbook/engineering/devops/ops/verify/pipeline-execution/ @cheryl.li
 /content/handbook/engineering/devops/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/devops/ops/verify/ci-platform/ @cheryl.li @drew
@@ -192,7 +191,7 @@
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
 /content/handbook/engineering/infrastructure/ @marin @sabrinafarmer
-/content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
+/content/handbook/engineering/infrastructure-platforms/capacity-planning.md @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ @marin @denisra @plu8
 /content/handbook/engineering/infrastructure-platforms/emergency-change-processes.md @marin @sabrinafarmer
@@ -464,10 +463,13 @@
 
 ^[product-dev-flow]
 /content/handbook/product-development/ @david @sabrinafarmer
-/content/handbook/product-development/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @mflouton @fzimmer
+/content/handbook/product-development/how-we-work/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @mflouton @fzimmer
 
 ^[Product Design]
 /content/handbook/product/ux/product-design/design-studios.md @pedroms
+
+^[Product READMEs]
+/content/handbook/product/readmes/cynthia.md @cynthia
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
@@ -621,7 +623,7 @@
 /content/handbook/total-rewards/compensation/ @rallen3  @mwilkins
 
 ^[tools-and-tips]
-/content/handbook/tools-and-tips/ai/ @dnsmichi @panand3 @russchgl @rogerwoo @smanzuik @dfrhodes
+/content/handbook/tools-and-tips/ai/ @dnsmichi @panand3 @russchgl @smanzuik @dfrhodes @david
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup

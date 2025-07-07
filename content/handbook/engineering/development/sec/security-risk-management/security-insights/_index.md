@@ -45,7 +45,7 @@ We use our  Security Insights Priorities page for [17.x](https://about.gitlab.co
 
 ### Product Workflow
 
-The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development/product-development-flow/).
+The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 Additional information can be found on the [Planning page](/handbook/engineering/development/sec/security-risk-management/srm-planning/).
 
@@ -202,7 +202,7 @@ Ensure the following before running tests:
   export GITLAB_SIMULATE_SAAS=0
   ```
 
-* Ensure EE License is set as an environment variable.
+* Ensure EE License is set as an environment variable in your .env file.
 
 #### Running QA Tests
 
@@ -302,6 +302,25 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
       ```shell
       gdk data-reset
       ```
+
+* **Error: Webpack Module Parse Failed**
+  * Error message:
+  
+    ```plaintext
+    /.../.../.../gdk/gitlab/node_modules/graphql-ws/dist/client.js 75:56
+    Module parse failed: Unexpected token (75:56)
+    You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See
+    https://webpack.js.org/concepts#loaders
+    |         },
+    |         emit(message2) {
+    >           if ("id" in message2) listeners2[message2.id]?.(message2);
+    |         }
+    |     };
+    ```
+
+  * Solution:
+    * Switch from Webpack to Vite
+    * Run `gdk update`
 
 ### Running E2E specs in the MR pipeline
 

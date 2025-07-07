@@ -29,9 +29,8 @@ Journey map elevation levels connect and inform each other, with micro-level ins
 - Scope:
   - Focus on high-level phases, major milestones, and business outcomes
   - Show cross-service and cross-channel experiences
-  - Include long-term emotional arc and loyalty drivers
   - Identify ecosystem-wide improvement opportunities
-- Artifacts: TBD
+- Artifacts: [Figma template](https://www.figma.com/board/CAw05ogtEWiRrhW48Uqt22/Journey-Mapping-Templates?node-id=1-156)
 
 ### Mid level
 
@@ -42,7 +41,7 @@ Journey map elevation levels connect and inform each other, with micro-level ins
   - Include detailed pain points and emotional journey
   - Show specific touchpoints and channels
   - Identify tactical improvement opportunities
-- Artifacts: TBD
+- Artifacts: [Figma template](https://www.figma.com/board/CAw05ogtEWiRrhW48Uqt22/Journey-Mapping-Templates?node-id=1-104)
 
 ### Micro level
 
@@ -53,7 +52,7 @@ Journey map elevation levels connect and inform each other, with micro-level ins
   - Include detailed interface elements and user actions
   - Show moment-by-moment emotions and friction points
   - Identify specific UI/UX improvements and metrics
-- Artifacts: TBD
+- Artifacts: [Figma template](https://www.figma.com/board/CAw05ogtEWiRrhW48Uqt22/Journey-Mapping-Templates?node-id=0-1)
 
 ## Best practices
 

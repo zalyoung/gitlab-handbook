@@ -49,7 +49,6 @@ Clayton Shank<br>
 Erik Lentz<br>
 Jacob Waters<br>
 Justin Bisutti<br>
-Mohammed Al Kobaisy<br>
 Peter Hansen<br>
 Steve Ladgrove<br>
 Steve Sagan<br>
@@ -98,7 +97,6 @@ Role Entitlements<br>
 <td>
 Erik Lentz<br>
 Jacob Waters<br>
-Mohammed Al Kobaisy<br>
 Steve Ladgrove<br>
 </tr>
 <tr>
@@ -122,7 +120,6 @@ Tech Debt Cleanup<br>
 <code>Staff</code> Jeff Martin
 </td>
 <td>
-Mohammed Al Kobaisy<br>
 Vlad Stoianovici<br>
 </tr>
 <tr>

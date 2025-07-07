@@ -25,6 +25,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 
 | | |
 |---|---|
+|Austin Bollinger|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
 |Bala Allam|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 |Chathura Kuruwita|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 |Ellis Coulson|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
@@ -33,6 +34,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 |Jason Hawkins|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 |Laurens Van Dijk|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 |Leslie Anzures|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
+|Natalie Laundergan|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
 |Neil McDonald|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 |Sean Gillespie|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 |Valentine Mairet|[Staff Security Engineer](/job-families/security/security-incident-response-team/#staff-security-incident-response-team-engineer)|
