@@ -13,7 +13,7 @@ Please visit our [Tech Stack main page](/handbook/business-technology/tech-stack
 
 ### Request Access
 
-If you need to request access for any of the following tools, please refer to and follow the [Access Request process](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/).
+If you need to request access for any of the following tools, please refer to and follow the [Access Request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 ## Tech Stack Applications
 

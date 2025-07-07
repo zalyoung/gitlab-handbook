@@ -87,7 +87,7 @@ The parent google group of the CRO org is sales-all. Several child groups fall w
 | sales-dev-apj | team | Members of the APJ Sales Dev teams |
 | sales-dev-emea | team | Members of the EMEA Sales Dev teams |
 
-Most team members will be automatically added to their team's applicable Google group within a few days of starting at GitLab by their [team's EBA](/handbook/eba/). To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+Most team members will be automatically added to their team's applicable Google group within a few days of starting at GitLab by their [team's EBA](/handbook/eba/). To gain access to new Google Groups, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/access-requests/)
 
 ## Slack Channels and Groups
 
@@ -97,7 +97,7 @@ The primary Slack channels for the Field are:
 1. #field-managers: Official channel for all managers+ in the Field org.
 1. #sales: The general channel for WW Sales open to posts from all team members.
 
-All Field team members should [star](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections) 🌟 and follow these three channels for important updates about the business. There are multiple team channels in the Field organization, outlined below. Please follow the channels relevant to your role. To gain access to private channels, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+All Field team members should [star](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections) 🌟 and follow these three channels for important updates about the business. There are multiple team channels in the Field organization, outlined below. Please follow the channels relevant to your role. To gain access to private channels, please [fill out an access request (AR) form.](/handbook/security/corporate/end-user-services/access-requests/)
 
 ### Slack Groups
 
