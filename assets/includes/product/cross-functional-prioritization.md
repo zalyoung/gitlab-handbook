@@ -42,19 +42,34 @@ If one of these labels clearly doesn't apply for an issue, consider using the `t
 
 A team's ratio might change over time and different teams may have different ratios. Factors that influence what ratio is appropriate for a given team include the [product category maturity](/handbook/product/categories/), the area of the product they are working in, and the evolving needs of GitLab the business. Teams should review labeling for accuracy and minimize the number of `type::undefined` items. This allows us to review the plans at the group, section, and company level with team members to ensure we appropriately prioritize based on cross-functional perspectives.
 
-For more details on these three work types, please see the section on [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).  The development EM is the DRI to ensure that the merge requests are accurately labeled.
+For more details on these three work types, please see the section on [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification). The development EM is the DRI to ensure that the merge requests are accurately labeled.
 
 #### Prioritization and DRI by Component
 
 Our backlog should be prioritized on an ongoing basis. Prioritization will be done via quad planning (collaboration between product, development, quality, UX) with PM as the DRI for the milestone plan. PMs, EMs, Quality, and UX will provide the following:
 
-1. Product Manager provides prioritized `type::feature` issues
-1. Engineering Manager in development provides prioritized `type::maintenance` issues
-1. [Test Platform Managers](/handbook/engineering/infrastructure/test-platform/#milestone-planning) provide prioritized `type::bug` issues using the [bug prioritization dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard)
+1. Product Manager (PM) provides prioritized `type::feature` issues
+1. Engineering Manager (EM) in development provides prioritized `type::maintenance` issues, including [reducing technical debt](/handbook/engineering/workflow/#technical-debt)
+1. Quality Engineering Manager (QEM) provide prioritized `type::bug` issues using the [bug prioritization dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard)
 
 *Note: UX-related work items would be prioritized in accordance with the appropriate sub-types. UX related bugs are included in the automated process (S1/2 and so on), UX-related maintenance items will be included in the EM's prioritized list, Product (feature) UX items will have been included as part of our normal [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).*
 
 The DRIs of these three core areas will work collaboratively to ensure the overall prioritization of the backlog is in alignment with [section direction](https://about.gitlab.com/direction/#devops-stages) or any other necessary product and business needs. If a team is not assigned a Product Designer then there is no UX counterpart needed for prioritization purposes. PMs will prioritize the final plan for a given milestone.
+
+#### Features and future plans
+
+Future plans for what features we will implement must be triaged into one of two buckets: "Foundational" or "Visionary" (see definitions below). In addition, features must be planned for implementation within the next (rolling) 12-month period.
+
+Two types of future plans:
+
+1. _Foundational_ features are new capabilities or improvements to existing capabilities (such as SCM, CI, AST, Duo, etc.) that are within our [key investments in the current fiscal year](https://about.gitlab.com/direction/#fiscal-year-product-investment-themes).
+1. _Visionary_ features are completely new capabilities that expand GitLab’s Total Addressable Market (TAM) (for example, Observability, Service Desk, etc.).
+
+{{< note >}}
+Only Foundational features can be tagged for community contributions. Visionary features cannot be tagged for community contributions without approval from both the Product and Engineering functional leaders of the respective part of our platform.
+{{< /note >}}
+
+If we do not have plans to implement the feature within the next 12 months, the issue must be closed with a justification included. If the feature exists in the backlog without a plan to implement in the next 12 months, a justification must be included on why it is remaining open past the 12-month policy.
 
 #### Milestone planning and prioritization
 

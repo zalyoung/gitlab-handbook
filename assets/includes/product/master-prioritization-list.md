@@ -2,8 +2,8 @@
 | ------ | ------ | ------ |
 | 1* | <a href="/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues">Security</a> | `bug::vulnerability` |
 | 2* | Data Loss | `data loss` |
-| 3* | Resilience, Reliability, <a href="/handbook/engineering/performance/index.html#availability">Availability</a>, <a href="/handbook/engineering/workflow/#infradev">and Performance</a>| `availability`, `infradev`, `Corrective Action`, `bug::performance` |
-| 4 | OKR's| |
+| 3* | Resilience, Reliability, <a href="/handbook/engineering/performance/#availability">Availability</a>, <a href="/handbook/engineering/workflow/#infradev">and Performance</a>| `availability`, `infradev`, `Corrective Action`, `bug::performance` |
+| 4 | [Interlocked roadmap items](/handbook/product-development/how-we-work/r-and-d-interlock/) and [Invesment themes](https://about.gitlab.com/direction/#fiscal-year-product-investment-themes) | `Interlock committed`, `Investment theme::` |
 | 5 | Usability | `Usability benchmark`, `SUS::Impacting`, `Deferred UX` |
 | 6 | Instrumentation | `instrumentation` |
 | 7 | xMAU / ARR Drivers | `direction` |
