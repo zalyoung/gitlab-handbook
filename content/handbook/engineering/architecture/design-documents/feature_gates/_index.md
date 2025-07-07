@@ -71,14 +71,40 @@ errors.
 
 ## Proposal
 
+Feature Gates is a standalone system for feature flag and remote confirguation management, enabing various stakeholders across GitLab to contribute to the release lifecycle safely and efficiently.
 
 ## Capablities List
 
 ### Feature Gate Definition
+- The system offer the following gate types:
+  - **Boolean**: simply true or false.
+    - **Suitable for**: Kill switches, dis/enabling changes in UI or feature behavior, or operational workflow, etc.
+  - **Multivariate**: have more than two variations. Values can be String, Number, or JSON.
+    - **Suitable for**: A/B/n Testing, Attribute targeting or Incremental rollouts.
+- **Decision making considerations**
+  - Some factors to consider when deciding to use or skip feature gates:
+     - Blast radius of change
+     - Impacted user segments
+     - Complexity of change
+     - Test coverage of change (and Test stability)
+     - Performance of change
+     - Roll back cost for failures (Think twice)
+  - Depending on the use case at hand and what the teams are aiming to accomplish, they can decide which gate type(s) to use.
+  - While It's a team's decision whether to use gates when rolling out changes or not, it's highly recommended to design features against failures with consideration to the impact on the overall user journey(s) in mind and take measures such using feature gates for faster disaster recovery.
+  - Change Roll out decisions should be documented in the feature gates decision log.
+- Creating feature gates is easily done either in UI or via APIs.
+
+### Feature Development workflow
+
+#### SDK Implementation
+
+The system offers client SDKs which provide consistent interfaces across all supported languages
+(i.e. Ruby, Go, Python, and JavaScript). 
+Client SDKs handle gate evaluation, caching, and
 fallback behavior transparently, allowing developers to check gate status with
 simple boolean checks while the complex logic remains abstracted.
 
-### Backend Architecture
+#### Backend Architecture
 
 The Feature Gates backend provides:
 
