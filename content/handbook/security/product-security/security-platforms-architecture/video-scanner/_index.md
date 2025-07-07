@@ -23,11 +23,13 @@ GitLab has experienced multiple security incidents involving token leaks from vi
 
 ### When to Use It
 
-Starting from milestone 18.3, all GitLab team members are requested to upload videos to `GitLab Unfiltered` through Video Scanner.
+Starting from milestone 18.3, GitLab team members are encouraged to upload videos to YouTube via `GitLab Video Scanner`. This **voluntary adoption** phase enables feedback collection and tool enhancement. Future mandates are under consideration.
+
+Teams with existing automated video upload workflows can continue using them, but note that `GitLab Video Scanner` does not integrate with any other video upload automation. If you anticipate token leak risks in your upcoming zoom recordings, we encourage you to switch to uploading them via `GitLab Video Scanner`, though this isn't mandatory.
 
 ### How to Use it
 
-Instead of uploading a video directly to Youtube, please upload it through [the Video Scanner Uploader UI](https://frontend.video-scanner-live.sec.gitlab.net/) to kick off the scanning process.
+Instead of uploading a video directly to YouTube, please submit the video to [the Video Scanner Uploader UI](https://frontend.video-scanner-live.sec.gitlab.net/) to kick off the scanning process.
 
 ```plantuml
 @startuml
