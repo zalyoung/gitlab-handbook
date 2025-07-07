@@ -233,6 +233,7 @@ The system uses a `SchedulingService` called from a cron worker `Ai::ActiveConte
 #### Scheduling tasks
 
 ##### `saas_initial_indexing`
+
 - **Scope**: Only runs on gitlab.com
 - **Eligibility Criteria**:
   - Namespaces with an active, non-trial Duo Core, Duo Pro, or Duo Enterprise license
@@ -242,6 +243,7 @@ The system uses a `SchedulingService` called from a cron worker `Ai::ActiveConte
 - **Action**: Creates `EnabledNamespace` records for eligible namespaces in `:pending` state
 
 ##### `process_pending_enabled_namespace`
+
 - Finds the first `EnabledNamespace` record in `:pending` state
 - Creates `Repository` records in `:pending` state for projects that:
   - Belong to the `EnabledNamespace`'s namespace
@@ -250,6 +252,7 @@ The system uses a `SchedulingService` called from a cron worker `Ai::ActiveConte
 - Marks the `EnabledNamespace` record as `:ready` if all records were successfully created
 
 ##### `index_repository`
+
 - Enqueues `RepositoryIndexWorker` jobs for 50 pending Repository records at a time
 - **`RepositoryIndexWorker` process**:
   1. Executes `IndexingService` for repository to handle initial indexing
@@ -267,10 +270,12 @@ The system uses a `SchedulingService` called from a cron worker `Ai::ActiveConte
   9. If failures occur during this process, marks the repository as `:failed` and sets `last_error`
 
 ##### Embedding Generation
+
 - ActiveContext framework processes enqueued references in batches asynchronously
 - Generates and sets embeddings on indexed documents
 
 ##### `mark_repository_as_ready`
+
 - Finds `Repository` records in `:embedding_indexing_in_progress` state
 - Checks if the `initial_indexing_last_queued_item` record has all currently indexing embedding model fields populated in the vector store
 - Marks the repository as `:ready` when embeddings are complete
