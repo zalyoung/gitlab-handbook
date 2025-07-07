@@ -267,7 +267,6 @@ The existing roles system addresses permission granularity through up to 40+ spe
 
 - How should Teams spanning multiple groups within an Organization handle different group visibility levels (private/internal/public)?
 - Should Teams inherit the most restrictive visibility settings from their constituent Groups, or should Teams have independent visibility controls?
-- How do we handle Teams that need access to Groups with different compliance frameworks within the same Organization?
 
 ### Hierarchical vs Flat Team Structure Decision
 
