@@ -30,9 +30,9 @@ Product and Solution Marketing consists of several specialities including [core 
 
 We create positioning and messaging to fuel demand and adoption of GitLab's solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
 
-### Design
+### Creative
 
-[Design](/handbook/marketing/brand-and-product-marketing/design/) - Deliver creative designs and experiences that elevate our brand and fuel demand.
+[Design](/handbook/marketing/brand-and-product-marketing/design/) and [video](/handbook/marketing/brand-and-product-marketing/brand-video/) - Deliver creative content and experiences that elevate our brand and fuel demand.
 
 We develop our brand visual identity design to ensure it stays relevant in the market and reflects the benefits and quality of our product. We are the creative partners for GitLab marketing. We create, conceptualize, and design high quality brand experiences.
 
