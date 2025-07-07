@@ -101,7 +101,7 @@ Anyone can create a knowledge article regardless of being in ZenDesk or not (or 
 3. Use the Knowledge Slack Channel [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) to request the article to be created. Please tag {{< member-by-name "Kirsty Allen" >}} . OR you can Create an ISSUE and Assign to {{< member-by-name "Kirsty Allen" >}} 
 4. Your Article will be created in ZenDesk and assigned to a reviewer & then Published. You will be notified of Publication. 
 
-### Light Agents in ZenDesk: 
+**Light Agents in ZenDesk**
 If you are a Light Agent in ZenDesk and would like to **create knowledge articles** please do the following:
 - Fill out an [Access Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
 - Request Access to have your Light Agent Role elevated to "create knowledge"
@@ -110,7 +110,6 @@ If you are a Light Agent in ZenDesk and would like to **create knowledge article
 - Assign to your Manager for Approval.  **Manager Approval is Required!**
 
 **Integrating with Zendesk offers the following benefits**
-
 - Centralized Knowledge Base
 - Scalable and Customizable
 - Seamless Integration with Tickets
