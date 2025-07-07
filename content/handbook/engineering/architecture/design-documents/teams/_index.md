@@ -473,7 +473,7 @@ The existing custom roles system addresses permission granularity through 40+ sp
 - Design database schema optimized for permission resolution queries
 - Plan migration in phases with rollback capabilities and performance monitoring
 
-**Security risk:**
+### Security risks
 
 - Migration errors could inadvertently grant or remove access inappropriately
 - New inheritance patterns could create unexpected privilege escalation paths
