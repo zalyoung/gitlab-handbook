@@ -110,6 +110,7 @@ If you are a Light Agent in ZenDesk and would like to **create knowledge article
 - Assign to your Manager for Approval.  **Manager Approval is Required!**
 
 **Integrating with Zendesk offers the following benefits**
+
 - Centralized Knowledge Base
 - Scalable and Customizable
 - Seamless Integration with Tickets
