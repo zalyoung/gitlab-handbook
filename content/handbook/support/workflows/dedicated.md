@@ -57,7 +57,7 @@ To receive an invite, ask Armin, Brie, Daphne or Wei-Meng in [#support_gitlab-de
 When running a test on the GitLab Support Dedicated instance,
 
 - consider whether your test can be conducted in an instance deployed via the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox/)
-- communicate about it on the Slack channel [#support_gitlab-_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
+- communicate about it on the Slack channel [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
 - revert your changes when you are done
 
 As the test instance is shared within the GitLab Support team, post a message at the beginning of a test with an estimate duration if the test is likely to impact the performance of the instance.
