@@ -14,13 +14,13 @@ toc_hide: true
 
 ## Executive Summary
 
-Feature Gates is a unified framework for controlling feature releases across
+Feature Gates is a unified solution for controlling feature releases across
 all GitLab environments - GitLab.com, Dedicated, and self-managed instances.
-This framework replaces the current fragmented feature flag approach with a
-standardized system that provides better visibility, lifecycle management, and
+This solution replaces the current fragmented feature flag approach with a
+standardized system that provides better lifecycle management, monitoring and
 operational control.
 
-The framework introduces coarse-grained feature gates (one per product feature)
+The solution introduces coarse-grained feature gates (one per product feature)
 instead of fine-grained feature flags, with mandatory lifecycle management,
 automated workflows, and comprehensive monitoring. It addresses critical
 challenges including the lack of kill switches for stable features, complex
@@ -40,36 +40,34 @@ TBD
 The current feature flag system creates several critical issues:
 
 - **No kill switches for stable features**: Once features reach general
-  availability, we lose the ability to quickly disable them during incidents
+  availability, we lose the ability to quickly disable them during incidents.
 - **Complex cross-environment management**: Different configurations across
   gitlab.com, staging, and self-managed installations create confusion and
-errors
+errors.
 - **Technical debt accumulation**: Feature flags persist long after they should
-  be removed, creating a complex matrix of configurations
-- **Poor visibility**: Engineers, product managers, and SREs struggle to
-  understand feature states across environments
+  be removed, creating a complex matrix of configurations.
+- **Poor auditing**: Engineers, product managers, and SREs struggle to
+  keep track of feature flag states across environments.
 - **Manual processes**: Flag creation, rollout, and cleanup require significant
-  manual effort and coordination
+  manual effort and coordination.
 
 ### Objectives
 
 - **Complete separation** of gitlab.com and self-managed feature release
-  processes
+  processes.
 - **Gradual rollout strategies** for gitlab.com supporting both stability and
-  growth objectives
+  growth objectives.
 - **Faster incident resolution** through instant feature disabling without
-  rollbacks
+  rollbacks.
 - **Improved velocity** by isolating feature issues without affecting entire
-  deployments
+  deployments.
 - **Better resilience** to handle features that develop issues hours or days
-  after deployment
+  after deployment.
 
 ### Out of Scope
 
-- Migrating existing feature flags to the new system (they will be removed or
-  converted to settings)
-- Providing feature gates for external customer use (this is internal release
-  control only)
+- Migrating existing feature flags to the new system: these will be evaluated and either get cleaned up or converted to settings if needed be by owning groups.
+- Building feature gates for commercial use: this solution is scoped to GitLab internal development and release control only.
 
 ## Proposal
 
