@@ -459,9 +459,7 @@ The existing custom roles system addresses permission granularity through 40+ sp
 
 ## Risk Assessment and Mitigation
 
-### Technical Risks
-
-**Performance and scalability risk:**
+### Performance and scalability risks
 
 - Large-scale permission resolution could impact system performance
 - Complex inheritance calculations may create database bottlenecks
