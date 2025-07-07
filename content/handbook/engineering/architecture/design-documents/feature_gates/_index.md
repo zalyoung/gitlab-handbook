@@ -12,7 +12,7 @@ toc_hide: true
 
 {{< engineering/design-document-header >}}
 
-## Summary
+## Executive Summary
 
 Feature Gates is a unified framework for controlling feature releases across
 all GitLab environments - GitLab.com, Dedicated, and self-managed instances.
@@ -27,14 +27,15 @@ challenges including the lack of kill switches for stable features, complex
 rollouts across different environments, and the growing technical debt from
 over 700 feature flags in the codebase.
 
-## Motivation
+## Problem Statement
 
 GitLab's current feature flag implementation has served us well but faces
 significant challenges at scale. With over 700 feature flags in production and
 multiple deployment environments, we need a more structured approach to feature
 release control.
-
-### Problems with Current State
+### Status Quo
+TBD
+### Challenges
 
 The current feature flag system creates several critical issues:
 
@@ -50,7 +51,7 @@ errors
 - **Manual processes**: Flag creation, rollout, and cleanup require significant
   manual effort and coordination
 
-### Goals
+### Objectives
 
 - **Complete separation** of gitlab.com and self-managed feature release
   processes
@@ -63,7 +64,7 @@ errors
 - **Better resilience** to handle features that develop issues hours or days
   after deployment
 
-### Non-Goals
+### Out of Scope
 
 - Migrating existing feature flags to the new system (they will be removed or
   converted to settings)
@@ -72,31 +73,10 @@ errors
 
 ## Proposal
 
-### Core Architecture
 
-Feature Gates introduces a three-tier architecture:
-
-1. **Unified Backend Service**: A centralized service managing all feature gate
-   states across environments
-2. **Multi-Language SDKs**: Native SDKs for Ruby, JavaScript, and Go with
-   consistent APIs
-3. **Management Dashboard**: Comprehensive UI for viewing and controlling gates
-   across all environments
-
-### Key Components
-
-TBD
-
-### Implementation Flow
-
-## Design and implementation details
+## Capablities List
 
 ### Feature Gate Definition
-
-### SDK Implementation
-
-The unified SDK provides consistent interfaces across all supported languages
-(Ruby, JavaScript, and Go). The SDK handles gate evaluation, caching, and
 fallback behavior transparently, allowing developers to check gate status with
 simple boolean checks while the complex logic remains abstracted.
 
@@ -129,7 +109,7 @@ The Feature Gates backend provides:
 - Automated rollback suggestions based on error patterns
 - Slack notifications for gate state changes
 
-### Rollout Workflows
+### Release Management
 
 #### GitLab.com Rollout
 
@@ -151,7 +131,7 @@ The Feature Gates backend provides:
 2. Admins enable through feature preview panel
 3. Can be disabled without GitLab support
 
-### Lifecycle Automation
+### Lifecycle Management and Governonace
 
 #### Automated Gate Creation
 
@@ -159,20 +139,51 @@ The Feature Gates backend provides:
 - Pre-filled metadata from MR context
 - Automatic rollout issue creation
 
-#### Automated Monitoring
+#### Automated Cleanup
 
 - Track usage metrics from gate introduction
 - Alert on gates nearing maximum lifespan
 - Generate cleanup MRs automatically
 
-#### Automated Cleanup
+#### Auditing
+TBD
+
+### Observability and Monitoring
 
 - Remove gates after full rollout + stability period
 - Archive gate history for analysis
 - Update documentation automatically
+### System Architecture
+Feature Gates introduces a three-tier architecture:
 
-## Alternative Solutions
+1. **Unified Backend Service**: A centralized service managing all feature gate
+   states across environments.
+2. **Multi-Language SDKs**: Native SDKs for Ruby, Go, Python, and Javascript with
+   consistent APIs.
+3. **Management Dashboard**: Comprehensive UI for viewing and controlling feature gates
+   across all environments.
 
-### Alternative 1: Enhance Current Feature Flags
+#### High-Level Architectural Design
 
-### Alternative 2: Third-Party Feature Flag Service
+TBD mermaid chart
+
+
+#### Key Components
+
+TBD
+
+## Implementation Approach
+
+### Option 1: Enhance Current Feature Flags
+
+### Option 2: Third-Party Feature Flag Solution
+
+## Success Metrics
+
+
+## Conclusion
+
+With a robust architecture, well-defined governance and lifecycle management framework, and scalable infrastructure, the Feature Gates System is poised to support our business through 2026 and beyond. Ongoing updates and maintenance will ensure the system remains aligned with technological advancements and evolving business requirements.
+
+## References
+TBD
