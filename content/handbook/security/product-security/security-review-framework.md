@@ -382,6 +382,12 @@ Note: _Low risk level is not mentioned here since Product team is the DRI for th
 |SDX Verify|10 days|5 days|--|
 |Security checklist completion |--|--|5 days|
 
+Requests received at least 10 calendar days before the start of next milestone will be planned for X+2 milestone, where X is current milestone.
+
+Requests received later than 10 days before the next milestone starts will be planned for X+3 milestone, where X is current milestone.
+
+The SLO will start from the date on which the planned milestone starts.
+
 ### Infrastructure Security Review Process
 
 Note: _The list of reviews mentioned in this section are examples and not comprehensive nor do they always apply._ 
