@@ -197,7 +197,7 @@ There are five departments within the Engineering Division:
 
 - [DevOps Engineering Department](/handbook/engineering/devops/)
 - [AI Engineering Department](/handbook/engineering/ai/)
-- [Expansion Development Department](/handbook/engineering/expansion-development/)
+- [Sec Department](/handbook/engineering/development/sec/)
 - [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
