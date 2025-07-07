@@ -39,7 +39,7 @@ We have a Google group `browser-extensions@gitlab.com` where all members of this
 
 To request access to the Chrome Web Store publisher account, contact Anton Smith (`@anton` in Slack).
 
-Do note that an [access request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) is not required.
+Do note that an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) is not required.
 
 #### Managing Access
 

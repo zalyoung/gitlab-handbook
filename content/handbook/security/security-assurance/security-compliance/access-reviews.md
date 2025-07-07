@@ -170,7 +170,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
 - [Identification & Authentication Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Access Requests handbook page](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Requests handbook page](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
 
 <a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>

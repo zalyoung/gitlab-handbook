@@ -129,7 +129,7 @@ As a reminder, Red Data may not be transmitted from an approved Red data source 
 
 ### Use of file sharing services other than GitLab's Google Drive
 
-Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
+Creating an account or using for backup/redundancy purpose a file sharing service other than GitLab's Google Drive is prohibited. For sharing GitLab-related files with those external to GitLab, an exception must be granted. To obtain an exception create an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
 
 When creating an account with and using a file sharing service other that Google Drive, Team Members must:
 

@@ -111,11 +111,11 @@
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/* /handbook/engineering/development/sec/security-risk-management/security-policies/:splat 301
 
 # IT Team move to CorpSec - remove 2025-09-30
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/:splat 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/access-requests/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/access-requests/:splat 301
 /handbook/security/corporate/end-user-services/onboarding-access-requests/ /handbook/security/corporate/end-user-services/laptop-management/ 301
 /handbook/it/end-user-services/ /handbook/security/corporate/end-user-services/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/access-requests/frequently-asked-questions/
 /handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
 /handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/:splat 301
 /handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
