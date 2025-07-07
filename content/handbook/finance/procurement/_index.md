@@ -147,6 +147,8 @@ Depending on a few factors of your purchase, there are different ways to engage 
 
 If you're hiring a contingent worker, please read GitLab's [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/), which provides comprehensive guidelines on engaging with different types of contingent workers. The policy outlines three main categories: Staff Augmentation Workers (agency-provided temporary resources), Consultancy Services (third-party professional services), and Independent Contractors (used by exception only). You'll find detailed information about each worker type's characteristics, duration limits, country hiring guidelines, contractor extension processes, and background screening requirements. This policy is designed to help team members understand when and how to properly engage contingent workers while mitigating classification risks.
 
+Note: For subcontractors for the Professional Services team, please use the process for Revenue Partner Payments.
+
 ### Review Steps, Timeline, and Considerations
 
 Requests can take 5 days to 3+ weeks for processing depending on a number of factors that will impact the time for review of a Purchase Request including, but not limited to:
