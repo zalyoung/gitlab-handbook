@@ -34,7 +34,7 @@ While the upcoming Organizations feature will provide customer isolation and add
 
 This dual nature creates several critical problems identified through customer research and competitive analysis:
 
-**Permission management complexity**: Nearly every customer interview mentioned challenges with GitLab's permission model, particularly around inheritance creating unexpected access levels when users have different roles at different hierarchy levels. While GitLab's custom roles provide fine-grained permission control with over 40 specific permissions, complexity arises from how these permissions interact with the dual-purpose nature of groups and the resulting inheritance patterns.
+**Permission management complexity**: Nearly every customer interview mentioned challenges with GitLab's permission model, particularly around inheritance creating unexpected access levels when users have different roles at different hierarchy levels. While GitLab's roles provide fine-grained permission control with over 40 specific [custom permissions](https://docs.gitlab.com/user/custom_roles/abilities/), complexity arises from how these permissions interact with the dual-purpose nature of groups and the resulting inheritance patterns.
 
 **Inconsistent sharing behavior**: Group sharing exhibits different inheritance patterns depending on the target (group vs project). Sharing a group with another group only shares direct members, while sharing a group with a project includes both direct and inherited members. This inconsistency violates user mental models and creates security risks.
 
@@ -89,7 +89,7 @@ These evolved approaches demonstrate industry recognition that traditional acces
    - Make permission inheritance visible and auditable throughout the Organization
    - Provide "break inheritance" capabilities with clear impact warnings
    - Support both hierarchical organizational modeling and flat cross-functional collaboration
-   - Integrate seamlessly with GitLab's existing custom roles system to provide organizational context for fine-grained permissions
+   - Integrate seamlessly with GitLab's existing roles system to provide organizational context for fine-grained permissions
 
 3. **Address enterprise scale requirements within Organizations**
    - Support Organizations with 10,000+ users and thousands of projects
@@ -119,11 +119,11 @@ These evolved approaches demonstrate industry recognition that traditional acces
 
 ### Relationship to Existing Systems
 
-#### Integration with Custom Roles
+#### Integration with Roles
 
-The existing custom roles system addresses permission granularity through 40+ specific permissions. Teams will complement this:
+The existing roles system addresses permission granularity through up to 40+ specific permissions. Teams will complement this:
 
-- Custom Roles: Define what users can do (specific capabilities)
+- Roles: Define what users can do (specific capabilities)
 - Teams: Define which users should have access and how that access is organized within Organizations
 - Combined System: Enable modeling organizational structure while maintaining precise permission control
 
@@ -149,7 +149,7 @@ The existing custom roles system addresses permission granularity through 40+ sp
    - Focus remains on solving access management problems while preserving organizational hierarchy benefits
 
 2. **Replacement of existing permission systems**
-   - Teams architecture should complement, not replace, the existing custom roles and permissions system
+   - Teams architecture should complement, not replace, the existing roles and permissions system
    - Teams should provide organizational structure and inheritance patterns for applying existing permission models
 
 3. **Immediate disruption of existing workflows**
@@ -169,9 +169,9 @@ The existing custom roles system addresses permission granularity through 40+ sp
 **Permission Management and Inheritance Issues**
 
 - Inheritance creates unexpected access levels with complex role interactions across group hierarchies
-- Confusion around how permissions propagate through groups and subgroups, especially with custom roles
-- Difficulty visualizing who has access to what, especially in large organizations with multiple custom roles
-- Challenges with SAML/LDAP integration for mapping organizational groups to GitLab groups with appropriate custom roles
+- Confusion around how permissions propagate through groups and subgroups, especially with custom permissions
+- Difficulty visualizing who has access to what, especially in large organizations with multiple custom permissions
+- Challenges with SAML/LDAP integration for mapping organizational groups to GitLab groups with appropriate roles
 - Complex interactions between base roles, custom permissions, and inheritance patterns
 
 **Organizational Structure Limitations**
@@ -292,11 +292,11 @@ The existing custom roles system addresses permission granularity through 40+ sp
 
 ### Integration with Existing Systems
 
-**Custom roles and Teams interaction:**
+**Roles and Teams interaction:**
 
-- How should custom roles assigned to Teams interact with custom roles assigned directly to users?
-- Should Teams be able to have different custom roles in different contexts (Group A vs Project B)?
-- How do we handle conflicts when a user belongs to multiple Teams with different custom role assignments?
+- How should roles assigned to Teams interact with roles assigned directly to users?
+- Should Teams be able to have different roles in different contexts (Group A vs Project B)?
+- How do we handle conflicts when a user belongs to multiple Teams with different role assignments?
 
 **Group sharing and Teams:**
 
@@ -380,7 +380,7 @@ The existing custom roles system addresses permission granularity through 40+ sp
 - Reduce average time-to-grant-access from current baseline to <5 minutes
 - Decrease organizational structure and inheritance-related support issues by 50% from current baseline
 - Enable bulk operations for 100+ team-resource relationships simultaneously
-- Improve custom role assignment efficiency through organizational context
+- Improve role assignment efficiency through organizational context
 
 **Security and compliance:**
 
@@ -394,7 +394,7 @@ The existing custom roles system addresses permission granularity through 40+ sp
 - User research showing >80% of administrators can correctly predict organizational inheritance patterns
 - Developer survey indicating >70% satisfaction with access request experience
 - Support team reporting reduced complexity in organizational structure and inheritance-related escalations
-- Improved understanding of how custom roles apply through organizational context
+- Improved understanding of how roles apply through organizational context
 
 **Enterprise adoption:**
 
