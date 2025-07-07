@@ -485,9 +485,7 @@ The existing custom roles system addresses permission granularity through 40+ sp
 - Comprehensive audit logging before, during, and after migration
 - Security review of all inheritance patterns and edge cases
 
-### Business and Adoption Risks
-
-**Customer disruption risk:**
+### Customer disruption risks
 
 - Large enterprise customers may resist changes to access control patterns
 - Learning curve for administrators could temporarily reduce productivity
