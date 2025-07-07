@@ -198,11 +198,14 @@ customers, see [the ASE workflow](../enhanced-support-offerings/offering-assigne
 
 Be familiar with the responsibilities of being on-call for High Priority tickets for GitLab's [Success Signature](https://gitlab.zendesk.com/agent/search/1?copy&type=organization&q=sub_ss_enterprise%3Atrue) and [Success Advanced](https://gitlab.zendesk.com/agent/search/1?copy&type=organization&q=sub_ss_growth%3Atrue) customers. 
 
-Over the weekend, Shift engineers will focus on meeting First Response Times (FRT) for high-priority tickets for Signature and Advanced Customers.
-When not handling premium customer tickets, shift engineers will:
+Over the weekend, Shift engineers will focus on *meeting First Response Times (FRT) for high-priority tickets for Signature and Advanced Customers*.
+List of responsiblities to cover during your shift (Hours to cover is the same as the CEOC hours)
+
+1. Meet FRT for high priority Signature and Advanced tickets
 1. Assist the On-call Engineer (CEOC) with their workload
 1. Work on Next Response Times (NRT) for existing tickets adding internal comments (no public replies allowed)
-1. Work on ASE related tickets
+1. Work on ASE related tickets (Public replies are allowed) [Queue view](https://gitlab.zendesk.com/agent/filters/10491020112540) 
+1. Work on Success Advanced and Signature 24x7 Tickets related tickets (Public replies are allowed) [Queue view](https://gitlab.zendesk.com/agent/filters/17365930959516)
 1. Prepare test environment for tickets in need
 1. Document common issues and solutions to build knowledge base
 
