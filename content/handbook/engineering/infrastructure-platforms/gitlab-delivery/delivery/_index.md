@@ -256,15 +256,15 @@ Each working epic should be accompanied by an issue board. Issue boards should b
 
 ### Labels
 
-The canonical issue tracker for the Delivery group is at [gl-infra/delivery](https://gitlab.com/gitlab-com/gl-infra/delivery). Issues are automatically labeled if no labels are applied using the [triage ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops) project.
+The canonical issue tracker for the Deployment-Release group is at [gl-infra/delivery](https://gitlab.com/gitlab-com/gl-infra/delivery). Issues are automatically labeled if no labels are applied using the [triage ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops) project.
 The default labels defined in the [labeling library](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/lib/delivery/default_labeling.rb).
 
 By default, an issue needs to have a:
 
 1. Workflow Label - Default: `workflow-infra::Triage`
 1. Priority Label - Default: `Delivery::P4`
-1. Group Label - `group::delivery`
-1. Team Label - `team::Delivery-Deployments` or `team::Delivery-Releases`
+1. Team Label - `team::release-and-deploy`
+1. Group Label - `group::delivery-deploy` or `group::delivery-release`
 1. Other Label - project or team management related label.
 
 #### Workflow
