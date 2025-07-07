@@ -15,7 +15,7 @@ We use the following research tools.
 - [UserTesting.com](http://UserTesting.com) - Unmoderated testing with audio/video capture 
 - [Figjam](http://figma.com) - Online brainstorming and synthesis
 
-UX practitioners will have access to some of these tools as their role entitlement when they join the company. Anyone can also [open an access request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) for any tool you currently do not have access to. Note, we purchase individual monthly passes for Optimal Workshop on demand, you need to open a procurement issue ([example](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1596)) /instead.
+UX practitioners will have access to some of these tools as their role entitlement when they join the company. Anyone can also [open an access request](/handbook/security/corporate/end-user-services/access-requests/) for any tool you currently do not have access to. Note, we purchase individual monthly passes for Optimal Workshop on demand, you need to open a procurement issue ([example](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1596)) /instead.
 
 ## Tool Selection Guide
 
