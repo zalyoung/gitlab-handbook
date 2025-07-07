@@ -180,7 +180,7 @@ Other listed processes for the People Connect Team can be found [here](https://i
 
 ## Frequently Requested
 
-Please review the [frequently requested section](/handbook/people-group/frequent-requests/) of the People Handbook before reaching out to the team. The page includes information on accessing a team directory, requesting a letter of employment, mortgage forms, the companies reference request policy, ordering business cards, and changing your name in GitLab systems.
+Please review the [frequently requested section](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/frequently_requested/) of the People Internal Handbook before reaching out to the team. The page includes information on accessing a team directory, requesting a letter of employment, mortgage forms, the companies reference request policy, ordering business cards, and changing your name in GitLab systems.
 
 ## Addresses
 
