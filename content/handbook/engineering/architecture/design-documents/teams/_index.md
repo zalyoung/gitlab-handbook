@@ -97,7 +97,7 @@ These evolved approaches demonstrate industry recognition that traditional acces
    - Enable bulk operations for administrative efficiency
    - Support team lifecycle management
 
-4. **Enable cross-Organization program management and work coordination**
+4. **Enable cross-functional program management and work coordination**
    - Support cross-functional work views: Teams can aggregate issues, MRs, and epics across multiple groups/projects within an Organization
    - Provide program-level dashboards: See all work for a team regardless of where it lives in the Organization hierarchy
    - Enable resource planning: Understand team capacity across different projects
