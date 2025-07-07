@@ -107,7 +107,7 @@ If you are a Light Agent in ZenDesk and would like to **create knowledge article
 
 - Fill out an [Access Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
 - Request Access to have your Light Agent Role elevated to "create knowledge"
-- Request should include **Write access for articles**
+- Request should include Request Reason:  **Write access for articles**
 - Request should include if this is for **Global, US Gov, or Both**
 - Assign to your Manager for Approval.  **Manager Approval is Required!**
 
