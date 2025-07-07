@@ -117,21 +117,21 @@ The Feature Gates backend provides:
 
 #### CI/CD Pipeline Integration
 
-- Automated testing with gates in different states
-- Gate state validation in merge requests
-- Deployment markers for gate changes
+- Automated testing with feature gates in different states.
+- Feature Gate state validation in merge requests.
+- Deployment markers for gate changes.
 
 #### Monitoring Integration
 
-- Automatic correlation of errors with gate changes
-- Performance impact tracking per gate
-- Alerting on anomalous behavior after gate changes
+- Automatic correlation of functional errors with feature gate state changes.
+- Performance impact tracking per feature gate.
+- Alerting on anomalous behavior after feature gate state changes.
 
 #### Incident Response Integration
 
-- Incident.io integration for emergency disabling
-- Automated rollback suggestions based on error patterns
-- Slack notifications for gate state changes
+- Incident.io integration for emergency disabling.
+- Automated rollback suggestions based on error patterns and defined error budgets.
+- Slack notifications for feature gate state changes.
 
 ### Release Management
 
@@ -162,21 +162,22 @@ The Feature Gates backend provides:
 - Danger bot suggests gate creation for new features
 - Pre-filled metadata from MR context
 - Automatic rollout issue creation
+- Feature gates are disabled by default upon creation.
 
 #### Automated Cleanup
 
-- Track usage metrics from gate introduction
-- Alert on gates nearing maximum lifespan
-- Generate cleanup MRs automatically
+- Removing feature gates after full rollout + stability period.
+- Archiving feature gate history for analysis.
+- Updating documentation automatically.
 
 #### Auditing
 TBD
 
 ### Observability and Monitoring
 
-- Remove gates after full rollout + stability period
-- Archive gate history for analysis
-- Update documentation automatically
+- Tracking usage metrics from feature gate introduction.
+- Alerting on gates nearing maximum lifespan.
+
 ### System Architecture
 Feature Gates introduces a three-tier architecture:
 
