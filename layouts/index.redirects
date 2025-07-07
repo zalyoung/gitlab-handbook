@@ -19,8 +19,8 @@
 {{/* custom aliases for handbook sections */}}
 {{- with site.GetPage "handbook" -}}
 {{- range .Sections -}}
-{{- if not (in $root_sections (replace .RelPermalink "/handbook" "")) -}}
-{{- $section_aliases.Add (printf "%s:splat" .RelPermalink) (replace .RelPermalink "/handbook" "" 1 | printf "%s*" | slice) -}}
+{{- if not (in $root_sections (replace .RelPermalink "/handbook/" "/")) -}}
+{{- $section_aliases.Add (printf "%s:splat" .RelPermalink) (replace .RelPermalink "/handbook/" "/" 1 | printf "%s*" | slice) -}}
 {{- end -}}
 {{- end -}}
 {{- end -}}
