@@ -222,9 +222,9 @@ The process differs between SaaS and SM/Dedicated:
 
 #### Database Schema
 
-`Ai::Code::EnabledNamespace` table tracks namespaces that should be indexed based on Duo and GitLab licenses and enabled features.
+`Ai::ActiveContext::Code::EnabledNamespace` table tracks namespaces that should be indexed based on Duo and GitLab licenses and enabled features.
 
-`Ai::Code::Repository` table tracks the indexing state of projects in an enabled namespace.
+`Ai::ActiveContext::Code::Repository` table tracks the indexing state of projects in an enabled namespace.
 
 #### Process Flow
 
