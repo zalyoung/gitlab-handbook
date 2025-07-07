@@ -434,13 +434,6 @@ The existing custom roles system addresses permission granularity through 40+ sp
 - OIDC integration for just-in-time team provisioning
 - Multi-factor authentication integration for sensitive team operations
 
-**DevOps Toolchain Integration:**
-
-- Kubernetes RBAC integration for cluster access management
-- Infrastructure-as-Code tool access patterns (Terraform, Ansible)
-- Monitoring and observability tool access inheritance
-- Service mesh and API gateway authorization integration
-
 ### Migration and Compatibility Requirements
 
 **Backward Compatibility:**
