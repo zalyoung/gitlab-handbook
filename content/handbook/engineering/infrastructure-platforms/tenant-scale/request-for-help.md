@@ -22,7 +22,7 @@ Before submitting a request for support, please:
 1. **Review relevant documentation** - Check the specific team's documentation, handbook pages, and any related GitLab docs
 2. **Search previous issues** - Look through existing customer issues in the relevant team's project
 3. **Check team-specific channels** - Reach out in the appropriate team's Slack channel first for quick questions:
-   - Geo: `#spd_pod_geo` for general questions and documentation clarifications, `#g_geo` for anything else.
+   - Geo: `#spt_pod_geo` for general questions and documentation clarifications, `#g_geo` for anything else.
    - Cells: `#g_cells_infrastructure`
    - Organizations: `#g_organizations`
 
@@ -75,7 +75,7 @@ Each team maintains their own additional resources and processes:
 
 - **Geo Team**: See [Geo support process](geo/#how-to-ask-for-support-from-geo) for detailed Geo-specific guidance
 - **Cells and Organizations**: Check the [Cells handbook page](cells_and_organizations/_index.md) for cells-specific information
-- **Organizations Team**: See [Organizations team page](organizations/_index.md) for organization-specific guidance
+- **Organizations Team**: See [Organizations Process page](organizations/process/#engineering-customersupport-rotation-process) for organization-specific guidance
 
 ### Best Practices
 
