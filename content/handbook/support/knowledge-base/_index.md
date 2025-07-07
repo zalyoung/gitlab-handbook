@@ -102,8 +102,8 @@ Anyone can create a knowledge article regardless of being in ZenDesk or not (or 
 4. Your Article will be created in ZenDesk and assigned to a reviewer & then Published. You will be notified of Publication. 
 
 **Light Agents in ZenDesk**
-If you are a Light Agent in ZenDesk and would like to **create knowledge articles** please do the following
-- Fill out an Access Request [Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
+If you are a Light Agent in ZenDesk and would like to **create knowledge articles** please do the following:
+- Fill out an [Access Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
 - Request Access to have your Light Agent Role elevated to "create knowledge"
 - Request should include **Write access for articles**
 - Request should include if this is for **Global, US Gov, or Both**
@@ -113,7 +113,7 @@ If you are a Light Agent in ZenDesk and would like to **create knowledge article
 
 - Centralized Knowledge Base
 - Scalable and Customizable
-- Seamless Integration with Tickets
+- Seamless Integration with Ticket
 - Improved Support Engineer Productivity
 - Streamlined Analytics and Reporting
 - Streamline "Knowledge Centered Service" (KCS), adopting knowledge into the workflow
