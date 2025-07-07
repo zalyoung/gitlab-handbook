@@ -19,7 +19,7 @@ GitLab's current access control model conflates user management with project org
 
 This blueprint defines the architectural requirements for a Teams-based access control system that operates within Organization boundaries, separates user management from project organization, addresses critical customer pain points, and positions GitLab competitively in the enterprise DevOps market.
 
-The Teams architecture aims to introduce a distinct entity for managing users that can be shared across groups and projects within Organizations, providing clearer mental models, better inheritance behavior, and reduced administrative overhead. This separation addresses [the #1 vulnerability in the OWASP Top 10 (Broken Access Control)](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) while reducing the cognitive load for users of the current system.
+The Teams architecture aims to introduce a distinct entity for managing users' access to groups and projects within Organizations, providing clearer mental models, better inheritance behavior, and reduced administrative overhead. This separation addresses [the #1 vulnerability in the OWASP Top 10 (Broken Access Control)](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) while reducing the cognitive load for users of the current system.
 
 ## Motivation
 
@@ -248,7 +248,7 @@ The existing roles system addresses permission granularity through up to 40+ spe
 
 **Organization integration**
 
-- All Teams functionality must respect Organization isolation boundaries — no cross-Organization sharing or visibility
+- All Teams functionality must respect Organization isolation boundaries — no cross-Organization Team assignment or visibility
 - Organization owners must have full administrative control over Teams within their Organization
 - Teams must integrate with Organization-level identity provider synchronization and audit trails
 - Teams settings and policies must be configurable at the Organization level for compliance requirements
@@ -259,7 +259,7 @@ The existing roles system addresses permission granularity through up to 40+ spe
 
 **Organization-scoped Team management:**
 
-- Should Teams be created at the Organization level and then shared with groups/projects, or created within groups and promoted to Organization-level?
+- Should Teams be created at the Organization level and then assigned to groups/projects, or should there be another way?
 - How should Team membership synchronization with external identity providers work within Organization boundaries?
 - What administrative controls should Organization owners have over Teams created by Group owners within their Organization?
 
@@ -300,9 +300,9 @@ The existing roles system addresses permission granularity through up to 40+ spe
 
 **Group sharing and Teams:**
 
-- Should Teams be shareable with Groups in the same way Groups can be shared with other Groups?
-- How should Teams sharing interact with existing Group sharing inheritance patterns?
-- Should sharing a Team with a Group automatically grant the Team's role to all shared contexts?
+- Should Teams be assigned to Groups in the same way Groups can be shared with other Groups?
+- How should Teams assignment interact with existing Group sharing inheritance patterns?
+- Should assigning a Team to a Group automatically grant the Team's role to all shared contexts?
 
 ## Alternative Solutions Analysis
 
