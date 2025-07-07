@@ -33,8 +33,17 @@ GitLab's current feature flag implementation has served us well but faces
 significant challenges at scale. With over 700 feature flags in production and
 multiple deployment environments, we need a more structured approach to feature
 release control.
+
 ### Status Quo
-TBD
+
+- **Manual flag creation with multiple feature types**: Engineers run `bin/feature-flag` commands and choose between gitlab_com_derisk, wip, beta, or ops flags. Each feature type has its own purpose and cleanup timelines but cleanup timing isn't enforced.
+- **Manual flag control through ChatOps**: Engineers manually execute `/chatops run feature set flag` commands to enable flags in staging and production environments.
+- **Manual production rollout progression**: Engineers decide when to increase rollout percentages. There's no automatic progression or set schedule between increases.
+- **No dedicated flag performance monitoring**: There's no dashboard to see how features perform before and after we enable flags or track when users start using new features. Overall monitoring shows when flags get enabled but doesn't show detailed feature usage or performance metrics.
+- **Flag information lives in separate GitLab projects**: Rollout issues are tracked in the monolith while feature state changes are logged in the `feature-flag-log` project instead of one central location.
+- **Flag cleanup depends on original owners**: Engineers remove flags manually and this depends on the original DRI or team. Some flags may not have clear ownership when DRI or team focus changes.
+- **Manual flag rollback for incident mitigation**: Engineers run rollback commands to turn off flags when they can mitigate the incident.
+
 ### Challenges
 
 The current feature flag system creates several critical issues:
