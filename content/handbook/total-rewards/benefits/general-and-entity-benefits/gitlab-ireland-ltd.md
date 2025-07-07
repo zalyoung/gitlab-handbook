@@ -282,7 +282,7 @@ To initiate your leave, submit your time off by selecting the `Parental Leave` c
 
 ## Company stamp
 
-Please see 'Company Stamp Ireland' in the People Connect 1password folder for contact details to request a company stamp on any forms or letters.
+Please see 'Company Stamp Ireland' in the People Operations 1password folder for contact details to request a company stamp on any forms or letters.
 
 </details>
 

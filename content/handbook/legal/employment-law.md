@@ -11,7 +11,7 @@ Employment law governs the relationship between employers and employees. At GitL
 
 - We **empower** the Talent Acquisition department to achieve its critical goals while ensuring compliance with local laws and regulations during sourcing, recruitment, and hiring processes.
 
-- We **enable** the People Connect team to effectively onboard and support team members with location- and role-specific legal support, setting team members up for success from day one.
+- We **enable** the People Operations team to effectively onboard and support team members with location- and role-specific legal support, setting team members up for success from day one.
 
 - We **partner** with the Total Rewards team, People Operations team and People Business Partners to develop forward-thinking policies that balance GitLab's business objectives, team members' needs, and global legal requirements.
 

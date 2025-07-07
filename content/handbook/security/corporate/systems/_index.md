@@ -13,7 +13,7 @@ As GitLab has grown organically, several departments and functional groups have 
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
 - [Enterprise Applications](/handbook/business-technology/enterprise-applications/)
 - [Marketing Operations](/handbook/marketing/marketing-operations/)
-- [People Connect](/handbook/people-group/people-connect/)
+- [People Operations](/handbook/people-group/people-connect/)
 - [People Group Engineering](/handbook/people-group/engineering/)
 - [Sales Systems](/handbook/sales/field-operations/sales-systems/)
 

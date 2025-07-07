@@ -14,7 +14,7 @@ For our purposes, visa sponsorship is defined as the requirement that a company 
 - GitLab does not support any visa that requires sponsorship. Sponsorship includes anything that requires GitLab to become a registered employer or sponsor, petition the government directly, fill out an application on behalf of a team member, pay an employer fee, or otherwise places a significant compliance obligation or burden on GitLab.
 - GitLab is willing to provide company information, including contact information, an offer of employment, and an employment verification letter to validate employment to assist with a visa application that is not tied to a particular employer. This would not be considered sponsorship.
 - GitLab can generally accept dependent visas or other family-based work permits that are not tied to an employer. However, if the individual loses a work permit based on their dependent status (e.g., the spouse who is sponsored by their employer loses their sponsored job), then the individual is no longer authorized to work for GitLab.
-- Please note that if a visa expires (even if it was a visa accepted by GitLab), the individual is not eligible to work immediately upon expiration. If a team member’s work authorization expires, please reach out to People Connect to determine if any possible alternative options exist.
+- Please note that if a visa expires (even if it was a visa accepted by GitLab), the individual is not eligible to work immediately upon expiration. If a team member’s work authorization expires, please reach out to People Operations to determine if any possible alternative options exist.
 - The following information is limited to countries with GitLab entities. Alternative visa options may exist in locations where GitLab uses PEOs. As the employer of record, we expect PEOs may have their own policies on what visas they accept and/or assist with.
 - Additional information for People Group members related to work authorization is available [here](https://docs.google.com/document/d/1LnDx1NeDDufo-mGYv-eMYqqaLLkIS0___QgtTXp7otI/edit?usp=sharing).
 
@@ -60,7 +60,7 @@ The following list is not exhaustive.
 
 ## Travel Visas
 
-For assistance with any employment or relocation visa please reach out to the People Connect.
+For assistance with any employment or relocation visa please reach out to the People Operations.
 
 ## Expensing
 
@@ -81,7 +81,7 @@ Please refer to the [Global Travel and Expense Policy Handbook Page](/handbook/f
 
 In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
 
-Always **check the website of the Embassy of the Country you want to visit** located in your home country. They will have the most updated information on whether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. [ESTA](https://esta.cbp.dhs.gov/esta/)) in other cases you might need to arrange a tourist or business visa. Read their website carefully and if you need an invitation letter for your application you can request one following [this process](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested#visa-invitation-letter). If you need any further help with acquiring the needed documents for your application, please create a case for the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) with the information required.
+Always **check the website of the Embassy of the Country you want to visit** located in your home country. They will have the most updated information on whether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. [ESTA](https://esta.cbp.dhs.gov/esta/)) in other cases you might need to arrange a tourist or business visa. Read their website carefully and if you need an invitation letter for your application you can request one following [this process](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested#visa-invitation-letter). If you need any further help with acquiring the needed documents for your application, please create a case for the People Operations team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) with the information required.
 
 #### Tips & Tricks for visa arrangements {#visa-tips}
 
@@ -169,18 +169,18 @@ Tenure of less than 1 year at GitLab may be possibly waived as a requirement if:
 - You are a member of an [underrepresented](/handbook/company/culture/inclusion/#definitions) group that is unsafe or in any way mistreated in your country.
 - Violence in your country does not provide a safe environment.
 
-If you meet these requirements, kindly read our [Relocation](/handbook/people-group/relocation/) handbook page, as well as our specific [Netherlands section](/handbook/people-group/relocation/#relocating-to-the-netherlands), to ensure that your request is evaluated and approved following our protocols. **Please reach out to the People Connect team via HelpLab if you have any questions.**
+If you meet these requirements, kindly read our [Relocation](/handbook/people-group/relocation/) handbook page, as well as our specific [Netherlands section](/handbook/people-group/relocation/#relocating-to-the-netherlands), to ensure that your request is evaluated and approved following our protocols. **Please reach out to the People Operations team via HelpLab if you have any questions.**
 
 #### Transferring a partner visa to a highly skilled migrant visa
 
-Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) and executive approval. Please reach out to the People Connect team via HelpLab to get this process started.
+Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) and executive approval. Please reach out to the People Operations team via HelpLab to get this process started.
 
-Tasks for People Connect:
+Tasks for People Operations:
 
-1. The People Connect team member reviews if the [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) are met and asks the manager to confirm that the team member is not on a Performance Improvement Plan (PIP)
-1. The People Connect team member emails HR Savvy (see contact details in 1password) to confirm the total amount of fees for this process since they are subject to change
-1. The People Connect team member emails the team member's Division's E-Group leader for their written approval and includes the total amount of fees in the email
-1. Once approved the People Connect team member emails HR Savvy with the team member in cc to request the visa transfer
+1. The People Operations team member reviews if the [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) are met and asks the manager to confirm that the team member is not on a Performance Improvement Plan (PIP)
+1. The People Operations team member emails HR Savvy (see contact details in 1password) to confirm the total amount of fees for this process since they are subject to change
+1. The People Operations team member emails the team member's Division's E-Group leader for their written approval and includes the total amount of fees in the email
+1. Once approved the People Operations team member emails HR Savvy with the team member in cc to request the visa transfer
 1. HR Savvy will supply all the documentation needed to the team member to apply for the visa transfer
 
 #### Resources
@@ -275,7 +275,7 @@ Grants work rights for the duration of an employment relationship and does not r
 
 GitLab can provide company information for this visa application. The employee is responsible for their own application and all fees associated with the visa. May be valid for 1 year, 3 years, or 5 years depending on the visa approval, and may be extended/renewed. GitLab cannot assist team members with obtaining a Certificate of Eligibility (COE).
 
-For People Connect internal processing:
+For People Operations internal processing:
 
 When receiving these requests from team members via HelpLab, provide the following documents to the team member:
 
@@ -346,14 +346,14 @@ Do:
 - Ask all candidates the following two questions:
   - Are you legally authorized to work for GitLab in [country of hire]?
     - If yes, no further information needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate.
-    - If no or any other answer is given, please let them know about our Visa Sponsorship policy and state that we’re required to ensure that all new hires are authorized to work at GitLab at the time of hire. If they are unable to secure work authorization by the proposed start date without our sponsorship or other assistance with securing such authorization, we will not be able to move forward with their application. If they state that they’ll need a certain type of visa that they do not currently hold (like a TN or Blue Card) in order to secure work authorization, please consult the preceding section or reach out to People Connect via HelpLab to confirm that it is a visa we can accept.
+    - If no or any other answer is given, please let them know about our Visa Sponsorship policy and state that we’re required to ensure that all new hires are authorized to work at GitLab at the time of hire. If they are unable to secure work authorization by the proposed start date without our sponsorship or other assistance with securing such authorization, we will not be able to move forward with their application. If they state that they’ll need a certain type of visa that they do not currently hold (like a TN or Blue Card) in order to secure work authorization, please consult the preceding section or reach out to People Operations via HelpLab to confirm that it is a visa we can accept.
   - Will you now or in the future require sponsorship for an employment visa?
     - If yes, please point them to our Visa Sponsorship policy and let them know that we will not be able to sponsor their work visa. If they are unable to secure authorization to work at GitLab without sponsorship then we will not be able to move forward with their application.
     - If no, no further information is needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate. Even if a person answers no, you should still tell them about GitLab’s sponsorship policy.
     - If the answer is anything else, like they mention needing to apply for a certain type of visa, please let them know about our Visa Sponsorship policy and consult this page for more information on that visa type.
 - Tell all candidates that they must be currently authorized to work in the country of hire on a full-time basis.
 - Tell all candidates that GitLab will not sponsor work visas.
-- Consult this document or People Connect for more context if a candidate offers information about the type of visa or work permit they are currently on without you asking. Some countries prohibit employers from making hiring decisions on the basis of visa type as long as the person is authorized to work without sponsorship, so it’s important to ensure that this information is used only to confirm that this is a visa we can support without issue.
+- Consult this document or People Operations for more context if a candidate offers information about the type of visa or work permit they are currently on without you asking. Some countries prohibit employers from making hiring decisions on the basis of visa type as long as the person is authorized to work without sponsorship, so it’s important to ensure that this information is used only to confirm that this is a visa we can support without issue.
 - If you are concerned that visas or sponsorship may be an issue for a candidate, we are required to wait until after the candidate has accepted a job offer to ask for further details about their visa type and expiration date.
 
 Don’t:

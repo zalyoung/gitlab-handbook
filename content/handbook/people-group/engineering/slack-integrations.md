@@ -32,17 +32,17 @@ To opt-in, follow these steps on Slack
 1. Click on `Edit profile`
 1. Scroll down to the `GitLab Birthdays` field and select `Yes`
 
-### Informing People Connect Team about details missing in Workday for upcoming new hires
+### Informing People Operations Team about details missing in Workday for upcoming new hires
 
 For the new hire announcements to be accurate, it is required to ensure the
 Workday details of team members joining the following week is as complete as
-possible. To help the People Connect team in this task, another scheduled pipeline is
+possible. To help the People Operations team in this task, another scheduled pipeline is
 run to verify if the Workday details of all incoming team members is complete.
-This pipeline notifies the People Connect Specialists in [`#peopleops-alerts`](https://gitlab.slack.com/archives/CLTBQ9XC7) channel
+This pipeline notifies the People Operations Specialists in [`#peopleops-alerts`](https://gitlab.slack.com/archives/CLTBQ9XC7) channel
 about people whose details are missing and the details that are missing for each
 person.
 
-Since the People Connect Specialists should have enough time to fix these missing
+Since the People Operations Specialists should have enough time to fix these missing
 details before new hire announcements are sent, it is necessary this job should
 be run an adequate amount of time before the new hire announcements job is run.
 Currently, the pipeline is scheduled to be run at 02:00 PM on every Wednesday.
@@ -51,7 +51,7 @@ Currently, the pipeline is scheduled to be run at 02:00 PM on every Wednesday.
 
 Whenever a team member fills in on of the following surveys, the form entrance
 is put into a slack message to the private Slack channel `employment-survey`. This way the
-People Connect team can discuss and take action.
+People Operations team can discuss and take action.
 
 - Onboarding Survey
 - Values Check-In
@@ -69,7 +69,7 @@ We have more documentation regarding available `/pops` commands in Slack in the 
 
 ### Template Paths
 
-People Connect associates can type `/pops run templatepaths <EMPLOYEE_NUMBER>` to output
+People Operations associates can type `/pops run templatepaths <EMPLOYEE_NUMBER>` to output
 the list of locations where the bot looks to fill-in role/specialty based access request
 and onboarding tasks. This command is useful when it is unclear why an automated issue
 creation did not pick up a given template. This will show exactly what path the bot expects.

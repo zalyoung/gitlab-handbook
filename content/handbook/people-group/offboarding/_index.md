@@ -5,7 +5,7 @@ description: "Offboarding Procedures for GitLab Team Members and Stakeholders"
 <!-- markdownlint-disable MD051 -->
 ## Offboarding Overview
 
-The offboarding process is facilitated by the People Connect team who collaborates throughout the process with various other stakeholders such as Team Member Relations, IT Operations and Payroll.
+The offboarding process is facilitated by the People Operations team who collaborates throughout the process with various other stakeholders such as Team Member Relations, IT Operations and Payroll.
 
 If you have any questions around the offboarding process, please be sure to review the [Offboarding FAQs](/handbook/people-group/offboarding/faq) handbook page.
 
@@ -17,9 +17,9 @@ For system access questions and [laptop wipes](https://internal.gitlab.com/handb
 
 For payroll questions or outstanding expense claims, please reach out to either `uspayroll@gitlab.com` or `nonuspayroll@gitlab.com`.
 
-For any other offboarding questions from active team members please reach out to People Connect via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c) or send an email to `people-connect@gitlab.com` if your access has already been terminated.
+For any other offboarding questions from active team members please reach out to People Operations via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c) or send an email to `people-connect@gitlab.com` if your access has already been terminated.
 
-**Note:** If a termination date changes, please reach out to People Connect via HelpLab. The team will update Workday.  The notice is used as supporting documentation of the change and is saved in the team members Workday record. If the team member is employed via a PEO, they will also be notified by People Connect.
+**Note:** If a termination date changes, please reach out to People Operations via HelpLab. The team will update Workday.  The notice is used as supporting documentation of the change and is saved in the team members Workday record. If the team member is employed via a PEO, they will also be notified by People Operations.
 
 ## Voluntary Terminations
 
@@ -34,7 +34,7 @@ For any other offboarding questions from active team members please reach out to
 1. **Team Member:** Following the guidelines in the 'How to Submit a Resignation' [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) submit your resignation directly in Workday accessible through Okta.
 1. **Team Member:** If you are employed via a PEO or Third-Party Employer forward a copy of your Letter of Resignation directly to them.
 1. **Team Member:** After your resignation is submitted in Workday, your manager will receive a request to complete your offboarding in Workday. Once your termination is complete, you can anticipate receiving your offboarding packet with information regarding your final pay, continued benefit offerings, and additional offboarding information such as returning your devices. You can also expect a request to complete an exit survey along with an invitation to take part in an optional exit interview within 48 hours.
-1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out to the People Connect Team using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c). **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
+1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out to the People Operations Team using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c). **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
 
 #### ***Country Specific Requirements for Resignation***
 
@@ -44,7 +44,7 @@ In addition to submitting their resignation directly in Workday (following the g
 
 ##### Germany
 
-In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)), Team Members resigning in Germany are required to provide a wet-ink signed resignation letter to the [GmbH address](/handbook/entity/gmbh-germany/#scope) and should liase with the People Connect team during offboarding to ensure it's properly provided.
+In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)), Team Members resigning in Germany are required to provide a wet-ink signed resignation letter to the [GmbH address](/handbook/entity/gmbh-germany/#scope) and should liase with the People Operations team during offboarding to ensure it's properly provided.
 
 ##### Japan
 
@@ -67,11 +67,11 @@ Team members the the PEO/EOR on UAE work visa's who resign, completes their cont
     - Non-Regrettable i.e. The team members departure has a minimal impact on the company, its customers, its projects or the team - the team member has not been meeting expectations due to conduct, culture or values misalignment or performance concerns.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
 1. **People Business Partner:** You will receive a prompt in your Workday inbox to review the termination details submitted by the Manager and to close the position in Workday. If you are aligned with the details including the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and/or Team Member should be arranged and the termination can be sent back for further review.
-1. **People Connect:** Once the transaction has been fully approved the team will receive a notification of the termination within the Workday Inbox.
+1. **People Operations:** Once the transaction has been fully approved the team will receive a notification of the termination within the Workday Inbox.
 
 ### Offboarding
 
-1. **People Connect:** On the Last Day of Work as indicated in the Workday Termination Report at the [pre-determined time](/handbook/people-group/offboarding/offboarding_standards/#notice-of-offboarding) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
+1. **People Operations:** On the Last Day of Work as indicated in the Workday Termination Report at the [pre-determined time](/handbook/people-group/offboarding/offboarding_standards/#notice-of-offboarding) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Operations can get underway.
 1. **Deprovisioners (Systems):** You will be tagged in the departing team members offboarding issue and required to indicate that the team members access has been revoked kindly note that access to SOX Systems must be attended to with urgency and all other tasks within the offboarding issue must be closed out within five days.
 
 ## Involuntary Terminations
@@ -102,7 +102,7 @@ The manager and the team member should have walked through the guidelines on [un
       - No announcement should be made in the `#team-member-updates` Slack channel until the team call has been completed.
       - In most cases, a team call can occur the same day of the offboarding. If necessary, the offboarding can be announced in the `#team-member-updates` Slack channel the following day.
 1. **TMR/Manager**: Decide what offboarding actions need to be taken *before* the call (e.g. revoke admin permissions), or *during* the call (e.g. revoke Slack and Gmail access), and which ones can wait until later. You can reference the [offboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md) for the full list of actions. This conversation should take place in the private Slack channel with PBP, Manager and Leader.
-1. **TMR**: If the team member is a risk to the production environment, the TMR should privately reach out to the `Infrastructure Managers` to determine who will be available to assist with the offboarding. Once an infrastructure team member has been identified, they should be added to the private calendar invite sent to People Connect, Security, and Payroll to hold the time for the team member offboarding. Once the offboarding conversation starts the TMR will privately Slack the infrastructure contact the name of the team member to start the offboarding process.
+1. **TMR**: If the team member is a risk to the production environment, the TMR should privately reach out to the `Infrastructure Managers` to determine who will be available to assist with the offboarding. Once an infrastructure team member has been identified, they should be added to the private calendar invite sent to People Operations, Security, and Payroll to hold the time for the team member offboarding. Once the offboarding conversation starts the TMR will privately Slack the infrastructure contact the name of the team member to start the offboarding process.
 
 ### Facilitating the Call
 
@@ -137,7 +137,7 @@ You may also contact X at GitLab (provide phone number and email address) with a
 1. **TMR:** Terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
 1. **TMR:** You will be prompted to indicate whether the termination is regrettable or non-regrettable and whether the team member would be eligible for re-hire in future or not i.e. with review unless specifically relating to [conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) or [job abandonment](/handbook/people-policies/#job-abandonment) in which case they would not be eligible.
 1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particulars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and TMR in question should be arranged and the particulars can be sent back for further review.
-1. **People Connect:** Once the transaction has been fully approved the team will receive a TODO of the termination within your Workday Inbox.
+1. **People Operations:** Once the transaction has been fully approved the team will receive a TODO of the termination within your Workday Inbox.
 
 ### Last Working Day
 
@@ -153,7 +153,7 @@ As a manager, in collaboration with the Team Member Relations Specialist (TMR) a
 
 1. **TMR**: TMR will have a legal/CPO review of the planned offboarding.
 1. **TMR**: TMR will inform payroll, compensation and benefits, security and the stock administration of the date the team member will have access suspended and the official offboarding date prior to the opening of the offboarding issue.
-1. **TMR**: TMR will work with People Connect to ensure the offboarding issue has the correct dates and that all stakeholders in Payroll, Compensation and Benefits (Total Rewards), Security and Stock Administration have been communicated to and understand the offboarding details.
+1. **TMR**: TMR will work with People Operations to ensure the offboarding issue has the correct dates and that all stakeholders in Payroll, Compensation and Benefits (Total Rewards), Security and Stock Administration have been communicated to and understand the offboarding details.
 
 ### Sample Offboarding Memo
 
@@ -162,7 +162,7 @@ As written, it is applicable to US-based employees only.
 
 ### Separation and Release of Claims Agreements {#separation-agreement}
 
-Separation and Release of Claims Agreements ***do not*** apply for all offboardings. To review in which cases they do/do not apply, please reference the `Severance Eligibility` document accessible by People Connect Team and PBPs. In the case that a severance agreement is applicable, the steps below should be followed:
+Separation and Release of Claims Agreements ***do not*** apply for all offboardings. To review in which cases they do/do not apply, please reference the `Severance Eligibility` document accessible by People Operations Team and PBPs. In the case that a severance agreement is applicable, the steps below should be followed:
 
 ### Severance Process for US-based Team Members
 
@@ -192,17 +192,17 @@ Separation and Release of Claims Agreements ***do not*** apply for all offboardi
 For team members who will be placed on leave during an investigation please follow the process below:
 
 1. **TMR**: Communicates with Legal, Aligned PBP regarding the decision to place a team member on leave and disable accounts during an investigation.
-1. **TMR**: TMR will request IT and People Connect support for disabling a team members accounts.
+1. **TMR**: TMR will request IT and People Operations support for disabling a team members accounts.
 1. **TMR**: TMR schedules a call with the team member and manager to inform them of the decision to place the team member on leave while an investigation occurs.
 1. **TMR**: TMR informs the manager and PBP when the conversation is completed and accounts are disabled. During this period managers will not have access to the team members accounts.
 1. **TMR**: TMR notifies IT that an Out Of Office message needs to be set on the account and include the message that the team member is OOO and please reach out to their manager.
 1. **TMR**: TMR send the team member to their personal email the "Team member Suspension letter" via DocuSign. The TMR will upload this document to the team members Workday Profile in documents tab.
 1. **TMR**: TMR once the investigation is completed the TMR will inform the aligned PBP and manager of the final decision. If the team member is to be returned to work the TMR will reach out and schedule time to meet with the team member.
-1. **TMR**: If the team member is returning to work the TMR will notify IT and People Connect that the team member will be returning from leave and the date that accounts should be enabled.
+1. **TMR**: If the team member is returning to work the TMR will notify IT and People Operations that the team member will be returning from leave and the date that accounts should be enabled.
 
 ### Offboarding Compliance
 
-The People Connect member in the relevant rotation will complete a weekly audit of all offboarding issues opened within that specific week and check that all People Connect tasks have been completed and that the label `peopleops::done` has been added.
+The People Operations member in the relevant rotation will complete a weekly audit of all offboarding issues opened within that specific week and check that all People Operations tasks have been completed and that the label `peopleops::done` has been added.
 
 All offboarding tasks by all Departments need to be completed within 5 days of the offboarding date. For systems that are more critical and time sensitive, these will be completed within the first 24 hours (example 1Password, Slack) by the relevant Departments. Information about application & system deprovisioners can be found on the [Tech Stack Applications handbook page](/handbook/business-technology/tech-stack-applications/).
 
@@ -354,6 +354,6 @@ Unemployment Insurance is funded through employer contributions and most states 
 
 If you are a full-time team member and you are contacted by your state's Unemployment Commission to discuss your request for Unemployment Benefits, you may be a victim of Unemployment Claim Fraud.
 
-Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) to the People Connect team.
+Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) to the People Operations team.
 
 Additionally here is a link to the [U.S Department of Labor Contact Particulars](https://www.dol.gov/agencies/eta/unemployment-insurance-payment-accuracy/UIFraudReporting) to report Unemployment Insurance Fraud.

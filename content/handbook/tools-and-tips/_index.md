@@ -613,7 +613,7 @@ The GitLab Team Meetings Calendar is available to all team members and can be fo
 1. Select `Subscribe to calendar`
 1. Enter in the search field `gitlab.com_6ekbk8ffqnkus3qpj9o26rqejg@group.calendar.google.com` and then press enter on your keyboard
 
-Please reach out to a People Connect Team member if you have any questions. NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone's calendar.
+Please reach out to a People Operations Team member if you have any questions. NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone's calendar.
 
 You can find the details for the Company Calls, Group Conversations, 101s, and other teams' meetings here, so you can attend a different teams' meeting and ask questions, learn about what they're working on, and get to know the rest of the GitLab Departments and teams.
 
@@ -621,7 +621,7 @@ These meetings are open to everyone in GitLab.
 
 If you are creating a new team meeting, please [add it](#adding-an-event-to-the-gitlab-team-meetings-calendar) to the GitLab Team Meetings calendar
 
-Please reach out to the People Connect Team in the `#people-connect` Slack channel with any questions, requests or changes to the GitLab Team Meetings calendar.
+Please reach out to the People Operations Team in the `#people-connect` Slack channel with any questions, requests or changes to the GitLab Team Meetings calendar.
 
 ##### Adding an event to the GitLab Team Meetings calendar
 

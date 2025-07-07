@@ -14,7 +14,7 @@ The Senior Background Specialist is a [grade 6](/handbook/total-rewards/compensa
 
 ### Senior Background Check Specialist Responsibilities
 
-- Partner with both the Candidate Experience Specialist and People Connect Teams to ensure verifications are completed with urgency for all new hires
+- Partner with both the Candidate Experience Specialist and People Operations Teams to ensure verifications are completed with urgency for all new hires
 - Manage all background check and verification processes in partnership with our external background check vendors, ensuring they are handled in strict accordance with applicable local, state, federal and country specific guidelines.
 - Oversee our Right to Work process for EU countries
 - Create and implement training materials and documentation related to background check process, investigation, compliance and regulatory needs.

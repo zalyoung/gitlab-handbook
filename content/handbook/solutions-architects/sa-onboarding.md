@@ -35,7 +35,7 @@ This onboarding still adheres to the sentiments of [self directed and continuous
 
 Since GitLab is a [handbook first](/handbook/company/culture/all-remote/handbook-first/) organization, the answer to any question you may have particularly throughout your first thirty days should be documented and readily available as this is our [Single Source of Truth (SSoT)](/handbook/values/#single-source-of-truth).
 
-If you are unable to find the information you are looking for, please be sure to reach out to your Manager; Onboarding Buddy; People Connect Team member or the Field Enablement team for support by tagging them in the comments section of this [SA onboarding feedback issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2635). If you need to troubleshoot specific issues with tools, you can add a screenshot of the issue directly in the comment to help them diagnose the problem.
+If you are unable to find the information you are looking for, please be sure to reach out to your Manager; Onboarding Buddy; People Operations Team member or the Field Enablement team for support by tagging them in the comments section of this [SA onboarding feedback issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2635). If you need to troubleshoot specific issues with tools, you can add a screenshot of the issue directly in the comment to help them diagnose the problem.
 
 Alternatively once you are active on [Slack](/handbook/communication/chat), which is used solely for informal communication, you will notice that you have been automatically added to a handful of useful support channels such #questions, #cs-questions, #solutions-architects, #it-help, etc.
 

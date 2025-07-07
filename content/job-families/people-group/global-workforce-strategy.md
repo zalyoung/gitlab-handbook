@@ -15,7 +15,7 @@ The Global Workforce Strategy Specialist is a [grade 6](/handbook/total-rewards/
 ## Responsibilities
 
 - Handling all country conversions from Contractor to Professional Employer Org or Professional Employer Org to Entity. This is a key focus globally in this position and includes collaboration with the overall international expansion team and various stakeholders.
-- Manage the full cycle of the relocation process and liaise with other teams as necessary (with support from the People Connect team on contract and administrative changes).
+- Manage the full cycle of the relocation process and liaise with other teams as necessary (with support from the People Operations team on contract and administrative changes).
 - Engage with co-employer's and PEO's on a regular basis, especially during onboarding within those regions.
 - Managing all sponsorship requests, including for new hires and existing team members in the Netherlands (with support from People Associate team on contract and administrative changes).
 - Proactively identify new locations GitLab can successfully sponsor in and collaborate with internal stakeholders to ensure it is a viable business case.
@@ -146,7 +146,7 @@ The next step in the People Operations job family is to move to the [People Oper
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
 - Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
-- Next, candidates will be invited to schedule a 45 minute interview with our Manager, People Connect.
+- Next, candidates will be invited to schedule a 45 minute interview with our Manager, People Operations.
 - After that, candidates will be invited to schedule a 30 minute interview with members of the People Operations and Global Workforce Strategy Team.
 - After that, candidates will be invited to interview with the Senior Director, People Operations.
 - Finally, a member of our e-team might request a final interview.

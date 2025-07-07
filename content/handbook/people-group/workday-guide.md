@@ -86,7 +86,7 @@ Modules/functionality being implemented:
 
 | Workday will replace | Workday will enhance |Workday will integrate with |What remains the same in this phase|
 | ------ | ------ |------ |------ |
-| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Connect bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check, Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
+| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Operations bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check, Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
 
 - _BambooHR is no longer in use at GitLab as of 2024-12-15._
 
@@ -106,7 +106,7 @@ Modules/functionality being implemented:
 | Navex Global | Automatically adds and removes team members to Navex Global to avoid manual work for the team and streamline the onboarding process. | Daily | @ktesh | @droystang |
 | Nominator bot | Given all team members can nominate other team members for discretionary bonuses, when the final approval has been approved then a sync with Workday adds the approval in the bonus table in Workday. | Real Time | @mpatel8 | @ajrom |
 | Okta Connector | All Team Members/ people that reside in Okta will also reside in Workday. | Hourly | @pkaldis  | @pkaldis @Mwhitaker |
-| People Connect bot | Given all team members need to have access to the People Connect Bot, when a new issue is created on GitLab via this bot then the read connection between Workday and the People Connect bot is triggered and specific labels related to the team member's department, division, tenure and region are added. | Real Time | @mpatel8  | @ajrom |
+| People Operations bot | Given all team members need to have access to the People Operations Bot, when a new issue is created on GitLab via this bot then the read connection between Workday and the People Operations bot is triggered and specific labels related to the team member's department, division, tenure and region are added. | Real Time | @mpatel8  | @ajrom |
 | PlanSource | Provides demographic information for new hires and to maintain this information for existing team members. | Daily (4am PST) | @brittanyr @Rkole  | @droystang @Laura-Janssen @demina |
 | Snowflake | Pulls data from Workday so it can be used for reporting in Sisense. | Every 12H | @pempey  | @pempey @Laura-Janssen |
 
@@ -145,9 +145,9 @@ Modules/functionality being implemented:
 
 ## Workday support
 
-For general navigation and functionality questions, please contact the People Connect team via HelpLab.
+For general navigation and functionality questions, please contact the People Operations team via HelpLab.
 For report requests, or to request an enhancement or report a bug, please create an issue in the [People Technology Intake project](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/issues/new?issuable_template=intake)
 
 ## Frequently asked questions
 
-You can find the most frequently asked questions and answers in [this document](https://docs.google.com/document/d/144sVp-77aeZY59tkc3QQ91EZ3BewHoExhwTrO9YA7rE/edit#heading=h.pfosnkm564e0). The People Connect team is constantly updating this document.
+You can find the most frequently asked questions and answers in [this document](https://docs.google.com/document/d/144sVp-77aeZY59tkc3QQ91EZ3BewHoExhwTrO9YA7rE/edit#heading=h.pfosnkm564e0). The People Operations team is constantly updating this document.

@@ -1,6 +1,6 @@
 ---
 title: Offboarding Automation Flow
-description: "Information on the automations we have in place to support the People Connect Team with offboarding related tasks."
+description: "Information on the automations we have in place to support the People Operations Team with offboarding related tasks."
 ---
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
@@ -38,7 +38,7 @@ Every 15 minutes, a pipeline scans Workday for any terminations.
 
 All scheduled offboardings will be opened between 4:00 - 5:00pm of the team members *local timezone*.
 
-For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
+For each row matching this criterion, it will perform the same actions as if a People Operations Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
 
 The manual process is kept as a backup process should the automation fail or for exceptional cases where a team member offboarding cannot be added to the offboarding spreadsheet.
 
@@ -51,7 +51,7 @@ After the offboarding issue has been created, we send a follow up message to the
 
 ### Manually initiated offboarding issue creation
 
-After a People Connect Team member runs the Slack command to open the issue, this will be automatically assigned to the People Connect Team member
+After a People Operations Team member runs the Slack command to open the issue, this will be automatically assigned to the People Operations Team member
 who ran the command and the outgoing team member's Manager.
 
 The job then grabs various details of the outgoing team member, like country of residence, entity through which they are hired, division, department, job title etc. For each of these details, it checks for the existence of a task file in the [`offboarding_tasks` folder](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/.gitlab%2Fissue_templates%2Foffboarding_tasks) of the `employment` project. These tasks files are of the format `country_<country name>.md`, `entity_<entity name>.md`, `division_<division name>.md`, `department_<department name>.md`, etc. If such a file is found, it includes contents of those files also in the offboarding issue.
@@ -68,7 +68,7 @@ The `offboarding` command will also create a merge request to the `www-gitlab-co
 - Removing the pet picture in case the team member had any
 - Update the CODEOWNERS file: change to the manager or remove if the manager is already a codeowner for that file
 
-In the event that the merge request has become out of date and the `/rebase` quick action isn't working a People Connect Team member can follow these steps to regenerate the MR:
+In the event that the merge request has become out of date and the `/rebase` quick action isn't working a People Operations Team member can follow these steps to regenerate the MR:
 
 1. Close the MR that is out of date, and ensure to delete the branch that this was created on.
 1. Run the offboarding team page Slack command to re-trigger the automation.

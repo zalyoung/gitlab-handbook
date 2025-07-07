@@ -84,7 +84,7 @@ Responsibilities may include but are not limited to:
     - Make it fun! Returning to work can be stressful, so coffee chats are a great time to step away from work and talk about something else.
 1. Be available to help your team member navigate through any company or departmental changes that occurred while on leave.
 
-*Future iterations are still being considered, and will be added to this section as the program evolves. If you have any feedback regarding this program, please contact `leaves@domain` or share with the People Connect team via HelpLab.*
+*Future iterations are still being considered, and will be added to this section as the program evolves. If you have any feedback regarding this program, please contact `leaves@domain` or share with the People Operations team via HelpLab.*
 
 ### What Makes a Successful Reentry Buddy
 

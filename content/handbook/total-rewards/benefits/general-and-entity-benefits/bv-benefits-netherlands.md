@@ -11,7 +11,7 @@ Can't find what you're looking for? Try the main [People Operations page](/handb
 
 | Team | How | For|
 |-----|-----|-----|
-| People Connect | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=e2367f49474c069067429ee0026d43fa) | All general people related inquiries including time off policies |
+| People Operations | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=e2367f49474c069067429ee0026d43fa) | All general people related inquiries including time off policies |
 | Non-US Payroll | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352) | All general payroll-related inquiries  |
 | Absence Management | leaves@gitlab.com | Leave of absence or sick leave questions and requests |
 | HR Savvy | payroll@savvy-group.eu | Bike to work/tax saver commuter scheme, Regeling internet thuis, 30% tax ruling inquiries, and visa/sponsorship |

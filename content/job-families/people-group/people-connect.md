@@ -1,20 +1,20 @@
 ---
-title: "People Connect"
+title: "People Operations"
 ---
 
-The People Connect Team plays a critical role in influencing and supporting the people strategy within the GitLab - collaboratively working to develop, optimize and implement people processes and programs while overseeing the day-to-day responsibilities associated with people operations.
+The People Operations Team plays a critical role in influencing and supporting the people strategy within the GitLab - collaboratively working to develop, optimize and implement people processes and programs while overseeing the day-to-day responsibilities associated with people operations.
 
-## People Connect
+## People Operations
 
 ## Levels
 
-### People Connect Specialist
+### People Operations Specialist
 
-The People Connect Specialist reports to the Manager, People Connect.
+The People Operations Specialist reports to the Manager, People Operations.
 
 #### Job Grade
 
-The People Connect Specialist is a [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The People Operations Specialist is a [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
@@ -37,13 +37,13 @@ The People Connect Specialist is a [Grade 5](/handbook/total-rewards/compensatio
 - Able to split focus across a diverse yet equally important set of functions.
 - Strong verbal and written communication skills.
 
-### Senior People Connect Specialist
+### Senior People Operations Specialist
 
-The Senior People Connect Specialist reports to the Manager, People Connect.
+The Senior People Operations Specialist reports to the Manager, People Operations.
 
 #### Job Grade
 
-The Sr People Connect Specialist is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Sr People Operations Specialist is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
@@ -67,13 +67,13 @@ The Sr People Connect Specialist is a [Grade 6](/handbook/total-rewards/compensa
 - Ability to demonstrate integrity and maintain confidentiality.
 - Excellent interpersonal skills and ability to establish strong relationships at all levels and across functions.
 
-### People Connect Lead
+### People Operations Lead
 
-The People Connect Lead reports to the Manager, People Connect.
+The People Operations Lead reports to the Manager, People Operations.
 
 #### Job Grade
 
-The People Connect Lead is a [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The People Operations Lead is a [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
@@ -84,7 +84,7 @@ The People Connect Lead is a [Grade 7](/handbook/total-rewards/compensation/comp
 - Monitor and leverage metrics and trends to determine process improvement opportunities ultimately working to enhance the team member experience.
 - Collaborate with Employment Solutions and various stakeholders such as third party employers to ensure that regional employment contracts, policies and practices are aligned to the unique requirements of each location i.e. data retention, legislative, regulatory and taxation.
 - Serve as a Subject Matter Expert (SME) for various modules within our People Systems.
-- Accountable for knowledge transfer within the People Connect team in close collaboration with various stakeholders e.g. Total Rewards, Learning and Development, Stock Administration, etc.
+- Accountable for knowledge transfer within the People Operations team in close collaboration with various stakeholders e.g. Total Rewards, Learning and Development, Stock Administration, etc.
 - Support as Program Manager for the delivery of key programs such as the 360 Feedback Cycle, Engagement Surveys and Performance Assessments.
 - Conduct exit interviews for People Group and E-Group Members identifying and reporting on trends.
 
@@ -98,21 +98,21 @@ The People Connect Lead is a [Grade 7](/handbook/total-rewards/compensation/comp
 - Ability to demonstrate integrity and maintain a high level of confidentiality.
 - Excellent interpersonal skills and ability to establish strong relationships at all levels and across functions.
 
-## Manager, People Connect
+## Manager, People Operations
 
-The Manager, People Connect reports to the Director, Global People Operations
+The Manager, People Operations reports to the Director, Global People Operations
 
 ### Job Grade
 
-The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, People Operations is a [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
 - Onboard, mentor, and grow the careers of all team members.
-- Coach and mentor People Connect team to effectively address team member queries in line with our values.
+- Coach and mentor People Operations team to effectively address team member queries in line with our values.
 - Work with the Director, People Operations to shape a strategy that aligns and moves GitLab towards continued growth, innovation and improvement.
 - Manage and recommend improvements for program management including rollout, communication, reporting and metrics of Organizational health, Engagement Survey, DIB related surveys, 360 feedback cycle and Performance/ Potential Matrix Assessment.
-- Provide training and support to the People Connect team to address team member and leadership queries effectively and timely.
+- Provide training and support to the People Operations team to address team member and leadership queries effectively and timely.
 - Seek and review potential blockers of various People Operations processes and ensuring improvement on daily tasks and suggest automation where needed.
 - Review and improve Slack answers and continue to train and mentor the team to update information in the handbook, for easy access to all.
 - Manage and maintain an SLA to track response times for email queries across timezones.
@@ -151,13 +151,13 @@ The Manager, People Connect is a [Grade 8](/handbook/total-rewards/compensation/
 - High sense of urgency and accuracy
 - Experience at a growth-stage tech company
 
-## Senior Manager, People Connect
+## Senior Manager, People Operations
 
-The Senior Manager, People Connect reports to Director, Global People Operations.
+The Senior Manager, People Operations reports to Director, Global People Operations.
 
 ### Job Grade
 
-The Senior Manager, People Connect is a [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, People Operations is a [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 

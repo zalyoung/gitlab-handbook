@@ -37,7 +37,7 @@ or tools ([like Workday](/handbook/people-group#using-workday)) or anything rela
 [creating an issue](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/new)
 in the People Group Engineering project. All issues are reviewed and prioritized to a specific team through our [kanban board](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/2641488). If you require general support with MR's, kindly collaborate with all of GitLab team members in [`#mr-buddies`](https://gitlab.slack.com/archives/CLM8K5LF4) in slack.
 
-If you are looking for help regarding general inquiries such as: payroll, paid time off, benefits, etc. Please reach out to our People Connect team via HelpLab.
+If you are looking for help regarding general inquiries such as: payroll, paid time off, benefits, etc. Please reach out to our People Operations team via HelpLab.
 
 If you are looking to bring the People Group Engineering team into a discussion/issue/merge request on GitLab, please utilize our group tag: `@gl-people-engineering` to ping the appropriate team members.
 

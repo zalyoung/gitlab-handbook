@@ -1429,7 +1429,7 @@ On folder #5 in the [6Sense segments list](https://gitlab.abm.6sense.com/segment
 
 ### Onboarding
 
-GitLab People Connect Team members will [create the onboarding issue](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#timing) and start completing the onboarding tasks, no later than one week before the new team member joins. People Connect Team members require a minimum of 4 business days (with the new hire timezone as the basis) before the new hire's start date to complete all onboarding tasks. This issue will be automatically assigned to you. As a manager, you will [also have tasks](/handbook/people-group/general-onboarding/#managers-of-new-team-members) that need to be completed prior to the new team member's start date.
+GitLab People Operations Team members will [create the onboarding issue](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#timing) and start completing the onboarding tasks, no later than one week before the new team member joins. People Operations Team members require a minimum of 4 business days (with the new hire timezone as the basis) before the new hire's start date to complete all onboarding tasks. This issue will be automatically assigned to you. As a manager, you will [also have tasks](/handbook/people-group/general-onboarding/#managers-of-new-team-members) that need to be completed prior to the new team member's start date.
 
 The general onboarding issue will also automatically add a ['Sales Development' section](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_sales_development.md) under 'Job Specific Tasks' based on the role of the new SDR. Both you and your new hire will have tasks to complete in this section.
 
@@ -1438,7 +1438,7 @@ With the creation of this issue, an [access request (AR) will also be automatica
 
 #### New Hire's First Day
 
-On your new hire's first day, the assigned People Connect Team member will [schedule a welcome email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#day-1-onboarding-tasks) to arrive at 7:30am (local time of the new team member) on their start date detailing how your new hire can access GitLab and begin their onboarding process.
+On your new hire's first day, the assigned People Operations Team member will [schedule a welcome email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#day-1-onboarding-tasks) to arrive at 7:30am (local time of the new team member) on their start date detailing how your new hire can access GitLab and begin their onboarding process.
 
 #### Manager Onboarding Checklist
 
@@ -1459,9 +1459,9 @@ On your new hire's first day, the assigned People Connect Team member will [sche
 
 ### Career Mobility Issues
 
-A career mobility issue should be opened 2 weeks before the transition date by the people connect team. If the aligned manager does not see that issue created 2 days before the scheduled transition date, the manager should reach out to the People Connect Team via the [#people-connect Slack Channel](https://gitlab.slack.com/archives/C02360SQQFR).
+A career mobility issue should be opened 2 weeks before the transition date by the People Operations team. If the aligned manager does not see that issue created 2 days before the scheduled transition date, the manager should reach out to the People Operations Team via the [#people-connect Slack Channel](https://gitlab.slack.com/archives/C02360SQQFR).
 
-**People connect opens mobility issue if any of the following are true:**
+**People Operations opens mobility issue if any of the following are true:**
 
 1. If there is a change in department.  Ex. SDR/BDR moves to the SMB Sales Team
 2. Someone changes from Individual Contributor to Manager

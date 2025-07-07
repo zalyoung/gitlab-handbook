@@ -32,7 +32,7 @@ description: "This page discusses the Internal Hiring Process"
 - Once the Recruiter receives an internal team members application, they will proceed with the following:
   - Review the application as you would with an external candidate and determine if they are qualified for the role. If they are not qualified, please ensure you communicate the decision via email (or slack) and provide clear feedback as to why they are not qualified, and add the hiring manager so they are looped in and can add additional feedback if appropriate.
   - Ensure the internal team members GitLab email is associated with their application. If it is not, then update it as such and notify the team member of the change in email address to ensure all the communication throughout the interview process is directed here.
-  - If the internal candidate is considered qualified for the role, reach out to People Connect by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380).
+  - If the internal candidate is considered qualified for the role, reach out to People Operations by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380).
     - Once you have received a reply on eligibility please continue with the steps below
     - If they have additional questions, they may reach out to the team member's current PBP.
 - For promotions through the internal mobility process (upward movement from one job grade to another), tag the department specific People Business Partner in the notes section of Greenhouse to ensure they are aligned before moving forward with the offer. Additionally, confirm that the offer has been approved by the skip-level leader of the new role.
@@ -54,8 +54,8 @@ description: "This page discusses the Internal Hiring Process"
   - TA will not discuss any compensation changes with the team member's current manager.
   - TA will not provide updates on interview feedback or progress to a team member's current manager. This should be discussed between managers and team members during 1:1s.
   - Should the Recruiter not have access to a team members compensation (due to moving Divisions), you should
-    - Reach out to People Connect by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
-    - Within 48 hours, the People Connect team will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager).
+    - Reach out to People Operations by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Operations will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
+    - Within 48 hours, the People Operations team will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager).
 
 ### Template for the Recruiter's slack message
 
@@ -77,11 +77,11 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 - Please follow the scheduling process for executive scheduling
 - Recruiters will notify CES via Greenhouse once a [Job Change Letter (JCL)](/handbook/people-group/promotions-transfers/#job-change-letter) is ready to be sent.
 
-## People Connect Responsibilities
+## People Operations Responsibilities
 
-- People Connect will handle all eligibility checks for team members applying for an internal opportunity.
-  - For eligibility checks for candidates on the People Connect team please reach out directly to the Manager of the People Connect team.
-- Engage People Connect by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380). People Connect will notify the Recruiter that the eligibility check is completed by replying to the request submitted via HelpLab. Ensure you have met your department specific eligibility requirements:
+- People Operations will handle all eligibility checks for team members applying for an internal opportunity.
+  - For eligibility checks for candidates on the People Operations team please reach out directly to the Manager of the People Operations team.
+- Engage People Operations by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380). People Operations will notify the Recruiter that the eligibility check is completed by replying to the request submitted via HelpLab. Ensure you have met your department specific eligibility requirements:
   - Guidelines for performance eligibility:
     - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
     - Team members whose Performance is assessed as Developing or are actively undergoing written performance management, may not be eligible. These situations require manager and/or PBP approval to proceed.
@@ -92,10 +92,10 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
       - Business driven transfers (example of realignments)
       - SDR 12 months in role
       - SDR/BDR Team Lead 3 months in role
-- For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
+- For any situations where further discussion may be needed, People Operations Leads will go to the department specific [PBP](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 - At the offer stage, should the Recruiter not have access to compensation data (due to a candidate moving Divisions for example), they will submit a request via HelpLab to attain current compensation information:
-  - People Connect checks Workday for current team member base compensation.
-  - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
+  - People Operations checks Workday for current team member base compensation.
+  - People Operations will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
 
 ## Current Manager Responsibilities
 

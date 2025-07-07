@@ -255,7 +255,7 @@ The conversion from local currency to USD or EUR will be calculated at the time 
 
 If a team member is currently paid in a non-local currency, they may request to move back to their local currency. Once a team member has requested to move back to their local currency, this decision will be final.
 
-Please reach out to People Connect in order to understand if you are eligible to update your currency to USD or EUR and to initiate this process.
+Please reach out to People Operations in order to understand if you are eligible to update your currency to USD or EUR and to initiate this process.
 
 ## Hourly Employees
 

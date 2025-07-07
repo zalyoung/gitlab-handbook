@@ -154,5 +154,5 @@ For guidance on how much budget to request per order, please refer to these spen
 | Swag design | Brand Creative team: `@amittner` |
 | Swag design - project management | Brand Creative team: `@mnovosel` |
 | New hire swag | Talent Brand team: `@cchiodo` |
-| Anniversary swag | People Connect team: `@ameeks` |
+| Anniversary swag | People Operations team: `@ameeks` |
 | New parent swag | Absence Management team: `@lyndemeiers` |
