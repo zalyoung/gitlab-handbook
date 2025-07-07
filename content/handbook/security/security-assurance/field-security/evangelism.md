@@ -31,6 +31,17 @@ Field Security's goal is to take a holistic approach to security evangelism. We 
 - Conferences (Information gathering and speaking engagements)
 - Roadshows
 
+## Field Security Tech Talks
+
+The Field Security team has developed custom sessions to be delivered on thought leadership topics. Two objectives:
+
+- Develop training to upskill the sales organisation on security topics to better sell to these personas
+- Deliver sessions to customers to present vendor-neutral security materials while tying back practical steps to GitLab
+
+The Field Security team partners with Customer Success, Solution Architecture and Sales to deliver sessions to the right stakeholders.
+
+A 
+
 ## How can you help?
 
 Continuous and open feedback from all of our team members is more than appreciated. If you're interfacing with a prospect or a customer and you learn of a concern, a suggestion, a "want" or a "need", please forward that information to Field Security. Your feedback will help drive our roadmap and strategy so that we can help GitLab deliver more value to our customers and the industry.
