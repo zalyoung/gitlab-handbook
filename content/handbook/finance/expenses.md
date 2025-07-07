@@ -394,9 +394,10 @@ The company will cover all work-related travel expenses. This includes lodging a
 - What's included - Essential items which you will need to ensure you are able to perform your role in GitLab should include chair, desk, monitor, Laptop (provided), headset, external mic, external keyboard and external mouse.
 - Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, can also be considered and expensed using the Stipend/Allowance.
 - Any items outside this will fall under an exception to the policy and will be subjected to review.
-- In addition the following items are **not reimbursable**: Phones, watches, smart speakers, smart TVs/smart monitors, walking pads/treadmills and tablets.
+- In addition, the following items are **not reimbursable**: Phones, watches, smart speakers, smart TVs/smart monitors, walking pads/treadmills, tablets, hard drives, Network Attached Storage (NAS) devices, cloud storage providers (e.g. pcloud), and desktop computers.
 - Purchasing from Private Sellers (e.g. either new or used equipment) is allowed. To expense them, attach the screenshot of your transaction with the seller showing the amount agreed upon, payment method, and item details in the description field. If paid via online transfer, attach the receipt for back up.
 - If you have any doubts please connect with the Expense Team by submitting a request under the `Expenses -> Home Office Equipment` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/). Please note that these purchases are still reviewed by your manager and accounting teams, and any misappropriation of these funds will be flagged.
+- It can take up to 3 months for a purchase to be reviewed and approved by the accounting team, so please keep this in mind when submitting an expense near the end of the year, since it's possible for an expense submitted in the previous calendar year to be rejected in the following calendar year.
 
 ##### New Hires- 1,500 USD (or equivalent local currency) Guidelines
 
