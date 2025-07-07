@@ -73,7 +73,7 @@ Each project within these environments maintains the following branch structure:
 
 ### Translation Preview 
 
-Our production fork of the gitlab-docs project includes a dedicated branch for internationalization development:
+Our [production fork](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs) of the [docs-gitlab-com](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project includes a dedicated branch for internationalization development:
 
 `main-development` – Our i18n feature development environment that:
 
