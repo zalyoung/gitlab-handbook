@@ -165,3 +165,6 @@
 
 # Cells project moved - remove 2025-12-22
 /handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
+
+# Expansion Engineer page - remove 2025-10-07
+/handbook/engineering/expansion-development/ /handbook/engineering/development/sec/ 301

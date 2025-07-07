@@ -35,7 +35,7 @@ The Compliance group's mission is to provide visibility into an organizations co
 
 ### Code Review
 
-Because this group works on components of the application that have a [far-reaching impact](/handbook/engineering/expansion-development/#reducing-the-impact-of-far-reaching-work), we take these extra steps in order to reduce our risk of a production incident:
+Because this group works on components of the application that have a [far-reaching impact](/handbook/engineering/devops/#reducing-the-impact-of-far-reaching-work), we take these extra steps in order to reduce our risk of a production incident:
 
 1. To build more institutional knowledge across the team we try to assign our merge requests to another Compliance team member for first review.
 1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.

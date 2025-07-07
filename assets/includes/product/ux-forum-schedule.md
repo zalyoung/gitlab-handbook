@@ -4,7 +4,7 @@
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
 | 2025-06-25 | Marcel van Remmerden | Ilonah Pelaez          | Lina Fowler            | Pedro Moreira da Silva |
-| 2025-07-09 | Justin Mandell       | Nick Brandt            | Veethika Mishra        | Jesse Young            |
+| 2025-07-09 | Justin Mandell       | Will Leidheiser        | Veethika Mishra        | Jesse Young            |
 | 2025-07-23 | Marcel van Remmerden | Graham Bachelder       | Trevor Storey          |                        |
 | 2025-08-06 | Jacki Bauer          | Andrew Bacon           | Julia Miocene          | Dan Mizzi-Harris       |
 | 2025-08-20 | Taurie Davis         | Chad Lavimoniere       | Amelia Bauerly         |                        |
