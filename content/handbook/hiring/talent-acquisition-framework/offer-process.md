@@ -57,7 +57,7 @@ A description on what to input into each Offer field in Greenhouse can be found 
 {{% details summary="Offer Fields and How to Use Them" %}}
 
 - **Opening:** If you have multiple openings, you are typically choosing the one that started the earliest. You can check the approvals tab to confirm this, but you should also be able to tell based on the smallest opening number. Choosing the earliest opening helps ensure an accurate Time to Fill.
-- **Start date:** New hires start on Monday, with exceptions made for public holidays for a new hires' location, Family & Friends Day, and other designated [no start dates](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/) as chosen by People Connect. Additionally, internal hires with salary changes start on the 1st or 16th only (regardless of the day of the week), and those in Sales can only start on the 1st.
+- **Start date:** New hires start on Monday, with exceptions made for public holidays for a new hires' location, Family & Friends Day, and other designated [no start dates](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/people_connect_team/) as chosen by People Connect. Additionally, internal hires with salary changes start on the 1st or 16th only (regardless of the day of the week), and those in Sales can only start on the 1st.
 - **Job Title:** It's important that we use the correct title, which should not include a specialty. People Managers have "Manager, " before the rest of their title, whereas individual contributors will have the title followed by Manager. Total Rewards will review this title to ensure it matches with those in Workday. In some cases, such as Area Sales Manager, industry standards indicate that our expected conventions will not work and exceptions are made.
 - **Level of Role:** Anything Director+ is considered a "Leader"
 - **Division:** This field is synched with Workday and will update as new divisions are created.
@@ -159,7 +159,7 @@ Once the offer is fully approved in Greenhouse, an offer will be verbalized to t
 
 Offer details usually include:
 
-- [Start Date](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/) - ensure that the candidates start date is not a no-start date (unless needed for legal reasons) and is at least 10 buisness days from offer acceptance. For PEOs, partner with CES to build in appropriate leadtime.
+- [Start Date](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/people_connect_team/) - ensure that the candidates start date is not a no-start date (unless needed for legal reasons) and is at least 10 buisness days from offer acceptance. For PEOs, partner with CES to build in appropriate leadtime.
 - Job Title
 - Salary
 - General and specific [benefits](/handbook/total-rewards/benefits/)

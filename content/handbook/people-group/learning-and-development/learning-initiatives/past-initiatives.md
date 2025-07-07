@@ -254,7 +254,7 @@ The following process outlines steps for the L&D team to take when planning and 
 1. Collaborate with exec team, mid-level people leaders, and other interested GitLab Team members to gauge interest and availability to be featured in the call. Be mindful to include diverse voices from across the GitLab team.
 1. Plan on a quarterly basis if possible. Create a series based on a topic that is high need for managers or ICs at GitLab.
 1. Ensure external speakers have been validated and that the topic covered aligns with our values.
-1. Create a calendar event and share it with the `GitLab Team Meetings` calendar. Invite the `everyone` alias. Post in the [#people-connect Slack channel](https://app.slack.com/client/T02592416/C0SNC8F2N/thread/C0SNC8F2N-1602618225.269200) to accept event on the team meetings calendar. Consider hosting the call at least 2 times, or varying session times throughout a quarterly series, to accommodate for multiple time zones.
+1. Create a calendar event and share it with the `GitLab Team Meetings` calendar. Invite the `everyone` alias. Post in the [#people-operations Slack channel](https://app.slack.com/client/T02592416/C0SNC8F2N/thread/C0SNC8F2N-1602618225.269200) to accept event on the team meetings calendar. Consider hosting the call at least 2 times, or varying session times throughout a quarterly series, to accommodate for multiple time zones.
 1. Test Zoom functionality with the speaker at least two business days before event.
     - If external speaker, ensure they have downloaded [Zoom](https://zoom.us/support/download).
     - Have speaker test [audio and video](/handbook/tools-and-tips/zoom#how-to-test-audio-and-video-in-zoom).

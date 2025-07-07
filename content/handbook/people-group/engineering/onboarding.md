@@ -64,7 +64,7 @@ The invite email is send to their `GitLab` email address which they will get acc
 
 ## Onboarding Email
 
-This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/email_templates) that is sent to our team members on the morning of their first day of employment (based upon the onboarding date in the issue title). The email is cc'd to `people-connect@domain`.
+This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/email_templates) that is sent to our team members on the morning of their first day of employment (based upon the onboarding date in the issue title). The email is cc'd to `people-operations@domain`.
 
 Every day we run 3 scheduled pipelines. They are each set up for a specific region:
 
@@ -85,7 +85,7 @@ We fetch some other data besides the region as well:
 - their onboarding issue URL
 - their name
 
-This data is used to populate the email that we then send to them. The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody monitors replies to `onboarding@`. The email address is strictly used for automation.
+This data is used to populate the email that we then send to them. The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-operations@domain` as nobody monitors replies to `onboarding@`. The email address is strictly used for automation.
 
 ### Manual Onboarding E-Mail
 
@@ -114,14 +114,14 @@ If changes are required to the onboarding email template, follow these steps to 
 
 ## Swag Email
 
-This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/swag_email.md) that is sent on the first day of a new team member so they receive the instructions to redeem their new hire swag. The email is cc'd to `people-connect@domain`.
+This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/swag_email.md) that is sent on the first day of a new team member so they receive the instructions to redeem their new hire swag. The email is cc'd to `people-operations@domain`.
 
 Every day at 9 AM UTC we run a scheduled pipeline. This pipeline will fetch all the eligible team members. An eligible team
 member means:
 
 - Team member who is on their first day of employment at GitLab
 
-The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody
+The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-operations@domain` as nobody
 monitors replies to `onboarding@domain`. The email address is strictly used for automation.
 
 ## Access Request issue creation

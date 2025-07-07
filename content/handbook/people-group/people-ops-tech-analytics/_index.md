@@ -58,11 +58,11 @@ The People Operations, Technology & Analytics Team primarily uses these sub-grou
 
 You can tag the People Operations in GitLab using:
 
-- '@gl-people-connect-team' - this notifies the entire People Connect team
+- '@gl-people-operations-team' - this notifies the entire People Connect team
 
 ### People Operations Team Handbook Navigation
 
-- [People Connect team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
+- [People Connect team](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/people_connect_team/)
 - [People Engineering Handbook](/handbook/people-group/engineering)
 - [People Compliance](/handbook/people-group/people-compliance)
 - [People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics/)

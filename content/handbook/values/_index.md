@@ -1340,7 +1340,7 @@ Whatever behavior you reward will become your values. We reinforce our values by
 1. Behavior we give each other [360 feedback](/handbook/people-group/360-feedback/) on.
 1. Behavior we [compliment](/handbook/communication/#say-thanks).
 1. Criteria we use for [discretionary bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses).
-1. What we include in our [offer letters](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
+1. What we include in our [offer letters](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/)
 1. Criteria we use to [manage underperformance](/handbook/leadership/underperformance/).
 1. What we do when we [let people go](/handbook/people-group/offboarding/).
 1. Giving value awards during [GitLab Summit](/handbook/company/culture/summit/).

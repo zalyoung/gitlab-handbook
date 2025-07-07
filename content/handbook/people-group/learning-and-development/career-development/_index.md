@@ -102,7 +102,7 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 GitLab team members [should not feel pressure to climb the career ladder](/handbook/leadership/1-1/#key-points). Skill development and promotion are not mutually exclusive. [Unique experience influences problem solving](/handbook/company/culture/inclusion/) and views of success.
 
-You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Operations or your People Business Partner](/handbook/people-group/people-connect#-connect-with-us).
+You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Operations or your People Business Partner](/handbook/people-group/people-operations#-connect-with-us).
 
 | Topic | Definition | Examples |
 | ----- | ----- | ----- |

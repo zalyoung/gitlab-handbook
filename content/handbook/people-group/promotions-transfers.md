@@ -582,7 +582,7 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 - Demotions should also include a review of [compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once agreement is reached on the demotion and changes (if any) in Team will act as the point of escalation to have any demotion reviewed and approved by the Compensation Group once the relevant google doc is complete.
 - Once approved, the manager informs the individual and should request the necessary changes by submitting a [request via HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=c15e3b45478c069067429ee0026d43e1). A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
-- The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes](/handbook/people-group/promotions-transfers/#for-people-connect-team-processing-promotions-internal-transfers--compensation-changes).
+- The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes](/handbook/people-group/promotions-transfers/#for-people-operations-team-processing-promotions-internal-transfers--compensation-changes).
 - Communication should be on a need-to-know basis only and should not be made public out of respect for the individual.
 - The manager will initiate any necessary access requests or access change requests.
 
@@ -791,7 +791,7 @@ Any other role changes where a Manager feels their team member's role may requir
 
 ## Organization Change Checklist Creation Process
 
-The [People Connect Specialist](/job-families/people-group/people-connect) in the respective rotation will open a Organization Change Checklist when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
+The [People Connect Specialist](/job-families/people-group/people-operations) in the respective rotation will open a Organization Change Checklist when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
 
 The People Connect Leads will pull a monthly report to check that any qualifying team members did get their Organization Change Checklist is opened.
 

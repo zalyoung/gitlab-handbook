@@ -226,7 +226,7 @@ New team members often struggle to find the right set of slack channels to parti
   - #company-fyi
   - #it-help
   - #ai_field_strategy
-  - #people-connect
+  - #people-operations
   - #escalated_customers
   - #thanks
   - #whats-happening-at-gitlab

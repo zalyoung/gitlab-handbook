@@ -196,7 +196,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
   manager: achan
   counterpart: aromaniello
   gitlab_saas_tag: '@ajrom'
-  slack_channel: '#people-connect|#peopleops-eng'
+  slack_channel: '#people-operations|#peopleops-eng'
   handbook_page: 'https://handbook.gitlab.com/handbook/people-group/engineering/'
   issue_tracker: 'https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues'
 - sec_compliance_commercial:

@@ -23,7 +23,7 @@ These standards apply to all GitLab team members hired through GitLab Israel Ltd
 
 ## Employment Contracts
 
-GitLab's Team Member contract templates, including for Israel, (which will be listed in due course) are [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#israel) for reference purposes, viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab's Team Member contract templates, including for Israel, (which will be listed in due course) are [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/#israel) for reference purposes, viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
 
 ## Employment Policies

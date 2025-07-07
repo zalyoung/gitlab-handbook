@@ -81,7 +81,7 @@ Please refer to the [Global Travel and Expense Policy Handbook Page](/handbook/f
 
 In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
 
-Always **check the website of the Embassy of the Country you want to visit** located in your home country. They will have the most updated information on whether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. [ESTA](https://esta.cbp.dhs.gov/esta/)) in other cases you might need to arrange a tourist or business visa. Read their website carefully and if you need an invitation letter for your application you can request one following [this process](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested#visa-invitation-letter). If you need any further help with acquiring the needed documents for your application, please create a case for the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) with the information required.
+Always **check the website of the Embassy of the Country you want to visit** located in your home country. They will have the most updated information on whether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. [ESTA](https://esta.cbp.dhs.gov/esta/)) in other cases you might need to arrange a tourist or business visa. Read their website carefully and if you need an invitation letter for your application you can request one following [this process](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/frequently_requested#visa-invitation-letter). If you need any further help with acquiring the needed documents for your application, please create a case for the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) with the information required.
 
 #### Tips & Tricks for visa arrangements {#visa-tips}
 
@@ -91,7 +91,7 @@ Always **check the website of the Embassy of the Country you want to visit** loc
 - Double check if you have all the needed documentation and information.
 - Think of the answers you will give during your visa interview; it can influence your visa approval/denial.
 - Once the dates for a conference or summit are set, start as soon as possible with your application. If you have needed a special visa in previous situations, just to give yourself enough time and room for errors if they arise.
-- If required, you can request a Visa Invitation Letter following [this](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#visa-invitation-letter) process
+- If required, you can request a Visa Invitation Letter following [this](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/frequently_requested/#visa-invitation-letter) process
 
 ##### Timeline guide for visa applications
 

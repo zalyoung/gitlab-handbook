@@ -17,7 +17,7 @@ For system access questions and [laptop wipes](https://internal.gitlab.com/handb
 
 For payroll questions or outstanding expense claims, please reach out to either `uspayroll@gitlab.com` or `nonuspayroll@gitlab.com`.
 
-For any other offboarding questions from active team members please reach out to People Connect via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c) or send an email to `people-connect@gitlab.com` if your access has already been terminated.
+For any other offboarding questions from active team members please reach out to People Connect via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=897eb385478c069067429ee0026d432c) or send an email to `people-operations@gitlab.com` if your access has already been terminated.
 
 **Note:** If a termination date changes, please reach out to People Connect via HelpLab. The team will update Workday.  The notice is used as supporting documentation of the change and is saved in the team members Workday record. If the team member is employed via a PEO, they will also be notified by People Connect.
 

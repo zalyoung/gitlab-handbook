@@ -6,7 +6,7 @@ title: "GitLab People Connect"
 
 GitLab Team Members can now reach out to us at the touch of a button via [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab).
 
-If you are external to GitLab but have a question for our team be sure to email people-connect@gitlab.com.
+If you are external to GitLab but have a question for our team be sure to email people-operations@gitlab.com.
 
 <a href="https://helplab.gitlab.systems/esc" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> HelpLab</a>
 
@@ -51,7 +51,7 @@ ServiceNow is a SaaS Enterprise Service Management Platform that enables organiz
 | Interaction Type | Communication Mechanism |
 | ----- | ----- |
 | **Internal**: Inquiry is from a current GitLab team member | [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab). |
-| **External**: Inquiry is from a former GitLab team member or External party | people-connect@gitlab.com |
+| **External**: Inquiry is from a former GitLab team member or External party | people-operations@gitlab.com |
 
 GitLab remains a [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) organization. However, in instances where the answer to a people-related question is not apparent, the next port of call would be People Connect.
 

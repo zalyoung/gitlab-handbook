@@ -11,7 +11,7 @@ HelpLab is a GitLab's branding of the ServiceNow Platform.
 
 ## Why ServiceNow?
 
-The solution combines the `#people-connect`, `#stock-admin`, `#expense-reporting-inquiries`, and `#payroll` and `#it_help` Slack channels into a single destination. No more searching for the right Slack channel for your various questions; you will be able to get the help you need all in one place.
+The solution combines the `#people-operations`, `#stock-admin`, `#expense-reporting-inquiries`, and `#payroll` and `#it_help` Slack channels into a single destination. No more searching for the right Slack channel for your various questions; you will be able to get the help you need all in one place.
 
 Additionally, this solution supports our continued emphasis on keeping team members' sensitive information secure and confidential. When you reach out for support, you will know that it's being handled with the utmost care to maintain your privacy.
 
@@ -23,7 +23,7 @@ ServiceNow (aka HelpLab) is going to be live on 2024-04-25.
 
 The following teams are available through HelpLab:
 
-- [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/)
+- [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/)
 - [People Compliance](/handbook/people-group/people-compliance/)
 - [Background Checks](/handbook/people-group/contracts-probation-periods/#background-screenings)
 - [Global Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)

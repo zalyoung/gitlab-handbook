@@ -124,7 +124,7 @@ There are times when you need to find every instance of a word, phrase or link a
 **Terminal**
 
 1. `git add .` (This will add all your current changes from VS Code.)
-1. `git commit -m "Title of your MR"` (Ex. `"Update #peopleops Slack Channel to #people-connect"` and be sure to enter your Title within quotation marks.)
+1. `git commit -m "Title of your MR"` (Ex. `"Update #peopleops Slack Channel to #people-operations"` and be sure to enter your Title within quotation marks.)
 1. `git push`
 1. You will get a message in terminal saying `To push the current branch and set the remote as upstream, use` and then there will be a sentence starting with `git push`. Copy and paste this sentence to your most current, active Terminal line, which ends in %.
 1. You will see a line in Terminal containing `remote: <https://gitlab.com/> ....`. Cut and paste the link starting with https:// to your browser. This will take you to your Create Merge Request page. Now you can continue in your browser as you would when creating a MR in Web IDE.

@@ -331,7 +331,7 @@ If you have a suggestion for a new or existing REVIEWED email template for the R
 
 To create a new offer template or update an existing one in Greenhouse, follow these steps:
 
-- Download the template as a Word document from the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
+- Download the template as a Word document from the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/)
 - In Greenhouse, navigate to Settings > Offer Templates > Upload New Template.
 - Enter the name of the Offer template, and include any additional instructions for CES (add initials, checkbox, textbox etc),  then upload the Word document. Click "Save Template".
 - Test the new template by clicking the "Test" button. This will check if all tokens in the document are functioning correctly. If the test is successful, click "OK."

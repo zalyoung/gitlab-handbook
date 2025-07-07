@@ -92,7 +92,7 @@ Support PEO vendor selection process by gathering data and participating in vend
 
 ### Manager, Global Workforce Strategy
 
-The Manager, Global Workforce Strategy reports to the [Director, People Operations](/job-families/people-group/people-connect/).
+The Manager, Global Workforce Strategy reports to the [Director, People Operations](/job-families/people-group/people-operations/).
 
 #### Job Grade
 
@@ -139,7 +139,7 @@ The Manager, Global Workforce Strategy is a [grade 8](/handbook/total-rewards/co
 
 ## Career Ladder
 
-The next step in the People Operations job family is to move to the [People Operations and Leadership job family](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/job-families/people-group/people-connect/index.html.md).
+The next step in the People Operations job family is to move to the [People Operations and Leadership job family](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/job-families/people-group/people-operations/index.html.md).
 
 ## Hiring Process
 
