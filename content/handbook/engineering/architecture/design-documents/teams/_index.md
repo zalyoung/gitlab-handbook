@@ -420,10 +420,7 @@ The existing roles system addresses permission granularity through up to 40+ spe
 
 **Feature Integration Requirements:**
 
-- CI/CD pipeline permission integration for runner access and deployment gates
-- Package registry access control for private packages and container images
-- Security scanning and vulnerability management permission inheritance
-- Issue and merge request access patterns for cross-functional collaboration
+- All existing access patterns in all DevOps stages must continue to work with Teams-based accesses
 
 ### External Integration Requirements
 
