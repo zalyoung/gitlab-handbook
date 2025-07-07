@@ -258,6 +258,12 @@ Working with the Sales Development and Marketing Analytics teams, Marketing Oper
 
 To share feedback on our Lead Scoring model during the year, please leave a comment in [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10872). We review this issue often and consider each item when updating our Lead Scoring model.
 
+When leaving feedback, it is important to provide effective details regarding why the change is being requested. Without those details, changes will take longer to research and may over time lose the needed context behind their validity. At the minimum, please include:
+
+- A link to an affected SFDC lead - OR for multiple leads a Google sheet including columns useful for analysis OR a SFDC report 
+- A summary of the perceived problem and how it is influencing workflows
+- If applicable, list a recent campaign that should have scored more/less
+
 ##### Scoring Revamp FY25Q1
 
 For details on the data driven changes made to lead scoring at the beginning of FY25, refer to [this slide deck](https://docs.google.com/presentation/d/14bTq_KOyG7jHJR7vghcUVAZ_tMSOgbAN7hI8auI49eU/edit#slide=id.g1d24c3e4ddd_5_252) and [this slide deck](https://docs.google.com/presentation/d/1B8Q3Rq6O7-641rFoGOJOG6TxKHM_uAU29Ejbzqr2KMI/edit#slide=id.g1d24c3e4ddd_5_252) to review the data set findings.
