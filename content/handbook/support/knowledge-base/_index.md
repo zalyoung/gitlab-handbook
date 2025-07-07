@@ -94,7 +94,7 @@ If you are NOT a ZenDesk User, and want to create a knowledge article, you can d
 
 ### How to create a knowledge article if you are not in ZenDesk 
 
-Anyone can create a knowledge article regardless of being in ZenDesk or not (or if you are a Light Agent). To create an article you will:
+Anyone can create a knowledge article- even if you are not in ZenDesk! 
 
 1. Go to the [Folder and choose a template](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR)
 2. Create the article using the template and Save the document.
