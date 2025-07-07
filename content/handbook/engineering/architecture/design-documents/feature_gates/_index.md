@@ -1,8 +1,8 @@
 ---
-title: "Feature Gates - A unified framework for feature release control"
+title: "Feature Gates - A unified solution for feature release control"
 status: proposed
 creation-date: "2025-06-25"
-authors: [ "@splattael", "@nao.hashizume", "@kkloss", "@mgamea" ]
+authors: [ "@splattael", "@nao.hashizume", "@mgamea" ]
 coaches: [ "@rymai" ]
 dris: []
 owning-stage: "~group::developer tooling"
