@@ -143,16 +143,12 @@ An internship gives you insight into a [Data Team role](/handbook/enterprise-dat
 
 #### Openings
 
-| Quarter | Openings | Filled | Remaining Openings |
-| :---: | :---:  | :---: | :---: |
-| FY23Q1 | 0 | 0 | 0 |
-| [FY23Q2](https://gitlab.com/groups/gitlab-data/-/epics/427) | 0 | 0 | 0 |
-| FY23Q3 | 0 | 0 | 0 |
-| FY23Q4 | 1 | 1 | 0 |
-| FY24Q1 | 0 | 0 | 0 |
-| FY24Q2 | 0 | 0 | 0 |
-| FY24Q3 | 0 | 0 | 0 |
-| FY24Q4 | TBD | TBD | TBD |
+| Quarter | Openings | Filled |
+| :---: | :---:  | :---: |
+| FY26Q1 | 1 | 1 | 
+| FY26Q2 | 1 | 0 | 
+| FY26Q3 | 1 | 1 | 
+| FY26Q4 | 1 | 0 | 
 
 #### Requirements
 
