@@ -4,5 +4,5 @@ github.com/google/docsy v0.10.0/go.mod h1:c0nIAqmRTOuJ01F85U/wJPQtc3Zj9N58Kea9bO
 github.com/google/docsy/dependencies v0.7.2 h1:+t5ufoADQAj4XneFphz4A+UU0ICAxmNaRHVWtMYXPSI=
 github.com/google/docsy/dependencies v0.7.2/go.mod h1:gihhs5gmgeO+wuoay4FwOzob+jYJVyQbNaQOh788lD4=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.52 h1:vIFSWUdEOutokmIGqrTRd5Gjou/sKi0ot+yult5sLuk=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.52/go.mod h1:dfXzq2C2n11f0CnsmQEFH7PfslmM+L53IApQ1BlQtZo=
+https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/tree/328bd740f7b454bf65378257e7c9cdc451a98a7a v0.3.52 h1:vIFSWUdEOutokmIGqrTRd5Gjou/sKi0ot+yult5sLuk=
+https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/tree/328bd740f7b454bf65378257e7c9cdc451a98a7a v0.3.52/go.mod h1:dfXzq2C2n11f0CnsmQEFH7PfslmM+L53IApQ1BlQtZo=
