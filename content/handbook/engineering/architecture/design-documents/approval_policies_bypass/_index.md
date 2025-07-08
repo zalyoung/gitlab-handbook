@@ -201,10 +201,10 @@ bypass_settings:
 
 #### Database Schema
 
-A new table `approval_policy_bypass_logs` will be created to store the bypasses made by users.
+A new table `approval_policy_bypass_events` will be created to store the bypasses made by users.
 
 ```sql
-CREATE TABLE approval_policy_bypass_logs (
+CREATE TABLE approval_policy_bypass_events (
   id bigint NOT NULL,
   project_id bigint NOT NULL,
   merge_request_id bigint, // this can be NULL for cases when the user force pushes to a branch directly
