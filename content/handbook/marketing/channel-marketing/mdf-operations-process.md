@@ -49,13 +49,11 @@ Please ensure your issue is in its final state before applying this label, as an
 
 When you activate the sync, an Asana project with corresponding tasks will be automatically created. The GitLab issue description will populate the Asana overview, and tasks will be automatically assigned. Note that only one assignee can be designated per task. Additional team members can be added as collaborators to maintain visibility without changing the primary assignee.
 
-### Step 4: Update the Tracking Sheet
-
-1. Region, MDF Amount, Issue Link, Line Item ID, End Date, Status
-
-### Step 5: Partner Submits Funds Request
+### Step 4: Partner Submits Funds Request
 
 1. At this point, Partner will submit the Funds Request in Impartner
+
+#### Step 5: Add Impartner MDF Link to Asana MDF Portfolio View
 
 ## Pre-Activity
 
@@ -73,21 +71,12 @@ When you activate the sync, an Asana project with corresponding tasks will be au
      1. Description: **Allocadia Line Item ID** and issue link
          1. Example: 2271710 https://gitlab.com/groups/gitlab-com/marketing/-/epics/4420
 
-#### Step 2: Update Marketo Tokens
-
-1. Go to the Marketo Program
-1. Go on the `My Tokens` tab and update the Partner Name (listed in the issue)
-
-#### Step 3: Sync Marketo Program to SFDC
+#### Step 2: Sync Marketo Program to SFDC
 
 1. Go to the tab showcasing the Marketo Program Name
 1. In the Summary, under Settings session, Salesforce Campaign Sync, click `not set`
 1. Under Campaign, click on the dropdown and select `Create New`
 1. In Description, paste the **Allocadia Line Item ID** and save
-
-#### Step 4: Update Tracking Sheet and Issue
-
-1. Add Marketo program to issue and tracking spreadsheet.
 
 ### Zip
 
@@ -180,7 +169,7 @@ When you activate the sync, an Asana project with corresponding tasks will be au
 | Will the vendor have access to any of the following data or information?                  | None of the above |
 | Does this request involve the use of a system to collect, store, or transmit GitLab data? | No                                       |
 
-#### Step 4: Add Zip link to Tracking Sheet
+#### Step 4: Add Zip link to Asana MDF Portfolio View
 
 #### Step 5: Add Issue Link to the comment section of Zip
 
@@ -219,10 +208,6 @@ When you activate the sync, an Asana project with corresponding tasks will be au
          1. Expected Number of DR
          1. Estimated Pipeline Created (USD)
 
-#### Step 4: Update Tracking Sheet and Issue
-
-1. Add Fund Request to issue and tracking spreadsheet.
-
 ## Canceled
 
 At any time an MDF campaign has been canceled, we want to ensure all programs created get marked as cancelled or deleted.
@@ -257,6 +242,10 @@ At any time an MDF campaign has been canceled, we want to ensure all programs cr
 ### GitLab Issue
 
 1. Inform all stakeholders that the MDF campaign has been cancelled, add `Cancelled` label to issue and close the issue.
+
+### Asana Project
+
+1. Request on #mktgops slack channel to rename the Asana project to lead with `Cancelled` and ask to have the project be archived.
 
 ## Post Activity
 
