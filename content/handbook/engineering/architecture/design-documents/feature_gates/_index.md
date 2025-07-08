@@ -36,7 +36,7 @@ release control.
 
 ### Status Quo
 
-- **Manual flag creation with multiple feature types**: Engineers run `bin/feature-flag` commands and choose between gitlab_com_derisk, wip, beta, or ops flags. Each feature type has its own purpose and cleanup timelines but cleanup timing isn't enforced.
+- **Manual flag creation with multiple feature types**: Engineers run `bin/feature-flag` commands and choose  between gitlab_com_derisk, wip, beta, or ops flags. Each feature type has its own purpose and cleanup timelines but cleanup timing isn't enforced.
 - **Manual flag control through ChatOps**: Engineers manually execute `/chatops run feature set flag` commands to enable flags in staging and production environments.
 - **Manual production rollout progression**: Engineers decide when to increase rollout percentages. There's no automatic progression or set schedule between increases.
 - **No dedicated flag performance monitoring**: There's no dashboard to see how features perform before and after we enable flags or track when users start using new features. Overall monitoring shows when flags get enabled but doesn't show detailed feature usage or performance metrics.
@@ -49,16 +49,17 @@ release control.
 The current feature flag system creates several critical issues:
 
 - **No kill switches for stable features**: Once features reach general
-  availability, we lose the ability to quickly disable them during incidents.
-- **Complex cross-environment management**: Different configurations across
+  availability, we lose the ability to quickly disable them during incidents
+  because flags get removed after rollout is complete.
+- **Complex cross-environment management**: Different flag configurations across
   gitlab.com, staging, and self-managed installations create confusion and
-errors.
-- **Technical debt accumulation**: Feature flags persist long after they should
-  be removed, creating a complex matrix of configurations.
-- **Poor auditing**: Engineers, product managers, and SREs struggle to
-  keep track of feature flag states across environments.
-- **Manual processes**: Flag creation, rollout, and cleanup require significant
-  manual effort and coordination.
+errors when engineers handle rollouts manually.
+- **Technical debt accumulation**: Feature flags can stay around longer than they should
+  because cleanup depends on DRIs, and dependent flags make removal even more complex.
+- **Poor auditing**: Engineers, product managers, and SREs struggle to track feature flag 
+  states across environments because information lives in separate GitLab projects and there's no central place to see everything.
+- **Manual processes**: Flag creation, rollout progression, performance monitoring,
+  and cleanup all require significant manual work and coordination through ChatOps commands.
 
 ### Objectives
 
