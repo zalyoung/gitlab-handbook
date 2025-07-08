@@ -81,7 +81,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Internal Champion Program Processes
 
-### Champions Candidate Nomination and Onboarding
+### Champion Candidate Nomination and Onboarding
 
 **Champions Program Manager and Ecosystem Specialists**
 
@@ -93,9 +93,13 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 **Sponsor GitLab SA**
 
 1. Invite the new Champion via email address to be a `Developer` member of the [https://gitlab.com/gitlab-partners-public/gitlab-champions](https://gitlab.com/gitlab-partners-public/gitlab-champions) group.
-1. Create an [onboarding issue in the champions project](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions/-/issues/new#) for the new Champion with the New_Champion_Onboarding template.
+1. Create an [onboarding issue](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions/-/issues/new?description_template=New_Champion_Onboarding) in the Champions project for the new Champion with the `New_Champion_Onboarding` template.
 1. Complete the `GitLab Sponsoring SA Tasks` section of the issue
 1. Work with the new gitLab Champion to complete the `Partner Champion Tasks` section of the issue
+
+### Champion Offboarding
+
+Create an [offboarding issue](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions/-/issues/new?description_template=Champions_Offboarding) in the Champions project for the Champion to be removed with the `Champions_Offboarding` template.
 
 ### Posting Champions Call Recordings and Presentation
 
