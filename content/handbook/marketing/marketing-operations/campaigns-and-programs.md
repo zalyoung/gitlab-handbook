@@ -580,7 +580,7 @@ usive ownership. These contacts enter our standard nurturing process, accumulati
     - `{{my.email header image url}}` - This is optional. You will need this if you had custom images created.
     - `{{my.ondemandurl}}` - This will be entered AFTER the event date. It is the link to the recorded webcast. You will need to come back after the event and update this token.
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
-- **Partner Campaigns** will need to also to update the `{{my.partner name}}` for LIM
+- **Partner Campaigns** update the `{{my.partner name}}` used for Last Interesting Moment, and/or Landing Page Form with tokens.
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
 - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing) - note the instructions are different for Conferences and our outlined in the Conference instructions below.
 
