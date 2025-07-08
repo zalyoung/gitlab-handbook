@@ -139,7 +139,7 @@ After you complete an Area of Focus, talk with your manager about joining an on-
 
 ### Support Engineer Achievable Progress - First 6 Months
 
-Our onboarding pathway gives new Support Engineers an opportunity to learn at their own pace and explore. We strongly believe in learning by doing ([70/20/10 learning model](https://trainingindustry.com/wiki/content-development/the-702010-model-for-learning-and-development/)), and encourage Support Engineers to start contributing on tickets from as early as their 3rd week.
+Our onboarding pathway gives new Support Engineers an opportunity to learn at their own pace and explore. We strongly believe in learning by doing ([70/20/10 learning model](https://trainingindustry.com/wiki/content-development/the-702010-model-for-learning-and-development/)), and encourage Support Engineers to start contributing on tickets as soon as they can.
 
 While your growth and skill cannot be determined by metrics, the following reference table can be used as a guideline on achieving comfort with ticket management in your first 6 months in GitLab Support. Discuss your contributions with your manager if are unsure about your progress or ticket volume.
 
