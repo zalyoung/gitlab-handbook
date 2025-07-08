@@ -80,7 +80,7 @@ Let’s introduce some code to test, as well as some unit tests for the code.
 
 1. Leave all other options as default and select **Commit changes**.
 
-To run these tests, you can use the command `go test array/ArrayUtils`. Let’s see how we can integrate these tests into our CI/CD pipeline.
+      To run these tests, you can use the command `go test array/ArrayUtils`. Let’s see how we can integrate these tests into our CI/CD pipeline.
 
 ## Task B. Create test stage and job in .gitlab-ci.yml
 
@@ -102,23 +102,23 @@ Generally, tests will run inside of the test stage of a CI/CD process.
 
 1. Create a job in the test stage that runs the tests we created for ArrayUtils.
 
-{{% details summary="What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax, or click here for the solution."%}}
+      {{% details summary="What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax, or click here for the solution."%}}
 
-*Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
+      *Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
 
-```yaml
-test go:
-  stage: test
-  script: go test array/ArrayUtils
-```
+      ```yaml
+      test go:
+        stage: test
+        script: go test array/ArrayUtils
+      ```
 
-{{% /details %}}
+      {{% /details %}}
 
 1. After adding these changes, select **Commit changes**.
 
 1. View the resulting pipeline. You will now see a test stage appear. In the test stage, you will see your test job. When you select the test job, you will see that the job runs the `go test array/ArrayUtils` command. If all of your code is correct, this stage should succeed without any errors.
 
-Note that when we add the test stage, it automatically precedes our other stages like release. In this setup, if the tests fail for any reason, the stages afterwards will not run. In some cases, we may not want to cause future stages to fail if our current job fails.
+      Note that when we add the test stage, it automatically precedes our other stages like release. In this setup, if the tests fail for any reason, the stages afterwards will not run. In some cases, we may not want to cause future stages to fail if our current job fails.
 
 ## Task C. Creating a failable job
 
