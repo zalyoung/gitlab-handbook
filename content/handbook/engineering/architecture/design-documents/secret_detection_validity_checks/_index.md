@@ -15,7 +15,7 @@ toc_hide: true
 
 ## Summary
 
-Verify the validity and liveness of Secret Detection findings by programmatically checking them against their issuing services. This reduces false positives and helps users prioritize remediation of active secrets over revoked or invalid credentials.
+Verify the validity and liveness of Secret Detection findings by programmatically checking them against their issuing services. This enables security teams to prioritize remediation of active secrets over revoked or inactive credentials.
 
 See the [Verify validity/liveness of Secret Detection findings epic](https://gitlab.com/groups/gitlab-org/-/epics/13988) for more details.
 
