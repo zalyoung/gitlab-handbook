@@ -121,7 +121,7 @@ A QLE is a change in your situation — like getting married, having a baby, etc
 
 Once approved, coverage will be backdated to the date of the event.
 
-Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans) and [HSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
+Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans) and [HSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans. Note For HSA accounts you can make mid-year contribution changes without experiencing a Qualifying Life Event - changes will be reflected on the 1st of the following month. 
 
 </details>
 
@@ -794,7 +794,7 @@ Domestic Partner Reimbursements: If the team member is not legally married to th
 
 <summary>Mid-Year HSA Contribution Change</summary>
 
-Team Members can make changes to their HSA contribution throughout the year. Any changes will be reflected as of the 1st of the following month. You can make these changes via the [Qualifying Life Event Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Select "Mid-Year HSA Contribution" under event type.
+Team Members can make changes to their HSA contribution throughout the year without experiencing a Qualifying Life Event. Any changes will be reflected as of the 1st of the following month. You can make these changes via the [QLE Process](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events). Select "Mid-Year HSA Contribution" under event type, no documentation is needed for this request. 
 
 You can also choose to front-load the team member portion of your HSA contributions directly with Wex. Please contact Wex to assist you with this request. If you do choose to front-load your HSA, please be sure to take into account GitLab's contribution amount to your front-load calculation, and adjust your HSA deductions in PlanSource to update payroll deductions. GitLab is unable to track your maximum contribution if you fund the HSA outside of your payroll deductions.
 
