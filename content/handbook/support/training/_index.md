@@ -144,9 +144,9 @@ Our onboarding pathway gives new Support Engineers an opportunity to learn at th
 While your growth and skill cannot be determined by metrics, the following reference table can be used as a guideline on achieving comfort with ticket management in your first 6 months in GitLab Support. Discuss your contributions with your manager if are unsure about your progress or ticket volume.
 
 **Monthly Progress Reference Table**
-The table below shows the expected progression for First Response Time (FRT) performance and ticket volume over the first 6 months, along with milestones for onboarding to on-call responsibilities. These guidelines help track your growing efficiency and expertise in handling customer issues.
+The table below shows the expected progression for Ticket Assignment over the first 6 months, along with milestones for onboarding to on-call responsibilities. These guidelines help track your growing efficiency and expertise in handling customer issues.
 
-| Month | Weekly Ticket Volume (Associate Engineers) | Weekly Ticket Volume (Intermediate/Senior Engineers) | On-call milestones (Intermediate/Senior Engineers) |
+| Month | Weekly Ticket Assignment Volume (Associate Engineers) | Weekly Ticket Assignment Volume (Intermediate/Senior Engineers) | On-call milestones (Intermediate/Senior Engineers) |
 | ------ |  ------ | ------ |------ |
 | 1 | 1-2 SM/SaaS/Dedicated OR 5-7 SaaS Account | 1-2 SM/SaaS/Dedicated | - |
 | 2 | 1-2 SM/SaaS/Dedicated OR 8-12 SaaS Account | 2-4 SM/SaaS/Dedicated | - |
