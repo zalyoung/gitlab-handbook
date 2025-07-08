@@ -229,12 +229,3 @@ Whenever a push is made after the bypass check, an audit log is created with the
 #### Key Considerations
 
 - A new [git push option](https://git-scm.com/docs/git-push#Documentation/git-push.txt---push-optionltoptiongt) (`git push -o policy.bypass=<reason>`) will be introduced along with [GitLab's existing push options](https://docs.gitlab.com/topics/git/commit/#push-options) to get the reason while the user commits to the protected branch.
-
-## Alternative Solutions
-
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
-
-"Do nothing" and its pros and cons could be included in the list too.
--->
