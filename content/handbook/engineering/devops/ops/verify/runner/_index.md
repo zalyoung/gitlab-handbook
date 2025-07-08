@@ -42,7 +42,6 @@ The following people are permanent members of the Verify:Runner group:
 
 For a more comprehensive list of counterparts, look at the [runner product categtory](/handbook/product/categories/#runner-group)
 
-
 ## Projects we maintain
 
 As a team we maintain several projects. The <https://gitlab.com/gitlab-com/runner-maintainers> group
