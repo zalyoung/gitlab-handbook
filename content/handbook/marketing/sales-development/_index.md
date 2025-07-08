@@ -1118,13 +1118,16 @@ Above are some examples of how information can be stored to a pre-made project. 
 
 LinkedIn Sales Navigator FAQ:
  1. How do I gain access to LISN?
-  - To access LinkedIn Sales Navigator, please make a request by navigating to the Lumos app in your Okta dashboard. Select the appropriate permission (Sales Navigator Advanced Plus for prospecting roles such as AEs and Sales Development or TeamLink Extend for other sales roles where sharing your network can be beneficial to your team).
+
+- To access LinkedIn Sales Navigator, please make a request by navigating to the Lumos app in your Okta dashboard. Select the appropriate permission (Sales Navigator Advanced Plus for prospecting roles such as AEs and Sales Development or TeamLink Extend for other sales roles where sharing your network can be beneficial to your team).
 
 2. I am out of InMail credits, can more be purchased?
-  - Additional InMail credits cannot be purchased or renewed early. To understand more about InMail, please see [here](https://www.linkedin.com/help/sales-navigator/answer/a101030) and [here](https://www.linkedin.com/help/sales-navigator/answer/a554514).
+
+- Additional InMail credits cannot be purchased or renewed early. To understand more about InMail, please see [here](https://www.linkedin.com/help/sales-navigator/answer/a101030) and [here](https://www.linkedin.com/help/sales-navigator/answer/a554514).
 
  3. I cannot update leads/contact through LISN. Can this functionality be turned on?
-  - No. The Marketing Operations and Sales Operations teams have evaluated this functionality and have determined that allowing lead/contact updates through LISN could negatively effect downstream data flows since LISN is not considered a SSoT data provider. 
+
+- The Marketing Operations and Sales Operations teams have evaluated this functionality and have determined that allowing lead/contact updates through LISN could negatively effect downstream data flows since LISN is not considered a SSoT data provider. 
 
 #### LinkedIn Training Resources
 
