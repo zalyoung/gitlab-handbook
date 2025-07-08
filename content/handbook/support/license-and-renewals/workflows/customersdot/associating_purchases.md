@@ -171,7 +171,17 @@ If the Zuora information is not updated properly, or the `Bill To:` and the `Sol
 
 ### Remove a billing account membership
 
-You can remove an existing billing account membership:
+#### Self-service option
+
+Subscription contacts have the ability to [remove existing billing account managers who already have access to their billing information.](https://docs.gitlab.com/subscriptions/customers_portal/#remove-a-billing-account-manager).
+
+An existing billing account manager can also [cancel invitations that were sent to potential billing account managers that haven't been accepted yet.](https://docs.gitlab.com/subscriptions/customers_portal/#revoke-a-billing-account-manager-invitation)
+
+#### Support-assisted option
+
+This process should be a last resort for **all customers** (including reseller customers). Only after ruling out the [self-service option](#self-service-option) above will we consider making the requested change.
+
+First, verify the customer's identity as outlined under [ownership verification](#ownership-verification) before removing an existing billing account membership:
 
 1. Navigate to the `Billing account memberships` section.
 1. Locate the correct billing account membership by searching for the CustomersDot user's email.
