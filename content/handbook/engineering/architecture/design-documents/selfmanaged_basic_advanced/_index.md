@@ -88,9 +88,13 @@ This proposal recommends segmenting our current Self-Managed deployment option i
 and modifying the requirement for a GA features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Advanced.
 Launching new features on Self-Managed Basic would become optional.
 
-The current approach to adding components to Self-Managed customers is hindering the rate at which we can deliver features to our customers.
+The current approach to adding components for consumption by Self-Managed customers is hindering the rate at which we can deliver features to our customers.
 This is made clear by the current and growing backlog of new components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture. We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
 A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMA while maintaining support for current customers with traditional deployment requirements through SMB.
+
+This implements a form of [Option 2](https://docs.google.com/document/d/1f8Ty_AE9IX2cawkyCLsEy7DkjD9zIgcifN7yQBgs2Uo/edit?tab=t.0#bookmark=id.cke52h57bu0i)
+of the Cloud Native GitLab session from FY26 CTO Summit, while facilitating faster delivery through focused priority on cloud-native implementations of
+supplemental enterprise feature requirements.
 
 ## Motivation
 
@@ -115,12 +119,14 @@ This creates significant engineering complexity as we try to deliver advanced fe
 As a specific example, we have several features in the pipeline that will require ClickHouse being available, which is not available in Omnibus, and would be a complex component to implement via Omnibus.
 
 Cloud-native deployments enable critical capabilities that traditional OS-level installations cannot efficiently support, or that we do not have the engineering bandwidth to deliver to all deployment methods at the expected quality within an appropriate span of time.
+Additionally, our current Omnibus Reference Architectures employ a node-per-component strategy, dedicating separate nodes (or VMs) to each service—consul nodes for consul, pgbouncer nodes for pgbouncer, and so on. In HA environments requiring a minimum of three nodes per component, this approach quickly escalates infrastructure requirements: even modest deployments can demand 20-30+ VMs, doubling with Geo DR. As the number of components continues to grow, this architecture proves inefficient and costly, as many nodes remain largely idle with minimal workloads, while also complicating maintenance and expanding the security attack surface. Most critically, this static allocation model fails to scale dynamically with actual load patterns. That scaling, or lack thereof, is a common focal point in customer conversations.
+
 We can already demonstrate that cloud-native deployments enable customers to scale GitLab with significantly more efficiency.
 To service customers of higher complexity and larger scale, we should look to focusing our release to SMA as cloud-native first.
 
 Here is an outline of a potential workflow, considering an assumption that Runway can operate on Kubernetes for Self-Managed:
 
-![deploymnt options workflow](./lucid_deployment_options.svg){width=50%}
+![deployment options workflow](./lucid_deployment_options.svg){width=50%}
 
 ### Goals
 
@@ -142,6 +148,7 @@ In particular, this aims to:
 - Provide **Clear Expectations** through transparent differentiation between deployment methods.
 - Increase **Engineering Efficiency** by reducing the complexity of maintaining compatibility across disparate environments.
 - Improve the **Upgrade Path** by providing a clear path for customers seeking advanced capabilities.
+- Ultimately, reduce the number of deployment configuration permutations which GitLab needs to support over timem encouraging new Premium/Ultimate installations to cloud native environments.
 
 We aim to explicitly avoid:
 
@@ -161,11 +168,12 @@ optional.
 #### Orthogonal Topics
 
 There are several topics that are related to, or intersect with those of this proposal.
-We intend to keep those separate, as they are immportant but not directly impacted by or impactful to this proposal. 
+We intend to keep those separate, as they are important but not directly impacted by or impactful to this proposal.
 
-- Discussion of [air-gapped](https://en.wikipedia.org/wiki/Air_gap_(networking)) vs non-air-gapped environments
-- Omnibus GitLab meta-packaging initiatives
+- Discussion of [air-gapped](https://en.wikipedia.org/wiki/Air_gap_(networking)) vs non-air-gapped environments.
+- Omnibus GitLab meta-packaging initiatives.
 - Per-component versioning, and tracking of align versions.
+- Discussions about new Premium/Ultimate components as separate paid SKUs are out of scope for this proposal.
 
 ## Proposal
 
@@ -180,6 +188,14 @@ You might want to consider including the pros and cons of the proposed solution 
 compared with the pros and cons of alternatives.
 -->
 
+The implementation of this segmentation has practical implications. We do not aim to enfoce
+cloud native deployments in order for SMA to have value. In order to address this concern,
+we must faciliate mixed environments, where the existing monolith provides services already
+present, and can be attached to supplemental components deployed in Kubernetes. This would
+serve as a bridge between SMB and SMA, such that a customer can expand their existing SMB into
+an SMA capable environment by providing necessary platform access, and deploying the extended
+feature components.
+
 Segment the Self-Managed option into two distinct tiers:
 
 |    | Self-Managed Basic (SMB) | Self-Managed Advanced (SMA) |
@@ -189,14 +205,6 @@ Segment the Self-Managed option into two distinct tiers:
 | Target Environment | Traditional infrastructure (bare metal, VMs) | Containerized infrastructure with Kubernetes, IaaS cloud (such as GCP, AWS) or on-prem. Driven by Helm and possibly Operator in future. |
 | Value Proposition | Core product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling. |
 | Feature Guarantee | New Ultimate features are not guaranteed. Required components may be unavailable in Omnibus. | All new Ultimate functionality guaranteed. |
-
-The implementation of this segmentation has practical implications. We do not aim to enfoce
-cloud native deployments in order for SMA to have value. In order to address this concern,
-we must faciliate mixed environments, where the existing monolith provides services already
-present, and can be attached to supplemental components deployed in Kubernetes. This would
-serve as a bridge between SMB and SMA, such that a customer can expand their existing SMB into
-an SMA capable environment by providing necessary platform access, and deploying the extended
-feature components.
 
 _NOTES_:
 Can be more expounded with incorporation of points from NRTCN, goals short to long.
