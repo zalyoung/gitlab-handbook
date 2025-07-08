@@ -22,7 +22,7 @@ The Candidate Experience Specialist is a [grade 5](/handbook/total-rewards/compe
 - Act as the [Recruiting Coordinator](/handbook/hiring/talent-acquisition-framework/coordinator/) for the interview process
 - Assist with conducting reference checks, if applicable, for all candidates entering the final round of the interview phase
 - Create and stage employment contracts for candidates receiving an offer of employment on behalf of the hiring manager and recruiter
-- Work to create a seamless handoff of new team members to the [People Connect Team](/job-families/people-group/people-connect/)
+- Work to create a seamless handoff of new team members to the [People Operations Team](/job-families/people-group/people-operations/)
 - Promote our values, culture and remote only passion
 
 ### Requirements

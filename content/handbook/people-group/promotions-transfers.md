@@ -791,7 +791,7 @@ Any other role changes where a Manager feels their team member's role may requir
 
 ## Organization Change Checklist Creation Process
 
-The [People Connect Specialist](/job-families/people-group/people-connect) in the respective rotation will open a Organization Change Checklist when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
+The [People Connect Specialist](/job-families/people-group/people-operations) in the respective rotation will open a Organization Change Checklist when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
 
 The People Connect Leads will pull a monthly report to check that any qualifying team members did get their Organization Change Checklist is opened.
 

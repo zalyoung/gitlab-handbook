@@ -92,7 +92,7 @@ Support PEO vendor selection process by gathering data and participating in vend
 
 ### Manager, Global Workforce Strategy
 
-The Manager, Global Workforce Strategy reports to the [Director, People Operations](/job-families/people-group/people-connect/).
+The Manager, Global Workforce Strategy reports to the [Director, People Operations](/job-families/people-group/people-operations/).
 
 #### Job Grade
 
