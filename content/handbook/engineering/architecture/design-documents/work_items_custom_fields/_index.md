@@ -3,7 +3,7 @@ title: "Work Items Custom Fields"
 status: ongoing
 creation-date: "2025-05-13"
 authors: ["@fernanda.toledo"]
-coaches: ["@username"]
+coaches: []
 dris: ["@donaldcook", "@gweaver"]
 owning-stage: "~devops::plan"
 participating-stages: []
