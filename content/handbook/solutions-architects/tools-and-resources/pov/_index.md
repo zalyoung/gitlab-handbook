@@ -60,7 +60,6 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 - [Artificial Intelligence](/handbook/solutions-architects/tools-and-resources/pov/ai/)
 - and cumulatively, The DevOps [Platform](/handbook/solutions-architects/tools-and-resources/pov/platform/)
 
-
 ### Tracking a POV in Salesforce
 
 #### Salesforce Object
@@ -107,27 +106,24 @@ Sales and SA leader participation in the POV approval process will ensure we can
 - The ASM or SA Manager marks the POV for approval via the Salesforce object or with a troops action in Slack.
 - The ASM or SA Manager will query about plans to position professional services at this stage. All SAEs/SAs are required to position Professional services in opportunities with a qualified POV to guarantee continued success for the customer. Please read more about how to position [here](/handbook/solutions-architects/processes/#positioning-professional-services)
 
-
 #### Custom Models PoV Requirements
 For PoVs involving self-hosted models or custom AI models, additional coordination and tracking requirements apply to ensure optimal support and successful outcomes:
-
 - Mandatory Issue Tracking: All self-hosted/custom model PoVs must be tracked in a [confidential GitLab issue](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/issues/143) in the Custom Models project. This centralized tracking helps the Custom Models team manage bandwidth and provide appropriate support levels.
 - Required Information: The issue description includes all required information
 - Capacity Management: The Custom Models team operates with limited concurrent PoV capacity to ensure quality support. SAs should:
-   - Check current bandwidth before committing to new custom model PoVs
-   - Coordinate with the Custom Models team on timeline feasibility
-   - Prioritize PoVs based on strategic value and customer timeline constraints
+ - Check current bandwidth before committing to new custom model PoVs
+ - Coordinate with the Custom Models team on timeline feasibility
+ - Prioritize PoVs based on strategic value and customer timeline constraints
 - Early Engagement: Engage the Custom Models team during the qualification phase to:
-   - Validate technical feasibility
-   - Confirm support availability for the proposed timeline
-   - Identify any special requirements or constraints
-   - Establish clear success criteria aligned with model capabilities
+ - Validate technical feasibility
+ - Confirm support availability for the proposed timeline
+ - Identify any special requirements or constraints
+ - Establish clear success criteria aligned with model capabilities
 - Success Tracking: Custom model PoVs will be tracked for both technical success and team learning to:
-   - Document successful implementation patterns
-   - Identify common challenges and solutions
-   - Improve support processes and team morale
-   - Build knowledge base for future similar opportunities
-
+ - Document successful implementation patterns
+ - Identify common challenges and solutions
+ - Improve support processes and team morale
+ - Build knowledge base for future similar opportunities
 This process ensures that custom model PoVs receive appropriate technical support while maintaining realistic expectations about team capacity and timeline constraints.
 
 ### POV Best Practices
@@ -162,13 +158,13 @@ Below is best practice guidance for conducting each type of POV. These processes
 - Solutions Architect (SA) - Primary technical contact, POV owner and project manager
 - Customer Success Manager (CSM) - _Only for qualified accounts._ Introduced for customer visibility, occasional POV assistance
 - Professional Services - rarely as needed in a pre-sales capacity
-- Support Team - only if needed for technical errors, engaged via the customer per the [Internal Support page](/handbook/support/internal-support/#note-on-zendesk-and-supportgitlabcom)
+- Support Team - only if needed for technical errors, engaged via the customer per the [Internal Support page](https://handbook.gitlab.com/handbook/support/internal-support/)
 
 ## POV Kickoff Checklist
 
 - SA: Ensure the customer architecture is prepared to support the POV (if self-managed)
 - SA: Ensure customer network has access to GitLab.com (if SaaS evaluation)
-- SA: Customer Success project is created in GitLab as per the [CSM Handbook page](/handbook/customer-success/csm/#to-start-a-new-customer-engagement)
+- SA: Customer Success project is created in GitLab as per the [CSM Handbook page](https://handbook.gitlab.com/handbook/customer-success/csm/#to-start-a-new-customer-engagement)
 - SA: POV document is created if this is required by the customer, otherwise default to the Customer Success project
 - SA: Ensure POV goals and business outcomes are clearly identified prior to kickoff
 - SA: For the largest strategic opportunities, notify GitLab Support of POV dates, customer, and other relevant information using the applicable Slack channel related to Self-Managed or GitLab.com support
@@ -179,7 +175,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 - SAE/AE: Schedule Internal kick off meeting (detailed below)
 - SAE/AE: Schedule kickoff meeting with customer
 - CSM: Review collaboration project content prior to internal kickoff meeting
-- SA: For SaaS trials that need CI/CD, request trial runner activation per the [handbook](/handbook/support/internal-support/#trial-extensions-and-plans).
+- SA: For SaaS trials that need CI/CD, request trial runner activation per the [handbook](https://handbook.gitlab.com/handbook/support/internal-support).
 
 ## POV Meeting Recordings
 
