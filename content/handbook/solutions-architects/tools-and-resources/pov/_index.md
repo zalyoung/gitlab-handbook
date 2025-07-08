@@ -161,13 +161,13 @@ Below is best practice guidance for conducting each type of POV. These processes
 - Solutions Architect (SA) - Primary technical contact, POV owner and project manager
 - Customer Success Manager (CSM) - _Only for qualified accounts._ Introduced for customer visibility, occasional POV assistance
 - Professional Services - rarely as needed in a pre-sales capacity
-- Support Team - only if needed for technical errors, engaged via the customer per the [Internal Support page](https://handbook.gitlab.com/handbook/support/internal-support/)
+- Support Team - only if needed for technical errors, engaged via the customer per the [Internal Support page](/handbook/support/internal-support/)
 
 ## POV Kickoff Checklist
 
 - SA: Ensure the customer architecture is prepared to support the POV (if self-managed)
 - SA: Ensure customer network has access to GitLab.com (if SaaS evaluation)
-- SA: Customer Success project is created in GitLab as per the [CSM Handbook page](https://handbook.gitlab.com/handbook/customer-success/csm/#to-start-a-new-customer-engagement)
+- SA: Customer Success project is created in GitLab as per the [CSM Handbook page](/handbook/customer-success/csm/#to-start-a-new-customer-engagement)
 - SA: POV document is created if this is required by the customer, otherwise default to the Customer Success project
 - SA: Ensure POV goals and business outcomes are clearly identified prior to kickoff
 - SA: For the largest strategic opportunities, notify GitLab Support of POV dates, customer, and other relevant information using the applicable Slack channel related to Self-Managed or GitLab.com support
@@ -178,7 +178,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 - SAE/AE: Schedule Internal kick off meeting (detailed below)
 - SAE/AE: Schedule kickoff meeting with customer
 - CSM: Review collaboration project content prior to internal kickoff meeting
-- SA: For SaaS trials that need CI/CD, request trial runner activation per the [handbook](https://handbook.gitlab.com/handbook/support/internal-support).
+- SA: For SaaS trials that need CI/CD, request trial runner activation per the [handbook](/handbook/support/internal-support).
 
 ## POV Meeting Recordings
 
@@ -395,7 +395,7 @@ For existing customers there are two options for getting the POV template into t
 
 ## POV Trials
 
-POV usually require a license activation. Instructions for handling trials, extensions and plan changes on GitLab.com [here](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change).
+POV usually require a license activation. Instructions for handling trials, extensions and plan changes on GitLab.com are available in [Handling trials, extensions and plan changes handbook page](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change).
 
 ## POV Resources
 
