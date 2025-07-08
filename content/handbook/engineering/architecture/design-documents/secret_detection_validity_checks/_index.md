@@ -18,3 +18,21 @@ toc_hide: true
 Verify the validity and liveness of Secret Detection findings by programmatically checking them against their issuing services. This enables security teams to prioritize remediation of active secrets over revoked or inactive credentials.
 
 See the [Verify validity/liveness of Secret Detection findings epic](https://gitlab.com/groups/gitlab-org/-/epics/13988) for more details.
+
+## Motivation
+
+### Goals
+
+#### What is it trying to achieve?
+
+- Provide token validity status of detected GitLab and partner tokens to Ultimate customers
+
+#### How will we know that this has succeeded?
+
+- Security teams will spend less time remediating inactive credentials
+
+#### What are other less tangible opportunities here?
+
+### Non-Goals
+
+#### What is out of scope for this blueprint?
