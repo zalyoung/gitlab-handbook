@@ -670,7 +670,7 @@ See [Working with Professional Services](/handbook/customer-success/professional
 
 ##### Steps for creating a Professional Services opportunity in SFDC
 
-*Here is [a video](https://gitlab.highspot.com/items/6655fc408e0d8cc5d7a7c166?lfrm=srp.0) explaining the below process.*
+*Here is [a video](https://gitlab.highspot.com/items/6729542de1ce8a11962cffb3?lfrm=srp.0) explaining the below process.*
 
 1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp). Note that this must be a standard license or subscription Opportunity.
 1. Click the "Create Services Opportunity" button (in Lightning, this button is on the dropdown list in the top right of the page) and fill out the following:

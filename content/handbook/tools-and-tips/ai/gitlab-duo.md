@@ -10,7 +10,7 @@ If you require access to GitLab Duo for the gitlab-com [group](https://gitlab.co
 
 GitLab contributors and co-creators can also take advantage of AI-powered GitLab Duo. Start with the onboarding process in [contributors.gitlab.com/](https://contributors.gitlab.com/).
 
-If team members need access in customer demo group on GitLab.com, create an [Access Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) using the `GitlabCom_Licensed_Demo_Group_Request` template.
+If team members need access in customer demo group on GitLab.com, create an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) using the `GitlabCom_Licensed_Demo_Group_Request` template.
 
 Follow the [Getting Started](https://docs.gitlab.com/ee/user/get_started/getting_started_gitlab_duo.html) documentation to onboard.
 

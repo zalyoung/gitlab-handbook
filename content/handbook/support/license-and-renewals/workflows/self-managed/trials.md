@@ -1,13 +1,13 @@
 ---
 title: Handling trials and extensions for GitLab Self-Managed
 category: GitLab Self-Managed licenses
-description: Issuing a license to "extend" Self-managed trials and grace periods
+description: Issuing a license to "extend" Self-managed trials 
 ---
 
 ## Overview
 
-Self-managed trials and grace periods cannot be extended - a **trial** license must be issued and applied to the instance in order to "extend" a license.
-Requests for grace period extensions, temporary keys, temporary extensions, temporary licenses,
+Self-managed trials cannot be extended - a **trial** license must be issued and applied to the instance in order to "extend" a license.
+Requests temporary keys, temporary extensions, temporary licenses,
 and trial extensions all require generating a trial License.
 
 Sales will often request through an [Internal Request / Zendesk Ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) that we extend the duration of Self-Managed trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User `gitlab_support@example.com`, with the submitter cc'd on the ticket. The following workflow should be followed to service them.
@@ -22,7 +22,6 @@ how to support complex subscription models.
 Support tries as much as possible to refrain from issuing non-trial licenses.
 We are allowed to issue trial licenses because they:
 
-- Have no grace period
 - Do not affect historical data tracking
 - Are not tied to any subscriptions for revenue purposes
 

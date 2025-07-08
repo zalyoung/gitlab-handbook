@@ -7,15 +7,15 @@ The Strategy and Operations team are GitLab's internal strategy consultants who 
 
 ## Levels
 
-### Senior Strategy and Operations Manager
+### Senior Strategy and Operations
 
-The Senior Strategy and Operations Manager reports to the [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) or another designated individual within the Strategy and Operations Team.
+The Senior Strategy and Operations reports to the [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) or another designated individual within the Strategy and Operations Team.
 
-#### Senior Strategy and Operations Manager Job Grade
+#### Senior Strategy and Operations Job Grade
 
 The Senior Manager Strategy and Operations is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
 
-#### Senior Strategy and Operations Manager Responsibilities
+#### Senior Strategy and Operations Responsibilities
 
 - Achieve results on assigned projects and activities
 - Support the creation of prepared materials, content, and programs
@@ -24,7 +24,7 @@ The Senior Manager Strategy and Operations is a [grade 7](/handbook/total-reward
 - Provide input into the broader strategy
 - Demonstrate GitLab values in all work
 
-#### Senior Strategy and Operations Manager Requirements
+#### Senior Strategy and Operations Requirements
 
 - Detail-oriented forward thinker
 - Ability to influence cross-functionally without direct authority
@@ -241,9 +241,7 @@ dependencies to achieve project goals
 
 ## Performance Indicators
 
-- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/office-of-the-ceo/performance-indicators/#throughput-for-the-office-of-the-ceo)
-
-In addition, we are exploring [additional ways to measure performance](/handbook/ceo/office-of-the-ceo/#measuring-results).
+We are exploring [ways to measure performance](/handbook/ceo/office-of-the-ceo/#measuring-results).
 
 ## Career Ladder
 

@@ -102,7 +102,7 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 GitLab team members [should not feel pressure to climb the career ladder](/handbook/leadership/1-1/#key-points). Skill development and promotion are not mutually exclusive. [Unique experience influences problem solving](/handbook/company/culture/inclusion/) and views of success.
 
-You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Connect or your People Business Partner](/handbook/people-group/people-connect#-connect-with-us).
+You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Operations or your People Business Partner](/handbook/people-group/people-connect#-connect-with-us).
 
 | Topic | Definition | Examples |
 | ----- | ----- | ----- |
@@ -145,7 +145,7 @@ Watch: interview with a GitLab team member who's used the Individual Growth Plan
 #### Start your IGP
 
 1. Launch your Individual Growth Plan in Workday: [User Guide Here](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit)
-1. Fill out the IGP in Workday. Refer to the [job frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) and your [job family](/job-families/) to determine a skill and behavior focus. Give yourself time to think, plan, and fill out your IGP. Set learning blocks over the next 1-2 weeks rather than completing the IGP in one sitting.
+1. Fill out the IGP in Workday. Refer to the [job frameworks](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?usp=sharing) and your [job family](/job-families/) to determine a skill and behavior focus. Give yourself time to think, plan, and fill out your IGP. Set learning blocks over the next 1-2 weeks rather than completing the IGP in one sitting.
 1. Submit your IGP to your manager. Schedule a career conversation with your manager and review your IGP in your next 1:1 or at a separate time.
 1. Make a plan that integrates working on your IGP during the flow of work by setting aside weekly or monthly time dedicated to learning. Block these times on your calendar.
 1. Update progress against your development goals. The IGP and [development goals in Workday](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) itself might work well for you, but if you need more structure, consider using [GitLab Epics + Issues](/handbook/people-group/learning-and-development/career-development/#use-gitlab-epics-to-track-your-career-development) or a [health tracker in Google Sheets](/handbook/people-group/learning-and-development/career-development/#health-tracker-growth-plan).

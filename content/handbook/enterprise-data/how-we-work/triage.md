@@ -95,7 +95,7 @@ The Data Platform triager is responsible for resolving problems with our data pl
   - Incoming incidents
   - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
   - New issues: Every issue that comes in during a team member's triage week must be [resolved](/handbook/enterprise-data/how-we-work/triage.md#new-issue-triaging-for-the-data-platform-team).
-    - A new issue is defined as an issue with no assignee and the workflow label `triage`. [This issue list](https://gitlab.com/groups/gitlab-data/-/issues/?sort=updated_desc&state=opened&assignee_id=None&label_name%5B%5D=Team%3A%3AData%20Platform&label_name%5B%5D=workflow%3A%3A1%20-%20triage&first_page_size=100) tracks these items.
+    - A new issue is defined as an issue with no assignee and the workflow label `triage & validation`. [This issue list](https://gitlab.com/groups/gitlab-data/-/issues/?sort=updated_desc&state=opened&assignee_id=None&label_name%5B%5D=Team%3A%3AData%20Platform&label_name%5B%5D=workflow%3A%3A1%20-%20triage%20%26%20validation&not%5Blabel_name%5D%5B%5D=Triage&first_page_size=100) tracks these items.
   - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
     - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
     - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
@@ -127,7 +127,7 @@ We will iterate on triage responsibilities to include additional activities such
 
 ### How to Complete Data Triage
 
-For issue triaging, the triager should add the appropriate labels to the issue to put the issue into the respective project's workflow. It is not the responsibility of the triager to validate the issue and determine any root causes or solutions. Rather, for the Data Team project for example, the triager should add the appropriate scoped TEAM label (Ex.`Team:GTM`) and the scoped `Workflow::triage` label. From there, those issues are then put into the respective team's workflow.
+The triager is responsible for both triaging and validating issues to determine if they warrant development. Furthermore, the triager should double-check that correct labels have been added (i.e., the correct `Team::` label).
 
 **Note:**
 The Triager:
@@ -145,33 +145,42 @@ The Central Data Team triager will create [an issue in the Data Team project](ht
 Every issue that comes in during a Data Platform Team member's triage week must be resolved as follows:
 
 1. All issues are assigned to triager as starting point. 
-1. All issues are `triaged`, `validated` and `refined` - following the defined [workflow (criteria)](/handbook/enterprise-data/how-we-work/#workflow-summary). If the triager cannot prepare it adequately:
+1. All issues are processed through the combined `triage & validation` stage, where the triager determines both the clarity of the problem statement and whether the work warrants development, then moved to `waiting for prioritization` - following the defined [workflow (criteria)](/handbook/enterprise-data/how-we-work/#workflow-summary). If the triager cannot prepare it adequately:
    - Assign to a team member with domain expertise, OR
    - Assign to Director Data Platform if appropriate expertise is unknown
-1. If an issue is **1-2** [issue points](/handbook/enterprise-data/how-we-work/#issue-pointing) they will fully implement the solution. This means moving with through all workflow stages up until `workflow::6 - review`) 
-1. If an issue is **3 or more** issue points, the issue will be labelled as `workflow::4 - ready to develop`. 
-   - If an issue is not urgent. Triager unassignes themselves and issue has been placed in the backlog.  
-   - If an issue is urgent. Triage alligns with a team member on assignment or assigns to Director Data Platform. 
+1. If an issue is **1-2** [issue points](/handbook/enterprise-data/how-we-work/#issue-pointing) they will fully implement the solution. This means moving through all workflow stages up until `workflow::6 - review`) 
+1. If an issue is **3 or more** issue points, the issue will be labelled as `workflow::4 - waiting for prioritization`. 
+   - If an issue is not urgent. Triager unassigns themselves and issue has been placed in the backlog.  
+   - If an issue is urgent. Triager aligns with a team member on assignment or assigns to Director Data Platform. 
 
 ```mermaid
 flowchart TD
-    A[New Issue] --> B[Assign issue to themself]
-    B --> C[workflow::1 - triage]
-    C --> D[workflow::2 - validation]
-    D --> E[workflow::3 - refinement]
-    F[Assign to other Team Member or Data Platform Team Lead ]
-    C -->|If unable to perform| F
-    D -->|If unable to perform| F
-    E -->|If unable to perform| F
-    E -->G{Can complete}
-    G -->|No and urgent| F
-    G -->|No not urgent| H[workflow::4 - ready to develop]
-    G -->|Yes| J[workflow::5 - development]
-    J -->K[workflow::6 - review]
+    N[New Issue]
+    A[Assign issue to themself]
+    C{Can complete}
+    R[Assign to other Team Member or Data Platform Team Lead ]
     U[Unassign]
-    F-->U
-    H-->U
-    K-->U
+
+    1[workflow::1 - triage & validation]
+    2[workflow::2 - waiting for prioritization]
+    3[workflow::3 - refinement]
+    4[workflow::4 - ready to develop]
+    5[workflow::5 - development]
+    6[workflow::6 - review]
+
+    N-->A
+    A-->1
+    1-->C
+    1 -->|If unable to perform| R
+    R --> U
+    C -->|No and urgent | R
+    C -->|No not urgent | 2
+    2 --> U
+    C -->|Yes | 3
+    3 --> 4
+    4 --> 5
+    5 --> 6
+    6 --> U
 ```
 
 ### Incident

@@ -10,7 +10,6 @@ This page describes the processes used to release packages to self-managed users
 * **[Patch release](#patch-releases-overview)**: Patches addressing bug and vulnerabilities per the [GitLab Maintenance policy](https://docs.gitlab.com/policy/maintenance/).
 * **Maintenance policy**: Describes in detail the release pace of our major, minor and patch releases for self-managed users. The major release yearly cadence was defined [after an all stakeholder discussion](https://gitlab.com/gitlab-com/Product/issues/50).
 * **Upcoming version**: [New GitLab release](https://about.gitlab.com/releases/) (XX.YY.0) being developed.
-* **Current version**: Last stable released version of GitLab.
 * **Maintained versions**: GitLab versions covered by the [maintenance policy](https://docs.gitlab.com/policy/maintenance/#maintained-versions)
 * **[Backports](#backports-overview)**: Bug or security fixes from a recent version applied to an older version.
 * **[Auto-deploy](/handbook/engineering/deployments-and-releases/deployments/)**: GitLab process to deploy application changes to GitLab.com
@@ -99,9 +98,9 @@ The metrics used to display this information are updated automatically throughou
 
 ## Patch releases overview
 
-The [patch release policy](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases) allows bug fixes to be backported to the current stable released version of GitLab, and security fixes to be backported to the current and previous two GitLab Versions.
+The [patch release policy](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases) allows bug fixes and security fixes to be backported to the [maintained GitLab Versions](https://docs.gitlab.com/policy/maintenance/#maintained-versions). For GitLab team members looking to prepare backports, refer to the [upcoming patch release versions in the internal grafana dashboard "delivery: Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1&from=now-24h&to=now&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-ops).
 
-Patches that are outside of our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) for bug fixes must be requested and agreed upon by the release managers and the requester (see
+Fixes for versions outside of our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) must be requested and agreed upon by the release managers and the requester (see
 [backporting to versions outside the maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) for details).
 
 ### Patch release cadence
@@ -110,7 +109,7 @@ Patch releases are scheduled twice a month on the Wednesdays before and after th
 
 ### Patch release process
 
-Patches fix regressions in the current self-managed release and vulnerabilities in the current and previous two GitLab versions.
+Patches fix regressions in the current self-managed release and vulnerabilities in the [maintained GitLab versions](https://docs.gitlab.com/policy/maintenance/#maintained-versions).
 
 Overview of the steps involved with creating a patch release:
 
@@ -137,9 +136,10 @@ GitLab team members can view the [internal Grafana dashboard "Release Informatio
 * Upcoming patch release versions (stable version + 2 backport versions)
 * Upcoming patch release date
 * Current status of the patch release
-  * Open: Bug fixes and MRs associated with security issues labeled `security-target` are expected to be included in the next patch release.
+  * Open: Unmerged security MRs associated with security issues labeled `security-target`, as well as merged bug fix MRs,
+  are expected to be included in the next patch release.
   * Warning: Signals that teams should get bug and security fixes ready to merge.
-  * Closed: Default branch MRs have been merged, no further bug or security fixes will be included.
+  * Closed: Default branch security MRs have been merged, no further bug or security fixes will be included.
 
 The metrics used to display this information are updated automatically throughout the [patch release process](#patch-release-process).
 

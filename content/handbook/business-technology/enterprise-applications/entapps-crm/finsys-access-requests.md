@@ -7,7 +7,7 @@ description: Finance Systems Access Requests
 
 Many finance systems that are provisioned are also considered a SOX system and are subject to the [SOX Program.](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 
-The finance systems admin team goes through additional procedures when handling [Access Requests.](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+The finance systems admin team goes through additional procedures when handling [Access Requests.](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
 
 This applies to the following systems:
 
@@ -22,7 +22,7 @@ This applies to the following systems:
 
 ### Additional Procedures
 
-On top of the [GitLab Access Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process, the team will perform the following:
+On top of the [GitLab Access Request](/handbook/security/corporate/end-user-services/access-requests/#individual-or-bulk-access-request) process, the team will perform the following:
 
 - Ensure/Clarify access being requested is specific to the system being requested.
   - Example: Instead of `Needs read only access to Netsuite`, the team will clarify with the requester that they are asking for the `Custom Auditor (read only)` role in Netsuite.

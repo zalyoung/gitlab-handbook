@@ -960,7 +960,7 @@ Contract Resets are used to perform an "Early Renewal" - i.e. start a new 12 mon
 - Fill out the necessary information on the quote per the instruction under the New Subscription Quote section above.
   - **Note: The Start Date should be the new subscription term's start date, or the "Early Renewal" date.**
 - Click Next and update the products and fees per the steps above.
-- **IMPORTANT:** Next, please use the "Request Support" workflow on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
+- **IMPORTANT:** Next, please use the "Request Support" workflow on the Renewal Opportunity for Deal Desk to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and add Contract Reset custom terms to your New Subscription quote to appear on the Order Form once the quote has been fully approved.
 
 For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure the customer is not downgraded to free when their initial subscription is cancelled. These are outlined in more detail in [this presentation](https://docs.google.com/presentation/d/1fv_QMzPJ4Al5AaPBNd-IW5dCwuac56ShrzcpjUO_S60/edit?usp=sharing).
 

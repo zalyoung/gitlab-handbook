@@ -113,7 +113,7 @@ Following the meeting, ensure completion of:
 - [ ] Documented prerequisites and dependencies
 - [ ] Prepared agenda for Customer Kickoff
 - [ ] Action items with clear ownership
-- [ ] Create Customer Slack channel and invite Customer Project team members. You can you use this AR as [template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/36997)
+- [ ] Create Customer Slack channel and invite Customer Project team members. You can you use this AR as [template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
 
 > **💡 Tip:** Use this meeting to identify and address any expectation misalignment between GitLab and the Customer team before the broader kickoff meeting.
 

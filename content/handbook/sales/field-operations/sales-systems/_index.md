@@ -13,7 +13,6 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
 - **Kiran Chinthapalli - Director, CRM Systems**
-- **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan](https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
 - **Analissa "Ana" Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
@@ -300,9 +299,9 @@ Salesforce CRM System Owners should provide the signoff. The signoff matrix is a
 
 | Main Approver                                         | Backup Approver                                                       |
 |-------------------------------------------------------|-----------------------------------------------------------------------|
-| Sheela Viswanathan - Senior Manager, Sales Systems    | Nabitha Rao - VP, IT                                                  |
-| Korben Carreno - Manager, CRM Systems                 | Raul Pavon - Director Enterprise architecture and Applications        |
-| Kiran Chinthapalli - Director, CRM Systems            | Nishanth Sekhar - Director, Enterprise Applications (Lead to Cash)    |
+| Korben Carreno - Manager, CRM Systems                 | Nabitha Rao - VP, IT                                                  |
+| Kiran Chinthapalli - Director, CRM Systems            | Raul Pavon - Director Enterprise architecture and Applications        |
+|                                                       | Nishanth Sekhar - Director, Enterprise Applications (Lead to Cash)    |
 |                                                       | Monali Bhide - Manager, IT Enterprise Applications Engineering        |
 |                                                       | Pratik Gupta - Manager, IT Enterprise Applications Engineering        |
 

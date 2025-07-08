@@ -13,8 +13,8 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 - HackerOne Triage Team
 - GitLab AppSec Engineering
 - PSIRT Security Program Manager
-- Gitlab Product Manager of the feature affected by the finding
-- Gitlab Engineering (Development) Manager of the feature affected by the finding
+- GitLab Product Manager of the feature affected by the finding
+- GitLab Engineering (Development) Manager of the feature affected by the finding
 - SIRT (Security Operations)
 - Infrastructure Team
 
@@ -177,7 +177,7 @@ the responsible engineering team:
     - In the comment, include link to the confidential issue
   - Update the CVE issue and Bug Bounty Council note with relevant details, while they are still fresh in your mind
     - If the CVSS score is higher on GitLab.com than self-managed, calculate both scores and share them in the Bug Bounty Council issue. If the council agrees that security impact is higher on GitLab.com than self-managed, bounty award will be based on the CVSS for GitLab.com. The CVE and security release blog post will always use the self-managed CVSS.
-    - Consider using the "Public description" field in the bug bounty council note. You can use the Duo-generated Public description that was created automatically if it is relevant and does not reveal too many details. This field will be picked up by the [cve description update automation](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/security-release-tools/-/blob/master/scripts/cve_description_update.rb) and used as the CVE description if present.
+    - Consider using the "Public description" field in the bug bounty council note. You can use the Duo-generated Public description that was created automatically if it is relevant and does not reveal too many details. This field will be picked up by the [CVE description update automation](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/security-release-tools/-/blob/master/scripts/cve_description_update.rb) and used as the CVE description if present.
   - If you relied on the HackerOne Triage Team's validation of the issue, consider setting time in your calendar to validate it yourself. This will help if you need to validate the fix later.
   - If full impact is needed to be assessed against GitLab infrastructure, instead of testing in https://gitlab.com, use https://staging.gitlab.com/help to sign in with your GitLab email account
     - If multiple users are needed, use credentials for users `gitlab-qa-user*` stored in 1password Team Vault to access the staging environment
@@ -458,6 +458,51 @@ The report includes a new vulnerability, for which a patch is not available, or
 - It has Critical or High impact to GitLab.
 
 This does not include websites of third party software and services and only includes dependencies & packaged software.
+
+### HackerOne process FAQ and troubleshooting
+
+#### What should I do if I accidentally import a H1 report?
+
+If you accidentally import a H1 report that is not relevant or actionable (e.g., out-of-scope, informative, or a duplicate):
+
+1. Close the resulting issue and leave a comment indicating the report was imported by mistake.
+1. Close the associated CVE request issue, also noting that it was created in error.
+1. In the relevant HackerOne bug bounty council thread, note the accidental import, add an ❌ to the automatically created comment, and resolve the thread.
+
+#### How do we handle situations where a CVE issue was automatically created but no CVE will be issued?
+
+If a CVE request issue is automatically created but a CVE will not be issued:
+
+- Add a comment to the CVE request issue explaining why a CVE will not be issued.
+- Close the CVE request issue.
+
+#### What happens if I import a duplicate H1 report?
+
+- Close the issue and any related CVE request or bug bounty council threads.
+- Comment that you are closing the issues and bug bounty council threads because the report is a duplicate.
+
+#### What if I cannot reproduce a HackerOne report?
+
+Ideally, we should only involve the product team once we've validated and reproduced the reported vulnerability.
+If AppSec cannot reproduce an issue, it is unlikely that the product team will be able to either. Without steps to reliably reproduce a vulnerability, it will be difficult to determine the root cause, propose a meaningful fix, or verify whether a solution will fully address the issue.
+
+- Reach out to the reporter or H1 triager who validated the report if the steps to reproduce the issue are unclear or lacking.
+- Use your best judgment.
+- Ask for help from your peers in situations where a reported vulnerability seems particularly severe or impactful, but you are having difficulty reproducing it.
+
+#### Which H1 reports are not publicly disclosed?
+
+We disclose vulnerabilities that affect the GitLab product and for which a CVE is issued.
+
+Reports of problems which cannot be resolved by making changes to GitLab software product source code and where no CVE (with a CVSS) is being issued are typically not publicly disclosed.
+
+#### What should I do if a reporter asks about another report in a different thread?
+
+Our HackerOne policy states that:
+
+> The only appropriate place to inquire about a HackerOne report's status is on the report itself. Please refrain from submitting your report or inquiring about its status through additional channels including any other unrelated HackerOne report, as this unnecessarily binds resources in the security team.
+
+As such, if a reporter inquires uses a report to inquire about the status of a different report, respond using the `51 - Reminder for asking about other reports` template under "Common Responses".
 
 ### Awarding Ultimate Licenses
 

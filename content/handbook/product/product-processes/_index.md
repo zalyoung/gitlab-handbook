@@ -5,7 +5,7 @@ description: >-
   development framework for developing products that customers love and value.
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Our Product philosophy
 
@@ -13,7 +13,7 @@ As a Product Organization, we work to create a flexible yet concise product deve
 
 ### Product Development Flow
 
-Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
+Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development/how-we-work/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
 
 This process should be both up front and on an on-going basis when building features.
 
@@ -29,7 +29,7 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 ### Relevant links
 
 - [Engineering release definitions](/handbook/engineering/releases/)
-- [Feature flag lifecycle](/handbook/product-development/product-development-flow/feature-flag-lifecycle/)
+- [Feature flag lifecycle](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/)
 - [Product Launch process](/handbook/product/product-processes/product-launch)
 
 ## Communication
@@ -299,11 +299,11 @@ See the [Cross-Functional Prioritization page](/handbook/product/cross-functiona
 
 #### Prioritization Framework
 
-{{% include "includes/master-prioritization-list.md" %}}
+{{% include "includes/product/master-prioritization-list.md" %}}
 
-{{% include "includes/engineering-allocations.md" %}}
+{{% include "includes/engineering/engineering-allocations.md" %}}
 
-{{% include "includes/feature-change-locks.md" %}}
+{{% include "includes/engineering/feature-change-locks.md" %}}
 
 Please also note the corresponding [Engineering handbook section](/handbook/engineering/development/principles/#prioritizing-technical-decisions) about the relative importance and prioritization of availability, security, and feature velocity. To ensure we're providing an appropriate focus on security, data loss, and availability, PMs should consider:
 
@@ -470,7 +470,7 @@ Downtime of GitLab.com has a material impact on our customers. From a 2014 repor
 
 #### Infradev
 
-The [infradev process](/handbook/engineering/workflow/#infradev) is used to triage issues requiring priority attention in support of SaaS availability and reliability. As part of the broader effort to responsibly manage tech debt across the company, PMs should partner with their EMs to identify and [incorporate](/handbook/engineering/workflow/#product-management) infradev labeled issues of [all severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). Note, issues labeled with a severity must be mitigated and resolved within [specific time frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) to meet the SLO. As EMs are the DRIs for prioritizing infradev work, PMs should familiarize themselves with the [infradev process](/handbook/engineering/workflow/#infradev) and [Board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev).
+The [infradev process](/handbook/engineering/workflow/#infradev) is used to triage issues requiring priority attention in support of SaaS availability and reliability. As part of the broader effort to responsibly manage tech debt across the company, PMs should partner with their EMs to identify and [incorporate](/handbook/engineering/workflow/#product-management) infradev labeled issues of [all severities](/handbook/product-development/how-we-work/issue-triage/#severity). Note, issues labeled with a severity must be mitigated and resolved within [specific time frames](/handbook/product-development/how-we-work/issue-triage/#availability) to meet the SLO. As EMs are the DRIs for prioritizing infradev work, PMs should familiarize themselves with the [infradev process](/handbook/engineering/workflow/#infradev) and [Board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev).
 
 Other resources PMs can consult to identify and prioritize Infradev issues include:
 
@@ -496,7 +496,7 @@ As a product manager, you will be assigned as the [stable counterpart](/handbook
 unique, and extremely beneficial guidelines when interacting with our groups. These include:
 
 1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
-1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
+1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development/how-we-work/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
 
 As an all-remote company, our crispness when it comes to responsibilities throughout the Product Delivery process was born out of necessity, but it pays untold dividends. Some of the benefits include:
 
@@ -700,11 +700,9 @@ Maturity plans are highly encouraged - but not required - for non-marketing cate
 
 #### Planning and OKRs
 
-[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-processes/product-okrs/) and product group OKRs.
-You should have plans for the next three months in terms of driving specific product metrics through discovery and delivery actions.
+Product groups may choose to have [OKRs](/handbook/company/okrs/).
+To use them effectively, you should have plans for the next three months in terms of driving specific product metrics through discovery and delivery actions.
 You should discuss the product metrics with your manager, your design and engineering counterparts and the actions to reach the results with your design and engineering counterparts.
-
-You can read more about the OKR process at GitLab at the two links shared above.
 
 #### Planning Issue for Milestone
 
@@ -859,7 +857,7 @@ Continuously improving the software we write is important. If we don't proactive
 
 For large projects, consider separating the announcement from the actual feature launch. By doing so, it can create more freedom to iterate during the customer rollout. For example, you could announce in advance to give customers ample notice, and then roll it out to new customers first, then to existing Free customers, then to existing paid customers. Or you could do the opposite, and roll it out to customers first, before announcing broadly, to ensure the user experience is great before making a marketing splash.
 
-When considering dates for a product announcement or launch that may impact our Field team, consider the [blockout restrictions](/handbook/sales/field-communications/#field-communications-playbook-flowchart) recognized by the Field team to ensure there won't be any major disruption to the business near quarter end.
+When considering dates for a product announcement or launch that may impact our Field team, consider the [blockout restrictions](/handbook/sales/field-communications/) recognized by the Field team to ensure there won't be any major disruption to the business near quarter end.
 
 #### Four phase transition
 
@@ -969,14 +967,14 @@ on these artifacts via these (non-exhaustive) opportunities:
 
 - Engage with users in epics, issues, and merge requests on GitLab.com.
 - [Meet with customers directly.](#customer-meetings)
-- Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
+- Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/).
 - Talk with GitLab team-members using GitLab.
 - Talk with other PMs and [Product leadership](/handbook/product/product-leaders/product-leadership/) to align your stage's product direction with the rest of GitLab.
 
 Here is some guidance for new PMs to ensure your stage direction, category strategies and plan
 are up-to-date and visible to critical stakeholders:
 
-- Seek feedback from the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board) once every six months.
+- Seek feedback from the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/) once every six months.
 - Present your plan to your manager once a month.
 - Present the plan and stage/category strategies to your stable counterparts
 - Present your stage strategy and plan in a [customer meeting](#customer-meetings) once every two weeks.
@@ -999,7 +997,7 @@ provided to GitLab.
 It's not your job to sell GitLab, but it should be obvious when it's the time
 to give more information about our products.
 
-For message consistency purposes, utilize the [Value Drivers](/handbook/marketing/#go-to-market-value-drivers-and-customer-use-cases) framework when posing questions and soliciting information.
+For message consistency purposes, utilize the [Value Drivers](/handbook/sales/command-of-the-message/#customer-value-drivers) framework when posing questions and soliciting information.
 
 After the meeting:
 
@@ -1070,7 +1068,7 @@ You can find some additional guidance on conducting Customer Discovery Meetings 
 
 #### Sourcing customers
 
-PMs should also feel free to collect and evaluate customer feedback independently. Looking at [existing](/handbook/product/ux/ux-research/#how-to-find-existing-research)
+PMs should also feel free to collect and evaluate customer feedback independently. Looking at [existing](/handbook/product/ux/ux-research/finding-existing-research/)
 research can yield helpful
 themes as well as potential customers to contact. You can use the following techniques to source customers directly:
 
@@ -1099,7 +1097,7 @@ This is also a great opportunity to discuss the roadmap and provide context so t
 The best way to request a chat is through the support ticket; however, you can also click
 on the user that initiated the interaction and their contact information will display on the left hand side panel.
 
-If you don't have a Zendesk account, see [how to request a light agent Zendesk account](/handbook/support/internal-support/#submitting-internal-license-request-extensions-and-viewing-support-tickets).
+If you don't have a Zendesk account, see [how to request a light agent Zendesk account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account).
 
 You can use [Zendesk's trigger feature](https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference) to receive email alerts when specific keywords relevant
 to your product area are mentioned in a support ticket. Additionally, it is possible to create a simple dashboard that lists all the currently active support tickets that match the trigger. Reach out
@@ -1115,10 +1113,10 @@ You can reach advocates on the `#community-advocates` Slack channel.
 You can also reach out to authors of articles related to tech your team is working on, via various publications such as [Medium](https://medium.com). A clear and brief email
 via the publication website or LinkedIn is a good way to engage.
 
-You're able to request a [LinkedIn Recruiter license](/handbook/hiring/sourcing/#upgrading-your-linkedin-account). This [Unfiltered video](https://youtu.be/rc2IX1e2sQ8) and [slide deck](https://docs.google.com/presentation/d/1LI9qXLRQSnikPiHztDQBapGrDn5Nimsf-K8g1r3j9Do/edit#slide=id.g29a70c6c35_0_68) provide an overview on how to use LinkedIn Recruiter to source participants for your study.
+You're able to request a [LinkedIn Recruiter license](/handbook/hiring/sourcing/#linkedin-sourcing). This [Unfiltered video](https://youtu.be/rc2IX1e2sQ8) and [slide deck](https://docs.google.com/presentation/d/1LI9qXLRQSnikPiHztDQBapGrDn5Nimsf-K8g1r3j9Do/edit#slide=id.g29a70c6c35_0_68) provide an overview on how to use LinkedIn Recruiter to source participants for your study.
 
 If you've tried these tactics and are still having challenges getting the customer feedback you need, connect with your manager for support and
-then consider leveraging the [UX Research team](/handbook/product/ux/ux-research/#how-ux-research-and-product-management-work-together-on-problem-validation-research-single-stage-group-initiatives).
+then consider leveraging the [UX Research team](/handbook/product/ux/ux-research/problem-validation-single-stage-group/).
 Additionally, you can connect with Product Operations directly or by attending Product Operations Office Hours for troubleshooting support.
 
 **Non-users** are often more important than GitLab users. They can provide the necessary critical view to come up with
@@ -1130,7 +1128,9 @@ both of you can arrive prepared.
 #### Customer Advisory Board meetings
 
 One specific, recurring opportunity to get direct feedback from highly engaged customers
-is the [GitLab Product Customer Advisory Board](/handbook/product/product-processes/customer-advisory-board/). Product Customer Advisory Board meetings take place on the last month of the quarter. These meetings are an opportunity to connect with customers and gather actionable insights.
+is the [GitLab DevOps Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/).
+You may be asked by the CAB to present your stage at these meetings. Here are
+some guidelines when doing so:
 
 You may be asked by the CAB to present your stage or a specific product offering at these meetings.  Here are some guidelines for presenting:
 
@@ -1343,7 +1343,7 @@ There are a few questions a Product Manager should ask when thinking about their
   - Consider network, compute, and storage costs
 - Are there tools in place to help GitLab, Inc and self-managed admins optimize the cost footprint for running GitLab (e.g. node rebalancing, transitioning objects to less costly storage classes, garbage collection capabilities)
 - Are there features and default settings that help users stay within their [CI and Storage limits](https://about.gitlab.com/pricing/)?
-- Are there configurable [application limits](/handbook/product/product-processes/#introducing-application-limits) in place for admins to enhance the availability and performance of GitLab and reduce [abuse vectors](/handbook/security/security-operations/trustandsafety/#examples-of-common-forms-of-abuse-include-but-are-not-limited-to)?
+- Are there configurable [application limits](/handbook/product/product-processes/#introducing-application-limits) in place for admins to enhance the availability and performance of GitLab and reduce [abuse vectors](/handbook/security/security-operations/trustandsafety/diy/)?
 - What is the experience of users when interacting with these features on GitLab.com? Is it fast and enjoyable?
 
 These items do not all need to be implemented in an MVC, though potential costs and application limits should be considered for deployment on GitLab.com.
@@ -1355,7 +1355,7 @@ Product Managers should also regularly assess the performance and cost of featur
 There are a few different tools PM's can utilize to understand the operational costs of their features. Some of these are maintained by Infrastructure, based on the operational data of GitLab.com. Others tools, like service ping, can be utilized to better understand the costs of our self-managed users. Ultimately, each product group is responsible for ensuring they have the data needed to understand and optimize costs.
 
 - Useful Dashboards to Visualize Infrastructure Costs:
-- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) required)
+- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) required)
 - [Service ping](https://docs.gitlab.com/development/internal_analytics/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
@@ -1364,7 +1364,7 @@ There are a few different tools PM's can utilize to understand the operational c
 - [Infrafin Board Workflow](https://gitlab.com/groups/gitlab-com/-/boards/1502173?label_name%5B%5D=infrafin)
 - [Infrafin Board by Group](https://gitlab.com/groups/gitlab-com/-/boards/2054211?label_name%5B%5D=infrafin)
 - [Infrafin Board by Savings Amount](https://gitlab.com/groups/gitlab-com/-/boards/992233?&label_name%5B%5D=infrafin)
-- [Infrafin Cost Management Handbook Page](/handbook/engineering/infrastructure/cost-management/)
+- [Infrafin Cost Management Handbook Page](/handbook/engineering/infrastructure-platforms/cost-management/)
 
 #### Tools to understand end user experience
 
@@ -1425,7 +1425,7 @@ When considering open source software in build vs. "buy" decisions we utilize th
 
 ## Analytics instrumentation guide
 
-Please see [Analytics Instrumentation Guide](/handbook/product/analytics-instrumentation-guide)
+Please see [Analytics Instrumentation Guide](/handbook/product/product-processes/analytics-instrumentation-guide/)
 
 ## Post Launch Instrumentation Guide
 

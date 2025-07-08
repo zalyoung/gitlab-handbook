@@ -1148,7 +1148,7 @@ The release post will link directly to closed issues or merge requests for the r
 - Performance improvements: `bug::performance` `workflow::complete` `workflow::verification` `workflow::production`
 - UI improvements: `UI polish` `Beautifying our UI` `UX Paper Cuts`
 
-`workflow::verification` and `workflow::production` are being included while we adopt the [addition of the `workflow::complete` label](/handbook/product-development/product-development-flow/#required-labels-2). `workflow::complete` is the desired label to indicate an issue is considered by users to be delivered.
+`workflow::verification` and `workflow::production` are being included while we adopt the [addition of the `workflow::complete` label](/handbook/product-development/how-we-work/product-development-flow/#required-labels-2). `workflow::complete` is the desired label to indicate an issue is considered by users to be delivered.
 
 ### Omnibus improvements
 

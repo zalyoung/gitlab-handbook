@@ -55,7 +55,9 @@ Our primary service. Stealth operations are typically 3-9 months in length and a
 
 ### Opportunistic Attacks
 
-These are short (a few days), more spontaneous attacks against GitLab systems when a potential initial access vector comes to our attention. Depending on what we find, we can either raise an incident ourselves, or continue as attackers would until discovery. We're looking to formalise this to a framework for discovering initial access more efficiently and iteratively. [Read more...](opportunistic-attacks/)
+These are spontaneous attacks against GitLab systems when a potential initial access vector comes to our attention. While "Stealth Operations" are generally designed to emulate a specific adversary or campaign, "Opportunistic Attacks" are a creative and relentless pursuit towards a specific objective, using whatever it takes to get the job done.
+
+Depending on what we find, we can either raise an incident ourselves, or continue as attackers would until discovery. There is no specific timeline for these attacks - they could last days or months. [Read more...](opportunistic-attacks/)
 
 ### Purple Teaming
 

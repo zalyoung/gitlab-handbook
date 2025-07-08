@@ -60,6 +60,8 @@ Now we have a component file, but in order for the component to be accessible by
 
 1. All components require a project description. Write in your project description section, "This component is an example component, and is meant for demonstration purposes only."
 
+1. Click **Save changes** to save your description.
+
 1. Expand **Visibility, project features, permissions**.
 
 1. Turn on the CI/CD Catalog project toggle. Click **Save changes**.

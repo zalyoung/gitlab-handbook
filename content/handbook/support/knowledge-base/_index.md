@@ -6,6 +6,8 @@ description: GitLab Support's Knowledge Base
 The knowledge base (KB) is a repository of solutions to commonly-encountered problems, created and maintained by Support Engineers (SE).
 The knowledge base turns the effort used to solve a single ticket for one customer into a public resource for all GitLab users.
 
+[GitLab Knowledge Article Page](https://support.gitlab.com/hc/en-us/categories/360002276159-Knowledge-Articles)
+
 Benefits:
 
 - Deflects ticket creation.
@@ -38,15 +40,21 @@ The Knowledge Base and our product documentation are both key elements of GitLab
 
 Docs answer: "How does this work?"
 
-- Teaches about product features and how to use them.
+- Offers comprehensive information about Product features, architecture and Usage.
 - Provides an overview of the current version of our products.
+- Often more technical and detailed 
+- Updated less frequently (New Feature releases)
+- Primarily created for engineers, advanced users, Product details
 
 ### Knowledge Articles
 
 Knowledge Articles answer: "How do I fix this?"
 
 - Solves problems encountered while using our products.
-- Includes solutions to problems in past versions of our products.
+- provides solutions to common issues and questions
+- typically task oriented and includes videos, screenshots
+- Updated frequently based on new issues, new workarounds, new troubleshooting and feedback
+- Primarily created for customer self-service
 
 ## Why you should create a knowledge article
 
@@ -80,18 +88,38 @@ A list of available training can be found in [Knowledge Base Training Resources]
 
 ## Implementation
 
-We use ZenDesk to create, modify, and  publish knowledge base articles.
+We use ZenDesk to create, modify, and  publish knowledge base articles.  Follow the [training to create a knowledge article](https://docs.google.com/document/d/1zEJHhkIxdhYFnOEJrzw3uinXhrvKtvA17Gn7AmZR9yg/edit?tab=t.0#heading=h.4d11fzkgmi1w) IN ZenDesk.
 
-Knowledge base articles are dynamically suggested to a user while submitting a ticket.
+If you are NOT a ZenDesk User, and want to create a knowledge article, you can do so externally!  Follow the process below.
 
-Integrating with Zendesk offers the following benefits:
+### How to create a knowledge article if you are not in ZenDesk 
+
+Anyone can create a knowledge article regardless of being in ZenDesk or not (or if you are a Light Agent). To create an article you will:
+
+1. Go to the [Folder and choose a template](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR)
+2. Create the article using the template and Save the document.
+3. Use the Knowledge Slack Channel [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) to request the article to be created. Please tag {{< member-by-name "Kirsty Allen" >}} . OR you can Create an ISSUE and Assign to {{< member-by-name "Kirsty Allen" >}} 
+4. Your Article will be created in ZenDesk and assigned to a reviewer & then Published. You will be notified of Publication. 
+
+**Light Agents**
+
+If you are a Light Agent in ZenDesk and would like to **create knowledge articles** please do the following:
+
+- Fill out an [Access Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
+- Request Access to have your Light Agent Role elevated to "create knowledge"
+- Request should include Request Reason:  **Write access for articles**
+- Request should include if this is for **Global, US Gov, or Both**
+- Assign to your Manager for Approval.  **Manager Approval is Required!**
+
+### Integrating with Zendesk offers the following benefits
 
 - Centralized Knowledge Base
 - Scalable and Customizable
-- Seamless Integration with Tickets
+- Seamless Integration with Ticket
 - Improved Support Engineer Productivity
 - Streamlined Analytics and Reporting
 - Streamline "Knowledge Centered Service" (KCS), adopting knowledge into the workflow
+Note: Knowledge base articles are dynamically suggested to a user while submitting a ticket.
 
 Knowledge base articles can be found at:
 

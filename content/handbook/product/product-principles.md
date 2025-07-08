@@ -5,7 +5,7 @@ description: "These are core principles we believe world class product organizat
 
 
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Our Product Principles
 
@@ -69,7 +69,7 @@ There are scenarios when an MVC approach is not advised. These include:
 
 ### Iteration
 
-An MVC approach is a byproduct of our spirit of iteration. That means we [break problems down](/handbook/product-development/product-development-flow/#build-phase-1-plan) as [small as possible](/handbook/values/#make-small-merge-requests), and focus on [reduced cycle time](/handbook/values/#reduce-cycle-time). Thinking iteratively is not always intuitive, and breaking certain topics or projects down can be challenging. Here's a helpful [video](https://www.youtube.com/watch?v=zwoFDSb__yM) from our CEO with guidance on how to think more iteratively.
+An MVC approach is a byproduct of our spirit of iteration. That means we [break problems down](/handbook/product-development/how-we-work/product-development-flow/#build-phase-1-plan) as [small as possible](/handbook/values/#make-small-merge-requests), and focus on [reduced cycle time](/handbook/values/#reduce-cycle-time). Thinking iteratively is not always intuitive, and breaking certain topics or projects down can be challenging. Here's a helpful [video](https://www.youtube.com/watch?v=zwoFDSb__yM) from our CEO with guidance on how to think more iteratively.
 
 Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illustrates how to build MVCs using Iteration. It shows Lego climbing obstacles. The first design fails. The second one can climb a book and so on. It also illustrates how modularity and good interfaces help with iteration as things get complex.
 
@@ -207,7 +207,7 @@ A few examples:
 
 - Design features to avoid downtime since it's not acceptable for SaaS nor self-managed users.
 - It is ok to release functionality to SaaS first, as long as the solution is applicable for self-managed too.
-- While a feature can be enabled first on SaaS via a [feature flag](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) or setting, the underlying implementation must also exist, although disabled, on self-managed.
+- While a feature can be enabled first on SaaS via a [feature flag](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) or setting, the underlying implementation must also exist, although disabled, on self-managed.
 
 In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present on self-managed codebase but are disabled until General Availability.
 

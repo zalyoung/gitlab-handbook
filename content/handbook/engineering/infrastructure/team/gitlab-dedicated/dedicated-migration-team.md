@@ -25,7 +25,7 @@ The Dedicate migration team is a team focussed on performing migrations into Git
 |Scott Murray|         Engineer |
 |Douglas Alexandre|    Staff Engineer|
 |Sampath Ranasinghe|   Senior Product Manager|
-|Akanskha Joshi|      Technical Program Manager|
+|Akanksha Joshi|      Senior Technical Program Manager|
 
 ## Mission
 
@@ -36,5 +36,6 @@ Successfully manage incoming migrations through FY26Q2 and FY26Q3 and establish 
 - [GitLab group](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group)
 - [GitLab project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/dedicated-migrations)
 - [Migrating Customers to Dedicated internal documentation](https://internal.gitlab.com/handbook/engineering/dedicated/migrating-customers-to-dedicated/)
+- [Cutover Cancellation Impact](https://drive.google.com/drive/folders/12GInLFxnT5BPbPJh1JsemUE089-Ctj0e) 
     
 ## Process

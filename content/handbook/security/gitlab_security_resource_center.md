@@ -45,7 +45,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
 - [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews)
-- [Access Request process](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
 
 ### Business continuity
 

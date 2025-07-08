@@ -53,20 +53,20 @@ Go to the My Assigned Tickets view in Zendesk. For each ticket you wish to summa
    - Blockers?
    - Return Date.
 3. Feel free to also ask regional peers if they can pickup tickets in other forms of communication, such as Slack, but Zendesk should remain as the single source of truth for tickets that need attention from other team members.
-4. At the end of your last work day before taking PTO, update your availability using the [Out of Office](/handbook/security/customer-support-operations/docs/zendesk/apps#out-of-office) app in Zendesk. 
+4. At the end of your last work day before taking PTO, update your availability using the [Out of Office](/handbook/security/customer-support-operations/docs/zendesk/apps#out-of-office) app in Zendesk.
     1. Navigate to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office).
     1. If empty, select "Refresh the app" at the top of the page.
-    1. Click the `Make unavailable` button in the row with your agent information. It is important that you do this for tickets to be unssigned when the customer responds. 
+    1. Click the `Make unavailable` button in the row with your agent information. It is important that you do this for tickets to be unassigned when the customer responds.
 
 #### Ticket Handover Process
 
 When taking over a ticket that has the `ooo_summary` tag:
 
-1. Review unassigned tickets for your region from the Global Suppport Ticket View.
+1. Review unassigned tickets for your region from the Global Support Ticket View.
 1. Remove the `ooo_summary` tag from the ticket.
 1. Set the Zendesk field `Handover Status` to `Handover Completed`.
 1. Update ticket status and add appropriate comments for any work performed.
-1. After the return date specified in the macro, you can liase with the original engineer to hand the ticket back.  If needed, schedule a knowledge transfer session with the returning engineer.
+1. After the return date specified in the macro, you can liaise with the original engineer to hand the ticket back.  If needed, schedule a knowledge transfer session with the returning engineer.
 
 **Important:** If you skip removing the tag `ooo_summary` then the ticket will be automatically unassigned if the customer responds again.
 
@@ -75,41 +75,41 @@ When taking over a ticket that has the `ooo_summary` tag:
 1. Make yourself available in Zendesk by selecting "Make available" in the [Out of office app](https://gitlab.zendesk.com/agent/apps/out-of-office).
 1. Optional: Review the status of the tickets assigned to you before your PTO. You can coordinate with the new owner if it makes sense to reclaim ownership. This could be beneficial if you have an established rapport with the customer, possess strong technical expertise on the issue, or had previously agreed to continue the investigation upon your return.
 
-#### PTO FlowChart 
+#### PTO FlowChart
 
 ```mermaid
 flowchart TD
     Start[Engineer Planning PTO] --> DocumentTickets[Document Ticket List/Screenshot]
     DocumentTickets --> TicketPriority{Check Priority?}
-    
+
     TicketPriority -->|Sev 2 and Above| HighPriority[High Priority Process]
     TicketPriority -->|Sev 3 and Below| NormalPriority[Normal Priority Process]
-    
+
     HighPriority --> NotifyManager[Notify Manager 2+ Days Before]
     NotifyManager --> FindAssignee[Find Assignee]
-    
+
     FindAssignee --> SameShift[Check Same Shift]
     SameShift --> OtherRegions[Check Regional Channels]
     OtherRegions -->|Found| WarmHandover[Conduct Warm Handover]
     OtherRegions -->|Not Found| EscalateManager[Escalate to Manager]
-    
+
     WarmHandover --> PairingSession[Pairing Session/Slack Discussion]
     PairingSession --> ApplyMacro[Apply OOO Ticket Summary Macro]
-    
+
     NormalPriority --> InformCustomer[Inform Customers of Absence]
     InformCustomer --> SetPending[Set to Pending Status]
     SetPending --> ApplyMacro[Apply OOO Ticket Summary Macro]
-    
-    
+
+
     subgraph MacroDetails [OOO Ticket Summary]
         ApplyMacro --> Summary[Add Ticket Summary]
         Summary --> AddOOOTag[Add ooo_summary Tag]
         AddOOOTag --> AutoUnassign[Note: Ticket will auto-unassign if customer responds]
-        AutoUnassign --> DocumentDetails[Document: 
-        - Problem Description 
-        - Action Taken 
-        - Next Steps Needed 
-        - Blockers 
+        AutoUnassign --> DocumentDetails[Document:
+        - Problem Description
+        - Action Taken
+        - Next Steps Needed
+        - Blockers
         - Return Date]
     end
 ```

@@ -95,7 +95,7 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * Open up new issues for 'follow-up' work, or work that was forced out of scope.
 1. Assign a [weight](#weights).
    * If the issue requires both frontend and backend work, it should be split and weighed independently.
-1. Determine if [a feature flag is needed](/handbook/product-development/product-development-flow/feature-flag-lifecycle/#when-to-use-feature-flags).
+1. Determine if [a feature flag is needed](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#when-to-use-feature-flags).
    * If you think that we should use the feature flag for a given issue, add ~"feature flag" label
      and add in the description a section called **Feature Flag** with the proposed name.
    * Create a [feature flag rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Roll%20Out) issue to track the multiple stages of releasing with a feature flag.
@@ -209,7 +209,7 @@ The issue verification should be done by someone else other than the MR author[^
 
 ## Planning for PTO
 
-We follow the [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) and the engineering process to [create PTO Coverage](/handbook/engineering/#1-creating-an-engineering-coverage-issue) issues. PTO Coverage issues are recommended for 3 days or more. 
+We follow the [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) and the engineering process to [create PTO Coverage](/handbook/engineering/#1-creating-an-engineering-coverage-issue) issues. PTO Coverage issues are recommended for 3 days or more.
 
 1. Grade 8 team members (EMs, Staff+) should create PTO Coverage issues in the centralized [Engineering Division / PTO Coverage](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new?description_template=Default) project.
 1. Other team members should create PTO coverage issues in our [Security Risk Management](https://gitlab.com/gitlab-com/security-risk-management-stage/-/issues/new?description_template=ooo_template) project.
@@ -227,7 +227,7 @@ As the DRI for an Epic, the engineer is **not** responsible for executing all th
 1. Providing status updates when requested.
 1. Identifying and communicating blockers.
 1. Identifying potential security implications and involve a security engineer if necessary
-1. Take measurements to [reduce the impact of far-reaching work](/handbook/engineering/expansion-development/#reducing-the-impact-of-far-reaching-work)
+1. Take measurements to reduce the impact of far-reaching work](/handbook/engineering/development/#reducing-the-impact-of-far-reaching-work)
 
 The DRI may choose to refine and work on the issues they created but they're not expected to
 deliver the whole Epic on their own.

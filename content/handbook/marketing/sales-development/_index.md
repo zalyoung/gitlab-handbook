@@ -66,7 +66,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **Announcements - (SDR Ops/Enablement - Chris Wang)**| [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL) |
 | **SDR AMER and EMEA (Manager - Jonathan Rivat)**              | [`#sdr_amer_emea_inbound`](https://gitlab.enterprise.slack.com/archives/C077J5ANZ0T) |
 | **BDR AMER (Manager - Brian Tabbert)**            | [`#amer_bdr`](https://gitlab.enterprise.slack.com/archives/C06J0U9EC8L) |
-| **BDR COMM AMER (Interim Manager - Christopher Stauder)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
+| **BDR COMM AMER (Manager - Chris Stauder)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENT AMER (Manager - Christie Park)** | [`#bdr_amer_ent`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
 | **BDR FINS & LATAM AMER (Manager - Ashley Dunn)**       | [`#bdr_amer_fins_latam`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
@@ -95,7 +95,6 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
-
 | [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
 | [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
 | [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
@@ -106,6 +105,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [1:1 Dashboards - Accounts: COMM/ENTG APJ](https://gitlab.my.salesforce.com/01ZPL000001I5qH)   | 1:1 dashboard for accounts in the Commercial and Enterprise APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01ZPL000001I77J)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
+| [1:1 Dashboards - Accounts: AMER/EMEA BASE](https://gitlab.my.salesforce.com/01ZPL000002Za13)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
 | [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads. |
 | [1:1 Report - Tableau Prospecting 360 Database - Master](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage?:iid=2) | The main 1:1 Dashboard that combines multiple datapoints into one consolidation view for you to expand your research. |
@@ -436,6 +436,7 @@ The FO Outbound process is split in four phases, which should be followed on a w
 | BDR Next Steps         | A space for the BDR to use as working notes for the current status of prospecting the account.                |
 | BDR Account Strategy   | A categorization system that we use to high-level denote what motion or play was used in trying to engage with an account. |
 | BDR Recycle Date       | Automatically populated two months out from the AW date. Can be manually changed if the BDR chooses to continue working an account. |
+| Worked in FY Reason       | Automatically populats when an accounts get moved to Worked in FY prospecting status. If an account needs to be added to this status before it's appopriate date, this field needs to be manually populated with one of the choices provided. |
 | 6QA Acceptance Status and 6QA Dispute Reason. | When an account has been automatically moved to Actively Working and Showing Intent, as per the 6QA project outlined [here](/handbook/marketing/sales-development/#6sense-6qa-automations), you will need to review the account and change this field to Accepted or Disputed within 48 hours. In case of choosing to Dispute the account you will need to choose a Dispute reason. Use `Account in open opportunity` if there is an SDR with an active open opportunity. These accounts will be flagged on the 1:1 Dashboard for you to review with your manager and other collaborators. |
 
 #### Planning Phase (4-5 hours/week)
@@ -1070,7 +1071,10 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 - [AMER Calling Analysis Claude Project](https://claude.ai/project/0196022b-a414-7215-9cf0-22ec8e19f9aa) 
 - [EMEA Calling Analysis Claude Project](https://claude.ai/project/01961368-cd7e-7652-a1e3-3d2427367998)
   - [Report Template for Calling Projects](https://gitlab.my.salesforce.com/00OPL00000Fy1Ws) 
-  - Above are some examples of how information can be stored to a pre-made project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
+- [SAO Audit Claude Prompt](https://claude.ai/project/0197c14a-1a88-711c-8fa8-e28b3444367b)
+  - [Report Template for SAO Audits](https://gitlab.my.salesforce.com/00OPL00000HXTSt)
+
+Above are some examples of how information can be stored to a pre-made project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
 
 **Limitations**
 
@@ -1252,7 +1256,7 @@ The team has an issue where we consolidate our monthly to-dos (titled `Monthly H
 
 #### Manager Tool Certification
 
-We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893).
+We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full video playlist of this training is [on our Unfiltered playlist here](https://www.youtube.com/playlist?list=PL05JrBw4t0KpFZmMd8LLfqkcXr9lotTAb). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://docs.google.com/spreadsheets/d/12YbsXUN6-ZeAFHjQa8YTdL1sNIPKiCh8QJmf__IAZkY/edit?gid=690387328#gid=690387328), along with passing criteria and some more video guides. 
 
 #### General leadership principles
 

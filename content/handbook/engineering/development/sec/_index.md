@@ -154,7 +154,7 @@ The following teams comprise the sub-department:
   - Vulnerability Research group - [handbook](/handbook/engineering/development/sec/secure/vulnerability-research/)
   - API Security - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/api-security/)
 - Security Risk Management
-  - Security Policies group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/)
+  - Security Policies group - [handbook](/handbook/engineering/development/sec/security-risk-management/security-policies/)
   - Threat Insights group - [handbook](/handbook/engineering/development/sec/security-risk-management/security-insights/)
 
 It is important to delineate who the EM and PM DRIs are for every functionality, especially where this may not be obvious. This is documented on a dedicated [delineation page](delineate-sec.html).
@@ -350,16 +350,6 @@ When configuring projects that are not part of the secure stage, please see the 
 - [Sec Sub-department Performance Indicators](/handbook/product/groups/product-analysis/engineering/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
-### Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "SECTION_LABEL"="sec" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "SECTION_LABEL"="sec" >}}
-{{< /tableau >}}
-
 ## Slack channels
 
 - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Software Supply Chain Security and Secure stages.
@@ -404,7 +394,7 @@ The members of each google group consists of stable counterparts and the correct
 
 ## Staying Informed and Informing Team Members
 
-- [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/#communication).
+- [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/).
 - Slack channels #s_secure and #s_software-supply-chain-security are informative since they are all part of Sec Section.
 
 ## Planning in the Section

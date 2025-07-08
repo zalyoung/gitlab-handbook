@@ -88,4 +88,4 @@ This is an example template you can use to introduce yourself to a new team memb
 
 ## That's it
 
-That's all there is to it! Thanks for your help welcoming the newest GitLab team-member to the team and getting them on board. If you have questions that are not answered on this page, please [reach out to the People Connect Team](/handbook/people-group/people-connect)!
+That's all there is to it! Thanks for your help welcoming the newest GitLab team-member to the team and getting them on board. If you have questions that are not answered on this page, please [reach out to the People Operations Team](/handbook/people-group/people-connect)!

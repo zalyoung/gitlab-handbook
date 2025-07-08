@@ -17,13 +17,14 @@ The [Office to the CEO](/handbook/ceo/office-of-the-ceo/) consists of:
 
 1. The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/): the person responsible for running this group and supporting the success of the CEO.
 1. [Strategy and Operations team members](/job-families/chief-executive-officer/strategy-and-operations/): internal consultants and doers who support priority cross-functional projects within GitLab. Roles vary based on business needs, but these folks can be specialists (for example, focused on China or technology) or generalists.
-1. [EBAs](/handbook/eba/) to the CEO: EBAs who support the CEO and the Chief of Staff to the CEO.
 
-When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
+When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](/handbook/about/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
+
+The size of the team and which positions are present have varied over time depending on CEO priorities and required resources. For a list of current OCEO team members, please refer to the [company team page](https://about.gitlab.com/company/team/?department=ceo).
 
 ## Kinds of projects Strategy and Operations team members work on {#what-projects-does-the-cost-work-on}
 
-Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#okr-process-at-gitlab) and given these projects are important to the CEO, the Strategy and Operators team members are often involved in these initiatives.
+Given the cross-functional nature of the company goals and given these projects are important to the CEO, the Strategy and Operators team members are often involved in these initiatives.
 
 ### Project Criteria
 
@@ -80,7 +81,6 @@ Examples of projects with no clear leader:
 #### Broad
 
 Some projects or initiatives are very broad and cross-functional and *make sense* to belong to the CEO but would be inefficient uses of the CEO's time if fully owned by the CEO.
-OKRs are a prime example. OKRs need to happen and are key to the business but it is not efficient for the CEO to shepherd the process along.
 The Office of the CEO is the shepherd for these sorts of projects and collaborates with all team members at GitLab to achieve success on such initiatives.
 
 Examples of broad projects:
@@ -142,16 +142,6 @@ In addition, the CoS to the CEO helps the CEO in preparing for the CEO's closed 
 1. Who should be thanked for their work?
 
 Designated meeting time will be used to review and make adjustments to the proposal. The CoS to the CEO will coordinate with the EBA to the CEO to ensure that there is a "FYI" on the closed session agenda that links to the prepared material.
-
-## OKRs
-
-The Office of the CEO runs the [OKR process](/handbook/company/okrs/).
-We set OKRs on a [fiscal quarter](/handbook/finance/#fiscal-year) basis.
-
-There is an [OKR schedule](/handbook/company/okrs/#okr-process-at-gitlab) that dictates the timeline of events.
-We use a handbook page for each quarter.
-The CEO's Objectives every quarter map to the [sequence](/handbook/company/cadence/) of our [strategy](/handbook/company/strategy/).
-The CEO's KRs are what we're measuring for the company for that quarter.
 
 ## Collaborating on Cross-Functional Initiatives
 
@@ -303,13 +293,11 @@ Once a project or initiative to Shadow has been identified and the team member d
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them.
 1. Give feedback to and receive feedback from the Chief of Staff to the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback). Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
 
-## Quick Links and Fun Facts
+## Quick Links
 
 - [Chief of Staff to the CEO Job Family](/job-families/chief-executive-officer/chief-of-staff/)
 - [Strategy & Operations Job Family](/job-families/chief-executive-officer/strategy-and-operations)
-- [GitLab Strategy and Operations (Workplace) Team Handbook](/handbook/ceo/office-of-the-ceo/workplace)
-- [Performance Indicators](/handbook/ceo/office-of-the-ceo/performance-indicators)
-- [GitLab Team Project](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team)
+- [GitLab Team Project](https://gitlab.com/gitlab-com/office-of-the-ceo/office-of-the-ceo-team)
 - [Team readmes](/handbook/ceo/office-of-the-ceo/readmes/)
 - [Embody Team](/handbook/ceo/office-of-the-ceo/embody-team/)
 
@@ -325,8 +313,8 @@ The Office of the CEO maintains a [GitLab Group](https://gitlab.com/groups/gitla
 1. `Maintainer` -> `Manager`
 1. `Developer` -> `Member`
 
-As of 2023-08 there's no automatic syncing between these groups so Office of the CEO team members who have the appropriate permission level in each group should add or remove team members as they join and leave the team.
+There is no automatic syncing between these groups so Office of the CEO team members who have the appropriate permission level in each group should add or remove team members as they join and leave the team.
 
 #### GitLab Project
 
-The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team). Please file issues here as needed to track work being done.
+The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/office-of-the-ceo-team). Please file issues here as needed to track work being done.

@@ -9,7 +9,7 @@ description: "Common Questions about the Offboarding Process"
 
 Offboarding issues are used for de-provisioning purposes so you, as the team member, do not need to do anything to get it opened or will have any action items within the issue.
 
-The People Connect Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
+The People Operations Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
 
 ### When will my access be deactivated?
 
@@ -65,7 +65,7 @@ Set up accounts that you'll need access to after your last day. Ensure your pers
 
 ### Laptop Wipe
 
-It is required that your laptop is wiped on your last day. Please [book an appointment](/handbook/security/corporate/services/laptops/wipe/) with an IT Ops team member for your last day.
+It is required that your laptop is wiped on your last day. Please [book an appointment](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe//) with an IT Ops team member for your last day.
 
 Under **no circumstance** should you be wiping your own laptop. Laptop wipes must be done from an IT Ops team member for logs. Reach out to [#it_help](https://gitlab.slack.com/archives/CK4EQH50E) if you have any other questions.
 
@@ -73,7 +73,7 @@ Under **no circumstance** should you be wiping your own laptop. Laptop wipes mus
 
 If you are returning your laptop to IT please purchase a cardboard box and packing foam before your last day and expense it in Navan under [Office supplies & consumables](/handbook/finance/expenses/#office-supplies--consumables). IT will be sending a prepaid shipping label to return the laptop.
 
-Please refer to the Laptop Buy Back Policy [here](/handbook/security/corporate/services/laptops/buyback/).
+Please refer to the Laptop Buy Back Policy [here](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks).
 
 ## Compensation - Payroll
 

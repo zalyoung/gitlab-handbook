@@ -45,7 +45,7 @@ We use our  Security Insights Priorities page for [17.x](https://about.gitlab.co
 
 ### Product Workflow
 
-The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development/product-development-flow/).
+The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 Additional information can be found on the [Planning page](/handbook/engineering/development/sec/security-risk-management/srm-planning/).
 
@@ -186,6 +186,8 @@ We can monitor test results in the following Slack channels:
 * #e2e-run-staging
 * #e2e-run-production
 
+For full details of scheduled E2E test pipelines running against live environments see [E2E test pipelines](../../../../testing/end-to-end-pipeline-monitoring#end-to-end-e2e-test-pipelines).
+
 ### Running and Fixing E2E specs
 
 #### Prerequisites
@@ -200,7 +202,7 @@ Ensure the following before running tests:
   export GITLAB_SIMULATE_SAAS=0
   ```
 
-* Ensure EE License is set as an environment variable.
+* Ensure EE License is set as an environment variable in your .env file.
 
 #### Running QA Tests
 
@@ -261,6 +263,8 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
 
 ### Troubleshooting common errors and fixes
 
+* For general troubleshooting hints, see [E2E test troubleshooting](https://docs.gitlab.com/development/testing_guide/end_to_end/troubleshooting/).
+
 * **Error: QA::Resource::Sandbox Fabrication Failed**
   * Error Message:
 
@@ -299,6 +303,25 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
       gdk data-reset
       ```
 
+* **Error: Webpack Module Parse Failed**
+  * Error message:
+  
+    ```plaintext
+    /.../.../.../gdk/gitlab/node_modules/graphql-ws/dist/client.js 75:56
+    Module parse failed: Unexpected token (75:56)
+    You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See
+    https://webpack.js.org/concepts#loaders
+    |         },
+    |         emit(message2) {
+    >           if ("id" in message2) listeners2[message2.id]?.(message2);
+    |         }
+    |     };
+    ```
+
+  * Solution:
+    * Switch from Webpack to Vite
+    * Run `gdk update`
+
 ### Running E2E specs in the MR pipeline
 
 We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and reviewing the results when there are changes in:
@@ -325,11 +348,13 @@ For any questions, reach out to [#s_developer_experience](https://gitlab.enterpr
 
 ### Resources
 
+* [Testing at GitLab handbook page](../../../../testing)
 * [Testing Code in Merge Requests](https://docs.gitlab.com/development/testing_guide/end_to_end/#testing-code-in-merge-requests)
 * [Running Govern E2E Specs Locally Against GDK](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa?ref_type=heads#generic-command-for-a-typical-gdk-installation)
 * [Automatic test execution when a feature flag definition changes](https://docs.gitlab.com/development/testing_guide/end_to_end/best_practices/feature_flags/#automatic-test-execution-when-a-feature-flag-definition-changes)
 * [End-to-end test pipelines](https://docs.gitlab.com/development/testing_guide/end_to_end/test_pipelines/)
 * [GitLab team member's guide to using official build infrastructure](https://docs.gitlab.com/omnibus/build/team_member_docs/)
+* [E2E testing overview video](../../../../testing/#-gitlab-end-to-end-testing-overview-video)
 
 ## Monitoring
 

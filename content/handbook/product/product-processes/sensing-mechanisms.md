@@ -57,7 +57,6 @@ In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 
 ### Internal
 
-1. Leadership [OKRs](/handbook/company/okrs/) set the direction for the company
 1. Each PM should be having regular conversations with their [stage groups stable counterparts](/handbook/product/categories/) to discuss their strategy and plan. Share this discussion with the company via our GitLab Unfiltered [YouTube](/handbook/marketing/marketing-operations/youtube/) channel. PMs should share their next three milestones, year-long plan, strategy, and relevant OKRs (with status) so everyone can contribute feedback.
 1. Dialogue with internal customers to improve the dogfooding potential of your features
 1. Quarterly cross-section [direction](/handbook/product/product-processes/#section-and-stage-direction) reviews

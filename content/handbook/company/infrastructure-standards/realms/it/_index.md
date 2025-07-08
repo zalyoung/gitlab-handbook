@@ -26,7 +26,6 @@ To request access to a group, please see [group access request tutorial](/handbo
 |----------------------|-------------------------|------------------|------------------------------------------|
 | Jeff Martin          | `jeffersonmartin`       | Owner            | Sr IT Systems Engineer                   |
 | Dillon Wheeler       | `dillonwheeler`         | Counterpart      | IT Systems Engineer                      |
-| Mohammed Al Kobaisy  | `malkobaisy`            | Counterpart      | IT System Administrator                  |
 | Daniel Parker        | `dparker`               | Counterpart      | Sr Integrations Engineer                 |
 
 ## Realm labels and tags

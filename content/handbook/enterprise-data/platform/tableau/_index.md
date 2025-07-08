@@ -667,8 +667,9 @@ Use this folder as your go-to spot for foundational Tableau materials supported 
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
 
-### Official Training Resources
+### Training Resources
 
+- [GitLab Tableau Explorer Training](https://drive.google.com/file/d/1Zkk8_xz4CeH7tSHVW4KlMWHzFYN3VZlK/view?usp=drive_link): This video training covers the Gitlab Environment and how to update Tableau dashboards and even publish your own. This video access does require you to be a GitLab team member for access.  
 - [Free Tableau Training](https://www.tableau.com/learn/training)
 - [Tableau eLearning - Training Portal](https://elearning.tableau.com/): eLearning from Tableau is available for users with the Creator or Explorer license type
   - Tableau eLearning access steps
@@ -864,3 +865,30 @@ The index itself is a weighted average, values range between 0 and 1, of the cou
 | 0.70 to 0.84 | Fair |
 | 0.50 to 0.69 | Poor |
 | 0.00 to 0.49 | Unacceptable |
+
+---
+
+### Tableau Google Docs & Slides Add-on
+
+All Tableau users have access to the **[Tableau for Google Docs and Slides add-on](https://workspace.google.com/marketplace/app/tableau/1044537977580)**, which allows you to embed Tableau dashboards and charts directly into Google Docs or Slides.
+
+#### How It Works
+
+- The add-on is accessible on the **right-hand panel** of any Google Doc or Slide.
+- Users can **search for and insert Tableau views** into their documents.
+- Once embedded, Tableau content can be **refreshed with one click** to reflect the latest data.
+- The add-on embeds the **URL** of the selected Tableau view.
+
+#### Best Practices
+
+- If you need to embed **a specific chart** from a dashboard, that chart must be **published as its own view** in Tableau.
+- Use clear naming conventions when inserting content to ensure recipients understand what data is being shared.
+
+#### SAFE Data Considerations
+
+When working with content that includes **SAFE-classified data**, you must:
+
+- Ensure the Google Doc or Slide is **only shared with individuals who have access** to the SAFE data in Tableau.
+- Consider adding **“ - SAFE”** to the document or presentation title to indicate data sensitivity and appropriate access controls.
+
+Misuse of SAFE data in external documents may result in data exposure. Always double-check permissions before sharing. For help publishing specific views or understanding SAFE classifications, contact the Data or Tableau support teams.

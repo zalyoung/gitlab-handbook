@@ -18,7 +18,7 @@ Whiteboards are a powerful facilitation tool that drives active participation fr
 
 ### Available Templates
 
-The library of whiteboard templates are in the [SA Whiteboard and Pitch Catalog](https://www.figma.com/files/972612628770206748/project/354583643) FigJam Team. For access, open an [Access Request](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/) and ensure you are added to the Solutions Architecture team.
+The library of whiteboard templates are in the [SA Whiteboard and Pitch Catalog](https://www.figma.com/files/972612628770206748/project/354583643) FigJam Team. For access, open an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) and ensure you are added to the Solutions Architecture team.
 
 1. End to End GitLab Value
 1. End to End Gitlab People and Process   

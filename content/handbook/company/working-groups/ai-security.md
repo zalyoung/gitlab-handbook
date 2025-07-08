@@ -36,4 +36,5 @@ status: active
 | Functional Lead    | Jessie Young            | Principal Engineer                              |
 | Functional Lead    | Joern Schneeweisz       | Principal Security Engineer                     |
 | Member             | Daniel Hauenstein       | Application Security Engineer, Product Security |
+| Member             | Dillon Wheeler          | Backend Engineer, AI-powered:Duo Chat           |
 | Member             | Vitor Meireles De Sousa | Senior Manager, AppSec, Product Security        |

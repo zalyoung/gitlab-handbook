@@ -180,7 +180,7 @@ Other listed processes for the People Connect Team can be found [here](https://i
 
 ## Frequently Requested
 
-Please review the [frequently requested section](/handbook/people-group/frequent-requests/) of the People Handbook before reaching out to the team. The page includes information on accessing a team directory, requesting a letter of employment, mortgage forms, the companies reference request policy, ordering business cards, and changing your name in GitLab systems.
+Please review the [frequently requested section](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/frequently_requested/) of the People Internal Handbook before reaching out to the team. The page includes information on accessing a team directory, requesting a letter of employment, mortgage forms, the companies reference request policy, ordering business cards, and changing your name in GitLab systems.
 
 ## Addresses
 
@@ -215,7 +215,7 @@ Administrative access to CultureAmp will be limited based on role and responsibi
 - Survey Creator administrator access can create, manage and design surveys, select participants and share results.
 - Survey data analyst administrator can export raw data from all surveys enabled for raw data extract.
 
-To request access please open an access request with the type of account [access requested](/handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
+To request access please open an access request with the type of account [access requested](/handbook/security/corporate/end-user-services/access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
 
 If you need support with a specific CultureAmp Survey, please complete this [issue template](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/blob/main/.gitlab/issue_templates/survey_request.md) to alert the People Analytics Team.
 

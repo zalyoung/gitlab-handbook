@@ -279,7 +279,7 @@ The Results for Customers value is displayed through the following operating pri
 
 ##### Set Ambitious & Measurable goals
 
-While we iterate with small changes, we strive for large, ambitious results. We have an ambitious [mission](/handbook/company/mission/) and [vision](/handbook/company/vision/), and we aim to be the best in the world across all our functions. Setting ambitious, measurable goals enables us to best deliver customer results.  We agree in writing on measurable goals. Within the company we use [OKRs](/handbook/company/okrs/) to stay accountable. We have and report against [KPIs](/handbook/company/kpis/) with guiding targets.
+While we iterate with small changes, we strive for large, ambitious results. We have an ambitious [mission](/handbook/company/mission/) and [vision](/handbook/company/vision/), and we aim to be the best in the world across all our functions. Setting ambitious, measurable goals enables us to best deliver customer results.  We agree in writing on measurable goals. We have and report against [KPIs](/handbook/company/kpis/) with guiding targets.
 
 ##### Understand our customers
 
@@ -1291,7 +1291,7 @@ This method [has shown itself to be effective](https://gitlab.com/groups/gitlab-
 
 Companies are encouraged to copy and implement GitLab's values. They are Creative Commons and can be copied verbatim.
 
-We make our values public for the same [reasons](/handbook/company/culture/all-remote/hiring/#advertise-accurately-and-transparently) we make our [OKRs](/handbook/company/okrs/) (Objectives and Key Results) and [strategy](/handbook/company/strategy/) public. There is great power and efficiency in teams who share company values. Concealing values until *after* someone is hired into an organization is not a wise strategy.
+We make our values public for [many reasons](/handbook/company/culture/all-remote/hiring/#advertise-accurately-and-transparently). There is great power and efficiency in teams who share company values. Concealing values until *after* someone is hired into an organization is not a wise strategy.
 
 Not everyone will see our values and feel aligned with them, and that's OK. By making values public, it shows respect for the time of job seekers who conduct due diligence on prospective employers. When people who *are* aligned with GitLab's values apply for an [open vacancy](https://about.gitlab.com/jobs/), this allows our hiring teams to more efficiently move candidates through the [interview process](/handbook/hiring/interviewing/).
 

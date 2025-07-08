@@ -3,14 +3,17 @@ title: Opportunistic Attacks
 no_list: true
 ---
 
-Opportunistic attacks are short (ideally a few days at most) more spontaneous initiatives than [Stealth Operations](../stealth-operations.md).
-They can be done at any time, from any source IP address, and against any GitLab-managed asset without prior approval or notification.
+Opportunistic attacks are more spontaneous initiatives than [Stealth Operations](../stealth-operations.md). They can be done at any time, from any source IP address, and against any GitLab-managed asset without prior approval or notification.
+
+One key differentiator is that Stealth Operations are generally modeled around a specific adversary or campaign, closely emulating those tactics to improve our resilience against a specific threat. Opportunistic Attacks, however, are the creative and relentless pursuit of a goal using whatever it takes to achieve it.
+
+For example, a Red Team member may identify an exploitable service or behavior that could lead to initial access. Instead of a long formal planning process, they will jump on the opportunity and execute as complete of an attack path as possible. Strict documentation is still required for auditing and report writing.
 
 Benefits include:
 
 - They give GitLab more opportunities to practice detecting and responding to realistic threats in a controlled environment, allowing faster iteration on our defensive capabilities and investigation skills.
-- They allow us to quickly demonstrate the impact of security concerns.
-- They allow us to quickly act on this intelligence and demonstrate the impact of the security concern.
+- They allow us to quickly demonstrate the real impact of security concerns.
+- They can help prioritize investigations to uncover potential historical threat actor behavior.
 
 If vulnerabilities are discovered, we exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.
 

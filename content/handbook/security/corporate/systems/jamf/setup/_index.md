@@ -33,4 +33,4 @@ Most new MacBooks supplied by GitLab are automatically enrolled in Jamf, there a
 1. You will now see `MDM Profile` in the list, waiting to be installed
 1. Double-click on `MDM Profile` and select `Install`
 1. Enter your laptop login password when prompted and wait for the installation to finish.
-1. Once the Jamf profile is installed on the laptop, the laptop should begin the [Installomator process](/handbook/security/corporate/services/laptops/security/updates/#process-details).
+1. Once the Jamf profile is installed on the laptop, the laptop should begin the [Installomator process](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/updates/#process-details).

@@ -9,7 +9,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 
 - This page serves as our home base. From here, you can find a wealth of resources from all of the teams in our department.
 - Interested in collaborating with the Sales team? See our [How We Work](/handbook/sales/#how-we-work) and [Communicating with the Team](/handbook/sales/#communicating-with-the-team) sections.
-- Want to learn more about our goals? Check out our [most recent Objectives and Key Results (OKRs)](/handbook/company/okrs/#most-recent-okrs).
+- Want to learn more about our goals? Check out our [most recent Objectives and Key Results (OKRs)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&label_name%5B%5D=Division%253A%253ASales).
 
 ## Quick Reference Guide
 
@@ -66,7 +66,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Deal Desk: Assistance with Quotes](/handbook/sales/field-operations/order-processing/#assistance-with-quotes) | [Business Operations Handbook](/handbook/business-technology/) | [Collaborating with Legal - Sales](/handbook/legal/customer-negotiations/) |  |
 | [Deal Desk: Approval Process](/handbook/sales/field-operations/order-processing/#deal-desk-approval-process) | [Data Team Handbook](/handbook/enterprise-data/) | [Legal Page](/handbook/legal/) |  |
 | [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/enterprise-data/data-governance/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
-| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/security/corporate/end-user-services/onboarding-access-requests/) |  |  |
+| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/security/corporate/end-user-services/access-requests/) |  |  |
 |  | [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests) |  |  |
 
 ## Who We Are

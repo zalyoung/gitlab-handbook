@@ -26,7 +26,7 @@ According to the [statement of support](https://about.gitlab.com/support/gitlab-
 
 Contact Owner:
 
-1. Create a **new Zendesk ticket** with the **namespace owner's email address** as the requester (found in admin) by following [**this specific workflow to create ticket and user**](/handbook/support/workflows/sending_notices#how-to-send-notices)
+1. Create a **new Zendesk ticket** (contact someone in the CMOC rotation to create the user if the user doesn't exist in Zendesk) with the **namespace owner's email address** as the requester (found in admin) by following [**this specific workflow to create ticket and user**](/handbook/support/workflows/sending_notices#how-to-send-notices)
 1. Apply the macro `General::Outbound Contact Request` that ensure the new ticket routes properly and the end-user we wish to contact receives the correct notification.
 1. Apply the [`Support::SaaS::Gitlab.com::Name Squatting Policy::Contact Namespace Owner`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Namesquatting%20Policy/Contact%20Namespace%20Owner.md) macro and mark the ticket as **On-hold**.
 1. Make an internal comment providing a link to the **namespace requester's ticket**.
@@ -49,9 +49,9 @@ If the namespace owner makes a response (don't remove my namespace) follow these
 
   <p>Hi,</p>
 
-  <p>Thank you for confirming that you wish to maintain control of the requested namespace.  Per our [Name Squatting Policy](/handbook/support/workflows/namesquatting_policy#namespace-owner-responded), we have cancelled this request and will not release your namespace.</p>
+  <p>Thank you for confirming that you wish to maintain control of the requested namespace. As per our [Name Squatting Policy](https://about.gitlab.com/support/gitlab-com-policies/#name-squatting-policy), we have cancelled this request and will not release your namespace.</p>
 
-  <p>I'll mark this ticket as solved, please reach out if you have any further questions.</p>
+  <p>We will mark this ticket as solved, please reach out if you have any further questions.</p>
 </details>
 
 1. Apply the [`Support::SaaS::Gitlab.com::Name Squatting Policy::Failed Namespace Request`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Namesquatting%20Policy/Failed%20Namespace%20Request.md) to the **namespace requester's ticket**.

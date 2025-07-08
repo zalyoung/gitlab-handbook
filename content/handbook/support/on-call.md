@@ -311,3 +311,27 @@ We understand you may have plans outside of your normal workspace while you're o
 PagerDuty phone and SMS notifications can come from a variety of different phone numbers and as such, it is important to stay up to date with this to avoid missed pages. You should use [this PagerDuty documentation page](https://support.pagerduty.com/main/docs/notification-phone-numbers) to download the most recent vCard or setup an automatically updated PagerDuty contact on your device.
 
 If you use a "do not disturb" mode on your device, you should also allow the PagerDuty contact to bypass this.
+
+## EMEA region only - PagerDuty administration
+
+PagerDuty is the Single Source of Truth (SSOT) to see when you are on call. The schedule will always be available for current month + 3 months ahead. This is to ensure team members can plan their life.
+
+By the end of each month, we will populate PD one more month into the future. Example: By end of February, the schedule for June will be imported to PagerDuty and visible for team members.
+
+### Requests for changes to EMEA PagerDuty rotation
+
+Create an issue under the [EMEA On-call Tracking Epic](https://gitlab.com/groups/gitlab-com/support/-/epics/344) using the [EMEA PagerDuty Rotation Change](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?description_template=EMEA%20PagerDuty%20Rotation%20Change) template. Issues for changes can be submitted every month.
+
+- Changes to shadow rotations can happen immediately. 
+- Changes to any other rotations will go into effect after 3 months + current month. 
+  - If it is necessary to add or remove a team member from a rotation sooner, overrides in PagerDuty can be used. 
+  - Manager approval is not needed, but managers will be mentioned in the change issue.
+- Support Manager On Call (SMOC) schedule only needs issues for adding and removing team members. The monthly update is coordinated between the DRIs listed below.
+
+### EMEA PagerDuty DRIs
+
+- DRI, PagerDuty admin: Tine Sørensen
+- DRI, rotation import: Kate Grechishkina
+- DRI, coordinating EMEA Support Manager On Call rotation: Erika Miklos
+
+Slack channel for questions: [#spt_emea-pagerduty-admin](https://gitlab.enterprise.slack.com/archives/C08PSPMKPJQ)
