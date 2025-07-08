@@ -91,7 +91,7 @@ In Content Strategy & Ops, we work on all things content—aka, digital collater
 
 Our work is all about the words, translating GitLab's message into external collateral like…
 
-* Blog posts
+* [Blog posts](/handbook/marketing/blog/) and [thought leadership articles](/handbook/marketing/the-source/)
 
 * Feature and solution pages, conversion pages, and SEO topic pages on about.gitlab.com
 
