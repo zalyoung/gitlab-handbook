@@ -36,3 +36,6 @@ See the [Verify validity/liveness of Secret Detection findings epic](https://git
 ### Non-Goals
 
 #### What is out of scope for this blueprint?
+
+- Cross Scanner Integration (extend to DAST)
+- Extended Object Support beyond Secret Detection findings
