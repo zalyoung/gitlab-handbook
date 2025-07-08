@@ -57,25 +57,22 @@ White Paper or other content offer that is hosted by a third party.
 | No Action | default starting position for all records |  |
 | Downloaded | Downloaded content | Yes |
 
-#### Direct Mail
+#### Direct Mail (using Brilliant and Qualified integrations)
 
 This is when a package or piece of mail is sent out.
 
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
-| Member Status | Definition | Success | E-gift Card or Physical Gift |
+| Member Status | Definition | Success | Triggers gift webhook?|
 | ------------- | ---------- | ------- | ------------ |
-| No Action | Default starting position for all records |  | Not applicable |
-| Sales Nominated | Sales indicated record to receive triggered event email sent by Marketing |  | Not applicable |
-| Processed | Physical gift shipping request is being processed  |  | Physical |
-| Sent | Email with e-gift card has been sent to recipient |  | E-gift card |
-| Opened | The prospect has opened the Reachdesk offer emailed to them |  | E-gift card |
-| Claimed | The recipient has claimed the Reachdesk gift | Yes | E-gift card |
-| Clicked | The prospect has clicked the link in the offer emailed to them |  | E-gift card |
-| Shipped | The recipient's gift has been shipped |  | Physical |
-| Delivered | The selected gift has been successfully delivered to the recipient | Yes | Physical |
-| Cancelled | The recipient has requested their gift be cancelled |  | Physical |
-| Returned | The recipient has returned their gift |  | Returned |
+| No Action | Default starting position for all records |  |  |
+| Nominated | Leads are added to the program with this status indicating they will receive a meeting invite |  |  |
+| Invite Sent | Indicating an email invite for a meeting has been sent |  |  |
+| Email Opened | Not currently utilized within the program type | | |
+| Meeting Booked | Recipient of meeting invite has scheduled a meeting via Qualified | Yes | |
+| Meeting Attended | Recipient was not labeled as a No Show to the scheduled meeting | Yes | Yes |
+|Cancelled | Person has cancelled prior to the scheduled meeting  | | |
+| No Show | Sales Dev has indicated via Qualified automated email the meeting did not occur  | | |
 
 #### Email Send
 
