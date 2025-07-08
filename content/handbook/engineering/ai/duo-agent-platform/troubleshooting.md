@@ -7,22 +7,22 @@ description: "Information about monitoring and logging tools of Duo Workflow."
 
 Duo Workflow uses the following logging and monitoring tools:
 
-1. [LangSmith](https://smith.langchain.com/o/477de7ad-583e-47b6-a1c4-c4a0300e7aca/projects/p/5409132b-2cf3-4df8-9f14-70204f90ed9b?timeModel=%7B%22duration%22%3A%227d%22%7D) - collects logs scoped to underlaying graph execution, including inforamtion like: LLM completions or tool calls
-2. [GCP logs explorer](https://console.cloud.google.com/logs/query;query=resource.labels.service_name%3D%22duo-workflow%22%0AjsonPayload.workflow_id%3D%2212312415%22%0AjsonPayload.gitlab_global_user_id%3D%22evhd9EY......%22%0AjsonPayload.correlation_id%3D%2268bd87b3-fb70-4093-afb7-21f30ab6021d%22%0A--%20jsonPayload.level%3D%22error%22%0A;cursorTimestamp=2024-12-17T13:17:58.986139Z;duration=P1D?hl=en&invt=AbkXXw&project=gitlab-runway-production&inv=1) - Runway logs
+1. [LangSmith](https://smith.langchain.com/o/477de7ad-583e-47b6-a1c4-c4a0300e7aca/projects/p/5409132b-2cf3-4df8-9f14-70204f90ed9b?timeModel=%7B%22duration%22%3A%227d%22%7D) - collects logs scoped to underlaying graph execution, including information like: LLM completions or tool calls
+2. [Google Cloud (GCP) logs explorer](https://cloudlogging.app.goo.gl/wqUxHXbqYzQ7ebb6A)
 3. Sentry error tracking collects error traces for:
     1. [Duo Workflow Service](https://new-sentry.gitlab.net/organizations/gitlab/issues/?limit=5&project=36&query=&sort=freq&statsPeriod=14d)
     2. [Duow Workflow Executor](https://new-sentry.gitlab.net/organizations/gitlab/issues/?limit=5&project=40&query=&sort=freq&statsPeriod=14d)
 4. Runway monitoring [dashboard](https://dashboards.gitlab.net/d/runway-service/runway3a-runway-service-metrics?from=now-24h&orgId=1&timezone=utc&to=now&var-PROMETHEUS_DS=mimir-runway&var-environment=gprd&var-region=$__all&var-type=duo-workflow) - this a grafana dashboard that tracks hardware resource consumption for Duo Workflow Service
 5. [Tableau dashboard for internal events tracking](https://10az.online.tableau.com/#/site/gitlab/views/DuoRequestWorkflow/DuoWorkflow) - displays aggregated data collected with internal event tracking, showing additional product metrics like total number of workflows, or distribution between differnt workflow outcomes
 
-### GCP Logs explorer (Runway logs)
+### Google Cloud (GCP) Logs explorer
 
-Following projects hold loggs for different pieces of Runway deployments:
+Following projects hold logs for different pieces of Runway deployments:
 
 1. `gitlab-runway-production` - holds logs for production runway deployments
 1. `gitlab-runway-staging` - holds logs for staging runway deployments
 
-When browsing Runway logs you can narrow scope to piece of infrastructure that is of interest to you using following filters:
+When browsing Runway logs, you can narrow scope to piece of infrastructure that is of interest to you using following filters:
 
 1. To filter only load balancer logs use:
 
@@ -34,7 +34,7 @@ When browsing Runway logs you can narrow scope to piece of infrastructure that i
 1. To filter only Duo Workflow Service deployment logs use:
 
    ```plain
-   resource.labels.service_name="duo-workflow
+   resource.labels.service_name="duo-workflow-svc"
    ```
 
 ### gRPCurl
