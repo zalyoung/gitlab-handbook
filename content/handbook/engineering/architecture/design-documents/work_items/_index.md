@@ -72,6 +72,8 @@ certain Work Item type is currently predefined and is not customizable. However,
 in the future we plan to allow users to create new Work Item types and define a
 set of widgets for them.
 
+We also have a [separate page on work item widgets](https://docs.gitlab.com/development/work_items_widgets/), including how to add a new one.
+
 ### Widget types (updating)
 
 | Widget  | Description | Feature flag | Write permission | GraphQL Subscription Support |
