@@ -89,7 +89,7 @@ and modifying the requirement for a GA features launch to include all deployment
 Launching new features on Self-Managed Basic would become optional.
 
 The current approach to adding components to Self-Managed customers is hindering the rate at which we can deliver features to our customers.
-This is made clear by the number of incoming requests compared to the current timelines for implementation. We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
+This is made clear by the current and growing backlog of new components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture. We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
 A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMA while maintaining support for current customers with traditional deployment requirements through SMB.
 
 ## Motivation
@@ -158,7 +158,7 @@ optional.
 - What is out of scope for this document?
 -->
 
-### Orthogonal Topics
+#### Orthogonal Topics
 
 There are several topics that are related to, or intersect with those of this proposal.
 We intend to keep those separate, as they are immportant but not directly impacted by or impactful to this proposal. 
