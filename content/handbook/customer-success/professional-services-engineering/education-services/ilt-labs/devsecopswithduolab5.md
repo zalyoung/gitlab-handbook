@@ -43,6 +43,7 @@ In this lab, you will see how GitLab Duo can help with explaining and resolving 
     import (
       "net/http"
       "fmt"
+      "math/rand"
     )
 
     func randomGitlab(w http.ResponseWriter, r *http.Request) {
@@ -121,7 +122,7 @@ In this lab, you will see how GitLab Duo can help with explaining and resolving 
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/devsecopswithduo).
 
 ## Suggestions?
 

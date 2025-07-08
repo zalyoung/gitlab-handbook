@@ -47,7 +47,7 @@ Here are a few demo questions you can ask Duo:
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/devsecopswithduo).
 
 ## Suggestions?
 

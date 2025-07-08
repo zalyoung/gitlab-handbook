@@ -113,7 +113,7 @@ The last step of this lab is to create a `.gitlab-ci.yml` file to build our Go a
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/devsecopswithduo).
 
 ## Suggestions?
 
