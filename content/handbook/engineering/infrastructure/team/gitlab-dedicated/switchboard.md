@@ -8,7 +8,7 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 
 ### Resources
 
-- [Switchboard Direction Page](https://about.gitlab.com/direction/saas-platforms/switchboard/)
+- [Switchboard Direction Page](https://about.gitlab.com/direction/platforms/switchboard/)
 - [Switchboard Demo Library](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/blob/main/docs/walkthrough-library.md)
 
 ## Team Members
@@ -308,10 +308,10 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 
 | User | Visible | Description |
 |----------|----------|-------------------|
-| [Internal - Operator](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
-| [Internal - Support](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
-| [Internal - Provisioner](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
-| [Internal - Read Only](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Operator](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Support](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Provisioner](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Read Only](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
 | [External - Tenant Admin](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
 | [Internal - Read Only](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
 
