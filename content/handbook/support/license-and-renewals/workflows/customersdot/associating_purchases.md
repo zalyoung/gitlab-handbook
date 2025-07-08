@@ -179,7 +179,7 @@ An existing billing account manager can also [cancel invitations that were sent 
 
 #### Support-assisted option
 
-This process should be a last resort for **all customers** (including reseller customers). Only after ruling out the [self-service option](#self-service-option) above will we consider making the requested change.
+This process should be a last resort for **all customers** (including reseller customers). Only after ruling out the [self-service option](#self-service-option-1) above will we consider making the requested change.
 
 First, verify the customer's identity as outlined under [ownership verification](#ownership-verification) before removing an existing billing account membership:
 
