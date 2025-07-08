@@ -9,7 +9,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ## <i class="fas fa-bullhorn fa-fw\"></i>  Welcome to the GitLab Content Strategy & Ops Handbook
 
-**Effective June 8, 2025:** _All new content requests (not including the GitLab Blog) [should be submitted via Asana form](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259). The GitLab Blog will continue to follow its [current submission process](https://handbook.gitlab.com/handbook/marketing/blog/)._
+**Effective June 8, 2025:** _All new content requests (not including the GitLab Blog) [should be submitted via Asana form](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259). The GitLab Blog will continue to follow its [current submission process](/handbook/marketing/blog/)._
 
 ### Meet the GitLab Content Strategy & Ops team 👋
 
@@ -125,7 +125,7 @@ To create this content, **our team operates as both an editorial newsroom and in
 
 * Writing blog posts to support strategic needs
 
-* Writing [topic pages and subtopic pages](/topics/)
+* Writing [topic pages and subtopic pages](https://about.gitlab.com/topics/)
 
 * Writing and reviewing [customer case studies](https://about.gitlab.com/customers/), in collaboration with the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
 
@@ -177,7 +177,6 @@ The team will review all incoming requests and schedule work based on the reques
 
 **NOTE: For urgent requests requiring VP-level approval or multiple stakeholder reviews,** please indicate this in the priority/urgency section of the form and mention the VP-level stakeholder who has approved the request.
 
-
 _Need help finding relevant content to use in an email or to send to a customer? Ask for help in the #content channel._
 
 ### Sample content creation process: Campaign ebook or whitepaper
@@ -213,9 +212,9 @@ Any technical GitLab team member is welcome to write a whitepaper and collaborat
 
 **Examples:**
 
-1. [A seismic shift in application security](/resources/whitepaper-seismic-shift-application-security/)
+1. [A seismic shift in application security](https://about.gitlab.com/resources/whitepaper-seismic-shift-application-security/)
 
-2. [How to deploy on AWS from GitLab](/resources/whitepaper-deploy-aws-gitlab/)
+2. [How to deploy on AWS from GitLab](https://about.gitlab.com/resources/whitepaper-deploy-aws-gitlab/)
 
 #### Ebook
 
@@ -243,13 +242,13 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 #### Topic page
 
-A topic page is a high-level explanatory "pillar" page dedicated to a specific topic, such as [version control](/topics/version-control/), [DevSecOps](/topics/devsecops/), or [continuous integration](/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
+A topic page is a high-level explanatory "pillar" page dedicated to a specific topic, such as [version control](https://about.gitlab.com/topics/version-control/), [DevSecOps](https://about.gitlab.com/topics/devsecops/), or [continuous integration](https://about.gitlab.com/topics/devsecops/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
 
 **Examples:**
 
 1. [What is CI/CD?](https://about.gitlab.com/topics/ci-cd/)
 
-2. [What is developer-first security?](/topics/devsecops/what-is-developer-first-security/)
+2. [What is developer-first security?](https://about.gitlab.com/topics/devsecops/topics/devsecops/what-is-developer-first-security/)
 
 #### Case study
 
