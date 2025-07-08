@@ -3,7 +3,7 @@ title: "GitLab Duo Principles - Hands-On Lab: Working with Issues and Merge Requ
 description: "This Hands-On Guide walks you through using GitLab Duo to create Issues and merge requests."
 ---
 
-> Estimated time to complete: 20 minutes
+> Estimated time to complete: 25 minutes
 
 ## Objectives
 
@@ -146,9 +146,17 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select **Go to MR** to return back to your merge request.
 
-1. From your merge request, wait for the pipeline to complete. You should see that your pipeline passed.
+## Task F. Adding Duo As a Code Reviewer
 
-1. If you set your merge request as `Draft`, select `Mark as ready`.
+GitLab Duo can act as a code reviewer to aide in code quality, and suggest updates and fixes to improve your code.
+
+1. In your MR, in the **Reviewers** section, click the **Edit** option, and type in *Duo*. A GitLab Duo user option with the username of *@GitLabDuo* should appear.
+
+1. Select the @GitLabDuo user, and click off of the Reviewers section to add the reviewer.
+
+1. The GitLab Duo account will now start reviewing your MR, and will take a few minutes to do so. Feel free to add the suggestions it makes to your MR by selecting **Apply suggestion**, writing a commit message, and then selecting **Apply**.
+
+1. Once you are finished reviewing the suggestions, if you set your merge request as `Draft`, select `Mark as ready`.
 
 1. Select **Merge** to merge your code updates into the main branch.
 
