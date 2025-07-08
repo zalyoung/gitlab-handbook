@@ -153,7 +153,7 @@ The table below shows the expected progression for First Response Time (FRT) per
 | 3 | 2-3 SM/SaaS/Dedicated OR 10-15 SaaS Account | 4-5 SM/SaaS/Dedicated | - |
 | 4 | 2-3 SM/SaaS/Dedicated OR 10-15 SaaS Account | 4-5 SM/SaaS/Dedicated | Complete the On-call Module |
 | 5 | 3-5 SM/SaaS/Dedicated OR 15-20 SaaS Account | 5-6 SM/SaaS/Dedicated | Start shadow shift |
-| 6 | 3-5 SM/SaaS/Dedicated OR 15-20 SaaS Account | 5-6 SM/SaaS/Dedicated | Continue shadow shift and prepare to start CEOC by month 7 - 8 (in agreement with manager)  |
+| 6 | 3-5 SM/SaaS/Dedicated OR 15-20 SaaS Account | 5-6 SM/SaaS/Dedicated | Continue shadow shifts and target readiness for CEOC duty around months 7–8, in alignment with your manager. If additional time is needed to ensure confidence and capability in providing CEOC-level support, a later start can be agreed upon.  |
 
 In addition please complete all required onboarding modules by month 3 and participate in 4-5 pairing sessions per week to accelerate your learning and knowledge sharing. 
 
