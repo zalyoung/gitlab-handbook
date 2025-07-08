@@ -118,7 +118,7 @@ pluralizeListTitles: false
 enableEmoji: true
 
 theme:
-- gitlab.com/gitlab-com/content-sites/docsy-gitlab
+- gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/tree/328bd740f7b454bf65378257e7c9cdc451a98a7a
 - github.com/google/docsy
 
 module:
@@ -127,7 +127,7 @@ module:
     extended: true
     min: 0.123
   imports:
-  - path: gitlab.com/gitlab-com/content-sites/docsy-gitlab
+  - path: gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/tree/328bd740f7b454bf65378257e7c9cdc451a98a7a
     disable: false
   - path: github.com/google/docsy
     disable: false
