@@ -16,7 +16,7 @@ We know [live coding can be stressful](https://about.gitlab.com/blog/2019/03/28/
 
 **Usage of AI**
 
-We encourage the use of AI tools during the interivew process. We expect you to know the fundamentals and explain the steps you or the AI tool has taken.
+You're welcome to use AI tools during this interview. We expect you to demonstrate your understanding of the underlying concepts and be able to explain both your thought process and any steps the AI tool takes to reach a solution.
 
 **Alternative Assignment Considerations**
 
