@@ -39,3 +39,15 @@ See the [Verify validity/liveness of Secret Detection findings epic](https://git
 
 - Cross Scanner Integration (extend to DAST)
 - Extended Object Support beyond Secret Detection findings
+
+## Proposal
+
+We will automate the verification process for tokens discovered during security scans. This feature will:
+
+Verify token status (Active, Inactive, Possibly Active) and display results on vulnerability pages
+Enable sorting and filtering findings by token status
+Support GitLab and partner platform tokens
+Work for cloud and self-managed/air-gapped instances
+Include telemetry to measure usage and effectiveness
+
+Customers can opt in via Security Configurations. Once enabled, discovered tokens will be automatically verified against issuing services, with status information displayed in the Vulnerability details page and Security Dashboard, allowing security teams to prioritize remediation of active credentials.
