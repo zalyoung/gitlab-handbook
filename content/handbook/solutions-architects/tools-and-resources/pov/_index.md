@@ -60,6 +60,7 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 - [Artificial Intelligence](/handbook/solutions-architects/tools-and-resources/pov/ai/)
 - and cumulatively, The DevOps [Platform](/handbook/solutions-architects/tools-and-resources/pov/platform/)
 
+
 ### Tracking a POV in Salesforce
 
 #### Salesforce Object
@@ -105,6 +106,29 @@ Sales and SA leader participation in the POV approval process will ensure we can
 - In addition to a weekly review of a region's ongoing POVs and technical win work, Area sales and SA leaders monitor the `#troops-pov-created` slack channel for new POVs.  When a new POV is created, asynchronous or synchronous collaboration on the quality of the opportunity commences.
 - The ASM or SA Manager marks the POV for approval via the Salesforce object or with a troops action in Slack.
 - The ASM or SA Manager will query about plans to position professional services at this stage. All SAEs/SAs are required to position Professional services in opportunities with a qualified POV to guarantee continued success for the customer. Please read more about how to position [here](/handbook/solutions-architects/processes/#positioning-professional-services)
+
+
+#### Custom Models PoV Requirements
+For PoVs involving self-hosted models or custom AI models, additional coordination and tracking requirements apply to ensure optimal support and successful outcomes:
+
+- Mandatory Issue Tracking: All self-hosted/custom model PoVs must be tracked in a [confidential GitLab issue](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/issues/143) in the Custom Models project. This centralized tracking helps the Custom Models team manage bandwidth and provide appropriate support levels.
+- Required Information: The issue description includes all required information
+- Capacity Management: The Custom Models team operates with limited concurrent PoV capacity to ensure quality support. SAs should:
+   - Check current bandwidth before committing to new custom model PoVs
+   - Coordinate with the Custom Models team on timeline feasibility
+   - Prioritize PoVs based on strategic value and customer timeline constraints
+- Early Engagement: Engage the Custom Models team during the qualification phase to:
+   - Validate technical feasibility
+   - Confirm support availability for the proposed timeline
+   - Identify any special requirements or constraints
+   - Establish clear success criteria aligned with model capabilities
+- Success Tracking: Custom model PoVs will be tracked for both technical success and team learning to:
+   - Document successful implementation patterns
+   - Identify common challenges and solutions
+   - Improve support processes and team morale
+   - Build knowledge base for future similar opportunities
+
+This process ensures that custom model PoVs receive appropriate technical support while maintaining realistic expectations about team capacity and timeline constraints.
 
 ### POV Best Practices
 
