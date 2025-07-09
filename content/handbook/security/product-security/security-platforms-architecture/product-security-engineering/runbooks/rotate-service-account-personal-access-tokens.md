@@ -4,7 +4,7 @@ title: "Rotate Service Account Personal Access Tokens (PATs)"
 
 ## Rotate Service Account Personal Access Tokens (PATs) Runbook
 
-This runbook is an approach to rotating a Service Accounts Personal Access Tokens (PATs). From here on out we will refer to Personal Access Tokens as PATS and singular use of Personal Access Token as PAT. 
+This runbook is an approach to rotating a GitLab Service Accounts Personal Access Tokens (PATs). From here on out we will refer to Personal Access Tokens as PATS and singular use of Personal Access Token as PAT.
 
 ### 1. Why is this important?
 
