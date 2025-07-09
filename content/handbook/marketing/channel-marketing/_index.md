@@ -201,9 +201,6 @@ Partners and team members may review current campaigns available to partners by 
 - **Daria Polukanina**: Channel Marketing Manager for EMEA.
 Responsible for Planning, and MDF allocation of EMEA Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
-- **Gabby Chorny**: Senior Channel Marketing Manager for AMER and PubSec.
-Responsible for Planning, and MDF allocation of AMER Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
-
 - **SJ Lim**: Channel Marketing Manager for APAC.
 Responsible for Planning, and MDF allocation of APAC Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
