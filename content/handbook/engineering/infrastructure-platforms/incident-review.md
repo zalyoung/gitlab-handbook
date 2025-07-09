@@ -29,6 +29,7 @@ The Incident Lead or review requestor is responsible for opening the review issu
 - Setting the correct `Severity::*` label
 - Linking the review to the incident
 - Finding the appropriate DRI to own the review and assigning them the issue
+- Ensuring no RED data is in the incident review, redacting any red data if found
 - Announcing the incident review in Slack
 
 ### The Service Owner
