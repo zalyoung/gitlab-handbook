@@ -13,7 +13,7 @@ Including rails controllers, Grape API, GraphQL, ActionCable.
 
 For web requests the current organization will be determined in the following order of precedence with details listed in sub-sections below:
 
-1. Path params. E.g. /o/my-org/my-group, /groups/abc-group, /-/organizations/my-organization
+1. Path params. E.g. `/o/my-org/my-group`, `/my-group/my-project`
 1. Header field
 1. Session variable storing current organization id.
 1. The default organization (ID = 1).
