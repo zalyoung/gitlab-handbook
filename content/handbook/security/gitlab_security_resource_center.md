@@ -67,8 +67,8 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Disaster recovery
 
 - [Disaster recovery plan](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md)
-- [Database disaster recovery](/handbook/engineering/infrastructure/database/disaster-recovery/)
-- [Database overview](/handbook/engineering/infrastructure/database/)
+- [Database disaster recovery](/handbook/engineering/infrastructure-platforms/database/disaster-recovery/)
+- [Database overview](/handbook/engineering/infrastructure-platforms/database/)
 
 ### Endpoint management
 

@@ -42,4 +42,4 @@ Each database table has a documentation file that can be used to determine a cor
 
 ## Getting a team from a feature category
 
-If you have a feature category, the best way to determine the team to contact is by using the [feature category lookup](../../../../product/categories/lookup.md).
+If you have a feature category, the best way to determine the team to contact is by using the [feature category lookup](/handbook/product/categories/lookup/).
