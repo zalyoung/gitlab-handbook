@@ -216,7 +216,7 @@ It should be noted that no part of this proposal prevents features being added w
 
 Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed:
 
-![deployment options workflow](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/lucid_deployment_options.svg){width=50%}
+![deployment options workflow](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/lucid_deployment_options.svg)
 
 ## Design and implementation details
 
@@ -248,16 +248,16 @@ directory as the `index.md` for the proposal.
 ### Omnibus-Adjacent Kubernetes (OAK)
 
 We explored several paths after the discussions of the FY26 CTO Summit, within [Navigating a route towards cloud native](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/) (future, `NRTCN`).
-That exploration facilitated our poposal here, to present a distinct plan to expect a Kubernetes cluster adjacent to the existing Omnibus functionality. We believe that this pattern can form the basis of
+That exploration facilitated our proposal here, to present a distinct plan to expect a Kubernetes cluster adjacent to the existing Omnibus functionality. We believe that this pattern can form the basis of
 the Self-Managed Advanced for customers not yet operating their instances with cloud native patterns.
 
 Essentially, existing functionality and core features will be easily available to these customers in their current infrastructure design.
-As they seek to consume new Ultimate features, they will implement and familiarize themselves with cloud native infrastructure as they bring Kubernetes into play for the auxilliary services of GitLab.
+As they seek to consume new Ultimate features, they will implement and familiarize themselves with cloud native infrastructure as they bring Kubernetes into play for the auxiliary services of GitLab.
 Over time, they will see the benefits to cloud native infrastructure and begin to transition away from the Omnibus entirely.
 
 For those customers who are already operating with cloud native patterns, but are not operating their GitLab instance(s) within them, this will encourage them to transition their GitLab instances to cloud native.
 
-OAK can be effectivel visualized as below:
+OAK can be effectively visualized as below:
 
 ![OAK scoped SMA](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/oak_diagram_scope.png)
 
@@ -265,7 +265,7 @@ Omnibus's existing scope grows in an an extremely limited fashion, while new ser
 
 In the future, we can investigating moving High Availability, Geo, and Zero Downtime deployments from Omnibus to cloud-native methods, with the intent
 to simplify the Omnibus' feature set to the SMB ideal of smaller, less complex instances.
-This is in alignmenment with [Project Flow](https://docs.google.com/document/d/10f7i-y9aJKo1Lo1IW106ov-OuUXAywNGQg7uPYGOP44/edit?tab=t.0#heading=h.rci2kr8welcp),
+This is in alignment with [Project Flow](https://docs.google.com/document/d/10f7i-y9aJKo1Lo1IW106ov-OuUXAywNGQg7uPYGOP44/edit?tab=t.0#heading=h.rci2kr8welcp),
 aiming to drive the Reference Architectures to a simplified, cloud-native first future.
 
 An important note: Features delivered to SMA will often require configuration of clients within Omnibus.
@@ -273,9 +273,9 @@ Implementation of that configuration will still occur, as that facilitates the u
 
 ### Interconnection of mixed environments
 
-A consequence of implementing OAK will be the need to futher ensure inter-component communication is easy to configure, and properly secured.
+A consequence of implementing OAK will be the need to further ensure inter-component communication is easy to configure, and properly secured.
 
-Current implementaions include support inter-component TLS, though a significant portion of this manual.
+Current implementations include support inter-component TLS, though a significant portion of this manual.
 This is relatively easy, when a minimal number of components to live outside of Kubernetes.
 It would be valuable to investigate appropriate auto-configuration of TLS via an mTLS coordination service.
 
@@ -293,7 +293,7 @@ Perhaps this work would be best left to those projects, and observe closely by t
 The Helm ecosystem is flexible, but rife with disparities. We should settle on, and converge towards a set of patterns to be expected across all Helm charts produced and maintained by GitLab.
 We must implement guidelines and best practices across all our works. These should be informed by maintainability, flexibility, and customer experience.
 
-Many of these the immediate concerns can be implemented through [a set of standardized tooling for Helm charts](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/460), and implementaiton of automation through CI components. We will also need to lay out a set of style guides and patterns for components to follow, with the existing GitLab Helm chart
+Many of these immediate concerns can be implemented through [a set of standardized tooling for Helm charts](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/460), and implementaiton of automation through CI components. We will also need to lay out a set of style guides and patterns for components to follow, with the existing GitLab Helm chart
 [development documentation](https://docs.gitlab.com/charts/development/) being a reasonable start.
 
 ### Considerations of GET and Dedicated
@@ -302,17 +302,17 @@ Many of these the immediate concerns can be implemented through [a set of standa
 These Dedicated environments can quickly implement supplemental functionality through the use of cloud-native components, provided that the support for them has been integrated into GET.
 Generally speaking, Dedicated can enabled and scale components in alignment with customer usage. It is important to the Dedicated use case that cloud-native is a distinct focus of product delivery.
 
-[GitLab Dedicated for Government]9https://docs.gitlab.com/subscriptions/gitlab_dedicated_for_government/) takes this one step further,
+[GitLab Dedicated for Government](https://docs.gitlab.com/subscriptions/gitlab_dedicated_for_government/) takes this one step further,
 by implementing controls and configuration appropriate to operating within our FedRAMP certification. Some components may not meet the
 criteria for operating within this environment upon their initial inclusion as a part of a GitLab release.
 
-### Definition of supported Kuberentes versions
+### Definition of supported Kubernetes versions
 
 We will need to define a company-wide description of supported versions on which the components of GitLab are expected to operate well.
 We should be careful to note the difference between support by components and the support of operating the application itself.
 In order to examine what that timeline should be, we must first look to the customer experience of Kubernetes as a platform.
 
-Kubernetes releases happen [3 times per year](https://kubernetes.io/releases/release/#the-release-cycle), and offically recieve [1 year of patch support](https://kubernetes.io/releases/).
+Kubernetes releases happen [3 times per year](https://kubernetes.io/releases/release/#the-release-cycle), and offically receive [1 year of patch support](https://kubernetes.io/releases/).
 
 Major cloud providers often support K8s versions for another year beyond the official release of the Kubernetes project itself:
 
@@ -331,7 +331,7 @@ as aligned with the upstream Kubernetes release cycle, though slightly behind fo
 
 The above points indicate that our customers may expect GitLab to function on a Kubernetes version for _up to_ 2 years, but to function against any Kubernetes version for just over 1 year.
 
-### Upskill needs of the Support and Customer Success Organiztions
+### Upskill needs of the Support and Customer Success Organizations
 
 Our Support Engineers, CSM teams, and possibly thousands of third-party consultancies in the wider GitLab ecosystem, have intricate knowledge using Omnibus.
 We know that we and our partners need to be able to provide the same level of support that our customers have come to expect when using the Omnibus GitLab.
@@ -359,7 +359,7 @@ by way of packaging a micro-distribution of Kubernetes into the Omnibus, then sl
 all components to be deployed into that cluster. While this was a worthwhile exercise, we acknowledge
 that the impact on complexity, resource requirements, and supplemental customer experience
 requirements give us pause. Implementing a strangler fig pattern into the Omnibus GitLab in this
-way would certianly specifically cause several of the problems that this proposal aims to prevent.
+way would certainly specifically cause several of the problems that this proposal aims to prevent.
 
 Instead of pursuing this route, we aim to use a similar concept to _encourage_ customers to
 migrate their architecture over time, providing incentive for building or obtaining experience
