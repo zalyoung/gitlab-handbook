@@ -84,6 +84,7 @@ Custom data pipelines should be considered our best option in the sense that the
 
 Evaluating and Solutioning Pipeline Sources
 -------------------------------------------
+<!-- I think a flow chart describing this would be much to complicated, however, maybe it's worth making a high level one -->
 
 Things we consider when implementing a pipeline for data extraction (but are not limited to) are:
 
@@ -104,7 +105,7 @@ We assess these factors when solutioning a new data source in the [New Data Sour
 
 ---
 
-Custom Pipelines
+Custom Piplines
 ---------------------------------
 
 A signifcant weakness that can emerge from custom pipelines is that we can write inconsistencies, redundancies, and complexity into our data platform if we're not careful. To this end we expect our custom pipelines to ahear to the following specifications. 
@@ -113,7 +114,7 @@ A signifcant weakness that can emerge from custom pipelines is that we can write
 
 <!-- 
 Including, but still working on descriptions for 
-- observability (Python logging)
+- observability (Python logging, correct error handling in airflow)
 - Development Lifecycle
     - Including standard environment managagement, testing, and CI/CD standards
 - Code Quality/Hygeine (Radovan, pls help)
@@ -124,7 +125,27 @@ Including, but still working on descriptions for
 ### Secure
 
 
-
 ### Performant
+Our Extraction Pipelines should be performant, which we define along the following standards:
+
+Performant Pipelines:
+1. employ optimized queries
+1. process data appropriately
+1. self-heal 
+
+#### Optimized Queries/Requests
+
+The queries or API requests we run should also be performant. Where possible we pool connections, use indexes (like primary keys or timestamps), minimize fields/columns (Avoid `SELECT *` statements). If available compress data transfers and use efficient serialization formats (like Parquet) between data or file stores.
+
+#### Appropriate Data Processing
+
+It's often assumed that faster (low-latency) pipelines are better, in many cases however, the lower latency a pipeline is, the more overhead processing costs are incurred. In many cases a daily batch is both sufficient for business needs and pipeline efficiency (Useful Output / Total Input). **We prefer a daily extraction where possible**. Beyond the simplcity and convienence of a daily job, batch size should be determined by data volume, available memory and connection resources, as well as the needs of our business partners. Determining the most appropriate batch size is sometimes a matter of trial and error, or in many cases determined by connection resources such as API quotas and limits. 
+
+There are cases where batch processing is too high latency for the business case and/or efficient use of memory (some data is so large in volume that batches are too memory intensive). Streaming pipelines, such as Snowplow, are often expensive and so the value of the business case should exceed that expense. Another way to solve for high data volume is through parellel and asynchronos processing. 
+
+#### Self-Healing 
+
+Sometimes all that is needed to fix a failed pipeline run is a retry. Pipelines should be written idempotently so that this can be easily automated within Airflow configurations. In the case of connection errors, exponential backoff is advised. Additionally, circuit-breakers should be used whena single failure can result in cascading failures as we do with `check_replica_snapshot`. When completing a custom pipeline consider what is most likely to fail and what steps need to be taken to resolve the failure. If that can be written into the pipeline then do it. In many cases it just takes time for us to learn where we can improve and this is a case when we stridently apply our [iteration value](https://handbook.gitlab.com/handbook/values/#iteration).
+
 
 ## Roadmap
