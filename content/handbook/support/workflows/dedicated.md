@@ -28,7 +28,7 @@ is a temporary measure to workaround the lack of until workflow categories are r
 Here are links to other pages about GitLab Dedicated around GitLab:
 
 - Docs: [Configure GitLab Dedicated](https://docs.gitlab.com/administration/dedicated/)
-- Product: [Glossary of Switchboard terms](https://about.gitlab.com/direction/saas-platforms/switchboard/glossary/)
+- Product: [Glossary of Switchboard terms](https://about.gitlab.com/direction/platforms/switchboard/glossary/)
 - Infrastructure: [GitLab Dedicated internal docs](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/) (GitLab internal only)
 - CSM: [Engaging with GitLab Dedicated Customers](https://internal.gitlab.com/handbook/customer-success/csm/gitlab-dedicated/) (GitLab internal only)
 
@@ -65,7 +65,7 @@ Upon test completion, revert your changes and use the emoji `:done:` to show the
 
 This instance is deployed to the [`Test` environment](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main#deployed-environments).
 
-GitLab Duo is not supported on the test instance, see [STM 6619](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6619) for more information. 
+GitLab Duo is not supported on the test instance, see [STM 6619](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6619) for more information.
 
 ### Administrative access to a Dedicated instance
 
@@ -190,7 +190,7 @@ See [Granting customers access to application logs](/handbook/support/workflows/
 
 ### Filing issues
 
-In cases where Customer Support need to interact with Dedicated engineers to gather information or debug a problem at tenant's request (when Grafana or OpenSearch do not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated). 
+In cases where Customer Support need to interact with Dedicated engineers to gather information or debug a problem at tenant's request (when Grafana or OpenSearch do not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
 RFH have an [SLA](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#sla) of three working days for all severity levels. For severity 1 and 2 issues based on [Support definition](https://about.gitlab.com/support/#definitions-of-support-impact), consider [raising a Dedicated incident](#raise-a-dedicated-incident). Ask in Slack `#support_gitlab-dedicated` if you are unsure.
 
