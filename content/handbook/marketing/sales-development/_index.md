@@ -1138,14 +1138,13 @@ Above are some examples of how information can be stored to a pre-made project. 
 
 #### 6Sense 6QA Automations
 
-We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC.
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. A detailed breakdown of [these workflows is described here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/#workflow-breakdown).
 
 Specifically:
 
 - Accounts flagged as 6QA from 6Sense, whether they already exist on our system or not, will automatically be marked with the fields:
   - `BDR Prospecting Status: Actively Working`
   - `BDR Account Strategy: Showing Intent`
-
 - These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
 - While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
   - For FY26Q1 we are adding a **Dispute Reason for Low LAM Dev Count** which team members can use when they opt to not pursue a 6QA account because of a small account value potential.
@@ -1153,6 +1152,8 @@ Specifically:
 - Accepting or Disputing accounts can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
 - Any accounts that marked as `Accepted` by the BDR team will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/678e891afc1f1f390f3b654f/completed) to automatically bring relevant decision-makers for these accounts to the [B6 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
+
+**Important Note:** When 6QA accounts are non-FO available and non-Compensation Target Account (non-Pursuit Account), BDR Prospecting Status will update to SDR Hold for 14 days. If an open opportunity is not created within the 14 days, the account will be updated to Actively Working and Showing Intent and the ownership will be updated to BDR.
 
 ### Qualified
 
