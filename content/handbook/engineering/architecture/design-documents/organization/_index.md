@@ -303,6 +303,7 @@ Based on this analysis we expect to see similar behavior when rolling out Organi
 
 - 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
 - [001: Organization context resolution](decisions/001_organization_context_resolution.md)
+- [002: Enterprise Users](decisions/002_enterprise_users.md)
 
 ## Links
 
