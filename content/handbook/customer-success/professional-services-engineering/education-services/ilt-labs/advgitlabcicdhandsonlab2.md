@@ -17,7 +17,7 @@ The objectives for this lab are:
 
 To start, let's create a basic `Node.js` application to use for demonstration of pipeline builds.
 
-1. Navigate to your ILT group, named "My Test Group - <your-username>".
+1. Navigate to your group, named "Session <session-code>".
 
 1. Select **New project**.
 

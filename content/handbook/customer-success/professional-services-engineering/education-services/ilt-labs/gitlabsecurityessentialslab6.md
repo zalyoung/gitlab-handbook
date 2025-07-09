@@ -11,7 +11,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 ## Task A. Setting up a Security Policy
 
-1. Navigate to your group called `My Test Group - XXXXX`, where X is replaced by your username.
+1. Navigate to your group called `Session <session-code>`.
 
 1. In the left sidebar, select **Secure > Policies**.
 

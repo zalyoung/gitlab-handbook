@@ -13,9 +13,9 @@ A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD
 
 Let's create a component to use in our GitLab project.
 
-1. Navigate to your **My Test Group** by clicking it in the breadcrumb at the top of the page.
+1. Navigate to your **Session <session-code>** by clicking it in the breadcrumb at the top of the page.
 
-1. From your **My Test Group** in GitLab, click the **New project** button.
+1. From your **Session <session-code>** in GitLab, click the **New project** button.
 
 1. Click the **Create blank project** tile.
 

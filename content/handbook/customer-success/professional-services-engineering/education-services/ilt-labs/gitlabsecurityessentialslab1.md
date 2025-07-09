@@ -50,7 +50,7 @@ For this section of the course, we will use a template with prepopulated code to
 
     ```yml
     include:
-      - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+      - component: gitlab.com/components/sast/sast@main
     ```
 
     > It is also possible to configure SAST through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure SAST** button. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
@@ -59,7 +59,7 @@ For this section of the course, we will use a template with prepopulated code to
 
     ```yml
     include:
-      - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+      - component: gitlab.com/components/sast/sast@main
         inputs:
           excluded_paths: venv/
     ```
@@ -77,7 +77,7 @@ For this section of the course, we will use a template with prepopulated code to
         - test
 
     include:
-        - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+        - component: gitlab.com/components/sast/sast@main
           inputs:
             excluded_paths: venv/
     ```
@@ -121,7 +121,7 @@ To provide more thorough scanning and vulnerability detection, we will opt to en
     - test
 
     include:
-    - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+    - component: gitlab.com/components/sast/sast@main
       inputs:
         excluded_paths: venv/
         run_advanced_sast: true
@@ -153,11 +153,11 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
     ```yml
     include:
-    - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+    - component: gitlab.com/components/sast/sast@main
       inputs:
         excluded_paths: venv/
         run_advanced_sast: true
-    - component: ilt.gitlabtraining.cloud/components/secret-detection/secret-detection@main
+    - component: gitlab.com/components/secret-detection/secret-detection@main
     ```
 
     > It is also possible to configure Secret Detection through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure Secret Detection** button. We will be configuring it by editing the `.gitlab-ci.yml` file for this lab to help you learn more about how it works under the hood.
@@ -181,11 +181,11 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
         - test
 
     include:
-      - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+      - component: gitlab.com/components/sast/sast@main
         inputs:
           excluded_paths: venv/
           run_advanced_sast: true
-      - component: ilt.gitlabtraining.cloud/components/secret-detection/secret-detection@main
+      - component: gitlab.com/components/secret-detection/secret-detection@main
 
     secret_detection:
       variables:

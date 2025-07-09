@@ -159,7 +159,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 1. Add the Container Scanning template to the existing `include:` section of `.gitlab-ci.yml`:
 
     ```yml
-    - component: ilt.gitlabtraining.cloud/components/container-scanning/container-scanning@main
+    - component: gitlab.com/components/container-scanning/container-scanning@main
     ```
 
     > This can be added anywhere in the list of templates.
