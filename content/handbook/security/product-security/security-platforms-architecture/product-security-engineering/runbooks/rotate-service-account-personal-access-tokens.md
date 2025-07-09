@@ -43,7 +43,7 @@ This runbook is an approach to rotating a GitLab Service Accounts Personal Acces
 
 - Add the `Token name` that matches the previous token that had expired, in this case it is `GitLab Security Service - Architecture - Inventory`.
 - Add a `Description` of what the token is used for. 
-- For `Expiration Date` set it for 365 days in the future (the maximum expiration). 
+- For `Expiration Date` set it for 365 days in the future (the maximum expiration). If you do not set it, it is default to expire in 30 days.
 - Click the `Select scopes` permission level that best matches what access the Service account needs (In this case it is API only), like in the image below:
 
 ![Service Account Personal Access Token](/images/security/product-security/security-platforms-and-architecture/service-account-personal-access-token.png)
