@@ -84,17 +84,23 @@ community members.
 A good summary is probably at least a paragraph in length.
 -->
 
-This proposal recommends segmenting our current Self-Managed deployment option into two distinct tiers: Self-Managed Basic (SMB) and Self-Managed Advanced (SMA),
+This proposal recommends segmenting our current Self-Managed deployment option into two distinct tiers: Self-Managed Basic (`SMB`) and Self-Managed Advanced (`SMA`),
 and modifying the requirement for a GA features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Advanced.
 Launching new features on Self-Managed Basic would become optional.
 
 The current approach to adding components for consumption by Self-Managed customers is hindering the rate at which we can deliver features to our customers.
-This is made clear by the current and growing backlog of new components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture. We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
+This is made clear by the current and growing backlog of new components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture.
+We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
 A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMA while maintaining support for current customers with traditional deployment requirements through SMB.
 
-This implements a form of [Option 2](https://docs.google.com/document/d/1f8Ty_AE9IX2cawkyCLsEy7DkjD9zIgcifN7yQBgs2Uo/edit?tab=t.0#bookmark=id.cke52h57bu0i)
+We do not aim to deprecate the Omnibus or Premium/Ultimate via Omnibus, but require cloud-native for future new, optional components of Premium/Ultimate.
+
+This proposal describes implementing a form of [Option 2: Prioritize/favour Hybrid Kubernetes Going Forward](https://docs.google.com/document/d/1f8Ty_AE9IX2cawkyCLsEy7DkjD9zIgcifN7yQBgs2Uo/edit?tab=t.0#bookmark=id.cke52h57bu0i)
 of the Cloud Native GitLab session from FY26 CTO Summit, while facilitating faster delivery through focused priority on cloud-native implementations of
-supplemental enterprise feature requirements.
+supplemental enterprise feature requirements. It is focused on the [Omnibus-Adjacent Cluster](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/edit?tab=t.0#heading=h.ro7ivridf2pb)
+described in "Navigating a route towards cloud native".
+
+_"Great Momentum requires Gradual Change"_
 
 ## Motivation
 
@@ -119,14 +125,13 @@ This creates significant engineering complexity as we try to deliver advanced fe
 As a specific example, we have several features in the pipeline that will require ClickHouse being available, which is not available in Omnibus, and would be a complex component to implement via Omnibus.
 
 Cloud-native deployments enable critical capabilities that traditional OS-level installations cannot efficiently support, or that we do not have the engineering bandwidth to deliver to all deployment methods at the expected quality within an appropriate span of time.
-Additionally, our current Omnibus Reference Architectures employ a node-per-component strategy, dedicating separate nodes (or VMs) to each service—consul nodes for consul, pgbouncer nodes for pgbouncer, and so on. In HA environments requiring a minimum of three nodes per component, this approach quickly escalates infrastructure requirements: even modest deployments can demand 20-30+ VMs, doubling with Geo DR. As the number of components continues to grow, this architecture proves inefficient and costly, as many nodes remain largely idle with minimal workloads, while also complicating maintenance and expanding the security attack surface. Most critically, this static allocation model fails to scale dynamically with actual load patterns. That scaling, or lack thereof, is a common focal point in customer conversations.
+Additionally, our current Omnibus Reference Architectures employ a node-per-component strategy, dedicating separate nodes (or VMs) to each service—consul nodes for consul, pgbouncer nodes for pgbouncer, and so on.
+In HA environments requiring a minimum of three nodes per component, this approach quickly escalates infrastructure requirements: even modest deployments can demand 20-30+ VMs, doubling with Geo DR.
+As the number of components continues to grow, this architecture proves inefficient and costly, as many nodes remain largely idle with minimal workloads, while also complicating maintenance and expanding the security attack surface. Most critically, this static allocation model fails to scale dynamically with actual load patterns.
+That scaling, or lack thereof, is a common focal point in customer conversations.
 
 We can already demonstrate that cloud-native deployments enable customers to scale GitLab with significantly more efficiency.
 To service customers of higher complexity and larger scale, we should look to focusing our release to SMA as cloud-native first.
-
-Here is an outline of a potential workflow, considering an assumption that Runway can operate on Kubernetes for Self-Managed:
-
-![deployment options workflow](./lucid_deployment_options.svg){width=50%}
 
 ### Goals
 
@@ -139,7 +144,7 @@ List the specific goals / opportunities of the document.
 -->
 
 Provide a means to accelerate delivery of components and features, especially to cloud native capable Self-Managed users.
-Do this, while not forcing excessive change or pressure upon our existing customer install base which demonstrably favor
+Do this, while not forcing excessive change or pressure upon our existing customer install base which demonstrably favors
 some variation of Omnibus-based architecture on traditional infrastructure as a percentage of total paid and unpaid install base.
 
 In particular, this aims to:
@@ -148,10 +153,11 @@ In particular, this aims to:
 - Provide **Clear Expectations** through transparent differentiation between deployment methods.
 - Increase **Engineering Efficiency** by reducing the complexity of maintaining compatibility across disparate environments.
 - Improve the **Upgrade Path** by providing a clear path for customers seeking advanced capabilities.
-- Ultimately, reduce the number of deployment configuration permutations which GitLab needs to support over timem encouraging new Premium/Ultimate installations to cloud native environments.
+- Ultimately, reduce the number of deployment configuration permutations which GitLab needs to support. Over time, encouraging new Premium/Ultimate installations in cloud native environments.
 
 We aim to explicitly avoid:
 
+- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future. However, new optional SMA components, such as Data Insights Platform, ClickHouse Cloud, would not be supported in Omnibus, only as cloud native components.
 - Forcibly converting traditional Omnibus into cloud native "under the hood". We would rather encourage consumers to expand their skillsets.
 - Unexpectedly increase customer infrastructure costs and consumption. We must communicate these changes well.
 - Alienate consumers of any kind, by forcing large architectural refactors upon them. We should rather show them the value of the shift to cloud-native.
@@ -206,9 +212,11 @@ Segment the Self-Managed option into two distinct tiers:
 | Value Proposition | Core product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling. |
 | Feature Guarantee | New Ultimate features are not guaranteed. Required components may be unavailable in Omnibus. | All new Ultimate functionality guaranteed. |
 
-_NOTES_:
-Can be more expounded with incorporation of points from NRTCN, goals short to long.
-SMB/SMA is effectively a design incorportating OAC as application component architecture going forward.
+It should be noted that no part of this proposal prevents features being added within existing components from being delivered to either tier.
+
+Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed:
+
+![deployment options workflow](./lucid_deployment_options.svg){width=50%}
 
 ## Design and implementation details
 
@@ -237,9 +245,9 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
-### Omnibus-Adjacent Kubernetes
+### Omnibus-Adjacent Kubernetes (OAK)
 
-We explored several paths after the discussions of the FY26 CTO Summit, within [Navigating a route towards cloud native](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/).
+We explored several paths after the discussions of the FY26 CTO Summit, within [Navigating a route towards cloud native](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/) (future, `NRTCN`).
 That exploration facilitated our poposal here, to present a distinct plan to expect a Kubernetes cluster adjacent to the existing Omnibus functionality. We believe that this pattern can form the basis of
 the Self-Managed Advanced for customers not yet operating their instances with cloud native patterns.
 
@@ -249,26 +257,44 @@ Over time, they will see the benefits to cloud native infrastructure and begin t
 
 For those customers who are already operating with cloud native patterns, but are not operating their GitLab instance(s) within them, this will encourage them to transition their GitLab instances to cloud native.
 
-_NOTES_:
-Expand with diagrams from NRTCN, especially diagrams of OAC/OAK.
-"Great Momentum requires Gradual Change" points, for value.
+OAK can be effectivel visualized as below:
+
+![OAK scoped SMA](oak_diagram_scope.png)
+
+Omnibus's existing scope grows in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
+
+In the future, we can investigating moving High Availability, Geo, and Zero Downtime deployments from Omnibus to cloud-native methods, with the intent
+to simplify the Omnibus' feature set to the SMB ideal of smaller, less complex instances.
+This is in alignmenment with [Project Flow](https://docs.google.com/document/d/10f7i-y9aJKo1Lo1IW106ov-OuUXAywNGQg7uPYGOP44/edit?tab=t.0#heading=h.rci2kr8welcp),
+aiming to drive the Reference Architectures to a simplified, cloud-native first future.
+
+An important note: Features delivered to SMA will often require configuration of clients within Omnibus.
+Implementation of that configuration will still occur, as that facilitates the use of the feature, not the operation of the feature itself.
 
 ### Interconnection of mixed environments
 
-- Interconnection of mixed environments
-  - Inclusion of inter-component service discovery and secure communications
+A consequence of implementing OAK will be the need to futher ensure inter-component communication is easy to configure, and properly secured.
 
-_NOTES_:
-Secured connections between omnibus and k8s. Not all services work via ingress, and must be secured.
-How to ensure security? Imeplementation of inter-component TLS (mTLS?).
-Service endpoint configuration can be complex. Some discovery mechanisms may need implemented into Omnibus to facilitate what K8s provides natively.
+Current implementaions include support inter-component TLS, though a significant portion of this manual.
+This is relatively easy, when a minimal number of components to live outside of Kubernetes.
+It would be valuable to investigate appropriate auto-configuration of TLS via an mTLS coordination service.
+
+Configuring the many components of GitLab to speak to each other is a very manual process today, that is facilitated greatly by the GitLab Helm chart and GitLab Environment Toolkit.
+With the implementation of SMA, there are likely to be many services within the Omnibus which need to reach into the OAK.
+We know that services deployed into OAK will likely need to reach services on the Omnibus.
+Not all of these services from either mechanism are naturally exposed via an Ingress model, and some may not be HTTPS/gRPC.
+We should look to provide a means to configure through service discovery, with both mechanisms implementing the integration of this feature.
+
+There are several other works ongoing at GitLab, such as Cells and "CYCP", which are likely to involve mTLS and service discovery.
+Perhaps this work would be best left to those projects, and observe closely by this proposal.
 
 ### Consistency across GitLab produced Helm charts
 
 The Helm ecosystem is flexible, but rife with disparities. We should settle on, and converge towards a set of patterns to be expected across all Helm charts produced and maintained by GitLab.
 We must implement guidelines and best practices across all our works. These should be informed by maintainability, flexibility, and customer experience.
 
-Many of these the immediate concerns can be implemented through [a set of standardized tooling for Helm charts](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/460), and implementaiton of automation through CI components.
+Many of these the immediate concerns can be implemented through [a set of standardized tooling for Helm charts](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/460), and implementaiton of automation through CI components. We will also need to lay out a set of style guides and patterns for components to follow, with the existing GitLab Helm chart
+[development documentation](https://docs.gitlab.com/charts/development/) being a reasonable start.
 
 ### Considerations of GET and Dedicated
 
@@ -289,9 +315,10 @@ In order to examine what that timeline should be, we must first look to the cust
 Kubernetes releases happen [3 times per year](https://kubernetes.io/releases/release/#the-release-cycle), and offically recieve [1 year of patch support](https://kubernetes.io/releases/).
 
 Major cloud providers often support K8s versions for another year beyond the official release of the Kubernetes project itself:
-  - GKE [describes release channels](https://cloud.google.com/kubernetes-engine/docs/release-schedule) for GKE, including the "Extended" channel which adds approximately 1 year.
-  - AWS [delineates](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html) "standard support" and "extended support", which adds 1 year.
-  - Azure [specifically describes](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions) their [Long Term Support](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#long-term-support-lts) https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions) as adding 1 year.
+
+- GKE [describes release channels](https://cloud.google.com/kubernetes-engine/docs/release-schedule) for GKE, including the "Extended" channel which adds approximately 1 year.
+- AWS [delineates](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html) "standard support" and "extended support", which adds 1 year.
+- Azure [specifically describes](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions) their [Long Term Support](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#long-term-support-lts) https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions) as adding 1 year.
 
 Helm v3 [defines `n-3`](https://helm.sh/docs/topics/version_skew/) as their supported Kubernetes versions.
 
@@ -306,9 +333,13 @@ The above points indicate that our customers may expect GitLab to function on a 
 
 ### Upskill needs of the Support and Customer Success Organiztions
 
-_NOTES_:
-Intentional inclusion and push to CN via K8s will require training and experience to be disseminated throughout Support and CS (PS/CSE).
-New patterns require new runbooks and debugging patterns. These will be necessary to develop in parallel to the engineering work. Must be executed on for product success.
+Our Support Engineers, CSM teams, and possibly thousands of third-party consultancies in the wider GitLab ecosystem, have intricate knowledge using Omnibus.
+We know that we and our partners need to be able to provide the same level of support that our customers have come to expect when using the Omnibus GitLab.
+We, the whole of GitLab, will need to ensure that our documentation is expanded to include the appropriate information required for installing, operating,
+debugging and supporting all components as cloud-native. We must build and disseminate new runbooks and guides for existing components, and ensure that all
+new features and components meet this need as a part of their readiness work.
+
+The expansion will be necessary to develop in parallel to the engineering work, but _must_ be executed on for product success.
 
 ## Alternative Solutions
 
@@ -333,7 +364,7 @@ way would certianly specifically cause several of the problems that this proposa
 Instead of pursuing this route, we aim to use a similar concept to _encourage_ customers to
 migrate their architecture over time, providing incentive for building or obtaining experience
 in operating Cloud Native environments for GitLab to operate within. That can be done through the use
-of Omnibus-Adjacent cluster, as a goal of this proposal.
+of Omnibus-Adjacent Kubernetes cluster, as a goal of this proposal.
 
 ### Change nothing
 
