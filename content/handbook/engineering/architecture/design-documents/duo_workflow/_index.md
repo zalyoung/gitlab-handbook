@@ -275,7 +275,7 @@ to support Workflow. In order to avoid this we use the
 [`Ci::Workload`](https://gitlab.com/gitlab-org/gitlab/-/blob/6682c3f76a0196455de3873466f254870383e9bc/app/services/ci/workloads/run_workload_service.rb)
 abstraction which effectively constructs a valid `.gitlab-ci.yml` and runs a
 pipeline with this in-memory definition. The CI Pipeline internals are
-intentionally abstracted from workflow code by using the in order to remain
+intentionally abstracted from workflow code in order to remain
 flexible to changing the hosted runtime in future. This is a key design decision
 as pipelines have several limitations which may make it unsuitable in the long
 run and it would be easy to accidentally become too tightly coupled to replace
