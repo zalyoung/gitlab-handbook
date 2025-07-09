@@ -1,8 +1,14 @@
+
+---
+title: Gong Scorecard Handbook for Solutions Architect Managers
+description: "This page provides comprehensive guidance for Solutions Architect (SA) managers on effectively using Gong Scorecards to review, evaluate, and coach their team members."
+---
+
 # Gong Scorecard Handbook for Solutions Architect Managers
 
 ## Introduction
 
-This handbook provides comprehensive guidance for Solutions Architect (SA) managers on effectively using Gong Scorecards to review, evaluate, and coach their team members. The goal is to create a structured approach to performance improvement that maintains trust, fosters growth, and enhances customer interactions.
+This page provides comprehensive guidance for Solutions Architect (SA) managers on effectively using Gong Scorecards to review, evaluate, and coach their team members. The goal is to create a structured approach to performance improvement that maintains trust, fosters growth, and enhances customer interactions.
 
 ## Understanding Gong Scorecards
 
@@ -20,6 +26,7 @@ Gong's AI technology automatically analyzes recorded calls and provides initial 
 - **Coaching opportunities:** Managers can identify specific areas for improvement that require human insight
 
 **Key Process:**
+
 1. Gong AI provides initial automated scoring
 2. Managers review AI-generated scores and call highlights
 3. Managers make adjustments based on their judgment and additional context
