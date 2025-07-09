@@ -87,6 +87,7 @@ These principles help maintain efficiency while ensuring every emergency has cle
   - 🔎 Identify tickets you can reasonably keep during on-call week
     - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22)
 NOTE: 💡Solving emergency tickets will count towards your AQC
+- Keep an eye on the [customer event calendar](#customer-events-calendar) to stay updated on upcoming events and activities during your on-call schedule.
 
 #### During On-Call
 
