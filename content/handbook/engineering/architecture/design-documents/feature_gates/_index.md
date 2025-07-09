@@ -29,10 +29,7 @@ over 700 feature flags in the codebase.
 
 ## Problem Statement
 
-GitLab's current feature flag implementation has served us well but faces
-significant challenges at scale. With over 700 feature flags in production and
-multiple deployment environments, we need a more structured approach to feature
-release control.
+With over 700 feature flags in production and multiple deployment environments (GPRD, GSTG, GPRD-CNY, GSTG-CNY, PRE, OPS, DEV, Dedicated instances...), we need a better way to manage feature releases. Right now, our manual process is becoming harder to manage at scale. Teams coordinate flag rollouts individually through ChatOps commands, and we use general dashboards instead of tracking specific feature performance. Since flag information lives in different GitLab projects, we lack visibility into flag status across all environments.
 
 ### Status Quo
 
