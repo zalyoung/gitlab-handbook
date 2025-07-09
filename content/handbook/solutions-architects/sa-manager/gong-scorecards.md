@@ -61,6 +61,9 @@ For Solutions Architects, scorecards are designed to:
 
 #### 2. Initial AI Score Assessment
 
+- Navigate to a specific call from Gong's Home page or Conversations section
+- Open the right-side panel and select "Scoring"
+- Select the scorecard and Gitlab person to apply the scorecard. Gong will provide an initial AI analysis for each question
 - Review the AI-generated scores for each criterion
 - Note any areas where the AI flagged potential issues or highlights
 - Check the confidence level of AI scoring for each category
