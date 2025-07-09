@@ -228,6 +228,7 @@ To get the attention of a specific Security Department please tag your message w
 - **@security-prodsec** - For Product Security department.
 - **@security-program-mgmt** - For all your security program management needs.
 - **@security-leadership** - To reach all Security people-managers.
+
 #### Division, Department, and Team updates
 
 We believe it is important to share regular updates at various levels of the Security Division, and we use Slack as the primary mechanism for providing these updates. Our updates are open to all GitLab team members using the following process:
