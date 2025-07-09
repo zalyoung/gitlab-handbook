@@ -288,20 +288,6 @@ Ensure any changes you make are approved by legal and saved within the OneTrust 
 1. **Notice only:** If you select Notice Only as the default consent model, all cookie categories will be set to Always Active and cannot be disabled by website visitors. A banner informing the visitor that the website uses cookies will be displayed on the landing page of the website.
 1. **Custom:** If you select this option, you can set a different default status for each category of cookie on your site. You can customize the consent model to suit your organization's needs and can set the Do Not Track status for each category of cookie.
 
-### Banner Rules
-
-The OneTrust banner is only visible to new website visitors based on a set of logic listed below. In regions where the banner does not display, the user can still consent to cookie categories from the Preference Center window by clicking on the "Cookie Settings" or "Do not sell..." link located in the footer section.
-
-| Region   | Consent Model | Banner Visibility    | Buttons    | Template | Global Privacy Control |
-|-------|---------------|---------------|------------------|---|---|
-| California, Connecticut   | Opt out       | Not visible          |     | CCPA | Performance and Analytics, Allow Sell or Sharing of PI        |
-| Colorado   | Opt out       | Not visible          |     | GDPR | Performance and Analytics, Targeting and Advertising Cookies |
-| US     | Opt out       | Not visible          |       | | GDPR |
-| Europe, Colombia, Russia, Liechtenstein, Iceland, Norway, Peru, Quebec, Korea | Opt in        | Visible to new users | Cookie Settings, Accept All Cookies  | | GDPR |
-| Brazil, South Africa, Macao, Newfoundland and Labrador, Manitoba, British Columbia, New Brunswick, Ontario, Nunavut, Yukon, Alberta, Prince Edward Island, Nova Scotia, Saskatchewan, Northwest Territories   | Opt out       | Visible to new users | Cookie Settings, Accept All Cookies  | | GDPR |
-| France, Spain, United Kingdom     | Opt in        | Visible to new users | Cookie Settings, Reject All, Accept All Cookies | Reject All | |
-| Global     | Opt out       | Not visible          |              | | GDPR |
-
 ### Accessing Scripts
 
 1. To access the scripts, click `Scripts` in the left menu of the `Cookie Compliance` module.
