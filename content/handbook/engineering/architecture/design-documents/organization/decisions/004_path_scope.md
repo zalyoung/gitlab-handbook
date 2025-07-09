@@ -29,7 +29,7 @@ REST and GraphQL requests will remain at `/api/v4` and `/api/graphql` and Organi
 - All existing routes will remain to ensure backward compatibility.
 - Organization routes will exist within the `/o/` scope.
 - REST and GraphQL routes will remain as they are today, and `organization_id` will be supplied through existing methods.
-- The `o` namespace is owned by a user and will be reclaimed.
+- The `o` can't be used by a Group or User.
 - If the `o` is taken on on-premise we would fail creating the Organization through a model validation and ask the user to release the `o`.
 - There is a [decision tree](https://lucid.app/lucidspark/42a3cb25-7b85-49e2-8539-952df0781e1e/edit?beaconFlowId=C3B5807A2EB70840&invitationId=inv_9908f2a1-446d-4f33-9469-07e8b9ff8c76&page=0_0#) that details the mappings.
 

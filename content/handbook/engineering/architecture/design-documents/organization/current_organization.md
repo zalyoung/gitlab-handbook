@@ -28,8 +28,8 @@ decisions are in the [Organization path scope ADR](decisions/004_path_scope.md).
 For example:
 
 - `/o/my-organization/my-group`: The Organization will be `my-organization`
-- `/groups/abc-group`: The organization will be `organizationA` since `abc-group` belongs to `organizationA`
-- `/-/organizations/my-organization`: The organization will be `my-organization`
+- `/o/my-organization/engineering/backend`: The organization will be `my-organization` since the project `engineering/backend` is scoped.
+- `/top-level-group/my-project`: The organization will be `my-organization` if the `top-level-group` was moved into the `my-organization`.
 
 ### Header Field
 
@@ -57,11 +57,13 @@ Use of the Default Organization will break Cells compatibility because the Defau
 
 REST and GraphQL requests will remain at `/api/v4` and `/api/graphql`.
 
-Organization context will be define with:
+You must specify the Organization context for each request with either:
 
 - An `organization-id` parameter
 - An `Organization-ID` header
 - The organization associated with the used secret (personal access token, etc.)
+
+With no parameter a fallback to the Default Organization will occur.
 
 ## Background Jobs
 
