@@ -1,113 +1,172 @@
 ---
-title: "GitLab Agile Portfolio Management - Hands-On Lab: Create an Organizational Structure in GitLab"
-description: "This Hands-On Guide walks you through creating groups, projects, and project members in GitLab."
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Project Planning"
+description: "This Hands-On Guide walks you through creating epics, iterations, and milestones in GitLab."
 ---
 
-> Estimated time to complete: 30 minutes
+> Estimated time to complete: 45 minutes
 
 ## Objectives
 
-In GitLab, projects and subgroups help you organize your codebases and effectively manage your projects. In this lab, you will learn how to create an organizational subgroup, how to create a project, and how to add a user to a project.
+To help you organize your work, GitLab provides epics, iterations, and milestones. In this lab, you will learn how to create, configure, and manage epics, iterations, and milestones in your projects.
 
-**Organization Namespaces:** You can create subgroups under any other groups that you have access to and have permissions to create groups underneath. Your organization should have best practices documented on how groups are structured or named. If you're not sure, you can locate another [group's members](https://docs.gitlab.com/ee/user/project/members/#display-direct-members) and ask one of the users with `Owner` role who should be able to help.
+## Task A. Review planning features in GitLab
 
-**Personal Namespaces:** Although you can create _projects_ in your personal namespace (ex. `https://gitlab.com/exampleuser/example-project`), you cannot create _groups_ in your personal namespace.
+1. *In a new browser tab*, navigate to the GitLab project source code at [https://gitlab.com/gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab). Note the namespace structure indicated by the top of the page. You should be in the **GitLab** project inside the **GitLab.org** group.
 
-**Security Warning:** Any users that have access to parent or grandparent groups will have inherited permissions to this group. In the training environment, each student only has direct member access to their subgroup and does not have inherited member access to the parent groups. See the [subgroup membership docs](https://docs.gitlab.com/ee/user/group/subgroups/index.html#subgroup-membership) to learn more.
+1. At the top of the page above the project name, click **GitLab.org** to navigate to the parent group.
 
-> **Tip:** Remember that the breadcrumbs are a good way to navigate between subgroups when you're creating a multi-level collection of groups and subgroups.
+1. Note the number of epics, issues, and merge requests indicated in the left pane. These numbers represent work items across all subgroups and projects inside **Gitlab.org**.
 
-## Prerequisites
+1. In the left pane, click **Epics**. This takes you to a searchable list of epics in **GitLab.org** and all its subgroups.
 
-1. You have already redeemed the invitation/voucher code.
+1. In the left pane, click **Plan > Roadmap**. Epics and milestones in a group containing a start date or due date can be visualized in the form of a timeline (that is, a Gantt chart). The Roadmap page shows the epics and milestones in a group, one of its subgroups, or a project in one of the groups.
 
-1. You have signed into https://ilt.gitlabtraining.cloud with the username provided.
+1. On the epic bars, you can see each epic's title, progress, and completed weight percentage. When you hover over an epic bar, a popover appears with the epic's title, start date, due date, and weight completed.
 
-1. You have clicked the `My Group` button and opened a new browser tab with the URL `https://ilt.gitlabtraining.cloud/training-users/session-{id}/iu{######}`. You should see `My Test Group - iu{######}` as the title of the group.
+1. You can expand epics that contain child epics to show their child epics in the roadmap. You can select the chevron (v) next to the epic title to expand and collapse the child epics.
 
-## Task A. Review groups and projects for GitLab's own source code
+## Task B. Create an epic
 
-1. _In a new browser tab_, navigate to [https://gitlab.com/gitlab-org](https://gitlab.com/gitlab-org). This group contains all of GitLab's product source code that is mostly open source and transparent based on our company values.
+> Epics provide a way to organize and manage a set of issues and sub-epics that share a strategic theme. In addition to logical grouping, epics enable project managers to perform higher level planning and build a roadmap with visual status tracking. You can read more about epics in the [documentation](https://docs.gitlab.com/ee/user/group/epics/).
 
-2. In the list of groups and project, click the linked name for the **Frontend** subgroup. You might have to scroll down or use pagination to find it on the second page.
+1. *In the lab environment browser tab,* at the top of the page, Click on **My Test Group - XXXXX**, where the X's are replaced by your username.
 
-3. Within the **Frontend** subgroup, you can see all of the projects and subgroups that exist as part of this group. Spend a few moments exploring some of these subgroups and projects.
+1. On the groups page, click on the **Awesome Inc** subgroup. Inside the subgroup, click **Software**.
 
-## Task B. Create organizational subgroups
+1. In the left pane of the **Software** group landing page, click **Epics**.
 
-1. Navigate to your personal top-level group by going to `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>`, replacing the **<INVITATION_CODE>** with your provided code, and **<USERNAME>** with your username. If you are unsure of what your username is, click on the profile picture in the top right corner, and copy the username provided without the @ symbol.
+1. Click on the **New epic** button.
 
-1. Click the **New Subgroup** button in the top right corner.
+1. On the *New Epic* page, enter `Feature Category: Retirement Planning` in the **Title (required)** field. Having a descriptive title helps make it clear what issues and sub-epics should be associated with the epic.
 
-1. In the **Subgroup name** field, type `Awesome Inc`.
+1. In the **Description** field, paste the following:
 
-1. The **Subgroup URL** shows which namespace hierarchy that this group will be created in.
+    ```markdown
+    # Overview
 
-   - **Do not change the Subgroup URL in this class. You will always create projects under `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>` since this is your top-level organization group for these steps.**
+    This is the top-level epic for all features in the `Retirement Planning` category of Awesome Co.'s personal finance software.
 
-1. The **Subgroup slug** will automatically populate based on the name. Rename `awesome-inc` to `awesome`.
+    # Useful Links
+    - *To-Do: add link to the feature strategy document*
+    - *To-Do: add contributing team member information*
+    ```
 
-   - **Best Practice:** This slug is what will appear as the **project path**, which means that it is both the URL path and the folder name when you run `git clone`. It is a best practice to shorten this when appropriate.
+    > There is no need to change any other options for the epic, but it is still important to understand the options.
 
-1. Ensure that the **Visibility level** is set to `Private`.
+1. There are additional options that you can configure or leave at their default setting.
 
-   > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+    - **Assignees**: Individuals that are responsible for the completion of your epic.
 
-1. Click the **Create subgroup** button.
-   - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>/awesome`.
+    - **Label**: Apply labels to your epic, which are metadata tags that can be used to sort and filter your epics.
 
-1. **Congratulations!** You have created your first group and are ready to create additional groups on your own. Within the **Awesome Inc** group, create subgroups for each of these teams at your awesome company.
-   - **Software**
-     - **Core** (this is a subgroup of `Software`, not `Awesome Inc`)
-     - **Android**
-     - **iOS**
-   - **Infrastructure**
-   - **Security**
+    - **Dates**: When work on the epic is scheduled to begin, and be completed. You have two options for dates - fixed (you can set them manually) and inherited (they 'inherit' the dates from the issues associated with the epic).
 
-## Task C. Create a new project
+    - **Health status**: A way to identify if the epic is in danger of falling behind in schedule.
 
-1. Navigate to the **Awesome Inc > Software > Core** subgroup that you just created.
+    - **Color**: Customize the display color of the epic when used in roadmap timeline bars. Look at the **GitLab.org** group's Roadmap in Task A for an example.
 
-1. Click the **Create new project** tile.
+    - **Parent**: Epics can be children and/or parents of other epics. Parent and children epics can be used to further organize and clarify goals for a team or company. We will create a child epic in the next task. 
 
-1. Click the **Create blank project** tile.
+## Task C: Create a child epic
 
-1. In the **Project name** field, enter `Family Budget Calculator`.
+1. You will now create a new child epic to link to the parent epic. Navigate to your Epics page by clicking on **Plan > Epics** on the left pane.
 
-1. Note that the project URL shows `/awesome/software/core` in its path. This shows that the project is in the `core` subgroup.
+1. Click the **New epic** button in the top right corner.
 
-1. Leave the project slug as the default value, `family-budget-calculator`.
+1. In the title section, type in `Investment Tracking`.
 
-1. Set the **Visibility Level** to private.
+1. In the **Description** field, paste the following:
 
-   > See the [visibility docs](https://docs.gitlab.com/ee/user/public_access.html) to learn more. Keep in mind that any parent groups that have `Private` visibility will be inherited for all child groups and projects and cannot be changed.
-   >
-   > **Training Environment Limitation:** In the training environment, your group is part of a private parent group so you will not be able to make a group or project `Public`. To test working with public projects, you can create a project in your personal namespace.
+    ```markdown
+    # Overview
 
-1. Enable the **Initialize repository with a README** checkbox.
+    This epic tracks all work on `Investment Tracking` features and integrations, as part of the overall `Retirement Planning` category strategy.
+    ```
 
-1. Leave **Enable Static Application Security Testing (SAST)** unchecked.
+1. Leave all other fields as they are, and click **Create epic**.
 
-1. Select **Create project**.
+1. Return to the Software group's full list of epics by clicking **Epics** in the breadcrumbs at the top of the page.
 
-## Task D. Add a project member and set their role
+1. Click into the **Feature Category: Retirement Planning** epic.
 
-1. In the **Family Budget Calculator** project, click **Manage > Members** in the left sidebar.
+1. You will now designate the **Investment Tracking** epic as a child of the **Retirement Planning** epic. In the **Child items** tab, select the **Add** drop-down menu, and click **Existing epic**.
 
-1. Click the **Invite members** button in the top right corner.
+    > You can also use this menu to create a child epic from scratch.
 
-1. Search for and select your instructor as the user you are inviting.
+1. Type `&` in the field provided, and select **Investment Tracking** from the list of epics.
 
-1. In the **Select a role** dropdown, select **Developer**.
+    > The `&` symbol lets you refer to epics by their unique epic ID rather than their name. This is useful for when you have a large number of epics with similar names.
 
-   > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions.html) to learn more about each role level.
+1. Click **Add** to link **Investment Tracking** as a child epic to the **Retirement Planning** parent epic.
 
-1. Click the **Invite** button.
+## Task D. Set milestones to represent product goals
 
-1. Refresh the page to see the user invited as a _Direct Member_.
+> Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize epics, issues and merge requests into a cohesive group, with an optional start date and an optional due date. You can read more about milestones in the [documentation](https://docs.gitlab.com/ee/user/project/milestones/).
 
-   > Users will inherit permissions from the parent group hierarchy that this project exists in. If a user already has a higher level of access in a parent group (ex. `Maintainer`), that access level supersedes a lower level of permission assigned at the project level (ex. `Developer`).
+1. Navigate to the **Awesome Inc** subgroup.
+
+1. In the left pane, click **Plan > Milestones**. This will take you to the Milestones page.
+
+1. Click **New milestone** in the top right corner.
+
+1. In the **Title** section, type in `Organization Kickoff`.
+
+1. In the **Start Date** section, use the calendar to enter today's date.
+
+1. In the **End Date** section, use the calendar to enter 2 days from today's date as the milestone end date.
+
+    > While a description is not necessary, it is recommended to type in a description to help clarify what the milestone is intended to be used for.
+
+1. Click **Create milestone**.
+
+1. In the breadcrumbs at the top of the page, click **Milestones**.
+
+1. Click **New milestone** to create a second milestone.
+
+1. In the **Title** section, type in `Backend services deployed`.
+
+1. In the **Start Date** section, use the calendar to enter today's date.
+
+1. In the **End Date** section, use the calendar to enter 2 weeks from today as the milestone end date.
+
+1. Click **Create milestone**.
+
+1. In the breadcrumbs at the top of the page, click **Milestones** to view your newly created milestones.
+
+You will later assign tasks to the epics and milestones you created, allowing you to use roadmaps to view the progress of your initiatives.
+
+## Task E. Schedule iterations as team sprints
+
+> Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
+
+1. In your subgroup structure, navigate to **Awesome Inc > Software**.
+
+1. In the left pane, click **Plan > Iterations**.
+
+1. Click **New iteration cadence** in the top right corner.
+
+1. In the **Title** section, type in `Team sprints` .
+
+1. In the **Description** section, type in `Tracking team progress toward minimum viable product` .
+
+1. In the **Automatic start date** input, use the calendar to enter today's date.
+
+1. In the **Duration** section, select 2 weeks as the duration of each iteration.
+
+1. In the **Upcoming iterations** section, select 6 for the number of upcoming iterations.
+
+1. Ensure the **Enable roll over** checkbox is selected.
+
+    > At the end of the current iteration, all open issues are added to the next iteration when **Enable roll over** is selected.
+
+1. Select **Create cadence**.
+
+You will later assign individual tasks to iterations (sprints).
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
 
 ## Suggestions?
 
-If you'd like to suggest changes, please submit them using a merge request.
+If you'd like to suggest changes, please submit them using a merge request.If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.
