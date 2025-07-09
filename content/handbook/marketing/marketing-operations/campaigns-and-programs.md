@@ -1133,17 +1133,19 @@ If utilizing Allocadia, please refer to the instructions [above](/handbook/marke
 
 ## Steps to Setup Direct Mail Campaigns
 
-### Step 1: Create the Salesforce campaign
+Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilliant Gifts. Brilliant Gifts, our merch vendor, needs to set up a Preferred Gift campaign on their end, which can take up to a month and requires contacting their support. The current Qualified owner will be required to set up the Qualified meeting booking link. Refer to the [tech stack]((https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)) for the appropriate contacts. The Marketo template has been set up in a way to be easily cloned, so move slowly and carefully during set up
 
-- Clone the [#TEMPLATE - Direct Mail](https://gitlab.my.salesforce.com/7014M000001dlh9)
-- Update Campaign name to `whatever your campaign tag is`
-- NOTE: You do NOT need a corresponding Marketo campaign. All information and tracking is done via this campaign.
+### Step 1: Create the Marketo program and Salesforce campaign
 
-### Step 2: Update the Salesforce campaign
+- Clone the [#TEMPLATE - FY00_Q0_Brilliant Gifts Direct Mail TEMPLATE](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/PG24060A1) into the appropriate folder and rename the program. If the intention is to run in ONE region, clone once. If the intention is to run in multiple regions, clone a "parent" program and enough programs for all regions (e.g. AMER, APJ, EMEA) and place in their own folder. Keep the naming convention similar for the regional/child programs but add a region tag at the end of the program name (e.g. `FY00_Q0_Campaign_AMER`)
+- If one program was cloned, sync it to SFDC. If there were multiple programs created, sync them ALL of them to SFDC. 
+  - DO NOT anchor the regional SFDC campaigns under the parent campaign. The parent campaign is there to sync with Qualified, but once the campaign is _fully_ completed all members of the parent can be removed from the campaign and parent linked to the child campaigns. The parent cannot contain members while having child campaigns
 
-- Click on `Advanced Setup` to make sure statuses correspond to those listed in the [Direct Mail progression statuses](/handbook/marketing/marketing-operations/campaigns-and-programs/#direct-mail). Do not edit these, if you need them updated, please reach out to MktgOps.
-- Confirm the `type` is `Direct Mail`
-- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
+### Step 2: Set up the Marketo programs
+
+- Fill out the required program tokens. A token unique to this program type is the `my.qualifiedlink` token, which appears in the `Sales Nominated Invite` email. The Qualified link will be shared by the Qualified technical owner when it is ready (more on that below)
+- The smart campaigns folder has many flows and which ones used will depend on whether the direct mail campaign is for a single region, whether the program is the "parent" program that communicates with Qualified (which happens within the synced SFDC campaign) or whether the program is a regional "child" program
+- If the campaign is to take place in a single region and your program is the only program, review `01 Processing - Single region campaign` and make sure all fields being updated are up to date with the proper program name
 
 ## Steps to Setup LinkedIn Lead Gen Form
 
