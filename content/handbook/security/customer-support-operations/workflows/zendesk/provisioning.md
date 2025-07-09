@@ -19,7 +19,7 @@ After you have done so, mark off the items in the access request issue.
 
 ## Special request
 
-Any special request issues to provision on either Zendesk instance not related to role based entitlements must be done via an access request issue. Do note this will require approval from the system owners (Lyle and Jason) to proceed.
+Any special request issues to provision on either Zendesk instance not related to role based entitlements must be done via an access request issue. Do note this will require approval from the system owner (Jason) to proceed.
 
 See [Role based entitlements](#role-based-entitlement) for information on what to do when it comes time to provision it.
 
