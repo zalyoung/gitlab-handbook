@@ -1,198 +1,133 @@
 ---
-title: "GitLab Agile Portfolio Management - Hands-On Lab: Use GitLab Planning Tools"
-description: "This Hands-On Guide walks you through creating epics, iterations, and milestones in GitLab."
+title: "GitLab Agile Portfolio Management- Hands-On Lab: Task Management & Progress Tracking"
+description: "This Hands-On Guide walks you through creating issues and labels in GitLab."
 ---
 
-> Estimated time to complete: 45-60 minutes
+> Estimated time to complete: 45 minutes
 
 ## Objectives
 
-To help you organize your work, GitLab provides epics, iterations, and milestones. In this lab, you will learn how to create, configure, and manage epics, iterations, and milestones in your projects.
+Issues are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work. Issues are defined in the scope of a **Project**, **not** a Group. You can read more about them in the [documentation](https://docs.gitlab.com/ee/user/project/issues/).
 
-## Task A. Review planning features in GitLab
+## Task A. Create and manage labels
 
-1. *In a new browser tab*, navigate to the GitLab project source code at [https://gitlab.com/gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab). Note the namespace structure indicated by the top of the page. You should be in the **GitLab** project inside the **GitLab.org** group.
+> You can use labels to categorize epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. This allows you to dynamically filter and manage epics, issues, and merge requests. You can read more about them in the [documentation](https://docs.gitlab.com/ee/user/project/labels.html).
 
-1. At the top of the page above the project name, click **GitLab.org** to navigate to the parent group.
+1. Navigate to your **Awesome Inc** group.
 
-1. Note the number of epics, issues, and merge requests indicated in the left pane. These numbers represent work items across all subgroups and projects inside **Gitlab.org**.
+1. In the left pane, click **Manage > Labels**.
 
-1. In the left pane, click **Epics**. This takes you to a searchable list of epics in **GitLab.org** and all its subgroups.
+1. Click the **New label** button.
 
-1. In the left pane, click **Plan > Roadmap**. Epics and milestones in a group containing a start date or due date can be visualized in a form of a timeline (that is, a Gantt chart). The Roadmap page shows the epics and milestones in a group, one of its subgroups, or a project in one of the groups.
+1. In the **Title** field, enter `Status::Open`. The 2 colons in the label title mean that this will be a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels).
 
-1. On the epic bars, you can see each epic's title, progress, and completed weight percentage. When you hover over an epic bar, a popover appears with the epic's title, start date, due date, and weight completed.
+    > A scoped label uses a double-colon (::) syntax in its title, for example: `workflow::in-review`. An issue, merge request, or epic cannot have two scoped labels, of the form `key::value`, with the same key. If you add a new label with the same key but a different value, the previous key label is replaced with the new label.
 
-1. You can expand epics that contain child epics to show their child epics in the roadmap. You can select the chevron (v) next to the epic title to expand and collapse the child epics.
+1. In the **Description** field, type `Item that is ready to begin work` .
 
-## Task B. Create an epic
+1. For the label's color, GitLab supports any hex color code. For this label, choose **Blue-gray** from the suggested color palette (or type `#6699cc` in the **Background color** field).
 
-> Epics provide a way to organize and manage a set of issues and sub-epics that share a strategic theme. In addition to logical grouping, epics enable project managers to perform higher level planning and build a roadmap with visual status tracking. You can read more about epics in the [documentation](https://docs.gitlab.com/ee/user/group/epics/).
+1. Click **Create label**.
 
-1. *In the lab environment browser tab,* at the top of the page, click the `...` beside `GitLab Learn Labs`.
+1. Create the following additional labels, setting a description and background color of your choosing. Note that some of these are scoped and some are unscoped.
+    - `Status::Open`
+    - `Status::WIP`
+    - `Status::Done`
+    - `Priority::High`
+    - `Priority::Medium`
+    - `Priority::Low`
+    - `Dev`
+    - `QA`
+    - `Security`
 
-1. Click on **My Test Group**.
+1. Go to your **Family Budget Calculator** project. The project is inside the **Awesome Inc > Software > Core** group hierarchy.
 
-1. On the groups page, click on the **Awesome Inc** subgroup. Inside the subgroup, click **Software**.
+1. Click **Manage > Labels** from the left sidebar.
 
-1. In the left pane of the **Software** group landing page, click **Epics**.
+1. Click the star icon to the left of the **Subscribe** button to designate the following labels as prioritized labels. Prioritized labels appear at the top of your labels list.
 
-1. In the upper-right corner above the search bar, click on the **New epic** button.
+     - **Priority::High**
+     - **Priority::Medium**
+     - **Priority::Low**
 
-1. On the *New Epic* page, enter `Feature Category: Retirement Planning` in the **Title (required)** field. Having a descriptive title helps make it clear what issues and sub-epics should be associated with the epic.
+## Task B. Create issues for tracking work
 
-1. In the **Description** field, paste the following:
+1. In your **Family Budget Calculator** project, click **Plan > Issues** from the left sidebar.
+
+1. Click the **New issue** button.
+
+1. In the title section, type `Third-party financial services integration`.
+
+1. The description is an optional section, but feel free to type in your own description for this issue.
+
+1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username. While we will leave the options as they are for now, it is important to understand what they do:
+
+    - **Epic:** Associates the issue with an epic.
+
+    - **Milestone:** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
+
+    - **Labels:** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
+
+    - **Weight:** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
+
+    - **Due date:** Use in issues to keep track of deadlines and make sure features are shipped on time.
+
+    - **Iteration:** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
+
+1. Click the **Create issue** button.
+
+1. In the issue metadata pane, click **Edit** next to the **Labels** field.
+
+1. Select the **Status::Open** label, then click away from the metadata pane to apply the label to the issue.
+
+1. Repeat the previous 2 steps to apply the **Priority::Medium** and **Dev** labels to the issue.
+
+1. In the left pane, click **Plan > Issues**. You will see the issue you just created in the list along with its labels.
+
+1. Create a second issue by clicking **New issue** in the top right of the issue list page.
+
+1. In the **Title** section, type `Backend services`.
+
+1. Paste the following in the **Description** section:
 
     ```markdown
-    # Overview
-
-    This is the top-level epic for all features in the `Retirement Planning` category of Awesome Co.'s personal finance software.
-
-    # Useful Links
-    - *To-Do: add link to the feature strategy document*
-    - *To-Do: add contributing team member information*
+    - Create DB
+    - Create service infrastructure
+    - Write documentation
     ```
 
-    > There is no need to change any other options for the epic, but it is still important to understand the options.
+1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
 
-1. There are additional options that you can configure or leave at their default setting.
+1. Click the **Create issue** button.
 
-    - **Confidentiality**: Create private epics for internal use if you have a public facing project.
+1. Apply the following labels to the **Backend services** issue by clicking on the label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::Open**, and **Priority::High**.
 
-    - **Labels**: Apply labels to your epic, which are metadata tags that can be used to sort and filter your epics.
+1. In the left pane, click **Plan > Issues** to see both issues with their labels.
 
-    - **Dates**: Schedule your epics to be at a fixed start and due date, or have the epics inherit their state and end dates from the issues associated with them. You can also let the epic progress over time, without a fixed end date.
+1. Create a third issue by clicking **New issue** in the top right of the issue list page.
 
-    - **Color**: Customize the display color of the epic when used in roadmap timeline bars. Look at the **GitLab.org** group's Roadmap in Task A for an example.
+1. In the **Title** section, type `Frontend services`.
 
-    - **Parent**: This enables you to list another epic as a parent of this epic. This helps you keep your hierarchy clear and makes it easy to see which epics are related.
-
-## Task C: Create a child epic
-
-> A parent epic can have multiple child epics. Use child epics to organize more complex topics into smaller, more focused epics and issues.
-
-1. You will now create a new child epic to link to the parent epic. Navigate to your Epics page by clicking on **Plan > Epics** on the left pane.
-
-1. Click the **New epic** button in the top right corner.
-
-1. In the title section, type in `Investment Tracking`.
-
-1. In the **Description** field, paste the following:
+1. Paste the following in the **Description** section:
 
     ```markdown
-    # Overview
-
-    This epic tracks all work on `Investment Tracking` features and integrations, as part of the overall `Retirement Planning` category strategy.
+    - UX design
+    - Integration
+    - Write documentation
     ```
 
-1. Leave all other fields as they are, and click **Create epic**.
+1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
 
-1. Return to the Software group's full list of epics by clicking **Epics** in the breadcrumbs at the top of the page.
+1. Click **Create issue**.
 
-1. Click into the **Feature Category: Retirement Planning** epic.
+1. Apply the following labels to the **Frontend services** by clicking on the label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::WIP**, and **Priority::High**.
 
-1. You will now designate the **Investment Tracking** epic as a child of the **Retirement Planning** epic. In the **Child issues and epics** tab, select the **Add** drop-down menu, and click **Add an existing epic**.
+1. In the left pane, click **Plan > Issues** to see all 3 issues with their labels.
 
-    > You can also use this menu to create a child epic from scratch.
+## Lab Guide Complete
 
-1. Type `&` in the field provided, and select **Investment Tracking** from the list of epics.
-
-    > The `&` symbol lets you refer to epics by their unique epic ID rather than their name. This is useful for when you have a large number of epics with similar names.
-
-1. Click **Add** to link **Investment Tracking** as a child epic to the **Retirement Planning** parent epic.
-
-## Task D. Set milestones to represent product goals
-
-> Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. Milestones allow you to organize epics, issues and merge requests into a cohesive group, with an optional start date and an optional due date. You can read more about milestones in the [documentation](https://docs.gitlab.com/ee/user/project/milestones/).
-
-1. Navigate to the **Awesome Inc** subgroup.
-
-1. In the left pane, click **Plan > Milestones**. This will take you to the Milestones page.
-
-1. Click **New milestone** in the top right corner.
-
-1. In the **Title** section, type in `Organization Kickoff`.
-
-1. In the **Start Date** section, use the calendar to enter in today's date.
-
-1. In the **End Date** section, use the calender to enter 2 days from today's date as the milestone end date.
-
-    > While a description is not necessary, it is recommended to type in a description to help clarify what the milestone is intended to be used for.
-
-1. Click **Create milestone**.
-
-1. In the breadcrumbs at the top of the page, click **Milestones**.
-
-1. Click **New milestone** to create a second milestone.
-
-1. In the **Title** section, type in `Backend services deployed`.
-
-1. In the **Start Date** section, use the calendar to enter in today's date.
-
-1. In the **End Date** section, use the calender to enter 2 weeks from today as the milestone end date.
-
-1. Click **Create milestone**.
-
-1. In the breadcrumbs at the top of the page, click **Milestones** to view your newly created milestones.
-
-You will later assign tasks to the epics and milestones you created, allowing you to use roadmaps to view the progress of your initiatives.
-
-## Task E. Schedule iterations as team sprints
-
-> Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
-
-1. In your subgroup structure, navigate to **Awesome Inc > Software**.
-
-1. In the left pane, click **Plan > Iterations**.
-
-1. Click **New iteration cadence** in the top right corner.
-
-1. In the **Title** section, type in `Team sprints` .
-
-1. In the **Description** section, type in `Tracking team progress toward minimum viable product` .
-
-1. In the **Automatic start date** input, use the calendar to enter in today's date.
-
-1. In the **Duration** section, select 2 weeks as the duration of each iteration.
-
-1. In the **Upcoming iterations** section, select 6 for the number of upcoming iterations.
-
-1. Ensure the **Enable roll over** checkbox is selected.
-
-    > At the end of the current iteration, all open issues are added to the next iteration when **Enable roll over** is selected.
-
-1. Select **Create cadence**.
-
-You will later assign individual tasks to iterations (sprints).
-
-## Task F. Create a wiki for project documentation
-
-> If you don't want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
-
-1. Navigate to your **Family Budget Calculator** project in the **Software > Core** subgroup.
-
-1. In the left pane, click **Plan > Wiki**.
-
-1. Click **Create your first page** button in the middle of the page.
-
-1. In the **Title** section, type in `Family Budget Calculator Documentation` as the page title.
-
-1. Paste the following text in the content field underneath the title field.
-
-    ```markdown
-    ## Summary
-
-    The Family Budget Calculator helps households stay on budget and save for the future.
-
-    ## Contact
-
-    Contact <YOUR-NAME> with questions or comments.
-    ```
-
-1. Click **Create Page**. You should see a new Wiki page with the content you created.
-
-> If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
 
 ## Suggestions?
 
-If you'd like to suggest changes, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.
