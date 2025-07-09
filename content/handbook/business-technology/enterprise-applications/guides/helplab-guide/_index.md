@@ -33,7 +33,7 @@ The following teams are available through HelpLab:
 - [Stock Admin](/handbook/total-rewards/stock-options/)
 - [Expenses](/handbook/finance/expenses/)
 - [Payroll (US & Non-US)](/handbook/finance/payroll/)
-- [Sales Compensations](https://internal.gitlab.com/handbook/sales/sales-commission/#fy23-sales-commission-policies)
+- [Sales Commissions](https://internal.gitlab.com/handbook/sales/sales-commission/#fy23-sales-commission-policies)
 - [CorpSec End User Services](/handbook/security/corporate/end-user-services/)
 - [Enterprise Applications](/handbook/business-technology)
 
