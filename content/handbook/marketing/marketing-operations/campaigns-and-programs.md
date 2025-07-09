@@ -1133,7 +1133,7 @@ If utilizing Allocadia, please refer to the instructions [above](/handbook/marke
 
 ## Steps to Setup Direct Mail Campaigns
 
-Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilliant Gifts. Brilliant Gifts, our merch vendor, needs to set up a Preferred Gift campaign on their end, which can take up to a month and requires contacting their support. The current Qualified owner will be required to set up the Qualified meeting booking link. Refer to the [tech stack]((https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)) for the appropriate contacts. The Marketo template has been set up in a way to be easily cloned, so move slowly and carefully during set up
+Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilliant Gifts. Brilliant Gifts, our merch vendor, needs to set up a Preferred Gift campaign on their end, which can take up to a month and requires contacting their support. The current Qualified owner will be required to set up the Qualified meeting booking link. Refer to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for the appropriate contacts. The Marketo template has been set up in a way to be easily cloned, so move slowly and carefully during set up
 
 ### Step 1: Create the Marketo program and Salesforce campaign
 
