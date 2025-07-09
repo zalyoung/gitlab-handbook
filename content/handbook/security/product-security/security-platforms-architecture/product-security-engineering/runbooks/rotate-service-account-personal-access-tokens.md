@@ -56,10 +56,10 @@ This runbook is an approach to rotating a GitLab Service Accounts Personal Acces
 
 ### 4. Steps to test
 
-- Logout of the Service Account and back in to an Account that has permissions to re-run any pipelines associated with the Service Accounts PAT. 
-- For this particular Service Account, the GitLab Inventory Builder uses this Service Accounts PAT to access APIs. 
+- Logout of the Service Account and back in to an Account that has permissions to re-run any pipelines associated with the Service Accounts PAT.
+- For this particular Service Account, the GitLab Inventory Builder uses this Service Accounts PAT to access APIs.
 - So re-running a pipeline job for that repository that was previously failing due to token errors, demonstrated that the PAT rotation was successful as seen in the image below:
 
 ![GitLab Inventory Builder Weekly - Monday mornings Pipeline Build](/images/security/product-security/security-platforms-and-architecture/gitlab-inventory-builder-weekly-monday-mornings-pipeline-success.png)
 
-- If the pipeline passes, congratulations, update the issue with the success and notify any conerned parties of the successful PAT rotation, and finally, close the associated issue.
+- If the pipeline passes, congratulations, update the issue with the success and notify any concerned parties of the successful PAT rotation, and finally, close the associated issue.
