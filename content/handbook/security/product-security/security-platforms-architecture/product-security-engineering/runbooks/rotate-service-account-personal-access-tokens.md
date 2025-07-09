@@ -39,7 +39,7 @@ This runbook is an approach to rotating a GitLab Service Accounts Personal Acces
 
 - Click on `Access tokens` in the `User settings` then click the `Add new token` button:
 
-![Service Account Access Token PAge](/images/security/product-security/security-platforms-and-architecture/service-account-access-token-page.png)
+![Service Account Access Token Page](/images/security/product-security/security-platforms-and-architecture/service-account-access-token-page.png)
 
 - Add the `Token name` that matches the previous token that had expired, in this case it is `GitLab Security Service - Architecture - Inventory`.
 - Add a `Description` of what the token is used for. 
