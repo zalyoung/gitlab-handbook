@@ -327,9 +327,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
     - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
     - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
 - When the Asana project is created, the project will also be automatically added to the [FY26 Asana Marketing Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
-- FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
-- FMC to fill in Event Details from the GitLab issue to the project Overview
-- FMC to add the GitLab issue link to the Asana project in the Overview
+- FMC to fill in any Event Details that did not sync from the GitLab issue
 - FMC reviews the list of tasks and adjusts any past due tasks accordingly. If new dates are not available yet, please remove both the due date and task owner until they are available to add back in. If this step is not taken, other team members will receive notifications about tasks being past due, which will lead to confusion. Please keep your projects as updated and current as possible!
 - FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to work through their tasks in Asana
 
