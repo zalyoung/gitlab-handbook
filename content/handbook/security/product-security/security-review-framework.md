@@ -12,9 +12,9 @@ security resources where they can have the most impact. The process begins with 
 Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teams engaged when required. 
 for High or Critical risk scores.
 
-The Security review framework is designed to work in tandem with the Product Development Flow (../../product-development/how-we-work/product-development-flow). The ideal trigger point for security review of a feature is during the Design phase ( [Validation phase 3: Design](../../product-development/how-we-work/product-development-flow/#validation-phase-3-design) indicated in issue by `workflow::design` label). The [key-participants](https://handbook.gitlab.com/handbook/product-development/how-we-work/product-development-flow/#key-participants) involved in Design phase are encouraged to engage with the Security review framework to determine whether the feature requires a security review. 
+The Security review framework is designed to work in tandem with the Product Development Flow (../../product-development/how-we-work/product-development-flow). The ideal trigger point for security review of a feature is during the Design phase ( [Validation phase 3: Design](../../product-development/how-we-work/product-development-flow/#validation-phase-3-design) indicated in issue by `workflow::design` label). The [key-participants](../../product-development/how-we-work/product-development-flow/#key-participants) involved in Design phase are encouraged to engage with the Security review framework to determine whether the feature requires a security review. 
 
-### Example use-cases:
+### Example use-cases
 
 1. As a Product Designer, you want to make sure the design of the new feature has taken into consideration all the security best practices.
 2. As a Developer creating a potential design for implementing the new feature, you like to confirm whether it will lead to loss of confidentiality and integrity of the customer data or have a negative impact on the availability of GitLab instance.
