@@ -20,7 +20,7 @@ This runbook is an approach to rotating a Service Accounts Personal Access Token
 - If not already completed, create an issue like [GitLab Security Service - Architecture - Inventory's PAT expired](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/262).
 - Check and see if you have access to the Service Accounts login credentials in 1Password like below:
 
-![Service Account in 1PAssword](/images/security/product-security/security-platforms-and-architecture/service-account-1password.png)
+![Service Account in 1Password](/images/security/product-security/security-platforms-and-architecture/service-account-1password.png)
 
 - If you do not have access, submit an Access Request (AR) like this [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/36630).
 
