@@ -1,7 +1,4 @@
 ---
-# This is the title of your design document. Keep it short, simple, and descriptive. A
-# good title can help communicate what the design document is and should be considered
-# as part of any review.
 title: Self-Managed Basic and Advanced
 status: proposed
 creation-date: "2025-06-24"
@@ -15,46 +12,6 @@ toc_hide: true
 ---
 
 <!--
-Before you start:
-
-- Copy this file to a sub-directory and call it `_index.md` for it to appear in
-  the design documents list.
-- Remove comment blocks for sections you've filled in.
-  When your document ready for review, all of these comment blocks should be
-  removed.
-
-To get started with a document you can use this template to inform you about
-what you may want to document in it at the beginning. This content will change
-/ evolve as you move forward with the proposal.  You are not constrained by the
-content in this template. If you have a good idea about what should be in your
-document, you can ignore the template, but if you don't know yet what should
-be in it, this template might be handy.
-
-- **Fill out this file as best you can.** At minimum, you should fill in the
-  "Summary", and "Motivation" sections.  These can be brief and may be a copy
-  of issue or epic descriptions if the initiative is already on Product's
-  roadmap.
-- **Create a MR for this document.** Assign it to an Architecture Evolution
-  Coach (i.e. a Principal+ engineer).
-- **Merge early and iterate.** Avoid getting hung up on specific details and
-  instead aim to get the goals of the document clarified and merged quickly.
-  The best way to do this is to just start with the high-level sections and fill
-  out details incrementally in subsequent MRs.
-
-Just because a document is merged does not mean it is complete or approved.
-Any document is a working document and subject to change at any time.
-
-When editing documents, aim for tightly-scoped, single-topic MRs to keep
-discussions focused. If you disagree with what is already in a document, open a
-new MR with suggested changes.
-
-If there are new details that belong in the document, edit the document. Once
-a feature has become "implemented", major changes should get new blueprints.
-
-The canonical place for the latest set of instructions (and the likely source
-of this file) is
-[content/handbook/engineering/architecture/design-documents/_template.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md).
-
 Document statuses you can use:
 
 - "proposed"
@@ -72,17 +29,6 @@ Document statuses you can use:
 {{< engineering/design-document-header >}}
 
 ## Summary
-
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire documents like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
 
 This proposal recommends segmenting our current Self-Managed deployment option into two distinct tiers: Self-Managed Basic (`SMB`) and Self-Managed Advanced (`SMA`),
 and modifying the requirement for a GA features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Advanced.
@@ -104,22 +50,6 @@ _"Great Momentum requires Gradual Change"_
 
 ## Motivation
 
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
-
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
-
 The current Self-Managed option attempts to serve all infrastructure designs under a single feature launch umbrella.
 This creates significant engineering complexity as we try to deliver advanced features (for example: Security features as part of Ultimate) across vastly different infrastructure environments.
 As a specific example, we have several features in the pipeline that will require ClickHouse being available, which is not available in Omnibus, and would be a complex component to implement via Omnibus.
@@ -134,14 +64,6 @@ We can already demonstrate that cloud-native deployments enable customers to sca
 To service customers of higher complexity and larger scale, we should look to focusing our release to SMA as cloud-native first.
 
 ### Goals
-
-<!--
-List the specific goals / opportunities of the document.
-
-- What is it trying to achieve?
-- How will we know that this has succeeded?
-- What are other less tangible opportunities here?
--->
 
 Provide a means to accelerate delivery of components and features, especially to cloud native capable Self-Managed users.
 Do this, while not forcing excessive change or pressure upon our existing customer install base which demonstrably favors
@@ -164,13 +86,6 @@ We aim to explicitly avoid:
 
 ### Non-Goals
 
-<!--
-Listing non-goals helps to focus discussion and make progress. This section is
-optional.
-
-- What is out of scope for this document?
--->
-
 #### Orthogonal Topics
 
 There are several topics that are related to, or intersect with those of this proposal.
@@ -182,17 +97,6 @@ We intend to keep those separate, as they are important but not directly impacte
 - Discussions about new Premium/Ultimate components as separate paid SKUs are out of scope for this proposal.
 
 ## Proposal
-
-<!--
-This is where we get down to the specifics of what the proposal actually is,
-but keep it simple!  This should have enough detail that reviewers can
-understand exactly what you're proposing, but should not include things like
-API designs or implementation. The "Design Details" section below is for the
-real nitty-gritty.
-
-You might want to consider including the pros and cons of the proposed solution so that they can be
-compared with the pros and cons of alternatives.
--->
 
 The implementation of this segmentation has practical implications. We do not aim to enfoce
 cloud native deployments in order for SMA to have value. In order to address this concern,
@@ -207,54 +111,31 @@ Segment the Self-Managed option into two distinct tiers:
 |    | Self-Managed Basic (SMB) | Self-Managed Advanced (SMA) |
 | :- | :---------------------- | :-------------------------- |
 | Technology Base | Operating system packages | Containerized cloud native deployment architecture. |
-| Target Customer | CE/EE Free; Premium and Ultimate with limited feature set | Free with technical skills for cloud native; Premium and Ultimate. |
+| Target Customer | CE/EE Free; Foundational feature set | Free with technical skills for cloud native; Premium and Ultimate. |
 | Target Environment | Traditional infrastructure (bare metal, VMs) | Containerized infrastructure with Kubernetes, IaaS cloud (such as GCP, AWS) or on-prem. Driven by Helm and possibly Operator in future. |
-| Value Proposition | Core product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling. |
-| Feature Guarantee | New Ultimate features are not guaranteed. Required components may be unavailable in Omnibus. | All new Ultimate functionality guaranteed. |
+| Value Proposition | Foundational product capabilities with essential features, existing Ultimate features available. | Full access to all product capabilities, current and future, as well as significantly better scaling. |
+| Feature Guarantee | New Ultimate features are not guaranteed. Components required for new features may be unavailable in Omnibus. | All new Ultimate functionality guaranteed. |
 
 It should be noted that no part of this proposal prevents features being added within existing components from being delivered to either tier.
 If a new feature requires no changes or additions to components, such as some combination of Rails, frontend, and Sidekiq jobs, there will be no blocking these rollouts.
 If a new component is required to be deployed in GitLab Core, then it will still be required to be included in Omnibus packaging, GET and Cloud Native GitLab.
 
-Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed:
+Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed.
+Until that is possible, a similar flow will be described around the choices of "Premium only?" and "Stateless?", as applicable to SMB/SMA.
 
 ![deployment options workflow](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/lucid_deployment_options.svg)
 
 ## Design and implementation details
 
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
-
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-valuable context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
-
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
-
 ### Omnibus-Adjacent Kubernetes (OAK)
 
 We explored several paths after the discussions of the FY26 CTO Summit, within [Navigating a route towards cloud native](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/) (future, `NRTCN`).
-That exploration facilitated our proposal here, to present a distinct plan to expect a Kubernetes cluster adjacent to the existing Omnibus functionality. We believe that this pattern can form the basis of
+[That exploration](https://docs.google.com/document/d/1a_3GAdXnCB0l8f6OR-bSft6BPZ5pWuCyw76ShsKpgfM/edit?tab=t.0) facilitated our proposal here,
+to present a distinct plan to expect a Kubernetes cluster adjacent to the existing Omnibus functionality. We believe that this pattern can form the basis of
 the Self-Managed Advanced for customers not yet operating their instances with cloud native patterns.
 
 Essentially, existing functionality and core features will be easily available to these customers in their current infrastructure design.
-As they seek to consume new Ultimate features, they will implement and familiarize themselves with cloud native infrastructure as they bring Kubernetes into play for the auxiliary services of GitLab.
+As they seek to consume new Premium and Ultimate features, they will implement and familiarize themselves with cloud native infrastructure as they bring Kubernetes into play for the auxiliary services of GitLab.
 Over time, they will see the benefits to cloud native infrastructure and begin to transition away from the Omnibus entirely.
 
 For those customers who are already operating with cloud native patterns, but are not operating their GitLab instance(s) within them, this will encourage them to transition their GitLab instances to cloud native.
@@ -263,7 +144,7 @@ OAK can be effectively visualized as below:
 
 ![OAK scoped SMA](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/oak_diagram_scope.png)
 
-Omnibus's existing scope grows in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
+Omnibus's existing scope should grow in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
 
 In the future, we can investigating moving High Availability, Geo, and Zero Downtime deployments from Omnibus to cloud-native methods, with the intent
 to simplify the Omnibus' feature set to the SMB ideal of smaller, less complex instances.
@@ -344,13 +225,6 @@ new features and components meet this need as a part of their readiness work.
 The expansion will be necessary to develop in parallel to the engineering work, but _must_ be executed on for product success.
 
 ## Alternative Solutions
-
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
-
-"Do nothing" and its pros and cons could be included in the list too.
--->
 
 ### Strangler Fig
 
