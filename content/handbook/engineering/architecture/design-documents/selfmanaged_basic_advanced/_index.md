@@ -216,7 +216,7 @@ It should be noted that no part of this proposal prevents features being added w
 
 Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed:
 
-![deployment options workflow](./lucid_deployment_options.svg){width=50%}
+![deployment options workflow](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/lucid_deployment_options.svg){width=50%}
 
 ## Design and implementation details
 
@@ -259,7 +259,7 @@ For those customers who are already operating with cloud native patterns, but ar
 
 OAK can be effectivel visualized as below:
 
-![OAK scoped SMA](oak_diagram_scope.png)
+![OAK scoped SMA](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/oak_diagram_scope.png)
 
 Omnibus's existing scope grows in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
 
