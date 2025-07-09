@@ -10,9 +10,7 @@ We have features and requests that are being addressed and considered as part of
 | Feature                                                                | Status          | Notes    |                                                                                   
 |:---------------------------------------------------------------------- |:----------------|:-------------------------------------------------------------------------------------------------|
 |Local Repository using Markdown. Sync Repository                        | Investigating   | discussions in place                                                                             |
-|What are we working on for SWIR. Provide more updates weekly            | In Process      | To bring more awareness, will outline process and add to handbook                                |
 |Add Internal comments to articles. Currently dont have a way to add.    | Investigating   | [Issue 6883](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6883)              |
-|Markdown not working on copy/paste                                      | Investigating   | Investigating how to fix                                                                         |
 |Update Search Fitlers /streamline. Default to Knowledge articles.       | Investigating   | Add versions (can we use impacted versions?)                                                     |
 |Add Published articles to Slack. Provides notification of published     | Change Requested| [6925](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6925)                    |
 |US Governmanet knowledge articles. Provide process for how to add       | In Process      | [6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)                    |
@@ -39,6 +37,8 @@ Note: For a more Detailed outline of these features read more about them [Featur
 |Knowledge Section of Handbook Updated with all information.             | Completed May 2025         |
 |Training (all knowledge aspects) created and shared                     | Completed May 2025         |
 |SuperForm and sync repositories deprecated                              | Removed May 2025           |
+|Markdown not working on copy/paste                                      | Completed June 2025        |
+|What are we working on for SWIR. Provide more updates weekly            | Completed June 2025        |
 
 Interested in the Knowledge Management Roadmap?
 

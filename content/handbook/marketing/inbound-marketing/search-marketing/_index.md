@@ -27,7 +27,6 @@ The Search Marketing team focuses on helping grow revenue for GitLab by increasi
   * site health for about.gitlab.com
   * keyword research
   * search architecture
-* [Marketing website analytics](/handbook/marketing/inbound-marketing/search-marketing/analytics/)
 * [Testing changes to improve conversion](/handbook/marketing/inbound-marketing/search-marketing/testing/)
   * on page CTAs (call to action)
   * A/B testing
