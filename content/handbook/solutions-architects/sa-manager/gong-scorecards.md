@@ -1,10 +1,7 @@
-
 ---
 title: Gong Scorecard Handbook for Solutions Architect Managers
-description: "This page provides comprehensive guidance for Solutions Architect (SA) managers on effectively using Gong Scorecards to review, evaluate, and coach their team members."
+description: "This page provides comprehensive guidance for Solutions Architect (SA) managers on using Gong Scorecards."
 ---
-
-# Gong Scorecard Handbook for Solutions Architect Managers
 
 ## Introduction
 
