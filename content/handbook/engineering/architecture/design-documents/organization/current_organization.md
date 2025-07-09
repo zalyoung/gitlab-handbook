@@ -13,21 +13,27 @@ Including rails controllers, Grape API, GraphQL, ActionCable.
 
 For web requests the current organization will be determined in the following order of precedence with details listed in sub-sections below:
 
-1. Path params. E.g. /groups/abc-group, /-/organizations/my-organization
+1. Session variable
 1. Header field
-1. Session variable storing current organization id.
-1. The default organization (ID = 1).
+1. User's organization
+1. The default organization (ID = 1)
 
-### Path Params
+### Switching organizations
 
-The current Organization will be the parent Organization for the resource requested.
+The current organization will only be set:
 
-For example:
+- On sign-in when an existing session variable or header is not present
+- When the user changes the organization using the organization switcher dropdown
 
-- `/groups/abc-group`: The organization will be `organizationA` since
-  `abc-group` belongs to `organizationA`
-- `/-/organizations/my-organization`: The organization will be
-  `my-organization`.
+If a user visits a link for a resource in another organization, the current organization context will not automatically switch
+and the user will receive a 404. In the future we may implement the ability to switch organizations from the 404 page.
+
+### Session Variable
+
+- User's last accessed organization stored in session
+- Also used for generic pages without explicit resource context
+- Reduces the chance for user confusion and creating content in the wrong organization
+- Provides consistent context across browser tabs
 
 ### Header Field
 
@@ -35,15 +41,11 @@ For example:
 - Frontend JavaScript automatically includes the context in AJAX/API calls
 - Maintains consistent context during interactive sessions
 
-### Session Variable
+### User's Organization
 
-- User's last accessed organization stored in session
-- Used for generic pages without explicit resource context
-- Defaults to User's home organization when no context is available
-
-The session variable will assist to disambiguate on pages such as `/explore` and will reduce the roadmap to dogfooding.
-We don't consider session variable usage a long term solution because it will break browser tab usage, and HTTP GET requests won't be idempotent breaking bookmarks and sharing of links.
-Features that depend on the session variable will be considered incomplete until they are scoped appropriately.
+- Falls back to the user's default or home organization
+- Used when no session context or header field is available
+- Provides personalized context based on user's organizational membership
 
 ### The Default Organization
 
