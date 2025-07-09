@@ -35,7 +35,7 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - The feature would be implemented locally in an on-premise installation
 
 **Key characteristics:**
-- **Organization Admin control** - Organization Admins configure the feature for all projects within their Organization
+- **Organization Owner control** - Organization Owners configure the feature for all projects within their Organization
 - **Consistent enforcement** - Settings apply uniformly across all projects in the Organization
 - **Complete isolation** - Each Organization's configuration is independent and invisible to other Organizations
 - **Business unit alignment** - Reflects that Organizations represent separate business units
@@ -48,7 +48,7 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 
 **Example: Organization-wide Integrations**
 - **Previous state**: Instance admins configured integrations (Slack, Email notifications, Redmine, Jira, etc.) for all projects on the instance
-- **New state**: Organization Admins configure these integrations for all projects in their Organization
+- **New state**: Organization Owners configure these integrations for all projects in their Organization
 - **Why this makes sense**: Each Organization typically uses different external tools (different Slack workspaces, email domains, ticketing systems)
 - **Implementation**: Each Organization has its own integration configuration with complete isolation
 - **Migration path**: Convert instance-wide settings to Organization-wide defaults
@@ -107,6 +107,15 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - **Technology flexibility**: Dedicated service can use any suitable technology stack based on requirements
 - **Performance evolution**: Can evolve from proxy endpoints to fully dedicated services for better performance
 
+**Example: Hosted Runners (Federated Service)**
+- **Global queue service**: Dedicated service manages CI job queues outside of GitLab.com infrastructure
+- **Instance independence**: Any GitLab instance (Dedicated, on-premise, or Cell) can submit jobs to the global queue
+- **Shared infrastructure**: Hosted runners are managed by the dedicated service, not individual GitLab instances
+- **Availability protection**: Isolates runner infrastructure from GitLab.com to prevent resource contention
+- **Federated access**: On-premise installations can access the same hosted runner infrastructure as GitLab.com
+- **Technology flexibility**: Dedicated service can use appropriate queuing, orchestration, and runner management technologies
+- **Scalability**: Global queue allows for efficient resource allocation across all GitLab instances
+
 ### Pattern 3: Cluster-Wide Settings
 *Example: Blocked Registration Domains, Infrastructure Limits*
 
@@ -117,8 +126,8 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - Default behavior needs to be consistent, but Organizations may need customization options
 
 **Key characteristics:**
-- **Platform-level defaults** - Managed by GitLab.com platform administrators with global defaults
-- **Optional Organization overrides** - Some settings can be overridden by Organization Admins when appropriate
+- **Platform-level defaults** - Managed by instance administrators with global defaults for their GitLab instance
+- **Optional Organization overrides** - Some settings can be overridden by Organization Owners when appropriate
 - **Infrastructure/operational focus** - Typically related to infrastructure, operational limits, or platform-wide defaults
 - **Global consistency with flexibility** - Ensures consistent platform behavior while allowing Organization customization where needed
 
@@ -144,15 +153,15 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - **Purpose**: List of email domains that are blocked from registering new accounts
 - **Scope**: Must be consistent across all Organizations for security and compliance
 - **Control**: Cannot be overridden by individual Organizations
-- **Management**: Managed by GitLab.com platform administrators
-- **On-premise**: On-premise installations would have their own cluster-wide blocked domains list
-- **Why non-overridable**: Security and compliance requirements apply to the entire platform
+- **Management**: Managed by instance administrators
+- **On-premise**: On-premise installations would have their own cluster-wide blocked domains list managed by their instance administrators
+- **Why non-overridable**: Security and compliance requirements apply to the entire instance
 
 **Example: Default CI/CD Job Timeout (Overridable)**
-- **Purpose**: Default timeout for CI/CD jobs across the platform
-- **Scope**: Platform-wide default with Organization-level customization
+- **Purpose**: Default timeout for CI/CD jobs across the instance
+- **Scope**: Instance-wide default with Organization-level customization
 - **Control**: Organizations can override the default timeout within reasonable limits
-- **Management**: Platform administrators set the global default, Organization Admins can customize
+- **Management**: Instance administrators set the global default, Organization Owners can customize
 - **On-premise**: On-premise installations would have their own defaults with Organization overrides
 - **Why overridable**: Different Organizations have different operational needs while maintaining infrastructure protection
 
@@ -193,7 +202,7 @@ Evaluate these characteristics:
 ### Technical Considerations
 
 **For Organization-scoped features:**
-- Design clear Organization Admin permissions and interfaces
+- Design clear Organization Owner permissions and interfaces
 - Implement complete data isolation between Organizations
 - Plan migration paths from instance-wide configurations
 - Consider default configurations for new Organizations
@@ -220,7 +229,7 @@ Evaluate these characteristics:
 **Clear boundaries:**
 - Make it obvious when users are accessing Organization-scoped vs. public resources
 - Provide clear feedback about feature scope and limitations
-- Distinguish between Organization Admin and Platform Admin capabilities
+- Distinguish between Organization Owner and Instance Administrator capabilities
 
 **Performance expectations:**
 - Set appropriate expectations for federated access to public resources
@@ -291,7 +300,7 @@ Evaluate these characteristics:
 ## Examples in Practice
 
 ### ✅ Good: Organization-wide Integrations
-- Organization Admin configures integrations (Slack, Email notifications, Redmine, Jira) for all projects in their Organization
+- Organization Owner configures integrations (Slack, Email notifications, Redmine, Jira) for all projects in their Organization
 - Each Organization has independent integration configuration with their own external services
 - No cross-Organization visibility or sharing of integration settings
 - Clear migration path from instance-wide configuration
@@ -313,20 +322,28 @@ Evaluate these characteristics:
 - Public components are accessible across all Organizations and on-premise installations
 - Can evolve from proxy endpoints to fully dedicated services using appropriate technology stack
 
+### ✅ Good: Hosted Runners (Federated Service)
+- Global queue service manages CI job queues outside of GitLab.com infrastructure
+- Any GitLab instance (Dedicated, on-premise, or Cell) can submit jobs to the global queue
+- Shared runner infrastructure managed by dedicated service, not individual GitLab instances
+- Isolates runner infrastructure from GitLab.com to prevent resource contention
+- On-premise installations can access the same hosted runner infrastructure as GitLab.com
+- Efficient resource allocation across all GitLab instances through global queue management
+
 ### ✅ Good: Cluster-Wide Blocked Domains (Non-overridable)
-- List of email domains blocked from registration managed at the platform level
+- List of email domains blocked from registration managed at the instance level
 - Consistent across all Organizations for security and compliance reasons
 - Cannot be overridden by individual Organizations
-- On-premise installations have their own cluster-wide blocked domains
-- Managed by GitLab.com platform administrators, not Organization Admins
+- Each GitLab instance (on-premise, Dedicated, GitLab.com) has their own cluster-wide blocked domains
+- Managed by instance administrators, not Organization Owners
 - Genuine security/compliance justification for non-overridable cluster-wide scope
 
 ### ✅ Good: Default CI/CD Job Timeout (Overridable)
-- Platform-wide default timeout for CI/CD jobs
+- Instance-wide default timeout for CI/CD jobs
 - Organizations can override the default within reasonable limits
 - Provides consistent infrastructure protection while allowing customization
-- Platform administrators set global defaults, Organization Admins can customize
-- On-premise installations have their own defaults with Organization override capability
+- Instance administrators set global defaults, Organization Owners can customize
+- Each GitLab instance has their own defaults with Organization override capability
 - Balances operational needs with infrastructure protection
 
 ### ❌ Avoid: Any Cross-Organization Features
@@ -357,7 +374,7 @@ Before implementing any feature, verify:
 | Feature Characteristic | Pattern | Example |
 |------------------------|---------|---------|
 | Organization-internal configuration | Organization-scoped | Integrations, System Hooks |
-| Access to public resources | Federated Public Resources | CI Catalog (public components) |
+| Access to public resources | Federated Public Resources | CI Catalog (public components), Hosted Runners |
 | Platform-wide security/compliance | Cluster-wide Settings (non-overridable) | Blocked registration domains |
 | Platform-wide operational/infrastructure | Cluster-wide Settings (overridable) | Default CI/CD timeouts, storage limits |
 | Cross-Organization sharing | **Not Supported** | None - reconsider requirement |
