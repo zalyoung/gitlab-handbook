@@ -17,8 +17,6 @@ We have features and requests that are being addressed and considered as part of
 |Article suggestions in articles (aligned with comments. Need process)   | Investigating   | [Issue 6886](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6886)              |
 |Article Review process for relevancy. Ensures articles are up to date.  | Investigating   | [6888](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6888)                    |
 |Content Standards. Formatting, Links work, spelling, etc.               | Investigating   | [Issue 6887](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6887)              |
-|Suggest articles BEFORE a customer submits a ticket based on keywords   | Investigating   | issue to be created.                                                                             |
-|Add Technical Reviwers to the Skills Page                               | In Progress     | [275](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/275)|
 |Add Knowledge Base training to the Support Training                     | Investigating   | TBD                                                                                              |
 |Draft article created automatically by a button/api -no touch by SE.    | Invesitgating   | [6926](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6926)                    |
 |Additional layout changes for second layer of knowledge articles.       | In Progresss    | [6936](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6936)                    |
@@ -38,7 +36,8 @@ Note: For a more Detailed outline of these features read more about them [Featur
 |SuperForm and sync repositories deprecated                              | Removed May 2025           |
 |Markdown not working on copy/paste                                      | Completed June 2025        |
 |What are we working on for SWIR. Provide more updates weekly            | Completed June 2025        |
-|KCS Dashboard Metrics                                                   | Completed ZenDesk Guide    |  
+|KCS Dashboard Metrics (ZenDesk Guide)                                   | Completed June 2025        |  
+|Add Technical Reviwers to the Skills by Subject Page                    | Completed June 2025        |
 
 Interested in the Knowledge Management Roadmap?
 
