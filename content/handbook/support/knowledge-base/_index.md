@@ -94,7 +94,7 @@ If you are NOT a ZenDesk User, and want to create a knowledge article, you can d
 
 ### How to create a knowledge article if you are not in ZenDesk 
 
-Anyone can create a knowledge article regardless of being in ZenDesk or not (or if you are a Light Agent). To create an article you will:
+Anyone can create a knowledge article- even if you are not in ZenDesk! 
 
 1. Go to the [Folder and choose a template](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR)
 2. Create the article using the template and Save the document.
@@ -189,9 +189,9 @@ The review process will ensure the content is technically accurate and clear.
 There will be Support Engineers and Support Managers trained as technical reviewers for knowledge articles across the globe.
 
 [Available Technical Reviewers (by Geo)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
+Technical Reviewers can now also be found under Column 4 (Looking to Help others) on the [Skills by Subect Page](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
 
 Technical Reviewers should be Subject Matter Experts (SMEs) in certain areas (Such as Runner, Authentication, Migrations, etc.). The Technical Reviewers are tasked with **reviewing knowledge articles** based on their knowledge of features.
-Technical Reviewers perform the following actions.
 
 #### Responsibilities
 

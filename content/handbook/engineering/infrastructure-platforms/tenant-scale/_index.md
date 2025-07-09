@@ -24,7 +24,7 @@ It is accomplishing this by introducing Cells at the infrastructure layer and Or
 
 ### Cells Infrastructure
 
-{{< team-by-manager-slug manager="nick-nguyen" team="Cells Infrastructure" >}}
+{{< team-by-manager-slug manager="dlogalbo" team="Cells Infrastructure" >}}
 
 ## Resources
 

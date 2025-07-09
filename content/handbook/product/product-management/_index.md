@@ -302,7 +302,7 @@ To request approval for an increase in the expected spend for a pre-existing ite
 
 ### Working with Content Marketing
 
-Content marketers and Product Managers can partner together when using a Blog to communicate product changes and engaging the market with thoughtful changes. See the [blog post handbook page](/handbook/marketing/brand-and-product-marketing/content/content-marketing/#blog-post) for guidelines on when and how to start engaging Content Marketing for creating a blog post for a feature.
+Content marketers and Product Managers can partner together when using a Blog to communicate product changes and engaging the market with thoughtful changes. See the [blog post handbook page](/handbook/marketing/blog/) for guidelines on when and how to start engaging Content Marketing for creating a blog post for a feature.
 
 ### Working with Product Marketing (PMM)
 

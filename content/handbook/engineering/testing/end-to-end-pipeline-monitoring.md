@@ -71,7 +71,7 @@ These reports are also included in the pipeline status alerts on Slack.
 
 ### Test session issue
 
-For each end-to-end pipeline that runs in the various environments we automatically test, we create a [test session issue](https://gitlab.com/gitlab-org/quality/testcase-sessions/-/issues) that contains the test session information. Test session issues group test results by DevOps stages, and link to [test cases](https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases), and [test failure issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=QA).
+For each end-to-end pipeline that runs in the various environments we automatically test, we create a [test session issue](https://gitlab.com/gitlab-org/quality/testcase-sessions/-/issues) that contains the test session information. Test session issues group test results by DevOps stages, and link to [test cases](https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases), and [test failure issues](https://gitlab.com/gitlab-org/quality/e2e-test-issues/-/issues).
 
 Example of a test session issue: <https://gitlab.com/gitlab-org/quality/testcase-sessions/-/issues/72516>
 

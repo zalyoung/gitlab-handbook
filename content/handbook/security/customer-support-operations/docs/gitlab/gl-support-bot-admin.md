@@ -24,4 +24,4 @@ To request the token, file an [acccess request](https://gitlab.com/gitlab-com/te
 
 For the issue, the `Service Name` is `gl-support-bot-admin`
 
-Please assign the issue to Jason Colyer and Lyle Kozloff at this time.
+Please assign the issue to Jason Colyer and Dylan Tragjasi at this time.

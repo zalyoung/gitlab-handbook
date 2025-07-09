@@ -113,9 +113,9 @@ Let’s introduce a new job that adds a release based on the current project cod
 
 1. Select **Commit changes**.
 
-This rule applies to the whole pipeline. If a `CI_COMMIT_TAG` is present, the if statement evaluates to true, resulting in the pipeline never running. If the `CI_COMMIT_TAG` is not present, then the pipeline will run.
+      This rule applies to the whole pipeline. If a `CI_COMMIT_TAG` is present, the if statement evaluates to true, resulting in the pipeline never running. If the `CI_COMMIT_TAG` is not present, then the pipeline will run.
 
-> You can also search for specific `CI_COMMIT_TAG` values if you want to only stop the run for releases. In this case, a tag in the form `v0.*` is a part of our release, so we can search for this specific pattern instead.
+      > You can also search for specific `CI_COMMIT_TAG` values if you want to only stop the run for releases. In this case, a tag in the form `v0.*` is a part of our release, so we can search for this specific pattern instead.
 
 ## Task B. Merge Request Pipelines
 
@@ -187,7 +187,7 @@ To define a job that runs in a merge request, we will add a rules definition to 
 
 1. When you commit this to main, select **Build > Pipelines** to view your running jobs. You will notice that only the release job runs, because the commit was run on `main`.
 
-Let's get the other jobs to run by creating a merge request.
+      Let's get the other jobs to run by creating a merge request.
 
 1. Navigate to **Code > Branches**.
 
@@ -205,7 +205,7 @@ Let's get the other jobs to run by creating a merge request.
 
 1. Leave all options as default and select **Create merge request**.
 
-To trigger the merge request pipeline, you need to make some change to the code.
+      To trigger the merge request pipeline, you need to make some change to the code.
 
 1. Select **Code > Open in Web IDE**.
 

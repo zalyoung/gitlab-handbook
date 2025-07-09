@@ -1138,14 +1138,13 @@ Above are some examples of how information can be stored to a pre-made project. 
 
 #### 6Sense 6QA Automations
 
-We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC.
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. A detailed breakdown of [these workflows is described here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/#workflow-breakdown).
 
 Specifically:
 
 - Accounts flagged as 6QA from 6Sense, whether they already exist on our system or not, will automatically be marked with the fields:
   - `BDR Prospecting Status: Actively Working`
   - `BDR Account Strategy: Showing Intent`
-
 - These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
 - While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
   - For FY26Q1 we are adding a **Dispute Reason for Low LAM Dev Count** which team members can use when they opt to not pursue a 6QA account because of a small account value potential.
@@ -1153,6 +1152,8 @@ Specifically:
 - Accepting or Disputing accounts can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
 - Any accounts that marked as `Accepted` by the BDR team will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/678e891afc1f1f390f3b654f/completed) to automatically bring relevant decision-makers for these accounts to the [B6 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
+
+**Important Note:** When 6QA accounts are non-FO available and non-Compensation Target Account (non-Pursuit Account), BDR Prospecting Status will update to SDR Hold for 14 days. If an open opportunity is not created within the 14 days, the account will be updated to Actively Working and Showing Intent and the ownership will be updated to BDR.
 
 ### Qualified
 
@@ -1558,7 +1559,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
 1. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
 
-    **No:** Please proceed to the next step.
+    **No:** Please proceed to the next step. <br>
     **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br>
 
 2. Is the MQL from an Existing Account?
@@ -1568,13 +1569,13 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
 3. Is the Account a customer?
 
-    **No:** Move on to the next step
+    **No:** Move on to the next step <br>
     **Yes:** Check for Opportunities
 
 4. Is there an existing renewal opportunity?
 
-    **No:** Move on to the next step
-    **Yes:** Align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person.
+    **No:** Move on to the next step <br>
+    **Yes:** Align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person. SDRs/BDRs should not be credited on renewal opportunities as they focus on net-new business. If you believe there's an exceptional case where SDR/BDR credit is warranted for a renewal, contact Sales Operations to discuss creating a separate opportunity or using the exceptions process.
 
 5. Is the Account in "Actively Working" Status
 
@@ -1585,7 +1586,9 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
     **Yes:** It is worked by the BDR Assigned. <br>
     **No:** Check to see if there are leads related to the account that have activity using [this report](https://gitlab.my.salesforce.com/00O8X000008RfvU)
+
     When you modify this report based on company name and email domain, do you see any activity in the last 30 days? <br>
+
     **Yes:** It is worked by the BDR Assigned <br>
     **No:** It is worked by the SDR Team.
 

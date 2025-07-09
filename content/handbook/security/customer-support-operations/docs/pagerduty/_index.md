@@ -53,7 +53,7 @@ We currently utilize the following escalation policies:
     - Jason Colyer
     - escalates after 10 minutes
   - Notify the following users or schedules
-    - Lyle Kozloff
+    - Dylan Tragjasi
     - escalates after 10 minutes
   - If no one acknowledges, repeat this policy 5 times
 

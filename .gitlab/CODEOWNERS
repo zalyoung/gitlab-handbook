@@ -335,7 +335,6 @@
 /content/handbook/marketing/growth/ @gdoud @bill_staples
 /content/handbook/marketing/inbound-marketing/ @bill_staples
 /content/handbook/marketing/inbound-marketing/search-marketing/ @ncregan @hsmith-watson @bill_staples
-/content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @bill_staples
 /content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @ncregan @hsmith-watson @bill_staples
 /content/handbook/marketing/inbound-marketing/search-marketing/testing.md @bill_staples
 /content/handbook/marketing/journeys.md @bill_staples
@@ -355,6 +354,8 @@
 /content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @bill_staples
 /content/handbook/marketing/strategy-performance/ @vhempel @bill_staples
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis
+/content/handbook/marketing/strategy-performance/google-analytics-4.md @dennischarukulvanich
+/content/handbook/marketing/strategy-performance/google-tag-manager.md @dennischarukulvanich
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
 /content/handbook/marketing/utm-strategy.md @ikryzeviciene @rkohnke @aoetama
 /content/job-families/marketing/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @bill_staples
@@ -366,7 +367,6 @@
 /content/handbook/marketing/brand-and-product-marketing/brand/ @rclayman @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/brand/brand-activation/ @luke @amittner
 /content/handbook/marketing/brand-and-product-marketing/content/ @bill_staples
-/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/design.md @amittner @luke @monica_galletto @vicbell @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @bill_staples
