@@ -213,6 +213,8 @@ Segment the Self-Managed option into two distinct tiers:
 | Feature Guarantee | New Ultimate features are not guaranteed. Required components may be unavailable in Omnibus. | All new Ultimate functionality guaranteed. |
 
 It should be noted that no part of this proposal prevents features being added within existing components from being delivered to either tier.
+If a new feature requires no changes or additions to components, such as some combination of Rails, frontend, and Sidekiq jobs, there will be no blocking these rollouts.
+If a new component is required to be deployed in GitLab Core, then it will still be required to be included in Omnibus packaging, GET and Cloud Native GitLab.
 
 Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed:
 
