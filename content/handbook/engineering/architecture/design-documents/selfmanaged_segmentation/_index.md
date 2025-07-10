@@ -124,7 +124,7 @@ If a new component is required to be deployed in GitLab Core, then it will still
 Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed.
 Until that is possible, a similar flow will be described around the choices of "Premium only?" and "Stateless?", as applicable to SMF/SMS.
 
-![deployment options workflow](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/lucid_deployment_options.svg)
+![deployment options workflow](/images/handbook/engineering/architecture/design-documents/selfmanaged_segmentation/lucid_deployment_options.svg)
 
 ## Design and implementation details
 
@@ -143,7 +143,7 @@ For those customers who are already operating with cloud native patterns, but ar
 
 OAK can be effectively visualized as below:
 
-![OAK scoped SMS](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/oak_diagram_scope.png)
+![OAK scoped SMS](/images/handbook/engineering/architecture/design-documents/selfmanaged_segmentation/oak_diagram_scope.png)
 
 Omnibus's existing scope should grow in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
 
@@ -154,6 +154,167 @@ aiming to drive the Reference Architectures to a simplified, cloud-native first 
 
 An important note: Features delivered to SMS will often require configuration of clients within Omnibus.
 Implementation of that configuration will still occur, as that facilitates the use of the feature, not the operation of the feature itself.
+
+#### Illustrated Stages of transition
+
+**Early**
+
+In the earliest stages and simplest forms of Scaled, all foundational services are operated within the Omnibus
+while all supplemental services are operated within the OAK.
+
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
+flowchart LR
+
+    subgraph OAK
+        direction LR
+
+        subgraph k8s[Kubernetes]
+            direction TB
+            byok["Bring your own K8s"]
+            ek8s["Embedded Kubernetes (future)"]
+
+            byok -- or --- ek8s
+        end
+
+        k8s --> ob[OpenBao]
+        k8s --> siphon
+        k8s --> ns["New, unnamed service"]
+
+        helm -.-> k8s
+        helm -.-> ob
+        helm -.-> siphon
+        helm -.-> ns
+    end
+
+    subgraph Omnibus
+        direction LR
+        obgl[Omnibus GitLab]
+
+        obgl -- "Existing Povisioning" --> runsvc
+
+        runsvc --> puma
+        runsvc --> sidekiq
+        runsvc --> registry
+        runsvc --> postgres
+        runsvc --> redis
+        runsvc --> gitaly
+
+
+        localstore@{ shape: lin-cyl, label: "local storage" }
+    end
+
+    obgl <-. discovery & sync .-> k8s
+```
+
+**Transitional**
+
+Transitional phase where most client-accessible services have been moved into the OAK.
+Disk based storage has been transitioned to object storage, as necessitated.
+
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
+flowchart LR
+
+    subgraph OAK
+        direction LR
+
+        subgraph k8s[Kubernetes]
+            direction TB
+            byok["Bring your own K8s"]
+            ek8s["Embedded Kubernetes (future)"]
+
+            byok -- or --- ek8s
+        end
+
+        k8s --> puma
+        k8s --> registry
+        k8s --> pages[GitLab Pages]
+        k8s --> ob[OpenBao]
+        k8s --> siphon
+        k8s --> ns["New, unnamed service"]
+
+        helm --> k8s
+    end
+
+    subgraph Omnibus
+        direction LR
+        obgl[Omnibus GitLab]
+
+        obgl -- "Existing Povisioning" --> runsvc
+
+        runsvc --> sidekiq
+        runsvc --> postgres
+        runsvc --> redis
+        runsvc --> gitaly
+
+        gitaly --> localstore@{ shape: lin-cyl, label: "local storage" }
+        postgres --> localstore
+        redis -->localstore
+    end
+
+    obgl <-. discovery & sync .-> k8s
+
+    puma --> objstore@{ shape: lin-cyl, label: "object storage" }
+    registry --> objstore
+    pages --> objstore
+    sidekiq --> objstore
+```
+
+**Stateless Scalability**
+
+The current and real-world example is the Cloud Native Hybrid Reference Architecture deployments today.
+All state is on the Omnibus or and external provider, and all stateless services are operated in Kubernetes.
+
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
+flowchart LR
+
+    subgraph OAK
+        direction LR
+
+        subgraph k8s[Kubernetes]
+            direction TB
+            byok["Bring your own K8s"]
+            ek8s["Embedded Kubernetes (future)"]
+
+            byok -- or --- ek8s
+        end
+
+        k8s --> puma
+        k8s --> registry
+        k8s --> sidekiq
+        k8s -.-> gitaly_cn["gitaly (cloud native)"]
+        k8s --> pages[GitLab Pages]
+        k8s --> ob[OpenBao]
+        k8s --> siphon
+        k8s --> ns["New, unnamed service"]
+
+        helm --> k8s
+    end
+
+    subgraph Omnibus
+        direction LR
+        obgl[Omnibus GitLab]
+
+        obgl -- "Existing Povisioning" --> runsvc
+
+        runsvc --> postgres
+        runsvc --> redis
+        runsvc -.-> gitaly
+
+        gitaly -.-> localstore@{ shape: lin-cyl, label: "local storage" }
+        postgres --> localstore
+        redis -->localstore
+    end
+
+    obgl <-. discovery & sync .-> k8s
+
+    puma --> objstore@{ shape: lin-cyl, label: "object storage" }
+    registry --> objstore
+    sidekiq --> objstore
+    pages --> objstore
+```
 
 ### Interconnection of mixed environments
 
