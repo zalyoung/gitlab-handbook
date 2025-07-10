@@ -6,13 +6,16 @@ security review along with the type of review that needs to be conducted."
 
 ## Security Review Framework
 
-This security review framework for Product Security teams at GitLab aims to establish a systematic approach to evaluating and reviewing features based on 
-appropriate security team engagement, risk assessment and [Go-to-market tier](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process#labels-guide). The framework aims to balance security requirements with development velocity by directing 
+This security review framework for Product teams at GitLab aims to establish a systematic approach to evaluating and reviewing features based on 
+appropriate security team engagement, risk assessment and [Go-to-market tier](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process#labels-guide). 
+The framework aims to balance security requirements with development velocity by directing 
 security resources where they can have the most impact. The process begins with team routing to identify whether Secure Design and Development and/or 
 Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teams engaged when required. 
 for High or Critical risk scores.
 
-The Security review framework is designed to work in tandem with the Product Development Flow (../../product-development/how-we-work/product-development-flow). The ideal trigger point for security review of a feature is during the Design phase ( [Validation phase 3: Design](../../product-development/how-we-work/product-development-flow/#validation-phase-3-design) indicated in issue by `workflow::design` label). The [key-participants](../../product-development/how-we-work/product-development-flow/#key-participants) involved in Design phase are encouraged to engage with the Security review framework to determine whether the feature requires a security review. 
+The security review framework is designed to work in tandem with the [Product Development Flow](../../product-development/how-we-work/product-development-flow). 
+The ideal trigger point for security review of a feature is during the Design phase ([Validation phase 3: Design](../../product-development/how-we-work/product-development-flow/#validation-phase-3-design) indicated in issue by `workflow::design` label). 
+The [key-participants](../../product-development/how-we-work/product-development-flow/#key-participants) involved in Design phase are encouraged to engage with the security review framework to determine whether the feature requires a security review. 
 
 ### Example use-cases
 
@@ -21,8 +24,8 @@ The Security review framework is designed to work in tandem with the Product Dev
 3. As an Engineering manager reviewing the new design of a feature, you suspect a design choice might result in a security issue and would like to verify it with the security team.
 4. As an Product Manager, working on the a [GTM Tier-0](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20) feature, you want to make sure the feature does not introduce any security risks to customers.   
 
-How the security review framework fits into the Security Review Process for Product Security is visualized in the following 
-[Overall Process flow](#overall-process-flow) chart.
+How the security review framework fits into a product teams' workflows is visualized in the following 
+section.
 
 ## Overall Process flow
 
