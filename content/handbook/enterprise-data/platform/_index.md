@@ -352,7 +352,7 @@ It makes the most sense when there are multiple people who have very similar job
 
 ##### Functional Role Assignment
 
-This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/snowflake-permissions/-/blob/main/roles.yml).
 
 | Functional Role | Description | SAFE Data Y/N |
 | --- | --- | --- |
