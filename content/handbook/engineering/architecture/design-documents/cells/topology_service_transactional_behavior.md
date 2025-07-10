@@ -862,6 +862,34 @@ The current integrated approach with `lease_id` and `lease_op` columns in the cl
 
 This comprehensive design provides a robust foundation for distributed coordination in GitLab's cellular architecture while maintaining operational simplicity and strong consistency guarantees.
 
+## Alternative Approach: In-Transaction Claims Processing
+
+An alternative implementation would be to run Execute()/INSERT lease_id before doing local DB Commit, but after BEGIN - so within a Rails transaction:
+
+```
+1. Local DB: BEGIN
+2. Local DB: INSERT/UPDATE/DESTROY (local operations)
+3. TS DB: Execute() => lease (~100ms)
+4. Local DB: INSERT lease
+5. Local DB: COMMIT
+6. TS DB: Commit(lease)
+```
+
+However, this approach is **problematic** because:
+
+- **Connection Pool Bottleneck**: We would have to be very strict on TS Execute to execute within 250ms, as otherwise it can create a bottleneck on a cell that might hold local connections
+- **Transaction Duration**: Extends every local database transaction by the network round-trip time
+- **Lock Contention**: Holds database locks and connections during network operations
+- **Scalability Risk**: Could exhaust connection pools and block other operations on the cell
+
+**Why the Primary Design is Better:**
+
+The recommended approach (Execute → Local DB → Commit) avoids these issues by:
+- Keeping local database transactions fast and focused
+- Failing fast on conflicts before acquiring local resources
+- Not holding database connections during network operations
+- Providing better scalability characteristics for high-concurrency scenarios
+
 ## Why 2PC (Two-Phase Commit) is Not Needed
 
 Traditional distributed systems often require 2PC to ensure atomicity across multiple databases. However, this design avoids 2PC complexity through several key architectural decisions:
