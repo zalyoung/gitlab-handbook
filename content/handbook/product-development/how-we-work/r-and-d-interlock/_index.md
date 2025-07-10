@@ -475,8 +475,8 @@ committed feature of priorities P1/E1 and P2/E2 should be raised to respective
 PLT and ELT members as well as CPO and CTO through a **Commitment Change Request**
 to get explicit approval and keep all stakeholders in the loop:
 
-1. Project DRIs a comment as a new thread on the relevant interlock epic, and a link to the comment in
-   [\#r-and-d-roadmap-changes](https://gitlab.enterprise.slack.com/archives/C08G1GJLKN0),
+1. Project DRIs add an internal note (comment) as a new thread on the relevant interlock epic, 
+   and a link to the comment in [\#r-and-d-roadmap-changes](https://gitlab.enterprise.slack.com/archives/C08G1GJLKN0),
    mentioning the respective stakeholders. The epic comment should follow a standardized
    format, so decision makers can quickly respond / act:
 
@@ -495,6 +495,7 @@ to get explicit approval and keep all stakeholders in the loop:
    /label ~"Interlock status::Change requested" ~"Interlock changed"
    ```
 
+   Note: If the change request is canceled, please revert/remove the labels added as part of the change request template.
 2. Free form discussion on the epic comment as a thread, optional meeting
 3. Approval to commit to change from CPO and CTO.
 
