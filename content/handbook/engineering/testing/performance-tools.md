@@ -1,5 +1,5 @@
 ---
-title: Performance Testing at GitLab
+title: Performance Testing Tools at GitLab
 ---
 
 ## Overview
@@ -18,9 +18,9 @@ flowchart LR
 
   START((Start))
 
-  ENV{Testing API/backend\nperformance?}
-  UI{Testing page load\nperformance?}
-  COMPONENT{Testing a specific\ncomponent in isolation?}
+  ENV{Testing API/backend performance?}
+  UI{Testing page load performance?}
+  COMPONENT{Testing a specific component in isolation?}
 
   START --> ENV
 
@@ -122,9 +122,9 @@ flowchart LR
   PROFILE[[Profiling tools]]
   OBSERVE_TEST[[Observability based Performance Testing]]
 
-  SPECS{Testing with\nnew unit tests?}
-  BUILT{Testing during\ndevelopment?}
-  OBSERVABILITY{Analyzing live\nperformance data?}
+  SPECS{Testing with new unit tests?}
+  BUILT{Testing during development?}
+  OBSERVABILITY{Analyzing live performance data?}
 
   START --> BUILT
   BUILT -- no --> OBSERVABILITY
