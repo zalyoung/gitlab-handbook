@@ -49,6 +49,23 @@ All leases have expiration times (default 5 minutes):
 
 ## Detailed Process Flow
 
+```protobuf
+// Service definition for Topology Service Claims API
+service ClaimsService {
+  // Execute creates/destroys with lease - atomic operation
+  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
+  
+  // Commit finalizes the operations and removes lease
+  rpc Commit(CommitRequest) returns (CommitResponse);
+  
+  // Rollback reverts the operations and removes lease
+  rpc Rollback(RollbackRequest) returns (RollbackResponse);
+  
+  // List outstanding leases for a client (for reconciliation)
+  rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
+}
+```
+
 ### Phase 1: Pre-Flight Claims Acquisition
 
 ```
