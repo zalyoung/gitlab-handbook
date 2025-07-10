@@ -163,6 +163,7 @@ In the earliest stages and simplest forms of Scaled, all foundational services a
 while all supplemental services are operated within the OAK.
 
 ```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart LR
 
     subgraph OAK
@@ -212,6 +213,7 @@ Transitional phase where most client-accessible services have been moved into th
 Disk based storage has been transitioned to object storage, as necessitated.
 
 ```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart LR
 
     subgraph OAK
@@ -265,6 +267,7 @@ The current and real-world example is the Cloud Native Hybrid Reference Architec
 All state is on the Omnibus or and external provider, and all stateless services are operated in Kubernetes.
 
 ```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart LR
 
     subgraph OAK
