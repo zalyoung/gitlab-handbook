@@ -1,5 +1,5 @@
 ---
-title: Performance Testing Tools at GitLab
+title: GitLab Performance Testing Tool Selection Guide
 ---
 
 ## Overview
