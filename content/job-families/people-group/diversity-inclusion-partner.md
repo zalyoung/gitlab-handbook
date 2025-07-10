@@ -106,14 +106,6 @@ The Diversity, Inclusion, and Belonging Partner is a [grade 7](/handbook/total-r
 - Ability to influence leadership and enroll team member support and engagement
 - Experienced facilitation and communication skills
 
-#### Diversity, Inclusion, and Belonging Partner Performance Indicators
-
-- [Women globally as a whole at GitLab](/handbook/company/culture/inclusion/#performance-indicators)
-- [Women in leadership](/handbook/company/culture/inclusion/#performance-indicators)
-- [Women voluntary attrition](/handbook/company/culture/inclusion/#performance-indicators)
-- [Pay equality](/handbook/company/culture/inclusion/#performance-indicators)
-- [Engagement survey inclusion score](/handbook/company/culture/inclusion/#performance-indicators)
-
 #### Diversity, Inclusion, and Belonging Partner Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
