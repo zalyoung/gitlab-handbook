@@ -39,7 +39,7 @@ This is made clear by the current and growing backlog of new components that are
 We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
 A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMA while maintaining support for current customers with traditional deployment requirements through SMB.
 
-We do not aim to deprecate the Omnibus or Premium/Ultimate via Omnibus, but require cloud-native for future new, optional components of Premium/Ultimate.
+The Omnibus GitLab package is not being abandoned, but we require cloud-native for future new and optional components of Premium/Ultimate.
 
 This proposal describes implementing a form of [Option 2: Prioritize/favour Hybrid Kubernetes Going Forward](https://docs.google.com/document/d/1f8Ty_AE9IX2cawkyCLsEy7DkjD9zIgcifN7yQBgs2Uo/edit?tab=t.0#bookmark=id.cke52h57bu0i)
 of the Cloud Native GitLab session from FY26 CTO Summit, while facilitating faster delivery through focused priority on cloud-native implementations of
@@ -50,15 +50,16 @@ _"Great Momentum requires Gradual Change"_
 
 ## Motivation
 
-The current Self-Managed option attempts to serve all infrastructure designs under a single feature launch umbrella.
+The current Self-Managed option has been built and perfected to lower the entry point to running GitLab. All optimisations over the past 10 years have been done in order to serve all infrastructure designs under a single feature launch umbrella.
 This creates significant engineering complexity as we try to deliver advanced features (for example: Security features as part of Ultimate) across vastly different infrastructure environments.
 As a specific example, we have several features in the pipeline that will require ClickHouse being available, which is not available in Omnibus, and would be a complex component to implement via Omnibus.
+Our customers love the simplicity of Omnibus, but this has started to empede our ability to drive change fast in order to integrate and manage everything ourselves.
 
-Cloud-native deployments enable critical capabilities that traditional OS-level installations cannot efficiently support, or that we do not have the engineering bandwidth to deliver to all deployment methods at the expected quality within an appropriate span of time.
-Additionally, our current Omnibus Reference Architectures employ a node-per-component strategy, dedicating separate nodes (or VMs) to each service—consul nodes for consul, pgbouncer nodes for pgbouncer, and so on.
-In HA environments requiring a minimum of three nodes per component, this approach quickly escalates infrastructure requirements: even modest deployments can demand 20-30+ VMs, doubling with Geo DR.
-As the number of components continues to grow, this architecture proves inefficient and costly, as many nodes remain largely idle with minimal workloads, while also complicating maintenance and expanding the security attack surface. Most critically, this static allocation model fails to scale dynamically with actual load patterns.
-That scaling, or lack thereof, is a common focal point in customer conversations.
+Cloud-native deployments enable critical capabilities—such as auto-scaling, self-healing, and efficient resource sharing—that traditional OS-level installations cannot efficiently support, or that we do not have the engineering bandwidth to deliver to all deployment methods at the expected quality within an appropriate span of time.
+In particular, the traditional model faces fundamental scalability challenges, requiring dedicated system resources and separate process management for each component.
+These underlying limitations necessitate our Reference Architectures' node-per-component strategy—dedicating separate nodes to each service like consul, pgbouncer, and so on, along with requirements such as separate load balancers and shared storage.
+In HA environments requiring a minimum of three nodes per component, even modest deployments can demand 20-30+ VMs, doubling with Geo DR. Unlike modern containerized workloads that efficiently share resources and scale dynamically, the Linux package model forces static resource allocation and cannot adapt well to actual load patterns.
+As components continue to grow, this traditional approach will prove fundamentally unsustainable, costly with many idle nodes, and creates the scaling limitations that have become a common focal point in customer conversations.
 
 We can already demonstrate that cloud-native deployments enable customers to scale GitLab with significantly more efficiency.
 To service customers of higher complexity and larger scale, we should look to focusing our release to SMA as cloud-native first.
@@ -79,7 +80,7 @@ In particular, this aims to:
 
 We aim to explicitly avoid:
 
-- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future. However, new optional SMA components, such as Data Insights Platform, ClickHouse Cloud, would not be supported in Omnibus, only as cloud native components.
+- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future, and the only reason to revisit the existing functionality is to ensure that it can scale effectively. However, new optional SMA components, such as Data Insights Platform, ClickHouse Cloud, would not be supported in Omnibus, only as cloud native components.
 - Forcibly converting traditional Omnibus into cloud native "under the hood". We would rather encourage consumers to expand their skillsets.
 - Unexpectedly increase customer infrastructure costs and consumption. We must communicate these changes well.
 - Alienate consumers of any kind, by forcing large architectural refactors upon them. We should rather show them the value of the shift to cloud-native.
@@ -146,8 +147,8 @@ OAK can be effectively visualized as below:
 
 Omnibus's existing scope should grow in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
 
-In the future, we can investigating moving High Availability, Geo, and Zero Downtime deployments from Omnibus to cloud-native methods, with the intent
-to simplify the Omnibus' feature set to the SMB ideal of smaller, less complex instances.
+In the future, we will investigate moving advanced set ups such as High Availability, Geo, and Zero Downtime deployments from Omnibus to cloud-native methods, with the intent
+to significantly simplify the Omnibus' feature set to the SMB ideal of smaller, less complex instances.
 This is in alignment with [Project Flow](https://docs.google.com/document/d/10f7i-y9aJKo1Lo1IW106ov-OuUXAywNGQg7uPYGOP44/edit?tab=t.0#heading=h.rci2kr8welcp),
 aiming to drive the Reference Architectures to a simplified, cloud-native first future.
 
