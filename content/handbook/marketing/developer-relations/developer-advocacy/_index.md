@@ -32,7 +32,6 @@ description: "Developer Advocates build GitLab's technical brand with deep, mean
 - [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
 - [<i class="fas fa-project-diagram"></i> Team Projects](/handbook/marketing/developer-relations/developer-advocacy/projects)
 - [<i class="far fa-object-group"></i> OSS Contributions](/handbook/marketing/developer-relations/developer-advocacy/#oss-contributions)
-- [<i class="far fa-edit"></i> Action Template for Announcement Responses](https://docs.google.com/document/d/1Dhe2hFFZCDRK6eLhrfFqa-iz0bFX8gTZ4keoHo5KrtM/edit)
 - [<i class="fas fa-chalkboard-teacher"></i> CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps)
 - [<i class="far fa-edit"></i> Content creation](/handbook/marketing/developer-relations/developer-advocacy/#content-creation)
 - [<i class="far fa-folder-open"></i> Team Shared Drive](https://drive.google.com/drive/u/0/folders/0AEUOlCStMBC9Uk9PVA)
