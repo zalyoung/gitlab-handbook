@@ -1,4 +1,3 @@
----
 title: "Topology Service Transactional Behavior"
 status: proposed
 creation-date: "2025-07-02"
@@ -10,25 +9,395 @@ toc_hide: true
 
 This document outlines the design goals and architecture of Topology Service implementing transactional behavior for Claims Service.
 
-```protobuf
-// Service definition for Topology Service Claims API
-service ClaimsService {
-  // Execute creates/destroys with lease - atomic operation
-  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
-  
-  // Commit finalizes the operations and removes lease
-  rpc Commit(CommitRequest) returns (CommitResponse);
-  
-  // Rollback reverts the operations and removes lease
-  rpc Rollback(RollbackRequest) returns (RollbackResponse);
-  
-  // List outstanding leases for a client (for reconciliation)
-  rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
-}
+## Essential Concepts
+
+### **Distributed Lease-Based Coordination**
+This system implements a **distributed lease-based coordination mechanism** for managing globally unique claims (usernames, emails, routes) across multiple GitLab cells. It ensures only one cell can "own" a particular claim at any given time, preventing conflicts in a distributed environment.
+
+The system follows a **"Lease-Based Mutual Exclusion with Optimistic Concurrency Control"** protocol pattern, similar to solutions like Google Chubby, Kubernetes Leader Election, and Apache Kafka Controller Election, but optimized for GitLab's cellular architecture with multi-resource atomic batching capabilities.
+
+### **Core Behavioral Principles**
+
+#### **1. Lease-First Coordination**
+The system follows a "lease-first, commit-later" pattern:
+- **Before** making any local changes, acquire a lease from the central Topology Service
+- **Only after** successful lease acquisition, proceed with local database operations
+- **After** local success, commit the lease to make changes permanent
+- **If anything fails**, rollback the lease to maintain consistency
+
+#### **2. Atomic Batch Operations**
+Multiple related models MUST be processed together:
+- Collect all claim changes from multiple models
+- Send a single batch request to Topology Service
+- Process all local database changes in one transaction
+- Commit or rollback all claims together
+
+#### **3. Time-Bounded Leases**
+All leases have expiration times (default 5 minutes):
+- Prevents indefinite locks if a cell crashes
+- Automatic cleanup of expired leases
+- Background reconciliation ensures consistency
+
+#### **4. Lease Exclusivity**
+**Critical Rule**: Objects with active leases (`lease_id != NULL`) cannot be claimed by other operations:
+- **Create Operations**: Will fail with primary key constraint if object already exists
+- **Destroy Operations**: Will fail with conditional update if object has active lease
+- **Temporal Lock**: Objects remain locked until lease expires or is committed/rolled back
+- **Automatic Release**: Expired leases are cleaned up, making objects available again
+
+#### **5. Ownership Security**
+**Critical Security Constraint**: Only the cell that created a claim can destroy it:
+- **Cell ID Verification**: All destroy operations require the requesting cell to match the claim's original creator
+- **Prevents Interference**: Cells cannot destroy claims created by other cells
+- **Security Isolation**: Malicious or buggy cells cannot disrupt other cells' data
+
+## System Participants
+
+### **Rails Client (User-Initiated)**
+- **Primary Role**: Handles user actions that modify globally unique attributes
+- **Responsibilities**:
+  - Validates models locally before claiming
+  - Collects all claims from multiple models into batch requests
+  - Coordinates with Topology Service for lease acquisition
+  - Manages local database transactions
+  - Handles immediate commit/rollback after local operations
+
+### **Background Reconciliation Processes**
+
+#### **Expired Lease Cleanup**
+- **Frequency**: Every minute
+- **Operation**: Finds leases where `expires_at <= NOW()` and removes them
+- **Components**:
+  - **Cloud Spanner Cleanup**: Deletes claims created by expired leases, clears lease_id from claims marked for destroy
+  - **Rails DB Cleanup**: Removes expired local lease tracking records
+
+#### **Lost Transaction Recovery**
+- **Frequency**: Every 5-10 minutes
+- **Operation**: Reconciles leases that exist in Topology Service but not in Rails (or vice versa)
+- **Strategy**: Rails-driven cleanup with idempotent Topology Service operations
+- **Process**: 
+  - List outstanding leases from Topology Service with cursor-based pagination
+  - Separate expired and active leases based on creation time
+  - Commit active leases that exist locally, rollback expired leases
+  - Clean up orphaned local lease records
+
+#### **Retry Handler**
+- **Trigger**: Failed commit/rollback operations
+- **Strategy**: Exponential backoff with jitter
+- **Scope**: Handles network failures and temporary service unavailability
+
+### **Topology Service**
+- **Primary Role**: Centralized coordination service managing global claim state
+- **Responsibilities**:
+  - Enforces lease exclusivity through database constraints
+  - Manages lease lifecycle (create, commit, rollback)
+  - Provides atomic batch operations for multiple claims
+  - Handles lease expiration and cleanup
+  - Ensures only claim creators can destroy their claims
+
+## Happy Path Workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Rails as Rails App
+    participant RailsDB as Rails DB
+    participant TopologyService as Topology Service
+    participant CloudSpanner as Cloud Spanner
+
+    User->>Rails: Save Multiple Models (User + Email + Route)
+    Note over Rails: Step 1: Pre-flight Claims Acquisition
+    Rails->>Rails: Validate all models
+    Rails->>Rails: Collect claims from all models
+    Rails->>Rails: Generate batch ExecuteRequest
+    
+    Note over Rails: BEFORE Rails DB Transaction
+    Rails->>TopologyService: Execute(batched creates, destroys)
+    
+    TopologyService->>CloudSpanner: BEGIN Transaction
+    TopologyService->>CloudSpanner: Insert lease in leases_outstanding
+    TopologyService->>CloudSpanner: Insert claims with lease_id + lease_op='create'
+    TopologyService->>CloudSpanner: UPDATE claims SET lease_id=@id WHERE lease_id IS NULL (destroys)
+    Note over CloudSpanner: Primary key constraints + conditional updates enforce exclusivity
+    CloudSpanner-->>TopologyService: Success - All constraints satisfied
+    TopologyService->>CloudSpanner: COMMIT Transaction
+    
+    TopologyService-->>Rails: ExecuteResponse(lease_payload)
+    
+    Note over Rails: Step 2: Local Database Transaction
+    Rails->>RailsDB: BEGIN Transaction
+    Rails->>RailsDB: Save user changes
+    Rails->>RailsDB: Save email changes
+    Rails->>RailsDB: Save route changes
+    Rails->>RailsDB: Insert lease in leases_outstanding
+    Rails->>RailsDB: COMMIT Transaction
+    
+    Note over Rails: Step 3: Lease Commitment
+    Rails->>TopologyService: Commit(lease_id)
+    
+    TopologyService->>CloudSpanner: BEGIN Transaction
+    TopologyService->>CloudSpanner: DELETE claims WHERE lease_op='destroy'
+    TopologyService->>CloudSpanner: UPDATE claims SET lease_id=NULL WHERE lease_op='create'
+    TopologyService->>CloudSpanner: DELETE lease from leases_outstanding
+    TopologyService->>CloudSpanner: COMMIT Transaction
+    
+    TopologyService-->>Rails: CommitResponse()
+    Rails->>RailsDB: DELETE lease from leases_outstanding
+    Rails-->>User: Success - All models saved atomically
 ```
 
-## Claims Service API
+### **Detailed Process Flow**
 
+#### **Phase 1: Pre-Flight Claims Acquisition**
+```
+User saves models → Rails validates → Claims generated → Topology Service called
+```
+
+**What happens:**
+1. **Model Validation**: Rails validates the model locally first
+2. **Claim Generation**: For each changed unique attribute, generate create/destroy claims
+3. **Batch Collection**: If multiple models are being saved, collect all claims together
+4. **Topology Service Call**: Send `Execute()` request with all claims BEFORE local DB transaction
+
+**Why this order:**
+- **Fail Fast**: If claims conflict, fail before making any local changes
+- **Atomicity**: Either all claims succeed or all fail
+- **Efficiency**: Single network call for multiple models. Important due to long write latency on doing multi-region writes.
+
+#### **Phase 2: Atomic Lease Creation in Cloud Spanner**
+```
+Execute() → Single transaction → Database constraints + lease exclusivity enforced
+```
+
+**What happens in Topology Service transaction:**
+1. **Lease Record**: Insert into `leases_outstanding` with full payload
+2. **Create Claims**: Insert new claims with `lease_op='create'` and the lease_id
+   - Primary key constraint on (scope, scope_value) prevents duplicates
+3. **Mark Destroys**: Update existing claims ONLY if `lease_id IS NULL` AND `cell_id` matches the requesting cell
+   - Conditional update ensures no concurrent operations on same object AND only creator can destroy
+4. **Lease Exclusivity**: Objects with `lease_id != NULL` cannot be claimed by other operations
+5. **Atomic Success/Failure**: If any operation fails, entire transaction automatically rolls back
+
+**Critical Lease Rule**: 
+- **Only unlocked objects** (where `lease_id IS NULL`) can be claimed
+- **Objects with active leases** are temporarily unavailable to other operations
+- **This prevents concurrent modifications** and ensures operation isolation
+
+**Why this approach:**
+- **Exclusive Access**: Only one operation can work on an object at a time
+- **Prevents Race Conditions**: Cannot claim objects already being modified
+- **Temporal Isolation**: Leases provide time-bounded exclusive access
+- **Database-Level Enforcement**: Constraints are faster and more reliable than application checks
+- **No Explicit Conflict Checking**: Database constraints handle uniqueness automatically
+
+#### **Phase 3: Local Database Transaction**
+```
+Lease acquired → Rails DB transaction → Save all models → Create lease record
+```
+
+**What happens in Rails:**
+1. **Transaction Start**: Begin Rails database transaction
+2. **Model Saves**: Save all the model changes that generated the claims
+3. **Lease Tracking**: Create `leases_outstanding` record with lease_id and expiration
+4. **Transaction Commit**: Commit all changes together
+
+**Why after lease acquisition:**
+- **Safety**: Local changes only happen after global coordination succeeds
+- **Immediate Cleanup**: Lease record in Rails DB enables prompt cleanup after transaction completion
+- **Rollback Capability**: If local DB fails, we have lease_id to clean up
+
+#### **Phase 4: Lease Commitment**
+```
+Local success → Commit() → Finalize claims → Remove lease
+```
+
+**What happens in Topology Service:**
+1. **Destroy Processing**: DELETE claims where lease_op='destroy' 
+2. **Create Finalization**: UPDATE claims SET lease_id=NULL, lease_op='no-op' where lease_op='create'
+3. **Lease Cleanup**: DELETE from leases_outstanding
+4. **Rails Cleanup**: Rails deletes its leases_outstanding record
+
+**Why this two-phase approach:**
+- **Durability**: Creates become permanent, destroys are executed
+- **Immediate Cleanup**: Leases are removed immediately after successful completion
+- **Idempotency**: Commit can be retried safely - operations are idempotent
+
+## Terminology by Participant
+
+### **Rails Client**
+
+#### **Local Schema**
+```sql
+-- Rails migration for leases_outstanding table (synchronized with Cloud Spanner)
+-- This table only contains active leases - entries are deleted when consumed
+CREATE TABLE leases_outstanding (
+  lease_id STRING(36) NOT NULL UNIQUE,
+  expires_at TIMESTAMP NOT NULL,
+  created_at TIMESTAMP NOT NULL,
+  updated_at TIMESTAMP NOT NULL
+);
+
+-- Indexes for performance and operational queries
+CREATE INDEX idx_leases_outstanding_expires ON leases_outstanding(expires_at);
+CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
+```
+
+#### **Model Definition**
+```ruby
+# Rails ActiveRecord concern for handling distributed claims
+module CellsUniqueness
+  extend ActiveSupport::Concern
+
+  class_methods do
+    def cell_cluster_unique_attributes(*attributes, sharding_key_object:, claim_type:, owner_type:)
+      @cell_unique_config = {
+        attributes: attributes,
+        sharding_key_object: sharding_key_object,
+        claim_type: claim_type,
+        owner_type: owner_type
+      }
+    end
+  end
+end
+
+# Example model implementation
+class Route < ApplicationRecord
+  include CellsUniqueness
+
+  belongs_to :project, optional: true
+  belongs_to :group, optional: true
+
+  cell_cluster_unique_attributes :path, :name,
+    sharding_key_object: -> { project || group },
+    claim_type: Gitlab::Cells::ClaimType::Routes,
+    owner_type: :project
+end
+```
+
+#### **Operations**
+- **Claim Generation**: Extract unique attributes from model changes into create/destroy claims
+- **Batch Collection**: Aggregate claims from multiple models into single ExecuteRequest
+- **Lease Tracking**: Store lease_id locally for reconciliation and cleanup
+- **Immediate Cleanup**: Remove lease records after successful commit/rollback
+- **Error Handling**: Convert gRPC errors to Rails validation errors
+
+### **Background Reconciliation**
+
+#### **Rails-Driven Cleanup Process**
+```ruby
+# Rails-driven cleanup with idempotent Topology Service operations
+class ClaimsLeaseReconciliationService
+  LEASE_EXPIRY_THRESHOLD = 10.minutes  # Consider lease expired if older than threshold
+  
+  def self.reconcile_outstanding_leases
+    topology_service = Gitlab::Cells::TopologyServiceClient.new
+    cursor = nil
+    
+    loop do
+      # Get leases from Topology Service with cursor-based pagination
+      response = topology_service.list_outstanding_leases(
+        ListOutstandingLeasesRequest.new(
+          cell_id: current_cell_id,
+          cursor: cursor
+        )
+      )
+      
+      break if response.leases.empty?
+      
+      topology_leases = response.leases.map(&:lease_payload)
+      
+      # Separate expired and active leases based on creation time
+      now = Time.current
+      expired_leases = topology_leases.select { |lease| 
+        lease.created_at.to_time < (now - LEASE_EXPIRY_THRESHOLD) 
+      }
+      active_leases = topology_leases - expired_leases
+      
+      # Process active leases: commit if they exist locally
+      active_lease_ids = active_leases.map(&:lease_id)
+      local_active_leases = LeasesOutstanding.where(lease_id: active_lease_ids).pluck(:lease_id)
+      
+      local_active_leases.each do |lease_id|
+        topology_service.commit(CommitRequest.new(cell_id: current_cell_id, lease_id: lease_id))
+        LeasesOutstanding.find_by(lease_id: lease_id)&.destroy!
+      end
+      
+      # Process expired leases: rollback all (idempotent)
+      expired_leases.each do |lease|
+        topology_service.rollback(RollbackRequest.new(cell_id: current_cell_id, lease_id: lease.lease_id))
+        # Clean up any local record that might exist
+        LeasesOutstanding.find_by(lease_id: lease.lease_id)&.destroy!
+      end
+      
+      # Update cursor for next iteration
+      cursor = response.next_cursor
+      break if cursor.blank?  # No more pages
+    end
+    
+    # Exception case: leases missing from TS but present locally
+    expired_local_leases = LeasesOutstanding.where('expires_at < ?', Time.current)
+    if expired_local_leases.exists?
+      Rails.logger.error "Found #{expired_local_leases.count} expired local leases without TS counterparts"
+      expired_local_leases.destroy_all
+    end
+  end
+end
+```
+
+#### **Reconciliation Principles**
+- **Primary Cleanup**: Rails is responsible for cleaning up outstanding leases
+- **Cursor-Based Pagination**: Guarantees iteration through all leases without infinite loops
+- **Idempotent Operations**: Topology Service Commit/Rollback operations are idempotent
+- **Time-Based Expiry**: Leases older than threshold are considered expired (local property)
+- **Complete Processing**: Both expired and active leases are processed to ensure forward progress
+- **Exception Handling**: Local leases without corresponding TS leases indicate system issues
+- **Immediate Cleanup**: Leases are removed as soon as possible via Rails `after_commit`/`after_rollback` hooks
+
+### **Topology Service**
+
+#### **Cloud Spanner Schema**
+```sql
+-- Claims table with integrated lease tracking
+CREATE TABLE claims (
+  claim_id STRING(36) NOT NULL,                    -- UUID for internal tracking
+  scope STRING(50) NOT NULL,                       -- Type of claim (ROUTES, EMAIL, USERNAME)
+  scope_value STRING(255) NOT NULL,                -- The actual value being claimed
+  owner_type STRING(50) NOT NULL,                  -- Type of owner (USER, PROJECT, GROUP)
+  owner_value STRING(255) NOT NULL,                -- Owner identifier
+  cell_id STRING(100) NOT NULL,                    -- Cell ID that created this claim
+  lease_id STRING(36),                             -- NULL for committed claims, UUID for leased claims
+  lease_op STRING(10) NOT NULL DEFAULT 'no-op',   -- 'no-op', 'create', 'destroy'
+  created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
+  updated_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
+) PRIMARY KEY (scope, scope_value);
+
+-- CRITICAL CONSTRAINTS: 
+-- 1. Objects with lease_id != NULL cannot be claimed by other operations
+-- 2. Only the cell that created a claim (cell_id) can destroy it
+-- These constraints prevent concurrent operations and unauthorized access
+
+-- Outstanding leases table (mirrored with Rails for synchronization)
+CREATE TABLE leases_outstanding (
+  lease_id STRING(36) NOT NULL,                    -- UUID of the lease
+  cell_id STRING(100) NOT NULL,                    -- Cell ID that owns the lease
+  expires_at TIMESTAMP NOT NULL,                   -- When the lease expires
+  lease_payload BYTES(MAX) NOT NULL,               -- Serialized LeasePayload protobuf
+  created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
+) PRIMARY KEY (lease_id);
+
+-- Performance and operational indexes
+CREATE INDEX idx_leases_outstanding_cell ON leases_outstanding(cell_id);
+CREATE INDEX idx_leases_outstanding_expires ON leases_outstanding(expires_at);
+CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
+
+CREATE INDEX idx_claims_cell ON claims(cell_id);
+CREATE INDEX idx_claims_lease_id ON claims(lease_id) STORING (lease_op);
+CREATE INDEX idx_claims_lease_op ON claims(lease_op) WHERE lease_op != 'no-op';
+CREATE INDEX idx_claims_scope_lease ON claims(scope, lease_id) WHERE lease_id IS NOT NULL;
+CREATE INDEX idx_claims_owner ON claims(owner_type, owner_value);
+```
+
+#### **Protobuf Definitions**
 ```protobuf
 syntax = "proto3";
 
@@ -143,442 +512,35 @@ message ListOutstandingLeasesResponse {
 }
 ```
 
-## Overview
+#### **gRPC API Behaviors**
+- **Execute()**: Atomically acquire leases for batch operations, enforce exclusivity constraints
+- **Commit()**: Finalize claims (DELETE destroys, clear lease_id from creates) and remove leases
+- **Rollback()**: Revert claims (DELETE creates, clear lease_id from destroys) and remove leases
+- **ListOutstandingLeases()**: Retrieve leases for reconciliation with cursor-based pagination
 
-This system implements a **distributed lease-based coordination mechanism** for managing globally unique claims (like usernames, emails, routes) across multiple GitLab cells. It ensures that only one cell can "own" a particular claim at any given time, preventing conflicts in a distributed environment.
+## Unhappy Path Workflows
 
-The system follows a **"Lease-Based Mutual Exclusion with Optimistic Concurrency Control"** protocol pattern, similar to solutions like Google Chubby, Kubernetes Leader Election, and Apache Kafka Controller Election, but optimized for GitLab's cellular architecture with multi-resource atomic batching capabilities.
+### **Failure Point 1: Pre-flight Validation Failure**
 
-## Core Behavioral Principles
-
-### 1. **Lease-First Coordination**
-The system follows a "lease-first, commit-later" pattern:
-- **Before** making any local changes, acquire a lease from the central Topology Service
-- **Only after** successful lease acquisition, proceed with local database operations
-- **After** local success, commit the lease to make changes permanent
-- **If anything fails**, rollback the lease to maintain consistency
-
-### 2. **Atomic Batch Operations**
-Multiple related models MUST be processed together:
-- Collect all claim changes from multiple models
-- Send a single batch request to Topology Service
-- Process all local database changes in one transaction
-- Commit or rollback all claims together
-
-### 3. **Time-Bounded Leases**
-All leases have expiration times (default 5 minutes):
-- Prevents indefinite locks if a cell crashes
-- Automatic cleanup of expired leases
-- Background reconciliation ensures consistency
-
-### 4. **Lease Exclusivity**
-**Critical Rule**: Objects with active leases (`lease_id != NULL`) cannot be claimed by other operations:
-- **Create Operations**: Will fail with primary key constraint if object already exists
-- **Destroy Operations**: Will fail with conditional update if object has active lease
-- **Temporal Lock**: Objects remain locked until lease expires or is committed/rolled back
-- **Automatic Release**: Expired leases are cleaned up, making objects available again
-
-## Detailed Process Flow
-
-```protobuf
-// Service definition for Topology Service Claims API
-service ClaimsService {
-  // Execute creates/destroys with lease - atomic operation
-  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
-  
-  // Commit finalizes the operations and removes lease
-  rpc Commit(CommitRequest) returns (CommitResponse);
-  
-  // Rollback reverts the operations and removes lease
-  rpc Rollback(RollbackRequest) returns (RollbackResponse);
-  
-  // List outstanding leases for a client (for reconciliation)
-  rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
-}
-```
-
-### Phase 1: Pre-Flight Claims Acquisition
-
-```
-User saves models → Rails validates → Claims generated → Topology Service called
-```
-
-**What happens:**
-1. **Model Validation**: Rails validates the model locally first
-2. **Claim Generation**: For each changed unique attribute, generate create/destroy claims
-3. **Batch Collection**: If multiple models are being saved, collect all claims together
-4. **Topology Service Call**: Send `Execute()` request with all claims BEFORE local DB transaction
-
-**Why this order:**
-- **Fail Fast**: If claims conflict, fail before making any local changes
-- **Atomicity**: Either all claims succeed or all fail
-- **Efficiency**: Single network call for multiple models. Important due to long write latency on doing multi-region writes.
-
-### Phase 2: Atomic Lease Creation in Cloud Spanner
-
-```
-Execute() → Single transaction → Database constraints + lease exclusivity enforced
-```
-
-**What happens in Topology Service transaction:**
-1. **Lease Record**: Insert into `leases_outstanding` with full payload
-2. **Create Claims**: Insert new claims with `lease_op='create'` and the lease_id
-   - Primary key constraint on (scope, scope_value) prevents duplicates
-3. **Mark Destroys**: Update existing claims ONLY if `lease_id IS NULL` AND `cell_id` matches the requesting cell
-   - Conditional update ensures no concurrent operations on same object AND only creator can destroy
-4. **Lease Exclusivity**: Objects with `lease_id != NULL` cannot be claimed by other operations
-5. **Atomic Success/Failure**: If any operation fails, entire transaction automatically rolls back
-
-**Critical Lease Rule**: 
-- **Only unlocked objects** (where `lease_id IS NULL`) can be claimed
-- **Objects with active leases** are temporarily unavailable to other operations
-- **This prevents concurrent modifications** and ensures operation isolation
-
-**Why this approach:**
-- **Exclusive Access**: Only one operation can work on an object at a time
-- **Prevents Race Conditions**: Cannot claim objects already being modified
-- **Temporal Isolation**: Leases provide time-bounded exclusive access
-- **Database-Level Enforcement**: Constraints are faster and more reliable than application checks
-- **No Explicit Conflict Checking**: Database constraints handle uniqueness automatically
-
-### Phase 3: Local Database Transaction
-
-```
-Lease acquired → Rails DB transaction → Save all models → Create lease record
-```
-
-**What happens in Rails:**
-1. **Transaction Start**: Begin Rails database transaction
-2. **Model Saves**: Save all the model changes that generated the claims
-3. **Lease Tracking**: Create `leases_outstanding` record with lease_id and expiration
-4. **Transaction Commit**: Commit all changes together
-
-**Why after lease acquisition:**
-- **Safety**: Local changes only happen after global coordination succeeds
-- **Immediate Cleanup**: Lease record in Rails DB enables prompt cleanup after transaction completion
-- **Rollback Capability**: If local DB fails, we have lease_id to clean up
-
-### Phase 4: Lease Commitment
-
-```
-Local success → Commit() → Finalize claims → Remove lease
-```
-
-**What happens in Topology Service:**
-1. **Destroy Processing**: DELETE claims where lease_op='destroy' 
-2. **Create Finalization**: UPDATE claims SET lease_id=NULL, lease_op='no-op' where lease_op='create'
-3. **Lease Cleanup**: DELETE from leases_outstanding
-4. **Rails Cleanup**: Rails deletes its leases_outstanding record
-
-**Why this two-phase approach:**
-- **Durability**: Creates become permanent, destroys are executed
-- **Immediate Cleanup**: Leases are removed immediately after successful completion
-- **Idempotency**: Commit can be retried safely - operations are idempotent
-
-## Error Handling Behaviors
-
-### Lease Conflict Detection (Phase 2 Failure)
-
-```
-Execute() → Attempt claim → Object has active lease → Transaction fails → Return error
-```
-
-**Behavior when object is already leased:**
-- **Create Operations**: Primary key constraint prevents duplicate (scope, scope_value)
-- **Destroy Operations**: Conditional update `WHERE lease_id IS NULL` fails if object is leased
-- **Transaction Rollback**: Cloud Spanner automatically rolls back entire transaction
-- **Error Response**: Rails receives specific error about lease conflict
-- **User Experience**: Different messages for different conflict types
-
-**Different conflict types:**
-1. **Permanent Conflict**: Object permanently owned by another cell → "Already taken"
-2. **Temporary Conflict**: Object temporarily leased by another operation → "Try again later"
-
-**Why lease exclusivity matters:**
-- **Prevents corruption**: Two cells can't modify same object simultaneously  
-- **Ensures atomicity**: Complex operations complete without interference
-- **Provides isolation**: Operations don't see partial state from other operations
-
-### Local Database Failure (Phase 3 Failure)
-
-```
-Local DB fails → Rollback() → Undo claims → Clean up lease
-```
-
-**Behavior**: If Rails DB constraint violation or other local error:
-- Rails transaction rolls back
-- Rollback() called to Topology Service
-- Claims with lease_op='create' are deleted
-- Claims with lease_op='destroy' have lease_id cleared
-- Both Rails and Cloud Spanner lease records removed
-
-**Why**: Maintain consistency - if Rails DB changes fail, global claims must be reverted immediately
-
-### Network Failures and Timeouts
-
-- **During Execute()**: Rails gets error, no local changes made, user sees error
-- **During Commit()**: Background job retries, or lease expires and gets cleaned up
-- **During Rollback()**: Background job retries, or lease expires and gets cleaned up
-
-## Background Behaviors
-
-### Lease Expiration Cleanup
-
-```
-Every minute → Find expired leases → Delete creates → Clear destroys → Remove leases
-```
-
-**Cloud Spanner Cleanup**:
-- Finds leases where `expires_at <= NOW()`
-- Deletes claims created by expired leases  
-- Clears lease_id from claims marked for destroy
-- Removes expired lease records
-
-**Why**: Automatic recovery from crashed cells or network partitions
-
-### Reconciliation Between Rails and Cloud Spanner
-
-```ruby
-# Rails-driven cleanup with idempotent Topology Service operations
-class ClaimsLeaseReconciliationService
-  LEASE_EXPIRY_THRESHOLD = 10.minutes  # Consider lease expired if older than threshold
-  
-  def self.reconcile_outstanding_leases
-    topology_service = Gitlab::Cells::TopologyServiceClient.new
-    cursor = nil
-    
-    loop do
-      # Get leases from Topology Service with cursor-based pagination
-      response = topology_service.list_outstanding_leases(
-        ListOutstandingLeasesRequest.new(
-          cell_id: current_cell_id,
-          cursor: cursor
-        )
-      )
-      
-      break if response.leases.empty?
-      
-      topology_leases = response.leases.map(&:lease_payload)
-      
-      # Separate expired and active leases based on creation time
-      now = Time.current
-      expired_leases = topology_leases.select { |lease| 
-        lease.created_at.to_time < (now - LEASE_EXPIRY_THRESHOLD) 
-      }
-      active_leases = topology_leases - expired_leases
-      
-      # Process active leases: commit if they exist locally
-      active_lease_ids = active_leases.map(&:lease_id)
-      local_active_leases = LeasesOutstanding.where(lease_id: active_lease_ids).pluck(:lease_id)
-      
-      local_active_leases.each do |lease_id|
-        topology_service.commit(CommitRequest.new(cell_id: current_cell_id, lease_id: lease_id))
-        LeasesOutstanding.find_by(lease_id: lease_id)&.destroy!
-      end
-      
-      # Process expired leases: rollback all (idempotent)
-      expired_leases.each do |lease|
-        topology_service.rollback(RollbackRequest.new(cell_id: current_cell_id, lease_id: lease.lease_id))
-        # Clean up any local record that might exist
-        LeasesOutstanding.find_by(lease_id: lease.lease_id)&.destroy!
-      end
-      
-      # Update cursor for next iteration
-      cursor = response.next_cursor
-      break if cursor.blank?  # No more pages
-    end
-    
-    # Exception case: leases missing from TS but present locally
-    expired_local_leases = LeasesOutstanding.where('expires_at < ?', Time.current)
-    if expired_local_leases.exists?
-      Rails.logger.error "Found #{expired_local_leases.count} expired local leases without TS counterparts"
-      expired_local_leases.destroy_all
-    end
-  end
-  
-  private
-  
-  def self.current_cell_id
-    Gitlab::Cells.current_cell_id
-  end
-end
-```
-
-**Rails Reconciliation**:
-- **Primary Cleanup**: Rails is responsible for cleaning up outstanding leases
-- **Cursor-Based Pagination**: Guarantees iteration through all leases without infinite loops
-- **Idempotent Operations**: Topology Service Commit/Rollback operations are idempotent
-- **Time-Based Expiry**: Leases older than threshold are considered expired (local property)
-- **Complete Processing**: Both expired and active leases are processed to ensure forward progress
-- **Exception Handling**: Local leases without corresponding TS leases indicate system issues
-- **Immediate Cleanup**: Leases are removed as soon as possible via Rails `after_commit`/`after_rollback` hooks
-
-**Why Rails-driven cleanup:**
-- **Natural Integration**: Rails `after_commit` and `after_rollback` hooks provide natural cleanup points
-- **Immediate Response**: Leases are cleaned up immediately after transaction completion
-- **Pagination Safety**: Cursor-based pagination ensures all leases are processed exactly once
-- **Local Time Logic**: Expiry determination is based on lease age, not absolute expiration time
-- **Exception Detection**: Lingering leases indicate problems rather than normal operation
-- **Simplified Logic**: Happy path is Execute → Local DB → Commit/Rollback → Cleanup
-
-## Advanced Behaviors
-
-### Lease Exclusivity and Concurrency Control
-
-```
-Cell A: Execute(create email@example.com) → Lease acquired
-Cell B: Execute(destroy email@example.com) → BLOCKED until Cell A commits/rollbacks
-```
-
-**Behavior**: Objects with active leases cannot be claimed:
-- **Creates**: Will fail with primary key constraint if object exists (regardless of lease status)
-- **Destroys**: Will fail with conditional update if object has `lease_id != NULL`
-- **Temporal Lock**: Object remains locked until lease expires or is committed/rolled back
-- **Automatic Release**: Expired leases are cleaned up, making objects available again
-
-**Example scenarios:**
-1. **Email change collision**: User changes email while admin tries to delete it → One succeeds, other waits
-2. **Route transfer conflict**: Two operations try to move same route → Serialized execution
-3. **Concurrent creation**: Two cells try to create same username → First wins, second fails permanently
-
-### Multi-Model Coordination
-
-```
-User + Email + Route changes → Single batch Execute() → All-or-nothing semantics
-```
-
-**Example**: Creating user with email and route:
-1. User model generates username claim
-2. Email model generates email claim  
-3. Route model generates path and name claims
-4. All 4 claims sent in single Execute() call
-5. All models saved in single Rails transaction
-6. All claims committed together
-
-**Why**: Business operations often span multiple models - atomic coordination required
-
-### Ownership Transfers
-
-```
-Route.project_id change → Destroy old claim + Create new claim → Atomic transfer
-```
-
-**Example**: Moving route from Project A to Project B:
-1. Generate destroy claim for route@projectA
-2. Generate create claim for route@projectB  
-3. Execute() both in single call
-4. Update route.project_id in Rails
-5. Commit() makes transfer permanent
-
-**Why**: Ownership changes must be atomic to prevent conflicts or ownership gaps
-
-## Performance Characteristics
-
-### Optimizations
-
-- **Batch Processing**: Multiple claims in single RPC call
-- **Efficient Indexes**: Cloud Spanner indexes optimized for lease operations
-- **Connection Pooling**: Reuse gRPC connections
-- **Background Processing**: Async cleanup doesn't block user operations
-- **Constraint-Based Conflicts**: Database handles uniqueness without application logic
-
-### Scalability
-
-- **Cell Independence**: Each cell operates independently until conflicts
-- **Centralized Coordination**: Only conflicts require cross-cell communication  
-- **Time-Bounded Locks**: Automatic cleanup prevents indefinite blocking
-- **Horizontal Scaling**: Cloud Spanner scales with claim volume
-
-## Why This Design Works
-
-### 1. **Exclusive Access Control**
-- Objects can only be modified by one operation at a time
-- Prevents data corruption from concurrent modifications
-- Clear temporal boundaries for exclusive access
-
-### 2. **Graceful Concurrency Handling**
-- Permanent conflicts (duplicates) fail immediately
-- Temporary conflicts (leases) can be retried
-- Users get appropriate feedback for different conflict types
-
-### 3. **Consistency Without Distributed Transactions**
-- Uses leases instead of 2PC (Two-Phase Commit)
-- Simpler failure modes than distributed transactions
-- Time-bounded recovery from failures
-- **No 2PC Required**: Each cell manages its own local state independently, with coordination only happening through the centralized Topology Service
-
-### 4. **Operational Simplicity**  
-- Clear failure modes and recovery procedures
-- Observable through standard metrics and logs
-- Self-healing through Rails-driven cleanup with idempotent Topology Service operations
-- **Immediate Cleanup**: Leases are removed as soon as possible - lingering leases indicate exceptions
-
-### 5. **Developer Ergonomics**
-- Transparent integration with ActiveRecord
-- Declarative configuration
-- Familiar transaction semantics
-
-### 6. **Production Robustness**
-- Handles network partitions gracefully
-- Automatic recovery from cell crashes
-- Comprehensive error handling and retry logic
-
-This design provides strong consistency guarantees for global uniqueness while maintaining the operational characteristics needed for a large-scale distributed system like GitLab.
-
-## Diagrams
-
-### Happy Path: Successful Operation
-
+**Scenario**: Model validation fails before lease acquisition
 ```mermaid
 sequenceDiagram
     participant User
-    participant Rails as Rails App
-    participant RailsDB as Rails DB (PostgreSQL)
-    participant TopologyService as Topology Service (Go)
-    participant CloudSpanner as Cloud Spanner
-
-    User->>Rails: Save Multiple Models (User + Email + Route)
-    Rails->>Rails: Validate all models
-    Rails->>Rails: Collect claims from all models
-    Rails->>Rails: Generate batch CreateOrDestroyRequest
+    participant Rails
     
-    Note over Rails: BEFORE Rails DB Transaction
-    Rails->>TopologyService: Execute(batched creates, destroys)
-    
-    TopologyService->>CloudSpanner: BEGIN Transaction
-    TopologyService->>CloudSpanner: Insert lease in leases_outstanding
-    TopologyService->>CloudSpanner: Insert claims with lease_id + lease_op='create'
-    TopologyService->>CloudSpanner: UPDATE claims SET lease_id=@id WHERE lease_id IS NULL (destroys)
-    Note over CloudSpanner: Primary key constraints + conditional updates enforce exclusivity
-    CloudSpanner-->>TopologyService: Success - All constraints satisfied
-    TopologyService->>CloudSpanner: COMMIT Transaction
-    
-    TopologyService-->>Rails: ExecuteResponse(lease_payload)
-    
-    Note over Rails: START Rails DB Transaction
-    Rails->>RailsDB: BEGIN Transaction
-    Rails->>RailsDB: Save user changes
-    Rails->>RailsDB: Save email changes
-    Rails->>RailsDB: Save route changes
-    Rails->>RailsDB: Insert lease in leases_outstanding
-    Rails->>RailsDB: COMMIT Transaction
-    
-    Note over Rails: AFTER Rails DB Commit
-    Rails->>TopologyService: Commit(lease_id)
-    
-    TopologyService->>CloudSpanner: BEGIN Transaction
-    TopologyService->>CloudSpanner: DELETE claims WHERE lease_op='destroy'
-    TopologyService->>CloudSpanner: UPDATE claims SET lease_id=NULL WHERE lease_op='create'
-    TopologyService->>CloudSpanner: DELETE lease from leases_outstanding
-    TopologyService->>CloudSpanner: COMMIT Transaction
-    
-    TopologyService-->>Rails: CommitResponse()
-    Rails->>RailsDB: DELETE lease from leases_outstanding
-    Rails-->>User: Success - All models saved atomically
+    User->>Rails: Save invalid model
+    Rails->>Rails: Validate model
+    Note over Rails: Validation fails
+    Rails-->>User: Validation error
 ```
 
-### TS Conflict Path: Topology Service Conflict
+**Recovery**: No recovery needed - no resources acquired, user sees validation error
 
+---
+
+### **Failure Point 2: Lease Acquisition Failure**
+
+#### **Scenario 2A: Topology Service Conflict - Permanent Claim**
 ```mermaid
 sequenceDiagram
     participant User
@@ -604,8 +566,31 @@ sequenceDiagram
     Rails-->>User: Save failed: "Object already claimed or temporarily locked"
 ```
 
-### Rails Conflict Path: Local Database Conflict
+**Different conflict types:**
+1. **Permanent Conflict**: Object permanently owned by another cell → "Already taken"
+2. **Temporary Conflict**: Object temporarily leased by another operation → "Try again later"
 
+**Recovery**: No recovery needed - user sees appropriate error message
+
+#### **Scenario 2B: Network Failure During Execute**
+```mermaid
+sequenceDiagram
+    participant Rails
+    participant TopologyService
+    
+    Rails->>TopologyService: Execute(creates, destroys)
+    Note over TopologyService: Network timeout
+    TopologyService->>Rails: Connection lost
+    Rails-->>User: "Service temporarily unavailable"
+```
+
+**Recovery**: No recovery needed - no lease acquired, safe to retry
+
+---
+
+### **Failure Point 3: Local Database Transaction Failure**
+
+#### **Scenario 3A: Rails Database Constraint Violation**
 ```mermaid
 sequenceDiagram
     participant User
@@ -638,44 +623,9 @@ sequenceDiagram
     Rails-->>User: Save failed: Database constraint violation
 ```
 
-### Lost Commit Path: Missing Commit After Successful Local Transaction
+**Recovery**: Automatic rollback of lease, user sees error
 
-```mermaid
-sequenceDiagram
-    participant User
-    participant Rails as Rails App
-    participant RailsDB as Rails DB (PostgreSQL)
-    participant TopologyService as Topology Service (Go)
-    participant CloudSpanner as Cloud Spanner
-    participant Reconciliation as Reconciliation Job
-
-    User->>Rails: Save Models
-    Rails->>TopologyService: Execute(creates, destroys)
-    TopologyService->>CloudSpanner: Execute operations successfully
-    TopologyService-->>Rails: ExecuteResponse(lease_payload)
-    
-    Rails->>RailsDB: BEGIN Transaction
-    Rails->>RailsDB: Save all changes successfully
-    Rails->>RailsDB: Insert lease in leases_outstanding
-    Rails->>RailsDB: COMMIT Transaction
-    
-    Note over Rails: Network failure / Application crash
-    Note over Rails: Commit() call to TS never made
-    
-    Note over Reconciliation: Background reconciliation detects issue
-    Reconciliation->>TopologyService: ListOutstandingLeases()
-    TopologyService-->>Reconciliation: Returns lease still outstanding
-    Reconciliation->>RailsDB: Check if lease exists locally
-    RailsDB-->>Reconciliation: Lease found (should be committed)
-    
-    Reconciliation->>TopologyService: Commit(lease_id)
-    TopologyService->>CloudSpanner: Process commit operation
-    TopologyService-->>Reconciliation: Success
-    Reconciliation->>RailsDB: DELETE lease from leases_outstanding
-```
-
-### Lost Rollback Path: Missing Rollback After Failed Local Transaction
-
+#### **Scenario 3B: Application Crash During Local Transaction**
 ```mermaid
 sequenceDiagram
     participant User
@@ -710,105 +660,256 @@ sequenceDiagram
     TopologyService-->>Reconciliation: Success
 ```
 
-## Rails Concern to claim attributes
+**Recovery**: Background reconciliation rolls back orphaned lease
 
-```ruby
-# Rails ActiveRecord concern for handling distributed claims
-module CellsUniqueness
-  extend ActiveSupport::Concern
+---
 
-  class_methods do
-    def cell_cluster_unique_attributes(*attributes, sharding_key_object:, claim_type:, owner_type:)
-      @cell_unique_config = {
-        attributes: attributes,
-        sharding_key_object: sharding_key_object,
-        claim_type: claim_type,
-        owner_type: owner_type
-      }
-    end
-  end
-end
+### **Failure Point 4: Lease Commitment Failure**
 
-# Example model implementation
-class Route < ApplicationRecord
-  include CellsUniqueness
+#### **Scenario 4A: Missing Commit After Successful Local Transaction**
+```mermaid
+sequenceDiagram
+    participant User
+    participant Rails as Rails App
+    participant RailsDB as Rails DB (PostgreSQL)
+    participant TopologyService as Topology Service (Go)
+    participant CloudSpanner as Cloud Spanner
+    participant Reconciliation as Reconciliation Job
 
-  belongs_to :project, optional: true
-  belongs_to :group, optional: true
-
-  cell_cluster_unique_attributes :path, :name,
-    sharding_key_object: -> { project || group },
-    claim_type: Gitlab::Cells::ClaimType::Routes,
-    owner_type: :project
-end
+    User->>Rails: Save Models
+    Rails->>TopologyService: Execute(creates, destroys)
+    TopologyService->>CloudSpanner: Execute operations successfully
+    TopologyService-->>Rails: ExecuteResponse(lease_payload)
+    
+    Rails->>RailsDB: BEGIN Transaction
+    Rails->>RailsDB: Save all changes successfully
+    Rails->>RailsDB: Insert lease in leases_outstanding
+    Rails->>RailsDB: COMMIT Transaction
+    
+    Note over Rails: Network failure / Application crash
+    Note over Rails: Commit() call to TS never made
+    
+    Note over Reconciliation: Background reconciliation detects issue
+    Reconciliation->>TopologyService: ListOutstandingLeases()
+    TopologyService-->>Reconciliation: Returns lease still outstanding
+    Reconciliation->>RailsDB: Check if lease exists locally
+    RailsDB-->>Reconciliation: Lease found (should be committed)
+    
+    Reconciliation->>TopologyService: Commit(lease_id)
+    TopologyService->>CloudSpanner: Process commit operation
+    TopologyService-->>Reconciliation: Success
+    Reconciliation->>RailsDB: DELETE lease from leases_outstanding
 ```
 
-## Rails DB Migrations
+**Recovery**: Background reconciliation commits the lease
 
-```ruby
-# Rails migration for leases_outstanding table (synchronized with Cloud Spanner)
-# This table only contains active leases - entries are deleted when consumed
-class CreateLeasesOutstanding < ActiveRecord::Migration[7.0]
-  def change
-    create_table :leases_outstanding do |t|
-      t.string :lease_id, null: false, index: { unique: true }
-      t.datetime :expires_at, null: false
-      t.timestamps
-
-      t.index [:expires_at]
-      t.index :created_at
-    end
-  end
-end
+#### **Scenario 4B: Topology Service Unavailable During Commit**
+```mermaid
+sequenceDiagram
+    participant Rails
+    participant TopologyService
+    participant Reconciliation
+    
+    Note over Rails: Local transaction committed
+    Rails->>TopologyService: Commit(lease_id)
+    Note over TopologyService: Service unavailable
+    TopologyService-->>Rails: ServiceUnavailable error
+    Rails->>Rails: Store commit for retry
+    
+    Note over Reconciliation: Retry handler processes failed commit
+    Reconciliation->>TopologyService: Commit(lease_id)
+    TopologyService-->>Reconciliation: Success
 ```
 
-## Topology Service Cloud Spanner schema
+**Recovery**: Retry handler eventually commits the lease
 
-```sql
--- Claims table with integrated lease tracking
-CREATE TABLE claims (
-  claim_id STRING(36) NOT NULL,                    -- UUID for internal tracking
-  scope STRING(50) NOT NULL,                       -- Type of claim (ROUTES, EMAIL, USERNAME)
-  scope_value STRING(255) NOT NULL,                -- The actual value being claimed
-  owner_type STRING(50) NOT NULL,                  -- Type of owner (USER, PROJECT, GROUP)
-  owner_value STRING(255) NOT NULL,                -- Owner identifier
-  cell_id STRING(100) NOT NULL,                    -- Cell ID that created this claim
-  lease_id STRING(36),                             -- NULL for committed claims, UUID for leased claims
-  lease_op STRING(10) NOT NULL DEFAULT 'no-op',   -- 'no-op', 'create', 'destroy'
-  created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
-  updated_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
-) PRIMARY KEY (scope, scope_value);
+---
 
--- CRITICAL CONSTRAINTS: 
--- 1. Objects with lease_id != NULL cannot be claimed by other operations
--- 2. Only the cell that created a claim (cell_id) can destroy it
--- These constraints prevent concurrent operations and unauthorized access
+### **Failure Point 5: Cleanup Failure**
 
--- Outstanding leases table (mirrored with Rails for synchronization)
-CREATE TABLE leases_outstanding (
-  lease_id STRING(36) NOT NULL,                    -- UUID of the lease
-  cell_id STRING(100) NOT NULL,                    -- Cell ID that owns the lease
-  expires_at TIMESTAMP NOT NULL,                   -- When the lease expires
-  lease_payload BYTES(MAX) NOT NULL,               -- Serialized LeasePayload protobuf
-  created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
-) PRIMARY KEY (lease_id);
-
--- Performance and operational indexes
-CREATE INDEX idx_leases_outstanding_cell ON leases_outstanding(cell_id);
-CREATE INDEX idx_leases_outstanding_expires ON leases_outstanding(expires_at);
-CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
-
-CREATE INDEX idx_claims_cell ON claims(cell_id);
-CREATE INDEX idx_claims_lease_id ON claims(lease_id) STORING (lease_op);
-CREATE INDEX idx_claims_lease_op ON claims(lease_op) WHERE lease_op != 'no-op';
-CREATE INDEX idx_claims_scope_lease ON claims(scope, lease_id) WHERE lease_id IS NOT NULL;
-CREATE INDEX idx_claims_owner ON claims(owner_type, owner_value);
+#### **Scenario 5A: Failed to Delete Local Lease Record**
+```mermaid
+sequenceDiagram
+    participant Rails
+    participant RailsDB
+    participant Reconciliation
+    
+    Note over Rails: Commit successful
+    Rails->>RailsDB: DELETE lease record
+    Note over RailsDB: Delete fails
+    RailsDB-->>Rails: ERROR
+    Rails->>Rails: Log warning, continue
+    
+    Note over Reconciliation: Background cleanup finds orphaned record
+    Reconciliation->>RailsDB: DELETE expired lease records
 ```
 
+**Recovery**: Background cleanup eventually removes orphaned records
 
-## Alternative Design: Separate Leased Table with UUID Cross-Join
+## Advanced Behaviors
 
-An alternative approach would be to create a separate `leased` table that references claims by their UUID instead of adding `lease_id` and `lease_op` columns to the claims table:
+### **Lease Exclusivity and Concurrency Control**
+
+```
+Cell A: Execute(create email@example.com) → Lease acquired
+Cell B: Execute(destroy email@example.com) → BLOCKED until Cell A commits/rollbacks
+```
+
+**Behavior**: Objects with active leases cannot be claimed:
+- **Creates**: Will fail with primary key constraint if object exists (regardless of lease status)
+- **Destroys**: Will fail with conditional update if object has `lease_id != NULL`
+- **Temporal Lock**: Object remains locked until lease expires or is committed/rolled back
+- **Automatic Release**: Expired leases are cleaned up, making objects available again
+
+**Example scenarios:**
+1. **Email change collision**: User changes email while admin tries to delete it → One succeeds, other waits
+2. **Route transfer conflict**: Two operations try to move same route → Serialized execution
+3. **Concurrent creation**: Two cells try to create same username → First wins, second fails permanently
+
+### **Multi-Model Coordination**
+
+```
+User + Email + Route changes → Single batch Execute() → All-or-nothing semantics
+```
+
+**Example**: Creating user with email and route:
+1. User model generates username claim
+2. Email model generates email claim  
+3. Route model generates path and name claims
+4. All 4 claims sent in single Execute() call
+5. All models saved in single Rails transaction
+6. All claims committed together
+
+**Why**: Business operations often span multiple models - atomic coordination required
+
+### **Ownership Transfers**
+
+```
+Route.project_id change → Destroy old claim + Create new claim → Atomic transfer
+```
+
+**Example**: Moving route from Project A to Project B:
+1. Generate destroy claim for route@projectA
+2. Generate create claim for route@projectB  
+3. Execute() both in single call
+4. Update route.project_id in Rails
+5. Commit() makes transfer permanent
+
+**Why**: Ownership changes must be atomic to prevent conflicts or ownership gaps
+
+## Performance Characteristics
+
+### **Optimizations**
+
+- **Batch Processing**: Multiple claims in single RPC call
+- **Efficient Indexes**: Cloud Spanner indexes optimized for lease operations
+- **Connection Pooling**: Reuse gRPC connections
+- **Background Processing**: Async cleanup doesn't block user operations
+- **Constraint-Based Conflicts**: Database handles uniqueness without application logic
+
+### **Scalability**
+
+- **Cell Independence**: Each cell operates independently until conflicts
+- **Centralized Coordination**: Only conflicts require cross-cell communication  
+- **Time-Bounded Locks**: Automatic cleanup prevents indefinite blocking
+- **Horizontal Scaling**: Cloud Spanner scales with claim volume
+
+## Why This Design Works
+
+### **1. Exclusive Access Control**
+- Objects can only be modified by one operation at a time
+- Prevents data corruption from concurrent modifications
+- Clear temporal boundaries for exclusive access
+
+### **2. Graceful Concurrency Handling**
+- Permanent conflicts (duplicates) fail immediately
+- Temporary conflicts (leases) can be retried
+- Users get appropriate feedback for different conflict types
+
+### **3. Consistency Without Distributed Transactions**
+- Uses leases instead of 2PC (Two-Phase Commit)
+- Simpler failure modes than distributed transactions
+- Time-bounded recovery from failures
+- **No 2PC Required**: Each cell manages its own local state independently, with coordination only happening through the centralized Topology Service
+
+### **4. Operational Simplicity**  
+- Clear failure modes and recovery procedures
+- Observable through standard metrics and logs
+- Self-healing through Rails-driven cleanup with idempotent Topology Service operations
+- **Immediate Cleanup**: Leases are removed as soon as possible - lingering leases indicate exceptions
+
+### **5. Developer Ergonomics**
+- Transparent integration with ActiveRecord
+- Declarative configuration
+- Familiar transaction semantics
+
+### **6. Production Robustness**
+- Handles network partitions gracefully
+- Automatic recovery from cell crashes
+- Comprehensive error handling and retry logic
+
+## Open Questions and Considerations
+
+### **Performance Considerations**
+- **Batch Size Limits**: What's the maximum number of claims per batch to optimize performance vs. transaction size?
+- **Lease Duration Tuning**: Should lease duration be configurable per operation type, or should it adapt based on historical completion times?
+- **Connection Pooling**: How many concurrent connections should Rails maintain to Topology Service, and how should they be distributed across cells?
+- **Spanner Hotspots**: How to detect and mitigate hotspots on popular claims like common usernames?
+
+### **Security Considerations**
+- **Authentication**: How does Topology Service authenticate cells - mutual TLS, API keys, or JWT tokens?
+- **Authorization**: Should there be additional authorization beyond cell_id matching for cross-cell operations?
+- **Audit Trail**: Should all claim operations be logged for security auditing and compliance?
+- **Rate Limiting**: Should there be per-cell rate limits to prevent abuse or runaway operations?
+
+### **Operational Considerations**
+- **Monitoring**: What metrics should be tracked - lease duration, conflict rates, reconciliation frequency?
+- **Alerting**: When should operators be notified - expired lease threshold, reconciliation failures, or high conflict rates?
+- **Scaling**: How does the system handle increased load on popular claims during peak usage?
+- **Disaster Recovery**: How to handle Topology Service outages and ensure data consistency during recovery?
+
+### **Edge Cases**
+- **Clock Skew**: How does the system handle clock differences between cells and Cloud Spanner?
+- **Lease Expiration Race**: What happens if a lease expires during commit - should it be allowed or rejected?
+- **Partial Batch Failures**: Should the system support partial success in batch operations, or maintain all-or-nothing semantics?
+- **Concurrent Reconciliation**: How to handle multiple reconciliation processes running simultaneously?
+
+### **Future Enhancements**
+- **Lease Renewal**: Should long-running operations be able to extend leases before expiration?
+- **Lease Queuing**: Should there be a queue for waiting operations when leases conflict?
+- **Lease Priorities**: Should certain operations (admin vs. user) have priority over others?
+- **Lease Analytics**: Should the system track lease usage patterns for optimization?
+
+### **Testing Strategy**
+- **Chaos Engineering**: How to test behavior under various failure scenarios - network partitions, service crashes, clock skew?
+- **Load Testing**: What's the maximum throughput the system can handle under various conflict scenarios?
+- **Consistency Testing**: How to verify consistency across all failure modes using techniques like Jepsen testing?
+- **Integration Testing**: How to test the complete flow across Rails, Topology Service, and Cloud Spanner?
+
+## Alternative Approaches to Consider
+
+### **In-Transaction Claims Processing**
+Execute claims within the Rails transaction rather than before it:
+
+```
+1. Local DB: BEGIN
+2. Local DB: INSERT/UPDATE/DESTROY (local operations)
+3. TS DB: Execute() => lease (~100ms)
+4. Local DB: INSERT lease
+5. Local DB: COMMIT
+6. TS DB: Commit(lease)
+```
+
+**Considerations**:
+- **Connection Pool Impact**: Would require strict 250ms timeout on TS Execute to prevent connection pool bottlenecks
+- **Transaction Duration**: Extends every local database transaction by network round-trip time
+- **Lock Contention**: Holds database locks and connections during network operations
+- **Scalability Impact**: Could exhaust connection pools under high concurrency
+
+**Trade-offs**: Simpler error handling vs. resource contention and scalability concerns
+
+### **Separate Leased Table with UUID Cross-Join**
+Create a separate `leased` table that references claims by UUID:
 
 ```sql
 CREATE TABLE leased (
@@ -816,174 +917,36 @@ CREATE TABLE leased (
   lease_id STRING(36) NOT NULL,
   lease_op STRING(10) NOT NULL, -- 'create', 'destroy'
   client_id STRING(100) NOT NULL,
-  created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
+  created_at TIMESTAMP NOT NULL,
 ) PRIMARY KEY (claim_id);
 ```
 
-In this approach, the primary key constraint on `claim_id` in the `leased` table would prevent double-leasing of the same claim object. Operations would query `claims LEFT JOIN leased ON claims.claim_id = leased.claim_id` to determine lease status. Create operations would insert into both `claims` and `leased` tables, while destroy operations would insert only into `leased` (cross-referencing existing claims by UUID). An object would be considered unlocked if no corresponding record exists in the `leased` table. This design provides cleaner separation between permanent ownership (claims table) and temporary locking (leased table), makes lease queries more efficient since you can directly query the leased table, and allows for more complex lease metadata without cluttering the main claims table. However, it requires JOIN operations for most queries and increases transaction complexity. The current integrated approach was chosen for simplicity and single-table query performance, but the separate leased table could be preferable for scenarios requiring detailed lease analytics or when lease metadata becomes more complex.
+**Benefits**:
+- **Cleaner Separation**: Permanent ownership (claims) vs. temporary locking (leased)
+- **Efficient Lease Queries**: Direct queries against leased table
+- **Complex Lease Metadata**: Room for detailed lease analytics without cluttering claims table
 
-### Cloud Spanner Transaction Challenges with Separate Leased Table
+**Considerations**:
+- **JOIN Complexity**: Most queries require joins between claims and leased tables
+- **Transaction Atomicity**: More complex to ensure referential integrity across tables
+- **Race Conditions**: Higher risk of inconsistent state between table operations
+- **Cloud Spanner Limitations**: No foreign key constraints, potential for orphaned records
 
-The separate `leased` table approach introduces significant complexity for atomic transactions in Cloud Spanner, particularly around ensuring referential integrity and preventing race conditions.
+**Trade-offs**: Better separation of concerns vs. increased transaction complexity and performance overhead
 
-**Race Condition Issues:**
-- **Create Operations**: Need to atomically INSERT into `claims` and `leased`, but if another transaction inserts the same claim between these operations, you get inconsistent state
-- **Destroy Operations**: Need to verify claim exists in `claims` before inserting into `leased`, creating a window for race conditions
-- **Cross-Table Consistency**: Ensuring `leased.claim_id` always references valid `claims.claim_id` requires careful transaction ordering
+### **Two-Phase Commit (2PC)**
+Use traditional distributed transactions across cells:
 
-**Cloud Spanner Specific Limitations:**
-- **No Foreign Key Constraints**: Cloud Spanner doesn't enforce referential integrity automatically, so orphaned `leased` records are possible
-- **Transaction Hotspots**: High contention on popular claims could cause transaction aborts when multiple operations try to lease the same object
-- **JOIN Performance**: Cross-table joins in transactions can impact performance and increase abort rates under high concurrency
+**Benefits**:
+- **Proven Pattern**: Well-understood distributed transaction semantics
+- **Strict Consistency**: Guaranteed atomicity across all participants
 
-**Atomic Transaction Complexity:**
-```sql
--- This sequence must be atomic but is prone to race conditions:
-1. CHECK if claim exists in claims table
-2. CHECK if claim is not in leased table  
-3. INSERT/UPDATE claims table
-4. INSERT into leased table
--- Any failure between steps leaves inconsistent state
-```
+**Considerations**:
+- **Coordinator Failure**: Single point of failure that can block all participants
+- **Performance Overhead**: Multiple network round-trips and blocking phases
+- **Operational Complexity**: Requires distributed transaction coordinator management
+- **Recovery Complexity**: Manual intervention often needed for failed transactions
 
-The current integrated approach with `lease_id` and `lease_op` columns in the claims table avoids these issues by keeping all lease state in a single table, making atomic operations straightforward and reducing the likelihood of transaction conflicts. While the separate table design has theoretical benefits for separation of concerns, the practical challenges of maintaining atomicity across multiple tables in a distributed database make the integrated approach more reliable for this use case.
-
-This comprehensive design provides a robust foundation for distributed coordination in GitLab's cellular architecture while maintaining operational simplicity and strong consistency guarantees.
-
-## Alternative Approach: In-Transaction Claims Processing
-
-An alternative implementation would be to run Execute()/INSERT lease_id before doing local DB Commit, but after BEGIN - so within a Rails transaction:
-
-```
-1. Local DB: BEGIN
-2. Local DB: INSERT/UPDATE/DESTROY (local operations)
-3. TS DB: Execute() => lease (~100ms)
-4. Local DB: INSERT lease
-5. Local DB: COMMIT
-6. TS DB: Commit(lease)
-```
-
-However, this approach is **problematic** because:
-
-- **Connection Pool Bottleneck**: We would have to be very strict on TS Execute to execute within 250ms, as otherwise it can create a bottleneck on a cell that might hold local connections
-- **Transaction Duration**: Extends every local database transaction by the network round-trip time
-- **Lock Contention**: Holds database locks and connections during network operations
-- **Scalability Risk**: Could exhaust connection pools and block other operations on the cell
-
-**Why the Primary Design is Better:**
-
-The recommended approach (Execute → Local DB → Commit) avoids these issues by:
-- Keeping local database transactions fast and focused
-- Failing fast on conflicts before acquiring local resources
-- Not holding database connections during network operations
-- Providing better scalability characteristics for high-concurrency scenarios
-
-## Why 2PC (Two-Phase Commit) is Not Needed
-
-Traditional distributed systems often require 2PC to ensure atomicity across multiple databases. However, this design avoids 2PC complexity through several key architectural decisions:
-
-### **Centralized Coordination**
-- **Single Source of Truth**: All global state is managed in one place (Topology Service with Cloud Spanner)
-- **Local Autonomy**: Each cell manages only its local state independently
-- **No Cross-Cell Transactions**: Cells never need to coordinate directly with each other
-
-### **Lease-Based Temporal Coordination**
-- **Time-Bounded Locks**: Operations are coordinated through time-bounded exclusive access rather than distributed locks
-- **Eventual Consistency**: Failed operations automatically clean up through lease expiration
-- **No Blocking**: Other cells can proceed with different operations while one cell holds a lease
-
-### **Simplified Failure Modes**
-- **No Coordinator Failure**: Unlike 2PC, there's no distributed coordinator that can fail and block all participants
-- **Automatic Recovery**: Expired leases automatically release resources without manual intervention
-- **Independent Rollback**: Each cell can independently rollback its local changes without coordinating with other cells
-
-### **Operational Benefits**
-- **Reduced Complexity**: No need to manage distributed transaction coordinators or prepare/commit protocols
-- **Better Performance**: Eliminates the coordination overhead and network round-trips of 2PC
-- **Easier Debugging**: Simpler failure scenarios and clearer error paths
-
-## Claim Ownership and Destruction
-
-**Critical Security Constraint**: Only the cell that created a claim can destroy it.
-
-### **Ownership Enforcement**
-- **Cell ID Verification**: All destroy operations require the requesting cell to match the claim's original creator
-- **Prevents Interference**: Cells cannot destroy claims created by other cells
-- **Security Isolation**: Malicious or buggy cells cannot disrupt other cells' data
-
-### **Implementation Details**
-```sql
--- Destroy operations verify claim ownership
-UPDATE claims 
-SET lease_id = @lease_id, lease_op = 'destroy', updated_at = PENDING_COMMIT_TIMESTAMP()
-WHERE scope = @scope AND scope_value = @scope_value 
-  AND lease_id IS NULL 
-  AND cell_id = @requesting_cell_id  -- Only creator can destroy
-```
-
-### **Operational Benefits**
-- **Data Protection**: Claims are protected from accidental or malicious deletion by other cells
-- **Audit Trail**: Clear ownership chain for all claim operations
-- **Prevents Conflicts**: Eliminates scenarios where multiple cells try to manage the same claim
-
-## Alternative Approach: In-Transaction Claims Processing
-
-An alternative implementation would be to run Execute()/INSERT lease_id before doing local DB Commit, but after BEGIN - so within a Rails transaction:
-
-```
-1. Local DB: BEGIN
-2. Local DB: INSERT/UPDATE/DESTROY (local operations)
-3. TS DB: Execute() => lease (~100ms)
-4. Local DB: INSERT lease
-5. Local DB: COMMIT
-6. TS DB: Commit(lease)
-```
-
-However, this approach is **problematic** because:
-
-- **Connection Pool Bottleneck**: We would have to be very strict on TS Execute to execute within 250ms, as otherwise it can create a bottleneck on a cell that might hold local connections
-- **Transaction Duration**: Extends every local database transaction by the network round-trip time
-- **Lock Contention**: Holds database locks and connections during network operations
-- **Scalability Risk**: Could exhaust connection pools and block other operations on the cell
-
-**Why the Primary Design is Better:**
-
-The recommended approach (Execute → Local DB → Commit) avoids these issues by:
-- Keeping local database transactions fast and focused
-- Failing fast on conflicts before acquiring local resources
-- Not holding database connections during network operations
-- Providing better scalability characteristics for high-concurrency scenarios
-
-## Glossary
-
-**Cell**: An independent GitLab instance that can operate autonomously but coordinates with other cells for global uniqueness.
-
-**Claim**: A request to own a globally unique resource (username, email, route path, etc.).
-
-**Lease**: A time-bounded exclusive lock on one or more claims, preventing other cells from modifying the same resources.
-
-**Lease Exclusivity**: The property that objects with active leases (`lease_id != NULL`) cannot be claimed by other operations.
-
-**Lease Payload**: The complete context of a lease, including the original request, stored as a protobuf in Cloud Spanner.
-
-**Topology Service**: The centralized coordination service that manages claims and leases across all GitLab cells.
-
-**Cell ID**: The unique identifier for a GitLab cell, used to track which cell created each claim and enforce destruction permissions.
-
-**Scope**: The type of claim being made (EMAIL, USERNAME, ROUTES, etc.).
-
-**Scope Value**: The actual value being claimed (e.g., "john@example.com" for an email claim).
-
-**Lease Operation (lease_op)**: The intended operation on a claim - 'create' for new claims, 'destroy' for removing claims, 'no-op' for committed claims.
-
-**Conditional Update**: A database operation that only succeeds if certain conditions are met (e.g., `WHERE lease_id IS NULL`).
-
-**Lease Expiration**: The automatic cleanup process that removes expired leases and their associated claims.
-
-**Reconciliation**: The background process that synchronizes lease state between Rails and Cloud Spanner.
-
-**Atomic Batch Operation**: Processing multiple related claims together in a single transaction to ensure all-or-nothing semantics.
-
-**Temporal Isolation**: The property that operations are isolated in time through leases, preventing concurrent modifications.
+**Trade-offs**: Theoretical consistency guarantees vs. practical operational complexity and performance impact
 
 This comprehensive design provides a robust foundation for distributed coordination in GitLab's cellular architecture while maintaining operational simplicity and strong consistency guarantees.
