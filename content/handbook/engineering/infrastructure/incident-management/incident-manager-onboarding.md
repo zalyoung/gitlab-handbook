@@ -26,10 +26,9 @@ Some of this may feel counter to GitLab Values; this is not designed or intended
 The Incident Manager role will be staffed by all team members within this scope:
 
 - [Job Grades 8 and 9](/handbook/total-rewards/compensation/compensation-calculator/#job-grades)
-- Development and Infrastructure departments
-- All Staff Engineer, SRE, and Engineering Manager Job Families
-- All specialties within the above Job Families (for example: Staff Backend Engineer, Staff Frontend Engineer, Frontend Engineering Manager, etc..)
-- Not already engaged in another oncall assignment.
+- Team members in the Engineering Group
+- All job families in the Engineering Group except for Customer Support
+- Not already engaged in another oncall assignment where participants are paged and have a response time of <15minutes
 - Employed at the company for at least 3 months (same criteria for [eligibility to join the Dev Escalation rotation](/handbook/engineering/development/processes/infra-dev-escalation/process/#eligibility))
 
 As an Incident Manager, Team Members learn how we run GitLab.com and other GitLab SaaS environments. They help ensure the availability goals for GitLab.com by working with reliability engineers on call and development team members. The experience and awareness gained in this role leads to better understanding of building GitLab at scale and ultimately, a more reliable and scalable GitLab SaaS service and product.
