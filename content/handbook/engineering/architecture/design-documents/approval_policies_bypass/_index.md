@@ -195,7 +195,6 @@ bypass_settings:
     - id: 456
     - id: 567
   roles:
-    - name: "Maintainer"
     - id: 145
 ```
 
