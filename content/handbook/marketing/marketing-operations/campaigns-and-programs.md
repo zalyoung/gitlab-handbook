@@ -923,7 +923,7 @@ Interesting Moments for content syndication are global. This means that you only
   - **Finding the Content Code**:
     - FY26+ assets: Content Code is listed in column C on the [Content URL builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
     - Pre-FY26 assets: Use the `url-slug` listed for the asset in the [content_keystone.yaml](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/gitlab_data_yaml/content_keystone.yaml).
-  - **Hyperscaler campaigns**: Additional naming requirements apply. See [Hyperscaler Campaign Handbook page](https://handbook.gitlab.com/handbook/marketing/channel-marketing/hyperscalers) and [Special Instructions for Content Syndication Teams](https://handbook.gitlab.com/handbook/marketing/channel-marketing/hyperscalers/#special-instructions-for-content-syndication-teams).
+  - **Hyperscaler campaigns**: Additional naming requirements apply. See [Hyperscaler Campaign Handbook page](/handbook/marketing/channel-marketing/hyperscalers) and [Special Instructions for Content Syndication Teams](/handbook/marketing/channel-marketing/hyperscalers/#special-instructions-for-content-syndication-teams).
   - You can use the [Content Syndication Salesforce Campaign Name Generator](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit?gid=839155620#gid=839155620) to auto-generate non-hyperscaler campaign names.
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
 - Refer to instructions  [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
@@ -1031,7 +1031,7 @@ You must keep the same Asset number for existing assets, otherwise the existing 
   - **Finding the Content Code**:
     - FY26+ assets: Content Code is listed in column C on the [Content URL builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
     - Pre-FY26 assets: Use the `url-slug` listed for the asset in the [content_keystone.yaml](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/gitlab_data_yaml/content_keystone.yaml).
-  - **Hyperscaler campaigns**: Additional naming requirements apply. See [Hyperscaler Campaign Handbook page](https://handbook.gitlab.com/handbook/marketing/channel-marketing/hyperscalers) and [Special Instructions for Content Syndication Teams](https://handbook.gitlab.com/handbook/marketing/channel-marketing/hyperscalers/#special-instructions-for-content-syndication-teams).
+  - **Hyperscaler campaigns**: Additional naming requirements apply. See [Hyperscaler Campaign Handbook page](/handbook/marketing/channel-marketing/hyperscalers) and [Special Instructions for Content Syndication Teams](/handbook/marketing/channel-marketing/hyperscalers/#special-instructions-for-content-syndication-teams).
   - You can use the [Content Syndication Salesforce Campaign Name Generator](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit?gid=839155620#gid=839155620) to auto-generate non-hyperscaler campaign names.
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
 - Refer to instructions  [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
