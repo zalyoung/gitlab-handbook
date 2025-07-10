@@ -175,6 +175,7 @@ We operate using async communication by default. There are times when a sync dis
 * [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/ai-framework-retros)
 * [Chat QA Evaluation](https://gitlab.com/gitlab-org/ai-powered/ai-framework/qa-evaluation)
 * [Chat REST API Error Ratio](https://log.gprd.gitlab.net/app/r/s/lDEwi)
+* [ITPM per model](https://dashboards.gitlab.net/goto/-O0w_rsHg?orgId=1)
 * [Internal handbook page](https://internal.gitlab.com/handbook/engineering/ai/ai-framework)
 
 ### 📹 GitLab Unfiltered Playlist
