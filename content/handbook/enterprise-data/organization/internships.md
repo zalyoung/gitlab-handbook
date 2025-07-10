@@ -18,11 +18,13 @@ Welcome to the **Data Team Internship Program** page. The Enterprise Data team i
 We seek to partner every incoming Data Team Intern with a Mentor - a current individual contributor Data Team member who has the capacity and skills to help interns onboard to our data stack, learn about best practices in the field of data, and deliver a data project.
 
 A team member who is interested in exploring an internship with the Data Team is encouraged to:
+
 - Discuss their interest with their manager
 - Schedule a coffee chat with a member of the data team to learn more about different focus areas in the team
 - Open an [Internship for Learning issue](https://gitlab.com/gitlab-com/people-group/Training/-/issues/new?description_template=internship_for_learning)
 
 To formalize the beginning of an internship, the following should be documented in the issue:
+
 - The intern should document the time allocation for the program that has been agreed upon with their manager (for Data Team internships, this typically ranges from 25%-50% with a 1 quarter commitment)
 - A member of Data Team leadership should confirm capacity for the internship in the specified quarter
 - A mentor should be assigned for the duration of the internship
@@ -74,4 +76,4 @@ An internship gives you insight into a [Data Team role](/handbook/enterprise-dat
 - Positive and solution-oriented mindset
 - Comfort working in a highly agile, intensely iterative environment
 - Self-motivated and self-managing, with task organizational skills
-- Working knowledge of, or demonstrated hands-on interest and propensity for learning
+- Working knowledge of, or demonstrated hands-on interest and propensity for learning SQL
