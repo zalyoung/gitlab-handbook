@@ -155,8 +155,9 @@ For instance, the Instance Admin can ban or delete a User on behalf of the Organ
 ## Routing
 
 Today only Users, Projects, Namespaces and container images are considered routable entities which require global uniqueness on `https://gitlab.com/<path>/-/`.
-Initially, Organization routes will be [unscoped](https://docs.gitlab.com/ee/development/routing.html).
-Organizations will follow the path `https://gitlab.com/-/organizations/org-name/` as one of the design goals is that the addition of Organizations should not change existing Group and Project paths.
+We will update routing rules to allow existing globally scoped routes, and introduce a new parallel set of Organization scoped routes.
+The globally scoped routes will maintain backwards compatibility with existing routes, and also reduce path verbosity for platforms other than GitLab.com which are likely to have a single Organization.
+There are further details on [Current Organization](current_organization.md)
 
 ## Organization Development
 
