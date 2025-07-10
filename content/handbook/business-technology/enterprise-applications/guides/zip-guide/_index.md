@@ -117,6 +117,28 @@ If there is an existing purchase order (PO) that needs a change, follow the step
 
 **IMPORTANT** Change Request can only be submitted if there is a released Coupa Purchase Order (PO). If you have to update a req that is running through approvals in Coupa/ZIP please contact the Procurement Team.
 
+**Type of Changes**
+
+**Administrative Changes (No ZIP Change Request Reuired)**
+
+If you need to update **administrative information only** with **no changes to the PO amount**, contact the Procurement Team directly via the #Procurement Slack channel. No ZIP Change Request is required for these updates:
+
+   - Department
+   - Service end Date
+   - Commodity
+   - Amortization Schedule
+   - GitLab Entity
+
+The Procurement team can revise the PO and bypass approvals for these administrative changes.
+
+**Document Changes (ZIP Change Request Required)**
+
+If there are no changes to the PO amount but you need to **sign an additional document**, submit a Change Request via ZIP and attach the document for review.
+
+**Amount Changes (ZIP Change Request Required)**
+
+If there are changes to the PO amount, follow the full ZIP Change Request process below.
+
 1. Login to your [Okta home page.](https://gitlab.okta.com/app/UserHome)
 2. Open ZIP
 3. Click on `+New Request` on the right side of the top menu.
