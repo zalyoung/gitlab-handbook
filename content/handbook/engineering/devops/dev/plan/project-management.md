@@ -65,32 +65,64 @@ When estimating the effort involved in upcoming work, we use the same approach a
 To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development/how-we-work/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
 
 - Feature (Epic) - Contains all of the necessary vertical feature slices to default the corresponding feature flag to "on". The feature epic will also serve as the location to generate a corresponding Release Post item MR. The feature epic should be scoped to the [minimal amount of functionality that still provides customer value](/handbook/product/product-principles/#the-minimal-valuable-change-mvc). Additional scope planned for future enhancements should be stored in follow-on epics.
-  - Spike (Issue) - If we are unable to accurately estimate the effort necessary to implement the feature, we first conduct a [spike](#spikes)
+  - Spike (Issue) - If we are unable to accurately estimate the effort necessary to implement the feature, we first conduct a spike
   - UX (Issue) - For larger initiatives, UX creates a separate UX issue that serves as the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented. [Learn more about UX issues](/handbook/product/ux/product-design/ux-roadmaps/).
   - Vertical Feature Slice (Issue) - A subset of the feature that can be completed within a single milestone, tested, and verified within the `plan-stage` group on production.
     - Engineering Tasks (Task - *Optional*) - One or more engineering tasks that need to be completed in order to deliver the vertical feature slice. The scope of a task should generally correlate to a single MR.
 
 During the `~workflow::planning breakdown` phase, all issues need to be weighted so we can efficiently and effectively collaborate with Product and UX on "right sizing" the feature epic. It's advisable that all issues are connected to a parent epic that describes the broader set of improvements we are proposing within a specific area of the product. The desired outcome is to ensure it's as small as possible, maximizes our ability to iterate, and makes it easy to track overall progress on delivery, while providing meaningful value and avoiding an undue amount of "change fatigue" for our customers.
 
-#### Spikes
+### Engineering work rotation
 
-There is a decent amount of complexity in the features that we as a team are responsible for, and we're aiming to determine where the majority of risks involved in building a feature are prior to commitments being made and development starting. We are trying out a concept of a rotation of DRIs for spikes. Spikes will be a two week time period where one engineer DRI works exclusively on breaking down an issue/epic by asking questions to determine risk and complexity, creating proof of concepts, and writing up iteration plans for implementation.
+To ensure we consistently address technical debt, security issues, and the bug
+backlog alongside our product commitments, we're implementing a milestone-based
+rotation system. Each milestone, one backend and one frontend engineer will
+dedicate their time to engineering-focused work instead of feature development.
 
-The DRI will not be expected to produce MRs during the period they are on rotation, but instead, will be expected to produce issue artifacts at the end of the period, so that a first iteration can be worked on in the following milestone (either by the DRI or other engineers).
+#### How it works
 
-By the end of the spike, there should be documented acceptance criteria for a first iteration, that the internal parties (spike DRI, PM, UX, and EM) have all agreed to.
+**Rotation Schedule**
 
-DRI rotation:
+- One milestone at a time
+- 100% dedication during rotation period
+- One backend engineer and one frontend engineer per milestone
+- Engineers will not be in the rotation pool while serving as a DRI of a long-term initiative
 
-| DRI | Start date | End date | Spike |
-| --- | --- | --- | --- |
-| Alexandru Croitor | 2023-01-23 | 2023-02-03 | [Moving work items](https://gitlab.com/gitlab-org/gitlab/-/issues/387304) |
-| Simon Knox | 2023-02-06 | 2023-02-17 | [Frontend of work items at the group level](https://gitlab.com/gitlab-org/gitlab/-/issues/390432) |
-| Heinrich Lee Yu | 2023-02-20 | 2023-03-03 | [Group by work items](https://gitlab.com/gitlab-org/gitlab/-/issues/392418) |
-| Coung Ngo | 2023-03-13 | 2023-03-24 | [Group by work items](https://gitlab.com/gitlab-org/gitlab/-/issues/392418) ~frontend focused |
-| Mario Celi | 2023-03-27 | 2023-04-07 | |
-| Deepika Guliana | 2023-04-10 | 2023-04-21 | |
-| Eulyeon Ko | 2023-04-24 | 2023-05-05 | |
+**Focus Areas** Non-exhaustive list of work that can be picked up during
+rotations:
+
+- Security issues nearing or past SLAs
+- Bug backlog reduction
+- Database scalability and performance
+- General technical debt and refactoring
+
+#### Why this approach
+
+1. **Consistent Progress**: Engineering health work won't be perpetually
+   deferred
+1. **Knowledge Sharing**: Different team members gain experience with different
+   parts of our codebase and different processes
+1. **Deep Focus**: 100% dedication allows engineers the focus to work on complex
+   problems without context switching
+1. **Predictable Planning**: We know exactly when engineers will be unavailable
+   for feature work
+
+#### Implementation guidelines
+
+- Engineers on rotation are protected from feature work pulls (except critical
+escalations)
+- Each rotation should include handoff notes for continuity
+- We'll adjust focus areas based on Core DevOps and company priorities
+
+#### Success Metrics
+
+We'll track:
+
+- Reduction in overdue and overall security issues
+- Bug backlog velocity
+- Performance improvements
+- Availability/error budget improvements
+- Team satisfaction with the rotation system
 
 ### Collaboration between backend and frontend
 
