@@ -10,6 +10,8 @@ toc_hide: true
 
 This document outlines the design goals and architecture of Topology Service implementing transactional behavior for Claims Service.
 
+
+
 ## Overview
 
 This system implements a **distributed lease-based coordination mechanism** for managing globally unique claims (like usernames, emails, routes) across multiple GitLab cells. It ensures that only one cell can "own" a particular claim at any given time, preventing conflicts in a distributed environment.
@@ -637,10 +639,6 @@ message ListOutstandingLeasesResponse {
 module CellsUniqueness
   extend ActiveSupport::Concern
 
-  included do
-    attr_accessor :pending_claims_batch
-  end
-
   class_methods do
     def cell_cluster_unique_attributes(*attributes, sharding_key_object:, claim_type:, owner_type:)
       @cell_unique_config = {
@@ -650,281 +648,10 @@ module CellsUniqueness
         owner_type: owner_type
       }
     end
-
-    def cell_unique_config
-      @cell_unique_config
-    end
-
-    # Execute claims for multiple models in a single batch request
-    def execute_batched_claims(models)
-      return unless models.any? { |model| model.should_execute_claims? }
-
-      creates = []
-      destroys = []
-      client_id = models.first.current_cell_id
-
-      # Collect all creates and destroys from all models
-      models.each do |model|
-        next unless model.should_execute_claims?
-        
-        model_creates, model_destroys = model.build_claim_records
-        creates.concat(model_creates)
-        destroys.concat(model_destroys)
-      end
-
-      return if creates.empty? && destroys.empty?
-
-      begin
-        request = Gitlab::Cells::Claims::V1::ExecuteRequest.new(
-          client_id: client_id,
-          creates: creates,
-          destroys: destroys
-        )
-        
-        response = topology_service_client.execute(request)
-        
-        # Create lease record in Rails DB (synchronized with Cloud Spanner)
-        lease = LeasesOutstanding.create!(
-          lease_id: response.lease_payload.lease_id,
-          expires_at: response.lease_payload.lease_expires_at.to_time
-        )
-
-        # Store lease reference in all models for commit/rollback
-        models.each do |model|
-          model.pending_claims_batch = lease if model.should_execute_claims?
-        end
-
-        lease
-      rescue GRPC::BadStatus => e
-        # Add errors to all models that have changes
-        models.each do |model|
-          if model.should_execute_claims?
-            error_message = case e.code
-            when GRPC::Core::StatusCodes::ALREADY_EXISTS
-              "#{model.class.name} value already taken by another cell"
-            when GRPC::Core::StatusCodes::RESOURCE_EXHAUSTED
-              "#{model.class.name} is temporarily locked - please try again"
-            else
-              "Topology service error: #{e.message}"
-            end
-            model.errors.add(:base, error_message)
-          end
-        end
-        raise ActiveRecord::RecordInvalid.new(models.first)
-      end
-    end
-
-    private
-
-    def topology_service_client
-      @topology_service_client ||= Gitlab::Cells::TopologyServiceClient.new
-    end
-  end
-
-  # Instance methods for individual model handling
-  def should_execute_claims?
-    return false unless self.class.cell_unique_config
-    
-    config = self.class.cell_unique_config
-    config[:attributes].any? { |attr| attribute_changed?(attr) }
-  end
-
-  def build_claim_records
-    config = self.class.cell_unique_config
-    creates = []
-    destroys = []
-    
-    config[:attributes].each do |attr|
-      if attribute_changed?(attr)
-        old_value = attribute_was(attr)
-        new_value = attribute_change(attr)[1]
-        
-        # If there was an old value, mark it for destruction
-        if old_value.present?
-          destroys << build_claim_record(attr, old_value, config)
-        end
-        
-        # If there's a new value, mark it for creation
-        if new_value.present?
-          creates << build_claim_record(attr, new_value, config)
-        end
-      end
-    end
-    
-    [creates, destroys]
-  end
-
-  private
-
-  def build_claim_record(attribute, value, config)
-    owner_value = case config[:owner_type]
-    when :user
-      { str: resolve_user_id.to_s }
-    when :project
-      { i64: resolve_project_id }
-    when :group
-      { i64: resolve_group_id }
-    else
-      { str: 'unknown' }
-    end
-
-    Gitlab::Cells::Claims::V1::ClaimRecord.new(
-      scope: map_claim_type_to_scope(config[:claim_type]),
-      scope_value: value,
-      owner: config[:owner_type].to_s.upcase,
-      **owner_value
-    )
-  end
-
-  def resolve_user_id
-    respond_to?(:user_id) ? user_id : id
-  end
-
-  def resolve_project_id
-    respond_to?(:project_id) ? project_id : (respond_to?(:group_id) ? group_id : id)
-  end
-
-  def resolve_group_id
-    respond_to?(:group_id) ? group_id : id
-  end
-
-  def map_claim_type_to_scope(claim_type)
-    case claim_type
-    when Gitlab::Cells::ClaimType::Emails
-      :EMAIL
-    when Gitlab::Cells::ClaimType::Routes
-      :ROUTES
-    when Gitlab::Cells::ClaimType::Usernames
-      :USERNAME
-    else
-      :UNSPECIFIED
-    end
-  end
-
-  def current_cell_id
-    Gitlab::Cells.current_cell_id
   end
 end
 
-# ActiveRecord model for outstanding leases (mirrored with Cloud Spanner)
-class LeasesOutstanding < ApplicationRecord
-  scope :expired, -> { where('expires_at <= ?', Time.current) }
-
-  validates :lease_id, presence: true, uniqueness: true
-  validates :expires_at, presence: true
-
-  def expired?
-    expires_at <= Time.current
-  end
-
-  # Commit the lease and remove from both Rails DB and Cloud Spanner
-  def commit!
-    begin
-      commit_request = Gitlab::Cells::Claims::V1::CommitRequest.new(
-        client_id: Gitlab::Cells.current_cell_id,
-        lease_id: lease_id
-      )
-      
-      topology_service_client.commit(commit_request)
-      
-      # Remove from Rails DB after successful commit to Cloud Spanner
-      destroy!
-    rescue => e
-      Rails.logger.error "Failed to commit lease #{lease_id}: #{e.message}"
-      ClaimsLeaseCommitJob.perform_later(lease_id)
-      raise
-    end
-  end
-
-  # Rollback the lease and remove from both Rails DB and Cloud Spanner
-  def rollback!
-    begin
-      rollback_request = Gitlab::Cells::Claims::V1::RollbackRequest.new(
-        client_id: Gitlab::Cells.current_cell_id,
-        lease_id: lease_id
-      )
-      
-      topology_service_client.rollback(rollback_request)
-      
-      # Remove from Rails DB after successful rollback in Cloud Spanner
-      destroy!
-    rescue => e
-      Rails.logger.error "Failed to rollback lease #{lease_id}: #{e.message}"
-      raise
-    end
-  end
-
-  private
-
-  def topology_service_client
-    @topology_service_client ||= Gitlab::Cells::TopologyServiceClient.new
-  end
-end
-
-# Transaction wrapper for batched claims handling
-class ClaimsBatchedTransaction
-  def self.execute(models, &block)
-    # Filter models that need claims processing
-    models_with_claims = models.select(&:should_execute_claims?)
-    
-    return yield if models_with_claims.empty?
-
-    # Execute claims lease BEFORE Rails DB transaction
-    lease = models.first.class.execute_batched_claims(models)
-    
-    begin
-      # Execute the Rails DB transaction
-      result = ApplicationRecord.transaction do
-        yield
-      end
-
-      # Commit the lease AFTER successful Rails DB transaction
-      lease.commit!
-      result
-    rescue => e
-      # Rollback the lease if Rails DB transaction failed
-      lease.rollback! if lease&.persisted?
-      raise
-    end
-  end
-end
-
-# Example model implementations
-class User < ApplicationRecord
-  include CellsUniqueness
-
-  has_many :emails, dependent: :destroy
-  has_many :routes, dependent: :destroy
-
-  cell_cluster_unique_attributes :username,
-    sharding_key_object: -> { self },
-    claim_type: Gitlab::Cells::ClaimType::Usernames,
-    owner_type: :user
-
-  private
-
-  def user_id
-    id
-  end
-end
-
-class Email < ApplicationRecord
-  include CellsUniqueness
-
-  belongs_to :user
-
-  cell_cluster_unique_attributes :email,
-    sharding_key_object: -> { user },
-    claim_type: Gitlab::Cells::ClaimType::Emails,
-    owner_type: :user
-
-  private
-
-  def user_id
-    user.id
-  end
-end
-
+# Example model implementation
 class Route < ApplicationRecord
   include CellsUniqueness
 
@@ -935,12 +662,6 @@ class Route < ApplicationRecord
     sharding_key_object: -> { project || group },
     claim_type: Gitlab::Cells::ClaimType::Routes,
     owner_type: :project
-
-  private
-
-  def project_id
-    project&.id || group&.id
-  end
 end
 ```
 
