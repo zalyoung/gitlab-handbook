@@ -5,7 +5,7 @@ creation-date: "2024-06-04"
 authors: [ "@aakriti.gupta", "@brodock", "@ibaum", "@kyetter" ]
 coach: [ ]
 approvers: []
-owning-stage: "~devops::systems"
+owning-stage: ~"devops::data access"
 participating-stages: []
 toc_hide: true
 ---
@@ -18,9 +18,9 @@ toc_hide: true
 
 This tool will be aware of the nuances of each runtime environment configuration and it will make adaptations to capture and restore data appropriately. It will stand as the primary recommended solution for most customers going forward.
 
-Early development on this tool will focus on providing value to self-hosted customers of GitLab by supporting the variety of installation types and common architectures. For these customers, we will focus on simplifying the disaster recovery process into a common set of recommendations. Additionally, we will work to resolve scalability problems with current backup solutions by supporting the cloud service integration capabilities of large high-usage GitLab instances.
+Development on this tool will focus on providing value to self-hosted customers of GitLab by supporting the variety of installation types and common architectures. For these customers, we will focus on simplifying the disaster recovery process into a common set of recommendations. Additionally, we will work to resolve scalability problems with current backup solutions by supporting the cloud service integration capabilities of large high-usage GitLab instances.
 
-However, we will quickly move into the next phase of the project, which will focus on the specialized needs of [GitLab Dedicated](https://about.gitlab.com/dedicated/). This will provide value to the Dedicated Group in terms of automating and streamlining backup creation and restoration with our standard dedicated architectures on Google and Amazon cloud services.
+Early development on this tool will focus on the specialized needs of GitLab Cells deployments on GCP for the [Tenant Scale](/handbook/engineering/infrastructure-platforms/tenant-scale/) group.
 
 ## Background
 
@@ -105,6 +105,15 @@ With Unified Backups we have the following goals:
 
 By centralizing the codebase into a single project, we aim to simplify the implementation for the permutations of environments and installation types we support. Having everything in a single location makes it easier to test and extend the code.
 
+**A decoupled tool**
+
+There currently are multiple tools used to backup a GitLab instance:
+
+- The [`gitlab:backup` rake tasks](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/tasks/gitlab/backup.rake?ref_type=heads) are part of the main rails repository
+- When using [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab), the `gitlab-backup` is included as a wrapper around the backup Rake tasks.
+- The [backup-utility](https://gitlab.com/gitlab-org/build/CNG/-/blob/master/gitlab-toolbox/scripts/bin/backup-utility) is used for backups in Kubernetes enabled environments.
+- The new tool ([`gitlab-backup-cli`](https://gitlab.com/gitlab-com/gl-infra/data-access/durability/gitlab-backup-cli)) will be distributed alongside the main GitLab codebase as a standalone CLI.
+
 **Supporting multiple cloud providers**
 
 Adding support to new cloud providers will follow an approach similar to the adapter pattern, where we have a generic business logic on how to backup each data-type, and a specialized version for each cloud provider.
@@ -125,27 +134,16 @@ Consistent backups can be taken during downtime.
 
 Online Consistent Backups will be explored through [epic 12043](https://gitlab.com/groups/gitlab-org/-/epics/12043).
 
-**On-going design discussions**
+**Integrating with the Unified Backup CLI**
 
-The results of the following on-going [technical design discussions](https://gitlab.com/groups/gitlab-org/-/epics/14081) will be added to the blueprint.
-
-- [Investigate scaling backups](https://gitlab.com/gitlab-org/gitlab/-/issues/468677)
-- [How to limit concurrency of backup processes?](https://gitlab.com/gitlab-org/gitlab/-/issues/468313)
-- [How to restore a cloud backup with the `gitlab-backup-cli`?](https://gitlab.com/gitlab-org/gitlab/-/issues/465999)
-- [Add how distribution will work with this tool](https://gitlab.com/gitlab-org/gitlab/-/issues/466040)
-- [Investigate how to handle mixed Portable and Cloud backups](https://gitlab.com/gitlab-org/gitlab/-/issues/465529)
-- [Investigate what is required to support Kubernetes and large reference architectures](https://gitlab.com/gitlab-org/gitlab/-/issues/427359)
-- [Investigate how to support backing up Omnibus configuration and secrets](https://gitlab.com/gitlab-org/gitlab/-/issues/428515)
-- [What infra provisioning is needed for each type of datatype being backed up in the cloud?](https://gitlab.com/gitlab-org/gitlab/-/issues/466038)
-- [How to handle Redis data (not backed up)?](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
-- [Investigate Gitaly improvements to Backup](https://gitlab.com/gitlab-org/gitlab/-/issues/465534)
+In order to make the tool easy to integrate with external tools, we will provide optional machine-readable output in JSON format.
 
 ### Limitations
 
 - We don't support the data in a Cloud-based Backup to be exportable to a Portable Backup format or vice-versa.
 - We do not support backing up data in the cache store (Redis) which includes the [Sidekiq state](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html#other-data). TODO: [More research on Redis stored data](https://gitlab.com/gitlab-org/gitlab/-/issues/466000)
 
-### Backup types
+### Backup Types
 
 We provide two different approaches to create a Backup: Portable and Cloud-based.
 
@@ -254,48 +252,11 @@ Storage Transfer Service jobs are created that copy from the individual buckets 
 - We (probably) should not empty the buckets first. Leave that up to the users to do if they want to.
 - So at its most basic, a user would run something like `gitlab-backup-cli restore all $BACKUP_ID`, and the tool would create the necessary jobs to copy data from the backup bucket path, to the individual buckets, then monitor them for success/failure.
 
-## Integrating with the Unified Backup CLI
+## Milestones
 
-In order to make the tool easy to integrate with external tools, we will provide optional machine-readable output in JSON format.
+### 1st Milestone: Implement Cloud Backups: support 50k CNH reference architecture on GCP for Cells
 
-As an example, in order to restore from a disk snapshot, as the tool will not handle that operation itself, we will provide a command that can list the resources that should be restored in JSON format. That can be read by any external integration tool.
-
-This type of interface is intended to decouple the Backup CLI from any other specific tool.
-
-### Distribution
-
-- Omnibus
-- Kubernetes
-
-We will work on Omnibus before Kubernetes for a quicker first iteration.
-
-#### Impact
-
-- Currently, the Distribution team owns and maintains [backup-utility](https://gitlab.com/gitlab-org/build/CNG/-/blob/master/gitlab-toolbox/scripts/bin/backup-utility) which is used for backups in Kubernetes enabled environments. We will need to work with them to replace that tool, with `gitlab-backup-cli`
-- For the [`omnibus-gitlab`](https://gitlab.com/gitlab-org/omnibus-gitlab), it does create the `gitlab-backup` wrapper around the backup Rake tasks. Deprecation of the previous tool is TBD.
-- The new tool (`gitlab-backup-cli`) will be distributed as part of the main GitLab codebase as one of the [bundled gems](https://gitlab.com/gitlab-org/gitlab/-/tree/master/gems/gitlab-backup-cli?ref_type=heads).
-- In the future, the new tool will be decouple from that codebase and may be distributed independently from the main package, to allow for supporting backing up and restoring from distinct (compatible) GitLab versions.
-
-#### Stable Counterpart
-
-[Robert Marshall](https://gitlab.com/rmarshall)
-
-### Dedicated/Cells Deployment
-
-As we proceed with the implementation and initial releaess, we will work together with internal teams to ensure the tool provides the necessary machine-readable information necessary to integrate with their existing tools.
-
-Specific to Kubernetes we will explore how to integrate with its native Cronjob functionality to provide scheduled executions.
-
-## 1st Milestone: Create backup cli: support 1K Linux package reference architecture with local storage
-
-See [epic](https://gitlab.com/groups/gitlab-org/-/epics/11635)
-
-- Targeting Linux package installations
-- Behaves similar to the existing backup Rake tool, with a small feature-set
-
-## 2nd Milestone: Implement Cloud Backups: support 10K CNH reference architectures on GCP
-
-See [epic](https://gitlab.com/groups/gitlab-org/-/epics/11911)
+The first milestone will target [Cells deployments](/handbook/engineering/architecture/design-documents/cells/#will-cells-use-the-reference-architecture-for-up-to-1000-rps-or-50000-users) that use the [50k reference architecture](https://docs.gitlab.com/administration/reference_architectures/50k_users/).
 
 For the initial Cloud Backup implementation:
 
@@ -303,20 +264,22 @@ For the initial Cloud Backup implementation:
   - Database Backups using [Cloud SQL Backups](https://cloud.google.com/sql/docs/postgres/backup-recovery/backups) (on demand backups only, initially)
   - Object Storage Backups using [Storage Transfer Service](https://cloud.google.com/storage-transfer-service?hl=en)
   - [GCE disk snapshots](https://cloud.google.com/compute/docs/disks/snapshots) initially for repository backups.
-    - We will revisit [Gitaly server side backups](https://docs.gitlab.com/ee/administration/gitaly/configure_gitaly.html#configure-server-side-backups) with [WAL partition archives](https://gitlab.com/groups/gitlab-org/-/epics/13907) when the technology has matured.
 - Only support data/snapshots managed by the Backup tool
+- [Kubernetes Cronjob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) functionality to provide scheduled executions.
 - Not relying on automated/scheduled Backup implementation (like AWS Backup or Google Cloud Backup)
 
-In this iteration, we are NOT aiming to solve backup consistency:
+In this iteration we are NOT aiming to solve backup consistency until we have PITR for Gitaly:
 
 - When backing up the multiple components, what is in the database may point to something that was removed before it could have been included in the backup
 - The Cloud Providers may not provide a reliable way to match each data to a specific point-in-time (that could be used to synchronize with the database snapshot)
 
-## 3rd Milestone: Extend support to 25+K reference architectures
+### 2nd Milestone: Create backup CLI: support 1K Linux package reference architecture for portable backups
 
-See [epic](https://gitlab.com/groups/gitlab-org/-/epics/12042)
-
-TBD
+- Standalone tool that can be used as a replacement for current rake task.
+- Targeting Linux based installations
+  - [Package based](https://about.gitlab.com/install/#official-linux-package)
+  - [Source based](https://docs.gitlab.com/install/installation/)
+- Behaves similar to the existing backup Rake tool, with a small feature-set
 
 ## Future iterations
 
@@ -343,3 +306,341 @@ Backup Management solution, that will be composed of:
   - Optional granularity for different types of data
   - Notifications
 - Support for both Portable and Cloud-Based backups
+
+## User Journeys
+
+### Backup Management
+
+#### Backup Operations
+
+As an SRE, I want to initiate a full backup of my GitLab instance so that I can create a complete point-in-time snapshot of all data.
+
+*Acceptance Criteria:*
+
+- Backup includes all GitLab repositories, database, and blob storage objects
+- Backup process doesn't require GitLab downtime
+- Progress indicator shows backup status
+- Backup completion generates a manifest file listing all included components
+
+As an SRE, I want to be able to verify backup integrity after a backup completes so that I can ensure the backup is usable for restoration.
+
+*Acceptance Criteria:*
+
+- Performs validation on all backup components
+- Tests that backup files can be opened/read
+- Validates backup manifest against actual backed-up data
+- Reports any corruption or missing components
+
+#### Restore Operations
+
+As an SRE, I want to restore my GitLab instance to a specific backup point so that I can recover from data loss or corruption.
+
+*Acceptance Criteria:*
+
+- Can select a specific backup point to restore from
+- Restore process validates target environment compatibility
+- Provides option for test restore to separate environment
+- Displays clear warnings about data that will be overwritten
+
+As an SRE, I want to perform a partial restore of specific GitLab components so that I can recover individual components (database, LFS, etc) without affecting the entire instance.
+
+*Acceptance Criteria:*
+
+- Can select specific component(s) to restore
+- Restore process does not impact other components which were not included in the restore
+
+#### Configuration and Setup
+
+As an SRE, I want to configure backup storage destinations so that I can store backups in my organization's preferred storage system.
+
+*Acceptance Criteria:*
+
+- Supports multiple storage backends (local filesystem, S3, NFS, etc.)
+- Can configure encryption for backups at rest
+- Validates storage connectivity and permissions during setup
+- Supports backup retention policies with automatic cleanup
+
+### Monitoring and Alerting
+
+As an SRE, I want to receive alerts when backup operations fail so that I can quickly respond to protect my GitLab instance.
+
+*Acceptance Criteria:*
+
+- Alert includes failure reason, affected components, and suggested remediation steps
+- Integrates with existing monitoring infrastructure (Prometheus, Grafana, etc.)
+
+As an SRE, I want to monitor backup operation performance metrics so that I can optimize backup windows and resource allocation.
+
+*Acceptance Criteria:*
+
+- Tracks backup duration, data volume, and throughput rates
+
+As an SRE, I want to monitor backup storage utilization so that I can manage capacity and costs effectively.
+
+*Acceptance Criteria:*
+
+- Displays current storage usage across all backup destinations
+- Tracks cost metrics for cloud storage backends
+
+### Observability and Reporting
+
+As an SRE, I want comprehensive logging of all backup and restore operations so that I can troubleshoot issues and maintain audit trails.
+
+*Acceptance Criteria:*
+
+- Logs all operations with timestamps, user context, and operation details
+- Supports structured logging formats (JSON) for log aggregation tools
+- Includes correlation IDs to trace operations across distributed components
+- Configurable log retention and log level settings
+
+As an SRE, I want a dashboard showing the health status of my backup system so that I can quickly assess backup coverage and identify issues.
+
+*Acceptance Criteria:*
+
+- Shows last successful backup time and next scheduled backup
+- Displays backup success/failure rates over time
+- Indicates which GitLab components are covered by recent backups
+- Provides quick access to recent logs and error details
+
+As an SRE, I want to generate backup compliance reports so that I can demonstrate adherence to organizational data protection policies.
+
+*Acceptance Criteria:*
+
+- Generates reports showing backup frequency, retention compliance, and coverage
+- Exports reports in multiple formats (PDF, CSV, JSON)
+- Includes verification status and any gaps in backup coverage
+- Supports custom reporting periods and filtering criteria
+
+### Integration and Metrics
+
+As an SRE, I want the backup tool to expose metrics that I can integrate with my existing monitoring stack.
+
+*Acceptance Criteria:*
+
+- Exposes standard backup metrics (success rate, duration, data size)
+- Includes custom metrics relevant to GitLab backup operations
+- Supports metric labeling for multi-instance deployments
+- Provides health check endpoint for monitoring system integration
+
+As an SRE, I want to track backup operation impact on GitLab performance so that I can optimize backup scheduling.
+
+*Acceptance Criteria:*
+
+- Monitors GitLab response times during backup operations
+- Tracks database connection usage and query performance impact
+- Measures effect on GitLab's resource utilization
+- Provides recommendations for optimal backup timing
+
+### Data Protection and Encryption
+
+As an SRE, I want all backup data encrypted at rest so that sensitive GitLab data remains protected even if backup storage is compromised.
+
+*Acceptance Criteria:*
+
+- Supports industry-standard encryption algorithms (AES-256)
+- Allows configuration of customer-managed encryption keys
+- Encrypts all backup components including metadata and manifests
+- Provides key rotation capabilities without requiring full re-backup
+
+As an SRE, I want backup data encrypted in transit so that data remains secure during transfer to backup storage.
+
+*Acceptance Criteria:*
+
+- Allows for TLS/SSL for all network communications to backup destinations
+- Supports mutual TLS authentication for enhanced security
+- Validates certificate chains and rejects invalid certificates
+- Configurable cipher suites to meet organizational security policies
+
+As an SRE, I want to manage encryption keys securely so that I can maintain control over backup data access without exposing sensitive key material.
+
+*Acceptance Criteria:*
+
+- Integrates with external key management systems (HashiCorp Vault, AWS KMS, etc.)
+- Supports key escrow and recovery procedures
+- Prevents backup operations if encryption keys are unavailable
+- Logs all key access and usage for audit purposes
+
+### Access Control and Authentication
+
+As an SRE, I want role-based access control for backup operations so that only authorized personnel can perform backup and restore functions.
+
+*Acceptance Criteria:*
+
+- Supports integration with enterprise identity providers (LDAP, SAML, OAuth)
+- Allows granular permissions (backup-only, restore-only, full-access)
+- Enforces multi-factor authentication for restore operations
+- Maintains session management with configurable timeout policies
+
+As an SRE, I want all backup tool access attempts logged so that I can detect unauthorized access and maintain security audit trails.
+
+*Acceptance Criteria:*
+
+- Records user actions with timestamps and source IP addresses
+- Supports tamper-evident log storage and integrity verification
+
+### Compliance and Audit
+
+As an SRE, I want backup operations to maintain data lineage and custody records so that I can demonstrate compliance with data governance requirements.
+
+*Acceptance Criteria:*
+
+- Records who initiated each backup/restore operation and when
+- Tracks data movement between systems and storage locations
+- Maintains chain of custody documentation for forensic purposes
+- Supports legal hold procedures that prevent backup deletion
+
+As an SRE, I want backup retention policies that automatically enforce compliance requirements so that I can meet regulatory obligations without manual intervention.
+
+*Acceptance Criteria:*
+
+- Configurable retention periods based on data classification
+- Prevents deletion of backups under legal hold
+- Automatically purges expired backups according to policy
+- Generates compliance reports showing retention adherence
+
+As an SRE, I want backup operations to respect data residency requirements so that sensitive data remains within required geographic boundaries.
+
+*Acceptance Criteria:*
+
+- Allows configuration of storage location constraints
+- Validates backup destination compliance with data residency rules
+- Prevents backup operations that would violate geographic restrictions
+- Provides documentation of data location for compliance audits
+
+### Data Integrity and Validation
+
+As an SRE, I want cryptographic verification of backup integrity so that I can detect any tampering or corruption of backup data.
+
+*Acceptance Criteria:*
+
+- Generates and stores cryptographic hashes for all backup files
+- Can perform integrity checks on stored backups
+- Alerts immediately if backup corruption is detected
+
+As an SRE, I want secure backup verification processes so that restore testing doesn't expose sensitive data in non-production environments.
+
+*Acceptance Criteria:*
+
+- Supports data masking during verification restore operations
+- Provides isolated verification environments with restricted access
+- Automatically cleanses sensitive data from verification logs
+- Validates restore functionality without compromising data security
+
+### Incident Response and Forensics
+
+As an SRE, I want immutable backup copies for forensic analysis so that I can investigate security incidents without risking evidence tampering.
+
+*Acceptance Criteria:*
+
+- Creates write-once, read-many backup copies for critical incidents
+- Maintains separate forensic backup chain isolated from operational backups
+- Provides timestamped evidence collection with digital signatures
+- Supports secure transfer of forensic data to investigation teams
+
+### Infrastructure Integration
+
+As an SRE, I want the backup tool to integrate with my platform so that I can deploy and manage it alongside my existing GitLab infrastructure.
+
+*Acceptance Criteria:*
+
+- Supports deployment on the same platforms that GitLab self managed is supported
+
+As an SRE, I want the backup tool to work with my existing storage infrastructure so that I can leverage current investments and operational procedures.
+
+*Acceptance Criteria:*
+
+- Supports multiple storage backends (NFS, S3, Azure Blob, GCS)
+- Integrates with storage classes and volume provisioning in Kubernetes
+- Respects existing storage quotas, policies, and access controls
+
+As an SRE, I want the backup tool to integrate with my CI/CD pipelines so that I can automate backup operations as part of deployment workflows.
+
+*Acceptance Criteria:*
+
+- Provides CLI interface for scripting and automation
+- Supports pre/post deployment backup triggers
+- Returns appropriate exit codes for pipeline decision making
+- Integrates with GitLab CI, Jenkins, GitHub Actions, and other CI systems
+
+### Monitoring Stack Integration
+
+As an SRE, I want the backup tool to integrate with my existing monitoring and alerting infrastructure so that I can manage all alerts through consistent channels.
+
+*Acceptance Criteria:*
+
+- Supports multiple monitoring backends (Prometheus, InfluxDB, DataDog, New Relic)
+- Integrates with existing alerting rules and notification channels
+- Supports custom metric labels and dimensions for multi-tenant environments
+
+As an SRE, I want backup tool logs to integrate with my centralized logging system so that I can correlate backup events with other system activities.
+
+*Acceptance Criteria:*
+
+- Supports log forwarding to common log aggregation systems (ELK, Splunk, Fluentd)
+- Provides structured logging with consistent field naming
+- Includes correlation IDs that link to GitLab operation logs
+- Supports log filtering and routing based on severity and component
+
+### Configuration Management Integration
+
+As an SRE, I want to manage backup tool configuration through my existing configuration management system so that I can maintain consistency across environments.
+
+*Acceptance Criteria:*
+
+- Supports configuration using environment variables, config files, and command-line arguments
+- Integrates with configuration management tools (Ansible, Terraform, Puppet, Chef)
+- Provides configuration validation and drift detection
+- Supports GitOps workflows with configuration stored in version control
+
+As an SRE, I want the backup tool to integrate with my secrets management system so that sensitive configuration data remains secure and centrally managed.
+
+*Acceptance Criteria:*
+
+- Integrates with secrets management platforms (HashiCorp Vault, AWS Secrets Manager, Kubernetes Secrets)
+- Supports automatic secret rotation without service interruption
+- Provides secure credential injection at runtime
+- Never logs or exposes sensitive configuration values
+
+### Network and Service Integration
+
+As an SRE, I want the backup tool to work within my network security policies so that it doesn't compromise my security posture.
+
+*Acceptance Criteria:*
+
+- Supports network segmentation and firewall policies
+- Respects network policies in Kubernetes environments
+- Supports proxy configurations for outbound connections
+
+As an SRE, I want the backup tool to integrate with my service discovery system so that it can automatically locate GitLab components across distributed deployments.
+
+*Acceptance Criteria:*
+
+- Integrates with service discovery platforms (Consul, etcd, Kubernetes DNS)
+- Automatically discovers GitLab services and their health status
+- Adapts to service topology changes without manual reconfiguration
+- Supports multi-region and multi-cluster GitLab deployments
+
+### Disaster Recovery Integration
+
+As an SRE, I want the backup tool to integrate with my disaster recovery orchestration so that GitLab recovery can be automated as part of broader DR procedures.
+
+*Acceptance Criteria:*
+
+- Provides APIs for DR orchestration tools to trigger restore operations
+- Supports dependency ordering for complex multi-service recovery
+- Integrates with infrastructure provisioning tools for DR site preparation
+- Provides status reporting for DR runbook automation
+
+As an SRE, I want backup replication to integrate with my multi-site infrastructure so that I can maintain geographically distributed backup copies.
+
+*Acceptance Criteria:*
+
+- Supports cross-region backup replication with configurable policies
+- Integrates with WAN optimization and bandwidth management tools
+- Respects data sovereignty and compliance requirements across regions
+- Provides conflict resolution for distributed backup management
+
+## Cloud Backups: support 50k CNH reference architecture on GCP for Cells
+
+In [Cells ADR 013](/handbook/engineering/architecture/design-documents/cells/decisions/013_cell_restore_from_backup/)
+it was decided that we would restore into a new Cell with the same Cell ID, but a different Tenant ID.
