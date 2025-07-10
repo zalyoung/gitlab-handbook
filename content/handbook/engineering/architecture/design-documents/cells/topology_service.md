@@ -216,7 +216,6 @@ are automatically executed:
    - Execute `/scripts/db-migrate` script during Helm Chart installation
    - Within this script, run `/srv/gitlab/bin/rake gitlab:db:configure` command
 
-
 1. **The `gitlab:db:configure` Rake Task**
 
    This is the main entry point that alters sequence ranges. The task:
@@ -224,7 +223,6 @@ are automatically executed:
    - Runs `db:migrate` or `db:schema:load` depending on database state
    - Calls `configure_pg_databases` for each PostgreSQL database
    - Executes `alter_cell_sequences_range` function **only during bootstrap**
-
 
 1. **Bootstrap Detection Logic**
 
@@ -244,7 +242,6 @@ are automatically executed:
    - Fetches sequence ranges from Topology Service via gRPC: `Gitlab::TopologyServiceClient::CellService.new.cell_sequence_ranges`
    - Retrieves the configured ranges (e.g., `minval: 500000000000, maxval: 599999999999`)
 
-
 1. **Sequence Alteration Execution**
 
    The `alter_cell_sequences_range` function:
@@ -252,7 +249,6 @@ are automatically executed:
    - Logs: `"Running gitlab:db:alter_cell_sequences_range rake task with (minval, maxval)"`
    - Calls `Gitlab::Database::AlterCellSequencesRange.new` to actually modify the PostgreSQL sequences
    - Updates all relevant sequences to use the ranges fetched from Topology Service
-
 
 1. **Configuration Requirements**
 
