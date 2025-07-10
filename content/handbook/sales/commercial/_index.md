@@ -449,16 +449,14 @@ Support will take the lead on all incoming requests in the queue and only forwar
 
 - In weekly communication with your direct management review the health of your pipeline and update records as needed in real-time. You should know at all times what your pipeline multiplier is and if you need to create more pipeline to have a successful month and quarter. Refer to your team's **Pipeline Generation** checklist documents and the associated SFDC reports associated with keeping activity up to date.
 
-#### Commercial Sales Stages Activities and Exit Criteria
+#### Sales Stages Activities and Exit Criteria
 
 - Pipeline management is key to predictable, scalable revenue attainment and can make the difference between simply hitting your number and overachieving. Proper sales pipeline management helps you allocate your time correctly, increase deal velocity, and increase total deal volume, size, and revenue through accurate forecasting practices.
-- A well-managed sales pipeline requires a clear process with defined activities and exit criteria that serve as a roadmap to getting a deal from discovery to closed won (or qualified out quickly). The following process is specific to the Commercial Sales team and will ensure you have a clean pipeline and accurate forecast.
-- [Detailed Exit Stage Criteria Google Sheet](https://docs.google.com/spreadsheets/d/1tVtJvfSsmWL2L1vTcJZgARlzC9Qy3Ae7pPqGBH9_KOQ/edit#gid=1399111321)
-- [Exit Criteria at a Glance](https://gitlab.highspot.com/items/6245c14f198094aabf1cfe52?lfrm=srp.0)
+- A well-managed sales pipeline requires a clear process with defined activities and exit criteria that serve as a roadmap to getting a deal from discovery to closed won (or qualified out quickly). The following process is specific to the the entire GitLab Sales team and will ensure you have a clean pipeline and accurate forecast.
+- [Detailed Exit Stage Criteria Google Sheet](https://docs.google.com/spreadsheets/d/1pk-2d24GQ-cr-BjN7RcsoGYIBdk3djo1_yS6ln4tiRg/edit?gid=1439470695#gid=1439470695)
+- [Exit Criteria at a Glance](https://gitlab.highspot.com/items/67080d30ce593c7940d5b5f6#6)
 
-![comm-sales-stages-exit-criteria](/images/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
-
-- Please read through the [Commercial Sales Opportunity Stages handbook page](/handbook/sales/commercial/comm-sales-opp-stages/) for more information.
+- Please check out the [Sales Stages, Key Activities & Exit Criteria Hub in Highspot](https://gitlab.highspot.com/items/66452849ee42a82fe81b6372?lfrm=isd.9#ux3nr6xnk) for more training resources on Sales Stages Activities and Exit Criteria.
 
 #### Web Direct Oppty Management in Salesforce
 
