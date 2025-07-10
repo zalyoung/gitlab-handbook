@@ -7,28 +7,6 @@ description: Schedule and host meetings
 
 *To set up a Zoom meeting, sign in via Okta and share the link for your "personal meeting room" with your participants.*
 
-### Using your personal link versus a unique/random link
-
-Your personal link is a great way to provide a consistent, easy-to-read-and-remember meeting room for colleagues and customers.
-However, there are some drawbacks to reusing the same meeting, such as participants joining an ongoing meeting when two are scheduled back to back.
-In some cases it may be better to use a unique meeting link.
-
-Here are some good use cases for the personal link:
-
-- Recurring or standing meetings, especially those with a large or frequently changing attendee list.
-- First meeting with a customer, where a simple and readable link is helpful for ease of participation and branding.
-- Webinar or training session where your Zoom link may be shared in a display (non-clickable) format, and will need to be typed in manually by attendees.
-- Interviews so the candidate can see your name for the meeting link, not a random number. Keep in mind candidates may be scheduled for 3-5 interviews all at once and we don't want to create confusion.
-
-Here are some good use cases for a unique link:
-
-- Meetings scheduled in rapid succession or back-to-back, to ensure only the invitees for each meeting arrive to the right session.
-- A meeting where privacy is a principal concern (this dovetails with the first bullet point)
-- A meeting where most attendees will be joining via a shared link or calendar invite, and will not need to type the link manually.
-
-Use your best judgement on when to use each type of link.
-Not all situations will fit cleanly into any of the given scenarios, and your needs may vary.
-
 ### Allow for browsers
 
 Not everyone has a Zoom client, so you can allow for invitees to choose to use Zoom from the browser.
@@ -42,58 +20,59 @@ It can be distracting when a call with a large number of attendees has folks joi
 
 If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute. If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts."
 
----
-
 ## During your Zoom Meeting
 
 *Zoom can be [minimized](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063672#h_29171b3b-71eb-4b42-8bc4-30bf2f778d95) during a meeting (`cmd-m` on macOS) to a small window staying on top of all applications.
 This tip is very handy when using a small screen: it allows to see the participant(s) and use other applications at the same time without worrying about the screen layout.*
 
-### Recording in Zoom
+### Join meetings with muted microphone
 
-In order to be able to record your Zoom meetings you must first enable recordings in your Zoom profile.
-You can access this page at [Recording Settings](https://zoom.us/profile/setting?tab=recording).
-You need to be signed in to have the ability to record.
+Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062614):
 
-To auto-record meetings set up [cloud recording](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067954).
-You can also configure Zoom to save to the cloud automatically.
-Go to "My Meeting Settings" and find the "Recording" section, then click on "Cloud Recording".
-Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name.
-Once recording is complete, your videos will not appear in the "Recordings" section of your Zoom account.
+1. Navigate to `Zoom > Preferences > Audio`.
+1. Scroll down and select the box `Mute my mic when joining a meeting`
 
-If the meeting topic in Zoom (editable by logging into <https://zoom.us/>) contains the text `[REC]`, these recordings will
-automatically be saved to a folder on Google Drive under `GitLab Videos Recorded` (accessible from [Google Hidden shared drives](https://drive.google.com/drive/shared-drives-hidden)).
-The name of the folder will be prefixed by the host's e-mail
-address. For example, if the host is `someuser@gitlab.com` and the
-meeting title is `Company Training [REC]`, the folder will appear as
-`someuser@gitlab.com-Company Training`. [The script](https://gitlab.com/gitlab-com/zoom-sync/-/blob/a73aee8f5921ac3fec16b74232ac17add4e33afb/zoom-sync.rb) (from [the zoom-sync project](https://gitlab.com/gitlab-com/zoom-sync)) will sync the recordings every hour.
+### Meeting Surveys
 
-To make it easier for meetings to be uploaded automatically without
-changing the title, the sync script also uses an [allow list](https://gitlab.com/gitlab-com/zoom-sync#allow-list).
-If a meeting title matches the provided regex with the given host's e-mail address, the
-meeting will also be uploaded to Google Drive. File a merge request
-to change [the current list](https://gitlab.com/gitlab-com/zoom-sync/-/blob/master/zoom_sync.yml).
+**Enable for all Meeting Surveys**
 
-Consider setting your default recording view to "Gallery view".
+Meeting Surveys is enabled for everyone at GitLab, however to get this to work, you will need to Meeting Surveys feature within your account.
 
-To do this:
+1. Sign in to the [Zoom web portal](https://zoom.us/signin).
+1. Go to your [account settings](https://gitlab.zoom.us/profile/setting).
+1. Search for `Meeting Survey` and toggle the feature on.
 
-1. Login to zoom.us.
-1. Click the Settings tab on the left side bar, then the Recording tab on the top horizontal options.
-1. Make sure you have `Record gallery view with shared screen` selected
-1. Unselect `Record active speaker with shared screen` and `Record active speaker, gallery view and shared screen separately`.
-   Remember to save.
+**Add a survey to your meeting**
 
-You can also read through General information on recording on the zoom support [here](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059856)
+1. Go to your [meetings](https://gitlab.zoom.us/meeting#/upcoming).
+1. Select one of your meetings **or** schedule a new one.
+1. If you are editing an existing meeting, click the `Survey` tab. If you are scheduling a new meeting, click `Save`, then click the `Survey` tab.
+    1. **Note:** Meeting ID must be generated automatically for this to work, surveys does not work with personal meeting IDs.
+1. Click `Create new survey`.
+1. At the end of the meeting, people will receive the survey to fill out.
 
-### How to identify the meeting host with the permission to record
+**Viewing Survey Results**
 
-You can use one of the below methods to find this information after joining the meeting.
+1. Go to [Reports](https://zoom.us/account/report?isPersonal=true#/usageReports/meeting) > Meeting > change the `Registration Report` drop down to `Survey Report`.
 
-1. Via participants sidebar.
-   1. Navigate to the participants icon on the bottom of the window.
-   1. You will be presented with the list of participants on the right panel of the window.
-   1. The host will be listed in parentheses at the end of their name. (A resize of the participants window may be needed).
-1. Via meeting info pop-up.
-   1. Navigate to the upper left corner, where you will be presented with an i icon.
-   1. Select the icon to locate the meeting host who will have the ability to record the call.
+### Zoom Clips
+
+**Enable Zoom Clips**
+
+Zoom Clips is enabled for everyone at GitLab, however to get this to work, you will need to enable the feature within your account.
+
+1. Sign in to the [Zoom web portal](https://zoom.us/signin).
+1. Go to your [account settings](https://gitlab.zoom.us/profile/setting).
+1. Search for `Clips` and toggle the feature on.
+
+**How to Create a Clip**
+
+1. Open the Zoom app on your computer.
+1. On the top menu bar, click `Clips`.
+    1. Note: If you have many products on your menu bar, click the More icon `(...)`` to access Clips.
+1. Click on `Create Clip`.
+
+**How to Access Your Clips**
+
+1. Sign in to the [Zoom web portal](https://zoom.us/signin).
+1. Go to [Clips](https://gitlab.zoom.us/clips/library) in the left sidebar.

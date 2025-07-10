@@ -24,6 +24,12 @@ Personalized links allow you to create shorter and more memorble links for your 
   <p>Personalized Links are used to schedule interviews. It is important that the default naming convention (<code>gitlab.firstnamelastname</code>) is used and there is no password set for meetings.</p>
 </div> 
 
+Your personal link is a great way to provide a consistent, easy-to-read-and-remember meeting room for colleagues and customers.
+However, there are some drawbacks to reusing the same meeting, such as participants joining an ongoing meeting when two are scheduled back to back.
+In some cases it may be better to use a unique meeting link.
+
+**Setup**
+
 1. Go to your [profile page](https://gitlab.zoom.us/profile).
 1. In the Meeting section, you can see your "Personal Link"
 1. Select **Customize** and **Save Change** once you are done 
@@ -32,7 +38,7 @@ Personalized links allow you to create shorter and more memorble links for your 
 1. Towards the bottom of the page, select "Edit" and uncheck the "Passcode" box.
 1. Select "Save".
 
-### Zoom Waiting Rooms
+## Zoom Waiting Rooms
 
 It's recommended you enable the [Waiting Room](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063329) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).
 There are a few steps to get this enabled for personal meetings:
@@ -43,9 +49,14 @@ There are a few steps to get this enabled for personal meetings:
 1. You can now further edit the waiting room options and/or customize your waiting room with custom videos or images.
     1. Please see [Zoom's official documentation](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059359) for more details
 
-### Enable Screen Sharing
+## Enable Screen Sharing
 
 In order to share your screen with call participants, you need to grant Zoom the appropriate access in your Mac's system settings.
+
+<div class="w3-panel w3-yellow">
+  <h3>Attention!</h3>
+  <p>We recommend to enable this setting ASAP as the EUS team may ask you to share your screen during supprot sessions.</p>
+</div> 
 
 1. Open Zoom and start a meeting using **New meeting**
 1. Click **Share** and select a screen or application window to share
@@ -53,3 +64,21 @@ In order to share your screen with call participants, you need to grant Zoom the
     1. To manually enable this go to your Mac System Settings > Privacy & Security > Screen & System Audio Recording > enable zoom and follow the prompt
     1. If Zoom does not appear on the list, click the `+` button and manually select the **zoom.us** application
 1. Restart Zoom
+
+## Enable captions and live transcription
+
+If you are the meeting host, consider enabling live transcriptions for accessibility. Live transcription is not enabled by default, and must be enabled manually for each meeting:
+
+1. In the Zoom toolbar, select **CC** (for closed captioning).
+1. Select **Enable live transcription**.
+
+If the host is not present, no one can enable live transcription. If you've created a meeting but won't be attending, consider assigning alternative host permissions to someone who will be present, so they can enable live transcription.
+
+### Set up a shortcut for muting in Zoom
+
+Sometimes you need a hot key to mute/unmute, even when Zoom is not the selected window.
+Follow these steps to set it up:
+
+1. Navigate to `Zoom > Preferences > Keyboard Shortcuts`
+1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
+1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
