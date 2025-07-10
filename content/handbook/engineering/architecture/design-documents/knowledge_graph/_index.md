@@ -61,16 +61,6 @@ repository statistics or showing related files when browsing through repository.
   requests and other entities).
 - Allow querying graph DB with LLM-generated Cypher queries
 
-### Non-Goals
-
-- Implementation of repository parser. For more details on the parser, see the
-  [Knowledge Graph First iteration](https://gitlab.com/groups/gitlab-org/-/epics/17514).
-  For purposes of this document, the expectation is that the repository
-  parser will be a either a library or a standalone application which will be
-  called on graph nodes. It will accept repository files on input and produce
-  parsed data (graph nodes and edges) in a format accepted by graph DB service,
-  for example CSV or JSON files.
-
 ## Proposal
 
 - Store knowledge graphs for repositories in file-embedded Kuzu DBs (each
@@ -112,6 +102,50 @@ flowchart TD
     GA2 -->K21[Kuzu DB Y]
     GA2 -->K22[Kuzu DB C]
     GA2 -->K23[Kuzu DB D]
+    end
+```
+
+### Indexing
+
+Indexing will be done on Zoekt nodes.
+[Knowledge graph indexer](https://gitlab.com/gitlab-org/rust/knowledge-graph/)
+will be used for indexing a repository and creating / updating Kuzu database for
+the repository. Because the indexer is written in Rust and zoekt-indexer is
+written in Go, there are two options to call the indexer from zoekt-indexer:
+
+- execute a separate sub-process to run the knowledge graph indexer
+- use FFI to run the knowledge graph indexer as part of zoekt-indexer process
+
+A benefit of using a separate process to run the knowledge graph indexer is that
+we could better isolate the indexing process from zoekt-indexer: if there is a
+bug in the knowledge graph indexer which could be exploited by a malicious
+user's codebase, then the attacker might potentially get access to all data on
+the zoekt node. For this reason we may want to rather isolate the indexing
+process from the main zoekt-indexer process so in case that the knowledge graph
+indexer is exploited, the attacker wouldn't get access to other data. Isolation
+could be done by running knowledge graph indexer in chroot.
+
+A downside of using a separate process is that we would have to distribute two
+binaries. If this is a problem and we want to isolate indexing in a
+separate process, then we can still compile zoekt-indexer together with
+knowledge graph indexer in one binary, but execute it indexing in a separate
+process by calling zoekt-indexer binary with "knowledge-graph-index" parameter.
+
+This diagram demonstrates execution of knowledge graph indexer in a separate
+subprocess while re-using same zoekt-indexer binary in the subprocess:
+
+```mermaid
+flowchart TD
+    subgraph zoekt main process
+      ZI[zoekt-indexer main process]
+    end
+    subgraph zoekt indexing subprocess
+      ZI --> |exec zoekt-indexer knowledge-graph-index| ZI2
+      ZI2[zoekt-indexer knowledge-graph-index] --> |FFI index call: repo files, path to kuzu DB| KGIL[Knowledge graph indexer lib]
+      subgraph rust libraries
+        KGIL --> |calls parser|P[One Parser]
+      end
+      KGIL --> |Create or update DB|DB[Kuzu DB for repo X]
     end
 ```
 
