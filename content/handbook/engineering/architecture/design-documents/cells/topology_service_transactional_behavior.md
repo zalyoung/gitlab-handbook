@@ -207,22 +207,53 @@ Every minute → Find expired leases → Delete creates → Clear destroys → R
 
 ### Reconciliation Between Rails and Cloud Spanner
 
-```
-Rails-driven cleanup with idempotent Topology Service operations:
-
-while (leases = ts.ListOutstandingLeases(1000)) {
-  to_commit = leases.where(lease_id: local_db.leases.active)
-  to_rollback = leases - to_commit
-  ts.commit(to_commit)      // Idempotent operations
-  local_db.leases.delete(to_commit)
-  ts.rollback(to_rollback)  // Idempotent operations
-  local_db.leases.delete(to_rollback)
-}
-
-// Exception case: lease missing from TS but present locally
-if (expired = local_db.leases.expired) {
-  assert(expired)  // Should be rare - indicates system issue
-}
+```ruby
+# Rails-driven cleanup with idempotent Topology Service operations
+class ClaimsLeaseReconciliationService
+  def self.reconcile_outstanding_leases
+    topology_service = Gitlab::Cells::TopologyServiceClient.new
+    
+    loop do
+      # Get leases from Topology Service (paginated)
+      response = topology_service.list_outstanding_leases(
+        ListOutstandingLeasesRequest.new(client_id: current_cell_id)
+      )
+      
+      break if response.leases.empty?
+      
+      topology_lease_ids = response.leases.map { |lease| lease.lease_payload.lease_id }
+      
+      # Determine which leases to commit vs rollback
+      active_local_leases = LeasesOutstanding.where(lease_id: topology_lease_ids).pluck(:lease_id)
+      to_commit = active_local_leases
+      to_rollback = topology_lease_ids - to_commit
+      
+      # Commit leases that exist locally (idempotent)
+      to_commit.each do |lease_id|
+        topology_service.commit(CommitRequest.new(client_id: current_cell_id, lease_id: lease_id))
+        LeasesOutstanding.find_by(lease_id: lease_id)&.destroy!
+      end
+      
+      # Rollback leases that don't exist locally (idempotent)
+      to_rollback.each do |lease_id|
+        topology_service.rollback(RollbackRequest.new(client_id: current_cell_id, lease_id: lease_id))
+      end
+    end
+    
+    # Exception case: leases missing from TS but present locally
+    expired_local_leases = LeasesOutstanding.where('expires_at < ?', Time.current)
+    if expired_local_leases.exists?
+      Rails.logger.error "Found #{expired_local_leases.count} expired local leases without TS counterparts"
+      expired_local_leases.destroy_all
+    end
+  end
+  
+  private
+  
+  def self.current_cell_id
+    Gitlab::Cells.current_cell_id
+  end
+end
 ```
 
 **Rails Reconciliation**:
