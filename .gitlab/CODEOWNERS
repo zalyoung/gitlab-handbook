@@ -43,11 +43,6 @@
 ^[business-technology]
 /content/handbook/business-technology/ @NabithaRao
 
-^[office-of-the-ceo]
-/content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
-/content/handbook/ceo/office-of-the-ceo/readmes/streas.md @streas
-/content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
-
 ^[ceo-and-company]
 /content/handbook/board-meetings/ @robin @streas
 /content/handbook/ceo/ @bill_staples
@@ -65,6 +60,11 @@
 /content/handbook/leadership/ @bill_staples @streas
 /content/job-families/board-of-directors/ @bill_staples @robin
 /content/job-families/chief-executive-officer @bill_staples @streas
+
+^[office-of-the-ceo]
+/content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
+/content/handbook/ceo/office-of-the-ceo/readmes/streas.md @streas
+/content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
 ^[communication]
 /content/handbook/communication/ @drogozinski
