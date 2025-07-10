@@ -87,6 +87,7 @@ These principles help maintain efficiency while ensuring every emergency has cle
   - 🔎 Identify tickets you can reasonably keep during on-call week
     - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22)
 NOTE: 💡Solving emergency tickets will count towards your AQC
+- Keep an eye on the [customer event calendar](#customer-events-calendar) to stay updated on upcoming events and activities during your on-call schedule.
 
 #### During On-Call
 
@@ -109,6 +110,28 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
   - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
 - If you had to leave something for later while on-call — do it now
 - Ramp up as quickly as you reasonably can to normal AQC
+
+## Quick Links
+
+### CEOC Handover Schedules
+
+- [AMER Group 1 Schedule](https://gitlab.pagerduty.com/schedules#PBLAHV7)
+- [AMER Group 2 Schedule](https://gitlab.pagerduty.com/schedules#P9FKYZC)
+- [AMER Group 3 Schedule](https://gitlab.pagerduty.com/schedules#PP28N7L)
+- [APAC Group 1 Schedule](https://gitlab.pagerduty.com/schedules#PQB9Q6K)
+- [APAC Group 2 Schedule](https://gitlab.pagerduty.com/schedules#PKPXM8K)
+- [EMEA Group 1 Schedule](https://gitlab.pagerduty.com/schedules#P9SV029)
+- [EMEA Group 2 Schedule](https://gitlab.pagerduty.com/schedules#P7ML12U)
+
+### Support Manager On-Call Schedules
+
+- [Support Manager AMER Schedule](https://gitlab.pagerduty.com/schedules/PTI56V1)
+- [Support Manager APAC Schedule](https://gitlab.pagerduty.com/schedules/PWBXTYX)
+- [Support Manager EMEA Schedule](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
+
+### Customer Events Calendar
+
+- [Customer Events calendar](https://calendar.google.com/calendar/u/0/embed?src=c_8d5a8e9b8c3fc74901bad1799b18e8eafc9e499f7805f9c82f79f9d1e1f9ac4b@group.calendar.google.com)
 
 ## Handling Self-managed Emergencies
 
