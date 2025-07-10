@@ -1,5 +1,5 @@
 ---
-title: Self-Managed Basic and Advanced
+title: Segmenting Self-Managed Offerings for a Cloud Native Future
 status: proposed
 creation-date: "2025-06-24"
 authors: [ "@WarheadsSE" ]
@@ -30,14 +30,14 @@ Document statuses you can use:
 
 ## Summary
 
-This proposal recommends segmenting our current Self-Managed deployment option into two distinct tiers: Self-Managed Basic (`SMB`) and Self-Managed Advanced (`SMA`),
-and modifying the requirement for a GA features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Advanced.
-Launching new features on Self-Managed Basic would become optional.
+This proposal recommends segmenting our current Self-Managed deployment offerings into two distinct tiers: Self-Managed Foundation (`SMF`) and Self-Managed Scaled (`SMS`),
+and modifying the requirement for a GA features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Scaled.
+Launching new features on Self-Managed Foundation would become optional.
 
 The current approach to adding components for consumption by Self-Managed customers is hindering the rate at which we can deliver features to our customers.
 This is made clear by the current and growing backlog of new components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture.
 We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
-A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMA while maintaining support for current customers with traditional deployment requirements through SMB.
+A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMS while maintaining support for current customers with traditional deployment requirements through SMF.
 
 The Omnibus GitLab package is not being abandoned, but we require cloud-native for future new and optional components of Premium/Ultimate.
 
@@ -62,7 +62,7 @@ In HA environments requiring a minimum of three nodes per component, even modest
 As components continue to grow, this traditional approach will prove fundamentally unsustainable, costly with many idle nodes, and creates the scaling limitations that have become a common focal point in customer conversations.
 
 We can already demonstrate that cloud-native deployments enable customers to scale GitLab with significantly more efficiency.
-To service customers of higher complexity and larger scale, we should look to focusing our release to SMA as cloud-native first.
+To service customers of higher complexity and larger scale, we should look to focusing our release to SMS as cloud-native first.
 
 ### Goals
 
@@ -80,7 +80,7 @@ In particular, this aims to:
 
 We aim to explicitly avoid:
 
-- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future, and the only reason to revisit the existing functionality is to ensure that it can scale effectively. However, new optional SMA components, such as Data Insights Platform, ClickHouse Cloud, would not be supported in Omnibus, only as cloud native components.
+- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future, and the only reason to revisit the existing functionality is to ensure that it can scale effectively. However, new optional SMS components, such as Data Insights Platform, ClickHouse Cloud, would not be supported in Omnibus, only as cloud native components.
 - Forcibly converting traditional Omnibus into cloud native "under the hood". We would rather encourage consumers to expand their skillsets.
 - Unexpectedly increase customer infrastructure costs and consumption. We must communicate these changes well.
 - Alienate consumers of any kind, by forcing large architectural refactors upon them. We should rather show them the value of the shift to cloud-native.
@@ -100,16 +100,16 @@ We intend to keep those separate, as they are important but not directly impacte
 ## Proposal
 
 The implementation of this segmentation has practical implications. We do not aim to enfoce
-cloud native deployments in order for SMA to have value. In order to address this concern,
+cloud native deployments in order for SMS to have value. In order to address this concern,
 we must faciliate mixed environments, where the existing monolith provides services already
 present, and can be attached to supplemental components deployed in Kubernetes. This would
-serve as a bridge between SMB and SMA, such that a customer can expand their existing SMB into
-an SMA capable environment by providing necessary platform access, and deploying the extended
+serve as a bridge between SMF and SMS, such that a customer can expand their existing SMF into
+an SMS capable environment by providing necessary platform access, and deploying the extended
 feature components.
 
 Segment the Self-Managed option into two distinct tiers:
 
-|    | Self-Managed Basic (SMB) | Self-Managed Advanced (SMA) |
+|    | Self-Managed Foundation (SMF) | Self-Managed Scaled (SMS) |
 | :- | :---------------------- | :-------------------------- |
 | Technology Base | Operating system packages | Containerized cloud native deployment architecture. |
 | Target Customer | CE/EE Free; Foundational feature set | Free with technical skills for cloud native; Premium and Ultimate. |
@@ -122,7 +122,7 @@ If a new feature requires no changes or additions to components, such as some co
 If a new component is required to be deployed in GitLab Core, then it will still be required to be included in Omnibus packaging, GET and Cloud Native GitLab.
 
 Here is an outline of a potential workflow for new features, considering an assumption that Runway can operate on Kubernetes for Self-Managed.
-Until that is possible, a similar flow will be described around the choices of "Premium only?" and "Stateless?", as applicable to SMB/SMA.
+Until that is possible, a similar flow will be described around the choices of "Premium only?" and "Stateless?", as applicable to SMF/SMS.
 
 ![deployment options workflow](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/lucid_deployment_options.svg)
 
@@ -133,7 +133,7 @@ Until that is possible, a similar flow will be described around the choices of "
 We explored several paths after the discussions of the FY26 CTO Summit, within [Navigating a route towards cloud native](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/) (future, `NRTCN`).
 [That exploration](https://docs.google.com/document/d/1a_3GAdXnCB0l8f6OR-bSft6BPZ5pWuCyw76ShsKpgfM/edit?tab=t.0) facilitated our proposal here,
 to present a distinct plan to expect a Kubernetes cluster adjacent to the existing Omnibus functionality. We believe that this pattern can form the basis of
-the Self-Managed Advanced for customers not yet operating their instances with cloud native patterns.
+the Self-Managed Scaled for customers not yet operating their instances with cloud native patterns.
 
 Essentially, existing functionality and core features will be easily available to these customers in their current infrastructure design.
 As they seek to consume new Premium and Ultimate features, they will implement and familiarize themselves with cloud native infrastructure as they bring Kubernetes into play for the auxiliary services of GitLab.
@@ -143,16 +143,16 @@ For those customers who are already operating with cloud native patterns, but ar
 
 OAK can be effectively visualized as below:
 
-![OAK scoped SMA](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/oak_diagram_scope.png)
+![OAK scoped SMS](/images/handbook/engineering/architecture/design-documents/selfmanaged_basic_advanced/oak_diagram_scope.png)
 
 Omnibus's existing scope should grow in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
 
 In the future, we will investigate moving advanced set ups such as High Availability, Geo, and Zero Downtime deployments from Omnibus to cloud-native methods, with the intent
-to significantly simplify the Omnibus' feature set to the SMB ideal of smaller, less complex instances.
+to significantly simplify the Omnibus' feature set to the SMF ideal of SMSller, less complex instances.
 This is in alignment with [Project Flow](https://docs.google.com/document/d/10f7i-y9aJKo1Lo1IW106ov-OuUXAywNGQg7uPYGOP44/edit?tab=t.0#heading=h.rci2kr8welcp),
 aiming to drive the Reference Architectures to a simplified, cloud-native first future.
 
-An important note: Features delivered to SMA will often require configuration of clients within Omnibus.
+An important note: Features delivered to SMS will often require configuration of clients within Omnibus.
 Implementation of that configuration will still occur, as that facilitates the use of the feature, not the operation of the feature itself.
 
 ### Interconnection of mixed environments
@@ -164,7 +164,7 @@ This is relatively easy, when a minimal number of components to live outside of 
 It would be valuable to investigate appropriate auto-configuration of TLS via an mTLS coordination service.
 
 Configuring the many components of GitLab to speak to each other is a very manual process today, that is facilitated greatly by the GitLab Helm chart and GitLab Environment Toolkit.
-With the implementation of SMA, there are likely to be many services within the Omnibus which need to reach into the OAK.
+With the implementation of SMS, there are likely to be many services within the Omnibus which need to reach into the OAK.
 We know that services deployed into OAK will likely need to reach services on the Omnibus.
 Not all of these services from either mechanism are naturally exposed via an Ingress model, and some may not be HTTPS/gRPC.
 We should look to provide a means to configure through service discovery, with both mechanisms implementing the integration of this feature.
