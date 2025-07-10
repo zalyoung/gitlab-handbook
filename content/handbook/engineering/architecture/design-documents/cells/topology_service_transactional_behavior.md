@@ -10,7 +10,138 @@ toc_hide: true
 
 This document outlines the design goals and architecture of Topology Service implementing transactional behavior for Claims Service.
 
+```protobuf
+// Service definition for Topology Service Claims API
+service ClaimsService {
+  // Execute creates/destroys with lease - atomic operation
+  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
+  
+  // Commit finalizes the operations and removes lease
+  rpc Commit(CommitRequest) returns (CommitResponse);
+  
+  // Rollback reverts the operations and removes lease
+  rpc Rollback(RollbackRequest) returns (RollbackResponse);
+  
+  // List outstanding leases for a client (for reconciliation)
+  rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
+}
+```
 
+## Claims Service API
+
+```protobuf
+syntax = "proto3";
+
+package gitlab.cells.claims.v1;
+
+option go_package = "gitlab.com/gitlab-org/cells/claims/v1;claimsv1";
+
+import "google/protobuf/timestamp.proto";
+
+// Service definition for Topology Service Claims API
+service ClaimsService {
+  // Execute creates/destroys with lease - atomic operation
+  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
+  
+  // Commit finalizes the operations and removes lease
+  rpc Commit(CommitRequest) returns (CommitResponse);
+  
+  // Rollback reverts the operations and removes lease
+  rpc Rollback(RollbackRequest) returns (RollbackResponse);
+  
+  // List outstanding leases for a client (for reconciliation)
+  rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
+}
+
+// Core claim record definition
+message ClaimRecord {
+  enum Scope {
+    UNSPECIFIED = 0;
+    ROUTES = 1;
+    USERNAME = 2;
+    EMAIL = 3;
+  }
+
+  enum Owner {
+    UNSPECIFIED = 0;
+    GROUP = 1;
+    PROJECT = 2;
+    USER = 3;
+  }
+
+  Scope scope = 1;
+  string scope_value = 2;  // The actual value being claimed (e.g., "john@example.com")
+  Owner owner = 3;
+  
+  oneof owner_value {
+    string str = 4;  // String owner ID
+    int64 i64 = 5;   // Integer owner ID
+  }
+}
+
+// Execute operation request - can include multiple creates and destroys
+message ExecuteRequest {
+  string cell_id = 1; // Cell ID requesting the lease
+  repeated ClaimRecord creates = 2;   // Claims to create
+  repeated ClaimRecord destroys = 3;  // Claims to destroy
+  
+  // Optional custom lease duration (defaults to 5 minutes)
+  google.protobuf.Timestamp lease_expires_at = 4;
+}
+
+// Lease payload stored in Cloud Spanner and returned to clients
+message LeasePayload {
+  string lease_id = 1; // UUID of the lease
+  string cell_id = 2; // Cell ID that owns the lease
+  google.protobuf.Timestamp lease_expires_at = 3;
+  google.protobuf.Timestamp created_at = 4;
+  ExecuteRequest original_request = 5; // Complete original request for reconciliation
+}
+
+// Execute operation response
+message ExecuteResponse {
+  LeasePayload lease_payload = 1;
+}
+
+// Commit operation request
+message CommitRequest {
+  string cell_id = 1;
+  string lease_id = 2;
+}
+
+// Commit operation response
+message CommitResponse {
+  // Empty response - success indicated by no gRPC error
+}
+
+// Rollback operation request
+message RollbackRequest {
+  string cell_id = 1;
+  string lease_id = 2;
+}
+
+// Rollback operation response
+message RollbackResponse {
+  // Empty response - success indicated by no gRPC error
+}
+
+// List outstanding leases request
+message ListOutstandingLeasesRequest {
+  string cell_id = 1;
+  string cursor = 2;  // Optional cursor for pagination
+}
+
+// Outstanding lease information
+message OutstandingLease {
+  LeasePayload lease_payload = 1;
+}
+
+// List outstanding leases response
+message ListOutstandingLeasesResponse {
+  repeated OutstandingLease leases = 1;
+  string next_cursor = 2;  // Cursor for next page, empty if no more pages
+}
+```
 
 ## Overview
 
@@ -358,8 +489,6 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 - **Time-Bounded Locks**: Automatic cleanup prevents indefinite blocking
 - **Horizontal Scaling**: Cloud Spanner scales with claim volume
 
-
-
 ## Why This Design Works
 
 ### 1. **Exclusive Access Control**
@@ -396,7 +525,9 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 
 This design provides strong consistency guarantees for global uniqueness while maintaining the operational characteristics needed for a large-scale distributed system like GitLab.
 
-## Diagram
+## Diagrams
+
+### Happy Path: Successful Operation
 
 ```mermaid
 sequenceDiagram
@@ -405,8 +536,6 @@ sequenceDiagram
     participant RailsDB as Rails DB (PostgreSQL)
     participant TopologyService as Topology Service (Go)
     participant CloudSpanner as Cloud Spanner
-
-    Note over User, CloudSpanner: Multi-Model Batch Operation - Happy Path
 
     User->>Rails: Save Multiple Models (User + Email + Route)
     Rails->>Rails: Validate all models
@@ -421,8 +550,6 @@ sequenceDiagram
     TopologyService->>CloudSpanner: Insert claims with lease_id + lease_op='create'
     TopologyService->>CloudSpanner: UPDATE claims SET lease_id=@id WHERE lease_id IS NULL (destroys)
     Note over CloudSpanner: Primary key constraints + conditional updates enforce exclusivity
-    Note over CloudSpanner: - (scope, scope_value) must be unique for creates
-    Note over CloudSpanner: - Objects with lease_id != NULL cannot be claimed
     CloudSpanner-->>TopologyService: Success - All constraints satisfied
     TopologyService->>CloudSpanner: COMMIT Transaction
     
@@ -448,43 +575,44 @@ sequenceDiagram
     TopologyService-->>Rails: CommitResponse()
     Rails->>RailsDB: DELETE lease from leases_outstanding
     Rails-->>User: Success - All models saved atomically
+```
 
-    Note over User, CloudSpanner: Error Path: Lease Conflict (Object Already Leased)
+### TS Conflict Path: Topology Service Conflict
 
-    User->>Rails: Save Model with claim on leased object
+```mermaid
+sequenceDiagram
+    participant User
+    participant Rails as Rails App
+    participant RailsDB as Rails DB (PostgreSQL)
+    participant TopologyService as Topology Service (Go)
+    participant CloudSpanner as Cloud Spanner
+
+    User->>Rails: Save Model with conflicting claim
     Rails->>Rails: Validate model and generate claims
     Rails->>TopologyService: Execute(creates, destroys)
     
     TopologyService->>CloudSpanner: BEGIN Transaction
     TopologyService->>CloudSpanner: Insert lease in leases_outstanding
     TopologyService->>CloudSpanner: Try to INSERT claim (create) or UPDATE claim (destroy)
-    Note over CloudSpanner: Conditional UPDATE WHERE lease_id IS NULL fails
-    Note over CloudSpanner: Object has active lease (lease_id != NULL)
-    CloudSpanner-->>TopologyService: ABORTED: Conditional update affected 0 rows
+    Note over CloudSpanner: Primary key constraint violation OR conditional update fails
+    Note over CloudSpanner: Object already exists OR has active lease (lease_id != NULL)
+    CloudSpanner-->>TopologyService: ABORTED: Constraint/lease violation
     TopologyService->>CloudSpanner: Transaction automatically rolled back
     
-    TopologyService-->>Rails: gRPC Error (FailedPrecondition: "Object locked by another lease")
+    TopologyService-->>Rails: gRPC Error (AlreadyExists/FailedPrecondition)
     Rails->>Rails: Add validation error to model
-    Rails-->>User: Save failed: "Object is temporarily locked - try again later"
+    Rails-->>User: Save failed: "Object already claimed or temporarily locked"
+```
 
-    Note over User, CloudSpanner: Error Path: Permanent Conflict (Duplicate Object)
+### Rails Conflict Path: Local Database Conflict
 
-    User->>Rails: Save Model with permanently conflicting claim
-    Rails->>Rails: Validate model and generate claims
-    Rails->>TopologyService: Execute(creates, destroys)
-    
-    TopologyService->>CloudSpanner: BEGIN Transaction
-    TopologyService->>CloudSpanner: Insert lease in leases_outstanding
-    TopologyService->>CloudSpanner: Try to INSERT claim with existing (scope, scope_value)
-    Note over CloudSpanner: Primary key constraint violation
-    CloudSpanner-->>TopologyService: ABORTED: Already exists
-    TopologyService->>CloudSpanner: Transaction automatically rolled back
-    
-    TopologyService-->>Rails: gRPC Error (AlreadyExists: "Claim already exists")
-    Rails->>Rails: Add validation error to model
-    Rails-->>User: Save failed: "Email already taken by another cell"
-
-    Note over User, CloudSpanner: Error Path: Rails DB Failure After Lease Acquired
+```mermaid
+sequenceDiagram
+    participant User
+    participant Rails as Rails App
+    participant RailsDB as Rails DB (PostgreSQL)
+    participant TopologyService as Topology Service (Go)
+    participant CloudSpanner as Cloud Spanner
 
     User->>Rails: Save Models
     Rails->>TopologyService: Execute(creates, destroys)
@@ -508,217 +636,78 @@ sequenceDiagram
     
     TopologyService-->>Rails: RollbackResponse()
     Rails-->>User: Save failed: Database constraint violation
+```
 
-    Note over User, CloudSpanner: Background Process: Lease Reconciliation
+### Lost Commit Path: Missing Commit After Successful Local Transaction
 
-    Rails->>Rails: Background reconciliation job runs
-    Rails->>RailsDB: Query all leases in leases_outstanding
-    Rails->>TopologyService: ListOutstandingLeases(client_id)
-    
-    TopologyService->>CloudSpanner: Query leases_outstanding table
-    CloudSpanner-->>TopologyService: Return active leases with payloads
-    TopologyService-->>Rails: OutstandingLeases response
-    
-    Rails->>Rails: Compare Rails DB vs Cloud Spanner leases
-    
-    alt Lease exists in Rails but not Cloud Spanner
-        Rails->>RailsDB: DELETE orphaned lease from Rails DB
-        Rails->>Rails: Log reconciliation action
-    else Lease expired in both systems
-        Rails->>Rails: Queue ClaimsLeaseCommitJob for cleanup
-    else Lease consistent in both systems
-        Rails->>Rails: No action needed - systems in sync
-    end
+```mermaid
+sequenceDiagram
+    participant User
+    participant Rails as Rails App
+    participant RailsDB as Rails DB (PostgreSQL)
+    participant TopologyService as Topology Service (Go)
+    participant CloudSpanner as Cloud Spanner
+    participant Reconciliation as Reconciliation Job
 
-    Note over User, CloudSpanner: Background Process: Auto-Expiration Cleanup
-
-    CloudSpanner->>CloudSpanner: Background cleanup service runs every minute
-    CloudSpanner->>CloudSpanner: Find leases WHERE expires_at <= NOW()
-    
-    CloudSpanner->>CloudSpanner: BEGIN Transaction
-    CloudSpanner->>CloudSpanner: DELETE FROM claims WHERE lease_op='create' AND lease_id IN (expired)
-    CloudSpanner->>CloudSpanner: UPDATE claims SET lease_id=NULL WHERE lease_op='destroy' AND lease_id IN (expired)
-    CloudSpanner->>CloudSpanner: DELETE FROM leases_outstanding WHERE lease_id IN (expired)
-    CloudSpanner->>CloudSpanner: COMMIT Transaction
-    
-    Note over CloudSpanner: Expired leases and associated claims cleaned up automatically
-
-    Note over User, CloudSpanner: Complex Business Operation: Route Ownership Transfer
-
-    User->>Rails: Transfer route ownership (Project A → Project B)
-    Rails->>Rails: Route model detects project_id change
-    Rails->>Rails: Generate destroy claim for route@projectA, create claim for route@projectB
-    
-    Rails->>TopologyService: Execute([destroy: route@projectA], [create: route@projectB])
-    
-    TopologyService->>CloudSpanner: BEGIN Transaction
-    TopologyService->>CloudSpanner: Insert lease in leases_outstanding
-    TopologyService->>CloudSpanner: UPDATE claims SET lease_id=@id WHERE scope='ROUTES' AND scope_value='route-path' AND lease_id IS NULL
-    TopologyService->>CloudSpanner: INSERT new claim (scope='ROUTES', scope_value='route-path', owner=projectB, lease_id=@id, lease_op='create')
-    Note over CloudSpanner: Atomic ownership transfer - old claim marked for destroy, new claim created
-    CloudSpanner-->>TopologyService: Success - Ownership transfer lease acquired
-    TopologyService->>CloudSpanner: COMMIT Transaction
-    
+    User->>Rails: Save Models
+    Rails->>TopologyService: Execute(creates, destroys)
+    TopologyService->>CloudSpanner: Execute operations successfully
     TopologyService-->>Rails: ExecuteResponse(lease_payload)
     
     Rails->>RailsDB: BEGIN Transaction
-    Rails->>RailsDB: UPDATE routes SET project_id = new_project_id
-    Rails->>RailsDB: INSERT lease in leases_outstanding
+    Rails->>RailsDB: Save all changes successfully
+    Rails->>RailsDB: Insert lease in leases_outstanding
     Rails->>RailsDB: COMMIT Transaction
     
-    Rails->>TopologyService: Commit(lease_id)
+    Note over Rails: Network failure / Application crash
+    Note over Rails: Commit() call to TS never made
     
-    TopologyService->>CloudSpanner: BEGIN Transaction
-    TopologyService->>CloudSpanner: DELETE old claim (destroy operation)
-    TopologyService->>CloudSpanner: UPDATE new claim SET lease_id=NULL (make permanent)
-    TopologyService->>CloudSpanner: DELETE lease from leases_outstanding
-    TopologyService->>CloudSpanner: COMMIT Transaction
+    Note over Reconciliation: Background reconciliation detects issue
+    Reconciliation->>TopologyService: ListOutstandingLeases()
+    TopologyService-->>Reconciliation: Returns lease still outstanding
+    Reconciliation->>RailsDB: Check if lease exists locally
+    RailsDB-->>Reconciliation: Lease found (should be committed)
     
-    TopologyService-->>Rails: CommitResponse()
-    Rails->>RailsDB: DELETE lease from leases_outstanding
-    Rails-->>User: Route ownership transferred successfully
-
-    Note over User, CloudSpanner: Edge Case: Concurrent Operations on Same Object
-
-    User->>Rails: Cell A: Change email from old@example.com to new@example.com
-    User->>Rails: Cell B: Delete user (including old@example.com)
-    
-    par Concurrent Operations
-        Rails->>TopologyService: Cell A: Execute([destroy: old@example.com], [create: new@example.com])
-    and
-        Rails->>TopologyService: Cell B: Execute([destroy: old@example.com])
-    end
-    
-    TopologyService->>CloudSpanner: Cell A: BEGIN Transaction
-    TopologyService->>CloudSpanner: Cell A: UPDATE claims SET lease_id=@id WHERE scope='EMAIL' AND scope_value='old@example.com' AND lease_id IS NULL
-    TopologyService->>CloudSpanner: Cell A: Acquires lease on old@example.com
-    TopologyService->>CloudSpanner: Cell A: COMMIT Transaction
-    
-    TopologyService->>CloudSpanner: Cell B: BEGIN Transaction  
-    TopologyService->>CloudSpanner: Cell B: UPDATE claims SET lease_id=@id WHERE scope='EMAIL' AND scope_value='old@example.com' AND lease_id IS NULL
-    Note over CloudSpanner: Cell B: Conditional update affects 0 rows (already leased by Cell A)
-    CloudSpanner-->>TopologyService: Cell B: ABORTED - Object already leased
-    TopologyService->>CloudSpanner: Cell B: Transaction automatically rolled back
-    
-    TopologyService-->>Rails: Cell A: ExecuteResponse(lease_payload)
-    TopologyService-->>Rails: Cell B: Error (FailedPrecondition: "Object locked by another lease")
-    
-    Rails-->>User: Cell A: Proceeds with email change
-    Rails-->>User: Cell B: Error - "Email temporarily locked, try again later"
+    Reconciliation->>TopologyService: Commit(lease_id)
+    TopologyService->>CloudSpanner: Process commit operation
+    TopologyService-->>Reconciliation: Success
+    Reconciliation->>RailsDB: DELETE lease from leases_outstanding
 ```
 
-## Claims Service API
+### Lost Rollback Path: Missing Rollback After Failed Local Transaction
 
-```protobuf
-syntax = "proto3";
+```mermaid
+sequenceDiagram
+    participant User
+    participant Rails as Rails App
+    participant RailsDB as Rails DB (PostgreSQL)
+    participant TopologyService as Topology Service (Go)
+    participant CloudSpanner as Cloud Spanner
+    participant Reconciliation as Reconciliation Job
 
-package gitlab.cells.claims.v1;
-
-option go_package = "gitlab.com/gitlab-org/cells/claims/v1;claimsv1";
-
-import "google/protobuf/timestamp.proto";
-
-// Service definition for Topology Service Claims API
-service ClaimsService {
-  // Execute creates/destroys with lease - atomic operation
-  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
-  
-  // Commit finalizes the operations and removes lease
-  rpc Commit(CommitRequest) returns (CommitResponse);
-  
-  // Rollback reverts the operations and removes lease
-  rpc Rollback(RollbackRequest) returns (RollbackResponse);
-  
-  // List outstanding leases for a client (for reconciliation)
-  rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
-}
-
-// Core claim record definition
-message ClaimRecord {
-  enum Scope {
-    UNSPECIFIED = 0;
-    ROUTES = 1;
-    USERNAME = 2;
-    EMAIL = 3;
-  }
-
-  enum Owner {
-    UNSPECIFIED = 0;
-    GROUP = 1;
-    PROJECT = 2;
-    USER = 3;
-  }
-
-  Scope scope = 1;
-  string scope_value = 2;  // The actual value being claimed (e.g., "john@example.com")
-  Owner owner = 3;
-  
-  oneof owner_value {
-    string str = 4;  // String owner ID
-    int64 i64 = 5;   // Integer owner ID
-  }
-}
-
-// Execute operation request - can include multiple creates and destroys
-message ExecuteRequest {
-  string client_id = 1; // Cell ID requesting the lease
-  repeated ClaimRecord creates = 2;   // Claims to create
-  repeated ClaimRecord destroys = 3;  // Claims to destroy
-  
-  // Optional custom lease duration (defaults to 5 minutes)
-  google.protobuf.Timestamp lease_expires_at = 4;
-}
-
-// Lease payload stored in Cloud Spanner and returned to clients
-message LeasePayload {
-  string lease_id = 1; // UUID of the lease
-  string client_id = 2; // Cell ID that owns the lease
-  google.protobuf.Timestamp lease_expires_at = 3;
-  google.protobuf.Timestamp created_at = 4;
-  ExecuteRequest original_request = 5; // Complete original request for reconciliation
-}
-
-// Execute operation response
-message ExecuteResponse {
-  LeasePayload lease_payload = 1;
-}
-
-// Commit operation request
-message CommitRequest {
-  string client_id = 1;
-  string lease_id = 2;
-}
-
-// Commit operation response
-message CommitResponse {
-  // Empty response - success indicated by no gRPC error
-}
-
-// Rollback operation request
-message RollbackRequest {
-  string client_id = 1;
-  string lease_id = 2;
-}
-
-// Rollback operation response
-message RollbackResponse {
-  // Empty response - success indicated by no gRPC error
-}
-
-// List outstanding leases request
-message ListOutstandingLeasesRequest {
-  string client_id = 1;
-}
-
-// Outstanding lease information
-message OutstandingLease {
-  LeasePayload lease_payload = 1;
-}
-
-// List outstanding leases response
-message ListOutstandingLeasesResponse {
-  repeated OutstandingLease leases = 1;
-}
+    User->>Rails: Save Models
+    Rails->>TopologyService: Execute(creates, destroys)
+    TopologyService->>CloudSpanner: Execute operations successfully
+    TopologyService-->>Rails: ExecuteResponse(lease_payload)
+    
+    Rails->>RailsDB: BEGIN Transaction
+    Rails->>RailsDB: Start saving changes
+    Note over Rails: Application crash / Network failure
+    Note over Rails: Transaction lost, no commit/rollback
+    
+    Note over Reconciliation: Background reconciliation detects issue
+    Reconciliation->>TopologyService: ListOutstandingLeases()
+    TopologyService-->>Reconciliation: Returns lease still outstanding
+    Reconciliation->>RailsDB: Check if lease exists locally
+    RailsDB-->>Reconciliation: Lease NOT found (was never committed)
+    
+    Note over Reconciliation: Lease older than LEASE_EXPIRY_THRESHOLD
+    Reconciliation->>TopologyService: Rollback(lease_id)
+    TopologyService->>CloudSpanner: Process rollback operation
+    CloudSpanner->>CloudSpanner: DELETE claims WHERE lease_op='create'
+    CloudSpanner->>CloudSpanner: UPDATE claims SET lease_id=NULL WHERE lease_op='destroy'
+    CloudSpanner->>CloudSpanner: DELETE lease from leases_outstanding
+    TopologyService-->>Reconciliation: Success
 ```
 
 ## Rails Concern to claim attributes
@@ -771,8 +760,6 @@ class CreateLeasesOutstanding < ActiveRecord::Migration[7.0]
     end
   end
 end
-
-
 ```
 
 ## Topology Service Cloud Spanner schema
@@ -817,6 +804,7 @@ CREATE INDEX idx_claims_lease_op ON claims(lease_op) WHERE lease_op != 'no-op';
 CREATE INDEX idx_claims_scope_lease ON claims(scope, lease_id) WHERE lease_id IS NOT NULL;
 CREATE INDEX idx_claims_owner ON claims(owner_type, owner_value);
 ```
+
 
 ## Alternative Design: Separate Leased Table with UUID Cross-Join
 
@@ -938,6 +926,34 @@ WHERE scope = @scope AND scope_value = @scope_value
 - **Audit Trail**: Clear ownership chain for all claim operations
 - **Prevents Conflicts**: Eliminates scenarios where multiple cells try to manage the same claim
 
+## Alternative Approach: In-Transaction Claims Processing
+
+An alternative implementation would be to run Execute()/INSERT lease_id before doing local DB Commit, but after BEGIN - so within a Rails transaction:
+
+```
+1. Local DB: BEGIN
+2. Local DB: INSERT/UPDATE/DESTROY (local operations)
+3. TS DB: Execute() => lease (~100ms)
+4. Local DB: INSERT lease
+5. Local DB: COMMIT
+6. TS DB: Commit(lease)
+```
+
+However, this approach is **problematic** because:
+
+- **Connection Pool Bottleneck**: We would have to be very strict on TS Execute to execute within 250ms, as otherwise it can create a bottleneck on a cell that might hold local connections
+- **Transaction Duration**: Extends every local database transaction by the network round-trip time
+- **Lock Contention**: Holds database locks and connections during network operations
+- **Scalability Risk**: Could exhaust connection pools and block other operations on the cell
+
+**Why the Primary Design is Better:**
+
+The recommended approach (Execute → Local DB → Commit) avoids these issues by:
+- Keeping local database transactions fast and focused
+- Failing fast on conflicts before acquiring local resources
+- Not holding database connections during network operations
+- Providing better scalability characteristics for high-concurrency scenarios
+
 ## Glossary
 
 **Cell**: An independent GitLab instance that can operate autonomously but coordinates with other cells for global uniqueness.
@@ -969,3 +985,5 @@ WHERE scope = @scope AND scope_value = @scope_value
 **Atomic Batch Operation**: Processing multiple related claims together in a single transaction to ensure all-or-nothing semantics.
 
 **Temporal Isolation**: The property that operations are isolated in time through leases, preventing concurrent modifications.
+
+This comprehensive design provides a robust foundation for distributed coordination in GitLab's cellular architecture while maintaining operational simplicity and strong consistency guarantees.
