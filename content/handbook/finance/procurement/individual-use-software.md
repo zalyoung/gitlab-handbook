@@ -22,8 +22,10 @@ Please consider whether one of our existing vendors may be able to service your 
 
 ## What Happens When I Request Individual Use Software?
 
-- Upon receipt, the Procurement team will open a GitLab Issue based on your responses and will route for the necessary approvals, including your manager, Security, and Privacy. Once the Issue is opened, please attach any relevant contracts, backups, or documents.
+- Upon receipt of your Google Form submission, the Procurement team will open a GitLab Issue based on your responses and will route for manager approval first.
+- Once manager approval is obtained, the Procurement team will move the request to ZIP for Legal, Privacy and Security approvals. The level of review required depends on the data shared with the vendor and whether the software/vendor is pre-approved.
 - Reviews may take several weeks, depending on the level of risk involved with your software of choice, the depth of review needed, and vendor responsiveness.
-- Once all necessary parties have approved your software request, the Procurement team will issue you a virtual one-time use credit card via email to purchase the approved software license at the approved price.
-- After you have purchased your software with the virtual credit card, please forward a copy of your receipt to ap@gitlab.com as confirmation if there are no other contracts or backup documents.
+- After collecting all necessary approvals in ZIP, the Procurement team will move the request to Coupa and bypass approvals to generate the virtual one-time use credit card.
+- The Procurement team will issue you the virtual credit card via email to purchase the approved software license at the approved price.
+- After you have purchased your software with the virtual credit card, please forward a copy of your receipt to ap@gitlab.com as confirmation if there are no other contracts or backup documents. Please attach any relevant contracts, backups, or documents to the GitLab Issue once it's opened.
 *If you have any questions, please reach out to the Procurement team via the #Procurement Slack channel.*
