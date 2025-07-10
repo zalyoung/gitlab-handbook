@@ -45,6 +45,7 @@ Requests to create a Data Team Intern position will be evaluated on the followin
      - Can the mentor commit to a 3-month engagement, including regular meetings and progress reviews? Are there potentially extended out-of-office periods that would affect the internship experience?
 1. Intern Commitment
      - Can the intern commit to a 3-month engagement, including regular meetings and progress reviews? Are there potentially extended out-of-office periods that would affect the internship experience?
+     - Does the intern have sufficient foundational skills to be able to ramp up to work on a Data project? While interns are not expected to be heavily skilled in the area they are interested in (they will build those skills up as part of the internship program!) they should have a working knowledge/awareness of the tooling and technology that is required to successfully complete an internship. 
 
 If the answer to these questions is **YES**, there is a great chance the internship is a fit for all team members. In other cases, internship requests may be deferred to a future quarter (based on bandwidth/availability of projects) or declined (if there is not a good fit).
 
