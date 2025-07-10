@@ -101,7 +101,7 @@ After creating the merge request, you now have 3 linked items that all relate on
 
 1. For **Commit Message**, type `Updated the README.md file`.
 
-1. Click the **Commit** button.
+1. Click the **Commit and push to 'branch-name'** button.
 
 1. You should see notification box that says `Success! Your changes have been committed` in the bottom right corner of the screen. Click the **Go to project** option from the notification box in the bottom right corner.
 
@@ -122,7 +122,7 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
    > When you start a review, your comments will only be visible to you until you submit the review.
 
-1. You'd normally add more comments to your review before submitting them all at once, but for this lab just click the **Finish review** button.
+1. You'd normally add more comments to your review before submitting them all at once, but for this lab just click the **Your Review** button.
 
 1. In the resulting dialog, you will see a **Summary comment** textbox. This is an optional field that allows you to add a summary to your review. For this review, add the comment **Added comment to README.md**
 
