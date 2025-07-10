@@ -107,7 +107,7 @@ Learn more in the [Cloud Resources for Developer Relations handbook](/handbook/m
 
 ### Development Environments
 
-See [Development Environments for Developer Advocates](/handbook/marketing/developer-relations/developer-advocacy/projects/dev-environments/).
+See [Development Environments for Developer Advocates](/handbook/marketing/developer-relations/developer-advocacy/dev-environments/).
 
 ## Product Adoption Initiatives
 
