@@ -209,7 +209,8 @@ skip_range_validation = true # For short lived cells, min 100 billion IDs valida
 
 ###### 1. **Database Preparation Stage**
 
-During cell provisioning, the database preparation consists of these steps:
+During cell provisioning, the database preparation consists of these steps, which
+are automatically executed:
 
 - Execute Ansible task to create the database as part of Instrumentor `configure` script
 - Execute `/scripts/db-migrate` script during Helm Chart installation
