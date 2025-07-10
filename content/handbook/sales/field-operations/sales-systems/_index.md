@@ -280,7 +280,7 @@ Business Process Owner pertaining to the team should provide signoff. The signof
 |-----------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | Quote To Cash               | Director, Quote to Cash                                                                        | Senior Director, Sales Operations                |
 | Territory Management        | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
-| Ecosystems                  | Director, Sales Operations                                                                     | Senior Manager, Global Ecosystem Specialists     |
+| Ecosystem Operations                  | Senior Manager, Global Ecosystem Specialists     | Senior Director, Go-to Market Planning and Operations     |
 | Customer Success Operations | Senior Director, CS Strategy & Operations                                                      | VP, Field Operations                             |
 | Sales Operations            | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
 | Deal Desk                   | Sr. Director, Deal Desk                                                                        | Senior Director, Sales Operations                |
