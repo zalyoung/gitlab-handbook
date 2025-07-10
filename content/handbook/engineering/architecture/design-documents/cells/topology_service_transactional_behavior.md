@@ -18,7 +18,7 @@ This system implements a **distributed lease-based coordination mechanism** for 
 
 #### **1. Lease-First Coordination**
 The system follows a "lease-first, commit-later" pattern:
-- **Before** making any local changes, acquire a lease from the  Topology Service
+- **Before** making any local changes, acquire a lease from the Topology Service
 - **Only after** successful lease acquisition, proceed with local database operations
 - **After** local success, commit the lease to make changes permanent
 - **If anything fails**, rollback the lease to maintain consistency
@@ -786,23 +786,6 @@ User + Email + Route changes → Single batch Execute() → All-or-nothing seman
 
 **Why**: Business operations often span multiple models - atomic coordination required
 
-### **Ownership Transfers**
-
-```
-Route.project_id change → Destroy old claim + Create new claim → Atomic transfer
-```
-
-**Example**: Moving route from Project A to Project B:
-1. Generate destroy claim for route@projectA
-2. Generate create claim for route@projectB  
-3. Execute() both in single call
-4. Update route.project_id in Rails
-5. Commit() makes transfer permanent
-
-**Important**: This works because the destroy and create operations reference different claims - the old ownership (route@projectA) vs. the new ownership (route@projectB). The Topology Service can model this as two separate claim operations.
-
-**Why**: Ownership changes must be atomic to prevent conflicts or ownership gaps
-
 ## Performance Characteristics
 
 ### **Optimizations**
@@ -860,7 +843,6 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 - **Batch Size Limits**: What's the maximum number of claims per batch to optimize performance vs. transaction size?
 - **Lease Duration**: Rather than explicit expiration, should the staleness threshold be configurable per operation type?
 - **Connection Pooling**: How many concurrent connections should Rails maintain to Topology Service, and how should they be distributed across cells?
-- **Spanner Hotspots**: How to detect and mitigate hotspots on popular claims like common usernames?
 
 ### **Security Considerations**
 - **Authentication**: How does Topology Service authenticate cells - mutual TLS, API keys, or JWT tokens?
@@ -871,7 +853,6 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 ### **Operational Considerations**
 - **Monitoring**: What metrics should be tracked - lease age, conflict rates, reconciliation frequency?
 - **Alerting**: When should operators be notified - stale lease threshold, reconciliation failures, or high conflict rates?
-- **Scaling**: How does the system handle increased load on popular claims during peak usage?
 - **Disaster Recovery**: How to handle Topology Service outages and ensure data consistency during recovery?
 
 ### **Edge Cases**
@@ -885,12 +866,11 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 - **Lease Renewal**: Should long-running operations be able to refresh leases to prevent staleness?
 - **Lease Queuing**: Should there be a queue for waiting operations when leases conflict?
 - **Lease Priorities**: Should certain operations (admin vs. user) have priority over others?
-- **Lease Analytics**: Should the system track lease usage patterns for optimization?
 
 ### **Testing Strategy**
 - **Chaos Engineering**: How to test behavior under various failure scenarios - network partitions, service crashes, clock skew?
 - **Load Testing**: What's the maximum throughput the system can handle under various conflict scenarios?
-- **Consistency Testing**: How to verify consistency across all failure modes using techniques like Jepsen testing?
+- **Consistency Testing**: How to verify consistency across all failure modes?
 - **Integration Testing**: How to test the complete flow across Rails, Topology Service, and Cloud Spanner?
 
 ## Alternative Approaches to Consider
@@ -913,7 +893,10 @@ Execute claims within the Rails transaction rather than before it:
 - **Lock Contention**: Holds database locks and connections during network operations
 - **Scalability Impact**: Could exhaust connection pools under high concurrency
 
-**Trade-offs**: Simpler error handling vs. resource contention and scalability concerns
+**Trade-offs**:
+- **Error handling**: Simpler error handling vs. resource contention and scalability concerns
+- **Implementation**: Follows well current lazy evaluation approach in Rails allowing to properly capture
+  all claims as they are saved to database significantly reducing development complexity.
 
 ### **Separate Leased Table with UUID Cross-Join**
 Create a separate `leased` table that references claims by UUID:
@@ -938,6 +921,7 @@ CREATE TABLE leased (
 - **Transaction Atomicity**: More complex to ensure referential integrity across tables
 - **Race Conditions**: Higher risk of inconsistent state between table operations
 - **Cloud Spanner Limitations**: No foreign key constraints, potential for orphaned records
+- **Eventual Consistency**: Is it affecting the cross-join table?
 
 **Trade-offs**: Better separation of concerns vs. increased transaction complexity and performance overhead
 
@@ -949,11 +933,10 @@ Use traditional distributed transactions across cells:
 - **Strict Consistency**: Guaranteed atomicity across all participants
 
 **Considerations**:
+- **Overkill**: 2PC is needed when there are many writers to a single dataset. In the case of Topology Service
+  there's no need for complex 2PC as Topology Service does contain a view of a Cell, and no other Cell needs to update
+  and synchronize data belonging to another Cell.
 - **Coordinator Failure**: Single point of failure that can block all participants
 - **Performance Overhead**: Multiple network round-trips and blocking phases
 - **Operational Complexity**: Requires distributed transaction coordinator management
 - **Recovery Complexity**: Manual intervention often needed for failed transactions
-
-**Trade-offs**: Theoretical consistency guarantees vs. practical operational complexity and performance impact
-
-This comprehensive design provides a robust foundation for distributed coordination in GitLab's cellular architecture while maintaining operational simplicity and strong consistency guarantees.
