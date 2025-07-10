@@ -210,34 +210,51 @@ Every minute → Find expired leases → Delete creates → Clear destroys → R
 ```ruby
 # Rails-driven cleanup with idempotent Topology Service operations
 class ClaimsLeaseReconciliationService
+  LEASE_EXPIRY_THRESHOLD = 10.minutes  # Consider lease expired if older than threshold
+  
   def self.reconcile_outstanding_leases
     topology_service = Gitlab::Cells::TopologyServiceClient.new
+    cursor = nil
     
     loop do
-      # Get leases from Topology Service (paginated)
+      # Get leases from Topology Service with cursor-based pagination
       response = topology_service.list_outstanding_leases(
-        ListOutstandingLeasesRequest.new(client_id: current_cell_id)
+        ListOutstandingLeasesRequest.new(
+          client_id: current_cell_id,
+          cursor: cursor
+        )
       )
       
       break if response.leases.empty?
       
-      topology_lease_ids = response.leases.map { |lease| lease.lease_payload.lease_id }
+      topology_leases = response.leases.map(&:lease_payload)
       
-      # Determine which leases to commit vs rollback
-      active_local_leases = LeasesOutstanding.where(lease_id: topology_lease_ids).pluck(:lease_id)
-      to_commit = active_local_leases
-      to_rollback = topology_lease_ids - to_commit
+      # Separate expired and active leases based on creation time
+      now = Time.current
+      expired_leases = topology_leases.select { |lease| 
+        lease.created_at.to_time < (now - LEASE_EXPIRY_THRESHOLD) 
+      }
+      active_leases = topology_leases - expired_leases
       
-      # Commit leases that exist locally (idempotent)
-      to_commit.each do |lease_id|
+      # Process active leases: commit if they exist locally
+      active_lease_ids = active_leases.map(&:lease_id)
+      local_active_leases = LeasesOutstanding.where(lease_id: active_lease_ids).pluck(:lease_id)
+      
+      local_active_leases.each do |lease_id|
         topology_service.commit(CommitRequest.new(client_id: current_cell_id, lease_id: lease_id))
         LeasesOutstanding.find_by(lease_id: lease_id)&.destroy!
       end
       
-      # Rollback leases that don't exist locally (idempotent)
-      to_rollback.each do |lease_id|
-        topology_service.rollback(RollbackRequest.new(client_id: current_cell_id, lease_id: lease_id))
+      # Process expired leases: rollback all (idempotent)
+      expired_leases.each do |lease|
+        topology_service.rollback(RollbackRequest.new(client_id: current_cell_id, lease_id: lease.lease_id))
+        # Clean up any local record that might exist
+        LeasesOutstanding.find_by(lease_id: lease.lease_id)&.destroy!
       end
+      
+      # Update cursor for next iteration
+      cursor = response.next_cursor
+      break if cursor.blank?  # No more pages
     end
     
     # Exception case: leases missing from TS but present locally
@@ -258,13 +275,18 @@ end
 
 **Rails Reconciliation**:
 - **Primary Cleanup**: Rails is responsible for cleaning up outstanding leases
+- **Cursor-Based Pagination**: Guarantees iteration through all leases without infinite loops
 - **Idempotent Operations**: Topology Service Commit/Rollback operations are idempotent
+- **Time-Based Expiry**: Leases older than threshold are considered expired (local property)
+- **Complete Processing**: Both expired and active leases are processed to ensure forward progress
 - **Exception Handling**: Local leases without corresponding TS leases indicate system issues
 - **Immediate Cleanup**: Leases are removed as soon as possible via Rails `after_commit`/`after_rollback` hooks
 
 **Why Rails-driven cleanup:**
 - **Natural Integration**: Rails `after_commit` and `after_rollback` hooks provide natural cleanup points
 - **Immediate Response**: Leases are cleaned up immediately after transaction completion
+- **Pagination Safety**: Cursor-based pagination ensures all leases are processed exactly once
+- **Local Time Logic**: Expiry determination is based on lease age, not absolute expiration time
 - **Exception Detection**: Lingering leases indicate problems rather than normal operation
 - **Simplified Logic**: Happy path is Execute → Local DB → Commit/Rollback → Cleanup
 
