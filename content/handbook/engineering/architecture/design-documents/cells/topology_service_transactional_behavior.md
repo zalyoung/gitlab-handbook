@@ -166,9 +166,9 @@ Local DB fails → Rollback() → Undo claims → Clean up lease
 
 ### Network Failures and Timeouts
 
-**During Execute()**: Rails gets error, no local changes made, user sees error
-**During Commit()**: Background job retries, or lease expires and gets cleaned up
-**During Rollback()**: Background job retries, or lease expires and gets cleaned up
+- **During Execute()**: Rails gets error, no local changes made, user sees error
+- **During Commit()**: Background job retries, or lease expires and gets cleaned up
+- **During Rollback()**: Background job retries, or lease expires and gets cleaned up
 
 ## Background Behaviors
 
