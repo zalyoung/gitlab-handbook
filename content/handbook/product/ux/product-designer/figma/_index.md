@@ -31,6 +31,8 @@ Figma has four levels of access, also called Permissions, for Professional teams
 
 By default any files or prototypes created in Figma are accessible to GitLab team members with Figma accounts, and not accessible to anyone else. In cases where you need to provide access to someone outside of GitLab, such as to solicit feedback or run validation research, the permissions will need to be changed.
 
+You are required to utilize a password with a 2 week expiration when sharing outside of GitLab. These settings are configured in Figma and will be automatically applied.
+
 More information on sharing and permissions can be found in the [Figma documentation](https://help.figma.com/hc/en-us/articles/360040531773-Share-files-and-prototypes).
 
 #### Grant access to a file
