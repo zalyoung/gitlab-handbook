@@ -30,96 +30,107 @@ The GitLab Brand Design and Video teams will elevate the brand beyond the logo a
 
 Create simple, effective, and intentional brand experiences by solving complex problems; defining the what, why, and how, resulting in a message that's easy to understand.
 
-## Requesting Support
+## Requesting Brand & Creative Support
 
-Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
+To help streamline our creative intake process and enable our team to work more efficiently, we’ve updated how design and video requests are submitted.
 
-For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/).
+For more information on the brand video process, you can visit the brand video team [handbook page](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand-video/).
 
-![brand moving to asana](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/brand-creative-asana.png)
+### **Service Level Agreement (SLA) for Requests:**
 
-- For more information, please see this announcement on Slack [HERE](https://gitlab.slack.com/archives/C0259241C/p1749243648660229)
+_Below are the SLAs for our key request types: brand reviews, design requests, custom swag, team expressions, and video requests._ 
 
-### Brand Design & Video Issue Templates
+Please note that minimum **turnaround times begin from the date we receive all the necessary information** to start the design and **NOT from the date your request is submitted.**
 
-#### 1. Blog Image Request
+* If your deadline falls within the minimum turnaround time for any request type, we cannot guarantee delivery by that date.
 
-Need an image for a blog? Please use [this template to request blog images](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request).
+If you have any questions or concerns about your creative request, feel free to reach out to our Senior Creative Operations Manager, Michelle Novosel 
 
-#### 2. Brand Review Request
+#### 1. Brand Review requests: - Minimum of **1 week** for turnaround _\*This includes time for any discussion or feedback to be addressed and reviewed again. Initial review will typically happen within 72 hours._
 
-Need a brand review? Please use [this template to request a brand or design review](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request) of multiple or single assets.
+#### 2. Design Requests: Minimum of **three weeks** for turnaround
 
-- For brand review only - do NOT use this template for requesting new assets or designs*.
-- Do NOT use any of the below issues for brand review*.
+#### 3. Swag requests:
+* Minimum of **four weeks** for turnaround
+* If you are requesting custom swag for GitLab teams, TMRG groups, or special projects, please note that you’ll need to submit a Tanuki Tab for Teams Expressions request **first** by using the design request linked in the section below. 
+* Before submitting a request, please confirm that your team or program has approved budget for this order. If you’re unsure, contact your Finance Business Partner. You will need a PO to complete the order. Please review the custom swag creative request process in the handbook.
+* If you have any questions, comments, or concerns regarding your creative swag request, please reach out in the #[brand](https://gitlab.enterprise.slack.com/archives/C0119M5HUER) Slack channel.
 
-#### 3. Brand Review Request of Localized Assets
+#### 4. Tanuki Tab for Teams Expressions requests:
+* Minimum of **four weeks** for turnaround
+* A Tanuki Tab should be created first using the Design Request dropdown from our Asana intake form before swag or additional asset requests are addressed. If swag or additional assets are needed, please open a separate request.
+* Please review the GitLab Team Expressions Style Guide that we will be utilizing for your Tanuki Tab request.
 
-Need a brand review of a localized asset? Please use [this template to request a brand or design review of multiple or single localized assets](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request-localized-asset).
+#### 5. Video Requests: Updated SLAs Coming Soon!
 
-- For brand review only - do NOT use this template for requesting new assets or designs*.
-- For non-English design or video assets only
-- Do NOT use any of the below issues for brand review*.
+* **Please note: We understand that project priorities can shift over time. To keep our project board organized and focused on active work, any request with no activity for two months will be closed out. If the project still needs to remain open, feel free to reopen the request and notify our Senior Creative Operations Manager via Slack.**
 
-#### 4. Content Design Request
+### **How to Submit a Request**
 
-Please use [this issue request template for net new creative or refreshes](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request) needed for the following asset types:
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won’t have the proper information for us to support your request.\
+\
+Please note that if a request is submitted via Asana, Slack, or other unofficial channels, you will be asked to resubmit your request using the appropriate intake form. This ensures we have all the necessary information to begin work efficiently and keep everything properly tracked in GitLab. 
 
-- eBook / Solution Briefs
-- Infographic / Diagrams
-- One-Pager / Two-Pager
-- Quarterly Update of Executive Candidate Info Packet
-- Surveys
-- Whitepaper
-- Other but within the same category of assets
+### **Brand Design & Video Issue Templates**
 
-#### 5. Event Asset Request
+#### 1. **Brand Review Requests:**  
+* [**Brand Review Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request) - For brand review only - do NOT use this template for requesting new assets or designs\*.
 
-Please use [this issue template when requesting net new or refreshing](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) any of the following event-related assets:
+  - Do NOT use any of the below issues for brand review\*
+* [**Brand Review Request of Localized Assets** ](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request-localized-asset)- For brand review of localized assets only, do NOT use this template for requesting net new assets or designs\*.
 
-- Event Booth
-- Event Signage
-- Event Social Posts
+  * For non-English design or video assets only
+  * Do NOT use any of the below issues for brand review\*.
 
-Do NOT use this template for For Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template.
+#### 2. **Design Requests:**  
 
-#### 6. Illustration + Iconography Requests
+* [**Blog Image Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request) 
 
-Please use [this issue template for any illustration and iconography needs](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request).
+* [**Content Design Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request) - Please use this issue request template for net new creative or refreshes needed for the following asset types:
 
-#### 7. Presentation Request
+  * eBook / Solution Briefs
+  * Infographic / Diagrams
+  * One-Pager / Two-Pager
+  * Quarterly Update of Executive Candidate Info Packet
+  * Surveys
+  * Whitepaper
+  * Other but within the same category of assets
 
-Please use [this issue request template for updating existing presentation decks or when requesting design for net new decks](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request).
+* [**Digital Advertising Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=digital-advertising-request)- Please use this issue template when requesting net new or refreshing digital advertising assets such as:
 
-#### 8. Social Asset Request
+  * Paid Social
+  * Organic Social
+  * Native Ads
+  * Display Assets
 
-Please use [this issue template for net new or refreshing organic and/or paid social requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request).
+* [**Email Asset Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=email-asset-request)
 
-#### 9. Swag Request
+* [**Event Asset Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) - Please use this issue template when requesting net new or refreshing any of the following event-related assets:
+  * _Please note: DO NOT use this event request template for For Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template._
 
-This [issue template should be used for all custom swag requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request) including swag for TMRG programs, event swag + giveaways, etc.
+    * Event Booth
+    * Event Signage
+    * Event Social Posts
 
-#### 10. Tanuki Tab Request for Team Expressions
+* [**Illustration + Iconography Requests**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request)
 
-Please use [this issue template for custom badge or assets](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=tanuki-tab-for-team-expressions-request) for your TMRG, Department or special project. Be sure to review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/#team-expressions), as this will be the system used for your Tanuki Tab request.
+* [**OOH Requests**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=ooh-request)
 
-#### 11. General Design Request
+* [**Presentation Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request) - Please use this issue request template for updating existing presentation decks or when requesting design for net new decks.
 
-If your design request does not fall within one of the above categories, or if you need a Zoom background, please use [this issue template to request a new design of multiple or a single asset](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request).
+* [**General Design Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request) - If your design request does not fall within one of the above categories, or if you need a Zoom background, please use this issue template to request a new design of multiple or a single asset.
+  * Do NOT use this template for brand reviews.\*
 
-- Do NOT use this template for brand reviews.*
+#### 3. [**Swag Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request) - This issue template should be used for all custom swag requests including swag for TMRG programs, event swag + giveaways, etc.
 
-#### 12. New Brand Video Request
+#### 4. [**Tanuki Tab Request for Team Expressions**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=tanuki-tab-for-team-expressions-request) - Please use this issue template for custom badge or assets for your TMRG, Department or special project. Be sure to review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/#team-expressions), as this will be the system used for your Tanuki Tab request.
 
-Please use [this issue when requesting a net new video](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request).
+#### 5. **Video Requests:**
+* [**New Brand Video Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request) - Please use this issue when requesting a net new video.
 
-#### 13. Upload Video Request
+* [**Upload Video Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request) - Please use this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform.
 
-Please us [this issue template when requesting to have a video uploaded](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request) to Vimeo, YouTube, or another similar platform.
-
-#### 14. Video Edit Request
-
-Please use [this issue when requesting an update to an existing video or edits to video footage](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request) such as adding lower thirds, bumpers or slides to a zoom recording.
+* [**Video Edit Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request) - Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording.
 
 #### **Request Instructions and Tips:**
 
