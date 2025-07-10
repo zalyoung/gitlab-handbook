@@ -27,7 +27,7 @@ To start, let's create a new project in the lab environment:
 
 1. Click the arrow next to **Runners** to expand the Runners section.
 
-1. Select **New project runner**.
+1. Select **Create project runner**.
 
 1. Select **Run untagged jobs**, leave all other settings as default, and select **Create runner**.
 
@@ -161,6 +161,8 @@ When this runner is created, it will have a `config.toml` file that defines the 
           shm_size = 0
           network_mtu = 0
       ```
+
+1. Make a note of this output, as you will need it in the next task.
 
 ## Task E. Editing your runner configuration
 
