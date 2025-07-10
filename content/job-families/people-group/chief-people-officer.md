@@ -80,7 +80,6 @@ Other requirements
 * [Discretionary bonus per employee per month](/handbook/total-rewards/incentives/#discretionary-bonuses)
 * New hire location factor
 * [Percent of team members over compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band)
-* [Plan vs Actual](/handbook/finance/financial-planning-and-analysis/#plan-vs-actual)
 
 ## Hiring Process
 

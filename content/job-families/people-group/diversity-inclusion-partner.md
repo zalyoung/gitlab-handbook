@@ -54,10 +54,6 @@ The Diversity, Inclusion and Belonging Specialist is a [grade 6](/handbook/total
 - Foundational understanding of Diversity, Inclusion and Belonging
 - Ability to partner with leadership and team members
 
-#### Diversity, Inclusion, and Belonging Specialist Performance Indicators
-
-- [Engagement survey inclusion score](/handbook/company/culture/inclusion/#performance-indicators)
-
 #### Diversity, Inclusion, and Belonging Specialist Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
