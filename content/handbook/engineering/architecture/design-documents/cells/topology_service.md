@@ -207,7 +207,7 @@ skip_range_validation = true # For short lived cells, min 100 billion IDs valida
 
 ##### Cell Bootstrap Sequence Altering Process
 
-###### 1. **Database Preparation Stage**
+1. **Database Preparation Stage**
 
 During cell provisioning, the database preparation consists of these steps, which
 are automatically executed:
@@ -216,7 +216,7 @@ are automatically executed:
 - Execute `/scripts/db-migrate` script during Helm Chart installation
 - Within this script, run `/srv/gitlab/bin/rake gitlab:db:configure` command
 
-###### 2. **The `gitlab:db:configure` Rake Task**
+2. **The `gitlab:db:configure` Rake Task**
 
 This is the main entry point that alters sequence ranges. The task:
 
@@ -224,7 +224,7 @@ This is the main entry point that alters sequence ranges. The task:
 - Calls `configure_pg_databases` for each PostgreSQL database
 - Executes `alter_cell_sequences_range` function **only during bootstrap**
 
-###### 3. **Bootstrap Detection Logic**
+3. **Bootstrap Detection Logic**
 
 The key condition that determines if sequence altering happens is in the `configure_pg_database` method:
 
@@ -235,14 +235,14 @@ return false if database_loaded # Skip if tables already exist
 
 The system checks if there are existing tables in the `public` schema. If tables exist, it skips sequence altering entirely.
 
-###### 4. **Sequence Range Fetching**
+4. **Sequence Range Fetching**
 
 When conditions are met (bootstrap scenario), the system:
 
 - Fetches sequence ranges from Topology Service via gRPC: `Gitlab::TopologyServiceClient::CellService.new.cell_sequence_ranges`
 - Retrieves the configured ranges (e.g., `minval: 500000000000, maxval: 599999999999`)
 
-###### 5. **Sequence Alteration Execution**
+5. **Sequence Alteration Execution**
 
 The `alter_cell_sequences_range` function:
 
@@ -250,7 +250,7 @@ The `alter_cell_sequences_range` function:
 - Calls `Gitlab::Database::AlterCellSequencesRange.new` to actually modify the PostgreSQL sequences
 - Updates all relevant sequences to use the ranges fetched from Topology Service
 
-###### 6. **Configuration Requirements**
+6. **Configuration Requirements**
 
 For this to work, the cell must be configured with:
 
@@ -264,11 +264,11 @@ cell:
     address: "topology-grpc.staging.runway.gitlab.net:443"
 ```
 
-###### 7. **One-Time Bootstrap Limitation**
+7. **One-Time Bootstrap Limitation**
 
 **Important**: This sequence altering only happens **once during bootstrap**. If you try to run `gitlab:db:configure` again on an already-initialized database, it will skip the sequence altering because tables already exist and they can have sequences consumed.
 
-###### 8. **Final Result**
+8. **Final Result**
 
 After successful bootstrap, running `SELECT sequencename, min_value, max_value FROM pg_sequences LIMIT 10;` shows the sequences configured with the ranges from Topology Service instead of default PostgreSQL ranges.
 
