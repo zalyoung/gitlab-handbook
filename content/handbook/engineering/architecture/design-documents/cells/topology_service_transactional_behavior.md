@@ -220,7 +220,7 @@ class ClaimsLeaseReconciliationService
       # Get leases from Topology Service with cursor-based pagination
       response = topology_service.list_outstanding_leases(
         ListOutstandingLeasesRequest.new(
-          client_id: current_cell_id,
+          cell_id: current_cell_id,
           cursor: cursor
         )
       )
@@ -241,13 +241,13 @@ class ClaimsLeaseReconciliationService
       local_active_leases = LeasesOutstanding.where(lease_id: active_lease_ids).pluck(:lease_id)
       
       local_active_leases.each do |lease_id|
-        topology_service.commit(CommitRequest.new(client_id: current_cell_id, lease_id: lease_id))
+        topology_service.commit(CommitRequest.new(cell_id: current_cell_id, lease_id: lease_id))
         LeasesOutstanding.find_by(lease_id: lease_id)&.destroy!
       end
       
       # Process expired leases: rollback all (idempotent)
       expired_leases.each do |lease|
-        topology_service.rollback(RollbackRequest.new(client_id: current_cell_id, lease_id: lease.lease_id))
+        topology_service.rollback(RollbackRequest.new(cell_id: current_cell_id, lease_id: lease.lease_id))
         # Clean up any local record that might exist
         LeasesOutstanding.find_by(lease_id: lease.lease_id)&.destroy!
       end
@@ -800,14 +800,14 @@ CREATE TABLE claims (
 -- Outstanding leases table (mirrored with Rails for synchronization)
 CREATE TABLE leases_outstanding (
   lease_id STRING(36) NOT NULL,                    -- UUID of the lease
-  client_id STRING(100) NOT NULL,                  -- Cell ID that owns the lease
+  cell_id STRING(100) NOT NULL,                    -- Cell ID that owns the lease
   expires_at TIMESTAMP NOT NULL,                   -- When the lease expires
   lease_payload BYTES(MAX) NOT NULL,               -- Serialized LeasePayload protobuf
   created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
 ) PRIMARY KEY (lease_id);
 
 -- Performance and operational indexes
-CREATE INDEX idx_leases_outstanding_client ON leases_outstanding(client_id);
+CREATE INDEX idx_leases_outstanding_cell ON leases_outstanding(cell_id);
 CREATE INDEX idx_leases_outstanding_expires ON leases_outstanding(expires_at);
 CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
 
