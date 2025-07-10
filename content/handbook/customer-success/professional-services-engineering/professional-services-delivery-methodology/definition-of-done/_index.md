@@ -81,7 +81,8 @@ Please note that the DoD may be different for sprints vs. releases, meaning inte
 * Code commented, checked in and run successfully
 * Peer reviewed (or produced with pair programming) and meeting development standards
 * Builds without errors
-* Unit tests written and passing - as appropriate
+* Unit and feature tests written and passing - as appropriate
+* Necessary E2E tests are written by the end of the milestone when the feature is released  
 * Passed Acceptance Testing by the Customer Development Team and signed off as meeting requirements
 * Any build / deployment / configuration changes are implemented / documented / communicated from sprint to sprint
 * Relevant documentation / diagrams produced and / or updated
