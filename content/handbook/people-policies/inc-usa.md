@@ -13,22 +13,32 @@ GitLab, Inc. is an equal opportunity employer. In accordance with anti-discrimin
 
 The policy of equal employment opportunity (EEO) and anti-discrimination applies to all aspects of the relationship between GitLab and its team members, including: Recruitment, Employment, Promotion, Transfer, Training, Working conditions, Wages and salary administration, and Team member benefits and application of policies.
 
-The policies and principles of EEO also apply to the selection and treatment of independent contractors, personnel working on our premises who are employed by temporary agencies and any other persons or firms doing business for or with GitLab.
+The policies and principles of EEO also apply to the selection and treatment of independent contractors, personnel providing services to GitLab who are employed by temporary agencies and any other persons or firms doing business for or with GitLab.
 
-### Dissemination and Implementation of Policy
+### Commitment to Individuals with Disabilities
 
-The officers of GitLab, Inc. will be responsible for the dissemination of this policy. Directors, managers and supervisors are responsible for implementing equal employment practices within each department. The People Group is responsible for overall compliance and will maintain personnel records in compliance with applicable laws and regulations.
+GitLab will recruit, hire, train, and promote persons in all job titles without regard to disability, and will ensure that all other personnel actions are administered without regard to disability. All employment decisions will be based only on valid job requirements.
+
+### Anti-Discrimination and Anti-Retaliation for Disability-Related Activities
+
+GitLab prohibits harassment, intimidation, threats, coercion, or discrimination against employees and applicants because they:
+
+- Assist or participate in an investigation, compliance evaluation, or other activity related to the administration of Section 503 or any other federal, state, or local law requiring equal opportunity for individuals with disabilities
+- Oppose any act or practice made unlawful by Section 503 or its implementing regulations, or any other federal, state, or local law requiring equal opportunity for individuals with disabilities
+- Exercise any other right protected by Section 503 or its implementing regulations
 
 ### Procedures
 
 GitLab administers our EEO policy fairly and consistently by:
 
-- Posting all required notices regarding employee rights under EEO laws in areas highly visible to team members.
-- Advertising for job openings with the statement "We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity or expression, pregnancy, age, national origin, disability status, genetic information, protected veteran status, or any other characteristic protected by law."
+- Posting all required notices regarding employee rights under EEO laws in online locations highly visible to team members.
+- Providing these notices in formats that are accessible and understandable to individuals with disabilities, as appropriate.
+- Advertising for job openings with the statement "GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity or expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab’s [EEO Policy](/handbook/people-policies/inc-usa/#equal-employment-opportunity-policy) and [EEO is the Law](/handbook/labor-and-employment-notices/#eeoc-us-equal-employment-opportunity-commission-notices)." 
+
 - Posting all required job openings with the appropriate state agencies.
 - Forbidding retaliation against any individual who files a charge of discrimination, opposes a practice believed to be unlawful discrimination, reports harassment, or assists, testifies or participates in an EEO agency proceeding.
-- Requiring team members to report to a member of management, an HR representative or the Director of Legal - Employment any apparent discrimination or harassment. The report should be made within 48 hours of the incident.
-- Promptly notifying the Senior Director of Legal - Employment of all incidents or reports of discrimination or harassment and takes other appropriate measures to resolve the situation.
+- Requiring team members to report to a manager, a People Business Partner, or Team Member Relations representative any apparent discrimination or harassment. The report should be made within 48 hours of the incident.
+- Promptly notifying Team Member Relations of all incidents or reports of discrimination or harassment and takes other appropriate measures to resolve the situation.
 
 ### Remedies
 
@@ -64,7 +74,7 @@ A team member or applicant in need of a reasonable accommodation should make the
 
 Qualified individuals with disabilities are defined as individuals with disabilities who can perform the essential functions of the job in question with or without reasonable accommodation. Per the Americans with Disabilities Act (ADA), a disability means, with respect to an individual: a physical or mental impairment that substantially limits one or more of the major life activities of such individual; a record of such an impairment; or being regarded as having such an impairment as described in [Section 36.105](https://www.ada.gov/regs2010/titleIII_2010/titleIII_2010_regulations.htm#a105), paragraph (f) of the ADA. So to clarify, you may have been or currently be diagnosed by a disability as per the ADA and not feel that it ***substantially*** limits your life activities and **still** self-identify as having a disability status.
 
-Please find an overarching list of what can fall into the [disability defition per the ADA](https://www.ada.gov/regs2010/titleIII_2010/titleIII_2010_regulations.htm#a105), including but not limited to:
+Please find a non-exhaustive list of what can fall into the [disability defition per the ADA](https://www.ada.gov/regs2010/titleIII_2010/titleIII_2010_regulations.htm#a105), including but not limited to:
 
 - Developmental disabilities, for example, cerebral palsy or autism spectrum disorder
 - Traumatic brain injuries
@@ -299,4 +309,4 @@ All documents related to the background check process must be retained for the m
 
 ### Financial Checks
 
-Finance team members **only** will be required to participate in a federal check through Sterling, which searches for any tax-related or financial offenses. See the [Initiating a Background Check through Greenhouse](/handbook/hiring/talent-acquisition-framework/coordinator/#initiating-a-background-check-through-greenhouse) section for process details.
+Finance team members **only** will be required to participate in a federal check through Sterling, which searches for any tax-related or financial offenses. See the [Initiating a Background Check through Greenhouse](/handbook/hiring/talent-acquisition-framework/coordinator/#initiating-a-background-screening-through-greenhouse) section for process details.
