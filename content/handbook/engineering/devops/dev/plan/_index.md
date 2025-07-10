@@ -176,7 +176,7 @@ End-of-line (EOL) testing is the final step before release to customers. The fin
 
 No new scope will be accepted at this time without significant justification and without restarting the testing period. Only defects and fit & finish issues identified during testing will be addressed.
 
-This practice ensures that, while there may be more than one item in end-of-line testing at the same time, the system under test resembles as closely as possible the one intended to be given to customers.
+This practice ensures that, while there may be more than one item in end-of-line testing at the same time, the system under test resembles as closely as possible the one intended to be given to customers. An internal announcement should precede EOL Testing to avoid surprises for field team-members who demo to customers. 
 
 #### Dogfooding
 
