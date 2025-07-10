@@ -124,7 +124,7 @@ Lease acquired → Rails DB transaction → Save all models → Create lease rec
 
 **Why after lease acquisition:**
 - **Safety**: Local changes only happen after global coordination succeeds
-- **Consistency**: Lease record in Rails DB matches Cloud Spanner state
+- **Immediate Cleanup**: Lease record in Rails DB enables prompt cleanup after transaction completion
 - **Rollback Capability**: If local DB fails, we have lease_id to clean up
 
 ### Phase 4: Lease Commitment
@@ -141,8 +141,8 @@ Local success → Commit() → Finalize claims → Remove lease
 
 **Why this two-phase approach:**
 - **Durability**: Creates become permanent, destroys are executed
-- **Clean State**: No lease artifacts remain after successful completion
-- **Idempotency**: Commit can be retried safely
+- **Immediate Cleanup**: Leases are removed immediately after successful completion
+- **Idempotency**: Commit can be retried safely - operations are idempotent
 
 ## Error Handling Behaviors
 
@@ -181,7 +181,7 @@ Local DB fails → Rollback() → Undo claims → Clean up lease
 - Claims with lease_op='destroy' have lease_id cleared
 - Both Rails and Cloud Spanner lease records removed
 
-**Why**: Maintain consistency - if local changes fail, global claims must be reverted
+**Why**: Maintain consistency - if Rails DB changes fail, global claims must be reverted immediately
 
 ### Network Failures and Timeouts
 
@@ -208,16 +208,34 @@ Every minute → Find expired leases → Delete creates → Clear destroys → R
 ### Reconciliation Between Rails and Cloud Spanner
 
 ```
-Periodically → Compare lease tables → Remove orphans → Log inconsistencies
+Rails-driven cleanup with idempotent Topology Service operations:
+
+while (leases = ts.ListOutstandingLeases(1000)) {
+  to_commit = leases.where(lease_id: local_db.leases.active)
+  to_rollback = leases - to_commit
+  ts.commit(to_commit)      // Idempotent operations
+  local_db.leases.delete(to_commit)
+  ts.rollback(to_rollback)  // Idempotent operations
+  local_db.leases.delete(to_rollback)
+}
+
+// Exception case: lease missing from TS but present locally
+if (expired = local_db.leases.expired) {
+  assert(expired)  // Should be rare - indicates system issue
+}
 ```
 
 **Rails Reconciliation**:
-- Lists all Rails `leases_outstanding`
-- Calls `ListOutstandingLeases()` to get Cloud Spanner state
-- Removes Rails leases that don't exist in Cloud Spanner
-- Queues retry jobs for stuck leases
+- **Primary Cleanup**: Rails is responsible for cleaning up outstanding leases
+- **Idempotent Operations**: Topology Service Commit/Rollback operations are idempotent
+- **Exception Handling**: Local leases without corresponding TS leases indicate system issues
+- **Immediate Cleanup**: Leases are removed as soon as possible via Rails `after_commit`/`after_rollback` hooks
 
-**Why**: Handle edge cases where network failures cause inconsistency
+**Why Rails-driven cleanup:**
+- **Natural Integration**: Rails `after_commit` and `after_rollback` hooks provide natural cleanup points
+- **Immediate Response**: Leases are cleaned up immediately after transaction completion
+- **Exception Detection**: Lingering leases indicate problems rather than normal operation
+- **Simplified Logic**: Happy path is Execute → Local DB → Commit/Rollback → Cleanup
 
 ## Advanced Behaviors
 
@@ -310,7 +328,8 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 ### 4. **Operational Simplicity**  
 - Clear failure modes and recovery procedures
 - Observable through standard metrics and logs
-- Self-healing through background processes
+- Self-healing through Rails-driven cleanup with idempotent Topology Service operations
+- **Immediate Cleanup**: Leases are removed as soon as possible - lingering leases indicate exceptions
 
 ### 5. **Developer Ergonomics**
 - Transparent integration with ActiveRecord
