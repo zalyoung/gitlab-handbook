@@ -70,12 +70,12 @@ User saves models → Rails validates → Claims generated → Topology Service 
 Execute() → Single transaction → Database constraints + lease exclusivity enforced
 ```
 
-**What happens in Cloud Spanner transaction:**
+**What happens in Topology Service transaction:**
 1. **Lease Record**: Insert into `leases_outstanding` with full payload
 2. **Create Claims**: Insert new claims with `lease_op='create'` and the lease_id
    - Primary key constraint on (scope, scope_value) prevents duplicates
-3. **Mark Destroys**: Update existing claims ONLY if `lease_id IS NULL`
-   - Conditional update ensures no concurrent operations on same object
+3. **Mark Destroys**: Update existing claims ONLY if `lease_id IS NULL` AND `cell_id` matches the requesting cell
+   - Conditional update ensures no concurrent operations on same object AND only creator can destroy
 4. **Lease Exclusivity**: Objects with `lease_id != NULL` cannot be claimed by other operations
 5. **Atomic Success/Failure**: If any operation fails, entire transaction automatically rolls back
 
@@ -114,7 +114,7 @@ Lease acquired → Rails DB transaction → Save all models → Create lease rec
 Local success → Commit() → Finalize claims → Remove lease
 ```
 
-**What happens in Cloud Spanner:**
+**What happens in Topology Service:**
 1. **Destroy Processing**: DELETE claims where lease_op='destroy' 
 2. **Create Finalization**: UPDATE claims SET lease_id=NULL, lease_op='no-op' where lease_op='create'
 3. **Lease Cleanup**: DELETE from leases_outstanding
@@ -286,6 +286,7 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 - Uses leases instead of 2PC (Two-Phase Commit)
 - Simpler failure modes than distributed transactions
 - Time-bounded recovery from failures
+- **No 2PC Required**: Each cell manages its own local state independently, with coordination only happening through the centralized Topology Service
 
 ### 4. **Operational Simplicity**  
 - Clear failure modes and recovery procedures
@@ -974,15 +975,17 @@ CREATE TABLE claims (
   scope_value STRING(255) NOT NULL,                -- The actual value being claimed
   owner_type STRING(50) NOT NULL,                  -- Type of owner (USER, PROJECT, GROUP)
   owner_value STRING(255) NOT NULL,                -- Owner identifier
-  client_id STRING(100) NOT NULL,                  -- Cell ID that owns/created this claim
+  cell_id STRING(100) NOT NULL,                    -- Cell ID that created this claim
   lease_id STRING(36),                             -- NULL for committed claims, UUID for leased claims
   lease_op STRING(10) NOT NULL DEFAULT 'no-op',   -- 'no-op', 'create', 'destroy'
   created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
   updated_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
 ) PRIMARY KEY (scope, scope_value);
 
--- CRITICAL CONSTRAINT: Objects with lease_id != NULL cannot be claimed by other operations
--- This prevents concurrent operations on the same object and ensures lease exclusivity
+-- CRITICAL CONSTRAINTS: 
+-- 1. Objects with lease_id != NULL cannot be claimed by other operations
+-- 2. Only the cell that created a claim (cell_id) can destroy it
+-- These constraints prevent concurrent operations and unauthorized access
 
 -- Outstanding leases table (mirrored with Rails for synchronization)
 CREATE TABLE leases_outstanding (
@@ -998,7 +1001,7 @@ CREATE INDEX idx_leases_outstanding_client ON leases_outstanding(client_id);
 CREATE INDEX idx_leases_outstanding_expires ON leases_outstanding(expires_at);
 CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
 
-CREATE INDEX idx_claims_client ON claims(client_id);
+CREATE INDEX idx_claims_cell ON claims(cell_id);
 CREATE INDEX idx_claims_lease_id ON claims(lease_id) STORING (lease_op);
 CREATE INDEX idx_claims_lease_op ON claims(lease_op) WHERE lease_op != 'no-op';
 CREATE INDEX idx_claims_scope_lease ON claims(scope, lease_id) WHERE lease_id IS NOT NULL;
@@ -1048,3 +1051,83 @@ The separate `leased` table approach introduces significant complexity for atomi
 The current integrated approach with `lease_id` and `lease_op` columns in the claims table avoids these issues by keeping all lease state in a single table, making atomic operations straightforward and reducing the likelihood of transaction conflicts. While the separate table design has theoretical benefits for separation of concerns, the practical challenges of maintaining atomicity across multiple tables in a distributed database make the integrated approach more reliable for this use case.
 
 This comprehensive design provides a robust foundation for distributed coordination in GitLab's cellular architecture while maintaining operational simplicity and strong consistency guarantees.
+
+## Why 2PC (Two-Phase Commit) is Not Needed
+
+Traditional distributed systems often require 2PC to ensure atomicity across multiple databases. However, this design avoids 2PC complexity through several key architectural decisions:
+
+### **Centralized Coordination**
+- **Single Source of Truth**: All global state is managed in one place (Topology Service with Cloud Spanner)
+- **Local Autonomy**: Each cell manages only its local state independently
+- **No Cross-Cell Transactions**: Cells never need to coordinate directly with each other
+
+### **Lease-Based Temporal Coordination**
+- **Time-Bounded Locks**: Operations are coordinated through time-bounded exclusive access rather than distributed locks
+- **Eventual Consistency**: Failed operations automatically clean up through lease expiration
+- **No Blocking**: Other cells can proceed with different operations while one cell holds a lease
+
+### **Simplified Failure Modes**
+- **No Coordinator Failure**: Unlike 2PC, there's no distributed coordinator that can fail and block all participants
+- **Automatic Recovery**: Expired leases automatically release resources without manual intervention
+- **Independent Rollback**: Each cell can independently rollback its local changes without coordinating with other cells
+
+### **Operational Benefits**
+- **Reduced Complexity**: No need to manage distributed transaction coordinators or prepare/commit protocols
+- **Better Performance**: Eliminates the coordination overhead and network round-trips of 2PC
+- **Easier Debugging**: Simpler failure scenarios and clearer error paths
+
+## Claim Ownership and Destruction
+
+**Critical Security Constraint**: Only the cell that created a claim can destroy it.
+
+### **Ownership Enforcement**
+- **Cell ID Verification**: All destroy operations require the requesting cell to match the claim's original creator
+- **Prevents Interference**: Cells cannot destroy claims created by other cells
+- **Security Isolation**: Malicious or buggy cells cannot disrupt other cells' data
+
+### **Implementation Details**
+```sql
+-- Destroy operations verify claim ownership
+UPDATE claims 
+SET lease_id = @lease_id, lease_op = 'destroy', updated_at = PENDING_COMMIT_TIMESTAMP()
+WHERE scope = @scope AND scope_value = @scope_value 
+  AND lease_id IS NULL 
+  AND cell_id = @requesting_cell_id  -- Only creator can destroy
+```
+
+### **Operational Benefits**
+- **Data Protection**: Claims are protected from accidental or malicious deletion by other cells
+- **Audit Trail**: Clear ownership chain for all claim operations
+- **Prevents Conflicts**: Eliminates scenarios where multiple cells try to manage the same claim
+
+## Glossary
+
+**Cell**: An independent GitLab instance that can operate autonomously but coordinates with other cells for global uniqueness.
+
+**Claim**: A request to own a globally unique resource (username, email, route path, etc.).
+
+**Lease**: A time-bounded exclusive lock on one or more claims, preventing other cells from modifying the same resources.
+
+**Lease Exclusivity**: The property that objects with active leases (`lease_id != NULL`) cannot be claimed by other operations.
+
+**Lease Payload**: The complete context of a lease, including the original request, stored as a protobuf in Cloud Spanner.
+
+**Topology Service**: The centralized coordination service that manages claims and leases across all GitLab cells.
+
+**Cell ID**: The unique identifier for a GitLab cell, used to track which cell created each claim and enforce destruction permissions.
+
+**Scope**: The type of claim being made (EMAIL, USERNAME, ROUTES, etc.).
+
+**Scope Value**: The actual value being claimed (e.g., "john@example.com" for an email claim).
+
+**Lease Operation (lease_op)**: The intended operation on a claim - 'create' for new claims, 'destroy' for removing claims, 'no-op' for committed claims.
+
+**Conditional Update**: A database operation that only succeeds if certain conditions are met (e.g., `WHERE lease_id IS NULL`).
+
+**Lease Expiration**: The automatic cleanup process that removes expired leases and their associated claims.
+
+**Reconciliation**: The background process that synchronizes lease state between Rails and Cloud Spanner.
+
+**Atomic Batch Operation**: Processing multiple related claims together in a single transaction to ensure all-or-nothing semantics.
+
+**Temporal Isolation**: The property that operations are isolated in time through leases, preventing concurrent modifications.
