@@ -217,7 +217,7 @@ During cell provisioning, the database preparation consists of these steps:
 
 ###### 2. **The `gitlab:db:configure` Rake Task**
 
-This is the main entry point that triggers sequence altering. The task:
+This is the main entry point that alters sequence ranges. The task:
 
 - Runs `db:migrate` or `db:schema:load` depending on database state
 - Calls `configure_pg_databases` for each PostgreSQL database
@@ -265,7 +265,7 @@ cell:
 
 ###### 7. **One-Time Bootstrap Limitation**
 
-**Important**: This sequence altering only happens **once during bootstrap**. If you try to run `gitlab:db:configure` again on an already-initialized database, it will skip the sequence altering because tables already exist.
+**Important**: This sequence altering only happens **once during bootstrap**. If you try to run `gitlab:db:configure` again on an already-initialized database, it will skip the sequence altering because tables already exist and they can have sequences consumed.
 
 ###### 8. **Final Result**
 
