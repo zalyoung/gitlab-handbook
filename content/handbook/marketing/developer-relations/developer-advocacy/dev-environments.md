@@ -28,6 +28,11 @@ GitLab Duo can be integrated through the [GitLab Workflow extension in the VS Co
     - Command palette: `cmd shift p` on macOS or `ctrl shift p` on Windows/Linux.
     - Settings: `cmd ,` on macOS or `ctrl ,` on Windows/Linux.
     - Tip: You can also ask [GitLab Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/examples/), or [Claude](/handbook/tools-and-tips/ai/claude/) for help.
+1. Open local Git repositories or directories using the `code .` shortcut from the terminal. This simplifies the workflow of editing/debugging code when you need to switch contexts between GitLab UI, VS Code and terminal.
+1. Open a terminal in VS Code (shortcut: `cmd j` on macOS, or `cmd shift p` and search for `terminal`). This allows starting background tasks like running servers, compilers, Ansible playbooks, etc. while editing code and avoids context switching between different windows.
+
+#### Recommended settings and extensions
+
 1. Enable auto-save while editing. This avoids data loss or missing Git commit data when writing your code.
    - UI: Open the settings by clicking the gear icon in the bottom left corner (shortcut: `cmd ,` on macOS). Search for `auto save`.
    - VS Code `settings.json`: Add a new key/value for `"files.autoSave": "afterDelay"`.
@@ -37,10 +42,8 @@ GitLab Duo can be integrated through the [GitLab Workflow extension in the VS Co
 1. Install extensions you need regularly, and only use trusted sources.
    - Review the maintained list in [@dnsmichi's dotfiles project](https://gitlab.com/dnsmichi/dotfiles/-/blob/main/vscode-extensions-install.sh?ref_type=heads)
    - You can install extensions on the CLI with `code --install-extension`. Example `code --install-extension gitlab.gitlab-workflow`.
-1. Open local Git repositories or directories using the `code .` shortcut from the terminal. This simplifies the workflow of editing/debugging code when you need to switch contexts between GitLab UI, VS Code and terminal.
-1. Open a terminal in VS Code (shortcut: `cmd j` on macOS, or `cmd shift p` and search for `terminal`). This allows starting background tasks like running servers, compilers, Ansible playbooks, etc. while editing code and avoids context switching between different windows.
 
-#### Move Chat to the right panel
+##### Move Chat to the right panel
 
 By default, the Chat panel is on the left side of the VS Code UI. This might interfere with file trees in the explorer, Git commits, which are also located on the left.
 
@@ -52,7 +55,7 @@ In order to move the Chat to the right sidebar:
 
 @dnsmichi uses this setup by default.
 
-#### Enable additional languages for GitLab Duo Code Suggestions
+##### Enable additional languages for GitLab Duo Code Suggestions
 
 1. Choose between two paths:
    - UI: Open the settings by clicking the gear icon in the bottom left corner. Search for `gitlab.duoCodeSuggestions`.
@@ -77,6 +80,22 @@ In order to move the Chat to the right sidebar:
 1. It is important for Code Suggestions to have proper context: Open more tabs that are relevant to your current task, as those will be used for [context](https://docs.gitlab.com/user/project/repository/code_suggestions/#the-context-code-suggestions-is-aware-of).
 
 A full VS Code `settings.json` example is located in [@dnsmichi's dotfiles project](https://gitlab.com/dnsmichi/dotfiles/-/blob/main/vscode/settings.json?ref_type=heads).
+
+#### Debug VS Code extensions and GitLab Duo Agent Platform
+
+An example use case: GitLab Duo Agentic Chat provides an MCP integration, and we want to verify that the MCP server is started and consumes the additional AI Context.
+
+Need-to-know: The [GitLab Language Server](https://docs.gitlab.com/editor_extensions/language_server/) powers the backend across IDE extensions for GitLab, and handles the MCP integration for GitLab Duo Agentic Chat.
+
+1. You can debug extensions using the `Output` view in VS Code.
+1. Steps to debug:
+   - Open the command palette with `cmd shift p` (macOS) and search for `View: toggle Output`.
+   - Select `GitLab Language Server` in the `Output` view dropdown (next to `Filter`).
+   - This view streams the extension log on the terminal. Trigger a UI action with GitLab Duo, and observe if the client sends the correct data.
+1. You can use the `Filter` form to search/filter the output, for example `mcp` to isolate entries related to the MCP integration.
+1. Optional: Increase the log verbosity to `debug`:
+   - Open the settings by clicking the gear icon in the bottom left corner (shortcut: `cmd ,` on macOS). Search for `GitLab` or `gitlab` in the settings tree.
+   - Tick the `GitLab: Debug` checkbox and restart VS Code.
 
 ### JetBrains IDEs
 
