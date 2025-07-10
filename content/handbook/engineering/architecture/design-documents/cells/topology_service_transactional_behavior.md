@@ -14,13 +14,11 @@ This document outlines the design goals and architecture of Topology Service imp
 ### **Distributed Lease-Based Coordination**
 This system implements a **distributed lease-based coordination mechanism** for managing globally unique claims (usernames, emails, routes) across multiple GitLab cells. It ensures only one cell can "own" a particular claim at any given time, preventing conflicts in a distributed environment.
 
-The system follows a **"Lease-Based Mutual Exclusion with Optimistic Concurrency Control"** protocol pattern, similar to solutions like Google Chubby, Kubernetes Leader Election, and Apache Kafka Controller Election, but optimized for GitLab's cellular architecture with multi-resource atomic batching capabilities.
-
 ### **Core Behavioral Principles**
 
 #### **1. Lease-First Coordination**
 The system follows a "lease-first, commit-later" pattern:
-- **Before** making any local changes, acquire a lease from the central Topology Service
+- **Before** making any local changes, acquire a lease from the Topology Service
 - **Only after** successful lease acquisition, proceed with local database operations
 - **After** local success, commit the lease to make changes permanent
 - **If anything fails**, rollback the lease to maintain consistency
@@ -33,9 +31,10 @@ Multiple related models MUST be processed together:
 - Commit or rollback all claims together
 
 #### **3. Time-Bounded Leases**
-All leases have expiration times (default 5 minutes):
-- Prevents indefinite locks if a cell crashes
-- Automatic cleanup of expired leases
+Leases are time-bounded through the reconciliation process:
+- Leases only have creation timestamps, no explicit expiration
+- Reconciliation process determines staleness based on age (default 10 minutes threshold)
+- Prevents indefinite locks if a cell crashes through background cleanup
 - Background reconciliation ensures consistency
 
 #### **4. Lease Exclusivity**
@@ -43,7 +42,7 @@ All leases have expiration times (default 5 minutes):
 - **Create Operations**: Will fail with primary key constraint if object already exists
 - **Destroy Operations**: Will fail with conditional update if object has active lease
 - **Temporal Lock**: Objects remain locked until lease expires or is committed/rolled back
-- **Automatic Release**: Expired leases are cleaned up, making objects available again
+- **Automatic Release**: Stale leases are cleaned up through reconciliation, making objects available again
 
 #### **5. Ownership Security**
 **Critical Security Constraint**: Only the cell that created a claim can destroy it:
@@ -66,10 +65,11 @@ All leases have expiration times (default 5 minutes):
 
 #### **Expired Lease Cleanup**
 - **Frequency**: Every minute
-- **Operation**: Finds leases where `expires_at <= NOW()` and removes them
+- **Operation**: Finds leases older than staleness threshold and removes them
+- **Staleness Determination**: Based on lease creation time vs. current time (not explicit expiration)
 - **Components**:
-  - **Cloud Spanner Cleanup**: Deletes claims created by expired leases, clears lease_id from claims marked for destroy
-  - **Rails DB Cleanup**: Removes expired local lease tracking records
+  - **Cloud Spanner Cleanup**: Deletes claims created by stale leases, clears lease_id from claims marked for destroy
+  - **Rails DB Cleanup**: Removes stale local lease tracking records
 
 #### **Lost Transaction Recovery**
 - **Frequency**: Every 5-10 minutes
@@ -77,8 +77,8 @@ All leases have expiration times (default 5 minutes):
 - **Strategy**: Rails-driven cleanup with idempotent Topology Service operations
 - **Process**: 
   - List outstanding leases from Topology Service with cursor-based pagination
-  - Separate expired and active leases based on creation time
-  - Commit active leases that exist locally, rollback expired leases
+  - Separate stale and active leases based on creation time and staleness threshold
+  - Commit active leases that exist locally, rollback stale leases
   - Clean up orphaned local lease records
 
 #### **Retry Handler**
@@ -232,13 +232,11 @@ Local success → Commit() → Finalize claims → Remove lease
 -- This table only contains active leases - entries are deleted when consumed
 CREATE TABLE leases_outstanding (
   lease_id STRING(36) NOT NULL UNIQUE,
-  expires_at TIMESTAMP NOT NULL,
   created_at TIMESTAMP NOT NULL,
   updated_at TIMESTAMP NOT NULL
 );
 
 -- Indexes for performance and operational queries
-CREATE INDEX idx_leases_outstanding_expires ON leases_outstanding(expires_at);
 CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
 ```
 
@@ -287,7 +285,7 @@ end
 ```ruby
 # Rails-driven cleanup with idempotent Topology Service operations
 class ClaimsLeaseReconciliationService
-  LEASE_EXPIRY_THRESHOLD = 10.minutes  # Consider lease expired if older than threshold
+  LEASE_STALENESS_THRESHOLD = 10.minutes  # Consider lease stale if older than threshold
   
   def self.reconcile_outstanding_leases
     topology_service = Gitlab::Cells::TopologyServiceClient.new
@@ -306,12 +304,12 @@ class ClaimsLeaseReconciliationService
       
       topology_leases = response.leases.map(&:lease_payload)
       
-      # Separate expired and active leases based on creation time
+      # Separate stale and active leases based on creation time
       now = Time.current
-      expired_leases = topology_leases.select { |lease| 
-        lease.created_at.to_time < (now - LEASE_EXPIRY_THRESHOLD) 
+      stale_leases = topology_leases.select { |lease| 
+        lease.created_at.to_time < (now - LEASE_STALENESS_THRESHOLD) 
       }
-      active_leases = topology_leases - expired_leases
+      active_leases = topology_leases - stale_leases
       
       # Process active leases: commit if they exist locally
       active_lease_ids = active_leases.map(&:lease_id)
@@ -322,8 +320,8 @@ class ClaimsLeaseReconciliationService
         LeasesOutstanding.find_by(lease_id: lease_id)&.destroy!
       end
       
-      # Process expired leases: rollback all (idempotent)
-      expired_leases.each do |lease|
+      # Process stale leases: rollback all (idempotent)
+      stale_leases.each do |lease|
         topology_service.rollback(RollbackRequest.new(cell_id: current_cell_id, lease_id: lease.lease_id))
         # Clean up any local record that might exist
         LeasesOutstanding.find_by(lease_id: lease.lease_id)&.destroy!
@@ -335,10 +333,10 @@ class ClaimsLeaseReconciliationService
     end
     
     # Exception case: leases missing from TS but present locally
-    expired_local_leases = LeasesOutstanding.where('expires_at < ?', Time.current)
-    if expired_local_leases.exists?
-      Rails.logger.error "Found #{expired_local_leases.count} expired local leases without TS counterparts"
-      expired_local_leases.destroy_all
+    stale_local_leases = LeasesOutstanding.where('created_at < ?', Time.current - LEASE_STALENESS_THRESHOLD)
+    if stale_local_leases.exists?
+      Rails.logger.error "Found #{stale_local_leases.count} stale local leases without TS counterparts"
+      stale_local_leases.destroy_all
     end
   end
 end
@@ -348,8 +346,8 @@ end
 - **Primary Cleanup**: Rails is responsible for cleaning up outstanding leases
 - **Cursor-Based Pagination**: Guarantees iteration through all leases without infinite loops
 - **Idempotent Operations**: Topology Service Commit/Rollback operations are idempotent
-- **Time-Based Expiry**: Leases older than threshold are considered expired (local property)
-- **Complete Processing**: Both expired and active leases are processed to ensure forward progress
+- **Staleness-Based Cleanup**: Leases older than threshold are considered stale (local property)
+- **Complete Processing**: Both stale and active leases are processed to ensure forward progress
 - **Exception Handling**: Local leases without corresponding TS leases indicate system issues
 - **Immediate Cleanup**: Leases are removed as soon as possible via Rails `after_commit`/`after_rollback` hooks
 
@@ -380,14 +378,12 @@ CREATE TABLE claims (
 CREATE TABLE leases_outstanding (
   lease_id STRING(36) NOT NULL,                    -- UUID of the lease
   cell_id STRING(100) NOT NULL,                    -- Cell ID that owns the lease
-  expires_at TIMESTAMP NOT NULL,                   -- When the lease expires
   lease_payload BYTES(MAX) NOT NULL,               -- Serialized LeasePayload protobuf
   created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
 ) PRIMARY KEY (lease_id);
 
 -- Performance and operational indexes
 CREATE INDEX idx_leases_outstanding_cell ON leases_outstanding(cell_id);
-CREATE INDEX idx_leases_outstanding_expires ON leases_outstanding(expires_at);
 CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
 
 CREATE INDEX idx_claims_cell ON claims(cell_id);
@@ -453,18 +449,14 @@ message ExecuteRequest {
   string cell_id = 1; // Cell ID requesting the lease
   repeated ClaimRecord creates = 2;   // Claims to create
   repeated ClaimRecord destroys = 3;  // Claims to destroy
-  
-  // Optional custom lease duration (defaults to 5 minutes)
-  google.protobuf.Timestamp lease_expires_at = 4;
 }
 
 // Lease payload stored in Cloud Spanner and returned to clients
 message LeasePayload {
   string lease_id = 1; // UUID of the lease
   string cell_id = 2; // Cell ID that owns the lease
-  google.protobuf.Timestamp lease_expires_at = 3;
-  google.protobuf.Timestamp created_at = 4;
-  ExecuteRequest original_request = 5; // Complete original request for reconciliation
+  google.protobuf.Timestamp created_at = 3;
+  ExecuteRequest original_request = 4; // Complete original request for reconciliation
 }
 
 // Execute operation response
@@ -651,7 +643,7 @@ sequenceDiagram
     Reconciliation->>RailsDB: Check if lease exists locally
     RailsDB-->>Reconciliation: Lease NOT found (was never committed)
     
-    Note over Reconciliation: Lease older than LEASE_EXPIRY_THRESHOLD
+    Note over Reconciliation: Lease older than LEASE_STALENESS_THRESHOLD
     Reconciliation->>TopologyService: Rollback(lease_id)
     TopologyService->>CloudSpanner: Process rollback operation
     CloudSpanner->>CloudSpanner: DELETE claims WHERE lease_op='create'
@@ -744,7 +736,7 @@ sequenceDiagram
     Reconciliation->>RailsDB: DELETE expired lease records
 ```
 
-**Recovery**: Background cleanup eventually removes orphaned records
+**Recovery**: Background reconciliation eventually removes stale records
 
 ## Advanced Behaviors
 
@@ -811,7 +803,7 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 
 - **Cell Independence**: Each cell operates independently until conflicts
 - **Centralized Coordination**: Only conflicts require cross-cell communication  
-- **Time-Bounded Locks**: Automatic cleanup prevents indefinite blocking
+- **Time-Bounded Locks**: Automatic cleanup prevents indefinite blocking through staleness detection
 - **Horizontal Scaling**: Cloud Spanner scales with claim volume
 
 ## Why This Design Works
@@ -852,7 +844,7 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 
 ### **Performance Considerations**
 - **Batch Size Limits**: What's the maximum number of claims per batch to optimize performance vs. transaction size?
-- **Lease Duration Tuning**: Should lease duration be configurable per operation type, or should it adapt based on historical completion times?
+- **Lease Duration**: Rather than explicit expiration, should the staleness threshold be configurable per operation type?
 - **Connection Pooling**: How many concurrent connections should Rails maintain to Topology Service, and how should they be distributed across cells?
 - **Spanner Hotspots**: How to detect and mitigate hotspots on popular claims like common usernames?
 
@@ -863,19 +855,19 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 - **Rate Limiting**: Should there be per-cell rate limits to prevent abuse or runaway operations?
 
 ### **Operational Considerations**
-- **Monitoring**: What metrics should be tracked - lease duration, conflict rates, reconciliation frequency?
-- **Alerting**: When should operators be notified - expired lease threshold, reconciliation failures, or high conflict rates?
+- **Monitoring**: What metrics should be tracked - lease age, conflict rates, reconciliation frequency?
+- **Alerting**: When should operators be notified - stale lease threshold, reconciliation failures, or high conflict rates?
 - **Scaling**: How does the system handle increased load on popular claims during peak usage?
 - **Disaster Recovery**: How to handle Topology Service outages and ensure data consistency during recovery?
 
 ### **Edge Cases**
 - **Clock Skew**: How does the system handle clock differences between cells and Cloud Spanner?
-- **Lease Expiration Race**: What happens if a lease expires during commit - should it be allowed or rejected?
+- **Lease Staleness Race**: What happens if a lease becomes stale during commit - should it be allowed or rejected?
 - **Partial Batch Failures**: Should the system support partial success in batch operations, or maintain all-or-nothing semantics?
 - **Concurrent Reconciliation**: How to handle multiple reconciliation processes running simultaneously?
 
 ### **Future Enhancements**
-- **Lease Renewal**: Should long-running operations be able to extend leases before expiration?
+- **Lease Renewal**: Should long-running operations be able to refresh leases to prevent staleness?
 - **Lease Queuing**: Should there be a queue for waiting operations when leases conflict?
 - **Lease Priorities**: Should certain operations (admin vs. user) have priority over others?
 - **Lease Analytics**: Should the system track lease usage patterns for optimization?
