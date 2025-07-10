@@ -323,6 +323,7 @@ Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/integration
 To debug tickets about Hosted Runners for GitLab Dedicated, [verify that the customer is using Hosted Runners](./dedicated_runners.md#who-is-using-hosted-runners). Refer to the [Hosted Runners for GitLab Dedicated](./dedicated_runners.md#viewing-logs) documentation page to view OpenSearch filters you can use to filter these logs.
 
 ### Debug Duo related errors
+
 If a Duo chat feature fails, the customer will most likely get an error code on the UI from one of the listed codes in the [documentation](https://docs.gitlab.com/user/gitlab_duo_chat/troubleshooting/#the-gitlab-duo-chat-button-is-not-displayed).
 
 To gather more logs on the actual cause of the failure, first filter for the Duo chat code the customer provided using the `duo_chat_error_code` field.
