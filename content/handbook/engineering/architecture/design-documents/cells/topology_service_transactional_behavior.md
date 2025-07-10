@@ -18,7 +18,7 @@ This system implements a **distributed lease-based coordination mechanism** for 
 
 #### **1. Lease-First Coordination**
 The system follows a "lease-first, commit-later" pattern:
-- **Before** making any local changes, acquire a lease from the Topology Service
+- **Before** making any local changes, acquire a lease from the  Topology Service
 - **Only after** successful lease acquisition, proceed with local database operations
 - **After** local success, commit the lease to make changes permanent
 - **If anything fails**, rollback the lease to maintain consistency
@@ -29,6 +29,8 @@ Multiple related models MUST be processed together:
 - Send a single batch request to Topology Service
 - Process all local database changes in one transaction
 - Commit or rollback all claims together
+
+**Critical Constraint**: Creates and destroys must point to different claims within a single batch - a claim cannot be both created and destroyed in the same operation, as this creates modeling complexity in the Topology Service.
 
 #### **3. Time-Bounded Leases**
 Leases are time-bounded through the reconciliation process:
@@ -173,10 +175,13 @@ Execute() → Single transaction → Database constraints + lease exclusivity en
 1. **Lease Record**: Insert into `leases_outstanding` with full payload
 2. **Create Claims**: Insert new claims with `lease_op='create'` and the lease_id
    - Primary key constraint on (scope, scope_value) prevents duplicates
+   - **Constraint**: Creates must reference claims that don't exist in the system
 3. **Mark Destroys**: Update existing claims ONLY if `lease_id IS NULL` AND `cell_id` matches the requesting cell
    - Conditional update ensures no concurrent operations on same object AND only creator can destroy
-4. **Lease Exclusivity**: Objects with `lease_id != NULL` cannot be claimed by other operations
-5. **Atomic Success/Failure**: If any operation fails, entire transaction automatically rolls back
+   - **Constraint**: Destroys must reference claims that already exist and are owned by the requesting cell
+4. **Batch Validation**: Creates and destroys within a single batch cannot reference the same claim (scope, scope_value) as this creates irreconcilable state transitions
+5. **Lease Exclusivity**: Objects with `lease_id != NULL` cannot be claimed by other operations
+6. **Atomic Success/Failure**: If any operation fails, entire transaction automatically rolls back
 
 **Critical Lease Rule**: 
 - **Only unlocked objects** (where `lease_id IS NULL`) can be claimed
@@ -275,6 +280,7 @@ end
 #### **Operations**
 - **Claim Generation**: Extract unique attributes from model changes into create/destroy claims
 - **Batch Collection**: Aggregate claims from multiple models into single ExecuteRequest
+- **Batch Validation**: Ensure creates and destroys within a batch reference different claims to avoid modeling conflicts
 - **Lease Tracking**: Store lease_id locally for reconciliation and cleanup
 - **Immediate Cleanup**: Remove lease records after successful commit/rollback
 - **Error Handling**: Convert gRPC errors to Rails validation errors
@@ -506,6 +512,9 @@ message ListOutstandingLeasesResponse {
 
 #### **gRPC API Behaviors**
 - **Execute()**: Atomically acquire leases for batch operations, enforce exclusivity constraints
+  - **Validation**: Ensures creates and destroys reference different claims within the same batch
+  - **Create Processing**: Inserts new claims that don't exist in the system
+  - **Destroy Processing**: Updates existing claims owned by the requesting cell
 - **Commit()**: Finalize claims (DELETE destroys, clear lease_id from creates) and remove leases
 - **Rollback()**: Revert claims (DELETE creates, clear lease_id from destroys) and remove leases
 - **ListOutstandingLeases()**: Retrieve leases for reconciliation with cursor-based pagination
@@ -543,9 +552,11 @@ sequenceDiagram
 
     User->>Rails: Save Model with conflicting claim
     Rails->>Rails: Validate model and generate claims
+    Rails->>Rails: Validate batch (creates/destroys reference different claims)
     Rails->>TopologyService: Execute(creates, destroys)
     
     TopologyService->>CloudSpanner: BEGIN Transaction
+    TopologyService->>CloudSpanner: Validate batch constraints
     TopologyService->>CloudSpanner: Insert lease in leases_outstanding
     TopologyService->>CloudSpanner: Try to INSERT claim (create) or UPDATE claim (destroy)
     Note over CloudSpanner: Primary key constraint violation OR conditional update fails
@@ -561,6 +572,7 @@ sequenceDiagram
 **Different conflict types:**
 1. **Permanent Conflict**: Object permanently owned by another cell → "Already taken"
 2. **Temporary Conflict**: Object temporarily leased by another operation → "Try again later"
+3. **Batch Validation Conflict**: Creates and destroys reference same claim → "Invalid batch operation"
 
 **Recovery**: No recovery needed - user sees appropriate error message
 
@@ -787,6 +799,8 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 4. Update route.project_id in Rails
 5. Commit() makes transfer permanent
 
+**Important**: This works because the destroy and create operations reference different claims - the old ownership (route@projectA) vs. the new ownership (route@projectB). The Topology Service can model this as two separate claim operations.
+
 **Why**: Ownership changes must be atomic to prevent conflicts or ownership gaps
 
 ## Performance Characteristics
@@ -865,6 +879,7 @@ Route.project_id change → Destroy old claim + Create new claim → Atomic tran
 - **Lease Staleness Race**: What happens if a lease becomes stale during commit - should it be allowed or rejected?
 - **Partial Batch Failures**: Should the system support partial success in batch operations, or maintain all-or-nothing semantics?
 - **Concurrent Reconciliation**: How to handle multiple reconciliation processes running simultaneously?
+- **Create/Destroy Conflicts**: How should the system handle requests that try to create and destroy the same claim in a single batch?
 
 ### **Future Enhancements**
 - **Lease Renewal**: Should long-running operations be able to refresh leases to prevent staleness?
