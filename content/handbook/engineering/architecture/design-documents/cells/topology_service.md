@@ -235,7 +235,7 @@ return false if database_loaded # Skip if tables already exist
 
 The system checks if there are existing tables in the `public` schema. If tables exist, it skips sequence altering entirely.
 
-4. **Sequence Range Fetching**
+1. **Sequence Range Fetching**
 
 When conditions are met (bootstrap scenario), the system:
 
