@@ -130,19 +130,6 @@ More senior roles within the Office of the CEO can expect to have more leadershi
 
 Office of the CEO members should monitor the mix of directed and leadership work that they are doing and provide as appropriate in Office of the CEO Meetings, so the CoS to the CEO and CEO are aware of the current balance and can make adjustments, if needed.
 
-## Board Meetings
-
-The Chief of Staff to the CEO supports Board activities as specified in the [Board Meeting](/handbook/board-meetings/) section of the handbook and as directed by the CEO.
-
-In addition, the CoS to the CEO helps the CEO in preparing for the CEO's closed session. The CoS to the CEO should coordinate with the EBA to the CEO to schedule a 25 minute session with the CEO and the CoS to the CEO a week before the Board of Directors Meeting. The CoS to the CEO should prepare an agenda that includes an outline for what the CEO may want to cover. For each discussion topic, the following should be captured:
-
-1. What are we discussing?
-1. Why are we discussing it?
-1. Where should we focus our feedback and suggestions?
-1. Who should be thanked for their work?
-
-Designated meeting time will be used to review and make adjustments to the proposal. The CoS to the CEO will coordinate with the EBA to the CEO to ensure that there is a "FYI" on the closed session agenda that links to the prepared material.
-
 ## Collaborating on Cross-Functional Initiatives
 
 While there are rare exceptions, members of the Office of the CEO are not forever owners of initiatives. They plug in to help achieve critical milestones or fill gaps. When a member of the Office of the CEO joins an initiative, there should be agreement from key stakeholders around:
@@ -163,10 +150,6 @@ When a member of the Office of the CEO exits an ongoing initiative they will:
 
 There may be instances in which the Office of the CEO leaving leads to a project scope being reduced or deprioritized. In these instances, the Office of the CEO member will be responsible for engaging key stakeholders around the keep/expand scope or go/no-go decision. It will be clearly documented and key folks will be involved in the decision and aware of the outcome.
 
-## Quarterly Kickoff
-
-The CEO does a Quarterly Kickoff in the first month of each quarter. The Office of the CEO plays a role in creating materials, recording content, and preparing the CEO. Details can be found on the [All-Company Meetings page](/handbook/company/gitlab-all-company-meetings/#quarterly-kickoff) of the handbook.
-
 ## E-Group Offsite
 
 The executives get together every quarter for the [e-group offsite](/handbook/company/offsite/).
@@ -180,72 +163,10 @@ In addition, the CoS to the CEO is responsible for preparing the CEO for offsite
 1. Working with the CEO on what to cover in offsite introductions and closings
 1. Helping the CEO to prepare for sessions that the CEO will facilitate
 
-## CEO Performance Evaluation
-
-In Q1 of a new fiscal year, the Chairperson of the Compensation Committee conducts the annual CEO Evaluation. The Chairperson meets with all members of GitLab's Board and E-Group for their feedback on the CEO's performance over the past Fiscal Year. The Chairperson meets with the CEO for their self-assessment at the beginning of the evaluation cycle.
-
-The CEO's self-assessment is centered on three main areas
-
-1. Areas of Notable Success
-1. Areas of Disappointment
-1. Areas for Improvement and Focus in the next fiscal year
-
-The Staff EBA to the CEO assists the Chairperson to schedule the performance review meetings with each Board Member (50 minutes, 1:1) and E-Group member (25 minutes, 1:1). These are conducted in an interview format to capture the richest possible feedback regarding the CEO's performance. During these calls, Board Members can expect to share their perspectives on the CEO's major accomplishments and disappointments in areas such as vision, strategy, operations, management team development, company culture, and relationship with the Board. General areas of strength. Areas for improvement and/or additional focus. Key fiscal year strategic/operational, non-financial goals.
-
-The results from the Board and E-Group team interviews are summarized (without attribution) by the Chairperson and shared for discussion at the March Board of Directors meeting.
-
-The CoS to the CEO is responsible for a mid-year and an end-of-year update to the Board on the progress made across focus areas. This will come in the form of a progress scorecard.
-For example, if one area of focus is "set 3-year strategy", the CoS to the CEO will evaluate whether the activity is on track or needs attention. The scorecard will be updated with a progress score (on track, needs attention, or at risk) and a high-level summary of relevant key activities.
-
-Feedback from the Board will be shared and discussed in the Q1 E-Group Offsite. Progress will be discussed in the Q3 E-Group Offsite.
-
-The CoS to the CEO will also assist the CEO in prepping for the CEO's end of year review and areas for focus in the coming year.
-
 ## Managing the Functional Leaders
 
 Functional Leaders is a group comprised of all [CEO-Skips](/handbook/company/structure/#ceo-skips), select People Business Partners, and a few other folks as nominated by members of E-Group.
 The CoS to the CEO enables and manages this group.
-
-## Maintaining the Mitigating Concerns
-
-We outline our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/) in the handbook.
-The CoS to the CEO is responsible for maintaining this list.
-There is an issue to also [add DRIs and review the mitigations](https://gitlab.com/gitlab-com/cos-team/-/issues/20).
-
-## Supporting Summit Challenge
-
-The CEO chooses to run a Summit Challenge as part of some [Summits](https://about.gitlab.com/events/). The Challenge is shared in advance of Summit or on the first day of Summit. As an example, the 2020 Challenge encouraged team members to [beautify docs](https://gitlab.com/groups/gitlab-org/-/epics/3063). The Office of the CEO is responsible for collaborating with the CEO to create and introduce the challenge. The CEO is responsible for identifying a prize for team members, but the Office of the CEO should ensure that a prize is identified and support the CEO in this if needed.
-
-### Meeting Cleanup Day
-
-On February 14, or the Tuesday after if this day falls over the weekend or on Monday, we have an annual calendar cleanup day.
-
-The template Slack post includes more information about the purpose and recommended actions:
-
-```plain
-:google_calendar: :broom: YYYY-MM-DD is Meeting Cleanup Day!
-
-At the start of each new fiscal year, we have a meeting cleanup day to encourage everyone to look at their calendars and assess the value and frequency of recurring meetings.
-
-With the goals of increasing efficiency and looking at how to make recurring meetings more productive, this practice acts as a reminder to:
-
-1. Cancel meetings or change the frequency if you feel that the current cadence does not add sufficient value
-2. Discuss removing yourself as an attendee with the meeting owner if you don't feel that you are contributing or supporting business results through participation
-3. Ask other team members to reexamine how existing meetings are managed
-
-If you're looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
-```
-
-When canceling a meeting, a team member can copy and paste this message to send to attendees:
-*I evaluated the need for this meeting as part of [Meeting Cleanup Day](/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day). I have determined that the meeting is no longer needed. Please get in touch if you have any concerns.*
-
-When changing the cadence of a meeting, a team member can copy and paste this message to send to attendees:
-
-*I reassessed this meeting as part of [Meeting Cleanup Day](/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day). I have determined that the meeting no longer needs to happen as frequently. Please look for an updated meeting invite and get in touch if you have any concerns.*
-
-If you are a team member who intends to decline a meeting, the [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async) section of the handbook has some good suggestions for what to say when you decline.
-
-Meeting Cleanup Day is intentionally near the start of the new fiscal year. The Office of the CEO will launch this initiative annually a week in advance through posting in the `#whats-happening-at-gitlab` Slack channel, and by re-posting a reminder at 00:00 UTC on cleanup day. Office of the CEO (or CoS) will repost in the `#managers` channel for visibility.
 
 ## Program managing JiHu
 
