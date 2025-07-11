@@ -118,7 +118,6 @@ Please note that if a request is submitted through Asana, Slack, or other unoffi
 - [**Email Asset Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=email-asset-request)
 
 - [**Event Asset Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) - Please use this issue template when requesting net new or refreshing any of the following event-related assets:
-  
   - **Please note: DO NOT use this event request template for** Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template.
 
     - Event Booth
