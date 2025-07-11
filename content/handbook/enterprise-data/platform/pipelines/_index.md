@@ -71,8 +71,8 @@ Custom data pipelines should be considered our best option in the sense that the
 
 ---
 
-Evaluating and Solutioning Pipeline Sources
--------------------------------------------
+## Evaluating and Solutioning Pipeline Sources
+
 <!-- I think a flow chart describing this would be much to complicated, however, maybe it's worth making a high level one -->
 
 Things we consider when implementing a pipeline for data extraction (but are not limited to) are:
@@ -94,8 +94,7 @@ We assess these factors when solutioning a new data source in the [New Data Sour
 
 ---
 
-Custom Piplines
----------------------------------
+## Custom Piplines
 
 A signifcant weakness that can emerge from custom pipelines is that we can write inconsistencies, redundancies, and complexity into our data platform if we're not careful. To this end we expect our custom pipelines to ahear to the following specifications. 
 
@@ -113,11 +112,12 @@ Including, but still working on descriptions for
 
 ### Secure
 
-
 ### Performant
+
 Our Extraction Pipelines should be performant, which we define along the following standards:
 
 Performant Pipelines:
+
 1. employ optimized queries
 1. process data appropriately
 1. self-heal 
@@ -135,6 +135,5 @@ There are cases where batch processing is too high latency for the business case
 #### Self-Healing 
 
 Sometimes all that is needed to fix a failed pipeline run is a retry. Pipelines should be written idempotently so that this can be easily automated within Airflow configurations. In the case of connection errors, exponential backoff is advised. Additionally, circuit-breakers should be used whena single failure can result in cascading failures as we do with `check_replica_snapshot`. When completing a custom pipeline consider what is most likely to fail and what steps need to be taken to resolve the failure. If that can be written into the pipeline then do it. In many cases it just takes time for us to learn where we can improve and this is a case when we stridently apply our [iteration value](https://handbook.gitlab.com/handbook/values/#iteration).
-
 
 ## Roadmap
