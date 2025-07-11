@@ -114,7 +114,7 @@ Localization Engineering team reviews each other's merge requests and [Translati
 Localization Engineering helps review MRs that are authored in Decap CMS by the Localization Content Managers who own and maintain [Blog](https://about.gitlab.com/blog/) in multiple languages. Blog update MRs from Decap are typically content-only changes that help with deployment agility and can use lightweight review processes. Content Managers may request a review from a Localization Engineer or a [Digital Experience (DEX)](https://handbook.gitlab.com/handbook/marketing/digital-experience/) engineer for complex changes, code, or troubleshooting.
 
 
-### Review of GitLab product docs Translation MRs from [forks](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects) to upstream production
+### Review of GitLab product documentation Translation MRs
 
 [Work in progress guidelines](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/blob/main/translation_mr_review_workflow.md)]]
 
