@@ -115,7 +115,7 @@ Localization Engineering helps review MRs that are authored in Decap CMS by the 
 
 ### Review of GitLab product documentation Translation MRs
 
-[Work in progress guidelines](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/blob/main/translation_mr_review_workflow.md)]]
+[Work in progress guidelines](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/blob/main/translation_mr_review_workflow.md)
 
 ## Localization engineering by partnership with Spartan Software
 
