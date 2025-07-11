@@ -5,12 +5,15 @@ description: Schedule and host meetings
 
 ## Setting up a Zoom Meeting
 
-*To set up a Zoom meeting, sign in via Okta and share the link for your "personal meeting room" with your participants.*
+*To set up a Zoom meeting, sign into Zoom via Okta and share the link for your "personal meeting room" with your participants.*
 
 ### Allow for browsers
 
 Not everyone has a Zoom client, so you can allow for invitees to choose to use Zoom from the browser.
-Go to **Settings > In Meeting (Advanced)** and click next to "Show a 'Join from your browser' link" to make this option available in your meeting invites.
+
+1. Go to **Settings > In Meeting (Advanced)**
+1. click next to "Show a 'Join from your browser' link" to make this option available in your meeting invites.
+
 The browser version of Zoom is not as full-featured as the regular client, but it doesn't force an invitee to download the Zoom client.
 This also mitigates the issue of potential weak communication encryption since the browser uses HTTPS instead of Zoom's proprietary encryption scheme.
 
@@ -76,3 +79,31 @@ Zoom Clips is enabled for everyone at GitLab, however to get this to work, you w
 
 1. Sign in to the [Zoom web portal](https://zoom.us/signin).
 1. Go to [Clips](https://gitlab.zoom.us/clips/library) in the left sidebar.
+
+### Create a Persistent Zoom Room
+
+If you find yourself wanting to have a persistent Zoom "Room" for shared use by
+anybody on your team at any time, do this:
+
+1. Login to the Zoom website
+1. Go to the Meetings section
+1. Click "Schedule a Meeting"
+   1. Enter the desired topic (title)
+   1. Click "Recurring meeting"
+   1. Under "Recurrence", select "No Fixed Time"
+   1. In the options area, be sure to select "Allow participants to join anytime"
+   1. Click "Save"
+1. Share the link to the room with your intended users
+
+### Settings for smaller meetings
+
+If you have a smaller meeting (4 or fewer participants) and want to allow for quicker starts, you could change the settings on a per meeting basis to remove the waiting room, or default audio to on (can be overridden by participants local settings). To quickly do this, you can:
+
+1. Ensure that you are signed into the Zoom extension that is installed by default in your GitLab Chrome profile
+1. When creating a meeting, click on `Make it a Zoom Meeting`
+1. Uncheck `Waiting Room`
+1. Ensure Host and Participant Video is `On`
+1. Ensure `Mute participants upon entry` is **unchecked**
+1. Click `Continue`
+
+This should allow for a bit more of a seamless transition into beginning a smaller meeting. The defaults for larger meetings are still what's documented above.

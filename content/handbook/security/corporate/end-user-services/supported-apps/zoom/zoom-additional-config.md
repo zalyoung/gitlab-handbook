@@ -82,3 +82,9 @@ Follow these steps to set it up:
 1. Navigate to `Zoom > Preferences > Keyboard Shortcuts`
 1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
 1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
+
+### Enabling email notifications for hosts when attendees join first
+
+1. Go to your Zoom account [settings](https://gitlab.zoom.us/profile/setting).
+1. Click the `Meeting` tab.
+1. Under `Email notification`, click the `When attendees join meeting before host` toggle to enable or disable it.

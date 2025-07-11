@@ -42,7 +42,7 @@ Go to "My Meeting Settings" and find the "Recording" section, then click on "Clo
 Setting the topic of the meeting is important, otherwise all meetings will be recorded with a generic name.
 Once recording is complete, your videos will not appear in the "Recordings" section of your Zoom account.
 
-#### Shared Drive Recording
+### Shared Drive Recording
 
 <div class="w3-panel w3-yellow">
   <h3>Attention!</h3>
@@ -73,7 +73,7 @@ You can use one of the below methods to find this information after joining the 
    1. Navigate to the upper left corner, where you will be presented with an i icon
    1. Select the icon to locate the meeting host who will have the ability to record the call
 
-#### How to allow recording when the host is not present
+### How to allow recording when the host is not present
 
 This usually happens on recurring meetings where the host can't always attend.
 
