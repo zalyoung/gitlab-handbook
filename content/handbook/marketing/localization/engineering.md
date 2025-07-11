@@ -109,7 +109,7 @@ This single configuration change activates/deactivates the entire translated doc
 
 The process of revieweing merge requests by the Localization Engineering team aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/development/code_review/).
 
-Localization Engineering team reviews each other's merge requests and [Translation MRs](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/blob/main/doc/en-US/merge_requests.md?ref_type=heads#translation-mr). Translation MRs are created by [@gitlab-argo-bot]() when translations are complete in Argo for the Marketing website and GitLab product documentation.
+Localization Engineering team reviews each other's merge requests and [Translation MRs](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/blob/main/doc/en-US/merge_requests.md?ref_type=heads#translation-mr). Translation MRs are created by [@gitlab-argo-bot](https://gitlab.com/gitlab-argo-bot) when translations are complete in Argo for the Marketing website and GitLab product documentation.
 
 Localization Engineering helps review MRs that are authored in Decap CMS by the Localization Content Managers who own and maintain [Blog](https://about.gitlab.com/blog/) in multiple languages. Blog update MRs from Decap are typically content-only changes that help with deployment agility and can use lightweight review processes. Content Managers may request a review from a Localization Engineer or a [Digital Experience (DEX)](https://handbook.gitlab.com/handbook/marketing/digital-experience/) engineer for complex changes, code, or troubleshooting.
 
