@@ -10,8 +10,8 @@ This security review framework empowers GitLab Product teams with a streamlined 
 the right security partners based on your feature's needs, risk profile, and 
 [Go-to-market tier](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process#labels-guide). 
 Designed to maintain your development velocity while ensuring appropriate security coverage, the framework begins with a simple 
-team routing process that connects you directly with the most relevant security experts—whether that's Secure Design and Development or 
-Infrastructure Security—with additional specialized support from Security Platforms and Architecture (SPA) and Data Security teams for features 
+team routing process that connects you directly with the most relevant security experts—whether that's [Secure Design and Development]((/handbook/security/product-security/application-security/appsec-operations/sdd-services/)) or 
+[Infrastructure Security](/handbook/security/product-security/infrastructure-security/) with additional specialized support from [Security Platforms and Architecture (SPA)](/handbook/security/product-security/security-platforms-architecture/) and [Data Security teams](/handbook/security/product-security/data-security/) for features 
 with High or Critical risk scores. This focused approach ensures you receive timely, targeted security guidance without unnecessary process overhead.
 
 The security review framework is designed to work in tandem with the [Product Development Flow](../../product-development/how-we-work/product-development-flow). 
@@ -303,7 +303,7 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 
 * **SDX Reviews DRI:** SD&D Team
 * **Data Security Review DRI:** Data Security team. _This review is will be conducted on a best effort basis since the team has resource constraints._
-* **SPA Security Review DRI:****** SPA team. _This review is will be conducted on a best effort basis since the team has resource constraints._
+* **SPA Security Review DRI:** SPA team. _This review is will be conducted on a best effort basis since the team has resource constraints._
 
 #### Critical Risk Review
 
