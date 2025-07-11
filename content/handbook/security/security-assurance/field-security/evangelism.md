@@ -40,8 +40,6 @@ The Field Security team has developed custom sessions to be delivered on thought
 
 The Field Security team partners with Customer Success, Solution Architecture and Sales to deliver sessions to the right stakeholders.
 
-A 
-
 ## How can you help?
 
 Continuous and open feedback from all of our team members is more than appreciated. If you're interfacing with a prospect or a customer and you learn of a concern, a suggestion, a "want" or a "need", please forward that information to Field Security. Your feedback will help drive our roadmap and strategy so that we can help GitLab deliver more value to our customers and the industry.
