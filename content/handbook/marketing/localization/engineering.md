@@ -107,7 +107,7 @@ This single configuration change activates/deactivates the entire translated doc
 
 ## Review workflow
 
-The process of revieweing merge requests by the Localization Engineering team aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/development/code_review/).
+The process of reviewing merge requests by the Localization Engineering team aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/development/code_review/).
 
 Localization Engineering team reviews each other's merge requests and [Translation MRs](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/blob/main/doc/en-US/merge_requests.md?ref_type=heads#translation-mr). Translation MRs are created by [@gitlab-argo-bot](https://gitlab.com/gitlab-argo-bot) when translations are complete in Argo for the Marketing website and GitLab product documentation.
 
