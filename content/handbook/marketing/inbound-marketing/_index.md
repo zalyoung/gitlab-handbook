@@ -62,9 +62,9 @@ Inbound Marketing sets quarterly OKRs, and also maintains a backlog of future OK
 - [Q1FY22 OKRs](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/227)
 - [CANDIDATES Q2FY22](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/226)
 
-#### Brand and Design Issue Templates
+#### Brand and Creative Issue Templates
 
-The brand and design team is now the Brand Activation team under Corporate Marketing. Please see their [Handbook page](/handbook/marketing/brand-and-product-marketing/design/#requesting-support) for requesting support.
+Please see their [Handbook page](/handbook/marketing/brand-and-product-marketing/design/#requesting-brand-&-creative-support) for requesting support.
 
 #### Inbound Marketing Issue Templates
 
