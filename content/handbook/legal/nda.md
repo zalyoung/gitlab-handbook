@@ -37,4 +37,4 @@ The processes above are only for standard GitLab NDAs. If a non-standard NDA is 
 
 - A **customer** or **partner**, open a [Legal Request](/handbook/legal/customer-negotiations/#how-to-reach-the-legal-commercial-team) in Salesforce.
 
-- A **vendor** or other third-party, create a [Legal and Compliance issue](https://gitlab.com/gitlab-com/legal-and-compliance) and label it NDA Request.
+- A **vendor** or other third-party, use the [NDA-request issue template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?description_template=NDA-request) in the Legal and Compliance project.
