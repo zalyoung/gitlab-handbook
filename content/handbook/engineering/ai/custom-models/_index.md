@@ -68,7 +68,7 @@ Any engineer on the team can work on the issues contained in the Epic, as self-a
 
 ## Team Milestone Planning Process
 
-Custom Models follows the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) and [Cross Functional Prioritization](/handbook/engineering/cross-functional-prioritization/). The team uses a planning issue and boards to manage the planning process. [Planning automation](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/blob/main/doc/planning/index.md) scripts are available to make this process easier.
+Custom Models follows the [Product Development Flow](/handbook/product-development/how-we-work/) and [Cross Functional Prioritization](/handbook/engineering/cross-functional-prioritization/). The team uses a planning issue and boards to manage the planning process. [Planning automation](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/blob/main/doc/planning/index.md) scripts are available to make this process easier.
 [Planning issues](https://gitlab.com/groups/gitlab-org/-/epics/13440) for each milestone are created by the PM and are used to coordinate upcoming work between the PM, EM and stable counterparts.
 
 During each milestone, planning is completed for the next milestone. The following activities are undertaken:
@@ -129,7 +129,7 @@ A weight is assigned to each issue as an estimation of work to close the issue. 
 
 ### Planning and Delivery Boards
 
-All workflow statuses in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) are valid, and the statuses and milestones tied to boards are below.
+All workflow statuses in the [Product Development Flow](/handbook/product-development/how-we-work/) are valid, and the statuses and milestones tied to boards are below.
 
 The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_title=Next%201-3%20releases&label_name[]=group%3A%3Acustom%20models) and [Next 4-6 milestones](https://gitlab.com/groups/gitlab-org/-/boards/7472821?milestone_title=Next%204-6%20releases&label_name[]=group%3A%3Acustom%20models) boards are used to house issues which need refinement or are ready to be worked on.
 

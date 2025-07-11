@@ -8,7 +8,7 @@ We use GitLab to document product strategy and manage our backlog. A couple of c
 - [Issues](https://docs.gitlab.com/user/project/issues/): Capture an atomic piece user value.which should able to be delivered within a singe milestone.
 - [Tasks](https://docs.gitlab.com/user/tasks/) (optional): Decompose an Issue into more detailed implementation steps.
 - [Epics](https://docs.gitlab.com/user/group/epics/): Group related issues together into a theme or goal. A best practice is for epics to not be everlasting containers but to represent a concrete scope of work, with the goal is for the epic can be closed once the work is complete.
-- [Boards](https://docs.gitlab.com/user/project/issue_board/): Aid in visualizing work moving through the [product development flow](/handbook/product-development/how-we-work/product-development-flow/_index.md) and for milestone planning.
+- [Boards](https://docs.gitlab.com/user/project/issue_board/): Aid in visualizing work moving through the [product development flow](/handbook/product-development/how-we-work/_index.md) and for milestone planning.
 - [Roadmaps](https://docs.gitlab.com/user/group/roadmap/): Aid in visualizing epics in a timeline view.
 
 ### Issues

@@ -462,7 +462,7 @@ At any point, if an issue becomes blocked, it would be in the `workflow::blocked
 
 `Closed` means that all code changes associated with the issue are fully enabled on gitlab.com. If it is being rolled out behind a feature flag, it means the feature flag is enabled for all users on gitlab.com.
 
-More detail on the workflow is available on the [Product-Development Flow](/handbook/product-development/how-we-work/product-development-flow/) page.
+More detail on the workflow is available on the [Product-Development Flow](/handbook/product-development/how-we-work/) page.
 
 ### "What do I work on next?"
 
@@ -630,7 +630,7 @@ The Pipeline Execution group supports the product marketing categories described
 
 ### Developing with Feature Flags
 
-When building features that may have high impact the team uses established [GitLab guidelines](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) for feature flags.
+When building features that may have high impact the team uses established [GitLab guidelines](/handbook/product-development/how-we-work/) for feature flags.
 
 We also ensure we are collaborating with our teammates in customer support and customer success by [alerting them](https://docs.gitlab.com/ee/development/feature_flags/controls.html#communicate-the-change) to the rollout issue before a feature is enabled.
 
@@ -683,10 +683,10 @@ Suppose working one milestone ahead to design the big solution is not possible. 
 
 #### Avoiding crunch times between UX, Product and Engineering
 
-- Ideally, Product Management and Product Designers aim to work 3 months in advance of Engineering proposals to ensure the problem definition and solution has been adequately validated prior to building. See [Validation track](/handbook/product-development/how-we-work/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
-- the Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement, we can move it to the [Solution Validation phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation).
+- Ideally, Product Management and Product Designers aim to work 3 months in advance of Engineering proposals to ensure the problem definition and solution has been adequately validated prior to building. See [Validation track](/handbook/product-development/how-we-work/) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
+- the Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development/how-we-work/) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement, we can move it to the [Solution Validation phase](/handbook/product-development/how-we-work/).
 - If it is taking more than a week to understand and investigate the technical feasibility for the design solution, update the workflow label to `~workflow::blocked` and change the assignee to engineering DRIs until the technical discussion is resolved. If the discussion is expected to go on longer, reducing the chances of the design solution being delivered in the intended milestone, consider creating [a spike issue](/handbook/engineering/devops/ops/verify/pipeline-execution/#spikes) for the discussion that blocks the current issue.
-- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development/how-we-work/product-development-flow/#build-track) to avoid unplanned changes.
+- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development/how-we-work/) to avoid unplanned changes.
 
 ### Collaborating with the Wider Community on Community Merge Requests
 

@@ -52,7 +52,7 @@ The noted DRI still owns decision-making and is still responsible for notifying/
 
 ### Workflow
 
-We work in a Kanban-style aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+We work in a Kanban-style aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/how-we-work/).
 
 ### Cross-Functional Partnership
 

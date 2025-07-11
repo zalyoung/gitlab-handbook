@@ -103,7 +103,7 @@ The Staff Product Designer is a [grade 8](/handbook/total-rewards/compensation/c
 Everything in the Senior Product Designer role, plus:
 
 - **Product knowledge:** Have deep knowledge of the technology and capabilities in your [group](/handbook/product/categories/#hierarchy). Proactively learn and have working knowledge of _the end-to-end product._
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. _Collaborate on [problem validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs._
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. _Collaborate on [problem validation](/handbook/product-development/how-we-work/) and strategic research needs._
 - **Deliverables:** Create tactical deliverables for your group that solve user problems. Define strategic outputs that connect vision to product outcomes. _Shape the deliverables with a focus on long-term vision and execution._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. _Exemplify frequent and effective asynchronous communication._
 - **Iteration:** Practice design iteration and [break down designs](/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence. [Review merge requests](/handbook/product/ux/product-designer/mr-reviews/) with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices _across the company._
@@ -113,7 +113,7 @@ Everything in the Senior Product Designer role, plus:
 - **Cross-stage collaboration:** Note dependencies and advocate for cross-stage collaboration when needed to promote a holistic UX. _Help others navigate the organization and consider overlaps._
 - **Mentoring:** Provide impactful feedback to UX department members and mentor them throughout product development.
 - **Vision:** Collaborate with your group on a user-centric vision and long-term roadmap that is connected to company goals.
-- **UX process:** Expose operational needs (for example, in [design](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design) and [solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation)), and address them through experimentation and change management.
+- **UX process:** Expose operational needs (for example, in [design](/handbook/product-development/how-we-work/) and [solution validation](/handbook/product-development/how-we-work/)), and address them through experimentation and change management.
 - **Open source:** Create a welcoming community for design contributors and drive engagement.
 
 #### Staff Requirements
@@ -133,7 +133,7 @@ The Principal Product Designer is a [grade 9](/handbook/total-rewards/compensati
 Everything in the Staff Product Designer role, plus:
 
 - **Product knowledge:** Have deep knowledge of the technology and capabilities in your _projects_. Proactively learn and have working knowledge of the end-to-end product.
-- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. Collaborate on [problem validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-2-problem-validation) and strategic research needs. _Help connect research efforts, and cultivate accountability and learning through research._
+- **Research:** Conduct competitor evaluations, usability studies, and formative evaluations. Incorporate insights to fulfill user and business needs. Identify research opportunities. Collaborate on [problem validation](/handbook/product-development/how-we-work/) and strategic research needs. _Help connect research efforts, and cultivate accountability and learning through research._
 - **Deliverables:** Create tactical deliverables for your _project_ that solve user problems. Define strategic outputs that connect vision to product outcomes. Shape the deliverables with a focus on long-term vision and execution. _Reduce the scope, complexity, and ambiguity of projects to a more manageable state._
 - **Communication:** Communicate UX activities to others with clear language that simplifies complexity. Show a strong point of view on how those activities address user and business needs. Exemplify frequent and effective asynchronous communication. _Unblock conversations and encourage collaboration across teams._
 - **Iteration:** Practice design iteration and break down designs to fit the release cadence of your _projects_. Review merge requests with user-facing changes. Advocate for and guide others in adopting effective [iteration](/handbook/values/#iteration) practices across the company. _Help others break down solutions into actionable steps, aligned with long-term goals._

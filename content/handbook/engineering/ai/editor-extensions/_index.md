@@ -58,7 +58,7 @@ Our group processes are documented in this section.
 If a process is in use but not described here, please follow the guidance in [Evolving the process](#evolving-the-process) to document it.
 
 Our group is relatively new, and currently light on processes.
-There are several differences between how we operate and the shared processes documented in the [product development flow](/handbook/product-development/how-we-work/product-development-flow/) and [engineering workflow](/handbook/engineering/workflow/).
+There are several differences between how we operate and the shared processes documented in the [product development flow](/handbook/product-development/how-we-work/) and [engineering workflow](/handbook/engineering/workflow/).
 
 ### Evolving the process
 
@@ -71,7 +71,7 @@ If an issue is better suited for the discussion, it should be created in the [`m
 
 ### Epics & Issues
 
-We exclusively use [issue/epic descriptions as the single source of truth](/handbook/product-development/how-we-work/product-development-flow/#issue-descriptions-as-the-single-source-of-truth-ssot) for our planned work.
+We exclusively use [issue/epic descriptions as the single source of truth](/handbook/product-development/how-we-work/) for our planned work.
 
 - Epics: [GitLab Epic Search](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=group::editor+extensions)
 - Issues: [GitLab Issue Search](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=group%3A%3Aeditor%20extensions&first_page_size=20)

@@ -90,7 +90,7 @@ When they are satisfied that they have a reasonable solution including an estima
 for discussion and feedback. Planning is transparent anyway, but this serves to notify the team that the new work items are ready
 for development.
 
-For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#development).
+For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development/how-we-work/).
 The original issue should remain open and blocked on the FF rollout issue until the rollout issue is closed, in case the rollout does not go as planned.
 
 #### Schedule
@@ -226,7 +226,7 @@ If any issue is weighted above a 3, we should ask ourselves if it can be further
 
 ### Backlog Refinement Process
 
-Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](/handbook/product-development/how-we-work/).
 
 Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined.
 Each week 3 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.

@@ -45,7 +45,7 @@ Complete items are removed from the table once the code is in production without
 
 ### Workflow
 
-The Security Policies group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
+The Security Policies group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/).
 
 Additional information about how we operate can be found on the [Planning page](/handbook/engineering/development/sec/security-risk-management/srm-planning/).
 

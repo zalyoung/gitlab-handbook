@@ -4,9 +4,9 @@ title: Application Security Testing - Planning
 
 ## Overview
 
-Our stage follows the [product development flow](/handbook/product-development/how-we-work/product-development-flow/) process, including the `workflow` labels. This page documents tweaks and additions to the general GitLab Process. If there's a conflict, the stage documentation should take precedence.
+Our stage follows the [product development flow](/handbook/product-development/how-we-work/) process, including the `workflow` labels. This page documents tweaks and additions to the general GitLab Process. If there's a conflict, the stage documentation should take precedence.
 
-Some groups prefer to split the [Plan](/handbook/product-development/how-we-work/product-development-flow/#build-phase-1-plan) phase into two adjacent steps: [Planning breakdown](#planning-breakdown) and [Refinement](#refinement). Either way, once planning is complete, issues and epics are ready for [scheduling](#scheduling).
+Some groups prefer to split the [Plan](/handbook/product-development/how-we-work/) phase into two adjacent steps: [Planning breakdown](#planning-breakdown) and [Refinement](#refinement). Either way, once planning is complete, issues and epics are ready for [scheduling](#scheduling).
 
 ### Planning breakdown
 
@@ -60,7 +60,7 @@ Engineering output:
     - The functionality clearly articulated, and there is a decision on how it should function.
     - The technical details are outlined, and discussions are resolved.
     - Dependencies have been called-out.
-    - Determine if a [feature flag is needed](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#when-to-use-feature-flags).
+    - Determine if a [feature flag is needed](/handbook/product-development/how-we-work/).
 1. If the issue is not complete:
     - Tag the relevant people that can help complete the issue and outline what is needed. Tag the EM and PM, so they are aware of the blocker.
 1. Ensure the issue is fully understood.

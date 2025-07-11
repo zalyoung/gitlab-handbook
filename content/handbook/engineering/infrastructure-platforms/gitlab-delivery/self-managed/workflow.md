@@ -21,10 +21,10 @@ Following [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) approach 
 
 ## Kanban Implementation
 
-We also use the [GitLab product development flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) and labels in principle. However, we usually skip below phases due to the nature of our work:
+We also use the [GitLab product development flow](/handbook/product-development/how-we-work/) and labels in principle. However, we usually skip below phases due to the nature of our work:
 
-- [Validation phase 3: Design](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design)
-- [Validation phase 4: Solution Validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation)
+- [Validation phase 3: Design](/handbook/product-development/how-we-work/)
+- [Validation phase 4: Solution Validation](/handbook/product-development/how-we-work/)
 
 ### Workflow Diagram
 
@@ -371,7 +371,7 @@ graph LR
 
 ## Required labels
 
-Besides the [GitLab product development flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) labels, there are a number of additional **required** labels applied at any time to Epics, issues and merge requests (items):
+Besides the [GitLab product development flow](/handbook/product-development/how-we-work/) labels, there are a number of additional **required** labels applied at any time to Epics, issues and merge requests (items):
 
 - `group::Self Managed` - Items specific to, or authored by us.
 

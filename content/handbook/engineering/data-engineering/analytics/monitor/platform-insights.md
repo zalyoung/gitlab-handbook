@@ -42,7 +42,7 @@ Learn more: [Clickhouse Datastore Working Group](/handbook/company/working-group
 
 ## How we work?
 
-We base our workflow on the company's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
+We base our workflow on the company's [Product Development Flow](/handbook/product-development/how-we-work/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
 ### Async Standups
 

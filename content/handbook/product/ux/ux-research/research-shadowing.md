@@ -27,7 +27,7 @@ This research shadowing process is intended to ensure that stable counterparts h
 
 1. When conducting your first solo Solution Validation at GitLab, you will need to have a researcher (preferably from your group or section) shadow your first solution interview.
    - This is to ensure you get feedback about your approach, and that a UX Researcher and your Product Design Manager are aware so they can support you.
-1. [Solution Validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) is conducted by the Product Designer and PM counterpart.
+1. [Solution Validation](/handbook/product-development/how-we-work/) is conducted by the Product Designer and PM counterpart.
 1. The role of research in Solution Validation is to provide an initial framework and to provide feedback on the goals of your study.
 1. After a researcher has shadowed your interview (either live or by watching the recording), they will provide written feedback to you and cc your Product Design Manager.
 

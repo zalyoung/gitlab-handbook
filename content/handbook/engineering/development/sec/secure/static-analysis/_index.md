@@ -13,7 +13,7 @@ The Static Analysis group at GitLab is charged with developing the [Static Appli
 
 ## How We Work
 
-The Static Analysis group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/),
+The Static Analysis group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development/how-we-work/),
 however there are some notable differences in how we seek to deliver software. The engineering team
 predominantly concerns itself with the delivery of software, which is the portion of the workflow
 states where we deviate the most. What follows is how we manage the handoff from product management

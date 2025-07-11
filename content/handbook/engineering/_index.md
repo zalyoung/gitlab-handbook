@@ -315,7 +315,7 @@ but manual verification provides a higher level of confidence that features beha
 
 We manually verify issues when they are in the `workflow::verification` state.
 Generally, after you have manually verified something, you can close the associated issue.
-See the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) to learn more about this issue state.
+See the [Product Development Flow](/handbook/product-development/how-we-work/) to learn more about this issue state.
 
 We manually verify in the staging environment whenever possible.
 In certain cases we may need to manually verify in the production environment.
