@@ -216,7 +216,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 - [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
 - [#ciso](https://gitlab.enterprise.slack.com/archives/C05C6Q0TLTV): For general communication from our CISO and CISO Directs. Team and division updates and other topics.
 
-To get the attention of a specific Security Department please tag your message with one of the following group tags:
+The following group tags can you you get the attention of a specific department, team, or specialty:
 
 **Primary Security departments**:
 
