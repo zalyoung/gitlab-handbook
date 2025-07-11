@@ -64,7 +64,7 @@ Inbound Marketing sets quarterly OKRs, and also maintains a backlog of future OK
 
 #### Brand and Creative Issue Templates
 
-Please see their [Handbook page](/handbook/marketing/brand-and-product-marketing/design/#requesting-brand-&amp;-creative-support) for requesting support.
+Please see their [Handbook page](/handbook/marketing/brand-and-product-marketing/design/#requesting-brand-and-creative-support) for requesting support.
 
 #### Inbound Marketing Issue Templates
 
