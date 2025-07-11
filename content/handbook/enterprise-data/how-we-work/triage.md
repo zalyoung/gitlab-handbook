@@ -24,7 +24,6 @@ Steps to uplevel triaging process:
 | People Analytics Triage | `@PeopleAnalyticsTriage` | People Group Analytics Team, G&A Data Fusion Team |
 | Engineering Analytics Triage | `@EngineeringAnalyticsTriage` | Engineering Analytics Team, G&A Data Fusion Team |
 | Data Platform Triage | `@DataPlatformTriage`   | Data Platform Team |
-| Tableau Triage | `@TableauTriage`   | Enterprise Analytics & Insights Team |
 
 ### Enterprise Data GitLab Projects
 
@@ -49,16 +48,16 @@ Steps to uplevel triaging process:
 | `@R&DAnalyticsTriage` | Product Data Insights |  | `@Matthew Petersen` `@Carolyn Braza` | `@Dave Peterson` | `@Emma Neuberger` | `@Nicole Hervas` | `@Neil Raisinghani` |
 | `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` | |
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
-| `@TableauTriage` | Analytics & Insights |  | Weekly rotation  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
+|            | BI Team - Tableau |  | BI Team Member  | BI Team Member | BI Team Member  | BI Team Member | BI Team Member |
 |  `@GTMAnalyticsTriage` `@R&DAnalyticsTriage`  `@PeopleAnalyticsTriage` | Analytics Engineering |  | Weekly rotation  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
 
 #### Data Platform weekly rotation schedule
 
 In FY23-Q4, the data platform team moved to a weekly triage schedule. The schedule is maintained on the Data Program Google Calendar.
 
-#### Tableau weekly rotation schedule
+#### Tableau Support
 
-For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Monday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts.
+The BI / Tableau Administration team supports requests and ad hoc questions in the #data-tableau channel. There is no individual on triage - any team member can help with Tableau needs. The team also facilitates Tableau Office Hours each week.
 
 #### Analytics Engineering weekly rotation schedule
 
@@ -112,10 +111,6 @@ The Data Platform triager is responsible for resolving problems with our data pl
 The Analytics Engineer triager has two primary responsibilities: addressing dbt-related errors (both new and existing) and supporting issue organization. 
 
 They monitor the `#analytics-pipelines` Slack channel for `dbt-test`, `dbt-run` errors and MonteCarlo anomalies, creating new issues using the [AE Triage Errors](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=Triage:%20Errors%20AE%20) issue template when needed. 
-
-**BI / Tableau Team Responsibilities**
-
-The BI / Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
 
 **Data Science Responsibilities**
 
