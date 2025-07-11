@@ -6,8 +6,7 @@ description: "This page describes the ways we extract this data via data pipelin
 The Data Warehouse contains data from a wide variety of sources. In order to support such dynamic and vast integrations we employ a data extraction strategy with advanced tooling and best-in-class data engineering standards.
 Detailed information about specific **Data Pipelines** is available on our [Internal GitLab Handbook Pipelines page](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines).
 
-Data Extraction Solutions 
--------------------------
+## Data Extraction Solutions 
 
 Ideally, all data extraction pipelines should fall into 1 of 3 categories:
 
@@ -65,6 +64,7 @@ Some data sources are just too senstive to allow for a third party to have acces
 
 For Platform efficiency, we do not want vendors in this area with overlapping functionalities. This means we want a maximum of 1 vendor. While vendors often provide different sets of available connectors, the availability of connectors in a different vendor's product is not sufficient justification to add that vendor. A business case to add a new vendor to the Data Platform must include replacing the current existing vendor.
 Currently, the Data Platform has multiple vendors (Fivetran, Stitch, and Meltano). This means we will consolidate to 1 vendor (to be determined).
+
 ### Criteria for Custom Pipelines
 
 Custom data pipelines should be considered our best option in the sense that these pipelines offer the most opportunity for flexibility, privacy, security, and maintainability. Though, as noted, such a solution isn't always warrented. 
