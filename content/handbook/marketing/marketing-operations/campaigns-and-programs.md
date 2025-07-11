@@ -1161,7 +1161,11 @@ The program template contains multiple target list assets, both static and smart
 - If there are multiple regional programs, proceed with using smart campaign `Load static lists and child programs from target list` to load the target lists into the appropriate regional static list and the regional child programs
   - Leads loaded into the program(s) should have `Nominated` status once loaded
 
-### Step 4: Brilliant Set Up
+### Step 4: Emailing target list 
+
+While the smart campaign `02 Send Sales Nominated Invite` exists in the template, it's possible other methods of outreach will be used. `02a Sales Nominated Invite Sent` exists as a method of changing the program status on leads already emailed. Plug in the correct email asset that was sent to change the program status using this smart campaign - or request a report and MktgOps will assist with processing the report 
+
+### Step 5: Brilliant Set Up
 
 This step will require communication to the Brilliant support team and can take up to over a month to fulfill. Reach out to the Brilliant tech owner, who will email (with the requester CC'd) our Brilliant contact. From there, the Brilliant team will ask a series of questions to the requester regarding the intended campaign and discuss set up. A few items that will be decided upon:
 
@@ -1173,7 +1177,7 @@ The Brilliant team also needs to verify the Marketo webhook is reaching their ba
 
 Note: MktgOps will need to verify the webhook is working by utilizing `Call to Brilliant TEST` and `Call to Brilliant TEST trigger` found in the program template. There are two smart campaigns because calling a webook needs a trigger campaign
 
-### Step 5: Qualified-powered meeting booking set up
+### Step 6: Qualified-powered meeting booking set up
 
 This next step will require the help of the Qualified tech owner. Supply them with the SFDC campaign being used as the single or parent campaign. From there, a Qualified link will be created and shared by the tech owner to the requester. The link will be used during prospect outreach as the method needed for nominated prospects to book a meeting with Sales Dev
 
@@ -1182,7 +1186,7 @@ This next step will require the help of the Qualified tech owner. Supply them wi
 - Once a meeting has occurred, Qualified will send a confirmation email to Sales Dev team member to confirm if the meeting happened or was missed
 - An experimental automation is watching for if Qualified updates the meeting acitivty with `not attended` to mark as `no show`
 
-### Step 6: Campaign completion
+### Step 7: Campaign completion
 
 At the end of the campaign, request the Qualified logic be taken down. Updates to Brilliant storefronts and preferred campaigns TBD. For multi-region campaigns, leads can be removed from the parent SFDC campaign/Marketo program. As long the leads have been removed from the parent campaign, the regional campaigns can be added as child campaigns to the parent campaign in SFDC 
 
