@@ -12,7 +12,7 @@ description: Schedule and host meetings
 Not everyone has a Zoom client, so you can allow for invitees to choose to use Zoom from the browser.
 
 1. Go to **Settings > In Meeting (Advanced)**
-1. click next to "Show a 'Join from your browser' link" to make this option available in your meeting invites.
+1. Click next to "Show a 'Join from your browser' link" to make this option available in your meeting invites.
 
 The browser version of Zoom is not as full-featured as the regular client, but it doesn't force an invitee to download the Zoom client.
 This also mitigates the issue of potential weak communication encryption since the browser uses HTTPS instead of Zoom's proprietary encryption scheme.
@@ -39,7 +39,7 @@ Joining an ongoing meeting with your microphone not muted can cause disruptions.
 
 **Enable for all Meeting Surveys**
 
-Meeting Surveys is enabled for everyone at GitLab, however to get this to work, you will need to Meeting Surveys feature within your account.
+Meeting Surveys is enabled for everyone at GitLab, however to use it you will need to activate the Meeting Surveys feature within your account.
 
 1. Sign in to the [Zoom web portal](https://zoom.us/signin).
 1. Go to your [account settings](https://gitlab.zoom.us/profile/setting).
@@ -62,7 +62,7 @@ Meeting Surveys is enabled for everyone at GitLab, however to get this to work, 
 
 **Enable Zoom Clips**
 
-Zoom Clips is enabled for everyone at GitLab, however to get this to work, you will need to enable the feature within your account.
+Zoom Clips is enabled for everyone at GitLab, however to use it you will need to activate the feature within your account.
 
 1. Sign in to the [Zoom web portal](https://zoom.us/signin).
 1. Go to your [account settings](https://gitlab.zoom.us/profile/setting).

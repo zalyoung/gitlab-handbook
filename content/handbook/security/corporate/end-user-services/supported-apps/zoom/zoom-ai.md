@@ -6,9 +6,9 @@ description: Setup and Configuration
 ## Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
-1. Clizoock `AI Companion` in the meeting control toolbar to activate its automatic "Meeting Summary" feature
+1. Click on `AI Companion` in the meeting control toolbar to activate its automatic "Meeting Summary" feature
 1. Make sure that `Meeting summary` option is selected.
-1. Participants will see a notification that AI Companion is active and analyzing the discussion.
+1. Participants will see a notification that AI Companion is active and analyzing the meeting.
 1. Once the meeting ends, the summary will be emailed to the meeting host and meeting invitees in our organization.
 
 ### Accessing AI Companion Meeting Summaries

@@ -5,12 +5,12 @@ description: Basic installation and setup steps
 
 ## Installation
 
-If you are using a GitLab-provided MacBook Zoom should be installed automatically when you first set up the laptop. TO install the app manually, please see the steps below.
+If you are using a GitLab-provided MacBook Zoom should be installed automatically when you first set up the laptop. To install the app manually, please see the steps below.
 
 ### MacOS
 
-- Open the **Self Service** app found by opening **Finder** and going to **Applications**
-- Alternatively, you can also download it directly from [the official Zoom download page](https://zoom.us/download?os=mac)
+- Open the **Self Service** app found by opening **Finder** and going to **Applications**. Search for Zoom and select the Install option.
+- Alternatively, you can also download and install Zoom directly from [the official Zoom download page](https://zoom.us/download?os=mac)
 
 ### Linux
 

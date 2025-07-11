@@ -60,8 +60,8 @@ In order to share your screen with call participants, you need to grant Zoom the
 
 1. Open Zoom and start a meeting using **New meeting**
 1. Click **Share** and select a screen or application window to share
-1. A prompt should appear asking you to enable this in your Mac settings -> Allow 
-    1. To manually enable this go to your Mac System Settings > Privacy & Security > Screen & System Audio Recording > enable zoom and follow the prompt
+1. A prompt should appear asking you to allow "zoom.us" to record this computer's screen and audio, click "Open System Settings". Enable "zoom" from the list that appears.
+    1. To manually enable this open your Mac System Settings app and navigate to Privacy & Security > Screen & System Audio Recording and enable zoom and follow the prompt.
     1. If Zoom does not appear on the list, click the `+` button and manually select the **zoom.us** application
 1. Restart Zoom
 
