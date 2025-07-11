@@ -1133,11 +1133,11 @@ If utilizing Allocadia, please refer to the instructions [above](/handbook/marke
 
 ## Steps to Setup Direct Mail Campaigns
 
-Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilliant Gifts. Brilliant Gifts, our merch vendor, needs to set up a Preferred Gift campaign on their end, which can take up to a month and requires contacting their support. The current Qualified owner will be required to set up the Qualified meeting booking link. Refer to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for the appropriate contacts. The Marketo template has been set up in a way to be easily cloned, so move slowly and carefully during set up
+Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilliant Gifts. Brilliant Gifts, our merch vendor, needs to set up a Preferred Gift campaign on their end, which can take up to a month and requires contacting their support. The current Qualified tech owner will be required to set up the Qualified meeting booking link. Refer to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for the appropriate contacts. The Marketo template has been set up in a way to be easily cloned, so move slowly and carefully during set up
 
 ### Step 1: Create the Marketo program and Salesforce campaign
 
-- Clone the [#TEMPLATE - FY00_Q0_Brilliant Gifts Direct Mail TEMPLATE](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/PG24060A1) into the appropriate folder and rename the program. If the intention is to run in ONE region, clone once. If the intention is to run in multiple regions, clone a "parent" program and enough programs for all regions (e.g. AMER, APJ, EMEA) and place in their own folder. Keep the naming convention similar for the regional/child programs but add a region tag at the end of the program name (e.g. `FY00_Q0_Campaign_AMER`)
+- Clone the [#TEMPLATE - FY00_Q0_Brilliant Gifts Direct Mail TEMPLATE](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/PG24060A1) into the appropriate folder and rename the program. If the intention is to run in ONE region, clone once. If the intention is to run in multiple regions, clone a "parent" program and enough programs for all regions (e.g. AMER, APJ, EMEA) and place in their own folder. Keep the naming convention similar for the regional/child programs but add a region tag at the end of the program name (e.g. `FY00_Q0_Campaign_AMER`). For the parent program, add `_Parent` to the end of the program name to prevent redundant Touchpoints on the SFDC campaign
 - If one program was cloned, sync it to SFDC. If there were multiple programs created, sync them ALL of them to SFDC. 
   - DO NOT anchor the regional SFDC campaigns under the parent campaign. The parent campaign is there to sync with Qualified, but once the campaign is _fully_ completed all members of the parent can be removed from the campaign and parent linked to the child campaigns. The parent cannot contain members while having child campaigns
 
@@ -1145,7 +1145,45 @@ Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilli
 
 - Fill out the required program tokens. A token unique to this program type is the `my.qualifiedlink` token, which appears in the `Sales Nominated Invite` email. The Qualified link will be shared by the Qualified technical owner when it is ready (more on that below)
 - The smart campaigns folder has many flows and which ones used will depend on whether the direct mail campaign is for a single region, whether the program is the "parent" program that communicates with Qualified (which happens within the synced SFDC campaign) or whether the program is a regional "child" program
-- If the campaign is to take place in a single region and your program is the only program, review `01 Processing - Single region campaign` and make sure all fields being updated are up to date with the proper program name
+- If the campaign is to take place in a single region and there is only one program, review `01 Processing - Single region campaign` and make sure all fields being updated are up to date with the proper program name
+- If the campaign is taking place in multiple regions, on the `parent` program active all the regional processing smart campaigns for the involved regions, e.g. `00 Processing - Parent - AMER` and `00 Processing - Parent - EMEA` if there are programs for EMEA and AMER. On each of the regional child programs, activate the `00 Processiong - Child` smart campaign
+  - The parent program processes inputs from Qualified, calls the webhook to Brilliant to send the gift redemption email and it also relays program status updates to the regional child programs
+- Within the processing smart campaigns, be sure to change the program the smart campaign references to the correct regional child program in the first `if` flow step. If the smart campaign is named "AMER", the flow step should call to the `AMER` program. 
+- Note that this template has been set up for use with multiple regions, so if there are extraneous parts of logic it is okay to remove those
+- Activate `03 Change to No Show` on the single or parent program to register `no show` activities * Feature is experimental at the moment 
+
+### Step 3: Target lists and loading nominated leads
+
+The program template contains multiple target list assets, both static and smart lists, for each region. It is recommended to consult with MktgOps for this stage.
+
+- To plan the target lists, use `target list w/leads (global)`. 
+- If there is only one program, proceed with using smart campaign `Load static list and parent program from target list` to load the target list into the static list and the program
+- If there are multiple regional programs, proceed with using smart campaign `Load static lists and child programs from target list` to load the target lists into the appropriate regional static list and the regional child programs
+  - Leads loaded into the program(s) should have `Nominated` status once loaded
+
+### Step 4: Brilliant Set Up
+
+This step will require communication to the Brilliant support team and can take up to over a month to fulfill. Reach out to the Brilliant tech owner, who will email (with the requester CC'd) our Brilliant contact. From there, the Brilliant team will ask a series of questions to the requester regarding the intended campaign and discuss set up. A few items that will be decided upon:
+
+- Do we require a new Preferred Gift campaign? 
+- Is the Brilliant storefront established and adequate for this campaign?
+- What backend assets in Brilliant need to be updated? e.g., branded gift redemption emails
+
+The Brilliant team also needs to verify the Marketo webhook is reaching their backend
+
+Note: MktgOps will need to verify the webhook is working by utilizing `Call to Brilliant TEST` and `Call to Brilliant TEST trigger` found in the program template. There are two smart campaigns because calling a webook needs a trigger campaign
+
+### Step 5: Qualified-powered meeting booking set up
+
+This next step will require the help of the Qualified tech owner. Supply them with the SFDC campaign being used as the single or parent campaign. From there, a Qualified link will be created and shared by the tech owner to the requester. The link will be used during prospect outreach as the method needed for nominated prospects to book a meeting with Sales Dev
+
+- Qualified will change program status to `Meeting Booked` when a prospect books a meeting
+- A reminder email will be sent about the meeting 1 hour before the time
+- Once a meeting has occurred, Qualified will send a confirmation email to Sales Dev to confirm with the meeting happened or was missed 
+
+### Step 6: Campaign completion
+
+At the end of the campaign, request the Qualified logic be taken down. Updates to Brilliant storefronts and preferred campaigns TBD. For multi-region campaigns, leads can be removed from the parent SFDC campaign/Marketo program. As long the leads have been removed from the parent campaign, the regional campaigns can be added as child campaigns to the parent campaign in SFDC 
 
 ## Steps to Setup LinkedIn Lead Gen Form
 
