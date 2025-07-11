@@ -48,7 +48,7 @@ Please note that minimum **turnaround times begin from the date we receive all t
 
 If you have any questions or concerns about your creative request, feel free to reach out to our Senior Creative Operations Manager.
 
-1. Brand Review requests - Minimum of **1 week** for turnaround 
+1. Brand Review requests - Minimum of **1 week** for turnaround
 
     - This includes time for any discussion or feedback to be addressed and reviewed again. Initial review will typically happen within 72 hours.
 
@@ -75,7 +75,7 @@ Please fill out one of these issue templates to request support. Please note, if
 
 Please note that if a request is submitted through Asana, Slack, or other unofficial channels, you will be asked to resubmit your request using the appropriate intake form. This ensures we have all the necessary information to begin work efficiently and keep everything properly tracked in GitLab. 
 
-### **Brand Design & Video Issue Templates**
+### **Brand Design and Video Issue Templates**
 
 #### 1. **Brand Review Requests**
 
@@ -257,7 +257,7 @@ If you have questions, reach out to the Brand Creative and Brand Strategy teams 
 
 ## Canva best practices
 
-Canva enables team members to self-service their design needs and create on-brand assets. Canva is a great tool for items that need a quick-turnaround or that have ever-changing content (like A/B ad testing). Canva supports print and digital designs, as well as video and animation; team members most frequently use it for digital ads and promotional items. For larger projects that require greater detail or concepting, we recommend you submit a design request instead. 
+Canva enables team members to self-service their design needs and create on-brand assets. Canva is a great tool for items that need a quick-turnaround or that have ever-changing content (like A/B ad testing). Canva supports print and digital designs, as well as video and animation; team members most frequently use it for digital ads and promotional items. For larger projects that require greater detail or concepting, we recommend you submit a design request instead.
 
 **To get started in Canva, please complete the checklist below:**
 
