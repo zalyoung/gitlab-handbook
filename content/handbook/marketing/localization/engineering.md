@@ -119,7 +119,7 @@ Localization Engineering helps review MRs that are authored in Decap CMS by the 
 
 ## Localization engineering by partnership with Spartan Software
 
-The Localization team partners with [Spartan Software, Inc.](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/41) to develop and maintain the [localization request management system](https://gitlab.com/groups/gitlab-com/localization/-/epics/35) and a suite of microserices and integrations. Spartan Software engineers and architects provide specialized expertise in language technology platforms and integrations.
+The Localization team partners with [Spartan Software, Inc.](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/41) to develop and maintain the [localization request management system](https://gitlab.com/groups/gitlab-com/localization/-/epics/35) and a suite of microservices and integrations. Spartan Software engineers and architects provide specialized expertise in language technology platforms and integrations.
 
 The suite of various integrations, components and microservcies is referred to by the overarching term of **Argo**. See high level architecture [here](https://gitlab.com/groups/gitlab-com/localization/-/epics/35#note_1963781412), and the GitLab-specific architecture [here](https://gitlab.com/groups/gitlab-com/localization/-/epics/35#note_2526391642).
 
