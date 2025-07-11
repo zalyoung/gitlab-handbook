@@ -55,7 +55,7 @@ In order to share your screen with call participants, you need to grant Zoom the
 
 <div class="w3-panel w3-yellow">
   <h3>Attention!</h3>
-  <p>We recommend to enable this setting ASAP as the EUS team may ask you to share your screen during supprot sessions.</p>
+  <p>We recommend to enable this setting ASAP as enabling this setting will require restarting the Zoom app and the EUS team may ask you to share your screen during support sessions.</p>
 </div> 
 
 1. Open Zoom and start a meeting using **New meeting**
