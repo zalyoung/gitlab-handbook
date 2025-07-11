@@ -435,7 +435,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Itemized Receipt required.
 - If an itemized bill is not available, costs will only be reimbursed for the element relating to Internet Access, i.e. if you pay for tv, internet and phone, the invoice should be divided by 3/# of services and we will pay this value only.
 - No hardware costs for internet service is reclaimable. This includes routers, extenders/boosters, etc.
-  - Exceptions include a potencially nessesary third party router or access point to comply with [Security at GitLab](https://handbook.gitlab.com/handbook/security/) recomendation like [Isolating your work notebook from other devices in your home network](https://handbook.gitlab.com/handbook/security/network-isolation/#advanced-isolation-with-ddwrt).
+  - Exceptions include a potencially nessesary third party router or access point to comply with [Security at GitLab](/handbook/security/) recomendation like [Isolating your work notebook from other devices in your home network](/handbook/security/network-isolation/#advanced-isolation-with-ddwrt).
 - If co-working space is used together with a combination of working from home, we will allow the reimbursement of the internet cost for where you spend most of your time. i.e. if you expense a co-working space for a full month then internet for home cannot be expensed. If you expense co-work for a few days in a month then home internet can be expensed in full.
 - Team members for GitLab GmbH (Germany) should refer to this [page](https://internal.gitlab.com/handbook/finance/payroll/#non-us) for their country's specific guidelines of this expense.
 
