@@ -54,6 +54,7 @@ flowchart TD
     J --> |Medium Risk| K[Security review request created in ProdSec Ingestion Queue]
     J --> |Low Risk| L[Self Service]
     F --> |No triggers| L
+    L --> M[Issue created with self service guidelines]
 ```
 
 ### Framework purpose
