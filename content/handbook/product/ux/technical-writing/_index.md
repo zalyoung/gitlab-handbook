@@ -404,20 +404,17 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
-- November, 2025: {{< member-by-name "Zach Painter" >}}
-- October, 2025: {{< member-by-name "Lysanne Pinto" >}}
-- September, 2025: {{< member-by-name "Isaac Durham" >}}
-- August, 2025: {{< member-by-name "Lorena Ciutacu" >}}
-- July, 2025: {{< member-by-name "Phillip Wells" >}}
-- June, 2025: {{< member-by-name "Achilleas Pipinellis" >}}
-- May, 2025: {{< member-by-name "Marcel Amirault" >}}
-- March, 2025: {{< member-by-name "Brendan Lynch" >}}
-- February, 2025: {{< member-by-name "Emily Sahlani" >}}
-- January, 2025: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
-- December, 2024: {{< member-by-name "Roshni Sarangadharan" >}}
-- November, 2024: {{< member-by-name "Ryan Lehmann" >}}
-- October, 2024: {{< member-by-name "Russell Dickenson" >}}
-- September, 2024: {{< member-by-name "Marcel Amirault" >}}
+- January 2026: {{< member-by-name "Amy Qualls" >}}
+- December 2025: {{< member-by-name "Ashraf Khamis" >}}
+- November 2025: {{< member-by-name "Zach Painter" >}}
+- October 2025: {{< member-by-name "Lysanne Pinto" >}}
+- September 2025: {{< member-by-name "Isaac Durham" >}}
+- August 2025: {{< member-by-name "Lorena Ciutacu" >}}
+- July 2025: {{< member-by-name "Phillip Wells" >}}
+- June 2025: {{< member-by-name "Achilleas Pipinellis" >}}
+- May 2025: {{< member-by-name "Marcel Amirault" >}}
+- March 2025: {{< member-by-name "Brendan Lynch" >}}
+- February 2025: {{< member-by-name "Emily Sahlani" >}}
 
 <!-- vale handbook.Spelling = YES -->
 
