@@ -87,14 +87,14 @@ Please note that if a request is submitted through Asana, Slack, or other unoffi
 #### 1. **Brand Review Requests**
 
 - [**Brand Review Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request) - For brand review only - do NOT use this template for requesting new assets or designs.
-  
-- [**Brand Review Request of Localized Assets** ](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request-localized-asset)- For brand review of localized assets only, do NOT use this template for requesting net new assets or designs.
+
+- [**Brand Review Request of Localized Assets**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request-localized-asset)- For brand review of localized assets only, do NOT use this template for requesting net new assets or designs.
 
   - For non-English design or video assets only.
 
 #### 2. **Design Requests**
 
-**_Do NOT use any of the below issues for brand review_**
+**Do NOT use any of the below issues for brand review**
 
 - [**Blog Image Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request)
 
@@ -119,7 +119,7 @@ Please note that if a request is submitted through Asana, Slack, or other unoffi
 
 - [**Event Asset Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) - Please use this issue template when requesting net new or refreshing any of the following event-related assets:
   
-  - **_Please note: DO NOT use this event request template for_** _Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template._
+  - **Please note: DO NOT use this event request template for** Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template.
 
     - Event Booth
     - Event Signage
