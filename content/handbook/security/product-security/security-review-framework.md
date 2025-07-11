@@ -180,12 +180,6 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 with the feature launch. Definitions can be found in 
 [this Google Sheet](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20)(Internal).
 
-##### Past Security Issues (0-5) (To be filled by AppSec. Product team won’t be asked to fill this)
-
-* 5: The change is related to a feature that had S1 incidents in the past
-* 4: The change is related to a feature that had \>1 S2
-* 3: The change is related to a feature that had 1 S2
-* 0: No S1/S2 history
 
 **Note:** A combination of `~"group::[group-name]"`, `~"severity::1/2/3"` and `~"bug::vulnerability"` labels can be used to search in 
 project's issue tracker to identify this.
@@ -237,7 +231,7 @@ accompanied with the feature launch. Definitions can be found in
 Each engaged team calculates their risk score using their domain-specific dimensions:
 
 ```text
-Secure Design and Development Risk Score = Data Processing Impact + Feature Exposure + Architecture Impact + Implementation Complexity + Past Security Issues + Launch Tier Impact
+Secure Design and Development Risk Score = Data Processing Impact + Feature Exposure + Architecture Impact + Implementation Complexity + Launch Tier Impact
 Infrastructure Security Risk Score = Infrastructure Scope + Environment Criticality + Configuration Complexity + Automation Level + Launch Tier Impact
 ```
 
