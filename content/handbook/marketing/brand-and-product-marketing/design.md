@@ -68,7 +68,7 @@ If you have any questions or concerns about your creative request, feel free to 
 
 - Minimum of **four weeks** for turnaround
 - A Tanuki Tab should be created first using the "Tanuki Tab for Team Expressions" issue template linked in the below section before swag or additional asset requests are addressed. If swag or additional assets are needed, please open a separate request.
-- Please review the GitLab Team Expressions Style Guide that we will be utilizing for your Tanuki Tab request.
+- Please review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/brand-overview/brand-applications/#team-expressions) that we will be utilizing for your Tanuki Tab request.
 
 #### 5. Video Requests
 
@@ -265,7 +265,7 @@ If you have questions, reach out to the Brand Creative and Brand Strategy teams 
 
 ## Canva best practices
 
-Canva enables team members to self-service their design needs and create on-brand assets. Canva is a great tool for items that need a quick-turnaround or that have ever-changing content (like A/B ad testing). Canva supports print and digital designs, as well as video and animation; team members most frequently use it for digital ads and promotional items. For larger projects that require greater detail or concepting, we recommend you [submit a design request](/handbook/marketing/brand-and-product-marketing/design/#requesting-support) to the Brand Design team instead.
+Canva enables team members to self-service their design needs and create on-brand assets. Canva is a great tool for items that need a quick-turnaround or that have ever-changing content (like A/B ad testing). Canva supports print and digital designs, as well as video and animation; team members most frequently use it for digital ads and promotional items. For larger projects that require greater detail or concepting, we recommend you submit a design request instead. 
 
 **To get started in Canva, please complete the checklist below:**
 
@@ -363,7 +363,7 @@ Depending on your Canva permissions, you may be able to share the file as a temp
 
 ### Requesting design approval
 
-Always share your work for review. If you are working from an existing Canva template, you will see the option to request [design approval](https://www.canva.com/help/get-approval/) in the top right of the file. If you are creating your own design, you can open a [brand review issue](/handbook/marketing/brand-and-product-marketing/design/#requesting-support) and link your file. For expedited requests, please reach out in the `#marketing-design` channel on Slack with a link to the issue or file.
+Always share your work for review. If you are working from an existing Canva template, you will see the option to request [design approval](https://www.canva.com/help/get-approval/) in the top right of the file. If you are creating your own design, you can open a Brand Review issue and link your file. For expedited requests, please reach out in the `#marketing-design` channel on Slack with a link to the issue or file.
 
 ## How we work
 
