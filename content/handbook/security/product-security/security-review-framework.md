@@ -6,23 +6,31 @@ security review along with the type of review that needs to be conducted."
 
 ## Security Review Framework
 
-This security review framework for Product teams at GitLab aims to establish a systematic approach to evaluating and reviewing features based on 
-appropriate security team engagement, risk assessment and [Go-to-market tier](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process#labels-guide). 
-The framework aims to balance security requirements with development velocity by directing 
-security resources where they can have the most impact. The process begins with team routing to identify whether Secure Design and Development and/or 
-Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teams engaged when required. 
-for High or Critical risk scores.
+This security review framework empowers GitLab Product teams with a streamlined approach to security evaluations, making it easier to engage with 
+the right security partners based on your feature's needs, risk profile, and 
+[Go-to-market tier](https://gitlab.com/groups/gitlab-org/gitlab-rd-planning/-/wikis/R&D-Interlock-Process#labels-guide). 
+Designed to maintain your development velocity while ensuring appropriate security coverage, the framework begins with a simple 
+team routing process that connects you directly with the most relevant security experts—whether that's Secure Design and Development or 
+Infrastructure Security—with additional specialized support from Security Platforms and Architecture (SPA) and Data Security teams for features 
+with High or Critical risk scores. This focused approach ensures you receive timely, targeted security guidance without unnecessary process overhead.
 
 The security review framework is designed to work in tandem with the [Product Development Flow](../../product-development/how-we-work/product-development-flow). 
-The ideal trigger point for security review of a feature is during the Design phase ([Validation phase 3: Design](../../product-development/how-we-work/product-development-flow/#validation-phase-3-design) indicated in issue by `workflow::design` label). 
-The [key-participants](../../product-development/how-we-work/product-development-flow/#key-participants) involved in Design phase are encouraged to engage with the security review framework to determine whether the feature requires a security review. 
+The ideal trigger point for a security review of a feature is during the Design phase 
+([Validation phase 3: Design](../../product-development/how-we-work/product-development-flow/#validation-phase-3-design) indicated in 
+issue by `workflow::design` label). 
+The [key-participants](../../product-development/how-we-work/product-development-flow/#key-participants) involved in Design phase are encouraged 
+to engage with the security review framework to determine whether the feature requires a security review. 
 
 ### Example use-cases
 
 1. As a Product Designer, you want to make sure the design of the new feature has taken into consideration all the security best practices.
-2. As a Developer creating a potential design for implementing the new feature, you like to confirm whether it will lead to loss of confidentiality and integrity of the customer data or have a negative impact on the availability of GitLab instance.
-3. As an Engineering manager reviewing the new design of a feature, you suspect a design choice might result in a security issue and would like to verify it with the security team.
-4. As an Product Manager, working on the a [GTM Tier-0](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20) feature, you want to make sure the feature does not introduce any security risks to customers.   
+2. As a Developer creating a potential design for implementing the new feature, you like to confirm whether it will lead to loss of 
+confidentiality and integrity of the customer data or have a negative impact on the availability of GitLab instance.
+3. As an Engineering manager reviewing the new design of a feature, you suspect a design choice might result in a security issue and would like to 
+verify it with the security team.
+4. As an Product Manager, working on the a 
+[GTM Tier-0](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20) feature, 
+you want to make sure the feature does not introduce any security risks to customers.   
 
 How the security review framework fits into a product teams' workflows is visualized in the following 
 section.
@@ -293,14 +301,14 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 
 ### Secure Design and Development Review Process
 
-* SDX Reviews DRI: SD&D Team
-* Data Security Review DRI: Data Security team. _This review is will be conducted on a best effort basis since the team has resource constraints._
-* SPA Security Review DRI: SPA team. _This review is will be conducted on a best effort basis since the team has resource constraints._
+* **SDX Reviews DRI:** SD&D Team
+* **Data Security Review DRI:** Data Security team. _This review is will be conducted on a best effort basis since the team has resource constraints._
+* **SPA Security Review DRI:****** SPA team. _This review is will be conducted on a best effort basis since the team has resource constraints._
 
 #### Critical Risk Review
 
-* SDX Design review
-  * Threat modelling
+##### SDX Design review
+  * Threat modeling
     * DRI: [SD&D](/handbook/security/product-security/application-security/appsec-operations/sdd-services/)
     * Deliverable: Threat model with design level security assessment and identified threats.
   * Feature Design Review
@@ -312,7 +320,8 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * Data Security review (IF [`Data Processing Impact`](#data-processing-impact-1-4) >= 4)
     * DRI: [Data Security](/handbook/security/product-security/data-security/)
     * Deliverable: Data access controls, data infrastructure, data lifecycle, cryptography, key management, third-party services will be verified aganist best practices and recommendations will be provided.
-* SDX Code review
+
+##### SDX Code review
   * Merge request review
     * DRI:  SD&D
     * Deliverable: MR will be reviewed for implementation level security issue.
@@ -322,7 +331,8 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * Static analysis
     * DRI:  SD&D
     * Deliverable:  SD&D will run Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools and [SAST tools](https://docs.gitlab.com/user/application_security/sast/).
-* SDX Verify review  
+
+##### SDX Verify review  
   * Dynamic Analysis
     * DRI: SD&D
     * Deliverable: SD&D will run Dynamic Analysis using [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
@@ -335,7 +345,7 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 
 #### High Risk Review
 
-* SDX Design review
+##### SDX Design review
   * Change focused Threat modelling
     * DRI: SD&D
     * Deliverable: Threat model with design level security assessment and identified threats.
@@ -348,7 +358,8 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * Data Security review (IF [`Data Processing Impact`](#data-processing-impact-1-4) >= 4)
     * DRI: Data Security
     * Deliverable: Data access controls, data infrastructure, data life cycle, cryptography, key management, third-party services will be verified aganist best practices and recommendations will be provided.
-* SDX Code review
+
+##### SDX Code review
   * Merge request review
     * DRI:  SD&D
     * Deliverable: MR will be reviewed for implementation level security issue.
@@ -361,7 +372,7 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 
 #### Medium Risk Review
 
-* Security checklist completion 
+##### Security checklist completion 
   * DRI: SD&D
   * Deliverable: 
     * Check whether [Security Standards](/handbook/security/standards/) are met.
@@ -369,12 +380,13 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 
 #### Low Risk Review
 
-* Self-assessment against security guidelines
+##### Self-assessment against security guidelines
   * DRI: Product Team
   * Deliverable:
     * Check whether [Security Standards](/handbook/security/standards/) are met.
     * Check if [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) is followed.
-* Automated security scanning
+
+##### Automated security scanning
   * DRI: Product Team
   * Deliverable:
     * Remediate issues identified in Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/)
