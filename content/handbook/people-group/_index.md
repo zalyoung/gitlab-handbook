@@ -1,4 +1,5 @@
 ---
+date: 2025-07-09
 title: People Group
 description: "The People Group at GitLab supports all GitLab team members through the complete team member lifecycle."
 ---
