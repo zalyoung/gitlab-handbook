@@ -189,26 +189,27 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 #### 4.A. Legal Review: 3 to 21 days
 
-**Note:** The amount of time for review, and to reach execution, is based on the details below. Use these SLA's as guidelines, noting that each contract review process is unique and if additional terms, requirements, and/or risks are identified the timeline for completion may be extended. The ability for GitLab to process and work efficiently through an agreement negotiation relies on the vendor, and vendor counsel, to respond promptly to GitLab red-lines and comments.
+The amount of time for review and reaching execution is based on the details below. Use these SLAs as guidelines, noting that each contract review is unique. If additional terms, requirements, and/or risks are identified, the timeline may be extended. The ability for GitLab to work efficiently through an agreement negotiation relies on the vendor and their counsel responding promptly to GitLab redlines and comments. Delays from the supplier will delay approval.
 
 **Types of Vendors and Review Times**
 
-- **Existing Vendors for renewals or upsells: 3-5 Days**
-  - These generally require much less time as existing terms are in place which will underline the products and/or services being offered.
-  - That being said, in the event GitLab is adding a new product and/or service (from an existing Vendor) additional cycles may be required in order to create amendment(s) to the existing agreement.
-  - Any delays from the supplier, will delay final approvals.
-- **New Vendors: 1-3+ weeks**
-  - These require the most amount of time as GitLab will be establishing (for the first time) terms and conditions which will govern the use of the products and/or services being procured.
+- **Existing vendors for renewals or upsells: 3-5 days**
+  - Existing vendors generally require much less time as existing terms are in place which will underline the products and/or services being offered. That said, in the event GitLab is adding a new product and/or service, additional cycles may be required in order to amend the existing agreement.
+  - :warning: You must either upload all complete contract terms (including attachments and amendments) or provide a direct link to an existing agreement. Indicate which sections cover your current request. For example, "See existing Master Service Agreement with Vendor XYZ (Zip req #67890), Amendment #3 covers the new software modules we're requesting". Do **not** provide general references like "covered under existing agreement with vendor" or assume legal can locate terms without guidance.
+
+- **New vendors: 1-3+ weeks**
+  - New vendors require the most amount of time as GitLab will be establishing terms and conditions for the first time, which will govern the use of the products and/or services being procured.
+  - **All contract documents must be provided in Word (.docx) format.** PDF versions are not acceptable for legal review as they cannot be efficiently redlined. Contact the vendor to request the Word version before submitting your request.
   - Negotiations can vary from 1 week to multiple months based on the level of detail and modifications required to reach executable terms.
-  - If vendor doesn't readily accept the GitLab standard terms, additional rounds of red-lines and negotiations may be required, extending this SLA.
-  - Whenever possible, the legal team hopes to achieve red-lines--to be provided back to the vendor no later than five (5) business days after being assigned.
+  - If vendor doesn't readily accept the [GitLab standard terms](/handbook/finance/procurement/vendor-guidelines/vendor-agreement/), additional rounds of redlines and negotiations may be required, extending this SLA.
+  - Whenever possible, the legal team hopes to achieve redlines provided back to the vendor no less than five (5) business days after being assigned.
 
 **Types of Agreements**
 
-- **Software (SaaS & On-Prem):** Requires the most rigorous review to ensure the rights and obligations placed upon GitLab are, (i) reasonable given the Software being provided, and (ii) align with GitLab contracting and industry standards.
-- **Professional Services / Training:** Requires detailed review to ensure intellectual property ownership aligns with our intentions, as well as, reasonable obligations being placed upon GitLab.
-- **Marketing / Events:** Generally, requires the least amount of time to review as the obligations are standardized given the event in question and program provided. Details regarding events may include negotiations with regards to Force Majeure, cancellation (including penalty), and ensuring the terms of the Agreement align with those of the requesting GitLab Team Members.
-- **Data Processing Agreement (DPA)/Standard Contractual Clauses (SCCs):** Required when personal data is shared with, accesssed, or collectd by the supplier on behalf of GitLab. DPA/SCCs are generally affixed to an agreement but may be required as a separate agreement upon the determination of Privacy.
+- **Software (SaaS & On-Prem):** Requires the most rigorous review to ensure the rights and obligations placed upon GitLab are, (i) reasonable given the software being provided, and (ii) align with GitLab contracting and industry standards.
+- **Professional Services / Training:** Requires detailed review to ensure intellectual property ownership aligns with our intentions, and reasonable obligations being placed upon GitLab.
+- **Marketing / Events:** Generally, requires the least amount of time to review as the obligations are standardized given the event in question and program provided. Details regarding events may include negotiations with regards to Force Majeure, cancellation (including penalty), and ensuring the terms align with those of the requesting GitLab team members.
+- **Data Processing Agreement (DPA)/Standard Contractual Clauses (SCCs):** Required when personal data is shared with, accesssed, or collectd by the supplier on behalf of GitLab. DPA/SCCs are generally affixed to an agreement but may be required as a separate agreement upon the determination of Privacy (see the Privacy review process below).
 
 *Negotiation, Security, Privacy, and PeopleOps reviews are only required if the purchase request meets certain criteria, as described below. In the event two or more of these activities are required, they will happen in parallel to one another and Legal's review.*
 
