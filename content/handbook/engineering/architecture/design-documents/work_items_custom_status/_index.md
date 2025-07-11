@@ -373,6 +373,8 @@ We'll add concrete queries once the widget API is finalized.
 
 ##### Permissions
 
+###### Work item status
+
 We've decided not to introduce new permissions for work item statuses. Instead, authorization is handled
 by existing work item permissions like `read_work_item` or `update_work_item`.
 
@@ -381,6 +383,13 @@ for authorization, improving query performance by reducing the number of Permiss
 
 Additionally, work item status-specific resolvers like `StatusesResolver` and `AllowedStatusesResolver`
 ensure that the licensed feature is available and the feature flag is enabled before proceeding.
+
+###### Custom lifecycle and status
+
+The `admin_work_item_lifecycle` permission allows only maintainers to update custom lifecycles and their associated statuses.
+
+The `read_work_item_lifecycle` and `read_work_item_status` permissions allow access to details about custom lifecycles and custom
+statuses that belong to a given namespace.
 
 #### Status widget
 
