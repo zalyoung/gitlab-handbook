@@ -225,14 +225,23 @@ To get the attention of a specific Security Department please tag your message w
 - **@security-prodsec**: Contains all members for the Product Security department.
 - **@security-operations**: Contains all members of the Security Operations department. If you need to open a security incident, please use the Slack slash command `/security` instead of a tag.
 
-**Sub-departments and specific teams**:
+**Leadership and program support**:
 
-- **@security-leadership**: To reach all Security people-managers.
-- **@fedramp-compliance**: Contains all SecAssurance members that support FedRAMP.
-- **@security-governance**: Contains all members of Security Governance team.
-- **@security-program-mgmt**: For all your security program management needs.
-- **@red-team**: GitLab's Red Team
-- **@threat-intelligence**: GitLab's Threat Intelligence team.
+- **@security-leadership**: All Security people-managers
+- **@security-program-mgmt**: All security program management team members
+
+**Specific teams adn specialties**:
+
+- **@fedramp-compliance**: All SecAssurance members that support FedRAMP
+- **@security-governance**: All members of the Security Governance team
+- **@sirt-members**: All members of the Security Incident Response Team (SIRT)
+- **@sec-assurance-team**: All members of the Security Compliance, Risk, and Governance & Field Security teams
+- **@field-security**: All members of the Field Security team
+- **@appsec-team**: All members of the Application Security team
+- **@trust-and-safety**: All members of the Trust & Safety team
+- **@security-identity**: All members of the Identity team (mention in any Slack channel or `#security-identity-ops`)
+- **@red-team**: All members of GitLab's Red Team
+- **@threat-intelligence**: All members of GitLab's Threat Intelligence team
 
 #### Division, Department, and Team updates
 
