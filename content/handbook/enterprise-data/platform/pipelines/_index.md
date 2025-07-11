@@ -3,9 +3,6 @@ title: "Data Pipelines"
 description: "This page describes the ways we extract this data via data pipelines."
 ---
 
-Data Pipelines
-==============
-
 The Data Warehouse contains data from a wide variety of sources. In order to support such dynamic and vast integrations we employ a data extraction strategy with advanced tooling and best-in-class data engineering standards.
 Detailed information about specific **Data Pipelines** is available on our [Internal GitLab Handbook Pipelines page](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines).
 
@@ -49,14 +46,6 @@ These solutions have varying strengths and weaknesses and there is no solution t
 | Data validation | ❌              | ❔         | ✅     |        
 
 Given than the main downside to Custom Pipelines is their slower time to implementation, any gains on developer efficiency and code maintainability here come with signigicant advantages. Even still, in many cases new pipelines are implemented without clarity on criticality. Enterprise applications are often changed and replaced and so even if we were able to implement the best possible custom pipeline framework, it would still make sense for us to use vendors. That is, in many cases, writing a custom pipeline just isn't worth the time or effort. 
-
-#### Democratization 
-
-We want our business partners to contribute to existing pipelines when data scope changes, as we don't want the Data Platform Team to become a bottleneck for relatively easy, short but business-impactful tasks like adding a new field.
-
-- **Snowflake share**: This may not apply, and if it does, it would need to be arranged with the upstream vendor to change their Snowflake share.
-- **ETL Vendor**: Makes it easy to add new fields, but it is questionable whether we would want to give (all) business partners access to the solution since it is not version controlled.
-- **Custom development**: We want to make it so everyone can contribute. Developed pipelines require a configuration file that lists which tables/columns/endpoints need to be extracted to the Data Platform. We would encourage our business partners to make changes to these configuration files to modify the data scope (adding new tables) via a merge request and test them via a CI pipeline before submitting them for review by the respective code owners.
 
 ### Criteria for Snowflake Share
 
