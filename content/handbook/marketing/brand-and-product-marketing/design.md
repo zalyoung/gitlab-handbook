@@ -30,7 +30,7 @@ The GitLab Brand Design and Video teams will elevate the brand beyond the logo a
 
 Create simple, effective, and intentional brand experiences by solving complex problems; defining the what, why, and how, resulting in a message that's easy to understand.
 
-## Requesting Brand & Creative Support
+## Requesting Brand and Creative Support
 
 To help streamline our creative intake process and enable our team to work more efficiently, we've updated how design and video requests are submitted.
 
