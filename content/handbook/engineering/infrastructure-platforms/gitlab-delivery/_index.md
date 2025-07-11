@@ -42,7 +42,7 @@ TBD
 
 ## On-call duties
 
-- Release Manager ownership
+- Release Manager ownership (Release and Deploy)
 - Build and Deploy Pipeline DRI
 
 ## Project Management
@@ -68,6 +68,10 @@ Each working epic should be accompanied by an issue board. Issue boards should b
 ## GitLab Delivery AMA and Demo
 
 Needs to be scheduled, starting in January 2026
+
+## Team Management Tracker
+
+We have a [team mamangement tracker](https://gitlab.com/gitlab-com/gl-infra/software-delivery/team-management/-/issues). The tracker is used to create PTO Coverage issues and other activities.
 
 ## History
 
