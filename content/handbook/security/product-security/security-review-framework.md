@@ -357,6 +357,18 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * **DRI:** Data Security
   * **Deliverable:** Data access controls, data infrastructure, data life cycle, cryptography, key management, third-party services will be verified aganist best practices and recommendations will be provided.
 
+##### SDX Verify review  
+
+* **Dynamic Analysis**
+  * **DRI:** SD&D
+  * **Deliverable:** SD&D will run Dynamic Analysis using [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
+* **Penetration Testing**
+  * **DRI:** SD&D
+  * **Deliverable:** SD&D will run a pen-testing and share identified issues. 
+* **Final Security Review**
+  * **DRI:** SD&D
+  * **Deliverable:** Check whether critical vulnerabilities identified in other reviews are remediated.
+
 ##### SDX Code review
 
 * **Merge request review**
