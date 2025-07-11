@@ -524,12 +524,12 @@ service ClaimService {
 }
 ```
 
-The purpose of this service is to provide a way to ensure a route is never
-ambiguous that it'll only be routed to a specific cell in a specific time
-(resources claimed that route can be migrated to another cell later) to
-present the resource claiming the route.
+The purpose of this service is to provide a way to ensure an identity is never
+ambiguous and only belonging to a specific resource in a specific cell in a
+specific time (resources can be migrated to another cell later).
 
-By this definition, a claim also means a route in an abstract way.
+By this definition, a claim also means a route in an abstract way, because
+we will be able to classify which cell it belongs to.
 
 Take users as an example. A user here is a resource that it should claim:
 
@@ -554,9 +554,9 @@ In effects, the claims must be unique within the cluster, therefore unambiguous.
 To make claims, a cell can send a `CreateClaimRequest`, which contains a
 `ClaimRequest` consisting of 2 components:
 
-1. **OwnerRecord**: Represents the database record that owns the claims
-   on the cell. For example, for the group `gitlab-org`, the bucket would be
-   `GROUP` and the `id` would be the group id.
+1. **OwnerRecord**: Represents the resource that owns the claims on the cell.
+   For example, for the group `gitlab-org`, the bucket would be `GROUP` and
+   the `id` would be the group id.
 1. **repeated ClaimRecord**: Consists of bucket and value, where each value
    can only be claimed once per bucket. A bucket represents a unique scope for
    the claim. For example, for the group `gitlab-org` it should claim
