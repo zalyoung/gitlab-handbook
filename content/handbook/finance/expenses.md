@@ -418,12 +418,12 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Member Significant Life Events and Team Member Gifts
 
 - Cash or cash equivalents, such as gift cards, are not allowed; Qualified gifts are capped at $125 per transaction.
-- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a [gift](/handbook/people-group/celebrations/#new-parent-swag).
+- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one.
+- Baby gifts are not reimbursable as GitLab already sends them a [gift](/handbook/people-group/celebrations/#new-parent-swag).
 - Any People Manager can send a gift or flowers to any Team Member at GitLab to let them know they are thinking about them. Examples include:
   - A new Team Member recently purchased a new home and shared their news with others. A People Manager sends a "Home Sweet Home" doormat as a congratulatory gift.
   - While working a People Manager noticed a Team Member's children in the background of a Zoom call and surprised the kids with a new game.
   - A Team Member wasn't feeling well, which was noticed by a People Manager who sent a care package of food as a 'get well soon' gesture.
-- Baby gifts are not reimbursable, as the GitLab People team already sends team members a congratulatory gift.
 - The cost of the gifts and flowers provided to GitLab Team Members will be allocated to the senders departmental budget. The allowable cost for gifts is up to $125 USD (including shipping) per gift.
 - If you would like to buy holiday gifts for your team, these need to be done personally and should not be expensed.
 - People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team `EmployeeGiftsFlowers` and the account 6028 in Navan Expense for the expense.
