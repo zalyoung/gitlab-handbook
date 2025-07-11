@@ -212,8 +212,8 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 
 - [#security_help](https://gitlab.enterprise.slack.com/archives/C094L6F5D2A): The catch-all channel for security questions that are not direct support requests. If you're not sure where to go, start here.
 - [#it_help](https://gitlab.enterprise.slack.com/archives/CK4EQH50E): For all your internal end user support needs and CorpSec support needs. All support related questions and requests should be directed here.
-- [#security_discuss](https://gitlab.enterprise.slack.com/archives/C248YCNCW); Security discussions, announcements, and regular updates from the security teams. This is a good channel for cross-function collaboration with internal transparency.
-- [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
+- [#security_discuss](https://gitlab.enterprise.slack.com/archives/C248YCNCW): Security discussions, announcements, and regular updates from the security teams. This is a good channel for cross-function collaboration with internal transparency.
+- [#abuse](https://gitlab.slack.com/archives/abuse): Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
 - [#ciso](https://gitlab.enterprise.slack.com/archives/C05C6Q0TLTV): For general communication from our CISO and CISO Directs. Team and division updates and other topics.
 
 The following group tags can you you get the attention of a specific department, team, or specialty:
@@ -230,7 +230,7 @@ The following group tags can you you get the attention of a specific department,
 - **@security-leadership**: All Security people-managers
 - **@security-program-mgmt**: All security program management team members
 
-**Specific teams adn specialties**:
+**Specific teams and specialties**:
 
 - **@fedramp-compliance**: All SecAssurance members that support FedRAMP
 - **@security-governance**: All members of the Security Governance team
