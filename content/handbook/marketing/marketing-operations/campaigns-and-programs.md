@@ -59,23 +59,20 @@ White Paper or other content offer that is hosted by a third party.
 
 #### Direct Mail
 
-This is when a package or piece of mail is sent out.
+This is when a package or piece of mail is sent out. Current procedure requires use of Brilliant Gifts and Qualified
 
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
-| Member Status | Definition | Success | E-gift Card or Physical Gift |
+| Member Status | Definition | Success | Triggers gift webhook?|
 | ------------- | ---------- | ------- | ------------ |
-| No Action | Default starting position for all records |  | Not applicable |
-| Sales Nominated | Sales indicated record to receive triggered event email sent by Marketing |  | Not applicable |
-| Processed | Physical gift shipping request is being processed  |  | Physical |
-| Sent | Email with e-gift card has been sent to recipient |  | E-gift card |
-| Opened | The prospect has opened the Reachdesk offer emailed to them |  | E-gift card |
-| Claimed | The recipient has claimed the Reachdesk gift | Yes | E-gift card |
-| Clicked | The prospect has clicked the link in the offer emailed to them |  | E-gift card |
-| Shipped | The recipient's gift has been shipped |  | Physical |
-| Delivered | The selected gift has been successfully delivered to the recipient | Yes | Physical |
-| Cancelled | The recipient has requested their gift be cancelled |  | Physical |
-| Returned | The recipient has returned their gift |  | Returned |
+| No Action | Default starting position for all records |  |  |
+| Nominated | Leads are added to the program with this status indicating they will receive a meeting invite |  |  |
+| Invite Sent | Indicating an email invite for a meeting has been sent |  |  |
+| Email Opened | Not currently utilized within the program type | | |
+| Meeting Booked | Recipient of meeting invite has scheduled a meeting via Qualified | Yes | |
+| Meeting Attended | Recipient was not labeled as a No Show to the scheduled meeting | Yes | Yes |
+|Cancelled | Person has cancelled prior to the scheduled meeting  | | |
+| No Show | Sales Dev has indicated via Qualified automated email the meeting did not occur  | | |
 
 #### Email Send
 
@@ -552,8 +549,7 @@ usive ownership. These contacts enter our standard nurturing process, accumulati
 - Conference - Meetings (FM led) `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conference-meetings)
 - Content Syndicaton: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc)
   - Note, if you are managing a hyperscaler campaign, update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
-- Direct Mail: [YYYYMMDD_DirectMail_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5392A1)
-  - Direct Mail not needing a Marketo Program: [skip to specific setup detais here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-direct-mail-campaigns)
+- Direct Mail: [FY00_Q0_Brilliant Gifts Direct Mail TEMPLATE](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/PG24060A1)
 - Gated Content: [YYYY_Type_Content_Template](https://app-ab13.marketo.com/#PG5111A1)
 - Integrated Campaign: [FY20IntegratedCampaign_Template](https://app-ab13.marketo.com/#PG4924A1)
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
@@ -1137,17 +1133,62 @@ If utilizing Allocadia, please refer to the instructions [above](/handbook/marke
 
 ## Steps to Setup Direct Mail Campaigns
 
-### Step 1: Create the Salesforce campaign
+Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilliant Gifts. Brilliant Gifts, our merch vendor, needs to set up a Preferred Gift campaign on their end, which can take up to a month and requires contacting their support. The current Qualified tech owner will be required to set up the Qualified meeting booking link. Refer to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for the appropriate contacts. The Marketo template has been set up in a way to be easily cloned, so move slowly and carefully during set up
 
-- Clone the [#TEMPLATE - Direct Mail](https://gitlab.my.salesforce.com/7014M000001dlh9)
-- Update Campaign name to `whatever your campaign tag is`
-- NOTE: You do NOT need a corresponding Marketo campaign. All information and tracking is done via this campaign.
+### Step 1: Create the Marketo program and Salesforce campaign
 
-### Step 2: Update the Salesforce campaign
+- Clone the [#TEMPLATE - FY00_Q0_Brilliant Gifts Direct Mail TEMPLATE](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/PG24060A1) into the appropriate folder and rename the program. If the intention is to run in ONE region, clone once. If the intention is to run in multiple regions, clone a "parent" program and enough programs for all regions (e.g. AMER, APJ, EMEA) and place in their own folder. Keep the naming convention similar for the regional/child programs but add a region tag at the end of the program name (e.g. `FY00_Q0_Campaign_AMER`). For the parent program, add `_Parent` to the end of the program name to prevent redundant Touchpoints on the SFDC campaign
+- If one program was cloned, sync it to SFDC. If there were multiple programs created, sync them ALL of them to SFDC. 
+  - DO NOT anchor the regional SFDC campaigns under the parent campaign. The parent campaign is there to sync with Qualified, but once the campaign is _fully_ completed all members of the parent can be removed from the campaign and parent linked to the child campaigns. The parent cannot contain members while having child campaigns
 
-- Click on `Advanced Setup` to make sure statuses correspond to those listed in the [Direct Mail progression statuses](/handbook/marketing/marketing-operations/campaigns-and-programs/#direct-mail). Do not edit these, if you need them updated, please reach out to MktgOps.
-- Confirm the `type` is `Direct Mail`
-- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
+### Step 2: Set up the Marketo programs
+
+- Fill out the required program tokens. A token unique to this program type is the `my.qualifiedlink` token, which appears in the `Sales Nominated Invite` email. The Qualified link will be shared by the Qualified technical owner when it is ready (more on that below)
+- The smart campaigns folder has many flows and which ones used will depend on whether the direct mail campaign is for a single region, whether the program is the "parent" program that communicates with Qualified (Qualified syncs with the SFDC campaign) or whether the program is a regional "child" program
+- If the campaign is to take place in a single region and there is only one program, review `01 Processing - Single region campaign` and make sure all fields being updated in the flow steps are up to date with the proper program name
+- If the campaign is taking place in multiple regions, on the `parent` program activate all the regional processing smart campaigns for the involved regions, e.g. `00 Processing - Parent - AMER` and `00 Processing - Parent - EMEA` if there are programs for EMEA and AMER. On each of the regional child programs, activate the `00 Processiong - Child` smart campaign
+  - The parent program processes inputs from Qualified, calls the webhook to Brilliant to send the gift redemption email (only if the program status is `Meeting Attended`) and it also relays program status updates to the regional child programs
+- Within the processing smart campaigns, be sure to change the program the smart campaign references to the correct regional child program in the first `if` flow step. If the smart campaign is named `AMER`, the flow step should call to the `AMER` program. 
+- Note that this template has been set up for use with multiple regions, so if there are extraneous parts of logic it is okay to remove those pieces to avoid logic errors
+- Activate `03 Change to No Show` on the single or parent program to register `no show` activities * Feature is experimental at the moment 
+
+### Step 3: Target lists and loading nominated leads
+
+The program template contains multiple target list assets, both static and smart lists, for each region. It is recommended to consult with MktgOps for this stage.
+
+- To plan the target list(s), use `target list w/leads (global)`. For multi-region campaigns, either recreate the smart list in the pre-made region smart lists or clone the global and swap assets in the smart campaign
+- If there is only one program, proceed with using smart campaign `Load static list and parent program from target list` to load the target list into the static list and the program
+- If there are multiple regional programs, proceed with using smart campaign `Load static lists and child programs from target list` to load the target lists into the appropriate regional static list and the regional child programs
+  - Leads loaded into the program(s) should have `Nominated` status once loaded
+
+### Step 4: Emailing target list 
+
+While the smart campaign `02 Send Sales Nominated Invite` exists in the template, it's possible other methods of outreach will be used. `02a Sales Nominated Invite Sent` exists as a method of changing the program status on leads already emailed. Plug in the correct email asset that was sent to change the program status using this smart campaign - or request a report and MktgOps will assist with processing the report 
+
+### Step 5: Brilliant Set Up
+
+This step will require communication to the Brilliant support team and can take up to over a month to fulfill. Reach out to the Brilliant tech owner, who will email (with the requester CC'd) our Brilliant contact. From there, the Brilliant team will ask a series of questions to the requester regarding the intended campaign and discuss set up. A few items that will be decided upon:
+
+- Do we require a new Preferred Gift campaign? 
+- Is the Brilliant storefront established and adequate for this campaign's needs?
+- What backend assets in Brilliant need to be updated? e.g., branded gift redemption emails
+
+The Brilliant team also needs to verify the Marketo webhook is reaching their backend
+
+Note: MktgOps will need to verify the webhook is working by utilizing `Call to Brilliant TEST` and `Call to Brilliant TEST trigger` found in the program template. There are two smart campaigns because calling a webook needs a trigger campaign
+
+### Step 6: Qualified-powered meeting booking set up
+
+This next step will require the help of the Qualified tech owner. Supply them with the SFDC campaign being used as the single or parent campaign. From there, a Qualified link will be created and shared by the tech owner to the requester. The link will be used during prospect outreach as the method needed for nominated prospects to book a meeting with Sales Dev
+
+- Qualified will change program status to `Meeting Booked` when a prospect books a meeting
+- A reminder email will be sent about the meeting 1 hour before the time
+- Once a meeting has occurred, Qualified will send a confirmation email to Sales Dev team member to confirm if the meeting happened or was missed
+- An experimental automation is watching for if Qualified updates the meeting acitivty with `not attended` to mark as `no show`
+
+### Step 7: Campaign completion
+
+At the end of the campaign, request the Qualified logic be taken down. Updates to Brilliant storefronts and preferred campaigns TBD. For multi-region campaigns, leads can be removed from the parent SFDC campaign/Marketo program. As long the leads have been removed from the parent campaign, the regional campaigns can be added as child campaigns to the parent campaign in SFDC 
 
 ## Steps to Setup LinkedIn Lead Gen Form
 
