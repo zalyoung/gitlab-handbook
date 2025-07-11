@@ -26,9 +26,9 @@ description: "This page is an overview of the search team alignment and the tale
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
 | Engineering, Customer Support | Sara Currie  | Alice Crosbie |
 | Product Management | Holly Nesselroad | Lerato Thipe |
-| Security | Holly Nesselroad / Joanna Micheniewicz / Michelle A. Kemp | Lerato Thipe / Alice Crosbie / Alice Crosbie |
+| Security | Holly Nesselroad / Michelle A. Kemp | Lerato Thipe / Alice Crosbie / Alice Crosbie |
 | Design/UX  | Riley Smith | Lerato Thipe  |
-| Emerging Talent  | Justin Smith | TBD  |
+| Emerging Talent  | TBD | TBD  |
 
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
 
@@ -38,7 +38,7 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 |--------------------------|-----------------|
 | Talent Acquisition         | Jess Dallmar |
 | Talent Brand | Devin Rogozinski |
-| Talent Acquisition (Emerging Talent)| Justin Smith |
+| Talent Acquisition (Emerging Talent)| TBD |
 | Talent Acquisition (Sales) | Jake Foster|
 | Talent Acquisition (Marketing & G&A) | Steph Sarff + Jake Foster |
 | Talent Acquisition (G&A) | Steph Sarff + Jake Foster |
