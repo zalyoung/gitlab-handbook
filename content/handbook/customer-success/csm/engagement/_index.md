@@ -46,21 +46,18 @@ The "Welcome to GitLab" call will introduce the customer to the Customer Success
 1. When adding a SFDC link to a public issue, remember to [provide feedback](/handbook/product/product-management/#customer-feature-requests) to the product managers using the [feedback template](/handbook/product/product-management/#feedback-template)
 1. In-person meetings are some of the most impactful and productive engagements, but they are also the most expensive in terms of time and money. To make sure both parties get the most out of an in-person meeting have an agenda planned well in advance and send the agenda to all parties attending the meeting. Also, if a GitLab E-group member is attending the meeting, an [Executive Briefing Doc](https://docs.google.com/document/d/1hyA12EN5iEwApAr_g4_-vhUQZohKxm5xkX9xxZ1JNog/edit) (internal link) will also be required (see the next section for more details on engaging with an e-group member).
 
-### E-Group Customer Calls
+### Customer Calls with GitLab Executives
 
-Occasionally, a GitLab e-group member (VP or C-level) will be meeting with a customer, for example, as part of an executive briefing, escalation, etc. Please review the [EBA handbook page](/handbook/eba/) on guidance on how to schedule with the E-Group, specifically the section on [customer, prospect, and partner meetings with an E-Group member](/handbook/eba/#customer-prospect-and-partner-meetings-with-an-e-group-member). There will be a prep call prior to the customer call (typically the day before), and there is an [Executive Briefing Document](https://docs.google.com/document/d/1hyA12EN5iEwApAr_g4_-vhUQZohKxm5xkX9xxZ1JNog/edit) (internal doc link) that must be prepared and shared with the EBA in advance of the prep call, in addition to any materials that will be used during the customer call. Below are some tips to ensure a positive experience:
+Occasionally, a GitLab executive (VP or C-level) will meet with a customer, for example, as part of an executive briefing, escalation, etc. Please review the [EBA handbook page](/handbook/eba/) on guidance on how to schedule with these executive, specifically the section on [customer, prospect, and partner meetings with an E-Group member](/handbook/eba/#customer-prospect-and-partner-meetings-with-an-e-group-member). For each call with an executive, the account team must reach out to the EBA with a completed Executive Briefing Document (linked on the EBA page) at least one week in advance of the customer call, in addition to any materials that will be used or referenced during the call. The account team should also offer to do a prep call with the executive prior to the customer call. Below are some tips on preparation to ensure a positive experience:
 
 1. Work on the prep doc and call resources with your account team.
 1. Be as thorough as possible about your customer's details (e.g. ARR, # of users, tier, renewal date, stages in use)
-1. Ensure you answer the 5 W's (who,what,where,when,why) of the meeting and what should be the outcome of the meeting.
+1. Answer the 5 W's (who, what, where, when, why) of the meeting and what should be the outcome of the meeting.
    - Make sure that we detail both what GitLab wants out of the meeting and what the customer wants out of the meeting. This is a collaborative partnership that benefits both parties.
 1. Be prepared in advance of what you want the E-Group member to do, say, and ask.
-1. Have an agenda for the call and ensure everyone knows what they're supposed to do (who will speak when and about what).
-1. Add any topics you think the customer may bring up (positive or negative) and advice on how to approach it.
-1. Provide links wherever possible (e.g. documentation, feature requests, blockers, etc.).
-1. To add a deep-link to the Gainsight Success Plan, go to the CSM Portfolio dashboard, scroll down to the "Success Plans by Account" widget, expand the report (click the square on the top bar of the report), then click the link under the "Success Plan" (not the link in the account name column to the C360); copy and paste this link to the document. It's typically recommended to use the Gainsight direct login, rather than the Salesforce login, for this purpose.
-
-For an example of a prep doc and additional materials that received positive feedback, please visit this **internal only** [Google doc](https://docs.google.com/document/d/1Ym7DUw4jfol3QHy4TaiDXlB__u5-oev85WiYrs5apGg/edit).
+1. Have an agenda for the customer call and ensure everyone knows what they're supposed to do (who will speak when and about what).
+1. Add any topics to the briefing document you think the customer may bring up (positive or negative) and advice on how to approach it.
+1. Provide links wherever possible in the briefing document (e.g. documentation, feature requests, blockers, etc.).
 
 ### Disengaging with a customer
 
