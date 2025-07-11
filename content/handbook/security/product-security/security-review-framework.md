@@ -51,7 +51,7 @@ flowchart TD
     I --> J{Risk scoring}
     J --> |Critical Risk| K[Security review request created in ProdSec Ingestion Queue]
     J --> |High Risk| K[Security review request created in ProdSec Ingestion Queue]
-    J --> |Medium Risk| K[Security review request created in ProdSec Ingestion Queue]
+    J --> |Medium Risk| L[Self Service]
     J --> |Low Risk| L[Self Service]
     F --> |No triggers| L
     L --> M[Issue created with self service guidelines]
@@ -373,7 +373,7 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 
 ##### Security checklist completion 
 
-* **DRI:** SD&D
+* **DRI:** Product Team
 * **Deliverable:** 
   * Check whether [Security Standards](/handbook/security/standards/) are met.
   * Check if [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) is followed.
