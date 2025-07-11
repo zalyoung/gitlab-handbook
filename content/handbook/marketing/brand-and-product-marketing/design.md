@@ -48,31 +48,24 @@ Please note that minimum **turnaround times begin from the date we receive all t
 
 If you have any questions or concerns about your creative request, feel free to reach out to our Senior Creative Operations Manager.
 
-#### 1. Brand Review requests
+1. Brand Review requests - Minimum of **1 week** for turnaround 
 
-- Minimum of **1 week** for turnaround
-- This includes time for any discussion or feedback to be addressed and reviewed again. Initial review will typically happen within 72 hours.
+    - This includes time for any discussion or feedback to be addressed and reviewed again. Initial review will typically happen within 72 hours.
 
-#### 2. Design Requests
+2. Design Requests - Miinimum of **three weeks** for turnaround
 
-- Minimum of **three weeks** for turnaround
+3. Swag requests - Minimum of **four weeks** for turnaround
 
-#### 3. Swag requests
+    - If you are requesting custom swag for GitLab teams, TMRG groups, or special projects, please note that you'll need to submit a Tanuki Tab for Teams Expressions request **first** by using the design request linked in the section below.
+    - Before submitting a request, please confirm that your team or program has approved budget for this order. If you're unsure, contact your Finance Business Partner. You will need a PO to complete the order. Please review the custom swag creative request process in the handbook.
+    - If you have any questions, comments, or concerns regarding your creative swag request, please reach out in the #[brand](https://gitlab.enterprise.slack.com/archives/C0119M5HUER) Slack channel.
 
-- Minimum of **four weeks** for turnaround
-- If you are requesting custom swag for GitLab teams, TMRG groups, or special projects, please note that you'll need to submit a Tanuki Tab for Teams Expressions request **first** by using the design request linked in the section below.
-- Before submitting a request, please confirm that your team or program has approved budget for this order. If you're unsure, contact your Finance Business Partner. You will need a PO to complete the order. Please review the custom swag creative request process in the handbook.
-- If you have any questions, comments, or concerns regarding your creative swag request, please reach out in the #[brand](https://gitlab.enterprise.slack.com/archives/C0119M5HUER) Slack channel.
+4. Tanuki Tab for Teams Expressions requests - Minimum of **four weeks** for turnaround
 
-#### 4. Tanuki Tab for Teams Expressions requests
+    - A Tanuki Tab should be created first using the "Tanuki Tab for Team Expressions" issue template linked in the below section before swag or additional asset requests are addressed. If swag or additional assets are needed, please open a separate request.
+    - Please review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/brand-overview/brand-applications/#team-expressions) that we will be utilizing for your Tanuki Tab request.
 
-- Minimum of **four weeks** for turnaround
-- A Tanuki Tab should be created first using the "Tanuki Tab for Team Expressions" issue template linked in the below section before swag or additional asset requests are addressed. If swag or additional assets are needed, please open a separate request.
-- Please review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/brand-overview/brand-applications/#team-expressions) that we will be utilizing for your Tanuki Tab request.
-
-#### 5. Video Requests
-
-- Updated SLAs Coming Soon!
+5. Video Requests - Updated SLAs Coming Soon!
 
 **Please note: We understand that project priorities can shift over time. To keep our project board organized and focused on active work, any request with no activity for two months will be closed out. If the project still needs to remain open, feel free to reopen the request and notify our Senior Creative Operations Manager on Slack.**
 
