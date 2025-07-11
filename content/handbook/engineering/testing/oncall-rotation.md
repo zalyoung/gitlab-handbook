@@ -1,7 +1,7 @@
 ---
-title: Developer Experience On-call Rotation
+title: Pipeline DRI On-call Rotation
 description: >-
-  The Developer Experience Sub-Department has two on-call rotations: pipeline triage (SET-led) and incident management (QEM-led).
+  The Developer Experience Sub-Department has two on-call rotations: pipeline triage (SET-led) and incident management (EM-led).
 ---
 
 ## Developer Experience Sub-Department pipeline triage on-call rotation
@@ -45,6 +45,7 @@ Or use `chatops` in Slack with command `/chatops run quality dri schedule`
 
 - The DRI does the [triage](/handbook/engineering/testing/pipeline-triage/). They should solicit help in the `#s_developer_experience` slack channel if they need further assistance.
 - The DRI makes the call whether to fix or quarantine the test.
+- All fixes or quarnatines should be applied to all release branches to avoid release delays. 
 - The DRI reviews any [automated quarantine MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=QA&search=%5BQUARANTINE%5D) and [automated dequarantine MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=QA&search=%5BDEQUARANTINE%5D) and decides whether to merge or close.
 - The fix/quarantine MR should be reviewed by the counterpart SET. If the counterpart SET is not available immediately or if there is no counterpart SET, then any other SET can review the MR. In any case, the counterpart SET is always CC-ed in all communications.
 - The DRI should periodically take a look at [the list of unassigned quarantined issues](https://gitlab.com/gitlab-org/gitlab/issues?state=opened&label_name%5B%5D=QA&label_name[]=type::bug) and work on them.
@@ -61,7 +62,8 @@ To help a new hire prepare for their first on-call rotation, they should spend a
 
 ### Supporting infrastructure and environment upgrades
 
-During planned upgrades to live environments during GitLab's regular business hours, the Developer Experience sub-department may be requested to validate the environment pre/post-upgrade by running our end-to-end test suite. The DRI shall take responsibility for any assistance requested in triggering or reviewing test results.
+During planned upgrades to live environments during GitLab's regular business hours, the Pipeline DRI, or a previously-scheduled engineer may be requested to support the upgrade work. The DRI should identify the correct test suites for the team running the upgrade to trigger to validate the changes. During the update, the DRI shall take responsibility for any assistance requested in triggering or reviewing test results. They should create follow up issues for any problems of improvements identified. 
+
 This should be planned at least 1 week in advance, including the relevant DRIs [QEM](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule-1) and [SET](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) who will be on call on the proposed date.
 NB - For assistance with supporting upgrades outside GitLab's regular business hours, please submit a [RFH (request for help) issue](https://gitlab.com/gitlab-org/quality/test-governance/request-for-help).
 
@@ -86,5 +88,5 @@ In the current iteration, incident management activities happen during each team
 - The Engineering Manager should ensure they have joined the Slack channel `#incidents`.
 - The Engineering Manager should help with monitoring the incident management channel, tracking, directly helping, delegating, and raising awareness of incidents within the Developer Experience Sub-Department as appropriate.
 - The current DRI should be clearly noted on the incident issue.
-- If a corrective action is needed, the EM should create an issue and ensure it is labeled with ~'corrective action'.
+- If a corrective action is needed, the EM should make sure the DRI has create an issue and labeled it with ~'corrective action'.
 - Everyone in the Developer Experience Sub-Department should support the on-call DRI and be available to jump on a Zoom call or offer help if needed.
