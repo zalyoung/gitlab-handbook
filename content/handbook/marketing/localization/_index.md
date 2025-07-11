@@ -40,8 +40,6 @@ The Localization team is managing the rich technology stack consisting of severa
 
 ## Localization Program Management
 
-## Localization Engineering
-
 ### Contact us
 
 The Localization team manages general localization-related, language-specific and partner-spacfic Slack channels:
