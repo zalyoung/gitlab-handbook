@@ -180,7 +180,6 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 with the feature launch. Definitions can be found in 
 [this Google Sheet](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20)(Internal).
 
-
 **Note:** A combination of `~"group::[group-name]"`, `~"severity::1/2/3"` and `~"bug::vulnerability"` labels can be used to search in 
 project's issue tracker to identify this.
 
