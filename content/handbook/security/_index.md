@@ -239,7 +239,7 @@ The following group tags can you you get the attention of a specific department,
 - **@field-security**: All members of the Field Security team
 - **@appsec-team**: All members of the Application Security team
 - **@trust-and-safety**: All members of the Trust & Safety team
-- **@security-identity**: All members of the Identity team (mention in any Slack channel or `#security-identity-ops`)
+- **@security-identity**: All members of the Identity team
 - **@red-team**: All members of GitLab's Red Team
 - **@threat-intelligence**: All members of GitLab's Threat Intelligence team
 
