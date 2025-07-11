@@ -1144,19 +1144,19 @@ Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilli
 ### Step 2: Set up the Marketo programs
 
 - Fill out the required program tokens. A token unique to this program type is the `my.qualifiedlink` token, which appears in the `Sales Nominated Invite` email. The Qualified link will be shared by the Qualified technical owner when it is ready (more on that below)
-- The smart campaigns folder has many flows and which ones used will depend on whether the direct mail campaign is for a single region, whether the program is the "parent" program that communicates with Qualified (which happens within the synced SFDC campaign) or whether the program is a regional "child" program
-- If the campaign is to take place in a single region and there is only one program, review `01 Processing - Single region campaign` and make sure all fields being updated are up to date with the proper program name
-- If the campaign is taking place in multiple regions, on the `parent` program active all the regional processing smart campaigns for the involved regions, e.g. `00 Processing - Parent - AMER` and `00 Processing - Parent - EMEA` if there are programs for EMEA and AMER. On each of the regional child programs, activate the `00 Processiong - Child` smart campaign
-  - The parent program processes inputs from Qualified, calls the webhook to Brilliant to send the gift redemption email and it also relays program status updates to the regional child programs
-- Within the processing smart campaigns, be sure to change the program the smart campaign references to the correct regional child program in the first `if` flow step. If the smart campaign is named "AMER", the flow step should call to the `AMER` program. 
-- Note that this template has been set up for use with multiple regions, so if there are extraneous parts of logic it is okay to remove those
+- The smart campaigns folder has many flows and which ones used will depend on whether the direct mail campaign is for a single region, whether the program is the "parent" program that communicates with Qualified (Qualified syncs with the SFDC campaign) or whether the program is a regional "child" program
+- If the campaign is to take place in a single region and there is only one program, review `01 Processing - Single region campaign` and make sure all fields being updated in the flow steps are up to date with the proper program name
+- If the campaign is taking place in multiple regions, on the `parent` program activate all the regional processing smart campaigns for the involved regions, e.g. `00 Processing - Parent - AMER` and `00 Processing - Parent - EMEA` if there are programs for EMEA and AMER. On each of the regional child programs, activate the `00 Processiong - Child` smart campaign
+  - The parent program processes inputs from Qualified, calls the webhook to Brilliant to send the gift redemption email (only if the program status is `Meeting Attended`) and it also relays program status updates to the regional child programs
+- Within the processing smart campaigns, be sure to change the program the smart campaign references to the correct regional child program in the first `if` flow step. If the smart campaign is named `AMER`, the flow step should call to the `AMER` program. 
+- Note that this template has been set up for use with multiple regions, so if there are extraneous parts of logic it is okay to remove those pieces to avoid logic errors
 - Activate `03 Change to No Show` on the single or parent program to register `no show` activities * Feature is experimental at the moment 
 
 ### Step 3: Target lists and loading nominated leads
 
 The program template contains multiple target list assets, both static and smart lists, for each region. It is recommended to consult with MktgOps for this stage.
 
-- To plan the target lists, use `target list w/leads (global)`. 
+- To plan the target list(s), use `target list w/leads (global)`. For multi-region campaigns, either recreate the smart list in the pre-made region smart lists or clone the global and swap assets in the smart campaign
 - If there is only one program, proceed with using smart campaign `Load static list and parent program from target list` to load the target list into the static list and the program
 - If there are multiple regional programs, proceed with using smart campaign `Load static lists and child programs from target list` to load the target lists into the appropriate regional static list and the regional child programs
   - Leads loaded into the program(s) should have `Nominated` status once loaded
@@ -1166,7 +1166,7 @@ The program template contains multiple target list assets, both static and smart
 This step will require communication to the Brilliant support team and can take up to over a month to fulfill. Reach out to the Brilliant tech owner, who will email (with the requester CC'd) our Brilliant contact. From there, the Brilliant team will ask a series of questions to the requester regarding the intended campaign and discuss set up. A few items that will be decided upon:
 
 - Do we require a new Preferred Gift campaign? 
-- Is the Brilliant storefront established and adequate for this campaign?
+- Is the Brilliant storefront established and adequate for this campaign's needs?
 - What backend assets in Brilliant need to be updated? e.g., branded gift redemption emails
 
 The Brilliant team also needs to verify the Marketo webhook is reaching their backend
@@ -1179,7 +1179,8 @@ This next step will require the help of the Qualified tech owner. Supply them wi
 
 - Qualified will change program status to `Meeting Booked` when a prospect books a meeting
 - A reminder email will be sent about the meeting 1 hour before the time
-- Once a meeting has occurred, Qualified will send a confirmation email to Sales Dev to confirm with the meeting happened or was missed 
+- Once a meeting has occurred, Qualified will send a confirmation email to Sales Dev team member to confirm if the meeting happened or was missed
+- An experimental automation is watching for if Qualified updates the meeting acitivty with `not attended` to mark as `no show`
 
 ### Step 6: Campaign completion
 
