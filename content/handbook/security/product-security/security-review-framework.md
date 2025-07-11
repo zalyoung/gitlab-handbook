@@ -384,6 +384,14 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * Check whether [Security Standards](/handbook/security/standards/) are met.
   * Check if [Secure Coding Guidelines](https://docs.gitlab.com/development/secure_coding_guidelines/) is followed.
 
+##### Automated security scanning
+
+* **DRI:** Product Team
+* **Deliverable:**
+  * Remediate issues identified in Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/)
+  * Remediate issues identified by [SAST tools](https://docs.gitlab.com/user/application_security/sast/) are enabled.
+  * Remediate issues identified in Dynamic Analysis using tools like [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
+
 #### Low Risk Review
 
 ##### Self-assessment against security guidelines
