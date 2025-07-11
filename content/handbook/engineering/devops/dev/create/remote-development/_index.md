@@ -150,6 +150,26 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 - Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 - The issue should have a weight assigned see [Iteration Planning](#4-iteration-planning-meeting).
 
+### 📝 Deadline Guidelines
+
+Project management requires estimating something to figure out how long some piece of work is going to take, so that everybody can plan accordingly.
+More often than not, initial estimates are not accurate due to the nature and complexity of the technical work involved.
+Thus, estimates also indirectly serve another purpose to apply pressure, to force the "but you said it would only take 5 days" kind of conversation,
+which in turn pressures people to work faster or harder or longer so they can avoid those conversations in the future.
+
+We use the following terminologies for deadlines:
+
+- **Hard deadline**: Something seriously bad to the business will happen if the deadline is not met.
+- **Soft deadline**: Somebody will look bad if the deadline is not met.
+- **Internal deadline**: This is a target internal to the team that will not affect anybody outside of the team.
+- **Expected completion date**: This is when the team currently predicts that work will be completed.
+
+Any time you are given a deadline, ask which one of these it is.
+Of course, it is often the case that internal deadlines are required to be "on track" for hard deadlines.
+But what you want to call out is when internal deadlines are presented as hard deadlines for the sake of pressuring people to work longer.
+
+One other trick to keep in mind: it can often happen than an engineer offers an expected completion date but then somebody else casts it into a hard deadline. That's a no-no.
+
 ## 🤖 Planning Process
 
 <span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
