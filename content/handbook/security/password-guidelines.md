@@ -214,7 +214,7 @@ For a more secure approach, use 1Password's CLI utility which can help manage lo
 
 [1Password CLI integration](https://developer.1password.com/docs/cli/) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
-To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli//get-started/).
+To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 in 1Password. Avoid storing secrets in unencrypted files or using them directly
