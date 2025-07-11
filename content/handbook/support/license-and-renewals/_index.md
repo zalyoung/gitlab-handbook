@@ -30,7 +30,6 @@ quickly to meet customer needs.
 
 ### Support Management contacts
 
-- Overall DRI: Shaun McCann
 - Regional DRIs: Mike Dunninger, John Lyttle, Ket Slaats
 - Coordinating Mechanizer maintenance: Ronnie Alfaro
 
