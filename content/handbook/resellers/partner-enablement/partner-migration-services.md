@@ -8,8 +8,8 @@ GitLab encourages our GitLab Partners to engage in and lead technical services s
 
 If you prefer consuming content in an audiovisual format, and you are a GitLab Partner at the same time, you can watch the following videos in what a bunch of GitLab Ecosystem Solutions Architects discuss the content of this Handbook page and **more**: _For the links in this section, login to our [GitLab Partner Portal](https://partners.gitlab.com/) first, then click the links:_
 
-1. [GitLab Partner Migration Services Knowledge Transfer 1/2](https://partners.gitlab.com/prm/English/s/assets?collectionId=49986&id=706296&renderMode=Collection)
-2. [GitLab Partner Migration Services Knowledge Transfer 2/2](https://partners.gitlab.com/prm/English/s/assets?collectionId=49986&id=706300&renderMode=Collection)
+1. [GitLab Partner Migration Services Knowledge Transfer 1/2](https://partners.gitlab.com/prm/api/objects/v1/asset/gqw2lqq1eqtn/_view)
+2. [GitLab Partner Migration Services Knowledge Transfer 2/2](https://partners.gitlab.com/prm/api/objects/v1/asset/xff2aecrqdkx/_view)
 
 ## Common migration steps for GitLab Partners
 
