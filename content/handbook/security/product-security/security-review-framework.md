@@ -328,7 +328,7 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * **DRI:** SD&D
   * **Deliverable:** SD&D will run Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools and [SAST tools](https://docs.gitlab.com/user/application_security/sast/).
 
-##### SDX Verify review  
+##### SDX Verify Final Security review  
 
 * **Dynamic Analysis**
   * **DRI:** SD&D
@@ -336,7 +336,7 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 * **Penetration Testing**
   * **DRI:** SD&D
   * **Deliverable:** SD&D will run a pen-testing and share identified issues. 
-* **Final Security Review**
+* **Check discovered issues**
   * **DRI:** SD&D
   * **Deliverable:** Check whether critical vulnerabilities identified in other reviews are remediated.
 
@@ -357,18 +357,6 @@ When feature are flagged for SPA or Data Security review it will be indicated by
   * **DRI:** Data Security
   * **Deliverable:** Data access controls, data infrastructure, data life cycle, cryptography, key management, third-party services will be verified aganist best practices and recommendations will be provided.
 
-##### SDX Verify review  
-
-* **Dynamic Analysis**
-  * **DRI:** SD&D
-  * **Deliverable:** SD&D will run Dynamic Analysis using [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
-* **Penetration Testing**
-  * **DRI:** SD&D
-  * **Deliverable:** SD&D will run a pen-testing and share identified issues. 
-* **Final Security Review**
-  * **DRI:** SD&D
-  * **Deliverable:** Check whether critical vulnerabilities identified in other reviews are remediated.
-
 ##### SDX Code review
 
 * **Merge request review**
@@ -380,6 +368,18 @@ When feature are flagged for SPA or Data Security review it will be indicated by
 * **Static analysis**
   * **DRI:** SD&D
   * **Deliverable:** SD&D will run Software composition analysis using [Dependency scanning](https://docs.gitlab.com/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/user/application_security/container_scanning/) tools and [SAST](https://docs.gitlab.com/user/application_security/sast/) tools.
+
+##### SDX Verify Final Security review   
+
+* **Dynamic Analysis**
+  * **DRI:** SD&D
+  * **Deliverable:** SD&D will run Dynamic Analysis using [DAST tools](https://docs.gitlab.com/user/application_security/dast/)
+* **Penetration Testing**
+  * **DRI:** SD&D
+  * **Deliverable:** SD&D will run a pen-testing and share identified issues. 
+* **Check discovered issues**
+  * **DRI:** SD&D
+  * **Deliverable:** Check whether critical vulnerabilities identified in other reviews are remediated.
 
 #### Medium Risk Review
 
