@@ -175,6 +175,8 @@ Should the changes made fall outside the default selection of this job, it can b
 - `VARS`: Defaults to `None` but will accept a comma separated list of quoted key value pairs. e.g. `"key1":"value1","key2":"value2"`.
 - `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
+Running this CI job in a merge request pipeline will produce an output report that is added directly to a merge request as a comment from a project bot. This report will summarize the results of the job showing total run time, model counts, what models were executed, and any models that run for more than one hour.  This report can be suppressed by adding the {{< label name="Supress Results Report" >}} label to the merge request. 
+
 <details markdown="1">
 <summary>Cross-Walk</summary>
 
