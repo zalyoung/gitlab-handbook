@@ -109,7 +109,7 @@ We have had issues with Cube supporting more advanced features without using the
 
 #### Optimize
 
-[Optimize uses ClickHouse](../../../development/analytics/monitor/optimize/#ssot-for-data-flows-across-optimize-features) to help keep their aggregated queries for the Contributions, Value Stream, and AI Impact dashboards performant.
+[Optimize uses ClickHouse](../../../data-engineering/analytics/monitor/optimize/#ssot-for-data-flows-across-optimize-features) to help keep their aggregated queries for the Contributions, Value Stream, and AI Impact dashboards performant.
 
 For Contributions, data from Postgres is aggregated and added to ClickHouse every 3 minutes. Upon data retrieval, a combination of ClickHouse data and specific Postgres data is used to populate the Contributions dashboard.
 

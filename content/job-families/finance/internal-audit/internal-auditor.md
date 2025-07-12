@@ -28,15 +28,6 @@ The Internal Auditor is a [grade 6](/handbook/total-rewards/compensation/compens
 - Strong verbal and written communication skills
 - Understanding of the technical aspects of accounting and financial reporting
 
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-
-### Career Ladder
-
-The next step in the Internal Auditor job family is to move to the [Senior Internal Auditor](/job-families/finance/internal-audit/#senior-internal-auditor) job family.
-
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).

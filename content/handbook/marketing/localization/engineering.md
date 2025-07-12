@@ -66,110 +66,83 @@ We maintain two separate environments that contain all projects used to compile 
 
 **Test environment**: [localization/tech-docs-forked-projects/test/](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/)
 
-### Branch structure
-
-#### Overview
-
 Each project within these environments maintains the following branch structure:
 
 1. **main** Used exclusively for pulling upstream changes into our fork. Do not contribute to this branch.
 2. **main-translation** Used for delivering translations from our Translation Management System (TMS). Do not contribute to this branch.
-3. **main-development** This is our development workspace for i18n features.
-4. **live-preview** A stable live preview branch for the internationalized GitLab documentation. [See MR for more details](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17).
 
-#### Branch maintenance
+### Translation Preview 
 
-##### How to Update Localization Forks with Upstream Changes**
+Our [production fork](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs) of the [docs-gitlab-com](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project includes a dedicated branch for internationalization development:
 
-###### Steps
+`main-development` – Our i18n feature development environment that:
 
-1. **Update the fork's main branch**  
-   * Update your fork's default branch (`main` or `master`) to match the production project's default branch
-   * Use the "Update Fork" button in the UI
-2. **Create a merge request (MR)**
-   * Create an MR that merges the default branch to `main-translation`
-   * This MR will contain all documentation changes since the last update
-3. **Review changed files**
-   * **Pipelines**: If pipelines fail, this is typically due to upstream configuration issues
-     * In most cases, you can force the merge and ignore pipeline issues
-     * Attempting to fix these issues often consumes engineering resources unnecessarily
-   * **Merge conflicts**: Review these case by case
-     * May need to be relayed to the localization team
-     * Conflicts occur because of upstream changes
-     * Ignoring conflicts on target files will cause future translations to overwrite upstream changes
-4. **Merge the MR to `main-translation`**
-   * This updates the translation branch with the default branch
-   * Triggers Argo-GitLab integration to check for source language file updates
+* Builds localized documentation routes  
+* Enables review apps using translations from production forks' `main-translation` branches  
+* Allows the team to review translations before upstream deployment
 
-[See example MR](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab/-/merge_requests/11) for updating the `main-translation` branch with content from the Omnibus Production fork.
+The setup is documented in this merge request: [https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs/-/merge_requests/31](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/gitlab-docs/-/merge_requests/31)
 
-### i18n Development Environments
+The review app provides a comprehensive testing environment that:
 
-#### Main Development Branch
+* Consolidates translated content from all five documentation repositories (GitLab, Operator, Omnibus, Runner, Charts)  
+* Maintains production-identical build pipelines  
+* Leverages Hugo's built-in i18n features  
+* Enables pre-production review of internationalized documentation and feature development
 
-The `main-development` branch is our dedicated environment for i18n feature development. It builds localized routes and enables review apps using translations from production forks' `main-translation` branches.
-This [merge request](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27) documents the changes to enable i18n feature development. 
+**Note**: The preview doesn't automatically sync with `main-translation` fork updates. To incorporate the latest translation changes, manually trigger a new pipeline.
 
-##### Working with the i18n environment
+### Enabling i18n in Production
 
-1. Always create feature branches from `main-development`
-2. Target merge requests to `main-development`
-3. Test with translations from all projects' `main-translation` branches
-4. After approval, open a separate MR to contribute upstream
+The i18n features are now deployed to production. To toggle the translated site:
 
-It is helpful to set up a dedicated directory on your machine for this environment, since it also requires external projects from our production fork, specically the  `main-translation` branch. 
+1. Edit `config/_default/hugo.yaml`  
+2. Change the language setting:
 
-```plain
-cd htdocs
-mkdir main-devevelopment
-git clone git@gitlab.com:gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs.git
-cd gitlab-docs
-mise trust
-make setup
-USE_SSH=true make clone-docs-projects
+```yaml
+languages.ja-jp.disabled: false
 ```
 
-Your resulting directory structure should look like this:
+This single configuration change activates/deactivates the entire translated documentation site.
 
-```plain
-main-development
-├── charts-gitlab/ (main-translation)
-├── gitlab/ (main-translation)
-├── gitlab-docs/ (main-development)
-├── gitlab-runner/ (main-translation)
-├── gitlab-operator/ (main-translation)
-└── omnibus-gitlab/ (main-translation)
-```
+## Localization engineering by partnership with Spartan Software
 
-Refer to documentation here for setting up your workstation further: https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main/doc/setup.md?ref_type=heads#set-up-your-workstation 
+The Localization team partners with [Spartan Software, Inc.](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/41) to develop and maintain the [localization request management system](https://gitlab.com/groups/gitlab-com/localization/-/epics/35) and a suite of microserices and integrations. Spartan Software engineers and architects provide specialized expertise in language technology platforms and integrations.
 
-##### Updating `main-development`
+The suite of various integrations, components and microservcies is referred to by the overarching term of **Argo**. See high level architecture [here](https://gitlab.com/groups/gitlab-com/localization/-/epics/35#note_1963781412), and the GitLab-specific architecture [here](https://gitlab.com/groups/gitlab-com/localization/-/epics/35#note_2526391642).
 
-* Use the "Update fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-development)  
-* If conflicts occur, update locally:
+### Engineering labels and workflow related to Argo
 
-```plain
-cd /htdocs/localization/main-development/gitlab-docs ## cd into your gitlab-docs directory using the main-development branch
-git fetch
-git checkout main-development
-git merge origin/main
-git push origin main-development 
-```
+We use the following scoped labels to track Argo engineering work performed by Spartan Software:
 
-#### Review App
+| Label | Purpose | Usage |
+| ------ | ------------ | ------ |
+| `Argo-Engineering` | Core Argo enhancements requiring engineering work from Spartan Software | Applied to all Argo development work |
+| `Argo-Engineering::Complete` | Enhancement completed and deployed to production | Applied when Spartan delivers finished work |
+| `Argo-Engineering::In Progress` | Active development work being performed by Spartan | Applied when development starts on an enhancement |
+| `Argo-Engineering::Ready for Deployment` | Development complete, enhancement ready for review and deployment | Applied when Spartan completes development and testing |
 
-The review app enables our team to review internationalized documentation and features before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and utilizes the i18n features built for Hugo.
+### Argo system components
 
-While the latest `main-development` branch contents are visible, it won't automatically update when there are changes to the `main-translation` forks. Run a new pipeline to pull those in.
+Argo serves as GitLab's centralized localization technology and management infrastructure, encompassing:
 
-First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the server, then visit https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ to see the latest `main-development` branch contents.
+* **Request Management System**: centralized intake and tracking of localization requests across all GitLab content types, both manual or automatic via integrations
+* **Translation Management System integrations**: automated connections between GitLab systems and commercial TMS platforms (Phrase, TranslationOS, Contentful, etc.)
+* **[Argo GitLab Agent](https://gitlab.com/gitlab-com/localization/argo-gitlab-agent)**: a purpose-built microservice / component of the Argo ecosystenm for specialized localization-related tasks, such as translatable file pre- / post-processing, etc.
+* **[Argo-GitLab Integration](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration) aka [GitLab Translation Service](/handbook/engineering/architecture/design-documents/gitlab_translation_service/)**: direct integrations with GitLab projects, merge request workflows, and CI/CD pipelines
 
-| Repository | Live Preview URL |
-| ----- | ----- |
-| GitLab | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/ci/yaml/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/ci/yaml/) |
-| Operator | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/operator/backup\_and\_restore/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/operator/backup_and_restore/) |
-| Omnibus | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/omnibus/build/build\_docker\_image/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/omnibus/build/build_docker_image/) |
-| Runner | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/runner/register/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/runner/register/) |
-| Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/) |
+### Argo engineering board
 
-This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27).
+The [Argo Development board](https://gitlab.com/groups/gitlab-com/localization/-/boards/9354744?label_name[]=Argo-Engineering) board displays all issues with `Argo-Engineering` labels and provides visibility into:
+
+* Current development work in progress by Spartan Software
+* Completed enhancements ready for deployment via relevant [milestones](https://gitlab.com/groups/gitlab-com/localization/-/milestones)
+* Planned Argo system improvements and integrations
+
+### Communication channels
+
+`#spartan-software`: Direct Slack communication channel with Spartan Software engineering team
+
+Technical coordination occurs through GitLab issues tagged with appropriate Argo-Engineering labels
+
+This partnership enables the Localization team to maintain sophisticated translation infrastructure while focusing internal engineering team on core localizability, feature development and enhancements for marketing website, GitLab product documentation, and GitLab product.

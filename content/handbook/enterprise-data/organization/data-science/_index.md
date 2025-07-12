@@ -33,7 +33,7 @@ AMAs:
 - 2021-12-09 AMA [Recording](https://www.youtube.com/watch?v=46NEQDAz18I), [Presentation](https://docs.google.com/presentation/d/1aUIi52AW798KjmvexPIQ1AcXRKLcWlYd6yW-EW6Zqlo/edit#slide=id.g540caf0310_0_0)
 
 {{% alert title="Want to Learn More?" color="success" %}}
-[Visit Slack #bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
+[Visit Slack #data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
 {{% /alert %}}
 
 ### Common Data Science Terms
@@ -43,18 +43,18 @@ AMAs:
 - **Classification** - process of predicting a category for each observation. For example, determining if a picture is of a cat or a dog
 - **Clustering** - process of finding natural groupings of observations in dataset. Often used for segmentation of users or customers
 - **Data Science (DS)** - interdisciplinary field that uses computer science, statistical techniques and domain expertise to extract insights from data
-- **Exploratory Data Analysis (EDA)** - analysis of the data that summarises it's main characteristics (includes statistics and data visualisation)
+- **Exploratory Data Analysis (EDA)** - analysis of data that summarizes its main characteristics (includes statistics and data visualisation)
 - **Feature** - single column in dataset that can be used for analysis, such as country or age. Also referred to as variables or attributes
-- **Feature Engineering** -  process of selecting, combining and transforming data into features that can be used by machine learning algorithms
+- **Feature Engineering** - process of selecting, combining and transforming data into features that can be used by machine learning algorithms
 - **Imputation** - process of replacing missing or incorrect data with statistical "best guesses" of the actual values
-- **Machine Learning (ML)** - use and development of algorithms without being explicitly programmed to determine patterns in data
+- **Machine Learning (ML)** - use and development of algorithms, without being explicitly programmed to determine patterns in data
 - **Model** - a complex set of mathematical formulas that generates predictions
 - **Propensity modeling** - building models to predict specific events by analyzing past behaviors of a target audience.
 - **Regression** - a statistical method for predicting an outcome. For example, predicting a person's income, or how likely a customer is to churn
-- **Scoring** -  process of generating predictions for the new dataset
-- **Training** -  process of applying an algorithm to data to create a model
+- **Scoring** - process of generating predictions for the new dataset
+- **Training** - process of applying an algorithm to data to create a model
 - **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts
-- **Weight** - numerical value assigned to feature that determines it's strength
+- **Weight** - numerical value assigned to feature that determines its strength
 
 ## Data Science Responsibilities
 
@@ -189,6 +189,6 @@ We deploy all of our models using the native GitLab CI/CD capabilities. Please s
 
 ### Data Science Tools at GitLab
 
-- **[Pre-configured JuypterLab Image](https://gitlab.com/gitlab-data/data-science)**: The data science team uses JupyterLab pre-configured with common python modules (pandas, numpy, etc.), native Snowflake connectivity, and git support. Working from a common framework allows us to create models and derive insights faster. This setup is freely available for anyone to use. Check out our [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) for additional information.
-- **[GitLab Data Science Tools for Python](https://gitlab.com/gitlab-data/gitlabds/)**: Functions to help automate common data prep (dummy coding, outlier detection, variable reduction, etc.) and modeling tasks (i.e. evaluating model performance). Install directly via [pypi](https://pypi.org/project/gitlabds/) (`pip install gitlabds`), or use as part of the above JupyterLab image.
-- **[Modeling Templates](https://gitlab.com/gitlab-data/data-science/-/tree/main/templates)**: The data science team has created modeling templates to allow you to easily start building predictive models without writing python code from scratch. To enable these templates, follow the instructions on the [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/#enabling-jupyter-templates).
+- **[Pre-configured Data Science Environment](https://gitlab.com/gitlab-data/data-science)**: The data science team uses JupyterLab pre-configured with common python modules (pandas, numpy, etc.), native Snowflake connectivity, and git support. Working from a common framework allows us to create models and derive insights faster. This setup is freely available for anyone to use. Check out our [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) for additional information.
+- **[GitLab Data Science Tools for Python](https://gitlab.com/gitlab-data/gitlabds/)**: Functions to help automate common data prep (dummy coding, outlier detection, variable reduction, etc.) and modeling tasks (i.e. evaluating model performance). Install directly via [pypi](https://pypi.org/project/gitlabds/) (`pip install gitlabds`), or use as part of the above Data Science Environment.
+- **[Modeling Templates](https://gitlab.com/gitlab-data/data-science/-/tree/main/modeling_templates)**: The data science team has created modeling templates to allow you to easily start building predictive models without writing python code from scratch. To enable these templates, follow the instructions on the [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/#enabling-jupyter-templates).

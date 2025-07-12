@@ -84,7 +84,7 @@ Learn more about organized mentorship programs for team members:
 1. [Company-Wide](company-program)
 1. [Minorities in Tech](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/)
 1. [Women at GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/)
-1. [Aspiring Managers](/handbook/engineering/development/dev/training/ic-to-manager/#aspiring-manager-mentorship-pilot-program)
+1. [Aspiring Managers](/handbook/engineering/training/ic-to-manager/#aspiring-manager-mentorship-pilot-program)
 1. [Finance Team](/handbook/finance/) is running a [mentorship program](/handbook/finance/growth-and-development/mentorship).
 
 ## Resources

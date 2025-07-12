@@ -62,7 +62,6 @@ In addition to the SQS learning objectives, your onboarding is intended to fulfi
 - List the different approaches and activities to achieve a technical win
 - Demonstrate understand of the Value Stream Workshop
 - Deliver a Positioning a Value Stream Workshop
-- Differentiate between the Technical Close Plan and Mutual Customer Success Plan
 - Outline the steps for building a Customer Success Plan
 - Acquire certification in GitLab CI/CD Associate
 
@@ -86,7 +85,6 @@ In addition to the SQS learning objectives, your onboarding is intended to fulfi
   - Proof of Value (POV)
   - Strategic Solution Selling
   - Selling professional services
-  - Technical Close Plan
   - Mutual Customer Success Plan
   - Business Value Consulting
   - Value Stream Discovery

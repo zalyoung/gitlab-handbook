@@ -131,12 +131,12 @@ The [Single Source of Truth](/handbook/company/culture/all-remote/remote-work-gl
 for information about Support Team Members - everything from email address and
 personal interests to product skills and group memberships - is the
 [support-team project](https://gitlab.com/gitlab-support-readiness/support-team).
-The [Support Team Home Page](https://gitlab-support-readiness.gitlab.io/support-team/) is
-built from the information in that file. Many other Support tools and
+The [Support Team Home Page](https://gitlab-com.gitlab.io/support/team-pages/) is
+built from the information in that project. Many other Support tools and
 automations make use of it also. See the
 [Support team entry page](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry)
 of the [Support Team wiki](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/home)
-for details of the structure of the file.
+for details of the structure of an individual Support team member's file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
 
@@ -199,7 +199,7 @@ FY24 was a year of better understanding the needs of our customers. In FY25 we w
 - Improve our understanding of Support Delivery Quality and how we can consistently provide world class service.
 
 ---
-{{% include "includes/we-are-also-product-development.md" %}}
+{{% include "includes/engineering/we-are-also-product-development.md" %}}
 
 ## Dogfooding in Support
 
@@ -355,6 +355,7 @@ The following private channels are permanent fixtures in support. Usage estimate
 | `#spt_hiring-mgmt` | Managers+, Recruiting, Finance | Used for coordinating offers and discussing hiring specifics that can be shared in the public channel | 1-2 threads per week |
 | `#fy23_support_promotions` | Managers+, People Business Partner | Used for coordinating and planning promotions in FY23 | 0 threads per week, mostly informational |
 | `#spt_leadership_internal` | Managers+, Staff+ | Private version of `#support_leadership`, used for sensitive topics where Staff and Managers are the appropriate audience | rarely used |
+| `#spt_staff_internal` | Staff+ | Used for sensitive topics that are applicable to Staff Engineers that aren't appropriate for public channels | rarely used |
 
 Before starting a new private channel, ask yourself *Why **can't** everyone contribute here?* Appropriate answers might be:
 
@@ -441,13 +442,19 @@ Details of these calls are on the [Weekly Support Team Call workflow page](/hand
 
 The Support management team meets regularly. Details of these calls are on the [Support Managers page](/handbook/support/managers)
 
+#### Support Monthly Business Review (MBR)
+
+The leadership team (Staff, Managers, Senior Managers, Directors) meet monthly to align on business objectives and cross-region collaboration. There is SAFE data shared, but a read-out is disseminated for wider team awareness.
+
 #### Support Regional Team Meetings
 
 Some regional Support teams have meetings oriented around company news, Support initiatives, training plans, and connectedness.
 
 | Weekday | Region | Meeting Name | Purpose |
 | :-----: | :----: | :----------: | :-----: |
-| Wednesday | EMEA | Weekly News | For team members reporting to Rebecca S |
+| Tuesday | APAC | Team Meeting | |
+| Tuesday | AMER | Team Meeting | |
+| Thursday | EMEA | Team Meeting |  |
 
 #### Senior Support Engineer Office Hours
 
@@ -659,6 +666,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [License & Renewals](/handbook/support/license-and-renewals/)
 - [Advanced Topics](/handbook/support/advanced-topics/)
 - [Browser extensions](/handbook/support/browser-extensions)
+- [AI and Support Work](/handbook/support/ai)
 
 ### Documentation
 

@@ -21,7 +21,7 @@ the following should be true:
 
 - Something broke and there is no acceptable work around. Examples of this include:
   - A feature broke and is categorized as `~severity::1` or `~severity::2`.
-  [See severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+  [See severity labels](/handbook/product-development/how-we-work/issue-triage/#severity)
   - [Master broken](#broken-master)
   - There are failing migrations
 - There are no dependencies on the change. For example, a database
@@ -427,7 +427,7 @@ Team members use labels to track issues throughout development. This gives visib
 - `workflow::verification`: A developer indicates that all the development work for the issue has been done and is waiting to be deployed, then verified.
 - `workflow::complete`: A developer indicates the issue has been verified and everything is working by adding the `workflow::complete` label and closing the issue.
 
-Workflow labels are described in our [Development Documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#workflow-labels) and [Product Development Flow](/handbook/product-development/product-development-flow/).
+Workflow labels are described in our [Development Documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#workflow-labels) and [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 ## Working in Teams
 
@@ -543,8 +543,6 @@ All other important dates for a milestone are relative to the release date:
 - **Monday, 5 days before the milestone begins**:
   - Release scope is finalized. In-scope issues marked with milestone `%x.y`; label `~deliverable` applied.
   - Kickoff document is updated with relevant items to be included.
-- **Friday before the milestone begins**:
-  - [Group Kickoffs calls](/handbook/product/product-processes/#kickoff-meetings) recorded and uploaded.
 - **Monday immediately after the milestone begins**: ***Kick off!*** 📣
   - [Company Kickoff](#kickoff) call live streamed.
   - Development on milestone begins.
@@ -554,7 +552,7 @@ All other important dates for a milestone are relative to the release date:
   - GitLab Bot opens [Group Retrospective](/handbook/engineering/management/group-retrospectives/) issue for the current milestone.
 - **Friday, the day the milestone ends**:
   - Issues for milestone completed, with docs, and have been merged into master.
-  - Feature flags should be flipped from default off to default on after verification to be in the release. See [feature flags](/handbook/product-development/product-development-flow/feature-flag-lifecycle/#including-a-feature-behind-feature-flag-in-the-final-release).
+  - Feature flags should be flipped from default off to default on after verification to be in the release. See [feature flags](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#including-a-feature-behind-feature-flag-in-the-final-release).
   - Merging by the milestone code cut-off (Friday) **does not guarantee** that the feature will be in the release. See [release timelines](/handbook/engineering/releases/#timelines).
   - Individual [release post entries](/handbook/marketing/blog/release-posts/#contribution-instructions) merged for all relevant issues.
   - By end of the day, milestone `%x.y` is expired.
@@ -618,13 +616,9 @@ These actions will be applied to open issues:
 - Open issues and merge requests will be moved to the next milestone, and
   labeled with `~"missed:x.y"`.
 - `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
-    is presented.
+  is presented.
 
 Milestones are closed when the Delivery team no longer needs to create a backport release for a specific milestone.
-
-## Kickoff Public Stream Instructions
-
-The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/company/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 
@@ -731,7 +725,7 @@ The [Performance Refinement issue board](https://gitlab.com/groups/gitlab-org/-/
 
 1. To participate in the bi-weekly refinement, ask your engineering director to forward the invite of the *Performance Refinement* meeting which is at 15:00 UTC every other Thursday. Here is the [meeting agenda](https://docs.google.com/document/d/1icG6yrW2oebXz8iXvgfM5JjtMqpsDBCn1v3_VO2ghS0/edit#).
 1. To nominate issues to the board:
-   1. Assign [a performance severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) on the issue to help asses the priority assignment for the refinement session.
+   1. Assign [a performance severity](/handbook/product-development/how-we-work/issue-triage/#severity) on the issue to help asses the priority assignment for the refinement session.
    1. Ensure that the issue clearly explains the problem, the (potential) impact on GitLab.com's availability, and ideally, clearly defines a proposed solution to the problem.
    1. Use the label `bug::performance`.
 1. For the issues under the **Open** column:
@@ -754,7 +748,7 @@ The [infradev issue board](https://gitlab.com/groups/gitlab-org/-/boards/1193197
 #### Infrastructure
 
 1. Nominate issues by adding `Infradev` label.
-1. Assess [Severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and `Priority` and apply the corresponding label as appropriate.
+1. Assess [Severity](/handbook/product-development/how-we-work/issue-triage/#severity-slos) and `Priority` and apply the corresponding label as appropriate.
 1. Provide [as much information as possible](#a-guide-to-creating-effective-infradev-issues) to assist development engineering troubleshooting.
 
 #### Development
@@ -778,7 +772,7 @@ The [infradev issue board](https://gitlab.com/groups/gitlab-org/-/boards/1193197
 Issues are nominated to the board through the inclusion of the label `infradev` and will appear on the [infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name[]=infradev).
 
 1. Review issues in the Open column. Look for issues within your Stage/Group/Category, but also for those which lack a clear assignment or where the assignment may need correction.
-1. Review the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) on the issue to validate appropriate prioritization.
+1. Review the [severity](/handbook/product-development/how-we-work/issue-triage/#severity) on the issue to validate appropriate prioritization.
 1. Ensure that the issue clearly explains the problem, the (potential) impact on GitLab.com's availability, and ideally, clearly defines a proposed solution to the problem.
 1. Assign a Development Manager and a Product Manager to any issue where the `Milestone` or the label `workflow::ready for development` is missing.
    1. Development Manager and Product Manager collaborate on the assigned issue(s) for prioritization and planning.
@@ -796,7 +790,7 @@ Infradev issues are also shown in the monthly [Error Budget Report](/handbook/en
 Triage of infradev Issues is desired to occur asynchronously. These points below with endure that your infradev issues gain maximum traction.
 
 1. **Use the [InfraDev issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=InfraDev) to create the issue on the gitlab-org/gitlab issue tracker.**
-1. **Clearly state the scope of the problem, and how it affects GitLab.com**. Examples could include:
+1. **Clearly state the scope of the problem, and how it affects GitLab SaaS Platforms**. Examples could include:
    1. Reliability issues: the problem could cause a widespread outage or degradation on GitLab.com. [example](https://gitlab.com/gitlab-org/gitlab/-/issues/244865)
    1. Saturation issues: the problem could leave to increased saturation, latency issues due to resource over-utilization. [example](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/2458)
    1. Service-level degradation: the problem is causing our service-level monitoring to degrade, impacting the overall SLA of GitLab.com and potentially leaving to SLA violations. [example](https://gitlab.com/gitlab-org/gitlab/-/issues/292732)
@@ -810,7 +804,7 @@ Triage of infradev Issues is desired to occur asynchronously. These points below
    1. **Always include a permalink to the source of the screenshot so that others can investigate further**.
 1. **Provide a clear, unambiguous, self-contained solution to the problem**. Do not add the `infradev` label to architectural problems, vague solutions, or requests to investigate an unknown root-cause.
 1. **Ensure scope is limited**. Each issue should be able to be owned by a single stage group team and should not need to be broken down further. Single task solutions are best.
-1. **Ensure a realistic severity is applied**: review the [availability severity label guidelines](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) and ensure that applied severity matches. Always ensure all issues have a severity, even if you are unsure.
+1. **Ensure a realistic severity is applied**: review the [availability severity label guidelines](/handbook/product-development/how-we-work/issue-triage/#availability) and ensure that applied severity matches. Always ensure all issues have a severity, even if you are unsure.
 1. **If possible, include ownership labels** for more effective triage. The [product categories](/handbook/product/categories/) can help determine the appropriate stage group to assign the issue to.
 1. **Cross-reference links to Production Incidents, PagerDuty Alerts, Slack Alerts and Slack Discussions**. To help ensure that the team performing the triage have all the available data.
    1. By adding "Related" links on the infradev issue, the [Infradev Status Report](https://gitlab.com/gitlab-org/infradev-reports/-/issues) will display a count of the number of production incidents related to each infradev issue, for easier and clearer prioritization.
@@ -820,7 +814,7 @@ Triage of infradev Issues is desired to occur asynchronously. These points below
    1. Sometimes infradev issues will resolve on their own, or are resolved as a side-effect of an unrelated change.
    1. In the infradev issue description, provide a clear way of checking whether the problem still exists.
    1. Having a way of checking validity can save on a great deal of back-and-forth discussion between Infradev Triage participants including Engineering Managers, Directors and Product Managers and make space for other non-resolved issues to get scheduled sooner.
-   1. Ideally, provide a link to a Thanos query or an ELK query and clear instructions on how to interpret the results to determine whether the problem is still occurring. [Check the "Verfication" section in this issue as an example of this](https://gitlab.com/gitlab-org/gitaly/-/issues/3670#verification).
+   1. Ideally, provide a link to a Grafana query or an ELK query and clear instructions on how to interpret the results to determine whether the problem is still occurring. [Check the "Verfication" section in this issue as an example of this](https://gitlab.com/gitlab-org/gitaly/-/issues/3670#verification).
    1. Alternatively, provide clear instructions on how to recreate or validate the problem.
    1. If an issue has been resolved, use the following process:
       1. Reassign the issue back to the author, or an appropriate owner, requesting that they confirm the resolution, and close the issue  if they concur. If not, they should follow up with a note and unassign themselves.

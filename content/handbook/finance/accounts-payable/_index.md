@@ -17,8 +17,7 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
 ## <i id="biz-tech-icons" class="fas fa-bullseye"></i> General Guidelines
 
 - Vendors must be onboarded in Coupa to process invoices.
-- All purchases/services with a total contract value over $5000 are **required** to have a purchase order, unless it falls under the [PO Exception Policy](/handbook/business-technology/enterprise-applications/guides/coupa-guide#how-to-receive-an-order). This also applies to one off purchases over $5,000.00. Repeat purchases from the same vendor should have a PO.
-- Invoice Entity and Invoice Currency should be matched to the PO Entity and PO Currency.
+- All purchases/services with a total contract value over $5000 are **required** to have a purchase order, unless it falls under the [PO Exception Policy](/handbook/finance/procurement/#what-are-the-exceptions-to-the-po-policy). One-time or purchases totaling <$5000 annually may be processed without a PO per the PO Exception Policy
 - Ensure to indicate the PO number in the invoice copy. For Non-PO invoice, provide the related department to be charged.
 - Vendors are highly encouraged to directly upload their invoices and match it to their PO using the Coupa Supplier Portal- in the event the vendor is unable to submit invoices via Coupa then they can email PDF copies to ap@gitlab.com.
 - Payment Runs are completed on Thursdays. Invoices that are selected for payment on Thursday must be fully approved and vendors successfully on-boarded by end of day Tuesday of that week to be included in Thursday's payment run. The payments go out in the following days and may take 1-5 business days to reach the vendor's bank. This depends on the country, currency and the method of payment chosen.
@@ -40,7 +39,7 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
     - External Supplier Forms are to be final approved by AP Team so that the vendor will be activated in Coupa, to provide our final approval, the vendor must comply with these two important documents so we can properly check the supplier form in our queue.
         - W9 for US vendors and W8 for NON US vendors
         - Bank details in a signed bank letterhead
-    - You can learn more about Coupa in this [Coupa Guide Link](/handbook/business-technology/enterprise-applications/guides/coupa-guide/) and if you need further assistance you may also check the [Procurement Handbook Page](/handbook/finance/procurement/#-purchase-request-quick-guide).
+    - You can learn more about Coupa in this [Coupa Guide Link](/handbook/business-technology/enterprise-applications/guides/coupa-guide/) and if you need further assistance you may also check the [Procurement Handbook Page](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-initiate-a-new-request).
 
 1. Payroll Invoices - These are invoices provided by the Payroll Team for processing and will be manually input in Netsuite. Approval signatures are indicated on the invoice.
     - Invoices with amounts greater than or equal to USD $500,000 are required to have 2 signatories from the Payroll Team (Manager and Director).

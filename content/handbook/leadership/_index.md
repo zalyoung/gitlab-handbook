@@ -71,7 +71,7 @@ This is a more [efficient](/handbook/values/#efficiency), [transparent](/handboo
 Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings](/handbook/leadership/1-1/). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
 
 1. Provide [context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
-1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations](/handbook/leadership/crucial-conversations/) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
+1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations](/handbook/leadership/crucial-conversations/) -- we offer [a training course](/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives/#what-to-expect), and the book is part of our [recommended reading for leaders](#books).
 1. Ask yourself, is this:
     - Actionable
     - Specific
@@ -121,7 +121,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
 
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Marketing Team READMEs](/handbook/marketing/readmes/)
-- [Product READMEs](/handbook/product/readme/)
+- [Product READMEs](/handbook/product/)
   - [UX Department READMEs](/handbook/product/ux/#meet-some-of-our-team-members)
 - [Sales Team READMEs](/handbook/sales/readmes/)
 - [People Group READMEs](/handbook/people-group/readmes/)
@@ -204,7 +204,7 @@ Managers have an tremendous responsibility around talent acquisition and [retent
 - We want few candidates to decline an offer, especially when the reason isn't compensation.
 - We need adequate candidate pipeline volume and quality, especially for crucial positions.
 - Candidates that have a proposed offer should meet the bar, especially for more senior positions.
-- Build a *global team*. Unless shown with a business case, "we can't find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab) and the [Location Factor KPI](/handbook/people-group/people-success-performance-indicators/#average-location-factor).
+- Build a *global team*. Unless shown with a business case, "we can't find the talent out of the bay" goes against our [diversity, inclusion and belonging mission](/handbook/company/culture/inclusion/#gitlabs-diversity-inclusion-and-belonging-mission) and the [Location Factor KPI](/handbook/people-group/people-success-performance-indicators/#average-location-factor).
 
 ## High Output Management
 
@@ -318,10 +318,10 @@ When you give leadership training please [screen share the handbook instead of c
 ### Leadership Development Opportunities
 
 1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate-programs/), focused on developing management skills to lead all-remote teams.
-1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
+1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/). More details about a formal GitLab coaching program to come.
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
-1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
+1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives/#what-to-expect)
 1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow), and [Security](/handbook/security/security-shadow/).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
 1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management)

@@ -48,6 +48,7 @@ The suggestions and findings of a retrospective will vary. Common findings inclu
 - check-in with PM in an existing issue or feature proposal
 - new knowledge base article
 - update to processes in handbook
+
 When opening issues or MRs related to a customer emergency retro, apply the `customer-retro` label. 
 
 ### Addressing Findings from Retros
@@ -56,7 +57,7 @@ The findings from retros should be reviewed and addressed. Every suggestion shou
 
 Typically, the Support Engineers who handled the emergency will work to highlight what went well, what needs to be fixed or improved, and what questions need to be answered. The SE should take action directly when appropriate and leave the remaining items for leadership to address.
 
-For accountability purposes, a Support Manager will be the DRI for moving the questions and action items from a retro forward. Support Leaders are encouraged to review the [:rewind: Retros](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/boards/9004657?label_name[]=retro) periodically to ensure retros with findings don't go stale.
+For accountability purposes, a Support Manager will be the DRI for moving the questions and action items from a retro forward. Support Leaders are encouraged to review the [:rewind: Retros](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/boards/9004657?label_name[]=retro) issue board periodically to ensure retros with findings don't go stale.
 
 ## :robot:  Automation
 

@@ -3,7 +3,7 @@ title: GitLab the Product
 description: "About GitLab the product"
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## GitLab the Product
 
@@ -118,7 +118,7 @@ The announcements are grouped by the milestone they will be removed in. The depr
 
 #### Syntax deprecation process
 
-{{% include "includes/syntax-deprection.md" %}}
+{{% include "includes/product/syntax-deprection.md" %}}
 
 ### Naming features
 
@@ -286,7 +286,7 @@ only one part of GitLab it should be a great experience.
 GitLab ships with built-in integrations to many popular applications. We aspire
 to have the world's best integrations for Slack, JIRA, and Jenkins.
 
-Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/user/project/integrations/).
+Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](https://about.gitlab.com/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/user/project/integrations/).
 
 GitLab [welcomes and supports new integrations](https://about.gitlab.com/partners/technology-partners/integrate/) to be created to extend collaborations with other products.
 GitLab plays well with others by providing APIs for nearly anything you can do within GitLab.

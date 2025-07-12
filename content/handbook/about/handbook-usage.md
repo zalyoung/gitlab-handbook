@@ -68,7 +68,7 @@ Please follow these guidelines and remind others of them.
 
 #### Screenshot the handbook instead of creating a presentation
 
-Presentations are great for ephemeral content like [group conversations](/handbook/company/group-conversations/) and board presentations. [Evergreen content](https://web.archive.org/web/20170503174119/https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
+Presentations are great for ephemeral content like board presentations. [Evergreen content](https://web.archive.org/web/20170503174119/https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
 
 In the creation of presentations for evergreen content, please screenshot the handbook and provide links to displayed pages rather than copy and pasting content (or formatting a slide specifically to mirror handbook information). This approach shows a [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication), and rationale for this is below.
 
@@ -271,7 +271,7 @@ Being a maintainer gives you access to much more than just the ability to merge.
 
 ### Granting others maintain access
 
-Do not grant people maintainer access without an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don't do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
+Do not grant people maintainer access without an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don't do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
 
 ### Description Templates for Issues and Merge Requests
 

@@ -187,6 +187,14 @@ Available Case Statuses:
 
 [FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=0#gid=0)
 
+#### GitLab Sales Rep Pre-Engagement Checklist
+
+- [Account Verification](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Additional Large Account Verification](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Account Data Validation](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Account Ownership Considerations](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+- [Request Support](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0)
+
 ### Cross-Team Collaboration
 
 When and how to engage with cross-functional teams:
@@ -625,6 +633,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - [SMB Ops Changelog](https://docs.google.com/document/d/1IzbfmMfdR0Uh8Lyx24sxhp9MJyCvN30kYbknYULL6mM/edit?tab=t.0#heading=h.k7j0xsk0jh3q)
 - [FY26 SMB Dashboards](https://docs.google.com/spreadsheets/d/1WIO84I2842a0MO5R1UuoCfqDhmrHIIfAQI6kzJvfiDU/edit?gid=0#gid=0)
 - [SMB Sales Tech Stack](https://docs.google.com/spreadsheets/d/14YrGHDiMvLpeMAwi6p_G7uC7XpMsCqaJ1KhvUvUumbc/edit?gid=0#gid=0)
+- [GitLab Sales Rep Pre-Engagement Checklist](https://docs.google.com/document/d/1zdxgILnQb7uicxc0AefDUHQ18BRgOTGN7aaigeUw7Jw/edit?tab=t.0#heading=h.4y4hovlwvxea)
 
 ## FAQ
 

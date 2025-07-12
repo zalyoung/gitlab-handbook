@@ -14,7 +14,7 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 | **Delivery Handbook** | [Team training](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/training/) |
 | **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/metrics/) |
 | Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/) |
-| Release Tools Project | [Release tools](/handbook/engineering/infrastructure/release-tools) |
+| Release Tools Project | [Release tools](/handbook/engineering/infrastructure-platforms/release-tools) |
 | Release Manager Runbooks | [release/docs/runbooks](https://gitlab.com/gitlab-org/release/docs/-/blob/master/runbooks/README.md) |
 
 ## Mission
@@ -256,15 +256,15 @@ Each working epic should be accompanied by an issue board. Issue boards should b
 
 ### Labels
 
-The canonical issue tracker for the Delivery group is at [gl-infra/delivery](https://gitlab.com/gitlab-com/gl-infra/delivery). Issues are automatically labeled if no labels are applied using the [triage ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops) project.
+The canonical issue tracker for the Deployment-Release group is at [gl-infra/delivery](https://gitlab.com/gitlab-com/gl-infra/delivery). Issues are automatically labeled if no labels are applied using the [triage ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops) project.
 The default labels defined in the [labeling library](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/lib/delivery/default_labeling.rb).
 
 By default, an issue needs to have a:
 
 1. Workflow Label - Default: `workflow-infra::Triage`
 1. Priority Label - Default: `Delivery::P4`
-1. Group Label - `group::delivery`
-1. Team Label - `team::Delivery-Deployments` or `team::Delivery-Releases`
+1. Team Label - `team::release-and-deploy`
+1. Group Label - `group::delivery-deploy` or `group::delivery-release`
 1. Other Label - project or team management related label.
 
 #### Workflow
@@ -313,7 +313,7 @@ The Delivery group uses priority labels to indicate order under which work is ne
 | Delivery::P3 | Issue should be completed once other urgent work is done. |
 | Delivery::P4 | **Default priority**. A nice-to-have improvement, non-blocking technical debt, or a discussion issue. Issue might be completed in future or work completely abandoned. |
 
-The group uses priority labels differently to the [general issue triage priority definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) in order to avoid ambiguity that comes with difference in timelines between Stage teams and Infrastructure teams. We have different timelines (release brings different expectations for Delivery), different DRI's (no PM for Delivery), and different importance (Blocked release means that no one can ship anything).
+The group uses priority labels differently to the [general issue triage priority definition](/handbook/product-development/how-we-work/issue-triage/#priority) in order to avoid ambiguity that comes with difference in timelines between Stage teams and Infrastructure teams. We have different timelines (release brings different expectations for Delivery), different DRI's (no PM for Delivery), and different importance (Blocked release means that no one can ship anything).
 
 #### Other Labels
 

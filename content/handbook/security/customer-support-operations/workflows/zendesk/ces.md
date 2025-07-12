@@ -38,6 +38,6 @@ Please see our [Zendesk ticket fields workflow](./ticket-fields)
 
 Please see our [Zendesk triggers workflow](./triggers)
 
-## Zapier changes
+## Workato changes
 
-Please see our [Zapier workflow](../zapier)
+Please see our [Workato workflow](../workato)

@@ -77,7 +77,7 @@ Like all functions at GitLab, transparency is a core focus. Every year GitLab pu
 * [FY23 ESG Report](/handbook/legal/esg/fy23-esg-report/)
 * [FY24 ESG Report](/handbook/company/esg/)
 
-GitLab is subject to new ESG regulation in 2026, which will require public disclosure of a wide range of ESG topics, such as greenhouse gas emissions, climate risk, diversity, business ethics, and more. The Sustainability team is working cross-functionally to prepare GitLab for upcoming compliance with these regulations.
+The Sustainability team works cross-functionally to prepare GitLab for compliance with ESG regulations.
 
 The Sustainability team also supports internal teams with customer ESG questionnaires and RFPs. Customers and prospective customers are increasingly asking about GitLab's Sustainability programs, including questions related to GitLab's climate commitments and greenhouse gas emissions. Many of our customers are also subject to ESG regulation and we expect customer ESG questions to continue to increase as they look to better align to new regulations.
 
@@ -97,22 +97,22 @@ GitLab's Climate Action Program consists of four pillars:
 
 1. **Measure & Report:** Every year GitLab conducts an annual greenhouse gas (GHG) inventory in alignment with the GHG Protocol, the global best practice carbon accounting standard. We publish the results of the inventory in our annual ESG report and have the data assured by a third-party. In 2026, GitLab is subject to new regulations in the US and the EU that will make these disclosures mandatory.
 
-2. **Act:** As a fully remote software company, the vast majority of our emissions come from our suppliers. Please see the [Sustainable Procurement Program](#sustainable-procurement-program) for more information. The Sustainability team continues to explore other ways to reduce emissions and is doing further analysis on additional reduction pathways.
+2. **Act:** GitLab is taking action to reduce our carbon emissions. As a fully remote software company, the majority of our emissions come from our suppliers. Engaging our suppliers to measure their carbon emissions and set their own reduction targets is a critical component of our reduction pathway, which is why we have set an aspirational supplier engagement target. Please see the [Sustainable Procurement Program](#sustainable-procurement-program) for more information. The Sustainability team continues to explore other ways to reduce emissions and is doing further analysis on additional reduction pathways.
 
-3. **Engage:** This includes engaging GitLab team members in climate education and action. In 2024, we launched the [GitLab Team Member Sustainability Guide](/handbook/legal/esg/team-member-sustainability-guide/), providing actionable steps team members can take at home to minimize their environmental impact. More to come on this!
+3. **Engage:** This includes engaging GitLab team members in climate education and action. In 2024, we launched the [GitLab Team Member Sustainability Guide](/handbook/legal/esg/team-member-sustainability-guide/), providing actionable steps team members can take at home to minimize their environmental impact. In FY26, we launched our partnership with [Mammoth Climate](https://www.mammothclimate.io/en), a climate literacy and challenges platform, to further engage team members with educational materials, activities, and rewards
 
-4. **Accelerate:** While GitLab works to reduce our emissions, we are also committed to accelerating climate solutions by purchasing high quality carbon credits to cover a portion of our carbon footprint. We are proud to partner with [Rubicon Carbon](https://rubiconcarbon.com/) to purchase a diversified portfolio of high quality carbon credits, financing carbon removal projects that meet Rubicon's high standards of quality. For more information on Rubicon's Carbon Integrity Framework, check out [this webinar](https://www.youtube.com/watch?v=fuwTxwZLAyc&t=1s).
+4. **Accelerate:** While GitLab works to reduce our emissions, we are also committed to accelerating climate solutions by purchasing high quality carbon credits to cover a portion of our carbon footprint. We are proud to partner with [Rubicon Carbon](https://rubiconcarbon.com/) to purchase a diversified portfolio of high quality carbon credits, financing carbon removal projects that meet Rubicon's [high standards of quality](https://drive.google.com/file/d/1nZgd4nRqNQibnYaJI_MVAfkv0giGvlqj/view).
 
 #### Sustainable Procurement Program
 
-GitLab tracks supplier emissions as part of our annual GHG inventory. We also track our suppliers’ year over year progress made to reduce emissions.
+In FY25, GitLab set an aspirational science-aligned supplier engagement target to reduce our Scope 3 emissions: 70% of our suppliers (by emissions) will have science-aligned climate targets by FY29.
 
 Our sustainable procurement program includes the following initiatives:
 
 * Annual emissions survey to request data from suppliers in an effort to improve the accuracy of our footprint
 * Use strategic business reviews to understand key barriers suppliers face when measuring and reporting their emissions
 * Provide resources and training to suppliers on how to measure and reduce their greenhouse gas emissions
-* Provide resources and training to team members responsible for supplier selection on our new expectations of suppliers
+* Provide resources and training to team members responsible for supplier selection on our new expectations of suppliers, aligned with applicable laws.
 
 We look forward to sharing updates on this new initiative.
 

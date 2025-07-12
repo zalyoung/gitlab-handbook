@@ -28,7 +28,14 @@ For example, if the Family & Friends day on 2025-12-26 is a public holiday in yo
 
 - In Israel, Family & Friends days will be adjusted to 2025-12-28, 2025-12-29, 2025-12-30, and 2025-12-31.
 
-As with years past, team members in roles that require them to work on a date designated as a Family & Friends day can work with their manager to find an alternative day. Once you have identified which alternative day you’d like to have off, please [submit a request in HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=4d78f24d47c4069067429ee0026d43b2), including the approval from your manager. The alternative date should be within 30 days (before or after) of the scheduled Family & Friends day.
+As with years past, team members in roles that require them to work on a date designated as a Family & Friends day can work with their manager to find an alternative day. Team members in roles that require them to work on a date designated as a Family & Friends day will be able to request the alternative(s) day in Workday (or via the Workday link in Slack).
+
+- Choose a day that works best for your manager and your team. Please note: The alternative date should be within 30 days (before or after) of the scheduled Family & Friends day.
+- Log into Workday and request time off using the category "Time Off in Lieu", reason “Family and Friends Day”.
+- In the comments section, please note: "In lieu of Family and Friends Day on XXX".
+- This will route to your manager for approval.
+
+Contact the Absence Management team via HelpLab (People > Absence menu) if you need further assistance or have questions. 
 
 ## FY'25 Family and Friends Days
 

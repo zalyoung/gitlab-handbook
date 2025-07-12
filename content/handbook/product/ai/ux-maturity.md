@@ -7,7 +7,7 @@ description: "How to mature an AI-assisted feature from a UX perspective."
 
 The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects](https://docs.gitlab.com/policy/development_stages_support/), like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
 
-To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow](/handbook/product-development/product-development-flow/):
+To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/):
 
 1. **Validation: Problem validation**: How well do we understand the problem?
 1. **Validation: Solution validation**: How well does the solution address the problem?
@@ -58,7 +58,7 @@ Risk is a measure of how much potential harm can a feature cause to a user, an o
 We have a variety of tools and processes to help you navigate various states of confidence and risk they include:
 
 * [UX Bash](../product/ux/ux-research/ux-bash/)
-* [Central Evaluation Framework](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_testing_and_evaluation/#test-2-centralized-evaluation-framework) which is supported by the [Model Validation](../../engineering/development/data-science/ai-powered/model-validation/_index.md) team
+* [AI Evaluation Guidelines](https://docs.gitlab.com/development/ai_features/ai_evaluation_guidelines/)
 * [Intro to Prompt Engineering](https://www.promptingguide.ai/introduction)
 
 Note: For Duo Enterprise, the [Definition of Done](https://gitlab.com/gitlab-org/gitlab/-/issues/444274#ga-scope--definition-of-done (internal link)) is the SSOT.

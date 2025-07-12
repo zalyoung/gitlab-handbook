@@ -77,7 +77,7 @@ Milestones for functional work from the [Cross-Functional LA Requirements epic](
 
 The GitLab Dedicated Initiative Working Group follows the [status update process](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) from Dedicated Engineering team page. The status updates that Functional DRIs make in their respective Functional Epics will incorporated in the [status update cadence](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) and used to update the status of the [Cross-Functional epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) and the [Top-Level Initiative Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479).
 
-In addition to the [status process from Dedicated team page](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates), the Dedicated initiative has additional status update requirements as a [Top Cross-Functional initiative](/top-cross-functional-initiatives/) that the Initiative DRI is responsible for:
+In addition to the [status process from Dedicated team page](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates), the Dedicated initiative has additional status update requirements as a Top Cross-Functional initiative that the Initiative DRI is responsible for:
 
 - Key Reviews
 - Top Initiative Quarterly Meeting

@@ -240,6 +240,7 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 |------------------|---------------------|---------------------|---------------------|
 | Tenant Scale: Organizations | 99.80% | To allow the group to focus on long-term scalability work (Cells) as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2025-10-31 (or if total traffic share exceeds 5%) |
 | Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/10170). | 2025-08-29 |
+| Plan:Project Management | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/10170). | 2025-08-29 |
 
 **Exceptions**
 
@@ -326,7 +327,7 @@ The changes below aim to increase the maturity of the Error Budgets.
 
 Product Development teams are encouraged to:
 
-- Continue working on [Rapid Action](/handbook/engineering/development/#rapid-action), [Infradev](/handbook/engineering/workflow/#availability-and-performance-refinement), [Corrective Actions](/handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership), [Security](/handbook/security/product-security/vulnerability-management/#vulnerability-management-overview), and [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) issues per our [Prioritization guidelines](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
+- Continue working on [Rapid Action](/handbook/engineering/development/#rapid-action), [Infradev](/handbook/engineering/workflow/#availability-and-performance-refinement), [Corrective Actions](/handbook/engineering/infrastructure-platforms/incident-review/), [Security](/handbook/security/product-security/vulnerability-management/#vulnerability-management-overview), and [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) issues per our [Prioritization guidelines](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
 - Propose SLOs for their endpoints
 - [Opt-in to using the new apdex calculation methods that use the custom target durations](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1451)
 - Provide further feedback for future improvements to Error Budgets

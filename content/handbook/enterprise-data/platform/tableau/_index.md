@@ -218,65 +218,20 @@ Pursuant to GitLab's Transparency value, all GitLab team members will have acces
 
 User Groups are the only prescribed method we use for setting permissions across the Tableau site. A User Group is a collection of users that can be based on a topic, project, or organization structure, that will need to have the same set of access and permissions for content. All users will be a member of the General Access user group and can be added to more User Groups as required.
 
-#### Limited Access User Groups
-
-Limited access user groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the `Standard Data Team Issue` template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/new#) section of the Tableau project.
+User groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the `Standard Data Team Issue` template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/new#) section of the Tableau project.
 
 #### List of User Groups
 
-Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
+Each section below corresponds to a limited access user group and the designated owner. Access to limited user groups can be done vie the Lumos app using the `Tableau SAFE Access` or `Tableau Special Permissions` applets. Please note: To gain access to an user group, the designated owner will need to give approval. The desingated owner can be seen in Lumos when requeseting access.
 
 - \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders) list to be added to this group.
 - To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
-- **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
+- **Ecosystem Sales and Operations**
 
-- **ASM EMEA Commercial Restricted Access:** This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
+- **Internal Audit Restricted Access**
 
-- **ASM Restricted Access:** Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
-
-- **Customer Success Access:** Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
-
-- **Ecosystem Sales and Operations:** Please work with the Ecosystem Sales and Operations team and/or Niles Jamshaid @Niles
-
-- **Internal Audit Restricted Access:** Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
-
-- **People Restricted Access:** Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
-
-- \***Sales Development SAFE Access:** Please work with Keith Gliksman @keith.gliksman for access approval.
-
-- \***Self-Service SAFE Access:** - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
-
-*Note: Groups with asterisk are where team members must be on the Designated Insiders list to be added to this group.
-
-<details markdown=1>
-
-<summary><b>Example User Group</b></summary>
-
-```yml
-
-groups:
-  - group_name: group 1
-  - group_name: group 2
-  - group_name: group 3
-
-users:
-  - user_name: team_memebr@gitlab.com
-    site_role: Site Administrator Creator
-    auth_setting: SAML
-    groups:
-      - group 1
-      - group 2
-
-  - user_name: other_team_member@gitlab.com
-    site_role: Viewer
-    auth_setting: SAML
-    groups:
-      - group 1
-
-```
-
-</details>
+- **People Restricted Access**
 
 #### Project Permission Structure
 
@@ -421,7 +376,7 @@ Our automated Lumos system monitors login activity and manages licenses based on
 
 If deprovisioned due to inactivity:
 
-1. Access Lumos portal through Octa
+1. Access Lumos portal through Okta
 2. Submit Tableau access request for `Tableau Access`
 3. Upon approval, access will be restored
 
@@ -469,12 +424,12 @@ Tableau access is structured in a tiered approach that separates data based on s
 
 - General Content: All users receive access to general content by default upon approval
 - Restricted SAFE Content: Requires additional approval and justification
-- Other [special permission](/handbook/enterprise-data/platform/tableau/#limited-access-user-groups) access.
+- Other [special permission](/handbook/enterprise-data/platform/tableau/#user-groups) access.
 
 Users may request restricted access through the Lumos App by selecting the following Lumos Apps and following the instructions there:
 
 - Tableau Restricted SAFE Access
-- Tableau Special Permissions 
+- Tableau Special Permissions
 
 ### Tableau Desktop Access
 
@@ -701,7 +656,7 @@ All certified data sources must meet the following criteria:
 The Data Team provides shared Tableau resources to support reporting, dashboard development, and data visibility across the organization. These resources are maintained to help teams build with consistency, understand platform usage, and access historical content when needed.
 
 You can find these resources in the [Production → Data Team → General](https://10az.online.tableau.com/#/site/gitlab/projects/367731) folder. This location includes information such as:
-   
+
 - Platform Usage Dashboards – Insights into how Tableau is being used across teams
 - Archived Dashboards and Data Sources – Retired or historical content for reference
 - Templates and Examples – Standardized templates to help jump-start new dashboard builds
@@ -712,8 +667,9 @@ Use this folder as your go-to spot for foundational Tableau materials supported 
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
 
-### Official Training Resources
+### Training Resources
 
+- [GitLab Tableau Explorer Training](https://drive.google.com/file/d/1Zkk8_xz4CeH7tSHVW4KlMWHzFYN3VZlK/view?usp=drive_link): This video training covers the Gitlab Environment and how to update Tableau dashboards and even publish your own. This video access does require you to be a GitLab team member for access.  
 - [Free Tableau Training](https://www.tableau.com/learn/training)
 - [Tableau eLearning - Training Portal](https://elearning.tableau.com/): eLearning from Tableau is available for users with the Creator or Explorer license type
   - Tableau eLearning access steps
@@ -909,3 +865,30 @@ The index itself is a weighted average, values range between 0 and 1, of the cou
 | 0.70 to 0.84 | Fair |
 | 0.50 to 0.69 | Poor |
 | 0.00 to 0.49 | Unacceptable |
+
+---
+
+### Tableau Google Docs & Slides Add-on
+
+All Tableau users have access to the **[Tableau for Google Docs and Slides add-on](https://workspace.google.com/marketplace/app/tableau/1044537977580)**, which allows you to embed Tableau dashboards and charts directly into Google Docs or Slides.
+
+#### How It Works
+
+- The add-on is accessible on the **right-hand panel** of any Google Doc or Slide.
+- Users can **search for and insert Tableau views** into their documents.
+- Once embedded, Tableau content can be **refreshed with one click** to reflect the latest data.
+- The add-on embeds the **URL** of the selected Tableau view.
+
+#### Best Practices
+
+- If you need to embed **a specific chart** from a dashboard, that chart must be **published as its own view** in Tableau.
+- Use clear naming conventions when inserting content to ensure recipients understand what data is being shared.
+
+#### SAFE Data Considerations
+
+When working with content that includes **SAFE-classified data**, you must:
+
+- Ensure the Google Doc or Slide is **only shared with individuals who have access** to the SAFE data in Tableau.
+- Consider adding **“ - SAFE”** to the document or presentation title to indicate data sensitivity and appropriate access controls.
+
+Misuse of SAFE data in external documents may result in data exposure. Always double-check permissions before sharing. For help publishing specific views or understanding SAFE classifications, contact the Data or Tableau support teams.

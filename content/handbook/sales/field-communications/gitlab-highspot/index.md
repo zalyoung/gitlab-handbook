@@ -1,6 +1,6 @@
 ---
 title: "Highspot at GitLab"
-description: "GitLab uses Highspot as its Sales and Marketing Asset Management System. This central hub enables m members to discover, customize, and share efficiently while measuring its impact on customer engagement."
+description: "GitLab uses Highspot as its Sales and Marketing Asset Management System. This central hub enables members to discover, customize, and share efficiently while measuring its impact on customer engagement."
 ---
 
 ## Highspot at GitLab
@@ -53,7 +53,7 @@ There are two primary Slack channels to communicate with platform DRIs and other
 The Highspot team manages several issue templates within the Enablement Project for common requests:
 
 1. **Looking to add content or a new page to Highspot?** Share and align the scope of your project in [this issue request](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-highspot-content-request#) to get started.
-1. **Looking for access to Highspot?** Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not see Highspot on your dashboard, follow the typical [Access Request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to submit your request. Tech stack provisioners to review and approve your request can be found [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+1. **Looking for access to Highspot?** Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not see Highspot on your dashboard, follow the typical [Access Request process](/handbook/security/corporate/end-user-services/access-requests/#individual-or-bulk-access-request) to submit your request. Tech stack provisioners to review and approve your request can be found [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
    1. The following teams' access is provisioned automatically: Sales; Customer Success; Renewals; Professional Services; Global Ecosystem; Revenue Strategy, Operations & Enablement (RSOE); Sales Development; Strategy Marketing (Product Marketing, Customer Reference, Analyst Relations, Competitive Intelligence); Field Marketing; Developer Relations; Corporate Communications. 
    1. Additional insights on [User Governance here](https://gitlab.highspot.com/items/6760e6632323c3df9cbdc5b6?lfrm=shp-ft.0#7).
 
@@ -98,7 +98,8 @@ All Spots are categorized by the following: Product, Team, and Go-to-Market (GTM
 | **Customer Success** | Technical post-sales; This Spot will contain all CSM-, CSE-, CSA-, and RM-specific materials, enablement, and projects exclusively owned & leveraged and primarily viewed by the CS + RM team. | Team | CS Enablement |
 | **Solutions Architect** | Technical pre-sales; This Spot will contain all role-specific materials, enablement, and projects exclusively owned, leveraged by, and primarily viewed by the Solutions Architect and Field CTO teams. | Team | SA Enablement |
 | **Public Sector** | This Spot will contain all industry-specific materials, enablement, and projects exclusively owned and leveraged by the Public Sector team, and primarily viewed by the Public Sector team. | Team | Public Sector Product Marketing |
-| **Competitive & Marketing Intelligence** | This Spot will house Market proof points and references related to competition, customer success stories and third-party reports + articles | GTM | Product Marketing; Analyst Relations; Corporate Comms; Customer Advocacy |
+| **Competitive & Marketing Intelligence** | This Spot will house Market proof points and references related to competition, customer value and third-party reports + articles | GTM | Product Marketing; Analyst Relations; Corporate Comms |
+| **Customer Stories** | This Spot will ollate all customer stories, proof points, and references to share with prospects how GitLab is delivering secure software, faster | GTM | Customer Advocacy |
 | **Pipeline Acceleration** | This Spot will contain all internal and external-facing content related to curated pipeline-generating initiatives, including GTM Rev Plays, evergreen plays, sprints, and industry-specific guidance. | GTM | Product Marketing; Field Enablement; RSOE |
 | **Selling Skills** | This Spot will house primarily internal-facing content that enables the Field to effectively position and sell GitLab to customers and prospects. | GTM | Product Marketing; Field Enablement; RSOE |
 | **Services** | This Spot will contain all content aimed to help Field reps position and sell GitLab Services – either Professional Services program or Education Services. | GTM | Professional Services |
@@ -124,7 +125,7 @@ Content properties allow content to be organized and discovered via the search b
    1. **Salesforce** connection links content directly to pipeline activity, revealing shared content influence at the account and opportunity levels. 
    1. **Google Drive** integration ensures documents automatically update from source files
    1. Upcoming **Gong** integration will display Highspot activities on customer timelines.
-1. **Remix** - empowers you to craft tailored presentations by seamlessly combining slides from various approved decks. This dynamic tool allows you to customize content directly within the platform, ensuring each pitch precisely addresses your prospect's specific needs and challenges. Create personalized, targeted presentations in minutes while maintaining brand integrity—delivering exactly what your customers want to see at every stage of their journey.
+1. **Remix** - empowers you to craft tailored presentations by seamlessly combining slides from various approved decks. This dynamic tool allows you to customize content directly within the platform, ensuring each pitch precisely addresses your prospect's specific needs and challenges. [Learn how to create personalized, targeted presentations in minutes](https://gitlab.highspot.com/items/667f269bcdbab750d9835eb9?lfrm=srp.0#5vhay71bn7) while maintaining brand integrity—delivering exactly what your customers want to see at every stage of their journey.
 
 Learn more about critical functionality to enhance your workflows, and more fundamental features to set-up your acccount in the [Getting Started](https://gitlab.highspot.com/spots/66edb5aea861487809d7733a?lfrm=isd.8&list=all&overview=true) section of the Highspot User Guide & Reporting Spot.
 
@@ -136,7 +137,7 @@ At this time, the entire GitLab GTM organization, which includes the global Fiel
 
 **How do I get access to Highspot?**
 
-All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the Highspot Access section above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
+All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the Highspot Access section above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/#how-do-i-choose-which-template-to-use).
 
 **Who can upload content to Highspot? If I have a recommendation for a piece of content that should be in Highspot for all to access, how do I contribute?**
 

@@ -186,3 +186,9 @@ The Global workflow for [Handling GitLab Dedicated emergencies](/handbook/suppor
 Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
 
 The [GitLab Dedicated US PubSec On-call runbook](https://gitlab.com/gitlab-com/gl-infra/us-public-sector/documentation/-/blob/main/runbooks/on-call.md) is the SSOT and the US Government Support team should bookmark and reference it.
+
+### Troubleshooting
+
+The FedRAMP Okta instance will lock accounts out after 90 days of inactivity.  To unlock your account, you need an [Access Request](https://compsecgov.gitlab-dedicated.us/corporate-security/access-management/-/issues) opened on CompSecGov, where you've been locked out. 
+
+Ask for help with this process from any of: #g_dedicated-us-pubsec, Wade, Ian, or Nick.

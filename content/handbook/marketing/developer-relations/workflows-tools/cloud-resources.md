@@ -30,7 +30,7 @@ Technical owners: @johncoghlan @dnsmichi
 ## Workflow
 
 1. All Developer Relations team members can manage resources in Google Cloud in the [community-group project](https://console.cloud.google.com/kubernetes/list/overview?hl=en&project=group-community-a29572) using the `Editor` role.
-   - This access is not provisioned by default. Create an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to add/remove team members (example: [group update AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/13320)).
+   - This access is not provisioned by default. Create an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to add/remove team members (example: [group update AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/13320)).
 1. Google Cloud/AWS also allows to [register domains that are not trademarked](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/domains-dns/#non-trademark-domain-names) (internal) and use the domains for demo setups.
 
 ### Demo environments

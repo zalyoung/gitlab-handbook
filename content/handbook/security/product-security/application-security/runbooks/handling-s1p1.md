@@ -48,7 +48,7 @@ When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the 
 - [ ]  Mattermost
 - [ ]  Server-side Git hooks (Due to security concerns and potential service SLA impact. Consider using [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) or [webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) as alternatives.)
 
-If a vulnerability requires using features listed above for successfuly exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
+If a vulnerability requires using features listed above for successful exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
 
 ## Mitigate
 
@@ -66,7 +66,7 @@ The patch will first be deployed to GitLab-managed environments (.com, Dedicated
 1. Choose the solution that best balances the concerns above with the concerns of participating teams.
 1. Once the solution has been delivered, validate that the fix was effective.
 
-Occasionnaly, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
+Occasionally, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
 Here are some examples of short term options we've used in the past:
 
 - Cloudflare rule to block certain endpoints.

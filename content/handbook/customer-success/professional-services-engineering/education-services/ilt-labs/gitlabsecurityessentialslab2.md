@@ -11,33 +11,31 @@ In the last lab, you introduced the SAST and Secret Detection scanners into your
 
 1. Navigate to your Security Labs project. 
 
-1. In the left sidebar, select **Secure > Vulnerability Report**.
-
-To start your triage process, it is recommended to sort your vulnerabilities by severity, focusing on vulnerabilities that have not yet been triaged. 
+1. In the left sidebar, select **Secure > Vulnerability Report**. To start your triage process, it is recommended to sort your vulnerabilities by severity, focusing on vulnerabilities that have not yet been triaged. This is the default setting.
 
 1. In the security report, select **Severity** to change the sort order. Ensure that the arrow is pointing down so that severity is sorted from highest to lowest. 
 
-1. Select the top severity vulnerability, **GitLab Personal Access Token**.
+1. Select the severity vulnerability **GitLab Personal Access Token**. It should be at the top or close to the top.
 
-1. Review the vulnerability. You will see that the finding is valid, containing a GitLab API token.
+1. Review the vulnerability. You will see that the finding is valid, as the `main.py` file contains a GitLab API token.
 
-1. In the top right corner, set **Status** to **Confirmed**.
+1. In the top right corner, click **Edit Vulnerability**, and then choose **Change status**. Set the status to **Confirmed**, and click **Change status**.
 
-1. Select **Create issue**.
+1. Scroll down to the bottom of the page, and select **Create issue**.
 
 1. You will see that the issue automatically populates the vulnerability title and details. Review the issue details, then select **Create issue**.
 
 1. Return to **Secure > Vulnerability Report**.
 
-1. Select the next vulnerability: **Improper neutralization of special elements used in a SQL command**.
+1. Select the first instance of the vulnerability **Improper neutralization of special elements used in a SQL command ('SQL Injection')**.
 
 1. Select the **Code flow** tab.
 
-1. Review the code flow to see how the vulnerability occurs. Set the **Status** to **Confirmed**.
+1. Review the code flow to see how the vulnerability occurs. In the top right corner, click **Edit Vulnerability**, and then choose **Change status**. Set the status to **Confirmed**, and click **Change status**.
 
 1. Select the **Details** tab.
 
-1. Select **Create issue**.
+1. Scroll down to the bottom of the page, and select **Create issue**.
 
 1. Review the issue and select **Create issue**.
 
@@ -47,7 +45,7 @@ At this point, we've created two issues to address as security issues in our app
 
 1. Navigate to **Plan > Issues**.
 
-1. Select the issue titled **GitLab Personal Access Token**.
+1. Select the issue titled **Investigate vulnerability: GitLab personal access token**.
 
 1. Select the code location: `main.py:5`.
 
@@ -65,19 +63,19 @@ At this point, we've created two issues to address as security issues in our app
 
 1. In the left sidebar, select the **Source Control** icon.
 
-1. Click **Create a new branch and commit**.
+1. Type an appropriate commit message (e.g. 'Removed API key), and click **Create a new branch and commit**.
 
 1. Press **Enter** to take the default branch name.
 
 1. Select **Create MR** in the bottom right of the screen.
 
-1. Select **Create merge request**.
+1. Select **Create merge request** at the bottom of the page.
 
-1. Wait for the pipeline in the merge request to complete. Refresh the page once completed to view the **Security Report**.
+1. Wait for the pipeline in the merge request to complete, and refresh the page. Click on **View all pipeline findings**.
 
 1. Review the findings. You should no longer see the **GitLab Personal Token** issue in the security list. 
 
-1. Select **Merge** to merge the security updates.
+1. Return to the MR, and select **Merge** to merge the security updates.
 
 1. Try out solving the SQL injection vulnerability on your own!
 

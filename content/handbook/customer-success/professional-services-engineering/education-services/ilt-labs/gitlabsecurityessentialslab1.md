@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through the process of enabling and 
 
 > Estimated time to complete: 15 minutes
 
-### Task A. Create a Project
+## Task A. Create a Project
 
 For this section of the course, we will use a template with prepopulated code to allow us to test out our security scanners. 
 
@@ -25,7 +25,7 @@ For this section of the course, we will use a template with prepopulated code to
 
 1. Under **Visibility Level**, click **Private**.
 
-    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the <a target="_blank" href="https://docs.gitlab.com/ee/user/public_access.html">documentation</a>.
+    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
 
 1. Click **Create project**.
 
@@ -61,14 +61,14 @@ For this section of the course, we will use a template with prepopulated code to
     include:
       - component: ilt.gitlabtraining.cloud/components/sast/sast@main
         inputs:
-          excluded_paths: venv
+          excluded_paths: venv/
     ```
 
     > You can customize your SAST by adding configurations to the inputs section of the `.gitlab-ci.yml` file. For example, the `excluded_paths` variable can exclude project paths from the SAST scan. This option can be set to prevent unnecessary scanning of files.
     >
     > As an example, Python projects often contain a `venv` directory that contains packages used by the project. Since this directory does not contain our own source code, we should exclude it from the SAST scan.
     >
-    > A full list of SAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/sast/#available-cicd-variables">documentation</a>.
+    > A full list of SAST variables can be found in the [documentation](https://docs.gitlab.com/ee/user/application_security/sast/#available-cicd-variables).
 
 1. Once complete, you will have a `.gitlab-ci.yml` file that looks like this:
 
@@ -79,10 +79,12 @@ For this section of the course, we will use a template with prepopulated code to
     include:
         - component: ilt.gitlabtraining.cloud/components/sast/sast@main
           inputs:
-            excluded_paths: venv
+            excluded_paths: venv/
     ```
 
-1. Add an appropriate commit message (ex. `Add SAST template to .gitlab-ci.yml`), set the **Target Branch** to `add-security`. Ensure that **Start a new merge request with these changes** is checked, then click the **Commit changes** button.
+1. Click the **Commit changes** button, and add an appropriate commit message (e.g `Add SAST template to .gitlab-ci.yml`).
+
+1. Select the **Commit to a new branch** option, and change the branch name to `add-security`. Ensure that **Create a new merge request for this change** is checked, then click the **Commit changes** button.
 
 1. In the **New merge request** window, enter any name for your merge request. Select **Create merge request**.
 
@@ -92,13 +94,11 @@ For this section of the course, we will use a template with prepopulated code to
 
 1. After the pipeline completes, refresh the merge request screen. 
 
-1. You should now see a message stating **Security Scanning detected 4 new potential vulnerabilities**. 
+1. You should now see a message stating **Security Scanning detected 15 new potential vulnerabilities**. 
 
 1. Select **View all pipeline findings**.
 
-1. Review the vulnerabilities shown in the MR.
-
-1. For now, we will merge these vulnerabilities so we can demonstrate other security features. In most cases however, you would aim to resolve the issues here.
+1. Review the vulnerabilities shown in the MR. For now, we will merge these vulnerabilities so we can demonstrate other security features. In most cases however, you would aim to resolve the issues here.
 
 1. Return to your merge request.
 
@@ -122,14 +122,14 @@ To provide more thorough scanning and vulnerability detection, we will opt to en
 
     include:
     - component: ilt.gitlabtraining.cloud/components/sast/sast@main
-        inputs:
-        excluded_paths: venv
+      inputs:
+        excluded_paths: venv/
         run_advanced_sast: true
     ```
 
-1. Set the branch to `sast-update` and click the checkbox near **Start a new merge request with these changes**. Click **Commit changes**.
+1. Set the branch name to `sast-update`. Ensure that **Start a new merge request with this change** is checked, and add dd an appropriate commit message (ex. `Add Advanced SAST functionality`). Click the **Commit changes** button.
 
-1. In the MR page after this, provide an appropriate title (such as 'Enabled SAST in our pipeline'), and click **Create Merge Request**.
+1. In the MR page after this, provide an appropriate title (such as `Enabled Advanced SAST in our pipeline`), and click **Create Merge Request**.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
@@ -155,14 +155,14 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
     include:
     - component: ilt.gitlabtraining.cloud/components/sast/sast@main
       inputs:
-        excluded_paths: venv
+        excluded_paths: venv/
         run_advanced_sast: true
     - component: ilt.gitlabtraining.cloud/components/secret-detection/secret-detection@main
     ```
 
-    > It is also possible to configure Secret Detection through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure Secret Detection** button. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
+    > It is also possible to configure Secret Detection through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure Secret Detection** button. We will be configuring it by editing the `.gitlab-ci.yml` file for this lab to help you learn more about how it works under the hood.
 
-1. Configure Secret Detection to ignore the test directory by pasting this job definition below your component import.
+1. Configure the Secret Detection job to ignore the test directory by pasting this job definition below your component import.
 
     ```yml
     secret_detection:
@@ -189,7 +189,7 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
     secret_detection:
       variables:
-        SECRET_DETECTION_EXCLUDED_PATHS: tests
+        SECRET_DETECTION_EXCLUDED_PATHS: tests/
     ```
 
 1. Set the branch to `main` and select **Commit changes**.
@@ -204,9 +204,11 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
 1. Navigate to **Secure > Vulnerability Report**.
 
-1. Looking at the **Tool** column in the **Development vulnerabilities table**, you'll see a variety of vulnerability detections for each tool we enabled.
+1. Looking at the **Report Type** column in the **Development vulnerabilities** table, you'll see a variety of vulnerability detections for each tool we enabled.
 
-1. Select the **Improper neutralization of special elements used in an SQL command** vulnerability. You will see two tabs here, **Details** and **Code flow**. The **Details** tab shows general details about the vulnerability. The **Code flow** tab is a special feature provided by the advanced SAST scanner. This shows how your vulnerability is reached in your code.
+1. We want to see only the vulnerabilities found by the Advanced SAST scanner. We can filter by selecting the **Scanner** dropdown in th **Search or filter vulnerabilities...** bar and selecting **GitLab Advanced SAST** .
+
+1. Select one of the **Improper neutralization of special elements used in an SQL command ('SQL Injection')** vulnerability. You will see two tabs here, **Details** and **Code flow**. The **Details** tab shows general details about the vulnerability. The **Code flow** tab is a special feature provided by the advanced SAST scanner. This shows how your vulnerability is reached in your code.
 
 1. Review these different results. In the next lab, we will discuss how to triage and resolve these vulnerabilities. 
 

@@ -77,7 +77,7 @@ Remote internships are fertile ground for communication breakdowns. Intentionall
 
 ### Creating good communication
 
-There is much to glean from [GitLab's approach to meetings](meetings/), and a well-organized internships will also incorporate communication strategies such as [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews).
+There is much to glean from [GitLab's approach to meetings](meetings/), and a well-organized internships will also incorporate communication strategies such as [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-and-key-reviews).
 
 ### Creating psychological safety
 
@@ -160,9 +160,9 @@ Too, it's important to select projects which are important or notable to a large
 
 If possible, avoid time critical work. Great intern projects tend to be items which are largely seen as "nice to haves" by full-time staff. These are projects that everyone recognizes would benefit the organization, but do not rise to the level of priority necessary to demand senior staff attention.
 
-### Make your strategy and onboarding public
+### Make your onboarding public
 
-At GitLab, we make our [strategy](/handbook/company/strategy) and [OKRs](/handbook/company/okrs) (objectives and key results) public, and offer copious context on the question of "[What's it like to work at GitLab?](/handbook/hiring/candidate-faq/)" This shows respect for job seekers, and it ensures that those who apply resonate with our [values](/handbook/values/).
+At GitLab, we offer copious context on the question of "[What's it like to work at GitLab?](/handbook/hiring/candidate-faq/)" This shows respect for job seekers, and it ensures that those who apply resonate with our [values](/handbook/values/).
 
 Hiring remote interns is hard. An organization shouldn't make it harder by concealing their vision and values until *after* an intern is hired. Given the remarkably short duration of the internship experience, it's vital to act [transparently](/handbook/values/#transparency) in order to create as much pre-start alignment as possible.
 

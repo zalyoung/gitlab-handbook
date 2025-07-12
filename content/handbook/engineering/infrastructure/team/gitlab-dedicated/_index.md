@@ -83,7 +83,7 @@ In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/
 
 ### Escalation Policy
 
-When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
+When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/product-development/how-we-work/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
 
 ### Handling Configuration Changes for Tenant Environments
 
@@ -114,7 +114,7 @@ and other times where GitLab Team Member availability is substantially reduced.
 Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs.
 Therefore, we have introduced a mechanism called Production Change Lock (PCL) to GitLab Dedicated.
 
-The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl) for GitLab.com,
+The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl) for GitLab.com,
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
@@ -131,7 +131,7 @@ The following dates are currently scheduled PCLs.
 
 Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
 
-As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
+As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
 
 ##### Hard PCL
 
@@ -378,7 +378,7 @@ When creating a new issue:
 
 1. Add the appropriate project label, example: ~"Hosted Runners for GitLab Dedicated".
 1. Add the ~"workflow-infra::Triage" label.
-1. Add the appropriate team label, example: ~"team::Environment Automation".
+1. Add the appropriate team label, example: ~"group::environment automation".
 1. Ensure the issue is confidential.
 1. Add the issue to the correct Epic.
 
@@ -389,7 +389,7 @@ When creating a new issue:
 # Label with a project label.
 # /label ~"Hosted Runners for GitLab Dedicated"
 
-/label ~"team::Environment Automation" ~"workflow-infra::Triage"
+/label ~"group::environment automation" ~"workflow-infra::Triage"
 /confidential
 ```
 
@@ -541,13 +541,13 @@ To reduce the team's cognitive load on having to keep a mental record of all the
 
 Commonly used labels are:
 
-1. The team label, such as `team::Environment Automation`.
+1. The team label, such as `group::environment automation`.
 1. Scoped `workflow-infra` labels.
 1. Scoped `component` labels.
 1. Scoped `cloud-provider` labels.
 1. Scoped `workaround` labels.
 
-The `team::Environment Automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
+The `group::environment automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
 
 #### Epics labels
 
@@ -584,7 +584,7 @@ There are three other workflow labels of importance:
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance using the ["request for help"](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance using the ["request for help"](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
 
 | State Label | Description |
 | ----------- | ----------- |

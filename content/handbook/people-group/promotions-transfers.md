@@ -42,6 +42,15 @@ For Engineering, please see [Engineering Mobility Principles](/handbook/engineer
 
 ### Promotions
 
+Promotions represent one of the most meaningful moments in a team member's career journey—a recognition of their growth, contributions, and potential. For managers, these conversations are among the most impactful you'll have as a leader, offering the opportunity to celebrate achievements and inspire continued excellence.
+The promotion cycle is designed to create a fair, transparent process that honors both individual aspirations and organizational needs. Whether you're a team member preparing to showcase your readiness for the next level or a manager guiding someone through this pivotal moment, your participation shapes not just careers, but our culture of growth and recognition.
+
+Throughout this process, remember that promotions are about more than titles and compensation—they're about recognizing potential, celebrating growth, and investing in GitLab's future. Whether the outcome is a promotion or developmental feedback for the next cycle, every conversation is an opportunity to strengthen relationships and inspire continued excellence.
+
+For questions or support throughout the promotion cycle, reach out to your People Business Partner (PBP) or the Talent Management & Development team.
+
+## Types of Promotions
+
 **In-Cycle Promotions:**  An in-cycle promotion is any individual that is within the same job family, and has a similar but increased job scope. A promotion is not necessarily defined with a new grade due to differences in job families. We would typically expect a team member to have been in position for at least twelve months prior to being promoted to the next level position within the same job family. This process does not require interview(s), does not create backfill headcount and occurs semi-annually through the calibrated promotion process or monthly for level 5 team members in the Sales Development job family. All in-cycle promotions are processed in **Workday and not in Greenhouse.**  
 
 **Internal Mobility Promotions:**  Internal Mobility promotions occur when a team member applies for an open position and accepts a role at a higher grade/job responsibilities when compared to their current role.  
@@ -51,16 +60,20 @@ For Engineering, please see [Engineering Mobility Principles](/handbook/engineer
 
 ## Promotion Philosophy
 
+Our promotion philosophy goes beyond traditional "climbing the ladder" thinking. We recognize that growth happens in multiple dimensions—both vertically (moving up levels) and laterally (expanding skills and impact)—creating a career "lattice" that offers diverse paths to development and success.
+
 Our promotion philosophy comprises core pillars surrounding the approach and process alignment to our values.
 
 ### Pillars
 
-- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level](/handbook/company/structure/#job-frameworks) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
-- Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
-- When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
-- All in-line promotions at GitLab require a [promotion document](#promotion-document). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
-- We encourage team members to live our [efficiency value](/handbook/values/#efficiency), be a [manager of one](/handbook/values/#managers-of-one), and take ownership of their promotion document in partnership with their manager.
-- We calibrate planned promotions on a twice per year basis to ensure an equitable review, and through this process track metrics that help us understand if our promotions are occurring at a healthy and fair rate.
+- **Performance First**: Promotions reflect your current performance, not just potential. For an in-line promotion, you should already be consistently operating at the level described in the next [job framework](/handbook/company/structure/#job-frameworks) before being promoted. While you'd typically become eligible for promotion to the next level in your job family after twelve months in your current role, remember that broadening your skills laterally is equally valuable to your growth journey.
+- **Growth Partnership**: Your career development is a collaborative effort between you and your manager. We encourage regular conversations about your aspirations—whether that means moving up the ladder or expanding across the lattice. Your manager is there to help identify opportunities that align with your goals, whether that's deepening expertise in your current area or branching out to develop complementary skills and experiences.
+- **Holistic Evaluation**: When considering promotions, we look at both your readiness and the business opportunity. We value team members who take on broader responsibilities and expand their impact horizontally, not just those looking to climb vertically.
+- **Transparent Process**: All in-line promotions at GitLab require a [promotion document](#promotion-document). This [transparency](/handbook/values/#transparency) ensures everyone understands the basis for advancement, whether it's vertical progression or recognition of significant lateral growth and expanded capabilities.
+- **Self-Ownership**: We encourage you to live our [efficiency value](/handbook/values/#efficiency) by being a [manager of one](/handbook/values/#managers-of-one) and taking ownership of your promotion document, working in partnership with your manager. This applies whether you're seeking vertical advancement or recognition for broadening your skills and impact.
+- **Equitable Calibration**: We calibrate planned promotions twice yearly to ensure fair and consistent review. Through this process, we track metrics to understand if our promotions—both vertical and lateral—are occurring at a healthy and equitable rate across the organization.
+
+By embracing both the ladder (vertical growth) and lattice (lateral expansion) in our promotion philosophy, we create space for diverse career paths that recognize the many ways you can grow and contribute at GitLab.
 
 ### Values Alignment
 
@@ -81,7 +94,7 @@ Most promotions are processed through our twice per year Promotion Calibrations,
 
 At GitLab, we promote on a twice per year basis. There are three core stages to the promotion process: Planning, Calibration, and Processing.
 
-The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-development-fy24-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
+The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-dev-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
 
 | Stage | Purpose |
 | ---------- | ----- |
@@ -102,58 +115,40 @@ Sales Development promotions will be reviewed on a monthly basis.
 Below is the timeline for FY26:
 *Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite](/handbook/company/offsite/#schedule).*
 
-### FY26-Q1 (Feb 1)
-
-*Status:* In Progress
-
-- Planning: 2024-11-01 to 2024-12-01
-- Calibrations: 2024-12-02 to 2025-01-03
-- Workday input by Director+: 2025-01-09 to 2025-01-16
-- PBP + E-Group Leader approvals: 2025-01-17 to 2025-01-20
-- Workday Approvals: 2025-01-21 to 2025-01-24
-- Team member individual communication: 2025-01-27 to 2025-01-31 (after fully approved in Workday)
-- Effective date for promotions: 2025-02-01
-- After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
-
 ### FY26-Q4 (Nov 1)
 
-Status: Pending
+Below are the dates for the FY26-Q4 promotion cycle:
 
-- Planning:
-- Calibrations & Workday input by Director+:
-- PBP & E-Group leader approvals:
-- Workday Approvals: 2
-- Communication:
-- Effective date for promotions: 2025-11-01
-- After communicating 1:1 with individuals **on or after 2025-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+- Aug 1-15: Team members prepare & submit [promotion document](https://docs.google.com/document/d/1oXH9HzdO8gjqdeosstQRC1Mqt_5lCaN1U2kaF9Av-Ec/edit?usp=sharing)
+- Aug 18-29: Managers review team member promotion document & conducts discussion with team member
+- Sep 1: **DEADLINE** - All manager promotion nominations must be submitted in Workday
+- Sep 2-30: Promotion calibration sessions and promotion approvals
+- Oct 3: Compensation grid opens in Workday (promotion approval required prior to opening process in Workday)
+- Oct 3-10: Dir+ enters compensation amount in grid
+- Oct 13-20:  eGroup / PBP comp approvals
+- Oct 21-27:  Final approvals + statement generation in Workday
+- Oct 28-31: Team member communication window
+- Nov 1: Promotions go live! 🎉
+
+Note: All dates are subject to minor adjustments. Any changes will be communicated in advance.
+
+#### Manager Enablement Sessions (People Manager Pivotal Moments Series)
+
+As part of our new People Manager Pivotal Moments series, the Talent Management & Development team will host specialized sessions focusing on those critical interactions that define your effectiveness as a leader. To support the promotion cycle, these sessions will help managers gain confidence in handling any promotion conversation scenario that comes their way, transforming discussions into opportunities for building trust and driving development.
+
+- Enablement sessions will be available in August - session dates and sign-ups to come
 
 ### FY27-Q2 (May 1)
 
-Status: Pending
-
-- Planning:
-- Calibrations & Workday input by Director+:
-- PBP & E-Group leader approvals:
-- Workday Approvals: 2
-- Communication:
-- Effective date for promotions: 2026-05-01
-- After communicating 1:1 with individuals **on or after 2026-05-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+Status: Dates are to be determined and posted.  Check back!
 
 ### FY27-Q4 (Nov 1)
 
-Status: Pending
-
-- Planning:
-- Calibrations & Workday input by Director+:
-- PBP & E-Group leader approvals:
-- Workday Approvals: 2
-- Communication:
-- Effective date for promotions: 2026-11-01
-- After communicating 1:1 with individuals **on or after 2026-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+Status: Dates are to be determined and posted.  Check back!
 
 ## Planning
 
-FY26 Q1 Promotion **Planning** will be completed via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
+FY26 Q4 Promotion **Planning** will be completed via Workday to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure Workday is up to date before going into the Calibration phase.
 
 Once the Calibration phase by Division is complete, Directors and above will have the ability to enter promotion compensation recommendations into the [Workday planning grid](https://docs.google.com/document/d/1KwpFnZC5MFpCwS9ElqkSh0f1bdZ3l0Gp-B4lDdJwIg0/edit?usp=sharing). For specific Division calibration meeting timelines, please reach out to your People Business Partner.
 
@@ -398,7 +393,7 @@ The steps below outline the process promotion candidates should follow to reques
     - Calibration is scheduled for the week of 2024-12-16 where CISO directs calibrate promotion candidates across the division.
     - CISO direct is responsible for following up with the promotion candidate's manager to provide feedback and key takeaways from the calibration session.
 9. Managers communicate promotion status
-    - Promotions are effective 2025-02-01 and the communication window is 2025-01-27 to 2025-01-31 aligned with the [company-wide timeline](/handbook/people-group/promotions-transfers/#fy26-q1-feb-1)
+    - Promotions are effective 2025-02-01 and the communication window is 2025-01-27 to 2025-01-31 aligned with the [company-wide timeline](/handbook/people-group/promotions-transfers/#fy26-q4-nov-1)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
 
 #### Feedback Confidentiality
@@ -478,25 +473,25 @@ When reviewing compensation for a transfer in Greenhouse, the Total Rewards team
 This section describes the approval chain after the People Business Partner submits a promotion request in Workday.
 
 1. The changes will route for approval to the manager, next level manager, and e-Group leader.
-1. If the request is approved, the People Connect Team will stage the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) in DocuSign.
+1. If the request is approved, the People Operations Team will stage the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) in DocuSign.
 1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack `#team-member-updates` channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
-1. For change of departments and managers, People Connect Team members will create a Organization Change Checklist Issue.
+1. For change of departments and managers, People Operations Team members will create a Organization Change Checklist Issue.
 
-### For People Connect Team: Processing Promotions, Internal Transfers & Compensation Changes
+### For People Operations Team: Processing Promotions, Internal Transfers & Compensation Changes
 
-1. If the request is approved through Workday, the People Connect Team will create the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/coordinator/#job-change-letter), whereas if the request is through Greenhouse the `People Connect Team will be notified via the People Connect team email` inbox that the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/coordinator/#job-change-letter) has been created by the CES team and signed.
+1. If the request is approved through Workday, the People Operations Team will create the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/coordinator/#job-change-letter), whereas if the request is through Greenhouse the `People Operations Team will be notified via the People Operations team email` inbox that the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/coordinator/#job-change-letter) has been created by the CES team and signed.
 
 #### Job Change Letter
 
-1. For [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) a job change letter may be required, as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
+1. For [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) a job change letter may be required, as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch) either by email or for remote.com via their dashboard. See the People Operations 1password vault for contact details.
 1. Review the [Signature requirements per country](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) and process the job change letter accordingly. Please note not all entities and country locations require Job Change Letters (for example team members in the US will not receive a Job Change Letter).
 1. Make a copy of the applicable Job Change Letter template and enter all applicable information based on the Workday request and add the applicable [Signatory](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories) or [Company Signature Stamp](https://docs.google.com/document/d/1RWkI7zuFIUkW_sh1TmYii6e8zNOmz9USUoEr1wBIBpQ/edit?usp=sharing). The effective date is as follows:
     - For sales personnel with a variable change, the effective date is always the 1st of the month regardless of their entity.
     - If the team member is making a lateral move where there is no change in compensation, then the start date can be any Monday.
-    - For US team members, the effective date should be either the 1st or the 16th. If the [payroll cut off date](/handbook/finance/payroll/#payroll-cut-off-date) has passed for the current pay period, the effective date should be made for the start of the next pay period. The GitLab Inc and Federal Payroll calendar should be referenced when determining the effective date.
+    - For US team members, the effective date should be either the 1st or the 16th. If the [payroll cut off date](/handbook/finance/payroll) has passed for the current pay period, the effective date should be made for the start of the next pay period. The GitLab Inc and Federal Payroll calendar should be referenced when determining the effective date.
     - For example, if the change is being processed on June 22, since this date is before the payroll cut off date of June 23, the effective date should be June 16.
     - If the change instead is being processed on June 25, the effective date should be July 1 since this is after the payroll cut off date.
-    - For Canada team members, the effective should be the start of the pay period closest to, but not after the [payroll cut off date](/handbook/finance/payroll/#payroll-cut-off-date) depending on when the change is processed. The GitLab Canada Corp Payroll calendar should be referenced when determining the effective date.
+    - For Canada team members, the effective should be the start of the pay period closest to, but not after the [payroll cut off date](/handbook/finance/payroll) depending on when the change is processed. The GitLab Canada Corp Payroll calendar should be referenced when determining the effective date.
     - For example, if the change is being processed on June 15, since the payroll cut off date of June 6 has passed, this would go to the next pay period with a cut off date of June 20. The corresponding start of the pay period for the June 20 cut off date is June 21 so June 21 should be the effective date.
     - For all other changes, the effective date should be the first of the current month if processed on or before the 8th of the month and the first of the next month if processed after the 8th of the month.
     - For example, if a GitLab Ltd team member has a change being processed on June 7, this would be effective June 1.
@@ -509,7 +504,7 @@ This section describes the approval chain after the People Business Partner subm
     - Add sign date field for the team member
     - **Note:** Make sure that **a)** "Set signing order" option has been selected while preparing the doc, and **b)** Select radio button instead of checkboxes as only radio button allows you to select the required field/mandatory field option. This prohibits the Manager to process the letter without checking the tasks on the letters.
 1. Save the signed letter to the respective team members [Documents Tab](https://docs.google.com/document/d/1ao_d_JxvqvZdqxlt4mBoHe1GcAhYT7B6YQoBgDxPdRE/edit) within their Workday Profile.
-1. If the [here mentioned criteria](/handbook/people-group/promotions-transfers/#organization-change-checklist) for an Organization Change Checklist is met the People Connect Specialists will receive an alert from Workday and ensure that an [issue is opened](/handbook/people-group/promotions-transfers/#organization-change-checklist-creation-process) for the transitioning team member.
+1. If the [here mentioned criteria](/handbook/people-group/promotions-transfers/#organization-change-checklist) for an Organization Change Checklist is met the People Operations Specialists will receive an alert from Workday and ensure that an [issue is opened](/handbook/people-group/promotions-transfers/#organization-change-checklist-creation-process) for the transitioning team member.
 
 ## Interim and Acting Roles
 
@@ -526,7 +521,7 @@ As highlighted in the Definition section, all interim roles (regardless of the n
 *Once a team member successfully completes the interview process and is selected for the interim period, the following steps should be taken to ensure the team member is set up for success in their interim role.*
 
 1. *CES*: Issue a [Job Change Letter](/handbook/hiring/talent-acquisition-framework/coordinator/#job-change-letter) to finalize the beginning of the interim period. The Letter should include: interim job title, start date, and end date (if known). Job Change letters are important as this is the process by which Total Rewards is notified of change from Greenhouse.
-1. *People Connect*: Update the team member's job and business titles in Workday to reflect that they have started an interim role e.g. `Senior Manager, Engineering (Interim)`. This update serves as the SSOT for tracking interim start and end dates, in addition to providing transparency pertaining to who is currently executing in an interim role. Job code and job grade will remain the same, as interim periods have no impact on compensation i.e. do not update any other fields when initiating the [Change Job Process](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit).
+1. *People Operations*: Update the team member's job and business titles in Workday to reflect that they have started an interim role e.g. `Senior Manager, Engineering (Interim)`. This update serves as the SSOT for tracking interim start and end dates, in addition to providing transparency pertaining to who is currently executing in an interim role. Job code and job grade will remain the same, as interim periods have no impact on compensation i.e. do not update any other fields when initiating the [Change Job Process](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit).
 1. *Current Manager*: In the instance that there are direct reports that need to be moved to an Interim Manager this change needs to be initiated by the Current Manager or where necessary the People Business Partner for the respective group in Workday by following the [Change Manager Process](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit).  The philosophy here is that if a team member has successfully gone through the interview process and has demonstrated they are ready/able for an interim period in a manager role, they have the required level of EQ and discretion to have direct reports in Workday. It is, of course, expected that should the interim period not end in promotion, the team member continue to treat confidential information confidentially.
 
 #### Ending Interim Period
@@ -587,7 +582,7 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 - Demotions should also include a review of [compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once agreement is reached on the demotion and changes (if any) in Team will act as the point of escalation to have any demotion reviewed and approved by the Compensation Group once the relevant google doc is complete.
 - Once approved, the manager informs the individual and should request the necessary changes by submitting a [request via HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=c15e3b45478c069067429ee0026d43e1). A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
-- The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes](/handbook/people-group/promotions-transfers/#for-people-connect-team-processing-promotions-internal-transfers--compensation-changes).
+- The People Operations team should then follow the process listed under the [For People Operations Team: Processing Promotions & Compensation Changes](/handbook/people-group/promotions-transfers/#for-people-operations-team-processing-promotions-internal-transfers--compensation-changes).
 - Communication should be on a need-to-know basis only and should not be made public out of respect for the individual.
 - The manager will initiate any necessary access requests or access change requests.
 
@@ -595,7 +590,7 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 
 Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for the People Group and leaders to leverage to review organizational health metrics and ratios.
 
-**If any changes are required to a team members Job Title Speciality, the manager should create a [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=8b5d24264753b150dff2c5a4f16d43cb) case for the People Connect team with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
+**If any changes are required to a team members Job Title Speciality, the manager should create a [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=8b5d24264753b150dff2c5a4f16d43cb) case for the People Operations team with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
 
 ### Job Title Specialty Guidance For Managers
 
@@ -629,7 +624,7 @@ To easily access a report for what current job title specialties are for your te
 
 Note: For Support it's not tied to stage, group but rather the focus of the role that is not captured in the Job title.
 
-- When requesting a job title specialty update, please make sure to use any of the below focus areas when reaching out to People Connect:
+- When requesting a job title specialty update, please make sure to use any of the below focus areas when reaching out to People Operations:
   - Global
   - Federal
   - Readiness
@@ -640,27 +635,27 @@ Job information changes are used to update any information on the team member's 
 
 ### For Current Manager: Processing Manager Changes
 
-[This job aid](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit?usp=sharing) will help provide people managers with instructions on how to move team members to another manager within Workday. If the manager you need to move your direct report to is not available, it likely means they do not have a “supervisory organization” created.  Even if their management level shows “Manager” a supervisory organization is needed in Workday for a team member to have a direct report. Supervisory organizations should have a name unique to the team they are managing (e.g. Commercial Sales - EMEA, Content Marketing (John Smith), Backend Engineering - Ruby). Please reach out to the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) with the name of the team member who needs the supervisory organization set up, the unique name, and the effective date of the supervisory organization. We can gladly help set it up in Workday.
+[This job aid](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit?usp=sharing) will help provide people managers with instructions on how to move team members to another manager within Workday. If the manager you need to move your direct report to is not available, it likely means they do not have a “supervisory organization” created.  Even if their management level shows “Manager” a supervisory organization is needed in Workday for a team member to have a direct report. Supervisory organizations should have a name unique to the team they are managing (e.g. Commercial Sales - EMEA, Content Marketing (John Smith), Backend Engineering - Ruby). Please reach out to the People Operations team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) with the name of the team member who needs the supervisory organization set up, the unique name, and the effective date of the supervisory organization. We can gladly help set it up in Workday.
 
 Note for Sales Managers: If team members are not moved under the correct sales manager in Workday, credits will not be rolled-up to the correct manager for sales commissions. See additional promotion and transfer considerations for commissionable roles [here](/handbook/people-group/promotions-transfers/#promotions-and-transfers-of-employees-in-commissionable-roles).
 
-### For People Connect: Processing Manager changes
+### For People Operations: Processing Manager changes
 
-1. The People Connect Specialist logs into Workday via Okta to approve the transfer in Workday > click on Inbox in top right corner
+1. The People Operations Specialist logs into Workday via Okta to approve the transfer in Workday > click on Inbox in top right corner
 1. Review the business process titled 'Transfer' and reason 'Manager to Another Manager' > click: approve
 
 **Process for EBA to update senior leadership:**
 
-1. Create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=c15e3b45478c069067429ee0026d43e1) for the People Connect team requesting the changes to be made in Workday and provide an effective date.
-1. The People Connect Team will process the changes in Workday.
+1. Create a case in [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=c15e3b45478c069067429ee0026d43e1) for the People Operations team requesting the changes to be made in Workday and provide an effective date.
+1. The People Operations Team will process the changes in Workday.
 1. Once complete, the team will follow-up with the EBA to let them know all changes have been made.
 1. The EBA will then need to make the changes on the Team Page.
 
-### For People Connect: Processing Job Information Change Requests
+### For People Operations: Processing Job Information Change Requests
 
 1. Audit all job change requests and ensure the changes are captured in the Payroll tracker.
-1. In case of `Job Title Specialty` change requests, managers will reach out to the People Connect Team [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) to have a team members `Speciality` updated in Workday.
-    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: <https://handbook.gitlab.com/handbook/engineering/development/dev/foundations/search/> or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments)).
+1. In case of `Job Title Specialty` change requests, managers will reach out to the People Operations Team [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) to have a team members `Speciality` updated in Workday.
+    - The People Operations Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: <https://handbook.gitlab.com/handbook/engineering/ai/search/> or if the People Operations Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments)).
 
 ## Department Transfers
 
@@ -686,10 +681,10 @@ For more information please visit our [Internal Hiring Process](/handbook/hiring
 #### Different Job Family
 
 - If you are interested in transferring, simply submit an application for the new position. If you are not sure the new role is a good fit, schedule time with the hiring manager to learn more about the role and the skills needed. If after that conversation you are interested in pursuing the internal opportunity, it is recommended that you inform your current manager of your intent to apply for the role. While you do not need their permission to apply, we encourage you to be transparent with them. Most will appreciate that transparency since it's generally better than learning about your move from someone reaching out to them as a reference check. You can also use this as an opportunity to discuss the feedback that would be given to the potential new manager regarding your performance from your current and/or past managers.
-- Transfers must go through the application process for the new position by applying on the [jobs page](https://gitlab.greenhouse.io/internal_job_board). The team member may go through the entire interview process outlined on the vacancy description. Common exceptions to the standard interview process are behavioral or "values alignment" stages. The Recruiter will document the reason behind alterations to the standard interview plan in the team member's Greenhouse profile.  If you have any questions about the role or the process, please reach out to your Department or Division's [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) and/or please visit our [Internal Hiring Process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/) handbook page. In all cases, the applicable People Business Partner should be informed via email, before a transfer is confirmed.
+- Transfers must go through the application process for the new position by applying on the [jobs page](https://gitlab.greenhouse.io/internal_job_board). The team member may go through the entire interview process outlined on the vacancy description. Common exceptions to the standard interview process are behavioral or "values alignment" stages. The Recruiter will document the reason behind alterations to the standard interview plan in the team member's Greenhouse profile.  If you have any questions about the role or the process, please reach out to your Department or Division's [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) and/or please visit our [Internal Hiring Process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/) handbook page. In all cases, the applicable People Business Partner should be informed via email, before a transfer is confirmed.
 - In the case of transfers, it is expected and required that the gaining manager will check with internal references at GitLab limited to the previous and current managers; please do not conduct internal reference checks with peers or direct reports. For questions or exceptions, please engage your recruiter and people business partner.
 - It is recommended (but not required) that the applicant, current manager, or gaining manager create a private Slack channel to help coordinate the transfer. Invite anyone who will be involved such as the relevant managers, directors, people business partners, finance business partners, and recruiters.
-- If the current manager needs to backfill the role in Engineering they should follow [this process](/handbook/engineering/#rd-new-headcount-ghpid-request-backfill--transfer-process). For other divisions they should work with their department leader, recruiter, and the Finance Business Partner to confirm that a backfill is available. When the transfer is confirmed, the current manager should work with recruiter and Finance Partner to obtain a [GHP ID](/handbook/finance/financial-planning-and-analysis/#single-source-of-truth-ssot-headcount-forecast-and-hiring-plan) for the backfill and open the role in Greenhouse.
+- If the current manager needs to backfill the role in Engineering they should follow [this process](/handbook/engineering/hiring/#rd-new-headcount-ghpid-request-backfill--transfer-process). For other divisions they should work with their department leader, recruiter, and the Finance Business Partner to confirm that a backfill is available. When the transfer is confirmed, the current manager should work with recruiter and Finance Partner to obtain a [GHP ID](/handbook/finance/financial-planning-and-analysis/#single-source-of-truth-ssot-headcount-forecast-and-hiring-plan) for the backfill and open the role in Greenhouse.
 - Before the offer is made the recruiter will confirm with the team member and the gaining manager that they have indeed reached out to the current manager. They will discuss the new opportunity and that an offer will be made to the team member.
 - Talent Acquisition team will ensure that, if applicable, the position has been posted for at least three business days before an offer is made.
 - [Compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
@@ -702,7 +697,7 @@ For more information please visit our [Internal Hiring Process](/handbook/hiring
 
 If the team member is staying in the current Job Family, but changing their Specialty or Department (ex: moving from Plan to Secure or moving from Development to Infrastructure), the above steps will be followed. The recruitment procedure might be shortened if the requirements for the role are the same. At a minimum we ask that the hiring manager interview the team member.
 
-If selected for the role, a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) will be sent by the People Connect Team outlining the changes to department and specialty for the People Connect team to process in Workday. If the current manager needs to backfill the role, they should reach out to the Finance Partner.
+If selected for the role, a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) will be sent by the People Operations Team outlining the changes to department and specialty for the People Operations team to process in Workday. If the current manager needs to backfill the role, they should reach out to the Finance Partner.
 
 ### Internal Department Transfers
 
@@ -733,7 +728,7 @@ All transfers should eventually be initiated by team members.
 
 ### When promotion is a consideration - Within Same Job Family
 
-If a team member sees a vacancy posted that is the next level up within their [job family](/handbook/hiring/job-families/#job-families) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
+If a team member sees a vacancy posted that is the next level up within their [job family](/handbook/hiring/job-families/) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
 
 It is the manager's responsibility to be honest with the team member about their performance as it relates to their promotion readiness. If the manager agrees that the team member is ready, then they will follow the cyclical promotion calibration process. If they do not think the team member is ready for the promotion, they should walk through their career development document, as well as work on a promotion plan with the team member. The manager should be clear that the team member is not ready for the promotion at this time and what they need to work on. If the team member would still like to submit an application for the role after the conversation with their manager, they can apply and go through the same interview process as external candidates. The recruiter will confirm with the manager that the promotion readiness conversation has taken place before the internal interview process starts.
 
@@ -766,7 +761,7 @@ While the [Organization Change Checklist](/handbook/people-group/promotions-tran
 1. For cases where announcing on the same day the Job Change Letter is signed is not possible, the announcement should be no more than 24 hours after the candidate has signed.
 1. Following this initial announcement, the `current manager` can proceed with making this announcement in other relevant team-specific channels.
 
-NOTE: Although the Total Rewards and People Connect Team may have visibility into promotions or transfers due to the administration of updating information as part of their roles, they should not communicate with the team member about their promotion/transfer until an announcement has been made._
+NOTE: Although the Total Rewards and People Operations Team may have visibility into promotions or transfers due to the administration of updating information as part of their roles, they should not communicate with the team member about their promotion/transfer until an announcement has been made._
 
 ### For People Success & Talent Acquisition Team
 
@@ -781,7 +776,7 @@ An [Organization Change Checklist](https://gitlab.com/gitlab-com/people-group/pe
 - Migration from Manager to Individual Contributor (defined as a decrease in management level from Mgr+ to IC within Workday)
 - Migration of Team (for purposes of Organization Change Checklist, team changes are defined as a change in both manager & cost center)
 
-Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Training Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
 
@@ -792,21 +787,21 @@ When an Organization Change Checklist may not be needed (but can be requested):
 
 - Team/Speciality change but no access request needed
 
-Any other role changes where a Manager feels their team member's role may require an Organization Change Checklist, please reach out to the People Connect team via HelpLab.
+Any other role changes where a Manager feels their team member's role may require an Organization Change Checklist, please reach out to the People Operations team via HelpLab.
 
 ## Organization Change Checklist Creation Process
 
-The [People Connect Specialist](/job-families/people-group/people-connect) in the respective rotation will open a Organization Change Checklist when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
+The [People Operations Specialist](/job-families/people-group/people-connect) in the respective rotation will open a Organization Change Checklist when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
 
-The People Connect Leads will pull a monthly report to check that any qualifying team members did get their Organization Change Checklist is opened.
+The People Operations Leads will pull a monthly report to check that any qualifying team members did get their Organization Change Checklist is opened.
 
-The [Organization Change Checklist](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Connect Team member assigned by using the [automated Slack command](/handbook/people-group/engineering/employment-issues/#organization-change-issues) on the effective date or within 3 days after the effective date to allow for the managers to start preparing for the team member's transition.
+The [Organization Change Checklist](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Operations Team member assigned by using the [automated Slack command](/handbook/people-group/engineering/employment-issues/#organization-change-issues) on the effective date or within 3 days after the effective date to allow for the managers to start preparing for the team member's transition.
 
 Important things to ensure:
 
 1. Add a due date of two weeks from the migration effective date.
 1. Check to see that the previous Manager and new Manager is listed correctly in the issue.
-1. Complete all applicable tasks under the People Connect list.
+1. Complete all applicable tasks under the People Operations list.
 
 ## Important Tasks once the Organization Change Checklist has been finalized
 
@@ -817,10 +812,6 @@ Actions by both the current and new managers are required to set the team member
 - Reminding the team member to update their title on the team page, on their GitLab profile, in Zoom, in Slack and on professional networks like LinkedIn. If relevant, remind them to order new business cards as well.
 - If we are in the middle of Annual Compensation Review, it is encouraged that the current manager and new manager arrange a successful handover of the feedback, whether sync or async.
 - All migration tasks by the applicable team members need to be completed within 2 weeks of the migration start date.
-
-## Career Mobility Retrospective
-
-The team member going through this transition and assigned to their Career Mobility issue have a set of tasks to complete. An important one is to create a retrospective thread within their Career Mobility issue, so that they and their respective previous and current managers can discuss any questions, comments, and proposals. Retrospectives are used in many ways at GitLab, such as which are used after GitLab product [releases](/handbook/engineering/releases/) and describing the Product [retrospective workflow](/handbook/engineering/management/group-retrospectives/). For the Career Mobility issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Please feel free to ping your assigned People Connect Team member in your issue if you have any questions.
 
 ## Promotions and Transfers of Employees in Commissionable Roles
 

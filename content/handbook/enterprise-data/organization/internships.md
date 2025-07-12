@@ -19,7 +19,7 @@ The initial focus of the 2022 Program will be **Data Internship for Learning**, 
 
 ### How Does Data Internship For Learning Work?
 
-The Data Internship for Learning follows [GitLab Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/) guidelines. In addition, given the rapid growth of the Data Team, we seek to partner every Intern with a current [individual contributor](/handbook/engineering/development/dev/training/ic-to-manager/) Data Team member who is interested in exploring their own career development towards a [Leadership](/handbook/people-group/learning-and-development/new-to-leadership/#new-to-leadership-and-management) role, such as a Team Lead specialization or [Data Management](/job-families/finance/manager-data/) role. In this model, both team members share a commitment to support each other's success.
+The Data Internship for Learning follows [GitLab Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/) guidelines. In addition, given the rapid growth of the Data Team, we seek to partner every Intern with a current [individual contributor](/handbook/engineering/training/ic-to-manager/) Data Team member who is interested in exploring their own career development towards a [Leadership](/handbook/people-group/learning-and-development/new-to-leadership/#new-to-leadership-and-management) role, such as a Team Lead specialization or [Data Management](/job-families/finance/manager-data/) role. In this model, both team members share a commitment to support each other's success.
 
 At launch in January 2022, **Data Internship for Learning** will be structured as follows:
 
@@ -143,16 +143,12 @@ An internship gives you insight into a [Data Team role](/handbook/enterprise-dat
 
 #### Openings
 
-| Quarter | Openings | Filled | Remaining Openings |
-| :---: | :---:  | :---: | :---: |
-| FY23Q1 | 0 | 0 | 0 |
-| [FY23Q2](https://gitlab.com/groups/gitlab-data/-/epics/427) | 0 | 0 | 0 |
-| FY23Q3 | 0 | 0 | 0 |
-| FY23Q4 | 1 | 1 | 0 |
-| FY24Q1 | 0 | 0 | 0 |
-| FY24Q2 | 0 | 0 | 0 |
-| FY24Q3 | 0 | 0 | 0 |
-| FY24Q4 | TBD | TBD | TBD |
+| Quarter | Openings | Filled |
+| :---: | :---:  | :---: |
+| FY26Q1 | 1 | 1 | 
+| FY26Q2 | 1 | 0 | 
+| FY26Q3 | 1 | 1 | 
+| FY26Q4 | 1 | 0 | 
 
 #### Requirements
 

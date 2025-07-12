@@ -12,6 +12,8 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2025 June | 99.84% |  |
+| 2025 May | 99.73% |  |
 | 2025 April | 99.97% |  |
 | 2025 March | 100.00% |  |
 | 2025 February | 99.99% |  |

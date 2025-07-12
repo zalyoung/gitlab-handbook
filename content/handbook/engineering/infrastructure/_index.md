@@ -36,7 +36,7 @@ The direction is accomplished by using Objectives and Key Results (OKRs).
 
 Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatives across both Infrastructure and Stage Groups needed to address these gaps.
 
-{{% include "includes/we-are-also-product-development.md" %}}
+{{% include "includes/engineering/we-are-also-product-development.md" %}}
 
 ## Organization structure
 
@@ -154,7 +154,7 @@ at [infra-roadmap.gitlab.com](https://infra-roadmap.gitlab.com/).
 
 **NOTE**:
 The Infrastructure Roadmap is not publicly available as some of the projects and
-initiatives may not be considered [unSAFE](/handbook/legal/safe-framework/).
+initiatives may be considered [unSAFE](/handbook/legal/safe-framework/).
 
 The site presents the roadmap in a visual manner, showing:
 
@@ -201,7 +201,7 @@ The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number 
 
 ## Projects
 
-Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
+Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure-platforms/projects).
 
 The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
 
@@ -209,7 +209,7 @@ In addition to tracking the backlog, Infrastructure Department projects are capt
 
 ## Supporting Product Features
 
-We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
+We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure-platforms/feature-support/) provides details on how we collaborate to ship new features to Production.
 
 ## Stable Counterparts
 
@@ -252,8 +252,7 @@ The Infrastructure department hires for a number of different technical speciali
 
 ## Other Pages
 
-- [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
-- [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
+- [On-call Handover](/handbook/engineering/infrastructure-platforms/production-engineering/ops/on-call-handover/)
+- [SRE Onboarding](/handbook/engineering/infrastructure-platforms/production-engineering/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
-- [Infrastructure careers and internships](career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)

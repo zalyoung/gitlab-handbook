@@ -18,7 +18,7 @@ description: "This page discusses the Internal Hiring Process"
     - SDR 12 months in role
 - Important things to consider when applying:
    1. Ensure the opportunity aligns with your career goals here at GitLab
-   1. Ensure you have taken a look at the compensation calculator and assessed if the compensation range for the new role is suitable for you. We encourage you to bring any questions around compensation and leveling to the recruiter and/or hiring manager for the open role you are interested in and applying for.
+   1. We encourage you to bring any questions around compensation and leveling to the recruiter and/or hiring manager for the open role you are interested in and applying for. Expect the recruiter to discuss the compensation bands with you during your first screening call.
    1. While you may apply to a role with a higher job grade and title, there may be situations (moving from one job family to another for example) where the higher job grade may not align with your current competencies and skillset that is required for the role. If the hiring team does choose to move forward with an offer, in these cases, it's likely a higher job grade and title will not be given.
 - To apply, visit the [internal job openings](https://gitlab.greenhouse.io/internal_job_board). If you are interested in keeping an eye on openings that are posted you can also join the #newvacancy channel in Slack.
 - For any questions you have about internal hiring or questions specific to your individual interview process you can either:

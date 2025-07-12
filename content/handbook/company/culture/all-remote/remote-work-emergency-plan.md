@@ -39,7 +39,7 @@ Executive assistants may take on a more significant role in the transition, func
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg)
 {style="max-width: 50%"}
 
-This will be rudimentary to start, and will serve as a [single source of truth](handbook-first/) for more pressing questions. Communicate this company-wide, and update it continually with DRIs for common questions around tools and access. This can start as a single company webpage or repository in [Notion](https://www.notion.com) or [Almanac](https://almanac.io), and will serve you well even after the current crisis subsides.
+This will be rudimentary to start, and will serve as a [single source of truth](handbook-first/) for more pressing questions. Communicate this company-wide, and update it continually with DRIs for common questions around tools and access. This can start as a single company webpage or repository in [Notion](https://www.notion.com) or similar tools, and will serve you well even after the current crisis subsides.
 
 [GitLab uses GitLab](gitlab-for-remote/) to build, sustain, and evolve its company handbook. GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 

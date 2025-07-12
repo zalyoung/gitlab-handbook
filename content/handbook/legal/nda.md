@@ -9,7 +9,7 @@ description: "How to send or request an NDA"
 
 ## How To Send an NDA via DocuSign
 
-Team members with DocuSign access can use the pre-signed GitLab NDA template to send an NDA for signature (note: all Sales team members have DocuSign access). A demo of the process can be found [here](https://youtu.be/DaOggzBcb0).
+Team members with DocuSign access can use the pre-signed GitLab NDA template to send an NDA for signature (note: all Sales team members have DocuSign access).
 
 1. Log into DocuSign and select `Use a Template` from the dropdown menu under `Start`.
 1. On the left, select `Shared with Me` and locate the `Non-Disclosure Agreement Pre-Signed Template`.
@@ -37,4 +37,4 @@ The processes above are only for standard GitLab NDAs. If a non-standard NDA is 
 
 - A **customer** or **partner**, open a [Legal Request](/handbook/legal/customer-negotiations/#how-to-reach-the-legal-commercial-team) in Salesforce.
 
-- A **vendor** or other third-party, create a [Legal and Compliance issue](https://gitlab.com/gitlab-com/legal-and-compliance) and label it NDA Request.
+- A **vendor** or other third-party, use the [NDA-request issue template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?description_template=NDA-request) in the Legal and Compliance project.

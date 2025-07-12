@@ -48,7 +48,6 @@ To work more efficiently, the Staff Support Engineer should assign merge request
 
 There are various ways to keep track of what's happening at a higher level in Support, including, but not limited to:
 
-- Attend the Support [Group Conversation](/handbook/company/group-conversations/).
 - See what [Support Managers are working on](/handbook/support/managers/_index.md#how-to-see-what-the-support-managers-are-working-on).
 - Look over [Support (senior) leadership meeting notes](/handbook/support/managers/_index.md#support-leadership-meetings).
 - Review [OKRs](../#okrs) and [KPIs](/handbook/support/performance-indicators.md)
@@ -63,11 +62,11 @@ Staff Support Engineers should discuss with their manager if and when to take on
 1. Have at most 1 Objective per quarter, split into multiple KRs as needed.
 1. Decide on the definition of attainment. Depending on the OKR this may be 70% or 95%.
 1. Ideas for the OKR may come from any number of sources, including (but not limited to):
-    - Proposed OKRs
-    - [Support Direction](/handbook/support/)
-    - E-group requests (typically from Key Review)
-    - Skip level discussions
-    - Identified trends or repeated inquiries (within Support or GitLab, or customers)
+   - Proposed OKRs
+   - [Support Direction](/handbook/support/)
+   - E-group requests (typically from Key Review)
+   - Skip level discussions
+   - Identified trends or repeated inquiries (within Support or GitLab, or customers)
 
 ## Support Engineering READMEs
 

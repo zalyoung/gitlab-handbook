@@ -19,7 +19,7 @@ To collaborate on the content in this page, please either submit an MR (preferre
 
 - [Table of data sources and refresh schedules](/handbook/enterprise-data/platform/#data-sources) to understand standard load times for each data source.
 
-- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization. 
+- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization.
 
 ## Data Model Categories
 
@@ -71,7 +71,7 @@ These categories are grouped by data source and subject area.
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Categories of data collected: Subscription, Operational, Optional](/handbook/legal/privacy/customer-product-usage-information/.md#what-are-the-data-collection-services-that-constitute-product-usage-data)
+- [Categories of data collected: Subscription, Operational, Optional](/handbook/legal/privacy/customer-product-usage-information/#what-are-the-data-collection-services-that-constitute-product-usage-data)
   - [Operational metrics](https://metrics.gitlab.com/?q=operational)
   - [Optional metrics](https://metrics.gitlab.com/?q=optional)
 

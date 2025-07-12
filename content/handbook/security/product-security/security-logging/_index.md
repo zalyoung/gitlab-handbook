@@ -93,12 +93,12 @@ work for different services alongside each other.
 #### Team Planning
 
 - For the **long term strategy** of the InfraSec Team, you can refer to:
-  - 📊 [Sec-Logging Roadmap](tbd)
-  - 🎯 [Sec-Logging OKRs](tbd)
+  - 📊 Sec-Logging Roadmap (tbd)
+  - 🎯 Sec-Logging OKRs (tbd)
 - From a **tactical point of view**, you can refer to:
-  - 🎯 [Sec-Logging Milestones (quarterly)](tbd)
-  - 🗓 [Sec-Logging Epics for this quarter](tbd)
-  - 🎛 [Sec-Logging Initiatives Board](tbd) (for the tasks we are currently working on)
+  - 🎯 Sec-Logging Milestones (quarterly) (tbd)
+  - 🗓 Sec-Logging Epics for this quarter (tbd)
+  - 🎛 Sec-Logging Initiatives Board (tbd) (for the tasks we are currently working on)
 
 #### Project Ownership
 

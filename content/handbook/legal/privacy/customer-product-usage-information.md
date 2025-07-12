@@ -29,7 +29,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Service Ping collected via Self-Managed instances, Dedicated and GitLab.com namespaces are automatically generated on a weekly basis. The data will appear in our data warehouse within one-day after generation. Only the metrics that were instrumented through the version the Self-Managed instance is running on are available. For example, if a metric is instrumented during the development of version 16.9, it will be available on instances running versions equal to or greater than 16.9.
 
-*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
+*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/).
 
 *Types of Data*: Service Ping Metrics have been broken down into the four categories of Metrics listed below:
 
@@ -81,7 +81,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Snowplow Metrics collected from Self-Managed, GitLab.com and Dedicated are sent to the data warehouse contemporaneously.
 
-*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
+*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/).
 
 *Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/events/), as well as Project_ID, Namespace_ID/Group_ID, and the country and region of the user's location.
 
@@ -109,7 +109,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ## Switchboard
 
-*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/). Switchboard is used by customer teams to maintain and configure their own Dedicated tenant. Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard. In turn, these Metrics will assist in driving further development of the Switchboard application.
+*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/platforms/switchboard/). Switchboard is used by customer teams to maintain and configure their own Dedicated tenant. Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard. In turn, these Metrics will assist in driving further development of the Switchboard application.
 
 *Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Switchboard application.
 
@@ -121,7 +121,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Switchboard Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
 
-*Ownership*: Switchboard Metrics are owned by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).
+*Ownership*: Switchboard Metrics are owned by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/).
 
 *Types of Data*: A full list of the Switchboard Metrics collected can be viewed [here](https://metrics.gitlab.com/events/?serviceName=Switchboard).
 
@@ -129,19 +129,19 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ## GitLab Duo (AI-Powered Features)
 
-*Purpose*: GitLab collects [Snowplow events](/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly. 
+*Purpose*: GitLab collects [Snowplow events](/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly.
 
 *Applicable Software*: GitLab Duo Metrics are collected from GitLab.com, Dedicated and Self-Managed users that have Duo licenses since GitLab Duo is a cloud-connected feature add-on.  For instances that use only self-hosted models, please see the opt-out directions at the bottom of this section.
 
 *Configuration*:  For GitLab.com or Dedicated, first-party Duo Metrics are collected from the editor extension by our Snowplow collector and then sent to our data warehouse. For Self-Managed instances, first-party Duo Metrics are collected from the editor extension, sent to the instance, and our Snowplow collector sends the Metrics from the instance to our data warehouse.
 
-*Personal Data Collected*: GitLab Duo Metrics may contain the personal data of individual users in a raw format. These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse. Specifically, we pseudonymize fields such as [user_id, namespace_id, project_id and page_url](https://metrics.gitlab.com/identifiers/) to protect user privacy while still maintaining the ability to analyze usage patterns. These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users. 
+*Personal Data Collected*: GitLab Duo Metrics may contain the personal data of individual users in a raw format. These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse. Specifically, we pseudonymize fields such as [user_id, namespace_id, project_id and page_url](https://metrics.gitlab.com/identifiers/) to protect user privacy while still maintaining the ability to analyze usage patterns. These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users.
 
 *Data Sharing*: GitLab Duo Metrics are not shared with independent third-parties. All systems and software used in the collection and transfer of GitLab Duo Metrics are GitLab-controlled systems.
 
 *Cadence*: GitLab Duo Metrics that are collected from GitLab.com, Dedicated, and Self-Managed are sent to our data warehouse contemporaneously.
 
-*Ownership*: GitLab Duo Metrics are owned by the [Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
+*Ownership*: GitLab Duo Metrics are owned by the [Analytics Instrumentation Group](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/).
 
 *Types of Data*: A full list of the GitLab Duo Metrics collected can be viewed [here](https://metrics.gitlab.com/events/?category=duo). In addition, you can find a general overview of Duo telemetry [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
 

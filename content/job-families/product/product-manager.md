@@ -42,7 +42,7 @@ In addition, as a PM, you also play a critical role in the regular development a
 | --- | --- |
 | Maintain and update [Direction pages](https://about.gitlab.com/direction/#devops-stages) | Direction pages communicate our [vision](https://about.gitlab.com/direction/) and plan externally and internally. |
 | Review PIs and update [PI pages](https://internal.gitlab.com/handbook/company/performance-indicators/product/) | Product Indicators are how we know whether or not we are making the right investments or measuring the right thing. PMs should be intimately knowledgeable with the PIs in their domain. |
-| Release planning for every milestone | PMs are the DRIs for planning and [prioritizing](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) the work for their respective development group. Some of the output for release planning can be planning issues and [kick-off](/handbook/product/product-processes/#kickoff-meetings) videos. |
+| Release planning for every milestone | PMs are the DRIs for planning and [prioritizing](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) the work for their respective development group. Some of the output for release planning can be planning issues. |
 | Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted. |
 | Drive alignment with stable counterparts via [OKRs](/handbook/product/product-processes/#objectives-and-key-results-okrs) | PMs play a role in facilitating alignment by ensuring individual functional groups' objectives are appropriately prioritized within their development group. |
 | Connect user and customer insights with [product prioritization](/handbook/product/product-processes/#issues-important-to-customers) | Customer interviewing, collecting insights about customer adoption, pain points, and reprioritizing "What's Next". PMs are responsible for continuously refining the most important feature, bugs, and tech debt to ensure relevance to the market, install base, and expansion. |
@@ -79,7 +79,7 @@ Producing a lovable product requires more than a deep understanding of the probl
 
 It is not sufficient to just know the problems. It is also insufficient to have a solution to the problem that our customers love. PMs also need to ensure that the solution is viable for GitLab.
 
-- PMs participate in and follow the [product development flow](/handbook/product-development/product-development-flow/) so that their development group can consistently release features [every month](https://about.gitlab.com/releases/).
+- PMs participate in and follow the [product development flow](/handbook/product-development/how-we-work/product-development-flow/) so that their development group can consistently release features [every month](https://about.gitlab.com/releases/).
 - PMs [determine the tiers of features](/handbook/company/pricing/)
 - PMs ensure that issues that impact GitLab are appropriately [prioritized](/handbook/product/product-processes/#prioritization)
 - PMs interface with marketing and sales to promote and enable the sale of the product.
@@ -328,7 +328,7 @@ Beyond the [base requirements](#base-pm-requirements), Senior Principal Product 
 
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the product collaborator for one (or more) [SEG](/handbook/company/structure/#single-engineer-groups)s.
-- Lead cross stage initiatives, for example: [Top Cross-Functional Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives)
+- Lead cross stage initiatives, for example: [Working group](/handbook/company/working-groups/)
 - Maintains and owns [cross-section directions](/handbook/product/product-processes/#navigating-cross-stage-or-cross-section-direction-pages).
 -Leads working groups to accomplish cross-section [BHAG](/handbook/company/mission/#big-hairy-audacious-goal-bhag)s and targets
 - Identifies and submits investment cases for SEGs, Product Groups, and Categories

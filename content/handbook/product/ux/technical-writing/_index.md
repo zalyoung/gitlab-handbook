@@ -6,7 +6,7 @@ The GitLab Technical Writing team collaborates with developers, product managers
 
 Good documentation meets the evolving needs of GitLab customers, users, and administrators. It educates readers about features and best practices. It enables people to efficiently configure, use, and troubleshoot GitLab. The Technical Writing team manages the [docs.gitlab.com](https://docs.gitlab.com) site and its content, processes, and tooling.
 
-The [documentation roadmap](https://gitlab.com/groups/gitlab-org/-/epics/4602) drives our efforts to improve both the content and [documentation website](https://docs.gitlab.com/). For example, we know that people have trouble finding information on docs.gitlab.com. We have roadmap items and OKRs to replatform the docs site, provide better task-based information, and make content easier to find. These larger projects, completed in addition to feature documentation, provide continual, iterative improvement to the user experience of our documentation.
+The [documentation roadmap](https://gitlab.com/groups/gitlab-org/-/epics/17363) drives our efforts to improve both the content and [documentation website](https://docs.gitlab.com/). For example, we know that people have trouble finding information on docs.gitlab.com. We have roadmap items and OKRs to replatform the docs site, provide better task-based information, and make content easier to find. These larger projects, completed in addition to feature documentation, provide continual, iterative improvement to the user experience of our documentation.
 
 Anyone can contribute to the documentation. Follow our [GitLab documentation guidelines](https://docs.gitlab.com/development/documentation/).
 
@@ -26,8 +26,9 @@ To contact the entire team in a GitLab issue or MR, use `@gl-docsteam`.
 The team manages general documentation-related and team-specific Slack channels:
 
 - `#docs`: Questions and general discussion about GitLab documentation, and requests by GitLab team members for doc and UI text reviews.
+- `#docs-engineering`: Discussion about the Docs website and other engineering projects.
 - `#docs-processes`: Discussion about documentation processes.
-- `#docs-tooling`: Discussion about documentation tooling and the `docs-gitlab-com` project.
+- `#docs-tooling`: Discussion about documentation tooling.
 - `#docs-site-changes-hugo`: Automated messages from the [`docs-gitlab-com`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project.
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
@@ -89,8 +90,8 @@ When evaluating work to meet our stakeholders' needs, we prioritize in the follo
 
 1. Feature work (including documenting new features, and providing guidance on UI text)
 1. OKR-related work
-1. Backlog issues (including docs technical debt and implementing content topic design)
-1. All other tasks (including creating suggestion- or warning-level [Vale rules](https://docs.gitlab.com/development/documentation/testing/vale/#result-types))
+1. Docs improvements and backlog issues (including stage lead work, docs technical debt and implementing content topic design)
+1. All other tasks (including DocOps tasks)
 
 ### Processes
 
@@ -126,7 +127,7 @@ The Technical Writing team develops and maintains toolkits to test GitLab's docu
 - Link validity: Lychee
 - File permissions and naming: `lint-doc.sh`
 
-Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer.
+Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer in the [DocOps group](#docops-group).
 
 #### Translation and internationalization
 
@@ -220,6 +221,22 @@ Over time, and with fewer groups assigned per stage lead, an aspirational goal i
 For [documentation improvements](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
 
+### DocOps group
+
+[DocOps](https://www.writethedocs.org/guide/doc-ops/) is like DevOps, but for documentation. It's an
+approach to help streamline the creation, management, and deployment of documentation.
+
+Some Technical Writers are members of the [DocOps group](https://gitlab.com/gitlab-org/technical-writing/tw-docops), which is responsible for:
+
+- Maintaining content quality through testing and linting in CI and on your local machine.
+- Assisting [Docs Engineers](/job-families/product/ux-fullstack-engineer/) with operations tasks when asked, or when those engineers are not online. For example,
+helping with Pages configuration, deployments, scheduled pipelines, and review apps.
+- Updating dependencies for linting tools, and rolling those updates out in upstream documentation projects.
+The DocOps group is not responsible for the documentation website's code, infrastructure, or build scripts. 
+DocOps tasks are [prioritized](#prioritization) below feature work and OKR-related work.
+
+Participation in the DocOps group is based on team requirements. To express interest in joining, speak to your manager.
+
 ### Assignments to other projects and subjects
 
 For collaboration in other projects and subjects:
@@ -228,10 +245,10 @@ For collaboration in other projects and subjects:
 |:--------------------------------------------------------------------------------     |:--------------------------|
 | The documentation site                                                               | {{< member-by-name "Diana Logan" >}} |
 | The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
-| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
-| [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
-| [Left nav](https://docs.gitlab.com/development/documentation/site_architecture/global_nav/) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
-| [Testing/Vale/markdownlint](#testing)                                                | {{< member-by-name "Fiona Neill" >}} |
+| The documentation's information architecture | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} {{< member-by-name "Suzanne Selhorn" >}} |
+| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} |
+| [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} {{< member-by-name "Kati Paizee" >}} |
+| [Testing](#testing) (DocOps/Vale/markdownlint)                                       | {{< member-by-name "Michael Belton" >}} |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
@@ -387,6 +404,12 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- November, 2025: {{< member-by-name "Zach Painter" >}}
+- October, 2025: {{< member-by-name "Lysanne Pinto" >}}
+- September, 2025: {{< member-by-name "Isaac Durham" >}}
+- August, 2025: {{< member-by-name "Lorena Ciutacu" >}}
+- July, 2025: {{< member-by-name "Phillip Wells" >}}
+- June, 2025: {{< member-by-name "Achilleas Pipinellis" >}}
 - May, 2025: {{< member-by-name "Marcel Amirault" >}}
 - March, 2025: {{< member-by-name "Brendan Lynch" >}}
 - February, 2025: {{< member-by-name "Emily Sahlani" >}}
@@ -395,12 +418,6 @@ Schedule for Docs project maintenance tasks:
 - November, 2024: {{< member-by-name "Ryan Lehmann" >}}
 - October, 2024: {{< member-by-name "Russell Dickenson" >}}
 - September, 2024: {{< member-by-name "Marcel Amirault" >}}
-- August, 2024: {{< member-by-name "Jon Glassman" >}}
-- July, 2024: {{< member-by-name "Ashraf Khamis" >}}
-- June, 2024: {{< member-by-name "Evan Read" >}}
-- May, 2024: {{< member-by-name "Lorena Ciutacu" >}}
-- April, 2024: {{< member-by-name "Lysanne Pinto" >}}
-- March, 2024: {{< member-by-name "Amy Qualls" >}}
 
 <!-- vale handbook.Spelling = YES -->
 

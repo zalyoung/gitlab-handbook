@@ -55,7 +55,6 @@ In conventional organizations, multiple departments may maintain their own versi
 
 **Recommended TeamOps Partners:**
 
-- [Almanac](https://almanac.io/) (tool)
 - [Distribute Consulting](https://www.distributeconsulting.com/) (consultant)
 {{% /details %}}
 

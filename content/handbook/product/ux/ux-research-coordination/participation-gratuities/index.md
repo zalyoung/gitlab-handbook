@@ -42,6 +42,16 @@ Such as:
 
 If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards), please review the following information in the [handbook](/handbook/legal/process-for-ux-research-prize-draws/) and consult with legal where required. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional games or contests.
 
+Note if you need to cancel or reschedule the session, you will still need to process the gratuities in some cases.
+
+| Notice Period Given | % of Incentive To Pay Out |
+| ------ | ------ |
+| <= 24 hours ahead of the session | 100% |
+| <= 36 hours ahead of the session | 50% |
+| > 36 hours ahead of the session | 0% |
+
+For Cancellation or Reschedulling best practice, see the [Resources for Research DRIs page](/handbook/product/ux/ux-research/resources-for-research-dris/#roles-and-responsibilities-by-phases)
+
 ## Fulfillment
 
 Requests for thank you gifts should be fulfilled at least twice per week so that users receive their gift promptly after participating in research. It's important to maintain a customer first mindset when interacting with participants - receiving their gift is the end of the research cycle and another touchpoint in their relationship with GitLab. Participants who take part through Respondent or other 3rd party tools, will have their incentives processed the next business day by the UX Research Operations Coordinator - only if the UX Researcher on the project has marked the participants as attended.

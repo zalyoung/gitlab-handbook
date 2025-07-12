@@ -22,15 +22,15 @@ This page outlines the DBO team's incident escalation policy.
 
 ## SLO and Expectations
 
-* **_DBO RESPONSE IS ON A BEST-EFFORT BASIS_** 
+* **_DBO RESPONSE IS ON A BEST-EFFORT BASIS_**
 
 * **_LOCAL TIMEZONE, WEEKDAY COVERAGE ONLY_**
 
-* **_S1 / S2 INCIDENTS ONLY_** 
+* **_S1 / S2 INCIDENTS ONLY_**
 
-  * NB1: Due to limited staffing, i.e. having only one person in EMEA timezone, there will be times during the business day, within multible timezones, where there will not be anyone able to respond.  We understand the criticality of responding to S1/S2 incidents and we will make every effort to ensure there is adequete and timeliness in our responses, but given the current staffing levels, we are not at this point adhereing to a hard SLO. To do justice to this situation, it is also expected that schedules are changed on an ad-hoc bases. 
+  * NB1: Due to limited staffing, i.e. having only one person in EMEA timezone, there will be times during the business day, within multible timezones, where there will not be anyone able to respond.  We understand the criticality of responding to S1/S2 incidents and we will make every effort to ensure there is adequete and timeliness in our responses, but given the current staffing levels, we are not at this point adhereing to a hard SLO. To do justice to this situation, it is also expected that schedules are changed on an ad-hoc bases.
 
-  * NB2: DBO will join incidents as a subject matter expert in a consultative capacity and there should be no expectation that the DBO engineer is solely responsible for a resolution of the escalation. There may be times where the DBO needs to escalate to other subject matter experts, such as the [Database Framework (DBF) team](../database-framework/), in order to make headway on the incident at hand.  
+  * NB2: DBO will join incidents as a subject matter expert in a consultative capacity and there should be no expectation that the DBO engineer is solely responsible for a resolution of the escalation. There may be times where the DBO needs to escalate to other subject matter experts, such as the [Database Framework (DBF) team](../database-framework/), in order to make headway on the incident at hand.
 
 ## Escalation Process
 
@@ -45,7 +45,7 @@ This page outlines the DBO team's incident escalation policy.
    * NB3: This process is **NOT** a path to reach the DBO team for non-urgent issues.  For non-urgent issues, please create a [Request for Help](https://gitlab.com/gitlab-com/request-for-help#ops-section) (RFP) issue using this [Issue template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-DatabaseOperations).
 
    * NB4: The DBO on-shift is responsbile for coordinating warm handoffs during shift changes, especially when there is an ongoing, active incident.
-   
+
 ### Escalation
 
 1. EOC/IM, Development or Security page the DBO on-call via [PagerDuty](https://gitlab.pagerduty.com/schedules#P1JP4AL)
@@ -89,7 +89,7 @@ To get an idea of what's expected of an on-call DBO and how often incidents occu
 1. [Scalability documentation](https://gitlab.com/gitlab-org/gitlab/merge_requests/18976).
 1. [Use Grafana and Kibana to look at PostgreSQL data to find the root cause](https://youtu.be/XxXhCsuXWFQ).
    * Related incident: [Postgres transactions timing out; sidekiq queues below apdex score; and overdue pull mirror jobs](https://gitlab.com/gitlab-com/gl-infra/production/issues/1433).
-1. [Use Grafana, Thanos, and Prometheus to troubleshoot API slowdown](https://www.youtube.com/watch?v=DtP4ZcuXT_8).
+1. [Use Grafana and Prometheus to troubleshoot API slowdown](https://www.youtube.com/watch?v=DtP4ZcuXT_8).
    * Related incident: [2019-11-27 Increased latency on API fleet](https://gitlab.com/gitlab-com/gl-infra/production/issues/1419).
 1. [Let's make 500s  more fun](https://youtu.be/6ERO4XsYDn0?list=PL05JrBw4t0KodGBz0XUYdYaAYyYs-6ZK7)
 

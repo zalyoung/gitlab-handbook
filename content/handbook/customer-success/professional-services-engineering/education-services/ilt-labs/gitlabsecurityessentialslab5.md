@@ -42,7 +42,7 @@ dast:
       alias: juiceshop
 ```
 
-1. We can provide many different variables to our DAST scanner. We will add the following values to the scanner:
+1. We can provide many different variables to our DAST scanner. We will add the following values to the DAST scanner:
 
     ```yml
     variables:
@@ -61,14 +61,6 @@ dast:
     ```
 
     > To highlight some variables, `DAST_TARGET_URL` and `DAST_AUTH_URL` provide a target for scanning and authentication. We provide credentials for authentication with `DAST_AUTH_USERNAME` and `DAST_AUTH_PASSWORD`. The `DAST_AUTH_USERNAME_FIELD` and related field variables tell DAST where to input login data. Our remaining settings are scan settings to help reduce the scan time for this demonstration.
-
-1. To provide the results of the DAST scanner to your security report, you can pass it as a job artifact:
-
-    ```yml
-    artifacts:
-        paths: [gl-dast-report.json]
-        when: always
-    ```
 
 1. After entering all of these values, your yaml file should look like this:
 
@@ -96,10 +88,6 @@ dast:
           DAST_AUTH_REPORT: "false"
           DAST_REQUEST_COOKIES: "welcomebanner_status:dismiss,cookieconsent_status:dismiss"
           DAST_CRAWL_GRAPH: "false"
-      artifacts:
-        paths: [gl-dast-report.json]
-        when: always
-
     ```
 
 1. Commit these changes and let the DAST scan run. You can monitor the job progress from **Build > Pipelines**.
@@ -114,7 +102,7 @@ dast:
 
 API scanners allow you to scan your application API endpoints for potential vulnerabilities. To demonstrate this process, we will use an application template which contains an API configuration.
 
-1. Navigate to your ILT group.
+1. Navigate to your ILT group, which will be named **My Test Group - XXXX**, where the X's will be replaced with your username.
 
 1. Select **New project**.
 
@@ -124,18 +112,19 @@ API scanners allow you to scan your application API endpoints for potential vuln
 
 1. Select **Use template** next to the **Security Essentials Labs** template.
 
-1. For **Project name**, input `Security Labs`. 
+1. For **Project name**, input `API Scanner Demo`. 
 
 1. Select **Create project**. 
 
 1. Take some time here to review the `postman_collection.json` file. This file contains the definitions required to run API scanning against the application in this project. After reviewing the file and structure, you can proceed with enabling API scanning.
 
-1. Open your `.gitlab-ci.yml` file. 
+1. Create a `.gitlab-ci.yml` file by clicking on the **+ > New file** and naming the file `.gitlab-ci.yml`.
 
-1. To add API scanning to our container, define the `dast` job and add the API security template.
+1. To add API scanning to our container, define the `dast` stage and add the API security template.
 
   ```yml
-  image: docker:26
+  default:
+    image: docker:26
 
   include:
       - template: API-Security.gitlab-ci.yml
@@ -146,7 +135,6 @@ API scanners allow you to scan your application API endpoints for potential vuln
 
   variables:
     TARGET_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-
   ```
 
 1. Create a build job, which creates a Docker container to scan.
@@ -159,8 +147,7 @@ API scanners allow you to scan your application API endpoints for potential vuln
       script:
           - docker build -t $TARGET_IMAGE .
           - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-          - docker push $TARGET_IMAGE
-          
+          - docker push $TARGET_IMAGE   
   ```
 
 1. Add the job definition for the API scanner.

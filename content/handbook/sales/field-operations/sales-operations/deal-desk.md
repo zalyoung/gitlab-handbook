@@ -393,7 +393,7 @@ The payment capture link functionality is a tool by which Opportunity Owners can
 - **Link Expiration**: The payment capture link expires after 72 hours, after which you will need to send another link if the recipient has not entered their details yet. You will be notified on SFDC if this occurs.
 - **Opportunity Closure Requirements**: The credit card details need to be captured before you can close the Opportunity. In other words, the customer needs to successfully open the payment capture link and enter their credit card information for the deal to close and for them to access GitLab.
 
-Step by step guide:
+**Step by step guide:**
 
 Please see this [video](https://gitlab.highspot.com/items/67eed1b04e5bc5ca5624e8a1?lfrm=rhp.0) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
 
@@ -401,15 +401,21 @@ Please see this [video](https://gitlab.highspot.com/items/67eed1b04e5bc5ca5624e8
 1. Complete the **To Add Products to your quote,** step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide and add approriate discounts if needed.
 1. Once you are ready to save the quote, click **Submit** at the top of the screen.
 1. The Quote has to be submitted for approval & approved or `approval not required` (i.e. there is no discount or the discount is too low to require approvals as per the appropriate discount matrix) to be able to send the payment link. So, please ensure you have gotten the appropriate approvals before proceeding to the next step.
-1. Click on the dropdown menu in the Opportunity next to the **Generate PDF** button.
+1. Click on the dropdown menu while you are on the Quotes page next to the **Generate Signature PDF** button.
 1. Select **Send Payment Link**.
 1. This will send a payment link email with the subject **Set Up Your Secure Automated Credit Card Payments** to the customer. Please see the above linked video for a customer POV.
 1. Once the customer has successfully entered the payment details in the capture link, the quote will be updated confirmation of the capture in the fields **Payment Method Captured** and **Payment Method Capture Date**. If the customer does not enter the enter their details within 72 hours, the link is expired and you will be notifed. You will have to send another link.
 1. The Opportunity cannot be closed until the payment details have been captured. 
 
-- If you are unable to get the customer to submit their credit card payment details for whatever reason, you can switch to Wire payment.
-- We advise that you inform the customer ahead of time on how the payment capture link works and that they will not recieve a license until they provide the payment information.
-- Assuming you are also sending an order form, please consider the timing of sharing the order form alongside the payment capture link such that it is a smooth process for the customer.
+**FAQ:**
+
+1. **Is the payment capture link a payment link?** No, this is strictly a link to capture the payment information. The actual payment happens at a later date (explained in a later question below).
+1. Could we get notifications when the customer has successfully completed the payment capture link form? We are working on this and the notification will show in SFDC once the customer successfully enters the required information.
+1. **What if the customer does not want to use the payment capture link?** If you are unable to get the customer to submit their credit card payment details for whatever reason, you can switch to Wire payment.
+1. **When should I explain to the customer how the payment capture link works?** We advise that you inform the customer ahead of time on how the payment capture link works and that they will not recieve a license until they provide the payment information.
+1. **At what point in the deal should I send the payment capture link?** Assuming you are also sending an order form, please consider the timing of sharing the order form alongside the payment capture link such that it is a smooth process for the customer.
+1. **Do customers using this tool get an invoice? How does it get paid?** All customers using this tool will receive an invoice within 24 hours of the opportunity status being updated to closed won. As the customer is on auto-pay, the payment will typically happen on midnight of the date the invoice is due via the captured credit card.
+1. **Can the payment terms for customers using this tool be Net 30?** Although we highly recommend Due Upon Receipt, it can be Net 30 if the customer is pushing for it. 
 
 ### Quote Creation: Step by Step Guide by Quote Type
 
@@ -954,7 +960,7 @@ Contract Resets are used to perform an "Early Renewal" - i.e. start a new 12 mon
 - Fill out the necessary information on the quote per the instruction under the New Subscription Quote section above.
   - **Note: The Start Date should be the new subscription term's start date, or the "Early Renewal" date.**
 - Click Next and update the products and fees per the steps above.
-- **IMPORTANT:** Next, please use the "Request Support" workflow on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
+- **IMPORTANT:** Next, please use the "Request Support" workflow on the Renewal Opportunity for Deal Desk to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and add Contract Reset custom terms to your New Subscription quote to appear on the Order Form once the quote has been fully approved.
 
 For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure the customer is not downgraded to free when their initial subscription is cancelled. These are outlined in more detail in [this presentation](https://docs.google.com/presentation/d/1fv_QMzPJ4Al5AaPBNd-IW5dCwuac56ShrzcpjUO_S60/edit?usp=sharing).
 

@@ -13,7 +13,6 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
 - **Kiran Chinthapalli - Director, CRM Systems**
-- **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan](https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
 - **Analissa "Ana" Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
@@ -235,7 +234,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
   - ["Start less, finish more"](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/#starting-new-work)
-  - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
+  - ["Reduce Issue Churn"](/handbook/engineering/devops/ops/verify/runner)
 
 ### Steps to getting help from Sales Systems
 
@@ -300,9 +299,9 @@ Salesforce CRM System Owners should provide the signoff. The signoff matrix is a
 
 | Main Approver                                         | Backup Approver                                                       |
 |-------------------------------------------------------|-----------------------------------------------------------------------|
-| Sheela Viswanathan - Senior Manager, Sales Systems    | Nabitha Rao - VP, IT                                                  |
-| Korben Carreno - Manager, CRM Systems                 | Raul Pavon - Director Enterprise architecture and Applications        |
-| Kiran Chinthapalli - Director, CRM Systems            | Nishanth Sekhar - Director, Enterprise Applications (Lead to Cash)    |
+| Korben Carreno - Manager, CRM Systems                 | Nabitha Rao - VP, IT                                                  |
+| Kiran Chinthapalli - Director, CRM Systems            | Raul Pavon - Director Enterprise architecture and Applications        |
+|                                                       | Nishanth Sekhar - Director, Enterprise Applications (Lead to Cash)    |
 |                                                       | Monali Bhide - Manager, IT Enterprise Applications Engineering        |
 |                                                       | Pratik Gupta - Manager, IT Enterprise Applications Engineering        |
 

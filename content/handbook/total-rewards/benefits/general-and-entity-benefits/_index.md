@@ -162,7 +162,7 @@ If you have questions, reach out in the [#peopleconnect](https://gitlab.enterpri
 
 ### AIG travel Assistance app
 
-Under this policy, team members also have access to the [AIG travel Assistance App](https://drive.google.com/file/d/1npuraFOKjlHWNYD6xBnH8YYQKKJloapv/view?usp=sharing), we encourage you download prior to your travels, as it is a resource to connect you to emergency travel assistance. 
+Under this policy, team members also have access to the [AIG travel Assistance App](https://drive.google.com/file/d/1npuraFOKjlHWNYD6xBnH8YYQKKJloapv/view?usp=sharing), we encourage you download prior to your travels, as it is a resource to connect you to emergency travel assistance.
 
 See the [AIG assistance website and app user guide](https://drive.google.com/file/d/1XPvawtYXEIAk8UBx83ZyWFGUM2Rlp_9G/view?usp=sharing) for more details
 
@@ -382,7 +382,7 @@ Seth's recommendation ties to an operating principle of Diversity, Inclusion & B
 
 > The hardest part of coming back from parental leave has been getting caught up/reintegrating with the GitLab team while sleep deprived. I recommend taking to heart the `don't worry` portion of GitLab's guide to paid time off, which states: "You don't need to worry about taking time off to go to the gym, take a nap, go grocery shopping, do household chores, help someone, take care of a loved one, etc. If you have urgent tasks, but something comes up or takes longer than expected, just ensure the rest of the team **knows** and someone can pick up the tasks (assuming you're able to communicate)." — [*Jonathan S.*](https://gitlab.com/jschafer)
 
-Jonathan's recommendation adds a layer of nuance to [Accepting Uncertainty](/handbook/values/#accepting-uncertainty), an operating principle of [Results](/handbook/values/#results). It also touches on [Give agency](/handbook/values/#give-agency), an operating principle of [Collaboration](/handbook/values/#collaboration), which empowers team members to focus on what they think is most beneficial.
+Jonathan's recommendation adds a layer of nuance to [Have Ownership & Accountability](/handbook/values/#have-ownership--accountability), an operating principle of [Results](/handbook/values/#results). It also touches on [Give agency](/handbook/values/#give-agency), an operating principle of [Collaboration](/handbook/values/#collaboration), which empowers team members to focus on what they think is most beneficial.
 
 > Take advantage of GitLab's bias towards [asynchronous communication](/handbook/company/culture/all-remote/management/#asynchronous). A child's schedule shifts rapidly, and I've found it useful to structure my days around my son's routine rather than force him to operate on a rigid timeline. Being a part of a [100% remote team](/handbook/company/culture/all-remote/) empowers team members to [embrace work/life harmony](/handbook/company/culture/all-remote/people/#worklife-harmony) in whatever way suits them. Moreover, it's liberating to be able to shift when and where I work depending on the needs of my family.
 >

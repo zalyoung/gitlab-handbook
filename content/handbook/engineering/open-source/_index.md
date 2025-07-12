@@ -44,6 +44,16 @@ If your GitHub account's primary email is not your @gitlab.com email, you can ad
 
 In the future, we might have a single organization for forks. That will allow us to track various metrics about contributions made by GitLab employees.
 
+### If a project does not have a license
+
+GitLab allows contribution to open source licensed projects. If the project to you which you wish to contribute does not have a license:
+
+1. Hold off making any contributions to the project until a license is in place.
+1. Open an issue in the project (or contact the maintainers through other documented means).
+1. Request the project adds an appropriate license citing an inability to contribute to unlicensed code.
+1. Potentially refer to licenses used in other projects in the same group/organization as an easy reference for the maintainer.
+1. If an open source license is added, you may then contribute to the project.
+
 ## Using open source software
 
 The guidance for using open source software, including details of which licenses are pre-approved for use, is now available in the [Legal & Corporate Affairs handbook](/handbook/legal/product/#using-open-source-software).

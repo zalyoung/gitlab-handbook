@@ -306,10 +306,6 @@ Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitL
 - [Figma](https://www.figma.com/) - design collaboration
 - [CoScreen](https://www.coscreen.co/) - remote screen sharing
 
-#### Handbook and company-wide documentation
-
-- [Almanac](https://almanac.io/)
-
 #### Empathy, culture, and team-building
 
 - [Sike Insights Kona](https://www.heykona.com/) - team personality, mood, and morale insights

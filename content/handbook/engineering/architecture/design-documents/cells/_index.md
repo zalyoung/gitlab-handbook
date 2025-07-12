@@ -43,8 +43,9 @@ This section links all different technical proposals that are being evaluated.
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
 - [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
-- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
 - [Cells: Infrastructure](./infrastructure/_index.md)
+- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
+- [Settings Synchronization](./proposal-admin_area_setting_sychronization_in_cells.md)
 - [Organization migration](migration.md)
 - [Routable Tokens](routable_tokens.md)
 
@@ -114,9 +115,33 @@ Not directly, our goal is to keep them isolated and only communicate using globa
 
 ### How are Cells provisioned?
 
-The GitLab.com cluster of Cells will use GitLab Dedicated tooling to create instances.
-Once this instance gets provisioned it could join the GitLab.com cluster and become a Cell.
-One requirement will be that the instance does not contain any prior data.
+The GitLab.com cluster of Cells uses [GitLab Dedicated](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/) tooling for provisioning `GitLab Instances`.
+That's why Cells are referred to by Tenants in some projects.
+Once any Cell instance gets provisioned it could join the GitLab.com cluster and become a Cell.
+One requirement will be that the instance does not contain any prior data. One of the reasons
+is that Cells save data with custom primary key ranges that they pull from the [Topology Service](topology_service.md).
+
+![cells-deployment](/images/cells/cells-deployment.png)
+
+The Cells are managed in [the tissue](https://ops.gitlab.net/gitlab-com/gl-infra/cells/tissue/-/tree/main/rings?ref_type=heads)
+project, where we manage all the Cells for both `dev` and `prod` environments
+in the `rings` directory.
+
+Each cells configuration, is validated against [tenant-model-schema](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/tenant-model-schema)
+which is already used for GitLab dedicated tenants as well.
+
+#### Deployment Process
+
+The deployment workflow follows these steps:
+
+1. [The instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) retrieves the Cell configuration, which in `Dedicated Tooling` known as `TENANT_MODEL`.
+2. Instrumentor parses the `TENANT_MODEL` and pass the required configuration to [GET (GitLab Environment Toolkit)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/).
+3. GET deploys the infrastructure and uses [`Helm Installation`](https://docs.gitlab.com/install/install_methods/#helm-chart) to install GitLab in the provisioned Kubernetes Cluster.
+
+This approach aligns with how we deploy GitLab on the existing legacy Cell infrastructure in both Staging and Production environments through [Kubernetes workloads](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com).
+
+>[!note]
+>This is a high-level overview. For more detailed information, refer to the [Dedicated Architecture Documentation](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture.html).
 
 To reach shared resources, Cells will use [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect).
 
@@ -185,7 +210,7 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-011: Cell Specific Configuration](decisions/011_cell_specific_configuration.md)
 - [ADR-012: Cell Unique Identifier](decisions/012_cell_unique_identifier.md)
 - [ADR 013: Use the same Cell ID for restoring a Cell from backup](decisions/013_cell_restore_from_backup.md)
-- [ADR 014: Clusterwide syncing in Cells 1.0](decisions/014_clusterwide_syncing_in_cells_1_0.md)
+- [ADR 014: No clusterwide syncing in Cells 1.0](decisions/014_clusterwide_syncing_in_cells_1_0.md)
 
 ## Links
 

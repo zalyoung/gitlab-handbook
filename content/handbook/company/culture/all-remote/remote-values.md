@@ -58,7 +58,7 @@ In a colocated company, collaboration can occur spontaneously by being in a shar
 
 Given that it is [impossible to know everything](/handbook/values/#its-impossible-to-know-everything), all-remote offers a level playing field where any team member can approach any other team member to learn, seek input, or ask for advice.
 
-We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made out in the open, and outcomes are [documented](/handbook/people-group/employment-branding#all-remote-work).
+We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made [out in the open](/handbook/communication/) and documented.
 
 [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and [Merge Requests](https://about.gitlab.com/blog/2019/02/07/start-using-git/) enable all team members to chime in, with an understanding that the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) will make a decision.
 
@@ -72,7 +72,7 @@ Valuing [results](/handbook/values/#results) enables a healthier all-remote atmo
 
 Colocation can make this more difficult to get right. As people congregate in a shared space, humans naturally form opinions on those who they are in contact with more often. It becomes more difficult to separate actual business results with vanity metrics (e.g. being seen in the office late, or appearing in every meeting regardless of need).
 
-All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/people-group/employment-branding#all-remote-work) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
+All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/company/culture/all-remote/) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
 
 ## Efficiency
 

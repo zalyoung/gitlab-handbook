@@ -206,7 +206,7 @@ Campaigns created in Terminus Email Experiences should align to GTM motions and 
 
 ### Create a campaign
 
-Before creating a Terminus email campaign, you need to [request a banner ad](/handbook/marketing/inbound-marketing/#brand-and-design-issue-templates) from the brand and design team. All Terminus email banner ads should use the same dimensions (900 wide x 240 pixels tall; 8px radius corners) and be delivered in a `.png` or `.gif` format.
+Before creating a Terminus email campaign, you need to [request a banner ad](/handbook/marketing/inbound-marketing/#brand-and-creative-issue-templates) from the brand and design team. All Terminus email banner ads should use the same dimensions (900 wide x 240 pixels tall; 8px radius corners) and be delivered in a `.png` or `.gif` format.
 
 1. Select `Campaigns` from the side menu (flag icon).
 1. Click the `Create Campaign` button in the top right.

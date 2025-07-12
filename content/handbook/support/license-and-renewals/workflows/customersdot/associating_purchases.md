@@ -45,18 +45,38 @@ Use this workflow for requests to change subscription owner, transfer ownership,
 
 ### Self-service option
 
-Consider using the [Support::L&R::Change Customers Portal Contact](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/Self-Managed/Change%20Customers%20Portal%20Contact.yaml) macro so the requestor can self-service. **Important**: Do not add the existing `Sold To:` contact as a CC. The requester would see the email address, which would be considered a leak of Personal Data.
+Consider using the [Support::L&R::Change Customers Portal Contact](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/Self-Managed/Change%20Customers%20Portal%20Contact.yaml) macro so the requester can self-service. **Important**: Do not add the existing `Sold To:` contact as a CC. The requester would see the email address, which would be considered a leak of Personal Data.
 
-If the requester is an existing subscription contact and has access to the Customer Portal account or email address of the previous owner, guide them to:
+If the requester **does not** have a Customers Portal account but can access the previous owner's Customer Portal account or email address, direct them to:
 
 1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the existing owner's email.
 1. [Claim the account](https://docs.gitlab.com/subscriptions/customers_portal/#change-profile-owner-information) by changing over the profile owner details.
 1. [Link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#link-a-gitlabcom-account) to the Customers Portal account or [change the linked account](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account) for authentication.
-1. Once the requestor has updated the account on the Customers Portal, verify that the `Sold To:` contact in the Zuora account matches the Customers Portal account. Follow the [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot) if they do not match.
+1. Once the requester has updated the account on the Customers Portal, verify that the `Sold To:` contact in the Zuora account matches the Customers Portal account. Follow the [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot) if they do not match.
+
+If the requester has an existing Customers Portal account, they can ask current subscription contacts to [invite them as a billing account manager](https://docs.gitlab.com/subscriptions/customers_portal/#add-a-billing-account-manager).
+
+#### Message "Your account is already linked to another billing account" reported
+
+A customer receives an email with the message:
+
+> <Contact Name> has invited you to manage the GitLab subscription for <Company Name>. 
+> However, your account is already linked to another billing account, and cannot be associated with two billing accounts at the same time. Please contact GitLab Support for assistance.
+
+This happens when a customer is a billing account manager of a separate billing account.
+
+1. If the ticket requester is an existing billing account manager or the invited contact
+   - Go to the [`Billing account invites` page](https://customers.gitlab.com/admin/billing_account_invite).
+   - Find the invite related to the invited contact's email.
+   - Ensure either the `Email` or the `Billing Account` in the invite matches the requester's CustomersDot account details, then proceed to step 3.
+   - Proceed to step 2 if the details do not match.
+1. If the ticket requester is **not** an existing billing account manager nor the invited contact (for example, if a reseller opens the ticket or the ticket is a customer-facing internal request), follow the [ownership verification](#ownership-verification) process first.
+1. Follow [Remove a billing account membership workflow](#remove-a-billing-account-membership) to remove association from the contact's current billing account.
+1. Follow [Add subscription management contact workflow](#add-subscription-management-contact) to associate the customer to the billing account to which they were invited.
 
 #### Error "Email has already been taken" reported
 
-If the requestor follow the [self-service option](#self-service-option) and get the error "Email has already been taken", this means the new account owner is an existing CustomersDot user. Assist them by following the [Support-assisted option for existing CustomersDot user](#process-for-existing-customersdot-user).
+If the requester follows the [self-service option](#self-service-option) and receives the error "Email has already been taken", this indicates the new account owner already has an existing CustomersDot account. Direct them to follow the steps to [add a billing account manager](https://docs.gitlab.com/subscriptions/customers_portal/#add-a-billing-account-manager) instead.
 
 ### Support-assisted option
 
@@ -151,7 +171,17 @@ If the Zuora information is not updated properly, or the `Bill To:` and the `Sol
 
 ### Remove a billing account membership
 
-You can remove an existing billing account membership:
+#### Self-service option
+
+Subscription contacts have the ability to [remove existing billing account managers who already have access to their billing information.](https://docs.gitlab.com/subscriptions/customers_portal/#remove-a-billing-account-manager).
+
+An existing billing account manager can also [cancel invitations that were sent to potential billing account managers that haven't been accepted yet.](https://docs.gitlab.com/subscriptions/customers_portal/#revoke-a-billing-account-manager-invitation)
+
+#### Support-assisted option
+
+This process should be a last resort for **all customers** (including reseller customers). Only after ruling out the [self-service option](#self-service-option-1) above will we consider making the requested change.
+
+First, verify the customer's identity as outlined under [ownership verification](#ownership-verification) before removing an existing billing account membership:
 
 1. Navigate to the `Billing account memberships` section.
 1. Locate the correct billing account membership by searching for the CustomersDot user's email.

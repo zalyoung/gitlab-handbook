@@ -15,31 +15,30 @@ Our ability to support regional teams with localized product documentation, mark
 
 - [Daniel Sullivan](https://gitlab.com/djsulliv), Director, Globalization & Localization
 - [Oleksandr Pysaryuk](https://gitlab.com/opysaryuk), Senior Manager, Globalization Technology
+- [María José Salmerón Ibanez](https://gitlab.com/mjsibanez), Senior Localization Program Manager
 - [Megumi Uchikawa](https://gitlab.com/muchikawa), Senior Localization Content Manager
+- [Maud Leuenberger](https://gitlab.com/maud-L), Senior Localization Content Manager, French
+- [Hendrik Breuer](https://gitlab.com/hbreuer-ext), Senior Localization Content Manager, German
 - [Rasam Hossain](https://gitlab.com/rasamhossain), Senior Fullstack Engineer
 - [Lauren Barker](https://gitlab.com/laurenbarker), Staff Fullstack Engineer
-- [María José Salmerón Ibanez](https://gitlab.com/mjsibanez), Senior Localization Program Manager
 - [Noriko Akiyama](https://gitlab.com/nakiyama-ext), Localization Specialist, Japanese*
-- [Maud Leuenberger](https://gitlab.com/maudl-ext), Content Manager, French*
-- [Hendrik Breuer](https://gitlab.com/hbreuer-ext), Senior Content Manager, German*
-- [Emi Kimura](https://gitlab.com/emikimura-ext), EN-JP Linguist*
+- [Emi Kimura](https://gitlab.com/emikimura-ext), English-Japanese Linguist*
 
 *temporary service provider
 
 ## Localization technology management
 
-The Localization team is managing the rich technology stack comprised of:
+The Localization team is managing the rich technology stack consisting of several purpose-built custom internal tooling and solutions, as well as commercial Language Technology Platforms (LTPs) for managing the localizaton of GitLab product UI, marketing website and content:
 
-- Several commercial translation management systems for product, marketing and technical documentation content localization
-- The [Localization Request Management system](https://gitlab.com/groups/gitlab-com/localization/-/epics/35) and its suite of integrations and microservices
-- The [GitLab Translation Service](/handbook/engineering/architecture/design-documents/gitlab_translation_service/)
-- Integrations and automations between TMS (translation management systems) and GitLab systems and projects
-- AI-powered capabilities and solutions for machine translaiton and localiztion-adjacnt tasks
-- Solutions for  context-enhanced translation of product user interface text, using [Crowdin](/handbook/business-technology/tech-stack/#crowdincom)
+- The [Localization Request Management system](https://gitlab.com/groups/gitlab-com/localization/-/epics/35) and its suite of integrations and microservices, aka Argo
+- The [GitLab Translation Service](/handbook/engineering/architecture/design-documents/gitlab_translation_service/) aka [Argo GitLab Integration](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration)
+- Argo integrations and automations between LTPs (language technology platforms), such as [TranslationOS](https://gitlab.com/groups/gitlab-com/localization/-/epics/92) and [Phrase TMS](https://gitlab.com/groups/gitlab-com/localization/-/epics/95), and GitLab projects and systems, such as [Contentful](https://gitlab.com/groups/gitlab-com/localization/-/epics/27), [Decap CMS](https://gitlab.com/groups/gitlab-com/localization/-/epics/83), [Marketo](https://gitlab.com/groups/gitlab-com/localization/-/epics/57) and others
+- Purpose-built custom AI-powered solutions for machine translation and localization-adjacent tasks for GitLab product documentation. See project [Tech Docs AI-powered translation](https://gitlab.com/gitlab-com/localization/tech-docs-ai-powered-translation)
+- Purpose-built custom solutions for context-enhanced localization of GitLab product UI, using [Crowdin](/handbook/business-technology/tech-stack/#crowdincom). See project [GitLab String Search](https://gitlab.com/gitlab-com/localization/gitlab-string-search), epic [Implement and launch the string search context-enhancement solution as Pages website](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/342), and project [Crowdin Automation](https://gitlab.com/gitlab-com/localization/crowdin-automation)
+- [Argo GitLab Agent](https://gitlab.com/gitlab-com/localization/argo-gitlab-agent), i.e. a purpose-built microservice / component of the Argo ecosystenm for specialized localization-frelated tasks, such as file pre- / post-processing, etc.
+- Terminology management system - [Kalcium Quickterm](https://gitlab.com/groups/gitlab-com/localization/-/epics/51)
 
 ## Localization Program Management
-
-## Localization Engineering
 
 ### Contact us
 
@@ -100,31 +99,37 @@ The Localization team manages general localization-related, language-specific an
 | `pt-BR` | tracking content and localization work in Brazilian Portuguese|
 | `it-IT` | tracking content and localization work in Italian|
 
-## Localization Processes
+## How to submit translation requests to the Localization team
 
-**Primary Method**
-Submit an issue through our [Localization Issue Tracker](https://gitlab.com/gitlab-com/localization/issue-tracker/-/issues/new?issuable_template=localization-request) when your content is ready for localization or review.
+**Primary method**
+Submit an issue through our [Localization Issue Tracker](https://gitlab.com/gitlab-com/localization/issue-tracker/-/issues/new?issuable_template=localization-request) when your content is ready for localization or review. 
 
-**Additional Support**
+Note: While you can contact the Translated or Argos Multilingual team directly via Slack in `#translated-team` or `#argos_multilingual`, we prefer submission through the Issue Tracker.
+
+**Additional support**
 For general localization questions:
 
 - Join our `#localization` Slack channel
 - Add the L10n-attention label to issues, epics, or merge requests
 - Here you can view the status of current localization requests: [Issue Tracker Board](https://gitlab.com/gitlab-com/localization/issue-tracker/-/boards/7726880)
 
-Note: While you can contact the Translated or Argos Multilingual team directly via Slack, we prefer submission through the Issue Tracker.
-
 ### When to engage with us
 
-We recommend connecting with the Localization team early in your project, especially for global initiatives affecting users across all regions that have a specific timeline. While we can't begin translations until content is finalized and approved, early collaboration during planning and ideation will ensure success.
+We recommend connecting with the Localization team early in your planning, especially for global initiatives affecting users across all regions that have a specific timeline. While we can't begin translations until content is finalized and approved, early collaboration during planning and design will ensure success.
 
-### Internal Reviews
+### Internal reviews
 
-We are currently moving the internal review process over to language leads and contractors, so that our in-market GitLab teams can focus on their normal duties. Please note, however, that we may need to engage the internal review team from time to time, as our new teams ramp up and build the context they need to successfully localize our content in a way that aligns to GitLab and local expectations.
+We are managing the internal review process by working with language leads and contractors, so that our in-market GitLab teams can focus on their normal duties. Please note, however, that we may need to engage the internal review team from time to time, as our new teams ramp up and build the context they need to successfully localize our content in a way that aligns to GitLab and local expectations.
 
-At the moment, our internal reviewers are volunteers. We completely appreciate that this task is on top of your day job and will continue to respect that. Both translation and reviews are conducted in Translated tooling; processes for review are currently a work in progress.
+Our internal reviewers are volunteer GitLab employees. We completely appreciate that this task is on top of your day job and will continue to respect that. Both translation and reviews are conducted in Translated tooling; processes for review are currently a work in progress.
 
-### List of Localized Websites
+## Marketing Localization
+
+Our website is now available in 6 languages. The translated content of our website pages is stored across our Contentful CMS, the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content) project, and the [about-gitlab-com](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/tree/main/content) project.
+
+You can go to the [Digital Experience's Localization Best Practices team Handbook page](/handbook/marketing/digital-experience/engineering/localization/) for further technical details on localizing content.
+
+### List of localized websites
 
 | Language | Localized Landing Page | Status |
 | ------ | ------------ | ------ |
@@ -135,20 +140,15 @@ At the moment, our internal reviewers are volunteers. We completely appreciate t
 | Brazilian Portuguese | https://about.gitlab.com/pt-br/ | Live |
 | Spanish | https://about.gitlab.com/es/ | Live |
 
-## Marketing Localization
+### International Blogs
 
-Our website is now available in 6 languages. While we're still in the process polishing existing page translations and expanding into getting more parts of the website localized, you can verify what translated pages are live on production by viewing our Buyer Experience sitemap @ https://about.gitlab.com/buyer-experience/sitemap.xml.
+GitLab's blog is available in Japanese, French and German, with a dedicated content manager:
 
-The translated congent of our website pages is stored across our CMS and the Buyer Experience repository:
-
-- German: [buyer-experience/-/tree/main/content/de-de](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/de-de)
-- French: [buyer-experience/-/tree/main/content/fr-fr](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/fr-fr)
-- Japanese:[buyer-experience/-/tree/main/content/ja-jp](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/ja-jp)
-- Spanish [buyer-experience/-/tree/main/content/es](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/es)
-- Italian [buyer-experience/-/tree/main/content/it-it](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/it-it)
-- Brazilian-Portuguese [buyer-experience/-/tree/main/content/pt-br](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/pt-br)
-
-You can go to the [Digital Experience's Localization Best Practices team Handbook page](/handbook/marketing/digital-experience/engineering/localization/) for further technical details on localizing content.
+| Language | URL | Content Manager |
+| ------ | ------------ | ------ |
+| JA | https://about.gitlab.com/ja-jp/blog/ | [Megumi Uchikawa](https://gitlab.com/muchikawa) |
+| FR | https://about.gitlab.com/fr-fr/blog/ | [Maud Leuenberger](https://gitlab.com/maud-L) |
+| DE | https://about.gitlab.com/de-de/blog/ | [Hendrik Breuer](https://gitlab.com/hbreuer-ext) and [Cecile Solkan](https://gitlab.com/csolkan-ext) |
 
 ### Translating content for campaigns
 
@@ -194,17 +194,6 @@ It's important to note we need to declare the default page from our repository a
 
 Aleyda Solis maintains a great [tool to build `hreflang` tags](https://www.aleydasolis.com/english/international-seo-tools/hreflang-tags-generator/) we can use for reference as well.
 
-## International Blogs
-
-GitLab's blog is available in Japanese, French and German, with a dedicated content manager:
-
-| Language | URL | Content Manager |
-| ------ | ------------ | ------ |
-| JA | https://about.gitlab.com/ja-jp/blog/ | [Megumi Uchikawa](https://gitlab.com/muchikawa) |
-| FR | https://about.gitlab.com/fr-fr/blog/ | [Maud Leuenberger](https://gitlab.com/maudl-ext) |
-| DE | https://about.gitlab.com/de-de/blog/ | [Cecile Solkan](https://gitlab.com/csolkan-ext) |
-
 ## docs.gitlab.com Localization
 
-We're working on localizing GitLab product documentation.
-To learn more, head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization).
+We are working on localizing GitLab product documentation. To learn more, head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization).

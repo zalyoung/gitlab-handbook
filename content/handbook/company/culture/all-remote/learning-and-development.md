@@ -196,7 +196,7 @@ Example:
 - Link to document distributed to Slack channels for the Protect team and Engineering overall
 - Link to document added to [Engineering week in review](https://docs.google.com/document/d/1Oglq0-rLbPFRNbqCDfHT0-Y3NkVEiHj6UukfYijHyUs) document.
 
-### Ask Me Anything (AMA), group conversations, and Key Reviews
+### Ask Me Anything (AMA), and Key Reviews
 
 All-remote companies should embrace learning and development not as something done during once during onboarding and then once or twice per year, but as a continual operation. GitLab encourages team members to also learn from *each other*, as the below methods demonstrate.
 
@@ -213,23 +213,6 @@ Here are a few other examples of AMAs:
 1. [AMA with David Hornik (Board Member)](https://www.youtube.com/watch?v=LwZNbF6_PX0)
 1. [AMA with VP of Engineering Eric Johnson](https://youtu.be/Wbq8HLWe0EE?t=25)
 1. [AMA with GitLab Chief Revenue Officer Michael McBride](https://youtu.be/LElduuHH2EE?t=95)
-
-### Group Conversations
-
-All-remote companies are uniquely positioned to break down silos. Group Conversations allow members of any function to dive in and ask questions of a function outside of their own. Also, it gives members of one function the ability to ask questions of their own function.
-
-Learn more about [Group Conversations in GitLab's Handbook](/handbook/company/group-conversations/).
-
-{{< youtube "MN3mzvbgwuc" >}}
-
-*In the [video](https://www.youtube.com/watch?v=MN3mzvbgwuc) above, published on the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), GitLab co-founder Sid Sijbrandij leads a Functional Group Update Training.*
-
-More Group Conversations are listed below.
-
-1. [Infrastructure Group Conversation](https://www.youtube.com/watch?v=CrHpG-dt9yk)
-1. [Growth Group Conversation](https://youtu.be/Sd21OgztLws?t=104)
-1. [Meltano Group Conversation](https://www.youtube.com/watch?v=O93MoxmmjZw)
-1. [Plan Group Conversation](https://www.youtube.com/watch?v=k43fHWKmax0)
 
 ### Key Monthly Reviews
 

@@ -152,9 +152,9 @@ If your Qualifying Life Event requires documentation the steps below will follow
 
 ## Group Medical Coverage
 
-GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who actively waive medical coverage, GitLab offers a medical allowance.
+GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who do not enroll in medical coverage, GitLab offers a medical allowance.
 
-If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP), with no HSA.
+If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the Medical Waiver Allowance.
 
 GitLab has confirmed that our medical plans are CREDITABLE page 9 of the [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing) the if you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
 
@@ -170,9 +170,9 @@ Please see the [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l
 
 ### Medical Waiver Allowance
 
-If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. <br> In order to receive the monthly benefit allowance you must [log on to PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource) and actively waive medical cover.<br>
+If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. <br> To enroll in the monthly benefit allowance you will [log on to PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource) and actively waive medical cover.<br>
 
-If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).
+If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the Medical Waiver Allowance.
 
 ### Cigna Medical Plans
 
@@ -202,7 +202,7 @@ In Network:
 | HSA Annual Employer Contribution      | $1200 /$1500      | N/A                | N/A               |
 | Rx Plan^                   | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view) |[2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  |
 | Fertility Services | $15,000 Lifetime Benefit | $15,000 Lifetime Benefit| $15,000 Lifetime Benefit |
-| Summary Plan Descriptions  | [2025 HDHP](https://drive.google.com/file/d/1UoSJxzk4oCUvDlrtpFSn6XYaON_2neiC/view?usp=sharing) | [2025 EPO](https://drive.google.com/file/d/1MAn1Y5GRKV_YaBGQK6onUeGI0fzbqTBL/view?usp=sharing) |  [2025 PPO](https://drive.google.com/file/d/147BcT7rRqth-m5VsU0zoMDvC6nawxxoi/view?usp=sharing) <BR>  [2025 PPO Utah](https://drive.google.com/file/d/17amF3mBc7duZbsjw92eLhBtmsInfhoUM/view?usp=sharing) |
+| Summary Plan Descriptions  | [2025 HDHP](https://drive.google.com/file/d/1UoSJxzk4oCUvDlrtpFSn6XYaON_2neiC/view?usp=sharing) <br> [SPD 2025 HDHP](https://drive.google.com/open?id=1ZJKfMEvC7Q5oQnu5dsL-V1KLVZuKW8id&usp=drive_copy) | [2025 EPO](https://drive.google.com/file/d/1MAn1Y5GRKV_YaBGQK6onUeGI0fzbqTBL/view?usp=sharing)<br> [SPD 2025 EPO](https://drive.google.com/open?id=1oMNvCYRjIAGP9UBfIeBPN70WJ84sxTgP&usp=drive_copy) |  [2025 PPO](https://drive.google.com/file/d/147BcT7rRqth-m5VsU0zoMDvC6nawxxoi/view?usp=sharing) <br> [SPD 2025 PPO](https://drive.google.com/open?id=1dDfSZkEmlqUwVNz13FkNijqUwIDebr9g&usp=drive_copy) <BR>  [2025 PPO Utah](https://drive.google.com/file/d/17amF3mBc7duZbsjw92eLhBtmsInfhoUM/view?usp=sharing) <br> [SPD 2025 PPO Utah](https://drive.google.com/open?id=1UQP2GBxs4d1IWAK6LBA3rJBzVEZLNR24&usp=drive_copy) |
 
 \*\* In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. **Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.**
 

@@ -17,6 +17,25 @@ JiffleNow is an automated appointment scheduling of in-person, and virtual B2B m
 
 MOps provisioner: For `Requestor` role, you do not need to do anything in JiffleNow. Once Okta is provisioned, the user will have access to request meetings. If a person just needs access to reports and dashboards, you can add them as a `Requestor`, then toggle the Reports & Dashboard toggle on in their profile. For all other roles, you will add the person to the specific event they need access to with the correct role and engagement type. This will be outlined in the event request task in Asana.
 
+### When to use Jifflenow
+
+Jifflenow is not required for all events where there is meeting space. At this time, use of Jifflenow is recommended for the following scenarios (unless noted, all criteria must be met):
+
+1. There is at least one dedicated meeting space. Meeting at the booth does not meet this requirement, unless there is a separate enclosed meeting space in the booth.
+2. There will be one or more C-level executive taking meetings at the event.
+3. If there are no C-level exectives attending, there must be at least two other VP-level executives. However, if requirement 4 can be met, two Director+ executives can be set-up to take meetings. 
+4. A member of the EBA team must manage the executive schedules for this event and approve meetings in Jifflenow. Alternatively, another designated meeting manager can approve meetings in Jifflenow, but this will also require the meeting manager to manage the executive's schedule in the system and coordinate meeting times with them.
+
+### Requesting an event in Jifflenow
+
+We use Jifflenow for events where we will have executive meetings. Please follow the instructions below to request creation of an event in Jifflenow.
+
+- SLA: 15 days - Please request your event to be created in Jifflenow at least 15 days before you would like the event to go live. Meeting scheduling should be live at least 30 days prior to the event date, so the Jifflenow request should be submitted no less than 45 days prior to the event date. You can submit the request as soon as you have the necessary details.
+- Request: Please [complete this form](https://form.asana.com/?k=ZW0w5_ppBQLh2gCyZEOFcg&d=306855239930259) to request your Jifflenow instance. This will create a task in Asana.
+  - In order to build the event in Jifflenow, we will require all requested information on the form, especially the meeting location, available hours, available executives, and SFDC campaign IDs.
+- Create a Slack channel for Executive Meetings for this event. Examples: `#googlenext-execmtgs-2025` or `#aws-reinforce-execmtgs-2025`
+- Events are built in a sandbox and we test the meeting requests and notifications in sandbox. All tests must be completed in the sandbox. Once the event is pushed to production, tests cannot be deleted without intervention from support and will be included in metrics.
+
 ### User Roles
 
 - **Requestor** - Anyone that has access to schedule meetings within the tool.
@@ -45,22 +64,18 @@ New records created through Jifflenow (for example, people added onsite) will be
 
 ### Support
 
-To request a Jifflenow instance for your meeting/booth demos, please [complete this form](https://form.asana.com/?k=ZW0w5_ppBQLh2gCyZEOFcg&d=306855239930259). This will create a task in Asana.
+Reach out in #mktgops for assistance with Jifflenow.
 
-Reach out in #proj_jifflenow-implementation for more information.
-
-For event specific help, go to:
-
-- #googlenext-execmtgs-2025
-- #rsa-conference-execmtgs-2025
+For event specific help, search Slack for the event and ask your question in the relevant `execmtgs` channel:
 
 ### External JiffleNow Invites
 
 For major events, it is common for other companies to utilize JiffleNow as well, which can cause confusion for EBAs managing executive calendars. Here is how to tell if an invite is for a GitLab initiated meeting, or an external initiated meeting:
 
-1. Take a look a the meeting invites. If anyone from GitLab with a GitLab email address is listed in "External Attendees", it was not scheduled through our instance.
-2. At the bottom of the email, there will be a help contact. Our help contact will always be someone at GitLab (or in the case of internal requests, a Slack channel).
-3. If an INTERNAL calendar invite doesn't have the Confidential note at the top, it isn't from us.
+1. GitLab meeting invites will be from `GitLab` or `GitLab Events Team` with a domain including `meetings.gitlab.com`. Calendar invites will be slightly different, but will still include `meetings.gitlab.com` in the domain.  
+2. Take a look a the meeting invites. If anyone from GitLab with a GitLab email address is listed in "External Attendees", it was not scheduled through our instance.
+3. At the bottom of the email, there will be a help contact. Our help contact will always be someone at GitLab (or in the case of internal requests, a Slack channel).
+4. If an INTERNAL calendar invite doesn't have the Confidential note at the top, it isn't from us.
 
 ## Onsite Event Management
 

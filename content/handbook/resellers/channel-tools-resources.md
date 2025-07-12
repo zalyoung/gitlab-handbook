@@ -3,7 +3,7 @@ title: "Channel Partner Tools and Resources"
 description: "Channel Partner tools and resources to help grow your GitLab business."
 ---
 
-**We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
+**We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/partner/registration).**
 
 ## **GitLab Partner Portal**
 
@@ -15,7 +15,7 @@ Partners are given access to our [Partner Portal](https://partners.gitlab.com) w
 - Sales, services, and program and marketing resources
 - GitLab news, communications and program announcements.
 
-Visit the portal at [partners.gitlab.com](https://partners.gitlab.com). There is a walk-through video available on the portal or you can [watch it here](https://drive.google.com/file/d/1cAGBOWrvRRL71zPPrUkwLm0L4BP_MzF_/view).
+Visit the portal at [partners.gitlab.com](https://partners.gitlab.com).
 
 Please note: if no one from your organization logs in to use our Partner Portal, after 6 months, your portal account will be deactivated. If you need your account reactivated, please contact partnersupport@gitlab.com and they will reactivate you.
 
@@ -70,17 +70,13 @@ Learn more by going to the [Marketing Demand Generation section](https://partner
 
 Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
 
-### **Concierge Marketing Program**
-
-Select Partners are elibible to participate in this program. Get the help you need to expand your customer base, build brand loyalty, and grow your business. Our Concierge Program will deliver marketing solutions tailored to your teamʼs unique needs. To participate in this program, Select Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com).
-
 ### **Marketing Development Funds**
 
 Select Partners may be eligible for [Marketing Development Funds, or MDF,](/handbook/resellers/channel-program-guide/mdf/) to acquire new GitLab customers, drive demand within an existing mutual customer base, or help educate GitLab teams. GitLab MDF can support multiple marketing efforts, including participation in trade shows, sales incentives, direct mailing costs, training, and more.
 
 #### Requesting Marketing Development Funds
 
-Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/channel-program-guide/mdf/) or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
+Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/channel-program-guide/mdf/) or login to the [Partner Portal](https://partners.gitlab.com) and visit the marketing page.
 
 ### **GitLab Branded Item Requests**
 
@@ -90,15 +86,15 @@ Please submit your request for GitLab-branded items through your Channel Account
 
 GitLab uses the Partner Portal, and our News on Demand Platform to communicate with Partners.  Partners will automatically receive the newsletter and other communications when they have access to the portal. GitLab will deliver communications in the following manner.
 
-- **Partner Flash Newsletter -** Once in the portal, navigate to the News tab to set preferences. A Partner can elect to receive the newsletter daily, weekly, or bi-weekly and select what content type to receive. Example: Only interested in Marketing content? You can opt out of Technical content.
+- **Partner Flash Newsletter -** Once in the portal, navigate to My News to set preferences. A Partner can elect to receive the newsletter daily, weekly, or bi-weekly and select what content type to receive. Example: Only interested in Marketing content? You can opt out of Technical content.
 
 - **Partner Webcasts -** At times, Channel Programs or Channel Leadership might host a Partner webcast to announce a program change or essential updates. Channel Marketing hosts a monthly Marketing Webcast; other Channel facing teams might elect to host a Webcast for our Partners.
 
-- **Partner Portal Notifications -** This is not a primary form of communication; it augments other communication vehicles. Partners can see notifications near the search bar at the top of the portal. Click the bell image within the portal to see active notifications.
+- **Partner Portal Notifications -** This is not a primary form of communication; it augments other communication vehicles. Partners can see notifications at the top right corner of the portal. Click the bell image within the portal to see active notifications.
 
 - **Notifications via email -** Occasionally, we will use email notifications to communicate out-of-cycle announcements, send surveys, or Partner SKO/Summit notifications.
 
-- **Not receiving communications?** Typically a person has opted out. Contact the Partner Help Desk, and we can add you back in. Partners can access archived articles by accessing the News tab at the top of the portal.
+- **Not receiving communications?** Typically a person has opted out. Contact the Partner Help Desk, and we can add you back in. Partners can access archived articles by accessing My News in the portal menu.
 
 - **The GitLab Handbook -** The GitLab Handbook is the central repository for how we run the company. As part of our value of being transparent, our Handbook is open to the world, and we welcome feedback. Although the Partner Portal is your first source of Partner information, we often link to the Handbook for detailed information. If you are unable to find information you need on the Partner Portal, you are encouraged to search pages of the [GitLab Handbook](/handbook/).
 

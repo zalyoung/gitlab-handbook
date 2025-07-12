@@ -46,7 +46,7 @@ Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/en
 
 #### Accessing Various Limited Access User Groups
 
-There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](/handbook/enterprise-data/platform/tableau/#limited-access-user-groups), as well as how to request access.
+There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](/handbook/enterprise-data/platform/tableau/#user-groups), as well as how to request access.
 
 ### Snowflake
 

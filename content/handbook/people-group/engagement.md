@@ -108,13 +108,31 @@ The survey factors we primarily focus on:
 
 Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected 'agree' and 'strongly agree'.
 
+## FY'26 Engagement Survey
+
+Our Engagement Survey for FY'26 is scheduled to run from 2025-06-16 to 2025-06-27. The survey will be open to all team members with start dates before 2025-05-31.
+
+### FY'26 Annual Engagement Survey Timeline
+
+- 2025-06-16: Survey launch @ 8am PT/3pm UTC
+- 2025-06-27: Survey close @ 5pm PT/2025-06-28 12am UTC
+- 2025-07-01: High-level summary shared with People Leadership Team
+- 2025-07-03: High-level summary & Culture Amp reports shared with E-Group
+- Week of 7th July: Functional Leaders level reports shared in CultureAmp*
+- Week of 7th July: All People Managers level reports shared in CultreAmp*
+- Week of 14th July : High-level summary release (company-wide) and followed by handbook updates
+- Week of 14th July: Division-level results summary shared by division leaders
+- Week of 1st August - Finalize company wide action plans
+
+*Only leaders with 5 or more respondents will receive a report in CultreAmp
+
 ## FY'25 Engagement Survey
 
 Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-28. Survey will be open to all team members hired before 2024-05-31.
 
 ### FY'25 Annual Engagement Survey Timeline
 
-- 202-06-17: Survey launch @ 8am PT
+- 2024-06-17: Survey launch @ 8am PT
 - 2024-06-28: Survey close @ 5pm PT
 - 2024-07-08: High-level summary shared with People Leadership Team
 - 2024-07-10: High-level summary shared with E-Group
@@ -196,6 +214,9 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [People](https://gitlab.com/groups/gitlab-com/-/epics/2420)
 - [LACA](https://gitlab.com/groups/gitlab-com/-/epics/2414)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/work_items/2399)
+
+<details>
+  <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>
 
 ### Summit Pulse Surveys Overview
 
@@ -325,9 +346,6 @@ In an effort to ensure team member confidentiality is upheld, only managers with
 ### Survey Results
 
 Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
-
-<details>
-  <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>
 
 ### FY'23 Pulse Engagement Survey
 
@@ -601,7 +619,7 @@ All links should be added by 2022-01-21 aligned with our [timeline](/handbook/pe
 
 #### Questions and Support
 
-The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
+The GitLab Team Member Engagement Survey is managed by the People Operations Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
 
 ## Previous Engagement Survey Results
 
@@ -659,10 +677,6 @@ GitLab scored 5% below the industry benchmark i.e. New Tech +1,000 2020 for the 
 - Growth & Development
 - Compensation
 - Resource Allocations
-
-#### Questions and Support
-
-The GitLab Team Member Engagement Survey is managed by the People Connect Team. If you require support or have any questions around the survey please be sure to reach out via HelpLab.
 
 ### FY' 20 Engagement Survey
 

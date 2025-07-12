@@ -48,14 +48,10 @@
         url: offsite
       - name: KPIs
         url: kpis
-      - name: OKRs
-        url: /handbook/company/okrs
       - name: Pricing Model
         url: /handbook/company/pricing
     - name: Office of the CEO
       url: office-of-the-ceo
-    - name: Group Conversations
-      url: group-conversations
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
@@ -155,11 +151,11 @@
     url: /handbook/engineering/development/
     links:
     - name: Dev Sub-department
-      url: /handbook/engineering/development/dev/
+      url: /handbook/engineering/devops/dev/
     - name: Fulfillment Sub-department
       url: /handbook/engineering/development/fulfillment/
     - name: Ops Sub-department
-      url: /handbook/engineering/development/ops/
+      url: /handbook/engineering/devops/ops/
     - name: Software Supply Chain Security Sub-department
       url: /handbook/engineering/development/sec/software-supply-chain-security/
     - name: Secure Sub-department
@@ -350,7 +346,7 @@
   - name: Product sections, stages, groups, and categories
     url: /handbook/product/categories
   - name: Product Development Flow
-    url: /handbook/product-development/product-development-flow
+    url: /handbook/product-development/how-we-work/product-development-flow
   - name: Product Development Timeline
     url: /handbook/engineering/workflow/#product-development-timeline
   - name: Data for Product Managers

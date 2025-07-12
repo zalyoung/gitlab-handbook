@@ -3,7 +3,7 @@ title: New Product Introduction (NPI) Process
 description: How to launch a product or service at GitLab.
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Context
 
@@ -58,7 +58,7 @@ The DRI should create a business plan based on an NPI Planning Info Sheet (templ
 
 Ideally at this point you will already know the pricing structure, but if not, a conversation with the Pricing Committee is needed:
 
-1. Contact Justin Farris's [EBA](/handbook/eba/#:~:text=Jennifer%20Garcia%0AEBA-,Justin%20Farris) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
+1. Contact Justin Farris's [EBA](/handbook/eba/#executive-business-administrator-team) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
 1. Pricing will review the product or services brief and follow up within a week for any clarifying questions, and suggest the right level of research needed to arrive at a recommendation.
 1. Pricing team will conduct required research following our process, and pricing principles. Depending on the complexity of the offer, and potential market size this research could take a couple of weeks, up to a few months to complete.
 1. Pricing team will make a recommendation of what business model the product/service should have (e.g. fixed fee, subscription, consumptive, add-on, new tier), and recommend a price point or range to consider for the offering

@@ -2,11 +2,11 @@
 title: Product Leadership
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## General Product Organizational Structure
 
-The GitLab Product team includes team members at various levels of [Product Management job titles](/handbook/product/product-management/product-cdf-competencies/) across our [organizational levels](/handbook/company/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy). As a result there can be instances where peers across layers don't have the same title. We will always abide by [GitLab's layer structure](/handbook/company/structure/#layers).
+The GitLab Product team includes team members at various levels of [Product Management job titles](/handbook/product/product-management/product-cdf-competencies/) across our [organizational levels](/handbook/company/structure/#layers) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy). As a result there can be instances where peers across layers don't have the same title. We will always abide by [GitLab's layer structure](/handbook/company/structure/#layers).
 
 | Level | Job Families | Hierarchy Scopes |
 | ----- | ------------ | ---------------- |
@@ -24,23 +24,6 @@ All Directors and above in the Product function are considered Product Leaders. 
 Product team members that are Director+ and report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a permanent basis are members of the Product Leadership Team (PLT). Team members reporting to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a temporary basis and/or that are not Director+ are PLT observers. PLT observers have the opportunity to be temporarily part of the PLT meetings and activities but may not be permanent members. PLT observers may not be included in all PLT activities.
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
-
-## Product Group Conversation Leader Rotation
-
-The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
-
-For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/)
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 |
-| 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
-| 2024-02-28 | Justin Farris | https://gitlab.com/gitlab-com/Product/-/issues/13120 |
-| 2024-06-20 | Mike Flouton | -- |
-| 2024-XX-XX | Hillary Benson | To be added |
-| 2024-XX-XX | Justin Farris | To be added |
-| 2024-XX-XX | Mike Flouton | To be added |
-| 2024-XX-XX | Hillary Benson | To be added |
 
 ## Product Leadership ReadMe's
 

@@ -110,11 +110,11 @@ Timesheets contain 4 columns for logging worked time: **Time In, Time Out, Break
 
 For Spain based team members, GitLab provides 100% paid membership of medical insurance with AXA VIP  (network+Reimbursement). Family members can be added to the insurance and GitLab will pay 50% of the cost to include them. If you would like to add your family member to the plan, please fill out the attached form.
 
-You can view the [2024 plan premiums here](https://docs.google.com/document/d/1ZzQQgDr-11Zw8FHzozPyn6kalo1Y5J0-Fd1uRDXXn9E/edit).
+You can view the [2025 plan premiums here](https://docs.google.com/document/d/1AwXbyOa070joyqXs-PnQXxRqj4kNbnnmyIHgiS0AVi4/edit?tab=t.0)
 
-Further information can also be found in the [AXA VIP Summary](https://drive.google.com/file/d/13GpHxj6s4UHwPygdWiqSLbzhw8ppFplr/view?usp=sharing) and [VIP User Guide](https://drive.google.com/file/d/102bUKV0_zsJ8voRWmvcdpWQDr91gY1_k/view?usp=sharing)
+Further information can also be found in the [2025 AXA VIP Summary](https://drive.google.com/file/d/1IG5GWUL19Vg5f_lbHlxWoAkGmKRzYd-a/view?usp=sharing) 
 
-Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly gross allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2023.
+You can also view the [VIP User Guide](https://drive.google.com/file/d/102bUKV0_zsJ8voRWmvcdpWQDr91gY1_k/view?usp=sharing) for more detials on accessing your plan amd [AXA Website and User Guide](https://docs.google.com/presentation/d/1osjT9rNwOIesauTviEXnh6-d8IkyqBDZ/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true)
 
 <details markdown="1">
 <summary>Taxability of Medical Plans</summary>

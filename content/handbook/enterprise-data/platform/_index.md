@@ -131,81 +131,8 @@ The following table indexes all of the RAW data sources we are loading into the 
   * Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
 `x` indicates undefined or not run
 
-| [Data Source](/handbook/enterprise-data/platform/pipelines) | Pipeline | Raw Schema | Prep Schema | Audience | RF / SLO | MNPI | Tier |
-|-------------|----------|------------|-------------|----------|----------|------|------|
-| [Adaptive](https://www.workday.com/en-us/products/adaptive-planning/overview.html) | Airflow | `adaptive_custom` | x | Finance |  | Yes | Tier 2 |
-| [Adobe / Bizible](https://experienceleague.adobe.com/docs/bizible/using/home.html) | Airflow | `bizible` | `sensitive` | Marketing | 24h / 36h | No | Tier 2 |
-| [Airflow](https://airflow.apache.org/) | Stitch | `airflow_stitch` | `airflow` | Data Team | 24h / 24h | No | Tier 3 |
-| [AWS Billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html) | Snowflake external tables | `aws_billing` | `aws_billing` | Engineering | 24h / 24h | No | Tier 2 |
-| [Clari](https://www.clari.com/) | Airflow | `clari` | `clari` | Sales | 24h / 24h | Yes | Tier 2 |
-| [Clearbit](https://clearbit.com/) | x | x | x | x / x |  | No | Tier 3 |
-| [Common Room](https://www.commonroom.io/) | Snowflake task | `commonroom` | `commonroom` | `DevRels`/`Developer Advocates` |  | No | Tier 3 |
-| [Coupa Production](https://www.coupa.com/) | Fivetran | `coupa` | `coupa` | Marketing | 24h / 48h | No | Tier 2 |
-| [Coupa Sandbox](https://www.coupa.com/) | Fivetran | `coupa_sandbox` | `coupa_sandbox` | Marketing | Ad-hoc | No | Tier 3 |
-| [CustomersDot](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-customer-dot-database) [ERD](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/staging/doc/db_erd.pdf) | pgp | `tap_postgres` | `customers` | Product | 24h / x | No | Tier 1 |
-| [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
-|[Demo Architecture Portal](https://cloud.gitlabdap.com/)|Stitch|`demo_architecture_portal`|`demo_architecture_portal`|Sales and marketing|7 Days/7 Days|No|Tier 3|
-| [Elastic Search Billing](https://www.elastic.co/docs/api/doc/cloud/group/endpoint-billingcostsanalysis) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
-| End to End test metrics | Snowflake tasks | `e2e_metrics` | `e2e_metrics` | Engineering | 24h / 48h | No | Tier 2 |
-| [Ecosystems BVA](https://www.ecosystems.us/) | Airflow | `ecosystems` | `ecosystems` | Sales | 24h / 48h | No | Tier 3 |
-| [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
-| Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
-| Flaky test Metrics | Snowflake tasks | `flaky_tests` | `flaky_tests` | Engineering | 24h / 48h | No | Tier 2 |
-| [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
-| [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) | pgp | `tap_postgres` | `gitlab_dotcom` | Product, Engineering | 12h / 55h | No | Tier 1 |
-| [GitLab Ops DB](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-ops-database) | pgp | `tap_postgres` | `gitlab_ops` | Engineering | 6h / x | No | Tier 1 |
-| GitLab Profiler DB | x | x | x | x | x / x | No | Tier 3 |
-| GitLab Container Registry Logs | Airflow | `Container Registry` | `Container Registry` | Engineering | x | No | Tier 2 |
-| [Google Ads](https://ads.google.com/) | Fivetran | `google_ads` | `google_ads` | Marketing | 24h / 48h | No | Tier 2 |
-| [Google Analytics 360](https://marketingplatform.google.com/about/analytics-360/) | Fivetran | `google_analytics_360_fivetran` | `google_analytics_360` | Marketing | 6h / 32h | No | Tier 2 |
-| [Google Analytics 4](https://developers.google.com/analytics/devguides/collection/ga4) | [BigQuery Exporter](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#bigquery-exporter) | `google_analytics_4_bigquery` | `google_analytics_4` | Marketing | 24h / 48h | No | Tier 2 |
-| [Google Cloud Billing](https://cloud.google.com/support/billing) | [BigQuery Exporter](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#bigquery-exporter) | `gcp_billing` | `gcp_billing` | Engineering | 24h / x | No | Tier 1 |
-| [Google Search Console](https://search.google.com/search-console/about) | Fivetran | `google_search_console` | `google_search_console` | Marketing | 24h / 48h | No | Tier 2 |
-| [Graphite API](https://graphite-api.readthedocs.io/en/latest/) | Airflow | `engineering_extracts` | x | Engineering | 24h / 48h | No | Tier 3 |
-| [Greenhouse](https://www.greenhouse.com/) | Sheetload | `greenhouse` | `greenhouse` | People | 24h / 48h | No | Tier 2 |
-| [Hackerone](https://www.hackerone.com/) | Airflow | `hackerone` | x | Security/Engineering | 24h / 48h | No | Tier 2 |
-| [Handbook YAML Files](https://gitlab.com/gitlab-data/analytics/-/tree/master/extract/gitlab_data_yaml) | Airflow | `gitlab_data_yaml` | `gitlab_data_yaml` | Multiple | 8h / 24h | No | Tier 2 |
-| [Handbook MR Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/handbook_mrs_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 24h / 24h | No | Tier 2 |
-| [Handbook Git Log Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/values_page_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 1w / 1m | No | Tier 2 |
-| Iterable | Fivetran | `iterable` | n/a | Multiple | 24h / 48h | No | Tier 3 |
-| Just Global Campaigns | Snowflake task | `just_global_campaigns` | `just_global_campaigns` | Marketing | 7d / 14d | No | Tier 3 |
-| [Kantata](https://developer.kantata.com/tag/Insights-Report-Exports/#operation/get-scheduled-report-export) | Airflow | `kantata` | `kantata` | Customer Success | 24h / 48h | Yes | Tier 3 |
-| [Level Up/Thought Industries](https://api.thoughtindustries.com/#thought-industries-api) | Airflow | `level_up` | `level_up` | People | 24h / 24h | No | Tier 3 |
-| [LinkedIn ads](https://business.linkedin.com/marketing-solutions/ads) | Fivetran | `linkedin_ads` | `n/a` | Marketing | 24h / 48h | No | Tier 3 |
-| [MailGun](https://https://www.mailgun.com/) | Airflow | `mailgun` | `sensitive` | Sales, Marketing, Customer Success, Digital Success | 24h / 24h | No | Tier 3 |
-| [Marketo](https://business.adobe.com/blog/basics/marketing-automation) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
-| Monte Carlo | Snowflake Share | `n/a` | `prep_legacy` | Data | 12h / 24h | No | Tier 3 |
-| [Netsuite](https://www.netsuite.com/portal/home.shtml) | Fivetran | `netsuite_fivetran` | `netsuite` | Finance | 6h / 24h | Yes | Tier 2 |
-| [Omamori](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/omamori) | Airflow | `omamori` | `omamori` | Engineering | 1h / 24h | No  | Tier 2 |
-| Pajamas Adoption Scanner | Airflow | `pajamas_adoption_scanner` | `pajamas_adoption_scanner` | Engineering | 24h / 48h | No | Tier 3 |
-| [PMG](https://www.pmg.com/) | x | `pmg` | `pmg` | x | x / x | No | Tier 3 |
-| [Time Off by Deel](https://www.deel.com/plugins/pto/) | Snowpipe | `pto` | `gitlab_pto` | Engineering Productivity / People | 7 days / x | No | Tier 3 |
-| [Qualtrics](https://www.qualtrics.com/) | Airflow | `qualitrics` | `qualtrics` | Marketing | 12h / 48h | No | Tier 2 |
-| [Rally](https://help.rallyuxr.com/en/) | Stitch Webhook | `rally_webhook_stitch` | `sensitive` | UX | 24h / 48h | No | Tier 3 |
-| [SaaS Service Ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) | Airflow | `saas_usage_ping` | `saas_usage_ping` | Product | 1 week / 24h ([more context](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#slo-explanation-for-automated-service-ping)) | No | Tier 1 |
-| [Salesforce](https://www.salesforce.com/us/?ir=1) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
-| [Salesforce Sandbox](https://gitlab--staging.sandbox.my.salesforce.com/)| Stitch | `salesforce_stitch_sandbox_v2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
-| [Salesforce Sandbox Test 2](https://gitlab--test2.sandbox.my.salesforce.com)| Stitch | `salesforce_stitch_sandbox_test2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
-| SheetLoad | SheetLoad | `sheetload` | `sheetload` | Multiple | 24h / 48h | Yes | Tier 1 |
-| SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
-| [Snowplow](https://snowplow.io/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
-| [Tableau Cloud](https://www.tableau.com/products/cloud-bi) | Tableau Prep | `tableau_cloud` | `tableau_cloud` | Data Team | 24h / 24h | No | Tier 3 |
-| [Tableau Back-end Data](https://fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |
-| [Thanos](https://thanos-query.ops.gitlab.net/graph) | Snowflake Task | `prometheus` | `prometheus` | Engineering | 24 h / x | No | Tier 3 |
-| [Version DB](https://version.gitlab.com/users/sign_in) | Automatic Process | `version_db` | `version_db` | Product | 24 h / 48 h | No | Tier 1 |
-| [Workday](https://www.workday.com/) | Fivetran | `workday` | `workday` | People | 6h / 24h / | No | Tier 2 |
-| [Xactly](https://www.xactlycorp.com) | Meltano | `tap_xactly` | N/A | Sales | 24h / N/A | Yes | Tier 2 |
-| [Zendesk](https://www.zendesk.com/) | Meltano | `tap_zendesk` | `zendesk` | Support | 24h / 48h | No | Tier 2 |
-| [Zendesk Community Relations](https://www.zendesk.com/) | Meltano | `tap_zendesk_community_relations` | `zendesk_community_relations` | Support | 6h / 24h | No | Tier 2 |
-| [Zip Sandbox](https://www.ziphq.com/) | Fivetran | `zip_sandbox` | `zip_sandbox` | Finance | 24h / 48h | No | Tier 3 |
-| [Zoom](https://zoom.us/) | Meltano | `tap_zoom` | N/A | People | 24h / N/A | No | Tier 3 |
-| [Zuora](https://www.zuora.com/) | Stitch | `zuora_stitch` | `zuora` | Finance | 6h / 24h | Yes | Tier 1 |
-| [Zuora API Sandbox](https://www.zuora.com) | Stitch | `zuora_api_sandbox_stitch` | `Legacy` | Finance | 24h / 24h | Yes | Tier 3 |
-| [Zuora Central Sandbox](https://www.zuora.com/) | Fivetran | `zuora_central_sandbox_fivetran` | `zuora_central_sandbox` | Finance Sandbox | - | Yes | Tier 3 |
-| [Zuora Central Sandbox 2](https://www.zuora.com/) | Fivetran | `zuora_central_sandbox_2` | `zuora_central_sandbox_2` | Finance Sandbox | - | Yes | Tier 3 |
-| [Zuora Developer Sandbox](https://www.zuora.com/) | Fivetran | `zuora_dev_sandbox_fivetran` | `TBD` | Finance Sandbox | - | Yes | Tier 3 |
-| [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Platform/Data/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
-| [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
+{{% all-data-warehouse-sources %}}
+<!-- Add or edit data sources in https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data -->
 
 #### Source contacts
 
@@ -425,7 +352,7 @@ It makes the most sense when there are multiple people who have very similar job
 
 ##### Functional Role Assignment
 
-This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/snowflake-permissions/-/blob/main/roles.yml).
 
 | Functional Role | Description | SAFE Data Y/N |
 | --- | --- | --- |
@@ -1284,6 +1211,7 @@ A Data Spigot is a concept/methodology to give external systems, access to Snowf
 * A dedicated view (or views) only exposing the minimum required data. No Personally Identifiable Information (PII) may be disclosed.
 * A dedicated role (or equivalent) with access to only the specified tables/views.
 * A dedicated XS warehouse to limit and monitor costs.
+* A network security policy to limit network traffic to a specific IP (range)
 
 The process for setting up a new Data Spigot is as follows:
 

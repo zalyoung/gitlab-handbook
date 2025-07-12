@@ -19,7 +19,7 @@ The purpose of Customer Support Operations is to enable GitLab to provide deligh
 | Name | Role |
 |------|------|
 | [Steve Manzuik](https://gitlab.com/smanzuik) | Senior Director, Security |
-| [Lyle Kozloff](https://gitlab.com/lyle) | Sr. Manager, Customer Support Operations |
+| [Michael Beltran](https://gitlab.com/MBeee) | Sr. Manager, IT |
 | [Jason Colyer](https://gitlab.com/jcolyer) | Fullstack Engineer, Customer Support Operations |
 | [Nabeel Bilgrami](https://gitlab.com/nabeel.bilgrami) | Customer Support Operations Specialist |
 | [Alyssa Villa](https://gitlab.com/avilla4) | Customer Support Operations Specialist |
@@ -40,61 +40,44 @@ Or you can reach out to us in Slack via [#support_operations](https://gitlab.ent
 
 The issue will be created in the `Triage` stage. From here, Customer Support Operations will validate the bug (if it is invalid, the request will be closed).
 
-If it is valid, it will then move to the `Design` stage (with all approvpriate labels put in place), where a gameplan will be made.
+If it is valid, it will then move to the `Planning` stage (with all appropriate labels put in place), where a gameplan will be made.
 
-Once a gameplan is made, it will jumpt to the `Development` stage, where the changes will be made.
+Once a gameplan is made, it will jump to the `Development` stage, where the changes will be made.
 
-Once it is ready for review, it will move to the `Validation` stage, where the reqeuster (or someone they delegate this to) will validate the changes fix the bug (if they do not, it moves back to the `Development` stage).
+Once it is ready for review, we will ask the requester (or someone they delegate this to) will validate the changes fix the bug.
 
-Once validated, it will then be implemented into production. Once that is done, the issue will move to the `Completed` stage (and be closed out).
+Once validated, it will then move to the `Implementation` stage, where it will be implemented into production.
+
+Once that is done, the issue will move to the `Completed` stage (and be closed out).
 
 ### Feature requests
 
 The issue will be created in the `Triage` stage. From here, Customer Support Operations will determine if the request has enough information to move onto next stages (if not, we will ask for more information).
 
-Customer Support Operations will then determine if the request is valid in our current workload. This is done using the following flowchart:
+Customer Support Operations will then determine if all needed approvals are present. The general logic used is:
 
-```mermaid
-graph LR;
-  A-->|No| B
-  A-->|Yes| D
-  B-->|No| C
-  B-->|Yes| D
-  A{Is this related to a support roadmap item?}
-  B{Is the effort for this small or quickly done?}
-  C[Escalate to unblock]
-  D[Approved for scheduling]
-  C-->E[Close, won't do]
-  C-->F[Needs prioritization, backlog]
-  C-->G[Needs discussion, close in favor of STM. Create new issue in the future.]
+- If the request aligns with something on the support roadmap and seems congruent with the intention, then no approval required
+- If the request aligns with something on the support roadmap but is not congruent with the intention, then we will ask for one of the following:
+  - The support roadmap be updated
+  - Support leadership approval be documented on the request
+- If the request does not align with something on the support roadmap, then we will ask for an appropriate level of approval from support leadership based on:
+  - the amount of work
+  - any danger to planned work
+  - effect on customer or support workflows
 
-```
+If approved, it will then move to the `Planning` stage (with all appropriate labels put in place), where a gameplan will be made.
 
-If approved, it will then move to the `Design` stage (with all appropriate labels put in place), where a gameplan will be made.
+Once a gameplan is made and added to the issue, it will then move to the `Scheduling` stage. Here, Customer Support Operations will determine when it can be implemented. After that is decided, an iteration, milestone, and Customer Support Operations DRI will be added to the issue (which indicates the period the work will be done in).
 
-Once a gameplan is made and added to the issue, Customer Support Operations will determine if we can move forward with the request using the following flowchart:
+If the iteration is not the current one, then the request will be moved to the `Queued` stage, where it will wait until the iteration the request is assigned to comes up.
 
-```mermaid
-graph LR;
-  A-->|No| D
-  A-->|Yes| B
-  B-->|No| D
-  B-->|Yes| C
-  C-->|No| E
-  C-->|Yes| D
-  A{Is it technically possible to do?}
-  B{Is it feasible to do?}
-  C{Does the level of effort far supercede what we are able to do with our current/future workload?}
-  D[Needs prioritization, backlog]
-  E[Approved]
-```
+Once the iteration period arrives, the request will move to the `Development` stage. Here, work will be done to get the changes into a state where they can be tested and validated. Notes will often be added on what kind of changes were made (and where) to help in later stages.
 
-If approved, it will then move to the `Planning` stage. Here, Customer Support Operations will determine when it can be implemented. After that is decided, a milestone will be added to the issue (which indicates the period the work will be done in).
+Once all changes are ready to be validated, we will add the label `Validation::Requested` and make a comment on the issue asking the the requester (or someone they delegate this to) to validate the changes done will meet their requirements for the request. What happens next depends on the results of said validation:
 
-Once the milestone period arrives, the issue will move to the `Development` stage. Here, work will be done to get the changes into a state where they can be validated.
+- If approved, the label `Validation::Received` will be added to the issue (and the issue moved to the `Implementation` stage)
+- If not approved, the label `Validation::Rejected` will be added to the issue (where it will remain in `Development` to be tweaked for another round of validation).
 
-Once they are ready to be validated, the issue moves to the stage `Validation`. Here, the requester will validate the changes done will meet their requirements for the request. If they do not, the stage moves back to `Development`.
-
-If validated by the requester, Customer Support Operations will then finalize the changes into the various systems (be it via MRs, settings changes, etc.).
+Once a request is in the `Implementation`, we will add a comment detailing the technical blueprint of what was done (which should include links to merge requests, followup issues, etc.). We will also begin implementation the changes into production (the exact method depends on what is changing).
 
 Once all that is done, the stage moves to `Completed`, where the issue is closed out.

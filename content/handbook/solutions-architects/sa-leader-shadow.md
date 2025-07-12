@@ -41,6 +41,7 @@ Candidates must:
 | FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |  |
 | FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |  |
 | FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA |  |
+| FY26 Q2 | [Ted Gieschen](https://gitlab.com/tgieschen) | EMEA |  |
 | FY26 Q3 | [Hossam Hamdy](https://gitlab.com/HossamHamdy) | EMEA |  |
 | FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |  |
 | FY27 Q1 |  |  |  |

@@ -29,7 +29,6 @@ How elements of our cadence fit together over time:
 1. [Our Mission](/handbook/company/mission) is to make it so that **everyone can contribute** by using our product, to our product, and to our company.
 1. [Our Vision](/handbook/company/vision) is what we want the product to evolve into in the next 10 years, **AllOps** - a single application for DevSecOps, ModelOps, and a Service desk.
 1. [Our Strategy](/handbook/company/strategy/) is what we'll focus on over the next 3 years in order to make progress towards our vision. Our strategy is to be the leading **DevSecOps Platform** by focusing on our three strategic pillars: Customer Results, Maturing the Platform, and Growing Careers.
-1. [Our OKRs](/handbook/company/okrs) are **quarterly objectives** to make progress towards the yearly goals. They have a hierarchy in them with which they flow from the CEO level to the level of teams.
 
 How other elements relate to our cadence:
 
@@ -89,14 +88,11 @@ These reviews ensure that elements reflect current priorities and do not get sta
 
 ## Quarter
 
-1. [OKRs](/handbook/company/okrs/)
 1. [Board meeting](/handbook/board-meetings/#board-meeting-process)
 1. Sales targets (in [Clari](/handbook/business-technology/tech-stack/#clari))
 1. [E-group offsite](/handbook/company/offsite/)
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
-1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
-1. [Group Conversations](/handbook/company/group-conversations/)
 
 ## Month
 

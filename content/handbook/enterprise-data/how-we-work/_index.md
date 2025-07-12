@@ -104,6 +104,7 @@ There are several types of documentation we use to capture the topics. Noted the
 - [**Internal handbook**](https://internal.gitlab.com/) - Items which explain the same category as the public handbook, with the difference that the internal handbook contains [internal information](/handbook/communication/confidentiality-levels/#internal)
 - **Readme.md** file - Specific information related to the code where the README.md file resides, which explains **how** to use that code. If more explanation is needed, a good practice is to either use and/or link to a Handbook article.
 - [**Runbooks**](https://gitlab.com/gitlab-data/runbooks) - Context which explains **how** to solve the issue in production or **how** to sort out other problems. The vital thing is to understand that runbook is a guideline of problem-solving approach
+- [**WIKI**](https://gitlab.com/gitlab-data/analytics/-/wikis/GitLab-Data-Team-Wiki) - Items that require regular updates, similar to epics but they span for longer periods of time, e.g. overall Data Team engagement in the quote-to-cash projects.
 
 Matrix with the explanation when to use which documentation type:
 
@@ -119,6 +120,7 @@ Matrix with the explanation when to use which documentation type:
 | Basic context about the project from the technical perspective         | README.md |
 | Solution of how to fix the Triage issue                                | Runbooks |
 | Exploration article (ie. Design spike) of how to pseudonimize the data | Runbooks |
+| Review current progress or effort on QtC projects                      | WIKI |
 
 ### Data Team Value Calculator
 <!-- read through this and make adjustments -->
@@ -208,9 +210,9 @@ Data Team Incidents can be reviewed in [Incident Overview page](https://gitlab.c
 
 | Stage (Label)                     | Responsible        | An Item Is Added to This Stage When                  | Criteria to Progress to Next Stage                                                                                                   |
 | --------------------------------- | ------------------ | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `workflow::1 - triage`            | Data Triager       | A new request has been created                       | A clear problem statement & business value statement are included in the issue, and appropriate labels (Priority, Champion, and Team) have been applied. |
-| `workflow::2 - validation`        | Data               | Enough information is included to inform a Do / Won't Do Decision    | The business value is clear; the work warrants development and is expected to be refined & prioritized. If not, a description for why the work won't be done will be added and the issue will be closed. |
-| `workflow::3 - refinement`        | Data, Business DRI | The issue is actively being scoped & refined         | Technical solution & expected outcome are included in the issue, and the issue has a numerical weight applied. The technical solution should have enough detail and clarity that another developer (other than the one doing the validation) would be able to pick it up. |
+| `workflow::1 - triage & validation` | Data Triager       | A new request has been created                       | A clear problem statement & business value statement and expected outcome are included in the issue, and appropriate labels (Work Category, Champion, and Team) have been applied. The issue has a numerical weight applied by the Data Triager. If the work does not warrant development, a description for why the work won't be done will be added, and the issue will be closed. |
+| `workflow::2 - waiting for prioritization` | Data              | The issue is scoped, sized and warrants development. | Work is prioritized and implementation timelines are agreed upon. |
+| `workflow::3 - refinement`        | Data, Business DRI | The issue is actively being refined         | The technical solution have enough detail and clarity that (another) developer (other than the one doing the refinement) would be able to pick it up. |
 | `workflow::4 - ready to develop`  | Data               | The issue is fully scoped & refined                  | Work is picked up for development  |
 | `workflow::5 - development`       | Data               | Development work has started                         | Item is actively being worked on.  |
 | `workflow::6 - review` | Data, Business DRI | Development work is ready for, or currently, being reviewed | All work is completed. |

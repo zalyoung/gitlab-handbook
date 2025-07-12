@@ -7,7 +7,7 @@ aliases:
 
 ## Product Security Engineering Mission
 
-As part of the Product Security department, and sibling to the Application Security sub-department, our mission is to:
+As part of the Product Security department, and sibling to the Application Security sub-department, our mission [since September 2023](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/627) is to:
 
 - Enhance security along the software development lifecycle by creating ["paved roads"](https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5)
 - Contribute product-first code that enhances the security of GitLab's software assets
@@ -33,9 +33,11 @@ role.
 
 To reach the Product Security Engineering team, team members can:
 
-- Ask in `#sec-product-security-engineering` on Slack
+- Ask in [`#security_help`](https://gitlab.enterprise.slack.com/archives/C094L6F5D2A) on Slack and @ mention the `@product-security-engineering` handle
 - Mention `@gitlab-com/gl-security/product-security/product-security-engineering` on GitLab
 - Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new)
+
+Our team has a private channel that we use: [`#prod-sec-eng-team-internal`](https://gitlab.enterprise.slack.com/archives/C08KDNCTRBJ)
 
 ## Runbooks
 
@@ -77,7 +79,7 @@ If at any point during the refinement process it is determined that something is
 Like [Single Engineer Groups](/handbook/company/structure/#single-engineer-groups), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
 
 - Our build boards are organized into workflow columns
-- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development/product-development-flow/), but have the flexibility to skip the process where it's not needed
+- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/), but have the flexibility to skip the process where it's not needed
 - All Product Security Engineering team members can contribute to validation, refinement, and solution design
 - All Product Security Engineering team members can contribute to the prioritization, but the Security Engineering Manager is DRI
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
@@ -107,7 +109,7 @@ It is expected that Product Security Engineering team members will do refinement
 
 #### Step-by-step refinement process
 
-Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development/product-development-flow/), so that the work can be picked up by anyone.
+Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development/how-we-work/product-development-flow/), so that the work can be picked up by anyone.
 
 1. Choose an issue to refine
     1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)
@@ -124,7 +126,7 @@ Below is a step-by-step process for team members to walk through when refining b
 
 ### Definition of Ready
 
-Some projects will use Issue Templates to guide how we describe work to be done. 
+Some projects will use Issue Templates to guide how we describe work to be done.
 In the absence of more specific guidance, an Issue or Work Item can be considered ready for development using the criteria below.
 
 When we notice patterns in our Definitions of Ready for specific projects, we should create an Issue Template to codify that.

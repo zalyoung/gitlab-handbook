@@ -41,6 +41,10 @@ test binarysearch:
   stage: test
   script:
     - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+  artifacts:
+    when: always
+    reports:
+      junit: junit.xml
   cache:
     key: $CI_COMMIT_REF_SLUG
     paths:

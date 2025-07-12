@@ -49,7 +49,7 @@ We need to proactively identify languages, testing questions and teams with them
 
 ## Pre-requisites
 
-We need to make sure the customer has gone through the AI hands-on [workshop](/handbook/solutions-architects/tools-and-resources/workshop/) to have a great experience with AI POV. We also recommend building a technical close [plan](/handbook/solutions-architects/sa-practices/technical-close-plan/) and getting agreement from your customer before the POV start.
+We need to make sure the customer has gone through the AI hands-on [workshop](/handbook/solutions-architects/tools-and-resources/workshop/) to have a great experience with AI POV. We also recommend building a [Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/) and getting agreement from your customer before the POV start.
 
 ### Input to the POV
 

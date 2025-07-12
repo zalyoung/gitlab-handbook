@@ -103,6 +103,12 @@ If the block or complaint is related to access from an embargoed country, use th
     - If the user provides the requested information, then complete the `Trust and Safety` [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. Otherwise, reaffirm the block cannot be removed.
     - Proceed with this action for both **free** and **paid** users.
 
+### Business and regulatory obligations (China region)
+
+Users may be blocked in order to comply with business and regulatory obligations in Mainland China, Hong Kong and Macau. This will be reflected in an admin note on the user's account.
+
+More information and the support workflow for these accounts can be found in the [Internal Handbook](https://internal.gitlab.com/handbook/support/workflows/regulatory-region-blocks/).
+
 ### Professional Services migrations
 
 Professional Services migrations can also block users as part of their process. Admin notes for migrations were added as of `2022-08-19` through [this issue](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/issues/818). Older migrated accounts may not have an admin note. As of `2024-09-18`, requests to unblock accounts that were blocked during a Professional Services migration are worked automatically (see [STM #6336](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6336)).
@@ -131,7 +137,13 @@ For all other cases, including no admin notes that are not a part of PS migratio
 
 ### Account is successfully unblocked
 
-If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been unblocked. Otherwise, provide the reasoning from the Unblock Request as to why their account will remain blocked.
+If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been unblocked.
+
+### Account to remain blocked (no reinstatement)
+
+If the final decision from Trust and Safety is that the user's account is not to be reinstated, apply the [`Support::SaaS::Gitlab.com::Blocked Accounts::RemainBlocked`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/RemainBlocked.md) macro. This will provide a standard statement to the user and the ticket **will be closed**.
+
+Applying the macro will provide the user no opportunity of reply through the existing ticket, care should be taken before applying the macro to ensure that this is the intended action.
 
 ## Banned accounts
 

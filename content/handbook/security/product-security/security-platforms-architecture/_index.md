@@ -3,7 +3,7 @@ title: "Security Platforms & Architecture"
 description: "Security Platforms & Architecture Team Charter"
 ---
 
-Last Updated: April 1, 2025
+Last Updated: July 1, 2025
 
 ## Mission Statement
 
@@ -64,7 +64,7 @@ We provide proactive risk assessments, architectural security solutions and stan
 Routine communications with the SPA team happen through the following:
 
 - Primary SPA Slack channel for team-wide discussion: #security-spa
-- Team-specific channels for discussion targeting one sub-team: #security-architecture, #security-research, #sec-product-security-engineering
+- Team-specific channels for discussion targeting one sub-team: #security-architecture, #security-research, #prod-sec-eng-team-internal (private)
 - GitLab Tags for Issue/MR discussion: `@gitlab-com/gl-security/security-research`, `@gitlab-com/gl-security/product-security/security-architecture`,`@gitlab-com/gl-security/product-security/product-security-engineering`
 
 In the event of an emergency, GitLab Team Members should page the Security Incident Response Team in any channel using the command `/security`.
@@ -77,11 +77,9 @@ In FY26, our key focus areas are:
 - Authorization and Authentication
 - AI Security
 
-In the near future, we will expand upon these priorities and produce a high-level team-wide roadmap.
-
 ## FY26 Metrics
 
-SPA maintains metrics at many levels. The following are SPA-level strategic and operational metrics. These metrics are _in addition_ to Key Risk Indicators, project-level metrics, or sub-team specific metrics. For many of these, metrics instrumentation and reporting mechanisms are still forthcoming. The SPA team launched in FY26Q1. As the team matures, these metrics will evolve.
+SPA maintains metrics at many levels. The following are SPA-level strategic and operational metrics we intend to build and report on in FY26. These metrics are _in addition_ to Key Risk Indicators, project-level metrics, or sub-team specific metrics. For many of these, metrics instrumentation and reporting mechanisms are still forthcoming. The SPA team launched in FY26Q1. As the team matures, these metrics will evolve.
 
 Note: These tables require horizontal scrolling to see completely.
 
@@ -111,4 +109,4 @@ The following are key metrics we will start tracking in FY26 to measure the SPA 
 
 This charter will be updated quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and critical risks in the StORM and Product Security Risk Registers.
 
-Next scheduled review: June 30, 2025
+Next scheduled review: September 30, 2025

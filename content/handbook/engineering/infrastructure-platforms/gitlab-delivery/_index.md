@@ -28,7 +28,7 @@ GitLab Delivery stage is responsible for ensuring seamless, reliable, and effici
 
 The GitLab Delivery Stage is composed by the following teams:
 
-- [GitLab Build](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#distribution-build-team)
+- [GitLab Build](/handbook/engineering/infrastructure-platforms/gitlab-delivery/build/)
 - [Self-Managed](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#distribution-deploy-team) (subject to change)
 - [Framework](/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/)
 - [GitLab Release](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#deliveryreleases)

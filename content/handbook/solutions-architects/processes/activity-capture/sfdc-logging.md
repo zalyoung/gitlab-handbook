@@ -88,7 +88,7 @@ An opportunity might have a **Red** rating if there are significant technical ch
 Example situations that should have a **Red** SA Feasibility Rating:
 
 - Success criteria unclear, undocumented, and/or significantly misaligned with solution capabilities
-- Missing [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan)
+- Missing [Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan)
 - Lack of meaningful activities, like tailored demos and hands-on workshops
 - Customer disengaged overall
 - Weak or no technical champion
@@ -106,7 +106,7 @@ Example situations that should have a **Yellow** SA Feasibility Rating:
 - Proof of Value planned but not yet well-defined or started but off-track
 - Deviating beyond agreed upon success criteria
 - Significant timeline delays
-- [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan) or Customer Success Plan missing critical information
+- Customer Success Plan missing critical information
 - Uncertainty from organizational changes at customer or prospect
 - Siloed engagement in 1-2 customer [personas](/handbook/solutions-architects/processes/activity-capture/activity-logging/#logging-an-activity) (Development, QA, Operations, Security, DevOps, Infrastructure)
 - Identified but distracted technical champion
@@ -121,7 +121,7 @@ Example situations that should have a **Green** SA Feasibility Rating:
 
 - Significant customer engagement through tailored demos and hands-on workshops
 - Approved Proof of Value on track
-- Well documented [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan) and Customer Success Plan
+- Well documented Customer Success Plan
 - Alignment across customer [personas](/handbook/solutions-architects/processes/activity-capture/activity-logging/#logging-an-activity) (Development, QA, Operations, Security, DevOps, Infrastructure)
 - Obvious and strongly engaged technical champion
 - Strong executive engagement

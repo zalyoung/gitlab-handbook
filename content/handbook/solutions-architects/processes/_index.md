@@ -97,7 +97,7 @@ At the end of the quarter each Inititative and OKR should be successfully closed
 
 ### Working Agreements
 
-Enterprise Solutions Architects typically support sales teams made up of Sales Development Representatives, Strategic Account Leaders and Customer Success Managers. Commercial Sales Solutions Architects support Mid-Market Account Executives and SMB Customer Advocates in a pooled model. When joining a sales team, establishing working agreements is critical to providing optimal service to the customers as well as the GitLab team. A sample template of working agreements is found below to help facilitate conversation and establish these agreements:
+Enterprise Solutions Architects typically support sales teams made up of Sales Development Representatives, Strategic Account Leaders and Customer Success Managers. High Velocity Sales Solutions Architects support Mid-Market Account Executives and SMB Customer Advocates in a pooled model. When joining a sales team, establishing working agreements is critical to providing optimal service to the customers as well as the GitLab team. A sample template of working agreements is found below to help facilitate conversation and establish these agreements:
 
 1. **Customer response time for emails and meeting followups** I will always do my best to provide same-day responses to customer inquiries and follow ups unless otherwise noted. I like to provide customers top-notch service, but interruptions can affect that target. I will use my out of office when traveling so customers can expect delayed responses during those times. Feel free to contact me if it's approaching the end of the day and you didn't see me address a customer request. Slack is the easiest way to find me most of the time.
 1. **Delivery Excellence** If the nature of my response requires a top-notch service needing me to contextualise my response in better and higher quality to our customers, I will collaborate with my GitLab sales team and set reasonable timelines for completions. Examples could be customized and tailored summaries of technical guidance as per our documentation (not just a url), suggested reference solutions architectures, and/or integrations with third-party technologies to GitLab.
@@ -113,7 +113,6 @@ Enterprise Solutions Architects typically support sales teams made up of Sales D
 
 1. **Salesforce**
 [To-do] Add info on views and reports to use during the sales cycle. Also, guidance on SA being listed on opportunities and accounts (there is not any info in our current handbook)
-1. **Gainsight** Primarily for account planning in partnership with SAE and CSM. The easiest way to access Gainsight is via Salesforce. See the [Account Planning in Gainsight](/handbook/sales/gainsight/account-planning/) page for details.
 1. **Slack** Create a public internal team slack channel for your cross-functional team. This will allow you to collaborate easily without sending DM's.
 1. **Google Drive** There is a shared [GitLab Sales](https://drive.google.com/drive/folders/0BzQII5CcGHkKSFFJWkx3R1lUdGM?usp=sharing) folder. Running customer notes and other documents related to a specific customer should be stored in the [Customers and Prospects Subfolder](https://drive.google.com/drive/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?usp=sharing) under the appropriate letter and customer name subfolder.
 1. <b>[GitLab Account Management Project](https://gitlab.com/gitlab-com/account-management)</b> may be used for a POV and/or CSM collaboration with a customer post-sale.
@@ -121,7 +120,7 @@ Enterprise Solutions Architects typically support sales teams made up of Sales D
 
 ### Account Planning
 
-Account planning helps the SAE and the SA elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. It is a critical step in strategically supporting the customer at the account level, and facilitates more efficient opportunity planning. See the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning) page for details.
+Account planning helps the SAE and the SA elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. It is a critical step in strategically supporting the customer at the account level, and facilitates more efficient opportunity planning. 
 
 ### Quarterly Exchange
 
@@ -279,9 +278,9 @@ Default alignment is maintained in the [EMEA AE-SA Alignment page](https://gitla
 
 When workload exceeds the SA's capacity or when there is a request from other departments, please reach out via `#emea-customer-success` Slack channel for assistance.
 
-### Commercial Engagement Model
+### High Velocity Engagement Model
 
-SA engagement for customer interactions, RFP's, audits and more ([how to engage a Commercial SA](/handbook/solutions-architects/processes/commercial/)) can be requested by an SMB or Mid-Market Account Executive or other GitLab team-member using the SA Request button on the Salesforce Opportunity. Find more information about engagement considerations, triage process and expectations in dedicated [Commercial Solutions Architecture Engagement Model](/handbook/solutions-architects/processes/commercial/#commercial-solutions-architecture-engagement-model) handbook page.
+SA engagement for customer interactions, RFP's, audits and more ([how to engage a High Velocity SA](/handbook/solutions-architects/processes/commercial/)) can be requested by a Mid-Market Account Executive or other GitLab team-member using the SA Request button on the Salesforce Opportunity. Find more information about engagement considerations, triage process and expectations in dedicated [High Velocity Solutions Architecture Engagement Model](/handbook/solutions-architects/processes/commercial/#high-velocity-solutions-architecture-engagement-model) handbook page.
 
 ### APAC Account Engagement Model
 
@@ -293,7 +292,7 @@ The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously 
 
 Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem/#engaging-an-ecosystem-solutions-architect) handbook page.
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem) handbook page.
 
 ### Subject Matter Expert Engagement Model
 

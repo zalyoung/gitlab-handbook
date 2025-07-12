@@ -30,19 +30,14 @@ Domestic Partnership is defined as follows:
 
 ### Enroll in the VHI Plan
 
-GitLab's VHI scheme will renew November 1. You can choose to enroll from this date or
-from your hire date (if later than Nov 1st). Team members will need to enroll via VHI
-directly either through the [Online portal](https://www.vhi.ie/groups/?token=1EFD9A4A7D274CF193FDD729F3AFC145) or by calling VHI.
+GitLab's VHI scheme will renew November 1. You can choose to enroll from this date or from your hire date (if later than Nov 1st). Team members will need to enroll via VHI directly either through the [Online portal](https://www.vhi.ie/groups/?token=1EFD9A4A7D274CF193FDD729F3AFC145) or by calling VHI.
 
-When enrolling please enter your GitLab Employee ID as your "Employee Number" and
-your GitLab Department listed in Workday as your "Cost Centre".
+When enrolling please enter your GitLab Employee ID as your "Employee Number" and your GitLab Department listed in Workday as your "Cost Centre".
 
-GitLab has selected [PMI 4316](https://drive.google.com/file/d/1RLJJDK7qConEmjvw8wiFmGrPX4O3SLIX/view?usp=sharing) company wide. If you feel that
-this does not suit your needs (or family member needs), please call VHI on 0567775800 and
+GitLab has selected [PMI 4316](https://drive.google.com/file/d/1RLJJDK7qConEmjvw8wiFmGrPX4O3SLIX/view?usp=sharing) company wide. If you feel that this does not suit your needs (or family member needs), please call VHI on 0567775800 and
 they will discuss your requirements.
 
-The policy may renew automatically at the end of each policy year. If renewed,
-notification will be sent to the team member by email.
+The policy may renew automatically at the end of each policy year. If renewed, notification will be sent to the team member by email.
 
 ### Tax Implications of Medical Plans
 

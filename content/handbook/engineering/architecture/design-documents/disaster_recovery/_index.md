@@ -63,7 +63,7 @@ A parallel restore is the only way we are able to meet the FY24 RTO target of 2 
 | CI | 30 min | not applicable |
 | Load balancing (HAProxy) | 30 min | not applicable |
 | Frontend services (Web, API, Git, Pages, Registry) [^2] | 15 min | 0 |
-| Monitoring (Prometheus, Thanos, Grafana, Alerting) | 0 | not applicable |
+| Monitoring (Prometheus, Grafana, Alerting) | 0 | not applicable |
 | Operations (Deployments, runbooks, operational tooling, Chef) [^3] | 30 min | 4 hr |
 | PackageCloud (distribution of packages for self-managed) | 0 | 0 |
 

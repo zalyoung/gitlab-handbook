@@ -23,25 +23,24 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| May 22 |  Embedded Systems in the Automotive, Aerospace, and Electronics Verticals       |  Marketing  |
-| May 29 |  SFDC Product Data Integration       |  RSO Team   |
-| Jun 5 |   Customer & Ecosystems Quoting Update     |  Deal Desk & Ecosystems  |
-| Jun 12 |  Support Team Overview     | Customer Success  |
-| Jun 19 |  Professional Services Update     |  PS Team  |
-| Jun 26 |  First Order > Field Training     |  Marketing  |
-| Jul 3 |   Hosted Runners for GitLab Dedicated      |  Product Marketing  |
-| Jul 10 |  Artifact Management Roadmap & the Competition     |  Product Marketing  |
-| Jul 17 |  GitLab Duo Special      |  Product Marketing  |
+| Jul 3 |   **No Session**      |     |
+| Jul 10 |  Professional Services Update     |  PS Team  |
+| Jul 17 |  GitLab 18.2 Enablement     |  Product Marketing  |
 | Jul 24 |  *No session during the last two weeks of the quarter*   |    |
 | Jul 31 |  *No session during the last two weeks of the quarter*   |    |
 
 ## Past Sessions
 
 <details>
-<summary markdown="span">Click here to see links to past sessions on Google Drive</summary>
+<summary markdown="span">Click here to see links to past sessions</summary>
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-06-26 |  **[Pipeline Magic: Turning Data into Deals](https://gitlab.highspot.com/items/685d7989eabcc81be123d353)**     |  Private  |
+| 2025-06-16 |  **[GitLab 18.0 Launch Enablement](https://gitlab.highspot.com/items/6850561148d5b77416cf8820)**     |  Private  |
+| 2025-06-12 |  **[Master Working with GitLab Support](https://gitlab.highspot.com/items/684b0383b860240005c2664f)**     | Private  |
+| 2025-05-29 |  **[SFDC Product Data & Free GitLab Users](https://gitlab.highspot.com/items/68388a28aab19074da959446)**       |  Private   |
+| 2025-05-22 |  **[Embedded Systems in the Automotive, Aerospace, and Electronics Verticals](https://gitlab.highspot.com/items/6835d1815af4115c8730a09a)**       |  Private  |
 | 2025-05-15 |  **[Business Value Platform Updates](https://gitlab.highspot.com/items/682686ba604d5b15067ee6c6)**      |  Private  |
 | 2025-05-07 |   **[GitLab Duo Special](https://gitlab.highspot.com/items/681520b0e15873d7cda557c4?lfrm=rhp.0#rtt87ujo8r)**       |  Private   |
 | 2025-04-10 |  **[GitLab Duo with Amazon Q Enablement](https://drive.google.com/file/d/1x6T9YRvgQA2x8poE6M-RPopKYfiMECk5/view?usp=drive_link)**  |  Private  |
@@ -301,7 +300,7 @@ To get a calendar invite to the weekly Field Enablement Spotlight, make sure you
 - SDR BDR Team `sdrbdr@`
 - Marketing Team `marketing-team@`
 
-You can [fill out an access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 ## Training Playlist
 

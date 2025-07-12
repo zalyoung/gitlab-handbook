@@ -25,7 +25,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Security FAQs](https://about.gitlab.com/security/faq/)
 - [Legal & Privacy FAQs](https://about.gitlab.com/privacy/)
-- [Availability FAQs](/handbook/engineering/infrastructure/faq/)
+- [Availability FAQs](/handbook/engineering/infrastructure-platforms/faq/)
 
 ## Control topics
 
@@ -45,7 +45,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
 - [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews)
-- [Access Request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
 
 ### Business continuity
 
@@ -74,7 +74,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Endpoint management at GitLab](https://internal.gitlab.com/handbook/it/endpoint-tools/)
   - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
-  - [EDR](/handbook/it/end-user-services/onboarding-access-requests/endpoint-management/edr/)
+  - [EDR](https://internal.gitlab.com/handbook/security/corporate/tooling/crowdstrike/)
 - [Use Gitleaks as a pre-commit git hook on laptops](/handbook/security/gitleaks/)
 
 ### GitLab.com hardening techniques
@@ -100,12 +100,11 @@ The following links contain frequently asked security, legal & privacy, and avai
 - [Logging and monitoring architecture](/handbook/engineering/infrastructure/production/architecture/#monitoring-and-logging)
 - [GitLab audit logging policy](/handbook/security/security-and-technology-policies/audit-logging-policy/)
 - [Log and audit requests process](/handbook/support/workflows/log_requests/)
-- [Infrastructure department KPIs](/handbook/engineering/infrastructure/performance-indicators/)
 - [Infrastructure production runbooks](https://gitlab.com/gitlab-com/runbooks/)
 
 ### Network security
 
-- [Network security management procedure](/handbook/engineering/infrastructure/network-security/)
+- [Network security management procedure](/handbook/engineering/infrastructure-platforms/network-security/)
 - [GitLab security requirements for deployment and development](/handbook/security/planning/security-development-deployment-requirements/)
 
 ### Privacy

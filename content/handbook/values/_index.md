@@ -214,10 +214,10 @@ Don't display surprise when people say they don't know something, as it is impor
 ##### Collaboration is not consensus
 
 When collaborating, it is always important to stay above radar and work [transparently](#transparency), but collaboration is [not consensus](/handbook/leadership/making-decisions/) and disagreement is part of collaboration.
-You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?"
+You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?".
 You don't have to wait for people to provide input, if you did ask them.
-You don't need to have everyone agreeing to the same thing - they can [disagree, commit, and disagree](#disagree-and-commit). [Two-way doors decisions](#make-two-way-door-decisions) can be reversed as part of [disagree, commit, and disagree](#disagree-and-commit), while one-way door decisions benefit from more input. Recognize these reversible two-way door decisions for when less input is required to iterate faster.
-We believe in permissionless innovation—you don't need to involve people, but everyone can contribute.
+You don't need to have everyone agreeing to the same thing - they can [disagree, commit, and advocate](#disagree-and-commit). [Two-way doors decisions](#make-two-way-door-decisions) can be reversed as part of [disagree, commit, and advocate](#disagree-and-commit), while one-way door decisions benefit from more input. Recognize these reversible two-way door decisions for when less input is required to iterate faster.
+We believe in permissionless innovation — you don't need to involve people, but everyone can contribute.
 This is core to how we [iterate](#iteration), since we want smaller teams moving quickly rather than large teams achieving consensus slowly.
 
 ##### Collaboration Competency
@@ -279,7 +279,7 @@ The Results for Customers value is displayed through the following operating pri
 
 ##### Set Ambitious & Measurable goals
 
-While we iterate with small changes, we strive for large, ambitious results. We have an ambitious [mission](/handbook/company/mission/) and [vision](/handbook/company/vision/), and we aim to be the best in the world across all our functions. Setting ambitious, measurable goals enables us to best deliver customer results.  We agree in writing on measurable goals. Within the company we use [OKRs](/handbook/company/okrs/) to stay accountable. We have and report against [KPIs](/handbook/company/kpis/) with guiding targets.
+While we iterate with small changes, we strive for large, ambitious results. We have an ambitious [mission](/handbook/company/mission/) and [vision](/handbook/company/vision/), and we aim to be the best in the world across all our functions. Setting ambitious, measurable goals enables us to best deliver customer results.  We agree in writing on measurable goals. We have and report against [KPIs](/handbook/company/kpis/) with guiding targets.
 
 ##### Understand our customers
 
@@ -706,7 +706,7 @@ This is documented on our page about [interviewing](/handbook/hiring/interviewin
 
 Be consciously inclusive in [meetings](/handbook/company/culture/all-remote/meetings/) by giving everyone present an opportunity to talk and present their points of view. This can be especially important in a remote setting.
 
-With internal meetings, consider using an agenda document for questions. For example, with GitLab [Group Conversations](/handbook/company/group-conversations/), every meeting has a numbered list that GitLab team members can add questions to. During the meeting, questions are answered in turn and discussions noted in the same document. Sometimes, these documents can have so much traffic (during the meeting) such that only a limited number of people can edit the document. In these situations, those who have questions should post on zoom chat and those who can edit the document should help copy the question over to the document. In addition, those who can edit the document should also post in zoom chat to see if anyone has any questions that they could help add to the document so that meeting attendees are more empowered to contribute to the conversation.
+With internal meetings, consider using an agenda document for questions. For example, with GitLab [AMAs](/handbook/communication/ask-me-anything/), every meeting has a numbered list that GitLab team members can add questions to. During the meeting, questions are answered in turn and discussions noted in the same document. Sometimes, these documents can have so much traffic (during the meeting) such that only a limited number of people can edit the document. In these situations, those who have questions should post on zoom chat and those who can edit the document should help copy the question over to the document. In addition, those who can edit the document should also post in zoom chat to see if anyone has any questions that they could help add to the document so that meeting attendees are more empowered to contribute to the conversation.
 
 Customers are not used to working in this way. To promote inclusion with customers: ask participants for their goals; make sure during demos that you pause for question; leave time for discussion.
 
@@ -787,7 +787,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
   <tr>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">8</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Implements best practices to limit bias on their team. They ensure blameless accountability is practiced throughout their team. Creates an environment where team members feel safe to share ideas and welcomes individual differences.</td>
-    <td class="tg-0lax" rowspan="2" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="/handbook/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, like posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li><li>Hiring Manager ensure a diverse candidate slate and interview panel</li><li>Active participant and advocate for department DIB goals</li></ul></td>
+    <td class="tg-0lax" rowspan="2" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="/handbook/company/culture/inclusion/#gitlabs-diversity-inclusion-and-belonging-mission">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="/handbook/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, like posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li><li>Hiring Manager ensure a diverse candidate slate and interview panel</li><li>Active participant and advocate for department DIB goals</li></ul></td>
     <td class="tg-0lax" rowspan="6" style="border:gray; border-width:0.5px; border-style:solid;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSel_U-audrhPvDlHFAbxF7Jvn5prDns2p8iGzWOTbL1oGraxg/viewform">Knowledge Assessment for People Leaders</a></td>
   </tr>
   <tr>
@@ -1291,7 +1291,7 @@ This method [has shown itself to be effective](https://gitlab.com/groups/gitlab-
 
 Companies are encouraged to copy and implement GitLab's values. They are Creative Commons and can be copied verbatim.
 
-We make our values public for the same [reasons](/handbook/company/culture/all-remote/hiring/#advertise-accurately-and-transparently) we make our [OKRs](/handbook/company/okrs/) (Objectives and Key Results) and [strategy](/handbook/company/strategy/) public. There is great power and efficiency in teams who share company values. Concealing values until *after* someone is hired into an organization is not a wise strategy.
+We make our values public for [many reasons](/handbook/company/culture/all-remote/hiring/#advertise-accurately-and-transparently). There is great power and efficiency in teams who share company values. Concealing values until *after* someone is hired into an organization is not a wise strategy.
 
 Not everyone will see our values and feel aligned with them, and that's OK. By making values public, it shows respect for the time of job seekers who conduct due diligence on prospective employers. When people who *are* aligned with GitLab's values apply for an [open vacancy](https://about.gitlab.com/jobs/), this allows our hiring teams to more efficiently move candidates through the [interview process](/handbook/hiring/interviewing/).
 

@@ -1,5 +1,5 @@
 ---
-title: "GitLab Compliance - Compliance Center and Frameworks"
+title: "GitLab Compliance - Hands-On Lab: Compliance Center and Frameworks"
 description: "This Hands-On Guide demonstrates how to create and view Compliance Center events."
 ---
 

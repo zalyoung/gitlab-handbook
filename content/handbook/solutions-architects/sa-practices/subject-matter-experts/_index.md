@@ -66,7 +66,6 @@ In detail, SMEs will be responsible for the following:
   - Office hours to enable other SAs or CSMs
   - Collaborate with Demo Architects on workshop updates and assist Solutions Architects with new feature adoption.
   - Participate in field enablement activities such as [Technical Skills Exchange](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2800).
-  - [Technical Close Plans](/handbook/solutions-architects/sa-practices/technical-close-plan/) reviews
   - [Customer Success Plans](/handbook/solutions-architects/sa-practices/customer-success-plan/) reviews
   - [Deliberate practice](/handbook/solutions-architects/sa-practices/deliberate-practice/)
   - Form [communities of practices](/handbook/solutions-architects/sa-practices/communities-of-practice/) among the SMEs for the same topic and with fellow SAs to foster the knowledge in the team.

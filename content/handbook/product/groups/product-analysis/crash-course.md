@@ -154,8 +154,6 @@ Create provides tools that support the beginning of the DevOps Life Cycle. Sourc
 
 - [Performance indicators internal handbook page](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/)  The Create : Gitaly Group primarily uses the Performance Indicators Internal Handbook Page to guide decisions
 
-- [Handbook page containing engineering analytics dashboards](/handbook/engineering/development/dev/create/engineering-managers/dashboards/)  Used by Create Stage Engineering Managers
-
 **Helpful video resources**
 
 Must be logged into GitLab Unfiltered account
@@ -166,7 +164,7 @@ Must be logged into GitLab Unfiltered account
 
 **Product roadmap link**
 
-[Link to product direction / vision](/handbook/engineering/development/dev/create/#vision)
+[Link to product direction / vision](/handbook/engineering/devops/dev/create/#vision)
 
 Resource to understand the goals for this team
 
@@ -178,7 +176,7 @@ Resource to understand the Performance Indicators for the Dev Section - Page can
 
 **Key handbook pages**
 
-[Primary Create Stage handbook page](/handbook/engineering/development/dev/create/)
+[Primary Create Stage handbook page](/handbook/engineering/devops/dev/create/)
 
 Contains helpful information about how Create operates and current team members
 
@@ -235,7 +233,7 @@ An internal handbook page that lists all performance indicators under the Operat
 
 **Key handbook pages**
 
-[Verify Stage Product Page](/handbook/engineering/development/ops/verify/)
+[Verify Stage Product Page](/handbook/engineering/devops/ops/verify/)
 
 A central hub for all pages related to the Verify stage
 
@@ -298,7 +296,7 @@ Resource to understand the long-term goals for this team
 
 **Key documentation**
 
-[Main Package Team Handbook Page](/handbook/engineering/development/ops/package)
+[Main Package Team Handbook Page](/handbook/engineering/devops/ops/package)
 
 It can be helpful to search for specific topics on the Package team's main page
 
@@ -314,7 +312,7 @@ GitLab Docs are awesome!
 
 [Handbook page to find Package team members to collaborate with](/handbook/product/categories/#package-stage)
 
-[List of Package team members and their stable counterparts to contact if needed](/handbook/engineering/development/ops/package/#team-members)
+[List of Package team members and their stable counterparts to contact if needed](/handbook/engineering/devops/ops/package/#team-members)
 
 </details>
 
@@ -345,7 +343,7 @@ Resource to understand the Performance Indicators for the Ops Section - Page can
 
 **Key handbook pages**
 
-[Deploy Primary Handbook Page](/handbook/engineering/development/ops/deploy/)
+[Deploy Primary Handbook Page](/handbook/engineering/devops/ops/deploy/)
 
 **Slack channels**
 
@@ -357,7 +355,7 @@ Resource to understand the Performance Indicators for the Ops Section - Page can
 
 **Team members**
 
-[Handbook page to find Create team members to collaborate with](/handbook/engineering/development/ops/deploy/environments/)
+[Handbook page to find Create team members to collaborate with](/handbook/engineering/devops/ops/deploy/environments/)
 
 </details>
 

@@ -14,7 +14,7 @@ A Release is **not** required when:
 
 - Using a current team member's name, job title, or photo taken from the [Meet Our Team page](/handbook/company/team/) in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials. This does not include the use of a former team member's photo taken from that page.
 - Using screenshots of GitLab.com which include a team member's public GitLab profile information, including their name, GitLab username, and avatar.
-- Streaming or publishing [AMAs](/handbook/communication/ask-me-anything/), and [Group Conversations](/handbook/company/group-conversations/) containing the Likeness of team members [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered.
+- Streaming or publishing [AMAs](/handbook/communication/ask-me-anything/) containing the Likeness of team members [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered.
 
 ## Release templates
 
@@ -54,7 +54,7 @@ For all non-Team Members, use the General Waiver and Release template. For Team 
 
 {{% details summary="Expand for instructions for DRIs using the General Waiver and Release" %}}
 
-1. If you don't have DocuSign access, open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to get it.
+1. If you don't have DocuSign access, open an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to get it.
 1. Once you have DocuSign access, access the [General Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
 1. Click `USE`.
 1. On the `Recipients` page:

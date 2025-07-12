@@ -2,7 +2,7 @@
 title: Product sections, stages, groups, and categories
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Interfaces
 
@@ -22,7 +22,7 @@ product categories defined on this page:
 - [Documentation](https://docs.gitlab.com/)
 - [Engineering](/handbook/engineering/) Engineering Manager/Developer/Designer titles, their expertise, and department, and team names.
 - [Product manager](/handbook/product/) responsibilities which are detailed on this page
-- [Our pitch deck](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#company-pitch-deck), the slides that we use to describe the company
+- [Our pitch deck](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7), the slides that we use to describe the company
 - [Strategic marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) specializations
 
 ## Hierarchy
@@ -199,7 +199,7 @@ This is to ensure that [GitLab Bot auto-labeling](/handbook/engineering/infrastr
 
 Upon approval, tag the group Technical Writer in the merge request to ensure [documentation metadata](https://docs.gitlab.com/development/documentation/#stage-and-group-metadata) is updated after the category change is merged.
 
-Ensure that relevant slack channels are updated following our [slack channel naming convention](/handbook/communication/chat/#channel-categories), open an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to have slack channel names updated as they can no longer be updated by creators.
+Ensure that relevant slack channels are updated following our [slack channel naming convention](/handbook/communication/chat/#channel-categories), open an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to have slack channel names updated as they can no longer be updated by creators.
 
 ### Examples
 
@@ -359,7 +359,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](/handbook/engineering/infrastructure-platforms/data-access/gitaly/), [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in Analytics
 
@@ -404,7 +404,7 @@ Whatever the source of the functionality, rather than thinking of these componen
 
 It does not mean, however, that a single group should necessarily be solely responsible for all of these activities. Multiple groups could end up collaborating in execution. This coordination however requires a careful triage of the shared responsibility issues in the issue tracker where a single [DRI](/handbook/people-group/directly-responsible-individuals/) coordinates these activities.
 
-For more information please review [this section in the quality department handbook](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
+For more information please review [this section in the quality department handbook](/handbook/product-development/how-we-work/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
 
 ### Categories A-Z
 

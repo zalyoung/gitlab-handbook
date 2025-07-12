@@ -70,7 +70,68 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Design Details
 
-### Implementation Plan
+### High Level Architecture
+
+```mermaid
+flowchart TD
+    %% Define styles for improved visual appearance
+    classDef phaseStyle fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10px,ry:10px
+    classDef componentStyle fill:#e1ebff,stroke:#4b6bdc,stroke-width:1px,rx:5px,ry:5px
+    classDef storageStyle fill:#ffe6cc,stroke:#d79b00,stroke-width:1px,rx:5px,ry:5px
+    classDef serviceStyle fill:#d5e8d4,stroke:#82b366,stroke-width:1px,rx:5px,ry:5px
+    classDef signatureStyle fill:#fff2cc,stroke:#d6b656,stroke-width:1px,rx:5px,ry:5px
+    classDef securityStyle fill:#f8cecc,stroke:#b85450,stroke-width:1px,rx:5px,ry:5px
+    classDef controlPlaneStyle fill:#e1d5e7,stroke:#9673a6,stroke-width:1px,rx:5px,ry:5px
+    subgraph BuildEnvironment["Build Environment"]
+        Runner["Runner"]
+        BuildJob["CI/CD Build Job"]
+        Artifacts["Job Artifacts"]
+    end
+    subgraph FutureWork["Dependency tracking"]
+        VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
+        Dependencies[(Package & Container<br>Dependencies)]
+    end
+    subgraph ControlPlane["Controle Plane"]
+        subgraph GenerateProvenanceInControlPlane["Phase 2: Generate Provenance in Control Plane"]
+            RailsBackend["GitLab Rails Backend"]
+            DB[(GitLab Database)]
+        end
+        subgraph SignProvenanceInControlPlane["Phase 3: Sign Provenance in Control Plane"]
+            GlgoService["glgo Service<br>(Signing Service)"]
+        end
+        Rekor["Transparency Log<br>(Rekor)"]
+        PermanentAttestation["Permanent Signed<br>Attestation"]
+    end
+    subgraph Phase4["Phase 4: Get private key from KMS"]
+        ExternalKMS["External KMS"]
+    end
+    
+    %% Relationships between components with labeled edges
+    Runner -->|"Request job payload<br>with proof of identity"| RailsBackend
+    RailsBackend -->|"Return job payload"| Runner
+    Runner -->|"Executes"| BuildJob
+    BuildJob -->|"Upload"| Artifacts
+    BuildJob -->|"Request Dependencies"| VirtualRegistry
+    VirtualRegistry <-->|"Fetch/Track"| Dependencies
+    
+    %% Phase 1 flow for early implementation
+    VirtualRegistry -->|"Provide Dependency Data"| RailsBackend
+    RailsBackend <-->|"Query job parameters"| DB
+    
+    RailsBackend -->|"Send Provenance<br>Statement"| GlgoService
+    GlgoService -.->|"Future Integration"| ExternalKMS
+    GlgoService -->|"Return Signed<br>Attestation"| RailsBackend
+    GlgoService -->|"Publish Attestation<br>Digest"| Rekor
+    RailsBackend -->|"Upload"| PermanentAttestation
+    
+    %% Apply styles
+    class FutureWork phaseStyle
+    class Phase4 phaseStyle
+    class Artifacts,DB,Dependencies storageStyle
+    class VirtualRegistry,GlgoService serviceStyle
+    class ProvenanceSigner,TempSignedAttestation,PermanentAttestation,Rekor,ExternalKMS signatureStyle
+    class RailsBackend controlPlaneStyle
+```
 
 #### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
 
@@ -182,6 +243,7 @@ component:
         --rekor-url "${REKOR_SERVER}" \
         --identity-token "${GITLAB_OIDC_TOKEN}" \
         --bundle "${BUNDLE_FILE}" \
+        --new-bundle-format \
         "${TARGET_ARTIFACT}"
 
     - echo "Performing self-verification to ensure provenance is valid..."
@@ -469,4 +531,6 @@ verify_provenance:
 
 ### Decisions
 
-- [001: Verification Component](decisions/001_verification_component.md)
+- [001: Verification Component](decisions/001_verification_component.md) - Verify SLSA provenance attestations in a dedicated CI/CD component.
+- [002: Provenance Generation Location](decisions/002_provenance_generation_location.md) - Generate SLSA provenance statements in the GitLab Rails backend.
+- [003: Attestation Generation & Signing Location](decisions/003_attest_sign_location.md) - Generate and sign SLSA attestation in glgo.

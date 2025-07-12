@@ -27,7 +27,7 @@ The motivation behind building a centralized data platform manifests from our wo
 
 - __Build within the product__
   - A core design tenet with the Platform is to build it within the product - with zero external dependencies and deep-integration with GitLab/GDK similar to existing services such as Gitaly.
-  - Ensure the availability of the Platform across all environments we run a GitLab instance in - `.com`, Dedicated and Self-managed. The design of the Platform should also allow deploying cluster-instances for [Cells](/handbook/engineering/infrastructure/cells/) as applicable.
+  - Ensure the availability of the Platform across all environments we run a GitLab instance in - `.com`, Dedicated and Self-managed. The design of the Platform should also allow deploying cluster-instances for [Cells](/handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/) as applicable.
 
 - __Streamlined user experience__
   - Abstract away undue complexity from a Platform user or developer. The Platform should perform its advertised features without the end-user having to reinvent the wheel every time they need to gather analytical data and/or be able to query/process it once collected.

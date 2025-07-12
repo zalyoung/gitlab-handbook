@@ -46,6 +46,12 @@ We strive to be as transparent as possible, but these sections are only availabl
 - **GHPiD:** GHP ID is the link between Adaptive (what we use to track our operating plan) and Greenhouse (our ATS). A GHP ID has a one to one relationship with an Opening ID. It is the key interlock between our hiring plans and our Talent Acquisition activity. This is a custom field in Greenhouse.
 {{% /details %}}
 
+### Team Playbooks
+
+- [Recruiter Playbook](https://docs.google.com/document/d/17T9HUZTFPVz2-UqISHUQIM1jWbtvLPHaWSdN1_yZyPc/edit?tab=t.0#heading=h.q80b354hqvvz)
+- Hiring Manager Playbook (coming soon)
+- Interviewer Playbook (coming soon)
+
 ### Candidate Handbook Pages
 
 Please find pages for potential and active applicants below.

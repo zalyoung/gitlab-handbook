@@ -141,9 +141,11 @@ App information:
 
 ### Mechanizer
 
+Please use [CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools) instead of the app at this time.
+
 <sup>*Introduced via [support-team-meta#4208](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4208)*</sup>
 
-This app incorporates [Mechanizer](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer) into Zendesk.
+This app incorporates Mechanizer into Zendesk.
 
 App information:
 
@@ -371,16 +373,65 @@ App information:
   - Support EMEA
 - This application was developed in-house and can be found [Zendesk Super App project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/zendesk-super-app).
 
-### Zenduo
+### ZenDuo
 
 <sup>*Introduced via [gitlab-com/support/support-team-meta#6689](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6689)*</sup>
 
-Enables the use of GitLab Duo in Zendesk for various actions.
+The ZenDuo application enables Duo Chat to work with Zendesk tickets.
+
+You can choose from two pre-defined prompts:
+
+- Summarize conversation
+- Suggest KB article
+
+or define up to two custom prompts.
+
+For each custom prompt, you configure:
+
+- Title: this is shown in the prompt dropdown list
+- Button: the text shown on the action button
+- Prompt: the actual prompt. Use the `<<ticket-content>>` placeholder, which will be replaced by the ticket content. 
+
+When you run a prompt, the application will send the ticket content (excluding file attachments) to Duo Chat and show its reply.
+
+Note that large tickets have to be sent in multiple parts, so it can take a while before Duo Chat replies.
+
+Once you've received a reply, you can choose:
+
+- Copy to clipboard: copy the complete conversation (prompts and replies) to the clipboard.
+- Chat: continue the conversation with Duo Chat.
+- Done: hide the conversation, and be ready to start a new one.
+
+When you send the initial prompt, a fresh conversation is always started, so there is no need to instruct Duo Chat to forget previous conversations.
+
+The conversations you have with Duo Chat also show up in the GitLab Duo Chat history on e.g. GitLab.com as `ZenDuo <ticket#> <prompt>`.
+You can use this history to look up previous conversations, or continue on an old conversation.
 
 App information:
 
 - Located in the ticket sidebar
-- This application was developed in-house and can be found [Zenduo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/zenduo).
+- This application was developed in-house and can be found [ZenDuo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/zenduo).
+
+### ZenGuard
+
+<sup>*Introduced via [gitlab-com/gl-security/corp/cust-support-ops/issue-tracker#122](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/122)*</sup>
+
+Implements a warning system into Zendesk to warn (or block) potentially dangerous actions.
+
+Current list of checks:
+
+- Checks if due date is in the past, present, or too far in the future
+- Checks if adding an end-user as a collaborator/CC
+- Checks if setting to pending with an internal note
+- Checks if trying to send a public reply on an on-hold ticket in a way that won't reset the timer
+- Checks if trying to set it on-hold without a public reply (except for accepted situations)
+- Checks if setting ticket to pending without a reply
+- Checks if making unapproved form changes
+
+App information:
+
+- Located in the ticket sidebar
+- This application was developed in-house and can be found in the [ZenGuard project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/zenguard).
 
 ## Zendesk US Government apps
 
@@ -485,16 +536,65 @@ App information:
   - Support Operations
 - This application was developed in-house and can be found [Zendesk Super App project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zendesk-super-app).
 
-### Zenduo
+### ZenDuo
 
 <sup>*Introduced via [gitlab-com/support/support-team-meta#6689](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6689)*</sup>
 
-Enables the use of GitLab Duo in Zendesk for various actions.
+The ZenDuo application enables Duo Chat to work with Zendesk tickets.
+
+You can choose from two pre-defined prompts:
+
+- Summarize conversation
+- Suggest KB article
+
+or define up to two custom prompts.
+
+For each custom prompt, you configure:
+
+- Title: this is shown in the prompt dropdown list
+- Button: the text shown on the action button
+- Prompt: the actual prompt. Use the `<<ticket-content>>` placeholder, which will be replaced by the ticket content. 
+
+When you run a prompt, the application will send the ticket content (excluding file attachments) to Duo Chat and show its reply.
+
+Note that large tickets have to be sent in multiple parts, so it can take a while before Duo Chat replies.
+
+Once you've received a reply, you can choose:
+
+- Copy to clipboard: copy the complete conversation (prompts and replies) to the clipboard.
+- Chat: continue the conversation with Duo Chat.
+- Done: hide the conversation, and be ready to start a new one.
+
+When you send the initial prompt, a fresh conversation is always started, so there is no need to instruct Duo Chat to forget previous conversations.
+
+The conversations you have with Duo Chat also show up in the GitLab Duo Chat history on e.g. GitLab.com as `ZenDuo <ticket#> <prompt>`.
+You can use this history to look up previous conversations, or continue on an old conversation.
 
 App information:
 
 - Located in the ticket sidebar
-- This application was developed in-house and can be found [Zenduo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zenduo).
+- This application was developed in-house and can be found [ZenDuo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zenduo).
+
+### ZenGuard
+
+<sup>*Introduced via [gitlab-com/gl-security/corp/cust-support-ops/issue-tracker#122](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/122)*</sup>
+
+Implements a warning system into Zendesk to warn (or block) potentially dangerous actions.
+
+Current list of checks:
+
+- Checks if due date is in the past, present, or too far in the future
+- Checks if adding an end-user as a collaborator/CC
+- Checks if setting to pending with an internal note
+- Checks if trying to send a public reply on an on-hold ticket in a way that won't reset the timer
+- Checks if trying to set it on-hold without a public reply (except for accepted situations)
+- Checks if setting ticket to pending without a reply
+- Checks if making unapproved form changes
+
+App information:
+
+- Located in the ticket sidebar
+- This application was developed in-house and can be found in the [ZenGuard project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zenguard).
 
 ## App development
 

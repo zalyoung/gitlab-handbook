@@ -18,7 +18,7 @@ This page serves as a resource for team members looking for information about wo
 
 ## Evaluating Quality of AI features
 
-* The [AI Model Validation group](/handbook/engineering/development/data-science/ai-powered/model-validation/#-metrics) has [guidance (internal link)](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_testing_and_evaluation/) for testing your AI-powered feature, which includes model validation via the [Central Evaluation Framework(CEF) (internal link)](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_testing_and_evaluation/#test-2-centralized-evaluation-framework). You can [make a request](/handbook/engineering/development/data-science/ai-powered/model-validation/#-how-to-work-with-us) to have your feature evaluated.
+* The AI Framework team has [guidance](https://docs.gitlab.com/development/ai_features/ai_feature_development_playbook/) for developing, testing, and evaluating your AI-powered feature.
 * The UX Research team maintains a [usability evaluation and scoring process](/handbook/product/ux/ux-research/research-in-the-ai-space/#ai-user-experience-metrics-pilot) to ensure ease of use.
 * For fast, qualitative feedback on AI response quality, as well as to get an idea of what kinds of prompts users write, you can run a [UX Chat Bash](/handbook/product/ux/ux-research/ux-bash/).
 
@@ -40,4 +40,4 @@ This page serves as a resource for team members looking for information about wo
 ## Current AI features and teams
 
 * [AI features by tier](https://docs.gitlab.com/user/gitlab_duo/): All features that are available to use, and how to access them.
-* [AI teams](/handbook/engineering/development/data-science/ai-powered/#stage-groups)
+* [AI teams](/handbook/engineering/ai/#ai-engineering-stakeholders)

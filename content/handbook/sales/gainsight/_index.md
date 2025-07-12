@@ -40,7 +40,7 @@ To access Gainsight directly, go to [gitlab.gainsightcloud.com](https://gitlab.g
 
 **Not able to log in? Here is how you can get help:**
 
-- If you need to request access to Gainsight, fill out an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
+- If you need to request access to Gainsight, fill out an [Access Request](/handbook/security/corporate/end-user-services/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
 - For any Gainsight-related access questions, ping the Gainsight Admin team on the [#gainsight-users](https://gitlab.enterprise.slack.com/archives/C011ACG9MJB) Slack channel.
 
 ### Confirm your timezone

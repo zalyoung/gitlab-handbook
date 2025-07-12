@@ -8,7 +8,7 @@ draft: true
 1. [ ] - Suggest handbook pages they may find useful
     - Pages from the onboarding buddy handbook page
     - Product Specific Pages
-        - [Validation Track](/handbook/product-development/product-development-flow/#validation-track)
+        - [Validation Track](/handbook/product-development/how-we-work/product-development-flow/#validation-track)
         - [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
         - [Getting Access to Data as a PM](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
         - [Managing your Product Direction](/handbook/product/product-processes/#managing-your-product-direction)
@@ -23,7 +23,7 @@ draft: true
         - [How/When to start a research project](/handbook/product/ux/ux-research/#conducting-ux-research-at-gitlab)
         - [How to recruit for a UX Project](/handbook/product/ux/ux-research/recruiting-participants/)
         - Dovetail
-            - [Getting access to Dovetail](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
+            - [Getting access to Dovetail](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
             - [GitLab Dovetail projects](https://gitlab.dovetailapp.com/projects)
             - [Documenting insights in Dovetail](/handbook/product/ux/dovetail/)
 1. [ ] - Remind them to introduce themselves

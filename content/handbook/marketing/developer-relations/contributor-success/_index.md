@@ -45,7 +45,7 @@ In FY26 we will be continue our focus on the following key initiatives
 - Growing the number of unique new monthly contributors, code and non-code. Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
 - Reducing [Open Community MR Age (OCMA)](#open-community-mr-age-ocma). Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
 - Shifting the focus towards higher valued contributions aligned with our product roadmap. Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
-  
+
 As an internal priority we'll focus on improving project & issue scoping and prioritization per the [FY25Q3 retrospective](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/665#note_2248454288).
 
 Any engineering work required to reach these goals is within limits. For example, GDK work, POC's of Duo, Triage-ops refactors with AI assisted classifications and more.
@@ -61,8 +61,7 @@ Any engineering work required to reach these goals is within limits. For example
 #### Open Community MR Age (OCMA)
 
 1. Minimize reliance on human factors that contribute to a large standard deviation
-1. Identify & drive tooling improvements to decrease OCMA, and collaborate with the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/)
-through shared tooling for [automated triaging](/handbook/engineering/infrastructure/engineering-productivity/#automated-triage-policies)
+1. Identify & drive tooling improvements to decrease OCMA
 
 #### Co-Create
 
@@ -81,13 +80,23 @@ cross-functional initiative that is led by the [Contributor Success team](/handb
 - Collaborate closely with our [Marketing counterparts](/handbook/marketing/developer-relations/) and [Core team](https://about.gitlab.com/community/core-team/).
 - Improve community recognition system, awards and engineering assistance in collaboration with the [Developer Relations team](/handbook/marketing/developer-relations/).
 - Participate in GitLab's overall open source outreach events and processes.
-- [Triage community issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to be picked up by the community or GitLab team members
+- [Triage community issues](/handbook/product-development/how-we-work/issue-triage/) to be picked up by the community or GitLab team members
 - [Triage community merge requests](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/#partial-triage-gitlab-org) from the daily merge request coach report
 - [Review merge requests](https://docs.gitlab.com/ee/development/code_review.html) assigned as a merge request coach or from the reviewer roulette
 
 ## Team Members
 
 {{< team-by-departments "Contributor Success" >}}
+
+## Contributor platform
+
+Our [contributor platform](https://contributors.gitlab.com) is the central hub for open source
+contributors to GitLab and community activity.
+It consumes contribution data from multiple platforms and is fully documented in the
+[contributors-gitlab-com project README](https://contributors.gitlab.com/docs/README).
+
+[@daniel-murphy](https://gitlab.com/daniel-murphy) is the product DRI and
+[@leetickett-gitlab](https://gitlab.com/leetickett-gitlab) is the technical/engineering DRI.
 
 ### File an issue
 
@@ -218,21 +227,13 @@ meeting to check in on blockers, progress and ways to think differently & iterat
 A curated list of external resources for improving open source community relations and the contributor experience:
 
 - [Diversity, Equity, and Inclusion in Open Source](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source)
-
 - [Working in Public: The Making and Maintenace of Open Source Software](https://press.stripe.com/working-in-public)
-
 - [Growing Your Contributors](https://docs.oscollective.org/guides/growing-your-contributors)
-
 - [Building Welcoming Communities](https://opensource.guide/building-community/)
-
 - [Open Source Survey](https://opensourcesurvey.org/2017/)
-
 - [Non-code contributions are the secret to open source success](https://github.com/readme/featured/open-source-non-code-contributions)
-
 - [The secrets to onboarding new open source contributors](https://github.com/readme/featured/contributor-onboarding)
-
 - [The privilege of free time in Open Source](https://dri.es/the-privilege-of-free-time-in-open-source)
-
 - [Good first issues don't exist](https://opensauced.pizza/blog/good-first-issues-dont-exist)
 
 ### Promotion

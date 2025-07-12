@@ -25,7 +25,7 @@ include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
   - component: gitlab.com/gitlab-org/components/danger-review/danger-review@1.4.1
     inputs:
-      job_stage: build
+      job_stage: notify
 
 default:
   image: alpine:latest
@@ -97,8 +97,8 @@ variables:
   HUGO_VERSION: '0.140.2'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   HUGOLINT_VERSION: '2.0.3'
-  MARKDOWNLINT_VERSION: '0.17.2'
-  VALE_VERSION: '3.9.4'
+  MARKDOWNLINT_VERSION: '0.18.1'
+  VALE_VERSION: '3.11.2'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
@@ -340,6 +340,8 @@ check_path_change:
       when: never
     - <<: *is-fork
       when: never
+    - if: $CI_MERGE_REQUEST_EVENT_TYPE == 'merge_train'
+      when: never
     - <<: *merge-request-only
 
 hugolint:
@@ -388,6 +390,16 @@ secret_detection:
 ## NOTIFY STAGE
 ##
 ####################################
+
+# override danger-review component rules
+danger-review:
+  rules:
+  - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    changes:
+      paths:
+        - content/handbook/engineering/architecture/**/*
+        - static/images/engineering/architecture/**/*
+      compare_to: 'main'
 
 post_comment_on_failure:
   extends: .linting_notification_job

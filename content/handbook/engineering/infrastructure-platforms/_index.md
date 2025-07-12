@@ -21,7 +21,7 @@ For all other queries, please see the [getting assistance](/handbook/engineering
 
 Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [SaaS Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) (GitLab team member).
 
-{{% include "includes/we-are-also-product-development.md" %}}
+{{% include "includes/engineering/we-are-also-product-development.md" %}}
 
 ## Organization structure
 
@@ -61,6 +61,8 @@ flowchart LR
     click Ops "/handbook/engineering/infrastructure/team/ops/"
     PRODENG --> Foundations
     click Foundations "/handbook/engineering/infrastructure-platforms/production-engineering/foundations/"
+    PRODENG --> Runners[Runners Platform]
+    click Runners "/handbook/engineering/infrastructure-platforms/production-engineering/runners-platform/"
     PRODENG --> Observability
     click Observability "/handbook/engineering/infrastructure-platforms/production-engineering/observability/"
     PRODENG --> Runway
@@ -127,7 +129,7 @@ The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number 
 
 ## Projects
 
-Classification of the Infrastructure Platforms department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
+Classification of the Infrastructure Platforms department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure-platforms/projects).
 
 The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
 
@@ -135,7 +137,7 @@ In addition to tracking the backlog, Infrastructure Platforms department project
 
 ## Supporting Product Features
 
-We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
+We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure-platforms/feature-support/) provides details on how we collaborate to ship new features to Production.
 
 ## How we work
 
@@ -192,6 +194,7 @@ If you need assistance with a production issue or incident, please see the secti
 | [#g_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) | Non-urgent service alerts for Foundations owned services |
 | [#g_foundations_notifications](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD) | Renovate notifications for Foundations owned projects |
 | [#infra-terraform-alerts](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH) | Terraform state drift alerts for SaaS infrastructure |
+| [#g_runners_platform](https://gitlab.slack.com/archives/g_runners_platform)| Team channel for Production Engineering Runners Platform |
 | [#g_observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)| Team channel for general work in Observability. |
 | [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2)| Team channel for general work and discussion. |
 | [#r_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA)| External channel used for support, requestions, and help with Runway. |
@@ -348,11 +351,11 @@ All team members are encouraged to schedule time for personal development. The f
 - [Monitoring](/handbook/engineering/monitoring/)
 - [Readiness Reviews](/handbook/engineering/infrastructure/production/readiness/)
 - [Infrastructure Platforms Standards](/handbook/company/infrastructure-standards/)
+- [Career development and Internships in Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/careers)
 
 ## Other Pages
 
-- [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
-- [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
+- [On-call Handover](/handbook/engineering/infrastructure-platforms/production-engineering/ops/on-call-handover/)
+- [SRE Onboarding](/handbook/engineering/infrastructure-platforms/production-engineering/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
-- [Infrastructure Platforms careers and internships](/handbook/engineering/infrastructure/career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)

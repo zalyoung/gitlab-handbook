@@ -114,13 +114,13 @@ The Senior Benefits Program Manager is a [grade 7](/handbook/total-rewards/compe
 #### Responsibilities
 
 - Management of Benefits Plan Design Globally in coordination with a Global Benefits Broker.
-- Coordination with People Business Partners and GitLab Management on all related benefit plan inquires.
+- Coordination with People Business Partners and GitLab Management on all related benefit plan inquiries.
 - Management of Benefits Renewals, Plan Changes, and Open Enrollment.
 - Development of Benefits Roadmaps for each entity and PEO to determine future benefits in collaboration with Finance.
 - Development and Execution of Benefits Trainings to ensure team members understand benefits available to them.
 - Ensure compliance with all international rules and regulations.
 - Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Build business case for new benefits based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
+- Build business cases for new benefits based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
 - Update Total Rewards documentation as appropriate.
 - Collect GitLab internal data to track trends in functional areas.
 - Collect external market data to support benefits roadmaps.
@@ -163,7 +163,6 @@ The Compensation Coordinator is a [grade 5](/handbook/total-rewards/compensation
 
 - Support all aspects of job family creation and maintenance, partnering with the business to ensure alignment with the job architecture, conducting market benchmarking, reviewing FLSA classification, and updating related systems and tools.
 - Participate in external compensation surveys.
-- Assist with updating and refreshing the Compensation Calculator.
 - Maintain accuracy and integrity of compensation-related data in Workday through regular audits and data coordination.
 - Support the full lifecycle of all compensation programs, including Annual Compensation Review, promotion cycles, quarterly RSU grant approvals, and bonus programs
 - Act as the primary point of contact for compensation-related team member inquiries in collaboration with the People Connect team including creating documentation to support major program and policy implementations.
@@ -187,10 +186,9 @@ The Senior Compensation Analyst is a [grade 7](/handbook/total-rewards/compensat
 
 - Participate in compensation surveys.
 - Maintain approval requests in Greenhouse ensuring job family and compensation benchmarks are set.
-- Development of Compensation Architecture and Compensation Calculator Formula Inputs to determine competitive rates.
+- Development of Compensation Architecture to determine competitive rates.
 - Maintain job code architecture as compared to survey data to ensure proper benchmarking for all roles at GitLab.
 - Benchmark new roles or job families.
-- Maintain the Compensation Calculator.
 - Coordinate with People Technology and Tools to ensure reporting of all compensation data from HRIS.
 - Management of Compensation Tools and Technology for reporting and compensation review cycles.
 - Implement Total Rewards policies, processes and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
@@ -221,12 +219,12 @@ The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensa
 - Partnership with Sales Compensation on Sales Quota plan design and payouts.
 - Ensure compliance with all international rules and regulations.
 - Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Build business case for compensation iterations based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
+- Build business cases for compensation iterations based on supporting survey data to present to Total Rewards Leadership and key stakeholders.
 - Update Total Rewards documentation as appropriate.
 - Collect GitLab internal data to track trends in functional areas.
 - Collect external market data to support benefits roadmaps.
 - Total Rewards Statement Management to be able to report the three pillars of total rewards at the end of each compensation review cycle ensuring the ability to report unvested equity value.
-- Assist the People Connect group with all compensation related escalated inquires.
+- Assist the People Connect group with all compensation related escalated inquiries.
 - Keep it efficient and DRY.
 
 ### Compensation Partner
@@ -235,7 +233,7 @@ The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensa
 
 The Compensation Partner is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-**Market Justification:** The business need for an individual contributor Compensation Partner role is to have a team member with a high level of expertise in Compensation to be able to advise the business in the Compensation Philiosophy. This team member will collaborate with People Business Partners and leaders to ensure team members fully understand their total rewards package. In the market, there are over 160 organizations that typically have 2 to 3 Compensation Partners.
+**Market Justification:** The business need for an individual contributor Compensation Partner role is to have a team member with a high level of expertise in Compensation to be able to advise the business in the Compensation Philosophy. This team member will collaborate with People Business Partners and leaders to ensure team members fully understand their total rewards package. In the market, there are over 160 organizations that typically have 2 to 3 Compensation Partners.
 
 #### Responsibilities
 
@@ -245,7 +243,7 @@ The Compensation Partner is a [grade 8](/handbook/total-rewards/compensation/com
 - Education regarding equity plans at GitLab in collaboration with Stock Administration to ensure team members understand the potential value of their equity.
 - Promote an understanding of compensation philosophies, practices and administration across all levels of the organization, including the executive team. Specifically:
   - Collaborate with People Business Partners and business leaders regarding compensation philosophy, practices, and programs.
-  - Collaborate with Talent Aqusition regarding compensation philosophy, practices, and programs. Ensure the recruiting team is educated how to present GitLab's compensation and overall total rewards strategy.
+  - Collaborate with Talent Acquisition regarding compensation philosophy, practices, and programs. Ensure the recruiting team is educated on how to present GitLab's compensation and overall total rewards strategy.
 - Ensure compliance with all international rules and regulations.
 - Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
 - Keep it efficient and DRY.
@@ -256,7 +254,7 @@ The Compensation Partner is a [grade 8](/handbook/total-rewards/compensation/com
 - Experience working in a public company and exposure to compensation programs at scale.
 - The ability to present complex models in a simple and clear manner.
 - Experience leading presentations to executive teams and company-wide audiences.
-- Experience in Worday preferred.
+- Experience in Workday preferred.
 
 ### Manager, Compensation
 
@@ -295,7 +293,7 @@ The Director, Global Compensation is a [grade 10](/handbook/total-rewards/compen
 
 #### Responsibilities
 
-- Develop, manage and execute a comprehensive compensation strategy that aligns with the company’s business goals and ensures it is positioned to attract candidates and motivate and retain current team members
+- Develop, manage and execute a comprehensive compensation strategy that aligns with the company's business goals and ensures it is positioned to attract candidates and motivate and retain current team members
 - Manage and administer executive compensation programs and prepare for the compensation committee meetings
 - Manage ongoing employee compensation programs such as annual compensation review cycle, bonus accrual and payout, and equity planning
 - Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent
@@ -328,7 +326,7 @@ The Director, Executive and Equity Compensation is a [grade 10](/handbook/total-
 
 - Lead, implement, and communicate executive and equity compensation philosophies, practices and strategies including base salary, bonuses, long-term incentives, and equity awards
 - Provide thought leadership to internal partners around industry best practices to motivate and retain top talent globally and serve as a subject matter expert to executives, People partners, and the Compensation Committee
-- Prepare documentation, present to, and where necessary, guide GitLab’s Compensation Committee
+- Prepare documentation, present to, and where necessary, guide GitLab's Compensation Committee
 - Manage the annual compensation review process for executives
 - Partner with internal stakeholders to assess and analyze compensation trends, regulations, and market data to inform compensation decisions.
 - Develop clear and effective communication strategies for compensation programs that impact the GitLab leadership team

@@ -45,3 +45,24 @@ The Product Security sub-department includes the following teams. Learn more abo
 - [Vulnerability Management](vulnerability-management/)
 - [Security Platforms and Architecture](security-platforms-architecture)
 - [Data Security](data-security/)
+
+## Product Security Department Label Standardization
+
+The Product Security Department has standardized its labeling system to improve issue tracking, team identification, and cross-team collaboration across all security teams.
+
+### Mandatory Division and Department Labels
+
+All issues, epics, and merge requests within the Product Security Department must include the **"Division::Security" and "Department::Product Security"** labels.
+
+### Team-Specific Labels
+
+Each team uses a standardized naming convention :
+
+- **Application Security**: ~"Application Security Team"
+- **Infrastructure Security**: ~"Infrastructure Security Team" 
+- **Data Security**: ~"Data Security Team"
+- **Vulnerability Management**: ~"Vulnerability Management Team"
+- **Product Security Engineering**: ~"Product Security Engineering"
+- **Security Platforms & Architecturee**: ~"Security-Platforms-Architecture Team"
+
+Multiple team labels can be applied to issues requiring collaboration

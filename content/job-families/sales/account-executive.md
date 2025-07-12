@@ -135,4 +135,4 @@ As with all roles in the Sales Department the Strategic Account Executive partic
 
 ## Career Ladder
 
-The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) job family.
+The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Director, Regional Sales](/job-families/sales/regional-sales-director/) job family.

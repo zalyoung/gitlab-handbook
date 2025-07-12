@@ -152,8 +152,8 @@ Related Reading:
       - [CI/CD](https://about.gitlab.com/solutions/continuous-integration/)
       - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
       - [Cloud Transformation](https://about.gitlab.com/solutions/cloud-native/)
-      - [Google Cloud Platform](/partners/technology-partners/google-cloud-platform/)
-      - [AWS](/partners/technology-partners/aws/)
+      - [Google Cloud Platform](https://about.gitlab.com/partners/technology-partners/google-cloud-platform/)
+      - [AWS](https://about.gitlab.com/partners/technology-partners/aws/)
       - Software-defined Infrastructure
       - [Geographically distributed teams](https://about.gitlab.com/enterprise/)
       - [DevSecOps](https://about.gitlab.com/solutions/security-compliance/)

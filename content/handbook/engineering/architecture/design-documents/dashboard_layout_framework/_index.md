@@ -39,8 +39,8 @@ For long pages, consider creating a table of contents.
   - [Visualizations](#visualizations)
   - [Filters](#filters)
   - [Error handling](#error-handling)
-- [Getting started (TODO)](#getting-started)
-- [Migration strategies (TODO)](#migration-strategies)
+- [Getting started](#getting-started)
+- [Migrating existing dashboards](#migrating-existing-dashboards)
 
 ## Summary
 
@@ -186,7 +186,7 @@ The errors should be located where the error occurred:
 
 - Entire dashboard - replace dashboard grid with the error message.
 - Global filters - show above the global filters unless the filter selection causes a
-specific error for a panel, in which case the error will appear within the panel error state.
+  specific error for a panel, in which case the error will appear within the panel error state.
 
 For per-panel filters and panel-specific errors, we should use the panel error state. The panel error state will:
 
@@ -196,8 +196,8 @@ For per-panel filters and panel-specific errors, we should use the panel error s
 
 ## Getting started
 
-_TODO: Add links to documentation, PoC MR, describe initial set up: https://gitlab.com/gitlab-org/gitlab/-/issues/541406_
+See the [development documentation](https://docs.gitlab.com/development/fe_guide/dashboard_layout_framework#basic-implementation).
 
-## Migration strategies
+## Migrating existing dashboards
 
-_TODO: Add migration strategies: https://gitlab.com/gitlab-org/gitlab/-/issues/541406_
+See the [development documentation](https://docs.gitlab.com/development/fe_guide/dashboard_layout_framework#migration-guide).

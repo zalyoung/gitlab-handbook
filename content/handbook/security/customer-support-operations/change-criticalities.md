@@ -6,7 +6,7 @@ canonical_path: "/handbook/security/customer-support-operations/change-criticali
 
 ## Overview
 
-Mirroring [infrastructure's change management criticalities](/handbook/engineering/infrastructure/change-management/#change-criticalities), Customer Support Operations defines changes on a C1 - C4 scale that helps determine appropriate planning horizons.
+Mirroring [infrastructure's change management criticalities](/handbook/engineering/infrastructure-platforms/change-management/#change-criticalities), Customer Support Operations defines changes on a C1 - C4 scale that helps determine appropriate planning horizons.
 
 Criticalities are taken into effect when deciding on which deployment an issue/MR will make it into.
 

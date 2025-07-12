@@ -152,3 +152,4 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 ## Additional Resources
 
 - [Threat Intelligence Templates](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates): Public template repository for reports, RFIs, etc.
+- [Annual Threat Intelligence Reports](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence/threat-intelligence-resources/awesome-annual-security-reports): Internal mirror of publicly-available annual threat intelligence reports - team members can subscribe for updates.

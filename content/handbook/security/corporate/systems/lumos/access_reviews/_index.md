@@ -46,11 +46,11 @@ https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/access_rev
 
 ## Need help? Have a question?
 
-Reach out to the #user_access_reviews channel on Slack
+Reach out to the #user-access-reviews channel on Slack
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
 - [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/)
 - [Identification & Authentication Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Access Requests handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Requests handbook page](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)

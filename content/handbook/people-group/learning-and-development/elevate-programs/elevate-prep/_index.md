@@ -30,7 +30,7 @@ ElevatePrep consists of 4 core learning modules, each focusing on essential prof
 
 Each module is 60 minutes long and delivered live through our learning portal (in partnership with Hone). The program brings together cohorts of approximately 25 participants to ensure meaningful interaction and discussion.
 
-![visual displaying the content in each elevate module](/images/people-group/elevateprep2v2.png)
+![visual displaying the content in each elevate module](/images/people-group/elevateprepgeneric.png)
 
 All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place. If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 
@@ -50,7 +50,7 @@ Participation in Elevate Prep requires:
 1. Active interest in developing leadership skills
 1. Ability to commit to all four sessions
 
-While team members can express interest in participating, preference is given to those nominated by their managers. This helps ensure participants have the support needed to fully engage in the program.
+During our Open enrollment sessions, team members must meet with their managers to confirm support in joining the next ElevatePrep cohort. This helps ensure participants have the support needed to fully engage in the program. Managers and People Business Partners can also nominate participants to join an ElevatePrep cohort.   
 
 ## Making up missed sessions
 
@@ -81,7 +81,7 @@ Program scheduling is based on organizational needs and demand. Details about up
 
 ### How do I express interest in participating?
 
-Speak with your manager about your interest in the program. They can nominate you for participation in an upcoming cohort.
+ElevatePrep is an Open Enrollment program, meaning anyone can sign up for future cohorts, however your participation requires Manager support. We recommend speaking with your manager about your interest in the program. Once you receive their support, you can then register via the registration form. 
 
 ### What if I miss a session?
 

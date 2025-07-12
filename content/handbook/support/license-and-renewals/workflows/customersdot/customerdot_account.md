@@ -53,7 +53,7 @@ For various reasons, the created Customers Portal account is not linked to a Git
 For example:
 
 - The subscription has not yet been applied to a group.
-- Support used [Mechanizer's force associate workaround](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) to bypass the need to have a linked GitLab account to apply a subscription and the customer never linked their GitLab account.
+- Support used [CustomersDot Support Admin Tools force associate workaround](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#force-associate) to bypass the need to have a linked GitLab account to apply a subscription and the customer never linked their GitLab account.
 
 🔧 Customer Y needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account using a [one-time sign-in link sent to their email](https://docs.gitlab.com/subscriptions/customers_portal/#sign-in-to-customers-portal) and [link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#link-a-gitlabcom-account).
 

@@ -77,7 +77,6 @@ Two, it creates class segmentation — those entrusted to update the wiki, and t
 Wikis are also highly siloed. They do not support proposals which touch multiple parts of multiple pages.
 
 - GitLab (the [company](/handbook/company/history/)) uses GitLab (the [product](gitlab-for-remote/)) to maintain and evolve its handbook, and other organizations regardless of size can do likewise. By leveraging [distributed version control](https://about.gitlab.com/solutions/source-code-management/), anyone in the company (and even *outside* of the company) is empowered to put forth proposals for improvement.
-- [Almanac](https://almanac.io/home) is an excellent tool for organizations building their first handbook. It allows you to pull in expert guides from other companies ([GitLab included](https://almanac.io/docs/remote-survival-guide-for-managers-e0326b4235d688c00eac54bd179e3302)) and modify to suit your company. This shortens the time between acknowledging that a handbook is necessary and having a minimum viable product available for your team to reference and iterate on.
 
 ### Suddenly remote quick boot handbook guide
 
@@ -110,9 +109,9 @@ This enables anyone at the company, even those who have just joined, to propose 
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-lifecycle/) to build and evolve a company handbook is that you don't have to have the full table of contents mapped out in advance. Tools like [Almanac](https://almanac.io), [Notion](https://www.notion.com), and [Guru](https://www.getguru.com) can be used as well. Consider the following as an initial guide for top-level organization, but don't hesitate to deviate based on the size, scope, and needs of your firm.
+The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-lifecycle/) to build and evolve a company handbook is that you don't have to have the full table of contents mapped out in advance. Tools like [Notion](https://www.notion.com), and [Guru](https://www.getguru.com) can be used as well. Consider the following as an initial guide for top-level organization, but don't hesitate to deviate based on the size, scope, and needs of your firm.
 
-1. **Company / Building Blocks**: This section houses policies, [values](/handbook/values/), [KPIs](/handbook/company/kpis/)/[OKRs](/handbook/company/okrs), and [cultural principles](/handbook/company/culture) that apply to most or all departments in the organization. The suggested list below was curated by [Luke Thomas](https://twitter.com/lukethomas14) in his book [The Anywhere Operating System](https://www.lukethomas.com/anywhere/).
+1. **Company / Building Blocks**: This section houses policies, [values](/handbook/values/), [KPIs](/handbook/company/kpis/)/OKRs, and [cultural principles](/handbook/company/culture) that apply to most or all departments in the organization. The suggested list below was curated by [Luke Thomas](https://twitter.com/lukethomas14) in his book [The Anywhere Operating System](https://www.lukethomas.com/anywhere/).
    - Founding story/history of the company
    - Mission, vision, and values
    - Who we serve (customer personas)

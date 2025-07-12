@@ -3,7 +3,7 @@
 title: CPO Shadow Program
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Overview
 

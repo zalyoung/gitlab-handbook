@@ -6,7 +6,7 @@ title: Sensing Mechanisms
 
 Our ability to iterate quickly is a measure of our efficiency, but our effectiveness
 is just as critical. As a product manager you are critical to us not just working correctly,
-but working on the correct things. You do that by [prioritizing appropriately](/handbook/product/product-processes/#prioritization/). Your
+but working on the correct things. You do that by [prioritizing appropriately](/handbook/product/product-processes/#prioritization). Your
 prioritization decisions will be enhanced if you maintain a sufficient understanding of the
 context in which you make them.
 
@@ -45,7 +45,7 @@ In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 
 ### Market
 
-1. Maintaining [competitive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [market assessments](/handbook/product/product-processes/#analyst-engagement/). Checkout this [great video](https://www.youtube.com/watch?v=Um9teDD6jt8&feature=youtu.be&t=300) discussing competitive analysis for Product Managers at Product League with GitLab's Orit Golowinski.
+1. Maintaining [competitive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/) and [market assessments](/handbook/product/product-processes/#analyst-engagement). Checkout this [great video](https://www.youtube.com/watch?v=Um9teDD6jt8&feature=youtu.be&t=300) discussing competitive analysis for Product Managers at Product League with GitLab's Orit Golowinski.
 1. Monitoring and maintaining missing [features](https://about.gitlab.com/features/) in your category epics (competitive landscape section)
 1. Monitoring and maintaining the [direction](https://about.gitlab.com/direction/) page for the categories you own
 1. Subscribing to your competitor's blogs to be aware of what they are releasing will help you here
@@ -57,8 +57,7 @@ In 2020, we [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 
 ### Internal
 
-1. Leadership [OKRs](/handbook/company/okrs/) set the direction for the company
 1. Each PM should be having regular conversations with their [stage groups stable counterparts](/handbook/product/categories/) to discuss their strategy and plan. Share this discussion with the company via our GitLab Unfiltered [YouTube](/handbook/marketing/marketing-operations/youtube/) channel. PMs should share their next three milestones, year-long plan, strategy, and relevant OKRs (with status) so everyone can contribute feedback.
 1. Dialogue with internal customers to improve the dogfooding potential of your features
-1. Quarterly cross-section [direction](/handbook/product/product-processes/#section-and-stage-direction/) reviews
+1. Quarterly cross-section [direction](/handbook/product/product-processes/#section-and-stage-direction) reviews
 1. Reviewing [Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) for trend shifts and changes

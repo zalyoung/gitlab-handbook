@@ -53,28 +53,6 @@ Like most GitLab backend teams we spend a lot of time working in Rails on the ma
 
 - [GitLab](https://gitlab.com/gitlab-org/gitlab)
 
-## Our active feature flags
-
-Our active feature flags can be found on the [feature flag dashboard](https://10az.online.tableau.com/t/gitlab/views/Engineering-Featureflags/Engineering-FeatureFlags/4c520fa3-d6da-433a-9f8c-f949df8cdf9c/8c157ebd-0c70-4db2-839f-a9e528a213b7). Make sure to apply the `Gitlab Team` testing filter.
-
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="pipeline security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
-{{< /tableau >}}
-
 ## How we work
 
 ### Planning
@@ -121,7 +99,7 @@ If the weight of an issue cannot be determined within a day, create a separate [
 
 #### Design and Development collaboration
 
-When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
+When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
 
 To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
 
@@ -129,7 +107,7 @@ Once the design is complete, and appropriate workflow labels are applied, design
 
 #### Technical Investigation
 
-In the process of refinement we may discover a new feature will require a [blueprint](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/doc/workflow.md) or the team feels input from maintainers will help scope down the problem, ensure the feature is performant and/or reduce future technical debt. When this happens the team will create a Technical Investigation issue for the investigation. This issue will be assigned to one team member. That team member should spend the minimum amount of time to create documentation, a [poc](/handbook/engineering/development/ops/release/poc/), or some other artifact that clarifies the approach to the problem, ideally in less than 5 working days. This will help us to gather information, validate the solution with others, and propose a plan to execute. They will answer specific questions outlined in the Technical Investigation issue before work on the feature is started. This process is analogous to the concept of a [Spike](/handbook/product/product-processes/#spikes).
+In the process of refinement we may discover a new feature will require a [blueprint](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/doc/workflow.md) or the team feels input from maintainers will help scope down the problem, ensure the feature is performant and/or reduce future technical debt. When this happens the team will create a Technical Investigation issue for the investigation. This issue will be assigned to one team member. That team member should spend the minimum amount of time to create documentation, a Proof of Concept, or some other artifact that clarifies the approach to the problem, ideally in less than 5 working days. This will help us to gather information, validate the solution with others, and propose a plan to execute. They will answer specific questions outlined in the Technical Investigation issue before work on the feature is started. This process is analogous to the concept of a [Spike](/handbook/product/product-processes/#spikes).
 
 When possible, the assigned team member is encouraged to schedule synchronous time with another developer to pair on the investigation and publishing of the results (Example Technical Investigation issue [gitlab#336617](https://gitlab.com/gitlab-org/gitlab/-/issues/336617)). By default Technical Investigation issues are weighted at a 2 and we timebox them to 3 business days from start to presentation of data. Team members may change this weight and/or time frame at their discretion.
 
@@ -178,7 +156,7 @@ Before the team will accept an issue into a milestone for work it must meet thes
 - Issues labeled with ~"type::feature" include a well stated "why" and customer problem
 - Issues labeled ~"type::bug" include steps to reproduce
 - Designs are in the design tab if needed
-- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code/backend/#weighting-issues)
+- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/devops/dev/create/source-code/backend/#weighting-issues)
 - Design proposal satisfies the [UX Definition of Done (DoD)](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done)
 
 #### Definition of Blocked
@@ -195,7 +173,7 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 
 ### Workflow
 
-Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development/product-development-flow/), and [UX](/handbook/product/ux/product-designer/) workflows.
+Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development/how-we-work/product-development-flow/), and [UX](/handbook/product/ux/product-designer/) workflows.
 
 #### Starting New Work
 
@@ -331,6 +309,7 @@ The Pipeline Security group supports the product marketing categories described 
 | `secrets storage` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=secrets%20storage) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=secrets%20storage) | Relates to functionality surrounding the usage of secrets managers, including integration with secrets storage providers, in the Build environment. |
 | `external authentication` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=external%20authentication) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=external%20authentication) | Relates to functionality surrounding tokens for external authentication available in the Build environment. |
 | `SLSA` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=SLSA) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=SLSA) | Relates to functionality for [Supply-chain Levels for Software Artifacts (SLSA)](https://slsa.dev/). |
+| `ID tokens` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=ID%20tokens) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=ID%20tokens) | Relates to functionality surrounding the usage of ID tokens (`id_token`). ID tokens are JSON Web Tokens (JWTs) that can be added to a GitLab CI/CD job. They can be used for OIDC authentication with third-party services. |
 
 ### Meetings
 

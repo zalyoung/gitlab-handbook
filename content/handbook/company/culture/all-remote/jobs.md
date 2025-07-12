@@ -73,7 +73,6 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [easyDNS](https://easydns.com/), see why they decided to [go all-remote.](https://easydns.com/blog/2019/05/23/the-end-of-an-era-for-easydns/)
 1. [TaxJar](https://www.taxjar.com), read their [blog about building a remote-only culture](https://www.taxjar.com/about), their [benefits](https://www.taxjar.com/#open-positions), [core values](https://www.taxjar.com/about), and [hear what employees say about working there](https://www.comparably.com/companies/taxjar).
 1. [Animalz](https://www.animalz.co/), an agency providing content to B2B/SaaS organizations
-1. [Almanac](https://almanac.io/), see their [async collaboration norms](https://almanac.io/handbook/almanac-handbook-9SaCJX/async-collaboration-norms-almanac-nN7bF2BOfBRFJNBqwoj4uyRA91vFPLtT), [resources for leaders](https://get.almanac.io/blog) in a world without offices and [current open roles](https://almanac.io/careers).
 1. [Iterative](https://datachain.ai/), a company building open-source developer tools for machine learning
 1. [SearchApi](https://www.searchapi.io/), a remote-only company, see their [jobs page](https://www.searchapi.io/careers)
 
@@ -116,6 +115,7 @@ Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs s
 1. [Real Work From Anywhere](https://www.realworkfromanywhere.com/)
 1. [Startup Jobs](https://startup.jobs/remote-jobs)
 1. [Himalayas](https://himalayas.app)
+1. [Better Remote Jobs](https://betterremotejobs.com/)
 1. [Remotely](https://empllo.com/)
 1. [Remote Rocketship](https://www.remoterocketship.com)
 1. [Grow Remote](https://growremote.ie/)

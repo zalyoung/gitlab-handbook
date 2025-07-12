@@ -132,11 +132,10 @@ Not all remote employers provide work equipment. This is an important question t
 
 While you will naturally connect with people during your onboarding, you will also need to be intentional about relationship-building via informal communication with your co-workers.
 
-Below are a number of intentional facets of [GitLab's culture](/handbook/company/culture#culture-at-gitlab), created to foster connections.
+Below are a number of intentional facets of [GitLab's culture](/handbook/company/culture/#culture-at-gitlab), created to foster connections.
 
 1. [Social call](informal-communication/#team-days-and-social-calls): A series of optional calls once a month on a Tuesday, to which everyone in the organization is invited. We have no set agenda, but items can be added to the linked document. This is just a time set aside for everyone to openly talk where everyone is a moderator.
 1. [Contribute Unconference](/handbook/company/culture/summit/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
-1. [Group conversations](/handbook/company/group-conversations/): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
 1. Local meetups: Co-located team members are encouraged to organize their own meetups, whether it's a co-working space or getting dinner together.
 1. [Slack](/handbook/communication/#slack): We use Slack channels for informal communications throughout the company, whether it's a team-specific channel or a channel dedicated to sharing vacation photos with other team members.

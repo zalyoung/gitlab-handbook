@@ -10,7 +10,7 @@ As we evolve, there is a need to implement organizational change management (OCM
 
 ## What is Organizational Change Management (OCM)
 
-[Change Management has traditionally referred](/handbook/engineering/infrastructure/change-management/#context-and-objectives) to the processes, procedures, tools, and techniques applied in IT environments to carefully manage changes in an operational environment. In our context, OCM refers to the actions in which a company or business alters a major component of its organization, such as its culture, technology, people, process, or policies it uses to operate. OCM is the method of leveraging change to bring about a successful resolution, and it typically includes a systematic methodology to support a transformational journey.
+[Change Management has traditionally referred](/handbook/engineering/infrastructure-platforms/change-management/#purpose) to the processes, procedures, tools, and techniques applied in IT environments to carefully manage changes in an operational environment. In our context, OCM refers to the actions in which a company or business alters a major component of its organization, such as its culture, technology, people, process, or policies it uses to operate. OCM is the method of leveraging change to bring about a successful resolution, and it typically includes a systematic methodology to support a transformational journey.
 
 ## When to use OCM at GitLab
 

@@ -259,6 +259,56 @@ We chose mTLS as our primary mechanism for both authentication and authorization
 - The design focuses on preventing unauthorized service-to-service communication in scenarios where an attacker has limited access to manipulate network requests but not full system access.
 - Certificate rotation and proper secret management help mitigate risks associated with potential certificate compromise.
 
+### Private Root CA Regional Resilience
+
+#### Regional Limitations of Certificate Authority Service
+
+Google Cloud Certificate Authority Service is a regional service, meaning that [CA Service resources are stored in specific geographical regions and cannot be moved or exported after creation](https://cloud.google.com/certificate-authority-service/docs/locations). As documented in Google Cloud's disaster recovery guidance, [regional resources cannot withstand a regional failure](https://cloud.google.com/architecture/disaster-recovery), making them vulnerable to regional outages.
+
+This regional limitation presents a specific risk for our Cell architecture:
+
+- **New Cell Provisioning Disruption**: Having a single Private Root CA means that during a regional outage, when we want to create a Cell in a different region, we won't be able to as the Private Root CA would be unavailable, making Cell provisioning fail.
+- **Existing Cell Operations**: Importantly, existing Cells would continue to operate normally during a regional CA outage, as they rely on already-issued certificates that remain valid and functional.
+
+#### Multi-Regional Private Root CA Strategy
+
+To achieve regional resilience and ensure continuous certificate operations for new Cell provisioning, we implement a multi-regional Private Root CA strategy where each Cell uses the Private Root CA located in its deployment region.
+
+##### Current Implementation
+
+We currently provision Private Root CAs in the following regions:
+
+- **us-east1** - For Cells deployed in the US East region
+- **us-central1** - For Cells deployed in the US Central region
+
+##### Planned Expansion
+
+The strategy includes expanding Private Root CA deployment to cover all primary regions where Cells will be deployed:
+
+- **Americas**: us-east1, us-central1, us-west1, northamerica-northeast1
+- **Europe**: europe-west1, europe-west3, europe-north1
+- **Asia Pacific**: asia-northeast1, asia-southeast1, australia-southeast1
+
+##### Implementation Architecture and Considerations
+
+Each Cell is provisioned with certificates from the Private Root CA located in the same region:
+
+- **Regional Alignment**: Cells deployed in `us-east1` use the Private Root CA in `us-east1`
+- **Certificate Trust Configuration**: All Cells, and the Server (Topology Service) must be configured to trust certificates issued by any of the regional Root CAs to maintain interoperability between Cells across regions
+- **Monitoring and Alerting**: Comprehensive monitoring ensures rapid detection of regional CA failures and provides visibility into provisioning capabilities across regions
+- **Certificate Lifecycle Coordination**: Ensure certificate rotation and lifecycle management works consistently across all regional CAs
+- **Regional Capacity Planning**: Monitor certificate issuance capacity and usage across regions to ensure adequate resources for Cell provisioning demands
+
+##### Benefits of Multi-Regional Approach
+
+- **New Cell Provisioning Resilience**: Even if one region experiences an outage, new Cells can continue to be provisioned in other regions using their respective regional Private Root CAs
+- **Reduced Latency**: Each Cell uses a geographically close Root CA for optimal performance during certificate operations
+- **Regional Independence**: Each region operates independently, so a regional outage only affects new Cell provisioning in that specific region
+- **Regional Isolation**: A regional outage is contained to that region and doesn't affect Cell operations or provisioning in other regions
+- **Existing Operations Continuity**: Existing Cells continue operating normally during regional outages, as they don't require new certificate issuance for ongoing operations
+
+This multi-regional strategy ensures that our Cell provisioning capabilities remain resilient to regional outages while maintaining the security posture and operational efficiency of our Cell architecture. While existing Cells continue to operate during regional CA outages, this approach ensures we can continue expanding our infrastructure in unaffected regions.
+
 ### Certificate Lifecycle Management
 
 #### Certificate TTLs

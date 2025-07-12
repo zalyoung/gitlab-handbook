@@ -16,8 +16,10 @@ for more on alliances.
 When a customer purchases through a reseller we follow different workflows than
 we do for WebDirect or Sales Assisted purchases. Note the following for a customer purchase through a reseller:
 
-1. The customer will have *NO* access to Customers Portal. The customer's account is held under the name of the reseller, so there is no unique account for them to login to.
-1. Additions or modifications to the existing subscription made through a reseller must go through the reseller, unless specifically allowed by the reseller.
+1. The customer will have access to customersDot, but [cannot modify their subscription](https://docs.gitlab.com/subscriptions/customers_portal/#customers-that-purchased-through-a-reseller) in any way, nor view invoices.
+1. Additions, modifications, or renewals must go through the reseller.
+
+**Note: Users may see a message in their portal, or on their GitLab.com group, warning that their subscription is "read-only".  This is only in reference of the inability to modify the subscription directly, but has no impact whatsoever on the functionality of the subscription itself**
 
 ### Identifying whether a customer purchased through reseller
 

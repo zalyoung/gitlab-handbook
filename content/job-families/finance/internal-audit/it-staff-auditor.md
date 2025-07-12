@@ -16,7 +16,7 @@ The IT Staff Auditor is a [grade 8](/handbook/total-rewards/compensation/compens
 - Lead end to end walkthroughs to identify risks, control gaps, and improvement opportunities
 - Contributes to the overall direction of the department through expertise in audit and compliance activities, and partnership with leadership in decision making
 - Design, execute and complete testing of the design and operating effectiveness of SOX business process and IT controls, including entity and process level controls, IT general and application controls and SOC report reviews
-- Improve SOX documentation and work papers (i.e. work with process owners to refine risk control matrix, improve process flows, refine / develop test procedures, propose control language and associated risks etc.)
+- Improve SOX documentation and work papers (for example; work with process owners to refine risk control matrix, improve process flows, refine / develop test procedures, propose control language and associated risks etc.)
 - Assist and make recommendations in evaluation of new processes, policies and systems to determine relevance to and impact on the SOX program, including assessing design of controls based on identified risks
 - Evaluate audit findings and coordinate remediation of deficiencies
 - Manage and/or contribute to special projects both on-going and recurring (e.g., scaling controls, segregation of duties, implementation - support/advisory), as needed, in an effective and efficient manner
@@ -27,7 +27,7 @@ The IT Staff Auditor is a [grade 8](/handbook/total-rewards/compensation/compens
 - Excellent verbal and written communication skills with the ability to interact effectively with all levels of management
 - Demonstrated problem-solving abilities with customer service orientation
 - Self-starter and flexible team player
-Ability to work in a fast-paced environment with changing processes and procedures
+- Ability to work in a fast-paced environment with changing processes and procedures
 - Strong project management abilities
 - Must have advanced SOX compliance experience and be knowledgeable with the following financial cycles: Record to Report, Order to Cash, Hire to Retire, Procure to Pay, and ITGCs
 - Comprehension of internal auditing standards, SOX, COSO and risk-assessment practices.
@@ -35,8 +35,8 @@ Ability to work in a fast-paced environment with changing processes and procedur
 - Degree in Accounting, Business or Finance required
 - Technical auditing skills and corporate-level audit experience required
 - 5+ years of experience in SOX/internal audit preferred, of which at least 3 years of SOX experience required
-CA/CPA/CIA/ certification preferred
-CISA/CISSP/IT Audit certification preferred
+- CA/CPA/CIA/ certification preferred
+- CISA/CISSP/IT Audit certification preferred
 - Ability to use GitLab
 
 ### Hiring Process

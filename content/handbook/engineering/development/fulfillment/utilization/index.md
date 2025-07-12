@@ -140,12 +140,12 @@ We have [cross-functional prioritization](/handbook/product/product-processes/cr
 - The Product Manager will prioritize `type::feature` issues
 - The Engineering Manager will prioritize `type::maintenance` issues
 - The Software Engineer in Test will prioritize `type::bug` issues
-- The Product Designer will prioritize `bug::ux` issues ([System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#ux-bugs))
+- The Product Designer will prioritize `bug::ux` issues ([System Usability Scale (SUS)](/handbook/product-development/how-we-work/issue-triage/#ux-bugs))
 
 #### Mechanics
 
-- The team reviewus [this dashboard](/handbook/product/groups/product-analysis/engineering/dashboards/#mr-types-dashboard) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
-- The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#ux-bugs) impacting issues.
+- The team reviewus [this dashboard](/handbook/product/groups/product-analysis/engineering/dashboards/#dashboards) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
+- The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](/handbook/product-development/how-we-work/issue-triage/#ux-bugs) impacting issues.
 - For a quick view and controls on bugs by priority, [this board](https://gitlab.com/groups/gitlab-org/-/boards/2874336?label_name[]=group%3A%3Autilization&label_name[]=type%3A%3Abug) can be used. More detailed information on bugs, including backlog and open rate, both of which are factors in determining their desired bug percentage for the upcoming milestone, is shown in this [dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard) (select Utilization from filters).
 - The team collaborates on a prioritization issue that documents and discusses our current prioritization scheme.
 

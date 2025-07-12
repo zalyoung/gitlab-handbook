@@ -55,7 +55,7 @@ Exceptions to this policy will be tracked as per the [Security and Technology Po
 
 ## References
 
-- [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
+- [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure-platforms/change-management/)
 - [Business Technology Change Management Procedure](https://internal.gitlab.com/handbook/it/it-change-management/) (internal only)
 - [Organizational Change Management Procedure](/handbook/people-group/organizational-change-management/)
 - [Security Change Management Procedure](/handbook/security/security-change-management-procedure/)

@@ -6,9 +6,7 @@ description: How to find, select, and begin work on support tickets
 
 ## Introduction
 
-This page helps guide Support Engineers (SEs) to [find](#zendesk-views),
-[select](#selecting-new-tickets), and [work](#first-response-and-ongoing-communication)
-support tickets.
+This page helps guide Support Engineers (SEs) to [find](#zendesk-views), [select](#selecting-new-tickets), and [work](#first-response-and-ongoing-communication) support tickets.
 
 ## Zendesk views
 
@@ -39,13 +37,20 @@ Employ the following workflows for:
 - Both FRT and NRT tickets that do not have an assignee are presented in this view.
   Consider assigning tickets that have a status of `open` or `pending` and that
   have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](/handbook/support/workflows/ticket-transfers/#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
+- For handover tickets prioritize open tickets first then pending tickets.
+- Ensure tickets rehomed from other regions get assigned within the same day.
+- Ensure customers' choice of preferred region is honored or questioned within 8 business hours of ticket creation.
+- Tickets should be taken and self-assigned as they come in by one of the team members responsible for that time segment, regardless of region specified. The first response should happen 
+  with the goal of targeting 100% FRT SLA achievement during your coverage hours, with a stretch goal of greater than 70% of tickets replied to within half of the FRT SLA clock.
+- The customer contact region should only be considered at the end of the assignee's day, at which point the assignee decides, based on customer input, if the ticket should be handed over or retained.
 
- Assigning Tickets:
+## Assigning Tickets
 
-- Assign tickets to yourself using the "Take It" button and update status to
-     `Open` or `Pending`.
-- Please note that the SLA clock continues to run until you've sent a public
-      response to the user.
+- Assign tickets to yourself using the "Take It" button and update status to `Open` or `Pending`.
+- Please note that the SLA clock continues to run until you've sent a public response to the user.
+- Keep in mind that the status will change from New `n`, to Open `o`, as soon as you assign the ticket. It won't be obvious that it is still at FRT stage. 
+- Manually CC yourself on the ticket so that if it gets reassigned, you can still track it.
+- Hand over tickets to other regions within 2 hours of each region's start of day.
 
 ## Managing ticket load
 
@@ -60,34 +65,90 @@ Employ the following workflows for:
   - Normal FRT 8h, NRT 24h
   - Low FRT 24h, NRT 24h
 
+## Managing Zendesk attachments
+
+When working with Zendesk tickets, you may need to download attachments to your laptop. While [our laptops have full disk encryption](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption), we need to be careful with downloaded attachments as they can contain [RED data (customer data)](../../security/standards/data-classification-standard.md#red)):
+
+1. Keep downloads in a dedicated folder for easier management, for example with [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
+1. Automate the deletion of downloaded attachments as soon as possible after resolving the ticket
+1. Take extra care with sensitive information (tokens, passwords, credentials). If needed, [remove the sensitive information](../providing_excellent_customer_service.md#removing-information-from-tickets) directly from the ticket as well
+
+The [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router) web browser extension can be used
+to download attachments from Zendesk. By default, the extension will download all Zendesk attachments to `~/Downloads/zd-%TICKET_ID%`.
+Note that this assumes your browser is using its default download location - you may need to adjust paths if you've customized your browser's download settings.
+
+If you are using the Zendesk Download Router, you can set up automatic cleanup using `crontab`:
+
+1. Open your crontab for editing:
+
+   ```shell
+   crontab -e
+   ```
+
+1. Add the following line (adjust the path if needed):
+
+   ```shell
+   # Automatically delete any Zendesk attachments older than 30 days
+   0 12 * * * find ~/Downloads -type d -name "zd-*" -mtime +30 -exec rm -rf {} +
+   ```
+
 ## First response and ongoing communication
 
 When starting work on a ticket, prioritize these steps to effectively address
 the customer's needs and streamline the resolution process:
 
-1. **Confirm Understanding:** Begin by confirming in the first response your
+1. **Start Working Immediately:** Begin troubleshooting or send clarification responses immediately upon taking a ticket.
+2. **Confirm Understanding:** Begin by confirming in the first response your
    understanding of the customer's situation, needs, and the problem or question
    they need resolved. If unsure, request clarification or propose a brief
    meeting to discuss details.
-2. **Review Past Interactions:** Check the customer's recent tickets for related
+3. **Review Past Interactions:** Check the customer's recent tickets for related
    issues or useful background information. Confirm any relevant environmental
    details with the customer and review any organizational notes in Zendesk that
    might dictate specific actions or communication methods.
-3. **Adjust Priorities:** If the ticket's priority doesn't align with our
+4. **Adjust Priorities:** If the ticket's priority doesn't align with our
    [Definitions of Support Impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact),
    discuss and adjust the priority with the customer using the
    `General::Changed priority` macro.
-4. **Prepare for Emergencies:** If the ticket could escalate to an emergency,
+5. **Prepare for Emergencies:** If the ticket could escalate to an emergency,
    alert the on-call engineer(s).
-5. **Manage Time Effectively:** If an extensive response is required or the SLA
+6. **Manage Time Effectively:** If an extensive response is required or the SLA
    is near breaching, send an initial brief response. Outline the actions you
    will take and when the customer can expect an update. Adjust timelines as
    necessary based on customer feedback.
-6. **Use Tools:** Set the ticket to Open and use 'Due Date' and 'Reminder' apps
+7. **Use Tools:** Set the ticket to Open and use 'Due Date' and 'Reminder' apps
    to keep track.
 
-By following these steps, you ensure a structured approach to ticket handling
-that can save time and enhance customer satisfaction.
+By following these steps, you ensure a structured approach to ticket handling that can save time and enhance customer satisfaction.
+
+## Responsiveness
+
+- Contact customers promptly when tickets are close to breaching.
+- When tickets are awaiting updates from other departments, provide updates to customers at least weekly.
+- Frequency of updates should be agreed upon with the customer.
+- Calls are not the exception, and are used not only for troubleshooting and data collection, but also for clarification, guidance, and providing comfort.
+
+## Elevating Tickets
+
+Elevate tickets (seeking assistance from a Peer/Senior/Pod/Development – Request for help) based on agreed criteria:
+
+- Time constraints
+- Skill level requirements
+- Meeting customer expectations
+
+By following these steps, you ensure a structured approach to ticket handling that can save time and enhance customer satisfaction.
+
+## Closure Process
+
+When closing a ticket:
+
+- Attempt to gain customer agreement before closing tickets.
+- Provide a **closure summary** outlining steps taken to resolve the ticket.
+- Apply appropriate closure codes when solving tickets.
+- Link tickets to knowledge articles or documentation that helped with resolution.
+- Link tickets to RFH issues, bug issues or feature requests by adding the associated issue URL to the `GitLab Issues` text field.
+- Create or update knowledge articles based on ticket resolutions when appropriate.
+- Add an email signature to final emails encouraging customers to complete satisfaction surveys, such as: "Your feedback is important to us. Please take a moment to complete the satisfaction survey you'll receive after this ticket is closed."
 
 ## Contacting the Customer Success or Account team
 
@@ -275,7 +336,7 @@ yourself.
 
 While you can use a tool like GitLab Duo to help when researching and when writing a reply to a customer, there are a few important things to keep in mind:
 
-- Verify the information provided by the LLM to ensure that it is accurate using the docs and the source code or by checking with a human [subject matter expert](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
+- Verify the information provided by the LLM to ensure that it is accurate using the docs and the source code or by checking with a human [subject matter expert](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
   - You should pay special attention to making sure whether things like environment variables, configuration options, UI settings and documentation URLs actually exist
   - You should double check that any bugs or feature availability identified aligns with the GitLab version/edition/tier/install method that the customer is using
   - You should make sure that you can understand, can explain and have tested any commands or code snippets generated by an LLM and shared with a customer

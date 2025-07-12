@@ -70,7 +70,12 @@ We use the JTBD framework for viewing products and solutions in terms of the job
 
 ### Design Reviews
 
-View how we collect [synchronous and asyncrhonous design feedback](/handbook/product/ux/product-designer/#design-reviews).
+View how we collect [synchronous and asynchronous design feedback](/handbook/product/ux/product-designer/#design-reviews).
+
+### Design Studios
+
+[Design Studios](/handbook/product/ux/product-design/design-studios/) are regular meetings for product designers to connect and work together.
+They provide casual time for socializing, sharing work, getting feedback, and more.
 
 ### Tools
 

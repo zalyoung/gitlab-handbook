@@ -7,9 +7,9 @@ description: New Hires Guide to Starting at GitLab
 
 We're thrilled that you will be joining GitLab! This guide will walk new hires through what to expect before and during your first few weeks with us.
 
-## Meet the People Connect team
+## Meet the People Operations team
 
-The People Connect team will be your primary guide throughout onboarding and your journey at GitLab. A team member from the People Connect team will be assigned to your Onboarding Issue to provide guidance as you begin. Learn more about the team on our [team page](/handbook/company/team/?department=people-connect-team).
+The People Operations team will be your primary guide throughout onboarding and your journey at GitLab. A team member from the People Operations team will be assigned to your Onboarding Issue to provide guidance as you begin. Learn more about the team on our [team page](/handbook/company/team/?department=people-connect-team).
 
 ## Your Onboarding Journey
 
@@ -17,13 +17,13 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 #### Equipment Setup
 
-- Watch for your Welcome Email from the Candidate Experience Specialist team with instructions for ordering your [laptop](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) and [equipment](/handbook/finance/expenses/#equipment)
+- Watch for your Welcome Email from the Candidate Experience Specialist team with instructions for ordering your [laptop](/handbook/security/corporate/end-user-services/laptop-management/) and [equipment](/handbook/finance/expenses/#equipment)
 - Once your laptop arrives, feel free to explore it (Mac users: skip creating an Apple ID—you'll create one with your GitLab email on day one).
 
 #### Documentation
 
 - **US new hires**: Complete your I9 via LawLogix (email arrives one week before start date)
-- **Belgium/Japan new hires**: Look for an email from People Connect regarding payroll documents
+- **Belgium/Japan new hires**: Look for an email from People Operations regarding payroll documents
 - **Team Members in certain countries**: Watch for communications from our external partners:
   - France, Germany, Singapore, UK: Papaya
   - Netherlands: HR Savvy
@@ -34,7 +34,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 - Join our TaNEWki call to meet other new team members (invite sent 1-2 weeks before start).
 - You will receive an email from Okta (our SSO/security application portal) with an invite to register. Please do not take action on this email until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
-- Your GitLab email address will be created using your first name initial and full last name @gitlab.com. If you have a preferred first name or preferred last name, please send the People Connect team an email to people-connect@gitlab.com to let us know your preferred name. **Please note that some security restrictions may apply.**
+- Your GitLab email address will be created using your first name initial and full last name @gitlab.com. If you have a preferred first name or preferred last name, please send the People Operations team an email to people-connect@gitlab.com to let us know your preferred name. **Please note that some security restrictions may apply.**
 
 ### First day
 
@@ -43,8 +43,8 @@ The People Connect team will be your primary guide throughout onboarding and you
 - Begin your workday whenever feels comfortable—we embrace [non-linear workdays](/handbook/company/culture/all-remote/non-linear-workday/#find-what-works-for-you). Our welcome email is sent at around 6am local time.
 - Check your personal email for onboarding instructions:
     1. Go back to the Okta email you received the day before your start date. This email will allow you to activate your Okta account and also links you to the respective laptop setups and the steps to follow:
-        - [Mac OS](/handbook/it/end-user-services/onboarding101/#laptop-setup-macbook)
-        - [Linux OS](/handbook/it/end-user-services/onboarding101/#laptop-setup-linux)
+        - [Mac OS](/handbook/security/corporate/end-user-services/onboarding101/#laptop-setup-macbook)
+        - [Linux OS](/handbook/security/corporate/end-user-services/onboarding101/#laptop-setup-linux)
     1. Once you have activated your Okta account and setup your laptop, proceed with checking the welcome email to register your GitLab username (via accessing your GitLab email).
     1. You will then be able to access your personalized [GitLab onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md).
     1. You will also receive an invite from 1Password (for secure password management), please be sure to activate your account and store any passwords in your personal vault.
@@ -53,7 +53,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 - The onboarding process is [self-paced](/handbook/values/#self-service-and-self-learning), but items marked with 🔴 should be completed on the assigned day. For the other tasks, the breakdown of days are there as a guideline, please do not work beyond your working hours to feel you need to complete the tasks.
 - Take your time—you have two full weeks dedicated to onboarding. You also have the support of your manager, onboarding buddy and the whole of GitLab to help you along your journey.
-- Reach out to the People Connect team or IT Ops via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) whenever you need assistance via HelpLab or Slack.
+- Reach out to the People Operations team or IT Ops via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) whenever you need assistance via HelpLab or Slack.
 - There is plenty of helpful content in the onboarding issue and, applicable Handbook pages to read. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above and remember to take breaks. Also feel free to bookmark certain Handbook pages for a later time to refer back to (except those marked with a big red dot - 🔴 which require immediate action).
 
 #### Communication Tools
@@ -178,7 +178,7 @@ As point 23 on our [Communication Handbook page](/handbook/communication/#writin
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
 | AMA | [Ask Me Anything](/handbook/communication/ask-me-anything/) |
-| AR | [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) |
+| AR | [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) |
 | DRI | Directly Responsible Individual |
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator |
@@ -209,7 +209,7 @@ As point 23 on our [Communication Handbook page](/handbook/communication/#writin
 |:---------------|:---------------|
 | CES | Candidate Experience Specialist |
 | PBP | People Business Partner |
-| PC | People Connect |
+| POps | People Operations |
 | TA | Talent Acquisition |
 | TR | Total Rewards |
 

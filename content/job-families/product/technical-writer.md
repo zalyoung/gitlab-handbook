@@ -100,11 +100,11 @@ These next level opportunities are not guaranteed to be available and should not
 - **Reviews**: Model review practices that improve the quality of contributions over time. Support and guide team members to improve reviews in their groups and stages.
 - **Product knowledge**: Understand the technology and features of both the development stages to which you're assigned and the end-to-end GitLab product to help improve the documentation, information architecture, and docs site.
 - **Process**: Actively contribute documentation workflow changes that help the team evolve the culture and best practices.
-- **Cross-stage collaboration**: Drive collaboration across stages by helping technical writers and managers identify dependencies and areas for cross-departmental work.
 - **Communication**: Communicate effectively and professionally in all areas, and be a model for effective collaboration.
 - **Leadership**: Identify and lead cross-stage projects that improve the deliverables or processes of the Technical Writing team. Model professionalism in all areas. Be an effective thought partner with management to help make technical or project decisions for the team. Be a team leader in a particular segment of responsibility that the team requires: AI, technology, process, content, UX writing, statistics and metrics, and others.
 - **Recruiting**: Be available to interview potential technical writing candidates.
 - **Mentoring**: Mentor other technical writers and team members around suggesting and balancing priorities, industry best practices, and other process knowledge.
+- **Cross-stage collaboration**: Drive collaboration across stages by helping technical writers and managers identify dependencies and areas for cross-departmental work.
 
 ### Principal Technical Writer
 
@@ -133,7 +133,7 @@ Extends the Staff Technical Writer responsibilities in complexity and scope.
 
 ## Performance Indicators
 
-- [Technical Writing team member MR rate](/handbook/product/ux/performance-indicators/#technical-writing-team-member-mr-rate)
+- [Technical Writing team member MR rate](/handbook/product/ux/performance-indicators/#technical-writer-mr-rate)
 - [Technical Writing collaboration on UI text](/handbook/product/ux/performance-indicators/#technical-writing-collaboration-on-ui-text)
 
 ## Hiring Process

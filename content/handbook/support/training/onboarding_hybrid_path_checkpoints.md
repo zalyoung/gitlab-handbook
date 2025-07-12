@@ -25,7 +25,7 @@ Checkpoints for new starters who are working through their support hybrid learni
 - You are getting to know what the GitLab suite offers its customers
 - You are getting to know how customers can get started with GitLab
 - You may have completed and closed your Onboarding Issue
-- You are establishing your [learning pathway](/handbook/support/training/#support-manager-onboarding-pathway) through the GitLab modules with the New Team Member Start Here module
+- You are establishing your [learning pathway](/handbook/support/training/#support-manager-onboarding-pathway) through the GitLab modules with the [New Team Member Start Here module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/New%20Support%20Team%20Member%20Start%20Here.md?ref_type=heads)
 - Pairing sessions setup with Onboarding buddy:
   1. Pairing session fundamentals - what's the point, what you get out of it, etiquette of pairing session
   1. Explaining ZD views and how to action things
@@ -37,12 +37,15 @@ Checkpoints for new starters who are working through their support hybrid learni
 - You understand the types of customer tickets that are being worked on by support engineers
 - You understand what your role as a support engineer entails
 - You know which teams and roles outside of Support work closely with Support Engineers
-- You have completed your New Support Team Member Start Here module
+- You have completed your [New Support Team Member Start Here module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/New%20Support%20Team%20Member%20Start%20Here.md?ref_type=heads)
+- You have submitted MRs
+- You have created issues
 
 ### Contributing Back to Your Peers and the Team
 
 - You have completed:
-  - GitLab-com SaaS Basics
+  - [GitLab-com SaaS Account Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com%20Saas%20Account%20Basics.md?ref_type=heads) _(associate and intermediate only)_
+  - [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com%20SaaS%20Basics.md?ref_type=heads)
 - You have taken assignment of a couple of SaaS Account tickets
 - You have shadowed some customer calls
 - You understand how to ask for help through the different channels
@@ -52,30 +55,29 @@ Checkpoints for new starters who are working through their support hybrid learni
 ### Leading Customer-Facing Video Interactions
 
 - You have started/working through these modules:
-  - Omnibus GitLab training module
-  - GitLab.com prod console
-  - License & Renewals module
+  - [Omnibus GitLab training module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab%20Omnibus.md?ref_type=heads)
+  - [GitLab.com console](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com%20Console.md?ref_type=heads)
+  - [License & Renewals module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Subscriptions%20License%20and%20Renewals.md?ref_type=heads)
 - You have led customer calls
-- You have submitted MRs
 
 ### Refining Your Documentation
 
-- You can triage/solve SaaS, Self-Managed and L&R tickets - your initial [Support Learning Pathway](/handbook/support/training/#support-learning-pathways) is complete!
+- You can triage/solve SaaS, Self-Managed, Dedicated and L&R tickets - your initial [Support Learning Pathway](/handbook/support/training/#support-learning-pathways) is complete!
 - You have confidence contributing to crush and pairing sessions
 - You have gotten to know more folks outside your region or outside of Support
-- You have started/working through the Documentation module
+- You have started/working through the [Documentation module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Documentation.md?ref_type=heads)
 
 ### Participate in Upgrade Assistance
 
 - You have been DRI on upgrade assistance tickets
 - You are comfortable initiating customer calls as necessary
 - You have updated your Areas of Focus in the Support Team Page
-- You have discussed which on-call roster you will be working towards ([CMOC](/handbook/support/workflows/cmoc_workflows#contacting-a-user) or [Customer Emergencies](/handbook/engineering/on-call/#sts=Customer%20Emergency%20On-Call%20Rotation)) with your manager
+- You have discussed which on-call roster you will be working towards ([CMOC](/handbook/support/workflows/cmoc_workflows#contacting-a-user) or [Customer Emergencies](/handbook/engineering/on-call/#sts=Customer%20Emergency%20On-Call%20Rotation)) with your manager _(does not apply to Associate)_
 
 ### On-call, Onboarding Buddy and Technical Assessment Interview Rotations
 
-- You have begun shadowing for addition to the on-call roster for [Customer Emergencies](/handbook/engineering/on-call/#sts=Customer%20Emergency%20On-Call%20Rotation) or [CMOC](/handbook/support/workflows/cmoc_workflows#contacting-a-user)
+- You have begun shadowing for addition to the on-call roster for [Customer Emergencies](/handbook/engineering/on-call/#sts=Customer%20Emergency%20On-Call%20Rotation) or [CMOC](/handbook/support/workflows/cmoc_workflows#contacting-a-user) _(does not apply to Associate)_
 - You are ready to be nominated as an Onboarding buddy for new team members
-- You are working towards completion of the Technical Assessment Interview module
+- You are working towards completion of the [Technical Assessment Interview module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Support%20Hiring%20-%20Stage1%20Assessment%20review%20training.md?ref_type=heads)
 - You have scheduled in [The 90-Day Checkin](https://docs.google.com/document/d/1yTy8z0UQv84RmCkt3dLAYR8SWAXfcR7dcCnkixrbhKk/) discussion where several of your onboarding checklist items are reviewed
 - You are achieving (or working closely towards) your [First 6 months achievable progress](/handbook/support/training/#support-engineer-achievable-progress---first-6-months)

@@ -29,7 +29,7 @@ The important thing is to think about how usage might be different for people ba
 
 #### Fidelity of insight
 
-People often ask at what stage of product development they should be conducting UX research. The reality is that you can conduct research at [every stage](/handbook/product-development/product-development-flow/#workflow-summary) of development with different levels of detail. The fidelity of research insights follows the fidelity of design.
+People often ask at what stage of product development they should be conducting UX research. The reality is that you can conduct research at [every stage](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) of development with different levels of detail. The fidelity of research insights follows the fidelity of design.
 
 If you have a hand drawn product flow on some pieces of paper, you can put that in front of users and get a basic, high level idea of how they comprehend the experience. The key phrase being *high level*, you won't get any detail and you shouldn't try. If you then turn that flow into a high fidelity prototype where users can click hotspots on a series of screen images to progress through the flow, you can get more detail, but still not as much as if they were interacting with a production interface.
 

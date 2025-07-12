@@ -28,6 +28,6 @@ This is the rotation schedule for FY26-Q2 and Q3 (2025-05-01 until 2025-10-31).
 | Product Design Manager | Product Design Manager |
 |------------------------|------------------------|
 | Jacki Bauer            | Gina Doyle             |
-| Emily Sybrant          | Caitlin Steele         |
+| Emily Sybrant          | TBD        |
 | Justin Mandell         | Chris Micek            |
 | Paul Wright            | Rayana Verissimo       |

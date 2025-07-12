@@ -216,15 +216,15 @@ Tip: Use this [Google Sheet](https://docs.google.com/spreadsheets/d/1agz9uCVRrE9
 
 Note: Do not enter in ratings for participants who experienced task failure, as those ratings are not accounted for when calculating the CM Scorecard score.
 
-[Step one](cms_step1.png)
+![Step one](/images/product/ux/category-maturity/category-maturity-scorecards/cms_step1.png)
 
 **Step two:** The overall score of each question and the task success rate will be averaged to provide a scenario score.
 
-[Step two](cms_step2_updated.png)
+![Step two](/images/product/ux/category-maturity/category-maturity-scorecards/cms_step2_updated.png)
 
 **Step three:** Once all of the scenario scores are calculated you will be provided an overall score and the maturity level. Check the note on the **Maturity level** cell (J40) for further details.
 
-[Step three](cms_step3.png)
+![Step three](/images/product/ux/category-maturity/category-maturity-scorecards/cms_step3.png)
 
 For example:
 
