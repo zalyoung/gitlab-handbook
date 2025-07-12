@@ -210,21 +210,24 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 
 #### Slack Channels
 
-- [#security](https://gitlab.slack.com/archives/security); Used for general security questions and posting of external links for the great discussions. Company wide security relevant announcements are announced in #whats-happening-at-gitlab and may be copied here.
-- [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) - Daily questions and discussions focused on work internal to the Security Division. Can be used for reporting when unsure of where to go.
-- [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
-- `#security-team-standup` - Channel for daily standups.
-- `#incidents` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
-- `#security-alert-manual` - New reports for the Security Division from various intake sources, including ZenDesk and new HackerOne reports.
-- `#hackerone-feed` - Feed of most activity from our HackerOne program.
-- Other `#security-alert-*` and `#abuse*` - Multiple channels for different notifications
-handled by the Security Division.
-- Use the **@sirt-members** mention in any Slack channel to tag the members of the Security Incident Response Team (SIRT).
-- Use the **@sec-assurance-team** mention in any Slack channel to tag the members of the Security Compliance, Risk, and Governance & Field Security teams.
-- Use the **@field-security** mention in any Slack channel to tag the members of the Field Security team.
-- Use the **@appsec-team** mention in any Slack channel to tag the members of the Application Security team.
-- Use the **@trust-and-safety** mention in any Slack channel to tag the members of the Trust & Safety team.
-- Use the **@security-identity** mention in any Slack channel (or `#security-identity-ops`) to tag members of the Identity team.
+To contact Security Division please direct your question to one of the following:
+
+- [**#it_help**](https://gitlab.enterprise.slack.com/archives/CK4EQH50E) - For all your internal end user support needs and CorpSec support needs. All support related questions and requests should be directed here.
+- [**#security_help**](https://gitlab.enterprise.slack.com/archives/C094L6F5D2A) - For all general security questions that are not direct support requests. Be sure to tag the appropriate team listed below.
+- [**#security_discuss**](https://gitlab.enterprise.slack.com/archives/C248YCNCW) - General discussion of broader security topics. (previously security)
+- [**#abuse**](https://gitlab.enterprise.slack.com/archives/C0HPYBJ3D) - For all suspected platform abuse handled by our Trust and Safety team.
+- [**#ciso**](https://gitlab.enterprise.slack.com/archives/C05C6Q0TLTV) - For general communication from our CISO and CISO Directs. Team and division updates and other topics.
+
+To get the attention of a specific Security Department please tag your message with one of the following group tags:
+
+- **@fedramp-compliance** - Contains all SecAssurance members that support FedRAMP.
+- **@security-assurance** - For Security Assurance department.
+- **@security-corpsec** - Contains all members of Corporate Security department.
+- **@security-governance** - Contains all members of Security Governance team.
+- **@security-operations** - Contains all members of Security Operations department. Please use the Slack command `/Security` to log an incident.
+- **@security-prodsec** - For Product Security department.
+- **@security-program-mgmt** - For all your security program management needs.
+- **@security-leadership** - To reach all Security people-managers.
 
 #### Division, Department, and Team updates
 
