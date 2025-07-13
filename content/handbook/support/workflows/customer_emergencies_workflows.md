@@ -217,21 +217,27 @@ We [assume positive intent](/handbook/values/#assume-positive-intent) and use ou
 | ...meets the [definition of Severity 1](https://about.gitlab.com/support/definitions/#severity-1), | `General::Emergency::Strict Definition` | ...your plan to work the emergency. |
 | ...qualifies under one of our [exception criteria](/handbook/support/workflows/emergency_exception_workflow#exception-criteria), | `General::Emergency::Exception` | ...that the situation is being treated as an emergency as a courtesy. |
 | ...needs more information to allow us to determine whether it qualifies as an emergency, | `General::Emergency::Needs more info` | ...that you [will proceed asynchronously](#communicating-that-you-need-more-info) until that determination can be made. |
-| ...does not meet the criteria for an [emergency](https://about.gitlab.com/support/definitions/#severity-1) or an [exception](/handbook/support/workflows/emergency_exception_workflow#exception-criteria), | `General::Emergency::Not an Emergency` and `Downgrade emergency ticket` | ...that their situation does not qualify for emergency service. Follow the section [Handling an emergency downgrade](#handling-an-emergency-downgrade). |
 
-#### Communicating that you need more info
+#### Determine whether an issue is an emergency
 
-When an emergency request ticket does not contain information sufficient to
-allow you to determine whether the situation qualifies as an emergency or for
-an exception, send the customer a message through the ticket:
+If in doubt, send customer a call invite using the `General::Emergency::Needs more info` macro. On the call, ask customer to please help us understand why this issue qualifies as an emergency for them. Remember to also consider the [exception criteria](/handbook/support/workflows/emergency_exception_workflow#exception-criteria).
 
-1. explaining that in order to correctly categorise the situation, you would
+
+1. Explain that in order to correctly categorise the situation, you would
    like to understand more about the effect it is having on their ability to
    work or to meet their business objectives (*i.e.* business impact)
-1. asking for the specific additional context that you require in order to
+1. Ask for the specific additional context that you require in order to
    understand what problem they are facing and what help they need
 
-Once you have enough information to make a determination, use one of the other macros to tag the ticket with the final qualification determination. Note that the `Needs more info` tag will intentionally remain attached.
+In case the issue does not qualify for an emergency:
+1. Explain to customer following the guidelines in [Communicate the emergency downgrade](https://handbook.gitlab.com/handbook/support/workflows/customer_emergencies_workflows/#communicate-the-emergency-downgrade)
+1. Let customer know you will ensure to add a summary of the information provided in the call
+
+After the call:
+1. Use the `General::Emergency::Not an Emergency` macro. This will set the correct tags needed to categorise the issue for our statistics.
+1. Add a summary of the call in the ticket
+1. Downgrade the ticket, following the process in [Handling an emergency downgrade](https://handbook.gitlab.com/handbook/support/workflows/customer_emergencies_workflows/#handling-an-emergency-downgrade)
+
 
 #### Handling an emergency downgrade
 
