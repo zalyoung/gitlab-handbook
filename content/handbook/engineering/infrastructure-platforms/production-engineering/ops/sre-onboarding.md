@@ -6,14 +6,14 @@ title: "SRE Onboarding"
 
 SRE onboarding is mostly handled by two issue templates:
 
-1. [Machine setup](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-sre-machine-setup.md)
-1. [Gather context](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-sre-context.md)
+1. [Machine setup](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/main/.gitlab/issue_templates/onboarding-sre-machine-setup.md)
+1. [Gather context](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/main/.gitlab/issue_templates/onboarding-sre-context.md)
 
 These are assigned to the SRE when they start. This will guide them
 through different areas of the system, starting off with some simple
 tasks and help both the SRE and the SRE manager through various access issues.
 
-There is a third issue template for [oncall onboarding](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-oncall.md),
+There is a third issue template for [oncall onboarding](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/main/.gitlab/issue_templates/onboarding-oncall.md),
 which should be completed after the first two and will probably take at least 3 months from the start date to complete.
 
 ## GitLab.com Infrastructure Management
@@ -26,9 +26,9 @@ infrastructure.
 
 Terraform configuration is currently divided into three environment:
 
-* [production](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/master/environments/gprd)
-* [staging](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/master/environments/gstg)
-* [ops](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/master/environments/ops)
+* [production](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/gprd)
+* [staging](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/gstg)
+* [ops](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/ops)
 
 There is [shared terraform config](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/master/environments/ops/shared-configurations.tf)
 for both staging and production
@@ -195,7 +195,7 @@ the following tools help when working on production issues.
 Required tools
 
 1. [Homebrew](https://brew.sh)
-1. [SSH, properly configured](https://gitlab.com/gitlab-com/gl-infra/infrastructure/blob/master/onboarding/ssh-config)
+1. [SSH, properly configured](https://gitlab.com/gitlab-com/gl-infra/production-engineering/blob/main/onboarding/ssh-config)
 1. [chef, knife, berkshelf](https://docs.chef.io/workstation/install_workstation/)
 1. kubectl (`brew install kubernetes-cli`)
 
