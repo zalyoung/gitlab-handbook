@@ -229,15 +229,6 @@ in this [Grafana dashboard](https://dashboards.gitlab.net/d/product-tenant_scale
 An error budget exception of 99.85% was [approved](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/121190)
 to allow the group to focus on long-term scalability work.
 
-## Dashboards
-
-You can find our group metrics in the Tableau views listed below:
-
-- [Top engineering metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2251271/views)
-- [Merge request metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2104461/views)
-- [Flaky test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
-- [Slow RSpec test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2354045/views)
-
 ## Engineering Customer/Support Rotation Process
 
 {{< alert type="note" >}}
