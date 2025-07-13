@@ -59,6 +59,44 @@ You can also set up notifications to be delivered to your Slack by clicking on y
 
 All email communication with candidates must be kept in Greenhouse. If you need to email your candidate directly, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
 
+## Step 6/HM: Security Awareness
+
+As a hiring manager, you should be aware of increased risks from malicious actors attempting to gain employment under false identities. These individuals pose a significant security threat to GitLab as they may:
+
+- Attempt to access sensitive company information and intellectual property
+- Engage in extortion if discovered
+- Use our systems to launch attacks against other organizations
+
+### Your Responsibilities as a Hiring Manager
+
+#### 1. Partnership with Talent Acquisition
+
+- Work closely with your Talent Acquisition partner, who is actively collaborating with Security
+- Be receptive to any security concerns raised about candidates in your pipeline
+- Prioritize security considerations alongside skill assessments
+
+#### 2. Interview Best Practices
+
+- Ensure all members of your interview panel understand [security awareness guidelines](/handbook/hiring/conducting-a-gitlab-interview/)
+- Set up your interview plan so all interviewers are conducting Zoom calls with cameras on
+- Review interview feedback with attention to any noted security concerns
+
+#### 3. What to Watch For
+
+- Candidates with unusual reluctance to provide standard information or documentation
+- Excessive interest in security protocols or access permissions during interviews
+- Candidates who frequently change their stories or qualifications
+- Interviewers reporting technical glitches or unusual behavior during video interviews
+
+#### 4. Escalation Path
+
+1. Document any concerns thoroughly
+2. Discuss issues directly with your Talent Acquisition partner
+3. Include Security team in discussions when appropriate
+4. Maintain candidate confidentiality throughout the process
+
+Your leadership in prioritizing security during the hiring process is essential to protecting GitLab. If you have questions about this process, please contact your Talent Acquisition partner.
+
 ## Step 6/HM: Hiring team to complete feedback in Greenhouse
 
 Once each step in the interview plan is completed, the interview team will submit feedback via the designated scorecard in Greenhouse within 1 business day of their interviews. Each scorecard will include the following required sections:
