@@ -75,14 +75,14 @@ This usually happens on recurring meetings where the host can't always attend.
 
 The meeting creator should add colleagues as `Alternative Hosts` in case they can't attend so that others can still start the recording.
 
-#### Using the website:
+#### Using the website
 
 1. Navigate to `https://gitlab.zoom.us/meeting/<meeting id>/edit`
 1. Scroll to the bottom to find "Alternative Hosts"
 1. Add the email address for one or more colleagues separated by a comma
 1. Click Save
 
-#### Using the Zoom app:
+#### Using the Zoom app
 
 1. Click "Meetings"
 1. Find your meeting on the left-hand side of the app
