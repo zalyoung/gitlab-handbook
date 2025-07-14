@@ -34,10 +34,10 @@ To ensure that only invited attendees join your meetings, please ensure to use p
 
 ## Enable authenticated-only meeting attendees
 
-As an added security measure, you can restrict the meeting by requiring any attendee to be authenticated to Zoom with a GitLab zoom account
-This is meant to ensure only people who have logged in to Zoom can attend the meeting
-This is not recommended for meetings with attendees that are not GitLab team members such as customers or someone interviewing for GitLab employment
-It should be noted that this needs to be set up before the meeting, not during the meeting
+- As an added security measure, you can restrict the meeting by requiring any attendee to be authenticated to Zoom with a GitLab zoom account
+- This is meant to ensure only people who have logged in to Zoom can attend the meeting
+- This is not recommended for meetings with attendees that are not GitLab team members such as customers or someone interviewing for GitLab employment
+- It should be noted that this needs to be set up before the meeting, not during the meeting
 
 Here is a quick video tutorial how to do this:
 

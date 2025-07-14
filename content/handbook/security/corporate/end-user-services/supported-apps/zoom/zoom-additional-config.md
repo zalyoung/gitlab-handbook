@@ -24,9 +24,8 @@ Personalized links allow you to create shorter and more memorble links for your 
   <p>Personalized Links are used to schedule interviews. It is important that the default naming convention (<code>gitlab.firstnamelastname</code>) is used and there is no password set for meetings.</p>
 </div> 
 
-Your personal link is a great way to provide a consistent, easy-to-read-and-remember meeting room for colleagues and customers.
-However, there are some drawbacks to reusing the same meeting, such as participants joining an ongoing meeting when two are scheduled back to back.
-In some cases it may be better to use a unique meeting link.
+Your personal link is a great way to provide a consistent, easy-to-read-and-remember meeting room for colleagues and customers.\
+ However, there are some drawbacks to reusing the same meeting, such as participants joining an ongoing meeting when two are scheduled back to back. In some cases it may be better to use a unique meeting link.
 
 **Setup**
 
@@ -40,7 +39,7 @@ In some cases it may be better to use a unique meeting link.
 
 ## Zoom Waiting Rooms
 
-It's recommended you enable the [Waiting Room](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063329) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).
+It's recommended you enable the [Waiting Room](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063329) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).\
 There are a few steps to get this enabled for personal meetings:
 
 1. Go to your [Zoom setings page](https://gitlab.zoom.us/profile/setting)
