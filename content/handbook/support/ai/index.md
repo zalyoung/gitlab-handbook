@@ -18,19 +18,19 @@ Before reaching for AI, ask yourself: **"Will this AI interaction save me time a
 flowchart TD
     accTitle: AI Decision Framework for Support Tasks
     accDescr: A flowchart showing when Support Engineers should use AI tools based on knowledge level, task urgency, and complexity.
-    
+
     A[Support Task arrives] --> B{Do I already know how to solve this?}
     B -->|Yes| C[Skip AI - Solve directly]
     B -->|No| D{Is this time-sensitive/urgent?}
-    
+
     D -->|Yes - Urgent| E{Am I completely stuck?}
     E -->|Yes| F[Use AI for quick ideas only]
     E -->|No| G[Work through manually - focus beats explaining context]
-    
+
     D -->|No - Standard timing| H{How straightforward is the context?}
     H -->|Straightforward problem| I{What's my confidence level?}
     H -->|Multi-faceted with extensive background needed| J[Consider working manually or ask colleague - may be faster]
-    
+
     I -->|High confidence| K[Use AI for efficiency tasks]
     I -->|Medium confidence| L[Use AI with validation required]
     I -->|Low confidence| M[Ask human colleague instead - AI might lead astray]
@@ -114,7 +114,7 @@ You are ready to use AI when:
 
 1. Time management
    - You can estimate how long tasks should take manually
-   - You notice when AI is slowing you down vs. speeding you up 
+   - You notice when AI is slowing you down vs. speeding you up
 
 You are not ready to use AI when:
 
@@ -135,7 +135,7 @@ You are not ready to use AI when:
 You'll know AI is helping when:
 
 - You finish tasks faster than your manual baseline
-- You learn something new that you can apply later  
+- You learn something new that you can apply later
 - The AI suggestions spark ideas you wouldn't have had
 - You catch AI mistakes quickly and confidently
 
@@ -157,7 +157,7 @@ The following use cases demonstrate practical applications of AI tools in GitLab
 
 1. Ticket Summarization with ZenDuo
 
-Support Engineers can use [ZenDuo](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/zendesk/apps/#zenduo) (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
+Support Engineers can use [ZenDuo](../../security/customer-support-operations/docs/zendesk/apps/#zenduo) (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
 
 1. Knowledge Base Article Generation
 
@@ -168,7 +168,7 @@ Support Engineers can use GitLab Duo to generate draft KB articles from Zendesk 
 - Creating time-effective KB articles with minimal manual effort
 
 1. Ticket Analysis and Insights
- 
+
 Support Engineers can upload entire customer tickets as files to GitLab Duo Agentic Chat/GitLab Duo Workflow to:
 
 - Parse ticket data and offer insights
