@@ -14,6 +14,10 @@ This technical interview is a 90-minute video call and screen-sharing session wi
 
 We know [live coding can be stressful](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/#stage-3-technical-interview), so it is recommended that you review [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html) and contact your recruiter or CES team member with any questions you have ahead of your scheduled interview.
 
+**Usage of AI**
+
+You're welcome to use AI tools during this interview. We expect you to demonstrate your understanding of the underlying concepts and be able to explain both your thought process and any steps the AI tool takes to reach a solution.
+
 **Alternative Assignment Considerations**
 
 If a candidate desires an alternative assignment or test to the one detailed above, or if they object to what they perceive as unpaid work, [we should be open-minded](https://twitter.com/sytses/status/1003789797662474240). Seek to understand their discomfort with the assignment and respond appropriately. Most of our candidates respond positively to the test and feedback, and this is **not** a way to get free contributions. In fact, the technical interview can be quite costly for us.
