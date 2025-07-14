@@ -27,7 +27,7 @@ Figma has four levels of access, also called Permissions, for Professional teams
 
 [View complete permission details](https://help.figma.com/hc/en-us/articles/360039970673-Viewer-Editor-and-Admin-team-permissions)
 
-For more on using Figma or sharing Figma artifacts, [view Figma guidance in Pajamas](https://design.gitlab.com/get-started/uik-components).
+For more on using Figma or sharing Figma artifacts, [view Figma guidance in Pajamas](https://design.gitlab.com/get-started/uik-sharing).
 
 ### File backup
 
