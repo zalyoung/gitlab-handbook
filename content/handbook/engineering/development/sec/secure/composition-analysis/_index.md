@@ -204,12 +204,11 @@ When triaging vulnerabilities, you should give attention to [SLA::Near Breach is
 
 #### SLA::Breached issues
 
-Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons including:
+Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons, including:
 
 - A medium or low vulnerability that is not handled because it never got priority. Please notice that a low vulnerability might lead to a `severity::1` issue since it might get its score from different sources.
 - Issues that are never closed even if the relevant vulnerability is resolved or dismissed.
-- For vulnerabilities that cannot be fixed, apply the appropriate ~"risk treatment::" label after triage. This distinguishes between fix failures and inability to fix. Contact the vulnerability management team for risk
-  acceptance guidance since standard SLA exceptions don't apply to breached vulnerabilities.
+- For vulnerabilities that cannot be fixed, apply the appropriate ~"risk treatment::" label after triage. This distinguishes between fix failures and inability to fix. Contact the vulnerability management team for risk acceptance guidance since standard SLA exceptions don't apply to breached vulnerabilities.
 
 You can search for `SLA::Breached` issues in the issue tracker using the following label filters:
 
