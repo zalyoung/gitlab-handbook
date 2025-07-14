@@ -159,7 +159,7 @@ The following use cases demonstrate practical applications of AI tools in GitLab
 
 Support Engineers can use [ZenDuo](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/zendesk/apps/#zenduo) (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
 
-2. Knowledge Base Article Generation
+1. Knowledge Base Article Generation
 
 Support Engineers can use GitLab Duo to generate draft KB articles from Zendesk tickets by:
 
@@ -167,7 +167,7 @@ Support Engineers can use GitLab Duo to generate draft KB articles from Zendesk 
 - Having it parse the ticket to fill in the template
 - Creating time-effective KB articles with minimal manual effort
 
-3. Ticket Analysis and Insights
+1. Ticket Analysis and Insights
  
 Support Engineers can upload entire customer tickets as files to GitLab Duo Agentic Chat/GitLab Duo Workflow to:
 
@@ -176,14 +176,14 @@ Support Engineers can upload entire customer tickets as files to GitLab Duo Agen
 - Get "another set of eyes" on complex issues
 - Identify patterns across similar tickets
 
-4. Slack Thread Summarization
+1. Slack Thread Summarization
 
 Support Engineers can uses an AI tools like GitLab Duo Chat or Claude to summarize long Slack threads, particularly useful for:
 
 - CEOC emergency threads with hundreds of messages
 - Reducing 30 minutes of manual reading to seconds
 
-5. Code Analysis and Troubleshooting
+1. Code Analysis and Troubleshooting
 
 Support Engineers can use GitLab Duo Chat's Code Explanation feature to:
 
@@ -192,7 +192,7 @@ Support Engineers can use GitLab Duo Chat's Code Explanation feature to:
 - Find bugs more efficiently
 - Analyze customer-provided code snippets
 
-6. Issue and MR Research
+1. Issue and MR Research
 
 Support Engineers can use GitLab Duo Agentic Chat to:
 
@@ -201,7 +201,7 @@ Support Engineers can use GitLab Duo Agentic Chat to:
 - Quote specific responses that identify solutions
 - Access GitLab projects, issues, MRs, and documentation
 
-7. Customer Communication Enhancement
+1. Customer Communication Enhancement
 
 Support Engineers can use an GitLab Duo Chat or Claude for:
 
@@ -210,7 +210,7 @@ Support Engineers can use an GitLab Duo Chat or Claude for:
 - Improving clarity of technical explanations
 - Generating more professional responses
 
-8. Documentation Creation
+1. Documentation Creation
 
 Support Engineers can use GitLab Duo Agentic Chat for:
 
@@ -219,7 +219,7 @@ Support Engineers can use GitLab Duo Agentic Chat for:
 - Reacting to "Document this" issues with AI-generated drafts
 - Assisting with doc contributions and improvements
 
-9. Log and Data Processing
+1. Log and Data Processing
 
 Support Engineers use GitLab Duo Chat to:
 
@@ -228,7 +228,7 @@ Support Engineers use GitLab Duo Chat to:
 - Parse complex diagnostic information
 - Identify patterns in system logs
 
-10. Workflow Automation with GitLab Duo Workflow
+1. Workflow Automation with GitLab Duo Workflow
 
 Support Engineers can use GitLab Duo Workflow for:
 
@@ -237,7 +237,7 @@ Support Engineers can use GitLab Duo Workflow for:
 - Getting comprehensive answers that beat other AI tools in accuracy
 - Handling tasks that require deep GitLab knowledge
 
-11. Training and Onboarding
+1. Training and Onboarding
 
 Support Engineers can use GitLab Duo during:
 
