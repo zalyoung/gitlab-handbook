@@ -7,11 +7,9 @@ description: "Overview of the SAFE Framework at GitLab."
 
 ### **Why SAFE?**
 
-GitLab has accomplished a number of milestones and [Transparency](/handbook/values/#transparency) has been essential to our success from the beginning. As GitLab has matured, we have evolved to viewing Transparency as both Internal Transparency and External Transparency; accordingly we want to continue to equip team members with the tools to enable responsible transparency in order to protect GitLab and our team members. To do so, there are certain factors we need to consider when we share information in the form of videos, blog posts, social media posts, interviews, presentations, epics, issues, merge requests or any other format. Accordingly, along the lines of our [CREDIT](/handbook/values/#credit) values, the "**SAFE"** framework serves as a guide.
+[Transparency](/handbook/values/#transparency) has been essential to GitLab's success from the beginning. As we continue to evolve, we've learned to distinguish between internal and external transparency; accordingly we continue to equip team members with the tools to enable responsible transparency that protects both GitLab and our team members. When sharing information through, for example, videos, blog posts, social media posts, interviews, presentations, epics, issues, and merge requests, team members must consider various factors. The "**SAFE"** framework serves as a guide that is consistent with our [CREDIT](/handbook/values/#credit) values. Also, consistent with our [CREDIT](/handbook/values/) values, this is a living framework that we will continue to iterate on based on lessons learned as we continue to evolve as a company. Your contributions help ensure our CREDIT values remain central while maintaining our commitment to [Transparency](/handbook/values/#transparency).
 
-Also, consistent with our [CREDIT](/handbook/values/) values, this is a living framework and we will continue to iterate on this framework based on lessons learned in the course of GitLab's evolution.
-
-By contributing, team members will help GitLab continue to keep our [CREDIT](/handbook/values/#credit) values front and center while making sure we continue to prioritize [Transparency](/handbook/values/#transparency). If you have any questions, please ask them in the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel. Please do keep in mind that if you do reach out via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel, you should not include any sensitive information in that message because that is an open public channel. Instead, wait for a response from someone on the legal team as the sensitive information can be shared with the legal team using a DM.
+ Please direct questions to the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel. Since this is a public channel, avoid including sensitive information in your messages. Wait for a member of the Corporate and Compliance Legal team to respond, then share sensitive details via direct message.
 
 For all materials requiring legal review, refer to the [Materials Legal Review Process](/handbook/legal/materials-legal-review-process).
 
@@ -36,7 +34,7 @@ The **S** in "**S**AFE" serves as a reminder to make sure that team members are 
         - A pending purchase or sale of a significant asset or business; and
         - A pending significant legal or regulatory proceeding or settlement.
 
-The disclosure of sensitive or material nonpublic information may be harmful to team members or the company. If the content to be disclosed includes any of the above information, team members should seek the GitLab Legal's review via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel. If in doubt, please inquire with the VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel before circulating this type of information externally.
+The disclosure of sensitive or material nonpublic information may be harmful to team members or the company. If the content to be disclosed includes any of the above information, team members should seek the GitLab Legal's review via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel. If in doubt, please seek guidance in the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel before circulating this type of information externally.
 
 ##### **Accurate:**
 
@@ -69,7 +67,7 @@ When considering what information to disclose, team members should consider the 
 
 Team members should also take into account each piece of information being shared as well as the information and documentation as a whole. The information you are sharing should not be viewed in a silo. Team members should examine what type of effect all the information taken together will have and how the audience may or may not interpret the information.
 
-Any questions should be directed to VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
+Any questions should be directed to the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel.
 
 ## **SAFE Flowchart**
 
@@ -80,18 +78,18 @@ Any questions should be directed to VP of Legal, Corporate via the [#safe](https
 **What should I do if I shared or I see GitLab information which has been shared that I think might be sensitive, inaccurate, financial, or might have an effect that is harmful to the company or helpful to investors?**
 
 1. Social Media:
-    - If you shared or see information which has been shared via a personal social media account that does not fit within the SAFE framework, please immediately message the company's VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel and include a screenshot when posting your message.
-    - After taking the screenshot, please remove the post immediately if you shared the information. The VP of Legal, Corporate and Vice President, Investor Relations will review it and advise on any further action necessary.
+    - If you shared or see information which has been shared via a personal social media account that does not fit within the SAFE framework, please immediately message the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel and include a screenshot when posting your message.
+    - After taking the screenshot, please remove the post immediately if you shared the information. A member of the Corporate and Compliance Legal and Investor Relations teams will review it and advise on any further action necessary.
 1. Issues and MRs:
-    - If you shared or see information which has been shared in an Issue or MR that does not fit within the SAFE framework, please immediately message the Company's VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel and include a link to such Issue or MR when posting your message. Also mark the [MR or Issue "Confidential"](https://www.youtube.com/watch?v=RcaQaWzw2IQ).
-    - The VP of Legal, Corporate and Vice President, Investor Relations will review it and advise on any further action necessary.
+    - If you shared or see information which has been shared in an Issue or MR that does not fit within the SAFE framework, please immediately seek guidance in the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel and include a link to such Issue or MR when posting your message. Also mark the [MR or Issue "Confidential"](https://www.youtube.com/watch?v=RcaQaWzw2IQ).
+    - A member of the Corporate and Compliance and Internal Relations teams will review it and advise on any further action necessary.
     - Helpful Hint: You can use an [internal note](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) in public issues for exchanging confidential information internally.
 1. GitLab Unfiltered Videos:
-    - If you shared or see information which has been shared via GitLab Unfiltered that does not fit within the SAFE framework, please mark the video as private. Once the video is private, please immediately message the VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
-    - The VP of Legal, Corporate and Vice President, Investor Relations will review it and determine next steps, which may include contacting the Digital Production team to have it removed.
+    - If you shared or see information which has been shared via GitLab Unfiltered that does not fit within the SAFE framework, please mark the video as private. Once the video is private, please immediately message the Senior Director of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
+    - A member of the Corporate and Compliance and Investor Relations teams will review it and determine next steps, which may include contacting the Digital Production team to have it removed.
 1. Other Mediums:
-    - If you shared or see information which has been shared via a another medium that does not fit within the SAFE framework please send a link to the original post immediately via Slack to the VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
-    - The VP of Legal, Corporate and Vice President, Investor Relations will review it and, if necessary, contact the appropriate [DRI](/handbook/people-group/directly-responsible-individuals/) to have the information revised to be compliant or if needed, removed.
+    - If you shared or see information which has been shared via a another medium that does not fit within the SAFE framework please send a link to the original post immediately in the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel.
+    - A member of the Corporate and Compliance and Internal Relations teams will review it and, if necessary, contact the appropriate [DRI](/handbook/people-group/directly-responsible-individuals/) to have the information revised to be compliant or if needed, removed.
 
 ### **How do we reinforce SAFE?**
 
