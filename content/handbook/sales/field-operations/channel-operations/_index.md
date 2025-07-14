@@ -340,11 +340,11 @@ The process to request the [legal team's involvement in partner contracts](/hand
 
 ## Partner Reporting and Tagging
 
-![Partner Reporting and Tagging](/images/sales/field-operations/channel-operations/image-5.png)
+![Partner Reporting and Tagging](/images/handbook/sales/field-operations/channel-operations/partner-reporting-2025.png)
 
 ### Definitions
 
-1. **Deal Path**: How the deal is transacted. Values can be Partner, Direct, Web Direct. _Note, Partner includes Referral and Influence opportunities_
+1. **Deal Path**: How the deal is transacted. Values can be Partner, Direct, Web Direct. _Note, Partner includes Referral opportunities_
 1. **Partner Sourced Deal Reg**: Partner submits a Registration for their sourced opportunity via the Partner Portal. For the purposes of this matrix the assumption is the Deal Reg is approved. If the deal is not Partner Sourced then Deal Reg does not apply
 1. **DR - Deal Type**: The type of Partner Sourced Deal Registration submitted by the Partner. Options include Resale, Referral, and MSP. _Note, this field will be blank if there is no Partner Source Deal Registration_
 1. **Initial Source**: SFDC Lead value that is populated based on lead source. Defaults to PQL (Partner Qualified Lead) when a Partner submits a Partner Sourced Deal Reg and an Opportunity does not already exist in the system

@@ -39,7 +39,7 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 
 - Contributing to broad engineering initiatives and participating in working group-related tasks.
 - Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label. You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
-- Working on high priority issues as a result of [issue triaging](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
+- Working on high priority issues as a result of [issue triaging](/handbook/product-development/how-we-work/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
 - Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
@@ -197,7 +197,7 @@ There are five departments within the Engineering Division:
 
 - [DevOps Engineering Department](/handbook/engineering/devops/)
 - [AI Engineering Department](/handbook/engineering/ai/)
-- [Expansion Development Department](/handbook/engineering/expansion-development/)
+- [Sec Department](/handbook/engineering/development/sec/)
 - [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
@@ -209,7 +209,6 @@ There are five departments within the Engineering Division:
 - [Development Principles](/handbook/engineering/development/principles/)
 - [Engineering Automation](/handbook/engineering/automation/)
 - [Engineering Metrics](/handbook/product/groups/product-analysis/engineering/dashboards/)
-- [Engineering OKRs](/handbook/engineering/okrs/)
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Frequently Used Projects](/handbook/engineering/projects/)
 - [GitLab Innovation Program](/handbook/legal/patent-program/), managed by the GitLab Legal Team
@@ -227,11 +226,11 @@ There are five departments within the Engineering Division:
   - [Security Issues](/handbook/engineering/workflow/#security-issues)
   - [Architecture Design](/handbook/engineering/architecture/workflow/)
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/)
-- [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- [Issue Triage Policies](/handbook/product-development/how-we-work/issue-triage/)
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
 - [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Root Cause Analysis](/handbook/engineering/root-cause-analysis/)
-- [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
+- [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#patch-release-types)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 
 ### GitLab in Production
@@ -302,7 +301,7 @@ FCL xxxx - [team name]
 - Mitigation
 - Status of Planned/completed work associated with FCL
 
-{{% include "includes/feature-change-locks.md" %}}
+{{% include "includes/engineering/feature-change-locks.md" %}}
 
 ## Engineering Performance Indicator process
 
@@ -316,7 +315,7 @@ but manual verification provides a higher level of confidence that features beha
 
 We manually verify issues when they are in the `workflow::verification` state.
 Generally, after you have manually verified something, you can close the associated issue.
-See the [Product Development Flow](/handbook/product-development/product-development-flow/) to learn more about this issue state.
+See the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) to learn more about this issue state.
 
 We manually verify in the staging environment whenever possible.
 In certain cases we may need to manually verify in the production environment.

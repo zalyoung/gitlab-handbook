@@ -41,11 +41,20 @@ title: "Channel Partner Implementation Services"
 
 GitLab has [two distributions](https://about.gitlab.com/install/ce-or-ee/):
 
-- **Enterprise Edition (EE)**: built from the [official GitLab repository](https://gitlab.com/gitlab-org/gitlab). It contains the code of [all license tiers](https://about.gitlab.com/pricing/), including the open-source code of Free and the proprietary code of Premium and Ultimate.
+- **Enterprise Edition (EE)**: built from the [official GitLab repository](https://gitlab.com/gitlab-org/gitlab). It contains the code of [all subscription tiers](https://about.gitlab.com/pricing/), including the open-source code of Free and the proprietary code of Premium and Ultimate.
 
 - **Community Edition (CE)**: built from the [open source fork of GitLab](https://gitlab.com/rluna-gitlab/gitlab-ce). It contains only the [MIT licensed](https://opensource.org/license/mit) code from the EE repository above, synced with that one automatically on each push.
 
 This means that both editions contain the exact same version of our Free features, but **only EE contains Premium and Ultimate features**.
+
+### Distribution x Subscription matrix
+
+This matrix outlines all the possible combinations. Add-ons can only be applied on Premium and Ultimate subscriptions, thus they are only contained in EE.
+
+|        | Free   | Premium | Ultimate |
+| ------ | ------ | ------  | -------- |
+| CE     | x      |         |          |
+| EE     | x      | x       | x        |
 
 ### Which one should I install for my customer?
 
@@ -59,9 +68,9 @@ Rule of thumb: always go with EE, except when you can't.
 
 Upsides of installing EE:
 
-1. No need to do a [migration](/handbook/resellers/partner-enablement/partner-migration-services/) when your customer decides to upgrade to Premium or Ultimate.
+1. The Enterprise Edition supports in-place upgrades, making it the recommended installation option for customers since they can upgrade to Premium or Ultimate without requiring [migration](/handbook/resellers/partner-enablement/partner-migration-services/). This increases the customer's flexibility and ensures future scalability and requirements can be met effortlessly.
 
-2. Optionally get access to free Premium or Ultimate features through our [Registration Features Program](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#registration-features-program). You can find the list of those features [here](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#available-features).
+2. Optionally get access to free Premium or Ultimate features through our [Registration Features Program](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#registration-features-program). Please refer to the [list of available features](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#available-features) for details.
 
 **Then why would anybody go with CE?**
 

@@ -100,7 +100,7 @@ The data sources used to feed the forecasting tool are historical saturation and
 
 The output of our capacity planning process is considered ORANGE, and must be treated per [The Data Classification Standard](/handbook/security/standards/data-classification-standard/#orange).
 
-Detailed overview of architecture, tooling and workflows are listed on the [Capacity Planning](/handbook/engineering/infrastructure/capacity-planning/) page.
+Detailed overview of architecture, tooling and workflows are listed on the [Capacity Planning](/handbook/engineering/infrastructure-platforms/capacity-planning/) page.
 
 ## Exceptions
 

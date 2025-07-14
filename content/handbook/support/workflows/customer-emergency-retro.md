@@ -48,6 +48,7 @@ The suggestions and findings of a retrospective will vary. Common findings inclu
 - check-in with PM in an existing issue or feature proposal
 - new knowledge base article
 - update to processes in handbook
+
 When opening issues or MRs related to a customer emergency retro, apply the `customer-retro` label. 
 
 ### Addressing Findings from Retros

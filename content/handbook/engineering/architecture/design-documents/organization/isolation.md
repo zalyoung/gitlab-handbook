@@ -168,3 +168,13 @@ Without a robust way to ensure that all Organization data is isolated, we would 
 This creates a real risk that we miss something, and again we would end up with customer data loss.
 Another challenge here is that if we are not confident in our isolation constraints, then we may end up attributing various unrelated bugs to possible data loss.
 As such it could become a rabbit hole to debug all kinds of unrelated bugs.
+
+## Isolated but cluster-wide unique
+
+Although the data is still isolated from one organization to another, there is
+still some data that needs to be cluster-wide unique for backward compatibility
+reasons.
+
+| Resource | Reason |
+|----------|--------|
+| Top Level Namespace/Groups Paths | There can only be one `gitlab-org` top level group and the URL will be `https://gitlab.com/gitlab-org` like it is today for backward compatibility. We can't have two `gitlab-org` paths because we wouldn't be able to distinguish unauthenticated requests. |

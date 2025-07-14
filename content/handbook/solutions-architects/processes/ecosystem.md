@@ -138,6 +138,39 @@ We have created Digital Rooms in Highspot with the Partner Enablement team that 
 * Champions Program
 * GitLab Platform (suggested to host free to Premium to Ultimate value messaging)
 
-### Activity Tracking with Rattle
+### GitLab Activity Planning (reporting and collaboration)
+
+1. Login to GitLab and go to https://gitlab.com/gitlab-com/partners
+2. Notice there are several subgroups and projects
+
+   1. Ecosystem SA Team subgroup - This is for our team.  In the project: https://gitlab.com/gitlab-com/partners/ecosystem-sa-team/esa-team is where I put MBOs and issues related only to our team
+   2. Org - don't worry about it... i may delete it
+   3. Ecosystem Programs subgroup - This subgroup is for Ed Cepulis's Program Team
+   4. Channel subgroup - Historically channel partners (resellers and services) projects are created here under each Geo.  This gives an internal collaboration project for issues related to that partner.
+   5. Alliance subgroup - The same collaboration hierarchy as for Channel, but our Alliance partners like AWS and Google.  The terms Channel and Alliance are historical.  While we're one big Ecosystem, some may reference Cloud and Services.
+   6. Partner Management project - This is a top level project available to put any issue related to generally managing activities with partners.
+
+3. For the record, I do not care if you want to create your planning issues in any of these places.  
+4. EMEA SAs tend to create issues in the partners/channel/emea/emea-internal project.  
+5. Scott tends to use the top level partners/partner-management project
+6. GitLab's hierarchical nature allows all reporting to happen at the partners/ top level, and captures everything properly labeled below
+
+### Activity Logging with Rattle and Gong (accounting)
+
+#### Rattle Integration
 
 Ecosystem SAs like all SAs at GitLab will record their partner and customer facing activity by using Rattle every week.  [Here is the main landing page](/handbook/solutions-architects/processes/activity-capture/activity-logging) and scroll down to the Ecosystem SA Activities for activity types and overall guidance in the use of the tool.  A [video supplement](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) is available too.  
+
+1. Go to Okta, and login to SFDC from there, just to have it open in your browser
+2. Open a new tab and go to https://app.gorattle.com/integrations and click the blue Integrate button next to SFDC
+3. After going through the process to integrate the two, validate that the SFDC integration in Rattle has your email listed and not rattle@gitlab.com
+
+#### Gong Integration
+
+Gong is the tool we use to record external calls.  It has AI built in to analyze your calls for sales effectiveness, summaries, actions, etc.  Set up Gong to also include your emails to partners in the reporting analytics below.
+
+1. Go to Okta, and login to Gong from there.
+2. In Gong, click on your initials in the top right corner, and select `User Settings`
+3. In about the fifth section down, you'll see `Emails` and likely red "x". Click `Connect` next to the entry about emails you send from your CRM contacts being imported.
+4. Authenticate as needed using your GitLab credentials and accept the permissions.
+5. Verify there is a green "check" next to the email integration. You don't have to turn on compose emails in Gong.

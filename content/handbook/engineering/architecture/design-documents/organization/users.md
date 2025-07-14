@@ -11,17 +11,29 @@ Previously the architecture assumed a single GitLab instance, with a single User
 
 Our destination will have multiple GitLab instances, each with a User table, having traffic routed between them as needed. A User could be managed entirely by an Organization with the ability to prevent the User from accessing other Organizations or even deleting the User account completely. Legacy Users will remain undisturbed and will have the option of moving to the new architecture.
 
-## User belongs to Organization
+## The User's Home Organization
+
+A User belongs to one Organization known as the Home Organization. This Organization has full rights over their Users.
+
+Existing users will belong to the Default Organization which is administered by GitLab. We are working on a migration path to allow Users to move out of the Default Organization and into their own Organizations.
 
 Now that a User will belong to a single Organization, the `users` table will have a `NOT NULL` `organization_id` column. This `organization_id` column will also shard the `users` table such that the User and their associated data such as `user_statistics` is also scoped to the Organization.
 
-While a User will belong to a single Organization, there is the expectation that the User will be able to interact with other Organizations eventually. The details are being worked through as part of Cells.
+A User will only have access to their Home Organization. In the case of GitLab Team Members on GitLab.com we will enable a facility for Users to access multiple Organizations (see the [dog-fooding](#dog-fooding) section below). Eventually, it's proposed all Users will be able to interact with other Organizations, likely through an authorization mechanism like OAuth.
+
+## Usernames
+
+The end goal is Organization-scoped user records, where usernames only need to be unique within an Organization rather than globally. This will enable Organizations to have full control over their user namespace, allowing username reuse across different Organizations. Achieving this state will happen in iterations over time.
+
+## Personal Namespaces
+
+Users will have a single personal namespace within their Home Organization. Personal namespaces are not accessible outside of their associated Home Organization, even by the User that owns them.
 
 ## Dog fooding
 
 We will make accommodations for a User to exist within multiple Organizations on the same Cell for dog fooding purposes. The User will still only belong to a single Organization through `users.organization_id` but they will have multiple `organization_users` entries. This makes it easy for the GitLab Team to create new Isolated Organizations. However, this comes with the caveat that these types of dog food Organizations can only exist on the same cell as the Default Organization which is the Legacy Cell.
 
-Dog fooding will have the assurance that an Organization context is provided with every request.
+Dog fooding will have the assurance that an Organization context is provided with every request so that teams can begin to scope their features accordingly.
 
 ## Global Bot Users
 

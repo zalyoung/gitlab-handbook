@@ -140,7 +140,7 @@ When you attempt a potentially problematic action, ZenGuard will:
 
 1. **Display a warning dialog** explaining the potential issue
 2. **Block the action** if it cannot be bypassed (marked as "this cannot be bypassed")
-3. **Allow bypass** for certain warnings by refreshing the app or proceeding after confirmation, the action blocked can be bypassed
+3. **Allow bypass** for certain warnings by [refreshing](#how-to-refresh-zenguard) the app or proceeding after confirmation, the action blocked can be bypassed
 
 ### Common scenarios and solutions
 
@@ -148,10 +148,17 @@ When you attempt a potentially problematic action, ZenGuard will:
 
 Some warnings can be bypassed by either of the following::
 
-- Refreshing the ZenGuard app in your browser
+- [Refreshing](#how-to-refresh-zenguard) the ZenGuard app in your browser
 - Clicking through the confirmation dialog (where permitted)
 
 Note that critical safety checks (like setting pending without any response) cannot be bypassed.
+
+#### How to refresh ZenGuard
+
+1. Click in to the ZenGuard app using either the icon on your apps list (right side of Zendesk), or if you can't see it, click the + to pin a new app and select ZenGuard.
+2. Click the reload button in the title of the app. 
+
+![Browser plug-in](/images/support/workflows/assets/zenguard-reload.png)
 
 #### Troubleshooting
 

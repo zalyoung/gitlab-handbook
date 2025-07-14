@@ -443,7 +443,7 @@ While there are other hardware tokens that are also decent and will function wit
 
 What GitLab team members need to keep in mind is that if you travel with your company laptop - either on a business trip, a trip to visit family and friends in another location but you intend to keep working, or just a trip to the local coffee shop - treat the token with the same level of care as a credit card. Do not leave it where it could be stolen.
 
-If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/security/corporate/systems/okta/verify/) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
+If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/security/corporate/end-user-services/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/security/corporate/systems/okta/verify/) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
 
 Usage of 2FA is mandatory for GitLab team members.
 
@@ -530,33 +530,10 @@ See also [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meeti
 
 [Google Analytics (GA)](https://analytics.google.com/) is an essential tool for making data-driven decisions.
 It receives data from both about.gitlab.com and docs.gitlab.com websites.
-Read through the [Inbound Marketing Handbook](/handbook/marketing/inbound-marketing/search-marketing/analytics/) for more information on GA.
+Read through the [Google Analytics Handbook](/handbook/marketing/strategy-performance/google-analytics-4/) for more information on GA.
 
 For example, you can look at the GA data to analyze how visited is a certain page, in a period of your choice.
 You can also look at the GA referrals data to understand where the users are coming from and where they go when they leave a certain page.
-
-To see the data for a specific page:
-
-- Open [GA](https://analytics.google.com/analytics/web/), and expand **Behavior** on the sidebar
-- Click **Site content > All pages**
-- On the top-right, adjust the period of time you'd like to analyze
-- On the middle of the page, look for a search bar and paste the URL you'd like to analyze (without `https://`) and click on the magnifier button to search:
-![Google Analytics - find pageviews](/images/tools-and-tips/google-analytics-find-pageviews.png)
-Note that you can use the search tool with:
-  - A full URL, which will return results for that specific URL
-  - Part of an URL, e.g., `/2017/`, which will return the results for all the blog posts published on 2017
-  - The higher directory on the file tree, which will return the results for a range of URLs in that tree.
-    E.g., `docs.gitlab.com/ee/ci/` will return the results for all the range of pages contained in the `/ci/` directory
-- GA will output the data about the page (or range of pages) you searched for, including pageviews, unique pageviews, and other data:
-![Google Analytics - see pageviews](/images/tools-and-tips/google-analytics-pageviews.png)
-
-To find the referrals for a certain page, continue from the steps above.
-
-- Click on one of the website links to look at the data for a page of your choice
-![Google Analytics - find referrals](/images/tools-and-tips/google-analytics-find-referrals.png)
-- Just above the graph, click **Navigation summary**
-- GA will output the referrals, including **Previous Page Path** and **Next Page Path**:
-![Google Analytics - see referrals](/images/tools-and-tips/google-analytics-referrals.png)
 
 ### Set your picture in Google
 
@@ -992,7 +969,7 @@ Jamboard is a collaborative whiteboarding platform, accessible at <https://jambo
   - Hide the bookmarks bar: `cmd shift b` (e.g. for screenshots, or shared screen presentations)
   - Open the developer tools: `cmd option i` (e.g. for debugging website errors)
 - You can [organize tabs into tab groups](https://www.google.com/chrome/tips/#organize), assign names and custom colors, and collapse or reorder them. Moving tabs between groups also works across browser windows.
-- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/security/corporate/services/laptops/refresh/).
+- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes).
 
 #### Chrome Performance Settings
 

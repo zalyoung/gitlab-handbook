@@ -163,7 +163,7 @@ In the United States, team members may experience a qualifying condition under t
 
 #### Sick Time Procedures - Netherlands
 
-Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/):
+Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/):
 
 - Team members must notify their manager of any sick leave needed.
 - Team members must then enter the sick time via Workday as aligned above.
@@ -192,11 +192,7 @@ In the unfortunate event that a team member is dealing with a medical situation,
 
 ## Accommodations
 
-If you believe you need reasonable accommodations to perform the essential functions of your job in accordance with applicable law(s), please email leaves@gitlab.com (Non-US Only).  [US team members](/handbook/people-policies/inc-usa/#reasonable-accommodation) please follow the steps outlined in the handbook.
-
-If a team member starts the conversation with their manager, or People Business Partner, the manager or People Business Partner should either reach out to the Absence Management Team by emailing `leaves@gitlab.com`, or direct the team member to follow the steps outline in the handbook (links above).
-
-The Absence Management Team will keep a log of all accommodation requests. What can (or must) be accommodated varies from location to location. GitLab will comply with the applicable laws in your specific location.
+GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability.  If you believe you need reasonable accommodation, please follow the process outlined on this [handbook page](/handbook/people-group/paid-time-off/#accommodations).
 
 ### Communicating with team members while they are leave of absence
 
@@ -266,7 +262,7 @@ You can request a new Workday feature by using the aforementioned `/time-off-dee
 
 ### Instructions for Team Members to update past events
 
-Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Operations team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
 
 ## Management's Role in Paid Time Off
 

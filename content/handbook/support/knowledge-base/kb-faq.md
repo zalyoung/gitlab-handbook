@@ -77,3 +77,7 @@ There are pre-populated labels to choose from, or create your own relevant to th
 ### How do I add internal notes to a knowledge article?
 
 Use the markdown editor in the knowledge article.  Add a comment using the comment out syntax (example <! adding notes that are not seen externally>). Commments will not be visiblle to the end user. For a visual see slide in the [knowledge slide here](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g34b9665e659_7_23#slide=id.g34b9665e659_7_23)
+
+### How do I create a Knowledge Article if I am not in ZenDesk or I am a Light Agent?
+
+You can create a knowledge article by using a template from the [folder](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR?usp=sharing). You can add the file to an ISSUE and ASSIGN to  Contact {{< member-by-name "Kirsty Allen" >}} . Or you can add to the [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk) channel

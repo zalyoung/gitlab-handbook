@@ -178,7 +178,7 @@ To give each functional marketing team has a single point of contact for marketi
 
 ### Requesting access to an existing tool
 
-To request access to Bizible or Allocadia, [please follow the access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+To request access to Bizible or Allocadia, [please follow the access request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/) as outlined in the business operations handbook.
 
 If you are working with a contractor or consultant that requires access to one of these tools, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 

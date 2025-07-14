@@ -576,7 +576,7 @@ CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
 
-1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.
 
 The `@gitlab-org/development-leaders` group consists of team members from Senior Managers and above in the management track, and Distinguished Engineer and above in the individual contributor track in the development departments within Engineering.

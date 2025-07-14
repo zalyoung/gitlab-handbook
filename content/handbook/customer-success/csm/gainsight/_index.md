@@ -50,7 +50,7 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 #### Success Plans
 
 - [Success Plans](/handbook/customer-success/csm/success-plans/)
-- [Account Engagement - E-Group Customer Calls](/handbook/customer-success/csm/engagement/#e-group-customer-calls)
+- [Account Engagement](/handbook/customer-success/csm/engagement/)
 
 #### Health Score
 

@@ -126,7 +126,16 @@ Select these [SA] Activity types when capturing activities by the Strategic Fiel
 
 Select these [SA] Activity types when capturing activities by the Ecosystem team but other activity types for Enterprise can also be used. There is an implied priority with higher value activities listed highest / first to lowest / last.
 
+Multiple activity types can be used on a single activity, please try to tag only the single highest value activity that took place.  For instance, don't add **Partner Cadence Call** if you leveraged the call to conduct **Partner Enablement**.  
+
+Please DO add an MBO related Activity Type on an activity as an overlay tag when you are proposing that Activity be counted toward one of your MBOs.  Add links to Docs, Issues, or place justifying content in the Activity Description when you use the MBO Types.
+
 :movie_camera: Video on [How to quickly Log, Classify and Triage lots of Rattle Entries for the busy Solutions Architect 9:17, Highspot.](https://gitlab.highspot.com/items/67be46c991e055ef7c36de79?lfrm=shp.0) Supplements the below text.
+
+- **ESA MBO Strategic** - Activation activity toward the Strategic Partner Activation MBO category
+- **ESA MBO Contribution** - Activation activity toward the Partner Contribution to Revenue MBO category
+- **ESA MBO Capability** - Activation activity toward the Ecosystem Services Capability MBO category
+- **ESA MBO Commitment** - Activation activity toward the Commitment to GitLab MBO category
 
 - **Partner Opportunity** - :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: Sales opportunity # aligned work alongside field SA on specific sales opportunities with a partner involvement. This includes being an overlay SME on partner technologies and its joint value proposition with GitLab and/or helping a channel/services partner become successful with joint customers.
 - **Partner Assisted Demand Gen** - :money_with_wings: :money_with_wings: :money_with_wings: :money_with_wings: Delivering or developing customer facing webinars, workshops, roadshows and similar activities in collaboration with a partner, focussed on demand generation / lead generation.

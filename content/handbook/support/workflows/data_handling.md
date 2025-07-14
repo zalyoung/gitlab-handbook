@@ -73,7 +73,7 @@ Here, you're moving data between systems that aren't cleared for the classificat
 
 If you see an integration like this, declare a SIRT.
 
-In addition, if you need assistance with integrations, please reach out to the following teams. For any integrations related to Google, Slack, Zoom, Okta etc., please reach out to the Corp Sec team [here](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/?search=integration+request). For anything Enterprise application related, please reach out to this team [here](https://internal.gitlab.com/handbook/it-enterprise-applications/enterprise-applications/enterprise-applications-integrations/).
+In addition, if you need assistance with integrations, please reach out to the following teams. For any integrations related to Google, Slack, Zoom, Okta etc., please reach out to the Corp Sec team [here](https://internal.gitlab.com/handbook/security/corporate/end-user-services/app-integrations/?search=integration+request). For anything Enterprise application related, please reach out to this team [here](https://internal.gitlab.com/handbook/it-enterprise-applications/enterprise-applications/enterprise-applications-integrations/).
 
 ### Take-aways
 

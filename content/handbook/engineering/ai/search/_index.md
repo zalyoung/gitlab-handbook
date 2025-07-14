@@ -11,13 +11,19 @@ This page covers processes and information specific to the Global Search group. 
 
 ## Mission
 
-The group is responsible for improving and expanding upon our current global search implementations using Elasticsearch, PostgreSQL, and Gitaly. Areas of responsibility will include global search functionality, UI, ingestion mechanisms, optimal indexing, administrative tools, and installation mechanisms for self-managed installations.
+The group is responsible for improving and expanding upon our current global search implementations using Elasticsearch, PostgreSQL, Zoekt, and Gitaly. Areas of responsibility will include global search functionality, UI, ingestion mechanisms, optimal indexing, administrative tools, and installation mechanisms for self-managed installations.
 
-Additionally, we will support AI features via Retrieval Augmented Generation work which includes:
+Additionally, we build and maintain critical AI context infrastructure, including:
+
+- **AI Context Abstraction Layer**: A unified interface for Retrieval Augmented Generation (RAG) across multiple vector databases (Elasticsearch, OpenSearch, PostgreSQL with pgvector), enabling AI features to work regardless of underlying storage
+- **GitLab Zoekt**: GitLab's scalable exact code search service and file-based database system, with flexible architecture supporting various AI context use cases beyond traditional search. It's built on top of open-source code search engine Zoekt.
+
+These systems will be fundamental to providing high-quality context for AI features via Retrieval Augmented Generation work, which includes:
 
 - Identifying and preparing new useful data for our AI-powered features in collaboration with feature teams and the AI Framework team
 - Storing vector embeddings of epics, issues, MRs, source code, and more
 - Providing retrieval APIs for those vector embeddings, metadata filtering, and ensuring permissions are enforced
+- Enabling fast, precise code search and context retrieval essential for AI context
 
 This team doesn't own custom searches for specific features, such as the "filter bar" on issues which is part of the [Issue Tracking](https://about.gitlab.com/direction/plan/project_management/team_planning/) category owned by the [Project Management group](/handbook/product/categories/#project-management-group).
 
@@ -42,9 +48,30 @@ The following members of other functional teams are our stable counterparts:
 
 The Global Search team shares responsibilites with the AI Framework team in the area of ![Retrieval Augmented Generation](/images/handbook/engineering/ai/search/rag_ownership_framwework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
 
-## Advanced Search data stores and interfaces today
+## AI Context Infrastructure and Advanced Search data stores
 
 ![Global Search data stores and interfaces diagram](/images/global_search_interfaces.png)
+
+The Global Search team maintains several key systems that power both traditional search and AI context capabilities:
+
+### Core Infrastructure Components
+
+- **Elasticsearch**: Powers Advanced Search functionality with full-text search, aggregations, and vector similarity search capabilities
+- **GitLab Zoekt**: GitLab's scalable file-based database system providing exact code search with enterprise-scale performance (48+ TiB indexed on GitLab.com). Beyond code search, Zoekt's flexible architecture serves as a foundation for various AI context use cases
+- **AI Context Abstraction Layer**: A unified Ruby gem interface enabling RAG across multiple vector databases (Elasticsearch, OpenSearch, PostgreSQL with pgvector), ensuring AI features work regardless of underlying storage solution
+
+These systems work together to provide comprehensive search and AI context capabilities, from traditional keyword search to sophisticated vector similarity matching for AI features.
+
+### Advanced Search as an Enabling Framework
+
+Beyond powering GitLab's global search functionality, Advanced Search serves as a critical framework that enables other teams across GitLab to overcome the inherent limitations of PostgreSQL for complex search and analytics use cases. Teams leverage Advanced Search infrastructure to:
+
+- **Scale beyond PostgreSQL constraints**: Handle large-scale text search, aggregations, and analytics that would be prohibitively expensive or slow in PostgreSQL
+- **Enable sophisticated filtering**: Support complex multi-field queries, faceted search, and advanced filtering capabilities
+- **Power analytics and insights**: Generate aggregations, statistics, and insights from large datasets without impacting primary database performance
+- **Support AI and ML workflows**: Provide vector similarity search, embeddings storage, and retrieval capabilities essential for AI features
+
+This framework approach allows feature teams to focus on their domain expertise while leveraging battle-tested, scalable search infrastructure maintained by the Global Search team.
 
 ### A note on basic search
 
@@ -76,7 +103,7 @@ Whenever possible, we prefer to communicate asynchronously using issues, merge r
 
 ## Work
 
-We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/ai/search/#stable-counterparts) section above.
+We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/ai/search/#stable-counterparts) section above.
 
 Below are a few guidelines the team follows in the day-to-day work.
 
@@ -87,7 +114,7 @@ Below are a few guidelines the team follows in the day-to-day work.
 - We apply the Deliverable label to the issues that we intend to close in a milestone before the milestone starts. Issues added during a milestone should not have the Deliverable label applied. We review these issues in the middle of the milestone, usually the first week of each month. We will remove the Deliverable label from the issues that are not likely to make it into the release.
 - We apply the Stretch label to the issues that we intend to start during a milestone but are not committing to closing.
 - We work with the UX team for features that need their design input by labeling the issues with a UX workflow label and adding the corresponding UX team counterpart as the assignee. We use `workflow::problem validation` and `workflow::solution` validation for user research and `workflow::design` for UI design and prototyping. Once the design is finished, `workflow::ready for development` label will be added as an indicator that development can start. For minor UX/UI changes, we contact our UX counterpart or the Product Design Manager to request a review for fast iterations.
-- We work with the Quality team for issues that require input from a testing perspective by labeling the issues with `workflow::planning breakdown` and adding the SET counterpart as an assignee. Once SET reviews the issue, they acknowledge back with the label [`quad-planning::complete-action` or `quad-planning::complete-no-action`](/handbook/product-development/product-development-flow/#build-phase-1-plan)
+- We work with the Quality team for issues that require input from a testing perspective by labeling the issues with `workflow::planning breakdown` and adding the SET counterpart as an assignee. Once SET reviews the issue, they acknowledge back with the label [`quad-planning::complete-action` or `quad-planning::complete-no-action`](/handbook/product-development/how-we-work/product-development-flow/#build-phase-1-plan)
 - We work with the Technical Writing team for issues that need documentation change by labeling the issues with <code>documentation</code> and adding our counterpart in the Technical Writing team as assignee. Our technical writer helps us update the corresponding document. The documentation change normally happens together with the code change.
 - We work with our stable counterpart in the Security team for issues that need input from a security perspective. We suggest using team planning issues, for example, [this one](https://gitlab.com/gitlab-org/search-team/team-tasks/-/issues/17), for communication.
 - We work with the Support Engineering team by collaborating on issues directly. We invite our counterpart in the Support Engineering team to our team meeting every month to have direct communication.
@@ -197,10 +224,18 @@ We are exploring [Rally](https://esrally.readthedocs.io/en/stable/) for performa
 
 ### Documentations
 
+#### Search and Advanced Search
+
 - [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
 - [GitLab Advanced Search Development Guidelines](https://docs.gitlab.com/ee/development/advanced_search.html)
 - [GDK Elasticsearch Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/elasticsearch.md)
+
+#### AI Context Infrastructure
+
+- [Zoekt Design Document](/handbook/engineering/architecture/design-documents/code_search_with_zoekt/) - Comprehensive architecture and implementation details
 - [GDK Zoekt Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/zoekt.md)
+- [AI Context Abstraction Layer Design Document](/handbook/engineering/architecture/design-documents/ai_context_abstraction_layer/) - Unified RAG interface architecture
+- [AI Context Abstraction Layer Source Code](https://gitlab.com/gitlab-org/gitlab/-/tree/master/gems/gitlab-active-context) - Ruby gem implementation
 
 ### Blog Posts
 
@@ -217,21 +252,3 @@ We are exploring [Rally](https://esrally.readthedocs.io/en/stable/) for performa
 - [Search suggestions for recently viewed issues and merge requests](https://www.youtube.com/watch?v=_5s4ZjnDZPo)
 - [How to search for epics in GitLab](https://www.youtube.com/watch?v=bu6kaBqcYFc)
 - [Elasticsearch Migrating Issues To Separate Index Technical Overview](https://youtu.be/1znFvPH_wjU)
-
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="global search" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="global search" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="global search" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="global search" >}}
-{{< /tableau >}}

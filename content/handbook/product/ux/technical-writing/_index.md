@@ -26,8 +26,9 @@ To contact the entire team in a GitLab issue or MR, use `@gl-docsteam`.
 The team manages general documentation-related and team-specific Slack channels:
 
 - `#docs`: Questions and general discussion about GitLab documentation, and requests by GitLab team members for doc and UI text reviews.
+- `#docs-engineering`: Discussion about the Docs website and other engineering projects.
 - `#docs-processes`: Discussion about documentation processes.
-- `#docs-tooling`: Discussion about documentation tooling and the `docs-gitlab-com` project.
+- `#docs-tooling`: Discussion about documentation tooling.
 - `#docs-site-changes-hugo`: Automated messages from the [`docs-gitlab-com`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project.
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
@@ -403,20 +404,17 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
-- November, 2025: {{< member-by-name "Zach Painter" >}}
-- October, 2025: {{< member-by-name "Lysanne Pinto" >}}
-- September, 2025: {{< member-by-name "Isaac Durham" >}}
-- August, 2025: {{< member-by-name "Lorena Ciutacu" >}}
-- July, 2025: {{< member-by-name "Phillip Wells" >}}
-- June, 2025: {{< member-by-name "Achilleas Pipinellis" >}}
-- May, 2025: {{< member-by-name "Marcel Amirault" >}}
-- March, 2025: {{< member-by-name "Brendan Lynch" >}}
-- February, 2025: {{< member-by-name "Emily Sahlani" >}}
-- January, 2025: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
-- December, 2024: {{< member-by-name "Roshni Sarangadharan" >}}
-- November, 2024: {{< member-by-name "Ryan Lehmann" >}}
-- October, 2024: {{< member-by-name "Russell Dickenson" >}}
-- September, 2024: {{< member-by-name "Marcel Amirault" >}}
+- January 2026: {{< member-by-name "Amy Qualls" >}}
+- December 2025: {{< member-by-name "Ashraf Khamis" >}}
+- November 2025: {{< member-by-name "Zach Painter" >}}
+- October 2025: {{< member-by-name "Lysanne Pinto" >}}
+- September 2025: {{< member-by-name "Isaac Durham" >}}
+- August 2025: {{< member-by-name "Lorena Ciutacu" >}}
+- July 2025: {{< member-by-name "Phillip Wells" >}}
+- June 2025: {{< member-by-name "Achilleas Pipinellis" >}}
+- May 2025: {{< member-by-name "Marcel Amirault" >}}
+- March 2025: {{< member-by-name "Brendan Lynch" >}}
+- February 2025: {{< member-by-name "Emily Sahlani" >}}
 
 <!-- vale handbook.Spelling = YES -->
 

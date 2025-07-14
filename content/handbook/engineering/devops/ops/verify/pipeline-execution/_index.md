@@ -276,25 +276,11 @@ For those new to the team, these links may be helpful in learning more about the
 
 ## Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="pipeline execution" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
-{{< /tableau >}}
+See [internal handbook page](https://internal.gitlab.com/handbook/engineering/core-development/ci/verify/pipeline-execution)
 
 ### Cross-functional prioritisation
 
-The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. 
+The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on.
 
 ## How We Work
 
@@ -476,7 +462,7 @@ At any point, if an issue becomes blocked, it would be in the `workflow::blocked
 
 `Closed` means that all code changes associated with the issue are fully enabled on gitlab.com. If it is being rolled out behind a feature flag, it means the feature flag is enabled for all users on gitlab.com.
 
-More detail on the workflow is available on the [Product-Development Flow](/handbook/product-development/product-development-flow/) page.
+More detail on the workflow is available on the [Product-Development Flow](/handbook/product-development/how-we-work/product-development-flow/) page.
 
 ### "What do I work on next?"
 
@@ -644,7 +630,7 @@ The Pipeline Execution group supports the product marketing categories described
 
 ### Developing with Feature Flags
 
-When building features that may have high impact the team uses established [GitLab guidelines](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) for feature flags.
+When building features that may have high impact the team uses established [GitLab guidelines](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) for feature flags.
 
 We also ensure we are collaborating with our teammates in customer support and customer success by [alerting them](https://docs.gitlab.com/ee/development/feature_flags/controls.html#communicate-the-change) to the rollout issue before a feature is enabled.
 
@@ -697,10 +683,10 @@ Suppose working one milestone ahead to design the big solution is not possible. 
 
 #### Avoiding crunch times between UX, Product and Engineering
 
-- Ideally, Product Management and Product Designers aim to work 3 months in advance of Engineering proposals to ensure the problem definition and solution has been adequately validated prior to building. See [Validation track](/handbook/product-development/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
-- the Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement, we can move it to the [Solution Validation phase](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation).
+- Ideally, Product Management and Product Designers aim to work 3 months in advance of Engineering proposals to ensure the problem definition and solution has been adequately validated prior to building. See [Validation track](/handbook/product-development/how-we-work/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
+- the Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement, we can move it to the [Solution Validation phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation).
 - If it is taking more than a week to understand and investigate the technical feasibility for the design solution, update the workflow label to `~workflow::blocked` and change the assignee to engineering DRIs until the technical discussion is resolved. If the discussion is expected to go on longer, reducing the chances of the design solution being delivered in the intended milestone, consider creating [a spike issue](/handbook/engineering/devops/ops/verify/pipeline-execution/#spikes) for the discussion that blocks the current issue.
-- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development/product-development-flow/#build-track) to avoid unplanned changes.
+- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development/how-we-work/product-development-flow/#build-track) to avoid unplanned changes.
 
 ### Collaborating with the Wider Community on Community Merge Requests
 
@@ -790,7 +776,7 @@ When creating a follow-up issue for required tests:
 
 ### Bugs
 
-As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/infrastructure/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/devops/ops/verify/pipeline-execution/jtbd/).
+As a group, we strive to meet the [Severity Service Level Objective](/handbook/product-development/how-we-work/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/infrastructure/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/devops/ops/verify/pipeline-execution/jtbd/).
 
 ### Features
 

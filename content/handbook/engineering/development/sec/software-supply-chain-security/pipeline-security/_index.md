@@ -53,28 +53,6 @@ Like most GitLab backend teams we spend a lot of time working in Rails on the ma
 
 - [GitLab](https://gitlab.com/gitlab-org/gitlab)
 
-## Our active feature flags
-
-Our active feature flags can be found on the [feature flag dashboard](https://10az.online.tableau.com/t/gitlab/views/Engineering-Featureflags/Engineering-FeatureFlags/4c520fa3-d6da-433a-9f8c-f949df8cdf9c/8c157ebd-0c70-4db2-839f-a9e528a213b7). Make sure to apply the `Gitlab Team` testing filter.
-
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="pipeline security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
-{{< /tableau >}}
-
 ## How we work
 
 ### Planning
@@ -121,7 +99,7 @@ If the weight of an issue cannot be determined within a day, create a separate [
 
 #### Design and Development collaboration
 
-When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
+When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
 
 To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
 
@@ -195,7 +173,7 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 
 ### Workflow
 
-Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development/product-development-flow/), and [UX](/handbook/product/ux/product-designer/) workflows.
+Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development/how-we-work/product-development-flow/), and [UX](/handbook/product/ux/product-designer/) workflows.
 
 #### Starting New Work
 

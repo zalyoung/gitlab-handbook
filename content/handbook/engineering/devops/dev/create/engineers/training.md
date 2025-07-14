@@ -41,7 +41,5 @@ Mentoring sounds easy however there can be pitfalls. The training below is a goo
 
 For those looking to learn more about GitLab especially outside of the area where you work, the resources below are a great start.
 
-* [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) (Handbook)
-* [GitLab 201](/handbook/people-group/learning-and-development/gitlab-201/) (Handbook)
 * [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757)
 * [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-integration-and-continuous-delivery-with-gitlab)

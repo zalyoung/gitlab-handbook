@@ -533,3 +533,4 @@ verify_provenance:
 
 - [001: Verification Component](decisions/001_verification_component.md) - Verify SLSA provenance attestations in a dedicated CI/CD component.
 - [002: Provenance Generation Location](decisions/002_provenance_generation_location.md) - Generate SLSA provenance statements in the GitLab Rails backend.
+- [003: Attestation Generation & Signing Location](decisions/003_attest_sign_location.md) - Generate and sign SLSA attestation in glgo.

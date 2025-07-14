@@ -26,7 +26,7 @@ Applies to all GitLab team members, contractors, advisors, and contracted partie
 
 Constructing secure passwords and ensuring proper password management is essential. GitLab's password standards are based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html). To learn what makes a password truly secure, read this [article](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277) or watch this [conference presentation](https://www.youtube.com/watch?v=vudZnjp5Uq0&t=19183) on password strength.
 
-**Note: If a system cannot support a specific configuration in this standard due to technical limitations, the configuration must be set to the closest possible setting that matches this standard. Exceptions are only required when deviating from requirements for business reasons, not technical limitations. For any questions, please reach out to the Security Team.**
+**Note: If a system cannot support a specific configuration in this standard due to technical limitations, the configuration must be set to the closest possible setting that matches this standard. An exception must be opened [here](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/exceptions-management), and an associated risk rating and exception review timeline will be assigned in accordance with the matrix in the request issue.**
 
 ### Password Requirements
 
@@ -51,7 +51,6 @@ To make a secure password you can remember, consider using a [combination of 5 o
 ### System Password Configuration Requirements
 
 - For systems where a password can be configured the minimum password length needs to be set to 12 characters.
-- If a particular system will not support 12 character passwords, then the maximum number of characters allowed by that system shall be used.
 - The use of special characters is not required or even recommended.
 - If a particular system requires a password history, configuration should be set for 25 remembered passwords.
 - Passwords are not acceptable if they match the subsequent patterns, and must be checked against commonly used or expected patterns, including: known breached password lists, dictionary words, repetitive or sequential characters, or context specific words such as the name of the service, username, or derivatives thereof.
@@ -77,7 +76,7 @@ For a better understanding of how 2FA fits into GitLab, refer to the [Accounts a
 
 #### Application Authentication Requirements
 
-- Effective FY23 Q3, all third party applications that house GitLab confidential data are required to [authenticate via Okta inline with GitLab's approach to centralized authentication and authorization](/handbook/it/okta/#what-is-okta). [Security Notices](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process) will be required in all cases where Okta is not supported.
+- Effective FY23 Q3, all third party applications that house GitLab confidential data are required to [authenticate via Okta inline with GitLab's approach to centralized authentication and authorization](/handbook/security/corporate/end-user-services/okta/#what-is-okta). [Security Notices](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process) will be required in all cases where Okta is not supported.
 - Authentication to an application should contain multi-factor authentication (Token, OTP Generator, SSO, YubiKey).
 - SAML Assertion after logging into an authentication portal is required where technically feasible (e.g. Okta).
 - Authentication to an application should support individual users, not groups.

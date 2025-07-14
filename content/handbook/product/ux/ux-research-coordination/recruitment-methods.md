@@ -23,9 +23,10 @@ UX research operations coordinators have several resources to recruit from. Lear
 1. **Data Warehouse:** Occasionally we may need to use the DataWarehouse for requests that are unsuccessful with Marketo. There are only SaaS users in the DataWarehouse and there's no access to Self-Managed users.
     - It will take a few days to generate the list of users based on workload if a query doesn't already exist for your target audience. Once the query is created, allow 2 weeks and multiple email sends to fill the request.
 
-### GDPR and CAN-SPAM requirements
+### Data Privacy and CAN-SPAM requirements
 
-At GitLab, when we communicate with our research study participants, we take [GDPR](https://about.gitlab.com/privacy/privacy-compliance/) and CAN-SPAM requirements seriously.
+At GitLab, when we communicate with our research study participants, we take global data privacy laws and CAN-SPAM requirements seriously.
 
 - Anyone can submit a [personal data request](https://support.gitlab.io/personal-data-request/) to see which lists they are subscribed to, and be removed from any and all of them. The UX Research Operations Coordinator routinely processes these requests by searching for the contact in the UX research Qualtrics directory. If the contact is not present, the coordinator comments in the issue to document. If the contact is present in the directory, the coordinator deletes the contact, then confirms in the issue that the contact has been removed.
+
 - Every email sent to the research panel members contains an unsubscribe link. When a recipient clicks the link, Qualtrics [automatically confirms](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/emails-overview/#UsingTheOptOutLink) that they have been unsubscribed from the mailing list.

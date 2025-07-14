@@ -27,7 +27,7 @@ For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leona
 
 ### Workflow
 
-We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/product-development-flow/).
+We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 #### Capacity Planning
 
@@ -265,7 +265,7 @@ GitLab currently offers some freedom in how to structure OKR hierarchies. We tak
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
 - Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
 - They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
-- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development/product-development-flow/), and not in OKRs.
+- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/), and not in OKRs.
 
 Doing this ensures the hierarchy will be as simple, consistent and shallow as possible. This improves navigability and visibility, as we currently don't have good hierarchy visualization for OKRs.
 
@@ -291,37 +291,19 @@ OKRs should have the following labels:
 
 ### Retrospectives
 
-The Plan stage conducts [monthly retrospectives asynchronously using GitLab issues](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective). Monthly retrospectives are performed in a Confidential Issue made Public upon Close. Confidentiality of these Issues while Open aligns with [GitLab SAFE Framework](/handbook/legal/safe-framework/).
+The Plan stage conducts [monthly retrospectives asynchronously using GitLab issues](https://gitlab.com/groups/gl-retrospectives/plan-stage/-/issues/?label_name%5B%5D=retrospective). Monthly retrospectives are performed in a Confidential Issue made Public upon Close. Confidentiality of these Issues while Open aligns with [GitLab SAFE Framework](/handbook/legal/safe-framework/).
 
-The Plan Stage team encourages the use of Internal Notes as well to further adhere to SAFE Guidelines. Internal notes remain confidential to participants of the retrospective even after the issue is made public, including Guest users of the parent group. Dogfooding this feature aligns with an FY23 Q4 OKR of improving the GitLab Product development flow by driving the adoption of Plan features.
+Where necessary, the use of Internal Notes is encouraged to further adhere to SAFE Guidelines. Internal notes remain confidential to participants of the retrospective even after the issue is made public, including Guest users of the parent group.
 
 Examples of information that should remain Confidential per SAFE guidelines are any company confidential information that is not public, any data that reveals information not generally known or not available externally which may be considered sensitive information, and material non-public information.
 
-The retrospective issue is created by a scheduled pipeline in the
-[async-retrospectives](https://gitlab.com/gitlab-org/async-retrospectives) project. It is then updated once the milestone
+Retrospective issues are created by a scheduled pipeline in the
+[async-retrospectives](https://gitlab.com/gitlab-org/async-retrospectives) project. They are then updated once the milestone
 is complete with shipped and missed deliverables. For more information on how
 it works, see that project's README.
 
-An EM from the Plan stage is assigned to each retrospective on a rotational
-basis as the DRI for conducting and concluding the retrospective, along with
-summary and corrective actions. The rotation for upcoming milestones is as follows:
-
-| Milestone | DRI |
-|---   | ---       |
-| 16.10 | Donald Cook |
-| 16.11 | Kushal Pandya |
-| 17.0 | John Hope |
-| 17.1 | Brandon Labuschagne |
-| 17.2 | Vladimir Shushlin |
-| 17.3 | Kushal Pandya |
-| 17.4 | Donald Cook |
-| 17.5 | John Hope |
-| 17.6 | Donald Cook |
-| 17.7 | Kushal Pandya |
-| 17.8 | Vladimir Shushlin |
-| 17.9 | John Hope |
-| 17.10 | Donald Cook |
-| 17.11 | Kushal Pandya |
+Each EM is the DRI for conducting and concluding their group's retrospective, along with
+summary and corrective actions.
 
 The role of the DRI is to facilitate a psychologically safe environment where team-members
 feel empowered to give feedback with candour. As such they should refrain from participating
@@ -671,7 +653,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 ### Team Process
 
-Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development/product-development-flow/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
+Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development/how-we-work/product-development-flow/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
 
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.

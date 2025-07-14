@@ -42,24 +42,6 @@ The following people are permanent members of the Verify:Runner group:
 
 For a more comprehensive list of counterparts, look at the [runner product categtory](/handbook/product/categories/#runner-group)
 
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="runner" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="runner" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="runner" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="runner" >}}
-{{< /tableau >}}
-
 ## Projects we maintain
 
 As a team we maintain several projects. The <https://gitlab.com/gitlab-com/runner-maintainers> group
@@ -192,18 +174,18 @@ At a minimum we will always identify our top priorities using `~"Runner::P1"`.
 1. `~"Runner::P2"` means "normal priority".
 1. `~"Runner::P3"` means "reduced priority".
 1. `~"Runner::P*"` labels can and should differ from `~priority:*` labels.
-    [`~priority:*`](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) labels imply the timeline for when issues will be addressed.
+    [`~priority:*`](/handbook/product-development/how-we-work/issue-triage/#priority) labels imply the timeline for when issues will be addressed.
     While `~"Runner::P*"` indicate priority for the scheduled iteration.
 
 ### Design and development process
 
-We follow the [product development flow](/handbook/product-development/product-development-flow/). Our team uses one issue as SSOT for design, backend, and frontend work.
+We follow the [product development flow](/handbook/product-development/how-we-work/product-development-flow/). Our team uses one issue as SSOT for design, backend, and frontend work.
 
-Once a problem is [validated](/handbook/product-development/product-development-flow/#validation-phase-2-problem-validation), the issue enters the [design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design) where the product designer collaborates with the team to ideate solutions and explore different approaches before converging on a single solution that is feasible and has requirements meet the business goals.
+Once a problem is [validated](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-2-problem-validation), the issue enters the [design phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design) where the product designer collaborates with the team to ideate solutions and explore different approaches before converging on a single solution that is feasible and has requirements meet the business goals.
 
-Sometimes we need to increase our confidence that the proposed solution meets the user's needs and expectations. This confidence can be obtained from additional research during the [solution validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) phase.
+Sometimes we need to increase our confidence that the proposed solution meets the user's needs and expectations. This confidence can be obtained from additional research during the [solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) phase.
 
-Following the design and validation phases, the problem should already be broken down into the quickest change possible to improve the user's outcome and be ready for a more detailed review by engineering before moving to the [build track](/handbook/product-development/product-development-flow/#build-track).
+Following the design and validation phases, the problem should already be broken down into the quickest change possible to improve the user's outcome and be ready for a more detailed review by engineering before moving to the [build track](/handbook/product-development/how-we-work/product-development-flow/#build-track).
 
 Once the PM intends to prioritize the issue for the next milestone, the `~"workflow::planning breakdown"` label is applied and the EM will assign a developer to further break down and apply weights to that work so that the issue can be `~"workflow::ready for development"`.
 

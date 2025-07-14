@@ -101,7 +101,7 @@ Source: GitLab's People Analytics Team, WorkDay
 ## Diversity, Inclusion and Belonging Team
 
 - [Sherida McMullan](/handbook/company/team/#sheridam) - Vice President, Diversity, Inclusion and Belonging
-- [Liam McNally](/handbook/company/team/#lmcnally1) - Manager, Diversity, Inclusion and Belonging
+- Manager, Diversity, Inclusion and Belonging
 - Naomi Johnson - DIB Business Partner
 
 ## Values

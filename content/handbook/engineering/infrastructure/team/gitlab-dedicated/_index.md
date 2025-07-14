@@ -83,7 +83,7 @@ In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/
 
 ### Escalation Policy
 
-When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
+When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/product-development/how-we-work/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
 
 ### Handling Configuration Changes for Tenant Environments
 
@@ -378,7 +378,7 @@ When creating a new issue:
 
 1. Add the appropriate project label, example: ~"Hosted Runners for GitLab Dedicated".
 1. Add the ~"workflow-infra::Triage" label.
-1. Add the appropriate team label, example: ~"team::Environment Automation".
+1. Add the appropriate team label, example: ~"group::environment automation".
 1. Ensure the issue is confidential.
 1. Add the issue to the correct Epic.
 
@@ -389,7 +389,7 @@ When creating a new issue:
 # Label with a project label.
 # /label ~"Hosted Runners for GitLab Dedicated"
 
-/label ~"team::Environment Automation" ~"workflow-infra::Triage"
+/label ~"group::environment automation" ~"workflow-infra::Triage"
 /confidential
 ```
 
@@ -541,13 +541,13 @@ To reduce the team's cognitive load on having to keep a mental record of all the
 
 Commonly used labels are:
 
-1. The team label, such as `team::Environment Automation`.
+1. The team label, such as `group::environment automation`.
 1. Scoped `workflow-infra` labels.
 1. Scoped `component` labels.
 1. Scoped `cloud-provider` labels.
 1. Scoped `workaround` labels.
 
-The `team::Environment Automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
+The `group::environment automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
 
 #### Epics labels
 

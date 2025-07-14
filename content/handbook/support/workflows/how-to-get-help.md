@@ -62,11 +62,7 @@ is an operating principle of Results.
 
 Other Support Engineers are a great resource to help out with tickets. To get help from peers, you can try one or more of the following:
 
-1. Attend crush or help sessions such as those noted below (see the [GitLab Support calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV85YnMxNTllaHJjNXRxZ2x1cjg4ZGpiZDUxa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) for times):
-    - AMER Senior SE Help Sessions
-    - APAC/AMER or EMEA/AMER crush sessions
-    - APAC or EMEA crush / collaboration sessions
-    - Senior Support Office Hours (varying times)
+1. Schedule a pairing session, or attend a crush or help session. This is often the fastest way to get help and learn at the same time. See [getting started with pairing sessions](pairing-sessions.md#getting-started-with-pairing-sessions) for guidance.
 1. Ask for help in one of the broader
    [Support Slack channels](/handbook/support/#slack).
 

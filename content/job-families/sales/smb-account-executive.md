@@ -1,7 +1,7 @@
 ---
-title: "Global Digital"
-RoleName: "Global Digital"
-description: "Learn more about Global Digital Sales roles at GitLab including requirements, responsibilities and more."
+title: "High Velocity Sales and First Orders"
+RoleName: "High Velocity Sales and First Orders"
+description: "Learn more about High Velocity Sales and First Order roles at GitLab including requirements, responsibilities and more."
 ---
 
 ## SMB Advocate
@@ -40,7 +40,7 @@ The SMB Advocate is a [grade 6](/handbook/total-rewards/compensation/compensatio
 
 ## SMB Advocate Team Lead
 
-The SMB Advocate Team Lead reports to the Digital SMB Regional Manager.
+The SMB Advocate Team Lead reports to the SMB Regional Manager.
 
 ### SMB Advocate Team Lead Job Grade
 
@@ -68,6 +68,71 @@ The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate
 - Complete all assigned SMB advocate specific Level-up trainings and Technical Certification
 - Led or participated in at least 2 project initiatives to improve team performance
 - The Team Lead role is based on business need and is at management's discretion
+
+## Regional Manager, SMB
+
+The Regional Manager, SMB reports to the Senior Director, High Velocity Sales & First Orders.
+
+### Regional Manager, SMB Job Grade
+
+The Regional Manager, SMB is a grade level 8.
+
+### Regional Manager, SMB Responsibilities
+
+- Drive, manage and execute the business and revenue of the region’s SMB business
+- Prepare forecasts, territory/industry management, and growth plans
+- Establish and report on metrics to measure team performance; correct deficiencies where necessary
+- Anticipate problems and propose solutions related to sales operational changes (ex. quota, comp, territory carving, leads).
+- Educate team on significant industry factors including competitive products, regulations, trends, customer needs, and pricing
+- Build an innovative team of top talent motivated around driving SMB customer advocacy and making them fall in love with GitLab
+- Provide ongoing coaching and mentorship to SMB Advocates, focusing on core competencies including discovery techniques, objection handling, product positioning, and consultative selling skills
+- Implement comprehensive talent development and performance management frameworks to support individual team members in achieving and exceeding performance metrics and developing their careers
+- Design and implement new ways of engaging with our SMB customers and ensuring their success, including role definitions, coverage and technology.
+- Build, experiment and optimize playbooks for SMB Advocates to adopt in their low-touch, high-value functional and technical engagement with customers throughout their journey (consideration, conversion, adoption, expansion and renewal)
+- Work cross-functionally to develop and operationalize strategies for new customer acquisition
+- Proactively identify strategies, gaps and opportunities to influence product, marketing and GTM to drive SMB success, capturing feedback and acting as the voice of the SMB customer
+
+### Regional Manager, SMB Requirements
+
+- Experience selling to SMBs; willingness to “roll up your sleeves” and sell
+- Proven track record of meeting or exceeding performance objectives (revenue targets, pipeline targets, etc.)
+- Strong presentation skills; Executive level communication skills (both written and verbal) and the ability to mentor others
+- Experience leading a front line customer facing team and owning key business performance outcomes. Proven track record of leadership driving innovation and change.
+- Great project management skills. Ability to pull together disparate requirements, get agreement on priorities, communicate clearly and drive timelines.
+- Strong analytical skills and structured thinking. You know how to use data from disparate sources into a vision for what we should do.
+- Ability to develop and foster relations across the organization. (Including sales, product, marketing, customer success)
+- Resourcefulness to get things done cross-functionally. Operational execution and troubleshooting by identifying issues as they surface; proposing and executing changes to fix root causes.
+- Experience with GitLab use cases (SCM, CI, CD, DevSecOps, Agile Planning) to provide in-depth guidance and enablement
+- Knowledge and understanding of the end-to-end software development lifecycle, continuous integration, continuous deployment and cloud computing
+- You share our values, and work in accordance with those values
+- Ability to use GitLab
+- Ability to travel if needed and comply with the company’s travel policy
+
+## Senior Regional Manager, SMB
+
+The Senior Regional Manager, SMB reports to the Senior Director, High Velocity Sales & First Orders.
+
+### Senior Regional Manager, SMB Job Grade
+
+The Senior Regional Manager, SMB is a grade level 9.
+
+### Senior Regional Manager, SMB Responsibilities
+
+- Extends that of the Regional Manager, SMB responsibilities
+- Manage and grow the business and revenue of the region’s SMB business
+- Drive data-driven decision making and strategic pivots based on complex market analysis
+- Propose and execute on solutions related to sales operational changes (ex. quota, comp, territory carving, leads) with cross-functional partners
+- Educate the global team on significant industry factors including competitive products, regulations, trends, customer needs, and pricing
+- Contribute to Global SMB strategy & make decisions to support the strategy
+
+### Senior Regional Manager, SMB Requirements
+
+- Extends that of the Regional Manager, SMB responsibilities
+- Success in driving the growing an SMB business
+- Proven track record of leadership driving innovation and change
+- Ability to develop relations and influence across the organization (Including sales, product, marketing, customer success)
+- Experience building a high performance workforce
+- Ability to collaborate on and lead cross-functional initiatives
 
 ## New Logo Account Executive
 

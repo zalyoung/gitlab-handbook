@@ -336,7 +336,7 @@ For lists that collect work items from various root namespaces we won't check wh
 for the availability of data on the join model.
 If `custom_status_id` is set, use the custom status. If not use the system-defined status.
 To efficiently fetch this data for work item lists, we use a
-[bulk status resolver](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/graphql/resolvers/work_items/statuses/bulk_status_resolver.rb)
+[status resolver](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/graphql/resolvers/work_items/statuses_resolver.rb)
 which only adds two additional queries. One to load the join model and another to load custom statuses.
 
 We use the fields `default_open_status_id`, `default_closed_status_id`, and `default_duplicate_status_id` to make
@@ -373,14 +373,23 @@ We'll add concrete queries once the widget API is finalized.
 
 ##### Permissions
 
+###### Work item status
+
 We've decided not to introduce new permissions for work item statuses. Instead, authorization is handled
 by existing work item permissions like `read_work_item` or `update_work_item`.
 
 This approach avoids redundant permission checks by leveraging GraphQL's higher-level query execution
 for authorization, improving query performance by reducing the number of Permission checks.
 
-Additionally, work item status-specific resolvers like `BulkStatusResolver` and `AllowedStatusesResolver`
+Additionally, work item status-specific resolvers like `StatusesResolver` and `AllowedStatusesResolver`
 ensure that the licensed feature is available and the feature flag is enabled before proceeding.
+
+###### Custom lifecycle and status
+
+The `admin_work_item_lifecycle` permission allows only maintainers to update custom lifecycles and their associated statuses.
+
+The `read_work_item_lifecycle` and `read_work_item_status` permissions allow access to details about custom lifecycles and custom
+statuses that belong to a given namespace.
 
 #### Status widget
 
@@ -451,7 +460,26 @@ Optionally we'll also consider the mapping in list queries and include the old a
 We acknowledge that there might be a short time where status data is inconsistent in list views during migration.
 This is especially true for namespaces with a large number of work items.
 
-Details about the database structure and service architecture are to be defined.
+For iteration 2, we will avoid doing any status migrations by:
+
+1. Keeping the status mappings during the custom status transition
+1. Only allowing a single lifecycle and not allowing users to change the work item types it applies to
+1. Only allowing deletion of statuses that are not in use
+
+#### Status mappings and default fallbacks
+
+When a system-defined lifecycle is transitioned into a custom one, we create the custom statuses and store the
+system-defined status that it was converted from. This is stored in the `work_item_custom_statuses.converted_from_system_defined_status_identifier` column.
+
+`WorkItems::Statuses::CurrentStatus#status` takes these mappings into account and returns the custom status even when the record in the DB still
+contains the system-defined status identifier.
+
+Additionally, there are cases where work items will not have a `CurrentStatus` record. All existing work items before the feature flag is enabled will be in this state. Work items created before a namespace has the appropriate license are also in this state.
+
+`WorkItem#status_with_fallback` handles this and returns the default status depending on the work item's state. This also calls `WorkItems::Statuses::CurrentStatus#status` when the work item has a `CurrentStatus` record so it takes care of the system-defined status mapping as well.
+
+The `WorkItem.with_status` and `WorkItem.not_in_statuses` scopes can be used for filtering work items based on status including handling the mappings and
+fallback statuses.
 
 ### Namespaces downgrade to free tier
 
@@ -491,13 +519,16 @@ We'll use the feature flag `work_item_status_feature_flag` throughout the develo
 The actor needs to be the root group.
 
 For testing purposes, the feature flag is currently enabled in production for the Plan Stage testing
-group called [gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage).
+groups called [gl-demo-premium-plan-stage](https://gitlab.com/gl-demo-premium-plan-stage) and
+[gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage).
 
 We're using [this feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/issues/521286).
 
 Since the feature will only be available in Premium and Ultimate tier, we consider it a licensed feature.
 The feature name is `work_item_status`.
 The name differs from the feature flag because we cannot use the same name.
+
+Status lists on legacy issue boards are managed under a separate licensed feature called `board_status_lists`.
 
 ### Implementation and release plan
 
@@ -512,16 +543,6 @@ We've identified these iterations for this initiative:
 - Implement state/status transitions
 - Add `/status` quick action
 
-We want to [dogfood the first iteration internally](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2423284340)
-to gather early feedback.
-To make this happen we'll [use the following approach](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2430372132):
-
-1. Continue to use the `work_item_status_feature_flag` for the full GA release.
-1. Move the parts we want to dogfood to `work_items_beta` feature flag which is enabled for the
-   `gitlab-org` and `gitlab-com` groups.
-   This way we only release the feature internally and are still able to disable the feature.
-1. We'll use this [rollout issue](https://gitlab.com/gitlab-org/gitlab/-/issues/533557).
-
 #### Iteration 2 (GA)
 
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
@@ -531,10 +552,8 @@ To make this happen we'll [use the following approach](https://gitlab.com/gitlab
 - Filter by a single status on list views (if ready only work item list, else legacy list, no support for legacy epic list)
 - Status management (create, update, reorder, delete)
 
-Iteration 2 is the GA release. The following changes need to happen to change from internal dogfooding to GA:
-
-1. Change the feature flag of the internal dogfooding paths back to `work_item_status_feature_flag`.
-1. Enable the feature flag by default in the same MR.
+Iteration 2 is the GA release. The `work_item_status_feature_flag` feature flag will be used for internal testing and
+then dogfooding on `gitlab-org` and `gitlab-com`.
 
 ##### Nice to have
 
@@ -607,7 +626,11 @@ This section documents key architectural and implementation decisions made durin
 1. [Expanding support to epics](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13402#note_2491127675), including the epic detail view, epic list view,
 and legacy epic board view will be included in Iteration 3 (Fast follow). If the new board experience is available by the time of implementation, we'll skip the legacy board
 view and focus on the new experience instead.
-1. [Backfill Custom Statuses](#backfill-custom-statuses-backup-option) is added as a backup option if later on we determine that migration from system-defined statuses to custom statuses poses more challenges than initially foreseen
+1. [Backfill Custom Statuses](#backfill-custom-statuses-backup-option) is added as a backup option if later on we determine that migration from system-defined statuses to custom statuses poses more challenges than initially foreseen.
+1. As part of Iteration 2, [we'll only allow the deletion of custom statuses that are not in use](https://gitlab.com/gitlab-org/gitlab/-/issues/535964#note_2558275085).
+Statuses that have already been assigned to a work item, have an associated status mapping or are set as one of the default statuses (open, closed, duplicate) in a lifecycle
+can still be updated, but not deleted.
+1. For iteration 2, we will not do any backfilling because we would need to wait for the release after a required stop to finalize the migration. Instead, we will [store the status mappings in the database](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191822#note_2512770051) when a system-defined lifecycle is converted to a custom lifecycle. Since we also cannot backfill the `work_item_current_statuses` table, we will have fallback logic on the backend so that we return the default status based on state when the associated `CurrentStatus` record is missing.
 
 ## Resources
 
@@ -624,7 +647,7 @@ Please mention the current team in all MRs related to this document to keep ever
 We don't expect everyone to approve changes.
 
 ```text
-@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani @stefanosxan
+@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani @stefanosxan @psimyn @engwan
 ```
 
 Feel free to mention the following people to spread the word:

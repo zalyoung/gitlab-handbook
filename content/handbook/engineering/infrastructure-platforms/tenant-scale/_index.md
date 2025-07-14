@@ -3,10 +3,13 @@ title: Tenant Scale Group
 description: Information about the Tenant Scale Group
 ---
 
+## Mission
+
+Ensure the viability of GitLab’s multi-tenant platforms.
+
 ## Vision
 
-The Tenant Scale group is working towards a horizontally scalable, fault-tolerant architecture for gitlab.com.
-It is accomplishing this by introducing Cells at the infrastructure layer and Organizations at the application layer, along with Geo for end-to-end resiliency.
+Build GitLab’s next generation multi-tenant, horizontally scalable SaaS platform, and the logical application container to enable customers to move across GitLab’s platforms as their needs evolve.
 
 ## Team Members
 
@@ -24,7 +27,7 @@ It is accomplishing this by introducing Cells at the infrastructure layer and Or
 
 ### Cells Infrastructure
 
-{{< team-by-manager-slug manager="nick-nguyen" team="Cells Infrastructure" >}}
+{{< team-by-manager-slug manager="dlogalbo" team="Cells Infrastructure" >}}
 
 ## Resources
 

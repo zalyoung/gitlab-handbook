@@ -133,7 +133,7 @@ review steps which did not produce a finding should be noted as well.
 The findings section should contain a list of all findings made during the
 review. The [`finding_table.rb`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/tree/master/tools/finding_table.rb) script will try to
 pre-populate a table for this. The `Remediation` column still needs to be
-filled out manually to point to the accordin remediation MRs or issues.
+filled out manually to point to the according remediation MRs or issues.
 
 #### Problems
 
@@ -167,5 +167,5 @@ team.
 In order to close the review issue there should be either a follow up issue or
 MR on the respective development repository. If a follow up is missing it
 should be created by the reviewer and linked to in the respective finding
-thread. For those issues the normal [triage process](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+thread. For those issues the normal [triage process](/handbook/product-development/how-we-work/issue-triage/)
 applies.

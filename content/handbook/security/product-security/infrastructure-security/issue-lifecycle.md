@@ -11,7 +11,7 @@ Managing issues—from creation to closure—is a fundamental process that ensur
 
 The first step is to ensure it is properly categorized for review by the InfraSec team.
 
-- Initially, standard labels like `Department::InfraSec` are applied if they are not already present to indicate that the issue pertains to the Infrastructure Security team.
+- Initially, standard labels like `Division::Security`,`Department::Product Security`, and `Team::Infrastructure Security` are applied if they are not already present to indicate that the issue pertains to the Infrastructure Security team of Security Division.
 - After the above step, the label `InfraSec::triage` is applied to the issue. This label signals to the InfraSec team that the issue requires their attention and triage.
 - During the triage process, the InfraSec team assesses the issue's priority, scope, and impact on the infrastructure.
 - Based on this assessment, the issue is either moved to the `InfraSec::backlog` for future consideration or marked as "InfraSec::prioritised" if it requires immediate action.
@@ -50,7 +50,7 @@ Configuration of the bot for InfraSec use-cases is available [here](https://gitl
 flowchart TD
     A[TriageBot] --> B{Does the issue has 'InfraSec::triage' label?}
     B -->|No| C(Apply the 'InfraSec::triage' label)
-    A --> D{Does the issue has standard labels such as 'Department::InfraSec'?}
+    A --> D{Does the issue has standard labels such as `Division::Security`,`Department::Product Security`, and `Team::Infrastructure Security`?}
     D --> |No| E(Apply the standard labels)
     D --> |Yes| F{Is the issue assigned to anyone?}
     F --> |No| G(Tag Infrasec team and ask them to review the issue)

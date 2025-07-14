@@ -137,7 +137,7 @@ When crafting your follow up messages to customers, follow the below recommended
 
 ## Cadence Call Notes
 
-All customer call notes should be [saved in Google Drive](https://drive.google.com/drive/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U), following this format: `/Sales/Customers & Prospects/A/Acme/Acme - Meeting Notes`. [See an example meeting notes here](https://docs.google.com/document/d/1dAcHBqoRTY6qqSw27VQstCCnk5Fxc2oIsbpKs014h3g).
+All customer call notes should be [saved in Google Drive](https://drive.google.com/drive/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U), following this format: `/Sales/Customers & Prospects/A/Acme/Acme - Meeting Notes`. [See an example meeting notes here](https://docs.google.com/document/d/1dAcHBqoRTY6qqSw27VQstCCnk5Fxc2oIsbpKs014h3g). For customers who have lengthy notes doc, such as those who have been customers for several years, it is recommended to break out their notes into separate docs for each FY inside of their customer folder. When doing so, add the FY to the doc titles, for example `/Sales/Customers & Prospects/A/Acme/Acme - Meeting Notes - FYXX` and link all previous years' docs at the top of the current notes doc for easy access.
 
 The rationale for saving call notes in this manner is as follows:
 
@@ -147,6 +147,7 @@ The rationale for saving call notes in this manner is as follows:
 - Call notes are tightly linked to the [health score](/handbook/customer-success/csm/health-score-triage/) and should be available for reference in the same location as the health scorecard in Gainsight.
 - Access to Gainsight is limited to CSMs, so other members of the Sales and Customer Success organizations will look for notes in Google Drive.
 - If a team member who created the Google Doc leaves GitLab, the notes will remain accessible to everyone, as they live in the shared Google Drive folder.
+- By breaking notes out into separate docs for each FY, we avoid having slowness when loading and typing into the docs and we are able to better parse the data.
 
 Customer call notes should also always be linked in the C360 for the account, under the "Summary" tab, in the "Account Attributes (Editable)" section, in the "Google Doc Notes" field.
 

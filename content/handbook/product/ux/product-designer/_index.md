@@ -9,7 +9,7 @@ This section outlines our approach to handling issues. It's crucial to communica
 
 ### Triaging UX issues
 
-Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
+Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/product-development/how-we-work/issue-triage/#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/product-development/how-we-work/issue-triage/#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
 
 ### Scheduling issues in a milestone
 
@@ -33,7 +33,7 @@ Key benefits of making `User Experience` an official part of group's milestone p
 
 ### Define the opportunity
 
-- Collaborate with your PM to [validate](/handbook/product-development/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
+- Collaborate with your PM to [validate](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
 - Help your PM articulate the who/what/why as a user story. For example, "As a (who), I want (what), so I can (why/value)." If you’re asked to implement a non-evidence-based how, encourage the PM to refocus on the who/what/why to collaboratively determine the best how.
 - Assist your PM to defining [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) success criteria, prioritizing MVC “must-haves” and non-MVC “should-haves” and “could-haves.” Note that these criteria may change based on new insights from the iterative design process and customer feedback.
 
@@ -73,6 +73,19 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives. Follow this guide to support your work: [Designing with AI: A Guide for Product Designers](/handbook/product/ux/product-designer/ai-design.md)
 
+### Designing with modes
+
+Design must work in all generally available modes, which currently includes light and dark mode. Keep these considerations in mind as you design:
+
+- Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests (point 5)](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test).
+- The design system provides design tokens and components that work in supported modes.
+- Take extra care when mode is a primary factor in customer outcomes.
+- Dark mode design must align with the dark mode principles:
+  - **Forward elements are lighter, receding ones are darker.** This mimics natural light behavior: brighter elements come forward, while darker ones recede. In dark mode, brighter elements create depth, ensuring important content stands out without relying heavily on borders or shadows.
+  - **Reduced color saturation.** In a dark UI, color naturally stands out more, and the amount of color use is reduced. Instead of flooding backgrounds with color, use color more selectively to draw attention where it’s needed.
+  - **Dimmed, not inverted.** Dark mode should feel like dimming the lights rather than completely inverting the interface. Carefully decide which elements to darken and which to brighten to maintain content clarity while allowing backgrounds to recede appropriately.
+- Use analytics data to determine which mode should be your primary design focus.
+
 ### Aiming towards "sophisticated simplicity"
 
 The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity, Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
@@ -102,11 +115,10 @@ Consider these questions when designing:
 - Is this feature or capability needed or used, or what would happen if it were removed?
 - Is everything "in reach," or are users left wandering?
 
-#### Beautifying and "unboxing" the UI
+#### "Unboxing" the UI
 
-Two ongoing design efforts align with sophisticated simplicity:
+Ongoing design efforts align with sophisticated simplicity:
 
-1. **Beautifying the UI**: Enhance the UI by cleaning up components or entire pages to create more consistency, organization, and aesthetic appeal. Learn more in the [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui) section of the handbook.
 1. **Unboxing the UI**: Reduce the overuse of boxes for conveying hierarchy, organizing content, and dividing pages into section. Explore better alternatives in this video on ["Unboxing" the UI](https://youtu.be/MxpZuWQH-kk).
 
 ### Ideate and iterate
@@ -232,7 +244,7 @@ Embrace curiosity, let go of attachment.
 
 ### Partnering with Technical Writers
 
-When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design).
+When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design).
 
 UI text includes button or menu labels, error messages, log files, user-assistance microcopy, notification emails, and any other text visible in the UI. Changes to UI text can significantly impact documentation steps.
 
@@ -267,7 +279,7 @@ To maintain focus and avoid scope creep in UX issues:
 
 - **Prioritize must-haves**: Work with your PM and developers to identify "must-have" versus elements that can be deferred. Document non-MVC concepts and research in new issues, linking them to the original issue. Consult your Product Design Manager if you need help breaking down large issues.
 - **High confidence, low risk changes**: If developers need to start before designers are validated, focus on high confidence, low risk changes while the rest of the solution is validated.
-- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development/product-development-flow/#validation-track), ensuring the Build track always has well-validated product opportunities ready to start.
+- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development/how-we-work/product-development-flow/#validation-track), ensuring the Build track always has well-validated product opportunities ready to start.
 - **Manage large features**: Features should be buildable within 1-2 milestones. If too large, work with your PM and Engineering team to split the feature into smaller, manageable segments.
 
 For inspiration, watch our Product Designers discuss [iteration at GitLab](https://youtu.be/0lhjzU-QZ2w).

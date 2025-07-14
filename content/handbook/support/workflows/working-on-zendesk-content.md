@@ -20,9 +20,19 @@ Refer to the corresponding projects and create a merge request with your changes
 - [gitlab-com/support/zendesk-global/macros](https://gitlab.com/gitlab-com/support/zendesk-global/macros)
 - [gitlab-com/support/zendesk-global/triggers](https://gitlab.com/gitlab-com/support/zendesk-global/triggers)
 - [gitlab-com/support/zendesk-global/views](https://gitlab.com/gitlab-com/support/zendesk-global/views)
+- [gitlab-com/support/zendesk-us-government/automations](https://gitlab.com/gitlab-com/support/zendesk-us-government/automations)
+- [gitlab-com/support/zendesk-us-government/macros](https://gitlab.com/gitlab-com/support/zendesk-us-government/macros)
+- [gitlab-com/support/zendesk-us-government/triggers](https://gitlab.com/gitlab-com/support/zendesk-us-government/triggers)
+- [gitlab-com/support/zendesk-us-government/views](https://gitlab.com/gitlab-com/support/zendesk-us-government/views)
 - [gitlab-com/support/support-pages](https://gitlab.com/gitlab-com/support/support-pages) (also known as articles)
 
 Whether you're proposing minor changes directly or something bigger following an RFC discussion, tag a Support Manager for review and ask them to merge the changes. Once changes have been merged in one of these projects, you'll notice that the `Sync Stage` badge says `Awaiting Deployment` on the project overview page. This indicates that there's changes in the project that will be rolled out during the next regular deployment.
+
+#### Quarterly Audits
+
+At the start of every quarter, scripts will run in the sync repos checking for "orphaned" managed content files (i.e. files without a matching Zendesk item). If there are any of these, an issue will be made in the Support Team Meta project (pinging the groups/persons listed in the corresponding CODEOWNERS file).
+
+The objective of these is to either delete files no longer in use or to raise issues with Customer Support Operations if a file is reported as "orphaned" but should still be in use.
 
 #### Macros
 
@@ -44,12 +54,6 @@ Modifications to Zendesk organizations can be made through the use of the [Suppo
 To make changes to a Global organization's note you would use [the Zendesk Global Organizations project](https://gitlab.com/gitlab-com/support/zendesk-global/organizations) to modify an organizations notes. 
 
 For US Government Organizations, all organization notes are managed manually by the Customer Support Operations team. Due to the sensitive nature of the organizations, please reach out to Support operations via slack to make changes. 
-
-#### Articles
-
-- If you want to edit the wording of an article, make an MR to the repo.
-- If you want to create a new article, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Create a Zendesk article' option.
-- To discuss an article (but not actually action on anything), use a support-team-meta issue.
 
 ## Previewing variable replacement
 

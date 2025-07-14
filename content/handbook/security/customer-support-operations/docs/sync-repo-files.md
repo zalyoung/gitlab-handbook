@@ -68,3 +68,19 @@ The only view specific one is the `restrictions` attribute. You would use use th
 - For the `end_user_conditions` and `agent_conditions` attributes:
   - Use the field's `title` attribute for the `parent_field_id` value
   - Use the field's `title` attribute for the `id` value under the `child_fields` attribute
+
+### Themes
+
++All `hbs` files within the `templates` folder and the `script.js` file are parsed by our sync repos to handle the conversion of ticket form names and ticket field titles to their corresponding ID value.
+
++For ticket forms, you use the format `[[form: NAME_OF_FORM]]`. As an example, for the Zendesk Global Sandbox, using `[[form: Support Ops]]` would be converted to `12510630404508`
+
++For ticket fields, you use the format `[[field: TITLE_OF_FORM]]`. As an example, for the Zendesk Global Sandbox, using `[[field: Customer Priority]]` would be converted to `12510561670940`.
+
+### Apps
+
+All `js` files and all the `html` file are parsed by our sync repos to handle the conversion of ticket form names and ticket field titles to their corresponding ID value.
+
+For ticket forms, you use the format `[[Form: NAME_OF_FORM]]`. As an example, for the Zendesk Global Sandbox, using `[[Form: Support Ops]]` would be converted to `12510630404508`
+
+For ticket fields, you use the format `[[Field: TITLE_OF_FORM]]`. As an example, for the Zendesk Global Sandbox, using `[[Field: Customer Priority]]` would be converted to `12510561670940`.

@@ -1,137 +1,154 @@
 ---
-title: "GitLab Agile Portfolio Management- Hands-On Lab: Create Issues"
-description: "This Hands-On Guide walks you through creating issues and labels in GitLab."
+title: "GitLab Agile Portfolio Management- Hands-On Lab: Collaboration via MRs and Wikis"
+description: "This Hands-On Guide walks you through creating a merge request and a Wiki in GitLab."
 ---
 
 > Estimated time to complete: 45 minutes
 
 ## Objectives
 
-Issues are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work. Issues are defined in the scope of a **Project**, **not** a Group. You can read more about them in the [documentation](https://docs.gitlab.com/ee/user/project/issues/).
+A merge request is a proposal to incorporate changes from a source branch to a target branch. Merge requests help you manage the changes that are applied to your code. In this lab, you will learn how to set up and manage merge request approval rules in your projects. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
 
-## Task A. Create and manage labels
+Approval rules define how many approvals a merge request must receive before it can be merged, and which users should do the approving. They can be used in conjunction with Code owners to ensure that changes are reviewed both by the group maintaining the feature, and any groups responsible for specific areas of oversight. See the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) to learn more.
 
-> You can use labels to categorize epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. This allows you to dynamically filter and manage epics, issues, and merge requests. You can read more about them in the [documentation](https://docs.gitlab.com/ee/user/project/labels.html).
+## Task A. Set merge request approval rules
 
-1. Navigate to your **Awesome Inc** group.
+1. Navigate to your **Family Budget Calculator** project inside the **Software > Core** subgroup.
 
-1. In the left pane, click **Manage > Labels**.
+1. In the left pane, click **Settings > Merge Requests**.
 
-1. Click **New label** in the upper right hand corner.
+1. Scroll down to the **Merge request approvals** section and click **Add approval rule**.
 
-1. In the **Title** field, enter `Status::Open`. The 2 colons in the label title mean that this will be a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels).
+1. In the **Rule name** field, enter `Infra team`.
 
-    > A scoped label uses a double-colon (::) syntax in its title, for example: `workflow::in-review`. An issue, merge request, or epic cannot have two scoped labels, of the form `key::value`, with the same key. If you add a new label with the same key but a different value, the previous key label is replaced with the new label.
+1. In the **Groups** field, select your **Infrastructure** group. You may need to use the 'All groups' option and search for your top-level group.
 
-1. In the **Description** field, type `Item that is ready to begin work` .
+    > To help reduce the search results, try searching for `/awesome/infrastructure`, or `yourgroupname/awesome/infrastructure`.
 
-1. For the label's color, GitLab supports any hex color code. For this label, choose **Blue-gray** from the suggested color palette (or type `#6699cc` in the **Background color** field).
+1. Click **Save changes**.
 
-1. Click **Create label**.
+1. Back in the **Merge request approvals** section of the **Merge Requests** page, click **Add approval rule** to create a second project-level rule.
 
-1. Create the following additional labels, setting a description and background color of your choosing. Note that some of these are scoped and some are unscoped.
-    - `Status::Open`
-    - `Status::WIP`
-    - `Status::Done`
-    - `Priority::High`
-    - `Priority::Medium`
-    - `Priority::Low`
-    - `Dev`
-    - `QA`
-    - `Security`
+1. In the **Rule name** field, enter `Security operations`.
 
-1. Go to your **Family Budget Calculator** project. The project is inside the **Awesome Inc > Software > Core** group hierarchy.
+1. In the **Groups** field, select your **Security** group. You may need to use the 'all groups' option and search for your top-level group.
 
-1. Click **Manage > Labels** from the left sidebar.
+1. Click **Save changes**.
 
-1. Click the star icon to the left of the **Subscribe** button to designate the following labels as prioritized labels. Prioritized labels appear at the top of your labels list.
+1. Back in the **Merge request approvals** section of the **Merge Requests** page, under **Approval Settings**, check the box next to **Prevent editing approval rules in merge requests.**
 
-     - **Priority::High**
-     - **Priority::Medium**
-     - **Priority::Low**
+1. In the same section, ensure that **Prevent approval by the author** is *unchecked*. This is necessary so we can approve our own merge requests in the training environment.
 
-## Task B. Create issues for tracking work
+1. Click **Save changes**.
 
-1. In your **Family Budget Calculator** project, click **Plan > Issues** from the left sidebar.
+## Task B. Create a merge request
 
-1. Click the **New issue** button.
+1. In your **Family Budget Calculator** project, click **Issues** in the left pane.
 
-1. In the title section, type `Third-party financial services integration`.
+1. Click into your **Identify tuning parameters to reduce performance bottlenecks** issue.
 
-1. The description is an optional section, but feel free to type in your own description for this issue.
+1. Click the down-arrow dropdown next to the **Create merge request** button on the issue landing page.
 
-1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username. While we will leave the options as they are for now, it is important to understand what they do:
+1. Ensure **Create merge request and branch** is checked.
 
-    - **Epic:** Associates the issue with an epic.
+1. In the **Branch name** field, change the text to read `update-db-docs-perf-tools`.
 
-    - **Labels:** Apply labels to your issue, which are metadata tags that can be used to sort and filter your issues.
+1. Ensure that the **Source** is set to `main`.
 
-    - **Iteration:** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
+1. Click **Create merge request**.
 
-    - **Milestone:** Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
+1. Type `Draft: Add performance tools to Family Budget Calculator documentation` in the **Title** field.
 
-    - **Weight:** Apply a weight value to your issue to measure the time, complexity, or value a given issue has or costs.
+    > Putting **'Draft:'** at the beginning of your merge request means that the merge request will not occur until it has been marked as ready. This is used to note that a merge request is not ready to be merged yet, and to prevent accidental merges. Note that the **Mark as draft** checkbox below the title will also check automatically when **'Draft:'** is added to the title.
 
-    - **Dates:** Use in issues to keep track of deadlines and make sure features are shipped on time.
+1. Remove `Closes #<issue-number>` from the **Description** field. We want to keep the original issue open for additional work.
 
-    - **Health status:** You can associate one of four predefined health status labels to your issue: `on track`, `needs attention`, `at risk`, or `needs review`.
+    > If a merge request has 'Closes #<issue-number>' in their description, the issue will be closed when the merge request is merged.
 
-    - **Parent:** Connects an issue to an epic.
+1. Verify that you are assigned to the merge request by checking the Assignees section. Also note any labels inherited from the issue, and any approval rules inherited from project settings.
 
-    - **Time Tracking:** Use time tracking to estimate and measure your team’s work on an issue, or how much work is expected to be done to complete the issue.
+1. Click the **Create Merge Request** button.
 
-    - **Contacts:** Attach contacts to issues for additional collaboration, meeting follow-ups, or progress updates. This also adds the contact's avatar next to your issue.
+1. From the merge request details page, select **Code > Open in Web IDE** to edit files on the **update-db-docs-perf-tools** branch.
 
-1. Click the **Create issue** button.
+    > The Web IDE is an advanced editor with built-in ability to commit to your repository branches. You can use the Web IDE to make changes to multiple files directly from the GitLab UI. See the [documentation](https://docs.gitlab.com/ee/user/project/web_ide/) to learn more.
 
-1. In the issue metadata pane, click **Edit** next to the **Labels** field.
+1. Click **README.md** from the left file pane.
 
-1. Select the **Status::Open** label, then click away from the metadata pane to apply the label to the issue.
-
-1. Repeat the previous 2 steps to apply the **Priority::Medium** and **Dev** labels to the issue.
-
-1. In the left pane, click **Plan > Issues**. You will see the issue you just created in the list along with its labels.
-
-1. Create a second issue by clicking **New issue** in the top right of the issue list page.
-
-1. In the **Title** section, type `Backend services`.
-
-1. Paste the following in the **Description** section:
+1. Paste the following into **README.md**, beginning on line 3.
 
     ```markdown
-    - Create DB
-    - Create service infrastructure
-    - Write documentation
+    ## Performance tools
+    The Family Budget Calculator currently uses HAProxy for load balancing.
+    We are researching and testing additional tools to improve performance.
     ```
 
-1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
+1. Click **Source Control** in the left pane (the third button from the top).
 
-1. Click the **Create issue** button.
+1. In the **Commit message** field, enter `Update docs with performance tools`
 
-1. Apply the following labels to the **Backend services** issue by clicking on tne label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::Open**, and **Priority::High**.
+1. Ensure that the message "**Commit and push to update-db-docs-perf-tools branch**" is written in the red 'commit' box underneath your commit message.
 
-1. In the left pane, click **Plan > Issues** to see both issues with their labels.
+1. Click **Commit and push to update-db-docs-perf-tools branch**.
 
-1. Create a third issue by clicking **New issue** in the top right of the issue list page.
+## Task C. Perform code review and merge changes
 
-1. In the **Title** section, type `Frontend services`.
+> For advice on best practices when it comes to code reviews, see the [documentation](https://docs.gitlab.com/ee/development/code_review.html).
 
-1. Paste the following in the **Description** section:
+1. Navigate to the `Draft: Add performance tools to Family Budget Calculator documentation` merge request by clicking on the red GitLab button in the bottom left corner of the Web IDE, and then clicking **Go to Family Budget Calculator project on GitLab**.
+
+1. Click on **Code > Merge Requests**, and then click on `Draft: Add performance tools to Family Budget Calculator documentation`.
+
+1. On the merge request page, click the **Changes** tab to see the changes that will be applied to the project's **main** branch after merge.
+
+    > Code reviewers can critique individual lines of code and suggest changes. See the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/) to learn more.
+
+1. Click on the **Overview** tab.
+
+1. In the three dots menu to the right of the issue title, click **Mark as ready** to take the merge request out of draft mode. You will see that **Draft:** has been removed from the merge request's title.
+
+1. Click **Approve** to approve the merge request. Note that the **Merge** button now appears since all requisite approvals have been applied.
+
+1. Scroll down to the comments field and type a comment in the comments field that reads: `Approved. Ready to merge.`. Click **Comment** to post the comment.
+
+1. Click **Merge** and observe the merge complete successfully.
+
+1. Navigate to the project landing page by clicking the **Family Budget Calculator** title tile in the top left corner. See that the `README.md` file on the **main** branch now includes your updates.
+
+1. In the left pane, click **Code > Merge requests**. The merge request will now appear under the **Merged** tab on this page.
+
+## Task D. Create a wiki for project documentation
+
+> If you don't want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
+
+1. Navigate to your **Family Budget Calculator** project in the **Software > Core** subgroup.
+
+1. In the left pane, click **Plan > Wiki**.
+
+1. Click **Create your first page** button in the middle of the page.
+
+1. In the **Title** section, type in `Family Budget Calculator Documentation` as the page title.
+
+1. Paste the following text in the content field underneath the title field.
 
     ```markdown
-    - UX design
-    - Integration
-    - Write documentation
+    ## Summary
+
+    The Family Budget Calculator helps households stay on budget and save for the future.
+
+    ## Contact
+
+    Contact <your-name> with questions or comments.
     ```
 
-1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
+1. Click **Create Page**. You should see a new Wiki page with the content you created.
 
-1. Click **Create issue**.
+> If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
 
-1. Apply the following labels to the **Frontend services** by clicking on tne label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::WIP**, and **Priority::High**.
+## Lab Guide Complete
 
-1. In the left pane, click **Plan > Issues** to see all 3 issues with their labels.
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
 
 ## Suggestions?
 
-If you'd like to suggest changes, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.

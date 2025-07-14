@@ -3,7 +3,7 @@ title: New Product Introduction (NPI) Process
 description: How to launch a product or service at GitLab.
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## Context
 

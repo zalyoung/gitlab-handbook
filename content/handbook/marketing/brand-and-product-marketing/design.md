@@ -30,113 +30,130 @@ The GitLab Brand Design and Video teams will elevate the brand beyond the logo a
 
 Create simple, effective, and intentional brand experiences by solving complex problems; defining the what, why, and how, resulting in a message that's easy to understand.
 
-## Requesting Support
+## Requesting Brand and Creative Support
 
-Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request. 
+To help streamline our creative intake process and enable our team to work more efficiently, we've updated how design and video requests are submitted.
 
-For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
+For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/).
 
-![brand moving to asana](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/brand-creative-asana.png)
+### **Service Level Agreement (SLA) for Requests**
 
-- For more information, please see this announcement on Slack [HERE](https://gitlab.slack.com/archives/C0259241C/p1749243648660229)
+Below are the SLAs for our key request types: brand reviews, design requests, custom swag, team expressions, and video requests.
 
-### Brand Design & Video Issue Templates
+Please note that minimum **turnaround times begin from the date we receive all the necessary information** to start the design and **NOT from the date your request is submitted.**
 
-#### 1. Blog Image Request
+- If your deadline falls within the minimum turnaround time for any request type, we cannot guarantee delivery by that date.
 
-Need an image for a blog? Please use [this template to request blog images](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request).
+- When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
 
-#### 2. Brand Review Request
+If you have any questions or concerns about your creative request, feel free to reach out to our Senior Creative Operations Manager.
 
-Need a brand review? Please use [this template to request a brand or design review](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request) of multiple or single assets.
+1. Brand Review requests - Minimum of **1 week** for turnaround
 
-- For brand review only - do NOT use this template for requesting new assets or designs*.
-- Do NOT use any of the below issues for brand review*.
+    - This includes time for any discussion or feedback to be addressed and reviewed again. Initial review will typically happen within 72 hours.
 
-#### 3. Brand Review Request of Localized Assets
+2. Design Requests - Miinimum of **three weeks** for turnaround
 
-Need a brand review of a localized asset? Please use [this template to request a brand or design review of multiple or single localized assets](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request-localized-asset).
+3. Swag requests - Minimum of **four weeks** for turnaround
 
-- For brand review only - do NOT use this template for requesting new assets or designs*.
-- For non-English design or video assets only
-- Do NOT use any of the below issues for brand review*.
+    - If you are requesting custom swag for GitLab teams, TMRG groups, or special projects, please note that you'll need to submit a Tanuki Tab for Teams Expressions request **first** by using the design request linked in the section below.
+    - Before submitting a request, please confirm that your team or program has approved budget for this order. If you're unsure, contact your Finance Business Partner. You will need a PO to complete the order. Please review the custom swag creative request process in the handbook.
+    - If you have any questions, comments, or concerns regarding your creative swag request, please reach out in the #[brand](https://gitlab.enterprise.slack.com/archives/C0119M5HUER) Slack channel.
 
-#### 4. Content Design Request
+4. Tanuki Tab for Teams Expressions requests - Minimum of **four weeks** for turnaround
 
-Please use [this issue request template for net new creative or refreshes](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request) needed for the following asset types:
+    - A Tanuki Tab should be created first using the "Tanuki Tab for Team Expressions" issue template linked in the below section before swag or additional asset requests are addressed. If swag or additional assets are needed, please open a separate request.
+    - Please review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/brand-overview/brand-applications/#team-expressions) that we will be utilizing for your Tanuki Tab request.
 
-- eBook / Solution Briefs
-- Infographic / Diagrams
-- One-Pager / Two-Pager
-- Quarterly Update of Executive Candidate Info Packet
-- Surveys
-- Whitepaper
-- Other but within the same category of assets
+5. Video Requests - Updated SLAs Coming Soon!
 
-#### 5. Event Asset Request
+**Please note: We understand that project priorities can shift over time. To keep our project board organized and focused on active work, any request with no activity for two months will be closed out. If the project still needs to remain open, feel free to reopen the request and notify our Senior Creative Operations Manager on Slack.**
 
-Please use [this issue template when requesting net new or refreshing](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) any of the following event-related assets:
+### **How to Submit a Request**
 
-- Event Booth
-- Event Signage
-- Event Social Posts
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
 
-Do NOT use this template for For Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template.
+Please note that if a request is submitted through Asana, Slack, or other unofficial channels, you will be asked to resubmit your request using the appropriate intake form. This ensures we have all the necessary information to begin work efficiently and keep everything properly tracked in GitLab. 
 
-#### 6. Illustration + Iconography Requests
+### **Brand Design and Video Issue Templates**
 
-Please use [this issue template for any illustration and iconography needs](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request).
+#### 1. **Brand Review Requests**
 
-#### 7. Presentation Request
+- [**Brand Review Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request) - For brand review only - do NOT use this template for requesting new assets or designs.
 
-Please use [this issue request template for updating existing presentation decks or when requesting design for net new decks](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request).
+- [**Brand Review Request of Localized Assets**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request-localized-asset)- For brand review of localized assets only, do NOT use this template for requesting net new assets or designs.
 
-#### 8. Social Asset Request
+  - For non-English design or video assets only.
 
-Please use [this issue template for net new or refreshing organic and/or paid social requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request).
+#### 2. **Design Requests**
 
-#### 9. Swag Request
+**Do NOT use any of the below issues for brand review**
 
-This [issue template should be used for all custom swag requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request) including swag for TMRG programs, event swag + giveaways, etc.
+- [**Blog Image Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request)
 
-#### 10. Tanuki Tab Request for Team Expressions
+- [**Content Design Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request) - Please use this issue request template for net new creative or refreshes needed for the following asset types:
 
-Please use [this issue template for custom badge or assets](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=tanuki-tab-for-team-expressions-request) for your TMRG, Department or special project. Be sure to review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/#team-expressions), as this will be the system used for your Tanuki Tab request.
+  - eBook / Solution Briefs
+  - Informational Graphics / Diagrams
+  - One-Pager / Two-Pager
+  - Quarterly Update of Executive Candidate Info Packet
+  - Surveys
+  - Whitepaper
+  - Other but within the same category of assets
 
-#### 11. General Design Request
+- [**Digital Advertising Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=digital-advertising-request)- Please use this issue template when requesting net new or refreshing digital advertising assets such as:
 
-If your design request does not fall within one of the above categories, or if you need a Zoom background, please use [this issue template to request a new design of multiple or a single asset](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request).
+  - Paid Social
+  - Organic Social
+  - Native Ads
+  - Display Assets
 
-- Do NOT use this template for brand reviews.*
+- [**Email Asset Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=email-asset-request)
 
-#### 12. New Brand Video Request
+- [**Event Asset Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) - Please use this issue template when requesting net new or refreshing any of the following event-related assets:
+  - **Please note: DO NOT use this event request template for** Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template.
 
-Please use [this issue when requesting a net new video](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request).
+    - Event Booth
+    - Event Signage
+    - Event Social Posts
 
-#### 13. Upload Video Request
+- [**Illustration + Iconography Requests**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request)
 
-Please us [this issue template when requesting to have a video uploaded](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request) to Vimeo, YouTube, or another similar platform.
+- [**OOH Requests**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=ooh-request)
 
-#### 14. Video Edit Request
+- [**Presentation Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request) - Please use this issue request template for updating existing presentation decks or when requesting design for net new decks.
 
-Please use [this issue when requesting an update to an existing video or edits to video footage](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request) such as adding lower thirds, bumpers or slides to a zoom recording.
+- [**General Design Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request) - If your design request does not fall within one of the above categories, or if you need a Zoom background, please use this issue template to request a new design of multiple or a single asset.
 
-#### **Request Instructions and Tips:**
+#### 3. Swag Requests (Net New or Existing/Refresh)
+
+- [**Swag Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request) - This issue template should be used for all custom swag requests including swag for TMRG programs, event swag + giveaways, etc.
+
+#### 4. Team Expressions (TMRGs, Special Projects & Department Teams)
+
+- [**Tanuki Tab Request for Team Expressions**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=tanuki-tab-for-team-expressions-request) - Please use this issue template for custom badge or assets for your TMRG, Department or special project. Be sure to review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/#team-expressions), as this will be the system used for your Tanuki Tab request.
+
+#### 5. **Video Requests**
+
+- [**New Brand Video Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request) - Please use this issue when requesting a net new video.
+
+- [**Upload Video Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request) - Please use this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform.
+
+- [**Video Edit Request**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request) - Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording.
+
+#### **Request Instructions and Tips**
 
 - When submitting your request, please title the request "CREATIVE REQUEST: [Descriptive name]"
 - Please complete the issue form to the best of your ability. The more information our team can receive upfront, the quicker we can get started on your request.
-- **Please note, all requests need a minimum of a two-week turnaround, starting from the date we receive ALL the necessary information to begin the design, not from the date of your request submission. Please note that we cannot guarantee meeting your deadline if it falls under this two-week window.**
-- **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager in Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.
-- When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
 - If you have any questions, comments, or concerns regarding your creative request, please reach out to our Senior Creative Operations Manager.
 
 #### Contacting the team
 
 The best way to get in contact with the Creative team is to fill out one of the above issue templates with your request, or to:
 
-- Use the @gl-design tag in GitLab issues and epics for visibility.
-- @-mention individuals from the team in GitLab issues and epics.
-- Ask your question in the #marketing-design Slack channel.
+- Use the `@gl-design` tag in GitLab issues and epics for visibility.
+- `@-mention` individuals from the team in GitLab issues and epics.
+- Ask your question in the `#brand` Slack channel.
 - For video specific questions or assistance, please reach out in the `#brand_video` Slack channel.
 
 ### Working with the brand
@@ -174,6 +191,37 @@ In certain cases, the help of a third party agency or design partner may be brou
 
 Whenever a third party is brought in to support design, the work must be shared with the Brand Design team to ensure brand integrity and that we are [working transparently](/handbook/values/#transparency) with one another.
 
+#### Preserving the tanuki
+
+We understand that customized versions of the tanuki have been meaningful to our community and represent important aspects of our culture and values. When we [rebranded](https://about.gitlab.com/blog/devops-is-at-the-center-of-gitlab/) in 2022, we made the strategic decision to no longer alter the tanuki. These parameters are reflected in our [Brand Guidelines](https://design.gitlab.com/brand-logo/logomark#incorrect-usage) and are an intentional pivot from our previous logo, which we often customized with different colors and accessories.
+
+Why we maintain one look for our tanuki:
+
+- **We built an alternative.** In 2024, we launched the [Team Expressions Tanuki Tabs](https://design.gitlab.com/style-guides#team-expressions) to specifically address the community’s need for creative expression in a way that still preserves our logo. This scalable system empowers the community to express their vibrant groups — including community groups, geo locations, business functions, and TMRGs — without altering our logo.
+- **Consistency strengthens our brand.** Our tanuki is our most valuable brand asset. Any alterations dilute our brand identity and reduce recognition as we continue establishing our market presence.
+- **We’re building our brand maturity and an enterprise focus.** Restyling our tanuki undermines its visual role in our brand, which conflicts with our [brand strategy](/handbook/marketing/brand-and-product-marketing/design/#mascots).
+- **Strategic resource management drives results.** Our small Brand Design team supports the growing creative needs of the entire company, prioritizing work that aligns with business goals and drives clear business value. Custom logo requests multiplied beyond our team's capacity and don't align with our strategic priorities.
+- **Brand integrity extends everywhere.** Even "internal-only" designs frequently spread beyond their intended use, which can compromise brand awareness. Our logo is often someone's first impression of our company; showing up consistently maintains a clear, trustworthy image that meets industry standards and is a necessity in the years following a rebrand.
+
+#### Mascots
+
+We have taken a strategic approach to refrain from using or creating mascots inspired by the tanuki. This stance maintains brand authenticity, a focus on results for customers, and builds deeper trust with our community who use GitLab daily to create software that powers our world. The framework below outlines our vision for how our brand comes to life without a mascot character:
+
+- **Strategic differentiation from competitors:** Our key competitors have taken an approach to make their mascots synonymous with their brand. By forgoing a mascot, GitLab establishes a distinct brand identity that doesn't compete in the same playful, character-driven space, which helps differentiate us from our biggest competitors.
+- **Brand maturity and enterprise focus:** GitLab's focus on professional software development and enterprise DevSecOps aligns with a more sophisticated brand that focuses on business value, as opposed to character-driven marketing.
+- **Leveraging the tanuki as a brand element, not a mascot:** The tanuki logomark is thoughtfully integrated as a symbolic element of our brand that represents GitLab's values. Centering DevSecOps at the core of its construction makes the tanuki a tactical brand device representing the limitless possibilities of our platform, and should be elevated as such.
+- **Avoiding mascot pitfalls:** Our competitor’s own brand guidelines acknowledge that mascots "work best internally" and specifically advise against their use for “topics like money, security, sales, and enterprise offerings." By preserving the tanuki as a logomark rather than an anthropomorphized character, we are able to generate positive business impact and trust with our brand.
+
+We believe there are alternative ways to elicit delightful engagement between our brand and communities, without relying on a mascot. These include, but are not limited to:
+
+- User-generated content and community stories
+- Behind-the-scenes content showcasing real GitLab team members
+- Educational content that engages with users and provides value
+- Interactive experiences and tools through brand activations
+- Celebration of customer successes and innovations
+
+Any future reconsideration of this approach would require a fundamental shift in our marketing strategy, brand identity, and business goals. Such an initiative would require extensive planning and thought leadership; it would not be undertaken as a reactive measure, such as for campaign or aesthetic usage.
+
 #### Fanart
 
 The GitLab brand has been a source of creative inspiration for team members and the wider community since its inception. In many cases, team members may find themselves creating spinoff art inspired by our [values](/handbook/values/), [software](https://about.gitlab.com/stages-devops-lifecycle/), and [tanuki](https://design.gitlab.com/brand-logo/logomark) logo.
@@ -209,7 +257,7 @@ If you have questions, reach out to the Brand Creative and Brand Strategy teams 
 
 ## Canva best practices
 
-Canva enables team members to self-service their design needs and create on-brand assets. Canva is a great tool for items that need a quick-turnaround or that have ever-changing content (like A/B ad testing). Canva supports print and digital designs, as well as video and animation; team members most frequently use it for digital ads and promotional items. For larger projects that require greater detail or concepting, we recommend you [submit a design request](/handbook/marketing/brand-and-product-marketing/design/#requesting-support) to the Brand Design team instead.
+Canva enables team members to self-service their design needs and create on-brand assets. Canva is a great tool for items that need a quick-turnaround or that have ever-changing content (like A/B ad testing). Canva supports print and digital designs, as well as video and animation; team members most frequently use it for digital ads and promotional items. For larger projects that require greater detail or concepting, we recommend you submit a design request instead.
 
 **To get started in Canva, please complete the checklist below:**
 
@@ -220,7 +268,7 @@ Canva enables team members to self-service their design needs and create on-bran
 
 ### GitLab Enterprise access
 
-If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
+If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
 
 We have a limited number of seats available, so we encourage teams to consolidate the number of people on their team who need access. *Note: Shared logins are prohibited*.
 
@@ -307,7 +355,7 @@ Depending on your Canva permissions, you may be able to share the file as a temp
 
 ### Requesting design approval
 
-Always share your work for review. If you are working from an existing Canva template, you will see the option to request [design approval](https://www.canva.com/help/get-approval/) in the top right of the file. If you are creating your own design, you can open a [brand review issue](/handbook/marketing/brand-and-product-marketing/design/#requesting-support) and link your file. For expedited requests, please reach out in the `#marketing-design` channel on Slack with a link to the issue or file.
+Always share your work for review. If you are working from an existing Canva template, you will see the option to request [design approval](https://www.canva.com/help/get-approval/) in the top right of the file. If you are creating your own design, you can open a Brand Review issue and link your file. For expedited requests, please reach out in the `#marketing-design` channel on Slack with a link to the issue or file.
 
 ## How we work
 
@@ -333,7 +381,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 ### Team workflow
 
 - **Team check-ins:** We have two recurring team syncs: (1) Monday [Brand Creative hours](https://docs.google.com/document/d/1SOxh6UPZ7n0oGUdxc1p4CggCXbz-uLzQN8DL-_AUEMg/edit?usp=sharing) call where we catch up and talk about work for the upcoming week. (2) Wednesday Brand Creative hours call where we get feedback on projects and collaborate on topics that need to be addressed.
-- **Working in issues:** All design requests should use our [issue templates](#brand-design--video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
+- **Working in issues:** All design requests should use our [issue templates](#brand-design-and-video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team's triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
   - Note: Everyone can see their personalized board by selecting the drop-down option where it currently says "Brand Design TRIAGE Board" on the left of the search bar.
   - Note: Epics can be viewed on the [Epic board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/epic_boards).
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.
@@ -346,7 +394,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 We upload and pull work locally from the [Brand Design repository](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design). Confidential projects and large print files are stored in the team [Google Drive](https://drive.google.com/drive/u/0/folders/0AG8nDFLsOkOvUk9PVA), which is organized the same way as the repository. We also have a team [Figma](https://www.figma.com/files/972612628770206748/team/997176040728593838/GitLab-Brand-Design?fuid=816750625196599153) for collaborative work.
 
 - The top-level folders of the repository are organized by project type; from there, they are broken down by category, and in some cases fiscal year.
-- By default, all source files should be stored in the repository, along with smaller exported files (such as digital ads). For larger exports (ie: print-ready files), please store and share them in the team Drive.
+- By default, all source files should be stored in the repository, along with smaller exported files (such as digital ads). For larger exports (such as print-ready files), please store and share them in the team Drive.
 - For folder names, use lowercase, dashes instead of space, and do not include any special characters.
   - *Example:* field-marketing-events
 
@@ -368,7 +416,7 @@ We upload and pull work locally from the [Brand Design repository](https://gitla
   - `git status` - optional command; this provides a summary of all the changes you've made locally that need to be pushed back the repository
   - `git checkout [`insert file path`]` - optional command; this can be used to remove any files you do not want to push to repository
   - `git add .` - use this command before pushing your work; it will add all the files you have made changes to
-  - `git commit -m “`[insert description of changes]`”` - include a message with a summary of your changes; this is viewable to everyone and provides context
+  - `git commit -m "`[insert description of changes]`"` - include a message with a summary of your changes; this is viewable to everyone and provides context
   - `git push origin main` - this will push all your changes back to the repository, including the commit message to describe the changes
   - `git pull --rebase`, followed by, `git push origin main` - use these two commands to reset if you receive an error when pushing
 

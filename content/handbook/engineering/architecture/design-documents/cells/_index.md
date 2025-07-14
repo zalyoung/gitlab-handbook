@@ -43,8 +43,9 @@ This section links all different technical proposals that are being evaluated.
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
 - [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
-- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
 - [Cells: Infrastructure](./infrastructure/_index.md)
+- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
+- [Settings Synchronization](./proposal-admin_area_setting_sychronization_in_cells.md)
 - [Organization migration](migration.md)
 - [Routable Tokens](routable_tokens.md)
 
@@ -209,7 +210,7 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-011: Cell Specific Configuration](decisions/011_cell_specific_configuration.md)
 - [ADR-012: Cell Unique Identifier](decisions/012_cell_unique_identifier.md)
 - [ADR 013: Use the same Cell ID for restoring a Cell from backup](decisions/013_cell_restore_from_backup.md)
-- [ADR 014: Clusterwide syncing in Cells 1.0](decisions/014_clusterwide_syncing_in_cells_1_0.md)
+- [ADR 014: No clusterwide syncing in Cells 1.0](decisions/014_clusterwide_syncing_in_cells_1_0.md)
 
 ## Links
 

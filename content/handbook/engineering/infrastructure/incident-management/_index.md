@@ -106,14 +106,24 @@ This table shows which teams typically fulfill which roles during incident respo
 
 The Incident Lead is responsible for ensuring that the incident progresses and is kept updated. This role is not set automatically and should be assigned based on the type of incident. For more guidance on assigning Incident Lead, check out the [workflow section](#incident-lead). The Incident Lead should feel empowered to engage other parties such as the EOC or IMOC as necessary.
 
+#### During the incident
+
 1. Responsible for posting regular status updates using the `/incident update` in the incident Slack channel. These updates should summarize the current customer impact of the incident and actions we are taking to mitigate the incident. This is the most important section of the incident timeline. It will be referenced to status page updates and should provide a summary of the incident and impact that can be understood by the wider community.
 2. Ensure that the incident issue has all of the required fields applied. If not set them using `/incident field` command from the incident slack channel
 3. Ensure that the incident issue is appropriately restricted based on [data classification](#incident-data-classification), to mark the issue as confidential use `/incident field` and set the `Keep GitLab Issue Confidential` to `true`
 4. The Incident Lead should not consider immediate work on an incident completed until the Incident Summary is filled out with useful information to describe all the key aspects of the Incident.
 5. Ensuring that the Timeline section of the incident in the `post-incident` tab is accurate and complete with the start and end of the customer impact.
 6. Ensuring that the root cause is stated clearly and plainly in the incident description by updating the `causes` section in the `/incident summary`, or can be alternatively shared as an internal status update using the `:pushpin:` (📌) emoji or confidential follow-up if the root cause cannot be made public.
-7. After the incident is resolved, the Incident Lead should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity.
-8. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
+7. Ensure all follow-up items are properly documented and assign initial owners when possible.
+
+#### After the incident
+
+1. Review automatically created follow-up issues within one business day. Issues pasted into the incident channel are automatically linked as follow-ups, so it is possible some of these are not valid follow-up items.
+2. Verify each follow-up issue has appropriate context from the incident.
+3. Move follow-up issues from the [follow-up issues project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) to the correct project for the responsible team (typically this will be `gitlab-org/gitlab` or `production-engineering`.
+4. Apply appropriate labels such as team and group to follow-up issues.
+5. The Incident Lead should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity.
+6. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure-platforms/incident-review/#incident-review-process) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
 
 ### Incident Responder Responsibilities
 
@@ -387,10 +397,10 @@ Only issues arising out of an incident should receive the label `~"corrective ac
 They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
 Corrective Actions must be related to the incident issue to help with downstream analysis.
 
-Corrective Actions issues in the [Production Engineering project](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
+Corrective Actions issues in the [Production Engineering project](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/product-development/how-we-work/issue-triage/#severity-slos)
 
 Issues that have the `~"corrective action"` label will automatically have the `~"infradev"` label applied.
-This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/product-development/how-we-work/issue-triage/#severity-slos).
 For more details see the [infradev process](/handbook/product/product-processes/#infradev).
 
 ### Best practices and examples, when creating a Corrective Action issue
@@ -398,7 +408,7 @@ For more details see the [infradev process](/handbook/product/product-processes/
 - Use [SMART](https://en.wikipedia.org/wiki/SMART_criteria) criteria: Specific, Measurable, Achievable, Relevant and Time-bounded.
 - Link to the incident they arose from.
 - Assign a Severity label designating the highest severity of related incidents.
-- Assign a priority label indicating the [urgency](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) of the work. By default, this should match the incident Severity
+- Assign a priority label indicating the [urgency](/handbook/product-development/how-we-work/issue-triage/#priority) of the work. By default, this should match the incident Severity
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
@@ -440,7 +450,7 @@ The EOC will respond as soon as they can to the usage of the `@sre-oncall` handl
 
 ## Reporting an Incident
 
-If you are a GitLab team member and would like to report a possible incident related to GitLab.com and have the EOC paged in to respond, choose one of the reporting methods below. Regardless of the method chose, please stay online until the EOC has had a chance to come online and engage with you regarding the incident. Thanks for your help!
+If you are a GitLab team member and would like to report a possible incident related to GitLab.com, follow the instructions below to declare an incident. Please stay online until the EOC has had a chance to come online and engage with you regarding the incident. Thanks for your help!
 
 ### Report an Incident via Slack
 
@@ -456,15 +466,14 @@ _Incident Declaration Slack window_
 | Name | Give a short description of what is happening. If you'd like to, you can leave it blank and change it later |
 | Incident Type | Select the appropriate incident type: GitLab.com, Dedicated, SIRT, or Gameday depending on the service affected  |
 | Initial status | Choose "Active incident" if you've confirmed there's a problem and you'd like to investigate it right away, or "Triage a problem" for initial investigation |
-| Severity | If unsure about the severity, but you are seeing a large amount of customer impact, please select S1 or S2. More details here: [Incident Severity](#incident-severity). |
+| Severity | If unsure about the severity, but you are seeing a large amount of customer impact, please select S1 or S2. More details here: [Incident Severity](#incident-severity). The EOC is only paged automatically for S1 or S2. |
 | Summary (optional) | Provide your current understanding of what happened in the incident and the impact it had. It's fine to go into detail here |
-| Who should be able to see this incident? | Choose "Everyone (public)" - this means everyone in this Slack workspace will have access. Choose "Private" to mark the issue confidential - do this for all security related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). |
 
 ![Incident Declaration Results](/images/engineering/infrastructure/incident-management/incident-declare-results.png)
 
 _Incident Declaration Results_
 
-As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. incident.io will post links to all of these resources in the corresponding [incident announcement channel](#incident-announcement-channels). Please join the incident Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer.
+As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. incident.io will post links to all of these resources in the corresponding [incident announcement channel](#incident-announcement-channels). Please join the incident Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer. If you have declared an S3 or S4 and need EOC assistance, please escalate by typing `/inc escalate` into the Slack channel.
 
 ## Definition of Outage vs Degraded vs Disruption and when to Communicate
 
@@ -571,7 +580,7 @@ Definitions and rules for transitioning state and status are as follows.
 | Active | The incident is in progress and has not yet been mitigated.  **Note:** Incidents should not be left in an `Active` state once the impact has been mitigated |
 | Identified | The cause of the incident is believed to have been identified and **a step to mitigate has been planned and agreed upon**. |
 | Monitoring | The step has been executed and metrics are being watched to ensure that we're operating at a baseline. If there is a clear understanding of the specific mitigation leading to resolution and high confidence in the fact that the impact will not recur it is preferable to skip this state. |
-| Resolved | The impact of the incident has been mitigated and status is again Operational. Once resolved the incident can be [marked for review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions) can be defined.|
+| Resolved | The impact of the incident has been mitigated and status is again Operational. Once resolved the incident can be [marked for review](/handbook/engineering/infrastructure-platforms/incident-review/#incident-review-process) and [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions) can be defined.|
 
 Status can be set independent of state. The only time these must align is when an issues is
 
@@ -618,7 +627,7 @@ If assistance is required follow the [Infrastructure Liaison Escalation process]
 
 ### Summary
 
-The entire incident lifecycle is managed through incident.io. All `S1` and `S2` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#the-criteria-which-triggers-a-review).
+The entire incident lifecycle is managed through incident.io. All `S1` and `S2` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure-platforms/incident-review/#the-criteria-which-triggers-a-review).
 
 Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and resolved when the degradation has ended and will not likely re-occur.
 
@@ -670,6 +679,7 @@ Incidents can only be merged into open incidents, so if necessary you may need t
 ### Follow-up Issues
 
 GitLab issues are created automatically when a "Follow-up" is created in incident.io. Any GitLab issue can be added as a Follow-up item by pasting the link into the incident Slack channel.
+Follow-up items are created by default in the [incident-follow-ups project](https://gitlab.com/gitlab-com/gl-infra/incident-follow-ups/-/issues) and should be moved to the appropriate project after the incident is concluded.
 
 ### Workflow Diagram
 

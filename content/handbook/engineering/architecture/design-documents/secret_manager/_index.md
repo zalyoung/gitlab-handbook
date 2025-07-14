@@ -84,6 +84,8 @@ This blueprint does not cover the following:
 - [ADR-005: Non-hierarchical key structure for secrets in OpenBao](decisions/005_secrets_key_structure/)
 - [ADR-007: Use OpenBao as the secrets management service](decisions/007_openbao/)
 - [ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md)
+- [ADR-009: Request Flow & Architecture Diagrams](decisions/009_request_flows.md)
+- [ADR-010: Using Rails ActiveRecord for Secret Rotation Metadata](decisions/010_secret_rotation_metadata_storage.md)
 
 ### Superseded
 
@@ -294,19 +296,34 @@ the ACL policies.
 ### Secret and authentication hierarchy
 
 Design of OpenBao's mount path will greatly affect available security
-parameters. When encoding user values (`{value}`), we'll use URL-safe
-Base64: this lets us have a unique, canonical transformation of
-potentially non-path-safe components into individual path segments. For
-components with dynamic names (like user, organization, and group names),
-which aren't glob-aware and which are subject to renaming, we'll use their
-internal integer database identifiers to prevent having to rename the
-underlying mounts.
+parameters. When encoding user values (`{value}`), we'll use hex: this
+lets us have a unique, canonical transformation of potentially
+non-path-safe components into individual path segments. For components with
+dynamic names (like user, organization, and group names), which aren't
+glob-aware and which are subject to renaming, we'll use their internal
+integer database identifiers to prevent having to rename the underlying
+mounts if their human-readable path or name changes.
 
 #### Tenant definition
 
 We assume every project has a parent component: this is either a user, a
 group, or an organization. In the event of legacy groups with `org_id=1`
 we will use the owning group instead.
+
+To separate tenants, we will use [OpenBao namespaces](https://github.com/openbao/openbao/issues/787).
+These will be at the following levels:
+
+- `/{tenant}_{tenantid}`, to separate each tenant from the others as mentioned
+  below, and
+- `/{tenant}_{tenantid}/{scope}_{scopeid}`, to separate individual
+  secret scopes (such as groups or projects) within a tenant.
+
+At the top tenant level, namespaces may in the future have per-namespace
+[seal mechanisms](https://github.com/openbao/openbao/issues/1170), allowing
+multi-tenant crypto-key separation.
+
+The additional per-scope namespace allows us to achieve mount splitting and
+moving for [Cells](#cells).
 
 #### Secrets
 
@@ -318,23 +335,27 @@ We propose the following structure for mounts for user-owned projects:
 And for organization-owned projects:
 
 - `/org_{orgid}/secrets`
-- `/org_{orgid}/namespace_{nsid}/secrets`
+- `/org_{orgid}/{namespace}_{nsid}/secrets`
 - `/org_{orgid}/proj_{projectid}/secrets`
 
 For groups which use the existing group-based system, the top-level entity
 would be the parent group:
 
 - `/group_{groupid}/secrets`
-- `/group_{groupid}/namespace_{nsid}/secrets`
+- `/group_{groupid}/{namespace}_{nsid}/secrets`
 - `/group_{groupid}/proj_{projectid}/secrets`
 
 Here, the first `group_{groupid}` would be the top-most group-id, but would
 not be repeated for the nested sub-group secrets.
 
-`namespace_{nsid}` indicates a nested entity (whether a group, subgroup, or
+`{namespace}_{nsid}` indicates a nested entity (whether a group, subgroup, or
 user namespace within a top-level organization or group). With the eventual
 introduction of top-level organizations, if groups belong to orgid=1 meta-org,
 we'll use group-based tenant separation for these.
+
+Collectively, this path structure is referred to in the general template sense
+as `{tenant}_{tenantid}/{scope}_{scopeid}`, where `group`, `user`, and `org`
+are examples of tenants and `proj` and `group` are examples of scopes.
 
 Within each `secrets` folder, we'll initially mount a K/V secrets engine at
 `/kv`; eventually other types of secrets engines can also be mounted to
@@ -360,31 +381,26 @@ or environment), we suggest using `env-` and `branch-` as prefixes.
 
 #### Authentication
 
-Authentication uses five sets of mounts:
+Authentication uses three sets of mounts:
 
-- `/auth/user_{userid}/pipeline_jwt`
-- `/auth/group_{groupid}/pipeline_jwt`
-- `/auth/org_{orgid}/pipeline_jwt`
-- `/auth/user_jwt`
+- `/auth/{tenant}_{tenantid}/{scope}_{scopeid}/pipeline_jwt`
+- `/auth/{tenant}_{tenantid}/{scope}_{scopeid}/user_jwt`
 - `/auth/gitlab_jwt`
 
 In particular, because pipelines may need access to nested secrets, but
-won't need access to anything outside the tenant's scope, we will provision
-ACL policies and authentication at the top-most tenant namespace (`user_`,
-`group_` or `org_`). With namespaces, this will help with restricting the
-pipeline from escaping its sandbox and accessing other tenant's secrets;
-however, we rely on careful ACLs to protect access to other projects and
-secrets within the tenant namespace.
+won't need access to anything outside the particular scope, we will provision
+ACL policies and authentication at the scope namespace (`proj_` or `group_`).
+With namespaces, this will help with restricting the pipeline from escaping its
+sandbox and accessing other tenant's or scope's secrets.
 
-Later, user authentication can be added to each tenant
-(`/auth/org_{orgid}/jwt_user` or `/auth/group_{groupid}/jwt_user`) and the
-user can request scoped JWTs (and subsequent OpenBao tokens) so that they
-aren't requesting tokens with broad access beyond the scope they are modifying
-the secrets of.
+Later, user authentication can be added to each scope as well (such as at
+`/auth/org_{orgid}/project_{projectid}/user_jwt`) and the user can request
+scoped JWTs (and subsequent OpenBao tokens) so that they aren't requesting
+tokens with broad access beyond the scope they are modifying the secrets of.
 
 Aside: presently the order is auth and then tenant segment, but when adding
 proper namespace support, auth mounts could be inside of a tenant and thus
-the order will be swapped to e.g., `/user_{userid}/auth/pipeline_jwt`.
+the order will be swapped to e.g., `/user_{userid}/proj_{projectid}/auth/pipeline_jwt`.
 
 ##### GitLab Privileged JWT
 
@@ -410,48 +426,41 @@ and role (for users, when not using explicit grants) will grant access to
 specific subsets of secrets. These policies are maintained and stored in
 OpenBao, but GitLab Rails is tasked with managing and provisioning them.
 
-Notably, no Rails-initiated [operations](decisions/008_no_database.md#types-of-operations) are expected
-to span multiple tenant contexts. This allows us to add per-namespace ACLs
-in the future and create smaller path->policy indices in the future.
-Furthermore, we can use nested paths to segment different policies and build
-per-segment indices, reducing the list operation overhead as well.
+Notably, no Rails-initiated [operations](decisions/008_no_database.md#types-of-operations)
+are expected to span multiple tenant contexts. This allows us to add
+per-namespace ACLs in the future and create smaller `path->policy` indices in
+the future. Furthermore, we can use nested paths to segment different policies
+and build per-segment indices, reducing the list operation overhead as well.
 
 For each policy, we'll present create a [group alias](https://openbao.org/api-docs/secret/identity/group-alias/)
 to allow a `groups_claim` on the Rails-issued JWT to select applicable ACL
-policies based. A [future enhancement](decisions/008_no_database.md#jwt-direct-profiles) will allow us
-to get rid of all but [glob-based group matches](decisions/008_no_database.md#group-alias-glob-matching).
+policies based. A [future enhancement](decisions/008_no_database.md#jwt-direct-profiles)
+will allow us to get rid of all but
+[glob-based group matches](decisions/008_no_database.md#group-alias-glob-matching).
 
 ##### Hierarchy of policies
 
-Policies will be prefixed by their tenant information (e.g., `user_{id}/`)
-until they are migrated to proper namespaces.
+Policies will be placed in their respective tenant (e.g., `user_{id}/`)
+and scope namespace (e.g., `user_{userid}/proj_{projectid}/`).
 
-For each project, we'll provision ACL policies prefixed with `project_{id}/`:
-this path separator component is an allowed character in policy names and
-allows us to use a [future extension](decisions/008_no_database.md#acl-list-prefix) to list just policies
-we are interested in and will let us reduce the size (and increase the
-relevance) of indices.
+In the future, hierarchical secrets can be supported by also supporting
+`group_{id}` and other constructs as top-level categories. With multi-tenant
+support, we'll have fewer top-level items (as they'll be explicitly bounded
+by the tenant and scope), making iterating over all such items easier.
+However, we'll usually have fairly few items within each scope. Hierarchical
+secrets will require the pipeline JWT be valid in multiple contexts (e.g.,
+at both the group and project level).
 
-Additionally in the future, hierarchical secrets can be supported by also
-supporting `group_{id}` and other constructs as top-level categories. With
-multi-tenant support, we'll have fewer top-level items (as they'll be
-explicitly bounded by the tenant), making iterating over all such items
-easier. However, we'll usually have fairly few items.
-
-Note that these do not necessary reflect the secret's path and only notate
-where ACL policies exist. Because tenant information will eventually be
-conveyed within a namespace (and the policies moved appropriately), we'll
-eventually end up with a secret-like ACL policy hierarchy.
-
-Each top-level segment essentially represents all access to a particular
-secrets management section of the UI: `project_{id}/`, `group_{id}/` &c.
+Note that these do not necessary reflect the secret's path (the contents of
+the ACL policy) and only notate _where_ ACL policies exist in OpenBao.
 
 ##### Pipeline ACL
 
 To restrict a pipeline's JWT token to only allowed paths, we'll use GitLab
-Rail to provision a just-in-time ACL policy for the pipeline and a JWT
-role tightly scoping to the [expected claims](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html#token-payload)
-from the existing CI/CD OIDC ID token integration.
+Rail to provision an ACL policy for the pipeline and a JWT role which allows
+templating of policies based on [token metadata](https://openbao.org/api-docs/auth/jwt/#acl-policy-templating-examples).
+In the future more granular authentication decisions can occur via use of
+the [CEL JWT policy engine](https://openbao.org/docs/rfcs/cel-jwt/).
 
 OpenBao's ACLs are directly [stored on disk](https://github.com/openbao/openbao/blob/7fca5c0baebd3f55254da06d26bc160f465a7e1a/vault/policy_store.go#L287-L345),
 with a [moderate cache](https://github.com/openbao/openbao/blob/7fca5c0baebd3f55254da06d26bc160f465a7e1a/vault/policy_store.go#L28-L29)
@@ -460,18 +469,14 @@ for recently-used policies. Policies are loaded and evaluated at
 meaning that if a pipeline ACL name is modified and reused, the latest
 version (at the time of the request) will win.
 
-Likewise, the [JWT auth method's login](https://openbao.org/api-docs/auth/jwt/#jwt-login)
-will require a role parameter to select the correct role for authentication.
-
-For naming roles, we suggest the format:
-
-- `project_{projid}`
+For naming roles, we suggest identifier `all-pipelines` as the because the
+auth mount is within the project scope.
 
 ###### Layout
 
-Within the `project_{id}/` top-level path segment, we'll provision an
-additional path segment, `pipelines/`, to separate pipeline-related
-policies for a project from other types of access.
+Within the `project_{id}/` scoped namespace, we'll provision an additional
+path segment, `pipelines/`, to separate pipeline-related policies for a
+project from other types of access.
 
 We create the following types of pipeline policies with Rails:
 
@@ -482,10 +487,13 @@ We create the following types of pipeline policies with Rails:
 
 A full path of an ACL would thus look like the following examples:
 
-- `project_12345/pipelines/global`,
-- `project_12345/pipelines/env/prod-*`,
-- `project_12345/pipelines/branch/release/*`, or
-- `project_12345/pipelines/combined/env/prod-*/branch/release/*`.
+- `pipelines/global`,
+- `pipelines/env/prod-*`,
+- `pipelines/branch/release/*`, or
+- `pipelines/combined/env/prod-*/branch/release/*`.
+
+These would be accessible under the namespace policy store at (for the sake
+of this example) `user_2341/project_12345/sys/policies/acl/:path`.
 
 Notably, the direct encoding of restriction to path allows for us to create
 groups with [the same encoding](decisions/008_no_database.md#group-alias-glob-matching), reducing the
@@ -498,19 +506,10 @@ segment and policies (`stages/{name}/global`) and each job in a stage could
 also have direct secret access (`stages/{name}/job/{name}/global`). Or, we
 could even support ANDing between stage, name, and the above restrictions
 (environment/branch) to support rather granular execution contexts for these
-jobs.
-
-When issuing a JWT, presently GitLab Rails will need to query relevant
-ACLs within a path and issue [a `groups_claim` field](https://openbao.org/api-docs/auth/jwt/#parameters-1)
-with all the relevant glob values from the ACL list. However, with the
-mentioned glob enhancements, GitLab Rails should be able to directly compute
-these without requiring a lookup from OpenBao as this information already
-appears [on the `id_token`](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html).
-
-The one exception is that the future enhancement for direct explicit grant
-(by stage/job name) does not yet exist on the id token and thus cannot
-be used for ACLing. However, this can easily be added as the information
-exists on the `Ci::Build` object (`stage` and `name` fields).
+jobs. Note that this information (stage/job name) does not yet exist on the
+id token and thus cannot be used for ACLing. However, this can easily be
+added as the information exists on the `Ci::Build` object (`stage` and
+`name` fields).
 
 ###### Contents
 
@@ -521,17 +520,21 @@ allowed.
 
 For example, if any pipeline running with an `env/prod-<DATE>` context is to
 have access to the production database credentials, we will create a policy
-named `user_12345/project_54321/pipelines/env/prod-*` with the contents:
+named `pipelines/env/prod-*` with the contents:
 
 ```hcl
-path "user_12345/project_54321/secrets/kv/data/explicit/PROD_DB_PASS" {
+path "secrets/kv/data/explicit/PROD_DB_PASS" {
     capabilities = [ "read" ]
 }
 ```
 
+as the path to the namespace is
+[implicitly appended by OpenBao](https://github.com/openbao/openbao/blob/fork-point/vault/policy.go#L401-L402).
+
 Notably, because a pipeline will have multiple contexts which might provision
 different ACL policies, we'll eventually want to implement something similar
-to [policy unions](decisions/008_no_database.md#policy-unions).
+to [policy unions](decisions/008_no_database.md#policy-unions) or a similar
+solution [with CEL](https://openbao.org/docs/rfcs/cel-best-practices/).
 
 ##### User ACL
 
@@ -588,7 +591,7 @@ For both roles and direct access, there are two types of grants:
 For the former, the policies might look like:
 
 ```hcl
-path "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+" {
+path "secrets/kv/data/explicit/+" {
     capabilities = [ "sudo", "create", "update", "patch", "delete", "list" ]
 }
 ```
@@ -596,7 +599,7 @@ path "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+" {
 for read-write access and
 
 ```hcl
-path "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+" {
+path "secrets/kv/data/explicit/+" {
     capabilities = [ "list" ]
 }
 ```
@@ -606,14 +609,14 @@ for view-only access.
 For the latter (specific grants), the policies might look like the above,
 just with explicit names in them (e.g., `DB_PASS_PROD`).
 
-When accessing a secrets management page, GitLab Rails will issue a JWT
-to the user which will contain the relevant `groups_claims` to groups with
-specific policies within the project. Notably, this will not delay load:
-this token will only be used by the user to set specific secrets, though
-a similar JWT and secret could be used on the GitLab Rails' backend to
-render the initial page. The assumption here being the Rails->OpenBao
-interconnect is faster than User->OpenBao and potentially Rails could
-have caching of user or secret lists.
+When accessing a secrets management page, GitLab Rails will internally issue
+a JWT with the associated user's details which will contain the relevant
+`groups_claims` to groups with specific policies within the project. Rails
+will subsequently use this JWT internally for access to OpenBao, effectively
+limiting the scope of access to just what the user can see. In the future,
+since OpenBao is externally accessible, this token could be given to the user
+for direct provisioning of the underlying secret without GitLab Rails needing
+access to it.
 
 ##### Modifying ACL policies
 
@@ -628,7 +631,7 @@ without pulling in another dependency or building our own parser.
 For example, the policy in HCL:
 
 ```hcl
-path "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+" {
+path "secrets/kv/data/explicit/+" {
     capabilities = [ "list" ]
 }
 ```
@@ -638,7 +641,7 @@ would be equivalent to the following JSON:
 ```json
 {
     "path": {
-        "org_{orgid}/project_{projectid}/secrets/kv/data/explicit/+": {
+        "secrets/kv/data/explicit/+": {
             "capabilities": [
                 "list"
             ]
@@ -647,7 +650,8 @@ would be equivalent to the following JSON:
 }
 ```
 
-This becomes much easier for GitLab Rails to query and update.
+This becomes much easier for GitLab Rails to query and update. See relevant
+[OpenBao documentation](https://openbao.org/docs/concepts/policies/#policy-syntax).
 
 ### Static vs Dynamic Secrets
 
@@ -703,11 +707,7 @@ OpenBao is the source of truth for:
 ### GitLab Rails
 
 GitLab Rails would be the main interface that users would interact with when
-managing secrets using the Secrets Manager feature. We would not provision
-direct user access to the underlying OpenBao instance and thus OpenBao's
-[lack of a UI](https://openbao.org/docs/release-notes/2-0-0/#200) would not
-impact us: we wish to provide a more native, integrated UI than redirection
-through OpenBao's UI would provide.
+managing secrets using the Secrets Manager feature.
 
 This component is a facade to OpenBao server, initiating several requests and
 workflows to OpenBao:
@@ -749,6 +749,8 @@ where the majority of the GitLab backend code executes; and
 a background job processor to allow long-lived background operations (such
 as initial provisioning of OpenBao and secret engine mounts).
 
+See [ADR 009](decisions/009_request_flows.md) for more request flow diagrams.
+
 #### Management of secrets
 
 Because OpenBao remains the source of truth for many decisions, GitLab can
@@ -778,10 +780,12 @@ instance. Parent subgroups and the namespace can then be queried.
 
 #### Management of authentication
 
-GitLab Rails needs to issue two types of JWTs:
+GitLab Rails needs to issue three types of JWTs:
 
 1. JWTs within the scope of a project for a particular pipeline execution.
 1. JWTs for user authentication.
+1. JWTs for its own privileged operations, such as creating policies or
+   mounts.
 
 GitLab already supports issuance of both JWT types through its OIDC
 for [CI/CD](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html)
@@ -825,20 +829,20 @@ protected through either a [Shamir's derived AES key](https://openbao.org/docs/c
 
 #### Storage backend
 
-OpenBao on Runway will initially be deployed with the Postgres engine. This
-is a sane default for self-hosted as well, as GitLab Rails already requires
-a database and can create tables in it. However, support for the more widely
-deployed Raft backend can also be added in the future fairly easily.
+OpenBao on Runway will initially be deployed with the
+[PostgreSQL engine](https://openbao.org/docs/configuration/storage/postgresql/).
+This is a sane default for self-hosted as well, as GitLab Rails already
+requires a database and can create tables in it. However, support for the
+more widely deployed Raft backend can also be added in the future fairly
+easily.
 
 #### Seal mechanisms
 
-For GitLab.Com deployments, OpenBao will use the GCP KMS auto-unseal
-mechanism. For self-hosted environments, if an existing supported KMS
-mechanism is not provided, we can use the Shamir seal for MVC. Later
-improvements might include tying into the existing
-[secrets file](https://docs.gitlab.com/ee/administration/backup_restore/troubleshooting_backup_gitlab.html#when-the-secrets-file-is-lost)
-as an auto-unseal mechanism for OpenBao, supporting PKCS#11 seals,
-and multi-unseal capabilities (discussed below).
+For GitLab.Com deployments, OpenBao will use the
+[GCP KMS auto-unseal mechanism](https://openbao.org/docs/configuration/seal/gcpckms/).
+For self-hosted environments, if an existing supported KMS mechanism is not
+provided, we can use the [static seal](https://openbao.org/docs/configuration/seal/static/)
+tying into an environment-provided secrets manager like in Kubernetes.
 
 #### Audit logging
 
@@ -871,52 +875,76 @@ not performing any operations except forwarding requests to the primary.
 
 Notably, the semantics of Geo and OpenBao roughly align. We propose that Geo
 will need no additional enhancements to support GitLab Secrets Manager and
-that replication will be handled by the latter when using Raft.
+that replication will be handled by Geo when using PostgreSQL.
 
 On all front-end service nodes, we'll start the self-hosted OpenBao server
-instance. One node will be designated primary by OpenBao HA election:
-initially this will be a random node, but in the future we could let Geo
-inform OpenBao which site is designated primary and the leader election
-process could be changed. This node will use OpenBao's native HA
-capabilities: standby nodes will proxy all operations (initially, later
-serving read requests) to the active OpenBao instance.
-
-With the Raft storage backend, each front-end node will have local storage
-it can use for placing Raft's underlying [`bbolt`](https://openbao.org/docs/internals/integrated-storage/#writing-logs)
-K/V store. In the event of an even number of nodes in the primary site, we
-will proactively designate one node to be a [non-voter node](https://github.com/openbao/openbao/issues/578).
-From Geo's information, we'll populate all node's [`retry_join`](https://openbao.org/docs/configuration/storage/raft/#retry_join-stanza)
-configurations with reference to the other nodes for discoverability.
-In the future, we can also designate non-primary sites to be non-voter nodes
-as well. The number of sites or latency of replication will thus not impact
-the latency of writes in the general case.
-
-With the PostgreSQL storage backend, we can rely on Geo's existing replication
-of the PostgreSQL backend and no additional changes will be necessary.
+instance. One node will be designated primary by OpenBao HA election: this
+is a random node on the primary site as the secondary Geo sites will have
+a read-only PostgreSQL replica which cannot acquire the OpenBao lock.
 
 When runners contact the OpenBao instance, if their request does not hit the
 active node, OpenBao will route the request through its GRPC request forwarding
-mechanism.
+mechanism. This means it should work with the existing OpenBao HA support
+regardless of whether it hits a Geo Primary or Secondary site.
 
 In the event of a failover, Geo will be able to bring up the new site
-designated as primary and data will already have been replicated, either
-through PostgreSQL's replication or through Raft's synchronization process.
-In the future and in the case of the latter, Rails, via Geo's indication, will
-update the node's Raft configuration to no longer be non-voter and restart the
-node so a new leader is elected. In the event of later improvements to
-Postgres backend to indicate desired leadership status, a similar change could
-be applied there as well when a site's status changes. This will also help to
-align the definitions of primary sites between Geo and OpenBao.
+designated as primary (due to the PostgreSQL database being marked writable)
+and data will already have been replicated (via PostgreSQL replication)
+without configuration changes to OpenBao.
 
-The net result is that Geo is not responsible for data replication for
-OpenBao, but is still used as a source of leadership data so that a consistent
-customer experience is achieved.
+The net result is that Geo is responsible for data replication for OpenBao
+using a known PostgreSQL database (unless the customer brings their own
+database) and OpenBao should integrate with Geo semantics.
 
-#### Cells and multi-replication zones
+#### Cells
 
-Initially we will support one logical OpenBao cluster per instance. In the
+Initially we will support one global OpenBao cluster per instance. In the
 future [with cells](/handbook/engineering/architecture/design-documents/cells/),
-we'd expect each tenant to cluster affinity:
+we'd expect each tenant to have cluster affinity. Each GitLab cell will have
+its own OpenBao cluster, as each cell will have its own local database (whether
+part of the central database or a secondary PostgreSQL instance for secrets
+manager). From an engineering PoV, all data is currently isolated within a
+project or group, which will live on exactly one Cell, so no cross-cell data
+access patterns exist. Cells integration is thus mostly operational.
+
+The biggest issue thus is supporting the ability to
+[migrate](/handbook/engineering/architecture/design-documents/cells/iterations/cells-1.5/)
+customers into the Cells architecture, to allow operators to rebalance Cells.
+This requires two pieces:
+
+1. Being able to [split](https://gitlab.com/gitlab-org/gitlab/-/issues/543014)
+   an existing organization or set of repositories with secrets.
+2. Being able to [move](https://gitlab.com/gitlab-org/gitlab/-/issues/543001)
+   an organization across various Cells.
+
+From discussion with the Tenant Scale team, we've opted to push this
+functionality into OpenBao; this spawned two upstream
+[RFCs](https://gist.github.com/cipherboy/d658f06b871d5bee0d9a5cd130b1173b)
+(federation of namespaces and cross-cluster namespace moves) to allow for
+near-zero-downtime migrations.
+
+Currently we focus just on running pipelines: as the organization is moving
+between Cells, [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12859)
+can first set up federation on all namespaces in the destination Cell,
+pointing back to the namespaces on the existing parent cell. This allows
+pipelines to seamlessly execute across either Cell and Rails to maintain
+read-only access to OpenBao via the use of
+[inline authentication](https://openbao.org/docs/rfcs/inline-auth/).
+
+After the rest of the organization has moved, Org Mover can then trigger the
+OpenBao data move. This will be handled by OpenBao via the cross-cluster
+namespace move RFC mentioned above. When completed, Org Mover or Rails will
+then be able to finalize the move, enabling the cloned namespace on the
+destination Cell's OpenBao instance and removing the namespace off of the
+original source Cell's OpenBao instance (potentially leaving reverse
+federation intact on the source cell instance to allow any straggling jobs to
+continue to talk to the namespace on the new OpenBao instance).
+
+To support splitting, we introduce additional namespaces in OpenBao: rather
+than a single namespace at the GitLab tenant level, each scope of secrets
+(project or group) will also have its own namespace, meaning namespaces are
+never split and are kept atomic. This approach is reflected in the above
+hierarchy.
 
 #### Required enhancements
 
@@ -946,6 +974,12 @@ secrets encrypted using a combination of mechanisms, as they only encrypted
 entry is the root key.
 
 ##### Multi-tenancy through namespaces
+
+This landed [in OpenBao v2.3.0](https://github.com/openbao/openbao/releases/tag/v2.3.0).
+
+<details>
+
+<summary>Legacy explanation of OpenBao namespaces</summary>
 
 In the current design document, separate tenants' secrets would be encrypted
 using the same barrier encryption keys. This means compromise of a single
@@ -984,21 +1018,38 @@ plugin multiplexing within a namespace. When coupled with external runners
 for plugins, such as a container or cgroups, we could further isolate tenants
 data in memory.
 
-##### Chosen leader and Raft updates
+</details>
+
+##### Chosen leader
 
 When working in a Geo cluster, we'd ideally like the OpenBao primary node
 to align with the Geo cluster's definition of the primary site. We'll want
-update OpenBao to give a suggested leader or add non-leader/voter status to
-nodes on secondary sites.
+update OpenBao to give non-voting status on a PostgreSQL read-only replica
+so that the secondary site's OpenBao does not attempt to become the leader.
 
-### Packaging and deployment
+This is proposed in [an upstream PR](https://github.com/openbao/openbao/pull/1284).
 
-OpenBao maintains an upstream [Helm chart](https://github.com/openbao/openbao-helm)
-that can be used for deploying OpenBao in a Kubernetes environment. This can
-be referenced and configured from the [GitLab Helm chart](https://docs.gitlab.com/charts/)
-as required.
+### Backup and Restore
 
-For self-hosted, OpenBao server will also be executed by GitLab Rails.
+Backup and restore of this solution boils down to two aspects:
+
+1. Database
+2. Seal mechanism
+
+Because of [our choice of PostgreSQL](#storage-backend) as the storage
+backend, refer to your database provider's [documentation](https://www.postgresql.org/docs/current/backup.html)
+for backup and restore of the database. For instance, on Runway this
+[is performed automatically](https://docs.runway.gitlab.com/runtimes/cloud-run/reference/blueprints/cloudsql-for-postgres/#backup-for-an-instance).
+
+In the case of an external auto-unseal mechanism, refer to the provider's
+documentations. For the case of using the `static` auto-unseal mechanism
+transparently with Kubernetes secrets, refer to your Kubernetes secrets
+manager provider documentation.
+
+The combination of database and seal backup is sufficient to backup and
+restore OpenBao due to the use of [transactions](https://openbao.org/docs/rfcs/transactions/).
+
+After a restore, restart the OpenBao service to pick up the new data.
 
 ### Use case studies
 

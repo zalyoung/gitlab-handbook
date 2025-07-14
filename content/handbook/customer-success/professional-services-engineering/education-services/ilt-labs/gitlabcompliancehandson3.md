@@ -1,5 +1,5 @@
 ---
-title: "GitLab Compliance - Repository Control"
+title: "GitLab Compliance - Hands-On Lab: Repository Control"
 description: "This Hands-On Guide demonstrates how to control repository access and modification."
 ---
 

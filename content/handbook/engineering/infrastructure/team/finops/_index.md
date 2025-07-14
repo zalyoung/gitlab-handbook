@@ -8,6 +8,7 @@ The [FinOps function](../../../../../job-families/engineering/infrastructure/sit
 |--|--|
 | GitLab Handle | @tonyganga |
 | Issue Tracker | [FinOps Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/boards/5046766) |
+| Framework Board | [FinOps Framework Activities](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/boards/5046766?group_by=epic) |
 | Slack | [#g_finops](https://gitlab.enterprise.slack.com/archives/C05KWUER6SV) |
 
 ## Our Core Responsibilities

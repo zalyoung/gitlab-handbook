@@ -140,46 +140,9 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
   - [GitLab secrets SAST analyzer](https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-rules)
   - [Tokinator](https://gitlab.com/gitlab-com/gl-security/appsec/tokinator/-/merge_requests/125)
 
-### Pseudo code implementation
+### Implementation
 
-Each different tokens can encode different `id` for the need of the specific
-token. Here we're using personal access token as an example, which we encode
-the following ids:
-
-- Cell id
-- Organization id
-- User id
-
-Pseudo code for generating a routable token for personal access token:
-
-```ruby
-TOKEN_VERSION = 1
-TOKEN_VERSION_LENGTH = 2
-RANDOM_BYTES_LENGTH = 16
-BASE64_PAYLOAD_LENGTH_HOLDER_BYTES = 2
-CRC_BYTES = 7
-
-def generate_routable_token(user)
-  params = {
-    c: Gitlab.cell.id.to_s(36),
-    o: user.organization_id.to_s(36),
-    u: user.id.to_s(36)
-  }
-
-  routing_payload = params.sort.map { |k,v| "#{k}:#{v}" }.compact_blank.join("\n")
-  base64_payload = Base64.urlsafe_encode64("#{SecureRandom.random_bytes(RANDOM_BYTES_LENGTH)}#{routing_payload}#{[routing_payload.size].pack("C")}", padding: false)
-  base64_payload_length = base64_payload.size.to_s(36).rjust(BASE64_PAYLOAD_LENGTH_HOLDER_BYTES, '0')
-  token_version = TOKEN_VERSION.to_s(36).rjust(TOKEN_VERSION_LENGTH, '0')
-  checksummable_payload = "#{PersonalAccessToken.token_prefix}#{base64_payload}.#{token_version}.#{base64_payload_length}"
-  crc = Zlib.crc32(checksummable_payload).to_s(36).rjust(CRC_BYTES, '0')
-
-  "#{checksummable_payload}#{crc}"
-end
-```
-
-Note that we encode integers into base36 strings to shorten the length of the eventual token.
-It's also the reason why we're using raw random bytes instead of encoding them
-in text. Users do not need to look at the random bytes and we encode the eventual token in base64 anyway.
+Current implementation can be found at <https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/authn/token_field/generator/routable_token.rb>.
 
 ### Minimum token length
 

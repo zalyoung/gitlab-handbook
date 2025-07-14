@@ -24,6 +24,15 @@ This page exists primarily as a quick-reference, linking to sources of truth and
 
 > **Important:** All issues for Customer Support Operations should be created in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker).
 
+## Self-Service Options
+
+Before creating an issue, check if your request can be self-serviced. The following items can be handled directly by Support team members:
+
+- **Zendesk Managed Content** - Updates to macros, triggers, and other Zendesk content can be managed directly by Support team members with manager approval. See: [Working on Zendesk Content](/handbook/support/workflows/working-on-zendesk-content/)
+- **Support Team YAML Files** - Changes to support team configuration files can be made through direct merge requests. Customer Support Operations must approve to merge. See: [Support Team YAML Files](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files/)
+
+> **Note:** If an issue is opened for something that could have been self-serviced, the issue will be closed with instructions on how to self-serve the change. If you need help, reach out in `#support-operations` and we can guide you through!
+
 ## Workflows
 
 ### Ticket where customer is asking for support portal changes
@@ -36,21 +45,21 @@ For general questions and assistance, reach out via the [support_operations Slac
 
 ### Basic Issue Flows
 
-All requests for Customer Support Operations should be created in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker) using the appropriate template.
+All requests for Customer Support Operations should be created in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker) using the appropriate template. With the exception of a few [self-service options](#self-service-options), nearly everything starts with an issue!
 
 If what you want to get done is:
 
-* On the roadmap? *Create a [Feature Request issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)!*
-* Not on the roadmap, but seems easy? *Create a [Feature Request issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)!*
-* Maybe easy, but maybe hard? I definitely know what I want though. *Create a [Feature Request issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)!*
-* Reporting a bug? *Create a [Bug Report issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)!*
-* ... well, actually, I don't totally know yet. *Create an RFC issue in `support-team-meta`* (or work otherwise within the [Change Management in GitLab Support](/handbook/support/managers/change-management/) framework)
+- On the roadmap? *Create a [Feature Request issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)!*
+- Not on the roadmap, but seems easy? *Create a [Feature Request issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)!*
+- Maybe easy, but maybe hard? I definitely know what I want though. *Create a [Feature Request issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)!*
+- Reporting a bug? *Create a [Bug Report issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)!*
+- ... well, actually, I don't totally know yet. *Create an RFC issue in `support-team-meta`* (or work otherwise within the [Change Management in GitLab Support](/handbook/support/managers/change-management/) framework)
 
 If you're creating an issue, the Customer Support Operations team expects that:
 
-* **You're empowered to make decisions**. That is, you're a DRI at the appropriate level to steward your change or you've been delegated that responsibility by an appropriate DRI.
-* **You're responsive.** You're prioritizing working on the thing you want so that it can be shipped on time, and to spec.
-* **You'll be ready to validate and sign off.** When Support Operations deploys something to staging, you need to be ready to test (or delegate / organize testing) and sign off on acceptability before it can go live in production.
+- **You're empowered to make decisions**. That is, you're a DRI at the appropriate level to steward your change or you've been delegated that responsibility by an appropriate DRI.
+- **You're responsive.** You're prioritizing working on the thing you want so that it can be shipped on time, and to spec.
+- **You'll be ready to validate and sign off.** When Support Operations deploys something to staging, you need to be ready to test (or delegate / organize testing) and sign off on acceptability before it can go live in production.
 
 More about [Working with Customer Support Operations](/handbook/security/customer-support-operations/#working-with-us).
 
@@ -94,19 +103,19 @@ First, check the [Customer Support Operations System Criticality Sheet](https://
 
 1. Start by posting in the [#support-operations](https://gitlab.slack.com/archives/C018ZGZAMPD) Slack channel (during [Global Support Hours](https://about.gitlab.com/support/#hours-of-operation))
 2. Wait for a response. Continue down this list if you get no response for:
-   * 24 hours for issues with Administrative systems 
-   * 8 hours for issues with Business Operational systems
-   * 30 minutes for issues with Business Critical Systems
-   * 10 minutes for issues with Mission Critical Systems
+   - 24 hours for issues with Administrative systems 
+   - 8 hours for issues with Business Operational systems
+   - 30 minutes for issues with Business Critical Systems
+   - 10 minutes for issues with Mission Critical Systems
 3. [Create a new PagerDuty incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service (See: [Support Operations On-Call Workflow](/handbook/security/customer-support-operations/workflows/support_operations-on-call))
 4. Be available to work with the on-call to develop a plan to resolve the problem
 
 When creating an incident issue, include:
 
-* Clear description of what's happening
-* Impact on users/customers
-* Any error messages or screenshots
-* Steps you've already taken to troubleshoot
+- Clear description of what's happening
+- Impact on users/customers
+- Any error messages or screenshots
+- Steps you've already taken to troubleshoot
 
 More about [how Customer Support Operations handles incidents](/handbook/security/customer-support-operations/workflows/incidents/).
 

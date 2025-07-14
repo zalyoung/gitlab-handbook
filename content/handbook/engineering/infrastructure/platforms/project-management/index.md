@@ -94,7 +94,7 @@ We also work on corrective actions and security issues labeled as `~"corrective 
 For these issues, `severity::*` labels are set to meet specific SLOs.
 
 - For security issue see the [Time to resolve table by severity](/handbook/security/#severity-and-priority-labels-on-security-issues)
-- Corrective Actions SLOs are currently based on definitions from [Quality](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos):
+- Corrective Actions SLOs are currently based on definitions from [Quality](/handbook/product-development/how-we-work/issue-triage/#severity-slos):
 
 ## Labels
 
@@ -102,8 +102,8 @@ The Infrastructure Platform teams uses the following set of labels:
 
 | Description | Labels |
 |-------------|--------|
-| The section label | `devops::data_access` <br/>`group::GitLab Dedicated` <br/>`devops::gitlab-delivery`<br/> `devops::developer experience` <br/>`group::Production Engineering`<br/> `devops::tenant scale` <br/>  |
-| The team label | `group::durability` <br/> `group::gitaly` <br/> `group::git` <br/> `group::database frameworks` <br/> `group::database operations` <br/> `team::Observability` <br/> `team::runway` <br/> `team::Foundations` <br/> `team::Ops`  <br/> `group::Self Managed` <br/> `group::build` <br/> `group::framework` <br/> `group::delivery-deploy` <br/> `group::delivery-release` <br/> `team::Environment Automation` <br/> `team::Switchboard` <br/> `team::US PubSec` <br/> `group::developer tooling` <br/> `group::development analytics` <br/> `group::feature readiness` <br/> `group::performance enablement` <br/> `group::test governance` <br/> `group::cells infrastructure` <br/> `group::organizations` <br/> `group::geo`|
+| The section label | `devops::data_access` <br/>`group::GitLab Dedicated` <br/>`devops::gitlab-delivery`<br/> `devops::developer experience` <br/>`devops::Production Engineering`<br/> `devops::tenant scale` <br/>  |
+| The team label | `group::durability` <br/> `group::gitaly` <br/> `group::git` <br/> `group::database frameworks` <br/> `group::database operations` <br/> `group::Observability` <br/> `group::runway` <br/> `group::Foundations` <br/> `group::Ops`  <br/> `group::Runners Platform`  <br/> `group::Self Managed` <br/> `group::build` <br/> `group::framework` <br/> `group::delivery-deploy` <br/> `group::delivery-release` <br/> `team::Environment Automation` <br/> `team::Switchboard` <br/> `group::US PubSec` <br/> `group::developer tooling` <br/> `group::development analytics` <br/> `group::feature readiness` <br/> `group::performance enablement` <br/> `group::test governance` <br/> `group::cells infrastructure` <br/> `group::organizations` <br/> `group::geo`|
 | Scoped `workflow-infra::*` labels | (see below) |
 | Optional Scoped `Service` labels | `Service::*` |
 
@@ -134,7 +134,7 @@ There are three other workflow labels of importance:
 
 ### Labels in gitlab-org group
 
-Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
+Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) to label merge requests in projects in the `gitlab-org` group.
 If you need a stage group to perform work, it is best to apply the relevant stage group label when the issue is created.
 
 ## Issue Trackers

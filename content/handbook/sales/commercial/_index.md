@@ -492,9 +492,9 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 
 ### Mid Market Roles
 
-1. **MM Key Accounts First Order AE** (MMKAFO): These AEs work on the highest potential accounts that are not currently customers of GitLab. Once the customer has signed its first contract, the customer is transitioned to a MM Key Account Named AE. However, if an account is won by this team and is deemed to be low potential it will be passed to a MM Territory AE. The rough guideline for these accounts is more than 500 employees total and more than 100 combined employees in engineering and IT. We don't refer to MM First Order accounts as "Named Accounts", because First Order accounts can either go to Named or Territory AEs.
+1. **New Logo AE**: These AEs work on the [Base Accounts](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#base-prospect-accounts) that are not currently customers of GitLab. Once the customer has signed its first contract, the customer is transitioned to the SMB, MM, or ENT segment depending on the size of the customers.
 1. **MM Key Accounts Named AE** (MMKAN): These AEs work on current customers that have been deemed to be high spending (high CARR) or have the potential to be high spending (high LAM). To be successful the MMKAN AE must expand their accounts more than the standard expansion rate for their named list of accounts. The named list for each MMKAN AE will grow through the fiscal year as the MMKAFO AE wins new high potential customers.
-1. **MM Territory AE**: These AEs work geographic regions of accounts that have not been vetted to be MM Key Account First Order AE or MM Key Account named AE. The role sells to both prospects and current accounts.
+1. **MM Territory AE**: These AEs work geographic regions of accounts that have not been vetted to be New Logo AE or MM Key Account named AE. The role sells to both prospects and current accounts.
 
 "MM Key Accounts" can be used to refer to MM Key Accounts First Order and MM Key Accounts Named collectively. MM Key Accounts are the sub-set of MM accounts with a higher [LAM](https://internal.gitlab.com/handbook/sales/lam/) and potential LAM.
 
@@ -667,34 +667,47 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 - List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/s/articleView?language=en_US&id=reports_schedule.htm&type=5)
 - Channel Partner Finder **[Here](https://partners.gitlab.com/English/directory/)
 
-#### Mid-Market First Order Account Handoff and Named/Territory Collaboration Process
+#### New Logo Team
 
-After the first transaction is closed by the MMKAFO team, the First Order AEs are responsible to kickstart the handover process. Below are the responsibilities of the Mid-Market Key Account First Order team and the Mid-Market Key Account Named team.
+The New Logo Team is a specialized sales team within GitLab’s High Velocity Sales & New Logo organization focused on closing first-order deals in MM & ENT accounts.
+After the first transaction is closed by the New Logo team, the New Logo AEs are responsible to kickstart the handover process. Below are the responsibilities of the New Logo team and the Mid-Market Key Account Named team.
 
-**When to Pass an Account to Named / Territory**
-Mid-Market First Order AEs will own an account until the customer has a working license. Once this happens, the handover process will commence.
+**When to Pass an Account Mid-Market or Enterprise**
+New Logo AEs will own an account until an account becomes a paid customer. Once this happens, the account will graduate into their respective segment (SMB, MM, or ENT). 
 
 ### Handover Process
 
-**First Order AE Responsibilities**
+**New Logo AE Responsibilities**
+
+Please refer to the [New Logo Team Playbook](/handbook/sales/commercial/high_velocity_sales_first_orders/#new-logo-team-playbook) for additional information about the role and responsibilities.
 
 1. Ensure the opportunity is marked as 'Closed-Won'.
 1. Ensure the customer has a working license.
-1. Log an activity (naming convention: [FO AE NAME] FO Account Summary for Handoff)  on the account level detailing the following:
+1. Log an activity (naming convention: [NL AE NAME] NL Account Summary for Handoff)  on the account level detailing the following:
     - Why the account chose GitLab (use case)
     - The expected NetARR to be sold in the next 12 months
     - Estimated timeframe of the next purchase
     - Why you believe b and c to be the case
 1. Work with the Named or Territory AE, the CSM (if known), and the customer to set up a handoff call
-    - First Order AE should take the lead on scheduling this call
-        - **Note** : Should the FO Rep and Named or Territory AE agree ahead of time that an email introduction will suffice, then the team can bypass the handoff call.
-1. If the initial amount AND the potential of the next opportunity are less than a combined NetARR of $10,000, or the inheriting AE agrees,a handoff email can be used.
-1. Ensure all material like custom decks are editable by everyone.
+    - New Logo AE should take the lead on scheduling this call
+        - **Note** : Should the NL Rep and Named or Territory AE agree ahead of time that an email introduction will suffice, then the team can bypass the handoff call.
+1. If the initial amount AND the potential of the next opportunity are less than a combined NetARR of $10,000, or the inheriting AE agrees, a handoff email can be used.
+1. Ensure all material like custom decks are added into a dedicated customer sub-folder in the [Customers & Prospects](https://drive.google.com/drive/u/0/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q) drive.
+    - Create a sub-folder in one of the folders labeled A-Z based on the first letter of the customer account name. (Example: Acme Inc. would go in the folder labeled "A")
+    - Add all customer facing or internal documents related to that customer into the folder. This way the entire Account Team will be able to view all related content.
 1. For Web Directs without prior engagement :There will be no handover as the FO AE has not had any engagement.
+
+**Digital Sales Room**
+
+A Digital Sales Room is a secure, personalized webpage where AEs can share curated content, collaborate with prospects, and track buyer engagement throughout the sales process. It centralizes all sales materials, presentations, and communications in one branded space, eliminating scattered emails and creating a seamless buyer experience.
+
+1. [Digital Rooms - Highspot Overview Training](https://gitlab.highspot.com/items/67081265d1af62a495629685)
+1. [Digital Rooms 101](https://gitlab.highspot.com/items/67606cf22323c30180af051f)
+1. [Engage Buyers with Digial Rooms](https://gitlab.highspot.com/items/66b5225141e9fc65e1ce60d7?lfrm=srp.0#/training/learner)
 
 **Named/Territory AE Responsibilities**
 
-1. Work with the First Order AE, CSM, and customer to schedule a handoff call (or email).
+1. Work with the New Logo AE, CSM, and customer to schedule a handoff call (or email).
     - The goal should be to have two-way communication with the customer within one week of the initial close.
     - If an email is used, the Named or Territory AE should respond at their earliest convenience to introduce themselves as the new primary point of contact
 1. Look at the account activities for the activity logged by the FO AE.
@@ -703,15 +716,9 @@ Mid-Market First Order AEs will own an account until the customer has a working 
 1. Engage the CSM on strategic accounts and get them engaged asap
 1. For Web Directs: It is the responsibility of the Named/Territory AE to reach out to the new customer.
 
-### Process to Move Accounts From First Order to Named/Territory
+### Process to Move Accounts From Base to Named/Territory
 
-1. Once the "First Order Available" box has been unchecked because a first order has taken place, the account will be batched to transfer to the appropriate Named or Territory AE with the nightly SalesForce update. This process should happen automatically.
-    - Europe Employee Threshold
-        - All accounts between 101-500 employees will be assigned to Territory AEs
-        - All accounts between 501-2000 employees will be assigned to Named AEs
-    - AMER Employee Threshold
-        - All accounts between 101-300 employees will be assigned to Territory AEs
-        - All accounts between 301-2000 employees will be assigned to Named AEs
+Please refer to the [Go-To-Market Rules of Engagement](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#salesforce-ownership--identifiers) page for additional information about account graduation for the New Logo Team.
 
 ### When to Consider Involving a Named or Territory AE Before the Initial Deal is Done
 
@@ -723,12 +730,12 @@ Mid-Market First Order AEs will own an account until the customer has a working 
 
 ## General Guidelines to Follow When Making this Consideration
 
-1. It is always the decision of the First Order AE to determine if an introduction should be made pre-contract signature, but there are some general best practices to follow if an introduction is to be made.
+1. It is always the decision of the New Logo AE to determine if an introduction should be made pre-contract signature, but there are some general best practices to follow if an introduction is to be made.
     - Ideally, pre-contract introductions would be limited to higher LAM accounts, so this does not become a scale issue.
         - >99 LAMDev for Key Accounts
         ->49 LAMDev for Territory Accounts
     - In an effort to not waste Named/Territory AEs time, an introduction should not be made unless there is a very high close percentage. Therefore, an introduction is best if made when the opportunity is in *stage 5 or 6*.
-1. Named/Territory AEs and First Order AEs should meet often (every other week on average) to identify accounts where a pre-contract introduction would make sense.
+1. Named/Territory AEs and New Logo AEs should meet often (every other week on average) to identify accounts where a pre-contract introduction would make sense.
 
 ## Commercial Leadership Development Pilot Program
 

@@ -8,7 +8,7 @@ We use [SentinelOne](https://www.sentinelone.com/) for endpoint (team member lap
 
 All macOS, Windows and Linux devices used by GitLab Team Members for the purposes of fulfilling the responsibilities of their role as a GitLab Team Member are required have the SentinelOne EDR agent installed and functioning.
 
-The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](/handbook/security/corporate/services/laptops/hardware#windows).
+The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](/handbook/security/corporate/end-user-services/laptop-management/#windows-for-customer-support-and-product-development).
 
 - `#sentinelone` Slack Channel
 - [SentinelOne Setup Guide](/handbook/security/corporate/systems/sentinelone/setup)
@@ -78,7 +78,7 @@ No. The EDR solution only monitors the GitLab laptop, like an antivirus solution
 
 If you wish to add further privacy and security to your home network, you can further isolate your work machine by creating a separate network for it.
 
-While we cannot provide you with any direct support for this type of network setup, see the [wireless networks](/handbook/security/corporate/services/laptops/security/networks) and [network isolation](/handbook/security/network-isolation) guides. [examples](/handbook/security/network-isolation/) that might help to get you started.
+While we cannot provide you with any direct support for this type of network setup, see the [wireless networks](/handbook/security/corporate/end-user-services/laptop-management/laptop-security/networks) and [network isolation](/handbook/security/network-isolation) guides. [examples](/handbook/security/network-isolation/) that might help to get you started.
 
 ### Third Party Vendor
 

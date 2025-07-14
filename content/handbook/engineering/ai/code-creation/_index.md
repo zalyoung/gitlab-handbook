@@ -15,7 +15,7 @@ Features/capabilities Code Creation owns today:
 Code Creation is also responsible for evaluations for each of these features which includes:
 
 - Creating datasets in LangSmith and registering them in the [Datasets repository](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/datasets/-/blob/main/doc/guidelines/register_dataset.md#registration-process)
-- Creating evaluators in [Eli5](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/tree/main/eli5?ref_type=heads)
+- Creating evaluators in [Centralized Evaluation Framework](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library)
 - Running evaluations 
 
 ## About Code Suggestions
@@ -98,3 +98,4 @@ The following members of other functional teams are our stable counterparts:
 1. [X-Ray Dependency Parsing Errors Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/a828978b-8f41-489a-9e3b-aa71937e25b9?_g=h@e98e959): Breakdown of parsing errors triggered by X-Ray dependency scanning (Kibana)
 1. [Metrics Dashboard](https://dashboards.gitlab.net/d/stage-groups-code_creation/stage-groups3a-code-creation3a-group-dashboard?orgId=1) (Grafana)
 1. [Error Budget](https://dashboards.gitlab.net/d/stage-groups-detail-code_creation/stage-groups-code-creation-group-error-budget-detail?orgId=1) (Grafana)
+1. [Duo Code Review Monitoring Dashboard](https://log.gprd.gitlab.net/app/r/s/xVFdB) - latency for summarize review, summary merge request, and Duo Code Review (DCR); error rates, metrics for DCR comments, DCR custom instructions, and more (Kibana)

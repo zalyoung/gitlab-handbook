@@ -58,6 +58,7 @@ them are as follows:
 **Requirements:**
 
 - Access to the node.
+  - SSH access is granted by adding public SSH key and `build` group access to the [Chef Repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo). See this [example account](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/17825ae3faefcbe9b6d80117d63cd1c17186fc51/data_bags/users/balasankarc.json).
 - Access to specific folders in [Chef Vault](https://vault.gitlab.net/).
 - Access to merge into master on the [ops chef repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo).
   This is not usually available to team members. So after opening an MR, get it

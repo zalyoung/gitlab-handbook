@@ -13,7 +13,6 @@ description: "Most of the content in the product handbook talks about _how_ we d
 
 - [Product Management](/handbook/product/product-management/)
 - [User Experience](/handbook/product/ux/)
-- [Product Technical Program Management](/handbook/product/groups/product-technical-program-management)
 
 ## Product Team Mission
 
@@ -81,10 +80,6 @@ Want to know more on what being a Product Manager at GitLab is like? Checkout ou
 ### **Product Performance Indicators**
 
 Learn how we measure success in Product via our [Product KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/product/), which are tracked in our [Product project](https://gitlab.com/gitlab-com/Product). For best practices and guidance on how to add instrumentation for features please review our [Analytics Instrumentation workflow](https://internal.gitlab.com/handbook/company/performance-indicators/product/#analytics-instrumentation-workflow).
-
-### **Product OKRs**
-
-Understand the OKR Process for the GitLab Product Team and review [current and past OKRs](/handbook/product/product-processes/product-okrs/).
 
 ### **Our Product Leadership Team**
 
