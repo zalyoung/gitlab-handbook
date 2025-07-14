@@ -150,6 +150,11 @@ You'll know AI is hurting when:
 
 ## How to Use AI Tools: Selection and Use Cases
 
+The following use cases demonstrate practical applications of AI tools in GitLab Support workflows. Each example includes the specific tool used and workflow context to help you identify similar opportunities in your own work.
+
+> [!important]
+> When using AI tools with customer data, follow GitLab's Data Classification Standard and select appropriate tools based on data sensitivity. See [Responsible AI use in customer tickets](#responsible-ai-use-in-customer-tickets) for guidelines on tool selection and data handling requirements.
+
 1. Ticket Summarization with ZenDuo
 
 Support Engineers can use [ZenDuo](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/zendesk/apps/#zenduo) (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
