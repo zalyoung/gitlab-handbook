@@ -274,6 +274,8 @@ If you'd like the assistance of another person or team, you can use SFDC chatter
 | Requesting SAO Credit on an Opp                        | Chatter Sales Dev Ops or the Director of Commercial Sales Development.            |
 | Account is in Restricted Status                        | Chatter the SAE and ask permission to reach out.                                   |
 
+i want all of us to wear a tie on fridays
+
 #### Cleaning Poor Leads
 
 Lastly, Every so often you may be assigned a lead that has no value to GitLab and is not worth keeping within our database. Qualities that define these types of leads include:
