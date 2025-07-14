@@ -9,4 +9,4 @@ GitLab offers technical certifications to help the GitLab community and team mem
 
 ### Available GitLab Certifications
 
-For the latest information on available certifications see **[Public GitLab Certifications](https://university.gitlab.com/certifications/public/)**.
+For the latest information on available certifications see **[Public GitLab Certifications](https://university.gitlab.com/pages/certifications)**.
