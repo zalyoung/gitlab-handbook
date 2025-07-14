@@ -80,6 +80,7 @@ To be able to access applications behind Okta (e.g. Slack, GMail, Calendar, etc)
         <ol type="i">
           <li><a href="https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios">Ensure that iOS is up-to-date</a></li>
           <li>Ensure that you have the <b>Password</b> app <a href="https://support.apple.com/en-gb/guide/iphone/iphf538ea8d0/ios">installed and activated in your system settings</a></li>
+            <li>Go to <b>Settings</b> > <b>General</b> > <b>AutoFill & Passwords</b> > ensure that <b>Set Up Codes In</b> should be using the <b>Passwords</b> app.</li>
           <li>Open the camera app and scan the QR code</li>
           <li>Select to save a passkey and follow the steps on your phone to save the passkey</li>
         </ol>
