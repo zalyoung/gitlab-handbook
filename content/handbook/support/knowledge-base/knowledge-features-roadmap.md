@@ -9,7 +9,7 @@ We have features and requests that are being addressed and considered as part of
 
 | Feature                                                                | Status          | Notes    |                                                                                   
 |:---------------------------------------------------------------------- |:----------------|:-------------------------------------------------------------------------------------------------|
-|Local Repository using Markdown. Sync Repository                        | Investigating   | discussions in place                                                                             |
+|Local Repository using Markdown. Sync Repository                        | Investigating   | [Feature Request 364](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/364)                                                                          |
 |Add Internal comments to articles. Currently dont have a way to add.    | Investigating   | [Issue 6883](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6883)              |
 |Update Search Fitlers /streamline. Default to Knowledge articles.       | Investigating   | To be built out                                                                                  |
 |Add Published articles to Slack. Provides notification of published     | Change Requested| [6925](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6925)                    |
