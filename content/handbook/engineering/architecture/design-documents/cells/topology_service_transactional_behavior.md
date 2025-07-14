@@ -1,3 +1,4 @@
+---
 title: "Topology Service Transactional Behavior"
 status: proposed
 creation-date: "2025-07-02"
@@ -18,7 +19,7 @@ This system implements a **distributed lease-based coordination mechanism** for 
 
 #### **1. Lease-First Coordination**
 The system follows a "lease-first, commit-later" pattern:
-- **Before** making any local changes, acquire a lease from the Topology Service
+- **Before** making any local changes, acquire a lease from the central Topology Service
 - **Only after** successful lease acquisition, proceed with local database operations
 - **After** local success, commit the lease to make changes permanent
 - **If anything fails**, rollback the lease to maintain consistency
@@ -148,6 +149,14 @@ sequenceDiagram
     Rails-->>User: Success - All models saved atomically
 ```
 
+### **Detailed Steps**
+
+1. **Pre-flight Validation**: Rails validates all models locally and generates batch claim requests
+2. **Lease Acquisition**: Single atomic transaction in Topology Service acquires leases for all claims
+3. **Local Database Transaction**: Rails saves all changes and creates lease tracking record
+4. **Lease Commitment**: Topology Service finalizes all claims and removes lease
+5. **Cleanup**: Rails removes local lease tracking record
+
 ### **Detailed Process Flow**
 
 #### **Phase 1: Pre-Flight Claims Acquisition**
@@ -174,12 +183,12 @@ Execute() → Single transaction → Database constraints + lease exclusivity en
 **What happens in Topology Service transaction:**
 1. **Lease Record**: Insert into `leases_outstanding` with full payload
 2. **Create Claims**: Insert new claims with `lease_op='create'` and the lease_id
-   - Primary key constraint on (scope, scope_value) prevents duplicates
+   - Primary key constraint on (claim_type, claim_value) prevents duplicates
    - **Constraint**: Creates must reference claims that don't exist in the system
 3. **Mark Destroys**: Update existing claims ONLY if `lease_id IS NULL` AND `cell_id` matches the requesting cell
    - Conditional update ensures no concurrent operations on same object AND only creator can destroy
    - **Constraint**: Destroys must reference claims that already exist and are owned by the requesting cell
-4. **Batch Validation**: Creates and destroys within a single batch cannot reference the same claim (scope, scope_value) as this creates irreconcilable state transitions
+4. **Batch Validation**: Creates and destroys within a single batch cannot reference the same claim (claim_type, claim_value) as this creates irreconcilable state transitions
 5. **Lease Exclusivity**: Objects with `lease_id != NULL` cannot be claimed by other operations
 6. **Atomic Success/Failure**: If any operation fails, entire transaction automatically rolls back
 
@@ -252,11 +261,11 @@ module CellsUniqueness
   extend ActiveSupport::Concern
 
   class_methods do
-    def cell_cluster_unique_attributes(*attributes, sharding_key_object:, claim_type:, owner_type:)
+    def cell_cluster_unique_attributes(*attributes, claim_type:, owner:, owner_type:)
       @cell_unique_config = {
         attributes: attributes,
-        sharding_key_object: sharding_key_object,
         claim_type: claim_type,
+        owner: owner,
         owner_type: owner_type
       }
     end
@@ -266,14 +275,14 @@ end
 # Example model implementation
 class Route < ApplicationRecord
   include CellsUniqueness
+  
+  self.cell_cluster_table_name = Gitlab::Cells::ClaimRecord::TableName::ROUTES
+  self.cell_cluster_table_record_id = :id
 
-  belongs_to :project, optional: true
-  belongs_to :group, optional: true
-
-  cell_cluster_unique_attributes :path, :name,
-    sharding_key_object: -> { project || group },
-    claim_type: Gitlab::Cells::ClaimType::Routes,
-    owner_type: :project
+  cell_cluster_unique_attributes :path,
+    claim_type: Gitlab::Cells::ClaimRecord::ClaimType::ROUTES,
+    owner: -> { project || group },
+    owner_type: -> { project ? Gitlab::Cells::ClaimRecord::Owner::PROJECT : group ? Gitlab::Cells::ClaimRecord::Owner::GROUP : Gitlab::Cells::ClaimRecord::Owner::UNSPECIFIED }
 end
 ```
 
@@ -357,6 +366,199 @@ end
 - **Exception Handling**: Local leases without corresponding TS leases indicate system issues
 - **Immediate Cleanup**: Leases are removed as soon as possible via Rails `after_commit`/`after_rollback` hooks
 
+## Topology Service Data Verification
+
+### **Overview**
+The data verification process ensures consistency between the Topology Service's global claim state and each cell's local database records. This is a cell-initiated process that runs periodically to detect and reconcile discrepancies.
+
+```mermaid
+flowchart TD
+    A[Scheduled Verification] --> B[For Each Model Class]
+    B --> C[List Claims from TS by Table]
+    C --> D[Process Claims in ID Ranges]
+    D --> E[Compare with Local Records]
+    E --> F[Identify Discrepancies]
+    F --> G[Filter Recent Records]
+    G --> H[Execute Corrections]
+    H --> I[Next Range]
+    I --> J{More Ranges?}
+    J -->|Yes| C
+    J -->|No| K[Next Model]
+    K --> B
+    K -->|Done| L[End]
+    
+    style A fill:#e1f5fe
+    style L fill:#e8f5e8
+    style G fill:#fff3e0
+    style H fill:#fff3e0
+```
+
+### **Core Verification Process**
+
+The system uses cursor-based pagination to fetch claims from TS in ID ranges, then compares them with local records using efficient hash-based matching. Three types of discrepancies are detected: missing claims in TS, different claim values, and extra claims in TS. Recent records (within 1 hour) are skipped to avoid correcting transient changes.
+
+### **Verification Service Implementation**
+```ruby
+class ClaimsVerificationService
+  CURSOR_RANGE_SIZE = 1000  # Records per TS request
+  LOCAL_BATCH_SIZE = 500    # Local records per batch
+  RECENT_RECORD_THRESHOLD = 1.hour  # Skip recent records
+  
+  def self.verify_all_claim_models(models_with_claims)
+    models_with_claims.each do |model_class|
+      verify_model_claims(model_class)
+    end
+  end
+  
+  def self.verify_model_claims(model_class)
+    topology_service = Gitlab::Cells::TopologyServiceClient.new
+    cursor = 0
+    
+    loop do
+      # Fetch claims from TS in cursor-based ranges
+      response = topology_service.list_claims(
+        ListClaimsRequest.new(
+          cell_id: current_cell_id,
+          table_name: model_class.cell_cluster_table_name,
+          cursor: cursor,
+          limit: CURSOR_RANGE_SIZE
+        )
+      )
+      break if response.claims.empty?
+      
+      # Process the returned ID range
+      process_claims_range(model_class, response.claims, response.start_range, response.end_range, config)
+      
+      cursor = response.next_cursor
+      break if cursor.nil?
+    end
+  end
+
+  def self.process_claims_range(model_class, ts_claims, start_range, end_range, config)
+    # Create hash map for O(1) claim lookups
+    mapped_ts_claims = ts_claims.to_h(&:method(:claim_key))
+    recent_threshold = Time.current - RECENT_RECORD_THRESHOLD
+
+    # Query local records matching the exact TS range
+    model_class.where(id: start_range...end_range).find_in_batches(batch_size: LOCAL_BATCH_SIZE) do |local_batch|
+      missing_ts_claims = []
+      different_local_claims = []
+      different_ts_claims = []
+
+      local_batch.each do |record|
+        # Skip recent records to avoid transient conflicts
+        next if record_is_recent?(record, recent_threshold)
+
+        model_class.cell_claim_attributes.each do |claim_attributes|
+          # Generate expected claim from local record
+          claim_record = record.generate_claim_record(claim_attributes)
+          
+          # Look up and remove from hash (tracks processed claims)
+          ts_claim_record = mapped_ts_claims.delete(claim_key(claim_record))
+
+          if ! ts_claim_record
+            # Missing in TS: local exists, no TS claim
+            missing_ts_claims << claim_record
+          elsif ! claim_records_match?(claim_record, ts_claim_record)
+            # Different: both exist but data differs
+            next if ts_claim_is_recent?(ts_claim_record, recent_threshold)
+            
+            different_local_claims << claim_record
+            different_ts_claims << ts_claim_record
+          end
+          # If match exactly, no action needed
+        end
+      end
+
+      # Execute corrections in batches
+      if missing_ts_claims.present?
+        execute_and_commit(creates: missing_ts_claims)
+      end
+
+      if different_ts_claims.present?
+        # Non-atomic update: destroy then create
+        execute_and_commit(destroys: different_ts_claims)
+        execute_and_commit(creates: different_local_claims)
+      end
+    end
+    
+    # Remaining hash entries are extra TS claims
+    extra_ts_claims = mapped_ts_claims.values.reject { |ts_claim| ts_claim_is_recent?(ts_claim, recent_threshold) }
+    if extra_ts_claims.present?
+      execute_and_commit(destroys: extra_ts_claims)
+    end
+  end
+
+  def self.record_is_recent?(record, recent_threshold)
+    record.created_at > recent_threshold
+  end
+
+  def self.ts_claim_is_recent?(ts_claim, recent_threshold)
+    ts_claim.created_at.to_time > recent_threshold
+  end
+
+  def self.claim_records_match?(expected_claim, ts_claim)
+    # TODO: Compare claim type, value, and owner
+  end
+
+  def self.claim_key(ts_claim)
+    # Unique identifier for hash lookups
+    "#{ts_claim.claim_type}/#{ts_claim.claim_value}"
+  end
+  
+  def self.execute_and_commit(creates: [], destroys: [])
+    topology_service = Gitlab::Cells::TopologyServiceClient.new
+    
+    # Use standard Execute/Commit pattern
+    response = topology_service.execute(
+      ExecuteRequest.new(
+        cell_id: current_cell_id,
+        creates: creates,
+        destroys: destroys
+      )
+    )
+    
+    # Immediate commit (no local DB changes for verification)
+    topology_service.commit(
+      CommitRequest.new(
+        cell_id: current_cell_id,
+        lease_id: response.lease_payload.lease_id
+      )
+    )
+    
+    Rails.logger.info "Verified: #{creates.size} creates, #{destroys.size} destroys"
+  end
+  
+  private
+  
+  def self.current_cell_id
+    Gitlab::Cells.current_cell_id
+  end
+end
+```
+
+### **Key Behaviors**
+
+- **Range-Based Processing**: TS returns claims in ID ranges (start_range to end_range), local queries match exact ranges
+- **Hash-Based Matching**: O(1) lookups using claim_key, processed claims removed via delete()
+- **Three-Way Comparison**: Missing (local only), Different (both exist, data differs), Extra (TS only)
+- **Recent Record Protection**: Skip records created within threshold to avoid transient conflicts
+- **Batch Corrections**: Execute/Commit pattern used for all corrections, separate batches per discrepancy type
+- **Cursor Pagination**: Automatic advancement through all records, no gaps or overlaps
+
+### **Recent Record Protection**
+The verification system protects against correcting transient changes:
+
+- **Configurable Threshold**: `RECENT_RECORD_THRESHOLD = 1.hour` (adjustable)
+- **Local Record Protection**: Skips entire record if `created_at` is within threshold
+- **Claim Comparison Protection**: Skips correction if either local or TS claim is recent
+- **Extra Claim Protection**: Filters out recent TS claims from deletion
+
+**Benefits:**
+- **Transient Change Handling**: Prevents correction of records still propagating
+- **Race Condition Prevention**: Avoids interfering with ongoing operations
+- **Operational Safety**: Reduces risk of correcting legitimate new data
+
 ### **Topology Service**
 
 #### **Cloud Spanner Schema**
@@ -364,16 +566,18 @@ end
 -- Claims table with integrated lease tracking
 CREATE TABLE claims (
   claim_id STRING(36) NOT NULL,                    -- UUID for internal tracking
-  scope STRING(50) NOT NULL,                       -- Type of claim (ROUTES, EMAIL, USERNAME)
-  scope_value STRING(255) NOT NULL,                -- The actual value being claimed
-  owner_type STRING(50) NOT NULL,                  -- Type of owner (USER, PROJECT, GROUP)
+  claim_type INT64 NOT NULL,                       -- Type of claim (maps to protobuf ClaimType enum)
+  claim_value STRING(255) NOT NULL,                -- The actual value being claimed
+  owner_type INT64 NOT NULL,                       -- Type of owner (maps to protobuf Owner enum)
   owner_value STRING(255) NOT NULL,                -- Owner identifier
   cell_id STRING(100) NOT NULL,                    -- Cell ID that created this claim
+  table_name INT64 NOT NULL,                       -- Database table name (maps to protobuf TableName enum)
+  table_record_id INT64 NOT NULL,                  -- Record ID in the source table
   lease_id STRING(36),                             -- NULL for committed claims, UUID for leased claims
   lease_op STRING(10) NOT NULL DEFAULT 'no-op',   -- 'no-op', 'create', 'destroy'
   created_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
   updated_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
-) PRIMARY KEY (scope, scope_value);
+) PRIMARY KEY (claim_type, claim_value);
 
 -- CRITICAL CONSTRAINTS: 
 -- 1. Objects with lease_id != NULL cannot be claimed by other operations
@@ -395,8 +599,12 @@ CREATE INDEX idx_leases_outstanding_created ON leases_outstanding(created_at);
 CREATE INDEX idx_claims_cell ON claims(cell_id);
 CREATE INDEX idx_claims_lease_id ON claims(lease_id) STORING (lease_op);
 CREATE INDEX idx_claims_lease_op ON claims(lease_op) WHERE lease_op != 'no-op';
-CREATE INDEX idx_claims_scope_lease ON claims(scope, lease_id) WHERE lease_id IS NOT NULL;
+CREATE INDEX idx_claims_scope_lease ON claims(claim_type, lease_id) WHERE lease_id IS NOT NULL;
 CREATE INDEX idx_claims_owner ON claims(owner_type, owner_value);
+
+-- Additional indexes for verification queries
+CREATE INDEX idx_claims_table_record ON claims(cell_id, table_name, table_record_id);
+CREATE INDEX idx_claims_table_cursor ON claims(cell_id, table_name, table_record_id) STORING (claim_type, claim_value, owner_type, owner_value);
 ```
 
 #### **Protobuf Definitions**
@@ -422,11 +630,14 @@ service ClaimsService {
   
   // List outstanding leases for a client (for reconciliation)
   rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
+  
+  // List claims by table for verification
+  rpc ListClaims(ListClaimsRequest) returns (ListClaimsResponse);
 }
 
 // Core claim record definition
 message ClaimRecord {
-  enum Scope {
+  enum ClaimType {
     UNSPECIFIED = 0;
     ROUTES = 1;
     USERNAME = 2;
@@ -439,15 +650,24 @@ message ClaimRecord {
     PROJECT = 2;
     USER = 3;
   }
-
-  Scope scope = 1;
-  string scope_value = 2;  // The actual value being claimed (e.g., "john@example.com")
-  Owner owner = 3;
   
-  oneof owner_value {
-    string str = 4;  // String owner ID
-    int64 i64 = 5;   // Integer owner ID
+  enum TableName {
+    TABLE_UNSPECIFIED = 0;
+    USERS = 1;
+    EMAILS = 2;
+    ROUTES = 3;
+    PROJECTS = 4;
+    GROUPS = 5;
   }
+
+  ClaimType claim_type = 1;
+  string claim_value = 2;  // The actual value being claimed (e.g., "john@example.com")
+  Owner owner = 3;
+  string owner_value = 4;  // Owner identifier
+  
+  // Table information for verification
+  TableName table_name = 6;
+  int64 table_record_id = 7;
 }
 
 // Execute operation request - can include multiple creates and destroys
@@ -508,6 +728,34 @@ message ListOutstandingLeasesResponse {
   repeated OutstandingLease leases = 1;
   string next_cursor = 2;  // Cursor for next page, empty if no more pages
 }
+
+// List claims request for verification
+message ListClaimsRequest {
+  string cell_id = 1;
+  ClaimRecord.TableName table_name = 2;
+  int64 cursor = 3;
+  int32 limit = 4;
+}
+
+// Claim information for verification
+message ClaimInfo {
+  ClaimRecord.ClaimType claim_type = 1;
+  string claim_value = 2;
+  ClaimRecord.Owner owner_type = 3;
+  string owner_value = 4;
+  ClaimRecord.TableName table_name = 6;
+  int64 table_record_id = 7;
+  google.protobuf.Timestamp created_at = 8;
+  google.protobuf.Timestamp updated_at = 9;
+}
+
+// List claims response with range information
+message ListClaimsResponse {
+  repeated ClaimInfo claims = 1;
+  int64 start_range = 2;
+  int64 end_range = 3;
+  int64 next_cursor = 4;
+}
 ```
 
 #### **gRPC API Behaviors**
@@ -518,6 +766,7 @@ message ListOutstandingLeasesResponse {
 - **Commit()**: Finalize claims (DELETE destroys, clear lease_id from creates) and remove leases
 - **Rollback()**: Revert claims (DELETE creates, clear lease_id from destroys) and remove leases
 - **ListOutstandingLeases()**: Retrieve leases for reconciliation with cursor-based pagination
+- **ListClaims()**: Retrieve claims by table for verification with range information
 
 ## Unhappy Path Workflows
 
@@ -745,7 +994,7 @@ sequenceDiagram
     Rails->>Rails: Log warning, continue
     
     Note over Reconciliation: Background cleanup finds orphaned record
-    Reconciliation->>RailsDB: DELETE expired lease records
+    Reconciliation->>RailsDB: DELETE stale lease records
 ```
 
 **Recovery**: Background reconciliation eventually removes stale records
@@ -763,7 +1012,7 @@ Cell B: Execute(destroy email@example.com) → BLOCKED until Cell A commits/roll
 - **Creates**: Will fail with primary key constraint if object exists (regardless of lease status)
 - **Destroys**: Will fail with conditional update if object has `lease_id != NULL`
 - **Temporal Lock**: Object remains locked until lease expires or is committed/rolled back
-- **Automatic Release**: Expired leases are cleaned up, making objects available again
+- **Automatic Release**: Stale leases are cleaned up through reconciliation, making objects available again
 
 **Example scenarios:**
 1. **Email change collision**: User changes email while admin tries to delete it → One succeeds, other waits
@@ -818,7 +1067,7 @@ User + Email + Route changes → Single batch Execute() → All-or-nothing seman
 ### **3. Consistency Without Distributed Transactions**
 - Uses leases instead of 2PC (Two-Phase Commit)
 - Simpler failure modes than distributed transactions
-- Time-bounded recovery from failures
+- Time-bounded recovery from failures through staleness-based cleanup
 - **No 2PC Required**: Each cell manages its own local state independently, with coordination only happening through the centralized Topology Service
 
 ### **4. Operational Simplicity**  
@@ -836,6 +1085,13 @@ User + Email + Route changes → Single batch Execute() → All-or-nothing seman
 - Handles network partitions gracefully
 - Automatic recovery from cell crashes
 - Comprehensive error handling and retry logic
+- Protection against correcting transient changes
+
+### **7. Comprehensive Verification**
+- Detects and corrects missing, extra, and different claims
+- Efficient cursor-based processing for large datasets
+- Recent record protection prevents interference with ongoing operations
+- Hash-based matching for optimal performance
 
 ## Open Questions and Considerations
 
@@ -916,14 +1172,14 @@ CREATE TABLE leased (
 - **Efficient Lease Queries**: Direct queries against leased table
 - **Complex Lease Metadata**: Room for detailed lease analytics without cluttering claims table
 
-**Considerations**:
+**Trade-offs**: Better separation of concerns vs. increased transaction complexity and performance overhead
+
+### **Separate Leased Table Considerations**
+- **Eventual Consistency**: Is it affecting the cross-join table?
 - **JOIN Complexity**: Most queries require joins between claims and leased tables
 - **Transaction Atomicity**: More complex to ensure referential integrity across tables
 - **Race Conditions**: Higher risk of inconsistent state between table operations
 - **Cloud Spanner Limitations**: No foreign key constraints, potential for orphaned records
-- **Eventual Consistency**: Is it affecting the cross-join table?
-
-**Trade-offs**: Better separation of concerns vs. increased transaction complexity and performance overhead
 
 ### **Two-Phase Commit (2PC)**
 Use traditional distributed transactions across cells:
@@ -940,3 +1196,4 @@ Use traditional distributed transactions across cells:
 - **Performance Overhead**: Multiple network round-trips and blocking phases
 - **Operational Complexity**: Requires distributed transaction coordinator management
 - **Recovery Complexity**: Manual intervention often needed for failed transactions
+- 
