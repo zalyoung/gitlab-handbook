@@ -89,7 +89,7 @@ The program currently supports AI, Growth, and Analytics with the following embe
 
 |             | AI                       | Growth | Analytics |
 |-------------|--------------------------|--------|-----------|
-| Plan        | Nick Leonard             | TBD    | TBD       |
+| Plan        | TBD                      | TBD    | TBD       |
 | Create      | Michael Le, Mark Unthank | TBD    | TBD       |
 | Verify      | Veethika Mishra          | TBD    | TBD       |
 | Sec         | Andrew Cummins           | TBD    | TBD       |
