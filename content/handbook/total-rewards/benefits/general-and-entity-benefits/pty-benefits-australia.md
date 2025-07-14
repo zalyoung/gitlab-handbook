@@ -83,7 +83,7 @@ The Australian Taxation Office (ATO) states the following:
 
 > You pay super for eligible employees calculated from the day they start with you. You must make the payments at least four times a year, by the quarterly due dates.
 
-Payments due dates can be found on the [ATO website](https://www.ato.gov.au/business/super-for-employers/paying-super-contributions/when-to-pay-super/).
+Payments due dates can be found on the [ATO website](https://www.ato.gov.au/businesses-and-organisations/super-for-employers/paying-super-contributions/super-payment-due-dates).
 
 #### Superannuation Salary Sacrifice
 
