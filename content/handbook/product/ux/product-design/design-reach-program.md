@@ -81,7 +81,7 @@ Product teams interested in domain specialist support should work with their des
 **Designers**
 Designers are nominated to participate as Embedded Domain Specialists based on their product area’s alignment with program domains and their readiness for specialized skill development.
 
-Selected designers participate in Skill Up-Level training programs and are paired with centralized team members for ongoing partnership and mentorship.
+Selected designers participate in Up-Skill training programs and are paired with centralized team members for ongoing partnership and mentorship.
 
 ## Current participation
 
