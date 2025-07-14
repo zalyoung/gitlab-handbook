@@ -53,6 +53,34 @@ The key changes necessary to make this possible can be sumarised as:
 
 NOTE: Because implementation can change based on greater understanding as the work is done, the intent is not to exhaustively list the DB design here, but to give a high level understanding of how it will be configured and why. For specific implementation details, rather consult the epics/issues.
 
+```mermaid
+flowchart
+    A[Vulnerability]
+    B(Vulnerabilities::Finding) -->|vulnerability_id| A
+    F(
+        Vulnerabilities::SeverityOverride
+        Vulnerabilities::StateTransition
+        Vulnerabilities::IssueLink
+        Vulnerabilities::MergeRequestLink
+    ) -->|vulnerability_occurrence_id| B
+
+    C(Vulnerabilities::Read)
+    D[Vulnerabilities::ProjectTrackedRef]
+
+    B -->|project_vulnerabilities_tracked_ref_id| D
+    C -->|project_vulnerabilities_tracked_ref_id| D
+
+
+
+    G(
+        Vulnerabilities::Statistic
+        Vulnerabilities::HistoricalStatistic
+        Vulnerabilities::NamespaceHistoricalStatistic
+    ) -->|project_vulnerabilities_tracked_ref_id| D
+
+    C -->|vulnerability_occurrence_id| B
+```
+
 ### Querying
 
 This information effectively serves as the source of truth regarding the presence and state of a vulnerability in a respective branch. However, in order to present this information to our users and allow them to query and filter it, we need to materialize the information into a state that can be effectively indexed and filtered. Due to a history of performance issues, the current Vulnerability Report works by virtue of a highly denormalized table called `vulnerability_reads` which contains all the information related to vulnerabilities in a single row, allowing for effective indexing and filtering.
