@@ -11,7 +11,9 @@ The Customer Advisory Board (CAB) deepens our partnerships through collaborative
 ## Objectives
 
 Strengthen Customer Accounts: Create a structured environment for meaningful collaboration with our most strategic and active partners.
+
 Understand Customer Sentiment and Needs: Allow GitLab team Identify, discuss trends and challenges in the DevOps space.
+
 Customer Opportunity to Influence: Enable customers to have direct communication with product leaders early in the development process, empowering CAB members to shape product strategy.
 Results for Customers: Demonstrate clear value through roadmap iterations that align business objectives with CAB member feedback.
 
