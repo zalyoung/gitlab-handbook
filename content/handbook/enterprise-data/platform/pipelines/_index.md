@@ -100,16 +100,18 @@ A signifcant weakness that can emerge from custom pipelines is that we can write
 
 ### Easy to Use 
 
-<!-- 
-Including, but still working on descriptions for 
-- observability (Python logging, correct error handling in airflow)
-- Development Lifecycle
-    - Including standard environment managagement, testing, and CI/CD standards
-- Code Quality/Hygeine (Radovan, pls help)
-- Easy to use
-- Well documented
--->
+Not only should our custom pipelines be easy for the platform team to develop and maintain, but they should be easy to use so that **everyone can contribute**. As with Postgres Pipeline (PGP), yaml configurations are a preferred way to abstract configurations into a common and human readable language. Additionally, custom pipelines have the most potential here as special permissions, including licenses, are often required for operating on vendor pipelines and snowflake shares. However, with project code, we can make configuration of pipelinews available to everyone who'd like to participate in their development.
 
+An essential part of this is **documentation**.
+<!-- WIP -->
+
+Additioanlly, conributing is often opaque by a lack of consistent testiong and deployment processes. Custom pipelines should patterns and environments in their development lifecycle. 
+<!-- Abition - define this in airflow_utils.gitlab_pod_env_vars and link here -->
+Branch names are programtially prefixed to names of data storage targets for development and testing environmemnts to eliminate polution of production data and standardize our development processes. Pipelines include tests in pytest at a minimum and for pipelines that are high criticality and which require consistent changes, like Postgres Pipeline, ci jobs should be set up for explicit testing and review.
+
+As with using pytest for testing, we use python logging for logging, with the same advantage of consistency in addition to features like exception handling and log levels, which are useful in debugging.
+
+<!-- Is there an entry for code quality we should link here? -->
 ### Secure
 
 ### Performant
@@ -137,3 +139,5 @@ There are cases where batch processing is too high latency for the business case
 Sometimes all that is needed to fix a failed pipeline run is a retry. Pipelines should be written idempotently so that this can be easily automated within Airflow configurations. In the case of connection errors, exponential backoff is advised. Additionally, circuit-breakers should be used whena single failure can result in cascading failures as we do with `check_replica_snapshot`. When completing a custom pipeline consider what is most likely to fail and what steps need to be taken to resolve the failure. If that can be written into the pipeline then do it. In many cases it just takes time for us to learn where we can improve and this is a case when we stridently apply our [iteration value](https://handbook.gitlab.com/handbook/values/#iteration).
 
 ## Roadmap
+
+This page is prescriptive and we hope generally descriptive as well. The following is our plan to bring our legacy pipelines into alignment with this strategy
