@@ -1,8 +1,15 @@
 {{- $categories := dict }}
-{{- range $k, $v := site.Data.public.categories }}
-  {{- $categories = merge $categories (dict $k $v) }}
-{{ end }}
 {{ $stages := site.Data.public.stages.stages }}
+{{- range $stage_key, $stage_data := $stages }}
+  {{- range $group_key, $group_data := $stage_data.groups }}
+    {{- range $group_data.categories }}
+      {{- $categories = merge $categories (dict . (dict "group" (merge $group_data (dict "id" $group_key)) "stage" $stage_data "type" "direction")) }}
+    {{- end }}
+    {{- range $group_data.maintained_categories }}
+      {{- $categories = merge $categories (dict . (dict "group" (merge $group_data (dict "id" $group_key)) "stage" $stage_data "type" "maintained")) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
 
 <table>
     <thead>
@@ -12,20 +19,15 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $k, $v := $categories }}
+        {{ range $category, $v := $categories }}
         <tr>
-        <td><code>{{$k}}</code></td>
-        <td>{{- $cat := $k }}
-            {{- range $key, $data := $stages }}
-            {{- range $k, $v := $data.groups }}
-                {{- if in .categories $cat }}
-                    Group: <a href='/handbook/product/categories/#{{ replace $k "_" "-" }}-group'>{{ $data.display_name }}: {{ $v.name }}</a><br/>
-                    Slack: <a href='https://gitlab.slack.com/channels/{{ $v.slack.channel }}'>#{{ $v.slack.channel }}</a><br/>
-                    Engineering Manager: {{ or $v.em $v.backend_engineering_manager }}<br/>
-                    Product Manager: {{ $v.pm }}<br/>
-                {{- end }}
-            {{- end }}
-            {{- end }}
+        <td><code>{{$category}}</code></td>
+        <td>
+            Group: <a href='/handbook/product/categories/#{{ replace $v.group.id "_" "-" }}-group'>{{ $v.group.display_name }}: {{ $v.group.name }}</a><br/>
+            Slack: <a href='https://gitlab.slack.com/channels/{{ $v.group.slack.channel }}'>#{{ $v.group.slack.channel }}</a><br/>
+            Engineering Manager: {{ or $v.group.em $v.group.backend_engineering_manager }}<br/>
+            Product Manager: {{ $v.group.pm }}<br/>
+            Category: {{ $v.type }}<br />
         </td>
         </tr>
         {{ end }}
