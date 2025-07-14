@@ -281,6 +281,7 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 
 | Date          | # of pages | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
+| Jun 2025      | 2,638      | 4 %         |
 | Mar 2025      | 2,533      | 4 %         |
 | Dec 2024      | 2,442      | 5 %         |
 | Sept 2024     | 2,328      | -5 %        |
@@ -296,15 +297,15 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and March 2025:** 1,368 more pages (a 117% increase).
+**Change between May 2020 and June 2025:** 1,473 more pages (a 126% increase).
 
 Decrease in September 2024 due to moving the architecture blueprints topics to the handbook. For more information, see [issue 279](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279).
 
 #### Page count by area of the left nav
 
-By the end of March 2025, the page count by area of the left navigation:
+By the end of June 2025, the page count by area of the left navigation:
 
-![Pie chart of the page count by area of the left navigation.](/images/handbook/product/ux/technical-writing/page_count_apr2025.png)
+![Pie chart of the page count by area of the left navigation.](/images/handbook/product/ux/technical-writing/page_count_jun2025.png)
 
 ### Word count
 
@@ -312,6 +313,7 @@ The number of words in these repositories:
 
 | Date          | Word count | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
+| Jun 2025      | 3,822,773  | 5 %         |
 | Mar 2025      | 3,621,172  | 7 %         |
 | Dec 2024      | 3,373,709  | 6 %         |
 | Sept 2024     | 3,191,353  | -4 %        |
@@ -327,17 +329,15 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and March 2025:** 2,430,801 more words (a 204% increase).
+**Change between May 2020 and June 2025:** 2,632,402 more words (a 221% increase).
 
 Decrease in September 2024 due to moving the architecture blueprints topics to the handbook. For more information, see [issue 279](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279).
-
-The word count has more than doubled in this timeframe.
 
 #### Word count by area of the left nav
 
 By the end of March 2025, the word count by area of the left navigation:
 
-![Pie chart of the word count by area of the left navigation.](/images/handbook/product/ux/technical-writing/word_count_apr2025.png)
+![Pie chart of the word count by area of the left navigation.](/images/handbook/product/ux/technical-writing/word_count_jun2025.png)
 
 ### Analytics
 
