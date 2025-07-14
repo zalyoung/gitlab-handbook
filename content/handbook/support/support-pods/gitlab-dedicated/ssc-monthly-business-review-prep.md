@@ -101,5 +101,6 @@ Record the **Start Date** and **End Date** that you use when preparing for the M
 | ------ | ------ | ------ | ------ |
 | April 2025 | Brie Carranza |  N/A      | `2025-04-27` |
 | May 2025 | Brie Carranza | `2025-04-28` | `2025-05-16` |
-| June 2025 |Armin Hergenhan | `2025-05-17` | `2025-06-20` |
-| July 2025 |TBD | `2025-06-21`  |  |
+| June 2025 | Armin Hergenhan | `2025-05-17` | `2025-06-20` |
+| July 2025 | Armin Hergenhan | `2025-06-21`  | `2025-07-18` |
+| August 2025 | TBD | `2025-07-19`  |  |
