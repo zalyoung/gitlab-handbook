@@ -18,6 +18,36 @@ Watching logs can be helpful: `tail -f gitlab/log/development.log`.
 
 ## Local setup for Duo (LSP and AI Gateway with VS Code)
 
+The following sequence illustrates how an IDE extension authenticates with the GitLab instance and later Duo Workflow Service.
+
+```mermaid
+sequenceDiagram
+    participant ext as Editor Extension
+    participant lsp as GitLab Language Server
+    participant sm as GitLab
+    participant aigw as AI Gateway (GitLab-hosted)
+    participant dws as Duo Workflow Service (GitLab-hosted)
+
+    ext-->>lsp: Send workspace configuration
+    par Fetch Personal Access Token info
+        lsp->>+sm: GET /api/v4/personal_access_tokens/self
+        sm->>-lsp: 200 OK {...}
+    and Fetch OAuth token info
+        lsp->>+sm: GET /oauth/token/info
+        sm->>-lsp: 200 OK {...}
+        Note right of lsp: Store OAuth access token until just before expiry
+    end
+
+    loop Every ~120 minutes
+        lsp->>+sm: GET /api/v4/ai/duo_workflows/direct_access
+        sm->>+dws: Send GenerateToken request (gRPC)
+        Note right of dws: duo_workflow_service/server.py generates a signed JWT through the Cloud Connector library code.
+        dws->>-sm: ServiceResponse.success
+        sm->>-lsp: 200 OK {...}
+        Note right of lsp:  Store direct access details for Duo Workflow Service for ~120 minutes
+    end
+```
+
 ### GDK, AI Gateway and Duo Workflow setup
 1. Ensure you have a working [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit) instance.
 1. Ensure you have [gcloud CLI](https://cloud.google.com/sdk/docs/install) installed.
