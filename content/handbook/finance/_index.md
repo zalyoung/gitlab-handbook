@@ -19,7 +19,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 - [Sales Comp Plan](sales-comp-plan/)
 - [Signature Authorization Matrix](authorization-matrix/)
 - [Authorization Matrix Policy](authorization-matrix/#authorization-matrix-policy)
-- [Stock Options](/handbook/total-rewards/stock-options/)
+- [Equity Compensation](/handbook/total-rewards/stock-options/)
 
 ## Forms
 
