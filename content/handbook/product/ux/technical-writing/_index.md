@@ -281,7 +281,7 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 
 | Date          | # of pages | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
-| Jun 2025      | 2,638      | 4 %        |
+| Jun 2025      | 2,638      | 4 %         |
 | Mar 2025      | 2,533      | 4 %         |
 | Dec 2024      | 2,442      | 5 %         |
 | Sept 2024     | 2,328      | -5 %        |
