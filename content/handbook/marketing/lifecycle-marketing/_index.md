@@ -57,12 +57,15 @@ Please reach out to Allie Klatzkin or Alison Lee with any questions.
 
 **Christian Baun** _Lifecycle Marketng Manager_
 
-* Manage updates/optimizations to our existing Persona nurture and PubSec nurtures
-* Support localized nurture programs for prospects
-* **Own MM+ transformation of trial nurture**: Pivot self-serve to focus on business trials: optimize for high-value biz trials and reduce wasted spend on low-ROI trials starts with personal emails. 
+* Prospect lifecycle strategy / conversion (enterprise, mm)
+* Manage updates/optimizations to our existing Persona nurture, PubSec nurtures, and FinServ nurtures
 * Ongoing maintenance/optimization of global prospect campaigns post launch (recycled leads nurture, industry nurtures)
+* Support localized nurture programs for prospects
 * Regional/event email reviews for EMEA/APAC
-* Email Templates: manage development and testing of new and existing email templates
+* Epic Conference (formerly DevSecOps World Tour)
+* **Own MM+ transformation of trial nurture**: Pivot self-serve to focus on business trials: optimize for high-value biz trials and reduce wasted spend on low-ROI trials starts with personal emails. 
+* **Email Templates**: manage development and testing of new and existing email templates, using Marketo's builder, or BeeFree
+* **Email point of contact/support**: Reviewing and optimizing EMEA, AMER, and APAC events (fmm) and campaigns sends to ensure best practices and compliance with the GitLab brand
 
 ## Communication
 <!-- DO NOT CHANGE THIS ANCHOR -->
