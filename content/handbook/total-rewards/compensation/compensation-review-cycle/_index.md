@@ -78,11 +78,11 @@ Equity refresh budget will be held at the Dir+ level. Managers below the Directo
 
 _2025-03-10 - 2025-03-26:_ Managers complete merit and equity recommendations
 
-We recommend these general timelines for completion based on your level to enable department heads to review and finalize recommendations by the deadline.
+We recommend these general timelines for completion based on your level to enable department heads to review and finalize recommendations by the deadline. There may be adjusted due dates by division, so please confirm timeline with your manager and/or aligned People Business Partner.
 
 - E-Group Skips and below (e.g. Managers, Sr. Managers, Directors, Senior Directors that report into E-Group direct reports): 2025-03-10 to 2025-03-13 EOD PT
 - E-Group Directs (e.g. Senior Directors, VPs that report directly into E-Group leaders): 2025-03-14 to 2025-03-18 EOD PT
-- E-group review/approval: 2025-03-20 to 2025-03-26 EOD PT
+- E-group review/approval: 2025-03-19 to 2025-03-26 EOD PT
 
 Additional due dates and touchpoints in the process after the manager review portion closes: 
 
