@@ -115,7 +115,7 @@ sequenceDiagram
     Rails->>Rails: Generate batch ExecuteRequest
     
     Note over Rails: BEFORE Rails DB Transaction
-    Rails->>TopologyService: Execute(batched creates, destroys)
+    Rails->>TopologyService: BeginUpdate(batched creates, destroys)
     
     TopologyService->>CloudSpanner: BEGIN Transaction
     TopologyService->>CloudSpanner: Insert lease in leases_outstanding
@@ -125,7 +125,7 @@ sequenceDiagram
     CloudSpanner-->>TopologyService: Success - All constraints satisfied
     TopologyService->>CloudSpanner: COMMIT Transaction
     
-    TopologyService-->>Rails: ExecuteResponse(lease_payload)
+    TopologyService-->>Rails: BeginUpdateResponse(lease_payload)
     
     Note over Rails: Step 2: Local Database Transaction
     Rails->>RailsDB: BEGIN Transaction
@@ -136,7 +136,7 @@ sequenceDiagram
     Rails->>RailsDB: COMMIT Transaction
     
     Note over Rails: Step 3: Lease Commitment
-    Rails->>TopologyService: Commit(lease_id)
+    Rails->>TopologyService: CommitUpdate(lease_id)
     
     TopologyService->>CloudSpanner: BEGIN Transaction
     TopologyService->>CloudSpanner: DELETE claims WHERE lease_op='destroy'
@@ -144,7 +144,7 @@ sequenceDiagram
     TopologyService->>CloudSpanner: DELETE lease from leases_outstanding
     TopologyService->>CloudSpanner: COMMIT Transaction
     
-    TopologyService-->>Rails: CommitResponse()
+    TopologyService-->>Rails: CommitUpdateResponse()
     Rails->>RailsDB: DELETE lease from leases_outstanding
     Rails-->>User: Success - All models saved atomically
 ```
@@ -168,7 +168,7 @@ User saves models → Rails validates → Claims generated → Topology Service 
 1. **Model Validation**: Rails validates the model locally first
 2. **Claim Generation**: For each changed unique attribute, generate create/destroy claims
 3. **Batch Collection**: If multiple models are being saved, collect all claims together
-4. **Topology Service Call**: Send `Execute()` request with all claims BEFORE local DB transaction
+4. **Topology Service Call**: Send `BeginUpdate()` request with all claims BEFORE local DB transaction
 
 **Why this order:**
 - **Fail Fast**: If claims conflict, fail before making any local changes
@@ -177,7 +177,7 @@ User saves models → Rails validates → Claims generated → Topology Service 
 
 #### **Phase 2: Atomic Lease Creation in Cloud Spanner**
 ```
-Execute() → Single transaction → Database constraints + lease exclusivity enforced
+BeginUpdate() → Single transaction → Database constraints + lease exclusivity enforced
 ```
 
 **What happens in Topology Service transaction:**
@@ -222,7 +222,7 @@ Lease acquired → Rails DB transaction → Save all models → Create lease rec
 
 #### **Phase 4: Lease Commitment**
 ```
-Local success → Commit() → Finalize claims → Remove lease
+Local success → CommitUpdate() → Finalize claims → Remove lease
 ```
 
 **What happens in Topology Service:**
@@ -234,7 +234,7 @@ Local success → Commit() → Finalize claims → Remove lease
 **Why this two-phase approach:**
 - **Durability**: Creates become permanent, destroys are executed
 - **Immediate Cleanup**: Leases are removed immediately after successful completion
-- **Idempotency**: Commit can be retried safely - operations are idempotent
+- **Idempotency**: CommitUpdate can be retried safely - operations are idempotent
 
 ## Terminology by Participant
 
@@ -331,13 +331,13 @@ class ClaimsLeaseReconciliationService
       local_active_leases = LeasesOutstanding.where(lease_id: active_lease_ids).pluck(:lease_id)
       
       local_active_leases.each do |lease_id|
-        topology_service.commit(CommitRequest.new(cell_id: current_cell_id, lease_id: lease_id))
+        topology_service.commit_update(CommitUpdateRequest.new(cell_id: current_cell_id, lease_id: lease_id))
         LeasesOutstanding.find_by(lease_id: lease_id)&.destroy!
       end
       
       # Process stale leases: rollback all (idempotent)
       stale_leases.each do |lease|
-        topology_service.rollback(RollbackRequest.new(cell_id: current_cell_id, lease_id: lease.lease_id))
+        topology_service.rollback_update(RollbackUpdateRequest.new(cell_id: current_cell_id, lease_id: lease.lease_id))
         # Clean up any local record that might exist
         LeasesOutstanding.find_by(lease_id: lease.lease_id)&.destroy!
       end
@@ -360,7 +360,7 @@ end
 #### **Reconciliation Principles**
 - **Primary Cleanup**: Rails is responsible for cleaning up outstanding leases
 - **Cursor-Based Pagination**: Guarantees iteration through all leases without infinite loops
-- **Idempotent Operations**: Topology Service Commit/Rollback operations are idempotent
+- **Idempotent Operations**: Topology Service CommitUpdate/RollbackUpdate operations are idempotent
 - **Staleness-Based Cleanup**: Leases older than threshold are considered stale (local property)
 - **Complete Processing**: Both stale and active leases are processed to ensure forward progress
 - **Exception Handling**: Local leases without corresponding TS leases indicate system issues
@@ -472,20 +472,20 @@ class ClaimsVerificationService
 
       # Execute corrections in batches
       if missing_ts_claims.present?
-        execute_and_commit(creates: missing_ts_claims)
+        begin_update_and_commit(creates: missing_ts_claims)
       end
 
       if different_ts_claims.present?
         # Non-atomic update: destroy then create
-        execute_and_commit(destroys: different_ts_claims)
-        execute_and_commit(creates: different_local_claims)
+        begin_update_and_commit(destroys: different_ts_claims)
+        begin_update_and_commit(creates: different_local_claims)
       end
     end
     
     # Remaining hash entries are extra TS claims
     extra_ts_claims = mapped_ts_claims.values.reject { |ts_claim| ts_claim_is_recent?(ts_claim, recent_threshold) }
     if extra_ts_claims.present?
-      execute_and_commit(destroys: extra_ts_claims)
+      begin_update_and_commit(destroys: extra_ts_claims)
     end
   end
 
@@ -506,12 +506,12 @@ class ClaimsVerificationService
     "#{ts_claim.claim_type}/#{ts_claim.claim_value}"
   end
   
-  def self.execute_and_commit(creates: [], destroys: [])
+  def self.begin_update_and_commit(creates: [], destroys: [])
     topology_service = Gitlab::Cells::TopologyServiceClient.new
     
-    # Use standard Execute/Commit pattern
-    response = topology_service.execute(
-      ExecuteRequest.new(
+    # Use standard BeginUpdate/CommitUpdate pattern
+    response = topology_service.begin_update(
+      BeginUpdateRequest.new(
         cell_id: current_cell_id,
         creates: creates,
         destroys: destroys
@@ -519,8 +519,8 @@ class ClaimsVerificationService
     )
     
     # Immediate commit (no local DB changes for verification)
-    topology_service.commit(
-      CommitRequest.new(
+    topology_service.commit_update(
+      CommitUpdateRequest.new(
         cell_id: current_cell_id,
         lease_id: response.lease_payload.lease_id
       )
@@ -543,7 +543,7 @@ end
 - **Hash-Based Matching**: O(1) lookups using claim_key, processed claims removed via delete()
 - **Three-Way Comparison**: Missing (local only), Different (both exist, data differs), Extra (TS only)
 - **Recent Record Protection**: Skip records created within threshold to avoid transient conflicts
-- **Batch Corrections**: Execute/Commit pattern used for all corrections, separate batches per discrepancy type
+- **Batch Corrections**: BeginUpdate/CommitUpdate pattern used for all corrections, separate batches per discrepancy type
 - **Cursor Pagination**: Automatic advancement through all records, no gaps or overlaps
 
 ### **Recent Record Protection**
@@ -619,14 +619,14 @@ import "google/protobuf/timestamp.proto";
 
 // Service definition for Topology Service Claims API
 service ClaimsService {
-  // Execute creates/destroys with lease - atomic operation
-  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
+  // BeginUpdate creates/destroys with lease - atomic operation
+  rpc BeginUpdate(BeginUpdateRequest) returns (BeginUpdateResponse);
   
-  // Commit finalizes the operations and removes lease
-  rpc Commit(CommitRequest) returns (CommitResponse);
+  // CommitUpdate finalizes the operations and removes lease
+  rpc CommitUpdate(CommitUpdateRequest) returns (CommitUpdateResponse);
   
-  // Rollback reverts the operations and removes lease
-  rpc Rollback(RollbackRequest) returns (RollbackResponse);
+  // RollbackUpdate reverts the operations and removes lease
+  rpc RollbackUpdate(RollbackUpdateRequest) returns (RollbackUpdateResponse);
   
   // List outstanding leases for a client (for reconciliation)
   rpc ListOutstandingLeases(ListOutstandingLeasesRequest) returns (ListOutstandingLeasesResponse);
@@ -670,8 +670,8 @@ message ClaimRecord {
   int64 table_record_id = 7;
 }
 
-// Execute operation request - can include multiple creates and destroys
-message ExecuteRequest {
+// BeginUpdate operation request - can include multiple creates and destroys
+message BeginUpdateRequest {
   string cell_id = 1; // Cell ID requesting the lease
   repeated ClaimRecord creates = 2;   // Claims to create
   repeated ClaimRecord destroys = 3;  // Claims to destroy
@@ -682,33 +682,33 @@ message LeasePayload {
   string lease_id = 1; // UUID of the lease
   string cell_id = 2; // Cell ID that owns the lease
   google.protobuf.Timestamp created_at = 3;
-  ExecuteRequest original_request = 4; // Complete original request for reconciliation
+  BeginUpdateRequest original_request = 4; // Complete original request for reconciliation
 }
 
-// Execute operation response
-message ExecuteResponse {
+// BeginUpdate operation response
+message BeginUpdateResponse {
   LeasePayload lease_payload = 1;
 }
 
-// Commit operation request
-message CommitRequest {
+// CommitUpdate operation request
+message CommitUpdateRequest {
   string cell_id = 1;
   string lease_id = 2;
 }
 
-// Commit operation response
-message CommitResponse {
+// CommitUpdate operation response
+message CommitUpdateResponse {
   // Empty response - success indicated by no gRPC error
 }
 
-// Rollback operation request
-message RollbackRequest {
+// RollbackUpdate operation request
+message RollbackUpdateRequest {
   string cell_id = 1;
   string lease_id = 2;
 }
 
-// Rollback operation response
-message RollbackResponse {
+// RollbackUpdate operation response
+message RollbackUpdateResponse {
   // Empty response - success indicated by no gRPC error
 }
 
@@ -759,12 +759,12 @@ message ListClaimsResponse {
 ```
 
 #### **gRPC API Behaviors**
-- **Execute()**: Atomically acquire leases for batch operations, enforce exclusivity constraints
+- **BeginUpdate()**: Atomically acquire leases for batch operations, enforce exclusivity constraints
   - **Validation**: Ensures creates and destroys reference different claims within the same batch
   - **Create Processing**: Inserts new claims that don't exist in the system
   - **Destroy Processing**: Updates existing claims owned by the requesting cell
-- **Commit()**: Finalize claims (DELETE destroys, clear lease_id from creates) and remove leases
-- **Rollback()**: Revert claims (DELETE creates, clear lease_id from destroys) and remove leases
+- **CommitUpdate()**: Finalize claims (DELETE destroys, clear lease_id from creates) and remove leases
+- **RollbackUpdate()**: Revert claims (DELETE creates, clear lease_id from destroys) and remove leases
 - **ListOutstandingLeases()**: Retrieve leases for reconciliation with cursor-based pagination
 - **ListClaims()**: Retrieve claims by table for verification with range information
 
@@ -802,7 +802,7 @@ sequenceDiagram
     User->>Rails: Save Model with conflicting claim
     Rails->>Rails: Validate model and generate claims
     Rails->>Rails: Validate batch (creates/destroys reference different claims)
-    Rails->>TopologyService: Execute(creates, destroys)
+    Rails->>TopologyService: BeginUpdate(creates, destroys)
     
     TopologyService->>CloudSpanner: BEGIN Transaction
     TopologyService->>CloudSpanner: Validate batch constraints
@@ -831,7 +831,7 @@ sequenceDiagram
     participant Rails
     participant TopologyService
     
-    Rails->>TopologyService: Execute(creates, destroys)
+    Rails->>TopologyService: BeginUpdate(creates, destroys)
     Note over TopologyService: Network timeout
     TopologyService->>Rails: Connection lost
     Rails-->>User: "Service temporarily unavailable"
@@ -855,7 +855,7 @@ sequenceDiagram
     User->>Rails: Save Models
     Rails->>TopologyService: Execute(creates, destroys)
     TopologyService->>CloudSpanner: Execute operations successfully
-    TopologyService-->>Rails: ExecuteResponse(lease_payload)
+    TopologyService-->>Rails: BeginUpdateResponse(lease_payload)
     
     Rails->>RailsDB: BEGIN Transaction
     Rails->>RailsDB: Save user (success)
@@ -864,7 +864,7 @@ sequenceDiagram
     Rails->>RailsDB: ROLLBACK Transaction
     
     Note over Rails: Cleanup lease - Rails DB failed
-    Rails->>TopologyService: Rollback(lease_id)
+    Rails->>TopologyService: RollbackUpdate(lease_id)
     
     TopologyService->>CloudSpanner: BEGIN Transaction
     TopologyService->>CloudSpanner: DELETE claims WHERE lease_op='create'
@@ -872,7 +872,7 @@ sequenceDiagram
     TopologyService->>CloudSpanner: DELETE lease from leases_outstanding
     TopologyService->>CloudSpanner: COMMIT Transaction
     
-    TopologyService-->>Rails: RollbackResponse()
+    TopologyService-->>Rails: RollbackUpdateResponse()
     Rails-->>User: Save failed: Database constraint violation
 ```
 
@@ -889,9 +889,9 @@ sequenceDiagram
     participant Reconciliation as Reconciliation Job
 
     User->>Rails: Save Models
-    Rails->>TopologyService: Execute(creates, destroys)
+    Rails->>TopologyService: BeginUpdate(creates, destroys)
     TopologyService->>CloudSpanner: Execute operations successfully
-    TopologyService-->>Rails: ExecuteResponse(lease_payload)
+    TopologyService-->>Rails: BeginUpdateResponse(lease_payload)
     
     Rails->>RailsDB: BEGIN Transaction
     Rails->>RailsDB: Start saving changes
@@ -905,7 +905,7 @@ sequenceDiagram
     RailsDB-->>Reconciliation: Lease NOT found (was never committed)
     
     Note over Reconciliation: Lease older than LEASE_STALENESS_THRESHOLD
-    Reconciliation->>TopologyService: Rollback(lease_id)
+    Reconciliation->>TopologyService: RollbackUpdate(lease_id)
     TopologyService->>CloudSpanner: Process rollback operation
     CloudSpanner->>CloudSpanner: DELETE claims WHERE lease_op='create'
     CloudSpanner->>CloudSpanner: UPDATE claims SET lease_id=NULL WHERE lease_op='destroy'
@@ -930,9 +930,9 @@ sequenceDiagram
     participant Reconciliation as Reconciliation Job
 
     User->>Rails: Save Models
-    Rails->>TopologyService: Execute(creates, destroys)
+    Rails->>TopologyService: BeginUpdate(creates, destroys)
     TopologyService->>CloudSpanner: Execute operations successfully
-    TopologyService-->>Rails: ExecuteResponse(lease_payload)
+    TopologyService-->>Rails: BeginUpdateResponse(lease_payload)
     
     Rails->>RailsDB: BEGIN Transaction
     Rails->>RailsDB: Save all changes successfully
@@ -940,7 +940,7 @@ sequenceDiagram
     Rails->>RailsDB: COMMIT Transaction
     
     Note over Rails: Network failure / Application crash
-    Note over Rails: Commit() call to TS never made
+    Note over Rails: CommitUpdate() call to TS never made
     
     Note over Reconciliation: Background reconciliation detects issue
     Reconciliation->>TopologyService: ListOutstandingLeases()
@@ -948,7 +948,7 @@ sequenceDiagram
     Reconciliation->>RailsDB: Check if lease exists locally
     RailsDB-->>Reconciliation: Lease found (should be committed)
     
-    Reconciliation->>TopologyService: Commit(lease_id)
+    Reconciliation->>TopologyService: CommitUpdate(lease_id)
     TopologyService->>CloudSpanner: Process commit operation
     TopologyService-->>Reconciliation: Success
     Reconciliation->>RailsDB: DELETE lease from leases_outstanding
@@ -964,13 +964,13 @@ sequenceDiagram
     participant Reconciliation
     
     Note over Rails: Local transaction committed
-    Rails->>TopologyService: Commit(lease_id)
+    Rails->>TopologyService: CommitUpdate(lease_id)
     Note over TopologyService: Service unavailable
     TopologyService-->>Rails: ServiceUnavailable error
     Rails->>Rails: Store commit for retry
     
     Note over Reconciliation: Retry handler processes failed commit
-    Reconciliation->>TopologyService: Commit(lease_id)
+    Reconciliation->>TopologyService: CommitUpdate(lease_id)
     TopologyService-->>Reconciliation: Success
 ```
 
@@ -1004,8 +1004,8 @@ sequenceDiagram
 ### **Lease Exclusivity and Concurrency Control**
 
 ```
-Cell A: Execute(create email@example.com) → Lease acquired
-Cell B: Execute(destroy email@example.com) → BLOCKED until Cell A commits/rollbacks
+Cell A: BeginUpdate(create email@example.com) → Lease acquired
+Cell B: BeginUpdate(destroy email@example.com) → BLOCKED until Cell A commits/rollbacks
 ```
 
 **Behavior**: Objects with active leases cannot be claimed:
@@ -1022,14 +1022,14 @@ Cell B: Execute(destroy email@example.com) → BLOCKED until Cell A commits/roll
 ### **Multi-Model Coordination**
 
 ```
-User + Email + Route changes → Single batch Execute() → All-or-nothing semantics
+User + Email + Route changes → Single batch BeginUpdate() → All-or-nothing semantics
 ```
 
 **Example**: Creating user with email and route:
 1. User model generates username claim
 2. Email model generates email claim  
 3. Route model generates path and name claims
-4. All 4 claims sent in single Execute() call
+4. All 4 claims sent in single BeginUpdate() call
 5. All models saved in single Rails transaction
 6. All claims committed together
 
@@ -1137,14 +1137,14 @@ Execute claims within the Rails transaction rather than before it:
 ```
 1. Local DB: BEGIN
 2. Local DB: INSERT/UPDATE/DESTROY (local operations)
-3. TS DB: Execute() => lease (~100ms)
+3. TS DB: BeginUpdate() => lease (~100ms)
 4. Local DB: INSERT lease
 5. Local DB: COMMIT
-6. TS DB: Commit(lease)
+6. TS DB: CommitUpdate(lease)
 ```
 
 **Considerations**:
-- **Connection Pool Impact**: Would require strict 250ms timeout on TS Execute to prevent connection pool bottlenecks
+- **Connection Pool Impact**: Would require strict 250ms timeout on TS BeginUpdate to prevent connection pool bottlenecks
 - **Transaction Duration**: Extends every local database transaction by network round-trip time
 - **Lock Contention**: Holds database locks and connections during network operations
 - **Scalability Impact**: Could exhaust connection pools under high concurrency
@@ -1196,4 +1196,3 @@ Use traditional distributed transactions across cells:
 - **Performance Overhead**: Multiple network round-trips and blocking phases
 - **Operational Complexity**: Requires distributed transaction coordinator management
 - **Recovery Complexity**: Manual intervention often needed for failed transactions
-- 
