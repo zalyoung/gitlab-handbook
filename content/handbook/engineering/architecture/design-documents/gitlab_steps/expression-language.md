@@ -37,7 +37,7 @@ build-and-release:
 The above example is simple, the `image_ref` output is passed directly into the `from_image` input.
 Many real-world situations are more complex, so the user needs tools to craft input values from variables and step outputs. Examples include:
 
-- String manipulation: `build_image: ${{ job.CI_REGISTRY }}/my-build:${{ job.$CI_PIPELINE_IID }}`
+- String manipulation: `build_image: ${{ job.CI_REGISTRY }}/my-build:${{ job.CI_PIPELINE_IID }}`
 - Arithmetic: `version: ${{ steps.versions.most_recent.major + 1 }}`
 - Comparisons: `log_when: ${{ inputs.LOGLEVEL > 4 }}`
 - Logic: `user: ${{ inputs.username || "default_username" }}`
@@ -82,7 +82,7 @@ A review of existing expression languages and libraries didn't find anything sui
 
 ```yaml
 # Extract and increment semantic versions
-- name: bump-version
+- name: bump-major-version
   step: ./steps/bump
   inputs:
     new_version: ${{ major_version(steps.get_current.outputs.version) + 1 }}.0.0
@@ -184,7 +184,7 @@ build-job:
     - name: echo_step
       step: gitlab.com/steps/echo@$[[inputs.echo_version]]  # CI Component expression, evaluated when the pipeline is created
       inputs:
-        message: 'Hello, ${{ lower(jobs.GITLAB_USER_NAME) }}' # CI Steps expression, evaluated during job execution
+        message: 'Hello, ${{ remove_new_lines(jobs.CI_RUNNER_DESCRIPTION) }}' # CI Steps expression, evaluated during job execution
 ```
 
 ## Specification
