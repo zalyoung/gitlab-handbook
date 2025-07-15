@@ -199,7 +199,7 @@ The amount of time for review and reaching execution is based on the details bel
 
 - **New vendors: 1-3+ weeks**
   - New vendors require the most amount of time as GitLab will be establishing terms and conditions for the first time, which will govern the use of the products and/or services being procured.
-  - **All contract documents must be provided in Word (.docx) format.** PDF versions are not acceptable for legal review as they cannot be efficiently redlined. Contact the vendor to request the Word version before submitting your request.
+  - **All contract documents must be provided in Word (.docx) format in English.** PDF versions are not acceptable for legal review as they cannot be efficiently redlined. Contact the vendor to request the Word version before submitting your request.
   - Negotiations can vary from 1 week to multiple months based on the level of detail and modifications required to reach executable terms.
   - If vendor doesn't readily accept the [GitLab standard terms](/handbook/finance/procurement/vendor-guidelines/vendor-agreement/), additional rounds of redlines and negotiations may be required, extending this SLA.
   - Whenever possible, the legal team hopes to achieve redlines provided back to the vendor no less than five (5) business days after being assigned.
