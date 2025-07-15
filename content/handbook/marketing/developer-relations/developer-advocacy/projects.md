@@ -105,17 +105,9 @@ Learn more in the [Cloud Resources for Developer Relations handbook](/handbook/m
 1. Always add [security scanning](https://docs.gitlab.com/ee/user/application_security/) as default, unless it competes with the demo cases.
 1. A GitLab app requires OAuth setup from an account. Use a group shared account (for example, [DevRel Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-relations-bot)) for production apps (Code challenge, etc.)
 
-### Workspaces
+### Development Environments
 
-> Status: Inactive. Kubernetes cluster needs to be re-created.
-
-The [remote-development sub group](https://gitlab.com/gitlab-da/use-cases/remote-development) has an agent for Kubernetes installed, which is documented in the [agent-kubernetes-gke](https://gitlab.com/gitlab-da/use-cases/remote-development/agent-kubernetes-gke) project. This includes troubleshooting when the agent becomes unresponsive, and workspaces are not created.
-
-Assigned resources:
-
-1. The Kubernetes cluster [`de-remote-development-1`](https://console.cloud.google.com/kubernetes/list/overview?project=group-community-a29572) is running in GKE. Current resources: 3 nodes. Total 6 vCPU, 12 GB memory.
-1. The domain `remote-dev.dev` has been purchased through the Google DNS service and points to the Kubernetes cluster's public IP.
-1. The TLS certificates have been generated manually with Let's Encrypt and need to be renewed quarterly (2023-08-15), following the [documentation steps](https://gitlab.com/gitlab-da/use-cases/remote-development/agent-kubernetes-gke).
+See [Development Environments for Developer Advocates](/handbook/marketing/developer-relations/developer-advocacy/dev-environments/).
 
 ## Product Adoption Initiatives
 
