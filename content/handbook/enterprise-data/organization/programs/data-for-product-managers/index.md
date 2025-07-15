@@ -12,7 +12,7 @@ The user-facing end of GitLab's data stack consists of our BI Tool, Tableau, whi
 
 Here are some useful links that we recommend for you to bookmark:
 
-- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/): Helpful guides on how to use our data
+- [Data Guides](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/): Helpful guides on how to use our data
 - [DBT documentation](https://dbt.gitlabdata.com/#!/overview): Data model documentation
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/): Service Ping metric definitions and metadata
 - [Service Ping documentation](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)

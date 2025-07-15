@@ -22,7 +22,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Features by Group handbook page](/handbook/product/categories/features/#product-planning) contains a tabular breakdown of features included in each Stage Group by Core, Premium or Ultimate categories.
 
-- [Definitive guides to data subject areas](/handbook/enterprise-data/data-governance/data-catalog) managed by the Data team.
+- [Data Guides](/handbook/enterprise-data/data-governance/data-catalog) managed by the Data team.
 
 - [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
