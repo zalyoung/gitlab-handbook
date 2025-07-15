@@ -21,26 +21,26 @@ To test out DAST scans, we are going to set up an instance of a vulnerability we
 
 1. To start, add the DAST stage to your configuration:
 
-```yml
-stages:
-  - dast
-```
+    ```yml
+    stages:
+      - dast
+    ```
 
 1. DAST currently uses a CI/CD template, which we will include just below our stages.
 
-```yml
-include:
-  - template: DAST.gitlab-ci.yml
-```
+    ```yml
+    include:
+      - template: DAST.gitlab-ci.yml
+    ```
 
 1. Since we don't have a dedicated server, we will opt to pass the Juice Box application into DAST as a Docker service. To do this, start by defining the service below the template include:
 
-```yml
-dast:
-  services:
-    - name: bkimminich/juice-shop:v16.0.0
-      alias: juiceshop
-```
+    ```yml
+    dast:
+      services:
+        - name: bkimminich/juice-shop:v16.0.0
+          alias: juiceshop
+    ```
 
 1. We can provide many different variables to our DAST scanner. We will add the following values to the DAST scanner:
 
@@ -122,45 +122,45 @@ API scanners allow you to scan your application API endpoints for potential vuln
 
 1. To add API scanning to our container, define the `dast` stage and add the API security template.
 
-  ```yml
-  default:
-    image: docker:26
+    ```yml
+    default:
+      image: docker:26
 
-  include:
-      - template: API-Security.gitlab-ci.yml
+    include:
+        - template: API-Security.gitlab-ci.yml
 
-  stages:
-      - build
-      - dast
+    stages:
+        - build
+        - dast
 
-  variables:
-    TARGET_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-  ```
+    variables:
+      TARGET_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+    ```
 
 1. Create a build job, which creates a Docker container to scan.
 
-  ```yml
-  build:
-      stage: build
-      services:
-          - docker:26-dind
-      script:
-          - docker build -t $TARGET_IMAGE .
-          - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-          - docker push $TARGET_IMAGE   
-  ```
+    ```yml
+    build:
+        stage: build
+        services:
+            - docker:26-dind
+        script:
+            - docker build -t $TARGET_IMAGE .
+            - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+            - docker push $TARGET_IMAGE   
+    ```
 
 1. Add the job definition for the API scanner.
 
-  ```yml
-  api_security:
-      services:
-          - name: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-            alias: target
-      variables:
-          APISEC_POSTMAN_COLLECTION: postman_collection.json
-          APISEC_TARGET_URL: http://target:7777
-  ```
+    ```yml
+    api_security:
+        services:
+            - name: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+              alias: target
+        variables:
+            APISEC_POSTMAN_COLLECTION: postman_collection.json
+            APISEC_TARGET_URL: http://target:7777
+    ```
 
 1. Commit these changes and view the results once the pipeline completes.
 

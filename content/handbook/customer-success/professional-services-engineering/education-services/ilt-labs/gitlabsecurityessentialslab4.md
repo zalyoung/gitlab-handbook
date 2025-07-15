@@ -166,11 +166,11 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. We will need to make sure the Container Scanner is aware of the container that we want to scan, so to do so, we need to override the `container_scanning` job. Copy the code below to override the `CS_IMAGE` variable for the `container_scanning` job:
 
-```yml
-container_scanning:
-  variables:
-    CS_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-```
+    ```yml
+    container_scanning:
+      variables:
+        CS_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+    ```
 
 1. Commit the changes with an appropriate commit message.
 
