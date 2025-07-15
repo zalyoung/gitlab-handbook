@@ -39,3 +39,102 @@ Successfully manage incoming migrations through FY26Q2 and FY26Q3 and establish 
 - [Cutover Cancellation Impact](https://drive.google.com/drive/folders/12GInLFxnT5BPbPJh1JsemUE089-Ctj0e) 
     
 ## Process
+
+### Geo Migrations
+
+This section covers the logical groupings and worst-case time estimates for each phase. Linked are the templates that describe each task in the automation project.
+
+## KickOff (1 business day)
+
+Initial project kickoff and setup activities.
+
+## Platform Discovery & Setup (35 business days)
+
+### Tech Discovery (DRI: Technical Architect)
+
+<i class="far fa-folder-open"></i>[Tech Discovery Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/tech_discovery)
+
+- [ ] [Receive Primary Secondary Region Info](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_primary_secondary_region_info_template.md)
+- [ ] [Receive Primary Secondary Private Link Availability Info](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_primary_secondary_pvt_lnk_availability_info_template.md)
+- [ ] [Receive BYOD Info](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_byod_info_template.md)
+- [ ] [Receive Gitaly Storage Configuration](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_gitaly_storage_configuration_template.md)
+- [ ] [Receive SMTP Settings](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_smtp_settings_template.md)
+- [ ] [Share Sample Test Plan](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/share_sample_test_plan_template.md)
+- [ ] [Share Initial Cutover Plan](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/share_initial_cutover_plan_template.md)
+- [ ] [Send Switchboard Invite](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/send_switchboard_invite_template.md)
+- [ ] [Receive Secrets and SSH Keys](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_secrets_and_ssh_keys_template.md)
+
+## Configuration (45 business days)
+
+### Dedicated Instance Provisioning (DRI: EA Engineer)
+
+<i class="far fa-folder-open"></i>[Dedicated Instance Provisioning Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning)
+
+- [ ] [Receive BYOK](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/receive_byok_template.md) (DRI: Technical Architect)
+- [ ] [Provision PreProd Instance](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/provision_preprod_instance_template.md)
+- [ ] [Provision Prod Instance](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/provision_prod_instance_template.md)
+- [ ] [Configure Gitaly Storage Mappings](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/configure_gitaly_storage_mappings_template.md)
+- [ ] [Provision Grafana OpenSearch Access for Migration Team](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/provision_grafana_opensearch_access_for_migration_team_template.md)
+- [ ] [Setup Inbound Private Link for PreProd](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/setup_inbound_private_link_for_preprod_template.md)
+- [ ] [Setup Inbound Private Link for Prod](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/setup_inbound_private_link_for_prod_template.md)
+- [ ] [Setup Outbound Private Link for PreProd](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/setup_outbound_private_link_for_preprod_template.md)
+- [ ] [Setup Outbound Private Link for Prod](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/setup_outbound_private_link_for_prod_template.md)
+- [ ] [Send Switchboard Invite](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/send_switchboard_invite_template.md)
+
+### SM Instance Prep (DRI: Technical Architect)
+
+<i class="far fa-folder-open"></i>[SM Instance Prep Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/sm_instance_prep)
+
+- [ ] [Move Files to Object Storage](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sm_instance_prep/move_files_to_object_storage_template.md)
+- [ ] [Set Up Monitoring on SM Instance](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sm_instance_prep/set_up_monitoring_on_sm_instance_template.md)
+- [ ] [Provision Prod DB Read Replica](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sm_instance_prep/provision_prod_db_read_replica_template.md)
+- [ ] [Provision PreProd DB Read Replica](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sm_instance_prep/provision_preprod_db_read_replica_template.md)
+- [ ] [Configure Gitaly Storage Mappings](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sm_instance_prep/configure_gitaly_storage_mappings_template.md)
+- [ ] [Configure SM Instance as Geo Primary](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sm_instance_prep/configure_sm_instance_as_geo_primary_template.md)
+- [ ] [Increase Geo Reverification Interval](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sm_instance_prep/increase_geo_reverification_interval_template.md)
+
+## Data Sanitization (40 business days)
+
+### Data Sanitization (DRI: Geo Engineer)
+
+<i class="far fa-folder-open"></i>[Data Sanitization Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/data_sanitization)
+
+- [ ] [Data Verification Error Troubleshooting](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/data_sanitization/data_verification_error_troubleshooting_template.md)
+
+## Data Synchronization (10 business days)
+
+### Geo Sync (DRI: Geo Engineer)
+
+<i class="far fa-folder-open"></i>[Geo Sync Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/geo_sync)
+
+- [ ] [Configure PreProd for Geo Sync](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/geo_sync/configure_preprod_for_geo_sync_template.md)
+- [ ] [Configure Prod for Geo Sync](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/geo_sync/configure_prod_for_geo_sync_template.md)
+- [ ] [Geo Sync Error Troubleshooting](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/geo_sync/geo_sync_error_troubleshooting_template.md)
+- [ ] [Finalize Cutover Plan](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/geo_sync/finalize_cutover_plan_template.md)
+
+## Pre Prod Cut Over & Testing (30 business days)
+
+### PreProd Cutover (DRI: EA Engineer)
+
+<i class="far fa-folder-open"></i>[PreProd Cutover Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/preprod_cutover)
+
+- [ ] [PreProd Testing](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/preprod_cutover/preprod_testing_template.md)
+
+## Go-Live - Prod Cutover & Post Cutover Support (15 business days)
+
+### Prod Cutover (DRI: EA Engineer)
+
+<i class="far fa-folder-open"></i>[Prod Cutover Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/prod_cutover)
+
+- [ ] [Post Cutover Dedicated Instance Upgrades](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/prod_cutover/post_cutover_dedicated_instance_upgrades_template.md)
+
+### Post Cutover (DRI: EA Engineer)
+
+<i class="far fa-folder-open"></i>[Post Cutover Templates](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/tree/main/.gitlab/issue_templates/geo/post_cutover)
+
+- [ ] [Set Up Geo Secondary](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/post_cutover/set_up_geo_secondary_template.md)
+- [ ] [Rebalance Gitaly Repository Storage](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/post_cutover/rebalance_gitaly_repository_storage_template.md)
+
+### Operational Activities (DRI: EA Engineer + Project Manager)
+
+- [ ] [Operational Activities Epic](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/sub_epics/operational_activities_epic_template.md) (Epic template only)
