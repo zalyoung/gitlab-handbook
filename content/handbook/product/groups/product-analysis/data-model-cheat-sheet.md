@@ -19,7 +19,6 @@ To collaborate on the content in this page, please either submit an MR (preferre
 
 - [Table of data sources and refresh schedules](/handbook/enterprise-data/platform/#data-sources) to understand standard load times for each data source.
 
-
 ## Data Model Categories
 
 These categories are grouped by data source and subject area.
