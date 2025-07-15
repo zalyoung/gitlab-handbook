@@ -235,6 +235,7 @@ When you encounter content in a shortcode and want to edit it:
    - For example, look in `https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators` for the `ux_department` file.
    - If there is no comment, you can post in `#handbook` to get help, and make a MR to add it.
 1. [Edit the file](#use-the-web-ide-to-edit-the-handbook), being careful to match the existing formatting.
+1. See the [Development Docs](/docs/development/#cross-project-tests) for more info on how to test that change.
 
 ## Team member merge requests being labeled as Community contributions
 
