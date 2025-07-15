@@ -268,7 +268,7 @@
 /content/handbook/company/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
-/content/handbook/it/ @mbeee @ericrubin @dzhu-gl @smanzuik @joshlemos
+/content/handbook/it/ @mbeee @dzhu-gl @smanzuik @joshlemos
 
 ^[legal]
 /content/handbook/company/esg.md @robin @slcline
@@ -534,7 +534,7 @@
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @juliedavila @cibericua @jdicken
-/content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee
+/content/handbook/security/corporate/ @smanzuik @dzhu-gl @mbeee
 /content/handbook/security/customer-support-operations/ @lyle @jcolyer @dtragjasi
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
@@ -695,7 +695,7 @@
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/corporate/end-user-services/access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/corporate/end-user-services/access-requests/_index.md @NabithaRao @mbeee @gitlab-com/egroup @gitlab-com/content-sites @smanzuik
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @rallen3 @emilyplotkin @bill_staples @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @rallen3 @kiacobucci @gitlab-com/egroup @gitlab-com/content-sites
