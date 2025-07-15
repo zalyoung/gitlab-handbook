@@ -253,9 +253,9 @@ To find our stable counterparts, look at the Pipeline Execution [product categor
 
 ## Technologies
 
-Like most GitLab backend teams we spend a lot of time working in Rails on the main [GitLab CE app](https://gitlab.com/gitlab-org/gitlab-ce),
-but we also do a lot of work in Go which is the language that [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner)
-is written in. Familiarity with Docker and Kubernetes is also useful on our team.
+- Like most GitLab backend teams we spend a lot of time working in Rails on the main [GitLab CE app](https://gitlab.com/gitlab-org/gitlab-ce),
+- Being a high-traffic part of the application, we work very closely with [CI Platform]() and the [Database team]() to maintain a performant PostgreSQL database.
+- Familiarity with Docker and Kubernetes is also useful on our team.
 
 ## Useful Links
 
