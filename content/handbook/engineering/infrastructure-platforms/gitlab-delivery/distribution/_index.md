@@ -95,7 +95,6 @@ Build team focus is ensuring GitLab components are tested, current, license comp
 
 Deploy team focus is configuration, deployment, and operation of GitLab as a whole product. The goal is to deliver an intuitive, clear, and frictionless installation experience, followed by smooth, seamless upgrade and maintenance processes for deployments of any scale. We strive to deliver ongoing operational behaviors for scaling, little to zero downtime upgrades, and highly reliable experiences for not only instance administrators but their users.
 
-
 ## Team members
 
 ### Distribution Build Team
