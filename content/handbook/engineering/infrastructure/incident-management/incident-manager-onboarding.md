@@ -103,9 +103,13 @@ Before your shift ends, consider what tasks need to be handed over and make sure
 
 ### Who are the Incident Managers?
 
-Incident Manager responsibilities are expected of Engineering Management and Staff+ Engineer job families in the Development and Infrastructure departments. Previously, Incident Manager responsibilities were fulfilled by a small group of managers in the Infrastructure department.  All team members in these eligible roles are expected to participate in the Incident Manager rotation.
+Incident Manager responsibilities are expected of Engineering Management and Staff+ Engineer job families in the Development and Infrastructure departments.
+All team members in these eligible roles are expected to participate in the Incident Manager rotation.
 
-In some cases, Senior Engineers may also participate as Incident Managers. This is particularly useful as Senior Engineers look for additional opportunities for growth in their role and as they prepare for future promotion opportunities. Senior Engineers may join the Incident Manager pool by opening an Incident Manager onboarding Issue and having their manager indicate approval in the Issue. As noted elsewhere, Team Members should only participate in one duty similar to this role, so should not also participate in Dev On-call at the same time (for example). When approving the request, managers shall be mindful of certain regions where a balance between Incident Manager and Dev Oncall needs to be maintained because the eligible people overlap and both programs must be fully staffed.
+Team Members should only participate in one on-call rotation.
+Staff+ Engineer job families and team members in Management roles who are already part of an on-call rotation are not required to join the Incident Manager rotation.
+
+In some cases, Senior Engineers may also participate as Incident Managers. This is particularly useful as Senior Engineers look for additional opportunities for growth in their role and as they prepare for future promotion opportunities. Senior Engineers may join the Incident Manager pool by opening an Incident Manager onboarding Issue and having their manager indicate approval in the Issue.
 
 ### Is this a volunteer effort?
 
