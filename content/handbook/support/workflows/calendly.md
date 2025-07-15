@@ -59,8 +59,8 @@ Only slots starting at the top of the hour are offered. If you've got 90 minutes
 or a (say) a 14:30-15:30 window available, then reducing the increment to 30 minutes increases your availability.
 
 - Log in and edit the event type
-- Click on `Scheduling settings`
-- Under `Additional options`, select a time interval under `Start time increments`
+- Click on `More Options`
+- Under `Booking Page Options` dropdown, select a time interval under `Start time increments`
 
 If you have any other meeting lengths available, consider whether it makes sense to offer different start times.
 You can view your calendly availability using a private/incognito browser session.
