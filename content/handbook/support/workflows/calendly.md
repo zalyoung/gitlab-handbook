@@ -79,9 +79,9 @@ You can specify scheduling conditions that disallow scheduling events within a c
 of an event start time.
 
 1. Log in and edit the event type
-1. Click `Scheduling settings`
-1. Under `Event limits`, select a time interval under `Minimum notice`
-1. Click `Save and close`
+1. Click `Availability` dropdown
+1. Under `Date-Range`, select an appropriate notice period from the list of dropdown values. The default us `4 hours`
+1. Click `Save changes`
 
 ## Support calls in the team calendar
 
