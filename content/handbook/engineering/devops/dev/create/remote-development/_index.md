@@ -162,7 +162,7 @@ Our group's [planning process](#-planning-process) is velocity-based. This means
 estimates in software are inherently inaccurate. Some estimates will be too high, and some will be too low.
 The important thing is that we are _disciplined_ about
 [investigating and breaking down large issues into small ones before estimation](#-investigations-and-breaking-down-large-issues),
-and are _consistent_ about [the weights which we use for issues](https://handbook.gitlab.com/handbook/engineering/devops/dev/create/remote-development/#-what-weights-to-use).
+and are _consistent_ about [the weights which we use for issues](#-what-weights-to-use).
 
 Thus, the primary goal of our velocity-based process is to predict the _rate_ at which we can work through
 the list of prioritized, refined, and estimated issues in order to deliver value.
@@ -182,7 +182,7 @@ to cut scope if the requested deadline is _not achievable based on our estimates
 However, **it is also the responsibility of management and stakeholders to**:
 
 1. Communicate the _TYPE_ of deadline which is being requested
-2. To follow our value of [transparency](https://handbook.gitlab.com/handbook/values/#transparency) in communicating _WHY_ the deadline must be met
+2. To follow our value of [transparency](../../../../../values/#transparency) in communicating _WHY_ the deadline must be met
 
 Thus, we use the following terminologies for "types" of deadlines (inspired by [this article](https://web.archive.org/web/20250505071143/https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html#rule-19-be-explicit-about-the-difference-between-hard-deadlines-soft-deadlines-internal-deadlines-and-expected-completion-dates)):
 
@@ -195,7 +195,7 @@ Any time a deadline is requested, the stakeholder or requester is also required 
 
 1. Which _type_ of deadline it is
 1. If one type of deadline is being changed to a different type
-1. _Why_ the deadline is needed and important, with as much [transparency](https://handbook.gitlab.com/handbook/values/#transparency) as possible while still keeping information [SAFE](https://handbook.gitlab.com/handbook/legal/safe-framework/).
+1. _Why_ the deadline is needed and important, with as much [transparency](../../../../../values/#transparency) as possible while still keeping information [SAFE](../../../../../legal/safe-framework/).
 
 Of course, it is often the case that internal deadlines are required to be "on track" for hard deadlines,
 or there are other dependencies between different deadlines.
@@ -204,7 +204,7 @@ But every engineer is empowered to call out when _internal deadlines_ are presen
 with no transparent justification of _WHY_ a hard deadline is needed.
 
 Thus, the goal is to avoid setting arbitrary deadlines with no transparent "_WHY_", which unnecessarily pressures people
-into [working too many hours](https://handbook.gitlab.com/handbook/values/#measure-impact-not-activity)
+into [working too many hours](../../../../../values/#measure-impact-not-activity)
 and sets a team culture of unhealthy and [unsustainable pace](https://agilealliance.org/glossary/sustainable-pace/).
 
 ## 🤖 Planning Process
