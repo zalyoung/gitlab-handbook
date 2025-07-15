@@ -35,7 +35,8 @@ and modifying the requirement for a General Availabitiy features launch to inclu
 Launching new features on Self-Managed Foundation would become optional.
 
 Any future path for Self-Managed must retain a simple initial adoption, which has built our customer base so successfully over time.
-Analysis of Usage Ping data clearly shows GitLab's customer base has grown very accustomed to the reliability and consistency of the Omnibus experience, which has earned a reputation of reliable simplicity.
+[Analysis of Usage Ping data](https://docs.google.com/presentation/d/1iIDrMYXrw48A6Kj3PK9AeZ6x3YKYmes4mu2jXm5H8us/edit?slide=id.g35e93cc924b_0_58#slide=id.g35e93cc924b_0_58)
+clearly shows GitLab's customer base has grown very accustomed to the reliability and consistency of the Omnibus experience, which has earned a reputation of reliable simplicity.
 The Omnibus GitLab has succeeded in its mission, however that massive success has directly delivered us a challenge.
 
 The customer, paid or unpaid, experience of simplistic but efficacious instances is the origin of our current juxtaposition: balancing reliable simplicity against the architectural complexity required to deliver the current roadmap.
