@@ -210,6 +210,12 @@ It's not recommended to have more than a few hosts because it can get a bit conf
 
 1. *Optional* **HEADER IMAGE**: If applicable, click on branding and update the header.
 1. *Optional* **POLLING**: If applicable, add polling questions to the webcast or workshop by following the instructions in the video below. You do not need to make the polling question answers anonymous. Canned questions (utilized for webcasts only) are not added to Zoom but can be added to the Day Of Agenda so all presenters/moderators have access.
+1. *Optional* **SURVEY**: If applicable, if you want to gather feedback from attendees, you can set up a post-webinar survey that will automatically launch when participants leave the webcast. Please follow the below steps:
+   - Click the name of the webinar you want to add a survey to
+   - Click the Survey tab
+   - Choose either - Create New Survey: This option takes you to the survey builder to create a new survey. Select the question type for the first question. Click + Add Question, to add another question to the survey. Click Save to allow the survey to be sent after webinars
+   - or Use a 3rd Party Survey - If you would like to use a survey outside of Zoom example, google form. Click Use a 3rd party survey. Enter the link to the survey you want to use. Click Save.
+  - For more details on zoom post event suveys, [click here](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066485).
 1. **WATCH ATTENDEE MAX**: Make sure to regularly monitor the registration counts (webcast capacity is 1,000 attendees) and workshop capacities [listed here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-registration-caps-and-closing-registration). If your workshop or webcast capacity is reached, please follow the instructions [here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#workshop-registration-caps-and-closing-registration) to close registration.
 
 **Adding poll questions to a webcast**
