@@ -498,8 +498,6 @@ Please respond to comments in the MR thread as soon as possible. We have a non-n
 
 Please add the `documentation_link` at the same time you add a content block to the release post. When you leave it to add it later, you will probably forget it, the reviewer will ping you later on during the review stage, and you will have little time to write, get your MR reviewed, approved, merged, and available in [the documentation](https://docs.gitlab.com/).
 
-Always link to the "EE" version of GitLab docs `https://docs.gitlab.com/ee/` (not `/ce/`) in the blog post, even if it is a CE feature.
-
 ## PMM Reviewers
 
 ### Messaging review
