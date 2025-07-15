@@ -427,6 +427,79 @@ The uninstall process is the same regardless of whether a package is managed or 
    - An example of this could be SFDC fields that are part of the package.
 7. Remove the package from production, update the issue and close out.
 
+##### List of Installed Packages (Salesforce Integrations)
+
+| DurableId | MajorVersion | MinorVersion | Name | NamespacePrefix |
+|-----------|--------------|--------------|------|----------------|
+| sixsense | 4 | 13 | 6sense | sixsense |
+| affectlayer | 1 | 167 | AffectLayer Inc | affectlayer |
+| APXTConga4 | 8 | 276 | AppExtremes | APXTConga4 |
+| crwd | 1 | 45 | Base | crwd |
+| bizible2_DashMT | 5 | 3 | Bizib le | bizible2_DashMT |
+| bizible2 | 6 | 15 | Bizible | bizible2 |
+| PSQuote | 1 | 12 | CLD Partners, LLC | PSQuote |
+| ca_collab_2_0 | 7 | 2 | Community Analytics | ca_collab_2_0 |
+| APXT_Redlining | 2 | 132 | Conga Contracts | APXT_Redlining |
+| crayon | 1 | 5 | Crayon | crayon |
+| dfsle | 4 | 1 | DocuSign | dfsle |
+| DNBConnect | 2 | 4 | Dun & Bradstreet, Inc. | DNBConnect |
+| ecosystems_svcs | 1 | 27 | Ecosystems, LLC - ea16 | ecosystems_svcs |
+|  | 1 | 4 | FDLC - Inline Account Hierarchy Package |  |
+|  | 1 | 10 | Force.com Labs - Mass Lead Converter |  |
+| JBCXM | 6 | 39 | Gainsight, Inc. | JBCXM |
+| Gong | 2 | 31 | Gong | Gong |
+|  | 2 | 0 | Groove Insights Development |  |
+| DaScoopComposer | 9 | 201 | GRVLBS | DaScoopComposer |
+| HG_Insights | 1 | 8 | HG Insights | HG_Insights |
+| highspot | 2 | 124 | Highspot Inc. | highspot |
+| ImpartnerBP2 | 1 | 4 | Impartner - Business Plan 2 | ImpartnerBP2 |
+|  | 1 | 0 | Impartner Extensions |  |
+|  | 1 | 0 | Impartner Extensions |  |
+| ImpartnerMDF | 1 | 0 | Impartner MDF | ImpartnerMDF |
+| ImpartnerPRM | 1 | 0 | Impartner PRM | ImpartnerPRM |
+| jiffle | 5 | 1 | Jifflenow Corp | jiffle |
+| Labra | 2 | 15 | Labra | Labra |
+| linkedin_si | 1 | 12 | LinkedIn | linkedin_si |
+| LID | 3 | 62 | LinkedIn Sales Navigator | LID |
+| XtlyEstMapping | 1 | 27 | Mapper | XtlyEstMapping |
+| mkto_si | 2 | 3 | Marketo, Inc. | mkto_si |
+| mavenlink | 2 | 6 | Mavenlink Integrations | mavenlink |
+|  | 0 | 3 | Mitch Spano |  |
+|  | 1 | 0 | Mutiny HQ Corporation |  |
+| p0pFD | 1 | 44 | Partner Packaging FieldDump | p0pFD |
+| rh2 | 21 | 9 | Passage Technology | rh2 |
+| rhx | 8 | 0 | Passage Technology | rhx |
+|  | 1 | 8 | Qualified.com, Inc. |  |
+|  | 1 | 5 | Qualified.com, Inc. |  |
+| Field_Trip | 1 | 3 | RingLead | Field_Trip |
+| safebase | 1 | 15 | SafeBase | safebase |
+| OIQ | 1 | 0 | Salesforce | OIQ |
+| SIQCloud | 1 | 0 | Salesforce | SIQCloud |
+| LEXMAGICMOVER | 4 | 15 | Salesforce | LEXMAGICMOVER |
+| maps | 254 | 24 | Salesforce Maps | maps |
+| relateiq | 2 | 0 | Salesforce.com | relateiq |
+| sf_chttr_apps | 1 | 23 | Salesforce.com | sf_chttr_apps |
+| sf_com_apps | 1 | 7 | Salesforce.com | sf_com_apps |
+|  | 1 | 0 | salesforce.com |  |
+| EditQuotas | 1 | 8 | Salesforce.com | EditQuotas |
+|  | 1 | 0 | salesforce.com |  |
+| sfadminapps | 1 | 1 | SalesforceA Connected Apps | sfadminapps |
+| Sertifi2_0 | 2016 | 707 | Sertifi | Sertifi2_0 |
+|  | 1 | 8 | SFDC |  |
+| SIGSTR | 1 | 5 | Sigstr | SIGSTR |
+| SA_TABOVER | 1 | 4 | Software Anywhere | SA_TABOVER |
+| TracHier | 4 | 55 | Traction Labs | TracHier |
+| TracRTC | 5 | 42 | Traction Labs | TracRTC |
+| UserGem | 2 | 48 | UserGems Apps | UserGem |
+| VartopiaDRS | 1 | 85 | Vartopia | VartopiaDRS |
+| activities | 2 | 15 | VersatileCapitalist, Inc | activities |
+| ECUSTOMS | 1 | 19 | VisualCompliance | ECUSTOMS |
+| XactlyCorp | 9 | 66 | Xactly Corporation | XactlyCorp |
+| ZVC | 2 | 16 | Zoom | ZVC |
+| DOZISF | 1 | 39 | ZoomInfo-QA | DOZISF |
+| zqu | 10 | 29 | Zuora | zqu |
+| Zuora | 5 | 20 | Zuora, Inc. | Zuora |
+
 ### Field & Process Deprecation
 
 - Since field & process deprecation is as common an occurrence as the creation it is important that the system team implements a repeatable process that we can leverage when deprecating any fields pr processes.
