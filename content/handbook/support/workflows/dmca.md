@@ -18,6 +18,8 @@ All new `DMCA` requests can be sent to <dmca@gitlab.com> for review by Legal and
 
 The Abuse team will continue to maintain a single channel of communication with the requestor through the open `Abuse Issue` created when the request is received via <dmca@gitlab.com>.
 
+Please also direct counter-notices and responses to <dmca@gitlab.com>.
+
 ## DMCA Requirements
 
 Recommended template of requirements when submitting a DMCA request to <dmca@gitlab.com>
