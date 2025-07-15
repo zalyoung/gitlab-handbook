@@ -199,12 +199,16 @@ These are our high-level engineering driven goals for the year:
 
 ---
 
-### Additional Team Responsibilities
+## Additional Team Responsibilities
 
 These roles/responsibilities will be assigned to team members on a rotating basis to ensure we spread the load across
 the full team, and no individual has undue hardship by being the only "go-to" person for any of these tasks.
 
-#### Front-line Responder
+### Front-line Responder
+
+**Program paused while we implement a new Tier-2 Dev On-Call system**
+
+<details>
 
 This team member will have the following responsibilities for the milestone (in priority order) and will not have any assigned ~Deliverable items:
 
@@ -229,18 +233,19 @@ The milestone's Front-line Responder will be responsible for following up on suc
 They are not expected to be on-call 24/7 during the milestone.
 At the end of the milestone, any issues that are still ongoing, may be transitioned to the incoming First Responder. If it makes sense for the original team member to continue being the DRI, this can also be done.
 
-#### Community Coordinator
+</details>
+
+### Community Coordinator
+
+**Program paused while we implement the new R&D interlock scheduling process**
+
+<details>
 
 This team member will have the following responsibilities for the milestone in addition to their ~Deliverable task:
 
 1. Do a first pass over any new community contributions as identified in the weekly [`Verify Pipeline teams: Community contributions report`](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Community%20contribution&label_name%5B%5D=devops%3A%3Averify&first_page_size=20) to ensure they seem like they are on the right track.
 
-#### Rotation Schedule
-
-**Program Paused**
-
-| Milestone | Front-line Responder | Community Coordinator |
-| --------- | -------------------- | --------------------- |
+</details>
 
 ## Stable Counterparts
 
