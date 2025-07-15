@@ -280,10 +280,6 @@ For those new to the team, these links may be helpful in learning more about the
 - [CI Backend Architectural Walkthrough - May 2020](https://www.youtube.com/watch?v=ew4BwohS5OY)
 - [Frontend CI product / codebase overview - June 2020](https://www.youtube.com/watch?v=7CUd7aAUiWo)
 
-## Dashboards
-
-See [internal handbook page](https://internal.gitlab.com/handbook/engineering/core-development/ci/verify/pipeline-execution)
-
 ### Cross-functional prioritisation
 
 The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on.
