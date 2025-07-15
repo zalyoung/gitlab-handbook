@@ -32,7 +32,7 @@ Document statuses you can use:
 
 This proposal recommends segmenting our current Self-Managed deployment offerings into two distinct tiers: Self-Managed Foundation (`SMF`) and Self-Managed Scaled (`SMS`),
 and modifying the requirement for a General Availabitiy features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Scaled.
-Launching new features on Self-Managed Foundation would become optional.
+Launching new features on Self-Managed Foundation would become conditional, as SMF would not receive further service components a feature might require.
 
 Any future path for Self-Managed must retain a simple initial adoption, which has built our customer base so successfully over time.
 [Analysis of Usage Ping data](https://docs.google.com/presentation/d/1iIDrMYXrw48A6Kj3PK9AeZ6x3YKYmes4mu2jXm5H8us/edit?slide=id.g35e93cc924b_0_58#slide=id.g35e93cc924b_0_58)
