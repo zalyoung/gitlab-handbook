@@ -14,7 +14,8 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
 1. GitLab's Prometheus server can be reached via TCP port 9090. Unfortunately, the training environment currently blocks inbound traffic to that port. As a workaround, you can open an SSH tunnel as follows.
 
     ```bash
-    ssh -L 9090:localhost:9090 -i <SSH_KEY_NAME> root@<GITLAB_INSTANCE_HOSTNAME>
+    ssh -L 9090:localhost:9090 -i <SSH_KEY_NAME> student-user@<BASTION_SERVER_IP>
+    ssh -L 9090:localhost:9090 -i ~/.ssh/ilt_key root@<OMNIBUS_IP>
     ```
 
 1. Navigate to `http://localhost:9090` in a web browser to view the built-in Prometheus server.
@@ -69,7 +70,7 @@ There are a variety of different metrics administrators can use to monitor the p
 
     > This query will show you the percentage of memory available on your instance.
 
-1. Click **Graph** to view the percentage of memory over time.
+1. Click the **Graph** tab to view the percentage of memory over time.
 
 1. In the query input, delete your previous query and replace it with the following query:
 
@@ -99,7 +100,7 @@ Grafana provides you with a method of visualizing logs and metrics for your GitL
 
 1. Start the Grafana server using `sudo systemctl start grafana-server`.
 
-1. To verify that Grafana is running, navigate to `http://your-ip:3000/login`. Your default username and password are `admin`.
+1. To verify that Grafana is running, navigate to `http://your-omnibus-ip:3000/login`. Your default username and password are `admin`.
 
 ## Task C. Configure Grafana to collect logs
 
@@ -131,48 +132,110 @@ Grafana provides you with useful tools for log collection and analysis. Let's se
     - `job`: A unique name for the log scraping job.
     - `__path__`: The location of the log files.
 
-1. As an example, copy the following `scrape_configs` into your Grafana configuration file, replacing teh existing `scrape_configs` file.
+1. As an example, copy the following `scrape_configs` into your Grafana configuration file, replacing the existing `scrape_configs` file.
 
     ```yml
-
-        scrape_configs:
-        - job_name: nginx
-        static_configs:
-        - targets:
-            - localhost
-            labels:
-            job: nginx
-            __path__: /var/log/gitlab/nginx/*
-
-        - job_name: workhorse
-        static_configs:
-        - targets:
-            - localhost
-            labels:
-            job: workhorse
-            __path__: /var/log/gitlab/gitlab-workhorse/*
-
-        - job_name: rails
-        static_configs:
-        - targets:
-            - localhost
-            labels:
-            job: rails
-            __path__: /var/log/gitlab/gitlab-rails/production_json.log
+    scrape_configs:
+    - job_name: nginx
+    static_configs:
+    - targets:
+        - localhost
+        labels:
+        job: nginx
+        __path__: /var/log/gitlab/nginx/*
+    - job_name: workhorse
+    static_configs:
+    - targets:
+        - localhost
+        labels:
+        job: workhorse
+        __path__: /var/log/gitlab/gitlab-workhorse/*
+    - job_name: rails
+    static_configs:
+    - targets:
+        - localhost
+        labels:
+        job: rails
+        __path__: /var/log/gitlab/gitlab-rails/production_json.log
 
     ```
 
     > This configuration adds three log files to Grafana: Nginx, Workhorse, and rails.
 
-1. After adding this data, save the file. Restart `promtail` using `sudo systemctl restart promtail`.
+1. After adding this data, save the file. Restart `promtail` using `sudo systemctl restart promtail`. Validate that your service is running with `sudo systemctl status promtail`. 
+
+1. In any text editor, open the file `/etc/loki/config.yml`. Comment out or remove the last three lines related to `querier:`. Your final file will look like this:
+
+    ```yml
+    auth_enabled: false
+
+    server:
+    http_listen_port: 3100
+    grpc_listen_port: 9096
+    log_level: debug
+    grpc_server_max_concurrent_streams: 1000
+
+    common:
+    instance_addr: 127.0.0.1
+    path_prefix: /tmp/loki
+    storage:
+        filesystem:
+        chunks_directory: /tmp/loki/chunks
+        rules_directory: /tmp/loki/rules
+    replication_factor: 1
+    ring:
+        kvstore:
+        store: inmemory
+
+    query_range:
+    results_cache:
+        cache:
+        embedded_cache:
+            enabled: true
+            max_size_mb: 100
+
+    limits_config:
+    metric_aggregation_enabled: true
+
+    schema_config:
+    configs:
+        - from: 2020-10-24
+        store: tsdb
+        object_store: filesystem
+        schema: v13
+        index:
+            prefix: index_
+            period: 24h
+
+    pattern_ingester:
+    enabled: true
+    metric_aggregation:
+        loki_address: localhost:3100
+
+    ruler:
+    alertmanager_url: http://localhost:9093
+
+    frontend:
+    encoding: protobuf
+
+    #querier:
+    #  engine:
+    #    enable_multi_variant_queries: true
+    ```
+
+1. Save the file. Restart `loki` using `sudo systemctl restart loki`. Validate that your service is running with `sudo systemctl status loki`. 
+
+1. We also need our logs to be readable by promtail and loki. To do this, we will modify the permissions using the command: `chmod -R 755 /var/log/gitlab`. 
 
 1. With this complete, navigate to Grafana at `http://your-gitlab-ip:3000/login`.
 
 1. Authenticate as your admin user.
 
-1. In the left sidebar, select **Connections > Data Sources**.
+1. In the left sidebar, select **Connections > Add new connection**.
 
 1. Select **Loki**.
+
+1. Select **Add new data source**.
 
 1. In the **URL**, input `http://localhost:3100`.
 
