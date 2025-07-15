@@ -282,7 +282,9 @@ For those new to the team, these links may be helpful in learning more about the
 
 ## How We Work
 
-The [Pipeline Execution Workflow board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) is the source of truth for current and upcoming work.
+### What are we doing right now?
+
+The [Pipeline Execution Workflow board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) is the source of truth for in-flight development work.
 
 ### Planning
 
