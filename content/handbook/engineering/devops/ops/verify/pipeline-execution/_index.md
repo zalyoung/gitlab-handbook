@@ -199,10 +199,6 @@ These are our high-level engineering driven goals for the year:
 
 ---
 
-## Team Members
-
-{{< team-by-manager-role role="Fullstack Engineering Manager, Verify:Pipeline Execution" >}}
-
 ### Additional Team Responsibilities
 
 These roles/responsibilities will be assigned to team members on a rotating basis to ensure we spread the load across
