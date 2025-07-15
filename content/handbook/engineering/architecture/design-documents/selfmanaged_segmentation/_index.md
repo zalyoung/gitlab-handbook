@@ -146,9 +146,9 @@ Until that is possible, a similar flow will be described around the choices of "
 ### Omnibus-Adjacent Kubernetes (OAK)
 
 We explored several paths after the discussions of the FY26 CTO Summit, within [Navigating a route towards cloud native](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/) (future, `NRTCN`).
-[That exploration](https://docs.google.com/document/d/1a_3GAdXnCB0l8f6OR-bSft6BPZ5pWuCyw76ShsKpgfM/edit?tab=t.0) facilitated our proposal here,
-to present a distinct plan to expect a Kubernetes cluster adjacent to the existing Omnibus functionality. We believe that this pattern can form the basis of
-the Self-Managed Scaled for customers not yet operating their instances with cloud native patterns.
+[That exploration](https://docs.google.com/document/d/1a_3GAdXnCB0l8f6OR-bSft6BPZ5pWuCyw76ShsKpgfM/edit?tab=t.0)
+facilitated this proposal, presenting a plan to expect a Kubernetes cluster adjacent to an existing Omnibus.
+We believe that this pattern can form the basis of the Self-Managed Scaled for customers not yet operating their instances with cloud native patterns.
 
 Essentially, existing functionality and core features will be easily available to these customers in their current infrastructure design.
 As they seek to consume new Premium and Ultimate features, they will implement and familiarize themselves with cloud native infrastructure as they bring Kubernetes into play for the auxiliary services of GitLab.
@@ -156,9 +156,7 @@ Over time, they will see the benefits to cloud native infrastructure and begin t
 
 For those customers who are already operating with cloud native patterns, but are not operating their GitLab instance(s) within them, this will encourage them to transition their GitLab instances to cloud native.
 
-OAK can be effectively visualized as below:
-
-![OAK scoped SMS](/images/handbook/engineering/architecture/design-documents/selfmanaged_segmentation/oak_diagram_scope.png)
+OAK can be effectively visualized in the [illustrations below](#illustrated-stages-of-transition).
 
 Omnibus's existing scope should grow in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
 
