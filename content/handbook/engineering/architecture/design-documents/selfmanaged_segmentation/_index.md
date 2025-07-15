@@ -31,38 +31,52 @@ Document statuses you can use:
 ## Summary
 
 This proposal recommends segmenting our current Self-Managed deployment offerings into two distinct tiers: Self-Managed Foundation (`SMF`) and Self-Managed Scaled (`SMS`),
-and modifying the requirement for a GA features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Scaled.
+and modifying the requirement for a General Availabitiy features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Scaled.
 Launching new features on Self-Managed Foundation would become optional.
 
+Any future path for Self-Managed must retain a simple initial adoption, which has built our customer base so successfully over time.
+Analysis of Usage Ping data clearly shows GitLab's customer base has grown very accustomed to the reliability and consistency of the Omnibus experience, which has earned a reputation of reliable simplicity.
+The Omnibus GitLab has succeeded in its mission, however that massive success has directly delivered us a challenge.
+
+The customer, paid or unpaid, experience of simplistic but efficacious instances is the origin of our current juxtaposition: balancing reliable simplicity against the architectural complexity required to deliver the current roadmap.
+
+> _"Great Momentum requires Gradual Change"_
+
 The current approach to adding components for consumption by Self-Managed customers is hindering the rate at which we can deliver features to our customers.
-This is made clear by the current and growing backlog of new components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture.
+This is made clear by the current backlog of components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture.
+While we do not expect our components to expand indefinitely, the backlog is highly impacted by the complexity of the services which need to be configured, and the highly manual nature of those configurations and inter-connections.
 We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
-A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure needs on SMS while maintaining support for current customers with traditional deployment requirements through SMF.
+A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure on SMS, while maintaining support for current customers with traditional deployment requirements through SMF.
 
-The Omnibus GitLab package is not being abandoned, but we require cloud-native for future new and optional components of Premium/Ultimate.
-
-This proposal describes implementing a form of [Option 2: Prioritize/favour Hybrid Kubernetes Going Forward](https://docs.google.com/document/d/1f8Ty_AE9IX2cawkyCLsEy7DkjD9zIgcifN7yQBgs2Uo/edit?tab=t.0#bookmark=id.cke52h57bu0i)
+Throughout this proposal, we describe implementing a form of [Option 2: Prioritize/favour Hybrid Kubernetes Going Forward](https://docs.google.com/document/d/1f8Ty_AE9IX2cawkyCLsEy7DkjD9zIgcifN7yQBgs2Uo/edit?tab=t.0#bookmark=id.cke52h57bu0i)
 of the Cloud Native GitLab session from FY26 CTO Summit, while facilitating faster delivery through focused priority on cloud-native implementations of
 supplemental enterprise feature requirements. It is focused on the [Omnibus-Adjacent Cluster](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/edit?tab=t.0#heading=h.ro7ivridf2pb)
 described in "Navigating a route towards cloud native".
 
-_"Great Momentum requires Gradual Change"_
+The Omnibus GitLab package will not be abandoned, but we will require cloud-native implementation for future optional components of Premium/Ultimate.
 
 ## Motivation
 
-The current Self-Managed option has been built and perfected to lower the entry point to running GitLab. All optimisations over the past 10 years have been done in order to serve all infrastructure designs under a single feature launch umbrella.
+The current Self-Managed option has been built and perfected to lower the entry point of operating GitLab. All optimisations over the past 10 years have been done in order to serve all infrastructure designs under a single feature launch umbrella.
 This creates significant engineering complexity as we try to deliver advanced features (for example: Security features as part of Ultimate) across vastly different infrastructure environments.
-As a specific example, we have several features in the pipeline that will require ClickHouse being available, which is not available in Omnibus, and would be a complex component to implement via Omnibus.
-Our customers love the simplicity of Omnibus, but this has started to empede our ability to drive change fast in order to integrate and manage everything ourselves.
+As a specific example, we have several features in the pipeline that will require ClickHouse being available. ClickHouse is not implemented within the Omnibus today due to inherent complexities of scale.
+Our customers love the simplicity of Omnibus, but this has started to impede our ability to drive change quickly and cohesively. All this in an effort to integrate and manage everything in service to our customers' experience.
 
-Cloud-native deployments enable critical capabilities—such as auto-scaling, self-healing, and efficient resource sharing—that traditional OS-level installations cannot efficiently support, or that we do not have the engineering bandwidth to deliver to all deployment methods at the expected quality within an appropriate span of time.
-In particular, the traditional model faces fundamental scalability challenges, requiring dedicated system resources and separate process management for each component.
-These underlying limitations necessitate our Reference Architectures' node-per-component strategy—dedicating separate nodes to each service like consul, pgbouncer, and so on, along with requirements such as separate load balancers and shared storage.
-In HA environments requiring a minimum of three nodes per component, even modest deployments can demand 20-30+ VMs, doubling with Geo DR. Unlike modern containerized workloads that efficiently share resources and scale dynamically, the Linux package model forces static resource allocation and cannot adapt well to actual load patterns.
-As components continue to grow, this traditional approach will prove fundamentally unsustainable, costly with many idle nodes, and creates the scaling limitations that have become a common focal point in customer conversations.
+Cloud-native deployments enable critical capabilities we desire: auto-scaling, self-healing, and efficient resource sharing. These are not efficiently supported by traditional OS-level installations. We do not have the engineering bandwidth to deliver to all deployment methods, at the expected quality, within an appropriate span of time.
 
-We can already demonstrate that cloud-native deployments enable customers to scale GitLab with significantly more efficiency.
-To service customers of higher complexity and larger scale, we should look to focusing our release to SMS as cloud-native first.
+Traditional Omnibus-based architectures face fundamental scalability challenges, requiring dedicated system resources and separate process management for each component.
+Unlike modern containerized workloads that efficiently share resources and scale dynamically, the Linux package model forces static resource allocation and cannot adapt well to load patterns.
+We saw these challenges with the implementation of GitLab.com, and we have seen it again across the implementation of the Reference Architectures.
+Basing a scaled instance upon the Omnibus, we are forced to make use of a node-per-component strategy with dedicated nodes for each core service.
+Providing High Availability for components further multiplies the resource consumption, resulting in even modest deployments demanding over 20 VMs. Enabling Geo for Disaster Recovery doubles this, with a full mirror infrastructure for each supplemental region.
+As the number of components continues to grow, the Omnibus-based approach further proves to be unsustainable and costly, consuming excess resources.
+These limitations and efficiency concerns have become a common focal point in customer conversations.
+
+GitLab.com has already demonstrated that cloud-native deployments enable scaling GitLab with significantly more efficiency.
+Our customers that are making use of the Reference Architectures in the Cloud Native Hybrid forms have experienced this first-hand.
+To service our customers of higher complexity and larger scale, we should focus our Premium/Ultimate feature releases to SMS, which is cloud-native first.
+To service our customers who continue to thrive with the Omnibus, we must continue to support them through SMF, while also providing evidence of the value-add SMS brings.
+Through SMS, we incentivise a conversion of all customers to fully cloud native architectures.
 
 ### Goals
 
