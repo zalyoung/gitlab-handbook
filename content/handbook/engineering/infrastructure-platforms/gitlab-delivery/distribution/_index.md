@@ -95,11 +95,6 @@ Build team focus is ensuring GitLab components are tested, current, license comp
 
 Deploy team focus is configuration, deployment, and operation of GitLab as a whole product. The goal is to deliver an intuitive, clear, and frictionless installation experience, followed by smooth, seamless upgrade and maintenance processes for deployments of any scale. We strive to deliver ongoing operational behaviors for scaling, little to zero downtime upgrades, and highly reliable experiences for not only instance administrators but their users.
 
-## Goals
-
-[Increase # of active installations](https://10az.online.tableau.com/#/site/gitlab/workbooks/2298821/views)
-
-[Reduce average days behind latest version](https://10az.online.tableau.com/#/site/gitlab/views/VersionUpgradeMetrics/InstallationsonLatestVersionsofGitLab?:iid=1)
 
 ## Team members
 
@@ -435,21 +430,3 @@ and ensure that the right parties are involved at the correct time.
 ## Trivia
 
 How did Distribution get its name? We iterated, as always. "Distribution" was chosen as better than "Install" when renaming the original "Build" team, [live on an AMA](https://www.youtube.com/watch?v=gSyAFN6LPHU) with our co-founder, Sid. Since then we have [iterated further](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/936) in order to grow the team, and now have subgroups for "Build" and "Deploy".
-
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="distribution" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
-{{< /tableau >}}
