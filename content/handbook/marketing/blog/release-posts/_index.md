@@ -645,7 +645,7 @@ or both of them to the same post.
 
 When a new GitLab version is released [every month](/handbook/engineering/releases/), the Technical Writer who completed the release post structural check for the previous milestone sets up the release of the published documentation for that version.
 
-For instructions, see the GitLab docs [monthly release process](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
+For instructions, see the GitLab docs [monthly release process](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/blob/main/doc/releases.md).
 
 ## TW Reviewers
 
