@@ -21,7 +21,7 @@ Therefore we've included a beginner-friendly [how-to guide to threat modeling](h
 
 Here is a [real sample of an evaluation](https://gitlab.com/gitlab-com/gl-security/security-research/gitlab-standalone-instance) of the install of a GitLab standalone instance in a hostile environment.
 
-More samples will be added later.
+ Threat model examples can be found in the [AppSec Threat Models repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models)(internal link). This also includes templates for threat modeling that anyone can use in issues or epics.
 
 ## Threat Modeling Within GitLab
 
@@ -179,5 +179,7 @@ Here are some helpful links.
 
 - [Excerpt from a Security Department "Show and Tell" discussing Threat Modeling](https://www.youtube.com/watch?v=bySfiuk5iHg).
 - [Blog post](https://michenriksen.com/blog/drawio-for-threat-modeling/) by [Michael Henriksen](https://gitlab.com/mhenriksen) that talks about using Draw.io [available via diagrams.net](https://www.drawio.com/) to construct diagrams and flowcharts, and using them during threat modeling. Included is a [link](https://github.com/michenriksen/drawio-threatmodeling) to useful libraries for threat model diagrams.
+- [Threat Modeling Process](https://owasp.org/www-community/Threat_Modeling_Process#). This document describes a structured approach to application threat modeling that enables you to identify, quantify, and address the security risks associated with an application.
+- [OWASP Threat Dragon Demo Models](https://www.threatdragon.com/) - threat models that users can explore directly on their platform, including the "Enter the Dragon" demonstration model which provides a staged example with accompanying slide decks.
 - In addition to [Elevation of Privilege](https://www.microsoft.com/en-us/download/details.aspx?id=20303) there is also [OWASP Cornucopia](https://owasp.org/www-project-cornucopia/), which leans more towards web-based applications.
 - [MITRE ATT&CK](https://attack.mitre.org/). This is not a framework used for threat modeling per se, but it could be adapted to and mapped to an existing threat modeling framework.
