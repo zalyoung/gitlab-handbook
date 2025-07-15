@@ -76,14 +76,14 @@ Neither engineer should be allocated to work on Features or critical deliverable
 
 The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/2#schedule) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
-Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g. copying tools command executed locally, sharing relevant changes to projects and processes, etc.),
+Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g., copying tools command executed locally, sharing relevant changes to projects and processes, etc.),
 You can use the [Reaction Rotation issue template](https://gitlab.com/gitlab-org/secure/general/-/blob/master/.gitlab/issue_templates/Reaction%20Rotation%20SCA.md?ref_type=heads) for this purpose.
 
 At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/secure/composition-analysis-dev/reaction-rotation`](https://gitlab.com/groups/gitlab-org/secure/composition-analysis-dev/reaction-rotation/-/group_members?with_inherited_permissions=exclude), and remove the current engineers. This group is used to tag the engineers on rotation without having to look-up the schedule.
 
 #### Responsibilities - Security
 
-1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
+1. Triage vulnerabilities reported on the projects we maintain and help resolve them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
 1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
 1. Check for new security releases of our dependencies and ensure we use them:
@@ -196,14 +196,19 @@ See the [Application Security Testing sub-department vulnerability management pr
 
 We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/). Start with `Critical` and `High` but also look for issues that are connected to [vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=SLA%3A%3ANear%20Breach&first_page_size=100) and have an `SLA::Near Breach` label. These vulnerabilities might have a lower CVSS score but letting them reach SLA breach will count as 'past due' security issues and affect FedRAMP compliance.
 
-Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings but we are working in a risk based order.
+Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings, but we are working on a risk-based order.
+
+#### SLA::Near Breach issues
+
+When triaging vulnerabilities, you should give attention to [SLA::Near Breach issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=SLA%3A%3ANear%20Breach&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=20) as part of your rotation to prevent future SLA breaches.
 
 #### SLA::Breached issues
 
-Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons including:
+Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons, including:
 
 - A medium or low vulnerability that is not handled because it never got priority. Please notice that a low vulnerability might lead to a `severity::1` issue since it might get its score from different sources.
 - Issues that are never closed even if the relevant vulnerability is resolved or dismissed.
+- For vulnerabilities that cannot be fixed, apply the appropriate ~"risk treatment::" label after triage. This distinguishes between fix failures and inability to fix. Contact the vulnerability management team for risk acceptance guidance since standard SLA exceptions don't apply to breached vulnerabilities.
 
 You can search for `SLA::Breached` issues in the issue tracker using the following label filters:
 
@@ -364,7 +369,7 @@ that have impacted composition analysis in the future.
     ```
 
 1. Assign the incident to the engineer currently on the maintainership reaction rotation.
-1. Link any related issues or zoom meetings with the [quick actions](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html#using-a-quick-action) to record incident timeline events. Ensure that an event exists for the incident start,
+1. Link any related issues or Zoom meetings with the [quick actions](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html#using-a-quick-action) to record incident timeline events. Ensure that an event exists for the incident start,
 detection, resolution, and any other events that you feel are worth highlighting as part of the incident response.
 1. Upon fixing the issue, include a detailed summary of the resolution and any initial follow up actions that should be completed. Lastly, an entry for incident should be added to the weekly composition analysis group meeting so that it may be reviewed with the entire group.
 
@@ -485,7 +490,7 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 1. checkout the new tag (or commit) and create a new branch from it following naming convention `NEW_VERSION-security-checks`.
 1. copy/paste the existing `.gitlab-ci.yml` configuration file from the current `VERSION-security-check` branch.
 1. if there are new findings matching [our policy](#security-policy), address them according to our [triage process](#triaging-vulnerabilities).
-1. only when above mentioned findings are **fixed**, update the default_branch to be `NEW_VERSION-security-checks` and proceed with the update of the analyzer to use this newer version.
+1. only when the above-mentioned findings are **fixed**, update the default_branch to be `NEW_VERSION-security-checks` and proceed with the update of the analyzer to use this newer version.
 
 ##### License check when updating an upstream scanner
 
