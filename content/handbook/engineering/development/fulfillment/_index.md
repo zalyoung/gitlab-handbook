@@ -117,88 +117,6 @@ For our monthly milestone planning at the group level, we optimize activities to
 
 Every team uses the [monthly prioritization template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/monthly-prioritization.md) for [cross-functional dashboard reviews](/handbook/engineering/development/#cross-functional-dashboard-reviews) every month.
 
-### Fulfillment stage dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "SECTION_LABEL"="fulfillment" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "SECTION_LABEL"="fulfillment" >}}
-{{< /tableau >}}
-
-### Subscription Management team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="subscription management" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
-{{< /tableau >}}
-
-### Provision team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="provision" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="provision" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="provision" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="provision" >}}
-{{< /tableau >}}
-
-### Utilization team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="utilization" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
-{{< /tableau >}}
-
-### Fulfillment Platform team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
 ### Estimation
 
 Before work can begin on an issue, we should estimate it first after a preliminary investigation. This is normally done in the monthly planning meeting.
@@ -834,20 +752,6 @@ See the [Fulfillment Section DIB page](/handbook/engineering/development/fulfill
 
 See the [Fulfillment Section Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/#regular-performance-indicators) as well as the
 [Centralized Engineering Dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/).
-
-## Maintainer ratios
-
-### CustomersDot
-
-[Maintainer Ratio Dashboard](https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1)
-
-We attempt to have an ideal Engineer to Maintainer Ratio of 1:1 for both backend and frontend effort for our primary application, [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com). The active list of maintainers can be found on the [Engineering Projects page](/handbook/engineering/projects/#customers-app).
-
-Some considerations that differ from other maintainer ratios:
-
-1. Fulfillment maintainer ratios are Maintainers vs Reviewers
-1. GitLab maintainer ratios are Maintainers vs Maintainers + Reviewers
-1. GitLab maintainer ratios do not count full-stack engineers properly (Fulfillment one does)
 
 ## Knowledge sharing
 
