@@ -99,3 +99,4 @@ The following members of other functional teams are our stable counterparts:
 1. [Metrics Dashboard](https://dashboards.gitlab.net/d/stage-groups-code_creation/stage-groups3a-code-creation3a-group-dashboard?orgId=1) (Grafana)
 1. [Error Budget](https://dashboards.gitlab.net/d/stage-groups-detail-code_creation/stage-groups-code-creation-group-error-budget-detail?orgId=1) (Grafana)
 1. [Duo Code Review Monitoring Dashboard](https://log.gprd.gitlab.net/app/r/s/xVFdB) - latency for summarize review, summary merge request, and Duo Code Review (DCR); error rates, metrics for DCR comments, DCR custom instructions, and more (Kibana)
+1. [Duo Code Review Usage Dashboard](https://app.snowflake.com/ys68254/gitlab/#/francoisrose-duo-code-review-dNsR9ByyW) - usage data and stats per project (Snowflake)
