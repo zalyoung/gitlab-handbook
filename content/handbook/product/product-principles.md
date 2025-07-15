@@ -270,6 +270,15 @@ When you have to add a new configuration, make sure that the features and servic
 
 If the decision to add a configuration follows the [principles above](/handbook/product/#principles), add it to the repository-specific CI configuration options and be sure to default it to the option that results in the best user experience. We are much more liberal with additions to CI configurations than Instance configurations.
 
+##### For a security product
+
+There are many different ways that users approach security, and it's not always
+possible to follow, or establish, a configuration that meets users' needs
+sufficiently. Because of this, it may be more likely to require the addition of
+a new configuration option. We should strive to avoid this as much as possible,
+but if that's not possible, we should be comfortable in adding a new
+configuration option that follows the [principles listed above](/handbook/product/#principles).
+
 #### Every feature is owned by a group
 
 Features should be owned by one group, including the respective DRIs of that group. Make sure that the documentation metadata and the `features.yml` for your team are kept up to date to make it easier for other teams to find the correct owner.
