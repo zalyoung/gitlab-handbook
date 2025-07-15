@@ -194,11 +194,11 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
 1. Set the branch to `main` and select **Commit changes**.
 
-  > Note: It is considered best practice that all changes to a repository should be via an MR, and that MRs should be approved by other team members before merging. However, since this project only has one member (the person working on this lab), such a review is not possible. Therefore, it is common and accepted in small teams and demo environments to make direct commits to the main branch. In real-world scenarios, you should use merge requests.
+    > Note: It is considered best practice that all changes to a repository should be via an MR, and that MRs should be approved by other team members before merging. However, since this project only has one member (the person working on this lab), such a review is not possible. Therefore, it is common and accepted in small teams and demo environments to make direct commits to the main branch. In real-world scenarios, you should use merge requests.
 
 1. Navigate to **Build > Pipelines**, review your jobs, and wait for all pipelines to complete.
 
-## Task G. View the Project Level Vulnerability Report
+## Task F. View the Project Level Vulnerability Report
 
 > Every time you merge code into the main branch, the security pipeline will run and generate a project level vulnerability report that shows all vulnerabilities in *the latest commit to the default branch*. Think of this as the baseline set of vulnerabilities that you'll compare to vulnerabilities on other branches.
 
