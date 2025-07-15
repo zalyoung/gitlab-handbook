@@ -121,9 +121,15 @@ Not included in the Pipeline Execution group's domain:
 
 ## Technical Roadmap
 
-### FY25
+We prioritize and schedule our most important efforts using the [R&D Interlock](https://handbook.gitlab.com/handbook/product-development/how-we-work/r-and-d-interlock/) process.
 
-These are our high-level engineering driven goals for the year. As with any of our goals, they are ambitious and subject to change.
+### FY26
+
+These are our high-level engineering driven goals for the year:
+
+- Q2: (link to interlocked issue search)
+- Q3: (link to interlocked issue search)
+- Q4: (link to interlocked issue search)
 
 #### Performance
 
