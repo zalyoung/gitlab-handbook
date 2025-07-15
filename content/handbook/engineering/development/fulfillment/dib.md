@@ -32,14 +32,3 @@ Every quarter, we set aside our work and host a virtual get-together to socializ
 We have Fulfillment onboarding templates ([BE/FE engineer](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/onboarding.md), [UX engineer](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/onboarding_UX.md)), [Software Engineer in Test](https://gitlab.com/gitlab-org/quality/team-tasks/-/blob/master/.gitlab/issue_templates/Onboarding.md#L110).
 
 As part of onboarding, you will be assigned an onboarding buddy that will make you feel welcomed as well as schedule a number of coffee chats to get to know other Fulfillment team members.
-
-### MR DIB and collaboration metrics
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/FulfillmentEngineeringMRDIBandcollaborationmetrics/AppreciationRate" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/FulfillmentEngineeringMRDIBandcollaborationmetrics/Celebrationrate" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/FulfillmentEngineeringMRDIBandcollaborationmetrics/Sympathyrate" >}}
-{{< /tableau >}}
