@@ -9,7 +9,7 @@ In this lab, you will SSH into your GitLab instance and work with the various co
 
 ## Task A. Accessing the GitLab Instance
 
-You will access your GitLab installation using SSH. As a part of this class, you were provided an SSH key and instance IP to use for this process. To SSH into your GitLab instance, you can use the following steps.
+You will access your GitLab installation using SSH. As a part of this class, you were provided an SSH key and two instance IPs to use for this process. One of these servers is called a jumpbox or bastion server. You will first SSH into the bastion server. From this server, you will be able to access your GitLab instance as a root user. To SSH into your GitLab instance, you can use the following steps.
 
 1. On your local computer, open a terminal window.
 
@@ -27,10 +27,16 @@ You will access your GitLab installation using SSH. As a part of this class, you
     icacls .\keyname.pem /inheritance:r
     ```
 
-1. Use your assigned IP address and SSH key file to log in to the server that will host your GitLab Omnibus install:
+1. Use your assigned bastion IP address and SSH key file to log in to the server as the user `student-user`:
 
     ```bash
-    ssh -i <keyfile_name> root@<vm_ip_address>
+    ssh -i <keyfile_name> student-user@<vm_ip_address>
+    ```
+
+1. From the bastion server, use your assigned Omnibus IP address to login to the Omnibus server as root:
+
+    ```bash
+    ssh -i ~/.ssh/ilt_key root@<omnibus_ip_address>
     ```
 
     > If you encounter an error like: WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!, you may need to reset your SSH known hosts. To do this, run the command `ssh-keygen -R <vm_ip_address>`.
