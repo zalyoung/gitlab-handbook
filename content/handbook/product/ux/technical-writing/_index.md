@@ -195,7 +195,6 @@ Some technical writers are assigned as **stage leads** for a given [DevOps stage
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
 | Verify           | {{< member-by-name "Lysanne Pinto" >}} |
-| AI-powered       | {{< member-by-name "Jon Glassman" >}} |
 | Create           | {{< member-by-name "Amy Qualls" >}} |
 | Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
 | Application Security Testing | {{< member-by-name "Russell Dickenson" >}} |
