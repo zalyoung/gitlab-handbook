@@ -135,22 +135,23 @@ After you complete an Area of Focus, talk with your manager about joining an on-
 
 ### Support Engineer Achievable Progress - First 6 Months
 
-Our onboarding pathway gives new Support Engineers an opportunity to learn at their own pace and explore. We strongly believe in learning by doing ([70/20/10 learning model](https://trainingindustry.com/wiki/content-development/the-702010-model-for-learning-and-development/)), and encourage Support Engineers to start contributing on tickets (with public or internal comments) from as early as your 3rd week.
+Our onboarding pathway gives new Support Engineers an opportunity to learn at their own pace and explore. We strongly believe in learning by doing ([70/20/10 learning model](https://trainingindustry.com/wiki/content-development/the-702010-model-for-learning-and-development/)), and encourage Support Engineers to start contributing on tickets as soon as they can.
 
-**NOTE:** The 6 months starts after your initial [Support Learning Pathways](#support-learning-pathways) are complete.
+While your growth and skill cannot be determined by metrics, the following reference table can be used as a guideline on achieving comfort with ticket management in your first 6 months in GitLab Support. Discuss your contributions with your manager if are unsure about your progress or ticket volume.
 
-The following reference table can be used as a guideline on achieving comfort with ticket management in your first 6 months in GitLab Support. Managers can also use this table to gauge the progress of new hires in their first 6 months after onboarding.
+**Monthly Progress Reference Table**
+The table below shows the expected progression for Ticket Assignment over the first 6 months, along with milestones for onboarding to on-call responsibilities. These guidelines help track your growing efficiency and expertise in handling customer issues.
 
-**NOTE:** Table data is shown by month - for instance, in my 4th month as a SaaS-focus support engineer, I can aim to make about 60+ comments on tickets per month.
+| Month | Weekly Ticket Assignment Volume (Associate Engineers) | Weekly Ticket Assignment Volume (Intermediate/Senior Engineers) | On-call milestones (Intermediate/Senior Engineers) |
+| ------ |  ------ | ------ |------ |
+| 1 | 1-2 SM/SaaS/Dedicated OR 5-7 SaaS Account | 1-2 SM/SaaS/Dedicated | - |
+| 2 | 1-2 SM/SaaS/Dedicated OR 8-12 SaaS Account | 2-4 SM/SaaS/Dedicated | - |
+| 3 | 2-3 SM/SaaS/Dedicated OR 10-15 SaaS Account | 4-5 SM/SaaS/Dedicated | - |
+| 4 | 2-3 SM/SaaS/Dedicated OR 10-15 SaaS Account | 4-5 SM/SaaS/Dedicated | Complete the On-call Module |
+| 5 | 3-5 SM/SaaS/Dedicated OR 15-20 SaaS Account | 5-6 SM/SaaS/Dedicated | Start shadow shift |
+| 6 | 3-5 SM/SaaS/Dedicated OR 15-20 SaaS Account | 5-6 SM/SaaS/Dedicated | Continue shadow shifts and target readiness for CEOC duty around months 7–8, in alignment with your manager. If additional time is needed to ensure confidence and capability in providing CEOC-level support, a later start can be agreed upon.  |
 
-| Month | Public Comments per month Reference Range - Self-managed | Public Comments per month Reference Range - SaaS |
-| ------ |  ------ | ------ |
-| 1 | 0-10 | 0-20 |
-| 2 | 10-30 | 20-40 |
-| 3 | 30-50 | 40-60 |
-| 4 | 50+ | 60+ |
-| 5 | 60+ | 80+ |
-| 6 | 70+ | 100+ |
+In addition please complete all required onboarding modules by month 3 and participate in 4-5 pairing sessions per week to accelerate your learning and knowledge sharing. 
 
 ---
 
