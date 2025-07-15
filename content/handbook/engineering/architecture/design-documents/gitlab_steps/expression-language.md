@@ -60,7 +60,6 @@ The extension to the expression language:
 - MUST be backwards compatible with already used property lookups, e.g. `${{ inputs.my_variable }}` so it can replace the current implementation
 - MUST be specified as a context-free grammar using Extended Backus–Naur form (EBNF) so the language can be reviewed before it is implemented
 - MUST be extensible. Additional functions, operations, and mutations are possible future extensions
-- **MUST deviate from the expression language used by CI Components**
 - SHOULD be easy to use, and feel somewhat familiar to engineers. More powerful than JSON, less complex than JavaScript
 
 ### Built in-house
@@ -70,11 +69,12 @@ Expressions will be built in-house at GitLab using a recursive-descent parser.
 A review of existing expression languages and libraries didn't find anything suitable for CI Steps' needs. The main issues were:
 
 - They offer too many features, are too complex, or are considered to be unfamiliar to GitLab users
-- They do not support metadata, so Steps can't determine if evaluated expressions are derived from sensitive values
+- They do not support passing metadata, so Steps can't determine if evaluated expressions are derived from sensitive values
 
 ### Out-of-scope
 
-This proposal does not define which functions should be defined, only that functions can be called.
+- This proposal does not outline which functions should be defined, only that functions can be called
+- This proposal does not change the CI Components expression language
 
 ## Example use-cases
 
@@ -165,6 +165,8 @@ While differences between the expression languages remain, effort should be made
   - Support `struct`
   - Support arithmetic, string manipulation, logic, comparisons
   - The way functions are called, limits on number of functions used, the functions available to call
+
+See https://gitlab.com/groups/gitlab-org/-/epics/18519+ to follow the effort for unifying the CI Component and Steps expression languages.
 
 ### Example
 
