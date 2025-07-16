@@ -183,7 +183,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 - FP&A is included as an initial reviewer to ensure the requested spend is within budget and that the Billing Code entered in Zip is correct so it can be pushed to Coupa when ready for final approvals.
 
-#### 3.B. IT Review: 2 days if purchasing new software or for contractors
+#### 3.B. IT Review: 2 days if purchasing new software or for contingent workers
 
 - Requester should have vendor complete the [IT New Software Questionnaire](https://docs.google.com/spreadsheets/d/1SgyzxDDiTbig0VtZ5RPgX92U_VlQu1mq/edit?usp=sharing&ouid=115328509315203543998&rtpof=true&sd=true) and submit with the purchase request so IT can complete their review
 
@@ -224,7 +224,7 @@ The amount of time for review and reaching execution is based on the details bel
 
 #### 4.C. Security Review: 4-14 Days
 
-- [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/) reviews are required for vendors that collect, process, or store Orange / Red Data, software providers (SaaS and On-premise), and independent contractors / consultants. (Excluding field marketing events)
+- [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/) reviews are required for vendors that collect, process, or store Orange / Red Data, software providers (SaaS and On-premise), and contingent workers. (Excluding field marketing events)
 - This activity cannot begin until **after** the supplier completes the security questionnaire and supplies their security documentation. Oftentimes, it can take 1-2 weeks for the supplier to respond and complete the requested materials. The security review SLA begins once that is completed. Time before this activity can begin is entirely dependent upon the supplier's response time and maturity of security protocols.
 - **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from GitLab's Security Risk Team for completion ASAP.
 - For any inquiries and questions, please tag @securityrisk in the #procurement slack channel.
@@ -238,9 +238,9 @@ The amount of time for review and reaching execution is based on the details bel
 #### 4.E. PeopleOps Review: 1-4 Days
 
 - PeopleOps serve as reviewers on all professional services requisitions to determine if a background screening is necessary.
-- Per GitLab's [People Policies](/handbook/people-group/contracts-probation-periods/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
+- Per GitLab's [People Policies](/handbook/people-group/contracts-probation-periods/#background-screenings) and [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/), contingent workers are subject to complete a background screening. GitLab will accept a completed background screening from a contingent worker's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
 - A background screening can be requested by opening an issue in the [Lifecycle Management](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) project by using the `background_check_request` template.
-- Approval will occur once proof of a completed or an initiated background screening has been shared or once the contractor has submitted their background screening for processing.
+- Approval will occur once proof of a completed or an initiated background screening has been shared or once the contingent worker has submitted their background screening for processing.
 - The Sr. Background Check Specialist will only follow up if a result of concern returns on the background screening.
 - Questions and/or proof regarding background screenings on professional service requisitions in Zip can be sent to [backgroundchecks@gitlab.com](mailto:backgroundchecks@gitlab.com).
 
