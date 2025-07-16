@@ -202,8 +202,6 @@ The team member on rotation is responsible for:
 - Responding to any [Access Requests that need Foundations provisioning](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26626#open-access-requests).
 - Monitoring the `#g_foundations` Slack channel and directing any questions that arise there into issues to be triaged.
 
-
-
 ### Project Management
 
 The Foundations team top level Epic can be found [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1175)
