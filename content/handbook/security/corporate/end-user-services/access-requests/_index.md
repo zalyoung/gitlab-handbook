@@ -27,7 +27,7 @@ While there are a large number of templates available, they typically fall into 
 
 ### Individual or Bulk Access Request
 
-[Individual or Bulk Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request) should be used if none of the oher templatess match what you are looking for. 
+[Individual or Bulk Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request) should be used if none of the other templates match what you are looking for. 
 
 You can use this template to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues if multiple people require access to different systems.
 
