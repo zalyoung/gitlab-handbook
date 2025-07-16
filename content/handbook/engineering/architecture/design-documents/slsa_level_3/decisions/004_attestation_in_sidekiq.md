@@ -6,12 +6,12 @@ description: "Architecture Decision Record for changes in location for attestati
 
 ## Context
 
-This ADR revises a decision made in [ADR 003](decisions/003_attest_sign_location.md) with regards to the signing location
-for provenance statements. The decision to perform signing in the glgo service
-is further documented in the linked ADR. As a summary, glgo was chosen
-because it was a feasible mechanism to achieve SLSA Level 3 compliance, it
-allowed delivery of attestation for gitlab.com customers and required no
-additional services or infrastructure.
+This ADR revises a decision made in [ADR 003](003_attest_sign_location.md) with
+regards to the signing location for provenance statements. The decision to
+perform signing in the glgo service is further documented in the linked ADR. As
+a summary, glgo was chosen because it was a feasible mechanism to achieve SLSA
+Level 3 compliance, it allowed delivery of attestation for gitlab.com customers
+and required no additional services or infrastructure.
 
 While discussing options for the integration between cosign and glgo concerns
 were raised about the [number of dependencies](https://gitlab.com/gitlab-org/gitlab/-/issues/551210#note_2611268806)
@@ -29,8 +29,7 @@ allow for the generation of software attestations within them.
 
 `cosign` is a [Go project](https://github.com/sigstore/cosign) that is developed
 as part of the sigstore project. It allows for signing OCI containers (and other
-artifacts) using Sigstore. Cosign also has built-in support for [in-toto
-attestations](https://github.com/sigstore/cosign?tab=readme-ov-file#in-toto-attestations).
+artifacts) using Sigstore. Cosign also has built-in support for [in-toto attestations](https://github.com/sigstore/cosign?tab=readme-ov-file#in-toto-attestations).
 A proof of concept attestation program is available [in this merge request.](https://gitlab.com/darbyfrey/demodemo/-/merge_requests/4/diffs#717ea309f1716e0f92cc07090402218cd8d142cc)
 
 **Pros:**
@@ -38,7 +37,7 @@ A proof of concept attestation program is available [in this merge request.](htt
 * The simplest of available options in terms of development effort.
 * The cosign binary is feature-complete. This is in contrast to [sigstore-ruby](https://github.com/sigstore/sigstore-ruby), for example, which only supports verification.
 * `cosign` is the most widely used mechanism through which to interact with sigstore, which means there will be documentation and support if we run into any issues.
-* Shipping a binary means we can leverage existing tooling to maintain dependencies, such as [Renovate](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/)
+* Shipping a binary means we can leverage existing tooling to maintain dependencies, such as [Renovate](engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/)
 
 **Cons**
 
@@ -88,16 +87,16 @@ the two services.
 
 ### Positive
 
-- Reduced overall complexity.
-- Because `cosign` is very widely used, we are likely to be able to easily support all required use cases, and use the exhaustive documentation available.
-- Reduced distribution complexity as we remove the dependency on `glgo`. This service is not available for all kinds of GitLab installations at this stage.
-- Existing tooling to maintain dependencies, such as [Renovate](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/), can be used.
+* Reduced overall complexity.
+* Because `cosign` is very widely used, we are likely to be able to easily support all required use cases, and use the exhaustive documentation available.
+* Reduced distribution complexity as we remove the dependency on `glgo`. This service is not available for all kinds of GitLab installations at this stage.
+* Existing tooling to maintain dependencies, such as [Renovate](engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/), can be used.
 
 ### Negative
 
-- Interacting with a command-line tool is high-risk. Although initially the parameters we would pass to the tool are not user-controlled, this may change later on depending on requirements. This negative consequence can be mitigated by adhering to well-established procedures documented in the [Shell command development guidelines page](https://docs.gitlab.com/development/shell_commands/).
+*  Interacting with a command-line tool is high-risk. Although initially the parameters we would pass to the tool are not user-controlled, this may change later on depending on requirements. This negative consequence can be mitigated by adhering to well-established procedures documented in the [Shell command development guidelines page](https://docs.gitlab.com/development/shell_commands/).
 
 ## Related Links
 
-- [Evaluate options to bundle cosign with GitLab Rails](https://gitlab.com/gitlab-org/gitlab/-/issues/554600)
-- [Evaluate options to limit dependencies or sandbox execution of cosign in glgo](https://gitlab.com/gitlab-org/gitlab/-/issues/554596)
+* [Evaluate options to bundle cosign with GitLab Rails](https://gitlab.com/gitlab-org/gitlab/-/issues/554600)
+* [Evaluate options to limit dependencies or sandbox execution of cosign in glgo](https://gitlab.com/gitlab-org/gitlab/-/issues/554596)
