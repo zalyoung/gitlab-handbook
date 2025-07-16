@@ -76,19 +76,23 @@ We will sponsor regional 3rd party events in an effort to build the GitLab brand
 - Customer/prospect run DevOps events on invite
 - Executive relationship building events via companies like Apex Assembly & Argyle Executive Forum
 
-### Meeting Setting
+### Executive Meetings
 
-Meeting Setting occurs when the Corporate Events team sponsors a large conference and requests the Field Meeting team manage setting up on-site meetings during the event. As for all Corp Events, the Marketing Operations team will set up the overall Conference Marketo program and SFDC campaign as well as the  Meeting Setting Marketo program and SFDC campaign for Field Marketing. Meeting Setting is not its own campaign type and is categorized as a [Conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the Conference progression statuses should be utilized. The overall Conference is owned by the Corporate Events team, but Marketing Ops will set up the Meeting Setting SFDC campaign as FM-owned.
+#### Executive meetings at conferences run by Corporate Events
+
+This occurs when the Corporate Events team sponsors a large conference and requests that Regional Marketing manage scheduling executive meetings during the event, in a separate meeting room. The Marketing Operations team will set up the conference Marketo program and SFDC campaign, as well as the executive meetings Marketo program and SFDC campaign. Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. The overall conference is owned by the Corporate Events team, but Marketing Ops will set up the executive meetings as owned by Regional Marketing.
+
+#### Executive meetings at conferences run by Regional Marketing
+
+This occurs when the Regional Marketing team sponsors a large conference and obtains a separate meeting room to run executive meetings. The Regional Marketing FMC will set up the Marketo program and SFDC campaign for both the conference and the executive meetings.  Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. Both the conference and executive meetings will be owned by Regional Marketing.
+
+#### JiffleNow
+
+The Regional Marketing team utilizes a meeting scheduling tool called [JiffleNow](/handbook/marketing/marketing-operations/jifflenow/). The parameters that must be met to utilize this tool for executive meeting scheduling are listed [here](/handbook/marketing/marketing-operations/jifflenow/#when-to-use-jifflenow).
 
 ## Other Tactics
 
 Being the marketing experts for the region, GitLab Field Marketers are also responsible for using other tactics to help generate leads to build pipeline. We have options such as survey tools, both of current employees and past employees based on the 3rd party vendor we use, webcasts, direct mailings, and also various digital tactics.
-
-## Regional Marketing Content
-
-Current regional marketing content and presentations can be accessed [here](drive.google.com/drive/u/0/folders/0AHFbLUWw3IEJUk9PVA).
-Content is classified into 2 groups: Economic Buyer and Technical Buyer. Choose the content category that aligns best to your audience needs - Economic Buyer for those focusing on business aspects, and Technical Buyer for those interested in technical details or specifications.
-Field Marketing Managers are responsible for adding new content for Own Events and Executive Engagement Tactics to this folder on an ongoing basis. NOTE: Naming convention of the folder should reflect the SFDC Campaign name for easier tracking.
 
 ## Digital Tactics
 
@@ -101,7 +105,7 @@ Please ensure you are using our UTM tracker (look up `Google Analytics Campaign 
 
 ## Confidentiality in GitLab Issues and Epics
 
-When working in GitLab issues and epics, please remember that due to GitLab's value of [Transparency](/handbook/values/#transparency), many of our issues and epics are, by default, public. Best practice is to avoid including any PII or login details in issues and epics directly. If posting details of this nature is a necessity, please remember to always make your [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential` when doing so. Please also be diligent in your issues and epics regarding comments made by other team members as well. If you notice another team member has posted details that should not remain public, immediately make the [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential`. Other options to allow our issues to remain public, are including PII in a spreadsheet or document posted in the issue or epic that are only accessible by certain people. If logins need to be shared, please utilize the Marketing Vault in [1Password](password-guidelines#1password).
+When working in GitLab issues and epics, please remember that due to GitLab's value of [Transparency](/handbook/values/#transparency), many of our issues and epics are, by default, public. Best practice is to avoid including any PII or login details in issues and epics directly. If posting details of this nature is a necessity, please remember to always make your [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential` when doing so. Please also be diligent in your issues and epics regarding comments made by other team members as well. If you notice another team member has posted details that should not remain public, immediately make the [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential`. Other options to allow our issues to remain public, are including PII in a spreadsheet or document posted in the issue or epic that are only accessible by certain people. If logins need to be shared, please utilize the Marketing Vault in [1Password](/handbook/security/corporate/systems/1password/).
 
 For more information regarding confidentiality levels and compliancy, please visit [this handbook page](/handbook/communication/confidentiality-levels/).
 
@@ -135,89 +139,54 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 ## Conference (In-Person)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=In-Person_Conference_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-in-person)
 
 ## Conference (Virtual)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conferences)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Virtual_Conference)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-virtual)
 
 ## Conference (Hybrid)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Hybrid_Conference)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-hybrid)
 
-## Conference (FM Meeting Setting for a Corporate Events Conference)
+## Conference (Executive Meetings)
 
-- [Tactic Details](/handbook/marketing/field-marketing/#meeting-setting)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Meeting_Setting_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#meeting-setting)
 
 ## Content Syndication
 
-- [Tactic Details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#content-syndication)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Content_Syndication_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#content-syndication)
 
 ## Direct Mail
 
-- [Tactic Details](/handbook/marketing/demand-generation/campaigns/direct-mail/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#direct-mail)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Direct_Mail_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#direct-mail)
 
 ## Executive Roundtable (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#executive-roundtables)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#executive-roundtables)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Executive_Roundtable)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#executive-roundtable)
 
 ## Owned Event (In-Person, Virtual or Hybrid)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#owned-event)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Owned_Event_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#owned-events)
 
 ## Sponsored Webcast
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#sponsored-webinars)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#sponsored-webcast)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Sponsored_Webcast)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#sponsored-webcast)
 
 ## Survey
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#survey)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Survey_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#survey)
 
 ## Vendor Arranged Meetings (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#vendor-arranged-meetings)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#vendor-arranged-meetings)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Vendor_Arranged_Meetings)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#vendor-arranged-meetings)
 
 ## Webcast
 
-- [Tactic Details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#webcast)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Webcast_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#webcasts)
 
 ## Workshop (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#workshop)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
 
 ## Event Lead Collection Should-Knows
 
