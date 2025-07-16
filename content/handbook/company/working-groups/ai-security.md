@@ -35,6 +35,7 @@ status: active
 | Functional Lead    | Erran Carey             | Staff Fullstack Engineer                        |
 | Functional Lead    | Jessie Young            | Principal Engineer                              |
 | Functional Lead    | Joern Schneeweisz       | Principal Security Engineer                     |
+| Member             | Ameya Darshan           | Senior Application Security Engineer, Product Security |
 | Member             | Daniel Hauenstein       | Application Security Engineer, Product Security |
 | Member             | Dillon Wheeler          | Backend Engineer, AI-powered:Duo Chat           |
 | Member             | Vitor Meireles De Sousa | Senior Manager, AppSec, Product Security        |
