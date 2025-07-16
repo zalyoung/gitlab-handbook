@@ -89,7 +89,7 @@ Interceptors can be either generic (running on every scan) or conditional (trigg
 
 Here's the illustration representing the internals of the Scan Engine Component:
 
-![Scan Engine Component Internals](/images/engineering/architecture/design-documents/secret_detection/008_scan_engine_internals.jpg "Scan Engine Component Internals")
+![Scan Engine Component Internals](/images/engineering/architecture/design-documents/secret_detection/008_scan_engine_internals.png "Scan Engine Component Internals")
 
 ## Distribution
 
