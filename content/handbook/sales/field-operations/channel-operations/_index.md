@@ -1031,9 +1031,10 @@ To recognize and properly compensate these transactions, please ensure the `CPPO
 
 See [IBM (OEM) Partner Requests & QTC Process](https://docs.google.com/document/d/1m9oh62xnJrPCoYBfz_V3Z5eBttUlXXQw7lqS2BOIHwY/edit#heading=h.o9px8kwapw3d) for a step-by-step guide of the IBM (OEM) Quote to Cash process.
 
-### Consulting Partner Private Offers (CPPO)
+### Channel Partner Private Offers (CPPO and MCPO)
 
-For more information on our AWS CPPO Program, please reference the following [program guide.](https://docs.google.com/document/d/11P1Iva6ksIuw-UrxCvq5G5i2k0a-cplxAsCKi4msjpY/edit)
+- For more information on our AWS CPPO Program, please reference the following [program guide.](https://docs.google.com/document/d/11P1Iva6ksIuw-UrxCvq5G5i2k0a-cplxAsCKi4msjpY/edit)
+- For more information on our GCP MCPO Program, please reference the following [program guide.](https://docs.google.com/document/d/1S6bg1d6CobRVqqmJ-d9UT7ohZqGjgFb08v3-wjyiFbI/edit?tab=t.0)
 
 ### Registering Opportunities with Marketplace Providers
 
