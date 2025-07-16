@@ -79,13 +79,13 @@ As we are planning on introducing additional engines (like [AI-based](https://gi
 
 #### Interceptors
 
-The Scan Engine component contains Scan Interceptors that intercepts before (`Pre-Inteceptor`) and after (`Post-Inteceptor`) the scan operation by the internal engine.
+The Scan Engine component contains Scan Interceptors that intercept before (`Pre-Interceptor`) and after (`Post-Interceptor`) the scan operation performed by the internal engine.
 
-* The `Pre-Inteceptor` intercepts input payloads and runs a specific operation on them to return either the modified payloads, or the same payloads along with additional metadata in the result. Examples include AST generation for the payloads, sanitizing the payload data for inline exclusions, etc.
+* The `Pre-Interceptor` intercepts input payloads and executes specific operations to return either modified payloads or the original payloads with additional metadata. Examples include AST generation for payloads, sanitizing payload data for inline exclusions, etc.
 
-* The `Post-Interceptor` intercepts the findings detected by the internal engine(s) and returns either hints to discard some of the detected due to false positives, or runs domain-specific critiera to generate a new metadata. Examples include AI-based False Positive reducer, Entropy matcher, etc.  
+* The `Post-Interceptor` intercepts findings detected by the internal engine(s) and returns either hints to discard certain detections due to false positives or runs domain-specific criteria to generate new metadata. Examples include AI-based false positive reduction, entropy matching, etc.
 
-The interceptors can be either piped into a chain where one Interceptor's output will be passed as an input to the other, or it can opt to exist independently. Either way, the results of these Interceptors will be gathered by the Scanner API to decide the final output.
+Interceptors can be either generic (running on every scan) or conditional (triggered by specific criteria such as engine type, customer tier, etc.). They can operate in a chained pipeline where one interceptor's output becomes another's input, or function independently. In both cases, the Scanner API collects the results from all interceptors to determine the final output.
 
 Here's the illustration representing the internals of the Scan Engine Component:
 
