@@ -31,7 +31,7 @@ GitLab provides team members with comprehensive emergency support through Intern
 ##### When to Use International SOS
 
 - Medical emergencies or illness during travel; including payment of Emergency Medical Expenses
-- Claims Assitance for the Business Travel Insurance Policy
+- Claims Assistance for the Business Travel Insurance Policy
 - Safety and security concerns
 - Pre-trip planning and health advice
 
