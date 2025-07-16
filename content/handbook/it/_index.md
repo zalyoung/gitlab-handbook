@@ -5,7 +5,7 @@ description: IT Team Announcement
 
 ## We are now part of the CorpSec Team
 
-The IT End User Services (EUS) team is now part of CorpSec. This move allows us to better allign outselves with GitLab's security goals and provide faster and better support to all GitLab members.
+The IT End User Services (EUS) team is now part of CorpSec. This move allows us to better align ourselves with GitLab's security goals and provide faster and better support to all GitLab members.
 
 Please visit our updated pages [here](/handbook/security/corporate/end-user-services/).
 
