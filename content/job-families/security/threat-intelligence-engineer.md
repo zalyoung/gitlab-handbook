@@ -3,76 +3,97 @@ title: "Threat Intelligence Engineer"
 description: "Threat intelligence engineers research and provide information about specific threats to help us protect from the types of attacks that could cause the most damage."
 ---
 
-Threat intelligence engineers research and provide information about specific threats to help us protect from the types of attacks that could cause the most damage.
+As members of GitLab's [Security Operations department](/handbook/security/security-operations/), [Threat Intelligence](/handbook/security/security-operations/threat-intelligence/) engineers provide actionable intelligence that empowers GitLab to make informed, proactive decisions about security.
 
-As a member of the security team at GitLab, you will be working towards raising the bar on security. We will achieve that by working and collaborating with cross-functional teams to provide guidance on security best practices.
+The team monitors the threat landscape with a focus on identifying the most relevant risks to GitLab. We analyze these risks, track the associated threat actors, and build relationships with industry peers.
 
-The [Security Team](/handbook/security) is responsible for leading and
-implementing the various initiatives that relate to improving GitLab's security.
-
-## Job Grade
-
-The Threat Intelligence Engineer is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Being a Threat Intelligence Engineer at GitLab involves a mixture of traditional analyst activity, engineering/automation work, and collaborating across the organization to ensure that intelligence leads to lasting security outcomes.
 
 ## Responsibilities
 
-- Collect and analyze threat intelligence reports covering new threats, vulnerabilities, products, and research
-- Conducts deep-level analysis of malware, including how it is developed, functions, and is employed
-- Author threat intelligence reports, driven by our security operations team's own incidents, analysis, and adversary engagements
-- Evolve monitoring operations by extracting data from threat intelligence and create new content, signatures, and understanding of adversary TTPs
-- Analyze event feeds and collected malware over long term to trend and correlate
-- Investigate impact to customers to determine whether new detections or compromise notifications are necessary
-- Capable of conducting threat research focused on nation state, criminal, or other malicious activities
+- Prepare actionable [Flash Reports](/handbook/security/security-operations/threat-intelligence/#flash-reports) based on emerging and relevant threat information
+- Prepare monthly [Threat Briefings](/handbook/security/security-operations/threat-intelligence/#threat-briefings) focussed on the impact and outcomes of each month's intelligence-driven activity
+- Respond to internal [Requests For Information (RFI)](/handbook/security/security-operations/threat-intelligence/#requests-for-information-rfi) from teams across GitLab
+- Support incident response, threat hunting and [Purple Team Flash Operations](/handbook/security/security-operations/red-team/purple-teaming/#purple-team-operations) with data enrichment and malware, infrastructure and behavior analysis
+- Leverage our Threat Intelligence Platform (TIP) for data collection, analysis, and automation
+- Track threat actors that pose the greatest risk to our organization, our platform, and our customers - developing detailed profiles on their motivations and capabilities
 
 ## Requirements
 
-- You have a passion for security and open source
-- You are a team player, and enjoy collaborating with cross-functional teams
-- You are a great communicator
-- You employ a flexible and constructive approach when solving problems
-- You share our [values](/handbook/values/), and work in accordance with those values
 - Ability to use GitLab
+- Experience working with the MITRE ATT&CK framework
+- Experience working with a Threat Intelligence Platform (TIP) and threat feeds
+- Experience researching adversaries using OSINT techniques
+- Ability to automate tasks by writing basic scripts/programs, preferably with Python
+- An adversarial mindset - you must be able to put yourself in the mind of the attacker
+- Strong written and verbal communication skills with an ability to articulate complex topics in a clear and concise manner
 
 ## Levels
 
+### Threat Intelligence Engineer (Intermediate)
+
+This position reports to a Senior Manager in Security Operations.
+
+#### Threat Intelligence Engineer (Intermediate) Job Grade
+
+The Threat Intelligence Engineer is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Threat Intelligence Engineer (Intermediate) Responsibilities
+
+- Includes [base-level responsibilities](#responsibilities).
+
+#### Threat Intelligence Engineer (Intermediate) Requirements
+
+- Includes [base-level requirements](#requirements).
+
 ### Senior Threat Intelligence Engineer
 
-#### Job Grade
+#### Senior Threat Intelligence Engineer Job Grade
 
 The Senior Threat Intelligence Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+#### Senior Threat Intelligence Engineer Responsibilities
 
-- Leverages security expertise in at least one specialty area
-- Triages and handles/escalates security issues independently
-- Conduct security architecture reviews and makes recommendations
-- Great written and verbal communication skills
-- Screen security candidates during hiring process
+- Includes [base-level responsibilities](#responsibilities)
+- Publish blogs on threat-related topics including novel malware or threat actor identification
+- Mentor other engineers and ensure quality standards across their work
+- Participate in candidate interviews during the hiring process
+- Contribute to the maintenance and development of our Threat Intelligence Platform (TIP) for data collection, analysis, and automation
+- Develop and test threat hypotheses through research, threat hunting and detection rule/query creation
 
----
+#### Senior Threat Intelligence Engineer Requirements
 
-A Senior Security Engineer may want to pursue the security engineering management track at this point. See [Engineering Career Development](/handbook/engineering/careers/) for more detail.
-
----
+- Includes [base-level requirements](#requirements)
+- Expertise developing analytical assessments and using analytical models to support decision making and threat clustering
+- Experience developing and deploying sophisticated automation, preferably with Python
+- Detailed understanding of threat actor techniques for attacking software supply chains, SaaS applications and cloud environments
+- Ability to identify emergent themes in threat actor behavior and promote organizational resilience
+- Excellent written and verbal communication skills with the ability to build from tactical data to strategic insights
+- Understanding of one or more query languages or detection rule formats and familiarity with detection engineering
 
 ### Staff Threat Intelligence Engineer
 
-The Staff Security Engineer role extends the [Senior Threat Intelligence Engineer](#senior-threat-intelligence-engineer) role.
-
-#### Job Grade
+#### Staff Threat Intelligence Engineer Job Grade
 
 The Staff Threat Intelligence Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+#### Staff Threat Intelligence Engineer Responsibilities
 
-- Recognized security expert in multiple specialty areas, with cross-functional team experience
-- Make security architecture decisions
-- Provide actionable and constructive feedback to cross-functional teams
-- Implement security technical and process improvements
-- Exquisite written and verbal communication skills
-- Author technical security documents
-- Author questions/processes for hiring and screening candidates
-- Write public blog posts and represent GitLab as a speaker at security conferences
+- Includes [Senior-level responsibilities](#senior-threat-intelligence-engineer-responsibilities)
+- Evangelize and foster a culture of threat awareness across GitLab, and may represent GitLab at industry events
+- Serve as a trusted advisor to security leadership with an expert ability to prioritize and contextualize industry reporting and internal data
+- Identify, propose and pursue major initiatives within Threat Intelligence and beyond
+- Drive program focus areas and the selection of analytical methodologies to maximize impact and efficiency
+- Develop, refine and report on metrics to demonstrate program effectiveness
+
+#### Staff Threat Intelligence Engineer Requirements
+
+- Includes [Senior-level requirements](#senior-threat-intelligence-engineer-requirements)
+- Recognized expertise in one or more threat intelligence domains such as malware analysis, OSINT, attribution or intelligence analysis
+- Expertise developing innovative, high impact automation, preferably with Python
+- Experience promoting knowledge transfer and standards development within a high-performing analytical team 
+- Outstanding written and verbal communication skills with the ability to effectively influence technical and non-technical stakeholders and resolve conflicts
+- Experience establishing and tracking security program KPIs and developing data-driven visualizations to demonstrate value and guide strategic decisions
 
 ## Hiring Process
 
@@ -80,15 +101,9 @@ Candidates for this position can expect the hiring process to follow the order b
 
 - Qualified candidates receive a short questionnaire from our Recruiting team
 - Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Recruiting team
-- Next, candidates will be invited to schedule an interview with Security Engineer
-- Candidates will then be invited to schedule an interview with Director of Security
-- Candidates will then be invited to schedule an additional interview with VP of Engineering
-- Finally, candidates may be asked to interview with the CEO
+- Next, candidates will be invited to schedule an interview with a Security Operations Senior Manager
+- Candidates will then be invited to schedule an interview with Security Engineers within Security Operations
 - Successful candidates will subsequently be made an offer via email
 
 As always, the interviews and screening call will be conducted via a video call.
 See more details about our hiring process on the [hiring handbook](/handbook/hiring/).
-
-## Career Ladder
-
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.
