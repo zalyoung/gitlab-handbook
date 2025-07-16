@@ -225,6 +225,21 @@ We have [many labels](https://docs.gitlab.com/ee/development/labels/index.html) 
 
 With the combination of our capacity planning (EM) and estimation (IC) processes above, engineers should have free time to work on ~"Stuff that should just work" or other topics that interest them. If an unscheduled issue should really be prioritized, bring it up in a planning issue or ask your manager to reduce your capacity further.
 
+#### GraphQL Usage
+
+The engineering org officially supports the use of [GraphQL and REST equally](https://docs.gitlab.com/ee/development/api_styleguide.html#graphql-and-rest-apis)
+
+[Frontend guidelines](https://docs.gitlab.com/ee/development/fe_guide/#introduction) encourage the use of graphQL first whenever possible.
+
+We will describe how the Authentication team decides which API to create. 
+
+- We should avoid API fragmentation. If a feature has an existing robust set of REST APIs, we should avoid adding new GraphQL unless we plan to re-implement existing functionality as REST.
+
+- A robust graphQL API allows for more complex UI applications to be implemented. A good canidate is data that will be surfaced or actionable in different contexts and pages in the UI.
+
+- If we are not expecting to consume the endpoint in the UI, it is best left as REST.
+
+
 ### How we prioritize for a release
 
 We have [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) aligned with our prioritization framework. The engineering manager will prioritize `type::maintenance` issues, the product manager will prioritize `type::feature` issues, and the software engineer in test will prioritize `type::bug` issues. From there, we are able to select a ratio of the top issues to be planned for the release by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4453752?label_name[]=group%3A%3Aauthentication). **Starting 16.5, our target ratio is to plan 60% features, 20% bugs, and 20% maintenance per release**. Security issues do not count towards these ratios, but instead take away from the total capacity. 
