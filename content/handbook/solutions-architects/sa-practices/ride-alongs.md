@@ -35,7 +35,6 @@ To become a driver, submit an MR to this page adding yourself to the table below
 |------------------------|------------------------------|
 | **Tim Poffenbarger**   | Americas SMB, Mid-Market     |
 | **Noah Ing**           | Americas SMB, Mid-Market     |
-| **Jeremy Wagner**      | Americas SMB, Mid-Market     |
 | **Madou Coulibaly**    | EMEA, Enterprise             |
 | **Alexander Dess**     | EMEA, Enterprise             |
 | **Dominique Top**      | EMEA, Enterprise             |
@@ -44,7 +43,6 @@ To become a driver, submit an MR to this page adding yourself to the table below
 | **Ben Ridley**         | APAC PubSec                  |
 | **Sophia Manicor**     | Americas SMB, Mid-Market     |
 | **Ken McKnight**       | Americas Enterprise West     |
-| **Jefferson Jones**    | Americas SMB, Mid-Market     |
 | **__**                 |                              |
 
 ##### Sync before Call
