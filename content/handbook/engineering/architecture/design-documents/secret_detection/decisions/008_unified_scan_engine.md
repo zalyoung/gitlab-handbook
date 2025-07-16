@@ -75,15 +75,15 @@ Here's the comprehensive view of unified scan engine with the different Adapters
 
 ### Scan Engine Component Internals
 
-As we are planning on introducing additional engines (like [AI-based](https://gitlab.com/groups/gitlab-org/-/epics/17886), or RE2 WASM-based for portability) to detect Secrets, the Scanner API should decouple itself from the underlying scan engine so that Regex-based or AI-based or both scan engines could be plugged with it dependening on the usecase.
+As we plan to introduce additional engines (such as [AI-based](https://gitlab.com/groups/gitlab-org/-/epics/17886) or RE2 WASM-based for portability) to detect secrets, the Scanner API should decouple itself from the underlying scan engine. This allows regex-based, AI-based, or multiple scan engines to be plugged in depending on the use case.
 
 #### Interceptors
 
 The Scan Engine component contains Scan Interceptors that intercept before (`Pre-Interceptor`) and after (`Post-Interceptor`) the scan operation performed by the internal engine.
 
-* The `Pre-Interceptor` intercepts input payloads and executes specific operations to return either modified payloads or the original payloads with additional metadata. Examples include AST generation for payloads, sanitizing payload data for inline exclusions, etc.
+* `Pre-Interceptor` intercepts input payloads and executes specific operations to return either modified payloads or the original payloads with additional metadata. Examples include AST generation for payloads, sanitizing payload data for inline exclusions, etc.
 
-* The `Post-Interceptor` intercepts findings detected by the internal engine(s) and returns either hints to discard certain detections due to false positives or runs domain-specific criteria to generate new metadata. Examples include AI-based false positive reduction, entropy matching, etc.
+* `Post-Interceptor` intercepts findings detected by the internal engine(s) and returns either hints to discard certain detections due to false positives or runs domain-specific criteria to generate new metadata. Examples include AI-based false positive reduction, entropy matching, etc.
 
 Interceptors can be either generic (running on every scan) or conditional (triggered by specific criteria such as engine type, customer tier, etc.). They can operate in a chained pipeline where one interceptor's output becomes another's input, or function independently. In both cases, the Scanner API collects the results from all interceptors to determine the final output.
 
