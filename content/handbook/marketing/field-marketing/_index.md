@@ -76,9 +76,15 @@ We will sponsor regional 3rd party events in an effort to build the GitLab brand
 - Customer/prospect run DevOps events on invite
 - Executive relationship building events via companies like Apex Assembly & Argyle Executive Forum
 
-### Meeting Setting
+### Executive Meetings
 
-Meeting Setting occurs when the Corporate Events team sponsors a large conference and requests the Field Meeting team manage setting up on-site meetings during the event. As for all Corp Events, the Marketing Operations team will set up the overall Conference Marketo program and SFDC campaign as well as the  Meeting Setting Marketo program and SFDC campaign for Field Marketing. Meeting Setting is not its own campaign type and is categorized as a [Conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the Conference progression statuses should be utilized. The overall Conference is owned by the Corporate Events team, but Marketing Ops will set up the Meeting Setting SFDC campaign as FM-owned.
+#### Executive meetings at conferences run by Corporate Events
+
+This occurs when the Corporate Events team sponsors a large conference and requests that Regional Marketing manage scheduling executive meetings during the event, in a separate meeting room. The Marketing Operations team will set up the conference Marketo program and SFDC campaign, as well as the executive meetings Marketo program and SFDC campaign. Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. The overall conference is owned by the Corporate Events team, but Marketing Ops will set up the executive meetings as owned by Regional Marketing.
+
+#### Executive meetings at conferences run by Regional Marketing
+
+This occurs when the Regional Marketing team sponsors a large conference and obtains a separate meeting room to run executive meetings. The Regional Marketing FMC will set up the Marketo program and SFDC campaign for both the conference and the executive meetings.  Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. Both the conference and executive meetings will be owned by Regional Marketing.
 
 ## Other Tactics
 
