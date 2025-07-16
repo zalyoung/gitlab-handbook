@@ -472,7 +472,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- The requirements of a Staff Security Assurance Automation Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Security Compliance Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - 10 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education
 - Excellent written and verbal communication skills
@@ -574,7 +574,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The responsibilities of a Staff Security Risk Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - Collaborate with cross-divisional leadership to quantifiably reduce risk
 - Design, implement and maintain metrics to guide decision making within the Security Division
