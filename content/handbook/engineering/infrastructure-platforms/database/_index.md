@@ -45,7 +45,7 @@ We are able to recover to any point in time within the last `DB-DR-RETENTION` da
 
 ### High Availability
 
-For [GitLab.com we maintain availability](/handbook/engineering/infrastructure/production/#gitlabcom) above 99.95%. For the PostgreSQL database,
+For [GitLab.com we maintain availability](/handbook/engineering/infrastructure/production/) above 99.95%. For the PostgreSQL database,
 we define the following SLOs:
 
 | SLO            | Level       | Definition |
