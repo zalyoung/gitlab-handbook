@@ -78,6 +78,10 @@ We will sponsor regional 3rd party events in an effort to build the GitLab brand
 
 ### Executive Meetings
 
+#### SLA for Executive Meetings
+
+The SLA for executive meetings is at least 120 in advance of the conference start date. This allows time to confirm executive support, set up the scheduling process, and give Sales enough time to schedule meetings before the event.
+
 #### Executive meetings at conferences run by Corporate Events
 
 This occurs when the Corporate Events team sponsors a large conference and requests that Regional Marketing manage scheduling executive meetings during the event, in a separate meeting room. The Marketing Operations team will set up the conference Marketo program and SFDC campaign, as well as the executive meetings Marketo program and SFDC campaign. Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. The overall conference is owned by the Corporate Events team, but Marketing Ops will set up the executive meetings as owned by Regional Marketing.
