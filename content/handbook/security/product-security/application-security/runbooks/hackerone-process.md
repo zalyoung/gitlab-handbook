@@ -80,6 +80,7 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 
 - When the `GitLab Team` queue is empty, regularly check that the `H1 Triage` queue doesn't contain reports that are rated as `Critical` or `High`. If there are such rated reports, evaluate if they are indeed `Critical` or `High`, and if so handle them directly without waiting on `H1 Triage`.
   - Generally speaking it's a good practice to keep an eye on the `H1 Triage` and `New` queues to look for `Criticals` and `Highs`.
+  - If a `Critical` report in the `New` queue has been evaluated by an AppSec engineer to be a lower severity, enter a comment in the report to `Team only` detailing why this report does not appear to be `Critical`. This will inform other team members it has already been quickly reviewed to avoid duplicate work. Be sure to leave the case in the `New` queue and leave a note informing H1 to continue to triage the case through their workflow.  
 - The AppSec engineer on rotation should make every effort to ensure that _all_ H1 reports that are assigned to `GitLab Team` within their triage week are both assigned (to themselves) and properly triaged.
   - If a report wasn't re-assigned to the person on rotation, the next person on rotation can freely assign it to them.
 
