@@ -2,7 +2,7 @@
 title: Security Division Risk Acceptance Procedure
 ---
 
-# Purpose
+## Purpose
 
 This procedure establishes a standardized risk acceptance process across all Security Division programs for risks that will be formally accepted rather than remediated or mitigated. This unified approach provides visibility into accepted risks, enables proper oversight, and supports regulatory compliance requirements.
 
