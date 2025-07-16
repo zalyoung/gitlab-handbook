@@ -17,13 +17,11 @@ Check this [2 Minute Zip Overview Video](https://ziphq.wistia.com/medias/d7isqa8
 
 To request access to Zip:
 
-1. Open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) for Zip and Coupa using the `Individual_Bulk_Access_Request` template. All users requesting access to Zip also need a Coupa license to manage POs and invoices
+1. Utillize the [Lumos App Store](https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/ar/) to submit a request for Zip and a separate request for Coupa]. All users requesting access to Zip also need a Coupa license to manage POs and invoices
 
-   - a) In Step 2, in the *Justification for this access* question, please describe what budget, management approvals, purchase orders and invoices approvals you will manage.
+   - a) Enter a *Justification for this access* question, please describe what budget, management approvals, purchase orders and invoices approvals you will manage.
 
-   - b) **After the AR is approved, you must review the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the instructions for provisioning (either assign to the provisioner, add the correct labels or both if not clearly stated) to avoid any provisioning delays.**
-
-   - c) If you require immediate Zip/Coupa access, please ping in the `#coupa_help` Slack channel.
+   - b) If you require immediate Zip/Coupa access, please ping in the `#coupa_help` Slack channel.
 
 2. Once you are provisioned access, Login to your [Okta home page](https://gitlab.okta.com/app/UserHome)
 3. Find the `Zip` tile.
