@@ -187,14 +187,12 @@ If a team member is unavailable for more than 2 days of the week they are on tri
 
 The team member on rotation is responsible for:
 
-- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) throughout the week and ensuring new issues related to Foundations:
+- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) and [Interrupt Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/8885876?label_name%5B%5D=Foundations%20Build&label_name%5B%5D=Foundations%3A%3ARequests) throughout the week and ensuring new issues related to Foundations:
   - Have the correct labels (`Foundations::*`, `Production Engineering::P*`, `workflow-infra::*`, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
 - Asking issue authors for more information when needed to understand the scope of work.
 - Raising any `Production Engineering::1` or `Production Engineering::2` issues and ensuring they have a DRI and are being actively worked on.
-- Completing any issues that come up that can be completed during the week. Weight 5 issues can be considered depending on the priority.
-  - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
 - Responding to alerts in [`#g_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
 - Working on Renovate MRs posted in [`#g_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
   - Patch updates with passing pipelines should be merged.
@@ -202,6 +200,9 @@ The team member on rotation is responsible for:
   - Major updates should be looked at closely to understand breaking changes before considering merging.
 - Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
 - Responding to any [Access Requests that need Foundations provisioning](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26626#open-access-requests).
+- Monitoring the `#g_foundations` Slack channel and directing any questions that arise there into issues to be triaged.
+
+
 
 ### Project Management
 
