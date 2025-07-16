@@ -154,49 +154,38 @@ Below we also have some commonly referenced pages:
 
 ---
 
-## FY25 Direction
+## FY26 Direction
 
-GitLab Support's vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
+GitLab Support's vision is to build a business-aware Support Engineering organization that is considered Enterprise class, that not only meets but exceeds customer expectations where sensible, aids in driving business growth, and is operational excellence focused. 
+Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about.
+GitLab Support's direction for FY26 focuses on evolving our offerings, optimizing processes, and investing in the team to equip them to better serve and represent our customers and align with the changing needs of the business. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. 
 
-The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company's overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
+While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performance Indicators](/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY26.
 
-- [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
-- [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
-- [Maintaining and augmenting the culture of our team](#team-culture-and-how-it-supports-our-ability-to-achieve-results)
-- [Delighting our customers](#delight-our-customers)
+### Evolving our support offerings
 
-While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performance Indicators](/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
+Based on customer feedback in FY25, we are focusing our efforts on the following: 
 
-### Improving our ability to achieve results for our customers
+- Expanding our support capabilities to offer 24/7 High/SEV2 Support as part of our Advanced and Signature Success Tiers
+- Progressing with our Assigned Support Engineer offering as a component of our Signature Success Tier in partnership with our Customer Success team
+- Enhancing our customer-facing knowledge base with up to the minute information of identified defects, troubleshooting guides and video tutorials
+- Reviewing and improving our customers options for engaging with support by redesigning our support pages, giving customers a more satisfactory UX and greater opportunity to self help
 
-FY24 was a challenging year in many aspects. As the workload and customer expectations grew, we needed to look at how we could improve efficiency and create a differentiated Support experience. FY25 is a year to focus and align on our customer needs and put our customers at the center of our understanding of their situations, perceptions, and expectations. To that end, we will:
+### Optimizing processes
 
-- Iterate our support model, keeping our customer experience and business vision at the forefront of our decision making.
-- Adopt a prioritization strategy incorporating our customers' business impact and GitLab business need, while building an understanding within the Support team for the why behind it.
-- Examine and shape the macro and micro trends in group performance and individual efficiency.
-- Build a compelling customer digital support experience that will improve the customer journey and reduce toil for our team.
+In FY26 we will improve efficiency and data driven decision making allowing us to
 
-### Team structure and how it supports our ability to achieve results
+- Share more granular information to our Engineering teams to help them plan and prioritize
+- Continue to integrate AI in support with a focus on learning, identifying use cases and responsible usage
+- Establish feedback loops to ensure customer insights are easily and regularly shared with product teams for actionable improvements
 
-In FY23 / FY24 we moved towards dividing the team into globally distributed groups of engineers. In FY25 we'll build on that foundation and extend towards differentiating support offerings to better align with customer requirements. This year, we will:
+### Investing in the team
 
-- Progress enhanced support offerings while partnering more closely with the Customer Success Team to meet our customers' business needs.
-- Improve how we route and address customer tickets to an appropriate expert with a mind for growing individual engineers from just starting their support journey to complete stewardship of the support journey experience.
+In FY25 Support's influence within the company as advocates for customers grew. We need to continue this trend of strengthening the values-driven cultural attributes that promote efficient collaboration and results for customers while maintaining GitLab Support as a great place to work. In FY26 we will:
 
-### Team culture and how it supports our ability to achieve results
-
-As GitLab grows, Support's influence within the company as advocates for customers must also grow. We need to continue to strengthen the Values-driven cultural attributes that promote efficient collaboration and results for customers while maintaining GitLab Support as a great place to work. In FY25 we will:
-
-- Build leaders and influencers within GitLab as advocates for customers.
-- Expand our enablement, training, and education to prepare the current and future generations of Support Engineers to meet the needs of our customers.
-
-### Delight our customers
-
-FY24 was a year of better understanding the needs of our customers. In FY25 we will focus on *delighting* them. We will:
-
-- Pair with our customers and train engineers in setting and exceeding customer expectations.
-- Improve our ways to serve customers and resolve their problems before a ticket is even opened while keeping that context to enrich tickets for Support Engineers if a ticket *is* needed.
-- Improve our understanding of Support Delivery Quality and how we can consistently provide world class service.
+- Provide the team with data that gives greater visibility into their ability to influence as a voice of our customer
+- Help our team by providing clear and simplified guidelines and expectations of their role
+- Provide training to help our team to consistently provide a world class service 
 
 ---
 {{% include "includes/engineering/we-are-also-product-development.md" %}}
