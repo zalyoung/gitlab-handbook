@@ -116,32 +116,35 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - **Technology flexibility**: Dedicated service can use appropriate queuing, orchestration, and runner management technologies
 - **Scalability**: Global queue allows for efficient resource allocation across all GitLab instances
 
-### Pattern 3: Cluster-Wide Settings
+### Pattern 3: Platform Settings
 *Example: Blocked Registration Domains, Infrastructure Limits*
 
 **When to use this pattern:**
-- The feature manages operational or infrastructure settings that need to be applied globally across all Organizations
-- The setting affects the entire GitLab.com platform infrastructure
+- The feature manages operational or infrastructure settings that need to be applied across all Organizations
+- The setting affects the entire GitLab platform infrastructure
 - The feature requires coordination at the Cell/infrastructure level
 - Default behavior needs to be consistent, but Organizations may need customization options
+- Cell-specific settings related to infrastructure/operations aspects of the particular Cell
 
 **Key characteristics:**
 - **Platform-level defaults** - Managed by instance administrators with global defaults for their GitLab instance
 - **Optional Organization overrides** - Some settings can be overridden by Organization Owners when appropriate
 - **Infrastructure/operational focus** - Typically related to infrastructure, operational limits, or platform-wide defaults
 - **Global consistency with flexibility** - Ensures consistent platform behavior while allowing Organization customization where needed
+- **Cell-specific configurations** - May include Cell-specific infrastructure or operational settings
 
 **Two sub-patterns:**
 
-**Sub-pattern 3a: Non-overridable Cluster-Wide Settings**
+**Sub-pattern 3a: Non-overridable Platform Settings**
 - Settings that cannot be overridden by Organizations
 - Used for security, compliance, or critical infrastructure requirements
 - Example: Blocked registration domains, security policies
 
-**Sub-pattern 3b: Overridable Cluster-Wide Settings**
+**Sub-pattern 3b: Overridable Platform Settings**
 - Settings with platform-wide defaults that Organizations can customize
 - Used for operational limits, feature defaults, or infrastructure settings
 - Example: Default CI/CD timeouts, storage limits, rate limits
+- Provide an internal API for GitLab.com automation - initially platform settings will be applied outside of the Cell using API calls (see [clusterwide syncing](decisions/014_clusterwide_syncing_in_cells_1_0.md) and [admin area setting synchronization](proposal-admin_area_setting_sychronization_in_cells.md))
 
 **Implementation approach:**
 - Set sensible platform-wide defaults
@@ -185,8 +188,8 @@ Evaluate these characteristics:
 **Question:** What type of cross-Organization requirement is this?
 
 - **Access to public resources** → Use Pattern 2 (Federated public resources)
-- **Platform-wide security/compliance** → Use Pattern 3 (Cluster-wide settings - non-overridable)
-- **Platform-wide operational/infrastructure** → Use Pattern 3 (Cluster-wide settings - potentially overridable)
+- **Platform-wide security/compliance** → Use Pattern 3 (Platform settings - non-overridable)
+- **Platform-wide operational/infrastructure** → Use Pattern 3 (Platform settings - potentially overridable)
 - **Organization-to-Organization sharing** → **STOP** - This is not supported in the architecture
 
 ### Step 4: On-Premise Validation
@@ -203,10 +206,11 @@ Evaluate these characteristics:
 
 **For Organization-scoped features:**
 - Design clear Organization Owner permissions and interfaces
-- Implement complete data isolation between Organizations
+- Implement complete data isolation between Organizations with strong enforcement patterns (Row-Level Security or Application-Level enforcement) to prevent data leakage
 - Plan migration paths from instance-wide configurations
 - Consider default configurations for new Organizations
 - Ensure feature scales within Organization boundaries
+- Design items to be scoped per Organization (e.g., global bot accounts become per-Organization accounts) to maintain data isolation
 
 **For federated public resources:**
 - Always use dedicated endpoints to protect GitLab.com availability
@@ -330,13 +334,13 @@ Evaluate these characteristics:
 - On-premise installations can access the same hosted runner infrastructure as GitLab.com
 - Efficient resource allocation across all GitLab instances through global queue management
 
-### ✅ Good: Cluster-Wide Blocked Domains (Non-overridable)
+### ✅ Good: Platform Blocked Domains (Non-overridable)
 - List of email domains blocked from registration managed at the instance level
 - Consistent across all Organizations for security and compliance reasons
 - Cannot be overridden by individual Organizations
-- Each GitLab instance (on-premise, Dedicated, GitLab.com) has their own cluster-wide blocked domains
+- Each GitLab instance (on-premise, Dedicated, GitLab.com) has their own platform-wide blocked domains
 - Managed by instance administrators, not Organization Owners
-- Genuine security/compliance justification for non-overridable cluster-wide scope
+- Genuine security/compliance justification for non-overridable platform-wide scope
 
 ### ✅ Good: Default CI/CD Job Timeout (Overridable)
 - Instance-wide default timeout for CI/CD jobs
@@ -360,8 +364,8 @@ Before implementing any feature, verify:
 - [ ] The on-premise use case is clear and makes sense
 - [ ] No cross-Organization interaction is required
 - [ ] The feature fits clearly into one of the three valid patterns
-- [ ] If cluster-wide, the setting requires platform-level consistency for security/compliance/operational reasons
-- [ ] If cluster-wide, it's clear whether the setting should be overridable by Organizations
+- [ ] If platform settings, the setting requires instance-wide consistency for security/compliance/operational reasons
+- [ ] If platform settings, it's clear whether the setting should be overridable by Organizations
 - [ ] If federated, the resources are truly public and benefit all installations
 - [ ] Migration path from existing instance-wide features is defined
 - [ ] Default behavior for new Organizations is designed
@@ -375,8 +379,8 @@ Before implementing any feature, verify:
 |------------------------|---------|---------|
 | Organization-internal configuration | Organization-scoped | Integrations, System Hooks |
 | Access to public resources | Federated Public Resources | CI Catalog (public components), Hosted Runners |
-| Platform-wide security/compliance | Cluster-wide Settings (non-overridable) | Blocked registration domains |
-| Platform-wide operational/infrastructure | Cluster-wide Settings (overridable) | Default CI/CD timeouts, storage limits |
+| Platform-wide security/compliance | Platform Settings (non-overridable) | Blocked registration domains |
+| Platform-wide operational/infrastructure | Platform Settings (overridable) | Default CI/CD timeouts, storage limits |
 | Cross-Organization sharing | **Not Supported** | None - reconsider requirement |
 
 ## Conclusion
