@@ -9,15 +9,17 @@ toc_hide: true
 
 ### Complete Organization Independence
 
+Organizations operate as completely isolated units with no direct interaction between them. This isolation is fundamental to the Cells and Organizations architecture.
+
 - **Organizations are completely isolated** - Each Organization operates as an independent business unit with no direct interaction with other Organizations
 - **Cells are isolated from each other** - They share no data and operate independently
 - **Think of each Organization as its own GitLab instance** - This is the fundamental mental model for feature design
 
 ### Design Philosophy: Federation-First Thinking
 
-When designing any feature for GitLab.com, always ask: **"How would this work for an on-premise GitLab installation?"**
+The core principle for feature design is federation-first thinking. When designing any feature, always ask: **"How would this work for an on-premise GitLab installation?"**
 
-This question helps determine the correct pattern:
+This mental model helps determine the correct pattern:
 
 - If an on-premise installation would implement this feature locally → Organization-scoped pattern
 - If an on-premise installation would access GitLab.com for this feature → Federated public resources pattern
@@ -25,36 +27,39 @@ This question helps determine the correct pattern:
 
 **Key Benefits of Federation-First Design:**
 
-Features built with federation in mind work out-of-the-box with the Cells architecture across all GitLab Platform offerings (on-premise, Dedicated, SaaS on GitLab.com). Since each Cell and Organization is independent from each other, federation-first design naturally aligns with this architecture and ensures consistent functionality across all deployment models.
+Features built with federation in mind work seamlessly across all GitLab Platform offerings (on-premise, Dedicated, SaaS on GitLab.com). Since each Cell and Organization operates independently, federation-first design naturally aligns with the architecture and ensures consistent functionality across all deployment models.
 
-## Three Valid Feature Patterns
+## Three Feature Design Patterns
 
 ### Pattern 1: Organization-Scoped Features
 
 *Examples: Organization-wide Integrations, System Hooks*
+
+Organization-scoped features operate entirely within a single Organization's boundaries. These features replace instance-wide configurations with Organization-level control.
 
 **When to use this pattern:**
 
 - The feature manages configuration, policies, or resources within a single Organization
 - Organization Owners need to enforce consistent practices across all projects in their Organization
 - The feature operates entirely within Organization boundaries
-- The feature would be implemented locally in an on-premise installation
+- An on-premise installation would implement this feature locally
 
 **Key characteristics:**
 
 - **Organization Owner control** - Organization Owners configure the feature for all projects within their Organization
 - **Consistent enforcement** - Settings apply uniformly across all projects in the Organization
 - **Complete isolation** - Each Organization's configuration is independent and invisible to other Organizations
-- **Business unit alignment** - Reflects that Organizations represent separate business units
+- **Business unit alignment** - Organizations represent separate business units with distinct needs
 
-**Implementation approach:**
+**Implementation requirements:**
 
 - Migrate from instance-wide to Organization-wide scope
 - Provide Organization Owner permissions for feature configuration
-- Ensure complete isolation between Organizations
+- Implement complete data isolation between Organizations with strong enforcement patterns (Row-Level Security or Application-Level enforcement) to prevent data leakage
+- Design items to be scoped per Organization (e.g., global bot accounts become per-Organization accounts) to maintain data isolation
 - Design sensible defaults for new Organizations
 
-**Example: Organization-wide Integrations**
+#### Example: Organization-wide Integrations
 
 - **Previous state**: Instance admins configured integrations (Slack, Email notifications, Redmine, Jira, etc.) for all projects on the instance
 - **New state**: Organization Owners configure these integrations for all projects in their Organization
@@ -74,11 +79,13 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 
 *Example: CI Catalog (Public Components)*
 
+Federated public resources provide access to truly public resources that benefit all GitLab installations. This pattern solves gaps where on-premise installations cannot access public resources from GitLab.com.
+
 **When to use this pattern:**
 
-- The feature provides access to truly public resources (like public CI components, templates, libraries)
+- The feature provides access to truly public resources (public CI components, templates, libraries)
 - On-premise installations currently lack access to these public resources from GitLab.com
-- The resources are designed for public consumption and would benefit all GitLab installations
+- The resources are designed for public consumption and benefit all GitLab installations
 - The feature addresses a current gap in on-premise functionality
 
 **Key characteristics:**
@@ -101,8 +108,8 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 **Option B: Dedicated Service**
 
 - Specialized infrastructure optimized for public resource distribution
-- Can use any suitable technology (databases, caching layers, CDNs, search engines, etc.)
-- Not limited to OCI registry patterns - choose technology based on use case requirements
+- Can use any suitable technology (databases, caching layers, CDNs, search engines)
+- Not limited to specific patterns - choose technology based on use case requirements
 - Better performance and caching for high-frequency access
 - Complete isolation from GitLab.com infrastructure
 
@@ -113,7 +120,7 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - Provides evolutionary path without breaking changes
 - Allows for gradual optimization and technology selection
 
-**Example: CI Catalog (Hybrid Model)**
+#### Example: CI Catalog (Hybrid Model)
 
 - **Local private components**: Organizations can publish and use private CI components within their Organization
 - **Federated public components**: Organizations can access public components through dedicated endpoints (e.g., ci-catalog.gitlab.com)
@@ -124,7 +131,9 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - **Technology flexibility**: Dedicated service can use any suitable technology stack based on requirements
 - **Performance evolution**: Can evolve from proxy endpoints to fully dedicated services for better performance
 
-**Example: Hosted Runners (Federated Service)**
+**Implementation approach:** Local components remain private within Organization boundaries, while public components are accessible across all Organizations and on-premise installations.
+
+#### Example: Hosted Runners (Federated Service)
 
 - **Global queue service**: Dedicated service manages CI job queues outside of GitLab.com infrastructure
 - **Instance independence**: Any GitLab instance (Dedicated, on-premise, or Cell) can submit jobs to the global queue
@@ -134,9 +143,13 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - **Technology flexibility**: Dedicated service can use appropriate queuing, orchestration, and runner management technologies
 - **Scalability**: Global queue allows for efficient resource allocation across all GitLab instances
 
+**Implementation approach:** On-premise installations can access the same hosted runner infrastructure as GitLab.com through efficient resource allocation via global queue management.
+
 ### Pattern 3: Platform Settings
 
 *Example: Blocked Registration Domains, Infrastructure Limits*
+
+Platform settings manage operational or infrastructure settings that apply across all Organizations within a GitLab instance. These settings ensure consistent platform behavior while allowing appropriate customization.
 
 **When to use this pattern:**
 
@@ -176,7 +189,7 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - Ensure consistent application across all Organizations for non-overridable settings
 - Consider how these settings work for on-premise installations
 
-**Example: Blocked Registration Domains (Non-overridable)**
+#### Example: Blocked Registration Domains (Non-overridable)
 
 - **Purpose**: List of email domains that are blocked from registering new accounts
 - **Scope**: Must be consistent across all Organizations for security and compliance
@@ -185,7 +198,9 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - **On-premise**: On-premise installations would have their own platform-wide blocked domains list managed by their instance administrators
 - **Why non-overridable**: Security and compliance requirements apply to the entire instance
 
-**Example: Default CI/CD Job Timeout (Overridable)**
+**Implementation approach:** Each GitLab instance (on-premise, Dedicated, GitLab.com) has their own platform-wide blocked domains managed by their instance administrators.
+
+#### Example: Default CI/CD Job Timeout (Overridable)
 
 - **Purpose**: Default timeout for CI/CD jobs across the instance
 - **Scope**: Instance-wide default with Organization-level customization
@@ -194,17 +209,17 @@ Features built with federation in mind work out-of-the-box with the Cells archit
 - **On-premise**: On-premise installations would have their own defaults with Organization overrides
 - **Why overridable**: Different Organizations have different operational needs while maintaining infrastructure protection
 
+**Implementation approach:** Each GitLab instance has their own defaults with Organization override capability, balancing operational needs with infrastructure protection.
+
 ## Feature Design Decision Framework
 
 ### Step 1: Scope Assessment
 
-**Question:** What is the natural scope of this feature?
-
-Evaluate these characteristics:
+Determine the natural scope of the feature by evaluating these characteristics:
 
 - **Organization-scoped**: Feature manages resources, configuration, or policies within a single Organization
 - **Public resources**: Feature provides access to truly public resources that benefit all installations
-- **Platform-wide**: Feature manages settings that must be consistent across all Organizations for security/compliance
+- **Platform-wide**: Feature manages settings that must be consistent across all Organizations for security/compliance/operations
 
 ### Step 2: Cross-Organization Requirements
 
@@ -233,9 +248,9 @@ Evaluate these characteristics:
 
 ## Implementation Guidelines
 
-### Technical Considerations
+### Organization-Scoped Features
 
-**For Organization-scoped features:**
+**Technical requirements:**
 
 - Design clear Organization Owner permissions and interfaces
 - Implement complete data isolation between Organizations with strong enforcement patterns (Row-Level Security or Application-Level enforcement) to prevent data leakage
@@ -244,7 +259,9 @@ Evaluate these characteristics:
 - Ensure feature scales within Organization boundaries
 - Design items to be scoped per Organization (e.g., global bot accounts become per-Organization accounts) to maintain data isolation
 
-**For federated public resources:**
+### Federated Public Resources
+
+**Technical requirements:**
 
 - Always use dedicated endpoints to protect GitLab.com availability
 - Design APIs that handle network latency and failures gracefully
@@ -254,7 +271,9 @@ Evaluate these characteristics:
 - Choose appropriate technology stack for the dedicated service (not limited to specific patterns)
 - Design for eventual evolution from proxy endpoints to fully dedicated services
 
-**For platform settings:**
+### Platform Settings
+
+**Technical requirements:**
 
 - Identify what truly requires instance-wide defaults or consistency
 - Determine which settings should be overridable by Organizations vs. non-overridable
@@ -298,9 +317,11 @@ Evaluate these characteristics:
 - Monitor performance and user experience during migration
 - Provide rollback mechanisms if needed
 
-## Best Practices
+## Best Practices and Anti-Patterns
 
-### Do
+### Best Practices
+
+**Design principles:**
 
 - **Think federation-first with organization-first emphasis** - Always consider how the feature would work for on-premise installations, with particular focus on Organization-scoped design
 - **Design for Cells architecture compatibility** - Features built with federation in mind work out-of-the-box across all GitLab Platform offerings (on-premise, Dedicated, SaaS)
@@ -312,107 +333,57 @@ Evaluate these characteristics:
 - **Use dedicated endpoints for public resources** - Always protect GitLab.com availability by routing through dedicated infrastructure
 - **Choose appropriate administrative levels** - Distinguish clearly between Organization Owner and Instance Administrator capabilities
 
-### Don't
+**Implementation guidelines:**
 
-- **Design cross-Organization sharing** - Organizations cannot share resources or data with each other
-- **Assume Organizations want to interact** - Complete independence is the architectural goal
-- **Create unnecessary platform settings** - Only use Pattern 3 for genuine operational/infrastructure needs
-- **Ignore performance implications** - Federation and isolation add complexity and latency
-- **Forget about migration paths** - Existing instance-wide features need clear migration strategies
-- **Bypass the decision framework** - Always validate feature design against the three patterns
-- **Make settings non-overridable without justification** - Only restrict Organization customization when truly necessary for security/compliance
-- **Make direct API calls to GitLab.com** - Use dedicated endpoints to prevent resource contention
+- Start with simple implementations and evolve to more complex solutions as needed
+- Protect GitLab.com availability by using dedicated endpoints for all public resources
+- Choose appropriate technology stacks based on requirements, not predetermined patterns
+- Design for multiple deployment models (on-premise, Dedicated, SaaS)
+- Plan for operational scaling as Organizations and usage grow
+- Maintain clear boundaries between different resource types
+- Design for eventual consistency in federated systems
+- Implement proper error handling with meaningful alternatives
 
-## Common Anti-Patterns to Avoid
+### Anti-Patterns to Avoid
 
-### Anti-Pattern: Cross-Organization Resource Sharing
+**Cross-Organization Resource Sharing:**
 
 - Organizations sharing resources, data, or configuration with each other
 - Features that require Organizations to know about each other's existence
 - Any form of direct Organization-to-Organization interaction or collaboration
 
-### Anti-Pattern: Unnecessary Platform Settings
+**Unnecessary Platform Settings:**
 
 - Settings that apply across multiple Organizations without genuine operational/infrastructure justification
 - Features that require coordination between Organizations for business (not technical/operational) reasons
 - Global configuration that affects multiple Organizations without instance-level necessity
 - Making settings non-overridable when Organizations have legitimate customization needs
 
-### Anti-Pattern: Assuming Cross-Organization Needs
+**Assuming Cross-Organization Needs:**
 
 - Designing features that "might" need cross-Organization access in the future
 - Creating unnecessary complexity for theoretical requirements
 - Not validating requirements against the on-premise use case
 
-### Anti-Pattern: Bypassing Organization Boundaries
+**Bypassing Organization Boundaries:**
 
 - Features that circumvent Organization isolation for convenience
 - Shared caches or data stores that leak information between Organizations
 - Global search or discovery that spans multiple Organizations
 
-## Examples in Practice
+## Pattern Selection Guide
 
-### ✅ Good: Organization-wide Integrations
+### Quick Reference Table
 
-- Organization Owner configures integrations (Slack, Email notifications, Redmine, Jira) for all projects in their Organization
-- Each Organization has independent integration configuration with their own external services
-- No cross-Organization visibility or sharing of integration settings
-- Clear migration path from instance-wide configuration
-- Makes business sense since Organizations use different external tools
+| Feature Characteristic | Pattern | Example |
+|------------------------|---------|---------|
+| Organization-internal configuration | Organization-scoped | Integrations, System Hooks |
+| Access to public resources | Federated Public Resources | CI Catalog (public components), Hosted Runners |
+| Platform-wide security/compliance | Platform Settings (non-overridable) | Blocked registration domains |
+| Platform-wide operational/infrastructure | Platform Settings (overridable) | Default CI/CD timeouts, storage limits |
+| Cross-Organization sharing | **Not Supported** | None - reconsider requirement |
 
-### ✅ Good: Organization-scoped System Hooks
-
-- Organization-level webhooks for notifications about changes within the Organization
-- Each Organization configures its own webhook endpoints and notification preferences
-- Complete isolation between Organizations' notification systems
-- Clear migration from instance-wide system hooks
-- Organizations only receive notifications about their own activities
-
-### ✅ Good: Federated CI Catalog (Hybrid Model)
-
-- Organizations can publish and use private CI components within their Organization (local catalog)
-- Organizations can also access public components through dedicated endpoints (e.g., ci-catalog.gitlab.com)
-- Dedicated endpoints protect GitLab.com availability by isolating public resource traffic
-- On-premise installations can access public components through the same dedicated endpoints
-- Local components remain private within the Organization boundary
-- Public components are accessible across all Organizations and on-premise installations
-- Can evolve from proxy endpoints to fully dedicated services using appropriate technology stack
-
-### ✅ Good: Hosted Runners (Federated Service)
-
-- Global queue service manages CI job queues outside of GitLab.com infrastructure
-- Any GitLab instance (Dedicated, on-premise, or Cell) can submit jobs to the global queue
-- Shared runner infrastructure managed by dedicated service, not individual GitLab instances
-- Isolates runner infrastructure from GitLab.com to prevent resource contention
-- On-premise installations can access the same hosted runner infrastructure as GitLab.com
-- Efficient resource allocation across all GitLab instances through global queue management
-
-### ✅ Good: Platform Blocked Domains (Non-overridable)
-
-- List of email domains blocked from registration managed at the instance level
-- Consistent across all Organizations for security and compliance reasons
-- Cannot be overridden by individual Organizations
-- Each GitLab instance (on-premise, Dedicated, GitLab.com) has their own platform-wide blocked domains
-- Managed by instance administrators, not Organization Owners
-- Genuine security/compliance justification for non-overridable platform-wide scope
-
-### ✅ Good: Default CI/CD Job Timeout (Overridable)
-
-- Instance-wide default timeout for CI/CD jobs
-- Organizations can override the default within reasonable limits
-- Provides consistent infrastructure protection while allowing customization
-- Instance administrators set global defaults, Organization Owners can customize
-- Each GitLab instance has their own defaults with Organization override capability
-- Balances operational needs with infrastructure protection
-
-### ❌ Avoid: Any Cross-Organization Features
-
-- Features that require Organizations to interact with each other
-- Sharing resources between Organizations
-- Global settings that affect multiple Organizations without platform-level justification
-- Features that don't make sense for isolated on-premise installations
-
-## Validation Checklist
+### Validation Checklist
 
 Before implementing any feature, verify:
 
@@ -429,18 +400,76 @@ Before implementing any feature, verify:
 - [ ] Security boundaries between Organizations are maintained
 - [ ] Administrative controls are appropriate for the pattern chosen
 
-## Pattern Selection Quick Reference
+## Examples in Practice
 
-| Feature Characteristic | Pattern | Example |
-|------------------------|---------|---------|
-| Organization-internal configuration | Organization-scoped | Integrations, System Hooks |
-| Access to public resources | Federated Public Resources | CI Catalog (public components), Hosted Runners |
-| Platform-wide security/compliance | Platform Settings (non-overridable) | Blocked registration domains |
-| Platform-wide operational/infrastructure | Platform Settings (overridable) | Default CI/CD timeouts, storage limits |
-| Cross-Organization sharing | **Not Supported** | None - reconsider requirement |
+### ✅ Recommended Implementations
+
+**Organization-wide Integrations:**
+
+- Organization Owner configures integrations (Slack, Email notifications, Redmine, Jira) for all projects in their Organization
+- Each Organization has independent integration configuration with their own external services
+- No cross-Organization visibility or sharing of integration settings
+- Clear migration path from instance-wide configuration
+- Makes business sense since Organizations use different external tools
+
+**Organization-scoped System Hooks:**
+
+- Organization-level webhooks for notifications about changes within the Organization
+- Each Organization configures its own webhook endpoints and notification preferences
+- Complete isolation between Organizations' notification systems
+- Clear migration from instance-wide system hooks
+- Organizations only receive notifications about their own activities
+
+**Federated CI Catalog (Hybrid Model):**
+
+- Organizations can publish and use private CI components within their Organization (local catalog)
+- Organizations can also access public components through dedicated endpoints (e.g., ci-catalog.gitlab.com)
+- Dedicated endpoints protect GitLab.com availability by isolating public resource traffic
+- On-premise installations can access public components through the same dedicated endpoints
+- Local components remain private within the Organization boundary
+- Public components are accessible across all Organizations and on-premise installations
+- Can evolve from proxy endpoints to fully dedicated services using appropriate technology stack
+
+**Hosted Runners (Federated Service):**
+
+- Global queue service manages CI job queues outside of GitLab.com infrastructure
+- Any GitLab instance (Dedicated, on-premise, or Cell) can submit jobs to the global queue
+- Shared runner infrastructure managed by dedicated service, not individual GitLab instances
+- Isolates runner infrastructure from GitLab.com to prevent resource contention
+- On-premise installations can access the same hosted runner infrastructure as GitLab.com
+- Efficient resource allocation across all GitLab instances through global queue management
+
+**Platform Blocked Domains (Non-overridable):**
+
+- List of email domains blocked from registration managed at the instance level
+- Consistent across all Organizations for security and compliance reasons
+- Cannot be overridden by individual Organizations
+- Each GitLab instance (on-premise, Dedicated, GitLab.com) has their own platform-wide blocked domains
+- Managed by instance administrators, not Organization Owners
+- Genuine security/compliance justification for non-overridable platform-wide scope
+
+**Default CI/CD Job Timeout (Overridable):**
+
+- Instance-wide default timeout for CI/CD jobs
+- Organizations can override the default within reasonable limits
+- Provides consistent infrastructure protection while allowing customization
+- Instance administrators set global defaults, Organization Owners can customize
+- Each GitLab instance has their own defaults with Organization override capability
+- Balances operational needs with infrastructure protection
+
+### ❌ Implementations to Avoid
+
+**Cross-Organization Features:**
+
+- Features that require Organizations to interact with each other
+- Sharing resources between Organizations
+- Global settings that affect multiple Organizations without platform-level justification
+- Features that don't make sense for isolated on-premise installations
 
 ## Conclusion
 
-The Cells and Organizations architecture provides a clear framework for feature design with three distinct patterns. By following the federation-first thinking approach and validating against on-premise use cases, you can ensure that features are designed appropriately for this distributed architecture while maintaining the core principle of Organization independence.
+The Cells and Organizations architecture provides a clear framework for feature design through three distinct patterns: Organization-scoped features, Federated public resources, and Platform settings. By following federation-first thinking and validating against on-premise use cases, you can ensure features are designed appropriately for this distributed architecture while maintaining complete Organization independence.
 
-**Federation-first design provides automatic compatibility** with the Cells architecture across all GitLab Platform offerings (on-premise, Dedicated, SaaS on GitLab.com). Since each Cell and Organization operates independently, features designed with federation principles naturally work across all deployment models without additional adaptation.
+Federation-first design provides automatic compatibility with the Cells architecture across all GitLab Platform offerings (on-premise, Dedicated, SaaS on GitLab.com). Since each Cell and Organization operates independently, features designed with federation principles naturally work across all deployment models without requiring additional adaptation.
+
+The key to successful feature design in this architecture is understanding that Organizations are completely independent units, public resources must be accessed through dedicated infrastructure, and platform settings should only be used when genuine operational or infrastructure coordination is required across all Organizations.
