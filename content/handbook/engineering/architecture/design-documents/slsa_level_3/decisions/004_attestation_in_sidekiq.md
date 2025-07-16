@@ -13,15 +13,15 @@ a summary, glgo was chosen because it was a feasible mechanism to achieve SLSA
 Level 3 compliance, it allowed delivery of attestation for gitlab.com customers
 and required no additional services or infrastructure.
 
-While discussing options for the integration between cosign and glgo concerns
+While discussing options for the integration between Rails and glgo, concerns
 were raised about the [number of dependencies](https://gitlab.com/gitlab-org/gitlab/-/issues/551210#note_2611268806)
 that would be added to glgo in the event that the cosign project was directly
 imported.
 
-An alternative approach in the event integration with glgo was
-not viable was evaluated. This ADR contains several possible options through
-which the `cosign` binary can be embedded into Sidekiq workers, which would
-allow for the generation of software attestations within them.
+An alternative approach was evaluated, which would perform signing within
+Sidekiq workers. This ADR contains several possible options through which the
+`cosign` binary can be embedded into them, which would allow for the
+generation of software attestations.
 
 ## Options Considered
 
@@ -39,7 +39,7 @@ A proof of concept attestation program is available [in this merge request.](htt
 * `cosign` is the most widely used mechanism through which to interact with sigstore, which means there will be documentation and support if we run into any issues.
 * Shipping a binary means we can leverage existing tooling to maintain dependencies, such as [Renovate](/handbook/engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/)
 
-**Cons**
+**Cons:**
 
 * Even though distribution is feasible, it is not trivial. CNG and Linux packages [need to be created](https://gitlab.com/gitlab-org/gitlab/-/issues/554600#note_2618812171).
 
@@ -47,10 +47,10 @@ A proof of concept attestation program is available [in this merge request.](htt
 
 **Cons:**
 
-* It is effectively a workaround to potential difficulties in distribution. Since distributing a well-known, small, go binary is [relatively easy](https://gitlab.com/gitlab-org/gitlab/-/issues/554600#note_2618812171) this is not necessary.
+* It is effectively a workaround to potential difficulties in distribution. Since distributing a small, well-known go binary is [relatively easy](https://gitlab.com/gitlab-org/gitlab/-/issues/554600#note_2618812171) this is not necessary.
 * It is more complex than the alternatives.
-* Need to deal with the intricacies of Ruby packaging.
-* Would need to keep up with updates to the cosign binary and update it in the event there are security vulnerabilities within it. Because this is a security critical component this is likely to be a requirement.
+* Would need to deal with the intricacies of Ruby packaging.
+* Would need to keep up with updates to the cosign binary and update it in the event there are security vulnerabilities.
 
 ### 3. Use a native Ruby implementation of cosign
 
@@ -64,7 +64,7 @@ A proof of concept attestation program is available [in this merge request.](htt
 * The current version of [sigstore ruby](https://docs.sigstore.dev/language_clients/ruby/) offers a very small subset of the features provided by cosign.
 * It would require substantial development time.
 * Requires non-trivial integration code with several third-party providers.
-* Requires maintenance work to keep up with any changes to standards or third-parties.
+* Requires maintenance work to keep up with any changes to standards or third-party APIs.
 
 ## Decision
 
@@ -88,13 +88,13 @@ the two services.
 ### Positive
 
 * Reduced overall complexity.
-* Because `cosign` is very widely used, we are likely to be able to easily support all required use cases, and use the exhaustive documentation available.
-* Reduced distribution complexity as we remove the dependency on `glgo`. This service is not available for all kinds of GitLab installations at this stage.
+* Because `cosign` is very widely used, we are likely to be able to support all required use cases. Additionally, we can use the exhaustive documentation available.
+* Reduced distribution complexity as we remove the dependency on `glgo`. This service is not available for all types of GitLab installations at this stage.
 * Existing tooling to maintain dependencies, such as [Renovate](/handbook/engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/), can be used.
 
 ### Negative
 
-* Interacting with a command-line tool is high-risk. Although initially the parameters we would pass to the tool are not user-controlled, this may change later on depending on requirements. This negative consequence can be mitigated by adhering to well-established procedures documented in the [Shell command development guidelines page](https://docs.gitlab.com/development/shell_commands/).
+* Interacting with a command-line tool is high-risk. Although initially the parameters we would pass to the tool are not user-controlled, this may change later depending on requirements. This negative consequence can be mitigated by adhering to well-established procedures documented in the [Shell command development guidelines page](https://docs.gitlab.com/development/shell_commands/).
 
 ## Related Links
 
