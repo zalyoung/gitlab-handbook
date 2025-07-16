@@ -37,7 +37,7 @@ A proof of concept attestation program is available [in this merge request.](htt
 * The simplest of available options in terms of development effort.
 * The cosign binary is feature-complete. This is in contrast to [sigstore-ruby](https://github.com/sigstore/sigstore-ruby), for example, which only supports verification.
 * `cosign` is the most widely used mechanism through which to interact with sigstore, which means there will be documentation and support if we run into any issues.
-* Shipping a binary means we can leverage existing tooling to maintain dependencies, such as [Renovate](engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/)
+* Shipping a binary means we can leverage existing tooling to maintain dependencies, such as [Renovate](/handbook/engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/)
 
 **Cons**
 
@@ -90,11 +90,11 @@ the two services.
 * Reduced overall complexity.
 * Because `cosign` is very widely used, we are likely to be able to easily support all required use cases, and use the exhaustive documentation available.
 * Reduced distribution complexity as we remove the dependency on `glgo`. This service is not available for all kinds of GitLab installations at this stage.
-* Existing tooling to maintain dependencies, such as [Renovate](engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/), can be used.
+* Existing tooling to maintain dependencies, such as [Renovate](/handbook/engineering/infrastructure-platforms/gitlab-delivery/build/maintenance/renovate/), can be used.
 
 ### Negative
 
-*  Interacting with a command-line tool is high-risk. Although initially the parameters we would pass to the tool are not user-controlled, this may change later on depending on requirements. This negative consequence can be mitigated by adhering to well-established procedures documented in the [Shell command development guidelines page](https://docs.gitlab.com/development/shell_commands/).
+* Interacting with a command-line tool is high-risk. Although initially the parameters we would pass to the tool are not user-controlled, this may change later on depending on requirements. This negative consequence can be mitigated by adhering to well-established procedures documented in the [Shell command development guidelines page](https://docs.gitlab.com/development/shell_commands/).
 
 ## Related Links
 
