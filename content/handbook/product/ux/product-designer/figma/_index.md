@@ -27,6 +27,8 @@ Figma has four levels of access, also called Permissions, for Professional teams
 
 [View complete permission details](https://help.figma.com/hc/en-us/articles/360039970673-Viewer-Editor-and-Admin-team-permissions)
 
+For more on using Figma or sharing Figma artifacts, [view Figma guidance in Pajamas](https://design.gitlab.com/get-started/uik-sharing).
+
 ### File backup
 
 Figma's cloud storage contains all design files under our Organization account and only the Pajamas UI Kit files are published to our [GitLab Product Design](https://www.figma.com/@gitlabdesign) community page and available publicly. It's recommended that you back up any non-confidential design files you'd like to have a record of for future reference or portfolio use by saving a .fig file and storing via your preferred method.
