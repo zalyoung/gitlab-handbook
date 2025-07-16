@@ -2,17 +2,17 @@
 title: CTO Leadership Team
 ---
 
-The CTO Leadership Team is composed of the CTO's direct reports and the Office of the CTO (OCTO).
+The CTO Leadership Team is composed of the CTO's direct reports and the Office of the CTO (OCTO). The Engineering Leadership Team (ELT) includes leads for the org focus areas: AI, Customer Support, Data Engineering, DevOps, Platforms & Infra, R&D PMO, and Sec.
 
 ## Office of the CTO (OCTO)
 
-The OCTO is composed of the CTO, the Engineering EBAs, the CTO's People Business Partners, and the CTO's Director of Technical Program Management. This team works to amplify the CTO's reach, vision, and mission. They work together to deliver programs and results across the entire Engineering Division.
+The OCTO is led by the CTO Chief-of-staff and is composed of the CTO org partners including the Engineering EBAs, the CTO's People Business Partners, and the CTO's Director of Technical Program Management. This team works to amplify the CTO's reach, vision, and mission. They work together to deliver programs and results across the entire Engineering Division.
 
 ## Engineering All-Hands
 
-The Engineering All-Hands meeting takes place twice per quarter, scheduled at the middle and end of each quarter, with time slots that accommodate both EMEA/AMER and APAC/AMER-friendly time zones. Twice per year, we offer alternative EMEA/APAC and AMER-friendly time slots to better support global team participation. Additionally, [CTO Office Hours](/handbook/engineering/engineering-comms/#synchronous-meetings) occur weekly, alternating between EMEA/AMER and APAC/AMER time zones each week.
+The Engineering All-Hands meeting takes place approximately twice per quarter (except when we align with the shared Product & Engineering All-Hands). The meetings are scheduled mid and end of each quarter, with time slots that accommodate both EMEA/AMER and APAC/AMER-friendly time zones. Twice per year, we schedule an alternative EMEA/APAC and AMER-friendly time slots to better support global team participation. 
 
-The purpose is to share company updates, stay connected, and receive feedback.
+The purpose is to share org updates, stay connected, and receive feedback.
 
 The entire Engineering group is invited, though anyone at GitLab is welcome to attend and contribute to [the All-Hands agenda](https://drive.google.com/drive/search?q=engineering%20all%20hands%20agenda) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
 
@@ -36,9 +36,15 @@ The entire Engineering group is invited, though anyone at GitLab is welcome to a
      1. CTO EBA will schedule and facilitate a 15-minute tech check with all presenters for both sessions.
      2. Stakeholders should ensure additional presenters from their teams are included in the tech check if applicable.
 
+## CTO Office Hours
+
+Additionally, the CTO hosts [CTO Office Hours](/handbook/engineering/engineering-comms/#synchronous-meetings) weekly, alternating between EMEA/AMER and APAC/AMER time zones each week. These office hours are available to anyone in the company to ask about any topic that is "Top of Mind" for the CTO or the Engineering Division. These meetings are recorded and notes published for those who wish to review async.
+
+For team members who have a private "Top of Mind" topic they would like to discuss, the CTO office has 20min slots available that can be scheduled as needed. See available time slots marked as Available Time Slots for Office Hours. If no slots are available, reach out to the CTO-EBA to book additional time.
+
 ## CTO Leadership Offsite
 
-The quarterly CTO Leadership Offsite provides a forum for longer-form discussion among the CTO's Leadership Team. This offsite is planned by the OCTO Team and rotates between in-person and virtual.
+The semi-annual CTO Leadership Offsite provides a forum for longer-form discussion among the CTO's Leadership Team. This offsite is planned by the OCTO Team and rotates between in-person and virtual.
 
 ### Schedule
 
@@ -72,3 +78,7 @@ The specific agenda for each offsite depends on active projects and the goals of
 1. Department-to-department feedback
 
 In general, we prefer to have more items than we can fit into the agenda, and then push some items out, rather than have too little.
+
+## CTO Tech Lead Summit
+
+This is an annual event that we try to host in-person, but will host remote participation as required for individuals to be able to participate. These events are focused on the technical challenges the org is undergoing with invitations that include all identified decision makers as determined by the agenda. The agenda is put together by our Principal+ individual contributors and the CTO.
