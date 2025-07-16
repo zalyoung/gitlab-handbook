@@ -12,7 +12,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 ## Helpful places to start
 
-- [Internal handbook performance indicators (PIs)](https://internal.gitlab.com/handbook/company/performance-indicators/) - This internal handbook page is a great place to understand the PIs for each Stage / Group to understand what results each team is trying to acheive.
+- [Internal handbook performance indicators (PIs)](https://internal.gitlab.com/handbook/company/performance-indicators/) - This internal handbook page is a great place to understand the PIs for each Stage / Group to understand what results each team is trying to achieve.
 
 - [Product categories handbook page](/handbook/product/categories/) contains a huge amount of helpful information and defines sections, stages, groups, and categories.
 
@@ -471,7 +471,7 @@ The following tables can be used for Service Ping metric reporting.
 
 - common_mart.mart_ping_instance_metric_28_day - Use for 28 day timeframe metrics
 
-- common_mart.mart_ping_instance_metric_monthly - Use for all, 7, 28 timeframe metrics pre filtered to the last ping of the month (does not include none or null timeframe metrics)
+- common_mart.mart_ping_instance_metric_monthly - Use for all, 7, 28 timeframe metrics pre-filtered to the last ping of the month (does not include none or null timeframe metrics)
 
 - workpace_product.wk_fct_ping_instance_metric_none - Use for metrics with a none timeframe
 
@@ -516,7 +516,7 @@ OR
 
 ### Growth Section
 
-Although the [Growth Section](/handbook/marketing/growth/) falls within the Maketing & Strategy division, the Growth Section has dedicated support from Product Data Insights on topics within our ownership areas.
+Although the [Growth Section](/handbook/marketing/growth/) falls within the Marketing & Strategy division, the Growth Section has dedicated support from Product Data Insights on topics within our ownership areas.
 
 #### Growth Stage (Acquisition, Activation Groups)
 
@@ -554,7 +554,7 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 - [SaaS Team Activation](https://docs.google.com/presentation/d/1rJG8FaqEjfgA-Nz9Ww3blgcUwRGzri7CeKkn1e2eEHY/edit?usp=sharing)
 
-- [Valuable Signup](https://docs.google.com/presentation/d/1xHBrnvwdMxQGqmX0TtcQz5tUYsAeU6CAMnpcDlhHUpc/edit?usp=sharing)
+- [Valuable Sign-up](https://docs.google.com/presentation/d/1xHBrnvwdMxQGqmX0TtcQz5tUYsAeU6CAMnpcDlhHUpc/edit?usp=sharing)
 
 - Both of the above metrics are monitored in [Growth Section Product Data Insights Hub in Tableau](https://10az.online.tableau.com/t/gitlab/views/GrowthSectionProductDataInsightsHub/GrowthSectionProductDataInsightsHub)
 
