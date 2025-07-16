@@ -148,7 +148,7 @@ In this section, we share commonly used data models that fuel many of our dashbo
 
 - [Performance Indicator files](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators?ref_type=heads)
 - [Performance Indicator page shortcodes](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/layouts/partials/performance-indicators)
-- [Performance Indictoar page generator](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/layouts/shortcodes/performance-indicators.md?ref_type=heads&plain=1)
+- [Performance Indicator page generator](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/layouts/shortcodes/performance-indicators.md?ref_type=heads&plain=1)
 - [Performance Indicator Pages](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators?ref_type=heads )
 
 If you have any questions, please feel free to drop them in `#g_engineering_analytics` or open a [new issue](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/issues/new) for our team.
