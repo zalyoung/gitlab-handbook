@@ -86,6 +86,10 @@ This occurs when the Corporate Events team sponsors a large conference and reque
 
 This occurs when the Regional Marketing team sponsors a large conference and obtains a separate meeting room to run executive meetings. The Regional Marketing FMC will set up the Marketo program and SFDC campaign for both the conference and the executive meetings.  Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. Both the conference and executive meetings will be owned by Regional Marketing.
 
+#### JiffleNow
+
+The Regional Marketing team utilizes a meeting scheduling tool called [JiffleNow](/handbook/marketing/marketing-operations/jifflenow/). The parameters that must be met to utilize this tool for executive meeting scheduling are listed [here](/handbook/marketing/marketing-operations/jifflenow/#when-to-use-jifflenow).
+
 ## Other Tactics
 
 Being the marketing experts for the region, GitLab Field Marketers are also responsible for using other tactics to help generate leads to build pipeline. We have options such as survey tools, both of current employees and past employees based on the 3rd party vendor we use, webcasts, direct mailings, and also various digital tactics.
