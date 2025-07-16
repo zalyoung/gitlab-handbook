@@ -45,7 +45,6 @@ To become a driver, submit an MR to this page adding yourself to the table below
 | **Sophia Manicor**     | Americas SMB, Mid-Market     |
 | **Ken McKnight**       | Americas Enterprise West     |
 | **Jefferson Jones**    | Americas SMB, Mid-Market     |
-| **Edmond Chan**        | Americas Enterprise East.    |
 | **__**                 |                              |
 
 ##### Sync before Call
