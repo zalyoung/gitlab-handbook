@@ -118,22 +118,26 @@ You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 
 ### Assigned Support Engineer (ASE)
 
-For Support Engineers who are nearing or at Senior Level
+An Assigned Support Engineer is a Support Engineer who is nearing (exceeding in their current role) or at the
+Senior Level. Each ASE is assigned up to 4 accounts with which they will work
+closely in order to deliver a significantly enhanced support experience.
 
 #### The ASE role
 
-- Prioritize a mix of Self-managed and GitLab.com (SaaS) customers with a higher support offering and resolve their issues via Zendesk tickets, merge requests, email and video conferencing
-- Lead the relationship with up to 5 assigned accounts while also contributing to global tickets
-- Become familiar with customer environments and business - to provide an enhanced support experience
-- Build relationship with customer's team
-- Build a relationship with internal field team
-- Be available during timezone business hours (or arrange temporary cover when not available)
-- Take assignment of, own communication for, and progress all non emergency tickets for your Assigned Accounts within SLAs
-- Be available to take Emergency tickets during business hours for ASE contract (Tickets will be handled via CEOC/CMOC rotation who will engage ASE during agreed ASE availability hours)
-- Provide timely ticket updates at a cadence agreed with customer
-- Partner with CSM (where allocated) in scheduled review calls to discuss ticket priorities and progression
-- Coordinate with internal teams as necessary to drive decreased time to resolution
-- Coordinate with customer to enable successful upgrades
+- Build, nurture and lead the relationship between Support and up to 4 assigned
+  accounts
+- Balance time between accounts to ensure that, on average, each account receives the amount of service for which they contracted
+- Be available during accounts' business hours and arrange temporary cover when not available
+- Work closely with the [Sales](/handbook/sales) and
+  [Customer Success](/handbook/customer-success) Teams to coordinate work and
+  communications with each account so that it is clear to them that GitLab is one team
+- Give top priority to working with assigned accounts: advocating within GitLab for their needs, advising and guiding them through major changes such as upgrades, and helping them meet their GitLab-associated business goals
+  - Track and prioritize all customer agreed-upon work on support tickets, GitLab issues, and Customer Success projects, giving each appropriate priority to meet agreed delivery timelines
+- Stay up-to-date with customer environments, use cases and business needs, and use that knowledge both to resolve problems quickly and to advise proactively on problem prevention
+- Meet with each account on a frequent and regular basis to report on progress, to set relative priorities on remaining work, and to agree on what will be done by the next meeting
+  - This agreement should include a plan for whether to take all, some or none of the non-emergency tickets the account submits prior to the next meeting
+- Establish and document clear communication agreements with each account regarding preferred methods of interaction, expected response times, and escalation procedures, and review these regularly to ensure continued alignment
+- Assist with emergency tickets submitted by accounts during business hours for their ASE contract
 
 #### What is it like to be an ASE?
 
