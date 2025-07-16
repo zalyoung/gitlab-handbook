@@ -19,7 +19,7 @@ This procedure applies to security risk acceptance decisions across the followin
 
 ## Roles and Responsibilities
 
-|Role | Responsbility|
+|Role | Responsibility|
 |--|--|
 |Risk Acceptance Requestor| Initiates risk acceptance request with proper justification and documentation|
 |Program Review Team| Reviews risk acceptance requests, validates risk assessments, and maintains program-specific tracking|
@@ -141,7 +141,7 @@ Who: Program Review Team
 
 #### Mandatory Review Schedule
 
-For each perodic review, the risk acceptance must be repeated.
+For each periodic review, the risk acceptance must be repeated.
 
 | Risk Level| Review Frequency| Review Team|
 |--| --|--|
