@@ -1,11 +1,11 @@
 ---
 title: "Dark Mode Rollout Playbook"
-description: "A step-by-step plan for product teams to directly support the rollout and implementation of dark mode in their areas of responsibility."
+description: "This playbook outlines the expectations, workflows, and guidance for teams implementing and maintaining dark mode in their areas of responsibility."
 ---
 
-This playbook is a step-by-step plan for product teams to directly support the rollout and implementation of dark mode in their areas of responsibility. While dark mode has been integrated into the design system, there are potential gaps and custom implementations that need to be reviewed before we can transition dark mode from Experimental (alpha) to Beta status.
+This playbook outlines the expectations, workflows, and guidance for teams implementing and maintaining dark mode in their areas of responsibility.
 
-Once dark mode reaches Beta, it will require formal support in line with our [feature maturity guidelines](https://docs.gitlab.com/policy/development_stages_support/). Product teams will ultimately be responsible for ensuring their areas deliver a consistent and cohesive dark mode experience aligned with the design system.
+Dark mode is generally available and requires formal support inline with our [feature maturity guidelines](https://docs.gitlab.com/policy/development_stages_support/). This playbook serves as a reference for teams continuing adoption, fixing long-tail issues, and ensuring compatibility in future work. Product teams will ultimately be responsible for ensuring their areas deliver a consistent and cohesive dark mode experience by understanding [how to design with modes](/handbook/product/ux/product-designer/#designing-with-modes) and applying the dark mode design principles.
 
 By following this playbook, teams will not only contribute to a high-quality dark mode experience today but also build the expertise needed to maintain and enhance it and other modes in the future.
 
