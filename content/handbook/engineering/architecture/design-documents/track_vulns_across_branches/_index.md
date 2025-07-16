@@ -81,6 +81,41 @@ flowchart
     C -->|vulnerability_occurrence_id| B
 ```
 
+#### Vulnerability/Occurence differentiation example
+
+Conceptually, a Vulnerability is intended to represent the definition of a vulnerability, regardless of where it's found, while a Occurrence/Finding is meant to represent an instance of a vulnerability as it was found in a particular ref. This will look something like the below example.
+
+---
+
+Vulnerability:
+
+- ID: 1
+- Primary Identifier: CVE-2025-49007
+- Title: ReDoS Vulnerability in Rack::Multipart handle_mime_head
+- Description: Lorem Ipsum Dolor
+- Severity: Critical
+- CVSS: ...
+- Scanner: SAST
+- Solution: ...
+- CVE: ...
+...
+
+---
+
+Finding(Occurrence)
+
+- Vulnerability ID: 1
+- UUID: '00000000-0000-0000-0000-000000000000'
+- Location: app/services/user_auth_service.rb
+- Ref: 'development'
+- State: :detected
+- Initial/Latest Pipelines: 123
+...
+
+---
+
+With this differentiation, we can limit the amount of data duplication per occurrence of single vulnerability for our Source of Truth tables, but then construct out any necessary view patterns we may need to best support features dependent on this data.
+
 ### Querying
 
 This information effectively serves as the source of truth regarding the presence and state of a vulnerability in a respective branch. However, in order to present this information to our users and allow them to query and filter it, we need to materialize the information into a state that can be effectively indexed and filtered. Due to a history of performance issues, the current Vulnerability Report works by virtue of a highly denormalized table called `vulnerability_reads` which contains all the information related to vulnerabilities in a single row, allowing for effective indexing and filtering.
@@ -93,7 +128,7 @@ This should be possible to facilitate by making the following changes to our dat
   - Tables over a certain size begin to face a wide variety of performance problems. The current size of `vulnerability_reads` is already over the threshold which starts facing these problems, so to ensure stable performance going forward we would need to partition.
   - Additionally, per the restrictions at GitLab regarding the adding of columns and indices to tables over a certain size, `vulnerability_reads` contravenes both these conditions currently. So partitioning is not optional in that regard. Though we may have to seek approval to add the additional column.
 - Addition of a `project_vulnerability_tracked_ref_id` column to the Vulnerability Reads table to be able to filter by branch.
-- Additional of a `partition_number` to the `vulnerability_reads` table.
+- Addition of a `partition_number` to the `vulnerability_reads` table.
   - This would allow us to use a sliding list partition strategy for `vulnerability_reads`, and can dynamically add new partitions as GitLab scales and users adopt our vulnerability management features to a greater extent.
   - A partition number should be allocated by project/namespace/organisation to minimise data fragmentation. A new partition number should be used when the last partition exceeds 75GB, as this will allow already allocated projects space to grow without exceeding 100GB.
   - Should it be necessary, it should be possible to do partition rebalancing if a particular allocation becomes too heavy.
