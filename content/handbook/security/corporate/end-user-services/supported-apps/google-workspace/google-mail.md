@@ -1,6 +1,6 @@
 ---
 title: Google Mail (Gmail)
-description: Zoom usage and configuration guides
+description: Gmail usage and configuration guides
 ---
 
 Gmail is our primary mail application. You can access the app via the `G Suite SSO Mail` tile in your Okta Dashboard or by directly going to [the gmail page](https://mail.google.com/).
