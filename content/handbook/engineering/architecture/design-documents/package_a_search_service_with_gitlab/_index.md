@@ -77,6 +77,7 @@ We propose to [package a search service as an optional component](https://gitlab
 
 2. **Search service sizing and configuration**:
    - [Update reference architecture and documentation](https://gitlab.com/groups/gitlab-org/-/epics/18151) to include minimum and recommended system specifications for a search service. This includes:
+     - Sizing guideline documentation
      - Configuration and performance optimizations
      - Resiliency and high availability
      - Upgrades
@@ -98,7 +99,8 @@ For the initial implementation, we will propose to include a search service with
    - For Omnibus: Include as a new optional [metapackage](https://gitlab.com/groups/gitlab-org/distribution/-/epics/74)
    - For Kubernetes: Build custom Helm charts
    - For Docker: Include in [gitlab/gitlab-ee Docker image](https://hub.docker.com/r/gitlab/gitlab-ee/)
-   - For GET: Include as a configurable component (not required if OpenSearch is selected)
+   - For GET: Include as a configurable component (GET already supports OpenSearch)
+   - Follow the progress of the [Self-Managed Basic and Advanced (SMB/SMA) blueprint](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/14414) as it impacts the technical approach.
 
 2. **Search service version**:
    - Version must not be deprecated
