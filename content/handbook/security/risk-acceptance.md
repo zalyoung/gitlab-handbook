@@ -45,40 +45,40 @@ All risks processed through this procedure fall into one of these acceptance cat
 - **Definition:** Risk is accepted with specific compensating controls in place to reduce exposure
 - **Duration:** Permanent acceptance with mandatory periodic review
 - **Requirements:** Documented compensating controls and monitoring plan. Examples include:
-  - Alternative controls effectively mitigate risk exposure
-  - Defense-in-depth measures eliminate practical attack vectors
-  - Monitoring and detection provide adequate coverage
+  1. Alternative controls effectively mitigate risk exposure
+  1. Defense-in-depth measures eliminate practical attack vectors
+  1. Monitoring and detection provide adequate coverage
 
 ### 2. Accept as Low Risk (risk treatment::accept low-risk)
 
 - **Definition:** Risk is accepted due to very low impact and/or likelihood
 - **Duration:** Permanent acceptance with standard periodic review
 - **Requirements:** Risk assessment justifying low risk determination. Examples include:
-  - Extremely low likelihood of exploitation
-  - Minimal impact if exploited
-  - Existing controls provide adequate protection
+  1. Extremely low likelihood of exploitation
+  1. Minimal impact if exploited
+  1. Existing controls provide adequate protection
 
 ### 3. Accept Due to Constraints (risk treatment::accept constrained)
 
 - **Definition:** Risk is accepted due to technical, operational, or business constraints that prevent remediation
 - **Duration:** Permanent acceptance with mandatory annual review
 - **Requirements:** Detailed constraint documentation and alternative control assessment. Examples include:
-- Required fix would cause system instability or unavailability
-- No viable technical solution exists
-- Technology end-of-life with no upgrade path
-- Critical business process would be severely disrupted
-- Customer contractual obligations prevent modification
-- Cost of remediation significantly exceeds risk value
+  1. Required fix would cause system instability or unavailability
+  1. No viable technical solution exists
+  1. Technology end-of-life with no upgrade path
+  1. Critical business process would be severely disrupted
+  1. Customer contractual obligations prevent modification
+  1. Cost of remediation significantly exceeds risk value
 
 ### 4. Accept False Positive (risk treatment::accept false-positive)
 
 - **Definition:** Reported risk is determined to be a false positive but cannot be eliminated from scanning/detection
 - **Duration:** Permanent acceptance with monitoring for scan configuration changes
 - **Requirements:** Technical validation of false positive determination. Examples include:
-- Alternative controls effectively mitigate risk exposure
-- Defense-in-depth measures eliminate practical attack vectors
-- Monitoring and detection provide adequate coverage
-- Network segmentation isolates risk impact
+  1. Alternative controls effectively mitigate risk exposure
+  1. Defense-in-depth measures eliminate practical attack vectors
+  1. Monitoring and detection provide adequate coverage
+  1. Network segmentation isolates risk impact
 
 ## Risk Acceptance Process
 
@@ -107,37 +107,37 @@ Who: Risk Acceptance Requestor (Business Owner, System Owner, or designated repr
 
 Who: Appropriate Program Review Team member (see Program Review Team Assignments above)
 
-- Validate risk assessment and severity rating
-- Review acceptance justification for appropriateness
-- Assess proposed compensating controls for effectiveness (if applicable)
-- Determine appropriate approval level based on risk severity
-- Add recommendations and final risk acceptance category assignment
+1. Validate risk assessment and severity rating
+1. Review acceptance justification for appropriateness
+1. Assess proposed compensating controls for effectiveness (if applicable)
+1. Determine appropriate approval level based on risk severity
+1. Add recommendations and final risk acceptance category assignment
 
 #### Approval Authority Matrix
 
 | Risk Severity| Program Review Team| Department Management| Director/VP| CISO|
 |--|--|--|--| --|
 | Low| :checkmark: Approve| - | -| -|
-|Medium| Review and reccomend| :checkmark: Approve| -| -|
-|High| Review and reccomend| Review | :checkmark: Approve| -|
-|Critical| Review and reccomend| Review | :checkmark: Approve| Notify|
+|Medium| Review and recommend| :checkmark: Approve| -| -|
+|High| Review and recommend| Review | :checkmark: Approve| -|
+|Critical| Review and recommend| Review | :checkmark: Approve| Notify|
 
 ### Step 3: Review and Approval
 
 Who: Appropriate management level per approval matrix
 
-- Acknowledge understanding of accepted risk and potential impact
-- Confirm implementation of any required compensating controls
-- Accept accountability for ongoing risk monitoring and periodic review
-- Provide formal approval within designated authority level
+1. Acknowledge understanding of accepted risk and potential impact
+1. Confirm implementation of any required compensating controls
+1. Accept accountability for ongoing risk monitoring and periodic review
+1. Provide formal approval within designated authority level
 
 ### Step 4: Risk Acceptance Documentation
 
 Who: Program Review Team
 
-- Apply appropriate risk acceptance labels
-- Set mandatory review dates based on risk level
-- Close original finding with acceptance documentation
+1. Apply appropriate risk acceptance labels
+1. Set mandatory review dates based on risk level
+1. Close original finding with acceptance documentation
 
 #### Mandatory Review Schedule
 
@@ -154,13 +154,13 @@ For each perodic review, the risk acceptance must be repeated.
 
 Who: Program Review Team
 
-- Evaluate if original risk conditions still exist
-- Assess whether risk severity has changed
-- Review any changes to threat landscape or business environment
-- Confirm acceptance justification remains valid
-- Evaluate if remediation options have become available
-- Assess if risk severity has changed
-- Follow approval process based on the approval matrix
+1. Evaluate if original risk conditions still exist
+1. Assess whether risk severity has changed
+1. Review any changes to threat landscape or business environment
+1. Confirm acceptance justification remains valid
+1. Evaluate if remediation options have become available
+1. Assess if risk severity has changed
+1. Follow approval process based on the approval matrix
 
 ### Contact Information
 
@@ -169,7 +169,10 @@ For questions regarding this procedure, contact:
 - Security Compliance Team (Observations & Penetration Testing): `@gitlab-com/gl-security/security-assurance/security-compliance-team`
 - Security Risk Team (TPRM & Central Registry): `@gitlab-com/gl-security/security-assurance/security-risk-team`
 - Vulnerability Management Team (Vulnerabilities): `@gitlab-com/gl-security/product-security/vulnerability-management`
-- Slack Channel: `#sec-assurance-team`
+- Slack Channel: `#security-discuss`
+  - Security Compliance: `@sec-compliance-team`
+  - Security Risk: `@security-risk`
+  - Vulnerability Management: `@vulnerability-management`
 
 ## References
 
