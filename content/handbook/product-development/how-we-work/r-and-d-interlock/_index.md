@@ -496,8 +496,9 @@ to get explicit approval and keep all stakeholders in the loop:
    ```
 
    Note: If the change request is canceled, please revert/remove the labels added as part of the change request template.
-2. Free form discussion on the epic comment as a thread, optional meeting
+2. Free form discussion on the epic comment as a thread, optional meeting.
 3. Approval to commit to change from CPO and CTO.
+4. Once approved, the team member who has kicked off the change request (eg. PM, EM) should add the "Interlock status::VP approved" label.
 
 Any change that constitutes a slip in deadline, a significant reduction in
 scope, or anything else that would make us miss customer expectations
@@ -543,6 +544,12 @@ Work proposed via the R&D Interlock process will benefit from:
    1. Update interlock status as discussions progress
    1. After the quarter begins, update health status weekly
    1. Document risks and dependencies as they emerge
+
+### Viewing the interlock commitments
+
+Utilize the [R&D Interlock Dashboard](https://gitlab.com/groups/gitlab-org/-/wikis/CXO-Operational-Dashboards/R&D-Interlock-Dashboard) to view interlocked commitments by quarter.
+
+Reach out to @amandarueda if you'd like help creating a custom GLQL view for your group, stage or section.
 
 ### Changes after commitment
 
