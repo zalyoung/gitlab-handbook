@@ -111,15 +111,14 @@ If your analytics needs for your new or recently modified feature are met by the
      - Ensures consistency with GitLab's tracking standards
 
    Option B: Use Usage Data Instrumentation Issue Template to outline metric requirements
-   - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
-  
-   Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) to review metric properties
+   - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation) 
+   - Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) to review metric properties
 
 1. Implement Tracking
 
    **Owner: Engineer**
    - Create an Internal Events Tracking Merge Request (MR)
-   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
+   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue
 
 1. Test and Validate
 
