@@ -695,7 +695,7 @@ Below is some more information to help you get set up with your [Navan](https://
 
 - Even as an all-remote company, GitLab recognizes that some travel is necessary. These considerations aim to reduce the environmental impact of travel:
 - Prefer virtual meetings and attendance over personal meetings, except when the event's objective is enhanced by meeting in real life.
-- For short-distance travel, consider ground travel over air travel for information on short distance travel recommendations visit these examples from the University of Bern, University of Lund.
+- For short-distance travel, consider ground travel over air travel for information on short distance travel recommendations visit these examples from the [University of Bern](https://klima.unibe.ch/abatement/environmental_tip/tip_2_travel/index_eng.html), [University of Lund](https://www.lucsus.lu.se/sites/lucsus.lu.se/files/lucsus_travel_policy.pdf).
 - Select trips with lower carbon emissions. When booking travel through Navan Tripactions you can view the total CO2 footprint for at the checkout screen.
 - If you organize an in-person meeting, aim for a location that allows as many people as possible to travel in a sustainable way.
 - Carbon offsets offered by airlines have dubious value, so aim to avoid air travel where it makes sense.
