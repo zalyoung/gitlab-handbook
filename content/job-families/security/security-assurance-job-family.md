@@ -463,7 +463,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - Develop ideas for custom automation products to solve complex issues and lead the design, engineering, deployment, and maintenance efforts of those products
 - Define evaluation criteria for Security Assurance tools to be used by the Security Assurance Department and propose internal built solution ideas to rival COTS
@@ -472,7 +472,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Security Assurance Automation Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - 10 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education
 - Excellent written and verbal communication skills
@@ -489,7 +489,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 **Technical Leadership (40%)**
 
-- Scale common controls and processes across multiple compliance frameworks (SOC 2, ISO 27001, FedRAMP, GDPR, HIPAA, PCI-DSS)
+- Scale common controls and processes across multiple compliance frameworks (SOC 2, ISO 2700x, ISO 42001, FedRAMP, PCI-DSS)
 - Lead development of "Policy as Code" and "Compliance as Code" initiatives, transforming manual compliance processes into automated workflows and enabling engineer teams to be compliant-by-design
 - Design sophisticated compliance monitoring systems providing real-time visibility into security control effectiveness
 - Pioneer the use of AI in compliance automation, including automated evidence collection and control testing
@@ -498,18 +498,18 @@ Additional details about our process can be found on our [hiring page](/handbook
 **Strategic Influence (30%)**
 
 - Collaborate with department leadership as trusted advisor on security compliance strategy and technology roadmap
-- Drive complex cross-departmental initiatives that transform compliance operations
-- Provide strategic guidance adopted into organizational security compliance strategy
-- Identify emerging compliance requirements and proactively develop engineering solutions
-- Influence product and engineering teams to embed compliance into system design
-- Partner with key cross-functional stakeholders to align technical implementation with business compliance objectives
+- Drive complex cross-departmental initiatives mature our compliance posture and operations while also benefiting the greater division and company
+- Provide strategic guidance adopted into organizational security strategy
+- Identify emerging compliance requirements and proactively develop plans to incorporate them into our compliance program
+- Influence product and engineering teams to embed compliance into system design by developing strong relationships
+- Partner with key cross-functional stakeholders to align technical implementation with business compliance objectives as part of business operating rhythms and roadmap planning
 
 **Mentorship & Evangelism (20%)**
 
 - Mentor staff, senior, and intermediate engineers in compliance engineering practices
 - Serve as internal and external ambassador for security compliance excellence
-- Contribute to industry standards and open-source compliance automation tools
-- Develop and deliver advanced training on compliance automation
+- Contribute to industry standards and open-source projects when relevant to GitLab
+- Develop and deliver training on compliance automation
 - Build relationships with auditors and certification bodies to streamline assessments
 - Author technical content and speak at conferences on compliance engineering topics
 
@@ -517,7 +517,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - Lead research into emerging compliance technologies and methodologies
 - Design metrics demonstrating business value of compliance automation
-- Drive 80%+ reduction in manual compliance effort through intelligent automation
+- Demonstrate measurable reduction in manual compliance effort through intelligent automation
 - Establish scalable patterns for multi-cloud compliance across hyperscalers (AWS and GCP)
 - Continuously improve audit processes, reducing preparation time and findings
 - Create competitive advantages through innovative compliance capabilities
@@ -527,9 +527,9 @@ Additional details about our process can be found on our [hiring page](/handbook
 **Must Have**
 
 - 10+ years security engineering experience, with 5+ years in security compliance/GRC
-- Expert knowledge of multiple compliance frameworks (SOC 2, ISO 27001, FedRAMP, GDPR, PCI-DSS, NIST)
+- Expert knowledge of multiple compliance frameworks (SOC 2, ISO 2700x, ISO 42001, FedRAMP, PCI-DSS)
 - Proven experience automating evidence collection and control testing across multiple systems
-- AI-assisted advanced programming skills (Python, Go, Ruby) for building compliance automation
+- AI-assisted intermediate-level programming skills (Python, Go, Ruby) for building compliance automation
 - Deep understanding of cloud security controls
 - Experience wworking with Infrastructure as Code and configuration technologies such as Terraform, CloudFormation, Chef, and Ansible
 - Track record of leading successful enterprise compliance automation initiatives
@@ -542,16 +542,16 @@ Additional details about our process can be found on our [hiring page](/handbook
 - Professional certifications (CISSP, CISA, CRISC, cloud security certifications)
 - Published research or open-source contributions in compliance automation
 - Experience with container/Kubernetes security compliance
-- AI application experience in compliance and risk management
+- Hands-on application of AI in GRC use cases
 - Hands-on experience with agentic AI technologies such as Model Context Protocol (MCP)
 - Background in regulated industries or high-growth technology companies
-- DevSecOps and secure development practices experience
+- DevSecOps and secure development experience
 
 ##### Security Governance
 
 ###### Responsibilities
 
-- The responsibilities of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The responsibilities of a Staff Security Governance Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - Proactively identify and propose improvements to the GitLab Control Framework (GCF) to ensure controls align with security strategy, support business objectives, and are consistent with applicable laws and regulations.
 - Publish and maintain handbook pages, policies, standards, procedures and runbooks related to Security and support the maintenance of the Security Division’s handbook space.
@@ -563,7 +563,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- The requirements of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Security Governance Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - A minimum of 10 years’ experience defining and shaping Security Governance and technical writing programs.
 - Demonstrated experience with industry common security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
@@ -574,7 +574,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - Collaborate with cross-divisional leadership to quantifiably reduce risk
 - Design, implement and maintain metrics to guide decision making within the Security Division
@@ -587,7 +587,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Security Assurance Automation Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - +12 years experience in Security Governance, Risk and Compliance or equivalent fields
 - Excellent written and verbal communication skills including past experience in Executive Reporting
@@ -600,7 +600,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-- The responsibilities of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The responsibilities of a Staff Field Security Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - Maintain proficient knowledge of GitLab’s product, roadmap, environment, systems and architecture and drive initiatives to shape strategic decisions focused on meeting customer security demands.
 - Mentor other Field Security Engineers and improve knowledge, quality and quantity of the team’s output.
@@ -614,7 +614,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- The requirements of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Field Security Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - At least 10 years of experience conducting customer assurance activities
 - Proficient experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
