@@ -139,89 +139,54 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 ## Conference (In-Person)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=In-Person_Conference_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-in-person)
 
 ## Conference (Virtual)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conferences)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Virtual_Conference)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-virtual)
 
 ## Conference (Hybrid)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Hybrid_Conference)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-hybrid)
 
-## Conference (FM Meeting Setting for a Corporate Events Conference)
+## Conference (Executive Meetings)
 
-- [Tactic Details](/handbook/marketing/field-marketing/#meeting-setting)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Meeting_Setting_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#meeting-setting)
 
 ## Content Syndication
 
-- [Tactic Details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#content-syndication)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Content_Syndication_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#content-syndication)
 
 ## Direct Mail
 
-- [Tactic Details](/handbook/marketing/demand-generation/campaigns/direct-mail/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#direct-mail)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Direct_Mail_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#direct-mail)
 
 ## Executive Roundtable (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#executive-roundtables)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#executive-roundtables)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Executive_Roundtable)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#executive-roundtable)
 
 ## Owned Event (In-Person, Virtual or Hybrid)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#owned-event)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Owned_Event_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#owned-events)
 
 ## Sponsored Webcast
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#sponsored-webinars)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#sponsored-webcast)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Sponsored_Webcast)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#sponsored-webcast)
 
 ## Survey
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#survey)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Survey_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#survey)
 
 ## Vendor Arranged Meetings (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#vendor-arranged-meetings)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#vendor-arranged-meetings)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Vendor_Arranged_Meetings)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#vendor-arranged-meetings)
 
 ## Webcast
 
-- [Tactic Details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#webcast)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Webcast_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#webcasts)
 
 ## Workshop (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#workshop)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
 
 ## Event Lead Collection Should-Knows
 
