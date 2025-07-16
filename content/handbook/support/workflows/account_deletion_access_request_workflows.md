@@ -334,9 +334,9 @@ Proceed with processing the request by doing the following:
 
 1. Create a new **confidential** issue in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new) using one of the following templates, depending on the request type:
 
-   - [Deletion Meta Issue - Full](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Full) for **Full Deletion** requests.
+   - [Deletion Meta Issue - Full](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?description_template=Deletion%20Meta%20Issue%20-%20Full&%5Bissue%5Dtitle=%5BMETA%20Issue%5D%20Account%20Deletion%20%28Full%29%20-%20EMAIL) for **Full Deletion** requests.
 
-   - [Deletion Meta Issue - GitLab-com](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20GitLab-com) for **GitLab.com Account Deletion** requests.
+   - [Deletion Meta Issue - GitLab-com](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?description_template=Deletion%20Meta%20Issue%20-%20GitLab-com&%5Bissue%5Dtitle=%5BMETA%20Issue%5D%20Account%20Deletion%20%28GitLab-com%29%20-%20EMAIL) for **GitLab.com Account Deletion** requests.
 
 1. Follow the instructions in the top of the template, then complete each step in the issue that begins with `Support Engineer:` in order.
 
@@ -398,7 +398,7 @@ IMPORTANT NOTE: If at any point you are unsure of next steps or have any questio
 
 Use this workflow for requests to delete user data from the Portal (customers.gitlab.com).
 
-1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Customers Portal](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Customers%20Portal) template, populating the title with the email address of the original request.
+1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Customers Portal](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?description_template=Deletion%20Meta%20Issue%20-%20Customers%20Portal&%5Bissue%5Dtitle=%5BMETA%20Issue%5D%20Account%20Deletion%20%28Customer%20Portal%29%20-%20EMAIL) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
 
 ##### **Marketing or Sales Account Deletion**
@@ -406,7 +406,7 @@ Use this workflow for requests to delete user data from the Portal (customers.gi
 Use this workflow for requests to delete user data from Sales or Marketing systems.
 
 1. No confirmation or verification is required for this request type under data privacy laws. Unless the user responds back in the issue that they did not submit the request, proceed with the workflow.
-1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Marketing](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Marketing) template, populating the title with the email address of the original request.
+1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Marketing](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?description_template=Deletion%20Meta%20Issue%20-%20Marketing&%5Bissue%5Dtitle=%5BMETA%20Issue%5D%20Marketing%20Account%20Deletion%20-%20EMAIL) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
 1. Let the requester know the deletion process is complete by leaving a comment on the original issue with the following snippet.
 
