@@ -24,7 +24,7 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-GitLab is proposing to package a search service with its distribution to solve multiple strategic challenges and unlock new capabilities. Currently, search and filtering functionality backed by PostgreSQL has significant limitations for larger instances and complex group hierarchies, which impacts feature delivery and user experience. While Advanced search is adopted by a percentage of self-managed instances (with higher rates among larger customers), it remains an optional feature reliant upon infrastructure that requires separate installation and configuration.
+GitLab is proposing to package a search service with its distribution to solve multiple strategic challenges and unlock new capabilities. Currently, search and filtering functionality backed by PostgreSQL has significant limitations for larger instances and complex group hierarchies, which impacts feature delivery and user experience. While advanced search is adopted by a percentage of self-managed instances (with higher rates among larger customers), it remains an optional feature reliant upon infrastructure that requires separate installation and configuration.
 
 By including a search service directly in GitLab packages, we aim to make it a standard component of the GitLab infrastructure. This change would improve database scalability by offloading text search operations, enable more powerful search and filtering capabilities, and provide a consistent platform for AI features that require vector storage for embeddings. For example, [AI Context Abstraction Layer](/handbook/engineering/architecture/design-documents/ai_context_abstraction_layer/).
 
