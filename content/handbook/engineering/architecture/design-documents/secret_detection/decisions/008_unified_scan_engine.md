@@ -81,16 +81,15 @@ As we are planning on introducing additional engines (like [AI-based](https://gi
 
 The Scan Engine component contains Scan Interceptors that appear before (`Pre-Inteceptor`) and after (`Post-Inteceptor`) the scan operation by the internal engine. 
 
-- `Pre-Inteceptor` intercepts the input payloads and runs a specific operation on them to return either the modified payloads, or the same payloads along with additional metadata in the result. Examples include AST generation for the payloads, sanitizing the payload data for inline exclusions, etc. 
+* `Pre-Inteceptor` intercepts the input payloads and runs a specific operation on them to return either the modified payloads, or the same payloads along with additional metadata in the result. Examples include AST generation for the payloads, sanitizing the payload data for inline exclusions, etc. 
 
-- `Post-Interceptor` intercepts the findings detected initially by the internal engine and returns either hints to discard some of them due to false positives, or runs domain-specific critiera to generate a new metadata. Examples include AI-based False Positive reducer, Entropy matcher, etc.  
+* `Post-Interceptor` intercepts the findings detected initially by the internal engine and returns either hints to discard some of them due to false positives, or runs domain-specific critiera to generate a new metadata. Examples include AI-based False Positive reducer, Entropy matcher, etc.  
 
 The interceptors can be either be piped into a chain where each Interceptor's output will be passed as an input to the subsequent Interceptor, or it can opt to exist independently. Either way, the results of all these Interceptor will be gathered by the Scanner API to determine a confidence factor of each finding.
 
 Here's the illustration representing the internals of the Scan Engine Component:
 
 ![Scan Engine Component Internals](/images/engineering/architecture/design-documents/secret_detection/008_scan_engine_internals.jpg "Scan Engine Component Internals")
-
 
 ## Distribution
 
