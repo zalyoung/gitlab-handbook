@@ -10,7 +10,7 @@ Effective 2025-07-01, all team members in Korea are eligible to enroll into the 
 **Coverage eligibility**
 
 - Team Members are covered by both medical and risk coverages. The risk coverage includes Accidental Death, Accidental Disability and Disease Death.
-- Dependents are eligible for medical reimbursements, including hospitalization, outpatient visits and three specific treatments (Manipulation, ESWT (Extracorporeal Shock Wave Therapy), and Prolotherapy, Injections and MRI/MRA scans). Eligible dependents are legal spouses and dependent children.
+- Dependents are eligible for medical reimbursements, including hospitalization, outpatient visits and three specific treatments (Manipulation, ESWT (Extracorporeal Shock Wave Therapy), and Prolotherapy, Injections and MRI/MRA scans). Eligible dependents are legal spouses/domestic partners and children/domestic partner children.
 
 Please review the [Coverage Summary](https://drive.google.com/file/d/1mOLJPi4PBUitFSV5F_Yf3JMpTAHCSUTW/view?usp=sharing) for detailed information about the medical and risk coverages.
 
