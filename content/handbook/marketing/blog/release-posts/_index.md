@@ -1196,11 +1196,7 @@ When the MR is approved, add the `Ready` label before merging.
 
 Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/ee/update/deprecations.html) and in the release post of the announcement's corresponding milestone.
 
-Before making an announcement, review the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) to ensure you:
-
-- Are minimizing disruption for our customers.
-- Are providing the required advance notice for workflow changes.
-- Have [determined if the change is a breaking change](https://docs.gitlab.com/ee/development/deprecation_guidelines/).
+Review and follow the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) as leadership approval is required before announcing or proceeding with any breaking change.
 
 #### Milestone due dates
 
