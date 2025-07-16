@@ -59,8 +59,8 @@ Only slots starting at the top of the hour are offered. If you've got 90 minutes
 or a (say) a 14:30-15:30 window available, then reducing the increment to 30 minutes increases your availability.
 
 - Log in and edit the event type
-- Click on `Scheduling settings`
-- Under `Additional options`, select a time interval under `Start time increments`
+- Click on `More Options`
+- Under `Booking Page Options` dropdown, select a time interval under `Start time increments`
 
 If you have any other meeting lengths available, consider whether it makes sense to offer different start times.
 You can view your calendly availability using a private/incognito browser session.
@@ -79,9 +79,9 @@ You can specify scheduling conditions that disallow scheduling events within a c
 of an event start time.
 
 1. Log in and edit the event type
-1. Click `Scheduling settings`
-1. Under `Event limits`, select a time interval under `Minimum notice`
-1. Click `Save and close`
+1. Click `Availability` dropdown
+1. Under `Date-Range`, select an appropriate notice period from the list of dropdown values. The default us `4 hours`
+1. Click `Save changes`
 
 ## Support calls in the team calendar
 
