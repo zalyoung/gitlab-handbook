@@ -32,9 +32,9 @@ Under this model, an application which an organisation may continue to provide b
 
 ## Implementation
 
-### Static Branch Tracking
+### Static Ref Tracking
 
-The intent with static branch tracking is to maintain the current methodology by which GitLab tracks vulnerabilities for the default branch, but expand this behaviour out to additional branches. Fundamentally this will require us to make some substantial modificaitons to some of our core tables to support this new data paradigm. Specifically the purposes of some tables will be slightly redefined, and we will need to be able to store what git refs will be tracked for vulnerabilities.
+The intent with static ref tracking is to maintain the current methodology by which GitLab tracks vulnerabilities for the default branch, but expand this behaviour out to additional branches. Fundamentally this will require us to make some substantial modificaitons to some of our core tables to support this new data paradigm. Specifically the purposes of some tables will be slightly redefined, and we will need to be able to store what git refs will be tracked for vulnerabilities.
 
 Additionally we will need to update a substantial amount of code to begin to account for the new possibility of branches being present holding identical vulnerabilities, as these interactions may interact with the incorrect branches otherwise.
 
