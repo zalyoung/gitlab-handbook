@@ -343,6 +343,81 @@ doc and then to implement it without changing something during the process. Use
 a pragmatic approach here, involve Coach Engineers if needed. There
 is [no right or wrong here](https://docs.google.com/document/d/1UKAK51eyy7dOA9pRWz_VDEVhO6c2VBHoQ6MUB0RdvM8/edit#bookmark=id.9x1w2dmm4v52).
 
+## Decision Process
+
+### ADR Review Timeline
+
+- ADRs have a limited review period (typically 10 days)
+- Due dates are communicated upfront to all stakeholders
+- On the due date, the decision is made and the ADR is merged
+- No extensions unless exceptional circumstances warrant it
+
+### DRI Responsibilities
+
+- The DRI (Directly Responsible Individual) is ultimately responsible for making the decision
+- DRI must consult with relevant stakeholders but has final authority
+- DRI should be identified in the epic or design document
+- DRI determines who needs to be consulted based on the scope and impact
+
+### Consultation vs. Blocking Authority
+
+- **Consultation**: Groups that should be consulted but cannot block (e.g., Domain Experts, Functional Experts)
+- **Blocking Authority**: Groups that can block proposals (e.g., App Sec for security-related changes)
+- The distinction should be clear in the design document or epic
+
+## Stakeholder Communication
+
+### Early Notification
+
+- Stakeholders should be notified as soon as a design document is proposed
+- Use appropriate channels (Slack, email, calendar invites) to ensure visibility
+- Include clear timelines for review periods and decision dates
+
+### Decision Transparency
+
+- All decisions and rationale should be documented in the ADR
+- Stakeholders should understand why a decision was made
+- Feedback should be acknowledged even if not incorporated
+
+## Visual Workflow
+
+The following diagram illustrates the Architecture Design Workflow process:
+
+```mermaid
+flowchart TD
+    A[Proposal Created] --> B{Coach Engineer Assigned?}
+    B -->|Yes| C[Coach Provides Guidance]
+    B -->|No| D[Proceed to Design Doc]
+    C --> D
+    D --> E[Design Document Drafted]
+    E --> F[Stakeholders Notified]
+    F --> G[ADR Created with 10-day Timeline]
+    G --> H[Consultation Period]
+    H --> I[Blocking Review]
+    I --> J[Decision Made by DRI]
+    J --> K{Decision Approved?}
+    K -->|Yes| L[ADR Merged]
+    K -->|No| M[Proposal Rejected]
+    L --> N[Implementation Begins]
+    M --> O[Process Ends]
+
+    style A fill:#e1f5fe
+    style F fill:#fff3e0
+    style G fill:#f3e5f5
+    style J fill:#e8f5e8
+    style L fill:#e8f5e8
+    style M fill:#ffebee
+```
+
+### Key Process Points:
+
+1. **Proposal Creation**: Anyone can propose architectural changes
+2. **Coach Assignment**: Optional but recommended for complex initiatives
+3. **Stakeholder Notification**: Early communication ensures transparency
+4. **ADR Timeline**: 10-day review period with clear due dates
+5. **Consultation vs. Blocking**: Clear distinction between advisory and blocking roles
+6. **DRI Decision**: Final authority rests with the Directly Responsible Individual
+
 ### Finally
 
 When the work is completed, design documents no longer represent a
