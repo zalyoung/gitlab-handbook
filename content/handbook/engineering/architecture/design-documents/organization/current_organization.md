@@ -39,12 +39,16 @@ For example:
 
 ### Session Variable
 
-- User's last accessed organization stored in session
+- User's last accessed Organization stored in session
 - Used for generic pages without explicit resource context
-- Defaults to User's home organization when no context is available
+- Defaults to User's home Organization when no context is available
 
 The session variable will assist to disambiguate on pages such as `/explore` and will reduce the roadmap to dogfooding.
+
 We don't consider session variable usage a long term solution because it will break browser tab usage, and HTTP GET requests won't be idempotent breaking bookmarks and sharing of links.
+
+Session variables create usability issues in multi-tab scenarios. When users open multiple browser tabs for different Organizations, the global session state causes interference between tabs. If a user clicks "new Project" in one Organization tab, then switches to another Organization tab and performs the same action, the second action will use the session state from the first tab rather than the intended Organization context. This breaks the expected tab isolation and can result in projects being created in the wrong Organization.
+
 Features that depend on the session variable will be considered incomplete until they are scoped appropriately.
 
 ### The Default Organization
