@@ -39,6 +39,7 @@ This section links all different technical proposals that are being evaluated.
 
 - Cells Services:
   - [HTTP Routing Service](http_routing_service.md)
+  - [Container Registry Routing Service](container_registry_routing_service.md)
   - [SSH Routing Service](ssh_routing_service.md)
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
