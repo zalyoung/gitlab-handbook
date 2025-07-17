@@ -39,13 +39,13 @@ Any future path for Self-Managed must retain a simple initial adoption, which ha
 clearly shows GitLab's customer base has grown very accustomed to the reliability and consistency of the Omnibus experience, which has earned a reputation of reliable simplicity.
 The Omnibus GitLab has succeeded in its mission, however that massive success has directly delivered us a challenge.
 
-The customer, paid or unpaid, experience of simplistic but efficacious instances is the origin of our current juxtaposition: balancing reliable simplicity against the architectural complexity required to deliver the current roadmap.
+The customer, paid or unpaid, experience of simplistic but efficacious instances is the origin of our current juxtaposition: balancing reliable simplicity against the architectural complexity required to deliver our current roadmap.
 
 > _"Great Momentum requires Gradual Change"_
 
 The current approach to adding components for consumption by Self-Managed customers is hindering the rate at which we can deliver features to our customers.
 This is made clear by the current backlog of components that are yet to be supported by our current Omnibus + Cloud Native GitLab architecture.
-While we do not expect our components to expand indefinitely, the backlog is highly impacted by the complexity of the services which need to be configured, and the highly manual nature of those configurations and inter-connections.
+While we do not expect our components to expand indefinitely, the backlog is highly impacted by the complexity of the services which need to be configured, and the highly manual nature of configurations and inter-connections.
 We must consider what methods are available to us today which provide us a means to accelerate and unplug the backlog of inbound components in service of feature delivery.
 A strategic segmentation will enable us to deliver cutting-edge features to customers with modern infrastructure on SMS, while maintaining support for current customers with traditional deployment requirements through SMF.
 
@@ -83,7 +83,7 @@ Through SMS, we incentivise a conversion of all customers to fully cloud native 
 
 Provide a means to accelerate delivery of components and features, especially to cloud native capable Self-Managed users.
 Do this, while not forcing excessive change or pressure upon our existing customer install base which demonstrably favors
-some variation of Omnibus-based architecture on traditional infrastructure as a percentage of total paid and unpaid install base.
+some variation of Omnibus-based architecture on traditional infrastructure, as a percentage of total paid and unpaid install base.
 
 In particular, this aims to:
 
@@ -95,10 +95,10 @@ In particular, this aims to:
 
 We aim to explicitly avoid:
 
-- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future, and the only reason to revisit the existing functionality is to ensure that it can scale effectively. However, new optional SMS components, such as Data Insights Platform, ClickHouse Cloud, would not be supported in Omnibus, only as cloud native components.
-- Forcibly converting traditional Omnibus into cloud native "under the hood". We would rather encourage consumers to expand their skillsets.
+- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future, and the only reason to revisit the existing functionality is to ensure that it can scale effectively. However, new optional SMS components, such as Data Insights Platform and ClickHouse, would not be supported in Omnibus, only as cloud native components.
+- Forcibly converting traditional Omnibus into cloud native "under the hood". We would rather encourage consumers to expand their skillsets by incentivising internal transformation to cloud-native.
 - Unexpectedly increase customer infrastructure costs and consumption. We must communicate these changes well.
-- Alienate consumers of any kind, by forcing large architectural refactors upon them. We should rather show them the value of the shift to cloud-native.
+- Alienate consumers of any kind, by forcing large architectural refactors upon them. We should rather show them the value of the shift to cloud-native instead.
 
 ### Non-Goals
 
@@ -109,7 +109,7 @@ We intend to keep those separate, as they are important but not directly impacte
 
 - Discussion of [air-gapped](https://en.wikipedia.org/wiki/Air_gap_(networking)) vs non-air-gapped environments.
 - Omnibus GitLab meta-packaging initiatives.
-- Per-component versioning, and tracking of align versions.
+- Per-component versioning, and tracking of aligned versions.
 - Discussions about new Premium/Ultimate components as separate paid SKUs are out of scope for this proposal.
 
 ## Proposal
@@ -117,7 +117,7 @@ We intend to keep those separate, as they are important but not directly impacte
 The implementation of this segmentation has practical implications. We do not aim to enfoce
 cloud native deployments in order for SMS to have value. In order to address this concern,
 we must faciliate mixed environments, where the existing monolith provides services already
-present, and can be attached to supplemental components deployed in Kubernetes. This would
+present and can be attached to supplemental components deployed in Kubernetes. This would
 serve as a bridge between SMF and SMS, such that a customer can expand their existing SMF into
 an SMS capable environment by providing necessary platform access, and deploying the extended
 feature components.
@@ -143,11 +143,9 @@ Until that is possible, a similar flow will be described around the choices of "
 
 ## Design and implementation details
 
-### Omnibus-Adjacent Kubernetes (OAK)
-
 We explored several paths after the discussions of the FY26 CTO Summit, within [Navigating a route towards cloud native](https://docs.google.com/document/d/1agZVZkbDrL8Zocp-PLiunQHFNWedEErUy_-fNEAeD2Y/) (future, `NRTCN`).
 [That exploration](https://docs.google.com/document/d/1a_3GAdXnCB0l8f6OR-bSft6BPZ5pWuCyw76ShsKpgfM/edit?tab=t.0)
-facilitated this proposal, presenting a plan to expect a Kubernetes cluster adjacent to an existing Omnibus.
+facilitated this proposal, presenting a plan to expect a single tenant Kubernetes cluster adjacent to an existing Omnibus.
 We believe that this pattern can form the basis of the Self-Managed Scaled for customers not yet operating their instances with cloud native patterns.
 
 Essentially, existing functionality and core features will be easily available to these customers in their current infrastructure design.
@@ -156,28 +154,92 @@ Over time, they will see the benefits to cloud native infrastructure and begin t
 
 For those customers who are already operating with cloud native patterns, but are not operating their GitLab instance(s) within them, this will encourage them to transition their GitLab instances to cloud native.
 
-OAK can be effectively visualized in the [illustrations below](#illustrated-stages-of-transition).
+In practical summary we use SMF and SMS to transition customers to fully cloud-native over time, incentivizing the transition while simplifying our engineering and support experience.
+
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
+flowchart LR
+  subgraph foundation["Foundation (SMF)"]
+    obglf["Omnibus GitLab"]
+  end
+
+  subgraph SMS["Scaled (SMS)"]
+    direction TB
+    obgls[Omnibus GitLab]
+    oak[Omnibus Adjust Kubernetes]
+    obgls <-.-> oak
+  end
+
+  subgraph cng["Cloud Native GitLab"]
+    Kubernetes
+  end
+
+  foundation --> SMS
+  SMS --> cng
+```
+
+### Omnibus (SMF)
 
 Omnibus's existing scope should grow in an an extremely limited fashion, while new services and functionality are added primarily via Kubernetes deployments.
 
 In the future, we will investigate moving advanced set ups such as High Availability, Geo, and Zero Downtime deployments from Omnibus to cloud-native methods, with the intent
-to significantly simplify the Omnibus' feature set to the SMF ideal of SMSller, less complex instances.
+to significantly simplify the Omnibus' feature set to the SMF ideal of smaller, less complex instances.
 This is in alignment with [Project Flow](https://docs.google.com/document/d/10f7i-y9aJKo1Lo1IW106ov-OuUXAywNGQg7uPYGOP44/edit?tab=t.0#heading=h.rci2kr8welcp),
 aiming to drive the Reference Architectures to a simplified, cloud-native first future.
 
 An important note: Features delivered to SMS will often require configuration of clients within Omnibus.
 Implementation of that configuration will still occur, as that facilitates the use of the feature, not the operation of the feature itself.
 
-#### Illustrated Stages of transition
+### Omnibus-Adjacent Kubernetes (OAK)
 
-**Early**
+Omnibus-Adjacent Kubernetes (OAK) is a _single tenant, single application_ Kubernetes cluster, intended for the exclusive use by the GitLab intance.
+We strongly recommend the separation of concerns, as GitLab is often a tier-0 service used to manage and deploy workloads to Kubernetes environments.
+By separating GitLab from clusters it may control, we prevent circular dependencies and possible catastrophic complications to customers' production environments.
 
-In the earliest stages and simplest forms of Scaled, all foundational services are operated within the Omnibus
-while all supplemental services are operated within the OAK.
+This Kubernetes cluster could be facilitated by an embedded distribution such as k3s or k0s, or a customer provided cluster from any origin.
+
+If GitLab chooses to implement a meta-package capable of deploying an embedded distribution of Kubernetes, we need to take great care in considering such a choice.
+By bundling Kubernetes, our Build and Self Managed team will effectively become Kubernetes distributors.
+This creates ongoing maintenance responsibilities including testing Kubernetes upgrades, applying security patches, and ensuring compatibility across different deployment environments.
+Meeting these requirements will demand staff with specialized Kubernetes expertise.
+Further, the primary candidates for embedded Kubernetes do not provide any FIPS certifications, which would be of significant concern.
+
+### Illustrated Stages of Transition to Cloud Native, via Segmentation
+
+The stages presented below are based upon our current application components, and those known to be on the roadmap as of today.
+
+#### Self-Managed Foundation
+
+The simplest form, as experienced today, is Foundation based on Omnibus.
 
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart LR
+    subgraph foundation["Foundation (SMF)"]
+        direction LR
+        obgl[Omnibus GitLab]
+
+        obgl -- "Existing Povisioning" --> runsvc
+
+        runsvc --> puma
+        runsvc --> sidekiq
+        runsvc --> registry
+        runsvc --> postgres
+        runsvc --> redis
+        runsvc --> gitaly
+        runsvc --> gitlab-shell
+    end
+```
+
+#### Early Self-Managed Scaled (SMS)
+
+In the earliest stages and simplest forms of Scaled, all foundational services are operated within the Omnibus
+while all supplemental services are operated within the OAK.
+All inbound, web-based services come through Foundation _exclusively_ and are directed into OAK.
+
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
+flowchart TB
 
     subgraph OAK
         direction LR
@@ -200,7 +262,7 @@ flowchart LR
         helm -.-> ns
     end
 
-    subgraph Omnibus
+    subgraph foundation["Foundation"]
         direction LR
         obgl[Omnibus GitLab]
 
@@ -212,37 +274,54 @@ flowchart LR
         runsvc --> postgres
         runsvc --> redis
         runsvc --> gitaly
+        runsvc --> gitlab-shell
 
-
-        localstore@{ shape: lin-cyl, label: "local storage" }
+        localstore[(Local Storage)]
+        gitaly -->localstore
+        puma -->localstore
+        sidekiq -->localstore
+        registry -->localstore
+        redis -->localstore
+        postgres -->localstore
     end
 
     obgl <-. discovery & sync .-> k8s
 ```
 
-**Transitional**
+#### Transitioning to Cloud Native GitLab
 
 Transitional phase where most client-accessible services have been moved into the OAK.
 Disk based storage has been transitioned to object storage, as necessitated.
+We move all inbound, web-based services to OAK _exclusively_.
+Demonstrated here is keeping Sidekiq, a known noisy-neighbor workload within Foundation until customers understand their load well.
 
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
-flowchart LR
+flowchart TB
+
+    subgraph Foundation
+        direction LR
+        obgl[Omnibus GitLab]
+
+        obgl --> sidekiq
+        obgl --> postgres
+        obgl --> redis
+        obgl --> gitaly
+
+        gitaly --> localstore[(Local Storage)]
+        postgres --> localstore
+        redis -->localstore
+    end
 
     subgraph OAK
         direction LR
 
-        subgraph k8s[Kubernetes]
-            direction TB
-            byok["Bring your own K8s"]
-            ek8s["Embedded Kubernetes (future)"]
-
-            byok -- or --- ek8s
-        end
+        k8s[Kubernetes]
 
         k8s --> puma
         k8s --> registry
         k8s --> pages[GitLab Pages]
+        k8s --> gitlab-shell
         k8s --> ob[OpenBao]
         k8s --> siphon
         k8s --> ns["New, unnamed service"]
@@ -250,108 +329,119 @@ flowchart LR
         helm --> k8s
     end
 
-    subgraph Omnibus
-        direction LR
-        obgl[Omnibus GitLab]
-
-        obgl -- "Existing Povisioning" --> runsvc
-
-        runsvc --> sidekiq
-        runsvc --> postgres
-        runsvc --> redis
-        runsvc --> gitaly
-
-        gitaly --> localstore@{ shape: lin-cyl, label: "local storage" }
-        postgres --> localstore
-        redis -->localstore
+    subgraph esvc[External Services]
+        direction TB
+        objstore["Object Storage"]
+        elastic[ElasticSearch]
     end
 
     obgl <-. discovery & sync .-> k8s
 
-    puma --> objstore@{ shape: lin-cyl, label: "object storage" }
-    registry --> objstore
-    pages --> objstore
-    sidekiq --> objstore
+    sidekiq --> esvc
+    puma --> esvc
+    registry --> esvc
+    pages --> esvc
 ```
 
-**Stateless Scalability**
+#### Cloud Native Scalability
 
-The current and real-world example is the Cloud Native Hybrid Reference Architecture deployments today.
-All state is on the Omnibus or and external provider, and all stateless services are operated in Kubernetes.
+The final stage is the Cloud Native Hybrid Reference Architecture deployments of today.
+All state is on the Omnibus and/or external provider, and all stateless services are operated in Kubernetes.
+Future: Gitaly is also within Kubernetes, pending GA of Gitaly on Kubernetes.
 
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
-flowchart LR
+flowchart TB
 
-    subgraph OAK
+    subgraph Kubernetes
         direction LR
-
-        subgraph k8s[Kubernetes]
-            direction TB
-            byok["Bring your own K8s"]
-            ek8s["Embedded Kubernetes (future)"]
-
-            byok -- or --- ek8s
-        end
-
+        k8s[Kubernetes]
         k8s --> puma
         k8s --> registry
         k8s --> sidekiq
-        k8s -.-> gitaly_cn["gitaly (cloud native)"]
+        k8s -. Ideal .-> gitaly_cn["gitaly
+            (cloud native)"]
         k8s --> pages[GitLab Pages]
+        k8s --> gitlab-shell
         k8s --> ob[OpenBao]
         k8s --> siphon
         k8s --> ns["New, unnamed service"]
-
         helm --> k8s
     end
 
-    subgraph Omnibus
+    subgraph Foundation
         direction LR
         obgl[Omnibus GitLab]
-
-        obgl -- "Existing Povisioning" --> runsvc
-
-        runsvc --> postgres
-        runsvc --> redis
-        runsvc -.-> gitaly
-
-        gitaly -.-> localstore@{ shape: lin-cyl, label: "local storage" }
-        postgres --> localstore
-        redis -->localstore
+        obgl -.  If used .-> gitaly
+        gitaly -.-> localstor[(Local Storage)]
     end
 
     obgl <-. discovery & sync .-> k8s
 
-    puma --> objstore@{ shape: lin-cyl, label: "object storage" }
-    registry --> objstore
-    sidekiq --> objstore
-    pages --> objstore
+    subgraph esvc[External Services]
+        direction TB
+        objstore["Object Storage"]
+        pgsq[("PostgreSQL")]
+        redis[(Redis)]
+        elastic[ElasticSearch]
+    end
+
+    puma --> esvc
+    registry --> esvc
+    sidekiq --> esvc
+    pages --> esvc
 ```
 
-### Interconnection of mixed environments
+### Interconnection of Mixed Environments
 
 A consequence of implementing OAK will be the need to further ensure inter-component communication is easy to configure, and properly secured.
+Care must be taken in the architecture and design to facilitate reducing the load of both of these concerns.
 
-Current implementations include support inter-component TLS, though a significant portion of this manual.
-This is relatively easy, when a minimal number of components to live outside of Kubernetes.
-It would be valuable to investigate appropriate auto-configuration of TLS via an mTLS coordination service.
+Configuring the many components of GitLab to speak to each other is a very manual process today which is facilitated greatly for Omnibus based architecture by the GitLab Environment Toolkit (GET), and highly simplified by the Kubernetes platform on which Cloud Native GitLab operates.
+We must solve these problems at a lower level than GET, knowing that not all customer instances make use of GET and many customers *will not* make use of GET for various reasons.
 
-Configuring the many components of GitLab to speak to each other is a very manual process today, that is facilitated greatly by the GitLab Helm chart and GitLab Environment Toolkit.
-With the implementation of SMS, there are likely to be many services within the Omnibus which need to reach into the OAK.
-We know that services deployed into OAK will likely need to reach services on the Omnibus.
-Not all of these services from either mechanism are naturally exposed via an Ingress model, and some may not be HTTPS/gRPC.
-We should look to provide a means to configure through service discovery, with both mechanisms implementing the integration of this feature.
+When all components are in Kubernetes, we simply configure all endpoints to consume the Service object names and rely upon DNS within the Kubernetes cluster to "solve" this problem for us.
+Securing the connections between components remains a complex task today, even within a Kubernetes cluster.
+
+The combination of concerns could be addressed by a service mesh and proxy orchestration tool, capable of automated mTLS.
+We have many customers who have implemented these, and several that can example their use with our Cloud Native GitLab today.
+One such option, which customers sought explicit support for was [Istio](https://istio.io/latest/docs/).
+It can [blend the two deployment types](https://istio.io/latest/docs/ops/deployment/vm-architecture/), facilitate the interconnection, and secure the communication as described within the projects documentation.
 
 There are several other works ongoing at GitLab, such as Cells and "CYCP", which are likely to involve mTLS and service discovery.
-Perhaps this work would be best left to those projects, and observe closely by this proposal.
+This work may be best left to those projects, and observed closely by this proposal.
 
-### Consistency across GitLab produced Helm charts
+#### Service Endpoint Configuration
+
+GitLab's architecture is often described in a [greatly simplified](https://docs.gitlab.com/development/architecture/#simplified-component-overview) manner.
+In reality, the size and complexity of our total application stack is [large](https://docs.gitlab.com/development/architecture/#component-diagram).
+A common complexity across GitLab instances is the need to configure endpoints across scaled, distributed architectures.
+This is quite simple on a single node Omnibus, where all services could talk over localhost or even UNIX sockets.
+The complexity of the interconnections grows with the size of the instance, complicating the configuration.
+GET handles a signficant on behalf of consumers, masking this complexity through automation.
+
+We can greatly simplify the complexity if we implemented a service discovery mechanism for all components of GitLab.
+The approach we take to implementing such mechanism should intend to support both unintelligent clients who are only informed via DNS,
+as well as those components capable of dynamic reconfiguration.
+Any such mechanism should not become a mandatory implementation item, without careful evaluation of impact on performance and maintenance complexity.
+
+#### Securing Communications
+
+Current implementations include support inter-component TLS, though a significant portion of this manual.
+This is [relatively easy](https://docs.gitlab.com/charts/advanced/internal-tls/) when a minimal number of components live
+outside of Kubernetes, but it does still require manual action.
+It would be valuable to investigate appropriate auto-configuration of TLS via an mTLS coordination service, but this
+should not be considered a blocking item, due to available existing documentation.
+Any option which is investigated must be evaluated by our security teams, and for usability within FIPS and FedRAMP environments.
+
+### Consistency Across GitLab Produced Helm Charts
 
 The Helm ecosystem is flexible, but rife with disparities. We should settle on, and converge towards a set of patterns to be expected across all Helm charts produced and maintained by GitLab.
-We must implement guidelines and best practices across all our works. These should be informed by maintainability, flexibility, and customer experience.
+We must implement guidelines and best practices across all our works.
+These should be informed by maintainability, flexibility, and customer experience.
 
-Many of these immediate concerns can be implemented through [a set of standardized tooling for Helm charts](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/460), and implementaiton of automation through CI components. We will also need to lay out a set of style guides and patterns for components to follow, with the existing GitLab Helm chart
+Many of these immediate concerns can be implemented through [a set of standardized tooling for Helm charts](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/460), and implementaiton of automation through CI components.
+We will also need to lay out a set of style guides and patterns for components to follow, with the existing GitLab Helm chart
 [development documentation](https://docs.gitlab.com/charts/development/) being a reasonable start.
 
 ### Considerations of GET and Dedicated
@@ -361,10 +451,10 @@ These Dedicated environments can quickly implement supplemental functionality th
 Generally speaking, Dedicated can enabled and scale components in alignment with customer usage. It is important to the Dedicated use case that cloud-native is a distinct focus of product delivery.
 
 [GitLab Dedicated for Government](https://docs.gitlab.com/subscriptions/gitlab_dedicated_for_government/) takes this one step further,
-by implementing controls and configuration appropriate to operating within our FedRAMP certification. Some components may not meet the
-criteria for operating within this environment upon their initial inclusion as a part of a GitLab release.
+by implementing controls and configuration appropriate to operating within our FedRAMP certification.
+Some components may not meet the criteria for operating within this environment upon their initial inclusion as a part of a GitLab release.
 
-### Definition of supported Kubernetes versions
+### Definition of Supported Kubernetes Versions
 
 We will need to define a company-wide description of supported versions on which the components of GitLab are expected to operate well.
 We should be careful to note the difference between support by components and the support of operating the application itself.
@@ -416,6 +506,8 @@ Instead of pursuing this route, we aim to use a similar concept to _encourage_ c
 migrate their architecture over time, providing incentive for building or obtaining experience
 in operating Cloud Native environments for GitLab to operate within. That can be done through the use
 of Omnibus-Adjacent Kubernetes cluster, as a goal of this proposal.
+
+> TODO: Expand with details and concerns from investigation.
 
 ### Change nothing
 
