@@ -587,9 +587,9 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- The requirements of a Staff Security Assurance Automation Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Security Risk Engineer and a [Principal Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-- +12 years experience in Security Governance, Risk and Compliance or equivalent fields
+- +10 years experience in Security Governance, Risk and Compliance or equivalent fields
 - Excellent written and verbal communication skills including past experience in Executive Reporting
 - Excellent active listening skills and a history of proactive relationship building
 - Demonstrated experience leveraging AI to drive quality and efficiency
