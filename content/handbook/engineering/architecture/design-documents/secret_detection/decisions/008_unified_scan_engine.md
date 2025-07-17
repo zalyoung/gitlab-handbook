@@ -71,7 +71,25 @@ If we replicate the above process keeping the context of Adapters + Unified scan
 
 Here's the comprehensive view of unified scan engine with the different Adapters, each for a scan target type.
 
-![High-level Design for unified scan engine with Adapters](/images/engineering/architecture/design-documents/secret_detection/008_high_level_design.jpg "High-level Design for unified scan engine with Adapters")
+![High-level Design for unified scan engine with Adapters](/images/engineering/architecture/design-documents/secret_detection/008_high_level_design.png "High-level Design for unified scan engine with Adapters")
+
+### Scan Engine Component Internals
+
+As we plan to introduce additional engines (such as [AI-based](https://gitlab.com/groups/gitlab-org/-/epics/17886) or RE2 WASM-based for portability) to detect secrets, the Scanner API should decouple itself from the underlying scan engine. This allows regex-based, AI-based, or multiple scan engines to be plugged in depending on the use case.
+
+#### Interceptors
+
+The Scan Engine component contains Scan Interceptors that intercept before (`Pre-Interceptor`) and after (`Post-Interceptor`) the scan operation performed by the internal engine.
+
+* `Pre-Interceptor` intercepts input payloads and executes specific operations to return either modified payloads or the original payloads with additional metadata. Examples include AST generation for payloads, sanitizing payload data for inline exclusions, etc.
+
+* `Post-Interceptor` intercepts findings detected by the internal engine(s) and returns either hints to discard certain detections due to false positives or runs domain-specific criteria to generate new metadata. Examples include AI-based false positive reduction, entropy matching, etc.
+
+Interceptors can be either generic (running on every scan) or conditional (triggered by specific criteria such as engine type, customer tier, etc.). They can operate in a chained pipeline where one interceptor's output becomes another's input, or function independently. In both cases, the Scanner API collects the results from all interceptors to determine the final output.
+
+Here's the illustration representing the internals of the Scan Engine Component:
+
+![Scan Engine Component Internals](/images/engineering/architecture/design-documents/secret_detection/008_scan_engine_internals.png "Scan Engine Component Internals")
 
 ## Distribution
 

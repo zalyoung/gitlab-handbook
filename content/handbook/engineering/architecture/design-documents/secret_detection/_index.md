@@ -371,7 +371,7 @@ Read more about the above decisions [here](./decisions/006_support_for_all_envir
 
 ![High-level Secret Detection Design supporting Sync/Async scans](/images/engineering/architecture/design-documents/secret_detection/006_support_all_envs.png "High level design supporting sync and async scans")
 
-#### High-level for Unified SD Scan Engine
+#### High-level Design for Unified SD Scan Engine
 
 A single scanning engine for all scan target types and with the help of target type-specific Adapters, the overall design of Secret Detection for various scan target types looks like the following illustration:
 
