@@ -96,6 +96,41 @@ the two services.
 
 * Interacting with a command-line tool is high-risk. Although initially the parameters we would pass to the tool are not user-controlled, this may change later depending on requirements. This negative consequence can be mitigated by adhering to well-established procedures documented in the [Shell command development guidelines page](https://docs.gitlab.com/development/shell_commands/).
 
+# Performance Analysis
+
+The relative performance difference in signign between Golang and Gitlab Rails
+[was analysed](https://gitlab.com/gitlab-org/gitlab/-/issues/556202). In both cases the test
+performs the signature and publishes the records to `Rekor` *two times*.
+
+The analysis demonstrates no significant performance gains in Golang relative to
+GitLab Rails.
+
+## Gitlab Rails
+
+```
+Command: ["cosign", "attest-blob", "--yes", "--new-bundle-format",
+"--predicate", "-", "--bundle", "demodemo.gem.sigstore.json", "--oidc-issuer",
+"https://gitlab.com", "--identity-token", "[MASKED]", "--hash",
+"7a313044bd530eef848b8cce175073e90ef2287e4290ac805cedbb7d42bc580e",
+"file://demodemo.gem"]
+
+...
+
+--- Execution Time ---
+Wall clock time: 0.506 seconds
+Monotonic time: 0.506 seconds
+Duration (ms): 506.1 milliseconds
+```
+
+## Golang
+
+```
+--- Execution Time ---
+Execution time: 0.491 seconds (490.6 ms)
+Total time: 0.491 seconds (490.6 ms)
+
+```
+
 ## Related Links
 
 * [Evaluate options to bundle cosign with GitLab Rails](https://gitlab.com/gitlab-org/gitlab/-/issues/554600)
