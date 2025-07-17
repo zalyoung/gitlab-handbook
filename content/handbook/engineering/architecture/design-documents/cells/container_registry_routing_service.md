@@ -405,17 +405,9 @@ graph TB
     style Registry2 fill:#6699ff
 ```
 
-## References
+## Related Documents
 
-- Cells: HTTP Routing Service - GitLab Handbook
-- Cells: Topology Service - GitLab Handbook
-- GitLab container registry administration - GitLab Docs
-- Container registry API - GitLab Docs
-- Container-registry Impacted features - GitLab Docs
-
-## Related Documentation
-
-- [GitLab Cells Infrastructure Architecture](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/infrastructure/)
+- [GitLab Cells Infrastructure Architecture](infrastructure/_index.md)
 - [HTTP Router Configuration](https://gitlab.com/gitlab-org/cells/http-router/-/blob/main/docs/config.md)
+- [HTTP Router Rulesets](https://gitlab.com/gitlab-org/cells/http-router/-/tree/main/config/ruleset)
 - [Topology Service Implementation](https://gitlab.com/gitlab-org/cells/topology-service)
-- [Container Registry API Documentation](https://docs.gitlab.com/api/container_registry/)
