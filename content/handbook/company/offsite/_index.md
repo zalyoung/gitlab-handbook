@@ -161,14 +161,14 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q1 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: March
-1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
+1. Start review of **Three Year Strategy** (0.5 day)
 1. Non-product **Engineering** review, e.g. architecture, infrastructure
 
 **Q2 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: June
 1. Review 3 to 5 year [Long Range Outlook (**LRO**)](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) including scenarios, capabilities and dependencies
-1. Finish the review of [**Three Year Strategy**](/handbook/company/strategy/) (1 day)
+1. Finish the review of **Three Year Strategy** (1 day)
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
 1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 

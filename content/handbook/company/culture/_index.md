@@ -59,6 +59,5 @@ Culture at GitLab is composed of three things.
 
 ## Other pages related to culture
 
-1. [Internal Feedback](/handbook/company/culture/internal-feedback/)
 1. [Diversity, Inclusion and Belonging](inclusion/)
 1. [Talent Brand](/handbook/people-group/employment-branding/)

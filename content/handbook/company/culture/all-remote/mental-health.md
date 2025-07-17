@@ -293,7 +293,7 @@ It's also important to understand that not every team members prefers to discuss
 
 ### Sentiment tracking and feedback
 
-Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [internal feedback](/handbook/company/culture/internal-feedback/) until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement. GitLab prefers shorter, but more frequent, check-ins, aligned to our values of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
+Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [ues of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
 
 Ask questions that shed light on whether or not a team member is thriving or struggling, and pay close attention to any adjustable workplace factors that are [contributing](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture/) either positively or negatively.
 
