@@ -1,6 +1,6 @@
 ---
 title: Issue Triage
-description: "Guidelines for triaging new issues opened on GitLab.com projects"
+description: "Guidelines for triaging and labelling issues on GitLab.com projects"
 ---
 
 GitLab believes in [Open Development](https://about.gitlab.com/blog/2015/12/16/improving-open-development-for-everyone/), and we encourage the community to file issues and open merge requests for our projects on [GitLab.com](https://gitlab.com/groups/gitlab-org). Their contributions are valuable, and we should handle them as effectively as possible. A central part of this is triage - the process of categorization according to type and severity.
@@ -47,16 +47,12 @@ If you are unsure about the type, you can tag the product or engineering manager
 
 ## Group labels
 
-Assigning a [group label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) allows `gitlab-bot` to automatically assign the right stage label.
+Assigning a [group label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) allows `gitlab-bot` to automatically assign the right stage and section labels.
 The [Features by Group](/handbook/product/categories/features) listing can help find the right group.
 
 ## Priority
 
-The priority label is used to indicate the importance and guide the scheduling of the issue. Priority labels are expected to be set based on the circumstances of the market, product direction, IACV impact, number of impacted users and capacity of the team. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are based on work type:
-
-- Feature - Product Manager (PM)
-- Maintenance - Engineering Manager (EM)
-- Bug - Quality Engineering Manager (QEM)
+The priority label is used to indicate the importance and guide the scheduling of the issue. Priority labels are expected to be set based on the circumstances of the market, product direction, IACV impact, number of impacted users and capacity of the team. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are [based on work type](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-and-dri-by-component).
 
 | Priority | Importance | Intention | DRI |
 | -------- | ---------- | --------- | --- |
@@ -89,6 +85,11 @@ Once you've determined a severity for an issue add a note that explains in summa
 | Global Search                                                                          | See [Search Prioritization](/handbook/engineering/ai/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/ai/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/ai/search/#severity-labels-for-search-issues-advanced-search-global-search)                 | See [Search Prioritization](/handbook/engineering/ai/search/#severity-labels-for-search-issues-advanced-search-global-search) |                                                                                                                             |
 | `~test` Bugs blocking end-to-end test execution                                        | See [Blocked tests section](#blocked-tests)                                                                                                            | See [Blocked tests section](#blocked-tests)                                                                                                            | See [Blocked tests section](#blocked-tests)                                                                                                                            | See [Blocked tests section](#blocked-tests)                                                                                                            | [Developer Experience stage](/handbook/engineering/infrastructure-platforms/developer-experience/)                          |
 | `~GitLab.com Resource Saturation` Capacity planning warnings                           | Mean forecast shows Hard SLO breach within 3 months.                                                                                                   |                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                        | Scalability Engineering Manager (who will hand over to EM that owns the resource)                                           |
+
+Any `~"type::bug"` issue older than 6 months must have a justification for either:
+
+1. why it is remaining open past the policy, or
+1. why it is being closed without remediation.
 
 ### Severity SLOs
 

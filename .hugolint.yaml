@@ -23,4 +23,5 @@ exclude:
   - pattern: '^/handbook/company/team/?#'
   - pattern: '^/handbook/product/categories/?#'
   - pattern: '^/handbook/product/categories/features/?#'
+  - pattern: '^/handbook/product/product-processes/cross-functional-prioritization/?#'
   - pattern: '^/handbook/engineering/projects/?#'
