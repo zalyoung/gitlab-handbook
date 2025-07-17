@@ -28,7 +28,7 @@ Market capitalization (stock price x shares outstanding) will be the result of a
 1. Size of [total addressable market](/handbook/sales/tam/)
 1. Consistency of execution
 1. [Competitive position](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#introduction)
-1. Clarity of [value proposition](/handbook/company/strategy/)
+1. Clarity of value proposition
 1. Perception of management [team](/handbook/company/team/)
 
 As GitLab team members, delivering on our annual plan and long-term strategy are the most productive ways to contribute to the company achieving full, fair value with limited relative volatility. At a departmental level, we have [key performance indicators](/handbook/company/kpis/#what-are-kpis) aligned to our plan and performance to empower "everyone to contribute" to GitLab's long term success and public market valuation.

@@ -108,7 +108,7 @@ Through our website and [handbook](/handbook/), we are transparent about [availa
 
 We also work to build a diverse team to drive extraordinary outcomes by expanding outreach and inclusivity initiatives to increase the number of team members and our Manager+ population who identify as part of an underrepresented group.
 
-Our [People Group](/handbook/people-group/) is dedicated to supporting each team member through their career journey at GitLab. They enable GitLab’s [strategy](/handbook/company/strategy/) through a focus on attracting and retaining diverse talent, creating a high-performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture. This includes developing and maintaining our [talent brand](/handbook/people-group/employment-branding/), facilitating ongoing [learning and development](/handbook/people-group/learning-and-development/), and providing resources for team members to [connect](/handbook/people-group/#connect-with-us), share concerns, and seek [support](/handbook/people-group/#need-help).
+Our [People Group](/handbook/people-group/) is dedicated to supporting each team member through their career journey at GitLab. They enable GitLab’s strategy through a focus on attracting and retaining diverse talent, creating a high-performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture. This includes developing and maintaining our [talent brand](/handbook/people-group/employment-branding/), facilitating ongoing [learning and development](/handbook/people-group/learning-and-development/), and providing resources for team members to [connect](/handbook/people-group/#connect-with-us), share concerns, and seek [support](/handbook/people-group/#need-help).
 
 In FY24, we focused on accelerating GitLab’s 3-year strategy through re-emphasizing the foundational role of high-performing teams. At GitLab, high-performing teams:
 
@@ -362,7 +362,7 @@ Board members’ responsibilities include:
 
 - [Risk oversight](https://ir.gitlab.com/static-files/d05ac284-d5e9-4742-b1d4-2281fb5eb10c)
 - Monitoring the performance of the Chief Executive Officer (CEO) and other [Executive](/handbook/company/structure/#executives) leaders
-- Giving feedback on the [mission](/handbook/company/mission/#mission), [values](/handbook/values/), and [strategy](/handbook/company/strategy/)
+- Giving feedback on the [mission](/handbook/company/mission/#mission), [values](/handbook/values/), and strategy
 - Evaluating if adequate resources are available to achieve our goals and that those resources are used effectively
 - Advocating for GitLab externally
 - Participating in [Board meetings](/handbook/board-meetings/)

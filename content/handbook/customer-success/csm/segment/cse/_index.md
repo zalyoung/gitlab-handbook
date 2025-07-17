@@ -7,7 +7,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 ---
 **Overview**
 
-At GitLab, we take customer success seriously, and our Customer Success Engineer (CSE) team plays a pivotal role in ensuring our global customer base receives unparalleled support and assistance throughout their journey with us. As a team, we oversee key processes (listed below) that are designed to empower our customers, enable our sales counterparts, and drive overall customer satisfaction. This aligns perfectly with the common pattern of being customer centric across our [company strategy](/handbook/company/strategy/).
+At GitLab, we take customer success seriously, and our Customer Success Engineer (CSE) team plays a pivotal role in ensuring our global customer base receives unparalleled support and assistance throughout their journey with us. As a team, we oversee key processes (listed below) that are designed to empower our customers, enable our sales counterparts, and drive overall customer satisfaction. This aligns perfectly with the common pattern of being customer centric across our company strategy.
 
 1\. **[Customer Enablement Webinar Program](https://university.gitlab.com/pages/gitlab-user-webinars):**
 

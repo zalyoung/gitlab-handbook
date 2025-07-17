@@ -251,7 +251,7 @@ In Distribution we strive for the following in our public projects:
 ### Working with Open Source communities
 
 The [open core of GitLab](/handbook/company/stewardship) is built on top of thousands of open source
-dependencies. These dependencies and their communities are important to the [GitLab strategy](/handbook/company/strategy/#flywheel-with-two-turbos),
+dependencies. These dependencies and their communities are important to the GitLab strategy,
 and working with these dependencies is an essential part of the projects the Distribution team maintains.
 
 In Distribution we strive to:
@@ -343,7 +343,6 @@ The following important areas of the GitLab Handbook impact how we work and are 
 - [Continue to serve smaller users](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#serve-smaller-users) (internal only)
 - [Promises to our Open Source community](/handbook/company/stewardship/#promises)
 - [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
-- [Principles of our company strategy](/handbook/company/strategy/#principles)
 - [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
 - [Test Platform in Distribution group](/handbook/engineering/testing/distribution/)
 

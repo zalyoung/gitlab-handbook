@@ -6,7 +6,7 @@ This guide serves as a comprehensive handbook for GitLab team members (engineers
 
 ## Alignment with GitLab's Strategy
 
-Innovation at GitLab is important: It is a core component of our long-term strategic vision outlined in the [Company Strategy](../company/strategy.md). Our approach of "seed then nurture" ensures that early proofs-of-concepts can evolve into mature features that drive both user adoption and business growth.
+Innovation at GitLab is important: It is a core component of our long-term strategic vision outlined in the Company Strategy. Our approach of "seed then nurture" ensures that early proofs-of-concepts can evolve into mature features that drive both user adoption and business growth.
 
 This iterative and collaborative guide directly supports GitLab's three-year strategy by bridging short-term proofs-of-concepts with long-range planning. As innovations are refined and scaled, they reinforce our strategic priorities and allow us to adapt dynamically to evolving market trends.
 
@@ -191,7 +191,7 @@ Once you have gathered initial feedback and validated the potential of your inno
 
     - In line with GitLab's [Public by Default](../values/_index.md#public-by-default) value, work with the corresponding Product and UX team to make your innovation public as soon as possible once you've validated its potential. If your innovation contains potentially patentable information, work with your manager and the Legal Team to see if it meets [patent requirements](../legal/patent-program.md#conditions-of-participation).
 
-    - Ensure the transition aligns with GitLab's [Company Strategy](../company/strategy.md) and [Values](../values/), and collaborate with Product and UX when publicly communicating the innovation.
+    - Ensure the transition aligns with GitLab's Company Strategy and [Values](../values/), and collaborate with Product and UX when publicly communicating the innovation.
     
 ## Completing the Innovation process
 
@@ -209,8 +209,6 @@ An innovation can be closed out in a few ways:
 - **GitLab Engineering Handbook:** Refer to the [GitLab Engineering Handbook](../_index.md) for further context on engineering best practices and standards.
 
 - **GitLab Values:** Understand more about our core principles in the [GitLab Values](../values/_index.md) page.
-
-- **Company Strategy:** Learn how innovations fit within our larger [Company Strategy](../company/strategy.md).
 
 - **Architecture Design Workflow:** Architectural innovation usually follows our [Architecture Design Workflow](./architecture/workflow/index.md)
 

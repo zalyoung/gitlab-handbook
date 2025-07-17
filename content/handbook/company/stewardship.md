@@ -70,7 +70,7 @@ We do this when we realize we made a mistake applying our criteria, for example
 when we learned that a branded homepage was an [essential feature](https://news.ycombinator.com/item?id=10931347) or
 when we [brought GitLab Pages to the Community Edition](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/).
 
-Our plan is to become the most popular tool for people's own git hosting service; we've managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we've reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc. More info on this is on our [strategy page](/handbook/company/strategy/).
+Our plan is to become the most popular tool for people's own git hosting service; we've managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we've reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc.
 
 ## How Open Source Benefits From Open Core
 
@@ -168,7 +168,7 @@ Instead of optimizing locally across many different projects, we are able to cre
 GitLab is open core built entirely with open source. We rely on [thousands of dependencies](https://gitlab.com/gitlab-org/gitlab/dependencies) and always try to contribute our improvements upstream.
 
 **Build More Open Source As Part Of GitLab.**
-Shipping as much open source as possible is critical to our [business model](#business-model) because it increases the velocity of our [flywheels](/handbook/company/strategy/#dual-flywheels). The faster they spin, the more we can contribute back.
+Shipping as much open source as possible is critical to our [business model](#business-model) because it increases the velocity of our flywheels. The faster they spin, the more we can contribute back.
 
 **Contribute At Scale.**
 GitLab is a single application for the entire DevOps lifecycle. By [freely providing](https://about.gitlab.com/solutions/open-source/join/) the top tier of GitLab to [open source projects](https://about.gitlab.com/solutions/open-source/), we are enabling them to be more efficient, secure, and productive.
