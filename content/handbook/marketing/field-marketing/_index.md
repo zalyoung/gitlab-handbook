@@ -48,6 +48,13 @@ FMMs should work with Large & MM sales teams to determine these cities.
 
 [GitLab Connect](https://www.youtube.com/watch?v=aKwpNKoI4uU) is a full or half day event with both customers and prospects in attendance sharing stories & lessons learned about GitLab. SAE's will be responsible for asking customers to speak and Marketing, through a combination of SDR outreach, database and ad geotargeting will drive attendance to the event. If you would like to propose a GitLab Connect in your city, please follow [these instructions](/handbook/marketing/events/#suggesting-an-event) for requesting an event. Interested in seeing a GitLab Connect in action? [Check it out.](https://www.youtube.com/watch?v=aKwpNKoI4uU)
 
+### GitLab Connect Roadshow
+
+The GitLab Connect Roadshow expands the half day format to a full day event, running in different cities with the same / similar content. The single events may contain different tracks for different target groups like a track for technical audience, one for decision makers and one for community / contributor target group. 
+Significant element of the Connect Roadshow is customers going on stage and talking about how they use GitLab. This can either be in the framework of an open stage (spontaneous) or with customer talks being fix on the agenda. Other significant part is something interactive. This has proven to be very well received with the audience. Interactive elements that did work well in the DACH region have been different tastings like olive oil, chocolate, spices and others, a pasta making class as well as a Tanuki construction challenge (building a Tanuki-Mosaik with LEGO bricks). 
+The different tracks, if executed, should be held in different rooms or at different times of the day. In ideal case there should be specific advertising for the single target groups. The co-creation track for community and contributors has been promoted via the GitLab user groups on discord and meetup. For the technical as well as the decision maker audience advertising via media partners has proven to work, but also LinkedIn could be an option. All invitation efforts should be supported by the Biz Dev teams as well as the sales org. 
+To support the Connect Roadshow format we allowed our ecosystem to sponsor the single events or the entire Roadshow as a whole. 
+
 ### Field Marketing Owned Virtual Events
 
 For information regarding process, epic codes, templates and more, please visit our [**Field Marketing Owned Virtual Events**](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/) page.
