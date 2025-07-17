@@ -246,9 +246,7 @@ There are five departments within the Engineering Division:
 - [Engineering Career Development](/handbook/engineering/careers/)
 - [Engineering Career Mobility Principles](/handbook/engineering/careers/#mobility-principles)
 - [Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)
-- [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
-- [Starting New Teams](/handbook/engineering/starting-new-teams/)
 
 ### Cross-Functional Prioritization
 
