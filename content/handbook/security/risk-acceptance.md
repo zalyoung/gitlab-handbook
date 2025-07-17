@@ -112,6 +112,7 @@ Who: Appropriate Program Review Team member (see Program Review Team Assignments
 1. Assess proposed compensating controls for effectiveness (if applicable)
 1. Determine appropriate approval level based on risk severity
 1. Add recommendations and final risk acceptance category assignment
+1. Relates the risk acceptance to relevant StORM risk(s)
 
 #### Approval Authority Matrix
 
