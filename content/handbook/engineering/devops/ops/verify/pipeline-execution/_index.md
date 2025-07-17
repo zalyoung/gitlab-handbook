@@ -253,7 +253,7 @@ To find our stable counterparts, look at the Pipeline Execution [product categor
 
 ## Technologies
 
-- Like most GitLab backend teams we spend a lot of time working in Rails on the main [GitLab CE app](https://gitlab.com/gitlab-org/gitlab-ce),
+- Like most GitLab teams we spend a lot of time working in Rails and Vue on the main [GitLab app](https://gitlab.com/gitlab-org/gitlab),
 - Being a high-traffic part of the application, we work very closely with [CI Platform](https://handbook.gitlab.com/handbook/engineering/devops/ops/verify/ci-platform/) and the [Database Frameworks team](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/database-framework/) to maintain a performant PostgreSQL database.
 - Familiarity with Docker and Kubernetes is also useful on our team.
 
