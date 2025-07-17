@@ -36,3 +36,7 @@ Build GitLab’s next generation multi-tenant, horizontally scalable SaaS platfo
 ## Projects
 
 1. [Cells and Organizations project](cells_and_organizations/_index.md)
+
+## Requests for Help
+
+We have a process for Requesting For Help from the Tenant Scale Group, please see [process](request-for-help.md)
