@@ -1207,6 +1207,7 @@ subcharts
 subcommand
 subcommands
 subcomponent
+subcomponents
 subfolder
 subfolders
 subgraph
