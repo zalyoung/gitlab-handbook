@@ -36,7 +36,7 @@ Under this model, an application which an organisation may continue to provide b
 
 The intent with static ref tracking is to maintain the current methodology by which GitLab tracks vulnerabilities for the default branch, but expand this behaviour out to additional branches. Fundamentally this will require us to make some substantial modificaitons to some of our core tables to support this new data paradigm. Specifically the purposes of some tables will be slightly redefined, and we will need to be able to store what git refs will be tracked for vulnerabilities.
 
-Additionally we will need to update a substantial amount of code to begin to account for the new possibility of branches being present holding identical vulnerabilities, as these interactions may interact with the incorrect branches otherwise.
+Additionally we will need to update a substantial amount of code to account for branches holding identical vulnerabilities, as these interactions need to disambiguate between the branches.
 
 The key changes necessary to make this possible can be sumarised as:
 
@@ -81,7 +81,7 @@ flowchart
     C -->|vulnerability_occurrence_id| B
 ```
 
-#### Vulnerability/Occurence differentiation example
+#### Vulnerability/Occurrence differentiation example
 
 Conceptually, a Vulnerability is intended to represent the definition of a vulnerability, regardless of where it's found, while a Occurrence/Finding is meant to represent an instance of a vulnerability as it was found in a particular ref. This will look something like the below example.
 
@@ -166,7 +166,7 @@ In order to track vulnerabilities from package advisories on multiple branches, 
 
 When we first began considering the architecture for tracking vulnerabilities across multiple branches, we were highly concerned about the impact on the database in terms of CPU activity and database storage. As a result, a substantial amount of discussion went into understanding the risks and benefits of Static Branch Tracking vs the alternative proposal of Entry/Exit tracking, in which we would attempt to track the points in the commit history that vulnerabilities entered and exited the repository.
 
-Entry/Exit tracking appeared to be promising in terms of reducing the amount of records we would need to store and maintain, curing the concerns of DB CPU and storage to a large degree. Unfortuantely further investigation made us realize that the implementation would require a substantial amount of new system logic to handle a variety of corner cases related to scans and commit history not lining up perfectly.
+Entry/Exit tracking appeared to be promising in terms of reducing the amount of records we would need to store and maintain, curing the concerns of DB CPU and storage to a large degree. Unfortunately further investigation made us realize that the implementation would require a substantial amount of new system logic to handle a variety of corner cases related to scans and commit history not lining up perfectly. For example, when multiple commits are included in a single push, we cannot easily determine which one was the entry point of a given vulnerability.
 
 Additionally, we did some projections of data impact of Static Branch tracking and determined that while the amount of data we will need to store will be very substantial, the growth room afforded to us by the Sec Database Decomposition places that growth into a feasible space. As a result, we can safely proceed with the Static Branch analysis.
 
