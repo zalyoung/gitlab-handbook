@@ -304,7 +304,7 @@ To gain access to Snowflake:
 
 Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](/handbook/enterprise-data/how-we-work/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
 
-In order to be granted access to a Snowflake analyst role, utilize a [Lumos Access Request](https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/ar/). A new user will be created with access to query the `PROD` database.
+In order to be granted access to a Snowflake analyst role, utilize a [Lumos Access Request](/handbook/security/corporate/systems/lumos/ar/). A new user will be created with access to query the `PROD` database.
 There are 2 levels of data access:
 
 * General data --> Lumos adds the Snowflake `snowflake_analyst_okta` role to their account.
