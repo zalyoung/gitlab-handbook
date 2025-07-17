@@ -34,7 +34,7 @@ Docs and Product MRs help prevent future tickets. All Engineers should be submit
 See:
 
 - [Performance Indicators - Support MR Rate](/handbook/support/performance-indicators/#support-mr-rate)
-- [Improve documentation and publicly share knowledge](/handbook/support/support-engineer-responsibilities#improve-documentation-and-publicly-share-knowledge-weekly)
+- [Improve documentation and publicly share knowledge](/handbook/support/support-engineer-responsibilities#improve-documentation-knowledge-base-and-publicly-share-knowledge-weekly)
 - [Fix GitLab bugs and create features](/handbook/support/support-engineer-responsibilities#fix-gitlab-bugs-and-create-features-occasionally)
 
 ##### Pairing Sessions

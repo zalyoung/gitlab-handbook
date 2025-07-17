@@ -49,12 +49,12 @@ This responsibility can be broken down into five key components:
 1. [Help others to maintain progress on their tickets](#5-help-others-to-maintain-progress-on-their-tickets)
 
 As you read through the components, keep in mind that the focus of an
-Intermediate Support Engineer differs from that of a Senior
+Associate and Intermediate Support Engineer differs from that of a Senior
 Support Engineer:
 
-- Intermediate: Focus is on managing and solving their assigned tickets
+- Associate and Intermediate: Focus is on managing and solving their assigned tickets
 - Senior: Although managing and solving their own assigned tickets remains
-  important, focus is on helping Intermediate Support Engineers to solve their
+  important, focus is on helping Associate and Intermediate Support Engineers to solve their
   assigned tickets both by assisting directly on tickets (pairing, internal
   notes, etc.) and by delivering training (mentoring, classes, videos, etc.).
 
@@ -218,7 +218,7 @@ shows the current values.
 
 ## Prioritizing work
 
-Each Intermediate and Senior Support Engineer should generally be prioritizing their daily work according to the following list. Interviews, training, special assignments and other time-bound commitments are examples of good temporary exceptions to these priorities.
+Each Support Engineer should generally be prioritizing their daily work according to the following list. Interviews, training, special assignments and other time-bound commitments are examples of good temporary exceptions to these priorities.
 
 You should think of this list as a tool for helping you to make decisions. When there are multiple things to be done, these priorities should guide you toward deciding which of them to do first.
 
@@ -254,7 +254,7 @@ The following on-call rotations are staffed by Support Engineers:
 1. [Self-managed customer emergency on-call](/handbook/support/on-call/)
 1. [GitLab.com Communications Manager on Call (CMOC)](/handbook/support/workflows/cmoc_workflows)
 
-All Support Engineers participate in one of these rotations - not both, unless you absolutely love being on-call!
+Intermediate, Senior and Staff Support Engineers participate in one of these rotations - not both, unless you absolutely love being on-call!
 
 **New Team Members:** your Support Engineer Onboarding Issue shows the readiness criteria for joining rotations.
 
@@ -278,11 +278,7 @@ Be sure to highlight notable incidents in your 1:1 notes doc.
 1. Ask and answer questions in Slack. (We don't have a way to easily make this visible, but feel free to share things you're proud of with your manager in your 1:1 notes doc.)
 1. If you have volunteered to be a [Support Stable Counterpart](/handbook/support/#support-stable-counterpart), collaborate with the group(s) you are assigned to and share knowledge with the Support Team.
 1. There are many other ways you can collaborate. Make a note of your collaborations in your 1:1 notes doc.
-
-| Level        | How it might look |
-| ------------ | ----------------- |
-| Intermediate | Aim for two pairing sessions per week |
-| Senior       | [Aim for one pairing or help session per day](/handbook/support/engineering/mentorship) |
+1. Aim for 2-5 pairing sessions per week. 
 
 ## Create and update issues for bugs and feature requests (Weekly)
 
@@ -292,16 +288,19 @@ Reducing future customer problems is an important part of being a Support Engine
 
 1. Create bug issues and feature requests whenever needed. You can see how you're doing using the 'GitLab issues' [activity link](/handbook/support/managers/support-1-1s#2-activity-links) in your 1:1 notes. Here's an [example link](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&author_username=dblessing). The format is `https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&author_username=YOUR_USERNAME`  (replace `YOUR_USERNAME`)
 
+1. Comment on bug issues and feature requests on behalf of customers to help with prioritisation and impact.
+
 1. GitLab doesn't currently have [a way to find all the comments you've made on Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/28268). Until this feature is available, it's hard to make your contributions to product Issues visible. Instead, be sure that your Zendesk tickets have links to the Issues that you create or update. You can also highlight contributions in your 1:1 notes doc.
 
 | Level        | How it might look |
 | ------------ | ----------------- |
+| Associate    | Collaborate with other support engineers and create issues with description completed and appropriate labels |
 | Intermediate | Create issues with description completed and appropriate labels |
 | Senior       | Additionally drive fix/enhancement when appropriate based on expertise and customer interactions |
 
-## Improve documentation and publicly share knowledge (Weekly)
+## Improve documentation, knowledge base and publicly share knowledge (Weekly)
 
-You are encouraged to [update documentation](/handbook/support/workflows/improving-documentation) regularly. This helps prevent ticket creation by improving the information available for customers to use in solving problems without contacting us.
+You are encouraged to [update documentation](/handbook/support/workflows/improving-documentation) and [create/update knowledge base articles regularly](/handbook/support/knowledge-base/#why-you-should-create-a-knowledge-article). This helps prevent ticket creation by improving the information available for customers to use in solving problems without contacting us.
 
 [Creating blog posts](/handbook/marketing/blog/) and other publicly available knowledge that is accessible by search engines is valuable to help prevent ticket creation.
 
@@ -309,7 +308,9 @@ We [summarize Support team contributions](https://gitlab.com/gitlab-com/support/
 
 **What does success look like?**
 
-1. Aim for at least two documentation updates every month. You can see how you're doing using the 'Docs updates' [activity link](/handbook/support/managers/support-1-1s#2-activity-links) in your 1:1 notes. Here's an [example link](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=dblessing&label_name[]=documentation). The format is `https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=YOUR_USERNAME&label_name[]=documentation` (replace `YOUR_USERNAME`)
+1. Aim for at least two documentation/knowledge base article updates every month.
+   - You can see how you're doing with documentation updates using the 'Docs updates' [activity link](/handbook/support/managers/support-1-1s#2-activity-links) in your 1:1 notes. Here's an [example link](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=dblessing&label_name[]=documentation). The format is `https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=YOUR_USERNAME&label_name[]=documentation` (replace `YOUR_USERNAME`)
+   - For details on seeing how you're doing with knowledge base article updates, check out the [knowledge base reporting and metrics](/handbook/support/knowledge-base/reporting-and-metrics/) handbook page.
 1. If you publish information in other public places (*e.g.* a blog post), make a note in your 1:1 notes doc.
 
 ## Fix GitLab bugs and create features (Occasionally)
