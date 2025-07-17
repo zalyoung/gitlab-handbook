@@ -307,7 +307,7 @@ Each Directs-Group will have at least one cohort project. Cohort projects should
 Cohort Projects:
 
 1. **2022-01 to 2022-10** : [Stop Initiative](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/109602/diffs), Internal Handbook updates
-1. **2022-11 to 2023-08** : [Strategic plan refresh](/handbook/company/strategy/#big-bet-process)
+1. **2022-11 to 2023-08** : Strategic plan refresh
 
 ## VP-Directs Group
 

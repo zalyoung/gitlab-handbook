@@ -404,7 +404,7 @@ Here are some practices for how PMs work with groups outside of GitLab.
 #### Working with community contributors
 
 Product managers are the DRI for their group's [product direction](/handbook/product/product-processes/#managing-your-product-direction)
-which must include delivering on our greater company strategy of [dual flywheels](/handbook/company/strategy/#dual-flywheels).
+which must include delivering on our greater company strategy of dual flywheels.
 [Community contributions](https://about.gitlab.com/community/contribute/) are a critical
 part of the product direction.
 To support contributions product managers may consider the following guidelines:

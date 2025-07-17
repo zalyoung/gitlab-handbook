@@ -27,8 +27,8 @@ Integral part of this vision is to:
 
 1. Build a highly performant team of engineers, combining operational and software development experience to influence the best in reliable infrastructure.
 1. Work publicly in accordance with our [transparency](/handbook/values/#transparency) value.
-1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support [the company strategy](/handbook/company/strategy/).
-1. Align our [strategy](/handbook/company/strategy/) with the industry trends, company direction, and end customer needs.
+1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support the company strategy
+1. Align our strategy with the industry trends, company direction, and end customer needs.
 
 ## Direction
 

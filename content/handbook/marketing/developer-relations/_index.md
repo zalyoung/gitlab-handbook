@@ -15,7 +15,7 @@ Developer Relations (short: DevRel) operates at the intersection of technology, 
 
 Developer Relations drives platform awareness and adoption by enabling GitLab customers, connecting through community, and engaging developers where they are. GitLab engages with more than 3000 developers every month on GitLab.com alone, and receives more than 250 contributions every month, giving us a unique level of influence in the DevSecOps space and helping accelerate our innovation. Our ultimate goal is to raise awareness of GitLab and drive customer success by winning the hearts & minds of developers through best-in-class technical enablement and an active community of contributors.
 
-In Developer Relations, we align our mission and vision with the company's [three year strategy](/handbook/company/strategy/). We believe that [everyone can contribute](/handbook/company/mission/#mission). To help GitLab reach this goal, we aim to double outreach and engagement, strengthen our community presence, and support a healthy community of contributors. Ultimately, these goals boost awareness, adoption, and power our [dual flywheels](/handbook/company/strategy/#dual-flywheels).
+In Developer Relations, we align our mission and vision with the company's three year strategy. We believe that [everyone can contribute](/handbook/company/mission/#mission). To help GitLab reach this goal, we aim to double outreach and engagement, strengthen our community presence, and support a healthy community of contributors. Ultimately, these goals boost awareness, adoption, and power our dual flywheels.
 
 ## <i class="fas fa-map-marked-alt fa-fw color-orange font-awesome"></i> Our Strategy
 
