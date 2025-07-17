@@ -83,7 +83,7 @@ Now that you have dependencies added to your project, you want to ensure that th
       - component: ilt.gitlabtraining.cloud/components/dependency-scanning/main@main
     ```
 
-1. Write an appropriate commit message (ex. "Added Dependency scanning to pipeline"), ensure that youa are committing to the main branch, and select **Commit changes**.
+1. Write an appropriate commit message (ex. "Added Dependency scanning to pipeline"), ensure that you are committing to the main branch, and select **Commit changes**.
 
     To view the progress of your new pipeline:
 
