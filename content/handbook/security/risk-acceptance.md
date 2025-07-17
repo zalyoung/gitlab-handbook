@@ -95,7 +95,7 @@ Who: Risk Acceptance Requestor (Business Owner, System Owner, or designated repr
 - Risk Rating: Current risk severity (Critical/High/Medium/Low)
 - Acceptance Justification: Clear explanation of why acceptance is appropriate
 - Acceptance Category: Select appropriate category from above
-- Link assoicated issues: All relevent issues are linked
+- Link associated issues: All relevant issues are linked
 - Compensating Controls: Existing or planned controls that mitigate risk exposure (if applicable)
 - Business Impact: Potential impact if risk is exploited
 - Review Schedule: Proposed periodic review frequency
