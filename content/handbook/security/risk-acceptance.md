@@ -145,8 +145,7 @@ For each periodic review, the risk acceptance must be repeated.
 
 | Risk Level| Review Frequency| Review Team|
 |--| --|--|
-|Low| Bi-annual| Program Review Team|
-|Medium| Annual| Program Review Team|
+|Low and Medium| Annual| Program Review Team|
 |High| Semi- Annual| Program Review Team + Security Risk Team|
 |Critical| Quarterly| Program Review Team + Security Risk Team|
 
