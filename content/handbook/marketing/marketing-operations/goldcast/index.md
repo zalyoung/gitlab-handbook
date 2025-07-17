@@ -37,7 +37,8 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 
 ## Random Things to Know
 
-- Note: As of launch registrations should not be taken via the Goldcast landing pages/forms and registrations should only occur via Marketo forms/landing pages until further notice. 
+- Note: As of launch registrations should not be taken via the Goldcast landing pages/forms and registrations should only occur via Marketo forms/landing pages until further notice.
+- Denying access to microphone or camera settings for Goldcast or your browser can results in being denied access to Goldcast events
 - When selecting the event type, keep in mind that **any** event where speakers will appear live on camera **must** be set to the `Live` event type. If no speakers will appear live on camera, the event type can be set to `Pre-recorded`. When the event type is set to `Pre-recorded`, back stage staff can interact with the audience **only** via text. If your event will need to be a mix of `pre-recorded` and `live Q&A`, know the differences between `New Event` and `New Webinar`. `New Event` will give more flexibilty for presenters due to the multi-session functionality, which allows for a `pre-recorded` session and then a `live` session - but relies on the `Session Redirection Strategy` setting to determine how to change the sessions over. `New Webinar` offers a simpler setup, less flexibilty and automative content creation via Content Lab - but will require Backstage or Speakers to manually control video and other displayed content during live presentations. To learn more about the finer details, read the Goldcast documentation on [which event type to use](https://help.goldcast.io/en_US/QA-event-setup/which-event-type-to-use) and [webinars vs events](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events) 
 - When set to `Automatic`, the [Session Redirection Strategy](https://help.goldcast.io/program-agenda/18803068306459?from_search=181942475&swifty_search_highlight=redirectio) setting automatically allows registrants in at the event start time, but does not immediately force presenters on-stage. Having this set to `Manual` requires staff input to move attendees around sessions. The GitLab team has found the `automatic` session redirection feature on multi-session `Events` can be slow, so it is best to familiarize how the feature works and if it would be better to use the manual setting at least an hour before the event starts (when this setting becomes locked)
 - Specifications for creative assets, including video, can be found [here](https://help.goldcast.io/en_US/design/4406894301979-goldcast-design-specifications). **WARNING: Upload processing time can take up to 4x the length of the recorded video** and it's recommended for events to be 2 minutes longer than the video asset for pre-recorded events
@@ -71,7 +72,7 @@ List of sync fields in draft currently. Let MOps know of any more fields to cons
 |City | City| Don't update if source is empty|
 | State |State |Don't update if source is empty|
 | Country | Country|Don't update if source is empty|
-| Data Share Content | Opt-in| Don't update if source is empty |
+<!-- | Data Share Content | Opt-in| Don't update if source is empty |
 |Province|Canadian Province|Don't update if source is empty|
 |State/Territory|Australian State/Territory|Don't update if source is empty|
 | UTM Campaign |original UTM campaign|Only update if target is empty|
@@ -83,7 +84,7 @@ List of sync fields in draft currently. Let MOps know of any more fields to cons
 | UTM Source |original UTM source|Only update if target is empty |
 | UTM Source |last UTM source|Always update |
 | UTM Content |original UTM content|Only update if target is empty|
-| UTM Content |last UTM content|Always update|
+| UTM Content |last UTM content|Always update| -->
 
 ## Event Tags in use
 
