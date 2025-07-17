@@ -15,7 +15,7 @@ The *Engineering Manager* role is a [grade 8](/handbook/total-rewards/compensati
 
 ## Responsibilities
 
-- Manage a [team](/handbook/engineering/starting-new-teams/#team-construction) of engineers.
+- Manage a team of engineers.
 - Help your engineers grow their skills and experience
 - Author project plans for epics
 - Run agile project management processes
@@ -30,7 +30,7 @@ The *Engineering Manager* role is a [grade 8](/handbook/total-rewards/compensati
 - Foster technical decision making on the team, but make final decisions when necessary
 - Draft quarterly OKRs and [Engineering KPIs](/handbook/company/kpis/#engineering-kpis)
 - Improve product quality, security, and performance
-- May have more than one specialty on their team, per our [shared manager team](/handbook/engineering/starting-new-teams/#team-construction) concept
+- May have more than one specialty on their team
 - Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
 ## Requirements
