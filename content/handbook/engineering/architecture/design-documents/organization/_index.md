@@ -214,8 +214,8 @@ to link tables back to an Organization where possible. We also aim to [prevent r
 
 ##### Spin out top-level groups to Organizations
 
-In support of the Protocells project, we aim to migrate a subset of existing
-top-level groups into Organizations and transfer them to a new Protocell.
+In support of the Protocells project, we aim to promote a subset of existing
+top-level groups into Organizations.
 
 ##### Organization initial release
 
