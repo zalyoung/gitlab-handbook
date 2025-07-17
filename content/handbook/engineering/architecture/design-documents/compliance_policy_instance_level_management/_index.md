@@ -21,7 +21,7 @@ Refer to [Instance Level Compliance and Policy Management](https://gitlab.com/gr
 
 ## Proposal
 
-We propose designating a top-level group as the central authority for compliance frameworks and security policies at the instance level. This CSP Group will contain the master version of frameworks and policies, which will then be mirrored to other groups throughout the instance. Top-level group owners can apply these frameworks to their projects but cannot modify them, ensuring consistent application of compliance and security requirements.
+We propose designating a top-level group as the central authority for compliance frameworks and security policies at the instance level. This CSP Group will contain the centrally managed frameworks and policies, which will then be applied to other groups throughout the instance. Top-level group owners can apply these frameworks to their projects but cannot modify them, ensuring consistent application of compliance and security requirements.
 
 ## Goals
 
@@ -43,9 +43,7 @@ We propose designating a top-level group as the central authority for compliance
 ## Terminology/Glossary
 
 - **CSP Group**: Compliance and Security Policy Group - a designated top-level group with elevated permissions for centrally managing compliance and security policies.
-- **Mirrored Framework**: A read-only copy of a compliance framework from the CSP Group that appears in other groups.
 - **Framework-scoped Policy**: A security policy that targets specific compliance frameworks.
-- **Original Framework**: The source version of a compliance framework in the CSP Group.
 - **Instance Level**: Functionality that applies across the entire GitLab instance.
 
 ## Design Overview
@@ -54,10 +52,10 @@ We propose designating a top-level group as the central authority for compliance
 
 1. Instance administrator designates a top-level group as the CSP Group.
 2. CSP Group admins create compliance frameworks and security policies.
-3. Compliance frameworks are automatically mirrored to all other top-level groups in the instance.
+3. Compliance frameworks are automatically applied to all other top-level groups in the instance.
 4. Security policies are scoped to compliance frameworks.
-5. Projects in any group can use the mirrored frameworks.
-6. When a project with a mirrored framework runs a pipeline, it enforces associated policies from the CSP Group.
+5. Projects in any group can use the CSP Group's frameworks.
+6. When a project with an assoicated framework from the CSP Group runs a pipeline, it enforces the associated policies.
 
 ### Entity Relationship Diagram
 
@@ -110,16 +108,6 @@ ADD COLUMN csp_namespace_id BIGINT REFERENCES namespaces(id);
 
 ### Modified Tables
 
-**compliance_management_frameworks**
-
-```sql
-ALTER TABLE compliance_management_frameworks
-ADD COLUMN is_csp_framework BOOLEAN NOT NULL DEFAULT FALSE,
-ADD COLUMN is_mirror BOOLEAN NOT NULL DEFAULT FALSE,
-ADD COLUMN original_framework_id BIGINT REFERENCES compliance_management_frameworks(id),
-ADD INDEX(original_framework_id);
-```
-
 **compliance_framework_security_policies**
 
 ```sql
@@ -137,12 +125,10 @@ ADD COLUMN is_from_csp_group BOOLEAN NOT NULL DEFAULT FALSE;
 4. UI updates to show special indicators for the CSP Group.
 5. Generate an instance audit event tracking creation, modification, and deletion of CSP Group Designations.
 
-### Compliance Framework Creation and Mirroring
+### Compliance Framework Creation
 
 1. CSP Group admin creates a compliance framework in the CSP Group.
-2. System marks the framework as `is_csp_framework = true`.
-3. System automatically creates mirrored copies in all other top-level groups.
-4. When new top-level groups are created, system creates mirrors for all CSP frameworks.
+2. System automatically associated this framework with all other top-level groups.
 
 ### Security Policy Management
 
@@ -218,73 +204,65 @@ Each policy type follows its specific workflow for enforcement:
 
 ### Project Compliance Framework Assignment
 
-1. Group owner can assign mirrored frameworks to projects.
-2. Group owner can set mirrored frameworks as default for new projects.
-3. System creates entries in `project_compliance_framework_settings` referencing the mirrored framework.
+1. Group owner can assign CSP frameworks to projects.
+2. Group owner can set CSP frameworks as default for new projects.
+3. System creates entries in `project_compliance_framework_settings` referencing the framework.
 
 ### Policy Enforcement in CI/CD Pipeline
 
 1. When a project pipeline runs, system checks for assigned compliance frameworks.
-1. If framework is mirrored, system retrieves the original framework from CSP Group.
-1. System retrieves all security policies scoped to the original framework.
-1. Policies are enforced against the project's pipeline.
+2. System retrieves all security policies scoped to the framework.
+3. Policies are enforced against the project's pipeline.
 
 ### CSP Group Change Management
 
 #### Changing CSP Group Designation
 
 1. Instance administrator navigates to `Admin Area > Settings > Security and compliance`.
-1. Administrator selects a different top-level group to designate as the new CSP Group.
-1. System displays a confirmation dialog with impact information.
-1. Upon confirmation:
-   1. System updates the entry in `application_settings` table.
-   1. System marks all frameworks in the old CSP Group as `is_csp_framework = false`.
-   1. System marks all frameworks in the new CSP Group as `is_csp_framework = true`.
-   1. All mirrored frameworks linked to the old CSP Group are deleted across the instance.
-   1. All mirrored frameworks linked to the old CSP Group are removed from projects.
-   1. All security policies linked to the old CSP Group are unlinked.
-   1. New frameworks from the new CSP Group are mirrored to all top-level groups.
-   1. System generates an audit event tracking the CSP Group change.
-1. UI indicators update to reflect the new CSP Group.
+2. Administrator selects a different top-level group to designate as the new CSP Group.
+3. System displays a confirmation dialog with impact information.
+4. Upon confirmation:
+   a. System updates the entry in `application_settings` table.
+   b. Previous frameworks from the old CSP Group are no longer visible or applied.
+   c. All previous frameworks from the old CSP Group are no longer visible for projects.
+   d. All security policies linked to the old CSP Group are unlinked.
+   e. New frameworks from the new CSP Group are visible to all top-level groups.
+   f. System generates an audit event tracking the CSP Group change.
+5. UI indicators update to reflect the new CSP Group.
 
 #### Removing CSP Group Designation
 
 1. Instance administrator navigates to `Admin Area > Settings > Security and compliance`.
-1. Administrator selects "Remove CSP Group designation".
-1. System displays a confirmation dialog with impact information.
-1. Upon confirmation:
-   1. System removes the entry from `application_settings` table.
-   1. System marks all frameworks in the CSP Group as `is_csp_framework = false`.
-   1. All mirrored frameworks linked to the CSP Group are deleted across the instance.
-   1. All mirrored frameworks linked to the CSP Group are removed from projects.
-   1. System generates an audit event tracking the CSP Group removal.
-1. UI indicators are removed to reflect the absence of a CSP Group.
+2. Administrator selects "Remove CSP Group designation".
+3. System displays a confirmation dialog with impact information.
+4. Upon confirmation:
+   a. System removes the entry from `application_settings` table.
+   b. All previous frameworks from the old CSP Group are no longer visible for projects.
+   c. All security policies linked to the old CSP Group are unlinked.
+   d. System generates an audit event tracking the CSP Group removal.
+5. UI indicators are removed to reflect the absence of a CSP Group.
 
 ### Compliance Framework Change Management
 
 #### Modifying a Compliance Framework in CSP Group
 
 1. CSP Group admin edits a compliance framework in the CSP Group.
-1. System triggers `CSP::FrameworkUpdatePropagationService`.
-1. Service finds all mirrored frameworks associated with the original.
-1. Service updates all mirrored frameworks with the new information.
-1. System generates audit events for each update.
-1. UI updates to show the updated framework information across all groups.
+2. System generates an audit event for the update.
+3. The updated framework's changes are reflected automatically for each top-level group.
+4. UI updates to show the updated framework information across all groups.
 
 #### Deleting a Compliance Framework in CSP Group
 
 1. CSP Group admin deletes a compliance framework in the CSP Group.
-1. System displays a confirmation dialog with impact information.
-1. Upon confirmation:
-   1. System marks the framework as deleted in the database.
-   1. System triggers `CSP::SyncDeletedFrameworksJob`.
-   1. Any projects that had the deleted framework assigned have that framework unassigned.
-   1. Job deletes all mirrored frameworks associated with the original.
-   1. System generates audit events for each deletion.
+2. System displays a confirmation dialog with impact information.
+3. Upon confirmation:
+   a. System marks the framework as deleted in the database.
+   b. System generates audit events for each deletion.
+   c. The deleted framework is no longer visible for projects.
 
-#### Tracking progress of propagation
+#### Associating frameworks from the CSP Group
 
-When a compliance framework in the CSP Group is modified, it may take some time for the changes to fully propagate to all mirrored frameworks, especially in instances with many top-level groups. To enhance the user experience, we can track propagation progress by calculating the total number of frameworks to be mirrored in advance and updating the status as each one is completed.
+All frameworks created in the CSP Group will automatically be assoicated to all other top-level groups, so that when frameworks are retrieved for a given top-level group, all the group's frameworks as well as all the CSP Group's frameworks will be returned. This in turn will be used to ensure project settings are updated to reflect each association to the CSP Group.
 
 ### Security Policy Change Management
 
@@ -308,16 +286,13 @@ When a compliance framework in the CSP Group is modified, it may take some time 
 #### Adding a New Top-Level Group
 
 1. User creates a new top-level group.
-1. System triggers `CSP::MirrorComplianceFrameworksJob` for the new group.
-1. Job creates mirrors of all CSP Group frameworks in the new group.
-1. Group owners can immediately assign these frameworks to projects.
+2. Group owners can immediately assign any of the frameworks to projects.
 
 #### Deleting a Top-Level Group
 
 1. User deletes a top-level group.
-1. System performs standard group deletion operations.
-1. All mirrored frameworks in that group are deleted as part of group deletion.
-1. No special handling is needed beyond standard group deletion.
+2. System performs standard group deletion operations.
+3. No special handling is needed beyond standard group deletion.
 
 ## API Design
 
@@ -328,8 +303,6 @@ type Query {
   instanceCspGroup: Namespace
   complianceManagementFrameworks(
     namespaceId: ID!,
-    isMirror: Boolean,
-    isCspFramework: Boolean
   ): [ComplianceManagementFramework!]!
 }
 
@@ -345,10 +318,6 @@ type Mutation {
 }
 
 type ComplianceManagementFramework {
-  isCspFramework: Boolean!
-  isMirror: Boolean!
-  originalFramework: ComplianceManagementFramework
-  mirroredFrameworks: [ComplianceManagementFramework!]!
   scopedPolicies: [SecurityPolicy!]!
 }
 
@@ -376,12 +345,12 @@ extend type Project {
 
 #### Group-Related Permissions
 
-- `assign_mirrored_frameworks`: Assign mirrored frameworks to projects (group owners/maintainers).
-- `set_default_mirrored_frameworks`: Set default frameworks for group (group owners).
+- `assign_csp_frameworks`: Assign CSP Group's frameworks to projects (group owners/maintainers).
+- `set_default_csp_frameworks`: Set default frameworks for group (group owners).
 
 ### Permission Matrix
 
-| Role | Designate CSP | Manage CSP Frameworks | Manage CSP Policies | Assign Mirrored Frameworks | Set Default Frameworks |
+| Role | Designate CSP | Manage CSP Frameworks | Manage CSP Policies | Assign CSP Frameworks | Set Default Frameworks |
 |------|---------------|----------------------|---------------------|----------------------------|------------------------|
 | Instance Admin | ✅ | ✅ | ✅ | ✅ | ✅ |
 | CSP Group Admin | ❌ | ✅ | ✅ | ✅ | ✅ |
@@ -418,10 +387,10 @@ extend type Project {
 
 ### Group Framework UI
 
-- List of available mirrored frameworks.
+- List of available CSP frameworks.
 - Framework assignment UI for projects.
 - Default framework settings for group.
-- Visual indicators showing frameworks are mirrored (read-only).
+- Visual indicators showing frameworks are from the CSP Group (read-only).
 
 ### Project Compliance UI
 
@@ -439,56 +408,21 @@ These models define the structure of the compliance framework mirroring system.
 
 - This model represents a compliance framework, which consists of a set of security policies, requirements, and rules that organizations must follow.
 - Defines compliance frameworks that belong to a namespace (group).
-- Includes mirrored framework functionality with `is_mirror` and `original_framework_id` fields.
 - Establishes relationships with:
-  - Mirrored frameworks (so that it knows which groups have copies)
+  - CSP Group's frameworks
   - Compliance framework security policies (for applying security policies)
   - Security policies (via `compliance_framework_security_policies`).
 - Defines a scopes:
   - `csp_frameworks`: filters frameworks that are designated as CSP frameworks.
-  - `mirrored`: filters frameworks that are mirrors of CSP frameworks.
-  - `originals`: filters frameworks that are not mirrors.
+  - `frameworks_from_csp`: filters frameworks that are from the CSP Group.
+  - `frameworks`: filters frameworks that are not from the CSP Group.
 
 ### Services
-
-#### CSP::FrameworkMirroringService
-
-- Ensures that compliance frameworks created in the CSP group are propagated to other groups automatically.
-- Initializes with a CSP group ID.
-- Returns an error if no CSP group is set (to prevent execution without context).
-- Retrieves all compliance frameworks in the CSP group.
-- Identifies all top-level groups (excluding the CSP group).
-- Creates a mirrored compliance framework in each top-level group for each CSP framework by:
-  - Setting `is_mirror` = true
-  - Setting `original_framework_id` to the ID of the source framework
-  - Copying relevant attributes from the original
-
-#### CSP::FrameworkUpdatePropagationService
-
-- New service that propagates updates from original frameworks to their mirrors.
-- When an original framework is updated, finds all mirrors and updates their attributes.
-- Maintains consistency between originals and mirrors.
 
 #### CSP::PolicyResolverService
 
 - Provides a way to resolve and return policies that apply to a specific project.
 - Retrieves policies for a given project and returns them as a structured response.
-
-### Background Jobs
-
-These are asynchronous workers that run in the background to handle framework mirroring and cleanup.
-
-#### CSP::MirrorComplianceFrameworksJob
-
-- Automates the initial framework mirroring process without requiring manual execution.
-- Retrieves the CSP group ID from InstanceSettings.
-- Runs CSP::FrameworkMirroringService to mirror compliance frameworks across top-level groups.
-
-#### CSP::SyncDeletedFrameworksJob
-
-- Prevents stale mirrored frameworks from existing when the original compliance framework is deleted.
-- Finds frameworks where `is_mirror` = true and `original_framework_id` points to a non-existent framework.
-- Deletes these orphaned mirrored frameworks.
 
 ### Controllers
 
@@ -504,18 +438,9 @@ Controllers expose API endpoints for managing the CSP group configuration.
   - Retrieves and returns the CSP group namespace ID.
 - Update Action
   - Updates the CSP group namespace in InstanceSettings.
-  - Triggers CSP::FrameworkMirroringService to immediately mirror compliance frameworks to other groups.
   - Returns a success response.
 
 ## Future Considerations
-
-### Organization Entity Integration
-
-The mirroring approach provides a clean path to organization-level implementation:
-
-- Replace instance-level designation with organization entity.
-- Convert mirroring system to work across organizations.
-- Maintain the same permission model but at organization level.
 
 ### Extended Capabilities
 
