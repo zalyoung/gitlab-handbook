@@ -12,7 +12,7 @@ This procedure applies to security risk acceptance decisions across the followin
 
 - **[Observation Management:](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management)** Security compliance observations that will be accepted rather than remediated
 - **[Penetration Testing:](https://internal.gitlab.com/handbook/security/standards/penetration-testing-standard/)** Findings from penetration testing activities that will be accepted
-- **[Third-Party Risk Management (TPRM):](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process)** Security notices documenting vendor security deficiencies that will be accepted
+- **[Third-Party Risk Management (TPRM):](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process)** Security notices documenting vendor security deficiencies that will be accepted
 - **[Vulnerability Management:](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/new)** Security vulnerabilities that will be permanently accepted
 
 **Note:** This procedure covers only risks that will be `accepted`. Risks designated for remediation or mitigation are handled through separate program-specific workflows.
@@ -139,7 +139,7 @@ Who: Program Review Team
 
 #### Mandatory Review Schedule
 
-For each periodic review, the risk acceptance must be repeated.
+For each periodic review, the risk acceptance must be repeated following the [Approval Authority Matrix](/handbook/security/risk-acceptance.md#approval-authority-matrix).
 
 | Risk Level| Review Frequency| Review Team|
 |--| --|--|
