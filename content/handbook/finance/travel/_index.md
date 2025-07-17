@@ -31,7 +31,7 @@ GitLab provides team members with comprehensive emergency support through Intern
 ##### When to Use International SOS
 
 - Medical emergencies or illness during travel; including payment of Emergency Medical Expenses
-- Claims Assitance for the Business Travel Insurance Policy
+- Claims Assistance for the Business Travel Insurance Policy
 - Safety and security concerns
 - Pre-trip planning and health advice
 
@@ -114,7 +114,7 @@ For additional security specifically when traveling through an airport, the foll
 
 - Completely power-off laptops and mobile devices before any security checkpoints. This reduces the risk of attacks that may be conducted against machines in a sleep mode, where the disk encryption is not being actively enforced.
 - Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](/handbook/security/standards/data-classification-standard/#data-classification-standards) for more information.
-- If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
+- If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to specialty conferences like Defcon), you may request advice in the [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
 
 ### Expenses While Traveling
 
