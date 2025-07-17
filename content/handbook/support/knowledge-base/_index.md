@@ -194,7 +194,7 @@ Technical Reviewers can now also be found under Column 4 (Looking to Help others
 
 Technical Reviewers should be Subject Matter Experts (SMEs) in certain areas (Such as Runner, Authentication, Migrations, etc.). The Technical Reviewers are tasked with **reviewing knowledge articles** based on their knowledge of features.
 
-#### Technical Revier Responsibilities
+#### Technical Reviewer Responsibilities
 
 Technical Reviewers are expected to:
 
