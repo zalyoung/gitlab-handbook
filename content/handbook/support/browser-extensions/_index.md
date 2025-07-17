@@ -20,7 +20,7 @@ A more complete list of recommended extensions can be found in [useful browser e
 
 Once an extension has been developed, it can be published to a browser extension store for public distribution.
 
-- Chrome extensions are published and managed through a shared "GitLab Inc" publisher account on the Chrome Web Store. If you would like to use this, you will need to [request access](#requesting-access). You will also need to [register a developer account](https://developer.chrome.com/docs/webstore/register) and pay a $5 USD registration fee.
+- Chrome extensions are published and managed through a shared "GitLab Inc" publisher account on the Chrome Web Store. If you would like to use this, you will need to [request access](#requesting-access).
 - Firefox extensions can be published and managed on a personal Mozilla account on [Firefox Add-Ons](https://addons.mozilla.org/en-GB/firefox/).
 
 ## Accessing the Chrome Web Store Developer Dashboard
@@ -37,7 +37,11 @@ We have a Google group `browser-extensions@gitlab.com` where all members of this
 
 #### Requesting Access
 
-To request access to the Chrome Web Store publisher account, contact Anton Smith (`@anton` in Slack).
+To request access to the Chrome Web Store publisher account:
+
+1. Using your GitLab Google account, [register a developer account](https://developer.chrome.com/docs/webstore/register) and pay a $5 USD registration fee. 
+   - ⚠️ **Do not complete the [trader verification](https://developer.chrome.com/docs/webstore/program-policies/trader-disclosure) form** during the registration process if prompted. 
+1. Contact Anton Smith (`@anton` in Slack) and request access to the shared "GitLab Inc" publisher account.
 
 Do note that an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) is not required.
 
