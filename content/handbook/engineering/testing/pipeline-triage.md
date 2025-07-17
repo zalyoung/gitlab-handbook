@@ -59,7 +59,7 @@ flowchart TB
 
         %% external links
         click failed_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#review-the-failure-logs"
-        click new_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#create-an-issue"
+        click new_issue "/handbook/engineering/testing/pipeline-triage/#create-an-issue"
         click existing_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#known-failures"
         click investigate "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#investigate-the-root-cause"
         click incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack"
