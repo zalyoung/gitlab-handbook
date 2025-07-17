@@ -409,7 +409,7 @@ flowchart TD
     style M fill:#ffebee
 ```
 
-### Key Process Points:
+### Key Process Points
 
 1. **Proposal Creation**: Anyone can propose architectural changes
 2. **Coach Assignment**: Optional but recommended for complex initiatives
