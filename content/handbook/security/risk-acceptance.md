@@ -107,7 +107,7 @@ Who: Risk Acceptance Requestor (Business Owner, System Owner, or designated repr
 
 Who: Appropriate Program Review Team member (see Program Review Team Assignments above)
 
-1. Validate risk assessment and severity rating
+1. Validate risk assessment and risk rating
 1. Review acceptance justification for appropriateness
 1. Assess proposed compensating controls for effectiveness (if applicable)
 1. Determine appropriate approval level based on risk severity
