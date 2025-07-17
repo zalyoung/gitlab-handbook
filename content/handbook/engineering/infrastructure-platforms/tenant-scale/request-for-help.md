@@ -5,7 +5,7 @@ description: Requesting For Help from the Tenant Scale Group
 
 ## How to Get Support from the Group Tenant Scale (GTS) Teams
 
-The Group Tenant Scale (GTS) organization includes multiple specialized teams working on scalability solutions for GitLab. This section outlines the process and expectations when requesting support from GTS teams for customer support issues or technical assistance.
+The Group Tenant Scale (GTS) organization includes multiple specialized teams with the mission of ensuring the viability of GitLab's multi-tenant platforms. This section outlines the process and expectations when requesting support from GTS teams for customer support issues or technical assistance.
 
 ### Our Teams
 
