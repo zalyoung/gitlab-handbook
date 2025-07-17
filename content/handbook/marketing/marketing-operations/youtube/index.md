@@ -1,6 +1,6 @@
 ---
 title: "YouTube uses and access"
-description: "We use YouTube as our single source of truth for video content including live streaming group conversations, marketing videos, demos, and more."
+description: "We use YouTube to share video content including live streamed meetings, marketing videos, demos, and more."
 ---
 
 ## Channels
@@ -96,19 +96,6 @@ If you receive a permission error when attempting to start a livestream (i.e. "P
 1. Add your webcam as a "Video Capture Device" from the Sources tool:
     ![OBS Add Webcam](/images/marketing/marketing-operations/youtube/obs_video_source.png)
 
-## Post everything
-
-We post everything that doesn't contain confidential information to YouTube.
-We found that it helps with:
-
-1. **Hiring** because candidates can get a feel for the company by seeing meetings.
-1. **Retention** because sharing reinforces our value of transparency.
-1. **Community** because people feel more part of what is happening at the company.
-1. **Sales** because people see our training materials they sell themselves.
-1. **Enablement** because people can find detailed content about certain subjects.
-1. **Awareness** because lots of time is spent on YouTube and our videos get lots of views in aggregate.
-1. **Training** because content on YouTube is easier to consume even for team members, see [why not Google Drive](#why-not-google-drive)
-
 ## No quality bar
 
 You don't need to be worried that something is not of the high enough quality because:
@@ -151,41 +138,6 @@ Remember that blurring is not a substitute for revoking exposed secrets. Always 
 If a video containing secrets or non-public information is accidentally uploaded to the Unfiltered channel, [make it private quickly](#make-private-quickly) and use `/security` in Slack to [engage the security engineer on call](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) to follow up on the leak.
 Videos which initially exposed secrets or internal information can be made public again only after ensuring that all secrets have been revoked and sensitive information redacted.
 
-## Why not Google Drive
-
-Google Drive is not intended to process video distribution and, as a result, lengthy uploading and processing times are common. Google drive can create a number of issues including the following:
-
-1. Long upload times (in some cases up to 10 hours for longer content) that risk failing before completion.
-1. Extended processing time, as Google Drive is not intended to quickly turn around video for playback.
-1. Compromised playback quality.
-1. Not inclusive (for example, no caption support)
-1. Not indexed for searching.
-1. Less transparent to both other employees and to the public.
-1. Difficult to view across multiple devices.
-1. No support for other critical features such as playlist, chaptering, descriptions, embedding, or time codes.
-
-Always use YouTube and never use Google Drive, even for [private videos](#visibility), because YouTube videos:
-
-1. are streamed [more reliably](https://peering.google.com/#/infrastructure).
-1. have mouse-over thumbnails.
-1. can be played at a higher speed.
-1. can be fast forwarded and rewound in 10-second blocks.
-1. can be time-shifted by adding them to a watch later list.
-1. can be embedded, for example in the handbook.
-1. restart at the right spot after being reloaded.
-1. can be easily viewed on other devices, like TVs or streaming devices, with YouTube support.
-1. allow links to a [specific time in the video](https://www.h3xed.com/web-and-internet/link-to-a-specific-time-in-a-youtube-video).
-1. can have subtitles added automatically.
-1. are [zero rated by some mobile providers](https://www.t-mobile.com/tv-streaming/binge-on)
-1. will be served to people when it is relevant, automatically, since YouTube is a distribution channel.
-1. allows anyone to contribute by leaving comments.
-1. public videos show up in Google search.
-1. easy to make public if the video is suitable for that.
-1. have playlists that allow for better organization of the video content.
-1. show the number of views, so you can see what resonates
-1. have the ability to comment, so people can contribute
-1. have voting so you can review what videos aren't meeting expectations
-
 ## Visibility
 
 There are three types of visibility:
@@ -204,7 +156,6 @@ We don't post:
 
 1. Unlisted videos (see the "[never unlisted](#never-unlisted)" section below).
 2. Private videos on our branded channel, all videos on that channel are intended for a wider audience.
-3. Use Google Drive for any video, since it has [many drawbacks](#why-not-google-drive).
 
 ### Never unlisted
 
@@ -288,8 +239,6 @@ Therefore say:
 - Private stream
 - Public recording
 - Private recording
-
-Never say: livestream or recording since those are ambiguous. See [top misused terms](/handbook/communication/top-misused-terms/#livestream).
 
 ### What if your aren't sure whether the stream is Public or Private?
 
