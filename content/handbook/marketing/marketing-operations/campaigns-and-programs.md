@@ -144,6 +144,20 @@ Any type of inbound request that requires follow up.
 | Waitlisted | Submitted a request to purchase a future SKU  ||
 | Requested Contact | Filled out Contact, Professional Services, Demo or Pricing Request | Yes |
 
+#### Live Event
+
+This event type functions similarly to `Owned Event` with the caveat it is only used with the in-person event platform, Accelevents. It will include more statuses as Accelevents grows its product. This is an event that we have created, own registration and arrange speaker/venue (example: GitLab Commit or Meetups). Also considered in this grouping would be 3rd party auxiliary events that are added on to a conference sponsorship (i.e a happy hour or VIP dinner at a conference). 
+
+**Bizible:** This is tracked as an _online_ and as an _offline_ channel because we manage the registration process through our website. Whenever someone registers, a TP will be created based on that online activity while another  TP is added based on the campaign sync rules, for the campaign members with success statuses.
+
+| Member Status | Definition | Success |
+| ------------- | ---------- | ------- |
+| Invited | Invitation/Information about event sent by Sales/SDR |  |
+| Waitlisted | Holding state if registration is full will be moved to `Registered` if space opens |  |
+| Registered | Registered for event |  |
+| No Show | Registered but did not attend event |  |
+| Attended | Attended event live| Yes |
+
 #### Operational
 
 This is used for non-traditional list uploads in which we are looking to a) avoid scoring the uploaded leads b) avoid tradition nurture emails c) fulfill some other various operational related task. e.g., educational conference list uploads.
