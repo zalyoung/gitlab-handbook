@@ -398,7 +398,7 @@ A consequence of implementing OAK will be the need to further ensure inter-compo
 Care must be taken in the architecture and design to facilitate reducing the load of both of these concerns.
 
 Configuring the many components of GitLab to speak to each other is a very manual process today which is facilitated greatly for Omnibus based architecture by the GitLab Environment Toolkit (GET), and highly simplified by the Kubernetes platform on which Cloud Native GitLab operates.
-We must solve these problems at a lower level than GET, knowing that not all customer instances make use of GET and many customers *will not* make use of GET for various reasons.
+We must solve these problems at a lower level than GET, knowing that not all customer instances make use of GET and many customers _will not_ make use of GET for various reasons.
 
 When all components are in Kubernetes, we simply configure all endpoints to consume the Service object names and rely upon DNS within the Kubernetes cluster to "solve" this problem for us.
 Securing the connections between components remains a complex task today, even within a Kubernetes cluster.
