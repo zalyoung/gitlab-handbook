@@ -4,6 +4,12 @@ description: Operations workflows page for contact management projects
 canonical_path: "/handbook/security/customer-support-operations/workflows/cmps"
 ---
 
+{{% pageinfo color="danger" %}}
+
+This feature has been deprecated. The information here is for historic purposes only.
+
+{{% /pageinfo %}}
+
 ## Eligibility Criteria
 
 To be eligible for a contact management project, all of the following criteria must be met:
