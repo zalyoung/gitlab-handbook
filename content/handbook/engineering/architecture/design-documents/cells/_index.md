@@ -140,8 +140,8 @@ The deployment workflow follows these steps:
 
 This approach aligns with how we deploy GitLab on the existing legacy Cell infrastructure in both Staging and Production environments through [Kubernetes workloads](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com).
 
->[!note]
->This is a high-level overview. For more detailed information, refer to the [Dedicated Architecture Documentation](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture.html).
+> [!note]
+> This is a high-level overview. For more detailed information, refer to the [Dedicated Architecture Documentation](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/Architecture.html).
 
 To reach shared resources, Cells will use [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect).
 
@@ -211,6 +211,7 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-012: Cell Unique Identifier](decisions/012_cell_unique_identifier.md)
 - [ADR 013: Use the same Cell ID for restoring a Cell from backup](decisions/013_cell_restore_from_backup.md)
 - [ADR 014: No clusterwide syncing in Cells 1.0](decisions/014_clusterwide_syncing_in_cells_1_0.md)
+- [ADR 015: Cloud Spanner Region Configuration for Topology Service](decisions/015_spanner_multiregional.md)
 
 ## Links
 
