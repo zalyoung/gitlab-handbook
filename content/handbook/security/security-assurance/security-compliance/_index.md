@@ -206,7 +206,7 @@ When the above information is being added, the Epic will move from Triage to Rea
 
 This charter will be reviewed and updated quarterly to ensure alignment with:
 
-1. [GitLab Strategy](/handbook/company/strategy/)
+1. GitLab Strategy
 1. [Security Division Mission and Vision](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
 1. [Security's Multi-year Strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal only)
 1. [Security Assurance Mission and Vision](/handbook/security/security-assurance/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-assurance-mission-and-vision)

@@ -41,7 +41,7 @@ For all external parties meeting with CEO (both video call and in-person), the E
 ```text
 GitLab is a very transparent company and materials that are normally confidential can be found online, please consider looking at the following Handbook links prior to your meeting with GitLab:
 
-Company strategy: https://about.gitlab.com/company/strategy/
+Company strategy
 All team members and numbers per department: https://about.gitlab.com/company/team/
 Handbook with all our processes in: /handbook/
 Pricing plans: https://about.gitlab.com/pricing/
@@ -96,7 +96,7 @@ If people want advice on open source, remote work, or other things related to Gi
 >
 > GitLab is a very transparent company and many things that are normally confidential can be found in our handbook, available online. Please consider looking at the following pages prior to our meeting.
 >
-> - [Company strategy](/handbook/company/strategy/)
+> - Company strategy
 > - [All team members and numbers per department](/handbook/company/team/)
 > - [Handbook with all our processes](/handbook/)
 > - [Pricing plans](https://about.gitlab.com/pricing/)
