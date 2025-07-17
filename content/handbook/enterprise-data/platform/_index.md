@@ -454,7 +454,9 @@ For more information, watch this [recorded pairing session](https://youtu.be/-vp
 
 ## Snowflake Provisioning Automation
 
-In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128). This will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake.
+In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128).
+
+The main driver for this change was that there was anticipated increase for access by Engineering teams, and we needed a process to allow provisioning multiple members at once. Furthermore, this will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake.
 
 All GitLab Team Members are encouraged to open a MR following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if they need access to Snowflake.
 
@@ -603,6 +605,28 @@ The workaround is that at the bottom of `snowflake_users.yml`, it has this comme
 ```yml
 #### do not insert users below this line ####
 ```
+
+### Local Testing
+
+Both `update_roles_yaml` and `provision_users` can be run locally for faster testing compared to CI jobs.
+
+**Setup for `provision_users`:**
+
+1. Export required environment variables:
+
+   ```bash
+   export EMAIL_DOMAIN='gitlab.com'
+   export PERMISSION_BOT_USER="bot_user_123"
+   export PERMISSION_BOT_PASSWORD="random_pass_456"
+   export SNOWFLAKE_ACCOUNT="xy12345.us-east-1"
+   export PERMISSION_BOT_WAREHOUSE="COMPUTE_WH"
+   ```
+
+2. Python test run (no Snowflake user creation):
+
+   ```bash
+   python provision_users.py --users-to-add some-user1 user2 --test-run
+   ```
 
 ### Snowflake Deprovisioning Users
 
