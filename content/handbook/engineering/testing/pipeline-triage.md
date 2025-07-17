@@ -38,17 +38,17 @@ flowchart TB
         slack_channels{check slack channel}
         next_channel(move to next slack channel)
         failed_pipeline(identify failure)
-        existing_issue{issue\nalready\nreported?}
+        existing_issue{issue already reported?}
         new_issue(create issue if does not already exist)
         tag_pipeline(notate issue in comment on pipeline run)
-        incident{incident\nworthy?}
+        incident{incident worthy?}
         notify_incident(Notify about escallation)
         open_incident(Open incident)
         update_incident(Update teams about incident)
         eyes(tag pipeline run with :eyes: emoji)
         fire_engine(replace :eyes: with :fire_engine: emoji)
         boom(replace :eyes: with :boom: emoji)
-        another_failure{more\nfailures?}
+        another_failure{more failures?}
         investigate(investigate root cause for found failures)
         fix_tests(fix tests if possible)
         quarantine_tests(quarantine tests if necessary)
