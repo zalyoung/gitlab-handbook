@@ -6,11 +6,9 @@ canonical_path: "/handbook/security/customer-support-operations/docs/gitlab/cmps
 
 <sup>*Introduced via [support-team-meta#4531](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4531)*</sup>
 
-{{% pageinfo color="warning" %}}
+{{% pageinfo color="danger" %}}
 
-This is an information page for contact management projects.
-
-If you are looking for information about managing contact management projects, please see [workflows](../../workflows/cmps).
+This feature has been deprecated. The information here is for historic purposes only.
 
 {{% /pageinfo %}}
 

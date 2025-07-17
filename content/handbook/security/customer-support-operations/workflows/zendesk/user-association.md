@@ -30,7 +30,6 @@ If this is pertaining to a Self-Managed or GitLab Dedicated subscription, we nee
 
 Even with support entitlement proven, we need to ensure we can actually associate the user. Before proceeding, make sure all of the followings checks have passed:
 
-- The organization is not using a contact management project
 - The addition of the support contacts would not cause the organization to surpass the 30 support contact limit
 - There are not organization notes/details indicating you should not proceed with the request
 
