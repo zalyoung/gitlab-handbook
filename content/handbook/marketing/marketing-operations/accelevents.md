@@ -1,7 +1,5 @@
-# Accelevents
-
 ---
-title: "Accelevents Marketing Operations"
+# title: "Accelevents"
 description: "Documentation for Accelevents marketing operations"
 ---
 
