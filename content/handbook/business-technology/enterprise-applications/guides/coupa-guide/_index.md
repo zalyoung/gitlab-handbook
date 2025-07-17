@@ -36,9 +36,8 @@ If you need to request access again, please reopen your initial Access Request i
 
 If your job function requires you to manage budget and management approvals, purchase orders and invoice approvals in Coupa, follow the below steps:
 
-1. Open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) for Coupa using the `Individual_Bulk_Access_Request` template.
-1. In Step 2, in the *Justification for this access* question, please describe what budget, management approvals, purchase orders and invoices approvals you will manage.
-1. **After the AR is approved, you must review the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the instructions for provisioning (either assign to the provisioner, add the correct labels or both if not clearly stated) to avoid any provisioning delays.**
+1. Utillize the [Lumos App Store](https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/ar/) to request access to Coupa.
+1. Enter your *Justification for this access*, please describe what budget, management approvals, purchase orders and invoices approvals you will manage.
 1. If you require immediate Coupa access, please ping in the `#coupa_help` Slack channel.
 
 {{% panel header="**Best Practices**" header-bg="success" %}}
