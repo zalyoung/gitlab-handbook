@@ -583,6 +583,17 @@ skip implementing the legacy epic board view and focus on the new experience ins
 [System-defined statuses will only use english names](https://gitlab.com/groups/gitlab-org/-/epics/14793#note_2359390868).
 Customers can customize statuses to match their preferred language.
 
+## Telementry
+
+The following internal events are available to track changes to statuses, either when a custom status is updated for a namespace or when a work item's status changes.
+
+- `create_custom_status_in_group_settings`
+- `update_custom_status_in_group_settings`
+- `delete_custom_status_in_group_settings`
+- `change_work_item_status_value`
+
+[Here's the work item statuses dashboard](https://app.snowflake.com/ys68254/gitlab/#/custom-statuses-d8Wd9wmn7) in Snowflake.
+
 ## Alternative Solutions
 
 ### Do nothing and continue to use state and labels
