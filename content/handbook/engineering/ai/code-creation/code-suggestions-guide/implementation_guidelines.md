@@ -37,7 +37,7 @@ available to GitLab users when it is enabled through [GitLab Rails](#gitlab-rail
 
 Code Completions and Code Generations requests to the AI Gateway are sent through the different Code Suggestions API endpoints. See the
 [Code Suggestions API documentation](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/api.md#code-suggestions) for
-further information about AIGW's Code Suggestions API.
+further information about AIGW's Code Suggestions API. See the [internal docs](https://internal.gitlab.com/handbook/product/ai-strategy/code-suggestions/testing_code_suggestions_aigw_api/) for more information on how to send a direct `curl` to production and staging.
 
 ### Considerations when adding a new model
 
