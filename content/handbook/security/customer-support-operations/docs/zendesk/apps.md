@@ -416,16 +416,10 @@ App information:
 
 <sup>*Introduced via [gitlab-com/gl-security/corp/cust-support-ops/issue-tracker#122](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/122)*</sup>
 
-Implements a warning system into Zendesk to warn (or block) potentially dangerous actions.
+Implements a warning system into Zendesk to warn (or block) potentially dangerous actions. If a warning is bypassable, then a close button (X) appears to the right of it (and clicking said button removes the warning).
 
 Current list of checks:
 
-- Checks if due date is in the past, present, or too far in the future
-- Checks if adding an end-user as a collaborator/CC
-- Checks if setting to pending with an internal note
-- Checks if trying to send a public reply on an on-hold ticket in a way that won't reset the timer
-- Checks if trying to set it on-hold without a public reply (except for accepted situations)
-- Checks if setting ticket to pending without a reply
 - Checks if making unapproved form changes
 
 App information:
@@ -574,27 +568,6 @@ App information:
 
 - Located in the ticket sidebar
 - This application was developed in-house and can be found [ZenDuo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zenduo).
-
-### ZenGuard
-
-<sup>*Introduced via [gitlab-com/gl-security/corp/cust-support-ops/issue-tracker#122](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/122)*</sup>
-
-Implements a warning system into Zendesk to warn (or block) potentially dangerous actions.
-
-Current list of checks:
-
-- Checks if due date is in the past, present, or too far in the future
-- Checks if adding an end-user as a collaborator/CC
-- Checks if setting to pending with an internal note
-- Checks if trying to send a public reply on an on-hold ticket in a way that won't reset the timer
-- Checks if trying to set it on-hold without a public reply (except for accepted situations)
-- Checks if setting ticket to pending without a reply
-- Checks if making unapproved form changes
-
-App information:
-
-- Located in the ticket sidebar
-- This application was developed in-house and can be found in the [ZenGuard project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zenguard).
 
 ## App development
 
