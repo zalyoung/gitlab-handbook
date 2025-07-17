@@ -9,7 +9,7 @@ The Create:Editor Extensions Group is responsible for all aspects of the product
 
 ### Group members
 
-{{< team-by-departments departments="Create:Editor Extensions FE Team,Create:Editor Extensions BE Team" >}}
+{{< team-by-manager-slug "kisha.mavryck" >}}
 
 ### Stable counterparts
 
