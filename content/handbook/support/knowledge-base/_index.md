@@ -188,8 +188,8 @@ The review process will ensure the content is technically accurate and clear.
 
 There will be Support Engineers and Support Managers trained as technical reviewers for knowledge articles across the globe.
 
-[Available Technical Reviewers (by Geo)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
-Technical Reviewers can now also be found under Column 4 (Looking to Help others) on the [Skills by Subect Page](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
+[Available Technical Reviewers (by region and subject)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
+Technical Reviewers can now also be found under Column 4 (Looking to Help others) on the [Skills by Subject Page](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
 
 Technical Reviewers should be Subject Matter Experts (SMEs) in certain areas (Such as Runner, Authentication, Migrations, etc.). The Technical Reviewers are tasked with **reviewing knowledge articles** based on their knowledge of features.
 
