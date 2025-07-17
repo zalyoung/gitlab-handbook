@@ -10,10 +10,10 @@ This procedure establishes a standardized risk acceptance process across all Sec
 
 This procedure applies to security risk acceptance decisions across the following programs:
 
-- **Observation Management:** Security compliance observations that will be accepted rather than remediated
-- **Penetration Testing:** Findings from penetration testing activities that will be accepted
-- **Third-Party Risk Management (TPRM):** Security notices documenting vendor security deficiencies that will be accepted
-- **Vulnerability Management:** Security vulnerabilities that will be permanently accepted
+- **[Observation Management:](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management)** Security compliance observations that will be accepted rather than remediated
+- **[Penetration Testing:](https://internal.gitlab.com/handbook/security/standards/penetration-testing-standard/)** Findings from penetration testing activities that will be accepted
+- **[Third-Party Risk Management (TPRM):](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process)** Security notices documenting vendor security deficiencies that will be accepted
+- **[Vulnerability Management:](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/new)** Security vulnerabilities that will be permanently accepted
 
 **Note:** This procedure covers only risks that will be `accepted`. Risks designated for remediation or mitigation are handled through separate program-specific workflows.
 
@@ -40,28 +40,25 @@ This procedure applies to security risk acceptance decisions across the followin
 
 All risks processed through this procedure fall into one of these acceptance categories:
 
-### 1. Accept with Compensating Controls (risk treatment::accept compensated)
+### 1. Accept with Compensating Controls (risktreat::accept-compensated)
 
 - **Definition:** Risk is accepted with specific compensating controls in place to reduce exposure
-- **Duration:** Permanent acceptance with mandatory periodic review
 - **Requirements:** Documented compensating controls and monitoring plan. Examples include:
   1. Alternative controls effectively mitigate risk exposure
   1. Defense-in-depth measures eliminate practical attack vectors
   1. Monitoring and detection provide adequate coverage
 
-### 2. Accept as Low Risk (risk treatment::accept low-risk)
+### 2. Accept as Low Risk (risktreat::accept-low)
 
 - **Definition:** Risk is accepted due to very low impact and/or likelihood
-- **Duration:** Permanent acceptance with standard periodic review
 - **Requirements:** Risk assessment justifying low risk determination. Examples include:
   1. Extremely low likelihood of exploitation
   1. Minimal impact if exploited
   1. Existing controls provide adequate protection
 
-### 3. Accept Due to Constraints (risk treatment::accept constrained)
+### 3. Accept Due to Constraints (risktreat::accept-constrained)
 
 - **Definition:** Risk is accepted due to technical, operational, or business constraints that prevent remediation
-- **Duration:** Permanent acceptance with mandatory annual review
 - **Requirements:** Detailed constraint documentation and alternative control assessment. Examples include:
   1. Required fix would cause system instability or unavailability
   1. No viable technical solution exists
@@ -70,10 +67,9 @@ All risks processed through this procedure fall into one of these acceptance cat
   1. Customer contractual obligations prevent modification
   1. Cost of remediation significantly exceeds risk value
 
-### 4. Accept False Positive (risk treatment::accept false-positive)
+### 4. Accept False Positive (risktreat::accept-false-positive)
 
 - **Definition:** Reported risk is determined to be a false positive but cannot be eliminated from scanning/detection
-- **Duration:** Permanent acceptance with monitoring for scan configuration changes
 - **Requirements:** Technical validation of false positive determination. Examples include:
   1. Alternative controls effectively mitigate risk exposure
   1. Defense-in-depth measures eliminate practical attack vectors
@@ -99,6 +95,7 @@ Who: Risk Acceptance Requestor (Business Owner, System Owner, or designated repr
 - Risk Rating: Current risk severity (Critical/High/Medium/Low)
 - Acceptance Justification: Clear explanation of why acceptance is appropriate
 - Acceptance Category: Select appropriate category from above
+- Link assoicated issues: All relevent issues are linked
 - Compensating Controls: Existing or planned controls that mitigate risk exposure (if applicable)
 - Business Impact: Potential impact if risk is exploited
 - Review Schedule: Proposed periodic review frequency
