@@ -9,7 +9,7 @@ The Group Tenant Scale (GTS) organization includes multiple specialized teams wo
 
 ### Our Teams
 
-The GTS group includes the following teams, each with their own areas of expertise:
+GTS includes the following teams, each with their own areas of expertise:
 
 - **Geo and Disaster Recovery** - [Data redundancy and disaster recovery solutions](geo/_index.md)
 - **Cells** - [Horizontal scaling and tenant isolation](cells-infrastructure/_index.md)
