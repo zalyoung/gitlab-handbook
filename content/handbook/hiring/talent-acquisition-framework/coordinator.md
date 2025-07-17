@@ -786,14 +786,14 @@ Always ensure the start date is on a Monday, unless Monday is a holiday or the n
 
 ## Process for GitLab Team Members in Ireland, the UK or Singapore
 
-GitLab has an entity in this location. The UK, Ireland and Singapore payroll are now processed through Papaya. There is an updated “Offer Through DocuSign” email templates to group these countries together.
+GitLab has an entity in these locations. The UK, Ireland and Singapore payroll are now processed through Papaya. There is an updated “Offer Through DocuSign” email templates to group these countries together.
 Papaya will follow up with the team members in these locations regarding their payroll.
 
 Please note that Northern Ireland is under the United Kingdom, so if you see an address that includes UK you should hold and verify on google maps where the candidate is located and whether a different contract and background check are needed.
 
 ## Process for GitLab Team Members in South Korea, or France
 
-GitLab has entities in Singapore, South Korea, and France. All team members in this location are employees, but payroll will be processed through Global Upside. Please be sure to select the correct docusign email template so they will be CC'ed as the final step of the offer process.
+GitLab has entities in South Korea & and France. All team members in this location are employees, but payroll will be processed through Global Upside. Please be sure to select the correct docusign email template so they will be CC'ed as the final step of the offer process.
 
 Reminder: France requires contracts to be individually drafted by the Legal team. There is a [SSOT document](https://docs.google.com/spreadsheets/d/1HQxOwt30v1qffulaZay61aj_A5edQgb_zfBrhoq0CgA/edit#gid=0) where we keep track of these requests.
 
