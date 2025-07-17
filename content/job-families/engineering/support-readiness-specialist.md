@@ -237,7 +237,7 @@ Additional details about our process can be found on our
 GitLab Inc. is a company based on the GitLab open-source project. GitLab is a
 community project to which over 2,200 people worldwide have contributed. We are
 an active participant in this community, trying to serve its needs and lead by
-example. We have one [vision](/handbook/company/strategy/): everyone can
+example. We have one vision: everyone can
 contribute to all digital content, and our mission is to change all creative
 work from read-only to read-write so that everyone can contribute.
 

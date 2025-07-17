@@ -7,7 +7,7 @@ description: Behind the scenes of The DevSecOps Platform
 
 Our vision captures what we want to deliver to customers in the next 10 years.
 
-[Our current vision](https://internal.gitlab.com/handbook/company/three-year-strategy/) is available to GitLab team members in the internal handbook.
+Our current vision is available to GitLab team members in the internal handbook.
 
 The remainder of this page includes details about GitLab's approach to long-term planning.
 
