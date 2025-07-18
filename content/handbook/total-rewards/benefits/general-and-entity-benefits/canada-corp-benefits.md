@@ -17,31 +17,31 @@ GitLab offers medical, dental, and vision coverage at no cost to the team member
 
 ### Medical, Dental, and Vision Coverages
 
-Effective 1 July 2024, GitLab Team Members will be enrolled in to the GitLab ManuLife Health Plan. For a high-level overview of the plan please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing)
+GitLab Canada team members are enrolled in the GitLab Manulife Health Plan. For a high-level overview of the plan, please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view)
 
 Please see the plan documents for additional details of the plan:
 
 Plan A - Team Members Residing outside the Province of Quebec
 
-- [English Version](https://drive.google.com/file/d/1xCtEk8bHHCkwdlQWeNBfTdQ7g-p1cSVM/view?usp=sharing)
-- [French Version](https://drive.google.com/file/d/1Xj_IbV2Ppm_4Mpuy7-si0TK76B7aAKOG/view?usp=sharing)
+- [English Version](https://drive.google.com/file/d/1l6qjUZLU3qIKhs5XkJXDe24JjQsNp247/view?usp=sharing)
+- [French Version](https://drive.google.com/file/d/1gyDNDftIMfXK2Tg7s_juhYb_lI_MgCdH/view?usp=sharing)
 
 Plan B - Team Members Residing in the Province of Quebec
 
-- [English Version](https://drive.google.com/file/d/1EJc6uFSHXGl8rw45jAWMZk_kffFyuO-q/view?usp=sharing)
-- [French Version](https://drive.google.com/file/d/1sPy7OiOm9KfWbgjYw4ABgLPTQNDMR69r/view?usp=sharing)
+- [English Version](https://drive.google.com/file/d/1QwJSkcQ6XoBrXz6llCxd_g_yOSNWZZJF/view?usp=sharing)
+- [French Version](https://drive.google.com/file/d/1t9o7_PrQLNyWdZ4Wvq-H0SviVfQfPJqC/view?usp=sharing)
 
 #### WorldCare Medical Second Opinion (MSO)
 
 Medical Second Opinion provided by WorldCare Inc., easily connects you with a team of specialist who can evaluate diagnoses and treatment plans confidentially.
 
-Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
 
 #### Personalized Prescribing
 
 Personalized Medicine is about learning about your genetics. Access reimbursement for genetic test that helps determine with medication and does may work best for you.
 
-Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
 
 #### Telus Health - Virtual Care
 
@@ -55,7 +55,20 @@ Connect via your ManuLife App for services including:
 - Lab & imaging orders
 - Specialist referrals
 
-Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
+
+#### Telus Health - Employee Assistance Program (EAP)
+
+Access for you and your eligible dependents to helpful resources, including short-term counselling to support you with anxiety, stress, divorce, family matters, mental health, weight management, smoking, and other personal concerns.
+
+How to Access:
+
+- Through your Manulife App
+- By phone: 1-844-505-6240 (available 24/7)
+- Online via web portal
+- Live chat support for personalized care
+
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
 
 ### Enrollment and Access
 
@@ -64,8 +77,7 @@ You can access your ManuLife portal [here](https://portal.manulife.ca/gb/sponsor
 **For new hires:**
 Once you've determined your enrollment coverage (family plan or single plan), email your decision to `total-rewards@gitlab.com`. This step must be completed in order for your enrollment process to begin.
 
-During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.
-Please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) if you have any questions.
+You can access your ManuLife account starting Monday of your second week at GitLab. While you should receive an enrollment email from ManuLife during your second week, you can also log in directly using [ManuLife portal](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). Please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) if you have any questions.
 
 It is important to [assign your beneficiary for your Life Insurance plan](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/content/3811b594-3be7-4467-a313-47957943b648) once you receive your invitation to ManuLife. If you do not receive an invitation within a week of your start date, reach out to `total-rewards@gitlab.com`.
 

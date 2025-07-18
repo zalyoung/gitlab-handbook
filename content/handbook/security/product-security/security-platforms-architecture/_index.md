@@ -64,7 +64,7 @@ We provide proactive risk assessments, architectural security solutions and stan
 Routine communications with the SPA team happen through the following:
 
 - Primary SPA Slack channel for team-wide discussion: #security-spa
-- Team-specific channels for discussion targeting one sub-team: #security-architecture, #security-research, #sec-product-security-engineering
+- Team-specific channels for discussion targeting one sub-team: #security-architecture, #security-research, #prod-sec-eng-team-internal (private)
 - GitLab Tags for Issue/MR discussion: `@gitlab-com/gl-security/security-research`, `@gitlab-com/gl-security/product-security/security-architecture`,`@gitlab-com/gl-security/product-security/product-security-engineering`
 
 In the event of an emergency, GitLab Team Members should page the Security Incident Response Team in any channel using the command `/security`.

@@ -302,7 +302,7 @@ To request approval for an increase in the expected spend for a pre-existing ite
 
 ### Working with Content Marketing
 
-Content marketers and Product Managers can partner together when using a Blog to communicate product changes and engaging the market with thoughtful changes. See the [blog post handbook page](/handbook/marketing/brand-and-product-marketing/content/content-marketing/#blog-post) for guidelines on when and how to start engaging Content Marketing for creating a blog post for a feature.
+Content marketers and Product Managers can partner together when using a Blog to communicate product changes and engaging the market with thoughtful changes. See the [blog post handbook page](/handbook/marketing/blog/) for guidelines on when and how to start engaging Content Marketing for creating a blog post for a feature.
 
 ### Working with Product Marketing (PMM)
 
@@ -318,7 +318,7 @@ In general, you should:
 - proactively reach out for input when contemplating new features
 - involve PMM as early as possible with work on important changes
 
-{{% include "includes/usecase-competitive-content.md" %}}
+{{% include "includes/marketing/usecase-competitive-content.md" %}}
 
 ### Working with marketing
 
@@ -404,7 +404,7 @@ Here are some practices for how PMs work with groups outside of GitLab.
 #### Working with community contributors
 
 Product managers are the DRI for their group's [product direction](/handbook/product/product-processes/#managing-your-product-direction)
-which must include delivering on our greater company strategy of [dual flywheels](/handbook/company/strategy/#dual-flywheels).
+which must include delivering on our greater company strategy of dual flywheels.
 [Community contributions](https://about.gitlab.com/community/contribute/) are a critical
 part of the product direction.
 To support contributions product managers may consider the following guidelines:

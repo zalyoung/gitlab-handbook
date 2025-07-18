@@ -61,7 +61,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 ### Engineering Incident Manager (Tier 1)
 
-- Incident manager rotation is staffed by certain [team members in the Development and Infrastructure departments](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/).
+- Incident manager rotation is staffed by certain [team members in the Engineering Group](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/).
 - More information regarding the Incident Manager role, including shift schedules, responsibilities can be found in the [Incident Manager on-boarding page](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/).
 
 ### Engineering Subject-Matter-Expert (SME) On-Call (Tier 2)

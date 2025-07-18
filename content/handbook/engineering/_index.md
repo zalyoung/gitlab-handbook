@@ -6,7 +6,7 @@ title: Engineering
 
 ## Engineering Direction
 
-GitLab has a [Three-Year Strategy](/handbook/company/strategy/), and we're excited to see every member of the Engineering division contribute to achieving it. Whether you're creating something new or improving something that already exists, we want you to feel empowered to bring your best ideas for influencing the product direction through improved scalability, usability, resilience, and system architectures. And when you feel like you need to expand your knowledge in a particular area, know that you're supported in having the resources to learn and improve your skills.
+GitLab has a Three-Year Strategy, and we're excited to see every member of the Engineering division contribute to achieving it. Whether you're creating something new or improving something that already exists, we want you to feel empowered to bring your best ideas for influencing the product direction through improved scalability, usability, resilience, and system architectures. And when you feel like you need to expand your knowledge in a particular area, know that you're supported in having the resources to learn and improve your skills.
 
 Our focus is to make sure that GitLab is enterprise grade in all its abilities and to support the AI efforts required to successfully launch AI features to General Availability.
 
@@ -197,7 +197,7 @@ There are five departments within the Engineering Division:
 
 - [DevOps Engineering Department](/handbook/engineering/devops/)
 - [AI Engineering Department](/handbook/engineering/ai/)
-- [Expansion Development Department](/handbook/engineering/expansion-development/)
+- [Sec Department](/handbook/engineering/development/sec/)
 - [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
@@ -246,9 +246,7 @@ There are five departments within the Engineering Division:
 - [Engineering Career Development](/handbook/engineering/careers/)
 - [Engineering Career Mobility Principles](/handbook/engineering/careers/#mobility-principles)
 - [Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)
-- [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
-- [Starting New Teams](/handbook/engineering/starting-new-teams/)
 
 ### Cross-Functional Prioritization
 
@@ -301,7 +299,7 @@ FCL xxxx - [team name]
 - Mitigation
 - Status of Planned/completed work associated with FCL
 
-{{% include "includes/feature-change-locks.md" %}}
+{{% include "includes/engineering/feature-change-locks.md" %}}
 
 ## Engineering Performance Indicator process
 

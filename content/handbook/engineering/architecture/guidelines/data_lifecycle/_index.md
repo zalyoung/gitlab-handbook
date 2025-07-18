@@ -2,6 +2,9 @@
 title: "Data Lifecycle"
 ---
 
+**Important note:** The governance and enforcement of of this best practice is
+still a work in progress.
+
 ## Introduction
 
 **Data doesn't disappear; it accumulates—and it will bury your application.**

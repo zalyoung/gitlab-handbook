@@ -111,11 +111,11 @@
 /handbook/engineering/development/sec/software-supply-chain-security/security-policies/* /handbook/engineering/development/sec/security-risk-management/security-policies/:splat 301
 
 # IT Team move to CorpSec - remove 2025-09-30
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/onboarding-access-requests/access-requests/:splat 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/ /handbook/security/corporate/end-user-services/access-requests/ 301
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/* /handbook/security/corporate/end-user-services/access-requests/:splat 301
 /handbook/security/corporate/end-user-services/onboarding-access-requests/ /handbook/security/corporate/end-user-services/laptop-management/ 301
 /handbook/it/end-user-services/ /handbook/security/corporate/end-user-services/ 301
-/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/
+/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/ /security/corporate/end-user-services/access-requests/frequently-asked-questions/
 /handbook/it/end-user-services/onboarding101/ /handbook/security/corporate/end-user-services/onboarding101/ 301
 /handbook/it/end-user-services/onboarding101/* /handbook/security/corporate/end-user-services/onboarding101/:splat 301
 /handbook/it/corporate/end-user-services/#laptop-wipe-schedules-for-it-analysts /handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/ 301
@@ -129,6 +129,8 @@
 /handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
 /handbook/engineering/infrastructure/capacity-planning/ /handbook/engineering/infrastructure-platforms/capacity-planning/ 301
 /handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
+/handbook/engineering/infrastructure/cost-management/ /handbook/engineering/infrastructure-platforms/cost-management/ 301
+/handbook/engineering/infrastructure/cost-management/* /handbook/engineering/infrastructure-platforms/cost-management/:splat 301
 /handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
 /handbook/engineering/infrastructure/core-platform/systems/distribution/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ 301
 /handbook/engineering/infrastructure/core-platform/systems/distribution/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/:splat 301
@@ -163,3 +165,6 @@
 
 # Cells project moved - remove 2025-12-22
 /handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
+
+# Expansion Engineer page - remove 2025-10-07
+/handbook/engineering/expansion-development/ /handbook/engineering/development/sec/ 301

@@ -45,7 +45,6 @@ might need to click `Show more permissions` to see all the options):
   - Dylan Tragjasi
   - Sarah Cole
   - Rene Verschoor
-  - Lyle Kozloff
 - Can find this workflow
   - Everyone in GitLab
 - Can copy this workflow
@@ -141,7 +140,6 @@ Permissions:
   - Dylan Tragjasi
   - Sarah Cole
   - Rene Verschoor
-  - Lyle Kozloff
 - Can find this workflow
   - Everyone in GitLab
 - Can copy this workflow

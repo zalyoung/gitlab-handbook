@@ -205,6 +205,75 @@ maxval = 1101000000000
 skip_range_validation = true # For short lived cells, min 100 billion IDs validation can be skipped
 ```
 
+##### Cell Bootstrap Sequence Altering Process
+
+1. **Database Preparation Stage**
+
+   During cell provisioning, the database preparation consists of these steps, which
+are automatically executed:
+
+   - Execute Ansible task to create the database as part of Instrumentor `configure` script
+   - Execute `/scripts/db-migrate` script during Helm Chart installation
+   - Within this script, run `/srv/gitlab/bin/rake gitlab:db:configure` command
+
+1. **The `gitlab:db:configure` Rake Task**
+
+   This is the main entry point that alters sequence ranges. The task:
+
+   - Runs `db:migrate` or `db:schema:load` depending on database state
+   - Calls `configure_pg_databases` for each PostgreSQL database
+   - Executes `alter_cell_sequences_range` function **only during bootstrap**
+
+1. **Bootstrap Detection Logic**
+
+   The key condition that determines if sequence altering happens is in the `configure_pg_database` method:
+
+   ```ruby
+   # Only alter sequences during bootstrap (when database is empty)
+   return false if database_loaded # Skip if tables already exist
+   ```
+
+   The system checks if there are existing tables in the `public` schema. If tables exist, it skips sequence altering entirely.
+
+1. **Sequence Range Fetching**
+
+   When conditions are met (bootstrap scenario), the system:
+
+   - Fetches sequence ranges from Topology Service via gRPC: `Gitlab::TopologyServiceClient::CellService.new.cell_sequence_ranges`
+   - Retrieves the configured ranges (e.g., `minval: 500000000000, maxval: 599999999999`)
+
+1. **Sequence Alteration Execution**
+
+   The `alter_cell_sequences_range` function:
+
+   - Logs: `"Running gitlab:db:alter_cell_sequences_range rake task with (minval, maxval)"`
+   - Calls `Gitlab::Database::AlterCellSequencesRange.new` to actually modify the PostgreSQL sequences
+   - Updates all relevant sequences to use the ranges fetched from Topology Service
+
+1. **Configuration Requirements**
+
+   For this to work, the cell must be configured with:
+
+   ```yaml
+   cell:
+     enabled: true
+     id: 6
+     database:
+       skip_sequence_alteration: false
+     topology_service_client:
+       address: "topology-grpc.staging.runway.gitlab.net:443"
+   ```
+
+1. **One-Time Bootstrap Limitation**
+
+   **Important**: This sequence altering only happens **once during bootstrap**. If you try to run `gitlab:db:configure` again on an already-initialized database, it will skip the sequence altering because tables already exist and they can have sequences consumed.
+
+1. **Final Result**
+
+   After successful bootstrap, running `SELECT sequencename, min_value, max_value FROM pg_sequences LIMIT 10;` shows the sequences configured with the ranges from Topology Service instead of default PostgreSQL ranges.
+
+   This design ensures that each cell gets its unique, non-overlapping sequence ranges during initial provisioning.
+
 ##### Sequence Saturation
 
 At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table).
@@ -455,12 +524,12 @@ service ClaimService {
 }
 ```
 
-The purpose of this service is to provide a way to ensure a route is never
-ambiguous that it'll only be routed to a specific cell in a specific time
-(resources claimed that route can be migrated to another cell later) to
-present the resource claiming the route.
+The purpose of this service is to provide a way to ensure an identity is never
+ambiguous and only belonging to a specific resource in a specific cell in a
+specific time (resources can be migrated to another cell later).
 
-By this definition, a claim also means a route in an abstract way.
+By this definition, a claim also means a route in an abstract way, because
+we will be able to classify which cell it belongs to.
 
 Take users as an example. A user here is a resource that it should claim:
 
@@ -485,9 +554,9 @@ In effects, the claims must be unique within the cluster, therefore unambiguous.
 To make claims, a cell can send a `CreateClaimRequest`, which contains a
 `ClaimRequest` consisting of 2 components:
 
-1. **OwnerRecord**: Represents the database record that owns the claims
-   on the cell. For example, for the group `gitlab-org`, the bucket would be
-   `GROUP` and the `id` would be the group id.
+1. **OwnerRecord**: Represents the resource that owns the claims on the cell.
+   For example, for the group `gitlab-org`, the bucket would be `GROUP` and
+   the `id` would be the group id.
 1. **repeated ClaimRecord**: Consists of bucket and value, where each value
    can only be claimed once per bucket. A bucket represents a unique scope for
    the claim. For example, for the group `gitlab-org` it should claim
@@ -775,22 +844,18 @@ Citations:
 
 Running Multi-Regional read-write is one of the biggest selling points of Spanner.
 When provisioning an instance you can choose single Region or Multi-region.
-After provisioning you can [move an instance](https://cloud.google.com/spanner/docs/move-instance) whilst is running but this is a manual process that requires assistance from GCP.
+After provisioning you can [move an instance](https://cloud.google.com/spanner/docs/move-instance) whilst it is running but this is a a cautious process that requires careful planning and manual execution.
 
 We will provision a Multi-Regional Cloud Spanner instance because:
 
 1. Won't require migration to Multi-Regional in the future.
 1. Have Multi Regional on day 0 which cuts the scope of multi region deployments at GitLab.
 
-This will however increase the cost considerably, using public facing numbers from GCP:
+Cloud Spanner has a list of pre-defined [instance configurations](https://cloud.google.com/spanner/docs/instance-configurations) and we will be using `nam11` as detailed in [Cloud Spanner Region Configuration for Topology Service](decisions/015_spanner_multiregional.md).
 
-1. [Regional](https://cloud.google.com/products/calculator?hl=en&dl=CiRlMjU0ZDQyMy05MmE5LTRhNjktYjUzYi1hZWE2MjQ4N2JkNDcQIhokOTlGQUM4RjUtNjdBRi00QTY1LTk5NDctNThCODRGM0ZFMERC): $1,716
-1. [Multi Regional](https://cloud.google.com/products/calculator?hl=en&dl=CiQzNjc2ODc5My05Y2JjLTQ4NDQtYjRhNi1iYzIzODMxYjRkYzYQIhokOTlGQUM4RjUtNjdBRi00QTY1LTk5NDctNThCODRGM0ZFMERC): $9,085
+For data security, we will use Google's default encryption for data at rest, which is automatically enabled with Cloud Spanner. As noted in Google's documentation: "By default, Spanner encrypts customer content at rest. Spanner handles encryption for you without any additional actions on your part." This eliminates the need to implement custom encryption in the Topology Service with CMEK while ensuring data security compliance.
 
-Citations:
-
-1. Google (n.d.). _Regional and multi-region configurations._ Google Cloud. Retrieved April 1, 2024, from <https://cloud.google.com/spanner/docs/instance-configurations>
-1. Google (n.d.). FeedbackReplication. Google Cloud. Retrieved April 1, 2024, from <https://cloud.google.com/spanner/docs/replication>
+An [estimated cost](https://cloud.google.com/products/calculator?hl=en&dl=CjhDaVJpWldSalpUVmxOeTAxWXprekxUUTBPR1l0T1RJeU5DMW1PVEUwTnpVMVpXTXpZVEFRQVE9PRAOGiRDRENBM0ZENy0zQ0Y5LTQ1MkQtQkJBMi04NUZGNjU1RUVBM0U) for this configuration is approximately $11,838.94 per month, based on a hypothetical compute usage of 5 nodes, 1 TB of storage, and Enterprise Plus Edition.
 
 #### Architecture of multi-regional deployment of Topology Service
 

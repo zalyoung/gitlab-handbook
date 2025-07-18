@@ -2,7 +2,7 @@
 title: "Marketing Project Management Guidelines"
 ---
 
-{{< include "includes/wip-notice.md" >}}
+{{< include "includes/marketing/wip-notice.md" >}}
 
 ### Sub Pages
 

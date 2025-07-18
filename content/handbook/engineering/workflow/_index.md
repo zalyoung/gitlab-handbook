@@ -790,7 +790,7 @@ Infradev issues are also shown in the monthly [Error Budget Report](/handbook/en
 Triage of infradev Issues is desired to occur asynchronously. These points below with endure that your infradev issues gain maximum traction.
 
 1. **Use the [InfraDev issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=InfraDev) to create the issue on the gitlab-org/gitlab issue tracker.**
-1. **Clearly state the scope of the problem, and how it affects GitLab.com**. Examples could include:
+1. **Clearly state the scope of the problem, and how it affects GitLab SaaS Platforms**. Examples could include:
    1. Reliability issues: the problem could cause a widespread outage or degradation on GitLab.com. [example](https://gitlab.com/gitlab-org/gitlab/-/issues/244865)
    1. Saturation issues: the problem could leave to increased saturation, latency issues due to resource over-utilization. [example](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/2458)
    1. Service-level degradation: the problem is causing our service-level monitoring to degrade, impacting the overall SLA of GitLab.com and potentially leaving to SLA violations. [example](https://gitlab.com/gitlab-org/gitlab/-/issues/292732)

@@ -373,6 +373,8 @@ We'll add concrete queries once the widget API is finalized.
 
 ##### Permissions
 
+###### Work item status
+
 We've decided not to introduce new permissions for work item statuses. Instead, authorization is handled
 by existing work item permissions like `read_work_item` or `update_work_item`.
 
@@ -381,6 +383,13 @@ for authorization, improving query performance by reducing the number of Permiss
 
 Additionally, work item status-specific resolvers like `StatusesResolver` and `AllowedStatusesResolver`
 ensure that the licensed feature is available and the feature flag is enabled before proceeding.
+
+###### Custom lifecycle and status
+
+The `admin_work_item_lifecycle` permission allows only maintainers to update custom lifecycles and their associated statuses.
+
+The `read_work_item_lifecycle` and `read_work_item_status` permissions allow access to details about custom lifecycles and custom
+statuses that belong to a given namespace.
 
 #### Status widget
 
@@ -451,7 +460,26 @@ Optionally we'll also consider the mapping in list queries and include the old a
 We acknowledge that there might be a short time where status data is inconsistent in list views during migration.
 This is especially true for namespaces with a large number of work items.
 
-Details about the database structure and service architecture are to be defined.
+For iteration 2, we will avoid doing any status migrations by:
+
+1. Keeping the status mappings during the custom status transition
+1. Only allowing a single lifecycle and not allowing users to change the work item types it applies to
+1. Only allowing deletion of statuses that are not in use
+
+#### Status mappings and default fallbacks
+
+When a system-defined lifecycle is transitioned into a custom one, we create the custom statuses and store the
+system-defined status that it was converted from. This is stored in the `work_item_custom_statuses.converted_from_system_defined_status_identifier` column.
+
+`WorkItems::Statuses::CurrentStatus#status` takes these mappings into account and returns the custom status even when the record in the DB still
+contains the system-defined status identifier.
+
+Additionally, there are cases where work items will not have a `CurrentStatus` record. All existing work items before the feature flag is enabled will be in this state. Work items created before a namespace has the appropriate license are also in this state.
+
+`WorkItem#status_with_fallback` handles this and returns the default status depending on the work item's state. This also calls `WorkItems::Statuses::CurrentStatus#status` when the work item has a `CurrentStatus` record so it takes care of the system-defined status mapping as well.
+
+The `WorkItem.with_status` and `WorkItem.not_in_statuses` scopes can be used for filtering work items based on status including handling the mappings and
+fallback statuses.
 
 ### Namespaces downgrade to free tier
 
@@ -555,6 +583,17 @@ skip implementing the legacy epic board view and focus on the new experience ins
 [System-defined statuses will only use english names](https://gitlab.com/groups/gitlab-org/-/epics/14793#note_2359390868).
 Customers can customize statuses to match their preferred language.
 
+## Telementry
+
+The following internal events are available to track changes to statuses, either when a custom status is updated for a namespace or when a work item's status changes.
+
+- `create_custom_status_in_group_settings`
+- `update_custom_status_in_group_settings`
+- `delete_custom_status_in_group_settings`
+- `change_work_item_status_value`
+
+[Here's the work item statuses dashboard](https://app.snowflake.com/ys68254/gitlab/#/custom-statuses-d8Wd9wmn7) in Snowflake.
+
 ## Alternative Solutions
 
 ### Do nothing and continue to use state and labels
@@ -602,6 +641,7 @@ view and focus on the new experience instead.
 1. As part of Iteration 2, [we'll only allow the deletion of custom statuses that are not in use](https://gitlab.com/gitlab-org/gitlab/-/issues/535964#note_2558275085).
 Statuses that have already been assigned to a work item, have an associated status mapping or are set as one of the default statuses (open, closed, duplicate) in a lifecycle
 can still be updated, but not deleted.
+1. For iteration 2, we will not do any backfilling because we would need to wait for the release after a required stop to finalize the migration. Instead, we will [store the status mappings in the database](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191822#note_2512770051) when a system-defined lifecycle is converted to a custom lifecycle. Since we also cannot backfill the `work_item_current_statuses` table, we will have fallback logic on the backend so that we return the default status based on state when the associated `CurrentStatus` record is missing.
 
 ## Resources
 

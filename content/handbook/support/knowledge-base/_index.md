@@ -44,7 +44,7 @@ Docs answer: "How does this work?"
 - Provides an overview of the current version of our products.
 - Often more technical and detailed 
 - Updated less frequently (New Feature releases)
-- Primarily created for engineers, advanced users, Product detials
+- Primarily created for engineers, advanced users, Product details
 
 ### Knowledge Articles
 
@@ -94,18 +94,28 @@ If you are NOT a ZenDesk User, and want to create a knowledge article, you can d
 
 ### How to create a knowledge article if you are not in ZenDesk 
 
-Anyone can create a knowledge article regardless of being in ZenDesk or not (or if you are a Light Agent). To create an article you will:
+Anyone can create a knowledge article- even if you are not in ZenDesk! 
 
 1. Go to the [Folder and choose a template](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR)
 2. Create the article using the template and Save the document.
 3. Use the Knowledge Slack Channel [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) to request the article to be created. Please tag {{< member-by-name "Kirsty Allen" >}} . OR you can Create an ISSUE and Assign to {{< member-by-name "Kirsty Allen" >}} 
 4. Your Article will be created in ZenDesk and assigned to a reviewer & then Published. You will be notified of Publication. 
 
-Integrating with Zendesk offers the following benefits:
+**Light Agents**
+
+If you are a Light Agent in ZenDesk and would like to **create knowledge articles** please do the following:
+
+- Fill out an [Access Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
+- Request Access to have your Light Agent Role elevated to "create knowledge"
+- Request should include Request Reason:  **Write access for articles**
+- Request should include if this is for **Global, US Gov, or Both**
+- Assign to your Manager for Approval.  **Manager Approval is Required!**
+
+### Integrating with Zendesk offers the following benefits
 
 - Centralized Knowledge Base
 - Scalable and Customizable
-- Seamless Integration with Tickets
+- Seamless Integration with Ticket
 - Improved Support Engineer Productivity
 - Streamlined Analytics and Reporting
 - Streamline "Knowledge Centered Service" (KCS), adopting knowledge into the workflow
@@ -138,7 +148,7 @@ Most Knowledge Base tasks are performed within the Zendesk platform (Support and
 
 {{% /card %}}
 
-{{% card header="**Knowledge Champions (Technical Reviewers)**" %}}
+{{% card header="**Technical Reviewers**" %}}
 
 | Task | Executed In |
 |------|---------|
@@ -174,16 +184,17 @@ Most Knowledge Base tasks are performed within the Zendesk platform (Support and
 Everyone can contribute to knowledge! The most important thing is to capture the knowledge you've created while solving a problem.
 The review process will ensure the content is technically accurate and clear.
 
-### Technical Reviewers (Knowledge Champions)
+### Technical Reviewers
 
 There will be Support Engineers and Support Managers trained as technical reviewers for knowledge articles across the globe.
 
-[Available Technical Reviewers (by Geo)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
+[Available Technical Reviewers (by region and subject)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
+
+Technical Reviewers can now also be found under Column 4 (Looking to Help others) on the [Skills by Subject Page](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
 
 Technical Reviewers should be Subject Matter Experts (SMEs) in certain areas (Such as Runner, Authentication, Migrations, etc.). The Technical Reviewers are tasked with **reviewing knowledge articles** based on their knowledge of features.
-Technical Reviewers perform the following actions.
 
-#### Responsibilities
+#### Technical Revier Responsibilities
 
 Technical Reviewers are expected to:
 

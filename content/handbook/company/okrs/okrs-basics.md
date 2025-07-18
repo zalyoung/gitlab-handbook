@@ -8,7 +8,7 @@ weight: 1
 
 [OKRs](https://en.wikipedia.org/wiki/OKR) stand for Objectives and Key Results and are our quarterly objectives.
 OKRs are *how* to achieve the goal of the Key Performance Indicators [KPIs](/handbook/company/kpis/).
-They lay out our plan to execute our goals, which in turn support our [strategy](/handbook/company/strategy/), and help make sure our top goals and how to achieve them are clearly defined and aligned throughout the organization.
+They lay out our plan to execute our goals, which in turn support our strategy, and help make sure our top goals and how to achieve them are clearly defined and aligned throughout the organization.
 
 **Objectives** are an aspirational goal to be achieved. They define *what* we're aiming to do, and they show how individual, team, or department work impacts the overall direction of GitLab by connecting work to overall company strategy.
 

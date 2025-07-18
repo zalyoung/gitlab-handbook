@@ -1,9 +1,9 @@
 ---
 title: "The New Auth Stack in GitLab"
-status: proposed
+status: ongoing
 creation-date: "2025-02-17"
-authors: [ "@grzesiek" ]
-coach: []
+authors: [ "@maw", "@kamil", "@grzesiek" ]
+coach: [ "@maw" ]
 approvers: [ "@maw" ]
 toc_hide: true
 ---

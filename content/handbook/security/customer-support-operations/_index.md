@@ -19,7 +19,7 @@ The purpose of Customer Support Operations is to enable GitLab to provide deligh
 | Name | Role |
 |------|------|
 | [Steve Manzuik](https://gitlab.com/smanzuik) | Senior Director, Security |
-| [Lyle Kozloff](https://gitlab.com/lyle) | Sr. Manager, Customer Support Operations |
+| [Michael Beltran](https://gitlab.com/MBeee) | Sr. Manager, IT |
 | [Jason Colyer](https://gitlab.com/jcolyer) | Fullstack Engineer, Customer Support Operations |
 | [Nabeel Bilgrami](https://gitlab.com/nabeel.bilgrami) | Customer Support Operations Specialist |
 | [Alyssa Villa](https://gitlab.com/avilla4) | Customer Support Operations Specialist |

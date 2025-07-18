@@ -18,7 +18,7 @@ Below are the cadences we have at GitLab:
 1. [Month](#month) (4.3x week)
 1. [Week](#week)
 
-Items on this page are grouped into a cadence based on the underlying period of time that the item pertains to, not based on when the item is updated. For example, our [strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) looks three years out but is reviewed [annually by E-Group](/handbook/company/offsite/#offsite-topic-calendar) and may be updated more frequently if the need arises.
+Items on this page are grouped into a cadence based on the underlying period of time that the item pertains to, not based on when the item is updated. For example, our strategy looks three years out but is reviewed [annually by E-Group](/handbook/company/offsite/#offsite-topic-calendar) and may be updated more frequently if the need arises.
 
 A overview of key company dates for FY25 can be found [here](https://docs.google.com/spreadsheets/d/11n44QyIVLD2rZwOnjLHlN1CvfmsVfFdyDfCK8qCLGM4/edit?usp=sharing)
 
@@ -28,7 +28,7 @@ How elements of our cadence fit together over time:
 
 1. [Our Mission](/handbook/company/mission) is to make it so that **everyone can contribute** by using our product, to our product, and to our company.
 1. [Our Vision](/handbook/company/vision) is what we want the product to evolve into in the next 10 years, **AllOps** - a single application for DevSecOps, ModelOps, and a Service desk.
-1. [Our Strategy](/handbook/company/strategy/) is what we'll focus on over the next 3 years in order to make progress towards our vision. Our strategy is to be the leading **DevSecOps Platform** by focusing on our three strategic pillars: Customer Results, Maturing the Platform, and Growing Careers.
+1. Our Strategy is what we'll focus on over the next 3 years in order to make progress towards our vision. Our strategy is to be the leading **DevSecOps Platform** by focusing on our three strategic pillars: Customer Results, Maturing the Platform, and Growing Careers.
 
 How other elements relate to our cadence:
 
@@ -54,7 +54,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 
 1. [30 year Mission](/handbook/company/mission): reviewed every 10 years
 1. [10 year Vision](/handbook/company/vision): reviewed every 3 years
-1. [3 year Strategy](/handbook/company/strategy/): reviewed every year
+1. 3 year Strategy: reviewed every year
 
 ## 30 years
 
@@ -73,7 +73,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 
 ## 3 years
 
-1. [Strategy](/handbook/company/strategy/)
+1. Strategy
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
 1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#rsu-vesting--grant-cadence) after cliff of six months is passed
@@ -92,7 +92,6 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. Sales targets (in [Clari](/handbook/business-technology/tech-stack/#clari))
 1. [E-group offsite](/handbook/company/offsite/)
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
-1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
 
 ## Month

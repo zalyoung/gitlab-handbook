@@ -187,9 +187,9 @@ When the above information is being added, the Epic will move from Triage to Rea
 
 | **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| High = 6 months, Medium = 1 year | Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
+| Average Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| Remediation SLAs: Critical = 3 months, High = 6 months, Medium = 1 year, Low = 1.5 years | Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationKPI/ObservationKPIs?:iid=1)| Observations will be escalated to management when the following criteria are met: the observation is critical or high risk, AND the observation relates to a top 5 risk within the SRQ/StORM program and lacks an assigned remediation owner or timeline for completion.|
 | TCV / ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| TBD | This is not complete. We are working with the sales team to make this possible.|
-| Compliance posture by NIST CSF function and category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% or greater passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)| n/a|
+| Compliance posture by NIST CSF function and category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% or greater passing in each function and category | Quarterly | tbd | This is not complete yet. Given the Hyperproof and GAS GRC tool transistion, and move to GCFv4, we have not completed this for FY26 data yet. Target completion Early Q3.|
 | Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
 
 ## FY26 Strategic Initiatives
@@ -206,11 +206,11 @@ When the above information is being added, the Epic will move from Triage to Rea
 
 This charter will be reviewed and updated quarterly to ensure alignment with:
 
-1. [GitLab Strategy](/handbook/company/strategy/)
+1. GitLab Strategy
 1. [Security Division Mission and Vision](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
 1. [Security's Multi-year Strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal only)
 1. [Security Assurance Mission and Vision](/handbook/security/security-assurance/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-assurance-mission-and-vision)
-1. Security Assruance Multi-year Strategy - In Development
+1. [Security Assruance Multi-year Strategy](https://internal.gitlab.com/handbook/security/security-assurance/security_assurance_strategy/)
 
 Next scheduled review: [2025-07-31]
 

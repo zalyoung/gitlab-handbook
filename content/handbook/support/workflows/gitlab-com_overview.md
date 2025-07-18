@@ -60,7 +60,7 @@ For **the purposes of support**, a user may still be considered an enterprise us
 1. The user's primary email has a domain that is **owned** by the company of the paid group, this means **one** of the following is true:
     - The WHOIS information on the domain matches the organization name
     - The email domain matches the subscription holder in CDOT
-    - The email domain matches that of an Owner in the top-level namespace    
+    - The email domain matches that of an Owner in the top-level namespace
 1. The user account meets **one** of the following conditions:
     - was created 2021-02-01 or later.
     - has a SAML or SCIM identity tied to the organization's group.
@@ -71,4 +71,4 @@ If the Owner is requesting access to an account which has a primary email in the
 
 The relevant information can be found in the Zendesk GitLab Super App: User Lookup, GitLab admin or API. Subscription information can additionally be found in CustomersDot.
 
-{{% include "includes/support-quick-reference.md" %}}
+{{% include "includes/engineering/support-quick-reference.md" %}}

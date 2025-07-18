@@ -5,7 +5,7 @@ description: "The value of becoming a GitLab channel partner."
 
 ## Welcome to the GitLab Channel Handbook
 
-We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).
+We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/partner/registration).
 
 This is the primary Handbook page for prospective and existing GitLab Channel partners and is organized into the following sections: [Welcome to the GitLab Channel Handbook](/handbook/resellers/), [Channel Program Guide](/handbook/resellers/channel-program-guide/), [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-gitlab/), and [Channel Partners: Developing your GitLab Practice](/handbook/resellers/services/). This services as an introduction to the GitLab Channel Program and provides links to individual sections with additional detailed information.
 

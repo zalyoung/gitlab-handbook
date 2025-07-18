@@ -105,6 +105,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [1:1 Dashboards - Accounts: COMM/ENTG APJ](https://gitlab.my.salesforce.com/01ZPL000001I5qH)   | 1:1 dashboard for accounts in the Commercial and Enterprise APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01ZPL000001I77J)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
+| [1:1 Dashboards - Accounts: AMER/EMEA BASE](https://gitlab.my.salesforce.com/01ZPL000002Za13)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
 | [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads. |
 | [1:1 Report - Tableau Prospecting 360 Database - Master](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage?:iid=2) | The main 1:1 Dashboard that combines multiple datapoints into one consolidation view for you to expand your research. |
@@ -435,6 +436,7 @@ The FO Outbound process is split in four phases, which should be followed on a w
 | BDR Next Steps         | A space for the BDR to use as working notes for the current status of prospecting the account.                |
 | BDR Account Strategy   | A categorization system that we use to high-level denote what motion or play was used in trying to engage with an account. |
 | BDR Recycle Date       | Automatically populated two months out from the AW date. Can be manually changed if the BDR chooses to continue working an account. |
+| Worked in FY Reason       | Automatically populats when an accounts get moved to Worked in FY prospecting status. If an account needs to be added to this status before it's appopriate date, this field needs to be manually populated with one of the choices provided. |
 | 6QA Acceptance Status and 6QA Dispute Reason. | When an account has been automatically moved to Actively Working and Showing Intent, as per the 6QA project outlined [here](/handbook/marketing/sales-development/#6sense-6qa-automations), you will need to review the account and change this field to Accepted or Disputed within 48 hours. In case of choosing to Dispute the account you will need to choose a Dispute reason. Use `Account in open opportunity` if there is an SDR with an active open opportunity. These accounts will be flagged on the 1:1 Dashboard for you to review with your manager and other collaborators. |
 
 #### Planning Phase (4-5 hours/week)
@@ -1136,14 +1138,13 @@ Above are some examples of how information can be stored to a pre-made project. 
 
 #### 6Sense 6QA Automations
 
-We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC.
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. A detailed breakdown of [these workflows is described here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/#workflow-breakdown).
 
 Specifically:
 
 - Accounts flagged as 6QA from 6Sense, whether they already exist on our system or not, will automatically be marked with the fields:
   - `BDR Prospecting Status: Actively Working`
   - `BDR Account Strategy: Showing Intent`
-
 - These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
 - While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
   - For FY26Q1 we are adding a **Dispute Reason for Low LAM Dev Count** which team members can use when they opt to not pursue a 6QA account because of a small account value potential.
@@ -1151,6 +1152,8 @@ Specifically:
 - Accepting or Disputing accounts can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
 - Any accounts that marked as `Accepted` by the BDR team will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/678e891afc1f1f390f3b654f/completed) to automatically bring relevant decision-makers for these accounts to the [B6 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
+
+**Important Note:** When 6QA accounts are non-FO available and non-Compensation Target Account (non-Pursuit Account), BDR Prospecting Status will update to SDR Hold for 14 days. If an open opportunity is not created within the 14 days, the account will be updated to Actively Working and Showing Intent and the ownership will be updated to BDR.
 
 ### Qualified
 
@@ -1254,7 +1257,7 @@ The team has an issue where we consolidate our monthly to-dos (titled `Monthly H
 
 #### Manager Tool Certification
 
-We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893).
+We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full video playlist of this training is [on our Unfiltered playlist here](https://www.youtube.com/playlist?list=PL05JrBw4t0KpFZmMd8LLfqkcXr9lotTAb). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://docs.google.com/spreadsheets/d/12YbsXUN6-ZeAFHjQa8YTdL1sNIPKiCh8QJmf__IAZkY/edit?gid=690387328#gid=690387328), along with passing criteria and some more video guides. 
 
 #### General leadership principles
 
@@ -1556,7 +1559,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
 1. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
 
-    **No:** Please proceed to the next step.
+    **No:** Please proceed to the next step. <br>
     **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br>
 
 2. Is the MQL from an Existing Account?
@@ -1566,13 +1569,13 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
 3. Is the Account a customer?
 
-    **No:** Move on to the next step
+    **No:** Move on to the next step <br>
     **Yes:** Check for Opportunities
 
 4. Is there an existing renewal opportunity?
 
-    **No:** Move on to the next step
-    **Yes:** Align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person.
+    **No:** Move on to the next step <br>
+    **Yes:** Align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person. SDRs/BDRs should not be credited on renewal opportunities as they focus on net-new business. If you believe there's an exceptional case where SDR/BDR credit is warranted for a renewal, contact Sales Operations to discuss creating a separate opportunity or using the exceptions process.
 
 5. Is the Account in "Actively Working" Status
 
@@ -1583,7 +1586,9 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
     **Yes:** It is worked by the BDR Assigned. <br>
     **No:** Check to see if there are leads related to the account that have activity using [this report](https://gitlab.my.salesforce.com/00O8X000008RfvU)
+
     When you modify this report based on company name and email domain, do you see any activity in the last 30 days? <br>
+
     **Yes:** It is worked by the BDR Assigned <br>
     **No:** It is worked by the SDR Team.
 

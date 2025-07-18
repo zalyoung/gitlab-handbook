@@ -378,7 +378,7 @@ When creating a new issue:
 
 1. Add the appropriate project label, example: ~"Hosted Runners for GitLab Dedicated".
 1. Add the ~"workflow-infra::Triage" label.
-1. Add the appropriate team label, example: ~"team::Environment Automation".
+1. Add the appropriate team label, example: ~"group::environment automation".
 1. Ensure the issue is confidential.
 1. Add the issue to the correct Epic.
 
@@ -389,7 +389,7 @@ When creating a new issue:
 # Label with a project label.
 # /label ~"Hosted Runners for GitLab Dedicated"
 
-/label ~"team::Environment Automation" ~"workflow-infra::Triage"
+/label ~"group::environment automation" ~"workflow-infra::Triage"
 /confidential
 ```
 
@@ -541,13 +541,13 @@ To reduce the team's cognitive load on having to keep a mental record of all the
 
 Commonly used labels are:
 
-1. The team label, such as `team::Environment Automation`.
+1. The team label, such as `group::environment automation`.
 1. Scoped `workflow-infra` labels.
 1. Scoped `component` labels.
 1. Scoped `cloud-provider` labels.
 1. Scoped `workaround` labels.
 
-The `team::Environment Automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
+The `group::environment automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
 
 #### Epics labels
 

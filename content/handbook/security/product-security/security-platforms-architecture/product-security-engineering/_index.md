@@ -33,9 +33,11 @@ role.
 
 To reach the Product Security Engineering team, team members can:
 
-- Ask in `#sec-product-security-engineering` on Slack
+- Ask in [`#security_help`](https://gitlab.enterprise.slack.com/archives/C094L6F5D2A) on Slack and @ mention the `@product-security-engineering` handle
 - Mention `@gitlab-com/gl-security/product-security/product-security-engineering` on GitLab
 - Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new)
+
+Our team has a private channel that we use: [`#prod-sec-eng-team-internal`](https://gitlab.enterprise.slack.com/archives/C08KDNCTRBJ)
 
 ## Runbooks
 

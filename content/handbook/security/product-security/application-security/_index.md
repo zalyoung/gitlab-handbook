@@ -86,7 +86,7 @@ In FY26, our key focus areas are:
 - Establish [Product Security Incident Response Team (PSIRT)](appsec-operations/psirt-services.md)
 - Expand [Security Design & Development](appsec-operations/sdd-services.md) team services at scale
 
-**Support [Company](../../../company/strategy.md) and [Division](../../../security/) Priorities:**
+**Support Company and [Division](../../../security/) Priorities:**
 
 - Authorization & Authentication
 - AI Security & Safety

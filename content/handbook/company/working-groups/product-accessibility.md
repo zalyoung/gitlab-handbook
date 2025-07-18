@@ -49,7 +49,7 @@ This Working Group has the following goals:
 | ------------------ | -------------------------- | ---------------------------------------------|
 | Executive Sponsor  | Tim Zallmann               | VP of Engineering, Core Development          |
 | Facilitator        |                            |                                              |
-| Functional Lead    | Paulina Sędłak-Jakubowska  | Frontend Engineer, Monitor:Respond           |
+| Functional Lead    | Paulina Sędłak-Jakubowska  | Senior Frontend Engineer, Create:Source Code |
 | Functional Lead    | Rahul Chanila              | Senior Frontend Engineer, Package            |
 | Functional Lead    | Jeremy Elder               | Staff Product Designer, Manage:Foundations   |
 | Member             | Lisa Falcone               | Senior Paralegal, Legal & Corporate Affairs  |

@@ -106,6 +106,29 @@ Sales and SA leader participation in the POV approval process will ensure we can
 - The ASM or SA Manager marks the POV for approval via the Salesforce object or with a troops action in Slack.
 - The ASM or SA Manager will query about plans to position professional services at this stage. All SAEs/SAs are required to position Professional services in opportunities with a qualified POV to guarantee continued success for the customer. Please read more about how to position [here](/handbook/solutions-architects/processes/#positioning-professional-services)
 
+#### Custom Models PoV Requirements
+
+For PoVs involving self-hosted models or custom AI models, additional coordination and tracking requirements apply to ensure optimal support and successful outcomes:
+
+- Mandatory Issue Tracking: All self-hosted/custom model PoVs must be tracked in a [confidential GitLab issue](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/issues/143) in the Custom Models project. This centralized tracking helps the Custom Models team manage bandwidth and provide appropriate support levels.
+- Required Information: The issue description includes all required information
+- Capacity Management: The Custom Models team operates with limited concurrent PoV capacity to ensure quality support. SAs should:
+  - Check current bandwidth before committing to new custom model PoVs
+  - Coordinate with the Custom Models team on timeline feasibility
+  - Prioritize PoVs based on strategic value and customer timeline constraints
+- Early Engagement: Engage the Custom Models team during the qualification phase to:
+  - Validate technical feasibility
+  - Confirm support availability for the proposed timeline
+  - Identify any special requirements or constraints
+  - Establish clear success criteria aligned with model capabilities
+- Success Tracking: Custom model PoVs will be tracked for both technical success and team learning to:
+  - Document successful implementation patterns
+  - Identify common challenges and solutions
+  - Improve support processes and team morale
+  - Build knowledge base for future similar opportunities
+
+This process ensures that custom model PoVs receive appropriate technical support while maintaining realistic expectations about team capacity and timeline constraints.
+
 ### POV Best Practices
 
 Solutions Architects are the owners of the POV, guiding prospects through a successful experience with GitLab. As such, Solutions Architects should be the primary contacts for questions and issues experienced by the prospect during the POV. If support is required for an unforseen technical issue, some POVs may qualify as [priority prospects](/handbook/support/priority_prospects/#overview) and may contact the support team.
@@ -138,7 +161,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 - Solutions Architect (SA) - Primary technical contact, POV owner and project manager
 - Customer Success Manager (CSM) - _Only for qualified accounts._ Introduced for customer visibility, occasional POV assistance
 - Professional Services - rarely as needed in a pre-sales capacity
-- Support Team - only if needed for technical errors, engaged via the customer per the [Internal Support page](/handbook/support/internal-support/#note-on-zendesk-and-supportgitlabcom)
+- Support Team - only if needed for technical errors, engaged via the customer per the [Internal Support page](/handbook/support/internal-support/)
 
 ## POV Kickoff Checklist
 
@@ -155,7 +178,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 - SAE/AE: Schedule Internal kick off meeting (detailed below)
 - SAE/AE: Schedule kickoff meeting with customer
 - CSM: Review collaboration project content prior to internal kickoff meeting
-- SA: For SaaS trials that need CI/CD, request trial runner activation per the [handbook](/handbook/support/internal-support/#trial-extensions-and-plans).
+- SA: For SaaS trials that need CI/CD, request trial runner activation per the [handbook](/handbook/support/internal-support).
 
 ## POV Meeting Recordings
 
@@ -372,7 +395,7 @@ For existing customers there are two options for getting the POV template into t
 
 ## POV Trials
 
-POV usually require a license activation. Instructions for handling trials, extensions and plan changes on GitLab.com [here](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change).
+POV usually require a license activation. Instructions for handling trials, extensions and plan changes on GitLab.com are available in [Handling trials, extensions and plan changes handbook page](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change).
 
 ## POV Resources
 

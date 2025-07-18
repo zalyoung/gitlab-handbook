@@ -52,6 +52,7 @@ Product Designers adhere to the [Product Development flow](/handbook/product-dev
 - [Partnering with Technical Writers](/handbook/product/ux/product-designer/#partnering-with-technical-writers)
 - [Contributing to Pajamas](https://design.gitlab.com/get-started/contributing/)
 - [Designing with AI](/handbook/product/ux/product-designer/#designing-with-ai)
+- [Design Reach Program](/handbook/product/ux/product-design/design-reach-program)
 
 New GitLab Product Designers should refer to the [Product Designer Workflow handbook page](/handbook/ux/product-design/workflow/) for a comprehensive guide to getting started.
 

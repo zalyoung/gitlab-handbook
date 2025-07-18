@@ -27,7 +27,7 @@ To start, let's create a new project in the lab environment:
 
 1. Click the arrow next to **Runners** to expand the Runners section.
 
-1. Select **New project runner**.
+1. Select **Create project runner**.
 
 1. Select **Run untagged jobs**, leave all other settings as default, and select **Create runner**.
 
@@ -35,11 +35,11 @@ To start, let's create a new project in the lab environment:
 
 1. In the section titled **Step 1**, review the command, which will look something like this:
 
-    ```shell
-    gitlab-runner register  
-        --url https://ilt.gitlabtraining.cloud  
-        --token glrt-bzoxCnA6aDlvCnQ6Mwp1OmFtdCQKGl9glOywWMYcfTG74GwQ.1c1rc1xe9
-    ```
+      ```shell
+      gitlab-runner register
+          --url https://ilt.gitlabtraining.cloud
+          --token glrt-bzoxCnA6aDlvCnQ6Mwp1OmFtdCQKGl9glOywWMYcfTG74GwQ.1c1rc1xe9
+      ```
 
 1. Take note of the value following `--token`. You will need this token later for the registration of your runner.
 
@@ -61,42 +61,42 @@ Let's take a look at how this is structured:
 
 1. Add the deploy stage to the `.gitlab-ci.yml` file:
 
-    ```yml
-    stages:
-        - deploy
-    ```
+      ```yml
+      stages:
+          - deploy
+      ```
 
 1. Our first task is to set up our job to install the required dependencies for an SSH connection. Copy and paste the code below.
 
-    ```yml
-    deploy config:
-        stage: deploy
-        image: ubuntu:latest
-        before_script:
-          - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-          - eval $(ssh-agent -s)
-          - chmod 400 "$SSH_PRIVATE_KEY"
-          - ssh-add "$SSH_PRIVATE_KEY"
-          - mkdir -p ~/.ssh
-          - chmod 700 ~/.ssh
-          - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
-    ```
+      ```yml
+      deploy config:
+          stage: deploy
+          image: ubuntu:latest
+          before_script:
+            - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+            - eval $(ssh-agent -s)
+            - chmod 400 "$SSH_PRIVATE_KEY"
+            - ssh-add "$SSH_PRIVATE_KEY"
+            - mkdir -p ~/.ssh
+            - chmod 700 ~/.ssh
+            - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+      ```
 
     > This job starts by installing and starting an ssh agent on the runner. When you redeemed your invitation code, an instance was created for you to deploy to and the SSH private key is stored in a variable named `SSH_PRIVATE_KEY`. This key is added to the SSH agent to use for connections.
 
 1. As a script for the job, we are going to SSH into our server and register the gitlab runner on it. Notice that we are using the GITLAB_RUNNER_TOKEN variable we created earlier.
 
-    ```yml
-        script:
-          - ssh root@$ip 'gitlab-runner unregister --all-runners'
-          - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"$GITLAB_RUNNER_TOKEN"
-    ```
+      ```yml
+          script:
+            - ssh root@$ip 'gitlab-runner unregister --all-runners'
+            - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"$GITLAB_RUNNER_TOKEN"
+      ```
 
-   > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
-   >
-   > The `–non-interactive` flag prevents the runner from prompting us for inputs during the installation process. Rather than entering a prompt, we provide the arguments for URL, executor, docker image, and token through command line arguments.
-   >
-   > In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
+      > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
+      >
+      > The `–non-interactive` flag prevents the runner from prompting us for inputs during the installation process. Rather than entering a prompt, we provide the arguments for URL, executor, docker image, and token through command line arguments.
+      >
+      > In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
 
 1. Select **Commit changes**, add a commit message (e.g. "Added runner creation job") and select **Commit changes**.
 
@@ -106,7 +106,7 @@ Let's take a look at how this is structured:
 
 1. Verify that the pipeline completes successfully.
 
-  To verify that the runner is registered:
+      To verify that the runner is registered:
 
 1. In the left sidebar, select **Settings > CI/CD**.
 
@@ -118,9 +118,9 @@ When this runner is created, it will have a `config.toml` file that defines the 
 
 1. At the end of your `deploy config` job script, add the following command:
 
-    ```yml
-    - ssh root@$ip 'cat /etc/gitlab-runner/config.toml'
-    ```
+      ```yml
+      - ssh root@$ip 'cat /etc/gitlab-runner/config.toml'
+      ```
 
 1. Commit this change and navigate to the pipeline created from the change.
 
@@ -128,39 +128,41 @@ When this runner is created, it will have a `config.toml` file that defines the 
 
 1. You will see an output from the `cat` command similar to below:
 
-    ```toml
-    concurrent = 1
-    check_interval = 0
-    shutdown_timeout = 0
+      ```toml
+      concurrent = 1
+      check_interval = 0
+      shutdown_timeout = 0
 
-    [session_server]
-      session_timeout = 1800
+      [session_server]
+        session_timeout = 1800
 
-    [[runners]]
-      name = "runner-test"
-      url = "https://ilt.gitlabtraining.cloud"
-      id = 1852
-      token = "your-token-here"
-      token_obtained_at = 2025-05-08T12:59:30Z
-      token_expires_at = 0001-01-01T00:00:00Z
-      executor = "docker"
-      [runners.custom_build_dir]
-      [runners.cache]
-        MaxUploadedArchiveSize = 0
-        [runners.cache.s3]
-        [runners.cache.gcs]
-        [runners.cache.azure]
-      [runners.docker]
-        tls_verify = false
-        image = "alpine:latest"
-        privileged = false
-        disable_entrypoint_overwrite = false
-        oom_kill_disable = false
-        disable_cache = false
-        volumes = ["/cache"]
-        shm_size = 0
-        network_mtu = 0
-    ```
+      [[runners]]
+        name = "runner-test"
+        url = "https://ilt.gitlabtraining.cloud"
+        id = 1852
+        token = "your-token-here"
+        token_obtained_at = 2025-05-08T12:59:30Z
+        token_expires_at = 0001-01-01T00:00:00Z
+        executor = "docker"
+        [runners.custom_build_dir]
+        [runners.cache]
+          MaxUploadedArchiveSize = 0
+          [runners.cache.s3]
+          [runners.cache.gcs]
+          [runners.cache.azure]
+        [runners.docker]
+          tls_verify = false
+          image = "alpine:latest"
+          privileged = false
+          disable_entrypoint_overwrite = false
+          oom_kill_disable = false
+          disable_cache = false
+          volumes = ["/cache"]
+          shm_size = 0
+          network_mtu = 0
+      ```
+
+1. Make a note of this output, as you will need it in the next task.
 
 ## Task E. Editing your runner configuration
 
@@ -179,49 +181,49 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 1. In the filename, type `config.toml`.  
 
-1. Copy the `config.toml` from your job output into the toml file you created in your repository (make sure to replace the `your-token` value with your runner token instead).
+1. Copy the `config.toml` from your job output into the .toml file you created in your repository (make sure to replace the `your-token` value with your runner token instead).
 
-    Your `config.toml` will look something like this:
+      Your `config.toml` will look something like this:
 
-    ```toml
-    concurrent = 1
-    check_interval = 0
-    connection_max_age = "15m0s"
-    shutdown_timeout = 0
-    [session_server]
-      session_timeout = 1800
-    [[runners]]
-      name = "docker-runner"
-      url = "https://gitlab.com"
-      id = 40174213
-      token = "your-token"
-      token_obtained_at = 2025-05-24T12:10:22Z
-      token_expires_at = 0001-01-01T00:00:00Z
-      executor = "docker"
-      [runners.custom_build_dir]
-      [runners.cache]
-        MaxUploadedArchiveSize = 0
-        [runners.cache.s3]
-        [runners.cache.gcs]
-        [runners.cache.azure]
-      [runners.docker]
-        tls_verify = false
-        image = "alpine:latest"
-        privileged = false
-        disable_entrypoint_overwrite = false
-        oom_kill_disable = false
-        disable_cache = false
-        volumes = ["/cache"]
-        shm_size = 0
-        network_mtu = 0
-    ```
+      ```toml
+      concurrent = 1
+      check_interval = 0
+      connection_max_age = "15m0s"
+      shutdown_timeout = 0
+      [session_server]
+        session_timeout = 1800
+      [[runners]]
+        name = "docker-runner"
+        url = "https://gitlab.com"
+        id = 40174213
+        token = "your-token"
+        token_obtained_at = 2025-05-24T12:10:22Z
+        token_expires_at = 0001-01-01T00:00:00Z
+        executor = "docker"
+        [runners.custom_build_dir]
+        [runners.cache]
+          MaxUploadedArchiveSize = 0
+          [runners.cache.s3]
+          [runners.cache.gcs]
+          [runners.cache.azure]
+        [runners.docker]
+          tls_verify = false
+          image = "alpine:latest"
+          privileged = false
+          disable_entrypoint_overwrite = false
+          oom_kill_disable = false
+          disable_cache = false
+          volumes = ["/cache"]
+          shm_size = 0
+          network_mtu = 0
+      ```
 
 1. Before saving your `config.toml` file, update the following fields in your `config.toml`:
 
-    ```toml
-    privileged = true
-    volumes = ["/certs/client", "/cache"]
-    ```
+      ```toml
+      privileged = true
+      volumes = ["/certs/client", "/cache"]
+      ```
 
 1. Commit your `config.toml` file.
 
@@ -231,35 +233,35 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 1. After the `gitlab-runner register` command, add the following into the script:
 
-    ```yml
-    - scp config.toml root@$ip:/etc/gitlab-runner/config.toml
-    - ssh root@$ip 'gitlab-runner restart'
-    ```
+      ```yml
+      - scp config.toml root@$ip:/etc/gitlab-runner/config.toml
+      - ssh root@$ip 'gitlab-runner restart'
+      ```
 
 1. After doing this, you will have the following `.gitlab-ci.yml` file:
 
-    ```yml
-    stages:
-        - deploy
+      ```yml
+      stages:
+          - deploy
 
-    deploy config:
-      stage: deploy
-      image: ubuntu:latest
-      before_script:
-        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-        - eval $(ssh-agent -s)
-        - chmod 400 "$SSH_PRIVATE_KEY"
-        - ssh-add "$SSH_PRIVATE_KEY"
-        - mkdir -p ~/.ssh
-        - chmod 700 ~/.ssh
-        - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
-      script:
-        - ssh root@$ip 'gitlab-runner unregister --all-runners'
-        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token your-runner-token'
-        - scp config.toml root@$ip:/etc/gitlab-runner/config.toml
-        - ssh root@$ip 'gitlab-runner restart'
-        - ssh root@$ip 'cat /etc/gitlab-runner/config.toml'
-    ```
+      deploy config:
+        stage: deploy
+        image: ubuntu:latest
+        before_script:
+          - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+          - eval $(ssh-agent -s)
+          - chmod 400 "$SSH_PRIVATE_KEY"
+          - ssh-add "$SSH_PRIVATE_KEY"
+          - mkdir -p ~/.ssh
+          - chmod 700 ~/.ssh
+          - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+        script:
+          - ssh root@$ip 'gitlab-runner unregister --all-runners'
+          - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token your-runner-token'
+          - scp config.toml root@$ip:/etc/gitlab-runner/config.toml
+          - ssh root@$ip 'gitlab-runner restart'
+          - ssh root@$ip 'cat /etc/gitlab-runner/config.toml'
+      ```
 
 1. Select **Commit changes**.
 
@@ -267,7 +269,7 @@ This script copies your configuration to the runner machine. When the runner is 
 
 ## Task F. Testing the Runner
 
-To test the runner, let’s create a basic Docker in Docker configuration to use for a project.
+To test the runner, let's create a basic Docker in Docker configuration to use for a project.
 
 1. Navigate to your `CICD Runner` project.
 
@@ -283,12 +285,12 @@ To test the runner, let’s create a basic Docker in Docker configuration to use
 
 1. For the filename, type `Dockerfile`. Add the following content:
 
-    ```Docker
-    FROM node:latest
+      ```Docker
+      FROM node:latest
 
-    WORKDIR /app
-    CMD ["npm", "start"]
-    ```
+      WORKDIR /app
+      CMD ["npm", "start"]
+      ```
 
 1. Select **Commit changes**.
 
@@ -300,26 +302,26 @@ To test the runner, let’s create a basic Docker in Docker configuration to use
 
 1. Add a build stage:
 
-    ```yml
-    stages:
-      - build
-    ```
+      ```yml
+      stages:
+        - build
+      ```
 
 1. Add the following build job:
 
-    ```yml
-    build image:
-      stage: build
-      image: docker:27
-      services:
-        - docker:27-dind
-      variables:
-        IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-      script:
-        - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-        - docker build -t $IMAGE .
-        - docker push $IMAGE
-    ```
+      ```yml
+      build image:
+        stage: build
+        image: docker:27
+        services:
+          - docker:27-dind
+        variables:
+          IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+        script:
+          - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+          - docker build -t $IMAGE .
+          - docker push $IMAGE
+      ```
 
 1. Select **Commit changes**.
 

@@ -34,7 +34,7 @@ Our initial project has been built and we want to start on the deployment proces
 
     > Note that for `pip`, you are required to provide the `pip-compile` header.
 
-For Infrastructure as Code, you will start by deploying an S3 bucket to your environment. To do this, you can set up Terraform files with infrastructure definitions. To do this:
+    For Infrastructure as Code, you will start by deploying an S3 bucket to your environment. To do this, you can set up Terraform files with infrastructure definitions. To do this:
 
 1. Navigate to your project.
 
@@ -54,7 +54,7 @@ For Infrastructure as Code, you will start by deploying an S3 bucket to your env
 
 1. Select **Commit changes**, and keep the **Commit to the current main branch** selected. Select **Commit changes**.
 
-This project will also use Docker for deployments. To enable this, we will use the pre-existing Dockerfile.
+    This project will also use Docker for deployments. To enable this, we will use the pre-existing Dockerfile.
 
 1. Navigate to your project.
 
@@ -83,9 +83,9 @@ Now that you have dependencies added to your project, you want to ensure that th
       - component: ilt.gitlabtraining.cloud/components/dependency-scanning/main@main
     ```
 
-1. Write an appropriate commit message (ex. "Added Dependcy scanning to pipeline"), ensure that youa are committing to the main branch, and select **Commit changes**.
+1. Write an appropriate commit message (ex. "Added Dependency scanning to pipeline"), ensure that you are committing to the main branch, and select **Commit changes**.
 
-To view the progress of your new pipeline:
+    To view the progress of your new pipeline:
 
 1. In the left sidebar, select **Build > Pipelines**.
 
@@ -126,9 +126,9 @@ To add infrastructure as code scanning to your project:
 
 1. In the `include` section, add the following template:
 
-```yml
-  - template: Jobs/SAST-IaC.gitlab-ci.yml
-```
+    ```yml
+    - template: Jobs/SAST-IaC.gitlab-ci.yml
+    ```
 
 1. Select **Commit changes**.
 

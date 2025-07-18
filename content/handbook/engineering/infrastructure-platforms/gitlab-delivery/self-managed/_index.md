@@ -31,7 +31,7 @@ We strive for the following in our public projects:
 ### Working with Open Source communities
 
 The [open core of GitLab](/handbook/company/stewardship) is built on top of thousands of open source
-dependencies. These dependencies and their communities are important to the [GitLab strategy](/handbook/company/strategy/#flywheel-with-two-turbos),
+dependencies. These dependencies and their communities are important to the GitLab strategy,
 and working with these dependencies is an essential part of the projects the team maintains.
 
 We strive to:

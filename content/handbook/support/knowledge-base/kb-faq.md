@@ -49,9 +49,9 @@ There are many slides (with a table of contents) available [in Google drive](htt
 
 Yes! A list of available training resources is available on the Knowledge Base training page](./knowledge-base-training)
 
-### How do I become a Knowledge Champion/Technical Reviewer?
+### How do I become a Technical Reviewer?
 
-Review the [Technical Reviewers responsibilities](_index.md#technical-reviewers-knowledge-champions) before committing to the role.
+Review the [Technical Reviewers responsibilities](_index.md#technical-reviewers) before committing to the role.
 
 Please talk with your manager, and let them know you wish to become a knowledge champion.
 

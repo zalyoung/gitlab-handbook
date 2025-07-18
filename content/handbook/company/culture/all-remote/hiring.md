@@ -72,7 +72,7 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 >
 > You cannot expect to hire people who are passionate about executing your strategy if you wait to share the plan *after* they are onboard. Some candidates may opt out of the interview funnel if they realize they aren't a good fit for the company's mission, vision, and values.
 >
-> It's silly to think that a company would withhold its strategy, culture, or workflows until *after* someone gets hired. These elements determine whether a team member will thrive. Why would you hold that back? — *Darren Murph, Head of Remote at GitLab*
+> It's silly to think that a company would withhold its strategy, culture, or workflows until *after* someone gets hired. These elements determine whether a team member will thrive. Why would you hold that back? 
 
 In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab co-founder Sid Sijbrandij discusses hiring (amongst other topics) with researchers from [INSEAD](https://www.insead.edu).
 
@@ -82,8 +82,6 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 >
 > I think that's bananas. That's what every company in the world does. If your strategy is really important, make sure people buy in *before* they join. And make sure that people who don't buy in don't join the company.
 >
-> Execution depends on people; [being public about what we do](/handbook/company/strategy). allows us to attract the best people to best execute our strategy." — *GitLab co-founder Sid Sijbrandij*
-
 ### Make yourself attractive to top talent
 
 Remote work is the last great competitive advantage for employers. Remote maximizes a person's freedom and autonomy to integrate work into their life instead of the other way around. If two employers offer a talented applicant the same title, salary, and benefits, the tipping point will be the employer that **supports remote work**.

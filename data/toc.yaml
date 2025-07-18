@@ -13,8 +13,6 @@
       url: mission
     - name: Vision
       url: vision
-    - name: Strategy
-      url: /handbook/company/strategy
     - name: Communication
       url: communication
       links:

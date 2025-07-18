@@ -27,8 +27,8 @@ Integral part of this vision is to:
 
 1. Build a highly performant team of engineers, combining operational and software development experience to influence the best in reliable infrastructure.
 1. Work publicly in accordance with our [transparency](/handbook/values/#transparency) value.
-1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support [the company strategy](/handbook/company/strategy/).
-1. Align our [strategy](/handbook/company/strategy/) with the industry trends, company direction, and end customer needs.
+1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support the company strategy
+1. Align our strategy with the industry trends, company direction, and end customer needs.
 
 ## Direction
 
@@ -36,7 +36,7 @@ The direction is accomplished by using Objectives and Key Results (OKRs).
 
 Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatives across both Infrastructure and Stage Groups needed to address these gaps.
 
-{{% include "includes/we-are-also-product-development.md" %}}
+{{% include "includes/engineering/we-are-also-product-development.md" %}}
 
 ## Organization structure
 

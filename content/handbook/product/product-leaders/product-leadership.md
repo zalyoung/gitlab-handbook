@@ -2,7 +2,7 @@
 title: Product Leadership
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 ## General Product Organizational Structure
 

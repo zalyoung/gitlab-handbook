@@ -145,7 +145,7 @@ This stage is skipped if it is a `Bug` or `Administrative` type issue
 
 {{% /alert %}}
 
-- Stage DRI: Lyle, Dylan, and Jason
+- Stage DRI: Dylan and Jason
 - Purpose:
   - to determine bandwidth validity/feasibility of request
   - to determine iteration(s) and milestone(s) it will be worked in
@@ -162,7 +162,7 @@ If the iteration set is the _current_ iteration, then the DRIs will move the req
 
 ## Queued
 
-- Stage DRI: Lyle, Dylan, and Jason
+- Stage DRI: Dylan and Jason
 - Purpose:
   - Indicate the request is ready to be worked but is waiting on its iteration to begin
 - Required artifacts: None

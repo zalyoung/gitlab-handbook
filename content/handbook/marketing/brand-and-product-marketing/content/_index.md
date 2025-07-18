@@ -9,7 +9,9 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ## <i class="fas fa-bullhorn fa-fw\"></i>  Welcome to the GitLab Content Strategy & Ops Handbook
 
-### Meet the GitLab Content Strategy & Ops team. 👋
+**Effective June 8, 2025:** _All new content requests (not including the GitLab Blog) [should be submitted via Asana form](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259). The GitLab Blog will continue to follow its [current submission process](/handbook/marketing/blog/)._
+
+### Meet the GitLab Content Strategy & Ops team 👋
 
 [**Grace Madlinger**](https://gitlab.com/gmadlinger)
 
@@ -21,7 +23,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 [**Chandler Gibbons**](https://gitlab.com/chandlergibb)
 
-* **Title**: Sr. Manager, Content Marketing
+* **Title**: Principal Content Strategist
 
 * **GitLab handle**: @chandlergibb
 
@@ -29,7 +31,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 [**Sharon Gaudin**](https://gitlab.com/sgaudin)
 
-* **Title**: Sr. Content Marketing Manager
+* **Title**: Staff Content Strategist
 
 * **GitLab handle**: @sgaudin
 
@@ -37,7 +39,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 [**Kristina Weis**](https://gitlab.com/KristinaWeis)
 
-* **Title**: Sr. Content Marketing Manager
+* **Title**: Sr. Content Writer & Strategist
 
 * **GitLab handle**: @KristinaWeis
 
@@ -45,7 +47,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 [**Sandra Gittlen**](https://gitlab.com/Sgittlen)
 
-* **Title**: Managing Editor, GitLab blog
+* **Title**: Principal Managing Editor, GitLab Blog
 
 * **GitLab handle**: @sgittlen
 
@@ -89,7 +91,7 @@ In Content Strategy & Ops, we work on all things content—aka, digital collater
 
 Our work is all about the words, translating GitLab's message into external collateral like…
 
-* Blog posts
+* [Blog posts](/handbook/marketing/blog/) and [thought leadership articles](/handbook/marketing/the-source/)
 
 * Feature and solution pages, conversion pages, and SEO topic pages on about.gitlab.com
 
@@ -123,7 +125,7 @@ To create this content, **our team operates as both an editorial newsroom and in
 
 * Writing blog posts to support strategic needs
 
-* Writing [topic pages and subtopic pages](/topics/)
+* Writing [topic pages and subtopic pages](https://about.gitlab.com/topics/)
 
 * Writing and reviewing [customer case studies](https://about.gitlab.com/customers/), in collaboration with the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
 
@@ -139,13 +141,13 @@ While the Content Strategy & Ops team produces a large amount of content, we are
 
 ### Content Strategy
 
-[**Content Strategy** projects](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-strategy) include bespoke or high impact/high visibility content work, requiring planning, multiple stakeholders, and often VP-level or above engagement.
+**Content Strategy** projects include bespoke or high impact/high visibility content work, requiring planning, multiple stakeholders, and often VP-level or above engagement.
 
 * _Examples:_ Creating a net-new landing page, content for newly established campaign pillars, GTM content, DevSecOps Survey, customer change comms
 
 ### Content Ops
 
-[**Content Ops**](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops) includes content that's either part of already-established programs—like current campaigns, customer stories, or optimization of existing content—or "velocity content", content asks that can be accomplished quickly, with little input or few to no stakeholder reviews. It also includes content benchmarking, measurement, and reporting.
+**Content Ops** projects include content that's either part of already-established programs—like current campaigns, customer stories, or optimization of existing content—or "velocity content", content asks that can be accomplished quickly, with little input or few to no stakeholder reviews. It also includes content benchmarking, measurement, and reporting.
 
 * Velocity Requests
 
@@ -165,15 +167,15 @@ The Content Strategy & Ops team is also responsible for the GitLab Blog. [Check 
 
 ### Requesting support
 
-Whether you have a Content Strategy or Content Ops request, work begins with a conversation as the default. Collaboration ensures your projects have the best outcome and largest positive impact on GitLab's goals.
+Whether you have a Content Strategy or Content Ops request, work begins with [submitting a request form in Asana](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259). This form helps us understand your needs and ensures your project gets routed to the right team member for the best outcome and impact on GitLab's goals.
 
-If you know your request falls into either Content Strategy or Content Ops, open a new request in the [Content Strategy project](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-strategy)  or the [Content Ops project](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops) and fill out the corresponding template.
+**To submit a request:** Fill out the [Content Strategy & Ops Request Form](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259) with details about your project, timeline, and requirements.
 
-Not sure which bucket your request falls into? [Open a general request in Content Ops and we'll advise.](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/blob/master/.gitlab/issue_templates/new-content-request.md)
+**Not sure if your request falls into Content Strategy or Content Ops?** No problem! The form will help us determine the right approach and team member to support your project.
 
-The team will then review all incoming requests in the Content Strategy & Ops project and will schedule accordingly based on the request type, current workload, and priorities.
+The team will review all incoming requests and schedule work based on the request type, current workload, and priorities.
 
-NOTE: If you have an immediate **Content Strategy** request that needs to be escalated and requires multiple stakeholder reviews, please add a VP-approved label to your request, and tag the VP-level stakeholder.
+**NOTE: For urgent requests requiring VP-level approval or multiple stakeholder reviews,** please indicate this in the priority/urgency section of the form and mention the VP-level stakeholder who has approved the request.
 
 _Need help finding relevant content to use in an email or to send to a customer? Ask for help in the #content channel._
 
@@ -206,13 +208,13 @@ Visit the blog handbook to learn more about the [blog publishing process](/handb
 
 A whitepaper is a technical and focused topic study intended to educate a prospective buyer during the Consideration or Purchase stages of a campaign. The whitepaper offers a problem and solution instance in a granular, technical tone. The content team member should collaborate closely with their product marketing counterpart when researching and writing the asset so that the content reaches appropriate technical standards for the intended audience.
 
-Any technical GitLab team member is welcome to write a whitepaper and collaborate with the content team. If you're interested in writing a whitepaper, open an issue in the [Content Strategy project](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-strategy) and describe your idea, or post in the [#content](https://gitlab.slack.com/archives/C2R1NED61) Slack channel. Whitepapers should be related to specific use cases and support campaigns, when possible.
+Any technical GitLab team member is welcome to write a whitepaper and collaborate with the content team. If you're interested in writing a whitepaper, submit via the [Asana form](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259) and describe your idea, or post in the [#content](https://gitlab.slack.com/archives/C2R1NED61) Slack channel. Whitepapers should be related to specific use cases and support campaigns, when possible.
 
 **Examples:**
 
-1. [A seismic shift in application security](/resources/whitepaper-seismic-shift-application-security/)
+1. [A seismic shift in application security](https://about.gitlab.com/resources/whitepaper-seismic-shift-application-security/)
 
-2. [How to deploy on AWS from GitLab](/resources/whitepaper-deploy-aws-gitlab/)
+2. [How to deploy on AWS from GitLab](https://about.gitlab.com/resources/whitepaper-deploy-aws-gitlab/)
 
 #### Ebook
 
@@ -220,7 +222,7 @@ An ebook tends to be broader in scope than a whitepaper and provides a clear def
 
 **Content Writer/Strategist workflow**: A Content Strategy & Ops team member develops ebook content with input and review from their product marketing counterpart. More technical or instructive ebooks may require more collaboration with product marketing. Ebooks follow the [internal gated content](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/) asset workflow.
 
-**For other GitLab team members:** To request an ebook from the content team, feel free to open a [Content Strategy issue.](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-strategy)
+**For other GitLab team members:** To request an ebook from the content team, feel free to submit via the [Asana form](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259).
 
 **Examples:**
 
@@ -230,7 +232,7 @@ An ebook tends to be broader in scope than a whitepaper and provides a clear def
 
 #### One pager
 
-An infographic is an illustrated overview of a topic or process, and is typically an ungated asset. Infographics should tell a story using data, diagrams, and text. It can be used to discuss industry trends, relate insights, or explain different stages of a project. [Open a Content Ops issue to get started.](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops)
+An infographic is an illustrated overview of a topic or process, and is typically an ungated asset. Infographics should tell a story using data, diagrams, and text. It can be used to discuss industry trends, relate insights, or explain different stages of a project. Submit via the [Asana form](https://form.asana.com/?k=n0Pr0rPoHTDGG094bDXeEQ&d=306855239930259) to get started.
 
 **Example:**
 
@@ -240,13 +242,13 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 #### Topic page
 
-A topic page is a high-level explanatory "pillar" page dedicated to a specific topic, such as [version control](/topics/version-control/), [DevSecOps](/topics/devsecops/), or [continuous integration](/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
+A topic page is a high-level explanatory "pillar" page dedicated to a specific topic, such as [version control](https://about.gitlab.com/topics/version-control/), [DevSecOps](https://about.gitlab.com/topics/devsecops/), or [continuous integration](https://about.gitlab.com/topics/devsecops/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
 
 **Examples:**
 
 1. [What is CI/CD?](https://about.gitlab.com/topics/ci-cd/)
 
-2. [What is developer-first security?](/topics/devsecops/what-is-developer-first-security/)
+2. [What is developer-first security?](https://about.gitlab.com/topics/devsecops/topics/devsecops/what-is-developer-first-security/)
 
 #### Case study
 

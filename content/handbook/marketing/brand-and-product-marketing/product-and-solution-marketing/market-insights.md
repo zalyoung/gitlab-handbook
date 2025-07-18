@@ -36,7 +36,7 @@ Our big picture:
 
 **ELEVATE:** We seek to grow our value proposition beyond benefits/features--or even value drivers + use cases--to enable our customers' business outcomes
 
-**IDENTIFY & ARTICULATE:** We look to leverage research & insights to identify [blue ocean strategy](/handbook/company/strategy/) opportunities
+**IDENTIFY & ARTICULATE:** We look to leverage research & insights to identify blue ocean strategy opportunities
 
 **OPERATE:** We will function as the company's think tank, helping GitLab to become our customers' recognized and essential catalyst for success
 
