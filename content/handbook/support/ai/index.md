@@ -18,19 +18,19 @@ Before reaching for AI, ask yourself: **"Will this AI interaction save me time a
 flowchart TD
     accTitle: AI Decision Framework for Support Tasks
     accDescr: A flowchart showing when Support Engineers should use AI tools based on knowledge level, task urgency, and complexity.
-    
+
     A[Support Task arrives] --> B{Do I already know how to solve this?}
     B -->|Yes| C[Skip AI - Solve directly]
     B -->|No| D{Is this time-sensitive/urgent?}
-    
+
     D -->|Yes - Urgent| E{Am I completely stuck?}
     E -->|Yes| F[Use AI for quick ideas only]
     E -->|No| G[Work through manually - focus beats explaining context]
-    
+
     D -->|No - Standard timing| H{How straightforward is the context?}
     H -->|Straightforward problem| I{What's my confidence level?}
     H -->|Multi-faceted with extensive background needed| J[Consider working manually or ask colleague - may be faster]
-    
+
     I -->|High confidence| K[Use AI for efficiency tasks]
     I -->|Medium confidence| L[Use AI with validation required]
     I -->|Low confidence| M[Ask human colleague instead - AI might lead astray]
@@ -114,7 +114,7 @@ You are ready to use AI when:
 
 1. Time management
    - You can estimate how long tasks should take manually
-   - You notice when AI is slowing you down vs. speeding you up 
+   - You notice when AI is slowing you down vs. speeding you up
 
 You are not ready to use AI when:
 
@@ -135,7 +135,7 @@ You are not ready to use AI when:
 You'll know AI is helping when:
 
 - You finish tasks faster than your manual baseline
-- You learn something new that you can apply later  
+- You learn something new that you can apply later
 - The AI suggestions spark ideas you wouldn't have had
 - You catch AI mistakes quickly and confidently
 
@@ -150,8 +150,104 @@ You'll know AI is hurting when:
 
 ## How to Use AI Tools: Selection and Use Cases
 
-This section is currently being developed.
+The following use cases demonstrate practical applications of AI tools in GitLab Support workflows. Each example includes the specific tool used and workflow context to help you identify similar opportunities in your own work.
+
+> [!important]
+> When using AI tools with customer data, follow GitLab's Data Classification Standard and select appropriate tools based on data sensitivity. See [Responsible AI use in customer tickets](#responsible-ai-use-in-customer-tickets) for guidelines on tool selection and data handling requirements.
+
+1. Ticket Summarization with ZenDuo
+
+Support Engineers can use [ZenDuo](../../security/customer-support-operations/docs/zendesk/apps/#zenduo) (Duo integration in Zendesk) to automatically summarize long customer tickets. [For example, a complex ticket about token expiry notifications was summarized](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6302) into 8 key points with next steps, saving significant time for handovers and reviews.
+
+1. Knowledge Base Article Generation
+
+Support Engineers can use GitLab Duo to generate draft KB articles from Zendesk tickets by:
+
+- Passing a KB template to Duo
+- Having it parse the ticket to fill in the template
+- Creating time-effective KB articles with minimal manual effort
+
+1. Ticket Analysis and Insights
+
+Support Engineers can upload entire customer tickets as files to GitLab Duo Agentic Chat/GitLab Duo Workflow to:
+
+- Parse ticket data and offer insights
+- Spot details they might have missed
+- Get "another set of eyes" on complex issues
+- Identify patterns across similar tickets
+
+1. Slack Thread Summarization
+
+Support Engineers can uses an AI tools like GitLab Duo Chat or Claude to summarize long Slack threads, particularly useful for:
+
+- CEOC emergency threads with hundreds of messages
+- Reducing 30 minutes of manual reading to seconds
+
+1. Code Analysis and Troubleshooting
+
+Support Engineers can use GitLab Duo Chat's Code Explanation feature to:
+
+- Understand code paths when they're not developers
+- Identify expected behavior in GitLab codebase
+- Find bugs more efficiently
+- Analyze customer-provided code snippets
+
+1. Issue and MR Research
+
+Support Engineers can use GitLab Duo Agentic Chat to:
+
+- Search for existing issues or merge requests related to customer problems
+- Find workarounds in long issue discussions
+- Quote specific responses that identify solutions
+- Access GitLab projects, issues, MRs, and documentation
+
+1. Customer Communication Enhancement
+
+Support Engineers can use an GitLab Duo Chat or Claude for:
+
+- Translation of tickets in foreign languages
+- Deciphering difficult to understand customer responses
+- Improving clarity of technical explanations
+- Generating more professional responses
+
+1. Documentation Creation
+
+Support Engineers can use GitLab Duo Agentic Chat for:
+
+- Auto-generating draft MRs for documentation updates
+- Creating "wire-frame" documentation that can be manually finalized
+- Reacting to "Document this" issues with AI-generated drafts
+- Assisting with doc contributions and improvements
+
+1. Log and Data Processing
+
+Support Engineers use GitLab Duo Chat to:
+
+- Process and summarize logs/data from customer environments
+- Analyze fast-stats output for common problems
+- Parse complex diagnostic information
+- Identify patterns in system logs
+
+1. Workflow Automation with GitLab Duo Workflow
+
+Support Engineers can use GitLab Duo Workflow for:
+
+- Complex multi-step analysis tasks
+- Accessing GitLab's entire codebase, issues, MRs, and documentation
+- Getting comprehensive answers that beat other AI tools in accuracy
+- Handling tasks that require deep GitLab knowledge
+
+1. Training and Onboarding
+
+Support Engineers can use GitLab Duo during:
+
+- Duo training modules for Support Engineers
+- Learning GitLab features and troubleshooting
+- Understanding complex customer scenarios
+- Practicing with AI-assisted problem solving
+
+These examples show that GitLab Support has deeply integrated AI into their daily workflows, from basic ticket handling to complex technical analysis, significantly improving efficiency and quality of support delivery.
 
 ## Responsible AI use in customer tickets
 
-- See [can I use output from an AI in ticket replies](../workflows/working-on-tickets.md#can-i-use-output-from-an-llm-in-ticket-replies).
+- See "[can I use output from an AI in ticket replies](../workflows/working-on-tickets.md#can-i-use-output-from-an-llm-in-ticket-replies)".
