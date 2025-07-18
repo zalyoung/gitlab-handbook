@@ -827,7 +827,7 @@ The default setting of showing the previous (older) message is usually preferred
 <span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
 
-<img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
+<a href="https://res.cloudinary.com/about-gitlab-com/image/upload/v1752630546/pcs0nkmum6oe8jtol7e6.png" alt="GitLab Logo" download="gitlab-logo-rgb.png">Download Logo</a>
 
 #### Email signature if employed by our German entity
 
