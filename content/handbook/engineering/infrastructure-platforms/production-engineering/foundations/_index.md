@@ -187,7 +187,7 @@ If a team member is unavailable for more than 2 days of the week they are on tri
 
 The team member on rotation is responsible for:
 
-- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) and [Interrupt Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/8885876?label_name%5B%5D=Foundations%20Build&label_name%5B%5D=Foundations%3A%3ARequests) throughout the week and ensuring new issues related to Foundations:
+- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) and [Interrupt Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/8885876?label_name%5B%5D=Foundations%3A%3ARequests) throughout the week and ensuring new issues related to Foundations:
   - Have the correct labels (`Foundations::*`, `Production Engineering::P*`, `workflow-infra::*`, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
