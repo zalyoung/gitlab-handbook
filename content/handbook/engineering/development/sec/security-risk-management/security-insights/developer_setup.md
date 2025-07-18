@@ -23,7 +23,7 @@ To display the Vulnerability Reports, you need to set up the runner. Follow thes
 1. Open your terminal, run `gdk start`. Once `gdk` is running, run the command `gitlab-runner run`.
 1. Return to your browser, and click on `View runners`. Your runner should be shown in the list of runners, and show as `Online`.
 1. Navigate back to the `Security Reports` project at `http://gdk.test:3000/gitlab-org/security-reports`.
-1. On the left sidebar click on `Build` > `Pipelines`. The pipeline should now be active.
+1. On the left sidebar click on `Build` > `Pipelines`. Click on `New pipeline`, leave the fields empty and click again on `New pipeline`. The pipeline will now be starting, and once the jobs are done, the pipeline should be active.
 
 For additional details or troubleshooting, consult the official [runner setup guide](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/howto/runner.md#set-up-a-runner).
 
