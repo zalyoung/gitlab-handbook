@@ -471,7 +471,7 @@ This is Phase 2 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift r
 
 ### PagerDuty Alerts
 
-From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The shift engineer or temporarly the [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The shift engineer or temporarily the [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
 
 ### Ticket Assignment and Handling
 
