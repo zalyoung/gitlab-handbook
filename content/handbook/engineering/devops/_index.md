@@ -124,7 +124,7 @@ Here are some curated resources to get you started:
 
 ### Performance Indicators
 
-To better measure our goals and vision, we are tracking [Performance Indicators here](/handbook/engineering/devops/performance-indicators).
+To better measure our goals and vision, we are tracking [Performance Indicators here](https://internal.gitlab.com/handbook/engineering/devops/performance-indicators).
 
 ### People Processes
 
