@@ -111,7 +111,7 @@ Data Team Members are empowered to make scheduling decisions independently for B
 
 Priorities can shift based on changing business needs, urgent issues, or new strategic initiatives. Our approach to backlog management recognizes this reality and empowers team members to adapt dynamically while maintaining transparency and accountability.
 
-When higher priority work emerges, team members have the authority to pause current initiatives in favor of more critical items. Move existing issues back to the backlog (`workflow::2 - waiting for prioritization`), inform stakeholders of the change and provide updated timelines, then unassign yourself from paused work and update labels appropriately. This approach ensures that stakeholders always have visibility into what's happening and why, even when priorities shift.
+When higher priority work emerges (either by identifying by themselves, by Business Partners or their manager), team members should pause ongoing initiatives in favor of more critical items. Move existing issues back to the backlog (`workflow::2 - waiting for prioritization`), inform stakeholders of the change and provide updated timelines, then unassign yourself from paused work and update labels appropriately. This approach ensures that stakeholders always have visibility into what's happening and why, even when priorities shift.
 
 Team members should avoid carrying too many simultaneous initiatives, but what constitutes "too many" depends on several factors. 
 
