@@ -26,15 +26,10 @@ This policy applies to all GitLab Team Members, contractors, advisors, and contr
 
 ### Acceptable Use and Security Requirements of Computing Resources at GitLab
 
-GitLab-managed assets are provided to conduct GitLab business, with consideration given for limited personal use subject to any conflicting statements contained in any individual employment contracts or agreements. Our company uses global electronic communications and resources as routine parts of our business activities. Personal and professional use of GitLab-managed assets are subject to security monitoring and protection, unless prohibited under the local laws of a respective Team Member's jurisdiction. It is essential that electronic resources used to perform company business are protected to ensure that these resources are accessible for business purposes and operated in a cost-effective manner, that our company's reputation is protected, and that we minimize the potential for legal risk.
+GitLab-managed assets are provided to conduct GitLab business, and should not be used for other purposes subject to any conflicting statements contained in any individual employment contracts or agreements. Our company uses global electronic communications and resources as routine parts of our business activities. Personal and professional use of GitLab-managed assets are subject to security monitoring and protection, unless prohibited under the local laws of a respective Team Member's jurisdiction. It is essential that electronic resources used to perform company business are protected to ensure that these resources are accessible for business purposes and operated in a cost-effective manner, that our company's reputation is protected, and that we minimize the potential for legal risk.
 
-Those receiving GitLab-provided assets are responsible for exercising good judgment when using GitLab-managed computers and accessing GitLab-managed data.
-
-As per the [onboarding issue procedures](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) outlined in our handbook, evidence of device encryption and device serial number must be provided to IT Ops prior to the completion of onboarding period.
-
-We are currently using Jamf as our endpoint management solution for Mac laptops. All macOS laptops procured by GitLab will come configured with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/). GitLab Team Members procuring and expensing Mac Laptops will require [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/) to be installed as part of their [Day 1 Security tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#day-1-getting-started-accounts-and-paperwork). Upon their discretion, CorpSec may install additional security tools via Jamf.
-
-Linux users must install [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/sentinelone/#how-do-i-install-the-sentinelone-agent-on-linux) and [DriveStrike](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/) as part of their onboarding process during their first week.
+Those receiving GitLab-provided assets are responsible for exercising good judgment when using GitLab-managed computers and accessing GitLab-managed resources and data.
+We are currently using Jamf as our endpoint management solution for macOS laptops. All macOS laptops procured by GitLab will come configured with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/). GitLab Team Members procuring and expensing Mac Laptops will require [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/) to be installed as part of their [Day 1 Security tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#day-1-getting-started-accounts-and-paperwork). Upon their discretion, CorpSec may install additional security tools via Jamf.
 
 ### Security and Proprietary Information
 
@@ -46,7 +41,7 @@ Open Source libraries are allowed under this policy if its use complies with the
 
 ### Freeware, Browser Extensions, Add-ons, and Plugins
 
-Individual Use Software (freeware, add-ons and plugins) is permitted, with the exception of unauthorized Google Workspace Integrations and Chrome Extensions. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure.
+Individual Use Software (freeware, add-ons and plugins) is permitted once it has been reviewed and approved. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security. IT Security will periodically take inventories of GitLab provided endpoints installed software and take any necessary action. 
 
 Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
@@ -99,13 +94,13 @@ All GitLab-owned computing resources must be [returned](/handbook/people-group/o
 
 ### Bring-Your-Own-Device (BYOD)
 
-As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/standards/data-classification-standard/), is still prohibited.
+As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/standards/data-classification-standard/), is still prohibited and possible only via a GitLab managed device.
 
 The exceptions are as follows:
 
 #### Personal Mobile Phone and Tablet Usage
 
-All personal mobile computing devices used to access GitLab-managed data, including but not limited to email and GitLab.com, must be passcode-enabled. 2FA will be enforced by the Security team for all employee and contractor GitLab.com and Google Workspace accounts. Mobile computing best practices dictate that these devices should be running the latest version of the operating system available, and all new patches applied. For assistance with determining the suitability of your mobile device, please contact the Security Team.
+All personal mobile computing devices used to access GitLab-managed data, including but not limited to email and GitLab.com, must be passcode-enabled. 2FA will be enforced by the Security team for all employee and contractor GitLab.com and Google Workspace accounts. Mobile computing best practices dictate that these devices should be running the latest version of the operating system available, and all new patches applied. For assistance with determining the suitability of your mobile device, please contact the Security Team. In order to access any resource from a personal mobile device that device must have Okta Verify installed.
 
 #### Unable to Use Company Laptop
 
