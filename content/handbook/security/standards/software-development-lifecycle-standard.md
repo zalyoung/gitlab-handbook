@@ -3,6 +3,7 @@ title: "Software Development Lifecycle Standard"
 aliases:
 - /handbook/security/software-development-lifecycle-standard
 note: Do not remove alias due to extensive external use where it cannot be updated.
+controlled_document: true
 ---
 
 ## Purpose
@@ -66,7 +67,7 @@ Development work must undergo testing and approval prior to deployment to produc
 
 ### Deployment
 
-Deployment of software at GitLab must adhere to all defined staging, testing, release, and rollback processes. Details on GitLab's deployment process can be found [here](/handbook/engineering/deployments-and-releases/deployments/)
+Deployment of software at GitLab must adhere to all defined staging, testing, release, and rollback processes. Details on GitLab's deployment process can be found [here](/handbook/engineering/deployments-and-releases/deployments/).
 
 After any necessary verification in production is completed, details of changes are pushed to the releases page to be communicated as part of the relevant release notes.
 
