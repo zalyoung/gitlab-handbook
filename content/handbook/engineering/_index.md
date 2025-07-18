@@ -117,6 +117,10 @@ This process ensures a balanced approach between feature development and technic
 
 We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren't on our roadmap, and even translate our product into multiple languages.
 
+### Cross-team collaboration
+
+Some projects and initiatives involve multiple teams working together on a shared goal to deliver results for customers. Learn more about how to successfully lead a [cross-team collaboration](cross-team-collaboration.md).
+
 ### Diversity
 
 [Diverse teams perform better](https://www.cio.com/article/189194/5-ways-diversity-and-inclusion-help-teams-perform-better.html). They provide a sense of belonging that leads to higher levels of trust, better decision making, and a larger talent pool. [They also focus more on facts, process facts more carefully, and are more innovative](https://hbr.org/2016/11/why-diverse-teams-are-smarter). By hiring globally and increasing the numbers of women and under represented groups (URGs) in the Engineering division, we're helping everyone bring their best selves to work.
