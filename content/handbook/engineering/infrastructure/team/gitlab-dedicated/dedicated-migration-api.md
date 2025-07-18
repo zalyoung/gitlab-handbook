@@ -23,7 +23,7 @@ Initial project kickoff and setup activities.
 - [ ] [Receive SMTP Settings](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_smtp_settings_template.md)
 - [ ] [Send Switchboard Invite](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/send_switchboard_invite_template.md)
 - [ ] [Receive Secrets and SSH Keys](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/tech_discovery/receive_secrets_and_ssh_keys_template.md)
-- [ ] [Receive Full Networking Diagram]()
+- [ ] [Receive Full Networking Diagram](https://gitlab.com)
 
 #### Configuration (45 business days)
 
@@ -41,41 +41,41 @@ Initial project kickoff and setup activities.
 - [ ] [Setup Outbound Private Link for PreProd](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/setup_outbound_private_link_for_preprod_template.md)
 - [ ] [Setup Outbound Private Link for Prod](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/setup_outbound_private_link_for_prod_template.md)
 - [ ] [Send Switchboard Invite](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/dedicated-migrations-group/test-automations-project/-/blob/main/.gitlab/issue_templates/geo/dedicated_instance_provisioning/send_switchboard_invite_template.md)
-- [ ] [Configure SAML/SCIM/SSO]()
+- [ ] [Configure SAML/SCIM/SSO](https://gitlab.com)
 
 #### Data Sanitization (N days)
 
 ##### Remediate Evaluate Outliers
 
-- [ ] [Receive Evaluate Data]()
-- [ ] [Develop Remediation Plan for Outlier Projects]()
-- [ ] [Remediation Plan Acceptance and Sign-off]()
-- [ ] [Execute Remediation Plan]()
+- [ ] [Receive Evaluate Data](https://gitlab.com)
+- [ ] [Develop Remediation Plan for Outlier Projects](https://gitlab.com)
+- [ ] [Remediation Plan Acceptance and Sign-off](https://gitlab.com)
+- [ ] [Execute Remediation Plan](https://gitlab.com)
 
 #### Pilot Phase (N days)
 
 ##### Tokens, Migration Infrastructure, and Users
 
-- [ ] [Provision API Tokens]()
-- [ ] [Provision Migration VM]()
-- [ ] [Select Pilot Groups and Projects]()
-- [ ] [Validate User Provisioning]()
-- [ ] [Migrate Pilot Projects and Validate]()
-- [ ] [Verify User Mappings]()
+- [ ] [Provision API Tokens](https://gitlab.com)
+- [ ] [Provision Migration VM](https://gitlab.com)
+- [ ] [Select Pilot Groups and Projects](https://gitlab.com)
+- [ ] [Validate User Provisioning](https://gitlab.com)
+- [ ] [Migrate Pilot Projects and Validate](https://gitlab.com)
+- [ ] [Verify User Mappings](https://gitlab.com)
 
 ##### Wave Planning
 
-- [ ] [Generate Wave Planning File]()
-- [ ] [Plan Waves and Wave Cadence]()
-- [ ] [Finalize Pre/Post Developer Experience Plan]()
-- [ ] [Finalize Wave Communications Template]()
+- [ ] [Generate Wave Planning File](https://gitlab.com)
+- [ ] [Plan Waves and Wave Cadence](https://gitlab.com)
+- [ ] [Finalize Pre/Post Developer Experience Plan](https://gitlab.com)
+- [ ] [Finalize Wave Communications Template](https://gitlab.com)
 
 #### Migration Execution (N days)
 
 ##### Execute Wave
 
-- [ ] [Send Pre-Wave Communication]()
-- [ ] [Start Wave Thread]()
-- [ ] [Execute Wave]()
-- [ ] [Send Post-Wave Communication]()
-- [ ] [Execution Developer Pre/Post and Confirm]()
+- [ ] [Send Pre-Wave Communication](https://gitlab.com)
+- [ ] [Start Wave Thread](https://gitlab.com)
+- [ ] [Execute Wave](https://gitlab.com)
+- [ ] [Send Post-Wave Communication](https://gitlab.com)
+- [ ] [Execution Developer Pre/Post and Confirm](https://gitlab.com)
