@@ -207,12 +207,9 @@ The VP of Talent Acquisition is a [grade 12](/handbook/total-rewards/compensatio
 - Cost Per Hire
 - Hires vs. Plan
 - Offer Acceptance Rate
-- [Pay Equality](/handbook/company/culture/inclusion/#performance-indicators)
 - Talent Acquisition team or Hiring Manager LinkedIn Seat
 - Applied vs Sourced Candidates
 - Time to Offer Accept
-- [Women in Company](/handbook/company/culture/inclusion/#performance-indicators)
-- [Women in Leadership](/handbook/company/culture/inclusion/#performance-indicators)
 
 ## Career Ladder
 

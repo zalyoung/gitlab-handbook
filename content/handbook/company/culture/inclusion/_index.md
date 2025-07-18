@@ -109,10 +109,7 @@ Source: GitLab's People Analytics Team, WorkDay
 Inclusive teams are naturally more engaged, collaborative and innovative.
 We aim to align [our values](/handbook/values/) to be reflective of our company wide commitment to fostering a diverse and inclusive environment.
 
-In addition, the very nature of our company is to facilitate and foster inclusion.
-We believe in asynchronous communication, we allow flexible work hours. GitLab team members are encouraged to work when and where they are most comfortable.
-
-## Fully distributed and completely connected
+## Fully distributed and completely connected 
 
 The GitLab team is fully distributed across the globe, providing our team the opportunity to connect with each others cultures, celebrations and unique traditions.
 We collaborate professionally and connect personally!
@@ -147,26 +144,6 @@ Please see our [identity data](/handbook/company/culture/inclusion/identity-data
 ### Sales Initiatives
 
 - TBD
-
-### #IamRemarkable Workshop
-
-[#IamRemarkable](https://www.rmrkblty.org/iamremarkable) is a workshop created by Google. The initiative aims to individuals to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
-
-#### Logistics
-
-At GitLab we launched the #IamRemarkable workshop in April 2021, and aim to continue with two workshops per quarter on an ongoing basis. Before the start of each quarter, a quarterly workshop planning issue will be opened where team members have the opportunity to volunteer to participate. Slots will be allocated on first come first serve basis.
-
-The workshops are kept to a max of 15 team members to generate more comfort and psychological safety within the group, in addition to providing everyone with an opportunity to share and contribute to discussion. Each workshop is two hours in duration. Due to the personal nature of the workshop, we do not record #IamRemarkable sessions.
-
-#### Facilitators
-
-Currently, we have three GitLab team members who are certified to facilitate the #IamRemarkable workshop:
-
-1. Giuliana Lucchesi
-1. Terri Chu
-1. Gosia Ksionek
-
-In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://www.rmrkblty.org/iamremarkableabout-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
 
 ### Inclusive benefits
 
@@ -227,10 +204,6 @@ Above this field, we have a section titled `Veteran Status` that we ask our US-b
 
 If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/agencies/ofccp/compliance-assistance/outreach/reasonable-accomodation-pocket-card). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
 
-### Diversity, Inclusion & Belonging Learning & Development
-
-- TBD
-
 ### Process for learning material and course creators
 
 **Team members who might use this process include:** DIB and L&D team members, managers creating training for their teams, departments creating required compliance training, team members creating training for their peers or community, Developer Relations creating training for the wider GitLab community
@@ -275,5 +248,3 @@ We encourage organizers of events that are supported through our [GitLab Diversi
 Nearly all our thoughts and actions are influenced, at least in part, by unconscious impulses. There's no reason bias should be out of scope. Categorizing people based on social and other characteristics is a powerful survival mechanism, as it helps to distinguish friends from foes and make quick "life or death" decisions based on "inner feeling". At the same time this is a fertile ground for growing stereotypes, prejudice, discrimination.
 - **Psychological safety** - is defined by Amy Edmondson as a "shared belief held by members of a team that the team is safe for interpersonal risk taking".
 It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better.
-
-## Performance Indicators
