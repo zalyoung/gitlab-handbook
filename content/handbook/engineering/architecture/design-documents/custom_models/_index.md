@@ -201,4 +201,4 @@ In this out-of-scope architecture .com customers point to self-managed models. T
 
 ##### GitLab Dedicated
 
-Support will not be provided for Dedicated customers to use a self-hosted AI Gateway and self-hosted models. Dedicated customers who use GitLab Duo features can access them via the .com AI Gateway. If there is customer demand for self-managed models for Dedicated customers, this can be considered in the future.
+GitLab Dedicated connection to a Dedicated AI Gateway is described in [this blueprint](../ai_duo_self_hosted_dedicated).
