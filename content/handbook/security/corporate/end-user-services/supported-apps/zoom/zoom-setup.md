@@ -3,6 +3,17 @@ title: Zoom Setup
 description: Basic installation and setup steps
 ---
 
+## Index
+
+- [Installation](#installation)
+    - [MacOS](#macos)
+    - [Linux](#linux)
+- [Setup](#setup)
+- [Connect Zoom to Other Apps](#connect-zoom-to-other-apps)
+    - [Google Chrome](#google-chrome)
+    - [Google Calendar](#google-calendar)
+    - [Slack](#slack)
+
 ## Installation
 
 If you are using a GitLab-provided MacBook Zoom should be installed automatically when you first set up the laptop. To install the app manually, please see the steps below.

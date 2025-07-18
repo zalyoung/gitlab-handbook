@@ -3,6 +3,12 @@ title: Zoom AI Companion
 description: Setup and Configuration
 ---
 
+## Index
+
+- [Meeting Summary with AI Companion](#meeting-summary-with-ai-companion)
+- [Accessing AI Companion Meeting Summaries](#accessing-ai-companion-meeting-summaries)
+- [Accessing AI Companion Smart Recordings](#accessing-ai-companion-smart-recordings)
+
 ## Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.

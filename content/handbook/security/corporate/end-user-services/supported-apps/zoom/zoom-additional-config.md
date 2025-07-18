@@ -3,6 +3,17 @@ title: Zoom - Additional Configuration
 description: Additional Zoom setup and configuration steps
 ---
 
+## Index
+
+- [Test Audio and Video in Zoom](#test-audio-and-video-in-zoom)
+- [Customize your Zoom Profile](#customize-your-zoom-profile)
+- [Create a customized Personal link](#create-a-customized-personal-link)
+- [Zoom Waiting Rooms](#zoom-waiting-rooms)
+- [Enable Screen Sharing](#enable-screen-sharing)
+- [Enable captions and live transcription](#enable-captions-and-live-transcription)
+- [Set up a shortcut for muting in Zoom](#set-up-a-shortcut-for-muting-in-zoom)
+- [Enabling email notifications for hosts when attendees join firs](#enabling-email-notifications-for-hosts-when-attendees-join-first)
+
 ## Test Audio and Video in Zoom
 
 Before using Zoom for the first time, it is recommended to [test your audio]( https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062765) as well as [test your video](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061836).
@@ -73,7 +84,7 @@ If you are the meeting host, consider enabling live transcriptions for accessibi
 
 If the host is not present, no one can enable live transcription. If you've created a meeting but won't be attending, consider assigning alternative host permissions to someone who will be present, so they can enable live transcription.
 
-### Set up a shortcut for muting in Zoom
+## Set up a shortcut for muting in Zoom
 
 Sometimes you need a hot key to mute/unmute, even when Zoom is not the selected window.
 Follow these steps to set it up:
@@ -82,7 +93,7 @@ Follow these steps to set it up:
 1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
 1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
 
-### Enabling email notifications for hosts when attendees join first
+## Enabling email notifications for hosts when attendees join first
 
 1. Go to your Zoom account [settings](https://gitlab.zoom.us/profile/setting).
 1. Click the `Meeting` tab.

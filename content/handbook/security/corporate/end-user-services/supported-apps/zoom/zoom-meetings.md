@@ -3,13 +3,25 @@ title: Zoom Meetings
 description: Schedule and host meetings
 ---
 
+## Index
+
+- [Setting up a Zoom Meeting](#setting-up-a-zoom-meeting)
+    - [Allow for browser](#allow-for-browsers)
+    - [Large meeting considerations](#large-meeting-considerations)
+    - [Settings for smaller meetings](#settings-for-smaller-meetings)
+- [During your Zoom Meeting](#during-your-zoom-meeting)
+    - [Join meetings with muted microphone](#join-meetings-with-muted-microphone)
+    - [Meeting Surveys](#meeting-surveys)
+    - [Zoom Clips](#zoom-clips)
+- [Create a Persistent Zoom Rooms](#create-a-persistent-zoom-rooms)
+
 ## Setting up a Zoom Meeting
 
 *To set up a Zoom meeting, sign into Zoom via Okta and share the link for your "personal meeting room" with your participants.*
 
 ### Allow for browsers
 
-As not exery external contact has the Zoom client installed, you should ensure that the ability to join meetings from a browser is enabled if needed.
+As not every external contact has the Zoom client installed, you should ensure that the ability to join meetings from a browser is enabled if needed.
 
 1. Go to **Settings > In Meeting (Advanced)**
 1. Click next to "Show a 'Join from your browser' link" to make this option available in your meeting invites.
@@ -22,6 +34,21 @@ It can be distracting when a call with a large number of attendees has folks joi
 
 If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute.\ 
 If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts".
+
+### Settings for smaller meetings
+
+If you have a smaller meeting (4 or fewer participants) and want to allow for quicker starts, you could change the settings on a per meeting basis to remove the waiting room, or default audio to on (can be overridden by participants local settings).
+
+To quickly do this, you can:
+
+1. Ensure that you are signed into the Zoom extension that is installed by default in your GitLab Chrome profile
+1. When creating a meeting, click on `Make it a Zoom Meeting`
+1. Uncheck `Waiting Room`
+1. Ensure Host and Participant Video is `On`
+1. Ensure `Mute participants upon entry` is **unchecked**
+1. Click `Continue`
+
+This should allow for a bit more of a seamless transition into beginning a smaller meeting. The defaults for larger meetings are still what's documented above.
 
 ## During your Zoom Meeting
 
@@ -80,7 +107,7 @@ Zoom Clips is enabled for everyone at GitLab, however to use it you will need to
 1. Sign in to the [Zoom web portal](https://zoom.us/signin)
 1. Go to [Clips](https://gitlab.zoom.us/clips/library) in the left sidebar
 
-### Create a Persistent Zoom Room
+## Create a Persistent Zoom Rooms
 
 If you find yourself wanting to have a persistent Zoom "Room" for shared use by
 anybody on your team at any time, do this:
@@ -94,18 +121,3 @@ anybody on your team at any time, do this:
    1. In the options area, be sure to select "Allow participants to join anytime"
    1. Click "Save"
 1. Share the link to the room with your intended users
-
-### Settings for smaller meetings
-
-If you have a smaller meeting (4 or fewer participants) and want to allow for quicker starts, you could change the settings on a per meeting basis to remove the waiting room, or default audio to on (can be overridden by participants local settings).
-
-To quickly do this, you can:
-
-1. Ensure that you are signed into the Zoom extension that is installed by default in your GitLab Chrome profile
-1. When creating a meeting, click on `Make it a Zoom Meeting`
-1. Uncheck `Waiting Room`
-1. Ensure Host and Participant Video is `On`
-1. Ensure `Mute participants upon entry` is **unchecked**
-1. Click `Continue`
-
-This should allow for a bit more of a seamless transition into beginning a smaller meeting. The defaults for larger meetings are still what's documented above.

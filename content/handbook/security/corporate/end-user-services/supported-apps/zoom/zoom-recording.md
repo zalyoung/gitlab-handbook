@@ -3,13 +3,26 @@ title: Zoom Recording
 description: Zoom Recording - Setup and Configuration
 ---
 
+## Index
+
+- [Recording in Zoom](#recording-in-zoom)
+   - [Record All Participants using Gallery View](#record-all-participants-using-gallery-view)
+   - [Recording Zoom meetings in HD](#recording-zoom-meetings-in-hd)
+   - [Auto-Recording](#auto-recording)
+   - [Shared Drive Recording](#shared-drive-recording)
+   - [How to Identify the Meeting Host With Recording Permissions](#how-to-identify-the-meeting-host-with-recording-permissions)
+   - [How to allow recording when the host is not present](#how-to-allow-recording-when-the-host-is-not-present)
+      - [Using the website](#using-the-website)
+      - [Using the Zoom app](#using-the-zoom-app)
+   - [Recording video transcripts](#recording-video-transcripts)
+   
 ## Recording in Zoom
 
 In order to be able to record your Zoom meetings you must first enable recordings in your Zoom profile.\
 You can access this page at [Recording Settings](https://zoom.us/profile/setting?tab=recording).\
 You need to be signed in to have the ability to record.
 
-### Record All Participants using Galery View
+### Record All Participants using Gallery View
 
 Consider setting your default recording view to `Gallery view`.
 
@@ -48,7 +61,7 @@ You can also configure Zoom to save to the cloud automatically.
 
 <div class="w3-panel w3-yellow">
   <h3>Attention!</h3>
-  <p>Recordings saved using this method are visible to the entire company. Do not use this for meetings containing private or confidental information.</p>
+  <p>Recordings saved using this method are visible to the entire company. Do not use this for meetings containing private or confidential information.</p>
 </div> 
 
 - If the meeting topic in Zoom (editable by logging into <https://zoom.us/>) contains the text `[REC]`, these recordings will automatically be saved to a folder on Google Drive under `GitLab Videos Recorded` (accessible from [Google Hidden shared drives](https://drive.google.com/drive/shared-drives-hidden))

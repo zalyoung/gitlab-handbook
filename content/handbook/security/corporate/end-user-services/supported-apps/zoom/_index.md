@@ -5,9 +5,9 @@ description: Zoom usage and configuration guides
 
 Zoom is our primary audio-visual communications software, used for communicating internally and with external partners. In addition to simple video calls, the app also features many additional features such as automatic recording, and shared whiteboards.
 
-## A note on privacy and security
+## A Note on Privacy and Security
 
-The Zoom app is directly managed by EUS through Jamf. What this means is that we regularly push updates automatically to ensure thart the app reamins up-to-date in terms of features and security.
+The Zoom app is directly managed by EUS through Jamf. What this means is that we regularly push updates automatically to ensure that the app remains up-to-date in terms of features and security.
 
 We also review any new features for security risks added before we enable them for use within GitLab. As a result, there may be a delay in getting to use the latest features, or we may decide to block them altogether.
 
@@ -18,6 +18,6 @@ When using Zoom, please ensure the following:
 - Ensure you've followed the [laptop configuration guidelines](/handbook/security/corporate/end-user-services/laptop-management/laptop-security)
 - Update your Zoom profile and aconsider creating a customized [Personal link](/handbook/security/corporate/end-user-services/supported-apps/zoom/zoom-additional-config/#create-a-customized-personal-link)
 
-## Additional Help
+## Additional Support
 
 For additional help with Zoom, please reach out to us directly via #it_help in Slack or it-help@gitlab.com

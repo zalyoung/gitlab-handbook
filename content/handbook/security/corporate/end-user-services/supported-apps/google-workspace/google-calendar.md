@@ -7,12 +7,36 @@ Google Calendar is our primary tool for scheduling meetings and events. You can 
 
 This page aims to provide solutions for some of the most commonly asked questions we have received. For more in-depth support, please visit the [official Calendar support page](https://support.google.com/calendar/).
 
+## Index
+
+- [Calendar Access Requests](#calendar-access-requests)
+- [Create a Calendar Event](#create-a-calendar-event)
+- [Create Out of Office Events](#create-out-of-office-events)
+- [Access Permissions for Events](#access-permissions-for-events)
+- [Set Up Calendar Delegation](#set-up-calendar-delegation)
+- [Subscribe to Calendars](#subscribe-to-calendars)
+
 ## Calendar Access Requests
 
 You can use [this AR template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Google_Calendar_Request) to request the following:
 
 - Deletion of a calendar event
 - Access to someone's calendar
+
+## Create a Calendar Event
+
+1. Open [Calendar](http://calendar.google.com)
+1. On the top-left of the screen, click on the `+ Create` button, followed by `Event`
+    1. Alternatively you can also click directly on the time-slot where you'd like to schedule the event
+1. Customize the event by specifying a title, adding guests, and selecting which video conferencing option you'd like to use
+    1. Please see our [Google Calendar Zoom extension guide](/handbook/security/corporate/end-user-services/supported-apps/zoom/zoom-setup/#google-calendat) for more details
+
+## Create Out of Office Events
+
+1. Open [Calendar](http://calendar.google.com)
+1. On the top-left of the screen, click on the `+ Create` button, followed by `Out of office`
+1. Specify the timeframe for the Out of office event
+1. Specify how you would like to handle meeting invites while you are out of office
 
 ## Access Permissions for Events
 
@@ -37,3 +61,7 @@ You can use [this AR template](https://gitlab.com/gitlab-com/team-member-epics/a
 
 ## Subscribe to Calendars
 
+1. Open [Calendar](http://calendar.google.com)
+1. Locate the `Other calendars` section on the left of the screen
+1. Click the `+` button and select `Subscribe to calendars`
+1. Enter the email address of the user or group whose calendar you'd like to subscribe to
