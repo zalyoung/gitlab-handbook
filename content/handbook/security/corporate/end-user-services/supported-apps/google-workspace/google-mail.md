@@ -14,7 +14,7 @@ This page aims to provide solutions for some of the most commonly asked question
 - [Using Aliases](#using-aliases)
 - [Set Up Delegate Access](#set-up-delegate-access)
 - [Setting up Filters and Labels](#setting-up-filters-and-labels)
-    - [Labels](#labels)
+  - [Labels](#labels)
 - [Reporting Spam Messages](#reporting-spam-messages)
 - [Additional Support](#additional-support)
 

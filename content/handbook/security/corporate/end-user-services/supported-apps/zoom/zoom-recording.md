@@ -6,16 +6,16 @@ description: Zoom Recording - Setup and Configuration
 ## Index
 
 - [Recording in Zoom](#recording-in-zoom)
-   - [Record All Participants using Gallery View](#record-all-participants-using-gallery-view)
-   - [Recording Zoom meetings in HD](#recording-zoom-meetings-in-hd)
-   - [Auto-Recording](#auto-recording)
-   - [Shared Drive Recording](#shared-drive-recording)
-   - [How to Identify the Meeting Host With Recording Permissions](#how-to-identify-the-meeting-host-with-recording-permissions)
-   - [How to allow recording when the host is not present](#how-to-allow-recording-when-the-host-is-not-present)
-      - [Using the website](#using-the-website)
-      - [Using the Zoom app](#using-the-zoom-app)
-   - [Recording video transcripts](#recording-video-transcripts)
-   
+  - [Record All Participants using Gallery View](#record-all-participants-using-gallery-view)
+  - [Recording Zoom meetings in HD](#recording-zoom-meetings-in-hd)
+  - [Auto-Recording](#auto-recording)
+  - [Shared Drive Recording](#shared-drive-recording)
+  - [How to Identify the Meeting Host With Recording Permissions](#how-to-identify-the-meeting-host-with-recording-permissions)
+  - [How to allow recording when the host is not present](#how-to-allow-recording-when-the-host-is-not-present)
+    - [Using the website](#using-the-website)
+    - [Using the Zoom app](#using-the-zoom-app)
+  - [Recording video transcripts](#recording-video-transcripts)
+
 ## Recording in Zoom
 
 In order to be able to record your Zoom meetings you must first enable recordings in your Zoom profile.\
@@ -75,12 +75,12 @@ You can also configure Zoom to save to the cloud automatically.
 You can use one of the below methods to find this information after joining the meeting.
 
 1. Via participants sidebar
-   1. Navigate to the participants icon on the bottom of the window
-   1. You will be presented with the list of participants on the right panel of the window
-   1. The host will be listed in parentheses at the end of their name. (A resize of the participants window may be needed)
+  1. Navigate to the participants icon on the bottom of the window
+  1. You will be presented with the list of participants on the right panel of the window
+  1. The host will be listed in parentheses at the end of their name. (A resize of the participants window may be needed)
 1. Via meeting info pop-up
-   1. Navigate to the upper left corner, where you will be presented with an i icon
-   1. Select the icon to locate the meeting host who will have the ability to record the call
+  1. Navigate to the upper left corner, where you will be presented with an i icon
+  1. Select the icon to locate the meeting host who will have the ability to record the call
 
 ### How to allow recording when the host is not present
 

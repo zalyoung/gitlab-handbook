@@ -6,14 +6,14 @@ description: Schedule and host meetings
 ## Index
 
 - [Setting up a Zoom Meeting](#setting-up-a-zoom-meeting)
-    - [Allow for browser](#allow-for-browsers)
-    - [Large meeting considerations](#large-meeting-considerations)
-    - [Settings for smaller meetings](#settings-for-smaller-meetings)
+  - [Allow for browser](#allow-for-browsers)
+  - [Large meeting considerations](#large-meeting-considerations)
+  - [Settings for smaller meetings](#settings-for-smaller-meetings)
+  - [Create a Persistent Zoom Rooms](#create-a-persistent-zoom-rooms)
 - [During your Zoom Meeting](#during-your-zoom-meeting)
-    - [Join meetings with muted microphone](#join-meetings-with-muted-microphone)
-    - [Meeting Surveys](#meeting-surveys)
-    - [Zoom Clips](#zoom-clips)
-- [Create a Persistent Zoom Rooms](#create-a-persistent-zoom-rooms)
+  - [Join meetings with muted microphone](#join-meetings-with-muted-microphone)
+  - [Meeting Surveys](#meeting-surveys)
+  - [Zoom Clips](#zoom-clips)
 
 ## Setting up a Zoom Meeting
 
@@ -50,6 +50,21 @@ To quickly do this, you can:
 
 This should allow for a bit more of a seamless transition into beginning a smaller meeting. The defaults for larger meetings are still what's documented above.
 
+### Create a Persistent Zoom Rooms
+
+If you find yourself wanting to have a persistent Zoom "Room" for shared use by
+anybody on your team at any time, do this:
+
+1. Login to the Zoom website
+1. Go to the Meetings section
+1. Click "Schedule a Meeting"
+  1. Enter the desired topic (title)
+  1. Click "Recurring meeting"
+  1. Under "Recurrence", select "No Fixed Time"
+  1. In the options area, be sure to select "Allow participants to join anytime"
+  1. Click "Save"
+1. Share the link to the room with your intended users
+
 ## During your Zoom Meeting
 
 *Zoom can be [minimized](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063672#h_29171b3b-71eb-4b42-8bc4-30bf2f778d95) during a meeting (`cmd-m` on macOS) to a small window staying on top of all applications.
@@ -77,7 +92,7 @@ Meeting Surveys is enabled for everyone at GitLab, however to use it you will ne
 1. Go to your [meetings](https://gitlab.zoom.us/meeting#/upcoming)
 1. Select one of your meetings **or** schedule a new one
 1. If you are editing an existing meeting, click the `Survey` tab. If you are scheduling a new meeting, click `Save`, then click the `Survey` tab
-    1. **Note:** Meeting ID must be generated automatically for this to work, surveys does not work with personal meeting IDs
+  1. **Note:** Meeting ID must be generated automatically for this to work, surveys does not work with personal meeting IDs
 1. Click `Create new survey`
 1. At the end of the meeting, people will receive the survey to fill out
 
@@ -99,25 +114,10 @@ Zoom Clips is enabled for everyone at GitLab, however to use it you will need to
 
 1. Open the Zoom app on your computer
 1. On the top menu bar, click `Clips`
-    1. Note: If you have many products on your menu bar, click the More icon `(...)`` to access Clips
+  1. Note: If you have many products on your menu bar, click the More icon `(...)`` to access Clips
 1. Click on `Create Clip`
 
 **How to Access Your Clips**
 
 1. Sign in to the [Zoom web portal](https://zoom.us/signin)
 1. Go to [Clips](https://gitlab.zoom.us/clips/library) in the left sidebar
-
-## Create a Persistent Zoom Rooms
-
-If you find yourself wanting to have a persistent Zoom "Room" for shared use by
-anybody on your team at any time, do this:
-
-1. Login to the Zoom website
-1. Go to the Meetings section
-1. Click "Schedule a Meeting"
-   1. Enter the desired topic (title)
-   1. Click "Recurring meeting"
-   1. Under "Recurrence", select "No Fixed Time"
-   1. In the options area, be sure to select "Allow participants to join anytime"
-   1. Click "Save"
-1. Share the link to the room with your intended users

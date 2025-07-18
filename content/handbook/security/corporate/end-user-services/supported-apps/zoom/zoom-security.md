@@ -9,12 +9,12 @@ To ensure that only invited attendees join your meetings, please ensure to use p
 
 - [Enable Passcodes for all Meetings](#enable-passcodes-for-all-meetings)
 - [Enable Passcodes for Existing Meetings](#enable-passcodes-for-existing-meetings)
-    - [Method 1 (recommended)](#method-1-recommended)
-    - [Method 2](#method-2)
+  - [Method 1 (recommended)](#method-1-recommended)
+  - [Method 2](#method-2)
 - [Enable Authenticated-Only Meeting Attendees](#enable-authenticated-only-meeting-attendees)
-    - [Steps for a new Meeting](#steps-for-a-new-meeting)
-    - [Steps for Editing an Existing Meeting](#steps-for-editing-an-existing-meeting)
-    - [Enable for all Future Meetings](#enable-for-all-future-meetings)
+  - [Steps for a new Meeting](#steps-for-a-new-meeting)
+  - [Steps for Editing an Existing Meeting](#steps-for-editing-an-existing-meeting)
+  - [Enable for all Future Meetings](#enable-for-all-future-meetings)
 
 ## Enable Passcodes for all Meetings
 
