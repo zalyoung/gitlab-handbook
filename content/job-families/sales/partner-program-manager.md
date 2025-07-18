@@ -25,7 +25,26 @@ The Associate Ecosystem Program Manager is a [grade 5](/handbook/total-rewards/c
 
 ### Responsibilities
 
-To be defined at time of business need.
+The Associate Ecosystem Program Manager will support the design, management & execution of GitLab’s Partner Ecosystem Programs. In addition to the Ecosystem programs, the Associate Ecosystem Programs Managers will facilitate deal registration, sales and services engagement and partner success programs.
+- Collaborate across Channels & Alliances teams to gather requirements for Programs
+- Support the development and management of Partner Programs such as incentive, MDF, Reseller, Services, Alliances, Deal Registration and other programs
+- Contribute to the development of program guides that details requirements and benefits, terms and conditions, etc.
+- Support communications to partner via portal, newsletters, social channels.
+Contribute to the playbooks to help partner development and Ecosystems Sales engagement with partners.
+- Collect and manage feedback from partners into the ongoing sales and services roadmap for the Ecosystem Program.
+- Support cross-functional collaboration with Operations, Customer Success/Professional Services, Marketing, Finance, Field Enablement and technical teams to secure, operationalize and manage all the committed benefits to the partners.
+- Document policies and processes to support all aspects of the program and enable global execution.
+- Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field.
+- Manage and measure the results of programs. Iterate to improve.
+
+### Requirements
+- Bachelor’s degree with experience in channel programs.
+- Prior experience with developing partner programs, preferably in the DevOps space
+- Excellent communication, analytical and organizational skills.
+- Previous experience enabling partners to deliver services and solutions that grow revenue, expand customer footprint and drive renewals.
+- Execution & revenue focused
+- Great project & program management skills, ability to leverage, manage & lead virtual teams
+
 
 ### Requirements
 
@@ -273,3 +292,55 @@ Candidates for this position can expect the hiring process to follow the order b
 1. Video Interview with the Hiring Manager
 1. Team Interviews with 1-4 teammates
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+
+## Specialties
+Specialty responsibilities and requirements may extend or overlay Level roles for a team member who has a specialty role.
+
+## Lead Cloud Program Manager
+
+### Responsibilities
+The Lead Cloud Program Manager sets the direction and roadmap for all cloud programs. They will define and lead key initiatives to increase the value of AWS and Google Cloud partner programs to GitLab.
+
+- Responsible for the design, management & execution of GitLab’s global cloud sales and services programs.
+- Manage cloud incentive programs such as AWS MPPOP
+- Manage cloud marketplace programs such as Google Cloud MCPO or AWS CPPO.
+- Collaborate at senior levels of the Sales, Finance, Marketing, Product Marketing, Product Management, Enablement and other organizations and drive alignment around specific cloud programs with those organizations.
+- Collaborate across Global Ecosystem Sales teams to gather requirements for cloud programs, working closely with regional Ecosystem team Directors on program execution.
+- Design and create cloud program guides that detail requirements and benefits, terms and conditions, etc.
+- Manage internal, cloud-related communications to field sales and ecosystem sales. Support the development of cloud partner messaging and content for GitLab partner events such as Ecosystem Sales Kick-off and Ecosystem Partner Summits.
+- Document policies and processes to support all aspects of cloud programs.
+- Collaborate with the field enablement team for cloud program new hire information and cloud program updates.
+- Collect and manage feedback from GitLab field sales about cloud programs.
+- Establish and track program success metrics.
+
+### Requirements
+- Bachelor’s degree with demonstrated progressive experience in cloud programs.
+- Experience managing cloud programs from AWS and Google Cloud.
+- Excellent communication, analytical and organizational skills.
+- Experience working with cloud partner programs, specifically with AWS and Google Cloud.
+- Execution & revenue focused
+- Great project & program management skills, ability to leverage, manage & lead virtual teams
+
+
+## Cloud Cosell GTM Specialist
+
+A Cloud Cosell Go-To-Market (GTM) Specialist focuses on developing and executing strategies to facilitate coselling joint products and solutions to  ensure customer acquisition. They work with many GitLab associates including field sellers, sales leaders, ecosystem sales managers, marketers, solution architects, and product managers to drive adoption and growth of joint products. They also work in tandem with their cloud counterparts within the AWS NGDE team.
+
+### Responsibilities
+- GTM Strategies for evangelizing joint cloud products, including market positioning, messaging, and go-to-market plans.
+- Buyer/Market Feedback for cloud coselling. They also capture and share competitive information with product and product marketing.
+Product Positioning and Messaging:refining messaging and positioning for cloud products. 
+- Work closely with sales, marketing, product, and engineering teams to ensure alignment and effective execution of GTM plans. 
+- Cloud Evangelism to champion joint products and solutions to cloud sellers and related teams. Provide support at industry and joint marketing events. Work with GitLab field sales to deliver business value, demonstrate product functionality, and provide a comprehensive overview of key business use cases.
+- Customer Acquisition and Retention to acquire new customers and retain existing ones through effective GTM initiatives.
+
+### Requirements
+- Bachelor’s degree preferably with some experience in cloud coselling.
+- Strong understanding of cloud computing technologies and trends.
+- Strong cloud coselling experience preferably in the DevOps space.
+- Strong experience in driving Go-To-Market initiatives, technical partnerships, or similar roles.
+- Strong communication, presentation, and interpersonal skills.
+- Ability to work with a cross-functional team.
+- Strong analytical and problem-solving skills.
+- Strong business acumen and a passion for cloud computing.
+
