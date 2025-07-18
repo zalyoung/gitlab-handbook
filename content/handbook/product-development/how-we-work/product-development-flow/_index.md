@@ -406,6 +406,143 @@ After launch, the Product Manager and Product Designer should pay close attentio
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Benchmark the experience**: | Consider performing a [UX Scorecard](/handbook/product/ux/ux-scorecards/) to score and benchmark the usability of the experience in the product based on a core set of heuristics and create new issues when identifying opportunities for improvement. | Product Designer |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Take action on Learnings**: After you understand the qualitative and quantitative impact, you can take action on your learnings by creating new issues or updating existing open issues with more information. | - Open new issues or revise existing open issues for [follow-on iterations](/handbook/product/product-processes/#iteration-strategies) and improvements. <br/>- Ensure you've captured feedback in issues or as updates to your direction pages. <br/>- If applicable, update your category maturity score and timeline. <br/>- Share learnings with your group and stage. <br/>- Consider sharing learnings with the broader team. <br/>- Coordinate with your [PMM](/job-families/marketing/product-marketing-manager/) to understand if there are any relevant Go-To-Market motions you should consider updating. <br/> - Update experiment follow-up issue with results and specific next steps. <br/>- Potentially create issues or MRs for updates to the documentation site, to provide useful information in advance of potential product updates related to learnings. | Product Manager |
 
+## Release stages guidelines
+
+Teams should release features as generally available from the start unless there are strong reasons to release them as experimental, beta, or limited availability first.
+
+Product development teams should refrain from making changes that they believe
+could create significant risks or friction for GitLab users or the platform, such as:
+
+- Risking damage or exfiltration of existing production data accessed by our users.
+- Destabilizing other parts of the application.
+- Introducing friction into high Monthly Active User (MAU) areas.
+
+### Experiment features
+
+In addition to the [experiment details](https://docs.gitlab.com/policy/development_stages_support/#experiment) for users, experiments:
+
+- Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
+- Are a tool project leads can use to validate their feature, most commonly to validate the **problem**.
+- Are not required, can be skipped and indeed should be skipped if the problem is already validated, for example via user research or other methods.
+- Shouldn’t be used as a way to get feedback on something that is broken.
+- Shouldn’t be used to release a feature early.
+- Not all experiments are expected to become GA.
+- experiments should follow the scientific method and use a templated structure.
+- Have a testable hypothesis you need an answer to with clear success/failure criteria defined in advance.
+  - Design an experiment that has the ability to test that hypothesis.
+  - Run the experiment for the shortest possible time period.
+  - Report the results of the experiment (even if it’s just a few lines).
+  - Decide if the experiment was successful or not and next steps.
+  - Should ideally last only 1-2 milestones.
+- TODO: [DRI needed] Telemetry requirements should be added or linked to here.
+- TODO: [DRI needed] UX requirements for experiment should be added or linked to here.
+- TODO: [DRI needed] Engineering requirements for experiment should be added or linked to here.
+- Offer a way to opt in with minimal friction.
+- Link out to the [GitLab Testing Agreement](/handbook/legal/testing-agreement/) in the opt-in.
+- Have documentation that reflects that the feature is subject to the [GitLab Testing Agreement](/handbook/legal/testing-agreement/).
+- Have [UI that reflects the experiment status](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions).
+- Have a feedback issue to engage with internal and external users.
+- Not be announced in a release post.
+- Be promoted in the user interface through [discovery moments](https://design.gitlab.com/usability/feature-management/#discovery-moments),
+  if needed.
+
+All experimental features that [meet the review criteria](/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review)
+must [initiate Production Readiness Review](/handbook/engineering/infrastructure/production/readiness/#process)
+and complete the [experiment section in the readiness template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md#experiment).
+
+### Beta features
+
+In addition to the [beta details](https://docs.gitlab.com/policy/development_stages_support/#beta) for users, beta features:
+
+- Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
+- Are a tool project leads can use to validate their feature, most commonly to validate the solution.
+- Should be used when the problem is already validated and we have confidence in the solution but want to verify with customers.
+- Are not required, and can be skipped.
+- Shouldn’t be used as a way to get feedback on something that is broken.
+- Shouldn’t be used to release a feature early.
+- Have a high likelihood of becoming GA.
+- Project leads should consider using the CAB, EAP to recruit beta users.
+- Project leads should consider how external contributors can participate in betas.
+- Project leads running betas should define beta exit criteria, ideally before work begins and after discussion with UX and Engineering.
+- TODO: [DRI needed] Telemetry requirements should be added or linked to here.
+- TODO: [DRI needed] UX requirements for beta should be added or linked to here.
+- TODO: [DRI needed] Engineering requirements for beta should be added or linked to here.
+- Have documentation that reflects the beta status.
+- Have [UI that reflects the beta status](https://design.gitlab.com/usability/feature-management/#highlighting-feature-versions).
+- Have a feedback issue to engage with internal and external users.
+- Be announced in a release post that reflects the beta status, if desired.
+- Be promoted in the user interface through [discovery moments](https://design.gitlab.com/usability/feature-management/#discovery-moments),
+  if needed.
+
+All beta features that [meet the review criteria](/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review)
+must complete all sections up to and including the [beta section in the readiness template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md#beta)
+by following the [Production Readiness Review process](/handbook/engineering/infrastructure/production/readiness/#process).
+
+### Publicly available features
+
+Publicly available features must:
+
+1. Meet the [review criteria](/handbook/engineering/infrastructure/production/readiness/#criteria-for-starting-a-production-readiness-review).
+1. Complete the [Production Readiness Review](/handbook/engineering/infrastructure/production/readiness/).
+1. Complete all sections up to and including the [General availability section in the readiness template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md#general-availability).
+1. TODO: [DRI needed] Terms and conditions (or other agreements and legal) added or linked here.
+1. TODO: [DRI needed] Telemetry requirements added or linked to here.
+1. TODO: [DRI needed] Audit event requirements added or linked to here.
+1. TODO: [DRI needed] Geo (disaster recovery) required added or linked to here.
+1. TODO: [DRI needed] SLA added or linked to here.
+1. TODO: [DRI needed] Support level customers can expect added or linked to here.
+1. TODO: [DRI needed] Security requirements added or linked to here.
+1. TODO: [DRI needed] Information on level and number of known bugs allowed added or linked to here.
+1. TODO: [DRI needed] Scalability requirements added or linked to here.
+1. TODO: [DRI needed] Availability requirements added or linked to here.
+1. TODO: [DRI needed] UX requirements added or linked to here.
+1. TODO: [DRI needed] Future deprecation commitments added or linked to here.
+1. TODO: [DRI needed] Readiness as a platform (API, etc) information added or linked to here.
+
+### Provide earlier access
+
+Our [mission is "everyone can contribute"](/handbook/company/mission/),
+and that is only possible if people outside the company can try a feature. We get higher quality (more diverse) feedback
+if people from different organizations try something, so give users the ability to opt in to experimental
+features when there is enough value.
+
+Where possible, release an experimental feature externally instead of only testing internally
+or waiting for the feature to be in a beta state. We've learned that keeping features internal-only
+for extended periods of time slows us down unnecessarily.
+
+Experimental features are only shown when people/organizations opt in to experiments,
+so we are allowed to make mistakes here and literally experiment.
+
+### Experiment and beta exit criteria
+
+To ensure the phases before general availability are as short as possible each phase of experiment,
+beta, and limited availability should include exit criteria. This encourages rapid iteration and
+reduces [cycle time](/handbook/values/#reduce-cycle-time).
+
+GitLab Product Managers must take the following into account when deciding what exit criteria
+to apply to their experimental and beta features:
+
+- **Time**: Define an end date at which point the feature will be generally available.
+  - Consider setting a time-bound target metric that will define readiness for exit into general availability.
+    For example, X number of customers retained MoM over 6 months after launch of experiment,
+    X% growth of free and paid users in three months since launch beta, or similar.
+  - Be mindful of balancing time to market, user experience, and richness of experience.
+    Some beta programs have lasted one milestone while others have lasted a couple of years.
+- **Feedback**: Define the minimum number of customers that have been onboarded and interviewed.
+  - Consider also setting a time bound when using user feedback as an exit criteria for leaving a phase.
+    If a given time period elapses and we can not solicit feedback from enough users,
+    it is better to ship what we have and iterate on it as generally available at that point rather than maintain a pre-general availability state.
+- **Limited Feature Completion**: Determine if there is functionality that should be completed before moving to general availability.
+  - Be wary of including "just one more" feature. Iteration is easier and more effective with more feedback from more users,
+    so getting to general availability is preferred.
+- **System Performance metrics**: Determine the criteria that the platform has shown before being ready for general availability.
+  Examples include response times and successfully handling a specific number of requests per second.
+- **Success criteria**: Not all features will be generally available. It is OK to pivot if early feedback indicates that
+  a different direction would provide more value or a better user experience. If open questions must be answered
+  to decide if the feature is worth putting in the product, list and answer those.
+
+For the exit criteria of **AI features**, in addition to the above, see the [UX maturity requirements](/handbook/product/ai/ux-maturity/).
+
 ## Contributing to this page
 
 All merge requests to this page require informing Product Operations prior to merging. To make updates such as grammatical
