@@ -35,7 +35,6 @@ The Data Team strives to spend the majority of its time developing and operating
 | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | Prioritized through the Data Steering Committee and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
 | Business Operations | Data work and business engagement that is requested on an ad-hoc basis throughout the quarter. Includes foundational work to mature the Enterprise Data Ecosystem. | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/enterprise-data/how-we-work/planning/#twice-weekly-iteration-planning). |
 
-
 The allocation of capacity across Production Maintenance, Data Team OKRs, and Business Operations will be determined by each pillar on a quarter-by-quarter basis in the planning file. The target allocation varies by data team pillar and needs of the business. The allocation will consider the amount of Production Maintenance support needed from the pillar, strategic initiatives that the pillar needs to support, and business operations projects that require support. Within each Work Category, issues are prioritized independently and can use the scoped Priority Label with priorities 1, 2, or 3 as options.
 
 We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track and prioritize our issues across these work categories.
@@ -106,7 +105,7 @@ The Data Team backlog consists of all issues in the `workflow::2 - waiting for p
 
 #### Data Team Member Empowerment
 
-Data Team Members are empowered to make scheduling decisions independently for Business Operations projects, following GitLab's [Manager of One](/handbook/values/#manager-of-one) principle. Team members should:
+Data Team Members are empowered to make scheduling decisions independently for Business Operations projects, following GitLab's [Manager of One](/handbook/leadership/#managers-of-one) principle. Team members should:
 
 1. **Assess their current availability and workload** - Review ongoing commitments and capacity
 2. **Evaluate business impact and urgency** - Consider both immediate needs and strategic value
