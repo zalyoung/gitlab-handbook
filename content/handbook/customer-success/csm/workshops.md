@@ -56,7 +56,7 @@ The following are already developed, have been given to multiple customers and a
 - **GitLab Administration** *(for GitLab Admins of self-managed instances)* - Goes over GitLab components and architecture, installs, upgrades, admin area of the UI, common CLI commands, and back-ups
 - **Permissions & Access with GitLab** *(for GitLab Admins of self-managed instances)* - Goes over permission access at the Group, Subgroup, Project, and Member levels, and discusses how to effectively tie access in with supported authentication protocols for on and offboarding
 - **Administration on GitLab SaaS***(for GitLab Admins on GitLab.com)* - Goes over permissions, access, visibility, licensing, SaaS vs. Self Hosted, audit events and streaming, support, user activity, the future of GitLab Workspace, and all things that help admin roles using SaaS do their jobs
-- **Releases Environments & Deployments with GitLab** *(for anyone looking to do releases, use environments and create deployments in GitLab)* - Covers the basics for creating releases in GitLab including deployments and the use of environments within GitLab.  Includes dyanmic and static envrionments and deployments.
+- **Releases Environments & Deployments with GitLab** *(for anyone looking to do releases, use environments and create deployments in GitLab)* - Covers the basics for creating releases in GitLab including deployments and the use of environments within GitLab.  Includes dynamic and static environments and deployments.
 
 If you have additional sessions you want to contribute, please follow these instructions:
 
