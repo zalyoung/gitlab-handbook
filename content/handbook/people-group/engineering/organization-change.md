@@ -1,6 +1,6 @@
 ---
 title: Organization Change Automation Flow
-description: "Information on the automations we have in place to support the People Connect Team with organization change related tasks."
+description: "Information on the automations we have in place to support the People Operations Team with organization change related tasks."
 ---
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
@@ -13,7 +13,7 @@ Note: this section only discusses items in the offboarding where People Engineer
 
 ```mermaid
 graph TD
-  A[People Connect triggers Slack command for organization change issue] --> B
+  A[People Operations triggers Slack command for organization change issue] --> B
   B[Organization Change issue is created, team member is assigned] --> C
   C[Organization Change issue is automatically marked confidential] --> D
   D[Manager and Interview training issues are opened if people manager] --> E
@@ -22,11 +22,11 @@ graph TD
 
 ## Organization Change Checklist issue creation
 
-Once a People Connect Team member runs the organization checklist command through Slack, this triggers a pipeline in the `employment` project, which will run the job `transition`, and reply with a link to the newly createdorganization change issue.
+Once a People Operations Team member runs the organization checklist command through Slack, this triggers a pipeline in the `employment` project, which will run the job `transition`, and reply with a link to the newly createdorganization change issue.
 
 The issue will be automatically assigned to the following people:
 
-- People Connect Team member who ran the command
+- People Operations Team member who ran the command
 - the team member
 - the previous manager of the team member
 - the new manager of the team member
@@ -63,7 +63,7 @@ Organization Change templates can make use of the following placeholders to be r
 | `__MANAGER_HANDLE__` | New manager GitLab username |
 | `__MANAGER_NAME__` |  New manager display name |
 | `__PREVIOUS_MANAGER_HANDLE__` | Previous manger GitLab username |
-| `__PEOPLE_EXPERIENCE_HANDLE__` | People Connect Specialist GitLab username |
+| `__PEOPLE_EXPERIENCE_HANDLE__` | People Operations Specialist GitLab username |
 | `__NEW_ROLE_NAME__` | Job title of the new role. |
 | `__PREVIOUS_ROLE_NAME__` | Job title of the previous role. |
 | `__TRANSITION_DATE__` | The date of the transition into the new role. Format: YYYY-MM-DD |

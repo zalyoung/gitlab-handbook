@@ -9,7 +9,7 @@ We're thrilled that you will be joining GitLab! This guide will walk new hires t
 
 ## Meet the People Operations team
 
-The People Operations team will be your primary guide throughout onboarding and your journey at GitLab. A team member from the People Operations team will be assigned to your Onboarding Issue to provide guidance as you begin. Learn more about the team on our [team page](/handbook/company/team/?department=people-connect-team).
+The People Operations team will be your primary guide throughout onboarding and your journey at GitLab. A team member from the People Operations team will be assigned to your Onboarding Issue to provide guidance as you begin. Learn more about the team on our [team page](/company/team/?department=people-operations).
 
 ## Your Onboarding Journey
 
@@ -34,7 +34,7 @@ The People Operations team will be your primary guide throughout onboarding and 
 
 - Join our TaNEWki call to meet other new team members (invite sent 1-2 weeks before start).
 - You will receive an email from Okta (our SSO/security application portal) with an invite to register. Please do not take action on this email until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
-- Your GitLab email address will be created using your first name initial and full last name @gitlab.com. If you have a preferred first name or preferred last name, please send the People Operations team an email to people-connect@gitlab.com to let us know your preferred name. **Please note that some security restrictions may apply.**
+- Your GitLab email address will be created using your first name initial and full last name @gitlab.com. If you have a preferred first name or preferred last name, please send the People Operations team an email to people_operations@gitlab.com to let us know your preferred name. **Please note that some security restrictions may apply.**
 
 ### First day
 
@@ -71,7 +71,7 @@ The People Operations team will be your primary guide throughout onboarding and 
 
 #### Equipment
 
-- If your laptop hasn't arrived near your start date, email `it-help@gitlab.com` (cc: `people-connect@gitlab.com`)
+- If your laptop hasn't arrived near your start date, email `it-help@gitlab.com` (cc: `people_operations@gitlab.com`)
 - New to Mac? Check our [handbook page](/handbook/tools-and-tips/mac/) for helpful tips or explore [YouTube tutorials](https://www.youtube.com/watch?v=Ag3NWYr5CD8)
 
 ### New Hire FAQ: Everything You Need to Know
@@ -102,7 +102,7 @@ A: Yes! All new team members receive $1,500 USD (or local equivalent) via a [vir
 
 **Q: When will my first paycheck be?**
 
-A: After your date of hire you can check the payroll cut-off dates in our internal handbook to determine your first pay date. **Please note the internal handbook can only be accessed once you have started at GitLab**. If you're hired after the cut-off date, the prorated amount will be included in the following month's paycheck.  If you have any questions prior to your start date on the payroll cut off in respect to your start date, please reach out to us via `people-connect@gitlab.com`.
+A: After your date of hire you can check the payroll cut-off dates in our internal handbook to determine your first pay date. **Please note the internal handbook can only be accessed once you have started at GitLab**. If you're hired after the cut-off date, the prorated amount will be included in the following month's paycheck.  If you have any questions prior to your start date on the payroll cut off in respect to your start date, please reach out to us via `people_operations@gitlab.com`.
 
 **Q: How should I handle pre-planned vacations?**
 
