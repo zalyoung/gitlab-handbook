@@ -39,3 +39,4 @@ status: active
 | Member             | Daniel Hauenstein       | Application Security Engineer, Product Security |
 | Member             | Dillon Wheeler          | Backend Engineer, AI-powered:Duo Chat           |
 | Member             | Vitor Meireles De Sousa | Senior Manager, AppSec, Product Security        |
+| Member             | Katherine Wu            | Application Security Engineer, PSIRT, Product Security        |
