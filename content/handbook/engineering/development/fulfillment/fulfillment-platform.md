@@ -21,23 +21,7 @@ The Platform group manages the [Platform category](/handbook/product/categories/
 
 ## Performance indicators
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
-You can find the centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/).
+Centralized engineering metrics are available at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 For Product Performance Indicators please visit the [internal handbook](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/).
 
