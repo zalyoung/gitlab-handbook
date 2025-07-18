@@ -18,15 +18,15 @@ Furthermore, other pipelines use S3 buckets to store data, such as:
 
 - An AR requesting role_name `DataEngineeringAccess` should be filled out, more details in this [issue comment](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/23442#note_1489116380).
 
-## awscli
+## AWS CLI
 
 Occasionally, you will need to do actions via the command line. For example, if you would like to do query a file in S3, but it exceeds the file size limit to use the UI's 'S3 Select', you will have to query it from the command line instead.
 
-### Installing awscli
+### Installing AWS CLI
 
-In the 'Onboarding template', you should have already installed [awscli](https://aws.amazon.com/cli/). If not, install it now.
+In the 'Onboarding template', you should have already installed [AWS CLI](https://aws.amazon.com/cli/). If not, install it now.
 
-### Authenticating with awscli
+### Authenticating with AWS CLI
 
 1. Via Okta, go to your `AWS access portal`
 1. For `gitlab SaaS production` account, next to `DataEngineeringAccess` role, click `Access keys`
