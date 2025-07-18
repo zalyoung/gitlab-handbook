@@ -72,12 +72,16 @@ Additionally, a [`Test::Omnibus::UpdateToNext`](https://gitlab.com/gitlab-org/gi
    - `e2e:test-on-omnibus-ee` / `e2e:test-on-omnibus-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
    - `e2e:test-on-omnibus-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
    - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from stable releases to pre-release packages built within the MR.
+1. `Test::Omnibus::UpdateToNext` scenario is run with:
+   - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from pre-release packages built within the MR to stable releases.
+
+##### Test running in release pipelines
+
+1. `Test::Omnibus::UpdateFromPrevious` scenario is run with:
    - [Monthly](https://gitlab.com/gitlab-org/release-tools/-/blob/8e91ba8c1a53e8f7cf3ec58b941c72b3258cd941/lib/tasks/monthly.rake#L254)
      and
      [Patch](https://gitlab.com/gitlab-org/release-tools/-/blob/4bb7fc754df6d32c372f3683dfada93525a31a29/lib/tasks/security.rake#L415)
      release pipelines to test upgrades from the current latest released version to the upcoming version.
-1. `Test::Omnibus::UpdateToNext` scenario is run with:
-   - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from pre-release packages built within the MR to stable releases.
 
 #### Performance environments nightly upgrades
 
