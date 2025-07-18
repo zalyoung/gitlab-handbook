@@ -11,8 +11,8 @@ description: "GitLab People Operations Department Handbook"
 
 Here are how the team members divide their work to ensure the best results:
 
-- The **People Connect Team** is responsible for onboarding, career mobility, offboarding, bonus processing, People Connect, personal information oversight, new hire/anniversary swag, and more. This team is also responsible for job changes (promotions and transfers), relocations, basic People data reporting, and process liaisons during new policy and program implementations.
-- The **Employment Solutions Team** is responsible for our country and location roadmap as we consider which countries to hire in, and which employment solution is best.  The team participates in the 'Business Expansion Committee' to develop a plan of country conversions, new country creations and changes in employment solutions to reduce risk and improve the team member experience.  This team also supports relocations and visa/sponsorship inquiries and needs.
+- The **People Operations Team** is responsible for onboarding, career mobility, offboarding, bonus processing, People Connect, personal information oversight, new hire/anniversary swag, and more. This team is also responsible for job changes (promotions and transfers), relocations, basic People data reporting, and process liaisons during new policy and program implementations.
+- The **International Expansion Team** is responsible for our country and location roadmap as we consider which countries to hire in, and which employment solution is best.  The team participates in the 'Business Expansion Committee' to develop a plan of country conversions, new country creations and changes in employment solutions to reduce risk and improve the team member experience.  This team also supports relocations and visa/sponsorship inquiries and needs.
 - The **[People Compliance](/handbook/people-group/people-compliance/) Team** works collaboratively to partner, manage and protect our Team Members personal and professional information, ensuring documentation confidentiality, and implements global compliance requirements to help meet internal  stakeholder expectations.
 - The **People Tools & Technology Team**
 - The **[People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics)** is responsible for working with stakeholders to develop and report various People Metrics and KPIs for the business. Additional insight is also providing using statistical analysis or experimental design to help understand effects of different People related initiatives.
@@ -30,7 +30,7 @@ People Operations is a Department under the [People](/handbook/people-group) Div
 
 ### HelpLab
 
-The People Operations Department primarily uses HelpLab as the primary tool for all GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Connect team.
+The People Operations Department primarily uses HelpLab as the primary tool for all GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Operations team.
 
 You can also tag subsets of the People Operations Team in other slack channels using:
 
@@ -58,11 +58,11 @@ The People Operations, Technology & Analytics Team primarily uses these sub-grou
 
 You can tag the People Operations in GitLab using:
 
-- '@gl-people-connect-team' - this notifies the entire People Connect team
+- '@gl-ops-team' - this notifies the entire People Operations team
 
 ### People Operations Team Handbook Navigation
 
-- [People Connect team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
+- [People Operations team](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/people_operations_team/)
 - [People Engineering Handbook](/handbook/people-group/engineering)
 - [People Compliance](/handbook/people-group/people-compliance)
 - [People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics/)

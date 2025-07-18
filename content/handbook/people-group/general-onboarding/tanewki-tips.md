@@ -9,7 +9,7 @@ We're thrilled that you will be joining GitLab! This guide will walk new hires t
 
 ## Meet the People Operations team
 
-The People Operations team will be your primary guide throughout onboarding and your journey at GitLab. A team member from the People Operations team will be assigned to your Onboarding Issue to provide guidance as you begin. Learn more about the team on our [team page](/company/team/?department=people-operations).
+The People Operations team will be your primary guide throughout onboarding and your journey at GitLab. A team member from the People Operations team will be assigned to your Onboarding Issue to provide guidance as you begin.
 
 ## Your Onboarding Journey
 

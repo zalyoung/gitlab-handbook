@@ -74,7 +74,7 @@ An issue is created for new team members at least 4 business days prior to their
 
 ### <i class="fas fa-tasks fa-fw color-orange font-awesome"></i>Compliance
 
-The [Senior People Operations Specialist](/job-families/people-group/people-connect) completes a monthly audit of all open onboarding issues to ensure that the new team member, manager and People Operations team tasks are completed. More importantly, there are certain tasks which need to be completed in line with our company compliance (security, payroll, etc).
+The Senior People Operations Specialist completes a monthly audit of all open onboarding issues to ensure that the new team member, manager and People Operations team tasks are completed. More importantly, there are certain tasks which need to be completed in line with our company compliance (security, payroll, etc).
 
 If any tasks are still outstanding, the People Operations Specialist will ping the relevant members on the issue requesting action on the items or checking whether the issue can be closed.
 

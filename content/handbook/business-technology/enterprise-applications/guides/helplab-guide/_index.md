@@ -23,7 +23,7 @@ ServiceNow (aka HelpLab) is going to be live on 2024-04-25.
 
 The following teams are available through HelpLab:
 
-- [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/)
+- [People Operations](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/)
 - [People Compliance](/handbook/people-group/people-compliance/)
 - [Background Checks](/handbook/people-group/contracts-probation-periods/#background-screenings)
 - [Global Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)

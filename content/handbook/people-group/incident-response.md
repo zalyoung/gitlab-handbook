@@ -5,7 +5,7 @@ description: An outline of action to be taken in the instance that a team member
 
 ## Incident Response Plan
 
-When an extreme weather event; natural disaster or any other catastrophe occurs in a location that is near the location of a team member, People Connect will send a notification email to all relevant team members and their manager, using the [template](https://gitlab.com/gitlab-com/people-group/General/-/blob/master/.gitlab/email_templates/natural_disaster_notification.md) found in the People Group project as a guideline - all communications must be reviewed and approved by leadership and in certain instances will be released by a member of the executive group.
+When an extreme weather event; natural disaster or any other catastrophe occurs in a location that is near the location of a team member, People Risk and Safety will send a notification email to all relevant team members and their manager, using the [template](https://gitlab.com/gitlab-com/people-group/General/-/blob/master/.gitlab/email_templates/natural_disaster_notification.md) found in the People Group project as a guideline - all communications must be reviewed and approved by leadership and in certain instances will be released by a member of the executive group.
 
 ### When to initiate Incident Response
 

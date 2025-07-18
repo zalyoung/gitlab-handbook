@@ -4,7 +4,7 @@ title: "Travel Safety and Security"
 
 ### Travel Safety and Security
 
-Team member safety and security are a top priority for GitLab. If a team member feels uncomfortable or unsafe traveling to a location on GitLab's behalf due to concerns about the location, region, personal health, or other safety or security risks, please contact [People Connect](https://gitlab.slack.com/archives/C02360SQQFR) via Slack or email. The People Connect team will assist by helping to connect the team member with the right resources.
+Team member safety and security are a top priority for GitLab. If a team member feels uncomfortable or unsafe traveling to a location on GitLab's behalf due to concerns about the location, region, personal health, or other safety or security risks, please contact the People Operations team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) or email. The People Operations team will assist by helping to connect the team member with the right resources.
 
 **Please note that team member travel is not required unless deemed essential to the role. Please speak to your manager about whether the travel is mandatory and required for your role.**
 

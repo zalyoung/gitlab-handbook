@@ -37,7 +37,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 
 Contractors of GitLab IT BV are eligible for the [general benefits](/handbook/total-rewards/benefits/), but are not eligible for entity specific benefits. A contractor may bear the costs of their own health insurance, social security taxes, payroll administration, or tax details.
 
-Our contractor agreements and employment contracts are all on the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
+Our contractor agreements and employment contracts are all on the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/) page in the internal handbook.
 
 ## Spending Company Money
 
@@ -140,7 +140,7 @@ Your coverage as a GitLab team member is automatic and is year-round. There are 
   - If team members prefer not to download the app, we encourage you to follow this [link](https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerNumber=401GDA935395IT&CompanyID=GitLab%2c+Inc.&ProgramName=Assignee+%26+International+Traveler+Assistance&PhoneNum1=Philadelphia+++%2b1+215+942+8226&PhoneNum2=Sydney+++%2b61+2+9372+2468&PhoneNum3=London+++%2b44+(0)20+8762+8008&PhoneNum4=Singapore+++%2b65+6338+7800&Language=en-US) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
   - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
 
-If you have questions, reach out in the [#peopleconnect](https://gitlab.enterprise.slack.com/archives/C02360SQQFR) Slack channel.
+If you have questions, reach out to the People Operations team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d).
 
 ## Business Travel Accident Policy
 

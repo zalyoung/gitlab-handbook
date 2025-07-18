@@ -198,10 +198,6 @@ and together they spell the **CREDIT** we give each other by assuming good inten
 
 Feel free to adopt or remix our values for your remote-first team.
 
-## How to evaluate your existing onboarding process
-
-In the spirit of [transparency](/handbook/values/#transparency), GitLab's People Connect Team will evaluate the onboarding process by having new employees fill out an [Onboarding Survey](https://docs.google.com/forms/d/1sigbOqWKuEtGyLROghvivgWErRnfbUI1_-57XhAwu_8/edit).
-
 ## High-touch and low-touch flexibility
 
 The beauty of an all-remote setting is that onboarding can be as high-touch or low-touch as a new hire wishes. Those who prefer visual learning can engage in a series of video calls and screen share sessions to walk through each element of their onboarding issue. Those who prefer more self-learning can benefit from thorough documentation and readily-available resources for self-guided learning.

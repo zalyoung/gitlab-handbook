@@ -34,7 +34,6 @@ _\* Compensation at GitLab is currently being updated as part of our Job Archite
 | Who  | Job Title |
 |------|-----------|
 | Allia McCrank | VP, Total Rewards |
-| Angela Chung | Director, Executive Compensation & Equity |
 | Denise Parsonage| Director, Global Benefits Strategy|
 | Raisha Kole | Senior Benefits Program Manager |
 | Vanessa Crisostomo | Senior Benefits Analyst |
@@ -50,4 +49,4 @@ _\* Compensation at GitLab is currently being updated as part of our Job Archite
 
 For feedback or questions relating to compensation, benefits and equity, you can reach out to us via:
 
-* **[HelpLab:](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)** To get in touch with People Connect who can answer your question or help direct it to the proper person/team.
+* **[HelpLab:](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)** To get in touch with People Operations who can answer your question or help direct it to the proper person/team.

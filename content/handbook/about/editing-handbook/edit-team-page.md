@@ -19,7 +19,7 @@ Ask anyone in the company for help if you need it, including the `#mr-buddies` S
 
 Choose the method below that feels most comfortable and have the following information handy:
 
-- Name of the People Connect Team member helping you with onboarding.
+- Name of the People Operations Team member helping you with onboarding.
 <a name="picture-requirements"></a>
 - A picture of yourself for the team page
   > **Picture Requirements**
@@ -98,7 +98,7 @@ For more information on setting the `Export Name/Location to Team Page?` opt-in 
 1. Once on the `Create a new merge request` page, in the `Description` box, under the `Why is this change being made?` heading, explain what changes are being made and why. For this specific MR, you can enter something like: `Adding my information and picture to the team page as part of onboarding tasks.` For this MR, you do not need to change anything else in the description text.
 1. Scroll down and `Create merge request`.
 1. Review the Author Checklist in the description, and check off all applicable tasks.
-1. Add your People Connect onboarding team member and Manager as Reviewers. On the right side, you'll see a section for reviewers, and you can add them by editing the list and searching for their names or usernames.
+1. Add your People Operations onboarding team member and Manager as Reviewers. On the right side, you'll see a section for reviewers, and you can add them by editing the list and searching for their names or usernames.
 1. Once they have reviewed and do not request any changes, they should approve and merge the MR.
 
 ### Method 2: Add your info on GitLab.com using the 'web interface'
@@ -117,7 +117,7 @@ For more information on setting the `Export Name/Location to Team Page?` opt-in 
 1. Now [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created by clicking `Create merge request` button.
 1. Once on the `Create a new merge request` page, in the `Description` box, under the `Why is this change being made?` heading, explain what changes are being made and why. For this specific MR, you can enter something like: `Adding my information and picture to the team page as part of onboarding tasks.` For this MR, you do not need to change anything else in the description text.
 1. Click `Create merge request`.
-1. At the upper right of the new page, click `edit` next to `Reviewer`. Set your People Connect onboarding team member and your manager as reviewer for this merge request.
+1. At the upper right of the new page, click `edit` next to `Reviewer`. Set your People Operations onboarding team member and your manager as reviewer for this merge request.
 
 ### Method 3: Add your info using a Local Git clone (using the terminal and an IDE)
 

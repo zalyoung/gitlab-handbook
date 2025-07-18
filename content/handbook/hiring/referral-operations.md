@@ -5,9 +5,9 @@ description: "This page is for information regarding the backend process of the 
 
 This page is for information regarding the "backend" of the [Referral Process](/handbook/hiring/referral-process/).
 
-#### Adding a Referral to Workday (People Connect Team)
+#### Adding a Referral to Workday (People Operations Team)
 
-People Connect will review the following guidelines to ensure the correct amount is being awarded with the One Time Payment in Workday.
+People Operations will review the following guidelines to ensure the correct amount is being awarded with the One Time Payment in Workday.
 
 1. Ensure that the current team member is eligible for a referral based upon the [requirements](/handbook/hiring/referral-process/#referral-bonus-eligibility).
 1. Review when the referral was submitted in Greenhouse
