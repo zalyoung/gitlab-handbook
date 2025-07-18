@@ -1,96 +1,136 @@
 ---
-title: UX Research Operations Coordinator
+title: UX Research Operations Specialist
 ---
 
-At GitLab, UX Research Operations Coordinators collaborate with our Product Designers, Product Managers, UX Researchers, and the rest of the community to manage participant recruitment for UX studies. UX Research Operations Coordinators also drive process improvement in research operations at GitLab. UX Research Operations Coordinators report to the UX Research Director. Unless otherwise specified, all UX Research Operations Coordinator roles at GitLab share the following responsibilities and requirements:
+At GitLab, UX Research Operations Specialists enable and scale user research capabilities across the organization by designing and managing the research infrastructure and processes, and driving participant engagement to maximize research efficiency and outcomes quality.
 
-## Responsibilities
+## Core Responsibilities
 
-- Drive all aspects of the UX research operations coordination program across GitLab
-- Maintain deep working knowledge of the participant recruitment process
-- Use GitLab for the intake of questions, concerns, and requests related to participant recruitment
-- Maintain tight communication with team members to relay status of requests
-- Anticipate and troubleshoot recruitment challenges as they arise
-- Determine the best possible recruitment source for a given study
-- Understand the pros and cons of each recruitment source
-- Proactively report out key data
-- Use participant panels for recruitment
-- Stay aware of and implement GDPR (General Data Protection Regulation) policies
-- Develop and manage participant panel growth strategies
-- Establish best practices for participant recruitment
+- Participant Recruitment & Management: Coordinate all aspects of participant recruitment, screening, scheduling, and panel management for user research studies
+- Research Process Optimization: Continuously examine, experiment, and improve research operations processes to increase efficiency and quality
+- Tool & Vendor Management: Administer research toolsets, manage vendor relationships, and evaluate new tools to support research needs
+- Documentation & Training: Maintain comprehensive documentation, create training materials, and support researchers with self-service guidance
+- Governance & Compliance: Ensure research operations adhere to legal, privacy, and compliance requirements in collaboration with relevant teams
+- Insight Repository Management: Work with the UX Researchers to maintain centralized repositories for research insights and findings
+- Internal & External Outreach: Drive initiatives to grow research awareness, participant panels, and research culture across the organization
+- Cross-functional Collaboration: Partner with Product Designers, Product Managers, UX Researchers, and other stakeholders to understand and fulfill research operations needs
 
-## Requirements
+## Core Requirements
 
-- [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills.
-- Share our [values](/handbook/values/), and work in accordance with those values.
-- Simultaneously manage multiple projects and time-driven tasks
-- Strong communication and collaboration skills to keep teams informed on progress
-- Critical thinking and creative problem solving
-- Adaptability and flexibility
-- Empathetic, curious, and open-minded
-- Attention to details
-- Ability to thrive in a fully remote organization
-- Ability to use GitLab
+- Organizational Excellence: Exceptional organizational skills with ability to manage multiple concurrent projects and priorities
+- Communication & Collaboration: Strong written and verbal communication skills with ability to work effectively across diverse teams
+- Problem-Solving Mindset: Critical thinking and creative problem-solving abilities to address operational challenges
+- Adaptability: Flexibility to thrive in a fast-paced, evolving environment with changing priorities
+- Attention to Detail: Meticulous attention to detail in process execution and documentation
+- Values Alignment: Share our [values](/handbook/values/), and work in accordance with those values.
 
-### UX Research Operations Coordinator (Intermediate)
+### UX Research Operations Specialist (Intermediate)
 
-The UX Research Operations Coordinator (Intermediate) reports to a [UX Research Manager](/job-families/product/ux-research-manager/#manager-ux-research).
+The UX Research Operations Specialist (Intermediate) reports to a [UX Research Manager](/job-families/product/ux-research-manager/#manager-ux-research).
 
 #### Job Grade
 
-The UX Research Operations Coordinator (Intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The UX Research Operations Specialist (Intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### UX Research Operations Coordinator (Intermediate) Responsibilities
+#### Responsibilities
 
-- Manage all aspects of participant recruitment for user experience research studies, including but not limited to: recruiting from multiple sources, outreach, screening, scheduling, participation agreements, privacy, and incentives management.
-- Identify team needs and gaps. Continuously examine, experiment, and measure improvements to our research operations and processes.
-- Grow, foster, and administer new participant panels.
-- Maintain UX research operations handbook documentation with accurate, standardized, and transparent processes and procedures.
-- Create, document and follow our recruitment best practices and use the most appropriate databases / tools to filter and screen participants.
-- Create and manage libraries of templates for team members to use, for example, but not limited to, recruitment screeners, issue templates, email templates.
-- Manage Research Operations budget / credits allocated by tracking and forecasting spending on incentives, credits spent on studies, and working with the UX Research Manager to adjust accordingly.
-- Collaborate with Product Designers, Product Managers, and UX Researchers to effectively understand their research recruitment needs and to drive their requests to successful completion.
-- Manage relationships with third-party providers, such as recruitment platforms, digital rewards solutions, etc.
-- Respond to inquiries from research participants.
-- Monitor progress of research operations by creating, maintaining, and communicating monthly reports on key data points such as: budget, number of participants by research study type, forecasting, and other metrics.
-- Keep training materials and handbook instructions for Study DRIs / UX Researchers up to date, so they adhere to best practices when conducting their own recruitment.
-- Administration of our research toolsets:  Qualtrics, UserTesting.com, Dovetail, Respondent, Rybbon, Rally, etc.
-- Work with Procurement, Legal and Security, on onboarding new tools, payments of POs, contract renewals etc.
+- Execute established participant recruitment processes across multiple research studies simultaneously
+- Manage participant outreach, screening, scheduling, and incentive distribution according to established protocols
+- Maintain accurate documentation of recruitment activities and participant interactions
+- Administer research tools and platforms under guidance from senior team members
+- Support researchers with logistics coordination and basic operational needs
+- Respond to participant inquiries and resolve standard recruitment challenges
+- Assist in maintaining research participant panels and databases
+- Track and report on basic operational metrics such as recruitment timelines and participant satisfaction
+- Collaborate with internal teams to understand research requirements and timelines
+- Follow established compliance and privacy protocols in all participant interactions
 
-#### UX Research Operations Coordinator (Intermediate) Requirements
+#### Requirements
 
-- Willingness to grow SQL skills.
-- Exquisite organizational skills: regularly managing multiple research projects at a time.
-- Experience in UX Research Operations Coordination or a related role that involves administration and coordination.
-- In-depth experience with scheduling sessions and communicating with internal and external participants/stakeholders.
-- Excellent written and verbal communication skills.
-- Experience with using a ticket-based system to track work requests.
-- Able to use GitLab for communication and work management
+- Experience with scheduling systems and research tools and platforms
+- Proficiency in using GitLab for tracking and managing work
+- Strong service orientation with experience managing stakeholder relationships
 
-### Senior UX Research Operations Coordinator
+### Senior UX Research Operations Specialist
 
 The Senior UX Research Operations Coordinator reports to a [UX Research Manager](/job-families/product/ux-research-manager/#manager-ux-research).
 
-#### Senior UX Research Operations Coordinator Job Grade
+#### Job Grade
 
-The UX Research Operations Coordinator is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The UX Research Operations Specialist is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior UX Research Operations Coordinator Responsibilities
+#### Responsibilities
 
-- Extends the UX Research Operations Coordinator (Intermediate) responsibilities.
-- Proactively identify, build, and streamline processes that result in efficient research operations.
-- Proactively solicit requirements and feedback from Product Designers, Product Managers, and UX Researchers to further optimize research operations.
-- Act as the strategic owner of our research participant panels, advancing their overall health, growth, and usage within GitLab.
-- Working with the relevant teams to establish, drive, and/or identify social events to grow our participant panel.
-- Be the social media ambassador for UX Research at GitLab. Maintain social media accounts that promote our research efforts and aid participant recruitment.
-- Formalize the research operations coordination effort into a program of work with extensive processes and documentation to improve visibility and increase efficiency.
-- Define and deliver on a UX research operations roadmap that improves efficiency and addresses gaps.
-- Evangelize the value of UX research along with completed research efforts and insights across GitLab and to our customers.
+- Execute all UX Research Operations Specialist responsibilities with increased autonomy and complexity
+- Analyze and optimize existing recruitment and operational processes to improve efficiency and quality
+- Own vendor relationships and quarterly reviews for research tools and services, assist the UX Research Leadership on contract management and renewal processes
+- Develop and maintain standardized templates, workflows, and best practices for research operations
+- Create and deliver training materials for researchers on self-service processes and tools
+- Manage research operations budget tracking, forecasting, and reporting
+- Lead participant panel growth strategies and engagement initiatives
+- Collaborate with Legal, Compliance, and Privacy teams on governance requirements
+- Report on ReOps metrics every other quarter with UXR leadership’s guidance
+- Mentor junior team members and provide guidance on complex operational challenges
 
-#### Senior UX Research Operations Coordinator Requirements
+#### Requirements
 
-- Extends the UX Research Operations Coordinator (Intermediate) requirements.
-- Experience in UX Research Operations Coordination or a related role that involves administration and coordination.
+- Demonstrated experience in process improvement and operational optimization
+- Strong analytical skills with ability to interpret data and create actionable recommendations
+- Experience managing vendor relationships and assessment
+
+### Staff UX Research Operations Specialist
+
+The Staff UX Research Operations Coordinator reports to a [Senior UX Research Manager](/job-families/product/ux-research-manager/#manager-ux-research).
+
+#### Job Grade
+
+The Staff UX Research Operations Specialist is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Execute complex operational work while driving strategic initiatives across the research organization
+- Develop and implement research operations strategy aligned with organizational goals and research needs
+- Establish governance frameworks and standards for research operations across all teams
+- Lead cross-functional initiatives to improve research efficiency and impact measurement
+- Design and implement scalable systems for research data management and insight repository
+- Drive internal and external outreach programs to build research culture and participant engagement
+- Partner with UX Research leadership to identify and address operational gaps and opportunities
+- Lead complex tool implementations and system integrations
+- Establish metrics and reporting frameworks to measure research operations effectiveness
+- Influence product and business strategy through expanding the reach and impact of research insights and recommendations
+
+#### Requirements
+
+- Experience leading cross-functional initiatives and driving organizational change
+- Strong systems thinking with ability to design scalable operational frameworks
+- Proven track record of building and optimizing research operations programs
+
+### Principal UX Research Operations Specialist
+
+The Principal UX Research Operations Coordinator reports to a [Senior UX Research Manager](/job-families/product/ux-research-manager/#manager-ux-research).
+
+#### Job Grade
+
+The Principal UX Research Operations Specialist is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Execute critical operational work while setting vision and strategy for research operations
+- Communicate and drive the strategic vision for research operations across the organization
+- Establish industry best practices and drive innovation in research operations methodology
+- Lead initiatives that directly impact business outcomes through improved research capabilities
+- Build and maintain research culture across the organization through strategic outreach and education
+- Partner with UXR leadership to align research operations with company strategy
+- Establish thought leadership in the research operations community through external speaking and content creation
+- Mentor and develop people who do research on research operations across all teams
+- Lead strategic vendor partnerships and evaluate emerging technologies for research operations
+- Drive measurement and communication of research operations impact on business metrics
+
+#### Requirements
+
+- Demonstrated experience in strategic planning and vision setting for operational functions
+- Strong leadership and mentoring capabilities with ability to influence at all organizational levels
+- Experience in external thought leadership and industry engagement
 
 ## Hiring Process
 
