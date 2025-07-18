@@ -103,6 +103,7 @@ flowchart LR
 
     subgraph Package manager
        pip[pip]
+       poetry[poetry]
     end
 
     subgraph Images
