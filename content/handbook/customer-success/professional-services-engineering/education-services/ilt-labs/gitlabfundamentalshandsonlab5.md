@@ -34,7 +34,7 @@ Before we start creating a CI/CD process, we need some code to run our CI/CD pro
 
 1. Select **Commit changes**.
 
-1. Write an appropriate message for the commit, and changge the name of the branch to `initial-code`.
+1. Write an appropriate message for the commit, and change the name of the branch to `initial-code`.
 
 1. Make sure that the merge request checkbox is checked, and click **Commit changes**.
 
