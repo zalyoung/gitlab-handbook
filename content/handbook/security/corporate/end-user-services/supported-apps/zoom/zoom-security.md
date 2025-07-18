@@ -5,14 +5,25 @@ description: Configure passcodes and authentication
 
 To ensure that only invited attendees join your meetings, please ensure to use passcodes wherever possible.
 
-## Enable passcodes for all meetings
+## Index
+
+- [Enable Passcodes for all Meetings](#enable-passcodes-for-all-meetings)
+- [Enable Passcodes for Existing Meetings](#enable-passcodes-for-existing-meetings)
+  - [Method 1 (recommended)](#method-1-recommended)
+  - [Method 2](#method-2)
+- [Enable Authenticated-Only Meeting Attendees](#enable-authenticated-only-meeting-attendees)
+  - [Steps for a new Meeting](#steps-for-a-new-meeting)
+  - [Steps for Editing an Existing Meeting](#steps-for-editing-an-existing-meeting)
+  - [Enable for all Future Meetings](#enable-for-all-future-meetings)
+
+## Enable Passcodes for all Meetings
 
 1. Sign into the Zoom web portal and navigate to [Settings](https://zoom.us/profile/setting)
 1. CLick on the **Meeting** tab
 1. Under `Security`, verify that your passcode settings are enabled for new meetings, personal meeting ID meetings and instant meetings.
 1. If the settings are disabled, click the toggle to enable them. If a verification dialog displays, choose Turn On to verify the change.
 
-## Enable passcodes for existing meetings
+## Enable Passcodes for Existing Meetings
 
 *Please remember that if you are part of an interview team, your personal meeting room that is used for scheduling interviews should not have passwords on them but should have the waiting room enabled.*
 
@@ -32,7 +43,7 @@ To ensure that only invited attendees join your meetings, please ensure to use p
 1. Under the Security section, check the Passcode box
 1. **IMPORTANT:** If you add Passcodes within Zoom to an existing meeting, calendar invites will need to be resent to include the Passcode
 
-## Enable authenticated-only meeting attendees
+## Enable Authenticated-Only Meeting Attendees
 
 - As an added security measure, you can restrict the meeting by requiring any attendee to be authenticated to Zoom with a GitLab zoom account
 - This is meant to ensure only people who have logged in to Zoom can attend the meeting
@@ -43,7 +54,7 @@ Here is a quick video tutorial how to do this:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ZvaLolwKfAI/0.jpg)](https://www.youtube.com/watch?v=ZvaLolwKfAI)
 
-### Steps for a new meeting
+### Steps for a new Meeting
 
 1. During the meeting creation, in the Security section there is an option in the Zoom client that says: `Only authenticated users can join: GitLab Internal Only` or select the `Sign in to Zoom` option so users with any Zoom account can join. Click the check box next to this option
 1. If you are in Zoom via the browser, the option is still in the Security section but is labeled: `Require authentication to join`
@@ -54,7 +65,7 @@ Here is a quick video tutorial how to do this:
 - This process only works in the Zoom client or from the [GitLab Zoom website](https://gitlab.zoom.us/)
 - If you're scheduling it within Google calendar, schedule as normal and edit the meeting following the steps in the next section for an existing meeting
 
-### Steps for editing an existing meeting
+### Steps for Editing an Existing Meeting
 
 1. Authenticate into Zoom, either via the client or via the web in a browser.
 1. Navigate to "Meetings". In the Zoom client this is at the top, in the browser this is on the left side.
@@ -62,7 +73,7 @@ Here is a quick video tutorial how to do this:
 1. Click on the Edit button.
 1. In the Security section, select the option to require authentication, and click Save.
 
-### Enable for all future meetings
+### Enable for all Future Meetings
 
 1. Authenticate into Zoom via the browser at gitlab.zoom.us.
 1. Select Settings on the left menu.

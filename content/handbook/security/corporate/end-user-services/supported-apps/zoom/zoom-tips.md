@@ -3,7 +3,24 @@ title: Zoom Tips
 description: Additional info for a better Zoom experience
 ---
 
-## How to share a presentation in Zoom
+## Index
+
+- [How to Share a Presentation in Zoom](#how-to-share-a-presentation-in-zoom)
+- [Using a phone to connect to audio](#using-a-phone-to-connect-to-audio)
+- [Considerations when presenting on Zoom](#considerations-when-presenting-on-zoom)
+  - [Maintaining audience engagement](#maintaining-audience-engagement)
+  - [Involve the remote audience when presenting](#involve-the-remote-audience-when-presenting)
+  - [Keeping a Remote Audience on Track](#keeping-a-remote-audience-on-track)
+  - [Remember to Breathe](#remember-to-breathe)
+  - [Make the participant experience an enjoyable one](#make-the-participant-experience-an-enjoyable-one)
+  - [Provide links rather than sharing while you present or edit](#provide-links-rather-than-sharing-while-you-present-or-edit)
+- [Additional Zoom tips](#additional-zoom-tips)
+  - [Virtual backgrounds](#virtual-backgrounds)
+  - [Applying Video Filters](#applying-video-filters)
+  - [External webcams and DSLRs](#external-webcams-and-dslrs)
+  - [Zoom automatically lowering your microphone input volume](#zoom-automatically-lowering-your-microphone-input-volume)
+
+## How to Share a Presentation in Zoom
 
 At some point, you may need to give a slide presentation using Zoom.\
 Ideally, you should be able to see your speaker notes while participants see your slide show. This is fairly easy to do with two monitors by using presenter view and sharing the monitor which contains the slides.
@@ -40,7 +57,7 @@ If you would like to practice presenting, you can do so using your own private Z
 1. Repeat the steps above.
 1. Stop and watch the recording. You'll see what the participants would see.
 
-### Using a phone to connect to audio
+## Using a phone to connect to audio
 
 Especially when talking with customers, it's good to make a good impression! One way is to use a phone to dial in, which can increase reliability of your audio connection and reduce latency.\
 In general, a landline has the lowest latency, a mobile phone is next, and internet audio is variable.
@@ -104,15 +121,15 @@ At the end of the day, listeners lost means a missed opportunity to get your mes
 
 It is good to allow your natural personality to shine through.\
 This will refresh the presentation with an air of genuine spirit, much needed when your audience is remote and cannot interact with you in person.\
-Remember, if you sound like you're enjoying hosting the meeting, the audience is more likely to enjoy listening to it. Find other tips for increasing user engagemnet from our [live speaker series with Lorraine Lee on all-remote video and presentation tips](/handbook/communication/#video-and-presentation-tips-with-lorraine-lee).
+Remember, if you sound like you're enjoying hosting the meeting, the audience is more likely to enjoy listening to it. Find other tips for increasing user engagement from our [live speaker series with Lorraine Lee on all-remote video and presentation tips](/handbook/communication/#video-and-presentation-tips-with-lorraine-lee).
 
 ### Provide links rather than sharing while you present or edit
 
-Provide links (to merge requests, issues, documents, etc) rather than sharing your screen while you present/edit. This allows participants to follow along at their own pace and indepenently make comments/edits.
+Provide links (to merge requests, issues, documents, etc) rather than sharing your screen while you present/edit. This allows participants to follow along at their own pace and independently make comments/edits.
 
 ## Additional Zoom tips
 
-### Virtual background
+### Virtual backgrounds
 
 Consider buying a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/).
 

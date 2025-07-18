@@ -7,6 +7,17 @@ Gmail is our primary mail application. You can access the app via the `G Suite S
 
 This page aims to provide solutions for some of the most commonly asked questions we have received. For more in-depth support, please visit the [official Gmail support page](https://support.google.com/mail/).
 
+## Index
+
+- [Gmail Access Requests](#gmail-access-requests)
+- [Set up Out-of-Office Replies](#set-up-out-of-office-replies)
+- [Using Aliases](#using-aliases)
+- [Set Up Delegate Access](#set-up-delegate-access)
+- [Setting up Filters and Labels](#setting-up-filters-and-labels)
+  - [Labels](#labels)
+- [Reporting Spam Messages](#reporting-spam-messages)
+- [Additional Support](#additional-support)
+
 ## Gmail Access Requests
 
 You can use [this AR template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Google_Gmail_Request) to request the following:
@@ -68,6 +79,6 @@ While specifying how Gmail should handle emails that match your specified condit
 1. Click on the suspicious email **DO NOT CLICK ON ANY LINKS IN THE EMAIL**
 1. Click on the `Report Email` button in the PhishArm panel
 
-## Further Support
+## Additional Support
 
 If you need any additional support, please feel free to reach out to us via #it_help in Slack or [it-help@gitlab.com](mailto:it-help@gitlab.com).
