@@ -210,33 +210,50 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 
 #### Slack Channels
 
-- [#security](https://gitlab.slack.com/archives/security); Used for general security questions and posting of external links for the great discussions. Company wide security relevant announcements are announced in #whats-happening-at-gitlab and may be copied here.
-- [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) - Daily questions and discussions focused on work internal to the Security Division. Can be used for reporting when unsure of where to go.
-- [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
-- `#security-team-standup` - Channel for daily standups.
-- `#incidents` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
-- `#security-alert-manual` - New reports for the Security Division from various intake sources, including ZenDesk and new HackerOne reports.
-- `#hackerone-feed` - Feed of most activity from our HackerOne program.
-- Other `#security-alert-*` and `#abuse*` - Multiple channels for different notifications
-handled by the Security Division.
-- Use the **@sirt-members** mention in any Slack channel to tag the members of the Security Incident Response Team (SIRT).
-- Use the **@sec-assurance-team** mention in any Slack channel to tag the members of the Security Compliance, Risk, and Governance & Field Security teams.
-- Use the **@field-security** mention in any Slack channel to tag the members of the Field Security team.
-- Use the **@appsec-team** mention in any Slack channel to tag the members of the Application Security team.
-- Use the **@trust-and-safety** mention in any Slack channel to tag the members of the Trust & Safety team.
-- Use the **@security-identity** mention in any Slack channel (or `#security-identity-ops`) to tag members of the Identity team.
+- [#security_help](https://gitlab.enterprise.slack.com/archives/C094L6F5D2A): The catch-all channel for security questions that are not direct support requests. If you're not sure where to go, start here.
+- [#it_help](https://gitlab.enterprise.slack.com/archives/CK4EQH50E): For all your internal end user support needs and CorpSec support needs. All support related questions and requests should be directed here.
+- [#security_discuss](https://gitlab.enterprise.slack.com/archives/C248YCNCW): Security discussions, announcements, and regular updates from the security teams. This is a good channel for cross-function collaboration with internal transparency.
+- [#abuse](https://gitlab.slack.com/archives/abuse): Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
+- [#ciso](https://gitlab.enterprise.slack.com/archives/C05C6Q0TLTV): For general communication from our CISO and CISO Directs. Team and division updates and other topics.
+
+The following group tags can help you get the attention of a specific department, team, or specialty:
+
+**Primary Security departments**:
+
+- **@security-assurance**: Contains all members of the Security Assurance department.
+- **@security-corpsec**: Contains all members of the Corporate Security department.
+- **@security-prodsec**: Contains all members for the Product Security department.
+- **@security-operations**: Contains all members of the Security Operations department. If you need to open a security incident, please use the Slack slash command `/security` instead of a tag.
+
+**Leadership and program support**:
+
+- **@security-leadership**: All Security people-managers
+- **@security-program-mgmt**: All security program management team members
+
+**Specific teams and specialties**:
+
+- **@fedramp-compliance**: All SecAssurance members that support FedRAMP
+- **@security-governance**: All members of the Security Governance team
+- **@sirt-members**: All members of the Security Incident Response Team (SIRT)
+- **@sec-assurance-team**: All members of the Security Compliance, Risk, and Governance & Field Security teams
+- **@field-security**: All members of the Field Security team
+- **@appsec-team**: All members of the Application Security team
+- **@trust-and-safety**: All members of the Trust & Safety team
+- **@security-identity**: All members of the Identity team
+- **@red-team**: All members of GitLab's Red Team
+- **@threat-intelligence**: All members of GitLab's Threat Intelligence team
 
 #### Division, Department, and Team updates
 
 We believe it is important to share regular updates at various levels of the Security Division, and we use Slack as the primary mechanism for providing these updates. Our updates are open to all GitLab team members using the following process:
 
-- **Start of each month:** A thread per-department is started in `#security-division` by each department leader (CorpSec, ProdSec, SecAssurance, SecOps). These threads are pinned for the duration of the month.
+- **Start of each month:** A thread per-department is started in `#security_discuss` by each department leader (CorpSec, ProdSec, SecAssurance, SecOps). These threads are pinned for the duration of the month.
   - Thread template:
     - `<MONTH> <DEPARMENT> Weekly Updates`
     - Example: `August Product Security Weekly Updates`
 - **Weekly:** At least once a week, teams provide updates they wish to share within the appropriate thread. For example, updates from Vulnerability Management would be placed in the Product Security thread for the given month.
   - These weekly updates, while highly encouraged, are strictly optional and should represent content that ICs and managers feel should be highlighted. Teams are encouraged to define processes and DRIs around these updates that work for them.
-  - Individuals providing the weekly updates are encouraged to use the "Also send to #security-division" option within the thread to increase visibility.
+  - Individuals providing the weekly updates are encouraged to use the "Also send to #security_discuss" option within the thread to increase visibility.
 - **End of each month:** Departmental leaders prepare a monthly update, including no more than **three updates per team**, and post it in `#ciso` within the first week of the following month.
   - Each monthly update should include a brief preface written by the departmental leader covering any notable themes or other strategic updates.
   - Each of the three updates per-team should be no more than 2-3 sentences and include at least one link to allow readers to gain additional context. Links should be to GitLab Issues or Epics wherever possible. If information is confidential and not able to be added to an Issue or Epic, a note should be added indicating this.
