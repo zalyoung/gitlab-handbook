@@ -32,9 +32,9 @@ Document statuses you can use:
 
 This proposal recommends segmenting our current Self-Managed deployment offerings into two distinct tiers: Self-Managed Foundation (`SMF`) and Self-Managed Scaled (`SMS`),
 and modifying the requirement for a General Availabitiy features launch to include all deployment options in a single milestone to SaaS, Dedicated, and Self-Managed Scaled.
-Launching new features on Self-Managed Foundation would become conditional, as SMF would not receive further service components a feature might require.
+Launching new features on Self-Managed Foundation would become conditional upon the presence of needed components within Foundation. We intend to significantly limit the addition of new components to Foundation, which a feature might require.
 
-Any future path for Self-Managed must retain a simple initial adoption, which has built our customer base so successfully over time.
+Any future path for Self-Managed must retain a simple initial adoption, once referred to as "Initial Delight", which has built our customer base so successfully over time.
 [Analysis of Usage Ping data](https://docs.google.com/presentation/d/1iIDrMYXrw48A6Kj3PK9AeZ6x3YKYmes4mu2jXm5H8us/edit?slide=id.g35e93cc924b_0_58#slide=id.g35e93cc924b_0_58)
 clearly shows GitLab's customer base has grown very accustomed to the reliability and consistency of the Omnibus experience, which has earned a reputation of reliable simplicity.
 The Omnibus GitLab has succeeded in its mission, however that massive success has directly delivered us a challenge.
@@ -95,7 +95,7 @@ In particular, this aims to:
 
 We aim to explicitly avoid:
 
-- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future, and the only reason to revisit the existing functionality is to ensure that it can scale effectively. However, new optional SMS components, such as Data Insights Platform and ClickHouse, would not be supported in Omnibus, only as cloud native components.
+- Deprecating Premium/Ultimate GitLab running on Omnibus. This product will remain for the foreseeable future, and the only reason to revisit the existing functionality is to ensure that it can scale effectively. However, new optional SMS components, such as OpenBao and ClickHouse, would not be supported in Omnibus, only as cloud native components.
 - Forcibly converting traditional Omnibus into cloud native "under the hood". We would rather encourage consumers to expand their skillsets by incentivising internal transformation to cloud-native.
 - Unexpectedly increase customer infrastructure costs and consumption. We must communicate these changes well.
 - Alienate consumers of any kind, by forcing large architectural refactors upon them. We should rather show them the value of the shift to cloud-native instead.
@@ -154,7 +154,7 @@ Over time, they will see the benefits to cloud native infrastructure and begin t
 
 For those customers who are already operating with cloud native patterns, but are not operating their GitLab instance(s) within them, this will encourage them to transition their GitLab instances to cloud native.
 
-In practical summary we use SMF and SMS to transition customers to fully cloud-native over time, incentivizing the transition while simplifying our engineering and support experience.
+In practical summary, we use SMF and SMS to transition customers to fully cloud-native over time, incentivizing the transition while simplifying our engineering and support experience.
 
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
@@ -166,7 +166,7 @@ flowchart LR
   subgraph SMS["Scaled (SMS)"]
     direction TB
     obgls[Omnibus GitLab]
-    oak[Omnibus Adjust Kubernetes]
+    oak[Omnibus Adjacent Kubernetes]
     obgls <-.-> oak
   end
 
@@ -210,13 +210,13 @@ The stages presented below are based upon our current application components, an
 
 #### Self-Managed Foundation
 
-The simplest form, as experienced today, is Foundation based on Omnibus.
+The simplest form, as experienced today, is Foundation based on Omnibus. This is the "smallest" footprint, and a very common entry point for small instances to land, before expanding.
 
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart LR
     subgraph foundation["Foundation (SMF)"]
-        direction LR
+        direction TB
         obgl[Omnibus GitLab]
 
         obgl -- "Existing Povisioning" --> runsvc
@@ -293,7 +293,7 @@ flowchart TB
 Transitional phase where most client-accessible services have been moved into the OAK.
 Disk based storage has been transitioned to object storage, as necessitated.
 We move all inbound, web-based services to OAK _exclusively_.
-Demonstrated here is keeping Sidekiq, a known noisy-neighbor workload within Foundation until customers understand their load well.
+Demonstrated here is keeping Sidekiq, a known noisy-neighbor workload, within Foundation until customers understand their load well.
 
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
@@ -400,17 +400,6 @@ Care must be taken in the architecture and design to facilitate reducing the loa
 Configuring the many components of GitLab to speak to each other is a very manual process today which is facilitated greatly for Omnibus based architecture by the GitLab Environment Toolkit (GET), and highly simplified by the Kubernetes platform on which Cloud Native GitLab operates.
 We must solve these problems at a lower level than GET, knowing that not all customer instances make use of GET and many customers _will not_ make use of GET for various reasons.
 
-When all components are in Kubernetes, we simply configure all endpoints to consume the Service object names and rely upon DNS within the Kubernetes cluster to "solve" this problem for us.
-Securing the connections between components remains a complex task today, even within a Kubernetes cluster.
-
-The combination of concerns could be addressed by a service mesh and proxy orchestration tool, capable of automated mTLS.
-We have many customers who have implemented these, and several that can example their use with our Cloud Native GitLab today.
-One such option, which customers sought explicit support for was [Istio](https://istio.io/latest/docs/).
-It can [blend the two deployment types](https://istio.io/latest/docs/ops/deployment/vm-architecture/), facilitate the interconnection, and secure the communication as described within the projects documentation.
-
-There are several other works ongoing at GitLab, such as Cells and "CYCP", which are likely to involve mTLS and service discovery.
-This work may be best left to those projects, and observed closely by this proposal.
-
 #### Service Endpoint Configuration
 
 GitLab's architecture is often described in a [greatly simplified](https://docs.gitlab.com/development/architecture/#simplified-component-overview) manner.
@@ -419,6 +408,7 @@ A common complexity across GitLab instances is the need to configure endpoints a
 This is quite simple on a single node Omnibus, where all services could talk over localhost or even UNIX sockets.
 The complexity of the interconnections grows with the size of the instance, complicating the configuration.
 GET handles a signficant on behalf of consumers, masking this complexity through automation.
+When all components are in Kubernetes, we simply configure all endpoints to consume the Service object names and rely upon DNS within the Kubernetes cluster to "solve" this problem for us.
 
 We can greatly simplify the complexity if we implemented a service discovery mechanism for all components of GitLab.
 The approach we take to implementing such mechanism should intend to support both unintelligent clients who are only informed via DNS,
@@ -434,25 +424,26 @@ It would be valuable to investigate appropriate auto-configuration of TLS via an
 should not be considered a blocking item, due to available existing documentation.
 Any option which is investigated must be evaluated by our security teams, and for usability within FIPS and FedRAMP environments.
 
+#### Implement Service Disovery and mTLS Automation
+
+The combination of concerns could be addressed by a service mesh and proxy orchestration tool, capable of automated mTLS.
+We have many customers who have implemented these, and several that can example their use with our Cloud Native GitLab today.
+One such option, which customers sought explicit support for was [Istio](https://istio.io/latest/docs/).
+It can [blend the two deployment types](https://istio.io/latest/docs/ops/deployment/vm-architecture/), facilitate the interconnection, and secure the communication as described within the projects documentation.
+
+There are several other works ongoing at GitLab, such as Cells and "CYCP", which are likely to involve mTLS and service discovery.
+This work may be best left to those projects, and observed closely by this proposal.
+
 ### Consistency Across GitLab Produced Helm Charts
 
-The Helm ecosystem is flexible, but rife with disparities. We should settle on, and converge towards a set of patterns to be expected across all Helm charts produced and maintained by GitLab.
-We must implement guidelines and best practices across all our works.
+The Helm ecosystem is flexible but rife with disparities of form, function, and convention.
+We should settle on, and converge towards, a set of patterns to be expected across all Helm charts produced and maintained by GitLab.
+We must implement guidelines and best practices across all our works, following consistent patterns and styles.
 These should be informed by maintainability, flexibility, and customer experience.
 
 Many of these immediate concerns can be implemented through [a set of standardized tooling for Helm charts](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/460), and implementaiton of automation through CI components.
 We will also need to lay out a set of style guides and patterns for components to follow, with the existing GitLab Helm chart
 [development documentation](https://docs.gitlab.com/charts/development/) being a reasonable start.
-
-### Considerations of GET and Dedicated
-
-[GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) operates upon GET as a stepping stone, deploying cloud-native hybrid environments.
-These Dedicated environments can quickly implement supplemental functionality through the use of cloud-native components, provided that the support for them has been integrated into GET.
-Generally speaking, Dedicated can enabled and scale components in alignment with customer usage. It is important to the Dedicated use case that cloud-native is a distinct focus of product delivery.
-
-[GitLab Dedicated for Government](https://docs.gitlab.com/subscriptions/gitlab_dedicated_for_government/) takes this one step further,
-by implementing controls and configuration appropriate to operating within our FedRAMP certification.
-Some components may not meet the criteria for operating within this environment upon their initial inclusion as a part of a GitLab release.
 
 ### Definition of Supported Kubernetes Versions
 
@@ -477,7 +468,17 @@ This indicates 1-2 years of Kubernetes releases are currently to be supported, i
 GitLab components such as GitLab Agent for Kubernetes ("KAS") clearly define [their supported versions](https://docs.gitlab.com/user/clusters/agent/#supported-kubernetes-versions-for-gitlab-features)
 as aligned with the upstream Kubernetes release cycle, though slightly behind for the sake of testing.
 
-The above points indicate that our customers may expect GitLab to function on a Kubernetes version for _up to_ 2 years, but to function against any Kubernetes version for just over 1 year.
+The above points indicate that our customers may expect GitLab to function on a Kubernetes version for _up to_ 2 years, but we largely focus upon supporting any Kubernetes version for just over 1 year.
+
+### Considerations of GET and Dedicated Platforms
+
+[GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) operates upon GET as a stepping stone, deploying cloud-native hybrid environments.
+These Dedicated environments can quickly implement supplemental functionality through the use of cloud-native components, provided that the support for them has been integrated into GET.
+Generally speaking, Dedicated can enabled and scale components in alignment with customer usage. It is important to the Dedicated use case that cloud-native is a distinct focus of product delivery.
+
+[GitLab Dedicated for Government](https://docs.gitlab.com/subscriptions/gitlab_dedicated_for_government/) takes this one step further,
+by implementing controls and configuration appropriate to operating within our FedRAMP certification.
+Some components may not meet the criteria for operating within this environment upon their initial inclusion as a part of a GitLab release.
 
 ### Upskill needs of the Support and Customer Success Organizations
 
@@ -488,6 +489,63 @@ debugging and supporting all components as cloud-native. We must build and disse
 new features and components meet this need as a part of their readiness work.
 
 The expansion will be necessary to develop in parallel to the engineering work, but _must_ be executed on for product success.
+
+## User Journeys
+
+1. New Premium Customer, Self-Managed, running in the cloud, looking to onboard with Scaled experience from the outset
+1. New Premium Customer, Self-Managed, on-premise, looking to onboard with Scaled components from the outset
+1. Existing Premium Customer, Self-Managed, running in the cloud, with Omnibus all-in-one, no GET. Wants to deploy OpenBao, NATS, ClickHouse Cloud.
+1. Existing Premium Customer, Self-Managed, running on-premise, with Omnibus external Postgres instance. Want to deploy Scaled components.
+1. Dedicated Environment Automation Engineer experience of deploying Scaled components such as OpenBao.
+
+### Existing Premium Customer, cloud-based Omnibus all-in-one without GET, seeking to deploy OpenBao, NATS, ClickHouse
+
+This customer profile would initially qualify as a consumer of Self-Managed Foundation.
+In order for them to deploy the supplemental functionality of Self-Managed Scaled (OpenBao, NATS, ClickHouse),
+they will need to provide an Omnibus-Adjacent Kubernetes (OAK) in which to place those deployments.
+
+As this customer is based within the cloud, they would have a few options:
+
+- Consume a cloud provider's Kubernetes as a Services such as EKS, GKE, or AKS
+- Provide an Kubernetes cluster of their own provisioning
+- Consume a GitLab deployed embedded distribution of Kubernetes
+    - We are not guaranteed to create this offering, and it would be likely be separated from Omnibus GitLab.
+
+Once a customer has chosen a means to provide an OAK, they would proceed with moving from [Self-Managed Foundation](#self-managed-foundation) the [Early Self-Managed Scaled](#early-self-managed-scaled-sms) model.
+Experience running Scaled should drive them to transition further towards Cloud Native GitLab over time.
+
+### Existing Premium Customer, on-premise (?), with Omnibus providing external Postgres
+
+### Dedicated Environment Automation Engineer, deploying Scaled components
+
+GitLab Dedicated's customer environments make use of the current Cloud Native Hybrid architectures, as described in
+[GitLab Dedicated architecture](https://docs.gitlab.com/administration/dedicated/architecture/).
+An Environment Automation Engineer's experience deploy Scaled's cloud-native componets will be straightforward.
+Dedicated engineers maintain Switchboard, Amp, and Instrumentor in order to build on top of GET and the GitLab Helm chart within.
+
+
+For an example case, we will make use of enabling OpenBao for [GitLab Secrets Manager](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/secret_manager/).
+
+The consumption of GitLab Secrets Manager is a project setting, available to all instances and exposed when the expected level of GitLab license is present alongside the instance's access to an OpenBao deployment.
+A customer would ask to enable OpenBao, [currently as a support ticket](https://docs.gitlab.com/administration/dedicated/configure_instance/).
+A Dedicated engineer would take action upon the raised ticket support ticket, performing an appropriate action via Switchboard.
+From that point forward, Dedicated's automation takes action through Amp, Instrumentor, and Tenctl.
+All functional requirements for OpenBao are provisioned, and the application is configured to communicate with the OpenBao within the Kubernetes of the instance during the next maintenance window.
+Assuming that the customer has configured an appropriate license, each project will have the ability to enable GitLab Secrets Manager.
+
+The functional requirements for this feature are:
+
+- Internal network access from Rails to OpenBao for API calls.
+- External network access to OpenBao through Ingress, as the GitLab Runner will speak directly to it.
+- A PostgreSQL database for OpenBao to consume.
+- An appropriate KMS provisioned for sealing.
+- An appropriate license level to enable this feature on the instance.
+
+Pre-requisite work to this functionality:
+
+1. [`gitlab/openbao` Helm chart](https://gitlab.com/gitlab-org/cloud-native/charts/openbao) is [integrated into the GitLab Helm chart](https://gitlab.com/groups/gitlab-org/distribution/-/epics/112).
+1. Configuration is implemented via GET, [alongside provisioning](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_provision.md) of the backing PostgreSQL database and any KMS.
+1. Instrumentor updates the wrapped GET, including this fucntionality and the ability to enable it. [gitlab-org/gitlab#473893](https://gitlab.com/gitlab-org/gitlab/-/issues/473893)
 
 ## Alternative Solutions
 
@@ -503,11 +561,14 @@ requirements give us pause. Implementing a strangler fig pattern into the Omnibu
 way would certainly specifically cause several of the problems that this proposal aims to prevent.
 
 Instead of pursuing this route, we aim to use a similar concept to _encourage_ customers to
-migrate their architecture over time, providing incentive for building or obtaining experience
+migrate their architecture over time, incentivizing building or obtaining experience
 in operating Cloud Native environments for GitLab to operate within. That can be done through the use
 of Omnibus-Adjacent Kubernetes cluster, as a goal of this proposal.
 
 > TODO: Expand with details and concerns from investigation.
+
+- Engineering concerns: size, license
+- Risks: legal & federal requirements
 
 ### Change nothing
 
