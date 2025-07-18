@@ -194,14 +194,14 @@ If the escalation is product related, a Product DRI is required. Please assign t
 The DRI owns the functions as outlined here:
 
 - If an escalation status changes significantly, ensure that updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". 
-    - Select "Update" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where you will need to post the update manually.
-    - Apply the "Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
-    - The Gainsight Escalation Update Timeline template questions are :
+- Select "Update" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where you will need to post the update manually.
+- Apply the "Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
+- The Gainsight Escalation Update Timeline template questions are :
 
-      1. What is the current status of the escalation?
-      1. What are the next steps in moving the escalation case forward?
-      1. Who is the owner of the next steps?
-      1. Has the exit criteria for this escalation changed? If so, what is the new exit criteria?
+1. What is the current status of the escalation?
+1. What are the next steps in moving the escalation case forward?
+1. Who is the owner of the next steps?
+1. Has the exit criteria for this escalation changed? If so, what is the new exit criteria?
 
 - Be sure to also post in the temporary customer slack channel, pinging all DRIs involved in the escalation as needed.
 - Update the temporary escalation slack channel daily, at minimum
@@ -231,10 +231,10 @@ In rare instances, there may be multiple reasons for a customer to be escalated 
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
 - Gainsight Escalation Closure Timeline template questions:
-   - Please provide a closure update answering the following questions:
-     1. Did the escalation situation end with a positive outcome, negative outcome, or no outcome?
-     1.    Were the defined exit criteria met?
-     1. Give a brief summary of the actions of the team that helped close out this escalation ticket
+- Please provide a closure update answering the following questions:
+1. Did the escalation situation end with a positive outcome, negative outcome, or no outcome?
+1.    Were the defined exit criteria met?
+1. Give a brief summary of the actions of the team that helped close out this escalation ticket
 
 ## CSM Manager's role in Escalations
 
