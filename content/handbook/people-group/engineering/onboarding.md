@@ -110,18 +110,6 @@ If changes are required to the onboarding email template, follow these steps to 
 - Copy and pasted the MJML version from the browser to the MJML template.
 - Submit Merge Request like normal with the updates.
 
-## Swag Email
-
-This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/swag_email.md) that is sent on the first day of a new team member so they receive the instructions to redeem their new hire swag. The email is cc'd to `people-connect@domain`.
-
-Every day at 9 AM UTC we run a scheduled pipeline. This pipeline will fetch all the eligible team members. An eligible team
-member means:
-
-- Team member who is on their first day of employment at GitLab
-
-The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody
-monitors replies to `onboarding@domain`. The email address is strictly used for automation.
-
 ## Access Request issue creation
 
 To get access to the tools our team members need for their job, an Access Request (AR)
