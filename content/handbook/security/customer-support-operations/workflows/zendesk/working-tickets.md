@@ -77,6 +77,10 @@ Your goal here is to move it to the correct form. Make sure you fill out _all_ t
 
 If the ticket stage is set to NRT, but it makes more sense to treat the ticket as a FRT ticket, change the ticket stage to that of FRT.
 
+### Note about L&R tickets
+
+When moving tickets to the L&R form, we need to ensure it is routed to the right subteam at the start. To do this, ensure the `BPO Ticket` checkbox (at the bottom of the ticket metadata) is checked make sure the following has occurred when you make your update. Failing to do so can potentially result in problems in ticket routing.
+
 ## Handling malicious users
 
 When a ticket arises containing potential malicious actions (hacking, phishing, abuse, etc.), we need to always treat it seriously.
