@@ -30,130 +30,91 @@ Under this model, an application which an organisation may continue to provide b
 - Provide this functionality in a simple, consistent and cohesive way
 - Ensure this functionality is well designed and does not pose a risk to GitLab's stability now or in the long term
 
-## Proposal
+## Implementation
 
-### Tracking
+### Ref Tracking
 
-In order to facilitate tracking of vulnerabilities across multiple branches, the core of what we are attempting to track can be dissolved into a single sentence:
+The intent with static ref tracking is to maintain the current methodology by which GitLab tracks vulnerabilities for the default branch, but expand this behaviour out to additional branches. Fundamentally this will require us to make some substantial modificaitons to some of our core tables to support this new data paradigm. Specifically the purposes of some tables will be slightly redefined, and we will need to be able to store what git refs will be tracked for vulnerabilities.
 
-"What significant detail has occurred regarding this vulnerability at this point in the codebases's history?"
+Additionally we will need to update a substantial amount of code to account for branches holding identical vulnerabilities, as these interactions need to disambiguate between the branches.
 
-GitLab's vulnerability management system currently works by taking in a list of "Security Findings" which represent the full list of vulnerabilities identified by the scanner in the codebase at that current commit in the repository's history. When we ingest the findings, we reconcile this list of findings against the list of currently known vulnerabilities in the database in order to identify changes in the scan results for that scanner on that repository.
-Fundamentally the list of things we are identifying when we do this can boiled down to the list of "states" that we track for vulnerabilities. This list is:
+The key changes necessary to make this possible can be sumarised as:
 
-- Detected
-- Confirmed
-- Dismissed
-- Resolved
+- A new table called `project_vulnerability_tracked_refs` will be created. This table will act as the join relationship between a project and the ref names in it for which vulns will be tracked. It's ID will then be the context by which other tables will define their branch/tag relationship.
+- The `vulnerability_occurrences` table will become a representation of a vulnerability, as it occurs on a specific branch. As such, it will get a reference to the the `project_vulnerability_tracked_refs` table.
+- The `vulnerabilities` table will become a higher level representation of the concept of a vulnerability, which may then exist in various forms across multiple branches.
+- Supporting information tables, such as `vulnerability_severity_overrides` and `vulnerability_state_transitions` will be related to the `vulnerability_occurrence`, not the `vulnerability`, as these details are specific to the context of where the vulnerabilty occurs.
+- Information that is/is not specific to vulnerabilities will be moved between `vulnerabilities` and `vulnerability_occurrences` will be moved between the tables to reflect this paradigm shift.
+- `vulnerability_reads` will become a reflection of `vulnerability_occurrences`, with additional supporting information and indexes to optimise it specifically for the Vulnerability Report. This aligns with a new schema intent to create more normalized data as sources of truth, and then have tables that act as optimized denormalizations to support specific features.
+- Update the vulnerability ingestion process to consider if the pipeline was executed on a tracked ref, and if so, ingest vulnerabilities for the specified pipeline, associated with that branch.
+- Update all interaction services to account for the branch context of the vulnerability being interacted with so that the appropriate record is updated.
+- Update all API's and interfaces that currently present vulnerability information such that they can search, filter and present their information with a branch context.
+- Partitioning of `vulnerabilities` and `vulnerability_occurrences`, as the expanded branch tracking count will likely push both of these tables over the size for which Postgres vacuuming can effectively handle for a single table.
 
-These states are fundamentally representative of entry and exit points of vulnerability within a codebase. We currently use the `Vulnerabilities::StateTransition` model to track changes between these states for a respective vulnerability. Our current architecture is built with the assumption that a `Vulnerability` exists only on the default branch of a repostory, and so we create a `Vulnerabilities::StateTransition` only when the state of a vulnerability changes on the default branch.
-
-The vast majority of feature branches do not make any changes to state of a vulnerability within a codebase. This means that we can avoid the most significant risk of database bloat by utilising the branching nature of the git repository to track only the points where these changes occur in a repository's history. We can simply do this by relating the `Vulnerability::StateTransition` to the `Ci::Pipeline` that was the source of the security report that was ingested.
-
-Having the pipeline that was the source of the change in the vulnerability means we can trace a vulnerability's presence in the codebase by retrieving the commit sha associtate with the CI pipeline and querying Gitaly using  [ListBranchNamesContainingCommitRequest](https://gitlab-org.gitlab.io/gitaly/#gitaly.ListBranchNamesContainingCommitRequest). This operation will tell us which branches contain the commit sha queried for, allowing us to identify all branches a respective vulnerability exists in.
-
-```mermaid
-flowchart TD
-    subgraph Branch: main
-        B(commit 1)
-        B --> C(commit 2)
-        C --> D(commit 3)
-        D --> E(commit 4)
-    end
-
-    subgraph Branch: Feature 2
-        E --> F(commit 5)
-
-    end
-
-    subgraph Vulnerability Resolved
-        F --> K
-        K[
-            Vulnerabilities::StateTransition
-                to_state: :resolved
-                vulnerability_id: 1
-                pipelined_id: 5
-        ]
-    end
-
-    B --> G
-    subgraph New Vulnerability Detected
-        G[
-        Vulnerabilities::StateTransition
-            to_state: :detected
-            vulnerability_id: 1
-            pipelined_id: 1
-        ]
-    end
-
-
-    subgraph Branch: Feature 1
-        C --> I(commit 6)
-    end
-
-    I --> J
-    subgraph New Vulnerability Detected
-        J[
-        Vulnerabilities::StateTransition
-            to_state: :detected
-            vulnerability_id: 2
-            pipelined_id: 6
-        ]
-    end
-
-```
-
-*A repository is created and committed to repeatedly. When a vulnerability is resolved in a feature branch we identify this by an appropriate `Vulnerability::StateTransition.` A vulnerability found in a new branch is defined with a new `Vulnerability::StateTransition`*
+NOTE: Because implementation can change based on greater understanding as the work is done, the intent is not to exhaustively list the DB design here, but to give a high level understanding of how it will be configured and why. For specific implementation details, rather consult the epics/issues.
 
 ```mermaid
-flowchart TD
-    subgraph Branch: main
-        B(commit 1)
-        B --> C(commit 2)
-        C --> D(commit 3)
-        D --> E(commit 4)
-        E --> F(commit 5)
-    end
-
-    B --> G
-    subgraph New Vulnerability Detected
-        G[
+flowchart
+    A[Vulnerability]
+    B(Vulnerabilities::Finding) -->|vulnerability_id| A
+    F(
+        Vulnerabilities::SeverityOverride
         Vulnerabilities::StateTransition
-            to_state: :detected
-            vulnerability_id: 1
-            pipelined_id: 1
-        ]
-    end
+        Vulnerabilities::IssueLink
+        Vulnerabilities::MergeRequestLink
+    ) -->|vulnerability_occurrence_id| B
+
+    C(Vulnerabilities::Read)
+    D[Vulnerabilities::ProjectTrackedRef]
+
+    B -->|project_vulnerabilities_tracked_ref_id| D
+    C -->|project_vulnerabilities_tracked_ref_id| D
 
 
-    subgraph Branch: Feature 1
-        C --> I(commit 6)
-    end
 
-    I --> J
-    subgraph New Vulnerability Detected
-        J[
-        Vulnerabilities::StateTransition
-            to_state: :detected
-            vulnerability_id: 2
-            pipelined_id: 6
-        ]
-    end
+    G(
+        Vulnerabilities::Statistic
+        Vulnerabilities::HistoricalStatistic
+        Vulnerabilities::NamespaceHistoricalStatistic
+    ) -->|project_vulnerabilities_tracked_ref_id| D
 
-    subgraph Vulnerability Resolved
-        F --> K
-        K[
-            Vulnerabilities::StateTransition
-                to_state: :resolved
-                vulnerability_id: 1
-                pipelined_id: 5
-        ]
-    end
+    C -->|vulnerability_occurrence_id| B
 ```
 
-*The feature branch in which the vulnerability was resolved is merged into the main branch. Because it's commit now exists in the main branch, our data does not need to change to still correctly reflect the new state.*
+#### Vulnerability/Occurrence differentiation example
 
-All this should be achievable by simple adding a `pipeline_id` column to the `vulnerability_state_transitions` table.
+Conceptually, a Vulnerability is intended to represent the definition of a vulnerability, regardless of where it's found, while a Occurrence/Finding is meant to represent an instance of a vulnerability as it was found in a particular ref. This will look something like the below example.
+
+---
+
+Vulnerability:
+
+- ID: 1
+- Primary Identifier: CVE-2025-49007
+- Title: ReDoS Vulnerability in Rack::Multipart handle_mime_head
+- Description: Lorem Ipsum Dolor
+- Severity: Critical
+- CVSS: ...
+- Scanner: SAST
+- Solution: ...
+- CVE: ...
+...
+
+---
+
+Finding(Occurrence)
+
+- Vulnerability ID: 1
+- UUID: '00000000-0000-0000-0000-000000000000'
+- Location: app/services/user_auth_service.rb
+- Ref: 'development'
+- State: :detected
+- Initial/Latest Pipelines: 123
+...
+
+---
+
+With this differentiation, we can limit the amount of data duplication per occurrence of single vulnerability for our Source of Truth tables, but then construct out any necessary view patterns we may need to best support features dependent on this data.
 
 ### Querying
 
@@ -166,14 +127,12 @@ This should be possible to facilitate by making the following changes to our dat
 - Partitioning of the Vulnerability Reads table.
   - Tables over a certain size begin to face a wide variety of performance problems. The current size of `vulnerability_reads` is already over the threshold which starts facing these problems, so to ensure stable performance going forward we would need to partition.
   - Additionally, per the restrictions at GitLab regarding the adding of columns and indices to tables over a certain size, `vulnerability_reads` contravenes both these conditions currently. So partitioning is not optional in that regard. Though we may have to seek approval to add the additional column.
-- Addition of a `ref` column to the Vulnerability Reads table.
-  - *By default a `ref` will simply be a branch name, but if users want to track vulnerabilities by `tag`, we can allow them to designate tracked tags which can be included in the `ref` column as well.
-- Additional of a `partition_number` to the `vulnerability_reads` table.
+- Addition of a `project_vulnerability_tracked_ref_id` column to the Vulnerability Reads table to be able to filter by branch.
+- Addition of a `partition_number` to the `vulnerability_reads` table.
   - This would allow us to use a sliding list partition strategy for `vulnerability_reads`, and can dynamically add new partitions as GitLab scales and users adopt our vulnerability management features to a greater extent.
   - A partition number should be allocated by project/namespace/organisation to minimise data fragmentation. A new partition number should be used when the last partition exceeds 75GB, as this will allow already allocated projects space to grow without exceeding 100GB.
   - Should it be necessary, it should be possible to do partition rebalancing if a particular allocation becomes too heavy.
-- Add some kind of table that allows users to designate their desired tracked refs for the project.
-  - We can make this include protected branches by default.
+  - We may consider alternative partitioning strategies yet. Please consult the respective [issue](https://gitlab.com/groups/gitlab-org/-/epics/16174) for up to date information regarding the partitioning implementation.
 
 ### Scalability, Storage and Performance
 
@@ -197,10 +156,20 @@ Because of this new approach to handle vulnerability retention, there should not
 
 ### How to handle history for branch changes
 
-If a branch is deleted, the commits associated with the branch will no longer have a ref tracking them and may be pruned. The associated state transition information may now be redundant, so we should consider pruning it as well.
-
-If a branch is merged and the project is squashing commits with a merge commit, then we may need to consider the merge commit as the new detection/resolution point for the vulnerability and drop the state transition records that were generated for the separate branch. Alternatively, existing `Vulnerabilities::StateTransition` objects could have their `pipeline_id` updated to match the merge commit.
+If a branch is deleted for any reason (manually or due to automation when merged), the vulnerability information for that branch becomes historical. As long as the project continues to set the ref name as tracked for vulnerabilities, we should maintain this data in accordance with the standard retention policy. If the user asks for the branch to then stop being tracked, we can warn them that we will drop the history for the branch, and perhaps allow them to archive it first.
 
 ### SBOM dependency tracking for package advisories
 
 In order to track vulnerabilities from package advisories on multiple branches, it becomes necessary to track the dependencies present on all branches as well. Currently there is no architectural consideration for this behaviour in Gitlab, but we may be able to minimally support this by tracking entry/exit points for dependencies in a similar way to how were proposing to use Vulnerability State Transitions to track the same for vulnerabilities. If we know what commits contain a dependency, we can determine what branches have that dependency and then apply the package advisory all applicable branches.
+
+## Why this approach?
+
+When we first began considering the architecture for tracking vulnerabilities across multiple branches, we were highly concerned about the impact on the database in terms of CPU activity and database storage. As a result, a substantial amount of discussion went into understanding the risks and benefits of Static Branch Tracking vs the alternative proposal of Entry/Exit tracking, in which we would attempt to track the points in the commit history that vulnerabilities entered and exited the repository.
+
+Entry/Exit tracking appeared to be promising in terms of reducing the amount of records we would need to store and maintain, curing the concerns of DB CPU and storage to a large degree. Unfortunately further investigation made us realize that the implementation would require a substantial amount of new system logic to handle a variety of corner cases related to scans and commit history not lining up perfectly. For example, when multiple commits are included in a single push, we cannot easily determine which one was the entry point of a given vulnerability.
+
+Additionally, we did some projections of data impact of Static Branch tracking and determined that while the amount of data we will need to store will be very substantial, the growth room afforded to us by the Sec Database Decomposition places that growth into a feasible space. As a result, we can safely proceed with the Static Branch analysis.
+
+Using the Static Branch Tracking approach reduces the risk of the implementation, as long as we are careful and intentional about the limits we apply to number of branches tracked, and the design of our models to ensure effective data normalization that will keep performance and storage in good stead.
+
+For greater context about the concerns and complexity relating to Entry/Exit tracking, please consult [this thread](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/498#note_2572581685).
