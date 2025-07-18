@@ -39,11 +39,9 @@ Marketing analysis
 - Experience in sales and/or marketing teams of B2B software, Open Source software, and the developer tools space is preferred.
 - Experience with marketing automation software a plus.
 - Experience with Salesforce CRM software helpful.
-- Familiarity with Git and repositories useful.
 - Proficiency in MS Excel/ Google Sheets.
 - You are team-centric.
 - You're a self starter, willing to read and watch in order to learn.  (Be ready to learn and how to use GitLab and Git).
-- Ability to use GitLab.
 
 ### Marketing Operations Manager (Intermediate)
 
@@ -79,8 +77,7 @@ All of the above requirements and:
 
 - Two plus years of experience in Marketing Operations or related role.
 - Bachelor's degree.  Is your college degree in French foreign politics with a minor in interpretive dance but you've been selling and marketing products since you were 12!  We understand that your degree isn't the only thing that prepares you as a potential job candidate.
-- Experience with modern marketing and sales development solutions such as Salesforce, LeanData, Bizible, ZoomInfo, RingLead, and Marketo.
-- Outreach experience is required.
+- Experience with modern marketing and sales development solutions such as Salesforce, Traction Complete, Marketo, ZoomInfo, 6Sense, Qualified, and Marketo Measure.
 - You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 - Be ready to learn how to use GitLab and Git.
 
