@@ -105,7 +105,7 @@ The Data Team backlog consists of all issues in the `workflow::2 - waiting for p
 
 #### Data Team Member Empowerment
 
-Data Team Members are empowered to make scheduling decisions independently for Business Operations projects, following GitLab's [Manager of One](/handbook/leadership/#managers-of-one) principle. Team members should:
+Data Team Members are empowered to make scheduling decisions independently for Business Operations projects, following GitLab's [Manager of One](/handbook/values/#managers-of-one) principle. Team members should:
 
 1. **Assess their current availability and workload** - Review ongoing commitments and capacity
 2. **Evaluate business impact and urgency** - Consider both immediate needs and strategic value
