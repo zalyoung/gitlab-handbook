@@ -105,7 +105,7 @@ __Immediately__
       1. If a regional CSE leader is the DRI, review the CS Help - Escalation Support case that was opened by an AE, RM, SA, or other GitLab employee who identified the escalation.
 1. Create a [slack channel](#temporary-slack-channel) to facilitate communication internally at GitLab during the escalation.
 1. [Identify Escalation DRI and immediate asks](#identify-escalation-dri-and-immediate-asks)
-1. Ensure that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`.
+1. Watch for the auto [escalation declaration](#declare-the-escalation) in `#escalated_customers`.
 
 __Within 24 hours__
 
@@ -173,7 +173,7 @@ For example:
 
 #### Declare the escalation
 
-After the escalation case is opened in Salesforce, you will need to post in the `#escalated_customers` channel to declare the escalation. Here's an example message:
+After the escalation case is opened in Salesforce, a post will be automatically added to the `#escalated_customers` channel to declare the escalation. This process is followed for all except PubSec customers, where you will need to manually post the escalation using the following template:
 
 - New Escalation
 - __Customer__: "<customer_name>"
@@ -189,32 +189,23 @@ After the escalation case is opened in Salesforce, you will need to post in the 
 
 If the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation.
 
-#### Posting in `escalated_customers`
-
-To keep noise to a minimum, posting in `#escalated_customers` should happen only at key moments:
-
-- when the escalation is identified and created
-- when the escalation is closed or risk reduced to standard business process to manage (that is, issue resolved and monitoring the solution)
-- when there is a change in the priority of the escalation
-
-The `#escalated_customers` channel is for awareness only and is not intended to replace the dedicated account slack channel, support channels, or the temporary escalation channel. Leverage the temporary escalation channel for daily communication, collaborating with team members, and providing executive updates.
-
 ### Managing the Escalation
 
 The DRI owns the functions as outlined here:
 
-- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel.
-- Update the temporary escalation slack channel daily, at minimum
-- The escalation progress should also be communicated to the customer on a regular basis - expectation is 3 or more times a week depending on the situation.
-
-Additionally, please ensure that key escalation updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". Apply the "Post to Slack - Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
-
-The Gainsight Escalation Update Timeline template questions are :
+- If an escalation status changes significantly, ensure that updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". 
+- Select "Update" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where you will need to post the update manually.
+- Apply the "Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
+- The Gainsight Escalation Update Timeline template questions are :
 
 1. What is the current status of the escalation?
 1. What are the next steps in moving the escalation case forward?
 1. Who is the owner of the next steps?
 1. Has the exit criteria for this escalation changed? If so, what is the new exit criteria?
+
+- Be sure to also post in the temporary customer slack channel, pinging all DRIs involved in the escalation as needed.
+- Update the temporary escalation slack channel daily, at minimum
+- The escalation progress should also be communicated to the customer on a regular basis - expectation is 3 or more times a week depending on the situation.
 
 Tips & Tricks:
 
@@ -234,14 +225,14 @@ In rare instances, there may be multiple reasons for a customer to be escalated 
 
 - When the issue(s) related to the escalation are resolved or move into a non-escalated state:
 
-  - Post an Escalation Closure Timeline entry in the Gainsight CTA with the status and resolution. Be sure to use the "Post to Slack - Escalation Closure" Timeline template in the update (selectable from top right hand corner of the "Notes" box in Timeline).
-  - Copy that Escalation Closure update and post in the `#escalated_customers` slack channel.
+  - Post an Escalation Closure Timeline entry in the Gainsight CTA with the status and resolution. Be sure to use the "Escalation Closure" Timeline template in the update (selectable from top right hand corner of the "Notes" box in Timeline).
+  - Select "Closure" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where you will need to post the escalation closure update manually. 
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
 - Gainsight Escalation Closure Timeline template questions:
 
-Please provide a closure update answering the following questions:
+- Please provide a closure update answering the following questions:
 
 1. Did the escalation situation end with a positive outcome, negative outcome, or no outcome?
 1. Were the defined exit criteria met?
