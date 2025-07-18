@@ -194,12 +194,13 @@ Some customers have an Assigned Support Engineer (ASE) who will own their
 tickets. This will be apparent from the org note in the ticket. For such
 customers, see [the ASE workflow](../enhanced-support-offerings/offering-assigned-support-engineer/working-with-ases/global-support-and-ases.md).
 
-### Weekend focus for Shift engineers 
+### Weekend focus for Shift engineers
 
-Be familiar with the responsibilities of being on-call for High Priority tickets for GitLab's [Success Signature](https://gitlab.zendesk.com/agent/search/1?copy&type=organization&q=sub_ss_enterprise%3Atrue) and [Success Advanced](https://gitlab.zendesk.com/agent/search/1?copy&type=organization&q=sub_ss_growth%3Atrue) customers. 
+Be familiar with the responsibilities of being on-call for High Priority tickets for GitLab's [Success Signature](https://gitlab.zendesk.com/agent/search/1?copy&type=organization&q=sub_ss_enterprise%3Atrue) and [Success Advanced](https://gitlab.zendesk.com/agent/search/1?copy&type=organization&q=sub_ss_growth%3Atrue) customers.
 
 Over the weekend, Shift engineers will focus on *meeting First Response Times (FRT) for high-priority tickets for Signature and Advanced Customers*.
-List of responsiblities to cover during your shift (Hours to cover is the same as the CEOC hours)
+
+List of responsibilities to cover during your shift (Hours to cover is the same as the CEOC hours):
 
 1. Meet FRT for high priority Signature and Advanced tickets
 1. Assist the On-call Engineer (CEOC) with their workload
