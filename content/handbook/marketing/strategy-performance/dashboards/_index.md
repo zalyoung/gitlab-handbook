@@ -22,7 +22,8 @@ At the highest level, TD Marketing Key Dashboards are intended to provide insigh
 | **Dashboard** | **Platform** | **Access Type** | **Description** |
 |:--------------|:-------------|:----------------|:----------------|
 | [Unified Marketing Funnel Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MarketingUnifiedFunnel_16934325416300/MarketingUnifiedFunnel?:iid=2)   | Tableau      | General         | Visualizes the user journey across marketing channels, website engagement, SaaS trials, to a paid conversion. This dashboard helps identify trends and assess the impact of strategic changes implemented by the Digital Marketing, Digital Experience, and Growth teams. |
-| [Marketing Influenced Pipeline](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/ExecutiveOverview) | Tableau | SAFE | Tracks marketing contribution to overall pipeline generation through a combination of Adobe Marketo Measure Touchpoints and Sales Qualified Source (SQS) to find opportunities that were influenced by Marketing. See the [handbook page](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-analytics/marketing_influenced_pipeline/) for more details. |
+| [Marketing Generated Pipeline](https://10az.online.tableau.com/#/site/gitlab/views/MarketingGeneratedPipelineDashboard/ExecutiveOverview) | Tableau | SAFE | Tracks marketing contribution to overall pipeline generation through a combination of Adobe Marketo Measure Touchpoints and Sales Qualified Source (SQS) to find opportunities that were influenced by Marketing. See the [handbook page](hhttps://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-analytics/marketing_pipeline_attribution/) for more details. |
+| [Event Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/EventAnalyticsHub/Execoverview) | Tableau | General | Tracks in-person and online Event performance.|
 
 ### Marketing Functional Dashboards
 
@@ -34,6 +35,7 @@ At the highest level, TD Marketing Key Dashboards are intended to provide insigh
 | Technical Writing    | [GitLab - Docs Website](https://lookerstudio.google.com/reporting/d6af7a2b-2aaa-4f30-8742-811e62777c93/page/p_ihbvblyl2c) | Looker Studio | General | Visualized metrics in regards to traffic and engagements for docs.gitlab.com from Google Analytics.                                                                        |
 | Brand Strategy       | [GitLab - Brand Awareness - Web Performance](https://lookerstudio.google.com/reporting/27b962b9-f6f8-443b-bc93-baf1c8a6a268/page/PUsnC)   | Looker Studio | General         | Visualized metrics in regards to traffic, engagements, and top-of-funnel web conversions for Brand Awareness campaigns from Google Analytics and Search Console.           |
 | Product Marketing       | [GitLab - Product Marketing](https://lookerstudio.google.com/reporting/9b877a27-0b80-40cd-8e8b-1f68f80573dd/page/IeVBD)        | Looker Studio | General         | Visualized metrics in regards to traffic, engagements, and top-of-funnel web conversions for Blogs and Customer Stories from Google Analytics.           |
+| Content | [Content Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ContentPerformance/GatedContent?:iid=1) | Tableau | General | Shows a single Pane of glass view in Content Performance. |
 
 ## Dashboard Development and Publishing Stages
 
