@@ -188,19 +188,48 @@ gantt
 
 ### Milestones
 
-Now (During FY26 Q1)
-: Work has carried over from the Cells roadmap.
+#### FY26 Q3
 
-Organization Isolation (Target FY26 Q3)
-: Complete database sharding to link tables back to an Organization where
-possible.
-: Prevent reads/writes from extending beyond Organization boundaries.
+##### Dogfooding of Organizations
 
-Organization Released (Target FY26 Q4)
-: Organization as a minimal feature is released in the application. The nature of this release is still under discussion.
+We plan to release an internal-only preview of existing Organizations features to
+all GitLab team members by means of feature flags. Team members will be able to
+use the following Organizations features:
 
-Full Parity (Target FY27 Q4 or beyond)
-: GitLab.com will provide the same feature set as Self Managed and Dedicated but on a shared platform.
+- Create an Organization
+- Toggle between Organizations using the dropdown switcher (not intended for GA)
+- Create a new Group scoped to an Organization
+- Create a new Project scoped to an Organization
+- Navigate between Organizations and preserve scope via Context
+- Preserve isolation between Organizations via base policy changes
+
+Team members can opt out of the experience in case of emergency.
+
+##### Organization Isolation
+
+We aim to complete [database table sharding](https://gitlab.com/groups/gitlab-org/-/epics/11670)
+to link tables back to an Organization where possible. We also aim to [prevent reads/writes from extending beyond the boundary of an Organization](https://gitlab.com/groups/gitlab-org/-/epics/17388).
+
+#### FY26 Q4
+
+##### Spin out top-level groups to Organizations
+
+In support of the Protocells project, we aim to promote a subset of existing
+top-level groups into Organizations.
+
+##### Organization initial release
+
+Organization as a minimal feature is released in the application. The feature
+set will include the above "dogfooding" features, as well as:
+
+- tbc
+- tbc
+
+##### Full Parity
+
+GitLab.com will provide the same feature set as Self Managed and Dedicated,
+but on a shared platform called Protocells. All customers using Organizations
+will experience [the features listed below](#organization-product-feature).
 
 ### Work Streams
 
