@@ -42,7 +42,7 @@ At a high level, the Release post schedule is:
 
 **Code cutoff**
 
-- **EMs and PMs** make sure items that are feature flagged are `enabled by default` to ensure inclusion into the self-managed release.
+- **EMs and PMs** make sure [items that are feature flagged](#features-behind-flags) are `enabled by default` to ensure inclusion into the self-managed release.
 - Deprecation and removal MRs are assigned to TWs for final review and merge.
 - **TW Reviewers** finish review of Features, Deprecations, Removals, Upgrades, and Extras
 - **PMMs, Product Design Managers, Product Designers, and PM Leaders** do optional reviews of release post item MRs
@@ -990,9 +990,15 @@ If only Duo Pro applies, use `add_ons: ["Duo Pro"]`.
 
 ##### Features behind flags
 
-From time to time a feature may be developed behind a feature flag and made [available slowly](https://docs.gitlab.com/ee/development/feature_flags/#development-type) to larger audiences. If this is the case, do not include the item in the release post unless you are deliberately seeking beta testers. This may result in a feature issue being closed in a milestone earlier than it is announced.
+From time to time a feature may be developed behind a feature flag and made [available slowly](https://docs.gitlab.com/ee/development/feature_flags/#development-type) to larger audiences.
 
-If you are deliberately seeking beta tests, include the release post as well as instructions on how to enable the feature and provide feedback.
+If the feature flag is:
+
+- Disabled: Do not include the item in the release post unless you are deliberately seeking beta testers.
+  This might result in a feature issue being closed in a milestone earlier than it is announced.
+  If you are deliberately seeking beta testers, include the release post as well as instructions on how to enable the feature and provide feedback.
+- Enabled on GitLab Self-Managed and GitLab.com: You may include such a feature in the release post.
+  Make sure the linked documentation contains [required feature flag information](https://docs.gitlab.com/ee/development/documentation/feature_flags.html).
 
 #### Documentation
 
