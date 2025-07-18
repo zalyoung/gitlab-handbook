@@ -1,19 +1,14 @@
 ---
-title: Level Up
+title: LevelUp
 ---
 
-## Leveling Up Level Up
+## Leveling Up LevelUp
 
-Get ready for **HUGE** changes coming to learning technology for GitLab team members! We are upgrading the technology solution that powers Level Up to better support the pace, demand, complexity, and CULTURE of GitLab. This overhaul will allow team members to engage around learning in a COMPLETELY different way. 
+We're currently rolling out a new platform for LevelUp to better support the pace, demand, complexity, and culture of GitLab. This overhaul will allow team members to engage around learning in a completely different way, that links in with Talent, career pathing, project opportunities, and more.
 
 Learning today goes way beyond self-paced content, far passed webinars, leaps above documents; learning is much much more. And GitLab's new "**LevelUp**" (integrated talent EXPERIENCE platform) will show you just how dynamic learning, growth, skills development, and performance can go. 
 
 Consider this page your LevelUp information highway. Over the coming weeks, you'll see updates, announcements, and rollout plans here.
-
-{{< gdoc >}}
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUJWcpfq-Y_4C7qOIMAT11wJX0n5pAfuKUp9xnQZvuyrESb87_ZISah83q42b4bo-HHOxMnHvNRJSH/embed?start=false&loop=false&delayms=60000"
-frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-{{</ gdoc >}}
 
 ## What's the difference between LevelUp and GitLab University?
 
@@ -45,15 +40,48 @@ The new Cornerstone Talent Experience Platform (TXP) offers significant improvem
 
 ## Timeline
 
-Initial launch is planned for the engineering teams in late March 2025, with details on company-wide rollout to follow.
+The system is currently live for our engineering and security divisions, details on the company wide rollout to follow, but all team members will have access by the end of Q2. 
+
+## FAQs
+
+- **I completed a number of learning courses in the Legacy platform, what will happen to my learning data?**
+- Your learning history may not be migrated when you first login to the new LevelUp system, but all team members' learning data is preserved, and will be migrated as the system over the next weeks and months, team members don't need to take any action.
+- You do not need to retake any courses you've already completed.
+
+- **I've noticed somethiing in the new system that isn't working properly, or would like to give feedback on a platform feature, who should I tell?**
+- Please share any feedback in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830).
+
+- **When will I lose access to the legacy system?**
+- The legacy Level Up system uses the same vendor (ThoughtIndustries), as GitLab University, which serves our partnes and customers with GitLab product training and education content. Therefore the system won't be going away, but we will likely sunset it for team members at some point. We'll announce more when a full timeline is planned, but access won't be restricted, and it is expected to be after Q2.
+- For a transition period, you'll still have access to both systems.
+
+- **Will all content be migrated to the new system?**
+- We are conducting a full content audit from the legacy system, and all relevant content will be migrated to the new LevelUp. If you notice something missing that should be added, please let us know in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830), or the #learninganddevelopment slack channel.
+
+- **How do I login to the new system?**
+- Access will be granted via Okta - search the LevelUp Okta tile.
+
+- **I have a question about how something works in LevelUp, who should I ask?**
+- Please let us know in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830).
+
+- **I have started a course, but my progress bar shows 0% completion. Is my progress lost?**
+- Some courses only report completion, not the ongoing progress. The LevelUp progress bar will reflect it once you finish the course.
 
 ## Platform Guide
 
 Read on below to learn about the functionality in LevelUp, including terminology, and guides to specific features.
 
+Watch the video below for more information on the content hierachy in LevelUp:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z4QpE-Mb-nE?si=Ig0hzrIdIW0RWLJn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Note**: Following some UX updates, you can now access the 'Create' option by navigating to More > Tools > Manage Content > 'Create New', or just head to [https://levelup.edcast.com/content](https://levelup.edcast.com/content)
+
 ### Smartcards
 
 The basic unit of content in LevelUp. A SmartCard is a single piece of learning material like a video, article, quiz, or link to helpful resources.
+
+> **Note:** By default, all users can create SmartCards, but if you're interested in putting a Pathway together, please open an access request to be a course author in LevelUp, and assign it to @jallen16, who can uplift your access permissions.
 
 #### How to Create a SmartCard in LevelUp
 
@@ -82,6 +110,16 @@ Creating a SmartCard is simple and allows you to share valuable learning content
 - Quality Over Quantity: Focus on sharing truly valuable content that addresses specific learning needs
 
 Remember, SmartCards created within a Pathway will only be discoverable in that Pathway, while SmartCards created independently can be discovered and used across the platform.
+
+Watch the video below for a walkthrough on how to create Smartcards:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tDtdp3OdFDQ?si=WcxaZNeInM1nwC4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Note**: Following some UX updates, you can now access the 'Create' option by navigating to More > Tools > Manage Content > 'Create New', or just head to [https://levelup.edcast.com/content](https://levelup.edcast.com/content)
+
+#### Smartcard Thumbnails
+
+We have a directory of branded Smartcard thumbnails available here for team members to use for content they're creating - you can [access it here](https://drive.google.com/drive/u/0/folders/1vhI_6VsQ9EZ9lCTMrD2lGrCM4HodQ55S).
 
 ### Pathways
 
@@ -115,6 +153,10 @@ A Pathway is a collection of SmartCards organized as a learning sequence. Here's
 
 > **Note:** By default, all users can create SmartCards, but if you're interested in putting a Pathway together, please open an access request to be a course author in LevelUp, and assign it to @jallen16, who can uplift your access permissions.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mu_hRz69i0c?si=G3F2ukQzroGDHdAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Note**: Following some UX updates, you can now access the 'Create' option by navigating to More > Tools > Manage Content > 'Create New', or just head to [https://levelup.edcast.com/content](https://levelup.edcast.com/content)
+
 ### Journeys
 
 Larger learning experiences made up of multiple Pathways. Journeys offer comprehensive learning on a topic by combining several related Pathways into chapters or sections.
@@ -134,3 +176,85 @@ A tool for managers to view their team's learning activity, assign content to te
 ### Skills
 
 In Cornerstone, skills are the metadata that describe what you can do and know - like professional DNA that the system tracks and analyzes. They help connect you with the right learning content, projects, and opportunities to grow your capabilities, in keeping with your career and development goals.
+
+## Early Access for Compliance Training
+
+While LevelUp is being rolled out division by division, some team members outside of Engineering and Security are being granted early access to complete required compliance training. This ensures all team members can complete their mandatory training in one consistent platform. Compliance training was previously deployed through NavexENGAGE and other platforms; we will now centralize all compliance trainings on LevelUp. 
+
+### What you need to know
+
+If you've been granted early access for compliance training:
+
+- Your access is currently limited to the compliance training section of LevelUp
+- You can complete and track your assigned compliance courses
+- Full platform access will be available when your division is rolled out (by end of Q2)
+- You've been enrolled in:
+  - **Code of Conduct**: Ethical decision-making and workplace guidance
+  - **Regulation FD**: Material information handling and disclosure practices
+- **Due Date**: (2025-07-11) July 11, 2025
+
+### Early Access FAQ
+
+<details>
+<summary>Why am I getting early access to LevelUp?</summary>
+
+You've been granted early access specifically to complete mandatory compliance training. Rather than having different team members use different systems, we're providing limited access to LevelUp so everyone can complete their compliance training in the same platform.
+</details>
+
+<details>
+<summary>What can I access with early access?</summary>
+
+With early access, you can only access the compliance training section of LevelUp. You'll be able to view, complete, and track progress on your assigned compliance courses. Full platform features will become available when your division officially rolls out LevelUp.
+</details>
+
+<details>
+<summary>When will I get full access to LevelUp?</summary>
+
+Full access to LevelUp will be granted when we launch for your division. All team members will have access by the end of Q2. Check back on this page for updated rollout timelines.
+</details>
+
+<details>
+<summary>How do I access my compliance training?</summary>
+
+You can use the direct links provided in your enrollment email to access specific courses. You should see the email from sender: "learning@gitlab.com".
+</details>
+
+<details>
+<summary>What if I can't access LevelUp or my training?</summary>
+
+For any technical issues or access problems with the LevelUp platform, please post in the **#fy26-levelup-support** Slack channel. The learning team will help resolve any access or technical issues.
+</details>
+
+<details>
+<summary>Who do I contact for questions about the training content?</summary>
+
+For questions about the actual content of the compliance training (not technical issues), please use the **#compliance-training** Slack channel. The compliance team monitors this channel and can answer content-specific questions.
+</details>
+
+<details>
+<summary>What happens if I don't complete the training by the due date?</summary>
+
+Compliance training is mandatory and must be completed by July 11, 2025. You'll receive reminder notifications at regular intervals. Managers will be notified if training remains incomplete after the due date.
+</details>
+
+<details>
+<summary>Will my learning history from the legacy system transfer over?</summary>
+
+Yes, your learning history is preserved and will be migrated to LevelUp over the coming weeks and months. You do not need to retake any courses you've already completed. The migration happens automatically - no action needed from you.
+</details>
+
+<details>
+<summary>Can I access other learning content besides compliance training?</summary>
+
+During the early access period, your access is restricted to compliance training only. Once your division officially rolls out LevelUp, you'll have access to all learning content, pathways, and platform features.
+</details>
+
+<details>
+<summary>Where can I find more information about LevelUp?</summary>
+
+For general information about LevelUp, including platform features and rollout updates, refer to the main sections of this handbook page. For immediate support, use the **#fy26-levelup-support** Slack channel.
+</details>
+
+---
+
+*This section is temporary and will be removed once all divisions have full access to LevelUp.*

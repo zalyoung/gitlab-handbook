@@ -52,7 +52,7 @@ High-level account plans are often shared using a [strategic account plan templa
 
 ### Account reviews
 
-Initially, ASMs and CSM Managers may want or need to partner on scheduling and facilitating these reviews, but regular account reviews should eventually become part of an account team's normal operating rhythm. See [Coaching Account Planning for ASMs](/handbook/sales/account-planning/coaching/) for additional guidance.
+Initially, ASMs and CSM Managers may want or need to partner on scheduling and facilitating these reviews, but regular account reviews should eventually become part of an account team's normal operating rhythm. See [Coaching Account Planning for ASMs](/handbook/sales/account-planning/coaching-for-asms/) for additional guidance.
 
 Accounts reviews are conducted quarterly (or more frequently as needed) at various points in the quarter, usually over a 2-week period. The extended account team (AEs, SA, CSM, SDR) is encouraged to participate and contribute.
 

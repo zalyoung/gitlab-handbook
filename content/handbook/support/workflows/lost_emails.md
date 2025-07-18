@@ -22,7 +22,7 @@ Ensure the ticket has the correct:
 
 As the user has reportedly lost access to the email address associated with their GitLab.com account, they have likely raised the ticket using an alternate email address. As with all account activities, you should be particularly mindful of this and take care to not share any information related to the account which is not publicly available, or where applicable, account verification has not been successfully completed.
 
-The actions support can take on accounts are different for free users and paid users.
+The actions support can take on accounts are different for free users and paid users. To confirm the user's tier status, search for the user using the User Lookup GitLab Super App in Zendesk to confirm the user's group memberships, if the user is not a member of any premium group they are considered a free user.
 
 ### Paid user
 
@@ -30,4 +30,4 @@ Refer to [Making Changes and Taking Actions on a user's behalf](/handbook/suppor
 
 ### Free user
 
-We are unable to take any action for free users who have lost access to all email addresses on their GitLab.com account. Apply the Zendesk macro [`Support::SaaS::GitLab.com::Email::Free user verification code`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Email/Free%20user%20verification%20code.md) and submit the ticket as `Solved`.
+We are unable to take any action for free users who have lost access to all email addresses on their GitLab.com account. Apply the Zendesk macro [`Support::SaaS::GitLab.com::Email::Free user verification code`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Email/Free%20user%20verification%20code.md) and submit the ticket as `Solved`. Note that the support ticket will be *closed* after applying the macro, removing any opportunity for further response from the user, do not use the macro if you believe further dialogue is needed.

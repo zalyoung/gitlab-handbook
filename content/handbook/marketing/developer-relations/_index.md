@@ -15,7 +15,7 @@ Developer Relations (short: DevRel) operates at the intersection of technology, 
 
 Developer Relations drives platform awareness and adoption by enabling GitLab customers, connecting through community, and engaging developers where they are. GitLab engages with more than 3000 developers every month on GitLab.com alone, and receives more than 250 contributions every month, giving us a unique level of influence in the DevSecOps space and helping accelerate our innovation. Our ultimate goal is to raise awareness of GitLab and drive customer success by winning the hearts & minds of developers through best-in-class technical enablement and an active community of contributors.
 
-In Developer Relations, we align our mission and vision with the company's [three year strategy](/handbook/company/strategy/). We believe that [everyone can contribute](/handbook/company/mission/#mission). To help GitLab reach this goal, we aim to double outreach and engagement, strengthen our community presence, and support a healthy community of contributors. Ultimately, these goals boost awareness, adoption, and power our [dual flywheels](/handbook/company/strategy/#dual-flywheels).
+In Developer Relations, we align our mission and vision with the company's three year strategy. We believe that [everyone can contribute](/handbook/company/mission/#mission). To help GitLab reach this goal, we aim to double outreach and engagement, strengthen our community presence, and support a healthy community of contributors. Ultimately, these goals boost awareness, adoption, and power our dual flywheels.
 
 ## <i class="fas fa-map-marked-alt fa-fw color-orange font-awesome"></i> Our Strategy
 
@@ -56,8 +56,8 @@ Teams within Developer Relations are reachable in these Slack channels:
 ### Emergency contact
 
 - [**Developer Relations emergency contacts**](https://docs.google.com/document/d/16oq7sl6dpI2QbADwY41KjKEjaEj7dJ9LI5owm8lO_iU/edit?usp=sharing)
-- [**Incident management roles**](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities)
-- **Relevant Slack channels for incident/infrastructure:** [`#incident-management`](https://gitlab.slack.com/messages/incident-management), [`#infrastructure-lounge`](https://gitlab.slack.com/messages/incident-management)
+- [**Incident management roles**](/handbook/engineering/infrastructure/incident-management/#incident-response-roles)
+- **Relevant Slack channels for incident/infrastructure:** [`#incidents`](https://gitlab.slack.com/messages/incidents), [`#infrastructure-lounge`](https://gitlab.slack.com/messages/incident-management)
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How we work
 
@@ -145,12 +145,11 @@ Every quarter, we work on [team Objectives and Key Results (OKRs)](https://gitla
 
 OKRs we seek to align with:
 
-- [company OKRs](/handbook/company/okrs/#most-recent-okrs)
 - [Marketing OKRs](/handbook/marketing/#marketing-okrs)
 
 #### DRI Responsibilities
 
-For each quarterly objective and key results, the Developer Relations team will assign a [DRI](/handbook/people-group/directly-responsible-individuals/). For our team, we have responsibilities that build upon the GitLab guidance on [achieving](/handbook/company/okrs/#documenting-how-to-achieve) and [updating](/handbook/company/okrs/#maintaining-the-status-of-okrs). Typically, People managers are the DRIs for objectives while ICs are the DRIs for key results.
+For each quarterly objective and key results, the Developer Relations team will assign a [DRI](/handbook/people-group/directly-responsible-individuals/). For our team, we have responsibilities that build upon the GitLab guidance on achieving and [updating](/handbook/company/okrs/#maintaining-the-status-of-okrs). Typically, People managers are the DRIs for objectives while ICs are the DRIs for key results.
 
 - Objective DRI Responsibilities
   - Own strategy for achieving objectives including supporting the DRIs for key results that will help to achieve our objectives.
@@ -186,7 +185,7 @@ To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-
 
 The Developer Relations team monitors several [Key Performance Indicators and related Performance Indicators](/handbook/marketing/developer-relations/performance-indicators/).
 
-{{< kpi-list "developer_relations_department" >}}
+{{< kpi "developer_relations_department" >}}
 
 ## <i class="fas fa-vector-square fa-fw color-orange font-awesome"></i> Team Logos
 

@@ -84,7 +84,7 @@ Logs are stored in a short-term and long-term storage, with their own respective
 Logs in short-term storage are used to actively monitor application activity, spam events, transient errors, system and network authentication
 events, security events, and similar.
 
-Logs in long-term storage are used to comply to the [Records Retention & Disposal](/handbook/security/records-retention-deletion/) policy. Logs in long-term storage are less granular and have less detail than those in short-term storage.
+Logs in long-term storage are used to comply to the [Records Retention & Disposal](/handbook/security/standards/records-retention-deletion/) policy. Logs in long-term storage are less granular and have less detail than those in short-term storage.
 
 Detailed overview of architecture, tooling and workflows are listed on the [Logging](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/logging/README.md) page.
 
@@ -98,9 +98,9 @@ Service owners then use this process to act on this information.
 
 The data sources used to feed the forecasting tool are historical saturation and utilization data used as part of standard monitoring of GitLab.com.
 
-The output of our capacity planning process is considered ORANGE, and must be treated per [The Data Classification Standard](/handbook/security/data-classification-standard/#orange).
+The output of our capacity planning process is considered ORANGE, and must be treated per [The Data Classification Standard](/handbook/security/standards/data-classification-standard/#orange).
 
-Detailed overview of architecture, tooling and workflows are listed on the [Capacity Planning](/handbook/engineering/infrastructure/capacity-planning/) page.
+Detailed overview of architecture, tooling and workflows are listed on the [Capacity Planning](/handbook/engineering/infrastructure-platforms/capacity-planning/) page.
 
 ## Exceptions
 
@@ -108,4 +108,4 @@ Changes and exceptions to this policy must be approved by the appropriate Infras
 
 ## References
 
-- [Records Retention & Disposal](/handbook/security/records-retention-deletion/)
+- [Records Retention & Disposal](/handbook/security/standards/records-retention-deletion/)

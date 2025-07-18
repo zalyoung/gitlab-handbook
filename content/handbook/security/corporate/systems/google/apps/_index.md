@@ -6,7 +6,7 @@ Effective 2024-06-26, Google Workspace applications that connect via OAuth are b
 
 ### Adding an external OAuth application to Google Workspace
 
-Requests for application integrations can be submitted [here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/third-party-vendor-security-management/-/issues/new) using the `TPRM Application Integration Request` template. Once the app integration issue has undergone all necessary reviews and approvals, please [submit a CorpSec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new) and link the app integration issue.
+Requests for application integrations can be submitted [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=application_integration_request) using the `application_integration_request` template. 
 
 ### Adding an internal app/app script to Google Workspace
 

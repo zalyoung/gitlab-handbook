@@ -53,7 +53,7 @@ That *is* a valid question, but it masks the actual question: "**How do you main
 
 In a period of tremendous external stress, culture is less about workplace rah-rah and more about intentionally reallocating that energy to serve society. Leaders must accept that the benchmark has changed. Expecting employees and managers to maintain a pre-crisis level of cheer during a pandemic can further deflate morale, and refusing to acknowledge this reality will make it more difficult for culture to recover post-crisis.
 
-Even a company's culture champions, the most enthusiastic of team members, are under unprecedented duress during a global crisis. Many are struggling to work while doubling as a homeschool teacher, or concerned about the well-being of neighbors and community members. The energy they once allotted to championing workplace culture is being used up elsewhere, rightly prioritized to focus on new stressors in life outside of work. Complicating matters further is that few employees are willing to state this for fear of being penalized for taking their focus away from work, and not living up to expectations. It is essential for leadership to proactively take [steps to create a non-judgmental culture](mental-health/#creating-a-non-judgemental-culture).
+Even a company's culture champions, the most enthusiastic of team members, are under unprecedented duress during a global crisis. Many are struggling to work while doubling as a homeschool teacher, or concerned about the well-being of neighbors and community members. The energy they once allotted to championing workplace culture is being used up elsewhere, rightly prioritized to focus on new stressors in life outside of work. Complicating matters further is that few employees are willing to state this for fear of being penalized for taking their focus away from work, and not living up to expectations. It is essential for leadership to proactively take [steps to create a non-judgmental culture](mental-health/#create-a-non-judgemental-culture).
 
 Rather than assuming that workplace culture is eroding, consider showcasing how people in your organization are using their energy to support others outside of the workplace. Hearing stories of colleagues supporting first-line workers, neighbors, and community members will bolster morale at work. Being open about taking time away from work to be there for others who are struggling in the midst of a pandemic will create even stronger bonds *at* work.
 
@@ -79,7 +79,7 @@ Diversity, [Inclusion](/handbook/company/culture/inclusion/) & Belonging is fund
 
 Empathy and [kindness](/handbook/values/#kindness) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication](effective-communication/) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
 
-GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#ownership), and act as a [manager of one](/handbook/values/#managers-of-one).
+GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#have-ownership--accountability), and act as a [manager of one](/handbook/values/#managers-of-one).
 
 For a greater understanding of the importance of empathy in a manager, read [GitLab's guide to combating burnout, isolation, and anxiety](mental-health/).
 
@@ -129,7 +129,7 @@ For many, it is assumed that culture is simply the aura, energy, or vibe one get
 
 A company culture is a company's list of values. Culture is an assurance that each employee respects, admires, and feels invested in a company's values, and that leadership works to ensure values are not violated. As GitLab, an operating principle within our Diversity, Inclusion & Belonging  value is "[culture fit is a bad excuse](/handbook/values/#culture-fit-is-a-bad-excuse)."
 
-Remote [interviewers](interviews/) should link a company's values during the interview and have a conversation to assess a candidate's alignment and understanding of those values. Particularly in a remote setting, [values](values) serve as the north star, guiding every business decision by people you cannot physically see and shaping how colleagues treat one another.
+Remote [interviewers](interviews/) should link a company's values during the interview and have a conversation to assess a candidate's alignment and understanding of those values. Particularly in a remote setting, [values](/handbook/values/) serve as the north star, guiding every business decision by people you cannot physically see and shaping how colleagues treat one another.
 
 ## No unwritten rules in a remote work culture
 
@@ -142,7 +142,7 @@ There should be no unwritten rules in remote culture. Intentional documentation 
 
 ## Intentional onboarding
 
-A team member's first experience with company culture is unavoidable. The [onboarding experience](learning-and-development/#how-do-you-onboard-new-team-members) serves as the first post-interview encounter with culture, and it is essential to infuse the [importance of values](/handbook/company/culture/all-remote/remote-values/) into that experience.
+A team member's first experience with company culture is unavoidable. The [onboarding experience](learning-and-development/#how-do-you-onboard-new-team-members) serves as the first post-interview encounter with culture, and it is essential to infuse the [importance of values](remote-values/) into that experience.
 
 Remote onboarding should set aside time for a new team member to read and digest a company's values, which serve as a company roadmap to culture. Consider having a mentor or [onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies.md) specifically ask questions related to values, providing opportunity for the new team member to dive deeper into how they are lived day-to-day.
 
@@ -150,7 +150,7 @@ Remote onboarding should set aside time for a new team member to read and digest
 
 GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
+You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 ## Reinforcing your values
 
@@ -210,7 +210,7 @@ Remote and asynchronous work can help alleviate stress and support mental health
 
 Expectations to be online, available, and responsive during set working hours can be stressful. Our hyper-connected society has allowed this notion to seep into every hour of the day, blurring or destroying the boundaries between work time and personal time.
 
-One benefit to working asynchronously is a [reduction of tension](building-culture#gratitude-and-transparency/). When your entire company operates with an understanding that any team member could be offline at any time, for any reason, there is no expectation for immediate replies.
+One benefit to working asynchronously is a [reduction of tension](building-culture/#the-importance-of-gratitude-and-transparency). When your entire company operates with an understanding that any team member could be offline at any time, for any reason, there is no expectation for immediate replies.
 
 This creates an environment where your [mental health](mental-health/) is prioritized, allowing team members to [set boundaries](mental-health/#be-transparent-about-boundaries) and freeing them from a perpetual assault of notifications and judgment.
 
@@ -235,7 +235,7 @@ A remote culture is only as strong as it is lived. At GitLab, we encourage team 
 1. [Say Thanks](/handbook/communication/#say-thanks)
 1. Use values emoji — ![CREDIT emoji](/images/handbook/values-emoji.png) — to recognize messages that exemplify a company value.
 1. Recommend a colleague for a [discretionary bonus](/handbook/total-rewards/incentives/#discretionary-bonuses). If granted, the rationale and values lived are then documented and announced during a company call, serving as a beacon to others on how to improve the lives of others by living the values.
-1. Serving as a GitLab [Contribute Ambassador](/handbook/company/culture/summit/#ambassadors), which helps the entire company get the most out of a [weeklong trip](/handbook/company/culture/summit/) to spend time with each other in person every 9-12 months.
+1. Serving as a GitLab Contribute Ambassador, which helps the entire company get the most out of a [weeklong trip](/handbook/company/culture/summit/) to spend time with each other in person every 9-12 months.
 1. Everyone can contribute to strengthening GitLab's values by creating [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) and fostering discussion.
 
 ## Put structure around culture
@@ -258,7 +258,7 @@ Documentation is a shared benefit, and is something that should be embraced by a
 
 ## Close the office
 
-Where feasible, consider closing the office and operating as a 100% remote company. This eliminates the possibility of any remote employee being seen, intentionally or unintentionally, as [deprioritized](hybrid-remote#disadvantages-to-hybrid-remote/) within the organization.
+Where feasible, consider closing the office and operating as a 100% remote company. This eliminates the possibility of any remote employee being seen, intentionally or unintentionally, as [deprioritized](hybrid-remote/#disadvantages-to-hybrid-remote) within the organization.
 
 If this is not feasible, and your company operates elsewhere on the [spectrum of remote](stages/), ensure that your culture reinforces a remote-first way of doing business. It takes a concerted effort to transcribe hallway conversations into one's handbook or Slack channels, but ensuring that each employee is seen as a remote employee is the only way to ensure equal access to information.
 

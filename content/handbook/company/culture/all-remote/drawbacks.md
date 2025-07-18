@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-Despite all of its [advantages](/handbook/company/culture/all-remote/remote-benefits/), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we'll also highlight counterpoints and solutions to these challenges.
+Despite all of its [advantages](remote-benefits/), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we'll also highlight counterpoints and solutions to these challenges.
 
 {{< youtube "CwOLAKSdlfs" >}}
 
@@ -15,13 +15,13 @@ In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical
 
 ## The difference between all-remote and remote-first
 
-[All-remote](/handbook/company/culture/all-remote/stages#9-all-remote) is a work arrangement in which employees do not commute to a central place of work because there are no company-owned offices.
+[All-remote](stages#9-all-remote) is a work arrangement in which employees do not commute to a central place of work because there are no company-owned offices.
 
-[Remote-first](/handbook/company/culture/all-remote/stages#7-remote-first) typically means there is a physical workplace of some kind available to employees who need or prefer a traditional office space outside of the home. However, these spaces are not always company-owned, they could be a shared workspace, coffee shop, or public library.
+[Remote-first](stages#7-remote-first) typically means there is a physical workplace of some kind available to employees who need or prefer a traditional office space outside of the home. However, these spaces are not always company-owned, they could be a shared workspace, coffee shop, or public library.
 
-Remote-first organizations optimize their company for remote by creating documentation, policies, and [workflows](/handbook/company/culture/all-remote/how-to-work-remote-first/) that assume 100% of the organization is remote.
+Remote-first organizations optimize their company for remote by creating documentation, policies, and [workflows](how-to-work-remote-first/) that assume 100% of the organization is remote.
 
-These companies work to ensure that offices are simply [venues to work remotely from](/handbook/company/culture/all-remote/how-to-work-remote-first/#offices-are-simply-venues-to-work-remotely-from), and are not the epicenter of power or culture.
+These companies work to ensure that offices are simply [venues to work remotely from](how-to-work-remote-first/#offices-are-simply-venues-to-work-remotely-from), and are not the epicenter of power or culture.
 
 ## Remote work challenges and solutions for employees
 
@@ -40,7 +40,7 @@ The first month in a remote role can feel [lonely](https://about.gitlab.com/blog
 **Solutions**
 
 - To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications](informal-communication/).
-- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#social-calls), and [incentivizing in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members are several of the ways in which GitLab accomplishes this.
+- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#team-days-and-social-calls), and [incentivizing in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members are several of the ways in which GitLab accomplishes this.
 
 ### Challenge: Communication breakdown
 
@@ -49,7 +49,7 @@ Remote settings can cause a breakdown in communication skills if organizations a
 **Solutions**
 
 - All-remote companies should default to asynchronous communication to combat feelings of being left out of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-and-key-reviews) that are open to all.
 
 ### Challenge: Work/life balance
 
@@ -121,7 +121,7 @@ Differences in currency as well as tax, immigration, and labor laws around the w
 
 ### Challenge: Company culture
 
-You have to be more intentional about [cultivating](https://about.gitlab.com/blog/2019/06/04/contribute-wrap-up/), [sustaining](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings), and [documenting](learning-and-development/#the-importance-of-documenting-everything) your company culture.
+You have to be more intentional about [cultivating](https://about.gitlab.com/blog/2019/06/04/contribute-wrap-up/), [sustaining](learning-and-development/#ask-me-anything-ama-and-key-reviews), and [documenting](learning-and-development/#the-importance-of-documenting-everything) your company culture.
 
 **Solutions**
 
@@ -131,7 +131,7 @@ You have to be more intentional about [cultivating](https://about.gitlab.com/blo
 
 ## Remote work challenges and solutions for teams
 
-Despite its many [advantages](/handbook/company/culture/all-remote/remote-benefits/), all-remote work can present new challenges for teams.
+Despite its many [advantages](remote-benefits/), all-remote work can present new challenges for teams.
 
 ### Challenge: Isolation
 
@@ -140,7 +140,7 @@ A remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-
 **Solutions**
 
 - Build an [intentional structure for informal communication](informal-communication/) to help combat loneliness.
-- Schedule regular [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#social-calls), and [incentivize in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members to encourage team building and prevent isolation.
+- Schedule regular [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#team-days-and-social-calls), and [incentivize in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members to encourage team building and prevent isolation.
 
 ### Challenge: Communication
 
@@ -149,7 +149,7 @@ If teams aren't intentional about creating ways for their people to stay connect
 **Solutions**
 
 - Asynchronous communication invites everyone to be a part of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-and-key-reviews) that are open to all.
 
 ### Challenge: Boundaries
 
@@ -168,11 +168,11 @@ An all-remote job will best suit [self-motivated people](https://about.gitlab.co
 
 - Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
 - Remote makes it [easier to communicate](informal-communication/) with difficult colleagues remotely, [reducing distractions](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/) from interpersonal drama or office politics.
-- Flexibility to [choose your working hours](people/#worklife-harmony) based on when you're [most productive](/handbook/company/culture/all-remote/asynchronous/).
+- Flexibility to [choose your working hours](people/#worklife-harmony) based on when you're [most productive](asynchronous/).
 
 ## Tips for independent remote working
 
-Whether you're new to working remotely or have done it before, you can explore the detailed version of our [5 tips for successful remote working](/handbook/company/culture/all-remote/remote-work-starter-guide/):
+Whether you're new to working remotely or have done it before, you can explore the detailed version of our [5 tips for successful remote working](remote-work-starter-guide/):
 
 1. Create a dedicated workspace (focus)
 1. Separate work from life (avoid burnout)
@@ -188,6 +188,6 @@ From the cost savings on office space to more flexibility in employees' daily li
 
 > **"Remote is not a challenge to overcome. It's a clear business advantage."** -Victor, Product Manager, GitLab
 
-You can view our [complete guide to the benefits of all-remote here](/handbook/company/culture/all-remote/remote-benefits/).
+You can view our [complete guide to the benefits of all-remote here](remote-benefits/).
 
 Return to the main [all-remote page](_index.md).

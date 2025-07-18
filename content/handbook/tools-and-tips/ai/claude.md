@@ -6,12 +6,15 @@ Learn how to use [Claude.ai](https://claude.ai/) to infuse AI into your workflow
 
 ## Access
 
-Open [claude.ai](https://claude.ai/) and use your team member email address for SSO login. You can also use the Claude tile in [Okta](/handbook/it/okta/). Review the [usage guidelines and FAQs](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs) (internal).
+Open [claude.ai](https://claude.ai/) and use your team member email address for SSO login. You can also use the Claude tile in [Okta](/handbook/security/corporate/end-user-services/okta/). Review the [usage guidelines and FAQs](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs) (internal).
 
 ## Resources
 
-- [AI at GitLab initiative](https://internal.gitlab.com/handbook/company/ai-at-gitlab/) (internal)
-- [Claude.ai support articles collection](https://support.anthropic.com/en/collections/4078531-claude-ai)
+1. [AI at GitLab initiative](https://internal.gitlab.com/handbook/company/ai-at-gitlab/) (internal)
+   - Review the [AI At GitLab usage guidelines and FAQ](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs)
+1. [Claude.ai support articles collection](https://support.anthropic.com/en/collections/4078531-claude-ai)
+1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
+1. Join the [`#ai-at-gitlab` Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
 
 ## Tips
 
@@ -19,12 +22,28 @@ Open [claude.ai](https://claude.ai/) and use your team member email address for 
 
 Claude.ai can answer many different questions and topics. Be creative, curious, and explore, and iterate on the best chat prompts. Since [GitLab Duo Chat](gitlab-duo.md) also uses [Anthropic Claude as one of the LLMs](https://docs.gitlab.com/ee/user/gitlab_duo_chat/), you can test and repurpose similar chat prompts.
 
-1. Join the [#ai-at-gitlab Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
-1. Download [Claude for Desktop](https://claude.ai/download)
-1. CLI and API access
-   - An Anthropic API key is required. Create an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) for Anthropic Console - Corp in the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
+### Applications and CLI
+
+1. Download [Claude for Desktop](https://claude.ai/download) to use the Claude application on macOS.
+1. Anthropic API access
+   - An Anthropic API key is required. Follow the guidance in the [internal handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#requests-for-anthropic-api-key-use).
+1. Anthropic CLI (requires API access)
    - Learn about the [Anthropic SDK](https://docs.anthropic.com/en/docs/initial-setup#install-the-sdk) and community projects for CLIs: [anthropic-cli](https://github.com/dvcrn/anthropic-cli)
-1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
+
+### Token Limits
+
+> [!note]
+> This section covers tips for token limits in [context windows](https://docs.anthropic.com/en/docs/build-with-claude/context-windows), for API rate limits please review [Anthropics rate limit documentation](https://docs.anthropic.com/en/api/rate-limits#rate-limits).
+
+To help prevent hitting rate limits while using Claude, we recommend following the tips below:
+
+- Set the appropriate thinking mode, Extended seems to support more context that you upload and generated content.
+- Set the response mode to Concise to shorten Claudes response length.
+- Before re-prompting, try editing your previous prompt to include your new ask.
+- Be specific in your prompt, 3.7 likes to try and build out more than you ask, clarify to only make the changes requested in a more iterative approach.
+
+> [!note]
+> At the time of this writing, _Claude 3.5 Sonnet_, has higher rate limits, so if this does the job and you need long conversations, this may be a viable choice until rate limits on _Claude 3.7 Sonnet_ are increased, although will be missing out on improvements made in the 3.7 version of the model.
 
 ## Example Prompt Library
 
@@ -48,7 +67,7 @@ Analyze how a company's features address key challenges in the [MARKET SEGMENT] 
 #### Sales Email Template Generator
 
 ```markdown
-Generate a personalized sales email to [PROSPECT TYPE] who is currently using [CURRENT SOLUTION]. 
+Generate a personalized sales email to [PROSPECT TYPE] who is currently using [CURRENT SOLUTION].
 Include:
 - Pain points they might be experiencing
 - Specific features that address these pain points

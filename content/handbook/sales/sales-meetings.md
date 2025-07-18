@@ -97,7 +97,7 @@ You can view previous updates in the "Group Conversation Sales" (previously "Fun
 This update will include the current status of:
 
 - Sales KPI's
-- [OKR's](/handbook/company/okrs/fy21-q3/)
+- OKR's
 
 The meeting will cover:
 

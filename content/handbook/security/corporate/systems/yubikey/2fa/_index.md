@@ -17,7 +17,7 @@ See [How It Works](#how-it-works) to learn more.
 
 3. Follow the instructions in the guides for each of our applications to configure your YubiKey as a 2FA authenticator. If you have multiple accounts, repeat the steps for each account.
 
-    - [Okta Guide](/handbook/security/guides/yubikey/2fa/okta)
+    - [Okta Guide](/handbook/security/corporate/end-user-services/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta)
     - [Google Guide](/handbook/security/guides/yubikey/2fa/google)
     - [GitLab Guide](/handbook/security/guides/yubikey/2fa/gitlab)
 

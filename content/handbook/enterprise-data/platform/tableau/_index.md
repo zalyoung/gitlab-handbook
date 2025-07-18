@@ -47,43 +47,6 @@ Tableau is our Enterprise Business Intelligence tool. It is a [leader](https://w
 
 </details>
 
-<details markdown=1>
-
-<summary><b>Roadmap</b></summary>
-FY25 Tableau Roadmap
-
-Having completed the migration to Tableau in FY25-Q1, we are now focused on improving the Tableau developer experience and scaling our implementation to strengthen enterprise reporting.
-
-- FY25-Q2 - Establish the framework for the Future State of Tableau, with input from Functional teams
-  - Publish the Executive Landing Page to drive users towards critical dashboards
-  - Document an approach to Tableau data source creation that promotes single-source-of-truth reporting
-  - Document and implement a user deprovisioning policy & process, in order to free up unused licenses on a set cadence
-  - Document the key GTM domain areas that lack single-source-of-truth data sources
-  - Run an assessment of our Tableau environment, using quantitative and qualitative measures
-    - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables that may indicate an opportunity for data source consolidation, etc.)
-    - Dashboards (number of dashboards that exist, distribution of usage, average user views per dashboard, etc.)
-    - Users (login frequency, etc.)
-- FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and will be informed by findings from Q2 assessment):
-  - Document and implement dashboard/data source archival policies & process, in order to remove clutter from our environment
-  - Document and implement a process to help users distinguish between certified & uncertified dashboards
-  - Initiate the BI Enablement charter with programs & materials to support the Tableau community at GitLab
-  - Define, calculate, and publish quantitative metrics for Tableau health to be viewed on-demand, and incorporate into the quarterly Data Key Review. Examples below, but will be iterated on and updated:
-    - Average user views per dashboard (should increase as we declutter the Tableau environment through archival policies)
-    - Average # dashboards per published data source (should increase as we build up the inventory of SSOT published data sources)
-    - % of published dashboards in the Production environment (should increase as we build up the inventory of SSOT dashboards)
-    - etc.
-  - Publish X certified Tableau data sources for critical domain areas that require single-source-of-truth data sources
-  - Support functional teams in repointing dashboards to leverage certified data sources
-  - Refresh assessment of Tableau environment
-- FY25-Q4 - Achieve the following targets (specific numbers will be updated in Q3)
-  - Iterate on the BI Enablement charter
-  - Accelerate certified data source creation with support from Functional Analytics teams, publishing X additional certified data sources
-  - Repoint X dashboards to leverage certified data sources
-  - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
-  - Refresh assessment of Tableau environment and quantitative metrics for Tableau health
-
-</details>
-
 ## Governance Model
 
 Governance is the combination of controls, roles, and repeatable processes that creates trust and confidence in data and analytics. Both IT and business stakeholders on the project team are responsible for defining data and content governance together. In a successful self-service environment, the appropriate levels of governance create accountability and enable, rather than restrict, access to trusted content for users at GitLab. Governance is a spectrum, different kinds of data and content require different kinds of governance. It's not a one-time effort because skills and expectations will evolve. Periodically evaluating governance processes will allow us to evolve and delegate more responsibilities as new analytical skills and use cases develop.
@@ -102,13 +65,12 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 - `Development`: content in this folder intentionally includes no governance, in order to enable users to quickly prototype. As such it should be considered to be sandbox content.
 - `Production`: The Tableau Production folder environment is a designated area where validated, high-quality content is published and accessible to end users for business-critical reporting. Content in this folder has been reviewed and approved by Project Leaders.
-- `Resources`: content in this folder includes workbook templates and certified data sources that can be used in workbook development
 
 <details markdown=1>
 
 <summary><b>Project and Sub-Project Folder Descriptions</b></summary>
 
-- **Top Level Project Folders:** **The top level project provides what the purpose of the workbook is.** There are three top level projects; Production, Development, and Resources. This is the highest folder level that the Tableau user lands on. These folders guide the user either down a Production path to view certified content, development path to view sandbox content, or a resources path to access workbook templates and certified data sources to be used in workbook development.
+- **Top Level Project Folders:** **The top level project provides what the purpose of the workbook is.** There are two top level projects; Production, Development. This is the highest folder level that the Tableau user lands on. These folders guide the user either down a Production path to view certified content or development path to view sandbox content.
   - **2nd Level Sub-Project Folders:** **The 2nd level project provides who the primary owner of the workbook is.** This level of the architecture contains sub-projects for each department and cross-functional business motion such as the Go To Market Motion. Each department and cross-functional business motion will have their own sub-project. This gives us flexibility to create different types of security at the sub-project level based on specific departmental and business motion needs.
     - **3rd Level Sub-Project Folders:**  **The 3rd level project provides security around who can see the workbook.** Our SAFE Data Program is applied on this level of the architecture. This allows us flexibility to apply more security controls, by department, in the future to include enhanced SAFE Data program controls, row and column level security, and security around confidential information. Applying the security at this level will allow for customized, and scalable security programs by department and business motion.
 
@@ -118,15 +80,6 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 <summary><b>Project Architecture</b></summary>
 
-1. **Resources**
-    1. **General**
-        1. **Admin Insights**
-            1. Admin Insights Starter
-        2. **Templates**
-            1. Workbook Template
-        3. Data Source Name
-    1. **SAFE**
-        1. Data Source Name
 1. **Development** (Sandbox Environment)
     1. **Customer Success**
         1. **General**
@@ -145,7 +98,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
     8. **Product**
     9. **Sales**
     10. **Security**
-1. **Production** (Maps to our [Trusted Data Development Process](/handbook/enterprise-data/data-development/#trusted-data-development)
+1. **Production** (Maps to our [Trusted Data Development Process](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development)
     1. **Customer Success**
         1. **General**
             1. Data Source Name
@@ -171,7 +124,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 Please see the [project-permission-structure](/handbook/enterprise-data/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles.
 
-1. **Tableau Admins / Maintainer Responsibilities:** These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Cloud Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Cloud Site Admins](/handbook/enterprise-data/platform/tableau/#tableau-online-admins).
+1. **Tableau Admins / Maintainer Responsibilities:** These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Cloud Site Administration responsibilities although several Top Level Project Leaders are also Tableau Cloud Site Admins.
 2. **Project Leader / Code Owner Responsibilities:** Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners. A full list of Project Leads can be found [here](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views).
 
 </details>
@@ -255,7 +208,7 @@ Archival Exclusions:
 1. Content stored in Personal Folders will not be archived, as it is only viewable by the owner and does not clutter the environment.
 
 Archival Contact:
-For questions or requests regarding archived content, please reach out to the BI team. Click [here](.../handbook/enterprise-data/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
+For questions or requests regarding archived content, please reach out to the BI team. Click [here](/handbook/enterprise-data/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
 
 ### Permissions
 
@@ -263,67 +216,22 @@ Pursuant to GitLab's Transparency value, all GitLab team members will have acces
 
 #### User Groups
 
-User Groups are the only prescribed method we use for setting permissions across the Tableau site. A User Group is a collection of users that can be based on a topic, project, or organization structure, that will need to have the same set of access and permissions for content. All users will be a member of the General Access user group and can be added to more User Groups as required. The assignment of users to groups will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
+User Groups are the only prescribed method we use for setting permissions across the Tableau site. A User Group is a collection of users that can be based on a topic, project, or organization structure, that will need to have the same set of access and permissions for content. All users will be a member of the General Access user group and can be added to more User Groups as required.
 
-#### Limited Access User Groups
-
-Limited access user groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the `Standard Data Team Issue` template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/new#) section of the Tableau project.
+User groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the `Standard Data Team Issue` template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/new#) section of the Tableau project.
 
 #### List of User Groups
 
-Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
+Each section below corresponds to a limited access user group and the designated owner. Access to limited user groups can be done vie the Lumos app using the `Tableau SAFE Access` or `Tableau Special Permissions` applets. Please note: To gain access to an user group, the designated owner will need to give approval. The desingated owner can be seen in Lumos when requeseting access.
 
-- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
-- To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager.
+- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders) list to be added to this group.
+- To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
-- **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
+- **Ecosystem Sales and Operations**
 
-- **ASM EMEA Commercial Restricted Access:** This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
+- **Internal Audit Restricted Access**
 
-- **ASM Restricted Access:** Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
-
-- **Customer Success Access:** Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
-
-- **Ecosystem Sales and Operations:** Please work with the Ecosystem Sales and Operations team and/or Niles Jamshaid @Niles
-
-- **Internal Audit Restricted Access:** Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
-
-- **People Restricted Access:** Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
-
-- \***Sales Development SAFE Access:** Please work with Keith Gliksman @keith.gliksman for access approval.
-
-- \***Self-Service SAFE Access:** - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
-
-*Note: Groups with asterisk are where team members must be on the Designated Insiders list to be added to this group.
-
-<details markdown=1>
-
-<summary><b>Example User Group</b></summary>
-
-```yml
-
-groups:
-  - group_name: group 1
-  - group_name: group 2
-  - group_name: group 3
-
-users:
-  - user_name: team_memebr@gitlab.com
-    site_role: Site Administrator Creator
-    auth_setting: SAML
-    groups:
-      - group 1
-      - group 2
-
-  - user_name: other_team_member@gitlab.com
-    site_role: Viewer
-    auth_setting: SAML
-    groups:
-      - group 1
-
-```
-
-</details>
+- **People Restricted Access**
 
 #### Project Permission Structure
 
@@ -339,7 +247,6 @@ The standard permission rules for top level Projects are noted below:
 |-------------|------------------|---------------------|---------------------------------|
 | Development | All Team Members | All Team Members    | Project and Sub Project Leaders |
 | Production  | All Team Members | Project Leaders     | Project Leaders                 |
-| Resources   | All Team Members | Project Leaders     | Project Leaders                 |
 
 Below is an example of User Groups and Permissions applied to a Data Team Sub-Project where only Data Team Members can publish in the project, but All Team Members can view the content in the Sub-Project. At the Sub-Project Level, for the User Group Name, `Limited Access Team Members` can replace the `All Team Members` User Group Name for limited access.
 
@@ -349,26 +256,6 @@ Below is an example of User Groups and Permissions applied to a Data Team Sub-Pr
 | Data Team Project Leaders | Administrator Group  | Administer           |
 | Data Team                 | Access Control Group | Publish              |
 | All Team Members          | Access Control Group | View                 |
-
-<details markdown=1>
-
-<summary><b>Example Project Permissions YAML File</b></summary>
-
-```yml
-
-projects:
-  - project_name: Example Project
-    content_permissions: ManagedByOwner
-    project_path: Project Name/Project Name/
-    permission_set:
-      - group_name: group 1
-        permission_rule: view
-      - group_name: group 2
-        permission_rule: project_lead
-
-```
-
-</details>
 
 #### Capabilities
 
@@ -469,23 +356,35 @@ permission_templates:
 
 </details>
 
-#### Tableau Licenses
+---
 
-The Data Team will regularly review users' Tableau activity to determine if users have the appropriate license type, and will potentially downgrade users whose activity suggests they would be adequately served by a lower license tier. License adjustments will be made to optimize the pool of available licenses and will be based on the following activity guidelines:
+### Tableau License Management
 
-- To maintain a Creator license the team member must meet any of the following:
-  - Have published a datasource within the past 90 days
-  - Have connected to Tableau Cloud from Tableau Desktop within the past 90 days
-- To maintain an Explorer license the team member must meet any of the following:
-  - Have accessed the web authoring environment within the past 90 days
-  - Have published a workbook within the past 90 days
-- To maintain a View license the team member must meet any of the following:
-  - Have accessed a View within the past 90 days
-  - Have accessed a Datasource within the past 90 days
+Our organization manages Tableau licenses through an automated system using an Okta - Lumos integration. This approach ensures everyone who needs Tableau has access to it by redirecting unused licenses from inactive accounts to team members who will benefit from the platform's insights and capabilities.
+
+#### License Activity Policy
+
+To maintain a Tableau license, users must actively use the platform within a 90 day period.
+Our automated Lumos system monitors login activity and manages licenses based on usage:
+
+- Users who don't log in to Tableau within 90 days may be automatically deprovisioned
+- Tableau Viewer licenses are automatically removed after 90 days of inactivity without additional review
+- Tableau Creators and Explorers undergo a review by the Tableau Administration team before deprovisioning
+- Note: VP-levelpositions and above are exempt from automated deprovisioning
+
+#### Regaining Access
+
+If deprovisioned due to inactivity:
+
+1. Access Lumos portal through Okta
+2. Submit Tableau access request for `Tableau Access`
+3. Upon approval, access will be restored
+
+**Permissions Preservation:** When a user is deprovisioned, they only lose their license—not their group memberships or permission settings. This ensures that when access is restored, users automatically regain access to all their previous projects, dashboards, and content without needing additional configuration.
+
+This approach ensures licenses are available for active users while allowing easy restoration of access when needed and follows our [Data Health and Security practices](/handbook/enterprise-data/data-governance/data-management/#tableau).
 
 In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team).
-
-Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-management/#tableau).
 
 **Tracking License Usage**
 
@@ -497,17 +396,46 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 
 ## Access
 
-### Tableau Cloud Access
+### Getting Started
 
-Users can request access by creating an issue in the access requests project using the [Tableau_Request issue template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Tableau_Request). Follow the instructions in the template to ensure it will be picked up by the Central Data Team for provisioning.
+Users can request access to Tableau through the Okta portal using the [Lumos application](/handbook/security/corporate/systems/lumos/ar/). Follow these steps to submit your request for Tableau:
 
-All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](/handbook/enterprise-data/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
+- Log in to the Okta portal
+- Search for and select the "Lumos" application
+- Select "Tableau" from the available applications
+- Choose the specific role that matches your needs (see Role Types below)
+- Lumos will automatically initiate the approval workflow and handle provisioning upon approval
 
-Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
+The system will guide you through any additional information required to complete your request. You'll receive notifications about the status of your request through email.
+
+### Role Types
+
+When requesting access, select the appropriate role based on your needs:
+
+- Viewer: View and interact with dashboards and visualizations
+- Explorer: Create and modify workbooks from existing data sources
+- Creator: Build new data sources and develop advanced visualizations
+
+Click [here](/handbook/enterprise-data/platform/tableau/#capabilities) for further details on role capabilities.
+
+### Restricted Data Access
+
+Tableau access is structured in a tiered approach that separates data based on sensitivity levels and regulatory requirements.
+
+- General Content: All users receive access to general content by default upon approval
+- Restricted SAFE Content: Requires additional approval and justification
+- Other [special permission](/handbook/enterprise-data/platform/tableau/#user-groups) access.
+
+Users may request restricted access through the Lumos App by selecting the following Lumos Apps and following the instructions there:
+
+- Tableau Restricted SAFE Access
+- Tableau Special Permissions
 
 ### Tableau Desktop Access
 
 Creators with an active license to Tableau Cloud are encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Cloud. All Creators will be assigned access to Tableau Cloud and Desktop. Tableau Desktop keys are automatically assigned by Tableau Cloud when first connecting.
+
+Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
 
 One can download Tableau Desktop using the links below, or follow the link from the [Home Page](https://10az.online.tableau.com/#/site/gitlab/home) of Tableau Cloud.
 
@@ -615,7 +543,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 ### Data Source Access: **Tableau Desktop or Tableau Prep Builder**
 
-*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
+*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-desktop-access) section above for more details on how to order a Yubikey.
 
 <details markdown=1>
 
@@ -696,7 +624,7 @@ By following these steps, you’ll ensure that your Snowflake OAuth tokens are u
 
 Certified data sources ensure trusted, high-quality, and efficient data for the organization. Approved by a Tableau Admin through an [issue submission](https://gitlab.com/gitlab-data/tableau/-/issues/new?issuable_template=Certify%2Tableau%20Data%20Source), these sources receive a Certified badge and an appended " - Certified" name for visibility and searchability. The certification signals that the data source has been rigorously reviewed for accuracy and compliance, providing users confidence to build reliable reports.
 
-Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
+Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/how-we-work/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
 
 As the primary resource for analysts, certified data sources streamline onboarding, training, and updates while reducing duplication and promoting consistency. By focusing on quality and reliability, they simplify decision-making and solidify their role as essential components of the organization’s data ecosystem.
 
@@ -723,12 +651,25 @@ All certified data sources must meet the following criteria:
        - Numbers: Format as currency or decimal where needed.
        - Percentages: Apply proper '%' formatting at desired decimal level.
 
+## Data Team Tableau Resources
+
+The Data Team provides shared Tableau resources to support reporting, dashboard development, and data visibility across the organization. These resources are maintained to help teams build with consistency, understand platform usage, and access historical content when needed.
+
+You can find these resources in the [Production → Data Team → General](https://10az.online.tableau.com/#/site/gitlab/projects/367731) folder. This location includes information such as:
+
+- Platform Usage Dashboards – Insights into how Tableau is being used across teams
+- Archived Dashboards and Data Sources – Retired or historical content for reference
+- Templates and Examples – Standardized templates to help jump-start new dashboard builds
+
+Use this folder as your go-to spot for foundational Tableau materials supported by the Data Team.
+
 ## Education
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
 
-### Official Training Resources
+### Training Resources
 
+- [GitLab Tableau Explorer Training](https://drive.google.com/file/d/1Zkk8_xz4CeH7tSHVW4KlMWHzFYN3VZlK/view?usp=drive_link): This video training covers the Gitlab Environment and how to update Tableau dashboards and even publish your own. This video access does require you to be a GitLab team member for access.  
 - [Free Tableau Training](https://www.tableau.com/learn/training)
 - [Tableau eLearning - Training Portal](https://elearning.tableau.com/): eLearning from Tableau is available for users with the Creator or Explorer license type
   - Tableau eLearning access steps
@@ -826,7 +767,7 @@ End User
 
 <summary><b>Tableau Certification</b></summary>
 
-Tableau offers several [certifications](https://www.tableau.com/learn/certification) for users to prove out their specialized skills in and knowledge of the tool. The following certifications are recommended for creators / analysts who want to showcase their expertise:
+Tableau offers several [certifications](https://www.tableau.com/learn/certification) for users to prove their specialized skills in and knowledge of the tool. The following certifications are recommended for creators / analysts who want to showcase their expertise:
 
 - [Certified Tableau Desktop Specialist](https://www.tableau.com/learn/certification/desktop-specialist): This exam is for those who have foundational skills and understanding of Tableau Desktop and at least three months of applying this understanding in the product. Please also view the [exam guide](https://www.tableau.com/learn/certification/tableau-desktop-specialist-exam-guide) for more details on how to prepare.
 - [Certified Tableau Data Analyst](https://www.tableau.com/learn/certification/certified-data-analyst): This exam is for analysts that can enable stakeholders to make business decisions by understanding the business problem, identifying data to explore for analysis, and delivering actionable insights. Please also view the [exam guide](https://www.tableau.com/learn/certification/tableau-certified-data-analyst-exam-guide) for more details on how to prepare.
@@ -924,3 +865,30 @@ The index itself is a weighted average, values range between 0 and 1, of the cou
 | 0.70 to 0.84 | Fair |
 | 0.50 to 0.69 | Poor |
 | 0.00 to 0.49 | Unacceptable |
+
+---
+
+### Tableau Google Docs & Slides Add-on
+
+All Tableau users have access to the **[Tableau for Google Docs and Slides add-on](https://workspace.google.com/marketplace/app/tableau/1044537977580)**, which allows you to embed Tableau dashboards and charts directly into Google Docs or Slides.
+
+#### How It Works
+
+- The add-on is accessible on the **right-hand panel** of any Google Doc or Slide.
+- Users can **search for and insert Tableau views** into their documents.
+- Once embedded, Tableau content can be **refreshed with one click** to reflect the latest data.
+- The add-on embeds the **URL** of the selected Tableau view.
+
+#### Best Practices
+
+- If you need to embed **a specific chart** from a dashboard, that chart must be **published as its own view** in Tableau.
+- Use clear naming conventions when inserting content to ensure recipients understand what data is being shared.
+
+#### SAFE Data Considerations
+
+When working with content that includes **SAFE-classified data**, you must:
+
+- Ensure the Google Doc or Slide is **only shared with individuals who have access** to the SAFE data in Tableau.
+- Consider adding **“ - SAFE”** to the document or presentation title to indicate data sensitivity and appropriate access controls.
+
+Misuse of SAFE data in external documents may result in data exposure. Always double-check permissions before sharing. For help publishing specific views or understanding SAFE classifications, contact the Data or Tableau support teams.

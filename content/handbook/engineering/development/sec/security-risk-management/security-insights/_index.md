@@ -45,7 +45,7 @@ We use our  Security Insights Priorities page for [17.x](https://about.gitlab.co
 
 ### Product Workflow
 
-The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
+The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 Additional information can be found on the [Planning page](/handbook/engineering/development/sec/security-risk-management/srm-planning/).
 
@@ -55,6 +55,20 @@ Additional information can be found on the [Planning page](/handbook/engineering
 * By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
   * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
+
+### Project Estimation
+
+Our team follows a multi-phase estimation process. This allows us to have just-in-time information to facilitate predictable roadmap planning.
+
+#### High Level Estimation
+
+* Projects in our priorities roadmap will contain an estimation issue (labeled with `~estimation::needed`). These can be found on the [estimation issue board](https://gitlab.com/groups/gitlab-org/-/boards/9392539?label_name%5B%5D=estimation%3A%3Aneeded&label_name%5B%5D=group%3A%3Asecurity%20insights&group_by=epic).
+* Estimation issues have several desired outcomes:
+  * Provide high level, # of milestone based estimate for the respective capabilities (frontend, backend)
+  * Identify dependencies (other product groups, new technologies, libraries)
+  * Determine outstanding questions and if they block further estimation or will be required before planning breakdown can start.
+* These outcomes should be added to the respective areas within the epic template.
+* Add `~estimation:complete` label and close the estimation issue when complete.
 
 ### Tracking Deliverables
 
@@ -133,7 +147,7 @@ If a support engineer requests assistance via Slack and it requires investigatio
 * [s_srm](https://gitlab.enterprise.slack.com/archives/C07QUBQ98S1)
 * [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
 
-We utilize a standardized [Request for Help](https://gitlab.com/gitlab-com/request-for-help) process to request formal assistance from our group . This helps with visibility, tracking and review. Please submit a new Request for Help for Security Insights using [this template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Security-Insights). 
+We utilize a standardized [Request for Help](https://gitlab.com/gitlab-com/request-for-help) process to request formal assistance from our group . This helps with visibility, tracking and review. Please submit a new Request for Help for Security Insights using [this template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Security-Insights).
 
 ### MR Reviews
 
@@ -152,7 +166,7 @@ We follow these guidelines when submitting MRs for review when the change is wit
 ### Issue Boards
 
 * [Security Insights Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?milestone_title=Started&label_name[]=group%3A%3Asecurity%20insights)
-  * Primary board showing the stage of currently planned issues. 
+  * Primary board showing the stage of currently planned issues.
 
 * [Security Insights "Who's working on what" board](https://gitlab.com/groups/gitlab-org/-/boards/7145903?milestone_title=Started)
   * Shows issues assigned to engineers on our team.
@@ -161,14 +175,161 @@ These boards show current status of issues.
 
 ## Quality
 
+## Quality and E2E Specs
+
+### Workflow of E2E runs on Staging and Production
+
+We run scheduled E2E tests on both staging and production environments every 4 hours. These tests help ensure that recent deployments haven’t introduced regressions.
+
+We can monitor test results in the following Slack channels:
+
+* #e2e-run-staging
+* #e2e-run-production
+
+For full details of scheduled E2E test pipelines running against live environments see [E2E test pipelines](../../../../testing/end-to-end-pipeline-monitoring#end-to-end-e2e-test-pipelines).
+
+### Running and Fixing E2E specs
+
+#### Prerequisites
+
+Ensure the following before running tests:
+
+* `gdk` is up and running
+* Runner is up and running
+* Set `GITLAB_SIMULATE_SAAS` to 0 inside your `env.runit` in the `gitlab-development-kit` directory:
+
+  ```shell
+  export GITLAB_SIMULATE_SAAS=0
+  ```
+
+* Ensure EE License is set as an environment variable in your .env file.
+
+#### Running QA Tests
+
+Use the following command to run tests locally against your GDK instance:
+
+#### Running against your `gdk`
+
+* With a feature flag enabled:
+
+  ```shell
+  WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --enable-feature <feature_flag_name>
+  ```
+
+You can also run a specific RSpec line using <filename>:<line_number> to target the surrounding example block. See [RSpec best practices](https://docs.gitlab.com/development/testing_guide/best_practices/#rspec) for more details.
+
+* With a feature flag disabled:
+
+  ```shell
+  WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --disable-feature <feature_flag_name>
+  ```
+
+* Without a feature flag:
+
+  ```shell
+  WEBDRIVER_HEADLESS=false GITLAB_ADMIN_PASSWORD="root_password" GITLAB_QA_ADMIN_ACCESS_TOKEN="api_token_from_gdk" GITLAB_PASSWORD="root_password" QA_LOG_LEVEL=DEBUG QA_GITLAB_URL=http://gdk.test:3000 bundle exec rspec <filename/path>
+  ```
+
+#### Running against staging
+
+```shell
+GITLAB_QA_USER_AGENT=<USER_AGENT> GITLAB_ADMIN_USERNAME=<ADMIN_USERNAME>  GITLAB_ADMIN_PASSWORD=<ADMIN_PASSWORD>
+GITLAB_USERNAME=<USERNAME> GITLAB_QA_ACCESS_TOKEN=<ACCESS_TOKEN> GITLAB_PASSWORD=<GITLAB_PASSWORD> QA_DEBUG=true WEBDRIVER_HEADLESS=true bundle exec bin/qa Test::Instance::All https://staging.gitlab.com <filename/path>
+```
+
+The credentials are to be found in 1Password.
+
+#### Local testing of licensed features
+
+When a feature needs to check the current license tier, it's important to make sure this also works on GitLab.com.
+
+To emulate this locally, follow these steps:
+
+1. Export an environment variable[^1]:
+
+   ```shell
+   export GITLAB_SIMULATE_SAAS=1
+   ```
+
+1. Within the same shell session, run:
+
+   ```shell
+   gdk restart
+   ```
+
+1. Navigate to **Admin > Settings > General > "Account and limit"**, and enable "Allow use of licensed EE features".
+
+See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
+
+### Troubleshooting common errors and fixes
+
+* For general troubleshooting hints, see [E2E test troubleshooting](https://docs.gitlab.com/development/testing_guide/end_to_end/troubleshooting/).
+
+* **Error: QA::Resource::Sandbox Fabrication Failed**
+  * Error Message:
+
+    ```plaintext
+    Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=[\"public has been restricted by your GitLab administrator\"]}" }`
+    ```
+
+  * Solution:
+    * Navigate to GDK Admin Area → General
+    * Under Restricted Visibility Levels, ensure none of the checkboxes are selected.
+
+* **Error: API Client Validation Failed**
+  * Error message:
+
+    ```plaintext
+    An error occurred in a `before(:suite)` hook.
+    Failure/Error: raise InvalidTokenError, "API client validation failed! Code: #{resp.code}, Err: '#{resp.body}'"
+    ```
+
+  * Solution:
+    * Ensure your user verification is complete before running a pipeline.
+    * Check if your API token is valid.
+
+* **Error: Namespace is Not Valid**
+  * Error message:
+
+    ```plaintext
+    QA::Resource::Errors::ResourceFabricationFailedError:
+    Fabrication of QA::Resource::Project using the API failed (400) with `{ "message": { "namespace": ["is not valid"] } }`.
+    ```
+
+  * Solution:
+    * Reset your GDK by running:
+
+      ```shell
+      gdk data-reset
+      ```
+
+* **Error: Webpack Module Parse Failed**
+  * Error message:
+  
+    ```plaintext
+    /.../.../.../gdk/gitlab/node_modules/graphql-ws/dist/client.js 75:56
+    Module parse failed: Unexpected token (75:56)
+    You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See
+    https://webpack.js.org/concepts#loaders
+    |         },
+    |         emit(message2) {
+    >           if ("id" in message2) listeners2[message2.id]?.(message2);
+    |         }
+    |     };
+    ```
+
+  * Solution:
+    * Switch from Webpack to Vite
+    * Run `gdk update`
+
 ### Running E2E specs in the MR pipeline
 
-We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
+We encourage running the `e2e: test-on-omnibus` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and reviewing the results when there are changes in:
 
-* GraphQL (API response, query parameters, schema etc)
+* GraphQL (API response, query parameters, schema, etc.)
 * Gemfile (version changes, adding/removing gems)
 * Database schema/query changes
-* Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
+* Any frontend changes that directly impact the vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, or license compliance page.
 
 ### Running Govern E2E specs locally against GDK
 
@@ -178,6 +339,22 @@ Standalone [E2E specs can be run against your local GDK instance](https://gitlab
 
 E2E tests should pass with a feature flag enabled before it is enabled on Staging or on GitLab.com.
 Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
+
+For a thorough explanation of the end-to-end testing process when working with feature flags, please consult the official documentation on the [Testing feature flags with end-to-end tests](https://docs.gitlab.com/development/testing_guide/end_to_end/feature_flag_testing/#e2e-flow-when-changing-a-feature-flag-with-a-merge-request) page.
+
+## Notes and Resources on QA Testing
+
+For any questions, reach out to [#s_developer_experience](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H).
+
+### Resources
+
+* [Testing at GitLab handbook page](../../../../testing)
+* [Testing Code in Merge Requests](https://docs.gitlab.com/development/testing_guide/end_to_end/#testing-code-in-merge-requests)
+* [Running Govern E2E Specs Locally Against GDK](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa?ref_type=heads#generic-command-for-a-typical-gdk-installation)
+* [Automatic test execution when a feature flag definition changes](https://docs.gitlab.com/development/testing_guide/end_to_end/best_practices/feature_flags/#automatic-test-execution-when-a-feature-flag-definition-changes)
+* [End-to-end test pipelines](https://docs.gitlab.com/development/testing_guide/end_to_end/test_pipelines/)
+* [GitLab team member's guide to using official build infrastructure](https://docs.gitlab.com/omnibus/build/team_member_docs/)
+* [E2E testing overview video](../../../../testing/#-gitlab-end-to-end-testing-overview-video)
 
 ## Monitoring
 
@@ -215,17 +392,3 @@ If a team member creates an issue or finds an issue where we would be open to a 
 ### Group discussion
 
 We hold group discussions every other week.  We alternate between a milestone kickoff and general discussion format. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Security Insights team might be thinking about. You can find the meetings on the [Security Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1nnjYPNKtYzbpdEz16u0U2raDdLcIFY-0ibjxGLltyG0/edit?tab=t.0#heading=h.j80itk3qkjs3) (internal link). We hope to see you there!
-
-### Metrics
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
-  {{< tableau/filters "GROUP_NAME"="security insights" >}}
-{{< /tableau >}}

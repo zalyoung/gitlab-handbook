@@ -37,7 +37,7 @@ title: "Developer Relations Workflows and Tools"
 
 These are the tools the Developer Relations team is the DRI for:
 
-{{< workflows-tools >}}
+{{< marketing/workflows-tools >}}
 
 ### Community Operations Tool Stack (deprecated)
 
@@ -82,7 +82,7 @@ These are the tools that are essential to some Community programs, but the Devel
 | Marketo         | [Marketo](/handbook/marketing/marketing-operations/marketo/)                                                                                                                                                                              | Powers each intake form for our ([Education](https://about.gitlab.com/solutions/education/), [Open Source](https://about.gitlab.com/solutions/open-source/), and [Startups](https://about.gitlab.com/solutions/startups/)) programs. It is an integration which inserts the application record into Salesforce.                                                |
 | Printfection    | [Printfection](https://www.printfection.com/) is our swag management platform                                                                                                                                                             | [How we use Printfection](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling)                                                                                                                                                                                                |
 | Salesforce      | [Salesforce](https://www.salesforce.com) is our [CRM](https://en.wikipedia.org/wiki/Customer_relationship_management)                                                                                                                     | We use Salesforce (SFDC) to [support the Education, Open Source and Startup Programs](/handbook/marketing/developer-relations/community-programs/community-program-applications)                                                                                                     |
-| Canva           | [Canva](https://www.canva.com/) is the tool we use to create a lot of our GitLab-branded materials.                                                                                                                                       | Community team members should creat an account using their `@gitlab.com` email and [request access](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to Canva Enterprise from the Design team.                                        |
+| Canva           | [Canva](https://www.canva.com/) is the tool we use to create a lot of our GitLab-branded materials.                                                                                                                                       | Community team members should creat an account using their `@gitlab.com` email and [request access](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to Canva Enterprise from the Design team.                                        |
 
 ### Adding a new tool to the Developer Relations tool stack
 

@@ -25,30 +25,20 @@ Issues should only be escalated if it relates to:
 
 ## "Keep main green" group
 
-If after posting in `#handbook-escalation`, you are not receiving a response, please ping the [issue triager](maintenance.md#team-structure) if it's within their working hours.
+If after posting in `#handbook-escalation`, you are not receiving a response, please ping the [handbook DRIs](maintenance.md#team-structure) if it's within their working hours.
 
-If they are not available, the following team members (in the table below) have volunteered to assist when available. Please take into consideration the listed timezone where they are generally located and their Slack status on whether they're out of office.
+If they are not available, the ["keep main green" group](maintenance.md#team-structure) have volunteered to assist when available. Please take into consideration a team member's timezone, working hours according to their Slack profile, and their Slack status on whether they're out of office.
 
 Additionally, any GitLab team member can volunteer to join the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel and help out.
 
-| Slack username | Usual timezone(s) |
-| ----- | ----- |
-| `@Arty-chan` | Pacific Time (UTC-8/-7) |
-| `@mayra` | Central Time (UTC-6) |
-| `@David Nelson` | Central Time (UTC-6/-5) |
-| `@A.J. Romaniello` | Eastern Time (UTC-5/-4) |
-| `@Max Woolf` | GMT (UTC+0/+1) |
-| `@Filip` | Central European (UTC+1/+2) |
-| `@Marcin SJ` | Central European (UTC+1/+2) |
-| `@arpit` | India Time (UTC+5:30) |
-| `@jaime` | Australia Eastern Time (UTC+10/+11) |
+If you would like to join the group, please ask anyone in the group to add you. Similarly, team members can leave the group at any time by leaving the GitLab group.
 
 ### Expectations for the group
 
 1. Make sure you are in and do not mute the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel.
 1. When an issue is reported:
    1. Acknowledge the team member and let them know you are looking into it.
-   1. You can check on `#production`, `#incident-management`, and `#is-this-known` to see if it's a known issue with infrastructure or other problems.
+   1. You can check on `#production`, `#incidents-dotcom`, and `#is-this-known` to see if it's a known issue with infrastructure or other problems.
    1. Provide an update as soon as you are able to confirm their problem.
    1. You can also post updates in `#mr-buddies` and/or `#handbook` as appropriate.
    1. Offer to have a Zoom call to help replicate or resolve the issue if it is not straight forward.

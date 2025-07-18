@@ -7,7 +7,7 @@ aliases:
 
 ## Product Security Engineering Mission
 
-As part of the Product Security department, and sibling to the Application Security sub-department, our mission is to:
+As part of the Product Security department, and sibling to the Application Security sub-department, our mission [since September 2023](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/627) is to:
 
 - Enhance security along the software development lifecycle by creating ["paved roads"](https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5)
 - Contribute product-first code that enhances the security of GitLab's software assets
@@ -33,9 +33,11 @@ role.
 
 To reach the Product Security Engineering team, team members can:
 
-- Ask in `#sec-product-security-engineering` on Slack
+- Ask in [`#security_help`](https://gitlab.enterprise.slack.com/archives/C094L6F5D2A) on Slack and @ mention the `@product-security-engineering` handle
 - Mention `@gitlab-com/gl-security/product-security/product-security-engineering` on GitLab
 - Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new)
+
+Our team has a private channel that we use: [`#prod-sec-eng-team-internal`](https://gitlab.enterprise.slack.com/archives/C08KDNCTRBJ)
 
 ## Runbooks
 
@@ -74,10 +76,10 @@ If at any point during the refinement process it is determined that something is
 
 ### Refinement, Design, and Build
 
-Like [Single Engineer groups](/handbook/engineering/development/incubation/), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
+Like [Single Engineer Groups](/handbook/company/structure/#single-engineer-groups), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
 
 - Our build boards are organized into workflow columns
-- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development-flow/), but have the flexibility to skip the process where it's not needed
+- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/), but have the flexibility to skip the process where it's not needed
 - All Product Security Engineering team members can contribute to validation, refinement, and solution design
 - All Product Security Engineering team members can contribute to the prioritization, but the Security Engineering Manager is DRI
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
@@ -92,9 +94,22 @@ It is expected that Product Security Engineering team members will do refinement
 - Setting aside a specific amount of time per week on the calendar to perform refinement
 - Refining issues in-between major context switches, for example after submitting a merge request for review but before picking up the next piece of work
 
+#### Refinement Labels
+
+| Label | Description |
+|-------|-------------|
+| `~ProdSecEng Candidate` | Candidate issues for the Product Security Engineering team https://handbook.gitlab.com/handbook/security/security-engineering/product-security-engineering/ |
+| `~workflow::validation backlog` | Issues in a backlog of potential validation opportunities. This label is part of the product development flow https://handbook.gitlab.com/handbook/product-development-flow/#workflow-summary |
+| `~workflow::solution validation` | Workflow label for validating that the proposed solution meets user needs  https://handbook.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation |
+| `~workflow::ready for development` | Issue has a clear technical proposal and a weight https://handbook.gitlab.com/handbook/product-development-flow/#description-4 |
+| `~workflow::in dev` | Issues that are actively being worked on by a developer |
+| `~workflow::in review` | Issues that are undergoing code review by the development team and/or undergoing design review by the UX team |
+| `~workflow::blocked` | Issues that are blocked until another issue has been completed |
+| `~workflow::complete` | Applied when the [definition of done](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#definition-of-done) has been met |
+
 #### Step-by-step refinement process
 
-Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development-flow/), so that the work can be picked up by anyone.
+Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development/how-we-work/product-development-flow/), so that the work can be picked up by anyone.
 
 1. Choose an issue to refine
     1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)
@@ -102,15 +117,55 @@ Below is a step-by-step process for team members to walk through when refining b
     1. If possible, timebox refinement to at most 1 hour per issue
 1. Get an understanding of what the issue is trying to accomplish
     1. You may need to ask questions of the person who created the issue or the relevant teams
-    1. Ensure there is a clear definition of done for this particular set of work
     1. Consider breaking the issue down into separate pieces or, if needed, making an epic
-1. Add additional details to the appropriate sections such that someone can easily understand the goals and requirements
+1. Add additional details to the appropriate sections such that someone can easily understand how to meet the [definition of done](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#definition-of-done), the acceptance criteria, the goals, and requirements
 1. Investigate what an ideal solution might look like and add potential solution information to that issue
     1. Consider timeboxing this effort
     1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
-1. Add a [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) based on how much effort this will take to accomplish
-1. Consider adding a [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label to indicate the relative importance of the issue within our backlog
-1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
+1. Update the issue until it meets the Definition of Ready below
+
+### Definition of Ready
+
+Some projects will use Issue Templates to guide how we describe work to be done.
+In the absence of more specific guidance, an Issue or Work Item can be considered ready for development using the criteria below.
+
+When we notice patterns in our Definitions of Ready for specific projects, we should create an Issue Template to codify that.
+
+#### For simple tasks
+
+1. The description contains Context, a Proposal, and if applicable, a Technical Implementation Plan
+    1. Answer: "why?", "why now?" or "when?", and "who needs to be involved?"
+1. A set of checkboxes under an Acceptance Criteria that need to be be checked to consider the work complete
+1. A [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) has been assigned
+1. (Optional) A [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label has been assigned to indicate the relative importance of the issue within our backlog
+1. The `~workflow::ready for development` label has been added
+
+#### For more complex tasks
+
+As a rule of thumb, if you expect the weight to be >= 3, it is "more complex".
+
+1. Everything from "For simple tasks"
+1. Risks relating to the team, project timeline, implementation plan, stability, security, etc., have been discussed and, where needed, planned for
+1. If present, the Technical Implementation Plan includes:
+    1. Include development steps, from design through to deployment. Consider whether any of these should be their own Issues or Work Items.
+    1. Include updating any relevant documentation
+    1. Consider if the change introduces functionality requiring ongoing monitoring or alerting. If so, how will that be achieved?
+1. The Acceptance Criteria includes checkboxes for:
+    1. Deploying the change to appropriate environments (if needed)
+    1. Include notifying relevant stakeholders
+1. The description has been peer reviewed by a manager or teammate
+
+#### Definition of Done
+
+1. Acceptance criteria met
+1. Code changes:
+    1. Code produced, commented, and checked in
+    1. Peer reviewed and meeting development standards with a passing CI
+    1. Passed any non-CI Acceptance Testing
+    1. Merged & deployed to all applicable environments
+1. Performance and error monitoring is setup and verified as working where relevant
+1. Relevant documentation / diagrams produced and or updated
+1. Any inter-organizational communication has been completed
 
 ### Weights
 

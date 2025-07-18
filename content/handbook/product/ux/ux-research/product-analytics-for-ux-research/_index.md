@@ -26,7 +26,7 @@ _In order of most to least relevant to UX Researchers:_
 - [Tableau handbook page](/handbook/enterprise-data/platform/tableau/) (The GitLab handbook page on Tableau)
 - [Analytics relevant to each product stage](/handbook/product/groups/product-analysis/crash-course/#learn-about-analytics-relevant-product-stage-topics-grouped-by-section) (A GitLab handbook page for product stage resources)
 - [GitLab Metrics Dictionary](https://metrics.gitlab.com/) (A website listing all the metrics we collect from Service Ping and Snowplow)
-- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models)
+- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) (Internal handbook page with examples of commonly used data models)
 - [DBT](https://dbt.gitlabdata.com/#!/overview) (Explains the underlying code and column definitions of all GitLab data sets)
 
 ![Simplified usage data stack](/images/product/ux/ux-research/product-analytics-for-ux-research/datastack_simple.png)
@@ -47,7 +47,7 @@ There's a [more complete explanation](/handbook/enterprise-data/#how-data-works-
 [Product Data Insights (PDI)](/handbook/product/groups/product-analysis/) – As the name suggests, this team is responsible for helping folks in Product use data to gain insights. Typically, there is a team member assigned to your area of the product (find your partner on the product data insights team [here](/handbook/product/groups/product-analysis/)).
 The Product Data Insights team can take requests (via an [issue](/handbook/product/groups/product-analysis/#issue-intake)) for certain kinds of analysis, they can help you find the data you're looking for and are generally a great resource for asking questions during [Office Hours](/handbook/product/groups/product-analysis/#office-hours) or over [Slack](/handbook/product/groups/product-analysis/#channels). They are well-versed in Tableau.
 
-[Analytics Instrumentation](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/) - This group is focused on building out the instrumentation capabilities of GitLab and its team members, including [increased instrumentation coverage](https://gitlab.com/groups/gitlab-org/analytics-section/analytics-instrumentation/-/epics/6) across the product and scaling the instrumentation system we use to handle more use cases. This is a group to contact if you run into a block where something you want to do isn't currently available (or you're not sure and the Product Data Insights team doesn't know).
+[Analytics Instrumentation](/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/) - This group is focused on building out the instrumentation capabilities of GitLab and its team members, including [increased instrumentation coverage](https://gitlab.com/groups/gitlab-org/analytics-section/analytics-instrumentation/-/epics/6) across the product and scaling the instrumentation system we use to handle more use cases. This is a group to contact if you run into a block where something you want to do isn't currently available (or you're not sure and the Product Data Insights team doesn't know).
 
 The Analytics Instrumentation team members are the DRIs for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
 
@@ -140,7 +140,7 @@ Some terminology used in product analytics dashboards:
 
 For more information (or if something's not listed above):
 
-- [Data catalog metrics and terms index (internal)](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/#metrics-and-terms-index)
+- [Data catalog metrics and terms index (internal)](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/#metrics-and-terms-index)
 - [Product performance indicators (internal)](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
 
 ## Useful Tableau Workbooks

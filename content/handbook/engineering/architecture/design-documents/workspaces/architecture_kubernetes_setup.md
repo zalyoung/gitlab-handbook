@@ -128,7 +128,7 @@ NOTE: The below diagram only reflects the HTTP traffic flow. SSH traffic flow ne
 rectangle "GitLab" {
   rectangle "Nginx/HAProxy" as ReverseProxy
   rectangle "Rails"
-  rectangle "Kubernetes\nAgent\nServer\n(KAS)" as KAS
+  rectangle "GitLab\nAgent\nServer\n(KAS)" as KAS
 }
 
 actor "User"
@@ -361,7 +361,7 @@ Starting -down-> Failed : status=Failed\n(container crashing)
 Running : Workspace is running
 Running -down-> Stopping : status=Stopping
 Running -down-> Failed : status=Failed\n(container crashing)
-Running -down-> Terminated : status=Terminated
+Running -down-> Terminating : status=Terminating
 Running -right-> Error : Could not\nstop/terminate\nworkspace
 
 Stopping : Workspace is stopping
@@ -371,19 +371,21 @@ Stopping -left-> Failed : status=Failed\n(could not\nunmount volume\nand stop wo
 Stopped : Workspace is Stopped\nby user request
 Stopped -left-> Failed : status=Failed\n(could not\nunmount volume\nterminate workspace)
 Stopped -right-> Error : Could not\nstart/terminate\nworkspace
-Stopped -down-> Terminated : status=Terminated
-Stopped -up-> Starting : status=Starting
+Stopped -down-> Terminating : status=Terminating
+
+Terminating : Workspace is terminating
+Terminating -down-> Terminated : status=Terminated
 
 Terminated: Workspace has been deleted
 
 Failed: Workspace is not ready due to\nvarious reasons(for example, crashing container)
 Failed -up-> Starting : status=Starting\n(container\nnot crashing)
 Failed -right-> Stopped : status=Stopped
-Failed -down-> Terminated : status=Terminated
+Failed -down-> Terminating : status=Terminating
 Failed -down-> Error : Could not\nstop/terminate\nworkspace
 
 Error: Kubernetes resources failed to get applied
-Error -up-> Terminated : status=Terminated
+Error -up-> Terminating : status=Terminating
 
 Unknown: Unable to understand the actual state of the workspace
 ```

@@ -22,7 +22,7 @@ When looking for a parent-friendly job, instead of focusing on the specific role
 
 ## Q: What are the benefits of work from home parenting?
 
-While there are numerous [advantages to remote work](/handbook/company/culture/all-remote/remote-benefits/), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
+While there are numerous [advantages to remote work](remote-benefits/), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
 
 1. You have more [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
 1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
@@ -44,10 +44,10 @@ A recent [Forbes article on the challenges working parents faced during the pand
 
 At GitLab, we prioritize healthy work-life balance in each of these areas:
 
-- [combating isolation and burnout](mental-health/#how-to-recognize-mental-health-struggles)
+- [combating isolation and burnout](mental-health/#what-are-the-signs-of-remote-work-burnout)
 - [focus on mental health](being-a-great-remote-manager/)
 - [create healthy work/life balance](mental-health/#rest-and-time-off-are-productive)
-- [more working, less meeting](meetings/#make-meeting-attendance-optional)
+- [more working, less meeting](meetings/#1-make-meeting-attendance-optional)
 
 ## Q: How do I manage my work remotely with kids?
 
@@ -57,7 +57,7 @@ While there is no one-size-fits-all answer, we have amassed some great tips for 
 
 For parents with toddlers who may not understand why a parent is home but unable to play or engage, consider working in a space with a door that you can shut. This creates a more obvious separation between work and life.
 
-If you live in a space where such a division is impractical or impossible, consider working in a coworking space, external office, or shared community home through firms such as [Codi](https://www.codi.com). GitLab recognizes that not every living space is amenable to remote work, which is why we will [reimburse for external spaces](/handbook/finance/spending-company-money/#coworking-or-external-office--space).
+If you live in a space where such a division is impractical or impossible, consider working in a coworking space, external office, or shared community home through firms such as [Codi](https://www.codi.com). GitLab recognizes that not every living space is amenable to remote work, which is why we will [reimburse for external spaces](/handbook/finance/expenses/#co-working-space).
 
 ### Block out family time on your calendar
 
@@ -81,7 +81,7 @@ For working parents who have another working family member in the home, consider
 
 ### Invite kids to meetings/work
 
-If appropriate, consider inviting your child or children into meetings, or let them work/study in a shared space while you're at work. Remember that [meetings are about the work, not the background](meetings/#meetings-are-about-the-work-not-the-background), and kids barging into a meeting is indeed the best distraction in the world.
+If appropriate, consider inviting your child or children into meetings, or let them work/study in a shared space while you're at work. Remember that [meetings are about the work, not the background](meetings/#8-meetings-are-about-the-work-not-the-background), and kids barging into a meeting is indeed the best distraction in the world.
 
 ## Q: What are some tips for balancing parenting and work as a remote employee?
 
@@ -204,7 +204,7 @@ From family time to unforgettable adventures, there are many great stories of ho
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

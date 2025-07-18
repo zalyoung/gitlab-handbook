@@ -18,9 +18,9 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 ## Leads
 
 - [Dominique Top](/handbook/company/team/#gitlab_dlectronique)
-- James Hebden
 - James Moverly
 - Flavia Costa
+- [Jess Perry](https://gitlab.com/jess_perry) 
 
 ## Executive Sponsor
 

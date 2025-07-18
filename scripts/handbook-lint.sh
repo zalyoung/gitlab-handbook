@@ -8,13 +8,10 @@ yellow="\033[93m"
 red="\033[31m"
 ERROR_FOUND=false
 
-# Create a code-quality report to populate if it doesn't exist
-if ! [ -f handbook-codequality.json ]; then
-  echo "[]" > handbook-codequality.json
-fi
+# Create the file if it doesn't exist and ensure it's empty
+echo "[]" > handbook-codequality.json
 
-## MEDIA file checks ##
-# Pull image and video lists
+## Pull file lists
 # diff differently depending on if CI environment, fork, or local
 if [ -n "$CI_PROJECT_ID" ]; then
     # if CI_MERGE_REQUEST_SOURCE_PROJECT_PATH matches the current project, then it's not a fork
@@ -25,6 +22,7 @@ if [ -n "$CI_PROJECT_ID" ]; then
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
+        git diff --name-only --diff-filter=AR $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | sort | uniq > /tmp/NEW-FILES-TEMP
     else
         # assume otherwise it's a fork
         git fetch origin $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
@@ -39,6 +37,7 @@ if [ -n "$CI_PROJECT_ID" ]; then
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
+        git diff --name-only --diff-filter=AR $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | sort | uniq > /tmp/NEW-FILES-TEMP
    fi
 elif [ -n "$1" ]; then
     # if $1 exists, locally specified a branch to check against
@@ -46,6 +45,7 @@ elif [ -n "$1" ]; then
     git diff --name-only --diff-filter=d main...$1 | grep -vE '\.(png|jpg|jpeg|gif|md)$' | sort | uniq > /tmp/SIZE-check
     git diff --name-only --diff-filter=d main...$1 | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
     git diff --name-only --diff-filter=d main...$1 | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
+    git diff --name-only --diff-filter=AR main...$1 | sort | uniq > /tmp/NEW-FILES-TEMP
 else
     echo "No branch specified. If testing locally, specify source branch to check against main."
     exit 1
@@ -56,6 +56,11 @@ fi
 printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
 INCORRECT_IMAGE_PATHS=""
 while read -r image; do
+  # Skip specific files or patterns
+  if [[ "$image" == "static/macos-handbook-icon.svg" || "$image" =~ ^assets/.*\.svg$ ]]; then
+    continue
+  fi
+
   if ! [[ "$image" =~ ^static/images/ ]]; then
     ERROR_FOUND=true
     INCORRECT_IMAGE_PATHS="$INCORRECT_IMAGE_PATHS- $image\n"
@@ -165,6 +170,107 @@ else
   printf "%b" " ${green}${bold}Success.${normal}\n"
 fi
 
+## File and folder naming checks
+printf "%b" "${bold}Checking file and folder naming conventions...${normal}"
+INCORRECT_FILENAMES=""
+INCORRECT_FOLDERNAMES=""
+
+# Extract directories from files
+cat /tmp/NEW-FILES-TEMP | xargs -I{} dirname {} | sort | uniq > /tmp/NEW-DIRS
+# Combine files and directories for checking
+cat /tmp/NEW-FILES-TEMP /tmp/NEW-DIRS | sort | uniq > /tmp/NEW-FILES
+
+# Check each path against the pattern
+while read -r path; do
+  # Check if it's a directory
+  if [ -d "$path" ]; then
+    # For directories, we need to check each component of the path
+    # Skip root directories like "content" or "static"
+    if [[ "$path" == "content" || "$path" == "static" ]]; then
+      continue
+    fi
+
+    # Get the directory name (not the full path)
+    dirname=$(basename "$path")
+
+    # Skip checks for specific allowed directories
+    if [[ "$dirname" == "assets" || "$dirname" == "static" || "$dirname" == "content" ]]; then
+      continue
+    fi
+
+    # Skip if it's empty (happens with root directories)
+    if [ -z "$dirname" ]; then
+      continue
+    fi
+
+    # Check if dirname follows the convention (lowercase alphanumeric plus hyphens and underscores)
+    if ! [[ "$dirname" =~ ^[a-z0-9_-]+$ ]]; then
+      ERROR_FOUND=true
+      INCORRECT_FOLDERNAMES="$INCORRECT_FOLDERNAMES- $path\n"
+      fingerprint=$(echo -n "$path" | sha256sum | cut -d ' ' -f 1)
+      markdownlinjson=$(cat handbook-codequality.json)
+      cat << EOF | jq -s 'add' - > handbook-codequality.json
+$markdownlinjson
+[
+  {
+    "type": "issue",
+    "check_name": "FOLDERNAME Incorrect Format",
+    "description": "The folder \`$path\` does not follow naming conventions. Folder names should be lowercase alphanumeric with hyphens and underscores allowed.",
+    "severity": "major",
+    "fingerprint": "$fingerprint",
+    "location": {
+      "path": "$path",
+      "lines": {
+        "begin": 0
+      }
+    },
+    "link": "https://handbook.gitlab.com/handbook/about/editing-handbook/#naming-pages-and-folder-structure"
+  }
+]
+EOF
+    fi
+  else
+    # For files, check if the file exists
+    [ ! -f "$path" ] && continue
+
+    # Get just the filename without the path
+    filename=$(basename "$path")
+
+    # Check if filename follows the convention
+    if ! [[ "$filename" =~ ^[a-z0-9_-]+\.[a-z0-9]+$ ]]; then
+      ERROR_FOUND=true
+      INCORRECT_FILENAMES="$INCORRECT_FILENAMES- $path\n"
+      fingerprint=$(sha256sum "$path")
+      markdownlinjson=$(cat handbook-codequality.json)
+      cat << EOF | jq -s 'add' - > handbook-codequality.json
+$markdownlinjson
+[
+  {
+    "type": "issue",
+    "check_name": "FILENAME Incorrect Format",
+    "description": "The file \`$path\` does not follow naming conventions. Filenames should be lowercase alphanumeric with hyphens and underscores allowed.",
+    "severity": "major",
+    "fingerprint": "$fingerprint",
+    "location": {
+      "path": "$path",
+      "lines": {
+        "begin": 0
+      }
+    },
+    "link": "https://handbook.gitlab.com/handbook/about/editing-handbook/#naming-pages-and-folder-structure"
+  }
+]
+EOF
+    fi
+  fi
+done < /tmp/NEW-FILES
+
+if [[ $INCORRECT_FILENAMES != "" || $INCORRECT_FOLDERNAMES != "" ]]; then
+  printf "%b" " ${red}${bold}Failed.${normal}\n"
+else
+  printf "%b" " ${green}${bold}Success.${normal}\n"
+fi
+
 ## Video checks
 # Check if newly added videos are in /static/videos
 printf "%b" "${bold}Checking that added videos are in static/videos directory...${normal}"
@@ -239,10 +345,13 @@ else
 fi
 
 # Remove tmp file
-rm /tmp/IMAGES
-rm /tmp/VIDEOS
-rm /tmp/SIZE-check
-rm /tmp/PDFS
+rm -f /tmp/IMAGES
+rm -f /tmp/VIDEOS
+rm -f /tmp/SIZE-check
+rm -f /tmp/PDFS
+rm -f /tmp/NEW-FILES-TEMP
+rm -f /tmp/NEW-DIRS
+rm -f /tmp/NEW-FILES
 
 ## CODEOWNERS checks ##
 printf "%b" "${bold}Checking for broken CODEOWNER entries...${normal}"
@@ -451,6 +560,14 @@ if [[ $ERROR_FOUND == "true" ]]; then
   if [[ $LARGE_FILE_PATHS != "" ]]; then
     printf "%b" "The following files are larger than 15MB each:\n\n"
     printf "%b" "$LARGE_FILE_PATHS\n"
+  fi
+  if [[ $INCORRECT_FILENAMES != "" ]]; then
+    printf "%b" "The following files do not follow naming conventions (lowercase alphanumeric with hyphens only):\n\n"
+    printf "%b" "$INCORRECT_FILENAMES\n"
+  fi
+  if [[ $INCORRECT_FOLDERNAMES != "" ]]; then
+    printf "%b" "The following folders do not follow naming conventions (lowercase alphanumeric with hyphens only):\n\n"
+    printf "%b" "$INCORRECT_FOLDERNAMES\n"
   fi
   if [[ $INCORRECT_VIDEO_PATHS != "" ]]; then
     printf "%b" "The following videos are being added, but are not located in the static/videos folder:\n\n"

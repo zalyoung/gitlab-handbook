@@ -25,7 +25,7 @@ This is not an exhaustive list. For anything else you believe the Support team c
 
 ## GitLab Support's Purpose
 
-GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/it/end-user-services/self-help-troubleshooting/).
+GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/security/corporate/end-user-services/).
 
 ## Should I Contact GitLab Support?
 
@@ -64,7 +64,7 @@ There are several reasons why Support cannot respond to customer-specific reques
 
 - We aim to meet the [Service Level Agreement](https://about.gitlab.com/support/#service-level-agreements) (SLA) each time we help a customer, and we only track SLA compliance via Zendesk.
 - Zendesk has a ticket assignment system which is vital to our workflow. We have no system to assign tickets in Slack.
-- When we are trying to solve a current customer problem, we frequently [search resolved tickets in Zendesk](/handbook/support/readiness/operations/docs/zendesk/searching/). Since Slack content is deleted after 90 days, we may lose valuable information if a customer's problem and/or the solutions to it are discussed in Slack instead of a Zendesk ticket.
+- When we are trying to solve a current customer problem, we frequently search resolved tickets in Zendesk. Since Slack content is deleted after 90 days, we may lose valuable information if a customer's problem and/or the solutions to it are discussed in Slack instead of a Zendesk ticket.
 - We want to keep all of our records of a customer's technical support problems and their solutions in a single place (Zendesk).
 
 If you want to request that we place additional attention on an **existing** ticket or internal request, please use the [Support Ticket Attention Request Form](https://gitlab-com.gitlab.io/support/toolbox/forms_processor/support_escalation/) ([handbook entry](/handbook/support/internal-support/support-ticket-attention-requests)).
@@ -88,7 +88,7 @@ According to our [privacy policies](https://about.gitlab.com/privacy/), Support 
 
 A Zendesk Light Agent account is required to view Support Tickets and can be obtained without manager approval.
 
-To request a Zendesk  Global light agent account, please send an email to [contact-project+gitlab-com-support-support-ops-zendesk-global-light-agent-provi-46606987-issue-@incoming.gitlab.com](mailto:contact-project+gitlab-com-support-support-ops-zendesk-global-light-agent-provi-46606987-issue-@incoming.gitlab.com).
+To request a Zendesk  Global light agent account, please send an email to [contact-project+gitlab-com-gl-security-corp-cust-support-ops-zendesk-global-lig-68900149-issue-@incoming.gitlab.com](mailto:contact-project+gitlab-com-gl-security-corp-cust-support-ops-zendesk-global-lig-68900149-issue-@incoming.gitlab.com).
 
 - **You must send your request from your GitLab Google / Gmail account. No other addresses will work.**
   - Please use gmail to send this. Other email clients often strip vital information from the email headers.
@@ -122,19 +122,18 @@ Note that you cannot send public replies to customers with a Light Agent account
 
 For local or sandbox testing purposes, GitLab team members can provision their own enterprise edition licenses. Steps to do this:
 
-   1. Sign in to the [staging Customers Portal](https://customers.staging.gitlab.com) by selecting the **Continue with GitLab.com account** button.
-      If you do not have an existing account, you are prompted to create one.
-   1. If you do not have an existing cloud activation code, visit the **Ultimate Self-Managed Subscription** page using the [buy subscription flow link](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/8aa922840091ad5c5d96ada43d0065a1b6198841/doc/flows/buy_subscription.md).
+   1. Sign in to the [staging Customers Portal](https://customers.staging.gitlab.com) by selecting the **Continue with GitLab.com account** button. If you do not have an existing account, you are prompted to create one.
+   1. Visit the purchase page for the subscription you'd like to select. The staging Customers Portal links will redirect to a pricing page, so you must navigate directly to the purchase URL. The full list of URLs for staging subscriptions are documented [here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/flows/self_service_flow_urls.md#new-subscription-purchase-links). If you aren't sure which subscription you'd like, **Self-Managed Ultimate** is a good default. 
    1. Purchase the subscription using [a test credit card](https://gitlab.com/gitlab-org/customers-gitlab-com/#testing-credit-card-information).
 
-  Note that both this is a **staging license**, so you must configure your GitLab instance to use the staging Customers Portal. For an Omnibus install, [here](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) is how you point to staging Customers Portal. For GDK, set `export CUSTOMER_PORTAL_URL=https://customers.staging.gitlab.com` in [`env.runit`](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/runit.md).
+  Note that both this is a **staging license**, so you must configure your GitLab instance to use the staging Customers Portal. For an Omnibus install, [here](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) is how you point to staging Customers Portal. For GDK, set `export CUSTOMER_PORTAL_URL=https://customers.staging.gitlab.com` in [`env.runit`](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/contributing/runit.md).
 
 If for some reason self-provisioning is not working, team members should request a license via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting
 "Request a team member license" from the drop down options.
 
 If a GitLab team member would like an Ultimate license for GitLab.com, there are two options:
 
-1. Request an Ultimate group license for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request). 
+1. Request an Ultimate group license for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request).
 1. [Request an Ultimate license for your personal namespace](/handbook/total-rewards/incentives/#gitlab-ultimate).
 
 ### Contacting users about GitLab incidents or changes
@@ -152,14 +151,14 @@ You can request Support to contact GitLab.com users on your behalf. Here are som
 | ---------- | ------------------------------------------------------------ | ---------------------- |
 | Contact a user during an incident | [Open a confidential infra issue, assign it to the current CMOC](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=confidential_incident_data), use `confidential_incident_data` template | #support_gitlab-com |
 | Contact a single user | [Open an issue](https://gitlab.com/gitlab-com/support/internal-requests/issues/new?issuable_template=Contact%20Request) using the `Contact Request` template | #support_gitlab-com |
-| Prepare Support for changes (with or without contacting select users) | [Open a Support Readiness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Readiness) | #support_leadership |
+| Prepare Support for changes (with or without contacting select users) | [Open a Support Preparedness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Preparedness) | #support_leadership |
 | I need to reach out to many users | [Open a Marketing-Ops issue](/handbook/support/workflows/sending_notices/#mass-emails-through-marketing-department) | #support_leadership |
 
 **Please note**: This is not for marketing or sales related contact. This channel is only for communication with users regarding important items that might affect their usage of GitLab SaaS.
 
 ### Internal Requests
 
-All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using the [GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
+All internal requests regarding licensing, subscriptions, and trials period extensions should be filed using the [GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
 
 #### Internal Request SLO
 
@@ -173,7 +172,7 @@ For internal requests, our SLO varies depending on the selected `Priority` for t
 - Criteria: service loss
 - Common Scenarios:
   - SaaS group downgraded
-  - SM license expired and grace period exhausted
+  - SM license expired
 
 **High**
 
@@ -181,7 +180,6 @@ For internal requests, our SLO varies depending on the selected `Priority` for t
 - Criteria: time sensitive tasks
 - Common Scenarios:
   - Customer will lose SaaS service today
-  - SM license grace period will end today
 
 **Normal**
 
@@ -224,49 +222,113 @@ All of the SLOs apply to business days (24x5) only.
 
 <details><summary markdown='span'>Click for details</summary>
 
-A list of common scenarios and the appropriate option are detailed in the following table. Some of the scenarios contain a useful walkthrough YouTube video. For example `Extend an (almost) expired subscription` and `Strict Cloud licensing exemption request` , please note that a GitLab unfiltered account is required to view the videos.
+A list of common scenarios and the appropriate option are detailed in the following sections. Some of the scenarios contain a useful walkthrough YouTube video. For example `Extend an (almost) expired subscription` and `Strict Cloud licensing exemption request` , please note that a GitLab unfiltered account is required to view the videos.
 
 > - **NOTE**: Support cannot start a new trial. If one is needed, *have the user initiate a normal trial first*.
 > - **NOTE**: Support requires a single license or subscription request per ticket. If a provided license does not work, or you require a further extension, then please submit a new ticket. All internal L&R tickets must have a 1 to 1 relationship with the generated license or subscription, for audit/reporting reasons.
 > - **NOTE**: Please ensure that you selected the correct internal request form request prior to submission.
 > - **NOTE**: To speed up resolution, please fill in all form fields including SFDC link and additional context. Providing complete and accurate information, will enable L&R support to perform the steps needed to complete the request more efficiently.
 
-| Option     | Example Use Case                                             |
-| ---------- | ------------------------------------------------------------ |
-| **SaaS Subscription Related** | |
-| Extend an (almost) expired subscription | Use this when the customer has a subscription with us and their grace period is (almost) expired. Please note we cannot extend the actual subscription. This instead makes a trial for the namespace and uses that for the extension. Check the [What is included and excluded in trials](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded) page for more context. |
-| Investigate incorrect subscription info | Use this when the customer has a subscription with us and something is incorrect in their subscription information. This includes problems with: true-ups, subscription mismatches, can't apply subscription to group/namespace, and current seat usage counts. |
-| Reset max seats for QSR | Use this after [approval to waive the overage](/handbook/sales/field-operations/order-processing/#waived-true-ups-policy-and-approval-requirements) has been granted and documented via SFDC chatter. Once that is done, file the form to request that Support reset the max seats. |
-| SaaS NFR license request | Ensure the group on GitLab.com has started a trial, then use this option to request a SaaS NFR subscription generation. |
-| Billing Entity Change | Use this as part of the process of a billing entity change, to check whether the correct subscription is associated with the customer's group. |
-| Link Subscription to Namespace | Use this when a customer has contacted you to request that their subscription is linked to a provided namespace. Prior to submitting the request, please ensure that you have first received written confirmation from the account owner to link their subscription to the provided namespace. We require sales to upload evidence of this into SFDC and then provide a link to it. An email link or screenshot should be added to the `Google Docs, Notes, & Attachments object` section of the customer's account record in SalesForce.|
-| **SaaS Trial Related** | |
-| Extend a SaaS trial | Use this when the customer's namespace is on a trial that is active/expired. Please note we cannot create the trial for the customer. If they do not have one currently, you will be directed to have them create one. |
-| Change an existing SaaS trial plan | Use this when you want to make changes to the plan of a currently active trial, including adding compute minutes or activation of trial runners and overriding the requirement for credit card validation on sales assisted trial namespace. The number of users for GitLab.com trials are not restricted. Please note we cannot create the trial for the customer. If they do not have one currently, you will be directed to have them create one.  |
-| **Self-Managed License Related (for paid customers only)** | |
-| Extend an (almost) expired subscription | Use this when the customer has a license and their grace period is (almost) expired. Please note we cannot extend the actual license. This instead makes a trial license for the customer and uses that for the extension. The following video [How to extend an extension for an almost-expired subscription (self-managed)](https://www.youtube.com/watch?v=g8k8PAUY2pM) demonstrates how to correctly submit a `Extend an (almost) expired subscription` request. |
-| Resend existing license to the email on the license | Use this when the customer has not received a paid license from us when they should have. Please note we can resend a license to the contact in the license only.<br> Please [check for Proof of Delivery](#obtaining-proof-of-delivery-for-a-subscription) prior to filing this request|
-| Forward existing license to an email not on the license | Use this to request sending a license to a different user. Please note we cannot send licenses to anyone other than the account owner. To send it to someone else, please ask the customer to file a ticket so we can go through the contact change process. An exemption can be made for a temporary license. |
-| Multi-year license needs to be generated | Use this to request the next year's license for a multi-year subscription to be created. **Make sure to check with the customer if they exceeded their seat usage before opening this request.** Support cannot waive true-ups or change anything in SFDC. We cannot create a license until you have checked and amended their subscription as needed. |
-| Self-managed NFR license request | Use this for Self-Managed NFR license generation |
-| Cloud Licensing exemption | Use this for SCL exemptions. The following video [How to submit a Cloud License Exemption Internal Request form](https://www.youtube.com/watch?v=pvj59EhATIw) demonstrates how to correctly submit a `Strict Cloud licensing exemption request`. |
-| **Self-Managed Trial Related** | |
-| Problems starting a new Self-managed trial | Use this when the customer has no recent trial or subscription, and is not able to request the trial themselves online. |
-| Modify an existing Self-managed trial | Use this when you want to make changes to the number of users and/or the plan of a currently active trial |
-| Extend an existing Self-managed trial | Use this when the customer is on a trial that is (almost) expired. |
-| **Other** | |
-| Order Management | Use this for Order Management requests. Please note if the license information you are requesting does not match the Salesforce opportunity, we will likely not be able to generate the license as Support cannot waive seats or Trueups. Ensure you include a summary of the action requested in the context field. |
-| Hacker One Reporter License | Use this to request a license be generated for a Hacker One reporter. |
-| Report a Provision Failure | This form can be used by the Fulfillment Provisioning team to request help from L&R support when handling a Provisioning failure. Please ensure you provide a detailed description of the type of assistance that you require from the L&R support team. |
-| Wider Community License | Use this to request a community license be generated. Please note for any license lasting longer more than 90 days, manager approval is required. Without an approving manager's email being provided, the ticket will be closed out |
-| | Use this for any license & renewal issues where no other options fit. Please note if this form is used when an option **does** exist, the request will be closed and you will need to submit a new request using the correct form. |
+## SaaS Subscription Related
 
-Grace period extensions are treated similarly to trial extensions for both Self-managed and GitLab.com SaaS. To request these, file a request using the [GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) with the correct option as highlighted in the table above.
+### Extend an (almost) expired subscription
 
-Please consider the following:
+Use this when the customer has a subscription with us and is (almost) expired. Please note we cannot extend the actual subscription. This instead makes a trial for the namespace and uses that for the extension. Check the [What is included and excluded in trials](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded) page for more context.
 
-1. To extend a trial, a previous trial needs to exist for the customer. If no trial was created at any point, a trial should be created by the customer the day after the plan expires.
-1. We can provide grace period extensions as long as the current plan is not ongoing. In other words, if the plan expires on the 15th, we can increase the grace period starting the next day (16th). Please plan accordingly.
+### Investigate incorrect subscription info
+
+Use this when the customer has a subscription with us and something is incorrect in their subscription information. This includes problems with: true-ups, subscription mismatches, can't apply subscription to group/namespace, and current seat usage counts.
+
+### Reset max seats for QSR
+
+Use this after [approval to waive the overage](/handbook/sales/field-operations/order-processing/#waived-true-ups-policy-and-approval-requirements) has been granted and documented via SFDC chatter. Once that is done, file the form to request that Support reset the max seats.
+
+### SaaS NFR license request
+
+Ensure the group on GitLab.com has started a trial, then use this option to request a SaaS NFR subscription generation.
+
+### Billing Entity Change
+
+Use this as part of the process of a billing entity change, to check whether the correct subscription is associated with the customer's group.
+
+### Link Subscription to Namespace
+
+Use this when a customer has contacted you to request that their subscription is linked to a provided namespace. Prior to submitting the request, please ensure that you have first received written confirmation from the account owner to link their subscription to the provided namespace. We require sales to upload evidence of this into SFDC and then provide a link to it. An email link or screenshot should be added to the `Google Docs, Notes, & Attachments object` section of the customer's account record in SalesForce.
+
+## SaaS Trial Related
+
+### Extend a SaaS trial
+
+Use this when the customer's namespace is on a trial that is active/expired. Please note we cannot create the trial for the customer. If they do not have one currently, you will be directed to have them create one.
+
+### Change an existing SaaS trial plan
+
+Use this when you want to make changes to the plan of a currently active trial, including adding compute minutes or activation of trial runners and overriding the requirement for credit card validation on sales assisted trial namespace. The number of users for GitLab.com trials are not restricted. Please note we cannot create the trial for the customer. If they do not have one currently, you will be directed to have them create one.
+
+## Self-Managed License Related (for paid customers only)
+
+### Extend an (almost) expired subscription
+
+Use this when the customer has a license and is (almost) expired. Please note we cannot extend the actual license. This instead makes a trial license for the customer and uses that for the extension. The following video [How to extend an extension for an almost-expired subscription (self-managed)](https://www.youtube.com/watch?v=g8k8PAUY2pM) demonstrates how to correctly submit a `Extend an (almost) expired subscription` request.
+
+### Resend existing license to the email on the license
+
+Use this when the customer has not received a paid license from us when they should have. Please note we can resend a license to the contact in the license only.
+Please [check for Proof of Delivery](#obtaining-proof-of-delivery-for-a-subscription) prior to filing this request
+
+### Forward existing license to an email not on the license
+
+Use this to request sending a license to a different user. Please note we cannot send licenses to anyone other than the account owner. To send it to someone else, please ask the customer to file a ticket so we can go through the contact change process. An exemption can be made for a temporary license.
+
+### Multi-year license needs to be generated
+
+Use this to request the next year's license for a multi-year subscription to be created. **Make sure to check with the customer if they exceeded their seat usage before opening this request.** Support cannot waive true-ups or change anything in SFDC. We cannot create a license until you have checked and amended their subscription as needed.
+
+### Self-managed NFR license request
+
+Use this for Self-Managed NFR license generation
+
+### Cloud Licensing exemption
+
+Use this for SCL exemptions. The following video [How to submit a Cloud License Exemption Internal Request form](https://www.youtube.com/watch?v=pvj59EhATIw) demonstrates how to correctly submit a `Strict Cloud licensing exemption request`.
+
+## Self-Managed Trial Related
+
+### Problems starting a new Self-managed trial
+
+Use this when the customer has no recent trial or subscription, and is not able to request the trial themselves online.
+
+### Modify an existing Self-managed trial
+
+Use this when you want to make changes to the number of users and/or the plan of a currently active trial
+
+### Extend an existing Self-managed trial
+
+Use this when the customer is on a trial that is (almost) expired.
+
+## Other
+
+### Order Management
+
+Use this for Order Management requests. Please note if the license information you are requesting does not match the Salesforce opportunity, we will likely not be able to generate the license as Support cannot waive seats or Trueups. Ensure you include a summary of the action requested in the context field.
+
+### Hacker One Reporter License
+
+Use this to request a license be generated for a Hacker One reporter.
+
+### Report a Provision Failure
+
+This form can be used by the Fulfillment Provisioning team to request help from L&R support when handling a Provisioning failure. Please ensure you provide a detailed description of the type of assistance that you require from the L&R support team.
+
+### Wider Community License
+
+Use this to request a community license be generated. Please note for any license lasting longer more than 90 days, manager approval is required. Without an approving manager's email being provided, the ticket will be closed out
+
+### Other License & Renewal issues
+
+Use this for any license & renewal issues where no other options fit. Please note if this form is used when an option **does** exist, the request will be closed and you will need to submit a new request using the correct form.
+
+---
 
 #### Obtaining Proof of Delivery for a Subscription
 
@@ -365,9 +427,7 @@ Please declare a **security incident** if:
 
 ### I want to make a change to a setting in the GitLab.com Admin interface
 
-The Infrastructure team is the admin of GitLab.com, and any changes to product tuneables go through the [change request workflow](/handbook/engineering/infrastructure/change-management/#change-request-workflows).
-
-## Other
+The Infrastructure team is the admin of GitLab.com, and any changes to product tuneables go through the [change request workflow](/handbook/engineering/infrastructure-platforms/change-management/#change-request-workflows).
 
 ### Trials and Prospect Support
 

@@ -29,10 +29,10 @@ A typical workflow to edit the handbook:
 1. [Use the Web IDE to make changes](https://docs.gitlab.com/ee/user/project/web_ide/#use-the-web-ide).
 1. [Commit changes](https://docs.gitlab.com/ee/user/project/web_ide/#commit-changes).
 1. [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html), [assign reviewers](/handbook/about/handbook-usage/#when-to-get-approval).
-1. [Apply suggestions](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/suggestions.html#apply-suggestions) if any.
-1. Merge once all suggestions are resolved and you have the necessary approvals.
+1. [Apply suggestions](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/suggestions.html#apply-suggestions) if any, or make further changes if needed.
+1. "Set to auto-merge", or merge once all suggestions are resolved and you have the necessary approvals.
 
-### Web IDE editing steps
+### Web IDE steps to create a new MR
 
 1. Navigate to the handbook page you want to edit. At the bottom, or on the right, click on the URL `Edit this page` to open the new Web IDE.
    - Alternatively, open the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook) project and select `Web IDE` from the edit actions. This requires you to navigate into the source tree where the handbook files are located.
@@ -62,7 +62,8 @@ A typical workflow to edit the handbook:
 
    ![Web IDE menu, source control](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_menu_explorer_search_source_control.png)
 
-1. Review the changed files, and once ready, specify a Git commit message, click on the ⋁ on the right side of the `Commit and push` button, and choose the `Create new branch and commit` option. Keyboard shortcut:  `Cmd+Enter`.
+1. Review the changed files, and once ready, specify a Git commit message. The message should be a brief (less than 120 characters) description of your changes.
+1. Click on the ⋁ on the right side of the `Commit and push` button, and choose the `Create new branch and commit` option. Keyboard shortcut:  `Cmd+Enter`.
 
    ![Web IDE, commit and push: Commit message](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_source_control_commit_message.png)
 
@@ -78,21 +79,26 @@ A typical workflow to edit the handbook:
 
    ![GitLab Merge Request view](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_gitlab_create_mr.png)
 
+**Tip**: Practice the keyboard shortcuts for your workflows: After making changes, `Control+Shift+G` to commit, `Cmd+Enter`, Cursor to select the branch, `Enter`, etc.
+
+**Note:** The `Cmd+w` keyboard shortcut to close a file tab in the Web IDE gets overridden by the Chrome browser to close the browser tab. This is a [known problem](https://gitlab.com/gitlab-org/gitlab/-/issues/386209), use this shortcut carefully.
+
+### Web IDE steps to edit an existing MR
+
+If you are editing an existing merge request (MR), there are 2 main differences from creating a new MR:
+where to open the editor, and where to commit to.
+
 1. Make additional changes to the MR: Select `Code > Open in Web IDE` on the upper right menu. This opens the Web IDE again to make changes. All changed files are opened automatically.
 
    ![Merge request, open in Web IDE](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_gitlab_mr_open_in_web_ide.png)
 
-1. Make changes, commit and push them (follow [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/383801#note_1214559713) for UX commit flows).
+1. Make changes (see previous section for details), go to the `Source Control` area, add a commit message, and click on the `Commit and push` button. If you create a new branch, you will end up with a new MR instead of editing the existing one.
 
    ![Web IDE, commit and select MR associated branch](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_from_mr_changes_source_control_select_branch.png)
 
-1. Optional: Follow the pop-up notification to navigate back to the MR.
+1. Optional: Follow the pop-up notification to navigate back to the MR. Alternatively, close the editor tab if you did not close the MR tab.
 
    ![Web IDE, go back to MR after commit and push](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_from_mr_changes_popup_go_to_mr.png)
-
-**Tip**: Practice the keyboard shortcuts for your workflows: After making changes, `Control+Shift+G` to commit, `Cmd+Enter`, Cursor to select the branch, `Enter`, etc.
-
-**Note:** The `Cmd+w` keyboard shortcut to close a file tab in the Web IDE gets overridden by the Chrome browser to close the browser tab. This is a [known problem](https://gitlab.com/gitlab-org/gitlab/-/issues/386209), use this shortcut carefully.
 
 ### Video: Editing using the Web IDE and single file editor
 
@@ -157,8 +163,8 @@ The site uses the concept of page bundles, sections, and leaf pages.  A section 
 
 In general, Handbook URLs should describe their content and be as clean and easy to remember as possible.
 
-Directories (folders) and pages should use lowercase `a-z` and hyphen `-`, except for `_index.md`. Uppercase `A-Z` is allowed but discouraged.
-While Git and Hugo allow any UTF-8 character to be used in the file path, using other characters (such as a space) can cause issues with the pipeline.
+Directories (folders) and pages should use lowercase `a-z`, hyphen `-`, and underscore `_`.
+While Git and Hugo allow any UTF-8 character to be used in the file path, using other characters (such as a space) can cause issues with the pipeline, and thus, disallowed.
 
 Section:
 

@@ -9,7 +9,7 @@ The Cells Infrastructure team is responsible for developing key services and com
 
 ## Team Members
 
-{{< team-by-manager-slug manager="nick-nguyen" team="Cells Infrastructure" >}}
+{{< team-by-manager-slug manager="dlogalbo" team="Cells Infrastructure" >}}
 
 ## How We Work
 
@@ -17,13 +17,22 @@ The Cells Infrastructure team is responsible for developing key services and com
 
 #### Issue Tracking
 
+The Cells Infrastructure team adheres to these core principles:
+
+1. **Assign only actively in-progress issues**. Issues that aren't being worked on should remain unassigned.
+1. **Apply mandatory labels**. Every issue must include:
+   - `group::cells infrastructure`
+   - `devops::tenant scale`
+   - `Category:Cell`
+1. **Add service-specific labels as needed**. If an issue pertains to a particular service (e.g., the Topology Service), tag it accordingly—e.g., `Service::Topology Service`.
+
 The Cells Infrastructure team works across multiple GitLab projects such as `gitlab-org/gitlab`, `gitlab-org/cells/http-router`, `gitlab-org/cells/topology-service`, and `gitlab-com/gl-infra/gitlab-dedicated/instrumentor`. By default, you should open issues that will be owned by the team under the [Cells Infrastructure Team Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues) and apply the `group::cells infrastructure` label. Move issues for the Cells Infrastructure team from other projects to the team issue tracker when appropriate.
 
 For issues tracked in the team's issue tracker or other `gitlab-com/gl-infra` projects, we use the `workflow-infra::*` labels to track an issue's workflow status. Ensure that all issues that are in progress, ready, or need triage have the relevant `workflow-infra::*` label applied. We use a [workflow issue board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/9026689) to track the workflow status of active issues.
 
-Sometimes we'll need to track issues contained in the `gitlab-org` top-level group, which does not contain `workflow-infra::*` labels. For these issues, please use the `workflow::*` labels. We track these issues using a [workflow issue board for gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216).
+Sometimes we'll need to track issues contained in the `gitlab-org` top-level group, which does not contain `workflow-infra::*` labels. For these issues, please use the `workflow::*` labels. We track these issues using a [workflow issue board for gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216). If you need to make an issue in `gitlab-org` please mention @dlogalbo by using /cc @dlogalbo.
 
-Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`. 
+Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`.
 
 ##### Workflow Label Mappings
 
@@ -39,16 +48,40 @@ The following are the `workflow::*` and `workflow-infra::*` labels that we use a
 | ~"workflow::verification" | ~"workflow-infra::Verify" |
 | ~"workflow::complete" | ~"workflow-infra::Done" |
 
+#### Issue Descriptions
+
+All issues need to include a description of the work, any identified `action items` or `exit criteria`. When decisions are made regarding implementation details that change the initial description, update the description (and issue title if necessary) so that it always accurately reflects what the issue is implementing or achieving.
+
 #### Blocked Issues
 
 We use the following guidelines for denoting when an issue is blocked:
 
-- If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency. 
-- If an issue was started but requires further input, completion of another issue, etc before progressing, we use `workflow::blocked`.
+- If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency.
+- If an issue was started but requires further input, completion of another issue, etc before progressing, we use `~"workflow-infrafin::Blocked"`.
+- If an issue is blocked by work required from another team please make sure that team is aware and the appropriate labels are applied.
 
-#### Weekly Review
+#### Epic Tracking
 
-Each week the EM will schedule time to review the issue boards and team members can optionally attend. The intent of the review is to:
+[TODO]
+
+### Ways of Working
+
+#### Team Meetings
+
+Each week the Cells Infrastructure meets for one hour on Tuesdays - alternating between APAC/EMEA and AMER friendly time zones. The intent of this meeting is to:
+
+- Demos
+- Review any technical decisions, blockers, etc. as a team to get feedback.
+- Share information that the team should know
+- Team discussions (process, roadmaps/upcoming work, company items, etc.)
+
+#### Geekbot/Status Updates
+
+We use an integration with Slack, Geekbot, to provide updates on work in progress. Each Monday and Thursday, Geekbot will ask team members for an update and post via Slack.
+
+#### Manager Responsibilities
+
+Each week the EM will review the issue boards. The intent of the review is to:
 
 - Ensure that issues have the appropriate workflow labels.
 - Check on the status of in progress, blocked, and in review issues.

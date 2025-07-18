@@ -19,7 +19,7 @@ An efficient Quote-to-Cash system makes purchasing, activating, and managing Git
 
 ## Teams
 
-Quote-to-Cash system projects and initiatives often require close collaboration across functions and teams. The teams most often involved include: [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Fulfillment](https://about.gitlab.com/direction/fulfillment/), [Field Operations](/handbook/sales/field-operations/), [Support](/handbook/support/readiness/operations/), and [Data](/handbook/enterprise-data/).
+Quote-to-Cash system projects and initiatives often require close collaboration across functions and teams. The teams most often involved include: [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Fulfillment](https://about.gitlab.com/direction/fulfillment/), [Field Operations](/handbook/sales/field-operations/), [Support](/handbook/support/), and [Data](/handbook/enterprise-data/).
 
 ## Systems
 
@@ -86,8 +86,6 @@ This table shows the equivalent data objects across systems:
 Note: In SFDC, a [SFDC BillingAccount](https://help.salesforce.com/s/articleView?id=sf.blng_billing_accounts.htm&type=5) is not the same as a SFDC Account. A [SFDC Account can have many BillingAccounts](https://architect.salesforce.com/diagrams/framework/data-model-notation#Record_Type_Entity).
 
 Note: The Order object in CustomersDot is not the same as the Order object in Zuora, they have different definitions. Orders in CustomerDot are more like subscriptions in Zuora than they are Orders in Zuora. More architecture and definition work needs to be done on the Order object in CustomersDot.
-
-More information about the User and Contact objects shown in the table above, and how they interact together, can be found in [this workflow documentation](../flows/user_contact_flows.md).
 
 ### CustomerDot Object Model
 

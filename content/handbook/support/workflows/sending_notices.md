@@ -15,14 +15,14 @@ This workflow describes how to fulfill different types of contact requests and t
 | Number of users | Which thing to use | Approvals required | Notifications required |
 | --- | --- | --- | --- |
 | 1-2 | [Manually create a Zendesk ticket](#manually-create-a-zendesk-ticket) | None | None |
-| 3+ | [Mass Emails through Marketing Department](#mass-emails-through-marketing-department) | Director | [Support Readiness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Readiness) + FAQ |
+| 3+ | [Mass Emails through Marketing Department](#mass-emails-through-marketing-department) | Director | [Support Preparedness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Preparedness) + FAQ |
 
 - Support team can be asked to contact users **during an incident**. Such requests are filed by infra team [using `confidential_incident_data` issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=confidential_incident_data) in [production](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/) issue tracker. These must be fulfilled by CMOC during the shift.
 - As a [Stable Counterpart](../support-stable-counterparts.md) you may choose to manually create tickets for a higher number of users at your discretion. This should be done solely for technical matters ("your usage is causing issues, may we suggest a different approach"), never for marketing reasons ("we have a new way to do xyz and would like you to adopt it").
 
 ## Avoid sending RED data
 
-In all outbound contact requests explicitly avoid sending RED data. (see: [Data Classifaction Standard](/handbook/security/data-classification-standard/)). This avoids:
+In all outbound contact requests explicitly avoid sending RED data. (see: [Data Classifaction Standard](/handbook/security/standards/data-classification-standard/)). This avoids:
 
 - data transposition errors (accidentally sending another customers data to a customer)
 - customer-internal data leaks (person `x` who received the email was not authorized to know about project `y`)
@@ -52,10 +52,52 @@ Make sure to [add an admin note](/handbook/support/workflows/admin_note/) on a u
 
 ### Manually create a Zendesk ticket
 
-For the process of sending the outbound contact requests in Zendesk, please
-review the
-[Support Readiness documentation](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
-for more information.
+**Warning** This often requires the ability to *create users* in Zendesk, which
+is only available on specific roles i.e. CMOCs. That access is *very* risky and
+should only be used as documented in this section.
+
+**Note** This only applies to Zendesk Global at this time.
+
+When you need to send an outbound request, it must be done in a very specific
+manner to ensure it routes properly and the end-user we wish to contact receives
+the correct notification.
+
+To do this, start by hover over the `+ Add` at the top-left of Zendesk and then
+click `Ticket`.
+
+The first thing you need to do is select the requester. To do this, click in the
+text box below `Requester` at the top-left of the page and put the email you are
+looking to reach out to.
+
+The action taken next depend on whether the user in question exists or not:
+
+- If the user exists, it will show said user in a drop-down (clicking said entry
+  in the drop-down will select the user).
+- If the user does not exist, no results will be found and you will need to
+  click the `+ Add user` link in the drop-down. Doing so will bring up a modal
+  where you will enter the name and email of the user to create. If you are
+  unsure of the name, it is always safest to use the email itself for both the
+  name and email field. Click the blue `Add` button to create the user.
+  - **Warning** Never create a user in any other fashion. This is the one and
+    only way a user should ever be manually created within our support system by
+    any team other than Support Readiness. Never utilize this method when CC'ing
+    a user.
+
+After doing this, you should add the subject of the ticket. This should always
+be done via the top-center part of the page.
+
+After filling out the subject, you now need to apply the macro
+`General::Outbound Contact Request`. This step is **vital** and should never be
+skipped. This macro will ensure the ticket is setup properly for an outbound
+request. Skipping this step can result in the new ticket not routing properly
+and encountering an untold number of problems.
+
+After this has been done, you will then enter the description for the ticket.
+This is the core of the message you are wanting to send to the end-user.
+
+Once this has been completed, the last step is to then finish creating the
+ticket by submitting it as *pending*. This is done by clicking the downward
+arrow at the bottom-right of the page and clicking `Submit as Pending`.
 
 ### Mass Emails through Marketing Department
 

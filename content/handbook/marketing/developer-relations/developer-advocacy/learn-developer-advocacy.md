@@ -19,8 +19,8 @@ Sources:
 
 ### Stages of advocacy
 
-1. Beginner - when you start following the right accounts on Twitter, peruse HN regularly, and respond to people
-2. Enthusiast - when you start creating content in the form of blog posts, videos, tweets, talks. Occasionally you create issues whenever you want to post something on the company blog or Medium publication.
+1. Beginner - when you start following the right accounts on [social media](/handbook/marketing/developer-relations/developer-advocacy/social-media/), peruse HN regularly, and respond to people
+2. Enthusiast - when you start creating content in the form of blog posts, videos, social posts, talks. Occasionally you create issues whenever you want to post something on the company blog or Medium publication.
 3. Pro - when you are invited to give talks that have over 200 attendees, when your content sometimes goes viral, often snagging over 500 views. You regularly contribute to the GitLab blog and other community blogs, podcasts, other content channels.
 
 ### Benefits of being an advocate
@@ -33,13 +33,7 @@ Sources:
 
 ## <i class="fa fa-newspaper-o" aria-hidden="true"></i> Learn more about Developer Advocacy as a practice
 
-A good overview with specific area definitions can be found in the [DevRel Notebook](https://github.com/konradsopala/devrel-notebook). [DevRel Resources](https://devrelresourc.es/) is a comprehensive collection of resources on DevRel.
-
-We engage with Developer advocacy, relations and evangelism friends on social media:
-
-* [Twitter list: Dev Avocados](https://twitter.com/i/lists/1012393598262874112/members) by Quintessence Anx (DevRel Collective founder)
-* [Twitter list: DevRel](https://twitter.com/i/lists/1288789359865606145/members) by Michael
-* [DevRel Contacts](https://docs.google.com/document/d/1ZX4BIwJTL0nVdkpRvLYDdk67jQfkRD_ErJWWHn-4KP8/edit) (Internal)
+A good overview with specific area definitions can be found in the [DevRel Notebook](https://github.com/konradsopala/devrel-notebook). [DevRel Resources](https://devrelresourc.es/) is a comprehensive collection of resources on DevRel. We also engage with Developer advocacy, relations and evangelism friends on [social media](/handbook/marketing/developer-relations/developer-advocacy/social-media/).
 
 Our KPIs and processes follow industry best practices. We regularly iterate on new ideas and different strategies. The following articles can be helpful to explore new ways of Developer Advocacy:
 
@@ -53,7 +47,5 @@ Our KPIs and processes follow industry best practices. We regularly iterate on n
 ## <i class="fa fa-external-link" aria-hidden="true"></i> Useful links
 
 1. [Developer Advocates on Social Media](/handbook/marketing/developer-relations/developer-advocacy/social-media/)
-1. [How to submit a successful conference proposal](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
+1. [Call for papers and speaking resources](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
 1. [Consortia we work with](/handbook/marketing/developer-relations/community-programs/open-source-program/#consortium-memberships-and-sponsorships)
-1. [Speaking resources](/handbook/marketing/corporate-communications/speaking-resources/)
-1. [Speaking resources](/handbook/marketing/corporate-communications/speaking-resources/)

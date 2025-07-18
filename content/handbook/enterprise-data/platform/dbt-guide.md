@@ -41,7 +41,7 @@ A full list of packages available are on the [dbt Hub site](https://hub.getdbt.c
 
 If you're interested in using dbt, the [dbt documentation has a great tutorial](https://docs.getdbt.com/docs/get-started-dbt) on getting setup to work on data from a fictional business called Jaffle Shop.
 
-If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 ### Local environment
 
@@ -53,7 +53,7 @@ When needed for team members we create local development databases corresponding
 
 Any data built within these development databases should be considered ephemeral as they're only to be used for local development. To ensure the optimal use of dbt, as well as appropriate security and compliace, these databases should be cleaned by the owning user regularly. [This Runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Snowflake/snowflake_dev_clean_up.md) can be used to make that process quick and easy, and it's suggested to be run at the end or beginning of each development cycle. Additionaly, in order to ensure compliance with our data retention policies and procedures we will automatically drop all tables in development environments after **80 days** without alteration. This retention period is set within the dbt project with the `dev_db_object_expiration` variable and tables are deleted each weekend.
 
-Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/enterprise-data/data-management/#snowflake-1). There is not [backup]/handbook/enterprise-data/platform/#backups) process for development databases.
+Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/enterprise-data/data-governance/data-management/#snowflake-1). There is not [backup]/handbook/enterprise-data/platform/#backups) process for development databases.
 
 #### Configuration
 
@@ -466,6 +466,7 @@ Key points to remember:
 - Source models should perform all field naming to force field names to conform to standard field naming conventions
 - Source fields that use reserved words must be renamed in source models
 - Source models for particularly large data should always end with an ORDER BY statement on a logical field (usually a relevant timestamp). This essentially defines the cluster key for the warehouse and will help to take advantage of [Snowflake's micro-partitioning](https://docs.snowflake.net/manuals/user-guide/tables-clustering-micropartitions.html).
+- Exception: occasionally a data source is only useful when two sources are combined. If this is the case then we can join them in the source model; this is done for several Clari source models, i.e `clari_fields_source`
 
 For a visual of how the source models relate to the raw tables and how they can act as a clean layer for all downstream modeling, see the following chart:
 
@@ -1023,7 +1024,7 @@ For more details on how the macros used in sampling function see the following d
 
 ### Trusted Data Framework
 
-See the [Trusted Data Framework](/handbook/enterprise-data/platform/#tdf) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
+See the [Trusted Data Framework](/handbook/enterprise-data/how-we-work/data-development) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
 
 #### Schema To Golden Data Coverage
 

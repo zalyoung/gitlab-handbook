@@ -689,18 +689,6 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $20,000
 
-#### Mid-Market Service Attach Opportunity Criteria
-
-IF:
-
-1. Order Type 2.0 = `1. New - First Order`
-2. Net ARR >= `$20,000`
-3. Stamped Sales Segment = `Mid-Market`
-
-THEN:
-
-1. Minimum Professional Services Amount to Attach: $15,000
-
 #### Success Tiers Attach  
 
 In FY26, we implemented a sales policy around the attachment of Success Tiers. For policy details, please read more on the dedicated Success Tiers HighSpot page [here](https://gitlab.highspot.com/items/661452f930a6998673c6d54b?lfrm=srp.0).
@@ -1491,7 +1479,7 @@ Customer procurement cycles can take time. A start date on a quote may be in the
 
 1. Renewal opportunities where the Start Date < 2 weeks in the past will be booked as is, without additional confirmation or intervention from the sales team.
 2. On renewal opportunities where the Start Date is > 2 weeks in the past the Order Management team will check the customer portal for any trial licenses (self-managed deals) or ask the opportunity owner in SFDC Chatter to provide the link the ZenDesk support ticket where trial subscription was requested (SaaS deals).
-If customer has lost access for any reason / period of time after the end of the renewal grace period, the opportunity owner/ISR should create a new subscription quote object on the late renewal opportunity.
+If customer has lost access for any reason / period of time after the end of the renewal period, the opportunity owner/ISR should create a new subscription quote object on the late renewal opportunity.
 3. The opportunity must meet all booking requirements and is still subject to the Bookings Policy.
 
 #### Locked Bookings
@@ -1542,9 +1530,9 @@ If a customer requires POs, they will typically reject any invoice sent to them 
 
 If "PO Required" = "YES" and the customer's PO will be provided to GitLab at a future date, the opportunity will be held for booking until the PO is provided by the customer. Exceptions will only be made at quarter end (see below).
 
-**What if the customer requires a PO and the PO is delayed, but all other booking requirements are met and the customer's license grace period is about to end?**
+**What if the customer requires a PO and the PO is delayed, but all other booking requirements are met and the customer's license period is about to end?**
 
-If the customer's license has expired, and the customer's grace period is nearing its end, please open an [Issue to request a grace period extension](/handbook/support/internal-support/#trial-extensions-and-plans) for the related license. A grace period extension will prevent the customer from losing functionality while the opportunity is pending approval due to a delayed PO.
+If the customer's license has expired, please open an [Issue to request a license extension](/handbook/support/internal-support/#trial-extensions-and-plans) for the related license. A license extension will prevent the customer from losing functionality while the opportunity is pending approval due to a delayed PO.
 
 **End of Quarter Exceptions**
 

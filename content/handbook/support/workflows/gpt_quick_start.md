@@ -119,6 +119,6 @@ Method 2: Delete the top-level group `gpt` (or the unique name you've replaced a
 Customers often ask for their GPT results to be reviewed as part of building out a Reference Architecture.
 
 - Check [the GPT issues list](https://gitlab.com/gitlab-org/quality/performance/-/issues) if errors or issues .
-- Ask for help from [support team members with GPT experience](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html).
+- Ask for help from [support team members with GPT experience](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html?search=GPT).
 - Alternatively reach out to either the GPT maintainers over on the `#gitlab-performance-tool` channel on Slack.
 - You can also reach out to the Reference Architecture group on their [tracker](https://gitlab.com/gitlab-org/reference-architectures/-/issues/?sort=created_date&state=opened&first_page_size=100) and raise a Request for Help via the template if you suspect performance issues are related to the environmental design or makeup.

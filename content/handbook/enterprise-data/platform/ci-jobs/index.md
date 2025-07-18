@@ -97,7 +97,7 @@ This pipeline requires following actions:
 
 1. Clone of `TAP_POSTGRES` schema (Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME` (Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_dotcom_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_dotcom`.
-3. Variable `DATABASE_TYPE` (Mandatory): The value of the database type(ci ,main, customers). For example if the target table for modification is from `ci` database, the variable passed will be `DATABASE_TYPE`=`ci`.
+3. Variable `DATABASE_TYPE` (Mandatory): The value of the database type(ci ,main, customers, secure). For example if the target table for modification is from `ci` database, the variable passed will be `DATABASE_TYPE`=`ci`.
 4. Variable `TASK_INSTANCE` (Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_gitlab_dotcom_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 #### `gitlab_ops_pgp_test`
@@ -341,6 +341,14 @@ Runs a full seed operation. For use to confirm results when working on changes t
 #### `run_grants`
 
 Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake roles (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLES` CI variable. You can pass in a single role, or multiple separated by a space as in `role1 role2`. This job checks the git commit for the changed models and verifies that the submitted roles have adequate access in `PREP` and `PROD` to grant access in the clone. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
+
+If the submitted role does not have adequate access in `PREP` and `PROD` then in the job logs you will see the following entry: 
+
+`INFO:root::rotating_light: upstream objects in OBJECT_NAME did not match upstream grants for ROLE :rotating_light:`
+
+There's a intermittent problem where the run grants job will be unable to compare existing grants in `PREP` and `PROD` because the source for querying existing grants in Snowflake is a table that has a derived state and intermittently can be missing grants.
+
+In this case, verify that the submitted role has adequate access in `PREP` and `PROD`. If it does and this problem persists then re-running (sometimes this takes an hour or so) should fix the problem. ```
 
 **Note:** The `run_grants` job can be run multiple times during the development process. If new models are created after the initial run, you can re-run the job to ensure that grants are applied to these new objects as well.
 

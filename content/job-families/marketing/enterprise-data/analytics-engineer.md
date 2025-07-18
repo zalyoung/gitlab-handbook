@@ -2,7 +2,7 @@
 title: Analytics Engineering
 ---
 
-**Analytics Engineers** sit at the [intersection](/handbook/enterprise-data/#data-job-families) of business teams, [Data Analytics](/job-families/marketing/enterprise-data/data-analyst) and [Data Engineering](/job-families/marketing/enterprise-data/data-engineer) and are responsible for bringing robust, efficient, and integrated data models and products to life. Analytics Engineers speak the language of business teams and technical teams, they are able to translate data insights and analysis needs into models powered by the [Enterprise Data Platform](/handbook/enterprise-data/platform). The successful Analytics Engineer is able to blend business acumen with technical expertise and transition between business strategy and data development.
+**Analytics Engineers** sit at the [intersection](/handbook/enterprise-data/#enterprise-data-team-job-families) of business teams, [Data Analytics](/job-families/marketing/enterprise-data/data-analyst) and [Data Engineering](/job-families/marketing/enterprise-data/data-engineer) and are responsible for bringing robust, efficient, and integrated data models and products to life. Analytics Engineers speak the language of business teams and technical teams, they are able to translate data insights and analysis needs into models powered by the [Enterprise Data Platform](/handbook/enterprise-data/platform). The successful Analytics Engineer is able to blend business acumen with technical expertise and transition between business strategy and data development.
 
 ## Associate Analytics Engineer
 
@@ -17,11 +17,11 @@ The Associate Analytics Engineer is a [grade 5](/handbook/total-rewards/compensa
 As a team member responsible for helping to bridge the gap between business and technology, the Associate Analytics Engineer role requires equal amounts business acumen and technical acumen.
 
 - Collaborate with team members to collect business requirements, define successful analytics outcomes, and design data models
-- Build trust in all interactions and with [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development)
+- Build trust in all interactions and with [Trusted Data Development](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development)
 - Serve as the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals) for small sections of the [Enterprise Dimensional Model](/handbook/enterprise-data/platform/edw/)
 - Design and develop [dbt](https://www.getdbt.com/) code to extend the Enterprise Dimensional Model
 - Create and maintain architecture and systems documentation in the [Data Team Handbook](/handbook/enterprise-data/)
-- Maintain the [Data Catalog](/handbook/enterprise-data/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
+- Maintain the [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
 - Document plans and results in either issue, MRs, the [handbook](/handbook/), or READMEs following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 - Craft code that meets our internal standards for style, maintainability, and best practices (such as the [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide)) for a high-scale database environment. Maintain and advocate for these standards through code review.
@@ -83,7 +83,7 @@ Responsibilities for the Senior Analytics Engineer extend the Analytics Engineer
 
 - Own one or more stakeholder relationship in Go To Market, Research & Development, or General & Administrative business functions
 - Serve as Data Model subject matter expert and data model spokesperson, demonstrated by the ability to address questions quickly and accurately
-- Advocate for the [Data Quality Program](/handbook/enterprise-data/data-quality/) and [Trusted Data](/handbook/enterprise-data/platform) to help ensure all data is profiled, reviewed, and accurate to support critical decisions
+- Advocate for the [Data Quality Program](/handbook/enterprise-data/data-governance/data-quality/) and [Trusted Data](/handbook/enterprise-data/platform) to help ensure all data is profiled, reviewed, and accurate to support critical decisions
 - Guide [Work Breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) Sessions
 - Organize and Plan quarter-long development initiatives per the [Data Team Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/)
 

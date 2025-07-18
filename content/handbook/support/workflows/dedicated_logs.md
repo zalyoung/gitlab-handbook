@@ -12,9 +12,19 @@ When working on a GitLab Dedicated ticket, prioritize asking for information tha
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
 
-### Log requests older than 7 days
+### Tagging logs while running tests
 
-If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
+Customers can add a custom identifier, such as the ticket ID, to the `user-agent` field when testing. This makes it easier to filter logs related to the test.
+
+For example:
+
+```bash
+curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/sign_in"
+```
+
+### Preprod deployments
+
+Use the [GitLab Dedicated Preprod switchboard](/handbook/support/workflows/dedicated_switchboard.md#customers-with-dedicated-preprod-deployments) to find links to Opensearch logs for a specific customer's Preprod environment, when applicable.
 
 ## Identifying tenants
 
@@ -58,6 +68,22 @@ benefit the customer, please read
 
 GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/administration/dedicated/configure_instance/#access-to-application-logs).
 
+#### Log requests older than 7 days
+
+If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](/handbook/support/workflows/log_requests.md).
+
+#### Granting customers access to application logs
+
+Customers may request access to their logs stored in a AWS S3 bucket to [monitor their instance](https://docs.gitlab.com/administration/dedicated/monitor/).
+
+1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/monitor/#request-access-to-application-logs). In this case, it's an **IAM principal**.
+
+   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
+
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker.
+1. Provide the IAM principal to the Environment Automation team.
+1. Provide the name of the S3 bucket to the customer.
+
 #### Sharing log links within GitLab
 
 When sharing log links with other GitLab team members, be sure to generate a **Permalink**. You can do this by following these steps:
@@ -97,6 +123,7 @@ General fields:
 
 - `host:` The GitLab host of the log. It can be `<tenant name>-gitaly-*`  or  `<tenant name>-consul-2`, etc.
 - `referrer:` holds the project path. `https://tenant.gitlab-dedicated.com/example-group/test123`
+- `path:` The portion of the URL after the tenant hostname that can provide useful information about what a particular request was attempting to do
 - `message:` is the message that would be seen in the logs of a self-managed instance.  `xxx.xxx.xxx.xxx - - [08/Jul/2020:13:24:43 +0000] "GET /assets/webpack/commons-pages.projects.show-pages.projects.tree.show.21909065.chunk.js HTTP/1.1" 200 9316 "https://tenant.gitlab-dedicated.com/example-group/test123" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" 1343 0.001 [default-gitlab-webservice-default-8181] [] xxx.xxx.xxx.xxx:8181 9309 0.000 200 fe130eac78314cwf352g3762397572cb`
 - `subcomponent`: The values in this field correspond to entries in [GitLab's log system](https://docs.gitlab.com/administration/logs/). Possible values include `production_json`, `application_json`, `api_json`, `auth_json` and `graphql_json`. You can use [filters](#filters) to collect all log entries associated with a specific subcomponent.
 
@@ -104,6 +131,9 @@ Gitaly related fields:
 
 - `grpc.request.glProjectPath:` The actual GitLab path project path.
 - `grpc.request.repoPath:`  Project hash id path.
+- `grpc.request.repoStorage:` Which Gitaly storage houses the repo
+- `grpc.method:` The name of the gRPC method
+- `grpc.request.fullMethod:` The fully qualified name gRPC method, includes the service and method name 
 
 SAML related fields:
 
@@ -154,6 +184,16 @@ To find all logs where the HTTP response status code is in the [4xx client error
 - **Operator**: `is between`
 - **Start of the rage**: `400`
 - **End of the range**: `499`
+
+###### Disabling and re-enabling filters
+
+It can be useful to temporarily disable a filter to change the view of logs.
+
+To temporarily disable a filter, click the text of the filter to get a menu of options, and select `Temporarily disable.` 
+![Filter menu showing Temporarily disable option](/images/support/workflows/assets/dedicated_logs_temp_disable_filter.png "Temporarily diasble")
+
+To re-enable a filter, click the text of the filter and select `Re-enable.` 
+![Filter menu showing Re-enable option](/images/support/workflows/assets/dedicated_logs_re-enable_filter.png "Re-enable")
 
 ### Examples
 
@@ -277,3 +317,14 @@ You can then filter by `correlation_id` only, to select the failed occurrence. T
 1. Fine-tune the results by adding more filters such as, Filter: `message` Operator: `is one of` Value: `elasticsearch` to see any logs with the term elasticsearch
 
 Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/integration/advanced_search/elasticsearch_troubleshooting/#last-resort-to-recreate-an-index) for potential next steps.
+
+#### Debug Hosted Runners for GitLab Dedicated
+
+To debug tickets about Hosted Runners for GitLab Dedicated, [verify that the customer is using Hosted Runners](./dedicated_runners.md#who-is-using-hosted-runners). Refer to the [Hosted Runners for GitLab Dedicated](./dedicated_runners.md#viewing-logs) documentation page to view OpenSearch filters you can use to filter these logs.
+
+### Debug Duo related errors
+
+If a Duo chat feature fails, the customer will most likely get an error code on the UI from one of the listed codes in the [documentation](https://docs.gitlab.com/user/gitlab_duo_chat/troubleshooting/#the-gitlab-duo-chat-button-is-not-displayed).
+
+To gather more logs on the actual cause of the failure, first filter for the Duo chat code the customer provided using the `duo_chat_error_code` field.
+You can then review the values in `ai_component`, `ai_event_name`, `class`, `error`, and `message` to gather more information on the actual error message.

@@ -170,7 +170,7 @@ Offer details usually include:
 - [Unlimited paid-time-off](/handbook/people-group/paid-time-off/)
 - [Incentives](/handbook/total-rewards/incentives/)
 - [Office equipment/reimbursements](/handbook/finance/spending-company-money/)
-- [Configuring your new laptop](/handbook/it/end-user-services/onboarding-access-requests/#configuring-new-laptops--apple-ids)
+- [Configuring your new laptop](/handbook/security/corporate/end-user-services/onboarding101/)
 - [Employment Assistance Program](/handbook/total-rewards/benefits/)
 
 ### Sending the Employment Contract/Offer Letter

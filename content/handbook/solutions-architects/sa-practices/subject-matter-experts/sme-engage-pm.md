@@ -1,19 +1,19 @@
 ---
 title: SME Engage with Product Management
 
-description: Rules of engagement for SMEs, SAs and CSMs engage hen requesting assistance from Product Management
+description: Rules of engagement for SMEs, SAs and CSMs when requesting assistance from Product Management
 
 ---
 
 ## The Challenge
 
-Product Managers at GitLab have been expected to be available to answer every question, technical or otherwise, in any slack channel they are tagged, along with meeting customers at a moment's notice. This puts a strange on the capacity of GitLab's Product Managers (PMs).
+Product Managers at GitLab have been expected to be available to answer every question, technical or otherwise, in any slack channel they are tagged, along with meeting customers at a moment's notice. This puts a strain on the capacity of GitLab's Product Managers (PMs).
 
 One of the outcomes of the Subject Matters Expertise program is to allow the PMs to scale, by being the first line of experts to answer technical questions, and offer assistance on opportunities as requested by SAs and AEs.
 
 This frees up the Product Management who can then be utilized as points of escalation, meet customers when appropriate and focus on roadmap development and delivery.
 
-So in lieu of getting 150 requests from 150 different SAs or CSMs, if the SME program can reduce that by 50%s, PMs can focus on empowering the SMEs and answering SMEs when they are stuck.
+So in lieu of getting 150 requests from 150 different SAs or CSMs, if the SME program can reduce that by 50%, PMs can focus on empowering the SMEs and answering SMEs when they are stuck.
 
 The field team should be able to self-service most of the sales activities for selling our products. SMEs are a way to support the wider Sales account teams.
 
@@ -43,9 +43,9 @@ As part of this symbiotic relationship, we expect GitLab Product Management, as 
 
 ## How to Engage with Product Management
 
-**Resist from Directly contacting PM Without First completing a SME Request**.
+**Resist from Directly contacting PM Without First completing an SME Request**.
 
-If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider [requesting a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/). You, the SA/ CSM can then request a SME in the appropriate SME channel.
+If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider [requesting a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/). You, the SA/CSM can then request an SME in the appropriate SME channel.
 
 PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, or request for product direction.
 
@@ -74,7 +74,7 @@ PMs should be engaged in [customer opportunities](/handbook/product/product-proc
 2. Request for a PM to Resolve issues around product gaps
 3. Request for a PM for Async involvement in Evaluations (trials, proof of value)
 
-### A. Request for a PM to meet with the Customer
+### 1. Request for a PM to meet with the Customer
 
 - Do not expect PMs to attend calls to do discovery.
 - To request a PM to attend a Customer Call, you should follow the process described in ["Product Joining Customer Calls".](/handbook/product/product-management/#product-joining-customer-calls)
@@ -84,11 +84,11 @@ However [some Stages](/handbook/product/categories/#devops-stages) may have a sl
 
 See also following the [standardized request process based on issues](/handbook/product/product-management/#requests-for-product-support)
 
-### B. Request for a PM to Resolve issues around Product Gaps
+### 2. Request for a PM to Resolve issues around Product Gaps
 
 - Please refer to the [SME Customer Feedback Process (TBD)](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-customer-feedback.md)
 
-### C. Request for a PM for Async involvement in Evaluations (trials, proof of value)
+### 3. Request for a PM for Async involvement in Evaluations (trials, proof of value)
 
 - SAs/ SMEs/ CSMs create Trial/ POV issues in Customer Collaboration Projects
 - TBD (process to be Defined)
@@ -99,7 +99,7 @@ See also following the [standardized request process based on issues](/handbook/
 
 #### Technical Skills Exchange
 
-1. [During Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-tech-skills)Technical Product Managers and Product Managers to provide demos or demo snippets to SMEs for new functionality feedback.
+1. During [Technical Skills Exchange](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-tech-skills) Technical Product Managers and Product Managers to provide demos or demo snippets to SMEs for new functionality feedback.
 
 #### Product Management Roadmap Meetings
 
@@ -113,7 +113,7 @@ See also following the [standardized request process based on issues](/handbook/
 
 #### SME Slack Internal Channels
 
-1. Product Management should also be included in [SME Slack Internal channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-slack) to create a forum for SMEs to provide ongoing feedback and suggestions to Product Management.
+Product Management should also be included in [SME Slack Internal channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-slack) to create a forum for SMEs to provide ongoing feedback and suggestions to Product Management.
 
 #### SME/Product Management Cadence Meetings
 

@@ -13,7 +13,7 @@ no_list: true
 ---
 
 <!-- vale gitlab.FutureTense = NO -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a proposal to work towards reducing and limiting table sizes on GitLab.com. We establish a **measurable target** by limiting table size to a certain threshold (100 GB). Action however should be taken as early as 10 GB.
 

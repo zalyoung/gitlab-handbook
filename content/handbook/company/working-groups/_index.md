@@ -92,7 +92,7 @@ The DRI should stand up meetings at the cadence appropriate for the Working Grou
 
 For example, you may have a high priority project in which decisions have been signed off on and change is not anticipated. Folks are clear on their roles and are staying on top of their activities as tracked in issues and epics. You may not need to meet more than once every two weeks to ensure alignment. Alternatively, you may be part of a project in which new deliverables are being reviewed daily and fast decisions have to be made. In this instance, it is appropriate to meet more than once a week.
 
-All meetings should have an [agenda](/handbook/company/culture/all-remote/meetings/#4-all-meetings-must-have-an-agenda). [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/) have Google Docs as the preferred tool for taking meeting notes in an agenda. Please use the [GitLab Live Doc Meeting Agenda Template](https://docs.google.com/document/d/1eH-adpjfyo_RnlfbPvJ3i0e1Qb-aVoNc4yajnkZgJcU) as a starting point. If there's no agenda for an upcoming session, cancel the meeting.
+All meetings should have an [agenda](/handbook/company/culture/all-remote/meetings/#4-all-meetings-must-have-an-agenda). [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/) have Google Docs as the preferred tool for taking meeting notes in an agenda. Please use the [Standup / Working Group Template](https://docs.google.com/document/d/1QjcZWLZFs7vbrJxfeFcG2EKf2-WMYVVSVaFFwChGOsQ/edit) as a starting point. If there's no agenda for an upcoming session, cancel the meeting.
 
 ### Create a page in the handbook
 
@@ -162,7 +162,7 @@ If something isn't on our [Not Public list](/handbook/communication/confidential
 1. Preparation
     1. Determine an appropriate project name using [limited access naming conventions](/handbook/communication/confidentiality-levels/#limited-access).
     1. Create an overview page and add the link to [Active Working Groups](#active-working-groups-alphabetic-order). You can share limited information, but capture key team members, including the facilitator, executive stakeholder, and functional lead.
-    1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [staging handbook](/handbook/about/handbook-usage/#the-staging-handbook). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
+    1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [internal handbook](https://internal.gitlab.com/). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
     1. Maintain a list of working group members and other folks who are participating in or informed of the project. This list should be available to all participating team members. Folks should not be added to this list until it is confirmed that they understand what can be communicated.
     1. Ensure that each working group team member understands what can be communicated externally and internally.
     1. Have private Slack channels that include folks who are directly working on the project.
@@ -172,7 +172,7 @@ If something isn't on our [Not Public list](/handbook/communication/confidential
 1. Proactively share information if the project is no longer limited access
     1. Notify widely of progress or exit outcomes when information can be shared more broadly.
     1. Evaluate which artifacts and communication material can be made internally available or public.
-        1. If you were working in the [staging handbook](/handbook/about/handbook-usage/#the-staging-handbook), follow instructions to make a merge request against the public repo.
+        1. If you were working in the [internal handbook](https://internal.gitlab.com/), follow instructions to make a merge request against the public repo.
         1. Transition members to public Slack channels and archive private channels.
         1. Deprecate private agendas. Link this to a new agenda document.
         1. Consider making GitLab Groups and Projects public or avialable to a broader audience.
@@ -187,16 +187,14 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 1. [Automotive Development](/handbook/company/working-groups/automotive-development/)
 1. [Customer Use Case Adoption](/handbook/company/working-groups/customer-use-case-adoption/)
-1. [Feature Testing](/handbook/company/working-groups/feature-testing/)
 1. [FedRAMP Execution](/handbook/company/working-groups/fedramp-execution/)
 1. [Frontend Technical Interview (internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/frontend-technical-interview/)
 1. [GCP Partnership](/handbook/company/working-groups/gcp-partnership/)
 1. [HPT in Product Division](/handbook/company/working-groups/hpt-product-division/)
 1. [Keep around references](/handbook/company/working-groups/keep-around-refs/)
 1. [Product Accessibility](/handbook/company/working-groups/product-accessibility/)
-1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
 1. [Secure Govern Database Decomposition](/handbook/company/working-groups/secure-govern-database-decomposition/)
-1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
+1. [User journey map](/handbook/company/working-groups/user-journey-map/)
 
 ## Past Working Groups (alphabetic order)
 
@@ -231,6 +229,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Event Stream](/handbook/company/working-groups/event-stream/)
 1. [Expense Management](/handbook/company/working-groups/expense-management/)
 1. [Experimentation](/handbook/company/working-groups/experimentation/)
+1. [Feature Testing](/handbook/company/working-groups/feature-testing/)
 1. [First Order](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/9)
 1. [Frontend Observability](/handbook/company/working-groups/frontend-observability/)
 1. [Frontend Vision](/handbook/company/working-groups/frontend-vision/)
@@ -272,9 +271,10 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Product Analytics](/handbook/company/working-groups/product-analytics/)
 1. [Product Career Development Framework](/handbook/company/working-groups/product-career-development-framework/)
 1. [Product Development Flow](/handbook/company/working-groups/product-development-flow/)
-1. [Product Engagement Actions (FY21)](FY21-product-engagement-actions.md)
+1. [Product Engagement Actions (FY21)](fy21-product-engagement-actions.md)
 1. [Project Matterhorn: Premium Price Tier Increase. Limited access](/handbook/communication/confidentiality-levels/#limited-access)
 1. [Purchasing Reliability](/handbook/company/working-groups/purchasing-reliability/)
+1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
 1. [Rate Limit Architecture](/handbook/company/working-groups/rate-limit-architecture/)
 1. [Real-Time](/handbook/company/working-groups/real-time/)
 1. [Revenue Globalization](/handbook/company/working-groups/globalization/)
@@ -294,14 +294,9 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Tiering](/handbook/company/working-groups/tiering/)
 1. [Token Management](/handbook/company/working-groups/token-management/)
 1. [Transient Bugs](/handbook/company/working-groups/transient-bugs/)
+1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 1. [Upstream Diversity](/handbook/company/working-groups/upstream-diversity/)
 1. [Usage Reporting](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1)
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
 1. [Vue.js 3 Upgrade](/handbook/company/working-groups/vuejs-3-migration/)
 1. [Webpack (Frontend build tooling)](/handbook/company/working-groups/webpack/)
-
-## What were Top Cross-Functional Initiatives?
-
-Top Cross-Functional Initiatives were [Working Groups](/handbook/company/working-groups) that were key to GitLab's success in the fiscal year and beyond. While there were other important business initiatives and priorities that existed within functions or required engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring.
-
-We retired this concept in FY24-Q3, because we had layered these initiatives under [Yearlies](/handbook/company/yearlies/) as sub-objectives. This list was duplicative and confusing to team members who were trying to manage these and other priorities. Top Cross-Functional Initiatives were moved to this page. The Top Cross-Functional Initiative concept was deprecated.

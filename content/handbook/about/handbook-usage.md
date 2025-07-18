@@ -68,7 +68,7 @@ Please follow these guidelines and remind others of them.
 
 #### Screenshot the handbook instead of creating a presentation
 
-Presentations are great for ephemeral content like [group conversations](/handbook/company/group-conversations/) and board presentations. [Evergreen content](https://web.archive.org/web/20170503174119/https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
+Presentations are great for ephemeral content like board presentations. [Evergreen content](https://web.archive.org/web/20170503174119/https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
 
 In the creation of presentations for evergreen content, please screenshot the handbook and provide links to displayed pages rather than copy and pasting content (or formatting a slide specifically to mirror handbook information). This approach shows a [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication), and rationale for this is below.
 
@@ -229,11 +229,37 @@ More context on the technical reasons behind this:
 
 ### When to get approval
 
-Getting pinged to approve every small change to your page can be annoying, but someone changing a policy or procedure in the handbook without proper approval can have strong negative consequences. Use your best judgement on when to ask for approvals.
+Getting pinged to approve every small change to your page can be annoying, but
+someone changing a policy or procedure in the handbook without proper approval
+can have strong negative consequences. Use your best judgement on when to ask
+for approvals.
 
 Whenever reasonable, practice [responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). When you expect a page owner will appreciate your changes, go ahead and merge them without approval. Always ping the code owners with an @mention comment to inform them of the changes. They will be happy their page was made better and they didn't need to waste time reviewing and approving the change. In the event that something isn't an improvement, we practice [clean up over sign off](/handbook/values/#cleanup-over-sign-off).
 
-Whenever appropriate, such as publishing a previously internal-only document, get approval from the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) using the [approval feature](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html) before merging changes. Each page in the handbook shows the code owner listed under "Maintained by". The maintainer information and for list of groups that maintain a page, see the relevant [codeowners file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS). The page's code owner is the DRI for the page and has the final say for what appears in the handbook. When in doubt, get the DRI's permission before changing their page. Don't worry if the DRI is a C-level person. You can still assign your MRs to them, even if you are an individual contributor. This is because we prefer to [communicate directly](/handbook/communication/#communicate-directly).
+Whenever appropriate, such as publishing a previously internal-only document,
+get approval from the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) using the
+[approval feature](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html)
+before merging changes.
+
+#### Who can approve
+
+You can identify the owner of a handbook page by visiting the page on the web
+version of the handbook and viewing who is in the `Maintainers` section on the
+page being edited (on the right hand side of the page, which may be hidden on a
+smaller browser window).
+
+For some pages, the `Maintainers` section is empty. This is because the page is
+maintained by a group rather than individuals. To view which groups or
+individuals maintain a page, see the `CODEOWNERS` file of the relevant repository, such as [the handbook's `CODEOWNERS`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS).
+
+The page's code owners will also be visible when viewing the
+[approval section](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html) of the merge request.
+
+The page's code owner is the DRI for the page and has the final say for what
+appears in the handbook. When in doubt, get the DRI's permission before changing
+their page. Don't worry if the DRI is a C-level person. You can still assign
+your MRs to them, even if you are an individual contributor. This is because we
+prefer to [communicate directly](/handbook/communication/#communicate-directly).
 
 ### Have a peer review your changes
 
@@ -245,7 +271,7 @@ Being a maintainer gives you access to much more than just the ability to merge.
 
 ### Granting others maintain access
 
-Do not grant people maintainer access without an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don't do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
+Do not grant people maintainer access without an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don't do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
 
 ### Description Templates for Issues and Merge Requests
 

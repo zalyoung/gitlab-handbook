@@ -4,6 +4,10 @@ description: "At GitLab, being a CEO Shadow is not a job title, but a temporary 
 ---
 <!-- vale handbook.InclusionLanguage = NO -->
 
+{{% alert title="Note" color="secondary" %}}
+The CEO shadow program is on hold until further notice.
+{{% /alert %}}
+
 ## Overview
 
 At GitLab, being a CEO Shadow is not a job title, but a temporary assignment to shadow the CEO.
@@ -131,12 +135,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-11-25 | 2024-11-29 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-02 | 2024-12-06 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-09 | 2024-12-13 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-16 | 2024-12-20 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-23 | 2024-12-27 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-30 | 2025-01-03 | NO CEO SHADOW | NO CEO SHADOW | CEO PTO |
+| 20YY-MM-DD | 20YY-MM-DD | Team member name | Team member name |  |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -148,7 +147,7 @@ If you have questions regarding the planned rotation schedule, please ping the [
 1. Plan to observe and ask questions.
 1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation. In Slack, change your status noting who will be covering for you.
 1. Be ready to add a number of [handbook](/handbook/about/handbook-usage/) updates during your shadow period.
-1. Participating in the shadow program is a privilege where you will be exposed to confidential information, including having access to material non-public information (MNPI). Participation in the shadow program and access to such information is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. As stated in GitLab's [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view), participants in the shadow program will be considered Designated Insiders because shadows have access to MNPI. Each participant of the CEO Shadow Program or other E-Group level shadow program will be added to the Designated Insider list for the quarter in which they are program participants. Each shadow will be removed from the Designated Insider list once the window has closed for the same quarter they participate as a shadow only if that is the sole reason the participant is on the Designated Insider list. For additional information, please see the [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#).
+1. Participating in the shadow program is a privilege where you will be exposed to confidential information, including having access to material non-public information (MNPI). Participation in the shadow program and access to such information is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. As stated in GitLab's [Insider Trading Policy](https://drive.google.com/file/d/1yK4-L3nCEjVi14UwFfp9LNJzJNQdvvLB/view?usp=sharing), participants in the shadow program will be considered Designated Insiders because shadows have access to MNPI. Each participant of the CEO Shadow Program or other E-Group level shadow program will be added to the Designated Insider list for the quarter in which they are program participants. Each shadow will be removed from the Designated Insider list once the window has closed for the same quarter they participate as a shadow only if that is the sole reason the participant is on the Designated Insider list. For additional information, please see the [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#).
 1. Give feedback to and receive feedback from the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback). Examples of this are to the CEO and to the world about the company if they make a blog post or video. Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
 1. Please note that access to 1:1 docs as a CEO Shadow is limited to those where the attendee has agreed to share. If not shared, the attendee has declined to share.
 
@@ -204,19 +203,13 @@ Review the [CEO's calendar](#ceos-calendar) to get an idea of what your upcoming
 
 #### Review the CEO Handbook
 
-The CEO has a [section in the handbook](/handbook/ceo/) that details processes and workflows specific to him as well as his background, communication style, strengths, and flaws. Take time to invest in your relationship with him upfront by reviewing this part of the handbook. Here are some helpful sections:
-
-1. [Communication](/handbook/ceo/#communication)
-1. [Pointers from direct reports](/handbook/ceo/#pointers-from-ceo-direct-reports)
-1. [Strengths](/handbook/ceo/#strengths)
-1. [Flaws](/handbook/ceo/#flaws)
+The CEO has a [section in the handbook](/handbook/ceo/) that details processes and workflows specific to him as well as his background, communication style, strengths, and flaws. Take time to invest in your relationship with him upfront by reviewing this part of the handbook.
 
 #### Review acronyms
 
 If you're not familiar with some of the business acronyms, take a bit of time to review them. The [Product Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) handbook page has some useful acronyms as well as concepts you're likely to come across.
 
 - [KPI (Key Performance Indicator)](/handbook/company/kpis/#what-are-kpis)
-- [OKRs (Objectives and Key Results)](/handbook/company/okrs/#what-are-okrs)
 - Product performance indicators such as [CMAU (Combined Monthly Active User) (Internal link)](https://internal.gitlab.com/handbook/company/performance-indicators/product/#estimated-combined-monthly-active-users-cmau) and [SpU (Stages per User) (Internal link)](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-user-spu)
 - [Revenue definitions (Internal link)](https://internal.gitlab.com/handbook/sales/sales-glossary/) such as [ARR (Annual Recurring Revenue) (Internal link)](https://internal.gitlab.com/handbook/sales/annual-recurring-revenue-arr/)
 - Other business terminology may come up. [Wall Street Oasis Finance Dictionary](https://www.wallstreetoasis.com/finance-dictionary#DicT) is a handy guide.
@@ -363,7 +356,7 @@ When attending **external meetings**, notify the CEO in a private Zoom chat mess
 
 In internal meetings, `I think` can be used to signal opportunity for others to present a contrasting opinion.
 
-Also send a private Zoom chat message when the [CEO displays other flawed behavior](/handbook/ceo/).
+Also send a private Zoom chat message when the CEO displays other flawed behavior.
 
 #### Share thanks
 
@@ -425,7 +418,7 @@ A tweet storm is a series of X/Twitter posts usually made as replies in a single
 1. Draft 2-5 tweets for a 30 minute video, and up to 10 tweets for a 1 hour video.
    1. The first tweet should hook the audience, pose a question, or state how GitLab does something different.
    1. Attribute any lines that are not spoken by the CEO.
-   1. Consider [looking at the CEO's social media accounts for tone and style](/handbook/ceo/#connecting-on-social-media).
+   1. Consider looking at the CEO's social media accounts for tone and style.
    1. Each tweet can contain 280 characters, URLs are counted differently. Make sure to test each tweet with the Twitter web form to tweet.
    1. When you add URLs, use the [card validator](https://cards-dev.twitter.com/validator) to render a preview. This can help to refine the tweet text.
    1. More message tips can be found in the [Developer Advocacy on Social Media handbook](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips).
@@ -580,7 +573,7 @@ If the CEO records a video to the cloud in a meeting it will eventually end up b
 
 When attending events with the CEO, keep the following in mind:
 
-1. The CEO has outlined his [transport preferences](/handbook/ceo/#transport).
+1. The CEO has outlined his transport preferences.
 1. When traveling to events in the Bay Area by car, the CEO will request the ride sharing service.
 1. When traveling to events on foot, CEO Shadows should take responsibility for navigating to the event.
 1. After a talk or panel, be ready to help the CEO navigate the room, particularly if there is a time-sensitive obligation after the event.

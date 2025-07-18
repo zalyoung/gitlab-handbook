@@ -27,16 +27,16 @@ Integral part of this vision is to:
 
 1. Build a highly performant team of engineers, combining operational and software development experience to influence the best in reliable infrastructure.
 1. Work publicly in accordance with our [transparency](/handbook/values/#transparency) value.
-1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support [the company strategy](/handbook/company/strategy/).
-1. Align our [strategy](/handbook/company/strategy/) with the industry trends, company direction, and end customer needs.
+1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support the company strategy
+1. Align our strategy with the industry trends, company direction, and end customer needs.
 
 ## Direction
 
-The direction is accomplished by using [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/).
+The direction is accomplished by using Objectives and Key Results (OKRs).
 
 Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatives across both Infrastructure and Stage Groups needed to address these gaps.
 
-{{% include "includes/we-are-also-product-development.md" %}}
+{{% include "includes/engineering/we-are-also-product-development.md" %}}
 
 ## Organization structure
 
@@ -54,7 +54,7 @@ flowchart LR
     I --> DE[Developer Experience]
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
     I --> PE[Production Engineering]
-    click PE "/handbook/engineering/infrastructure/platforms/"
+    click PE "/handbook/engineering/infrastructure-platforms/production-engineering/"
     I --> SD[Software Delivery]
     click SD "/handbook/engineering/infrastructure/team/delivery/"
     I --> TS[Tenant Scale]
@@ -90,9 +90,9 @@ flowchart LR
     click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
 
     PE --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
+    click CC "/handbook/engineering/infrastructure/team/cloud-connector/"
     PE --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    click Foundations "/handbook/engineering/infrastructure-platforms/production-engineering/foundations/"
     PE --> Observability
     click Observability "/handbook/engineering/infrastructure/team/scalability/"
     PE --> Ops
@@ -101,9 +101,9 @@ flowchart LR
     click Ops "/handbook/engineering/infrastructure/team/runway/"
 
     SD --> DB[Build]
-    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click DB "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> DD[Deploy]
-    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click DD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> FR[Framework]
     click FR "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> RE[Releases]
@@ -154,7 +154,7 @@ at [infra-roadmap.gitlab.com](https://infra-roadmap.gitlab.com/).
 
 **NOTE**:
 The Infrastructure Roadmap is not publicly available as some of the projects and
-initiatives may not be considered [unSAFE](/handbook/legal/safe-framework/).
+initiatives may be considered [unSAFE](/handbook/legal/safe-framework/).
 
 The site presents the roadmap in a visual manner, showing:
 
@@ -201,7 +201,7 @@ The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number 
 
 ## Projects
 
-Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
+Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure-platforms/projects).
 
 The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
 
@@ -209,13 +209,13 @@ In addition to tracking the backlog, Infrastructure Department projects are capt
 
 ## Supporting Product Features
 
-We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
+We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure-platforms/feature-support/) provides details on how we collaborate to ship new features to Production.
 
 ## Stable Counterparts
 
 Infrastructure SREs may be aligned with [stage groups](/handbook/product/categories/#categories-a-z) as [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/).
 
-[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
+[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-platforms).
 
 ## Interviewing
 
@@ -230,7 +230,7 @@ The Infrastructure department hires for a number of different technical speciali
 
 - [#production](https://gitlab.slack.com/archives/production)
 - [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge)
-- [#incident-management](https://gitlab.slack.com/archives/incident-management)
+- [#incidents-dotcom](https://gitlab.slack.com/archives/incidents-dotcom)
 - [#announcements](https://gitlab.slack.com/archives/announcements)
 - [#feed_alerts-general](https://gitlab.slack.com/archives/feed_alerts-general)
 
@@ -252,8 +252,7 @@ The Infrastructure department hires for a number of different technical speciali
 
 ## Other Pages
 
-- [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
-- [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
+- [On-call Handover](/handbook/engineering/infrastructure-platforms/production-engineering/ops/on-call-handover/)
+- [SRE Onboarding](/handbook/engineering/infrastructure-platforms/production-engineering/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
-- [Infrastructure careers and internships](career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)

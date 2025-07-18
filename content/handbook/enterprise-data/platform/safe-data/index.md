@@ -26,7 +26,7 @@ General Access Dashboards are available to all GitLab Team members. An Access Re
 
 #### Accessing a SAFE Dashboard
 
-All SAFE dashboards are stored within various team's SAFE folders and permission is managed by the user's access group membership. Access to a single SAFE dashboard provides access to all SAFE Dashboards. Having  access to the SAFE project/folder will result in making the team member a [Designated Insider](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) subject to our [Insider Trading Policy](https://drive.google.com/file/d/12H-H43vIf15fWADZDEf3FH2jneMmiLDH/view). Gaining access to a SAFE dashboard (and the space) via membership in the General SAFE Access user group requires:
+All SAFE dashboards are stored within various team's SAFE folders and permission is managed by the user's access group membership. Access to a single SAFE dashboard provides access to all SAFE Dashboards. Having  access to the SAFE project/folder will result in making the team member a [Designated Insider](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) subject to our [Insider Trading Policy](https://drive.google.com/file/d/1yK4-L3nCEjVi14UwFfp9LNJzJNQdvvLB/view?usp=sharing). Gaining access to a SAFE dashboard (and the space) via membership in the General SAFE Access user group requires:
 
 1. Your immediate manager's approval
 
@@ -42,11 +42,11 @@ SAFE Data in Google Sheets files can be accessed using the instructions for [Acc
 
 ##### Deprovisioning SAFE Dashboard access
 
-Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/enterprise-data/data-management/). In this audit the Data Team also checks for inactive usage. In case a GitLab Team Member hasn't used the SAFE Dashboard space for more than 90 days, access will be deprovisioned. To get access again to the SAFE Dashboard space, a new AR needs to be created and all approvals need to be obtained again.
+Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/enterprise-data/data-governance/data-management/). In this audit the Data Team also checks for inactive usage. In case a GitLab Team Member hasn't used the SAFE Dashboard space for more than 90 days, access will be deprovisioned. To get access again to the SAFE Dashboard space, a new AR needs to be created and all approvals need to be obtained again.
 
 #### Accessing Various Limited Access User Groups
 
-There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](/handbook/enterprise-data/platform/tableau/#limited-access-user-groups), as well as how to request access.
+There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](/handbook/enterprise-data/platform/tableau/#user-groups), as well as how to request access.
 
 ### Snowflake
 

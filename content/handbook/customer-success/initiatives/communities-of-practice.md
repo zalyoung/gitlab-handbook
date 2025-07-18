@@ -64,7 +64,7 @@ A set of recommendations were formulated that focused on:
 
 The pilot will run for 8 weeks and will focus on "Defense against GitHub."
 
-The rationale for the pilot topic selection was anchored on our [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies):
+The rationale for the pilot topic selection was anchored on our FY24 Yearlies:
 
 - Continue to win against GitHub with AI in all we do
 - Reduce churn and contraction by delivering predictable high value to customers

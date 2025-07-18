@@ -1,11 +1,13 @@
 ---
-title: "NAVEX Compliance Courses"
+title: "Ethics and Compliance Courses"
 description: "Compliance training processes, course info, and FAQ"
 ---
 
 ## Access
 
-NAVEXEngage is GitLab's online ethics and compliance training solution. NAVEX accounts are provisioned automatically on a new hire's start date via a Workday integration and can only be accessed through Okta. All new team members have a task in their onboarding issue to complete assigned NAVEX courses within 30 days of starting. 
+We are transitioning GitLab's learning and compliance training to LevelUp, our central portal for talent enblement and on-demand learning. During this transition period, annual refresher training will be delivered through LevelUp with the exception of new hire training. New hire training will be delivered through NAVEX until we have completed our transition to LevelUp. 
+
+All team members will receive automatic access to their assigned compliance training courses. New team members have a task in their onboarding issue to complete assigned compliance courses within 30 days of starting. 
 
 ## Courses
 
@@ -39,20 +41,6 @@ Team members will be enrolled in refresher training on a regular basis and asked
 
 ## Best Practices for Using NAVEX
 
-For the best user experience, we recommend using Google Chrome and disabling your pop-up blocker. If your course freezes or becomes stuck, follow these best practices:
+For the best LevelUp user experience, be aware of any special browser plug-ins, add-ons, or settings that may interfere with pop-ups. If you see a 0% progress bar during a course, note that some courses only report completion status, not ongoing progress. Use "My Learning" and/or Transcript features to verify completion and monitor your assignments. We have a dedicated Slack channel for platform technical issues - #fy26-levelup-support. Include details about any errors or issues you're experiencing. For questions about course content (not technical issues), use #compliance-training.
 
-- Save and close the course.
-- Expand the course player to the full screen size.
-- Toggle the zoom, making sure it is set to no greater than 100%.
-- Clear your cache.
-- Make sure you have logged into NAVEX in only one tab/window.
-- Restart your computer.
-
-If you are experiencing course completion issues, follow these best practices:
-
-- Clear your cache.
-- Ensure your internet connection is stable.
-- Don't leave the course unattended without input (i.e., running in the background).
-- Close out of the course prior to changing networks, docking/undocking computers, locking your computer, stepping away from your computer, or completing other work (use the internal course 'x' as opposed to the main window 'x').
-
-If you continue to experience difficulties or have questions, contact [#compliance-training](https://gitlab.enterprise.slack.com/archives/C01BUENE8MV).
+If you continue to experience difficulties or have questions, contact #compliance-training.

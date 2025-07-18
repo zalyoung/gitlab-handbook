@@ -233,10 +233,10 @@ Check out [this video](https://www.youtube.com/watch?v=dZtCuOf5aGk) for a visual
 
 ## Access
 
-1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/security/corporate/end-user-services/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation with the People Connect Team via HelpLab.
 
-For People Connect troubleshooting:
+For People Operations troubleshooting:
 
 1. If a team member reaches out that they have not received their GitLab Unfiltered invite, resend the invite via the `Manage Permissions`
 1. Should the team member still not see the invite under `Pending Invitations`, revoke the original invite by doing `command f` in the `Manage Permissions` section for the team members email address. You can revoke by clicking the `X` next to the email address.
@@ -264,7 +264,7 @@ The GitLab Unfiltered YouTube account is a shared space. Sometimes team members 
 
 If you see a channel subscription or comment that violates the rules of this handbook, please take a bias-for-action to keep the GitLab Unfiltered
 YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable
-to remove the relevant comment or subscription, please notify the People Connect Team immediately via HelpLab.
+to remove the relevant comment or subscription, please notify the People Operations Team immediately via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d).
 
 ## Organizing
 

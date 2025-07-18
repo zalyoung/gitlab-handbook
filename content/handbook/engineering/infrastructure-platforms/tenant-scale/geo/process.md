@@ -90,7 +90,7 @@ When they are satisfied that they have a reasonable solution including an estima
 for discussion and feedback. Planning is transparent anyway, but this serves to notify the team that the new work items are ready
 for development.
 
-For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development-flow/feature-flag-lifecycle/#development).
+For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#development).
 The original issue should remain open and blocked on the FF rollout issue until the rollout issue is closed, in case the rollout does not go as planned.
 
 #### Schedule
@@ -224,40 +224,62 @@ If an issue is assigned a weight of 10, then the issue is too big and will need 
 
 If any issue is weighted above a 3, we should ask ourselves if it can be further broken down. We should do this even if the issue was already broken out from an even larger issue.
 
-### Backlog Refinement Process 
+### Backlog Refinement Process
 
-Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](../../../../product-development-flow).
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
-Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined. 
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined.
 Each week 3 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
 
 1. Refinement issue is created and assigned to engineers. It contains instructions for what to do with each issue and is the source of truth for this part of the process. The rest of the steps below are an overview.
 2. Phase 1: Engineers will select 1-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
-   1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification 
-   2. If the issue is a go, move to `~"workflow::refinement` for Phase 2
+   1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification
+   2. If the issue is a go, move to `~"workflow::refinement` for Phase 2. See below how to decide if an issue is a "go" or "no-go".
 3. Phase 2: Engineers will add an implementation guide, the right labels and weights for the issue. Once that is ready, move it to `~"workflow::ready for development` for the PM/EM to schedule.
-   1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels. 
-   2. For features/maintenance issues, a timebox of 1 hour or so is expected per issue and for bugs this could take 2-3 hours as we need to reproduce it before adding implementation details 
-   3. Please also label as `~"Seeking Community contributions"` if an implementation guide has been added and weights are 1-3.
+   1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels.
+   1. For features/maintenance issues, a timebox of 1 hour or so is expected per issue and for bugs this could take 2-3 hours as we need to reproduce it before adding implementation details
+   1. Please also label as `~"Seeking Community contributions"` if an implementation guide has been added and weights are 1-3.
+   1. If this issue has a weight of 1-3 and could be easy enough for a community contributor, it should also be relatively easy to write up the implementation guide. Timebox to 30 mins - 1 hour.
+   1. If the issue is very complex, stop investigating as soon as you’ve realized that it’s going to take > 1 hour to reproduce/write the implementation guide.
+   1. If an issue takes too long or you think is not aligned with our current roadmap, be vocal about pushing back on it and discuss it on the refinement issue.
+
+#### Phase 1: How to decide if an issue is a "go" or "no-go"
+
+In phase 1, we decide whether or not an issue is a "go" or "no-go" for refinement in phase 2. An issue that is a "go" will always be moved to phase 2 for refinement.
+
+An issue is a "no-go", if,
+
+1. the feature is not aligned with our current roadmap (i.e. in the next 6 - 12 months)
+1. the issue's context is outdated or irrelevant now
+1. it is a duplicate (mark it as a duplicate)
+1. it is already resolved, completely, or enough to not be worth prioritizing any more
+1. the solution is complex and the demand is low
+
+Those issues that are a "no-go" should be closed with the reason mentioned or de-prioritized to priority 4, so that phase 2 engineers do not pick them up for refinement. Please tag the EM and PM when closing an issue if you're not 100% confident what to do with it.
 
 The refinement script can be found [here](https://gitlab.com/gitlab-org/geo-team/bots/-/tree/main/cmd/refinement?ref_type=heads)
 
 #### Engineering Customer/Support Rotation Process
 
-Every week, a Geo engineer is assigned to be the DRI for doing the technical assessment of customer support tickets + monitoring [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel for support issues.
-
-A different backend engineer is assigned to support rotation each week and we schedule shifts 2 to 6 months in advance. This is a discussion documented here in this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5118)
+Every two weeks, a Geo engineer is assigned to be the DRI for doing the technical assessment of customer support tickets + monitoring [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel for support issues.
 
 Process summary:
 
 - Every week, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new support shift is starting for technical assessment triage.
 - Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
-- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGeo&first_page_size=100) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
+- The DRI currently assigned to the rotation should then dedicate their two weeks to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGeo&first_page_size=100) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
   - Be first on point to triage questions in our [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel. Now that we have a slack workflow -> this should be taught/triggered per more complex questions and quickly answer anything that's short and sweet.
-  - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow. One dev continuing to take ownership of an issue they started on is preferred over handing it over.
+  - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow.
 - If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated with via a MR.
-- The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5120) for example for the 2024 rotation similiar to the bug triage process.
+- The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5142) for the 2025 rotation.
 - The DRI should estimate the amount of time spent on support and track this via `Time Tracking` in each issue approximating to the hour how much they have spent on tickets and triaging. This is a new part of the process which is in a trial phase.
+
+At the end of the rotation, each engineer should provide handover notes inside the [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5142):
+
+- Using our standardized Duo Chat prompt for handing over an RFH (WIP)
+- Proofread and correct Duo's output if needed.
+- Post it directly on the issue, with a ping to the new DRI, in a new root comment, not on a thread
+- If needed, the new DRI should ask clarifying questions on a reply to the comment or in Slack.  Setting up a meeting to go over more difficult context would work if timezones aligned.
 
 ##### Schedules
 
@@ -282,3 +304,35 @@ In order, that means:
 - Can you help anyone with reviews?
 - Can you unblock anyone in development?
 - Pick from the top of the "ready for development" column on the [Kanban Build board](https://gitlab.com/groups/gitlab-org/-/boards/1181257?milestone_title=%23started&&label_name[]=Geo).
+
+## Feature Flag Management
+
+### Retention Guidelines
+
+- **Development Flags**: 5 milestones maximum, aiming for 4 milestones as a general guidance
+- **Operational Flags**: 16 months maximum, aiming for 12 milestones as a general guidance.
+
+### Process
+
+1. **DRI Assignment**: Each feature flag must have a designated owner responsible for cleanup
+2. **Regular Review**: Monthly check of flags approaching retention limits during team planning
+3. **Cleanup**: Remove flags within retention period or request extension with justification
+
+### Flag Lifecycle
+
+- **Creation**: Use `geo_` prefix, set clear description and expected timeline
+- **Monitoring**: Track usage and plan removal during development
+- **Removal**: Clean up code paths and update documentation
+
+### Extensions
+
+Flags exceeding retention limits require team lead approval with documented justification.
+
+### Resources
+
+- [Team Feature Flag Analysis](https://docs.google.com/spreadsheets/d/1pbPwUQC30gkaueqy_f4m2KRK0Smta3YCHCvh-kEJbi0/edit?gid=1801934973#gid=1801934973)
+- [GitLab Feature Flag Documentation](https://docs.gitlab.com/development/feature_flags/)
+
+## Backlog Cleanup (Trial Phase)
+
+We will start to label issues `~closed:stale` to mark issues that are in our backlog that's not on [the roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=START_DATE_ASC&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::geo&label_name[]=type::feature&label_name[]=backend&progress=WEIGHT&show_progress=true&show_milestones=true&milestones_type=ALL&show_labels=true) but could be good ideas.

@@ -8,7 +8,7 @@ status:
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Existing Reads
 
@@ -406,10 +406,10 @@ Logging is managed by way of using AWS OpenSearch for AWS tenants, and Google Cl
 
 **What is GitLab.com doing right now:**
 
-A large installation of the Prometheus and Thanos across a multitude of GCP projects are managed through various means.
+A large installation of the Prometheus and Mimir across a multitude of GCP projects are managed through various means.
 We leverage the Runbooks repository to configure all of our Dashboards, Alerts, and Pages.
 
-We inherently are provided a global view as our Grafana installation talks to a large Thanos configuration which is able to distribute queries across all necessary environments.
+We inherently are provided a global view as our Grafana installation talks to a large Mimir configuration which contains data via remote-write from all necessary environments.
 
 Logs are managed by way of `fluentd` on both our Virtual Machines and Kubernetes clusters sending data to PubSub which are then brought into Elasticsearch where Kibana is used for viewing.
 Some services dump too much data, such as CloudFlare, GKE, and HAProxy, where we rely on Google's Logging solution, either Stackdriver, or BigQuery.

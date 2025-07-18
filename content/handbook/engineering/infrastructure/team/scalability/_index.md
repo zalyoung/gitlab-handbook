@@ -10,7 +10,7 @@ title: "Scalability Group"
 | **GitLab.com** | `@gitlab-org/scalability` |
 | **Issue Trackers** | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) |
 | **Team Slack Channels** | [#g_scalability](https://gitlab.slack.com/archives/g_scalability) - Company facing channel <br/> [#g_scalability-observability](https://gitlab.slack.com/archives/g_scalability-observability) - Team channel <br/> [#g_scalability-practices](https://gitlab.slack.com/archives/g_scalability-practices) - Team channel<br/> [#scalability_social](https://gitlab.slack.com/archives/scalability-social) - Group social channel |
-| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
+| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incidents](https://gitlab.slack.com/archives/incidents) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
 
 ### Project Management Links
 
@@ -47,7 +47,7 @@ for each of GitLab's services.
 
 ## Direction for FY24
 
-We've moved the direction to the direction section [here](https://about.gitlab.com/direction/saas-platforms/production-engineering/) so that it's in the same place as the rest of our product direction.
+We've moved the direction to the direction section [here](https://about.gitlab.com/direction/production_engineering/) so that it's in the same place as the rest of our product direction.
 
 ## Indicators
 
@@ -223,10 +223,6 @@ When collaborating on the announcement text, consider using a threaded discussio
 
 Documentation or tutorial videos should also be added to the [README.md](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/README.md)
 in our team repository.
-
-### Project Management
-
-We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/team/scalability/project-management/) describes how we work on our roadmaps, backlogs, and active projects.
 
 ### Triage rotation
 

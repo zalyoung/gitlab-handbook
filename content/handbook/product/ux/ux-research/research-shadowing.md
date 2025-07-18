@@ -9,7 +9,7 @@ This research shadowing process is intended to ensure that stable counterparts h
 
 ## Shadower process
 
-1. Identify the UX Researcher [assigned to your stage group](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned). This person will be your contact during this shadow process. Reach out to them and introduce yourself and let them know you're starting research shadowing.
+1. Identify the UX Researcher [assigned to your stage group](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-team-members-are-assigned). This person will be your contact during this shadow process. Reach out to them and introduce yourself and let them know you're starting research shadowing.
 1. Read through pages that are relevant to you and your project(s) within the [UX Research handbook section](/handbook/product/ux/ux-research/). Your researcher can answer any questions you may have.
 
 ### Problem Validation shadowing
@@ -27,7 +27,7 @@ This research shadowing process is intended to ensure that stable counterparts h
 
 1. When conducting your first solo Solution Validation at GitLab, you will need to have a researcher (preferably from your group or section) shadow your first solution interview.
    - This is to ensure you get feedback about your approach, and that a UX Researcher and your Product Design Manager are aware so they can support you.
-1. [Solution Validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) is conducted by the Product Designer and PM counterpart.
+1. [Solution Validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) is conducted by the Product Designer and PM counterpart.
 1. The role of research in Solution Validation is to provide an initial framework and to provide feedback on the goals of your study.
 1. After a researcher has shadowed your interview (either live or by watching the recording), they will provide written feedback to you and cc your Product Design Manager.
 

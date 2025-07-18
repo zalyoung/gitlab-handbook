@@ -62,7 +62,7 @@ At GitLab we value [being as transparent as possible](/handbook/values/#transpar
 1. If an issue does not have `~keep confidential`, remove sensitive information from the description and comments, e.g.
    1. Proof-of-concept videos & screenshots showing researcher account information
    1. Tokens, Access Keys, and other secrets
-   1. Information which our [Data Classification Standard](/handbook/security/data-classification-standard/) and [SAFE framework](/handbook/legal/safe-framework/) say to not disclose
+   1. Information which our [Data Classification Standard](/handbook/security/standards/data-classification-standard/) and [SAFE framework](/handbook/legal/safe-framework/) say to not disclose
 1. Issues related to personal data leaks are not disclosed since they are not security issues related to the product. If for some reason it needs to be disclosed then consult with Legal and the Corporate Comms team before disclosing.
 1. Identify all issue description changes, click to expand "Compare with previous version" and click the trash icon to "Remove description history"
 1. Optionally mention issue participants to notify them you intend to make the issue public
@@ -149,7 +149,7 @@ Severity label is determined by CVSS score, using the [GitLab CVSS calculator](h
 If another team member feels that the chosen `~severity` / `~priority` labels
 need to be reconsidered, they are encouraged to begin a discussion on the relevant issue.
 
-The presence of the `~bug::vulnerability` label modifies the standard [severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)(`~severity::1`, `~severity::2`, `~severity::3`, `~severity::4`)
+The presence of the `~bug::vulnerability` label modifies the standard [severity labels](/handbook/product-development/how-we-work/issue-triage/#severity)(`~severity::1`, `~severity::2`, `~severity::3`, `~severity::4`)
 by additionally taking into account
 likelihood as described below, as well as any
 other mitigating or exacerbating factors. The priority of addressing

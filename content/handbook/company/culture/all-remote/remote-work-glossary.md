@@ -46,7 +46,7 @@ See the [stages of remote work](stages/): no remote, remote allowed, hybrid remo
 
 ## Single source of truth (SSoT)
 
-This term comes from information systems architecture, but it's applicable in any environment where information is distributed. The concept is simple: there should be one central, accessible place where information is kept, and that source should be kept up to date. At GitLab, [our primary SSoT is the handbook](handbook-first/#creating-a-home-for-a-single-source-of-truth-ssot). We avoid creating new places to store information, so that when things change, only one document needs to be updated.
+This term comes from information systems architecture, but it's applicable in any environment where information is distributed. The concept is simple: there should be one central, accessible place where information is kept, and that source should be kept up to date. At GitLab, [our primary SSoT is the handbook](handbook-first/). We avoid creating new places to store information, so that when things change, only one document needs to be updated.
 
 ## Working from home
 

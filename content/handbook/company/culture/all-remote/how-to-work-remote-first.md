@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## What is a forcing function?
 
-A [forcing function](/handbook/company/culture/all-remote/remote-work-glossary/#forcing-function) is any task, activity, or event that forces you to take action and produce a result. This term comes from interaction design, where it refers to a constraint that shapes behavior.
+A [forcing function](remote-work-glossary/#forcing-function) is any task, activity, or event that forces you to take action and produce a result. This term comes from interaction design, where it refers to a constraint that shapes behavior.
 
 [Transitioning](transition/) to remote is challenging but worthwhile. For many leaders, the question of "How do we do it?" is a giant one. Whether it's entirely disconnecting from offices and going [all-remote](terminology/), or attempting to create a level playing field for in-office and remote team members in a [hybrid-remote](hybrid-remote/) arrangement, leaders should consider using some of key forcing functions outlined below to ensure a commitment to remote-first practices. At GitLab, we use [forcing functions](how-to-work-remote-first/) to empower and encourage team members to use best practices and to reinforce our [values](/handbook/values/).
 
@@ -63,7 +63,7 @@ For example, GitLab has group, location, section, values feed, and social group 
 
 Because we do not use a chat tool such as Slack for work, we need a tool that's built for remote collaboration. GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
+You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 ### Implement discretionary bonuses for exemplifying values
 
@@ -97,7 +97,7 @@ This remote-first behavior triggers a healthy reminder for people to chat about 
 
 Imagine this scenario. You're in a conference room with five others, being joined by a group of five remote team members in a video call.
 
-Those in the office are inclined to use the office camera, dialing in as a single participant with five heads and voices. This creates an unlevel playing field, where the remote team members are immediately seen as inferior, and are given a substandard call experience. (We've detailed why [hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-horrible) in the Communication section of the GitLab handbook.)
+Those in the office are inclined to use the office camera, dialing in as a single participant with five heads and voices. This creates an unlevel playing field, where the remote team members are immediately seen as inferior, and are given a substandard call experience. (We've detailed why [hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-annoying) in the Communication section of the GitLab handbook.)
 
 The forcing function here is to mandate that everyone, at all times, use their own webcam. This would mean that each individual in the aforementioned conference room would need to open their own laptop and join. This would feel remarkably awkward to those in the room, which is precisely the point. The next logical question is the intended conclusion: *why did everyone in the office bother commuting*?
 
@@ -121,7 +121,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to company-wide documentation.*
 
 > I think [documentation](management/#scaling-by-documenting) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
@@ -162,7 +162,7 @@ Read more about this forcing function in GitLab's guide to [adopting a self-serv
 
 {{< youtube "I-XQfP-NfpU?start=376" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and two co-founders at [Yac](https://yac.com/) discuss the significance of relying on a company handbook as the [single source of truth](handbook-first#creating-a-home-for-a-single-source-of-truth-ssot).*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and two co-founders at [Yac](https://yac.com/) discuss the significance of relying on a company handbook as the [single source of truth](handbook-first/#why-does-handbook-first-matter).*
 
 > "GitLab's founders made a fundamental decision early on to work handbook-first to document everything about the company. Everyone who has joined since benefits from that initial step.
 >
@@ -176,11 +176,11 @@ Read more about this forcing function in GitLab's guide to [adopting a self-serv
 
 Values drive action. If your values are structured to encourage conventional colocated workplace norms (such as [consensus gathering](management/#separating-decision-gathering-from-decision-making), or recurring meetings with in-person teams), rewrite them.
 
-Feel welcome to study [GitLab's values](/handbook/values/), and learn more on how this collection [contributes to an all-remote environment](/handbook/company/culture/all-remote/remote-values/).
+Feel welcome to study [GitLab's values](/handbook/values/), and learn more on how this collection [contributes to an all-remote environment](remote-values/).
 
 ## What are some tips for working remote-first?
 
-We've gathered our top [5 tips for successful remote working](/handbook/company/culture/all-remote/remote-work-starter-guide/):
+We've gathered our top [5 tips for successful remote working](remote-work-starter-guide/):
 
 1. Create a dedicated workspace (focus)
 1. Separate work from life (avoid burnout)
@@ -190,7 +190,7 @@ We've gathered our top [5 tips for successful remote working](/handbook/company/
 
 ## What are some challenges of working remote-first?
 
-Despite having many [advantages](/handbook/company/culture/all-remote/remote-benefits/), all-remote work can have some downsides.
+Despite having many [advantages](remote-benefits/), all-remote work can have some downsides.
 
 {{< youtube "CwOLAKSdlfs" >}}
 
@@ -206,7 +206,7 @@ Anyone can test their knowledge on How to use forcing functions to work remote-f
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

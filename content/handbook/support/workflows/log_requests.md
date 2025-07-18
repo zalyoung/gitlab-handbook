@@ -29,7 +29,7 @@ Requester must be a Group Owner of a pre-existing paid namespace.
 
 #### Free Users
 
-Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
+Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
 
 ### What we can provide
 
@@ -49,7 +49,7 @@ We can provide the following information:
 We cannot provide the following information:
 
 - Information about accounts or projects that the requester does not own.
-- Any information considered [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) that is not specifically about the individual requester. Also consider [the data covered under GDPR](/handbook/legal/privacy/privacy-laws#what-is-covered-by-the-gdpr).
+- Any information considered [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) that is not specifically about the individual requester. 
 - Any information that would disclose GitLab confidential information or processes.
 
 ### Sending logs and other Personal Data
@@ -59,6 +59,8 @@ such as a log request, needs to be delivered compressed and password protected t
 
 - The password should be a random string of at least 10+ characters including numbers, lower and upper case letters.
 - The password protected file should be attached to the ZenDesk ticket, and the password needs to be sent separately through your email account directly to the customer's email address.
+  - Use the command `zip -er [TicketNumber].zip filename` or other encryption tool to encrypt the file.
+  - Use 1Password to generate the random secure password for the encryption.
 - Once the customer had successfully received and opened the files you should delete the pulled data from your computer and the email from your mailbox.
 
 If the log files are too large to attach to the ticket in ZenDesk, refer to the [Provide large files to GitLab support](https://about.gitlab.com/support/providing-large-files/) page.

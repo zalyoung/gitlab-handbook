@@ -43,7 +43,6 @@ Our knowledge sharing empowers everyone, not only to GitLab team members but als
 
 #### Aimed at under-represented or under-resourced groups
 
-1. [Coaching & mentoring program for people from underrepresented groups](/handbook/engineering/volunteer-coaches-for-urgs/)
 1. [Morehouse College Advanced Software Engineering Course](/handbook/company/culture/inclusion/erg-minorities-in-tech/advanced-software-engineering-course/)
 1. Targeted events such as [workshops organized for Rails Girls](/handbook/people-group/givelab-volunteer-initiatives/#rails-girls)
 1. [Minorities in Tech (MIT) mentoring](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/program-structure/) for GitLab team members
@@ -79,7 +78,7 @@ We empower how people work by providing thought leadership on remote work which 
 1. Guidance and coaching on [how to use open source contributions to build resumes and network](https://thenewstack.io/the-opportunity-of-open-source-to-create-opportunities-for-others/)
 1. Participation in internship programs such as [Outreachy](https://about.gitlab.com/blog/2021/04/15/outreachy-sponsorship-winter-2020/) and [Google of Summer Code](https://summerofcode.withgoogle.com/organizations/4961424868114432/)
 1. [Engineering Internships](/handbook/hiring/emerging-talent/) at GitLab
-1. [Engineering mentoring and coaching programs](/handbook/engineering/#mentorship-and-coaching-programs) for GitLab team members
+1. [Engineering mentoring and coaching programs](/handbook/engineering/mentorship/) for GitLab team members
 1. [GitLab Learn](https://gitlab.edcast.com/) courses which can create pathways for targeted groups (for example, career transitioning or new to Open Source)
 
 ### DevSecOps Platform
@@ -121,7 +120,7 @@ By making it so **everyone can contribute**, we increase access for people to be
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 
-[Our mission](/handbook/company/mission) is on the same 30 year cadence as our purpose. Our purpose informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, our purpose indirectly informs all of the items in [our cadence](/handbook/company/cadence/), and progress for the items on our [cadence page](/handbook/company/cadence/) like [Yearlies](/handbook/company/yearlies/) creates progress for both our mission and purpose.
+[Our mission](/handbook/company/mission) is on the same 30 year cadence as our purpose. Our purpose informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, our purpose indirectly informs all of the items in [our cadence](/handbook/company/cadence/), and progress for the items on our [cadence page](/handbook/company/cadence/) creates progress for both our mission and purpose.
 
 ## Purpose Resources
 

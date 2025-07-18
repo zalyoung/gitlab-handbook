@@ -22,10 +22,10 @@ You can see who reports to whom in the most up-to-date organization chart by log
 | Senior Director           | [Senior Director, Engineering](/job-families/engineering/development/management/senior-director/)                                                                                 | Sub-department(s)             | Develops the framework and strategy      |
 | Director/ Distinguished   | [Director of Customer Success Operations](/job-families/sales/director-customer-operations/)                                                                                      | Sub-department/multiple teams | Drives the framework, strategy and plans |
 | Senior Manager/Principal  | [Principal Engineer](/job-families/engineering/development/management/principal-engineer/)                                                                                        | Across Sub-departments        | Fosters                                  |
-| Manager/Staff             | [Engineering Manager](/job-families/engineering/backend-engineer/#engineering-manager)                                                                                            | Across Teams                  | Implements                               |
+| Manager/Staff             | [Engineering Manager](/job-families/engineering/development/management/engineering-manager/)                                                                                            | Across Teams                  | Implements                               |
 | Senior                    | [Senior People Connect Specialist](/job-families/people-group/people-connect/#senior-people-connect-specialist)                                                            | Cross functional work         | Models                                   |
 | Intermediate              | [Intermediate Backend Engineer](/job-families/engineering/development/backend/intermediate/)                                                                                      | Work within team              | Grows/Acts                               |
-| Associate                 | [Business Development Associate](/job-families/marketing/sales-development-representative/#business-development-associate-bda)                                                    | Own work                      | Learns/Develops                          |
+| Associate                 | [Junior Data Analyst](/job-families/marketing/enterprise-data/data-analyst/#junior-data-analyst)                                                    | Own work                      | Learns/Develops                          |
 
 GitLab has at most eight layers in the company structure (Associate/Intermediate/Senior, Manager, Senior Manager, Director, Senior Director and/or VP, Executives, CEO). You can skip layers but you generally never have someone reporting to the same layer (Example of a VP reporting to a VP).
 
@@ -53,7 +53,7 @@ We are using the Job Frameworks in the following programs:
 - [Promotion Process](/handbook/people-group/promotions-transfers/)
   - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
   - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
-- [Career Development Conversations](/handbook/people-group/learning-and-development/career-development/#having-career-development-conversations)
+- [Career Development Conversations](/handbook/people-group/learning-and-development/career-development/#having-career-conversations)
   - Both managers and team members can leverage the frameworks in their conversations.
   - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
 - Organizational Design and Headcount Planning
@@ -153,7 +153,7 @@ The three enabling functions, legal, finance and people, also each have a C-leve
 Together, these executives consist of the [E-group](#e-group)
 They meet weekly, attend quarterly board meetings, have a [public Slack channel #e-group](https://gitlab.slack.com/messages/C5W3VS1C4) for most discussion topics, as well as a private one for rare confidential matters.
 
-Except for Sales and Marketing, there are usually multiple executives to a [cost center](/handbook/finance/financial-planning-and-analysis/#cost--reporting-structure). For example, CLO, CFO, CEO, and CPO all fall under the G&A (General & Administrative Expenses) Cost Center.
+Except for Sales and Marketing, there are usually multiple executives to a [cost center](/handbook/finance/financial-planning-and-analysis/). For example, CLO, CFO, CEO, and CPO all fall under the G&A (General & Administrative Expenses) Cost Center.
 
 ##### E-group
 
@@ -173,7 +173,7 @@ Members of the E-group are expected to demonstrate leadership in the way all mem
 
 #### Management group
 
-Members of the management group are expected to demonstrate leadership in the way all [GitLab team members are](/handbook/leadership/#gitlab-team-members), plus:
+Members of the management group are expected to demonstrate leadership in the way all [GitLab team members are](/handbook/leadership/), plus:
 
 1. Ensuring team members feel included and valued is one of the most important tasks of a manager. Proactively create psychological safety with your team members so that diverse perspectives can be heard and everyone can communicate and contribute authentically and creatively.
 1. Ensuring team members understand what is expected of them in their roles is a critical role that managers have to ensure company success. Managers should ensure job families include specific [performance indicators](/handbook/hiring/job-families/#why-job-families-have-performance-indicators) and that is clearly communicated to each team member.
@@ -209,9 +209,9 @@ Members of the management group are expected to demonstrate leadership in the wa
 1. Follow [Berkshire's common injunction](https://www.harrisonbarnes.com/the-psychology-of-human-misjudgment-by-charles-t-munger/): "Always tell us the bad news promptly. It is only the good news that can wait." Make sure to inform your manager of bad news as quickly as possible. Promptly reporting bad news is essential to preserving the trust that is needed to recover from it.
 1. Try to avoid military analogies and imagery. We're not an army, we're not at war, there is no battle, we're not killing anyone, and we don't have weapons. Military language is [not inclusive](https://www.london.edu/think/killing-the-competition) and can lead to zero sum thinking. We take competing and winning very seriously, but there is no need to describe things using vocabulary of physical violence. Similarly, non-collaborative and aggressive terms like "rock star" and "badass" put up walls between people. If a term is standard in the industry, for example [killing a Unix process](https://shapeshed.com/unix-kill/#how-to-kill-a-process), it is acceptable to use it because that is more efficient. Do use "primary-secondary" instead of "master-slave" for replication mechanisms.
 1. Complain up and explain down. Raise concerns you hear to your manager. When peers or reports complain, explain why a decision was made. If you don't understand why, ask your manager.
-1. Create empathy for decisions from other leaders that negatively impact your team by explaining the reasons behind them. Organize a recorded AMA session with your team and the other leaders and encourage your team (as well as yourself) to ask any unanswered questions. Lead by example by ensuring that the discussion exposes what is [best for the organization as a whole](/handbook/values/#global-optimization). Never present yourself as protecting the team from the rest of the organization; this creates a [siege mentality](https://en.wikipedia.org/wiki/Siege_mentality) and hinders [collaboration](/handbook/values/#collaboration).
+1. Create empathy for decisions from other leaders that negatively impact your team by explaining the reasons behind them. Organize a recorded AMA session with your team and the other leaders and encourage your team (as well as yourself) to ask any unanswered questions. Lead by example by ensuring that the discussion exposes what is [best for the organization as a whole](/handbook/values/#cross-functional-optimization). Never present yourself as protecting the team from the rest of the organization; this creates a [siege mentality](https://en.wikipedia.org/wiki/Siege_mentality) and hinders [collaboration](/handbook/values/#collaboration).
 1. Coach team members to establish good [remote work practices](/handbook/company/culture/all-remote/), by encouraging [asynchronous communication](/handbook/company/culture/all-remote/management/#asynchronous), being [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), communicating poor audio or [video quality](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/), or pointing out an open microphone.
-1. Ensuring that GitLab's policies are upheld is an essential part of a manager's responsibility. Managers have an obligation to look out for both their team members and the business's best interest. If a manager becomes aware that a team member is in violation of a GitLab policy (including *but not limited to* the [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) and [Relocation policy](/handbook/people-group/relocation/) as examples), it is their responsibility to communicate this to the [aligned People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) or Legal team immediately.
+1. Ensuring that GitLab's policies are upheld is an essential part of a manager's responsibility. Managers have an obligation to look out for both their team members and the business's best interest. If a manager becomes aware that a team member is in violation of a GitLab policy (including *but not limited to* the [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) and [Relocation policy](/handbook/people-group/relocation/) as examples), it is their responsibility to communicate this to the [aligned People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) or Legal team immediately.
 
 #### Board Members
 
@@ -229,7 +229,7 @@ Functional Leaders include all CEO Skips and a small number of other team member
 
 This group is called on to help provide input and communicate messaging when appropriate.
 
-As an example, the [Functional Leaders meets after every e-group offsite](/handbook/company/offsite/#functional-leaders-zoom-call).
+As an example, the [Functional Leaders meets after every e-group offsite](/handbook/company/offsite/#functional-leaders-meetings).
 
 ## Directs-Group
 
@@ -307,7 +307,7 @@ Each Directs-Group will have at least one cohort project. Cohort projects should
 Cohort Projects:
 
 1. **2022-01 to 2022-10** : [Stop Initiative](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/109602/diffs), Internal Handbook updates
-1. **2022-11 to 2023-08** : [Strategic plan refresh](company/strategy/#big-bet-process)
+1. **2022-11 to 2023-08** : Strategic plan refresh
 
 ## VP-Directs Group
 
@@ -352,7 +352,7 @@ The management team will:
 
 **Note** - within the Engineering and Product divisions we try to maintain a close relationship between our organizational structure and our [Product Hierarchy](/handbook/product/categories/#hierarchy) in order to maintain stable counterparts in our organizational structure.
 
-Finance also has a notion called "departments" for financial planning purposes. But these do not align with our organizational departments. For instance the finance department "product development" rolls up both the PM and Engineering functions. But it excludes the Support department, which is part of the engineering function, but a different budget. This name collision should probably be resolved in the future. For further reference see our [department roll up structure](/handbook/finance/financial-planning-and-analysis/#cost--reporting-structure) for accounting purposes.
+Finance also has a notion called "departments" for financial planning purposes. But these do not align with our organizational departments. For instance the finance department "product development" rolls up both the PM and Engineering functions. But it excludes the Support department, which is part of the engineering function, but a different budget. This name collision should probably be resolved in the future. For further reference see our [department roll up structure](/handbook/finance/financial-planning-and-analysis/) for accounting purposes.
 
 We try our best to keep our handbook and documentation up to date, but certain terms used in the past have been updated through time. The term **Functional Group** is no longer used, and it currently is encompassed by the term **Departments**. The term **Functional Group leader** is no longer used, and it is currently encompassed by the term [E-group](#e-group) leaders.
 
@@ -423,7 +423,7 @@ The [Learning & Development](/handbook/people-group/learning-and-development/) t
 
 #### Setting Product Group for Team Members
 
-Because it is our single source of truth (SSOT) for employee data, Workday serves as the SSOT for product group assignment. Each team member in R&D functions (Product/Engineering) is assigned a `specialty` field in their `team.yml` entry. While this entry is editable in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person), any adjustments will be [over-written by a daily sync](/handbook/people-group/engineering/miscellaneous/#specialty-field) from Workday. In order to adjust a team members specialty their manager must initiate a [Job Information Change](/handbook/people-group/promotions-transfers/#manager-self-service-in-workday-job-information-change).
+Because it is our single source of truth (SSOT) for employee data, Workday serves as the SSOT for product group assignment. Each team member in R&D functions (Product/Engineering) is assigned a `specialty` field in their `team.yml` entry. While this entry is editable in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person), any adjustments will be [over-written by a daily sync](/handbook/people-group/engineering/miscellaneous/#team-page-entry-daily-sync) from Workday. In order to adjust a team members specialty their manager must initiate a [Job Information Change](/handbook/people-group/promotions-transfers/#manager-self-service-in-workday-job-information-change).
 
 When designating a team members `specialty` we use the smallest unit of our Product [hierarchy](/handbook/product/categories/#hierarchy) and their designated [names](/handbook/product/categories/#naming). So for example:
 
@@ -521,7 +521,7 @@ Please add these labels to yourself and assign the merge request to your manager
 An expertise is not listed in a role description, unlike a [specialist](/job-families/specialist/).
 
 For Production Engineers, a listing as "Expert" can also mean that the individual
-is actively [embedded with](/handbook/engineering/infrastructure/#embedded) another team.
+is actively embedded with another team.
 Following the period of being embedded, they are experts in the regular sense
 of the word described above.
 

@@ -25,7 +25,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Security FAQs](https://about.gitlab.com/security/faq/)
 - [Legal & Privacy FAQs](https://about.gitlab.com/privacy/)
-- [Availability FAQs](/handbook/engineering/infrastructure/faq/)
+- [Availability FAQs](/handbook/engineering/infrastructure-platforms/faq/)
 
 ## Control topics
 
@@ -45,7 +45,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
 - [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews)
-- [Access Request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
 
 ### Business continuity
 
@@ -55,14 +55,14 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### Cryptography
 
-- [GitLab cryptography standard](/handbook/security/cryptographic-standard/)
+- [GitLab cryptography standard](/handbook/security/standards/cryptographic-standard/)
 - [Encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy/)
 
 ### Data classification
 
-- [Data classification standard](/handbook/security/data-classification-standard/)
+- [Data classification standard](/handbook/security/standards/data-classification-standard/)
 - [Record retention policy](/handbook/legal/record-retention-policy/)
-- [Records retention and disposal standard](/handbook/security/records-retention-deletion/)
+- [Records retention and disposal standard](/handbook/security/standards/records-retention-deletion/)
 
 ### Disaster recovery
 
@@ -74,12 +74,12 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Endpoint management at GitLab](https://internal.gitlab.com/handbook/it/endpoint-tools/)
   - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
-  - [EDR](/handbook/it/end-user-services/onboarding-access-requests/endpoint-management/edr/)
+  - [EDR](https://internal.gitlab.com/handbook/security/corporate/tooling/crowdstrike/)
 - [Use Gitleaks as a pre-commit git hook on laptops](/handbook/security/gitleaks/)
 
 ### GitLab.com hardening techniques
 
-- [GitLab projects baseline requirements](/handbook/security/gitlab_projects_baseline_requirements/)
+- [GitLab projects baseline requirements](/handbook/security/standards/gitlab_projects_baseline_requirements/)
 - [GitLab security requirements for deployment and development](/handbook/security/planning/security-development-deployment-requirements/)
 - [How to harden your self-managed GitLab instance](https://about.gitlab.com/blog/2023/05/23/how-to-harden-your-self-managed-gitlab-instance/)
 - [The ultimate guide to securing your code on GitLab.com](https://about.gitlab.com/blog/2023/05/31/securing-your-code-on-gitlab/)
@@ -100,12 +100,11 @@ The following links contain frequently asked security, legal & privacy, and avai
 - [Logging and monitoring architecture](/handbook/engineering/infrastructure/production/architecture/#monitoring-and-logging)
 - [GitLab audit logging policy](/handbook/security/security-and-technology-policies/audit-logging-policy/)
 - [Log and audit requests process](/handbook/support/workflows/log_requests/)
-- [Infrastructure department KPIs](/handbook/engineering/infrastructure/performance-indicators/)
 - [Infrastructure production runbooks](https://gitlab.com/gitlab-com/runbooks/)
 
 ### Network security
 
-- [Network security management procedure](/handbook/engineering/infrastructure/network-security/)
+- [Network security management procedure](/handbook/engineering/infrastructure-platforms/network-security/)
 - [GitLab security requirements for deployment and development](/handbook/security/planning/security-development-deployment-requirements/)
 
 ### Privacy
@@ -136,4 +135,4 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Vulnerability management standard](product-security/vulnerability-management/)
 - [Application vulnerability management procedure](product-security/application-security/vulnerability-management/)
-- [Infrastructure vulnerability management procedure](product-security/vulnerability-management/Infrastructure-vulnerability-procedure/)
+- [Infrastructure vulnerability management procedure](/handbook/security/product-security/vulnerability-management/infrastructure-vulnerability-procedure/)

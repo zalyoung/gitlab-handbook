@@ -231,7 +231,7 @@ Any IT team member can explore lateral career moves within the broader IT job fa
 
 ## Hiring Process
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Second round interviews will involve interviews with 2 SMEs in the Business and or IT Team.
 - Third round interview is with the Senior Director, Enterprise Applications.
 - At the final stage candidates will meet with the VP of IT.

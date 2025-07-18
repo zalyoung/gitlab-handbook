@@ -13,7 +13,7 @@ The responsibilities include both directed work initiated by the CRO as well as 
 - Leads key priorities and projects across the global Sales team
 - Acts as a sounding board to the CRO and CRO leadership team for new ideas and initiatives.
 - Acts as a thought partner to the CRO, CRO leadership team, executive leadership team, and cross-functional teams on strategy, company policies, and operating systems
-- Initiate and guide the CRO team OKR process according to the [OKR schedule](/handbook/company/okrs/#schedule) in partnership with the CoS, CEO
+- Initiate and guide the CRO team OKR process according to the [OKR schedule](/handbook/company/okrs/) in partnership with the CoS, CEO
 - Helps define, drive, and run CRO-level and relevant business reviews including CRO QBRs
 - Work closely with internal teams on goal-setting and tracking, interfacing, and consulting with cross-functional groups
 - Develops and maintain strong relationships with executives, senior leaders, and stakeholders to achieve project objectives and deliverables
@@ -59,7 +59,7 @@ The Chief of Staff to the CRO is a [grade 10](/handbook/total-rewards/compensati
 ## Performance Indicators
 
 - [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary)
-- CRO Quarterly OKR process is initiated and delivered on time per the [company process](/handbook/company/okrs/#okr-process-at-gitlab). CoS collaboratively includes all stakeholders and cascades information transparently to ensure alignment across the CRO Org. During the quarter, CoS partners with DRI's to maintain the status of OKRs in preparation for the monthly key meeting and ensures that all OKRs are scored at the end of the quarter and results are communicated.
+- CRO Quarterly OKR process is initiated and delivered on time per the [company process](/handbook/company/okrs/). CoS collaboratively includes all stakeholders and cascades information transparently to ensure alignment across the CRO Org. During the quarter, CoS partners with DRI's to maintain the status of OKRs in preparation for the monthly key meeting and ensures that all OKRs are scored at the end of the quarter and results are communicated.
 
 ## Career Ladder
 

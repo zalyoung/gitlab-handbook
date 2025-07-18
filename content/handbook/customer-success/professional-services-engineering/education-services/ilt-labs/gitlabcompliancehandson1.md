@@ -1,5 +1,5 @@
 ---
-title: "GitLab Compliance - Separation of Privileges"
+title: "GitLab Compliance - Hands-On Lab: Separation of Privileges"
 description: "This Hands-On Guide demonstrates separation of privileges"
 ---
 
@@ -43,4 +43,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request.

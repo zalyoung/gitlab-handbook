@@ -99,7 +99,7 @@ Clear and proactive internal communication is essential to removing fear and ins
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to company-wide documentation.*
 
 > I think [documentation](handbook-first/) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
@@ -109,7 +109,7 @@ Clear and proactive internal communication is essential to removing fear and ins
 >
 > This is going slow to go fast. Lots of energy up front — you go slow — but that accelerates things dramatically a year or so down the road. — *[Gabe W.](https://gitlab.com/gweaver), Senior Product Manager, GitLab*
 
-Expect bumps along the road. As with any significant business transformation, it's wise to communicate proactively to team members, customers, and investors that obstacles will emerge. Transitioning a company to fully remote, while still running the business, is not easy. It's a long-term bet that the short-term pain will be [worthwhile](/handbook/company/culture/all-remote/remote-benefits/).
+Expect bumps along the road. As with any significant business transformation, it's wise to communicate proactively to team members, customers, and investors that obstacles will emerge. Transitioning a company to fully remote, while still running the business, is not easy. It's a long-term bet that the short-term pain will be [worthwhile](remote-benefits/).
 
 Leadership should be completely [transparent](/handbook/values/#transparency) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
 
@@ -126,7 +126,7 @@ The ability to charge forward and deliver capabilities is a combination of a few
 - Freedom to experiment without consensus
 - Monitoring and clean-up to manage resources and costs
 
-Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action](/handbook/values/#bias-for-action). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
+Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action](/handbook/values/#operate-with-a-bias-for-action). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
 
 Leadership must foster creativity and intentionally seek progressive, [two-way door](/handbook/values/#make-two-way-door-decisions) approaches. Once a technique or application is proving itself out in the experimental phase, mature it with security evaluations and reliability. Importantly, any experiments that don't pan out won't have wasted months or years.
 
@@ -146,7 +146,7 @@ A sample of questions to be answered by a Head of Remote Work:
 1. Who will be the voice of the distributed worker, ensuring equality and belonging for those who may never step foot in a corporate office?
 1. Who will ensure that [learning and development](learning-and-development/) principles address the challenges of remote [hiring](hiring/), remote [interviewing](interviews/), remote [onboarding](onboarding/), remote [management](management/), remote promotions, and beyond?
 1. Who will conduct an end-to-end process audit and provide structured replacements for remote-last workflows, such as a reliance on [synchronous meetings](meetings/) for consensus gathering and collaboration?
-1. Who will lead the reevaluation of company [values](/handbook/company/culture/all-remote/remote-values/), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
+1. Who will lead the reevaluation of company [values](remote-values/), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
 1. Who will put a travel strategy in place such that [in-person engagements](in-person/) become a core part of [building company culture](building-culture/)?
 1. Who will revise your company's talent acquisition strategy, creating a clear and concise answer to "What's your stance on workplace flexibility?"
 1. Who will build a visible [talent brand](/handbook/company/culture/#life-at-gitlab) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
@@ -165,7 +165,7 @@ The larger your organization is, or the more deeply it is entrenched in colocate
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-While GitLab believes that all-remote is the best structure to ensure that [our values are lived](/handbook/company/culture/all-remote/remote-values/) and no one is treated as a second-class team member, the reality is that most companies formed to date have at least one physical office.
+While GitLab believes that all-remote is the best structure to ensure that [our values are lived](remote-values/) and no one is treated as a second-class team member, the reality is that most companies formed to date have at least one physical office.
 
 In many instances, it is not feasible to transition entirely to all-remote, though leaders and recruiters are starting to realize that remote work is the future. Stripe, for example, has stated that its "[fifth engineering hub is remote](https://stripe.com/blog/remote-hub)."
 
@@ -181,7 +181,7 @@ Added care must be taken to ensure that the usual [downsides of hybrid-remote](h
 
 Above all, a company which intends to begin hiring remotely (or allowing existing employees to optionally transition from colocated to remote) **must structure the company as if every single team member were remote**.
 
-This means that any hallway conversations must be documented and disseminated for all who were not present to hear, and it means that in-office workers must each use a single webcam and microphone to join a group call (as opposed to in-office colleagues [gathering in a conference room with a sole camera](/handbook/communication/#hybrid-calls-are-horrible)).
+This means that any hallway conversations must be documented and disseminated for all who were not present to hear, and it means that in-office workers must each use a single webcam and microphone to join a group call (as opposed to in-office colleagues [gathering in a conference room with a sole camera](/handbook/communication/#hybrid-calls-are-annoying)).
 
 It means, for example, that colleagues who are sitting side-by-side must use a public Slack channel to communicate, as vocalizing a conversation would be unfair to team members who are remote.
 

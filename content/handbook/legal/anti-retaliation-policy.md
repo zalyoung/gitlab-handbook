@@ -97,7 +97,7 @@ This Policy is not intended to restrict communications or actions protected or r
 
 This Policy is in addition to, and does not replace or supersede the anti-retaliation provisions set out in any policies that include anti-retaliation provisions including, without limitation:
 
-- [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
+- [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf)
 - [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/)
 - [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk)
 - [Leave of Absence Policies](/handbook/people-policies/leave-of-absence/)

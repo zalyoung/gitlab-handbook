@@ -11,7 +11,7 @@ toc_hide: true
 no_list: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -21,149 +21,190 @@ This document outlines the technical vision, principles, and key architectural d
 
 We propose a phased implementation of SLSA Level 3 compliance across GitLab CI/CD pipelines using modular and reusable components. Each phase addresses a critical step:
 
-1. In-Pipeline Sigstore Attestation Generation (Phase 1): Build and sign provenance within the pipeline.
-1. In-Pipeline Data Collection (Phase 2): Collect granular build metadata for enriched provenance.
-1. Platform Indication of Provenance Data (Phase 3): Integrate GitLab platform-specific metadata into provenance.
-1. Out-of-Pipeline Signing (Phase 4): Enable external, KMS-based artifact signing for better security.
-1. Hardening Pipeline Identity (Phase 5): Strengthen runner identity and build trust into the infrastructure.
+1. In-Pipeline Provenance Generation and Verification using Sigstore: Generate and verify provenance attestation within the pipeline.
+1. Generate Provenance Statement in Control Plane: Shift provenance generation from Runner to GitLab Rails backend to enhance trust.
+1. Sign Provenance Statement in Control Plane: Move signing operations to dedicated service for better security.
+1. KMS Integration for out-of-Pipeline Signing: Enable external, KMS-based artifact signing for enhanced security and compliance.
+1. Hardening Pipeline Identity: Strengthen runner identity and build trust into the infrastructure.
 
 This phased approach ensures an MVP can be delivered early, with incremental security and compliance enhancements added over time.
 
 ## Goals
 
-1. Provide a modular and reusable GitLab CI component for generating and signing SLSA-compliant provenance.
-1. Collect detailed build metadata for supported ecosystems (e.g., containers, Go, Maven).
-1. Embed GitLab-specific platform data (e.g., pipeline variables, commit IDs) into provenance for traceability.
-1. Support out-of-pipeline signing via secure KMS or HSM, isolating signing keys from build environments.
-1. Strengthen runner identity to provide trustworthy attestation of build provenance.
-1. Align with SLSA Level 3 compliance requirements while minimizing disruption to existing workflows.
-1. Ensure security, scalability, and ease of adoption across GitLab environments.
+- Embed GitLab-specific platform data (pipeline variables, commit IDs) into provenance for traceability.
+- Support out-of-pipeline signing via secure KMS or HSM, isolating signing keys from build environments.
+- Strengthen runner identity to provide trustworthy attestation of build provenance.
+- Align with SLSA Level 3 compliance requirements while minimizing disruption to existing workflows.
+- Ensure security, scalability, and ease of adoption across GitLab environments.
 
 ## Non-Goals
 
-1. Achieving SLSA Level 4 compliance, which requires isolated and verifiable builds (future consideration).
-1. Supporting all possible programming ecosystems or artifact types in Phase 1–5 (focus on key ecosystems first).
-1. Replacing GitLab’s existing artifact storage and distribution mechanisms.
-1. Building a fully integrated GitLab-native provenance signing mechanism (external tools like Sigstore will be used).
+- Achieving SLSA Level 4 compliance, which requires isolated and verifiable builds (future consideration).
+- Collecting dependencies of all possible programming ecosystems (focus on key ecosystems first).
+- Replacing GitLab’s existing artifact storage and distribution mechanisms.
 
 ## Terminology/Glossary
 
-1. SLSA: Supply-chain Levels for Software Artifacts, a framework for improving supply chain security.
-1. Provenance: Metadata that describes how an artifact was built, including the source code, dependencies, and environment.
-1. Sigstore: An open-source tool for signing, verifying, and storing software artifacts securely (e.g., cosign and gitsign).
-1. OIDC Token: Short-lived, identity-based tokens issued by GitLab CI for secure signing.
-1. Runner: A build agent that executes GitLab CI/CD pipeline jobs.
-1. KMS: Key Management Service, an external system to securely manage cryptographic keys.
-1. HSM: Hardware Security Module, hardware-based systems for secure key storage and signing.
+- SLSA: Supply-chain Levels for Software Artifacts, a framework for improving supply chain security.
+- Provenance predicate: Metadata that describes how an artifact was built, including the source code, dependencies, and environment.
+- Provenance statement: Document that binds a provenance predicate to a software artifact.
+- Provenance attestation: Envelope that combines a provenance statement with a signature.
+- Sigstore: An open-source tool for signing, verifying, and storing software artifacts securely (cosign and gitsign).
+- OIDC Token: Short-lived, identity-based tokens issued by GitLab CI for secure signing.
+- Runner: A build agent that executes GitLab CI/CD pipeline jobs.
+- KMS: Key Management Service, an external system to securely manage cryptographic keys.
+- HSM: Hardware Security Module, hardware-based systems for secure key storage and signing.
+- VSA: Verification Summary Attestation, an attestation that an artifact has been verified to meet certain requirements.
+- GitLab Rails backend: The GitLab Rails backend that provides a trusted environment for security-critical operations, separate from the build environment.
+- Signing Service: A dedicated service within the GitLab infrastructure responsible for SLSA statement signing operations, isolated from the CI/CD execution environment.
 
 ## Assumptions
 
-1. Provenance Generation: Use Sigstore tools (cosign) to generate and sign provenance files.
-1. Reusable Components: Build modular GitLab CI components for easy adoption across projects.
-1. Data Collection: Use both build-specific tools (e.g. go, maven) and GitLab platform metadata for provenance enrichment.
-1. Signing Methods:
-   1. In-pipeline signing via OIDC-based short-lived credentials for fast MVP.
-   1. Out-of-pipeline signing via KMS for long-term secure artifact signing.
-1. Runner Hardening: Explore options for strong runner identity using hardware-based solutions (e.g., TPM, secure enclaves).
-1. Focus Ecosystems: Prioritize containers, Go, and Maven ecosystems in early phases.
-
-## Decisions
+- Provenance Generation: Use Sigstore Cosign (CLI, client, or port) to generate provenance attestations.
+- OIDC-based keyless signing: Use Signstore Fulcio for OIDC-base keyless signing.
+- Transparency log: Use Sigstore Rekor transparency log.
+- Signing Methods:
+  - In-pipeline signing via OIDC-based short-lived credentials for fast MVP.
+  - Out-of-pipeline signing via KMS for long-term secure artifact signing.
+- Runner Hardening: Explore options for strong runner identity using hardware-based solutions (TPM, secure enclaves).
 
 ## Design Details
 
-### Phase 1: In-Pipeline Sigstore Attestation Generation
+### High Level Architecture
 
-1. Generate provenance metadata using Sigstore tools (cosign).
-1. Leverage GitLab CI’s OIDC tokens for secure and short-lived credentials.
-1. Build a reusable GitLab CI component that can be easily included in pipelines.
+```mermaid
+flowchart TD
+    %% Define styles for improved visual appearance
+    classDef phaseStyle fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10px,ry:10px
+    classDef componentStyle fill:#e1ebff,stroke:#4b6bdc,stroke-width:1px,rx:5px,ry:5px
+    classDef storageStyle fill:#ffe6cc,stroke:#d79b00,stroke-width:1px,rx:5px,ry:5px
+    classDef serviceStyle fill:#d5e8d4,stroke:#82b366,stroke-width:1px,rx:5px,ry:5px
+    classDef signatureStyle fill:#fff2cc,stroke:#d6b656,stroke-width:1px,rx:5px,ry:5px
+    classDef securityStyle fill:#f8cecc,stroke:#b85450,stroke-width:1px,rx:5px,ry:5px
+    classDef controlPlaneStyle fill:#e1d5e7,stroke:#9673a6,stroke-width:1px,rx:5px,ry:5px
+    subgraph BuildEnvironment["Build Environment"]
+        Runner["Runner"]
+        BuildJob["CI/CD Build Job"]
+        Artifacts["Job Artifacts"]
+    end
+    subgraph FutureWork["Dependency tracking"]
+        VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
+        Dependencies[(Package & Container<br>Dependencies)]
+    end
+    subgraph ControlPlane["Controle Plane"]
+        subgraph GenerateProvenanceInControlPlane["Phase 2: Generate Provenance in Control Plane"]
+            RailsBackend["GitLab Rails Backend"]
+            DB[(GitLab Database)]
+        end
+        subgraph SignProvenanceInControlPlane["Phase 3: Sign Provenance in Control Plane"]
+            GlgoService["glgo Service<br>(Signing Service)"]
+        end
+        Rekor["Transparency Log<br>(Rekor)"]
+        PermanentAttestation["Permanent Signed<br>Attestation"]
+    end
+    subgraph Phase4["Phase 4: Get private key from KMS"]
+        ExternalKMS["External KMS"]
+    end
+    
+    %% Relationships between components with labeled edges
+    Runner -->|"Request job payload<br>with proof of identity"| RailsBackend
+    RailsBackend -->|"Return job payload"| Runner
+    Runner -->|"Executes"| BuildJob
+    BuildJob -->|"Upload"| Artifacts
+    BuildJob -->|"Request Dependencies"| VirtualRegistry
+    VirtualRegistry <-->|"Fetch/Track"| Dependencies
+    
+    %% Phase 1 flow for early implementation
+    VirtualRegistry -->|"Provide Dependency Data"| RailsBackend
+    RailsBackend <-->|"Query job parameters"| DB
+    
+    RailsBackend -->|"Send Provenance<br>Statement"| GlgoService
+    GlgoService -.->|"Future Integration"| ExternalKMS
+    GlgoService -->|"Return Signed<br>Attestation"| RailsBackend
+    GlgoService -->|"Publish Attestation<br>Digest"| Rekor
+    RailsBackend -->|"Upload"| PermanentAttestation
+    
+    %% Apply styles
+    class FutureWork phaseStyle
+    class Phase4 phaseStyle
+    class Artifacts,DB,Dependencies storageStyle
+    class VirtualRegistry,GlgoService serviceStyle
+    class ProvenanceSigner,TempSignedAttestation,PermanentAttestation,Rekor,ExternalKMS signatureStyle
+    class RailsBackend controlPlaneStyle
+```
 
-### Phase 2: In-Pipeline Data Collection
+#### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
 
-1. Integrate tools to collect granular build metadata (e.g., go mod graph for Go, Maven dependency trees for Java).
-1. Include information about environment variables, timestamps, and build inputs.
-1. Update provenance structure to include enriched metadata.
+- Generate provenance attestations using Sigstore tools (cosign).
+- Leverage GitLab CI’s OIDC tokens for secure and short-lived credentials.
+- Verify provenance attestations and generate Verification Summary Attestations (VSA).
+- Build reusable GitLab CI components that can be easily included in pipelines.
 
-### Phase 3: Platform Indication of Provenance Data
+#### Phase 2: Generate Provenance Statement in Control Plane
 
-1. Enrich provenance with GitLab-specific metadata, such as:
-   1. Source repository URL
-   1. Pipeline ID and job ID
-   1. Commit hash and branch name
-1. Ensure metadata collection is seamless and integrated into the GitLab CI component.
+- Move provenance statement generation to GitLab Rails backend.
+- Every field of the provenance is generated or verified in the trusted control plane.
+- Generate provenance statements that are unforgeable.
 
-### Phase 4: Out-of-Pipeline Signing
+#### Phase 3: Out-of-Pipeline Signing
 
-1. Enable integration with external KMS (e.g., AWS KMS, Google KMS) or HSM solutions.
-1. Use long-term signing keys stored securely outside the pipeline.
-1. Provide an optional component to sign artifacts after the build completes.
+- Move signing operations from CI/CD pipelines to a signing service running on the backend.
+- Enhance security by isolating signing operations from build environment.
+- Provide centralized management of signing processes.
+- Ensure clean separation between build and signing trust boundaries.
 
-### Phase 5: Hardening Pipeline Identity
+#### Phase 4: KMS Integration for out-of-pipeline Signing
 
-1. Introduce strong runner identity using secure hardware (e.g., TPM, HSM, secure boot).
-1. Embed runner identity into the provenance metadata.
-1. Ensure that the runner environment can be verified and trusted.
+- Enable integration with external KMS (AWS KMS, Google KMS) or HSM solutions.
+- Use long-term signing keys stored securely outside the pipeline.
+- Support multiple key management solutions to accommodate various enterprise environments.
 
-## Implementation Plan
+#### Phase 5: Hardening Pipeline Identity
 
-### Reusable GitLab CI Component
+- Introduce strong runner identity using secure hardware (TPM, HSM, secure boot).
+- Embed runner identity into the provenance metadata.
+- Ensure that the runner environment is verified and trusted.
 
-1. Define the structure of the component (e.g., input/output variables, artifact paths).
-1. Create templates for users to integrate the component into their .gitlab-ci.yml files.
+#### Follow-up Work: Enhanced Data Collection
 
-### Key Implementation Projects
+- Integrate tools to collect granular build metadata (go mod graph for Go, Maven dependency trees for Java).
+- Use GitLab's Virtual Registry (formerly Dependency Proxy) to track resolved dependencies requested by CI/CD build jobs.
+- Update provenance structure to include enriched metadata.
 
-Note: the projects listed below are note dependent on each other and can be done in parallel.
+### Implementation Details
 
-#### Provenance Generation
-  
-1. Phase 1: Develop and validate the provenance generation component using Sigstore. 
-1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems. 
-1. Phase 3: Add functionality to collect and embed GitLab platform metadata.
+#### Sigstore and GitLab OIDC Integration
 
-#### KMS Integration
+- How Sigstore Will Be Used:
+  - Sigstore tools, specifically cosign, will be leveraged to sign and verify provenance.
+  - cosign can utilize GitLab CI’s OIDC integration to securely authenticate the job and issue short-lived credentials. These credentials will sign the provenance file.
+  - The OIDC token provided by GitLab is scoped to the running pipeline job, making it ephemeral and secure.
+- GitLab OIDC Integration Workflow:
+  - GitLab generates an OIDC token in the CI component and exposes it as an environment variable.
+  - Sigstore’s cosign uses the OIDC token to authenticate the GitLab CI job with Sigstore’s transparency log (Rekor).
+  - Sigstore validates the identity and grants signing capability for the duration of the job.
+  - cosign generates a signed provenance file (JSON format) and uploads it to GitLab’s artifacts store.
+- OIDC Configuration in GitLab:
+  - Enable GitLab OIDC support by using the existing ID Token feature.
+  - Use GitLab CI/CD’s environment variables to expose tokens and necessary metadata.
 
-1. Phase 1: Integrate KMS-based out-of-pipeline signing and ensure key isolation.
+#### GitLab CI Components
 
-#### Runner Identity Enhancements
+<details>
+<summary>Provenance Signer Component</summary>
 
-1. Phase 1: Design runner identity enhancements and explore hardware-based solutions.
+The provenance signer component will abstract away the complexity of provenance generation and signing. It will be implemented as a GitLab CI Component using a template YAML file.
 
-### Deliverables
+**Component Overview**
 
-1. Reusable GitLab CI components (published and documented).
-1. Integration guides for teams to adopt the components.
-1. Test coverage to validate SLSA Level 3 compliance.
+- Input Variables:
+  - TARGET_ARTIFACT: Path to the artifact or build output.
+  - BUNDLE_FILE: Path to generate the bundle file. This contains everything needed to verify the artifact.
+  - RUNNER_METADATA_FILE: This is the default filename when artifacts aren't explicitly named.
+- Output:
+  - Signed provenance file uploaded as a pipeline artifact.
 
-## Implementation Details
-
-### Sigstore and GitLab OIDC Integration
-
-1. How Sigstore Will Be Used:
-   1. Sigstore tools, specifically cosign, will be leveraged to sign and verify provenance.
-   1. cosign can utilize GitLab CI’s OIDC integration to securely authenticate the job and issue short-lived credentials. These credentials will sign the provenance file.
-   1. The OIDC token provided by GitLab is scoped to the running pipeline job, making it ephemeral and secure.
-1. GitLab OIDC Integration Workflow:
-   1. GitLab generates an OIDC token in the CI component and exposes it as an environment variable.
-   1. Sigstore’s cosign uses the OIDC token to authenticate the GitLab CI job with Sigstore’s transparency log (Rekor).
-   1. Sigstore validates the identity and grants signing capability for the duration of the job.
-   1. cosign generates a signed provenance file (JSON format) and uploads it to GitLab’s artifacts store.
-1. OIDC Configuration in GitLab:
-   1. Enable GitLab OIDC support by using the existing ID Token feature.
-   1. Use GitLab CI/CD’s environment variables to expose tokens and necessary metadata.
-
-### Reusable GitLab CI Component
-
-The reusable component will abstract away the complexity of provenance generation and signing. It will be implemented as a GitLab CI Component using a template YAML file.
-
-#### Component Overview
-
-1. Input Variables:
-   1. TARGET_ARTIFACT: Path to the artifact or build output.
-   1. BUNDLE_FILE: Path to generate the bundle file. This contains everything needed to verify the artifact.
-1. Output:
-   1. Signed provenance file uploaded as a pipeline artifact.
-
-#### Example reusable Component YAML
+**Example reusable Component YAML**
 
 ```yaml
 # .gitlab/components/provenance-signer.yml
@@ -202,16 +243,176 @@ component:
         --rekor-url "${REKOR_SERVER}" \
         --identity-token "${GITLAB_OIDC_TOKEN}" \
         --bundle "${BUNDLE_FILE}" \
+        --new-bundle-format \
         "${TARGET_ARTIFACT}"
+
+    - echo "Performing self-verification to ensure provenance is valid..."
+    - cosign verify-blob-attestation --type slsaprovenance1 \
+        --bundle "${BUNDLE_FILE}" \
+        --certificate-identity-regexp ".*" \
+        --certificate-oidc-issuer "${CI_SERVER_URL}" \
+        "${TARGET_ARTIFACT}"
+    - echo "Self-verification successful! Provenance is valid."
 
   artifacts:
     paths:
       - ${BUNDLE_FILE}
-      - ${RUNNER_METADATA_FILE}
     expire_in: 7d
 ```
 
-### Example: Adding the Component to a Pipeline
+</details>
+
+<details>
+<summary>Provenance Verifier Component</summary>
+
+The provenance verifier component verifies attestations and generates VSAs. It will be implemented as a GitLab CI Component using a template YAML file.
+
+**Component Overview**
+
+- Input Variables:
+  - BUNDLE_FILE: Path to the bundle file that contains the provenance.
+  - VERIFICATION_SUMMARY_FILE: Path to generate the verification summary attestation.
+  - RESOURCE_URL: Full URL to the published artifact.
+  - POLICY_URL: URL to the policy used for verification.
+- Output:
+  - Verification summary attestation uploaded as a pipeline artifact.
+
+**Example reusable Component YAML**
+
+```yaml
+# .gitlab/components/provenance-verifier.yml
+component:
+  inputs:
+    variables:
+      BUNDLE_FILE: "cosign-bundle.json" # Path to the bundle file
+      VERIFICATION_SUMMARY_FILE: "verification_summary.json" # Output verification summary file
+      RESOURCE_URL: "" # Full URL to the published artifact
+      POLICY_URL: "https://gitlab.com/slsa-vsa-policy/v1" # Default policy URL
+
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: sigstore
+
+  variables:
+    REKOR_SERVER: "https://rekor.sigstore.dev"
+    FULCIO_SERVER: "https://fulcio.sigstore.dev"
+    VERIFIER_ID: "https://gitlab.com/verifier"
+    VERIFIER_NAME: "GitLab Verification Pipeline"
+    DOWNLOADED_ARTIFACT: ".tmp/downloaded_artifact"
+
+  image: alpine:latest
+
+  before_script:
+    - apk add --update cosign jq curl
+    - mkdir -p .tmp
+
+  script:
+    - echo "Downloading artifact from ${RESOURCE_URL}..."
+    - mkdir -p $(dirname ${DOWNLOADED_ARTIFACT})
+    - curl -L -o ${DOWNLOADED_ARTIFACT} ${RESOURCE_URL}
+
+    - echo "Calculating artifact digest..."
+    - ARTIFACT_DIGEST=$(sha256sum ${DOWNLOADED_ARTIFACT} | cut -d ' ' -f 1)
+
+    - echo "Downloading policy from ${POLICY_URL}..."
+    - POLICY_FILE=".tmp/policy.json"
+    - |
+      if ! curl -L -f -o ${POLICY_FILE} ${POLICY_URL}; then
+        echo "ERROR: Failed to download policy file from ${POLICY_URL}"
+        exit 1
+      fi
+
+    - echo "Calculating policy digest..."
+    - POLICY_DIGEST=$(sha256sum ${POLICY_FILE} | cut -d ' ' -f 1)
+    - echo "Policy digest: ${POLICY_DIGEST}"
+
+    - echo "Verifying signed provenance against downloaded artifact..."
+    - cosign verify-blob-attestation --type slsaprovenance1 \
+        --bundle ${BUNDLE_FILE} \
+        --certificate-identity-regexp ".*" \
+        --certificate-oidc-issuer ${CI_SERVER_URL} \
+        ${DOWNLOADED_ARTIFACT}
+    - RESULT="PASSED" # TODO: verify the provenance against the policies
+
+    - echo "Generating verification summary for artifact..."
+    - mkdir -p $(dirname ${VERIFICATION_SUMMARY_FILE})
+    - jq -n --arg policyUrl "${POLICY_URL}" --arg result "${RESULT}" \
+          --arg verifierId "${VERIFIER_ID}" \
+          --arg timeVerified "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --arg resourceUri "${RESOURCE_URL}" \
+          --argjson verifiedLevels '["SLSA_L3"]' --arg sha256 "${ARTIFACT_DIGEST}" \
+          --arg bundleFilePath "${BUNDLE_FILE}" --arg bundleFileHash "$(sha256sum ${BUNDLE_FILE} | cut -d ' ' -f 1)" \
+          --arg policyDigest "${POLICY_DIGEST}" \
+          --arg slsaVersion "1.0" '{
+        "_type": "https://in-toto.io/Statement/v1",
+        "subject": [{
+          "name": $resourceUri,
+          "digest": { "sha256": $sha256 }
+        }],
+        "predicateType": "https://slsa.dev/verification_summary/v1",
+        "predicate": {
+          "verifier": {
+            "id": $verifierId
+          },
+          "timeVerified": $timeVerified,
+          "resourceUri": $resourceUri,
+          "policy": {
+            "uri": $policyUrl,
+            "digest": {
+              "sha256": $policyDigest
+            }
+          },
+          "inputAttestations": [
+            {
+              "uri": $bundleFilePath,
+              "digest": {
+                "sha256": $bundleFileHash
+              }
+            }
+          ],
+          "verificationResult": $result,
+          "verifiedLevels": $verifiedLevels,
+          "dependencyLevels": {
+            "SLSA_L3": 3
+          },
+          "slsaVersion": "1.0"
+        }
+      }' > "${VERIFICATION_SUMMARY_FILE}"
+
+    - echo "Verification summary generated at ${VERIFICATION_SUMMARY_FILE}"
+    - jq . ${VERIFICATION_SUMMARY_FILE}
+
+    - echo "Signing the verification summary attestation..."
+    - cosign attest-blob --predicate "${VERIFICATION_SUMMARY_FILE}" \
+        --type slsaverificationsummary \
+        --oidc-issuer "${CI_SERVER_HOST}" \
+        --fulcio-url "${FULCIO_SERVER}" \
+        --rekor-url "${REKOR_SERVER}" \
+        --identity-token "${GITLAB_OIDC_TOKEN}" \
+        --bundle "${VERIFICATION_SUMMARY_FILE}.bundle" \
+        "${DOWNLOADED_ARTIFACT}"
+
+    - echo "VSA signed and stored at ${VERIFICATION_SUMMARY_FILE}.bundle"
+
+    - |
+      if [ "$RESULT" == "FAILED" ]; then
+        echo "Policy verification FAILED. Exiting with error."
+        exit 1
+      fi
+
+  artifacts:
+    when: always
+    paths:
+      - ${VERIFICATION_SUMMARY_FILE}
+      - ${VERIFICATION_SUMMARY_FILE}.bundle
+    expire_in: 7d
+
+  allow_failure: true
+```
+
+</details>
+
+<details>
+<summary>Example: Adding the Components to a Pipeline</summary>
 
 Here’s how a project would integrate the reusable component into their .gitlab-ci.yml pipeline.
 
@@ -221,7 +422,8 @@ Pipeline YAML Example
 stages:
   - build
   - provenance
-  - verification
+  - publish
+  - verify
 
 variables:
   RUNNER_GENERATE_ARTIFACTS_METADATA: "true"
@@ -247,53 +449,88 @@ generate_provenance:
     BUNDLE_FILE: "dist/provenance.json"
     RUNNER_METADATA_FILE: "${RUNNER_METADATA_FILE}"
 
-verify_provenance:
-  stage: verification
+publish_artifact:
+  stage: publish
   needs: ["generate_provenance"]
-  variables:
-    TARGET_ARTIFACT: "dist/example-artifact.txt"
-    BUNDLE_FILE: "dist/provenance.json"
   script:
-    - echo "Verifying signed provenance..."
-    - cosign verify-blob-attestation --type slsaprovenance1 \
-        --bundle ${BUNDLE_FILE} \
-        --certificate-identity-regexp ".*" \
-        --certificate-oidc-issuer ${CI_SERVER_URL} \
-        ${TARGET_ARTIFACT}
+    - echo "Publishing artifact to package registry..."
+    - |
+      ARTIFACT_URL=$(curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" \
+        --upload-file dist/example-artifact.txt \
+        "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/artifacts/1.0.0/example-artifact.txt" \
+        | jq -r '.location')
+    - echo "ARTIFACT_URL=${ARTIFACT_URL}" >> publish.env
+  artifacts:
+    reports:
+      dotenv: publish.env
+
+verify_provenance:
+  stage: verify
+  needs: ["publish_artifact"]
+  component: .gitlab/components/provenance-verifier.yml
+  variables:
+    BUNDLE_FILE: "dist/provenance.json"
+    VERIFICATION_SUMMARY_FILE: "dist/verification_summary.json"
+    RESOURCE_URL: "${ARTIFACT_URL}"
+    POLICY_URL: "https://gitlab.com/my-policy"
 ```
 
-### Pipeline Workflow Explanation
+</details>
 
-1. Build Artifact Stage (build_artifact):
-   1. Builds the artifact (e.g., binary, container image, etc.).
-   1. Saves the artifact as a pipeline artifact.
-1. Provenance Generation Stage (generate_provenance):
-   1. Uses the reusable component to:
-      1. Generate the provenance file (provenance.json) for the artifact.
-      1. Sign the provenance file using Sigstore's cosign with GitLab's OIDC token (CI_JOB_JWT).
-   1. Uploads the signed provenance as a job artifact.
-1. Provenance Verification Stage (verify_provenance):
-   1. Validates the signed provenance to ensure authenticity.
-   1. Uses cosign verify-attestation to confirm the provenance signature and verify the artifact.
+#### Pipeline Workflow Explanation
+
+- Build Artifact Stage (build_artifact):
+  - Builds the artifact (binary, container image, etc.).
+  - Saves the artifact as a pipeline artifact.
+- Provenance Generation Stage (generate_provenance):
+  - Uses the provenance-signer component to:
+    - Generate a detailed provenance predicate with build metadata.
+    - Calculate the artifact's digest for inclusion in the provenance statement.
+    - Sign the provenance using Sigstore's cosign with GitLab's OIDC token.
+    - Perform self-verification to ensure the provenance is valid.
+    - Uploads the signed provenance as a job artifact.
+- Publish Artifact Stage (publish_artifact):
+  - Publishes the artifact to a registry or repository.
+  - Captures the published artifact's URL for use in verification.
+  - This stage separates build/sign from verification, ensuring a true separation of concerns.
+- Provenance Verification Stage (verify_provenance):
+  - Uses the provenance-verifier component to:
+    - Download the published artifact from its URL.
+    - Download the required verification policy.
+    - Verify the signed provenance against the downloaded artifact.
+    - Check SLSA L3 requirements in the attestation.
+    - Generate a Verification Summary Attestation (VSA).
+    - Sign the VSA using Sigstore's cosign with GitLab's OIDC token.
+    - Upload the VSA as a job artifact.
+    - Fails the job if verification fails, but allows the pipeline to continue.
 
 ### Security Considerations
 
-1. Ephemeral OIDC Tokens:
-   1. The ID token is short-lived and scoped to the current job.
-   1. This ensures it cannot be reused outside the pipeline execution context.
-1. Artifact and Provenance Storage:
-   1. Use GitLab’s artifact storage to securely store both the build artifact and the signed provenance file.
-   1. Artifacts are automatically managed and can be expired after a specified time.
-1. Isolation:
-   1. If using shared runners, ensure sandboxed environments (e.g., ephemeral containers).
-   1. Self-hosted runners should follow security best practices to prevent token leakage.
-1. Dependency Management:
-   1. Pin specific versions of Sigstore tools (e.g., cosign) to prevent supply chain attacks.
-1. CI Variables:
-   1. CI Variables will be included in signed provenance file. But will follow the Visibility setting where `Masked` or `Masked and hidden` variables will not store the value, only the key.
+- Ephemeral OIDC Tokens:
+  - The ID token is short-lived and scoped to the current job.
+  - This ensures it cannot be reused outside the pipeline execution context.
+- Artifact and Provenance Storage:
+  - Use GitLab’s artifact storage to securely store both the build artifact and the signed provenance file.
+  - Artifacts are automatically managed and can be expired after a specified time.
+- Isolation:
+  - If using shared runners, ensure sandboxed environments (ephemeral containers).
+  - Self-hosted runners should follow security best practices to prevent token leakage.
+- Dependency Management:
+  - Pin specific versions of Sigstore tools (cosign) to prevent supply chain attacks.
+- CI Variables:
+  - CI Variables will be included in signed provenance file. But will follow the Visibility setting where `Masked` or `Masked and hidden` variables will not store the value, only the key.
+- Separation of Concerns:
+  - The separation of provenance generation and verification ensures that verification is truly independent.
+  - The VSA is generated by the verifier component, providing a clear chain of trust.
 
 ### Component Maintenance and Scalability
 
-1. Publish the GitLab CI component in a versioned Git repository to ensure teams can pull stable versions.
-1. Provide clear documentation and examples for adoption.
-1. Extend the component in later phases to include additional metadata collection and signing enhancements.
+- Publish the GitLab CI component in a versioned Git repository to ensure teams can pull stable versions.
+- Provide clear documentation and examples for adoption.
+- Extend the component in later phases to include additional metadata collection and signing enhancements.
+
+### Decisions
+
+- [001: Verification Component](decisions/001_verification_component.md) - Verify SLSA provenance attestations in a dedicated CI/CD component.
+- [002: Provenance Generation Location](decisions/002_provenance_generation_location.md) - Generate SLSA provenance statements in the GitLab Rails backend.
+- [003: Attestation Generation & Signing Location](decisions/003_attest_sign_location.md) - Generate and sign SLSA attestation in glgo.

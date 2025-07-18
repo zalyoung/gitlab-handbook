@@ -3,7 +3,7 @@ title: "Triage Operations"
 description: "Automation and tooling for processing un-triaged issues at GitLab"
 ---
 
-Any GitLab team-member can triage issues. Keeping the number of [un-triaged issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#triaging-issues) low is essential for maintainability, and is our collective responsibility.
+Any GitLab team-member can triage issues. Keeping the number of [un-triaged issues](/handbook/product-development/how-we-work/issue-triage/#triaging-issues) low is essential for maintainability, and is our collective responsibility.
 
 We have implemented automation and tooling to handle this at scale and distribute the load to each team or group.
 
@@ -17,8 +17,8 @@ The Quality Engineering Department ensures that every Product and Engineering gr
 
 Our defect SLA can be viewed at:
 
-* [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
-* [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+* [Priority labels](/handbook/product-development/how-we-work/issue-triage/#priority)
+* [Severity labels](/handbook/product-development/how-we-work/issue-triage/#severity)
 
 The Quality Engineering department employs a number of tools and automation in addition to manual intervention to help us achieve this goal.
 The work in this area can been seen in our department roadmap under Triage and Measure tracks of work.
@@ -136,7 +136,7 @@ This report contains community merge requests that may require some attention fr
 #### Group level bugs, features, and Deferred UX
 
 This report contains the relevant bugs, feature requests, and Deferred UX issues that belong to a group in our [DevOps stages](/handbook/product/categories/#devops-stages).
-The goal is to achieve [complete-triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#complete-triage) by the Product Manager, Engineering Manager, UX team member in that area.
+The goal is to achieve [complete-triage](/handbook/product-development/how-we-work/issue-triage#complete-triage) by the Product Manager, Engineering Manager, UX team member in that area.
 
 The report itself is divided into 4 main parts.
 
@@ -175,8 +175,8 @@ This section contains issues with the `~"type::bug"` and `~"frontend"` labels wi
 * Triage owner: Frontend Engineering Manager(s) for that group.
 * Triage actions:
   1. Close the issue if it is no longer relevant or a duplicate.
-  1. Assign a [Priority Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
-  1. Assign a [Severity Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity).
+  1. Assign a [Priority Label](/handbook/product-development/how-we-work/issue-triage/#priority).
+  1. Assign a [Severity Label](/handbook/product-development/how-we-work/issue-triage/#severity).
   1. Assign either a versioned milestone or to the `Backlog`.
 
 ##### Non-frontend bugs (likely backend)
@@ -186,8 +186,8 @@ This section contains issues with the `~"type::bug"` label without priority and 
 * Triage owner: Backend Engineering Manager(s) for that group.
 * Triage actions:
   1. Close the issue if it is no longer relevant or a duplicate.
-  1. Assign a [Priority Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
-  1. Assign a [Severity Label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity).
+  1. Assign a [Priority Label](/handbook/product-development/how-we-work/issue-triage/#priority).
+  1. Assign a [Severity Label](/handbook/product-development/how-we-work/issue-triage/#severity).
   1. Assign either a versioned milestone or to the `Backlog`.
 
 ##### severity::1 & severity::2 bugs past SLO
@@ -410,9 +410,9 @@ graph LR
 * Automation conditions:
   * A new note that starts with `@gitlab-bot label ~"label-name"` or `@gitlab-bot unlabel ~"label-name"` where `label-name` matches:
     * `group::*`, `type::*`, `feature::*`, `bug::*`, `maintenance::*`, `category:*`
-    * `backend`, `database`, `documentation`, `frontend`, `handbook`, `UX`
+    * `backend`, `Contributor Success`, `database`, `documentation`, `frontend`, `handbook`, `UX`
     * `security` (`label` only for community members)
-    * `workflow::in dev`, `workflow::ready for review`, `workflow::blocked`
+    * `workflow::in dev`, `workflow::ready for review`, `workflow::in review`, `workflow::complete`, `workflow::blocked`
   * The note is posted by the author, an assignee, or a team member
 * **Note**: to add or remove multiple labels, list all labels after the command, for example: `@gitlab-bot label ~"group::project management" ~"type::bug"`
 * Automation actions:
@@ -489,7 +489,7 @@ graph LR
 
 For issues labeled `~"availability"`, the minimal are enforced with the
 guidelines at
-<https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability-prioritization>
+<https://handbook.gitlab.com/handbook/product-development/how-we-work/issue-triage/#availability-prioritization>
 
 #### Ensure no deprecated backstage labels are added
 
@@ -721,7 +721,7 @@ Issues which have a label of `~Deliverable` without a milestone will have the mi
 
 #### Missed SLO
 
-Issues which have a severity label and missed the [SLO target](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) will be labeled with `~missed-SLO`. The calculation for elapsed time starts from the date of the severity label was applied. This enables reporting on SLO target adherence.
+Issues which have a severity label and missed the [SLO target](/handbook/product-development/how-we-work/issue-triage/#severity) will be labeled with `~missed-SLO`. The calculation for elapsed time starts from the date of the severity label was applied. This enables reporting on SLO target adherence.
 
 * Automation conditions:
   * Issue with severity label present and is remains in an open state past SLO target.
@@ -815,7 +815,7 @@ Type labels ensure that issues are present in the [group triage report](#group-l
 
 #### Bug SLO Warning
 
-Bugs have a severity label that indicates the [SLO for a fix](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). This automated policy aims to prompt managers about bugs in their group that are approaching the SLO threshold
+Bugs have a severity label that indicates the [SLO for a fix](/handbook/product-development/how-we-work/issue-triage/#severity). This automated policy aims to prompt managers about bugs in their group that are approaching the SLO threshold
 
 * Automation conditions:
   * Open issue labeled `~"type::bug"` and has a `~severity::1` or `~severity::2`
@@ -827,7 +827,7 @@ Bugs have a severity label that indicates the [SLO for a fix](/handbook/engineer
 
 #### Reminder on ~infradev issues to set severity label, priority label, and milestone
 
-Issues with the ~infradev label should have a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority), and a milestone set. This automated policy aims to prompt managers about such issues missing one of these attributes.
+Issues with the ~infradev label should have a [severity label](/handbook/product-development/how-we-work/issue-triage/#severity), a [priority label](/handbook/product-development/how-we-work/issue-triage/#priority), and a milestone set. This automated policy aims to prompt managers about such issues missing one of these attributes.
 
 * Automation conditions:
   * Open issue labeled `~infradev` and has no severity label, or no priority label, or no milestone set
@@ -846,7 +846,7 @@ Note:
 
 #### Reminder on ~customer ~type::bug issues to set severity label
 
-Issues with the ~customer and ~type::bug labels should have a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) set. This automated policy aims to prompt team members to set a severity so that ~customer bugs are triaged in a timely fashion.
+Issues with the ~customer and ~type::bug labels should have a [severity label](/handbook/product-development/how-we-work/issue-triage/#severity) set. This automated policy aims to prompt team members to set a severity so that ~customer bugs are triaged in a timely fashion.
 
 * Automation conditions:
   * Open issue labeled `~customer` and `~type::bug` which has no severity label set
@@ -862,7 +862,7 @@ Note:
 
 ## Resources
 
-* [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/).
+* [Issue Triage Policies](/handbook/product-development/how-we-work/issue-triage/).
 * [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 * Chat channels; we use our chat internally as a realtime communication tool:
   * [#triage](https://gitlab.slack.com/messages/triage): general triage team channel.

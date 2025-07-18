@@ -21,6 +21,8 @@ We have nine Lead / Contact Statuses to represent where the lead currently sits 
 | Recycle | Record is not ready for our services or buying conversation now, possibly later | `Recycle Queue` |
 | Ineligible | All leads/contacts that are ineligible to go through the sales process after an initial review | `Ineligible Queue` |
 
+Note: Once a lead/contact is marked as `Ineligible` or `Disqualified`, there are only a few automations for the lead/contact to change status back to a scorable status. A manual override by a team member within Marketo or Salesforce is possible with the correct permissions. Similarly, once a lead/contact enters `Qualified` status there is not an automation to allow for a different staus. A [flow within Marketo](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/SC62680B2ZN19) will allow a lead/contact in `Disqualified` or `Ineligible` status to re-MQL under specific circumstances, but those circumstances are reliant on specific "requests for contact", like `Hand Raise PQLs`, [Follow Up Requests](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/SC62905A1ZN19) or specific high profile `Contact Us` form fills.
+
 In addition to our statuses, there are substatus that are required for XDRs to use. The substates are in use for the following Statuses: Disqualified, Ineligilble, Recycle & Bad Data:
 
 | Disqualified |

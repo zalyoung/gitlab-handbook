@@ -1,17 +1,16 @@
 ---
-title: "Governance and Field Security Team Charter"
-description: "Governance and Field Security Team Charter"
+title: "Security Enablement Team Charter"
 ---
 
 ## Team Charter
 
 ### Mission
 
-The mission of the Governance and Field Security team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
+The mission of the Security Enablement team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
 
 ### Roles and responsibilities
 
-Please refer to the following roles and responsibilities for Governance and Field Security team members. All three specialties (Governance, Field Security, Sec. Assurance Automation) can be found under each job grade:
+Please refer to the following roles and responsibilities for Security Enablement team members. All three specialties (Governance, Field Security, Sec. Assurance Automation) can be found under each job grade:
 
 [Security Assurance team member roles and responsibilities](/job-families/security/security-assurance-job-family/)
 {.h4}
@@ -56,8 +55,8 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 
 ### Metrics
 
-- Development and maintenance of department-level metrics for Governance and Field Security and cross-functional Security Assurance teams.
-- The Governance and Field Security team serves as the technical DRI for creating data sources that feed department-level metrics for all Security Assurance teams.
+- Development and maintenance of department-level metrics for Security Enablement and cross-functional Security Assurance teams.
+- The Security Enablement team serves as the technical DRI for creating data sources that feed department-level metrics for all Security Assurance teams.
 
 ## Program goals
 
@@ -82,6 +81,7 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 - Champion an engineering mindset for Assurance processes and programs
 - Automate compliance controls and compliance control monitoring processes
 - Reduce the amount of time consumed by manual tasks.
+- Drive AI adoption and integration into team workflows
 
 ## Program scope
 

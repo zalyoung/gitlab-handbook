@@ -7,7 +7,6 @@ description: "Tips on how to prepare for your interview - Customer Support"
 
 - [Support Engineer](/job-families/engineering/support-engineer)
 - [Support Engineering Manager](/job-families/engineering/support-management)
-- [Support Operations Specialist](/job-families/engineering/support-readiness-specialist)
 
 ## Tips on how to prepare for your Support Engineer interview
 

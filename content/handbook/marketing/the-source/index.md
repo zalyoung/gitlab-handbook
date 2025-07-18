@@ -3,7 +3,7 @@ title: "The Source Handbook"
 description: "Everything you need to know about The Source, GitLab’s thought leadership portal."
 ---
 
-[The Source](https://about.gitlab.com/the-source/) is managed by the [Brand](/brand-and-product-marketing/brand/) and [Content Strategy & Ops](/brand-and-product-marketing/content/) teams, with support from [Corporate Communications](/corporate-communications/).
+[The Source](https://about.gitlab.com/the-source/) is managed by the [Brand](/handbook/marketing/brand-and-product-marketing/brand/) and [Content Strategy & Ops](/handbook/marketing/brand-and-product-marketing/content/) teams, with support from [Corporate Communications](/handbook/marketing/corporate-communications/).
 
 ## What is The Source?
 
@@ -26,6 +26,6 @@ Content that belongs on the [GitLab Blog](https://about.gitlab.com/blog/):
 - Open source community content
 - Company announcements
 
-If you’d like to learn more about contributing to the GitLab Blog, visit the [Blog Handbook](/blog/) or reach out on our internal Slack channel at `#the-source`.
+If you’d like to learn more about contributing to the GitLab Blog, visit the [Blog Handbook](/handbook/marketing/blog/) or reach out on our internal Slack channel at `#the-source`.
 
 You can contribute to the success of [The Source](https://about.gitlab.com/the-source/) by spreading the word and sharing new posts with your network.

@@ -13,7 +13,7 @@ The Static Analysis group at GitLab is charged with developing the [Static Appli
 
 ## How We Work
 
-The Static Analysis group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development-flow/),
+The Static Analysis group is largely aligned with GitLab's [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/),
 however there are some notable differences in how we seek to deliver software. The engineering team
 predominantly concerns itself with the delivery of software, which is the portion of the workflow
 states where we deviate the most. What follows is how we manage the handoff from product management
@@ -116,7 +116,7 @@ the [Engineering Security instructions](/handbook/security/engaging-with-securit
 #### SLO by Vulnerability Severity
 
 When triaging `Unknown` vulnerabilities, they should be assigned a proper severity as a means to decide the
-priority they should receive to be resolved. The corresponding priority is taken from [issue triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
+priority they should receive to be resolved. The corresponding priority is taken from [issue triage](/handbook/product-development/how-we-work/issue-triage/#priority).
 
 | Target                     | Unknown | Critical     | High         | Medium       | Low          |
 |----------------------------|:------:|:------------:|:------------:|:------------:|:------------:|
@@ -236,19 +236,3 @@ The aim of the triage is to support other team members in moving forward; if dev
 If there is any question of whether a bug fix or improvement should be taken up immediately, the Engineering Manager and Product Manager should be alerted to facilitate a decision.
 
 When a [Customer Success Escalation](/handbook/customer-success/csm/escalations/) is declared, the Engineering Manager and Product Manager should both be alerted, and an appropriate team member should be designated to deprioritize existing work and respond to the escalation as soon as possible.
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="static analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
-{{< /tableau >}}

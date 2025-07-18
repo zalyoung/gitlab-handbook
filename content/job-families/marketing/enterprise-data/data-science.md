@@ -170,7 +170,7 @@ The Principal Data Scientist meets all of the requirements of an Staff Data Scie
 #### Principal Data Scientist Performance Indicators
 
 - $ARR Impact (New Business, Cost Savings, or Efficiency Improvement)
-- Number of Business Functions which achieve Level 4 of the [Data Capability Model](/handbook/enterprise-data/direction/#data-capability-model)
+- Number of Business Functions which achieve Level 4 of the [Data Capability Model](https://internal.gitlab.com/handbook/enterprise-data/direction/#data-capability-model)
 - E-Group Customer Satisfaction Score ([CSAT](https://en.wikipedia.org/wiki/Customer_satisfaction)) of 4 or higher
 
 ## Hiring Process

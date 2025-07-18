@@ -49,8 +49,8 @@ In total, 14 team members from across the Engineering organization will be recog
 1. **Cost Savings Award** - awarded to individuals who significantly contribute towards reducing costs
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
-1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps enviornment for everyone
-1. **Hiring Efficiency Award** - awarded to individuals who made a significant contribution to hiring efforts
+1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps environment for everyone
+1. **Hiring Efficiency Award** - awarded to individuals who made a significant contribution to hiring efforts. This award is determined by interview data that is pulled by the recruiting team. If you would like to share your hiring observations for a nominee, you can send them to Jack Connors who will include your observations in the decision making process. 
 
 #### Engineering Excellence
 

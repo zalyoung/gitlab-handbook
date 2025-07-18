@@ -6,7 +6,7 @@ Teleport is an Access Management Platform allowing users to gain read or write a
 
 The [infrastructure runbook docs](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/teleport) contain a variety of detailed topics on using and interacting with teleport.
 
-Until CorpSec is staffed to provide technical ownership, [Foundations](../../../../engineering/infrastructure/team/foundations/_index.md) providing maintenance of the underlying infrastructure. All non-maintenance related feature requests and improvements are managed by CorpSec.
+Until CorpSec is staffed to provide technical ownership, [Foundations](../../../../engineering/infrastructure-platforms/production-engineering/foundations/_index.md) providing maintenance of the underlying infrastructure. All non-maintenance related feature requests and improvements are managed by CorpSec.
 
 For help with:
 

@@ -6,7 +6,7 @@ title: Engineering
 
 ## Engineering Direction
 
-GitLab has a [Three-Year Strategy](/handbook/company/strategy/), and we're excited to see every member of the Engineering division contribute to achieving it. Whether you're creating something new or improving something that already exists, we want you to feel empowered to bring your best ideas for influencing the product direction through improved scalability, usability, resilience, and system architectures. And when you feel like you need to expand your knowledge in a particular area, know that you're supported in having the resources to learn and improve your skills.
+GitLab has a Three-Year Strategy, and we're excited to see every member of the Engineering division contribute to achieving it. Whether you're creating something new or improving something that already exists, we want you to feel empowered to bring your best ideas for influencing the product direction through improved scalability, usability, resilience, and system architectures. And when you feel like you need to expand your knowledge in a particular area, know that you're supported in having the resources to learn and improve your skills.
 
 Our focus is to make sure that GitLab is enterprise grade in all its abilities and to support the AI efforts required to successfully launch AI features to General Availability.
 
@@ -39,7 +39,7 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 
 - Contributing to broad engineering initiatives and participating in working group-related tasks.
 - Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label. You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
-- Working on high priority issues as a result of [issue triaging](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
+- Working on high priority issues as a result of [issue triaging](/handbook/product-development/how-we-work/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
 - Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
@@ -149,7 +149,7 @@ In order to ensure business continuity, and deliver on commitments; the Engineer
 
 A PTO Coverage issue is required for [job grades 8 and up](/handbook/total-rewards/compensation/compensation-calculator/#job-grades). For job grades 7 and below a PTO Coverage issue is recommended as there is value in going through the process of creating the PTO Coverage issue even if there are minimal items to include (for all levels) in that it forces you to think about what you have on your plate and what impact your PTO will have on those items. So whether the result is that the work waits or there is someone designated as a replacement DRI, it makes the decision explicit and documented.
 
-Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](/handbook/engineering/workflow/#product-development-timeline:~:text=Monday%2C%205%20days%20before%20the%20milestone%20begins%3A)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays (excluding weekend days), cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
+Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](/handbook/engineering/workflow/#product-development-timeline)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays (excluding weekend days), cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
 
 - urgent scenarios
 - a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
@@ -195,10 +195,10 @@ Returning from time off can be overwhelming and daunting. You should work with y
 
 There are five departments within the Engineering Division:
 
-- [Core Development Department](/handbook/engineering/core-development/)
-- [Expansion Development Department](/handbook/engineering/expansion-development/)
-- [Technical Infrastructure](/handbook/engineering/infrastructure/)
-- [SaaS Platforms](/handbook/engineering/infrastructure/platforms/)
+- [DevOps Engineering Department](/handbook/engineering/devops/)
+- [AI Engineering Department](/handbook/engineering/ai/)
+- [Sec Department](/handbook/engineering/development/sec/)
+- [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
 ## Other Related Pages
@@ -209,7 +209,6 @@ There are five departments within the Engineering Division:
 - [Development Principles](/handbook/engineering/development/principles/)
 - [Engineering Automation](/handbook/engineering/automation/)
 - [Engineering Metrics](/handbook/product/groups/product-analysis/engineering/dashboards/)
-- [Engineering OKRs](/handbook/engineering/okrs/)
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Frequently Used Projects](/handbook/engineering/projects/)
 - [GitLab Innovation Program](/handbook/legal/patent-program/), managed by the GitLab Legal Team
@@ -227,11 +226,11 @@ There are five departments within the Engineering Division:
   - [Security Issues](/handbook/engineering/workflow/#security-issues)
   - [Architecture Design](/handbook/engineering/architecture/workflow/)
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/)
-- [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- [Issue Triage Policies](/handbook/product-development/how-we-work/issue-triage/)
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
 - [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Root Cause Analysis](/handbook/engineering/root-cause-analysis/)
-- [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
+- [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#patch-release-types)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 
 ### GitLab in Production
@@ -247,10 +246,7 @@ There are five departments within the Engineering Division:
 - [Engineering Career Development](/handbook/engineering/careers/)
 - [Engineering Career Mobility Principles](/handbook/engineering/careers/#mobility-principles)
 - [Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)
-- [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
-- [Volunteer Coaching program for URGs](/handbook/engineering/volunteer-coaches-for-urgs/)
-- [Starting New Teams](/handbook/engineering/starting-new-teams/)
 
 ### Cross-Functional Prioritization
 
@@ -303,7 +299,7 @@ FCL xxxx - [team name]
 - Mitigation
 - Status of Planned/completed work associated with FCL
 
-{{% include "includes/feature-change-locks.md" %}}
+{{% include "includes/engineering/feature-change-locks.md" %}}
 
 ## Engineering Performance Indicator process
 
@@ -317,7 +313,7 @@ but manual verification provides a higher level of confidence that features beha
 
 We manually verify issues when they are in the `workflow::verification` state.
 Generally, after you have manually verified something, you can close the associated issue.
-See the [Product Development Flow](/handbook/product-development-flow/) to learn more about this issue state.
+See the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) to learn more about this issue state.
 
 We manually verify in the staging environment whenever possible.
 In certain cases we may need to manually verify in the production environment.

@@ -5,7 +5,7 @@ description: "GitLab Data Team OKR and Iteration planning process"
 
 ## Data Team Planning Process
 
-The Data Team Planning Process is a pre-set activity that happens every quarter. The Planning Process adheres to GitLab's financial year/quarter schedule and [Quarterly Objective and Key Results](/handbook/company/okrs/#what-are-okrs) for prioritization and alignment. The goal of the Planning Process is to improve our ability to prioritize, plan and estimate work through collaboration and transparency.
+The Data Team Planning Process is a pre-set activity that happens every quarter. The Planning Process adheres to GitLab's financial year/quarter schedule and [Quarterly Objective and Key Results](/handbook/company/okrs/) for prioritization and alignment. The goal of the Planning Process is to improve our ability to prioritize, plan and estimate work through collaboration and transparency.
 
 This approach has many benefits, including:
 
@@ -29,7 +29,7 @@ This approach:
 - clearly defines Data Team priorities
 - leverages KR health statuses for progress reporting
 
-OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbook/company/okrs/#how-to-write-okrs) handbook page. The below formulas are used to write OKRs:
+OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbook/company/okrs/okrs-basics/#how-to-write-okrs) handbook page. The below formulas are used to write OKRs:
 
 - Objectives: Verb + What you want to do + In order to/for/so that (what you hope to achieve or rationale for objective). Objective Example: Increase awareness of company in the market in order to increase sales.
 - Key Results: Verb + what you're going to measure + from "x to y". Key Result Example: 100% of employees certified on OKR expectations and process.

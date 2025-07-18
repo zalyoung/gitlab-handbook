@@ -22,7 +22,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Features by Group handbook page](/handbook/product/categories/features/#product-planning) contains a tabular breakdown of features included in each Stage Group by Core, Premium or Ultimate categories.
 
-- [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.
+- [Definitive guides to data subject areas](/handbook/enterprise-data/data-governance/data-catalog) managed by the Data team.
 
 - [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
@@ -154,8 +154,6 @@ Create provides tools that support the beginning of the DevOps Life Cycle. Sourc
 
 - [Performance indicators internal handbook page](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/)  The Create : Gitaly Group primarily uses the Performance Indicators Internal Handbook Page to guide decisions
 
-- [Handbook page containing engineering analytics dashboards](/handbook/engineering/development/dev/create/engineering-managers/dashboards/)  Used by Create Stage Engineering Managers
-
 **Helpful video resources**
 
 Must be logged into GitLab Unfiltered account
@@ -166,7 +164,7 @@ Must be logged into GitLab Unfiltered account
 
 **Product roadmap link**
 
-[Link to product direction / vision](/handbook/engineering/development/dev/create/#vision)
+[Link to product direction / vision](/handbook/engineering/devops/dev/create/#vision)
 
 Resource to understand the goals for this team
 
@@ -178,7 +176,7 @@ Resource to understand the Performance Indicators for the Dev Section - Page can
 
 **Key handbook pages**
 
-[Primary Create Stage handbook page](/handbook/engineering/development/dev/create/)
+[Primary Create Stage handbook page](/handbook/engineering/devops/dev/create/)
 
 Contains helpful information about how Create operates and current team members
 
@@ -235,7 +233,7 @@ An internal handbook page that lists all performance indicators under the Operat
 
 **Key handbook pages**
 
-[Verify Stage Product Page](/handbook/engineering/development/ops/verify/)
+[Verify Stage Product Page](/handbook/engineering/devops/ops/verify/)
 
 A central hub for all pages related to the Verify stage
 
@@ -298,7 +296,7 @@ Resource to understand the long-term goals for this team
 
 **Key documentation**
 
-[Main Package Team Handbook Page](/handbook/engineering/development/ops/package)
+[Main Package Team Handbook Page](/handbook/engineering/devops/ops/package)
 
 It can be helpful to search for specific topics on the Package team's main page
 
@@ -314,7 +312,7 @@ GitLab Docs are awesome!
 
 [Handbook page to find Package team members to collaborate with](/handbook/product/categories/#package-stage)
 
-[List of Package team members and their stable counterparts to contact if needed](/handbook/engineering/development/ops/package/#team-members)
+[List of Package team members and their stable counterparts to contact if needed](/handbook/engineering/devops/ops/package/#team-members)
 
 </details>
 
@@ -345,7 +343,7 @@ Resource to understand the Performance Indicators for the Ops Section - Page can
 
 **Key handbook pages**
 
-[Deploy Primary Handbook Page](/handbook/engineering/development/ops/deploy/)
+[Deploy Primary Handbook Page](/handbook/engineering/devops/ops/deploy/)
 
 **Slack channels**
 
@@ -357,7 +355,7 @@ Resource to understand the Performance Indicators for the Ops Section - Page can
 
 **Team members**
 
-[Handbook page to find Create team members to collaborate with](/handbook/engineering/development/ops/deploy/environments/)
+[Handbook page to find Create team members to collaborate with](/handbook/engineering/devops/ops/deploy/environments/)
 
 </details>
 
@@ -509,73 +507,6 @@ Includes Stage and Group level details
 **Team members**
 
 [Handbook page to find Systems team members to collaborate with](/handbook/product/categories/#systems-stage)
-
-OR
-
-[All team members section of engineering page](/handbook/engineering/development/growth/#all-team-members)
-
-</details>
-
-#### Data Stores Stage (Memory, Global Search, Database, Pods Groups)
-
-Supports enterprise-grade operational experience of GitLab products from streamlined deployment and maintenance, disaster recovery, secure search and discoverability, to high availability, scalability, and performance. The Data Stores Stage includes Memory, Global Search, Database and Pods Groups.
-
-<details markdown="1"><summary>Click to expand</summary>
-
-**Top dashboards referenced by this team**
-
-- All Tableau Dashboards are organized in Collections, specifically [Core & SaaS Platforms General Collection](https://10az.online.tableau.com/#/site/gitlab/collections/78d30546-2f24-4a4a-8378-c88711f479c4?:origin=card_share_link) and [Core & SaaS Platforms SAFE Collection](https://10az.online.tableau.com/#/site/gitlab/collections/1c106c47-64b3-4cbf-b95d-c75fe2a0e9b4?:origin=card_share_link)
-
-**Important data documentation**
-
-There are no Enablement metrics currently collected in our Postgres Replica data for GitLab.com
-
-The following tables can be used for Service Ping metric reporting.
-
-- common_mart.mart_ping_instance_metric_all_time - Use for all time timeframe metrics
-
-- common_mart.mart_ping_instance_metric_7_day - Use for 7 day timeframe metrics
-
-- common_mart.mart_ping_instance_metric_28_day - Use for 28 day timeframe metrics
-
-- common_mart.mart_ping_instance_metric_monthly - Use for all time and 28 day timeframe metrics, pre filtered to the last ping of the month (does not include 7 day, none, or null timeframe metrics)
-
-- workpace_product.wk_fct_ping_instance_metric_none - Use for metrics with a none timeframe
-
-- workpace_product.wk_fct_ping_instance_metric_null - Use for metrics with a null timeframe
-
-Use the [metrics dictionary](https://metrics.gitlab.com/) to determine the timeframe value for any service ping metric.
-
-**Helpful video resources**
-
-Enablement::Data Stores is a relatively new Stage. PDI will add helpful video overviews as they become available.
-
-**Product roadmap link**
-
-[Enablement Product Direction](https://about.gitlab.com/direction/core_platform/)
-Includes Stage and Group level details
-
-**Performance indicators**
-
-[Enablement Section PI handbook page](https://internal.gitlab.com/handbook/company/performance-indicators/product/enablement-section/)
-
-**Key handbook pages**
-
-[Overall Enablement Section Handbook page for Engineering](/handbook/engineering/infrastructure-platforms/data-access/)
-
-**Slack channels**
-
-**#s_enablement**
-
-**#g_memory**
-
-**#g_global_search**
-
-**#g_database**
-
-**Team members**
-
-[Handbook page to find Data Stores team members to collaborate with](/handbook/product/categories/#data-stores-stage)
 
 OR
 

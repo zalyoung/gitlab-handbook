@@ -21,4 +21,4 @@ style.
 <!-- The content of this page is automatically generated from the YAML file. Do not manually add definitions. -->
 <!-- To edit the definitions content for this page, go to ../../../data/support_glossary.yml -->
 
-{{< support-glossary >}}
+{{< engineering/support-glossary >}}

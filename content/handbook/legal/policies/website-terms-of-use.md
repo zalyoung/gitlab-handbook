@@ -36,9 +36,11 @@ These Website Terms of Use (the "Agreement") govern all use of the GitLab.com we
 - Using the Website to mine or demonstrate proof-of-work for a cryptocurrency or blockchain; or
 - Using any process or device (automated or otherwise) to retrieve, index, "data mine", "scrape", or in any way reproduce the presentation of this website or its Content, unless otherwise permitted under applicable content licensing permissions.
 
+**3.3** GitLab uses session replay tools to record user interactions for the purposes of improving user experience, troubleshooting technical issues, and enhancing our services. By using the Website you acknowledge this use and the methods available to you to opt-out of cookie based technologies such a session replay tools which are available in our [Cookie Policy](https://about.gitlab.com/privacy/cookies/). 
+
 ### 4. DMCA and Privacy Policies
 
-**4.1.** As GitLab asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that Content located on or linked to the Website violates your copyright, you are encouraged to notify GitLab in accordance with our [DMCA policy](/handbook/dmca/).
+**4.1.** As GitLab asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that Content located on or linked to the Website violates your copyright, you are encouraged to notify GitLab in accordance with our [DMCA policy](/handbook/legal/dmca/).
 
 **4.2.** Your use of the Website  is subject to the [GitLab Privacy Policy](https://about.gitlab.com/privacy/), which is incorporated herein by reference.
 

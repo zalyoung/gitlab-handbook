@@ -76,19 +76,27 @@ We will sponsor regional 3rd party events in an effort to build the GitLab brand
 - Customer/prospect run DevOps events on invite
 - Executive relationship building events via companies like Apex Assembly & Argyle Executive Forum
 
-### Meeting Setting
+### Executive Meetings
 
-Meeting Setting occurs when the Corporate Events team sponsors a large conference and requests the Field Meeting team manage setting up on-site meetings during the event. As for all Corp Events, the Marketing Operations team will set up the overall Conference Marketo program and SFDC campaign as well as the  Meeting Setting Marketo program and SFDC campaign for Field Marketing. Meeting Setting is not its own campaign type and is categorized as a [Conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the Conference progression statuses should be utilized. The overall Conference is owned by the Corporate Events team, but Marketing Ops will set up the Meeting Setting SFDC campaign as FM-owned.
+#### SLA for Executive Meetings
+
+The SLA for executive meetings is at least 120 in advance of the conference start date. This allows time to confirm executive support, set up the scheduling process, and give Sales enough time to schedule meetings before the event.
+
+#### Executive meetings at conferences run by Corporate Events
+
+This occurs when the Corporate Events team sponsors a large conference and requests that Regional Marketing manage scheduling executive meetings during the event, in a separate meeting room. The Marketing Operations team will set up the conference Marketo program and SFDC campaign, as well as the executive meetings Marketo program and SFDC campaign. Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. The overall conference is owned by the Corporate Events team, but Marketing Ops will set up the executive meetings as owned by Regional Marketing.
+
+#### Executive meetings at conferences run by Regional Marketing
+
+This occurs when the Regional Marketing team sponsors a large conference and obtains a separate meeting room to run executive meetings. The Regional Marketing FMC will set up the Marketo program and SFDC campaign for both the conference and the executive meetings.  Executive meetings does not have its own campaign type and is categorized as a [conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the conference progression statuses should be utilized. Both the conference and executive meetings will be owned by Regional Marketing.
+
+#### JiffleNow
+
+The Regional Marketing team utilizes a meeting scheduling tool called [JiffleNow](/handbook/marketing/marketing-operations/jifflenow/). The parameters that must be met to utilize this tool for executive meeting scheduling are listed [here](/handbook/marketing/marketing-operations/jifflenow/#when-to-use-jifflenow).
 
 ## Other Tactics
 
 Being the marketing experts for the region, GitLab Field Marketers are also responsible for using other tactics to help generate leads to build pipeline. We have options such as survey tools, both of current employees and past employees based on the 3rd party vendor we use, webcasts, direct mailings, and also various digital tactics.
-
-## Regional Marketing Content
-
-Current regional marketing content and presentations can be accessed [here](drive.google.com/drive/u/0/folders/0AHFbLUWw3IEJUk9PVA).
-Content is classified into 2 groups: Economic Buyer and Technical Buyer. Choose the content category that aligns best to your audience needs - Economic Buyer for those focusing on business aspects, and Technical Buyer for those interested in technical details or specifications.
-Field Marketing Managers are responsible for adding new content for Own Events and Executive Engagement Tactics to this folder on an ongoing basis. NOTE: Naming convention of the folder should reflect the SFDC Campaign name for easier tracking.
 
 ## Digital Tactics
 
@@ -101,13 +109,32 @@ Please ensure you are using our UTM tracker (look up `Google Analytics Campaign 
 
 ## Confidentiality in GitLab Issues and Epics
 
-When working in GitLab issues and epics, please remember that due to GitLab's value of [Transparency](/handbook/values/#transparency), many of our issues and epics are, by default, public. Best practice is to avoid including any PII or login details in issues and epics directly. If posting details of this nature is a necessity, please remember to always make your [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential` when doing so. Please also be diligent in your issues and epics regarding comments made by other team members as well. If you notice another team member has posted details that should not remain public, immediately make the [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential`. Other options to allow our issues to remain public, are including PII in a spreadsheet or document posted in the issue or epic that are only accessible by certain people. If logins need to be shared, please utilize the Marketing Vault in [1Password](password-guidelines#1password).
+When working in GitLab issues and epics, please remember that due to GitLab's value of [Transparency](/handbook/values/#transparency), many of our issues and epics are, by default, public. Best practice is to avoid including any PII or login details in issues and epics directly. If posting details of this nature is a necessity, please remember to always make your [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential` when doing so. Please also be diligent in your issues and epics regarding comments made by other team members as well. If you notice another team member has posted details that should not remain public, immediately make the [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential`. Other options to allow our issues to remain public, are including PII in a spreadsheet or document posted in the issue or epic that are only accessible by certain people. If logins need to be shared, please utilize the Marketing Vault in [1Password](/handbook/security/corporate/systems/1password/).
 
 For more information regarding confidentiality levels and compliancy, please visit [this handbook page](/handbook/communication/confidentiality-levels/).
 
 ## Global Field Marketing Vendor Feedback
 
 [This feedback epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)/spreadsheet is only open to GitLab team members. FMMs and managers to keep details in this spreadsheet regarding both positive and negative experiences with various event vendors for team reference.
+
+## How Regional Marketing utilizes Claude 
+
+[Claude](/handbook/tools-and-tips/ai/claude/) is the GitLab-approved AI tool utilized across the company. Below are just a few ways in which Field Marketing integrates Claude into our day-to-day business processes. 
+
+- Venue searches ([example here](https://claude.ai/share/c7263ab2-1b2d-4645-a44c-d8bf006a4e17))
+- Lead list cleaning ([Asana project here](https://app.asana.com/1/306855239930259/project/1209517412144204/overview/1209517533381809))
+- Using Claude to evaluate [Tableau](/handbook/enterprise-data/platform/tableau/) reporting for better visibility into ROI and to provide new ideas for strategically implementing company initiatives into our regional event tactics 
+  - Claude can also be utilized to create a Markdown file of Tableau's data ([see example here](https://claude.ai/share/9f71d4b8-2f9b-496e-8de0-80915021304d)) to then be transferred to Google sheets for easier filtering and analysing 
+- Content creation for event asset copy, as well as general spelling and grammar checks 
+- Use Claude to analyze meeting and offsite notes (such as the request for Claude to analyze territory review notes [here](https://claude.ai/share/70a93c4c-06d5-4b6f-9c6e-200844c747b4))
+- Utilize Claude for account research, such as the example the SA team created [here](https://docs.google.com/presentation/d/1xVzH7SLn6WigEkjoY1i94CkPk6bjyC1Am120Ve9SfB8/edit?slide=id.g358e5761807_0_1359#slide=id.g358e5761807_0_1359)
+- Use Claude to pull specific information for executive roundtables to provide a structured summary based on company information and attendees (see below examples)
+  - Company Overview
+  - Persona Role
+  - Opinion on roundtable topic sourced from relevant articles on the web
+  - How GitLab aligns with companies' DevOps and AI strategies
+  - Give discussion points on data residency, AI regulations, and implementation
+- Using Claude to help create short fun quiz questions to be used at events. A quiz can be a great way to increase engagement, enhance learning, foster interaction, and create memorable experiences that extend well beyond the event itself. An example here of the prompt and quiz questions [here](https://docs.google.com/document/d/1oWGsV-6nIEJ4psJ3a7v62qu4ywbkHvu-gwvbfbbLcfg/edit?tab=t.8n5nqsxu4dh30)
 
 ## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
@@ -116,89 +143,54 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 ## Conference (In-Person)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=In-Person_Conference_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-in-person)
 
 ## Conference (Virtual)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conferences)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Virtual_Conference)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-virtual)
 
 ## Conference (Hybrid)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Hybrid_Conference)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-hybrid)
 
-## Conference (FM Meeting Setting for a Corporate Events Conference)
+## Conference (Executive Meetings)
 
-- [Tactic Details](/handbook/marketing/field-marketing/#meeting-setting)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Meeting_Setting_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#meeting-setting)
 
 ## Content Syndication
 
-- [Tactic Details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#content-syndication)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Content_Syndication_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#content-syndication)
 
 ## Direct Mail
 
-- [Tactic Details](/handbook/marketing/demand-generation/campaigns/direct-mail/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#direct-mail)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Direct_Mail_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#direct-mail)
 
 ## Executive Roundtable (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#executive-roundtables)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#executive-roundtables)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Executive_Roundtable)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#executive-roundtable)
 
 ## Owned Event (In-Person, Virtual or Hybrid)
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#owned-event)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Owned_Event_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#owned-events)
 
 ## Sponsored Webcast
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#sponsored-webinars)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#sponsored-webcast)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Sponsored_Webcast)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#sponsored-webcast)
 
 ## Survey
 
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#survey)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Survey_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#survey)
 
 ## Vendor Arranged Meetings (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/virtual-events/external-virtual-events/#vendor-arranged-meetings)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#vendor-arranged-meetings)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Vendor_Arranged_Meetings)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#vendor-arranged-meetings)
 
 ## Webcast
 
-- [Tactic Details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#webcast)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Webcast_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#webcasts)
 
 ## Workshop (In-Person, Virtual or Hybrid)
 
-- [Tactic Details](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/)
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#workshop)
-- [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template)
-- [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
 
 ## Event Lead Collection Should-Knows
 
@@ -222,10 +214,6 @@ After Field Marketing has executed a campaign, the Field Marketing Manager is re
   - Person scores are available for viewing in our `Custom Links` section of each SFDC campaign. This allows you to view the MQL score of the campaign members, whether they be a lead or contact, all within one view.
 - Did a lead/contact hit our MQL threshold and have the SDRs followed up with this record and moved them beyond the [MQL stage](/handbook/marketing/marketing-operations/)?
 - Update all the relevant tabs in the field marketing campaign event planning sheet.
-
-## ROI tracking for Field Marketing
-
-For complete instructions on FMM ROI, [please see here](/handbook/marketing/strategy-performance/marketing-metrics/#field-marketing-metrics).
 
 ## Adding SFDC Campaigns to Leads for Attribution
 
@@ -272,6 +260,10 @@ The global Field Marketing team is working with the Marketing Operations team to
 
 - [Asana](/handbook/marketing/marketing-operations/asana/)
 
+### Asana Marketing Calendar
+
+Please visit the internal handbook page [here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/asana/#fy26-marketing-calendar) for links to our Asana Marketing Calendar that highlights upcoming events and details. 
+
 ### Asana tips and best practices
 
 1. If you do not need a task, please delete all subtasks and then the task itself. This will remove the task from the view of everyone involved and is less confusing. Changing the task status can be overwritten by the rules we have set in place, so it’s better to delete if you aren’t using it. Examples of tasks that should be deleted if you are not using them: Build Landing Page, Email tasks, Build Target List.
@@ -304,31 +296,24 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
   - FMC to make sure the correct FMM and FMC are listed in the Allocadia panel for the event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well).
 - FMC creates a new project in Asana by following the below steps:
-  - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
+  - FMC adds the `Asana-Sync-Project` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
     - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
     - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
-- When the Asana project is created, the project will also be automatically added to the [FY26 All Marketing SSoT Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
-  - An integration with our [Google calendar](/handbook/marketing/field-marketing/#google-calendar-links) is coming soon, but for now, the FMC will still need to manually add the event to the appropriate Google calendar by completing that specific task provided in the Asana template for each event.
-- FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
-- FMC to fill in Event Details from the GitLab issue to the project Overview
-- FMC to add the GitLab issue link to the Asana project in the Overview
+- When the Asana project is created, the project will also be automatically added to the [FY26 Asana Marketing Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
+- FMC to fill in any Event Details that did not sync from the GitLab issue
 - FMC reviews the list of tasks and adjusts any past due tasks accordingly. If new dates are not available yet, please remove both the due date and task owner until they are available to add back in. If this step is not taken, other team members will receive notifications about tasks being past due, which will lead to confusion. Please keep your projects as updated and current as possible!
 - FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to work through their tasks in Asana
 
 ### Important Notes for FMMs
 
-- The FMM must fill in and `complete` the `FMC Checklist` and `Ecosystem Involvement` tasks before the FMC will be notified to move the project to WIP.
+- The FMM must fill in and `complete` the `FMC Checklist` task before the FMC will be notified to move the project to WIP.
 - Please always hit the `complete` button for each task, once the task is finished. We have many dependencies built into our Asana template and if you do not `complete` a task, the next steps will not be triggered for other team members.
 - Please add any appropriate sub-region or country tags to your project. NOTE: The main region categories (AMER, APAC, EMEA, PubSec) will be automatically associated. Many tags are already created in Asana, please utilize these tags and do not edit any existing tags.
   - If you need a new tag created, please request your tag in this [Tag Request Form](https://form.asana.com/?k=iROsm3N8LW4Wb8HY0PFxeQ&d=306855239930259).
 
-### Closing out Asana Projects
+### Closing out Asana Projects 
 
 - Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. **NOTE:** You must complete or delete all open tasks in a project or they will still show up in your assigned tasks (see how to bulk complete tasks [here](https://forum.asana.com/t/closing-tasks-for-a-project-set-for-a-completed-status/282266)). The FMM will then go to the top of the page and click `Set status` and select `Complete`. 
-
-## Plan to WIP Recorded Training
-
-TBD for new Asana process
 
 ## Rescheduling or Canceling Events
 
@@ -509,7 +494,7 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 ## Brand Details for Swag and Event Assets
 
-For information regarding Brand support, please visit the [Brand Design Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand-design--video-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
+For information regarding Brand support, please visit the [Brand Design Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand-design-and-video-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
 
 ## AMER Field Marketing Swag
 
@@ -573,24 +558,28 @@ Event assets utilized for shows (including backwalls, tablecloths, popup banners
 
 It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Brilliant portal will include return labels (one return label per box) in a red envelope adhered to the inside flap of the box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
 
-**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes. All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes (this includes stickers, please see [below](/handbook/marketing/field-marketing/#stickers) for more sticker information). All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
 
 ### Warehouse Address
 
-AMER Warehouse
-Attn: GitLab AMER FM Store - c/o Kerry Phan
-Brilliant
-1605 S Waukegan Rd
-Waukegan, IL 60085
-415-980-4600.
+Brilliant Team, c/o Gitlab  
+1605 S Waukegan Rd  
+Waukegan, IL 60085  
+415-980-4600  
 
 ### Stickers
 
-For sticker orders, please reach out to `@krogel` for details.
+For sticker orders, please reach out to `@krogel` for details. If all stickers are not utilized at an event, please keep the stickers with you for future events.
 
 ### Print Collateral
 
 In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#qr-codes-for-events-field-marketing-and-corporate-events) to display at your event with that same piece of content for customers to download to their own devices.
+
+### Ordering Items from the GitLab Swag Shop
+
+If you would like to order an item(s) from the [GitLab Swag Shop](https://shop.gitlab.com/) for an event, Please reach out to Betsy Bula and let her know the item(s) you are interested in and the quantity and she will make sure she has enough in stock to spare. Then, please fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSfCeJSeJaafhh4Xxv2fC3mUSMEIWtQSOqy7S9ErwdX0iECk-Q/viewform) for the total $ amount of the item(s) and the Brilliant team will grant you a store credit for the shop. You can use that store credit to pay for the items, and GitLab FP&A will "charge" your budget/Allocadia ID on the back end at the end of the month.
+
+**Note:** Order Code = Allocadia line item ID
 
 ## EMEA Field Marketing Swag
 
@@ -922,10 +911,12 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - FinServ | Beth Parker | `@BParker` | |
 | AMER - Northeast and Southeast| Jonathan Santiago  | `@JonathanSanti`  | |
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
-| AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
-| AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
-| [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` | |
-| Japan  | Shu Kawaguchi | `@skawaguchi1` | |
+| AMER - West Coast and Southwest |  Amy Moy | `@amoy1` | |
+| AMER - LATAM  |  Amy Moy | `@amoy1` | |
+| AMER - Public Sector | Annatasia DeAngelis and Micaila Gardiner |  `@adeangelis1` `@micailagardiner` | |
+| APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
+| APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
+| APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@ju` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Neha Pujari | `@npujari2` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA UK](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#field-marketing-uki](https://gitlab.slack.com/archives/C048KPPE1V1) |
@@ -941,14 +932,6 @@ For details on how we handle events please visit the [GitLab Event Information](
 ## AMER Field Marketing Event Tracker for Sales
 
 It is the responsibility of each field marketing manager to ensure that [this tracker](https://docs.google.com/spreadsheets/d/1-McecmJ7MVgdmVrjzBdrxrx6CfJ6U0dqnMILBNl67j0/edit#gid=0) is up to date with all AMER Field Marketing initiatives. Sales should consider this spreadsheet live and current daily.
-
-## Google Calendar links
-
-If you prefer to see the events in an actual calendar view please refer to the following:
-
-- [External virtual events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [GitLab hosted Zoom webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [In person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ## Suggesting an Event or Tactic
 
@@ -1065,11 +1048,11 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER FinServ| Beth Parker | Jay Bahar |
 | AMER Northeast and Southeast| Jonathan Santiago | Jay Bahar |
 | AMER North and Canada | Julie Wyatt | Jay Bahar |
-| AMER West Coast | Lisa Rom | Lisa Cartagena |
-| AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
-| AMER LATAM | Gabby Chorny | Rodrigo Rios |
-| APAC | Kate Baker | SJ Lim |
-| APAC - Japan | Shu Kawaguchi | Ryuichiro Shinoki |
+| AMER West Coast | Amy Moy | Lisa Cartagena |
+| AMER Public Sector | Annatasia DeAngelis and Micaila Gardiner | David LaTour |
+| AMER LATAM | Amy Moy | Rodrigo Rios |
+| APJ APAC | Kate Baker and Catherine Chien | SJ Lim |
+| APJ Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
 | EMEA Northern Europe | Neha Pujari| Aaron Burgess |
 | EMEA UK/I | Neha Pujari | Adam Woolford |
@@ -1112,10 +1095,6 @@ We cannot use GitLab MDF dollars to fund joint campaigns.
 Please refer to the [Channel Partner Joint GitLab events handbook page](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup) for details on how we set up our joint campaign and also lead sharing with the channel as a result of those campaings.
 
 All campaigns we are working with channel partners must flow through the outlined process as a way to ensure we are tracking the success of the campaign properly.
-
-### Tracking success of FMM campaigns with Channel
-
-Please refer to the [Marketing Performance handbook](/handbook/marketing/strategy-performance/marketing-metrics/#back-up-sfdc-pipeline-reports) for additional information.
 
 ### Useful Fields in SFDC that relate to Vartopia
 

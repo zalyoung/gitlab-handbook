@@ -10,12 +10,13 @@ participating-stages: ["~devops::fulfillment", "~devops::ai-powered"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
-This design doc covers architectural decisions and proposed changes aligned with the team's
-[technical vision](/handbook/engineering/infrastructure/team/cloud-connector/technical_vision/).
+The Cloud Connector team is now disbanded. These pages are kept for now to give historical context. 
+
+This design doc covers architectural decisions and proposed changes aligned with the team's technical vision.
 Refer to the [official architecture documentation](https://docs.gitlab.com/ee/development/cloud_connector/architecture.html)
 for an accurate description of the current status.
 

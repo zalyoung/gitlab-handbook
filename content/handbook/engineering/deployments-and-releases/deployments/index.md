@@ -117,28 +117,28 @@ Example of the Staging environment rollback pipeline:
 
 Anyone can **halt or block a deployment to Production** by:
 
-1. [Declaring](https://gitlab.com/gitlab-com/runbooks/docs/incident-io-onboard/incident-management.md#how-to-raise-an-incident) an [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident):  
-   - Declaring a **severity1** or **severity2** incident will **default to blocking deployments**.  
-   - Declaring **severity3** and **severity4** will default *"Blocks Deployments"* to **"no"**.  
-   - Changing from a **severity3 or lower** to **severity2 or higher** will **set** the *"Blocks Deployments"* flag, unless it has been manually changed.  
-   - Lowering the severity **below severity2** will **unset** the flag and allow deployments, unless it has been manually changed.  
+1. [Declaring](https://gitlab.com/gitlab-com/runbooks/docs/incident-io-onboard/incident-management.md#how-to-raise-an-incident) an [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident):
+   - Declaring a **severity1** or **severity2** incident will **default to blocking deployments**.
+   - Declaring **severity3** and **severity4** will default *"Blocks Deployments"* to **"no"**.
+   - Changing from a **severity3 or lower** to **severity2 or higher** will **set** the *"Blocks Deployments"* flag, unless it has been manually changed.
+   - Lowering the severity **below severity2** will **unset** the flag and allow deployments, unless it has been manually changed.
 
-2. From the incident Slack channel, run the `/incident field` command to update [custom fields](https://gitlab.com/gitlab-com/runbooks/docs/incident-io-onboard/oncall.md#on-call-alert-handling-process), then select **'Yes'** under *Block Deployments*.  
+2. From the incident Slack channel, run the `/incident field` command to update [custom fields](https://gitlab.com/gitlab-com/runbooks/docs/incident-io-onboard/oncall.md#on-call-alert-handling-process), then select **'Yes'** under *Block Deployments*.
 
-3. Alert the Release Managers in the [#releases](https://gitlab.slack.com/archives/C0XM5UU6B) channel.  
+3. Alert the Release Managers in the [#releases](https://gitlab.slack.com/archives/C0XM5UU6B) channel.
 
 In addition, automated deployments to **any production environment** (including [canary]), are
-halted during the change lock period. Currently, the change lock period is between every **Friday 23:00 UTC and Monday 06:00 UTC** as well as during any [scheduled Production Change periods](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl).
+halted during the change lock period. Currently, the change lock period is between every **Friday 23:00 UTC and Monday 06:00 UTC** as well as during any [scheduled Production Change periods](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl).
 
 During the change lock period, manual deployment can be triggered through GitLab ChatOps if the deployment fixes **a severity::1 availability or security issue**.
 
 Deployments to production will be blocked by the following events:
 
 1. An [active incident with the `blocks deployment` label](/handbook/engineering/infrastructure/incident-management/#labeling).
-1. Ongoing [change issues with the `blocks deployment` label](/handbook/engineering/infrastructure/change-management/#change-criticalities).
-1. Failures in [blocking (`smoke` and `reliable`) automated end-to-end tests targeting staging canary (gstg-cny), staging (gstg), production canary (gprd-cny), and production (gprd)](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/).
+1. Ongoing [change issues with the `blocks deployment` label](/handbook/engineering/infrastructure-platforms/change-management/#change-criticalities).
+1. Failures in [blocking (`smoke` and `reliable`) automated end-to-end tests targeting staging canary (gstg-cny), staging (gstg), production canary (gprd-cny), and production (gprd)](/handbook/engineering/testing/end-to-end-pipeline-monitoring/).
 
-Release Managers may decide, with input from the [EOC](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) to override a block and continue with the deployment.
+Release Managers may decide, with input from the [EOC](/handbook/engineering/infrastructure/incident-management/#incident-response-roles) to override a block and continue with the deployment.
 
 ## Labels of importance
 
@@ -192,11 +192,9 @@ indicates it has been deployed to production.
 See [this](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-or-a-commit)
 guide for more information.
 
-### I found a regression in the QA issue, what do I do next?
+### I found a regression, what do I do next?
 
-If you've found a regression with a potentially high [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), immediately follow the steps in [Deployment blockers](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to halt the deployment.
-
-If a regression is found in a new feature, and only that feature is affected, follow the directions in the QA issue created in the [release/tasks](https://gitlab.com/gitlab-org/release/tasks/) project for a regular regression.
+If you've found a regression with a potentially high [severity](/handbook/product-development/how-we-work/issue-triage/#severity), immediately follow the steps in [Deployment blockers](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to halt the deployment.
 
 For high severity bugs found in the lead up to the [monthly release](/handbook/engineering/releases/) please also alert the Release Managers in [#releases](https://gitlab.slack.com/archives/C0XM5UU6B).
 

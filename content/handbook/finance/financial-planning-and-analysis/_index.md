@@ -9,7 +9,7 @@ Maximize GitLab's long-term valuation by enabling e-group and FP&A to plan, prio
 
 ## Our objectives
 
-1. Facilitate aligned cross-functional execution of GitLab's [strategy](/handbook/company/strategy)
+1. Facilitate aligned cross-functional execution of GitLab's strategy
 1. Bring predictability and operational rigor to GitLab
 1. Ensure financial and operational goals of GitLab are defined, documented and achieved
 1. Evangelize awareness of strategy and each departments role in achieving it
@@ -42,7 +42,7 @@ FP&A comprises five different sub-teams to support our FP&A goals:
 
 - [Finance Issue Tracker](https://gitlab.com/gitlab-com/finance/issues)
 - [Analytics Issue Tracker](https://gitlab.com/gitlab-data/analytics) for all data, dashboard, or reporting requests
-- [FP&A Job Ladder](/job-families/finance/finance-planning-and-analysis)
+- [FP&A Job Ladder](/job-families/finance/finance/finance-planning-and-analysis/)
 - [Adaptive Insights](adaptive-insights/)
 
 ### Key Slack Channels

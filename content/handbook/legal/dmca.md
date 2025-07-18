@@ -83,3 +83,13 @@ Please use the [DSA form](/handbook/legal/dsa/) to report content that you belie
 
 GitLab may restrict access to content determined to violate the law(s) of the EU country specified in your report. If you want to report a potential violation of GitLab’s [Acceptable Use Policy](/handbook/legal/acceptable-use-policy/)
 or [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) policies rather than an EU legal violation, please refer to [this guide](/handbook/security/security-operations/trustandsafety/abuse-on-gitlab-com/) on how to report abuse. Note that if you don’t have a GitLab account, you can report potential violations by contacting the GitLab Trust and Safety team at abuse@gitlab.com.
+
+## Monthly active recipients in the European Union - Digital Services Act Article 24(2) Disclosure
+
+The information below covers the reporting period from July 1, 2024 to December 31, 2024.
+
+As of December 2024, GitLab.com has approximately 1,800,000 monthly average active recipients of the service in the European Union.
+
+For non-logged-in users, our tracking relies on standard web analytics technologies. This methodology has inherent limitations, as users who access GitLab from multiple devices or browsers, or who have certain privacy settings enabled, may be counted more than once in our calculations. Conversely, multiple users sharing the same device might be undercounted. This means our reported number represents our best estimate of unique recipients based on available data. This approach is consistent with the DSA's guidance that providers should not perform specific tracking of individuals online to avoid double counting.
+
+This information is provided solely to satisfy the requirements of the DSA and should not be used for any other purpose. This information may differ from user metrics, such as registered users, reported in other contexts.

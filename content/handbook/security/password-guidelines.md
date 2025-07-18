@@ -4,7 +4,7 @@ title: GitLab Password Guidelines
 <!-- markdownlint-disable MD051 -->
 ## Passwords at GitLab
 
-Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard](password-standard.md) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
+Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard](/handbook/security/standards/password-standard) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
 The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utilizes 1Password for password management.
 
 ## 1Password
@@ -17,7 +17,7 @@ The password standard sets the requirements for constructing secure passwords an
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-GitLab requires all team members to use [Okta](/handbook/it/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
+GitLab requires all team members to use [Okta](/handbook/security/corporate/end-user-services/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
 
 If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few options](#1password-for-your-private-passwords).
 
@@ -67,7 +67,7 @@ have saved in 1Password Teams, so users can take action. This is not something
 account administrators can review for team members, so it is up to you to enable!
 Enable Watchtower by going to your 1Password app and then to **Preferences > Watchtower**.
 1. Use the "Security Audit"
-functionality of 1Password to meet the [password standard](password-standard.md).
+functionality of 1Password to meet the [password standard](/handbook/security/standards/password-standard).
 It will report reused passwords, weak passwords, accounts that
 are missing 2-factor authorization, and so forth that can then be fixed.
 1. Do not copy passwords from inside a 1Password vault to a personal password
@@ -214,7 +214,7 @@ For a more secure approach, use 1Password's CLI utility which can help manage lo
 
 [1Password CLI integration](https://developer.1password.com/docs/cli/) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
-To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli//get-started/).
+To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 in 1Password. Avoid storing secrets in unencrypted files or using them directly
@@ -287,7 +287,7 @@ which you can share with up to 5 family members.
 
 ### Two factor authentication and time-based one time passwords
 
-As stated in the [GitLab Password Standards](password-standard.md), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
+As stated in the [GitLab Password Standards](/handbook/security/standards/password-standard), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
 
 Okta is configured such that it only supports the use of WebAuthn. 1Password TOTP should only be used when WebAuthn is unavailable.
 
@@ -340,7 +340,7 @@ There may be cases where TOTP might be used with a non-GitLab account. If you ha
 
 ### Passkeys
 
-1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
+1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](/handbook/security/corporate/end-user-services/okta/). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
 
 Setting up Passkey is simple. Open a login page or select the sign in button on the website or app. You'll typically see a prompt to complete an authentication step, usually with Biometrics, or YubiKey. You may see something like the image below.
 

@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 Cloud native and the adoption of Kubernetes has been recognised by GitLab to be
 one of the top two biggest tailwinds that are helping us grow faster as a

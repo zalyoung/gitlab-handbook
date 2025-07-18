@@ -10,7 +10,7 @@ participating-stages: ["~devops::ai-powered", "~devops::create"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Goals
 
@@ -237,7 +237,7 @@ understand large, interconnected datasets.
 ### Data access policy
 
 The retrieval process must comply with the
-[GitLab Data Classification Standard](../../../../security/data-classification-standard/).
+[GitLab Data Classification Standard](/handbook/security/standards/data-classification-standard/).
 If the user doesn't have access to the data, GitLab will not fetch the data for
 building a prompt.
 
@@ -270,7 +270,7 @@ retrieval process. Tailoring the retrieval process based on specific user
 feedback can lead to biased optimizations, potentially causing regressions for
 other users. It's essential to have a dedicated test dataset and tools for a
 comprehensive quality assessment. For assistance with AI evaluation, please
-reach out to the [AI Model Validation Group](../../../development/data-science/ai-powered/model-validation/_index.md).
+reach out to the Global Search team.
 
 ## Before Implementing RAG
 

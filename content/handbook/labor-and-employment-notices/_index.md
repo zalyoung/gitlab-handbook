@@ -87,7 +87,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
   - [Minimum Wage Bulletin](https://www.sanjoseca.gov/home/showpublisheddocument/80936/637768050476030000)
   - [Opportunity to Work Notice](https://www.sanjoseca.gov/home/showdocument?id=20073)
 - **City of San Francisco**
-  - [Minimum Wage Poster](https://www.sfgov.org/olse/sites/default/files/minimum%20wage%20poster%202022_2.pdf)
+  - [Minimum Wage Poster](https://www.sf.gov/sites/default/files/2022-12/minimum%20wage%20poster%202022_2.pdf)
   - [Paid Sick Leave](https://www.sf.gov/sites/default/files/2022-09/Paid%20Sick%20Leave%20Poster.pdf)
   - [Fair Chance Ordinance](https://www.sfgov.org/olse/sites/default/files/FCO%20poster2020_0.pdf)
   - [Health Care Security Ordinance](https://www.sfgov.org/olse/sites/default/files/Document/HCSO%20Files/2022%20HCSO%20poster.pdf)

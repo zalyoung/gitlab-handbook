@@ -64,7 +64,7 @@ To create a panel, follow the steps below. If you have any questions, please con
     - After respondents complete the screener, you will need to review responses and determine who qualifies for the panel based on your criteria.
     - Add the panelists and their information in the Panelist Information sheet in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). To do so, download the results from Qualtrics and transfer to the Panelist Information sheet.
     - Who does this: Panel DRI
-1. **Communicate with participants regarding their inclusion in the panel, who their point of contact will be for the research effort, and frequency and length of participation.** [Refer to Communication guidelines for participant outreach](/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking).
+1. **Communicate with participants regarding their inclusion in the panel, who their point of contact will be for the research effort, and frequency and length of participation.** [Refer to Communication guidelines for participant outreach](/handbook/product/ux/ux-research/research-panel-management/#panel-management-and-tracking).
     - Who does this: Panel DRI
     - See [Participant email communication examples](https://docs.google.com/document/d/1vEthOeiZl-yly-afd6eZrh5DIXL-DzH79BZBOKxzqlM/edit?usp=sharing) for templates.
 
@@ -83,7 +83,7 @@ After you have established your panel, follow these steps to utilize panel parti
     - To compensate panelists as they participate in studies, follow our existing process for incentives by submitting an [incentives request](/handbook/product/ux/ux-research/recruiting-participants/#when-do-i-submit-an-incentives-request-with-ux-research-operations).
     - Who does this: Panel DRI
 
-**As you use your panel, you will need to continually manage and track panelist information and engagement. Refer to the [Panel management and tracking](/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking) section.**
+**As you use your panel, you will need to continually manage and track panelist information and engagement. Refer to the [Panel management and tracking](/handbook/product/ux/ux-research/research-panel-management/#panel-management-and-tracking) section.**
 
 ### Guidelines when communicating with panelists
 
@@ -143,7 +143,7 @@ There are three individual sheets in the tracker spreadsheet.
 
 ### Managing personally identifiable information (PII)
 
-When managing panels, you are responsible for protecting Personally Identifiable Information (PII). Typically, this is done by Research Operations, but when teams are self-creating their own panels, they are responsible for managing the participants and their associated PII. Review best practices for data that is [classified as ORANGE](/handbook/security/data-classification-standard/#orange), and familiarize yourself with this [overview of PII](https://dataprivacymanager.net/what-is-personally-identifiable-information-pii/).
+When managing panels, you are responsible for protecting Personally Identifiable Information (PII). Typically, this is done by Research Operations, but when teams are self-creating their own panels, they are responsible for managing the participants and their associated PII. Review best practices for data that is [classified as ORANGE](/handbook/security/standards/data-classification-standard/#orange), and familiarize yourself with this [overview of PII](https://dataprivacymanager.net/what-is-personally-identifiable-information-pii/).
 
 Always follow these best practices for handling PII within panels:
 
@@ -159,7 +159,7 @@ Always follow these best practices for handling PII within panels:
 Do not collect data just to have it available for a non-specific purpose. For example, do not collect "time in a role" if role tenure is not relevant to the research effort.
 
 - If someone is working from a public workspace, screens should not show panel information.
-- Report any compromised data (see [GitLab's data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
+- Report any compromised data (see [GitLab's data classification](/handbook/security/standards/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
 - Remember to follow [GitLab's privacy policy](https://about.gitlab.com/privacy/).
 - Participants may request
   - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels and other communications.

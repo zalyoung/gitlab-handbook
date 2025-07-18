@@ -13,7 +13,7 @@ toc_hide: true
 <!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -84,12 +84,10 @@ Here's an example of a GLQL query:
 
 ````md
 ```glql
----
 display: list
 fields: title, health, due, labels("workflow::*"), labels
 limit: 5
----
-project = "gitlab-org/gitlab" AND assignee = currentUser() AND opened = true
+query: project = "gitlab-org/gitlab" AND assignee = currentUser() AND state = opened
 ```
 ````
 
@@ -138,10 +136,10 @@ loading and error states, and present the data using the appropriate root presen
 
 ### Query Compiler
 
-The query compiler is built with Haskell and is hosted
-[here](https://gitlab.com/gitlab-org/gitlab-query-language/gitlab-query-language).
-It is built using Haskell Stack and is compiled to WASM, which is then deployed to
-[@gitlab/query-language](https://www.npmjs.com/package/@gitlab/query-language) on NPM.
+The query compiler is built with Rust and is hosted
+[here](https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust).
+It is built using Rust Stack and is compiled to WASM, which is then deployed to
+[@gitlab/query-language-rust](https://www.npmjs.com/package/@gitlab/query-language-rust) on NPM.
 
 **Syntax:**
 
@@ -319,7 +317,7 @@ with portability in mind, allowing for future adaptations and optimizations.
 
 ### Current Implementation
 
-- **Compiler**: Written in Haskell, leveraging its strong type system and pattern matching capabilities
+- **Compiler**: Written in Rust, leveraging its strong type system and pattern matching capabilities
 - **Other modules (e.g., Transformer)**: Implemented in JavaScript for frontend integration
 
 ### Future Portability Options

@@ -8,6 +8,7 @@ The [FinOps function](../../../../../job-families/engineering/infrastructure/sit
 |--|--|
 | GitLab Handle | @tonyganga |
 | Issue Tracker | [FinOps Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/boards/5046766) |
+| Framework Board | [FinOps Framework Activities](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/boards/5046766?group_by=epic) |
 | Slack | [#g_finops](https://gitlab.enterprise.slack.com/archives/C05KWUER6SV) |
 
 ## Our Core Responsibilities
@@ -24,11 +25,20 @@ We focus on several key activities:
 If something requires immediate attention, please tag the relevant person/team in the GitLab issue and include a clear description of the urgency. 
 DMs and ad-hoc requests can lead to duplicated work or missed context and should be avoided in favor of formal issue submission. Slack should be used primarily for quick clarifications or urgent escalations but not for initiating work requests.
 
-Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview).
+Whenever possible, we encourage stakeholders to refer to the data available in our data warehouses (e.g., Snowflake, Google BigQuery, etc) to find the data they need. When in doubt, [check dbt](https://dbt.gitlabdata.com/#!/overview). If you still can't find what you need, reach out to us in an issue. 
 
 - **Work Requests:** All tasks and requests should be tracked via [issues in GitLab](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/new). This allows for clear documentation, prioritization, and tracking of requests.
 - **Roadmap**: Our [roadmap](https://gitlab.com/gitlab-com/gl-infra/finops/team/-/issues/198) is updated weekly.
-- **Educating Stakeholders:** We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds it's way into our [data warehouse](../../../../enterprise-data/platform/_index.md). This reduces repetitive work for the FinOps team and empowers other teams to work independently.
+
+## Educating Stakeholders
+
+- We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds its way into our [data warehouse](../../../../enterprise-data/platform/_index.md).
+
+> **Important:** The FinOps team does not create or maintain dashboards (including Tableau) for other teams, as this requires deep domain knowledge that resides with the business stakeholders. Creating dashboards for the entire business is not scalable for our small team and would detract from our core responsibilities of cost analysis and optimization.
+
+- We provide the necessary data foundation, but visualization and dashboard creation are the responsibility of the teams who best understand their specific needs and data context.
+
+📊 **Need Tableau help?** The Data team provides documentation on [getting started with Tableau](../../../../enterprise-data/organization/programs/data-for-product-managers/index.md).
 
 ### Engaging with Stakeholders
 

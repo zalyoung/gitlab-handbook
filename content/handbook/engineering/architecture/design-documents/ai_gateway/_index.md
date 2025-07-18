@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -18,11 +18,9 @@ The AI-gateway is a standalone-service that will give access to AI
 features to all users of GitLab, no matter which instance they are
 using: self-managed, dedicated or GitLab.com.
 
-Initially, all AI-gateway deployments will be managed by GitLab (the
+Initially, all AI-gateway deployments were managed by GitLab (the
 organization), and GitLab.com and all GitLab self-managed instances
-will use the same gateway. However, in the future we could also deploy
-regional gateways, or even customer-specific gateways if the need
-arises.
+will use the same gateway. With the introduction on GitLab Duo Self-Hosted, [customers can now deploy instances](https://docs.gitlab.com/install/install_ai_gateway/) of the AI Gateway in their environment.
 
 The AI-Gateway is an API-Gateway that handles traffic steered to it from a
 globally reachable `cloud.gitlab.com/ai/*` route. IDEs currently use `cloud.gitlab.com/ai/*`

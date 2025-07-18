@@ -109,6 +109,49 @@ The next step in the Localization Content Manager job family is not yet defined 
 - Localization quality; average language quality scores
 - Where necessary, ensure that localization decisions align to performance related outcomes for particular content types
 
+## Senior Technical Program Manager, Localization
+
+The Technical Program Manager, Globalization and Localization reports to the Senior Manager, Globalization Technology.
+
+## Technical Program Manager, Localization Job Grade
+
+The Technical Program Manager, Localization is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
+
+## Program Leadership
+
+- Drive the roadmap for localization tools and processes with a focus on systems integration, user experience, internationalization, and business impact
+- Collaborate with Engineering, Product, Technical Writing, User Experience, Marketing and other stakeholders to plan and coordinate cross-disciplinary and interdependent localization initiatives
+- Advocate for internationalization requirements across all GitLab products and content
+- Lead the transition to AI-powered localization management and automation workflows, and context-aware systems
+- Collaborate with Marketing and Sales teams to ensure that localization capabilities are effectively communicated to customers and prospects
+- Apply GitLab values (Results for Customers, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) to your work
+
+## Technical Expertise
+
+- Design and document technical specifications for localization and internationalization solutions that streamline systems and workflows
+- Mature existing frameworks that integrate generative AI solutions into localization pipelines
+- Strong understanding of internationalization (i18n) engineering frameworks and features
+- Advanced knowledge of localization tools, enterprise translation practices and localization automation technologies
+- Familiarity with ML/AI technologies, including neural machine translation, content adaptation, and language quality prediction
+- Knowledge of web technologies including JavaScript frameworks, static site generators, and headless CMS architectures
+
+## Development and Collaboration
+
+- Develop metrics that demonstrate real-world impact of localization efforts on growth
+- Experience with modern software development lifecycles, CI/CD pipelines, and agile methodologies
+- Self-motivated and self-managing, with excellent organizational skills
+- Ability to thrive in a fully remote organization
+
+## Requirements
+
+- Experience with technical program management and a track record of delivering complex localization solutions
+- Vision for how AI will transform the localization industry, and practical experience implementing AI-augmented localization workflows
+- Degree in computer science, program management, project management, or equivalent technical experience
+- Strong analytical problem-solving skills and the ability to navigate ambiguity
+- Bias to action, proactive and innovative by nature
+- Strong attention to detail
+- You share our values, and work in accordance with those values
+
 ### Staff Fullstack Engineer, Localization
 
 The Staff Fullstack Engineer, Globalization and Localization reports to the Senior Manager, Globalization Technology.

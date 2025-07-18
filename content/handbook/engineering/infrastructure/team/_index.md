@@ -2,4 +2,4 @@
 title: "Team"
 ---
 
-See the [SaaS Platforms Organizational Structure](/handbook/engineering/infrastructure/#organization-structure) for teams in Infrastructure.
+See the [Infrastructure Platforms Organizational Structure](/handbook/engineering/infrastructure/#organization-structure) for teams in Infrastructure.

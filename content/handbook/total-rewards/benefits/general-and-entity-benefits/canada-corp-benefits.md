@@ -17,31 +17,31 @@ GitLab offers medical, dental, and vision coverage at no cost to the team member
 
 ### Medical, Dental, and Vision Coverages
 
-Effective 1 July 2024, GitLab Team Members will be enrolled in to the GitLab ManuLife Health Plan. For a high-level overview of the plan please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing)
+GitLab Canada team members are enrolled in the GitLab Manulife Health Plan. For a high-level overview of the plan, please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view)
 
 Please see the plan documents for additional details of the plan:
 
 Plan A - Team Members Residing outside the Province of Quebec
 
-- [English Version](https://drive.google.com/file/d/1xCtEk8bHHCkwdlQWeNBfTdQ7g-p1cSVM/view?usp=sharing)
-- [French Version](https://drive.google.com/file/d/1Xj_IbV2Ppm_4Mpuy7-si0TK76B7aAKOG/view?usp=sharing)
+- [English Version](https://drive.google.com/file/d/1l6qjUZLU3qIKhs5XkJXDe24JjQsNp247/view?usp=sharing)
+- [French Version](https://drive.google.com/file/d/1gyDNDftIMfXK2Tg7s_juhYb_lI_MgCdH/view?usp=sharing)
 
 Plan B - Team Members Residing in the Province of Quebec
 
-- [English Version](https://drive.google.com/file/d/1EJc6uFSHXGl8rw45jAWMZk_kffFyuO-q/view?usp=sharing)
-- [French Version](https://drive.google.com/file/d/1sPy7OiOm9KfWbgjYw4ABgLPTQNDMR69r/view?usp=sharing)
+- [English Version](https://drive.google.com/file/d/1QwJSkcQ6XoBrXz6llCxd_g_yOSNWZZJF/view?usp=sharing)
+- [French Version](https://drive.google.com/file/d/1t9o7_PrQLNyWdZ4Wvq-H0SviVfQfPJqC/view?usp=sharing)
 
 #### WorldCare Medical Second Opinion (MSO)
 
 Medical Second Opinion provided by WorldCare Inc., easily connects you with a team of specialist who can evaluate diagnoses and treatment plans confidentially.
 
-Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
 
 #### Personalized Prescribing
 
 Personalized Medicine is about learning about your genetics. Access reimbursement for genetic test that helps determine with medication and does may work best for you.
 
-Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
 
 #### Telus Health - Virtual Care
 
@@ -55,17 +55,31 @@ Connect via your ManuLife App for services including:
 - Lab & imaging orders
 - Specialist referrals
 
-Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
+
+#### Telus Health - Employee Assistance Program (EAP)
+
+Access for you and your eligible dependents to helpful resources, including short-term counselling to support you with anxiety, stress, divorce, family matters, mental health, weight management, smoking, and other personal concerns.
+
+How to Access:
+
+- Through your Manulife App
+- By phone: 1-844-505-6240 (available 24/7)
+- Online via web portal
+- Live chat support for personalized care
+
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1eJ8s5AV3X5kNmf5lBSeaGgRkXh-BkrJH/view) for more details.
 
 ### Enrollment and Access
 
 You can access your ManuLife portal [here](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). See this video on how to [navigate the ManuLife Portal](https://drive.google.com/file/d/13Lxx8EC8FsWm5q-dc3kNkbAswNndzX2D/view?usp=sharing) and this video on the [ManuLife Mobile App access](https://drive.google.com/file/d/16bmw-RpeL8YKiz7MOWCJA03hQ0jEfubV/view?usp=sharing)
 
 **For new hires:**
-Once you've determined your enrollment coverage (family plan or single plan), email your decision to total-rewards@gitlab.com. This step must be completed in order for your enrollment process to begin.
+Once you've determined your enrollment coverage (family plan or single plan), email your decision to `total-rewards@gitlab.com`. This step must be completed in order for your enrollment process to begin.
 
-During your first week with GitLab, you will be receiving an invitation from ManuLife with a directions on how to register for the a ManuLife account and add our Group Plan. Click on that link sent to you to set up your profile.
-Please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) if you have any questions!
+You can access your ManuLife account starting Monday of your second week at GitLab. While you should receive an enrollment email from ManuLife during your second week, you can also log in directly using [ManuLife portal](https://portal.manulife.ca/gb/sponsor-portal/public/welcomePage). Please reach out to [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) if you have any questions.
+
+It is important to [assign your beneficiary for your Life Insurance plan](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/content/3811b594-3be7-4467-a313-47957943b648) once you receive your invitation to ManuLife. If you do not receive an invitation within a week of your start date, reach out to `total-rewards@gitlab.com`.
 
 More Details on setting up your ManuLife site can be found the [GitLab ManuLife Resource Page](https://eng4e.seismic.com/ls/0e8eb3a1-8323-43d7-b686-66c5d7745887/LkB_7-xfYTPGO0qT#/) including the following guides:
 
@@ -104,7 +118,7 @@ This card provides your group plan number and member identification number. Keep
 
 Your benefits will cease on the day of your termination. There may be options to convert elements of your benefit plan to individual coverage, without medical questions. You can contact our brokers, SC Insurance, for more information about your options. You can find contact information below. Options are limited to a period of time after your coverage terminates, typically 30 or 60 days.
 
-SC Insurance: info@scinsurance.ca or call 416.259.1166
+SC Insurance: info@scinsurance.ca or call 416.259.1166 
 
 ### Frequently asked questions
 
@@ -162,7 +176,9 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 - Match: GitLab will match up to 3% of base salary with a cap of 2,500 CAD. Team members may voluntarily choose to contribute more than 3% with no employer match.
 - Eligibility criteria: All full-time (defined as working at least 30 hours per week) team members of GitLab Canada Corp.
 - Contributions may be updated at any time, but please allow 1 - 2 payroll cycles for the new contribution amount to reflect in your paycheck.
-- Withdrawals are not permitted on the employer or member portion.  If the member has a voluntary account than they are permitted.
+- Effective April 2025, transfers and withdrawals are permitted.
+  - Transfers to other accounts or institutions are initiated by the other institution, not Canada Life. 
+  - Withdrawals can be made online at mycanadalifeatwork.com 
 
 ### RRSP Enrollment
 
@@ -173,7 +189,7 @@ For enrolling into the RRSP, please navigate to [Canada Life's RRSP portal](http
 - If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at info@scinsurance.ca, or [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 - Please remember to select a beneficiary when enrolling. This is separate from the beneficiary elected for your life insurance plan.
 - Team Members are responsible for monitoring their own contribution limits to ensure they do not over-contribute to their maximum limit. This is because team members can carry forward RRSP contribution room that they were unable to use in any particular year and is unique to each member.
-- Team Members can also request to contribute their bonus or discretionary bonus towards their RRSP plan outside their normal salary. The employer match does not apply towards this contribution. In order to make this request, please email Nonuspayroll@gitlab.com and Total-Rewards@gitlab.com prior to the bonus being paid out.
+- Team Members can also request to contribute their bonus or discretionary bonus towards their RRSP plan outside their normal salary. The employer match does not apply towards this contribution. In order to make this request, please open a [HelpLab request](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352) prior to the [payroll cut off date](https://internal.gitlab.com/handbook/finance/payroll/?search=payroll) listed for the month in which the bonus will be paid.
 
 ## Canada Pension Plan (CPP)
 
@@ -635,98 +651,12 @@ More information can be found on the [Government of Manitoba website](https://ww
 
 </details>
 
+### Long Term Disability Leave - Continuance of Coverage 
+
+It is the policy of GitLab Canada Corp. to provide continuity of coverage under the group insurance plan for individuals who are disabled.  The period of coverage extends for 24 months  following the date of total disability.  Premium payment conditions will remain the same as are in place for active employees.  Following 24 months from the date of your total disability, your benefits under the plan will cease and terminate.  Conversion products are available.  You may contact either our existing insurer directly, or our brokers at SC Insurance (info@scinsurance.ca) to learn more about your options and discuss these conversion products.
+
+If at any time you are no longer deemed to be totally disabled, your benefits may terminate on that day unless you have returned to work on a full time basis.
+
 ## Administrative Details for Benefits Team
 
-### Onboarding & Offboarding in Collage
-
-1. Total Rewards is tagged in Onboarding & Offboarding issues
-1. Total Rewards will update Collage with new hire information/termination
-1. Team Member receives onboarding notification and enrolls in to the plans
-
-### Updating Payroll with Employer Premium Rates (Monthly)
-
-Prior to the 1st Canada Payroll Cutoff date of the Month, Total Rewards will look up Employer Premium changes Amounts on the Canada Life Website & New Hires since the Last month
-
-New Hires
-
-1. Log on to Workday. Pull a report of Canada Team Members that have started within the past month (or since the last time the report was pulled)
-1. Log on to the Canada Life Portal. Select "Enrollment" > "Mantain/Inquire on Employee"
-1. Enter the following
-    - Function: View In Force Premiums and Taxes
-    - Employee ID of the team member
-    - Effective date: Todays Date
-1. Locate the details under the "Total Benefit Cost Including Tax" column and enter these details to the Canada Payroll Change Report in the following columns:
-    - Employee ID
-    - Effective Date
-    - Tier
-    - Total Monthly Cost
-    - Basic Employee Life
-    - Accidental Death and Dismemberment
-    - Long Term Disability
-    - Healthcare
-    - Dentalcare
-
-Adjustments for Current Team Members
-
-1. Log on to Group Net Canada Life portal
-1. Select "Billing" > View or Print Bill > Current month's Bill
-1. Open up the Current Statement. Scroll down to the "Adjustments for Prior Periods" section. Anyone on this list needs to have thier Employer Premiums.
-1. On the Canada Life Portal Select "Enrollment" > "Mantain/Inquire on Employee"
-1. Enter the following
-    - Function: View In Force Premiums and Taxes
-    - Employee ID of the team member
-    - Effective date: Todays Date
-1. Locate the details under the "Total Benefit Cost Including Tax" column and enter these details to the Canada Payroll Change Report in the following columns:
-    - Employee ID
-    - Effective Date
-    - Tier
-    - Total Monthly Cost
-    - Basic Employee Life
-    - Accidental Death and Dismemberment
-    - Long Term Disability
-    - Healthcare
-    - Dentalcare
-
-### Updating Collage with Employee Salary Changes (Monthly)
-
-1. Log on to the Canada Payroll Changes Report
-1. Review the Compensation changes that have occurred in the last 2 months
-1. Log on to Collage
-1. Search for the team member > click their name > Job > Update Employment Info > Update Salary Details > Save
-
-### Checking if Employees are Eligible for Excess LTD Insurance & need underwriting (Quarterly)
-
-1. Log on to Group Net Canada Life
-1. Enrollment tab > request reports> coverage summary> effective date(today's date)> sort by Employee name
-1. Review the data to identify  if the team member is eligible for more Life Insurance and LTD Coverage than they are currently receiving (i.e. compare the LTD and LTD eligible Amount Columns to see if there is a delta)
-1. Reach out to the team member with the Eligibility of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quarterly audit was completed as an fyi.
-
-- View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
-
-### RRSP Process (Semi-monthly)
-
-1. Team members create Canada Life account and sign up for RRSP
-1. Total Rewards logs on to Canada Life, approves RRSP requests: Menu > Administrative Functions > Online Enrollments > Search for a list: All Full Time Employees - 01. Add an Enrollment date and Approve the enrollment.
-1. Total Rewards generates a Canada Life report that lists all of the Contribution %s: Menu > Client Reporting & Tools > Create Reports
-     - Select a report: Payroll Deduction details
-     - Select a plan: Registered Retirement Savings Plan
-     - Select a subgroup: All Full time Employees - 01
-     - Select a layout: Excel File, includes SIN
-     - Select details to be displayed on report: Payroll deduction instructions for active members from selected date/Time
-     - Look up when the last date & time you pulled the report reported on the "20XX RRSP Payroll Report", and enter that date.
-     - Download the report, and create a new tab in the "20XX" RRSP Payroll Report" with today's date" - copy and paste the data from the downloaded report in to the tab for record keeping.
-1. Open the "Canada Payroll Changes" Report and open the tab Payroll created for the current pay period. Enter the information on the RRSP report in to the Canada Report:
-     - Emp ID - You'll need to look this up in Workday
-     - Last Name, First Name, Initial, certificate number, status, subgroup plan type, enrol date, account type, date of change, Employee Amount %: you can find these details on the downloaded CanadaLife Report
-     - Employer amount%: You'll need to enter this manually, since this is a match, you'll enter the same % as the Employee Amount %
-     - Member Voluntary%: Check the CanadaLife report to see if the team member has any member % and update on the same line.
-1. Canada Payroll will then deducts the percentage from team member's pay and sends TR the dollar amount that was deducted in a Remittance Report. Follow up with Canada payroll if they don't send the remittance report before you update the next pay periods' RRSP change report.
-1. Total Rewards sends the Remittance report to CanadaLife and the remit the payments Canada Life Charges the total to GitLab, and we pay out the amount Special Instructions for when team members want to contribute one-off bonuses:
-1. Team Members have the opportunity to request to contribute their one-off bonuses towards their RRSP if they so choose, the team member will email Total Rewards with their request.
-1. Total rewards will add a line in the Canada Payroll Change Report with the team member's entry. If there are no other changes, they can leave the Employee and Employer amount blank and just add the Member Voluntary amount with an explanation of the payment.
-
-Offboarding:
-
-- The Canada Life RRSP portal is not able to be connected to Collage so team members will need to be manually removed from the RRSP plan upon termination.
-
-Please see the [administration guide](https://drive.google.com/drive/u/0/folders/1qJ3NmOzDjeXKFpwwO2J0upF5ZVBs_YLD) for additional instructions.
+The Benefits Team can reference the Canada Processes [here](https://drive.google.com/drive/u/0/folders/1lhC6RbuvUmqJ-KMrsPyTBFntyvYgZral)

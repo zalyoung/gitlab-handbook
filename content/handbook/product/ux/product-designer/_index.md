@@ -9,7 +9,7 @@ This section outlines our approach to handling issues. It's crucial to communica
 
 ### Triaging UX issues
 
-Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
+Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/product-development/how-we-work/issue-triage/#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/product-development/how-we-work/issue-triage/#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
 
 ### Scheduling issues in a milestone
 
@@ -33,7 +33,7 @@ Key benefits of making `User Experience` an official part of group's milestone p
 
 ### Define the opportunity
 
-- Collaborate with your PM to [validate](/handbook/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
+- Collaborate with your PM to [validate](/handbook/product-development/how-we-work/product-development-flow/#validation-goals--outcomes) _who_ you're designing for, _what_ you're designing, and _why_ you're designing it.
 - Help your PM articulate the who/what/why as a user story. For example, "As a (who), I want (what), so I can (why/value)." If you’re asked to implement a non-evidence-based how, encourage the PM to refocus on the who/what/why to collaboratively determine the best how.
 - Assist your PM to defining [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) success criteria, prioritizing MVC “must-haves” and non-MVC “should-haves” and “could-haves.” Note that these criteria may change based on new insights from the iterative design process and customer feedback.
 
@@ -73,6 +73,19 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives. Follow this guide to support your work: [Designing with AI: A Guide for Product Designers](/handbook/product/ux/product-designer/ai-design.md)
 
+### Designing with modes
+
+Design must work in all generally available modes, which currently includes light and dark mode. Keep these considerations in mind as you design:
+
+- Light mode is the most used mode preference in the product, the default for Pajamas UI Kit design assets, and the default for [usability tests (point 5)](/handbook/product/ux/ux-research/usability-testing/#steps-for-conducting-a-usability-test).
+- The design system provides design tokens and components that work in supported modes.
+- Take extra care when mode is a primary factor in customer outcomes.
+- Dark mode design must align with the dark mode principles:
+  - **Forward elements are lighter, receding ones are darker.** This mimics natural light behavior: brighter elements come forward, while darker ones recede. In dark mode, brighter elements create depth, ensuring important content stands out without relying heavily on borders or shadows.
+  - **Reduced color saturation.** In a dark UI, color naturally stands out more, and the amount of color use is reduced. Instead of flooding backgrounds with color, use color more selectively to draw attention where it’s needed.
+  - **Dimmed, not inverted.** Dark mode should feel like dimming the lights rather than completely inverting the interface. Carefully decide which elements to darken and which to brighten to maintain content clarity while allowing backgrounds to recede appropriately.
+- Use analytics data to determine which mode should be your primary design focus.
+
 ### Aiming towards "sophisticated simplicity"
 
 The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity, Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
@@ -102,11 +115,10 @@ Consider these questions when designing:
 - Is this feature or capability needed or used, or what would happen if it were removed?
 - Is everything "in reach," or are users left wandering?
 
-#### Beautifying and "unboxing" the UI
+#### "Unboxing" the UI
 
-Two ongoing design efforts align with sophisticated simplicity:
+Ongoing design efforts align with sophisticated simplicity:
 
-1. **Beautifying the UI**: Enhance the UI by cleaning up components or entire pages to create more consistency, organization, and aesthetic appeal. Learn more in the [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui) section of the handbook.
 1. **Unboxing the UI**: Reduce the overuse of boxes for conveying hierarchy, organizing content, and dividing pages into section. Explore better alternatives in this video on ["Unboxing" the UI](https://youtu.be/MxpZuWQH-kk).
 
 ### Ideate and iterate
@@ -172,9 +184,67 @@ Deteermining who to include in a design review can be challenging. Here are some
 
 If unsure who to include, consult your Product Design Manager for guidance.
 
+### Design critiques
+
+Design critiques are dedicated sessions where Product Designers exchange rigorous, constructive feedback to elevate work quality; challenging assumptions and examining the underlying rationales for design decisions beyond standard [design reviews](#design-reviews). Benefits include:
+
+- Pushing designs to excellence through specific, actionable feedback that increases overall quality and value for customers
+- Building a culture where constructive challenge is valued and expected
+- Accelerating professional growth and design craft through deeper discussions
+- Addressing issues and inconsistency earlier in the design process
+- Alignment with the design system, other product areas, and UX paradigms
+- Ensuring user-centered thinking remains at the forefront
+
+We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) and cares personally, but challenges directly. Here's how to conduct an effective critique:
+
+1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work.
+1. **Structure the critique session**:
+   1. Provide thorough context: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged. (5 minutes)
+   1. Begin by presenting work without excessive explanation. (10 minutes)
+   1. Allow participants to ask clarifying questions and provide critique. (bulk of the sessions time)
+   1. Summarize key takeaways and next steps. (5-10 minutes)
+1. **Participate effectively**:
+   1. Be curious by asking questions like "have you…," "how does this…," and "why is this…" to help you understand the design decisions and solutions.
+   1. Provide specific and detailed comments that help encourage, challenge, and unblock the presenter.
+   1. Connect feedback to user needs and business goals instead of personal preference.
+1. **Receive critique productively**:
+   1. Listen openly before responding.
+   1. Take detailed notes and ask clarifying questions when needed.
+   1. Thank participants for specific, challenging feedback.
+1. **Document and follow up**:
+   1. Capture key critique points in the relevant issue or epic.
+   1. Share how the critique influenced your design decisions in subsequent iterations.
+   1. Acknowledge team members whose critique led to meaningful improvements.
+
+### Setting the right mindset
+
+To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to reference the code of conduct and verbalize the mantra before beginning.
+
+#### Code of conduct
+
+During our critique sessions, we commit to:
+
+1. Focus on the design work, not the designer.
+1. Communicate with respect and avoid offensive language or behavior.
+1. Challenge directly while showing we care personally.
+1. Provide specific, actionable feedback and reasoning rather than vague comments.
+1. Practice genuine curiosity to understand design decisions before critiquing them.
+1. Remain open to different perspectives and approaches.
+1. Receive critique openly and be willing to let go of unsuccessful elements.
+1. Engage in candid conversation and spirited debate with passion for our craft.
+
+#### Mantra
+
+Critique the work, not the person.<br>
+Care personally, challenge directly.<br>
+Speak candidly, listen openly.<br>
+Embrace curiosity, let go of attachment.
+
+**Note:** Reading the mantra verbatim before each session might initially feel awkward or repetitive, however, consistently expressing these shared expectations creates the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
+
 ### Partnering with Technical Writers
 
-When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development-flow/#validation-phase-3-design).
+When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-3-design).
 
 UI text includes button or menu labels, error messages, log files, user-assistance microcopy, notification emails, and any other text visible in the UI. Changes to UI text can significantly impact documentation steps.
 
@@ -209,7 +279,7 @@ To maintain focus and avoid scope creep in UX issues:
 
 - **Prioritize must-haves**: Work with your PM and developers to identify "must-have" versus elements that can be deferred. Document non-MVC concepts and research in new issues, linking them to the original issue. Consult your Product Design Manager if you need help breaking down large issues.
 - **High confidence, low risk changes**: If developers need to start before designers are validated, focus on high confidence, low risk changes while the rest of the solution is validated.
-- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development-flow/#validation-track), ensuring the Build track always has well-validated product opportunities ready to start.
+- **Plan ahead**: PMs and UXers should work together to [get 1-2 months ahead](/handbook/product-development/how-we-work/product-development-flow/#validation-track), ensuring the Build track always has well-validated product opportunities ready to start.
 - **Manage large features**: Features should be buildable within 1-2 milestones. If too large, work with your PM and Engineering team to split the feature into smaller, manageable segments.
 
 For inspiration, watch our Product Designers discuss [iteration at GitLab](https://youtu.be/0lhjzU-QZ2w).
@@ -306,7 +376,7 @@ Refer to the [MR reviews handbook page](/handbook/product/ux/product-designer/mr
 
 - When reviewing an MR, refer to the SSOT in the issue, which should include a mock-up or Figma link in the "Solutions" section of the issue description.
 
-### Follow-up after design is complete
+### Follow-up after a design proposal is finalised
 
 For changes that affect Pajamas (GitLab's design system):
 

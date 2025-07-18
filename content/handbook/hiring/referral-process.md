@@ -5,7 +5,7 @@ description: "While GitLab’s Referral program is fairly straight-forward, ther
 
 #### Defining a Referral
 
-“Referring” and“endorsing” are different activities. Please read each definition below and note that **bonuses are granted to referrals only.**
+“Referring” and “endorsing” are different activities. Please read each definition below and note that **bonuses are granted to referrals only.**
 
 **Referral** - Someone you have worked with in the past, or have developed a close personal relationship with. This person should align with our values and the requirements of the role, and be someone you would choose to work with based on what you know about their skills and values alignment. 
 

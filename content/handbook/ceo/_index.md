@@ -16,7 +16,7 @@ This README is meant to help anyone who needs to work with me by providing a bri
 
 1. **Integrity:** Trust is the most important thing in any relationship. Trust is knowing you can count on me to say what I mean and do what I say. I try to live my life in strict adherence to this value, and when I fall short, I try to proactively and openly acknowledge and recommit. My single biggest ‘hot button’ issue is when someone does not follow through on something they said they would do.
 1. **Curious:** I try to live what many call the “growth mindset,” which means that I’m always learning, striving to improve, and iterating to be better. I feel very imperfect and self-critical on the inside, and I constantly strive to learn as much as I can while appreciating that I can’t know it all. I’m open and accept constructive feedback from anyone, anytime.
-1. **Results:** Good ideas, hard work, and fun on the job are all important, but ultimately, our results are what matter. I care far more about outcomes than effort. I strive to do everything at a high standard of excellence, and I’m never satisfied with the status quo. I seek people who are equally committed to being world-class.
+1. **Results:** Good ideas, hard work, and fun on the job are all important, but ultimately, our results are what matters. I care far more about outcomes than effort. I strive to do everything at a high standard of excellence, and I’m never satisfied with the status quo. I seek people who are equally committed to being world-class.
 
 ### My Super Powers - how you can get the best from me
 

@@ -52,7 +52,7 @@ For cloud infrastructure, we have created top-level AWS organizational units and
 | Realm      | Data Classification | Resources Managed By | Usage Documentation | Slack Channel |
 |------------|---------------------|----------------------|---------------------|---------------|
 | `infra-shared-services`  | Red/Orange/Yellow/Green | `infra-realm-owners` | [Realm Docs](/handbook/company/infrastructure-standards/realms/infra-shared-services) | `#infra-realm-owners` |
-| `it`       | Orange/Yellow/Green | [IT Engineering](/handbook/it/it/) | [Realm Docs](/handbook/company/infrastructure-standards/realms/it) | `#it_help` (tag `@it-eng`) |
+| `it`       | Orange/Yellow/Green | [IT Engineering](/handbook/security/corporate/end-user-services/) | [Realm Docs](/handbook/company/infrastructure-standards/realms/it) | `#it_help` (tag `@it-eng`) |
 | `saas`     | Red/Orange/Yellow/Green | [Reliability Engineering](/handbook/engineering/infrastructure/team/) | [Realm Docs](/handbook/company/infrastructure-standards/realms/saas) | `#infrastructure-lounge` |
 | `sandbox`  | Green | Self Service (Team Member) | [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox) | `#sandbox-cloud-questions` |
 | `security` | Orange/Yellow/Green | [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) | [Realm Docs](/handbook/company/infrastructure-standards/realms/security) | `#security-infrasec` |
@@ -93,7 +93,7 @@ Learn more on the [sandbox realm handbook page](/handbook/company/infrastructure
 - Any infrastructure that is only used internally (scripts, test apps, tools, etc) and does not impact business continuity if the service is unavailable temporarily.
 - Any infrastructure that is ephemeral in nature that is available externally but does not contain real customer data/information/intellectual property or RED/ORANGE data. This categorically includes collaboratively reproducing customer problems (with fake data), demos, proof-of-concepts, training, workshops, etc.
 - Any infrastructure that does not have global infrastructure support coverage (ex. is this managed by the SRE team?).
-- Please review the [Data Classification Policy](/handbook/security/data-classification-standard/) and the [Data Classification Index](https://internal.gitlab.com/handbook/security/data_classification/) to ensure your infrastructure does not contain sensitive information. It is best practice to contact the [Security team](/handbook/security/) for a review if your infrastructure is in a gray area.
+- Please review the [Data Classification Policy](/handbook/security/standards/data-classification-standard/) and the [Data Classification Index](https://internal.gitlab.com/handbook/security/data_classification/) to ensure your infrastructure does not contain sensitive information. It is best practice to contact the [Security team](/handbook/security/) for a review if your infrastructure is in a gray area.
 
 In the near future, we will be introducing [readiness reviews](/handbook/engineering/infrastructure/production/readiness/) for more infrastructure realms.
 

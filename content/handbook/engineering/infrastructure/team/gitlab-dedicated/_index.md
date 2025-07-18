@@ -66,15 +66,24 @@ To engage with the GitLab Dedicated teams:
 
 In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/incident-management/#severities), please *Page* the GitLab Dedicated Engineer On Call. Further guidance on when to use this can be found [here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#what-is-an-emergency).
 
+#### Dedicated for Commercial
+
+1. From any Slack channel, use `/inc escalate`:
+   1. Under `On-Call Teams` select `dedicated EOC`
+   1. Provide information on the report in the `Notification Message`
+   1. *Urgency*, *Priority* and *Assign To* should not be set
+
+#### Dedicated for Government
+
 1. From any Slack channel, use `/pd trigger`:
-   1. Impacted Service: `Dedicated Platform Service` (for commercial customers) or `Dedicated US Public Sector Platform Service`
+   1. Impacted Service: `Dedicated US Public Sector Platform Service`
    1. Title: `GitLab Dedicated`
    1. Description: Provide information on the report, and how you can be contacted
    1. *Urgency*, *Priority* and *Assign To* should not be set
 
 ### Escalation Policy
 
-When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
+When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/product-development/how-we-work/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
 
 ### Handling Configuration Changes for Tenant Environments
 
@@ -105,13 +114,13 @@ and other times where GitLab Team Member availability is substantially reduced.
 Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs.
 Therefore, we have introduced a mechanism called Production Change Lock (PCL) to GitLab Dedicated.
 
-The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl) for GitLab.com,
+The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl) for GitLab.com,
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
 
 1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created.
-2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
+2. An MR updating the scheduled PCLs table is approved by the Infrastructure Platforms Engineering Director
 3. Customer changes using Switchboard are prevented for the duration of the PCL.
 
 The following dates are currently scheduled PCLs.
@@ -122,7 +131,7 @@ The following dates are currently scheduled PCLs.
 
 Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
 
-As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
+As opposed to GitLab.com [PCL](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
 
 ##### Hard PCL
 
@@ -253,8 +262,8 @@ We use epics, issues, and issue/epic boards to organize our work, as they comple
 
 Please see:
 
-1. [SaaS Platforms Project Management](/handbook/engineering/infrastructure/platforms/project-management)
-1. [SaaS Platforms Epic](https://gitlab.com/groups/gitlab-com/-/epics/2115)
+1. [Infrastructure Platforms Project Management](/handbook/engineering/infrastructure/platforms/project-management)
+1. [Infrastructure Platforms Epic](https://gitlab.com/groups/gitlab-com/-/epics/2115)
 1. [Environment Automation Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479)
 1. [Switchboard Epic (scoped to current quarter)](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/405)
 1. [US Public Sector Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/876)
@@ -369,7 +378,7 @@ When creating a new issue:
 
 1. Add the appropriate project label, example: ~"Hosted Runners for GitLab Dedicated".
 1. Add the ~"workflow-infra::Triage" label.
-1. Add the appropriate team label, example: ~"team::Environment Automation".
+1. Add the appropriate team label, example: ~"group::environment automation".
 1. Ensure the issue is confidential.
 1. Add the issue to the correct Epic.
 
@@ -380,7 +389,7 @@ When creating a new issue:
 # Label with a project label.
 # /label ~"Hosted Runners for GitLab Dedicated"
 
-/label ~"team::Environment Automation" ~"workflow-infra::Triage"
+/label ~"group::environment automation" ~"workflow-infra::Triage"
 /confidential
 ```
 
@@ -396,7 +405,7 @@ The status for all work relating to GitLab Dedicated is maintained in the descri
 
 #### Status Update Process
 
-Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
+Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in Platforms](/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-platforms):
 
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
@@ -427,7 +436,7 @@ We provide reports on status of GitLab Dedicated to meet Top Cross-Functional In
 
 ### Backlog Refinement
 
-Prior to the start of a new quarter, the team will spend time refining the Epic backlog. This process will be led by the EM + PM, who will go through the Epics targeted for the upcoming quarter (according to the [roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#roadmap)) and ensure each Epic contains the following information (pulling in different stakeholders to help fill in the details as necessary):
+Prior to the start of a new quarter, the team will spend time refining the Epic backlog. This process will be led by the EM + PM, who will go through the Epics targeted for the upcoming quarter (according to the [roadmap](https://about.gitlab.com/direction/gitlab_dedicated/#roadmap)) and ensure each Epic contains the following information (pulling in different stakeholders to help fill in the details as necessary):
 
 - MVC Scope
 - Business Case / Rationale
@@ -532,13 +541,13 @@ To reduce the team's cognitive load on having to keep a mental record of all the
 
 Commonly used labels are:
 
-1. The team label, such as `team::Environment Automation`.
+1. The team label, such as `group::environment automation`.
 1. Scoped `workflow-infra` labels.
 1. Scoped `component` labels.
 1. Scoped `cloud-provider` labels.
 1. Scoped `workaround` labels.
 
-The `team::Environment Automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
+The `group::environment automation` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
 
 #### Epics labels
 
@@ -575,7 +584,7 @@ There are three other workflow labels of importance:
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance using the ["request for help"](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance using the ["request for help"](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
 
 | State Label | Description |
 | ----------- | ----------- |
@@ -682,7 +691,7 @@ as a high priority task that is second only to active incidents:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-         - The [Observability team](/handbook/engineering/infrastructure/team/observability/)
+         - The [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability/)
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.

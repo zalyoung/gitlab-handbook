@@ -18,7 +18,7 @@ Group Product Designers support AI features in their space, including problem an
 
 ### How to get help from the UX team
 
-Use the [Product Development Flow](/handbook/product-development-flow/) for process activities and workflow labels
+Use the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) for process activities and workflow labels
 
 **If you are in the Data Science section, or don't have a Group Product Designer**:
 

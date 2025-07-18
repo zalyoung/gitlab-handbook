@@ -34,7 +34,7 @@ The first thing to be aware of about sourcing contingent workers candidates is t
 
 You should consider your strategy. You may reach out to individuals and hire them directly by using your professional networks or tools such as [LinkedIn Recruiter](/handbook/hiring/gitlab-ambassadors/#4-request-a-linkedin-recruiter-account). You can also engage with a recruitment agency or team augmentation agency for this purpose.
 
-If you choose to hire them directly, you will have less administrative work to get the agency [vetted and approved](/handbook/finance/procurement/vendor-selection-process/) by the procurement department. However, you will have to invest more effort in the sourcing work yourself.
+If you choose to hire them directly, you will have less administrative work to get the agency [vetted and approved](/handbook/finance/procurement/) by the procurement department. However, you will have to invest more effort in the sourcing work yourself.
 
 One thing you can do is to ask GitLab recruiters to help you and be on the lookout for past candidates in Greenhouse that were not selected for similar jobs in your group or other groups, but who were still very strong candidates. They may make a great contingent workers for your needs and you can benefit from the context and the interview notes that will be available for those candidates as a starting point.
 
@@ -44,7 +44,7 @@ In either case, you need a job description (JD). If you are hiring for a tempora
 
 ## Interview Process
 
-For the interview, you will have a lot of agency to structure interviews as an engineering manager looking to make this hire. It is advisable to stay as close as possible to the company-level guidelines, especially as it relates to [diversity inclusion and belonging](/handbook/company/culture/inclusion/talent-acquisition-initiatives/). You can also use your own sub-department or group guidelines as a basis for defining the interview process, including the diversity of interviewers and approach to technical vetting (e.g. see Enablement sub-department [interview guidelines](/handbook/engineering/infrastructure/core-platform/#how-do-we-interview-candidates)).
+For the interview, you will have a lot of agency to structure interviews as an engineering manager looking to make this hire. It is advisable to stay as close as possible to the company-level guidelines, especially as it relates to [diversity inclusion and belonging](/handbook/company/culture/inclusion/talent-acquisition-initiatives/). You can also use your own sub-department or group guidelines as a basis for defining the interview process, including the diversity of interviewers and approach to technical vetting.
 
 ## Contracting and invoicing
 
@@ -70,7 +70,7 @@ Once the Coupa requisition is approved, the vendor/contingent workers will be ab
 
 With the contracting out of the way, you will want to onboard the new contingent workers into the project or into your team. This can look very different from one contingent workers to another depending on the nature of the work, the team and the project.
 
-Generally speaking, you should know that contingent workers are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](https://internal.gitlab.com/handbook/it/end-user-services/access-request/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
+Generally speaking, you should know that contingent workers are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
 
 As a general guideline you would want them to:
 
@@ -81,7 +81,7 @@ As a general guideline you would want them to:
 
 ### Announcements
 
-It is important that not only your team knows about the contingent workers but there should be general awareness that Temporary Service Providers are working for GitLab. 
+It is important that not only your team knows about the contingent workers but there should be general awareness that Temporary Service Providers are working for GitLab.
 
 It is encouraged to share information about new contingent workers joining in your group and stage Slack channel but you should also consider writing a short message into [#development](https://gitlab.slack.com/app_redirect?channel=development), [#engineering-fyi](https://gitlab.slack.com/app_redirect?channel=development) Slack channels or into the [Engineering Week In Review](https://docs.google.com/document/d/1JBdCl3MAOSdlgq3kzzRmtzTsFWsTIQ9iQg0RHhMht6E/edit?usp=sharing) document. For these company-wide channels it is enough to mention that some contingent workers will work for a particular group.
 

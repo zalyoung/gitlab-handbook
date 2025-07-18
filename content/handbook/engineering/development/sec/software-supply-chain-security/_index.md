@@ -12,7 +12,7 @@ To support GitLab's product vision through alignment with the [Software Supply C
 ## Groups
 
 - [Authentication](authentication/)
-- [Authorization](authorization/) and [Anti-abuse](anti-abuse/)
+- [Authorization](authorization/)
 - [Compliance](compliance/)
 - [Pipeline Security](pipeline-security/)
 
@@ -20,7 +20,6 @@ To support GitLab's product vision through alignment with the [Software Supply C
 
 Group priorities are reviewed collaboratively with product counterparts and published on the Software Supply Chain Security direction pages
 
-- [Anti-abuse](https://about.gitlab.com/direction/software_supply_chain_security/#priorities)
 - [Authentication](https://about.gitlab.com/direction/software_supply_chain_security/authentication/#priorities)
 - [Authorization](https://about.gitlab.com/direction/software_supply_chain_security/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/software_supply_chain_security/compliance/tactical-priorities.html#priorities)
@@ -28,11 +27,9 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Product Documentation Links
 
-- [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/)
-- [Vulnerability Pages](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/)
-- [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html)
+- [Authentication and Authorization](https://docs.gitlab.com/administration/auth/)
+- [Compliance Center](https://docs.gitlab.com/user/compliance/compliance_center/)
 - [Security glossary](https://docs.gitlab.com/ee/user/application_security/terminology/)
-- [Software Supply Chain Security testing priorities](/direction/software_supply_chain_security/testing_priorities.html)
 - [Pipeline Security](https://docs.gitlab.com/ee/ci/pipelines/pipeline_security.html)
 
 ## All Team Members
@@ -41,9 +38,9 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 {{% team-by-manager-slug manager="adil.farrukh" team="Engineer(.*)Software Supply Chain Security:Authentication" %}}
 
-### Authorization and Anti-abuse
+### Authorization
 
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Software Supply Chain Security:Authorization|Software Supply Chain Security:Anti-Abuse" %}}
+{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Software Supply Chain Security:Authorization" %}}
 
 ### Compliance
 
@@ -51,13 +48,13 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Pipeline Security
 
-{{< team-by-manager-slug manager="scott-hampton" team="Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
+{{% member-and-role-by-gitlab "fcatteau" "ahuntsman" "cipherboy-gitlab" "dbiryukov"  "iamricecake" "jmallissery" "mgandres" "srajadas" "sroque-worcel" %}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts role="Software Supply Chain Security" other-manager-roles="Engineering Manager(.*)Software Supply Chain Security:(.*)|Director of Engineering(.*)Software Supply Chain Security" %}}
+{{% engineering/stable-counterparts role="Software Supply Chain Security" other-manager-roles="Engineering Manager(.*)Software Supply Chain Security:(.*)|Director of Engineering(.*)Software Supply Chain Security" %}}
 
 ## Software Supply Chain Security staff meeting
 
@@ -133,16 +130,6 @@ If the contributor needs an EE license, we can point towards the [Contributing t
 During the planning phase of a milestone, the EM for each group will create a new issue using the template in [epic](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/70), for any major new features and tag Software Engineer in Test from Software Supply Chain Security. SETs from Test Engineering and EMs can periodically review/discuss the list of open issues, and add appropriate priority labels.
 
 The intent of [shifting left and testing at the right level](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html#how-to-test-at-the-correct-level) is that teams are responsible for testing and to have engineers doing the feature coverage reviews and adding specs or E2E test as needed. The reason for including the SET is to give oversight across the groups and provide guidance/support. If the SET has capacity then they can contribute as needed, using the priority labels, but this is not the expectation.
-
-## Metrics
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "STAGE_LABEL"="software_supply_chain_security" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "STAGE_LABEL"="software_supply_chain_security" >}}
-{{< /tableau >}}
 
 ## Links and resources
 

@@ -41,14 +41,14 @@ Please take time to understand any code that you are asked to copy and paste in 
 2. Create a public and private key pair by running this command in your terminal or PowerShell.
 
    ```bash
-   ssh-keygen
+   ssh-keygen -t ed25519
    ```
 
-3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press <kbd>Enter</kbd> to accept the default key location and name.
+3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`. Press **Enter** to accept the default key location and name.
 
    > If preferred, you can also provide a custom file path and key name for this step.
 
-4. The second prompt will ask you to set a password for the key file. Press <kbd>Enter</kbd> to use a blank passphrase for the local key file.
+4. The second prompt will ask you to set a password for the key file. Press **Enter** to use a blank passphrase for the local key file.
 
    > To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
 
@@ -77,14 +77,14 @@ Please take time to understand any code that you are asked to copy and paste in 
 
    > By default, the key will be saved in the `~/.ssh` directory. If you saved the key to a different directory, you will need to `cd` to that directory instead.
 
-1. You should see two key files: a public key (ex. `id_rsa.pub`) and a private key (ex. `id_rsa`). The public key ends with `.pub` and is what you need to share with GitLab.
+1. You should see two key files: a public key (ex. `id_ed25519.pub`) and a private key (ex. `id_ed25519`). The public key ends with `.pub` and is what you need to share with GitLab.
 
    > **Security Warning:** You should never share your private key or paste it into any website form field. Only your public key should be shared.
 
-1. Display the contents of your public key by using the `cat id_rsa.pub` command as seen below.
+1. Display the contents of your public key by using the command as seen below.
 
    ```bash
-   cat id_rsa.pub
+   cat id_ed25519.pub
    ```
 
    > If you used a different file name, you command will be `cat <filename>.pub`
@@ -146,7 +146,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
    In Windows:
 
-   ```bash
+   ```cmd
    mkdir ~\training
    cd ~\training
    ```
@@ -367,7 +367,7 @@ You will see that your branch is one commit behind in the `git status` output.
    git pull
    ```
 
-1. View the updated contents of the file by typing in the `cat README.md` command. You should see the fourth line that you added in the GitLab Web IDE.
+1. View the updated contents of the file by typing in the `cat README.md` command. You should see the third line that you added in the GitLab Web IDE.
 
    ```bash
    cat README.md

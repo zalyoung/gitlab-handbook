@@ -1,152 +1,217 @@
 ---
 title: Knowledge Base
-description:
+description: GitLab Support's Knowledge Base
 ---
 
-The knowledge base (KB) is a repository of solutions to commonly-encountered problems, created and
-maintained by support engineers. In the KB, we turn the knowledge created when we solve a ticket for
-one customer into a public resource that helps others self-serve &ndash; leveraging one-time effort
-into an article that can be used multiple times independently from the ticket assignee.
+The knowledge base (KB) is a repository of solutions to commonly-encountered problems, created and maintained by Support Engineers (SE).
+The knowledge base turns the effort used to solve a single ticket for one customer into a public resource for all GitLab users.
+
+[GitLab Knowledge Article Page](https://support.gitlab.com/hc/en-us/categories/360002276159-Knowledge-Articles)
+
+Benefits:
+
+- Deflects ticket creation.
+- Resolves user problems faster.
+- Creates consistent, standard answers.
+- Creates an environment of trust.
+- Gives Support more time to focus on harder issues or improvements.
 
 ## Principles
 
-- **Turn it into a habit.** Write it down into the KB every time we solve a problem for customers,
-  for a team member or for ourselves. The more we do it, the easier it becomes.
-- **Accelerate knowledge capture.** Our tools and processes should enhance the speed at which we add
-  knowledge to the KB, prioritizing capturing the right knowledge instead of capturing knowledge right.
-- **Dogfood and update as we reuse.** The KB is as much for us as for our users. We review and
-  update knowledge as we use and reuse it. If it isn't used, don't worry about it.
+- **Turn it into a habit.** If the issue is worth solving, it is worth saving.
+  - Start a knowledge article every time you solve a problem for a customer, a team member or yourself.
 
-## How KB differs from the docs
+- **Accelerate knowledge capture.** Our tools and processes should enhance the speed at which we add knowledge to the Knowledge Base.
+  - Capture Knowledge in the moment when the context is clearest and we are able to access customer feedback.
+  - Provide feedback as soon as possible if you find a better way to do something.
 
-The knowledge base and our product documentation are both key elements of GitLab's digital support
-experience that serve different needs:
+- **Capture customer context.** Prioritize capturing the right knowledge, in the context of the customer.
+  - Focus on documenting the errors and issue as described by the customer for improved findability from other users.
+  - Include clear steps and context when documenting solutions. When in doubt, ask, [would Josh Darnit be able to do it?](https://www.youtube.com/watch?v=cDA3_5982h8)
+
+- **Always be iterating.** The Knowledge Base is as much for us as for our customers. We review and update knowledge as we use and reuse it.
+  - Reuse is Review: We improve the quality of our knowledge by always iterating.
+
+## How Knowledge Articles differ from GitLab docs
+
+The Knowledge Base and our product documentation are both key elements of GitLab's digital support experience that serve different needs
+
+### Docs
+
+Docs answer: "How does this work?"
+
+- Offers comprehensive information about Product features, architecture and Usage.
+- Provides an overview of the current version of our products.
+- Often more technical and detailed 
+- Updated less frequently (New Feature releases)
+- Primarily created for engineers, advanced users, Product details
+
+### Knowledge Articles
+
+Knowledge Articles answer: "How do I fix this?"
+
+- Solves problems encountered while using our products.
+- provides solutions to common issues and questions
+- typically task oriented and includes videos, screenshots
+- Updated frequently based on new issues, new workarounds, new troubleshooting and feedback
+- Primarily created for customer self-service
+
+## Why you should create a knowledge article
+
+Knowledge articles help users to do tasks, get answers to questions and fix issues they may encounter while using our products.
+
+Creating a clear, well-written knowledge article empowers customers to solve issues on their own and helps Support Engineers quickly access accurate, consistent information. Knowledge articles build trust and ensure reliable, repeatable support experiences.
+
+We use *types* of knowledge to efficiently provide the information for our end users. This includes:
+
+- How-To
+- Break/Fix
+- FAQ (Question and answer)
+- Troubleshooting
+
+## When to create a knowledge article
+
+In short, you should create an article when someone will benefit from the information.
+
+Some questions to consider:
+
+- Will it help customers find information quickly?
+- Does it answer a common question / issue?
+- Does it document a repeatable way to do something?
+- Would this information help a customer get what they need without Support intervention?
+- Is this information that may need frequent updates?
+- Is this a new issue (with or without a solution) that may cause an influx of support tickets?
+
+### What Training is Available for Knowledge Articles in ZenDesk?
+
+A list of available training can be found in [Knowledge Base Training Resources](../knowledge-base/knowledge-base-training).
+
+## Implementation
+
+We use ZenDesk to create, modify, and  publish knowledge base articles.  Follow the [training to create a knowledge article](https://docs.google.com/document/d/1zEJHhkIxdhYFnOEJrzw3uinXhrvKtvA17Gn7AmZR9yg/edit?tab=t.0#heading=h.4d11fzkgmi1w) IN ZenDesk.
+
+If you are NOT a ZenDesk User, and want to create a knowledge article, you can do so externally!  Follow the process below.
+
+### How to create a knowledge article if you are not in ZenDesk 
+
+Anyone can create a knowledge article- even if you are not in ZenDesk! 
+
+1. Go to the [Folder and choose a template](https://drive.google.com/drive/folders/1hpHAB51x49bRS1tfUqxiQ56UnlITtFHR)
+2. Create the article using the template and Save the document.
+3. Use the Knowledge Slack Channel [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) to request the article to be created. Please tag {{< member-by-name "Kirsty Allen" >}} . OR you can Create an ISSUE and Assign to {{< member-by-name "Kirsty Allen" >}} 
+4. Your Article will be created in ZenDesk and assigned to a reviewer & then Published. You will be notified of Publication. 
+
+**Light Agents**
+
+If you are a Light Agent in ZenDesk and would like to **create knowledge articles** please do the following:
+
+- Fill out an [Access Request Form](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
+- Request Access to have your Light Agent Role elevated to "create knowledge"
+- Request should include Request Reason:  **Write access for articles**
+- Request should include if this is for **Global, US Gov, or Both**
+- Assign to your Manager for Approval.  **Manager Approval is Required!**
+
+### Integrating with Zendesk offers the following benefits
+
+- Centralized Knowledge Base
+- Scalable and Customizable
+- Seamless Integration with Ticket
+- Improved Support Engineer Productivity
+- Streamlined Analytics and Reporting
+- Streamline "Knowledge Centered Service" (KCS), adopting knowledge into the workflow
+Note: Knowledge base articles are dynamically suggested to a user while submitting a ticket.
+
+Knowledge base articles can be found at:
+
+- [Global support knowledge base](https://support.gitlab.com/hc/en-us/sections/15215649512604-Knowledge-Base)
+- [US Government support knowledge base](https://federal-support.gitlab.com/hc/en-us/sections/29015014994068-Knowledge-Base)
+  **Please Note:** US Government articles as of May 2, 2025 are no longer updated to be consistent with the Global Support Site. No new articles will be available on the US Government page until a later date. Date TBD.
+
+### Roles and Permissions
+
+There are three roles: Support Engineer, Knowledge Champions and Knowledge Admins.
+
+- **Support Engineers**: Create, update and use KB articles in tickets.
+- **Knowledge Champions**: Review, publish, archive and control permissions.
+- **Knowledge Admins**: Make sure everything runs smoothly.
+
+Most Knowledge Base tasks are performed within the Zendesk platform (Support and Knowledge Portal). However, some tasks by Knowledge Admins will require manual work outside of Zendesk.
 
 {{< cardpane >}}
-{{% card header="**Docs**" %}}
+{{% card header="**Knowledge Workers (Support Engineers, Everyone)**" %}}
 
-- Learn about product features and how to use them.
-- Provides an overview of the current version of our products.
-- Used "ahead of time".
+| Task | Executed In |
+|------|---------|
+| Create (draft) articles | Zendesk Knowledge|
+| Modify (update) articles | Zendesk Knowledge |
+| Link Knowledge article in a Ticket | Zendesk Support |
 
 {{% /card %}}
 
-{{% card header="**KB**" %}}
+{{% card header="**Technical Reviewers**" %}}
 
-- Solve problems encountered while using our products.
-- Includes solutions to problems in past versions of our products.
-- Used "just in time".
+| Task | Executed In |
+|------|---------|
+| Review/Approve articles | Zendesk Knowledge |
+| Publish articles | Zendesk Knowledge |
+| Create (draft) articles | Zendesk Knowledge |
+| Modify (update) articles | Zendesk Knowledge |
+| Link Knowledge articles in Zendesk ticket | Zendesk Support |
+| Add / Remove Guide Permissions | `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
+| Archive articles | Zendesk Knowledge |
+
+{{% /card %}}
+{{% card header="**Knowledge Admins (Customer Support Operations)**" %}}
+
+| Task | Executed In |
+|------|---------|
+| Restore articles | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
+| Delete articles | Have Knowledge Champion archive, [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) to have it permanently deleted |
+| History of articles | Zendesk Knowledge (Changelog, available to everyone)|
+| Creating permission sets | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Create (draft) articles | Zendesk Knowledge |
+| Modify (update) articles | Zendesk Knowledge |
+| Link Knowledge articles | Zendesk Support |
+| Create section | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Update section | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
+| Delete section | [Feature Request](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature) with Customer Support Operations |
 
 {{% /card %}}
 {{< /cardpane >}}
 
-You can use this as a guide when deciding if you should contribute something to the KB or if you
-should make it a docs update.
+### Contributors (Knowledge Workers)
 
-## Implementation
+Everyone can contribute to knowledge! The most important thing is to capture the knowledge you've created while solving a problem.
+The review process will ensure the content is technically accurate and clear.
 
-We use [Zendesk Guide](https://www.zendesk.com/sg/service/help-center/) to publish knowledge base
-articles and suggest them to users who are seeking help.
+### Technical Reviewers
 
-A list of knowledge base articles can be found at:
+There will be Support Engineers and Support Managers trained as technical reviewers for knowledge articles across the globe.
 
-- [Global support knowledge base](https://support.gitlab.com/hc/en-us/sections/15215649512604-Knowledge-Base)
-- [US Government support knowledge base](https://federal-support.gitlab.com/hc/en-us/sections/29015014994068-Knowledge-Base)
+[Available Technical Reviewers (by region and subject)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
 
-Knowledge base articles are suggested when a user is submitting a ticket:
+Technical Reviewers can now also be found under Column 4 (Looking to Help others) on the [Skills by Subject Page](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
 
-![Knowledge base suggestions in Zendesk](/images/support/kb-suggestions.gif)
+Technical Reviewers should be Subject Matter Experts (SMEs) in certain areas (Such as Runner, Authentication, Migrations, etc.). The Technical Reviewers are tasked with **reviewing knowledge articles** based on their knowledge of features.
 
-We use the [Support Pages project](https://gitlab.com/gitlab-com/support/support-pages) to manage
-knowledge base content. This has the following benefits:
+#### Technical Revier Responsibilities
 
-- The project is open to public, allowing everyone to contribute.
-- Avoid vendor lock-in of our knowledge base content.
+Technical Reviewers are expected to:
 
-## How to contribute
-
-### Submitting a KB article
-
-1. Pick the appropriate template in the [`/kb-documentation/templates`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/kb-documentation/templates)
-   directory:
-   - [`break-fix.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md): Issues encountered by users with one or more specific resolution steps.
-   - [`how-to.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/how-to.md): Steps to do a specific task. Does not need to be an issue.
-   - [`question-answer.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/question-answer.md): Simple article answering a question.
-1. Duplicate the template, placing the new file in the appropriate directory:
-   - [`/knowledge-base/all_instances`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/knowledge-base/all_instances):
-     This is where the majority of knowledge base articles will live.
-   - [`/knowledge-base/global_only`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/knowledge-base/global_only):
-     Typically for content specific to GitLab.com.
-   - [`/knowledge-base/us_government_only`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/knowledge-base/us_government_only):
-     For content specific to our US Government product offerings.
-1. Fill out the template with the content you'd like to contribute.
-   - Focus more on the technical content.
-   - Follow the [style and content guide](./kb-style-guide.md) as closely as you can.
-   - Consider [using Duo](#using-ai-to-generate-content) as a first pass.
-1. Create the merge request using the `Knowledge Base Article` template.
-1. Assign reviewers:
-   - If timeliness is important, assign a Staff Support Engineer or Support Manager for review.
-   - Otherwise, the template will assign the KB editors: currently `@irisb` or `@weimeng-gtlb`.
-
-### Reviewing a KB article
-
-- Always. Be. Merging. Make suggestions and apply them yourself.
-- It's more important to capture the knowledge than to capture it with the right style and formatting.
-
-### Publishing a KB article
-
-Publishing an article should be done by the person who merges a KB MR. After the KB article is merged:
-
-1. Submit a request using the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/), selecting `Create a Zendesk article` for the field "What is this request concerning?".
-1. After successful submission, the Support Super Form will create an issue and post URLs to
-   the published KB article. The sync may take 5 to 10 minutes to complete.
+- Prioritize and Normalize checking the **Manage Articles list** as part of their daily workflow and routine.
+- Collaborate with Knowledge article contributors on the technical accuracy of the content, prioritizing having updates published as soon as possible.
+- Technically review knowledge articles and determines if the article can be Published for customers (or should remain internal).
+- Understands the material and requirements for the article being published.
+- Identify trends and opportunities from reporting.
+- Provides feedback for knowledge articles.
 
 ### Getting Help
 
 Questions can be asked in the dedicated [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) Slack channel.
 
+For any issues with permissions, please use the knowledge dedicated Slack channel:  [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) - and  tag  or open an [Issue](https://gitlab.com/gitlab-com/support/support-team-meta) and tag {{< member-by-name "Kirsty Allen" >}}.
+
 ### Using AI to generate content
 
-- You **must use Duo** for any customer related ([Red](../../security/data-classification-standard.md#red)) data. Claude is only approved for [Orange data](../../security/data-classification-standard.md#orange) at this time.
-- Duo can help quickly generate a first pass of an article. **Always** review generated data by Duo for technical accuracy. You are still the SME of the article and original customer issue.
-- You must be directly on the page of the article template, i.e. [break-fix.md](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md). If the request is made in another location, Duo may make up random sections in the article.
-- Duo will not immediatly provide the output in plain text even if asked in the original prompt. Requesting "raw markdown" may work, but there is [an issue](https://gitlab.com/gitlab-org/gitlab/-/issues/482485) when code blocks are included.
-- Examples:
-  - [GitLab Unfiltered](https://www.youtube.com/watch?v=4z6Xnh3B-wU) video(requires authentication) demonstration creating an article by copying ticket data.
-  - [GitLab issue](https://gitlab.com/gitlab-com/support/support-pages/-/issues/7) demonstrating text prompts and output.
-
-## Roles
-
-### Contributors
-
-Everyone can contribute. The most important thing is to capture the knowledge you've created while
-solving a problem. You don't need any special training to begin.
-
-### Rapid reviewers
-
-Staff Support Engineers and Support Managers are KB rapid reviewers who can be called on to approve
-and merge content without needing to wait for an editor to become available.
-
-Rapid reviewers should:
-
-- Be called upon when there is advantage to publishing changes quickly, i.e. when new product issues
-  are encountered by users or as part of incident response.
-- Collaborate with KB contributors on the technical accuracy of the content, prioritizing having
-  updates published as soon as possible.
-- Tag a KB editor after approving and merging a KB article merge request to ask for a style and
-  format review and edit.
-
-### Editors
-
-KB editors help ensure KB articles are accessible to readers and have consistent style and
-formatting.
-
-To become a KB editor:
-
-- Contribute KB articles.
-- Talk to {{< member-by-name "Wei-Meng Lee" >}}.
-
-The current KB editors are:
-
-- {{< member-by-name "Iris Blackburn" >}}
-- {{< member-by-name "Wei-Meng Lee" >}}
+- **ZenDuo** can assist with generating a *first pass* of an article. **Always** review generated data by Duo for technical accuracy. You are still the subject matter expert (SME) of the article and original customer issue.
+- Only use ZenDuo or Duo chat when providing customer data. Other LLM services, such as Claude, are not approved for [Red data](../../security/standards/data-classification-standard.md#red).

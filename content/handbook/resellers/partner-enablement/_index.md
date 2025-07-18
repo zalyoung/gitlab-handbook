@@ -8,7 +8,7 @@ In this section of the Partner Programs Handbook we review assets and enablement
 
 Beyond our Partners Handbook pages you will find sales guides, use cases, training materials, and program guides reviewed below. Additional partner-specific content is hosted in our [GitLab Partner Portal](https://partners.gitlab.com/). The materials should be a great place to start effectively selling, serving and hitting your number with GitLab.
 
-Remember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/English/).
+Remember that some of the links below require you to login to [GitLab's Partner Portal](https://partners.gitlab.com/) first. If you haven't already, [here is where you register for portal access](https://partners.gitlab.com/partner/registration).
 
 ## Presales and Technical Enablement Resources
 
@@ -95,7 +95,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours) (Interactive demos)
   - A great collection of self-guided, hands-on, interactive exercises for (potential) customers, powered by [Navattic](https://www.navattic.com/). They can also serve as substitutes or safe fallbacks for live demos.
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
-  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Please refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
+  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab. Check out the README for further info.
 - [GitLab Learn Labs - Tanuki Racing](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) (GitLab Project)
@@ -104,7 +104,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
   - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
   - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
-- [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
+- [GitLab Proof of Value Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
   - This handbook page is a great resource and link aggregation point for resources to conduct Proof Of Values (POVs).
 - [The GitLab Demo Page](/handbook/solutions-architects/demonstrations/) (Handbook)
   - Good reference material for general purpose demos the same way GitLab SA's do it.
@@ -163,22 +163,52 @@ Delivery docs and technical guidance for your GitLab practice engineers
   - Review the rest of the assets on the Getting Started with GitLab page.
 - [Using GitLab Tutorials](https://docs.gitlab.com/ee/tutorials/) (GitLab Docs)
   - These video and web page tutorials are included in the GitLab Docs site.  They are a great starting point for learning or deploying technical capabilities.
+- [Value Stream Management for GitLab Partners](https://partners.gitlab.com/prm/English/s/assets?id=634200&renderMode=Collection)
+  - Login to the [GitLab Partner Portal](https://partners.gitlab.com/) first.
 
-**Additional References for You**
+### GitLab Channel Service Packages
 
-- [Service Kits](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) (Portal Assets)
-  - We have developed service kits for you including sample Statements of Work (SOWs) and Level of Effort (LOEs).
-- [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) (Portal Assets)
-  - These delivery kits are what our internal PS teams use for customer projects.  Go grab what you need!
+The following Services are examples that you can take, modify and use to provide your own branded professional consultative services that involve GitLab.
+
+- Readiness Assessment - [Data Sheet](https://drive.google.com/file/d/1OWZdw44MMaYLyrvxGo96vYuzz5wTXeaq/view), [Statement of Work (SOW)](https://drive.google.com/file/d/1t5tHaXZrMiNgLGzaBTT2ksjjgDHJqyQN/view), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/health-check), [System Readiness Report (Health Check) TEMPLATE](https://docs.google.com/document/d/1j4Jmz_SCJEeeQT4uCIHiw6ngwsZyW_aAMVvSIyO2ndc/edit?tab=t.0).
+- Partner Led GitLab Optimization - [Data Sheet](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection), [Delivery Kit](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459891&renderMode=Collection).
+- Dedicated Implementation Services - [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-template).
+- Migration QuickStart - [Data Sheet](https://drive.google.com/file/d/1dPs65e23bzlBQ_DxXbAkzZl-6t5OkFzZ/view), [Statement of Work (SOW)](https://docs.google.com/document/d/1PXTz1Lvp1H9mrxyQNL_-bcDBrNWmsGQa47pMYPTXnTI/edit?tab=t.0), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-delivery-kits/migration-template), [Service Description](https://about.gitlab.com/professional-services/skus/migration-quickstart/).
+- Self-Managed Rapid Results Consulting - [Data Sheet](https://drive.google.com/file/d/18LSkP5ZqJDkzLO2558W_70hS3KsjfjJe/view), [Statement of Work (SOW)](https://about.gitlab.com/professional-services/skus/implementation-quick-start-ha/), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-quickstart-self-managed).
+- GitLab.com Rapid Results Consulting - [Data Sheet](https://drive.google.com/file/d/1dtCtZjCgolbO0lZ8BzTfPG_BNC6Tv078/view), [Statement of Work (SOW)](https://about.gitlab.com/professional-services/skus/implementation-quick-start-com/), [Project Plan](https://docs.google.com/spreadsheets/d/19SHEt8wxulxZMDuZqm-RXZCOds2mZI9RIR0z5vbH1WE/edit?gid=0#gid=0), [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits/implementation-quickstart-gitlab-com).
+
+- [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits)
+  - These delivery kits are what our internal GitLab Professional Services teams use for customer projects. You are encouraged to take, modify and use to provide your own branded professional consultative services that involve GitLab.
+
+- [Professional Services Full Catalog](https://about.gitlab.com/professional-services/catalog/)
+  - This is a full public listing of services offered by GitLab's Professional Services Team. Use this as a starting place to add additional integrations, add-on services, remix bundles of these service offerings as your own.
+
+### Professional Services Team Handbook Quick links
+
+Here are links to the most popular Professional Services topics from the [Professional Services Team Handbook page](/handbook/customer-success/professional-services-engineering/).
+
+- [Marketed Offerings](https://about.gitlab.com/services/)
+- [Offerings Framework & Delivery Kits](/handbook/customer-success/professional-services-engineering/framework/)
+- [Positioning](/handbook/customer-success/professional-services-engineering/positioning/)
+- [Professional Services Methodology](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/)
+- [Selling](/handbook/customer-success/professional-services-engineering/selling/)
+- [Working with PS](/handbook/customer-success/professional-services-engineering/working-with/)
+- [SKUs](/handbook/customer-success/professional-services-engineering/skus/)
+- [Education Services](/handbook/customer-success/professional-services-engineering/education-services/)
+- [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
+- [Partner Collaboration](/handbook/customer-success/professional-services-engineering/partner-collaboration/)
+- [Sales enablement](/handbook/customer-success/professional-services-engineering/sales-enablement/)
+- [Professional Services Operations](/handbook/customer-success/professional-services-engineering/professional-services-operations/)
+- [Escalation Process](/handbook/customer-success/csm/escalations/)
 
 ## Additional Resources
 
 ## 1. Official GitLab Training on Level Up
 
-- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/prm/English/c/Training)
-  - We use LevelUp that is accessible publicly, but please do not use the site directly as a Partner.  Please login through the Partner Portal and access training there.  This will ensure that the training you take will be associated with your company partnership with GitLab!
+- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/)
+  - Please login through the Partner Portal to access training in GitLab University. This will ensure that the training you take will be associated with your company partnership with GitLab!
 
-    ![Start Training from the Partner Portal](/images/resellers/partner-enablement/gitlab-partner-training.png) *Start Training from the Partner Portal*
+    ![Start Training from the Partner Portal](/images/resellers/partner-enablement/gitlab-partner-training.png)
 
 ## 2. Additional Enablement Resources at GitLab
 

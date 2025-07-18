@@ -90,7 +90,8 @@ Cloudflare
 
 - GitLab.com:
   - [Cloudflare Dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/waf/rate-limiting-rules)
-  - [Cloudflare Rules Terraform](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf)
+  - [Base Cloudflare Rules Terraform](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules) shared with Dedicated.
+  - [GitLab.com Cloudflare Rules Terraform](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-custom-rules.tf)
 - Cloud Connector:
   - [Cloudflare Dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/cloud.gitlab.com/security/waf/rate-limiting-rules)
   - [Runbook + TF links](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloud_connector/README.md#rate-limiting)
@@ -106,7 +107,7 @@ Application
 
 - [Application Settings](https://gitlab.com/admin/application_settings/network) (admin access only)
   - See `User and IP Rate Limits` and `Protected Paths`
-- [GitLab.com Docs](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits) (published manually)
+- [GitLab.com Docs](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom) (published manually)
 
 </td>
 </tr>
@@ -115,7 +116,7 @@ Application
 
 ### Bypasses
 
-[Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions.
+[Published rate limits](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom) apply to all customers and users with no exceptions.
 
 Customers or internal teams seeking a bypass should refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
@@ -148,7 +149,7 @@ Gitlab.com Rate Limiting
 </th>
 <td>
 
-- Configured by Terraform in [config-mgmt](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf).
+- Configured by Terraform in `config-mgmt` with [base limits shared with Dedicated](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules/-/blob/main/cloudflare-rate-limits.tf) and [GitLab.com specific ones](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-custom-rules.tf) rules.
 - Covers a wide range of cases:
   - Global limits per `IP`
   - Global limits per `session` (cookies) or `tokens` (headers) can be used as rate counters to avoid IP scope false positives, e.g. many users behind a single IP, VPN.
@@ -164,17 +165,10 @@ Cloud Connector Rate Limiting
 <td>
 
 - Configured by Terraform (see [runbook links](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloud_connector/README.md#cloudflare)).
-- Limits per application-specific HTTP header fields.
-- Throttles both end-user clients such as IDEs as well as GitLab Rails instances (GL.com, SM and Dedicated.)
+- Throttles requests from both end-user clients such as IDEs as well as GitLab Rails instances (GL.com, SM and Dedicated.)
+- Limits are counted against any GitLab user's anonymous global user ID, regardless of where the request originates from.
 - Primarily used to throttle consumption of non-horizontally scalable resources such as AI vendor limits.
 - Can be configured for each Cloud Connector backend individually.
-- Backends can segment requests using custom selectors and map them to buckets. Each bucket:
-  - Might represent a certain user or customer cohort.
-  - Can define a per-user and per-instance rate limit.
-  - For example, we segment AI requests into `Small`, `Medium` and `Large` customers based on the number of Duo seats
-    they purchased from us. The more seats they have, the more requests they get.
-  - It is possible and allowed to define a single catch-all bucket that matches all requests,
-    in which case each request observes the same static rate limit.
 
 </td>
 </tr>
@@ -279,12 +273,12 @@ GitLab utilises [RackAttack](https://docs.gitlab.com/ee/development/application_
 
 For more information about configuring rate limits for a GitLab instance, see the [User and IP rate limits](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html) doc.
 
-You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
+You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
 
 ### ApplicationRateLimiter
 
 The GitLab application has simple rate limit logic that can be used to throttle certain actions which is used when we need more
-flexibility than what Rack Attack can provide, since it can throttle at the controller or API level. These rate limits are configured in [application_rate_limiter.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb). The scope is up to the individual limit implementation and can be any ActiveRecord object or combination of multiple.  It is commonly per-user or per-project (or both), but it can be anything, e.g. the RawController limits by project and path.
+flexibility than what Rack Attack can provide, since it can throttle at the controller or API level. These rate limits are configured in [application_rate_limiter.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb). The scope is up to the individual limit implementation and can be any ActiveRecord object or combination of multiple. It is commonly per-user or per-project (or both), but it can be anything, e.g. the RawController limits by project and path.
 
 There is no way to bypass these rate limits (e.g. for select users/groups/projects); when the rate limit is reached a plain response with a 429 status code is issued without rate limiting headers.
 
@@ -320,12 +314,25 @@ The list of semi-standard rate limiting response headers can be found [here](htt
 
 See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) for improvements to returning rate limiting response headers.
 
-## Avoiding Rate Limits
+## Client-Side Best Practices
 
 To minimize the risk of hitting rate limits, you can try the following:
 
-- Stagger the execution of your automated pipelines.
-- Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
+1. Implement Retry Logic
+    - Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
+    - Respect the `429` response status and `Retry-After` headers.
+    - Implement circuit breakers for persistent failures.
+1. Stagger Automated Pipelines
+    - Reduce the volume of requests being made at any one time.
+1. Request Batching
+    - Combine multiple operations into single requests where possible.
+    - Implement client-side queue management.
+1. Implement Caching
+    - Cache responses where possible to reduce request frequency.
+    - Implement conditional requests, utlizing `If-Modified-Since` for example.
+1. Monitor for Rate Limited Responses
+    - Log and alert on unexpected increases in rate limited requests.
+    - Track rate limit responses and headers where applicable.
 
 ## Troubleshooting
 
@@ -333,7 +340,7 @@ Please see [Rate Limiting Troubleshooting](/handbook/engineering/infrastructure/
 
 ## Important Links
 
-- [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
+- [docs: GitLab.com](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom)
 - [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
 - [runbook: GitLab.com rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
 - [handbook: Identifying the cause of IP Blocks on GitLab.com](/handbook/support/workflows/ip-blocks/)

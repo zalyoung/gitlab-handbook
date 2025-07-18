@@ -8,7 +8,7 @@ title: "Data Analytics"
 - Enable data-driven decision-making through the detection of trends, discovery of anomalies/nuances, and identification of potential opportunities for growth / improvement
 - Craft SQL code and dashboards that meet our internal standards for style, maintainability, and best practices for a high-scale analytics environment. Maintain and advocate for these standards through code review.
 - Partner with [Analytics Engineers](/job-families/marketing/enterprise-data/analytics-engineer/), [Data Engineers](/job-families/marketing/enterprise-data/data-engineer/), and [Governance/Quality Analysts](/job-families/marketing/enterprise-data/data-governance-and-quality-analyst/) to contribute to the enterprise data model and deliver trusted data sources and reports
-- Understand and contribute to the full lifecycle of data in our [Data Catalog](/handbook/enterprise-data/data-catalog/), applying the DataOps philosophy (including an emphasis on automation and continuous iteration/deployment) across the development lifecycle
+- Understand and contribute to the full lifecycle of data in our [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/), applying the DataOps philosophy (including an emphasis on automation and continuous iteration/deployment) across the development lifecycle
 - Deliver high-quality, actionable reports and data products to functional stakeholders and the enterprise at large
 - Conduct comprehensive data quality checks and validation against source systems to ensure data accuracy
 - Document development work and process changes in issue/MR templates and/or the [handbook](/handbook/)

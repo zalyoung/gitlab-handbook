@@ -170,7 +170,7 @@ Below we list product categories and the current and proposed features which res
 While our [tiers](#three-tiers) are based on who leads the purchasing decision there are occasions where driving increased usage takes precedence over the natural buyer-based tiering, always in favor of moving features to lower tiers. Here's why:
 As GitLab develops new categories that are likely to be in paid tiers, it is still reasonable (and in many cases advisable) to get the early MVC versions to land in the free or lower paid-tier to spur adoption, encourage contributions and gain feedback from the wider user base. Over time, the team can then add more features on top of the MVC functionality that will be placed in the paid-tiers. However, Product Managers should not move features down in violation of the buyer-based model unless there is a concrete high confidence plan to follow up with meaningful additions to the base feature that can be added to and monetized with the right paid tier
 
-1. Our [dual flywheels](/handbook/company/strategy/#dual-flywheels) work because of increased users.  Having capabilities in open-source - even for those oriented towards teams encourages more usage - increased users. Those users are essential to creating contributors, an improved product and future tiered features.
+1. Our dual flywheels work because of increased users.  Having capabilities in open-source - even for those oriented towards teams encourages more usage - increased users. Those users are essential to creating contributors, an improved product and future tiered features.
 
 When considering tiering, if the feature is geared to be used (not purchased) by individuals and the answer to the question of `who cares most about this feature?` is `today - very few people` we should consider open-sourcing it to get more usage and contributors. Regardless of the reasoning behind the down-tiering of a feature, the [process](/handbook/company/pricing/#changing-tiers-and-pricing-changes) should still be followed.
 
@@ -202,7 +202,7 @@ graph TD;
 
 The following are our current set of capabilities:
 
-{{% pricing-themes "Premium" "Ultimate" %}}
+{{% product/pricing-themes "Premium" "Ultimate" %}}
 
 #### What happens when themes don't match our Buyer Based Tiering Decisions?
 
@@ -234,7 +234,7 @@ There are multiple reasons why our lower tiers have more relative value:
 1. Any pricing model will have to be compatible with our open source tier. The open source tier should be the top alternative to our priced tiers. That tier has zero cost, zero discounting, a zero price charged for value generated, and infinite value per dollar. Our lowest tier should be the tier that is closest to that to make it possible for people to go from free to paid. As soon as they are paid we can help them to generate more value with GitLab, for example by using more stages. If they realize more value we can move them up in tiers.
 1. The lower tiers (including open source) are a pipeline of future customers for the higher tiers.
 1. We can easily increase revenue in the next 3 years by raising prices and/or making lower tiers less attractive (of course [never by moving features up](#default-to-move-features-down)). But we are optimizing the Net Present Value ([NPV](https://www.investopedia.com/terms/n/npv.asp)) of the company with a 10% a year discount rate. This means we have to look beyond 3 years.
-1. Raising prices on our lower tiers might cause more revenue in the short term, both directly and by compelling most organizations to move to higher tiers. But the minority of organizations that switch to a competition will cause them to be much harder for us to reach in the future and will allow competitors a [flywheel effect](/handbook/company/strategy/#dual-flywheels) of their own. This tradeoff has to be calculated explicitly when raising prices.
+1. Raising prices on our lower tiers might cause more revenue in the short term, both directly and by compelling most organizations to move to higher tiers. But the minority of organizations that switch to a competition will cause them to be much harder for us to reach in the future and will allow competitors a flywheel effect of their own. This tradeoff has to be calculated explicitly when raising prices.
 1. That our lower tiers are popular is not a pricing problem but a communication problem. Higher priced tiers have less value per dollar as a percentage but generate more net value in absolute terms. It is up to us to explain that value in the product, with marketing, and in our sales interactions.
 1. Open core projects capture (ratio of value created vs. captured) less value than proprietary projects. Because the pricing tiers are low relative to the value created the difference between the tiers can be much higher than with proprietary software. If you capture 1% you can easily introduce a new tier at 5x, if you capture 50% even doubling your price will take away all benefit for the customer.
 1. We see customers on Premium but not users on Free. If we focus only on the visible customers that are on Premium we miss the largest opportunity. Premium is priced too if the conversion from Premium to Ultimate is lower than organizations becoming customers after using free. Currently this is not the case because it is much harder reaching out to free users since they aren't customers and we don't have a point of contact to discuss the value of higher tiers.
@@ -429,7 +429,7 @@ This is the title of a [great article](https://www.codingvc.com/p/when-is-a-doll
 
 Annual, up-front pricing is currently our only offering.
 All internal systems should show only annual pricing to keep comparisons simple.
-We do [show monthly pricing externally](#why-show-monthly-pricing-on-the-website).
+We do show monthly pricing externally.
 
 Arguments supporting annual up-front pricing:
 
@@ -479,7 +479,7 @@ Companies evolve to selling only a suite for the following reasons, after the =>
 
 1. Makes it easier for organizations to adopt the other products. => This is essential; organizations have official solutions and GitLab grows with organic adoption from developers.
 1. Show customers the benefit of a [single application](/handbook/product/categories/gitlab-the-product/single-application/). => This is essential, since people are skeptical (showing beats telling).
-1. More usage of all the products. => This is essential for us, due to our [seed then nurture](/handbook/company/strategy/) product strategy.
+1. More usage of all the products. => This is essential for us, due to our seed then nurture product strategy.
 1. Harder to displace the suite, once it is in place. => This will help if competitors offer a service based on our open source code.
 
 We're going even further than selling a suite by integrating everything in a single application. We do that because of the advantages mentioned on our [handbook page about us being single application](/handbook/product/categories/gitlab-the-product/single-application/). A secondary effect is that the user doesn't have to make a buying, or even an adoption, decision.

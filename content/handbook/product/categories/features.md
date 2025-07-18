@@ -7,4 +7,4 @@ description: "List of features by product group"
 
 This page is meant to showcase the features by tier across GitLab's Product Hierarchy.
 
-{{% categories-features %}}
+{{% product/categories-features %}}

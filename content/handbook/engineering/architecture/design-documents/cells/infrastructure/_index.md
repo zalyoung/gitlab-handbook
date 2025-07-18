@@ -9,7 +9,7 @@ status: proposed
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Pre-reads
 
@@ -30,7 +30,7 @@ toc_hide: true
 - **Centralize Tooling**: We have a lot of tooling to manage GitLab.com and separate tooling for GitLab Dedicated,
   which creates silos, duplication of effort, and less portability.
   We have to provision multiple Cells for GitLab.com, we need new tooling, GitLab Dedicated built tooling just for this reason.
-  We should try to use this tooling as much as possible, if there are things we don't agree with we should try [disagree, commit, and disagree](../../../../values/#disagree-commit-and-disagree) to improve a single tool.
+  We should try to use this tooling as much as possible, if there are things we don't agree with we should try [disagree, commit, and disagree](/handbook/values/#disagree-and-commit) to improve a single tool.
   It is ok to start with tooling that has shortcomings, an iterative approach leads to _one_ mature product instead of two.
 
 ## Glossary/Ubiquitous Language
@@ -477,7 +477,7 @@ The first distinction is between teams implementing and maintaining the tools, a
 |                                                   | Emergency brake: stopping a package rollout               | team::Delivery-Deployments      |
 | Rollback capabilities                             |                                                           |                                 |
 |                                                   | Rollback with downtime (for QA Cell in ring 0)            | team::Delivery-Deployments      |
-|                                                   | Delayed Post Deploy Migrations for rollback support       | team::Environment Automation    |
+|                                                   | Delayed Post Deploy Migrations for rollback support       | group::environment automation    |
 | Observability                                     |                                                           |                                 |
 |                                                   | Cell health metric                                        | team::Scalability-Observability |
 |                                                   | Fleet health metric                                       | team::Scalability-Observability |

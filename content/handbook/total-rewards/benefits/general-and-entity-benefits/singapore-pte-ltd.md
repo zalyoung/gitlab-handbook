@@ -3,7 +3,7 @@ title: "GitLab Singapore Pte Ltd"
 description: "Discover GitLab's benefits for team members in Singapore"
 ---
 
-The Total Rewards team hosted a [Singapore Benefits Webinar](https://drive.google.com/drive/folders/1xoXT7VPy6LvHjBp-T6CnY57EE1Y05TYr) on 31-07-2024 with WTW to go over the benefit plans below.
+The Total Rewards team hosted a [Singapore Benefits Webinar](https://drive.google.com/file/d/1dA0aM-wdgaIRDJTCpDmGd-IWMaf3skaq/view?usp=sharing) on 31-07-2024 with WTW to go over the benefit plans below.
 
 ## Medical
 
@@ -74,19 +74,17 @@ When adding a new dependent to the plan, please include the following informatio
 
 ## Annual Health Screening
 
-Effective November 20, 2023, GitLab offers all Singapore Team Members an annual Health Screening through Fullerton Health.
+GitLab offers all Singapore Team Members an annual Health Screening through Fullerton Health.
 
-Team Members can book an Executive Health Screening at one of Fullerton Health's locations throughout Singapore. The cost of the screening will be invoiced directly to GitLab.  The benefit renews in the Calendar Year.
+Team Members can book an Executive Health Screening (Premium Scan) at one of Fullerton Health’s locations throughout Singapore. The cost of the screening will be invoiced directly to GitLab. The benefit renews in the Calendar Year.
 
-Team Members can add Optional Tests and Screenings at their own cost. For additional details on the locations, what is included in the screenings, as well as information on how to book your appointment, please see the [Fullerton Health Guide](https://drive.google.com/file/d/1O7lgEE-lbo2I1lkekc39TDKBDpAV9FXG/view?usp=sharing).
+Team Members can upgrade their scan or add Optional Tests and Screenings at their own cost. For additional details on the locations, what is included in the screenings, as well as information on how to book your appointment, please see the [Fullerton Health Guide](https://drive.google.com/file/d/1C35dLvk92DftxpguoDKOP-u3QnfUdL-L/view?usp=sharing).
 
-You can sign up for the benefit and book an appointment via the [Fullerton Health Website](https://bookappt.fullertonhealth.com/#/login). Click on "Sign Up", fill out your information, and search for "GITLAB SINGAPORE PTE LTD" under the Company drop down.
+You can sign up for the benefit and book an appointment via the [Fullerton Health Website](https://bookappt.fullertonhealth.com/#/login). Click on “Sign Up”, fill out your information, and search for “GITLAB SINGAPORE PTE LTD” under the Company drop down.
 
 Note: Since GitLab pays for the benefit directly, this benefit is not considered CPF payable
 
-Contact Details for Fullerton Health:
-Email ehs@fullertonhealth.com
-+65 6333 3636 (Option 3)
+Contact Details for Fullerton Health: Email ehs@fullertonhealth.com +65 6333 3636 (Option 3)
 
 ### Administration of Health Screening
 
@@ -141,14 +139,14 @@ Team members who have been continuously employed by GitLab for at least 3 months
 
 #### Paternity Leave
 
-Team members who have been continuously employed by GitLab for at least 3 months immediately before their child's due date may be entitled to 2 weeks of government-paid paternity leave. Please visit the [Ministry of Manpower website](https://www.mom.gov.sg/employment-practices/leave/paternity-leave) for more information on eligibility.
+Team members who have been continuously employed by GitLab for at least 3 months immediately before their child's due date may be entitled to 4 weeks of government-paid paternity leave. Please visit the [Ministry of Manpower website](https://www.mom.gov.sg/employment-practices/leave/paternity-leave) for more information on eligibility.
 
 - For [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) team members, this leave runs concurrently with GitLab Parental Leave. If eligible, team members would receive up to 16 weeks of paid paternity leave.
 
 **Applying for Government-Paid Paternity Leave**
 
 - Team members must submit their leave request through Workday by choosing the `Parental Leave` option.
-- Team members must submit a [GPPL Declaration](https://file.go.gov.sg/gppl1form.pdf) to the Absence Management team at `leaves@gitlab.com` as soon as possible.
+- Team members must submit a [GPPL Declaration](https://file.go.gov.sg/gpfd1.pdf) to the Absence Management team at `leaves@gitlab.com` as soon as possible.
 - GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://www.profamilyleave.msf.gov.sg/schemes/maternity-leave).
 
 #### **Annual Leave**

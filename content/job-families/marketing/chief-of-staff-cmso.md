@@ -17,7 +17,7 @@ The responsibilities include both directed work initiated by the CMSO as well as
 - Leads key priorities and projects across the global Marketing team
 - Acts as a sounding board to the CMSO and CMSO leadership team for new ideas and initiatives
 - Acts as a thought partner to the CMSO, CMSO leadership team
-- Initiates and guide the CMSO team OKR process according to the [OKR schedule](/handbook/company/okrs/#schedule) in partnership with the CoS, CEO
+- Initiates and guide the CMSO team OKR process according to the [OKR schedule](/handbook/company/okrs/) in partnership with the CoS, CEO
 - Works closely with internal teams on goal-setting and tracking, interfacing, and consulting with cross-functional groups
 - Develop and maintain strong relationships with executives, senior leaders, and stakeholders to achieve project objectives and deliverables
 - Serving as CMSO Board Liaison, including creating and developing Board and Committee materials

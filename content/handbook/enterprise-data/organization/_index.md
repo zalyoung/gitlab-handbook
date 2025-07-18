@@ -7,7 +7,7 @@ description: "GitLab Data Team Organization"
 
 ## Data Team Organization
 
-The Data Team Organization model is guided by three primary business needs:
+The Data Team Organization model is guided by five primary business needs:
 
 1. The need for **bespoke data solutions** unique to the GitLab business.
 1. The need for **high-performance and reliable data storage and compute** platform to support distributed analyst teams.
@@ -17,71 +17,40 @@ The Data Team Organization model is guided by three primary business needs:
 
 Based on these needs, the Data Team is organized in the following way:
 
-1. **Data Pods:** Pods are assembled to provide concentrated focus on delivering & maintaining **data products** for **strategic company initiatives**. Pods are staffed with multiple data personas including Data Analyst, Data Scientist, Analytics Engineer, and supported by Data Engineer as stable counterpart.
 1. **[Analytics Engineering](/handbook/enterprise-data/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
-1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
-1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
+1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--architecture-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
+1. **[Data Science Team](/handbook/enterprise-data/#the-enterprise-insights--data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
 1. **[Data Governance and Data Quality Team](/handbook/enterprise-data/):** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement. 
 
-## Data Pod Assignments
+## Data Team Operating Model
 
-| POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
-| ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
-| Company KPIs              |  @iweeks          | @dantenel @chrissharp @annapiaseczna @j_kim    | @annie-analyst  |                |
-| Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
-| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 @lisvinueza |                 |                |
+The Enterprise Data Team collaborates internally via Key Results. Key Results are planned on a quarterly basis and various team members from the four pillars of the Team can be assigned to a Key Result. The Key Result has a DRI who is the Directly Responsible Individual for the business outcome of the Key Result and leading the Team to success. Each respective pillar on the Team has flexibility to establish their own pillar specific ceremonies as well as processes on how they triage and assign P1-Ops and P3-Other issues that come up. 
 
-## Analytics Engineering - Stable Counterpart Assignments
+It is optional for team members to attend the ceremonies of other pillars. Team members are encouraged to attend other pillar ceremonies where attendance adds value. 
 
-| Department / Division | Functional Analytics Team / Steering Committee | Analytics Engineer      |
-| ---------------- | --------------------------------- | ----------------------- |
-| Sales            |  Revenue Strategy and Analytics   |  @j_kim @dantenel       |
-| Marketing        |  Marketing Strategy and Analytics |  @dantenel              |
-| Finance          |  FP&A Analytics                   |  @annapiaseczna         |
-| Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
-| Product          |  Product Data Insights            |  @michellecooper        |
-| Engineering      |  Engineering Analytics            |  @michellecooper        |
-| Security         |  Engineering Analytics            |  @michellecooper        |
-| Support          |  N/A                              |  @michellecooper        |
-| People           |  People Analytics                 |  @rakhireddy            |
-| R&D              |  Product Usage Data Architecture Steering Committee | @pempey |
+At times, a pillar in the Enterprise Data Team may require collaboration and support from another pillar on an extended basis, lasting multiple quarters, and requiring consistent and deep support across P1, P2, and P3 issues. In these cases, a team member can be assigned as a stable counterpart to the pillar for an extended period of time with an end date established for the commitment where that team member will provide dedicated support across P1, P2, and P3 issues for the pillar. Expectations and capacity will be agreed at the start of the assignment and could change throughout in collaboration and agreement. 
 
-## Data Platform Team Stable Counterpart Assignments
+Below are the expectations of the DRI assigned to the Key Result:
 
-| POD | Data Engineer |
-| --- | ------------- |
-| Enterprise Metrics | @csnehansh |
-| Customer Intelligence | @rigerta |
-| Customer Product Adoption | @juwong |
+1. Ensure completion of the opportunity canvas and ask for help when needed.
+2. Schedule a work breakdown session with the Key Result Team. This can be either asynchronous or synchronous depending on the Key Result.
+3. Schedule recurring stand-ups and working sessions as needed with the Key Result Team. This can be either asynchronous or synchronous and at a frequency that makes sense for the Key Result.
+4. Provide a monthly update in the Key Result Issue in the OKR Project. Include percent complete and health status of the Key Result.
+5. Raise risks and dependencies for successful completion of the Key Result with the data management team.
 
-### Manager, Data
+## Analytics Engineering - Team and Stable Counterpart Assignments
 
-In support of the Data Pod, the Manager, Data fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
-
-1. Works with the Director, Data to envision and draft Quarterly Objectives, driven by requirements gathered from multiple business partners.
-1. Monitor, measure, and improve key aspects of the Data Pods.
-1. Regularly meet with business partners to understand and solve for data needs.
-1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
-
-### Lead Analytics Engineer (Stable Counterparts for the Business)
-
-In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
-
-1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
-1. Co-DRI of Key Results along with the Manager, Data.
-1. Lead [work breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) sessions for OKRs.
-1. Work with functional stakeholders to prioritze `P3-Other` issues.
-1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
-1. Review the weekly stand-up and provide support as needed to unblock team members and answer questions.
-
-### Data Platform Team Stable Counterpart
-
-Following the GitLab [Stable Counterpart](/handbook/leadership/#stable-counterparts) principles, every **Data Pod** have a **Data Platform Team** Stable Counterpart assigned. The Data Platform Stable Counterpart divides their time, work and priorities between the Data Platform Team and Data Pod (general an average of 50% each, P2-OKR scheduled ahead of the quarter in collaboration with the respective Pod). The Stable Counterpart is aware of the direction and priorities of the Data Pod and when needed brought into discussion with the Data Platform Team. I.e. when there is a bigger demand than the Stable Counterpart can handle in the assigned availability or architectural direction needs to change. The Stable Counterpart recognize, flags and address this with the applicable stakeholders (in general the Lead/DRI of the Data Platform Team and the Data Pod).
-
-The stable counterpart is expected to participate in the following meetings asynchronously or synchronously. When in doubt, please reach out to the Data Pod Manager to learn which meetings on the calendar you should participate in. In general, the meetings in scope are as follows:
-
-1. Data Pod Iteration Planning Meetings.
-1. Data Pod Team Meetings.
+| Department / Division | Functional Analytics Team | Analytics Engineer      | Analytics Engineering Sub-Team |
+| ---------------- | --------------------------------- | ----------------------- | ---------- |
+| Sales            |  Revenue Strategy and Analytics   |  @j_kim @dantenel       | GTM |
+| Marketing        |  Marketing Strategy and Analytics |  @dantenel              | GTM |
+| Finance          |  FP&A Analytics                   |  @annapiaseczna         | Finance |
+| Customer Success |  CS Strategy and Analytics        |  Pending resourcing                    | R&D |
+| Product          |  Product Data Insights            |  (Interim) @lisvinueza  | R&D |
+| Engineering      |  Engineering Analytics            |  (Interim) @lisvinueza  | R&D |
+| Security         |  Engineering Analytics            |  (Interim) @lisvinueza  | R&D |
+| Support          |  N/A                              |  TBD                    | TBD |
+| People           |  People Analytics                 |  @rakhireddy            | People |
 
 ## Data Program Recruiting
 
@@ -121,7 +90,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | Extract [new data sources](/handbook/enterprise-data/how-we-work/new-data-source/) | Own a specific area of the data platform |
-| Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) | Propose new ideas and come up with Data Platform improvement initiatives |
+| Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Propose new ideas and come up with Data Platform improvement initiatives |
 | Understand the current setup of the data platform | Make small/corrective changes to the platform infrastructure or data pipelines | Contribute on work breakdown | |
 
 ### Data Analyst
@@ -148,8 +117,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
-| Complete People and Data Onboarding | Extend an existing Tableau dashboard or complete the triage phase for a dbt issue | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts (e.g. dashboards) or complete a product evaluation|
-| Start attending [Data Fusion Team](/handbook/enterprise-data/#data-fusion-teams) and Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
+| Complete People and Data Onboarding | Extend an existing Tableau dashboard or complete the triage phase for a dbt issue | Run a project end-to-end as DRI | Create ERDs/Data Artifacts (e.g. dashboards) or complete a product evaluation|
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ### Data Science
@@ -173,7 +141,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Meet stakeholders across the organization | Re-train or enhance an existing data science model |  Make a contribution to improve the Data Science handbook, packages, or processes |
-| Start attending Data Science Team meetings | Refine/improve one data science dashboard | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) | Take ownership of at least one quarterly OKR |
+| Start attending Data Science Team meetings | Refine/improve one data science dashboard | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Take ownership of at least one quarterly OKR |
 | Understand the current data science systems and processes |  | |  |
 
 ### Analytics Engineering
@@ -200,8 +168,8 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
-| Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/enterprise-data/data-development/#trusted-data-development) | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts|
-| Start attending Data Fusion Team and Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
+| Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development) | Run a project end-to-end as DRI | Create ERDs/Data Artifacts|
+| Start attending Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ### Data Governance and Data Quality
@@ -229,7 +197,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Take up tasks related to assigned program | Own epic / KR from planning to execution | Own specific data domain for data governance and data quality improvement |
-| Fully understand the data governance and data quality program, priorities and its strategy | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) | Collaborate cross functionally and identify areas for improvement |
+| Fully understand the data governance and data quality program, priorities and its strategy | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) | Collaborate cross functionally and identify areas for improvement |
 | Create a MR to contribute to handbook or templates |  |  |  |
 
 ### Data Governance and Quality Program Manager Job Family
@@ -271,7 +239,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People, Data, and Manager Onboarding | Meet everyone on the team and business data champions | Complete a Team Assessment | Draft a people development Roadmap |
-| Understand the current setup of the data platform | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) and map them to the data platform | Lead discussions with Users/Stakeholders on initiatives and OKRs | Draft a program development Roadmap (Process Improvements /Future State) |
+| Understand the current setup of the data platform | Work on [OKR assignments](/handbook/enterprise-data/how-we-work/planning/#quarterly-okr-planning) and map them to the data platform | Lead discussions with Users/Stakeholders on initiatives and OKRs | Draft a program development Roadmap (Process Improvements /Future State) |
 | Add a new page to the handbook | Make regular contributions to the handbook spanning your area of management | Become DRI for major portions of the Data Handbook | System/Application Change Control Management of one or more modules |
 
 ## Tool Technology Tandem

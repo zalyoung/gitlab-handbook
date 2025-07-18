@@ -27,7 +27,7 @@
 /content/handbook/about/ @gitlab-com/content-sites
 
 # The higher level job-families directory needs to be outside of a section and near the top of this CODEOWNERS file as job-families require additional approvals beyond what's listed in other sections below
-/content/job-families/ @cbednarz @anjali_kaufmann @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/ @cbednarz @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
 
 ##
 ## Add handbook sections below in alphabetical order, except Controlled Documents
@@ -37,17 +37,11 @@
 /content/handbook/acquisitions/ @eliran.mesika
 
 ^[alliances]
-/content/handbook/alliances/ @akramer
-/content/job-families/alliances/ @akramer
+/content/handbook/alliances/ @bill_staples
+/content/job-families/alliances/ @bill_staples
 
 ^[business-technology]
 /content/handbook/business-technology/ @NabithaRao
-
-^[office-of-the-ceo]
-/content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
-/content/handbook/ceo/office-of-the-ceo/readmes/cynthia-ng.md @cynthia
-/content/handbook/ceo/office-of-the-ceo/readmes/streas.md @streas
-/content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
 ^[ceo-and-company]
 /content/handbook/board-meetings/ @robin @streas
@@ -59,16 +53,17 @@
 /content/handbook/company/e-group-weekly.md @bill_staples @streas @gitlab-com/egroup
 /content/handbook/company/faq-gitlab-licensing-technology-to-independent-chinese-company.md @bill_staples @streas @yyugitlab
 /content/handbook/company/history.md @bill_staples
-/content/handbook/company/okrs/ @streas
 /content/handbook/company/only-healthy-constraints.md @bill_staples
-/content/handbook/company/quote-to-cash.md @justinfarris @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @juliemalloy @annapiaseczna @simon-mundy @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @ppalanikumar @tgolubeva @courtmeddaugh @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @juliemalloy @annapiaseczna @simon-mundy @msubramanian @amiebright
 /content/handbook/company/stewardship.md @bill_staples
-/content/handbook/company/strategy.md @bill_staples
-/content/handbook/company/group-conversations.md @streas
-/content/handbook/company/key-review.md @streas
 /content/handbook/leadership/ @bill_staples @streas
 /content/job-families/board-of-directors/ @bill_staples @robin
 /content/job-families/chief-executive-officer @bill_staples @streas
+
+^[office-of-the-ceo]
+/content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
+/content/handbook/ceo/office-of-the-ceo/readmes/streas.md @streas
+/content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
 ^[communication]
 /content/handbook/communication/ @drogozinski
@@ -76,117 +71,105 @@
 ^[Company-culture]
 /content/handbook/company/culture/ @streas
 /content/handbook/company/culture/all-remote/ @streas
-/content/handbook/company/culture/summit/ @akramer
-/content/handbook/company/culture/cross-culture-collaboration-guide.md @glucchesi @rallen3 
-/content/handbook/company/culture/gitlab-101.md @akramer @streas
-/content/handbook/company/culture/inclusion/ @rallen3 
+/content/handbook/company/culture/summit/ @bill_staples
+/content/handbook/company/culture/cross-culture-collaboration-guide.md @glucchesi @rallen3
+/content/handbook/company/culture/gitlab-101.md @streas @bill_staples
+/content/handbook/company/culture/inclusion/ @rallen3
 /content/handbook/company/culture/inclusion/tmrg-gitlab-black/ @erran @madou
-/content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sarahwaldner @abuerer
+/content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sarahwaldner @leeeee-gtlb
 /content/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding.md @rallen3  @mdrussell @terrichu
 /content/handbook/company/culture/inclusion/tmrg-gitlab-gente.md @pmejia @romerg
 /content/handbook/company/culture/inclusion/tmrg-global-voices.md @eliran.mesika @twoodham @marin
-/content/handbook/company/culture/internal-feedback.md @rallen3  @mwilkins
 
 ^[customer-success]
 /content/handbook/customer-success/ @spatching @kgeorgeson
 /content/handbook/customer-success/csm/segment/cse/ @afrusciano @esivak @ofalk
 /content/handbook/customer-success/csm/segment/cse/content/ @jwormwell @nesplin @afrusciano
-/content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake @darmans
-/content/handbook/customer-success/professional-services-engineering/education-services/ @seanjsandoval @IanErnst 
+/content/handbook/customer-success/professional-services-engineering/ @bryan-may @darmans @ncayou
+/content/handbook/customer-success/professional-services-engineering/education-services/ @seanjsandoval @dplumbley-gitlab @IanErnst
 
 ^[eba-team]
-/content/handbook/eba/ @jrotenberry @csylva227
+/content/handbook/eba/ @jrotenberry
 
 ^[engineering]
 /content/handbook/engineering/ @sabrinafarmer
 /content/handbook/engineering/cross-functional-prioritization.md @sabrinafarmer @david
 /content/handbook/engineering/developer-onboarding.md @jeromezng @timzallmann
 /content/handbook/engineering/open-source/ @rymai @sabrinafarmer @nick_vh
-/content/handbook/engineering/on-call.md @jfuentes2 @sabrinafarmer @jscarborough
+/content/handbook/engineering/on-call.md @jfuentes2 @sabrinafarmer @jscarborough @marin
 /content/handbook/engineering/performance.md @timzallmann
-/content/job-families/engineering/ @sabrinafarmer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
-/content/job-families/engineering/incubation/ @jeromezng @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/engineering/ @sabrinafarmer @cbednarz @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/engineering/incubation/ @jeromezng @cbednarz @dparsonage @glucchesi @carlierussell @mwilkins
 
 ^[Eng-Architecture]
 /content/handbook/engineering/architecture/ @ayufan @grzesiek @glopezfernandez @andrewn @nicholasklick @DylanGriffith @theoretick @shekharpatnaik @stanhu @fabiopitino @tkuah @ntepluhina @jessieay @vitallium
 
 ^[Eng-Development-department]
-/content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
-/content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng
-/content/handbook/engineering/development/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
-/content/handbook/engineering/development/analytics/monitor/platform-insights.md @dennis @nicholasklick
-/content/handbook/engineering/development/analytics/monitor/optimize.md @dennis @blabuschagne
-/content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
-/content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
-/content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/duo-workflow @bastirehm @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
-/content/handbook/engineering/development/data-science/modelops/ @m_gill
+/content/handbook/engineering/devops/ @m_gill
+/content/handbook/engineering/ai/ @timzallmann
+/content/handbook/engineering/development/ @timzallmann @dsatcher @m_gill @jeromezng
+/content/handbook/engineering/data-engineering/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
+/content/handbook/engineering/data-engineering/analytics/monitor/platform-insights.md @dennis @nicholasklick
+/content/handbook/engineering/data-engineering/analytics/monitor/optimize.md @dennis @blabuschagne
+/content/handbook/engineering/ai/search/ @changzhengliu
+/content/handbook/engineering/ai/code-creation/ @mnohr @jordanjanes
+/content/handbook/engineering/ai/editor-extensions/ @dashaadu @kisha.mavryck
+/content/handbook/engineering/ai/ai-framework/ @timzallmann
+/content/handbook/engineering/ai/custom-models/ @timzallmann
+/content/handbook/engineering/ai/duo-chat/ @juan-silva @timzallmann
+/content/handbook/engineering/ai/duo-agent-platform/ @bastirehm @timzallmann
 /content/handbook/engineering/development/database.md @alexives
-/content/handbook/engineering/development/dev/ @timzallmann
-/content/handbook/engineering/development/dev/create/ @dsatcher
-/content/handbook/engineering/development/dev/create/code-creation/ @mnohr @jordanjanes
-/content/handbook/engineering/development/dev/create/editor-extensions/ @dashaadu @kisha.mavryck
-/content/handbook/engineering/development/dev/create/remote-development/ @adebayo_a
-/content/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
-/content/handbook/engineering/development/dev/foundations/ @m_gill @samdbeckham @wortschi
-/content/handbook/engineering/development/dev/foundations/design-system @samdbeckham
-/content/handbook/engineering/development/dev/foundations/import-and-integrate/ @wortschi
-/content/handbook/engineering/development/dev/foundations/personal-productivity @samdbeckham
-/content/handbook/engineering/development/dev/foundations/search/ @changzhengliu
-/content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
-/content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
-/content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
-/content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
-/content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
-/content/handbook/engineering/development/fulfillment/ @jeromezng @jameslopez @rhardarson @shreyasagarwal @tgolubeva @courtmeddaugh @alex_martin @ppalanikumar
+/content/handbook/engineering/devops/dev/ @m_gill
+/content/handbook/engineering/devops/dev/create/ @dsatcher
+/content/handbook/engineering/devops/dev/create/remote-development/ @adebayo_a
+/content/handbook/engineering/devops/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
+/content/handbook/engineering/devops/dev/plan/knowledge.md @vshushlin
+/content/handbook/engineering/devops/dev/plan/product-planning/ @vshushlin
+/content/handbook/engineering/devops/dev/plan/project-management.md @donaldcook
+/content/handbook/engineering/development/fulfillment/ @jeromezng @courtmeddaugh
 /content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez
-/content/handbook/engineering/development/fulfillment/provision.md @courtmeddaugh
-/content/handbook/engineering/development/fulfillment/utilization/ @jeromezng @alex_martin
+/content/handbook/engineering/development/fulfillment/provision.md @rhardarson @ppalanikumar
+/content/handbook/engineering/development/fulfillment/utilization/ @kkolpakova @courtmeddaugh
 /content/handbook/engineering/development/growth/ @kniechajewicz
-/content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
-/content/handbook/engineering/development/ops/deploy/ @nmezzopera
-/content/handbook/engineering/development/ops/package/ @crystalpoole
-/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams @nmezzopera
-/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @nmezzopera
-/content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
-/content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
-/content/handbook/engineering/development/ops/verify/ci-platform/ @cheryl.li @drew
+/content/handbook/engineering/devops/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
+/content/handbook/engineering/devops/ops/deploy/ @cheryl.li
+/content/handbook/engineering/devops/ops/package/ @crystalpoole
+/content/handbook/engineering/devops/ops/verify/ @cheryl.li @nicolewilliams
+/content/handbook/engineering/devops/ops/verify/pipeline-authoring/ @cheryl.li
+/content/handbook/engineering/devops/ops/verify/pipeline-execution/ @cheryl.li
+/content/handbook/engineering/devops/ops/verify/runner/ @nicolewilliams
+/content/handbook/engineering/devops/ops/verify/ci-platform/ @cheryl.li @drew
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
-/content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
+/content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @jayswain @nrosandich @fcatteau @mmishaev
 /content/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/software-supply-chain-security/authentication.md @adil.farrukh
 /content/handbook/engineering/development/sec/software-supply-chain-security/authorization.md @jayswain
 /content/handbook/engineering/development/sec/software-supply-chain-security/compliance.md @nrosandich
-/content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @shampton
-/content/handbook/engineering/development/sec/software-supply-chain-security/security-policies/ @alan
+/content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @fcatteau
 /content/handbook/engineering/development/sec/secure/ @twoodham
-/content/handbook/engineering/development/sec/secure/dynamic-analysis/ @tkopel @mikeeddington
-/content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @tkopel
-/content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
+/content/handbook/engineering/development/sec/secure/dynamic-analysis/ @mikeeddington @twoodham
+/content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @twoodham
+/content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson @dabeles
 /content/handbook/engineering/development/sec/secure/static-analysis/ @thiagocsf @adamcohen @jleasure @julianthome
 /content/handbook/engineering/development/sec/security-risk-management/ @dagron1 @rvider
 /content/handbook/engineering/development/sec/security-risk-management/security-infrastructure/ @ryaanwells
 /content/handbook/engineering/development/sec/security-risk-management/security-insights @nmccorrison
-/content/handbook/engineering/expansion-development.md @jeromezng
+/content/handbook/engineering/development/sec/security-risk-management/security-policies/ @alan
 /content/handbook/engineering/frontend/ @timzallmann
+/content/handbook/engineering/training/ic-to-manager.md @dsatcher
 /content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
-/content/handbook/engineering/development/dev/create/code-review/ @phikai @andr3 @francoisrose @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/code-review/backend/ @francoisrose @phikai @kerrizor @marc_shaw @dskim_gitlab @garyh @patrickbajao @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/code-review/ @phikai @andr3 @francoisrose @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/code-review/backend/ @francoisrose @phikai @kerrizor @marc_shaw @dskim_gitlab @garyh @patrickbajao @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
 
 # CODEOWNER approvals are required for Source Code to support dogfooding approvals
 [Eng-SourceCode]
-/content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
-
-^[Eng-Infrastructure-Quality-department]
-/content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson
+/content/handbook/engineering/devops/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/devops/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer
@@ -198,22 +181,20 @@
 /content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
 /content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
 /content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
-/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
+/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @marin @amyphillips
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/ @marin @mbursi @dawsmith @plu8 @denisra
+/content/handbook/engineering/infrastructure-platforms/production-engineering/ @marin @rnienaber @lmcandrew @kkyrala @sabrams
 /content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @marin @sabrinafarmer @vincywilson
-/content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
-/content/handbook/engineering/infrastructure/core-platform/ @marin
-/content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
+/content/handbook/engineering/infrastructure/ @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/capacity-planning.md @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
-/content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @denisra @plu8
-/content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ @marin @denisra @plu8
+/content/handbook/engineering/infrastructure-platforms/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
-/content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/service-maturity-model.md @rnienaber @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/team/ @marin
 /content/handbook/engineering/infrastructure/team/dei.md @andrewn
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/ @marin @amyphillips
@@ -221,33 +202,17 @@
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard.md @ashiel @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services.md @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @lmcandrew @marin
-/content/handbook/engineering/infrastructure/team/ops/ @kkyrala @rnienaber @marin
 /content/handbook/engineering/monitoring/ @marin @sabrinafarmer
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
 /content/handbook/engineering/gitlab-com/policies/ @marin @sabrinafarmer
 
 ^[Eng-Developer-Experience-department]
-/content/handbook/engineering/automation.md @vincywilson @rymai
-/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @ksvoboda @mgamea @vincywilson
+/content/handbook/engineering/automation.md @rymai @marin
+/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @mgamea @marin @amyphillips
 /content/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/ @ghosh-abhinaba
 /content/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/ @mgamea
 /content/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ @kkolpakova
-
-^[Eng-Incubation-department]
-/content/handbook/engineering/development/incubation/ @jeromezng
-/content/handbook/engineering/development/incubation/ai-assist.md @jeromezng
-/content/handbook/engineering/development/incubation/airflow.md @jeromezng
-/content/handbook/engineering/development/incubation/breach-and-attack-simulation.md @jeromezng @erran
-/content/handbook/engineering/development/incubation/cloud-seed.md @jeromezng @mnohr
-/content/handbook/engineering/development/incubation/jamstack/ @jeromezng
-/content/handbook/engineering/development/incubation/mlops/ @jeromezng @eduardobonet
-/content/handbook/engineering/development/incubation/mobile-devops/ @jeromezng @darbyfrey
-/content/handbook/engineering/development/incubation/no-code.md @jeromezng
-/content/handbook/engineering/development/incubation/okr.md @jeromezng @kushalpandya
-/content/handbook/engineering/development/incubation/real-time-collaboration/ @jeromezng
-/content/handbook/engineering/development/incubation/server-runtime/ @jeromezng
-/content/handbook/engineering/development/incubation/service-desk.md @jeromezng @msaleiko
 
 ^[Engineering-READMEs]
 /content/handbook/engineering/readmes/andras-horvath.md @andrashorvath
@@ -270,18 +235,17 @@
 /content/handbook/engineering/readmes/rebecca-spainhower.md @rspainhower
 /content/handbook/engineering/readmes/ronnie-alfaro.md @ralfaro
 /content/handbook/engineering/readmes/savas-vedova.md @svedova
-/content/handbook/engineering/readmes/sean-carroll.md @sean_carroll
 /content/handbook/engineering/readmes/thong-kuah.md @tkuah
 
 ^[enterprise-data]
 /content/handbook/enterprise-data/ @amiebright
 
 ^[entity]
-/content/handbook/entity/ @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
+/content/handbook/entity/ @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @kiacobucci
 
 [Entity required approvals]
-/content/handbook/entity/iberia-srl-spain.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
-/content/handbook/entity/israel-ltd.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/entity/iberia-srl-spain.md @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup @kiacobucci
+/content/handbook/entity/israel-ltd.md @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup @kiacobucci
 
 ^[finance]
 /content/handbook/finance/ @brobins
@@ -291,9 +255,9 @@
 /content/handbook/finance/procurement/ @RendiMiller @brobins
 /content/handbook/finance/spending-company-money.md @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
-/content/handbook/finance/internal-audit/ @bjoshi2 @atoomer
+/content/handbook/finance/internal-audit/ @atoomer @brobins
 /content/handbook/finance/tax/ @jgladen
-/content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/finance/ @brobins @cbednarz @dparsonage @glucchesi @carlierussell @mwilkins
 
 [Finance required approvals]
 /content/handbook/finance/expenses.md @brobins @gitlab-com/egroup @gitlab-com/content-sites
@@ -302,7 +266,7 @@
 /content/handbook/company/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
-/content/handbook/it/ @mbeee @ericrubin @dzhu-gl @smanzuik @joshlemos
+/content/handbook/it/ @mbeee @dzhu-gl @smanzuik @joshlemos
 
 ^[legal]
 /content/handbook/company/esg.md @robin @slcline
@@ -338,22 +302,22 @@
 /content/handbook/legal/testing-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[marketing]
-/content/handbook/marketing/ @akramer
+/content/handbook/marketing/ @bill_staples
 /content/handbook/marketing/account-based-marketing/ @megan_odowd @marcigee
-/content/handbook/marketing/blog/ @dsteer @Sgittlen
-/content/handbook/marketing/blog/release-posts/  @justinfarris @dsteer @Sgittlen
-/content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
+/content/handbook/marketing/blog/ @Sgittlen @bill_staples
+/content/handbook/marketing/blog/release-posts/ @justinfarris @Sgittlen @bill_staples
+/content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @meilynda @ttran5 @kparisi
 /content/handbook/marketing/channel-marketing/ @laurafagan
-/content/handbook/marketing/corporate-communications/ @akramer @cweaver1
+/content/handbook/marketing/corporate-communications/ @cweaver1 @bill_staples
 /content/handbook/marketing/corporate-communications/incident-communications-plan.md @robin @johncoghlan @award4
 /content/handbook/marketing/corporate-communications/resources-trainings.md @cweaver1 @award4
-/content/handbook/marketing/demand-generation/ @akramer
-/content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
-/content/handbook/marketing/developer-relations/ @esalvadorp @akramer
-/content/handbook/marketing/developer-relations/cocreate.md @esalvadorp @nick_vh @stingrayza
-/content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @janasenap
-/content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @johncoghlan
-/content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp
+/content/handbook/marketing/demand-generation/ @bill_staples
+/content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @meilynda @ttran5 @kparisi
+/content/handbook/marketing/developer-relations/ @esalvadorp @bill_staples
+/content/handbook/marketing/developer-relations/cocreate/ @esalvadorp @nick_vh @stingrayza
+/content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @nick_vh @daniel-murphy
+/content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @nick_vh @daniel-murphy
+/content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp @nick_vh @daniel-murphy
 /content/handbook/marketing/developer-relations/community-programs/startups-program/ @esalvadorp
 /content/handbook/marketing/developer-relations/contributor-success/ @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 /content/handbook/marketing/developer-relations/developer-advocacy/ @dnsmichi @johncoghlan @sugaroverflow @waarias @csaavedra1 @fjdiaz @iganbaruch
@@ -363,242 +327,249 @@
 /content/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification.md @nick_vh @johncoghlan
 /content/handbook/marketing/developer-relations/technical-marketing/ @johncoghlan @csaavedra1 @fjdiaz @iganbaruch
 /content/handbook/marketing/developer-relations/workflows-tools/ @dnsmichi @johncoghlan @sugaroverflow @waarias
-/content/handbook/marketing/digital-experience/ @fqureshi @laurenbarker
-/content/handbook/marketing/emergency-response.md @akramer @rkohnke @amy.waller
-/content/handbook/marketing/events/ @akramer
-/content/handbook/marketing/growth/ @akramer @gdoud
-/content/handbook/marketing/inbound-marketing/ @akramer
-/content/handbook/marketing/inbound-marketing/search-marketing/ @ncregan @hsmith-watson @akramer
-/content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @akramer
-/content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @akramer @ncregan @hsmith-watson
-/content/handbook/marketing/inbound-marketing/search-marketing/testing.md @akramer
-/content/handbook/marketing/journeys.md @akramer @dsteer
+/content/handbook/marketing/digital-experience/ @fqureshi @de_fraz @Tinaliseng
+/content/handbook/marketing/emergency-response.md @rkohnke @amy.waller @bill_staples
+/content/handbook/marketing/events/ @bill_staples
+/content/handbook/marketing/growth/ @gdoud @bill_staples
+/content/handbook/marketing/inbound-marketing/ @bill_staples
+/content/handbook/marketing/inbound-marketing/search-marketing/ @ncregan @hsmith-watson @bill_staples
+/content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @ncregan @hsmith-watson @bill_staples
+/content/handbook/marketing/inbound-marketing/search-marketing/testing.md @bill_staples
+/content/handbook/marketing/journeys.md @bill_staples
 /content/handbook/marketing/lifecycle-marketing/ @aklatzkin @bstallings
 /content/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @bstallings
 /content/handbook/marketing/localization/ @djsulliv
-/content/handbook/marketing/marketing-career-development/ @akramer
+/content/handbook/marketing/marketing-career-development/ @bill_staples
 /content/handbook/marketing/marketing-enablement.md  @justinfarris
 /content/handbook/marketing/marketing-operations/ @christinelee @amy.waller
-/content/handbook/marketing/marketing-strategy-and-platforms.md @akramer @christinelee
-/content/handbook/marketing/positioning-faq.md @akramer @dsteer
+/content/handbook/marketing/marketing-strategy-and-platforms.md @christinelee @bill_staples
+/content/handbook/marketing/positioning-faq.md @bill_staples
 /content/handbook/marketing/project-management-guidelines/ @johncoghlan
-/content/handbook/marketing/readmes/ @akramer
+/content/handbook/marketing/readmes/ @bill_staples
 /content/handbook/marketing/readmes/michael-friedrich.md @dnsmichi
-/content/handbook/marketing/sales-development/ @akramer @jlarramendy
-/content/handbook/marketing/sales-plays-cicd/ @dsteer
-/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @dsteer
-/content/handbook/marketing/strategy-performance/ @akramer @vhempel
+/content/handbook/marketing/sales-development/ @jlarramendy @bill_staples
+/content/handbook/marketing/sales-plays-cicd/ @bill_staples
+/content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @bill_staples
+/content/handbook/marketing/strategy-performance/ @vhempel @bill_staples
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis
+/content/handbook/marketing/strategy-performance/google-analytics-4.md @dennischarukulvanich
+/content/handbook/marketing/strategy-performance/google-tag-manager.md @dennischarukulvanich
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
 /content/handbook/marketing/utm-strategy.md @ikryzeviciene @rkohnke @aoetama
-/content/job-families/marketing/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/marketing/ @cbednarz @dparsonage @glucchesi @carlierussell @mwilkins @bill_staples
 # The MR Coach speciality is owned by Contributor Success
 /content/job-families/expert/merge-request-coach.md @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 
 ^[Marketing-Brand-and-Product-Marketing]
-/content/handbook/marketing/brand-and-product-marketing/ @akramer @dsteer @rclayman
-/content/handbook/marketing/brand-and-product-marketing/brand/ @akramer @dsteer @rclayman
+/content/handbook/marketing/brand-and-product-marketing/ @rclayman @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/brand/ @rclayman @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/brand/brand-activation/ @luke @amittner
-/content/handbook/marketing/brand-and-product-marketing/content/ @akramer @dsteer
-/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @akramer @dsteer
-/content/handbook/marketing/brand-and-product-marketing/content/digital-production/ @amittner
-/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @akramer @dsteer
-/content/handbook/marketing/brand-and-product-marketing/design.md @akramer @dsteer @amittner @luke @monica_galletto @vicbell
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/ @dsteer @jkempton
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ @nicolecsmith @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @akramer @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/mrnci.md @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/ @iganbaruch @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @waarias @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @waarias @dsteer
-/content/handbook/marketing/use-cases.md @dsteer
+/content/handbook/marketing/brand-and-product-marketing/content/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/design.md @amittner @luke @monica_galletto @vicbell @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/ @jkempton @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ @nicolecsmith @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/mrnci.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/ @iganbaruch @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/ @waarias @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @waarias @bill_staples
+/content/handbook/marketing/use-cases.md @bill_staples
 
 ^[Marketing-Integrated-Marketing]
 /content/handbook/marketing/field-marketing/ @laurafagan
-/content/handbook/marketing/integrated-marketing/ @akramer @laurafagan
+/content/handbook/marketing/integrated-marketing/ @laurafagan @bill_staples
 /content/handbook/marketing/integrated-marketing/corporate-events.md @kdemarest
 /content/handbook/marketing/integrated-marketing/digital-strategy/ @bstallings
 /content/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/ @award4
 /content/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-reporting.md @award4
 
 ^[People]
-/content/handbook/company/family-and-friends-day.md @pegan
-/content/handbook/company/structure.md @rallen3  @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell
+/content/handbook/company/family-and-friends-day.md @rallen3
+/content/handbook/company/structure.md @rallen3  @cbednarz @dparsonage @glucchesi @carlierussell
 /content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @jconnors3
-/content/handbook/leadership/underperformance.md @rallen3  @pegan @cbednarz @glucchesi
-/content/handbook/people-group/ @rallen3  @pegan @cbednarz @mpatel8 @cgudgenov
-/content/handbook/people-group/celebrations.md @rallen3  @mpatel8
-/content/handbook/people-group/competencies.md @rallen3  @glucchesi @pegan @cbednarz
-/content/handbook/people-group/contracts-probation-periods.md @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
+/content/handbook/leadership/underperformance.md @rallen3 @cbednarz @glucchesi
+/content/handbook/people-group/ @rallen3 @cbednarz @cgudgenov @kiacobucci
+/content/handbook/people-group/celebrations.md @rallen3 @kiacobucci
+/content/handbook/people-group/competencies.md @rallen3 @glucchesi @cbednarz
+/content/handbook/people-group/contracts-probation-periods.md @shensiek @alex_venter @Mowry @kiacobucci
 /content/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
 /content/handbook/people-group/employment-branding/people-communications.md @drogozinski @rallen3
 /content/handbook/people-group/engagement.md @drogozinski @rallen3
-/content/handbook/people-group/employment-solutions.md @pegan @hdevlin
+/content/handbook/people-group/employment-solutions.md @hdevlin @rallen3
 /content/handbook/people-group/engineering/ @anechan
-/content/handbook/people-group/general-onboarding/ @mpatel8 @Mowry @alex_venter @anechan @ashjammers @nutaurus
-/content/handbook/people-group/offboarding/ @rallen3  @mpatel8
+/content/handbook/people-group/general-onboarding/ @Mowry @alex_venter @ashleyjones @kiacobucci
+/content/handbook/people-group/offboarding/ @rallen3 @kiacobucci
 /content/handbook/people-group/organizational-change-management.md @rallen3
 /content/handbook/people-group/paid-time-off.md @dgoodgame @teranay @JacquelineG
-/content/handbook/people-group/people-business-partners/_index.md @cbednarz @anjali_kaufmann
+/content/handbook/people-group/people-business-partners/_index.md @cbednarz
 /content/handbook/people-group/people-compliance/ @cgudgenov
-/content/handbook/people-group/promotions-transfers.md @rallen3  @mpatel8
-/content/handbook/people-group/pronouns.md @klang @ahanselka @lmcnally1
-/content/handbook/people-group/talent-assessment.md @rallen3  @glucchesi @pegan @cbednarz
-/content/handbook/people-group/team-member-relations.md @pegan @atisdale @lyndemeiers @dgoodgame @AndreaWalsh
-/content/handbook/people-group/using-gitlab-at-gitlab.md @rallen3  @glucchesi @pegan @cbednarz
-/content/handbook/people-policies/ @emilyplotkin @pegan @rallen3 
-/content/handbook/people-policies/leave-of-absence/ @dgoodgame @teranay @JacquelineG @pegan @cgudgenov
-/content/handbook/people-policies/leave-of-absence/us.md @dgoodgame @teranay @JacquelineG @pegan @cgudgenov
+/content/handbook/people-group/promotions-transfers.md @rallen3 @kiacobucci
+/content/handbook/people-group/pronouns.md @klang @ahanselka @sheridam
+/content/handbook/people-group/talent-assessment.md @rallen3 @glucchesi @cbednarz
+/content/handbook/people-group/team-member-relations.md @atisdale @lyndemeiers @dgoodgame @AndreaWalsh @rallen3
+/content/handbook/people-group/using-gitlab-at-gitlab.md @rallen3 @glucchesi @cbednarz
+/content/handbook/people-policies/ @emilyplotkin @rallen3
+/content/handbook/people-policies/leave-of-absence/ @dgoodgame @teranay @JacquelineG @cgudgenov @rallen3
+/content/handbook/people-policies/leave-of-absence/us.md @dgoodgame @teranay @JacquelineG @cgudgenov @rallen3
 /content/handbook/total-rewards/incentives.md @rallen3  @mwilkins @Rkole
 /content/handbook/total-rewards/stock-options.md @rallen3  @mwilkins
-/content/handbook/finance/travel/ @rallen3  @pegan
-/content/handbook/people-group/learning-and-development/team-workshops @tely2 @jwrs @jallen16
+/content/handbook/finance/travel/ @rallen3
+/content/handbook/people-group/learning-and-development/team-workshops @tely2 @jallen16
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
-/content/handbook/labor-and-employment-notices/ @pegan @rallen3  @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
-/content/handbook/people-group/anti-harassment.md @anjali_kaufmann @rallen3  @emilyplotkin @pegan @gitlab-com/content-sites @gitlab-com/egroup
-/content/handbook/people-group/relocation.md @rallen3  @pegan @mpatel8 @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/labor-and-employment-notices/ @rallen3 @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/people-group/anti-harassment.md @rallen3 @emilyplotkin @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/people-group/relocation.md @rallen3 @gitlab-com/content-sites @gitlab-com/egroup @kiacobucci
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Policies required approvals]
-/content/handbook/people-policies/ireland-ltd/ @cgudgenov @emilyplotkin @pegan @rallen3  @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-policies/france-sas/ @cgudgenov @emilyplotkin @pegan @rallen3  @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-policies/ireland-ltd/ @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-policies/france-sas/ @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[product]
 /content/handbook/product/ @david
 /content/handbook/product/groups/fulfillment-guide.md @courtmeddaugh
 /content/handbook/product/groups/product-analysis/ @cbraza @justinfarris
 /content/handbook/product/groups/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
-/content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
-/content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-design-management.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-designer.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/technical-writer.md @susantacker @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/technical-writing-manager.md @susantacker @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-fullstack-engineer.md @susantacker @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-research-manager.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-research-operations-coordinator.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-researcher.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ @david @vkarnes @mflouton @justinfarris @cbednarz @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/product/pricing.md @justinfarris @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-design-management.md @vkarnes @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-designer.md @vkarnes @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-management-leadership.md @david @mflouton @justinfarris @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-manager.md @david @justinfarris @mflouton @fzimmer @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/technical-writer.md @dianalogan @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
+/content/job-families/product/technical-writing-manager.md @dianalogan @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
+/content/job-families/product/ux-fullstack-engineer.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @david
+/content/job-families/product/ux-research-manager.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ux-research-operations-coordinator.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ux-researcher.md @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 
 [product-ai]
-/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites @david
 
 ^[product-dev-flow]
-/content/handbook/product-development-flow/ @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton
+/content/handbook/product-development/ @david @sabrinafarmer
+/content/handbook/product-development/how-we-work/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @mflouton @fzimmer
+
+^[Product Design]
+/content/handbook/product/ux/product-design/design-studios.md @pedroms
+
+^[Product READMEs]
+/content/handbook/product/readmes/cynthia.md @cynthia
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
-/content/handbook/resellers/training.md @akramer @ecepulis
-/content/handbook/sales/ @akramer
-/content/handbook/sales/account-planning/ @lschoenfeld @akramer @monicaj
-/content/handbook/sales/build-value-with-customers.md @akramer
+/content/handbook/resellers/training.md @ecepulis @isteward
+/content/handbook/sales/ @isteward
+/content/handbook/sales/account-planning/ @lschoenfeld @monicaj @isteward
+/content/handbook/sales/build-value-with-customers.md @isteward
 /content/handbook/sales/club/ @kdemarest @kagarrett
-/content/handbook/sales/command-of-the-message/ @akramer @dsteer
-/content/handbook/sales/commercial/ @bcaller @MDines @akramer @steve_xu @carolynharding
-/content/handbook/sales/commissions/ @akramer
-/content/handbook/sales/faq-from-prospects.md @akramer
+/content/handbook/sales/command-of-the-message/ @isteward @bill_staples
+/content/handbook/sales/commercial/ @bcaller @MDines @carolynharding @isteward
+/content/handbook/sales/commissions/ @isteward
+/content/handbook/sales/faq-from-prospects.md @isteward
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
 /content/handbook/sales/field-communications/gitlab-highspot/ @monicaj
-/content/handbook/sales/field-manager-development.md @ashahrazad1
-/content/handbook/sales/field-operations/ @akramer
-/content/handbook/sales/field-operations/channel-operations/ @nscala
-/content/handbook/sales/field-operations/customer-success-operations/ @akramer
+/content/handbook/sales/field-operations/ @isteward
+/content/handbook/sales/field-operations/channel-operations/ @leework
+/content/handbook/sales/field-operations/customer-success-operations/ @isteward
 /content/handbook/sales/field-operations/field-enablement/ @aileenlu @monicaj
-/content/handbook/sales/field-operations/gtm-resources/ @akramer
+/content/handbook/sales/field-operations/gtm-resources/ @isteward
 /content/handbook/sales/field-operations/order-processing.md @jrabbits
 /content/handbook/sales/field-operations/release-schedule.md @monicaj
-/content/handbook/sales/field-operations/sales-operations/ @akramer
+/content/handbook/sales/field-operations/sales-operations/ @isteward
 /content/handbook/sales/field-operations/sales-operations/deal-desk.md @jrabbits
-/content/handbook/sales/field-operations/sales-strategy/ @akramer
-/content/handbook/sales/field-operations/sales-systems/ @sheelaviswanathan
-/content/handbook/sales/forecasting.md @akramer
-/content/handbook/sales/gainsight/ @akramer
-/content/handbook/sales/idea-to-production-demo/ @akramer
-/content/handbook/sales/insidesales.md @akramer
-/content/handbook/sales/it-agility-director-interview.md @akramer
-/content/handbook/sales/manager-operating-rhythm/ @ashahrazad1 @akramer
-/content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @monicaj @ashahrazad1
-/content/handbook/sales/meddppicc.md @ashahrazad1 @jblevins608
-/content/handbook/sales/negotiate-to-close.md @monicaj @ashahrazad1
-/content/handbook/sales/onboarding/ @jblevins608 @ashahrazad1
-/content/handbook/sales/playbook/ @monicaj @ashahrazad1
-/content/handbook/sales/prospecting.md @monicaj @akramer @ashahrazad1
-/content/handbook/sales/public-sector.md @akramer
-/content/handbook/sales/qbrs/ @ashahrazad1 @shannonthompson @monicaj
-/content/handbook/sales/qualification-questions.md @akramer
-/content/handbook/sales/readmes/ @akramer
-/content/handbook/sales/revenue-programs.md @dsteer
+/content/handbook/sales/field-operations/sales-strategy/ @isteward
+/content/handbook/sales/field-operations/sales-systems/ @kchinthapalli1
+/content/handbook/sales/forecasting.md @isteward
+/content/handbook/sales/gainsight/ @isteward
+/content/handbook/sales/idea-to-production-demo/ @isteward
+/content/handbook/sales/insidesales.md @isteward
+/content/handbook/sales/it-agility-director-interview.md @isteward
+/content/handbook/sales/manager-operating-rhythm/ @isteward
+/content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @monicaj
+/content/handbook/sales/meddppicc.md @jblevins608
+/content/handbook/sales/negotiate-to-close.md @monicaj
+/content/handbook/sales/onboarding/ @jblevins608
+/content/handbook/sales/playbook/ @monicaj
+/content/handbook/sales/prospecting.md @monicaj @isteward
+/content/handbook/sales/public-sector.md @isteward
+/content/handbook/sales/qbrs/ @shannonthompson @monicaj
+/content/handbook/sales/qualification-questions.md @isteward
+/content/handbook/sales/readmes/ @isteward
+/content/handbook/sales/revenue-programs.md @bill_staples
 /content/handbook/sales/sales-google-groups/ @monicaj @shannonthompson
-/content/handbook/sales/sales-meetings.md @monicaj @akramer
-/content/handbook/sales/sales-operating-procedures/ @akramer
-/content/handbook/sales/sales-renewal-process.md @akramer
-/content/handbook/sales/sales-term-glossary/ @akramer
-/content/handbook/sales/selling-professional-services.md @akramer
-/content/handbook/sales/shadow-program.md @monicaj @akramer
+/content/handbook/sales/sales-meetings.md @monicaj @isteward
+/content/handbook/sales/sales-operating-procedures/ @isteward
+/content/handbook/sales/sales-renewal-process.md @isteward
+/content/handbook/sales/sales-term-glossary/ @isteward
+/content/handbook/sales/selling-professional-services.md @isteward
+/content/handbook/sales/shadow-program.md @monicaj @isteward
 /content/handbook/sales/sop.md @jrabbits
-/content/handbook/sales/tam.md @akramer
-/content/handbook/sales/territories/ @akramer @lschoenfeld
+/content/handbook/sales/tam.md @isteward
+/content/handbook/sales/territories/ @lschoenfeld @isteward
 /content/handbook/sales/territories/latam.md @disastor @ricardoamarilla
-/content/handbook/sales/territory-planning.md @akramer @monicaj
-/content/handbook/sales/training/ @ashahrazad1 @jblevins608
-/content/handbook/sales/training/customer-success-skills-exchange.md @akramer @pdaliparthi
-/content/handbook/sales/training/field-certification/ @ashahrazad1 @pdaliparthi @monicaj
-/content/handbook/sales/training/field-functional-competencies.md @akramer @ashahrazad1
-/content/handbook/sales/training/sales-enablement-sessions/ @ashahrazad1 @jblevins608
+/content/handbook/sales/territory-planning.md @monicaj @isteward
+/content/handbook/sales/training/ @jblevins608
+/content/handbook/sales/training/customer-success-skills-exchange.md @pdaliparthi @isteward
+/content/handbook/sales/training/field-certification/ @pdaliparthi @monicaj
+/content/handbook/sales/training/field-functional-competencies.md @isteward
+/content/handbook/sales/training/sales-enablement-sessions/ @jblevins608
 /content/handbook/sales/training/sko/ @kdemarest @kagarrett
-/content/handbook/sales/understand-customer-gitlab-use.md @akramer
-/content/job-families/sales/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/handbook/sales/understand-customer-gitlab-use.md @isteward
+/content/job-families/sales/ @cbednarz @dparsonage @glucchesi @carlierussell @mwilkins @isteward
 
 ^[security]
-/content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
-/content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee
+/content/handbook/security/ @joshlemos @jlongo_gitlab @juliedavila @cibericua @jdicken
+/content/handbook/security/corporate/ @smanzuik @dzhu-gl @mbeee
+/content/handbook/security/customer-support-operations/ @lyle @jcolyer @dtragjasi
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
 /content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
 /content/handbook/security/product-security/application-security/ @juliedavila
 /content/handbook/security/product-security/security-platforms-architecture/ @jdicken
-/content/handbook/security/product-security/security-platforms-architecture/security-architecture/ @jdicken @plafoucriere 
+/content/handbook/security/product-security/security-platforms-architecture/security-architecture/ @jdicken
 /content/handbook/security/product-security/security-platforms-architecture/security-research/ @jdicken
 /content/handbook/security/product-security/security-platforms-architecture/product-security-engineering/ @jdicken @maggiemartin
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
-/content/handbook/security/security-operations/ @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
+/content/handbook/security/security-operations/ @cibericua @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
 /content/handbook/security/security-operations/security-logging/ @mcoons
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
 /content/handbook/security/security-operations/threat-intelligence/ @cmoberly
-/content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/chief-information-security-officer/chief-information-security-officer.md @joshlemos @robin @brianwald @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @cibericua
+/content/job-families/chief-information-security-officer/chief-information-security-officer.md @joshlemos @robin @brianwald @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
-/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[solutions-architects]
-/content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
+/content/handbook/solutions-architects/ @jfullam
 /content/handbook/solutions-architects/sa-practices/value-stream-discovery/ @simon_mansfield @reshmikrishna @jfullam
+/content/handbook/solutions-architects/center-of-excellence/ @poffey21 @lfstucker @sjigjinni
+
 
 ^[support]
 /content/handbook/support/ @gitlab-com/support
-/content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
 /content/handbook/support/support-idk.md @irisb @jgianoutsos @klang
+/content/handbook/support/browser-extensions/_index.md @anton
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [support-required-approvals]
-/content/handbook/support/workflows/account_deletion_access_request_workflows.md @jcolyer @lyle @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/data_processing_addendums.md @lyle @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/dmca.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/how-to-set-up-shift-coverage-for-an-event.md @gitlab-com/support/managers @gitlab-com/egroup @gitlab-com/content-sites
@@ -641,7 +612,7 @@
 /content/handbook/teamops/partners.md @jmoverley @nshah19
 
 ^[Technical-Writing]
-/content/handbook/product/ux/technical-writing/ @susantacker @dianalogan @david
+/content/handbook/product/ux/technical-writing/ @dianalogan @michael.belton @rjlandry @uchandran @david
 
 ^[total-rewards]
 /content/handbook/total-rewards/ @rallen3  @mwilkins @Rkole
@@ -649,15 +620,15 @@
 /content/handbook/total-rewards/compensation/ @rallen3  @mwilkins
 
 ^[tools-and-tips]
-/content/handbook/tools-and-tips/ai/ @dnsmichi @panand3 @russchgl @rogerwoo @smanzuik @dfrhodes
+/content/handbook/tools-and-tips/ai/ @dnsmichi @panand3 @smanzuik @dfrhodes @david
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
-/content/handbook/company/working-groups/ai-integration.md @hbenson @timzallmann @tmccaslin
+/content/handbook/company/working-groups/ai-integration.md @timzallmann @tmccaslin @david
 /content/handbook/company/working-groups/api-vision.md @g.hickman @arturoherrero @timzallmann
 /content/handbook/company/working-groups/clickhouse-datastore.md @sgoldstein @nhxnguyen @nicolewilliams
 /content/handbook/company/working-groups/cross-functional-prioritization.md @vkarnes @sabrinafarmer @justinfarris
-/content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @vincywilson @sabrinafarmer
+/content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @sabrinafarmer @marin
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
 /content/handbook/company/working-groups/multi-large.md @marin @mbursi
@@ -693,19 +664,19 @@
 ## This required rule must be outside of a section for the codeowners one to override it
 /.gitlab/ @gitlab-com/content-sites/handbook-tools @gitlab-com/content-sites @gitlab-com/egroup
 ## override approvals for codeowners file
-/.gitlab/CODEOWNERS @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
+/.gitlab/CODEOWNERS @gitlab-com/content-sites @gitlab-com/egroup
 
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
-/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites
-/content/job-families/people-group/ @rallen3  @pegan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
-/content/job-families/people-group/candidate-experience.md @rallen3 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites
+/content/job-families/people-group/ @rallen3 @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/people-group/candidate-experience.md @rallen3 @cbednarz @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technology Policies]
-/content/handbook/security/security-and-technology-policies/change-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/change-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
 /content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-and-technology-policies/penetration-testing-policy.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/penetration-testing-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
 /content/handbook/security/security-and-technology-policies/security-and-technology-policies-management.md @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 
@@ -716,34 +687,38 @@
 ## Please do not add or remove documents from the Controlled Documents section without checking with Security Governance. The Controlled Documents program is only for documents that are in-scope for Security Compliance's external audits. You can contact Security Governance in the #sec-assurance Slack channel.
 [Controlled-Documents]
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/backup/ @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/database/_index.md @marin @sabrinafarmer @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/database/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/corporate/end-user-services/access-requests/_index.md @NabithaRao @mbeee @gitlab-com/egroup @gitlab-com/content-sites @smanzuik
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-group/acceptable-use-policy.md @rallen3  @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-group/offboarding/offboarding_standards.md @rallen3  @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @pegan @rallen3  @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-group/acceptable-use-policy.md @rallen3 @emilyplotkin @bill_staples @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-group/offboarding/offboarding_standards.md @rallen3 @kiacobucci @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/cryptographic-standard.md @joshlemos @jlongo_gitlab @juliedavila @mloveless @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @corey-oas @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @jdicken @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/governance/sec-training.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/access-reviews.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-compliance/pci-charter.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/sec-controls.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/security-control-lifecycle.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-assurance/security-compliance/pci-charter.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/storm-program/ @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/storm-program/critical-systems.md @cynthiamiller @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/third-party-risk-management.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @cibericua @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @cibericua @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-operations/sirt/severity-matrix.md @joshlemos @cibericua @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/software-development-lifecycle-standard.md @joshlemos @jlongo_gitlab juliedavila @cibericua @jdicken @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/personal_data_access_account_deletion.md @lyle @jcolyer @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/account_deletion_access_request_workflows.md @lyle @BronwynBarnett @gitlab-com/egroup @gitlab-com/content-sites

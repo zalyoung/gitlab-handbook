@@ -46,7 +46,7 @@ destination_url: "https://youtu.be/qCDAioq3eis"
               <input name="company" type="company" required class="form-control">
               </div>
               <div class="mb-3">
-              {{< country-select >}}
+              {{< all-remote/country-select >}}
               </div>
               <div class="mb-3">
                 <input class="form-check-input" type="checkbox" value="sendEmails" id="sendEmails">

@@ -47,6 +47,7 @@ Performance Indicators:
 - [Application Architecture Documentation](https://docs.gitlab.com/ee/development/architecture.html)
 - [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
 - [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html)
+- [Performance Testing Tools](/handbook/engineering/testing/performance-tools.md)
 
 **Meta issue** to track various issues listed here is at on the [infrastructure tracker](https://gitlab.com/gitlab-com/infrastructure/issues/2373).
 
@@ -390,7 +391,7 @@ To go a little deeper and measure performance of the application & infrastructur
 
 ### Availability
 
-This section has been moved to [Availability severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#availability).
+This section has been moved to [Availability severity](/handbook/product-development/how-we-work/issue-triage#availability).
 
 ### Performance
 

@@ -1,15 +1,11 @@
 ---
 title: Tools and tips
-no_list: true
+simple_list: true
 ---
 
 ## Overview
 
 This page contains useful tips for working at GitLab and for various tools we use.
-
-## Sub-pages
-
-{{< subpages >}}
 
 ## GitLab tips
 
@@ -111,7 +107,7 @@ A few additional resources that can be helpful when working with Mermaid are:
 - Examples of Mermaid charts that have been created by GitLab team members:
   - [Talent Development Program Chart](/handbook/people-group/talent-development-program/#talent-development-program-chart) by [Cassiana Gudgenov](https://gitlab.com/cgudgenov), People Compliance Partner
   - [CEO Year at a Glance](/handbook/company/cadence/#year)
-  - [Data Infrastructure System Diagram](/handbook/enterprise-data/platform/infrastructure/#system-diagram)
+  - [Data Infrastructure System Diagram](/handbook/enterprise-data/platform/)
 - [Advanced layout demos](mermaid) for Mermaid diagrams
 
 *Note: When creating Mermaid charts in the GitLab handbook, you need to type `three back tick symbols` followed by the word `mermaid` before the chart, and `three back tick symbols` at the end of the chart. This will enable Markdown to distinguish between .md and Mermaid. Please reference the example Mermaid charts linked above to see how this looks live.*
@@ -130,7 +126,7 @@ This can be done by running `find source/handbook -type f | xargs wc -w` from th
 
 ### Trainee maintainer issue upkeep
 
-Part of the [maintainer training process](/handbook/engineering/workflow/code-review/#trainee-maintainer) is to keep track of Merge Request that have been reviewed and writing down an assessment on the review in the maintainer training issue.
+Part of the [maintainer training process](/handbook/engineering/workflow/code-review/) is to keep track of Merge Request that have been reviewed and writing down an assessment on the review in the maintainer training issue.
 Manual upkeep of the maintainer training issue can be time consuming. There are tools that others have built to help with this task:
 
 - <https://gitlab.com/nolith/review-tanuki>
@@ -180,7 +176,7 @@ sudo apt install imagemagick
 
 ### Creating GIFs
 
-We have a [dedicated section](/handbook/product/making-gifs) for that in the handbook.
+We have a [dedicated section](/handbook/product/product-processes/making-gifs/) for that in the handbook.
 
 ### Resizing images
 
@@ -403,7 +399,7 @@ Note: you have to pay for these items yourself.
 ### Wi-fi usage
 
 When using unsecured Wi-Fi, consider a personal VPN.
-We [don't have a corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn) but consider [purchasing](/handbook/finance/expenses/#vpn-subscription) a [personal VPN](/handbook/tools-and-tips/personal-vpn/) if you travel for GitLab or use unknown networks often.
+We [don't have a corporate VPN](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn) but consider [purchasing](/handbook/finance/expenses/#vpn-subscription) a [personal VPN](/handbook/tools-and-tips/personal-vpn/) if you travel for GitLab or use unknown networks often.
 
 Remember that if your job has restrictions based upon geolocation (for example supporting customers with specific data restrictions and country-based access), a personal VPN may not be the best choice as often the VPN vendor routes traffic through other countries.
 If this restriction applies to you, consider tethering.
@@ -447,7 +443,7 @@ While there are other hardware tokens that are also decent and will function wit
 
 What GitLab team members need to keep in mind is that if you travel with your company laptop - either on a business trip, a trip to visit family and friends in another location but you intend to keep working, or just a trip to the local coffee shop - treat the token with the same level of care as a credit card. Do not leave it where it could be stolen.
 
-If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
+If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/security/corporate/end-user-services/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/security/corporate/systems/okta/verify/) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
 
 Usage of 2FA is mandatory for GitLab team members.
 
@@ -465,7 +461,7 @@ This method is not quite as secure as a hardware token, as typically those devic
 
 ### TOTP
 
-Timed-based One-Time Password is fairly secure. This method involves a rotating value based off of a cryptographic seed that is used to uniquely identify communication between the service and the end user authenticating. The value is (usually) a six digit number that changes every 30 seconds, and during the authentication process after you've successfully entered in your username and password, you are asked to enter in the value. GitLab team members should use [1Password](/handbook/security#two-factor-authentication-and-time-based-one-time-passwords) to manage TOTP codes.
+Timed-based One-Time Password is fairly secure. This method involves a rotating value based off of a cryptographic seed that is used to uniquely identify communication between the service and the end user authenticating. The value is (usually) a six digit number that changes every 30 seconds, and during the authentication process after you've successfully entered in your username and password, you are asked to enter in the value. GitLab team members should use [1Password](/handbook/security/corporate/systems/1password/) to manage TOTP codes.
 
 #### TOTP Caveats
 
@@ -497,7 +493,7 @@ There may be services that only offer SMS as their 2FA solution, so in those cas
 
 Remember the purpose of 2FA - it is a secondary authentication method, invoked after the primary authentication method has succeeded. You should only acknowledge a 2FA request if you personally have just successfully completed the primary authentication. An unsolicited 2FA request means someone has your password, and is in the process of trying to log in as you. This is why 2FA exists, to help protect your user account from attacks involving your password.
 
-If you experience any such irregularities, please bring it to the attention of the Security Team. For more information, review the handbook regarding [Security Awareness](/handbook/security#security-awareness)
+If you experience any such irregularities, please bring it to the attention of the Security Team. For more information, review the handbook regarding [Security Awareness](/handbook/security/security-assurance/governance/sec-awareness-training/)
 
 ## Slack
 
@@ -534,33 +530,10 @@ See also [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meeti
 
 [Google Analytics (GA)](https://analytics.google.com/) is an essential tool for making data-driven decisions.
 It receives data from both about.gitlab.com and docs.gitlab.com websites.
-Read through the [Inbound Marketing Handbook](/handbook/marketing/inbound-marketing/search-marketing/analytics/) for more information on GA.
+Read through the [Google Analytics Handbook](/handbook/marketing/strategy-performance/google-analytics-4/) for more information on GA.
 
 For example, you can look at the GA data to analyze how visited is a certain page, in a period of your choice.
 You can also look at the GA referrals data to understand where the users are coming from and where they go when they leave a certain page.
-
-To see the data for a specific page:
-
-- Open [GA](https://analytics.google.com/analytics/web/), and expand **Behavior** on the sidebar
-- Click **Site content > All pages**
-- On the top-right, adjust the period of time you'd like to analyze
-- On the middle of the page, look for a search bar and paste the URL you'd like to analyze (without `https://`) and click on the magnifier button to search:
-![Google Analytics - find pageviews](/images/tools-and-tips/google-analytics-find-pageviews.png)
-Note that you can use the search tool with:
-  - A full URL, which will return results for that specific URL
-  - Part of an URL, e.g., `/2017/`, which will return the results for all the blog posts published on 2017
-  - The higher directory on the file tree, which will return the results for a range of URLs in that tree.
-    E.g., `docs.gitlab.com/ee/ci/` will return the results for all the range of pages contained in the `/ci/` directory
-- GA will output the data about the page (or range of pages) you searched for, including pageviews, unique pageviews, and other data:
-![Google Analytics - see pageviews](/images/tools-and-tips/google-analytics-pageviews.png)
-
-To find the referrals for a certain page, continue from the steps above.
-
-- Click on one of the website links to look at the data for a page of your choice
-![Google Analytics - find referrals](/images/tools-and-tips/google-analytics-find-referrals.png)
-- Just above the graph, click **Navigation summary**
-- GA will output the referrals, including **Previous Page Path** and **Next Page Path**:
-![Google Analytics - see referrals](/images/tools-and-tips/google-analytics-referrals.png)
 
 ### Set your picture in Google
 
@@ -858,14 +831,7 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature if employed by our German entity
 
-If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page](/handbook/entity/gmbh-germany/)) as follows:
-
-<span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
-<span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
-
-<img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
-
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
+During onboarding you may have been asked to set up your GitLab Gmail and your email signature using the [following example as a guideline](/handbook/tools-and-tips/#email-signature). If you are employed by our German entity, you will need to add some company related details to the end of your email signature as set out [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/germany/germany-works-council/#email-signature-if-employed-by-our-german-entity) (*accessible internally to GitLab only*).
 
 #### Add company details to certain company communications if employed by our German entity
 
@@ -883,9 +849,7 @@ Certain company details are required to be added as a signature to the forms of 
 
 If you are sending such a communication, externally, please look at the setting of the relevant application and add the company details below to the end of the communication. If you are in doubt, please do add the details. If you are unable to add this information for any reason, please alert legal-employment@gitlab.com.
 
-If you are employed by our German entity you may have been asked during onboarding to set up your signature wherever it's required to be used and to include these company details, and if you have not been, please do so now, adding these details to the end of your signature:
-
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
+If you are employed by our German entity you may have been asked during onboarding to set up your signature wherever it's required to be used and to include certain company details, and if you have not been, please do so now, as set out [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/germany/germany-works-council/#add-company-details-to-certain-company-communications-if-employed-by-our-german-entity) (*accessible internally to GitLab only*).
 
 #### Filters
 
@@ -1005,7 +969,7 @@ Jamboard is a collaborative whiteboarding platform, accessible at <https://jambo
   - Hide the bookmarks bar: `cmd shift b` (e.g. for screenshots, or shared screen presentations)
   - Open the developer tools: `cmd option i` (e.g. for debugging website errors)
 - You can [organize tabs into tab groups](https://www.google.com/chrome/tips/#organize), assign names and custom colors, and collapse or reorder them. Moving tabs between groups also works across browser windows.
-- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptop-refreshes-for-team-members).
+- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes).
 
 #### Chrome Performance Settings
 

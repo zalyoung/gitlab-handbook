@@ -14,7 +14,7 @@ Annual security awareness training will occur in the second quarter of each fisc
 
 ## Who will receive the security awareness training?
 
-The successful completion of new hire and annual security awareness training is a compliance requirement for GitLab, Inc. As part of these requirements, 100% of active GitLab team members, contractors/Temporary Service Providers (TSPs), and others with access to [Red, Orange and Yellow data](/handbook/security/data-classification-standard/#data-classification-levels) are required to successfully complete this training.
+The successful completion of new hire and annual security awareness training is a compliance requirement for GitLab, Inc. As part of these requirements, 100% of active GitLab team members, contractors/Temporary Service Providers (TSPs), and others with access to [Red, Orange and Yellow data](/handbook/security/standards/data-classification-standard/#data-classification-levels) are required to successfully complete this training.
 
 Exceptions will be made for any individuals on extended leave at the time the campaign is launched. Upon their return from extended leave, they will be added to a catch-up campaign at a later date.
 
@@ -87,7 +87,7 @@ GitLab leverages the SANS Security Awareness Maturity Model to gauge the maturit
 
 *Why was I chosen?*
 
-- All GitLab team members, contractors and anyone with access to data that is [NOT publicly shareable, and could expose GitLab or its customers to any harm or material impact](/handbook/security/data-classification-standard/#data-classification-levels) will be required to complete our security awareness trainings whether it be during new hire orientation or annually.
+- All GitLab team members, contractors and anyone with access to data that is [NOT publicly shareable, and could expose GitLab or its customers to any harm or material impact](/handbook/security/standards/data-classification-standard/#data-classification-levels) will be required to complete our security awareness trainings whether it be during new hire orientation or annually.
 
 *I just took New Hire training, why do I have to take it again?*
 

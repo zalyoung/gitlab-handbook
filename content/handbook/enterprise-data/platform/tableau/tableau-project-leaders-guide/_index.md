@@ -7,12 +7,11 @@ A GitLab Tableau Project Leader is responsible for managing Tableau content with
 
 Project Leaders collaborate with developers to manage content in Production, whether by promoting new content or updating existing content. They play a key role in maintaining high-quality reporting and ensuring that the department's data assets are reliable and accessible. Here is the contact list for [Tableau Department Project Leads](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views).
 
-This page is a resource and training for Project Leaders where the following is covered:
+---
 
-* [Project Lead Responsibilities](.../tableau-project-leaders-guide/#project-lead-responsibilities)
-* [Project Lead Abilities](.../tableau-project-leaders-guide/#project-lead-abilities)
-* [Promotion to Production Process](.../tableau-project-leaders-guide/#publishing-a-workbook-to-production-for-the-first-time)
-* [Publishing Over an Existing Production Workbook (Updating Content)](.../tableau-project-leaders-guide/#publishing-over-an-existing-production-workbook-updating-content)
+### **Project Leader Training**
+
+Department staff interested in becoming Project Leaders must complete the [Tableau Project Lead Review & Responsibilities Training](https://drive.google.com/file/d/1LXPPyIwJ5k4MFsRfEY33nYVmWbuwDB30/view?usp=drive_link).
 
 ---
 

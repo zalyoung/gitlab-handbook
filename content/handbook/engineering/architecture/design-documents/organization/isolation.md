@@ -2,25 +2,26 @@
 title: Organization Isolation
 status: ongoing
 creation-date: "2023-10-11"
-authors: [ "@DylanGriffith" ]
+authors: [ "@alexpooley", "@DylanGriffith" ]
 coach:
-approvers: [ "@lohrc", "@alexpooley" ]
-owning-stage: "~devops::data stores"
+approvers: [ "@alexpooley", "@dorrino" ]
+owning-stage: "~devops::tenant scale"
 participating-stages: []
 toc_hide: true
 ---
 
 This blueprint details requirements for Organizations to be isolated.
-Watch a [video introduction](https://www.youtube.com/watch?v=kDinjEHVVi0) that summarizes what Organization isolation is and why we need it.
 Read more about what an Organization is in [Organization](index.md).
 
 ## What?
 
+All Organization data and functionality in GitLab will be isolated.
+Isolation means that data and features can never cross Organization boundaries.
+
+Below is a depiction of multiple Organizations within a single instance called "Cell 1".
+
 ![Organization Isolation](/images/engineering/architecture/design-documents/organization/diagrams/organization-isolation.drawio.png)
 
-All Cell-local data and functionality in GitLab (all data except the few
-things that need to exist on all Cells in the cluster) must be isolated.
-Isolation means that data or features can never cross Organization boundaries.
 Many features in GitLab can link data together.
 A few examples of things that would be disallowed by Organization Isolation are:
 
@@ -30,26 +31,29 @@ A few examples of things that would be disallowed by Organization Isolation are:
 
 ## Why?
 
+There are two primary purposes for Organization Isolation:
+
+1. Organization Portability.
+2. Customer data segregation.
+
+### Organization Portability
+
+By establishing clear boundaries around data and features, we can manage Organizations as self-contained structures. This allows Organizations to become portable between our various SaaS and Self Managed platforms, and also interally across our Cells.
+
+In the case of Cells, data association between Organizations could mean crossing Cell boundaries which won't work.
+
 ![Broken Organization Isolation](/images/engineering/architecture/design-documents/organization/diagrams/organization-isolation-broken.drawio.png)
 
-[GitLab Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) depend on using the Organization as the sharding key, which will allow us to shard data between different Cells.
-Initially, when we start rolling out Organizations, we will be working with a single Cell `Cell 1`.
-`Cell 1` is our current GitLab.com deployment.
-Newly created Organizations will be created on `Cell 1`.
-Once Cells are ready, we will deploy `Cell 2` and begin migrating Organizations from `Cell 1` to `Cell 2`.
-Migrating workloads off will be critical to allowing us to rebalance our data across a fleet of servers and eventually run much smaller GitLab instances (and databases).
-
-If today we allowed users to create Organizations that linked to data in other Organizations, these links would suddenly break when an Organization is moved to a different Cell (because it won't know about the other Organization).
-For this reason we need to ensure from the very beginning of rolling out Organizations to customers that it is impossible to create any links that cross the Organization boundary, even when Organizations are still on the same Cell.
-If we don't, we will create even more mixed up related data that cannot be migrated between Cells.
+If today we allowed users to create Organizations that linked to data in other Organizations, these links would suddenly break when an Organization is moved.
+For this reason we need to ensure from the very beginning of rolling out Organizations to customers that it is impossible to create any links that cross the Organization boundary, even when Organizations are still on the same instance.
+If we don't, we will create even more mixed up related data that cannot be migrated between instances.
 Not fulfilling the requirement of isolation means we risk creating a new top-level data wrapper (Organization) that cannot actually be used as a sharding key.
 
-The Cells project initially started with the assumption that we'd be able to shard by top-level Groups.
-We quickly learned that there were no constraints in the application that isolated top-level Groups.
-Many users (including ourselves) had created multiple top-level Groups and linked data across them.
-So we decided that the only way to create a viable sharding key was to create another wrapper around top-level Groups.
-Organizations were something our customers already wanted to gain more administrative capabilities as available in self-managed, and aggregate data across multiple top-level Groups, so this became a logical choice.
-Again, this leads us to realize that we cannot allow multiple Organizations to get mixed in together the same way we had with top-level Groups, otherwise we will end up back where we started.
+### Customer Data Segregation
+
+On GitLab.com there is demand for customers to have their own private data collection that is not part of the shared data pool. They want hard boundaries between their data and outside users, and also do not want to be distracted by data oustide of their interests.
+
+Secondly, there is also demand for multi-tenant facilities within the Self Managed and Dedicated platforms. Organization isolation will allow these platforms to operate distinct GitLab data segments within the same instance.
 
 ## How?
 
@@ -63,8 +67,8 @@ These are:
 The major constraint these POCs were trying to overcome was that there is no standard way in the GitLab application or database to even determine what Organization (or Project or namespace) a piece of data belongs to.
 This means that the first step is to implement a standard way to efficiently find the parent Organization for any model or row in the database.
 
-The proposed solution is ensuring that every single table that exists in the `gitlab_main_cell`, `gitlab_ci` and `gitlab_pm` (Cell-local) databases must include a valid sharding key that is a reference to `projects`, `namespaces` or `organizations`.
-At first we considered enforcing everything to have an `organization_id`, but we determined that this would be too expensive to update for customers that need to migrate large Groups out of the default Organization.
+The proposed solution is ensuring that every single table in the database except for those in `gitlab_main_clusterwide` schema must include a valid sharding key that is a reference to `projects`, `namespaces` or `organizations`. This will mean that all Organization specific data will be directly or indirectly associated with an Organization.
+At first we considered enforcing everything to have an `organization_id`, but we determined that this would be too expensive to migrate large Organizations.
 The added benefit is that more than half of our tables already have one of these columns.
 Additionally, if we can't consistently attribute data to a top-level Group, then we won't be able to validate if a top-level Group is safe to be moved to a new Organization.
 
@@ -117,7 +121,7 @@ We can also use these sharding keys to help us decide whether:
    include loose foreign keys and possibly any relationships described in
    models.
 1. Validate that all existing sharding key columns on all Cell-local tables can reliably be assumed to be the sharding key. This requires assigning issues to teams to confirm that these columns aren't used for some other purpose that would actually not be suitable.
-1. We allow customers to create new Organizations without the option to migrate namespaces into them. All namespaces need to be newly created in their new Organization.
+1. User will only belong to a single Organization.
 
 ### Organization Isolation - Phase 3
 
@@ -149,7 +153,7 @@ We are hoping that by splitting up our databases in Cells we will be able to unl
 ### Do nothing and treat these anomalies as an acceptable edge case
 
 This idea hasn't been explored deeply but is rejected on the basis that these
-anomalies will appear as data loss while moving customer data between Cells.
+anomalies will appear as data loss while moving Organizations around.
 Data loss is a very serious kind of bug, especially when customers are not opting into being moved between servers.
 
 ### Solve these problems feature by feature
@@ -164,3 +168,13 @@ Without a robust way to ensure that all Organization data is isolated, we would 
 This creates a real risk that we miss something, and again we would end up with customer data loss.
 Another challenge here is that if we are not confident in our isolation constraints, then we may end up attributing various unrelated bugs to possible data loss.
 As such it could become a rabbit hole to debug all kinds of unrelated bugs.
+
+## Isolated but cluster-wide unique
+
+Although the data is still isolated from one organization to another, there is
+still some data that needs to be cluster-wide unique for backward compatibility
+reasons.
+
+| Resource | Reason |
+|----------|--------|
+| Top Level Namespace/Groups Paths | There can only be one `gitlab-org` top level group and the URL will be `https://gitlab.com/gitlab-org` like it is today for backward compatibility. We can't have two `gitlab-org` paths because we wouldn't be able to distinguish unauthenticated requests. |

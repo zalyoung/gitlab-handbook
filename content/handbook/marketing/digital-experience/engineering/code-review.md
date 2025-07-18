@@ -63,7 +63,7 @@ You can find someone to review your merge requests by:
 
 ## Review turnaround time
 
-Because [unblocking others is always a top priority](/handbook/values/#global-optimization),
+Because [unblocking others is always a top priority](/handbook/values/#efficiency-for-the-right-group),
 reviewers are expected to review merge requests in a timely manner,
 even when this may negatively impact their other tasks and priorities.
 

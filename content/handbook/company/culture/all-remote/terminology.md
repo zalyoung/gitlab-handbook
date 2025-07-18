@@ -36,13 +36,13 @@ GitLab is the world's largest all-remote company. We are 100% remote, with no co
 
 ### Contrasting with remote-first
 
-All-remote is different than [remote-first](hybrid-remote/#differences-between-all-remote-and-remote-first). A remote-first organization embodies many of the principles that create a [thriving all-remote culture](building-culture/) — [handbook-first documentation](handbook-first/), [asynchronous workflows](asynchronous/), no [hybrid calls](/handbook/communication/#hybrid-calls-are-horrible), etc. — but these entities reserve the right to establish a physical company headquarters.
+All-remote is different than [remote-first](hybrid-remote/#differences-between-all-remote-and-remote-first). A remote-first organization embodies many of the principles that create a [thriving all-remote culture](building-culture/) — [handbook-first documentation](handbook-first/), [asynchronous workflows](asynchronous/), no [hybrid calls](/handbook/communication/#hybrid-calls-are-annoying), etc. — but these entities reserve the right to establish a physical company headquarters.
 
 It *is* possible to [find remote-first companies](jobs/#remote-first-companies) with a healthy, understanding culture that works to support both colocated and remote colleagues. Prospective employees should do their own due diligence to make sure the requisite values are established and lived out.
 
 ### No company-owned offices
 
-The company [does not have an office occupied by their employees](/handbook/company/culture/all-remote/remote-benefits/#benefits-for-all-remote-organizations) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
+The company [does not have an office occupied by their employees](remote-benefits/#benefits-for-all-remote-organizations) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
 
 ### A more inclusive work environment
 
@@ -50,7 +50,7 @@ Such a structure ensures that each team member is given autonomy to create the [
 
 ### No location hierarchy
 
-In an all-remote company, there is no single location or region that is more important than another. Team members work [asynchronously](asynchronous/), ensuring that no time zone is seen as [more significant](stages/#remote-biased-towards-one-time-zone) than another.
+In an all-remote company, there is no single location or region that is more important than another. Team members work [asynchronously](asynchronous/), ensuring that no time zone is seen as [more significant](stages/#8-remote-only) than another.
 
 ### Freedom to change locations
 
@@ -66,7 +66,7 @@ First things first: An all-remote company means there is *no* office where multi
 
 The terms "remote" and "distributed" are often used interchangeably, but they're not quite the same. We prefer the term "remote" because "distributed" suggests multiple physical offices. "Remote" is also the [most common term](https://www.google.com/search?q=distributed+companies) to refer to the absence of a physical workspace, and being able to do your job from anywhere.
 
-For employees, being part of an all-remote company does not mean working independently or being [isolated](mental-health/#working-to-prevent-burnout-isolation-and-anxiety), because it's not a substitute for human interaction.
+For employees, being part of an all-remote company does not mean working independently or being [isolated](mental-health/#how-can-you-prevent-remote-work-burnout), because it's not a substitute for human interaction.
 
 Technology allows us to [stay closely in touch](informal-communication/) with our teams, whether asynchronously in text or in real time with high-fidelity conversations through video. Teams should collaborate closely, [communicate](informal-communication/) often, [build relationships virtually](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein/), and feel like valuable members of a larger team.
 
@@ -85,7 +85,7 @@ It's important to recognize that all-remote is *not* a synonym for outsourcing o
 ![GitLab in-person interactions at Commit SF 2020](/images/all-remote/gitlab-commit-sf-2020-in-person.jpg)
 {style="max-width: 50%;"}
 
-GitLab believes that [in-person interactions](in-person/) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](/handbook/company/culture/summit/)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](/handbook/finance/spending-company-money/#year-end-holiday-party-budget), [GitLab Commit](https://about.gitlab.com/events/) events, and other opportunities such as conferences and trade shows.
+GitLab believes that [in-person interactions](in-person/) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](/handbook/company/culture/summit/)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](/handbook/finance/expenses/#team-building), [GitLab Commit](https://about.gitlab.com/events/) events, and other opportunities such as conferences and trade shows.
 
 GitLab also gathers its [e-group](/handbook/company/structure/#e-group) for a [quarterly four-day offsite](/handbook/company/offsite/). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent](/handbook/values/#transparency).
 
@@ -140,7 +140,7 @@ For added context, consider reading GitLab's guide on the [various stages of rem
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

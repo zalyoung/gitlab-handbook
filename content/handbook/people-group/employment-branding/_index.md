@@ -6,24 +6,31 @@ twitter_image: '/images/tweets/all-remote.jpg'
 
 ## Introduction
 
-As a global, all-remote company, GitLab has a unique story to tell.
-A key part of telling that story is sharing what it's like to work here, because we wouldn't be successful without our people and our culture.
-This page outlines our approach to talent brand at GitLab.
+At GitLab, our mission is simple: to enable everyone to contribute to and co-create the software that powers our world. Our platform doesn’t just bring people together—it unites teams and organizations, breaking down barriers and redefining what’s possible in software development.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/947155019?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Get to Know GitLab"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+As GitLab grows, our Talent Brand team ensures our external reputation as an employer aligns with our internal culture giving candidates a transparent view into what it’s like to be a part of our team. 
+
+We partner across the organization to define our employer value proposition, build strong talent pipelines, and support Talent Acquisition in attracting values-aligned candidates. 
+
+Through strategic branding and storytelling, we position GitLab as the place to grow, innovate, and co-create the future.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1093814919?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Co-Create the future with GitLab"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Defining our talent brand vision
 
-If we look 10 years into the future, we picture an iteration of GitLab that's a decade closer to achieving [our mission](/handbook/company/mission/) and that has continued to evolve. Our talent brand vision is meant to capture how we picture GitLab evolving over the decade ahead.
+At GitLab, we empower people to co-create the future; of software, innovation, and their own careers. Our platform unites teams, breaking down barriers to redefine what’s possible in DevSecOps.
 
-![Talent brand vision statement](/images/people-group/employment-branding/talent_brand_june_2022.png)
+Here, you’re not just contributing to a tool, you’re shaping the future of secure, scalable software delivery. Our high-performance culture values collaboration, ownership, and impact, accelerating careers while driving global innovation.
 
-There are two parts to this vision:
+This is more than a job, it’s your opportunity to build something that matters.
 
-1. Continually building a company with a values-led, remote culture where people can contribute and thrive
-1. Becoming increasingly well known both externally and internally for being this type of workplace
+There are three pillars to achieving this vision:
 
-To achieve the first part, we need to ensure that we're building a workplace that fits this description. To achieve the second part, we need a thoughtful go-to-market strategy so that over time we become more well known for these things.
+1. Candidate Education to Support Conversion: Empowering candidates with clear insights into our culture, values, and opportunities improves engagement and conversion—accelerating time-to-hire and strengthening our employer brand.
+1. Evolved Brand Messaging: We're moving from a remote-first story to a bold, impact-driven vision—Co-Create the Future—to attract talent aligned with our culture of innovation, collaboration, and global flexibility.
+1. Elevated Candidate Journey: We create a seamless, authentic experience that mirrors life at GitLab—building trust, strengthening engagement, and helping candidates see themselves in our culture from the very first touchpoint.
+
+To achieve our vision, we need to ensure that we're building a workplace that fits this description by implementing these three strategic pillars in our strategy.
 
 ## Achieving our talent brand vision
 
@@ -36,15 +43,15 @@ As we build GitLab into one of the world's best workplaces, we will look to incr
 ### GitLab is a place where
 
 1. **Everyone can contribute**
-    - We've got big ambitions to make GitLab the [top DevSecOps platform](https://about.gitlab.com/solutions/devops-platform/) and need skilled contributors to get us there.
+    - We've got big ambitions to make GitLab the [top AI-Powered DevSecOps platform](https://about.gitlab.com/solutions/devops-platform/) and need skilled contributors to get us there.
     - Our [mission](/handbook/company/mission/) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations](/handbook/people-group/using-gitlab-at-gitlab/) on our product. This means everything is read-write by default.
     - We operate around the world. We welcome people of all backgrounds to contribute to our success and have built [Diversity, Inclusion, and Belonging programs](/handbook/company/culture/inclusion/) and practices into all parts of our company.
 1. **Anyone can thrive**
     - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being](/handbook/total-rewards/benefits/) regardless of location.
     - [Career development](/handbook/people-group/learning-and-development/career-development/), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
 1. **We foster a values-led, remote culture**
-    - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/). Because we're all-remote, we aim to stay at the forefront of best practices & building culture in a globally distributed environment.
-    - Our [handbook-led approach](/handbook/company/culture/all-remote/handbook-first/) and async working style highlight our values-led, remote culture.
+    - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an all-remote environment.
+    - Our Handbook-led approach and async working style highlight our values-led, remote culture.
 
 ## Key ways we bring this vision to life
 
@@ -69,13 +76,13 @@ As we consider the ways in which we will bring our value proposition to life, we
 
 We strive to be as transparent as possible, but this section is only for GitLab team members.
 
-[FY24 Talent Brand Go-to-market strategy and roadmap](https://docs.google.com/presentation/d/1w0520l2sYW_a9kR48t1Vu5lvHymXsXCU36yz28Lc378/edit?usp=sharing)
+[FY26 Talent Brand Go-to-market strategy and roadmap](https://docs.google.com/presentation/d/1B1yZZQ3BHA8NNzYLQadYzYwf6cLhIos9MIoX3qPW5LY/edit?slide=id.g23dede780b6_2_1753#slide=id.g23dede780b6_2_1753)
 
 ## Talent brand resources
 
 ### Content library
 
-The [life at GitLab content library](/handbook/marketing/developer-relations/technical-marketing/content-library/) is a curated list of blog posts, articles, videos, awards, and quick facts that help tell the story of life at GitLab.
+The [life at GitLab content library](/handbook/people-group/employment-branding/content-library/) is a curated list of blog posts, articles, videos, awards, and quick facts that help tell the story of life at GitLab.
 
 ### GitLab talent ambassadors
 
@@ -122,7 +129,6 @@ As we create campaigns, post jobs, sponsor events, and attract top talent to Git
 **Written articles are a great way to provide insight to candidates about a specific team, project, or exciting aspect of GitLab. There's several different ways to contribute an article including (please slack @cchiodo for further information about each option):**
 
 - [Builtin](https://builtin.com/company/gitlab), the online community for United States-based startups and national tech companies
-- [Venturefizz](https://venturefizz.com/gitlab), one of the leading authorities for jobs & careers in the tech industry
 - Write your own blog, or have a team member write it, and publish on the GitLab blog. Learn more about [how to contribute a blog to GitLab](/handbook/marketing/blog/#how-to-suggest-a-blog-post)
 - Asked to participate in an article? Learn more about what you can expect by scrolling to the bottom of [this page](/handbook/hiring/gitlab-ambassadors/)
 
@@ -138,16 +144,9 @@ Our [GitLab jobs site](https://about.gitlab.com/jobs/) is where candidates can f
 
 We incorporate content about hiring and our culture on GitLab's [social media](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) accounts so that there's one central place for candidates and the community to find out more about the company as a whole.
 
-On LinkedIn, we have a specific [career page](https://www.linkedin.com/company/gitlab-com/life) where candidates can find out more about life at GitLab.
+On LinkedIn, we have a specific [careers page](https://www.linkedin.com/company/gitlab-com/life) where candidates can find out more about life at GitLab.
 
-There are a number of videos on our [YouTube channel](https://www.youtube.com/gitlab) that relate to working here:
-
-- [Why work remotely?](https://youtu.be/GKMUs7WXm-E)
-- [Everyone can contribute](https://youtu.be/kkn32x0POTE)
-- [Working remotely at GitLab](https://youtu.be/NoFLJLJ7abE)
-- [This is GitLab](https://youtu.be/5QeHmiMFhDE)
-- [What is GitLab?](https://youtu.be/MqL6BMOySIQ)
-- [GitLab's core values](https://youtu.be/_8DFFHYAtj8)
+There are a number of videos on our [YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KpZ7TlkcjRZdn7dAAjpi97L) that relate to working here.
 
 ### Review sites
 
@@ -174,20 +173,9 @@ As an engaged employer with Glassdoor, we're able to customize the branded conte
 
 The Talent Brand Manager keeps track of new company reviews and escalates them as needed for an external response and internal action. [Here's our process](/handbook/people-group/employment-branding/glassdoor-escalation/) for tracking and escalating reviews.
 
-##### OpenCompany designation
-
-As an open, transparent company, the OpenCompany designation is important for us to have to best represent our talent brand. We take action to maintain this status throughout the year.
-
-Achieving and maintaining OpenCompany requires that you:
-
-- Keep company profile up to date
-- Add 5-10 new photos every 12 months
-- Get 5-60 new employee reviews (depending on company size) every 12 months
-- Respond to 2-10 reviews (depending on company size) every 12 months
-
 ##### Profile updates on Glassdoor
 
-To be sure the details on our profile stay up to date, we [review these items](https://gitlab.com/gl-talent-acquisition/talent-brand/-/issues/9) quarterly and make any needed updates:
+To be sure the details on our profile stay up to date, we review these items quarterly and make any needed updates:
 
 - Headcounts and country numbers listed on our profile
 - Our status as one of the world's largest all-remote companies
@@ -204,36 +192,12 @@ Our goal on the site is to maintain our profile and keep the feedback up to date
 
 - [Builtin](https://builtin.com/company/gitlab)
 - [Indeed](https://www.indeed.com/cmp/Gitlab-Inc/about)
-- [AngelList](https://wellfound.com/company/gitlab/)
+- [Blind](https://www.teamblind.com/company/gitlab)
 
 ### GitLab blog
 
 To give the most authentic view of life at GitLab, we encourage team members to blog about their experiences.
 You can find many of these posts in the [culture section](https://about.gitlab.com/blog/categories/culture/) of the GitLab blog.
-
-### HackerNews
-
-We promote life at GitLab and our open roles on [HackerNews](https://news.ycombinator.com/).
-
-#### Who's Hiring monthly post
-
-On the first of the month (or closest business day after) at 11 a.m. ET, the Talent Brand Manager will post a comment for GitLab in the Hacker News thread called ["Who's Hiring"](https://news.ycombinator.com/ask).
-Here's a template that will be updated monthly by the Talent Brand Manager:
-
-*Template text (updated for 2021-05-01):*
-
-GitLab, Remote only, Full time
-
-As one of the world's largest all-remote companies, GitLab is a place where you can contribute from almost anywhere. We're an ambitious, productive team that embraces a set of shared values in everything we do.
-
-We were recently named one of Fortune's Best Workplaces in Technology, and it's an exciting time to join the GitLab team.
-
-We're hiring across the company. Check out our opportunities: https://about.gitlab.com/jobs/
-
-**HackerNews Notes:**
-
-- The team member posting the comment should use their own account.
-- When posting on HackerNews, remember that it is our most important social channel. Please follow the [best practices](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#best-practices-when-responding-on-hacker-news) and [social media guidelines](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#social-media-guidelines).
 
 ## Employer awards and recognition
 
@@ -272,8 +236,8 @@ Our external talent engagement strategy aims to align with the goals and vision 
 
 For further detail from each sub-group please refer to the links below.
 
-1. [Talent Brand](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/issues/1014)
-1. [Talent Acquisition](https://docs.google.com/document/d/1Q9ui_BZLRPBAYpRtdtpHVSvGzW3g7JtVYkGj_KqwZBA/edit#heading=h.riu5wc8sjmum)
+1. [Talent Brand](https://docs.google.com/presentation/d/1B1yZZQ3BHA8NNzYLQadYzYwf6cLhIos9MIoX3qPW5LY/edit?slide=id.g1d24c3e4ddd_5_252#slide=id.g1d24c3e4ddd_5_252)
+1. [Talent Acquisition](https://docs.google.com/document/d/1ollQaElBdOK18oUx2VBu9A8aeq0Sg35RmGG9c-DjooA/edit?tab=t.0#heading=h.a6py5r5muinn)
 1. [DIB](/handbook/people-group/people-success-performance-indicators/#key-performance-indicators)
 
 Together, we partner to define and select organizations to partner with that allow us to engage with a target audience that includes members from underrepresented groups as defined [here](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups).
@@ -298,15 +262,15 @@ Our decision-making process involves a comprehensive assessment of potential par
 **Location and Accessibility**
 
 - If this is related to an event, is the location viable for GitLab to attend?
-- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) If related to interns see [here](https://docs.google.com/spreadsheets/d/1uHHbExS_mEY2mMtPeZcfJz21IMg-TXS2buWeLIUYUlA/edit#gid=402334717).
+- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](/handbook/people-policies/#entity-specific-employment-policies).
 - If this is related to an event, does the location provide an opportunity for GitLab to perform other business-related activities?
 - Does this partnership share clear ways that their space is accessible?
 - Is there a virtual option?
-- Do our talent insights provide data around the location having a diverse population [gender, ethnicity, etc.]
+- Do our talent insights provide data around the location having a diverse population (gender, ethnicity, etc.)
 
 **Brand Value**
 
-- Will this opportunity offer GitLab exposure and/or the ability to promote careers via a speaking engagement[s], social media presence, or likewise?
+- Will this opportunity offer GitLab exposure and/or the ability to promote careers via a speaking engagement(s), social media presence, or likewise?
 
 **Previous GitLab Engagement + Feedback**
 
@@ -346,25 +310,15 @@ Collaboration from all teams and departments is welcome. To effectively manage r
 | GitLab Team Members Featured | Number and names of GitLab team members featured on the platform or as a result of the partnership. |
 | Content | Number of and links to content published on the platform or as a result of the partnership. |
 
-**FY24 Roster**
+**FY26 Roster**
 
-- [Code2College](https://code2college.org) - Partnership
--[Women Impact Tech](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/835) - Event Sponsorship
-- [European Women in Tech](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/888) - Event Sponsorship
-- [Black Tech Fest](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/826) - Event Sponsorship
-- [Unicorns in Tech](https://www.unicornsintech.com) - Event Sponsorship
-- [Grace Hopper Conference](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/829) - Event Sponsorship
-- [GitLab Hosted Experience](https://www.eventbrite.com/e/diverse-minds-unified-ai-solutions-gitlab-hosted-happy-hour-and-panel-tickets-728537293657?aff=oddtdtcreator) - during [Afrotech 2023](https://afrotechconference.com/)
-- [Out in Tech](https://outintech.com) - Partnership
-- [Blacks In Technology Calgary](https://foundation.blacksintechnology.net/chapters/) - Sponsorship
+- [Women of Silicon Roundabout](https://code2college.org) - Event Sponsorship
+- [Obsidi Tech Talk](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/835) - Event Sponsorship
+- TBD - Event Sponsorship
 
-**FY24 Lookback and FY25 Proposal**
+**FY25 Lookback and FY26 Proposal**
 
-- [FY25 Talent Events Proposal & FY24 Talent Events Look Back](https://docs.google.com/presentation/d/1-y3tP4JuLsfz55B-j25Q7lWAs6f_KoIOOobXZ9Js8_w/edit#slide=id.g12b319f6181_0_0)
-
-## All-remote work
-
-A foundational aspect of our talent brand is the flexibility and autonomy that all-remote work gives our team members. The Talent Brand Manager collaborates closely with the [All-Remote Marketing team](/handbook/ceo/office-of-the-ceo/workplace/) to raise awareness about remote work and tell the stories of how it's impacted the lives of our team members. Learn more about GitLab's approach to remote work on our [all-remote page](/handbook/company/culture/all-remote/).
+- [FY26 Talent Events Proposal & FY25 Talent Events Look Back](https://docs.google.com/presentation/d/13SEEmOWXrqd5IU7plA2JIrR1q5r6xkPIuz06EYIP_E0/edit?slide=id.g12b319f6181_0_0#slide=id.g12b319f6181_0_0)
 
 ## Performance indicators
 

@@ -31,7 +31,7 @@ The Product Designer (UX) - Marketing (Intermediate) is a [grade 6](/handbook/to
 #### Product Designer (UX) - Marketing (Intermediate) Requirements
 
 - **Product knowledge:** Understand the technology and features of GitLab.
-- **Research:** Conduct [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) with guidance of your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
+- **Research:** Conduct [solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) with guidance of your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
 - **Deliverables:** Create deliverables for our [Digital Experience team](/handbook/marketing/digital-experience/) (for example: competitive analyses, user flows, low fidelity wireframes, high fidelity mockups, prototypes, etc.) that solve real user problems through the user experience.
 - **Communication:** Communicate the results of UX activities with the [Digital Experience team](/handbook/marketing/digital-experience/), cross-functional partners, and other interested GitLab team-members using clear language that simplifies complexity.
 - **Usability:** Proactively identify both small and large usability issues with the Marketing site.
@@ -52,7 +52,7 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 
 - Extends that of the Product Designer (UX) - Marketing responsibilities
 - **Product knowledge:** Understand GitLab's Marketing vison and goals as well as proactively learn other product areas.
-- **Research:** Independently conduct [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) with minimal guidance from your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
+- **Research:** Independently conduct [solution validation](/handbook/product-development/how-we-work/product-development-flow/#validation-phase-4-solution-validation) with minimal guidance from your Product Manager and incorporate insights into design decisions to fulfill user and business needs.
 - **Deliverables:** Create deliverables for our [Digital Experience team](/handbook/marketing/digital-experience/) (for example: competitive analyses, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, personas, design vision, strategic planning, etc.) that help define the vision and execution of solving real user problems through the user experience.
 - **Communication:** Communicate the results of UX activities with a strong point of view within our [Digital Experience team](/handbook/marketing/digital-experience/), cross-functional partners, and other interested GitLab team-members using clear language that simplifies complexity.
 - **Usability:** Proactively identify both small and large usability issues within GitLab's Marketing experience, and help influence your Product  Manager and Technical Product Owner to prioritize them.
@@ -73,6 +73,48 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 - [Identifying and organizing epics into executable Sprint plans](/handbook/marketing/digital-experience/#iteration-process)
 - [Successfully completing bi-weekly Sprint tasks](/handbook/marketing/digital-experience/#sprint-cycle)
 
+### Design Manager (UX) - Marketing
+
+The Design Manager role leads a team of Designers within the Digital Experience organization. This position is responsible for guiding the design vision, fostering a culture of design excellence, and ensuring design solutions meet both user needs and business objectives while maintaining alignment with GitLab's overall product strategy.
+
+### Responsibilities
+
+- Lead and develop a team of Designers through coaching, mentoring, and career development
+- Guide the design vision and strategy for assigned product areas
+- Ensure design quality and consistency across team deliverables
+- Facilitate collaboration between design team and cross-functional partners
+- Advocate for user-centered design practices and principles throughout the organization
+- Participate in the hiring and onboarding process for design team members
+- Manage team resources and project prioritization
+- Drive design process improvements and best practices
+- Foster a culture of feedback, continuous learning, and iteration
+
+### Requirements
+
+- Ability to use GitLab
+- 5+ years of experience in product design, user experience design, or similar roles
+- 2+ years of experience managing design teams
+- Excellent communication and presentation skills
+- Strong portfolio demonstrating strategic thinking and problem-solving abilities
+- Experience with design systems and accessibility standards
+- Familiarity with user research methodologies and usability testing
+- Ability to balance user needs with business requirements
+- Understanding of web technologies and development processes
+- Experience working in an agile environment
+
+### Design Manager Job Grade
+
+The Design Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Design Manager reports to the Director, Digital Experience.
+
+#### Design Manager Performance Indicators
+
+- Team satisfaction and growth metrics (based on feedback and career progression)
+- Quality and timeliness of team deliverables
+- Success rate of design initiatives against established metrics
+- Contribution to company-wide design standards and systems
+- Effective collaboration with cross-functional partners
+
 ## Career Ladder
 
 The next step in the Product Design (UX) - Marketing job family is not yet defined at GitLab.
@@ -81,7 +123,7 @@ The next step in the Product Design (UX) - Marketing job family is not yet defin
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, you can find their job title on our [team page](/handbook/company/team/).
 
-- Select candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Select candidates will be invited to schedule a 30 minute screening call with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 30 minute interview with our Director, Digital Experience.
 - Next, candidates will be invited to schedule a 30 minute interview with a Fullstack Engineer and a Frontend Engineer on the Digital Experience team.
 - Next, candidates will be invited to schedule a 30 minute interview with the Senior Director, Inbound Marketing.

@@ -99,7 +99,7 @@ When you work with Kubernetes, many of your administration tasks will run throug
 
 1. Once the command completes, run `kubectl get pods`. Verify that all pods complete deployment successfully.
 
-## Task C. Interacting with GitLab Rails
+## Task D. Interacting with GitLab Rails
 
 GitLab Rails is a command line tool which allows you to interact with GitLab directly through Ruby on Rails. This tool can be valuable for troubleshooting and fixing instance errors.
 

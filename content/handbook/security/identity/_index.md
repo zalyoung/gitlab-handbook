@@ -69,7 +69,7 @@ GitLab Identity v1 was managed using Tech Ops practices by the Infrastructure an
 
 ### GitLab Identity v2
 
-GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/) to learn more.
+GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/security/corporate/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/security/corporate/end-user-services/access-requests/access-requests/). See the [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/) to learn more.
 
 The processes that we do today meets audit and compliance requirements, however the processes are mostly manual that results in internal inefficiency. It takes a lot of labor hours to manage onboarding, access requests, access reviews, and offboarding processes.
 
@@ -201,7 +201,7 @@ Learn more on the [Identity Boundaries](/handbook/security/identity/boundaries) 
 
 We consider Workday to be the source of truth for [team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab). All users and their attributes are synced with Okta every hour with built-in vendor integrations.
 
-The [Temporary Service Provider](/handbook/it/end-user-services/onboarding-access-requests/temporary-service-providers/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
+The [Temporary Service Provider](/handbook/finance/procurement/contingent-worker-policy/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
 
 Workday has department, job title, and manager metadata, but does not have sufficient sub-department/team/role metadata that is needed for RBAC (that are being evaluated). Workday also does not have any of our temporary service provider contractors. In our current iteration, we consider Workday to be focused on People Group related use cases.
 

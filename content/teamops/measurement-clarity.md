@@ -32,9 +32,9 @@ While KPIs measure smaller units than OKRs do, the former aren't dependent on th
 Crucially, under TeamOps every functional department shares its KPIs transparently across the organization. This aids visibility and enables everyone to contribute.
 
 {{% details summary="Examples and resources for transparent measurements" %}}
-**Example:** [Chief Executive Officer OKR and KPIs](/handbook/company/okrs/fy23-q3/)
+**Example:** Chief Executive Officer OKR and KPIs
 
-In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engagement](/handbook/company/okrs/fy23-q3/). This is the *initiative* to improve a series of KPIs, a subset of which are documented below:
+In Q3-FY23 at GitLab, a company OKR was "Improve user and wider-community engagement". This is the *initiative* to improve a series of KPIs, a subset of which are documented below:
 
 1. Evolve the resident contributor strategy by conducting 5 customer conversations with current "resident contributors" in seat
 1. Certify 1,000 team members and 10,000 wider-community members in TeamOps
@@ -167,14 +167,14 @@ At GitLab, our mission that [everyone can contribute](/handbook/company/mission/
 - *Team:* Add a section for group feedback into every meeting agenda.
 - *Company:* Create a ritual for company leadership to receive and share feedback on certain projects or tasks, to set a top-down example of healthy feedback dynamics.
 
-**Recommended TeamOps Partner:** [Code Traveller HR](codetravellerhr.com) (consultant)
+**Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
 {{% /details %}}
 
 ## Cadence
 
 In organizations built on information-based operations, team members' collective sense of stability, security, and well-being is an outgrowth of their knowing when future opportunities to receive and exchange knowledge will occur. A [Single Source of Truth (SSoT)](/teamops/shared-reality/#single-source-of-truth-ssot) and [asynchronous workflows](/teamops/equal-contributions/#asynchronous-workflows) ensure that existing information is continuously accessible. But what about informational *updates*? Not knowing about emerging decisions, forthcoming goals, or adjustments to long-term visions can compromise a team's focus, efficiency, and trust.
 
-This is why establishing a transparent [cadence](/handbook/company/cadence/) for decision-making activities, informational updates, and feedback opportunities is important for teams practicing TeamOps. A regular cadence sets a *pace* for productivity and creates predictable, comfortable intervals for work. Establishing and documenting a cadence for everything from operational workflows and [due dates](/handbook/teamops/measurement-clarity/#prioritize-due-dates-over-scope)  to company announcements and team meetings can prevent the kinds of distraction and burnout that often result from context switching, distractive research, or individual uncertainty.
+This is why establishing a transparent [cadence](/handbook/company/cadence/) for decision-making activities, informational updates, and feedback opportunities is important for teams practicing TeamOps. A regular cadence sets a *pace* for productivity and creates predictable, comfortable intervals for work. Establishing and documenting a cadence for everything from operational workflows and [due dates](#prioritize-due-dates-over-scope)  to company announcements and team meetings can prevent the kinds of distraction and burnout that often result from context switching, distractive research, or individual uncertainty.
 
 {{% details summary="Examples and resources for cadence" %}}
 **Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-all-company-meetings/)

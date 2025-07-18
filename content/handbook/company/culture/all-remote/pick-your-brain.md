@@ -17,11 +17,11 @@ On this page, we're detailing how the public can request a Pick Your Brain inter
 
 *Emna G., founder and CEO at Veamly, speaks with GitLab's [Darren M.](https://twitter.com/darrenmurph) on a number of remote work topics: reinforcing culture, encouraging work-life harmony, remote work processes, the importance of process optimization in team productivity, and asynchronous communication.*
 
-GitLab believes that [everyone can contribute](/handbook/company/mission/#mission). We also believe that all-remote organizations can fundamentally change the world by offering a different way to work. From [reversing](/handbook/company/culture/all-remote/remote-benefits/) rural depopulation to providing [opportunity](people/) to a more diverse set of people, we want all-remote to become less the exception, and more the [norm](jobs/).
+GitLab believes that [everyone can contribute](/handbook/company/mission/#mission). We also believe that all-remote organizations can fundamentally change the world by offering a different way to work. From [reversing](remote-benefits/) rural depopulation to providing [opportunity](people/) to a more diverse set of people, we want all-remote to become less the exception, and more the [norm](jobs/).
 
 There is no formal guidebook on building an all-remote company, and what works for a new startup may not map precisely to a larger organization.
 
-While we are [proponents](/handbook/company/culture/all-remote/remote-benefits/) of all-remote, we recognize that there are [drawbacks](drawbacks/) as well as individuals who are skeptical about its feasibility. We embrace detractors and those who are inquisitive about making all-remote work. We're interested in hearing about challenges faced by others implementing remote work, so we can ideally find and [document](handbook-first/) solutions.
+While we are [proponents](remote-benefits/) of all-remote, we recognize that there are [drawbacks](drawbacks/) as well as individuals who are skeptical about its feasibility. We embrace detractors and those who are inquisitive about making all-remote work. We're interested in hearing about challenges faced by others implementing remote work, so we can ideally find and [document](handbook-first/) solutions.
 
 ## Scheduling a Pick Your Brain interview on all-remote
 
@@ -35,7 +35,7 @@ GitLab is a very [transparent](/handbook/values/#transparency) company and many 
 
 1. [GitLab's All-Remote Culture](_index.md)
     1. [Defining "all-remote"](terminology/)
-    1. [Advantages](/handbook/company/culture/all-remote/remote-benefits/)
+    1. [Advantages](remote-benefits/)
     1. [Disadvantages](drawbacks/)
     1. [Remote work fast boot and emergency plan for teams/leaders](remote-work-emergency-plan/)
     1. [Remote work starter guide for employees](remote-work-starter-guide/)
@@ -52,10 +52,10 @@ GitLab is a very [transparent](/handbook/values/#transparency) company and many 
     1. [Jobs](jobs/)
     1. [Management](management/)
     1. [Remote onboarding](onboarding/)
-    1. [Values](/handbook/company/culture/all-remote/remote-values/)
+    1. [Values](remote-values/)
     1. [Collaboration](collaboration-and-whiteboarding/)
     1. [Hiring](hiring/)
-    1. [Compensation](/handbook/company/culture/all-remote/remote-compensation/)
+    1. [Compensation](remote-compensation/)
     1. [Learning and Development](learning-and-development/)
     1. [Self-service](self-service/)
     1. [Informal Communication](informal-communication/)

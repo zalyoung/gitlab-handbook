@@ -9,6 +9,8 @@ Snowplow is an open source, event analytics platform. There is a business entity
 
 In `June of 2019`, we switched sending Snowplow events from a third party to sending them to infrastructure managed by GitLab, documented on this page. From the perspective of the data team, not much changed from the third party implementation. Events are sent through the collector and enricher and dumped to S3.
 
+As of December 2024, we have switched over to a new Snowplow env called `aws-snowplow-prd`, more information is detailed in the [Snowplow internal handbook](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/blob/main/content/handbook/enterprise-data/platform/infrastructure/_index.md?ref_type=heads#aws-snowplow-for-cpaa-internal-analytics).
+
 #### Snowplow - adding new `app_id`
 
 When new application should be tracked by `Snowplow` here is the few things should be considered.
@@ -16,7 +18,7 @@ When new application should be tracked by `Snowplow` here is the few things shou
 ![how to add app ID](/images/enterprise-data/platform/snowplow/new_app_id.png)
 
 The right `app_id`, and collector URL should be done in coordination with the data team.
-URL wil stay the same `snowplow.trx.gitlab.net`. Any `app_id` is fine if there are no other concerns around enabling tracking on `CustomersPortal` staging as well.
+URL wil stay the same `snowplowprd.trx.gitlab.net`. Any `app_id` is fine if there are no other concerns around enabling tracking on `CustomersPortal` staging as well.
 
 > **Note:** Any un-expected events *(with wrong app_id)* are normally dropped.
 
@@ -37,7 +39,7 @@ file. As an example, [here is an issue](https://gitlab.com/gitlab-data/analytics
 
 #### GitLab Implementation
 
-The original design document to move our Snowplow infrastructure from a 3rd-party hosting service to 1st-part is documented in the [Infrastructure design library](/handbook/engineering/infrastructure/library/snowplow/). This was written before the build was started and contains many of the assumptions and design decisions.
+The original design document to move our Snowplow infrastructure from a 3rd-party hosting service to 1st-part is documented in the [Infrastructure design library](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/snowplow). This was written before the build was started and contains many of the assumptions and design decisions.
 
 Snowplow is built with Terraform on AWS documented in the [`config-mgmt` project](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/aws-snowplow/README.md).
 
@@ -52,6 +54,8 @@ Bad events are stored as JSON in `s3://gitlab-com-snowplow-events/enriched-bad/`
 For both buckets, there are paths that follow a date format of `/YYYY/MM/DD/HH/<data>`.
 
 #### Data Warehousing
+
+<details><summary>Click to expand</summary>
 
 #### Snowpipe
 
@@ -274,6 +278,8 @@ To force a refresh of the stage so that snowpipe picks up older events:
 ALTER PIPE gitlab_good_event_pipe refresh;
 ```
 
+</details>
+
 #### dbt
 
 To materialize data from the RAW database to PROD for querying, we have implemented a partitioning strategy within dbt. By default, the snowplow models and the [Fishtown snowplow package](https://github.com/dbt-labs/snowplow) will write to a schema scoped to the current month in the PREP database. For July 2019, the schema would be `snowplow_2019_07`.
@@ -295,3 +301,73 @@ Our snowplow tracking configuration and particular implementations respect the [
 #### Duo data redaction
 
 We only keep Duo free form feedback for 60 days in snowflake. This is managed by the [duo_data_redaction DAG](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/duo_data_redaction.py), which runs daily, removing contents of the `extendedFeedback` attribute in the `contexts` column for all feedback response Snowplow events in `RAW` and `PREP`. This timeline allows for our full-refresh process to complete, updating all downstream data, within 90 days for compliance.
+
+### Snowplow improvement: SQL scripting for issue fixing
+
+To generate a script the issue, do the following things:
+
+1. Open an issue in the project [snowplow-fix-scripting](https://gitlab.com/gitlab-data/snowplow-fix-scripting)
+2. Open an MR in the same project
+3. Adjust `config.yml` file to adjust your logic.
+4. Run the pipeline  📚scripting -> ✏️generate_sql in MR
+
+    ![generate_sql_pipeline.png](/images/enterprise-data/snowplow/generate_sql_pipeline.png)
+
+#### Pipeline ✏️generate_sql
+
+The ✏️generate_sql job is a manually triggered job in the GitLab `CI/CD` pipeline that generates SQL scripts based on provided parameters. It runs in the 📚scripting stage of the pipeline.
+To run this job successfully, the following environment variables must be set:
+
+* Required Environment Variables:
+  * `DATE_FROM`: Start date for the data range to process in the format `YYYY-MM-DD`
+  * `DATE_TO`: End date for the data range to process in the format `YYYY-MM-DD`
+* Optional Environment Variables
+  * `LOG_LEVEL`: Sets the logging verbosity (defaults to `DEBUG` if not provided). Allowed values: `[DEBUG|INFO|WARNING|ERROR|CRITICAL]`
+  * `DATABASE_PREFIX`: Optional prefix for database objects or connections. If value is not provided, then PROD code is generated (`RAW`, `PREP`, `PROD`). Otherwise, enter prefix for the database name i.e. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`.
+
+![pipeline_editor.png](/images/enterprise-data/snowplow/pipeline_editor.png)
+
+##### Output structure
+
+```bash
+scripts/
+├──RAW
+├────1_backup.sql # create backup
+├────2_update.sql # fix script to update
+├────3_check.sql  # check script
+├────4_drop.sql   # drop backup script
+├──PREP
+├────1_backup.sql # create backup
+├────2_update.sql # fix script to update
+├────3_check.sql  # check script
+├────4_drop.sql   # drop backup script
+├──PROD
+├────1_backup.sql # create backup
+├────2_update.sql # fix script to update
+├────3_check.sql  # check script
+├────4_drop.sql   # drop backup script
+```
+
+Usually, the flow will require the pipeline to be executed twice (not necessarily), once to generate a testing script to be run on the dev DB's, and once to generate a prod script to be run on the production db's.
+
+* For testing databases, the parameter `DATABASE_PREFIX` will have a value as a prefix of development databases (ie. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`) and the code will be generated like:
+
+```sql
+...
+UPDATE "22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING_PREP".SNOWPLOW_2025_01.SNOWPLOW_UNNESTED_EVENTS
+   SET page_url_path = update_procedure(p_userid=userid)
+...
+```
+
+* For the production database, the parameter `DATABASE_PREFIX` will be skipped. Code will look like:
+
+```sql
+...
+UPDATE PREP.SNOWPLOW_2025_01.SNOWPLOW_UNNESTED_EVENTS
+   SET page_url_path = update_procedure(p_userid=userid)
+...
+```
+
+The scripts are generated as an artifact. Once the pipeline is complete, click the download button to retrieve them.
+
+![download_pipeline.png](/images/enterprise-data/snowplow/download_pipeline.png)

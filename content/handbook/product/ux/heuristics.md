@@ -30,6 +30,25 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 | Onboarding | Features/workflows have clear calls to action. | A call to action should make it clear what is to be done to move the task forward.  At the very least, there should be links to documentation for assistance. At best, guided setup.|
 | Onboarding | Tasks are easy to learn, or if highly complex, have setup support in the form of in-app guidance, defaults, templates or wizards. | Tasks should be intuitive first and foremost, and when they are complex, they must provide tools to enable learning. |
 
+### AI Heuristics (for probablistic features)
+
+[Credit to Emily Campbell at the Shape of AI](https://www.linkedin.com/pulse/my-emerging-heuristics-assessing-ai-design-emily-campbell-f2zqc/)
+
+| Category | Heuristic | Description |
+| ------ | ------ | ------ |
+| Usability | Purposeful and Needful | The AI solves for a real and significant need in a meaningful way, and makes sense within its surrounding context. Users easily understand the capabilities available. |
+| Usability | Input Clarity and Ease | Users understand how to initiate an interaction and can communicate their intent.|
+| Usability | Context | Users can understand what context and information the AI has available to it. Users can add additional context that fits the task. |
+| Performance | Result Quality | Results are accurate, relevant and helpful. Output is readable and visually appealing. |
+| Transparency | Transparency of Results | Users can understand why they got the answer they did. Sources are identified and linked as appropriate. |
+| Usability | Customization and Tunability | Users can fine-tune their inputs to easily generate outputs that match their specific needs and expectations.|
+| Performance | Branching and Recall | The AI maintains conversational context throughout or across interactions, allowing users to explore different paths and easily return to the main thread. |
+| Usability | User Autonomy and Control | Users maintain control over the AI through mechanisms that let them guide, direct, and control the interaction. When the interaction is complete, users can use the results elsewhere. |
+| Transparency | Logical Transparency | The AI clearly communicates its decision-making processes, improving user comprehension and trust. |
+| Transparency | Ethical Integrity and Trustworthiness | The AI adheres to ethical standards, minimizes bias, protects privacy, and ensures transparency to foster user trust. Risks to the user are managed appropriately. |
+| Transparency | Identification and Honesty | Users can distinguish AI inputs and outputs from human-generated content. The AI is honest and transparent about its capabilities and constraints. |
+| Performance | Continuous Learning | The AI continuously improves, learning from user feedback and data to enhance its functionality. |
+
 ## Scoring
 
 Scoring these heuristics can have an element of subjectivity, but the more you involve other users in the evaluation the less subjective it will be. Heuristic scoring is optional, but consists of scoring all [11 heuristics](/handbook/product/ux/heuristics/#heuristics) for a part of the product on a 1-5 scale using the scoring table below. This [scoring sheet](https://docs.google.com/spreadsheets/d/1KwktDjTnM7eZlI8aj3jk7KbRpkfexJV20-6cTNMtz5w/edit?usp=sharing) allows you to easily record your responses and determine an overall score (average of individual scores for the 11 heuristics).

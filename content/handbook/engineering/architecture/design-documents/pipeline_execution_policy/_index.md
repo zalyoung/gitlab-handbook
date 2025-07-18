@@ -10,7 +10,7 @@ participating-stages: ["~devops::verify"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work in progress and represents the current state of the vision to allow users to enforce CI jobs to be run as part of project pipelines and enabling users to link/scope those jobs to projecs using security policies and compliance frameworks.
 

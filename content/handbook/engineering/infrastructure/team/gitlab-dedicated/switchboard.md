@@ -8,7 +8,7 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 
 ### Resources
 
-- [Switchboard Direction Page](https://about.gitlab.com/direction/saas-platforms/switchboard/)
+- [Switchboard Direction Page](https://about.gitlab.com/direction/platforms/switchboard/)
 - [Switchboard Demo Library](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/blob/main/docs/walkthrough-library.md)
 
 ## Team Members
@@ -16,7 +16,7 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 {{< team-by-manager-slug "ashiel" >}}
 
 Product Manager: [Loryn Bortins](/handbook/company/team/#lbortins)
-Technical Writer: [Emily Sahlani](/handbook/company/team/#emily.sahlani)
+Technical Writer: [Lysanne Pinto](/handbook/company/team/#lyspin)
 Product Designer: [Jesse Hoek](/handbook/company/team/#jhoek)
 
 ## Working with us
@@ -27,7 +27,7 @@ To engage with the Switchboard team:
 - Label the issue with:
   - `component::Switchboard`
   - `workflow-infra::Triage`
-  - `team::Switchboard`
+  - `group::switchboard`
 - When creating an issue, it is not necessary to `@`mention anyone
 - In case you want to get attention please use the specific team handle, `@gitlab-dedicated/switchboard`, as defined in [Dedicated group hierarchy](/handbook/engineering/infrastructure/team/gitlab-dedicated/#gitlab-group-hierarchy)
 - As a cross-functional team Switchboard uses `@gitlab-dedicated/switchboard/frontend-engineers` and `@gitlab-dedicated/switchboard/backend-engineers` internally to seek input from engineers with specific expertise
@@ -70,7 +70,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 
 #### Resources
 
-- [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=team::Switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false)
+- [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false)
 - [Switchboard team top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1048)
 - [Switchboard team issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
 - [Switchboard technical writing board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/7068209?label_name[]=component%3A%3ASwitchboard&label_name[]=Technical%20Writing)
@@ -170,7 +170,7 @@ Switchboard team process to refine issues:
 
 1. [Switchboard team top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1048)
     1. Look at the Switchboard top level epic and offer to work on issues with the nearest due date
-    1. Use the [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=team::Switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false) for guidance
+    1. Use the [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=group::switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false) for guidance
 
 1. `Open` column on the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
    1. Look at the issues at the top of the `Open` column
@@ -308,10 +308,10 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 
 | User | Visible | Description |
 |----------|----------|-------------------|
-| [Internal - Operator](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
-| [Internal - Support](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
-| [Internal - Provisioner](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
-| [Internal - Read Only](https://about.gitlab.com/direction/saas-platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Operator](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Support](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Provisioner](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
+| [Internal - Read Only](https://about.gitlab.com/direction/platforms/switchboard/internal-user-roles/) |  |  |
 | [External - Tenant Admin](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
 | [Internal - Read Only](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#add-users-to-an-instance) |  |  |
 
@@ -387,7 +387,8 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 
 <!-- STATUS NOTE END -->
 
-/label ~"team::Switchboard" ~"workflow-infra::Triage"
+/label ~"group::switchboard" ~"workflow-infra::Triage"
+/confidential
 
 ```
 

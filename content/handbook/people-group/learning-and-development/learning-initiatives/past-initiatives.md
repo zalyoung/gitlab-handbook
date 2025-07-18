@@ -134,7 +134,6 @@ GitLab team members participating in this training will:
 
 1. Build confidence in their ability to use Slack as a form of informal and formal communication at GitLab.
 1. Improve efficiency using tools built into the Slack app.
-1. Contribute to reaching our target of [percent of messages that are not DMs](/handbook/communication/#why-we-track--of-messages-that-are-not-dms).
 1. Review and reinforce GitLab values within the scope of Slack.
 
 ### Requirements
@@ -182,7 +181,6 @@ We measure success using the following metrics:
 | Metrics | How we measure | Goal |
 | ----- | ----- | ----- |
 | Percentage of new team members who complete the training per quarter | Completions of end of program survey | 30% |
-| Impact on target of [percent of messages that are not DMs](/handbook/communication/#why-we-track--of-messages-that-are-not-dms) | Tracked on [Slack handbook page](/handbook/communication/#why-we-track--of-messages-that-are-not-dms) | Correlation of course completions and target |
 
 ### Future improvements
 
@@ -339,7 +337,7 @@ Learning campaigns use a combination of GitLab issues and Slack announcements to
 
 ## CEO Handbook Learning Sessions
 
-GitLab's Handbook pages grow every day. Each page serves as GitLab's primary source of [learning and development material](/handbook/people-group/learning-and-development/#handbook-first-training-content). Throughout FY22, the L&D team and the CEO held recorded learning sessions to analyze Handbook pages. The goal of the sessions will be to incorporate more video-based learning into the handbook.
+GitLab's Handbook pages grow every day. Throughout FY22, the L&D team and the CEO held recorded learning sessions to analyze Handbook pages. The goal of the sessions will be to incorporate more video-based learning into the handbook.
 
 Three types of CEO handbook learning sessions:
 

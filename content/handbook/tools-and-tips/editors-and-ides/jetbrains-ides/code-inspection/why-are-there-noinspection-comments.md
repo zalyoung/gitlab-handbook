@@ -51,7 +51,7 @@ cases, we will proactively report these to JetBrains, and track the correspondin
 This tracking exists under [Tracked JetBrains Issues](/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/tracked-jetbrains-issues/), and the related
 comments should all include the relevant issue entry as a reference. Once the underlying issues are
 resolved and included in a new IDE release,
-[the corresponding `noinspection` comments can be removed](../../tracked-jetbrains-issues#handling-of-issues-related-to-noinspection-comments).
+[the corresponding `noinspection` comments can be removed](../tracked-jetbrains-issues/_index.md#handling-of-issues-related-to-noinspection-comments).
 
 But other `noinspection` comments are due to default JetBrains inspection rules we don't want to
 enforce because we are intentionally making an exception to the default rule. An example of this is
@@ -68,7 +68,7 @@ associated JetBrains issues, and removing fixed or obsolete ones.
 
 We do request is that there are no
 [requests from non-JetBrains users to remove these comments](https://gitlab.com/gitlab-org/gitlab/-/issues/409823),
-unless the [JetBrains Issue](../../tracked-jetbrains-issues) tracking the comment has already been resolved.
+unless the [JetBrains Issue](../tracked-jetbrains-issues/_index.md) tracking the comment has already been resolved.
 
 While it may not be useful for folks not using JetBrains IDEs, it does provide benefits to JetBrains users to write
 quality code by ensuring no such warnings are present, and it is in support of our values of Efficiency, Results,
@@ -88,5 +88,5 @@ comments have been removed from the code except for within the `Workspaces` doma
 the only group actively using it.
 
 But now that we have standardized this process and added
-[handbook support for configuring and using JetBrains IDEs](../../setup-and-config)
+[handbook support for configuring and using JetBrains IDEs](../setup-and-config/_index.md)
 , other team members and teams who are JetBrains users may also want to adopt this approach.

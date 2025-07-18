@@ -625,7 +625,26 @@ import some_local_module
 from another_local_module import something
 ```
 
-Also, linters should help you with this issue: `iSort`, `mypy`, `flake8`, `pylint`.
+Also, linters should help you with this issue: `isort`, `mypy`, `flake8`, `pylint`.
+
+###### isort
+
+[isort](https://pycqa.github.io/isort/) is a Python utility / library to sort imports alphabetically, and automatically separated into sections and by type. It provides a command line utility, Python library and plugins for various editors to quickly sort all your imports.
+
+Installation:
+
+```bash
+pip install isort
+```
+
+Usage:
+
+```bash
+isort file_name.py
+# or isort .
+```
+
+and it will automatically order imports with the best practices.
 
 ##### Docstrings
 
@@ -1111,6 +1130,63 @@ def test_get_response(utils):
     """
     with pytest.raises(ConnectionError):
         _ = utils.get_response("https://fake_url/test")
+```
+
+##### Pytest with simulating environment variables
+
+If you need to add environment variables in the pytest code, you should do it with fixtures.
+
+- Option 1: Using `environ`
+
+```python
+from os import environ
+
+@pytest.fixture(name="env_var")
+def fixture_data_classification():
+    """
+    Create env variables and initialize
+    DataClassification object
+    """
+    environ["SNOWFLAKE_PREP_DATABASE"] = "PREP"
+    environ["SNOWFLAKE_PROD_DATABASE"] = "PROD"
+    environ["SNOWFLAKE_LOAD_DATABASE"] = "RAW"
+
+# usage
+# def test_initialization(env_var)
+# ...
+```
+
+- Option 2: Using `mock.patch`
+
+```python
+from unittest.mock import patch
+
+@pytest.fixture(autouse=True, name="set_env_variables")
+def mock_settings_env_vars():
+    """
+    Simulate OS env. variables
+    """
+    with mock.patch.dict(os.environ, {"START_TIME": "2023-01-01T00:00:00Z"}):
+        yield
+
+# usage is automatically started, as autouse was set to True
+```
+
+##### Skip long running test
+
+If you have a scenario where you want to skip a specific test in the CI/CD pipeline (ie. it si too large or taking too long), but want to run it locally on demand, you can use `skipif` command.
+
+```python
+# if you type command:
+# export RUNALL=YES
+# test will run, otherwise will skip
+
+@pytest.mark.skipif(
+    "RUNALL" not in environ,
+    reason="Takes too long if run in the pipeline, want to run locally only",
+)
+def test_long_running_job():
+    ...
 ```
 
 ##### Beyond pytest: Useful pytest Plugins

@@ -11,7 +11,7 @@ description: "GitLab Dedicated Support overview."
 When working on GitLab Dedicated tickets, a good mental model to follow is to determine if the issue is an Application issue or an Infrastructure issue.
 
 - If you're dealing with an Application issue, that is, the issue is within the GitLab application, then you can treat it like a Self-Managed instance while being mindful of the [features that are not available for GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#unavailable-features).
-- If it's an infrastructure issue, you'll want to consider engaging with the SREs by opening a [Request for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) or opening an incident. The [runbooks](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/runbooks) used by the SREs may be useful additional context.
+- If it's an infrastructure issue, you'll want to consider engaging with the SREs by opening a [Request for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated), checking [for incidents](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?type%5B%5D=incident), or [raising one yourself](#raise-a-dedicated-incident). The [runbooks](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/runbooks) used by the SREs may be useful additional context.
 
 Use the [SaaS, Self-Managed and Dedicated Troubleshooting tables](/handbook/support/workflows/saas_sm_cheatsheet/) to learn more about the differences between `gitlab.com`, self-managed and GitLab Dedicated.
 
@@ -28,7 +28,7 @@ is a temporary measure to workaround the lack of until workflow categories are r
 Here are links to other pages about GitLab Dedicated around GitLab:
 
 - Docs: [Configure GitLab Dedicated](https://docs.gitlab.com/administration/dedicated/)
-- Product: [Glossary of Switchboard terms](https://about.gitlab.com/direction/saas-platforms/switchboard/glossary/)
+- Product: [Glossary of Switchboard terms](https://about.gitlab.com/direction/platforms/switchboard/glossary/)
 - Infrastructure: [GitLab Dedicated internal docs](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/) (GitLab internal only)
 - CSM: [Engaging with GitLab Dedicated Customers](https://internal.gitlab.com/handbook/customer-success/csm/gitlab-dedicated/) (GitLab internal only)
 
@@ -65,7 +65,7 @@ Upon test completion, revert your changes and use the emoji `:done:` to show the
 
 This instance is deployed to the [`Test` environment](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main#deployed-environments).
 
-GitLab Duo is not supported on the test instance, see [STM 6619](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6619) for more information. 
+GitLab Duo is not supported on the test instance, see [STM 6619](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6619) for more information.
 
 ### Administrative access to a Dedicated instance
 
@@ -114,7 +114,7 @@ Use the Switchboard app. More information can be found in the [Switchboard workf
 
 #### Feature Flags are not supported
 
-In GitLab Dedicated, [feature flags](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#gitlab-application-features) are not supported, meaning we do not able enable/disable a feature flag for a Dedicated instance. When customers request feature flags to be modified in the GitLab Rails console, the GitLab Support team should:
+In GitLab Dedicated, [feature flags](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#available-features) are not supported, meaning we do not able enable/disable a feature flag for a Dedicated instance. When customers request feature flags to be modified in the GitLab Rails console, the GitLab Support team should:
 
 - create or find an issue in the appropriate issue tracker about making this feature generally available (without a feature flag).
 - notify the [appropriate Product Manager](/handbook/product/categories/) in the issue with a comment that followed the [feedback template](/handbook/product/product-management/#feedback-template).
@@ -131,20 +131,20 @@ GitLab Dedicated feature proposal issues should be created in the **Public** [`g
 
 GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Instance implementation and changes are done via the [instrumentor project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor).
 
-If it's an emergency, [raise a Dedicated incident](#raise-a-dedicated-incident) and [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call).
+If it's an emergency, [raise a Dedicated incident](#raise-a-dedicated-incident).
 
 When any changes are required besides those listed below, raise [an issue with `SupportRequestTemplate-GitLabDedicated`](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
 #### Inbound (Forward) PrivateLink Request
 
-1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/#inbound-private-link). In this case, it's an **IAM principal**.
+1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#inbound-private-link). In this case, it's an **IAM principal**.
 
    - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
    - The IAM user principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:user/user-name`. The IAM role principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:role/role-name`. Keep the format of these two in mind to avoid prolonging the ticket if an unexpected format is provided.
 
-1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
+1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedPrivateLinkRequest) and confirm that the `support::request-for-help` label is added.
 1. Add the IAM principal to the issue. The Environment Automation team will provide a **Service Endpoint Name**.
-1. The customer will follow the steps in [our documentation](https://docs.gitlab.com/administration/dedicated/#inbound-private-link).
+1. The customer will follow the steps in [our documentation](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#inbound-private-link).
 
 #### Outbound (Reverse) PrivateLink Request
 
@@ -159,7 +159,7 @@ Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hos
 
    - Provide the two AZ IDs early in the ticket to avoid prolonging the ticket. The AZ IDs must be in the same region as the customer's tenant instance. The customer can then make the decision of which specific zones that can be used. AZ IDs are shared between different zones in a region but cannot be used outside of the region. For example, AZ IDs in `us-west-1*` cannot be used in `us-west-2*`. Some of the zones in each reach share AZ IDs with other zones in the same region but you must work with the customer to find the overlap.
 
-1. Ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/#outbound-private-link). In this case, it's a **Service Endpoint Name**, a list of **AZ IDs** they will be using (should match provided AZ IDs), and **Domain Name** (with one of two options).
+1. Ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#outbound-private-link). In this case, it's a **Service Endpoint Name**, a list of **AZ IDs** they will be using (should match provided AZ IDs), and **Domain Name** (with one of two options).
 
    - The **Service Endpoint Name** uses a reverse domain name notation and has the following format: `com.amazonaws.vpce.<region>.<vpce-svc-identifier>`
 
@@ -169,7 +169,7 @@ Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hos
 
 In most cases, customers should use **Switchboard** to update the IP allowlist for their GitLab Dedicated instance. If this is not possible:
 
-1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
+1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
 1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
 
 ##### SCIM / OIDC with IP Allowlist request
@@ -180,23 +180,17 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 
 #### SAML Request
 
-1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/#saml) in the ticket. In this case, it's a SAML configuration block or can be a list of information provided by a customer.
+1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/saml/#activate-saml-with-a-support-request) in the ticket. In this case, it's a SAML configuration block or can be a list of information provided by a customer.
 1. Open a new [SAML Config Request issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedSAMLConfigRequest) and confirm that the `support::request-for-help` label is added.
 1. Add the customer provided information and match it with the required formatting.
 
 #### Application Logs Request
 
-1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/#access-to-application-logs). In this case, it's an **IAM principal**.
-
-   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
-
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker.
-1. Provide the IAM principal to the Environment Automation team.
-1. Provide the name of the S3 bucket to the customer.
+See [Granting customers access to application logs](/handbook/support/workflows/dedicated_logs/#granting-customers-access-to-application-logs)
 
 ### Filing issues
 
-In cases where Customer Support need to interact with Dedicated engineers to gather information or debug a problem at tenant's request (when Grafana or OpenSearch do not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated). 
+In cases where Customer Support need to interact with Dedicated engineers to gather information or debug a problem at tenant's request (when Grafana or OpenSearch do not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
 RFH have an [SLA](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#sla) of three working days for all severity levels. For severity 1 and 2 issues based on [Support definition](https://about.gitlab.com/support/#definitions-of-support-impact), consider [raising a Dedicated incident](#raise-a-dedicated-incident). Ask in Slack `#support_gitlab-dedicated` if you are unsure.
 
@@ -223,30 +217,16 @@ If the customer is reporting an availability or performance issue:
 
 #### Raise a Dedicated incident
 
+When raising a GitLab Dedicated incident, you must complete all three steps:
+
 1. Follow the [Dedicated On-Call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/incident-management.md#how-to-raise-an-incident).
-
 1. In the incident channel that is automatically created on Slack, provide a summary of the current state.
+1. Escalate to the Dedicated Engineer On-Call by following [the escalation process](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person)
 
-1. [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call) if immediate attention is necessary.
-
-#### Escalate to the Dedicated Engineer On-Call 
-
-If immediate involvement from the Dedicated Engineer On-Call  becomes necessary, follow the [escalation process](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person). 
+You are now done raising the incident!
 
 #### Engaging the GitLab Dedicated CMOC
 
 If the nature of the emergency reaches the point where we only need to provide async status updates
 to the customer, consider engaging the [GitLab Dedicated Communications Manager on Call](/handbook/support/workflows/dedicated_cmoc)
 to take over.
-
-### Troubleshooting tips
-
-#### Tagging logs while running tests
-
-Customers can add a custom identifier, such as the ticket ID, to the `user-agent` field when testing. This makes it easier to filter logs related to the test.
-
-For example:
-
-```bash
-curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/sign_in"
-```

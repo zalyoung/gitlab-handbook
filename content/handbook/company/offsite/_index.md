@@ -50,7 +50,7 @@ The EBA to the CEO is responsible for booking the hotel and meeting rooms for th
 The EBA to the CEO is responsible for sending out the calendar invites associated to each meeting in the agenda, one calendar entry per meeting, with unique Zoom links for the meeting when the attendees change.
 If the CEO is traveling, the CoS to the CEO (preferred) or the EBA to the CEO should work with the CEO to bring [the Owl](https://owllabs.com/).
 
-[Hybrid calls are hard](/handbook/communication/#hybrid-calls-are-horrible), but occasionally the Offsite will need to take a hybrid meeting form.
+[Hybrid calls are hard](/handbook/communication/#hybrid-calls-are-annoying), but occasionally the Offsite will need to take a hybrid meeting form.
 When this is the case, the EBA to the CEO will ensure that the calendar invites for the offsite sessions include Zoom links.
 The Zoom links should have a waiting room attached to it since the Zoom URL is on calendars and is discoverable internally.
 This also allows the E-Group to pull in folks as-needed into the room without switching Zoom rooms, as people won't just jump in and out without being noticed or before the E-Group is ready to move onto that subject.
@@ -161,15 +161,14 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q1 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: March
-1. Start [**Yearlies**](/handbook/company/yearlies/) (50 minutes)
-1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
+1. Start review of **Three Year Strategy** (0.5 day)
 1. Non-product **Engineering** review, e.g. architecture, infrastructure
 
 **Q2 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: June
 1. Review 3 to 5 year [Long Range Outlook (**LRO**)](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) including scenarios, capabilities and dependencies
-1. Finish the review of [**Three Year Strategy**](/handbook/company/strategy/) (1 day)
+1. Finish the review of **Three Year Strategy** (1 day)
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
 1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 
@@ -178,7 +177,6 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. E-Group Offsite and Board Meeting Month: September
 1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
 1. Go-to-market (**GTM**) learnings
-1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year (1.5 hrs)
 1. **Org** design
 
 **Q4 Offsite**
@@ -199,13 +197,11 @@ In addition to the topics from the [Topic Calendar](#offsite-topic-calendar) abo
     1. When a new person is added to the promotion or future promotion list, the sponsorship exec should provide a summary on the person, their contributions, and any areas to be addressed in advanced of the intended promotion window
 1. [Content Discussion](#content-choice) (30 minutes - 1 hour)
 1. Aligning on quarterly priorities (OKRs) (25 minutes)
-1. Review [**Yearlies**](/handbook/company/yearlies/#cadence) (25 minutes)
 
 ### Pre-offsite discussion topics
 
 These topics are discussed by E-Group before the offsite:
 
-1. Yearly and OKR progress. These will be reviewed in E-Group Weeklies and [Key Reviews](/handbook/company/key-review/).
 1. Planning discussions. These will be facilitated by the Finance Team. Many of them will occur during E-Group Weeklies.
 
 ### Collaborating with EBAs on the Offsite
@@ -226,10 +222,9 @@ One of the ways we do this is by asking participants to do prep work ahead of ti
 Examples of prep work include:
 
 - [Reading the content that was selected](#content-choice)
-- Executives working with their People Business Partners to prep the [Performance/Potential Matrix of their direct reports](/handbook/people-group/talent-assessment/#the-performancepotential-matrix)
+- Executives working with their People Business Partners to prep the [Performance/Potential Matrix of their direct reports](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix)
 - Executives working with their People Business Partners to prep any [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 - Reviewing any Section Direction Materials for reviews, such as the [Growth Section's Direction](/handbook/marketing/growth/)
-- Executives propose [draft Key Results for their functions](/handbook/company/okrs/#executives-propose-okrs-for-their-functions)
 - [Watch this short clip on the danger of sticky bears](/handbook/company/offsite/beware-sticky-bears/)
 
 Anyone who is presenting for a topic should share materials with the prep work.
@@ -353,7 +348,7 @@ The CoS to the CEO will moderate the call.
 
 The CoS to the CEO is responsible for meeting material. The CoS to the CEO will share the meeting recap material no later than 72 business hours after the offsite concludes and at least 48 hours in advance of the meeting. Material will include an event summary and may include a highlight video message from the CEO or others. All materials will be signed off on by the Legal Team in advance of sharing.
 
-A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader meeting. The Office of the CEO prepares materials excluding Functional Leaders Meeting Q&A or any [material non-public information](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
+A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader meeting. The Office of the CEO prepares materials excluding Functional Leaders Meeting Q&A or any [material non-public information](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information-mnpi) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
 
 ## Content Choice
 
@@ -361,6 +356,6 @@ The offsite includes a 30 minute to 1 hour discussion on material chosen by the 
 
 We will share discussion highlights and takeaways in E-Group Offsite meeting notes that are shared with all team members. This also allows team members to engage in the conversation.
 
-Team Members may [expense](/handbook/finance/spending-company-money/#expense-policy) E-Group offsite material in the quarter that it is discussed.
+Team Members may [expense](/handbook/finance/expenses/) E-Group offsite material in the quarter that it is discussed.
 
 Material that the E-Group finds noteworthy should be added to the [Leadership Books](/handbook/leadership/#books).

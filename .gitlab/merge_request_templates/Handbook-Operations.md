@@ -20,7 +20,7 @@
 - [ ] Added a description to this MR explaining the reasons for the proposed change, per [**say why, not just what**][say-why-not-just-what]
   - Copy/paste the Slack conversation to document it for later, or upload screenshots. Verify that no confidential data is added, and the content is [SAFE][SAFE]
 - [ ] Assign reviewers for this MR to a code owner, typically [a handbook maintainer][hb-maintainer]
-    - If you're unsure, please mention [the handbook triager][hb-triager]
+    - If you're unsure, please mention [the handbook owner][hb-dri]
 - [ ] For transparency, share this MR with the audience that will be impacted
    - [ ] `#handbook` Slack channel if there is any user impact
    - [ ] `#mr-buddies` Slack channel if changes _may_ impact more users
@@ -38,7 +38,7 @@
 [say-why-not-just-what]: https://handbook.gitlab.com/handbook/values/#say-why-not-just-what
 [SAFE]: https://handbook.gitlab.com/handbook/legal/safe-framework/
 [hb-maintainer]: https://gitlab.com/groups/gitlab-com/content-sites/handbook-tools/-/group_members?with_inherited_permissions=exclude
-[hb-triager]: https://handbook.gitlab.com/handbook/about/maintenance/#team-structure
+[hb-dri]: https://handbook.gitlab.com/handbook/about/maintenance/#team-structure
 [internal-communications]: https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/
 [mr-buddies-slack]: https://gitlab.slack.com/archives/CLM8K5LF4
 [company-fyi-slack]: https://gitlab.slack.com/archives/C010XFJFTHN

@@ -318,9 +318,9 @@ Any issue that an engineer adds a weight to will automatically show up on manage
   - [corpsec-priority::research](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Aresearch) - Non-priority research and discovery.
 - **Engineering Requests**
   - [corpsec-priority::p0](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ap0) - Project fire drill (crisis, incident, urgent deadline). Also see `corpsec-priority::ops-high` for small requests.
-  - [corpsec-priority::p1](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ap1) - Project/task in the next few weeks or sprints.
-  - [corpsec-priority::p2](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ap2) - Project/task in this or next quarter.
-  - [corpsec-priority::p3](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ap3) - Project/task in the next year.
+  - [corpsec-priority::p1](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ap1) - Project/task in the next 0-2 weeks (if not current iteration, then beginning of next)
+  - [corpsec-priority::p2](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ap2) - Project/task within the next quarter
+  - [corpsec-priority::p3](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ap3) - Project/task beyond the next quarter
 - **Planned Projects and Initiatives**
   - [corpsec-priority::initiative](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Ainitiative) - Prioritized based on OKR timeline or parent epic.
   - [corpsec-priority::wishlist](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-priority%3A%3Awishlist) - Large project on the uncommitted wishlist.
@@ -345,6 +345,7 @@ To help reporting with what issues are related to since we share the same issue 
   - [corpsec-metric::initiative](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-metric::initiative) - Planned initiatives or OKRs. Apply to epics and meta issues. Child issues use other metrics.
   - [corpsec-metric::research](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-metric::research) - Research and discovery (for initiatives or side projects)
   - [corpsec-metric::testing](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-metric::testing) - Testing work for initiatives
+  - [corpsec-metric::announcement](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-metric::announcement) - Tracking approvals for announcements
 
 ### Team Label
 
@@ -438,3 +439,9 @@ For broader needs, see the [team](#team-label) labels.
   - [corpsec-mgmt::not-ready](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-mgmt::not-ready)
   - [corpsec-mgmt::waiting](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-mgmt::waiting)
   - [corpsec-mgmt::approved](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-mgmt::approved)
+
+### Communication
+
+- A change that requires communication due to user impact, new tool deployment or significant configuration change
+  - [corpsec-communicate::yes](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-communicate::yes)
+  - [corpsec-communicate::no](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=corpsec-communicate::no)

@@ -30,7 +30,7 @@ Please reach out to the Security Compliance team using the `@sec-compliance-team
    - Yes. This might be an indication that the Security Compliance teams aren't aware of this new environment which means we will need to test the system as soon as possible.
 1. I am working on a demo of a tool and we are going to use actual data, but I haven't signed a contract yet. What do I need to do?
    - Open an issue according to the above process. Our processes are based on the type of data being used on not whether or not we're paying for a service.
-1. I have a new system that will be processing [RED data](/handbook/security/data-classification-standard/) or an existing system that will now be processing RED data. What requirements are there for me as a system owner?
+1. I have a new system that will be processing [RED data](/handbook/security/standards/data-classification-standard/) or an existing system that will now be processing RED data. What requirements are there for me as a system owner?
    - Open an issue according to the above process and work with Security Compliance to provide evidence and system context so we can understand the compliance or regulatory requirements.
 1. Same as above for ORANGE Data
    - Same requirements as RED data to start the intake process.

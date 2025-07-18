@@ -73,15 +73,19 @@ E.g. `@jenny` as it can create a message that distracts others.
 
 ### Change Group DMs to Private Channels
 
-If you are in a group direct message with multiple people, you can [change it to a private channel](https://slack.com/intl/en-gb/help/articles/217555437-Convert-a-group-direct-message-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.  In Slack Enterprise Grid, if you start a group DM and then it is converted to a channel, the channel ends up in "all workspaces". "All workspace" channels have [no retention limit](https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues/66), which contradicts our policy of [90 day retention](/handbook/communication/#slack). To remediate this, we have a script that will daily move the channels into our main GitLab workspace. If you are in an affected channel, you will receive a message from Slackbot that states:
+If you are in a group direct message with multiple people, you can [change it to a private channel](https://slack.com/intl/en-gb/help/articles/217555437-Convert-a-group-direct-message-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.  
+
+In Slack Enterprise Grid, if you start a group DM and then it is converted to a channel, the channel ends up in "all workspaces". "All workspace" channels have [no retention limit](https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues/66), which contradicts our policy of [90 day retention](/handbook/communication/#slack). To remediate this, we have a script that will daily move the channels into our main GitLab workspace. If you are in an affected channel, you will receive a message from Slackbot that states:
 
 `"Slack Owner has removed #<channel> from all other "GitLab" workspaces using the channel management tool. Only people from "GitLab" can access the channel now. Learn more."`
+
+Do not convert group DMs to private channels within the "GitLab - Finance" workspace or any secondary workspace as they will be converted and end up in our main "GitLab" workspace. Instead, start a new private channel and add the participants to it.
 
 ### Change private channels to public channels
 
 Only Slack administrators can change a private channel to a public channel.
 
-To request that an existing private channel be made public, submit an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+To request that an existing private channel be made public, submit an [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 ## Managing noise and creating focus in Slack
 

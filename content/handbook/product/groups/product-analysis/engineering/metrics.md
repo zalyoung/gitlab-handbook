@@ -1,6 +1,6 @@
 ---
 title: "Engineering Metrics"
-description: Overview of key Engineering Productivity metrics
+description: Overview of key Engineering metrics
 ---
 
 ## Engineering Analytics Dashboard Inventory
@@ -24,7 +24,7 @@ To help our teams work better and faster, we track specific metrics that measure
 #### What’s Included?
 
 * Our metrics includes all MRs affecting the product.
-* The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
+* The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads).
 
 By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement.
 
@@ -113,6 +113,18 @@ For these departments, the MR rate is calculated as the **number of MRs authored
   * Focuses on Team-Specific Contributions:
     * This approach highlights the contributions of team members within the department, providing a clearer picture of their productivity.
 
+### Review Rates
+
+[Tableau Link](https://10az.online.tableau.com/#/site/gitlab/views/AverageReviewTime/ReviewStatsbyUser)
+
+#### What It Means
+
+Review rates measures the number of code reviews a team member completes within a specific timeframe. While merge request rate tracks how many changes are integrated into the codebase and it is an important productivity measurement, review rate is another important productivity metric and it keeps the records of reviews a team member provides. Data team maintains a table of review activities on merge requests. A review is counted as long as the code review was conducted no matter whether the team member remained in the `Reviewers` list or not.
+
+#### Why It Matters
+
+Code review often takes significant amount of time and it's a critical step of moving merge requests to completion. Counting review rates recognizes the contribution of reviwers and encourages team members to provide thorough code reviews which in turn ensures our product quality.
+
 ### Mean Time to Merge (MTTM)
 
 [Tableau Link](https://10az.online.tableau.com/#/site/gitlab/workbooks/2372920/views)
@@ -137,7 +149,7 @@ The 3 types (Bug, Feature & Maintenance) is key to our report to industry analys
 
 1. `~"type::bug"`: Defects in shipped code and fixes for those defects. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
    * `~"bug::performance"`: Performance defects or response time degradation
-   * `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) for more guidance.
+   * `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/product-development/how-we-work/issue-triage/#availability) for more guidance.
    * `~"bug::vulnerability"`: Defects related to Security Vulnerabilities
    * `~"bug::mobile"`: Defects encountered on Mobile Devices
    * `~"bug::functional"`: Functional defects resulting from feature changes
@@ -251,6 +263,19 @@ If a contribution happens across groups, we leave it to the discretion of the en
 They can also decide if they want to move over the `devops::xxx` as well or keep it to reflect the product area.
 The [triage bot](https://gitlab.com/gitlab-org/quality/triage-ops/) automatic labelling will not override existing labels.
 
+#### Why your team is not listed in the dashboard filters
+
+We use [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) as the SSOT for group, section, and stage information. In order for us to populate this in dashboard filters, there must be a match between what's listed in the [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) file vs how it's shown in the label. We do this to avoid any error or random values in our filters. Here are a couple of examples:
+
+* The Code Review group is listed as `name: Code Review` in stages.yml and the associated label is `group::code review`. Since these match, everything works as expected.
+* The Code Review group is listed as `name: Code Reviews` in stages.yml and the associated label is `group::code review`. Because the names don't align, the issue falls into the undefined category.
+
+If you are introducing a new group or changing a group label, please make sure:
+
+* Historical issues have the new label applied
+* The [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) file is updated with the new group
+* Name in [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) file matches the name in the group label
+
 ## Projects that are part of the product
 
 In the MR Rate and Volume of MR calculations, we consider MRs from projects that contributes to the overall product efforts.
@@ -261,22 +286,3 @@ The current list of projects are identified in the [`gitlab-data/analytics`](htt
 |-----------------|------|
 | GitLab.com      | [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv) |
 | ops.gitlab.net  | [`projects_part_of_product_ops.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product_ops.csv) |
-
-### Updating the list of projects
-
-The guidelines for inclusion in the `is_part_of_product` lists are:
-
-* Included with the product as a part of a GitLab Omnibus or Cloud Native installation
-* Support product development efforts
-* Support the delivery and release process to GitLab SaaS
-
-Follow these steps to request a new project to be tracked:
-
-1. Create a merge request to the GitLab.com or ops.gitlab.net project list from above.
-2. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#members) Engineering Manager.
-3. The Manager of the Engineering Productivity team will work with the Product Data Insights Team to determine the changes to MR Rate metrics and provide validation for the projects. To check the impact to MR rate, utilize the [MR Rate Change Impact chart](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/MRRateChangeImpact) by adding the relevant project IDs to the filter. This view shows how MR rate will increase by adding the projects to the [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv) file.
-4. The Manager of the Engineering Productivity team is the DRI to approve and merge the list of projects.
-
-There is no need to remove archived projects from the `is_part_of_product` list. Removal of projects will remove historical merge requests from metrics and reduce Merge Request rates.
-
-Please reach out to a member of the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#members) if more assistance is needed.

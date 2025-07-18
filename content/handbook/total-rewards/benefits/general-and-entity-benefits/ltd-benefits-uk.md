@@ -13,6 +13,8 @@ For UK-based team members, GitLab provides 100% paid membership of medical insur
 Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please reach out via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
+AXA hosted a webinar for GitLab Team Members on 2025-03-19. Team Members can watch the recording [here](https://drive.google.com/file/d/1UMZJoDxEfKQ96KYfTpn3GYxpKeWb7Luj/view?usp=sharing)
+
 ### Enrollment
 
 Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com`  Include the following details:
@@ -24,6 +26,8 @@ Please let the Total Rewards team know if you would like to join the scheme via 
  1. Dependent Details if you'd like to add them to the plan (Full Name, DOB, and address).
 
 Team members who join the plan prior to the 24th of the month will have the BIK and deductions reported in full for that month, team members who join after the 24th of the will see deductions and BIK reporting begin the following month.
+
+If you wish to add/remove dependents after you have joined the AXA plan, please reach out to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com` confirming your dependent details (Full Name, DOB, and address).
 
 Please note that it can take 7 - 10 working days to receive a reply and confirmation from AXA PPP.
 
@@ -92,7 +96,9 @@ Life Insurance provides peace of mind for you and your loved ones with a tax-fre
 
 Team Members are automatically enrolled in to the pension benefit of **4x basic annual salary** up to the Free Cover Limit. Team Members with a base salary of £375,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover. Please see the [Life Insurance Policy User Guide](https://drive.google.com/file/d/1D7QXKKvVtafQFbBFD4mPuKqbi1mqBsLh/view?usp=sharing)
 
-To designate a beneficiary for this benefit, please complete the [Expression of Wish Form](https://docs.google.com/document/d/1L5PFNeeZPmC5CArxrm7YX8W4BwKzdLFo/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) and send the completed form to the Total Rewards Team.
+To designate a beneficiary for this benefit, please complete the [Expression of Wishes Form](https://docs.google.com/forms/d/e/1FAIpQLSdWOCht3imjJpcUhgyWuYmVMMlyf0COShqOal9xs74V_g-BqQ/viewform?usp=preview). The completed version will be sent to you via email, please ensure to sign and date it. Once fully completed, please [upload](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?tab=t.0) the form to your Workday profile `Document Category: Benefit Documents and Forms`.
+
+Unum Life Insurance policyholders have access to a range of support services including Cancer Assist — in-the-moment, personalised guidance from cancer experts Reframe. For more information see [Unum’s Life Wellbeing Checklist](https://drive.google.com/file/d/1TGOquhebJ8A37aBNkaiPch0r8-s7sMp_/view?usp=sharing)
 
 See additional details on the [Life Insurance Policy](https://drive.google.com/file/d/1wS3XP7C9N64iistpsYPUiD709nTkutvt/view?usp=sharing).
 
@@ -118,6 +124,8 @@ Income Protection provides financial support if you're unable to work due to ill
 
 All team members (between age 16 and State Pension Age) are automatically enrolled in Income Protection of **66% of base salary up to the Free Cover Limit payable after you've been absent for 13 weeks** effective as of the date of hire. Employees with a base salary of £226,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover.
 
+Group Income Protection (GIP) from Unum provides a unique combination of expert wellbeing, absence management and in-house vocational rehabilitation services. Please see [GIP Wellbeing](https://drive.google.com/file/d/1OQrgdm-q57-lHiowX6tdww8SbF_sx9gV/view?usp=sharing). Checklist detailing Unum’s holistic suite of support services.
+
 Please reach out to Total Rewards for information on how to use your Income Protection benefit with Unum. Payments are made exactly like your salary, and tax and National Insurance contributions are deducted in the usual way. If you are absent due to illness or injury on the day your cover or an increase in cover is due to begin, you may not be eligible until you return to active work in your usual role.
 
 ## Pension Introduction
@@ -133,11 +141,11 @@ Nick Allen, Associate Director
 Direct Line: 07920 213595
 E-mail: nick.allen@wtwco.com
 
-Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1BEADGm7sUbroEkxzGvB-DBIhMIbbLG46/view?usp=sharing) for additional information on the plan. Please note that all eligible team members will be auto-enrolled in the scheme. Please also watch the [2022 UK Pension Webinar](https://drive.google.com/file/d/1JggpHxQvtWZK1P6NdE9-77LFPE6Q5DZY/view?usp=sharing) for an overview of UK Pension System.
+Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1BEADGm7sUbroEkxzGvB-DBIhMIbbLG46/view?usp=sharing) for additional information on the plan. Please note that all eligible team members will be auto-enrolled in the scheme. Please also watch the [2025 UK Pension Webinar](https://drive.google.com/file/d/1ZUXJLK3v_m96yUUOpsNkX2Skh7ScdKuI/view?usp=sharing) and review the [presentation](https://drive.google.com/file/d/1qXAIOTTMavV0pxbj6Hxm0y2k39MoJ6Rz/view?usp=sharing)  for an overview of UK Pension System.
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). The Total Rewards team will review the request to approve, and send it to the Non-US Payroll team to process. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
@@ -150,7 +158,7 @@ Team Members who have signed a UK Employment contract after 13 December 2022 wil
 - Is it possible to start from any month?
   - Yes it is; it would be processed on the next available payroll.
 - How do I opt in or out or make changes to my salary sacrifice amount?
-  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
+  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). The Total Rewards team will review the request to approve, and send it to the Non-US Payroll team to process.
 
 ### Auto-Enrollment
 
@@ -207,7 +215,7 @@ The certification level that has been chosen is **basic salary** only and will n
   - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
-- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
+- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2025/2026 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
@@ -235,7 +243,7 @@ If you decide to opt out of the scheme you can do this within one month of the e
 
 <summary>Re-joining</summary>
 
-If you decide to re-join the scheme you can do so by emailing or sending a signed letter to People Operations. If you send an email, it should be from your personal email address, please ensure it contains the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
+If you decide to re-join the scheme you can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). You will be asked to write a letter or send an email from your personal email address. The letter will need to include the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
 
 </details>
 
@@ -427,6 +435,30 @@ To apply for Adoption Leave:
   - The entitlement is per child up to the age of 18, regardless of the person's employer.
   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
+
+#### Statutory Neonatal Care Leave and Pay (SNCL&P)
+
+New right to neonatal care leave and pay beginning April 6, 2025.
+
+**Neonatal Care Leave (NCL)** will apply to parents of babies who are admitted into neonatal care up to 28 days old and who have a continuous stay in hospital of 7 full days or longer. These measures will allow eligible parents to take up to 12 weeks of leave (and, if eligible, pay) on top of any other leave they may be entitled to, including maternity and paternity leave. The leave must be taken within 68 weeks of your baby's birth. Neonatal Care Leave is a day-one right.
+ 
+There are two tiers of Neonatal Care Leave:
+**Tier 1:** Available when the child is in neo-natal care, and the first week after their release. The leave must be taken in 7 continuous day blocks. Overlap with a pre-booked parental leave, the SNCL can be paused to allow the other parental leave to be taken. Team members must provide notice to their employer as soon as reasonably practicable.
+
+**Tier 2:** Available from the second week following their release, up to 68 weeks following the child’s birth. Taken as a single block, as this leave is taken when the child is out of neo-natal care and can be planned. Team members wanting to take one week SNCL&P will need to give two weeks and one days' notice in advance.
+
+**Neonatal Care Pay (NCP)** is available to eligible employed parents who will be able to claim up to 12 weeks of NCP.
+To be eligible, team members must:
+
+- Have at least 26 weeks of continuous service with their employer and, 
+- Meet the minimum earnings threshold  (Your average gross weekly earnings must be at least equal to the lower earnings limit, for April 2024-25, this is £123 per week.)
+
+Eligible team members will receive the lower of:
+
+- Standard rate £187.18
+- Or 90% of their average weekly earnings
+
+[GitLab’s Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy will run concurrently with NCL and NCP topping up the statutory pay to 100% regular salary.
 
 ### Other Job-Protected Leave
 

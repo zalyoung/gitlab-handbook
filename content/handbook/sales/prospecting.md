@@ -153,8 +153,10 @@ The toolkit above will be your main resource and contains things like a sequenci
 
 **[LinkedIn Sales Navigator](https://www.linkedin.com/business/sales/blog/sales-navigator/what-is-linkedin-sales-navigator)** is one of the main prospecting tools we use at GitLab. It features a powerful set of search capabilities, improved visibility into extended networks, and personalized algorithms to help you reach the right decision maker. All AEs have access to LSN. [Click to go to the EdCast training.](https://gitlab.edcast.com/insights/learning-linkedin-sales) And view additional videos and tutorials on [the handbook page](/handbook/sales/training/social-selling/).
 
+- To gain access to LinkedIn Sales Navigator, request access through the [Lumos App Store](https://app.lumosidentity.com/app_store?domainAppId=1398792). Once access is approved, follow the Lumos-provided instructions to link your personal LinkedIn account to LISN.
+
 **[6Sense](/handbook/marketing/marketing-operations/6sense/)** is used by Sales Development who can show you relevant data related to your target prospects. It has a wealth of intent and propensity to buy data that is married with account engagement indicators to create a holistic intent mapping for each account.
 
-**[Conversica](/handbook/marketing/marketing-operations/conversica/)** is a conversational AI tool that helps enterprise marketing, sales, customer success, and finance teams attract, acquire and grow customers at scale across the customer revenue lifecycle. The AI Assistant works by engaging the prospect in a human-like conversation over email in an effort to further qualify the prospect.
+**Conversica** is a conversational AI tool that helps enterprise marketing, sales, customer success, and finance teams attract, acquire and grow customers at scale across the customer revenue lifecycle. The AI Assistant works by engaging the prospect in a human-like conversation over email in an effort to further qualify the prospect.
 
 **[Salesforce Inbox](https://www.salesforce.com/sales/engagement-platform/)** is a productivity tool to integrate Salesforce with emails. You may need to request access. View the [Associating emails to Salesforce handbook](/handbook/sales/prospect-engagement-best-practices/) page for more information on how to use Salesforce to track outreach.

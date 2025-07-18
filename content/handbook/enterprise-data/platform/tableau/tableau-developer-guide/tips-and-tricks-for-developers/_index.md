@@ -9,7 +9,7 @@ Tableau has many ways for handling and visualizing dates - but due to those many
 
 ## Date Handling in Production Dashboards
 
-Due to the unique challenges of having a fiscal year start date in February and missing fiscal year date calculations in Tableau, we have developed simple date handling guidelines that can expedite and simplify the process of date filtering and creating date axes for charts. We have created a workbook that contains all of the following calculations and joins and some sample data. This can be found in the [Resources](https://10az.online.tableau.com/#/site/gitlab/projects/367720) folder, under the name `Developers Guide Example Workbook`.
+Due to the unique challenges of having a fiscal year start date in February and missing fiscal year date calculations in Tableau, we have developed simple date handling guidelines that can expedite and simplify the process of date filtering and creating date axes for charts. We have created a workbook that contains all of the following calculations and joins and some sample data. This can be found in the [Templates](https://10az.online.tableau.com/#/site/gitlab/workbooks/2269304/views) folder, under the name `Developers Guide Example Workbook`.
 
 ### Date Unification
 

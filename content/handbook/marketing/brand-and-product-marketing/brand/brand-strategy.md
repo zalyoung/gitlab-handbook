@@ -78,7 +78,7 @@ Before starting the approval process, please ensure that the vendor meets this c
 1. The appropriate e-group member (from the department using the vendor) will review most reference requests. The only type of request that does not require e-group approval is the use of the GitLab logo on a vendor’s website. 
 1. If the request involves the GitLab logo or brand use, please ensure the vendor follows these guidelines:
     - [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
-    - [Brand Standards](https://design.gitlab.com/brand-overview/resources/)
+    - [Brand Guidelines](https://design.gitlab.com/brand-introduction)
 1. We will consider social media posts or promotions if we've done a case study or blog post with the vendor. All social posts must be reviewed and approved via this process.
 
 #### Stakeholder reviewers 
@@ -100,9 +100,9 @@ The following teams will review the request as part of this process:
 
 ## Additional brand resources
 
-## Brand guidelines
+## Brand Guidelines
 
-GitLab's official brand guidelines can be found at [design.gitlab.com](https://design.gitlab.com/?_gl=1%2ajgpg6f%2a_ga%2aMjA5OTczOTQuMTY3MDM0NzQwMg..%2a_ga_ENFH3X7M5Y%2aMTY3NTI4MTI2NS4zMC4xLjE2NzUyODE4MDMuMC4wLjA.) under the `Brand` tab. These guidelines should be applied to all marketing materials, including digital ads, events, publications, merchandise, etc.
+GitLab's official Brand Guidelines can be found at [design.gitlab.com](https://design.gitlab.com/) under the `Brand` tab. These guidelines should be applied to all marketing materials, including digital ads, events, publications, merchandise, etc.
 
 ## Logo and trademark usage
 

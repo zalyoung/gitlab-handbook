@@ -33,7 +33,7 @@ Two, an overarching belief in a company's values contributes to less ambiguity i
 
 As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there's as much to unlearn as there is to learn** when it comes to living out values in a remote role.
 
-It requires companywide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap](/handbook/values/#five-dysfunctions) for those who have been exposed to traditional bureaucratic norms.
+It requires company-wide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap](/handbook/values/#five-dysfunctions) for those who have been exposed to traditional bureaucratic norms.
 
 Psychological safety is critical, and [leadership](/handbook/leadership/) should place a high degree of importance on ensuring that this does not erode. GitLab signals the importance of this by listing "[Loss of the values that bind us](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#loss-of-the-values-that-bind-us)" as one of the concerns on the [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
 
@@ -43,7 +43,7 @@ Sharing company values should be a requirement to [hire](hiring/). Prospective a
 
 Open, honest, transparent conversation about company values should be a part of the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/). This is true for all companies, all-remote organizations included. It's not fair to candidates to talk about day-to-day tasks without mentioning the values that guide culture and decision making. It's not fair to existing team members of a company to hire people who aren't aware of company values, and may not be inclined to live them on an ongoing basis.
 
-All-remote contributes to fewer surprises by forcing companies to be more [transparent](values#transparency). With fewer visual cues and in-person interactions, all-remote companies rely on each team member to operate while being mindful of company values.
+All-remote contributes to fewer surprises by forcing companies to be more [transparent](/handbook/values/#transparency). With fewer visual cues and in-person interactions, all-remote companies rely on each team member to operate while being mindful of company values.
 
 It's critical that values be understood as early as the interview process, reiterated during [onboarding](learning-and-development#how-do-you-onboard-new-team-members), and reinforced daily through [informal communication](informal-communication/) practices, [1:1s](/handbook/leadership/1-1), [meetings](meetings/), and [execution](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/) of job responsibilities.
 
@@ -58,7 +58,7 @@ In a colocated company, collaboration can occur spontaneously by being in a shar
 
 Given that it is [impossible to know everything](/handbook/values/#its-impossible-to-know-everything), all-remote offers a level playing field where any team member can approach any other team member to learn, seek input, or ask for advice.
 
-We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made out in the open, and outcomes are [documented](/handbook/people-group/employment-branding#all-remote-work).
+We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made [out in the open](/handbook/communication/) and documented.
 
 [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and [Merge Requests](https://about.gitlab.com/blog/2019/02/07/start-using-git/) enable all team members to chime in, with an understanding that the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) will make a decision.
 
@@ -72,7 +72,7 @@ Valuing [results](/handbook/values/#results) enables a healthier all-remote atmo
 
 Colocation can make this more difficult to get right. As people congregate in a shared space, humans naturally form opinions on those who they are in contact with more often. It becomes more difficult to separate actual business results with vanity metrics (e.g. being seen in the office late, or appearing in every meeting regardless of need).
 
-All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/people-group/employment-branding#all-remote-work) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
+All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/company/culture/all-remote/) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
 
 ## Efficiency
 
@@ -80,7 +80,7 @@ All-remote teams are more inclined to remain focused on what actually matters at
 
 Because time truly is your own in an all-remote setting (core to being a "[manager of one](/handbook/values/#managers-of-one)"), you're incentivized to be respectful of others' time. It's easier to not mind wasting time in a colocated environment, where you're forced to be in the same building for a set number of hours regardless of whether that is a wise use of your time.
 
-Perhaps the most notable element of efficiency that contributes to a thriving all-remote team is documentation. All companies should strive to [write things down](/handbook/values/#write-things-down) — to document everything from [meeting notes](meetings/) to [quarterly objectives](/handbook/company/strategy) — but this is of particular importance for all-remote organizations. Documenting everything enables an ever stronger, more informed, more trusting, and more connected team, as there's no physical space to debrief in.
+Perhaps the most notable element of efficiency that contributes to a thriving all-remote team is documentation. All companies should strive to [write things down](/handbook/values/#write-things-down) — to document everything from [meeting notes](meetings/) to quarterly objectives — but this is of particular importance for all-remote organizations. Documenting everything enables an ever stronger, more informed, more trusting, and more connected team, as there's no physical space to debrief in.
 
 Valuing efficiency enables an all-remote team to work well asynchronously. In colocated settings, it's easier to delay an iteration until a future time "when everyone will be in the same room." All-remote teams realize that it's better to document and ask for feedback now, enabling team members to comment and contribute when it's convenient for them.
 
@@ -110,7 +110,7 @@ Particularly as organizations scale, the friction of coordinating people and tea
 
 This empowers all-remote teams to make small changes and reduce cycle times. This leads to changes which are easier to provide feedback on (and roll back if needed).
 
-Valuing iteration creates a climate where there is a [low level of shame](/handbook/values/#low-level-of-shame). This is extraordinarily difficult to replicate in large colocated settings, where perception is often reality and decisions are swayed by physical appearances. In all-remote companies, this reinforces that [a person is not their work](/handbook/values/#people-are-not-their-work).
+Valuing iteration creates a climate where there is a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding). This is extraordinarily difficult to replicate in large colocated settings, where perception is often reality and decisions are swayed by physical appearances. In all-remote companies, this reinforces that [a person is not their work](/handbook/values/#people-are-not-their-work).
 
 {{< youtube "EuGsen3FxXc?start=2209" >}}
 
@@ -134,7 +134,7 @@ At GitLab, we have regular, recorded meetings to discuss progress on each depart
 
 ---
 
-Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](/handbook/company/culture/all-remote/remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
+Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
 
 ---
 

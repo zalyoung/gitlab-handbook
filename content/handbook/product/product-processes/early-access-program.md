@@ -7,7 +7,7 @@ description: "Alignment & vision of the GitLab Early Access Program"
 
 The GitLab Early Access Program aims to increase engagement with early adopters, create brand ambassadors while also increasing the level of feedback received on non-GA high-priority features.
 
-In a secondary priority, this helps to [cultivate contributions from the Wider Community](/handbook/engineering/development/dev/create/remote-development/community-contributions/) in alignment with GitLab's [dual-flywheel strategy](/handbook/company/strategy/#dual-flywheels) & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations/#accountabilities)
+In a secondary priority, this helps to [cultivate contributions from the Wider Community](/handbook/engineering/devops/dev/create/remote-development/community-contributions/) in alignment with GitLab's dual-flywheel strategy & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations/#accountabilities)
 
 ## Key group that formed alignment on product direction
 

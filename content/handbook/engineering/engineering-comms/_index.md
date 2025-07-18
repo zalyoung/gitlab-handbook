@@ -84,10 +84,10 @@ Treat questions or requests from production team for immediate urgency with high
 - [`#cto`](https://gitlab.enterprise.slack.com/archives/C9X79MNJ3)
 - [`#development`](https://gitlab.enterprise.slack.com/archives/C02PF508L)
 - [`#production`](https://gitlab.enterprise.slack.com/archives/C101F3796)
-- [`#test-platform`](https://gitlab.enterprise.slack.com/archives/C3JJET4Q6)
-- [`#incident-management`](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1)
+- [`#incidents`](https://gitlab.enterprise.slack.com/archives/C02HF90ME66)
+- [`#s_developer_experience`](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H)
 - [`#support_gitlab-com`](https://gitlab.enterprise.slack.com/archives/C4XFU81LG)
 - [`#support_self-managed`](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK)
-- [`#s_platforms`](https://gitlab.enterprise.slack.com/archives/C02D1HQRTKQ)
+- [`#infrastructure_platforms`](https://gitlab.enterprise.slack.com/archives/C02D1HQRTKQ)
 
 There is no requirement to join all of these channels. It is up to the person sharing to ensure that the same message is shared across all channels. Ideally, this message should be a one sentence summary with a link to an issue to allow for a single source of truth for any feedback.

@@ -43,7 +43,7 @@ The Manager, Infrastructure is a [grade 8](/handbook/total-rewards/compensation/
 
 ### Performance Indicators
 
-The Manager, Infrastructure contributes to the success of [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators).
+The Manager, Infrastructure contributes to the success of Infrastructure Performance Indicators.
 
 ## Specialties
 
@@ -89,7 +89,7 @@ In addition to the same requirements, responsibilities, and performance indicato
 
 ### Manager, Infrastructure (Switchboard)
 
-The Manager, Infrastructure (Switchboard) leads [a Fullstack team](/handbook/engineering/starting-new-teams/#fullstack-teams) responsible for the GitLab Dedicated customer-facing control panel referred to as "Switchboard".
+The Manager, Infrastructure (Switchboard) leads a Fullstack team responsible for the GitLab Dedicated customer-facing control panel referred to as "Switchboard".
 
 The team consists of [Backend Engineers](/job-families/engineering/backend-engineer/) and [Frontend Engineers](/job-families/engineering/development/frontend/).
 
@@ -132,47 +132,37 @@ They are capable of managing multiple teams within a specialty, and their projec
 
 The Senior Engineering Manager, Infrastructure is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+#### Senior Engineering Manager, Infrastructure (Platform) Responsibilities
 
-- Manage the Delivery and Scalability Infrastructure teams
-- Conduct managerial interviews for candidates, and train engineering managers to do said interviews
-- Generate and implement process improvements, especially cross-team processes
-- Hold regular [1:1s](/handbook/leadership/1-1/) with team managers and skip-level 1:1s with all members of their team
-- Management mentorship
+Senior Engineering Manager, Infrastructure responsibilities extend those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-responsibilities).
+
 - Participate in either the [Release Manager rotation](https://gitlab.com/gitlab-org/release/docs/-/tree/master/release_manager#responsibilities) **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure that the availability goals for GitLab.com are met.
 
-#### Senior Engineering Manager, Delivery and Scalability Requirements
+#### Senior Engineering Manager, Infrastructure (Platform) Requirements
+
+Senior Engineering Manager, Infrastructure requirements extend those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
 
 - Technical credibility: Past experience as a product engineer and managing teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
-- Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at, at least, one recent job
-- Ability to be successful managing at a remote-only company
-- Value and exhibit servant-leadership behaviors
 
-#### Nice-to-have Requirements
+#### Nice-to-haves
 
-- Be a user of GitLab, or familiar with our company
-- Prior Developer Platform or Tool industry experience
-- Prior product company experience
-- Prior high-growth startup experience
-- Experience working on systems at massive (i.e. consumer) scale
-- Deep open source experience
-- Experience working with global teams
-- We value [diversity, inclusion and belonging](/handbook/company/culture/inclusion/) for all team members
-- Be inquisitive: Ask great question
+Senior Engineering Manager, Infrastructure nice-to-have requirements extend those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-nice-to-have-requirements).
+
 - Hire and manage multiple teams that live our [values](/handbook/values/)
-- Maintain an environment where Team Members can thrive and the team produces [Results](/handbook/values/#results)
+- Maintain an environment where Team Members can thrive and the team produces [Results for Customers](/handbook/values/#results)
 
-### Director, Infrastructure (Reliability)
+### Director, Infrastructure
 
 The Director, Infrastructure (Reliability) manages the Engineering Reliability teams within the Infrastructure Department. These teams work on GitLab.com and also contribute to our core product. They are capable of managing multiple teams and guiding a portfolio of projects to successful outcomes. They are expert recruiters of Database Reliability Engineers, Site Reliability Engineers and Engineering Managers. They understand how to assess team capabilities and grow the existing talent on their teams. They possess a vision for successful reliability engineering and are advocates for supporting practices and technology. This role is a senior influencer who models the behaviors we want to see in our teams and contributes to great results.
 
-#### Director, Infrastructure (Reliability) Job Grade
+#### Director, Infrastructure Job Grade
 
 The Director, Infrastructure is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director, Infrastructure (Reliability) Responsibilities
+#### Director, Infrastructure Responsibilities
+
+Director, Infrastructure responsibilities extend those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-responsibilities).
 
 - Lead hiring and management success across multiple Infrastructure Reliability Engineering teams
 - Measure and improve productivity of the team while supporting a great Team Member experience and belonging
@@ -188,6 +178,8 @@ The Director, Infrastructure is a [grade 10](/handbook/total-rewards/compensatio
 
 #### Director, Infrastructure (Reliability) Requirements
 
+Director, Infrastructure requirements extend those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-requirements).
+
 - Relevant experience managing multiple operational reliability and/or engineering teams
 - Excellent recruiter capable of attracting top talent
 - Experience with consumer-level scale systems and Software as a Service (SaaS) product delivery
@@ -198,10 +190,10 @@ The Director, Infrastructure is a [grade 10](/handbook/total-rewards/compensatio
 
 #### Nice-to-haves
 
+Director, Infrastructure nice-to-haves extend those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-nice-to-have-requirements).
+
 - Candidates with diverse experience and backgrounds
 - Prior remote work experience
-- Significant open source contributions
-- Experience with global teams
 
 ### Senior Director, Infrastructure
 
@@ -213,9 +205,11 @@ The Senior Director, Infrastructure is a [grade 11](/handbook/total-rewards/comp
 
 #### Senior Director, Infrastructure Responsibilities
 
+Director, Infrastructure responsibilities extend those of [Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-responsibilities).
+
 - Establish and lead the direction for core SaaS and Infrastructure related cross-company initiatives such as Reliability Engineering practices, the architecture of platform services, or programs such as Incident Management
 - Lead the evolution of the individual Infrastructure compartment direction
-- Coordination with their leadership team on effective changes in team structure to meet new needs and accomodate overall growth
+- Coordination with their leadership team on effective changes in team structure to meet new needs and accommodate overall growth
 - Recruit and hire other effective leaders to take on key roles within Infrastructure
 - Own the delivery of results for some Infrastructure department-level Performance Indicators
 - Coordinate the creation, and lead the execution of Key Result efforts within their teams
@@ -223,6 +217,8 @@ The Senior Director, Infrastructure is a [grade 11](/handbook/total-rewards/comp
 - Own the responsibility and results delivery for all DRI assignments within the scope of their leadership team
 
 #### Senior Director, Infrastructure Requirements
+
+Director, Infrastructure requirements extend those of [Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-requirements).
 
 - Experience organizing, growing, and evolving an organization to meet the changing requirements of growth and/or customer need
 - Experience leading through multiple levels of management and in global organizations
@@ -281,7 +277,7 @@ The VP of Infrastructure is a [grade 12](/handbook/total-rewards/compensation/co
 
 #### VP of Infrastructure Performance Indicators
 
-The VP Infrastructure, is responsible for ensuring [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators).
+The VP Infrastructure, is responsible for ensuring Infrastructure Performance Indicators.
 
 ## Career Ladder
 

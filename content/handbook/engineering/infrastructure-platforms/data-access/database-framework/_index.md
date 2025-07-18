@@ -28,8 +28,9 @@ The following members of other functional teams are our stable counterparts:
 
 | **Name**                                                 | **Role** |
 | -------------------------------------------------------- | -------- |
-| [Sampath Ranasinghe](/handbook/company/team#sranasinghe) | [Senior Product Manager, Geo and Database](/job-families/product/product-manager) |
-| [Ben Prescott](/handbook/company/team#ben-prescott) | [Staff Support Engineer](/job-families/engineering/support-engineer/) |
+| [Mark Wood](/handbook/company/team#mjwood) | [Group Product Manager, Data Access](/job-families/product/product-manager) |
+| [Mark Nagle](/handbook/company/team#mnagle2) | [Support Engineer](/job-families/engineering/support-engineer/) |
+| [Chris Nightengale](/handbook/company/team#cnightingale) | [Support Engineer](/job-families/engineering/support-engineer/) |
 
 ### Stable Counterparts to other teams
 
@@ -174,7 +175,7 @@ milestone.
 
 [Database: Build · Boards · GitLab.org · GitLab](https://gitlab.com/groups/gitlab-org/-/boards/1324138) The build board
 gives you an overview of the current state of work for `group::database`. These
-issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development-flow/#build-track). Issues are added
+issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development/how-we-work/product-development-flow/#build-track). Issues are added
 to this board by adding the current active milestone and `group::database`
 labels. Issues in the `workflow::ready for development` column are ordered in
 priority order (top down). Team members use this column to select the next item
@@ -264,29 +265,3 @@ Official Business
 - [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
 - [YouTube: Database Team Playlist](https://www.youtube.com/watch?v=BqwsRDpknfg&list=PL05JrBw4t0KoxfN-uO2YfvQUabp2kdUYT)
 - [YouTube: Database Office Hours Playlist](https://www.youtube.com/watch?v=p3ful2h8H-c&list=PL05JrBw4t0Kp-kqXeiF7fF7cFYaKtdqXM)
-
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden"
-src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard"
->}}
-  {{< tableau/filters "GROUP_LABEL"="database" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px"
-src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1"
->}}
-  {{< tableau/filters "GROUP_LABEL"="database" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px"
-src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues"
->}}
-  {{< tableau/filters "GROUP_NAME"="database" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px"
-src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard"
->}}
-  {{< tableau/filters "GROUP_LABEL"="database" >}}
-{{< /tableau >}}

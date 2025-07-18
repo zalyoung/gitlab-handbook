@@ -27,7 +27,7 @@ At a high level, the Release post schedule is:
 - This task creates the branches, MRs, and issues necessary to run the Release Post process
 - The MRs and issues will be assigned to the Release Post Manager using the content in [release_post_managers.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml)
 - After the `Release Post Process Kickoff Tasks` pipeline completes, and the release post branch is created with associated merge request, manually trigger the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
-  - `Add deprecations and removals to current release post branch` 
+  - `Add deprecations and removals to current release post branch`
 
 ### Monday through Thursday, 3 weeks before release
 
@@ -63,14 +63,14 @@ MRs added after the Thursday, 1 week before release should target the `release-x
 
 ### Monday through Tuesday of release week
 
-- **Contributor Success** adds the [MVP](#mvp)
+- **Contributor Success** adds the [Notable Contributor](#notable-contributor)
 - **Release Post Manager and Technical Writer** perform final reviews
   - Changes after <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time> on the Monday of release week will be done via the `release-X-Y` branch and are subject to approval by the Release Post Manager.
   - The TW Lead verifies the deprecations and removals links in the release post
   - RPM create a [What's New](/handbook/product/categories/gitlab-the-product/#using-whats-new-to-communicate-updates-to-users) MR
 
 {{% note %}}
-The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
+The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#operate-with-a-bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
 {{% /note %}}
 
 ### Thursday, release day
@@ -498,8 +498,6 @@ Please respond to comments in the MR thread as soon as possible. We have a non-n
 
 Please add the `documentation_link` at the same time you add a content block to the release post. When you leave it to add it later, you will probably forget it, the reviewer will ping you later on during the review stage, and you will have little time to write, get your MR reviewed, approved, merged, and available in [the documentation](https://docs.gitlab.com/).
 
-Always link to the "EE" version of GitLab docs `https://docs.gitlab.com/ee/` (not `/ce/`) in the blog post, even if it is a CE feature.
-
 ## PMM Reviewers
 
 ### Messaging review
@@ -645,7 +643,7 @@ or both of them to the same post.
 
 When a new GitLab version is released [every month](/handbook/engineering/releases/), the Technical Writer who completed the release post structural check for the previous milestone sets up the release of the published documentation for that version.
 
-For instructions, see the GitLab docs [monthly release process](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
+For instructions, see the GitLab docs [monthly release process](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/blob/main/doc/releases.md).
 
 ## TW Reviewers
 
@@ -816,7 +814,7 @@ Should you prefer to continue to contribute to an issue under active development
 
 ## Monthly release blog post sections
 
-- [MVP](#mvp)
+- [Notable Contributor](#notable-contributor)
 - [Features](#features)
   - [Top feature](#top-feature)
   - [Primary features](#primary-features)
@@ -828,11 +826,11 @@ Should you prefer to continue to contribute to an issue under active development
 - [Important notes on upgrading](#important-notes-on-upgrading) (optional)
 - [Deprecations and removals](#deprecations-and-other-planned-breaking-change-announcements)
 
-### MVP
+### Notable Contributor
 
-The Contributor Success team now owns the process for nominating, selecting and adding the GitLab MVP for the release post. See the Contributor Success [GitLab MVP Selection Process](/handbook/marketing/developer-relations/contributor-success/mvp-process/).
+The Contributor Success team owns the process for nominating, selecting and adding the GitLab Notable Contributor (formerly MVP) for the release post. See the Contributor Success [GitLab Notable Contributor Selection Process](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process/).
 
-The Release Post Manager no longer has any MVP-related tasks.
+The Release Post Manager no longer has any Notable Contributor related tasks.
 
 ### Features
 
@@ -840,7 +838,7 @@ The most relevant features of the release are included in the post by [product m
 
 #### Top feature
 
-The top feature of the release is mentioned right after the MVP section, prior to other primary features. An image or video and documentation links are required. The [TW lead](#tw-lead) will pay close attention to the content of this item, as it is the "headline" feature for the release and it's especially important to get it right.
+The top feature of the release is mentioned right after the Notable Contributor section, prior to other primary features. An image or video and documentation links are required. The [TW lead](#tw-lead) will pay close attention to the content of this item, as it is the "headline" feature for the release and it's especially important to get it right.
 
 The Release Post Manager will select a `top` feature. The following can be used as a guideline on which feature to select:
 
@@ -1050,7 +1048,6 @@ It is a required field.
   - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
   - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
-  - [`data_stores`](/handbook/product/categories/#data-stores-stage)
 
 The stages display as an icon next to the product tiers' badges linking
 to the stage webpage using a regex:
@@ -1073,16 +1070,12 @@ introducing their [respective icons](https://gitlab.com/gitlab-com/www-gitlab-co
 
 ##### Custom stage URL
 
-For stages outside of the DevOps lifecycle, such as Enablement
-and Growth, which don't have the same path as the other stages
+For stages outside of the DevOps lifecycle, such as
+Growth, which don't have the same path as the other stages
 (`/stages-devops-lifecycle/<stage>`), it is necessary to add
 the `stage_url` to the content block to override the default path:
 
 ```yml
-# Enablement
-stage: data_stores
-stage_url: '/handbook/engineering/infrastructure/core-platform/'
-
 # Growth
 stage: growth
 stage_url: '/handbook/product/growth/'
@@ -1153,7 +1146,7 @@ The release post will link directly to closed issues or merge requests for the r
 - Performance improvements: `bug::performance` `workflow::complete` `workflow::verification` `workflow::production`
 - UI improvements: `UI polish` `Beautifying our UI` `UX Paper Cuts`
 
-`workflow::verification` and `workflow::production` are being included while we adopt the [addition of the `workflow::complete` label](/handbook/product-development-flow/#required-labels-2). `workflow::complete` is the desired label to indicate an issue is considered by users to be delivered.
+`workflow::verification` and `workflow::production` are being included while we adopt the [addition of the `workflow::complete` label](/handbook/product-development/how-we-work/product-development-flow/#required-labels-2). `workflow::complete` is the desired label to indicate an issue is considered by users to be delivered.
 
 ### Omnibus improvements
 
@@ -1529,8 +1522,8 @@ If the script fails to run or there are pipeline issues, you can run `bundle exe
 1. The data directory for the release is created under `data/release_posts/X_Y/`.
    If it exists, the script stops and exits. You'll need to delete this directory
    if you want to re-run the script.
-1. The [MVP template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_posts/unreleased/samples/mvp.yml)
-   is used to create the MVP file (`data/release_posts/X_Y/mvp.yml`).
+1. The [Notable Contributor (MVP) template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_posts/unreleased/samples/mvp.yml)
+   is used to create the Notable Contributor (MVP) file (`data/release_posts/X_Y/mvp.yml`).
 1. The retro issue is generated and assigned using the [Release-Post-Retrospective template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/Release-Post-Retrospective.md)
 1. The script performs a find and replace to update the following values in all of the MRs and Issues above using content from `data/release_post_managers.yml`:
 

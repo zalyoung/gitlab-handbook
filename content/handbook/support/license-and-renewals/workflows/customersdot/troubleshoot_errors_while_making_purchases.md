@@ -17,21 +17,51 @@ section of the CustomersDot. This is typically due to a bad address
 Sentry for a relevant error and file an issue in the
 [CustomersDot tracker](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/) as necessary.
 
+### 3D Secure Authentication 3DS
+
+> Transaction declined.generic_decline - Your card was declined
+
+Our product purchase integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup).
+
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user [payment through invoice](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.md#paying-invoices).
+
+> card_error/authentication_required/authentication_required
+
+Our product purchase integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). Such transactions will fail after the card is added.
+
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+> invalid_request_error/setup_intent_authentication_failure
+
+The 3DS authentication failed.
+
+The first option is to request the user to try again, or with a different another card.
+You can also [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+### India issued cards
+
+> Transaction declined.402 - [card_error/card_declined/transaction_not_allowed]
+> Your card does not support this type of purchase.
+
+Please direct the customer to [the troubleshooting page](https://docs.gitlab.com/subscriptions/gitlab_com/gitlab_subscription_troubleshooting/#error-transaction_not_allowed) to purchase through a reseller or [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user [payment through invoice](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.md#paying-invoices).
+
 ### Getting error message from Sentry
 
 To find the error specifically related to a customer on sentry, try the following:
 
-1. Get customer ID from [CustomersDot](https://customers.gitlab.com/customers/sign_in):
+1. Get customer ID from CustomersDot:
    - Log into <https://customers.gitlab.com/admin>
    - Go to `Customers` search page by clicking on `Customers` on the left panel
    - Search for customer using one of the following: email, domain, or First/Last name (in case customer registered with a different email)
    - Click on one of the info, pencil, or person icon in the result
    - Take the customer ID from the URL <https://customers.gitlab.com/admin/customer/customerID/pagepath>
 1. Finding the error message for the customer in Sentry:
-   - Go to <https://sentry.gitlab.net/gitlab/customersgitlabcom/issues/>
-   - Use `user:customerID` (replace `customerID` with the actual customerID from CustomersDot)
-   - Open sentry issue → Click on `EVENTS`
-   - Use customer email to search for the relevant event
+   - Go to <https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=8>
+   - Use `user.id:customerID` (replace `customerID` with the actual customerID from CustomersDot)
+   - Open sentry issue → Click on `All Events`
+   - Filter for the specific user again using `user.id:customerID`
+   - Click on any event to see details of the error message
+   - You can also repeat this search using the customer's email with `user.email:customerFullEmail`
 
 ### Getting error messages from CustomersDot Kibana logs
 
@@ -77,7 +107,7 @@ In the Log Fields panel, you can also choose specific log files, as well as seve
 
 Sometimes a customer reports that they did not receive an email from the portal, such as a password reset request or new account confirmation.  GitLab uses Mailgun as a service to send outgoing mail. We can login to Mailgun to view the message logs, and when appropriate, remove suppressions.
 
-The general workflow that Support uses for this process is documented in the [Support handbook page on confirmation emails](/handbook/support/workflows/confirmation_emails#check-mailgun), and that page has a full description on navigating the Mailgun dashboard and searching through the logs.
+The general workflow that Support uses for this process is documented in the [Support handbook page on confirmation emails](/handbook/support/workflows/confirmation_emails/#checking-mailgun-logs), and that page has a full description on navigating the Mailgun dashboard and searching through the logs.
 
 The process here is much the same, but since we are investigating mail from CustomerDot, in Step 4 of the general workflow ensure that `customers.gitlab.com` is selected as the domain to search under.
 

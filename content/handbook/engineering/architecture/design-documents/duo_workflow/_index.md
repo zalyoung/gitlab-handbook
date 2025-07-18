@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Execution Environment
 
@@ -21,33 +21,39 @@ which effectively means "untrusted" code. This means that they cannot just run
 like any other service we deploy and specifically they cannot just run inside
 the Workflow service or AI Gateway.
 
-In order to address this issue, the Workflow functionality will be comprised of 2
-separate components:
+In order to address this issue, the Workflow functionality is comprised of
+several components:
 
-1. The Workflow service, which is a Python service we run in our
+1. The Duo Workflow Service, which is a Python service we run in our
    infrastructure. The Workflow service is built on top of
-   [LangGraph](https://github.com/langchain-ai/langgraph).
-1. The Workflow executor, which is a Go binary that communicates via a long
+   [LangGraph](https://github.com/langchain-ai/langgraph) and lives in a shared
+   repo with the AI Gateway to allow code sharing.
+1. The Duo Workflow Executor, which is a Go binary that communicates via a long
    running gRPC connection to the Workflow service and executes the arbitrary
-   commands. It will be possible for users to run this locally or in CI pipelines.
+   commands. This is used to run workflows in CI Pipelines.
+1. The `gitlab-lsp` executor client which also communicates via a long running
+   gRPC connection to the Workflow service and exectues arbitrary commands. This
+   is used in our Editor Extensions (e.g. VS Code).
 
 In our first release we will support 2 execution modes:
 
-1. Local executor: which will run commands and edit files locally in a
-   sandboxed Docker container on the developer machine. They will be able to
-   see the files being edited live and it will be interactive.
+1. Local executor: which will run commands and edit files locally in the users
+   environment. They will be able to see the files being edited live and it will
+   be interactive. Controls, such as user command approval, are used to reduce
+   the risk of performing harmful actions by mistake on the users workstation.
 1. CI executor: All non-local use-cases of Workflow (for example:
-   issue/epic based workflows) will be triggered by the GitLab UI and will
-   create a CI Pipeline to run the Workflow executor.
+   issue/epic based workflows) will be triggered by the GitLab UI or APIs and
+   will create a CI Pipeline to run the Workflow executor.
 
 Our architecture will also support mixed deployments for self-managed such that
-some features of Workflow will be available using a cloud-hosted AI
-Gateway.
+some features of Workflow will be available using a cloud-hosted Duo Workflow
+Service.
 
-### Detailed plan
+### Technical summary
 
-We plan on building this feature set with 3 independent components that can be
-run in multiple runtimes:
+#### Breakdown of components
+
+Duo Workflow is built upon many different core components:
 
 1. The Workflow Web UI. This will be the web UI built into GitLab that manages the
    creation and interaction of all workflows. There may be many interaction
@@ -60,22 +66,23 @@ run in multiple runtimes:
    execute the workflows. For reasons why LangGraph was chosen, see [this work item](https://gitlab.com/gitlab-org/gitlab/-/work_items/457958).
    The Workflow service will not have any persisted state but the state of
    running workflows will be kept in memory and periodically checkpointed in
-   GitLab. The Workflow service is built [in its own codebase](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service/)
-   and will have its own deployment but the codebase
-   [may be merged with the AI Gateway codebase in the future](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/527).
+   GitLab. The Workflow service is [part of AI Gateway codebase](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/tree/main/duo_workflow_service?ref_type=heads) but it has
+   it's own deployment separate from the AI Gateway.
+1. The [protocol buffers](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/contract/contract.proto)
+   which form the contract between `Executor <-> Workflow Service` and `GitLab Rails <-> Workflow Service`
 1. The [Workflow executor](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-executor).
-   This is being written in Go for easy installation
-   in development containers. This component will run in CI jobs or on a user's
-   local workstation. In the local workstation it will run sandboxed in a
-   Docker container with the working directory optionally mounted by the
-   user for a live pairing experience. It will only be responsible for opening
-   a gRPC connection to the Workflow service and executing the commands it is
-   told to.
+   runs in CI jobs or on a user's local workstation. It is only responsible for
+   opening a gRPC connection to the Workflow service and executing the actions
+   it is told to.
+1. The [`gitlab-lsp` executor code](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp/-/blob/main/packages/lib_workflow_executor/src/executors/node/node_executor.ts)
+   which adheres to the same interface as the Go based Workflow executor.
+
+#### Key constraints
 
 The following are important constraints of the architecture:
 
-1. All state management will be inside GitLab.
-1. Periodically, the Workflow service should checkpoint its state in GitLab.
+1. All state management are inside GitLab.
+1. Periodically, the Workflow service checkpoints its state in GitLab.
 1. The Workflow service in-memory state can be dropped/lost at any time so
    checkpointing will be the only guaranteed point that can be returned to.
 1. If a local Workflow executor drops the connection, the Workflow
@@ -100,18 +107,6 @@ The following are important constraints of the architecture:
    or update data will be authenticated on behalf of the user that created the
    workflow. The Workflow service should not need privileged access to GitLab.
 
-CI pipelines have been chosen as the hosted runtime option for the Workflow
-executor because it is the only infrastructure we have available today to run
-untrusted customer workloads with stability, support, security, abuse
-prevention and a billing model. In the short term for early customers we may
-rely on the existing compute minutes for CI pipelines but in the long run we
-may want to deploy dedicated runners and introduce a billing model specific for
-Workflow.
-
-For many development use cases we expect developers may prefer to run the
-Workflow executor locally as it can operate on a locally mounted directory and
-allow the user to more easily watch changes as they happen.
-
 ### GitLab.com architecture
 
 ![Workflow Architecture gitlab-com](/images/engineering/architecture/design-documents/duo_workflow/diagrams/duo-workflow-architecture-gitlab-com.png)
@@ -129,10 +124,7 @@ sequenceDiagram
    participant ide as IDE
    participant executor as Workflow executor
    participant gitlab_rails as GitLab Rails
-   box AI-gateway service
-     participant duo_workflow_service as Workflow service
-     participant ai_gateway as AI Gateway
-   end
+   participant duo_workflow_service as Workflow service
    participant llm_provider as LLM Provider
    user->>ide: trigger workflow from IDE
    ide->>gitlab_rails: Create the workflow
@@ -141,7 +133,7 @@ sequenceDiagram
    gitlab_rails->>gitlab_rails: Create the workflow
    gitlab_rails->>ide: Return the workflow details and JWT and OAuth tokens
    ide->>executor: start executor with workflow details and JWT and OAuth token
-   executor->>+duo_workflow_service: Solve this issue (open grpc connection auth'd with AI Gateway JWT)
+   executor->>+duo_workflow_service: Solve this issue (open grpc connection auth'd with Duo Workflow Service JWT)
    duo_workflow_service->>llm_provider: Ask LLM what to do
    llm_provider->>duo_workflow_service: Run rails new my_new_app
    duo_workflow_service->>executor: execute `rails new my_new_app`
@@ -165,10 +157,7 @@ sequenceDiagram
     box CI-Runner #LightYellow
         participant executor as Workflow executor
     end
-    box AI-gateway service #LightBlue
-        participant duo_workflow_service as Workflow service
-        participant ai_gateway as AI Gateway
-    end
+    participant duo_workflow_service as Workflow service
     participant llm_provider as LLM Provider
 
     note over user,gitlab_rails: User is logged in via web
@@ -179,7 +168,7 @@ sequenceDiagram
 
     gitlab_rails->>executor: start executor in CI pipeline with workflow details and JWT and composite identity OAuth token
 
-    note over executor,duo_workflow_service: AI Gateway JWT
+    note over executor,duo_workflow_service: Duo Workflow Service JWT
     executor->>+duo_workflow_service: Solve this issue (open gRPC connection)
 
     note over duo_workflow_service,llm_provider: API Key (from env)
@@ -211,7 +200,7 @@ sequenceDiagram
 #### With local Workflow service
 
 When customers are running the Workflow service locally the architecture will be very
-similar to GitLab.com. This will also allow them to use whatever customer
+similar to GitLab.com. This will also allow them to use whatever custom
 models they configure in their Workflow service.
 
 ![Workflow Self managed full](/images/engineering/architecture/design-documents/duo_workflow/diagrams/duo-workflow-architecture-self-managed-full.png)
@@ -220,8 +209,8 @@ models they configure in their Workflow service.
 
 In order to allow self-managed customers to trial and rapidly adopt Duo
 Workflow without running all Workflow service components, this architecture will
-supported a mixed deployment mode. In this case, we assume that the cloud AI
-Gateway will not have access to the customers GitLab instance but we can make
+supported a mixed deployment mode. In this case, we assume that the cloud Duo
+Workflow Service will not have access to the customers GitLab instance but we can make
 use of the local executor (on the user's machine or in a CI runner) to proxy
 all interactions with GitLab.
 
@@ -239,9 +228,9 @@ As described above there are 2 reasons we need the Workflow executor:
 But we will have a subset of use cases for Workflow where these conditions
 will not apply. Specifically we expect to have "non-code" workflows (e.g.
 review this merge request) where we just need to interact between LLM and
-GitLab APIs. And if the customer is using GitLab.com or a self-hosted AI
-Gateway that has access to their GitLab instance then we can safely run all of
-this inside the Workflow service making API calls to the GitLab instance.
+GitLab APIs. And if the customer is using GitLab.com or a self-hosted Duo
+Workflow Service that has access to their GitLab instance then we can safely run
+all of this inside the Workflow service making API calls to the GitLab instance.
 
 This architecture unlocks a considerable advantage as we expect the cost of
 running workloads in CI pipelines is quite high (and indeed wasteful) and the
@@ -274,58 +263,23 @@ following design decisions:
    be rejected if they come from an instance of the workflow with an expired
    lease.
 
-### Data flow
-
-The below diagram shows what happens when the user is triggering workflows from
-their IDE using a local executor. The architecture will be similar when
-triggering from the GitLab UI using CI pipelines except that GitLab will start
-a CI pipeline to create run the Workflow executor and create the workflow.
-
-```mermaid
-sequenceDiagram
-   participant user as User
-   participant ide as IDE
-   participant executor as Workflow executor
-   participant gitlab_rails as GitLab Rails
-   participant duo_workflow_service as Workflow service
-   participant llm_provider as LLM Provider
-   user->>ide: trigger workflow from IDE
-   ide->>executor: start executor
-   executor->>+duo_workflow_service: Solve this issue
-   duo_workflow_service->>gitlab_rails: Create the workflow
-   duo_workflow_service->>llm_provider: Ask LLM what to do
-   llm_provider->>duo_workflow_service: Need the file list
-   duo_workflow_service->>executor: execute `ls`
-   duo_workflow_service->>gitlab_rails: Save checkpoint
-   executor->>duo_workflow_service: result `ls`
-   duo_workflow_service->>llm_provider: What's next?
-   llm_provider->>duo_workflow_service: Here's a patch
-   duo_workflow_service->>executor: execute `git apply`
-   duo_workflow_service->>gitlab_rails: Save checkpoint
-   duo_workflow_service->>executor: execute `poetry run pytest`
-   duo_workflow_service->>gitlab_rails: Save checkpoint
-   executor->>duo_workflow_service: result `poetry run pytest`
-   duo_workflow_service->>llm_provider: fix the tests
-   llm_provider->>duo_workflow_service: Here's a patch
-   duo_workflow_service->>executor: execute `git apply`
-   duo_workflow_service->>gitlab_rails: Save checkpoint
-   duo_workflow_service->>executor: execute `poetry run pytest`
-   executor->>duo_workflow_service: result `poetry run pytest`
-   duo_workflow_service->>executor: Next step?
-   executor->>gitlab_rails: Check in & Next step?
-   gitlab_rails->>executor: Last step!
-   executor->>duo_workflow_service: Done!
-   deactivate duo_workflow_service
-   gitlab_rails->>user: Workflow done!
-```
-
 ### CI pipeline architecture
 
+CI pipelines have been chosen as the hosted runtime option for the Workflow
+executor because it is the only infrastructure we have available today to run
+untrusted customer workloads with stability, support, security, abuse
+prevention and a billing model.
+
 We don't want users to have to configure a specific `.gitlab-ci.yml` in order
-to support Workflow. In order to avoid this we'll use the same approach as
-[that used by DAST site validations](https://gitlab.com/gitlab-org/gitlab/-/blob/19e0669446f55bd29a8df29174d3b0379b8e22c2/ee/app/services/app_sec/dast/site_validations/runner_service.rb#L11)
-which dynamically constructs a pipeline configuration in GitLab and triggers
-the pipeline without using any `.gitlab-ci.yml`.
+to support Workflow. In order to avoid this we use the
+[`Ci::Workload`](https://gitlab.com/gitlab-org/gitlab/-/blob/6682c3f76a0196455de3873466f254870383e9bc/app/services/ci/workloads/run_workload_service.rb)
+abstraction which effectively constructs a valid `.gitlab-ci.yml` and runs a
+pipeline with this in-memory definition. The CI Pipeline internals are
+intentionally abstracted from workflow code in order to remain
+flexible to changing the hosted runtime in future. This is a key design decision
+as pipelines have several limitations which may make it unsuitable in the long
+run and it would be easy to accidentally become too tightly coupled to replace
+if we are not careful.
 
 CI pipelines also must be run inside a project. There will be some usecases of
 Workflow where there is no appropriate project in which to run the pipeline
@@ -339,6 +293,10 @@ Workflow where there is no appropriate project in which to run the pipeline
    existence of the Project altogether and make this an implementation detail.
    This will be considered a last resort because it could be quite a wide
    impacting change to GitLab as projects are a central part of GitLab.
+
+In the short term for early customers we may rely on the existing compute
+minutes for CI pipelines but in the long run we may want to deploy dedicated
+runners and introduce a billing model specific for Workflow.
 
 #### Considerations for CI Runners and Infrastructure
 
@@ -413,13 +371,13 @@ Workflow service.
 
 To authenticate this connection:
 
-1. The IDE will use the OAuth token of Personal Access Token (PAT) that the user
+1. The IDE will use the OAuth token or Personal Access Token (PAT) that the user
    generated while setting up the GitLab editor extension.
 1. The IDE uses that token to authenticate a request to a GitLab Rails API
    endpoint.
 1. When the GitLab Rails API receives this request, it loads its
-   instance-scoped JWT (synced daily from CustomersDot) and contacts the AI
-   gateway to swap this instance token for the above-mentioned user-scoped token
+   instance-scoped JWT (synced daily from CustomersDot) and contacts the Duo
+   Workflow Service to swap this instance token for the above-mentioned user-scoped token
    (also cryptographically signed).
 1. GitLab Rails returns the user-scoped JWT to the IDE.
 1. The IDE passes on this JWT to the local Workflow executor component.
@@ -445,6 +403,12 @@ the process of creating the CI pipeline, GitLab Rails will:
    variable value to authenticate the Workflow service gRPC connection.
 
 #### Workflow service -> GitLab Rails API
+
+All executors are additionally passed an OAuth token with `ai_workflows` scope
+which is used for all HTTP requests to GitLab Rails. This is separate from the
+JWT used to authenticate with Duo Workflow Service. The executor passes this
+token, as well as the GitLab instance's base URL, to the Duo Workflow Service so
+that it can make direct calls to GitLab Rails.
 
 Reasons that the Workflow service must be able to authenticate requests to
 the GitLab Rails API:
@@ -682,7 +646,7 @@ See <https://gitlab.com/gitlab-org/gitlab/-/issues/458339> for a POC and investi
 
 ### Threat modeling
 
-See <https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/46>.
+See detailed and up to date threat modelling in https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/AI%20features/Duo%20Workflow.md
 
 ### Security considerations for local execution
 
@@ -695,7 +659,7 @@ Some examples of risks:
 
 1. An AI that can make honest but significant mistakes.
 1. An AI that might sometimes be adversarial.
-1. The AI gateway serving the LLM responses may be compromised which would then
+1. The Duo Workflow Service serving the LLM responses may be compromised which would then
    allow shell access to all users of this tool.
 
 ### Sandboxing Workflow executor
@@ -839,18 +803,56 @@ Foreseen tools include:
 1. Tools to manipulate Git VCS.
 1. Tools to integrate with the [GitLab HTTP API](https://docs.gitlab.com/ee/api/api_resources.html).
 
-The fact that the Workflow service is going to require Git and GitLab API tools entails that the **Workflow service
-must have the ability to establish an SSH connection and make HTTP requests to the GitLab instance.** This ability can be granted directly to the Workflow service or can be provided via the Workflow executor if a direct connection between the Workflow service and a GitLab instance is not possible due to a firewall or network partition.
+### Tools permissions and approval system
 
-## Milestones
+Equipping agents with tools comes with different risk factors. For example, read tools might cross boundaries between confidential and public data if applied incorrectly, and tools that
+integrate directly with Duo Workflow Executor host bash terminal can open a whole range of severe consequences when agents make mistakes or get tricked into performing malicious actions.
+In order to limit the negative impact of different tools, a tool approval system has been implemented, granting users the ability to limit the set of available tools for any given workflow run, as well
+as enforce agents to seek user approval before certain tools are executed.
 
-1. All the components implemented and communicating correctly with only a
-   trivial workflow implemented.
-1. Checkpointing code as well as LangGraph state.
-1. Workflow locking in GitLab to ensure only 1 concurrent instance of a
-   workflow.
-1. Add more workflows and tools.
-1. Ability to resume a workflow.
+The tools approval system is based on a bucket approach, where tool buckets are named _agent privileges_. Each bucket outlines a subset of all implemented tools
+which users can make fully available or conditionally available, following the process outlined in [the next section](#how-agent-tool-set-is-being-defined-for-each-workflow-run). _Agent privileges_ are defined in the [`tools_registry`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/5e242511c27d6d981dc29f3e1871882b00dcea8f/duo_workflow_service/components/tools_registry.py#L76) within Duo Workflow Service and are reflected in the [`Workflow`](https://gitlab.com/gitlab-org/gitlab/blob/13461f57b9f087055e23651eead75cdc716c1cbb/ee/app/models/ai/duo_workflows/workflow.rb#L41) GitLab Rails model.
+
+#### How agent tool set is being defined for each workflow run
+
+1. An engineer defines an agent's tool set during workflow implementation by listing all possible tools that could be granted to a model.
+1. Upon creation of a workflow run, a request is made to workflow's GitLab API [endpoint](https://gitlab.com/gitlab-org/gitlab/blob/467a527a7a78f45dddf547ebb86c63c6239f34f0/ee/lib/api/ai/duo_workflows/workflows.rb#L84) with `agent_privileges` that limits the complete scope of the tool set defined in step 1 by the engineer into a subset constrained by user-granted _agent privileges_. In addition, that API request may include `pre_approved_agent_privileges` which allow agents to use tools from listed buckets without asking for approval.
+
+#### How tools approvals are being enforced
+
+Tools approval verification happens between an agent's node that produces LLM-generated function calls and the `ToolExecutor` node that runs LLM's function calls.
+Before the `ToolExecutor` node is triggered, all pending function calls are reviewed against an allow list that is defined with `pre_approved_agent_privileges` following
+the process outlined in [the previous section](#how-agent-tool-set-is-being-defined-for-each-workflow-run).
+
+If there is at least one function call that is not included in the allow list, a tool approval subgraph is invoked.
+The tool approval flow is illustrated in the diagram below:
+
+```mermaid
+graph TD;
+   __start__([<p>__start__</p>]):::first
+   approval_e(Tools Approval entry Node)
+   approval_v(Tools Approval verification Node)
+   agent(Agent Node)
+   tools_exec(Tools Execution Node)
+   __end__([<p>__end__</p>]):::last
+   __start__ --> agent
+   agent --> router{Does any of LLM function calls requires human approval}
+   router -->|yes| approval_e
+   approval_e --> tools_v_r{Are all function calls valid?}
+   tools_v_r --> |no| agent
+   tools_v_r --> |yes| approval_v
+   approval_v --> tools_r{Human approval received}
+   tools_r --> |no| approval_v
+   tools_r --> |human deny| agent
+   tools_r --> |human feedback| agent
+   tools_r --> |human approve| tools_exec
+   router -->|no| tools_exec
+   tools_exec --> __end__
+```
+
+At the `Tools Approval verification Node`, a workflow execution is hibernated to wait for a user's approval, denial, or feedback that instructs agents how to
+correct their course. After the user provides approval we restart the executor
+and resume the workflow.
 
 ## POC - Demos
 

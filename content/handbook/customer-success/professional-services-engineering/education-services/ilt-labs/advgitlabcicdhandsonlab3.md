@@ -16,48 +16,46 @@ The goal of this lab is to explore the different ways that we can configure test
 In this lab, we will explore the different ways that we can configure testing in an application. Currently, we have the following testing setup for our project:
 
   ```yml
-    stages:
-      - deps
-      - test
+  stages:
+    - deps
+    - test
 
-    default:
-      image: node:latest
+  default:
+    image: node:latest
 
-    install deps:
-      stage: deps
-      script:
-        - npm install jest-junit
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+  install deps:
+    stage: deps
+    script:
+      - npm install jest
+    cache:
+      key: $CI_COMMIT_REF_SLUG
+      paths:
+        - node_modules
 
-    test binarysearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest binarysearch.test.js
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+  test binarysearch:
+    stage: test
+    script:
+      - node_modules/.bin/jest binarysearch.test.js
+    cache:
+      key: $CI_COMMIT_REF_SLUG
+      paths:
+        - node_modules
 
-    test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest linearsearch.test.js
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+  test linearsearch:
+    stage: test
+    script:
+      - node_modules/.bin/jest linearsearch.test.js
+    cache:
+      key: $CI_COMMIT_REF_SLUG
+      paths:
+        - node_modules
 ```
 
 This lab will explore how we can ensure a test pipeline when a single job fails. We will also see how we can add test reporting to our test jobs.
 
 ## Task A. Stopping a Pipeline after Failure
 
-In this example, let’s look at how we can cancel the pipeline in the case where one of our tests fails.
+In this example, let's look at how we can cancel the pipeline in the case where one of our tests fails.
 
 1. Navigate to your `Node` project repository.
 
@@ -67,30 +65,30 @@ In this example, let’s look at how we can cancel the pipeline in the case wher
 
 1. Just below the stages section of your `.gitlab-ci.yml` file, add a workflow to auto cancel the jobs.
 
-    ```yml
-    workflow:
-      auto_cancel:
-        on_job_failure: all
-    ```
+      ```yml
+      workflow:
+        auto_cancel:
+          on_job_failure: all
+      ```
 
 1. With this configuration, if any jobs fail, the whole pipeline will fail. To test this, you can create a test job that will purposely fail.
 
-    ```yml
-    test fail:
-      stage: test
-      script:
-        - jet test.js
-    ```
+      ```yml
+      test fail:
+        stage: test
+        script:
+          - jet test.js
+      ```
 
 1. Select **Commit changes**.
 
-Let's see how the pipeline handles the failed job.
+      Let's see how the pipeline handles the failed job.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select your most recent pipeline and observe the jobs. Note that when the `test fail` job fails, other jobs cancel, showing a grey slash icon.
+1. Select your most recent pipeline and observe the jobs. Note that when the `test fail` job fails, other jobs cancel, showing a gray slash icon.
 
-Now that we have verified the auto cancel works, let's remove the failing job.
+      Now that we have verified the auto cancel works, let's remove the failing job.
 
 1. Navigate to your repository.
 
@@ -100,47 +98,45 @@ Now that we have verified the auto cancel works, let's remove the failing job.
 
 1. Remove the `test fail` job. Your `.gitlab-ci.yml` file will look like this:
 
-    ```yml
-    stages:
-      - deps
-      - test
+      ```yml
+      stages:
+        - deps
+        - test
 
-    workflow:
-      auto_cancel:
-        on_job_failure: all
+      workflow:
+        auto_cancel:
+          on_job_failure: all
 
-    default:
-      image: node:latest
+      default:
+        image: node:latest
 
-    install deps:
-      stage: deps
-      script:
-        - npm install jest-junit
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+      install deps:
+        stage: deps
+        script:
+          - npm install jest
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
 
-    test binarysearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest binarysearch.test.js
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+      test binarysearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest binarysearch.test.js
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
 
-    test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest linearsearch.test.js
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
-    ```
+      test linearsearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest linearsearch.test.js
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
+      ```
 
 1. Select **Commit changes**.
 
@@ -148,76 +144,77 @@ Now that we have verified the auto cancel works, let's remove the failing job.
 
 In this task, we will add a test report to our test jobs.
 
-1. Navigate to your repository.
+1. Ensure you are still in the Pipeline Editor (if not, navigate to **Build > Pipeline Editor**).
 
-1. Select `.gitlab-ci.yml`.
+1. We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command.  We can do this by adding the `--ci --testResultsProcessor=jest-junit` flags to the command. The `--ci` flag will make Jest assume it is running in a CI environment. For this to work we also have to install `jest-junit` by adding it to our `install deps`. Below is an example of the jobs after the changes have been made:
 
-1. Select **Edit > Edit in pipeline editor**.
+      ```yml
+      install deps:
+        stage: deps
+        script:
+          - npm install jest jest-junit
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
 
-1. We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command.  We can do this by adding the `--ci --testResultsProcessor=jest-junit` flags to the command. The `--ci` option is provided will make Jest assume it is running in a CI environment. Below is an example of both jobs after the changes have been made:
+      test binarysearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
 
-```yml
-    test binarysearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
-
-    test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
-```
+      test linearsearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
+      ```
 
 1. The test results need to be stored in a JUnit file in order to be accessed by the pipeline. To do so, we need to add the following code snippet to both of our tests after the `script` keyword:
 
-```yml
-artifacts:
-  when: always
-  reports:
-    junit: junit.xml
-```
+      ```yml
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
+      ```
 
-The tests will now look like this:
+      The tests will now look like this:
 
-```yml
-    test binarysearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-      artifacts:
-        when: always
-        reports:
-          junit: junit.xml
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+      ```yml
+      test binarysearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
 
-    test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-      artifacts:
-        when: always
-        reports:
-          junit: junit.xml
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
-```
+      test linearsearch:
+        stage: test
+        script:
+          - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        artifacts:
+          when: always
+          reports:
+            junit: junit.xml
+        cache:
+          key: $CI_COMMIT_REF_SLUG
+          paths:
+            - node_modules
+      ```
 
 1. After making these changes, select **Commit changes**.
 

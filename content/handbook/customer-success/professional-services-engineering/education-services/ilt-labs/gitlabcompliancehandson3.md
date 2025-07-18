@@ -1,5 +1,5 @@
 ---
-title: "GitLab Compliance - Repository Control"
+title: "GitLab Compliance - Hands-On Lab: Repository Control"
 description: "This Hands-On Guide demonstrates how to control repository access and modification."
 ---
 
@@ -121,4 +121,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request.

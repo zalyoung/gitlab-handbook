@@ -29,7 +29,7 @@ Our FY25 Marketing Strategy and Plan can be found in [the internal handbook](htt
 
 ## Marketing OKRs
 
-Each quarter, the Marketing team creates OKRs (Objectives and Key Results) that cascade from the [CEO's OKRs](/handbook/company/okrs/#most-recent-okrs).
+Each quarter, the Marketing team creates [OKRs (Objectives and Key Results)](/handbook/company/okrs/).
 
 Each department within the Marketing team manages their own cascading OKRs. Team members can access the [filtered OKR search](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=division%3A%3AMarketing&label_name%5B%5D=OKR&search=marketing&search=okr&first_page_size=20).
 
@@ -101,6 +101,7 @@ Weekly Direct Reports Meetings (Each manager with their direct reports)
 | External PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities | `#external-comms` | [Corporate Communications](/handbook/marketing/corporate-communications/) |
 | Anything regarding the marketing website and website development | `#digital-experience-team` | [Digital experience](/handbook/marketing/digital-experience/) |
 | Questions about tools in the [marketing tech stack](/handbook/marketing/marketing-operations/), evaluating new marketing tools, marketing system process improvement | `#mktgops` | Marketing Operations |
+| Rules on [legally compliant language](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language) for marketing communications (_internal only_) | `#mktgops` | Marketing Ops |
 | Salesforce | `#sfdc-users` | Sales Operations (not marketing) |
 
 A complete list of marketing slack channels can be found [here](/handbook/marketing/#marketing-slack-channels).
@@ -355,7 +356,7 @@ The marketing team utilizes a [single all-marketing calendar](https://internal.g
 
 Please do not filter the entire doc. Instead, you may use pre-set filter views (click down arrow selector next to the filter icon on the bookmark bar) to see activities grouped by GTM Motion, segment, region, team, language, and more.
 
-*If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a similar filter view, and clicking on the top right gear icon, then selecting `Duplicate`.*
+_If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a similar filter view, and clicking on the top right gear icon, then selecting `Duplicate`._
 
 For more information about adding events to All-Marketing SSoT Calendar, please [click here](/handbook/marketing/marketing-team-processes/#marketing-calendar-inputs).
 

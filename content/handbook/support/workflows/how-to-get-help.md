@@ -6,7 +6,7 @@ description: Workflow for Support Engineers on how to get help when working on a
 
 ## Getting Help on a Ticket
 
-When [working on tickets](/handbook/support/workflows/working-on-tickets), collaboration is critical, especially when troubleshooting complex issues, or technical areas of focus that fall outside of your experience level. Asking for help means having a [low level of shame](/handbook/values/#low-level-of-shame), and also shows that you are putting the customer first because you are working towards resolving their problem.
+When [working on tickets](/handbook/support/workflows/working-on-tickets), collaboration is critical, especially when troubleshooting complex issues, or technical areas of focus that fall outside of your experience level. Asking for help means having a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding), and also shows that you are putting the customer first because you are working towards resolving their problem.
 
 ### Ask good questions
 
@@ -62,11 +62,7 @@ is an operating principle of Results.
 
 Other Support Engineers are a great resource to help out with tickets. To get help from peers, you can try one or more of the following:
 
-1. Attend crush or help sessions such as those noted below (see the [GitLab Support calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV85YnMxNTllaHJjNXRxZ2x1cjg4ZGpiZDUxa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) for times):
-    - AMER Senior SE Help Sessions
-    - APAC/AMER or EMEA/AMER crush sessions
-    - APAC or EMEA crush / collaboration sessions
-    - Senior Support Office Hours (varying times)
+1. Schedule a pairing session, or attend a crush or help session. This is often the fastest way to get help and learn at the same time. See [getting started with pairing sessions](pairing-sessions.md#getting-started-with-pairing-sessions) for guidance.
 1. Ask for help in one of the broader
    [Support Slack channels](/handbook/support/#slack).
 
@@ -75,7 +71,7 @@ Other Support Engineers are a great resource to help out with tickets. To get he
 You can also do one or more of the following:
 
 - See if there is a [Support Pod](/handbook/support/workflows/working-with-pods/) that covers the area your ticket is in and ask one of the Pod members for help.
-- Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
+- Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html)
   Support page to see who might have the skills to assist, or reach out
   to the [Support Stable Counterpart](/handbook/support/support-stable-counterparts/)
   for the appropriate product area. Mention those
@@ -157,7 +153,10 @@ Use the following repositories and resources for identifying similar issues or r
 1. If the Zendesk ticket is escalated then add the label `Support::escalated`.
 1. Add a 'Customer Impact' statement if necessary, advocating for the customer.
 1. Ensure to follow any instructions on the template itself, such as who to assign the issue to (if not automatically assigned).
-1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note and also to the ticket field named `GitLab Issues`.
+1. After creating the issue:
+   - Add its link to the Zendesk ticket as an internal note and to the ticket field named `GitLab Issues`.
+   - Use Duo Chat on the issue to identify any further details/context you should share additionally. You can use a prompt like this:
+     > This issue is a request for help from the customer support team to Engineering. Identify any context that has not been shared, but that would be useful for Engineering to help provide a solution for this issue.
 
 #### Tips on getting timely responses
 
@@ -202,7 +201,7 @@ If you encounter any problems, such as obtaining a timely response from Developm
 - Create a Support [pairing session issue](https://gitlab.com/gitlab-com/support/support-pairing).
 - [Support Workflows](/handbook/support/workflows/) to follow relevant troubleshooting workflow.
 - [Support Documentation links](/handbook/support/#documentation) for quick references to helpful GitLab documentation.
-- [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) to find a Support Engineer scoped to the skill set needed for help.
+- [Skills by Subject](https://gitlab-com.gitlab.io/support/team-pages/skills-by-subject.html) to find a Support Engineer scoped to the skill set needed for help.
 - [DevOps Stages](/handbook/product/categories/#devops-stages) to find the right development or product team to reach out to.
 - [Emergency runbooks](https://gitlab.com/gitlab-com/support/emergency-runbook/-/tree/master/.gitlab/issue_templates) with troubleshooting tips, even if not an emergency.
 - See which [manager is on-call](https://gitlab.pagerduty.com/escalation_policies#PGNLUZ1) if guidance is needed on something urgent.
@@ -222,37 +221,36 @@ stateDiagram-v2
     [*] --> IssueOpened: Issue Created by Support
     IssueOpened --> Active: Add Issue Opened Label
     IssueOpened --> SupportTriage: Add Triage by Support label
-    
+
     state SupportTriage {
         SupportAuthor --> ExpertReview: Support author responds
         ExpertReview --> SupportAuthor: Support expert responds
     }
-    
+
     SupportTriage --> Active: Needs Dev Team Input
-    
+
     state Active {
         SupportComment --> DevComment: Add Last comment from support team label
         DevComment --> SupportComment: Add Last comment from dev team label
         DevComment --> NeedsInfo: Add Needs more info label
         NeedsInfo --> SupportComment: Support provides info
     }
-    
+
     Active --> PendingClosure: Inactive 14d
-    
+
     state PendingClosure {
         [*] --> Inactivity: Add Pending-Closure label
         Inactivity --> AutoClose: After 7d
     }
-    
+
     PendingClosure --> Active: Remove Pending-Closure label
     PendingClosure --> Closed: Add Issue-Closed label
     Active --> Closed: Resolution found and/or Issue Closed
     SupportTriage --> Closed: Resolution found
-    
+
     state Closed {
-        SendReminders: 
         SendReminders --> Resolved: Add Doc-Reminder label Add Resolution-Type label
     }
-    
+
     Closed --> [*]: RFH Lifecycle complete
 ```

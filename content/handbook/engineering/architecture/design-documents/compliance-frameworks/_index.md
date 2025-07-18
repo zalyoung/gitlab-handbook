@@ -1,6 +1,6 @@
 ---
 title: "Compliance Frameworks"
-status: ongoing
+status: implemented
 creation-date: "2024-07-08"
 authors: [ "@nrosandich", "@huzaifaiftikhar1" ]
 coach: "@theoretick"
@@ -11,7 +11,7 @@ toc_hide: true
 no_list: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -377,9 +377,9 @@ The compliance requirements would be stored in a separate table with the followi
         updated_at: timestamp
         project_id: bigint
         namespace_id: bigint
-        compliance_requirement_id: bigint
-        compliance_requirement_expression: jsonb
+        compliance_requirements_controls_id: bigint
         audit_event_id: bigint
+        status: smallint
     }
 
     class audit_events {
@@ -407,7 +407,9 @@ The compliance requirements would be stored in a separate table with the followi
     compliance_requirements_controls --> project_control_compliance_statuses : has_many
     compliance_requirements --> compliance_requirements_controls : has_many
     project_control_compliance_statuses <--> audit_events
-    compliance_requirements_controls <--> project_compliance_violations : has_and_belongs_to_many
+    compliance_requirements_controls --> project_compliance_violations : has_many
+    project_compliance_violations --> audit_events : has_one
+    project_compliance_violations <-- audit_events : has_many
 ```
 
 We plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column

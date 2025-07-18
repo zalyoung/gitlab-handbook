@@ -40,17 +40,9 @@ RFx's such as RFI and RFP are common steps in the public sector yet it may be re
 
 ### Stack Overflow for Teams
 
-[Stack Overflow for Teams](https://stackoverflowteams.com/c/gitlab-customer-success/questions) is a knowledge sharing and collaboration tool that helps entire Customer Success organization stay productive, onboard faster, and minimize distractions by unlocking information through collaborative knowledge management.
-Everyone in Customer Success organization has access to the Stack Overflow for Teams via Okta and is able to answer questions or provide responses directly via web interface
+[Stack Overflow for Teams](https://stackoverflowteams.com/c/gitlab-customer-success/questions) is a knowledge sharing and collaboration tool that helps many organizations at Gitlab, including the SA org, stay productive, onboard faster, and minimize distractions by unlocking information through collaborative knowledge management.
 
-Additionally, it is possible to interact with Stack Overflow using Slack integration via following commands:
-
-- `/stack ask How do I do X?` to ask a question directly via Slack
-- `/stack search [search term]` to search for questions and answers
-
-Slack integration also posts notifications about new questions and answers via `#cs-questions` Slack channel for the entire team to stay up to date and boost participation. Adherent to and in support of GitLab's [efficiency value](/handbook/values/#efficiency) team members should first [search for an existing answer](/handbook/company/culture/all-remote/self-service/) and post a question only if an answer is not readily available.
-
-Stack Overflow for teams replaces older [Customer Success Knowledge Base](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/sa-knowledge-base/), which is considered deprecated and will be removed in the Future.
+Please refer to the [Stack Overflow resource page](/handbook/solutions-architects/tools-and-resources/stackoverflow/) to understand how Stack Overflow is utilized by the SA, CS, and SMB orgs.
 
 ### Product Releases
 

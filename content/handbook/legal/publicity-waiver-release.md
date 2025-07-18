@@ -14,7 +14,7 @@ A Release is **not** required when:
 
 - Using a current team member's name, job title, or photo taken from the [Meet Our Team page](/handbook/company/team/) in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials. This does not include the use of a former team member's photo taken from that page.
 - Using screenshots of GitLab.com which include a team member's public GitLab profile information, including their name, GitLab username, and avatar.
-- Streaming or publishing [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/company/key-review/) meetings, and [Group Conversations](/handbook/company/group-conversations/) containing the Likeness of team members [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered.
+- Streaming or publishing [AMAs](/handbook/communication/ask-me-anything/) containing the Likeness of team members [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered.
 
 ## Release templates
 
@@ -54,7 +54,7 @@ For all non-Team Members, use the General Waiver and Release template. For Team 
 
 {{% details summary="Expand for instructions for DRIs using the General Waiver and Release" %}}
 
-1. If you don't have DocuSign access, open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to get it.
+1. If you don't have DocuSign access, open an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to get it.
 1. Once you have DocuSign access, access the [General Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
 1. Click `USE`.
 1. On the `Recipients` page:
@@ -62,7 +62,7 @@ For all non-Team Members, use the General Waiver and Release template. For Team 
    - Under `Signatory` enter the name and email address of the individuals featured in the materials who needs to sign the Release; and
    - Under `Email Message`, enter a message to the signatory explaining the purpose of the Release and asking them to sign it.
 1. Click `NEXT`.
-1. If you want to review the document before you send it, click the `Preview` button in the upper right corner. 
+1. If you want to review the document before you send it, click the `Preview` button in the upper right corner.
 1. Click `SEND`.
 1. You will be notified by email when the Signatory has signed the Release.
 1. Upload the signed Release to the relevant issue.  If there's no issue, send a copy of the signed Release to intellectualproperty@gitlab.com.

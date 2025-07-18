@@ -37,6 +37,7 @@ During the synchronous portion of the retro:
     1. apply the `retro-actions` label 
     1. use `/due in 1 week` to set a due date for the issue
     1. assign the issue to the manager of the SE who responded to the emergency
+1. When emergencies affect multiple regions and involve several engineers, the first engineer who responds will be the DRI of the retro by default. This engineer will collaborate with the retro facilitator and follow the established process. They should then include all other SEs who participated in the incident response to document the events that occurred during each shift.
 
 ### Possible Retrospective Findings
 
@@ -47,6 +48,7 @@ The suggestions and findings of a retrospective will vary. Common findings inclu
 - check-in with PM in an existing issue or feature proposal
 - new knowledge base article
 - update to processes in handbook
+
 When opening issues or MRs related to a customer emergency retro, apply the `customer-retro` label. 
 
 ### Addressing Findings from Retros
@@ -55,7 +57,7 @@ The findings from retros should be reviewed and addressed. Every suggestion shou
 
 Typically, the Support Engineers who handled the emergency will work to highlight what went well, what needs to be fixed or improved, and what questions need to be answered. The SE should take action directly when appropriate and leave the remaining items for leadership to address.
 
-For accountability purposes, a Support Manager will be the DRI for moving the questions and action items from a retro forward. Support Leaders are encouraged to review the [:rewind: Retros](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/boards/9004657?label_name[]=retro) periodically to ensure retros with findings don't go stale.
+For accountability purposes, a Support Manager will be the DRI for moving the questions and action items from a retro forward. Support Leaders are encouraged to review the [:rewind: Retros](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/boards/9004657?label_name[]=retro) issue board periodically to ensure retros with findings don't go stale.
 
 ## :robot:  Automation
 

@@ -7,7 +7,7 @@ description: Behind the scenes of The DevSecOps Platform
 
 Our vision captures what we want to deliver to customers in the next 10 years.
 
-[Our current vision](https://internal.gitlab.com/handbook/company/three-year-strategy/) is available to GitLab team members in the internal handbook.
+Our current vision is available to GitLab team members in the internal handbook.
 
 The remainder of this page includes details about GitLab's approach to long-term planning.
 
@@ -15,7 +15,7 @@ The remainder of this page includes details about GitLab's approach to long-term
 
 Our [Mission](/handbook/company/mission/) is on a 30-year cadence. It is the inspiration for this company vision, which is on a [10-year cadence](/handbook/company/cadence/#update-cadence).
 
-The vision here is reflected in our [company strategy](/handbook/company/strategy), which is on a 3-year cadence. You can find additional product vision details on our [direction page](https://about.gitlab.com/direction/#vision).
+The vision here is reflected in our company strategy, which is on a 3-year cadence. You can find additional product vision details on our [direction page](https://about.gitlab.com/direction/#vision).
 
 ## Monitoring an evolving market
 

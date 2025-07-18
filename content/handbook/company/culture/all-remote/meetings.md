@@ -41,7 +41,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people](/handbook/communication/#meeting-introduction-guidelines) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker's video stream.
 1. **Provide verbal cues.** If you're going through an agenda document, then add context: "bullet 3c, Sam, you added that point, can you verbalize it for us?" Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
 1. **Adhere to the agenda order to ensure inclusiveness.** People may add agenda topics to the agenda asynchronously and synchronously during the meeting. In guiding discussions, ensure that agenda topics discussed are equitable and fair - don't let a single person or subset of the group monopolize the agenda at the expense of others.
-1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices](/handbook/company/culture/all-remote/live-doc-meetings/) to increase cohesion, discipline, and transparency.
+1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices](live-doc-meetings/) to increase cohesion, discipline, and transparency.
 1. **End on time.**
 
 ### What to do after the meeting
@@ -57,7 +57,7 @@ A remote meeting, also known as a virtual meeting, happens when people use video
 
 ## 10 ways to do all-remote meetings right
 
-"How do you do meetings right?" is a common question asked of all-remote companies like GitLab. The following guide assumes you've already questioned whether the meeting should happen in the first place; if you haven't, start with GitLab's [guide to asynchronous workflows and communication](asynchronous/#question-every-meeting).
+"How do you do meetings right?" is a common question asked of all-remote companies like GitLab. The following guide assumes you've already questioned whether the meeting should happen in the first place; if you haven't, start with GitLab's [guide to asynchronous workflows and communication](asynchronous/#when-to-use-asynchronous-instead-of-synchronous-communication).
 
 Much of the same advice for running a good in-person meeting applies to remote meetings, with a few notable distinctions.
 
@@ -69,7 +69,7 @@ Much of the same advice for running a good in-person meeting applies to remote m
 
 ### 1. Make meeting attendance optional
 
-When you work in a global all-remote company, the usual assumptions about availability are opposite the norm. We have a growing team working in over 65 countries, with many time zones covered, which makes synchronous meetings impractical, burdensome, and inefficient. Anyone who has worked in a corporate environment has likely seen the sarcastic "I Survived Another Meeting That Should Have Been An Email" award. As an all-remote company, we [do not look to a meeting by default](asynchronous/#question-every-meeting); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
+When you work in a global all-remote company, the usual assumptions about availability are opposite the norm. We have a growing team working in over 65 countries, with many time zones covered, which makes synchronous meetings impractical, burdensome, and inefficient. Anyone who has worked in a corporate environment has likely seen the sarcastic "I Survived Another Meeting That Should Have Been An Email" award. As an all-remote company, we [do not look to a meeting by default](asynchronous/#when-to-use-asynchronous-instead-of-synchronous-communication); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
 
 In many companies, synchronous meetings are used as a mechanism to create consensus. As you'll read in the [Leadership](/handbook/leadership) portion of GitLab's handbook, we are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end one person decides the matter after they have listened to all the feedback.
 
@@ -155,7 +155,7 @@ You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 A hybrid call is one that has a mix of participants in the same physical room, together with others who are remote. Hybrid calls should be avoided, as it's better to have everyone on a level playing field for communication and discussion.
 
-If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room. This ensures that everyone is on the same playing field in terms of call experience. If possible, it's best to separate briefly for the call and find your own workspace, creating a 100% remote call. This helps avoid audio problems from delays and feedback. Learn more about why hybrid (partially remote) calls are horrible in the [Communication section of GitLab's Handbook](communication#hybrid-calls-are-annoying).
+If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room. This ensures that everyone is on the same playing field in terms of call experience. If possible, it's best to separate briefly for the call and find your own workspace, creating a 100% remote call. This helps avoid audio problems from delays and feedback. Learn more about why hybrid (partially remote) calls are horrible in the [Communication section of GitLab's Handbook](/handbook/communication/#hybrid-calls-are-annoying).
 
 ### 8. Meetings are about the work, not the background
 
@@ -262,7 +262,7 @@ All-remote virtual offsites are cost-effective and enable team members to pivot 
 
 ### How do I run a remote board meeting?
 
-In April 2019, GitLab transitioned our board meetings to all-remote. This means that none of the attendees are colocated. By doing so, we've made it as easy as possible for the right people to attend our board meetings, including board members, observers, executives, and anyone doing a [deep dive](/handbook/board-meetings#deep-dives), which can include directors, managers, and, in some cases, individual contributors.
+In April 2019, GitLab transitioned our board meetings to all-remote. This means that none of the attendees are colocated. By doing so, we've made it as easy as possible for the right people to attend our board meetings, including board members, observers, executives, and anyone doing a deep dive, which can include directors, managers, and, in some cases, individual contributors.
 
 Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/blog/2020/04/15/remote-board-meeting/).
 

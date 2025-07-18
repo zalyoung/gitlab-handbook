@@ -32,7 +32,7 @@ GitLab security awareness training has been developed by [GitLab Security](/hand
   - [Device Lost or Stolen?!](/handbook/security#reporting-an-incident)
     - Slack: the `/security` Slack command
     - Email (Emergencies-ONLY): panic@gitlab.com
-  - [Data Classification](/handbook/security/data-classification-standard/)
+  - [Data Classification](/handbook/security/standards/data-classification-standard/)
   - [No Red Data on Unapproved Locations](/handbook/people-group/acceptable-use-policy/#security-and-proprietary-information)
 
 ### Training Feedback
@@ -74,7 +74,7 @@ There are a few basics to keep in mind. They are as follows:
 
 There are a few fundamental differences when creating training material vs non-security training material.
 
-- Review the [GitLab Data Classification Standard](/handbook/security/data-classification-standard/) so you are aware of what is considered public vs non-public data. [GREEN](/handbook/security/data-classification-standard/#green) data can be publicly shareable, any training content that is not GREEN data should not be included in publicly-accessible training material.
+- Review the [GitLab Data Classification Standard](/handbook/security/standards/data-classification-standard/) so you are aware of what is considered public vs non-public data. [GREEN](/handbook/security/standards/data-classification-standard/#green) data can be publicly shareable, any training content that is not GREEN data should not be included in publicly-accessible training material.
 - New content created from scratch needs to be reviewed by the Security Department to determine what its classification is.
 - Non-public training content would not go into the handbook, but could be included in a private project or runbook.
 

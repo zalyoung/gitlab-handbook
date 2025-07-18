@@ -5,7 +5,7 @@ description: "This policy relates to the rate limits for GitLab.com, for Self-Ma
 
 ## Bypass Policy for GitLab.com
 
-[Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions. Rate limiting bypasses are only considered in exceptional circumstances for customers experiencing a high severity incident, such as a full outage. Even with this requirement satisfied, it is still possible that a bypass request will be rejected. Permanent bypasses are not made.
+[Published rate limits](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom) apply to all customers and users with no exceptions. Rate limiting bypasses are only considered in exceptional circumstances for customers experiencing a high severity incident, such as a full outage. Even with this requirement satisfied, it is still possible that a bypass request will be rejected. Permanent bypasses are not made.
 
 The reason for this strict policy is we want to help every customer as much as possible when they run into problems, but on GitLab.com, we have to prioritize the reliability and stability of the entire instance to protect all customers and users. Allowing even one customer to bypass rate limits creates a high risk situation where we have opened an avenue for a high severity production incident (such as GitLab.com being unavailable to all users) to occur. This is why it is always preferred to find ways to resolve the issue without needing to bypass rate limits.
 
@@ -57,4 +57,4 @@ Before you request a bypass, please ensure you have:
    1. The plan of action the customer and/or Support will be following during this bypass period.
    1. The requested duration of the bypass.
 
-The issue will be triaged by the [Production Engineering::Foundations team](../team/foundations/). A request may result in questions for more information. If a request is deemed valid, the Foundations team will seek approval from **Director+ level** of infrastructure engineering. If approval is given, the Foundations team will work to schedule the bypass.
+The issue will be triaged by the [Production Engineering::Foundations team](../../infrastructure-platforms/production-engineering/foundations/_index.md). A request may result in questions for more information. If a request is deemed valid, the Foundations team will seek approval from **Director+ level** of infrastructure engineering. If approval is given, the Foundations team will work to schedule the bypass.

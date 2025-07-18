@@ -17,7 +17,7 @@ This section of the handbook is a collection of processes that a required to be 
 Documentation on how to make changes to stages, groups, and categories, as well as what approvals are required, can be found in our [website handbook page](/handbook/marketing/digital-experience/).
 
 As GitLab grows we will need to create new groups, stages, and categories. During this transition period
-we need to [globally optimize](/handbook/values/#global-optimization), and ensure that important issues are not blocked during the creation of a new group.
+we need to [globally optimize](/handbook/values/#efficiency-for-the-right-group), and ensure that important issues are not blocked during the creation of a new group.
 
 There are three common scenarios which may encounter these transition periods:
 
@@ -218,7 +218,7 @@ Once the resolution criteria have been satisfied:
 1. Host a retrospective to understand what about the rapid action process could be improved. (Note: there could also be other retros that happen related to more specific sub-efforts of the rapid action, this retro should act as a touch point to ensure collaboration + communication worked.)
 1. Consider making the epic public. If the problem is related to security, ask `@gitlab-com/gl-security/secops` to determine when the epic can be made public.
 1. Communicate the resolution to stakeholders.
-1. Consider awarding [discretionary bonuses](../../incentives/#sts=discretionary%20bonuses) to the people who stepped in to help resolve the problem.
+1. Consider awarding [discretionary bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses) to the people who stepped in to help resolve the problem.
 
 ### Borrow
 

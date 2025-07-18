@@ -88,7 +88,7 @@ Purpose: These SME Pod channels are mainly for SME Program Leads, SME Area Leads
 | CICD/Runner               | #sme-ci-internal        |
 | Metrics & Observability   | #sme-metrics-internal   |
 
-### SME Public Channels
+### SME Public Channels {#sme-channels}
 
 These channels are open to all SMEs, Product Managers (PMs), and all field members. They serve to:
 
@@ -135,50 +135,29 @@ Each SME Area Lead should set up SME Collaboration project (See [AppSec Example)
 | Financial Services Vertical | [Financial Services SME Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/financial-services-sme) |
 | Telecommunications Vertical | [Telecommunications SME PRoject](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/telecommunications-sme)|
 
-### SME Metrics (TBD) {#sme-metrics}
+### SME Metrics {#sme-metrics}
 
 To effectively measure the impact and success of the SME program, we will track the following metrics:
 
 1. Technical Win Rate:
-   * Metric: Percentage of wins in opportunities with SME involvement
+   * Metric: Percentage of wins in opportunities with SME involvement using SA Activity type SA Assistance - Subject Matter
    * Calculation: (Number of won opportunities with SME engagement / Total number of opportunities with SME engagement) * 100
    * Goal: Increase win rate by 10% compared to baseline within 12 months
-2. Product Feedback Loop Effectiveness:
-   * Metric: Number of actionable feedback items provided to and received from product teams
-   * Calculation: Track feedback items submitted by SMEs and product updates based on SME input
-   * Goal: Implement at least 5 product improvements based on SME feedback per quarter
-3. Pipeline Growth:
-   * Metric: Percentage increase in pipeline value for opportunities with SME involvement
-   * Calculation: ((Current quarter pipeline with SME involvement - Previous quarter pipeline with SME involvement) / Previous quarter pipeline with SME involvement) * 100
-   * Goal: 15% quarter-over-quarter growth in pipeline value
-4. Opportunity Stage Progression:
-   * Metric: Percentage of opportunities moving from Stage 2 to Stage 3 and Stage 3 to Stage 4 with SME involvement
-   * Calculation: (Number of opportunities progressing to next stage / Total number of opportunities at current stage) * 100
-   * Goal: 25% improvement in stage progression rate compared to non-SME involved opportunities
-5. SME Engagement Efficiency:
-   * Metric: Average time to SME assignment and initial engagement
-   * Calculation: Sum of (SME assignment date - Request submission date) / Total number of SME requests
-   * Goal: Reduce average time to SME engagement by 20% within 6 months
-6. Customer Satisfaction:
-   * Metric: Net Promoter Score (NPS) for opportunities with SME involvement
-   * Calculation: Standard NPS calculation based on customer surveys
-   * Goal: Achieve and maintain an NPS of 50 or higher for SME-involved opportunities
-7. Knowledge Transfer Effectiveness:
-   * Metric: Number of SME-led training sessions and knowledge base articles created
-   * Calculation: Sum of training sessions conducted and articles published by SMEs
-   * Goal: Minimum of 4 training sessions and 10 knowledge base articles per SME per quarter
-8. Stack Overflow Engagement:
+2. Knowledge Transfer Effectiveness:
+   * Metric: Number of SME-led training sessions, knowledge base articles created and shared, and training session survey results
+   * Calculation: Sum of training sessions conducted, articles published by SMEs, and session survey results average rating
+   * Goal: Minimum of 4 training sessions and 10 knowledge base articles per quarter
+3. Stack Overflow Engagement:
    * Metric: Response rate and quality of SME answers on Stack Overflow
    * Calculation: (Number of SME responses / Total number of relevant questions) * 100; Average upvotes per SME answer
    * Goal: 90% response rate to relevant questions; Average of 5 upvotes per SME answer
 
 Reporting and Analysis:
 
-* Generate monthly reports on these metrics to track progress and identify trends
-* Conduct quarterly reviews to assess SME program effectiveness and make necessary adjustments
-* Use data visualization tools to create dashboards for easy monitoring of key metrics
+* Generate quarterly reports to track progress and identify trends using visualization tools
+* Based on reports and survey data, conduct quarterly reviews to assess SME program effectiveness and make necessary adjustments
 
-By consistently tracking and analyzing these metrics, we can ensure the SME program's continuous improvement and demonstrate its value to the organization.
+By consistently tracking and analyzing these metrics, we can ensure the SME program's continuous improvement and show its value to the organization.
 
 ## New SME Area of Expertise Process
 
@@ -205,7 +184,7 @@ Once a SMEs Ares of Interest becomes a formal SME Programs These are the tasks n
 * Maintain List of SA SME Participants - Confirm List of [SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on)
 * Maintain list of potential SMEs (SME Associates) as a pool for each area
 * Create the necessary SME google groups for calendar purposes
-   1. Open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) with IT to have the Google Group created.
+   1. Open an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) with IT to have the Google Group created.
    2. Use the same naming convention as other SME areas, provide the DRI's as Group Owner and Group Manager. You can clone this [issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/34007) as an example.
    3. Once the Google Group has been created by IT the group owner/manager can navigate to the Google Groups page to add SME's as group members.
 * Set up Stack OverFlow with SMEs to answer questions.

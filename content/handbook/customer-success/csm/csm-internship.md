@@ -51,9 +51,6 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Solutions Architect and CSM overlap](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
    1. [Support team overview](/handbook/support/)
    1. [Professional Services offerings](https://about.gitlab.com/services/)
-1. Learn about Git & GitLab
-   1. [GitLab 101 course](/handbook/people-group/learning-and-development/gitlab-101/)
-   1. [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
    1. [What is Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
    1. [Start using Git on the command line](https://docs.gitlab.com/ee/topics/git/commands.html)
@@ -151,7 +148,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. Present the deck to your mentor, with them acting as the customer
    1. After you finish roleplaying, self-reflect and get feedback from your mentor
    1. If available, shadow your mentor or another CSM as they prepare for and give a kick-off call, including follow ups
-   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/customer-success/csm/account-handoff/))
+   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/handbook/customer-success/csm/account-handoff/))
 
 #### Week 8
 

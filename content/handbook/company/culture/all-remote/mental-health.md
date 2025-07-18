@@ -107,7 +107,7 @@ GitLab hosted John Fitch for 2 Live Speaker Series during the month of May 2021.
 
 ## What are the benefits of remote work for mental health?
 
-There are [many mental health benefits](/handbook/company/culture/all-remote/remote-benefits/#benefits-for-all-remote-employees) to remote work, but some that top the list are:
+There are [many mental health benefits](remote-benefits/#benefits-for-all-remote-employees) to remote work, but some that top the list are:
 
 1. Increased [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
 1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
@@ -191,7 +191,7 @@ GitLab also offers a Slack channel — `#mental_health_aware` — dedicated to s
 
 Creating a non-judgmental culture requires leaders to cultivate [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/) within their teams. This means ensuring that team members feel safe to take healthy risks, openly admit when they make mistakes, and challenge one another in a productive, positive way.
 
-Not only can this affect each individual team member's performance and well-being, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy](/handbook/company/culture/all-remote/being-a-great-remote-manager/#empathy), communication, and intentionality.
+Not only can this affect each individual team member's performance and well-being, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy](being-a-great-remote-manager/#empathy), communication, and intentionality.
 
 Learn more about [how to build a psychologically safe environment](/handbook/leadership/emotional-intelligence/psychological-safety/#strategies-for-cultivating-a-culture-of-psychological-safety).
 
@@ -240,7 +240,7 @@ Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-thi
 1. Remove Slack from your smartphone or at the very least, turn off notifications for it
 1. Keep each other accountable. When you notice someone in a different time zone should be asleep, tell them
 1. Use your Slack status to share a message with the team that you are unavailable
-1. Schedule [random coffee breaks](/handbook/communication/#random-room)
+1. Schedule random coffee breaks
 1. You can use [informal communication](informal-communication/) mechanisms such as virtual trivia sessions, talent shows, scavenger hunts, and global pizza parties/meals to help bond as a team and prevent work-related burnout.
 
 ### The power of being proactive
@@ -277,11 +277,11 @@ If you're invited to a sync meeting that you can [contribute to asynchronously](
 
 > "I'm intentionally limiting my sync sessions in 2021 to [prioritize well-being and family](/handbook/values/#family-and-friends-first-work-second). Thanks for understanding."
 
-This is also something you can discuss live with your manager or team during regular 1:1 or team meetings. Sharing openly about these boundaries builds empathy, trust, and reinforces a [non-judgmental culture](mental-health/#creating-a-non-judgemental-culture).
+This is also something you can discuss live with your manager or team during regular 1:1 or team meetings. Sharing openly about these boundaries builds empathy, trust, and reinforces a [non-judgmental culture](mental-health/#create-a-non-judgemental-culture).
 
 ### Set realistic expectations
 
-Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs](/handbook/company/kpis/) (key performance indicators) are unattainable without compromising company [values](/handbook/company/culture/all-remote/remote-values/), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
+Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs](/handbook/company/kpis/) (key performance indicators) are unattainable without compromising company [values](remote-values/), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
 
 It is foolish to expect a team member to maintain excellent mental health when their workload requires a sustained amount of sacrifice. There is a fine line between collaborating with a team member on an ambitious goal and assigning a task that will be perceived as impossible.
 
@@ -293,7 +293,7 @@ It's also important to understand that not every team members prefers to discuss
 
 ### Sentiment tracking and feedback
 
-Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [internal feedback](/handbook/company/culture/internal-feedback/) until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement. GitLab prefers shorter, but more frequent, check-ins, aligned to our values of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
+Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [ues of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
 
 Ask questions that shed light on whether or not a team member is thriving or struggling, and pay close attention to any adjustable workplace factors that are [contributing](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture/) either positively or negatively.
 

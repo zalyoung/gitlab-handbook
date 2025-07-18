@@ -186,7 +186,7 @@ Other general exceptions: (i.e. exempted from on-call duty)
   - There are countries with laws governing hours that can be worked.
   - This would not be an issue in the U.S.
   - At this point we would only be looking into countries where 1) we have legal entities, as those team members are employees or 2) countries where team members are hired as employees through one of our PEO providers. For everyone else, team members are contracted as independent contractors so general employment law would not apply.
-- Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/engineering/on-call/#engineering-incident-manager).
+- Team members participating in another on-call rotation. 
 
 The eligibility is maintained in this [Development Team BE spreadsheet](#development-team-be-spreadsheet) and part of the spreadsheet is refreshed automatically by our [automation script](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
 
@@ -355,8 +355,8 @@ See the [On-call spreadsheet](#on-call-spreadsheet).
 When responding to an Infrastructure Incident, utilize the below procedure as guidelines to follow to assist both yourself and the members requesting your assistance
 
 1. Respond to the slack page with the `:eyes:` reaction - this signals to the bot that you are looking into the problem
-1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
-1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
+1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#inc-<NUMBER>`
+1. Join the Incident Zoom - this can be found bookmarked in the relevant incident Slack Channel
 1. Work with the EOC to determine if a known code path is problematic
 
 - Should the knowledge of this be in your domain, continue working with the Engineer to troubleshoot the problem
@@ -378,7 +378,7 @@ You can read about the process workflow [here](/handbook/engineering/workflow/#b
 
 ### Shadowing An Incident Triage Session
 
-Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
+Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incidents-dotcom](https://gitlab.slack.com/archives/C08FMPK1DDF) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
 
 ### Replaying Previous Incidents
 
@@ -395,7 +395,7 @@ To get an idea of [what's expected](#expectation) of an on-call engineer and how
 1. [Scalability documentation](https://gitlab.com/gitlab-org/gitlab/merge_requests/18976).
 1. [Use Grafana and Kibana to look at PostgreSQL data to find the root cause](https://youtu.be/XxXhCsuXWFQ).
    - Related incident: [Postgres transactions timing out; sidekiq queues below apdex score; and overdue pull mirror jobs](https://gitlab.com/gitlab-com/gl-infra/production/issues/1433).
-1. [Ues Grafana, Thanos, and Prometheus to troubleshoot API slowdown](https://www.youtube.com/watch?v=DtP4ZcuXT_8).
+1. [Ues Grafana and Prometheus to troubleshoot API slowdown](https://www.youtube.com/watch?v=DtP4ZcuXT_8).
    - Related incident: [2019-11-27 Increased latency on API fleet](https://gitlab.com/gitlab-com/gl-infra/production/issues/1419).
 1. [Let's make 500s  more fun](https://youtu.be/6ERO4XsYDn0?list=PL05JrBw4t0KodGBz0XUYdYaAYyYs-6ZK7)
 

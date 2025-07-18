@@ -8,7 +8,6 @@ description: The Corporate Security department provides configuration management
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("System Owners") that handle day-to-day management of the tech stack applications that are specific to that department or functional group, within the framework of organization-wide compliance, infrastructure, and security best practices. Each [tech stack application](/handbook/business-technology/tech-stack-applications/) at GitLab has a System Owner that is the DRI for handling the implementation and day-to-day operational support for the team members that utilize that application (in their department or functional group). This has an added benefit of preventing the traditional IT department from being a bottleneck and allows each department to self-service as part of GitLab's [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group) subvalue.
 
 - [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
-- [Customer Support Operations](/handbook/support/readiness/operations/)
 - [(Business Intelligence) Data Team](/handbook/enterprise-data/)
 - [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
@@ -20,7 +19,7 @@ As GitLab has grown organically, several departments and functional groups have 
 
 ## CorpSec Systems Directory
 
-The Corporate Security department provides configuration management [engineering](/handbook/security/corporate/services/engineering) and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
+The Corporate Security department provides configuration management engineering and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
 
 <table>
 <thead>
@@ -334,7 +333,7 @@ The Corporate Security department provides configuration management [engineering
 <!-- Drive Strike -->
 <tr>
 <td>
-<a href="/handbook/security/corporate/systems/drivestrike">DriveStrike</a></td>
+<a href="https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/">DriveStrike</a></td>
 <td><i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=drivestrike_default">Engineering Issue</a></td>
 <td>
 <a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?label_name%5B%5D=corpsys-drivestrike">Issues</a>
@@ -516,8 +515,8 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/com">Google Cloud Platform (com)<br><code>gitlab.com</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/com/projects">Create Project for Service/Workload</a><br>
-<i class="fas fa-users mr-2"></i><a href="/handbook/security/corporate/systems/gcp/com/users">User and Role Management</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/com/projects">Create Project for Service/Workload</a><br>
+<i class="fas fa-users mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/com/users">User and Role Management</a><br>
 <i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=gcp_com_default">Open an Access Request</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_com_default">Engineering Issue</a>
 </td>
@@ -545,7 +544,7 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/sandbox">Google Cloud Platform (sandbox)<br><code>gitlabsandbox.cloud</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/sandbox/projects">Create My GCP Project</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/sandbox/projects">Create My GCP Project</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_sandbox_default">Engineering Issue</a>
 </td>
 <td>
@@ -643,7 +642,7 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/dedicated-dev">Google Cloud Platform (dedicated-dev)<br><code>gitlab-private.org</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/dedicated-dev/projects">Create My GCP Project</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/dedicated-dev/projects">Create My GCP Project</a><br>
 <i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=gcp_dedicated_dev_default">Open an Access Request</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_dedicated_dev_default">Engineering Issue</a>
 </td>
@@ -864,29 +863,29 @@ The Corporate Security department provides configuration management [engineering
 </td>
 <td>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=macos_default">Engineering Issue</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/onboarding">Onboarding Hardware Ordering Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/refresh">Refresh/Replace Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/">Onboarding Hardware Ordering Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-ordering/#laptop-refreshes">Refresh/Replace Guide</a><br>
 <i class="fas fa-book mr-2"></i><a href="handbook/security/corporate/services/laptops">Repair Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/wipe">Wipe (Factory Reset) Guide</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe/">Wipe (Factory Reset) Guide</a><br>
 <br>
 <i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/systems/macos/setup">Apple macOS Setup Guide</a><br>
 <i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/support/onboarding">Onboarding Software Setup Guide</a><br>
-<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security">Security Configuration Standards</a><br>
+<i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security">Security Configuration Standards</a><br>
 <ul>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/appleid">Apple ID for Work</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/backups">Backups</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/encryption">Disk Encryption</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/firewall">Firewall</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/names">Hostnames and Usernames</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/icloud">iCloud Drive</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/unattended">Locking When Unattended</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/passwords">Password Management</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/personal">Personal Use</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/management">Remote Management (MDM and EDR)</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/updates">Software Updates</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/touchid">Touch ID (Biometric Passwords and 2FA)</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/browsers)">Web Browsers</a></li>
-<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/services/laptops/security/networks)">Wireless Networks and VPN</a><br>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/appleid">Apple ID for Work</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/backups">Backups</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/encryption">Disk Encryption</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/firewall">Firewall</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="https://internal.gitlab.com/handbook/security/corporate/tooling/jamf/endpoint_naming_convention/">Hostnames and Usernames (Internal)</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/icloud">iCloud Drive</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/unattended">Locking When Unattended</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/passwords">Password Management</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/personal/">Personal Use</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/management">Remote Management (MDM and EDR)</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/updates/">Software Updates</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/touchid/">Touch ID (Biometric Passwords and 2FA)</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/browsers/)">Web Browsers</a></li>
+<li><i class="fas fa-book mr-2"></i><a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/networks)">Wireless Networks and VPN</a><br>
 </ul>
 </td>
 <td>

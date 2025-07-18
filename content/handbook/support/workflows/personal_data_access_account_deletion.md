@@ -6,7 +6,7 @@ description: "Description of duties and scope for Account Deletion and Data Acce
 controlled_document: true
 ---
 
-## Overview
+## Purpose
 
 This document provides an overview of what account deletion and data access requests are and who is responsible for processing the different aspects of each request. To learn how to process each type of request as a Support Engineer, refer to the [workflows page](/handbook/support/workflows/account_deletion_access_request_workflows).
 

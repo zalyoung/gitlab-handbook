@@ -21,13 +21,13 @@ Product Design Manager pairs give PDMs a regular touchpoint with their peers and
 
 ### Schedule
 
-This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
+This is the rotation schedule for FY26-Q2 and Q3 (2025-05-01 until 2025-10-31).
 
 <!-- TIP: To update the table below, create the schedule in a temporary spreadsheet, and then copy/paste the rows into an online markdown generator (https://www.google.com/search?q=copy-table-in-excel-and-paste-as-a-markdown-table) -->
 
 | Product Design Manager | Product Design Manager |
 |------------------------|------------------------|
-| Jacki Bauer            | Paul Wright            |
-| Emily Sybrant          | Chris Micek            |
-| Justin Mandell         | Caitlin Steele         |
-| Taurie Davis           | Rayana Verissimo       |
+| Jacki Bauer            | Gina Doyle             |
+| Emily Sybrant          | TBD        |
+| Justin Mandell         | Chris Micek            |
+| Paul Wright            | Rayana Verissimo       |

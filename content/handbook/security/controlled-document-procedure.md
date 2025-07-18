@@ -55,11 +55,11 @@ At minimum, controlled documents should cover the following key topic areas:
 
 Creation of, or changes to, controlled documents must be approved by management or a formally designated representative of the owning department as defined in the Code Owners file prior to publishing.
 
-Most controlled documents will be published to our public facing [handbook](/). However, if there is [non public data](/handbook/security/data-classification-standard/) included in the controlled document, it should be published via an *internal facing only* mechanism (e.g. an internal GitLab project or an internal only handbook page). Controlled documents should be accessible to all internal team members.
+Most controlled documents will be published to our public facing [handbook](/). However, if there is [non public data](/handbook/security/standards/data-classification-standard/) included in the controlled document, it should be published via an *internal facing only* mechanism (e.g. an internal GitLab project or an internal only handbook page). Controlled documents should be accessible to all internal team members.
 
 #### Handbook header
 
-Controlled documents require a [handbook frontmatter attribute for controlled documents](/docs/frontmatter/) to classify them. This attribute also renders a warning header.
+Controlled documents require a [handbook frontmatter attribute for controlled documents](http://handbook.gitlab.com/docs/frontmatter/) to classify them. This attribute also renders a warning header.
 
 ### Review
 
@@ -104,5 +104,5 @@ Once an exception request is submitted, the following general flow will commence
 ## References
 
 - [GCF Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Data Classifiation Standard](/handbook/security/data-classification-standard/)
+- [Data Classifiation Standard](/handbook/security/standards/data-classification-standard/)
 - [Controlled Documents Work Instruction](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/controlled-documents-program/-/blob/main/runbooks/controlled_document_annual_review_work_instruction.md)

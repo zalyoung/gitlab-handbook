@@ -125,10 +125,14 @@ The Senior Commercial Account Executive- Named is a [grade 7](/handbook/total-re
 - Attainment repeatedly in top 10% of segment
 - Self-starter who is a manager of one when it comes to Key Account Plan execution along with Quarterly and Annual KPIs set by Leadership
 
+## Verticals 
+
+GitLab has organized a cross functional Financial Services field organization to support our AMER Financial Services clients. This organization is designed around the Financial Services industry which includes Banking, Payments, Insurance and Capital Markets consisting of Exchanges and Broker / Investment organizations. GitLab has a successful track record within the Financial Services industry including large deployments at many large financial institutions. All functions necessary to support the Financial Industry are organized including: field sales, solutions architects, customer success technical teams, consulting, inside sales, as well as field marketing. The AMER Financial Services team is led by field leaders located in New York City along with additional team members located throughout the United States.
+
 ## Performance Indicators
 
 As with all roles in the Sales Department the Strategic Account Executive participates in the [Sales KPIs](/handbook/company/kpis/#sales-kpis).
 
 ## Career Ladder
 
-The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) job family.
+The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Director, Regional Sales](/job-families/sales/regional-sales-director/) job family.

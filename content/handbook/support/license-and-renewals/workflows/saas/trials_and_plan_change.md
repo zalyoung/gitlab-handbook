@@ -44,16 +44,15 @@ Sales will often request through a Zendesk Ticket that we extend the duration of
 
 If any fields when opening the ticket were filled out incorrectly,  send a public reply in the ticket asking the submitter to supply the missing information.
 
-> **NOTE**: Due to [customers #973](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/973) and [customers #1643](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1643), these must be done via [mechanizer](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/) or [CustomersDot console](/handbook/support/license-and-renewals/workflows/customersdot/customer_console/). Once those issues are resolved, these requests should be done via CustomersDot admin.
-
 1. Take ownership of the ZD ticket.
 1. Check over the request and ensure that we've been provided enough information to action the request. To do this check that:
    1. The `Namespace:` field contains a valid GitLab namespace and it that holds the trial plan (active or expired). This should not be a Salesforce link or email address.
    1. The `Extend the date to:` field contains a future date. (Trial expires around 23:59 UTC on this date)
    1. The `Trial license plan:` field is filled out
-1. Use the [Manage GitLab Plan and Trials](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#manage-gitlabcom-plan-and-trials) to process the request.
-   1. This should create a new internal request issue documenting the change action. Reference this new issue to the ZD Ticket where the extension was requested.
-   1. If there is an error while taking action, check the internal issue to see what went wrong. Please also locate the [error in sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/) (see [Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry) if needed) and file an issue, or comment on an existing one.
+   1. The `I acknowledge that approval for this extension has been granted..` checkbox has been checked and the requestor has also provided the required proof that a Manager or Director has approved the extension request. If the submitter has not provided the necessary proof then use the macro `Deviation from GitLab.com Subscription Extension Workflow` and subsequently close the ticket.
+   1. Compliance with the approval requirement is mandatory. If the requester disputes the need for or validity of the approval, escalate by CC’ing the Support Manager on call in the ticket so they can review and determine the best path forward.
+1. Use the [`Trial changes (SaaS)` in the CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#update) to process the request.
+   1. If there is an error while taking action, check the [GCP Logs Explorer dashboard](https://console.cloud.google.com/logs/query?project=gitlab-subscriptions-prod) to see what went wrong. Please also locate the [error in sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/) (see [Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry) if needed) and file an issue, or comment on an existing one.
 1. If namespace needs to be adjusted manually, then raise a new internal issue with details and  `~Console Escalation::Customers` label.
 
 If a customer is requesting a trial extension, please follow [Working with Sales workflow](/handbook/support/license-and-renewals/workflows/working_with_sales/) to let Sales team know in case they would like to have a discussion with the customer.
@@ -80,7 +79,7 @@ When a customer requests a subscription extension, follow the steps below based 
         - Inform the customer that such requests have to be channeled through sales and provide them with their AE's email address before closing the ticket.
         - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
     **SMB Customers:**
-        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](/handbook/sales/commercial/high_velocity_sales_first_orders/#working-with-the-global-digital-smb-account-team) handbook page.
         - Provide the Salesforce (SFDC) ticket ID to the customer.
         - Close the ticket.
 
@@ -105,8 +104,9 @@ Please note that the above approach has the following caveats:
    macro in Zendesk for this purpose. Be sure to assign the ticket to
    yourself so that you will receive the customer's response and be
    able to take action quickly.
-1. This is done via the Mechanizer tool through
-   [Manage GitLab Plan and Trials](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#manage-gitlabcom-plan-and-trials).
+1. This is done via the CustomersDot Support Admin Tools through
+   [`Trial changes (SaaS)`](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#update).
+1. If processing a request from the Internal Request form named `Extend an (almost) expired subscription` then ensure that the `I acknowledge that approval for this extension has been granted..` checkbox has been checked and the requestor has also provided the required proof that a Manager or Director has approved the extension request. If the submitter has not provided the necessary proof then use the macro `Deviation from GitLab.com Subscription Extension Workflow` and subsequently close the ticket.
 
 **Note**: We cannot extend the trial if the customer hasn't started one on the namespace. The Subscription name field in the ZenDesk Mechanizer app is there for that reason. When there's a Subscription name, the mechanizer will create a new trial for the namespace.
 
@@ -139,7 +139,7 @@ Plan changes should **never** be done manually except in the following cases:
 
 Plan changes on a paid non-trial namespace should be done through a subscription purchase.
 
-If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/issue-tracker-workflows/) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
+If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/#how-to-reach-us) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
 
 ### Downgrading to a free plan
 

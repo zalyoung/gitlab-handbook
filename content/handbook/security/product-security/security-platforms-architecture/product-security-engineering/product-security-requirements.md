@@ -58,7 +58,7 @@ When a Product Security team identifies a need that is not satisfied by the curr
 
 - The Product Security Engineering team will implement the requirements as part of their regular workflow, observing established GitLab contribution standards
 - If the feature or functionality is determined to be exclusively for use of the GitLab Product Security team, it will be put behind a feature flag explicitly for this purpose
-  - The standard [feature flag process and requirements](/handbook/product-development-flow/feature-flag-lifecycle/) will be followed
+  - The standard [feature flag process and requirements](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/) will be followed
 - The Product Security Engineering team will own, maintain, and support the feature or functionality depending on the need for a Product Security specific feature flag or other decisions made during planning
 
 ### Ownership, Maintenance, and Transition

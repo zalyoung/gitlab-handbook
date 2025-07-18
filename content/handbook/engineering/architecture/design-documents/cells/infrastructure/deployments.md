@@ -9,7 +9,7 @@ approvers: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 Disclaimer: This blueprint requires more cross-functional alignment - **Confidence Level:** Low
 
@@ -530,7 +530,7 @@ No. Our current labeling schema is primarily to showcase that the commit landed 
 **A P1/S1 issue exists, how do we mitigate this on Cells?**
 
 Cells are still a part of .com, thus our existing
-[bug](../../../infrastructure/engineering-productivity/issue-triage/#severity-slos)
+[bug](/handbook/product-development/how-we-work/issue-triage/#severity-slos)
 and [vulnerability](../../../../security/threat-management/vulnerability-management/#remediation-slas)
 SLA's for remediation apply. We can deploy whatever we want to Cells
 so long as it's considered `graduated`. If a high priority issue comes about, we

@@ -4,7 +4,7 @@ description: "This page contains links to internal and external resources that P
 
 ---
 
-{{% include "includes/product-handbook-links.md" %}}
+{{% include "includes/product/product-handbook-links.md" %}}
 
 Welcome to Learning and Development for Product Management at GitLab! This page serves as the content library that feeds [the Product Management Learning Hub in Level Up](https://levelup.gitlab.com/pages/product-management-hub). You are welcome to explore content here but if you prefer a more modular, personalizable, and trackable portal, please visit Level Up.
 
@@ -12,7 +12,7 @@ The resources in the Product L & D Hub are meant to support product managers to 
 
 Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/expenses/#work-related-online-courses-and-professional-development-certifications).
 
-Over time, we will add content to directly support GitLab's product management [competencies](/handbook/product/product-management/product-cdf-competencies/), [CDF](/handbook/product/product-management/product-cdf-competencies/) and [product development flow](/handbook/product-development-flow/). We understand that the evolving product management space requires continuous learning, and GitLab is committed to providing the time needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
+Over time, we will add content to directly support GitLab's product management [competencies](/handbook/product/product-management/product-cdf-competencies/), [CDF](/handbook/product/product-management/product-cdf-competencies/) and [product development flow](/handbook/product-development/how-we-work/product-development-flow/). We understand that the evolving product management space requires continuous learning, and GitLab is committed to providing the time needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
 
 ## Recommended books and talks for all GitLab product managers
 
@@ -441,7 +441,7 @@ _Please contribute your favorite resources here_
 - [John Doerr: Why the secret to success is setting the right goals](https://www.youtube.com/watch?v=L4N1q4RNi9I) (5 min video)
 - [David Skok: SaaS Metrics 2.0 – A Guide to Measuring and Improving what Matters](https://www.forentrepreneurs.com/saas-metrics-2/)
 - [Benefits of OKRs](https://www.whatmatters.com/faqs/benefits-of-okrs)
-- [GitLab - How to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs)
+- [GitLab - How to write OKRs](/handbook/company/okrs/okrs-basics/#how-to-write-okrs)
 - [Ally for OKRs - Overview for Product](https://www.youtube.com/watch?v=hP9yk_PSj2k&feature=youtu.be) (10 min video)
 
 #### Deeper dive

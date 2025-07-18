@@ -25,7 +25,7 @@ video.
 
 ## GitLab User Lookup app in Zendesk
 
-From the Zendesk [GitLab User Lookup application](/handbook/support/readiness/operations/docs/zendesk/apps#gitlab-user-lookup) you have access to the requester details in SFDC and GitLab.com.
+From the Zendesk [GitLab User Lookup application](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-super-app) you have access to the requester details in SFDC and GitLab.com.
 
 ## Within customers.gitlab.com
 

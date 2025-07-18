@@ -142,7 +142,7 @@ Performance against Job Family responsibilities, requirements, performance indic
   - Example: [Software Engineer in Test](/job-families/engineering/software-engineer-in-test#performance-indicators)
 - *(if applicable)* [Functional Competencies](/handbook/people-group/competencies/#functional-competencies)
 
-For management roles, please also review and consider the [levels](/handbook/company/structure/#levels) outlined in the Organizational Structure.
+For management roles, please also review and consider the [levels](/handbook/company/structure/#layers) outlined in the Organizational Structure.
 
 #### GitLab Competencies
 
@@ -355,19 +355,23 @@ After the calibration sessions the performance and growth potential outcomes can
 
 ### Timeline
 
-Below is the high level timeline for the formal assessment beginning in Q4 FY25 (January). Different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) if you have any questions.
+Detailed dates for FY26 are pending and process is subject to modification. In general the timeframe runs from January through March with ACR (compensation statement) release in April and compensation changes and promos effective beginning of May.
 
-- **2025-01-27:** Kick off Optional Self-Evaluation cycle for all Team Members
-- **2025-02-07:** Due date for all Self-Evaluations
-- **2025-02-10:** Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
-- **2025-02-28:** 5:00pm PST Workday Calibration will be locked
-- **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
-- **2025-03-10:** Annual Compensation Review Kicks off for Managers
-- **2025-03-17:** Due date for all Manager evaluations. Talent Assessment in Workday is locked.
-- **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
-- **2025-04-17 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
-- **TBD:** Talent Assessments pending in Workday will be auto advanced to team members*
-- **2025-05-01:** Annual Compensation Review effective date
+Note that different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) if you have any questions.
+
+Below are the current activities for the formal assessment beginning in Q4 (January)
+
+- Kick off Optional Self-Evaluation cycle for all Team Members
+- Due date for all Self-Evaluations
+- Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
+- 5:00pm PST Workday Calibration will be locked
+- Kick off the Manager Evaluation cycle in Workday
+- Annual Compensation Review Kicks off for Managers
+- Due date for all Manager evaluations. Talent Assessment in Workday is locked.
+- Total Rewards and final E-Group review and approval
+- Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
+- Talent Assessments pending in Workday will be auto advanced to team members*
+- Annual Compensation Review effective date
 
 *Team members who are on Leave of Absence (LOA) on TBD are excluded from the auto advancement of their talent assessment until they return to work.
 
@@ -406,11 +410,11 @@ Aligned with the [timeline](#timeline), managers can see final assessments for e
 
 ## Promotions or Transfers During Assessment Cycle
 
-The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Please note, that a "transfer" constitutes as a change to one or multiple of the following things: job family, department, division, or job grade. A change in job title specialty and manager alone would not constitute as a transfer. 
+The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Please note, that a "transfer" constitutes as a change to one or multiple of the following things: job family, department, division, or job grade. A change in job title specialty and manager alone would not constitute as a transfer.
 
 Guidelines are as follows:
 
-1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** For example, if a Senior Manager is promoted to Director on 2024-11-02, they would be assessed as `Too New to Rate` for the Talent Assessment cycle. 
+1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** For example, if a Senior Manager is promoted to Director on 2024-11-02, they would be assessed as `Too New to Rate` for the Talent Assessment cycle.
 1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.** For example, if a Senior Manager is promoted to Director on 2024-09-15, they would be assessed based on the new Director-level role for the Talent Assessment cycle.
 1. **Exception for FY25 Talent Assessment Cycle**: Due to the transition of our promotion cycles, team members who receive a promotion effective in the FY26 Q1 (Feb 1) cycle, will receive a talent assessment rating that is reflective of their full FY25 performance, and not be classed as TNTR for this talent assessment cycle. For example, if a Senior Manager is promoted to Director effective 2025-02-01, their Talent Assessment should reflect their Senior Manager level to ensure we are capturing a full year of Performance and Growth Potential feedback.
 
@@ -424,7 +428,7 @@ While a recent promotion resets the performance factor evaluation, and a job tra
 
 In most companies the Performance/Growth Potential Matrix is used exclusively as a management tool and results are not typically shared with team members. In the spirit of our transparency value, we want to encourage feedback with team members. **Discussion topics that arise during calibration sessions (or at any other point during the assessment process) are confidential. Please do not share with anyone other than each individual team member.**
 
-After calibration sessions are done and performance and growth potential factors are determined, it's time to communicate the final results with team members. **Communications can begin after you have been notified that final talent assessment factors have been approved by the E-group**. The conversation following the talent assessment process is the most important part; it is a great way to drive alignment with your team members and set them up for success moving forward.  Below are  some of the best practices for communications, but remember, if you are ever in doubt please reach out to your manager or [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) for additional support.
+After calibration sessions are done and performance and growth potential factors are determined, it's time to communicate the final results with team members. **Please follow the Talent Assessment timeline and communicate performance and growth potential ratings to team members in your performance review conversations within the communication window**. The conversation following the talent assessment process is the most important part; it is a great way to drive alignment with your team members and set them up for success moving forward.  Below are  some of the best practices for communications, but remember, if you are ever in doubt please reach out to your manager or [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) for additional support.
 
 1. **Communicate performance and growth potential factors face-to-face over Zoom**. As a manager, this is the opportunity for you to have a conversation with your team member about their performance and growth potential. Having the conversation over Zoom allows for you to have a dialogue with your team member (versus just sharing their performance and growth potential factor asynchronously) and allows you to pick up other information, like tone and non-verbal cues which can tell you more about how someone is feeling during this conversation. You may also choose to share the PDF of the review prior to the conversation so that your team member has time to process the information. If so, ideally share just 1-2 days prior to the conversation so you are able to address questions promptly.
 1. **Prepare for the discussion ahead of time.** As a manager, you should prepare in advance of calibration discussions with your team members. Before communicating a team member's [performance and growth potential factors](/handbook/total-rewards/compensation/compensation-review-cycle/review-cycle-inputs), it's beneficial to look back through your preparation document, notes, and anything relevant that was discussed as part of the calibration exercise. Be prepared with notes on the following:
@@ -571,11 +575,11 @@ Any of these factors can influence a team member's performance. Be prepared with
 
 You may be able to gather insights from your manager or cross functional stakeholders who have worked closely with the team member in the performance period. You may have access to the recent 360 feedback for each of your team members, as well as their talent assessment from last year to help inform your thinking. If you haven't already, it's important to ask the team member to share their own perspective on their accomplishments prior to you taking the role, so you are well prepared for the discussion of your assessment.
 
-**A team member recently moved to be my direct report, however for the majority of the performance year, they reported to another manager. Are there options to delegate or re-assign the manager evaluation to their previous manager?** 
+**A team member recently moved to be my direct report, however for the majority of the performance year, they reported to another manager. Are there options to delegate or re-assign the manager evaluation to their previous manager?**
 
 As a manager, you can delegate the manager evaluation to another manager in your direct management chain. If your team member moved from another manager in another organization, you should collaborate with the previous manager to write the review with their input. The previous manager can leverage the Talent Assessment [google template](https://docs.google.com/document/d/1bdGDq85nY3uLRFLrmKV5RDyQpGkPmnvGAI1pN_RRNto/edit) to capture their feedback and provide it back to you so that you can enter it into Workday. As the new manager, you will be responsible for the calibration of team members in your management chain at the time of calibration. You should also ensure your communication of the final talent assessment is done in a joint conversation with the previous manager, you as the new manager and your team member.
 
-This would be a great opportunity to ensure a formal transition and knowledge of performance and feedback takes place between previous manager and new manager. Please enter a HelpLab request if you have any questions about your specific scenario. 
+This would be a great opportunity to ensure a formal transition and knowledge of performance and feedback takes place between previous manager and new manager. Please enter a HelpLab request if you have any questions about your specific scenario.
 
 **My team member does not agree with their placement in performance and growth potential. How should I approach this?**
 
@@ -673,15 +677,12 @@ Recommended process for our Mid Year check-in will be as follows:
 
 ### Timeline
 
-Mid-Year Check In launch:
+Mid-Year Check-In Timeline (FY2026):
 
-- TBD
-
-Mid-Year Check In end:
-
-- TBD
-
-We have intentionally provided a longer timeline to ensure different business group priorities are accommodated.
+- 2025-06-16 – 2025-06-30: Manager & Team Member preparation & 360 feedback gathering (optional)
+- w/c 2025-06-30 & 2025-07-07: People Manager Enablement Sessions
+- 2025-07-01 – 2025-07-18: Mid-year conversations conducted & documented
+- 2025-07-21 – 2025-07-25:Follow-up on development & performance goals
 
 ## Succession Planning
 
@@ -702,7 +703,7 @@ Questions we should ask ourselves when thinking about succession planning (and t
 
 The succession planning process might vary slightly for different areas of the business depending on size and structure, but at a high level the process should flow as follows:
 
-1. **Leaders go through the [Performance/Growth Potential Assessment](//handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix) process for all of their direct reports.** Ideally, this process includes [calibration](/handbook/people-group/talent-assessment) to generate a level of initial familiarity amongst leadership peers with the talent in the organization.
+1. **Leaders go through the [Performance/Growth Potential Assessment](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix) process for all of their direct reports.** Ideally, this process includes [calibration](/handbook/people-group/talent-assessment) to generate a level of initial familiarity amongst leadership peers with the talent in the organization.
 1. **Leaders identify and document their respective successors** (and emergency coverage plans if the identified successor could not currently cover in an emergency situation) leveraging [this template](https://docs.google.com/presentation/d/1w-ODnm-S_sV7TAEDqfU6kUpZqr7-cDIFwAlPZI10HzU/edit#slide=id.p).
 1. **Succession plans are reviewed with peers** (i.e. all other executives, all other senior leaders in the function, etc.) and your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments), ideally during a synchronous session to facilitate discussion and questions.
 1. **Development plans are finalized** for successors and documented in the successor slide.
@@ -765,7 +766,7 @@ We exclude team members rated "TNTR" when we calculate our Key Talent distributi
 Below are a few examples to help managers think through Key Talent designations as they relate to Performance and Growth Potential:
 
 1. A team member that has a performance assessment of "Exceeding" is not automatically indentified as Key Talent. Perhaps they are doing exceptionally well in their role, but the impact on business performance may not be significant enough to meet the definition above.
-1. A team member that is new to the role due to recent promotion and rated "TNTR" could be identified as Key Talent if they are ramping successfully in their role and have a high impact on the ability for the company to achieve results. 
+1. A team member that is new to the role due to recent promotion and rated "TNTR" could be identified as Key Talent if they are ramping successfully in their role and have a high impact on the ability for the company to achieve results.
 
 *Note: Intentionally hoarding knowledge is in direct conflict with our [transparency value](/handbook/values/#transparency) and is viewed as a performance issue as we measure performance based on alignment with our values.*
 
@@ -813,7 +814,7 @@ We want to make sure we use engagement tools to retain Key Talent. A few of our 
 - **Learning & Development:** We want to support the growth of Key Talent and their competencies, skills, and knowledge by providing them with the tools they need and the opportunities to progress their own personal and professional development goals. As a people manager it's your priority to identify [L&D opportunities](/handbook/people-group/learning-and-development) for your team.
 - **Growth Opportunities:** As a people manager, it's important to have career conversations and identify growth opportunities with your team members. For Key Talent, it's especially important to discuss their motivation and ambitions. Growth opportunities can be both horizontal and vertical. Examples of growth opportunities are: expanding the scope within a team member's current role, a lateral move to a new role, or a promotion to the next level.
 - **Compensation:** At GitLab, compensation = cash + equity + benefits. We have a [market-based approach](/handbook/total-rewards/compensation/#market-based-approach) and differentiate pay based on performance. Our Annual Compensation Review Cycle and Annual Equity Refresh program allow us to differentiate compensation based on performance and for Key Talent.
-- **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to mitigate risk in the organization. 
+- **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to mitigate risk in the organization.
 
 **Note that being considered or designated as a key talent one year, does not mean or guarantee that a team member will be considered or designated as a key talent moving forward.**
 

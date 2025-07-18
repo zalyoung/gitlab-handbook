@@ -22,7 +22,7 @@ the backend team, plus any people from frontend, UX, and PM who have worked with
 that team during the release being retrospected.
 
 These are confidential during the initial discussion, then made public in time
-for each month's [GitLab retrospective](/handbook/engineering/workflow/#retrospective).
+for each month's [GitLab retrospective](/handbook/engineering/management/group-retrospectives/).
 For more information, see [team retrospectives](/handbook/engineering/management/group-retrospectives/).
 
 {{- if .Get "use-coordinator" }}

@@ -236,6 +236,18 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 **Expense Type / Navan Policy Category:** Traveling: meals for myself
 {{% /panel %}}
 
+### Traveling: Team Events and Meals
+
+- To be used for team activities and food/beverages.
+- Each Team Member must submit their own receipts for reimbursement, so ensure to separate billing when going to meals with groups of Team Members. If this is not practicable to do due to the group size, then the most senior Team Member present should pay the bill and submit for reimbursement.
+- $80 limit per person per meal.
+- Tips are acceptable up to 20% and should be detailed accordingly in the description box. This should be included in the final price to stay within the Policy limits. For US team members, cash tips under $50 do not need a receipt.
+- Please also add a description for the trip/reason for travel.
+
+{{% panel header="**Coding**" header-bg="green" %}}
+**Expense Type / Navan Policy Category:** Traveling: Team Events and meals
+{{% /panel %}}
+
 ### Mileage
 
 - Based on Mileage driven and calculated by Navan. Team Members are prompted by Navan to enter their start and end locations.
@@ -406,7 +418,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Member Significant Life Events and Team Member Gifts
 
 - Cash or cash equivalents, such as gift cards, are not allowed; Qualified gifts are capped at $125 per transaction.
-- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a gift.
+- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a [gift](/handbook/people-group/celebrations/#new-parent-swag).
 - Any People Manager can send a gift or flowers to any Team Member at GitLab to let them know they are thinking about them. Examples include:
   - A new Team Member recently purchased a new home and shared their news with others. A People Manager sends a "Home Sweet Home" doormat as a congratulatory gift.
   - While working a People Manager noticed a Team Member's children in the background of a Zoom call and surprised the kids with a new game.
@@ -445,7 +457,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Laptops, insurance and repairs
 
 - All laptops are purchased through GitLab unless a Team Member is in a region where GitLab cannot deliver a laptop.
-- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/it/end-user-services/onboarding-access-requests/) for your reference.
+- Team Member laptops can be refreshed after three years of employment. If a Team Member needs a replacement laptop due to damage, they must reach out to IT via an issue before purchasing a new one. See [Laptop handbook page](/handbook/security/corporate/end-user-services/access-requests/) for your reference.
 
 #### Repairs to company issued equipment
 
@@ -625,9 +637,9 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
-**Global Upside, Remote.com and Papaya Global**
+**PEO Locations**
 
-- The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
+- The list of locations under a PEO can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 

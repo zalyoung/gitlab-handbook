@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -24,7 +24,7 @@ The tool will be deployed in GitLab infrastructure:
 
 1. The application code is hosted through a [GitLab repository](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration) under [Localization group](https://gitlab.com/gitlab-com/localization), and builts the image file using GitLab's [CI/CD pipeline](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/blob/main/.gitlab-ci.yml?ref_type=heads)
 2. The relevant database is hosted through [Google Cloud](https://console.cloud.google.com/welcome?hl=en&project=mktg-argo-transl-svc-ee3361e7),
-3. And deployed using [Runway](https://docs.runway.gitlab.com/) and [connects to the GCP CloudSQL instance using PSC (Private Service Connect) and Cloud SQL Auth Proxy](https://docs.runway.gitlab.com/unmanaged_services/cloudsql/). 
+3. And deployed using [Runway](https://docs.runway.gitlab.com/) and [connects to the GCP CloudSQL instance using PSC (Private Service Connect) and Cloud SQL Auth Proxy](https://docs.runway.gitlab.com/unmanaged_services/cloudsql/).
 
 ## Motivation
 
@@ -137,7 +137,7 @@ Note: Any data stored in the database in *Phase 1* (see below) will be deleted f
 
 ## Design and implementation details
 
-[Spartan Software, Inc. (“Spartan”)](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/41 "Argo as a Request Management System FY25") has helped us building a Java application that act as the intermediary tool to communicate with the Request Management System - [Argo](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25"). 
+[Spartan Software, Inc. (“Spartan”)](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/41 "Argo as a Request Management System FY25") has helped us building a Java application that act as the intermediary tool to communicate with the Request Management System - [Argo](https://gitlab.com/groups/gitlab-com/localization/-/epics/35 "Argo as a Request Management System FY25").
 
 **In summary, here's what the tool does**:
 
@@ -165,7 +165,7 @@ As we've noted earlier, [separate GitLab account](https://gitlab.com/gitlab-com/
 
 **How do we authenticate the [user](https://gitlab.com/gitlab-argo-bot)?**
 
-For the **GitLab's** webhooks, we use access tokens for this [user](https://gitlab.com/gitlab-argo-bot) to authenticate. 
+For the **GitLab's** webhooks, we use access tokens for this [user](https://gitlab.com/gitlab-argo-bot) to authenticate.
 
 For **Argo**, the integration is protected by hosting them on the same instance or within a firewall, thereby preventing outside access. In addition to this there's currently work-in-progress of implementing authentication Argo<->GitLab integrations. This will require enhancing Argo to also use a token when communicating with the GitLab Integration, and also the GitLab Integration being enhanced to use said token.
 
@@ -313,7 +313,7 @@ The application is deployed in a Rocky Linux 8 OS running on AWS EC2. It’s run
   1. To configure the database part of the Argo-GitLab integration service, we can install and deploy the database services on [Google Cloud Sandbox](https://gitlabsandbox.cloud/login), and use [Cloud SQL](https://docs.runway.gitlab.com/guides/cloud-sql/) to connect from [runway](https://docs.runway.gitlab.com/guides/onboarding/).
   2. More implementation details are documented [here](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/428) and [here](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/issues/6).
 - [Runway](https://docs.runway.gitlab.com/):
-  1. It get's deployed in [Runway](https://docs.runway.gitlab.com/guides/onboarding/) from the docker image following [Runway onboarding](https://docs.runway.gitlab.com/guides/onboarding/) (onboarding details are documented [here](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/428) and [here](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/issues/6)). 
+  1. It get's deployed in [Runway](https://docs.runway.gitlab.com/guides/onboarding/) from the docker image following [Runway onboarding](https://docs.runway.gitlab.com/guides/onboarding/) (onboarding details are documented [here](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/428) and [here](https://gitlab.com/gitlab-com/localization/argo-gitlab-integration/-/issues/6)).
   2. Runway service connects to the cloudSQL instance outside of the runway [GCP projects using private IP + private service connect](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/418#note_2273832280)
 
 ## Alternative Solutions

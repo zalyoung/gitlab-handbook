@@ -18,7 +18,7 @@ The primary objective of this Policy is to prevent fraud, help maintain GitLab's
 
 ### DEFINITION
 
-In the broadest sense, fraud can encompass any crime for gain that uses deception as its principal method of operation. More precisely, fraud is defined_*as*_knowingly misrepresenting the truth or concealing a material fact in order to induce another person to act to their detriment. Fraud may involve:
+In the broadest sense, fraud can encompass any crime for gain that uses deception as its principal method of operation. More precisely, fraud is defined as **knowingly** misrepresenting the truth or concealing a material fact in order to induce another person to act to their detriment. Fraud may involve:
 
 - manipulation, falsification or alteration of accounting records or documents;
 - documents or statements (written or oral) that were not authorized or approved by the appropriate team members;

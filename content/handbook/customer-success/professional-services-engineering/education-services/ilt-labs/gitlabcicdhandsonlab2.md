@@ -20,7 +20,8 @@ With our build process complete, we can now start making changes to our code. Mo
 Workflow rules allow you to control when a pipeline runs. These rules give you control over the execution flow of your entire CI/CD pipeline. For example, consider our current `.gitlab-ci.yml` file:
 
 ```yml
-image: golang
+default:
+  image: golang
 
 stages:
   - build
@@ -112,9 +113,9 @@ Let’s introduce a new job that adds a release based on the current project cod
 
 1. Select **Commit changes**.
 
-This rule applies to the whole pipeline. If a `CI_COMMIT_TAG` is present, the if statement evaluates to true, resulting in the pipeline never running. If the `CI_COMMIT_TAG` is not present, then the pipeline will run.
+      This rule applies to the whole pipeline. If a `CI_COMMIT_TAG` is present, the if statement evaluates to true, resulting in the pipeline never running. If the `CI_COMMIT_TAG` is not present, then the pipeline will run.
 
-> You can also search for specific `CI_COMMIT_TAG` values if you want to only stop the run for releases. In this case, a tag in the form `v0.*` is a part of our release, so we can search for this specific pattern instead.
+      > You can also search for specific `CI_COMMIT_TAG` values if you want to only stop the run for releases. In this case, a tag in the form `v0.*` is a part of our release, so we can search for this specific pattern instead.
 
 ## Task B. Merge Request Pipelines
 
@@ -162,7 +163,7 @@ To define a job that runs in a merge request, we will add a rules definition to 
 
     ```yml
       rules:
-        - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
+        - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
     ```
 
     > Make sure this is indented to the same level as the `script` keyword, 2 spaces.
@@ -179,14 +180,14 @@ To define a job that runs in a merge request, we will add a rules definition to 
         tag_name: 'v0.$CI_PIPELINE_IID'
         description: 'The latest release!'
       rules:
-        - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
+        - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
     ```
 
 1. With these changes made, select **Commit changes** to update your `.gitlab-ci.yml` file.
 
 1. When you commit this to main, select **Build > Pipelines** to view your running jobs. You will notice that only the release job runs, because the commit was run on `main`.
 
-Let's get the other jobs to run by creating a merge request.
+      Let's get the other jobs to run by creating a merge request.
 
 1. Navigate to **Code > Branches**.
 
@@ -204,7 +205,7 @@ Let's get the other jobs to run by creating a merge request.
 
 1. Leave all options as default and select **Create merge request**.
 
-To trigger the merge request pipeline, you need to make some change to the code.
+      To trigger the merge request pipeline, you need to make some change to the code.
 
 1. Select **Code > Open in Web IDE**.
 

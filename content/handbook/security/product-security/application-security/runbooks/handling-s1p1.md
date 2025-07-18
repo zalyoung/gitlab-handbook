@@ -43,12 +43,12 @@ When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the 
 - [ ]  Service Desk
 - [ ]  FortiAuthenticator, or FortiToken 2FA
 - [ ]  GitLab-managed runners (hosted runners)
-- [ ]  GitLab AI capabilities ([More Info](https://about.gitlab.com/direction/saas-platforms/dedicated/#supporting-ai-features-on-gitlab-dedicated))
+- [ ]  GitLab AI capabilities ([More Info](https://about.gitlab.com/direction/gitlab_dedicated/#supporting-ai-features-on-gitlab-dedicated))
 - [ ]  Features that must be configured outside of the GitLab user interface, including those behind [feature flags](https://docs.gitlab.com/ee/user/feature_flags.html) which are disabled-by-default
 - [ ]  Mattermost
 - [ ]  Server-side Git hooks (Due to security concerns and potential service SLA impact. Consider using [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) or [webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) as alternatives.)
 
-If a vulnerability requires using features listed above for successfuly exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
+If a vulnerability requires using features listed above for successful exploitation, it most likely **does not** impact GitLab Dedicated. Always cross-check with the specific details of the vulnerability to ensure accurate assessment.
 
 ## Mitigate
 
@@ -66,7 +66,7 @@ The patch will first be deployed to GitLab-managed environments (.com, Dedicated
 1. Choose the solution that best balances the concerns above with the concerns of participating teams.
 1. Once the solution has been delivered, validate that the fix was effective.
 
-Occasionnaly, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
+Occasionally, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
 Here are some examples of short term options we've used in the past:
 
 - Cloudflare rule to block certain endpoints.
@@ -107,7 +107,7 @@ Share that a handover has happened in the incident's Slack channel, and cross-po
 > 🤝 AppSec Handover 🤝  I have handed over to `@username` for any AppSec needs, as I am close to the end of my working day. [Include details on how we will continue to deliver on any tasks that AppSec is DRI for].
 
 ### After the incident
- 
+
 Apply the correct labels and milestones in the SIRT issue so that we can track the work done in our metrics.
 
 ```text

@@ -48,7 +48,7 @@ For most users, this is simply adding your TouchID fingerprint to Okta for 2FA.
 - **Android 2FA**
   - [Android 2FA Guide](/handbook/security/corporate/systems/okta/user/android)
   - [Okta Verify Device Trust for Android](/handbook/security/corporate/systems/okta/verify/android)
-- **Apple iOS**
+- **Apple iOS 2FA**
   - [iOS Face ID 2FA Guide](/handbook/security/corporate/systems/okta/user/ios)
   - [Okta Verify Device Trust for iOS](/handbook/security/corporate/systems/okta/verify/ios)
 

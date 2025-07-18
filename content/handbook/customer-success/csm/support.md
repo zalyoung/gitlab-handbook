@@ -64,7 +64,7 @@ Once done and the AM id was updated, the link itself will be visible within ZD i
 
 ## Support Ticket Notifications
 
-When a CSM is assigned to an account in Salesforce, any time that a user from that account submits a support ticket, the CSM will receive an email to let them know, which includes a link to the Zendesk ticket and an [automatically-created](/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync/) Salesforce case. The email will also include the account name, contact name and email, and the date the ticket was opened. CSMs should receive the email within 1-2 hours of the ticket being opened.
+When a CSM is assigned to an account in Salesforce, any time that a user from that account submits a support ticket, the CSM will receive an email to let them know, which includes a link to the Zendesk ticket and a Salesforce case. The email will also include the account name, contact name and email, and the date the ticket was opened. CSMs should receive the email within 1-2 hours of the ticket being opened.
 
 In the email notifying CSMs of new tickets, the included Zendesk ticket link currently leads directly to the ticket. In the past, it has been a .json file which is difficult to read and sometimes doesn't load. If you encounter this, there are a few ways to work around this:
 
@@ -106,11 +106,11 @@ As described at that link, support already collects feedback via an automatic em
 
 ## Support Contact Management Projects
 
-CSM guidance on [contact management projects](/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
+CSM guidance on [contact management projects](https://support.gitlab.com/hc/en-us/articles/14142703050396-Contact-Management-Projects).
 
 Who has access to a Contact Management Projects?
 
-- Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
+- Due to their sensitive nature for our customers, only Customer Support Operations and the customers' chosen users have access to a contact management project.
 
 How do I know if my customer has a contacts management project?
 

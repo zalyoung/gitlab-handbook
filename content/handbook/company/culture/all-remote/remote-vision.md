@@ -45,7 +45,7 @@ We aren't just seeing these impacts for all-remote companies. In fact, in some o
 >
 > If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook](/handbook) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
 >
-> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend](/handbook/company/culture/all-remote/remote-vision/). We think it's great for [team members](people/).
+> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend](remote-vision/). We think it's great for [team members](people/).
 
 Here are some of the key factors that make all-remote work possible:
 

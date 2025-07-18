@@ -49,7 +49,6 @@ Clayton Shank<br>
 Erik Lentz<br>
 Jacob Waters<br>
 Justin Bisutti<br>
-Mohammed Al Kobaisy<br>
 Peter Hansen<br>
 Steve Ladgrove<br>
 Steve Sagan<br>
@@ -58,13 +57,13 @@ Zack Hardie<br>
 <tr>
 <td><strong>Device Trust<br>Engineering</strong></td>
 <td>
-<a href="/handbook/security/corporate/systems/drivestrike">DriveStrike</a><br>
+<a href="https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/">DriveStrike</a><br>
 <a href="/handbook/security/corporate/systems/jamf">Jamf MDM</a><br>
 <a href="/handbook/security/corporate/services/phones">Mobile Devices</a><br>
 <a href="/handbook/security/corporate/systems/vpn">NordLayer VPN</a><br>
 <a href="/handbook/security/corporate/systems/okta/verify">Okta Verify</a><br>
 <a href="/handbook/security/corporate/systems/sentinelone">SentinelOne EDR</a><br>
-<a href="/handbook/security/corporate/services/laptops/security/updates">Software Updates</a><br>
+<a href="/handbook/security/corporate/end-user-services/laptop-management/laptop-security/updates/">Software Updates</a><br>
 <a href="/handbook/security/corporate/systems/yubikey">YubiKey</a><br>
 </td>
 <td>
@@ -98,7 +97,6 @@ Role Entitlements<br>
 <td>
 Erik Lentz<br>
 Jacob Waters<br>
-Mohammed Al Kobaisy<br>
 Steve Ladgrove<br>
 </tr>
 <tr>
@@ -122,7 +120,6 @@ Tech Debt Cleanup<br>
 <code>Staff</code> Jeff Martin
 </td>
 <td>
-Mohammed Al Kobaisy<br>
 Vlad Stoianovici<br>
 </tr>
 <tr>

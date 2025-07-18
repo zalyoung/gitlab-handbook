@@ -22,7 +22,7 @@ The Engineering Fellow is a [grade 12](/handbook/total-rewards/compensation/comp
 - Share expertise across the entire organization.
 - Ship extremely high-impact features and improvements with minimal guidance and support from other members of the organization.
 - Own the Architecture Evolution Workflow, including the Blueprint Review meeting.
-- Manage the [Engineering Fellow Shadow Program](/handbook/engineering/fellow/shadow/).
+- Manage the Engineering Fellow Shadow Program.
 - Help Engineering avoid the architecture ["ivory tower"](https://en.wikipedia.org/wiki/Ivory_tower).
 
 ## Specializations

@@ -11,7 +11,7 @@ in service of supporting GitLab.com.
 ## Scope
 
 The scope of the requirements and practices documented in this page are Security
-Department tools and resources that collect, process, and store [RED](/handbook/security/data-classification-standard/#red) data.
+Department tools and resources that collect, process, and store [RED](/handbook/security/standards/data-classification-standard/#red) data.
 
 ## What's in this page
 
@@ -68,7 +68,7 @@ The following requirements are driven by 3 high level guidelines:
 #### Service Account usage
 
 1. Service accounts names SHOULD be meaningful.
-1. Service accounts with access to RED data MUST follow the [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#shared-account-access-request)
+1. Service accounts with access to RED data MUST follow the [Access Request](/handbook/security/corporate/end-user-services/access-requests/)
    process.
 1. Service accounts with access to RED data MUST be limited to single logical scope; for example, a single GCP project.
 
@@ -81,7 +81,7 @@ The following requirements are driven by 3 high level guidelines:
 
 #### Data Handling and Isolation
 
-1. Data [retention policies](/handbook/security/records-retention-deletion/) MUST be followed.
+1. Data [retention policies](/handbook/security/standards/records-retention-deletion/) MUST be followed.
 1. Data MUST be encrypted at rest.
    1. Data MAY be encrypted using provider managed keys.
 1. Data of different types MUST be logically seperated at rest.
@@ -104,8 +104,8 @@ Examples of different data types:
 
 ## Audit Logging
 
-1. Environment audit logs MUST be enabled and stored in accordance with [retention policies](/handbook/security/records-retention-deletion/).
-1. Application audit logs, if supported and available, MUST be enabled and stored in accordance with [retention policies](/handbook/security/records-retention-deletion/).
+1. Environment audit logs MUST be enabled and stored in accordance with [retention policies](/handbook/security/standards/records-retention-deletion/).
+1. Application audit logs, if supported and available, MUST be enabled and stored in accordance with [retention policies](/handbook/security/standards/records-retention-deletion/).
 1. Logs MUST be forwarded and processed in a centralized location that provides
    access to any operational team, such as Security Operations.
 
@@ -254,7 +254,7 @@ reviewed periodically as part of scheduled reviews and maintenance.
 
 ## Identity Providers
 
-[Okta](/handbook/it/okta/) is our corporate identity and authentication provider. Configuration of
+[Okta](/handbook/security/corporate/end-user-services/okta/) is our corporate identity and authentication provider. Configuration of
 applications using Okta as a SAML provider is the preferred solution. It meets
 operation needs for security monitoring of activity and can be provisioned by
 IT Ops using the standard Access Request process. Applications designed

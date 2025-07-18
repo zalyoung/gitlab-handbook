@@ -98,7 +98,7 @@ Check the user's activity page:
 ## Change primary email address of enterprise users
 
 Enterprise users [cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains. An enterprise user or a top level group owner can reach out to Support to request primary email address change.
-**Note that changing the primary email address to an email that is not part of the group domain verification will disassociate the user**: the user will no longer be an enterprise user.
+**Note that changing the primary email address to an email that is not part of the group domain verification will [disassociate the user](https://docs.gitlab.com/user/enterprise_user/#remove-enterprise-management-features-from-an-account)**: the user will no longer be an enterprise user.
 
 ### Request from a top level group owner
 
@@ -115,7 +115,7 @@ Until [the issue 412966](https://gitlab.com/gitlab-org/gitlab/-/issues/412966) i
 >
 > Could you please confirm that you would like us to change the enterprise user primary address from example@primary-email.address to example@new-primary-email address ? Replying in this ticket stating you provide permission will be sufficient.
 >
-> [Important notice](https://docs.gitlab.com/user/enterprise_user/#dissociation-of-the-user-from-their-enterprise-group): Changing an enterprise user's primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
+> [Important notice](https://docs.gitlab.com/user/enterprise_user/#remove-enterprise-management-features-from-an-account): Changing an enterprise user's primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
 
 1. Update the primary email address of the enterprise user(s).
 1. Add an Admin Note to the user's account(s).
@@ -131,7 +131,7 @@ Enterprise users have user accounts that are administered by an organization tha
 > Your account is an enterprise user account, [enterprise users cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains.
 > Updating your primary email address to an email with a non-verified domain will automatically disassociate you from your enterprise group.
 >
-> If you still wish to update your primary email, address please note it will require involvement of a top level group owners. Please let us know if you wish to proceed.
+> If you still wish to update your primary email address, please note it will require involvement of a top level group owner. Please let us know if you wish to proceed.
 
 1. If they answer that they wish to proceed, use the [Account Ownership Verification workflow](/handbook/support/workflows/account_verification) to verify ownership.
 
@@ -139,7 +139,7 @@ Enterprise users have user accounts that are administered by an organization tha
 
 1. If successful, contact Owner:
 
-- Create a new Zendesk ticket with the top level group owner's email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
+- Create a new Zendesk ticket with the top level group owner's email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/workflows/sending_notices#how-to-send-notices)
 - Apply the macro `General::Outbound Contact Request` that ensure the new ticket routes properly and the end-user we wish to contact receives the correct notification.
 - Copy the snippet below and mark the ticket as `On-hold`:
 

@@ -1,7 +1,7 @@
 ---
 title: "Python Stewardship Working Group"
 description: "Consolidating Python development within GitLab"
-status: not started
+status: completed
 ---
 
 
@@ -97,7 +97,7 @@ Development experience:
 
 ## Sync Recordings
 
-- [2024-11-21 Kick-off 1](https://youtu.be/N4F6ANNxVP0)
+- https://www.youtube.com/playlist?list=PL05JrBw4t0KpgQYHyThWFSHkRQWoDgcWT
 
 ### Non-goals
 

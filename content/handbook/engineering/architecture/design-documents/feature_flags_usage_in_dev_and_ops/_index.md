@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This blueprint builds upon [the Development Feature Flags Architecture blueprint](../feature_flags_development/).
 

@@ -16,8 +16,8 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab BV (Netherlands)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-netherlands/)
 - [GitLab BV (Belgium)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/)
 - [GitLab BV (Finland)](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-finland/)
-- [Global Upside (India)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
 - [GitLab Inc (US)](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/)
+- [Gitlab Israel LTD](/handbook/entity/israel-ltd/)
 - [GitLab LTD (UK)](/handbook/total-rewards/benefits/general-and-entity-benefits/ltd-benefits-uk/)
 - [GitLab GmbH (Germany)](/handbook/entity/gmbh-germany/)
 - [GitLab PTY (Australia & New Zealand)](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/)
@@ -31,6 +31,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
 - [Papaya Global (Italy)](/handbook/total-rewards/benefits/general-and-entity-benefits/papaya-global/)
 - [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
+- [Global Upside (India)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
 
 ### Benefits Available to Contractors
 
@@ -53,15 +54,15 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
 - This benefit is not applicable if there is a separate life insurance policy as part of the [Entity Specific Benefits](#entity-benefits) package.
 - For all other GitLab team members, the following conditions apply:
   - The team member must be either an employee or direct contractor.
-  - The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of wishes](https://docs.google.com/document/d/19p4IN-msvs4H10teBessfPx-1wu8J7Vs67Es8iVLlL8/edit?usp=sharing) form. To do this:
-    - Copy the template to your Google Drive (File -> Make a copy), enter your information.
-    - Export to PDF (File > Download > PDF Document (.pdf)).
-    - To sign the document, you can use one of the following methods:
+  - The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of Wishes](https://docs.google.com/forms/d/e/1FAIpQLSdNSKQeWXrhG5hhYveF45wW-VmLz2a_Z7eNsk6XRQaAGtjZHQ/viewform?usp=preview) form. To do this:
+    - Complete the relevant fields in the Google form
+    - Once complete, a PDF version will be emailed to the team member
+    - Proceed with signing the document. To sign the document, you can use one of the following methods:
       - Print it, sign and digitize.
       - In macOS, use the native Preview app.
       - In Linux, use the Xournal app's pen tool to draw the signature.
       - Use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); Please beware that there are always security concerns with tools that require uploading personal data. So, you may want to do this as a last resort only.
-    - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?usp=sharing) is the job aid for quick reference.
+    - Upload to your Documents folder `Document Category: Benefit Documents and Forms` in Workday - [here](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?tab=t.0) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000](/handbook/total-rewards/compensation/#exchange-rates).
 
 ## HealthKick Well-being Platform & Discounts
@@ -161,7 +162,7 @@ If you have questions, reach out in the [#peopleconnect](https://gitlab.enterpri
 
 ### AIG travel Assistance app
 
-Under this policy, team members also have access to the [AIG travel Assistance App](https://drive.google.com/file/d/1npuraFOKjlHWNYD6xBnH8YYQKKJloapv/view?usp=sharing), we encourage you download prior to your travels, as it is a resource to connect you to emergency travel assistance. 
+Under this policy, team members also have access to the [AIG travel Assistance App](https://drive.google.com/file/d/1npuraFOKjlHWNYD6xBnH8YYQKKJloapv/view?usp=sharing), we encourage you download prior to your travels, as it is a resource to connect you to emergency travel assistance.
 
 See the [AIG assistance website and app user guide](https://drive.google.com/file/d/1XPvawtYXEIAk8UBx83ZyWFGUM2Rlp_9G/view?usp=sharing) for more details
 
@@ -381,7 +382,7 @@ Seth's recommendation ties to an operating principle of Diversity, Inclusion & B
 
 > The hardest part of coming back from parental leave has been getting caught up/reintegrating with the GitLab team while sleep deprived. I recommend taking to heart the `don't worry` portion of GitLab's guide to paid time off, which states: "You don't need to worry about taking time off to go to the gym, take a nap, go grocery shopping, do household chores, help someone, take care of a loved one, etc. If you have urgent tasks, but something comes up or takes longer than expected, just ensure the rest of the team **knows** and someone can pick up the tasks (assuming you're able to communicate)." — [*Jonathan S.*](https://gitlab.com/jschafer)
 
-Jonathan's recommendation adds a layer of nuance to [Accepting Uncertainty](/handbook/values/#accepting-uncertainty), an operating principle of [Results](/handbook/values/#results). It also touches on [Give agency](/handbook/values/#give-agency), an operating principle of [Collaboration](/handbook/values/#collaboration), which empowers team members to focus on what they think is most beneficial.
+Jonathan's recommendation adds a layer of nuance to [Have Ownership & Accountability](/handbook/values/#have-ownership--accountability), an operating principle of [Results](/handbook/values/#results). It also touches on [Give agency](/handbook/values/#give-agency), an operating principle of [Collaboration](/handbook/values/#collaboration), which empowers team members to focus on what they think is most beneficial.
 
 > Take advantage of GitLab's bias towards [asynchronous communication](/handbook/company/culture/all-remote/management/#asynchronous). A child's schedule shifts rapidly, and I've found it useful to structure my days around my son's routine rather than force him to operate on a rigid timeline. Being a part of a [100% remote team](/handbook/company/culture/all-remote/) empowers team members to [embrace work/life harmony](/handbook/company/culture/all-remote/people/#worklife-harmony) in whatever way suits them. Moreover, it's liberating to be able to shift when and where I work depending on the needs of my family.
 >

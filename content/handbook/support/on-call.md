@@ -7,13 +7,12 @@ description: >-
 
 ## On-call in GitLab Support
 
-There are five on-call rotations in Support:
+There are four on-call rotations in Support:
 
 - [Communications Manager on-call (CMOC)](/handbook/support/workflows/cmoc_workflows) - in which Support Engineers drive public communication in the incident management process during GitLab.com operational emergencies.
 - [Customer Emergencies on-call (CEOC)](/handbook/support/workflows/customer_emergencies_workflows)- in which Support Engineers respond to and coordinate the resolution of emergency reports from Self-managed and GitLab.com customers
 - [US Government Emergencies](/handbook/support/workflows/customer_emergencies_workflows#us-federal-on-call) - which is similar to Customer Emergencies, but has different hours and a US Citizen requirement to participate in
 - [Support Manager On-call (SMOC)](/handbook/support/workflows/support_manager-on-call) - in which Support Managers are an escalation point for issues raised by Support Engineers and GitLab team members and missed PagerDuty notifications
-- [Support Operations On-call](/handbook/support/workflows/support_operations-on-call) - in which Support Readiness team members who focus on our Operations are available to be paged if there's an operational emergency
 
 For customers that have [Priority Support](https://about.gitlab.com/support/#priority-support), the Support Engineering Team is on-call in these capacities and available to assist with emergencies. What constitutes an emergency is defined in our [definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact).
 
@@ -118,8 +117,6 @@ DRIs are free to use the spreadsheet to create the schedule in advance for up to
 ##### Schedule Changes
 
 To make changes to the PagerDuty schedule, create a support team meta issue to discuss the changes with the affected participants. Once you decide on what changes to make, mention the support operations team in the issue to request that they implement those changes.
-
-More details can be found in the Operations Team [Pagerduty change management documentation](/handbook/support/readiness/operations/docs/pagerduty/change_management/).
 
 #### Your first on-call shift
 
@@ -289,10 +286,15 @@ You should page the Support Manager On-call via PagerDuty
 - immediately on a weekend or a holiday.
 - if you don't get a reply to your Slack ping after ten minutes.
 
-To page the current Support Manager On-call, you can:
+To page the current Support Manager On-call, you can trigger a PagerDuty alert:
 
-- Use the `/pd trigger` command in Slack to create a new incident (for the `Support Managers` service)
-- Manually create a new incident from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
+1. Navigate to the [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) channel in Slack
+1. Type `/pd trigger` and hit Enter
+1. Write a summary in the Title field
+1. Select `Support Managers` from the list of Impacted Services
+1. Click `Create` to trigger alert.
+
+Alternatively, create a new incident within PagerDuty, from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service.
 
 This is for engaging the *current* on-call manager. If you need to coordinate with the upcoming on-call manager, see [determining the On-call Manager](#determining-the-on-call-manager).
 
@@ -309,3 +311,27 @@ We understand you may have plans outside of your normal workspace while you're o
 PagerDuty phone and SMS notifications can come from a variety of different phone numbers and as such, it is important to stay up to date with this to avoid missed pages. You should use [this PagerDuty documentation page](https://support.pagerduty.com/main/docs/notification-phone-numbers) to download the most recent vCard or setup an automatically updated PagerDuty contact on your device.
 
 If you use a "do not disturb" mode on your device, you should also allow the PagerDuty contact to bypass this.
+
+## EMEA region only - PagerDuty administration
+
+PagerDuty is the Single Source of Truth (SSOT) to see when you are on call. The schedule will always be available for current month + 3 months ahead. This is to ensure team members can plan their life.
+
+By the end of each month, we will populate PD one more month into the future. Example: By end of February, the schedule for June will be imported to PagerDuty and visible for team members.
+
+### Requests for changes to EMEA PagerDuty rotation
+
+Create an issue under the [EMEA On-call Tracking Epic](https://gitlab.com/groups/gitlab-com/support/-/epics/344) using the [EMEA PagerDuty Rotation Change](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?description_template=EMEA%20PagerDuty%20Rotation%20Change) template. Issues for changes can be submitted every month.
+
+- Changes to shadow rotations can happen immediately. 
+- Changes to any other rotations will go into effect after 3 months + current month. 
+  - If it is necessary to add or remove a team member from a rotation sooner, overrides in PagerDuty can be used. 
+  - Manager approval is not needed, but managers will be mentioned in the change issue.
+- Support Manager On Call (SMOC) schedule only needs issues for adding and removing team members. The monthly update is coordinated between the DRIs listed below.
+
+### EMEA PagerDuty DRIs
+
+- DRI, PagerDuty admin: Tine Sørensen
+- DRI, rotation import: Kate Grechishkina
+- DRI, coordinating EMEA Support Manager On Call rotation: Erika Miklos
+
+Slack channel for questions: [#spt_emea-pagerduty-admin](https://gitlab.enterprise.slack.com/archives/C08PSPMKPJQ)

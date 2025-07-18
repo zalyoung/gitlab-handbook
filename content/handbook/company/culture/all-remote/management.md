@@ -11,7 +11,7 @@ On this page, we're detailing what it takes to effectively and efficiently manag
 
 ## What is all-remote management?
 
-The pillars of [managing an all-remote company](/handbook/company/culture/all-remote/being-a-great-remote-manager/) are similar to managing any company, but there are certain areas where all-remote leaders need to pay particular attention.
+The pillars of [managing an all-remote company](being-a-great-remote-manager/) are similar to managing any company, but there are certain areas where all-remote leaders need to pay particular attention.
 
 ## How do you manage a 100% remote team?
 
@@ -104,7 +104,7 @@ Practically, the following should be considered.
 1. Document what success looks like using [Objectives and Key Results (OKRs)](/handbook/company/okrs). This should be conveyed plainly and mutually agreed upon.
 1. Foster community and mentorship with like time zones. E.g. If a manager gains a new direct report with a sizable time zone gap, ask others in the organization — even if they are not in the same department — who are more aligned with the time zone to include this person in their social activities.
 1. Lean on documentation. Place importance on using [low-context communication](effective-communication/) in 1-1 documents, GitLab issues/merge requests, etc.
-1. Consider using tools like [Yac](https://yac.com) and [Loom](https://www.loom.com) to convey thoughts and feedback with video and audio if the written word feels too impersonal. [Managers](/handbook/company/culture/all-remote/being-a-great-remote-manager/) should flex to the preferred medium and style of their direct report, and encourage open conversation to iterate on this as the relationship develops.
+1. Consider using tools like [Yac](https://yac.com) and [Loom](https://www.loom.com) to convey thoughts and feedback with video and audio if the written word feels too impersonal. [Managers](being-a-great-remote-manager/) should flex to the preferred medium and style of their direct report, and encourage open conversation to iterate on this as the relationship develops.
 1. Meet in-person. When possible (e.g. at onsite [GitLab Contribute](/handbook/company/culture/summit/) gatherings), prioritize spending [in-person time](in-person/) with those who have little overlap in virtual working hours. These opportunities may arise at company retreats, events, and through serendipity in personal travel.
 1. Celebrate [differences](/handbook/values/#quirkiness). For example, working with someone experiencing summer while you experience winter is remarkable. Lifestyle differences are an opportunity to learn and expand one's worldview, and this includes time zone differences.
 
@@ -128,7 +128,7 @@ We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/pe
 
 GitLab relies on GitLab to build, sustain, and evolve its company handbook. GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
+You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 ### Docs instead of whiteboards
 
@@ -172,13 +172,13 @@ This also requires humility, and a recognition that human memories aren't perfec
 ![GitLab customer illustration](/images/all-remote/gitlab-customer-path.jpg)
 {style="max-width: 50%"}
 
-When you [open your talent acquisition pipeline to the world](hiring/), you create an opportunity to hire people in an array of time zones. The ability to hand projects off across time zones is a [competitive advantage](/handbook/company/culture/all-remote/remote-benefits/), but minimizing disconnects, frustrations, and awkwardly-timed meetings requires an intentional approach.
+When you [open your talent acquisition pipeline to the world](hiring/), you create an opportunity to hire people in an array of time zones. The ability to hand projects off across time zones is a [competitive advantage](remote-benefits/), but minimizing disconnects, frustrations, and awkwardly-timed meetings requires an intentional approach.
 
 ### Active reinforcement
 
-The first step in creating an atmosphere where colleagues are comfortable working [asynchronously](asynchronous/) is to avoid the default mentality as it applies to [meetings](meetings/). By making meetings [optional](meetings/#make-meetings-optional), recording and [documenting everything](meetings/#document-everything-live-yes-everything), being diligent to follow an [agenda](meetings/#have-an-agenda), and leveraging tools like [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and Slack, all-remote companies are less reliant on colleagues being online at the same time.
+The first step in creating an atmosphere where colleagues are comfortable working [asynchronously](asynchronous/) is to avoid the default mentality as it applies to [meetings](meetings/). By making meetings [optional](meetings/#1-make-meeting-attendance-optional), recording and [documenting everything](meetings/#5-document-everything-live-yes-everything), being diligent to follow an [agenda](meetings/#4-all-meetings-must-have-an-agenda), and leveraging tools like [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and Slack, all-remote companies are less reliant on colleagues being online at the same time.
 
-This mentality must be actively reinforced. For example, in [team social calls](informal-communication/#team-social-calls) where dozens of people join a video chat to bond as a team, an agenda allows those who cannot make it to add [shout-outs](/handbook/values/#say-thanks) or discussion points that a fellow colleague can verbalize. This is an intentional approach to not only working asynchronously, but socializing asynchronously.
+This mentality must be actively reinforced. For example, in [team social calls](informal-communication/#team-days-and-social-calls) where dozens of people join a video chat to bond as a team, an agenda allows those who cannot make it to add [shout-outs](/handbook/values/#say-thanks) or discussion points that a fellow colleague can verbalize. This is an intentional approach to not only working asynchronously, but socializing asynchronously.
 
 [Leonardo Federico](https://twitter.com/leonardofed), co-founder at [Sametab](https://www.sametab.com), offers an interesting perspective on asynchronous communication, noting that it [provides more optionality](https://web.archive.org/web/20200220025111/https://www.sametab.com/blog/frameworks-for-remote-working).
 
@@ -204,7 +204,7 @@ There are considerations that go beyond productivity metrics. Companies should a
 >
 > We cannot sustain, as a humanity, this way of life. We cannot keep up with it. — *Emna G., founder and CEO at Veamly*
 
-Asynchronous communication alone will not solve [challenges associated with remote work](drawbacks/#for-employees), but it is a useful tool in a wider arsenal of tactics to avoid issues such as [burnout](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/).
+Asynchronous communication alone will not solve [challenges associated with remote work](drawbacks/#remote-work-challenges-and-solutions-for-employees), but it is a useful tool in a wider arsenal of tactics to avoid issues such as [burnout](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/).
 
 ### Time and productivity
 
@@ -285,8 +285,6 @@ All-remote companies should go beyond striving for results. They should add as m
 
 This can be achieved by implementing Objectives and Key Results (OKRs), a widely used framework for setting strategy and removing ambiguity over what matters.
 
-Learn more about [GitLab's implementation of OKRs](/handbook/company/okrs).
-
 ### Key Performance Indicators (KPIs)
 
 Managing results requires clear communication of what's being measured. KPIs strip away guesswork and allow global teams to look at uniform data for making decisions.
@@ -334,7 +332,7 @@ Anyone can test their knowledge on all-remote management by completing the [know
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

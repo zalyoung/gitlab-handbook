@@ -12,9 +12,9 @@ We continue to believe that being a public company is an integral part of realiz
 
 To achieve fair value with limited relative volatility as a publicly traded company, we are focused on the following:
 
-1. Ability to meet the quarter close schedule outlined on the [Investor Relations](/handbook/finance/investor-relations/#earnings-release-calendar-workback-schedule) page
+1. Ability to meet the quarter close schedule outlined on the [Investor Relations](/handbook/finance/investor-relations/) page
 1. Consistent execution against key operating metrics and initiatives
-1. Demonstrate a reliable trajectory of revenue growth to operating cash flow that aligns to our target [operating model](/handbook/finance/financial-planning-and-analysis/#long-term-profitability-targets) and hypergrowt objectives
+1. Demonstrate a reliable trajectory of revenue growth to operating cash flow that aligns to our target [operating model](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) and hypergrowt objectives
 1. Assessing the maturity of our model in conjunction with equity market volatility to determine an appropriate time for a public offering
 1. Building out a fulsome compliance program which includes: securities law trainings, communications policies, handbook adjustments, required policies such as insider / [trading window](/handbook/finance/investor-relations/#trading-window)
 1. Maintaining a high degree of [transparency](/handbook/values/#transparency) that we believe increases contributions and makes collaboration easier. This is a core value and may result in higher than expected volatility.
@@ -28,7 +28,7 @@ Market capitalization (stock price x shares outstanding) will be the result of a
 1. Size of [total addressable market](/handbook/sales/tam/)
 1. Consistency of execution
 1. [Competitive position](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#introduction)
-1. Clarity of [value proposition](/handbook/company/strategy/#organization)
+1. Clarity of value proposition
 1. Perception of management [team](/handbook/company/team/)
 
 As GitLab team members, delivering on our annual plan and long-term strategy are the most productive ways to contribute to the company achieving full, fair value with limited relative volatility. At a departmental level, we have [key performance indicators](/handbook/company/kpis/#what-are-kpis) aligned to our plan and performance to empower "everyone to contribute" to GitLab's long term success and public market valuation.
@@ -52,7 +52,7 @@ Our financial planning process includes setting a division's spend based on reve
 ## Transparency
 
 1. Transparency is a [core value of GitLab](/handbook/values/#transparency).
-1. We want to maintain the same overall level of transparency as a public company that we have as a private company. For example, indicators of revenue such as our [win rate](/handbook/sales/#win-rate) will no longer be accessible externally, but in other areas transparency will be increased: financial profile.
+1. We want to maintain the same overall level of transparency as a public company that we have as a private company. For example, indicators of revenue such as our win rate will no longer be accessible externally, but in other areas transparency will be increased: financial profile.
 1. There are high expectations to do what you say. With our level of transparency people may not be used to how much we say, and we will be held to a new level of expectations on what we do.
 1. When we are required to publicly release quarterly financials, we may be required to adjust the timing of or level of detail associated with certain key metrics.
 

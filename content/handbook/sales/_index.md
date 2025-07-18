@@ -9,7 +9,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 
 - This page serves as our home base. From here, you can find a wealth of resources from all of the teams in our department.
 - Interested in collaborating with the Sales team? See our [How We Work](/handbook/sales/#how-we-work) and [Communicating with the Team](/handbook/sales/#communicating-with-the-team) sections.
-- Want to learn more about our goals? Check out our [most recent Objectives and Key Results (OKRs)](/handbook/company/okrs/#most-recent-okrs).
+- Want to learn more about our goals? Check out our [most recent Objectives and Key Results (OKRs)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&label_name%5B%5D=Division%253A%253ASales).
 
 ## Quick Reference Guide
 
@@ -48,7 +48,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Opportunity Naming Conventions](/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)  | [How to Handle Vendor Setup Forms](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms) | [How to Renew a Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#renew-subscription-quote) | [GitLab Values & Certification Process](/handbook/values/) |
 | [How to Create an Opportunity](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity) |  | [True Ups](/handbook/sales/sales-term-glossary/#true-up) | [GitLab Competencies & Certification Process](/handbook/people-group/competencies/) |
 | [MEDDPPICC Qualification](/handbook/sales/meddppicc/) |  | [Contract Resets](/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset) | [GitLab Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) |
-| [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/#people-business-partner-alignment-to-division) | | |
+| [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/people-business-partners/#people-business-partner-alignments) | | |
 | [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | |
 | [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov) |  |  | |
 | [Creating a Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) |  |  |  |
@@ -65,8 +65,8 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | ------ | ------ | ------ | ------ |
 | [Deal Desk: Assistance with Quotes](/handbook/sales/field-operations/order-processing/#assistance-with-quotes) | [Business Operations Handbook](/handbook/business-technology/) | [Collaborating with Legal - Sales](/handbook/legal/customer-negotiations/) |  |
 | [Deal Desk: Approval Process](/handbook/sales/field-operations/order-processing/#deal-desk-approval-process) | [Data Team Handbook](/handbook/enterprise-data/) | [Legal Page](/handbook/legal/) |  |
-| [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/enterprise-data/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
-| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/it/end-user-services/onboarding-access-requests/) |  |  |
+| [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/enterprise-data/data-governance/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
+| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/security/corporate/end-user-services/access-requests/) |  |  |
 |  | [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests) |  |  |
 
 ## Who We Are
@@ -87,7 +87,7 @@ The people working with each segment and their quota are:
 
 - Large: [Strategic Account Executive](/job-families/sales/enterprise-account-executive/) (SAE)
 - Mid-Market: [Mid-Market Account Executive](/job-families/sales/account-executive/) (MM AE)
-- SMB: [SMB Account Executive](/job-families/sales/smb-customer-advocate/) (SMB AE)
+- SMB: [SMB Account Executive](/job-families/sales/smb-account-executive/) (SMB AE)
 
 ## How We Work
 

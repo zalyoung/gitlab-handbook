@@ -18,7 +18,7 @@ twitter_creator: "@gitlab"
 
 [Setting up a home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) can be difficult. Many office spaces hire design professionals to create the workspace, but that burden shifts to employees in a remote environment.
 
-While there are [benefits](/handbook/company/culture/all-remote/remote-benefits/) to ditching the cubicle, it can feel overwhelming to design a new workspace. It's not as hard as you think to create a space where you can be comfortable, focused, and productive.
+While there are [benefits](remote-benefits/) to ditching the cubicle, it can feel overwhelming to design a new workspace. It's not as hard as you think to create a space where you can be comfortable, focused, and productive.
 
 Workspace expert Ryan Anderson from [MillerKnoll](https://www.millerknoll.com) shares how to set up a personal workspace using best practices for ergonomics, productivity, and environment.
 
@@ -46,7 +46,7 @@ Assuming you're lucky enough to have excellent access, you may also want to set 
 
 ### PC
 
-Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/it/end-user-services/onboarding-access-requests#laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
+Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/security/corporate/end-user-services/laptop-management/). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
 
 ### Camera with video capability
 
@@ -93,9 +93,7 @@ What constitutes "good headphones" varies significantly depending on preference.
 
 Almost any phone or laptop comes with a built-in microphone that should be adequate for your needs. A pair of Bluetooth or wired earbuds with an in-line microphone can help reduce background noise, if you work in a noisy space. These are commonly included with most smartphones.
 
-However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone/) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
-
-Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
+However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone/) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls). Another great option is the [512 Tempest](https://www.amazon.com/dp/B09PVMSBBF).
 
 "*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://app.sciencesays.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote work setting. If you have the funds available, this is an often-overlooked but very worthy way to use them.
 
@@ -199,7 +197,7 @@ If you're transitioning from an office environment where supplies magically appe
 
 When [communicating](informal-communication/) via webcam, you need to be aware of your lighting scheme.
 
-Meetings are about the work, [not the background](meetings/#meetings-are-about-the-work-not-the-background), but those who are [designing their home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) may want to consider lighting before too many absolutes are put in place. Here are a few lighting tips to be mindful of.
+Meetings are about the work, [not the background](meetings/#8-meetings-are-about-the-work-not-the-background), but those who are [designing their home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) may want to consider lighting before too many absolutes are put in place. Here are a few lighting tips to be mindful of.
 
 1. Avoid backlighting or sidelighting when possible (e.g. design your office so that outside light shines onto your face, not your back or side).
 1. Consider smart bulbs (e.g. [Philips Hue](https://www.philips-hue.com/en-us/products/smart-light-bulbs)) to light your office, which can be tweaked to create a soft, pleasing light regardless of your wall color.
@@ -256,7 +254,7 @@ Be sure to have the ["I'm home but working" conversation with children](https://
 
 When you work from home, you create a space that fuels your work. According to this [Thrive Global article on remote space setup](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/), "Maybe that is art, pictures, having a couch close by, or maybe it's just having music playing...at home you can really do whatever you want. It feels less like a corporate job and more of your own thing."
 
-Try not to [worry about your background](meetings/#meetings-are-about-the-work-not-the-background) too much. Sometimes pets or family wander into a room while you're on a call and reminds us that we are people first and colleagues second.
+Try not to [worry about your background](meetings/#8-meetings-are-about-the-work-not-the-background) too much. Sometimes pets or family wander into a room while you're on a call and reminds us that we are people first and colleagues second.
 
 ### Not sure what is reimbursable?
 
@@ -270,7 +268,7 @@ Get creative if you cannot dedicate space for a permanent home office. You can a
 
 Whether an organization is [fully remote, remote-first, or hybrid](stages/), it's up to company leaders to enable an equitable and inclusive employee experience. Just as you'd invest in a team's workspace in a physical office, enabling team members to create healthy and productive spaces is a core part of building remote infrastructure. An optimized workspace leads to [team member happiness, wellness, and engagement](stories/), and it also leads to better overall results for your organization.
 
-Keep in mind that there's no "one size fits all" for a home office setup, because each member of your team has different needs, work preferences, and home environments. Consider providing budget for your team to spend on their home workspace, a coworking space, or equipment needed to be productive on the go. For example, at GitLab, team members are [allowed to spend company money](/handbook/finance/spending-company-money/) as they would their own, with [guidance provided](/handbook/finance/expenses#-setting-up-a-home-office-for-the-first-time) for various types of equipment. Keep in mind that team members' needs may change as they [experiment to find their ideal work environment](getting-started/#experiment-with-work-environments).
+Keep in mind that there's no "one size fits all" for a home office setup, because each member of your team has different needs, work preferences, and home environments. Consider providing budget for your team to spend on their home workspace, a coworking space, or equipment needed to be productive on the go. For example, at GitLab, team members are [allowed to spend company money](/handbook/finance/spending-company-money/) as they would their own, with [guidance provided](/handbook/finance/expenses/#equipment) for various types of equipment. Keep in mind that team members' needs may change as they [experiment to find their ideal work environment](getting-started/#experiment-with-work-environments).
 
 ## GitLab Knowledge Assessment: Considerations for a productive home office or remote workspace
 
@@ -280,7 +278,7 @@ Anyone can test their knowledge on how to set up a productive home office or rem
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

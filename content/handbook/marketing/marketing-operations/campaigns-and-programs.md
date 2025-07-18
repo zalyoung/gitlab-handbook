@@ -59,23 +59,20 @@ White Paper or other content offer that is hosted by a third party.
 
 #### Direct Mail
 
-This is when a package or piece of mail is sent out.
+This is when a package or piece of mail is sent out. Current procedure requires use of Brilliant Gifts and Qualified
 
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
-| Member Status | Definition | Success | E-gift Card or Physical Gift |
+| Member Status | Definition | Success | Triggers gift webhook?|
 | ------------- | ---------- | ------- | ------------ |
-| No Action | Default starting position for all records |  | Not applicable |
-| Sales Nominated | Sales indicated record to receive triggered event email sent by Marketing |  | Not applicable |
-| Processed | Physical gift shipping request is being processed  |  | Physical |
-| Sent | Email with e-gift card has been sent to recipient |  | E-gift card |
-| Opened | The prospect has opened the Reachdesk offer emailed to them |  | E-gift card |
-| Claimed | The recipient has claimed the Reachdesk gift | Yes | E-gift card |
-| Clicked | The prospect has clicked the link in the offer emailed to them |  | E-gift card |
-| Shipped | The recipient's gift has been shipped |  | Physical |
-| Delivered | The selected gift has been successfully delivered to the recipient | Yes | Physical |
-| Cancelled | The recipient has requested their gift be cancelled |  | Physical |
-| Returned | The recipient has returned their gift |  | Returned |
+| No Action | Default starting position for all records |  |  |
+| Nominated | Leads are added to the program with this status indicating they will receive a meeting invite |  |  |
+| Invite Sent | Indicating an email invite for a meeting has been sent |  |  |
+| Email Opened | Not currently utilized within the program type | | |
+| Meeting Booked | Recipient of meeting invite has scheduled a meeting via Qualified | Yes | |
+| Meeting Attended | Recipient was not labeled as a No Show to the scheduled meeting | Yes | Yes |
+|Cancelled | Person has cancelled prior to the scheduled meeting  | | |
+| No Show | Sales Dev has indicated via Qualified automated email the meeting did not occur  | | |
 
 #### Email Send
 
@@ -147,6 +144,20 @@ Any type of inbound request that requires follow up.
 | Waitlisted | Submitted a request to purchase a future SKU  ||
 | Requested Contact | Filled out Contact, Professional Services, Demo or Pricing Request | Yes |
 
+#### Live Event
+
+This event type functions similarly to `Owned Event` with the caveat it is only used with the in-person event platform, Accelevents. It will include more statuses as Accelevents grows its product. This is an event that we have created, own registration and arrange speaker/venue (example: GitLab Commit or Meetups). Also considered in this grouping would be 3rd party auxiliary events that are added on to a conference sponsorship (i.e a happy hour or VIP dinner at a conference). 
+
+**Bizible:** This is tracked as an _online_ and as an _offline_ channel because we manage the registration process through our website. Whenever someone registers, a TP will be created based on that online activity while another  TP is added based on the campaign sync rules, for the campaign members with success statuses.
+
+| Member Status | Definition | Success |
+| ------------- | ---------- | ------- |
+| Invited | Invitation/Information about event sent by Sales/SDR |  |
+| Waitlisted | Holding state if registration is full will be moved to `Registered` if space opens |  |
+| Registered | Registered for event |  |
+| No Show | Registered but did not attend event |  |
+| Attended | Attended event live| Yes |
+
 #### Operational
 
 This is used for non-traditional list uploads in which we are looking to a) avoid scoring the uploaded leads b) avoid tradition nurture emails c) fulfill some other various operational related task. e.g., educational conference list uploads.
@@ -195,7 +206,7 @@ Program type is included on the smart campaign meant to clear `dietary restricti
 
 #### Partner - MDF
 
-This is for an activity that our partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
+This is for an activity that our Channel Partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
 
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
@@ -306,8 +317,7 @@ Any webcast that is hosted and held by GitLab. There are a few different groups 
 
 - [Campaign webcasts](/handbook/marketing/virtual-events/webcasts/#campaign-webcasts)
 - [Field Marketing webcasts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1)
-- [Partner webcasts](/handbook/marketing/virtual-events/webcasts/#partner-webcasts)
-- [On24 webcasts](/handbook/marketing/marketing-operations/on24)
+- [Goldcast webcasts](/handbook/marketing/marketing-operations/goldcast)
 
 **Bizible:** This is tracked as an _online_ Bizible channel as well as an _offline_ channel. We own the registration process so whenever a person registers to a webcast, a TP will be created based on the Bizible snippet that lives on our landing pages, while another TP is created for campaign members with success/responded statuses.
 
@@ -345,38 +355,115 @@ Program type is included on the smart campaign meant to clear `dietary restricti
 | Attended | Attended workshop event | Yes |
 | Follow Up Requested | Requested additional details about GitLab to be sent post event | Yes |
 
-## Marketo Program and Salesforce Campaign set-up
+## SFDC Campaign Instructions
 
-The Marketo programs for the corresponding campaign types have been prebuilt to include all the possible necessary smart campaigns, email programs, reminder emails and tokens that are to be leveraged in the building of the program.
+SFDC campaigns have a general set of required fields. This section describes the fields and when you need to populate them. You will do this step after you sync the campaign from Marketo (or when you set-up Content Syndication/Linked In campaigns). Instructions are contained in this section so any changes to required fields are centrally located and instructions do not become out of date.
 
-For **LinkedIn Social Ads** follow the instructions documented in [the LinkedIn section](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-linkedin-lead-gen-form)
+### Updating SFDC fields
 
-For **virtual events**, there are additional set up details on this [page](/handbook/marketing/virtual-events).
+- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.lightning.force.com/lightning/o/Campaign/list?filterName=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
+  - Change the `Campaign owner` to your name
+  - Confirm that the `Active` box is checked
+  - Status should be updated according to the [chart in this section](/handbook/marketing/marketing-operations/campaigns-and-programs/#important-notes). Typically you will use "In Progress"
+  - Confirm that start date and end date populated correctly (this is automated).
+  - Update the `Is this an in person event` dropdown, based on `in-person` vs `virtual` type
+  - Update `Budget Holder` -  Do keep in mind that the `Budget Holder` field should be updated **only if**:
+    - The campaign results in offline Bizible touchpoints based on campaign type (i.e. content syndication, sponsored webcast, etc.) - **NOTE:** an offline Bizible touchpoint happens when we gather a lead offline and in order for the system to have this name you must go through a [list upload process](/handbook/marketing/marketing-operations/list-import/)
+  - Update `Is a Channel Partner involved?` - You can leave this blank if "No"
+    - If yes, add the `Channel Partner Name`
+  - Update `Is an Alliance Partner involved?` - You can leave this blank if "No"
+    - If yes, add the `Alliance Partner Name`
+  - Update `Will there be MDF Funding` - You can leave this blank if "No"
+    - If yes, lookup the `MDF Request` in this field: [Detailed instructions](/handbook/marketing/channel-marketing/mdf-operations-process/#step-3-add-mdf-request-on-the-salesforce-campaign)
+  - Update `Integrated Campaign` if applicable
+  - Update `GTM Motion` if applicable
+  - If there will be `Sales Dev Invite Support` - check this box. Otherwise leave blank
+  - If there will be `Sales Dev Onsite Support` - check this box. Otherwise leave blank
+  - Update `Is Hyperscaler involved?` to Yes if a hyperscaler is involved.
+    - If yes, add the hyperscaler partner name after the date in your campaign name. Example using Executive Roundtable: YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
+    - If yes, enter the hyperscaler partner name in the `Hyperscaler` field
+    - If yes, select the type of Hyperscaler Funding using `Will there be Hyperscaler Funding?`, options are `MDF` or `Credits`
+      - then, update the `Hyperscaler Fund Requested Amount`
+  - Update the event epic
+  - Update the description (if any)
+  - Enter the `Form submission page` if you know it. Otherwise, it will need to be added after the landing page is created (if applicable)
+  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
+  - Update `Region` and `Sub-region`, if these are local or targeted to a specific region
+  - For all SFDC campaign types run by Corporate Events or Field Marketing, please check the `High Priority` check box on the campaign level.
+    - Details on our [pilot](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/6905) we ran with the business development team which led us to add this!
+   
+    **OR:**
 
-For all other campaign types, follows steps below. All steps are required.
+    - There were GitLab Dollars spent on the campaign (Field, Digital, Corporate, Community etc.) - can be left blank in the cases when we have campaigns that do not utilize budget; - **NOTE:** By updating the budget holder, we do **NOT** run the risk of double counting touchpoints, however, do keep in mind that since the field is not always filled out, it shouldn't be used for measuring each team's performance.
+- Click "Save"
+- Add the Marketo program link and SFDC campaign link to the epic.
 
-## Parent/Child Campaigns Setup
+#### Instructions for SFDC campaign creation when utilizing Allocadia
 
-For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session or ancillary event, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name.
+Using an integration from Allocadia > Marketo > SFDC, the information you've provided in Allocadia will push to your SFDC campaign.
+
+**Please Note:** You must NOT edit the SFDC campaign until the Allocadia connector has completed the sync. This is normally done near-real time, but if the data does not push immediately, be aware it can take minutes to hours to do so. You'll know the Allocadia connect has completed its work when you see the SFDC campaign owner change from Marketo Integration to the name of the person running the camapign, as well as well as when all details are populated from Allocadia to SFDC. If you edit the campaign before the connector pushes the data over, it will break the build and you will manually have to edit all of the fields listed. For additional Allocadia details [go here](/handbook/marketing/strategy-performance/allocadia/#salesforcecom-sfdc).
+
+- Go to alesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
+- Confirm that start date and end date populated correctly (this is automated)
+- Add `Budgeted Cost`
+  - `Budgeted Cost` in SFDC pulls from your `plan` number, not your `forecast` number from Allocadia. If you do not have a plan number in Allocadia, `Budgeted Cost` will remain blank in SFDC. If you do have a plan amount in Allocadia, that amount will pull through to SFDC in the nightly sync.
+  - If the cost of the tactic is $0 (example - virtual workshop) list `1` in the `Budgeted Cost` field. There needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
+
+### Parent/Child Campaigns Setup
+
+For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session or ancillary event, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. 
 
 Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following:
 
 1. Do not add any campaign members to the parent campaign as we want to minimize the risk of creating duplicate bizible touchpoints for the same activity.
-2. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
+1. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name. This is so we do not double-report on campaigns.
+1. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
+1. If you are an Allocadia user, you will not include the sub-category ID in the parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
 
-Additionally, if you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
+#### Create a Parent SFDC Campaign
 
-To associate a child SFDC campaign to a parent SFDC campaign (the parent campaign needs to be created before the child), go into what will be the child SFDC campaign and at the top of the campaign, click `Edit`. This will open the SFDC fields and then you can add the parent SFDC campaign name into the `Parent` field. Click `Save`.
+- Create your first child campaign using the [below instructions](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns) 
+- When finished, go to the top right of the campaign and click `Clone`
+- Edit the campaign name to include _PARENT at the end (example: 20250409_GoogleCloudNext_PARENT)
+- Confirm the `Active` box is checked
+- Remove the Allocadia Sub-Category ID
+- Adjust the `Budgeting Cost in Campaign` to $1
+- Click `Save`
 
-An example of a folder setup in Marketo is:
+#### How to associate a child campaign to a parent campaign in SFDC
 
-- Conference Name (Folder)
-  - Conference Name (Program w/ members)
-  - Demo program (Program w/ members)
-  - Speaking Session 1 (Program w/ members)
-  - Speaking Session 2 (Program w/ members)
+- Log in to SFDC and search for your child campaign
+- Once in the campaign, click the edit button next to the `Parent Campaign` field
+- Copy and paste the parent campaign name (example: 20250409_GoogleCloudNext_PARENT) into the field or start typing the parent campaign name and click `Save`
+- Continue to do the same for any additional child campaigns
+- You can view your campaign hierarchy in the right-hand panel (clicking `View All` will provide a full hierarchical view)
 
-## Important Notes
+#### Allocadia IDs and Parent/Child Campaigns
+
+If you are an Allocadia user and you are using our Allocadia > Marketo > SFDC sync, please note that you will NOT utilize the Allocadia sub-category ID in any of your individual child campaigns. Each campaign will have its own line item ID for that particular campaign, which all roll up to the parent campaign. Examples below.
+
+**AWS Summit London - PARENT (No Allocadia ID)**
+
+- AWS Summit Conference/Booth - Individual Line Item ID 
+- AWS Summit Speaking Session - Individual Line Item ID
+- AWS Summit Executive Meetings - Individual Line Item ID
+
+**An example of a Parent/Child SFDC hierarchy can be found [here](https://gitlab.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJzZmE6aGllcmFyY2h5RnVsbFZpZXciLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiNzAxUEwwMDAwMFVqMGs5WUFCIiwic09iamVjdE5hbWUiOiJDYW1wYWlnbiIsInRyZWVEaXJlY3Rpb24iOiJjdXJyZW50VG9Eb3duIiwibGF5b3V0VHlwZSI6IlJFTEFURURfTElTVCIsImxheW91dE92ZXJyaWRlIjoiQ2hpbGRDYW1wYWlnbnMifSwic3RhdGUiOnt9fQ%3D%3D).**
+
+#### Create a Parent Marketo Program (aka folder)
+
+- Log in to Marketo
+- Go to the correct event type folder based on fiscal year and quarter (example - FY26 - Q1 Conference)
+- Right click the folder and select `New Campaign Folder`
+- Add the campaign name as the `Campaign Folder Name` (example - 20250409_GoogleCloudNext)
+- Hit `Save`
+- All Marketo programs for your event can be nested under this main folder
+  - To move any existing Marketo programs to your folder you can simply drag and drop the programs, or right click the programs and select `Move` and direct to the folder you created.
+
+An example of a Marketo program folder with nested programs can be found [here](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF25757A1).
+
+### Important Notes
 
 1. The `Active` checkbox must be checked on the SFDC campaign for Marketo to be able to "see" the campaign. This will happen automatically if you follow the process below, but if there is a time you cannot find a SFDC campaign in Marketo, check to make sure that box is checked in SFDC. Additionally, if this box is unchecked, Marketo cannot send leads or update campaign member status for that SFDC campaign.
 1. If you are creating a parent campaign, please make sure that the campaign name of a parent campaign reflects the fact that it's a parent, by adding `_Parent` at the end of the Campaign Name. In the event of a mishap, when a parent campaign was setup by mistake to house responded campaign members,  adding `_Parent` at the end of the campaign name, makes sure that it gets seen by our campaign sync rules that [control the generation of touchpoints for offline campaigns](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564) and does not create double touchpoints for campaign members that may be housed in both the parent and child campaigns.
@@ -391,13 +478,23 @@ An example of a folder setup in Marketo is:
 |Aborted|Campaign has been suspended, cancelled, aborted|Manually when campaign is aborted|
 |Completed|The campaign took place and has ended|After the Campaign End Date|
 
+## Marketo Program and Salesforce Campaign set-up
+
+The Marketo programs for the corresponding campaign types have been prebuilt to include all the possible necessary smart campaigns, email programs, reminder emails and tokens that are to be leveraged in the building of the program.
+
+For **LinkedIn Social Ads** follow the instructions documented in [the LinkedIn section](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-linkedin-lead-gen-form)
+
+For **virtual events**, there are additional set up details on this [page](/handbook/marketing/virtual-events).
+
+For all other campaign types, follows steps below. All steps are required.
+
 ## Steps to Setup Marketo programs and Salesforce Campaigns
 
 ### Step 1: Clone the Marketo program indicated below
 
 Be advised that some templates are being used for both `in-person` and `virtual events`. These templates have been marked as `Hybrid template`. For these templates, the naming convention is slightly different in that additional campaign information appears in the name. When naming the program, `EventType` is replaced with either `Virtual`, `In-Person`, or `Hybrid` (if an event will be both in-person and virtual).
 
-If this is to set up a program that involves a channel partner, you must also follow the directions on that [setup page](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns). You will still clone the program from the list below to get started.
+If this is to set up a program that involves a channel partner, you must also follow the directions on that [setup page](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns). You will still clone the program from the list below to get started.
 
 #### How to Clone the Marketo program
 
@@ -408,6 +505,40 @@ If this is to set up a program that involves a channel partner, you must also fo
 - In the `Folder` field, select the appropriate folder based on your campaign type. Most folders are also organized by fiscal year and quarter.
 - In the `Description` field, paste your epic URL
 - Click `Create`
+
+#### Partner Campaign Setup
+
+There are currently several types of partner campaigns including Channel MDF campaigns, Joint GitLab/Partner, campaigns, Hyperscaler Campaigns, and Hyperscaler Funded Campaigns.
+
+##### Channel MDF Campaign
+
+Channel MDF is when GitLab covers 50% of a partner initiated campaign managed by the Channel Marketing team. All leads generated belong to the Channel Partner and are under Partner Queue ownership. Channel MDF has its dedicated Marketo template, go to [this page](/handbook/marketing/channel-marketing/mdf-operations-process/) for campaign setup instructions.
+
+#### Joint GitLab/Partner Campaign
+
+Joint GitLab/Partner campaigns when GitLab Field Marketing team fully funds and manages the marketing campaign. Leads that are partner sourced will be routed to the channel partner however, if the BDRs/SDRs are actively working the lead then it remains in get lab ownership. If a partner receives a lead but doesn't formally accept it within 30 days (by updating their share status), our system automatically recalls that lead, marks it as "Recycled," and brings it back into GitLab's nurture program. Follow the campaign setup instruction for each campaign type below. For more information about Joint/Partner campaign go [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) - ensure these steps are completed.
+
+##### Hyperscaler Campaigns
+
+Hyperscaler Campaigns are strategic marketing initiatives conducted in partnership with our Hyperscaler allies. These marketing activities including Executive Roundtables, Vendor-Arranged Meetings, Conferences, Owned events and more.
+
+For campaign setup, utilize the Marketo templates available in [Hybrid](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates) and [Other Tactic](/handbook/marketing/marketing-operations/campaigns-and-programs/#other-tactic-marketo-templates) section below.
+
+Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
+
+- When you manage a Hyperscaler Campaign without Funds:
+  - Add the Hyperscaler Partner name after the date: `YYYYMMDD_AWS_ExecutiveRoundtable_Topic_Region_EventType`. 
+- When you manage a Hyperscaler Campaign with MDF from the Hyperscaler Partner:
+  - Add the Hyperscaler Partner name after the date, and "MDF": `YYYYMMDD_AWS _MDF_ExecutiveRoundtable_Topic_Region_EventType`. 
+- When you manage a Hyperscaler Campaign with Credits from the Hyperscaler Partner:
+  - Add the Hyperscaler Partner name after the date and "CR" for Credits: `YYYYMMDD_GCP _CR_ExecutiveRoundtable_Topic_Region_EventType`. 
+
+Special Instructions for Content Syndication Teams: Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name
+
+Please add a Hyperscaler Campaign, funded by Hyperscaler, to the Hyperscaler Funded Campaign folder in Marketo.
+
+**Important Lead Ownership Note:** All leads generated through Hyperscaler campaigns remain under GitLab's excl
+usive ownership. These contacts enter our standard nurturing process, accumulating lead score according to engagement metrics. Upon reaching MQL status, they're automatically assigned to the appropriate BDR/SDR team for personalized follow-up.
 
 ##### Hybrid Marketo Templates
 
@@ -425,8 +556,6 @@ If this is to set up a program that involves a channel partner, you must also fo
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
   - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
 
-Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
-
 ##### Other Tactic Marketo Templates
 
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
@@ -434,31 +563,16 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
 - Conference - Meetings (FM led) `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conference-meetings)
 - Content Syndicaton: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc)
   - Note, if you are managing a hyperscaler campaign, update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
-- Direct Mail: [YYYYMMDD_DirectMail_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5392A1)
-  - Direct Mail not needing a Marketo Program: [skip to specific setup detais here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-direct-mail-campaigns)
+- Direct Mail: [FY00_Q0_Brilliant Gifts Direct Mail TEMPLATE](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/PG24060A1)
 - Gated Content: [YYYY_Type_Content_Template](https://app-ab13.marketo.com/#PG5111A1)
 - Integrated Campaign: [FY20IntegratedCampaign_Template](https://app-ab13.marketo.com/#PG4924A1)
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
 - Owned Event - `Hybrid`: [YYYYMMDD_OwnedEvent_EventType_Template](https://app-ab13.marketo.com/#ME4722A1)
 
-Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Conference: `YYYYMMDD_HyperscalerPartner_Conference_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
-
 ##### Webcasts Marketo Templates
 
 - Zoom GitLab Hosted Webcast: [YYYYMMDD_WebcastTopic_Region](https://app-ab13.marketo.com/#ME5512A1)
 - Sponsored Webcast: [YYYYMMDD_ExternalWebcastVendorName_Topic_Region](https://app-ab13.marketo.com/#PG5523A1)
-
-#### Partner Campaign Setup
-
-- Partner MDF Funded campaigns go [this page](/handbook/marketing/channel-marketing/mdf-operations-process/).
-- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
-- Hyperscaler campaigns - use the Marketo templates [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
-  - Additional Examples:
-    - 20251202_AWS_AWSreinvent_Booth
-    - 0250409_GCP_GoogleCloudNext_Booth
-    - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
-    - Special Instructions for Content Syndication Teams: 
-      - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 ### Step 2: Sync to Salesforce
 
@@ -476,9 +590,9 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
     - `{{my.email header image url}}` - This is optional. You will need this if you had custom images created.
     - `{{my.ondemandurl}}` - This will be entered AFTER the event date. It is the link to the recorded webcast. You will need to come back after the event and update this token.
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
-- **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
+- **Partner Campaigns** will need to also to update the `{{my.partner name}}` for LIM
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
-- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing).
+- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing) - note the instructions are different for Conferences and our outlined in the Conference instructions below.
 
 ### Step 4: Activate Marketo smart campaign(s)
 
@@ -511,7 +625,7 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
   - Select the `01a Registration Flow` smart campaign
   - The correct program should automatically apply when cloned, so _you don't need to do anything here._ However, you can confirm that the campaign tag appears on in the Smart List and Flow. If the name of the template appears anywhere, replace it with the campaign tag.
   - Click to the `Schedule` tab and click `Activate`
-  - If this is an `Owned Event` follow the below activation instructions:
+- If this is an `Owned Event` follow the below activation instructions:
   - Click the `Campaigns` folder
   - If you have a Marketo registration page for this event, select the `01b - Registration` smart campaign
   - The correct program should automatically apply when cloned, so _you don't need to do anything here._ However, you can confirm that the campaign tag appears on in the Smart List and Flow. If the name of the template appears anywhere, replace it with the campaign tag.
@@ -569,44 +683,16 @@ All programs have different necessities so it will be important to determine how
 
 ### Step 7: Update the Salesforce campaign
 
-_If you are utilizing the Allocadia, please see below instructions._
-
-- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
-  - Change the `Campaign owner` to your name
-  - Confirm that start date and end date populated correctly (this is automated).
-  - Update the `Is this an in person event` dropdown, based on `in-person` vs `virtual` type
-  - Update the event epic
-  - Update the description (if any)
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Sub-region`, if these are local or targeted to a specific region
-  - Update `Budget Holder` -  Do keep in mind that the `Budget Holder` field should be updated **only if**:
-    - The campaign results in offline Bizible touchpoints based on campaign type (i.e. content syndication, sponsored webcast, etc.) - **NOTE:** an offline Bizible touchpoint happens when we gather a lead offline and in order for the system to have this name you must go through a [list upload process](/handbook/marketing/marketing-operations/list-import/);
-
-    **OR:**
-
-    - There were GitLab Dollars spent on the campaign (Field, Digital, Corporate, Community etc.) - can be left blank in the cases when we have campaigns that do not utilize budget; - **NOTE:** By updating the budget holder, we do **NOT** run the risk of double counting touchpoints, however, do keep in mind that since the field is not always filled out, it shouldn't be used for measuring each team's performance.
-- All other fields on the campaign are not required and are not used for reporting - take `Status` as an example. You WOULD update this field to `Aborted` if the campaign was cancelled for any reason. We have a process that goes into more detail specifically when [offline events are cancelled](/handbook/marketing/events/#cancellation-of-offline-events).
-- Click "Save"
-- Add the Marketo program link and SFDC campaign link to the epic.
-- For all SFDC campaign types run by Corporate Events or Field Marketing, please check the `High Priority` check box on the campaign level.
-  - Details on our [pilot](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/6905) we ran with the business development team which led us to add this!
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
 ### Step 8: Update the Salesforce campaign - Using Allocadia
 
-Using an integration from Allocadia > Marketo, Marketo > SFDC, the information you've provided in Allocadia will push to your SFDC campaign.
-
-**Please Note:** You must NOT edit the campaign until the Allocadia connector has time to work. This is normally done near-real time, but if the data does not push immediately, be aware it can take minutes to hours to do so. You'll know the Allocadia connect has completed its work when you see the SFDC campaign owner change from Marketo Integration to the name of the actual person who is running the camapign as well as well as when all details are populated from Allocadia to SFDC. If you edit the campaign before the connector pushes the data over, it will break the build and you will manually have to edit all of the fields listed. For additional Allocadia details [go here](/handbook/marketing/strategy-performance/allocadia/#salesforcecom-sfdc).
+Please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 #### Training Videos for Setting up SFDC Campaign - Using Allocadia
 
 - [Instructional Video](https://youtu.be/1681EBw5344)
 - [Sync Results Video](https://youtu.be/PocOPnJY4w0)
-
-Based on the [Step 5. list above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign), the only thing you will need to manually update in SFDC is the following:
-
-- `Budgeted Cost` in SFDC pulls from your `plan` number, not your `forecast` number from Allocadia. If you do not have a `plan` cost in Allocadia then Budgeted Cost in SFDC will remain blank. If this is the case, you will want to add in your Budgeted Cost manually into your SFDC campaign. The initial Plan Cost in the campaign needs 1 night to synch. The campaign meta data is a one time synch, where as the Actual Cost in Campaign (which is run off of the Campaign Tag to be Created field in Allocadia), synchs every nightly.
-
-**Please Note:** `Budgeted Cost` in SFDC pulls from your plan number, not your forecast number from Allocadia. If you do not have a plan cost in Allocadia then `Budgeted Cost` in SFDC will remain blank. If this is the case, you will want to add in your `Budgeted Cost` manually into your SFDC campaign. If cost is $0 list `$1` in the `Budgeted Cost` field. There needs to be at least a $1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
 
 ### Waitlist processing - Owned Event, Workshop, Webcasts
 
@@ -675,7 +761,8 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 ### Step 1: Clone this program
 
 - [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME12196A1)
-- Use format `YYYYMMDD_Conference_EventType`
+- Use format `YYYYMMDD_Hyperscaler(if applicable)_Conference_EventType`
+- Note that if you are using Jifflenow for setting Executive Meetings or Booth Demos/Meetings, you will need a Marketo program and SFDC campaign for each type. They are all `Conference` campaign types, so you can create the first one following these instructions (including filling out the tokens), then clone that program. That will make it so you don't need to complete all of the tokens each time (you will need to make minor modifications, but they are quicker this way). You will sync each program to SFDC to create the SFDC campaign as described below.
 
 ### Step 2: Sync to Salesforce
 
@@ -689,6 +776,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 - Update all tokens as they feed the email and interesting moments
   - You do not need to update `Request` tokens if there are no meetings being set up for the conference
   - If you are scheduling in person meetings, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+  - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams).
 
 ### Step 4: Activate Marketo smart campaign
 
@@ -696,6 +784,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 - `01 Manual upload processing` this will be activated by MOps if a manual upload is required. If you upload using the self-service process, this is not required.
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
+- `04 Action stream processing` If your conference covers a relevant [Action Stream topic](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), be sure you added the Action Stream to the tokens, then activate this campaign.
 
 ### Step 4a. Meeting Request Processing
 
@@ -712,19 +801,12 @@ These steps are not yet configured. If you are planning to do this for your next
 
 ### Step 5: Update the Salesforce campaign
 
-- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
-  - Change the `Campaign Owner` to your name
-  - Update the event epic
-  - Update the description
-  - Update `Start Date` to the date of launch
-  - Update `End Date`
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Subregion` if you have the data available
-  - Click Save
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
+
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
 
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ## Steps to Setup in-person Conference Meetings
 
@@ -733,7 +815,8 @@ The instructions below are designed for meetings led by Field Marketing at large
 ### Step 1: Clone this program
 
 - [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17801A1)
-- Use format `YYYYMMDD_Conference_Meetings_FM_Template`
+- Use format `YYYYMMDD_Hyperscaler(if applicable)_Conference_ExecutiveMeetings`
+- Note that if you are using Jifflenow for setting Executive Meetings or Booth Demos/Meetings, you will need a Marketo program and SFDC campaign for each type.
 
 ### Step 2: Sync to Salesforce
 
@@ -746,6 +829,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 
 - Update all tokens as they feed the email and interesting moments. Don't skip the epic token because it is included in the internal alert.
   - Be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+  - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams).
 
 ### Step 4: Activate Marketo smart campaign
 
@@ -754,6 +838,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
 - `01a Meeting Request Processing` Activate this campaign if you have a landing page. Do not activate it if you are only uploading leads.
+- `04 Action stream processing` If your conference covers a relevant [Action Stream topic](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), be sure you added the Action Stream to the tokens, then activate this campaign.
 
 ### Step 4b. Set-up Asset Expiration
 
@@ -766,20 +851,9 @@ The instructions below are designed for meetings led by Field Marketing at large
 
 ### Step 5: Update the Salesforce campaign
 
-- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
-  - Change the `Campaign Owner` to your name
-  - Click on the `Parent Campaign` lookup, change the dropdown to `All Campaigns` then find the parent campaign for the conference the meetings are being held at. Select this campaign. This associates your meeting campaign to the main conference campaign in the hierarchy.
-  - Update the event epic
-  - Update the description
-  - Update the budget holder to `fmm`
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Subregion` if you have the data available
-  - Be sure to update all other relevant fields for your campaign
-  - Click Save
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
-- Add the Marketo program link and SFDC campaign link to the epic.
-
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ## Steps to Setup Content Syndication in Marketo and SFDC
 
@@ -833,19 +907,12 @@ Use these instructions if you are NOT working through Integrate DAP. For the ins
 
 ### Step 5: Update the Salesforce campaign
 
-- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
-  - Change the `Campaign Owner` to your name
-  - Update the event epic
-  - Update the description
-  - Update `Start Date` to the date of launch
-  - Update `End Date`
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Subregion` if you have the data available
-  - Click Save
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
+
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
 
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ## Steps to Setup Content Syndication in Marketo and SFDC - Campaigns through Integrate DAP
 
@@ -863,15 +930,8 @@ Interesting Moments for content syndication are global. This means that you only
 
 - Create the SFDC campaigns directly in Salesforce. Each asset requires a campaign.
 - Format: YYYY_Region_Vendor_AssetName (examples: 2024_AMER_Demand_Science_2023DevSecOpsReport:ProductivityEfficiency, 2024_EMEA_Integrate_AchieveDevSecOpswithGitLabCI/CD)
-  - Set the campaign to `Active`
-  - Change the `Campaign Owner` to your name
-  - Update the event epic
-  - Update the description
-  - Update `Start Date` to the date of launch
-  - Update `End Date`
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Subregion`
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
+- Refer to instructions  [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
 
 ### Step 2: Clone this program
 
@@ -973,15 +1033,8 @@ You must keep the same Asset number for existing assets, otherwise the existing 
 
 - Create the SFDC campaigns directly in Salesforce. Each asset requires a campaign.
 - Format: YYYY_Region_Vendor_AssetName (examples: 2024_AMER_Demand_Science_2023DevSecOpsReport:ProductivityEfficiency, 2024_EMEA_Integrate_AchieveDevSecOpswithGitLabCI/CD)
-  - Mark the campaign as `Active`
-  - Change the `Campaign Owner` to your name
-  - Update the event epic
-  - Update the description
-  - Update `Start Date` to the date of launch
-  - Update `End Date`
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Subregion`
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
+- Refer to instructions  [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
 
 ### Step 3: Find the existing Marketo program for your Region/Vendor pair
 
@@ -1038,7 +1091,9 @@ Follow the instructions in [Step 6 above](/handbook/marketing/marketing-operatio
 
 ## Integrate DAP Closed Loop Feedback
 
-Feedback on leads received via the Integrate service is an automated process done via Marketo webhooks, with 7 in total. The smart campaign triggers, smartlist filters and "holding" smart campaign used for the automation are found [on this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16388A1). There are two smart campaigns used and for two reasons: The `Activation` trigger acts as a holding cell that allows for newly received leads to go through multiple GitLab processes before firing a webhook, e.g. being contacted by SDRs, receiving scoring, being marked as a non-deliverable email. The flow also separates normal leads from `test` leads. The second trigger, `Webhook calls`, calls a webhook after the 5 day hold ends. Marketo webhooks require the use of trigger campaigns, so this should not be set to a scheduled campaign.
+Feedback on leads received via the Integrate service is an automated process done via Marketo webhooks, with 7 in total. The smart campaign triggers, smartlist filters and "holding" smart campaigns used for the automation are found [on this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16388A1). There are three smart campaigns used and for two reasons: The `Activation` trigger acts as a 4 day holding cell that allows for newly received leads to go through multiple GitLab processes before calling a webhook, e.g. being contacted by SDRs, receiving scoring, being marked as a non-deliverable email. The flow also separates normal leads from `test` leads and adds normal leads to the static `Hold` list, which is used for an automated bi-weekly lead quality report sent to Integrate's platform. The second smart campaign, `Scheduled Integrate Webhook Calls`, is scheduled to run bi-weekly on Mondays. The flow checks the static `Hold` list for Integrate received leads, triggering the webhook calling smart campaign. The third trigger, `Webhook calls`, calls the appropriate webhook. Total time for a new lead to run through this process is `4 days after entering Marketo` plus whenever the lead has entered into the `bi-weekly` cadence - so usually 2 weeks but maybe a tad bit longer in some cases.
+
+When calling webhooks, Marketo will timestamp the first webhook call in the `Integrate Webhook - First` field and if there is ever a second run-through of the webhooks the time stamp will go in the `Integrate Webhook - Second` field. All leads ran through the webhooks will be added to the static lists found in the `Static Checks` folder.
 
 The 7 webhook feedback automations we send to Integrate are:
 
@@ -1051,7 +1106,7 @@ The 7 webhook feedback automations we send to Integrate are:
 
 - **Bad Data**: This should be generally thought of as being similar to a "spam" lead
 - **Bad Phone**: Fired when a SDR marks the lead's listed phone number as not usable or wrong. Inegrate can return these leads to us with the phone number corrected, while other return webhooks will cannot be returned
-- **Bounce**: The email address was deemed unreachable by Marketo. Either our emails have bounced or are being blocked. We cannot accept or use the lead
+- **Bounce**: The email address was deemed unreachable by Marketo. Either our emails have bounced or are being blocked. We cannot accept or use the lead because Marketo cannot determine if the email address is real
 - **Competitor**: The lead is part of a competing company and we are not interested in receiving further leads from this competitor. Use this as an error notification, meaning our lead sourcing filters that needs to be addressed
 - **Test**: When Integrate needs to send us test leads, this webhook will be triggered by those incoming leads. Please make sure the teams sending us leads via the service are aware of the needed filters to trigger the automated feedback via webook
 
@@ -1078,18 +1133,10 @@ The 7 webhook feedback automations we send to Integrate are:
 
 ### Step 4: Update the Salesforce campaign
 
-- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
-  - Change the `Campaign Owner` to your name
-  - Update the event epic
-  - Update the description
-  - Update `Start Date` to the date of launch
-  - Update `End Date`
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Subregion` if you have the data available
-  - Click Save
+- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
 - Add the Marketo program link and SFDC campaign link to the epic.
 
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ### Step 5: Troubleshooting
 
@@ -1100,24 +1147,62 @@ The 7 webhook feedback automations we send to Integrate are:
 
 ## Steps to Setup Direct Mail Campaigns
 
-### Step 1: Create the Salesforce campaign
+Note that Direct Mail campaigns require the use of Qualified, Marketo and Brilliant Gifts. Brilliant Gifts, our merch vendor, needs to set up a Preferred Gift campaign on their end, which can take up to a month and requires contacting their support. The current Qualified tech owner will be required to set up the Qualified meeting booking link. Refer to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for the appropriate contacts. The Marketo template has been set up in a way to be easily cloned, so move slowly and carefully during set up
 
-- Clone the [#TEMPLATE - Direct Mail](https://gitlab.my.salesforce.com/7014M000001dlh9)
-- Update Campaign name to `whatever your campaign tag is`
-- NOTE: You do NOT need a corresponding Marketo campaign. All information and tracking is done via this campaign.
+### Step 1: Create the Marketo program and Salesforce campaign
 
-### Step 2: Update the Salesforce campaign
+- Clone the [#TEMPLATE - FY00_Q0_Brilliant Gifts Direct Mail TEMPLATE](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/PG24060A1) into the appropriate folder and rename the program. If the intention is to run in ONE region, clone once. If the intention is to run in multiple regions, clone a "parent" program and enough programs for all regions (e.g. AMER, APJ, EMEA) and place in their own folder. Keep the naming convention similar for the regional/child programs but add a region tag at the end of the program name (e.g. `FY00_Q0_Campaign_AMER`). For the parent program, add `_Parent` to the end of the program name to prevent redundant Touchpoints on the SFDC campaign
+- If one program was cloned, sync it to SFDC. If there were multiple programs created, sync them ALL of them to SFDC. 
+  - DO NOT anchor the regional SFDC campaigns under the parent campaign. The parent campaign is there to sync with Qualified, but once the campaign is _fully_ completed all members of the parent can be removed from the campaign and parent linked to the child campaigns. The parent cannot contain members while having child campaigns
 
-- Click on `Advanced Setup` to make sure statuses correspond to those listed in the [Direct Mail progression statuses](/handbook/marketing/marketing-operations/campaigns-and-programs/#direct-mail). Do not edit these, if you need them updated, please reach out to MktgOps.
-- Change the `Campaign Owner` to your name
-- Confirm the `type` is `Direct Mail`
-- Update the event epic
-- Update the description
-- Update `Start Date` to the date of launch
-- Update `End Date`
-- Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-- Update `Region` and `Subregion` if you have the data available
-- Click Save
+### Step 2: Set up the Marketo programs
+
+- Fill out the required program tokens. A token unique to this program type is the `my.qualifiedlink` token, which appears in the `Sales Nominated Invite` email. The Qualified link will be shared by the Qualified technical owner when it is ready (more on that below)
+- The smart campaigns folder has many flows and which ones used will depend on whether the direct mail campaign is for a single region, whether the program is the "parent" program that communicates with Qualified (Qualified syncs with the SFDC campaign) or whether the program is a regional "child" program
+- If the campaign is to take place in a single region and there is only one program, review `01 Processing - Single region campaign` and make sure all fields being updated in the flow steps are up to date with the proper program name
+- If the campaign is taking place in multiple regions, on the `parent` program activate all the regional processing smart campaigns for the involved regions, e.g. `00 Processing - Parent - AMER` and `00 Processing - Parent - EMEA` if there are programs for EMEA and AMER. On each of the regional child programs, activate the `00 Processiong - Child` smart campaign
+  - The parent program processes inputs from Qualified, calls the webhook to Brilliant to send the gift redemption email (only if the program status is `Meeting Attended`) and it also relays program status updates to the regional child programs
+- Within the processing smart campaigns, be sure to change the program the smart campaign references to the correct regional child program in the first `if` flow step. If the smart campaign is named `AMER`, the flow step should call to the `AMER` program. 
+- Note that this template has been set up for use with multiple regions, so if there are extraneous parts of logic it is okay to remove those pieces to avoid logic errors
+- Activate `03 Change to No Show` on the single or parent program to register `no show` activities * Feature is experimental at the moment 
+
+### Step 3: Target lists and loading nominated leads
+
+The program template contains multiple target list assets, both static and smart lists, for each region. It is recommended to consult with MktgOps for this stage.
+
+- To plan the target list(s), use `target list w/leads (global)`. For multi-region campaigns, either recreate the smart list in the pre-made region smart lists or clone the global and swap assets in the smart campaign
+- If there is only one program, proceed with using smart campaign `Load static list and parent program from target list` to load the target list into the static list and the program
+- If there are multiple regional programs, proceed with using smart campaign `Load static lists and child programs from target list` to load the target lists into the appropriate regional static list and the regional child programs
+  - Leads loaded into the program(s) should have `Nominated` status once loaded
+
+### Step 4: Emailing target list 
+
+While the smart campaign `02 Send Sales Nominated Invite` exists in the template, it's possible other methods of outreach will be used. `02a Sales Nominated Invite Sent` exists as a method of changing the program status on leads already emailed. Plug in the correct email asset that was sent to change the program status using this smart campaign - or request a report and MktgOps will assist with processing the report 
+
+### Step 5: Brilliant Set Up
+
+This step will require communication to the Brilliant support team and can take up to over a month to fulfill. Reach out to the Brilliant tech owner, who will email (with the requester CC'd) our Brilliant contact. From there, the Brilliant team will ask a series of questions to the requester regarding the intended campaign and discuss set up. A few items that will be decided upon:
+
+- Do we require a new Preferred Gift campaign? 
+- Is the Brilliant storefront established and adequate for this campaign's needs?
+- What backend assets in Brilliant need to be updated? e.g., branded gift redemption emails
+
+The Brilliant team also needs to verify the Marketo webhook is reaching their backend
+
+Note: MktgOps will need to verify the webhook is working by utilizing `Call to Brilliant TEST` and `Call to Brilliant TEST trigger` found in the program template. There are two smart campaigns because calling a webook needs a trigger campaign
+
+### Step 6: Qualified-powered meeting booking set up
+
+This next step will require the help of the Qualified tech owner. Supply them with the SFDC campaign being used as the single or parent campaign. From there, a Qualified link will be created and shared by the tech owner to the requester. The link will be used during prospect outreach as the method needed for nominated prospects to book a meeting with Sales Dev
+
+- Qualified will change program status to `Meeting Booked` when a prospect books a meeting
+- A reminder email will be sent about the meeting 1 hour before the time
+- Once a meeting has occurred, Qualified will send a confirmation email to Sales Dev team member to confirm if the meeting happened or was missed
+- An experimental automation is watching for if Qualified updates the meeting acitivty with `not attended` to mark as `no show`
+
+### Step 7: Campaign completion
+
+At the end of the campaign, request the Qualified logic be taken down. Updates to Brilliant storefronts and preferred campaigns TBD. For multi-region campaigns, leads can be removed from the parent SFDC campaign/Marketo program. As long the leads have been removed from the parent campaign, the regional campaigns can be added as child campaigns to the parent campaign in SFDC 
 
 ## Steps to Setup LinkedIn Lead Gen Form
 
@@ -1198,16 +1283,8 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 
 ### Step 3: Update the Salesforce campaign
 
-- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
-  - Change the `Campaign Owner` to your name
-  - Add `Parent Campaign` of `2020_Social_LinkedIn_Lead Gen`
-  - Update the epic link in the description
-  - Add the Integrated Campaign
-  - Update `Start Date` to the date of launch
-  - Update `End Date`
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Subregion` if you have the data available
-  - Click Save
+- Add `Parent Campaign` of `2020_Social_LinkedIn_Lead Gen`
+- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 - Add the Marketo program link and SFDC campaign link to the epic or issue.
 
 ### Step 4: Go back into Marketo Template

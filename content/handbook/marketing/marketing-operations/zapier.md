@@ -20,7 +20,7 @@ These fields must be required and captured in order to allow for proper routing 
 * Email
 * Company
 * Country (must be a [picklist containing all or some of these values](https://docs.google.com/spreadsheets/d/1cV_hI2wAzLxYYDI-NQYF5-FDDPXPXH0VV5qRBUJAQQk/edit?usp=sharing))
-* Email Consent (Whether or not we received consent to send email, can be `TRUE` of `FALSE`) [Reference the legal handbook](/handbook/legal/marketing-collaboration/#marketing-rules-and-consent-language) for the language that should be used.
+* Email Consent (Whether or not we received consent to send email, can be `TRUE` of `FALSE`) [Reference the legal handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language/) for the language that should be used.
 
 ## When to Request
 

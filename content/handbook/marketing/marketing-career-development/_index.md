@@ -82,6 +82,5 @@ Know how to read and interpret the marketing analytics GitLab's marketing team u
 - [Allocadia handbook page](/handbook/marketing/strategy-performance/allocadia/)
 - [Marketo](/handbook/marketing/marketing-operations/marketo/)
 - [PathFactory](/handbook/marketing/marketing-operations/pathfactory/)
-- [LeanData](/handbook/marketing/marketing-operations/leandata/)
 - [Sigstr](/handbook/marketing/marketing-operations/terminus-email-experiences/)
 - [Salesforce](https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome) (Trailhead with Classic UI, but more admin level details)

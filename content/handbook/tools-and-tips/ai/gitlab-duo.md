@@ -6,11 +6,11 @@ Learn how to use AI-powered GitLab Duo Chat, Code Suggestions and more to make y
 
 ## Access
 
-GitLab team members can access GitLab Duo on GitLab.com by default. If you do not have access, please create a [HelpLab ticket](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#create-a-ticket--request) to work with IT to get access to GitLab Duo on GitLab.com.
+If you require access to GitLab Duo for the gitlab-com [group](https://gitlab.com/gitlab-com) please create a [HelpLab ticket](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#create-a-ticket--request) to work with IT to get GitLab Duo enabled for the group.
 
 GitLab contributors and co-creators can also take advantage of AI-powered GitLab Duo. Start with the onboarding process in [contributors.gitlab.com/](https://contributors.gitlab.com/).
 
-If team members need access in customer demo group on GitLab.com, create an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) using the `GitlabCom_Licensed_Demo_Group_Request` template.
+If team members need access in customer demo group on GitLab.com, create an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) using the `GitlabCom_Licensed_Demo_Group_Request` template.
 
 Follow the [Getting Started](https://docs.gitlab.com/ee/user/get_started/getting_started_gitlab_duo.html) documentation to onboard.
 

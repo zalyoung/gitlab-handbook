@@ -96,40 +96,15 @@ Reference Architecture consultations will not include the following:
 1. No involvement in direct customer calls or communications.
 1. All requested data stated in the template must be proactively supplied.
 
-## Triage DRI
+### Environment Build Requests
 
-The Triage DRI is a team role that acts as an initial point of contact for ad hoc team requests, triaging pipelines and redirecting inquiries to appropriate team members. The role enables timely responses while spreading knowledge across the team.
+**The Framework team will not fulfill bespoke environment build requests due to capacity constraints.** Also, building large sandbox environments with GET should be generally discouraged due to cost implications unless strictly required. However, here are some options to self-serve in building these types of environments:
 
-This is a limited role targeting initial triage. It is not a replacement for any initiative maintainers or DRIs as well as not a replacement for Support or other times.
-
-### Responsibilities
-
-1. Monitoring and triaging the [Reference Architecture performance pipelines](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/get-environments/ra-test-environments/-/wikis/Performance-pipelines-triage)
-1. Monitoring and responding to requests in GET/RA Slack channels.
-
-Responses are aimed to be timely, with a general target of a few days at most. This is not a strict target and can vary depending on team availability.
-
-### Process Guidelines
-
-* DRI maintains ownership of cases they begin during their rotation, even after the rotation ends
-* DRI focuses solely on new incoming cases
-* Questions requiring specific expertise will be redirected to appropriate team members - when in doubt, seek assistance from the initiative's maintainers.
-
-### Shadows
-
-The Triage DRI may have a shadow assigned for learning purposes and onboarding to become a DRI themselves.
-
-The shadowing process works as follows:
-
-* Shadowing is primarily asynchronous
-* Progress is tracked through dedicated shadowing issues, where debriefs and questions about specific instances should be raised
-* Minimum goal of four rotations but this can continue until such a time when the engineer feels comfortable taking on the DRI role
-
-### Cadence
-
-The Triage DRI role will be on a weekly rotation cadence.
-
-Please see the [schedule here](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/software-delivery-framework-issue-tracker/-/issues/52).
+* Self-service using GET documentation
+  * Teams can follow the comprehensive [GET documentation](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation) to build their own environments. This is the primary recommended approach for teams that need custom environments.
+  * Using the automated [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) offering is recommended for setting up a cloud account for testing and development purposes.
+* Run GitLab locally: For simpler needs, running GDK or Docker locally is recommended instead of building large environments to reduce costs and complexity.
+* Use shared environments from Infra: Utilizing existing shared environments provided by the Infrastructure team.
 
 ## Project Management
 
@@ -155,12 +130,12 @@ Every sub-epic must
 1. Epic DRIs will be pinged on Tuesdays to leave a status update for the week in the epic.
 1. These updates are collected into the team's top-level epic which feeds into the [Grand Review](/handbook/engineering/infrastructure/platforms/#grand-review).
 
-We follow Platforms Project Management practices as outlined [here](/handbook/engineering/infrastructure/platforms/project-management/).
+We follow Platforms Project Management practices as [outlined](/handbook/engineering/infrastructure/platforms/project-management/).
 
 ### Labels
 
 <!-- Labels explanations -->
-The primary team label is `team::GitLab Delivery Framework`. This label should be applied to issues and epics throughout the organization that require the team's attention.
+The primary team label is `group::framework`. This label should be applied to issues and epics throughout the organization that require the team's attention.
 The team tracks work using the `workflow` and `workflow-infra` labels across issues, epics, and MRs. Team members will ensure that their work items are updated with the correct workflow labels.
 
 | `gitlab-org` issues | `gitlab-com/gl-infra` issues |
@@ -192,6 +167,8 @@ The team tracks work using the `workflow` and `workflow-infra` labels across iss
 ### Future Maintenance :construction:
 <!-- If this involves building a new piece of tooling, pipelines, or artifacts, clearly identify and align on future maintenance responsibilities. -->
 
+### Acceptance Criteria
+
 ### Documentation :book:
 
 * Publicly Accessible Documentation:
@@ -206,7 +183,7 @@ The team tracks work using the `workflow` and `workflow-infra` labels across iss
 
 <!-- STATUS NOTE END -->
 
-/label ~"team::GitLab Delivery Framework" ~"workflow-infra::Triage"
+/label ~"group::framework" ~"workflow-infra::Triage"
 
 ```
 

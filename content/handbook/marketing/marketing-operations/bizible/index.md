@@ -97,7 +97,7 @@ Online Touchpoints are created when users submit a form on a GitLab web property
 
 While offline Touchpoints need an SFDC campaign created beforehand to create touchpoints, online Touchpoints do not.
 
-**Important:** Users must have allowed or not rejected cookies for AMM to create online Touchpoints. GitLab uses OneTrust to manage user [consent on our web properties](/handbook/marketing/digital-experience/onetrust/#consent-models), [depending on the user's location](/handbook/marketing/digital-experience/onetrust/#banner-rules) they may have to allow cookies for the AMM script to load. **If the user rejects or opts out of OneTrust consent, AMM will not create online Touchpoints.**
+**Important:** Users must have allowed or not rejected cookies for AMM to create online Touchpoints. GitLab uses OneTrust to manage user [consent on our web properties](/handbook/marketing/digital-experience/onetrust/#consent-models), [depending on the user's location](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-analytics/onetrust/) they may have to allow cookies for the AMM script to load. **If the user rejects or opts out of OneTrust consent, AMM will not create online Touchpoints.**
 
 #### Offline
 

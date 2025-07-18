@@ -70,7 +70,7 @@ Support Engineers looking to configure a Self-Managed instance should review our
 
 ### Sharing logs
 
-To share the current state of your log search, be sure to use  `Share > Get Links > Copy Link`. Copying the URL directly will fail to load your search when other users attempt to use it. Since it is encoded, your search parameters will not be included in the URL.
+To share the current state of your log search, follow Elastic's [log sharing](https://www.elastic.co/docs/explore-analyze/report-and-share#share-a-direct-link) documentation. Copying the URL directly will fail to load your search when other users attempt to use it. Since it is encoded, your search parameters will not be included in the URL.
 
 ### Dashboards
 
@@ -119,6 +119,19 @@ We can determine if the GitLab Runner registration token was reset for a group o
 1. Add a positive filter on `json.path` for the path of the group, which is just `gitlab-bronze` in this example.
 1. Add a positive filter on `json.action` for `reset_registration_token`.
 1. Observe the results. If there were any they will contain the username of the user that triggered the reset in the `json.username` field of the result.
+
+### Access Token activity
+
+We can determine the kind of activities an Access Token (Group, Project, Personal) is performing. To find the log entry:
+
+1. Find the `id` of the Access Token you are interested in using the [API](https://docs.gitlab.com/api/personal_access_tokens/) or UI.
+1. In `pubsub-rails-inf-gprd-*`, set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
+1. Add a positive filter on `json.token_id` for the `id` in step 1.
+1. Add other filters that you might be interested in:
+    - `json.username`
+    - `json.path`
+    - `json.method`
+    - `json.token_type`
 
 ### Deleted Group/Subgroup/Project
 
@@ -174,7 +187,7 @@ If an account was deleted by an admin, try searching with these filters:
 
 Observe the results. There should be only one result if the account that was filtered for was deleted within the specified timeframe.
 
-If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/user/gitlab_com/#email-confirmation), try searching with these filters:
+If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/user/gitlab_com/#confirmation-settings), try searching with these filters:
 
 1. Change to the `pubsub-sidekiq-inf-gprd*` index.
 1. Add a positive filter on `json.meta.user` for the username of the user. (Alternatively, you can use `json.args.keyword` and use the User ID of the user if you have that).
@@ -223,7 +236,7 @@ To investigate SAML login problems:
 In the `pubsub-rails-inf-gprd-*` log:
 
 1. Set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
-1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#searching-rails-log-for-a-saml-response).
+1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#search-rails-logs-for-a-saml-sign-in).
 
 After decoding the SAML response, and observing the results corresponding to your chosen filters, you can see if there are any missing or misconfigured attributes.
 
@@ -407,7 +420,7 @@ Kibana can be used to search for specific errors related to a purchase attempt. 
 
 #### GitLab.com purchase errors
 
-**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [User Lookup in the GitLab Super App](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#gitlab-super-app).
+**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the User Lookup in the GitLab Super App.
 
 1. Navigate to [Kibana](https://log.gprd.gitlab.net/)
 1. Ensure the `pubsub-rails-inf-gprd-*` index pattern (GitLab.com logs) is selected.

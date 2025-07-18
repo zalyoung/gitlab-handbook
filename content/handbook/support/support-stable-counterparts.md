@@ -1,13 +1,13 @@
 ---
 title: Support Stable Counterparts
-description: The purpose of this page is to give an overview and outline the expectations of the Support Stable Counterparts initiative.
+description: An overview of the Support Stable Counterpart role and related expectations and goals.
 ---
 
 ## Overview
 
 As a result of our direct interactions with customers, the Support Team occupies a unique position in GitLab that gives us the opportunity to connect product managers with customer feedback, and influence changes. To take advantage of this opportunity, we've adopted a model that is known within GitLab as "Stable Counterparts." In brief, a "stable counterpart" is an assigned, permanent contact for a GitLab Team Member within another function in the company. See the [Stable counterparts](/handbook/leadership/#stable-counterparts) item on the Leadership page, and [An ode to stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/) for more information.
 
-## Expected outcomes of the Support Stable Counterpart (SSC) Initiative
+## Expected outcomes
 
 - SSCs act as a bridge between the wider Support team and the Product groups to **share information both ways**.
 - SSCs become the voice of the customer in product forums, and can influence product decisions.
@@ -53,9 +53,9 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 ### Enable Support with periodic communication relevant to the group
 
 - A monthly communication cadence is recommended. Since your group might not have a lot of updates to share with Support every month, set a cadence that is appropriate for the situation.
-- [Section SSC] Ensure a regular cadence of communication with the group level SSCs to ensure alignment and balance of prioritization of issues.
+  - Support's Monthly Business Review can serve as natural check-in via the [SSC Feedback slides](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Support+MBR&first_page_size=20) you're supposed to update.
 - Share announcements through the [SWIR](/handbook/support/#support-week-in-review) and in relevant Support Slack channels.
-  - Use the prefix `[SSC Update: Group_Name: GitLab(Major).(Minor).(Patch)]` for your updates in both SWIR and in relevant slack channels. Having consistency in this will help us measure the success and usefulness of this initiative.
+  - Use the prefix `[SSC Update: Group_Name: GitLab(Major).(Minor).(Patch)]` for your updates in both SWIR and in relevant Slack channels. This consistency helps highlight the impact and significance of the SSC role.
 - Group related updates and announcements can be:
   - New features added in an upcoming release
   - Bug fixes in an upcoming release
@@ -68,7 +68,8 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 - If you have not had any updates to share in a long time, consider sending out a quick "Nothing major you have to watch out for with this release, all is well!" or "Here is an awesome new unfiltered video on this topic" etc.
 - Catalyze training materials and sessions as needed.
 - [Optional] Consider doing quarterly office hours to chat about your group and share your experiences as an SSC with newer team members.
-- [Optional] Be the DRI or ensure to find a DRI on any [Support Readiness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=due_date&state=all&label_name%5B%5D=Support%20Readiness&first_page_size=100) from your product group to ensure major changes are widely communicated.
+- [Optional] Be the DRI or ensure to find a DRI on any [Support Preparedness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=due_date&state=all&label_name%5B%5D=Support%20Preparedness&first_page_size=100) from your product group to ensure major changes are widely communicated.
+- [Section SSC] Ensure a regular cadence of communication with the group level SSCs to ensure alignment and balance of prioritization of issues.
 
 ### Enable Product with periodic communication relevant to the group
 
@@ -97,11 +98,11 @@ Here's some things that other SSCs are doing that might serve as additional insp
 - Being an SSC is a different experience based on the group. However, you will have certain tried and tested best practices that will help newly onboarded SSCs. Consider sharing them with the other SSCs in the team.
   - Use the `@gitlab-com/support/support-stable-counterparts` GitLab group, and `#spt_stable-counterparts` Slack channel to share best practices with other SSCs, and to gather input and feedback on process changes, improvements and other discussions.
     - This Slack channel has both Slackbot's reminder app and Geekbot enabled to encourage channel participants to share periodic updates.
-- Iterate on this page and other templates used in this initiative based on what works and what doesn't in the real world. Support Engineers looking to become SSCs will benefit from these.
+- Iterate on this page and other aspects of the process based on what works and what doesn't in the real world so that future SSCs can benefit from your learnings.
 
 ### Raise concerns with your manager if unable to set aside required time to be an SSC
 
-- The success of this initiative depends heavily on the ability of the SSC to build and maintain a relationship with the Product team. You will need to dedicate time to it regularly.
+- Your success in the SSC role depends on your ability to build and maintain a relationship with the Product team. You will need to dedicate time to it regularly.
 - If you find yourself unable to do justice to the expectations, have a chat with your manager and let them help you with time management and prioritization.
 - It is perfectly alright to step aside for a few weeks and get back into it again once you have the bandwidth to do so.
 
@@ -124,16 +125,6 @@ Here's some things that other SSCs are doing that might serve as additional insp
 - Set and manage expectations to get the most out of this!
 
 If your group doesn't have an SSC assigned and you'd like to request one, please create an issue in [the support-stable-counterpart project](https://gitlab.com/gitlab-com/support/support-stable-counterpart/-/issues/new?issuable_template=Request%20new%20SSC%20for%20Group) and share in [#support_team-chat](https://gitlab.slack.com/archives/CCBJYEWAW) and [#spt_stable-counterparts](https://gitlab.slack.com/archives/C01SEKQ1SMS).
-
-## Feedback on the current initiative
-
-During Q3-FY23 the SSC create and document process to ensure alignment of Support and Product issue prioritization and track results OKR focused on reaching out to Product and Engineering Managers, and their SSC/s to gather feedback. A common theme highlighted an interest from Product Managers having inputs from Support that may be able to provide insights for product planning and prioritization meetings with Product Managers.
-
-SSCs that are regularly engaging with their product group are informing Support with knowledge they have picked up and the Product and Engineering Managers have built a steady relationship in these particular groups. There are still a few groups who are yet to build these foundational relationships, however, the feedback issues created an opportunity to encourage these discussions to start and a path forward for these groups to be carved out.
-
-## Support Customer Impact Dashboard
-
-Based on feedback from SSCs regarding how to better inform product groups of the impact that issues have on customers, I have begun work on a Support-centric dashboard that will enable Support to identify trending issues and produce data to assist in prioritization. For more details, refer to [Customer Support Linked Issues Dashboard](https://gitlab.com/gitlab-data/analytics/-/issues/14593).
 
 ## Current SSC Vacancies
 
@@ -161,7 +152,7 @@ Non-group specific counterparts typically also step in when the related group ha
 |:----------------:|:--------------:|:-------------------:|:-------------------:|:-------------------:|
 | Finance          | Accounts               | TBD                                          | TBD                                    | N/A |
 | Finance          | Budget                 | {{< member-by-name "Chase Wright" >}}        | TBD                                    | 1x Qtr on budget + once per month |
-| Legal            | Legal                  | {{< member-by-name "Robin Schulman" >}}      | {{< member-by-name "Jason Colyer" >}}  | N/A |
+| Legal            | Legal                  | {{< member-by-name "Robin Schulman" >}}      | {{< member-by-name "Lee Matos" >}} {{< member-by-name "Val Parsons" >}}| N/A |
 | PeopleOps        | After-hire care        | {{< member-by-name "Jessica Mitchell" >}}    | TBD                                    | N/A |
 | PeopleOps        | Talent Acquisition     | {{< member-by-name "Cyndi Walsh" >}}         | TBD                                    | N/A |
 | Performance      | Performance            | {{< member-by-name "Stan Hu" >}}             | {{< member-by-name "Lee Matos" >}}     | N/A |
@@ -176,6 +167,6 @@ Non-group specific counterparts typically also step in when the related group ha
 
 ## Product counterparts
 
-{{< section-counterparts >}}
+{{< engineering/section-counterparts >}}
 
-{{< stages-counterparts >}}
+{{< engineering/stages-counterparts >}}

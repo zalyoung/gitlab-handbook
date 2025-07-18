@@ -216,7 +216,7 @@ The Deal Desk team will be responsible for taking action on feedback received in
 
 ### Key Performance Indicators: Results
 
-To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/sales-operations/Deal-Desk-Order-Mgmt-KPIs/)
+To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/sales-operations/deal-desk-order-mgmt-kpis/)
 
 ### Proactive Opportunity Review
 
@@ -382,6 +382,41 @@ If you choose to add Annual Payments to a quote, please keep in mind the followi
 
 - If the customer or reseller is based in the EU, enter the "VAT ID" number. This is required to book the order.
 
+#### Payment Capture Link Step by Step Guide
+
+The payment capture link functionality is a tool by which Opportunity Owners can send a **credit card** capture link to customers for First Order deals. This ensures a successful payment for new subscriptions, while at the same storing their credit card information for future transactions. Before going into the step by step guide on how to use this tool, please see an outline of the tool below:
+
+- **Deal Type**: The payment capture link tool is only available for First Orders / new subscription deals. This tool is not available for Partner deals. As of April 4th 2024, the the payment capture link flow is **required** for all [SMB $19 Promo](https://about.gitlab.com/pricing/smb-promo/) deals.
+- **Quote Type**: The tool can only be used when **Credit Card** is selected as the payment method when creating **New Subscription** quotes in Quote Studio. 
+- **Approvals**: Quote has to be submitted for approval & approved or approval not required before payment link can be sent to the customer.
+- **Distribution Method**: The Opportunity Owner sends the link through a **Send Payment Link** button in SFDC, which triggers an email out to the customer with a payment capture link.
+- **Link Expiration**: The payment capture link expires after 72 hours, after which you will need to send another link if the recipient has not entered their details yet. You will be notified on SFDC if this occurs.
+- **Opportunity Closure Requirements**: The credit card details need to be captured before you can close the Opportunity. In other words, the customer needs to successfully open the payment capture link and enter their credit card information for the deal to close and for them to access GitLab.
+
+**Step by step guide:**
+
+Please see this [video](https://gitlab.highspot.com/items/67eed1b04e5bc5ca5624e8a1?lfrm=rhp.0) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
+
+1. After you have reached the **Select "Sold To" and "Bill To" contacts.**  step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide, select **Credit Card** under the **Payment Method** dropdown menu.
+1. Complete the **To Add Products to your quote,** step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide and add approriate discounts if needed.
+1. Once you are ready to save the quote, click **Submit** at the top of the screen.
+1. The Quote has to be submitted for approval & approved or `approval not required` (i.e. there is no discount or the discount is too low to require approvals as per the appropriate discount matrix) to be able to send the payment link. So, please ensure you have gotten the appropriate approvals before proceeding to the next step.
+1. Click on the dropdown menu while you are on the Quotes page next to the **Generate Signature PDF** button.
+1. Select **Send Payment Link**.
+1. This will send a payment link email with the subject **Set Up Your Secure Automated Credit Card Payments** to the customer. Please see the above linked video for a customer POV.
+1. Once the customer has successfully entered the payment details in the capture link, the quote will be updated confirmation of the capture in the fields **Payment Method Captured** and **Payment Method Capture Date**. If the customer does not enter the enter their details within 72 hours, the link is expired and you will be notifed. You will have to send another link.
+1. The Opportunity cannot be closed until the payment details have been captured. 
+
+**FAQ:**
+
+1. **Is the payment capture link a payment link?** No, this is strictly a link to capture the payment information. The actual payment happens at a later date (explained in a later question below).
+1. Could we get notifications when the customer has successfully completed the payment capture link form? We are working on this and the notification will show in SFDC once the customer successfully enters the required information.
+1. **What if the customer does not want to use the payment capture link?** If you are unable to get the customer to submit their credit card payment details for whatever reason, you can switch to Wire payment.
+1. **When should I explain to the customer how the payment capture link works?** We advise that you inform the customer ahead of time on how the payment capture link works and that they will not recieve a license until they provide the payment information.
+1. **At what point in the deal should I send the payment capture link?** Assuming you are also sending an order form, please consider the timing of sharing the order form alongside the payment capture link such that it is a smooth process for the customer.
+1. **Do customers using this tool get an invoice? How does it get paid?** All customers using this tool will receive an invoice within 24 hours of the opportunity status being updated to closed won. As the customer is on auto-pay, the payment will typically happen on midnight of the date the invoice is due via the captured credit card.
+1. **Can the payment terms for customers using this tool be Net 30?** Although we highly recommend Due Upon Receipt, it can be Net 30 if the customer is pushing for it. 
+
 ### Quote Creation: Step by Step Guide by Quote Type
 
 #### New Subscription Quote
@@ -427,6 +462,7 @@ C.  On this second and final page of the quoting experience, populate Quote Deta
 | Remove Signature Block         | Signature Block will be removed. Use for customers with Existing Agreements (MSA)        |
 
 - **Select "Sold To" and "Bill To" contacts.** Note that the "Sold To" contact will receive the EULA or License file via email. Note: Each contact record must have a complete address, if the address is not fully populated, you will need to update this before you can proceed with the quote.
+- If you are selecting **Credit Card** under the **Payment Method** dropdown menu, please follow the [Payment Capture Link Step by Step Guide](/handbook/sales/field-operations/sales-operations/deal-desk/#payment-capture-link-step-by-step-guide) before returning to this guide.
 - For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank.
   - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
   - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Request Support to the Billing Ops team, tagging the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
@@ -743,7 +779,7 @@ B. MSP Quote Creation Steps:
   - **Invoice Owner Contact** = Billing Account Contact record (this person will receive the invoice) of the MSP partner
   - **Discount** = Programmatic partner discounts for the MSP must be added to the quote. There is a [Partner Discount Cheat Sheet](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing) for use by internal GitLab Team Members for ease of quoting.
 
-Refer to the [MSP step-by-step quoting guide](https://gitlab.highspot.com/items/641241c62d511fd525a390e1) for further information.
+Refer to the [MSP step-by-step quoting guide](https://gitlab.highspot.com/items/67c87823e796e70b0f97a0c6?lfrm=srp.0) for further information.
 
 More details on MSP Deal Registration can be found in the [Partner Ops handbook](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-msp-opportunities).
 
@@ -924,7 +960,7 @@ Contract Resets are used to perform an "Early Renewal" - i.e. start a new 12 mon
 - Fill out the necessary information on the quote per the instruction under the New Subscription Quote section above.
   - **Note: The Start Date should be the new subscription term's start date, or the "Early Renewal" date.**
 - Click Next and update the products and fees per the steps above.
-- **IMPORTANT:** Next, please use the "Request Support" workflow on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
+- **IMPORTANT:** Next, please use the "Request Support" workflow on the Renewal Opportunity for Deal Desk to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and add Contract Reset custom terms to your New Subscription quote to appear on the Order Form once the quote has been fully approved.
 
 For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure the customer is not downgraded to free when their initial subscription is cancelled. These are outlined in more detail in [this presentation](https://docs.google.com/presentation/d/1fv_QMzPJ4Al5AaPBNd-IW5dCwuac56ShrzcpjUO_S60/edit?usp=sharing).
 

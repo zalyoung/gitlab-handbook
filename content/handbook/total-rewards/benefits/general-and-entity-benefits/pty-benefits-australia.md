@@ -60,9 +60,9 @@ Starting on 2023-07-27, Australian team members will be able to review their pla
 
 #### Leavers
 
-For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member's health insurance reamins in place, with the full cost of cover being their responsiblity. BUPA's customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they're enrolled on.
+For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member’s health insurance remains in place, with the full cost of cover being their responsibility. BUPA’s customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they’re enrolled on.
 
-The Total Rewards team will inform BUPA of leaves on a monthly basis. 
+The Total Rewards team will inform BUPA of leaves on a monthly basis.
 
 #### Contact & Support for Enrollment, Plan Questions
 
@@ -73,7 +73,7 @@ Please email *paul.dervan@wtwco.com* and cc' *total-rewards@gitlab.com*
 
 ### Superannuation
 
-GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate. Effective 2024, the superannuation rate is set at 11.5% of the team member's total salary, with a quarterly cap of $7,483.05 AUD. Super is on top of the salary listed in the compensation calculator/contract.
+GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate. Effective 1 July 2025, the superannuation rate is set at 12% of the team member's total salary, with a quarterly cap of $7,500 AUD. Super is on top of the salary listed in the compensation calculator/contract.
 
 #### Superannuation payments due dates
 
@@ -83,7 +83,7 @@ The Australian Taxation Office (ATO) states the following:
 
 > You pay super for eligible employees calculated from the day they start with you. You must make the payments at least four times a year, by the quarterly due dates.
 
-Payments due dates can be found on the [ATO website](https://www.ato.gov.au/business/super-for-employers/paying-super-contributions/when-to-pay-super/).
+Payments due dates can be found on the [ATO website](https://www.ato.gov.au/businesses-and-organisations/super-for-employers/paying-super-contributions/super-payment-due-dates).
 
 #### Superannuation Salary Sacrifice
 
@@ -404,7 +404,7 @@ In considering whether contact is unreasonable, think about:
 - the nature of the team member’s role and their level of responsibility; and
 - the team member’s personal circumstances.
 
-In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).
+In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](mailto:teammemberrelations@gitlab.com).
 
 The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/work-conditions/awards/find-award).
 

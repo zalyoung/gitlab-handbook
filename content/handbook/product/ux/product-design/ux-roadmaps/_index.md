@@ -138,7 +138,7 @@ Most of the work Product Designers do will be on themes in the (Now): `{Next 1-3
 
 The UX Theme issue is where all planning, discussion, and collaboration occurs. It is what the research and solutions are based on. The related issues contained within it are parts of the whole and may evolve or even get closed as more knowledge and understanding of the theme becomes clear. As work progresses on the theme, new issues may also need to be created per our existing workflow processes. As these are based on the theme, they will be added or linked to the theme for tracking purposes. The most important aspect of working on themes is that research and design solutions are based on the theme first and any related MVC issues second. The intention is to work on the whole of the theme in a complete, holistic way as opposed to its individual-related issues. This process is about workflows vs. features and delivering quality and value to our users vs. an incomplete start of something that's viable but lacks value or usability.
 
-As the design is completed (progressing from low-fidelity to high-fidelity), assets should be uploaded to the UX Theme issue, either in the description or in the design management tool for tracking/SSOT purposes. When the holistic design is complete, notify your counterparts that it is ready for planning breakdown following the [Product Development Workflow](/handbook/product-development-flow/#build-goals--outcomes) guidelines.
+As the design is completed (progressing from low-fidelity to high-fidelity), assets should be uploaded to the UX Theme issue, either in the description or in the design management tool for tracking/SSOT purposes. When the holistic design is complete, notify your counterparts that it is ready for planning breakdown following the [Product Development Workflow](/handbook/product-development/how-we-work/product-development-flow/#build-goals--outcomes) guidelines.
 
 ### Suggested workflow
 
@@ -162,7 +162,7 @@ As the design is completed (progressing from low-fidelity to high-fidelity), ass
     - Adjust your designs as necessary based on this user feedback solidifying your design direction.
 1. **Hand-off.** Work with your counterparts to break down your design into appropriate MVC(s).
     - Consider the value each MVC provides to the user and if it can stand alone without its subsequent MVCs in the product. If it cannot stand alone, discuss the possibility of a feature flag or a delayed release with your team.
-    - Follow the rest of the [Product Development Flow](/handbook/product-development-flow/) once you and your team have completed the planning breakdown process.
+    - Follow the rest of the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/) once you and your team have completed the planning breakdown process.
 
 ### UX Research working on themes
 

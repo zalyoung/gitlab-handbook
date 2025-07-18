@@ -1,91 +1,209 @@
 ---
 title: "Iteration 0"
-description: "Learn about the first step of a GitLab PS engagement with a customer."
+description: "Iteration 0 starts with our internal EM>PS Transition meeting and continues through the Planning and Design Sessions with the Customer. This critical phase establishes project foundations and ensures alignment between GitLab and Customer teams."
 ---
 
-Iteration 0 starts with our internal EM>PS Transition meeting and goes through the Planning and Design Sessions with the Customer. Please reference [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.md) as we prepare for the following stages.
+**Quick Links:** | [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.md) | [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits)
 
-A reminder to [think big in discovery](../discovery/_index.md) and consider [team alignment for production readiness](../iteration-0-fundamentals/_index.md#engagement-planning). A well-rounded Iteration 0, helps us (and the Customer team) head into the Initial Planning and Design meetings with our customers confidently.
+## Phase Overview
 
-For **Transformational planning** throughout iterations, please [reference here.](../iteration-planning-per-service-offering/_index.md).
+Iteration 0 consists of four key activities that build upon each other:
 
-[Guidelines for PSDM management](../_index.md#guidelines-for-psdm)
+1. [EM>PS Transition](#emps-transition) - Internal knowledge transfer
+2. [Stakeholder Planning Meeting](#stakeholder-planning-meeting) - Initial customer alignment
+3. [Customer Kickoff](#customer-kickoff) - Full team engagement
+4. [Support Preparation](#prepare-support-for-issues) - Proactive issue management
+
+Each activity has specific inputs, processes, and outputs to ensure a smooth start to your project.
+
+---
 
 ## EM>PS Transition
 
-We use the [Scheduling Intake issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md?ref_type=heads) as a guide for the meeting, as it will help us map the next steps with our Customers. The Scheduling Intake issue is created and attached to the Customer Epic
+**Purpose:** Gather context on the account, validate the SOW, and prepare for customer-facing activities.
 
-For larger/complex programs with multiple stakeholders, please use [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027) as guidance
+### Pre-Meeting Preparation
 
-The Delivery team can use [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting to ensure all points are considered from the Scheduling Intake issue. For larger/Transformation Migrations, please be sure to reference the above.
+Before the transition meeting:
 
-The output of this meeting is to ensure the Delivery team is prepared, and we have a plan heading into the Customer Kickoff & Discovery & Planning sessions with our customers.
+1. **Review Documentation**
+   - Statement of Work (SOW)
+   - Kantata project details
+   - Scoping issues attached to the Customer Epic
+   - For Consulting Block SKUs: Review the [DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) (should be attached to Customer Epic)
+
+2. **Schedule the Meeting**
+   - Include: Engagement Manager, Technical Architect, Professional Services Engineer, Account Managers, and Customer Success Managers (if assigned)
+   - Use the [Schedule Intake issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingIntakeQuestions.md) or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to prepare the agenda
+
+3. **Gather Prerequisite Data**
+   - Reference [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) for relevant information
+   - Review [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.md)
+   - Consider [discovery best practices](../discovery/_index.md)
+   - For complex programs, prepare a [RACI template](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027)
+
+### Meeting Execution
+
+Focus the discussion on:
+
+- Business drivers and context
+- SOW validation and clarification
+- Technical requirements overview
+- Schedule planning for Stakeholder Planning and Kickoff
+- Risks and dependencies
+
+### Key Outputs
+
+Following the meeting, ensure completion of:
+
+- [ ] Internal team understands where to find the latest status
+- [ ] Initiate [Collaboration Project](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/cp/) setup and pin to Slack channel, along with the internal retrospective issue (attached to the Customer Epic)
+- [ ] Stakeholder Planning meeting scheduled with the Customer
+- [ ] Technical prerequisites identified for discussion with the Customer
+- [ ] Initial risks documented
+
+> **💡 Tip:** Think big in discovery and consider team alignment for team readiness. The goal is to enter Planning and Design sessions confidently, with the Customer well-prepared.
+
+---
 
 ## Stakeholder Planning Meeting
 
-During this meeting, the PM between the GitLab & Customer side meet to review the high level scope, and gather any onboarding material that is still missing. This is an opportunity to meet each other and begin to build trust. Additionally, this is an opportunity to review how we plan to manage the project our of GitLab, along with a quick overview of our methodology. (review suggested cadences, iteration planning & review, preferred updated for status, etc.) We will take this information to our Customer kickoff and review it with the broader project teams. Please use the [Stakeholder Planning](https://docs.google.com/presentation/d/1vVJQrJeGG-yLAeso_iKkb80H5kE7wStyBAj1sj45sY4/edit#slide=id.g923452f41b_1_5) Meeting template to facilitate this meeting.
+**Purpose:** Align on project scope, resources, management approach, and dependencies to uncover any inconsistencies in expectations before the full team kickoff.
 
-The PM will take information from this discussion & the EM\>PS transition process and continue to build out the following for our [Customer Kickoff](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit#slide=id.p1):
+### Meeting Setup
 
-1. Project Roadmap (workstream overview, use EM timeline as a reference point)
-2. Definitions of success
-3. Review the project within GitLab (provide collateral as needed) & other tools (Zoom, Slack, etc.)
-4. Review & agree on Communication plan (iterations, cadence scheduling)
-5. Project Burndown (google sheets)
-6. RAID tracking
-   1. Risks for discussion
-7. Next steps
+1. Schedule a dedicated meeting with Customer PM & key stakeholders from both GitLab and Customer teams.
+2. Use the [Stakeholder Planning Template](https://docs.google.com/presentation/d/1vVJQrJeGG-yLAeso_iKkb80H5kE7wStyBAj1sj45sY4/edit#slide=id.g923452f41b_1_5) to guide the discussion
+3. Focus on mutual understanding of project parameters
+
+### Key Discussion Topics
+
+1. **Project Stakeholders**
+   - Identify all key participants and their roles
+   - Confirm availability and communication channels
+
+2. **Project Objectives**
+   - Validate business drivers and success criteria
+   - Align on use cases and expected outcomes
+
+3. **Project Velocity and Timeline**
+   - Set expectations on pace and milestone dates
+   - Discuss sprint/iteration cadence preferences
+
+4. **Project Prerequisites**
+   - Review technical and organizational readiness
+   - Identify any blockers to starting work
+
+5. **Kickoff Preparation**
+   - Determine agenda and participants for the full kickoff
+   - Set expectations for the kickoff meeting
+
+6. **Onboarding Validations**
+   - Ensure all access and permissions are in place
+   - Verify environments and tooling availability
+
+7. **Next Steps**
+   - Document action items with owners and deadlines
+   - Plan for Customer Kickoff and Discovery sessions
+
+### Key Outputs
+
+- [ ] Validated stakeholder list and roles
+- [ ] Aligned expectations on timeline and velocity
+- [ ] Documented prerequisites and dependencies
+- [ ] Prepared agenda for Customer Kickoff
+- [ ] Action items with clear ownership
+- [ ] Create Customer Slack channel and invite Customer Project team members. You can you use this AR as [template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request)
+
+> **💡 Tip:** Use this meeting to identify and address any expectation misalignment between GitLab and the Customer team before the broader kickoff meeting.
+
+---
 
 ## Customer Kickoff
 
-Before we enter Project Kickoff, the goal is to confidently be on the same understanding of Project expectations as the Customer. This is why we have spent so much effort gathering the initial information from both the account team & the Customer.
+**Purpose:** Bring together all relevant project stakeholders to align on project objectives, approach, and next steps to enable swift execution.
 
-* The template for our Kickoff deck can be found [here.](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit#slide=id.p1)
-* Our [SteerCO template](https://docs.google.com/presentation/d/1TDKOJeuzR1uy18umu6ovy30l_A986pOEatFn_7eiNbQ/edit#slide=id.g2e563e08cf5_0_1) can be found here.
-* It is recommended to use GitLab for Iteration status reporting, but if the customer prefers a deck, please reference this [template.](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252)
+### Preparation
 
-output: prepared & scheduled Discovery & Planning sessions, and [Iteration Cadences](../iteration-scheduling/_index.md) are confirmed by the Customer
+1. Consolidate insights from EM>PS Transition and Stakeholder Planning
+2. Prepare the presentation using the [Kickoff deck template](https://docs.google.com/presentation/d/1Sva2u7NGxUTmDxQNBpqmFm_ep9HHlU86WyhON-To5lU/edit#slide=id.g3427bc5c553_0_243)
+3. For projects with steering committees, also prepare the [SteerCO template](https://docs.google.com/presentation/d/1TDKOJeuzR1uy18umu6ovy30l_A986pOEatFn_7eiNbQ/edit#slide=id.g2e563e08cf5_0_1)
+4. Ensure all key stakeholders are invited
+
+### Meeting Content
+
+Present a comprehensive overview of:
+
+- Project objectives and success criteria
+- Team structure and roles
+- Project approach and methodology
+- Timeline and milestone plan
+- Communication and reporting cadence
+- Next steps and immediate actions
+
+### Key Outputs
+
+- [ ] Confirmed understanding of project objectives and approach
+- [ ] Scheduled Discovery & Planning sessions
+- [ ] Confirmed [Iteration Cadences](../iteration-scheduling/_index.md)
+- [ ] Documented action items with clear ownership
+
+---
 
 ## Prepare Support for Issues
 
-To better support our engagement, we can proactively prepare the Support team by providing key project information in advance. This process enables us to pre-populate support tickets with relevant notes when a customer opens them during the engagement. Throughout the engagement, product issues, bugs, or unexpected functionality may occur. Additionally, there could be corruption or environment issues on the customer’s side that were not initially scoped into the engagement, requiring involvement from Support or Product teams. By ensuring that pertinent data is readily available, we can streamline collaboration and resolve issues more efficiently as they arise. While this process is critical for any infrastructure-related project, such as implementations, it can also be valuable for other engagements where support issues may occur.
+**Purpose:** Proactively prepare the Support team by providing key project information to streamline issue resolution during the engagement.
 
-### Getting Access to ZenDesk Ticket System
+> This process is critical for infrastructure-related projects like implementations but valuable for any engagement where support issues may arise.
 
-If you do not have ZenDesk light (Read-Only) open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) requesting one.
+### ZenDesk Access
 
-### Creating a ZenDesk Note for Support
+If you don't have ZenDesk light (Read-Only) access:
 
-1. Find the relevant org `.yaml` find in the [Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations) by [Searching](https://gitlab.com/search?search=&nav_source=navbar&project_id=27675679&group_id=78867384&search_code=true&repository_ref=master) for the Customer Name (It will be a hash, followed by the name in Salesforce).
-![image](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/Zen-search.png)
+- For Zendesk Global
+  - See [Requesting a ZenDesk ‘Light Agent’ account](../../../../support/internal-support/#requesting-a-zendesk-light-agent-account)
+- For Zendesk US Government
+  1. Open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
+  1. Make sure the `System name` value is `Zendesk - US Federal, light agent access`
+  1. Assign to your manager
+  1. Once your manager approved (as per the AR instructions), they will ping the `Zendesk - US Federal` [tech_stack owner(s)](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
+     - Keep in mind you must have US citizenship to have this access
 
-1. Create a new Merge Request by Selecting the YAML from Search. Then `Edit > Open in Web IDE`
-![image](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/edit-yaml.png)
+### Creating a Support Note
 
-1. Add the block below after notes starting with a pipe "|" (this Character indicates a multi line entry). The fields should be spaced 1 tab from notes.
-Include the details below and anything else that would be helpful for support to know when engaging the customer. If notes content already exists append this to it to include both.
+{{% alert title="Note" color="danger" %}}
 
-   ```yaml
-   ---
-   id: 27946339528
-   name: 5a1f9965 Test Account
-   notes: |
-      PS Project in Progress
-      Project Manager:
-      Slack Channels:
-      Engineers:
-      Start Date:
-      Anticipated End Date:
-      Summary of Engagement:
-      Support should know:
-      Collaboration Project RAID(Issue) Board Link:
-   ```
+The below information is solely for Zendesk Global. If the organization is on Zendesk US Government, please make a post in [#support_operations](https://gitlab.enterprise.slack.com/archives/C018ZGZAMPD) specifying you need to modify an organization note in Zendesk US Government, making sure to provide the Salesforce Account or Zendesk Organization link (do not state the name of the customer or any other sensitive information).
 
-1. Commit your changes by clicking the Source Control Button (noted with 1 change) > The drop down arrow > Create new branch and commit.
-![image](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/newmr.jpg)
+Customer Support Operations (those with Zendesk US Government access) will work with you to get that completed.
 
-1. Hit Enter to accept the default branch name (Should by a combination with your user name)
+{{% /alert %}}
 
-1. Select the Create MR Button on the bottom right of the Web IDE.
+#### Step 1: Find the Customer Organization
 
-1. At the close of the project repeat this step, but remove the contents added after notes.
+1. Access the [Organizations Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations)
+2. Search for the Customer Name (will appear as a hash followed by the Salesforce name)
+   ![ZenDesk Search Image](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/Zen-search.png)
+
+#### Step 2: Edit the YAML File
+
+1. Select the YAML from Search, then click `Edit > Open in Web IDE`
+   ![Edit YAML Image](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/edit-yaml.png)
+
+2. Add information after the notes section (starting with a pipe `|`):
+
+```yaml
+---
+id: 27946339528
+name: 5a1f9965 Test Account
+notes: |
+   PS Project in Progress
+   Project Manager:
+   Slack Channels:
+   Engineers:
+   Start Date:
+   Anticipated End Date:
+   Summary of Engagement:
+   Support should know:
+   Collaboration Project RAID(Issue) Board Link:
+   

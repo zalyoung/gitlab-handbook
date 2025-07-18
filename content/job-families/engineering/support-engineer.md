@@ -102,6 +102,18 @@ You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 - you have the ability to use GitLab.
 - our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you.
 
+## Nice-to-Haves
+
+- Experience as a GitLab user
+- Startup company experience
+- Product company experience
+- Developer platform or tool industry experience
+- Work experience on an international or multicultural team
+- Experience working in a very larg company or with a very large system
+- Open source experience
+- Comfort and experience living our [DIB Value](/handbook/values/#diversity-inclusion)
+- A mindset for asking great, thoughtful questions
+
 ## Specialties
 
 ### Assigned Support Engineer (ASE)

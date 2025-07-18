@@ -336,7 +336,7 @@ The table includes free/community and paid tiers associated with GitLab's self-m
 
 ### Product Adoption - Lighthouse Metrics and Leading Indicators for CI
 
-The SSOT Handbook Page for Product Adoption - Lighthouse Metrics and Leading Indicators can be found in the [Enterprise Data Team Handbook](https://internal.gitlab.com/handbook/enterprise-data/company-kpis/product-adoption-lighthouse-metrics/)
+The SSOT Handbook Page for Product Adoption - Lighthouse Metrics and Leading Indicators can be found in the [Enterprise Data Team Handbook](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/product-adoption-lighthouse-metrics/)
 
 #### Additional Documentation Links
 

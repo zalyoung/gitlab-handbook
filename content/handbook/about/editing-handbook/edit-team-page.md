@@ -89,7 +89,7 @@ For more information on setting the `Export Name/Location to Team Page?` opt-in 
    1. Select the image you want to upload, and `Open`.
    1. If the image filename is different from what you updated your team page file previous, you need navigate back to your team page entry. You can do this by either closing the `sites` folder and opening `data`, then `team members`, `person`, and the folder containing you file; or you can notice your file tab on the top bar, and you can click on it to be taken to that file.
    1. If you did the previous step, update your `picture` field to your filename. Delete the content that is this line after the `picture:` that starts with `../gitlab` etc. Make sure to match the letter case of your picture file. The completed line should look like this: `picture: yournameinlowercase.jpg` for example.
-1. Once you have finished, click the `Source Control` icon on the left. It should have a small circle with a number inside of it. See point 5 of [Using the new Web IDE to edit the handbook](/handbook/about/editing-handbook/#web-ide-editing-steps) for details.
+1. Once you have finished, click the `Source Control` icon on the left. It should have a small circle with a number inside of it. See point 5 of [Using the new Web IDE to edit the handbook](/handbook/about/editing-handbook/#use-the-web-ide-to-edit-the-handbook) for details.
 1. Add a short description of your changes in the box above the `Commit and push` button. An example description would be `Update details to my team page entry`.
 1. Click the ⋁ on the right side of the `Commit and push` button.
 1. Choose the `Create new branch and commit` option.

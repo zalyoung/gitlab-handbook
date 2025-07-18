@@ -65,7 +65,7 @@ We’d love to collaborate with you, gather your perspective, and partner with y
 
 - **Ensure Your Customers Are Represented in UX Research**: You can nominate customers as research participants by sharing their details in the #ux_reops channel or direct your customers to [the UX Research Panel](https://research.rallyuxr.com/gitlab/lp/csmsignup?channel=app) to register their interest.
 - **Share what you know through GitLab User Insight Repository**: Share what you learn about your customers in the #ux_research channel, or connect with a designated UX researcher for specific stages or themes.
-- **Identify Areas for Improvement That Need Further Research (unknown)**: If you notice areas that could benefit from deeper exploration, feel free to mention it in the #ux_research channel or contact [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned). Providing a related issue for reference would be a bonus!
+- **Identify Areas for Improvement That Need Further Research (unknown)**: If you notice areas that could benefit from deeper exploration, feel free to mention it in the #ux_research channel or contact [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-team-members-are-assigned). Providing a related issue for reference would be a bonus!
 - **Leverage UX Research Insights to Guide Your Work**: Stay updated by checking out the #ux_research_reports channel for the latest insights. You can also explore [Dovetail](https://gitlab.dovetail.com/start/), our research insights management tool, to search by keywords or watch interview session recordings. You can also consult with [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/), to be more informed when making design, product or customer engagement decisions.
 
 **What you get in return**:
@@ -190,7 +190,7 @@ The UX Research team is here for you! Reach out in the #ux_research Slack channe
 
 #### Measures and processes the UX Research team is responsible for
 
-- [Product Customer Satisfaction (CSAT) Survey](/handbook/product/ux/performance-indicators/csat/)
+- [User Satisfaction (USAT) Survey](/handbook/product/ux/performance-indicators/usat//)
 - [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/)
   - [System Usability Scale responder outreach](/handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach/)
 - [Assessing Category Maturity](/handbook/product/ux/category-maturity/)

@@ -102,7 +102,7 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
 1. It's easier to quickly grow and scale your company.
    - GitLab **does not own/lease office space**. As colocated companies scale in size, their spend related to real estate will swell. This not only encompasses office space, but related activities such as security, cleaning, remodeling, etc. It also hampers [growth](scaling/). Hiring too many people in too short a time span will force you to move offices in quick succession, creating massive cost and inefficiency.
 1. Employees are [increasingly](https://web.archive.org/web/20240523000654/https://www.iofficecorp.com/blog/workplace-design-statistics) expecting remote work options from their employers.
-   - GitLab sees **over 3,000 applicants per week** for open [vacancies](https://about.gitlab.com/jobs/). Each applicant is given access to our [strategy](/handbook/company/strategy) and an overview of [what it's like to work at GitLab](/handbook/company/culture#so-thats-what-its-like-to-work-at-gitlab) *before* they are asked to invest time and energy in applying. We get more qualified applicants due to our [transparency](/handbook/values/#transparency), showcased through examples like [role description videos](https://youtu.be/BOeXgGu1Vco) hosted on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
+   - GitLab sees **over 3,000 applicants per week** for open [vacancies](https://about.gitlab.com/jobs/). Each applicant is given access to our and an overview of [Life at GitLab](/handbook/company/culture/#life-at-gitlab) *before* they are asked to invest time and energy in applying. We get more qualified applicants due to our [transparency](/handbook/values/#transparency), showcased through examples like [role description videos](https://youtu.be/BOeXgGu1Vco) hosted on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
 1. Companies often experience [lower employee turnover](https://resources.owllabs.com/blog/remote-work-statistics) and higher morale with remote work.
    - GitLab enjoys a **[strong year-over-year voluntary retention rate](/handbook/people-group/people-success-performance-indicators/#executive-summary)**.  All-remote contributes to our high retention of people, as they're able to [take their career with them](people/) through life's changes.
 1. You have [fewer meetings](meetings/) and more focus on results and [output of great work](/handbook/values/#results).
@@ -153,7 +153,7 @@ Employees are [more productive with fewer distractions](https://about.gitlab.com
 
 ## Challenges to consider before embracing remote work
 
-Despite [all-remote having many advantages](benefits/), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we've outlined [potential drawbacks and solutions to these challenges here](drawbacks/).
+Despite [all-remote having many advantages](remote-benefits/), remote work isn't for everyone. It can have disadvantages for employees depending on their lifestyle and work preferences, as well as the organization. In the spirit of [transparency](/handbook/values/#transparency), we've outlined [potential drawbacks and solutions to these challenges here](drawbacks/).
 
 ## Which is right for your organization?
 
@@ -193,7 +193,7 @@ Click around to learn more about what "all-remote" really means, [how it works a
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

@@ -9,7 +9,7 @@ Product Designers are assigned to work within their stage group and take on resp
 
 **Product Designers**
 
-- Ensure discipline peers know about UX team assignments, such as UX OKRs, and what you'll need from them to succeed.
+- Ensure discipline peers know about UX team assignments, such as department-level initiatives, and what you'll need from them to succeed.
 - Account for time off (yours and others') during milestone planning.
 - Inform your manager immediately if you think you won't complete your work on time. Early notification increases the likelihood of resolving the issue and managing expectations.
 - Optionally, use UX issue weights to better understand your capacity and facilitate conversations with your Product Manager.
@@ -19,7 +19,7 @@ Product Designers are assigned to work within their stage group and take on resp
 - If requested, help Product Designers set a baseline capacity for stage- and UX-team-assigned work each milestone.
 - Quantify strategy work with clear time-to-complete (TTC) expectations, measurable goals, and due dates.
 - Resolve team questions, concerns, and blockers quickly.
-- Ensure cross-functional partners are aware of UX OKRs and their dependencies.
+- Ensure cross-functional partners are aware potential dependencies.
 
 ### Priorities
 
@@ -31,12 +31,11 @@ Must do:
 - Feedback requests from other designers (issues, MRs, Figma, [`#ux-coworking`](https://gitlab.slack.com/app_redirect?channel=ux_coworking) Slack channel).
 - Adjustments to issues in the current release milestone and labeled `Deliverable`.
 - Issues assigned with labels `workflow::problem validation`, `workflow::solution validation`, or `workflow::design`.
-- Planning and prioritization of UX issues in the next release milestone. See [Milestone planning](/handbook/product/ux/ux-department-workflow/#milestone-planning).
+- Planning and prioritization of UX issues in the next release milestone. See [Milestone planning](/handbook/product/ux/product-designer/).
 - Sharing work with the team through UX Forums, Slack posts, UX meetings.
 
 Should do:
 
-- [UX OKRs](/handbook/company/okrs/).
 - Tasks that improve understanding of users and their workflows (e.g. [UX Scorecards](/handbook/product/ux/ux-scorecards/)).
 - Issues in the current release milestone and labeled `Stretch`.
 - Issues labeled `Pajamas`, `pajamas::define`, `pajamas::design`, `pajamas::build`, or `pajamas::integrate`. See [Pajamas component lifecycle](https://design.gitlab.com/get-started/lifecycle/) and the [Pajamas issue tracker](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues).
@@ -44,7 +43,6 @@ Should do:
 
 Nice to do:
 
-- [Beautifying our UI](/handbook/product/ux/product-design/#beautifying-our-ui).
 - Addressing issues labeled [`Seeking community contributions`](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name%5B%5D=Seeking+community+contributions&label_name%5B%5D=UX) or other low-hanging usability problems.
 - Issues in future milestones (e.g., next release or [Backlog](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&milestone_title=Backlog&label_name%5B%5D=UX)).
 - Popular issues with no milestone (based on comments or upvotes).
@@ -57,7 +55,7 @@ To aid Product Management in their prioritization efforts, we provide insights i
 
 #### Engagement with Single Engineer Groups (SEGs)
 
-The [Incubation Engineering Department](/handbook/engineering/development/incubation/) uses Single Engineer Groups (SEGs) to quickly develop "new market" initiatives. SEGs may request temporary design support for high-usage product areas.
+The Engineering Department uses [Single Engineer Groups](/handbook/company/structure/#single-engineer-groups) (SEGs) to quickly develop "new market" initiatives. SEGs may request temporary design support for high-usage product areas.
 
 Product Designers and managers should provide in-depth design critiques in issues and during MR reviews, collaborating with Incubation Engineering to ensure a great user experience.
 

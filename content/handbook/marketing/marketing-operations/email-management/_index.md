@@ -35,7 +35,7 @@ Invitation emails to attend a live event, meet-up, or in-person training. These 
 
 ### Email Communication Policy
 
-Please [visit the legal page](/handbook/legal/marketing-collaboration/#marketing-rules-and-consent-language) to view all of the Marketing Rules and Consent Language.
+Please [visit the legal page](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language/) to view all of the Marketing Rules and Consent Language.
 
 This [FigJam](https://www.figma.com/file/fUbK9fPM0DOVf1ob6IIDbx/Opt-in-Workflow_2023-08-22_10-58-58?type=whiteboard&t=S4UoLJlyfrDlhTmw-1) shows the opt-in and opt-out/unsubscribe workflows for all forms, list imports and individual subscriptions. (must be workspace member to view)
 
@@ -74,7 +74,7 @@ We have a Marketo enforced limit on how many emails a single address can receive
 
 The email limits are not set in campaign templates, however, if your email is set to send to more than 20,000 people, you must include a filter for `Not Sent Email in last 2 Days`.
 
-Please reference and use the [All-Marketing SSOT Calendar](/handbook/marketing/#marketing-calendar-inputs) to see other sends happening around the same time.
+Please reference and use the [All-Marketing SSOT Calendar](https://internal.gitlab.com/handbook/marketing/#fy25-ssot-marketing-calendar) to see other sends happening around the same time.
 
 ## Request non-Demand Generation Emails
 

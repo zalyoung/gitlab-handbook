@@ -26,10 +26,9 @@ Some of this may feel counter to GitLab Values; this is not designed or intended
 The Incident Manager role will be staffed by all team members within this scope:
 
 - [Job Grades 8 and 9](/handbook/total-rewards/compensation/compensation-calculator/#job-grades)
-- Development and Infrastructure departments
-- All Staff Engineer, SRE, and Engineering Manager Job Families
-- All specialties within the above Job Families (for example: Staff Backend Engineer, Staff Frontend Engineer, Frontend Engineering Manager, etc..)
-- Not already engaged in another oncall assignment.
+- Team members in the Engineering Group
+- All job families in the Engineering Group except for Customer Support
+- Not already engaged in another oncall assignment where participants are paged and have a response time of <15minutes, or other time-critical on-call rotations (e.g., DevEx Pipeline DRI)
 - Employed at the company for at least 3 months (same criteria for [eligibility to join the Dev Escalation rotation](/handbook/engineering/development/processes/infra-dev-escalation/process/#eligibility))
 
 As an Incident Manager, Team Members learn how we run GitLab.com and other GitLab SaaS environments. They help ensure the availability goals for GitLab.com by working with reliability engineers on call and development team members. The experience and awareness gained in this role leads to better understanding of building GitLab at scale and ultimately, a more reliable and scalable GitLab SaaS service and product.
@@ -82,7 +81,7 @@ When your on-call shift starts, you will get notification(s) that your shift is 
 
 ### When an incident happens
 
-You are expected to respond to announcements in the [`#incident-management` Slack channel](https://gitlab.slack.com/archives/CB7P5CJS1). Review the [`General guidelines for production incidents`](https://gitlab.com/gitlab-com/runbooks#general-guidelines-for-production-incidents), verify the severity label on the issue, and update it if
+You are expected to respond to announcements in the [`#incidents-dotcom` Slack channel](https://gitlab.slack.com/archives/C08FMPK1DDF). Review the [`General guidelines for production incidents`](https://gitlab.com/gitlab-com/runbooks#general-guidelines-for-production-incidents), verify the severity label on the issue, and update it if
 neccesary.
 
 When an S1 or S2 happens during a current incident, decide which incident has the highest customer impact and work on that issue. Reach out to [infrastructure leadership escalation](/handbook/engineering/infrastructure/incident-management/#infrastructure-leadership-escalation)

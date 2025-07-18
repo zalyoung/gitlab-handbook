@@ -52,14 +52,14 @@ Here are some things to consider including in your rollout plan:
 1. Post rollout retro
    * Update any common practices for your stage/group so it's easier for the next rollout
    * Reflect on the rollout and share with team your learnings
-   * Consider opening an issue/MR to automate parts of the rollout to make it safer and more efficient.  Recommend to your manager that this work become part of an [Engineering Allocation](/handbook/engineering/#engineering-allocation).
+   * Consider opening an issue/MR to automate parts of the rollout to make it safer and more efficient.  Recommend to your manager that this work become part of an [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework).
 
 #### Additional rollout plan processes
 
 There are additional rollout plan processes to keep yourself aware of:
 
-* [Rolling out a low-risk feature flag](/handbook/product-development-flow/feature-flag-lifecycle/#rollout)
-* [Rolling out a high-risk feature flag](/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process)
+* [Rolling out a low-risk feature flag](/handbook/product-development/how-we-work/product-development-flow/feature-flag-lifecycle/#rollout)
+* [Rolling out a high-risk feature flag](/handbook/engineering/infrastructure-platforms/change-management/#feature-flags-and-the-change-management-process)
 * [Running an experiment](/handbook/engineering/development/growth/experimentation/#experiment-rollout-issue)
 
 #### Rollout plan templates

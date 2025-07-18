@@ -37,7 +37,7 @@ The overall transaction throughput on the database primary at the time varied be
 
 It can be difficult to recognize read-mostly data, even though there are clear cases like in our example.
 
-One approach to this is to look at the [read/write ratio and statistics from e.g. the primary](https://thanos.gitlab.net/graph?g0.range_input=1h&g0.max_source_resolution=0s&g0.expr=bottomk(20%2C%0Aavg%20by%20(relname%2C%20fqdn)%20(%0A%20%20(%0A%20%20%20%20%20%20rate(pg_stat_user_tables_seq_tup_read%7Benv%3D%22gprd%22%7D%5B1h%5D)%0A%20%20%20%20%20%20%2B%20%0A%20%20%20%20%20%20rate(pg_stat_user_tables_idx_tup_fetch%7Benv%3D%22gprd%22%7D%5B1h%5D)%0A%20%20)%20%2F%0A%20%20(%20%20%20%0A%20%20%20%20%20%20rate(pg_stat_user_tables_seq_tup_read%7Benv%3D%22gprd%22%7D%5B1h%5D)%0A%20%20%20%20%20%20%2B%20rate(pg_stat_user_tables_idx_tup_fetch%7Benv%3D%22gprd%22%7D%5B1h%5D)%0A%20%20%20%20%20%20%2B%20rate(pg_stat_user_tables_n_tup_ins%7Benv%3D%22gprd%22%7D%5B1h%5D)%0A%20%20%20%20%20%20%2B%20rate(pg_stat_user_tables_n_tup_upd%7Benv%3D%22gprd%22%7D%5B1h%5D)%0A%20%20%20%20%20%20%2B%20rate(pg_stat_user_tables_n_tup_del%7Benv%3D%22gprd%22%7D%5B1h%5D)%0A%20%20)%0A)%20and%20on%20(fqdn)%20(pg_replication_is_replica%20%3D%3D%200)%0A)%20&g0.tab=1&g1.range_input=1h&g1.max_source_resolution=0s&g1.expr=&g1.tab=1). Here, we look at the TOP20 tables by their read/write ratio over 60 minutes (taken in a peak traffic time):
+One approach to this is to look at the [read/write ratio and statistics from e.g. the primary](https://dashboards.gitlab.net/goto/DNwjBl-NR?orgId=1). Here, we look at the TOP20 tables by their read/write ratio over 60 minutes (taken in a peak traffic time):
 
 ```sql
 bottomk(20,
@@ -62,7 +62,7 @@ This yields a good impression of which tables are much more often read than writ
 
 ![Read Write Ratio TOP20](/images/company/working-groups/database-scalability/read-mostly-readwriteratio.png)
 
-From here, we can [zoom](https://thanos.gitlab.net/graph?g0.range_input=1d&g0.end_input=2021-04-07%2023%3A11&g0.max_source_resolution=0s&g0.expr=sum(rate(pg_stat_user_tables_idx_tup_fetch%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))&g0.tab=0&g1.range_input=1d&g1.end_input=2021-04-07%2023%3A11&g1.max_source_resolution=0s&g1.expr=sum(rate(pg_stat_user_tables_n_tup_ins%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))%20by%20(instance)%20%2B%20sum(rate(pg_stat_user_tables_n_tup_upd%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))%20by%20(instance)%20%2B%20%20sum(rate(pg_stat_user_tables_n_tup_del%7Benvironment%3D%22gprd%22%2C%20relname%3D%22gitlab_subscriptions%22%7D%5B1h%5D))%20by%20(instance)&g1.tab=0&g2.range_input=1h&g2.max_source_resolution=0s&g2.expr=pg_stat_user_tables_idx_tup&g2.tab=0) into e.g. `gitlab_subscriptions` and realize that index reads peak at above 10k tuples per second overall (there are no seq scans):
+From here, we can [zoom](https://dashboards.gitlab.net/goto/sX_wflaNg?orgId=1) into e.g. `gitlab_subscriptions` and realize that index reads peak at above 10k tuples per second overall (there are no seq scans):
 
 ![Subscriptions: Reads](/images/company/working-groups/database-scalability/read-mostly-subscriptions-reads.png)
 

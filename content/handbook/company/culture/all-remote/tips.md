@@ -70,7 +70,7 @@ Take a look at [how our compensation calculator works](/handbook/total-rewards/c
 
 #### Country hiring guidelines
 
-Hiring globally as an all-remote company has many [advantages](/handbook/company/culture/all-remote/remote-benefits/), including bringing diversity to our team. But it also poses unique [challenges](hiring/) because many countries differ in their rules, laws, and regulations.
+Hiring globally as an all-remote company has many [advantages](remote-benefits/), including bringing diversity to our team. But it also poses unique [challenges](hiring/) because many countries differ in their rules, laws, and regulations.
 
 Find out more about how we handle this in our [country hiring guidelines](/handbook/people-group/employment-solutions#country-hiring-guidelines) in the handbook.
 
@@ -120,7 +120,7 @@ Here are some best practices that may help your all-remote team be successful.
 
 ### Communication
 
-- Encourage people to [write down all information](meetings/#document-everything-live-yes-everything).
+- Encourage people to [write down all information](meetings/#5-document-everything-live-yes-everything).
 - Allow everyone in the company to [view and edit every document](/handbook/values/#transparency).
 - Consider every document a draft, don't wait to share until it's done.
 - Use screenshots in an issue tracker instead of a whiteboard, ensuring that everyone at any time can follow the thought process.

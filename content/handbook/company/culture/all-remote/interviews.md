@@ -56,7 +56,7 @@ When possible, avoid doing a job interview in a room with other people or in a p
 
 You can have great technology, but if you fail to connect or stay connected during your interview, it can make it difficult to have a productive conversation. Be sure to reset, check, and test your internet connection especially prior to an interview.
 
-If you have challenges with connectivity in your home office, consider asking your interviewer or recruiter whether the company offers [interview accommodations](/handbook/hiring/interviewing#adjustments-to-our-interview-process) such as reimbursing the cost to rent a private office or call booth for the interview.
+If you have challenges with connectivity in your home office, consider asking your interviewer or recruiter whether the company offers [interview accommodations](/handbook/hiring/interviewing/#inclusive-interviewing) such as reimbursing the cost to rent a private office or call booth for the interview.
 
 ## How do you conduct a remote interview?
 
@@ -81,7 +81,7 @@ Pick a neutral location that is quiet and comfortable. That way, neither you nor
 
 ### Practice
 
-To help make a great first impression, prepare by researching the company and reviewing their [handbook and values](/handbook). Practice answering some [sample interview questions](/handbook/hiring/interviewing#what-to-expect-during-an-interview-with-a-recruiter) live with a peer or by recording yourself or practicing in a mirror.
+To help make a great first impression, prepare by researching the company and reviewing their [handbook and values](/handbook). Practice answering some sample interview questions live with a peer or by recording yourself or practicing in a mirror.
 
 ## What traits do remote interviewers look for?
 
@@ -189,7 +189,7 @@ Below is an archive of past interview guests, answering the above questions and 
 
 An archive of Pick Your Brain interviews are below. We've also created a [Pick Your Brain Playlist](https://www.youtube.com/playlist?list=PLFGfElNsQthafBVmoPPVMvBc_Gg2nsyQb) on [GitLab's YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
-Learn more about scheduling a GitLab [Pick Your Brain series](/handbook/eba/#pick-your-brain-meetings).
+Learn more about scheduling a GitLab [Pick Your Brain series](/handbook/eba/ceo-scheduling/#pick-your-brain-meetings).
 
 1. [GitLab co-founder Sid Sijbrandij and InVision Chief People Officer Mark Frein](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein/)
 1. [GitLab co-founder Sid Sijbrandij and FormAssembly CEO Cedric Savarese](https://about.gitlab.com/blog/2017/08/11/pick-your-brain-interview-cedric-savarese/)

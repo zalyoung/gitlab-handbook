@@ -96,9 +96,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Return to the merge reqest overview.
 
-1. Click **Full report**.
-
-1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy Note that the merge status will appear stating **Requires 1 approval from policy**.
+1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy. Note that the merge status will appear stating **Requires 1 approval from policy**.
 
 1. A new comment is also added to the activity of the merge request, stating that a policy violation was detected.
 
@@ -110,11 +108,11 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Navigate to **Secure > Policies**.
 
-2. Click on the policy you created. Click **Edit policy**.
+1. Click on the policy you created. Click **Edit policy**.
 
-3. Click **Delete Policy**.
+1. Click **Delete Policy**.
 
-4. Click **Merge** on the resulting merge request.
+1. Click **Merge** on the resulting merge request.
 
 ## Lab Guide Complete
 

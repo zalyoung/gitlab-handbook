@@ -9,9 +9,9 @@ The Field Enablement Spotlight is a weekly continuous education series for all G
 
 The Field Enablement Spotlight takes place each week on Thursday, with two session options to accommodate GitLab's global field sales & customer success audience.
 
-- **(Option 1) 11:00 AM (US Eastern Time)(UTC -5)** = (8 AM Pacific Time) = **(5 PM Central European Time)(UTC +1)**
+- **(Option 1) 11:00 AM (US Eastern Time)(UTC -4)** = (8 AM Pacific Time) = **(4 PM Central European Time)(UTC +1)**
 
-- **(Option 2) 12:00 PM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -8)
+- **(Option 2) 11:00 AM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -7)
 
 Attending the weekly Field Enablement Spotlight session is mandatory, with two options provided to accommodate our global audience. If team members are on paid time off or have a scheduling conflict with a customer, they may watch the session recording in a timely manner.
 
@@ -19,25 +19,34 @@ Attending the weekly Field Enablement Spotlight session is mandatory, with two o
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Spring 2025 Lineup**
+**Summer 2025 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Mar 11 | Duo Workflow - GitLab's Agentic AI Vision  | Product Marketing   |
-| Mar 20 | Co-Create Initiative   |  Customer Success   |
-| Mar 27 | Azure DevOps Competitive Enablement   |  Product Marketing  |
-| Apr 3 |  Visibility and Measurement Roadmap   |  Product Marketing  |
-| Apr 10 |  TBD   |    |
-| Apr 17 |  *No session during the last two weeks of the quarter*   |    |
-| Apr 24 |  *No session during the last two weeks of the quarter*   |    |
+| Jul 3 |   **No Session**      |     |
+| Jul 10 |  Professional Services Update     |  PS Team  |
+| Jul 17 |  GitLab 18.2 Enablement     |  Product Marketing  |
+| Jul 24 |  *No session during the last two weeks of the quarter*   |    |
+| Jul 31 |  *No session during the last two weeks of the quarter*   |    |
 
 ## Past Sessions
 
 <details>
-<summary markdown="span">Click here to see links to past sessions on Google Drive</summary>
+<summary markdown="span">Click here to see links to past sessions</summary>
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-06-26 |  **[Pipeline Magic: Turning Data into Deals](https://gitlab.highspot.com/items/685d7989eabcc81be123d353)**     |  Private  |
+| 2025-06-16 |  **[GitLab 18.0 Launch Enablement](https://gitlab.highspot.com/items/6850561148d5b77416cf8820)**     |  Private  |
+| 2025-06-12 |  **[Master Working with GitLab Support](https://gitlab.highspot.com/items/684b0383b860240005c2664f)**     | Private  |
+| 2025-05-29 |  **[SFDC Product Data & Free GitLab Users](https://gitlab.highspot.com/items/68388a28aab19074da959446)**       |  Private   |
+| 2025-05-22 |  **[Embedded Systems in the Automotive, Aerospace, and Electronics Verticals](https://gitlab.highspot.com/items/6835d1815af4115c8730a09a)**       |  Private  |
+| 2025-05-15 |  **[Business Value Platform Updates](https://gitlab.highspot.com/items/682686ba604d5b15067ee6c6)**      |  Private  |
+| 2025-05-07 |   **[GitLab Duo Special](https://gitlab.highspot.com/items/681520b0e15873d7cda557c4?lfrm=rhp.0#rtt87ujo8r)**       |  Private   |
+| 2025-04-10 |  **[GitLab Duo with Amazon Q Enablement](https://drive.google.com/file/d/1x6T9YRvgQA2x8poE6M-RPopKYfiMECk5/view?usp=drive_link)**  |  Private  |
+| 2025-03-27 | **[FY26 Field Services Positioning Guidance](https://drive.google.com/file/d/1JNa5bKGL0ppGLl-Q4okFtBRfAqZ2kQ-9/view?usp=drive_link)**  |  Private   |
+| 2025-03-20 | **[The Customer Co-Create Initiative](https://drive.google.com/file/d/190xggRUoRndvzR4U9PJBxKUAKiF__f3T/view?usp=drive_link)**   |  Private   |
+| 2025-03-11 | **[The Future of Secure Agentic AI](https://drive.google.com/file/d/1_YdkKYgckNQqg4p8uN4xKDH42chtJlYE/view?usp=drive_link)**  | Private   |
 | 2025-03-06 |  **[Google Private Offer Updates](https://drive.google.com/file/d/1Z7GOZ8ZbjoF39nhvULzEc2osmXAyDiO4/view?usp=drive_link)**  |  Private   |
 | 2025-02-20 | **[GitLab Duo Self-Hosted Models + Security & Compliance Updates](https://drive.google.com/file/d/1s97Q-R23ZVX77inVQb1LBBk60HFkRtFZ/view?usp=drive_link)**   |  Private  |
 | 2025-02-13 |  **[Tools for Field Efficiency: HG Insights & Highspot](https://drive.google.com/file/d/12u6uNibsMuym5EcH2yvO6K2ENxGvNhBA/view?usp=drive_link)**   |  Private  |
@@ -291,7 +300,7 @@ To get a calendar invite to the weekly Field Enablement Spotlight, make sure you
 - SDR BDR Team `sdrbdr@`
 - Marketing Team `marketing-team@`
 
-You can [fill out an access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 ## Training Playlist
 

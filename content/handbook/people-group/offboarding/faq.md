@@ -9,7 +9,7 @@ description: "Common Questions about the Offboarding Process"
 
 Offboarding issues are used for de-provisioning purposes so you, as the team member, do not need to do anything to get it opened or will have any action items within the issue.
 
-The People Connect Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
+The People Operations Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
 
 ### When will my access be deactivated?
 
@@ -41,6 +41,7 @@ The following can be used as a guide on what actions could be taken before your 
 ### GitLab.com
 
 - Unassign yourself and re-assign any open projects, issues or merge requests to other team members or your manager.
+- Transfer ownership of any scheduled pipelines to other team members or your manager. For example [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) project scheduled pipelines. 
 
 ### 1Password
 
@@ -64,7 +65,7 @@ Set up accounts that you'll need access to after your last day. Ensure your pers
 
 ### Laptop Wipe
 
-It is required that your laptop is wiped on your last day. Please [book an appointment](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) with an IT Ops team member for your last day.
+It is required that your laptop is wiped on your last day. Please [book an appointment](/handbook/security/corporate/end-user-services/laptop-management/laptop-wipe//) with an IT Ops team member for your last day.
 
 Under **no circumstance** should you be wiping your own laptop. Laptop wipes must be done from an IT Ops team member for logs. Reach out to [#it_help](https://gitlab.slack.com/archives/CK4EQH50E) if you have any other questions.
 
@@ -72,7 +73,7 @@ Under **no circumstance** should you be wiping your own laptop. Laptop wipes mus
 
 If you are returning your laptop to IT please purchase a cardboard box and packing foam before your last day and expense it in Navan under [Office supplies & consumables](/handbook/finance/expenses/#office-supplies--consumables). IT will be sending a prepaid shipping label to return the laptop.
 
-Please refer to the Laptop Buy Back Policy [here](/handbook/it/end-user-services/onboarding-access-requests/#laptop-buy-back-policy).
+Please refer to the Laptop Buy Back Policy [here](/handbook/security/corporate/end-user-services/laptop-management/laptop-offboarding-returns/#laptop-buybacks).
 
 ## Compensation - Payroll
 
@@ -114,7 +115,7 @@ All information is on the [Stock Options](/handbook/total-rewards/stock-options/
 
 ### What if I am a designated Insider?
 
-Remider: If you are a Designated Insider, while employed by GitLab, each team member is required to comply with the Insider Trading Policy, which among things, prohibits team members who are in possession of material non-public information (MNPI) from (i) trading in GitLab's stock or other securities on the basis of that MNPI or (ii) disclosing MNPI to someone else who trades on the basis of such MNPI. The Insider Trading Policy also applies to a team member's immediate family members and household members. In addition, as a Designated Insider and while employed at GitLab you are required to have pre-clearance before making any transactions in GitLab's stock or other securities.
+Reminder: If you are a Designated Insider, while employed by GitLab, each team member is required to comply with the [Insider Trading Policy](https://drive.google.com/file/d/1yK4-L3nCEjVi14UwFfp9LNJzJNQdvvLB/view?usp=sharing), which among things, prohibits team members who are in possession of material non-public information (MNPI) from (i) trading in GitLab's stock or other securities on the basis of that MNPI or (ii) disclosing MNPI to someone else who trades on the basis of such MNPI. The Insider Trading Policy also applies to a team member's immediate family members and household members. In addition, as a Designated Insider and while employed at GitLab you are required to have pre-clearance before making any transactions in GitLab's stock or other securities.
 
 After you are officially no longer employed by GitLab, your trading account should be unrestricted. However, we recommend that you consider a 90 day "cooling off" period prior to trading in order to avoid any intentional or accidental violation of applicable securities laws. If, however, you are aware of or in possession of any MNPI when your employment or service relationship with GitLab ends, you may not trade (whether directly or indirectly) in GitLab's stock or other securities until that MNPI has become public or is no longer material.  It is a violation of applicable securities laws to trade on MNPI.
 
@@ -130,7 +131,11 @@ More information can be found in the [Growth and Development](/handbook/people-g
 
 ## USA
 
-If you are a US-based team member, your medical, dental, and vision benefits will cease on last day of the month of your departure, all other benefits will cease on your last day. You are eligible for [Consolidated Omnibus Budget Reconciliation Act ("COBRA")](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf), the COBRA administrator has been notified and will send out the paperwork to your home address on file. More information on timelines and contact information for our COBRA administrator can be found in the [COBRA section](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#cobra).  You may also be eligible under the Patient Protection and Affordable Care Act ("PPACA") for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month. Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from the Compensation & Benefits team by emailing `total-rewards@ gitlab.com`. If you move, please email `people-connect@ gitlab.com` so that we can keep your address up to date in Workday.
+If you are a US-based team member, your medical, dental, and vision benefits will cease on last day of the month of your departure, all other benefits will cease on your last day. You are eligible for [Consolidated Omnibus Budget Reconciliation Act ("COBRA")](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf), the COBRA administrator has been notified and will send out the paperwork to your home address on file. You will have 60 days from the time you receive the COBRA packet to enroll either through the mail or online, your COBRA coverage date will be backdated to the first day you are without cover. More information on timelines and contact information for our COBRA administrator can be found in the [COBRA section](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#cobra).  
+
+You may also be eligible under the Patient Protection and Affordable Care Act ("PPACA") for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month. 
+
+Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from the Compensation & Benefits team by emailing `total-rewards@ gitlab.com`. If you move, please email `people-connect@ gitlab.com` so that we can keep your address up to date in Workday.
 
 ### Where can I find my pay stubs?
 

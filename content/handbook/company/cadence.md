@@ -18,7 +18,7 @@ Below are the cadences we have at GitLab:
 1. [Month](#month) (4.3x week)
 1. [Week](#week)
 
-Items on this page are grouped into a cadence based on the underlying period of time that the item pertains to, not based on when the item is updated. For example, our [strategy](/handbook/company/strategy/#three-year-strategy) looks three years out but is reviewed [annually by E-Group](/handbook/company/offsite/#offsite-topic-calendar) and may be updated more frequently if the need arises.
+Items on this page are grouped into a cadence based on the underlying period of time that the item pertains to, not based on when the item is updated. For example, our strategy looks three years out but is reviewed [annually by E-Group](/handbook/company/offsite/#offsite-topic-calendar) and may be updated more frequently if the need arises.
 
 A overview of key company dates for FY25 can be found [here](https://docs.google.com/spreadsheets/d/11n44QyIVLD2rZwOnjLHlN1CvfmsVfFdyDfCK8qCLGM4/edit?usp=sharing)
 
@@ -27,10 +27,8 @@ A overview of key company dates for FY25 can be found [here](https://docs.google
 How elements of our cadence fit together over time:
 
 1. [Our Mission](/handbook/company/mission) is to make it so that **everyone can contribute** by using our product, to our product, and to our company.
-1. [Our Vision](/handbook/company/vision) is what we want the product to evolve into in the next 10 years, **AllOps** - a single application for DevSecOps, ModelOps, and a Servicedesk.
-1. [Our Strategy](/handbook/company/strategy/) is what we'll focus on over the next 3 years in order to make progress towards our vision. Our strategy is to be the leading **DevSecOps Platform** by focusing on our three strategic pillars: Customer Results, Maturing the Platform, and Growing Careers.
-1. [Our Yearlies](/handbook/company/yearlies/) are annual goals to make progress to our three year strategy. We have 3 goals per strategic pillar, for **9 goals** in total.
-1. [Our OKRs](/handbook/company/okrs) are **quarterly objectives** to make progress towards the yearly goals. They have a hierarchy in them with which they flow from the CEO level to the level of teams.
+1. [Our Vision](/handbook/company/vision) is what we want the product to evolve into in the next 10 years, **AllOps** - a single application for DevSecOps, ModelOps, and a Service desk.
+1. Our Strategy is what we'll focus on over the next 3 years in order to make progress towards our vision. Our strategy is to be the leading **DevSecOps Platform** by focusing on our three strategic pillars: Customer Results, Maturing the Platform, and Growing Careers.
 
 How other elements relate to our cadence:
 
@@ -44,9 +42,7 @@ Below is one example of how the cadence items in [cadence flow](#cadence-flow) f
 
 1. One part of our [mission](/handbook/company/mission) is everyone can [contribute to GitLab, the application](/handbook/company/mission/#contribute-to-gitlab-application). By making innovation more accessible, we increase **user contributions to the product**, which creates results for a larger audience, which, in turn, allows more users to contribute to our product. This virtuous cycle drives a high rate of innovation for our product and allows more people to innovate and contribute.
 1. One component necessary to achieve our [AllOps vision](/handbook/company/vision/) is improving [GitLab ServiceDesk](https://docs.gitlab.com/ee/user/project/service_desk/), which helps connect external parties to the software development process, allowing more people to contribute. ServiceDesk is needed to provide a complete **Value Stream Delivery overview**, which should help more people manage the flow of innovation from [idea to customers](https://about.gitlab.com/solutions/value-stream-management/#:~:text=new%20innovation%20from-,idea%20to%20customers,-.), which should lead to more teams and companies relying on GitLab as their AllOps solution.
-1. One pillar of our [three year strategy](/handbook/company/strategy/#three-year-strategy) is [Customer Results](/handbook/company/strategy/#1-customer-results), which includes **Proving Value** with items like [Value Stream Analytics](https://about.gitlab.com/solutions/value-stream-management/) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
-1. One of [our FY24 Yearlies](/handbook/company/yearlies/) is to `increase NetARR from Ultimate up-tiers` which we'll accomplish in part by providing more value to business users with features like [**Value Stream Dashboards for Executives**](https://gitlab.com/groups/gitlab-org/-/epics/9317). These features help extend [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) and, by extension, create progress for our Customer Results strategic pillar.
-1. One [FY24Q1 CEO objective](/handbook/company/okrs/fy24-q1/) is to `increase adoption through customer results to increase operating income` with a sub-key result of launching **Value Stream Dashboards** MVC 1 Beta in FY24-Q1.
+1. One pillar of our [three year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) is [Customer Results](/handbook/values/#results), which includes **Proving Value** with items like [Value Stream Analytics](https://about.gitlab.com/solutions/value-stream-management/) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
 
 Successfully achieving our KR of a beta value stream means progress against our Yearly value stream dashboard goal, strategic goal of extending value stream management to more users, vision of an AllOps solution, and mission of everyone contributing. While the KR is a single building block, our successful completion within the quarter leads to progress against our longer term goals.
 
@@ -58,9 +54,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 
 1. [30 year Mission](/handbook/company/mission): reviewed every 10 years
 1. [10 year Vision](/handbook/company/vision): reviewed every 3 years
-1. [3 year Strategy](/handbook/company/strategy/): reviewed every year
-1. [Annual Yearlies](/handbook/company/yearlies/): reviewed every quarter. Review usually happens during the [E-Group Offsite](/handbook/company/offsite/)
-1. [Quarterly OKRs](/handbook/company/okrs): reviewed every month
+1. 3 year Strategy: reviewed every year
 
 ## 30 years
 
@@ -79,31 +73,26 @@ These reviews ensure that elements reflect current priorities and do not get sta
 
 ## 3 years
 
-1. [Strategy](/handbook/company/strategy/)
+1. Strategy
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
-1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#vesting) after cliff of six months is passed
+1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#rsu-vesting--grant-cadence) after cliff of six months is passed
 1. Average retention of team members is around 3 years
 
 ## Year
 
-1. [Yearlies](/handbook/company/yearlies/) for setting annual company goals
 1. [Annual plan](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop)
-1. [4 quarter rolling forecast](/handbook/finance/financial-planning-and-analysis/#quarterly-forecast-rolling-four-quarters)
+1. [4 quarter rolling forecast](/handbook/finance/financial-planning-and-analysis/#quarterly--monthly-cycle-incl-close-variance-forecast-guidance)
 1. Most of [Direction](https://about.gitlab.com/direction/)
 1. [Fiscal Year Product Investment Themes](https://about.gitlab.com/direction/#fiscal-year-product-investment-themes)
 
 ## Quarter
 
-1. [OKRs](/handbook/company/okrs/)
 1. [Board meeting](/handbook/board-meetings/#board-meeting-process)
 1. Sales targets (in [Clari](/handbook/business-technology/tech-stack/#clari))
 1. [E-group offsite](/handbook/company/offsite/)
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
-1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
-1. [Key Reviews](/handbook/company/key-review/)
-1. [Group Conversations](/handbook/company/group-conversations/)
 
 ## Month
 

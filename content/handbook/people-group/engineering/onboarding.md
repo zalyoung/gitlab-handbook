@@ -19,10 +19,8 @@ graph TD
   K[1 day before: Team member is invited to gitlab-com and gitlab-org] --> I
   I[Start date: onboarding and swag email is send to the team member] --> C
   C[Day 2: Access Request issue is created and team page sync readiness is checked.] --> CA
-  CA[Day 3: Team page entry is created] --> E
-  E[Day 6: Team members receive a Slack reminder about the anti-harrassment training] --> J
-  J[Day 7: Manager and Interview training issues are opened if people manager] --> L
-  L[Day 15: Team member is pinged if they have open compliance task on their onboarding issue] --> F
+  CA[Day 3: Team page entry is created] --> J
+  J[Day 7: Manager and Interview training issues are opened if people manager] --> F
   F[Day 60: Onboarding issue is closed if it wasn't closed already] --> N{Probation?}
   N -->|Yes| D[One month before contract end: send email]
   N --> |No| B{Netherlands team member}
@@ -70,11 +68,11 @@ Every day we run 3 scheduled pipelines. They are each set up for a specific regi
 
 - Americas at 10 AM UTC
 - EMEA at 4 AM UTC
-- JAPAC at 6 PM UTC
+- APJ at 6 PM UTC
 
-For the **JAPAC** pipeline, it will fetch the team members with a start date for the next day (timezones).
+For the **APJ** pipeline, it will fetch the team members with a start date for the next day (timezones).
 
-For the **EMEA** and **Americas** pipeline, it will fetch all the team members that have a start day equal
+For the **EMEA** and **Americas** pipelines, it will fetch all the team members that have a start day equal
 to the current day (so who is starting today). The pipeline then filters out the ones for the region
 they need to send the email to. This all is to ensure we don't send out the email too late or too early.
 The region of the team member is determined from the region that is on their Workday profile. This is the
@@ -112,18 +110,6 @@ If changes are required to the onboarding email template, follow these steps to 
 - Copy and pasted the MJML version from the browser to the MJML template.
 - Submit Merge Request like normal with the updates.
 
-## Swag Email
-
-This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/swag_email.md) that is sent on the first day of a new team member so they receive the instructions to redeem their new hire swag. The email is cc'd to `people-connect@domain`.
-
-Every day at 9 AM UTC we run a scheduled pipeline. This pipeline will fetch all the eligible team members. An eligible team
-member means:
-
-- Team member who is on their first day of employment at GitLab
-
-The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody
-monitors replies to `onboarding@domain`. The email address is strictly used for automation.
-
 ## Access Request issue creation
 
 To get access to the tools our team members need for their job, an Access Request (AR)
@@ -135,9 +121,9 @@ Every day we run 3 scheduled pipelines. They are each set up for a specific regi
 
 - Americas at 10 AM UTC
 - EMEA at 4 AM UTC
-- JAPAC at 6 PM UTC
+- APJ at 6 PM UTC
 
-For the JAPAC pipeline, it will fetch the team members with a start date for the current day (timezones).
+For the APJ pipeline, it will fetch the team members with a start date for the current day (timezones).
 For the EMEA and Americas pipeline, it will fetch all the team members that have a start day equal
 to the previous day (so who started yesterday). The pipeline then filters out the ones for the region
 they need to send the email to. This all is to ensure we don't create the issue too late or too early.
@@ -209,11 +195,6 @@ If the **entire** group of team members was missed, in the event of a failed pip
 
 This will trigger a new pipeline and fetch the new team members of the provided week and create a new merge request adding them to the Team page.
 
-## Slack reminder for the anti-harrassment training
-
-We have a daily pipeline that checks everyday who started 6 days ago. For those team members, we send a reminder
-that they have to complete the anti-harrassment training.
-
 ## Manager and Interview training issues
 
 There's a scheduled pipeline that runs every day that checks for hires that started a week ago.
@@ -237,12 +218,6 @@ We also consider the person a people manager when the job title **ends** with:
 
 We create the Interview Training and Becoming a Manager issues in the
 [People Group Training project](https://gitlab.com/gitlab-com/people-group/Training).
-
-## Onboarding compliance checks
-
-We run a scheduled pipeline every day that fetches our team members that are on their 15th day of employment at GitLab. We look on their onboarding issue if they have any compliance tasks open.
-
-A compliance task is marked with the `:red-circle` icon. If they have any open tasks the onboarding bot will tag the user asking to finish the open tasks.
 
 ## Onboarding issue closing
 

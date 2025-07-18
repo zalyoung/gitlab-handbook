@@ -32,25 +32,27 @@ Individual GitLab team members can request to audit a customer-facing training s
 
 ### For Sales Reps and SAs: How to order Professional Services
 
-1. To order Professional Services, the SAE or ISR [creates an Opportunity in SFDC](/handbook/sales/field-operations/gtm-resources/) using the record type "Professional Services Only."
+1. To order Professional Services, the SAE or ISR [creates a child PS Opportunity in SFDC off of a standard license or subscription parent opportunity](/handbook/sales/field-operations/gtm-resources/#creating-a-professional-services-opportunity) using the `Create Services Opportunity` button.
 
 1. The next steps depend on whether the services needed are standard or custom.
 
-- **Standard Services (non-customized)**: Sold using Professional Services SKUs with pre-defined statement of work (SOW) documents. These offerings do not require custom scoping and are ordered directly from Zuora in SFDC. Checkout our [full catalog](https://about.gitlab.com/services/catalog/) for a list of standard services currently offered.
+- **Standard Services (non-customized)**: Sold using Professional Services SKUs with pre-defined statement of work (SOW) documents. These offerings do not require custom scoping and are ordered directly from Zuora in SFDC. Checkout our [full catalog](https://about.gitlab.com/professional-services/catalog/) for a list of standard services currently offered.
 
-- **Custom Services**: Sold if standard services do not meet the needs of the customer, via a custom SOW using the [Services Calculator](https://services-calculator.gitlab.io/).
+- **Custom Services**: Sold if standard services do not meet the needs of the customer, using a custom SOW. Please contact your [Professional Services Engagement Manager based on region](https://docs.google.com/document/d/1bdVOf3jL6aJF79qRMFLQsmMxIgQh5ZQ-WiLuNgsWB08/edit?tab=t.0#heading=h.qzgxpwqxme5). When creating the PS Opportunity in step 1 above, a [Professional Services Epic](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/epics?state=opened&page=1&sort=start_date_desc) will automatically be created for you as well as a [scoping issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues/?sort=created_date&state=opened&first_page_size=100). Please use the epic and issue to input information and collaborate with your Engagement Manager.
 
 **Process for Sales Reps and SAs**
 
 ```mermaid
 graph LR;
   a["Standard services?"]-- Yes ---b["Add SKU to quote"];
-  a-- No ---c["SA starts SOW w/Calculator"];
-  c-->d["SA works w/PS to finalize SOW"];
+  a-- No ---c["AE/SA auto creates PS epic with Create Services Opportunity button"];
+  c-->d["AE/SA works w/PS to finalize SOW"];
   z["Send customer proposal"];
   d-->z;
   b-->z;
 ```
+
+![create-services-opportunity.png](/images/customer-success/professional-services-engineering/working-with-ps/create-services-opportunity.png)
 
 For more details on selling professional services, see [Selling Professional Services](/handbook/customer-success/professional-services-engineering/selling).
 
@@ -71,11 +73,11 @@ When scoping custom SOWs, the Professional Services Engagement Manager partners 
 
 ##### Estimate creation
 
-- The account team (SAE/ISR/SA/CSM) can initiate the process by creating a new scoping issue via the [Services Calculator](https://services-calculator.gitlab.io/). Through this process they will be asked some high-level questions, and a SSOT table will arrive in the issue to drive the scoping process. The SA/CSM should work with the Customer initially to complete this as well as they can. The Professional Services Engagement Manager will then create an Estimate based upon the inputs provided, and provide a link for review.
+- The account team (SAE/ISR/SA/CSM) can initiate the process by creating a new Professional Services Epic and related child scoping issue by using the `Create Services Opportunity` button from a standard parent SFDC Opportunity, [as noted above](#for-sales-reps-and-sas-how-to-order-professional-services). On the scoping issue, a SSOT table will appear in the issue to drive the scoping process. The SA/CSM should work with the Customer initially to complete this as well as they can. The Professional Services Engagement Manager will then create an Estimate based upon the inputs provided, and provide a link for review.
 
 ##### SOW creation
 
-- Once the Estimate has been reviewed by the account team and Customer, any feedback received, and refinement made, we can then move to generating the SOW. As part of the scoping issue, the Engagement Manager will need to understand whether there is an MSA in place, or standard terms are to be used.
+- Once the Estimate has been reviewed by the account team and Customer, any feedback received, and refinement made, we can then move to generating the SOW. As part of the scoping issue, the Engagement Manager will need to understand whether there is a MSA in place, or standard terms are to be used.
 - We prefer customers to mark up our agreement and SOW document if they request changes. If they require the use of their own services terms or SOW, please contact the PS team.
 
 ##### SOW Proposal Approval Board
@@ -92,13 +94,13 @@ The labels are (from left to right):
 - `proposal::Awaiting_Discovery`: Gathering information from the account team and customer required to scope the engagement
 - `proposal::Strawman_WIP`: The Engagement Manager is drafting an initial estimate for review
 - `proposal::Estimate_Feedback`: The Estimate is with the account team and/or Customer for review. The Engagement Manager is awaiting feedback and confirmation prior to moving to SOW.
-- `proposal::SOW_WIP`: The Engagement Manager is drafting the SOW and preparing a [Cost Estimate](/handbook/customer-success/customer-success-vision/#professional-services-standard-cost) using the [SOW Cost Estimate Calculator](https://docs.google.com/spreadsheets/d/16KFNRFe4E_oaqU7_ZGivoO7eU3-65dkMgVvK5Jvb7ZQ/edit#gid=158441360) for margin calculation purposes
+- `proposal::SOW_WIP`: The Engagement Manager is drafting the SOW and preparing a [Cost Estimate](/handbook/customer-success/customer-success-vision/#professional-services-standard-cost) using the [SOW Cost Estimate Calculator](https://docs.google.com/spreadsheets/d/16KFNRFe4E_oaqU7_ZGivoO7eU3-65dkMgVvK5Jvb7ZQ/edit#gid=158441360) for margin calculation purposes. Please note that this Cost Estimate Calculator is built into a larger estimate tool that our Engagement Managers use to create estimates for a wide variety of PS engagements.
 - `proposal::Ready For Approval`: The Engagement Manager has prepared the required SOW, and triggered the approval requests. Approvals are now required prior to releasing the SOW.
-- `proposal::Approved`: The SOW is now approved, and ready for execution. The SAE/AE should gain a Legal stamp via a Legal Case in SFDC before releasing the SOW for signature.
+- `proposal::Approved`: The SOW is now approved, and ready for execution. The SAE/AE should gain a Legal stamp with a Legal Case in SFDC before releasing the SOW for signature.
 
 ### Scheduling Professional Services
 
-Currently, customer projects are scheduled in order as the opportunity is Closed-Won.  Please discuss any concern about scheduling the project during the Discovery phase of the scoping process. As part of the Discovery phase, please update the Project Scheduling Intake issue. The Project Coordinator will use this information to review staffing. If there are lead time or availability questions, please ask the Enagagement Manager or Project Coordinator by tagging the group @ps-scheduling in the [professional services slack channel](#slack).
+Currently, customer projects are scheduled in order as the opportunity is Closed-Won.  Please discuss any concern about scheduling the project during the Discovery phase of the scoping process. As part of the Discovery phase, please update the Project Scheduling Intake issue. The Project Coordinator will use this information to review staffing. If there are lead time or availability questions, please ask the Engagement Manager or Project Coordinator by tagging the group @ps-scheduling in the professional services slack channel (#professional-services).
 Please do not commit any project start dates prior to the SOW/contracts being signed without confirming with the PS Project Coordinator.
 
 Once the opportunity is updated to Close/ Won, here are the next steps:

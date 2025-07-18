@@ -5,12 +5,12 @@ creation-date: "2024-02-06"
 authors: [ "@alexander-sosna" ]
 coach: [ "@andrewn" ]
 approvers: [  ]
-owning-stage: "~devops::data_stores"
+owning-stage: "~devops::data_access"
 participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Current GitLab.com Architecture
 
@@ -240,7 +240,7 @@ The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration 
 
 - Validate a connection pooling solution for both Write and Read-Only workloads:
   - PgBouncer on VMs
-  - [CloudSQL Manage database connections] (https://cloud.google.com/sql/docs/postgres/manage-connections) / [Managed Connection Pooling (MCP)](https://www.youtube.com/watch?v=rGI3hIBl2s0). It only offers limited functionality compared to self-managed PgBouncers.  
+  - [CloudSQL Manage database connections] (https://cloud.google.com/sql/docs/postgres/manage-connections) / [Managed Connection Pooling (MCP)](https://www.youtube.com/watch?v=rGI3hIBl2s0). It only offers limited functionality compared to self-managed PgBouncers.
 - Evaluate [CloudSQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy)
 - Compare database migration options:
   - Native logical replication - [logical replication feature](https://cloud.google.com/sql/docs/postgres/replication/configure-external-replica) ([pglogical](https://github.com/2ndQuadrant/pglogical))
@@ -255,7 +255,7 @@ The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration 
 
 ##### Evaluate Changes Over the Dedicated Deployment
 
-- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping. 
+- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping.
 - Evaluate offloading read operations to Standby Replicas.
 - Evaluate "Enable auto minor version upgrade".
 - Assess performance improvements with the "Dedicated Log Volume.".

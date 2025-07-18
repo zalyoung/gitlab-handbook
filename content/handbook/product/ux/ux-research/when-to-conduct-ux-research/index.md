@@ -24,7 +24,7 @@ The British Design Council developed the [Double Diamond model](https://www.desi
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model))
 
-These two phases map to [GitLab's product development flow, specifically the Validation track](/handbook/product-development-flow/#workflow-summary), where "Phase 1: Design the right thing" equals "[Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)" and "Phase 2: Design things right" equals "[Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)".
+These two phases map to [GitLab's product development flow, specifically the Validation track](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary), where "Phase 1: Design the right thing" equals "[Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)" and "Phase 2: Design things right" equals "[Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)".
 
 - In theory, you should do research to fit wherever you are in the product development workflow. However, in practice, if you already have a solution in place, but haven't done any research, there's still time to learn from your users.
 - Conduct research often because you can improve the product many times over whenever research is utilized. The goals for any research will evolve as the product begins to take shape.
@@ -47,7 +47,7 @@ The goals of solution validation align with these goals: *"**High confidence in 
 
 ### Don't stop here - there's more UX Research to do
 
-Once the feature is released to users, it's important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the "Improve Phase" of GitLab's Development workflow, specifically the [Build track](/handbook/product-development-flow/#build-track), encapsulates.
+Once the feature is released to users, it's important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the "Improve Phase" of GitLab's Development workflow, specifically the [Build track](/handbook/product-development/how-we-work/product-development-flow/#build-track), encapsulates.
 
 ![Product-Development-Workflow](/images/product/ux/ux-research/when-to-conduct-ux-research/Product-Development-Workflow.png)
 

@@ -117,88 +117,6 @@ For our monthly milestone planning at the group level, we optimize activities to
 
 Every team uses the [monthly prioritization template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/monthly-prioritization.md) for [cross-functional dashboard reviews](/handbook/engineering/development/#cross-functional-dashboard-reviews) every month.
 
-### Fulfillment stage dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "SECTION_LABEL"="fulfillment" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "SECTION_LABEL"="fulfillment" >}}
-{{< /tableau >}}
-
-### Subscription Management team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="subscription management" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
-{{< /tableau >}}
-
-### Provision team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="provision" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="provision" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="provision" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="provision" >}}
-{{< /tableau >}}
-
-### Utilization team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="utilization" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
-{{< /tableau >}}
-
-### Fulfillment Platform team dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="fulfillment platform" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
-{{< /tableau >}}
-
 ### Estimation
 
 Before work can begin on an issue, we should estimate it first after a preliminary investigation. This is normally done in the monthly planning meeting.
@@ -271,7 +189,7 @@ It's possible for engineers to pick any of the remaining issues for the mileston
 
 ### Workflow
 
-We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) and use the workflow labels as defined there.
+We generally follow the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) and use the workflow labels as defined there.
 
 Generally speaking, issues are in one of two states:
 
@@ -280,7 +198,7 @@ Generally speaking, issues are in one of two states:
 
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/hill-charts).
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ### User Experience
 
@@ -294,7 +212,7 @@ We strive to provide excellent usability in all of our workflows, creating a bal
 - We use [[UX] issues](#ux-issue-management-and-weights) as the SSOT for designs. Implementation issues should link to the [UX] issue for the design details to maintain the SSOT.
 - We use labels to track our issues:
   - `UX`, `devops::fulfillment`, `section::fulfillment` and `group::`.
-  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development-flow/)
+  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development/how-we-work/product-development-flow/)
   - `UX Problem Validation` and `UX Solution Validation` for research efforts
   - `design weight::` for [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights)
 
@@ -510,7 +428,7 @@ The following list contains some of the standard departments and teams who shoul
 - IT Helpdesk
 - Support Team
 
-When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 
 ### Deployment
 
@@ -579,7 +497,7 @@ Any issues not merged on the current milestone post feature freeze, will need to
 
 #### Production Change Lock (PCL)
 
-There are times when GitLab temporarily halts production changes during certain events such as major global holidays, and other times where GitLab Team Member availability is substantially reduced. More information about PCLs can be found in [this infrastructure handbook page](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl).
+There are times when GitLab temporarily halts production changes during certain events such as major global holidays, and other times where GitLab Team Member availability is substantially reduced. More information about PCLs can be found in [this infrastructure handbook page](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl).
 
 During these PCLs, most notably at the end of the year, PCLs are managed in CustomersDot by creating an issue [using the PCL template](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/.gitlab/issue_templates/Pcl.md). This issue should include a checklist of instructions along with DRIs and target times for adding or removing the `production::blocker` label. Once the PCL has ended, the issue can be closed.
 
@@ -805,8 +723,6 @@ This table lists recurring activities that are part of our Project Management Pr
 | [Monthly Release Posts](/handbook/marketing/blog/release-posts/)                                                                         | Monthly      | Async | Product and Marketing Functions                                 |
 | [Milestone Planning](/handbook/engineering/development/fulfillment/#planning)                                                            | Monthly      | Async | Fulfillment Utilization,, Provision, and InfraDev Groups |
 | [Roadmap Planning](https://about.gitlab.com/direction/fulfillment/#roadmap)                                                                                      | Monthly      | Sync  | Fulfillment PMs, EMs, QEMs, UXMs                                |
-| [Monthly Product Kickoffs](/handbook/product/product-processes/#kickoff-meetings)                                                        | Monthly      | Sync  | Product Function                                                |
-| [Product Key Reviews](/handbook/company/key-review/)                                                                                             | Monthly      | Sync  | Fulfillment PMs, Product Leadership, E-Group                    |
 | [Retrospective Issue](https://gitlab.com/gl-retrospectives/fulfillment/-/issues/)                                                                                | Monthly      | Async | Fulfillment Section                                             |
 | [Retrospective Discussion](https://docs.google.com/document/d/1eL1QLtIGGxqYfaVQXIWhxAUvqTMw1OQLVQ68ZYib40g/edit)                                                 | Monthly      | Sync  | Fulfillment Section                                             |
 | [Direction Review](https://about.gitlab.com/direction/fulfillment/)                                                                                              | Quarterly    | Async | Fulfillment PMs, Product Leadership                             |
@@ -836,20 +752,6 @@ See the [Fulfillment Section DIB page](/handbook/engineering/development/fulfill
 
 See the [Fulfillment Section Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/#regular-performance-indicators) as well as the
 [Centralized Engineering Dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/).
-
-## Maintainer ratios
-
-### CustomersDot
-
-[Maintainer Ratio Dashboard](https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1)
-
-We attempt to have an ideal Engineer to Maintainer Ratio of 1:1 for both backend and frontend effort for our primary application, [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com). The active list of maintainers can be found on the [Engineering Projects page](/handbook/engineering/projects/#customers-app).
-
-Some considerations that differ from other maintainer ratios:
-
-1. Fulfillment maintainer ratios are Maintainers vs Reviewers
-1. GitLab maintainer ratios are Maintainers vs Maintainers + Reviewers
-1. GitLab maintainer ratios do not count full-stack engineers properly (Fulfillment one does)
 
 ## Knowledge sharing
 
@@ -905,7 +807,7 @@ Google groups can be used for easily sending calendar invites to members of the 
 
 1. The [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) slack channel can be used to ask all product, engineering, and Fulfillment processes related questions.
 1. When your question has been answered, please react with the ✅ (`:white_check_mark:`) Slack emoji to the original question so that team members know that it has been answered and they do not need to look at it any longer.
-1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests/#requesting-an-escalation) strategy.
+1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests/) strategy.
 1. For [internal support requests](/handbook/support/internal-support/#internal-requests) regarding licensing, subscriptions, trials, grace period extensions, or any requests involving a customer, please fill out the [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
 1. For general licensing and subscription questions, check out the [#support_licensing-subscription](https://app.slack.com/client/T02592416/C018C623KBJ) Slack channel.
 

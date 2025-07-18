@@ -93,11 +93,11 @@ You can view a list of vulnerabilities affecting a given version of GitLab [here
 
 #### Classified Data
 
-Do not host or store any [classified data](/handbook/security/data-classification-standard/#data-classification-levels) on test or demo instances.
+Do not host or store any [classified data](/handbook/security/standards/data-classification-standard/#data-classification-levels) on test or demo instances.
 
-For public-facing instances, only [Green data](/handbook/security/data-classification-standard/#green) is allowed.
+For public-facing instances, only [Green data](/handbook/security/standards/data-classification-standard/#green) is allowed.
 
-[RED, ORANGE, and YELLOW classified data](/handbook/security/data-classification-standard/#data-classification-levels), along with customer data and personal data, should never be copied to or stored on test or demo instances.
+[RED, ORANGE, and YELLOW classified data](/handbook/security/standards/data-classification-standard/#data-classification-levels), along with customer data and personal data, should never be copied to or stored on test or demo instances.
 
 #### Clean Up
 

@@ -4,7 +4,7 @@ title: "Open Source Growth Strategy"
 
 ## Strategy
 
-We will be executing in 5 key areas in support of the company's broader [dual-flywheels](/handbook/company/strategy/#dual-flywheels) strategy to attain more contributions. The 5 key areas together are the building blocks of our contributor & contribution 10x acceleration strategy.
+We will be executing in 5 key areas in support of the company's broader dual-flywheels strategy to attain more contributions. The 5 key areas together are the building blocks of our contributor & contribution 10x acceleration strategy.
 
 ```mermaid
 flowchart LR

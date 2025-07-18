@@ -16,13 +16,9 @@ US based benefits are arranged through Willis Towers Watson and managed on the P
 
 As the costs of healthcare increase, Gitlab strives to offer a competitive benefits program and maintain low costs for Team Members.   For 2025, GitLab will continue to cover the majority of costs for your total benefits package.
 
-### 2025 Open Enrollment
-
-**Completed**: GitLab’s US Benefit Open Enrollment for Calendar Year 2025 took place from 2024-11-04 through 2024-11-15.
-
 Please see additional information on the 2025 US Benefit Plans
 
-- Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2024) to help you find the plan that best fits you and your family’s needs.
+- Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2025) to help you find the plan that best fits you and your family’s needs.
 - Review the [2025 Benefits Memo](https://drive.google.com/file/d/1-1Y15FG5oiksax_871eIX-bJBeDxIF_k/view) for highlights and updates
 - See the [2025 US Benefits Guide](https://drive.google.com/file/d/15L8LMWI1CoUUoU3DcimxU3edITKs8QrV/view) for a full review of the GitLab Benefit Plans
 - Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zHgzXkIHdzaInCz0&r3f1=&fb=0) for a review of all the plans.
@@ -36,7 +32,7 @@ Please see additional information on the 2025 US Benefit Plans
 
 <summary>Documents, Rights, and Notices</summary>
 
-- Please review the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2024 Annual Rights and Notices](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and the [2025 Annual Rights and Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view)
+- Please review the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2025 Annual Rights and Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view)
 - [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files) Starting July 1, 2022, this link leads to the machine readable files that are made available in response to the federal Transparency in Coverage Rule and includes negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
 
 **Illinois Team Members:** In accordance to the Illinois Consumer Coverage Disclosure Act, please find the [2023 Coverage Summary](https://drive.google.com/file/d/1LUjsk4eWyQIktMR1li_Mp0KIKQ2ZKarF/view?usp=sharing) for the essential health benefits available to you.
@@ -79,8 +75,6 @@ Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.
 ## Enrolling in Benefits
 
 Team Members have 30 days from their Hire Date to enroll in the benefit plans. Enrollment is through our benefit administrator, PlanSource.
-
-**In 2024, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in the High Deductible Health Plan (HDHP).**
 
 **In 2025, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in to the [Medical Waiver Allowance](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#medical-waiver-allowance) and waive all other lines of optional cover**
 
@@ -158,17 +152,17 @@ If your Qualifying Life Event requires documentation the steps below will follow
 
 ## Group Medical Coverage
 
-GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who actively waive medical coverage, GitLab offers a medical allowance.
+GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who do not enroll in medical coverage, GitLab offers a medical allowance.
 
-If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP), with no HSA.
+If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the Medical Waiver Allowance.
 
-GitLab has confirmed that our medical plans are CREDITABLE page 9 of the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing) the If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
+GitLab has confirmed that our medical plans are CREDITABLE page 9 of the [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing) the if you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
 
 - Visit [www.medicare.gov](https://www.medicare.gov)
 - Call your State Health Insurance Assistance Program (see the ["Medicare & You" handbook](https://www.medicare.gov/medicare-and-you) for their telephone number) for personalized help.
 - Call 1-800-MEDICARE (1-800-633-4227). TTY users should call 1-877-486-2048.
 
-Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) and [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view) for all of GitLab's notices surrounding the Health and Welfare plans & contacts
+Please see the [2025 Annual Notice](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view) for all of GitLab's notices surrounding the Health and Welfare plans & contacts
 
 ### PlanSelect Tool
 
@@ -176,25 +170,25 @@ Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiyd
 
 ### Medical Waiver Allowance
 
-If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. <br> In order to receive the monthly benefit allowance you must [log on to PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource) and actively waive medical cover.<br>
+If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. <br> To enroll in the monthly benefit allowance you will [log on to PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource) and actively waive medical cover.<br>
 
-If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).
+If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the Medical Waiver Allowance.
 
 ### Cigna Medical Plans
 
-Below are the details for the 2024 & 2025 Calendar Year
+Below are the details for the 2025 Calendar Year
 
 <details markdown="1">
 
-<summary>2024 & 2025 Cigna Plans & Coverage Details</summary>
+<summary>2025 Cigna Plans & Coverage Details</summary>
 
 Cigna plans are available to team members located in all US states, with the exception of Hawaii.
 
 In Network:
 
-| Plan Details               | [2024 Cigna HDHP - HSA](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing) <br>  [2025 Cigna HDHP - HSA](https://drive.google.com/file/d/1Gb6HaLmEeswxdszUxOQhh5m24jdrmTNp/view?usp=sharing) <br> [Webinar on this plan here](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) | [2024 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing) <br>  [2025 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/1V9oWpbYWBVuyYoiKNyFj_y7LoFH0QR8P/view?usp=sharing) | [2024 Cigna PPO 500***](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing) <br> [2024 Cigna PPO 500***](https://drive.google.com/file/d/1QCjFCIsbE73WnAvQTruangFOnPYsDhlP/view?usp=sharing) |
+| Plan Details               | [2025 Cigna HDHP - HSA](https://drive.google.com/file/d/1Gb6HaLmEeswxdszUxOQhh5m24jdrmTNp/view?usp=sharing) <br> | [2025 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/1V9oWpbYWBVuyYoiKNyFj_y7LoFH0QR8P/view?usp=sharing) |  [2025 Cigna PPO 500***](https://drive.google.com/file/d/1QCjFCIsbE73WnAvQTruangFOnPYsDhlP/view?usp=sharing) |
 |:---------------------------|:----------------------:|:------------------:|:-----------------:|
-| Deductible (Single/Family) | $2,000 / 3,200 (3,300 for 2025)    | $0 / $0            | $500 / $1,000     |
+| Deductible (Single/Family) | $2,000 / 3,300    | $0 / $0            | $500 / $1,000     |
 | Out of Pocket Max (Single/Family)    | $4,000 / $8,000        | $2,500 / $5,000    | $3,000 / $6,000   |
 | Primary Care Visit         | 20%                    | $20 per visit      | $20 per visit     |
 | Specialist Visit           | 20%                    | $20 per visit      | $20 per visit     |
@@ -205,10 +199,10 @@ In Network:
 | Generic                    | $10                    | $10                | $10               |
 | Brand - Preferred          | $30                    | $30                | $30               |
 | Brand - Non-Preferred      | $50                    | $50                | $50               |
-| HSA Annual Employer Contribution      | $1200 /$1500 (2024)      | N/A                | N/A               |
-| Rx Plan^                   | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) <br> [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) <br> [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view) | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) <br> [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  |
+| HSA Annual Employer Contribution      | $1200 /$1500      | N/A                | N/A               |
+| Rx Plan^                   | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view) |[2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  |
 | Fertility Services | $15,000 Lifetime Benefit | $15,000 Lifetime Benefit| $15,000 Lifetime Benefit |
-| Summary Plan Descriptions  | [2025 HDHP](https://drive.google.com/file/d/1UoSJxzk4oCUvDlrtpFSn6XYaON_2neiC/view?usp=sharing) | [2025 EPO](https://drive.google.com/file/d/1MAn1Y5GRKV_YaBGQK6onUeGI0fzbqTBL/view?usp=sharing) |  [2025 PPO](https://drive.google.com/file/d/147BcT7rRqth-m5VsU0zoMDvC6nawxxoi/view?usp=sharing) <BR>  [2025 PPO Utah](https://drive.google.com/file/d/17amF3mBc7duZbsjw92eLhBtmsInfhoUM/view?usp=sharing) |
+| Summary Plan Descriptions  | [2025 HDHP](https://drive.google.com/file/d/1UoSJxzk4oCUvDlrtpFSn6XYaON_2neiC/view?usp=sharing) <br> [SPD 2025 HDHP](https://drive.google.com/open?id=1ZJKfMEvC7Q5oQnu5dsL-V1KLVZuKW8id&usp=drive_copy) | [2025 EPO](https://drive.google.com/file/d/1MAn1Y5GRKV_YaBGQK6onUeGI0fzbqTBL/view?usp=sharing)<br> [SPD 2025 EPO](https://drive.google.com/open?id=1oMNvCYRjIAGP9UBfIeBPN70WJ84sxTgP&usp=drive_copy) |  [2025 PPO](https://drive.google.com/file/d/147BcT7rRqth-m5VsU0zoMDvC6nawxxoi/view?usp=sharing) <br> [SPD 2025 PPO](https://drive.google.com/open?id=1dDfSZkEmlqUwVNz13FkNijqUwIDebr9g&usp=drive_copy) <BR>  [2025 PPO Utah](https://drive.google.com/file/d/17amF3mBc7duZbsjw92eLhBtmsInfhoUM/view?usp=sharing) <br> [SPD 2025 PPO Utah](https://drive.google.com/open?id=1UQP2GBxs4d1IWAK6LBA3rJBzVEZLNR24&usp=drive_copy) |
 
 \*\* In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. **Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.**
 
@@ -222,16 +216,7 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 
 <details markdown="1">
 
-<summary>2024 & 2025 Cigna Team Member Premium Costs</summary>
-
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
-
-| Tier                     | HDHP-HSA* | EPO  | PPO  |
-|--------------------------|:---:|:----:|:----:|
-| Team Member Only         | $0  | $92   | $88   |
-| Team Member + Spouse     | $38  | $358 | $346 |
-| Team Member + Child(ren) | $28  | $294 | $282 |
-| Family                   | $62  | $548 | $528 |
+<summary> 2025 Cigna Team Member Premium Costs</summary>
 
 #### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
@@ -243,8 +228,6 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 | Family                   | $70  | $612 | $588 |
 
 *Note: For the **HSA**, GitLab will contribute $100 per month for individuals and $125 per month for team members + dependent(s) cover. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.
-
-Watch the [2024 High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) to learn more about this health plan and the tax advantages of enrolling in the HDHP plan with an HSA.
 
 </details>
 
@@ -324,18 +307,18 @@ Benefits for services and supplies received outside the Service Area are covered
 
 ### Kaiser Medical Plans
 
-#### Kaiser 2024 and 2025 Calendar Year Plans
+#### Kaiser 2025 Calendar Year Plans
 
 The following Kaiser options are available for Hawaii residents.
 Residents in California and Colorado have the Kaiser options below, in addition to the Cigna plan options.
 
 <details markdown="1">
 
-<summary>2024 & 2025 Kaiser Plans & Coverage Details</summary>
+<summary> 2025 Kaiser Plans & Coverage Details</summary>
 
 The Kaiser Coverage details can be found below.
 
-| Plan Details               |  [2024 HMO NorCal](https://drive.google.com/file/d/1tgPibtd99vxasyCP0lq9nqA2W7n2104W/view?usp=sharing) <br> [2025 HMO NorCal](https://drive.google.com/file/d/1kSjaldsszNYJGdG7qofBbX1wYIbxjVfL/view?usp=sharing) | [2024 HMO 20 SoCal](https://drive.google.com/file/d/1lF5Bth3dfmR2W9Ys5PrCz-nM-RBC-Ok9/view?usp=sharing) <br> [2025 HMO SoCal](https://drive.google.com/file/d/1yrNt4Y0PSfCSEXWnp5YbOs0f2OKtYhz3/view?usp=sharing) |  [2024 HMO 20 HI](https://drive.google.com/file/d/1XmGl0xwnQmfY8vfL3eiRRFKfJSdedxta/view?usp=sharing)  <br> [2025 HMO HI](https://drive.google.com/file/d/1qkWTsJ2vPOAGuWSzCxgpLWhZvCyzG-q0/view?usp=sharing) |
+| Plan Details               | [2025 HMO NorCal](https://drive.google.com/file/d/1kSjaldsszNYJGdG7qofBbX1wYIbxjVfL/view?usp=sharing) | [2025 HMO SoCal](https://drive.google.com/file/d/1yrNt4Y0PSfCSEXWnp5YbOs0f2OKtYhz3/view?usp=sharing) | [2025 HMO HI](https://drive.google.com/file/d/1qkWTsJ2vPOAGuWSzCxgpLWhZvCyzG-q0/view?usp=sharing) |
 |----------------------------|:--------------------:|:---------------:|:---------------:|
 | Deductible (Single/Family) | $0 / $0              | $0 / $0         | $0 / $0         |
 | Out Of Pocket Max (Single/Family)    | $1,500 / $3,000      | $1,500 / $3,000 | $2,500 / $7,500 |
@@ -349,26 +332,17 @@ The Kaiser Coverage details can be found below.
 | Brand - Preferred          | $35                  | $35             | $50             |
 | Brand - Non-Preferred      | $35                  | $35             | $50             |
 | Specialty Drugs            | 20% up to $150       | 20% up to $150  | $200            |
-| Disclosures Benefit Summary          | [2024 HMO Norcal](https://drive.google.com/file/d/1aAp75b2yQnGsndRCkn46g27vgqxDd2UO/view?usp=sharing) <br>  [2025 HMO NorCal](https://drive.google.com/file/d/1byP2FD7CcA8cszh_1SZoRTBP_cjUXuOh/view?usp=sharing) |  [2024 HMO SoCal](https://drive.google.com/file/d/1g5rUj6SqB7oWhKyY7zPGG-XvKvSxd18n/view?usp=sharing) <br> [2025 HMO SoCal](https://drive.google.com/file/d/1by7QbMF1eZ1jhXEJpeSi-zWV1cjwNh4G/view?usp=sharing) | <br> [2024 HMO HI](https://drive.google.com/file/d/1XmGl0xwnQmfY8vfL3eiRRFKfJSdedxta/view?usp=sharing)   <br> [2025 HMO HI](https://drive.google.com/file/d/1NSxUxvL_L_rLIDMTJW654lkLCycpCR4H/view?usp=sharing) |
+| Disclosures Benefit Summary          | [2025 HMO NorCal](https://drive.google.com/file/d/1byP2FD7CcA8cszh_1SZoRTBP_cjUXuOh/view?usp=sharing) | [2025 HMO SoCal](https://drive.google.com/file/d/1by7QbMF1eZ1jhXEJpeSi-zWV1cjwNh4G/view?usp=sharing) | [2025 HMO HI](https://drive.google.com/file/d/1NSxUxvL_L_rLIDMTJW654lkLCycpCR4H/view?usp=sharing) |
 
-Please see the [2024 Disclosure Part 2 form for Kaiser CA Plans](https://drive.google.com/file/d/1ItWP_IsUjmDwZfGgkGt-67M-sVZAthFL/view?usp=sharing) and [2025 Disclosure Part 2 form for Kaiser CA](https://drive.google.com/file/d/14bPYtF6Xg_P09PahsVNBeLu8xK9IhGK6/view?usp=sharing)
+[2025 Disclosure Part 2 form for Kaiser CA](https://drive.google.com/file/d/14bPYtF6Xg_P09PahsVNBeLu8xK9IhGK6/view?usp=sharing)
 
 </details>
 
 <details markdown="1">
 
-<summary>2024 & 2025 Kaiser Team Member Premium Costs</summary>
+<summary> 2025 Kaiser Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
-
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
-
-| Tier                     | HMO CA North | HMO CA South | HMO HI |
-|--------------------------|:------------:|:------------:|:------:|
-| Team Member Only         | $36           | $36           | $26     |
-| Team Member + Spouse     | $264         | $264         | $152   |
-| Team Member + Child(ren) | $216         | $216         | $126   |
-| Family                   | $388         | $388         | $276   |
 
 #### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
@@ -436,7 +410,7 @@ Kaiser Hawaii Plan members are covered for an infertility consultation and certa
 
 <summary>Kaiser Chiropractic and Acupuncture</summary>
 
-Review the [2024 Kaiser Permanente Chiropractic and Acupuncture Benefits Flyer](https://drive.google.com/file/d/1lV6QAA-LMGHbGKdPAaMq72ZTxG92NFV3/view?usp=sharing) and [2025 Norcal Kaiser Permanente Chiropractic and Acupuncture Benefits](https://drive.google.com/file/d/12qyoqvb5Pse5TYjGaHvDWzEY6niTvFO5/view?usp=sharing) and [2025 SoCal Kaiser Permanent Chiropractic and Acupuncture Benefits](https://drive.google.com/file/d/1vCgieamGBND65l1i262rRgzkc3YSRnTB/view?usp=sharing)
+Review the [2025 Norcal Kaiser Permanente Chiropractic and Acupuncture Benefits](https://drive.google.com/file/d/12qyoqvb5Pse5TYjGaHvDWzEY6niTvFO5/view?usp=sharing) and [2025 SoCal Kaiser Permanent Chiropractic and Acupuncture Benefits](https://drive.google.com/file/d/1vCgieamGBND65l1i262rRgzkc3YSRnTB/view?usp=sharing)
 
 </details>
 
@@ -458,11 +432,11 @@ Dental does not come with individualized insurance cards from Cigna, although yo
 
 <details markdown="1">
 
-<summary>2024 & 2025 Dental Plans and Coverage</summary>
+<summary>2025 Dental Plans and Coverage</summary>
 
 **Coverages:**
 
-| Plan Details                         | [DDPO 2024 Base](https://drive.google.com/file/d/1JKKaGIudKjGWwikOztQ0-m60HjKnBA-K/view?usp=sharing) <br> [DDPO 2025 Base](https://drive.google.com/file/d/1cBwl-Hkf7E8EqbRfHgCJzS1oJpSoHvA5/view?usp=sharing) | [DDPO 2024 Buy Up](https://drive.google.com/file/d/1f0ZvigwP_eG4HQnh0O6Cs61jJIqkqE6d/view?usp=sharing) <br> [DDPO 2025 Buy Up](https://drive.google.com/file/d/1wFpHm0mHX1vqbIxun59DjhvNhi3RxRc4/view?usp=sharing) |
+| Plan Details                         | [DDPO 2025 Base](https://drive.google.com/file/d/1cBwl-Hkf7E8EqbRfHgCJzS1oJpSoHvA5/view?usp=sharing) | [DDPO 2025 Buy Up](https://drive.google.com/file/d/1wFpHm0mHX1vqbIxun59DjhvNhi3RxRc4/view?usp=sharing) |
 |--------------------------------------|----------|-----|
 | Deductible (Single/Family)                          | $50/$150 | $50/$150 |
 | Maximum Benefit                      | $2,000     | $3000 |
@@ -478,18 +452,9 @@ Dental does not come with individualized insurance cards from Cigna, although yo
 
 <details markdown="1">
 
-<summary>2024 & 2025 Dental Team Member Premium Costs</summary>
+<summary>2025 Dental Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
-
-*2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
-
-| Tier                     | DPPO Base | DPPO Buy Up |
-|--------------------------|----|-----|
-| Team Member Only         | $0   | $14 |
-| Team Member + Spouse     | $14  | $40 |
-| Team Member + Child(ren) | $18  | $ 48 |
-| Family                   | $32  | $78 |
 
 ### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
@@ -520,9 +485,9 @@ Cigna has partnered with EyeMed for their vision plan offerings, you can check c
 
 <details markdown="1">
 
-<summary>2024 & 2025 Vision Plans and Coverage</summary>
+<summary> 2025 Vision Plans and Coverage</summary>
 
-| Plan Details                      | [Vision 2024 Base](https://drive.google.com/file/d/1oEPOCvtuHBvfPY4MWCiVKuCsC_SJudIR/view?usp=sharing) <br> [Vision 2025 Base](https://drive.google.com/file/d/1D5KEum39RHjD2iCD-jo5SAdSck-_To23/view?usp=sharing)  | [Vision 2024 Buy up](https://drive.google.com/file/d/1GUplU7IiPVXJQXIM3yX-x6wHh9omgZcG/view?usp=sharing) <br> [Vision 2025 Buy Up](https://drive.google.com/file/d/13kattV90EQVyJN3ifV5suG4_kLLENvEw/view?usp=sharing) |
+| Plan Details                      | [Vision 2025 Base](https://drive.google.com/file/d/1D5KEum39RHjD2iCD-jo5SAdSck-_To23/view?usp=sharing)  | [Vision 2025 Buy Up](https://drive.google.com/file/d/13kattV90EQVyJN3ifV5suG4_kLLENvEw/view?usp=sharing) |
 |-----------------------------------|---------|--------|
 | Frequency of Services  Exam/Lenses/frames   | 12/12/24 months |12/12/12 months |
 | Copay Exam                        | $20          | $0 |
@@ -537,11 +502,11 @@ Cigna has partnered with EyeMed for their vision plan offerings, you can check c
 
 <details markdown="1">
 
-<summary>2024 & 2025 Vision Team Member Premium Costs</summary>
+<summary>2025 Vision Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-*2024 Rates* and *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+*2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | Vision Base | Vision Buy Up |
 |--------------------------|------|------|
@@ -858,7 +823,7 @@ There are three types of FSAs that team members may enroll in:
 <details markdown="1">
 
 <summary>Rollover Details for Medical and Limited Purpose FSA</summary>
-Per WEX Health, FSA rollover funds are not available for 2024 expenses until 5-15 business days after 2024-03-31 (should be no later than 2024-04-22).
+Per WEX Health, FSA rollover funds are not available for 2024 expenses until 5-15 business days after 2025-03-31 (should be no later than 2025-04-22).
 In 2024 the maximum salary deferral contribution has increased to $3,200 USD, with the maximum rollover amount increasing to $640 USD.
 In 2025 the maximum salary deferral contribution has increased to $3,300 USD, with the maximum rollover amount increasing to $660 USD.
 

@@ -78,18 +78,6 @@ Synced fields are sourced from Workday.
 - Email
 - Manager
 
-## Weekly New hires
-
-Every Wednesday at 10AM UTC, we run the audit on all the team members who started the week before. A spreadsheet is created
-in a Google Drive folder that is shared with Total Rewards and the VP People Operations, Technology & Analytics. In the
-spreadsheet we will list all the team members that we audited and mark the columns that need to be checked.
-
-## Monthly all Team Members
-
-Every first of the month at 10AM UTC, we run the audit on all the active team members at GitLab. A spreadsheet is created
-in a Google Drive folder that is shared with Total Rewards and the VP People Operations, Technology & Analytics. In the spreadsheet
-we will list all the team members that we audited *and* that had something marked as *needs to be checked*.
-
 ## GitLab Group
 
 We utilize a GitLab.com group for internal communications ('pings') on GitLab.com. This helps ensure the appropriate team members from the team are alerted and reduces noise for others that may not need to be alerted.

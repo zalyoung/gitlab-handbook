@@ -1,11 +1,7 @@
 ---
 title: "Code Inspection"
-no_list: true
+simple_list: true
 ---
-
-## Sub-pages
-
-{{< subpages >}}
 
 ## Code Inspections
 

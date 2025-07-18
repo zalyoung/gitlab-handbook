@@ -13,7 +13,7 @@ title: Process
    - [Kick-off](/handbook/customer-success/professional-services-engineering/workflows/project-execution/kick-off/)
    - Intake for [AWS](/handbook/customer-success/professional-services-engineering/workflows/intake/aws/) or [on-prem](/handbook/customer-success/professional-services-engineering/workflows/intake/on-prem/)
    - [On-going project calls (external)](/handbook/customer-success/professional-services-engineering/workflows/project-execution/calls/)
-   - [On-going internal project updates](/handbook/customer-success/professional-services-engineering/workflows/internal/15minute-standup.html)
+   - [On-going internal project updates](/handbook/customer-success/professional-services-engineering/workflows/project-execution/calls/)
    - [Change request when required for scope changes](https://docs.google.com/document/d/1aBKeyui9qCt9YoVtZg-Z7XRkNpomTa-H3KRPBLnt6TQ/edit?usp=sharing)
    - Project Summary
 

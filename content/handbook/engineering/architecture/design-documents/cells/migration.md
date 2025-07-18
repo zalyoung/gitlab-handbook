@@ -13,7 +13,7 @@ toc_hide: true
 
 ## Summary
 
-When we reach production and can operate organizations on new [cells](../cells), we need to be able to move [organizations](https://docs.gitlab.com/ee/user/organization/) from GitLab.com into a cell or between any two cells. [The Org Mover project](https://gitlab.com/groups/gitlab-org/-/epics/12857) provides a CLI orchestrator tool that makes the process of moving organization data from one cell to another a breeze. It’s designed to ensure no data loss or corruption with minimal downtime.
+When we reach production and can operate organizations on new [cells](../cells), we need to be able to move [organizations](https://docs.gitlab.com/ee/user/organization/) from GitLab.com into a cell or between any two cells. [The Org Mover project](https://gitlab.com/groups/gitlab-org/-/epics/12857) provides a CLI orchestrator tool that makes the process of moving organization data from one cell to another a breeze. It's designed to ensure no data loss or corruption with minimal downtime.
 
 It is important to note that the tool itself isn't responsible for moving data, but it takes care of setting up all the required logistics. It will be developed as a gem within the [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab) codebase.
 
@@ -119,24 +119,84 @@ A organization move can be broken down into five distinct high-level phases:
 
 ## Implementation Roadmap
 
-1. [Enable Geo on Gitlab.com and perform the checksumming of all data](https://gitlab.com/groups/gitlab-org/-/epics/14631) -- 4-6 Milestones
-1. [Make Geo PostgreSQL replication technology agnostic](https://gitlab.com/groups/gitlab-org/-/epics/13721) -- 2-3 Milestones
-1. Design and implement selective sync of Organizations -- 1-2 Milestones
-1. Make Geo work as a Disater Recovery solution alongside the Org Mover use case -- 2-3 Milestones
-1. [Develop the CLI tool to copy PostgreSQL data from the source database to the target database](https://gitlab.com/gitlab-org/gitlab/-/issues/473894) -- 2-3 Milestones
-1. Develop the CLI orchestrator tool -- 3-4 Milestones
-1. Implement error handling and monitoring -- 1-2 Milestones
-1. Test and validate the solution -- 1-2 Milestones
+Based on roadmap planning as of April 2025, the Org Mover implementation will proceed through several phases:
 
-## Alternative Solutions
+### FY26 Q1-Q2: Design and Foundational Work
 
-We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/user/group/import/) and [Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate). Both have been considered and evaluated, but these solutions do not meet the downtime requirements.
+1. **Org Mover Design** (FY25 Q4 - FY26 Q2)
+   - Run POCs to validate technical approach
+   - Investigate, discuss, and make critical design decisions
+   - Define the interfaces and components
 
-## Future iterations
+2. **Org Mover Foundational Work** (FY26 Q1 - FY26 Q2)
+   - Refactor, fix, and improve scalability of Geo code and data structures for Org Mover on .com
+   - Prepare the existing codebase for the requirements of organization-level operations
 
-- Add PostgreSQL Logical Replication as an option to minimize cutover downtime.
-- Provide an API interface to make integration with infrastructure tools easier.
-- Provide intuitive configuration and management UI interfaces.
+3. **Org Mover Org Checksums 1** (FY26 Q2-Q3)
+   - Build selective checksumming by organization
+   - Ignore tables where sharding keys are not available
+
+### FY26 Q3-Q4: Implementation and Testing
+
+1. **Org Mover Partial PG Copy** (FY26 Q3)
+   - Implement functionality to move an organization's PostgreSQL data from one cell to another in GDK
+   - Ignore tables where sharding keys are not available
+
+2. **Org Mover Org Checksums 2** (FY26 Q4)
+   - Finish building selective checksumming by organization
+   - Depends on completion of sharding work
+
+3. **Org Mover Org Checksums 3** (FY26 Q4)
+   - Selectively roll out checksumming per component on GitLab.com
+   - Validate checksumming features on .com
+   - Let SREs begin cleaning up data on .com
+
+### FY27 Q1-Q2: Production Validation
+
+1. **Org Mover Test Org Move** (FY27 Q1)
+   - Move test organizations on GitLab.com
+   - Validate end-to-end process in production
+   - Identify and address any issues discovered in production
+   - Repeat as frequently as possible
+
+2. **Org Mover 1: Internal Org Move** (FY27 Q1)
+   - Move an internal organization on GitLab.com that we actually use
+   - Depends on a way to block user writes to the organization
+   - Depends on organization data deletion, so we can reset the destination after each dry run
+   - Validate production performance with our own real data
+
+3. **Org Mover 2: Customer Org Move** (FY27 Q2)
+   - Move a real customer organization on GitLab.com
+
+### FY27 Q2-FY27 Q4: Downsize Legacy Cell
+
+1. **Org Mover 3: Minimize Toil** (FY27 Q2-Q3)
+   - Automate Org Mover operations to allow for multiple concurrent moves with minimal manual labor
+
+2. **Org Mover 4: Reduce downtime with PG Logical Replication** (FY27 Q4)
+   - Implement PostgreSQL logical replication for organization moves
+   - Reduce downtime during cutover phase
+   - Note: May [increase load on legacy database](https://gitlab.com/gitlab-org/gitlab/-/issues/523306), so we expect
+     logical replication to not be usable until many organizations have already been moved
+
+### FY28: Cell Rebalancing
+
+1. **Org Mover From Any Cell** (FY28 Q1)
+   - Support manual bi-directional moves (not just from legacy cell)
+
+## Organization Isolation and Sharding Dependencies
+
+The Org Mover project has key dependencies on other Tenant Scale initiatives:
+
+1. **Sharding Work Completion** (FY26 Q1-Q3)
+   - Required for clean, performant data separation during migration
+   - Required for Org Mover Org Checksums 2
+
+2. **Organization Data Isolation** (FY26 Q4)
+   - Required for clean, performant data separation during migration
+
+3. **Org on new cell** (FY26 Q4)
+   - Required for testing an organization that was migrated to a new cell
 
 ## Migration approaches at different major iterations of Cells
 
@@ -144,7 +204,7 @@ As we build out Cells, we need a way to test the functionality at each [major it
 
 We will need to adopt different approaches for each major iteration of the Cells evolution based on which technologies are available at each iteration.
 
-As we discuss creating and migrating Organizations, it's important to call out that top-level groups will retain their URL as they move between Organizations. For example, when a customer's top-level group is moved from the [default Organization](../organization/_index.md#default-organization) to their own Organization, their method of access remains unchanged. This means bookmarks, Git remote URLs, etc., for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
+As we discuss creating and migrating Organizations, it's important to call out that top-level groups will retain their URL as they move between Organizations. For example, when a customer's top-level group is moved from the [default Organization](../organization/_index.md#glossary) to their own Organization, their method of access remains unchanged. This means bookmarks, Git remote URLs, etc., for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
 
 ### Cells 1.0
 

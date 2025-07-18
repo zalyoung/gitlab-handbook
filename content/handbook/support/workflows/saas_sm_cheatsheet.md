@@ -32,7 +32,7 @@ SaaS, or Dedicated.
 |:----:| ----- |
 |Self-managed| Customers manage the configuration for their self-managed instances. Depending on the deployment method, the configuration will be in `/etc/gitlab/gitlab.rb`, `docker-compose.yml`, `values.yaml` or similar.|
 |DotCom| [The GitLab.com configurations](https://docs.gitlab.com/user/gitlab_com/) is managed by the infrastructure team and cannot be modified to meet individual customer's needs.|
-|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) customers can configure their tenants via [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) and via the **Admin Area**. GitLab Support team members can get access [Switchboard](dedicated_switchboard.md) through Okta by [following these steps](/handbook/support/workflows/dedicated_switchboard/#accessing-switchboard). Some [configuration changes](/handbook/support/workflows/dedicated/#configuration-changes) must be done via a [Request for Help issue](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team). |
+|Dedicated|[GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) customers can configure their tenants via [Switchboard](https://about.gitlab.com/direction/platforms/switchboard/) and via the **Admin Area**. GitLab Support team members can get access [Switchboard](dedicated_switchboard.md) through Okta by [following these steps](/handbook/support/workflows/dedicated_switchboard/#accessing-switchboard). Some [configuration changes](/handbook/support/workflows/dedicated/#configuration-changes) must be done via a [Request for Help issue](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team). |
 
 ### Architecture
 
@@ -74,7 +74,7 @@ Use the [Admin Area docs](https://docs.gitlab.com/administration/admin_area/#git
 |:----:| ----- |
 |Self-managed| [Gitaly](https://docs.gitlab.com/administration/gitaly/) configuration is managed through the **gitlab.rb** file. A customer can configure stand-alone [Gitaly](https://docs.gitlab.com/administration/gitaly/configure_gitaly/) or leverage [Gitaly Cluster](https://docs.gitlab.com/administration/gitaly/praefect/) to fulfill its git requirements. Be sure you know which of these types of Gitaly configuration a self-managed customer is using before you begin troubleshooting.|
 |DotCom| Gitaly is managed by the infrastructure team of GitLab, so customers do not have access to it.|
-|Dedicated| [Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues) |
+|Dedicated| Gitaly is managed by the Environment Automation SREs. [Open an RFH](/handbook/support/workflows/dedicated/#filing-issues) if needed. |
 
 ### Subscription
 

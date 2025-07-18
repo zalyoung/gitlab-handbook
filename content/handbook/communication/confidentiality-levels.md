@@ -11,7 +11,7 @@ At GitLab, we are [public by default](/handbook/values/#public-by-default), but 
 
 We make things public by default because [transparency is one of our values](/handbook/values/#transparency).
 Some things can't be made public and are either [internal](#internal) to the company or have [limited access](#limited-access) even within the company.
-If something isn't listed in the sections below please refer to Security's [Data Classification Standard](/handbook/security/data-classification-standard/) and Legal's [SAFE Framework](/handbook/legal/safe-framework/) in the Handbook for additional guidance.
+If something isn't listed in the sections below please refer to Security's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) and Legal's [SAFE Framework](/handbook/legal/safe-framework/) in the Handbook for additional guidance.
 
 ### Internal
 
@@ -30,7 +30,7 @@ The following items are internal:
    - Net and gross retention KPIs. Only the actual numbers can't be public. Other details, such as the goal and their calculation, may be public.
 1. All external communications about any financial information should be in line with the company's [SAFE Guidelines](/handbook/legal/safe-framework/) and [Social Media Policy](/handbook/marketing/team-member-social-media-policy/). If you have any questions please reach out via the [#Safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel.
 1. Deals with external parties like contracts and [approving and paying invoices](/handbook/finance/accounting/#procure-to-pay).
-1. Content that would compromise a GitLab team member, customer, or user's personal data, as defined in our [Privacy Terms](/handbook/legal/privacy/#privacy-terms). Examples of compromising content include personal (not GitLab assigned) contact information, location data, online identifiers, employment information, government IDs, financial information, or sensitive data elements related to health, religion, race/ethnictiy, political status, or sexual orientation.
+1. Content that would compromise a GitLab team member, customer, or user's personal data, as defined in our [Privacy Terms](/handbook/legal/privacy/#privacy-terms). Examples of compromising content include personal (not GitLab assigned) contact information, location data, online identifiers, employment information, government IDs, financial information, or sensitive data elements related to health, religion, race/ethnicity, political status, or sexual orientation.
 1. Legal discussions are not public due to the purpose of Attorney-Client Privilege.
 
 1. Competitive sales and marketing campaign planning is confidential since we want to minimize the time the competition has to respond to it.
@@ -42,7 +42,7 @@ The following items are internal:
 1. When there is a product offering being developed that is expected to generate very high demand that cannot be quickly met, it should be kept internal in order to give the team the time to create the right solution.
 1. Changes to GitLab.com free tier limits such as storage, data transfer, user limits or compute minutes are not public, as they are similar to Pricing and Packaging as discussed below in limited access.
 1. Specific details about our hiring processes such as our scoring rubrics & criteria are not public as we want to ensure candidates provide an accurate overview of their experience and do not falsify their responses to meet our criteria. [High-level interview plans are public and documented in each job family](/handbook/hiring/job-families/#job-family-template-1).
-1. GitLab's [strategy](/handbook/company/strategy), [Yearlies](/handbook/company/yearlies/), and [OKRs](/handbook/company/okrs/) are internal-only. GitLab goal setting is intentionally ambitious. External folks, without context, could make misinterpretations about the company's financial health and strategic plans, so sharing this information may have [unintended and undesirable effects](/handbook/legal/safe-framework/#effect).
+1. GitLab's strategy is internal-only. GitLab goal setting is intentionally ambitious. External folks, without context, could make misinterpretations about the company's financial health and strategic plans, so sharing this information may have [unintended and undesirable effects](/handbook/legal/safe-framework/#effect).
 1. Discussion, designs, and code that are subject to the [Discovery phase](/handbook/legal/patent-program/#discussion-of-inventions-and-improvements-to-inventions) of a patent application. Prior to filing the application all product and protype development should take place outside of public repositories.
 
 ### Limited access
@@ -67,7 +67,7 @@ Some projects require limited access internally due to the confidential or sensi
 
 Project code names can be overused. Code names should only be used for projects in which the leaking of a descriptive name (even without access to any related content) would be a problem. There are two cases where the project name should be used instead of a name that clearly describes the project.
 
-1. The existence of the project is [material non-public information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information). Example: "Gotham" was our project name for our IPO, because GitLab would have been penalized for pre-maturely signaling the imminence of its IPO.
+1. The existence of the project is [material non-public information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information-mnpi). Example: "Gotham" was our project name for our IPO, because GitLab would have been penalized for pre-maturely signaling the imminence of its IPO.
 1. Knowledge of the project or initiative is not MNPI but should remain [limited access](/handbook/communication/confidentiality-levels/#limited-access) to avoid prematurely sharing information with  team members, customers or the wider community. Examples include: "Tiering" was our project name for End of Availability, and "Hamster" was our project name for exploring how to enter China.
 
 In many cases, key project or initiative content will be MNPI or limited access, but we do not use a code name. In these cases, it is okay for folks to have a sense of what is being worked on, but the exact details are sensitive. For example:

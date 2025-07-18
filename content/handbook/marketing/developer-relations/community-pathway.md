@@ -43,7 +43,7 @@ GitLab is the DevOps Platform, made possible by contributions from the community
 
 * [GitLab's strategy & open core model](/handbook/company/stewardship/#how-open-source-benefits-from-open-core)
 * Dual flywheel strategy and the value of community
-  * [Dual Flywheel strategy](/handbook/company/strategy/#dual-flywheels)
+  * Dual Flywheel strategy
   * [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr)
   * [Percent of MRs from Community](/handbook/engineering/infrastructure/performance-indicators/#percent-of-mrs-from-community)
   * [Unique Wider Community Contributors Per Month](/handbook/engineering/infrastructure/performance-indicators/#unique-wider-community-contributors-per-month)

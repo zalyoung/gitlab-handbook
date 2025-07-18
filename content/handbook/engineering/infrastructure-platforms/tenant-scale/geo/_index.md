@@ -15,7 +15,7 @@ repositories and projects, or can be part of a Disaster Recovery solution.
 
 ### Stable counterparts
 
-{{< stable-counterparts role="Geo" manager-role="Fullstack Engineering Manager, Geo" >}}
+{{< engineering/stable-counterparts role="Geo" manager-role="Fullstack Engineering Manager, Geo" >}}
 
 ## Goals and Priorities
 
@@ -30,7 +30,7 @@ as part of a related project. Where this is not possible, we use time around our
 
 ## Objectives and Key Results (OKRs)
 
-Every quarter the engineering team sets [objectives and key results](/handbook/company/okrs/#what-are-okrs). OKRs are managed in GitLab as of FY24-Q1. The following are links to issues lists for Geo's OKRs.
+Every quarter the engineering team sets [objectives and key results](/handbook/company/okrs/). OKRs are managed in GitLab as of FY24-Q1. The following are links to issues lists for Geo's OKRs.
 
 [OKRs FY25-Q2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY25-Q2&first_page_size=20)
 [OKRs FY25-Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Ageo&milestone_title=FY25-Q3&first_page_size=20)
@@ -67,6 +67,8 @@ Please make sure to use and fill the [Geo support request issue template](https:
 
 Other than the [Collaboration template](https://gitlab.com/gitlab-com/geo-customers/-/issues/new?issuable_template=Support%20Request%20-%20Collaboration), RFHs must be opened by Support Engineers once a support ticket has been opened.
 
+[Collaboration template](https://gitlab.com/gitlab-com/geo-customers/-/issues/new?issuable_template=Support%20Request%20-%20Collaboration) is used for requests to join calls, whether that's from the EM/PM/engineers perspective. 
+
 **At minimum Zendesk links and logs are especially important. The issue will not enter our normal triage process if they are missing. If no update has been made on an issue for 2 weeks, they will be auto closed by the EM/PM/Assignee.**
 
 We also have a process for triaging RFH issues, please see [process](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/process/#engineering-customersupport-rotation-process)
@@ -102,7 +104,7 @@ The following links lead to Geo team lists of issues to help with identifying mi
 
 - [Issues missing the type label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&amp;not%5Blabel_name%5D%5B%5D=type%3A%3A%2a&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&first_page_size=20)
 - [Features issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Afeature&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&amp;not%5Blabel_name%5D%5B%5D=feature%3A%3A%2a&first_page_size=20)
-- [Maintainance issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&amp;not%5Blabel_name%5D%5B%5D=maintenance%3A%3A%2a&first_page_size=20)
+- [Maintenance issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Amaintenance&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&amp;not%5Blabel_name%5D%5B%5D=maintenance%3A%3A%2a&first_page_size=20)
 - [Bug issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&amp;not%5Blabel_name%5D%5B%5D=bug%3A%3A%2a&first_page_size=20)
 
 ### Other Resources
@@ -128,21 +130,3 @@ If you recorded the demo, please make sure the recording ends up in that folder.
 ## Geo Terminology
 
 See the [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary.html).
-
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="geo" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="geo" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="geo" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="geo" >}}
-{{< /tableau >}}

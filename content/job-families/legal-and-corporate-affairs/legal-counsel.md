@@ -61,34 +61,6 @@ Outstanding interpersonal skills, the ability to interface effectively with all 
 - Previous experience in a remote work environment would be an added advantage
 - Ability to use GitLab
 
-## Legal Counsel, Litigation 
-
-### Legal Counsel, Litigation Job Grade
-
-The Legal Counsel, Litigation is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Sr. Director, of Legal Risk Management and Dispute Resolution](/job-families/legal-and-corporate-affairs/risk-management-dispute-resolution/#senior-director-of-legal-risk-management--dispute-resolution)
-
-### Legal Counsel, Litigation Responsibilities
-
-- Draft and review pleadings, discovery responses, motions, and briefs; prepare and defend company witnesses for depositions, hearings, and trials.
-- Partner with team members and stakeholders across GitLab to assess litigation risks and develop strategic approaches to dispute resolution.
-- Develop and implement litigation holds and manage document collection and production.
-- Manage outside counsel to ensure cost-effective and high-quality representation while within the litigation budget.
-- Monitor and analyze changes in the law and legal risks; propose creative and effective solutions to address those risks.
-- Develop and implement litigation avoidance best practices.
-- Advise on, draft, maintain and review templates and policies.
-- Oversee and improve internal processes and tools related to litigation.
-
-### Legal Counsel, Litigation Requirements
-
-- 6+ years’ legal experience.
-- JD/LLB or local law degree equivalent and admission to state bar or analogous governing body.
-- Broad litigation experience and a proven track record of managing complex litigation, with bonus points for substantively managing patent litigation and/or securities matters.  
-- Ability to work with technical teams and translate technical concepts for legal purposes.
-- Outstanding interpersonal skills, with the ability to interface effectively with all business functions throughout the organization and build strong relationships.
-- Proactive, dynamic, and result driven self starter with strong attention to detail.
-- Strong project management skills and ability to independently handle multiple matters simultaneously
-- Familiarity working across the globe, to support multiple time zones and cultures, and previous  experience in a remote work environment would be advantageous.
-
 ## Senior Legal Counsel
 
 The Senior Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal).
@@ -117,6 +89,34 @@ The Senior Legal Counsel is a [Grade 7](/handbook/total-rewards/compensation/com
 - Sound and practical business judgment
 - Previous experience in a remote work environment would be an added advantage
 - Ability to use GitLab
+
+## Senior Legal Counsel, Litigation 
+
+### Senior Legal Counsel, Litigation Job Grade
+
+The Senior Legal Counsel, Litigation is a [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Sr. Director, of Legal Risk Management and Dispute Resolution](/job-families/legal-and-corporate-affairs/risk-management-dispute-resolution/#senior-director-of-legal-risk-management--dispute-resolution)
+
+### Senior Legal Counsel, Litigation Responsibilities
+
+- Draft and review pleadings, discovery responses, motions, and briefs; prepare and defend company witnesses for depositions, hearings, and trials.
+- Partner with team members and stakeholders across GitLab to assess litigation risks and develop strategic approaches to dispute resolution.
+- Develop and implement litigation holds and manage document collection and production.
+- Manage outside counsel to ensure cost-effective and high-quality representation while within the litigation budget.
+- Monitor and analyze changes in the law and legal risks; propose creative and effective solutions to address those risks.
+- Develop and implement litigation avoidance best practices.
+- Advise on, draft, maintain and review templates and policies.
+- Oversee and improve internal processes and tools related to litigation.
+
+### Senior Legal Counsel, Litigation Requirements
+
+- 8-10+ years’ legal experience.
+- JD/LLB or local law degree equivalent and admission to state bar or analogous governing body.
+- Broad litigation experience and a proven track record of managing complex litigation, with bonus points for substantively managing patent litigation and/or securities matters.  
+- Ability to work with technical teams and translate technical concepts for legal purposes.
+- Outstanding interpersonal skills, with the ability to interface effectively with all business functions throughout the organization and build strong relationships.
+- Proactive, dynamic, and result driven self starter with strong attention to detail.
+- Strong project management skills and ability to independently handle multiple matters simultaneously
+- Familiarity working across the globe, to support multiple time zones and cultures, and previous  experience in a remote work environment would be advantageous.
 
 ## Lead Legal Counsel
 

@@ -19,11 +19,11 @@ See [the exhaustive list of projects](#projects) the group maintains.
 
 ### Workflow
 
-The Composition Analysis group largely follows GitLab's [Engineering Workflow](/handbook/engineering/workflow/) and [Product Development Flow](/handbook/product-development-flow/).
+The Composition Analysis group largely follows GitLab's [Engineering Workflow](/handbook/engineering/workflow/) and [Product Development Flow](/handbook/product-development/how-we-work/product-development-flow/).
 
 This includes:
 
-- [Issue triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- [Issue triage](/handbook/product-development/how-we-work/issue-triage/)
 - [Infradev triage](#triaging-vulnerabilities)
 - [Wider Community Merge Request Triage](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Retrospectives](/handbook/engineering/management/group-retrospectives/)
@@ -76,14 +76,14 @@ Neither engineer should be allocated to work on Features or critical deliverable
 
 The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/2#schedule) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
-Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g. copying tools command executed locally, sharing relevant changes to projects and processes, etc.),
+Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g., copying tools command executed locally, sharing relevant changes to projects and processes, etc.),
 You can use the [Reaction Rotation issue template](https://gitlab.com/gitlab-org/secure/general/-/blob/master/.gitlab/issue_templates/Reaction%20Rotation%20SCA.md?ref_type=heads) for this purpose.
 
 At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/secure/composition-analysis-dev/reaction-rotation`](https://gitlab.com/groups/gitlab-org/secure/composition-analysis-dev/reaction-rotation/-/group_members?with_inherited_permissions=exclude), and remove the current engineers. This group is used to tag the engineers on rotation without having to look-up the schedule.
 
 #### Responsibilities - Security
 
-1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
+1. Triage vulnerabilities reported on the projects we maintain and help resolve them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
 1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
 1. Check for new security releases of our dependencies and ensure we use them:
@@ -96,7 +96,7 @@ At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/se
 
 #### Responsibilities - Support
 
-1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
+1. Monitor Slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [the Request for Help project](https://gitlab.com/gitlab-com/request-for-help#sec-section).
     - [#g_ast-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
     - [#s_application-security-testing](https://gitlab.slack.com/archives/C8S0HHM44)
@@ -128,12 +128,12 @@ These items must be triaged continuously throughout the milestone which means th
 1. Monitor the Slack channel `#g_ast-composition-analysis-alerts` for any incidents on the license-db infrastructure.
         - In case of an incident react with :eye: to indicate that you are looking into it.
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
-        - Write down in the insident Slack thread all the steps that were done to resolve it.
+        - Write down in the incident Slack thread all the steps that were done to resolve it.
 1. Monitor the Slack channels `#f_operational_container_scanning` and `#f_container_scanning` for alerts related to Operational Container Scanning (OCS) and Container Scanning.
 
 #### Handover
 
-1. As Reaction Rotation is continous process, post the handover status to the reaction rotation issue using the following template:
+1. As Reaction Rotation is continuous process, post the handover status to the reaction rotation issue using the following template:
 
 <details>
 <summary>Reaction Rotation Handover Template</summary>
@@ -196,14 +196,19 @@ See the [Application Security Testing sub-department vulnerability management pr
 
 We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/). Start with `Critical` and `High` but also look for issues that are connected to [vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=SLA%3A%3ANear%20Breach&first_page_size=100) and have an `SLA::Near Breach` label. These vulnerabilities might have a lower CVSS score but letting them reach SLA breach will count as 'past due' security issues and affect FedRAMP compliance.
 
-Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings but we are working in a risk based order.
+Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings, but we are working on a risk-based order.
+
+#### SLA::Near Breach issues
+
+When triaging vulnerabilities, you should give attention to [SLA::Near Breach issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=SLA%3A%3ANear%20Breach&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=20) as part of your rotation to prevent future SLA breaches.
 
 #### SLA::Breached issues
 
-Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons including:
+Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons, including:
 
 - A medium or low vulnerability that is not handled because it never got priority. Please notice that a low vulnerability might lead to a `severity::1` issue since it might get its score from different sources.
 - Issues that are never closed even if the relevant vulnerability is resolved or dismissed.
+- For vulnerabilities that cannot be fixed, apply the appropriate ~"risk treatment::" label after triage. This distinguishes between fix failures and inability to fix. Contact the vulnerability management team for risk acceptance guidance since standard SLA exceptions don't apply to breached vulnerabilities.
 
 You can search for `SLA::Breached` issues in the issue tracker using the following label filters:
 
@@ -211,6 +216,11 @@ You can search for `SLA::Breached` issues in the issue tracker using the followi
 - [Severity 2](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A2&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
 - [Severity 3](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A3&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
 - [Severity 4](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A4&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+
+#### Gemnasium vulnerabilities
+
+Since the new Dependency Scanner analyzer is FedRAMP supported, Gemnasium is no longer FedRAMP supported. Therefore, treat all Gemnasium vulnerabilities as `non-FedRAMP findings` when following SLA exception processes.
+Refer to the [SLA exceptions handbook page](../../../../../security/product-security/vulnerability-management/sla-exceptions.md) for process details.
 
 #### Triaging vulnerabilities
 
@@ -325,7 +335,7 @@ that have impacted composition analysis in the future.
     ```text
     <!--
     Select one of the following severities
-    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
+    Ref: https://handbook.gitlab.com/handbook/product-development/how-we-work/issue-triage/#severity
     -->
     /label ~"severity::1"
     /severity S1
@@ -341,7 +351,7 @@ that have impacted composition analysis in the future.
 
     <!--
     Select one of the following priorities
-    Ref: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority
+    Ref: https://handbook.gitlab.com/handbook/product-development/how-we-work/issue-triage/#priority
     -->
     /label ~"priority::1"
     /label ~"priority::2"
@@ -359,7 +369,7 @@ that have impacted composition analysis in the future.
     ```
 
 1. Assign the incident to the engineer currently on the maintainership reaction rotation.
-1. Link any related issues or zoom meetings with the [quick actions](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html#using-a-quick-action) to record incident timeline events. Ensure that an event exists for the incident start,
+1. Link any related issues or Zoom meetings with the [quick actions](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html#using-a-quick-action) to record incident timeline events. Ensure that an event exists for the incident start,
 detection, resolution, and any other events that you feel are worth highlighting as part of the incident response.
 1. Upon fixing the issue, include a detailed summary of the resolution and any initial follow up actions that should be completed. Lastly, an entry for incident should be added to the weekly composition analysis group meeting so that it may be reviewed with the entire group.
 
@@ -369,7 +379,7 @@ detection, resolution, and any other events that you feel are worth highlighting
 
 ### Maintenance triaging process
 
-To help our Engineering Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
+To help our Engineering Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/product-development/how-we-work/issue-triage/#priority).
 
 1. Leverage the [Maintenance issues board](https://gitlab.com/groups/gitlab-org/-/boards/7658725?label_name[]=group%3A%3Acomposition%20analysis&label_name[]=type%3A%3Amaintenance).
 1. For each open issue that has no Priority label ("Open" column), shortly investigate the issue (< 1h) and comment with your findings. Make sure the correct sub-category label is applied per our [Work type clasification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) (e.g. `~maintenance::refactor`).
@@ -480,33 +490,15 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 1. checkout the new tag (or commit) and create a new branch from it following naming convention `NEW_VERSION-security-checks`.
 1. copy/paste the existing `.gitlab-ci.yml` configuration file from the current `VERSION-security-check` branch.
 1. if there are new findings matching [our policy](#security-policy), address them according to our [triage process](#triaging-vulnerabilities).
-1. only when above mentionned findings are **fixed**, update the default_branch to be `NEW_VERSION-security-checks` and proceed with the update of the analyzer to use this newer version.
+1. only when the above-mentioned findings are **fixed**, update the default_branch to be `NEW_VERSION-security-checks` and proceed with the update of the analyzer to use this newer version.
 
 ##### License check when updating an upstream scanner
 
 Before releasing an analyzer with a newer version of its upstream scanner, we must ensure its license has not changed or is still compatible with [our policy](/handbook/engineering/open-source/#acceptable-licenses).
 
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="composition analysis" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
-{{< /tableau >}}
-
 ## Monitoring
 
-- [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
+- [Stage Group dashboard on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
 - [Continuous Vulnerability Scanning (background processing on the gitlab.com rails platform)](https://log.gprd.gitlab.net/app/r/s/OBQOB)
 
 ## Runbooks

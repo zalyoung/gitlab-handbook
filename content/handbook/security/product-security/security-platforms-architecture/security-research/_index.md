@@ -274,7 +274,7 @@ GitLab relies on a vast amount of Open Source Software, this is not limited to d
 
 In total there are ten projects in four different categories to pick from. The categories are to ensure our work has a broad impact. The projects are chosen and prioritized by the following factors:
 
-- Data access [(red/orange/green)](../../../data-classification-standard.md#data-classification-levels)
+- Data access [(red/orange/green)](/handbook/security/standards/data-classification-standard.md#data-classification-levels)
 - GitLab API scopes used (if any)
 - Functionality provided, especially aiming for high-impact features like:
   - authentication and authorization

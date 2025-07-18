@@ -38,7 +38,7 @@ Entering time off in Workday is not necessary if working but working asynchronou
     - Note that your manager is required to ensure that your PTO does not impact business results disproportionately and as such may request that you modify your dates when necessary.
     - When asking for PTO plans to be adjusted, managers are required to specify the goal or result that may be impacted by planned PTO and share how time off may interfere with that result or goal. Managers will be given the guidance that any requested changes they ask a team member to make need to be shared within 48 hours of the team member originally sharing their PTO plans. If there isn't a compromise that can be reached, the team member and manager should escalate to the manager's manager.
     - At GitLab, team members are required to enter all days away (such as PTO, public holidays, Family & Friends Days, bereavement) in Workday. It creates an event, captures your out-of-office dates, and notifies your manager.
-    - If your planned leave exceeds the 25 calendar days (including weekends and holidays), please make sure to reach out to your Manager, relevant [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division), and the Absence Management Team at `leaves@gitlab.com` for a special request. You will need additional permission if you want to take more than 25 consecutive calendar days (including weekends and holidays) off. The 25 calendar day limit is per vacation, not per year. You can have multiple vacations per year that add up to more than 25 calendar days in total; there is no limit to this.
+    - If your planned leave exceeds the 25 calendar days (including weekends and holidays), please make sure to reach out to your Manager, relevant [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments), and the Absence Management Team at `leaves@gitlab.com` for a special request. You will need additional permission if you want to take more than 25 consecutive calendar days (including weekends and holidays) off. The 25 calendar day limit is per vacation, not per year. You can have multiple vacations per year that add up to more than 25 calendar days in total; there is no limit to this.
     - If you're gone for 72 hours without notification, this could be deemed as [Job Abandonment](/handbook/people-policies/#job-abandonment).
     - It can be helpful to take longer breaks to re-energize. If this is helpful to you, we strongly recommend taking at least two consecutive weeks of time off and at minimum 25 days total throughout the year.
 1. We don't frown on people taking time off, but rather encourage people to take care of themselves and others by having some time away. If you notice that your co-worker is working long hours over a sustained period, you may want to let them know about the time off policy.
@@ -58,7 +58,7 @@ Entering time off in Workday is not necessary if working but working asynchronou
 
 ### Holidays
 
-We encourage all team members to take time off for public holidays observed in their country. All team members will see a public holiday accrual balance in Workay. The balance is country specific and was determined based on the local and/or contractual requirements. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach no one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that values [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion--belonging-competency), public holidays will not be pre-loaded to Workday, instead team members have the flexibility to elect different dates and celebrate what’s important to them, as long as they do not exceed the balance in Workday.
+We encourage all team members to take time off for public holidays observed in their country. All team members will see a public holiday accrual balance in Workday. The balance is country specific and was determined based on the local and/or contractual requirements. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach no one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that values [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion--belonging-competency), public holidays will not be pre-loaded to Workday, instead team members have the flexibility to elect different dates and celebrate what’s important to them, as long as they do not exceed the balance in Workday.
 
 For a general list of public holidays by country, follow these steps:
 
@@ -84,7 +84,7 @@ Communicate broadly when you will be away so other people can manage time effici
 1. If your team or work group has a specific scheduling calendar, ensure to update it with your out of office plans.
 1. Decline any meetings you will not be present for so the organizer can make appropriate arrangements.
     - Cancel, move, or find coverage for any meetings for which you are the organizer.
-    - Optionally, if you partake in [Donut coffee chat pairings](/handbook/company/culture/all-remote/tips/#coffee-chats) you can temporarily "snooze" them by opening a direct message with Donut and typing `help` to indicate which weeks you won't be able to participate. Pairings will automatically resume when you're back.
+    - Optionally, if you partake in [Donut coffee chat pairings](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) you can temporarily "snooze" them by opening a direct message with Donut and typing `help` to indicate which weeks you won't be able to participate. Pairings will automatically resume when you're back.
 1. If you are an interviewer, review your calendar to address any scheduled interviews. To ensure we provide a great candidate experience, if you find that you cannot attend an interview, you will be responsible for finding a replacement interviewer. You must communicate directly with your recruiter, as being out of the office does not always mean that you will be unavailable to interview.
 1. If you're one of the people who typically handle availability emergencies (the on-call heroes), you **do** need to ensure that someone will be available to cover for you while you're out of office. You can check for this with your manager. Managers can import their team's calendars into their Google Calendar to get a quick view of their team members' availability.
 1. Being part of a global remote team means you need to be highly organized and a considerate team player. Each team has busy times so it is always a good idea to check with them to ensure there is adequate coverage in place.
@@ -99,7 +99,7 @@ Communicate broadly when you will be away so other people can manage time effici
         1. "Comments by covering team member" - Very useful to asynchronously get updates quickly when you return from your PTO.
         1. Pro tip: Use color codes (e.g. green, red) and symbols (e.g. ✅, ❗️) to let others easily & quickly identify most important entries.
             - Please don't use colors only as people with [color blindness](https://www.mayoclinic.org/diseases-conditions/poor-color-vision/symptoms-causes/syc-20354988) may not be able to distinguish between them
-    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule messages in Slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
+    1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule messages in Slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of reminders that could be scheduled:
         - > Hey team, just a reminder that I'm out today.  Please take a look at my open tickets. Thanks!
         - > Hello team, I am out of the office for the next several days. Please double check the pending tasks on our team's Google Doc for any upcoming deadlines.
 1. Please see the [On-Call](/handbook/engineering/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
@@ -130,7 +130,7 @@ Returning from PTO of any length can feel overwhelming. Consider implementing th
 
 Sick time refers to the time away a team member needs to recover from short-term (non-chronic, or reoccurring) illness such as but not limited to COVID-19, menstrual pain, cold/flu, surgery, care for a close family member recovering from illness, or for preventative reasons like a doctor's appointment. Eligible family members includes but may not be limited to: parent(s), child(ren), spouse, domestic partner, grandparent(s), grandchild(ren), or sibling(s).
 
-In keeping with our values of [CREDIT](/handbook/values/), we have crafted the following protocols around GitLab's global sick time policy available to all GitLab team members.  Team members may be eligible for their own country's [Sick Time Policies](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) and should review eligiblilty under these policies as they may offer more time away or have different reporting procedures.  We understand team members experience situations when they need continuous time away from work (5 days or more) to care for themselves or a family member, or situations when they just need a few days (less than 5), GitLab's Sick Time policy is applicable in both situations.
+In keeping with our values of [CREDIT](/handbook/values/), we have crafted the following protocols around GitLab's global sick time policy available to all GitLab team members.  Team members may be eligible for their own country's [Sick Time Policies](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) and should review eligiblity under these policies as they may offer more time away or have different reporting procedures.  We understand team members experience situations when they need continuous time away from work (5 days or more) to care for themselves or a family member, or situations when they just need a few days (less than 5), GitLab's Sick Time policy is applicable in both situations.
 
 *Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance.
 
@@ -163,7 +163,7 @@ In the United States, team members may experience a qualifying condition under t
 
 #### Sick Time Procedures - Netherlands
 
-Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/):
+Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-operations/employment_contracts/):
 
 - Team members must notify their manager of any sick leave needed.
 - Team members must then enter the sick time via Workday as aligned above.
@@ -192,11 +192,7 @@ In the unfortunate event that a team member is dealing with a medical situation,
 
 ## Accommodations
 
-If you believe you need reasonable accommodations to perform the essential functions of your job in accordance with applicable law(s), please email leaves@gitlab.com (Non-US Only).  [US team members](/handbook/people-policies/inc-usa/#reasonable-accommodation) please follow the steps outlined in the handbook.
-
-If a team member starts the conversation with their manager, or People Business Partner, the manager or People Business Partner should either reach out to the Absence Management Team by emailing `leaves@gitlab.com`, or direct the team member to follow the steps outline in the handbook (links above).
-
-The Absence Management Team will keep a log of all accommodation requests. What can (or must) be accommodated varies from location to location. GitLab will comply with the applicable laws in your specific location.
+GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability.  If you believe you need reasonable accommodation, please follow the process outlined on this [handbook page](/handbook/people-group/paid-time-off/#accommodations).
 
 ### Communicating with team members while they are leave of absence
 
@@ -210,11 +206,11 @@ For managers it is ok to reach out to a team member every 3-4 weeks to just to s
 
 All team members and Managers, including those employed under a PEO, are expected to log all time away requests into Workday (Vacation, Public Holiday, Friends & Family, Sick Time, etc.)
 
-As of October 1, 2024, Workday and Workday Slack will be the primary point of entry for all time away needs.  This allows team members and managers to coordinate time off seamlessly.  The integration between Workday and Time Off by Deel will still be available, but all data will feed from Workday into Time Off by Deel; retaining Deel's functionality (reminds employees of their upcoming time off, assign roles and tasks for co-workers, Google Calendar synronization, and automatic OOO updates).
+As of October 1, 2024, Workday and Workday Slack will be the primary point of entry for all time away needs.  This allows team members and managers to coordinate time off seamlessly.  The integration between Workday and Time Off by Deel will still be available, but all data will feed from Workday into Time Off by Deel; retaining Deel's functionality (reminds employees of their upcoming time off, assign roles and tasks for co-workers, Google Calendar syncronization, and automatic OOO updates).
 
 GitLab team member questions about Workday can be directed to the HelpLab portal.
 
-### Workday to Time Off by Deel Synronization
+### Workday to Time Off by Deel Syncronization
 
 #### Google Calendar Sync
 
@@ -266,7 +262,7 @@ You can request a new Workday feature by using the aforementioned `/time-off-dee
 
 ### Instructions for Team Members to update past events
 
-Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Operations team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
 
 ## Management's Role in Paid Time Off
 

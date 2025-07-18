@@ -121,7 +121,7 @@ The requirements of the Senior Data Governance and Quality Analyst extend the Da
 - Deep understanding of SQL, Data Visualization and Business Intelligence practices
 - Have demonstrated experience in Data Catalog implementation and support at an enterprise level
 - Strong knowledge in data architecture and data engineering, good understanding of data sources, transformation rules, and uses of the data for the area of stewardship
-- Own and maintain one or more sections of the [Data Catalog](/handbook/enterprise-data/data-catalog/)
+- Own and maintain one or more sections of the [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/)
 
 ### Staff Data Governance and Quality Analyst
 
@@ -152,7 +152,7 @@ The requirements of the Staff Data Governance and Quality Analyst extend the Sen
 - Fluent in all major technologies in the [Data Team Platform](/handbook/enterprise-data/platform/), with a particular emphasis on Data Visualization, Business Intelligence and Data Modeling
 - Recognized expert in SQL, Tableau, and dbt
 - Demonstrated experience in driving large scale data governance and / or data quality initiatives
-- Own and maintain the [Data Catalog](/handbook/enterprise-data/data-catalog/)
+- Own and maintain the [Data Catalog](/handbook/enterprise-data/data-governance/data-catalog/)
 
 ## Hiring Process
 

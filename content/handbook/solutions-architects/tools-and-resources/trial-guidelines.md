@@ -159,7 +159,7 @@ Note you also need to have [Zendesk Light Agent account](/handbook/support/inter
 References
 
 - [Support Internal Requests](/handbook/support/internal-support/#internal-requests)
-- [Support Super Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
+- [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
 
 ## Trialing GitLab Duo (AI)
 

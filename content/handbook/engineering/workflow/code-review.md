@@ -221,7 +221,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
 
-- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
+- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/merge_requests/#workflow)
 - Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/index.html) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
 - Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency.html).
 - Contribute to issues and review merge requests.
@@ -231,7 +231,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
-- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
+- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/merge_requests/#workflow)
 - Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/).
 - Understand how [custom resources and controllers](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) work.
 - Familiarize yourself with the following libraries and tools:
@@ -576,7 +576,7 @@ CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
 
-1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.
 
 The `@gitlab-org/development-leaders` group consists of team members from Senior Managers and above in the management track, and Distinguished Engineer and above in the individual contributor track in the development departments within Engineering.

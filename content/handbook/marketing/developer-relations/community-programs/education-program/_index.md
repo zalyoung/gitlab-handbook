@@ -23,7 +23,7 @@ Additionally, see the following Slack channels.
 | Channel | Purpose |
 |---------|---------|
 |[#community-programs](https://gitlab.slack.com/messages/community-programs)| Communication regarding the GitLab for Education,GitLab for Open Source, and GitLab for Startups Programs.|
-|[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing [the GitLab for Campuses](/handbook/marketing/developer-relations/community-programs/education-program/gitlab-for-campuses/) (paid) offering |
+|[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing [the GitLab for Campuses](/handbook/sales/public-sector#gitlab-for-campuses) (paid) offering |
 
 ## Vision and goals
 

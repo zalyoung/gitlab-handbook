@@ -125,7 +125,7 @@ Any IT team member can explore lateral career moves within the broader IT job fa
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](https://about.gitlab.com/company/team/).
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to a 45 minute interview with a senior member of the team.
 - Second round interviews will involve interviews with 2 SMEs in the Business and or IT Team.
 - Third round interview is with the Senior Director, Enterprise Applications.

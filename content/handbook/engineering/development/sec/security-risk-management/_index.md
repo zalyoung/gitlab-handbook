@@ -43,4 +43,4 @@ PM: {{< member-by-gitlab "g.hickman" >}}
 
 EM: {{< member-by-gitlab "alan" >}}
 
-{{< member-and-role-by-gitlab "aturinske" "sashi_kumar" "mcavoj" "Andyschoenen" "bauerdominic" "arfedoro" "mc_rocha" >}}
+{{< member-and-role-by-gitlab "aturinske" "sashi_kumar" "mcavoj" "Andyschoenen" "bauerdominic" "arfedoro" "mc_rocha" "imam_h" >}}

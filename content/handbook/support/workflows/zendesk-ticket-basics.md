@@ -118,3 +118,59 @@ the SLA. The ticket that was merged into another ticket is closed while the
 status of the target ticket is unaffected.
 
 **NOTE:** Any ticket merge is final -- there is no option to undo it.
+
+## ZenGuard - Action Warning System
+
+ZenGuard is a Zendesk application deployed on Global Zendesk only. The app provides warning dialogs and confirmation prompts for high-risk actions that could lead to unwanted results. It helps prevent common mistakes that require tickets to be reopened or recreated.
+
+### What ZenGuard protects against
+
+The app provides warnings and blocks certain actions:
+
+- **Due date issues**: Setting due dates in the past, or too far in the future
+- **External collaborator risks**: Adding end-users as collaborators/CC 
+- **Status change without response**: Setting a ticket to pending with only an internal note
+- **On-hold timer reset**: Sending a public reply on an on-hold ticket that will not reset the SLA timer
+- **Missing public reply**: Setting ticket to on-hold without a public reply 
+- **Form change closure**: Changing ticket form which will cause automatic closure 
+
+### How ZenGuard works
+
+When you attempt a potentially problematic action, ZenGuard will:
+
+1. **Display a warning dialog** explaining the potential issue
+2. **Block the action** if it cannot be bypassed (marked as "this cannot be bypassed")
+3. **Allow bypass** for certain warnings by [refreshing](#how-to-refresh-zenguard) the app or proceeding after confirmation, the action blocked can be bypassed
+
+### Common scenarios and solutions
+
+#### Bypassing warnings
+
+Some warnings can be bypassed by either of the following::
+
+- [Refreshing](#how-to-refresh-zenguard) the ZenGuard app in your browser
+- Clicking through the confirmation dialog (where permitted)
+
+Note that critical safety checks (like setting pending without any response) cannot be bypassed.
+
+#### How to refresh ZenGuard
+
+1. Click in to the ZenGuard app using either the icon on your apps list (right side of Zendesk), or if you can't see it, click the + to pin a new app and select ZenGuard.
+2. Click the reload button in the title of the app. 
+
+![Browser plug-in](/images/support/workflows/assets/zenguard-reload.png)
+
+#### Troubleshooting
+
+If ZenGuard prevents a legitimate action:
+
+1. Check if there's a bypass option in the warning dialog
+2. Ensure all required fields are properly filled
+3. For macro-related issues, wait a moment and resubmit
+4. If the problem persists, open a new issue in the [Support Operations project](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)
+
+### Related resources
+
+- [RFC: What Zendesk "pitfalls" are we most worried about when working tickets](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6683#top)
+- Support Operations issue: [Feature Request: Zendesk Action Warning System](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/122)
+- Support Deployment issue: [ZenGuard App Deployment - Zendesk Action Warning System](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6898)

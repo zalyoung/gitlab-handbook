@@ -81,7 +81,7 @@ GitLab is both a company and a product. The Corporate Security department focuse
 - 📚 [Applications and Systems](/handbook/security/corporate/systems)
 - 🛟 [Helpdesk Services](/handbook/security/corporate/services/helpdesk)
   - 🔐 [Access Requests](/handbook/security/corporate/services/access-requests)
-  - 💻 [Laptop and Logistics Services](/handbook/security/corporate/services/laptops)
+  - 💻 [Laptop and Logistics Services](/handbook/security/corporate/end-user-services/laptop-management)
   - 🛬 [Onboarding](/handbook/security/corporate/services/onboarding)
   - 🛫 [Offboarding](/handbook/security/corporate/services/offboarding)
   - 🧑‍💻 [Tech Support (for Team Members)](/handbook/security/corporate/support/)

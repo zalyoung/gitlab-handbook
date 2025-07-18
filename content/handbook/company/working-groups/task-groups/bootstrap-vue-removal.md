@@ -58,10 +58,11 @@ These are the known challenges, but there may be additional issues that have yet
 
 ## Roles and Responsibilities
 
-| Task Group Role | Person                   | Title                                                        |
-| --------------- | ------------------------ | ------------------------------------------------------------ |
-| DRI             | Peter Hegman             | Senior Frontend Engineer, Tenant Scale::Organizations        |
-| Member          | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Foundations::Personal Productivity |
-| Member          | Lukas Eipert             | Staff Frontend Engineer, Foundations::Personal Productivity  |
-| Member          | Lorenz van Herwaarden    | Senior Frontend Engineer, Govern::Threat Insights            |
-| Member          | Chaoyue Zhao             | Frontend Engineer, Create::Source Code                       |
+| --------------- | ------------------------ | ------------------------------------------------------------- |
+| Task Group Role | Person                   | Title                                                         |
+| DRI             | Peter Hegman             | Senior Frontend Engineer, Tenant Scale::Organizations         |
+| Member          | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Foundations::Personal Productivity  |
+| Member          | Lukas Eipert             | Staff Frontend Engineer, Foundations::Personal Productivity   |
+| Member          | Lorenz van Herwaarden    | Senior Frontend Engineer, Govern::Threat Insights             |
+| Member          | Chaoyue Zhao             | Frontend Engineer, Create::Source Code                        |
+| Member          | Thomas Hutterer          | Senior Fullstack Engineer, Foundations::Personal Productivity |

@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -333,7 +333,7 @@ See [this issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/
 
 #### Observability
 
-In general, the lifecycle of observability components for cells will be owned by the [Observability team](/handbook/engineering/infrastructure/team/observability/).
+In general, the lifecycle of observability components for cells will be owned by the [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability/).
 
 By default, each Dedicated tenant is provisioned with a fully functional Prometheus/Grafana stack. Cells will reuse this stack, with the intention of aggregating metrics so that queries can be run over multiple cells. More information can be found [here](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/engineering/observability/metrics.html).
 

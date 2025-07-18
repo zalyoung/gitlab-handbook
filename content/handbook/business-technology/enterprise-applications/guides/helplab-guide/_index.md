@@ -23,13 +23,19 @@ ServiceNow (aka HelpLab) is going to be live on 2024-04-25.
 
 The following teams are available through HelpLab:
 
-- [People Connect](/handbook/people-group/people-ops-tech-analytics/)
+- [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/)
+- [People Compliance](/handbook/people-group/people-compliance/)
+- [Background Checks](/handbook/people-group/contracts-probation-periods/#background-screenings)
+- [Global Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)
 - [People Technology and Analytics](/job-families/people-group/people-systems-and-analytics/)
 - [Team Member Relations](/handbook/people-group/team-member-relations/)
-- [Stock Admin](/job-families/finance/stock-administrator/)
-- [Expenses](/handbook/finance/accounts-payable/)
-- [Payroll (US & Non-US)](https://internal.gitlab.com/handbook/finance/payroll/)
-- [IT services](/handbook/it/end-user-services/)
+- [Absence Management](/handbook/people-policies/leave-of-absence/) & [Paid Time Off](/handbook/people-group/paid-time-off/)
+- [Stock Admin](/handbook/total-rewards/stock-options/)
+- [Expenses](/handbook/finance/expenses/)
+- [Payroll (US & Non-US)](/handbook/finance/payroll/)
+- [Sales Commissions](https://internal.gitlab.com/handbook/sales/sales-commission/#fy23-sales-commission-policies)
+- [CorpSec End User Services](/handbook/security/corporate/end-user-services/)
+- [Enterprise Applications](/handbook/business-technology)
 
 ## How do I use HelpLab?
 

@@ -16,25 +16,94 @@ informing the rest of Support about the account's new status.
 
 [Introduce yourself as the customer's ASE](introductory-meeting.html).
 
-Consider whether ongoing cadence calls would help the customer relationship
-and/or help achieve their goals. There is no defined process for this so
-manage these as needed during the ASE contract.
+Agree with the customer on either a weekly or every-other-week schedule for a
+cadence call. The goals of the call should include completing a review of the
+work done since the previous call, and agreeing on what work you'll do for them
+before the next call and with what relative priorities.
 
-## Internal Communication
+## Systems Configuration
+
+### Add the account to the Assigned Support Engineers project README file
+
+In the [Assigned Support Engineers](https://gitlab.com/gitlab-com/support/assigned-support-engineers)
+project, the
+[README](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/blob/main/README.md)
+file contains the table that is the Single Source of Truth that lists all
+active ASE accounts and the ASEs for them. The table contains other standard
+information for each account as well:
+
+1. Links (Salesforce, Zendesk Org Note)
+1. Special Notes
+1. Zendesk Org Name
+1. Zendesk Account ID
+1. Zendesk User (ASE) ID
+
+The Zendesk-titled columns help everyone to find the correct account in Zendesk
+and to manage Zendesk configuration for automatic ticket assignment.
+
+Since ASEs don't have access to Salesforce, coordinate with your manager
+to find the necessary details. Then, submit an MR to add the full entry for
+the new account in the table in the README.
+
+#### Manager Instructions
+
+To get the correct Account ID and User ID, follow the guidance provided on the
+[Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+with the following options chosen:
+
+   1. The `What is this request concerning?` option should be
+      `Modifications to a Zendesk Global Organization`
+   1. The `What kind of modification are you looking to make?` should be
+      `Set an Assigned Support Engineer for an organization`
+
+Click on the `What is the Zendesk organization's ID?` field and take the steps
+described on the right side.
+
+Then click on the
+`What is the Zendesk user ID of the assigned support engineer? (put None to remove the current ASE)`
+field and take the steps described on the right side.
 
 ### Auto-assign the customer's tickets
 
-Auto-assignment of customer tickets requires a named ASE for the organization in Zendesk. 
-Support Managers will need to file a request using the
-[Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and 
-select the following options: 
+There might be times when the account contacts will make it your top
+priority to take all of their non-emergency tickets. During those times,
+configure automatic assignment of the account's tickets in
+Zendesk. Auto-assignment of customer tickets has two prerequisites:
 
-- The `What is this request concerning?` option should be
-  `Modifications to a Zendesk Global Organization` and the
-  `What kind of modification are you looking to make?` should be
-  `Set an Assigned Support Engineer for an organization`
+1. There must be a named ASE for the organization in Zendesk
+1. There must be an ASE-related `Product Charge` in the subscription in
+   Salesforce
 
-The request is automated and will create a tracking issue reflecting its status. 
+For both of these, please contact your manager and request that:
+
+1. They file a request using the
+   [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+   and select the following options: 
+   1. The `What is this request concerning?` option should be
+      `Modifications to a Zendesk Global Organization`
+   1. The `What kind of modification are you looking to make?` should be
+      `Set an Assigned Support Engineer for an organization`
+   The correct organization ID and user ID should have been placed into the
+   [README](https://gitlab.com/gitlab-com/support/assigned-support-engineers/-/blob/main/README.md)
+   file during the account
+   [onboarding](#add-the-account-to-the-assigned-support-engineers-project-readme-file).
+   If that has not yet happened, please follow those instructions and then
+   return to submit the request for automatic ticket assignment.
+
+   *NOTE*: The request is automated and will create a tracking issue reflecting its status.
+
+1. They verify in Zendesk that the `Subscription: Support Services - ASE` box
+   is checked for the account
+   product charge listed. If it does not, they should contact Sales Ops
+   for assistance.
+
+As you work with the account each week to agree on the prioritization of your
+work for them, that might not always include taking all of their tickets. Each
+time that changes, just remember to:
+
+1. Ask your manager to make the change in Zendesk
+1. Update the Zendesk [org note](#org-note-mentioning-the-ase-and-how-to-treat-the-ticket)
+   for the account
 
 ### Org Note mentioning the ASE and how to treat the ticket
 

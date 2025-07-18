@@ -19,9 +19,7 @@ To use the Growth and Development fund, applicants must be full-time GitLab empl
 
 Here is a step by step guide on how to apply for G&D applications.
 
-If it's your first time 
-
-We've created a comprehensive guide on Level Up that walks you through the G&D process, complete with video tutorials and step-by-step examples. Check out the [Growth & Development Explainer](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/growth-and-development-explainer) course.
+If it's your first time using the Fund, we've created a comprehensive guide on Level Up that walks you through the G&D process, complete with video tutorials and step-by-step examples. Check out the [Growth & Development Explainer](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/growth-and-development-explainer) course.
 
 ### Step 1 - Growth Conversation
 
@@ -75,9 +73,9 @@ Cost Tiers Approval:
 <details>
 <summary>Manager Guidance: Approving Travel for Conferences and Workshops </summary>
 
-- Our intent at GitLab is to pay for everything a team member needs when travelling to a conference, but there are a couple of things to be mindful of when approving these requests.
+- Our intent at GitLab is to pay for everything a team member needs when traveling to a conference, but there are a couple of things to be mindful of when approving these requests.
   - The G&D Fund should be used to pay for conference registration, tickets, etc.
-  - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
+  - The costs for traveling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
 
 - These two costs should still be detailed in the Growth and Development request issue, they just need to be expensed separately.
 

@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work-in-progress. Some aspects are not documented, though we expect to add them in the future.
 
@@ -71,6 +71,8 @@ by which widgets are active on a specific type. The list of widgets for any
 certain Work Item type is currently predefined and is not customizable. However,
 in the future we plan to allow users to create new Work Item types and define a
 set of widgets for them.
+
+We also have a [separate page on work item widgets](https://docs.gitlab.com/development/work_items_widgets/), including how to add a new one.
 
 ### Widget types (updating)
 
@@ -190,6 +192,13 @@ Since this is a large project with numerous moving parts, feature flags are bein
 | `work_items_alpha` | Child items in contextual view  | Enabled for `gitlab-org/plan-stage` |
 | `epics_list_drawer` | Epics list, epics board  | Enabled for `gitlab-org/plan-stage` |
 | `issues_list_drawer` | Issues list, issues board  | Disabled |
+
+#### Issue work item view feature flags
+
+| Feature flag name | Control area | Status |
+|---|---|---|
+| `work_item_view_for_issues` | Enable work item view for issues | defaulted to on |
+| `work_items_view_preference` | Show toggle in the header section to enable or disable issue work item view | defaulted to on |
 
 For epic work item specific feature flags, please see the [Epic Work Item Migration Epic](https://gitlab.com/groups/gitlab-org/-/epics/11777#feature-flags).
 

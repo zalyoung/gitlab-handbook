@@ -1,23 +1,23 @@
 ---
-title: "GitLab Compliance - Compliance Center and Frameworks"
-description: "This Hands-On Guide demonstrates how to create and view compliance center events."
+title: "GitLab Compliance - Hands-On Lab: Compliance Center and Frameworks"
+description: "This Hands-On Guide demonstrates how to create and view Compliance Center events."
 ---
 
 > Estimated time to complete: 15 minutes
 
 ## Objectives
 
-Learners will run a few actions in GitLab that show up in the compliance center and view how you could see a framework in action.
+Learners will run a few actions in GitLab that show up in the Compliance Center and view how you could see a framework in action.
 
 ## Task A. Creating Compliance Center Events
 
 1. Navigate to your `Compliance Project` project.
 
-1. In the left sidebar, select **Secure > Compliance center**.
+1. In the left sidebar, select **Secure > Compliance Center**.
 
 In this section, you will see three failed checks in your project. In cases where the **Status** is `Fail`, you will see `View details (fix available)` in the **More information** column. Let's see what information is shown in this section.
 
-1. Select `View details (fix available)` in the `At least one non-author approval` row of your compliance center report.
+1. Select `View details (fix available)` in the `At least one non-author approval` row of your Compliance Center report.
 
 1. Review the details outlined in this section.
 
@@ -25,9 +25,9 @@ In this section, you will see three failed checks in your project. In cases wher
 
 Throughout the labs in this course, we will see how to fix each of these compliance issues.
 
-## Task B. Creating compliance center violations
+## Task B. Creating Compliance Center violations
 
-In this task, we will complete some actions in our project that will result in compliance center violations.
+In this task, we will complete some actions in our project that will result in Compliance Center violations.
 
 1. In the left sidebar, select **Code > Repository**.
 
@@ -53,7 +53,7 @@ print("Start compliance project")
 
 1. Select **Merge**.
 
-1. After the merge request completes, select **Secure > Compliance center**.
+1. After the merge request completes, select **Secure > Compliance Center**.
 
 1. Select the **Violations** tab.
 
@@ -65,4 +65,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab Compliance*, please submit your changes via Merge Request.

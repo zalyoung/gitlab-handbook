@@ -45,8 +45,8 @@ and remember to use public channels instead of direct messages, thanks!
 > 5. All questions should be asked in public so that anyone can answer and everyone can learn from the discussion.
 > This is a community server with volunteers helping one another.
 > Please do not ping specific people to answer your question or send unsolicited friend requests or direct messages without consent.
-> See GitLab's communication values to Use Public Channels (/handbook/communication/#use-public-channels)
-> and Be Respectful of Others Time (/handbook/communication/#be-respectful-of-others-time).
+> See GitLab's communication values to Use Public Channels (https://handbook.gitlab.com/handbook/communication/#use-public-channels)
+> and Be Respectful of Others Time (https://handbook.gitlab.com/handbook/communication/#be-respectful-of-others-time).
 ```
 
 ### Tools
@@ -57,7 +57,6 @@ We use Discord bots and integrations to manage our community.
 | ------ | ------ |
 | [WickBot](https://wickbot.com/) | A discord bot that helps with moderation and security. |
 | [NeedleBot](https://needle.gg/) | A discord bot that creates Discord threads automatically. |
-| Community Pairs | Custom bot that announces the GitLab Live Stream. |
 
 In order to maintain our custom invite link `https://discord.gg/gitlab`, we maintain a Server Boost Level 3 through 14 server boosts, paid annually.
 

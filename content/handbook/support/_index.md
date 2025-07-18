@@ -18,7 +18,6 @@ Know someone who might be a great fit for our team? Please refer them to the job
 
 - [Support Engineering Job Family](/job-families/engineering/support-engineer/)
 - [Support Management Job Family](/job-families/engineering/support-management/)
-- [Support Operations Job Family](/job-families/engineering/support-readiness-specialist/)
 
 ## What does the Support Team do?
 
@@ -49,7 +48,7 @@ If you recommend [Professional Services](https://about.gitlab.com/services/) or 
 ### Our role within GitLab
 
 GitLab Support is part of the [Engineering division](/handbook/engineering/).
-While most engineering departments are part of the R&D [cost center](/handbook/finance/financial-planning-and-analysis/#cost--reporting-structure),
+While most engineering departments are part of the R&D cost center,
 Support is part of the Cost of Sales (or sometimes Cost of Goods Sold (COGS)) cost center.
 
 This unique arrangement is expressed in our [Key Performance Indicators](/handbook/support/performance-indicators/),
@@ -71,7 +70,7 @@ Success for help, freeing up more time to close sales.
 Part of Support's role is to amplify the voice of the customer. One way of doing this is inviting other GitLab team members into
 experiences that will help them understand customer challenges with the product or our own obstacles in helping customers overcome those challenges.
 
-Before you start, make sure you get [light-agent access in Zendesk](/handbook/support/internal-support/#viewing-support-tickets) so that you can view Support tickets.
+Before you start, make sure you get light-agent access in Zendesk so that you can view Support tickets.
 
 If you're looking to get more exposure to customers, there are a few ways to get involved with Support:
 
@@ -132,12 +131,12 @@ The [Single Source of Truth](/handbook/company/culture/all-remote/remote-work-gl
 for information about Support Team Members - everything from email address and
 personal interests to product skills and group memberships - is the
 [support-team project](https://gitlab.com/gitlab-support-readiness/support-team).
-The [Support Team Home Page](https://gitlab-support-readiness.gitlab.io/support-team/) is
-built from the information in that file. Many other Support tools and
+The [Support Team Home Page](https://gitlab-com.gitlab.io/support/team-pages/) is
+built from the information in that project. Many other Support tools and
 automations make use of it also. See the
 [Support team entry page](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry)
 of the [Support Team wiki](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/home)
-for details of the structure of the file.
+for details of the structure of an individual Support team member's file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
 
@@ -145,7 +144,6 @@ Information for and about the different parts of the Support Team can be found i
 - [/support/license-and-renewals](/handbook/support/license-and-renewals/) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
 - [/support/managers](/handbook/support/managers/) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
 - [/support/readiness](/handbook/support/readiness/) is the landing page for Support Readiness. Think: how is the support team preparing for X?
-  - [/support/support-ops](/handbook/support/readiness/operations/) is content that is for Support Operations. Think: how to change Zendesk forms and fields, and other ops details.
 
 Below we also have some commonly referenced pages:
 
@@ -160,7 +158,7 @@ Below we also have some commonly referenced pages:
 
 GitLab Support's vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
 
-The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company's overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
+The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company's overall strategic objectives, specific areas of focus are:
 
 - [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
 - [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
@@ -201,7 +199,7 @@ FY24 was a year of better understanding the needs of our customers. In FY25 we w
 - Improve our understanding of Support Delivery Quality and how we can consistently provide world class service.
 
 ---
-{{% include "includes/we-are-also-product-development.md" %}}
+{{% include "includes/engineering/we-are-also-product-development.md" %}}
 
 ## Dogfooding in Support
 
@@ -209,11 +207,11 @@ Citing our [dogfooding](/handbook/values/#dogfooding) operating principle, peopl
 
 Dogfooding is using a piece of GitLab *for its intended purpose*. For example, one *could* use GitLab issues as a newsletter (and we do! See: [Support Week in Review](#support-week-in-review)), but creating merge requests to help Issues serve as a newsletter more effectively wouldn't be dogfooding unless that improvement also helps its core use case.
 
-In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
+In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports customer results.
 
 At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/user/discussions/#add-an-internal-note).
 
-We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
+We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize customer results over any other consideration.
 
 ## OKRs
 
@@ -234,7 +232,7 @@ See [Managers/Hazards page](/handbook/support/managers/hazards-and-challenges)
 ## Communications
 
 The GitLab Support Team is part of the wider Engineering function. Be sure to check the
-[communications section in the Engineering handbook](/handbook/engineering/#communication)
+[communications section in the Engineering handbook](/handbook/engineering/)
 for tips on how to keep yourself informed about engineering announcements and initiatives.
 
 Here are our most important modes of communication:
@@ -338,6 +336,7 @@ variations, please refer to the [README file](https://gitlab.com/gitlab-com/supp
 | [#spt_apac](https://gitlab.enterprise.slack.com/archives/C07EJ2L3P7E) | Discuss topics specific to Global SEs in APAC |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
 | [#spt_us-government](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
+| [#spt_onboarding](https://gitlab.slack.com/archives/C07UJ1N8S1F) | New here? Topics related to onboarding |
 
 ##### Private Channels
 
@@ -354,8 +353,8 @@ The following private channels are permanent fixtures in support. Usage estimate
 | `#spt_managers-emea` | EMEA Managers+ | Used for sensitive topics that are applicable to EMEA managers that aren't appropriate for public channels | 4-5 threads per week |
 | `#spt_managers-amer` | AMER Managers+ | Used for sensitive topics that are applicable to AMER managers that aren't appropriate for public channels | 1-2 threads per week |
 | `#spt_hiring-mgmt` | Managers+, Recruiting, Finance | Used for coordinating offers and discussing hiring specifics that can be shared in the public channel | 1-2 threads per week |
-| `#fy23_support_promotions` | Managers+, People Business Partner | Used for coordinating and planning promotions in FY23 | 0 threads per week, mostly informational |
 | `#spt_leadership_internal` | Managers+, Staff+ | Private version of `#support_leadership`, used for sensitive topics where Staff and Managers are the appropriate audience | rarely used |
+| `#spt_staff_internal` | Staff+ | Used for sensitive topics that are applicable to Staff Engineers that aren't appropriate for public channels | rarely used |
 
 Before starting a new private channel, ask yourself *Why **can't** everyone contribute here?* Appropriate answers might be:
 
@@ -442,13 +441,19 @@ Details of these calls are on the [Weekly Support Team Call workflow page](/hand
 
 The Support management team meets regularly. Details of these calls are on the [Support Managers page](/handbook/support/managers)
 
+#### Support Monthly Business Review (MBR)
+
+The leadership team (Staff, Managers, Senior Managers, Directors) meet monthly to align on business objectives and cross-region collaboration. There is SAFE data shared, but a read-out is disseminated for wider team awareness.
+
 #### Support Regional Team Meetings
 
 Some regional Support teams have meetings oriented around company news, Support initiatives, training plans, and connectedness.
 
 | Weekday | Region | Meeting Name | Purpose |
 | :-----: | :----: | :----------: | :-----: |
-| Wednesday | EMEA | Weekly News | For team members reporting to Rebecca S |
+| Tuesday | APAC | Team Meeting | |
+| Tuesday | AMER | Team Meeting | |
+| Thursday | EMEA | Team Meeting |  |
 
 #### Senior Support Engineer Office Hours
 
@@ -658,8 +663,9 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [Support Channels](/handbook/support/channels/)
 - [On-Call](/handbook/engineering/on-call/)
 - [License & Renewals](/handbook/support/license-and-renewals/)
-- [Support Ops](/handbook/support/readiness/operations/)
 - [Advanced Topics](/handbook/support/advanced-topics/)
+- [Browser extensions](/handbook/support/browser-extensions)
+- [AI and Support Work](/handbook/support/ai)
 
 ### Documentation
 

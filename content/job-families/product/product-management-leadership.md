@@ -13,7 +13,7 @@ of GitLab's [product hierarchy](/handbook/product/categories/#hierarchy)
 
 - [Product Handbook](/handbook/product/)
 - [Product Leadership](/handbook/product/product-leaders/product-leadership/)
-- [Product Development Workflow](/handbook/product-development-flow/)
+- [Product Development Workflow](/handbook/product-development/how-we-work/product-development-flow/)
 - [Product Management Career Development Framework](/handbook/product/product-management/product-cdf-competencies/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
 
@@ -55,7 +55,7 @@ The Group Manager, Product is a [grade 9](/handbook/total-rewards/compensation/c
 
 - Coach Product Managers through their [responsibilities](/job-families/product/product-manager/#responsibilities)
 - Ensure PMs receive regular [CDF](/handbook/product/product-management/product-cdf-competencies/) feedback and, if desired, Career Coaching
-- Ensure that Product Managers participate in [Validation](/handbook/product-development-flow/#validation-track) and [Build](/handbook/product-development-flow/#build-track) track activities while following our product principles so that our Product Performance indicators are met
+- Ensure that Product Managers participate in [Validation](/handbook/product-development/how-we-work/product-development-flow/#validation-track) and [Build](/handbook/product-development/how-we-work/product-development-flow/#build-track) track activities while following our product principles so that our Product Performance indicators are met
 - Enable product managers to make the most effective decisions when [prioritizing R&D investment](/handbook/product/product-processes/#how-we-prioritize-work) in their [product groups](/handbook/company/structure/#product-groups) so that our upcoming releases contain relevant enhancements for our customers, users, prospects and us.
 - Convene a set of stable counterparts for your assigned [Product Hierarchy](/handbook/product/categories/#hierarchy) and Use Cases to ensure R&D and GTM [KPIs](/handbook/company/kpis/) are met
 - Join customer and partner visits that spawn ideas for new features
@@ -139,7 +139,7 @@ The Group PM, Fulfillment is the PM DRI for the [Fulfillment Section](/handbook/
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a Director of Product
 - Next, candidates will be invited to schedule a 45 minute peer interview with an Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute deep dive interview with a member of the Product team
@@ -164,7 +164,7 @@ The Director, Product Management is a [grade 10](/handbook/total-rewards/compens
   - Within the area of ownership, ensure that team creates product experiences that solve the job-to-be-done.
   - Across your peer group - work to identify areas to partner with peers to create single app experiences that solve the job-to-be-done.
 - Ensure adequate Career Coaching is available to all Product Managers in your organization
-- Maintain a comprehensive understanding of GitLab's overall, and Section specific Product Direction to spot, propose and complete appropriate [global optimizations](/handbook/values/#global-optimization) of our R&D investment
+- Maintain a comprehensive understanding of GitLab's overall, and Section specific Product Direction to spot, propose and complete appropriate [global optimizations](/handbook/values/#efficiency-for-the-right-group) of our R&D investment
 - Analyze GTM metrics and propose and complete improvements to our R&D and GTM interactions including [pricing](/handbook/company/pricing/), product positioning and process
 - Maintain priorities for and champion [acquisitions](/handbook/acquisitions/) that impact our [product maturity](https://about.gitlab.com/direction/#maturity)
 - Perform [product walk-throughs](/handbook/product/product-processes/#walk-through) regularly to highlight opportunities for improved workflows that span groups, stages and section.
@@ -206,7 +206,7 @@ The Director of Product Management, SaaS Platforms is the PM DRI for the [SaaS P
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with the VP of Product Management
 - Next, candidates will be invited to schedule a 45 minute second peer interview with a Product Director
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Product team
@@ -244,7 +244,7 @@ The next step in the Product Management Leadership job family is to move to the 
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with the VP of Product Management
 - Next, candidates will be invited to schedule a 45 minute second peer interview with a Product Director
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Product team

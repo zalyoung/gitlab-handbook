@@ -14,7 +14,7 @@ toc_hide: true
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -123,6 +123,8 @@ Service Desk tickets may use a different lifecycle with different statuses like 
 `waiting for customer` and `waiting for next response`. But that is to be defined.
 [See this discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/498393#note_2314175535) to learn more.
 
+There's a limit of `50` lifecycles per namespace.
+
 #### Statuses
 
 A status can be used in multiple lifecycles and can be attached to a work item based on the available lifecycle of
@@ -133,6 +135,8 @@ the work item type and namespace. The default lifecycle contains these statuses:
 - `Done`
 - `Won't do`
 - `Duplicate`
+
+There's a limit of max. `70` statuses per namespace. A max. of `30` statuses can be attached to a lifecycle.
 
 #### Status Categories
 
@@ -265,22 +269,30 @@ class WorkItems::Statuses::Custom::Status {
   namespace_id: Sharding key
   name
   color
+  category
+  description
 }
 class WorkItems::Statuses::Custom::Lifecycle {
   namespace_id: Sharding key
+  name
   default_open_status_id
   default_closed_status_id
   default_duplicate_status_id
 }
 class WorkItems::Statuses::Custom::LifecycleStatus {
   namespace_id: Sharding key
+  lifecycle_id
+  status_id
   position
 }
 class WorkItems::Statuses::SystemDefined::Status {
   name
   color
+  category
+  position
 }
 class WorkItems::Statuses::SystemDefined::Lifecycle {
+  name
   work_item_base_types: Array
   status_ids: Array
   default_open_status_id
@@ -290,9 +302,8 @@ class WorkItems::Statuses::SystemDefined::Lifecycle {
 class WorkItems::Type
 class WorkItems::TypeCustomLifecycle {
   namespace_id: Sharding key
-}
-class Namespace {
-  custom_status_enabled: Bool
+  work_item_type_id
+  lifecycle_id
 }
 
 WorkItem -- WorkItems::Statuses::CurrentStatus
@@ -304,7 +315,6 @@ WorkItems::Statuses::Custom::Status -- WorkItems::Statuses::Custom::LifecycleSta
 WorkItems::Statuses::Custom::LifecycleStatus -- WorkItems::Statuses::Custom::Lifecycle
 WorkItems::Statuses::Custom::Lifecycle -- WorkItems::TypeCustomLifecycle
 WorkItems::TypeCustomLifecycle -- WorkItems::Type
-WorkItems::Statuses::Custom::Lifecycle -- Namespace
 
 WorkItems::Statuses::SystemDefined::Status -- WorkItems::Statuses::SystemDefined::Lifecycle
 WorkItems::Statuses::SystemDefined::Lifecycle -- WorkItems::Type
@@ -326,18 +336,20 @@ For lists that collect work items from various root namespaces we won't check wh
 for the availability of data on the join model.
 If `custom_status_id` is set, use the custom status. If not use the system-defined status.
 To efficiently fetch this data for work item lists, we use a
-[bulk status resolver](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/178180/diffs#da91fc9eae9334a6f46f549656e2d6d0c69501b0)
+[status resolver](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/graphql/resolvers/work_items/statuses_resolver.rb)
 which only adds two additional queries. One to load the join model and another to load custom statuses.
 
 We use the fields `default_open_status_id`, `default_closed_status_id`, and `default_duplicate_status_id` to make
 automatic state/status transitions possible.
+When the assigned status for any of these changes, we won't change status for existing work items.
+Instead we'll [use the newly assignes status for new transitions or new items only](https://gitlab.com/gitlab-org/gitlab/-/issues/498394#note_2450687886).
 
 #### Namespace Configuration
 
 Each root namespace exclusively uses either system-defined statuses or custom statuses.
 When editing statuses for the first time, the system creates copies of all system-defined statuses as custom statuses.
 All work items of this namespace and its descendants will need to be migrated from the old to the new statuses
-(which will happen in the background).
+(which will happen in the background). After that there's no way back to using system-defined statuses for this namespace.
 
 Lifecycles and statuses can only be configured on the root namespace level in the first iterations.
 It's to be defined how the mechanic to configure on a lower level will work and which restrictions will apply.
@@ -359,6 +371,26 @@ by querying the widget definitions for the work item type.
 
 We'll add concrete queries once the widget API is finalized.
 
+##### Permissions
+
+###### Work item status
+
+We've decided not to introduce new permissions for work item statuses. Instead, authorization is handled
+by existing work item permissions like `read_work_item` or `update_work_item`.
+
+This approach avoids redundant permission checks by leveraging GraphQL's higher-level query execution
+for authorization, improving query performance by reducing the number of Permission checks.
+
+Additionally, work item status-specific resolvers like `StatusesResolver` and `AllowedStatusesResolver`
+ensure that the licensed feature is available and the feature flag is enabled before proceeding.
+
+###### Custom lifecycle and status
+
+The `admin_work_item_lifecycle` permission allows only maintainers to update custom lifecycles and their associated statuses.
+
+The `read_work_item_lifecycle` and `read_work_item_status` permissions allow access to details about custom lifecycles and custom
+statuses that belong to a given namespace.
+
 #### Status widget
 
 We use the `STATUS` widget.
@@ -369,6 +401,47 @@ We marked both widgets and fields as experiment in `17.9`, so we can rename them
 
 1. `STATUS` --> `VERIFICATION_STATUS` ([see MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/182520))
 1. `CUSTOM_STATUS` --> `STATUS` ([see MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/183026))
+
+#### Backfill status data for existing work items
+
+##### Backfill System Defined Status
+
+Each work item of a work item type that supports status should have a status assigned.
+We'll backfill the `system_defined_status_id` on `work_item_current_statuses` table, before adding status support for a work item type.
+
+To conserve database storage we'll only backfill status data for `open` work items.
+
+Although custom status is a licensed feature, we will backfill status data for all work items
+of a given work item type regardless of license.
+We will also perform automatic status transitions for all items, including those that are open, closed, or marked as duplicates.
+
+For example a newly created work item will receive the default open status,
+and when closed, it will transition to the default closed status. Or when a closed work item without a status
+would be reopened it would transition to default open status.
+
+See the [discussion on this topic on this issue](https://gitlab.com/gitlab-org/gitlab/-/work_items/517342).
+
+This approach ensures:
+
+1. Status is immediately available when a namespace adds a license.
+1. Work items maintain correct status assignments when a namespace changes tiers.
+
+This significantly reduces complexity by eliminating the need for additional data migrations during namespace tier changes.
+
+##### Backfill Custom Statuses (backup option)
+
+Alternatively, as a backup, we've discussed the option of backfilling custom statuses records, with system defined values.
+In this case we'd need to backfill not only `work_item_current_statuses`, but also for each root level Group we'd need to populate data in:
+
+- `work_item_custom_statuses` - 5 records per root Group
+- `work_item_custom_lifecycles` - 1 record per root Group
+- `work_item_custom_lifecycle_statuses` - 5 records per each `work_item_custom_lifecycles` record
+- `work_item_type_custom_lifecycles` - 2 records(Issue and Task) initially, per each `work_item_custom_lifecycles` record.
+
+This results in more database storage used from the start.
+
+The benefit being that we would not require an on-demand status migration from system defined statuses to
+custom statuses, see Option 1 in [Status migration and migration wizard](#status-migration-and-migration-wizard) section.
 
 #### Status migration and migration wizard
 
@@ -387,7 +460,26 @@ Optionally we'll also consider the mapping in list queries and include the old a
 We acknowledge that there might be a short time where status data is inconsistent in list views during migration.
 This is especially true for namespaces with a large number of work items.
 
-Details about the database structure and service architecture are to be defined.
+For iteration 2, we will avoid doing any status migrations by:
+
+1. Keeping the status mappings during the custom status transition
+1. Only allowing a single lifecycle and not allowing users to change the work item types it applies to
+1. Only allowing deletion of statuses that are not in use
+
+#### Status mappings and default fallbacks
+
+When a system-defined lifecycle is transitioned into a custom one, we create the custom statuses and store the
+system-defined status that it was converted from. This is stored in the `work_item_custom_statuses.converted_from_system_defined_status_identifier` column.
+
+`WorkItems::Statuses::CurrentStatus#status` takes these mappings into account and returns the custom status even when the record in the DB still
+contains the system-defined status identifier.
+
+Additionally, there are cases where work items will not have a `CurrentStatus` record. All existing work items before the feature flag is enabled will be in this state. Work items created before a namespace has the appropriate license are also in this state.
+
+`WorkItem#status_with_fallback` handles this and returns the default status depending on the work item's state. This also calls `WorkItems::Statuses::CurrentStatus#status` when the work item has a `CurrentStatus` record so it takes care of the system-defined status mapping as well.
+
+The `WorkItem.with_status` and `WorkItem.not_in_statuses` scopes can be used for filtering work items based on status including handling the mappings and
+fallback statuses.
 
 ### Namespaces downgrade to free tier
 
@@ -427,7 +519,8 @@ We'll use the feature flag `work_item_status_feature_flag` throughout the develo
 The actor needs to be the root group.
 
 For testing purposes, the feature flag is currently enabled in production for the Plan Stage testing
-group called [gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage).
+groups called [gl-demo-premium-plan-stage](https://gitlab.com/gl-demo-premium-plan-stage) and
+[gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage).
 
 We're using [this feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/issues/521286).
 
@@ -435,11 +528,13 @@ Since the feature will only be available in Premium and Ultimate tier, we consid
 The feature name is `work_item_status`.
 The name differs from the feature flag because we cannot use the same name.
 
-### Implementation Plan
+Status lists on legacy issue boards are managed under a separate licensed feature called `board_status_lists`.
+
+### Implementation and release plan
 
 We've identified these iterations for this initiative:
 
-#### Iteration 1
+#### Iteration 1 (internal dogfooding)
 
 - [Iteration 1 epic](https://gitlab.com/groups/gitlab-org/-/epics/14793)
 - Implement system-defined status and join model
@@ -448,21 +543,33 @@ We've identified these iterations for this initiative:
 - Implement state/status transitions
 - Add `/status` quick action
 
-#### Iteration 2
+#### Iteration 2 (GA)
 
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
 - Implement custom statuses
-- Board integration
+- Expand support to Issues
+- Board integration (Issues only)
+- Filter by a single status on list views (if ready only work item list, else legacy list, no support for legacy epic list)
 - Status management (create, update, reorder, delete)
+
+Iteration 2 is the GA release. The `work_item_status_feature_flag` feature flag will be used for internal testing and
+then dogfooding on `gitlab-org` and `gitlab-com`.
+
+##### Nice to have
+
 - Migration from labels to statuses
-- Expand support to Issues and Epics
 
-We'll likely release the feature after iteration 2 is completed.
+#### Iteration 3 (fast follow)
 
-#### Iteration 3
+- [Iteration 3 epic](https://gitlab.com/groups/gitlab-org/-/epics/17798)
+- Expand support to epics: epic detail view, epic list view, legacy epic board view. If the new board experience becomes available,
+skip implementing the legacy epic board view and focus on the new experience instead.
 
-- [Iteration 3 epic](https://gitlab.com/groups/gitlab-org/-/epics/14795)
+#### Iteration 4
+
+- [Iteration 4 epic](https://gitlab.com/groups/gitlab-org/-/epics/14795)
 - Customizable status for all work item types
+- Lifecycle management (create, update, assign work item types, delete)
 - Status available on dashboards (more complex because they can be fed by different root namespaces)
 - Calculations for milestone and iteration burndown
 
@@ -475,6 +582,17 @@ We'll likely release the feature after iteration 2 is completed.
 
 [System-defined statuses will only use english names](https://gitlab.com/groups/gitlab-org/-/epics/14793#note_2359390868).
 Customers can customize statuses to match their preferred language.
+
+## Telementry
+
+The following internal events are available to track changes to statuses, either when a custom status is updated for a namespace or when a work item's status changes.
+
+- `create_custom_status_in_group_settings`
+- `update_custom_status_in_group_settings`
+- `delete_custom_status_in_group_settings`
+- `change_work_item_status_value`
+
+[Here's the work item statuses dashboard](https://app.snowflake.com/ys68254/gitlab/#/custom-statuses-d8Wd9wmn7) in Snowflake.
 
 ## Alternative Solutions
 
@@ -491,6 +609,40 @@ Customers can customize statuses to match their preferred language.
 - Doesn't provide a first-class status integration into the product
 - Limits reporting capabilities
 
+## Decision registry
+
+This section documents key architectural and implementation decisions made during the development of this feature.
+
+1. Define system-defined entities in code rather than database tables.
+1. [Status will only be available in Premium and Ultimate tier](https://gitlab.com/gitlab-org/gitlab/-/issues/498393#note_2312781591).
+1. [No new permissions for work item statuses](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/184128#note_2402077740). Reuse `read_work_item` and `update_work_item`.
+1. Use the name `STATUS` widget for custom status. Rename existing `STATUS` widget to `VERIFICATION_STATUS`
+   and rename `CUSTOM_STATUS` widget to `STATUS`.
+1. [Statuses are unique across the namespace and are attached to a lifecycle](https://gitlab.com/gitlab-org/gitlab/-/work_items/517342#note_2359312888).
+   We don't create new statuses for each lifecycle. So the status `done` may be attached to multiple lifecycles.
+1. [System-defined statuses won't be internationalized](https://gitlab.com/groups/gitlab-org/-/epics/14793#note_2359390868).
+   We only use english names.
+1. We'll [dogfood iteration 1 internally](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2423284340).
+   and use the release plan outlined in this document.
+1. We'll [backfill only open work items](https://gitlab.com/gitlab-org/gitlab/-/issues/498395#note_2388702770)
+   with a default open status.
+1. We'll always add status data regardless of license to eliminate the need for additional data migrations during tier changes.
+1. Once a namespace uses custom statuses, [there's no way back to system-defined statuses](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/187267#note_2451249170).
+1. When the default open/closed/duplicate status of a lifecycle is changed, [it only affects new transitions and new item creations](https://gitlab.com/gitlab-org/gitlab/-/issues/498394#note_2450687886).
+1. [We decided on limits](https://gitlab.com/groups/gitlab-org/-/epics/17321#note_2451571648): max. `70` statuses and
+   `50` lifecycles per namespace and `30` statuses per lifecycle.
+1. We'll set the statuses for all items of supported work item types only if the feature flag state and license are enabled.
+1. We'll [show the default open status as a preselected value on the work item create form](https://gitlab.com/gitlab-org/gitlab/-/issues/526531#note_2457132393).
+1. We'll be implementing work item [status badge and filters in legacy issues list](https://gitlab.com/gitlab-org/gitlab/-/work_items/508015#note_2461199237).
+1. [Expanding support to epics](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13402#note_2491127675), including the epic detail view, epic list view,
+and legacy epic board view will be included in Iteration 3 (Fast follow). If the new board experience is available by the time of implementation, we'll skip the legacy board
+view and focus on the new experience instead.
+1. [Backfill Custom Statuses](#backfill-custom-statuses-backup-option) is added as a backup option if later on we determine that migration from system-defined statuses to custom statuses poses more challenges than initially foreseen.
+1. As part of Iteration 2, [we'll only allow the deletion of custom statuses that are not in use](https://gitlab.com/gitlab-org/gitlab/-/issues/535964#note_2558275085).
+Statuses that have already been assigned to a work item, have an associated status mapping or are set as one of the default statuses (open, closed, duplicate) in a lifecycle
+can still be updated, but not deleted.
+1. For iteration 2, we will not do any backfilling because we would need to wait for the release after a required stop to finalize the migration. Instead, we will [store the status mappings in the database](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191822#note_2512770051) when a system-defined lifecycle is converted to a custom lifecycle. Since we also cannot backfill the `work_item_current_statuses` table, we will have fallback logic on the backend so that we return the default status based on state when the associated `CurrentStatus` record is missing.
+
 ## Resources
 
 1. [Top level epic for this initiative](https://gitlab.com/groups/gitlab-org/-/epics/5099)
@@ -506,5 +658,11 @@ Please mention the current team in all MRs related to this document to keep ever
 We don't expect everyone to approve changes.
 
 ```text
-@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani
+@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani @stefanosxan @psimyn @engwan
+```
+
+Feel free to mention the following people to spread the word:
+
+```text
+@johnhope @amandarueda @caitlinsteele
 ```

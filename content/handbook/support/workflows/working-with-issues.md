@@ -62,7 +62,7 @@ Please see the product handbook to see [what information product wants us to pro
 
 Optional:
 
-[Search for Zendesk tickets based on the `GitLab Issues` custom field](/handbook/support/readiness/operations/docs/zendesk/searching#searching-by-custom-ticket-field). Copy and add the link to the search query as a comment to the issue, specifying that it's an internal link to a ZenDesk search of related tickets. This will give the PM more insight into how many customers have encountered an open bug, or have requested a certain feature.
+Search for Zendesk tickets based on the `GitLab Issues` custom field. Copy and add the link to the search query as a comment to the issue, specifying that it's an internal link to a ZenDesk search of related tickets. This will give the PM more insight into how many customers have encountered an open bug, or have requested a certain feature.
 
 **Note:** To obtain the field ID for the `GitLab Issues` field, you can reference [this repository file](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-forms-and-fields/-/blob/master/ticket_fields/active/GitLab%20Issues.yaml).
 
@@ -79,7 +79,7 @@ Required:
 
 For `~customer`+ any label that allows severity (most commonly `~"type::bug"`) labeled issues, a Severity estimate is required. If it is missing, please add them to attract PM attention to the issue:
 
-- [Severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity): Follow the definitions to the best of your ability when assigning severity. If it's an `~severity::1`, mention the PM and consider posting in the appropriate Slack channel as well.  As Support often has a better idea of the impact on the customer(s), please explain the impact in a comment when you assign the Severity label. Feel free to have the customer add a comment as well, adding any other context they feel might be important.
+- [Severity](/handbook/product-development/how-we-work/issue-triage/#severity): Follow the definitions to the best of your ability when assigning severity. If it's an `~severity::1`, mention the PM and consider posting in the appropriate Slack channel as well.  As Support often has a better idea of the impact on the customer(s), please explain the impact in a comment when you assign the Severity label. Feel free to have the customer add a comment as well, adding any other context they feel might be important.
 
 Optional, but highly recommended:
 

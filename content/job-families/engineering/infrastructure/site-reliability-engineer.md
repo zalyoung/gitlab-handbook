@@ -94,7 +94,7 @@ The Associate Site Reliability Engineer is a [grade 5](/handbook/total-rewards/c
    1. Terraform basic syntax and GitLab CI/CD configuration, pipelines, jobs
    1. Cloud resources provisioning and configuration through CLI/API
    1. Kubernetes basic understanding, CLI, service re-provisioning
-   1. Provisiong and setup metric in Prometheus, Thanos, and Grafana, alerts and silences
+   1. Provisiong and setup metric in Prometheus, Mimir, and Grafana, alerts and silences
    1. Understanding of how to do basic queries in logs tools for general questions
    1. Operating system (Linux) configuration, package management, startup and troubleshooting
    1. Block and object storage configuration
@@ -129,7 +129,7 @@ The Site Reliability Engineer is a [grade 6](/handbook/total-rewards/compensatio
    1. Terraform basic syntax and GitLab CI/CD configuration, pipelines, jobs
    1. Cloud resources provisioning and configuration through CLI/API
    1. Kubernetes basic understanding, CLI, service re-provisioning
-   1. Provisiong and setup metric in Prometheus, Thanos, and Grafana, alerts and silences
+   1. Provisiong and setup metric in Prometheus, Mimir, and Grafana, alerts and silences
    1. Provision and setup logs and queries for general questions
    1. Operating system (Linux) configuration, package management, startup and troubleshooting
    1. Block and object storage configuration
@@ -172,7 +172,7 @@ Are Site Reliability Engineers who meet the following criteria:
    1. Advanced Terraform syntax and GitLab CI/CD configuration, pipelines, jobs
    1. Advanced knowledge of cloud services
    1. Kubernetes: cluster provisioning and new services
-   1. Prometheus, Thanos, and Grafana: service catalog metrics and recording rules for alerts
+   1. Prometheus, Mimir, and Grafana: service catalog metrics and recording rules for alerts
    1. Log shipping pipelines and incident debugging visualizations
    1. Operating system (Linux) configuration, package management, startup and troubleshooting
    1. Block and object storage configuration and debugging
@@ -192,7 +192,7 @@ Are Site Reliability Engineers who meet the following criteria:
 ##### Collaboration and Communication
 
 1. Leads initiatives and problem definition and scoping, design, and planning through epics and blueprints.
-1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](/handbook/engineering/infrastructure/incident-review/).
+1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](/handbook/engineering/infrastructure-platforms/incident-review/).
 1. Perform and run blameless RCAs on incidents and outages aggressively looking for answers that will prevent the incident from ever happening again.
 1. For stable counterpart assignments, maintain awareness and actively influence stage group plans and priorities through participation in stage group meetings and async discussions. Act as a champion for reliability.
 

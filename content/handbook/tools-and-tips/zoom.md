@@ -13,7 +13,7 @@ There have been a number of security researchers looking at Zoom, which has resu
 Here are a few important things to keep in mind, especially as you read through the Zoom tips below:
 
 - Always ensure your operating system as well as the Zoom application are up-to-date with the latest patches.
-- Ensure you've followed the [laptop configuration guidelines](/handbook/security/corporate/systems/#laptop-or-desktop-system-configuration).
+- Ensure you've followed the [laptop configuration guidelines](/handbook/security/corporate/end-user-services/laptop-management/laptop-security).
 - Make a customized [Personal link](#making-a-customized-personal-link).
 - [Enable the "Waiting Room"](#enabling-the-waiting-room-for-your-personal-meeting-room) for your meetings.
 - You can set a password for your meetings, but remember if your meetings are in your calendar, anyone who can view your calendar will see the password if you include it in the meeting invite.
@@ -148,6 +148,15 @@ Follow these steps to set it up:
 1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
 1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
 
+### Enable screen share setting
+
+Enable the ability to share your screen for your Zoom app on your MacBook.
+
+1. Open Zoom and start a meeting using "New meeting".
+1. Share > select any screen > Share
+1. A prompt should appear asking you to enable this in your Mac settings. If not, go to your Mac System Settings > Privacy & Security > Screen & System Audio Recording > enable zoom and follow the prompt.
+1. Restart Zoom.
+
 ### Recording Zoom meetings in HD
 
 1. Navigate to your [Zoom profile settings](https://gitlab.zoom.us/profile/setting).
@@ -164,14 +173,12 @@ Your settings will now be updated to record zoom meetings in full HD.
 It's recommended you enable the [Waiting Room](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063329) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).
 There are a few steps to get this enabled for personal meetings:
 
-1. Navigate to the [settings page](https://gitlab.zoom.us/profile/setting) in your browser.
-1. In the "Meeting" tab under "Security", find the option "Waiting room" and enable it for all participants.
-1. Navigate to the [meetings page](https://gitlab.zoom.us/meeting).
-1. Select the top tab "Personal Room".
-1. Towards the bottom of the page, select "Edit" and check the "Waiting Room" box.
-1. Select "Save".
+1. Go to [settings page](https://gitlab.zoom.us/profile/setting).
+1. In the [Meeting](https://gitlab.zoom.us/profile/setting?tab=meeting) tab under `Security`, find the option `Waiting room` and enable it for all participants.
+1. You can go to `Customize Waiting Room` to use the default Zoom screen, GitLab branded logo/video, or a custom image, for participants in the waiting room to see before the host joins the meeting. You will need to enter a title for the video and press "Save".
+   - By default it is set to the GitLab branded video.
 
-Now all meetings that use your Personal Meeting ID (PMI) will require you to "admit" anyone who joins the meeting.  If you use this feature, please be sure to note in the meeting invite itself that this has been enabled.
+![Zoom Waiting Room](/images/tools-and-tips/zoom-waiting-room-video.png)
 
 ### Enable passcodes for all meetings
 
@@ -318,7 +325,7 @@ This also mitigates the issue of potential weak communication encryption since t
 
 ### Large meeting considerations
 
-It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-assembly), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
+It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-all-company-meetings/), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
 
 If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute. If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts."
 
@@ -422,8 +429,8 @@ available. Processing takes about 15 minutes, so the video files appear before t
 #### Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
-1. Click `AI Companion` in the meeting control toolbar.
-1. Click `Start summary`.
+1. Click `AI Companion` in the meeting control toolbar to activate its automatic "Meeting Summary" feature
+1. Make sure that `Meeting summary` option is selected.
 1. Participants will see a notification that AI Companion is active and analyzing the discussion.
 1. Once the meeting ends, the summary will be emailed to the meeting host and meeting invitees in our organization.
 
