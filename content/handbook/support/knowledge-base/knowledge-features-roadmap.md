@@ -19,6 +19,7 @@ We have features and requests that are being addressed and considered as part of
 |Content Standards. Formatting, Links work, spelling, etc.               | Investigating   | [Issue 6887](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6887)              |
 |Add Knowledge Base training to the Support Training                     | Investigating   | TBD                                                                                              |
 |Draft article created automatically by a button/api -no touch by SE.    | Invesitgating   | [6926](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6926)                    |
+|Add Troubleshooting information to Knowledge articles                   | In Discussion   | in discussion with Diana Logan and David Tuan.                                                   |
 |Additional layout changes for second layer of knowledge articles.       | In Progresss    | [6936](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6936)                    |
 
 Note: For a more Detailed outline of these features read more about them [Feature and Status Phase 2](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g35224d618b1_0_0#slide=id.g35224d618b1_0_0) 
