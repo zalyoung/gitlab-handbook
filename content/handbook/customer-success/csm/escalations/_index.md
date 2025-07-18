@@ -105,7 +105,7 @@ __Immediately__
       1. If a regional CSE leader is the DRI, review the CS Help - Escalation Support case that was opened by an AE, RM, SA, or other GitLab employee who identified the escalation.
 1. Create a [slack channel](#temporary-slack-channel) to facilitate communication internally at GitLab during the escalation.
 1. [Identify Escalation DRI and immediate asks](#identify-escalation-dri-and-immediate-asks)
-1. An a that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`.
+1. Watch for the auto [escalation declaration](#declare-the-escalation) in `#escalated_customers`.
 
 __Within 24 hours__
 
@@ -173,7 +173,7 @@ For example:
 
 #### Declare the escalation
 
-After the escalation case is opened in Salesforce, a post will be automatically added to the `#escalated_customers` channel to declare the escalation. This process is followed for all except PubSec customers, where we will need the post be added manually. Here's an example message:
+After the escalation case is opened in Salesforce, a post will be automatically added to the `#escalated_customers` channel to declare the escalation. This process is followed for all except PubSec customers, where you will need to manually post the escalation using the following template:
 
 - New Escalation
 - __Customer__: "<customer_name>"
@@ -194,7 +194,7 @@ If the escalation is product related, a Product DRI is required. Please assign t
 The DRI owns the functions as outlined here:
 
 - If an escalation status changes significantly, ensure that updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". 
-    - Select "Update" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where we will need the post be added manually. 
+    - Select "Update" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where you will need to post the update manually.
     - Apply the "Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
     - The Gainsight Escalation Update Timeline template questions are :
 
@@ -226,7 +226,7 @@ In rare instances, there may be multiple reasons for a customer to be escalated 
 - When the issue(s) related to the escalation are resolved or move into a non-escalated state:
 
   - Post an Escalation Closure Timeline entry in the Gainsight CTA with the status and resolution. Be sure to use the "Escalation Closure" Timeline template in the update (selectable from top right hand corner of the "Notes" box in Timeline).
-  - Select "Closure" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where we will need the post be added manually to the channel.
+  - Select "Closure" in the "Post to Slack" field dropdown, which will be used to trigger an automated notification to be sent to the `#escalated_ customers` channel. This hourly process is followed for all except PubSec customers, where you will need to post the escalation closure update manually. 
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
