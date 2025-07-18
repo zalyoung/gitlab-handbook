@@ -24,6 +24,7 @@ status: active
    actionable advice for contributors.
 1. Our CI/CD pipeline will block merge requests that do not meet secure development standards
    we establish for our AI offerings.
+1. Automated scripts are established to setup local working environment and help in testing AI features on the various AI projects.
 
 ## Roles and Responsibilities
 
