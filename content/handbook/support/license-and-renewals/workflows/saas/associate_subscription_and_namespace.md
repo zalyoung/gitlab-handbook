@@ -10,6 +10,16 @@ Customers who purchase from GitLab Partners, resellers, AWS, and/or GCP have **r
 
 All SaaS customers should provision their subscriptions from CustomersDot as described under [Customer self-serve: associating the subscription and namespace](/handbook/support/license-and-renewals/workflows/saas/associate_subscription_and_namespace#customer-self-serve-associating-the-subscription-and-namespace).
 
+## Provisioning subscriptions to personal namespaces
+
+Associating a subscription with a personal namespace is [deprecated](https://gitlab.com/gitlab-org/gitlab/-/issues/249518). If a situation is encountered where a customer has their subscription tied to a personal namespace, we need to guide them to moving the subscription to a group namespace. This can be done with the following steps:
+
+1. Advise them of the deprecation.
+2. Recommend [renaming](https://docs.gitlab.com/user/profile/#change-your-username) the current user  e.g. username_1. They can also just create a new group if the path is not important to them.
+3. [Create a top-level group](https://docs.gitlab.com/user/group/#create-a-group) with the previous username
+4. [Transfer the projects](https://docs.gitlab.com/user/project/settings/migrate_projects/#transfer-a-project-to-another-namespace) (& invite members?)
+5. [Transfer the subscription](https://docs.gitlab.com/subscriptions/gitlab_com/#link-subscription-to-a-group) to the group
+
 ## Troubleshooting 502 errors while provisioning the subscription
 
 While handling the subscription provisioning requests, we might encounter a 502 error while impersonating the user on the customer portal, this occurs when an admin accidentally links their GitLab.com admin account with the customer portal account, due to which the customer portal tries to fetch all the groups that are accessible to the admin user on GitLab.com and eventually returns a 502 error.
