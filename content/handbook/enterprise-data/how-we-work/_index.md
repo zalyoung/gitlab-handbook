@@ -101,11 +101,11 @@ The Data Team backlog consists of all issues in the `workflow::2 - waiting for p
 
 Data Team Members are empowered to make scheduling decisions independently for Business Operations projects, following GitLab's [Manager of One](https://handbook.gitlab.com/handbook/values/#manager-of-one) principle. Team members should:
 
-1. **Consult with their manager when needed** - Seek guidance for complex decisions or when additional support is required
-2. **Assess their current availability and workload** - Review ongoing commitments and capacity
-3. **Evaluate business impact and urgency** - Consider both immediate needs and strategic value
-4. **Make autonomous decisions** on what work to prioritize and pick up next
-5. **Communicate decisions transparently** - Update issue assignments and stakeholders promptly
+1. **Assess their current availability and workload** - Review ongoing commitments and capacity
+2. **Evaluate business impact and urgency** - Consider both immediate needs and strategic value
+3. **Make autonomous decisions** on what work to prioritize and pick up next
+4. **Communicate decisions transparently** - Update issue assignments and stakeholders promptly
+5. **Consult with their manager when needed** - Seek guidance for complex decisions or when additional support is required
 
 #### Dynamic Prioritization and Workload Management
 
