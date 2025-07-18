@@ -231,9 +231,11 @@ In rare instances, there may be multiple reasons for a customer to be escalated 
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
 - Gainsight Escalation Closure Timeline template questions:
+
 - Please provide a closure update answering the following questions:
+
 1. Did the escalation situation end with a positive outcome, negative outcome, or no outcome?
-1.    Were the defined exit criteria met?
+1. Were the defined exit criteria met?
 1. Give a brief summary of the actions of the team that helped close out this escalation ticket
 
 ## CSM Manager's role in Escalations
