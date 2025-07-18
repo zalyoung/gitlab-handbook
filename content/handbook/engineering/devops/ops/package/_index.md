@@ -116,18 +116,7 @@ An issue with weight 1 should take no more than 2 days to complete.
 
 ### Breaking Changes Process
 
-[Breaking changes](https://docs.gitlab.com/ee/development/deprecation_guidelines/#minimize-the-impact-of-breaking-changes) can be disruptive to our customers' workflow and we attempt to avoid them or reduce the impact.  When a breaking change is unavoidable, we provide as much visibility and advance notice as possible.
-
-1. Announce deprecations, breaking changes, and removals at least 3 milestones before implementation
-2. Before major version milestone:
-   - Implement breaking change with a feature flag
-   - Feature flags are mandatory unless explicitly justified
-3. In major version milestone:
-   - Roll out the feature flag
-   - If stable, open feature flag cleanup MR
-   - If issues occur:
-     - Fix before milestone end and re-roll out, or
-     - Disable flag and defer to next major version
+Review and follow the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) as leadership approval is required before announcing or proceeding with any breaking change.
 
 ### Releasing New Package Formats
 

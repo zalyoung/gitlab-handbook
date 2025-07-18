@@ -1196,11 +1196,7 @@ When the MR is approved, add the `Ready` label before merging.
 
 Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/ee/update/deprecations.html) and in the release post of the announcement's corresponding milestone.
 
-Before making an announcement, review the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) to ensure you:
-
-- Are minimizing disruption for our customers.
-- Are providing the required advance notice for workflow changes.
-- Have [determined if the change is a breaking change](https://docs.gitlab.com/ee/development/deprecation_guidelines/).
+Review and follow the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) as leadership approval is required before announcing or proceeding with any breaking change.
 
 #### Milestone due dates
 
@@ -1323,13 +1319,11 @@ When the MR is approved, add the `Ready` label before merging.
 
 ## Major releases
 
-Major releases happen once a year and start a new versioning cycle: 14.0 - 14.10 --> 15.0 and so on.  Contribution to and management of content for major releases follows the same schedule as [monthly releases](#schedule). But for major releases, the Release Post Manager can expect some extra coordination and communication from the Social, PR, and Marketing teams, due to extra activities and needs for a major release. Additionally, during a major release, the Release Post Manager may need to support PM volunteers managing communication of removals that are breaking changes.
+Major releases happen once a year and start a new versioning cycle: 14.0 - 14.10 --> 15.0 and so on.  Contribution to and management of content for major releases follows the same schedule as [monthly releases](#schedule). But for major releases, the Release Post Manager can expect some extra coordination and communication from the Social, PR, and Marketing teams, due to extra activities and needs for a major release. 
 
 ### Communicating breaking changes
 
-Product Operations will lead the communication of breaking changes for major releases as part of the release post. It is important the breaking changes be flagged for SaaS users prior to the rollout of the updates in the major version, so they are prepared and their workflow is not unexpectedly disrupted. Beginning as early as 3 milestones ahead of the major release, Product operations will start communictions/coordination for announcements and a [breaking changes blog](https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/). Starting as early as 2 milestones ahead of the major release, Product Operations we will use the [broadcast message feature](https://docs.gitlab.com/ee/administration/broadcast_messages.html) to communicate upcoming breaking changes with SaaS users.
-
-Product Operations initiates breaking changes communications when they're assigned an [automated GitLab issue](https://gitlab.com/gitlab-com/Product/-/tree/main/.gitlab/issue_templates/ProdOps-Breaking-Changes-Comms.md), with a task list and timeline. These communications rampup three minor releases before the major release. For example: if the major 15.0 release is planned for May 22, the communications rampup with the automated issue being generated  during release 14.8.
+Product and Engineering Managers are responsible for the communications plan for any breaking changes they are releasing. For major releases we also publish a [blog post](https://about.gitlab.com/blog/a-guide-to-the-breaking-changes-in-gitlab-18-0/) that describes all of the breaking changes in one place.
 
 ## Adding content
 
