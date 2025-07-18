@@ -38,17 +38,17 @@ flowchart TB
         slack_channels{check slack channel}
         next_channel(move to next slack channel)
         failed_pipeline(identify failure)
-        existing_issue{issue\nalready\nreported?}
+        existing_issue{issue already reported?}
         new_issue(create issue if does not already exist)
         tag_pipeline(notate issue in comment on pipeline run)
-        incident{incident\nworthy?}
+        incident{incident worthy?}
         notify_incident(Notify about escallation)
         open_incident(Open incident)
         update_incident(Update teams about incident)
         eyes(tag pipeline run with :eyes: emoji)
         fire_engine(replace :eyes: with :fire_engine: emoji)
         boom(replace :eyes: with :boom: emoji)
-        another_failure{more\nfailures?}
+        another_failure{more failures?}
         investigate(investigate root cause for found failures)
         fix_tests(fix tests if possible)
         quarantine_tests(quarantine tests if necessary)
@@ -58,23 +58,23 @@ flowchart TB
             dri_handoff(handoff to next DRI anything that is still in flight)
 
         %% external links
-        click failed_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#review-the-failure-logs"
-        click new_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#create-an-issue"
-        click existing_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#known-failures"
-        click investigate "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#investigate-the-root-cause"
+        click failed_pipeline "#review-the-failure-logs"
+        click new_issue "#create-an-issue"
+        click existing_issue "#known-failures"
+        click investigate "#investigate-the-root-cause"
         click incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack"
-        click notify_groups "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#notify-group-in-all-cases"
-        click fix_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#fixing-the-test"
-        click quarantine_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#quarantining-tests"
+        click notify_groups "#notify-group-in-all-cases"
+        click fix_tests "#fixing-the-test"
+        click quarantine_tests "#quarantining-tests"
         click open_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#failure-needs-escalation"
-        click tag_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#linking-issue"
-        click eyes "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#emoji-used"
-        click fire_engine "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#emoji-used"
-        click boom "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#emoji-used"
+        click tag_pipeline "#linking-issue"
+        click eyes "#emoji-used"
+        click fire_engine "#emoji-used"
+        click boom "#emoji-used"
           click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
               click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
-        click notify_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#failure-needs-escalation"
-        click update_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#notify-group-in-all-cases"
+        click notify_incident "#failure-needs-escalation"
+        click update_incident "#notify-group-in-all-cases"
 
         %% diagram
         slack_channels -->|failed pipeline run| eyes
@@ -157,7 +157,7 @@ Known failures should be linked to the current [pipeline triage report](https://
 1. If the issue has already been reported please use the existing issue to track the latest status.
 1. If there is no existing issue for the failure, please [create an issue](#create-an-issue) using one of [classification labels](#classify-and-triage-the-test-failure) via the steps below.
 
-In the relevant Slack channel:
+{{% a "emoji-used" %}}In the relevant Slack channel:
 
 1. Apply the :eyes: emoji to indicate that you're investigating the failure(s).
 1. If there's a system failure (e.g., Docker or runner failure), retry the job and apply the :retry: emoji. Read below for examples of system failures.
